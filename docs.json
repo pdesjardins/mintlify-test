@@ -16,107 +16,107 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "docs//apiDevGuide-portalDevGettingStartedOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-chooseYourIntegrationTypeOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-ifYoureACustomIntegrationDeveloperOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-ifYoureAStandardApiAccessDeveloperOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-ifYoureAnAnalyticsApiDeveloperOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiOverviewOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-authenticationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalChecklistsAndTestPlansOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalDevGettingStartedOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-chooseYourIntegrationTypeOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureACustomIntegrationDeveloperOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureAStandardApiAccessDeveloperOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureAnAnalyticsApiDeveloperOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiOverviewOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-authenticationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalChecklistsAndTestPlansOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Orders",
                         "pages": [
-                            "docs//apiDevGuide-apiOrdersOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiOrdersOvercviewOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-apiOrdersOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiOrdersOvercviewOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Payments",
                         "pages": [
-                            "docs//apiDevGuide-portalApiGettingPaymentInformationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalApiPaymentsOverview",
-                            "docs//apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalApiGettingPaymentInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalApiPaymentsOverview",
+                            "docs/en-us/apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Menus",
                         "pages": [
-                            "docs//apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAboutTheMenusApiOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiGettingMenuInformationOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAboutTheMenusApiOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiGettingMenuInformationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Stock",
                         "pages": [
-                            "docs//apiDevGuide-portalApiGettingStockOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiStock",
-                            "docs//apiDevGuide-apiGettingStockInformationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalApiGettingStockOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiStock",
+                            "docs/en-us/apiDevGuide-apiGettingStockInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Restaurant info",
                         "pages": [
-                            "docs//apiDevGuide-portalApiGettingRestaurantInfoOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiRestaurantInfo",
-                            "docs//apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalApiGettingRestaurantInfoOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiRestaurantInfo",
+                            "docs/en-us/apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Employees",
                         "pages": [
-                            "docs//apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalApiGettingEmployeeInformationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalApiGettingEmployeeInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Cash management",
                         "pages": [
-                            "docs//apiDevGuide-portalApiGettingCashManagementEntriesOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
-                            "docs//apiDevGuide-apiGettingCashManagementInformationOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalApiGettingCashManagementEntriesOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
+                            "docs/en-us/apiDevGuide-apiGettingCashManagementInformationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Webhooks",
                         "pages": [
-                            "docs//apiDevGuide-portalWebhooksOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiUsingWebhooksOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalWebhooksReferenceOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalWebhooksOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiUsingWebhooksOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalWebhooksReferenceOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Outbound integrations",
                         "pages": [
-                            "docs//apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-portalOutboundApiOverviewOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalOutboundApiOverviewOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Analytics",
                         "pages": [
-                            "docs//apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAboutAnalyticsOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsMetricsReportingDataOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsLaborReportingDataOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsPayoutReportingDataOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex",
-                            "docs//apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAboutAnalyticsOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsPayoutReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex"
                         ]
                     }
                 ]
