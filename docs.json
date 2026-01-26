@@ -1,122 +1,233 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Mint Starter Kit",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.png",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Developer guide",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "docs//apiDevGuide-portalDevGettingStartedOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-chooseYourIntegrationTypeOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-ifYoureACustomIntegrationDeveloperOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-ifYoureAStandardApiAccessDeveloperOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-ifYoureAnAnalyticsApiDeveloperOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiOverviewOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-authenticationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalChecklistsAndTestPlansOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Orders",
+                        "pages": [
+                            "docs//apiDevGuide-apiOrdersOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiOrdersOvercviewOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Payments",
+                        "pages": [
+                            "docs//apiDevGuide-portalApiGettingPaymentInformationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalApiPaymentsOverview",
+                            "docs//apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Menus",
+                        "pages": [
+                            "docs//apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAboutTheMenusApiOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiGettingMenuInformationOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Stock",
+                        "pages": [
+                            "docs//apiDevGuide-portalApiGettingStockOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiStock",
+                            "docs//apiDevGuide-apiGettingStockInformationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Restaurant info",
+                        "pages": [
+                            "docs//apiDevGuide-portalApiGettingRestaurantInfoOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiRestaurantInfo",
+                            "docs//apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Employees",
+                        "pages": [
+                            "docs//apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalApiGettingEmployeeInformationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Cash management",
+                        "pages": [
+                            "docs//apiDevGuide-portalApiGettingCashManagementEntriesOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
+                            "docs//apiDevGuide-apiGettingCashManagementInformationOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Webhooks",
+                        "pages": [
+                            "docs//apiDevGuide-portalWebhooksOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiUsingWebhooksOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalWebhooksReferenceOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Outbound integrations",
+                        "pages": [
+                            "docs//apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-portalOutboundApiOverviewOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromSearchIndex"
+                        ]
+                    },
+                    {
+                        "group": "Analytics",
+                        "pages": [
+                            "docs//apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAboutAnalyticsOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsMetricsReportingDataOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsLaborReportingDataOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsPayoutReportingDataOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex",
+                            "docs//apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Guides",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API reference",
+                "groups": [
+                    {
+                        "group": "API documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoint examples",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "href": "https://mintlify.com/docs",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://mintlify.com/blog",
+                    "icon": "newspaper"
+                }
             ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
