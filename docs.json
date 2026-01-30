@@ -33,7 +33,6 @@
                         "pages": [
                             "docs/en-us/apiDevGuide-apiOrdersOmitChunkFromSearchIndex",
                             "docs/en-us/apiDevGuide-apiOrdersOvercviewOmitChunkFromSearchIndex",
-                            "docs/en-us/apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex",
                             "docs/en-us/apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex"
                         ]
                     },

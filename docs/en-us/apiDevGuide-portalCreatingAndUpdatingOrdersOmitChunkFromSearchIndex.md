@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiOrdersOmitChunkFromSearchIndex.md
 parentSectionTitle: "Chapter 2. Orders"
-previousSectionFile: apiDevGuide-apiDailyOrderForTrackingExcessFood.md
-previousSectionTitle: "Daily order for tracking excess food"
+previousSectionFile: apiDevGuide-apiOrdersOmitChunkFromSearchIndex.md
+previousSectionTitle: "Chapter 2. Orders"
 nextSectionFile: apiDevGuide-apiVoidOrder.md
 nextSectionTitle: "Void an order"
 externalReferences: [https://doc.toasttab.com/openapi/orders/overview/, https://doc.toasttab.com/openapi/orders/operation/pricesPost/]

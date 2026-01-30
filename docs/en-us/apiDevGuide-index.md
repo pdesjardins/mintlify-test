@@ -5,8 +5,8 @@ type: book
 documentId: apiDevGuide
 nextSectionFile: apiDevGuide-devPortalDevGuideIntro.md
 nextSectionTitle: "Developing a Toast integration"
-procedures: 61
-codeExamples: 329
+procedures: 62
+codeExamples: 339
 ---
 
 # Developer guide

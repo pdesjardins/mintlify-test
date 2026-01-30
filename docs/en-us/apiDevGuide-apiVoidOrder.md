@@ -32,7 +32,7 @@ You might want to void an order if:
 
 
 
-When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated.**Even if an order is voided, you can still retrieve the order with the `/orders/*`{guid}`*`and `/ordersBulk`endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
+When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated.**Even if an order is voided, you can still retrieve the order with the `/orders/*`{guid}`*`and `/ordersBulk`endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 
 Voided orders can also be found in the Ordersand Order detailsreports in Toast Web.
 

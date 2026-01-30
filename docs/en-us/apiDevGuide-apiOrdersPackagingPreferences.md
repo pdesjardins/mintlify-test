@@ -210,5 +210,5 @@ The example below shows the response data for a request to create an order that 
   
 #### Request an order with packaging preferences
 
-You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](apiOrdersGetDetailedInfoAboutOneOrder.html).
+You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 
