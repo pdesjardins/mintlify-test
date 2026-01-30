@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Labor reporting data
-
 ### Labor reporting data overview
 
 Labor reporting data includes detailed information about employees and jobs that are paid hourly. For more information about what is included in the labor reporting data, see [Understanding the labor reporting data](apiAnalyticsLaborReportingDataUnderstandingData.html). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).

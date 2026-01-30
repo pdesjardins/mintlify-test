@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## General Toast API information
-
 ### Using REST APIs
 
 Many Toast APIs are [Representational State Transfer](https://developer.mozilla.org/en-US/docs/Glossary/REST)(REST) APIs. You can use REST APIs to connect your software and information systems to the Toast platform. REST APIs can perform functions including the following.

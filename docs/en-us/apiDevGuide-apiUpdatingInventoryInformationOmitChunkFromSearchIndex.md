@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Updating stock information
-
 ### Updating stock
 
 You can use the [stock API](https://doc.toasttab.com/openapi/stock/overview/)to update stock inventory information for menu items and modifiers (via their underlying menu item references).

@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Getting payment information
-
 ### Getting all payments for a restaurant
 
 Send a `GET`request to the `/payments`endpoint of the orders API to get a JSON array of the GUIDs of the payments processed in a business day at your restaurant. A business day's cutoff is defined by the restaurant's `closeoutHour`, which you can retrieve with the [restaurant API](apiRestaurantInformation.html).

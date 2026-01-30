@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## API overview
-
 ### API overview
 
 The Toast platform REST web service APIs make it easier and more efficient to work with location data. This guide is intended for software engineers, technical managers, and other staff responsible for integrating third-party systems with the Toast platform.

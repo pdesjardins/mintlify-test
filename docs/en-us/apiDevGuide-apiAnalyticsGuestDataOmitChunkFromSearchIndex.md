@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Guest reporting data
-
 ### Guest reporting data overview
 
 Guest reporting data includes payment details associated with a guest's payment card. For more information, see [Understanding the guest reporting data](apiAnalyticsGuestDataUnderstandData.html). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).

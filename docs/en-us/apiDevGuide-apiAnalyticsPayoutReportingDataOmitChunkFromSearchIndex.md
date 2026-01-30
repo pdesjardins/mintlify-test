@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Payout reporting data
-
 ### Payout reporting data overview
 
 Payout reporting data includes a detailed look at the deposits from credit card payments. Three endpoints can be used to analyze the payout data:

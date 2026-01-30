@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Restaurant information
-
 ### Restaurant information overview
 
 The restaurant information data includes the restaurant GUID, restaurant name, active status, test mode status, and archive status for every restaurant in a management group.

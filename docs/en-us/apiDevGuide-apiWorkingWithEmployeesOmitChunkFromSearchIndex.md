@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Updating employee information
-
 ### Adding an employee
 
 To add an employee to the restaurant, send a `POST`request to the `/labor/v1/employees`endpoint of the labor API .

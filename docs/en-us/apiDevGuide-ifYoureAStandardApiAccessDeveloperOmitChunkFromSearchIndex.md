@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## If you're a standard API access developer
-
 ### Standard API access overview
 
 Standard API access provides you with credentials with read-only access to Toast’s APIs, which you can use to read and review data from a single location or multiple locations in your management group. Standard API access allows you to:

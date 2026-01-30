@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Checklists and test plans
-
 ### Checklist and test plans overview
 
 The checklists are intended to help you build a thorough and robust integration that avoids many anticipated issues. They are a guideline. They are not a complete and comprehensive list of all things you need to address before taking your integration live. When you do your development, use your judgment and consider your integration's unique functionality.

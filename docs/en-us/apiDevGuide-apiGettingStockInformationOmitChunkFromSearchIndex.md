@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Getting stock information
-
 ### Getting stock using the stock webhook
 
 To use the stock webhook, you must create a *webhook endpoint*. This is the URL of a webhook consumer service that can receive webhook events from the Toast platform. Once you have a webhook endpoint, Toast support can create a webhook subscription for your integration that associates your webhook endpoint with stock webhook events.

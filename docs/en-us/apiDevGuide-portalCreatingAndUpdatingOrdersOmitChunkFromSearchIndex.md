@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Updating order information
-
 ### Creating orders
 
 To create an order in the Toast platform, you send a `POST`request that contains a JSON `Order`object to the `/orders`endpoint of the orders API.

@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Tender provider integrations
-
 ### Tender provider integrations overview
 
 You can use the Toast tender API to integrate your tender provider with the Toast platform. The tender API supports the [Hotel property management system integration](apiTenderPmsIntegration.html)and enables a hotel restaurant to directly bill a guest at the hotel, for example, by using their room number or name.

@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Gift Card Integrations
-
 ### Gift card integration overview
 
 This section explains how to implement an integration with the Toast platform that allows the Toast POS to process gift card transactions using your gift card provider service.

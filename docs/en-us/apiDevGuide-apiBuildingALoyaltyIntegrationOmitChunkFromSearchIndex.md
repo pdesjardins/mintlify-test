@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Loyalty program integrations
-
 ### Loyalty program integration overview
 
 You can use the Toast loyalty integration API to integrate your loyalty program with the Toast platform.

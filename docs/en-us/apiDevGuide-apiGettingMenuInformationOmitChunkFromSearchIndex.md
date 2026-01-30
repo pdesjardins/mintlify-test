@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Getting menu information
-
 ### Determining if a restaurant's menu data has gone stale
 
 There are two methods for determining if the menu data your integration client has for a restaurant has gone stale, the `menus`webhook and the `/metadata`endpoint. You should not make a call to the `/menus`endpoint for a restaurant unless you have used one of these methods to determine that the menu data you have for that restaurant is stale. While this recommendation applies to all clients of the menus API, it is particularly important for clients that have limited bandwidth.

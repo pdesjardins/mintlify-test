@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Aggregated sales reporting data
-
 ### Aggregated sales reporting data overview
 
 Aggregated sales reporting data includes a high-level view of active restaurant metrics based on orders, including sales and labor information. For more information on what is included in the aggregated sales reporting data, see [Understanding aggregated sales reporting data](apiAnalyticsMetricsReportingDataUnderstandingData.html). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).

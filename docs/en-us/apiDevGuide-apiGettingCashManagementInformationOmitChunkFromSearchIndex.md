@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Getting cash management information
-
 ### Getting cash entries
 
 The `entries`endpoint of the cash management API returns information about the following types of cash entry:

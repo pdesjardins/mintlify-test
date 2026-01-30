@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Menu reporting data
-
 ### Menu reporting data overview
 
 Menu reporting data includes detailed information about menu entities as they relate to sales. For example, the gross and net sales of the Croissant menu item and the number sold at a restaurant on a specified day. For more information about what is included in the menu reporting data, see [Understanding the menu reporting data](apiAnalyticsMenuReportingDataUnderstandingData.html). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).

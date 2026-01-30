@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-## Updating payment information
-
 ### Submitting payments
 
 To indicate that a guest paid for an order on your ordering application, the orders that you submit must contain payment information.
