@@ -1,0 +1,91 @@
+---
+title: Troubleshooting
+description: Common issues and solutions for your documentation site
+---
+
+## Common issues
+
+### Build errors
+
+#### Module not found errors
+
+If you encounter module not found errors during build:
+
+1. Delete your `node_modules` folder and `package-lock.json`
+2. Run `npm install` to reinstall dependencies
+3. Clear your build cache with `npm run clear`
+
+#### Syntax errors in MDX files
+
+MDX files require valid JSX syntax. Common issues include:
+
+- Unclosed HTML tags
+- Missing closing braces in component props
+- Invalid characters in frontmatter YAML
+
+Use a linter or the Mintlify CLI to validate your MDX files before deploying.
+
+### Navigation issues
+
+#### Page not showing in sidebar
+
+Ensure your page is added to the `navigation` object in `docs.json`. Pages must be referenced by their file path without the `.mdx` extension.
+
+```json
+{
+  "group": "Getting started",
+  "pages": ["index", "quickstart"]
+}
+```
+
+#### Broken internal links
+
+Use relative paths for internal links. Avoid using `.mdx` extensions in links:
+
+```markdown
+[Link to quickstart](/quickstart)
+```
+
+### Styling issues
+
+#### Custom colors not applying
+
+Verify your color values in `docs.json` use valid hex codes:
+
+```json
+{
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  }
+}
+```
+
+#### Images not loading
+
+Ensure images are placed in the `public` folder and referenced with absolute paths:
+
+```markdown
+![Alt text](/images/example.png)
+```
+
+### Deployment issues
+
+#### Changes not reflecting after deployment
+
+- Clear your browser cache
+- Wait 2-3 minutes for CDN propagation
+- Check the deployment logs for errors
+
+#### GitHub integration not working
+
+Verify your repository permissions and webhook configuration in your Mintlify dashboard.
+
+## Getting help
+
+If you're still experiencing issues:
+
+- Check the [Mintlify documentation](https://mintlify.com/docs)
+- Join the [Mintlify community](https://mintlify.com/community)
+- Contact support at hi@mintlify.com
