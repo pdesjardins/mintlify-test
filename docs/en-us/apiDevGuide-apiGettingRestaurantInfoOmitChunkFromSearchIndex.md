@@ -16,18 +16,18 @@ codeExamples: 0
 
 ### Getting all restaurants in a management group
 
-Send a `GET`request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint of the restaurants API to get a list of the restaurants in a restaurant management group. The endpoint returns a JSON array of `Restaurant`objects. Each `Restaurant`object contains the GUID of a restaurant in the restaurant management group.
+Send a `GET` request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint of the restaurants API to get a list of the restaurants in a restaurant management group. The endpoint returns a JSON array of `Restaurant` objects. Each `Restaurant` object contains the GUID of a restaurant in the restaurant management group.
 
 You can get a restaurant management group's GUID from either of these resources:
 
 - The `/restaurants/v1/restaurants/{restaurantGUID}`endpoint of the restaurants API. See [Getting information about a specific restaurant](apiRestaurantInformation.html).
 
 
-- The `/partners/v1/restaurants`endpoint of the partners API (if you have partner-level credentials). See [Location access](apiPartnersGettingAccessibleRestaurants.html).
+- The `/partners/v1/restaurants` endpoint of the partners API (if you have partner-level credentials). See [Location access](apiPartnersGettingAccessibleRestaurants.html).
 
 
 
-The following example **curl**command sends a `GET`request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint.
+The following example **curl** command sends a `GET` request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint.
 
 **Example 6.1. Get all restaurants of a management group**
 
@@ -51,7 +51,7 @@ https://*`[toast-api-hostname]`*/restaurants/v1/groups/ae6c32fe-f4d2-4dcc-aa82-f
 
 
 
-(1) Use the Toast-Restaurant-External-IDrequest parameter to specify the GUID of one restaurant location in the restaurant management group.
+(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of one restaurant location in the restaurant management group.
 
 (2) Specify the GUID of the restaurant management group from which to retrieve its restaurant locations.
 
@@ -79,6 +79,6 @@ The following example shows the JSON response data for a GET request to the `/re
 
 
 
-(1) The guidvalue contains the unique Toast POS identifier for a restaurant location in the restaurant management group. In this example, the request returns four restaurant locations.
+(1) The guid value contains the unique Toast POS identifier for a restaurant location in the restaurant management group. In this example, the request returns four restaurant locations.
 
   

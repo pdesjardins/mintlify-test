@@ -56,7 +56,7 @@ For more information about Toast API error codes, see [HTTP status codes](apiRes
 - If you receive a 5XX error when you use a Toast API, reduce your polling frequency at an exponential rate. See this [information about exponential backoff processes](https://en.wikipedia.org/wiki/Exponential_backoff).
 
 
-- If your integration retrieves information such as [orders](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders)or [time entries](apiEmployeeInformationOmitChunkFromSearchIndex.html#apiGettingTimeEntriesForEmployees)based on their last modification timestamp, use the timestamp of your last successful poll attempt when you evaluate how to backfill any missed data.
+- If your integration retrieves information such as [orders](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders)or [time entries](apiEmployeeInformationOmitChunkFromSearchIndex.html#apiGettingTimeEntriesForEmployees)based on their last modification timestamp, use the timestamp of your last successful poll attempt when you evaluate how to backfill any missed data. 
 
 The instant of the last successful data retrieval should be the start timestamp of your next attempt to retrieve data.
 
@@ -80,10 +80,10 @@ During a planned maintenance window, consider implementing the following approac
 - To minimize your integration's downtime, monitor the status notifications on [http://status-dev.toasttab.com](http://status-dev.toasttab.com). The maintenance window may end sooner than expected. You can resume your integration as soon as the maintenance window is over.
 
 
-- If your authentication token expires during the maintenance window, retrieve a new authentication token after the maintenance window is over. For more information about authentication, see [Getting an authentication token](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token)and [Refreshing authentication tokens](apiAuthTokenRefresh.html).
+- If your authentication token expires during the maintenance window, retrieve a new authentication token after the maintenance window is over. For more information about authentication, see [Getting an authentication token](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token) and [Refreshing authentication tokens](apiAuthTokenRefresh.html).
 
 
-- Include an alternate handling method for maintenance windows in your workflow. The way you handle unexpected, temporary unavailability might be inefficient for a longer, planned maintenance window. For example, if your integration retries an API call five minutes after it receives a 5XX error, your integration will have many failed retries during a 45-minute maintenance window.
+- Include an alternate handling method for maintenance windows in your workflow. The way you handle unexpected, temporary unavailability might be inefficient for a longer, planned maintenance window. For example, if your integration retries an API call five minutes after it receives a 5XX error, your integration will have many failed retries during a 45-minute maintenance window. 
 
 During a maintenance window, you need to halt the polling requests for your integration.
 
@@ -115,7 +115,7 @@ Here are recommended ways of handling order submission during offline windows so
 
 When there is planned downtime:
 
-- Prevent guests from [scheduling future orders](orders_api_future_orders.html)during the planned maintenance window.
+- Prevent guests from [scheduling future orders](orders_api_future_orders.html) during the planned maintenance window.
 
 
 - Decide whether to allow guests to place ASAP orders during the maintenance window, to be submitted to the restaurant after the outage is over. If your ordering integration allows guests to place new orders during this window:

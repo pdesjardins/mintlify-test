@@ -20,10 +20,10 @@ codeExamples: 0
 
 Toast maintains and provides continuous access to multiple, independent service environments for use by API integration clients during development, testing, and production. These environments are:
 
-- **Sandbox -**used for integration testing. For more information, see [Sandbox environment](apiEnvironments.html#apiSandboxEnvironment).
+- **Sandbox -** used for integration testing. For more information, see [Sandbox environment](apiEnvironments.html#apiSandboxEnvironment).
 
 
-- **Production -**used for live transactions at active restaurants. For more information, see [Production environment](apiEnvironments.html#apiProductionEnvironment).
+- **Production -** used for live transactions at active restaurants. For more information, see [Production environment](apiEnvironments.html#apiProductionEnvironment).
 
 
 
@@ -41,7 +41,7 @@ The sandbox environment is always available from 9 a.m. to 6 p.m. Eastern Time (
 
 You can download a version of the Toast POS app installer (an Android APK installer file) that is configured to connect to the sandbox environment. The sandbox APK link changes periodically when the sandbox environment is upgraded.
 
-Use the link below to download the Toast POS app installer. Use the installer version that is compatible with the Toast restaurants you are testing your integration with. You can find the Toast POS app version for a restaurant in the Required app version for [restaurant]value at the bottom of Toast Web pages for the restaurant.
+Use the link below to download the Toast POS app installer. Use the installer version that is compatible with the Toast restaurants you are testing your integration with. You can find the Toast POS app version for a restaurant in the Required app version for [restaurant] value at the bottom of Toast Web pages for the restaurant.
 
 - [Toast POS app version 2.87.2 for the sandbox environment](https://s3.amazonaws.com/toast-sandbox/static-content/apks/toast-android-pos-2.87.2.apk)
 

@@ -17,13 +17,13 @@ codeExamples: 0
 
 ### Retrieving the aggregated sales reporting data
 
-Send a `GET`request to the `/era/v1/metrics/{reportRequestGuid}`endpoint to retrieve aggregated sales reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint to retrieve aggregated sales reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
 
-Optionally, you can choose to include a `fetchRestaurantNames`query parameter. The `fetchRestaurantNames`query parameter set to `true`adds the restaurant name to the aggregated sales reporting data. If set to `false`, it does not add the restaurant name, which acts the same as not including the `fetchRestaurantName`query parameter.
+Optionally, you can choose to include a `fetchRestaurantNames` query parameter. The `fetchRestaurantNames` query parameter set to `true` adds the restaurant name to the aggregated sales reporting data. If set to `false`, it does not add the restaurant name, which acts the same as not including the `fetchRestaurantName` query parameter.
 
 #### Request to retrieve aggregated sales reporting data
 
-The following example **curl**command sends a `GET`request to `/era/v1/metrics/{reportRequestGuid}`endpoint.
+The following example **curl** command sends a `GET` request to `/era/v1/metrics/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://*`[toast-api-hostname]`*/era/v1/metrics/[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData.html#d1e16496FAD0EEB-57EF-441A-9E58-614F985F6270-co)
@@ -34,15 +34,15 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \[(2)](apiDevGuide-apiAnalyticsMetricsRep
 
 
 
-(1) Send a GETrequest to the /era/v1/metricsendpoint of the analytics API.
+(1) Send a GET request to the /era/v1/metrics endpoint of the analytics API.
 
-(2) Include the GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process .
+(2) Include the GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see Authentication and restaurant access .
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
 #### Response to the retrieval request for aggregated sales reporting data
 
-The following example shows the response from the `/era/v1/metrics/{reportRequestGuid}`endpoint.
+The following example shows the response from the `/era/v1/metrics/{reportRequestGuid}` endpoint.
 
 ```
 [

@@ -25,7 +25,7 @@ codeExamples: 0
 > Order payload sizes can reach over 600kbs. Ensure that all servers and content delivery networks (CDNs) can accommodate API payloads of this size.
 
 
-When a restaurant makes any update to an order, or creates a new order, the `orders`webhook sends an HTTP request to an endpoint you specify using the `order_updated`webhook event. For more information about the `order_updated`webhook event, see [order_updated details and message values](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated).
+When a restaurant makes any update to an order, or creates a new order, the `orders` webhook sends an HTTP request to an endpoint you specify using the `order_updated` webhook event. For more information about the `order_updated` webhook event, see [order_updated details and message values](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated).
 
 The HTTP request that you receive includes:
 
@@ -42,27 +42,27 @@ The HTTP request that you receive includes:
 
 
 
-The order_updated webhook event eliminates the need for you to submit `GET`requests for order updates. You can use the updated order details to adjust your business operations. For example, if a guest adds a new menu item to their order, you can adjust the time needed to deliver the order.
+The order_updated webhook event eliminates the need for you to submit `GET` requests for order updates. You can use the updated order details to adjust your business operations. For example, if a guest adds a new menu item to their order, you can adjust the time needed to deliver the order.
 
-In an `orders`webhook message, the `eventCategory`and `eventType`are set to `order_updated`or `channel_order_updated`.
+In an `orders` webhook message, the `eventCategory` and `eventType` are set to `order_updated` or `channel_order_updated`.
 
 #### order_updated details and message values
 
-The orders webhook event type is `order_updated`or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/)to the `/orders/v2/orders/*`{orderGuid}`*`API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated`event such as the `timestamp`of when an order was updated or created. The `Order`object is in the `details`field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
+The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/*`{orderGuid}`*` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
 
-Attributes in the `orders_updated`payload include:
+Attributes in the `orders_updated` payload include: 
 
 | Value | Description | 
 | --- | --- |
-| `timestamp` | The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz.data type:string | 
-| `eventCategory` | `order_updated`or `channel_order_updated`.data type:string | 
-| `eventType` | `order_updated`or `channel_order_updated`.data type:string | 
+| `timestamp` | The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz.data type: string | 
+| `eventCategory` | `order_updated` or `channel_order_updated`.data type: string | 
+| `eventType` | `order_updated` or `channel_order_updated`. data type: string  | 
 | `guid` | A unique Toast platform identifier for the webhook event.data type:stringformat:UUID | 
-| `details` | A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the `appliedPackagingInfo`object which describes any order packaging preferences. | 
+| `details` | A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the `appliedPackagingInfo` object which describes any order packaging preferences. | 
 
 #### Omitted values
 
-For performance and security, the following values are either omitted from the `orders`webhook messages, or return as `null`.
+For performance and security, the following values are either omitted from the `orders` webhook messages, or return as `null`.
 
 - Guest personal information and delivery details (omitted)
 
@@ -92,15 +92,15 @@ For performance and security, the following values are either omitted from the `
 
 
 
-- `externalId`(returns as `null`)
+- `externalId` (returns as `null`)
 
 
 
-To obtain this omitted information, you can send a `GET`request to the `/orders/v2/orders/*`{orderGuid}`*`endpoint.
+To obtain this omitted information, you can send a `GET` request to the `/orders/v2/orders/*`{orderGuid}`*`endpoint.
 
 #### Orders webhook sample message
 
-The sample below shows the HTTP request received from the `orders`webhook.
+The sample below shows the HTTP request received from the `orders` webhook.
 
 **Example 9.3. Payload example for the order_updated event**
 

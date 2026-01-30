@@ -16,7 +16,7 @@ codeExamples: 0
 
 ### Adding an employee
 
-To add an employee to the restaurant, send a `POST`request to the `/labor/v1/employees`endpoint of the labor API .
+To add an employee to the restaurant, send a `POST` request to the `/labor/v1/employees` endpoint of the labor API .
 
 The response contains an object containing information about the employee, including the Toast platform GUID for the new employee.
 
@@ -24,12 +24,12 @@ The response contains an object containing information about the employee, inclu
 
 > **Note**
 > 
-> The labor API rejects new or updated values for `firstName`, `lastName`, and `externalEmployeeId`that include the following special characters: `{}<>$=\;%`
+> The labor API rejects new or updated values for `firstName`, `lastName`, and `externalEmployeeId` that include the following special characters: `{}<>$=\;%`
 
 
 #### Example request to add an employee
 
-The following example **curl**command sends a `POST`request to the `/labor/v1/employees`resource.
+The following example **curl** command sends a `POST` request to the `/labor/v1/employees` resource.
 
 **Example 7.8. Example request to add an employee to a restaurant**
 
@@ -59,7 +59,7 @@ https://*`[toast-api-hostname]`*/labor/v1/employees
 
 (2) Specify the data type of the message body in the Content-Type header field. The value must be application/json.
 
-(3) Include information about the new employee in the message body of the POSTrequest. This example curl command sends message body data from the contents of a file.
+(3) Include information about the new employee in the message body of the POST request. This example curl command sends message body data from the contents of a file.
 
   
 #### Example employee details for the request to add an employee
@@ -97,7 +97,7 @@ The following example shows the message body data that provides information abou
 
 (4) Specify the last name of the employee.
 
-(5) External identifier string that is prefixed by the naming authority. The externalIdmust be unique. If you specify an externalIdthat is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see External identifiers .
+(5) External identifier string that is prefixed by the naming authority. The externalId must be unique. If you specify an externalId that is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see External identifiers.
 
 (6) You can specify the initial Toast platform passcode number for the employee. This value is optional.
 
@@ -106,7 +106,7 @@ The following example shows the message body data that provides information abou
   
 #### Example response
 
-The following example shows the response for a `POST`request to the `/labor/v1/employees`endpoint.
+The following example shows the response for a `POST` request to the `/labor/v1/employees` endpoint.
 
 **Example 7.10. Example response for the add employee request**
 
@@ -139,7 +139,7 @@ The following example shows the response for a `POST`request to the `/labor/v1/e
 
 
 
-(1) The guidvalue contains the GUID value that the Toast platform assigns to the new employee.
+(1) The guid value contains the GUID value that the Toast platform assigns to the new employee.
 
 (2) If you assign a job to the new employee, the response will return the job. This is optional.
 

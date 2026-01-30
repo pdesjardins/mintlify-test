@@ -20,13 +20,13 @@ codeExamples: 0
 
 ### Getting all employees of a restaurant
 
-To get information about the employees of a restaurant, send a `GET`request to the `/labor/v1/employees`endpoint of the labor API.
+To get information about the employees of a restaurant, send a `GET` request to the `/labor/v1/employees` endpoint of the labor API.
 
-The request returns an array of `Employee`objects that contain the configuration information for each employee.
+The request returns an array of `Employee` objects that contain the configuration information for each employee.
 
 #### Example request for information about all employees
 
-The following example **curl**command sends a `GET`request to the `/labor/v1/employees`endpoint.
+The following example **curl** command sends a `GET` request to the `/labor/v1/employees` endpoint.
 
 **Example 7.1. Example request to GET all employees of a restaurant**
 
@@ -50,12 +50,12 @@ https://*`[toast-api-hostname]`*/labor/v1/employees
 
 
 
- Specify the GUID of the restaurant that you want to GETemployees for. This must be an individual restaurant, not the GUID for a restaurant group.
+ Specify the GUID of the restaurant that you want to GET employees for. This must be an individual restaurant, not the GUID for a restaurant group.
 
   
 #### Example response
 
-The following example shows the response for a `GET`request to the `/labor/v1/employees`resource.
+The following example shows the response for a `GET`request to the `/labor/v1/employees` resource.
 
 **Example 7.2. Example response to a request to GET restaurant employees**
 
@@ -113,24 +113,24 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
 
 
 
-(1) The GETrequest returns an array of employee objects. Each object contains information about an employee.
+(1) The GET request returns an array of employee objects. Each object contains information about an employee.
 
-(2) The guidvalue contains the unique Toast platform identifier for the employee.
+(2) The guid value contains the unique Toast platform identifier for the employee.
 
 (3) Each object contains information for a different employee.
 
   
 ### Getting time entries for employees
 
-To get the time entry records for the employees at your restaurant, send a `GET`request to the `/labor/v1/timeEntries`resource of the labor API. Time entries record information about the shifts that employees complete. The response contains an array of time entry objects that contain information about the time entries.
+To get the time entry records for the employees at your restaurant, send a `GET` request to the `/labor/v1/timeEntries` resource of the labor API. Time entries record information about the shifts that employees complete. The response contains an array of time entry objects that contain information about the time entries.
 
-If an employee has not clocked out of the work shift, the `outDate`value for the time entry is `null`. The time entry period is not yet complete. Time entry values can change as the server takes new orders and payments during an active work shift.
+If an employee has not clocked out of the work shift, the `outDate` value for the time entry is `null`. The time entry period is not yet complete. Time entry values can change as the server takes new orders and payments during an active work shift.
 
-When the employee clocks out, the `outDate`value is set to the date and time that the employee closed the work shift. The time entry is then complete. At this point, the monetary values in the time entry are static and are not updated by other activities in the restaurant. For example, if an employee has $100 of non-cash sales in their time entry when they clock out, and then an order of $10 non-cash sales is later transferred to the employee, the `nonCashSales`value of the time entry is still $100, not $110. The same applies to tips.
+When the employee clocks out, the `outDate` value is set to the date and time that the employee closed the work shift. The time entry is then complete. At this point, the monetary values in the time entry are static and are not updated by other activities in the restaurant. For example, if an employee has $100 of non-cash sales in their time entry when they clock out, and then an order of $10 non-cash sales is later transferred to the employee, the `nonCashSales` value of the time entry is still $100, not $110. The same applies to tips.
 
 #### Example request for employee time entries
 
-The following example **curl**command sends a `GET`request to the `/labor/v1/timeEntries`endpoint.
+The following example **curl** command sends a `GET` request to the `/labor/v1/timeEntries` endpoint.
 
 **Example 7.3. Example request to GET the time entries for restaurant employees**
 
@@ -156,11 +156,11 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Specify the GUID of the restaurant that you want to GETtime entries for. This must be an individual restaurant, not the GUID for a restaurant group.
+(1) Specify the GUID of the restaurant that you want to GET time entries for. This must be an individual restaurant, not the GUID for a restaurant group.
 
-(2) Specify the start and end dates of the time period you want to GETtime entries for. You can select a period of up to 30 days.
+(2) Specify the start and end dates of the time period you want to GET time entries for. You can select a period of up to 30 days.
 
-(3) The timeEntriesendpoint accepts the includeMissedBreaksquery parameter. If you set the value of includeMissedBreaksto true, the timeEntriesendpoint returns TimeEntryBreakobjects for scheduled break periods even if an employee did not take them. The includeMissedBreaksparameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.
+(3) The timeEntries endpoint accepts the includeMissedBreaks query parameter. If you set the value of includeMissedBreaks to true, the timeEntries endpoint returns TimeEntryBreak objects for scheduled break periods even if an employee did not take them. The includeMissedBreaks parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.
 
   
 #### Example response
@@ -233,42 +233,42 @@ The following example shows a time entry for an employee.
 
 
 
-(1) The GETrequest returns an array of time entry objects. Each object contains information about an employee's shift.
+(1) The GET request returns an array of time entry objects. Each object contains information about an employee's shift.
 
-(2) The nonCashSalesvalue shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts. For example, nonCashSalesincludes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web. If the outDatevalue for the time entry is null, then the time entry period is not complete, and the sales totals are 0. If the outDatevalue for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
+(2) The nonCashSales value shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts.For example, nonCashSales includes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web.If the outDate value for the time entry is null, then the time entry period is not complete, and the sales totals are 0. If the outDate value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
 
-(3) The time entry object contains information about the shift worked. For example, this outDatevalue specifies the date and time that the employee clocked out (the value is nullif the employee has not clocked out).
+(3) The time entry object contains information about the shift worked. For example, this outDate value specifies the date and time that the employee clocked out (the value is null if the employee has not clocked out).
 
-(4) The breaksarray contains break type objects that contain information about breaks taken by the employee: breakTypeis the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant. inDatespecifies when the employee started the break and outDateis when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated). paidis a Boolean value that indicates whether the employee was paid for the break. If the value is true, the employee was paid for the break. If the value is false, the employee was not paid for the break. missedis a Boolean value that indicates whether the employee took the break. If the value is true, the employee did not take the break. If the value is false, the employee did take the break. auditResponseis a Boolean value that indicates whether the employee was asked to take the break. If the value is true, the employee was asked to take the break. If the value is false, the employee was not asked to take the break. If the value is null, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device. For information on configuring missed breaks and break acknowledgements, see Tracking missed breaks and acknowledging breaks in the Toast Platform Guide .
+(4) The breaks array contains break type objects that contain information about breaks taken by the employee:breakType is the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant.inDate specifies when the employee started the break and outDate is when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated).paid is a Boolean value that indicates whether the employee was paid for the break. If the value is true, the employee was paid for the break. If the value is false, the employee was not paid for the break.missed is a Boolean value that indicates whether the employee took the break. If the value is true, the employee did not take the break. If the value is false, the employee did take the break.auditResponse is a Boolean value that indicates whether the employee was asked to take the break. If the value is true, the employee was asked to take the break. If the value is false, the employee was not asked to take the break. If the value is null, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device.For information on configuring missed breaks and break acknowledgements, see Tracking missed breaks and acknowledging breaks in the Toast Platform Guide.
 
-(5) The employeeReferencevalue specifies the employee who worked the shift.
+(5) The employeeReference value specifies the employee who worked the shift.
 
- The GUID of the Shiftobject associated with this time entry. The shiftReferencevalue on a TimeEntryobject is only populated if the restaurant uses Toast's clock-in enforcement feature , and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the shiftReferencevalue is null.
+ The GUID of the Shift object associated with this time entry. The shiftReference value on a TimeEntry object is only populated if the restaurant uses Toast's clock-in enforcement feature, and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the shiftReference value is null.
 
-(7) The nonCashGratuityServiceChargesvalue is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).
+(7) The nonCashGratuityServiceCharges value is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).
 
-(8) The jobReferencevalue specifies the job that the employee performed.
+(8) The jobReference value specifies the job that the employee performed.
 
-(9) The tipsWithheldvalue specifies the amount withheld from the employee's credit card tips.
+(9) The tipsWithheld value specifies the amount withheld from the employee's credit card tips.
 
-(10) The cashGratuityServiceChargesvalue is the amount of gratuity service charges paid in cash to the employee.
+(10) The cashGratuityServiceCharges value is the amount of gratuity service charges paid in cash to the employee.
 
-(11) The cashSalesvalue shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts. If the outDatevalue for the time entry is null(the time entry period is not complete), the sales totals are 0. If the outDatevalue for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
+(11) The cashSales value shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts.If the outDate value for the time entry is null (the time entry period is not complete), the sales totals are 0. If the outDatevalue for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
 
-(12) The nonCashTipsvalue lists the total amount of tips paid to the employee in non-cash tender.
+(12) The nonCashTips value lists the total amount of tips paid to the employee in non-cash tender.
 
-(13) The declaredCashTipsvalue is the amount of tips paid to the employee in cash.
+(13) The declaredCashTips value is the amount of tips paid to the employee in cash.
 
   
 ### Getting shift assignments for employees
 
-To get information about the shifts that are scheduled for employees of a restaurant, send a `GET`request to the `/labor/v1/shifts`endpoint of the labor API.
+To get information about the shifts that are scheduled for employees of a restaurant, send a `GET` request to the `/labor/v1/shifts` endpoint of the labor API.
 
 The response contains an array of shift objects that contain the configuration information for each shift.
 
 #### Example request to GET scheduled shifts
 
-The following example **curl**command sends a `GET`request to the `/labor/v1/shifts`endpoint.
+The following example **curl** command sends a `GET` request to the `/labor/v1/shifts` endpoint.
 
 **Example 7.5. Example request to GET all scheduled shifts for a restaurant**
 
@@ -294,16 +294,16 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Specify the GUID of the restaurant that you want to getshifts for. This must be an individual restaurant, not the GUID for a restaurant group.
+(1) Specify the GUID of the restaurant that you want to get shifts for. This must be an individual restaurant, not the GUID for a restaurant group.
 
 (2) This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.
 
-(3) Specify the start and end dates of the time period you want to GETshifts for. You can select up to 30 days.
+(3) Specify the start and end dates of the time period you want to GET shifts for. You can select up to 30 days.
 
   
 #### Example response
 
-The following example shows the response for a `GET`request to the `/labor/v1/shifts`resource.
+The following example shows the response for a `GET`request to the `/labor/v1/shifts` resource.
 
 **Example 7.6. Example response to a request to GET restaurant shifts**
 
@@ -377,9 +377,9 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 
 
-(1) The GETrequest returns an array of shift objects. Each object contains information about a shift.
+(1) The GET request returns an array of shift objects. Each object contains information about a shift.
 
-(2) The employeeReferencevalue identifies the employee who is assigned to the shift.
+(2) The employeeReference value identifies the employee who is assigned to the shift.
 
 (3) This shift is assigned to the same employee as the first shift in the array.
 
@@ -388,9 +388,9 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
   
 #### Example jq utility command to select shifts for a specific employee
 
-The following example **jq**command selects the shift objects for a specific employee from the array of shift objects in the response from `/labor/v1/shifts`.
+The following example **jq** command selects the shift objects for a specific employee from the array of shift objects in the response from `/labor/v1/shifts` .
 
-For more information about the **jq**utility, see the [jq web site](https://stedolan.github.io/jq/).
+For more information about the **jq** utility, see the [jq web site](https://stedolan.github.io/jq/).
 
 **Example 7.7. jq utility command to select shifts for one employee**
 
@@ -402,8 +402,8 @@ my-shifts-get-request-response-data.json[(2)](apiDevGuide-apiEmployeeInformation
 
 
 
-(1) This jq command syntax selects the JSON array members that have a specific employee GUID in the employeeReference.guidvalue for the shift.
+(1) This jq command syntax selects the JSON array members that have a specific employee GUID in the employeeReference.guid value for the shift.
 
-(2) In this example, the jq utility is reading JSON from the output file of the curl command that made the initial GET request to the shifts resource. See Example 7.5, “Example request to GET all scheduled shifts for a restaurant” .
+(2) In this example, the jq utility is reading JSON from the output file of the curlcommand that made the initial GET request to the shifts resource. See Example 7.5, “Example request to GET all scheduled shifts for a restaurant”.
 
   

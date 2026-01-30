@@ -20,9 +20,9 @@ codeExamples: 1
 
 Some of the required order details are based on the selected dining option.
 
-A dining option describes a customizable workflow for an order. Restaurants define their dining options. The selected dining option affects the required values in the `Order`and `Check`objects.
+A dining option describes a customizable workflow for an order. Restaurants define their dining options. The selected dining option affects the required values in the `Order` and `Check`objects.
 
-In each order, the `diningOption`object specifies the GUID of the dining option to use. For example:
+In each order, the `diningOption` object specifies the GUID of the dining option to use. For example:
 
 ```
 "diningOption": {
@@ -35,9 +35,9 @@ You use the configuration API to retrieve the available dining option GUIDs.
 
 #### Types of dining options
 
-The restaurant defines the available dining options. For more information about dining options and how to configure them, see [adminGuide#adminDiningOptions]in the *Platform Guide*.
+The restaurant defines the available dining options. For more information about dining options and how to configure them, see [adminGuide#adminDiningOptions] in the *Platform Guide*.
 
-Each dining option includes a `behavior`field that indicates the type of dining option.
+Each dining option includes a `behavior` field that indicates the type of dining option.
 
 The available dining behaviors are:
 
@@ -53,9 +53,9 @@ For dine-in orders, you can provide table and server values.
 **`TAKE_OUT`**
 : Used for dining options where the guest picks up the order from the restaurant.
 
-Orders with takeout dining options must provide `customer`information.
+Orders with takeout dining options must provide `customer` information.
 
-A takeout option can have `curbside`set to `true`, which indicates it is a curbside pickup option. Curbside pickup orders should also provide `curbsidePickupInfo`.
+A takeout option can have `curbside` set to `true`, which indicates it is a curbside pickup option. Curbside pickup orders should also provide `curbsidePickupInfo`.
 
 Note that in Toast Web, the dining option configuration lists takeout and curbside as separate options for the dining behavior.
 
@@ -64,7 +64,7 @@ Note that in Toast Web, the dining option configuration lists takeout and curbsi
 **`DELIVERY`**
 : Used for dining options where the order is delivered to the guest.
 
-Orders with delivery dining options must provide `customer`and `deliveryInfo`information.
+Orders with delivery dining options must provide `customer` and `deliveryInfo`information.
 
 
 
@@ -74,9 +74,9 @@ Restaurants can configure multiple dining options for a given behavior. For exam
 
 #### Retrieving the available dining options
 
-When you create an order, the `diningOption`value must specify the GUID of the dining option to use for the order.
+When you create an order, the `diningOption` value must specify the GUID of the dining option to use for the order.
 
-To get a list of the available dining options for a restaurant, send a `GET`request to the `/diningOptions`endpoint of the configuration API. For more information, see [Get dining options](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/)in the API reference.
+To get a list of the available dining options for a restaurant, send a `GET` request to the `/diningOptions`endpoint of the configuration API. For more information, see [Get dining options](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/) in the API reference.
 
 Here is an example of the request results:
 
@@ -117,13 +117,13 @@ Here is an example of the request results:
 
 #### Creating a dine-in order
 
-A dine-in order uses a dining option where `behavior`is `DINE_IN`. For a dine-in order, in addition to the menu item selections, you can provide information about the table and server.
+A dine-in order uses a dining option where `behavior` is `DINE_IN`. For a dine-in order, in addition to the menu item selections, you can provide information about the table and server.
 
 ##### Providing table information for a dine-in order
 
 You can create a dine-in order at a specific restaurant table.
 
-When you create an order for a specific table, you can also provide customer information for the check that is associated with the order. For example, to reserve a table for a guest, a reservation service might `POST`a scheduled order that specifies the restaurant table and guest information but does not specify any menu item selections.
+When you create an order for a specific table, you can also provide customer information for the check that is associated with the order. For example, to reserve a table for a guest, a reservation service might `POST` a scheduled order that specifies the restaurant table and guest information but does not specify any menu item selections.
 
 To specify the table for an order, provide a `Table`object that specifies the Toast platform GUID of the table. For example:
 
@@ -134,7 +134,7 @@ To specify the table for an order, provide a `Table`object that specifies the To
 },
 ```
 
-To retrieve the GUIDs of the available tables, send a `GET`request to the `/tables`endpoint of the configuration API. For more information, see [Get tables](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)in the API reference.
+To retrieve the GUIDs of the available tables, send a `GET` request to the `/tables` endpoint of the configuration API. For more information, see [Get tables](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/) in the API reference.
 
 When you use the orders API to create an order at a restaurant table, that order is available from a Toast POS device in the table layout and open orders displays. The behavior of the table layout screen depends on whether the table has an existing open order.
 
@@ -160,11 +160,11 @@ To specify the restaurant employee, provide a `server`object that specifies the 
 
 The employee must be an active employee at the current restaurant location. The orders API does not prevent you from specifying a deleted employee.
 
-To retrieve information about restaurant employees, send a `GET`request to the `/employees`endpoint of the labor API. For more information, see [Get employees](https://doc.toasttab.com/openapi/labor/operation/employeesGet/)in the API reference.
+To retrieve information about restaurant employees, send a `GET` request to the `/employees` endpoint of the labor API. For more information, see [Get employees](https://doc.toasttab.com/openapi/labor/operation/employeesGet/) in the API reference.
 
 ##### Example POST message body for a dine-in order
 
-The following example shows the message body for a `POST`request to the `/orders`endpoint to create a dine-in order at a restaurant table.
+The following example shows the message body for a `POST`request to the `/orders` endpoint to create a dine-in order at a restaurant table.
 
 ```
 {
@@ -202,33 +202,33 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The tablevalue provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.
+(1) The table value provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.
 
-(2) The servervalue provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.
+(2) The server value provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.
 
 (3) To create an order at a table, the behavior of the selected dining option must be DINE_IN.
 
  You can specify the revenue center associated with the order. Specifying a revenue center is optional.
 
-(5) You must include a checksvalue with at least one Checkobject. The check does not need to include any menu item selections. You can optionally include a customervalue with information about the restaurant guest.
+(5) You must include a checks value with at least one Check object. The check does not need to include any menu item selections. You can optionally include a customervalue with information about the restaurant guest.
 
- In a Customerobject, the emailvalue is the unique identifier for a guest. emailmust be unique for each individual guest.
+ In a Customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
 
 #### Creating a takeout order
 
-A takeout order uses a dining option where `behavior`is `TAKE_OUT`.
+A takeout order uses a dining option where `behavior` is `TAKE_OUT`.
 
 For takeout orders, in addition to the menu item selections, you provide information about the guest who will pick up the order.
 
 ##### Providing guest information for a takeout order
 
-For a takeout order, the `Check`object must include a `customer`object that contains name and contact information for the guest.
+For a takeout order, the `Check` object must include a `customer` object that contains name and contact information for the guest.
 
-In the `customer`object, the `firstName`, `lastName`, `phone`, and `email`fields are required.
+In the `customer` object, the `firstName`, `lastName`, `phone`, and `email` fields are required.
 
 ##### Example POST message body for a takeout order
 
-The following example shows the message body for a `POST`request to the `/orders`endpoint to create a takeout order.
+The following example shows the message body for a `POST`request to the `/orders` endpoint to create a takeout order.
 
 ```
 {
@@ -269,17 +269,17 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The GUID of the dining option for the order. The dining option must have a behaviorof TAKE_OUT.
+(1) The GUID of the dining option for the order. The dining option must have a behavior of TAKE_OUT.
 
-(2) The selectionsobject contains the menu item selections for the order.
+(2) The selections object contains the menu item selections for the order.
 
-(3) The customerobject contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The firstName, lastName, phone, and emailfields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.
+(3) The customer object contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The firstName, lastName, phone, and email fields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.
 
- In a customerobject, the emailvalue is the unique identifier for a guest. emailmust be unique for each individual guest.
+ In a customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
 
 ##### Example response to a takeout order POST request
 
-The following example shows the response from the `/orders`endpoint for a takeout order.
+The following example shows the response from the `/orders` endpoint for a takeout order.
 
 ```
 {
@@ -414,7 +414,7 @@ The following example shows the response from the `/orders`endpoint for a takeou
 
 (1) The unique identifier that the Toast platform assigns to the order.
 
-(2) The payment information is empty because the order request was made without a paymentsvalue. This means that the guest did not make any payments for this check.
+(2) The payment information is empty because the order request was made without a payments value. This means that the guest did not make any payments for this check.
 
 (3) The total amount (including tax) of this check.
 
@@ -426,9 +426,9 @@ The following example shows the response from the `/orders`endpoint for a takeou
 
 A curbside pickup order is a variation of a takeout order. Instead of the guest entering the restaurant to pick up the order, a restaurant employee brings the order out to the guest's vehicle.
 
-A curbside pickup order uses a dining option where `behavior`is `TAKE_OUT`and `curbside`is `true`.
+A curbside pickup order uses a dining option where `behavior` is `TAKE_OUT` and `curbside` is `true`.
 
-In addition to the required `customer`value for a takeout order, you can also provide `curbsidePickupInfo`to identify the vehicle that is picking up the order.
+In addition to the required `customer` value for a takeout order, you can also provide `curbsidePickupInfo` to identify the vehicle that is picking up the order.
 
 ##### Providing curbside pickup information for a curbside pickup order
 
@@ -443,11 +443,11 @@ When you place an order that specifies a dining option with curbside behavior, t
 },
 ```
 
-The `curbsidePickupInfo`object is not required, but it is recommended, to help restaurant staff to identify a guest when they arrive to pick up their order.
+The `curbsidePickupInfo` object is not required, but it is recommended, to help restaurant staff to identify a guest when they arrive to pick up their order.
 
-The `curbsidePickupInfo`object must at a minimum contain `transportDescription`. The `transportDescription`value accepts string input and contains information about a guest's mode of transportation. For example, you can specify the make and model of their vehicle.
+The `curbsidePickupInfo` object must at a minimum contain `transportDescription`. The `transportDescription`value accepts string input and contains information about a guest's mode of transportation. For example, you can specify the make and model of their vehicle.
 
-You can also optionally provide `transportColor`and `notes`.
+You can also optionally provide `transportColor` and `notes`.
 
 On Toast POS devices, the curbside pickup information is displayed at the top of a check on the order screen. The information is also printed on kitchen tickets and guest receipts. The following example shows the guest's name, vehicle description, and phone number displayed at the top of a check on the order screen.
 
@@ -455,7 +455,7 @@ On Toast POS devices, the curbside pickup information is displayed at the top of
 
 ##### Example POST message body for a curbside pickup order
 
-The following example shows the message body for a `POST`request to the `/orders`endpoint to create a curbside pickup order.
+The following example shows the message body for a `POST`request to the `/orders` endpoint to create a curbside pickup order.
 
 ```
 {
@@ -503,19 +503,19 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The GUID of the dining option for the order. For a curbside pickup dining option, behavioris TAKE_OUTand curbsideis true.
+(1) The GUID of the dining option for the order. For a curbside pickup dining option, behavior is TAKE_OUTand curbside is true.
 
-(2) The curbsidePickupInfoobject contains information about the guest's mode of transportation. The restaurant uses the information in the transportDescription, transportColor, and notesfields to identify the guest when they arrive to pick up the order. transportDescriptionis required for curbside pickup orders.
+(2) The curbsidePickupInfo object contains information about the guest's mode of transportation. The restaurant uses the information in the transportDescription, transportColor, and notes fields to identify the guest when they arrive to pick up the order. transportDescription is required for curbside pickup orders.
 
-(3) The selectionsobject contains menu item selections for the order.
+(3) The selections object contains menu item selections for the order.
 
-(4) The customerobject contains information about the guest who will pick up the order. customeris mandatory for curbside pickup orders. firstName, lastName, phone, and emailare required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.
+(4) The customer object contains information about the guest who will pick up the order. customer is mandatory for curbside pickup orders. firstName, lastName, phone, and email are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.
 
-(5) In a customerobject, the emailvalue is the unique identifier for a guest. emailmust be unique for each individual guest.
+(5) In a customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
 
 ##### Example response to a curbside pickup order POST request
 
-The following example shows the response from the `/orders`endpoint to a curbside pickup order request.
+The following example shows the response from the `/orders` endpoint to a curbside pickup order request.
 
 ```
 {
@@ -609,7 +609,7 @@ The following example shows the response from the `/orders`endpoint to a curbsid
 
 (2) Information about the mode of transportation that the guest will use when they arrive to pick up their order.
 
-(3) The payment information is empty because the order request was made without a paymentsvalue. This means that the guest did not make any payments for this check.
+(3) The payment information is empty because the order request was made without a payments value. This means that the guest did not make any payments for this check.
 
 (4) The date and time are null because the guest did not make a payment for the check.
 
@@ -625,21 +625,21 @@ For delivery orders, in addition to the menu item selections, you must provide g
 
 ##### Providing guest information for a delivery order
 
-For a delivery order, the `Check`object must include a `customer`object that contains name and contact information for the guest.
+For a delivery order, the `Check` object must include a `customer` object that contains name and contact information for the guest.
 
-In `customer`, the `firstName`, `lastName`, `phone`, and `email`fields are required.
+In `customer`, the `firstName`, `lastName`, `phone`, and `email` fields are required.
 
 ##### Providing delivery information for a delivery order
 
-For a delivery order, the order object must include a `deliveryInfo`object that provides details about the address to deliver the order to.
+For a delivery order, the order object must include a `deliveryInfo` object that provides details about the address to deliver the order to.
 
-In `deliveryInfo`, you must provide the `address1`, `city`, `state`, and `zipCode`fields. The `state`value must use the state abbreviation, not the state full name. For example, use `TX`instead of `Texas`.
+In `deliveryInfo`, you must provide the `address1`, `city`, `state`, and `zipCode` fields. The `state` value must use the state abbreviation, not the state full name. For example, use `TX` instead of `Texas`.
 
-You can also optionally use the `notes`value to provide notes for the delivery. For example, you can indicate where to leave the delivery or how to contact the guest when the delivery arrives.
+You can also optionally use the `notes` value to provide notes for the delivery. For example, you can indicate where to leave the delivery or how to contact the guest when the delivery arrives.
 
 ##### Example POST message body for a delivery order
 
-The following example shows the message body for a `POST`request to the `/orders`endpoint to create a delivery order.
+The following example shows the message body for a `POST`request to the `/orders` endpoint to create a delivery order.
 
 ```
 {
@@ -688,13 +688,13 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The GUID of the dining option for the order. For a delivery dining option, behaviormust be DELIVERY.
+(1) The GUID of the dining option for the order. For a delivery dining option, behavior must be DELIVERY.
 
-(2) The deliveryInfoobject contains information about the address to deliver the order to. This information is required for delivery orders. The address1, city, state, and zipCodefields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".
+(2) The deliveryInfo object contains information about the address to deliver the order to. This information is required for delivery orders. The address1, city, state, and zipCode fields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".
 
-(3) The customerobject contains information about the guest who will receive the order. The customerobject is required for delivery orders. The firstName, lastName, phone, and emailvalues are required. The data must be formatted correctly.
+(3) The customer object contains information about the guest who will receive the order. The customer object is required for delivery orders. The firstName, lastName, phone, and emailvalues are required. The data must be formatted correctly.
 
- In a customerobject, the emailvalue is the unique identifier for the guest. The emailvalue must be unique for each individual guest.
+ In a customer object, the email value is the unique identifier for the guest. The email value must be unique for each individual guest.
 
 ##### Example response to a delivery order POST request
 
@@ -849,17 +849,17 @@ The following example shows the message body for an endpoint response to a deliv
 
 (2) Information about the address to which the order will be delivered.
 
-(3) The date and time that the delivery employee indicated that the order was delivered. The value is nullbecause the order is not yet delivered.
+(3) The date and time that the delivery employee indicated that the order was delivered. The value is null because the order is not yet delivered.
 
-(4) The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is nullbecause the order is not yet available for delivery.
+(4) The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is null because the order is not yet available for delivery.
 
-(5) The Toast GUID or external identifier of the delivery employee. The value is nullbecause a delivery employee is not yet assigned to this order.
+(5) The Toast GUID or external identifier of the delivery employee. The value is null because a delivery employee is not yet assigned to this order.
 
 (6) The date and time that the order was created.
 
-(7) A status indicating where the selection currently is in the preparation workflow. A status of NEWmeans that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.
+(7) A status indicating where the selection currently is in the preparation workflow. A status of NEW means that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.
 
-(8) Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see Service charges for checks .
+(8) Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see Service charges for checks.
 
 (9) Information about the guest to whom the order will be delivered.
 

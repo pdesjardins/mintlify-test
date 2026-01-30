@@ -22,7 +22,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> To use the `/deliveryInfo`endpoint, you'll need access to the `orders.delivery_info:write`scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiScopes.html).
+> To use the `/deliveryInfo` endpoint, you'll need access to the `orders.delivery_info:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiScopes.html).
 
 
 You can use the orders API to modify the following delivery information:
@@ -31,14 +31,14 @@ You can use the orders API to modify the following delivery information:
 | --- | --- |
 | `deliveredDate` | The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format. | 
 | `dispatchedDate` | The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format. | 
-| `deliveryState` | The status of the delivery order. The available values for `deliveryState`are:- `PENDING`: The delivery order has not been dispatched. Corresponds to the Unassignedtab for deliveries on the Toast POS app.
+| `deliveryState` | The status of the delivery order. The available values for `deliveryState` are:- `PENDING`: The delivery order has not been dispatched. Corresponds to the Unassignedtab for deliveries on the Toast POS app.
 - `PICKED_UP`: The delivery employee has picked up the order from the restaurant.
 - `IN_PROGRESS`: The order is on its way to the destination. Corresponds to the En Routetab for deliveries on the Toast POS app.
-- `DELIVERED`: The order was delivered. Corresponds to the Deliveredtab for deliveries on the Toast POS app.
+- `DELIVERED`: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.
 
  | 
 | `deliveryEmployee` | An object that contains the Toast platform GUID of the employee assigned as the delivery driver. | 
-| `notes` | Delivery notes provided by the guest who placed the order.
+| `notes` | Delivery notes provided by the guest who placed the order. 
 
 > **Important**
 > 
@@ -56,7 +56,7 @@ You can use the orders API to modify the following delivery information:
 
 #### How to update the delivery information
 
-To update delivery information, you send a `PATCH`request to the `/orders/*`{orderGuid}`*/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo`object that provides the updated values.
+To update delivery information, you send a `PATCH` request to the `/orders/*`{orderGuid}`*/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo` object that provides the updated values.
 
 For more information about the endpoint used in this process, see the [/deliveryInfo reference guide.](https://doc.toasttab.com/openapi/orders/operation/ordersOrderGuidDeliveryInfoPatch/)
 
@@ -68,23 +68,23 @@ For more information about the endpoint used in this process, see the [/delivery
 2. If you plan to update an order's `deliveryEmployee`field, locate the Toast platform GUID of the employee to assign as the delivery driver. For information on retrieving employee details, see [Getting all employees of a restaurant](apiEmployeeInformationOmitChunkFromSearchIndex.html#api-get-all-employees).
 
 
-3. Create a JSON `DeliveryInfo`object that contains the delivery information you want to update. For the list of values you can modify see [Delivery values](apiUpdatingDeliveryInfoForAnOrder.html#apiDeliveryInfoValues).
+3. Create a JSON `DeliveryInfo` object that contains the delivery information you want to update. For the list of values you can modify see [Delivery values](apiUpdatingDeliveryInfoForAnOrder.html#apiDeliveryInfoValues).
 
 The delivery location values (for example, street address and city) cannot be updated.
 
-For an example `DeliveryInfo`object, see [Example DeliveryInfo object](apiUpdatingDeliveryInfoForAnOrder.html#apiExampleDeliveryInfoObject).
+For an example `DeliveryInfo` object, see [Example DeliveryInfo object](apiUpdatingDeliveryInfoForAnOrder.html#apiExampleDeliveryInfoObject).
 
 
-4. Send a `PATCH`request to the `/orders/*`{orderGuid}`*/deliveryInfo`endpoint of the orders API.
+4. Send a `PATCH` request to the `/orders/*`{orderGuid}`*/deliveryInfo`endpoint of the orders API.
 
-In the `PATCH`path, include the Toast platform GUID of the order.
+In the `PATCH` path, include the Toast platform GUID of the order.
 
-In the body of the request, include the `DeliveryInfo`object with the delivery information you want to update.
+In the body of the request, include the `DeliveryInfo` object with the delivery information you want to update.
 
 
 5. Examine the response data you receive from the orders API. Verify your request is processed successfully with a 200 HTTP code response.
 
-The response contains the full `Order`object. For an example, see [this response](apiUpdatingDeliveryInfoForAnOrder.html#apiExampleResponseDataWhenUpdatingDeliveryInfoForAnOrder).
+The response contains the full `Order` object. For an example, see [this response](apiUpdatingDeliveryInfoForAnOrder.html#apiExampleResponseDataWhenUpdatingDeliveryInfoForAnOrder).
 
 
 
@@ -92,12 +92,12 @@ The response contains the full `Order`object. For an example, see [this response
 
 > **Note**
 > 
-> Once an order's `deliveryState`is `DELIVERED`, updates are no longer allowed.
+> Once an order's `deliveryState` is `DELIVERED`, updates are no longer allowed.
 
 
 #### Example DeliveryInfo object
 
-The following example shows the `DeliveryInfo`object for updating delivery information for an order. For definitions of the values below, see [Delivery values](apiUpdatingDeliveryInfoForAnOrder.html#apiDeliveryInfoValues).
+The following example shows the `DeliveryInfo` object for updating delivery information for an order. For definitions of the values below, see [Delivery values](apiUpdatingDeliveryInfoForAnOrder.html#apiDeliveryInfoValues).
 
 ```
 {
@@ -122,7 +122,7 @@ The following example shows the `DeliveryInfo`object for updating delivery infor
 
 (4) The Toast platform GUID of the delivery employee at the restaurant.
 
-(5) The delivery notes for the order. For more information, see notes .
+(5) The delivery notes for the order. For more information, see notes.
 
 #### Example response when updating delivery information
 
@@ -173,15 +173,15 @@ The following example shows the response for a `PATCH`request to the `/orders/*`
 
 (2) Information about the delivery, including address information and any values you updated.
 
-(3) The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have behaviorset to DELIVERY.
+(3) The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have behavior set to DELIVERY.
 
 #### Viewing the delivery information in the Toast POS application
 
-The following image shows an order on the Unassignedtab of the Deliveryscreen on a Toast POS device.
+The following image shows an order on the Unassigned tab of the Deliveryscreen on a Toast POS device.
 
 ![The Delivery screen with the Unassigned tab emphasized.](https://doc.toasttab.com/doc/media/api-orders-view-unassigned-delivery-order.png)
 
-The following image shows the order on the Deliveredtab after a `PATCH`request changed the order status to `DELIVERED`and added a delivery employee.
+The following image shows the order on the Delivered tab after a `PATCH` request changed the order status to `DELIVERED` and added a delivery employee.
 
 ![The Delivery screen with the Delivered tab emphasized.](https://doc.toasttab.com/doc/media/api-orders-view-delivered-delivery-order.png)
 

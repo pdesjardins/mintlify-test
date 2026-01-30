@@ -38,7 +38,7 @@ For more information, see [Integration partnership process](integrationDevProces
 
 ##### Get an authentication token
 
-Use [these instructions](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token)to use the authentication API to get your first authentication token.
+Use [these instructions](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token) to use the authentication API to get your first authentication token.
 
 ##### Refresh your authentication token
 
@@ -57,7 +57,7 @@ Use this webhook to receive real-time notifications when:
 - Your integration is added or removed.
 
 
-- Restaurants update the [location and group ID fields](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs)for your integration.
+- Restaurants update the [location and group ID fields](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs) for your integration.
 
 
 
@@ -65,11 +65,11 @@ The webhook should be your primary mechanism to understand who is connected to y
 
 If you receive a notification that a restaurant has removed your integration, stop all API requests for that restaurant location.
 
-In addition, poll the `/restaurants`endpoint of the [partners API](apiPartnersGettingAccessibleRestaurants.html#apiUsingPartnersApiToGetRestaurantInfo)to retrieve a list of all restaurants connected to your integration. Programmatically poll this endpoint a few times per day using the `lastModified`query parameter to see if any new restaurants have connected to your integration since you last evaluated the list.
+In addition, poll the `/restaurants` endpoint of the [partners API](apiPartnersGettingAccessibleRestaurants.html#apiUsingPartnersApiToGetRestaurantInfo)to retrieve a list of all restaurants connected to your integration. Programmatically poll this endpoint a few times per day using the `lastModified` query parameter to see if any new restaurants have connected to your integration since you last evaluated the list.
 
 ##### If you use a [restaurant management group API client](apiClientAccounts.html#apiRestaurantManagementGroupApiAccounts)
 
-Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiGettingRestaurantInfoOmitChunkFromSearchIndex.html#apiRestaurantsInGroup)a list of all restaurants in your restaurant management group.
+Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiGettingRestaurantInfoOmitChunkFromSearchIndex.html#apiRestaurantsInGroup) a list of all restaurants in your restaurant management group.
 
 You get the restaurant GUID and the restaurant group GUID from the Toast integrations team when you begin to build your integration.
 
@@ -103,7 +103,7 @@ Your integration should have an error threshold, after which you stop submitting
 
 After your integration goes live, you need to be equipped to handle planned and unplanned downtimes of the Toast platform.
 
-Use the [API downtime guidelines](apiHandlingDowntimes.html)to create your downtime procedures before you need them.
+Use the [API downtime guidelines](apiHandlingDowntimes.html) to create your downtime procedures before you need them.
 
 #### Write integration documentation
 

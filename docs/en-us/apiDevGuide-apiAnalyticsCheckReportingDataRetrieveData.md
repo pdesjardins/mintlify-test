@@ -17,15 +17,15 @@ codeExamples: 0
 
 ### Retrieving the check reporting data
 
-Send a `GET`request to the `/era/v1/check/{reportRequestGuid}`endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
 
 To request the check reporting data, you must include the check reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
-Optionally, you can choose to include a `fetchRestaurantNames`query parameter. If the `fetchRestaurantNames`query parameter is set to `true`, it adds the restaurant name to the check reporting data. If the `fetchRestaurantNames`query parameter is set to `false`or not included, it does not add the restaurant name.
+Optionally, you can choose to include a `fetchRestaurantNames` query parameter. If the `fetchRestaurantNames` query parameter is set to `true`, it adds the restaurant name to the check reporting data. If the `fetchRestaurantNames` query parameter is set to `false` or not included, it does not add the restaurant name.
 
 #### Request to retrieve check reporting data
 
-The following example **curl**command sends a `GET`request to the `/era/v1/check/{reportRequestGuid}`endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://*`[toast-api-hostname]`*/era/v1/check/[(1)](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.html#d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
@@ -36,17 +36,17 @@ curl -X GET \ 'https://*`[toast-api-hostname]`*/era/v1/check/[(1)](apiDevGuide-a
 
 
 
-(1) Send a GETrequest to the /era/v1/checkendpoint of the analytics API.
+(1) Send a GET request to the /era/v1/check endpoint of the analytics API.
 
-(2) The GUID for the check reporting data request, also called the reportRequestGuid. For more information about the analytics API process, see Understanding the analytics API process .
+(2) The GUID for the check reporting data request, also called the reportRequestGuid. For more information about the analytics API process, see Understanding the analytics API process.
 
-(3) Set the fetchRestaurantNamesquery parameter to trueto include the restaurant name in the response.
+(3) Set the fetchRestaurantNames query parameter to true to include the restaurant name in the response.
 
-(4) Include an authentication token. For more information, see Authentication and restaurant access .
+(4) Include an authentication token. For more information, see Authentication and restaurant access.
 
 #### Response to the retrieval request for check reporting data
 
-The following example shows the response from the `/era/v1/check/{reportRequestGuid}`endpoint.
+The following example shows the response from the `/era/v1/check/{reportRequestGuid}` endpoint.
 
 ```
 [
@@ -101,7 +101,7 @@ The following example shows the response from the `/era/v1/check/{reportRequestG
 
 
 
-(1) The restaurantNamevalue appears because the fetchRestaurantNamequery parameter was set to truein the request.
+(1) The restaurantName value appears because the fetchRestaurantName query parameter was set to true in the request.
 
 For more information about the values in the response, see [Understanding the check reporting data](apiAnalyticsCheckReportingDataUnderstandingData.html).
 

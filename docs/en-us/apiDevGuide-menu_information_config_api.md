@@ -22,7 +22,7 @@ codeExamples: 2
 
 > **Important**
 > 
-> The menus API has replaced the configuration API as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI)section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval.
+> The menus API has replaced the configuration API as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval.
 
 
 This section explains how to use the Toast configuration API to get menu information for a restaurant.
@@ -65,7 +65,7 @@ The menu resources available from the configuration API provide JSON representat
 
 
 
-In a Toast `Menu`, each `MenuGroup`has a list of `MenuItem`s in its `items`value. Each `MenuItem`may also have one or more `MenuOptionGroup`s in its `optionGroup`s value, which in turn contains further `MenuItem`s that are modifiers for the primary item. See more information about the data objects that represent menu components in [MenuItems, MenuGroups, MenuOptionGroups, and Menus](apiDevGuide-menu_information_config_api.html#menu-component-data-objects).
+In a Toast `Menu`, each `MenuGroup` has a list of `MenuItem`s in its `items` value. Each `MenuItem` may also have one or more `MenuOptionGroup`s in its `optionGroup`s value, which in turn contains further `MenuItem`s that are modifiers for the primary item. See more information about the data objects that represent menu components in [MenuItems, MenuGroups, MenuOptionGroups, and Menus](apiDevGuide-menu_information_config_api.html#menu-component-data-objects).
 
 The following example shows the JSON representations of a menu, composed from configuration API return data. You can get the JSON representations of each component from the menu resources of the configuration API. See information about composing a menu from menu resource return data in [Working with the Toast menu hierarchy](apiDevGuide-menu_information_config_api.html#api-working-with-menu-hierarchy).
 
@@ -118,8 +118,8 @@ The following example shows the JSON representations of a menu, composed from co
 ```
 
   
-The following example shows a curl command that places an order for `'Award Winning' Curly-Q Fries`with `Full
-      Basket`modifier with the **curl**command and order JSON shown in the following example.
+The following example shows a curl command that places an order for `'Award Winning' Curly-Q Fries` with `Full
+      Basket` modifier with the **curl** command and order JSON shown in the following example.
 
 **Example 4.13. Submitting an Order Selection with a Modifier**
 
@@ -181,16 +181,16 @@ TzU" \
 
 The Toast POS represents menus using the following data objects:
 
-- A `MenuItem`represents a single base product or product option. A final line item will correspond to a base `MenuItem`and any number of optional `MenuItems`made available by `MenuOptionGroups`associated with the base `MenuItem`. These `MenuOptionGroups`can be attached to the `MenuItem`itself or inherited from a `MenuGroup`of which the `MenuItem`is a member.
+- A `MenuItem` represents a single base product or product option. A final line item will correspond to a base `MenuItem` and any number of optional `MenuItems` made available by `MenuOptionGroups` associated with the base `MenuItem`. These `MenuOptionGroups` can be attached to the `MenuItem` itself or inherited from a `MenuGroup` of which the `MenuItem` is a member.
 
 
-- A `MenuOptionGroup`is a collection of optional `MenuItems`that modify an associated base `MenuItem`. For instance, a "Burger" `MenuItem`might have a `MenuOptionGroup`called "Condiments" containing "Pickle", "Cheese", and "Tomato" `MenuItem`s. If there's only one burger on the `Menu`, the "Condiments" group will probably be attached directly to the "Burger" `MenuItem`. If the `Menu`contains a whole `MenuGroup`of various burgers, all of which can be ordered with pickles, cheese, or tomato, the `MenuOptionGroup`might instead be attached to the `MenuGroup`, and inherited by all the `MenuItems`in it.
+- A `MenuOptionGroup` is a collection of optional `MenuItems` that modify an associated base `MenuItem`. For instance, a "Burger" `MenuItem` might have a `MenuOptionGroup`called "Condiments" containing "Pickle", "Cheese", and "Tomato" `MenuItem`s. If there's only one burger on the `Menu`, the "Condiments" group will probably be attached directly to the "Burger" `MenuItem`. If the `Menu` contains a whole `MenuGroup` of various burgers, all of which can be ordered with pickles, cheese, or tomato, the `MenuOptionGroup` might instead be attached to the `MenuGroup`, and inherited by all the `MenuItems` in it.
 
 
-- A `MenuGroup`is a named logical grouping of `MenuItems`and `MenuGroups`. A `MenuOptionGroup`attached to a `MenuGroup`provides the options in that `MenuOptionGroup`to all `MenuItems`in the `MenuGroup`, and to any of its child `MenuGroups`that have the `inheritOptionGroups`flag set to true.
+- A `MenuGroup` is a named logical grouping of `MenuItems` and `MenuGroups`. A `MenuOptionGroup` attached to a `MenuGroup`provides the options in that `MenuOptionGroup` to all `MenuItems` in the `MenuGroup`, and to any of its child `MenuGroups` that have the `inheritOptionGroups` flag set to true.
 
 
-- A `Menu`is the top-level representation of a group of products. A given restaurant might, for instance, have a "Lunch" `Menu`and a "Dinner" `Menu`. `Menu`s contain any number of `MenuGroup`s, and cannot contain `MenuItem`s directly.
+- A `Menu` is the top-level representation of a group of products. A given restaurant might, for instance, have a "Lunch" `Menu` and a "Dinner" `Menu`. `Menu`s contain any number of `MenuGroup`s, and cannot contain `MenuItem`s directly.
 
 
 
@@ -214,9 +214,9 @@ Toast menus have the following attributes:
 
 There are two different logical representations of a menu. The configuration API currently operates on a raw menu structure in which `MenuOptionGroup`s appear at any level as described above, and inheritance flags are present and necessary to determine which options are available for which items.
 
-In a resolved menu structure, inheritance information has been consulted, `MenuOptionGroup`s have been propagated down to each item to which they apply, and inheritance flags are withheld. This is a more usable structure, and will eventually be supported by our APIs. For now, best practice for partners is to derive this resolved structure from the raw configuration API results. If Toast provides you with a JSON `Menu`export for testing purposes, it will be in this format.
+In a resolved menu structure, inheritance information has been consulted, `MenuOptionGroup`s have been propagated down to each item to which they apply, and inheritance flags are withheld. This is a more usable structure, and will eventually be supported by our APIs. For now, best practice for partners is to derive this resolved structure from the raw configuration API results. If Toast provides you with a JSON `Menu` export for testing purposes, it will be in this format.
 
-The following example demonstrates a simple raw menu structure. If you need a JSON export of a restaurant menu for testing, contact Toast integration support. Note that these exports will include pricing information, which is not yet available through the API. Actual API responses will also include an additional `externalId`field, which is omitted here. For more information, see [External identifiers](portalToastIdentifiers.html#apiExternalIdentifiers).
+The following example demonstrates a simple raw menu structure. If you need a JSON export of a restaurant menu for testing, contact Toast integration support. Note that these exports will include pricing information, which is not yet available through the API. Actual API responses will also include an additional `externalId` field, which is omitted here. For more information, see [External identifiers](portalToastIdentifiers.html#apiExternalIdentifiers).
 
 ```
 [
@@ -292,7 +292,7 @@ returns
 }
 ```
 
-Which gives you a list of `MenuGroup`GUIDs. For each one, you can the call
+Which gives you a list of `MenuGroup` GUIDs. For each one, you can the call
 
 ```
 GET /menuGroups/578c5e48-7d99-438f-be61-f4f972569ce6
@@ -320,7 +320,7 @@ which returns
 }
 ```
 
-giving you lists of the `MenuItem`GUIDs, `MenuOptionGroup`GUIDs, and `MenuGroup`GUIDs (none in this case) in each of those `MenuGroup`s. For each such GUID, make the appropriate call:
+giving you lists of the `MenuItem` GUIDs, `MenuOptionGroup` GUIDs, and `MenuGroup` GUIDs (none in this case) in each of those `MenuGroup`s. For each such GUID, make the appropriate call:
 
 ```
 GET /menuOptionGroups/f63f8bd3-9764-4b1b-b3c9-40c8c104b42b

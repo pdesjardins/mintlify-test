@@ -25,20 +25,20 @@ codeExamples: 2
 > The authentication method described in this section is deprecated. The preferred authentication method for the Toast loyalty API is static API key authentication. For information about using static API authentication, see [Authenticating outbound API requests](portalOutboundIntegrationsOmitChunkFromSearchIndex.html#apiAuthenticatingRequestsFromToastApiClients).
 
 
-You can verify that loyalty transaction requests are from the Toast platform by validating the JSON Web Token (JWT) in the header of every request. Each loyalty transaction request includes a JWT in the `Authorization`header field.
+You can verify that loyalty transaction requests are from the Toast platform by validating the JSON Web Token (JWT) in the header of every request. Each loyalty transaction request includes a JWT in the `Authorization` header field.
 
 You can validate the JWT for a request with a public key that you get from the Toast API user management service.
 
 You use the public key that matches the Toast environment that you are integrating with. For information about Toast API environments, see [Environments](apiEnvironments.html).
 
-- For the production environment (real transactions) send a `GET`request to the following endpoint.
+- For the production environment (real transactions) send a `GET` request to the following endpoint.
 
 ```
 https://*`[toast-production-api-hostname]`*/usermgmt/v1/oauth/token_key
 ```
 
 
-- For the sandbox environment (testing transactions) send a `GET`request to the following endpoint.
+- For the sandbox environment (testing transactions) send a `GET` request to the following endpoint.
 
 ```
 https://*`[toast-sandbox-api-hostname]`*/usermgmt/v1/oauth/token_key
@@ -57,7 +57,7 @@ https://*`[toast-sandbox-api-hostname]`*/usermgmt/v1/oauth/token_key
 
 A Toast public key for partner API authentication is an X.509 Public Key encoded in DER in PEM format.
 
-The following example shows the public key string in the JSON response from the `/usermgmt/v1/oauth/token_key`endpoint. The JSON value named `value`contains the public key string. The key string in this example is not functional.
+The following example shows the public key string in the JSON response from the `/usermgmt/v1/oauth/token_key` endpoint. The JSON value named `value` contains the public key string. The key string in this example is not functional.
 
 **Example 10.17. Example Public Key for Partner API Authentication**
 
@@ -75,11 +75,11 @@ Qc99xVQ8wlfrh4tp56yjRnub\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
 
 
 
-(1) The /oauth/token_keyendpoint returns a JSON object that contains multiple values. One of the values provides the public key string.
+(1) The /oauth/token_key endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.
 
-(2) The algvalue indicates the encryption algorithm used for the public key.
+(2) The alg value indicates the encryption algorithm used for the public key.
 
-(3) The valuevalue includes the public key string. You can use the string supplied in the valuevalue to validate the authentication tokens in a Toast platform loyalty transaction request.
+(3) The value value includes the public key string. You can use the string supplied in the value value to validate the authentication tokens in a Toast platform loyalty transaction request.
 
   
 #### Using the public key to validate JWTs

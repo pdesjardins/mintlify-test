@@ -33,12 +33,12 @@ The following table specifies the set of values returned in the check reporting 
 | `orderOpenedDate` | The business date for when the order is initially expected to be fulfilled. This date determines whether a check is within the requested time range or not. | 
 | `checkPaidDateTime` | The most recent date the check received payment. | 
 | `checkModifiedDateTime` | The most recent date that the check was modified. | 
-| `checkStatus ` | The payment state of the check. The state can be one of the following values:- `OPEN`: The check is open and unpaid.
-- `PAID`: The check is paid, but the payment is not finalized.
-- `CLOSED`: The check payment is finalized.
+| `checkStatus ` | The payment state of the check. The state can be one of the following values: - `OPEN` : The check is open and unpaid.
+- `PAID` : The check is paid, but the payment is not finalized.
+- `CLOSED` : The check payment is finalized.
 
  | 
-| `checkVoidedStatus` | Indicates whether the check was voided or not. A `true`value indicates the check was voided, while a `false`value indicates the check was not voided. | 
+| `checkVoidedStatus` | Indicates whether the check was voided or not. A `true` value indicates the check was voided, while a `false` value indicates the check was not voided. | 
 | `diningOption` | The dining option for the check data. | 
 | `revenueCenter` | The revenue center for the check data. | 
 | `serverName` | The first and last name of the employee who created the order. | 
@@ -48,5 +48,5 @@ The following table specifies the set of values returned in the check reporting 
 | `checkTipAmount` | The total tip amount of the check. | 
 | `checkGratuityAmount` | The total gratuity amount of the check. | 
 | `checkRefundAmount` | The total refund amount of the check. | 
-| `restaurantName` | The restaurant’s name. This is included when you set the `fetchRestaurantNames`parameter to `true`in the `GET`request. | 
+| `restaurantName` | The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET`request. | 
 

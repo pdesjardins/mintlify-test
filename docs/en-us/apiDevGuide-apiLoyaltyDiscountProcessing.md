@@ -25,10 +25,10 @@ Loyalty reward offer redemptions are handled entirely by your organization. Your
 - The Toast platform will honor the response from your loyalty program that indicates whether or not to apply a loyalty redemption. Any validation done by the Toast platform is minimal (such as ensuring a check or item price is not brought below zero).
 
 
-- `Inquire`calls are made whenever the list of offers is loaded (if the contents of the check have changed since the last inquire call) to get the list of offers currently applicable to the check. The restaurant employee can subsequently select which offer to redeem by selecting from the list.
+- `Inquire` calls are made whenever the list of offers is loaded (if the contents of the check have changed since the last inquire call) to get the list of offers currently applicable to the check. The restaurant employee can subsequently select which offer to redeem by selecting from the list.
 
 
-- `Inquire`is also called at the end of the POS workflow during payment. At this point, all redemptions attached to the check have a final opportunity to be verified. Your loyalty program integration can either *accept*or *reject*each redemption. Prior to the final inquire call, the POS will verify Toast domain configured discounts and Promotion service integration discounts (in that order).
+- `Inquire` is also called at the end of the POS workflow during payment. At this point, all redemptions attached to the check have a final opportunity to be verified. Your loyalty program integration can either *accept* or *reject* each redemption. Prior to the final inquire call, the POS will verify Toast domain configured discounts and Promotion service integration discounts (in that order).
 
 
 
@@ -40,16 +40,16 @@ There is no additional validation done by the POS for check-level rewards. Check
 
 Minimal validation occurs in the POS when an item-level reward offer is selected. The offer must include a selection GUID to which the reward can apply. If the reward is applied by the restaurant employee, the POS will attach the reward to the item selection with the matching GUID.
 
-The array of rewards returned to the POS is in a `ResponseCheck`object. Each item-level offer contains a `selectionIdentifier`value. This is a Toast POS-defined GUID and is the way your loyalty program integration can specify which item an offer may apply to.
+The array of rewards returned to the POS is in a `ResponseCheck` object. Each item-level offer contains a `selectionIdentifier` value. This is a Toast POS-defined GUID and is the way your loyalty program integration can specify which item an offer may apply to.
 
 1. Your loyalty program integration must retrieve menu information from Toast. The recommended approach is to use the menus API to retrieve a list of all menu items. See [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI).
 
 
 2. Specific top level items which offers apply to is optionally returned in the loyalty API response to an inquire request:
 
-A `ResponseCheck`object contains an `offers`value which contains an array of `Offer`objects. If an offer is of `selectionType``ITEM`and a `selectionIdentifier`is specified, then that is the menu item for which the offer can be applied. All offers are expected to have the `applicable`boolean value set to `true`if the offer can be applied to the check submitted with the request, false otherwise
+A `ResponseCheck` object contains an `offers` value which contains an array of `Offer` objects. If an offer is of `selectionType``ITEM` and a `selectionIdentifier` is specified, then that is the menu item for which the offer can be applied. All offers are expected to have the `applicable` boolean value set to `true` if the offer can be applied to the check submitted with the request, false otherwise
 
-The `Check`contains a list of `Selection`objects representing items on the check. Each `Selection`has a reference to the corresponding menu item. Menu items have GUIDs assigned to it. These are the IDs used to match against item level offers specified in the `selectionIdentifier`returned from an inquiry request.
+The `Check` contains a list of `Selection` objects representing items on the check. Each `Selection` has a reference to the corresponding menu item. Menu items have GUIDs assigned to it. These are the IDs used to match against item level offers specified in the `selectionIdentifier` returned from an inquiry request.
 
 
 
@@ -61,7 +61,7 @@ There is no limit to the number of check-levels that you can apply to an entire 
 
 The Toast platform does not apply discounts directly to modifiers. You can apply item-level discounts to menu item selections that include modifiers. The discount applies to the total price of the item, which includes the modifier price.
 
-The `MULTI_ITEM`discount type applies to multiple different items or to two instances of the same item in separate `Selection`objects within a `Check`. For the discount to work, each item must be in an individual `Selection`object with a `quantity`of 1. A single `Selection`object with a `quantity`of 2 or more of the same item will not qualify for a `MULTI_ITEM`discount.
+The `MULTI_ITEM` discount type applies to multiple different items or to two instances of the same item in separate `Selection` objects within a `Check`. For the discount to work, each item must be in an individual `Selection` object with a `quantity` of 1. A single `Selection` object with a `quantity` of 2 or more of the same item will not qualify for a `MULTI_ITEM`discount.
 
 For more information about Toast platform discount functionality, see [adminGuide#platformDiscountsOverview].
 

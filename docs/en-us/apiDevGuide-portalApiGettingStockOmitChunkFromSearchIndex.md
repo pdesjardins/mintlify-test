@@ -36,20 +36,20 @@ In addition, the stock API gives you the ability to update inventory information
 
 To use the stock API, your API account must have one of the following [scopes](apiScopes.html):
 
-- To retrieve inventory information, your API account must have the `stock:read`scope.
+- To retrieve inventory information, your API account must have the `stock:read` scope.
 
 
-- To update inventory information, your account must have the `stock:write`scope.
+- To update inventory information, your account must have the `stock:write` scope.
 
 
 
-Stock updates do not represent changes to the menu itself. Updating the menu and consuming stock updates should occur in separate processes. Only retrieve a new menu when the menus webhook has sent a message that the menu is outdated, or a request to the `/metadata`endpoint of the menus API indicates that the menu JSON is outdated. For more information about when to retrieve a new menu, see [Determining if a restaurant's menu data has gone stale](apiGettingMenuInformationOmitChunkFromSearchIndex.html#apiDeterminingIfYourMenuJsonIsOutdated_V2).
+Stock updates do not represent changes to the menu itself. Updating the menu and consuming stock updates should occur in separate processes. Only retrieve a new menu when the menus webhook has sent a message that the menu is outdated, or a request to the `/metadata` endpoint of the menus API indicates that the menu JSON is outdated. For more information about when to retrieve a new menu, see [Determining if a restaurant's menu data has gone stale](apiGettingMenuInformationOmitChunkFromSearchIndex.html#apiDeterminingIfYourMenuJsonIsOutdated_V2).
 
 
 
 > **Note**
 > 
-> Modifiers are supported by an underlying menu item, called the modifier's item reference. Therefore, in this section, the term *menu item*is used to generically refer to both standalone menu items and modifier item references, because the same data is returned for both entities. For detailed information on modifier item references, see [adminGuide#adminUnderstandingAModifierOptionsItemReference].
+> Modifiers are supported by an underlying menu item, called the modifier's item reference. Therefore, in this section, the term *menu item* is used to generically refer to both standalone menu items and modifier item references, because the same data is returned for both entities. For detailed information on modifier item references, see [adminGuide#adminUnderstandingAModifierOptionsItemReference].
 
 
 

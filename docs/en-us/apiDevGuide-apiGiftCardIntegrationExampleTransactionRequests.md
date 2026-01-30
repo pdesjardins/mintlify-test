@@ -44,15 +44,15 @@ The following example shows an example gift card integration API request.
 
 (1) This header parameter indicates the MIME type of the message body data.
 
-(2) This header parameter indicates the type of gift card transaction. For more information, see Gift card transaction types .
+(2) This header parameter indicates the type of gift card transaction. For more information, see Gift card transaction types.
 
 (3) This header parameter supplies the identifier of the restaurant that processed the gift card transaction. The identifier is defined by the Toast platform. You receive the identifiers for Toast platform restaurants from the Toast integrations team when you implement your gift card integration.
 
-(4) This header parameter supplies an identifier for the specific transaction request. You must keep this identifier in your integration implementation. The Toast platform may refer to the transaction identifier in a future GIFTCARD_REVERSEtransaction. For more information, see Gift card transaction types .
+(4) This header parameter supplies an identifier for the specific transaction request. You must keep this identifier in your integration implementation. The Toast platform may refer to the transaction identifier in a future GIFTCARD_REVERSEtransaction. For more information, see Gift card transaction types.
 
-(5) This header parameter supplies the JWT authentication token that you can use to verify that the request is from the Toast platform and that the request has not been altered. For more information, see Gift card integration authentication .
+(5) This header parameter supplies the JWT authentication token that you can use to verify that the request is from the Toast platform and that the request has not been altered. For more information, see Gift card integration authentication.
 
-(6) The message body of a gift card transaction request includes a JSON GiftCardTransactionobject. For information about the values in a GiftCardTransactionobject, see the gift card integration API reference documentation .
+(6) The message body of a gift card transaction request includes a JSON GiftCardTransaction object. For information about the values in a GiftCardTransaction object, see the gift card integration API reference documentation.
 
 (7) Because this gift card transaction type is GIFTCARD_REDEEM, the GiftCardTransactionobject includes a redeemTransactionInformationvalue.
 
@@ -77,11 +77,11 @@ The following example shows an example gift card integration API response.
 
 
 
-(1) Your gift card integration API implementation returns a JSON GiftCardTransactionResponseobject in the HTTP response to a gift card transaction request from the Toast platform. For information about the values in a GiftCardTransactionResponseobject, see the gift card integration API reference documentation .
+(1) Your gift card integration API implementation returns a JSON GiftCardTransactionResponse object in the HTTP response to a gift card transaction request from the Toast platform. For information about the values in a GiftCardTransactionResponse object, see the gift card integration API reference documentation.
 
-(2) Indicates the result of your attempt to process the transaction. For more information about the transactionStatusvalue, see Response status types .
+(2) Indicates the result of your attempt to process the transaction. For more information about the transactionStatus value, see Response status types.
 
-(3) Because this gift card transaction type is GIFTCARD_REDEEM, the GiftCardTransactionResponse object includes a redeemResponsevalue.
+(3) Because this gift card transaction type is GIFTCARD_REDEEM, the GiftCardTransactionResponse object includes a redeemResponse value.
 
 (4) Indicates the amount of money available on the gift card after the transaction.
 

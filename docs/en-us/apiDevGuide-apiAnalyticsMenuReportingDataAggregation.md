@@ -17,18 +17,18 @@ codeExamples: 5
 
 ### Aggregating the menu reporting data
 
-The default way to view menu reporting data is by day for each location. You can choose to further aggregate the data by menu, menu group, menu item, or modifier. The `groupBy`value in the message body of the `/era/v1/menu/day`or `/era/v1/menu/week`request groups the data by one of these options:
+The default way to view menu reporting data is by day for each location. You can choose to further aggregate the data by menu, menu group, menu item, or modifier. The `groupBy` value in the message body of the `/era/v1/menu/day` or `/era/v1/menu/week` request groups the data by one of these options:
 
-- `MENU`to group by menu
-
-
-- `MENU_GROUP`to group by menu group
+- `MENU` to group by menu
 
 
-- `MENU_ITEM`to group by menu item
+- `MENU_GROUP` to group by menu group
 
 
-- `MODIFIER`to group by modifier
+- `MENU_ITEM` to group by menu item
+
+
+- `MODIFIER` to group by modifier
 
 
 
@@ -36,7 +36,7 @@ The default way to view menu reporting data is by day for each location. You can
 
 > **Note**
 > 
-> You can only use the `groupBy`value if requesting data for a `day`or `week`time range.
+> You can only use the `groupBy` value if requesting data for a `day` or `week` time range.
 
 
 The menu reporting data you retrieve includes an object for every available combination of business date, restaurant, and menu entity. If there is no information correlated to a combination of data, then there is no object. For example, if a menu item was not ordered on Monday, there is no data available for the menu item on Monday for the restaurant. Another example is a menu that is only available on Sundays. There is no data for that menu at that restaurant for days other than Sunday.
@@ -48,7 +48,7 @@ The menu reporting data you retrieve includes an object for every available comb
 > You can only aggregate using one value, either `MENU`, `MENU_GROUP`, `MENU_ITEM`, or `MODIFIER`.
 
 
-The following example shows the message body for a `/era/v1/menu/day`request that uses the `groupBy`value with `MENU`.
+The following example shows the message body for a `/era/v1/menu/day` request that uses the `groupBy`value with `MENU`.
 
 ```
 {
@@ -62,9 +62,9 @@ The following example shows the message body for a `/era/v1/menu/day`request tha
 
 
 
-(1) The start date of the time range for the menu reporting data, in YYYYMMDDformat.
+(1) The start date of the time range for the menu reporting data, in YYYYMMDD format.
 
-(2) The end date of the time range for the menu reporting data, in YYYYMMDDformat.
+(2) The end date of the time range for the menu reporting data, in YYYYMMDD format.
 
 (3) The list of restaurant GUIDs from the management group to include in the menu reporting data. If any restaurants are listed, the restaurant GUIDs not listed are excluded. When left blank, all restaurants are included by default.
 
@@ -168,7 +168,7 @@ The following example requests menu reporting data for two days and two restaura
 
 ##### Request for menu reporting data
 
-The following example **curl**command sends a `POST`request to the `/era/v1/menu/week`endpoint.
+The following example **curl** command sends a `POST` request to the `/era/v1/menu/week` endpoint.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
@@ -179,9 +179,9 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \[(1)](apiDevG
 
 
 
-(1) Send a POSTrequest to the /era/v1/menu/{timeRange}endpoint of the analytics API. The {timeRange}in this example is week.
+(1) Send a POST request to the /era/v1/menu/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
 
-(2) Include an authentication token. For more information, see Authentication and restaurant access .
+(2) Include an authentication token. For more information, see Authentication and restaurant access.
 
 (3) Set the data type of the message body to application/json.
 
@@ -189,7 +189,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \[(1)](apiDevG
 
 ##### Message body for the menu reporting data request
 
-The following example shows the message body of the `/era/v1/menu/week`request that uses the `groupBy`value with `MENU_ITEM`.
+The following example shows the message body of the `/era/v1/menu/week` request that uses the `groupBy` value with `MENU_ITEM`.
 
 ```
 {
@@ -206,17 +206,17 @@ The following example shows the message body of the `/era/v1/menu/week`request t
 
 (1) The list of restaurant GUIDs from the management group to include in the menu reporting data. Restaurant GUIDs not listed are excluded.
 
-(2) The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, excludedRestaurantIdsmust be empty because restaurant GUIDs are already included with the restaurantIdsvalue.
+(2) The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, excludedRestaurantIds must be empty because restaurant GUIDs are already included with the restaurantIds value.
 
-(3) The start date of the time range for the menu reporting data, in YYYYMMDDformat.
+(3) The start date of the time range for the menu reporting data, in YYYYMMDD format.
 
-(4) The end date of the time range for the menu reporting data, in YYYYMMDDformat.
+(4) The end date of the time range for the menu reporting data, in YYYYMMDD format.
 
 (5) This request is for menu reporting data grouped by menu item.
 
 ##### Response to the menu reporting data request
 
-The following example shows the response from the `/era/v1/menu/week`endpoint.
+The following example shows the response from the `/era/v1/menu/week` endpoint.
 
 ```
 "bd9fb800-7c1e-40b8-9e5d-1010430a6a09"[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5210F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
@@ -224,11 +224,11 @@ The following example shows the response from the `/era/v1/menu/week`endpoint.
 
 
 
-(1) The GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process .
+(1) The GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
 ##### Request to retrieve the menu reporting data
 
-The following example **curl**command sends a `GET`request to the `/era/v1/menu/{reportRequestGuid}`endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5235F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
@@ -238,15 +238,15 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \[(2)](apiDevGuide-apiAnalyticsMenuReport
 
 
 
-(1) Send a GETrequest to the /era/v1/menuendpoint of the analytics API.
+(1) Send a GET request to the /era/v1/menu endpoint of the analytics API.
 
-(2) Include the GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process .
+(2) Include the GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see Authentication and restaurant access .
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
 ##### Response to the retrieval request for menu reporting data
 
-The following example shows the response from the `/era/v1/menu/{reportRequestGuid}`endpoint.
+The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.
 
 ```
 [

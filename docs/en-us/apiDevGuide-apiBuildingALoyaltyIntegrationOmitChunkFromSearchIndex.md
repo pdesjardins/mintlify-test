@@ -19,15 +19,15 @@ You can use the Toast loyalty integration API to integrate your loyalty program 
 
 **Integration overview**
 
-- Toast POS restaurant employees can select a Rewardsbutton while processing a guest transaction. The Rewardsbutton prompts the employee to find the guest's loyalty account. Employees can manually enter a guest's loyalty account identifier, swipe a guest’s rewards card, scan a QR code, or search for a loyalty account by name, phone number, or email.
+- Toast POS restaurant employees can select a Rewards button while processing a guest transaction. The Rewards button prompts the employee to find the guest's loyalty account. Employees can manually enter a guest's loyalty account identifier, swipe a guest’s rewards card, scan a QR code, or search for a loyalty account by name, phone number, or email.
 
 
 - After the employee finds a guest's loyalty account, rewards that are available are displayed along with a Redeembutton.
 
 
-- The employee selects the Redeembutton for a reward. The reward appears as a negative amount in the check price.
+- The employee selects the Redeem button for a reward. The reward appears as a negative amount in the check price.
 
-The employee selects Redeemfor additional rewards if the guest wants to redeem them.
+The employee selects Redeem for additional rewards if the guest wants to redeem them.
 
 
 - Rewards can apply either check-level or item-level discounts.

@@ -16,7 +16,7 @@ codeExamples: 0
 
 ### Analytics API access overview
 
-If you are a Toast customer looking for insight into your management group’s performance, you can use analytics API access to get read-only access to a specialized set of reporting and operational data. This access is included with [Restaurant Management Suite Pro](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Pro)and is enabled through credentials you create in Toast Web. The analytics API provides narrowly focused, high-value data on sales, checks, labor, menus, payouts, and guests available only through this access type. Analytics API access gives you the flexibility to power custom reports, dashboards, and other business tools using your own analytics.
+If you are a Toast customer looking for insight into your management group’s performance, you can use analytics API access to get read-only access to a specialized set of reporting and operational data. This access is included with [Restaurant Management Suite Pro](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Pro) and is enabled through credentials you create in Toast Web. The analytics API provides narrowly focused, high-value data on sales, checks, labor, menus, payouts, and guests available only through this access type. Analytics API access gives you the flexibility to power custom reports, dashboards, and other business tools using your own analytics.
 
 For more information about using the analytics API, see [Analytics API overview](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsOverview).
 
@@ -27,10 +27,10 @@ The following are required to enable analytics API access:
 - You must be an active employee of the Toast management group you are creating credentials for.
 
 
-- An active subscription to [Toast Restaurant Management Suite Pro](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials)or higher. Sign in with your Toast Web credentials to be directed to Toast Shop where you can purchase RMS. RMS grants you access to the analytics API.
+- An active subscription to [Toast Restaurant Management Suite Pro](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials) or higher. Sign in with your Toast Web credentials to be directed to Toast Shop where you can purchase RMS. RMS grants you access to the analytics API.
 
 
-- You must have the following permissions to all locations in the management group:
+- You must have the following permissions to all locations in the management group: 
 
 - 4.1 Sales Reports
 

@@ -30,14 +30,14 @@ As part of the API registration process for an API environment, the Toast integr
 
 #### Client identifier and secret
 
-API users must register with the Toast integrations team for each environment to obtain the client credentials to use with that environment. In this context, *client*refers to the software that you use to exchange information with Toast APIs.
+API users must register with the Toast integrations team for each environment to obtain the client credentials to use with that environment. In this context, *client* refers to the software that you use to exchange information with Toast APIs.
 
 API client credentials include:
 
-- **Client identifier -**A unique application identifier that the service API uses to identify the partner application. A client identifier is comparable to an account name.
+- **Client identifier -** A unique application identifier that the service API uses to identify the partner application. A client identifier is comparable to an account name.
 
 
-- **Client secret -**A private string assigned by Toast used to verify the identity of the partner application to the service API when the application makes requests to Toast services. This secret must be kept private between the partner and the Toast integrations team.
+- **Client secret -** A private string assigned by Toast used to verify the identity of the partner application to the service API when the application makes requests to Toast services. This secret must be kept private between the partner and the Toast integrations team.
 
 The client secret is similar to a password. Do not use email to send or receive a Toast API client secret.
 
@@ -47,12 +47,12 @@ The client secret is similar to a password. Do not use email to send or receive 
 
 A Toast API account is one of the following types:
 
-- **Partner API account -**Used by integration partners who perform Toast API operations on multiple restaurants that are not part of the same restaurant management group.
+- **Partner API account -** Used by integration partners who perform Toast API operations on multiple restaurants that are not part of the same restaurant management group.
 
 Individual restaurants choose to give API access to specific integration partners.
 
 
-- **Restaurant management group API accounts -**Used by internal or contracted API client software developers to perform Toast API operations on restaurants that are part of a single restaurant management group.
+- **Restaurant management group API accounts -** Used by internal or contracted API client software developers to perform Toast API operations on restaurants that are part of a single restaurant management group.
 
 An example of a restaurant management group is a restaurant chain, with multiple restaurant locations.
 

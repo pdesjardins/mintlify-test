@@ -25,22 +25,22 @@ This section includes information about Toast orders API functionality that is a
 
 ##### Getting order identifiers for a time period (deprecated)
 
-You can send a `GET`request to the `/orders`endpoint to get a list of the orders that were last modified during a period of time.
+You can send a `GET` request to the `/orders` endpoint to get a list of the orders that were last modified during a period of time.
 
-When you send a `GET`request to the `/orders`endpoint, you specify the period of time that you want to return orders for by using one of two query parameter options:
+When you send a `GET` request to the `/orders` endpoint, you specify the period of time that you want to return orders for by using one of two query parameter options:
 
-- You can select the orders that were last modified during a time period of up to one hour by specifying dates and times in the `startDate`and `endDate`query parameters. Note that modification includes creation; that is, these query parameters will return orders that were created or modified during the specified time period.
-
-
-- You can select the orders that were created during a single restaurant business day by setting the `businessDate`query parameter. The restaurant's business day cutoff is determined by the `closeoutHour`value in the `General`object within the `RestaurantInfo`object in the restaurants API.
+- You can select the orders that were last modified during a time period of up to one hour by specifying dates and times in the `startDate` and `endDate` query parameters. Note that modification includes creation; that is, these query parameters will return orders that were created or modified during the specified time period.
 
 
+- You can select the orders that were created during a single restaurant business day by setting the `businessDate` query parameter. The restaurant's business day cutoff is determined by the `closeoutHour` value in the `General` object within the `RestaurantInfo` object in the restaurants API.
 
-Toast support recommends that you use the `startDate`and `endDate`query parameters, because these parameters get order information using the order's *modification*timestamp. The `businessDate`query parameter gets the information using the order's *creation*date. This means, for example, that if you retrieve order GUIDs with the `businessDate`query parameter, you will not get orders that were modified on that date but created on an earlier date.
+
+
+Toast support recommends that you use the `startDate` and `endDate` query parameters, because these parameters get order information using the order's *modification* timestamp. The `businessDate` query parameter gets the information using the order's *creation* date. This means, for example, that if you retrieve order GUIDs with the `businessDate` query parameter, you will not get orders that were modified on that date but created on an earlier date.
 
 **Example 1.11. Request for orders last modified during a time period**
 
-The following example shows the path for a `GET`request that will return orders last modified during a one-hour period. The values of the `startDate`and `endDate`query parameters must be URL encoded. For more information about date and time formats, see [Dates and timestamps](api_dates_and_timestamps.html).
+The following example shows the path for a `GET` request that will return orders last modified during a one-hour period. The values of the `startDate` and `endDate` query parameters must be URL encoded. For more information about date and time formats, see [Dates and timestamps](api_dates_and_timestamps.html).
 
 ```
 curl -X GET \
@@ -64,18 +64,18 @@ endDate=2019-02-27T09%3A59%3A00.000-0500"[(4)](apiDevGuide-apiDeprecatedApiFunct
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access .
+(1) Include an authentication token. For more information, see Authentication and restaurant access.
 
 (2) Specify the GUID of the restaurant that created the orders. This must be an individual restaurant, not the GUID for a restaurant group.
 
-(3) Send a GETrequest to the /ordersendpoint of the orders API.
+(3) Send a GET request to the /orders endpoint of the orders API.
 
-(4) Specify a period of time up to one hour by including dates and times in the startDateand endDatequery parameters.
+(4) Specify a period of time up to one hour by including dates and times in the startDate and endDate query parameters.
 
   
 **Example 1.12. Request for orders created during one business day**
 
-The following example **curl**command shows a request for all of the orders that were created during one restaurant business day. Specify the restaurant business day with the *`businessDate`*query parameter.
+The following example **curl** command shows a request for all of the orders that were created during one restaurant business day. Specify the restaurant business day with the *`businessDate`* query parameter.
 
 ```
 curl -X GET \
@@ -99,7 +99,7 @@ businessDate=20190227"
   
 **Example 1.13. Response data containing order GUIDs for one business day**
 
-The following example shows the response data from the `/orders`endpoint using the *`businessDate`*query parameter. It contains the GUIDs of each order that was created at a restaurant during a business day. The response data from a request using the *`startDate`*and *`endDate`*query parameters will contain the GUIDs of orders that were modified or created during the specified time period.
+The following example shows the response data from the `/orders` endpoint using the *`businessDate`* query parameter. It contains the GUIDs of each order that was created at a restaurant during a business day. The response data from a request using the *`startDate`*and *`endDate`* query parameters will contain the GUIDs of orders that were modified or created during the specified time period.
 
 ```
 [
@@ -117,7 +117,7 @@ The following example shows the response data from the `/orders`endpoint using t
 
 
 
-(1) The /ordersendpoint returns a JSON array of order GUIDs.
+(1) The /orders endpoint returns a JSON array of order GUIDs.
 
   
 #### Authentication
@@ -133,23 +133,23 @@ This section includes information about Toast API authentication functionality t
 > The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
 
 
-You get an authentication token by sending a `POST`request to the `/usermgmt/v1/oauth/token`resource of the Toast user management API. The following example shows the URL of the user management token endpoint.
+You get an authentication token by sending a `POST` request to the `/usermgmt/v1/oauth/token` resource of the Toast user management API. The following example shows the URL of the user management token endpoint.
 
 ```
 https://*`[toast-api-hostname]`*/usermgmt/v1/oauth/token
 ```
 
-You must include your client identifier and client secret string in the message body of a `POST`request for an authentication token. When the user management API determines that the client identifier and client secret string are valid, it returns an authentication token along with a set of data describing the way you can use it. You receive a client identifier ( *`client_id`*) and client secret string ( *`client_secret`*) when you register to use Toast APIs. For more information, see [Toast API accounts](apiClientAccounts.html).
+You must include your client identifier and client secret string in the message body of a `POST` request for an authentication token. When the user management API determines that the client identifier and client secret string are valid, it returns an authentication token along with a set of data describing the way you can use it. You receive a client identifier (*`client_id`*) and client secret string (*`client_secret`*) when you register to use Toast APIs. For more information, see [Toast API accounts](apiClientAccounts.html).
 
 To create the message body of an authentication request, concatenate your client identifier, client secret string, and the grant type (which is always *`grant_type=client_credentials`*) using the syntax for a set of query parameters:
 
-- The `grant_type`is always *`grant_type=client_credentials`*.
+- The `grant_type` is always *`grant_type=client_credentials`*.
 
 
-- Include the client identifier in the *`client_id`*parameter.
+- Include the client identifier in the *`client_id`* parameter.
 
 
-- Include the client secret string in the *`client_secret`*parameter.
+- Include the client secret string in the *`client_secret`* parameter.
 
 
 
@@ -160,7 +160,7 @@ To create the message body of an authentication request, concatenate your client
 > You must URL encode the values of each parameter to replace special characters that interfere with processing the string of query parameters.
 
 
-The following example shows a concatenated string of the *`grant_type`*, *`client_id`*, and *`client_secret`*parameters.
+The following example shows a concatenated string of the *`grant_type`*, *`client_id`*, and *`client_secret`* parameters.
 
 ```
 grant_type=client_credentials&client_id=my-identifier&client_secret=XwEW%3C%3CvR*k6%3B%23Fp8
@@ -170,10 +170,10 @@ grant_type=client_credentials&client_id=my-identifier&client_secret=XwEW%3C%3CvR
 
 > **Note**
 > 
-> You must use query parameter syntax for API client credentials, even though you submit them in the message body of a `POST`authentication request.
+> You must use query parameter syntax for API client credentials, even though you submit them in the message body of a `POST` authentication request.
 
 
-The following **curl**command requests an authentication token from the `usermgmt/v1/oauth/token`resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
+The following **curl** command requests an authentication token from the `usermgmt/v1/oauth/token` resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
 
 ```
 curl -X POST \
@@ -205,27 +205,27 @@ The following sections provide information about the return data provided for au
 
 The user management API returns the following information for a successful authentication request using a partner API client. For more information about partner API accounts, see [Toast API accounts](apiClientAccounts.html).
 
-- access_token- an encoded string that contains an authentication token. You must present this string when you make requests to other, secure Toast API resources.
+- access_token - an encoded string that contains an authentication token. You must present this string when you make requests to other, secure Toast API resources.
 
 
-- token_type- the OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
+- token_type - the OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
 
 
-- expires_in- the number of seconds that the authentication token is valid. For example, an authentication token might be valid for 3600 seconds after the user management API issues it.
+- expires_in - the number of seconds that the authentication token is valid. For example, an authentication token might be valid for 3600 seconds after the user management API issues it.
 
 
-- scope- a space-delimited list of Toast APIs that will accept the authentication token.
+- scope - a space-delimited list of Toast APIs that will accept the authentication token.
 
 The user management API does not return a complete list of the Toast APIs that your client is authorized to use.
 
 
-- jti- an identifier for the authentication token. You do not need to use the information in this field.
+- jti - an identifier for the authentication token. You do not need to use the information in this field.
 
 
-- namingAuthority- the name of your organization.
+- namingAuthority - the name of your organization.
 
 
-- `partnerGuid`- the Toast POS system unique identifier for the integration partner organization.
+- `partnerGuid` - the Toast POS system unique identifier for the integration partner organization.
 
 
 
@@ -268,27 +268,27 @@ iNTlbPVwAvrFTbEWcmys0",
 
 The user management API returns the following information for a successful authentication request using a restaurant management group API client. For more information about restaurant management group API accounts, see [Toast API accounts](apiClientAccounts.html).
 
-- access_token- an encoded string that contains an authentication token. You can present this string when you make requests to other, secure Toast API resources.
+- access_token - an encoded string that contains an authentication token. You can present this string when you make requests to other, secure Toast API resources.
 
 
-- expires_in- the number of seconds that the authentication token is valid. For example, an authentication token might be valid for 3600 seconds after the user management API issues it.
+- expires_in - the number of seconds that the authentication token is valid. For example, an authentication token might be valid for 3600 seconds after the user management API issues it.
 
 
-- jti- an identifier for the authentication token. You do not need to use the information in this field.
+- jti - an identifier for the authentication token. You do not need to use the information in this field.
 
 
-- namingAuthority- the name of your organization.
+- namingAuthority - the name of your organization.
 
 
-- rsGuid- the globally unique identifier (GUID) of the top-level unit in your restaurant chain. For example, this identifier might be for the parent unit for multiple restaurants, or for a single, independent restaurant.
+- rsGuid - the globally unique identifier (GUID) of the top-level unit in your restaurant chain. For example, this identifier might be for the parent unit for multiple restaurants, or for a single, independent restaurant.
 
 
-- scope- a space-delimited list of Toast APIs that will accept the authentication token.
+- scope - a space-delimited list of Toast APIs that will accept the authentication token.
 
 The user management API does not return a complete list of the Toast APIs that your client is authorized to use.
 
 
-- token_type- the OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
+- token_type - the OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
 
 
 
@@ -367,11 +367,11 @@ The following sections provide more information about working with customers.
 
 ###### Searching for guest records
 
-To find existing customer records in the Toast POS you send a `POST`request to the `/crm/v1/customers/search`endpoint of the CRM API.
+To find existing customer records in the Toast POS you send a `POST` request to the `/crm/v1/customers/search` endpoint of the CRM API.
 
-You must include A JSON `CustomerSearchRequest`object containing a `CustomerSearchQuery`object in a `POST`request to search for existing customer records. The `CustomerSearchQuery`object includes information about the customer you are searching for. For example, if you are searching for a customer record with a telephone number, you submit a `POST`request including a message body that consists of a `CustomerSearchRequest`object with a `query`value containing a `CustomerSearchQuery`object. The `CustomerSearchQuery`object contains a `phone`value with the telephone number that you want to match.
+You must include A JSON `CustomerSearchRequest` object containing a `CustomerSearchQuery` object in a `POST` request to search for existing customer records. The `CustomerSearchQuery` object includes information about the customer you are searching for. For example, if you are searching for a customer record with a telephone number, you submit a `POST` request including a message body that consists of a `CustomerSearchRequest` object with a `query` value containing a `CustomerSearchQuery`object. The `CustomerSearchQuery` object contains a `phone` value with the telephone number that you want to match.
 
-The following example shows the message body for a `POST`request to the `/crm/v1/customers/search`endpoint.
+The following example shows the message body for a `POST` request to the `/crm/v1/customers/search` endpoint.
 
 **Example 1.16. Guest search query message body**
 
@@ -386,7 +386,7 @@ The following example shows the message body for a `POST`request to the `/crm/v1
   
 ###### Adding a guest record
 
-To add a customer record to a restaurant and its restaurant group you send a `POST`request to the `/crm/v1/customers`endpoint of the CRM API. The `POST`request to the customers endpoint creates a customer record and returns a JSON `Customer`object containing the new customer information.
+To add a customer record to a restaurant and its restaurant group you send a `POST` request to the `/crm/v1/customers` endpoint of the CRM API. The `POST` request to the customers endpoint creates a customer record and returns a JSON `Customer` object containing the new customer information.
 
 Before you add a customer record, you must make sure that the Toast POS does not have an existing customer record for the customer. The customers endpoint will create a new customer record each time you submit a successful POST request. To avoid duplicate customer records for the same restaurant customer you must:
 
@@ -398,13 +398,13 @@ Before you add a customer record, you must make sure that the Toast POS does not
 2. If one or more customer records match your search criteria, add customer credit or perform other customer-related operations on the existing customer record.
 
 
-3. If no existing customer records match your search criteria, create a new customer record by sending a `POST`request to the `/crm/v1/customers`endpoint of the CRM API.
+3. If no existing customer records match your search criteria, create a new customer record by sending a `POST` request to the `/crm/v1/customers` endpoint of the CRM API.
 
 
 
-To create a customer record, you must provide a unique identifier (UUID or GUID) for the customer. The `Customer`object in the message body of the `POST`request must include a `guid`value containing a unique UUID or GUID for the new customer record.
+To create a customer record, you must provide a unique identifier (UUID or GUID) for the customer. The `Customer` object in the message body of the `POST` request must include a `guid` value containing a unique UUID or GUID for the new customer record.
 
-The following example shows the JSON message body content for a `POST`request to the `/crm/v1/customers`endpoint.
+The following example shows the JSON message body content for a `POST` request to the `/crm/v1/customers` endpoint.
 
 **Example 1.17. Message body content to add a guest**
 
@@ -428,7 +428,7 @@ The following example shows the JSON message body content for a `POST`request to
 (4) You must include either an email address (shown) or a telephone number for the customer.
 
   
-The following example shows the JSON response data for a `POST`request to the `/crm/v1/customers`endpoint.
+The following example shows the JSON response data for a `POST` request to the `/crm/v1/customers` endpoint.
 
 **Example 1.18. Add guest response data**
 
@@ -446,11 +446,11 @@ The following example shows the JSON response data for a `POST`request to the `/
   
 ###### Adding guest credits
 
-To add customer credit value for a restaurant customer, you send a `POST`request to the `/crm/v1/`/customers/ *`{customerId}`*/creditTransactions endpoint of the CRM API. Adding customer credit value creates a customer credit transaction.
+To add customer credit value for a restaurant customer, you send a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint of the CRM API. Adding customer credit value creates a customer credit transaction.
 
-To create a customer credit transaction, you must provide a unique identifier (UUID or GUID) for the transaction. The `CustomerCreditTransaction`object in the message body of the `POST`request must include a `guid`value containing a unique UUID or GUID for the new customer record.
+To create a customer credit transaction, you must provide a unique identifier (UUID or GUID) for the transaction. The `CustomerCreditTransaction` object in the message body of the `POST` request must include a `guid`value containing a unique UUID or GUID for the new customer record.
 
-The following example shows the JSON message body content for a `POST`request to the `/crm/v1/`/customers/ *`{customerId}`*/creditTransactions endpoint.
+The following example shows the JSON message body content for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
 
 **Example 1.19. Message body content to add guest credit value**
 
@@ -465,16 +465,16 @@ The following example shows the JSON message body content for a `POST`request to
 
 
 
-(1) Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the guidvalue.
+(1) Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the guid value.
 
-(2) Include the ADD_VALUEvalue when you add customer credit value in a transaction.
+(2) Include the ADD_VALUE value when you add customer credit value in a transaction.
 
-(3) Include the currency amount of the customer credit transaction in the amountvalue.
+(3) Include the currency amount of the customer credit transaction in the amount value.
 
-(4) Include the date and time that you added customer credits in the localCreatedDatevalue.
+(4) Include the date and time that you added customer credits in the localCreatedDate value.
 
   
-The following example shows the JSON response data for a `POST`request to the `/crm/v1/`/customers/ *`{customerId}`*/creditTransactions endpoint.
+The following example shows the JSON response data for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
 
 **Example 1.20. Add guest credit transaction response data**
 
@@ -514,14 +514,14 @@ This section includes information about Toast API menu functionality that is ava
 
 > **Important**
 > 
-> The menus API has replaced the the menu data export as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI)section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval, however, the export functionality will be deprecated at some point in the future and this section will be removed.
+> The menus API has replaced the the menu data export as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval, however, the export functionality will be deprecated at some point in the future and this section will be removed.
 
 
 You can get detailed information about the menus configured for your restaurant from the menu data export file. The Toast POS system generates data export files once a day and makes them available for downloading. This section provides information about downloading data export files and understanding the values in menu data export files.
 
 ###### Downloading data export files
 
-The Toast platform stores data export files for seven days, and then they are deleted. When data exports are enabled for your restaurant, the following items are needed to retrieve your files:
+The Toast platform stores data export files for seven days, and then they are deleted. When data exports are enabled for your restaurant, the following items are needed to retrieve your files: 
 
 - SFTP User name: This is provided by Toast support.
 
@@ -529,17 +529,17 @@ The Toast platform stores data export files for seven days, and then they are de
 - SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see SSH keys.
 
 
-- Server URL: To locate the appropriate Server URL, navigate to Reports > Settings > SSH Keysfrom the Toast Web. Locate your SFTP username and find the Server URL.
+- Server URL: To locate the appropriate Server URL, navigate to Reports > Settings > SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
 
 
 
-Export IDs can also be obtained from Toast Web. Navigate to Reports > Settings > Data Exportsand click the link in the banner at the top of the screen, view restaurant # mappingto export a file that includes an Export IDcolumn which includes the ID for each restaurant.
+Export IDs can also be obtained from Toast Web. Navigate to Reports > Settings > Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
 
 ![Image](https://doc.toasttab.com/doc/media/export_ids_data_export.png)
 
 
 
-Prior to downloading data export files, ensure that you have added an SSH keyto Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
+Prior to downloading data export files, ensure that you have added an SSH key to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
 
 ###### Accessing your SFTP directory using macOS terminal
 
@@ -553,21 +553,21 @@ sftp \
       -r *`{sftp_username}`*@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:*`{export_id}`*/*`{YYYYMMDD}`*/*
 ```
 
-Replace the *`{sftp_username}`*and *`{export_id}`*placeholders with the details you received from Toast support. Change *`{YYYYMMDD}`*to the business date of the desired export within the last seven days and the *`{SSH_key_filepath}`*to the location of your SSH key on your machine.
+Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the details you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days and the *`{SSH_key_filepath}`* to the location of your SSH key on your machine.
 
 
 
 > **Note**
 > 
-> The *`{filepath}`*used will be the export directory for your restaurant files.
+> The *`{filepath}`* used will be the export directory for your restaurant files.
 
 
 
 2. **Exporting files using terminal**
 
-Once you are connected to the SFTP directory use the **ls**command and press Returnto display all files.
+Once you are connected to the SFTP directory use the **ls** command and press Return to display all files.
 
-Export all files using the **get ***command or use **get *`{fileName}`***to export a specific file.
+Export all files using the **get *** command or use **get *`{fileName}`*** to export a specific file.
 
 
 
@@ -581,12 +581,12 @@ To access your restaurant's SFTP directory using command prompt use the followin
 sftp -i *`{SSH_key_filepath}`* -r *`{sftp_username}`*@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
 
-Replace *`{SSH_key_filepath}`*with the location of your SSH key on your machine. Replace *`{export_username}`*with the export user name you received from Toast support.
+Replace *`{SSH_key_filepath}`* with the location of your SSH key on your machine. Replace *`{export_username}`* with the export user name you received from Toast support.
 
 
 2. **Exporting files using command prompt**
 
-Once you are connected to the SFTP directory, use the **ls**command and press Enterto display all files.
+Once you are connected to the SFTP directory, use the **ls** command and press Enter to display all files.
 
 To export a file for a specific location and date, use the following command:
 
@@ -594,7 +594,7 @@ To export a file for a specific location and date, use the following command:
 get /*`{export_id}`*/*`{YYYYMMDD}`* *`{download_location}`*
 ```
 
-Replace *`{export_id}`*with the export ID you received from Toast support. Change *`{YYYYMMDD}`*to the business date of the desired export within the last seven days. Replace *`{download_location}`*with the location on the local file system where you want the downloaded files to be stored.
+Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
 
 To export all files, use the following command:
 
@@ -636,29 +636,29 @@ The following table shows the information about each menu at your restaurant fro
 | Field | Description | Data Type | 
 | --- | --- | --- |
 | entityType | The type of the menu component described by this JSON object. The value for a menu object is `Menu`. | String | 
-| name | A descriptive identifier for the menu. For example, `Food`or `Drinks`. | String | 
+| name | A descriptive identifier for the menu. For example, `Food` or `Drinks`. | String | 
 | guid | The unique identifier for the menu, assigned by the Toast POS. | String | 
 | description | A written description of the menu. | String | 
-| groups | A JSON array of [MenuGroup](apiDeprecatedApiFunctions.html#menuExportMenugroup)objects. | JSON array | 
+| groups | A JSON array of [MenuGroup](apiDeprecatedApiFunctions.html#menuExportMenugroup) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
-| orderableOnline | Indicates whether the menu is available for online ordering. Valid values are `true`and `false`. This field is a Boolean version of the orderableOnlineStatus field. | Boolean | 
-| orderableOnlineStatus | Indicates whether the menu is available for online ordering. Valid values are `YES`and `NO`. This field is a string version of the orderableOnline field. | String | 
-| visibility | Indicates where the menu is displayed and who can see it. Values are:- `ALL`- The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY`- The menu is visible only on Toast POS devices (including kiosks).
-- `NONE`- The menu is hidden from everyone.
+| orderableOnline | Indicates whether the menu is available for online ordering. Valid values are `true` and `false`. This field is a Boolean version of the orderableOnlineStatus field. | Boolean | 
+| orderableOnlineStatus | Indicates whether the menu is available for online ordering. Valid values are `YES` and `NO`. This field is a string version of the orderableOnline field. | String | 
+| visibility | Indicates where the menu is displayed and who can see it. Values are:- `ALL` - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
+- `POS_ONLY` - The menu is visible only on Toast POS devices (including kiosks).
+- `NONE` - The menu is hidden from everyone.
 
  | String | 
 | startTime | The time of day when a time-based menu becomes available. The value is in milliseconds (for example, `41400000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field. | Int | 
 | endTime | The time of day when a time-based menu stops being available. The value is in milliseconds (for example, `57600000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field. | Int | 
 | startTimeHHmm | The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTime field to a more readable format (the day starts at `00:00`). | String | 
 | endTimeHHmm | The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTime field to a more readable format (the day starts at `00:00`). | String | 
-| startTimeLocalStandardTime | The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `23400000`value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field. | Int | 
-| endTimeLocalStandardTime | The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `36900000`value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field. | Int | 
+| startTimeLocalStandardTime | The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `23400000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field. | Int | 
+| endTimeLocalStandardTime | The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `36900000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field. | Int | 
 | startTimeHHmmLocalStandardTime | The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at `00:00`). | String | 
 | endTimeHHmmLocalStandardTime | The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at `00:00`). | String | 
 | availableAllTimes | Indicates whether the menu is available at all times of the day. If the value is `false`, then the startTime* fields and the endTime* fields list when this time-based menu is available. | Boolean | 
 | availableAllDays | Indicates whether the menu is available each day of the week. | Boolean | 
-| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun`or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:```
+| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:```
 "daysAvailableString": [
    "Mon",
    "Tues",
@@ -679,18 +679,18 @@ The following table shows the information about each menu group at your restaura
 | Field | Description | Data Type | 
 | --- | --- | --- |
 | entityType | The type of the menu component described by this JSON object. The value for a menu object is `MenuGroup`. | String | 
-| name | A descriptive identifier for the menu group. For example, `Appetizers`or `Entrees`. | String | 
+| name | A descriptive identifier for the menu group. For example, `Appetizers` or `Entrees`. | String | 
 | guid | The unique identifier for the menu group, assigned by the Toast POS. | String | 
 | description | A written description of the menu group. | String | 
-| subgroups | An array of other `MenuGroup`objects. For example, `Red Wine`is the menu group and it has the subgroups `By the Glass`and `By the
+| subgroups | An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the
               Bottle`. | JSON array | 
-| items | An array of [MenuItem](apiDeprecatedApiFunctions.html#menuExportMenuitem)objects. | JSON array | 
+| items | An array of [MenuItem](apiDeprecatedApiFunctions.html#menuExportMenuitem) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
 | orderableOnline | Indicates whether the menu group is available for online ordering. | Boolean | 
-| visibility | Indicates where the menu group is displayed and who can see it. Values are:- `ALL`- The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY`- The menu group is visible only on Toast POS devices (including kiosks).
-- `NONE`- The menu group is hidden from everyone.
+| visibility | Indicates where the menu group is displayed and who can see it. Values are:- `ALL` - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
+- `POS_ONLY` - The menu group is visible only on Toast POS devices (including kiosks).
+- `NONE` - The menu group is hidden from everyone.
 
  | String | 
 
@@ -701,7 +701,7 @@ The following table shows the information about each menu item at your restauran
 | Field | Description | Data Type | 
 | --- | --- | --- |
 | entityType | The type of the menu component described by this JSON object. The value for a menu item object is `MenuItem`. | String | 
-| name | A descriptive identifier for the menu item. For example, `Caesar Salad`or `Lemonade`. | String | 
+| name | A descriptive identifier for the menu item. For example, `Caesar Salad` or `Lemonade`. | String | 
 | guid | The unique identifier for the menu item, assigned by the Toast POS. | String | 
 | description | A written description of the menu item. | String | 
 | sku | The stock keeping unit (SKU) identifier for the item. | String | 
@@ -710,15 +710,15 @@ The following table shows the information about each menu item at your restauran
 | price | The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency. | Currency | 
 | prices | An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu. | JSON array | 
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| optionGroups | An array of [MenuOptionGroup](apiDeprecatedApiFunctions.html#menuExportMenuoptiongroup)objects. | JSON array | 
+| optionGroups | An array of [MenuOptionGroup](apiDeprecatedApiFunctions.html#menuExportMenuoptiongroup) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | itemGroupGuid | The unique identifier of the menu group to which this menu item belongs. | String | 
 | calories | The caloric value for this menu item. The value can be any positive or negative integer, or zero. | Integer | 
 | imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
 | orderableOnline | Indicates whether the menu item is available for online ordering. | Boolean | 
-| visibility | Indicates where the menu item is displayed and who can see it. Values are:- `ALL`- The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY`- The menu item is visible only on Toast POS devices (including kiosks).
-- `NONE`- The menu item is hidden from everyone.
+| visibility | Indicates where the menu item is displayed and who can see it. Values are:- `ALL` - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
+- `POS_ONLY` - The menu item is visible only on Toast POS devices (including kiosks).
+- `NONE` - The menu item is hidden from everyone.
 
  | String | 
 
@@ -729,7 +729,7 @@ The following table shows the information about each menu option group, or modif
 | Field | Description | Data Type | 
 | --- | --- | --- |
 | entityType | The type of the menu component described by this JSON object. The value for a menu option group object is `MenuOptionGroup`. | String | 
-| name | A descriptive identifier for the menu option group. For example, `Substitutions`or `Extras`. | String | 
+| name | A descriptive identifier for the menu option group. For example, `Substitutions` or `Extras`. | String | 
 | guid | The unique identifier for the menu option group, assigned by the Toast POS. | String | 
 | minSelections | The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is `1`. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness. | Integer | 
 | maxSelections | The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.As an example of a menu option group with a maximum greater than one, assume this configuration:```
@@ -739,28 +739,28 @@ maxSelections: 2
 minSelections: 1
 ```
 
-This means:- You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections`value).
+This means:- You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).
 - You must select AT LEAST one cheese from this group to apply on the item (the `minSelections`value).
 
  | Integer or null | 
-| pricingMode | Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:- `ADJUSTS_PRICE`- Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.
-- `FIXED_PRICE`- Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.
-- `INCLUDED`- Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).
+| pricingMode | Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:- `ADJUSTS_PRICE` - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.
+- `FIXED_PRICE` - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.
+- `INCLUDED` - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).
 
  | String | 
-| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE`- Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy`is set to `NONE`if the [pricingMode](apiDeprecatedApiFunctions.html#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE`(prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
-- `BASE_PRICE`- The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.
-- `SEQUENCE_PRICE`- The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.
-- `UNSUPPORTED_STRATEGY`- The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.
+| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](apiDeprecatedApiFunctions.html#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
+- `BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.
+- `SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.
+- `UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.
 
  | String | 
-| pricingStrategyRules | An [object](apiDeprecatedApiFunctions.html#menuExportPricingStrategyRules)that contains the pricing rules for the chosen [pricingStrategy](apiDeprecatedApiFunctions.html#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE`or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
-| defaultOptionsChargePrice | Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:- `NO`- The option price is ignored. No change is made to the cost of the menu item.
-- `YES`- The option price is added to the cost of the menu item.
+| pricingStrategyRules | An [object](apiDeprecatedApiFunctions.html#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](apiDeprecatedApiFunctions.html#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
+| defaultOptionsChargePrice | Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:- `NO` - The option price is ignored. No change is made to the cost of the menu item.
+- `YES` - The option price is added to the cost of the menu item.
 
  | String | 
-| defaultOptionsSubstitutionPricing | Indicates whether substitution pricing is enabled for the menu options group. Values are:- `NO`- Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.
-- `YES`- Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).
+| defaultOptionsSubstitutionPricing | Indicates whether substitution pricing is enabled for the menu options group. Values are:- `NO` - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.
+- `YES` - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).
 
 There are two scenarios that can occur with substitution pricing:- If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.
 - If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).
@@ -768,9 +768,9 @@ There are two scenarios that can occur with substitution pricing:- If the substi
  | String | 
 | items | An array of the objects that represent the options in the menu option group. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
-| visibility | Indicates where the menu option group is displayed and who can see it. Values are:- `ALL`- The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY`- The menu option group is visible only on Toast POS devices (including kiosks).
-- `NONE`- The menu option group is hidden from everyone.
+| visibility | Indicates where the menu option group is displayed and who can see it. Values are:- `ALL` - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
+- `POS_ONLY` - The menu option group is visible only on Toast POS devices (including kiosks).
+- `NONE` - The menu option group is hidden from everyone.
 
  | String | 
 
@@ -821,10 +821,10 @@ The following table shows the information about the pricing strategy for the mod
 
 This section describes:
 
-- `premodifierGroup`objects. Each premodifier group contains a group of `premodifier`objects.
+- `premodifierGroup` objects. Each premodifier group contains a group of `premodifier` objects.
 
 
-- `premodifier`objects. Each premodifier can be a premodifier or postmodifier item.
+- `premodifier` objects. Each premodifier can be a premodifier or postmodifier item.
 
 
 
@@ -834,10 +834,10 @@ The following table shows the information about the premodifier groups at your r
 
 | Field | Description | Data Type | 
 | --- | --- | --- |
-| name | A descriptive identifier for a `premodifierGroup`object. | String | 
+| name | A descriptive identifier for a `premodifierGroup` object. | String | 
 | guid | The unique identifier for the premodifier group, assigned by the Toast POS. | String | 
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| premodifiers | An array of [premodifiers](apiDeprecatedApiFunctions.html#menuExportPremodifier)objects. | JSON array | 
+| premodifiers | An array of [premodifiers](apiDeprecatedApiFunctions.html#menuExportPremodifier) objects. | JSON array | 
 
 ###### premodifiers
 
@@ -845,17 +845,17 @@ The following table shows the information about the premodifiers or postmodifier
 
 | Field | Description | Data Type | 
 | --- | --- | --- |
-| name | A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers`object. For example, `ADD`or `ON
+| name | A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON
               SIDE`. | String | 
 | guid | The unique identifier for the premodifier or postmodifier, assigned by the Toast POS. | String | 
-| basePrice | If `scalePrice`is `false`, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price). | Currency | 
-| scalePrice | Determines how the price is scaled. Values are:- `true`- multiplies the price by the `scaleFactor`value.
-- `false`- does not multiply the price but instead adds the `basePrice`value to the item.
+| basePrice | If `scalePrice` is `false`, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price). | Currency | 
+| scalePrice | Determines how the price is scaled. Values are:- `true` - multiplies the price by the `scaleFactor` value.
+- `false` - does not multiply the price but instead adds the `basePrice` value to the item.
 
  | Boolean | 
-| scaleFactor | If `scalePrice`is `true`, the item price is multiplied by this factor. | Number | 
-| displayMode | Determines the modifier type. Values are:- `PREFIX`- specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named `Bacon`and the premodifer is named `ADD`, the full display will be `ADD Bacon`.
-- `SUFFIX`- specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named `Bacon`and the postmodifer is named `ON SIDE`, the full display will be `Bacon ON SIDE`.
+| scaleFactor | If `scalePrice` is `true`, the item price is multiplied by this factor. | Number | 
+| displayMode | Determines the modifier type. Values are:- `PREFIX` - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named `Bacon` and the premodifer is named `ADD`, the full display will be `ADD Bacon`.
+- `SUFFIX` - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named `Bacon` and the postmodifer is named `ON SIDE`, the full display will be `Bacon ON SIDE`.
 
  | String | 
 
@@ -863,7 +863,7 @@ The following table shows the information about the premodifiers or postmodifier
 
 When you create an order using the orders API, you must include all of the default modifiers for each menu item selection. If you omit a default modifier, the orders API will not apply it to the menu item. You can find the default modifiers for a menu item in the menu data export file for your restaurant. For general information about the menu data export file, see [Getting menu information from the menu data export (deprecated)](apiDeprecatedApiFunctions.html#apiMenuInformationMenuDataExport).
 
-The menu data export file contains a JSON representation of the menus configured for your restaurant. The nested hierarchical structure of the JSON matches the structure of your menus. For example, a menu JSON object contains menu group objects, which contain menu item objects. The `optionGroups`value for a menu item includes `MenuOptionGroup`objects for the types of modifier that you can apply to the item. The `MenuItem`objects in the items value of the `MenuOptionGroup`object are the modifier menu items that you can apply. For example, a salad menu item might have a toppings menu option group that contains menu items such as tomatoes or onions that you can apply as modifiers. The `MenuItem`objects in a `MenuOptionGroup`include an `isDefault`value to indicate whether or not the modifier item is a default modifier for the menu item.
+The menu data export file contains a JSON representation of the menus configured for your restaurant. The nested hierarchical structure of the JSON matches the structure of your menus. For example, a menu JSON object contains menu group objects, which contain menu item objects. The `optionGroups` value for a menu item includes `MenuOptionGroup` objects for the types of modifier that you can apply to the item. The `MenuItem` objects in the items value of the `MenuOptionGroup` object are the modifier menu items that you can apply. For example, a salad menu item might have a toppings menu option group that contains menu items such as tomatoes or onions that you can apply as modifiers. The `MenuItem` objects in a `MenuOptionGroup` include an `isDefault` value to indicate whether or not the modifier item is a default modifier for the menu item.
 
 The following example shows a menu, menu group, menu item, and modifier menu items in the JSON menu data export file.
 
@@ -923,7 +923,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
 (1) The GUID of a menu item.
 
-(2) The optionGroupsvalue contains information about the groups of items that you can apply as modifiers.
+(2) The optionGroups value contains information about the groups of items that you can apply as modifiers.
 
 (3) The GUID of one group of modifier menu items.
 
@@ -932,7 +932,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 (5) This item is a default modifier for the menu item.
 
   
-The following example shell script uses a **jq**command to select the default modifiers for a menu item from the menu data export file for a restaurant. For more information about the **jq**utility, see the [jq web site](https://stedolan.github.io/jq/).
+The following example shell script uses a **jq**command to select the default modifiers for a menu item from the menu data export file for a restaurant. For more information about the **jq** utility, see the [jq web site](https://stedolan.github.io/jq/).
 
 **Example 1.22. Using the jq utility to find the default modifiers for a menu item**
 
@@ -956,7 +956,7 @@ ${MENU_EXPORT_FILE}
 
 
 
-(1) The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see Getting menu information from the menu data export (deprecated) .
+(1) The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see Getting menu information from the menu data export (deprecated).
 
 (2) To find the default modifiers for a menu item, you locate the item in the menu and menu group that contain that contain it. This variable stores the GUID of the menu that contains the item.
 
@@ -964,9 +964,9 @@ ${MENU_EXPORT_FILE}
 
 (4) This variable stores the GUID of the menu item that this example script finds the default modifiers for.
 
-(5) This jq command filters the JSON contents of the menu data export file. For more information about the jq utility command syntax, see the jq web site .
+(5) This jq command filters the JSON contents of the menu data export file. For more information about the jq utility command syntax, see the jq web site.
 
-(6) These jq command filters select one menu item from its menu and menu group. It then selects each menu item in the optionGrouparray for that menu item if the isDefaultvalue for the optionGroupis true.
+(6) These jq command filters select one menu item from its menu and menu group. It then selects each menu item in the optionGroup array for that menu item if the isDefault value for the optionGroup is true.
 
   
 The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](apiDeprecatedApiFunctions.html#apiUsingJqToFindDefaultModifiers).
@@ -1058,18 +1058,18 @@ Previously, a menu entity's visibility was controlled by several, separate setti
 
 
 
-To support the new visibility functionality, user interface changes have been made to the menu entity details pages in Toast Web and a set of corresponding changes have been made to the menus and configuration APIs. More information is provided about these UI and API changes in the [Understanding the new visibility behavior](apiDeprecatedApiFunctions.html#apiUnderstandingTheNewVisibilityBehavior)section.
+To support the new visibility functionality, user interface changes have been made to the menu entity details pages in Toast Web and a set of corresponding changes have been made to the menus and configuration APIs. More information is provided about these UI and API changes in the [Understanding the new visibility behavior](apiDeprecatedApiFunctions.html#apiUnderstandingTheNewVisibilityBehavior) section.
 
 If you are an online ordering partner, the visibility changes require that you:
 
-- Use the `visibility`array available in the menus API for each menu entity to determine if the menu entity should be visible on your ordering web site. See [Understanding the new visibility behavior](apiDeprecatedApiFunctions.html#apiUnderstandingTheNewVisibilityBehavior)for details.
+- Use the `visibility` array available in the menus API for each menu entity to determine if the menu entity should be visible on your ordering web site. See [Understanding the new visibility behavior](apiDeprecatedApiFunctions.html#apiUnderstandingTheNewVisibilityBehavior) for details.
 
 
-- Stop using the `visibility`and `orderableOnline`values on the `Menu`, `MenuGroup`, and `MenuItem`objects in the configuration API. While these values will continue to exist for a short period so that integrations do not break, they will be populated differently after 2020-05-25 and integrations that use them will potentially see unexpected behavior after this date.
+- Stop using the `visibility` and `orderableOnline` values on the `Menu`, `MenuGroup`, and `MenuItem` objects in the configuration API. While these values will continue to exist for a short period so that integrations do not break, they will be populated differently after 2020-05-25 and integrations that use them will potentially see unexpected behavior after this date.
 
 
 
-To allow you to develop against the new `visibility`array, the sandbox environment now includes both Toast Web configuration options and the API changes, while the production environment includes the API updates only. This will allow you to set the configuration options in sandbox and develop and test against them, and then move your code to production in preparation for when restaurants will begin using the new configuration options. On 2020-05-25, the new visibility configuration options will become available to restaurants in the production environment. This is the date after which your partner restaurants may start using them and your integration must be able to handle the new API in the production environment.
+To allow you to develop against the new `visibility` array, the sandbox environment now includes both Toast Web configuration options and the API changes, while the production environment includes the API updates only. This will allow you to set the configuration options in sandbox and develop and test against them, and then move your code to production in preparation for when restaurants will begin using the new configuration options. On 2020-05-25, the new visibility configuration options will become available to restaurants in the production environment. This is the date after which your partner restaurants may start using them and your integration must be able to handle the new API in the production environment.
 
 
 
@@ -1099,10 +1099,10 @@ And this:
 
 > **Note**
 > 
-> The Grubhubsetting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
+> The Grubhub setting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
 
 
-These original settings were represented in the menus API by a `visibility`array that was included for each menu entity. A menu entity's `visibility`array would contain various combinations of the following enums, depending on how the menu entity was configured:
+These original settings were represented in the menus API by a `visibility` array that was included for each menu entity. A menu entity's `visibility` array would contain various combinations of the following enums, depending on how the menu entity was configured:
 
 - `POS`: The menu entity is visible in the Toast POS app.
 
@@ -1117,24 +1117,24 @@ These original settings were represented in the menus API by a `visibility`array
 
 
 
-Grubhub was the only online ordering integration that the menus API's `visibility`array explicitly identified. In other words, you could tell if a menu entity should be visible on the Grubhub online ordering site by using the `GRUBHUB`enum, but no equivalent indicator existed for other online ordering integrations.
+Grubhub was the only online ordering integration that the menus API's `visibility` array explicitly identified. In other words, you could tell if a menu entity should be visible on the Grubhub online ordering site by using the `GRUBHUB` enum, but no equivalent indicator existed for other online ordering integrations.
 
 The configuration API is older and it treats orderable online and visibility as two separate concepts. In the configuration API, the original menu visibility settings were represented by:
 
-- An `orderableOnline`value on the `Menu`, `MenuGroup`, and `MenuItem`objects that could be set to `Yes`or `No`. Some integrations used this value to determine whether a menu entity should be included in an online ordering integration.
+- An `orderableOnline` value on the `Menu`, `MenuGroup`, and `MenuItem` objects that could be set to `Yes` or `No`. Some integrations used this value to determine whether a menu entity should be included in an online ordering integration.
 
 
-- A `visibility`value on the `Menu`, `MenuGroup`, and `MenuItem`objects. All of the values in this array, however, were related to the visibility of a menu entity on a Toast POS device and had no bearing on whether an entity could be ordered online or not.
+- A `visibility` value on the `Menu`, `MenuGroup`, and `MenuItem` objects. All of the values in this array, however, were related to the visibility of a menu entity on a Toast POS device and had no bearing on whether an entity could be ordered online or not.
 
 
 
-The Grubhuband Show on Kioskconfiguration options were not represented in the configuration API.
+The Grubhub and Show on Kiosk configuration options were not represented in the configuration API.
 
 As stated earlier, the menu visibility enhancements combine the original visibility settings into one cohesive set of options with better, more intuitive labeling. The following illustration shows the new combined settings, which all reside in the Visible Toconfiguration option on a menu entity's details page:
 
 ![Image](https://doc.toasttab.com/doc/media/visible-to-config-options.png)
 
-These configuration options have a one-to-one relationship with an enum in the `visibility`array that the menus API returns for each menu entity. The table below describes the behavior of each option and defines the enum used to represent it in the `visibility`array:
+These configuration options have a one-to-one relationship with an enum in the `visibility` array that the menus API returns for each menu entity. The table below describes the behavior of each option and defines the enum used to represent it in the `visibility`array:
 
 | Configuration option | Menus API Visibility Array Enum | Description | 
 | --- | --- | --- |
@@ -1145,10 +1145,10 @@ These configuration options have a one-to-one relationship with an enum in the `
 
 To sum up, the effect of these changes for online ordering partners are as follows:
 
-- Ordering partner integrations should no longer use the `orderableOnline`value in the configuration API to determine if a menu entity should be visible on their online ordering site. Instead, an online ordering integration should inspect the `visibility`array that the menus API returns for all menu entities for the existence of the `ORDERING_PARTNERS`enum and only display menu entities where that enum exists. The Toast technical integrations team also recommends that partners discontinue using the configuration API for retrieving any menu-related data and use the menus API instead.
+- Ordering partner integrations should no longer use the `orderableOnline` value in the configuration API to determine if a menu entity should be visible on their online ordering site. Instead, an online ordering integration should inspect the `visibility` array that the menus API returns for all menu entities for the existence of the `ORDERING_PARTNERS` enum and only display menu entities where that enum exists. The Toast technical integrations team also recommends that partners discontinue using the configuration API for retrieving any menu-related data and use the menus API instead.
 
 
-- If your ordering partner integration used the `TOAST_ONLINE_ORDERING`enum in the menus API `visibility`array to determine if a menu entity should be available on your ordering site, you must switch to using the `ORDERING_PARTNERS`enum instead. The `TOAST_ONLINE_ORDERING`enum is now used exclusively to indicate a menu entity's availability on a restaurant's Toast online ordering site. Only menu entities whose `visibility`array includes the `ORDERING_PARTNERS`enum should be shown on ordering partner web sites.
+- If your ordering partner integration used the `TOAST_ONLINE_ORDERING` enum in the menus API `visibility` array to determine if a menu entity should be available on your ordering site, you must switch to using the `ORDERING_PARTNERS` enum instead. The `TOAST_ONLINE_ORDERING` enum is now used exclusively to indicate a menu entity's availability on a restaurant's Toast online ordering site. Only menu entities whose `visibility` array includes the `ORDERING_PARTNERS` enum should be shown on ordering partner web sites.
 
 
 
@@ -1156,17 +1156,17 @@ To sum up, the effect of these changes for online ordering partners are as follo
 
 > **Note**
 > 
-> For historical reasons, modifier groups currently do not have the Online orders: Toastoption in the Visible Tosettings in Toast Web. This omission does not affect partner implementations because the Online orders: Toastoption only impacts whether a menu entity is available on a restaurant's Toast Online Ordering site. In other words, the omission of this setting has no bearing on whether the modifier group is visible to a partner integration's online ordering site. The Online orders: Toastoption will be added to modifier groups in a future release. Also, the `TOAST_ONLINE_ORDERING`enum is included in the `visibility`array for all modifier groups, regardless of the Visible Tosettings. This is a temporary condition that will be fixed soon. It should not impede the ability for partners to use, test, and code against the new Visible Tosettings because the `TOAST_ONLINE_ORDERING`enum is intended for the use of Toast Online Ordering only.
+> For historical reasons, modifier groups currently do not have the Online orders: Toast option in the Visible To settings in Toast Web. This omission does not affect partner implementations because the Online orders: Toast option only impacts whether a menu entity is available on a restaurant's Toast Online Ordering site. In other words, the omission of this setting has no bearing on whether the modifier group is visible to a partner integration's online ordering site. The Online orders: Toast option will be added to modifier groups in a future release. Also, the `TOAST_ONLINE_ORDERING` enum is included in the `visibility` array for all modifier groups, regardless of the Visible To settings. This is a temporary condition that will be fixed soon. It should not impede the ability for partners to use, test, and code against the new Visible Tosettings because the `TOAST_ONLINE_ORDERING` enum is intended for the use of Toast Online Ordering only.
 
 
 ###### Understanding the Grubhub enumeration
 
-Conceptually, the Grubhubsetting has been replaced by the more general Online orders: Ordering partnerssetting and restaurants that used the Grubhubsetting will automatically be migrated to the new Ordering partnerssetting. This means that any menu entity that had the Grubhubsetting set to Yeswill now have the Online orders: Ordering partnersoption enabled and, in the menus API `visibility`array, the `ORDERING_PARTNERS`enum will be present. In the short term, however, the `visibility`array will continue to contain the `GRUBHUB`enum for backwards compatibility. In the future, the `GRUBHUB`enum will be removed.
+Conceptually, the Grubhub setting has been replaced by the more general Online orders: Ordering partners setting and restaurants that used the Grubhub setting will automatically be migrated to the new Ordering partners setting. This means that any menu entity that had the Grubhub setting set to Yes will now have the Online orders: Ordering partners option enabled and, in the menus API `visibility` array, the `ORDERING_PARTNERS` enum will be present. In the short term, however, the `visibility`array will continue to contain the `GRUBHUB` enum for backwards compatibility. In the future, the `GRUBHUB` enum will be removed.
 
 
 
 > **Note**
 > 
-> The Grubhubsetting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
+> The Grubhub setting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
 
 

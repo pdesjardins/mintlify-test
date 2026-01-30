@@ -61,10 +61,10 @@ There are three levels of webhook subscription access:
 - Full access: Allows for creating and editing of a webhook subscription for all locations that use the same set of standard API access credentials.
 
 
-- View-only access(warning icon): Only allows for viewing of a webhook subscription. Your standard API access credentials are not linked to the location associated with the webhook subscription.
+- View-only access (warning icon): Only allows for viewing of a webhook subscription. Your standard API access credentials are not linked to the location associated with the webhook subscription.
 
 
-- Locked access(locked icon): Does not allow for editing or viewing of a webhook subscription.
+- Locked access (locked icon): Does not allow for editing or viewing of a webhook subscription.
 
 
 
@@ -74,7 +74,7 @@ There are three levels of webhook subscription access:
 
 > **Note**
 > 
-> Full standard API access credentials and an active subscription to [Toast Restaurant Management Suite Essentials](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials)or higher is required for every location you want to include in a webhook subscription.
+> Full standard API access credentials and an active subscription to [Toast Restaurant Management Suite Essentials](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials) or higher is required for every location you want to include in a webhook subscription.
 
 
 **Procedure 1.19. To create a webhook subscription**
@@ -82,10 +82,10 @@ There are three levels of webhook subscription access:
 1. Access Toast Web.
 
 
-2. Go to Integrations > Toast API access > Manage credentialsto open the Manage webhookspage.
+2. Go to Integrations > Toast API access > Manage credentials to open the Manage webhooks page.
 
 
-3. On the Manage webhookspage, select the + Add webhookbutton. This opens the Create webhook subscriptionpage.
+3. On the Manage webhooks page, select the + Add webhook button. This opens the Create webhook subscription page.
 
 
 4. On the Create webhook subscriptionpage, complete the following:
@@ -116,9 +116,9 @@ There are three levels of webhook subscription access:
 ![Shows the Create webhook subscription page in Toast Web.](https://doc.toasttab.com/doc/media/dev-api-access-create-webhook-subscription.png)
 
 
-5. Select the Savebutton to save your webhook subscription. This navigates you to the Webhook subscriptionpage.
+5. Select the Save button to save your webhook subscription. This navigates you to the Webhook subscription page.
 
-You can view your new webhook subscription on the Manage webhookspage.
+You can view your new webhook subscription on the Manage webhooks page.
 
 ![Shows new webhook subscription on the Manage webhooks page in Toast Web.](https://doc.toasttab.com/doc/media/dev-api-access-created-webhook-subscription.png)
 
@@ -126,7 +126,7 @@ You can view your new webhook subscription on the Manage webhookspage.
 
 ##### Viewing webhook subscriptions
 
-You can view your webhook subscriptions on the Manage webhookspage in Toast Web. The Manage webhookspage displays the following information:
+You can view your webhook subscriptions on the Manage webhooks page in Toast Web. The Manage webhooks page displays the following information:
 
 - Link to the webhook subscription
 
@@ -160,7 +160,7 @@ You can view your webhook subscriptions on the Manage webhookspage in Toast Web.
 
 
 
-To view webhook information, select the view icon on the Manage webhookspage. This opens the Webhook subscriptionpage. On the Webhook subscriptionpage, you can view and complete various actions:
+To view webhook information, select the view icon on the Manage webhooks page. This opens the Webhook subscription page. On the Webhook subscription page, you can view and complete various actions:
 
 - View the webhook subscription name
 
@@ -197,7 +197,7 @@ To view webhook information, select the view icon on the Manage webhookspage. Th
 
 ##### Editing webhook subscriptions
 
-You can edit your webhook subscriptions from the Manage webhookspage in Toast Web. To edit a webhook subscription, select the edit icon next to the webhook subscription name to open the Edit webhook subscriptionpage. On the Edit webhook subscription, you can:
+You can edit your webhook subscriptions from the Manage webhooks page in Toast Web. To edit a webhook subscription, select the edit icon next to the webhook subscription name to open the Edit webhook subscription page. On the Edit webhook subscription, you can:
 
 - Change the event category
 
@@ -222,9 +222,9 @@ You can edit your webhook subscriptions from the Manage webhookspage in Toast We
 
 
 
-Select the Savebutton to save your changes.
+Select the Save button to save your changes.
 
 ##### Deleting webhook subscriptions
 
-To delete your webhook subscription, select the Deletebutton on the Webhook subscriptionpage. This opens a confirmation dialog. In the dialog, type DELETEin the text field to confirm deletion of the subscription.
+To delete your webhook subscription, select the Delete button on the Webhook subscription page. This opens a confirmation dialog. In the dialog, type DELETE in the text field to confirm deletion of the subscription.
 

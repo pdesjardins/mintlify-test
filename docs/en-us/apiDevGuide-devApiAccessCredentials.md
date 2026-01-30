@@ -41,14 +41,14 @@ There are three levels of access:
 | Permission | Ownership | 
 | --- | --- |
 | 8.4 Manage Integrationspermission | You created the credentials. | You did not create the credentials. | 
-| You have the 8.4 Manage Integrationspermission enabled at every location linked to the credentials in the management group. | Full accessAllows for editing and reading of credentials. | Full accessAllows for editing and reading of credentials. | 
-| You do *not*have the 8.4 Manage Integrationspermission enabled at every location linked to the credentials in the management group. | Read-onlyAllows for reading of credentials. | LockedDoes not allow for editing or reading of credentials. | 
+| You have the 8.4 Manage Integrationspermission enabled at every location linked to the credentials in the management group. | Full access Allows for editing and reading of credentials. | Full accessAllows for editing and reading of credentials. | 
+| You do *not* have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group. | Read-onlyAllows for reading of credentials. | LockedDoes not allow for editing or reading of credentials. | 
 
-On the Manage credentialspage, a warning icon next to a credential’s name indicates you have read-only access, a lock icon indicates that you cannot edit or view the credential, and no icon indicates you have full access to the credential.
+On the Manage credentials page, a warning icon next to a credential’s name indicates you have read-only access, a lock icon indicates that you cannot edit or view the credential, and no icon indicates you have full access to the credential.
 
 ![Shows the various types of credentials access on the Manage credentials page.](https://doc.toasttab.com/doc/media/dev-api-access-credentials-page.png)
 
-If you want to update your locked or read-only credentials to full access, follow the procedures below. Each procedure is different depending on if you have locked access or read-only access.
+If you want to update your locked or read-only credentials to full access, follow the procedures below. Each procedure is different depending on if you have locked access or read-only access. 
 
 
 
@@ -62,19 +62,19 @@ If you want to update your locked or read-only credentials to full access, follo
 1. Access Toast Web.
 
 
-2. A Toast employee or restaurant operator with full-access goes to Employees > Employee management > Employeesto open the Employeespage.
+2. A Toast employee or restaurant operator with full-access goes to Employees > Employee management > Employeesto open the Employees page. 
 
 
-3. The Toast employee or restaurant operator selects the employee’s name to open the Permissionspage.
+3. The Toast employee or restaurant operator selects the employee’s name to open the Permissions page. 
 
 
-4. The Toast employee or restaurant operator selects the Jobs & Permissionstab.
+4. The Toast employee or restaurant operator selects the Jobs & Permissions tab.
 
 
-5. Scroll down to the Permissionssection. The Permissionssection lists all the locations in the management group.
+5. Scroll down to the Permissions section. The Permissions section lists all the locations in the management group.
 
 
-6. Confirm that the 8.4 Manage Integrationspermission is enabled for each location linked to the credentials. Repeat this step for every location linked to the credentials.
+6. Confirm that the 8.4 Manage Integrationspermission is enabled for each location linked to the credentials. Repeat this step for every location linked to the credentials. 
 
 
 
@@ -83,28 +83,28 @@ If you want to update your locked or read-only credentials to full access, follo
 1. Access Toast Web.
 
 
-2. Go to Integrations > Toast API access > Manage credentialsto open the Manage credentialspage.
+2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page. 
 
 
-3. On the Manage credentialspage, select the credentials with the warning icon. This opens the Credentialspage.
+3. On the Manage credentials page, select the credentials with the warning icon. This opens the Credentials page. 
 
 
-4. Select the link in the banner to open a dialog. The dialog displays a list of Toast locations you no longer have access to.
+4. Select the link in the banner to open a dialog. The dialog displays a list of Toast locations you no longer have access to. 
 
 
-5. Ask a Toast employee or restaurant operator with full-access to go to Employees > Employee management > Employeesto open the Employeespage.
+5. Ask a Toast employee or restaurant operator with full-access to go to Employees > Employee management > Employees to open the Employees page. 
 
 
-6. The Toast employee or restaurant operator selects the employee’s name to open the Permissionspage.
+6. The Toast employee or restaurant operator selects the employee’s name to open the Permissions page.
 
 
-7. The Toast employee or restaurant operator selects the Jobs & Permissionstab.
+7. The Toast employee or restaurant operator selects the Jobs & Permissions tab.
 
 
-8. Scroll down to the Permissionssection. The Permissionssection lists all the locations in the management group.
+8. Scroll down to the Permissions section. The Permissions section lists all the locations in the management group.
 
 
-9. Confirm that the 8.4 Manage Integrationspermission is enabled for each location linked to the credentials. Repeat this step for every location linked to the credentials.
+9. Confirm that the 8.4 Manage Integrationspermission is enabled for each location linked to the credentials. Repeat this step for every location linked to the credentials. 
 
 
 
@@ -126,17 +126,17 @@ The following procedure describes how to create standard API access credentials 
 1. Access Toast Web.
 
 
-2. Go to Integrations > Toast API access > Manage credentialsto open the Manage credentialspage.
+2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page.
 
 
 
 > **Note**
 > 
-> An active subscription to [Toast Restaurant Management Suite Essentials](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials)or higher is required for every location you want standard API access for.
+> An active subscription to [Toast Restaurant Management Suite Essentials](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials) or higher is required for every location you want standard API access for.
 
 
 
-3. On the Manage credentialspage, navigate to the Create new credentialsbutton.
+3. On the Manage credentials page, navigate to the Create new credentials button.
 
 
 4. Select the down arrow and select Standard API. This opens the New Credentialspage.
@@ -144,7 +144,7 @@ The following procedure describes how to create standard API access credentials 
 ![Shows the Manage credentials page with the Standard API button emphasized.](https://doc.toasttab.com/doc/media/dev-api-access-manage-credentials-page.png)
 
 
-5. On the New Credentialspage, you can:
+5. On the New Credentials page, you can:
 
 - View a list of the APIs that you will have read-only access to.
 
@@ -158,7 +158,7 @@ The following procedure describes how to create standard API access credentials 
 - Select the scopes for the actions you want your Toast API client to be allowed to perform. For more information, see [Standard API access scopes](devApiAccessScopes.html).
 
 
-- Select the location(s) that you want read-only API access to. You can choose to select all the locations in your management group or use the dropdown menu to select individual locations. Select the Applybutton to select your location(s).
+- Select the location(s) that you want read-only API access to. You can choose to select all the locations in your management group or use the dropdown menu to select individual locations. Select the Apply button to select your location(s).
 
 ![Shows the credential name, API scopes, and locations fields on the New Credentials page.](https://doc.toasttab.com/doc/media/dev-api-access-new-credentials-page.png)
 
@@ -172,7 +172,7 @@ The following procedure describes how to create standard API access credentials 
 
 
 
-6. Select the Confirmbutton. This navigates you to the Credentialspage. You can view your new credentials on the Credentialstable on the Manage Credentialspage.
+6. Select the Confirm button. This navigates you to the Credentials page. You can view your new credentials on the Credentials table on the Manage Credentials page.
 
 ![Shows new credentials on the Manage credentials page.](https://doc.toasttab.com/doc/media/dev-api-access-new-credentials.png)
 
@@ -182,14 +182,14 @@ An email is sent confirming that standard API access has been activated for your
 
 > **Note**
 > 
-> You use the GUID to make Toast API requests. GUIDs are also referred to as the `Toast-Restaurant-External-ID`or `restaurantGuid`. You can retrieve GUIDs using the Partners API.
+> You use the GUID to make Toast API requests. GUIDs are also referred to as the `Toast-Restaurant-External-ID` or `restaurantGuid`. You can retrieve GUIDs using the Partners API.
 
 
 
 
 #### Viewing standard API access credentials
 
-You can view your standard API access credentials on the Manage credentialspage in Toast Web. The Manage credentialspage displays the following information:
+You can view your standard API access credentials on the Manage credentials page in Toast Web. The Manage credentials page displays the following information:
 
 - Link to create new credentials
 
@@ -222,7 +222,7 @@ You can view your standard API access credentials on the Manage credentialspage 
 
 #### Managing standard API access credentials
 
-You can manage your standard API access credentials on the Manage credentialspage in Toast Web. To view and edit your credentials, select the editicon (pencil) next to the credential name to open the Credentialspage. On the Credentialspage, you can view information and complete various actions. From the Credentialspage, you can:
+You can manage your standard API access credentials on the Manage credentials page in Toast Web. To view and edit your credentials, select the edit icon (pencil) next to the credential name to open the Credentials page. On the Credentials page, you can view information and complete various actions. From the Credentialspage, you can:
 
 - View the credential name
 
@@ -262,7 +262,7 @@ You can manage your standard API access credentials on the Manage credentialspag
 
 ##### Editing standard API access credentials
 
-To edit your standard API access credentials, select the Edit credentialsbutton to open the Edit credentialspage. On the Edit credentialspage, you can edit your credential name and change the location(s) the credentials have access to. Select the Confirmbutton to confirm and save your changes.
+To edit your standard API access credentials, select the Edit credentials button to open the Edit credentials page. On the Edit credentials page, you can edit your credential name and change the location(s) the credentials have access to. Select the Confirm button to confirm and save your changes.
 
 ##### Editing group or location IDs
 
@@ -290,7 +290,7 @@ You can choose to copy the following information to your clipboard for easy refe
 
 
 
-Select the Copyicon to copy the information.
+Select the Copy icon to copy the information.
 
 ##### Rotating client secret
 
@@ -312,16 +312,16 @@ A client secret is a private string assigned by Toast to verify the identity of 
 
 **Procedure 1.18. To rotate your client secret**
 
-1. On the Credentialspage, select the Rotatebutton. This opens the Ready to rotate the client secretdialog.
+1. On the Credentials page, select the Rotate button. This opens the Ready to rotate the client secret dialog.
 
 
-2. In the Ready to rotate the client secretdialog, confirm you want the existing client secret to expire and want to create a new client secret. To confirm, type ROTATE SECRETin the text field.
+2. In the Ready to rotate the client secret dialog, confirm you want the existing client secret to expire and want to create a new client secret. To confirm, type ROTATE SECRET in the text field.
 
 
-3. Select the Continuebutton. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
+3. Select the Continue button. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
 
 
-4. Select the I have copied and saved the client secretcheckbox to finish rotating your client secret. The Credentials pagedisplays the date and time your new client secret was created.
+4. Select the I have copied and saved the client secret checkbox to finish rotating your client secret. The Credentials page displays the date and time your new client secret was created.
 
 An email is sent notifying you that your client secret has been rotated with the name of the Toast user who rotated the secret.
 
@@ -336,5 +336,5 @@ An email is sent notifying you that your client secret has been rotated with the
 > Deleting standard API access credentials is permanent. You cannot restore deleted credentials.
 
 
-To delete your standard API access credentials, select the Delete credentialsbutton on the Credentialspage. This opens a confirmation dialog. In the dialog, type DELETE SECRETin the text field to confirm deletion of the credentials.
+To delete your standard API access credentials, select the Delete credentials button on the Credentials page. This opens a confirmation dialog. In the dialog, type DELETE SECRET in the text field to confirm deletion of the credentials.
 

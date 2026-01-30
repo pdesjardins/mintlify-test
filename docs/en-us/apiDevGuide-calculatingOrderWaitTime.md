@@ -31,7 +31,7 @@ You can use information from the restaurant configuration to:
 
 
 
-When you use the orders API to create the order, the `estimatedFulfillmentDate`value in the response indicates when the order will be fulfilled. The algorithm that the Toast platform uses to set `estimatedFulfillmentDate`includes the configured restaurant quotes times, hours, and throttling.
+When you use the orders API to create the order, the `estimatedFulfillmentDate` value in the response indicates when the order will be fulfilled. The algorithm that the Toast platform uses to set `estimatedFulfillmentDate` includes the configured restaurant quotes times, hours, and throttling.
 
 #### Restaurant configuration settings that affect order wait time
 
@@ -69,20 +69,20 @@ For example, a restaurant is open from 11:00 AM to 9:00 PM. However, they only t
 
 #### Retrieving the configured preparation time and hours of operation
 
-To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET`request to the `/restaurants/{restaurantGUID}`endpoint of the restaurants API.
+To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
 
 ##### Takeout and delivery quote and throttling times
 
-In the response to the `GET`request to the `/restaurants/{restaurantGUID}/`endpoint, the `prepTimes`object contains the current quote time and throttling time configurations.
+In the response to the `GET` request to the `/restaurants/{restaurantGUID}/` endpoint, the `prepTimes` object contains the current quote time and throttling time configurations.
 
-- The `deliveryPrepTime`and `takeoutPrepTime`values contain the delivery and takeout quote times.
-
-
-- The `deliveryThrottlingTime`and `takeoutThrottlingTime`values contain the current delivery and takeout throttling times.
+- The `deliveryPrepTime` and `takeoutPrepTime` values contain the delivery and takeout quote times.
 
 
+- The `deliveryThrottlingTime` and `takeoutThrottlingTime` values contain the current delivery and takeout throttling times.
 
-The following example shows the `prepTimes`object from the response from a `GET`request to the `/restaurants/{restaurantGUID}`endpoint of the restaurants API.
+
+
+The following example shows the `prepTimes` object from the response from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
 
 **Example 2.5. Example takeout and delivery preparation and throttling time configuration from the restaurants API**
 
@@ -109,14 +109,14 @@ The following example shows the `prepTimes`object from the response from a `GET`
 
 (4) The amount of time, in minutes, that restaurant employees have chosen to delay takeout orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.
 
-(5) The deliveryTimeAfterOpen, deliveryTimeBeforeClose, takeoutTimeAfterOpen, and takeoutTimeBeforeClosesettings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always 0.
+(5) The deliveryTimeAfterOpen, deliveryTimeBeforeClose, takeoutTimeAfterOpen, and takeoutTimeBeforeClose settings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always 0.
 
   
 ##### Restaurant opening and closing times
 
-In the response to the `GET`request to the `/restaurants/{restaurantGUID}`endpoint of the restaurants API, the `schedules`value contains information about when the restaurant is open for business.
+In the response to the `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API, the `schedules` value contains information about when the restaurant is open for business.
 
-The following example shows the `schedules`value with the opening and closing time values.
+The following example shows the `schedules` value with the opening and closing time values.
 
 **Example 2.6. Example of daily opening and closing times in the response from the restaurants API**
 
@@ -178,7 +178,7 @@ The following example shows the `schedules`value with the opening and closing ti
 
 Restaurants that use Toast Online Ordering can configure when they accept online orders. The restaurant can have different hours for online and takeout orders. They can also configure specific exceptions to those hours.
 
-To see the current hours for online delivery and takeout orders, send a `GET`request to the `/orderingSchedule`endpoint of the order management configuration API.
+To see the current hours for online delivery and takeout orders, send a `GET` request to the `/orderingSchedule`endpoint of the order management configuration API.
 
 For more information, see [Getting online ordering schedules](apiGettingOnlineOrderingSchedules.html).
 
@@ -186,33 +186,33 @@ For more information, see [Getting online ordering schedules](apiGettingOnlineOr
 
 To calculate the estimated takeout order wait time, you add the amount of time it takes to prepare takeout orders and the amount of time that restaurant employees have chosen to delay takeout order firing.
 
-- `takeoutPrepTime`- The time it takes to prepare a takeout order.
+- `takeoutPrepTime` - The time it takes to prepare a takeout order.
 
 
-- `takeoutThrottlingTime`- The time that restaurant employees have chosen to delay takeout orders.
+- `takeoutThrottlingTime` - The time that restaurant employees have chosen to delay takeout orders.
 
 
 
-For example, if `takeoutPrepTime`is 25 minutes, and `takeoutThrottlingTime`is 10 minutes, then the total estimated order wait time is 35 minutes.
+For example, if `takeoutPrepTime` is 25 minutes, and `takeoutThrottlingTime` is 10 minutes, then the total estimated order wait time is 35 minutes.
 
-If the current time is outside of the restaurant's hours of operation, then you must include the amount of time until the restaurant is open. You can use the restaurant `openTime`and `closeTime`values to determine whether takeout service is available. For example, if the current time is 10:00 AM, but the restaurant does not accept open or accept online takeout orders until 12:00 PM, then you need to add two hours to the order wait time.
+If the current time is outside of the restaurant's hours of operation, then you must include the amount of time until the restaurant is open. You can use the restaurant `openTime` and `closeTime` values to determine whether takeout service is available. For example, if the current time is 10:00 AM, but the restaurant does not accept open or accept online takeout orders until 12:00 PM, then you need to add two hours to the order wait time.
 
-For a scheduled order, you must also make sure that `promisedDate`is within the allowed maximum amount of time for future orders. For example, a restaurant might not accept scheduled orders for a date that is more than two weeks in the future.
+For a scheduled order, you must also make sure that `promisedDate` is within the allowed maximum amount of time for future orders. For example, a restaurant might not accept scheduled orders for a date that is more than two weeks in the future.
 
 #### Estimating delivery order wait time
 
 To calculate the estimated delivery order wait time, you add the amount of time it takes to prepare delivery orders and the amount of time that restaurant employees have chosen to delay delivery order firing.
 
-- `deliveryPrepTime`- The time it takes to prepare and deliver a delivery order.
+- `deliveryPrepTime` - The time it takes to prepare and deliver a delivery order.
 
 
-- `deliveryThrottlingTime`- the time that restaurant employees have chosen to delay delivery orders.
+- `deliveryThrottlingTime` - the time that restaurant employees have chosen to delay delivery orders.
 
 
 
-For example, if `deliveryPrepTime`is 50 minutes, and `deliveryThrottlingTime`is 10 minutes, then the total estimated order wait time is 60 minutes.
+For example, if `deliveryPrepTime` is 50 minutes, and `deliveryThrottlingTime` is 10 minutes, then the total estimated order wait time is 60 minutes.
 
-If the current time is outside of the restaurant's hours of operation, then you must include the amount of time until the restaurant is open. You can use the restaurant `openTime`and `closeTime`values to determine whether delivery service is available. For example, if the current time is 10:00 AM, but the restaurant does not open or accept delivery orders until 12:00 PM, then you need to add two hours to the order wait time.
+If the current time is outside of the restaurant's hours of operation, then you must include the amount of time until the restaurant is open. You can use the restaurant `openTime` and `closeTime` values to determine whether delivery service is available. For example, if the current time is 10:00 AM, but the restaurant does not open or accept delivery orders until 12:00 PM, then you need to add two hours to the order wait time.
 
-For a scheduled order, you must also make sure that `promisedDate`is within the allowed maximum amount of time for future orders. For example, a restaurant might not accept scheduled orders for a date that is more than two weeks in the future.
+For a scheduled order, you must also make sure that `promisedDate` is within the allowed maximum amount of time for future orders. For example, a restaurant might not accept scheduled orders for a date that is more than two weeks in the future.
 

@@ -19,12 +19,12 @@ codeExamples: 0
 
 This section describes the user interface workflow for loyalty transactions in the Toast POS app.
 
-1. The Rewardsbutton is listed as a menu group. When you open the Rewardsgroup, you see the Lookup Customerbutton.
+1. The Rewards button is listed as a menu group. When you open the Rewards group, you see the Lookup Customer button.
 
 ![Image](https://doc.toasttab.com/doc/media/image1.png)
 
 
-2. The Lookupbutton opens a dialog box that a restaurant employee uses to key in, swipe, scan, or search (by name, email, or phone) to find the loyalty program account for a restaurant guest.
+2. The Lookup button opens a dialog box that a restaurant employee uses to key in, swipe, scan, or search (by name, email, or phone) to find the loyalty program account for a restaurant guest.
 
 ![Image](https://doc.toasttab.com/doc/media/loyalty_lookup.png)
 

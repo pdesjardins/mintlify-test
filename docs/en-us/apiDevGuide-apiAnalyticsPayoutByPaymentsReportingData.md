@@ -19,40 +19,40 @@ codeExamples: 0
 
 Retrieving the payout reporting data by payment is a two-step process. You must:
 
-1. Send a `POST`request to the `/era/v1/payout/payments/day`endpoint to create a request for payout reporting data organized by payment for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier.
+1. Send a `POST` request to the `/era/v1/payout/payments/day` endpoint to create a request for payout reporting data organized by payment for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier.
 
 
 
 > **Note**
 > 
-> The analytics API currently only supports retrieving payout by payments reporting data for the `day`time range.
+> The analytics API currently only supports retrieving payout by payments reporting data for the `day` time range.
 
 
 For more information, see [Creating a request for payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataCreateRequest).
 
 
-2. Send a `GET`request to the `/era/v1/payout/payments/{requestReportGuid}`endpoint to retrieve the payout reporting data organized by payments. For more information, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/payout/payments/{requestReportGuid}` endpoint to retrieve the payout reporting data organized by payments. For more information, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
 
 
 #### Creating a request for payout reporting data by payments
 
-Send a `POST`request to the `/era/v1/payout/payments/{timeRange}`endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `POST` request to the `/era/v1/payout/payments/{timeRange}` endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
 
-You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants`query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).
+You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).
 
 To create a request for payout reporting data organized by payments, include the following:
 
-- The `startDate`value in the message body, in `YYYYMMDD`format. This identifies the start date for the range of included payments. This value must match the `endDate`value.
+- The `startDate` value in the message body, in `YYYYMMDD` format. This identifies the start date for the range of included payments. This value must match the `endDate` value.
 
 
-- The `endDate`value in the message body, in `YYYYMMDD`format. This identifies the end date for the range of payment sales dates. This value must match the `startDate`value.
+- The `endDate` value in the message body, in `YYYYMMDD` format. This identifies the end date for the range of payment sales dates. This value must match the `startDate` value.
 
 
-- The `restaurantIds`value in the message body. This identifies the only restaurants to include in the returned data using the restaurant GUID. All restaurants not listed are excluded from the returned data. Leave the `restaurantIds`value and the `excludedRestaurantIds`value empty to include all restaurants.
+- The `restaurantIds` value in the message body. This identifies the only restaurants to include in the returned data using the restaurant GUID. All restaurants not listed are excluded from the returned data. Leave the `restaurantIds` value and the `excludedRestaurantIds` value empty to include all restaurants.
 
 
-- The `excludedRestaurantIds`value in the message body. This identifies the only restaurants to exclude in the returned data using the restaurant GUID. All restaurants not listed are included in the returned data. Leave the `excludedRestaurantIds`value and the `restaurantIds`value empty to include all restaurants.
+- The `excludedRestaurantIds` value in the message body. This identifies the only restaurants to exclude in the returned data using the restaurant GUID. All restaurants not listed are included in the returned data. Leave the `excludedRestaurantIds` value and the `restaurantIds` value empty to include all restaurants.
 
 
 
@@ -60,12 +60,12 @@ To create a request for payout reporting data organized by payments, include the
 
 > **Important**
 > 
-> You can include restaurant GUIDs for either `restaurantIds`or `excludedRestaurantIds`but not for both. Listing restaurant GUIDs for both results in a 400 error or blank payout reporting data. They are contradictory values that cannot be used together.
+> You can include restaurant GUIDs for either `restaurantIds` or `excludedRestaurantIds`but not for both. Listing restaurant GUIDs for both results in a 400 error or blank payout reporting data. They are contradictory values that cannot be used together.
 
 
 ##### Request for payout reporting data by payments
 
-The following example **curl**command sends a `POST`request to the `/era/v1/payout/payments/day`endpoint.
+The following example **curl** command sends a `POST` request to the `/era/v1/payout/payments/day` endpoint.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
@@ -76,9 +76,9 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \[(1
 
 
 
-(1) Send a POSTrequest to the /era/v1/payout/payments/dayendpoint of the analytics API.
+(1) Send a POST request to the /era/v1/payout/payments/day endpoint of the analytics API.
 
-(2) Include an authentication token. For more information, see Authentication and restaurant access .
+(2) Include an authentication token. For more information, see Authentication and restaurant access.
 
 (3) Set the data type of the message body to application/json.
 
@@ -99,17 +99,17 @@ The following example shows the message body for creating a payout reporting dat
 
 
 
-(1) The start date of the time range for the payout reporting data, in YYYYMMDDformat.
+(1) The start date of the time range for the payout reporting data, in YYYYMMDD format.
 
-(2) The end date of the time range for the payout reporting data, in YYYYMMDDformat. This is the same value as the start date.
+(2) The end date of the time range for the payout reporting data, in YYYYMMDD format. This is the same value as the start date.
 
 (3) The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.
 
-(4) The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the restaurantIdsvalue, so all other restaurants are excluded automatically.
+(4) The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the restaurantIds value, so all other restaurants are excluded automatically.
 
 ##### Response to request for payout reporting data by payments
 
-The following example shows the response from the `/era/v1/payout/payments/day`endpoint.
+The following example shows the response from the `/era/v1/payout/payments/day` endpoint.
 
 ```
 "62bd5cf3-26c5-4fa8-8f51-15b3dd4d2e09"[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
@@ -117,17 +117,17 @@ The following example shows the response from the `/era/v1/payout/payments/day`e
 
 
 
-(1) The GUID for the payout reporting data by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process .
+(1) The GUID for the payout reporting data by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
 For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
 #### Retrieving the payout reporting data by payments
 
-Send a `GET`request to the `/era/v1/payout/payments/{reportRequestGuid}`endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}` endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
 
 ##### Request to retrieve payout reporting data by payments
 
-The following example **curl**command sends a `GET`request to the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/payments/[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
@@ -137,11 +137,11 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \[(2)](apiDevGuide-apiAnalyticsPayoutByPay
 
 
 
-(1) Send a GETrequest to the /era/v1/payout/paymentsendpoint of the analytics API.
+(1) Send a GET request to the /era/v1/payout/payments endpoint of the analytics API.
 
-(2) Include the GUID for the payout reporting data organized by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process .
+(2) Include the GUID for the payout reporting data organized by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see Authentication and restaurant access .
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
 ##### Response to retrieval request for payout reporting data by payments
 
@@ -210,7 +210,7 @@ The following example shows the response from the `/era/v1/payout/payments/{repo
 
 Payout reporting data by payment contains objects that correspond to each available restaurant and payment combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).
 
-The restaurants included in the payout reporting data organized by payments can be limited using either the `restaurantIds`or `excludedRestaurantIds`value in the message body. You can include restaurant GUIDs for only one of these values. Any restaurants listed with the `restaurantIds`value are included in the payout reporting data, with any restaurants not listed excluded. Any restaurants listed with the `excludedRestaurantIds`value are excluded from the payout reporting data, with any restaurants not listed included. When both are left blank, all restaurants are included automatically.
+The restaurants included in the payout reporting data organized by payments can be limited using either the `restaurantIds`or `excludedRestaurantIds` value in the message body. You can include restaurant GUIDs for only one of these values. Any restaurants listed with the `restaurantIds` value are included in the payout reporting data, with any restaurants not listed excluded. Any restaurants listed with the `excludedRestaurantIds` value are excluded from the payout reporting data, with any restaurants not listed included. When both are left blank, all restaurants are included automatically.
 
 The following table specifies the returned set of values in the payout reporting data organized by payments. The values are listed in the order they appear in the response.
 
@@ -226,7 +226,7 @@ The following table specifies the returned set of values in the payout reporting
 | `settledDate` | The date when the payouts associated with the payment were either processed or settled. | 
 | `orderOpenDateTime` | The date and time when the order associated with the payment was opened. | 
 | `paidDateTime` | The date and time when the order associated with the payment was paid. | 
-| `paymentCardBrand` | The brand or card provider of the card used to complete the payment. | 
+| `paymentCardBrand` | The brand or card provider of the card used to complete the payment.  | 
 | `paymentCardType` | The payment type used by the card completing the payment. The type can be one of the following values:- `Credit`: A credit card was used to complete the payment.
 - `Debit`: A debit card was used to complete the payment.
 - `UNSPECIFIED CARD`: The card type is neither credit or debit, or cannot be identified.

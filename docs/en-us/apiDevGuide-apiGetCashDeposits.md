@@ -17,7 +17,7 @@ codeExamples: 2
 
 ### Getting cash deposit entries
 
-The `deposits`endpoint of the cash management API returns information about the actual cash deposits for a restaurant. For example, when you close out a business day for your restaurant, you might package any cash that is greater than the amount needed for the start of the next day and deposit it in a bank. You record the deposit amount using the deposits function of the Toast POS.
+The `deposits` endpoint of the cash management API returns information about the actual cash deposits for a restaurant. For example, when you close out a business day for your restaurant, you might package any cash that is greater than the amount needed for the start of the next day and deposit it in a bank. You record the deposit amount using the deposits function of the Toast POS.
 
 **Example 8.3. Get all cash deposits made on a specific business date**
 
@@ -41,12 +41,12 @@ https://*`[toast-api-hostname]`*/cashmgmt/v1/deposits?businessDate=20190918[(2)]
 
 
 
-(1) Use the Toast-Restaurant-External-IDrequest parameter to specify the GUID of the restaurant from which to retrieve cash deposits. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.
+(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant from which to retrieve cash deposits. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.
 
-(2) Use the businessDaterequest parameter to specify the date (in yyyyMMddformat) on which the cash deposits were created.
+(2) Use the businessDate request parameter to specify the date (in yyyyMMdd format) on which the cash deposits were created.
 
   
-The following example shows a `DepositEntry`object in the response data from the `deposits`endpoint.
+The following example shows a `DepositEntry` object in the response data from the `deposits` endpoint.
 
 **Example 8.4. DepositEntry object in deposits endpoint response data**
 
@@ -69,14 +69,14 @@ The following example shows a `DepositEntry`object in the response data from the
 
 
 
-(1) The GUID of this DepositEntryobject.
+(1) The GUID of this DepositEntry object.
 
 (2) The date and time when the cash deposit was made.
 
-(3) The amount of the deposit. The amountvalue must be greater than zero.
+(3) The amount of the deposit. The amount value must be greater than zero.
 
 (4) The GUID or external identifier of the restaurant employee who created the cash deposit.
 
-(5) The GUID of the deposit entry that was undone. The value is nullif this deposit entry does not undo a previous deposit entry.
+(5) The GUID of the deposit entry that was undone. The value is null if this deposit entry does not undo a previous deposit entry.
 
   

@@ -30,7 +30,7 @@ The following procedure describes how to create analytics API access credentials
 1. Access Toast Web.
 
 
-2. Choose Integrations > Toast API access > Manage credentialsto open the Manage credentialspage.
+2. Choose Integrations > Toast API access > Manage credentials to open the Manage credentials page.
 
 
 
@@ -40,7 +40,7 @@ The following procedure describes how to create analytics API access credentials
 
 
 
-3. On the Manage credentialspage, navigate to the Create new credentialsbutton.
+3. On the Manage credentials page, navigate to the Create new credentials button.
 
 
 4. Select the down arrow and select Analytics API. This opens the New Credentialspage.
@@ -48,7 +48,7 @@ The following procedure describes how to create analytics API access credentials
 ![Shows the Manage credentials page with the Analytics API button emphasized.](https://doc.toasttab.com/doc/media/api-analytics-access-manage-credentials-page.png)
 
 
-5. On the New Credentialspage, you can:
+5. On the New Credentials page, you can:
 
 - View a list of the reporting data that you will have read-only access to.
 
@@ -66,11 +66,11 @@ The following procedure describes how to create analytics API access credentials
 
 
 
-6. Select the Create credentialsbutton. This navigates you to the Credentialspage.
+6. Select the Create credentials button. This navigates you to the Credentials page.
 
 ![Shows the Credentials page for the credentials just created.](https://doc.toasttab.com/doc/media/api-analytics-access-credentials-page.png)
 
-On the Credentialspage, you can:
+On the Credentials page, you can:
 
 - View and edit the credential set name
 
@@ -132,25 +132,25 @@ A client secret is a private string assigned by Toast to verify the identity of 
 
 **Procedure 1.21. To rotate your client secret:**
 
-1. On the Credentialspage, navigate to the Client secretinformation.
+1. On the Credentials page, navigate to the Client secret information.
 
 
-2. Select Rotate secret. The Ready to rotate the client secret?dialog opens.
+2. Select Rotate secret. The Ready to rotate the client secret? dialog opens.
 
 
-3. To confirm, type ROTATE SECRETin the text field.
+3. To confirm, type ROTATE SECRET in the text field.
 
 
-4. Select the Continuebutton. The View the client secretdialog opens.
+4. Select the Continue button. The View the client secret dialog opens.
 
 
 5. Select View secret. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
 
 
-6. Select the I have copied and saved the client secretcheckbox.
+6. Select the I have copied and saved the client secret checkbox.
 
 
-7. Select the Finishbutton to finish rotating the client secret.
+7. Select the Finish button to finish rotating the client secret.
 
 
 
@@ -163,5 +163,5 @@ A client secret is a private string assigned by Toast to verify the identity of 
 > Deleting analytics API access credentials is permanent. You cannot restore deleted credentials.
 
 
-To delete your analytics API access credentials, select the Delete credentialsbutton on the Credentialspage. This opens a confirmation dialog. In the dialog, type DELETE SECRETin the text field to confirm deletion of the credentials, and select the Deletebutton to finish deleting the credentials.
+To delete your analytics API access credentials, select the Delete credentials button on the Credentials page. This opens a confirmation dialog. In the dialog, type DELETE SECRET in the text field to confirm deletion of the credentials, and select the Delete button to finish deleting the credentials.
 

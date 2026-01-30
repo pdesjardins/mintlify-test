@@ -16,7 +16,7 @@ codeExamples: 0
 
 ### Tender provider integrations overview
 
-You can use the Toast tender API to integrate your tender provider with the Toast platform. The tender API supports the [Hotel property management system integration](apiTenderPmsIntegration.html)and enables a hotel restaurant to directly bill a guest at the hotel, for example, by using their room number or name.
+You can use the Toast tender API to integrate your tender provider with the Toast platform. The tender API supports the [Hotel property management system integration](apiTenderPmsIntegration.html) and enables a hotel restaurant to directly bill a guest at the hotel, for example, by using their room number or name.
 
 In addition, the tender API allows you to apply discounts from a third-party system and refund payments and discounts on a check.
 
@@ -44,9 +44,9 @@ Tender integrations define a single HTTPS endpoint. In your implementation, all 
 https://*`toastapi.com/tenderapi`*
 ```
 
-Each `POST`request to the endpoint includes:
+Each `POST` request to the endpoint includes:
 
-- A `TenderTransaction`object in the message body, which contains information specific to the `Toast-Transaction-Type`.
+- A `TenderTransaction` object in the message body, which contains information specific to the `Toast-Transaction-Type`.
 
 
 - Headers sent by the Toast platform. For a complete list of these headers, see the [API reference documentation](https://doc.toasttab.com/openapi/tender/paths/~1yourendpointname/post/).
@@ -65,7 +65,7 @@ Your tender interface implementation must return the following HTTPS responses t
 
 
 
-400 means an unsuccessful request. The `transactionStatus`value of the `TenderTransactionResponse`object indicates the source of the error. The error source must be one of the following:
+400 means an unsuccessful request. The `transactionStatus` value of the `TenderTransactionResponse` object indicates the source of the error. The error source must be one of the following:
 
 - `ERROR_ACCOUNT_INVALID`: The tender identifier is not in the set of identifiers that correspond to the current restaurant. For example, if a guest account is entered incorrectly, your implementation returns this status.
 
@@ -76,10 +76,10 @@ Your tender interface implementation must return the following HTTPS responses t
 - `ERROR_FOLIO_IN_USE`: The guest folio is in use elsewhere on the property and the guest folio is locked and unavailable for room charge posting.
 
 
-- `ERROR_INSUFFICIENT_FUNDS`: The tender account does not have sufficient payment to make a payment or tip specified in a `TENDER_RETRIEVE_PAYMENTS`or `TENDER_RETRIEVE_GRATUITY`.
+- `ERROR_INSUFFICIENT_FUNDS`: The tender account does not have sufficient payment to make a payment or tip specified in a `TENDER_RETRIEVE_PAYMENTS` or `TENDER_RETRIEVE_GRATUITY`.
 
 
-- `ERROR_INVALID_INPUT_PROPERTIES`: The JSON values specified in the `tenderTransaction`object in the request body do not match the requirements of the transaction type.
+- `ERROR_INVALID_INPUT_PROPERTIES`: The JSON values specified in the `tenderTransaction` object in the request body do not match the requirements of the transaction type.
 
 
 - `ERROR_INVALID_RESTAURANT`: The restaurant identifier included in the `Toast-Restaurant-External-ID`header parameter of the request is not recognized by the tender provider integration implementation. You receive the identifiers for your connected restaurants when implementing the tender API.
@@ -88,10 +88,10 @@ Your tender interface implementation must return the following HTTPS responses t
 - `ERROR_INVALID_TOAST_TRANSACTION_TYPE`: Your implementation does not handle the transaction type supplied in the request. Return this response when the requested transaction type is defined by the tender API but you decided not to support it.
 
 
-- `ERROR_INVALID_TOKEN`: The authentication token supplied in the `Authorization`header parameter is invalid or cannot be validated. For information about request authentication, see [Authenticating outbound API requests](portalOutboundIntegrationsOmitChunkFromSearchIndex.html#apiAuthenticatingRequestsFromToastApiClients).
+- `ERROR_INVALID_TOKEN`: The authentication token supplied in the `Authorization` header parameter is invalid or cannot be validated. For information about request authentication, see [Authenticating outbound API requests](portalOutboundIntegrationsOmitChunkFromSearchIndex.html#apiAuthenticatingRequestsFromToastApiClients).
 
 
-- `ERROR_TRANSACTION_CANNOT_BE_REVERSED`: The transaction specified by a `TENDER_REVERSE`request cannot be reversed.
+- `ERROR_TRANSACTION_CANNOT_BE_REVERSED`: The transaction specified by a `TENDER_REVERSE` request cannot be reversed.
 
 
 - `ERROR_TRANSACTION_DOES_NOT_EXIST`: The reverse request, specified by a `TENDER_REVERSE`, is for a transaction that does not exist.

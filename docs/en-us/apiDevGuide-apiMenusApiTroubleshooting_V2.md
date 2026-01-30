@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Menus API troubleshooting
 
-**Problem:**The JSON returned by the menus API is missing a value that you are expecting.
+**Problem:** The JSON returned by the menus API is missing a value that you are expecting.
 
-**Potential Solution:**Ask the restaurant to make a minor menu-related change and then publish to force the JSON to be regenerated.
+**Potential Solution:** Ask the restaurant to make a minor menu-related change and then publish to force the JSON to be regenerated.
 

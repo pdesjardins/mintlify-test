@@ -33,9 +33,9 @@ Your Toast outbound API integration can verify the authenticity of the REST API 
 
 #### About the outbound API authentication process
 
-When you implement an integration with a Toast outbound API, you supply a static API key string that the Toast API client will include in the HTTP `Authorization`header field with each request. You can define any static API key that meets the authentication requirements of your integration. You provide the key string to the Toast integrations support team when you configure your integration. For more information about static API keys, see [Using static API keys](portalOutboundIntegrationsOmitChunkFromSearchIndex.html#apiUsingStaticApiKeys).
+When you implement an integration with a Toast outbound API, you supply a static API key string that the Toast API client will include in the HTTP `Authorization` header field with each request. You can define any static API key that meets the authentication requirements of your integration. You provide the key string to the Toast integrations support team when you configure your integration. For more information about static API keys, see [Using static API keys](portalOutboundIntegrationsOmitChunkFromSearchIndex.html#apiUsingStaticApiKeys).
 
-The following diagram shows a Toast platform API client presenting the static API key string that you supply in the HTTP `Authorization`header field for an API request.
+The following diagram shows a Toast platform API client presenting the static API key string that you supply in the HTTP `Authorization` header field for an API request.
 
 ![A diagram showing an organization's Toast outbound API implementation providing a static API key to Toast. The Toast platform includes that static API key in the authentication header parameter for each API request.](https://doc.toasttab.com/doc/media/toast-outbound-api-authentication.png)
 
@@ -43,7 +43,7 @@ The following diagram shows a Toast platform API client presenting the static AP
 
 The following example shows the HTTP `Authorization`header field for a Toast platform API client request.
 
-**Example 10.1. HTTP `Authorization`header field for a Toast platform API client request**
+**Example 10.1. HTTP `Authorization` header field for a Toast platform API client request**
 
 ```
 Authorization: c75a2aa085d30a90308841d388fc7828f1a28e29bdd2c82150a30cf356d4d87f[(1)](apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex.html#d1e46506D541D-DE75-41D1-8E80-09960B9A3502-co)
@@ -51,12 +51,12 @@ Authorization: c75a2aa085d30a90308841d388fc7828f1a28e29bdd2c82150a30cf356d4d87f[
 
 
 
-(1) The string value of the HTTP header Authorizationfield is the static API key that you supply to Toast when you implement your integration. For more information, see Using static API keys .
+(1) The string value of the HTTP header Authorizationfield is the static API key that you supply to Toast when you implement your integration. For more information, see Using static API keys.
 
   
 #### Using static API keys
 
-You provide the static API key that a Toast platform API client includes in the HTTP header `Authorization`field. You can choose the static API key content to meet the requirements of the authentication implementation in your Toast API integration.
+You provide the static API key that a Toast platform API client includes in the HTTP header `Authorization` field. You can choose the static API key content to meet the requirements of the authentication implementation in your Toast API integration.
 
 The maximum length of a static API key is 255 characters.
 
@@ -66,7 +66,7 @@ Your authentication implementation should use different static API keys for the 
 
 #### Rotating static API keys
 
-To revoke and replace the static API key that a Toast platform API client includes in the HTTP header `Authorization`field you contact the Toast integrations team to coordinate a key rotation for your integration. The Toast integrations team can replace an existing static API key for your integration with a new static API key. Your integration must perform a coordinated replacement of the authentication configuration that you use to evaluate the authenticity of Toast API requests.
+To revoke and replace the static API key that a Toast platform API client includes in the HTTP header `Authorization` field you contact the Toast integrations team to coordinate a key rotation for your integration. The Toast integrations team can replace an existing static API key for your integration with a new static API key. Your integration must perform a coordinated replacement of the authentication configuration that you use to evaluate the authenticity of Toast API requests.
 
 
 

@@ -18,7 +18,7 @@ codeExamples: 0
 
 ### Archiving an employee
 
-To archive an employee, send a `DELETE`request to the `/labor/v1/employees/{employeeId}`endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
+To archive an employee, send a `DELETE`request to the `/labor/v1/employees/{employeeId}` endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
 
 This operation updates the employee in a way that indicates the employee is inactive and cannot access the Toast POS or other parts of the Toast platform. The Toast platform does not delete information about employees when you archive them, and you can [unarchive an employee later, if you need to](apiUnarchivingAnEmployee.html).
 
@@ -26,7 +26,7 @@ This operation updates the employee in a way that indicates the employee is inac
 
 > **Note**
 > 
-> The internal representation of the archived state uses the term "deleted" and the labor API includes object value names such as `deleted`and `deletedDate`. The Toast platform *does not delete*employee information when you archive an employee.
+> The internal representation of the archived state uses the term "deleted" and the labor API includes object value names such as `deleted` and `deletedDate`. The Toast platform *does not delete* employee information when you archive an employee.
 
 
 When an employee is archived:
@@ -34,7 +34,7 @@ When an employee is archived:
 - The employee cannot sign into the Toast POS, sign into Toast Web, or open new time entries.
 
 
-- The `deleted`value in the `Employee`object for the employee is set to `true`.
+- The `deleted` value in the `Employee`object for the employee is set to `true`.
 
 
 - The employee's information remains available in Toast platform reports.
@@ -43,7 +43,7 @@ When an employee is archived:
 
 #### Example request to archive an employee
 
-The following example **curl**command sends a `DELETE`request to archive an employee.
+The following example **curl** command sends a `DELETE` request to archive an employee.
 
 **Example 7.14. Example request to archive an employee**
 
@@ -72,7 +72,7 @@ https://*`[toast-api-hostname]`*/labor/v1/employees/*`b7946411-7d45-4beb-9bfc-0e
   
 #### Example response to archiving an employee
 
-The following example shows the response for a `DELETE`request to archive an employee. For information about the values in this `Employee`object, see [the API reference documentation](https://doc.toasttab.com/openapi/labor/tag/Data-definitions/schema/Employee/).
+The following example shows the response for a `DELETE` request to archive an employee. For information about the values in this `Employee` object, see [the API reference documentation](https://doc.toasttab.com/openapi/labor/tag/Data-definitions/schema/Employee/).
 
 **Example 7.15. Example response to a request to archive an employee**
 
@@ -102,6 +102,6 @@ The following example shows the response for a `DELETE`request to archive an emp
 
 (1) When you archive an employee, the deletedvalue is set to true.
 
-(2) The deletedDatevalue indicates the date and time you archived the employee.
+(2) The deletedDate value indicates the date and time you archived the employee.
 
   

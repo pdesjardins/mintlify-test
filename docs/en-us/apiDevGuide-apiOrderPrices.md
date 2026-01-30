@@ -21,15 +21,15 @@ Order price information includes menu item prices, service charges, and taxes.
 
 #### Getting check prices before you submit an order
 
-Before you can `POST`an order to the `/orders`endpoint, you must first obtain the order price information for the order. For an overview of the order creation process, including the step to obtain the order prices, see [Order creation process for the orders API](portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex.html#apiOrdersCreationProcess).
+Before you can `POST` an order to the `/orders`endpoint, you must first obtain the order price information for the order. For an overview of the order creation process, including the step to obtain the order prices, see [Order creation process for the orders API](portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex.html#apiOrdersCreationProcess).
 
-To get the price information, you send a `POST`request to the `/prices`endpoint of the orders API. The request contains an `Order`object with the information about the order.
+To get the price information, you send a `POST` request to the `/prices` endpoint of the orders API. The request contains an `Order` object with the information about the order.
 
-The `/prices`endpoint is the only reliable and supported way to determine the payment amount for a check. If you `POST`an order with a payment amount that does not match the results from the `/prices`endpoint, then restaurant employees must manually handle the underpayment or overpayment during order fulfillment.
+The `/prices` endpoint is the only reliable and supported way to determine the payment amount for a check. If you `POST` an order with a payment amount that does not match the results from the `/prices` endpoint, then restaurant employees must manually handle the underpayment or overpayment during order fulfillment.
 
 ##### Example Order object for a request to the /prices endpoint
 
-The following example shows a JSON `Order`object to `POST`to the `/prices`endpoint. The order contains one check with a single menu item.
+The following example shows a JSON `Order` object to `POST` to the `/prices` endpoint. The order contains one check with a single menu item.
 
 ```
 {
@@ -59,7 +59,7 @@ The following example shows a JSON `Order`object to `POST`to the `/prices`endpoi
 
 
 
-(1) The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery. For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.
+(1) The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery.For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.
 
 (2) The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."
 
@@ -69,9 +69,9 @@ The following example shows a JSON `Order`object to `POST`to the `/prices`endpoi
 
 ##### Response data from the /prices endpoint
 
-The response from the `/prices`endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiOrdersOmitChunkFromSearchIndex.html#apiOrderObjectAmounts).
+The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiOrdersOmitChunkFromSearchIndex.html#apiOrderObjectAmounts).
 
-The following example shows the response data returned by the `/prices`endpoint of the orders API.
+The following example shows the response data returned by the `/prices` endpoint of the orders API.
 
 ```
 {
@@ -205,13 +205,13 @@ You can create orders that include open price menu items. When you create the or
 
 ##### About open price menu items
 
-*Open price*menu items allow restaurant employees or your integration client software to set the price of a configured menu item. For example, the price of a seafood menu item might vary each day based on the current market price. Instead of changing the price in the menu each day, the item is configured as an open price menu item, and the price is specified when the order is placed. You can `POST`orders with open price menu items with the orders API.
+*Open price* menu items allow restaurant employees or your integration client software to set the price of a configured menu item. For example, the price of a seafood menu item might vary each day based on the current market price. Instead of changing the price in the menu each day, the item is configured as an open price menu item, and the price is specified when the order is placed. You can `POST` orders with open price menu items with the orders API.
 
-Open price menu items are different from *open*menu items, which allow restaurant employees to set both the name AND the price of the item. You cannot `POST`orders with open menu items with the orders API.
+Open price menu items are different from *open*menu items, which allow restaurant employees to set both the name AND the price of the item. You cannot `POST` orders with open menu items with the orders API.
 
-To verify that a menu item is an open price menu item, check the `pricingStrategy`value of the `MenuItem`object in the menus API response data. If the `pricingStrategy`value is `OPEN_PRICE`, then the menu item is an open price menu item.
+To verify that a menu item is an open price menu item, check the `pricingStrategy` value of the `MenuItem` object in the menus API response data. If the `pricingStrategy` value is `OPEN_PRICE`, then the menu item is an open price menu item.
 
-The following example `MenuItem`object is for an open price menu item:
+The following example `MenuItem` object is for an open price menu item:
 
 ```
 ...
@@ -236,15 +236,15 @@ The following example `MenuItem`object is for an open price menu item:
 
 ##### How to set the price of an open price item
 
-To set the price for an open price item, in the `Selection`object for the open price item, set the `openPriceAmount`value to the currency amount of the item price. `openPriceAmount`is the price of a single item before any quantity, taxes, discounts, and modifier adjustments are applied. For example, a restaurant configures a seafood special as an open price item. `openPriceAmount`is always the price of one seafood special, even if a guest orders more than one seafood special.
+To set the price for an open price item, in the `Selection` object for the open price item, set the `openPriceAmount` value to the currency amount of the item price. `openPriceAmount` is the price of a single item before any quantity, taxes, discounts, and modifier adjustments are applied. For example, a restaurant configures a seafood special as an open price item. `openPriceAmount` is always the price of one seafood special, even if a guest orders more than one seafood special.
 
-If you do not provide an `openPriceAmount`value for an open price menu item, the orders API sets the price to 0.00.
+If you do not provide an `openPriceAmount` value for an open price menu item, the orders API sets the price to 0.00.
 
-Include the open price items in the request body that you send to the `/prices`endpoint to [get the check prices](apiOrderPrices.html#apiGettingCheckPrices). For open price items, the call to the `/prices`endpoint returns the calculated tax for the item. The orders API calculates the tax based on the value of `openPriceAmount`.
+Include the open price items in the request body that you send to the `/prices` endpoint to [get the check prices](apiOrderPrices.html#apiGettingCheckPrices). For open price items, the call to the `/prices` endpoint returns the calculated tax for the item. The orders API calculates the tax based on the value of `openPriceAmount`.
 
 ##### Example Order object with an open price item
 
-The following example shows a JSON `Order`object that contains a check with a single open price menu item.
+The following example shows a JSON `Order` object that contains a check with a single open price menu item.
 
 ```
 {
@@ -285,9 +285,9 @@ The following example shows a JSON `Order`object that contains a check with a si
 
 ##### Open price values in orders API responses
 
-Only include the `openPriceAmount`when you add an open price menu item to an order. `openPriceAmount`is not returned in orders API responses.
+Only include the `openPriceAmount` when you add an open price menu item to an order. `openPriceAmount` is not returned in orders API responses.
 
-The orders API uses the `openPriceAmount`value to populate the `receiptLinePrice`value for the menu item selection.
+The orders API uses the `openPriceAmount` value to populate the `receiptLinePrice` value for the menu item selection.
 
 #### Service charges for checks
 
@@ -295,11 +295,11 @@ You can apply general upcharges, or service charges, to checks when you create a
 
 Before you can apply a service charge, restaurants must configure the service charge in Toast Web. You then use the service charge GUID to add the service charge to the check. To retrieve the service charge GUID, you can use the configuration API.
 
-For more information about service charges and how restaurants configure them, see [adminGuide#adminServiceChargeOverview]in the *Toast Platform Guide*.
+For more information about service charges and how restaurants configure them, see [adminGuide#adminServiceChargeOverview] in the *Toast Platform Guide*.
 
 ##### Getting the available service charges
 
-To get the available service charges, send a `GET`request to the `serviceCharges`endpoint of the configuration API. For more information about retrieving available service charges, see [Get service charges](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)in the *Toast API reference*.
+To get the available service charges, send a `GET`request to the `serviceCharges` endpoint of the configuration API. For more information about retrieving available service charges, see [Get service charges](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/) in the *Toast API reference*.
 
 The response provides detailed information about each service charge, including:
 
@@ -313,15 +313,15 @@ You use the GUID to add the service charge to a check.
 
 
 **`amountType`**
-: The amount type for the service charge. `amountType`is one of the following:
+: The amount type for the service charge. `amountType` is one of the following:
 
-- `PERCENT`- The service charge is a specified fixed percentage of the check. For example, the service charge is always 10% of the check.
-
-
-- `FIXED`- The service charge is a specified fixed amount. For example, the service charge is always $5.00.
+- `PERCENT` - The service charge is a specified fixed percentage of the check. For example, the service charge is always 10% of the check.
 
 
-- `OPEN`- The service charge does not have a specified amount. You provide the amount when you add the service charge to the check.
+- `FIXED` - The service charge is a specified fixed amount. For example, the service charge is always $5.00.
+
+
+- `OPEN` - The service charge does not have a specified amount. You provide the amount when you add the service charge to the check.
 
 
 
@@ -350,18 +350,18 @@ The criteria includes whether to apply the service charge based on:
 
 ##### How to apply service charges to a check
 
-To apply service charges to a check, include the `appliedServiceCharges`value in the `Check`object. Include a `serviceCharge`value for each service charge that applies to the check.
+To apply service charges to a check, include the `appliedServiceCharges` value in the `Check` object. Include a `serviceCharge` value for each service charge that applies to the check.
 
 The orders API does not automatically add any service charges. You must add all of the applicable service charges. If the order does not meet the service charge criteria, the orders API rejects the order.
 
-In each `serviceCharge`value:
+In each `serviceCharge` value:
 
-- Set `guid`to the Toast platform GUID of the service charge.
+- Set `guid` to the Toast platform GUID of the service charge.
 
 
 - For an open service charge, include a `chargeAmount`value to set the amount of the service charge.
 
-Do not provide a `chargeAmount`for `FIXED`or `PERCENT`service charges. The orders API ignores `chargeAmount`values for `FIXED`or `PERCENT`service charges.
+Do not provide a `chargeAmount` for `FIXED` or `PERCENT` service charges. The orders API ignores `chargeAmount` values for `FIXED` or `PERCENT` service charges.
 
 
 
@@ -382,7 +382,7 @@ The following example shows an `appliedServiceCharges`value that applies an open
 
 
 
- You include chargeAmountfor OPENservice charges. Do not include chargeAmountfor FIXEDor PERCENTservice charges.
+ You include chargeAmount for OPENservice charges. Do not include chargeAmount for FIXED or PERCENT service charges.
 
 #### Working with taxes
 
@@ -399,7 +399,7 @@ When it calculates taxes and check prices, the orders API uses the following rou
 
 - When the orders API applies a percent tax rate, it uses the rounding algorithm that is configured for that percent tax rate.
 
-For example, depending on the configured rounding option, the orders API rounds a tax amount of $1.235 down to $1.23 or up to $1.24. For more information, see [adminGuide#roundingOptions]in the *Toast Platform Guide*.
+For example, depending on the configured rounding option, the orders API rounds a tax amount of $1.235 down to $1.23 or up to $1.24. For more information, see [adminGuide#roundingOptions] in the *Toast Platform Guide*.
 
 
 - To calculate a check price, the orders API first rounds the item prices, including the tax amounts. It then sums the rounded item prices.
@@ -411,8 +411,8 @@ For example, depending on the configured rounding option, the orders API rounds 
 > **Important**
 > 
 > This description of the orders API rounding method does not guarantee that orders API client software can accurately calculate check prices. The price of a check includes several factors in addition to the item prices and rounded tax amounts.
-> The `/prices`endpoint is the only reliable and supported way to determine the payment amount for a check. See [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices).
-> If you `POST`an order with a payment amount that does not match the results from the `/prices`endpoint, then restaurant employees must manually handle the underpayment or overpayment during order fulfillment.
+> The `/prices` endpoint is the only reliable and supported way to determine the payment amount for a check. See [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices).
+> If you `POST` an order with a payment amount that does not match the results from the `/prices`endpoint, then restaurant employees must manually handle the underpayment or overpayment during order fulfillment.
 
 
 ##### Tax exemptions for menu items, checks, and service charges
@@ -428,8 +428,8 @@ Indicates that an item is never taxable. For example, in some states or province
 
 
 
-****`taxExempt`property for checks****
-: The `taxExempt`property of a check is present in the API.
+****`taxExempt` property for checks****
+: The `taxExempt` property of a check is present in the API.
 
 Indicates whether that particular check, rather than the items or service charges on it, is exempt from taxation.
 
@@ -437,8 +437,8 @@ For example, an order placed by a non-profit or government entity might be exemp
 
 
 
-****`taxable`property for service charges****
-: The `taxable`property of an `AppliedServiceCharge`is present in the API.
+****`taxable` property for service charges****
+: The `taxable` property of an `AppliedServiceCharge` is present in the API.
 
 Indicates whether a service charge is taxable.
 

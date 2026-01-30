@@ -23,38 +23,38 @@ When you use the orders API to create an order, you can schedule the order to be
 
 > **Important**
 > 
-> Do not set the `promisedDate`value to a date and time earlier than the `openedDate`value. Orders submitted to the orders API where the `promisedDate`is earlier than the `opendDate`will be rejected.
+> Do not set the `promisedDate` value to a date and time earlier than the `openedDate` value. Orders submitted to the orders API where the `promisedDate` is earlier than the `opendDate` will be rejected.
 
 
 #### Setting promisedDate for a future order
 
-The `promisedDate`value for an order sets the date and time to fulfill the order. When you include the `promisedDate`value, the order you create is scheduled for that date and time.
+The `promisedDate` value for an order sets the date and time to fulfill the order. When you include the `promisedDate`value, the order you create is scheduled for that date and time.
 
-If you do not include a `promisedDate`value, the Toast platform creates an as soon as possible (ASAP) order for immediate fulfillment.
+If you do not include a `promisedDate` value, the Toast platform creates an as soon as possible (ASAP) order for immediate fulfillment.
 
 When you set `promisedDate`, make sure that the date and time reflects the required preparation times and the restaurant hours. For restaurants that use Toast Online Ordering, you must also consider the specific time frames when the restaurant accepts online orders. A restaurant can also limit how far in the future you can schedule an order.
 
-For example, if an order takes 45 minutes to prepare, do not set `promisedDate`for a delivery order to 15 minutes after the restaurant starts to accept delivery orders.
+For example, if an order takes 45 minutes to prepare, do not set `promisedDate` for a delivery order to 15 minutes after the restaurant starts to accept delivery orders.
 
 For information on how to estimate the wait time for an order, see [Calculating order wait time](calculatingOrderWaitTime.html).
 
 #### Setting openedDate for a future order
 
-The `openedDate`value for an order is the date and time when the order was opened. `openedDate`is used to set the business date of an order. The business date determines when an order is added to the open orders report. A scheduled order should not appear in the open orders report until the day that it is scheduled to fire.
+The `openedDate` value for an order is the date and time when the order was opened. `openedDate` is used to set the business date of an order. The business date determines when an order is added to the open orders report. A scheduled order should not appear in the open orders report until the day that it is scheduled to fire.
 
-To ensure that the order appears in the open orders report on the correct date, set `openedDate`to match `promisedDate`.
+To ensure that the order appears in the open orders report on the correct date, set `openedDate` to match `promisedDate`.
 
-If you do not include an `openedDate`value, then `openedDate`is set to the current date and time. The order business date is then set to the corresponding day. In other words, the business date reflects when the order was received, instead of when it was fulfilled.
+If you do not include an `openedDate` value, then `openedDate` is set to the current date and time. The order business date is then set to the corresponding day. In other words, the business date reflects when the order was received, instead of when it was fulfilled.
 
-For example, on March 1 at 10:00 AM, you create an order that is scheduled to be fulfilled on March 5 at 4:00 PM. When you create the order, you set both `promisedDate`and `openedDate`to the timestamp for March 5 at 4:00 PM.
+For example, on March 1 at 10:00 AM, you create an order that is scheduled to be fulfilled on March 5 at 4:00 PM. When you create the order, you set both `promisedDate` and `openedDate`to the timestamp for March 5 at 4:00 PM.
 
 #### Setting paidDate for a payment on a future order
 
-If the request for the future order includes a payment, set the `paidDate`for the payment to the timestamp when the payment is placed. The `paidDate`cannot be more than 7 days from the date the guest presented the credit card payment.
+If the request for the future order includes a payment, set the `paidDate` for the payment to the timestamp when the payment is placed. The `paidDate` cannot be more than 7 days from the date the guest presented the credit card payment.
 
 #### Example Order object for a scheduled order
 
-The `Order`object in the following example creates an order that is scheduled for future fulfillment.
+The `Order` object in the following example creates an order that is scheduled for future fulfillment.
 
 ```
 {
@@ -101,9 +101,9 @@ The `Order`object in the following example creates an order that is scheduled fo
 
 
 
- If you submit a payment with the order, the paidDatefor the payment should be the timestamp when the payment is placed.
+ If you submit a payment with the order, the paidDate for the payment should be the timestamp when the payment is placed.
 
-(2) The promisedDatevalue specifies the date and time when the order will be fulfilled.
+(2) The promisedDate value specifies the date and time when the order will be fulfilled.
 
- The openedDatevalue specifies the business date of the order. If you do not include an openedDatevalue, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This openedDatevalue matches the promisedDatevalue.
+ The openedDate value specifies the business date of the order. If you do not include an openedDate value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This openedDatevalue matches the promisedDate value.
 

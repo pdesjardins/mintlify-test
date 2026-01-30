@@ -55,24 +55,24 @@ Configuring the search is the first transaction that occurs when an employee ini
 1. A guest wants to charge a check to a hotel room.
 
 
-2. An employee selects Pay ($)to tender the check and selects hotel room charge as the payment method on the Toast POS device.
+2. An employee selects Pay ($) to tender the check and selects hotel room charge as the payment method on the Toast POS device.
 
 
-3. The Toast platform sends a `TENDER_SEARCH_CONFIG`request to the hotel PMS provider to get the search terms used by the provider to look up guest information.
+3. The Toast platform sends a `TENDER_SEARCH_CONFIG` request to the hotel PMS provider to get the search terms used by the provider to look up guest information.
 
 
-4. The PMS provider sends a response in a `searchConfigResponse`object. Each key-value pair in this object defines an input field ( `key`) with its type ( `value`). Optional attributes for maximum length ( `maxLength`) and tender property type ( `tenderProperType`) for the key-value pair may be included.
+4. The PMS provider sends a response in a `searchConfigResponse` object. Each key-value pair in this object defines an input field (`key`) with its type (`value`). Optional attributes for maximum length (`maxLength`) and tender property type (`tenderProperType`) for the key-value pair may be included.
 
-The `value`must be one of the following:
+The `value` must be one of the following:
 
 | Value | Description | 
 | --- | --- |
 | `NUMBER` | A numeric value such as room number, or reservation number. | 
 | `TEXT` | An alphanumeric value such as a guest's name or their company's name. | 
 | `EMAIL` | The guest's email address. | 
-| `PHONE_NUMBER` | A numeric-only value for the guest's phone number. | 
+| `PHONE_NUMBER` | A numeric-only value for the guest's phone number.  | 
 
-The first four search terms are displayed on the guest lookup screen on the Toast POS device. The `value`also determines the type of virtual keyboard that is displayed for the search term. For example, `TEXT`does not allow a number pad to be used.
+The first four search terms are displayed on the guest lookup screen on the Toast POS device. The `value` also determines the type of virtual keyboard that is displayed for the search term. For example, `TEXT` does not allow a number pad to be used.
 
 
 
@@ -80,7 +80,7 @@ The following example shows the search terms configured as room number, name, re
 
 **Example 10.18. Configure search request**
 
-The `TENDER_SEARCH_CONFIG`transaction is a `POST`request to your tender API endpoint `https://*`{your endpoint}`*`with the following header parameters:
+The `TENDER_SEARCH_CONFIG` transaction is a `POST` request to your tender API endpoint `https://*`{your endpoint}`*` with the following header parameters:
 
 - `Toast-Transaction-Type`
 
@@ -143,9 +143,9 @@ The following is an example of a successful configure search response.
 
 
 
-(1) The valueattribute must be TEXTif your integration supports alpha-numeric room numbers.
+(1) The value attribute must be TEXTif your integration supports alpha-numeric room numbers.
 
-(2) The tenderProperTypeattribute must be associated with ROOM_IDfor the key-value pair that defines Room Number in the configure search response and on each search response .
+(2) The tenderProperType attribute must be associated with ROOM_ID for the key-value pair that defines Room Number in the configure search response and on each search response.
 
   
 ##### Guest search
@@ -157,26 +157,26 @@ After the search configuration request, the Toast POS device displays the guest 
 1. An employee enters the guest's identifying information in the input fields on the Toast POS device and searches for the guest.
 
 
-2. The Toast POS device sends a `TENDER_SEARCH`request to the PMS provider. The request is a `TenderTransaction`object that contains a `searchTransactionInformation`object which contains a `searchTerms`object. This `searchTerms`object contains the search criteria, in the form of a key-value pair:
+2. The Toast POS device sends a `TENDER_SEARCH`request to the PMS provider. The request is a `TenderTransaction` object that contains a `searchTransactionInformation` object which contains a `searchTerms` object. This `searchTerms`object contains the search criteria, in the form of a key-value pair:
 
-- The `key`corresponds to the input field where the restaurant employee enters the guest's identifying information.
-
-
-- The `value`corresponds to the string that the employee types on the Toast POS device. The `value`can be partial. For example, only first or last name, or partial name.
+- The `key` corresponds to the input field where the restaurant employee enters the guest's identifying information.
 
 
+- The `value` corresponds to the string that the employee types on the Toast POS device. The `value` can be partial. For example, only first or last name, or partial name.
 
 
-3. The PMS provider returns the results of the search request in a `searchResponse`object that contains a `searchResults`property. The `searchResults`property contains an array of `AccountInfo`objects. Each entry in the array corresponds to a guest and includes:
 
-- An identifier for the guest ( `tenderIdentifier`). Each `tenderIdentifier`should be unique for each guest returned in the `TENDER_SEARCH
+
+3. The PMS provider returns the results of the search request in a `searchResponse` object that contains a `searchResults` property. The `searchResults` property contains an array of `AccountInfo` objects. Each entry in the array corresponds to a guest and includes:
+
+- An identifier for the guest (`tenderIdentifier`). Each `tenderIdentifier` should be unique for each guest returned in the `TENDER_SEARCH
                 response`.
 
 
 
 > **Important**
 > 
-> `tenderIdentifier`is generated by the integration partner and should never be generated using a guest's sensitive information, such as credit card details.
+> `tenderIdentifier` is generated by the integration partner and should never be generated using a guest's sensitive information, such as credit card details.
 
 
 
@@ -188,7 +188,7 @@ Guest search results are displayed on the Toast POS device.
 
 
 
-The following example shows a search for a guest whose name contains `john`. The PMS provider responds with two results for `john adams`and `amy johns`and their information.
+The following example shows a search for a guest whose name contains `john`. The PMS provider responds with two results for `john adams` and `amy johns` and their information.
 
 **Example 10.20. Search request message body**
 
@@ -335,13 +335,13 @@ After an employee selects a guest from the search results on the Toast POS devic
 
 **Procedure 10.12. Retrieve discounts workflow**
 
-1. The Toast platform sends a `TENDER_RETRIEVE_DISCOUNTS`request to the PMS provider. The request includes a `TenderTransaction`object that holds the guest identifier ( `tenderIdentifier`) and check ( `Check`) in a `discountsTransactionInformation`object.
+1. The Toast platform sends a `TENDER_RETRIEVE_DISCOUNTS` request to the PMS provider. The request includes a `TenderTransaction`object that holds the guest identifier (`tenderIdentifier`) and check (`Check`) in a `discountsTransactionInformation` object.
 
 
-2. Your PMS integration determines the discounts to be applied to the check and responds to the Toast platform with a `discountsResponse`value in the `TenderTransactionResponse`object. Discount information is contained in this object. Note that the number of discounts can be zero.
+2. Your PMS integration determines the discounts to be applied to the check and responds to the Toast platform with a `discountsResponse` value in the `TenderTransactionResponse` object. Discount information is contained in this object. Note that the number of discounts can be zero.
 
 
-3. The Toast platform applies the discounts and adds or updates the `appliedDiscounts`value of the `[Check](https://doc.toasttab.com/tenderapidraftdoc/apiTenderApiReference.html#/definitions/Check)`object.
+3. The Toast platform applies the discounts and adds or updates the `appliedDiscounts` value of the `[Check](https://doc.toasttab.com/tenderapidraftdoc/apiTenderApiReference.html#/definitions/Check)`object.
 
 
 
@@ -512,7 +512,7 @@ After an employee selects a guest from the search results on the Toast POS devic
 }
 ```
 
-The retrieved discounts `tenderDiscounts`can be check-level or item-level discounts.
+The retrieved discounts `tenderDiscounts` can be check-level or item-level discounts.
 
   
 ##### Retrieve payments
@@ -521,21 +521,21 @@ The Toast platform retrieves payments after applying the discounts received from
 
 **Procedure 10.13. Retrieve payments workflow**
 
-1. The Toast platform sends a `TENDER_RETRIEVE_PAYMENTS`request to the PMS provider. The request includes a `TenderTransaction`object that holds the guest identifier ( `tenderIdentifier`) and the updated `[Check](https://doc.toasttab.com/tenderapidraftdoc/apiTenderApiReference.html#/definitions/Check)`object in a `paymentsTransactionInformation`object.
+1. The Toast platform sends a `TENDER_RETRIEVE_PAYMENTS` request to the PMS provider. The request includes a `TenderTransaction` object that holds the guest identifier (`tenderIdentifier`) and the updated `[Check](https://doc.toasttab.com/tenderapidraftdoc/apiTenderApiReference.html#/definitions/Check)`object in a `paymentsTransactionInformation`object.
 
 
 
 > **Note**
 > 
-> When discounting item groups, item quantities cannot be greater than `1`in your discount response. Break up item groups into separate selections where item `quantity =
-              1`and specify the discount for each separate selection.
+> When discounting item groups, item quantities cannot be greater than `1` in your discount response. Break up item groups into separate selections where item `quantity =
+              1` and specify the discount for each separate selection.
 
 
 
-2. Your tender integration determines the payment and responds to the Toast platform with a `paymentsResponse`value in the `TenderTransactionResponse`object, which includes the payment information.
+2. Your tender integration determines the payment and responds to the Toast platform with a `paymentsResponse` value in the `TenderTransactionResponse` object, which includes the payment information.
 
 
-3. The Toast platform applies the payment and updates the `Check`object.
+3. The Toast platform applies the payment and updates the `Check` object.
 
 
 
@@ -820,10 +820,10 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 **Procedure 10.15. Gratuity workflow**
 
-1. After an employee enters a gratuity amount, the Toast POS system sends a `TENDER_GRATUITY`request that specifies a gratuity amount to add to a `TENDER_REDEEM`transaction. The `Toast-Transaction-GUID`of `TENDER_REDEEM`to add the gratuity amount is provided in the `transactionToUpdate`value in the body of the `TENDER_GRATUITY`request.
+1. After an employee enters a gratuity amount, the Toast POS system sends a `TENDER_GRATUITY` request that specifies a gratuity amount to add to a `TENDER_REDEEM`transaction. The `Toast-Transaction-GUID` of `TENDER_REDEEM` to add the gratuity amount is provided in the `transactionToUpdate` value in the body of the `TENDER_GRATUITY` request.
 
 
-2. The PMS provider responds to the Toast platform with a `gratuityResponse`value in the `TransactionResponseGratuity`object, which contains the value of gratuity that the guest added.
+2. The PMS provider responds to the Toast platform with a `gratuityResponse` value in the `TransactionResponseGratuity` object, which contains the value of gratuity that the guest added.
 
 
 
@@ -873,7 +873,7 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 (2) The unique order identifier.
 
-(3) A Checkobject that contains the order's complete transaction details.
+(3) A Check object that contains the order's complete transaction details.
 
   
 **Example 10.29. Successful gratuity response body**
@@ -912,13 +912,13 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 A transaction is reversed in the following situations:
 
-- If the restaurant employee voids the payment, the Toast POS system sends a `TENDER_REVERSE`request to the PMS provider to reverse the payment and any applied discounts.
+- If the restaurant employee voids the payment, the Toast POS system sends a `TENDER_REVERSE` request to the PMS provider to reverse the payment and any applied discounts.
 
 
-- If the restaurant employee voids the order, then the Toast POS system sends a `TENDER_REVERSE`request to the PMS provider.
+- If the restaurant employee voids the order, then the Toast POS system sends a `TENDER_REVERSE` request to the PMS provider.
 
 
-- If a discount times out during redemption, then the Toast POS system sends a `TENDER_REVERSE`request to the PMS provider.
+- If a discount times out during redemption, then the Toast POS system sends a `TENDER_REVERSE` request to the PMS provider.
 
 
 
@@ -931,7 +931,7 @@ Reverse requests can be one or more of the following:
 
 
 
-In the request body, the value of `transactionToUpdate`is the `Toast-Transaction-GUID`of the `TENDER_REDEEM`request. The `discountsToRemove`and `paymentsToRemove`contain the discounts and payment identifiers, respectively. The `orderGuid`is the order's unique Toast identifier.
+In the request body, the value of `transactionToUpdate` is the `Toast-Transaction-GUID` of the `TENDER_REDEEM`request. The `discountsToRemove` and `paymentsToRemove` contain the discounts and payment identifiers, respectively. The `orderGuid` is the order's unique Toast identifier.
 
 **Example 10.30. Reverse request body**
 
@@ -1005,7 +1005,7 @@ At the payment phase of the Toast platform order workflow:
 1. A guest chooses to pay a balance due by applying the balance to their room charge.
 
 
-2. An employee selects the Pay ($)button to navigate to the Payments screen.
+2. An employee selects the Pay ($) button to navigate to the Payments screen.
 
 ![A screenshot of the Pay button you use to access the Payments screen.](https://doc.toasttab.com/doc/media/tender_pos1.png)
 
@@ -1015,24 +1015,24 @@ At the payment phase of the Toast platform order workflow:
 ![A screenshot of the Other button on the Payments screen.](https://doc.toasttab.com/doc/media/tender_pos2.png)
 
 
-4. The Select Alternate Payment Typedialog appears and Hotel Room Chargeis listed as an option.
+4. The Select Alternate Payment Typedialog appears and Hotel Room Charge is listed as an option.
 
 
 
 > **Note**
 > 
-> The name of the payment option is configurable from the Toast Web at Payments> Other Payment Options.
+> The name of the payment option is configurable from the Toast Web at Payments > Other Payment Options.
 
 
 ![A screenshot of the Select Alternate Payment Type screen, showing the room charge option.](https://doc.toasttab.com/doc/media/tender_pos_pms1.png)
 
 
-5. After selecting room charge, a Lookup Hotel Guestdialog appears.
+5. After selecting room charge, a Lookup Hotel Guest dialog appears.
 
 ![A screenshot of the Lookup Hotel Guest screen.](https://doc.toasttab.com/doc/media/tender_pos_pms2.png)
 
 
-6. The restaurant employee enters information to look up a guest and selects Search. For example, they enter a room number in the Enter Room #field.
+6. The restaurant employee enters information to look up a guest and selects Search. For example, they enter a room number in the Enter Room # field.
 
 
 7. Once the search is complete, a list of search results appears on the Toast POS device.
@@ -1048,7 +1048,7 @@ If the restaurant employee chose to print a receipt, the Room Charge payment and
 
 #### Reporting
 
-You can view information about tender transactions in the Sales Summaryreport. This report can be accessed by navigating to Reports > Sales > Sales Summaryin Toast Web. Room charge tender payments appear in the Othersection of the Sales Summaryreport, as shown below, and in the Paymentstab. The payment Typeis shown as Otherfrom the Paymentstab.
+You can view information about tender transactions in the Sales Summary report. This report can be accessed by navigating to Reports > Sales > Sales Summary in Toast Web. Room charge tender payments appear in the Other section of the Sales Summary report, as shown below, and in the Payments tab. The payment Typeis shown as Other from the Payments tab.
 
 ![A screenshot of the Sales Summary report, showing hotel room charge transactions in the Other section.](https://doc.toasttab.com/doc/media/tender_reporting1_pms.png)
 

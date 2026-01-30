@@ -50,13 +50,13 @@ The following procedure explains how to calculate the expected deposit for one r
 
 **Procedure 8.1. Calculating the Expected Deposit for One Business Day**
 
-1. Get the list of payment GUIDs for the business day by sending a `GET`request to the `payments`endpoint of the orders API. Include the *`paidBusinessDate`*parameter to specify the business day.
+1. Get the list of payment GUIDs for the business day by sending a `GET` request to the `payments`endpoint of the orders API. Include the *`paidBusinessDate`* parameter to specify the business day.
 
 
-2. Get detailed information about each payment by sending a GET request to the `payments/*`{guid}`*`endpoint of the orders API.
+2. Get detailed information about each payment by sending a GET request to the `payments/*`{guid}`*` endpoint of the orders API.
 
 
-3. Calculate the sum of the `amount`values for each payment that has the `type``CASH`. The following example shows the `amount`and `type`values for a payment.
+3. Calculate the sum of the `amount` values for each payment that has the `type``CASH`. The following example shows the `amount` and `type` values for a payment.
 
 ```
 {
@@ -75,10 +75,10 @@ The following procedure explains how to calculate the expected deposit for one r
 ```
 
 
-4. Get detailed information about each cash entry for the business day by sending a `GET`request to the `entries`endpoint of the cash management API. Include the *`businessDate`*parameter to specify the business day. The `entries`endpoint returns a JSON array of `CashEntry`objects.
+4. Get detailed information about each cash entry for the business day by sending a `GET` request to the `entries` endpoint of the cash management API. Include the *`businessDate`* parameter to specify the business day. The `entries` endpoint returns a JSON array of `CashEntry` objects.
 
 
-5. Calculate the sum of the `amount`values for each cash entry that has any `type`value other than `CASH_COLLECTED`. Pay out, tip out, and cash out entries have negative amounts. The following example shows the `amount`and `type`values for a cash entry.
+5. Calculate the sum of the `amount` values for each cash entry that has any `type` value other than `CASH_COLLECTED`. Pay out, tip out, and cash out entries have negative amounts. The following example shows the `amount` and `type` values for a cash entry.
 
 ```
 [
@@ -101,7 +101,7 @@ The following procedure explains how to calculate the expected deposit for one r
 
 > **Note**
 > 
-> The only exception to omitting cash entries of `type``CASH_COLLECTED`is an undone `TIP_OUT`. When a restaurant employee undoes a `TIP_OUT`cash entry, the system posts a `CASH_COLLECTED`cash entry for the same amount and a `reason`value of `Undo Tip Out`. You should include undone tip outs in your calculations of your expected cash deposits.
+> The only exception to omitting cash entries of `type``CASH_COLLECTED` is an undone `TIP_OUT`. When a restaurant employee undoes a `TIP_OUT` cash entry, the system posts a `CASH_COLLECTED` cash entry for the same amount and a `reason` value of `Undo Tip Out`. You should include undone tip outs in your calculations of your expected cash deposits.
 
 
 
@@ -109,7 +109,7 @@ The following procedure explains how to calculate the expected deposit for one r
 
 
 
-The following example shell script calculates the expected cash deposit for one restaurant on one business day. The script uses the **jq**utility to get information from Toast API JSON response data. For more information about the **jq**utility, see the [jq web site](https://stedolan.github.io/jq/). This example script is intended as an illustration of the procedure for calculating expected deposits and is not suitable for production use.
+The following example shell script calculates the expected cash deposit for one restaurant on one business day. The script uses the **jq** utility to get information from Toast API JSON response data. For more information about the **jq**utility, see the [jq web site](https://stedolan.github.io/jq/). This example script is intended as an illustration of the procedure for calculating expected deposits and is not suitable for production use.
 
 **Example 8.5. Shell script to calculate the expected cash deposit for one business day**
 
@@ -233,13 +233,13 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
 
 
 
-(1) These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see Authentication and restaurant access .
+(1) These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see Authentication and restaurant access.
 
-(2) Send a GET request to the user management API to get an authentication token. For more information, see Authentication and restaurant access . Store the authentication token string in a script variable so that other example functions can use it.
+(2) Send a GET request to the user management API to get an authentication token. For more information, see Authentication and restaurant access. Store the authentication token string in a script variable so that other example functions can use it.
 
 (3) Send a GET request to the orders API to get a list of the GUIDs of each payment made during a business day. For each payment GUID, run another example shell script function to get detailed information about the payment.
 
-(4) Specify the business day of the payments in the paidBusinessDatequery parameter.
+(4) Specify the business day of the payments in the paidBusinessDate query parameter.
 
 (5) Count the number of payment GUIDs for the business day.
 
@@ -247,25 +247,25 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
 
 (7) Get one GUID from the list.
 
-(8) Run the example get_paymentfunction and pass the payment GUID as an argument.
+(8) Run the example get_payment function and pass the payment GUID as an argument.
 
 (9) Increment a counter variable to move on to the next payment GUID.
 
-(10) Send a GETrequest to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is CASH, add the payment amount to the total of cash payments for the business day.
+(10) Send a GET request to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is CASH, add the payment amount to the total of cash payments for the business day.
 
-(11) The get_paymentsfunction passes a payment GUID as an argument to this function.
+(11) The get_payments function passes a payment GUID as an argument to this function.
 
 (12) Get the type value for the payment.
 
-(13) Only include CASHpayments in the total. Exclude voided payments.
+(13) Only include CASH payments in the total. Exclude voided payments.
 
 (14) Get the currency amount of the payment.
 
 (15) Add the amount of the payment to the total amount of the cash payments for the business day.
 
-(16) Send a GETrequest to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the typevalue CASH_COLLECTED.
+(16) Send a GET request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the typevalue CASH_COLLECTED.
 
-(17) Specify the business day of the cash entries in the businessDatequery parameter.
+(17) Specify the business day of the cash entries in the businessDate query parameter.
 
 (18) Get a list of the amounts of the entries that do not have the typeCASH_COLLECTED.
 

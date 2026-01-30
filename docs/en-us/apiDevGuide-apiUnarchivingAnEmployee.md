@@ -19,9 +19,9 @@ codeExamples: 0
 
 To unarchive an employee, send a `PUT`request to the `/labor/v1/employees/{employeeGuid}/unarchive`endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
 
-When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the jobs assignedto them before they were archived.
+When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the jobs assigned to them before they were archived.
 
-If an employee had a swipe card for signing into the Toast POS, the swipe card *is not*re-associated with the employee when you unarchive them.
+If an employee had a swipe card for signing into the Toast POS, the swipe card *is not* re-associated with the employee when you unarchive them.
 
 
 
@@ -32,7 +32,7 @@ If an employee had a swipe card for signing into the Toast POS, the swipe card *
 
 #### Example request to unarchive an employee
 
-The following example **curl**command sends a `PUT`request to unarchive an employee.
+The following example **curl** command sends a `PUT` request to unarchive an employee.
 
 **Example 7.16. Example request to unarchive an employee**
 
@@ -61,7 +61,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
   
 #### Example response
 
-The following example shows the response for a `PUT`request to unarchive an employee.
+The following example shows the response for a `PUT` request to unarchive an employee.
 
 **Example 7.17. Example response from a request to unarchive an employee**
 
@@ -91,6 +91,6 @@ The following example shows the response for a `PUT`request to unarchive an empl
 
 (1) When you unarchive an employee, the deletedvalue is set to false.
 
-(2) When you unarchive an employee, the deletedDatevalue is set to null.
+(2) When you unarchive an employee, the deletedDate value is set to null.
 
   

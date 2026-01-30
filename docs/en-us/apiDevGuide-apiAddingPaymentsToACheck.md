@@ -21,16 +21,16 @@ codeExamples: 0
 
 > **Important**
 > 
-> To use the `/orders`endpoint to add payments, you need access to the `orders.payments:write`scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiScopes.html).
+> To use the `/orders` endpoint to add payments, you need access to the `orders.payments:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiScopes.html).
 
 
 You can use the orders API to add authorized credit card payments to a check in an existing order.
 
 #### How to add the payments to the check
 
-To add payments to an existing check, you send a `POST`request to the `/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment`objects. The `type`value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
+To add payments to an existing check, you send a `POST`request to the `/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment` objects. The `type` value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
 
-For more information, see [Post payments](https://doc.toasttab.com/openapi/orders/operation/ordersChecksPaymentsPost/)in the Toast API reference.
+For more information, see [Post payments](https://doc.toasttab.com/openapi/orders/operation/ordersChecksPaymentsPost/) in the Toast API reference.
 
 **Procedure 2.6. To add payments to a check in an existing order**
 
@@ -42,16 +42,16 @@ For more information, see [Post payments](https://doc.toasttab.com/openapi/order
 When you add payments to the check, you include the UUIDs of the authorized credit card payments.
 
 
-3. Create an array of JSON `Payment`objects that contain information about the payments you are adding. For each payment, you use the UUID as the value of `guid`.
+3. Create an array of JSON `Payment` objects that contain information about the payments you are adding. For each payment, you use the UUID as the value of `guid`.
 
-For information about the `Payment`object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/). For an example, see [Example array of Payment objects to add payments to an existing check](apiAddingPaymentsToACheck.html#apiExamplePaymentObjectForAddingAPayment).
+For information about the `Payment` object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/). For an example, see [Example array of Payment objects to add payments to an existing check](apiAddingPaymentsToACheck.html#apiExamplePaymentObjectForAddingAPayment).
 
 
-4. Send a `POST`request to the `/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/payments`endpoint of the orders API.
+4. Send a `POST` request to the `/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/payments`endpoint of the orders API.
 
 In the REST request path parameters, include the Toast platform GUID of the order and the check.
 
-In the request message body, include the array of `Payment`objects that contains information about the payments to add.
+In the request message body, include the array of `Payment` objects that contains information about the payments to add.
 
 
 5. Examine the response data that you receive from the orders API. Verify that your request is processed successfully. For an example, see [Example response data when adding a payment to an existing check](apiDevGuide-apiAddingPaymentsToACheck.html#apiExampleResponseDataWhenAddingAPayment).
@@ -60,7 +60,7 @@ In the request message body, include the array of `Payment`objects that contains
 
 #### Example array of Payment objects to add payments to an existing check
 
-The following example shows an array of `Payment`objects to add payments to a check in an existing order.
+The following example shows an array of `Payment` objects to add payments to a check in an existing order.
 
 ```
 [
@@ -81,7 +81,7 @@ The following example shows an array of `Payment`objects to add payments to a ch
 
 
 
-(1) The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see Credit card payments .
+(1) The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see Credit card payments.
 
 (2) The /orders/{orderGuid}/checks/{checkGuid}/paymentsendpoint only supports adding credit card payments. This value must be CREDIT.
 
@@ -93,7 +93,7 @@ The following example shows an array of `Payment`objects to add payments to a ch
 
 #### Example response data when adding a payment to an existing check
 
-The following example shows example response data for a `POST`request to the `/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/payments`endpoint of the orders API.
+The following example shows example response data for a `POST` request to the `/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/payments`endpoint of the orders API.
 
 ```
 {
@@ -158,7 +158,7 @@ The following example shows example response data for a `POST`request to the `/o
 
 (2) The Toast platform GUID of the check that you added payments to.
 
-(3) The paymentsvalue in a check includes an array of Paymentobjects for the payments that are applied to the check. These payments include the payments that you added.
+(3) The payments value in a check includes an array of Payment objects for the payments that are applied to the check. These payments include the payments that you added.
 
 (4) The Toast platform GUID of a payment that you added.
 

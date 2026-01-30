@@ -18,9 +18,9 @@ codeExamples: 2
 
 ### Getting information about a specific payment
 
-Send a `GET`request to the `/payments/*`{guid}`*`endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment`object that contains information about the payment. For information about the values of the `Payment`object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
+Send a `GET` request to the `/payments/*`{guid}`*` endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment` object that contains information about the payment. For information about the values of the `Payment` object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
 
-The following example **curl**command sends a `GET`request to the `/payments/*`{guid}`*`endpoint for a specific payment.
+The following example **curl** command sends a `GET` request to the `/payments/*`{guid}`*` endpoint for a specific payment.
 
 **Example 3.3. Get information of a specific payment**
 
@@ -44,9 +44,9 @@ curl -X GET \ -H "Authorization: Bearer
 
 
 
-(1) Use the Toast-Restaurant-External-IDrequest parameter to specify the GUID of the restaurant in which the payment was made.
+(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant in which the payment was made.
 
-(2) Specify the payment GUID, which you can get from the /paymentsendpoint of the orders API.
+(2) Specify the payment GUID, which you can get from the /payments endpoint of the orders API.
 
   
 The following example shows the JSON response data for a GET request to the `/payments/*`{guid}`*`endpoint. The payment method for this sample payment was a credit card.
@@ -89,27 +89,27 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
 
-(1) The guidvalue contains the unique Toast POS identifier of the payment.
+(1) The guid value contains the unique Toast POS identifier of the payment.
 
 (2) The amount of the payment, including taxes and service charges but excluding tips.
 
 (3) The amount tipped on this payment.
 
-(4) If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is nullif a house account was not used for payment.
+(4) If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is null if a house account was not used for payment.
 
-(5) The payment method, such as CREDITfor a credit card.
+(5) The payment method, such as CREDIT for a credit card.
 
-(6) If the payment was voided, this value contains a VoidInformationobject with information about the void. For details, see Voided payments . The value is nullif the payment has not been voided.
+(6) If the payment was voided, this value contains a VoidInformation object with information about the void. For details, see Voided payments. The value is null if the payment has not been voided.
 
-(7) Reference information (such as the GUID) of an other payment option used to pay the check. The value is nullif an other payment option was not used for payment.
+(7) Reference information (such as the GUID) of an other payment option used to pay the check. The value is null if an other payment option was not used for payment.
 
 (8) The date and time when the payment was made.
 
-(9) For credit card payments, specifies how the credit card data was obtained. The value is nullif a credit card was not used for payment.
+(9) For credit card payments, specifies how the credit card data was obtained. The value is null if a credit card was not used for payment.
 
 (10) The status of the payment. In this example, the payment has been captured.
 
-(11) If the payment has been refunded, this value contains a Refundobject with information about the refund. For details, see Refunded payments . The value is nullif the payment has not been refunded.
+(11) If the payment has been refunded, this value contains a Refund object with information about the refund. For details, see Refunded payments. The value is nullif the payment has not been refunded.
 
   
 The following sections provide information about voided and refunded payments.
@@ -127,7 +127,7 @@ The `/payments/*`{guid}`*`endpoint can return data for voided payments. A void i
 
 With one exception, any payment can be voided. The exception is a credit card payment that has been captured (the payment cannot be voided but can be refunded).
 
-In the return data for a voided payment, the `Payment`object includes a `VoidInformation`object that contains details of the void operation.
+In the return data for a voided payment, the `Payment` object includes a `VoidInformation`object that contains details of the void operation.
 
 The following example shows the JSON response data for a voided cash payment.
 
@@ -185,9 +185,9 @@ The following example shows the JSON response data for a voided cash payment.
 
 
 
-(1) The VoidInformationobject with details of the void.
+(1) The VoidInformation object with details of the void.
 
-(2) The restaurant employee who voided the check or the item. The guidvalue lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see Getting all employees of a restaurant .
+(2) The restaurant employee who voided the check or the item. The guid value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see Getting all employees of a restaurant.
 
 (3) The restaurant employee who approved the void. The employee approving the void may be the same person who voided the payment.
 
@@ -195,18 +195,18 @@ The following example shows the JSON response data for a voided cash payment.
 
 (5) The business date when the payment was voided.
 
-(6) The pre-configured void reason that was specified for the void. The value is nullif a void reason was not specified.
+(6) The pre-configured void reason that was specified for the void. The value is null if a void reason was not specified.
 
 (7) The date and time when the original (pre-void) payment was made.
 
-(8) The current status of the payment, which is VOIDEDfor voided payments.
+(8) The current status of the payment, which is VOIDED for voided payments.
 
   
 #### Refunded payments
 
 The `/payments/*`{guid}`*`endpoint can return data for refunded payments. A refund is a credit card payment that has been fully reversed after it was captured. Refunds cannot be issued on specific items, but instead can only be issued on the entire check.
 
-In the return data for a refunded payment, the `Payment`object includes a `Refund`object with details of the refund operation.
+In the return data for a refunded payment, the `Payment` object includes a `Refund` object with details of the refund operation.
 
 The following example shows the JSON response data for a refunded credit card payment.
 
@@ -251,11 +251,11 @@ The following example shows the JSON response data for a refunded credit card pa
 
 
 
-(1) The status of the refund. A FULLstatus means that a full refund was made on this payment.
+(1) The status of the refund. A FULL status means that a full refund was made on this payment.
 
 (2) The date and time when the original (pre-refund) payment was made.
 
-(3) The Refundobject with details of the refund.
+(3) The Refund object with details of the refund.
 
 (4) The amount of the refund, excluding the tip.
 

@@ -20,10 +20,10 @@ Menu reporting data includes detailed information about menu entities as they re
 
 Retrieving the menu reporting data is a two-step process. You must:
 
-1. Send a `POST`request to the `/era/v1/menu`or `/era/v1/menu/{timeRange}`endpoint to create a request for menu reporting data for the restaurants in a management group. The response includes the `reportRequestGuid`, the unique request identifier. These endpoints are for either a custom time range ( `/era/v1/menu`), which can include a time range for any number or days, or a specific time range ( `/era/v1/menu/{timeRange}`), which allows for a maximum number of days depending on the specific time range value chosen. For more information, see [Creating a request for menu reporting data](apiAnalyticsMenuReportingDataCreateRequest.html).
+1. Send a `POST` request to the `/era/v1/menu` or `/era/v1/menu/{timeRange}`endpoint to create a request for menu reporting data for the restaurants in a management group. The response includes the `reportRequestGuid`, the unique request identifier. These endpoints are for either a custom time range (`/era/v1/menu`), which can include a time range for any number or days, or a specific time range (`/era/v1/menu/{timeRange}`), which allows for a maximum number of days depending on the specific time range value chosen. For more information, see [Creating a request for menu reporting data](apiAnalyticsMenuReportingDataCreateRequest.html).
 
 
-2. Send a `GET`request to the `/era/v1/menu/{requestReportGuid}`endpoint to retrieve the menu reporting data. For more information, see [Retrieving the menu reporting data](apiAnalyticsMenuReportingDataRetrieveData.html).
+2. Send a `GET` request to the `/era/v1/menu/{requestReportGuid}` endpoint to retrieve the menu reporting data. For more information, see [Retrieving the menu reporting data](apiAnalyticsMenuReportingDataRetrieveData.html).
 
 
 
@@ -31,6 +31,6 @@ Retrieving the menu reporting data is a two-step process. You must:
 
 > **Note**
 > 
-> The `reportRequestGuid`expires seven days after you create it. Using an expired or invalid `reportRequestGuid`results in a 404 error. The `message`of the response body contains additional information about the cause of the error.
+> The `reportRequestGuid` expires seven days after you create it. Using an expired or invalid `reportRequestGuid`results in a 404 error. The `message` of the response body contains additional information about the cause of the error.
 
 

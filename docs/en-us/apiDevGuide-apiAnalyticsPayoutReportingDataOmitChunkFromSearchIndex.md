@@ -18,13 +18,13 @@ codeExamples: 0
 
 Payout reporting data includes a detailed look at the deposits from credit card payments. Three endpoints can be used to analyze the payout data:
 
-- The `/era/v1/payout`endpoint to analyze payout data by the date the payout was made. For more information, see [Payout reporting data by settled date](apiAnalyticsPayoutBySettledDateReportingData.html).
+- The `/era/v1/payout` endpoint to analyze payout data by the date the payout was made. For more information, see [Payout reporting data by settled date](apiAnalyticsPayoutBySettledDateReportingData.html).
 
 
-- The `/era/v1/payout/payments`endpoint to analyze payout data by each payment. For more information, see [Payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html).
+- The `/era/v1/payout/payments` endpoint to analyze payout data by each payment. For more information, see [Payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html).
 
 
-- The `/era/v1/payout/sales-date`endpoint to analyze payout data by the date the sale was made. For more information, see [Payout reporting data by sales date](apiAnalyticsPayoutBySalesDateReportingData.html).
+- The `/era/v1/payout/sales-date` endpoint to analyze payout data by the date the sale was made. For more information, see [Payout reporting data by sales date](apiAnalyticsPayoutBySalesDateReportingData.html).
 
 
 

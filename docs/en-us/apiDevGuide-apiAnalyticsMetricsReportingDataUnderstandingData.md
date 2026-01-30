@@ -26,7 +26,7 @@ The following table specifies the returned set of values in the aggregated sales
 | Value name | Definition | 
 | --- | --- |
 | `restaurantGuid` | The unique identifier assigned to the restaurant by the Toast platform. | 
-| `businessDate` | The calendar date of the associated order data, in `YYYYMMDD`format. | 
+| `businessDate` | The calendar date of the associated order data, in `YYYYMMDD` format. | 
 | `guestCount` | The total number of guests recorded across all orders. | 
 | `voidOrdersCount` | The total number of orders with at least one voided item. | 
 | `discountOrderCount` | The total number of orders that used a discount. | 
@@ -39,12 +39,12 @@ The following table specifies the returned set of values in the aggregated sales
 | `voidOrdersAmount` | The total amount of voided orders. | 
 | `refundAmount` | The total amount of refunded sales. | 
 | `avgOrderValue` | The average amount for an order. | 
-| `revenueCenter` | The revenue center for the order data. This appears when the `POST`request message body includes `groupBy`with `REVENUE_CENTER`. For more information, see [Using the `groupBy`value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy). | 
-| `diningOption` | The dining option for the order data. This appears when the `POST`request message body includes `groupBy`with `DINING_OPTION`. For more information, see [Using the `groupBy`value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy). | 
-| `orderSource` | The method used to place an order, also known as the order source. This appears when the `POST`request message body includes `groupBy`with `ORDER_SOURCE`. For more information, see [Using the `groupBy`value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy). | 
-| `businessHour` | The hour the data represents. This appears when the `aggregateBy`query parameter is set to `HOUR`in the `/era/v1/metrics/day`request. For more information, see [Using the `aggregateBy`query parameter](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataAggregateBy). | 
+| `revenueCenter` | The revenue center for the order data. This appears when the `POST` request message body includes `groupBy` with `REVENUE_CENTER`. For more information, see [Using the `groupBy` value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy). | 
+| `diningOption` | The dining option for the order data. This appears when the `POST` request message body includes `groupBy` with `DINING_OPTION`. For more information, see [Using the `groupBy` value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy). | 
+| `orderSource` | The method used to place an order, also known as the order source. This appears when the `POST` request message body includes `groupBy` with `ORDER_SOURCE`. For more information, see [Using the `groupBy` value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy). | 
+| `businessHour` | The hour the data represents. This appears when the `aggregateBy` query parameter is set to `HOUR` in the `/era/v1/metrics/day`request. For more information, see [Using the `aggregateBy` query parameter](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataAggregateBy). | 
 | `hourlyJobTotalHours` | The total hours worked by employees with hourly jobs. This does not include breaks. | 
 | `hourlyJobTotalPay` | The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips. | 
-| `hourlyJobSalesPerLaborHour` | The average net sales per each hour worked by employees with hourly jobs. | 
-| `restaurantName` | The restaurant’s name. This is included when you set the `fetchRestaurantNames`parameter to `true`in the `GET`request. | 
+| `hourlyJobSalesPerLaborHour` | The average net sales per each hour worked by employees with hourly jobs.  | 
+| `restaurantName` | The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET`request. | 
 

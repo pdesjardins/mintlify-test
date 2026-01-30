@@ -22,7 +22,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> Required scope. To read packaging preferences, you need the `packaging:read`scope. For more information about scopes, see [Scopes](apiScopes.html).
+> Required scope. To read packaging preferences, you need the `packaging:read` scope. For more information about scopes, see [Scopes](apiScopes.html).
 
 
 Packaging preferences indicate how a guest would like their order packaged. Preferences could be adding items like utensils, napkins, or straws to include with their takeout or delivery order. Restaurants choose the packaging options that they offer to guests using configuration options in Toast Web.
@@ -59,16 +59,16 @@ The following procedure describes how to retrieve packaging preference informati
 
 **Procedure 2.3. Send a request to retrieve packaging preferences**
 
-1. Send a `GET`request to the `published/packagingConfig`endpoint of the packaging configuration API. A successful response returns packaging preference configuration GUIDs. The package preference configuration GUIDs are found in the `id`field of the response.
+1. Send a `GET` request to the `published/packagingConfig` endpoint of the packaging configuration API. A successful response returns packaging preference configuration GUIDs. The package preference configuration GUIDs are found in the `id` field of the response.
 
-See the response data from the `published/packagingConfig`endpoint for a restaurant with multiple packaging preferences configured in [Example 2.2, “Example response data from the `published/packagingConfig`endpoint”](apiOrdersPackagingPreferences.html#apiExamplePackagingConfigResponseData).
-
-
-2. Get the identifier GUIDs for each packaging option from the `id`value to use when you create an order.
+See the response data from the `published/packagingConfig` endpoint for a restaurant with multiple packaging preferences configured in [Example 2.2, “Example response data from the `published/packagingConfig` endpoint”](apiOrdersPackagingPreferences.html#apiExamplePackagingConfigResponseData).
 
 
+2. Get the identifier GUIDs for each packaging option from the `id` value to use when you create an order.
 
-Some local regulations require third-party ordering platforms to clearly state that a restaurant does not offer single-use utensils if a restaurant does not indicate packaging preferences in the online ordering experience. Due to such regulations, if a restaurant chooses not to make single-use foodware available through their online ordering menu, the `enabled`field is set to `true`but the items array is empty. This configuration indicates that the restaurant has chosen not to make single-use foodware accessories available on their online menu.
+
+
+Some local regulations require third-party ordering platforms to clearly state that a restaurant does not offer single-use utensils if a restaurant does not indicate packaging preferences in the online ordering experience. Due to such regulations, if a restaurant chooses not to make single-use foodware available through their online ordering menu, the `enabled` field is set to `true` but the items array is empty. This configuration indicates that the restaurant has chosen not to make single-use foodware accessories available on their online menu.
 
 
 
@@ -77,7 +77,7 @@ Some local regulations require third-party ordering platforms to clearly state t
 > Compliance with all packaging-related regulations and laws is solely the restaurant's responsibility. The information provided is for informational purposes only and should not be relied upon or used as a substitute for consultation with a legal advisor. Please consult a professional advisor for a qualified opinion on the applicability of requirements to your business operations.
 
 
-**Example 2.2. Example response data from the `published/packagingConfig`endpoint**
+**Example 2.2. Example response data from the `published/packagingConfig` endpoint**
 
 ```
 {
@@ -109,41 +109,41 @@ Some local regulations require third-party ordering platforms to clearly state t
 
 
 
-(1) The enabledvalue indicates whether the restaurant is currently using the packaging preferences in this object. If TRUE, you display the packaging options to guests in your ordering interface. If FALSE, do not display the options.
+(1) The enabled value indicates whether the restaurant is currently using the packaging preferences in this object. If TRUE, you display the packaging options to guests in your ordering interface. If FALSE, do not display the options.
 
-(2) The idvalue holds the packaging preference GUID needed when submitting your order POSTrequest. Multiple packaging preferences can be mapped to a single id.
+(2) The id value holds the packaging preference GUID needed when submitting your order POST request. Multiple packaging preferences can be mapped to a single id.
 
-(3) The guestDisplayNamevalue is the packaging preferences question that the restaurant intends to show to a guest in your ordering interface. This value should display different packaging preference types appropriately and is defined by your restaurant team.
+(3) The guestDisplayName value is the packaging preferences question that the restaurant intends to show to a guest in your ordering interface. This value should display different packaging preference types appropriately and is defined by your restaurant team.
 
-(4) The guestInclusionTypevalue defines how the guest should interact with the packaging preference. Possible options are OPT_INand OPT_OUT. OPT_INmeans that a guest will have to complete an action to include packaging preferences such as selecting a checkbox. OPT_OUTmeans that a guest has complete an action to opt out of packaging such as de-selecting a checkbox.
+(4) The guestInclusionType value defines how the guest should interact with the packaging preference. Possible options are OPT_IN and OPT_OUT. OPT_IN means that a guest will have to complete an action to include packaging preferences such as selecting a checkbox. OPT_OUT means that a guest has complete an action to opt out of packaging such as de-selecting a checkbox.
 
-(5) Use the guestDescriptionvalue to further describe the packaging option, in addition to the guestDisplayName.
+(5) Use the guestDescription value to further describe the packaging option, in addition to the guestDisplayName.
 
-(6) The guestMessagevalue includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.
+(6) The guestMessage value includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.
 
   
 ##### Creating an order with packaging preferences
 
-After you retrieve the packaging preference configuration information for a restaurant and get a guest's packaging preferences in your ordering interface, you submit the order using the orders API. To submit an order with packaging preferences, you use the `AppliedPackagingInfo`and `AppliedPackagingItems`objects. For information about these objects, see [the orders API reference documentation.](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/AppliedPackagingInfo/)
+After you retrieve the packaging preference configuration information for a restaurant and get a guest's packaging preferences in your ordering interface, you submit the order using the orders API. To submit an order with packaging preferences, you use the `AppliedPackagingInfo` and `AppliedPackagingItems`objects. For information about these objects, see [the orders API reference documentation.](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/AppliedPackagingInfo/)
 
 
 
 > **Note**
 > 
-> The `AppliedPackagingInfo`object is optional. Orders that are submitted without this object are still accepted by the orders API.
+> The `AppliedPackagingInfo` object is optional. Orders that are submitted without this object are still accepted by the orders API.
 
 
 The procedure below describes how to apply packaging preferences to an order. For more information about the orders API, see the [orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview).
 
 **Procedure 2.4. To apply packaging preferences to an order**
 
-1. Add the `AppliedPackagingInfo`object to your order. The `AppliedPackagingInfo`object contains the `AppliedPackagingItems`object. The `AppliedPackagingItems`object contains the `itemConfigId`value and this is where you add the packaging preferences GUIDs.
+1. Add the `AppliedPackagingInfo` object to your order. The `AppliedPackagingInfo` object contains the `AppliedPackagingItems` object. The `AppliedPackagingItems` object contains the `itemConfigId` value and this is where you add the packaging preferences GUIDs.
 
 
-2. Add the packaging preferences GUIDs to the `itemConfigID`value in the `AppliedPackagingItems`object.
+2. Add the packaging preferences GUIDs to the `itemConfigID` value in the `AppliedPackagingItems` object.
 
 
-3. Send a `POST`request to the `/orders/v2/orders/`endpoint.
+3. Send a `POST` request to the `/orders/v2/orders/` endpoint.
 
 
 
@@ -175,9 +175,9 @@ The examples below show an order request and response that includes multiple pac
 
 
 
-(1) The identifier GUID of the packaging preference option. You get the identifiers for a restaurant's packaging options from the packaging configuration API. For more information, see Getting packaging preference configuration options .
+(1) The identifier GUID of the packaging preference option. You get the identifiers for a restaurant's packaging options from the packaging configuration API. For more information, see Getting packaging preference configuration options.
 
-(2) The packaging preference choice that the guest selected in your ordering interface. The value YESindicates that the guest wants the restaurant to include the packaging option for the order.
+(2) The packaging preference choice that the guest selected in your ordering interface. The value YES indicates that the guest wants the restaurant to include the packaging option for the order.
 
   
 The example below shows the response data for a request to create an order that includes packaging preferences.

@@ -19,19 +19,19 @@ codeExamples: 0
 
 The partners webhook and partners API both provide information about the restaurants you can access. With the partners webhook, the Toast platform pushes updates to your system when a restaurant adds your integration, removes your integration, or edits your integration's settings in the Toast platform. This is the preferred method for getting information about the restaurants you can access.
 
-If you need to retrieve information about the restaurants you can access independently of an event that triggers a webhook update, you can use the `/restaurants`endpoint of the partners API.
+If you need to retrieve information about the restaurants you can access independently of an event that triggers a webhook update, you can use the `/restaurants` endpoint of the partners API.
 
 The payload returned by both the partners webhook and the partners API includes location and group identifiers. You can use these identifiers to map restaurants in your system to Toast's restaurants and GUIDs. For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs).
 
-This information only applies if you use a [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts). Integrations that use [restaurant management group API accounts](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant)cannot use the partners webhook or partners API.
+This information only applies if you use a [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts). Integrations that use [restaurant management group API accounts](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant) cannot use the partners webhook or partners API.
 
 #### Getting the restaurants you can access
 
-Restaurant employees who have the Account Admin > Manage Integrationsaccess permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrationsaccess permission can also remove previously connected integrations from the My Integrationspage in Toast Web. For more information about restaurant employee access permissions, see [adminGuide#adminPermissions].
+Restaurant employees who have the Account Admin > Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [adminGuide#adminPermissions].
 
 When a restaurant employee selects your partner integration and gives you access to integrate with that restaurant:
 
-- Information about the restaurant is added to the JSON array that you get from the `/restaurants`endpoint of the partners API.
+- Information about the restaurant is added to the JSON array that you get from the `/restaurants` endpoint of the partners API.
 
 
 - A webhook update is sent to your webhook endpoint, if you have one configured.
@@ -41,7 +41,7 @@ When a restaurant employee selects your partner integration and gives you access
 
 
 
-When a restaurant adds your integration in Toast Partner Integrations, the Toast platform does not directly connect the restaurant to *your customer*account for that restaurant. This action authorizes and grants your partner API account access to the restaurant's data via API. As an integration partner, you are responsible for mapping your own customer accounts to Toast location GUIDs.
+When a restaurant adds your integration in Toast Partner Integrations, the Toast platform does not directly connect the restaurant to *your customer* account for that restaurant. This action authorizes and grants your partner API account access to the restaurant's data via API. As an integration partner, you are responsible for mapping your own customer accounts to Toast location GUIDs.
 
 For more information about how restaurant employees select integration partners and enable integration access, see [adminGuide#adminRestaurantServiceIntegrationsAndToastPartnerIntegrations].
 
@@ -57,15 +57,15 @@ For detailed information on the specific updates provided by the partners webhoo
 
 ##### Using the partners API to get restaurant information
 
-To get information about the Toast platform restaurants that your partner API client account can access, you can use the `/restaurants`or `/connectedRestaurants`endpoint of the Toast partners API.
+To get information about the Toast platform restaurants that your partner API client account can access, you can use the `/restaurants` or `/connectedRestaurants` endpoint of the Toast partners API.
 
-Only partner API accounts can use the `/restaurants`and `/connectedRestaurants`endpoint. If you have a restaurant management group API account, you can use the restaurants API to get information about the restaurants in your group. For more information about account types, see [Toast API accounts](apiClientAccounts.html). For more information about the restaurants API, see the [restaurants API reference documentation](https://doc.toasttab.com/openapi/restaurants/overview/).
+Only partner API accounts can use the `/restaurants`and `/connectedRestaurants` endpoint. If you have a restaurant management group API account, you can use the restaurants API to get information about the restaurants in your group. For more information about account types, see [Toast API accounts](apiClientAccounts.html). For more information about the restaurants API, see the [restaurants API reference documentation](https://doc.toasttab.com/openapi/restaurants/overview/).
 
-The `/restaurants`endpoint returns an array of JSON objects containing information about each restaurant that you have access to. For more information, see the [partners API reference documentation](https://doc.toasttab.com/openapi/partners/overview/).
+The `/restaurants` endpoint returns an array of JSON objects containing information about each restaurant that you have access to. For more information, see the [partners API reference documentation](https://doc.toasttab.com/openapi/partners/overview/).
 
-The `/connectedRestaurants`endpoint returns the same array of restaurant JSON objects as the `/restaurants`endpoint. Using the `/connectedRestaurants`endpoint allows you to navigate the response easier, especially if you are connected to many restaurants.
+The `/connectedRestaurants` endpoint returns the same array of restaurant JSON objects as the `/restaurants`endpoint. Using the `/connectedRestaurants` endpoint allows you to navigate the response easier, especially if you are connected to many restaurants.
 
-The `/connectedRestaurants`endpoint uses pagination and allows for additional query parameters. Each response page is also tokenized using page tokens should you need to refer back to a specific data snapshot. For more information on pagination see [Paginating response data](apiResponseDataPagination.html). For more information on using the `/connectedRestaurants`endpoint see [Get connected restaurants](https://doc.toasttab.com/openapi/partners/operation/connectedRestaurantsGet/).
+The `/connectedRestaurants` endpoint uses pagination and allows for additional query parameters. Each response page is also tokenized using page tokens should you need to refer back to a specific data snapshot. For more information on pagination see [Paginating response data](apiResponseDataPagination.html). For more information on using the `/connectedRestaurants`endpoint see [Get connected restaurants](https://doc.toasttab.com/openapi/partners/operation/connectedRestaurantsGet/).
 
 
 
@@ -75,11 +75,11 @@ The `/connectedRestaurants`endpoint uses pagination and allows for additional qu
 > For other Toast APIs, such as the orders API or the labor API, it can take up to 15 minutes from the time a restaurant employee gives your integration access before they update their access lists and allow your integration to perform operations at a restaurant. Please note that in some cases, even after the typical 15-minute delay, the Toast platform may require additional time before the newly-connected restaurants become available.
 
 
-If a restaurant removes a partner's integration, this restaurant is no longer present in the `/restaurants`or `/connectedRestaurants`endpoint return data. Consider restaurant additions and removals when you review the results of this endpoint.
+If a restaurant removes a partner's integration, this restaurant is no longer present in the `/restaurants` or `/connectedRestaurants` endpoint return data. Consider restaurant additions and removals when you review the results of this endpoint.
 
 ###### How to make a request to /restaurants
 
-Send a `GET`request to the `/restaurants`endpoint of the Toast partners API.
+Send a `GET` request to the `/restaurants`endpoint of the Toast partners API.
 
 ```
 https://*`[toast-api-hostname]`*/partners/v1/restaurants
@@ -89,7 +89,7 @@ https://*`[toast-api-hostname]`*/partners/v1/restaurants
 
 > **Note**
 > 
-> The `/restaurants`endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](apiRateLimiting.html).
+> The `/restaurants` endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](apiRateLimiting.html).
 
 
 **Procedure 1.1. To get information about the restaurants you have access to**
@@ -97,32 +97,32 @@ https://*`[toast-api-hostname]`*/partners/v1/restaurants
 1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
 
 
-2. Send a `GET`request to the `/restaurants`endpoint of the partners API.
+2. Send a `GET` request to the `/restaurants` endpoint of the partners API.
 
-Optionally, include the `lastModified`parameter to limit the return data to restaurants created or modified after a specific date and time. The date and time must be a UTC timestamp in ISO 8601 format, for example: `2020-03-01T00:00:00.000-0000`.
+Optionally, include the `lastModified` parameter to limit the return data to restaurants created or modified after a specific date and time. The date and time must be a UTC timestamp in ISO 8601 format, for example: `2020-03-01T00:00:00.000-0000`.
 
 You must URL encode the timestamp before sending it in a request. For example, `2020-03-01T00%3A00%3A00.000%2B0000`.
 
 
 3. Review the information about each restaurant that you have access to in the JSON data that the `/restaurants`endpoint returns.
 
-The GUID for a restaurant is in the `restaurantGuid`value of the return data. The GUID is a unique identifier. You use the Toast platform GUID for a restaurant when you make Toast API requests for that restaurant.
+The GUID for a restaurant is in the `restaurantGuid` value of the return data. The GUID is a unique identifier. You use the Toast platform GUID for a restaurant when you make Toast API requests for that restaurant.
 
 
 
 ###### Information in the /restaurants return data
 
-For each restaurant, the `/restaurants`endpoint the JSON response contains the following values:
+For each restaurant, the `/restaurants` endpoint the JSON response contains the following values:
 
 | Value | Description | 
 | --- | --- |
 | `restaurantGuid` | The unique Toast platform identifier for the restaurant. | 
 | `managementGroupGuid` | The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group.If a restaurant location does not belong to a restaurant management group, then the management group GUID is null. | 
 | `restaurantName` | The human-readable name of the restaurant location. | 
-| `locationName` | The identifier of a specific restaurant location, set on the Restaurant Infoscreen of the Toast Web.For example, a restaurant group might assign a location code such as `#1234`to a specific location. | 
+| `locationName` | The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.For example, a restaurant group might assign a location code such as `#1234` to a specific location. | 
 | `createdByEmailAddress` | The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details. | 
-| `externalGroupRef` | An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants`endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs). | 
-| `externalRestaurantRef` | An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants`endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs). | 
+| `externalGroupRef` | An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs). | 
+| `externalRestaurantRef` | An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs). | 
 | `isoCreatedDate` | The date and time that the partner connection was created, expressed in ISO 8601 format. | 
 | `isoModifiedDate` | The most recent date and time that the partner connection was edited, expressed in ISO 8601 format. | 
 | `createdDate` | The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC. | 
@@ -130,7 +130,7 @@ For each restaurant, the `/restaurants`endpoint the JSON response contains the f
 
 ###### Example /restaurants response
 
-The following example shows the response data from the `/restaurants`endpoint of the partners API.
+The following example shows the response data from the `/restaurants` endpoint of the partners API.
 
 **Example 1.1. Response data from the /restaurants endpoint**
 
@@ -181,7 +181,7 @@ The following example shows the response data from the `/restaurants`endpoint of
   
 ###### How to make a request to /connectedRestaurants
 
-Send a `GET`request to the `/connectedRestaurants`endpoint of the Toast partners API.
+Send a `GET` request to the `/connectedRestaurants` endpoint of the Toast partners API.
 
 ```
 https://*`{toast-api-hostname}`*/partners/v1/connectedRestaurants
@@ -191,7 +191,7 @@ https://*`{toast-api-hostname}`*/partners/v1/connectedRestaurants
 
 > **Note**
 > 
-> The `/connectedRestaurants`endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](apiRateLimiting.html).
+> The `/connectedRestaurants` endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](apiRateLimiting.html).
 
 
 **Procedure 1.2. To get information about the restaurants you are connected to**
@@ -199,12 +199,12 @@ https://*`{toast-api-hostname}`*/partners/v1/connectedRestaurants
 1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
 
 
-2. Send a `GET`request to the `/connectedRestaurants`endpoint of the partners API.
+2. Send a `GET` request to the `/connectedRestaurants` endpoint of the partners API.
 
-Optionally, include the `lastModified`parameter to limit the response data to connections created or modified after a specific date and time. The date and time must be a UTC timestamp in ISO 8601 format, for example: `2020-03-01T00:00:00.000-0000`.
+Optionally, include the `lastModified` parameter to limit the response data to connections created or modified after a specific date and time. The date and time must be a UTC timestamp in ISO 8601 format, for example: `2020-03-01T00:00:00.000-0000`.
 
 
-3. Review the information about each restaurant that you have access to in the JSON data that the `/connectedRestaurants`endpoint returns.
+3. Review the information about each restaurant that you have access to in the JSON data that the `/connectedRestaurants` endpoint returns.
 
 
 
@@ -212,32 +212,32 @@ Optionally, include the `lastModified`parameter to limit the response data to co
 
 You can query your response by adding the following parameters:
 
-- `page`: The specific page of the results. The response includes the `lastPageNum`field. Use this value to know how many pages there are total in the response for a more accurate `page`query.
+- `page`: The specific page of the results. The response includes the `lastPageNum` field. Use this value to know how many pages there are total in the response for a more accurate `page` query.
 
 
-- `pageSize`: The amount of records in the total response. 100 is is the `pageSize`default. You can use the `totalResultCount`value in the response to create a more accurate query but knowing how many results there are in total.
+- `pageSize`: The amount of records in the total response. 100 is is the `pageSize` default. You can use the `totalResultCount` value in the response to create a more accurate query but knowing how many results there are in total.
 
 
 
 ###### Information in the /connectedRestaurants response data
 
-For each restaurant, the `/connectedRestaurants`JSON response data contains the same values seen from the [`/restaurants`response data](apiPartnersGettingAccessibleRestaurants.html#apiGetRestaurantsReturnFieldList), as well as the following values:
+For each restaurant, the `/connectedRestaurants` JSON response data contains the same values seen from the [`/restaurants`response data](apiPartnersGettingAccessibleRestaurants.html#apiGetRestaurantsReturnFieldList), as well as the following values:
 
 | Value | Description | 
 | --- | --- |
 | `currentPageNum` | The active page number from the return response. | 
 | `totalResultCount` | The total number of results in the response. This number matches `totalCount`. | 
-| `pageSize` | The active page size used when viewing the response data. This can be modified using the `pageSize`query parameter. | 
+| `pageSize` | The active page size used when viewing the response data. This can be modified using the `pageSize` query parameter. | 
 | `currentPageToken` | The token for the current page information snapshot. Refer to this if you need to return to this exact dataset. | 
 | `nextPageToken` | The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset. | 
 | `totalCount` | The total number of results in the response. This number matches `totalResultCount`. | 
-| `nextPageNum` | The next available page in the response. `Null`if you have come to the end of available pages. | 
+| `nextPageNum` | The next available page in the response. `Null` if you have come to the end of available pages. | 
 | `lastPageNumber` | The last available page in the response. | 
-| `previousPageNum` | The page number for the previous page in the response. `Null`when you are on the first page of the response. | 
+| `previousPageNum` | The page number for the previous page in the response. `Null` when you are on the first page of the response. | 
 
 ###### /connectedRestaurants example return data
 
-The following example shows the return data from the `/connectedRestaurants`endpoint of the partners API.
+The following example shows the return data from the `/connectedRestaurants` endpoint of the partners API.
 
 **Example 1.2. Return data from the /connectedrestaurants endpoint**
 
@@ -300,13 +300,13 @@ The following example shows the return data from the `/connectedRestaurants`endp
   
 #### Using location and group identifiers
 
-The **My Integrations**page contains optional free-text Group IDand Location IDfields, which you can use to map restaurants in your system to Toast's restaurants.
+The **My Integrations** page contains optional free-text Group ID and Location ID fields, which you can use to map restaurants in your system to Toast's restaurants.
 
-For example, if a restaurant location has a numeric account number in your system, they can add their account identifier to the Location IDfield. If a restaurant group has an alphanumeric group identifier in your system, they can add their group identifier to the Group IDfield.
+For example, if a restaurant location has a numeric account number in your system, they can add their account identifier to the Location ID field. If a restaurant group has an alphanumeric group identifier in your system, they can add their group identifier to the Group ID field.
 
 ![Group ID and Location ID fields for a restaurant location](https://doc.toasttab.com/doc/media/externalIDs.png)
 
-Location ID and group ID values are available in the partners API in the `externalGroupRef`and `externalRestaurantRef`fields.
+Location ID and group ID values are available in the partners API in the `externalGroupRef` and `externalRestaurantRef`fields.
 
 ```
 [
@@ -328,5 +328,5 @@ Location ID and group ID values are available in the partners API in the `extern
 
 If you use a [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts), Toast support recommends that you include information in your onboarding documentation instructing users on how to fill out these fields.
 
-Integrations that use [restaurant management group API accounts](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant)cannot use these fields.
+Integrations that use [restaurant management group API accounts](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant) cannot use these fields.
 

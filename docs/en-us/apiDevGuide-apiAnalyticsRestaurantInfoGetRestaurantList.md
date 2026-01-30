@@ -15,31 +15,31 @@ codeExamples: 0
 
 ### Getting a list of restaurants in a management group
 
-You can use the `/era/v1/restaurants-information`endpoint of the analytics API to retrieve a list of the restaurants and their statuses in the management group associated with your account. This list includes the `restaurantGuid`and the `restaurantName`, and the restaurant statuses for `active`, `testMode`, and `archived`.
+You can use the `/era/v1/restaurants-information`endpoint of the analytics API to retrieve a list of the restaurants and their statuses in the management group associated with your account. This list includes the `restaurantGuid` and the `restaurantName`, and the restaurant statuses for `active`, `testMode`, and `archived`.
 
-- The `restaurantGuid`is the unique GUID assigned to the restaurant by the Toast platform.
-
-
-- The `restaurantName`is the restaurant’s name.
+- The `restaurantGuid` is the unique GUID assigned to the restaurant by the Toast platform.
 
 
-- The `active`value indicates whether the restaurant is activated or not. A `true`value indicates the restaurant is activated, while a `false`value indicates the restaurant is deactivated.
+- The `restaurantName` is the restaurant’s name.
 
 
-- The `testMode`value indicates whether the restaurant is in test mode or not. A `true`value indicates the restaurant is in test mode, while a `false`value indicates the restaurant is not in test mode.
+- The `active` value indicates whether the restaurant is activated or not. A `true` value indicates the restaurant is activated, while a `false` value indicates the restaurant is deactivated.
 
 
-- The `archived`value indicates whether the restaurant is archived or not. A `true`value indicates the restaurant is archived, while a `false`value indicates the restaurant is not archived. A common reason for archiving a restaurant is if the restaurant was created in error.
+- The `testMode` value indicates whether the restaurant is in test mode or not. A `true` value indicates the restaurant is in test mode, while a `false`value indicates the restaurant is not in test mode.
+
+
+- The `archived` value indicates whether the restaurant is archived or not. A `true` value indicates the restaurant is archived, while a `false` value indicates the restaurant is not archived. A common reason for archiving a restaurant is if the restaurant was created in error.
 
 
 
-The `restaurantGuid`is the unique GUID assigned to the restaurant by the Toast platform. The `restaurantName`is the restaurant’s name.
+The `restaurantGuid` is the unique GUID assigned to the restaurant by the Toast platform. The `restaurantName` is the restaurant’s name.
 
 The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
 
 #### Request for restaurant information
 
-The following example shows a **curl**command that sends a `GET`request to the `/era/v1/restaurants-information`endpoint.
+The following example shows a **curl** command that sends a `GET` request to the `/era/v1/restaurants-information` endpoint.
 
 ```
 curl -X GET 'https://*`[toast-api-hostname]`*/era/v1/restaurants-information' \[(1)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270-co)
@@ -49,13 +49,13 @@ curl -X GET 'https://*`[toast-api-hostname]`*/era/v1/restaurants-information' \[
 
 
 
-(1) Send a GETrequest to the /era/v1/restaurants-informationendpoint of the analytics API.
+(1) Send a GET request to the /era/v1/restaurants-information endpoint of the analytics API.
 
-(2) Include an authentication token. For more information, see Authentication and restaurant access .
+(2) Include an authentication token. For more information, see Authentication and restaurant access.
 
 #### Response to the request for restaurant information
 
-The following example shows the response from the `/era/v1/restaurants-information`endpoint.
+The following example shows the response from the `/era/v1/restaurants-information` endpoint.
 
 ```
 [

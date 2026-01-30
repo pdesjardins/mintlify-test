@@ -17,13 +17,13 @@ codeExamples: 0
 
 ### Retrieving the labor reporting data
 
-Send a `GET`request to the `/era/v1/labor/{reportRequestGuid}`endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
 
 To request the labor reporting data, you must include the labor reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
 #### Request to retrieve labor reporting data
 
-The following example **curl**command sends a `GET`request to the `/era/v1/labor/{reportRequestGuid}`endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/[(1)](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData.html#d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
@@ -33,15 +33,15 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/[(1)](apiDevGuide-apiAn
 
 
 
-(1) Send a GETrequest to the /era/v1/laborendpoint of the analytics API.
+(1) Send a GET request to the /era/v1/labor endpoint of the analytics API.
 
-(2) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process .
+(2) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see Authentication and restaurant access .
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
 #### Response to the retrieval request for labor reporting data
 
-The following example shows the response from the `/era/v1/labor/{reportRequestGuid}`endpoint.
+The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
 ```
 [

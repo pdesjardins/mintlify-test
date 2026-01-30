@@ -22,13 +22,13 @@ When using the orders API you must indicate each menu item or modifier that you 
 
 **Procedure 2.9. To defer an item**
 
-- Set the `deferred`value to `true`in each menu item `selection`object you want to defer.
+- Set the `deferred` value to `true` in each menu item `selection` object you want to defer.
 
-To defer a modifier, set the `deferred`value to `true`in each `modifier`object you want to defer.
+To defer a modifier, set the `deferred` value to `true` in each `modifier` object you want to defer.
 
 
 
-The example below shows a deferred item with a deferred modifier.
+The example below shows a deferred item with a deferred modifier. 
 
 ```
 
