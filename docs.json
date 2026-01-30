@@ -17,13 +17,13 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Customizing your site",
             "pages": [
+              "development",
               "essentials/settings",
               "essentials/navigation"
             ]
@@ -38,11 +38,18 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Using AI tools",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "Help and resources",
+            "pages": [
+              "troubleshooting",
+              "changelog"
             ]
           }
         ]
@@ -51,13 +58,13 @@
         "tab": "API reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Getting started",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Endpoints",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
@@ -82,6 +89,9 @@
         }
       ]
     }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   },
   "logo": {
     "light": "/logo/light.svg",
