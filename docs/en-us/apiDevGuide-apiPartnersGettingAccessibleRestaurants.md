@@ -27,7 +27,7 @@ This information only applies if you use a [partner API account](apiClientAccoun
 
 #### Getting the restaurants you can access
 
-Restaurant employees who have the Account Admin > Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [adminGuide#adminPermissions].
+Restaurant employees who have the Account Admin > Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions).
 
 When a restaurant employee selects your partner integration and gives you access to integrate with that restaurant:
 
@@ -43,7 +43,7 @@ When a restaurant employee selects your partner integration and gives you access
 
 When a restaurant adds your integration in Toast Partner Integrations, the Toast platform does not directly connect the restaurant to *your customer* account for that restaurant. This action authorizes and grants your partner API account access to the restaurant's data via API. As an integration partner, you are responsible for mapping your own customer accounts to Toast location GUIDs.
 
-For more information about how restaurant employees select integration partners and enable integration access, see [adminGuide#adminRestaurantServiceIntegrationsAndToastPartnerIntegrations].
+For more information about how restaurant employees select integration partners and enable integration access, see [Managing and using integrations and Toast Partner Integrations](platformIntegrationsOmitChunkFromSearchIndex.html#adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
 
 ##### Getting restaurant access updates from the partners webhook
 
@@ -82,7 +82,7 @@ If a restaurant removes a partner's integration, this restaurant is no longer pr
 Send a `GET` request to the `/restaurants`endpoint of the Toast partners API.
 
 ```
-https://*`[toast-api-hostname]`*/partners/v1/restaurants
+https://`[toast-api-hostname]`/partners/v1/restaurants
 ```
 
 
@@ -184,7 +184,7 @@ The following example shows the response data from the `/restaurants` endpoint o
 Send a `GET` request to the `/connectedRestaurants` endpoint of the Toast partners API.
 
 ```
-https://*`{toast-api-hostname}`*/partners/v1/connectedRestaurants
+https://`{toast-api-hostname}`/partners/v1/connectedRestaurants
 ```
 
 

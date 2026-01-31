@@ -224,7 +224,7 @@ The order is not subject to approval rules or manual approval.
 
 ##### Order text messages
 
-Orders that are entered using the orders API do not initiate SMS text messages. Guests or servers only receive text messages when an order is entered in the Toast platform, for example, from a Toast POS device.
+Orders that are entered using the orders API do not [initiate SMS text messages](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminSendTextMessage). Guests or servers only receive text messages when an order is entered in the Toast platform, for example, from a Toast POS device.
 
 When building the functionality to send an order fulfillment text message from your platform, your code should inspect the `fulfillmentStatus` value of an order and ensure it is set to `READY` before it sends any messages. The `fulfillmentStatus` value is in the `selections`object which is a part of the `checks` object.
 
@@ -669,7 +669,7 @@ For most items, prices are specified in the menu configuration.
 
 Some items are open price items, which means that you provide the price when you create the order.
 
-For more information, see the menu pricing section of the *Platform Guide*.
+For more information, see the [menu pricing section](adminPricingStrategyDetailsOmitChunkFromSearchIndex.html#adminPricingStrategiesOverview) of the *Platform Guide*.
 
 
 
@@ -678,7 +678,7 @@ For more information, see the menu pricing section of the *Platform Guide*.
 
 Taxes are calculated based on the applicable taxes and tax rates.
 
-For more information on taxes and tax rates, see the taxes section of the *Platform Guide*.
+For more information on taxes and tax rates, see the [taxes section](adminTaxesOmitChunkFromSearchIndex.html#adminTaxesOverview) of the *Platform Guide*.
 
 
 
@@ -689,14 +689,14 @@ On the Toast platform, some service charges are added automatically based on the
 
 Service charges might also be taxable.
 
-For more information on service charges, see the service charges section in the *Platform Guide*.
+For more information on service charges, see the [service charges section](adminServiceChargesOmitChunkFromSearchIndex.html#adminServiceChargeOverview) in the *Platform Guide*.
 
 
 
 ****Discounts****
 : The applicable discounts that reduce the amount of a check or a menu item selection.
 
-For more information on configuring discounts, see Managing discounts in the *Platform Guide*.
+For more information on configuring discounts, see [Managing discounts](adminAvailableDiscounts.html) in the *Platform Guide*.
 
 
 
@@ -944,17 +944,17 @@ Every order requires, at minimum, a dining option and a check with menu item sel
 ```
 {
   "diningOption": {
-    "guid": "*`{diningOption GUID}`*"
+    "guid": "`{diningOption GUID}`"
   },
   "checks": [
     {
       "selections": [
         {
           "item": {
-            "guid": "*`{selection item GUID}`*"
+            "guid": "`{selection item GUID}`"
           },
           "itemGroup": {
-            "guid": "*`{itemGroup GUID}`*"
+            "guid": "`{itemGroup GUID}`"
           },
           "quantity": 1
         }
@@ -1002,8 +1002,8 @@ Send a `POST` request to the `/authentication/v1/authentication/login` endpoint 
 
 ```
 {
-  "clientId": "*`clientId`*",
-  "clientSecret": "*`clientSecret`*",
+  "clientId": "`clientId`",
+  "clientSecret": "`clientSecret`",
   "userAccessType": "TOAST_MACHINE_CLIENT"
 }
 ```
@@ -1370,7 +1370,7 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 Many menu items have associated modifiers, such as toppings or preparation options. To add modifiers to a menu item selection, include a `modifiers` array within the selection.
 
-First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/*`{guid}`*`endpoint.
+First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/`{guid}``endpoint.
 
 The following example shows a selection with a modifier:
 
@@ -1511,7 +1511,7 @@ You can use the orders API to retrieve detailed information about a single order
 
 To request details for a single order, you must have the order GUID.
 
-You send a `GET` request to the `/orders/*`{guid}`*` endpoint.
+You send a `GET` request to the `/orders/`{guid}`` endpoint.
 
 ##### Example request for detailed information about one order
 
@@ -1532,7 +1532,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e12909EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(2)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e13109EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
-"https://*`[toast-api-hostname]`*/orders/v2/orders/
+"https://`[toast-api-hostname]`/orders/v2/orders/
 017fdd94-4a30-4657-9475-b1a684758531"[(3)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e13309EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
 ```
 
@@ -1848,7 +1848,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(2)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
-"https://*`[toast-api-hostname]`*/orders/v2/ordersBulk?[(3)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
+"https://`[toast-api-hostname]`/orders/v2/ordersBulk?[(3)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
 startDate=2020-03-02T19:10:30.000Z&endDate=2020-03-02T22:00:00.000Z&[(4)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
 pageSize=10&page=2"[(5)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
 ```
@@ -2025,14 +2025,14 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
     "guid": "529d9853-e28a-482b-9ee7-41580b0a53d0",[(5)](apiDevGuide-apiOrdersOmitChunkFromSearchIndex.html#d1e21848C855F0-89F9-4824-A080-F12BBC4F767E-co)
     "entityType": "Order",
 
-    *`[contents omitted]`*
+    `[contents omitted]`
 
   },
   {
     "guid": "c3f0c5bd-3b06-4b5d-8035-be57ae38a02a",
     "entityType": "Order",
 
-    *`[contents omitted]`*
+    `[contents omitted]`
 
   }
 ]
@@ -2055,13 +2055,13 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiResponseDataPagination.html).
 
 ```
-link: <https://*`[hostname]`*/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &startDate=2020-03-30T20%3A00%3A00.000Z&pageSize=1>; rel="first"
-link: <https://*`[hostname]`*/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &startDate=2020-03-30T20%3A00%3A00.000Z&pageSize=1&page=3>; rel="self"
-link: <https://*`[hostname]`*/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &pageSize=1&page=2&startDate=2020-03-30T20%3A00%3A00.000Z>; rel="prev"
-link: <https://*`[hostname]`*/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &pageSize=1&page=4&startDate=2020-03-30T20%3A00%3A00.000Z>; rel="next"
 ```
 
@@ -2230,7 +2230,7 @@ For example, a restaurant ordering service such as Grubhub™, Uber Eats™, or 
 
 For Toast Takeout and Toast Local orders, Toast acts as the marketplace facilitator and remits tax amounts on behalf of the restaurant. In these cases, Toast pays the tax amounts for the orders.
 
-For more information about marketplace facilitator orders in the Toast platform, see [adminGuide#adminMarketplaceFacilitatorTaxPayments].
+For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
 
 ##### Indicating the source of prices and tax amounts
 

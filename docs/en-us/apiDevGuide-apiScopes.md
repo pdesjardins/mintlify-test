@@ -66,7 +66,7 @@ The following table describes the scopes that determine what actions your Toast 
 | Packaging preferences | Read | `packaging:read` | Allows reading a restaurant's packaging preferences configuration using the [packaging configuration API](https://doc.toasttab.com/openapi/packaging/overview/).  | 
 | Restaurant availabilityRestaurants | Read | `restaurants:read` | Allows reading from the [restaurant availability API](https://doc.toasttab.com/openapi/rx.availability.service/overview/).Allows reading from the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/). | 
 | Stock | Read | `stock:read` | Allows reading from the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
-| Stock | Write | `stock:write` | Allows updating stock status for menu items (and modifier option item references) using the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
+| Stock | Write | `stock:write` | Allows updating stock status for menu items (and modifier option [item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference)) using the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
 
 #### Getting API client scopes
 

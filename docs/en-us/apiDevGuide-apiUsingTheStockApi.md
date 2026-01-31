@@ -105,7 +105,7 @@ The following sections provide more information about retrieving inventory infor
 
 > **Note**
 > 
-> For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#apiUpdatingInventoryInformation). For more information on how to change a menu item's inventory status using Toast Web, see [adminGuide#adminMenuItemInventoryOverview].
+> For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#apiUpdatingInventoryInformation). For more information on how to change a menu item's inventory status using Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOmitChunkFromSearchIndex.html#adminMenuItemInventoryOverview).
 
 
 #### Getting all stock information for a location
@@ -135,7 +135,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9-co)
-https://*`[toast-api-hostname]`*/stock/v1/inventory
+https://`[toast-api-hostname]`/stock/v1/inventory
 ```
 
 
@@ -193,14 +193,14 @@ You can restrict menu items in the response to those with either a `QUANTITY` or
 - Use a value of `QUANTITY` to get all menu items with an inventory status of `QUANTITY`:
 
 ```
-https://*`[toast-api-hostname]`*/stock/v1/inventory?status=QUANTITY
+https://`[toast-api-hostname]`/stock/v1/inventory?status=QUANTITY
 ```
 
 
 - Use a value of `OUT_OF_STOCK` to get all menu items with an inventory status of `OUT_OF_STOCK`:
 
 ```
-https://*`[toast-api-hostname]`*/stock/v1/inventory?status=OUT_OF_STOCK
+https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
 ```
 
 
@@ -226,7 +226,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3-co)
-https://*`[toast-api-hostname]`*/stock/v1/inventory?status=OUT_OF_STOCK[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3-co)
+https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3-co)
 ```
 
 
@@ -344,7 +344,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e41779DA0981-6707-46FB-8E99-12EF303F8E00-co)
 -H "Content-Type: application/json" \[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e41979DA0981-6707-46FB-8E99-12EF303F8E00-co)
 -d @my-item-search-data.json \[(3)](apiDevGuide-apiUsingTheStockApi.html#d1e42179DA0981-6707-46FB-8E99-12EF303F8E00-co)
-https://*`[toast-api-hostname]`*/stock/v1/inventory/search
+https://`[toast-api-hostname]`/stock/v1/inventory/search
 ```
 
 

@@ -48,7 +48,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: e4c1f40d-3247-4b8b-9891-52f445930fa3" \[(1)](apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#d1e1511646327542-co)
 -H "Content-Type: application/json" \[(2)](apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#d1e1531646327542-co)
 -d @my-item-inventory-data.json \[(3)](apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#d1e1551646327542-co)
-https://*`[toast-api-hostname]`*/stock/v1/inventory/update
+https://`[toast-api-hostname]`/stock/v1/inventory/update
 ```
 
 

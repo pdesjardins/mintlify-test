@@ -124,7 +124,7 @@ You'll work with the Toast integration partner marketing team to develop co-mark
 
 #### General availability
 
-If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the My Integrations page.
+If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](platformIntegrationsOmitChunkFromSearchIndex.html#adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
 
 
 

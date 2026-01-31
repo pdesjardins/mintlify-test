@@ -27,7 +27,7 @@ codeExamples: 0
 > All metric data supported in the analytics API does not adhere to accounting standards such as GAAP rules. This information is solely for informational purposes. Toast, Inc. does not offer accounting or tax advice.
 
 
-You can use the analytics API to request and view analytics data for restaurants in a management group.
+You can use the analytics API to request and view analytics data for restaurants in a [management group](adminManagementGroup.html).
 
 
 
@@ -180,11 +180,11 @@ Setting `onlyInactiveRestaurants` to `TRUE`includes inactive restaurant data and
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics` endpoint using the `onlyInactiveRestaurants` query parameter.
 
 ```
-curl -i -X POST \ 'https://*`[toast-api-hostname]`*/era/v1/metrics
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics
 ?onlyInactiveRestaurants=TRUE' \[(1)](apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex.html#d1e2941F37ED50-563A-4DC2-A142-7FD5B7B554A5-co)
-  -H ‘Authorization: Bearer *`[token]`*‘ \
+  -H ‘Authorization: Bearer `[token]`‘ \
   -H 'Content-Type: application/json' \
-  -d @*`[request-info]`*.json \
+  -d @`[request-info]`.json \
 
 ```
 

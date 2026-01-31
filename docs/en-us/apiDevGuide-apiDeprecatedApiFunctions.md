@@ -57,7 +57,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(2)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
-"https://*`[toast-api-hostname]`*/orders/v2/orders?[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+"https://`[toast-api-hostname]`/orders/v2/orders?[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
 startDate=2019-02-27T09%3A00%3A00.000-0500&
 endDate=2019-02-27T09%3A59%3A00.000-0500"[(4)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
 ```
@@ -92,7 +92,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
-"https://*`[toast-api-hostname]`*/orders/v2/orders?
+"https://`[toast-api-hostname]`/orders/v2/orders?
 businessDate=20190227"
 ```
 
@@ -136,7 +136,7 @@ This section includes information about Toast API authentication functionality t
 You get an authentication token by sending a `POST` request to the `/usermgmt/v1/oauth/token` resource of the Toast user management API. The following example shows the URL of the user management token endpoint.
 
 ```
-https://*`[toast-api-hostname]`*/usermgmt/v1/oauth/token
+https://`[toast-api-hostname]`/usermgmt/v1/oauth/token
 ```
 
 You must include your client identifier and client secret string in the message body of a `POST` request for an authentication token. When the user management API determines that the client identifier and client secret string are valid, it returns an authentication token along with a set of data describing the way you can use it. You receive a client identifier (*`client_id`*) and client secret string (*`client_secret`*) when you register to use Toast APIs. For more information, see [Toast API accounts](apiClientAccounts.html).
@@ -179,7 +179,7 @@ The following **curl** command requests an authentication token from the `usermg
 curl -X POST \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -d "grant_type=client_credentials&client_id=my-identifier&client_secret=XwEW%3C%3CvR*k6%3B%23Fp8" \
-https://*`[toast-api-hostname]`*/usermgmt/v1/oauth/token
+https://`[toast-api-hostname]`/usermgmt/v1/oauth/token
 
 ```
 
@@ -336,7 +336,7 @@ This section provides information about working with restaurant guest records in
 > The CRM API is deprecated and will be replaced by future Toast API functionality. Before beginning development work using the CRM API, contact the Toast technical partnership team to make sure your integration plans are coordinated with upcoming API changes.
 
 
-For general information about the way the Toast POS handles guest records, see [adminGuide#adminGuestDataOverview].
+For general information about the way the Toast POS handles guest records, see [Guest data overview](devPortalPlatformGuideGuestsOmitChunkFromSearchIndex.html#adminGuestDataOverview).
 
 The Toast POS creates customer records when:
 
@@ -526,7 +526,7 @@ The Toast platform stores data export files for seven days, and then they are de
 - SFTP User name: This is provided by Toast support.
 
 
-- SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see SSH keys.
+- SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminSshKeys.html).
 
 
 - Server URL: To locate the appropriate Server URL, navigate to Reports > Settings > SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
@@ -539,7 +539,7 @@ Export IDs can also be obtained from Toast Web. Navigate to Reports > Settings >
 
 
 
-Prior to downloading data export files, ensure that you have added an SSH key to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
+Prior to downloading data export files, ensure that you have [added an SSH key](adminSshKeys.html) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
 
 ###### Accessing your SFTP directory using macOS terminal
 
@@ -549,8 +549,8 @@ To access your restaurant's SFTP directory using terminal use the following comm
 
 ```
 sftp \ 
-      -i ~/*`{SSH_key_filepath}`* \
-      -r *`{sftp_username}`*@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:*`{export_id}`*/*`{YYYYMMDD}`*/*
+      -i ~/`{SSH_key_filepath}` \
+      -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:`{export_id}`/`{YYYYMMDD}`/*
 ```
 
 Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the details you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days and the *`{SSH_key_filepath}`* to the location of your SSH key on your machine.
@@ -578,7 +578,7 @@ Export all files using the **get *** command or use **get *`{fileName}`*** to ex
 To access your restaurant's SFTP directory using command prompt use the following command:
 
 ```
-sftp -i *`{SSH_key_filepath}`* -r *`{sftp_username}`*@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
+sftp -i `{SSH_key_filepath}` -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
 
 Replace *`{SSH_key_filepath}`* with the location of your SSH key on your machine. Replace *`{export_username}`* with the export user name you received from Toast support.
@@ -591,7 +591,7 @@ Once you are connected to the SFTP directory, use the **ls** command and press E
 To export a file for a specific location and date, use the following command:
 
 ```
-get /*`{export_id}`*/*`{YYYYMMDD}`* *`{download_location}`*
+get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 ```
 
 Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
@@ -599,7 +599,7 @@ Replace *`{export_id}`* with the export ID you received from Toast support. Chan
 To export all files, use the following command:
 
 ```
-get * *`{download_location}`*
+get * `{download_location}`
 ```
 
 
@@ -615,8 +615,8 @@ The menu data export includes two types of information:
 
 
 
-The file name of the menu data export is `MenuExport_*`[export file
-  identifier]`*.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](apiDeprecatedApiFunctions.html#downloading-data-export-files).
+The file name of the menu data export is `MenuExport_`[export file
+  identifier]`.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](apiDeprecatedApiFunctions.html#downloading-data-export-files).
 
 
 

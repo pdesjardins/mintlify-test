@@ -50,7 +50,7 @@ The restaurant online ordering schedule webhook messages follow the [standard me
 
 #### Configuring online ordering schedules 
 
-You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery > Online ordering hours to open the Online ordering hourssection. For more information, see [adminGuide#adminOnlineOrderingScheduleOverview].
+You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery > Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminOnlineOrderingSchedulesOmitChunkFromSearchIndex.html#adminOnlineOrderingScheduleOverview).
 
 #### ordering_schedule_updated
 
@@ -70,7 +70,7 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
 
 
  | 
-| `overrides` | An object that contains information about planned overrides. Overrides only affect Toast Online Ordering and third-party orders. For more information, see [adminGuide#adminConfigureOverridesOnOnlineOrderingHours]. The overrides array contains the following fields and values: - `description`The description of the override.data type: string
+| `overrides` | An object that contains information about planned overrides. Overrides only affect Toast Online Ordering and third-party orders. For more information, see [Configuring overrides](adminConfigureOnlineOrderingHoursOverview.html#adminConfigureOverridesOnOnlineOrderingHours). The overrides array contains the following fields and values: - `description`The description of the override.data type: string
 - `diningOptionBehavior``TAKE_OUT` or `DELIVERY`The dining behavior.data type: string
 - `businessDate`The day the override applies to in YYYYMMDD format. data type: integer- `timeRanges`Key-value pair detailing the start and end time for online ordering in HH:MM format.data type: object- `start`The local time in HH:MM format when the restaurant’s online ordering hours start.data type: string
 - `end`The local time in HH:MM format when the restaurant’s online ordering hours end.data type: string

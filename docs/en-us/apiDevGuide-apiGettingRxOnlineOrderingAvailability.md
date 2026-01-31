@@ -19,7 +19,7 @@ codeExamples: 3
 
 Send a `GET` request to the `/restaurant-availability/v1/availability` endpoint of the restaurant availability API to retrieve a restaurant’s availability to accept online orders. The `restaurant_availability` webhook sends a message when the restaurant’s Toast Autofire™ device has stopped approving online orders.
 
-This is the fallback endpoint for the `[`restaurant_availability`
+This is the [fallback endpoint](cookbookWebhooksOmitChunkFromSearchIndex.html#apiWebhookUsageChecklist) for the `[`restaurant_availability`
       webhook](apiRxAvailabilityWebhook.html)`. Toast support recommends using both the API and the webhook.
 
 Toast support recommends querying this API endpoint every ten minutes to ensure you have consistently accurate information about restaurants' availability to accept online orders. Failure to query the restaurant availability API endpoint could result in restaurants being offline for a longer period of time in the event of a missed webhook event.

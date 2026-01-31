@@ -47,7 +47,7 @@ The employee selects Redeem for additional rewards if the guest wants to redeem 
 
 > **Note**
 > 
-> Toast loyalty integration API integrations are not supported when a restaurant experiences an Internet outage or other network disruption. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [adminGuide#adminOfflineModeOverview].
+> Toast loyalty integration API integrations are not supported when a restaurant experiences an Internet outage or other network disruption. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex.html#adminOfflineModeOverview).
 
 
 

@@ -53,7 +53,7 @@ The following procedure explains how to calculate the expected deposit for one r
 1. Get the list of payment GUIDs for the business day by sending a `GET` request to the `payments`endpoint of the orders API. Include the *`paidBusinessDate`* parameter to specify the business day.
 
 
-2. Get detailed information about each payment by sending a GET request to the `payments/*`{guid}`*` endpoint of the orders API.
+2. Get detailed information about each payment by sending a GET request to the `payments/`{guid}`` endpoint of the orders API.
 
 
 3. Calculate the sum of the `amount` values for each payment that has the `type``CASH`. The following example shows the `amount` and `type` values for a payment.
@@ -117,11 +117,11 @@ The following example shell script calculates the expected cash deposit for one 
 #!/bin/bash
 
 # Set parameters for Toast API requests.[(1)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
-SERVER="https://*`[toast-api-hostname]`*"
-CLIENT_ID="*`my-client`*"
-CLIENT_SECRET="*`tbKr17l*!dMUE1hU3a3F`*" # Must be URL encoded
-RESTAURANT_GUID="*`B42C2273-B35A-42E4-9D9E-B0538312E18B`*"
-BUSINESS_DATE="*`20250422`*"
+SERVER="https://`[toast-api-hostname]`"
+CLIENT_ID="`my-client`"
+CLIENT_SECRET="`tbKr17l*!dMUE1hU3a3F`" # Must be URL encoded
+RESTAURANT_GUID="`B42C2273-B35A-42E4-9D9E-B0538312E18B`"
+BUSINESS_DATE="`20250422`"
 # Hold the authentication token and reuse it.
 AUTHENTICATION_TOKEN=""
 

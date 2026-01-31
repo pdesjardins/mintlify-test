@@ -61,10 +61,10 @@ To create a request for aggregated sales reporting data that covers a customized
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics` endpoint.
 
 ```
-curl -i -X POST \ 'https://*`[toast-api-hostname]`*/era/v1/metrics' \[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H ‘Authorization: Bearer *`[token]`*‘ \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  -H ‘Authorization: Bearer `[token]`‘ \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270-co)
   -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11336FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -d @*`[request-info]`*.json \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  -d @`[request-info]`.json \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270-co)
 
 ```
 
@@ -154,10 +154,10 @@ If you choose the `day` time range, you can choose to group the aggregated sales
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint. This example uses the `week` time range.
 
 ```
-curl -i -X POST \ 'https://*`[toast-api-hostname]`*/era/v1/metrics/week' \[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Authorization: Bearer *`[token]`*' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  -H 'Authorization: Bearer `[token]`' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270-co)
   -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14236FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -d @*`[request-info]`*.json \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  -d @`[request-info]`.json \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270-co)
 
 ```
 

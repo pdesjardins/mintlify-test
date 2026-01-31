@@ -30,7 +30,7 @@ The prices that you provide should match the menu prices from the restaurant con
 
 In both cases, you also indicate whether you collect and remit taxes on behalf of the Toast restaurant. Restaurant employees use Toast platform analytics and reports to get information about the tax amounts that a marketplace facilitator paid on their behalf.
 
-For more information about marketplace facilitator orders in the Toast platform, see [adminGuide#adminMarketplaceFacilitatorTaxPayments].
+For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
 
 #### Overview of the order creation process for a marketplace facilitator order
 

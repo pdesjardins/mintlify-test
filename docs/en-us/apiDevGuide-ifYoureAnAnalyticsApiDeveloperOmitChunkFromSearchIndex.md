@@ -45,7 +45,7 @@ The following are required to enable analytics API access:
 
 
 
-For more information about these permissions, see [adminGuide#adminAccountAdminAccessPermissions].
+For more information about these permissions, see [Account admin access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminAccountAdminAccessPermissions).
 
 
 

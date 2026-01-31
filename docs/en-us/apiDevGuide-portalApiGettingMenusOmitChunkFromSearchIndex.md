@@ -54,12 +54,12 @@ Currently, menus API V3 only supports ordering partners. Additional re-factoring
 
 > **Note**
 > 
-> For more information on the channel visibility settings in the Toast Web, see [adminGuide#adminSpecifyingOrderingChannelVisibility] (for menu builder users) and [adminGuide#adminMenuVisibilityOverview] (for classic menu page users).
+> For more information on the channel visibility settings in the Toast Web, see [Specifying ordering channel visibility](adminSpecifyingOrderingChannelVisibility.html) (for menu builder users) and [Visibility overview](adminMenuVisibilityOmitChunkFromSearchIndex.html#adminMenuVisibilityOverview) (for classic menu page users).
 
 
 ### Menus API structure mirrors Toast Web structure
 
-The menus API returns JSON that reflects the structure that a Toast customer has defined for their restaurant's menus in Toast Web. This is also the structure that the Toast platform uses to display menus on Toast devices. For example, if a restaurant's Breakfast menu is configured to appear on a Toast POS device before a Lunch menu, then the JSON returned by the menus API will include the Breakfast menu data before the Lunch menu data. To use the menus API effectively, it is important to understand the Toast menu structure and rules described in [adminGuide#adminMenuHierarchy].
+The menus API returns JSON that reflects the structure that a Toast customer has defined for their restaurant's menus in Toast Web. This is also the structure that the Toast platform uses to display menus on Toast devices. For example, if a restaurant's Breakfast menu is configured to appear on a Toast POS device before a Lunch menu, then the JSON returned by the menus API will include the Breakfast menu data before the Lunch menu data. To use the menus API effectively, it is important to understand the Toast menu structure and rules described in [Menu hierarchy](devPortalPlatformGuideMenusOmitChunkFromSearchIndex.html#adminMenuHierarchy).
 
 ### Using menus API data to construct valid orders
 
@@ -98,7 +98,7 @@ Toast Support recommends that you compare the date and time of your current menu
 
 ### Understanding the order in which modifier groups are returned
 
-The menus API returns modifier groups in the same order in which they are displayed on the Toast POS app. For more information on the logic the Toast platform uses to determine modifier group display order on the Toast POS app, see [adminGuide#platformModifierGroupDisplayOrderOverview].
+The menus API returns modifier groups in the same order in which they are displayed on the Toast POS app. For more information on the logic the Toast platform uses to determine modifier group display order on the Toast POS app, see [Modifier group display order overview](adminModifierGroupDisplayOrderOmitChunkFromSearchIndex.html#platformModifierGroupDisplayOrderOverview).
 
 ### Menus API supersedes configuration API and menu data export for menu data retrieval
 

@@ -28,18 +28,18 @@ To understand these two identifiers, you have to understand some core Toast conc
 
 Toast customers use the multi-location management module when they want to share configuration among multiple restaurant locations. For example, individual locations can share menus, dining options, employees, job descriptions, and so on with other locations in a larger restaurant group. The more configuration that multiple locations share, the easier it becomes to maintain that configuration because Toast customers are managing one instance of a shared entity used by multiple locations, instead of separate instances across different locations.
 
-When a restaurant uses the multi-location management module, its configuration entities (such as menu items, prep stations, and discount reasons) can be versioned and those versions can be assigned to specific restaurant locations, or groups of locations. For example, a restaurant could have two versions of a Breakfast Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all of, their data. For example, the Boston version of the Breakfast Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
+When a restaurant uses the multi-location management module, its configuration entities (such as menu items, prep stations, and discount reasons) can be [versioned](versions.html) and those versions can be assigned to specific restaurant locations, or [groups of locations](restaurantGroupsAndSubgroups.html). For example, a restaurant could have two versions of a Breakfast Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all of, their data. For example, the Boston version of the Breakfast Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
 
 ##### multilocationId value
 
 To identify entities that are shared across locations, the Toast APIs use a `multiLocationId` value. To continue the example above, the Breakfast Sandwich for the Boston location has the same `multiLocationId` as the Breakfast Sandwich for the New York City location (`11111111` in the example below). These matching `multiLocationId` values indicate that the two menu items are related versions and represent the same overall item.
 
 ```
-**Menu data retrieved for the Boston location:**
+Menu data retrieved for the Boston location:
 Breakfast Sandwich
   multiLocationId: 11111111
 
-**Menu data retrieved for the New York City location:**
+Menu data retrieved for the New York City location:
 Breakfast Sandwich
   multiLocationId: 11111111
 ```
@@ -49,12 +49,12 @@ Breakfast Sandwich
 Within a set of versioned entities, however, each version continues to have its own unique identifier. That unique identifier is contained in the `guid` value. To continue the example from above, each version of the Breakfast Sandwich has its own unique `guid`.
 
 ```
-**Menu data retrieved for the Boston location:**
+Menu data retrieved for the Boston location:
 Breakfast Sandwich
   multiLocationId: 11111111
   guid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa
 
-**Menu data retrieved for the New York City location:**
+Menu data retrieved for the New York City location:
 Breakfast Sandwich
   multiLocationId: 11111111
   guid: bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb
@@ -131,7 +131,7 @@ An external identifier is a bundle of information that uniquely identifies a par
 The standard string representation of external identifiers is as follows:
 
 ```
-{*`authority-name`*}:{*`identifier`*}
+{`authority-name`}:{`identifier`}
 ```
 
 - *`authority-name`*: the unique name assigned by Toast for the naming authority for this domain object. (required for clients, <= 16 characters)

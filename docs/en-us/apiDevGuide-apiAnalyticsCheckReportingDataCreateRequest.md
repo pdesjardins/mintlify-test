@@ -55,10 +55,10 @@ To create a request for check data, include the following:
 The following example **curl** command sends a `POST` request to the `/era/v1/check/day` endpoint.
 
 ```
-curl -i -X POST \ 'https://*`[toast-api-hostname]`*/check/day' \[(1)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  -H 'Authorization: Bearer *`[token]`*' \[(2)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \[(1)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+  -H 'Authorization: Bearer `[token]`' \[(2)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
   -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  -d @*`[request-info]`*.json \[(4)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+  -d @`[request-info]`.json \[(4)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
 ```
 
 

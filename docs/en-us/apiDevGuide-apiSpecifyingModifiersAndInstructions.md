@@ -84,11 +84,11 @@ The following example message body for an order shows a modifier and a pre-modif
 {
   "entityType": "Order",
 
-    *[contents omitted]*
+    [contents omitted]
 
   "checks": [
     {
-      *[contents omitted]*
+      [contents omitted]
       "selections": [
         {
           "itemGroup": {
@@ -154,7 +154,7 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
 ```
 {
   "entityType": "Order",
-      *[contents omitted]*
+      [contents omitted]
 "checks": [
     {
       "entityType": "Check",
@@ -214,7 +214,7 @@ You must include specific identifiers when a modifier meets the following condit
 - The modifier is nested (it exists inside a parent modifier's modifiers array).
 
 
-- The parent modifier's modifier options are sourced from a reused menu group. For example, the modifier options for a side salad modifier might be sourced from a Salads menu group. For more information about reusing menu groups, see [adminGuide#adminAddingModifierGroupsAndModifiers].
+- The parent modifier's modifier options are sourced from a reused menu group. For example, the modifier options for a side salad modifier might be sourced from a Salads menu group. For more information about reusing menu groups, see [Adding modifier groups and modifiers](adminAddingModifierGroupsAndModifiers.html).
 
 
 
@@ -407,7 +407,7 @@ For example, for a pineapple and jalapeno pizza menu item, the default modifiers
 
 ##### Applying modifiers to menu item portions
 
-You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [adminGuide#adminPortionsOverview].
+You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [Portions overview](adminUsingPortionsOmitChunkFromSearchIndex.html#adminPortionsOverview).
 
 When you create an order in the orders API, to add portions and modifiers for those portions:
 
@@ -429,12 +429,12 @@ The following example order JSON applies modifiers to portions of a menu item se
 {
   "entityType": "Order",
   "diningOption": {
-    *[contents omitted]*
+    [contents omitted]
   },
   "checks": [
     {
       "customer": {
-          *[contents omitted]*
+          [contents omitted]
       },
       "selections": [
         {
@@ -547,13 +547,13 @@ The following example JSON message body for a `POST` request to the orders API i
 ```
 {
   "entityType": "Order",
-      *[contents omitted]*
+      [contents omitted]
   },
   "checks": [
     {
       "selections": [
         {
-            *[contents omitted]*
+            [contents omitted]
           "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
           },
@@ -565,7 +565,7 @@ The following example JSON message body for a `POST` request to the orders API i
           ]
         }
       ]
-    *[contents omitted]*
+    [contents omitted]
   ]
 }
 ```

@@ -24,7 +24,7 @@ The `stock` webhook allows you to receive updates when the inventory status of a
 
 > **Note**
 > 
-> Modifiers are supported by an underlying menu item, called the modifier item reference. In this section, the term *menu item* refers to both menu items and modifier item references, as the stock webhook reports on their status in the same way. For detailed information on modifier item references, see [adminGuide#adminUnderstandingAModifierOptionsItemReference].
+> Modifiers are supported by an underlying menu item, called the modifier item reference. In this section, the term *menu item* refers to both menu items and modifier item references, as the stock webhook reports on their status in the same way. For detailed information on modifier item references, see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
 
 
 Stock webhook messages follow the [standard message data schema](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageDataSchema). When a message is published to your webhook endpoint for the `stock`event category, the `eventCategory` value is set to `stock` and the `eventType` is set to one of the following:

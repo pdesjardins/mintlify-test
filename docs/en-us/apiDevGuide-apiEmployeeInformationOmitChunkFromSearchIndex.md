@@ -45,7 +45,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#co-get-employees)
-https://*`[toast-api-hostname]`*/labor/v1/employees
+https://`[toast-api-hostname]`/labor/v1/employees
 ```
 
 
@@ -149,7 +149,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e15283A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
-"https://*`[toast-api-hostname]`*/labor/v1/timeEntries?startDate=[(2)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
+"https://`[toast-api-hostname]`/labor/v1/timeEntries?startDate=[(2)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
 2018-11-14T01:00:00.000-0000&endDate=2018-11-16T01:00:00.000-0000
 &includeMissedBreaks=true"[(3)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e15983A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
 ```
@@ -288,7 +288,7 @@ QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878-co)
 -o my-shifts-get-request-response-data.json \[(2)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878-co)
-"https://*`[toast-api-hostname]`*/labor/v1/shifts?startDate=[(3)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878-co)
+"https://`[toast-api-hostname]`/labor/v1/shifts?startDate=[(3)](apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.html#d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878-co)
 2016-12-01T01:00:00.000-0000&endDate=2016-12-30T01:00:00.000-0000"
 ```
 

@@ -43,7 +43,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
 -H "Content-Type: application/json" \[(2)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
 -d @my-shift-information.json \[(3)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
-"https://*`[toast-api-hostname]`*/labor/v1/shifts"
+"https://`[toast-api-hostname]`/labor/v1/shifts"
 ```
 
 

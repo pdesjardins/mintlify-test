@@ -193,7 +193,7 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
   
 #### Third-party online ordering channel has been manually turned on or off
 
-A third-party online ordering channel is any online ordering channel such as Uber Eats, DoorDash, or Grubhub. Restaurants can turn a third-party online ordering channel on or off in Toast Web. The default setting for an online ordering channel is `ONLINE`. For more information about turning on or off a third-party online ordering channel, see [adminGuide#platformManagingThirdPartyOnlineOrderingChannels].
+A third-party online ordering channel is any online ordering channel such as Uber Eats, DoorDash, or Grubhub. Restaurants can turn a third-party online ordering channel on or off in Toast Web. The default setting for an online ordering channel is `ONLINE`. For more information about turning on or off a third-party online ordering channel, see [Managing orders from third-party online ordering channels](platformThirdPartyOnlineOrderingChannelsOmitChunkFromSearchIndex.html#platformManagingThirdPartyOnlineOrderingChannels).
 
 
 

@@ -19,7 +19,7 @@ codeExamples: 0
 
 To unarchive an employee, send a `PUT`request to the `/labor/v1/employees/{employeeGuid}/unarchive`endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
 
-When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the jobs assigned to them before they were archived.
+When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the [jobs assigned](platformEmployeesOmitChunkFromSearchIndex.html#platformEmployeeJobs) to them before they were archived.
 
 If an employee had a swipe card for signing into the Toast POS, the swipe card *is not* re-associated with the employee when you unarchive them.
 
@@ -51,7 +51,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
-"https://*`[toast-api-hostname]`*/labor/v1/employees/*`0a7ced2c-b782-4585-8f41-4bb1656c3f67`*/unarchive"[(1)](apiDevGuide-apiUnarchivingAnEmployee.html#d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3-co)
+"https://`[toast-api-hostname]`/labor/v1/employees/`0a7ced2c-b782-4585-8f41-4bb1656c3f67`/unarchive"[(1)](apiDevGuide-apiUnarchivingAnEmployee.html#d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3-co)
 ```
 
 

@@ -48,7 +48,7 @@ In an `orders` webhook message, the `eventCategory` and `eventType` are set to `
 
 #### order_updated details and message values
 
-The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/*`{orderGuid}`*` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
+The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/`{orderGuid}`` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
 
 Attributes in the `orders_updated` payload include: 
 
@@ -96,7 +96,7 @@ For performance and security, the following values are either omitted from the `
 
 
 
-To obtain this omitted information, you can send a `GET` request to the `/orders/v2/orders/*`{orderGuid}`*`endpoint.
+To obtain this omitted information, you can send a `GET` request to the `/orders/v2/orders/`{orderGuid}``endpoint.
 
 #### Orders webhook sample message
 

@@ -49,7 +49,7 @@ curl -X GET \ -H "Authorization: Bearer
       QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
       dWq4Yzwo007AMgxjH9d241Y-g" \ -H "Toast-Restaurant-External-ID:
       76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \[(1)](apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex.html#d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD-co)
-      https://*`[toast-api-hostname]`*/orders/v2/payments?paidBusinessDate=20200211[(2)](apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex.html#d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD-co)
+      https://`[toast-api-hostname]`/orders/v2/payments?paidBusinessDate=20200211[(2)](apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex.html#d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD-co)
 ```
 
 

@@ -36,7 +36,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiGetCashDeposits.html#d1e340BCBEC7F8-786B-4966-9AA6-0D290AA55A72-co)
-https://*`[toast-api-hostname]`*/cashmgmt/v1/deposits?businessDate=20190918[(2)](apiDevGuide-apiGetCashDeposits.html#d1e345BCBEC7F8-786B-4966-9AA6-0D290AA55A72-co)
+https://`[toast-api-hostname]`/cashmgmt/v1/deposits?businessDate=20190918[(2)](apiDevGuide-apiGetCashDeposits.html#d1e345BCBEC7F8-786B-4966-9AA6-0D290AA55A72-co)
 ```
 
 

@@ -229,7 +229,7 @@ The following example `MenuItem` object is for an open price menu item:
       "TOAST_ONLINE_ORDERING"
     ],
     "price": null,
-    **"pricingStrategy": "OPEN_PRICE"**,
+    "pricingStrategy": "OPEN_PRICE",
     "pricingRules": null,
 ...
 ```
@@ -295,7 +295,7 @@ You can apply general upcharges, or service charges, to checks when you create a
 
 Before you can apply a service charge, restaurants must configure the service charge in Toast Web. You then use the service charge GUID to add the service charge to the check. To retrieve the service charge GUID, you can use the configuration API.
 
-For more information about service charges and how restaurants configure them, see [adminGuide#adminServiceChargeOverview] in the *Toast Platform Guide*.
+For more information about service charges and how restaurants configure them, see [Service charge overview](adminServiceChargesOmitChunkFromSearchIndex.html#adminServiceChargeOverview) in the *Toast Platform Guide*.
 
 ##### Getting the available service charges
 
@@ -399,7 +399,7 @@ When it calculates taxes and check prices, the orders API uses the following rou
 
 - When the orders API applies a percent tax rate, it uses the rounding algorithm that is configured for that percent tax rate.
 
-For example, depending on the configured rounding option, the orders API rounds a tax amount of $1.235 down to $1.23 or up to $1.24. For more information, see [adminGuide#roundingOptions] in the *Toast Platform Guide*.
+For example, depending on the configured rounding option, the orders API rounds a tax amount of $1.235 down to $1.23 or up to $1.24. For more information, see [Rounding options](adminPercentTaxRates.html#roundingOptions) in the *Toast Platform Guide*.
 
 
 - To calculate a check price, the orders API first rounds the item prices, including the tax amounts. It then sums the rounded item prices.

@@ -63,5 +63,5 @@ The Toast platform does not apply discounts directly to modifiers. You can apply
 
 The `MULTI_ITEM` discount type applies to multiple different items or to two instances of the same item in separate `Selection` objects within a `Check`. For the discount to work, each item must be in an individual `Selection` object with a `quantity` of 1. A single `Selection` object with a `quantity` of 2 or more of the same item will not qualify for a `MULTI_ITEM`discount.
 
-For more information about Toast platform discount functionality, see [adminGuide#platformDiscountsOverview].
+For more information about Toast platform discount functionality, see [Discounts overview](adminDiscountsIntroOmitChunkFromSearchIndex.html#platformDiscountsOverview).
 

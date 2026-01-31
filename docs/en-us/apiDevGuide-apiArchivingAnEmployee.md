@@ -62,7 +62,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
-https://*`[toast-api-hostname]`*/labor/v1/employees/*`b7946411-7d45-4beb-9bfc-0ec731da7b45`*[(1)](apiDevGuide-apiArchivingAnEmployee.html#d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400-co)
+https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec731da7b45`[(1)](apiDevGuide-apiArchivingAnEmployee.html#d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400-co)
 ```
 
 

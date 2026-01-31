@@ -51,7 +51,7 @@ Webhook subscription access allows you to create and manage webhook subscription
 
 > **Note**
 > 
-> You must have the 8.4 Manage Integrationspermission to create and manage webhook subscriptions. For more information, see [adminGuide#adminPermissions].
+> You must have the 8.4 Manage Integrationspermission to create and manage webhook subscriptions. For more information, see [Access permissions reference](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions).
 
 
 As a standard API access user, the type of access you have to create and manage your webhook subscriptions depends if you created the credentials and if you have 8.4 Manage Integrationspermission enabled at all the locations associated with the credential. For more information, see [Standard API access credentials](devApiAccessCredentials.html). Webhook events are only generated for Toast locations linked to your standard API access credentials.
@@ -79,7 +79,7 @@ There are three levels of webhook subscription access:
 
 **Procedure 1.19. To create a webhook subscription**
 
-1. Access Toast Web.
+1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
 
 
 2. Go to Integrations > Toast API access > Manage credentials to open the Manage webhooks page.

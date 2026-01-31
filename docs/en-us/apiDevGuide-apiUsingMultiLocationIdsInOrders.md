@@ -24,7 +24,7 @@ To do this, you can provide either:
 - The unique `guid` assigned to each menu entity. You can see examples of that in [Order details based on the order dining option](apiOrderTypeDetails.html) and [Specifying modifiers and instructions for menu item selections](apiSpecifyingModifiersAndInstructions.html).
 
 
-- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "enterprise module").
+- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "[enterprise module](platformMultiLocationOmitChunkFromSearchIndex.html#sharingMenusAndOtherInformationAmongRestaurants)").
 
 
 
@@ -113,21 +113,21 @@ The following example response shows how both identifiers are provided for each 
   "guid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   "entityType": "Order",
 
-  *[contents omitted]*
+  [contents omitted]
 
   "checks": [
     {
       "guid": "e4c1f40d-3247-4b8b-9891-52f445930fa3",
       "entityType": "Check",
 
-      *[contents omitted]*
+      [contents omitted]
 
       "selections": [
         {
           "guid": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b",
           "entityType": "MenuItemSelection",
 
-          *[contents omitted]*
+          [contents omitted]
 
           "displayName": "Dinner Salad",
           "modifiers": [
@@ -135,7 +135,7 @@ The following example response shows how both identifiers are provided for each 
               "guid": "7d850cd0-c014-46f0-bfa6-b1f920c03743",
               "entityType": "MenuItemSelection",
 
-              *[contents omitted]*
+              [contents omitted]
 
               "optionGroup": {
                 "guid": "8a2f952d-4dca-4eb0-b867-445f3a674bad",
@@ -145,7 +145,7 @@ The following example response shows how both identifiers are provided for each 
               },
               "displayName": "Balsamic Vinaigrette",
 
-              *[contents omitted]*
+              [contents omitted]
 
               "item": {
                 "guid": "e5ccef2d-dc70-4c2d-bddd-d8448dee2e61",
@@ -154,12 +154,12 @@ The following example response shows how both identifiers are provided for each 
                 "multiLocationId": "100000000171239909" [(2)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2791635951163-co)
               },
               
-              *[contents omitted]*
+              [contents omitted]
 
             },
           ],
           
-          *[contents omitted]*
+          [contents omitted]
 
           "itemGroup": {
             "guid": "c922e206-8512-4d99-a79d-32532eae239f",
@@ -174,12 +174,12 @@ The following example response shows how both identifiers are provided for each 
             "multiLocationId": "100000000437569098" [(4)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2891635951163-co)
           },
           
-          *[contents omitted]*
+          [contents omitted]
 
         },
       ],
 
-      *[contents omitted]*
+      [contents omitted]
 
     },
   ],

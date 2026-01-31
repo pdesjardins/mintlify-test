@@ -173,7 +173,7 @@ TzU" \
         ]
       }
     ]
-  }' "https://*`[toast-api-hostname]`*/orders/v2/orders"
+  }' "https://`[toast-api-hostname]`/orders/v2/orders"
 ```
 
   
@@ -342,7 +342,7 @@ GET /menuOptionGroups/f63f8bd3-9764-4b1b-b3c9-40c8c104b42b
 }
 ```
 
-In this case we can see that there are two options in the "Size" `MenuOptionGroup`. These options themselves can of course be retrieved as above with `GET``/menuItems/*`<guid>`*`.
+In this case we can see that there are two options in the "Size" `MenuOptionGroup`. These options themselves can of course be retrieved as above with `GET``/menuItems/`<guid>``.
 
 Going back up to the "A Twist On Fries" group, make the calls for the listed `MenuItem`s:
 

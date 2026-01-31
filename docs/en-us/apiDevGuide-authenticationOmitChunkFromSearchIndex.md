@@ -106,7 +106,7 @@ If any of the following things occurs, your API credentials are considered compr
 To get an authentication token, you send a `POST` request to the `/authentication/login` endpoint of the Toast authentication API. The following example shows the URL of the endpoint.
 
 ```
-https://*`[toast-api-hostname]`*/authentication/v1/authentication/login
+https://`[toast-api-hostname]`/authentication/v1/authentication/login
 ```
 
 You must include your client identifier and client secret string in the message body of a `POST` request for an authentication token. You receive a client identifier string (*`clientId`*) and client secret string (*`clientSecret`*) from the Toast support team. Follow [these guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage) when storing your API credentials.
@@ -118,7 +118,7 @@ You include the following JSON object in the message body parameter of an `/auth
 **Example 1.3. Message body parameter for an `/authentication/login` endpoint request**
 
 ```
-*`myToastApiClientSecret`*
+`myToastApiClientSecret`
 ```
 
 
@@ -137,8 +137,8 @@ The following **curl** command requests an authentication token from the `/authe
 ```
 curl -X POST \[(1)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
 -H "Content-Type: application/json" \[(2)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
--d @*`file-containing-message-body-parameter.json`* \[(3)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
-https://*`[toast-api-hostname]`*/authentication/v1/authentication/login[(4)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
+-d @`file-containing-message-body-parameter.json` \[(3)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
+https://`[toast-api-hostname]`/authentication/v1/authentication/login[(4)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
 
 ```
 
@@ -217,16 +217,16 @@ The following example shows the JWT payload contents for a partner API client ac
 
 ```
 {
-  "https://toasttab.com/client_name": "*`MYNAMINGAUTHORITY`*",[(1)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",[(1)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",[(2)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "https://toasttab.com/partner_guid": "23a8eca9-b403-45bf-cd66-fb36a85be556",[(3)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "https://toasttab.com/type": "CUSTOMER",[(4)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "iss": "[Toast-token-issuer]",[(5)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "sub": "*`my-client-id`*@clients",[(6)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "sub": "`my-client-id`@clients",[(6)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "aud": "https://toast-services-api/",[(7)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "iat": 1603107025,[(8)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "exp": 1588176466,[(9)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "azp": "*`my-client-id`*",[(10)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "azp": "`my-client-id`",[(10)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "scope": "orders:read menus:read",[(11)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "gty": "client-credentials"[(12)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
 }
@@ -319,16 +319,16 @@ The following example shows the JWT payload contents for a restaurant management
 
 ```
 {
-  "https://toasttab.com/client_name": "*`MYNAMINGAUTHORITY`*",[(1)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",[(1)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",[(2)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "https://toasttab.com/management_set_guid": "0423ad35-8ba2-45cf-9b6b-7da03f982c46",[(3)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "https://toasttab.com/type": "CUSTOMER",[(4)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "iss": "[Toast-token-issuer]",[(5)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "sub": "*`my-client-id`*@clients",[(6)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "sub": "`my-client-id`@clients",[(6)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "aud": "https://toast-services-api/",[(7)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "iat": 1603107025,[(8)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "exp": 1588176466,[(9)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "azp": "*`my-client-id`*",[(10)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "azp": "`my-client-id`",[(10)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "scope": "orders:read menus:read",[(11)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
   "gty": "client-credentials"[(12)](apiDevGuide-authenticationOmitChunkFromSearchIndex.html#d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
 }
@@ -368,7 +368,7 @@ To use secured Toast API resources, when you make a request you:
 - Present a valid authentication token in the *`Authorization`* HTTP header field when you make a request. An authentication token is a text string that you can get from the `/authentication/login` endpoint of the authentication API. See [Getting an authentication token](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token).
 
 The Toast API uses bearer authentication tokens. You must include the string `Bearer` in the value of the *`Authorization`* HTTP header field, before the token string, to indicate the type of the token. For example, `Authorization: Bearer
-        [*`my-authentication-token`*]`.
+        [`my-authentication-token`]`.
 
 
 - Specify the individual restaurant context for your request in the *`Toast-Restaurant-External-ID`* header field.
@@ -395,7 +395,7 @@ Td2Sp3IxLCJqdbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GLCJqdlryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4721e7a9-b4ae-4fef-9230-b3dae186e0a4" \
-https://*`[toast-api-hostname]`*/labor/v1/employees
+https://`[toast-api-hostname]`/labor/v1/employees
 
 ```
 

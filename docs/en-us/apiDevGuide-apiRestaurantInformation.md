@@ -145,7 +145,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \[(1)](apiDevGuide-apiRestaurantInformation.html#d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D-co)
-https://*`[toast-api-hostname]`*/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf[(2)](apiDevGuide-apiRestaurantInformation.html#d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D-co)
+https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf[(2)](apiDevGuide-apiRestaurantInformation.html#d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D-co)
 ```
 
 

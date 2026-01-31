@@ -79,7 +79,7 @@ The following procedure describes how to complete a scan-to-pay transaction usin
 3. After you select your scan-to-pay payment type, your device’s camera or QR scanner is activated. Position the guest’s QR code in the area to be scanned by the Toast POS camera or barcode scanner.
 
 
-4. After the QR code is scanned, the guest account has been identified and the payment workflow continues normally. For more information about payment workflows, see [adminGuide#platformPwfOverview].
+4. After the QR code is scanned, the guest account has been identified and the payment workflow continues normally. For more information about payment workflows, see [Payment workflow overview](platformPaymentsAndMoneyOmitChunkFromSearchIndex.html#platformPwfOverview).
 
 
 
@@ -113,7 +113,7 @@ The following procedure describes how to process a transaction using a guest’s
 !["Enter code" dialog with "Use code" button emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_enterGuestId.png)
 
 
-4. After the guest's unique identifier is entered, the payment workflow continues normally. For more information about payment workflows, see [adminGuide#platformPwfOverview].
+4. After the guest's unique identifier is entered, the payment workflow continues normally. For more information about payment workflows, see [Payment workflow overview](platformPaymentsAndMoneyOmitChunkFromSearchIndex.html#platformPwfOverview).
 
 
 

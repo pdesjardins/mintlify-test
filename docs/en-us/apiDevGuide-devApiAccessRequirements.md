@@ -25,7 +25,7 @@ The following are required to enable standard API access:
 - An active subscription to [Toast Restaurant Management Suite (RMS) Essentials](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Essentials) or higher. Sign in with your Toast Web credentials to be directed to Toast Shop where you can purchase RMS. RMS grants you access to the Toast Partner Integrations page in Toast Web.
 
 
-- You must have the Manage Integrationspermission for the locations you want to add standard API access credentials to. For more information, see [adminGuide#adminAccountAdminAccessPermissions].
+- You must have the Manage Integrationspermission for the locations you want to add standard API access credentials to. For more information, see [Account admin access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminAccountAdminAccessPermissions).
 
 
 

@@ -70,7 +70,7 @@ If a credit card payment cannot be authorized, the [ErrorMessage object](apiResp
 
 Error messages in the credit cards API are intentionally not specific or detailed, to minimize the error information that reaches attackers that are attempting to make fraudulent payments.
 
-For a list of common reasons for card denial, see [adminGuide#adminCreditCardDeclinedMessageReference].
+For a list of common reasons for card denial, see [Card declined message reference](adminCreditCardDeclinedMessageReference.html).
 
 #### Authorizing a credit card payment
 
@@ -314,13 +314,13 @@ The following example shows the JSON message body data that applies an authorize
 {
   "entityType": "Order",
 
-    *[contents omitted]*
+    [contents omitted]
 
   "checks": [
     {
       "entityType": "Check",
 
-        *[contents omitted]*
+        [contents omitted]
 
       "payments": [
         {
@@ -498,8 +498,8 @@ The following example UNIX command-line command uses the **openssl** version 1.1
 
 ```
 openssl pkeyutl \[(1)](apiDevGuide-authorizingCcPayments.html#d1e63595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
--in *`my-credit-card-information.json`* \[(2)](apiDevGuide-authorizingCcPayments.html#d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
--encrypt -pubin -inkey *`my-public-key.pem`* \[(3)](apiDevGuide-authorizingCcPayments.html#d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
+-in `my-credit-card-information.json` \[(2)](apiDevGuide-authorizingCcPayments.html#d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
+-encrypt -pubin -inkey `my-public-key.pem` \[(3)](apiDevGuide-authorizingCcPayments.html#d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
 -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_mgf1_md:sha256 -pkeyopt rsa_oaep_md:sha256 \[(4)](apiDevGuide-authorizingCcPayments.html#d1e64895B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
 | openssl base64 \[(5)](apiDevGuide-authorizingCcPayments.html#d1e65095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
 | tr -d "\n"[(6)](apiDevGuide-authorizingCcPayments.html#d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)

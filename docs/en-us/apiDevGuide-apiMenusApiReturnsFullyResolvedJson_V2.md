@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Menus API returns fully resolved JSON
 
-The Toast platform's menu structure is a hierarchical structure where menu entities can inherit properties from other entities in the hierarchy. For example, menu items may inherit their prices from a parent menu group or modifier options may inherit a price from their underlying item reference.
+The Toast platform's menu structure is a hierarchical structure where menu entities can inherit properties from other entities in the hierarchy. For example, menu items may inherit their prices from a parent menu group or modifier options may inherit a price from their underlying [item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
 
 The menus API returns JSON that is as fully resolved as possible. This means, whenever possible, menu data is resolved down to the menu item or modifier option level. For example, if a menu item inherits its price from a menu group, that price is returned as part of the menu item's JSON data, not as part of the menu group's data.
 

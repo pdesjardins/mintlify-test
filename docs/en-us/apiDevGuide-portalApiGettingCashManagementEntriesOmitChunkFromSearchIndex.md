@@ -33,5 +33,5 @@ This section provides information about using Toast APIs to perform cash managem
 > The cash management API does not provide information about guests' cash payments for orders. You can get order payment information by using the orders API. For more information about the orders API, see [Orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview).
 
 
-For general information about cash management in the Toast POS, see [adminGuide#adminCashManagementOverview].
+For general information about cash management in the Toast POS, see [Cash management overview](adminCashManagementOmitChunkFromSearchIndex.html#adminCashManagementOverview).
 

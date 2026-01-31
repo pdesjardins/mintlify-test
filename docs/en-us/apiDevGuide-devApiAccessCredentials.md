@@ -59,7 +59,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 **Procedure 1.15. To update an employee’s locked access to full access**
 
-1. Access Toast Web.
+1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
 
 
 2. A Toast employee or restaurant operator with full-access goes to Employees > Employee management > Employeesto open the Employees page. 
@@ -80,7 +80,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 **Procedure 1.16. To update your read-only access to full access**
 
-1. Access Toast Web.
+1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
 
 
 2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page. 
@@ -123,7 +123,7 @@ The following procedure describes how to create standard API access credentials 
 
 **Procedure 1.17. To create Standard API credentials**
 
-1. Access Toast Web.
+1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
 
 
 2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page.

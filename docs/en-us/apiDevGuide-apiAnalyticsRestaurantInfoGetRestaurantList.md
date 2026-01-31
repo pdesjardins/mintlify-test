@@ -42,8 +42,8 @@ The rate limit for this endpoint and method type is five requests per second and
 The following example shows a **curl** command that sends a `GET` request to the `/era/v1/restaurants-information` endpoint.
 
 ```
-curl -X GET 'https://*`[toast-api-hostname]`*/era/v1/restaurants-information' \[(1)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270-co)
--H 'Authorization: Bearer *`[token]`*'[(2)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \[(1)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+-H 'Authorization: Bearer `[token]`'[(2)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270-co)
 
 ```
 

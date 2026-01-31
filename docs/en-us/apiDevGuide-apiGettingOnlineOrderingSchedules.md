@@ -58,7 +58,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" [(1)](apiDevGuide-apiGettingOnlineOrderingSchedules.h
   
 **Example 6.7. Response containing a restaurant's online ordering schedule**
 
-The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the Online ordering hours section on the Takeout & delivery page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
+The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the [Online ordering hours](adminConfigureOnlineOrderingHoursOverview.html) section on the Takeout & delivery page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
 
 
 
@@ -179,7 +179,7 @@ The following example shows a restaurant location's online ordering schedule for
 
 (2) The local time in HH:MM format.
 
-(3) Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see [adminGuide#adminConfigureOverridesOnOnlineOrderingHours].
+(3) Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see Configuring overrides.
 
 (4) Indicates which diningOptionBehavior the override applies to.
 

@@ -21,13 +21,13 @@ There are situations where additional context is needed before a price can be de
 
 You use the `pricingStrategy` and `pricingRules` values to calculate prices for:
 
-- Menu items that use either the Time Specific Price or Size Price pricing strategy.
+- Menu items that use either the [Time Specific Price](adminTimeSpecificPrice.html) or [Size Price](adminSizePrice.html) pricing strategy.
 
 
-- Modifier options that inherit their prices from a parent modifier group that uses the Size Price, Sequence Price, or Size/Sequence Pricepricing strategy.
+- Modifier options that inherit their prices from a parent modifier group that uses the [Size Price](adminSizePrice.html), [Sequence Price](adminSequencePrice.html), or [Size/Sequence Price](adminSizeSequencePrice.html)pricing strategy.
 
 
-- Modifier options that get their prices from modifier option item references that use the Time Specific Price or Size Price pricing strategy.
+- Modifier options that get their prices from modifier option [item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference) that use the [Time Specific Price](adminTimeSpecificPrice.html) or [Size Price](adminSizePrice.html) pricing strategy.
 
 
 
@@ -270,11 +270,11 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
   
 #### Calculating prices for modifier options that inherit a price from a modifier group
 
-Modifier options that are priced at the group level, using the Size Price, Sequence Price, or Size/Sequence Price pricing strategy, require additional price calculation. You can determine if a modifier option is priced this way by inspecting the modifier option's `price` and `pricingStrategy` values. If the `pricingStrategy` value is `GROUP_PRICE`, then the modifier option has been priced at the group level. If the modifier option's `price` value is `null`, it means that the group price is one that cannot be resolved down to the modifier option level and it requires additional calculation. This indicates that the modifier group uses the Size Price, Sequence Price, or Size/Sequence Price pricing strategy because those are the group-level pricing strategies that require additional calculation.
+Modifier options that are priced at the group level, using the [Size Price](adminSizePrice.html), [Sequence Price](adminSequencePrice.html), or [Size/Sequence Price](adminSizeSequencePrice.html) pricing strategy, require additional price calculation. You can determine if a modifier option is priced this way by inspecting the modifier option's `price` and `pricingStrategy` values. If the `pricingStrategy` value is `GROUP_PRICE`, then the modifier option has been priced at the group level. If the modifier option's `price` value is `null`, it means that the group price is one that cannot be resolved down to the modifier option level and it requires additional calculation. This indicates that the modifier group uses the Size Price, Sequence Price, or Size/Sequence Price pricing strategy because those are the group-level pricing strategies that require additional calculation.
 
 ##### Modifier option that inherits a size price from a modifier group
 
-When calculating size pricing for a modifier option, the Toast platform determines which size of a menu item has been ordered and then it locates the coordinating size and price for the modifier option. For example, toppings on a small pizza are $1 while toppings on a large pizza are $2. This scenario requires that both the menu item and the modifier group are configured to use the Size Price pricing strategy.
+When calculating [size pricing](adminSizePrice.html) for a modifier option, the Toast platform determines which size of a menu item has been ordered and then it locates the coordinating size and price for the modifier option. For example, toppings on a small pizza are $1 while toppings on a large pizza are $2. This scenario requires that both the menu item and the modifier group are configured to use the Size Price pricing strategy.
 
 In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PRICE` and it has two sizes defined, Small and Large, priced at $8 and $10 respectively (for information on size pricing for a menu item, see [Menu item with a size price](apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#apiMenuItemWithASizePrice_V2)). The Toppings modifier group's `pricingStrategy` is also `SIZE_PRICE`and its sizes and prices are defined in its own `pricingRules` value.
 
@@ -482,7 +482,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
   
 ##### Modifier option that inherits a sequence price from a modifier group
 
-When using sequence pricing, the cost of a modifier option depends on the order in which it is added to a menu item. For example, on a pizza menu item, the first topping is free, the second topping costs $1.00, the third topping costs $1.50, and all additional toppings cost $2.00. As modifier options are added to or removed from the menu item, the cost of the menu item is updated to reflect those choices.
+When using [sequence pricing](adminSequencePrice.html), the cost of a modifier option depends on the order in which it is added to a menu item. For example, on a pizza menu item, the first topping is free, the second topping costs $1.00, the third topping costs $1.50, and all additional toppings cost $2.00. As modifier options are added to or removed from the menu item, the cost of the menu item is updated to reflect those choices.
 
 Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence Price pricing strategy has no interaction with the pricing strategy of the menu item that a modifier option is applied to. In the example below, the Cheese Pizza menu item has two sizes, Small ($8) and Large ($10). The first topping added to either size costs $1, the second topping costs $2, and all additional toppings cost $2.50. So, a small Cheese Pizza with two toppings costs $11 while a large Cheese Pizza with two toppings costs $13.
 
@@ -671,7 +671,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
   
 ##### Modifier option that inherits a size/sequence price from a modifier group
 
-With size/sequence pricing, the cost of a modifier option depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1 while the first topping on a large pizza is $1.50 and additional toppings are $2.50. To configure size/sequence pricing, the menu item must use the Size Price pricing strategy and the modifier group must use the Size/Sequence Price pricing strategy.
+With [size/sequence pricing](adminSizeSequencePrice.html), the cost of a modifier option depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1 while the first topping on a large pizza is $1.50 and additional toppings are $2.50. To configure size/sequence pricing, the menu item must use the Size Price pricing strategy and the modifier group must use the Size/Sequence Price pricing strategy.
 
 In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PRICE` and it has two sizes defined, Small and Large, priced at $8 and $10 respectively (for information on size pricing for a menu item, see [Menu item with a size price](apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#apiMenuItemWithASizePrice_V2)). The Toppings modifier group's `pricingStrategy` is `SIZE_SEQUENCE_PRICE` and it defines that the first topping on a small Cheese Pizza costs $1 while the second topping costs $2. Likewise, the first topping on a large Cheese Pizza costs $3 and the second topping costs $4.
 
@@ -876,7 +876,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
   
 #### Calculating prices for modifier options that use their item reference price
 
-This section describes the `pricingRules` and `pricingStrategy` values when you have configured a modifier option so that it uses the price of its underlying item reference and that item reference uses the Time Specific Price or Size Price pricing strategy.
+This section describes the `pricingRules` and `pricingStrategy` values when you have configured a modifier option so that it uses the price of its underlying [item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference) and that item reference uses the Time Specific Price or Size Price pricing strategy.
 
 ##### Modifier option that uses a time specific price from its item reference
 

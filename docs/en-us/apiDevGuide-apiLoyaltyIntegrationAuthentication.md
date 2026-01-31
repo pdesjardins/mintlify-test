@@ -34,14 +34,14 @@ You use the public key that matches the Toast environment that you are integrati
 - For the production environment (real transactions) send a `GET` request to the following endpoint.
 
 ```
-https://*`[toast-production-api-hostname]`*/usermgmt/v1/oauth/token_key
+https://`[toast-production-api-hostname]`/usermgmt/v1/oauth/token_key
 ```
 
 
 - For the sandbox environment (testing transactions) send a `GET` request to the following endpoint.
 
 ```
-https://*`[toast-sandbox-api-hostname]`*/usermgmt/v1/oauth/token_key
+https://`[toast-sandbox-api-hostname]`/usermgmt/v1/oauth/token_key
 ```
 
 

@@ -19,7 +19,7 @@ codeExamples: 0
 
 A discount is a reduction to the price of a check or a menu item selection. You can include discounts when you create an order, and add discounts to an existing order.
 
-To configure the available discounts at your restaurant, you use the Discounts screen of Toast Web. For more information about discounts in the Toast platform, see [adminGuide#adminAvailableDiscounts].
+To configure the available discounts at your restaurant, you use the Discounts screen of Toast Web. For more information about discounts in the Toast platform, see [Using the Discounts page](adminAvailableDiscounts.html).
 
 #### Types of discounts
 
@@ -318,7 +318,7 @@ The following example shows a discount applied to a menu item selection.
 
 You can apply more than one check-level discount to a check.
 
-Check-level and BOGO discounts have an Allow with other discountssetting. This setting determines whether the discount can be applied at the same time as other check-level and BOGO discounts.
+Check-level and BOGO discounts have an [Allow with other discounts](adminDiscountExclusivity.html)setting. This setting determines whether the discount can be applied at the same time as other check-level and BOGO discounts.
 
 - If Allow with other discounts is enabled, then the discount can be combined with other check-level or BOGO discounts. This includes check-level or BOGO discounts that have Allow with other discounts disabled.
 
@@ -522,14 +522,14 @@ Use the following endpoints to add discounts to an existing order:
 ****Check-level discounts****
 : To add check-level discounts, send the `POST`message to:
 
-`/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/appliedDiscounts`
+`/orders/`{orderGuid}`/checks/`{checkGuid}`/appliedDiscounts`
 
 
 
 ****Item-level discounts****
 : To add an item-level discount, send the `POST`message to:
 
-`/orders/*`{orderGuid}`*/checks/*`{checkGuid}`*/selections/*`{selectionGuid}`*/appliedDiscounts`
+`/orders/`{orderGuid}`/checks/`{checkGuid}`/selections/`{selectionGuid}`/appliedDiscounts`
 
 
 
@@ -693,7 +693,7 @@ When you use the orders API to add discounts to an order, the orders API verifie
 
 
 
-For more information about discount eligibility and combining discounts, see the discounts information in the *Toast Platform Guide*.
+For more information about discount eligibility and combining discounts, see the [discounts information](adminDiscountsIntroOmitChunkFromSearchIndex.html#platformDiscountsOverview) in the *Toast Platform Guide*.
 
 ##### Determining whether a menu item allows discounts
 
@@ -1207,7 +1207,7 @@ The following example shows a check being applied to a loyalty program account.
       },
       "appliedLoyaltyInfo": {[(1)](apiDevGuide-apiDiscountingOrders.html#d1e29207557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
         "loyaltyIdentifier": "6000101001599474",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e29407557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
-        "vendor": "*`MYLOYALTYPROVIDER`*"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
+        "vendor": "`MYLOYALTYPROVIDER`"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
       },
       "selections": [
         {

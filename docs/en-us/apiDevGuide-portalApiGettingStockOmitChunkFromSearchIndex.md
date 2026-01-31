@@ -49,7 +49,7 @@ Stock updates do not represent changes to the menu itself. Updating the menu and
 
 > **Note**
 > 
-> Modifiers are supported by an underlying menu item, called the modifier's item reference. Therefore, in this section, the term *menu item* is used to generically refer to both standalone menu items and modifier item references, because the same data is returned for both entities. For detailed information on modifier item references, see [adminGuide#adminUnderstandingAModifierOptionsItemReference].
+> Modifiers are supported by an underlying menu item, called the modifier's item reference. Therefore, in this section, the term *menu item* is used to generically refer to both standalone menu items and modifier item references, because the same data is returned for both entities. For detailed information on modifier item references, see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
 
 
 

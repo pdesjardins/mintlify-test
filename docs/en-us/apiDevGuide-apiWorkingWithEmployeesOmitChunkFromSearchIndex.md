@@ -50,7 +50,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex.html#d1e17121EC7EA2-706D-4B5B-B210-636982B89D94-co)
 -H "Content-Type: application/json" \[(2)](apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex.html#d1e17321EC7EA2-706D-4B5B-B210-636982B89D94-co)
 -d @my-new-employee-data.json \[(3)](apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex.html#d1e17521EC7EA2-706D-4B5B-B210-636982B89D94-co)
-https://*`[toast-api-hostname]`*/labor/v1/employees
+https://`[toast-api-hostname]`/labor/v1/employees
 ```
 
 
