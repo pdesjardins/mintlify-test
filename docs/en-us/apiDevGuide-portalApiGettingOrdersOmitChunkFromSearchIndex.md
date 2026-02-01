@@ -76,10 +76,10 @@ txKL1L-K2j1Enoq8An8hEM6e8J0KdAiwrYFO3W3CmWedaoz95K9ghNZVCs28
 Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
-dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e12909EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(2)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e13109EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+dWq4Yzwo007AMgxjH9d241Y-g" \
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
 "https://`[toast-api-hostname]`/orders/v2/orders/
-017fdd94-4a30-4657-9475-b1a684758531"[(3)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e13309EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+017fdd94-4a30-4657-9475-b1a684758531"
 ```
 
 
@@ -96,7 +96,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
 
 ```
 {
-  "guid": "017fdd94-4a30-4657-9475-b1a684758531",[(1)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e15009EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+  "guid": "017fdd94-4a30-4657-9475-b1a684758531",
   "entityType": "Order",
   "externalId": null,
   "revenueCenter": {
@@ -115,7 +115,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
   "createdDevice": {
       "id": "175785aa78a7c4dc"
   },
-  "deliveryInfo": {[(2)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersDeliveryInfo2)
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -126,7 +126,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
     "notes": ""
   },
   "serviceArea": null,
-  "curbsidePickupInfo": {[(3)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersCurbsideInfo2)
+  "curbsidePickupInfo": {
     "entityType": "CurbsidePickup",
     "notes": "Convertible with top down",
     "transportColor": "blue",
@@ -210,7 +210,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
             "externalId": null
           },
           "quantity": 1,
-          "receiptLinePrice": 1,[(4)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#co-receiptLinePrice)
+          "receiptLinePrice": 1,
           "preDiscountPrice": 1,
           "voidReason": null,
           "optionGroup": null,
@@ -218,7 +218,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
           "appliedDiscounts": [],
           "tax": 0.06,
           "modifiers": [],
-          "seatNumber": -1,[(5)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#coSeatNumber)
+          "seatNumber": -1,
           "voidDate": null,
           "fulfillmentStatus": "SENT",
           "optionGroupPricingMode": null,
@@ -265,7 +265,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
       "taxAmount": 0.06,
       "appliedServiceCharges": [],
       "paymentStatus": "CLOSED",
-      "customer": {[(6)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersCustomer2)
+      "customer": {
           "entityType": "Customer",
           "firstName": "Jack",
           "lastName": "Jones",
@@ -392,11 +392,11 @@ txKL1L-K2j1Enoq8An8hEM6e8J0KdAiwrYFO3W3CmWedaoz95K9ghNZVCs28
 Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
-dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(2)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
-"https://`[toast-api-hostname]`/orders/v2/ordersBulk?[(3)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
-startDate=2020-03-02T19:10:30.000Z&endDate=2020-03-02T22:00:00.000Z&[(4)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
-pageSize=10&page=2"[(5)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320-co)
+dWq4Yzwo007AMgxjH9d241Y-g" \
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+"https://`[toast-api-hostname]`/orders/v2/ordersBulk?
+startDate=2020-03-02T19:10:30.000Z&endDate=2020-03-02T22:00:00.000Z&
+pageSize=10&page=2"
 ```
 
 
@@ -418,7 +418,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 ```
 [
   {
-    "guid": "5274c0f8-bf61-4e37-ad04-cf4ca1326822",[(1)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e21648C855F0-89F9-4824-A080-F12BBC4F767E-co)
+    "guid": "5274c0f8-bf61-4e37-ad04-cf4ca1326822",
     "entityType": "Order",
     "externalId": null,
     "revenueCenter": null,
@@ -441,7 +441,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
     "table": null,
     "requiredPrepTime": "PT30M",
     "approvalStatus": "FUTURE",
-    "deliveryInfo": {[(2)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersBulkDeliveryInfo2)
+    "deliveryInfo": {
       "address1": "401 Park Drive",
       "address2": "Suite 801",
       "city": "Boston",
@@ -452,7 +452,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
       "notes": ""
     },
     "serviceArea": null,
-    "curbsidePickupInfo": {[(3)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersBulkCurbsideInfo2)
+    "curbsidePickupInfo": {
       "entityType": "CurbsidePickup",
       "notes": "Convertible with top down",
       "transportColor": "blue",
@@ -546,7 +546,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
         "modifiedDate": "2020-03-02T19:17:02.609+0000",
         "taxAmount": 0,
         "appliedServiceCharges": [],
-        "customer": {[(4)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersBulkCustomer2)
+        "customer": {
           "entityType": "Customer",
           "firstName": "Jack",
           "lastName": "Jones",
@@ -568,7 +568,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
     ]
   },
   {
-    "guid": "529d9853-e28a-482b-9ee7-41580b0a53d0",[(5)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e21848C855F0-89F9-4824-A080-F12BBC4F767E-co)
+    "guid": "529d9853-e28a-482b-9ee7-41580b0a53d0",
     "entityType": "Order",
 
     `[contents omitted]`
@@ -925,8 +925,8 @@ The following example shows the orders API return data for a marketplace facilit
               "rate": 0.0625,
               "name": "State Tax",
               "taxAmount": 0.31,
-              "type": "PERCENT",[(1)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e31CC34B3B2-D5E8-41EC-A472-B380E595E5A4-co)
-              "facilitatorCollectAndRemitTax": true[(2)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e33CC34B3B2-D5E8-41EC-A472-B380E595E5A4-co)
+              "type": "PERCENT",
+              "facilitatorCollectAndRemitTax": true
             }
           ],
           "itemGroup": {
@@ -1008,8 +1008,8 @@ The marketplace facilitator submits those prices and tax amounts to the Toast pl
               "rate": null,
               "name": "Marketplace Facilitator Taxes Paid",
               "taxAmount": 0.1,
-              "type": "EXTERNAL",[(1)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e47CC34B3B2-D5E8-41EC-A472-B380E595E5A4-co)
-              "facilitatorCollectAndRemitTax": true[(2)](apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.html#d1e49CC34B3B2-D5E8-41EC-A472-B380E595E5A4-co)
+              "type": "EXTERNAL",
+              "facilitatorCollectAndRemitTax": true
             }
           ],
           "itemGroup": {
@@ -1064,7 +1064,7 @@ The following sections detail multiple methods for locating either an order GUID
 - Send a `GET` request to the `/ordersBulk` endpoint and retrieve the details for orders updated during a specific time interval. The order details include the order GUID. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information on using the `/ordersBulk` endpoint.
 
 
-- Locate the order in Toast Web using the Orders report from Reports > Sales > Orders. Use the View filter, at the top of the report, to help locate your order. Once located, select the order, and the GUID is displayed as seen below.
+- Locate the order in Toast Web using the Orders report from Reports \> Sales \> Orders. Use the View filter, at the top of the report, to help locate your order. Once located, select the order, and the GUID is displayed as seen below.
 
 ![Shows the Order Details page with the order GUID emphasized.](https://doc.toasttab.com/doc/media/order_locate_order_guid.png)
 
@@ -1075,7 +1075,7 @@ The following sections detail multiple methods for locating either an order GUID
 - If you know the order GUID, you can send a `GET`request to the `/orders` endpoint and retrieve the order details, which include the check GUID. See [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 
 
-- Locate the order in Toast Web using the Orders report from Reports > Sales > Orders. Use the date selector to locate your order. Once located, select the order, and find the check. The GUID is displayed as seen below.
+- Locate the order in Toast Web using the Orders report from Reports \> Sales \> Orders. Use the date selector to locate your order. Once located, select the order, and find the check. The GUID is displayed as seen below.
 
 ![Shows the Order Details page with the check GUID emphasized.](https://doc.toasttab.com/doc/media/order_locate_check_guid.png)
 

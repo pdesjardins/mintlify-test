@@ -16,7 +16,7 @@ codeExamples: 0
 
 The details page for each menu item or modifier has a Does this item contain alcohol setting, under the Properties section. This setting identifies whether the menu item or modifier contains alcohol in cases where orders containing alcohol benefit from additional handling. For example, local laws might require an ID check or prevent accrual of loyalty points.
 
-To navigate to the details page for the menu item, select Menus > Bulk management > Advanced properties. Expand the menu and menu group that you want to add a new menu item to or contains the menu item you want to update.
+To navigate to the details page for the menu item, select Menus \> Bulk management \> Advanced properties. Expand the menu and menu group that you want to add a new menu item to or contains the menu item you want to update.
 
 - For new menu items, select the name of the menu group you want to add the menu item to. Navigate to the Itemssection, select the Add drop-down list, and choose Create New Item.
 
@@ -27,7 +27,7 @@ To navigate to the details page for the menu item, select Menus > Bulk managemen
 
 You see the details page for the menu item. Navigate to the Properties section to see the Does this item contain alcohol setting.
 
-To navigate to the details page for the modifier, select Menus > Bulk management > Advanced properties. Expand the menu, menu group, and modifier group that you want to add a new modifier to or contains the modifier you want to update.
+To navigate to the details page for the modifier, select Menus \> Bulk management \> Advanced properties. Expand the menu, menu group, and modifier group that you want to add a new modifier to or contains the modifier you want to update.
 
 - For new modifiers, select the modifier group name you want to add the modifier to. Navigate to the Modifiers section, select the Add drop-down list, and choose New Modifier from New Item.
 

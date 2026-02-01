@@ -112,21 +112,21 @@ The following example shows the JSON message body to `PUT` a credit card payment
 8n3wSeLV3Qomn0VvAd+5YT8bUijVs0aRUy3u34DpYwMkon0WMkq8BNGQWk3Whd
 3qJEdi/SagofuO0yExxlixklflwAIkbuZZ2tHtp+FV7n+UAfXPeSgXRrX6Rkal
 ir3OKZtUrC8aiymc7Xs9G4w4+bDBa/kArP1D7e3A42+wIsQicc9rL//B0GyQll
-Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",[(1)](apiDevGuide-authorizingCcPayments.html#d1e111F291C744-5561-42C1-BD4E-F18BB8532F7A-co)
-  "keyId": "RSA-OAEP-SHA256::a253759c-1c91-4f22-9db9-71ba24738f8d_PartnerName"[(2)](apiDevGuide-authorizingCcPayments.html#d1e113F291C744-5561-42C1-BD4E-F18BB8532ABC)
-  "amount": 98.76,[(3)](apiDevGuide-authorizingCcPayments.html#d1e113F291C744-5561-42C1-BD4E-F18BB8532F7A-co)
-  "tipAmount": 24.69,[(4)](apiDevGuide-authorizingCcPayments.html#d1e115F291C744-5561-42C1-BD4E-F18BB8532F7A-co)
-  "willSaveCard": true,[(5)](apiDevGuide-authorizingCcPayments.html#CCwillSaveCard)
-  "cardNumberOrigin": "PARTNER_VAULT",[(6)](apiDevGuide-authorizingCcPayments.html#CCcardNumberOrigin)
+Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
+  "keyId": "RSA-OAEP-SHA256::a253759c-1c91-4f22-9db9-71ba24738f8d_PartnerName"
+  "amount": 98.76,
+  "tipAmount": 24.69,
+  "willSaveCard": true,
+  "cardNumberOrigin": "PARTNER_VAULT",
   "requestMetadata": {
-    "localTransactionDate": "2019-08-24T22:00:00.000+0000",[(7)](apiDevGuide-authorizingCcPayments.html#d1e117F291C744-5561-42C1-BD4E-F18BB8532F7A-co)
-    "originIPAddr": "189.219.91.62",[(8)](apiDevGuide-authorizingCcPayments.html#d1e119F291C744-5561-42C1-BD4E-F18BB8532F7A-co)
+    "localTransactionDate": "2019-08-24T22:00:00.000+0000",
+    "originIPAddr": "189.219.91.62",
     "partnerServiceInfo": {
-      "instanceId": "my-api-client"[(9)](apiDevGuide-authorizingCcPayments.html#d1e122F291C744-5561-42C1-BD4E-F18BB8532F7A-co)
+      "instanceId": "my-api-client"
     },
-    "cardFirst6": "411111",[(10)](apiDevGuide-authorizingCcPayments.html#first6_link)
-    "cardLast4": "1111",[(11)](apiDevGuide-authorizingCcPayments.html#last4_link)
-    "billingAddress": {[(12)](apiDevGuide-authorizingCcPayments.html#billingAddress_link)
+    "cardFirst6": "411111",
+    "cardLast4": "1111",
+    "billingAddress": {
         "name": "Clark Kent",
         "phone": "555-555-5555",
         "address1": "123 Main Street",
@@ -136,7 +136,7 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",[(1)](apiDevGuide-au
         "postalCode": 02215,
         "country": "USA"
     },
-    "deliveryAddress": {[(13)](apiDevGuide-authorizingCcPayments.html#deliveryAddress_link)
+    "deliveryAddress": {
         "name": "Lois Lane",
         "phone": "111-555-5555",
         "address1": "789 Grand Avenue",
@@ -147,10 +147,10 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",[(1)](apiDevGuide-au
         "country": "USA"
     },
     "guestIdentifier": "toastyguest@domain.com",(14)
-    "guestEmail": "toastyguest@domain.com",[(15)](apiDevGuide-authorizingCcPayments.html#guestEmail_link)
-    "userAgent": "Browser/1.0",[(16)](apiDevGuide-authorizingCcPayments.html#userAgent_link)
-    "appName": "Our Company's Amazing Android App",[(17)](apiDevGuide-authorizingCcPayments.html#appName_link)
-    "appVersion": "4.2"[(18)](apiDevGuide-authorizingCcPayments.html#appVersion_link)
+    "guestEmail": "toastyguest@domain.com",
+    "userAgent": "Browser/1.0",
+    "appName": "Our Company's Amazing Android App",
+    "appVersion": "4.2"
   }
 }
 ```
@@ -324,11 +324,11 @@ The following example shows the JSON message body data that applies an authorize
 
       "payments": [
         {
-          "guid": "78700301-55B6-4C0F-8C69-69E8D3593850",[(1)](apiDevGuide-authorizingCcPayments.html#d1e195A18BC72A-4EBC-425E-BD6C-E5E3E35516D3-co)
-          "paidDate": "2018-01-24T22:00:00.000+0000",[(2)](apiDevGuide-authorizingCcPayments.html#d1e197A18BC72A-4EBC-425E-BD6C-E5E3E35516D3-co)
-          "type": "CREDIT",[(3)](apiDevGuide-authorizingCcPayments.html#d1e199A18BC72A-4EBC-425E-BD6C-E5E3E35516D3-co)
-          "amount": "98.76",[(4)](apiDevGuide-authorizingCcPayments.html#d1e201A18BC72A-4EBC-425E-BD6C-E5E3E35516D3-co)
-          "tipAmount": "24.69"[(5)](apiDevGuide-authorizingCcPayments.html#d1e203A18BC72A-4EBC-425E-BD6C-E5E3E35516D3-co)
+          "guid": "78700301-55B6-4C0F-8C69-69E8D3593850",
+          "paidDate": "2018-01-24T22:00:00.000+0000",
+          "type": "CREDIT",
+          "amount": "98.76",
+          "tipAmount": "24.69"
         }
       ]
     }
@@ -371,12 +371,12 @@ The following example shows credit card information that you encrypt and base64 
 
 ```
 {
-  "cardNumber" : "4111111111111111",[(1)](apiDevGuide-authorizingCcPayments.html#d1e5385CE9715-52F9-43FB-AB1A-9F382E163FBA-co)
-  "zipCode" : "01234",[(2)](apiDevGuide-authorizingCcPayments.html#d1e5585CE9715-52F9-43FB-AB1A-9F382E163FBA-co)
-  "cvv" : "321",[(3)](apiDevGuide-authorizingCcPayments.html#d1e5785CE9715-52F9-43FB-AB1A-9F382E163FBA-co)
-  "expMonth" : "01",[(4)](apiDevGuide-authorizingCcPayments.html#d1e5985CE9715-52F9-43FB-AB1A-9F382E163FBA-co)
-  "expYear" : "20",[(5)](apiDevGuide-authorizingCcPayments.html#d1e6185CE9715-52F9-43FB-AB1A-9F382E163FBA-co)
-  "country" : "USA"[(6)](apiDevGuide-authorizingCcPayments.html#apiCcEncryptedInfoCountry-co)
+  "cardNumber" : "4111111111111111",
+  "zipCode" : "01234",
+  "cvv" : "321",
+  "expMonth" : "01",
+  "expYear" : "20",
+  "country" : "USA"
 }
 ```
 
@@ -497,12 +497,12 @@ The following example UNIX command-line command uses the **openssl** version 1.1
 **Example 3.11. Example openssl commands to encrypt and base64 encode an encryptedCardData value**
 
 ```
-openssl pkeyutl \[(1)](apiDevGuide-authorizingCcPayments.html#d1e63595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
--in `my-credit-card-information.json` \[(2)](apiDevGuide-authorizingCcPayments.html#d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
--encrypt -pubin -inkey `my-public-key.pem` \[(3)](apiDevGuide-authorizingCcPayments.html#d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
--pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_mgf1_md:sha256 -pkeyopt rsa_oaep_md:sha256 \[(4)](apiDevGuide-authorizingCcPayments.html#d1e64895B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
-| openssl base64 \[(5)](apiDevGuide-authorizingCcPayments.html#d1e65095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
-| tr -d "\n"[(6)](apiDevGuide-authorizingCcPayments.html#d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387-co)
+openssl pkeyutl \
+-in `my-credit-card-information.json` \
+-encrypt -pubin -inkey `my-public-key.pem` \
+-pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_mgf1_md:sha256 -pkeyopt rsa_oaep_md:sha256 \
+| openssl base64 \
+| tr -d "\n"
 ```
 
 

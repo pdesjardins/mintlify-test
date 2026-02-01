@@ -23,6 +23,6 @@ The menu builder is a lightweight, easy-to-use tool that lets you quickly create
 
 > **Important**
 > 
-> This section applies to the menu builder workflow accessed via Menus > Menu management > Menu builder. It does not apply to the menu workflows accessed via Menus > Menu management > Edit menus. or Menus > Menu manager.
+> This section applies to the menu builder workflow accessed via Menus \> Menu management \> Menu builder. It does not apply to the menu workflows accessed via Menus \> Menu management \> Edit menus. or Menus \> Menu manager.
 
 

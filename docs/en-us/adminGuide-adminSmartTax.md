@@ -53,7 +53,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 - [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-- Choose Front of house > Order screen setup > UI options to open the UI Optionspage.
+- Choose Front of house \> Order screen setup \> UI options to open the UI Optionspage.
 
 
 - In the Tax options section, set Smart tax to On.
@@ -66,7 +66,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 2. Turn on smart tax for the menu components that should use it:
 
-- Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+- Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 - From the Show/Hide drop-down menu, select Tax Inclusion Option to add that column to the view.

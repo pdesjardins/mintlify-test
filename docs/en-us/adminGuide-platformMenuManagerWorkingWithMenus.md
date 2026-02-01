@@ -31,7 +31,7 @@ For multi-location restaurants, newly created menus are automatically targeted a
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -58,7 +58,7 @@ Follow the procedure below to rename a menu.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -88,7 +88,7 @@ Your Toast ordering channels display your menus in the order you see them in the
 
 > **Note**
 > 
-> If you have a multi-location restaurant, you cannot reorder menus in Full menu view. You must use the Menus > Edit menus page instead.
+> If you have a multi-location restaurant, you cannot reorder menus in Full menu view. You must use the Menus \> Edit menus page instead.
 
 
 **Procedure 8.47. To reorder a menu**
@@ -96,7 +96,7 @@ Your Toast ordering channels display your menus in the order you see them in the
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -128,7 +128,7 @@ For multi-location restaurants:
 
 > **Note**
 > 
-> To undo a menu archive, go to the Menus > Bulk management > Items database page in Toast Web. Select the Menus tab and then choose Show Archived. Select the checkbox for the menu you want to restore and choose Restore.
+> To undo a menu archive, go to the Menus \> Bulk management \> Items database page in Toast Web. Select the Menus tab and then choose Show Archived. Select the checkbox for the menu you want to restore and choose Restore.
 
 
 **Procedure 8.48. To archive a menu**
@@ -136,7 +136,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -332,7 +332,7 @@ Alternatively, you can do the following:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Kitchen > Pacing > Courses.
+- Select Kitchen \> Pacing \> Courses.
 
 
 
@@ -410,7 +410,7 @@ Alternatively, you can:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Menus > Settings > Sales categories.
+- Select Menus \> Settings \> Sales categories.
 
 
 
@@ -441,7 +441,7 @@ For multi-location restaurants, the time period you specify is in each location'
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -490,7 +490,7 @@ The side panel for each menu has a Channel visibility section that shows the cha
 
 - Customer invoices, Catering & Events, Catering Online Ordering: The menu entity is visible when:
 
-- Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
+- Creating customer invoices for orders using the Payments \> Payment methods \> Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
 
 
 - Creating catering orders using Toast Catering & Events. For information, see this [Toast Central article](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).

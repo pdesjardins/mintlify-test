@@ -548,21 +548,21 @@ You can also specify that the menu item [inherits modifier groups](adminAddingMo
 
 
 
-9. In the Kitchen > Prep stationssection, you specify the prep stations this menu item is sent to when it is ordered. By default, a menu item inherits its prep stations from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
+9. In the Kitchen \> Prep stationssection, you specify the prep stations this menu item is sent to when it is ordered. By default, a menu item inherits its prep stations from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
 
 You can choose to disable inheritance and specify prep stations specifically for this menu item.
 
 For more information, see [Assigning prep stations](adminAssigningPrepStationsMenuBuilder.html).
 
 
-10. In the Kitchen > Courses section, you specify the courses assigned to this menu item. By default, a menu item inherits its course from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
+10. In the Kitchen \> Courses section, you specify the courses assigned to this menu item. By default, a menu item inherits its course from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
 
 You can choose to disable inheritance and specify courses specifically for this menu item.
 
 For more information, see [Assigning courses](adminAssigningCourses.html).
 
 
-11. In the Reporting > Sales categorysection, you specify the sales category assigned to this menu item. By default, a menu item inherits its sales category from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
+11. In the Reporting \> Sales categorysection, you specify the sales category assigned to this menu item. By default, a menu item inherits its sales category from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
 
 You can choose to disable inheritance and specify a sales category specifically for this menu item.
 
@@ -743,7 +743,7 @@ At the top of the details page for each menu group, subgroup, menu item, or modi
 
 ![The breadcrumbs at the top of a menu item details page.](https://doc.toasttab.com/doc/media/menu-builder-breadcrumbs.png)
 
-Longer breadcrumb trails are shortened using an ellipsis (...) that represents additional menu hierarchy levels above the one you are currently viewing. Select the ellipsis to see a list of the menu entities you can navigate back to. In the example below, the full breadcrumb trail is **Dinner > Grilled Meats > Beef > Burgers > Cheeseburger** and the **Grilled Meats** and Beef menu groups are collapsed into the ellipsis menu.
+Longer breadcrumb trails are shortened using an ellipsis (...) that represents additional menu hierarchy levels above the one you are currently viewing. Select the ellipsis to see a list of the menu entities you can navigate back to. In the example below, the full breadcrumb trail is **Dinner \> Grilled Meats \> Beef \> Burgers \> Cheeseburger** and the **Grilled Meats** and Beef menu groups are collapsed into the ellipsis menu.
 
 ![A longer breadcrumb that is collapsed using an ellipsis.](https://doc.toasttab.com/doc/media/menu-builder-breadcrumbs-for-mod-group.png)
 

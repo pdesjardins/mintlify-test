@@ -131,7 +131,7 @@ Guests can pay their invoice on Toast Web or from the pay link in their invoice 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Payments > Payment methods > House accounts to open the Accountspage.
+2. Go to Payments \> Payment methods \> House accounts to open the Accountspage.
 
 
 3. On the Accounts page, select the house account. This opens the House account profile page.

@@ -88,11 +88,11 @@ The following example shows the `prepTimes` object from the response from a `GET
 
 ```
   "prepTimes": {
-    "deliveryPrepTime": 60,[(1)](apiDevGuide-calculatingOrderWaitTime.html#d1e34136459DE-07E9-4B54-81B7-2199831BCEFD-co)
-    "deliveryThrottlingTime": 0,[(2)](apiDevGuide-calculatingOrderWaitTime.html#d1e49136459DE-07E9-4B54-81B7-2199831BCEFD-co)
-    "takeoutPrepTime": 30,[(3)](apiDevGuide-calculatingOrderWaitTime.html#d1e40136459DE-07E9-4B54-81B7-2199831BCEFD-co)
-    "takeoutThrottlingTime": 0,[(4)](apiDevGuide-calculatingOrderWaitTime.html#d1e47136459DE-07E9-4B54-81B7-2199831BCEFD-co)
-    "deliveryTimeAfterOpen": 0,[(5)](apiDevGuide-calculatingOrderWaitTime.html#d1e36136459DE-07E9-4B54-81B7-2199831BCEFD-co)
+    "deliveryPrepTime": 60,
+    "deliveryThrottlingTime": 0,
+    "takeoutPrepTime": 30,
+    "takeoutThrottlingTime": 0,
+    "deliveryTimeAfterOpen": 0,
     "deliveryTimeBeforeClose": 0,
     "takeoutTimeAfterOpen": 0,
     "takeoutTimeBeforeClose": 0
@@ -123,33 +123,33 @@ The following example shows the `schedules` value with the opening and closing t
 ```
 "schedules": {
   "daySchedules": {
-    "1495000000000023": {[(1)](apiDevGuide-calculatingOrderWaitTime.html#d1e11738A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
+    "1495000000000023": {
       "scheduleName": "Weekdays",
       "services": [
         
         [contents omitted]
       ],
-      "openTime": "06:00:00.000",[(2)](apiDevGuide-calculatingOrderWaitTime.html#d1e11938A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
-      "closeTime": "02:00:00.000"[(3)](apiDevGuide-calculatingOrderWaitTime.html#d1e12138A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
+      "openTime": "06:00:00.000",
+      "closeTime": "02:00:00.000"
     },
-    "1495000000000024": {[(4)](apiDevGuide-calculatingOrderWaitTime.html#d1e12338A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
+    "1495000000000024": {
       "scheduleName": "Weekends",
       "services": [
         
         [contents omitted]
         
       ],
-      "openTime": "11:00:00.000",[(5)](apiDevGuide-calculatingOrderWaitTime.html#d1e12538A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
-      "closeTime": "05:00:00.000"[(6)](apiDevGuide-calculatingOrderWaitTime.html#d1e12838A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
+      "openTime": "11:00:00.000",
+      "closeTime": "05:00:00.000"
     }
   },
   "weekSchedule": {
-    "monday": "1495000000000023",[(7)](apiDevGuide-calculatingOrderWaitTime.html#d1e13038A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
+    "monday": "1495000000000023",
     "tuesday": "1495000000000023",
     "wednesday": "1495000000000023",
     "thursday": "1495000000000023",
     "friday": "1495000000000023",
-    "saturday": "1495000000000024",[(8)](apiDevGuide-calculatingOrderWaitTime.html#d1e13238A7ED93-4BA1-46CE-89EF-D4AB1AFCB058-co)
+    "saturday": "1495000000000024",
     "sunday": "1495000000000024"
   }
 }

@@ -45,7 +45,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -102,7 +102,7 @@ When reusing a menu item in multiple menu groups, keep in mind that:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -132,7 +132,7 @@ Follow the procedure below to rename a menu item.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -175,7 +175,7 @@ You can reorder menu items within a single menu group. You cannot move a menu it
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -223,7 +223,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -268,7 +268,7 @@ For multi-location restaurants:
 
 > **Note**
 > 
-> To undo a menu item archive, go to the Menus > Bulk management > Items database page in Toast Web. Select the Items tab and then choose Show Archived. Select the checkbox for the menu item you want to restore and choose Restore.
+> To undo a menu item archive, go to the Menus \> Bulk management \> Items database page in Toast Web. Select the Items tab and then choose Show Archived. Select the checkbox for the menu item you want to restore and choose Restore.
 
 
 **Procedure 8.64. To archive a menu item**
@@ -276,7 +276,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -311,7 +311,7 @@ A menu item must be saved at least once before you can update its stock status.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -377,7 +377,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -430,7 +430,7 @@ Note that open prices are not supported for Toast Online Ordering, so you should
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Items.
@@ -483,7 +483,7 @@ Toast support recommends adding images to your menu items to make them more appe
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -520,7 +520,7 @@ Use the procedure below to add a description to a menu item.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -569,7 +569,7 @@ Use the procedure below to specify the calorie count for a menu item.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -603,7 +603,7 @@ Use the procedure below to specify a PLU or SKU for a menu item.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -646,7 +646,7 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -675,7 +675,7 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 
 You can use the Found in section of a menu item's details page to see which menus a menu item is included in and the path within each menu that an employee or guest must follow to get to the menu item. To quickly go to a menu or menu group in a menu path, select its name.
 
-For example, the menu item in the illustration below belongs to two menu paths: Lunch > Sandwiches and Dinner > Sandwiches.
+For example, the menu item in the illustration below belongs to two menu paths: Lunch \> Sandwiches and Dinner \> Sandwiches.
 
 ![An example of the Found in section of a menu item details page, showing the two menu paths for the item.](https://doc.toasttab.com/doc/media/menu-builder-found-in.png)
 
@@ -688,7 +688,7 @@ You can specify a kitchen name for a menu item. The kitchen name is used instead
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -786,7 +786,7 @@ Alternatively, you can do the following:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Kitchen > Pacing > Courses.
+- Select Kitchen \> Pacing \> Courses.
 
 
 
@@ -864,7 +864,7 @@ Alternatively, you can:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Menus > Settings > Sales categories.
+- Select Menus \> Settings \> Sales categories.
 
 
 
@@ -1041,7 +1041,7 @@ The side panel for each menu item has a Channel visibility section that shows th
 
 - Customer invoices, Catering & Events, Catering Online Ordering: The menu item is visible when:
 
-- Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
+- Creating customer invoices for orders using the Payments \> Payment methods \> Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
 
 
 - Creating catering orders using Toast Catering & Events. For information, see this [Toast Central article](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).
@@ -1084,7 +1084,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -1111,7 +1111,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Items.
@@ -1203,7 +1203,7 @@ Follow the instructions below to access the classic details page for a menu item
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -1258,7 +1258,7 @@ If you are a multi-location restaurant, select the item's name to open its class
 - If you have a single location, select Publish now.
 
 
-- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account > Publishing > Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
+- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
 
 
 

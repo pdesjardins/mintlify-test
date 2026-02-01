@@ -109,7 +109,7 @@ From the item reference page, you can set the item reference name and price. Thi
 - If you have a single location, select Publish now.
 
 
-- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account > Publishing > Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
+- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
 
 
 
@@ -159,7 +159,7 @@ The modifier's classic details page opens.
 - If you have a single location, select Publish now.
 
 
-- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account > Publishing > Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
+- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
 
 
 
@@ -231,7 +231,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -289,7 +289,7 @@ For multi-location restaurants, you must have the Edit Full Menu permission to t
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -348,7 +348,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -425,7 +425,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -484,7 +484,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -524,7 +524,7 @@ When a modifier group is priced at the group level, all modifiers in the group u
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -595,7 +595,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -625,7 +625,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -661,7 +661,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Modifiers.
@@ -704,7 +704,7 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Modifiers.

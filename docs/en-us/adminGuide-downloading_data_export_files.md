@@ -25,11 +25,11 @@ The Toast platform stores data export files for seven days, and then they are de
 - SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminSshKeys.html).
 
 
-- Server URL: To locate the appropriate Server URL, navigate to Reports > Settings > SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
+- Server URL: To locate the appropriate Server URL, navigate to Reports \> Settings \> SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
 
 
 
-Export IDs can also be obtained from Toast Web. Navigate to Reports > Settings > Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
+Export IDs can also be obtained from Toast Web. Navigate to Reports \> Settings \> Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
 
 ![Image](https://doc.toasttab.com/doc/media/export_ids_data_export.png)
 

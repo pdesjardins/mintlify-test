@@ -22,7 +22,7 @@ codeExamples: 0
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Select Front of house > Employee SOS > Text alert setup.
+2. Select Front of house \> Employee SOS \> Text alert setup.
 
 
 3. Under the Enable Text Alerts option, select Yes.
@@ -40,7 +40,7 @@ You see the SMS Messages, Who can receive SMS alerts, and Who can send SMS alert
 
 #### Configuring preset text messages
 
-The text alert feature comes with four preset text (SMS) messages that restaurant employees can send from Toast POS devices. The messages are listed in Toast Web in the order in which they appear on a POS device. From the Front of house > Employee SOS > Text alert setup page in Toast Web you can edit, delete, or reorder existing messages as well as add new messages to the list.
+The text alert feature comes with four preset text (SMS) messages that restaurant employees can send from Toast POS devices. The messages are listed in Toast Web in the order in which they appear on a POS device. From the Front of house \> Employee SOS \> Text alert setup page in Toast Web you can edit, delete, or reorder existing messages as well as add new messages to the list.
 
 **Procedure 4.14. To edit an existing text message**
 

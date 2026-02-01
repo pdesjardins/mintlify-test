@@ -58,7 +58,7 @@ Alternatively, you can do the following:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Kitchen > Pacing > Courses.
+- Select Kitchen \> Pacing \> Courses.
 
 
 

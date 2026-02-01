@@ -21,7 +21,7 @@ A deposit is cash removed from a restaurant to be deposited in a bank or other f
 
 The deposit is the actual amount of cash that you will deposit in the bank. The deposit amount should not include the sum of the starting balances for all cash drawers, because the starting balance cash is not deposited in the bank but remains in the cash drawers.
 
-By entering deposits into the Toast platform, you can later view them in the Reports > Cash and loss management > Drawer history > Cash drawer history report in Toast Web. The Cash drawer history report is a historical record of these transactions, and you can verify them against the deposit slips from your bank.
+By entering deposits into the Toast platform, you can later view them in the Reports \> Cash and loss management \> Drawer history \> Cash drawer history report in Toast Web. The Cash drawer history report is a historical record of these transactions, and you can verify them against the deposit slips from your bank.
 
 #### Viewing cash deposit activity
 
@@ -57,10 +57,10 @@ You can enter cash deposits from the Toast POS device and from the Toast Web. De
 
 > **Note**
 > 
-> To enter a cash deposit from a Toast POS device, an employee must have the 3.18 Cash Drawers (Full)permission. From Toast Web, choose Employees > Employee management > Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
+> To enter a cash deposit from a Toast POS device, an employee must have the 3.18 Cash Drawers (Full)permission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
 
 
-1. On a Toast POS device, select Cash management > Cash Deposits to open the Cash Deposits screen. The Cash Depositsscreen displays the cash deposit activity for the restaurant.
+1. On a Toast POS device, select Cash management \> Cash Deposits to open the Cash Deposits screen. The Cash Depositsscreen displays the cash deposit activity for the restaurant.
 
 
 2. On the Cash Deposits screen, select the Add deposit button. This opens the Create deposit screen. From the Create deposit screen, you can:
@@ -110,13 +110,13 @@ If you select the Count bills button on the Create deposit screen, this opens th
 
 > **Note**
 > 
-> To add a cash deposit for a past date, managers must have both the Managers > 3.18 Cash Drawers (Full) and the Restaurant Admin > 4.12 Edit Historical Data permissions.
+> To add a cash deposit for a past date, managers must have both the Managers \> 3.18 Cash Drawers (Full) and the Restaurant Admin \> 4.12 Edit Historical Data permissions.
 
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > View related reports > Cash drawer history report to open the Cash Drawer History report. You can also choose Reports > Cash and loss management > Drawer history to open the Cash Drawer History report.
+2. Choose Payments \> Payment methods \> Cash overview \> View related reports \> Cash drawer history report to open the Cash Drawer History report. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash Drawer History report.
 
 
 3. In the left column, scroll down to the Cash Entries row and select View. This opens the Deposits section.
@@ -179,7 +179,7 @@ You can undo deposit entries from a Toast POS device or from the Toast Web. When
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > View related reports > Cash drawer history report to open the Cash Drawer Historyreport. You can also choose Reports > Cash and loss management > Drawer history to open the Cash Drawer History report.
+2. Choose Payments \> Payment methods \> Cash overview \> View related reports \> Cash drawer history report to open the Cash Drawer Historyreport. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash Drawer History report.
 
 
 3. In the left-most column, scroll down to the Cash Entries row and select the Viewbutton. This opens the Deposits section.
@@ -196,16 +196,16 @@ You can undo deposit entries from a Toast POS device or from the Toast Web. When
 
 #### Viewing deposits in the Drawer History report
 
-You can view the deposit amount in the Reports > Cash and loss management > Drawer history report. (The Reports > Cash and loss management > Cash drawer overview report also shows the deposit amount, but does not provide the detailed information of the Cash Drawer History report). You can generate these reports from the Toast Web.
+You can view the deposit amount in the Reports \> Cash and loss management \> Drawer history report. (The Reports \> Cash and loss management \> Cash drawer overview report also shows the deposit amount, but does not provide the detailed information of the Cash Drawer History report). You can generate these reports from the Toast Web.
 
 
 
 > **Note**
 > 
-> When you generate reports from Toast Web, keep in mind that the Reports > Cash and loss management > Cash drawer overview and Reports > Cash and loss management > Drawer history reports list cash deposits, while the Reports > Payments > Deposit totals overview report provides credit card deposit information.
+> When you generate reports from Toast Web, keep in mind that the Reports \> Cash and loss management \> Cash drawer overview and Reports \> Cash and loss management \> Drawer history reports list cash deposits, while the Reports \> Payments \> Deposit totals overview report provides credit card deposit information.
 
 
-A cash deposit is recorded as an Actual Deposit in the Reports > Cash and loss management > Cash drawer overview report. In the Reports > Cash and loss management > Drawer history report, the left-most column has a deposits section that looks like this example:
+A cash deposit is recorded as an Actual Deposit in the Reports \> Cash and loss management \> Cash drawer overview report. In the Reports \> Cash and loss management \> Drawer history report, the left-most column has a deposits section that looks like this example:
 
 ![The Toast POS device showing the Expected and Actual Deposits.](https://doc.toasttab.com/doc/media/money-deposits-expected-and-actual-deposits.png)
 
@@ -221,11 +221,11 @@ The fields show the following information:
 
 
 
-In the Cash Entries row, under the Total column, select View to display the Deposits section. This section provides detailed information for all the deposits that have been made for the day. The same information is also available in the Cash Management > Cash Deposits screen on a Toast POS device.
+In the Cash Entries row, under the Total column, select View to display the Deposits section. This section provides detailed information for all the deposits that have been made for the day. The same information is also available in the Cash Management \> Cash Deposits screen on a Toast POS device.
 
 #### Expected Deposits and Total Cash
 
-The Reports > Sales > Sales summaryreport lists the Expected Deposit and Total Cash amounts:
+The Reports \> Sales \> Sales summaryreport lists the Expected Deposit and Total Cash amounts:
 
 - Expected Deposit = Total cash payments in all cash drawers plus all cash collected during shift review, plus cash ins, minus cash outs, minus pay outs, minus tips/gratuities claimed during shift review.
 
@@ -257,7 +257,7 @@ If you still cannot identify the reason for the cash discrepancy, contact Toast 
 
 #### Deposit Summary in the Z Report
 
-You can configure the Close Out Day Z Report to display a deposit summary. To do so, choose Employees > POS report configurations > Manager end of day report to open the Z Report screen. Scroll to the Deposit Summary checkbox to enable or disable the deposit summary.
+You can configure the Close Out Day Z Report to display a deposit summary. To do so, choose Employees \> POS report configurations \> Manager end of day report to open the Z Report screen. Scroll to the Deposit Summary checkbox to enable or disable the deposit summary.
 
 When configured to include the deposit summary, the Z Report on the Close Out Day screen shows the following information:
 

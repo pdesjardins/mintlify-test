@@ -25,7 +25,7 @@ Toast provides a Postman™ API client collection of API requests to help you te
 | **1.2.** | **Where can I get the Postman collection?** | 
 |  | The Postman API client collection for Toast APIs can be found [here](../media/Toast_Postman_Collection.zip). | 
 | **1.3.** | **What initial setup should I do?** | 
-|  | Unzip the collection file in the link above. To import the collection, in Postman go to File > Import > Import from File.Select each file from the unzipped collection file to import them.For more information about using the Postman API client, see [the Postman documentation](https://learning.postman.com/).To set up your Postman collection:1. Click the eye icon at the top right of your Postman window, then select the Sandbox environment.![Image](https://doc.toasttab.com/doc/media/postman_environments.png)
+|  | Unzip the collection file in the link above. To import the collection, in Postman go to File \> Import \> Import from File.Select each file from the unzipped collection file to import them.For more information about using the Postman API client, see [the Postman documentation](https://learning.postman.com/).To set up your Postman collection:1. Click the eye icon at the top right of your Postman window, then select the Sandbox environment.![Image](https://doc.toasttab.com/doc/media/postman_environments.png)
 
 
 2. In the Current Value column, add the environment hostname, your API client credentials, and the desired restaurant GUID. Do not add this information to the Initial Value column.![Image](https://doc.toasttab.com/doc/media/postman_setup.png)

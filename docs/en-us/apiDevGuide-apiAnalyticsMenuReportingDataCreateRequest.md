@@ -50,10 +50,10 @@ Send a `POST` request to the `/era/v1/menu` endpoint to request menu reporting d
 The following example **curl** command sends a `POST` request to the `/era/v1/menu` endpoint.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \[(1)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e59532E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
-  -H ‘Authorization: Bearer [token]‘ \[(2)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e59552E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e59572E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e59592E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \
+  -H ‘Authorization: Bearer [token]‘ \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -72,12 +72,12 @@ The following example shows the message body for creating a menu reporting data 
 
 ```
 {
-  "startBusinessDate": "20220101",[(1)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e60132E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
-  "endBusinessDate": "20230912",[(2)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e60152E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
-  "restaurantIds": [[(3)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e60172E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
+  "startBusinessDate": "20220101",
+  "endBusinessDate": "20230912",
+  "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021"
   ],
-  "excludedRestaurantIds": [],[(4)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e60192E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
+  "excludedRestaurantIds": [],
 }
 
 ```
@@ -97,7 +97,7 @@ The following example shows the message body for creating a menu reporting data 
 The following example shows the response from the `/era/v1/menu` endpoint.
 
 ```
-"fb23cfaa-56d7-4cb9-829d-531a8d02274a"[(1)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e60722E67B5E6-4A8B-4FAD-9CA0-6A0903A99396-co)
+"fb23cfaa-56d7-4cb9-829d-531a8d02274a"
 ```
 
 
@@ -135,10 +135,10 @@ Send a `POST` request to `/era/v1/menu/{timeRange}` endpoint to request menu rep
 The following example **curl** command sends a `POST` request to the `/era/v1/menu/{timeRange}` endpoint. This example uses the `day` time range.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \[(1)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5965F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -H ‘Authorization: Bearer [token]‘ \[(2)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5967F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5969F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5971F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
+  -H ‘Authorization: Bearer [token]‘ \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -157,13 +157,13 @@ The following example shows the message body for creating a menu reporting data 
 
 ```
 {
-  "startBusinessDate": "20220901",[(1)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5990F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "endBusinessDate": "20220901",[(2)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5992F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "restaurantIds": [[(3)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5994F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+  "startBusinessDate": "20220901",
+  "endBusinessDate": "20220901",
+  "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021"
   ],
-  "excludedRestaurantIds": [],[(4)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5996F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "groupBy": ["MODIFIER"][(5)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e5998F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+  "excludedRestaurantIds": [],
+  "groupBy": ["MODIFIER"]
 }
 
 ```
@@ -185,7 +185,7 @@ The following example shows the message body for creating a menu reporting data 
 The following example shows the response from the `/era/v1/menu/{timeRange}` endpoint.
 
 ```
-"fb23cfaa-56d7-4cb9-829d-531a8d02274a"[(1)](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.html#d1e6017F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+"fb23cfaa-56d7-4cb9-829d-531a8d02274a"
 ```
 
 

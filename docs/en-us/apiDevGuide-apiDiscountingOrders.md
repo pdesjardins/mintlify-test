@@ -95,29 +95,29 @@ The following example shows the JSON return data for a `GET` request to the `/di
 ```
 [
   {
-    "guid": "a96fd992-9d69-4a62-894f-b621c31127a5",[(1)](apiDevGuide-apiDiscountingOrders.html#d1e2299734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "guid": "a96fd992-9d69-4a62-894f-b621c31127a5",
     "entityType": "Discount",
     "amount": 25,
-    "selectionType": "CHECK",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e2301734545DE-34ED-4C72-91FC-F7D438E64472-co)
-    "nonExclusive": true,[(3)](apiDevGuide-apiDiscountingOrders.html#d1e2303734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "selectionType": "CHECK",
+    "nonExclusive": true,
     "percentage": null,
     "name": "$25 Off",
     "active": true,
     "itemPickingPriority": "FIRST",
-    "type": "FIXED",[(4)](apiDevGuide-apiDiscountingOrders.html#d1e2305734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "type": "FIXED",
     "fixedTotal": null
   },
   {
     "guid": "f66bd37f-8814-4f3a-a8ec-536d359dc1b7",
     "entityType": "Discount",
     "amount": null,
-    "selectionType": "ITEM",[(5)](apiDevGuide-apiDiscountingOrders.html#d1e2307734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "selectionType": "ITEM",
     "nonExclusive": false,
     "percentage": null,
     "name": "Buy one, get one apple!",
     "active": true,
-    "itemPickingPriority": "LEAST_EXPENSIVE",[(6)](apiDevGuide-apiDiscountingOrders.html#d1e2310734545DE-34ED-4C72-91FC-F7D438E64472-co)
-    "type": "BOGO",[(7)](apiDevGuide-apiDiscountingOrders.html#d1e2312734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "itemPickingPriority": "LEAST_EXPENSIVE",
+    "type": "BOGO",
     "fixedTotal": null
   },
   {
@@ -130,7 +130,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     "name": "Comp",
     "active": true,
     "itemPickingPriority": "FIRST",
-    "type": "PERCENT",[(8)](apiDevGuide-apiDiscountingOrders.html#d1e2314734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "type": "PERCENT",
     "fixedTotal": null
   },
   {
@@ -143,8 +143,8 @@ The following example shows the JSON return data for a `GET` request to the `/di
     "name": "ComboWingsDrinks",
     "active": true,
     "itemPickingPriority": "FIRST",
-    "type": "FIXED_TOTAL",[(9)](apiDevGuide-apiDiscountingOrders.html#d1e2316734545DE-34ED-4C72-91FC-F7D438E64472-co)
-    "fixedTotal": 5[(10)](apiDevGuide-apiDiscountingOrders.html#d1e2318734545DE-34ED-4C72-91FC-F7D438E64472-co)
+    "type": "FIXED_TOTAL",
+    "fixedTotal": 5
   }
 ]
 ```
@@ -185,13 +185,13 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
 [
     {
         "discount": {
-            "guid": "1086966b-1411-4d4b-b275-6b8643f5afb0",[(1)](apiDevGuide-apiDiscountingOrders.html#availableDiscountGuidCallout)
+            "guid": "1086966b-1411-4d4b-b275-6b8643f5afb0",
             "entityType": "Discount"
         },
-        "applicableChecks": [],[(2)](apiDevGuide-apiDiscountingOrders.html#availableDiscountsEmptyChecksCallout)
+        "applicableChecks": [],
         "applicableSelections": [
             {
-                "guid": "1f801d3f-4715-4ae7-b518-5df56b9910a3",[(3)](apiDevGuide-apiDiscountingOrders.html#availableDiscountsItemGuidCallout)
+                "guid": "1f801d3f-4715-4ae7-b518-5df56b9910a3",
                 "entityType": "SELECTION",
                 "externalId": null
             }
@@ -202,14 +202,14 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
             "guid": "138c3818-371c-4de9-88b2-c839fa144e8c",
             "entityType": "Discount"
         },
-        "applicableChecks": [[(4)](apiDevGuide-apiDiscountingOrders.html#availableDiscountsChecksCallout)
+        "applicableChecks": [
             {
                 "guid": null,
                 "entityType": "CHECK",
                 "externalId": null
             }
         ],
-        "applicableSelections": [][(5)](apiDevGuide-apiDiscountingOrders.html#availableDiscountsEmptySelectionsCallout)
+        "applicableSelections": []
     }
 ]
 ```
@@ -292,10 +292,10 @@ The following example shows a discount applied to a menu item selection.
             "entityType": "MenuItem",
             "guid": "28dc4d65-e84b-44f0-8b73-0a721d5a9b88"
           },
-          "appliedDiscounts": [[(1)](apiDevGuide-apiDiscountingOrders.html#d1e348F363EEC9-2046-412B-BBF1-890075ECA926-co)
+          "appliedDiscounts": [
             {
               "discount": {
-                "guid": "a96fd992-9d69-4a62-894f-b621c31127a5"[(2)](apiDevGuide-apiDiscountingOrders.html#d1e350F363EEC9-2046-412B-BBF1-890075ECA926-co)
+                "guid": "a96fd992-9d69-4a62-894f-b621c31127a5"
               }
             }
           ],
@@ -362,10 +362,10 @@ The following example shows a discount applied to a check.
           "modifiers": []
         }
       ],
-      "appliedDiscounts": [[(1)](apiDevGuide-apiDiscountingOrders.html#d1e379F363EEC9-2046-412B-BBF1-890075ECA926-co)
+      "appliedDiscounts": [
         {
           "discount": {
-            "guid": "f66bd37f-8814-4f3a-a8ec-536d359dc1b7"[(2)](apiDevGuide-apiDiscountingOrders.html#d1e381F363EEC9-2046-412B-BBF1-890075ECA926-co)
+            "guid": "f66bd37f-8814-4f3a-a8ec-536d359dc1b7"
           } 
         }
       ]
@@ -421,9 +421,9 @@ The following example shows promotional codes applied to check and menu item sel
           "appliedDiscounts": [
           {
             "discount": {
-              "guid": "590d2298-471d-4adb-8b83-24103157df6c"[(1)](apiDevGuide-apiDiscountingOrders.html#d1e1506DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651-co)
+              "guid": "590d2298-471d-4adb-8b83-24103157df6c"
             },
-          "appliedPromoCode": "MYSPECIALOFFER"[(2)](apiDevGuide-apiDiscountingOrders.html#d1e1508DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651-co)
+          "appliedPromoCode": "MYSPECIALOFFER"
         }
       ]
         }
@@ -431,9 +431,9 @@ The following example shows promotional codes applied to check and menu item sel
       "appliedDiscounts": [
         {
           "discount": {
-            "guid": "69d98978-6363-40bf-96eb-1e0d97dcea3d"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e1510DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651-co)
+            "guid": "69d98978-6363-40bf-96eb-1e0d97dcea3d"
           },
-          "appliedPromoCode": "MYEXTRASPECIALOFFER"[(4)](apiDevGuide-apiDiscountingOrders.html#d1e1512DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651-co)
+          "appliedPromoCode": "MYEXTRASPECIALOFFER"
         }
       ]
     }
@@ -476,15 +476,15 @@ You also create an array of `AppliedDiscount` objects for the discounts you are 
 For example:
 
 ```
-[[(1)](apiDevGuide-apiDiscountingOrders.html#d1e166052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+[
   {
     "discount": {
-      "guid": "a96fd992-9d69-4a62-894f-b621c31127a5"[(2)](apiDevGuide-apiDiscountingOrders.html#d1e168052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+      "guid": "a96fd992-9d69-4a62-894f-b621c31127a5"
     }
   },
   {
     "discount": {
-      "guid": "30430bb7-0e55-4aae-b783-ee62cda3ca7d"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e170052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+      "guid": "30430bb7-0e55-4aae-b783-ee62cda3ca7d"
     },
     "appliedPromoCode": "MYEXTRASPECIALOFFER"
   }
@@ -545,21 +545,21 @@ Here is an example of a response to a request to add discounts to a check:
 
 ```
 {
-  "guid": "52b90296-359c-4015-a42b-044276a9c0b3",[(1)](apiDevGuide-apiDiscountingOrders.html#d1e196052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+  "guid": "52b90296-359c-4015-a42b-044276a9c0b3",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
     {
-      "guid": "b79bbce8-cc4f-42f5-b42d-1f644888db34",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e198052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+      "guid": "b79bbce8-cc4f-42f5-b42d-1f644888db34",
       "entityType": "Check",
 
       [contents omitted]
 
       "appliedDiscounts": [
         {
-          "guid": "43130ce2-24e4-4532-b77d-f1cee4690743",[(3)](apiDevGuide-apiDiscountingOrders.html#d1e200052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+          "guid": "43130ce2-24e4-4532-b77d-f1cee4690743",
           "entityType": "AppliedCustomDiscount",
           "externalId": null,
           "approver": null,
@@ -601,28 +601,28 @@ Here is an example of a response to a request to add a discount to a menu item s
 
 ```
 {
-  "guid": "52b90296-359c-4015-a42b-044276a9c0b3",[(1)](apiDevGuide-apiDiscountingOrders.html#d1e233052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+  "guid": "52b90296-359c-4015-a42b-044276a9c0b3",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
     {
-      "guid": "b79bbce8-cc4f-42f5-b42d-1f644888db34",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e235052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+      "guid": "b79bbce8-cc4f-42f5-b42d-1f644888db34",
       "entityType": "Check",
 
       [contents omitted]
 
       "selections": [
         {
-          "guid": "ee3d2c4a-2d67-4c4e-8aa0-b8496fb00110",[(3)](apiDevGuide-apiDiscountingOrders.html#d1e237052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+          "guid": "ee3d2c4a-2d67-4c4e-8aa0-b8496fb00110",
           "entityType": "MenuItemSelection",
 
           [contents omitted]
 
           "appliedDiscounts": [
             {
-              "guid": "9d0a2fb6-c962-4ccd-89b6-c96865a7b2f3",[(4)](apiDevGuide-apiDiscountingOrders.html#d1e239052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE-co)
+              "guid": "9d0a2fb6-c962-4ccd-89b6-c96865a7b2f3",
               "entityType": "AppliedCustomDiscount",
               "externalId": null,
               "approver": null,
@@ -795,16 +795,16 @@ For example, the following order contains a single menu item selection for three
              },
              "item": {
                "entityType": "MenuItem",
-               "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"[(1)](apiDevGuide-apiDiscountingOrders.html#d1e23132AAD0504-D23B-47FA-B191-CCDA17A4B028-co)
+               "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
              },
-             "quantity": 3,[(2)](apiDevGuide-apiDiscountingOrders.html#d1e23152AAD0504-D23B-47FA-B191-CCDA17A4B028-co)
+             "quantity": 3,
              "modifiers": []
            }
          ],
          "appliedDiscounts": [
            {
              "discount": {
-                "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e23172AAD0504-D23B-47FA-B191-CCDA17A4B028-co)
+                "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88"
              }
            }
         ]
@@ -844,43 +844,43 @@ The following example shows the return data for an order that includes a BOGO di
 
       [contents omitted]
 
-      "appliedDiscounts": [],[(1)](apiDevGuide-apiDiscountingOrders.html#d1e2359FB6A5D14-9F96-466C-8541-5687523E637B-co)
+      "appliedDiscounts": [],
       "selections": [
         {
-          "guid": "e0da05d4-db71-44ed-805b-95284d22df73",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e2361FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "guid": "e0da05d4-db71-44ed-805b-95284d22df73",
           "entityType": "MenuItemSelection",
           "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
           "item": {
-            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",[(3)](apiDevGuide-apiDiscountingOrders.html#d1e2363FB6A5D14-9F96-466C-8541-5687523E637B-co)
+            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem"
           },
-          "quantity": 2,[(4)](apiDevGuide-apiDiscountingOrders.html#d1e2365FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "quantity": 2,
           "preDiscountPrice": 17.98,
           "displayName": "Soup",
-          "appliedDiscounts": [],[(5)](apiDevGuide-apiDiscountingOrders.html#d1e2367FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "appliedDiscounts": [],
           "price": 17.98,
 
           [contents omitted]
 
         },
         {
-          "guid": "2950ded4-f21a-428d-a847-698bcb260c03",[(6)](apiDevGuide-apiDiscountingOrders.html#d1e2370FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "guid": "2950ded4-f21a-428d-a847-698bcb260c03",
           "entityType": "MenuItemSelection",
           "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
           "item": {
-            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",[(7)](apiDevGuide-apiDiscountingOrders.html#d1e2372FB6A5D14-9F96-466C-8541-5687523E637B-co)
+            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem"
           },
-          "quantity": 1,[(8)](apiDevGuide-apiDiscountingOrders.html#d1e2374FB6A5D14-9F96-466C-8541-5687523E637B-co)
-          "preDiscountPrice": 8.99,[(9)](apiDevGuide-apiDiscountingOrders.html#d1e2376FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "quantity": 1,
+          "preDiscountPrice": 8.99,
           "displayName": "Soup",
-          "appliedDiscounts": [[(10)](apiDevGuide-apiDiscountingOrders.html#d1e2378FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "appliedDiscounts": [
             {
               "guid": "7ec5c2e8-b6ae-4d30-8084-fecf3dd611f3",
               "entityType": "AppliedCustomDiscount",
@@ -889,7 +889,7 @@ The following example shows the return data for an order that includes a BOGO di
               "loyaltyDetails": null,
               "name": "Enjoy more soup.",
               "comboItems": [],
-              "discountAmount": 8.99,[(11)](apiDevGuide-apiDiscountingOrders.html#d1e2380FB6A5D14-9F96-466C-8541-5687523E637B-co)
+              "discountAmount": 8.99,
               "discount": {
                 "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88",
                 "entityType": "Discount"
@@ -897,16 +897,16 @@ The following example shows the return data for an order that includes a BOGO di
               "triggers": [
                 {
                   "selection": {
-                    "guid": "e0da05d4-db71-44ed-805b-95284d22df73",[(12)](apiDevGuide-apiDiscountingOrders.html#d1e2383FB6A5D14-9F96-466C-8541-5687523E637B-co)
+                    "guid": "e0da05d4-db71-44ed-805b-95284d22df73",
                     "entityType": "MenuItemSelection"
                   },
-                  "quantity": 1[(13)](apiDevGuide-apiDiscountingOrders.html#d1e2385FB6A5D14-9F96-466C-8541-5687523E637B-co)
+                  "quantity": 1
                 }
               ],
               "appliedPromoCode": null
             }
           ],
-          "price": 0,[(14)](apiDevGuide-apiDiscountingOrders.html#d1e2387FB6A5D14-9F96-466C-8541-5687523E637B-co)
+          "price": 0,
 
           [contents omitted]
 
@@ -978,16 +978,16 @@ For example, the following order contains a single menu item selection for three
              },
              "item": {
                "entityType": "MenuItem",
-               "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"[(1)](apiDevGuide-apiDiscountingOrders.html#d1e2684531BD268-895B-4950-9F99-86F6459D75C7-co)
+               "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
              },
-             "quantity": 3,[(2)](apiDevGuide-apiDiscountingOrders.html#d1e2686531BD268-895B-4950-9F99-86F6459D75C7-co)
+             "quantity": 3,
              "modifiers": []
            }
          ],
          "appliedDiscounts": [
            {
              "discount": {
-                "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e2688531BD268-895B-4950-9F99-86F6459D75C7-co)
+                "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88"
              }
            }
         ]
@@ -1027,7 +1027,7 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
 
       [contents omitted]
 
-      "appliedDiscounts": [[(1)](apiDevGuide-apiDiscountingOrders.html#d1e2717531BD268-895B-4950-9F99-86F6459D75C7-co)
+      "appliedDiscounts": [
         {
           "guid": "3b97af77-bb9f-4f83-87e1-471a1dd984cd",
           "entityType": "MultiItemAppliedDiscount",
@@ -1037,22 +1037,22 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
           "name": "Eat more soup.",
           "comboItems": [
             {
-              "guid": "b059bf10-2d4b-4aba-808a-46d0ecfa1b71",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e2719531BD268-895B-4950-9F99-86F6459D75C7-co)
+              "guid": "b059bf10-2d4b-4aba-808a-46d0ecfa1b71",
               "entityType": "MenuItemSelection"
             }
           ],
           "discountAmount": 2.98,
           "discount": {
-            "guid": "b1fba60e-f119-45ce-81ed-1e030c8e8705",[(3)](apiDevGuide-apiDiscountingOrders.html#d1e2721531BD268-895B-4950-9F99-86F6459D75C7-co)
+            "guid": "b1fba60e-f119-45ce-81ed-1e030c8e8705",
             "entityType": "Discount"
           },
           "triggers": [
             {
               "selection": {
-                "guid": "13c704da-d8bd-4a72-8df3-d340efb1e0d3",[(4)](apiDevGuide-apiDiscountingOrders.html#d1e2723531BD268-895B-4950-9F99-86F6459D75C7-co)
+                "guid": "13c704da-d8bd-4a72-8df3-d340efb1e0d3",
                 "entityType": "MenuItemSelection"
               },
-              "quantity": 2[(5)](apiDevGuide-apiDiscountingOrders.html#d1e2725531BD268-895B-4950-9F99-86F6459D75C7-co)
+              "quantity": 2
             }
           ],
           "appliedPromoCode": null
@@ -1061,19 +1061,19 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
       "totalAmount": 25.67,
       "selections": [
         {
-          "guid": "13c704da-d8bd-4a72-8df3-d340efb1e0d3",[(6)](apiDevGuide-apiDiscountingOrders.html#d1e2728531BD268-895B-4950-9F99-86F6459D75C7-co)
+          "guid": "13c704da-d8bd-4a72-8df3-d340efb1e0d3",
           "entityType": "MenuItemSelection",
           "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
           "item": {
-            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",[(7)](apiDevGuide-apiDiscountingOrders.html#d1e2730531BD268-895B-4950-9F99-86F6459D75C7-co)
+            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem"
           },
-          "quantity": 1,[(8)](apiDevGuide-apiDiscountingOrders.html#d1e2732531BD268-895B-4950-9F99-86F6459D75C7-co)
+          "quantity": 1,
           "preDiscountPrice": 8.99,
-          "appliedDiscounts": [],[(9)](apiDevGuide-apiDiscountingOrders.html#d1e2734531BD268-895B-4950-9F99-86F6459D75C7-co)
+          "appliedDiscounts": [],
 
           [contents omitted]
 
@@ -1088,17 +1088,17 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
             "externalId": null
           },
           "item": {
-            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",[(10)](apiDevGuide-apiDiscountingOrders.html#d1e2736531BD268-895B-4950-9F99-86F6459D75C7-co)
+            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem",
             "externalId": null
           },
-          "quantity": 2,[(11)](apiDevGuide-apiDiscountingOrders.html#d1e2738531BD268-895B-4950-9F99-86F6459D75C7-co)
-          "preDiscountPrice": 17.98,[(12)](apiDevGuide-apiDiscountingOrders.html#d1e2741531BD268-895B-4950-9F99-86F6459D75C7-co)
-          "appliedDiscounts": [],[(13)](apiDevGuide-apiDiscountingOrders.html#d1e2743531BD268-895B-4950-9F99-86F6459D75C7-co)
+          "quantity": 2,
+          "preDiscountPrice": 17.98,
+          "appliedDiscounts": [],
           
           [contents omitted]
           
-          "price": 15[(14)](apiDevGuide-apiDiscountingOrders.html#d1e2745531BD268-895B-4950-9F99-86F6459D75C7-co)
+          "price": 15
         }
       ]
 
@@ -1205,9 +1205,9 @@ The following example shows a check being applied to a loyalty program account.
         "lastName": "Gauthier",
         "phone": "987-654-3210"
       },
-      "appliedLoyaltyInfo": {[(1)](apiDevGuide-apiDiscountingOrders.html#d1e29207557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
-        "loyaltyIdentifier": "6000101001599474",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e29407557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
-        "vendor": "`MYLOYALTYPROVIDER`"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2-co)
+      "appliedLoyaltyInfo": {
+        "loyaltyIdentifier": "6000101001599474",
+        "vendor": "`MYLOYALTYPROVIDER`"
       },
       "selections": [
         {
@@ -1286,9 +1286,9 @@ The following example shows the JSON message body to `POST` an order with a chec
             "lastName":"Gauthier",
             "phone":"987-654-3210"
          },
-         "appliedLoyaltyInfo": {[(1)](apiDevGuide-apiDiscountingOrders.html#d1e266B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
-            "loyaltyIdentifier": "6000101001599474",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e268B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
-            "vendor": "INTEGRATION"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e270B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
+         "appliedLoyaltyInfo": {
+            "loyaltyIdentifier": "6000101001599474",
+            "vendor": "INTEGRATION"
          },
          "selections":[  
             {  
@@ -1305,11 +1305,11 @@ The following example shows the JSON message body to `POST` an order with a chec
                "modifiers": []
             }
          ],
-         "appliedDiscounts": [[(4)](apiDevGuide-apiDiscountingOrders.html#d1e272B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
+         "appliedDiscounts": [
            {
              "loyaltyDetails": {
-               "vendor": "INTEGRATION",[(5)](apiDevGuide-apiDiscountingOrders.html#d1e274B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
-               "referenceId": "4"[(6)](apiDevGuide-apiDiscountingOrders.html#d1e277B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
+               "vendor": "INTEGRATION",
+               "referenceId": "4"
              }
            }
          ]
@@ -1350,9 +1350,9 @@ This example shows the JSON message body to `POST` an order with an item-level l
             "lastName":"Gauthier",
             "phone":"987-654-3210"
          },
-         "appliedLoyaltyInfo": {[(1)](apiDevGuide-apiDiscountingOrders.html#d1e290B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
-            "loyaltyIdentifier": "6000101001599474",[(2)](apiDevGuide-apiDiscountingOrders.html#d1e292B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
-            "vendor": "INTEGRATION"[(3)](apiDevGuide-apiDiscountingOrders.html#d1e294B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
+         "appliedLoyaltyInfo": {
+            "loyaltyIdentifier": "6000101001599474",
+            "vendor": "INTEGRATION"
          },
          "selections":[  
             {  
@@ -1366,11 +1366,11 @@ This example shows the JSON message body to `POST` an order with an item-level l
                   "guid":"79df2dfb-340d-405f-a0f9-55b882606ce5"
                },
                "quantity":3,
-               "appliedDiscounts": [[(4)](apiDevGuide-apiDiscountingOrders.html#d1e296B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
+               "appliedDiscounts": [
                  {
                    "loyaltyDetails": {
-                   "vendor": "INTEGRATION",[(5)](apiDevGuide-apiDiscountingOrders.html#d1e298B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
-                   "referenceId": "4"[(6)](apiDevGuide-apiDiscountingOrders.html#d1e301B5FD597B-A42F-4C83-8CA0-E173E36FE922-co)
+                   "vendor": "INTEGRATION",
+                   "referenceId": "4"
                    }
                  }
                ],

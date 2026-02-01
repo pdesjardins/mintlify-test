@@ -67,7 +67,7 @@ For more information, see [Versions](versions.html).
 
 When you create a new menu entity for a multi-location restaurant, you define the locations or location groups that use that entity. This is the menu entity's *target*. You also define who can edit the menu entity. This is the menu entity's *owner*.
 
-Newly created menus are automatically targeted at the highest location group or location you have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to. The owner defaults to this same location group or location.
+Newly created menus are automatically targeted at the highest location group or location you have the 4. Restaurant Admin \> 4.5 Edit Full Menu permission to. The owner defaults to this same location group or location.
 
 For example, consider the following location group hierarchy:
 
@@ -133,7 +133,7 @@ The Toast platform also prevents you from assigning the same target to more than
 > Currently, you can edit the target and owner for menu items in an item's side panel. You must use the classic pages to edit the target and owner for menus and menu groups.
 
 
-You must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to a location or location group in order to see that location or location group in the target and owner pickers. If you do not have the Edit Full Menupermission to a location or location group, the Toast platform filters it out of the target and owner pickers so you cannot assign it to a version.
+You must have the 4. Restaurant Admin \> 4.5 Edit Full Menu permission to a location or location group in order to see that location or location group in the target and owner pickers. If you do not have the Edit Full Menupermission to a location or location group, the Toast platform filters it out of the target and owner pickers so you cannot assign it to a version.
 
 For more information, see the following sections in the [Multiple restaurant locations](sharingMenusAndOtherInformationAmongRestaurants.html) chapter:
 

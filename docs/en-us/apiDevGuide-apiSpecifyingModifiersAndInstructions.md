@@ -92,23 +92,23 @@ The following example message body for an order shows a modifier and a pre-modif
       "selections": [
         {
           "itemGroup": {
-            "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3",[(1)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e7033FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7-co)
+            "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3",
           },
           "item": {
-            "guid": "28dc4d65-e84b-44f0-8b73-0a721d5a9b88"[(2)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e7053FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7-co)
+            "guid": "28dc4d65-e84b-44f0-8b73-0a721d5a9b88"
           },
           "quantity": 1,
           "modifiers": [
             {
               "optionGroup": {
-                "guid": "d0bf5394-adff-428d-8a6b-bcb848c8b16d"[(3)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e7073FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7-co)
+                "guid": "d0bf5394-adff-428d-8a6b-bcb848c8b16d"
               },
               "item": {
-                "guid": "ed4d3bfc-ad0c-46e7-afdf-1fb48ff91edd"[(4)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e7093FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7-co)
+                "guid": "ed4d3bfc-ad0c-46e7-afdf-1fb48ff91edd"
               },
               "quantity": 1,
-              "preModifier": {[(5)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e7113FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7-co)
-                "guid": "6311f315-3df8-48ed-bbc3-bd924cb90d55"[(6)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e7143FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7-co)
+              "preModifier": {
+                "guid": "6311f315-3df8-48ed-bbc3-bd924cb90d55"
               },
               "modifiers": []
             }
@@ -168,12 +168,12 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
             "entityType": "MenuGroup"
           },
           "item": {
-            "guid": "944f6176-0b3d-432c-ab03-5665a5ab3c5c", [(1)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested_modifier_example2-1)
+            "guid": "944f6176-0b3d-432c-ab03-5665a5ab3c5c", 
             "entityType": "MenuItem"
           },
-          "quantity": 5.0, [(2)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested_modifier_example2-2)
+          "quantity": 5.0, 
           "modifiers": [ 
-            { [(3)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested_modifier_example2-3)
+            { 
               "guid": "9d5616d0-f697-48bc-9f15-bcbca6bfb495",
               "entityType": "MenuItemSelection",
               "optionGroup": {
@@ -187,7 +187,7 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
                 "entityType": "MenuItem",
                 "externalId": null
               },
-              "quantity": 5.0 [(4)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested_modifier_example2-4)
+              "quantity": 5.0 
             }
           ]
         }
@@ -275,14 +275,14 @@ The example below shows the correct modifier structure for an orders API POST re
           "modifiers": [
             {
               "optionGroup": {
-                "guid": "a83a38b2-178a-4b31-b45f-e011f00faf6f" [(1)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested-mod-optionGroup-guid-co)
+                "guid": "a83a38b2-178a-4b31-b45f-e011f00faf6f" 
               },
               "itemGroup": {
-                "guid": "8b4f2555-8482-406f-a1dd-82c5afd718a8",[(2)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested-mod-itemgroup-guid-co)
+                "guid": "8b4f2555-8482-406f-a1dd-82c5afd718a8",
                 "entityType": "MenuGroup"
               },
               "item": {
-                "guid": "70afec63-1919-4fe1-8c2d-3dfaa232c406"[(3)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested-mod-parent-item-co)
+                "guid": "70afec63-1919-4fe1-8c2d-3dfaa232c406"
               },
               "quantity": 1,
               "modifiers": [
@@ -291,7 +291,7 @@ The example below shows the correct modifier structure for an orders API POST re
                     "guid": "6c677a8a-a858-43fd-b7f0-a404310c0e12"
                   },
                   "item": {
-                    "guid": "d6ecdcb2-3a9f-4dcf-8034-900e34306271"[(4)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#nested-mod-child-item-co)
+                    "guid": "d6ecdcb2-3a9f-4dcf-8034-900e34306271"
                   },
                   "quantity": 1,
                   "modifiers": []
@@ -341,12 +341,12 @@ The following JSON body example adds whipped cream twice to a slice of cherry pi
             "entityType": "MenuGroup"
           },
           "item": {
-            "guid": "78727790-fcaa-4acd-adcd-7e12d5e67823", [(1)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#modifier_quantity_example1-1)
+            "guid": "78727790-fcaa-4acd-adcd-7e12d5e67823", 
             "entityType": "MenuItem"
           },
-          "quantity": 1.0, [(2)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#modifier_quantity_example1-2)
+          "quantity": 1.0, 
           "modifiers": [ 
-            { [(3)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#modifier_quantity_example1-3)
+            { 
               "guid": "29122a58-8c1f-4325-be79-0134641dce02",
               "entityType": "MenuItemSelection",
               "optionGroup": {
@@ -359,9 +359,9 @@ The following JSON body example adds whipped cream twice to a slice of cherry pi
                 "guid": "b2755b69-2c99-4214-b74e-6b6a1467501f",
                 "entityType": "MenuItem"
               },
-              "quantity": 1.0 [(4)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#modifier_quantity_example1-4)
+              "quantity": 1.0 
             },
-            { [(5)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#modifier_quantity_example1-5)
+            { 
               "guid": "29122a58-8c1f-4325-be79-0134641dce02",
               "entityType": "MenuItemSelection",
               "optionGroup": {
@@ -439,26 +439,26 @@ The following example order JSON applies modifiers to portions of a menu item se
       "selections": [
         {
           "itemGroup": {
-            "guid": "9a861b29-58ee-4c1c-9e23-9cac3a1132d4",[(1)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1109D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+            "guid": "9a861b29-58ee-4c1c-9e23-9cac3a1132d4",
           },
           "item": {
-            "guid": "025006c3-acdc-4d09-be94-faffde4ce3b7"[(2)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1111D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+            "guid": "025006c3-acdc-4d09-be94-faffde4ce3b7"
           },
           "quantity": 1,
-          "modifiers": [[(3)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1113D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+          "modifiers": [
             {
               "item": {
-                "guid": "1e12608c-0875-4951-8570-cbc52e1180e6",[(4)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1115D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+                "guid": "1e12608c-0875-4951-8570-cbc52e1180e6",
               },
               "quantity": 1,
-              "selectionType": "PORTION",[(5)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#SelectionTypePortionco)
-              "modifiers": [[(6)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1117D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+              "selectionType": "PORTION",
+              "modifiers": [
                 {
                   "optionGroup": {
-                    "guid": "669c7b5e-d0d8-49ef-af2d-f71ff3aa4ef3",[(7)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1122D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+                    "guid": "669c7b5e-d0d8-49ef-af2d-f71ff3aa4ef3",
                   },
                   "item": {
-                    "guid": "10e66af7-85aa-4865-9ad0-bcf9d95f44c4",[(8)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1120D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+                    "guid": "10e66af7-85aa-4865-9ad0-bcf9d95f44c4",
                   },
                   "quantity": 1
                 }
@@ -466,11 +466,11 @@ The following example order JSON applies modifiers to portions of a menu item se
             },
             {
               "item": {
-                "guid": "5f1257ac-00a1-43d1-8ad5-c9649629f651",[(9)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1124D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+                "guid": "5f1257ac-00a1-43d1-8ad5-c9649629f651",
               },
               "quantity": 1,
-              "selectionType": "PORTION",[(10)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#SelectionTypePortion2co)
-              "modifiers": [[(11)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e1126D6B515F8-3D74-448A-9642-BF572CBAA71C-co)
+              "selectionType": "PORTION",
+              "modifiers": [
                 {
                   "optionGroup": {
                     "guid": "669c7b5e-d0d8-49ef-af2d-f71ff3aa4ef3",
@@ -557,10 +557,10 @@ The following example JSON message body for a `POST` request to the orders API i
           "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
           },
-          "modifiers": [[(1)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e121793B42929-C18C-4AE5-98EB-4E7D465F2377-co)
+          "modifiers": [
             {
-              "selectionType": "SPECIAL_REQUEST"[(2)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e122193B42929-C18C-4AE5-98EB-4E7D465F2377-co)
-              "displayName": "Put the salad dressing on the side, not mixed in.",[(3)](apiDevGuide-apiSpecifyingModifiersAndInstructions.html#d1e121993B42929-C18C-4AE5-98EB-4E7D465F2377-co)
+              "selectionType": "SPECIAL_REQUEST"
+              "displayName": "Put the salad dressing on the side, not mixed in.",
             }
           ]
         }

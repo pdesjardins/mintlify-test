@@ -39,10 +39,10 @@ To support these types of employees, you need the following jobs:
 
 - A *manager* job that has every permission that can be assigned to an employee except the following:
 
-- Restaurant Admin > Quick Edit Menu. This type of menu editing is not yet supported in enterprise environments and should not be used.
+- Restaurant Admin \> Quick Edit Menu. This type of menu editing is not yet supported in enterprise environments and should not be used.
 
 
-- Account Admin > Financial Accounts. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
+- Account Admin \> Financial Accounts. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
 
 
 
@@ -81,7 +81,7 @@ The instructions below describe how to create the manager and server jobs for th
 1. [Log in to Toast Web](adminAccessToastAdminBackend.html) using your super user credentials.
 
 
-2. Choose Employees > Employee management > Jobs to open the Jobs page.
+2. Choose Employees \> Employee management \> Jobs to open the Jobs page.
 
 
 3. Click the Add Job button and select Create New Job.
@@ -105,10 +105,10 @@ The instructions below describe how to create the manager and server jobs for th
 
 7. Enable all permissions except:
 
-- Restaurant Admin > Quick Edit Menu. This type of menu editing is not yet supported in enterprise environments and should not be used.
+- Restaurant Admin \> Quick Edit Menu. This type of menu editing is not yet supported in enterprise environments and should not be used.
 
 
-- Account Admin > Financial Accounts. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
+- Account Admin \> Financial Accounts. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
 
 
 
@@ -124,7 +124,7 @@ You can click a permission header row to quickly select all its child permission
 1. [Log in to Toast Web](adminAccessToastAdminBackend.html) using your super user credentials.
 
 
-2. Choose Employees > Employee management > Jobs to open the Jobs page.
+2. Choose Employees \> Employee management \> Jobs to open the Jobs page.
 
 
 3. Click the Add Job button and select Create New Job.
@@ -181,7 +181,7 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 
 
-3. Choose Employees > Employee management > Employees to open the Employeespage.
+3. Choose Employees \> Employee management \> Employees to open the Employeespage.
 
 
 4. Click the Add New Employeebutton.
@@ -237,7 +237,7 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 
 
-3. Choose Employees > Employee management > Employees to open the Employeespage.
+3. Choose Employees \> Employee management \> Employees to open the Employeespage.
 
 
 4. Click the Add New Employeebutton.

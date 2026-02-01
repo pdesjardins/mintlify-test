@@ -22,10 +22,10 @@ codeExamples: 0
 
 > **Note**
 > 
-> To use the Close Out Day screen, you must have 3. Manager > 3.16 Close Out Daypermission.
+> To use the Close Out Day screen, you must have 3. Manager \> 3.16 Close Out Daypermission.
 
 
-On the Close Out Day screen, you can view and complete various actions to close out your restaurant for the day. The Close Out Day screen displays the restaurant’s Z report (End of day report) and close out day steps. The Z report is a one-day sales summary for the entire business day. The Z report can be customized to show the information you wish to see at the end of a business day such as net sales, discounts and voids, and cash balance. The Z report can be customized on the Employees > POS report configurations > Manager end of day report page in Toast Web.
+On the Close Out Day screen, you can view and complete various actions to close out your restaurant for the day. The Close Out Day screen displays the restaurant’s Z report (End of day report) and close out day steps. The Z report is a one-day sales summary for the entire business day. The Z report can be customized to show the information you wish to see at the end of a business day such as net sales, discounts and voids, and cash balance. The Z report can be customized on the Employees \> POS report configurations \> Manager end of day report page in Toast Web.
 
 
 

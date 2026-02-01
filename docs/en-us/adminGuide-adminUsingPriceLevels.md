@@ -28,7 +28,7 @@ To use a price level, you must first create it, and then you assign it to the me
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Settings > Price levels to open the Price levelspage.
+2. Choose Menus \> Settings \> Price levels to open the Price levelspage.
 
 
 3. In the price levels grid, click Add to create a new price level.
@@ -52,7 +52,7 @@ To use a price level, you must first create it, and then you assign it to the me
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 3. Expand the menus and menu groups on the Advanced Properties page to locate the menu item you want to edit.
@@ -76,7 +76,7 @@ To use a price level, you must first create it, and then you assign it to the me
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 3. Expand the menus and menu groups on the Advanced properties page to locate the menu group you want to edit.
@@ -107,7 +107,7 @@ By default, price levels use the Base Price pricing strategy. Price levels can a
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Settings > Price levels to open the Price levelspage.
+2. Choose Menus \> Settings \> Price levels to open the Price levelspage.
 
 
 3. Click the name of a price level to view its details page.

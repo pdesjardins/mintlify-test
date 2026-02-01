@@ -54,7 +54,7 @@ Depending on how you want to route items assigned to certain prep stations, you 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html)
 
 
-2. Choose Kitchen > Kitchen stations > Prep stations.
+2. Choose Kitchen \> Kitchen stations \> Prep stations.
 
 
 3. Under the Send to column, select where to send prep station items to. The options include:
@@ -95,7 +95,7 @@ The following procedure is for assigning prep stations to multiple [menu entitie
 
 > **Note**
 > 
-> You must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to assign prep stations to menu entities.
+> You must have the 4. Restaurant Admin \> 4.5 Edit Full Menu permission to assign prep stations to menu entities.
 
 
 **Procedure 10.13. To assign prep stations to menu entities**
@@ -103,7 +103,7 @@ The following procedure is for assigning prep stations to multiple [menu entitie
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties. The Advanced Propertiespage with an interactive table with rows for each restaurant menu opens.
+2. Choose Menus \> Bulk management \> Advanced properties. The Advanced Propertiespage with an interactive table with rows for each restaurant menu opens.
 
 
 3. Expand the menu to show the menu groups in a menu. Continue to expand to see menu items, modifier groups, and modifiers.

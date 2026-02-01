@@ -30,10 +30,10 @@ The following example shows the message body for a `/era/v1/labor/week` request 
 
 ```
 {
-  “startBusinessDate”: “20230203”,[(1)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3346134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  “endBusinessDate”: “20230209”,[(2)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3348134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  “restaurantIds”: [],[(3)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3350134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  “groupBy”:  [“EMPLOYEE”][(4)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3352134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+  “startBusinessDate”: “20230203”,
+  “endBusinessDate”: “20230209”,
+  “restaurantIds”: [],
+  “groupBy”:  [“EMPLOYEE”]
 }
 
 ```
@@ -125,10 +125,10 @@ The following example requests labor reporting data for three days and two resta
 The following example **curl** command sends a `POST` request to the `/era/v1/labor/week` endpoint.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \[(1)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -H 'Authorization: Bearer [token]' \[(2)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3549134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
+  -H 'Authorization: Bearer [token]' \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -147,11 +147,11 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 
 ```
 {
-  "startBusinessDate": "20230203",[(1)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3611134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "endBusinessDate": "20230205",[(2)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3613134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "restaurantIds": [],[(3)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3615134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "excludedRestaurantIds": [],[(4)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3617134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "groupBy": ["EMPLOYEE"][(5)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3619134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+  "startBusinessDate": "20230203",
+  "endBusinessDate": "20230205",
+  "restaurantIds": [],
+  "excludedRestaurantIds": [],
+  "groupBy": ["EMPLOYEE"]
 }
 
 ```
@@ -180,7 +180,7 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 ```
-"97adf06d-60c3-4224-8062-003c9157702e"[(1)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3693134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+"97adf06d-60c3-4224-8062-003c9157702e"
 ```
 
 
@@ -192,9 +192,9 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/[(1)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3730134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-97adf06d-60c3-4224-8062-003c9157702e/' \[(2)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3732134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsLaborReportingDataAggregation.html#d1e3734134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
+97adf06d-60c3-4224-8062-003c9157702e/' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

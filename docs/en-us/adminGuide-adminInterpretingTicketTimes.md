@@ -36,7 +36,7 @@ In this example, the ticket time is circled on a prep station KDS device ticket.
 
 #### Fire times on prep station tickets
 
-If you set the [Sending Courses](adminKitchenDiningRoomReference.html#configSendingCourses) setting to Send all courses to kitchen immediately, a *fire time* appears above the items on the prep station KDS device ticket. The fire time shows how long ago the Toast platform fired the course to the prep station KDS device with the intention to start working on that course. The fire time for a prep station KDS device ticket depends on your Firing Courses and Automated Firing settings on the Kitchen > Pacing > Meal pacing page.
+If you set the [Sending Courses](adminKitchenDiningRoomReference.html#configSendingCourses) setting to Send all courses to kitchen immediately, a *fire time* appears above the items on the prep station KDS device ticket. The fire time shows how long ago the Toast platform fired the course to the prep station KDS device with the intention to start working on that course. The fire time for a prep station KDS device ticket depends on your Firing Courses and Automated Firing settings on the Kitchen \> Pacing \> Meal pacing page.
 
 
 

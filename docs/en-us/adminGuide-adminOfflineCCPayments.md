@@ -37,7 +37,7 @@ You can also set a transaction limit for offline transactions which allows you t
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Select Payments > Payment options. Scroll down to the Card authorization and payment disruptions section.
+2. Select Payments \> Payment options. Scroll down to the Card authorization and payment disruptions section.
 
 
 3. Select a setting that determines the card authorization experience:

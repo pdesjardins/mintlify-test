@@ -24,9 +24,9 @@ Send a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint to retri
 The following example **curl** command sends a `GET` request to `/era/v1/menu/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/[(1)](apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData.html#d1e6065F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \[(2)](apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData.html#d1e6067F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData.html#d1e6069F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/
+fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

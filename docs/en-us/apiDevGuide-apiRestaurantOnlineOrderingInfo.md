@@ -17,7 +17,7 @@ codeExamples: 1
 
 ### Online ordering configuration
 
-The return data from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API includes an `OnlineOrdering` object with the configuration for the restaurant's Toast Online Ordering service. If the restaurant has the Toast Online Ordering feature, restaurant employees configure these settings on the Takeout & delivery > Toast online ordering > Toast Online Ordering page in the Toast Web.
+The return data from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API includes an `OnlineOrdering` object with the configuration for the restaurant's Toast Online Ordering service. If the restaurant has the Toast Online Ordering feature, restaurant employees configure these settings on the Takeout & delivery \> Toast online ordering \> Toast Online Ordering page in the Toast Web.
 
 The following example shows the online ordering configuration values in the return data from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
 
@@ -25,23 +25,23 @@ The following example shows the online ordering configuration values in the retu
 
 ```
   "onlineOrdering": {
-    "enabled": true,[(1)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e709B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-    "scheduling": true,[(2)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e711B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-    "specialRequests": true,[(3)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e713B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-    "specialRequestsMessage": "No substitutes. Additions may be charged extra.",[(4)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e715B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-    "paymentOptions": {[(5)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e717B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-      "delivery": {[(6)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e720B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-        "cash": true,[(7)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e722B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-        "ccSameDay": true,[(8)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e724B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
-        "ccFuture": true[(9)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e726B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
+    "enabled": true,
+    "scheduling": true,
+    "specialRequests": true,
+    "specialRequestsMessage": "No substitutes. Additions may be charged extra.",
+    "paymentOptions": {
+      "delivery": {
+        "cash": true,
+        "ccSameDay": true,
+        "ccFuture": true
       },
-      "takeout": {[(10)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e728B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
+      "takeout": {
         "cash": true,
         "ccSameDay": true,
         "ccFuture": true,
-        "ccInStore": true[(11)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e730B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
+        "ccInStore": true
       },
-      "ccTip": true[(12)](apiDevGuide-apiRestaurantOnlineOrderingInfo.html#d1e733B5CC56A8-7562-434E-9596-72D2B0334CE4-co)
+      "ccTip": true
     }
   }
 ```

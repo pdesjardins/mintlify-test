@@ -81,17 +81,17 @@ Some local regulations require third-party ordering platforms to clearly state t
 
 ```
 {
-    "enabled": true, [(1)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e96B3470A82-36E3-425F-9B05-911ECB33DF15-co)
+    "enabled": true, 
     "items": [
         {
-            "id": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",[(2)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e98B3470A82-36E3-425F-9B05-911ECB33DF15-co)
+            "id": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",
             "itemTypes": [
                 "UTENSILS",
                 "NAPKINS"
             ],
-            "guestDisplayName": "Include utensils and napkins", [(3)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e100B3470A82-36E3-425F-9B05-911ECB33DF15-co)
-            "guestInclusionType": "OPT_IN",[(4)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e102B3470A82-36E3-425F-9B05-911ECB33DF15-co)
-            "guestDescription": "Include 4 sets of utensils and one pack of napkins"[(5)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e104B3470A82-36E3-425F-9B05-911ECB33DF15-co)
+            "guestDisplayName": "Include utensils and napkins", 
+            "guestInclusionType": "OPT_IN",
+            "guestDescription": "Include 4 sets of utensils and one pack of napkins"
         },
         {
             "id": "be9c8aac-9d7f-4ff5-bfdd-f7d2fcb4711f",
@@ -103,7 +103,7 @@ Some local regulations require third-party ordering platforms to clearly state t
             "guestDescription": null
         }
     ],
-    "guestMessage": "Thank you for helping our restaurant remain eco-friendly!" [(6)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e107B3470A82-36E3-425F-9B05-911ECB33DF15-co)
+    "guestMessage": "Thank you for helping our restaurant remain eco-friendly!" 
 }
 ```
 
@@ -160,8 +160,8 @@ The examples below show an order request and response that includes multiple pac
   "appliedPackagingInfo": {
     "appliedPackagingItems": [
       {
-        "itemConfigId": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",[(1)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e28718E59E64-BD98-4F97-BC84-B44ABBF569B3-co)
-        "inclusion": "YES"[(2)](apiDevGuide-apiOrdersPackagingPreferences.html#d1e28918E59E64-BD98-4F97-BC84-B44ABBF569B3-co)
+        "itemConfigId": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",
+        "inclusion": "YES"
       },
       {
         "itemConfigId": "be9c8aac-9d7f-4ff5-bfdd-f7d2fcb4711f",

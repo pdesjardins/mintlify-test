@@ -30,7 +30,7 @@ codeExamples: 0
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Online ordering to open the Online ordering page.
+2. Choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page.
 
 
 
@@ -58,7 +58,7 @@ codeExamples: 0
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Online ordering to open the Online ordering page.
+2. Choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page.
 
 
 3. Under the Approval section, select the Change device button to open the Auto-Fire Device Setup dialog box. Select your Autofire device.

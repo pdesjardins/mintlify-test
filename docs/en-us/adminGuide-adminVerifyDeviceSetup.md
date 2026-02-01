@@ -41,11 +41,11 @@ To verify that the device is set up as expected, follow these steps.
 
 > **Note**
 > 
-> In Kitchen > Printers, tickets, & KDS devices > Kitchen setup, under the Expediter section, Two-Level Fulfillment setting has to be set to Two levels in order to see this.
+> In Kitchen \> Printers, tickets, & KDS devices \> Kitchen setup, under the Expediter section, Two-Level Fulfillment setting has to be set to Two levels in order to see this.
 
 
 
-- Prep Stations: These options are configured in Toast Web. Choose Kitchen > Kitchen stations > Prep stations to open the Prep stations page.
+- Prep Stations: These options are configured in Toast Web. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stations page.
 
 
 

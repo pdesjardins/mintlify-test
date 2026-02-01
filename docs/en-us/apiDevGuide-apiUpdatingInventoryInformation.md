@@ -47,9 +47,9 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: e4c1f40d-3247-4b8b-9891-52f445930fa3" \[(1)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e1511646327542-co)
--H "Content-Type: application/json" \[(2)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e1531646327542-co)
--d @my-item-inventory-data.json \[(3)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e1551646327542-co)
+-H "Toast-Restaurant-External-ID: e4c1f40d-3247-4b8b-9891-52f445930fa3" \
+-H "Content-Type: application/json" \
+-d @my-item-inventory-data.json \
 https://`[toast-api-hostname]`/stock/v1/inventory/update
 ```
 
@@ -97,17 +97,17 @@ The following example shows a JSON message body data that provides information a
 ```
 [
     {
-        "multiLocationId": "100000000171238879",[(1)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e2911646327542-co)
+        "multiLocationId": "100000000171238879",
         "status": "IN_STOCK"
     },
     {
-        "multiLocationId": "100000000171239701",[(2)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e2951646327542-co)
+        "multiLocationId": "100000000171239701",
         "status": "QUANTITY",
         "quantity": 5.0
     },
     {
         "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
-        "status": "OUT_OF_STOCK"[(3)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e2971646327542-co)
+        "status": "OUT_OF_STOCK"
     },
 ]
 ```
@@ -137,7 +137,7 @@ The following example shows the JSON response data for a PUT request to the `/in
 ```
 [
     {
-        "guid": "7d850cd0-c014-46f0-bfa6-b1f920c03743",[(1)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e5391724334607-co) 
+        "guid": "7d850cd0-c014-46f0-bfa6-b1f920c03743", 
         "itemGuidValidity": "VALID",
         "status": "IN_STOCK",
         "quantity": null,
@@ -145,7 +145,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "versionId": "7d850cd0-c014-46f0-bfa6-b1f920c03743"
     },
     {
-        "guid": "79977142-e076-4727-9b69-9176726b1603",[(2)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e5411724334607-co)
+        "guid": "79977142-e076-4727-9b69-9176726b1603",
         "itemGuidValidity": "VALID",
         "status": "QUANTITY",
         "quantity": 5.0,
@@ -153,7 +153,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "versionId": "79977142-e076-4727-9b69-9176726b1603"
     },
     {
-        "guid": "88521da5-198e-435b-a5ba-a09983525cf9",[(3)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e5431724334607-co)
+        "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
         "itemGuidValidity": "VALID",
         "status": "OUT_OF_STOCK",
         "quantity": null,
@@ -161,7 +161,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "versionId": "88521da5-198e-435b-a5ba-a09983525cf9"
     },
     {
-        "guid": "78271a25-cce4-4317-be6e-67be12722d20",[(4)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e5451724334607-co)
+        "guid": "78271a25-cce4-4317-be6e-67be12722d20",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
         "quantity": null,
@@ -169,7 +169,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "versionId": "78271a25-cce4-4317-be6e-67be12722d20"
     },
     {
-        "guid": "null",[(5)](apiDevGuide-apiUpdatingInventoryInformation.html#d1e5471724334607-co)
+        "guid": "null",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
         "quantity": null,

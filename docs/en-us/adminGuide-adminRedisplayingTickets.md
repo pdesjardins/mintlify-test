@@ -102,7 +102,7 @@ The KDS device changes to show fulfilled tickets *in addition to* tickets that a
 
 The unfulfill feature allows you to selectively find and re-send a ticket. After you unfulfill a ticket, the Toast platform redisplays it with the label RECALLED to help communicate why the ticket reappears KDS devices.
 
-Depending on your [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems) setting, you either unfulfill entire tickets, or unfulfill either the ticket or specific items on a ticket. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup to open the Kitchen page with the Fulfill Items setting.
+Depending on your [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems) setting, you either unfulfill entire tickets, or unfulfill either the ticket or specific items on a ticket. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup to open the Kitchen page with the Fulfill Items setting.
 
 To unfulfill a ticket, you can either:
 

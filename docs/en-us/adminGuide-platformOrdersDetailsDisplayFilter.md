@@ -18,16 +18,16 @@ codeExamples: 0
 
 #### Required permission for the reports
 
-To view the Orders or Order details report, you must have the Restaurant Admin > Sales Reports permission.
+To view the Orders or Order details report, you must have the Restaurant Admin \> Sales Reports permission.
 
 #### Displaying the reports
 
 From Toast Web:
 
-- To display the Orders report, select Reports > Sales > Orders.
+- To display the Orders report, select Reports \> Sales \> Orders.
 
 
-- To display the Order details report, select Reports > Menus> Order details.
+- To display the Order details report, select Reports \> Menus\> Order details.
 
 
 

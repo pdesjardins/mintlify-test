@@ -124,7 +124,7 @@ By default, restaurants are configured to fulfill an item at multiple prep stati
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup to open the Kitchen page.
+2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup to open the Kitchen page.
 
 
 3. In the Ticket Screens section, select one of these options for Fulfillment method:

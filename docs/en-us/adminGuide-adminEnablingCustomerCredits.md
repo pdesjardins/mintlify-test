@@ -31,7 +31,7 @@ To add and redeem credit for your guests you must enable the customer credits fe
 1. Log in to Toast Web as a restaurant administrator.
 
 
-2. Choose Payments > Payment methods > Customer credits to open the Customer credits page.
+2. Choose Payments \> Payment methods \> Customer credits to open the Customer credits page.
 
 
 3. In the Enable customer credits setting, choose Enable.

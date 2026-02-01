@@ -90,10 +90,10 @@ For information about how a marketplace facilitator organization remits tax amou
 
 Marketplace facilitator tax payment information is available in the following reporting resources.
 
-- The tax table section of the Sales Summaryreport. Choose Reports > Sales > Sales summary to open the Sales Summaryreport tab.
+- The tax table section of the Sales Summaryreport. Choose Reports \> Sales \> Sales summary to open the Sales Summaryreport tab.
 
 
-- The Taxes table of the Accounting Overview report. Choose Reports > Accounts > Accounting overview to open the Accounting Overview report.
+- The Taxes table of the Accounting Overview report. Choose Reports \> Accounts \> Accounting overview to open the Accounting Overview report.
 
 
 

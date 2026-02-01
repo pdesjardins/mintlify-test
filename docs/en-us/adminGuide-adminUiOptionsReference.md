@@ -19,7 +19,7 @@ codeExamples: 0
 
 The settings on this page customize how employees interact with Toast POS devices.
 
-To review and change settings on the Front of house > Order screen setup > UI options page, you must have the Web Setup > 6.6 Restaurant Operations Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To review and change settings on the Front of house \> Order screen setup \> UI options page, you must have the Web Setup \> 6.6 Restaurant Operations Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
 
 When applying these settings to multiple locations, you can select locations for each setting option. Use the Select locations to manage dropdown menu at the top of the page to choose locations to apply the UI options to. Use the dropdown menu under the Select locations option to open the Select locations dialog. You can select the locations you want to apply the setting option to by using the Locations or Groups tab.
 
@@ -27,7 +27,7 @@ For settings where you can select more than one option or uses a custom field, y
 
 #### Login screen
 
-The following table provides information about the settings of the Login screen section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Login screen section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
@@ -35,7 +35,7 @@ The following table provides information about the settings of the Login screen 
 | Mask passcode | This setting allows you to apply passcode masking.- OnThis option is enabled by default to activate passcode masking on all Toast POS devices. Asterisks (*) appear instead of the typed digits when employees enter their passcodes.
 - OffThis option disables passcode masking.
 
-You can also allow employees to access Toast POS devices that have a magnetic card reader by swiping a card with a magnetic stripe. On Toast POS devices, you associate a card with an employee passcode by selecting Manager Activities > Register Swipe Card. | 
+You can also allow employees to access Toast POS devices that have a magnetic card reader by swiping a card with a magnetic stripe. On Toast POS devices, you associate a card with an employee passcode by selecting Manager Activities \> Register Swipe Card. | 
 | Additional text | This setting accepts a text string. The text appears along the bottom of the sign in screen of your Toast POS devices. It appears above the Toast POS version number and in the same size font.
 
 > **Note**
@@ -47,7 +47,7 @@ You can also allow employees to access Toast POS devices that have a magnetic ca
 
 #### Order screen
 
-The following table provides information about the settings of the Order screen section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Order screen section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
@@ -61,7 +61,7 @@ If an ordered item does not have any associated menu-related modifier groups, em
 > To use this option, you must also set [Party size](adminUiOptionsReference.html#configPartySize) to Always ask before creating a new order.
 
 
-This option adds the Seat Number modifier group for orders taken in Table Service mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear.If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup page, set [Item Sorting Priority](adminKitchenDiningRoomReference.html#configItemSortingPriority) to By seat number.
+This option adds the Seat Number modifier group for orders taken in Table Service mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear.If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page, set [Item Sorting Priority](adminKitchenDiningRoomReference.html#configItemSortingPriority) to By seat number.
 - Seat number (Quick Order Only)
 
 > **Note**
@@ -69,8 +69,8 @@ This option adds the Seat Number modifier group for orders taken in Table Servic
 > To use this option, you must also set [Party size](adminUiOptionsReference.html#configPartySize) to Always ask before creating a new order.
 
 
-This option adds the Seat Number modifier group for orders taken in Quick Order mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear.If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup page, set [Item Sorting Priority](adminKitchenDiningRoomReference.html#configItemSortingPriority) to By seat number.
-- Dining optionThis option adds the Dining Option modifier group. When an employee selects Dining Option, buttons for Dine In, Take Out, Delivery, and so on appear. You define the [dining options](adminKitchenDiningRoomReference.html#configDiningOptions) that your restaurant uses on the Kitchen > Dining options > Dining options page.
+This option adds the Seat Number modifier group for orders taken in Quick Order mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear.If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page, set [Item Sorting Priority](adminKitchenDiningRoomReference.html#configItemSortingPriority) to By seat number.
+- Dining optionThis option adds the Dining Option modifier group. When an employee selects Dining Option, buttons for Dine In, Take Out, Delivery, and so on appear. You define the [dining options](adminKitchenDiningRoomReference.html#configDiningOptions) that your restaurant uses on the Kitchen \> Dining options \> Dining options page.
 
 > **Note**
 > 
@@ -81,7 +81,7 @@ This option adds the Seat Number modifier group for orders taken in Quick Order 
 ![A kitchen ticket with Dine In printed in large font at the top, a course of Dessert in the center, and 1 sandwich with Take Out, in brackets and italics, underneath.](https://doc.toasttab.com/doc/media/dine_in_vs_take_out.png)
 
 If you define rules to [reroute orders based on the dining option](adminAboutItemRoutingRules.html#adminReroutingOrdersBasedOnDiningOption) specified, this additional modifier only affects the appearance of the item on the ticket. It does not affect how the Toast platform routes the order.
-- CourseThis option adds the Coursemodifier group. When an employee selects Course, buttons for your courses (Apps, Main, Dessert, and so on) appear.You add [courses](adminKitchenDiningRoomReference.html#configCourses) on the Kitchen > Pacing > Coursespage, and enable [course pacing](adminKitchenDiningRoomReference.html#configCoursePacing) on the Kitchen > Pacing > Meal pacing page.
+- CourseThis option adds the Coursemodifier group. When an employee selects Course, buttons for your courses (Apps, Main, Dessert, and so on) appear.You add [courses](adminKitchenDiningRoomReference.html#configCourses) on the Kitchen \> Pacing \> Coursespage, and enable [course pacing](adminKitchenDiningRoomReference.html#configCoursePacing) on the Kitchen \> Pacing \> Meal pacing page.
 - SplitThis option adds the Splitmodifier group. When an employee selects Split, buttons for For 2, For 3, For 4, and so on appear.
 
 > **Note**
@@ -146,18 +146,18 @@ For more information about the effects of these options, see [KDS ticket content
 
 > **Note**
 > 
-> This setting requires that none of the [dining options](adminKitchenDiningRoomReference.html#configDiningOptions) defined on the Kitchen > Dining options > Dining options is identified as the default.
+> This setting requires that none of the [dining options](adminKitchenDiningRoomReference.html#configDiningOptions) defined on the Kitchen \> Dining options \> Dining options is identified as the default.
 
 
 - OnSelect this option to prompt employees for the dining option when they select Pay $in Quick Order mode. If Send, Stay, or Holdare enabled by the [Show Send, Stay, and Hold buttons](adminUiOptionsReference.html#configShowSendHoldStay) setting, or Fast Cash is enabled by [Show fast cash button?](adminUiOptionsReference.html#configFastCashButton), selecting them also prompts for the dining option.
 
 > **Note**
 > 
-> For this option to take effect, verify that there is no default dining option specified by either the Kitchen > Dining options > Dining options page for your restaurant or Setup > Device Setup > Device Default Dining Option for a specific Toast POS device.
+> For this option to take effect, verify that there is no default dining option specified by either the Kitchen \> Dining options \> Dining options page for your restaurant or Setup \> Device Setup \> Device Default Dining Option for a specific Toast POS device.
 
 
 
-- OffSelect this option if the kitchen does not need this information on kitchen tickets, or if you have a default dining option defined on the Kitchen > Dining options > Dining options page or on your Toast POS devices.
+- OffSelect this option if the kitchen does not need this information on kitchen tickets, or if you have a default dining option defined on the Kitchen \> Dining options \> Dining options page or on your Toast POS devices.
 
 For more information about the effects of these options, see [KDS ticket contents](adminKdsConfigQuickRef.html#adminKdsQuickRefContent). | 
 | Show item sent time | This setting determines whether the time that the order was sent to the kitchen appears below the item list on the order screen.- OnSelect this option to include a `Sent HH:MM` message below the item list on order screens. The sent time appears for every ordering mode: Table Service, Quick Order, and Delivery. Including this information with orders gives employees and managers additional insight into the fulfillment time frame, and, as a result, the guest experience.
@@ -266,7 +266,7 @@ You can select:- OnSelect this option to show identical modifier options once wi
 
 > **Note**
 > 
-> This setting affects only order screens. You define how modifier prices appear on guest receipts on the Payments > Checks & receipt setup > Guest receipt setup page.
+> This setting affects only order screens. You define how modifier prices appear on guest receipts on the Payments \> Checks & receipt setup \> Guest receipt setup page.
 
 
 - OnSelect this option if you only want the total price of the menu item and all modifier options to appear on the order screen.
@@ -284,7 +284,7 @@ For example, you serve different kinds of barbecue sauce with your chicken wings
 
 
 For more information about the effects of these options, see [KDS ticket layout](adminKdsConfigQuickRef.html#adminKdsQuickRefLayout). | 
-| Modifier ordering priority | This setting determines the sequence in which modifier group buttons appear on order screens and how modifiers are organized on printed and KDS kitchen tickets. This option applies to modifier groups defined in the menu. If you enable any of the [additional modifier groups](adminUiOptionsReference.html#configAdditionalModifierGroups), they appear after the menu modifier groups.- OnSelect this option if you want modifier group buttons to appear in the sequence defined by their Display Ordering Priority values. To review and update these values for all of your modifier groups use Menus > Bulk management > Advanced properties.
+| Modifier ordering priority | This setting determines the sequence in which modifier group buttons appear on order screens and how modifiers are organized on printed and KDS kitchen tickets. This option applies to modifier groups defined in the menu. If you enable any of the [additional modifier groups](adminUiOptionsReference.html#configAdditionalModifierGroups), they appear after the menu modifier groups.- OnSelect this option if you want modifier group buttons to appear in the sequence defined by their Display Ordering Priority values. To review and update these values for all of your modifier groups use Menus \> Bulk management \> Advanced properties.
 
 > **Note**
 > 
@@ -347,7 +347,7 @@ When enabled, employees can search for menu items by name using a search bar and
 
 #### POS Scheduling Settings
 
-The following table provides information about the settings of the POS Scheduling Settings section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the POS Scheduling Settings section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
@@ -360,7 +360,7 @@ The following table provides information about the settings of the POS Schedulin
 
 #### Service Areas Screen
 
-The following table provides information about the settings of the Service Areas Screen section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Service Areas Screen section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
@@ -371,7 +371,7 @@ The following table provides information about the settings of the Service Areas
 
 #### Tipping
 
-The following table provides information about the settings of the Tipping section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Tipping section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
@@ -411,7 +411,7 @@ Note that service charges, unlike tips, are included in the check total and coll
 
 > **Note**
 > 
-> This field can be reconfigured to accept up to four dollar amounts: choose Payments > Payment methods > Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen.
+> This field can be reconfigured to accept up to four dollar amounts: choose Payments \> Payment methods \> Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen.
 
 
  | 
@@ -424,11 +424,11 @@ Note that service charges, unlike tips, are included in the check total and coll
 - NoneSelect this option if you do not want any of the tip amounts or the No tip option to be preselected on the guest-facing display. The guest must select a suggested tip amount or No tip to proceed.
 
  | 
-| Tip percentages | This setting appears if [Tip options](adminUiOptionsReference.html#configChooseTipOptions) is set to either Show tip options in percentages only or Show tip options in amounts and percentages.You can enter up to three numbers. Each value defines a percentage of the check total to automatically add as a tip. For example, 15, 18, 20.To include these percentages on guest receipts, you must also enable the Display Tip Percentages on Customer Receipts setting on the Marketing > Receipt Setup page.
+| Tip percentages | This setting appears if [Tip options](adminUiOptionsReference.html#configChooseTipOptions) is set to either Show tip options in percentages only or Show tip options in amounts and percentages.You can enter up to three numbers. Each value defines a percentage of the check total to automatically add as a tip. For example, 15, 18, 20.To include these percentages on guest receipts, you must also enable the Display Tip Percentages on Customer Receipts setting on the Marketing \> Receipt Setup page.
 
 > **Note**
 > 
-> Previously, this field accepted up to four values. If you prefer this legacy feature, choose Payments > Payment methods > Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen. As a result, this field accepts up to four tip percentage values, but an extra payment step will be presented to guests who pay on a Toast device. This [Toast Central article](https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration) provides additional information.
+> Previously, this field accepted up to four values. If you prefer this legacy feature, choose Payments \> Payment methods \> Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen. As a result, this field accepts up to four tip percentage values, but an extra payment step will be presented to guests who pay on a Toast device. This [Toast Central article](https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration) provides additional information.
 
 
  | 
@@ -450,13 +450,13 @@ Note that service charges, unlike tips, are included in the check total and coll
 
 #### Shift review / closeout
 
-The following table provides information about the Advanced shift review setup page settings. To navigate to the Advanced shift review setup page, select Employees > Shift review > Advanced shift review setup.
+The following table provides information about the Advanced shift review setup page settings. To navigate to the Advanced shift review setup page, select Employees \> Shift review \> Advanced shift review setup.
 
 
 
 > **Note**
 > 
-> If configuring these settings for the first time, select Employees > Shift review > Shift review setup.
+> If configuring these settings for the first time, select Employees \> Shift review \> Shift review setup.
 
 
 | Setting | Options and Description | 
@@ -506,7 +506,7 @@ For more information about the effect of these options, see the [Negative Declar
 
 ##### Shift review report configurations
 
-The following list contains the sections you can include in the Shift review report. To navigate to the Shift review report page, select Employees > POS report configurations > Shift review report. For more information about these sections, see [Shift review report configurations](platformConfiguringShiftReview.html#platformShiftReviewReportConfigurations).
+The following list contains the sections you can include in the Shift review report. To navigate to the Shift review report page, select Employees \> POS report configurations \> Shift review report. For more information about these sections, see [Shift review report configurations](platformConfiguringShiftReview.html#platformShiftReviewReportConfigurations).
 
 The Shift review report setting lists the sections that you can include in your shift review report.
 
@@ -568,7 +568,7 @@ You also have the option to change the order of the sections. Click or tap and d
 
 ##### Z report configurations
 
-The following list contains the sections you can choose to include in the Z Report. To navigate to the Z Report page, select Front of house > Order screen setup > UI options > Report configurations and follow the link under the Z report configurations section. For more information about these sections, see this [Toast Central article](https://central.toasttab.com/s/article/Close-Out-Day-Z-Report-Auto-Capture#Z_report).
+The following list contains the sections you can choose to include in the Z Report. To navigate to the Z Report page, select Front of house \> Order screen setup \> UI options \> Report configurations and follow the link under the Z report configurations section. For more information about these sections, see this [Toast Central article](https://central.toasttab.com/s/article/Close-Out-Day-Z-Report-Auto-Capture#Z_report).
 
 The Z Report setting lists sections that you can include in your [Z report](adminGlossary.html#glossZReport).
 
@@ -627,7 +627,7 @@ You also have the option to change the sequence in which these sections appear. 
 
 ##### Closed drawer report configurations
 
-The following table provides information about the settings of the Closed Drawer Report page. To navigate to the Closed Drawer Report page, select Payments > Payment methods > Cash overview > POS report configurations > Cash drawer report. For more information about the sections you can include in your closed drawer report, see [this Toast Central article](https://central.toasttab.com/s/article/Closed-Drawer-Report-1492723816056).
+The following table provides information about the settings of the Closed Drawer Report page. To navigate to the Closed Drawer Report page, select Payments \> Payment methods \> Cash overview \> POS report configurations \> Cash drawer report. For more information about the sections you can include in your closed drawer report, see [this Toast Central article](https://central.toasttab.com/s/article/Closed-Drawer-Report-1492723816056).
 
 | Setting | Options and description | 
 | --- | --- |
@@ -644,7 +644,7 @@ To include a section in the closed drawer report, select the checkbox next to th
 
 #### Time clock
 
-The following table provides information about the settings of the Time clock section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Time clock section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
@@ -681,15 +681,15 @@ The following table provides information about the settings of the Time clock se
 
 #### Tax options
 
-The following table provides information about the settings of the Tax options section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Tax options section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |
-| Receipt tax options > Layout | - One line
+| Receipt tax options \> Layout | - One line
 - Separate lines
 
  | 
-| Receipt tax options > Label | This setting appears only if Receipt Tax options > Layout is One line.The label appears on printed guest receipts to identify the total amount charged as tax. This setting accepts a text string. | 
+| Receipt tax options \> Label | This setting appears only if Receipt Tax options \> Layout is One line.The label appears on printed guest receipts to identify the total amount charged as tax. This setting accepts a text string. | 
 | Smart tax | - On
 - Off
 
@@ -697,7 +697,7 @@ For more information, see [Smart tax](adminSmartTax.html). |
 
 #### Order management
 
-The following table provides information about the settings of the Order management section on the Front of house > Order screen setup > UI options page.
+The following table provides information about the settings of the Order management section on the Front of house \> Order screen setup \> UI options page.
 
 | Setting | Options and description | 
 | --- | --- |

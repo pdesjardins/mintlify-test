@@ -27,7 +27,7 @@ Currently, the bulk edit feature supports setting the same [visibility settings]
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, select Items.
@@ -57,7 +57,7 @@ Currently, the bulk edit feature supports setting the same [visibility settings]
 - Toast Online Ordering, Toast Takeout (Local by Toast) app: The menu items are visible on a restaurant's Toast Online Ordering site and on the Toast Takeout (Local by Toast) app.
 
 
-- Customer invoices: The menu items are visible when creating customer invoices for orders using the Payments > Customer invoices page. Note that this setting is always enabled for all menu entities and cannot be changed. (For information on creating customer invoices, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).)
+- Customer invoices: The menu items are visible when creating customer invoices for orders using the Payments \> Customer invoices page. Note that this setting is always enabled for all menu entities and cannot be changed. (For information on creating customer invoices, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).)
 
 
 - Online ordering partners: The menu items are visible to all of the online ordering partners you have allowed to integrate with your Toast restaurant (for example, DoorDash, Uber Eats, or Grubhub).

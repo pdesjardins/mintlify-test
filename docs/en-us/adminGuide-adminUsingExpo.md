@@ -38,10 +38,10 @@ For more information about setting up prep stations, see [Routing with prep stat
 
 To configure your kitchen workflow to include one or two expediters, you must have the following access permissions to Toast Web.
 
-- Restaurant Admin > Edit Full Menu
+- Restaurant Admin \> Edit Full Menu
 
 
-- Web Setup > Kitchen / Dining Room Setup
+- Web Setup \> Kitchen / Dining Room Setup
 
 
 
@@ -56,7 +56,7 @@ Follow one of these procedures to configure the expediter workflow.
 You can review the menu items and modifiers that are assigned to each prep station in Toast Web. For more information, see [Verify order routing to prep stations](adminTroubleshootPrepStationRouting.html).
 
 
-2. [Access Toast Web ](adminAccessToastAdminBackend.html)and choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage. An interactive grid with rows for each prep station appears.
+2. [Access Toast Web ](adminAccessToastAdminBackend.html)and choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage. An interactive grid with rows for each prep station appears.
 
 
 3. To send orders to the expediter, a prep station must have a check mark in the Send to Expediter column. Check this setting for each prep station you identified in Step 1, and then save your changes.
@@ -69,7 +69,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 
 
 
-4. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup, and in the Expediter section, set Two-Level Fulfillment to Single level.
+4. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup, and in the Expediter section, set Two-Level Fulfillment to Single level.
 
 
 5. Save and publish your changes.
@@ -97,7 +97,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 1. Complete Steps 1-3 from the [single expediter configuration](adminUsingExpo.html#singleExpo)procedure to define which prep stations send orders to the expediter.
 
 
-2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup, and in the Expediter section set Two-Level Fulfillment to Two levels.
+2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup, and in the Expediter section set Two-Level Fulfillment to Two levels.
 
 
 
@@ -171,12 +171,12 @@ On-screen notifications have the following characteristics.
 
 #### Configure on-screen notification on expediter fulfillment
 
-To configure on-screen notifications for servers, you must have the Web Setup > Restaurant Operations Setupaccess permission to Toast Web. Then, follow these steps.
+To configure on-screen notifications for servers, you must have the Web Setup \> Restaurant Operations Setupaccess permission to Toast Web. Then, follow these steps.
 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Front of house > POS notifications > Notification setup to open the Notification setup page.
+2. Choose Front of house \> POS notifications \> Notification setup to open the Notification setup page.
 
 
 3. For the Enabled Notifications option, select Fulfilled tickets (alerts person who placed the order).

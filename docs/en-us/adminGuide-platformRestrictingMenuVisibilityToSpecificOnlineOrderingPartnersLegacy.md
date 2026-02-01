@@ -40,7 +40,7 @@ These settings apply to the restaurant you are currently logged into. For exampl
 
 **Procedure 8.105. To configure ordering partner-specific visibility for a menu**
 
-1. In Toast Web, select Menus > Menu management > Menu manager.
+1. In Toast Web, select Menus \> Menu management \> Menu manager.
 
 
 2. Select the menu you want to edit to see its side panel.
@@ -94,7 +94,7 @@ This section covers how to configure a menu so it is visible to specific online 
 1. Log in to Toast Web.
 
 
-2. From the navigation pane on the left, select Menus > Bulk management > Advanced Properties.
+2. From the navigation pane on the left, select Menus \> Bulk management \> Advanced Properties.
 
 
 3. From the You are viewing menu, pick a location group that uses the menu you want to edit and select Update.
@@ -123,7 +123,7 @@ This section covers how to configure a menu so it is visible to specific online 
 
 ![Example of the location dropdown list for an ordering partner.](https://doc.toasttab.com/doc/media/menu-builder-channel-visibility-mlm-selected-locations.png)
 
-The dropdown lists only show locations that are included in the menu's target *and* that you have the [Restaurant Admin > Edit Full Menu](adminPermissions.html#adminRestaurantAdminAccessPermissions) permission to. For example, consider the following location group hierarchy:
+The dropdown lists only show locations that are included in the menu's target *and* that you have the [Restaurant Admin \> Edit Full Menu](adminPermissions.html#adminRestaurantAdminAccessPermissions) permission to. For example, consider the following location group hierarchy:
 
 - Corporate
 
@@ -184,7 +184,7 @@ For each menu group, menu item, modifier group, and modifier *within this same m
 2. From the navigation pane on the left, select Menus.
 
 
-3. Select Bulk management > Advanced properties.
+3. Select Bulk management \> Advanced properties.
 
 ![Location of the Advanced Properties link.](https://doc.toasttab.com/doc/media/menu-viz-workarounds-advanced-properties.png)
 
@@ -192,7 +192,7 @@ For each menu group, menu item, modifier group, and modifier *within this same m
 4. From the You are viewing menu, pick a location group that uses the menu you want to edit and select Update. If your menu has multiple versions, pick a location group that ensures you see all of the versions in the Advanced Properties page. This may be your top-level location group.
 
 
-5. If the Visible to column is not already displayed, from the Show/Hide menu, choose Properties > Visible to.
+5. If the Visible to column is not already displayed, from the Show/Hide menu, choose Properties \> Visible to.
 
 ![Location of the Show/Hide menu.](https://doc.toasttab.com/doc/media/menu-viz-workarounds-mlm-show-hide-menu.png)
 
@@ -215,7 +215,7 @@ Also for each additional version, expand the version and ensure that the Online 
 9. Select Save.
 
 
-10. Choose Toast account > Publishing > Publish config to view the Publish configpage.
+10. Choose Toast account \> Publishing \> Publish config to view the Publish configpage.
 
 
 11. From the You are viewing menu, select the locations you want to view. For more information, see [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html).
@@ -263,7 +263,7 @@ Before you can add a menu on the Third party ordering page, you must first enabl
 
 **Procedure 8.108. To enable online ordering partner visibility in the menu manager**
 
-1. In Toast Web, select Menus > Menu manager.
+1. In Toast Web, select Menus \> Menu manager.
 
 
 2. Select the menu you want to edit to open its side panel.
@@ -288,7 +288,7 @@ Before you can add a menu on the Third party ordering page, you must first enabl
 
 **Procedure 8.109. To enable online ordering partner visibility in the classic menu details page**
 
-1. In Toast Web, select Menus > Menu manager.
+1. In Toast Web, select Menus \> Menu manager.
 
 
 2. Select Full menu view, then select the menu you want to edit to see its side panel.
@@ -316,7 +316,7 @@ Before you can add a menu on the Third party ordering page, you must first enabl
 
 **Procedure 8.110. To enable online ordering partner visibility on the Advanced Properties page**
 
-1. In Toast Web, select Menus > Bulk management > Advanced properties. The Advanced Properties page opens.
+1. In Toast Web, select Menus \> Bulk management \> Advanced properties. The Advanced Properties page opens.
 
 
 2. If the Visible To column is not showing on the page, do the following:
@@ -329,7 +329,7 @@ Before you can add a menu on the Third party ordering page, you must first enabl
 
 
 
-3. Locate the row for the menu you want to enable online ordering visibility for, then select its Visible Tosetting and choose Online orders > Partners.
+3. Locate the row for the menu you want to enable online ordering visibility for, then select its Visible Tosetting and choose Online orders \> Partners.
 
 
 4. Select Save.

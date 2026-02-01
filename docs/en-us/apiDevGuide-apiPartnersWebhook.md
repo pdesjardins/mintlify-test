@@ -178,8 +178,8 @@ The payload for the `partner_updated` webhook event is identical to the payload 
         "managementGroupGuid": "55555555-6666-7777-8888-999999999999",
         "restaurantName": "Toast Grill & Tap",
         "locationName": "Fenway, Boston, MA",
-        "externalGroupRef": "toastgrill",[(1)](apiDevGuide-apiPartnersWebhook.html#d1e1581578677079-co)
-        "externalRestaurantRef": "boston01",[(2)](apiDevGuide-apiPartnersWebhook.html#d1e1601578677079-co)
+        "externalGroupRef": "toastgrill",
+        "externalRestaurantRef": "boston01",
         "modifiedDate": 1568667977351,
         "createdDate": 1568667880240,
         "isoModifiedDate": "2019-09-16T21:14:02.142Z",

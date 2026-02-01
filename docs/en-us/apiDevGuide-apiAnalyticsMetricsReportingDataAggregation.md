@@ -28,10 +28,10 @@ The `aggregateBy` query parameter divides the metric data into either daily or h
 The following example shows a `/era/v1/metrics/day`request that uses the `aggregateBy` query parameter set to `HOUR`:
 
 ```
-curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e451DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6-co)?aggregateBy=HOUR' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e455DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6-co)  
-  -H 'Authorization: Bearer `[token]`' \[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e461DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6-co)
-  -H 'Content-Type: application/json' \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e463DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6-co)
-  -d @`[request-info]`.json \[(5)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e468DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy=HOUR' \  
+  -H 'Authorization: Bearer `[token]`' \
+  -H 'Content-Type: application/json' \
+  -d @`[request-info]`.json \
 
 ```
 
@@ -97,12 +97,12 @@ The following example shows the message body for a `/era/v1/metrics/week` reques
 
 ```
 {
-  "startBusinessDate": "20220824",[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e2276FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "endBusinessDate": "20220830",[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e2296FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "restaurantIds": [[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e2316FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "startBusinessDate": "20220824",
+  "endBusinessDate": "20220830",
+  "restaurantIds": [
     "497f6eca-6276-4993-bfeb-53cbbbba6f08"
   ],
-  "groupBy": [[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e2336FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "groupBy": [
     "DINING_OPTION"
   ]
 }
@@ -276,10 +276,10 @@ This section includes examples of how to create a request for and retrieve aggre
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/day` endpoint.
 
 ```
-curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e5736FAD0EEB-57EF-441A-9E58-614F985F6270-co)?aggregateBy=HOUR' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e5776FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Authorization: Bearer `[token]`' \[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e5796FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Content-Type: application/json' \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e5816FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -d @`[request-info]`.json \[(5)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e5846FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy=HOUR' \
+  -H 'Authorization: Bearer `[token]`' \
+  -H 'Content-Type: application/json' \
+  -d @`[request-info]`.json \
 
 ```
 
@@ -301,12 +301,12 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
 
 ```
 {
-  "startBusinessDate": "20230201",[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e6526FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "restaurantIds": [[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e6546FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "startBusinessDate": "20230201",
+  "restaurantIds": [
     "43211888-2860-46c7-a8c8-32ba462e1280"
   ],
-  "excludedRestaurantIds": [],[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e6566FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "groupBy": [[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e6586FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "excludedRestaurantIds": [],
+  "groupBy": [
     "DINING_OPTION", 
     "REVENUE_CENTER"
   ]
@@ -336,7 +336,7 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
 The following example shows the response from the `/era/v1/metrics/day` endpoint.
 
 ```
-"3a29d28e-171f-43d8-a36a-0a26fe65783d"[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e7026FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+"3a29d28e-171f-43d8-a36a-0a26fe65783d"
 ```
 
 
@@ -348,9 +348,9 @@ The following example shows the response from the `/era/v1/metrics/day` endpoint
 The following example **curl** command sends a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e7226FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-3a29d28e-171f-43d8-a36a-0a26fe65783d/' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e7246FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Authorization: Bearer `[token]`'[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.html#d1e7286FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
+3a29d28e-171f-43d8-a36a-0a26fe65783d/' \
+  -H 'Authorization: Bearer `[token]`'
 
 ```
 

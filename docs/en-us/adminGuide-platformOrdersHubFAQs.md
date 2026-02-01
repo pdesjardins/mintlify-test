@@ -19,13 +19,13 @@ codeExamples: 0
 ### FAQs
 
 | **Q:** | I’m offering both takeout and delivery dining options for online ordering. Why am I only seeing the quote time for one of them? | 
-| **A:** | The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:- You have selected Delivery as a dining option in the Takeout/deliverypage in Toast Web. From Toast Web, choose Takeout & delivery > Takeout/delivery to open the Takeout/delivery page.
+| **A:** | The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:- You have selected Delivery as a dining option in the Takeout/deliverypage in Toast Web. From Toast Web, choose Takeout & delivery \> Takeout/delivery to open the Takeout/delivery page.
 - You have turned on the Deliveryor Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.
 
  | 
 
 | **Q:** | Can I use the Orders Hub screen in dark mode? | 
-| **A:** | Yes, you can use the Orders Hub screen in dark mode. To enable dark mode on your device, navigate to the Setup screen. Tap on Device Setup > POS Display Theme. Select Dark mode and then tap the Savebutton. | 
+| **A:** | Yes, you can use the Orders Hub screen in dark mode. To enable dark mode on your device, navigate to the Setup screen. Tap on Device Setup \> POS Display Theme. Select Dark mode and then tap the Savebutton. | 
 
 | **Q:** | Can I manually fire a Scheduled order from the Orders Hub screen? | 
 | **A:** | On an Autofire configured device, you can manually fire a Scheduled order from the Orders Hub screen by selecting the Fire Now button on the detailed order information screen. | 

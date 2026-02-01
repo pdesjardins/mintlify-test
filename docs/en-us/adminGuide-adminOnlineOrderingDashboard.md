@@ -35,7 +35,7 @@ On the online ordering dashboard, you can quickly access settings to control you
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Toast online ordering.
+2. Choose Takeout & delivery \> Toast online ordering.
 
 
 
@@ -98,7 +98,7 @@ The takeout time is updated with a new quote time. The new takeout time is: quot
 
 #### Turning on and off delivery or adding a delay
 
-Lastly, you can turn on or off delivery or add a delay from the online ordering dashboard. The dashboard displays the delivery setting configured on the Delivery page in Toast Web. Choose Takeout & delivery > Availability > Takeout/delivery > Delivery to open the Delivery page. You can choose to turn on or off Toast Delivery Services (TDS) or first-party delivery. If you have TDS configured, all setting changes are defaulted to apply to TDS orders.
+Lastly, you can turn on or off delivery or add a delay from the online ordering dashboard. The dashboard displays the delivery setting configured on the Delivery page in Toast Web. Choose Takeout & delivery \> Availability \> Takeout/delivery \> Delivery to open the Delivery page. You can choose to turn on or off Toast Delivery Services (TDS) or first-party delivery. If you have TDS configured, all setting changes are defaulted to apply to TDS orders.
 
 
 

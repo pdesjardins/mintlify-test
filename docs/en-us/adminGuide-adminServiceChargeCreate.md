@@ -18,9 +18,9 @@ codeExamples: 0
 
 #### Prerequisites for configuring service charges
 
-To create a service charge, you need POS Access > Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminPermissions.html#adminAddlPosAccessPermissions).
+To create a service charge, you need POS Access \> Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminPermissions.html#adminAddlPosAccessPermissions).
 
-Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus > Menu management > Tax rates setup. For more information, see [Taxes overview](adminTaxesOverview.html).
+Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus \> Menu management \> Tax rates setup. For more information, see [Taxes overview](adminTaxesOverview.html).
 
 #### Configuring a new service charge
 
@@ -29,7 +29,7 @@ Before you create a service charge that is taxed, configure your tax rates using
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Checks & receipt setup > Service charges and fees.
+2. Choose Payments \> Checks & receipt setup \> Service charges and fees.
 
 
 3. On the Service Charges page, click the + Add button.
@@ -153,7 +153,7 @@ Each service charge should only apply to one dining option (delivery, takeout, d
 
 Use the Applicable Taxes option to select the configured tax rates to apply.
 
-The tax rates are configured on the Menus > Menu management > Tax rates setup page.
+The tax rates are configured on the Menus \> Menu management \> Tax rates setup page.
 
 
 6. If you set Delivery? to Yes, the Deliveryadvanced configuration is displayed.

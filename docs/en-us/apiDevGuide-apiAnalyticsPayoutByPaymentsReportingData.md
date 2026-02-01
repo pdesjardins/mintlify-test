@@ -68,10 +68,10 @@ To create a request for payout reporting data organized by payments, include the
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/payments/day` endpoint.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Authorization: Bearer [token]' \[(2)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7577E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7579E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
+  -H 'Authorization: Bearer [token]' \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -90,10 +90,10 @@ The following example shows the message body for creating a payout reporting dat
 
 ```
 {
-    "startDate": "20240710",[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7623E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "endDate": "20240710",[(2)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7625E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],[(3)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7627E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "excludedRestaurantIds": [][(4)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7629E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+    "startDate": "20240710",
+    "endDate": "20240710",
+    "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],
+    "excludedRestaurantIds": []
 }
 ```
 
@@ -112,7 +112,7 @@ The following example shows the message body for creating a payout reporting dat
 The following example shows the response from the `/era/v1/payout/payments/day` endpoint.
 
 ```
-"62bd5cf3-26c5-4fa8-8f51-15b3dd4d2e09"[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+"62bd5cf3-26c5-4fa8-8f51-15b3dd4d2e09"
 ```
 
 
@@ -130,9 +130,9 @@ Send a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}` endpoi
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/payments/[(1)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-bc5279b0-a46d-4707-94e6-614edd31f2b3' \[(2)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7733E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.html#d1e7735E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/payments/
+bc5279b0-a46d-4707-94e6-614edd31f2b3' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

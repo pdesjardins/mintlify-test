@@ -46,20 +46,20 @@ Note these two scenarios:
 
 The cash drawer name appears in Toast Web in areas of the Cash Activity Audit and the Cash Drawer History reports. In addition, all areas on the Toast POS device that reference cash drawers will display the cash drawer name, not the associated printer name.
 
-You can assign a cash drawer name when you [create or update a cash drawer](platformDeprecatedCashManagement.html#platformCashDrawerCreate) with the Payments > Checks & receipt setup > Printers and cash drawers page in Toast Web.
+You can assign a cash drawer name when you [create or update a cash drawer](platformDeprecatedCashManagement.html#platformCashDrawerCreate) with the Payments \> Checks & receipt setup \> Printers and cash drawers page in Toast Web.
 
 ##### Creating cash drawers
 
 This procedure assumes that you have a physical cash drawer connected to a printer and the printer has been connected to your Toast network.
 
-You need the Web Setup > 6.10 Printer and Cash Drawer Setup permission to configure a printer and its cash drawer.
+You need the Web Setup \> 6.10 Printer and Cash Drawer Setup permission to configure a printer and its cash drawer.
 
 **Procedure 6.61. To configure a new cash drawer**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > Cash drawers > View cash drawers to open the Cash drawers page.
+2. Choose Payments \> Payment methods \> Cash overview \> Cash drawers \> View cash drawers to open the Cash drawers page.
 
 
 3. Select the View all printers link. This opens the Printers and cash drawerspage.
@@ -134,7 +134,7 @@ An employee handling cash payments (either cash in drawer or cash in hand) must 
 2. In the Setup section, select Device Setup. This opens the Device Setup screen.
 
 
-3. Select the Allow Cash Payments setting, then select Accept cash payments to allow an employee to accept cash payments on the device. Employees must also have the POS Access > 1.6 Apply Cash Payments permission to accept cash payments.
+3. Select the Allow Cash Payments setting, then select Accept cash payments to allow an employee to accept cash payments on the device. Employees must also have the POS Access \> 1.6 Apply Cash Payments permission to accept cash payments.
 
 Select No cash payments if you want to prevent employees from accepting cash payments on the device, regardless of whether or not they have the Apply Cash Payment permission. For example, you can set this to No cash payments on a kitchen display system (KDS) device.
 
@@ -246,7 +246,7 @@ You can change the state of cash drawers as needed during restaurant business ho
 > At the 4 AM closeout hour, cash drawers are automatically closed. If a restaurant is offline during that time, employees will be unable to create a new cash drawer.
 
 
-Cash drawers for the restaurant are listed in the Cash Drawers screen on the Toast POS device. You can access this screen by tapping the Toast logo (until the Toast POS home screen displays) and selecting Cash Management > Cash Drawers. The screen has three tabs: ACTIVE, OPEN, and CLOSED, as shown in this abbreviated example:
+Cash drawers for the restaurant are listed in the Cash Drawers screen on the Toast POS device. You can access this screen by tapping the Toast logo (until the Toast POS home screen displays) and selecting Cash Management \> Cash Drawers. The screen has three tabs: ACTIVE, OPEN, and CLOSED, as shown in this abbreviated example:
 
 ![The Toast POS device showing the Cash Drawers screen.](https://doc.toasttab.com/doc/media/cm-cash-drawer-screen.png)
 
@@ -304,7 +304,7 @@ Note that if a terminal has dual drawers connected, two cash drawers are listed 
 - If a cash drawer is locked down to an employee, a locked icon displays before the cash drawer name and the employee's name appears after the cash drawer name. If the cash drawer is not locked down, an unlocked icon displays before the cash drawer name.
 
 
-- If the employee has the Manager > 3.18 Cash Drawers (Full) permission, the expected amounts for each drawer display in the Balance column. If the employee has the Manager > 3.17 Cash Drawers (Blind) permission, the expected amounts for each drawer do not display.
+- If the employee has the Manager \> 3.18 Cash Drawers (Full) permission, the expected amounts for each drawer display in the Balance column. If the employee has the Manager \> 3.17 Cash Drawers (Blind) permission, the expected amounts for each drawer do not display.
 
 
 
@@ -432,13 +432,13 @@ Cash In entries add cash to active and open drawers. The employee can enter a cu
 
 
 
-As a result, a Cash In action for the amount is added to the cash drawer, together with the name of the employee who made the entry. This information (including the reason for the entry) will also be listed in the Reports > Cash and loss management > Cash activity auditreport.
+As a result, a Cash In action for the amount is added to the cash drawer, together with the name of the employee who made the entry. This information (including the reason for the entry) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport.
 
 ###### Cash Collected
 
 Cash Collected entries add cash to active and open drawers. The employee can enter a custom reason for the entry as a comment. The intent of a Cash Collected entry is to collect cash in hand from a server and add it to the cash drawer.
 
-Note that a Cash Collected entry executed from a cash drawer is similar to the Collect Cash step during a shift review. Both procedures add a Cash Collection action to the cash drawer and to the Reports > Cash and loss management > Cash activity audit report.
+Note that a Cash Collected entry executed from a cash drawer is similar to the Collect Cash step during a shift review. Both procedures add a Cash Collection action to the cash drawer and to the Reports \> Cash and loss management \> Cash activity audit report.
 
 **Procedure 6.65. To make a Cash Collected entry**
 
@@ -467,7 +467,7 @@ Note that a Cash Collected entry executed from a cash drawer is similar to the C
 
 
 
-As a result, a Cash Collected entry for the amount is made in the cash drawer, with the name of the employee from whom the cash was collected. This information (including the reason) will also be listed in the Reports > Cash and loss management > Cash activity audit report.
+As a result, a Cash Collected entry for the amount is made in the cash drawer, with the name of the employee from whom the cash was collected. This information (including the reason) will also be listed in the Reports \> Cash and loss management \> Cash activity audit report.
 
 ###### Cash Out
 
@@ -499,7 +499,7 @@ Optionally, the employee can enter a custom reason for the entry as a comment. C
 
 
 
-As a result, a Cash Out action for the removed amount is entered in the cash drawer, together with the name of the employee who made the entry. This information (including a comment for the entry) will also be listed in the Reports > Cash and loss management > Cash activity auditreport.
+As a result, a Cash Out action for the removed amount is entered in the cash drawer, together with the name of the employee who made the entry. This information (including a comment for the entry) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport.
 
 ###### Tip Out
 
@@ -534,7 +534,7 @@ The employee can provide information for the entry as a comment.
 
 
 
-As a result, a Tip Out entry for the amount removed is made in the cash drawer, together with the name of the employee to whom the cash tips were distributed. This information (including the reason) will also be listed in the Reports > Cash and loss management > Cash activity audit report.
+As a result, a Tip Out entry for the amount removed is made in the cash drawer, together with the name of the employee to whom the cash tips were distributed. This information (including the reason) will also be listed in the Reports \> Cash and loss management \> Cash activity audit report.
 
 ###### Pay Out
 
@@ -608,7 +608,7 @@ There are two versions of the Pay Out operation:
 
 
 
-As a result, a Pay Out action for the amount is entered in the cash drawer, along with the name of the employee who made the pay out. This information (including the reason for the entry) will also be listed in the Reports > Cash and loss management > Cash activity auditreport.
+As a result, a Pay Out action for the amount is entered in the cash drawer, along with the name of the employee who made the pay out. This information (including the reason for the entry) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport.
 
 A Pay Out slip is also printed, with the name of the employee who made the Pay Out listed at the top of the slip. The slip also prints the following information:
 
@@ -645,7 +645,7 @@ Cash Drop entries are made if the cash drawer has more money than the restaurant
 
 
 
-As a result, a Cash Drop action for the removed amount (as a negative dollar amount) is made in the cash drawer, along with the name of the employee who made the cash drop. This information will also be listed in the Reports > Cash and loss management > Cash activity auditreport.
+As a result, a Cash Drop action for the removed amount (as a negative dollar amount) is made in the cash drawer, along with the name of the employee who made the cash drop. This information will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport.
 
 A Cash Drop slip is also printed, with the restaurant name at the top followed by this information:
 
@@ -685,7 +685,7 @@ When an employee makes a No Sale entry, a Please select a no sale reason dialog 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Transactions & refunds > No sale reasons to open the No Sale Reasons page.
+2. Choose Payments \> Transactions & refunds \> No sale reasons to open the No Sale Reasons page.
 
 
 3. Select the + Add button.
@@ -693,13 +693,13 @@ When an employee makes a No Sale entry, a Please select a no sale reason dialog 
 
 4. Configure the fields for the No Sale reason:
 
-- Name: Enter a name that is descriptive of the purpose of this No Sale entry, such as *Make Change* or *Count Cash*. The name is included in the Reports > Cash and loss management > Cash activity audit report and also in the Reports > Cash and loss management > No sale reports, so a descriptive name is helpful when reading those reports.
+- Name: Enter a name that is descriptive of the purpose of this No Sale entry, such as *Make Change* or *Count Cash*. The name is included in the Reports \> Cash and loss management \> Cash activity audit report and also in the Reports \> Cash and loss management \> No sale reports, so a descriptive name is helpful when reading those reports.
 
 
 - Active: Specify whether this No Sale reason should be active. Only active reasons are listed in the Please select a no sale reasondialog.
 
 
-- Description: Optionally, enter a more detailed description of this reason. The description is not entered in the Reports > Cash and loss management > Cash activity audit report nor in the Reports > Cash and loss management > No sale report, but is intended to provide more information for anyone making changes on this page.
+- Description: Optionally, enter a more detailed description of this reason. The description is not entered in the Reports \> Cash and loss management \> Cash activity audit report nor in the Reports \> Cash and loss management \> No sale report, but is intended to provide more information for anyone making changes on this page.
 
 
 
@@ -719,7 +719,7 @@ When an employee makes a No Sale entry, a Please select a no sale reason dialog 
 
 
 
-As a result, a No Sale action for $0.00 is entered in the cash drawer, along with the name of the employee who made the No Sale entry. This information (including the name of the No Sale reason) will also be listed in the Reports > Cash and loss management > Cash activity auditreport and also in the Reports > Cash and loss management > No sale reports.
+As a result, a No Sale action for $0.00 is entered in the cash drawer, along with the name of the employee who made the No Sale entry. This information (including the name of the No Sale reason) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport and also in the Reports \> Cash and loss management \> No sale reports.
 
 ##### End of Shift operations
 
@@ -745,7 +745,7 @@ The cash labels provide the following information:
 
 
 
-The Comment field allows the employee to enter an optional comment (maximum of 45 characters). Comments are especially useful when there are overage or shortage variances in the closing balance. These closeout comments are listed in the Reports > Cash loss and management > Cash activity audit report. If the Comment field is left blank, the following default text is used:
+The Comment field allows the employee to enter an optional comment (maximum of 45 characters). Comments are especially useful when there are overage or shortage variances in the closing balance. These closeout comments are listed in the Reports \> Cash loss and management \> Cash activity audit report. If the Comment field is left blank, the following default text is used:
 
 - Closeout Overage: "Close out balance is over"
 
@@ -764,7 +764,7 @@ In Toast Web, you can optionally configure confirmation thresholds that are appl
 - Closeout Over/Short Max: A dollar threshold that, if exceeded, requires a manager to approve the closing of the cash drawer.
 
 
-- Closeout Over/Short Warning: A confirmation warning that is triggered if the closing balance is over or under a configured amount. For example, if the over/short threshold is $5.00 and the actual closing balance is $5.00 over or under the threshold, then a warning prompt is displayed to the employee about the variance. The employee must confirm the closing balance (note that this warning does not require managerial override). This warning is shown only if the employee has the Manager > 3.18 Cash Drawers (Full) access permission; otherwise the warning is not shown as it contains cash balance information.
+- Closeout Over/Short Warning: A confirmation warning that is triggered if the closing balance is over or under a configured amount. For example, if the over/short threshold is $5.00 and the actual closing balance is $5.00 over or under the threshold, then a warning prompt is displayed to the employee about the variance. The employee must confirm the closing balance (note that this warning does not require managerial override). This warning is shown only if the employee has the Manager \> 3.18 Cash Drawers (Full) access permission; otherwise the warning is not shown as it contains cash balance information.
 
 
 
@@ -777,7 +777,7 @@ After you close the drawer, it appears on the Closed tab of the Cash Drawers scr
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > Cash drawers > Cash drawer varianceto open the Cash drawer variancepage.
+2. Choose Payments \> Payment methods \> Cash overview \> Cash drawers \> Cash drawer varianceto open the Cash drawer variancepage.
 
 
 3. On the Cash drawer variance page, configure one or both of these fields:
@@ -831,7 +831,7 @@ After you close the drawer, it appears on the Closed tab of the Cash Drawers scr
 
 
 
-As a result, the current active or open drawer is closed and a new instance of the cash drawer is created. Information from the closed drawer operation is added to the Reports > Cash and loss management > Cash activity auditreport.
+As a result, the current active or open drawer is closed and a new instance of the cash drawer is created. Information from the closed drawer operation is added to the Reports \> Cash and loss management \> Cash activity auditreport.
 
 ###### New drawer
 
@@ -893,7 +893,7 @@ The Adjust Starting Balance button lets you adjust the starting balance for an e
 
 Note that you can only adjust the starting balance for today's cash drawers. That is, you cannot adjust the starting balance for cash drawers in the past.
 
-You must have the Manager > 3.21 Adjust Cash Drawer Start Balance permission to adjust starting balances for cash drawers.
+You must have the Manager \> 3.21 Adjust Cash Drawer Start Balance permission to adjust starting balances for cash drawers.
 
 **Procedure 6.77. To adjust the starting balance of a cash drawer**
 
@@ -950,7 +950,7 @@ The Cash entries section of the Cash Drawer History report contains the Update E
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > View related reports > Cash drawer history report to open the Cash Drawer History report. You can also choose Reports > Cash and loss management > Drawer history to open the Cash Drawer History report.
+2. Choose Payments \> Payment methods \> Cash overview \> View related reports \> Cash drawer history report to open the Cash Drawer History report. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash Drawer History report.
 
 
 3. Locate the desired cash drawer listed across the top and scroll to the bottom of its column.
@@ -1080,7 +1080,7 @@ You can undo the following cash entries:
 
 ###### Undoing cash entries on the Toast POS device
 
-When you undo cash entries on the Toast POS device, the operations also open the physical cash drawer, so that you can manually add or remove cash to adjust the cash balance. For this reason, you must have the POS Access > 1.13 No Sale permission to perform any undo cash entry operation.
+When you undo cash entries on the Toast POS device, the operations also open the physical cash drawer, so that you can manually add or remove cash to adjust the cash balance. For this reason, you must have the POS Access \> 1.13 No Sale permission to perform any undo cash entry operation.
 
 **Procedure 6.82. To undo a cash entry on the Toast POS device**
 
@@ -1114,7 +1114,7 @@ When you undo cash entries from Toast Web, the operations do not open the physic
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > View related reports > Cash drawer history report to open the Cash Drawer History report. You can also choose Reports > Cash and loss management > Drawer history to open the Cash Drawer History report.
+2. Choose Payments \> Payment methods \> Cash overview \> View related reports \> Cash drawer history report to open the Cash Drawer History report. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash Drawer History report.
 
 
 3. Locate the desired cash drawer listed across the top and scroll to the bottom of its column.
@@ -1148,7 +1148,7 @@ Keep the following in mind when using the cash drawer lockdown feature:
 - Cash drawer lockdown does not have any special permissions of its own. If employees have the permissions to access a cash drawer, they can lock down the drawer themselves. For more information about cash management permissions, see [User permissions for cash management](adminUserPermissionsCashMgmt.html).
 
 
-- A restaurant employee (typically a manager) who has the Manager > 3.19 Cash Drawer Lockdown (Override) permission can override a locked down setting on a cash drawer. Use cases for managerial overrides include the manager having to make transactions in the cash drawer (such as a payout transaction to buy restaurant goods), adjusting the starting balance of the cash drawer, and closing the cash drawer.
+- A restaurant employee (typically a manager) who has the Manager \> 3.19 Cash Drawer Lockdown (Override) permission can override a locked down setting on a cash drawer. Use cases for managerial overrides include the manager having to make transactions in the cash drawer (such as a payout transaction to buy restaurant goods), adjusting the starting balance of the cash drawer, and closing the cash drawer.
 
 
 - A locked cash drawer can be unlocked only by closing the drawer.
@@ -1173,7 +1173,7 @@ To set up the cash drawer lockdown feature for restaurant employees, you should 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Employees > Shift review > Shift review to open the Shift review setup page.
+2. Choose Employees \> Shift review \> Shift review to open the Shift review setup page.
 
 
 3. Select the Customize shift reviewbutton. Continue to the Require shift reviewscreen, navigate to the Require shift review setting and select the Shift review is required option.

@@ -23,5 +23,5 @@ Service charges are monetary amounts that a restaurant requires a guest to pay, 
 
 Service charges are configured with thresholds that determine if the service charge is automatically added to the check price. For example, you can configure a gratuity service charge that is applied only if the order is over $100. If a service charge is not automatically applied to a check, you can manually apply the service charge with the Update Service Charge dialog box on the Toast POS device.
 
-Choose Payments > Checks & receipt setup > Service charges and fees and select the name of the service charge you want to edit to change its configuration.
+Choose Payments \> Checks & receipt setup \> Service charges and fees and select the name of the service charge you want to edit to change its configuration.
 

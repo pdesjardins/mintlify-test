@@ -183,14 +183,14 @@ Menu items will only appear on prep stations in an assembly line if the prep sta
 
 ##### Assigning assembly lines to multiple menu entities through Advanced properties
 
-The following procedure is for assigning assembly lines to multiple menu entities at once using the Menus > Bulk management > Advanced properties page in Toast Web.
+The following procedure is for assigning assembly lines to multiple menu entities at once using the Menus \> Bulk management \> Advanced properties page in Toast Web.
 
 **Procedure 10.14. To assign assembly lines to menu entities using the Advanced properties page**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
+2. Choose Menus \> Bulk management \> Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
 
 
 3. Expand the menu to show the menu groups in a menu. Continue to expand to see menu items, modifier groups, and modifiers.
@@ -251,7 +251,7 @@ The following procedure is for assigning assembly lines to menu entities for mul
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
+2. Choose Menus \> Bulk management \> Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
 
 
 3. Expand the menu to show the menu groups in a menu. Continue to expand to see menu items.

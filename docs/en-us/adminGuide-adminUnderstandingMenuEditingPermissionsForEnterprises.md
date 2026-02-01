@@ -23,7 +23,7 @@ The edits that you can make to a menu in Toast Web are determined by the permiss
 
 There are three levels of menu editing permissions possible with the Toast platform:
 
-- *Full menu editing* allows you to make any changes you want to menu entities and their properties. This includes creating new menus, menu groups, menu items, modifier groups, and modifiers as well as editing any of these entities. Full menu editing is enabled using the Restaurant Admin > Edit Full Menu permission.
+- *Full menu editing* allows you to make any changes you want to menu entities and their properties. This includes creating new menus, menu groups, menu items, modifier groups, and modifiers as well as editing any of these entities. Full menu editing is enabled using the Restaurant Admin \> Edit Full Menu permission.
 
 
 - *Local menu editing* restricts you to the following actions:
@@ -41,7 +41,7 @@ There are three levels of menu editing permissions possible with the Toast platf
 
 
 
-Local menu editing is enabled using the Restaurant Admin > Local Menu Edit permission.
+Local menu editing is enabled using the Restaurant Admin \> Local Menu Edit permission.
 
 
 - *Quick menu editing* allows you to quickly make menu changes via the Toast POS app. There are a number of quick edit permissions and, while they all give you access to Quick Edit mode on the Toast POS app, individually, they control the types of quick edit operations you can perform. For example, the Price quick edit permission lets you change the price of a menu entity and the Remove Items/Mods permission lets you remove menu items or modifiers from their containing groups. In general, quick edit is not a good choice for your restaurant if you use the enterprise module because you must be an owner of a menu entity in order to edit it. However, the Inventory & Quantity permission is an exception to this rule. See [Using quick edit with the enterprise module](adminUnderstandingMenuEditingPermissionsForEnterprises.html#adminUsingQuickEditWithTheEnterpriseModule) for more information.

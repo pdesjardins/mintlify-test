@@ -61,10 +61,10 @@ To create a request for aggregated sales reporting data that covers a customized
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics` endpoint.
 
 ```
-curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H ‘Authorization: Bearer `[token]`‘ \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11336FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -d @`[request-info]`.json \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
+  -H ‘Authorization: Bearer `[token]`‘ \
+  -H 'Content-Type: application/json' \
+  -d @`[request-info]`.json \
 
 ```
 
@@ -84,13 +84,13 @@ The following example shows the message body for creating an aggregated sales re
 
 ```
 {
-  "startBusinessDate": "20220824",[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11956FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "endBusinessDate": "20220903",[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11976FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "restaurantIds": [[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e11996FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "startBusinessDate": "20220824",
+  "endBusinessDate": "20220903",
+  "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021"
   ],
-  "excludedRestaurantIds": [],[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e12016FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "groupBy": [[(5)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e12036FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "excludedRestaurantIds": [],
+  "groupBy": [
     "REVENUE_CENTER"
   ]
 }
@@ -114,7 +114,7 @@ The following example shows the message body for creating an aggregated sales re
 The following example shows the response from the `/era/v1/metrics` endpoint.
 
 ```
-"fb23cfaa-56d7-4cb9-829d-531a8d02274a"[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e12656FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+"fb23cfaa-56d7-4cb9-829d-531a8d02274a"
 ```
 
 
@@ -154,10 +154,10 @@ If you choose the `day` time range, you can choose to group the aggregated sales
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint. This example uses the `week` time range.
 
 ```
-curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Authorization: Bearer `[token]`' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14236FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -d @`[request-info]`.json \[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
+  -H 'Authorization: Bearer `[token]`' \
+  -H 'Content-Type: application/json' \
+  -d @`[request-info]`.json \
 
 ```
 
@@ -177,14 +177,14 @@ The following example shows the message body for creating an aggregated sales re
 
 ```
 {
-  "startBusinessDate": "20230205",[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e15026FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "endBusinessDate": "20230207",[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e15036FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "restaurantIds": [[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e15056FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "startBusinessDate": "20230205",
+  "endBusinessDate": "20230207",
+  "restaurantIds": [
     "b6bae410-1316-4d3b-b01f-47a758811db2",
     "43211888-2860-46c7-a8c8-32ba462e1280"
   ],
-  "excludedRestaurantIds": [],[(4)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e15076FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  "groupBy": [][(5)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e15096FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+  "excludedRestaurantIds": [],
+  "groupBy": []
 }
 
 ```
@@ -206,7 +206,7 @@ The following example shows the message body for creating an aggregated sales re
 The following example shows the response from the `/era/v1/metrics/{timeRange}` endpoint.
 
 ```
-"d3d1ebdb-5e46-46ea-9491-f091466c5f22"[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.html#d1e15686FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+"d3d1ebdb-5e46-46ea-9491-f091466c5f22"
 ```
 
 

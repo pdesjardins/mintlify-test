@@ -40,9 +40,9 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
--H "Content-Type: application/json" \[(2)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
--d @my-shift-information.json \[(3)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+-H "Content-Type: application/json" \
+-d @my-shift-information.json \
 "https://`[toast-api-hostname]`/labor/v1/shifts"
 ```
 
@@ -65,15 +65,15 @@ The following example shows the message body data that provides information abou
 {
   "employeeReference": {
     "entityType": "RestaurantUser",
-    "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67"[(1)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
+    "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67"
   },
-  "entityType": "Shift",[(2)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
-  "inDate": "2017-01-13T06:00:00.000+0000",[(3)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
+  "entityType": "Shift",
+  "inDate": "2017-01-13T06:00:00.000+0000",
   "jobReference": {
     "entityType": "RestaurantJob",
-    "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330"[(4)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
+    "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330"
   },
-  "outDate": "2017-01-13T13:00:00.000+0000"[(5)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
+  "outDate": "2017-01-13T13:00:00.000+0000"
 }
 ```
 
@@ -98,7 +98,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 ```
 {
-  "guid": "08312056-c56f-4a10-a3c2-5660bf2b5143",[(1)](apiDevGuide-apiAddingAShiftAndAssigningIt.html#d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD-co)
+  "guid": "08312056-c56f-4a10-a3c2-5660bf2b5143",
   "entityType": "Shift",
   "externalId": null,
   "outDate": "2017-01-13T13:00:00.000+0000",

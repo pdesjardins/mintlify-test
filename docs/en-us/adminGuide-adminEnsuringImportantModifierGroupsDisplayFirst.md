@@ -22,7 +22,7 @@ If you have a modifier group that is used in multiple locations and you want to 
 - In the classic menu view, go to the modifier group's details page and set its Display Ordering Priority number to 1.
 
 
-- Go to the Front of house > Order screen setup > UI options page and set the Modifier ordering priority option to On.
+- Go to the Front of house \> Order screen setup \> UI options page and set the Modifier ordering priority option to On.
 
 
 

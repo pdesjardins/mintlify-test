@@ -92,7 +92,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
         "lastName":"smith",
         "phone":"1111111111",
         "email":"a1@toasttab.com",
-        "pointsBalance":40[(1)](apiDevGuide-apiLoyaltyTransactionDescriptions.html#loyaltySearchPoints2)
+        "pointsBalance":40
       }
     ]
   },
@@ -586,19 +586,19 @@ The redeem transaction follows the final inquire transaction during the payment 
         "quantity":10
       }
     ],
-    "rejectedRedemptions":[],[(1)](apiDevGuide-apiLoyaltyTransactionDescriptions.html#d1e567AF91922A-2326-4F0A-85C0-B78A7775B987-co)
-    "appliedRedemptions":[[(2)](apiDevGuide-apiLoyaltyTransactionDescriptions.html#d1e569AF91922A-2326-4F0A-85C0-B78A7775B987-co)
+    "rejectedRedemptions":[],
+    "appliedRedemptions":[
       {
         "identifier":"1",
         "itemId":null,
         "selectionGuid":null,
         "amount":5,
-        "quantity":2[(3)](apiDevGuide-apiLoyaltyTransactionDescriptions.html#apiLoyaltyQuantity2)
+        "quantity":2
       }
     ],
     "userMessage":"Visit http://www.website.com to check your points balance"
   },
-  "transactionStatus":"ACCEPT"[(4)](apiDevGuide-apiLoyaltyTransactionDescriptions.html#d1e571AF91922A-2326-4F0A-85C0-B78A7775B987-co)
+  "transactionStatus":"ACCEPT"
 }
 ```
 

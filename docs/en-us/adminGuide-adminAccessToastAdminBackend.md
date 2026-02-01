@@ -24,7 +24,7 @@ To access Toast Web, you must have email address-password user credentials and o
 - From a browser, go to the [https://pos.toasttab.com](https://pos.toasttab.com)web site and select Login to access the Toast Web login page. Enter your email and password and then select Log In.
 
 
-- From the Toast POS app, select the Toast logo until you reach the Toast POS home screen, and then select Setup > Other Setup.
+- From the Toast POS app, select the Toast logo until you reach the Toast POS home screen, and then select Setup \> Other Setup.
 
 
 

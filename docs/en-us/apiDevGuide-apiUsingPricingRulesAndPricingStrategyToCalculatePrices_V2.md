@@ -76,18 +76,18 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
               "pricingRules": {
                 "timeSpecificPricingRules": [
                   {
-                    "timeSpecificPrice": 8.0,[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e5741578678687-co)
-                    "basePrice": 10.0,[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e5761578678687-co)
-                    "schedule": [[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e5781578678687-co)
+                    "timeSpecificPrice": 8.0,
+                    "basePrice": 10.0,
+                    "schedule": [
                       {
-                        "days": [[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e5801578678687-co)
+                        "days": [
                           "MONDAY",
                           "TUESDAY",
                           "WEDNESDAY",
                           "THURSDAY",
                           "FRIDAY"
                         ],
-                        "timeRanges": [[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e5821578678687-co)
+                        "timeRanges": [
                           {
                             "start": "12:00",
                             "end": "14:00"
@@ -97,7 +97,7 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
                     ]
                   },
                   {
-                    "timeSpecificPrice": 9.0,[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e5851578678687-co)
+                    "timeSpecificPrice": 9.0,
                     "basePrice": 10.0,
                     "schedule": [
                       {
@@ -182,13 +182,13 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
               "pricingStrategy": "SIZE_PRICE",
               "pricingRules": {
                 "timeSpecificPricingRules": [],
-                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6741578678687-co)
+                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
               },
               ...
               "modifierGroupReferences": [
-                2,[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6761578678687-co)
-                6,[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6781578678687-co)
+                2,
+                6,
                 ...
               ],
               ...
@@ -200,7 +200,7 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
   ],
   "modifierGroupReferences": {
     ...
-    "2": {[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6801578678687-co)
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -208,7 +208,7 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
       "pricingStrategy": "NONE",
       "pricingRules": null,
       ...
-      "modifierOptionReferences": [[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6821578678687-co)
+      "modifierOptionReferences": [
         12,
         13
       ],
@@ -218,18 +218,18 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
   },
   "modifierOptionReferences": {
     ...
-    "12": {[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6851578678687-co)
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
-      "price": 8.0,[(7)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6871578678687-co)
-      "pricingStrategy": "BASE_PRICE",[(8)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6891578678687-co)
-      "pricingRules": null,[(9)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6911578678687-co)
+      "price": 8.0,
+      "pricingStrategy": "BASE_PRICE",
+      "pricingRules": null,
       ...
       "modifierGroupReferences": []
     },
-    "13": {[(10)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e6931578678687-co)
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -300,16 +300,16 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
-              "pricingStrategy": "SIZE_PRICE",[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8361578678687-co)
+              "pricingStrategy": "SIZE_PRICE",
               "pricingRules": {
                 "timeSpecificPricingRules": [],
-                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8381578678687-co)
+                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
               },
               ...
               "modifierGroupReferences": [
-                2,[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8401578678687-co)
-                3,[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8421578678687-co)
+                2,
+                3,
                 ...
               ],
               ...
@@ -321,47 +321,47 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
   ],
   "modifierGroupReferences": {
     ...
-    "2": {[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8441578678687-co)
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
       ...
-      "pricingStrategy": "NONE",[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8471578678687-co)
+      "pricingStrategy": "NONE",
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        12,[(7)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8491578678687-co)
-        13[(8)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8511578678687-co)
+        12,
+        13
       ],
       ...
     },
-    "3": {[(9)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8531578678687-co)
+    "3": {
       "referenceId": 3,
       "name": "Toppings",
       "guid": "58b79986-f88f-411d-ba18-14b1e2441e9d",
       ...
-      "pricingStrategy": "SIZE_PRICE",[(10)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8551578678687-co)
+      "pricingStrategy": "SIZE_PRICE",
       "pricingRules": {
         "timeSpecificPricingRules": [],
-        "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(11)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8571578678687-co)
+        "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
         "sizeSequencePricingRules": [
           {
-            "sizeName": "Small",[(12)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8601578678687-co)    (12)
-            "sizeGuid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",[(13)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8621578678687-co)
+            "sizeName": "Small",    (12)
+            "sizeGuid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
             "sequencePrices": [
               {
-                "sequence": 1,[(14)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8641578678687-co)
-                "price": 2.0[(15)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8661578678687-co)
+                "sequence": 1,
+                "price": 2.0
               }
             ]
           },
           {
-            "sizeName": "Large",[(16)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8681578678687-co)
-            "sizeGuid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",[(17)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8701578678687-co)
+            "sizeName": "Large",
+            "sizeGuid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
             "sequencePrices": [
               {
                 "sequence": 1,
-                "price": 4.0[(18)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8731578678687-co)
+                "price": 4.0
               }
             ]
           }
@@ -369,8 +369,8 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       },
       ...
       "modifierOptionReferences": [
-        10,[(19)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8751578678687-co)
-        11[(20)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8771578678687-co)
+        10,
+        11
       ],
       ...
     },
@@ -384,7 +384,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       "guid": "fa24fee9-76c4-40ba-ae3c-7dfccafdd8d3",
       ...
       "price": null,
-      "pricingStrategy": "GROUP_PRICE",[(21)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8791578678687-co)
+      "pricingStrategy": "GROUP_PRICE",
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
@@ -402,10 +402,10 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
     },
     "12": {
       "referenceId": 12,
-      "name": "Small",[(22)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8811578678687-co)
+      "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
-      "price": 8.0,[(23)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8831578678687-co)
+      "price": 8.0,
       "pricingStrategy": "BASE_PRICE",
       "pricingRules": null,
       ...
@@ -413,10 +413,10 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
     },
     "13": {
       "referenceId": 13,
-      "name": "Large",[(24)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8861578678687-co)
+      "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
       ...
-      "price": 10.0,[(25)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e8881578678687-co)
+      "price": 10.0,
       "pricingStrategy": "BASE_PRICE",
       "pricingRules": null,
       ...
@@ -508,16 +508,16 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
-              "pricingStrategy": "SIZE_PRICE",[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10441578678687-co)
+              "pricingStrategy": "SIZE_PRICE",
               "pricingRules": {
                 "timeSpecificPricingRules": [],
-                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10461578678687-co)
+                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
               },
               ...
               "modifierGroupReferences": [
-                2,[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10481578678687-co)
-                4,[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10501578678687-co)
+                2,
+                4,
                 ...
               ],
               ...
@@ -531,10 +531,10 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
     ...
     "4": {
       "referenceId": 4,
-      "name": "Toppings",[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10521578678687-co)
+      "name": "Toppings",
       "guid": "2fb9889a-e3e9-4039-9bbd-99defb7f04b1",
       ...
-      "pricingStrategy": "SEQUENCE_PRICE",[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10551578678687-co)
+      "pricingStrategy": "SEQUENCE_PRICE",
       "pricingRules": {
         "timeSpecificPricingRules": [],
         "sizeSpecificPricingGuid": null,
@@ -545,15 +545,15 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
             "sequencePrices": [
               {
                 "sequence": 1,
-                "price": 1.0[(7)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10571578678687-co)
+                "price": 1.0
               },
               {
                 "sequence": 2,
-                "price": 2.0[(8)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10591578678687-co)
+                "price": 2.0
               },
               {
                 "sequence": 3,
-                "price": 2.5[(9)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10611578678687-co)
+                "price": 2.5
               }
             ]
           }
@@ -561,12 +561,12 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       },
       ...
       "modifierOptionReferences": [
-        14,[(10)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10631578678687-co)
-        15[(11)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10651578678687-co)
+        14,
+        15
       ],
       ...
     },
-    "2": {[(12)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10681578678687-co)
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -575,8 +575,8 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        12,[(13)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10701578678687-co)
-        13[(14)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10721578678687-co)
+        12,
+        13
       ],
       ...
     },
@@ -589,7 +589,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       "guid": "11adaad3-c391-42e8-a234-350a16e5a68d",
       ...
       "price": null,
-      "pricingStrategy": "GROUP_PRICE",[(15)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10741578678687-co)
+      "pricingStrategy": "GROUP_PRICE",
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
@@ -611,7 +611,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
-      "price": 8.0,[(16)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10761578678687-co)
+      "price": 8.0,
       "pricingStrategy": "BASE_PRICE",
       "pricingRules": null,
       ...
@@ -622,7 +622,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
       ...
-      "price": 10.0,[(17)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e10781578678687-co)
+      "price": 10.0,
       "pricingStrategy": "BASE_PRICE",
       "pricingRules": null,
       ...
@@ -697,16 +697,16 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
-              "pricingStrategy": "SIZE_PRICE",[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e11991578678687-co)
+              "pricingStrategy": "SIZE_PRICE",
               "pricingRules": {
                 "timeSpecificPricingRules": [],
-                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12011578678687-co)
+                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
               },
               ...
               "modifierGroupReferences": [
-                2,[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12031578678687-co)
-                5,[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12051578678687-co)
+                2,
+                5,
                 ...
               ],
               ...
@@ -718,41 +718,41 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
   ],
   "modifierGroupReferences": {
     ...
-    "2": {[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12071578678687-co)
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
       ...
-      "pricingStrategy": "NONE",[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12101578678687-co)
+      "pricingStrategy": "NONE",
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        12,[(7)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12121578678687-co)
-        13[(8)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12141578678687-co)
+        12,
+        13
       ],
       ...
     },
-    "5": {[(9)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12161578678687-co)
+    "5": {
       "referenceId": 5,
       "name": "Toppings",
       "guid": "e65dd350-5628-45fd-993d-8cf9c4f15a76",
       ...
-      "pricingStrategy": "SIZE_SEQUENCE_PRICE",[(10)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12181578678687-co)
+      "pricingStrategy": "SIZE_SEQUENCE_PRICE",
       "pricingRules": {
         "timeSpecificPricingRules": [],
-        "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(11)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12201578678687-co)
+        "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
         "sizeSequencePricingRules": [
           {
-            "sizeName": "Small",[(12)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12231578678687-co)
-            "sizeGuid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",[(13)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12251578678687-co)
+            "sizeName": "Small",
+            "sizeGuid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
             "sequencePrices": [
               {
                 "sequence": 1,
-                "price": 1.0[(14)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12271578678687-co)
+                "price": 1.0
               },
               {
                 "sequence": 2,
-                "price": 2.0[(15)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12291578678687-co)
+                "price": 2.0
               }
             ]
           },
@@ -774,8 +774,8 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       },
       ...
       "modifierOptionReferences": [
-        16,[(16)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12311578678687-co)
-        17[(17)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12331578678687-co)
+        16,
+        17
       ],
       ...
     },
@@ -789,7 +789,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       "guid": "8d45403d-5393-4c19-9d11-1dd963df8a26",
       ...
       "price": null,
-      "pricingStrategy": "GROUP_PRICE",[(18)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12361578678687-co)
+      "pricingStrategy": "GROUP_PRICE",
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
@@ -807,10 +807,10 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
     },
     "12": {
       "referenceId": 12,
-      "name": "Small",[(19)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12381578678687-co)
+      "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
-      "price": 8.0,[(20)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e12401578678687-co)
+      "price": 8.0,
       "pricingStrategy": "BASE_PRICE",
       "pricingRules": null,
       ...
@@ -904,16 +904,16 @@ The example below shows a modifier group, Toppings, whose modifier options are i
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
-              "pricingStrategy": "SIZE_PRICE",[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e13871578678687-co)
+              "pricingStrategy": "SIZE_PRICE",
               "pricingRules": {
                 "timeSpecificPricingRules": [],
-                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e13891578678687-co)
+                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
               },
               ...
               "modifierGroupReferences": [
-                2,[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e13911578678687-co)
-                6,[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e13931578678687-co)
+                2,
+                6,
                 ...
               ],
               ...
@@ -924,31 +924,31 @@ The example below shows a modifier group, Toppings, whose modifier options are i
     }
   ],
   "modifierGroupReferences": {
-    "6": {[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e13951578678687-co)
+    "6": {
       "referenceId": 6,
       "name": "Toppings",
       "guid": "a1778e92-7ce9-4b1e-867d-c1effd7478b8",
       ...
-      "pricingStrategy": "NONE",[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e13981578678687-co)
+      "pricingStrategy": "NONE",
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        18,[(7)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14001578678687-co)
+        18,
         ...
       ],
       ...
     },
-    "2": {[(8)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14021578678687-co)
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
       ...
-      "pricingStrategy": "NONE",[(9)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14041578678687-co)
+      "pricingStrategy": "NONE",
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        12,[(10)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14061578678687-co)
-        13[(11)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14081578678687-co)
+        12,
+        13
       ],
       ...
     },
@@ -960,15 +960,15 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       "guid": "0ca19f15-184c-4b69-8049-cd50bf96c39e",
       ...
       "price": null,
-      "pricingStrategy": "TIME_SPECIFIC_PRICE",[(12)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14111578678687-co)
+      "pricingStrategy": "TIME_SPECIFIC_PRICE",
       "pricingRules": {
         "timeSpecificPricingRules": [
           {
-            "timeSpecificPrice": 1.0,[(13)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14131578678687-co)
-            "basePrice": 2.0,[(14)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14151578678687-co)
-            "schedule": [[(15)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14171578678687-co)
+            "timeSpecificPrice": 1.0,
+            "basePrice": 2.0,
+            "schedule": [
               {
-                "days": [[(16)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14191578678687-co)
+                "days": [
                   "MONDAY",
                   "TUESDAY",
                   "WEDNESDAY",
@@ -977,7 +977,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
                   "SATURDAY",
                   "SUNDAY"
                 ],
-                "timeRanges": [[(17)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14211578678687-co)
+                "timeRanges": [
                   {
                     "start": "12:00",
                     "end": "14:00"
@@ -994,10 +994,10 @@ The example below shows a modifier group, Toppings, whose modifier options are i
     },
     "12": {
       "referenceId": 12,
-      "name": "Small",[(18)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14241578678687-co)
+      "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
-      "price": 8.0,[(19)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e14261578678687-co)
+      "price": 8.0,
       "pricingStrategy": "BASE_PRICE",
       "pricingRules": null,
       ...
@@ -1085,16 +1085,16 @@ The example below shows a modifier group, Toppings, whose modifier options are i
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
-              "pricingStrategy": "SIZE_PRICE",[(1)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15511578678687-co)
+              "pricingStrategy": "SIZE_PRICE",
               "pricingRules": {
                 "timeSpecificPricingRules": [],
-                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",[(2)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15531578678687-co)
+                "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
               },
               ...
               "modifierGroupReferences": [
-                2,[(3)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15551578678687-co)
-                6,[(4)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15571578678687-co)
+                2,
+                6,
                 ...
               ],
               ...
@@ -1105,7 +1105,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
     }
   ],
   "modifierGroupReferences": {
-    "7": {[(5)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15591578678687-co)
+    "7": {
       "referenceId": 7,
       "name": "Size",
       "guid": "1517b7a4-612f-4447-ab93-46b989f01b6b",
@@ -1114,8 +1114,8 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        20,[(6)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15621578678687-co)
-        21[(7)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15641578678687-co)
+        20,
+        21
       ],
       ...
     },
@@ -1124,16 +1124,16 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       "name": "Toppings",
       "guid": "a1778e92-7ce9-4b1e-867d-c1effd7478b8",
       ...
-      "pricingStrategy": "NONE",[(8)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15661578678687-co)
+      "pricingStrategy": "NONE",
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        19,[(9)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15681578678687-co)
+        19,
         ...
       ],
       ...
     },
-    "2": {[(10)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15701578678687-co)
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -1142,32 +1142,32 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       "pricingRules": null,
       ...
       "modifierOptionReferences": [
-        12,[(11)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15721578678687-co)
-        13[(12)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15751578678687-co)
+        12,
+        13
       ],
       ...
     },
   "modifierOptionReferences": {
-    "19": {[(13)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15771578678687-co)
+    "19": {
       "referenceId": 19,
       "name": "Tomatoes",
       "guid": "b53cb945-d790-4386-88b5-c29b4f72141f",
       ...
       "price": null,
-      "pricingStrategy": "SIZE_PRICE",[(14)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15791578678687-co)
+      "pricingStrategy": "SIZE_PRICE",
       "pricingRules": {
         "timeSpecificPricingRules": [],
-        "sizeSpecificPricingGuid": "1517b7a4-612f-4447-ab93-46b989f01b6b",[(15)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15811578678687-co)
+        "sizeSpecificPricingGuid": "1517b7a4-612f-4447-ab93-46b989f01b6b",
         "sizeSequencePricingRules": []
       },
       ...
       "modifierGroupReferences": [
-        7[(16)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15831578678687-co)
+        7
       ]
     },
     "20": {
       "referenceId": 20,
-      "name": "Small",[(17)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15851578678687-co)
+      "name": "Small",
       "guid": "e5c9883b-5c15-4771-9efa-0a63b9124484",
       ...
       "price": 1.5,
@@ -1178,7 +1178,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
     },
     "21": {
       "referenceId": 21,
-      "name": "Large",[(18)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15881578678687-co)
+      "name": "Large",
       "guid": "269cbff6-2e90-4ef8-8a83-ea5a76fb7199",
       ...
       "price": 3.5,
@@ -1189,7 +1189,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
     },
     "12": {
       "referenceId": 12,
-      "name": "Small",[(19)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15901578678687-co)
+      "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
       "price": 8.0,
@@ -1200,7 +1200,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
     },
     "13": {
       "referenceId": 13,
-      "name": "Large",[(20)](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#d1e15921578678687-co)
+      "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
       ...
       "price": 10.0,

@@ -36,7 +36,7 @@ It is important to note the following when using the cash drawer lockdown featur
 - Cash drawer lockdown does not have any special permissions of its own. If employees have the permissions to access a cash drawer, they can lock down the drawer themselves. For more information about cash management permissions, see [User permissions for cash management](adminUserPermissionsCashMgmt.html).
 
 
-- An employee (typically a manager) who has the Manager > 3.19 Cash Drawer Lockdown (Override) permission can override a locked down setting on a cash drawer. For example, managers may want to override the setting to complete a payout to buy goods, adjust the starting balance of the cash drawer, or close the cash drawer.
+- An employee (typically a manager) who has the Manager \> 3.19 Cash Drawer Lockdown (Override) permission can override a locked down setting on a cash drawer. For example, managers may want to override the setting to complete a payout to buy goods, adjust the starting balance of the cash drawer, or close the cash drawer.
 
 
 - A locked cash drawer can only be unlocked by closing the drawer.
@@ -58,7 +58,7 @@ You can configure the cash drawer lockdown setting for employees on Toast Web.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Employees > Shift review > Shift review setup or Advanced shift review setup. You can configure the cash drawer lockdown on both pages:
+2. Choose Employees \> Shift review \> Shift review setup or Advanced shift review setup. You can configure the cash drawer lockdown on both pages:
 
 - From the Shift review setuppage:
 
@@ -95,7 +95,7 @@ On the Toast POS device, you can only lock open and paused cash drawers. You can
 1. On the Toast POS device, select the Toast logo until the Toast POS home screen appears.
 
 
-2. Choose Cash Management > Cash Drawers to open the Cash Drawers screen.
+2. Choose Cash Management \> Cash Drawers to open the Cash Drawers screen.
 
 
 3. On the Cash Drawers screen, select an open or paused cash drawer. This opens the Cash drawer activity screen.

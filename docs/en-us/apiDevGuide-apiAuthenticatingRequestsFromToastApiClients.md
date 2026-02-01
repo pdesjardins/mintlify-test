@@ -33,7 +33,7 @@ The following example shows the HTTP `Authorization`header field for a Toast pla
 **Example 10.1. HTTP `Authorization` header field for a Toast platform API client request**
 
 ```
-Authorization: c75a2aa085d30a90308841d388fc7828f1a28e29bdd2c82150a30cf356d4d87f[(1)](apiDevGuide-apiAuthenticatingRequestsFromToastApiClients.html#d1e46506D541D-DE75-41D1-8E80-09960B9A3502-co)
+Authorization: c75a2aa085d30a90308841d388fc7828f1a28e29bdd2c82150a30cf356d4d87f
 ```
 
 

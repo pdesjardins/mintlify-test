@@ -44,8 +44,8 @@ txKL1L-K2j1Enoq8An8hEM6e8J0KdAiwrYFO3W3CmWedaoz95K9ghNZVCs28
 Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
-dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-apiGettingRxOnlineOrderingAvailability.html#d1e672109AB21-78E4-4FF7-8E28-AA98325F0F63-co)
--H "Toast-Restaurant-External-ID: 27d35c6a-7068-49f7-bee0-25e654e1227a"  \ [(2)](apiDevGuide-apiGettingRxOnlineOrderingAvailability.html#d1e692109AB21-78E4-4FF7-8E28-AA98325F0F63-co)
+dWq4Yzwo007AMgxjH9d241Y-g" \
+-H "Toast-Restaurant-External-ID: 27d35c6a-7068-49f7-bee0-25e654e1227a"  \ 
 "https://[toast-api-hostname]/restaurant-availability/v1/availability
 ```
 

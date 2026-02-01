@@ -40,7 +40,7 @@ There are two methods to adding a new kitchen printer to your kitchen setup: thr
 
 > **Important**
 > 
-> To add a kitchen printer, you must have the 6. Web Setup > 6.10 Printer and Cash Drawer Setup access permission.
+> To add a kitchen printer, you must have the 6. Web Setup \> 6.10 Printer and Cash Drawer Setup access permission.
 
 
 Repeat these steps to add other kitchen printers, or to update the information for a printer by adding its backup printer. After you set up your printers, you can assign them to your prep stations.
@@ -161,7 +161,7 @@ For example, "Cold Station KP (171)" or "Backup KP (170)".
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Checks & receipt setup > Printers and cash drawers.
+2. Choose Payments \> Checks & receipt setup \> Printers and cash drawers.
 
 
 3. Select the + Add button and then enter an identifying name for the kitchen printer. As a best practice, use the following naming convention for kitchen printers.

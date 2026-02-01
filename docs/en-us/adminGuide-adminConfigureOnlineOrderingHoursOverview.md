@@ -18,7 +18,7 @@ codeExamples: 0
 
 ### Configuring online ordering hours
 
-The Online ordering hours section displays the online ordering hours for Takeout & Third-party delivery and First-party delivery. In the Online ordering hours section, the Takeout and Third-party delivery hours are always shown, while First-party delivery hours are only shown if first-party delivery is enabled in Toast Web. To enable first-party delivery, choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/Delivery page.
+The Online ordering hours section displays the online ordering hours for Takeout & Third-party delivery and First-party delivery. In the Online ordering hours section, the Takeout and Third-party delivery hours are always shown, while First-party delivery hours are only shown if first-party delivery is enabled in Toast Web. To enable first-party delivery, choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/Delivery page.
 
 The following table describes which online ordering hours configuration to use for each ordering channel.
 
@@ -40,7 +40,7 @@ From the Online ordering hours section, you can open or close your restaurant to
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Online ordering hours.
+2. Choose Takeout & delivery \> Online ordering hours.
 
 
 3. Select the dining option you want to edit online ordering hours for.
@@ -90,7 +90,7 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Online ordering hours.
+2. Choose Takeout & delivery \> Online ordering hours.
 
 
 3. Select the dining option you want to edit online ordering hours for.
@@ -108,7 +108,7 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Online ordering hours.
+2. Choose Takeout & delivery \> Online ordering hours.
 
 
 3. Select the dining option you want to edit online ordering hours for.
@@ -179,7 +179,7 @@ From the Online ordering hours section you can also add, edit, or remove an over
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Online ordering hours.
+2. Choose Takeout & delivery \> Online ordering hours.
 
 
 3. In the Overrides section, select the + Add override button to open the Add override dialog box.
@@ -221,7 +221,7 @@ From the Online ordering hours section you can also add, edit, or remove an over
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Online ordering hours.
+2. Choose Takeout & delivery \> Online ordering hours.
 
 
 3. In the Overrides section, select the pencil icon next to the override to open the Add Override dialog box.
@@ -242,7 +242,7 @@ From the Online ordering hours section you can also add, edit, or remove an over
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Online ordering hours.
+2. Choose Takeout & delivery \> Online ordering hours.
 
 
 3. In the Overrides section, select the trash can icon next to the override you want to delete.

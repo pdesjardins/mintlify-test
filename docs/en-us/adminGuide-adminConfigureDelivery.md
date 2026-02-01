@@ -48,7 +48,7 @@ You can configure your delivery options on the Takeout/delivery page in Toast We
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.
+2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
 
 
 3. In the Delivery section, under the Delivery Enabled? setting, select one of the following:
@@ -94,13 +94,13 @@ You must choose how to collect your guest's billing information. You can choose 
 
 ##### Configuring your delivery dining behavior
 
-On the Dining options page in Toast Web, you can configure dining behaviors for your delivery dining options. In Toast Web, choose Kitchen > Dining options > Dining options to open the Dining optionspage. For first-party delivery, configure your dining option and then select Delivery as the dining behavior. At least one dining option must have Delivery set as a dining behavior. For TDS, the Toast platform automatically generates a Toast Delivery Services dining option and sets the dining behavior to Delivery. The Toast Delivery Services dining option is locked and you cannot edit it.
+On the Dining options page in Toast Web, you can configure dining behaviors for your delivery dining options. In Toast Web, choose Kitchen \> Dining options \> Dining options to open the Dining optionspage. For first-party delivery, configure your dining option and then select Delivery as the dining behavior. At least one dining option must have Delivery set as a dining behavior. For TDS, the Toast platform automatically generates a Toast Delivery Services dining option and sets the dining behavior to Delivery. The Toast Delivery Services dining option is locked and you cannot edit it.
 
 ##### Setting your online ordering schedule
 
-In the Online ordering hours section in Toast Web, you can set your online ordering hours for delivery. In Toast Web, choose Takeout & delivery > Online ordering hours to view your online ordering hours for takeout and delivery. Your online ordering schedule is displayed on your Toast Online Ordering website and the Local by Toast app.
+In the Online ordering hours section in Toast Web, you can set your online ordering hours for delivery. In Toast Web, choose Takeout & delivery \> Online ordering hours to view your online ordering hours for takeout and delivery. Your online ordering schedule is displayed on your Toast Online Ordering website and the Local by Toast app.
 
 ##### Configuring payment options
 
-On the Online ordering page in Toast Web, you configure how your guests pay for delivery orders. In Toast Web, choose Takeout & delivery > Availability > Online ordering to open the Online orderingpage. Navigate to the Delivery payment optionssection. For first-party delivery orders, you can choose to allow payment by: Cash, Credit Card - Online (Same Day Orders), and Credit Card - Online (Future Orders). Guests must pay for TDS orders by credit card or debit card. Guests cannot pay for TDS orders with cash.
+On the Online ordering page in Toast Web, you configure how your guests pay for delivery orders. In Toast Web, choose Takeout & delivery \> Availability \> Online ordering to open the Online orderingpage. Navigate to the Delivery payment optionssection. For first-party delivery orders, you can choose to allow payment by: Cash, Credit Card - Online (Same Day Orders), and Credit Card - Online (Future Orders). Guests must pay for TDS orders by credit card or debit card. Guests cannot pay for TDS orders with cash.
 

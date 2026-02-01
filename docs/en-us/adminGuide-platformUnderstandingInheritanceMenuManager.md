@@ -79,27 +79,27 @@ Examples of inheritance include:
 
 ##### Menu items can inherit different settings when ordered from different menu paths
 
-Menu items can also belong to more than one menu path. For example, a Turkey Club menu item could belong to two menu paths, a Takeout Menu > Takeout Sandwiches path and a Dine-in Menu > Dinner > Dinner Sandwiches path. When a menu item belongs to more than one menu path, it can inherit different settings for each path.
+Menu items can also belong to more than one menu path. For example, a Turkey Club menu item could belong to two menu paths, a Takeout Menu \> Takeout Sandwiches path and a Dine-in Menu \> Dinner \> Dinner Sandwiches path. When a menu item belongs to more than one menu path, it can inherit different settings for each path.
 
 To understand why inheriting different settings based on menu path is useful, consider a restaurant, Restaurant A, that provides both dine-in and takeout service. To keep its kitchen functioning most efficiently, Restaurant A routes *all of the menu items* ordered from its Takeout Menu to a takeout-specific prep station. Menu items ordered from the dine-in menu are routed to other prep stations that fulfill orders for guests that are dining in.
 
-Restaurant A sells the Turkey Club menu item. As a reminder, this menu item belongs to two menu paths, Takeout Menu > Takeout Sandwiches and Dine-in Menu > Dinner > Dinner Sandwiches. Takeout guests use the Takeout Menu > Takeout Sandwiches path to order a Turkey Club from Restaurant A's online website. Restaurant employees use the Dine-in Menu > Dinner > Dinner Sandwiches path to order a Turkey Club for guests who are dining in.
+Restaurant A sells the Turkey Club menu item. As a reminder, this menu item belongs to two menu paths, Takeout Menu \> Takeout Sandwiches and Dine-in Menu \> Dinner \> Dinner Sandwiches. Takeout guests use the Takeout Menu \> Takeout Sandwiches path to order a Turkey Club from Restaurant A's online website. Restaurant employees use the Dine-in Menu \> Dinner \> Dinner Sandwiches path to order a Turkey Club for guests who are dining in.
 
 Restaurant A has configured its menus so that:
 
 - The prep station for the Takeout Menu is Takeout Prep.
 
 
-- The prep station for the Dine-in Menu > Dinner > Dinner Sandwiches menu group is Sandwiches Prep.
+- The prep station for the Dine-in Menu \> Dinner \> Dinner Sandwiches menu group is Sandwiches Prep.
 
 
 - The Turkey Club menu item inherits its prep station settings. The inherited settings depend on the menu path the item is ordered from.
 
 
 
-When a guest orders the Turkey Club menu item from the Takeout Menu > Takeout Sandwiches path, the Toast platform determines where in that path a prep station has been defined, and then routes the Turkey Club to that prep station. In this case, the Turkey Club inherits the Takeout Prep station from the Takeout Menu.
+When a guest orders the Turkey Club menu item from the Takeout Menu \> Takeout Sandwiches path, the Toast platform determines where in that path a prep station has been defined, and then routes the Turkey Club to that prep station. In this case, the Turkey Club inherits the Takeout Prep station from the Takeout Menu.
 
-Similarly, when an employee orders the Turkey Club from the Dine-in Menu > Dinner > Dinner Sandwiches path, the Toast platform determines that items in the Dinner Sandwiches menu group are routed to the Sandwiches Prep station. In this case, the Turkey Club inherits the Sandwiches Prep station from the Dinner Sandwiches menu group.
+Similarly, when an employee orders the Turkey Club from the Dine-in Menu \> Dinner \> Dinner Sandwiches path, the Toast platform determines that items in the Dinner Sandwiches menu group are routed to the Sandwiches Prep station. In this case, the Turkey Club inherits the Sandwiches Prep station from the Dinner Sandwiches menu group.
 
 The Turkey Club's menu item details page shows all of these relationships. You can see in the illustration below that the Turkey Club's Inherit prep stations? setting is set to Yes. In the tables below the setting, you can see the two menu paths the Turkey Club belongs to and the prep stations it inherits for each path. You can also see the parent menu entity that provides the inherited setting for each path.
 

@@ -24,7 +24,7 @@ You can archive a service charge, which means the service charge becomes inactiv
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Checks & receipt setup > Service charges and fees to open the Service Charges page.
+2. Choose Payments \> Checks & receipt setup \> Service charges and fees to open the Service Charges page.
 
 
 3. Select the service charge to be archived.

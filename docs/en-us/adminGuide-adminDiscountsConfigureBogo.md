@@ -89,7 +89,7 @@ In the Advanced Settings section of the discount configuration page, you use the
 
 #### BOGO discounts on receipts
 
-The layout of BOGO receipts shows how the discount was applied. These receipt changes are visible on printed receipts, on the order screen of the Toast POS app, and on Toast Web (for example, on receipts on the Reports > Payments > Payments page).
+The layout of BOGO receipts shows how the discount was applied. These receipt changes are visible on printed receipts, on the order screen of the Toast POS app, and on Toast Web (for example, on receipts on the Reports \> Payments \> Payments page).
 
 The receipt uses the following format to group the elements of a BOGO discount:
 

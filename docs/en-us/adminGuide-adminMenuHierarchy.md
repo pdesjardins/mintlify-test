@@ -103,7 +103,7 @@ The following diagram shows the menu hierarchy structure described above along w
 1. None of the menu groups are shared between the **Lunch** and **Dinner**menus.
 
 
-2. The **Lunch menu > Sandwiches > Meat-based > Turkey club** and **Lunch menu > Sandwiches > Vegetarian > Veggie panini** menu items are also used by the **Dinner menu > Pub fare** menu group.
+2. The **Lunch menu \> Sandwiches \> Meat-based \> Turkey club** and **Lunch menu \> Sandwiches \> Vegetarian \> Veggie panini** menu items are also used by the **Dinner menu \> Pub fare** menu group.
 
 
 3. The **Grilled chicken** and **Grilled salmon** entrees both use the **Entree** sides modifier group.

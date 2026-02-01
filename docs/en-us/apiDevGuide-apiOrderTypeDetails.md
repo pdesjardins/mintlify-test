@@ -170,30 +170,30 @@ The following example shows the message body for a `POST`request to the `/orders
 {
   "entityType": "Order",
   "table": {
-    "guid": "170b5f39-060e-45c3-89f0-4907c16ab12c",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e1112EA92E6F1-6650-4630-A55E-D199990EEAD8-co)
+    "guid": "170b5f39-060e-45c3-89f0-4907c16ab12c",
     "entityType": "Table"
   },
   "server": {
-    "guid": "dc9b7cd6-4389-4a6d-83c3-2fde7f033567",[(2)](apiDevGuide-apiOrderTypeDetails.html#exampleServerValueInTableOrder-co)
+    "guid": "dc9b7cd6-4389-4a6d-83c3-2fde7f033567",
     "entityType": "RestaurantUser"
   },
   "diningOption": {
-    "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e1114EA92E6F1-6650-4630-A55E-D199990EEAD8-co)
+    "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
   "revenueCenter": {
-    "guid": "908f0483-ac03-4c9a-a5a4-43c37786e237",[(4)](apiDevGuide-apiOrderTypeDetails.html#coRevenueCenter)
+    "guid": "908f0483-ac03-4c9a-a5a4-43c37786e237",
     "entityType": "RevenueCenter"
   },
   "checks": [
-    {[(5)](apiDevGuide-apiOrderTypeDetails.html#d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8-co)
+    {
       "entityType": "Check",
       "customer": {
         "entityType": "Customer",
         "firstName": "Severe",
         "lastName": "Thibault",
         "phone": "555-555-5555",
-        "email": "severe@example.com"[(6)](apiDevGuide-apiOrderTypeDetails.html#dineInEmail2)
+        "email": "severe@example.com"
       }
     }
   ]
@@ -234,13 +234,13 @@ The following example shows the message body for a `POST`request to the `/orders
 {
   "entityType": "Order",
   "diningOption": {
-    "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e10237C48B789-81C4-4370-AA2B-3D1717E80367-co)
+    "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
   "checks": [
     {
       "entityType": "Check",
-      "selections": [[(2)](apiDevGuide-apiOrderTypeDetails.html#d1e10257C48B789-81C4-4370-AA2B-3D1717E80367-co)
+      "selections": [
         {
           "entityType": "MenuItemSelection",
           "itemGroup": {
@@ -255,12 +255,12 @@ The following example shows the message body for a `POST`request to the `/orders
           "modifiers": []
         }
       ],
-      "customer": {[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e10277C48B789-81C4-4370-AA2B-3D1717E80367-co)
+      "customer": {
           "entityType": "Customer",
           "firstName": "Jack",
           "lastName": "Jones",
           "phone": "333-555-5555",
-          "email": "jack@example.com"[(4)](apiDevGuide-apiOrderTypeDetails.html#toEmailUnique2)
+          "email": "jack@example.com"
       }
     }
   ]
@@ -283,7 +283,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
 
 ```
 {
-  "guid": "df8cd211-c5c9-4fe4-b56b-fa0db87eb80b",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e106115FD65F4-5F6E-4E67-B244-1E63F8455F38-co)
+  "guid": "df8cd211-c5c9-4fe4-b56b-fa0db87eb80b",
   "entityType": "Order",
   "externalId": null,
   "revenueCenter": null,
@@ -311,11 +311,11 @@ The following example shows the response from the `/orders` endpoint for a takeo
       "amount": 9.99,
       "tabName": null,
       "taxExempt": false,
-      "payments": [],[(2)](apiDevGuide-apiOrderTypeDetails.html#d1e106315FD65F4-5F6E-4E67-B244-1E63F8455F38-co)
+      "payments": [],
       "appliedDiscounts": [],
       "voidDate": null,
       "openedDate": "2017-10-04T13:54:00.970+0000",
-      "totalAmount": 10.69,[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e106515FD65F4-5F6E-4E67-B244-1E63F8455F38-co)
+      "totalAmount": 10.69,
       "selections": [
         {
           "guid": "13ae0536-bff4-4d24-a13a-722508a2556a",
@@ -378,7 +378,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
       ],
       "voidBusinessDate": null,
       "deleted": false,
-      "paidDate": null,[(4)](apiDevGuide-apiOrderTypeDetails.html#d1e106715FD65F4-5F6E-4E67-B244-1E63F8455F38-co)
+      "paidDate": null,
       "closedDate": null,
       "deletedDate": null,
       "modifiedDate": "2017-10-04T13:54:01.022+0000",
@@ -387,7 +387,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
       "taxAmount": 0.7,
       "appliedServiceCharges": [],
       "paymentStatus": "OPEN",
-      "customer": {[(5)](apiDevGuide-apiOrderTypeDetails.html#d1e107215FD65F4-5F6E-4E67-B244-1E63F8455F38-co)
+      "customer": {
         "guid": "3d4b9481-4e96-42dd-8dea-d59184819cbb",
         "entityType": "Customer",
         "firstName": "Jack",
@@ -461,10 +461,10 @@ The following example shows the message body for a `POST`request to the `/orders
 {
   "entityType": "Order",
   "diningOption": {
-    "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130-co)
+    "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
-  "curbsidePickupInfo": {[(2)](apiDevGuide-apiOrderTypeDetails.html#d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130-co)
+  "curbsidePickupInfo": {
     "entityType": "CurbsidePickup",
     "notes": "Convertible with top down",
     "transportColor": "blue",
@@ -474,7 +474,7 @@ The following example shows the message body for a `POST`request to the `/orders
   "checks": [
     {
       "entityType": "Check",
-      "selections": [[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e13050678CC9-5BB1-4B52-94B4-AD4E0A359130-co)
+      "selections": [
         {
           "entityType": "MenuItemSelection",
           "itemGroup": {
@@ -489,12 +489,12 @@ The following example shows the message body for a `POST`request to the `/orders
           "modifiers": []
         }
       ],
-      "customer": {[(4)](apiDevGuide-apiOrderTypeDetails.html#d1e13250678CC9-5BB1-4B52-94B4-AD4E0A359130-co)
+      "customer": {
           "entityType": "Customer",
           "firstName": "Alice",
           "lastName": "Patron",
           "phone": "333-555-5555",
-          "email": "alice@example.com"[(5)](apiDevGuide-apiOrderTypeDetails.html#d1e13450678CC9-5BB1-4B52-94B4-AD4E0A359130-co)
+          "email": "alice@example.com"
       }
     }
   ]
@@ -519,7 +519,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
 ```
 {
-    "guid": "db3acf81-e63e-47ed-aa1b-cba97e15549f",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e2266E27FB7C-6DE5-4877-99EB-55403F2FA4EF-co)
+    "guid": "db3acf81-e63e-47ed-aa1b-cba97e15549f",
     "entityType": "Order",
     "externalId": null,
     "revenueCenter": null,
@@ -536,7 +536,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
     "deliveryInfo": null,
     "serviceArea": null,
-    "curbsidePickupInfo": {[(2)](apiDevGuide-apiOrderTypeDetails.html#d1e2286E27FB7C-6DE5-4877-99EB-55403F2FA4EF-co)
+    "curbsidePickupInfo": {
         "guid": "0ca623cb-c1eb-4881-8222-67a393e00b5c",
         "entityType": "CurbsidePickup",
         "transportColor": "blue",
@@ -557,13 +557,13 @@ The following example shows the response from the `/orders` endpoint to a curbsi
             "entityType": "Check",
             "externalId": null,
             "displayNumber": "3",
-            "payments": [],[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e2306E27FB7C-6DE5-4877-99EB-55403F2FA4EF-co)
+            "payments": [],
             "appliedDiscounts": [],
             "lastModifiedDevice": {
                 "id": null
             },
             "voidDate": null,
-            "paidDate": null,[(4)](apiDevGuide-apiOrderTypeDetails.html#d1e2326E27FB7C-6DE5-4877-99EB-55403F2FA4EF-co)
+            "paidDate": null,
             "appliedLoyaltyInfo": null,
             "voided": false,
             "paymentStatus": "OPEN",
@@ -571,7 +571,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
             "tabName": null,
             "taxExempt": false,
             "openedDate": "2020-06-17T19:14:56.348+0000",
-            "totalAmount": 17.1,[(5)](apiDevGuide-apiOrderTypeDetails.html#d1e2346E27FB7C-6DE5-4877-99EB-55403F2FA4EF-co)
+            "totalAmount": 17.1,
             "selections": [
                 {
                     [contents omitted]
@@ -584,7 +584,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
             "modifiedDate": "2020-06-17T19:14:56.565+0000",
             "taxAmount": 1.12,
             "appliedServiceCharges": [],
-            "customer": {[(6)](apiDevGuide-apiOrderTypeDetails.html#d1e2376E27FB7C-6DE5-4877-99EB-55403F2FA4EF-co)
+            "customer": {
                 "guid": "84f4ac23-e05b-46a9-99d9-16a2a8516bb8",
                 "entityType": "Customer",
                 "firstName": "Alice",
@@ -645,10 +645,10 @@ The following example shows the message body for a `POST`request to the `/orders
 {
   "entityType": "Order",
   "diningOption": {
-    "guid": "b1b10604-a8f9-4a21-ae86-7db974ee9dbf",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e11712BEEE554-052B-4000-8FFB-C21234C82F0B-co)
+    "guid": "b1b10604-a8f9-4a21-ae86-7db974ee9dbf",
     "entityType": "DiningOption"
   },
-  "deliveryInfo": {[(2)](apiDevGuide-apiOrderTypeDetails.html#d1e11732BEEE554-052B-4000-8FFB-C21234C82F0B-co)
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -674,12 +674,12 @@ The following example shows the message body for a `POST`request to the `/orders
           "modifiers": []
         }
       ],
-      "customer": {[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B-co)
+      "customer": {
           "entityType": "Customer",
           "firstName": "Sarah",
           "lastName": "Gomez",
           "phone": "555-555-5555",
-          "email": "sarah@example.com"[(4)](apiDevGuide-apiOrderTypeDetails.html#delivEmailUnique2)
+          "email": "sarah@example.com"
       }
     }
   ]
@@ -704,12 +704,12 @@ The following example shows the message body for an endpoint response to a deliv
 
 ```
 {
-  "guid": "4f0dbb70-46e8-4e02-bd22-9444cf9dc96b",[(1)](apiDevGuide-apiOrderTypeDetails.html#d1e1232192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+  "guid": "4f0dbb70-46e8-4e02-bd22-9444cf9dc96b",
   "entityType": "Order",
   "externalId": null,
   "revenueCenter": null,
   "server": null,
-  "deliveryInfo": {[(2)](apiDevGuide-apiOrderTypeDetails.html#d1e1234192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -718,9 +718,9 @@ The following example shows the message body for an endpoint response to a deliv
     "latitude": 42.3446671,
     "longitude": -71.1023575,
     "notes": "",
-    "deliveredDate": null,[(3)](apiDevGuide-apiOrderTypeDetails.html#d1e1236192143FD-70F4-4988-8B22-E8F1BCABE104-co)
-    "dispatchedDate": null,[(4)](apiDevGuide-apiOrderTypeDetails.html#d1e1238192143FD-70F4-4988-8B22-E8F1BCABE104-co)
-    "deliveryEmployee": null[(5)](apiDevGuide-apiOrderTypeDetails.html#d1e1240192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+    "deliveredDate": null,
+    "dispatchedDate": null,
+    "deliveryEmployee": null
   },
   "serviceArea": null,
   "numberOfGuests": 1,
@@ -731,7 +731,7 @@ The following example shows the message body for an endpoint response to a deliv
   },
   "source": "API",
   "voidDate": null,
-  "openedDate": "2017-10-04T19:31:34.480+0000",[(6)](apiDevGuide-apiOrderTypeDetails.html#d1e1243192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+  "openedDate": "2017-10-04T19:31:34.480+0000",
   "duration": null,
   "businessDate": 20171004,
   "voidBusinessDate": null,
@@ -774,7 +774,7 @@ The following example shows the message body for an endpoint response to a deliv
           "tax": 0.7,
           "modifiers": [],
           "voidDate": null,
-          "fulfillmentStatus": "NEW",[(7)](apiDevGuide-apiOrderTypeDetails.html#d1e1245192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+          "fulfillmentStatus": "NEW",
           "salesCategory": null,
           "selectionType": "NONE",
           "voidBusinessDate": null,
@@ -818,9 +818,9 @@ The following example shows the message body for an endpoint response to a deliv
       "appliedLoyaltyInfo": null,
       "voided": false,
       "taxAmount": 0.7,
-      "appliedServiceCharges": [],[(8)](apiDevGuide-apiOrderTypeDetails.html#d1e1247192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+      "appliedServiceCharges": [],
       "paymentStatus": "OPEN",
-      "customer": {[(9)](apiDevGuide-apiOrderTypeDetails.html#d1e1249192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+      "customer": {
         "guid": "479ad7e0-1942-42a5-874e-8cab3871190b",
         "entityType": "Customer",
         "firstName": "Sarah",
@@ -838,7 +838,7 @@ The following example shows the message body for an endpoint response to a deliv
   "modifiedDate": "2017-10-04T19:31:34.549+0000",
   "promisedDate": null,
   "voided": false,
-  "estimatedFulfillmentDate": "2017-10-04T20:31:34.480+0000",[(10)](apiDevGuide-apiOrderTypeDetails.html#d1e1251192143FD-70F4-4988-8B22-E8F1BCABE104-co)
+  "estimatedFulfillmentDate": "2017-10-04T20:31:34.480+0000",
   "table": null
 }
 ```

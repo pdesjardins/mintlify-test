@@ -17,13 +17,13 @@ codeExamples: 0
 
 ### Settings copy overview
 
-For settings that are not shared across locations (in other words, do not use [owners](ownersAndPermissions.html) and [targets](targets.html) to apply settings to multiple locations), you can use the settings copy feature to apply settings used at one location to another location or locations. Choose Toast account > Business and location management > Settings copy tool to open the Settings copy page.
+For settings that are not shared across locations (in other words, do not use [owners](ownersAndPermissions.html) and [targets](targets.html) to apply settings to multiple locations), you can use the settings copy feature to apply settings used at one location to another location or locations. Choose Toast account \> Business and location management \> Settings copy tool to open the Settings copy page.
 
 
 
 > **Note**
 > 
-> To use the settings copy feature, you must have the Restaurant Admin > Settings Copy Tool permission at the locations you are copying from and to.
+> To use the settings copy feature, you must have the Restaurant Admin \> Settings Copy Tool permission at the locations you are copying from and to.
 
 
 Copying settings can be useful if you want to use the same configuration at one location for another location.

@@ -44,8 +44,8 @@ txKL1L-K2j1Enoq8An8hEM6e8J0KdAiwrYFO3W3CmWedaoz95K9ghNZVCs28
 Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
-dWq4Yzwo007AMgxjH9d241Y-g" [(1)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e88264BB8911-6D33-427B-B2BF-261630CB0B01-co)\
--H "Toast-Restaurant-External-ID: 27d35c6a-7068-49f7-bee0-25e654e1227a" [(2)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e88464BB8911-6D33-427B-B2BF-261630CB0B01-co) \
+dWq4Yzwo007AMgxjH9d241Y-g" \
+-H "Toast-Restaurant-External-ID: 27d35c6a-7068-49f7-bee0-25e654e1227a"  \
 "https://[toast-api-hostname]/ordermgmt-config/v1/published/orderingSchedule
 ```
 
@@ -71,13 +71,13 @@ The following example shows a restaurant location's online ordering schedule for
 {
     "servicePeriods": [
         {
-            "diningOptionBehavior": "DELIVERY" [(1)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e1163EA94E75-C09B-4686-82C8-0754D4415861-co),
+            "diningOptionBehavior": "DELIVERY" ,
             "dayPeriods": [
                 {
                     "day": "MONDAY",
                     "timeRanges": [
                         {
-                            "start": "11:00" [(2)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e1183EA94E75-C09B-4686-82C8-0754D4415861-co),
+                            "start": "11:00" ,
                             "end": "02:00"
                         }
                     ]
@@ -153,10 +153,10 @@ The following example shows a restaurant location's online ordering schedule for
             ]
         }
     ],
-    "overrides": [(3)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e1203EA94E75-C09B-4686-82C8-0754D4415861-co) [
+    "overrides":  [
         {
             "description": "New operating hours",
-            "diningOptionBehavior": [(4)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e1223EA94E75-C09B-4686-82C8-0754D4415861-co) [
+            "diningOptionBehavior":  [
                 "DELIVERY",
                 "TAKE_OUT"
             ],
@@ -169,7 +169,7 @@ The following example shows a restaurant location's online ordering schedule for
             ]
         }
     ],
-    "scheduledOrderMaxDays": 21 [(5)](apiDevGuide-apiGettingOnlineOrderingSchedules.html#d1e1243EA94E75-C09B-4686-82C8-0754D4415861-co)
+    "scheduledOrderMaxDays": 21 
 }
 ```
 

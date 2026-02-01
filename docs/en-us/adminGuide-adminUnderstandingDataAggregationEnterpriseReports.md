@@ -17,11 +17,11 @@ codeExamples: 0
 
 ### Understanding data aggregation in enterprise reports
 
-Many of the reports break out the data you are viewing by location and include a Location column. You can use this column to sort the data by location. The Reports > Sales > Orders report uses this approach:
+Many of the reports break out the data you are viewing by location and include a Location column. You can use this column to sort the data by location. The Reports \> Sales \> Orders report uses this approach:
 
 ![Image](https://doc.toasttab.com/doc/media/mmm_reports_orders_tab_sales_report.PNG)
 
-Other reports aggregate the data from your restaurant group/location selections without breaking it out by location. For example, the Reports > Employee performance > Labor summaryreport includes a Job Title table that lists all the jobs assigned to employees at the locations you have selected, without identifying which locations or restaurant groups the jobs apply to:
+Other reports aggregate the data from your restaurant group/location selections without breaking it out by location. For example, the Reports \> Employee performance \> Labor summaryreport includes a Job Title table that lists all the jobs assigned to employees at the locations you have selected, without identifying which locations or restaurant groups the jobs apply to:
 
 ![Image](https://doc.toasttab.com/doc/media/mmm_reports_summary_tab_labor_report.PNG)
 

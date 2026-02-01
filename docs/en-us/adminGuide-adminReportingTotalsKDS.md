@@ -54,12 +54,12 @@ To return to the ticket view from all day view you tap Hide All Day View.
 
 #### Update all day view
 
-By default, all day view is enabled for all restaurants to display item names and totals. To update your configuration of all day view, you must have the Web Setup > Kitchen / Dining Room Setup access permission. Then, follow these steps.
+By default, all day view is enabled for all restaurants to display item names and totals. To update your configuration of all day view, you must have the Web Setup \> Kitchen / Dining Room Setup access permission. Then, follow these steps.
 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup to open the Kitchen page.
+2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup to open the Kitchen page.
 
 
 3. In the Ticket Screens section, select one of these settings for All Day Display.

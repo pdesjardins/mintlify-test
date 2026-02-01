@@ -52,7 +52,7 @@ In general, this procedure follows this flow:
 2. Select Menus from the left-hand navigation bar.
 
 
-3. Select Bulk management > Advanced properties to open the Advanced Properties page.
+3. Select Bulk management \> Advanced properties to open the Advanced Properties page.
 
 
 4. From the You are viewing menu, choose your top-level restaurant group so that you can see your entire restaurant group hierarchy and select Update.

@@ -31,7 +31,7 @@ You can access POS layout view from either the [menu manager](platformAccessingP
 1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Select Menus > Bulk management > Menu manager. Alternatively, you can search for `menu
+2. Select Menus \> Bulk management \> Menu manager. Alternatively, you can search for `menu
         manager`.
 
 
@@ -51,7 +51,7 @@ You can access POS layout view from either the [menu manager](platformAccessingP
 
 2. From the QUICK ACTIONS section, select Menu builder.
 
-Alternatively, you can search for `menu builder` or select Menus in the left pane to go to the Menus > Menu management section, then select Menu builder.
+Alternatively, you can search for `menu builder` or select Menus in the left pane to go to the Menus \> Menu management section, then select Menu builder.
 
 
 3. Select View POS layout to open the POS layout view tool.

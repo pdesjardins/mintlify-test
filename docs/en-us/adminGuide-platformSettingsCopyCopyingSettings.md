@@ -51,7 +51,7 @@ Tags include the number of settings with that tag on that page or in that sectio
 
 
 
-2. Go to Toast account > Business and location management > Settings copy tool. The Settings copy page opens.
+2. Go to Toast account \> Business and location management \> Settings copy tool. The Settings copy page opens.
 
 
 3. Select the Copy settings button. The settings copy workflow page opens.
@@ -112,7 +112,7 @@ Tags include the number of settings with that tag on that page or in that sectio
 ![The Actitvity table showing past copies on the Settings copy page.](https://doc.toasttab.com/doc/media/mlx-settings-copy-activity-table.png)
 
 
-11. On the Toast account > Publishing > Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
+11. On the Toast account \> Publishing \> Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
 
 
 

@@ -21,10 +21,10 @@ codeExamples: 0
 
 > **Note**
 > 
-> To use the Service Report screen, you must have the 3. Manager > 3.16 Close Out Daypermission.
+> To use the Service Report screen, you must have the 3. Manager \> 3.16 Close Out Daypermission.
 
 
-On the Service Report screen, you can view your restaurant’s performance by service periods (day parts). Service periods divide your day into distinct segments, such as breakfast, lunch, and dinner. You can set service periods in Toast Web. To configure service periods, choose Reports > Settings > Hours/services and navigate to the Services section to add or remove a service period.
+On the Service Report screen, you can view your restaurant’s performance by service periods (day parts). Service periods divide your day into distinct segments, such as breakfast, lunch, and dinner. You can set service periods in Toast Web. To configure service periods, choose Reports \> Settings \> Hours/services and navigate to the Services section to add or remove a service period.
 
 The Service Report screen displays your restaurant’s service report filtered by service periods. On the Service Report screen, you can also view and complete various actions, such as view all clocked out employees and closed cash drawers, create cash deposits, and print your service report.
 

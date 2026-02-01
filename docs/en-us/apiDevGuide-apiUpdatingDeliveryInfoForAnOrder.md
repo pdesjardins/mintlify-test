@@ -101,13 +101,13 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 
 ```
 {
-  "deliveredDate": "2021-09-14T17:57:42.263+0000",[(1)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2925533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
-  "dispatchedDate": "2021-09-14T17:57:42.263+0000",[(2)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2945533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
-  "deliveryState": "DELIVERED",[(3)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2965533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
+  "deliveredDate": "2021-09-14T17:57:42.263+0000",
+  "dispatchedDate": "2021-09-14T17:57:42.263+0000",
+  "deliveryState": "DELIVERED",
   "deliveryEmployee": {
-    "guid": "e10f2ae0-9690-4ab2-86fe-fa6603d708d0"[(4)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2985533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
+    "guid": "e10f2ae0-9690-4ab2-86fe-fa6603d708d0"
   },
-    "notes": "Leave order at door."[(5)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2085533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
+    "notes": "Leave order at door."
 }
 
 ```
@@ -130,12 +130,12 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
 
 ```
 {
-  "guid": "d16ceaeb-d8a3-4d47-82db-0199d37c0713",[(1)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2255533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
+  "guid": "d16ceaeb-d8a3-4d47-82db-0199d37c0713",
   "entityType": "Order",
  
  [contents omitted]
 
-  "deliveryInfo": {[(2)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2275533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -157,7 +157,7 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
   [contents omitted]
 
   "diningOption": {
-    "guid": "f6cd5b58-27d7-462a-922f-7f919a6f9137",[(3)](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.html#d1e2385533E9A4-9140-47FA-BA5E-B39FCEBDF6B0-co)
+    "guid": "f6cd5b58-27d7-462a-922f-7f919a6f9137",
     "entityType": "DiningOption",
     "externalId": null
   },

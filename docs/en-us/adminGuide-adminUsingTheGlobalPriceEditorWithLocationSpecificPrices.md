@@ -21,7 +21,7 @@ You can use the global price editor in the upper left corner of the Price editor
 
 **Procedure 5.9. To globally update prices for a menu item**
 
-1. Choose Menus > Bulk management > Price editor to open the Price editorpage.
+1. Choose Menus \> Bulk management \> Price editor to open the Price editorpage.
 
 
 2. Use the You are viewing menu to filter the page so that you see the menu you want to edit. See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.

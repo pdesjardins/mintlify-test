@@ -67,7 +67,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -188,7 +188,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -267,7 +267,7 @@ Follow the procedure below to rename a modifier group.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -333,7 +333,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -362,7 +362,7 @@ If you do not want a menu item to inherit modifier groups, set its Inherit modif
 
 ##### Understanding where a menu item inherits its modifier groups from
 
-Menu items can belong to more than one menu path. When a menu item belongs to more than one menu path, it can inherit different modifier groups from each path. For example, the Grilled Cheese menu item in the illustration below belongs to two menu paths: Dinner > Dinner Sandwiches and Lunch > Lunch Sandwiches. When a Grilled Cheese is ordered from the Dinner > Dinner Sandwiches path, it uses the Dinner Sides modifier group. When a Grilled Cheese is ordered from the Lunch > Lunch Sandwiches path, the menu item uses the Lunch Sides modifier group.
+Menu items can belong to more than one menu path. When a menu item belongs to more than one menu path, it can inherit different modifier groups from each path. For example, the Grilled Cheese menu item in the illustration below belongs to two menu paths: Dinner \> Dinner Sandwiches and Lunch \> Lunch Sandwiches. When a Grilled Cheese is ordered from the Dinner \> Dinner Sandwiches path, it uses the Dinner Sides modifier group. When a Grilled Cheese is ordered from the Lunch \> Lunch Sandwiches path, the menu item uses the Lunch Sides modifier group.
 
 ![An example of a menu item that inherits different modifier groups, depending on the menu path the item is ordered from.](https://doc.toasttab.com/doc/media/menu-builder-inherited-mod-groups-from-different-paths.png)
 
@@ -489,7 +489,7 @@ Ordering channel visibility settings determine the ordering channels where a mod
 
 - Customer invoices, Catering & Events, Catering Online Ordering: The modifier group is visible when:
 
-- Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
+- Creating customer invoices for orders using the Payments \> Payment methods \> Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
 
 
 - Creating catering orders using Toast Catering & Events. For information, see this [Toast Central article](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).
@@ -511,7 +511,7 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.

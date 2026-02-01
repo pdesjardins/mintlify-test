@@ -164,7 +164,7 @@ To continue, select Next.
 
 4. Optionally, enter a comment to indicate the reason for the refund.
 
-This comment appears in the Reports > Cash and loss management > Refunds report.
+This comment appears in the Reports \> Cash and loss management \> Refunds report.
 
 ![Screen to enter additional comments for the refund.](https://doc.toasttab.com/doc/media/refunds-on-items-and-service-chgs-4.png)
 
@@ -261,7 +261,7 @@ To continue, select Next.
 
 4. Optionally, enter a comment to indicate the reason for the refund.
 
-This comment appears in the Reports > Cash and loss management > Refunds report.
+This comment appears in the Reports \> Cash and loss management \> Refunds report.
 
 To continue, select Next.
 
@@ -308,7 +308,7 @@ To continue, select Next.
 
 3. Optionally, enter a comment to indicate the reason for the refund.
 
-This comment appears in the Reports > Cash and loss management > Refunds report.
+This comment appears in the Reports \> Cash and loss management \> Refunds report.
 
 To continue, select Next.
 
@@ -364,7 +364,7 @@ To continue, select Next.
 
 4. On the next screen, optionally enter a comment to indicate the reason for the refund.
 
-This comment appears in the Reports > Cash and loss management > Refunds report.
+This comment appears in the Reports \> Cash and loss management \> Refunds report.
 
 To continue, select Next.
 
@@ -426,7 +426,7 @@ Custom amount refunds impact financial reporting differently from other refund t
 
 3. On the next screen, optionally enter a comment to indicate the reason for the refund.
 
-This comment appears in the Reports > Cash and loss management > Refunds report.
+This comment appears in the Reports \> Cash and loss management \> Refunds report.
 
 To continue, select Next.
 

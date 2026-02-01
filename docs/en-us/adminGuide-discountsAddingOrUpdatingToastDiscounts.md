@@ -19,7 +19,7 @@ codeExamples: 0
 
 From the Discounts page, you can add and update discounts.
 
-To configure discounts for a restaurant, a user must have the 6. Web Setup > 6.1 Discounts Setup[permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable).
+To configure discounts for a restaurant, a user must have the 6. Web Setup \> 6.1 Discounts Setup[permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable).
 
 The following is a high-level overview of the procedure to add or edit a discount.
 
@@ -28,7 +28,7 @@ The following is a high-level overview of the procedure to add or edit a discoun
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. To open the Discounts page, choose Payments > Comps and promos > Discounts and promo codes.
+2. To open the Discounts page, choose Payments \> Comps and promos \> Discounts and promo codes.
 
 
 3. To create a new discount, choose Add a Discount.

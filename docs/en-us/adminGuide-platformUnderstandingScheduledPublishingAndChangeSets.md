@@ -55,11 +55,11 @@ As you work with change sets, here are some additional points to keep in mind:
 
 #### Scheduled publishing permissions
 
-Employees that have the 6. Web Setup > 6.7 Change sets permission to the [session restaurant](sessionRestaurant.html) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
+Employees that have the 6. Web Setup \> 6.7 Change sets permission to the [session restaurant](sessionRestaurant.html) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
 
-The 6.7 Change sets permission only gives you permission to work with the change sets themselves. To work with the changes *stored* in a change set, you must have additional permissions specific to the changes you want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, you must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store your edits in a change set. For more information on menu manager permissions, see [Menu manager permissions](platformMenuManagerPermissions.html).
+The 6.7 Change sets permission only gives you permission to work with the change sets themselves. To work with the changes *stored* in a change set, you must have additional permissions specific to the changes you want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, you must have the 4. Restaurant Admin \> 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store your edits in a change set. For more information on menu manager permissions, see [Menu manager permissions](platformMenuManagerPermissions.html).
 
-Employees that have the 6. Web Setup > 6.4 Publishing permission to the session restaurant have read-only access to the publishing center. This means they can view change sets and add changes to *existing change sets*but they cannot create change sets, delete change sets, or modify the names and schedules of change sets.
+Employees that have the 6. Web Setup \> 6.4 Publishing permission to the session restaurant have read-only access to the publishing center. This means they can view change sets and add changes to *existing change sets*but they cannot create change sets, delete change sets, or modify the names and schedules of change sets.
 
 #### Scheduled publishing only replaces the properties included in a change set
 
@@ -134,7 +134,7 @@ This example demonstrates that change sets only update configuration entities wi
 
 #### Change set statuses
 
-You can view a change set's status on the Toast account > Publishing > Publishing center page. The following table describes change set status types:
+You can view a change set's status on the Toast account \> Publishing \> Publishing center page. The following table describes change set status types:
 
 | Status | Description | 
 | --- | --- |
@@ -162,7 +162,7 @@ To resolve this most common cause of partial publishes, make sure all of the ent
 
 #### Working with change sets in the publishing center
 
-The Publish later tab of the Toast account > Publishing > Publishing center page provides a centralized location for viewing and working with change sets.
+The Publish later tab of the Toast account \> Publishing \> Publishing center page provides a centralized location for viewing and working with change sets.
 
 ![Example of the Publish later tab.](https://doc.toasttab.com/doc/media/publish_later_tab.png)
 
@@ -195,7 +195,7 @@ You can create a new, empty change set from the publishing center and then [add 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Navigate to the Toast account > Publishing > Publishing center page.
+2. Navigate to the Toast account \> Publishing \> Publishing center page.
 
 
 3. Select Add change set. The Add scheduled change set dialog box opens.
@@ -249,7 +249,7 @@ Follow the instructions below to edit the description, date, or time associated 
 1. Log in to Toast Web.
 
 
-2. Navigate to the Toast account > Publishing > Publishing center page.
+2. Navigate to the Toast account \> Publishing \> Publishing center page.
 
 
 3. Locate the change set you want to edit in the table and select its edit button.
@@ -270,7 +270,7 @@ A change set contains a collection of changes that you have made using other con
 1. Log in to Toast Web.
 
 
-2. Navigate to the Toast account > Publishing > Publishing center page.
+2. Navigate to the Toast account \> Publishing \> Publishing center page.
 
 
 3. Locate the change set whose preview page you want to view and select its edit button.
@@ -301,7 +301,7 @@ When you delete a change set, the changes associated with it are not saved or pu
 1. Log in to Toast Web.
 
 
-2. Navigate to the Toast account > Publishing > Publishing center page.
+2. Navigate to the Toast account \> Publishing \> Publishing center page.
 
 
 3. Locate the change set you want to delete in the table and select its delete button.
@@ -383,7 +383,7 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
 | --- | --- |
 | `EntityNotFoundError` | The menu item in the change set was archived and edits cannot be made to it. | 
 | `You are not permitted to access this
-                resource` | The [owner](ownersAndPermissions.html) of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to the location or location group that now owns the menu item. | 
+                resource` | The [owner](ownersAndPermissions.html) of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin \> 4.5 Edit Full Menu permission to the location or location group that now owns the menu item. | 
 | `ParameterValidationError` | This error can be caused by either of the following:- The change set contains an edit to a price but that price has been deleted from the menu item. For example, the change set includes an edit to the location-specific price for the New York location, but the New York location-specific price has been removed from the menu item.
 - The pricing strategy of the menu item has changed to a strategy that is not compatible with the pricing edit in the change set. For example, Menu Item A uses the menu-specific pricing strategy. A user adds another menu-specific price to Menu Item A and saves it in a change set to be published in one week. Before the change set executes, another user changes Menu Item A's pricing strategy to location-specific pricing. At this point, the menu-specific price defined in the change set is no longer compatible with Menu Item A's location-specific pricing strategy.
 
@@ -398,7 +398,7 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
 
 ##### Locating menu items that have errors using their GUID
 
-The CSV files are generated when the change set fails to execute and they contain the menu item data (menu item name, target name, target ID, and so on) that existed at the time of execution. It is possible for the menu item name to be edited *after* the CSV files were generated, creating a situation where the menu item name shown in the error file is different from the menu item name shown in Toast Web. If this occurs, you can use the Menus > Bulk management > Items database page to search for the menu item by its `GUID`, which can be found in the `entityId`column of the errors summary file.
+The CSV files are generated when the change set fails to execute and they contain the menu item data (menu item name, target name, target ID, and so on) that existed at the time of execution. It is possible for the menu item name to be edited *after* the CSV files were generated, creating a situation where the menu item name shown in the error file is different from the menu item name shown in Toast Web. If this occurs, you can use the Menus \> Bulk management \> Items database page to search for the menu item by its `GUID`, which can be found in the `entityId`column of the errors summary file.
 
 #### Scheduled publishing notes and limitations
 
@@ -421,7 +421,7 @@ For example, you create Price Level A. You must publish Price Level A to all the
 To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](platformManualAndScheduledPublishing.html). After you do this, the change set should execute fully.
 
 
-- Currently, the scheduled publishing feature is available to users that have the 6. Web Setup > 6.4 Publishing permission. Users with this permission can create, edit, and delete change sets, including change sets that were created by other users. The Toast platform does not yet validate whether the user creating a change set has permission to edit the entities included in the change set.
+- Currently, the scheduled publishing feature is available to users that have the 6. Web Setup \> 6.4 Publishing permission. Users with this permission can create, edit, and delete change sets, including change sets that were created by other users. The Toast platform does not yet validate whether the user creating a change set has permission to edit the entities included in the change set.
 
 
 - The scheduled publishing feature does not prevent you from adding the same configuration entity to more than one change set. For example, you could a change set that modifies the price of a menu item at the start of a holiday period and another change set that reverts the price of the menu item after the holiday period has ended.

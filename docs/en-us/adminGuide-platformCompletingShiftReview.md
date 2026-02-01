@@ -106,7 +106,7 @@ The actions available in the Checks step depend on the status of your checks. Yo
 
 ![The Close checks step pointing out the Close checks button.](https://doc.toasttab.com/doc/media/money-shift-review-close-checks.png)
 
-If you have a check that you cannot close, you can either void the check with manager approval, or transfer the check to another employee. To transfer the check to another employee, from the Payment Terminal screen, navigate to Update button > Overflow menu (⋮) > Change server to change the server. The new server can close out the check.
+If you have a check that you cannot close, you can either void the check with manager approval, or transfer the check to another employee. To transfer the check to another employee, from the Payment Terminal screen, navigate to Update button \> Overflow menu (⋮) \> Change server to change the server. The new server can close out the check.
 
 
 2. After all the checks have been closed, you return back to the Shift Review screen. The Close checks step displays a green checkmark and the following information is updated:
@@ -141,7 +141,7 @@ If you have a check that you cannot close, you can either void the check with ma
 
 > **Note**
 > 
-> You can require employees to declare cash tips as part of their shift review. From Toast Web, choose Employees > Shift review > Shift review setup > Declare cash tips and then select Tipped employees must declare cash tips.
+> You can require employees to declare cash tips as part of their shift review. From Toast Web, choose Employees \> Shift review \> Shift review setup \> Declare cash tips and then select Tipped employees must declare cash tips.
 > Employees who must declare cash tips must have the Tipped? option checked for their assigned job. For more information, see [UI options settings](adminUiOptionsReference.html).
 
 
@@ -155,7 +155,7 @@ As part of declaring your cash tips, you can also choose to declare negative cas
 
 > **Note**
 > 
-> You can configure a minimum tip requirement in Toast Web. The minimum tip amount is the percentage of cash tips employees must report during shift review. To configure a minimum cash tip requirement, choose Employees > Shift review > Shift review setup > Declare cash tips and under the Minimum tip percentage setting, enter the minimum tip percentage.
+> You can configure a minimum tip requirement in Toast Web. The minimum tip amount is the percentage of cash tips employees must report during shift review. To configure a minimum cash tip requirement, choose Employees \> Shift review \> Shift review setup \> Declare cash tips and under the Minimum tip percentage setting, enter the minimum tip percentage.
 
 
 1. In the Declare cash tips step, select the Declare cash tips button to declare your cash tips. This opens a numerical keypad. The numerical keypad displays the following information:
@@ -203,7 +203,7 @@ If a minimum tip requirement has been configured, you cannot declare negative ca
 
 > **Note**
 > 
-> You can configure how employees get paid out for non-cash tips in Toast Web. To configure your non-cash tips, choose Employees > Shift review > Shift review setup > Payout options and select either Pay out from the cash drawer or Pay out through payroll.
+> You can configure how employees get paid out for non-cash tips in Toast Web. To configure your non-cash tips, choose Employees \> Shift review \> Shift review setup \> Payout options and select either Pay out from the cash drawer or Pay out through payroll.
 
 
 The next step for shift review is to reconcile your cash and tips. Reconciling your cash and tips includes turning in your cash sales and collecting your non-cash tips (for example: credit card tips). If you have no cash sales, the Cash reimbursement dialog box shows “$0.00 paid to the restaurant”, displays a green checkmark, and the Next button is active. Select the Next button to move to the next step in shift review.
@@ -243,7 +243,7 @@ The Toast platform calculates the amount you owe to the restaurant or the restau
 
 2. Choose an available action to reconcile your cash and tips:
 
-- Skip: This option is only available if you do not require employees to pay the cash owed and collect non-cash tips. In the confirmation dialog box, select Yes, skip to skip shift review or select the Cancel button to close out of the confirmation dialog box. To require employees to collect and/or tip out to account for cash sales and non-cash tips, choose Employees > Shift review > Shift review setup > Reconcile cash & tips and select Employees must turn in any cash sales.
+- Skip: This option is only available if you do not require employees to pay the cash owed and collect non-cash tips. In the confirmation dialog box, select Yes, skip to skip shift review or select the Cancel button to close out of the confirmation dialog box. To require employees to collect and/or tip out to account for cash sales and non-cash tips, choose Employees \> Shift review \> Shift review setup \> Reconcile cash & tips and select Employees must turn in any cash sales.
 
 
 

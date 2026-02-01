@@ -119,9 +119,9 @@ The response includes an access token to use in the `Authorization` header for s
 {
   "token": {
     "tokenType": "Bearer",
-    "scope": "orders:write,orders:read",[(1)](apiDevGuide-apiOrdersFirstOrder.html#authResponseScopeCO)
+    "scope": "orders:write,orders:read",
     "expiresIn": 86400,
-    "accessToken": "eyJ0eXAiOiJKV1Q..."[(2)](apiDevGuide-apiOrdersFirstOrder.html#authResponseAccessTokenCO)
+    "accessToken": "eyJ0eXAiOiJKV1Q..."
   },
   "status": "SUCCESS"
 }
@@ -283,25 +283,25 @@ Using the GUIDs you collected, build your order JSON. The following example show
 ```
 {
   "entityType": "Order",
-  "diningOption": {[(1)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderDiningOptionCO)
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
   },
-  "checks": [[(2)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderChecksCO)
+  "checks": [
     {
       "entityType": "Check",
-      "selections": [[(3)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderSelectionsCO)
+      "selections": [
         {
           "entityType": "MenuItemSelection",
           "item": {
-            "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",[(4)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderItemGuidCO)
+            "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
             "entityType": "MenuItem"
           },
           "itemGroup": {
-            "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",[(5)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderItemGroupCO)
+            "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
             "entityType": "MenuGroup"
           },
-          "quantity": 1[(6)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderQuantityCO)
+          "quantity": 1
         },
         {
           "entityType": "MenuItemSelection",
@@ -354,9 +354,9 @@ The response returns the order with calculated prices, taxes, and totals. This s
   "checks": [
     {
       "entityType": "Check",
-      "amount": 25.00,[(1)](apiDevGuide-apiOrdersFirstOrder.html#pricesResponseAmountCO)
-      "taxAmount": 2.19,[(2)](apiDevGuide-apiOrdersFirstOrder.html#pricesResponseTaxCO)
-      "totalAmount": 27.19,[(3)](apiDevGuide-apiOrdersFirstOrder.html#pricesResponseTotalCO)
+      "amount": 25.00,
+      "taxAmount": 2.19,
+      "totalAmount": 27.19,
       "selections": [
         {
           "entityType": "MenuItemSelection",
@@ -370,7 +370,7 @@ The response returns the order with calculated prices, taxes, and totals. This s
           },
           "quantity": 1,
           "preDiscountPrice": 12.00,
-          "price": 12.00,[(4)](apiDevGuide-apiOrdersFirstOrder.html#pricesResponseItemPriceCO)
+          "price": 12.00,
           "tax": 1.05
         },
         {
@@ -417,10 +417,10 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 ```
 {
-  "guid": "89488287-f259-435b-a654-0bc391596af0",[(1)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderResponseGuidCO)
+  "guid": "89488287-f259-435b-a654-0bc391596af0",
   "entityType": "Order",
-  "source": "API",[(2)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderResponseSourceCO)
-  "approvalStatus": "NEEDS_APPROVAL",[(3)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderResponseStatusCO)
+  "source": "API",
+  "approvalStatus": "NEEDS_APPROVAL",
   "businessDate": 20250115,
   "createdDate": "2025-01-15T14:30:00.000+0000",
   "diningOption": {
@@ -429,9 +429,9 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
   },
   "checks": [
     {
-      "guid": "6e1bb8e0-534d-437f-bbad-0f08045f463e",[(4)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderResponseCheckGuidCO)
+      "guid": "6e1bb8e0-534d-437f-bbad-0f08045f463e",
       "entityType": "Check",
-      "amount": 25.00,[(5)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderResponseAmountCO)
+      "amount": 25.00,
       "taxAmount": 2.19,
       "totalAmount": 27.19,
       "selections": [
@@ -491,15 +491,15 @@ The following example shows a selection with a modifier:
     "entityType": "MenuGroup"
   },
   "quantity": 1,
-  "modifiers": [[(1)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderModifiersCO)
+  "modifiers": [
     {
       "entityType": "MenuItemSelection",
       "item": {
-        "guid": "58e6629f-5a1e-42f8-b6c7-4351d628b92d",[(2)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderModifierItemCO)
+        "guid": "58e6629f-5a1e-42f8-b6c7-4351d628b92d",
         "entityType": "MenuItem"
       },
       "optionGroup": {
-        "guid": "47d73134-03da-4fb5-b564-5358b3b37d34",[(3)](apiDevGuide-apiOrdersFirstOrder.html#firstOrderOptionGroupCO)
+        "guid": "47d73134-03da-4fb5-b564-5358b3b37d34",
         "entityType": "MenuOptionGroup"
       },
       "quantity": 1

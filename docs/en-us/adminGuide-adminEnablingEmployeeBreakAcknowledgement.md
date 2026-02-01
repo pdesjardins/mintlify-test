@@ -45,7 +45,7 @@ Once a break has been acknowledged, the Toast platform logs the employee's respo
 2. Switch to the restaurant you want to configure.
 
 
-3. Choose Employees > Payroll management > Break types to open the Break types page. You see the Breaks page with a list of the custom breaks you have created.
+3. Choose Employees \> Payroll management \> Break types to open the Break types page. You see the Breaks page with a list of the custom breaks you have created.
 
 
 4. Click the name of a break to see its details page.
@@ -69,6 +69,6 @@ Once a break has been acknowledged, the Toast platform logs the employee's respo
 
 > **Note**
 > 
-> Employees who have the Manager > End Breaks Early permission are presented with the break acknowledgement dialog box even when they end a break early. Employees who do not have the End Breaks Early permission are presented first with the Manager Required: Ending Break Earlydialog box and then with the Break Acknowledgementdialog box. For more information on the End Breaks Early permission, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
+> Employees who have the Manager \> End Breaks Early permission are presented with the break acknowledgement dialog box even when they end a break early. Employees who do not have the End Breaks Early permission are presented first with the Manager Required: Ending Break Earlydialog box and then with the Break Acknowledgementdialog box. For more information on the End Breaks Early permission, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
 
 

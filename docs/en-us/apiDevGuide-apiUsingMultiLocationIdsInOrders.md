@@ -39,7 +39,7 @@ You can submit `guid` values for some menu entities and `multiLocationId` values
 The following example shows a request to the `/orders`endpoint that uses `multiLocationId` values.
 
 ```
-{ [(1)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e1951635951163-co)
+{ 
     "diningOption": {
         "guid": "03e8796d-6eeb-460c-83fe-376766003059",
     },
@@ -47,19 +47,19 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
         {
             "selections": [
                 {
-                    "itemGroup": { [(2)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e1971635951163-co)
+                    "itemGroup": { 
                         "multiLocationId": "500000008202847047",
                     },
-                    "item": { [(3)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e1991635951163-co)
+                    "item": { 
                         "multiLocationId": "500000008202871058"
                     },
                     "quantity": 1,
                     "modifiers": [
                         {
-                            "optionGroup": { [(4)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2011635951163-co)
+                            "optionGroup": { 
                                 "multiLocationId": "500000000111604139"
                             },
-                            "item": { [(5)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2031635951163-co)
+                            "item": { 
                                 "multiLocationId": "500000000106492270"
                             },
                             "quantity": 1
@@ -76,7 +76,7 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
                     ]
                 }
             ],
-            "customer": { [(6)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2061635951163-co)
+            "customer": { 
                 "entityType": "Customer",
                 "firstName": "Jack",
                 "lastName": "Jones",
@@ -141,7 +141,7 @@ The following example response shows how both identifiers are provided for each 
                 "guid": "8a2f952d-4dca-4eb0-b867-445f3a674bad",
                 "entityType": "MenuOptionGroup",
                 "externalId": null,
-                "multiLocationId": "100000000171239701" [(1)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2731635951163-co)
+                "multiLocationId": "100000000171239701" 
               },
               "displayName": "Balsamic Vinaigrette",
 
@@ -151,7 +151,7 @@ The following example response shows how both identifiers are provided for each 
                 "guid": "e5ccef2d-dc70-4c2d-bddd-d8448dee2e61",
                 "entityType": "MenuItem",
                 "externalId": null,
-                "multiLocationId": "100000000171239909" [(2)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2791635951163-co)
+                "multiLocationId": "100000000171239909" 
               },
               
               [contents omitted]
@@ -165,13 +165,13 @@ The following example response shows how both identifiers are provided for each 
             "guid": "c922e206-8512-4d99-a79d-32532eae239f",
             "entityType": "MenuGroup",
             "externalId": null,
-            "multiLocationId": "100000000171239911" [(3)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2871635951163-co)
+            "multiLocationId": "100000000171239911" 
           },
           "item": {
             "guid": "50508a61-b561-4a5b-8bbb-7838c045dfab",
             "entityType": "MenuItem",
             "externalId": null,
-            "multiLocationId": "100000000437569098" [(4)](apiDevGuide-apiUsingMultiLocationIdsInOrders.html#d1e2891635951163-co)
+            "multiLocationId": "100000000437569098" 
           },
           
           [contents omitted]

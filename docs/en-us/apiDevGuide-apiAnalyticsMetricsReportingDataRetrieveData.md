@@ -26,9 +26,9 @@ Optionally, you can choose to include a `fetchRestaurantNames` query parameter. 
 The following example **curl** command sends a `GET` request to `/era/v1/metrics/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/[(1)](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData.html#d1e16496FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \[(2)](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData.html#d1e16516FAD0EEB-57EF-441A-9E58-614F985F6270-co)
-  -H 'Authorization: Bearer `[token]`'[(3)](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData.html#d1e16556FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
+fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
+  -H 'Authorization: Bearer `[token]`'
 
 ```
 

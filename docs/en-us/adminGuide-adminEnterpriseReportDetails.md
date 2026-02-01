@@ -21,7 +21,7 @@ This section provides some enterprise-specific information about several of Toas
 
 #### Product mix comparison report
 
-Enterprise environments have an additional menu report called the Reports > Menus > Product mix compare report, shown below.
+Enterprise environments have an additional menu report called the Reports \> Menus \> Product mix compare report, shown below.
 
 ![Image](https://doc.toasttab.com/doc/media/mmm_reports_product_mix_comparison.png)
 
@@ -29,13 +29,13 @@ This report allows you to compare how your menu items are selling at various loc
 
 #### Cash drawer history and daily credit card activity reports
 
-You are limited to viewing one location at a time on the Reports > Cash and loss management > Drawer history report and on the Reports > Payments > Daily credit card activity report. However, you are not limited to viewing these reports for the session restaurant only. You can choose to view these reports for any location you have permissions to from the restaurant hierarchy drop-down menu.
+You are limited to viewing one location at a time on the Reports \> Cash and loss management \> Drawer history report and on the Reports \> Payments \> Daily credit card activity report. However, you are not limited to viewing these reports for the session restaurant only. You can choose to view these reports for any location you have permissions to from the restaurant hierarchy drop-down menu.
 
 #### Employee productivity report
 
-The Reports > Employee performance > Employee productivity report has one row for each employee/location combination. So, if an employee works at multiple locations, the tab will include multiple rows for that employee, one for each location.
+The Reports \> Employee performance \> Employee productivity report has one row for each employee/location combination. So, if an employee works at multiple locations, the tab will include multiple rows for that employee, one for each location.
 
 #### Pooled tips report
 
-The Reports > Employee performance > Pooled tips report is limited to the session restaurant only. This report ignores any selections you have made in the restaurant hierarchy drop-down menu.
+The Reports \> Employee performance \> Pooled tips report is limited to the session restaurant only. This report ignores any selections you have made in the restaurant hierarchy drop-down menu.
 

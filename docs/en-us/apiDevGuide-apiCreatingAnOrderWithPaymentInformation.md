@@ -32,7 +32,7 @@ The following example shows an `Order` object that contains one check with a sin
 {
   "entityType": "Order",
   "diningOption": {
-    "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",[(1)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3609EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+    "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
   },
   "checks": [
@@ -42,27 +42,27 @@ The following example shows an `Order` object that contains one check with a sin
         {
           "entityType": "MenuItemSelection",
           "itemGroup": {
-            "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",[(2)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3629EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+            "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
           "item": {
             "entityType": "MenuItem",
-            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"[(3)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3649EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
           },
-          "quantity": 1,[(4)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3669EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+          "quantity": 1,
           "modifiers": []
         }
       ],
-      "payments": [[(5)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#co-apiCreateOrderExampleOptionalPayment)
+      "payments": [
         {
-          "paidDate": "2017-05-09T16:24:09.000+0000",[(6)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3689EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
-          "type": "OTHER",[(7)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3719EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
-          "amount": "9.55",[(8)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3739EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+          "paidDate": "2017-05-09T16:24:09.000+0000",
+          "type": "OTHER",
+          "amount": "9.55",
           "otherPayment": {
-            "guid": "0dc19214-d29e-4ab9-a773-27e5812999c7"[(9)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3759EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+            "guid": "0dc19214-d29e-4ab9-a773-27e5812999c7"
           },
-          "tipAmount": "0.00",[(10)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3779EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
-          "amountTendered": "9.55"[(11)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3799EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+          "tipAmount": "0.00",
+          "amountTendered": "9.55"
         }
       ]
     }
@@ -103,7 +103,7 @@ The following example shows the response returned by the `/orders` endpoint of t
 
 ```
 {
-  "guid": "71e46534-c837-4492-b4c1-0a841aea4ad5",[(1)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3979EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+  "guid": "71e46534-c837-4492-b4c1-0a841aea4ad5",
   "entityType": "Order",
   "externalId": null,
   "revenueCenter": null,
@@ -118,9 +118,9 @@ The following example shows the response returned by the `/orders` endpoint of t
   },
   "source": "API",
   "voidDate": null,
-  "openedDate": "2017-05-09T16:24:10.158+0000",[(2)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e3999EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+  "openedDate": "2017-05-09T16:24:10.158+0000",
   "duration": null,
-  "businessDate": 20170509,[(3)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#co-apiExampleOrderCreateResponseBusinessDate)
+  "businessDate": 20170509,
   "voidBusinessDate": null,
   "checks": [
     {
@@ -131,7 +131,7 @@ The following example shows the response returned by the `/orders` endpoint of t
       "amount": 8.99,
       "tabName": null,
       "taxExempt": false,
-      "payments": [[(4)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4019EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+      "payments": [
         {
           "guid": "b6e08e3f-56cb-4873-bcc7-f0ea30842fee",
           "entityType": "OrderPayment",
@@ -161,7 +161,7 @@ The following example shows the response returned by the `/orders` endpoint of t
       ],
       "appliedDiscounts": [],
       "voidDate": null,
-      "openedDate": "2017-05-09T16:24:10.165+0000",[(5)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4039EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+      "openedDate": "2017-05-09T16:24:10.165+0000",
       "totalAmount": 9.55,
       "selections": [
         {
@@ -214,10 +214,10 @@ The following example shows the response returned by the `/orders` endpoint of t
       ],
       "voidBusinessDate": null,
       "deleted": false,
-      "paidDate": "2017-05-09T16:24:10.197+0000",[(6)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4059EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
-      "closedDate": "2017-05-09T16:24:10.197+0000",[(7)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4089EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+      "paidDate": "2017-05-09T16:24:10.197+0000",
+      "closedDate": "2017-05-09T16:24:10.197+0000",
       "deletedDate": null,
-      "modifiedDate": "2017-05-09T16:24:10.203+0000",[(8)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4109EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+      "modifiedDate": "2017-05-09T16:24:10.203+0000",
       "appliedLoyaltyInfo": null,
       "voided": false,
       "taxAmount": 0.56,
@@ -227,11 +227,11 @@ The following example shows the response returned by the `/orders` endpoint of t
     }
   ],
   "deleted": false,
-  "paidDate": "2017-05-09T16:24:10.204+0000",[(9)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4129EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
-  "closedDate": "2017-05-09T16:24:10.204+0000",[(10)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4149EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+  "paidDate": "2017-05-09T16:24:10.204+0000",
+  "closedDate": "2017-05-09T16:24:10.204+0000",
   "deletedDate": null,
   "restaurantService": null,
-  "modifiedDate": "2017-05-09T16:24:10.206+0000",[(11)](apiDevGuide-apiCreatingAnOrderWithPaymentInformation.html#d1e4169EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8-co)
+  "modifiedDate": "2017-05-09T16:24:10.206+0000",
   "promisedDate": null,
   "voided": false,
   "estimatedFulfillmentDate": null,

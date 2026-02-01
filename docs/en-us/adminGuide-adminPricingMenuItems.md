@@ -52,7 +52,7 @@ The Items section on a menu group details page displays the menu items contained
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 3. Expand the menus and menu groups on the Advanced properties page to locate the menu group you want to edit.
@@ -90,7 +90,7 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 > **Note**
 > 
-> If the menu item belongs to any other menu groups and those menu groups do not have group-level pricing configured, the Toast platform displays a message that says "<menu-group-name> does not provide pricing information" to inform you of the issue.
+> If the menu item belongs to any other menu groups and those menu groups do not have group-level pricing configured, the Toast platform displays a message that says "\<menu-group-name\> does not provide pricing information" to inform you of the issue.
 
 
 
@@ -116,7 +116,7 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 > **Note**
 > 
-> If the menu item belongs to any menu groups that use group-level pricing, the Toast platform displays the message "This overrides group-level pricing provided by <menu-group-name>" to inform you of the override.
+> If the menu item belongs to any menu groups that use group-level pricing, the Toast platform displays the message "This overrides group-level pricing provided by \<menu-group-name\>" to inform you of the override.
 
 
 
@@ -141,7 +141,7 @@ If all of the menu items in a menu group have a different price, as a best pract
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 3. Expand the menus and menu groups on the Advanced properties page to locate the menu group that contains the menu items you want to edit.

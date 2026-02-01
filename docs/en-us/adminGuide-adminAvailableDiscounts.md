@@ -19,7 +19,7 @@ codeExamples: 0
 
 You view and manage your discounts from the Discounts page.
 
-To display the Discounts page, from Toast Web, choose Payments > Comps and promos > Discounts and promo codes. The Discounts page lists the discounts that are configured for your restaurant.
+To display the Discounts page, from Toast Web, choose Payments \> Comps and promos \> Discounts and promo codes. The Discounts page lists the discounts that are configured for your restaurant.
 
 ![Discounts list.](https://doc.toasttab.com/doc/media/discount-main-page.png)
 

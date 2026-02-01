@@ -335,10 +335,10 @@ If a future or scheduled order is placed on a Toast POS device, the order appear
 
 Before configuring KDS devices to display preview tickets consider that preview tickets show all items as they are added to an order. If you configure your restaurant to not send items or courses to the kitchen, once fired, items that did appear on preview tickets disappear from the KDS tickets. For example:
 
-- If the Kitchen > Pacing > Meal pacing> Sending Courses setting is set to Send courses individually, after an order is sent, only the courses chosen by an employee at the front of house to send to the kitchen appear, with items belonging to courses not sent disappearing from the KDS device. This can lead to confusion for kitchen employees.
+- If the Kitchen \> Pacing \> Meal pacing\> Sending Courses setting is set to Send courses individually, after an order is sent, only the courses chosen by an employee at the front of house to send to the kitchen appear, with items belonging to courses not sent disappearing from the KDS device. This can lead to confusion for kitchen employees.
 
 
-- If Front of house > Order screen setup > Individually Hold and Send Items is enabled, once the initial items are sent to the kitchen, the kitchen tickets only show the fired items. This can lead to confusion for kitchen employees.
+- If Front of house \> Order screen setup \> Individually Hold and Send Items is enabled, once the initial items are sent to the kitchen, the kitchen tickets only show the fired items. This can lead to confusion for kitchen employees.
 
 
 
@@ -349,7 +349,7 @@ If you exit or close the Toast POS app while an order is in progress, the previe
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup to open the Kitchen page.
+2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup to open the Kitchen page.
 
 
 3. In the Ticket Screens section, use the Preview Tickets setting to turn the preview tickets feature on or off.

@@ -50,7 +50,7 @@ The restaurant online ordering schedule webhook messages follow the [standard me
 
 #### Configuring online ordering schedules 
 
-You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery > Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminOnlineOrderingScheduleOverview.html).
+You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery \> Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminOnlineOrderingScheduleOverview.html).
 
 #### ordering_schedule_updated
 

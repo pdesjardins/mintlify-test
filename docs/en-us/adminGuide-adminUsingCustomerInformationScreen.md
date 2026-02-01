@@ -43,7 +43,7 @@ Certain Toast Web configurations and settings affect how the customer informatio
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.
+2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
 
 
 3. In the Takeout section, under the Takeout customer information setting, select Prompt for takeout customer information (phone and name).
@@ -58,7 +58,7 @@ Certain Toast Web configurations and settings affect how the customer informatio
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.
+2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
 
 
 3. In the Delivery section, under the Billing customer setting, select Billing customer information always matches delivery information.

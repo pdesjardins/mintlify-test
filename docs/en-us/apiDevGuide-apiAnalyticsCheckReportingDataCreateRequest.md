@@ -55,10 +55,10 @@ To create a request for check data, include the following:
 The following example **curl** command sends a `POST` request to the `/era/v1/check/day` endpoint.
 
 ```
-curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \[(1)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  -H 'Authorization: Bearer `[token]`' \[(2)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  -d @`[request-info]`.json \[(4)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
+  -H 'Authorization: Bearer `[token]`' \
+  -H 'Content-Type: application/json' \
+  -d @`[request-info]`.json \
 ```
 
 
@@ -77,12 +77,12 @@ The following example shows the message body for creating a check reporting data
 
 ```
 {
-  "startBusinessDate": "20230201",[(1)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  "endBusinessDate": "20230201",[(2)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  "restaurantIds": [[(3)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+  "startBusinessDate": "20230201",
+  "endBusinessDate": "20230201",
+  "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021"
   ],
-  "excludedRestaurantIds": [][(4)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+  "excludedRestaurantIds": []
 }
 
 ```
@@ -102,7 +102,7 @@ The following example shows the message body for creating a check reporting data
 The following example shows the response from the `/era/v1/check/day` endpoint.
 
 ```
-"83c93717-02ba-4b7c-9891-dfe090274d2d"[(1)](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.html#d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+"83c93717-02ba-4b7c-9891-dfe090274d2d"
 ```
 
 

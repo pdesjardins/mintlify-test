@@ -60,14 +60,14 @@ If you don't provide a prep station ID when you create a menu item or modifier, 
 
 #### Identifiers for location groups and individual locations
 
-To see identifiers for locations and location groups (formerly called *restaurant groups*), Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, the Toast account > Business and location management > Location groups (Restaurant groups) page becomes available in Toast Web. You can retrieve a location or a location group's identifier from this page, using the instructions below.
+To see identifiers for locations and location groups (formerly called *restaurant groups*), Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, the Toast account \> Business and location management \> Location groups (Restaurant groups) page becomes available in Toast Web. You can retrieve a location or a location group's identifier from this page, using the instructions below.
 
 **Procedure 8.141. To retrieve a location group's identifier**
 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Toast account > Business and location management > Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
+2. Choose Toast account \> Business and location management \> Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
 
 
 3. On the Groups tab, search for or navigate to the location group that you need an identifier for. Its name should be listed at the top of the location group card.
@@ -89,7 +89,7 @@ To see identifiers for locations and location groups (formerly called *restauran
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Toast account > Business and location management > Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
+2. Choose Toast account \> Business and location management \> Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
 
 
 3. Select the Locations tab.

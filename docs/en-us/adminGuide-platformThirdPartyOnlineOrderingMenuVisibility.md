@@ -56,7 +56,7 @@ You can adjust menu visibility for an online ordering channel from the Third par
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Third party ordering. This displays all your third-party online ordering channels and their online ordering settings.
+2. Choose Takeout & delivery \> Third party ordering. This displays all your third-party online ordering channels and their online ordering settings.
 
 
 3. On the Third party ordering page, select the third-party online ordering channel you want to add a menu for. This allows guests to place orders from that third-party online ordering channel's menu.

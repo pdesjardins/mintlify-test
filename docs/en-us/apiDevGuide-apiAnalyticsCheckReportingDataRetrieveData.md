@@ -28,10 +28,10 @@ Optionally, you can choose to include a `fetchRestaurantNames` query parameter. 
 The following example **curl** command sends a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/[(1)](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.html#d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-83c93717-02ba-4b7c-9891-dfe090274d2d/[(2)](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.html#d1e2949DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-&fetchRestaurantNames=true’ \[(3)](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.html#d1e2951DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
-  -H 'Authorization: Bearer `[token]`'[(4)](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.html#d1e2953DE10C5BE-C9CE-4C55-87A6-C813632B28B5-co)
+curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
+83c93717-02ba-4b7c-9891-dfe090274d2d/
+&fetchRestaurantNames=true’ \
+  -H 'Authorization: Bearer `[token]`'
 ```
 
 
@@ -70,7 +70,7 @@ The following example shows the response from the `/era/v1/check/{reportRequestG
     "checkTipAmount": 5.59,
     "checkGratuityAmount": 0.0,
     "checkRefundAmount": 0.0,
-    "restaurantName": "Grove Place Cafe"[(1)](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.html#d1e3178EFD2B73E-74F6-4B53-908A-CFB01123F156-co)
+    "restaurantName": "Grove Place Cafe"
   },
   [content omitted]
   {

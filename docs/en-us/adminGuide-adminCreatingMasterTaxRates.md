@@ -40,7 +40,7 @@ This configuration ensures that any changes you make to the tax rates in one loc
 1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Tax rates setup to open the Tax ratespage.
+2. Choose Menus \> Menu management \> Tax rates setup to open the Tax ratespage.
 
 
 3. Use the You are viewing menu to show the tax rates for the corporate restaurant group (the corporate restaurant group is your top-level restaurant group and it should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.
@@ -63,7 +63,7 @@ This configuration ensures that any changes you make to the tax rates in one loc
 
 **Procedure 5.17. To create master tax rates**
 
-1. Choose Menus > Menu management > Tax rates setup to open the Tax ratespage. Assuming you followed the procedure to [archive any auto-created tax rates](adminCreatingMasterTaxRates.html#toArchiveTaxRates), the tax rates table will be empty.
+1. Choose Menus \> Menu management \> Tax rates setup to open the Tax ratespage. Assuming you followed the procedure to [archive any auto-created tax rates](adminCreatingMasterTaxRates.html#toArchiveTaxRates), the tax rates table will be empty.
 
 
 2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.
@@ -98,7 +98,7 @@ This configuration ensures that any changes you make to the tax rates in one loc
 
 **Procedure 5.18. To create location-specific tax rates**
 
-1. Choose Menus > Menu management > Tax rates setup to open the Tax ratespage. Assuming you followed the [To archive tax rates](adminCreatingMasterTaxRates.html#toArchiveTaxRates) and [To create master tax rates](adminCreatingMasterTaxRates.html#toCreateMasterTaxRates) procedures, you only see master tax rates in the table, targeted at the corporate restaurant group.
+1. Choose Menus \> Menu management \> Tax rates setup to open the Tax ratespage. Assuming you followed the [To archive tax rates](adminCreatingMasterTaxRates.html#toArchiveTaxRates) and [To create master tax rates](adminCreatingMasterTaxRates.html#toCreateMasterTaxRates) procedures, you only see master tax rates in the table, targeted at the corporate restaurant group.
 
 
 2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.

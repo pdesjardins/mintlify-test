@@ -26,9 +26,9 @@ To request the labor reporting data, you must include the labor reporting data r
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/[(1)](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData.html#d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-707d9f10-e0fe-4e6d-af49-3123a78cd2b3’ \[(2)](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData.html#d1e4576134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData.html#d1e4578134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
+707d9f10-e0fe-4e6d-af49-3123a78cd2b3’ \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

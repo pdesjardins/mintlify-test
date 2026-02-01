@@ -50,7 +50,7 @@ At the 4 AM closeout hour, cash drawers are automatically closed. If a Toast loc
 > This feature is only available for Toast Flex devices. This feature is not available for Toast handhelds.
 
 
-To access your cash drawers on the Toast POS device, select the Toast logo until the Toast POS home screen appears. Choose Cash Management > Cash Drawers to open the Cash Drawersscreen.
+To access your cash drawers on the Toast POS device, select the Toast logo until the Toast POS home screen appears. Choose Cash Management \> Cash Drawers to open the Cash Drawersscreen.
 
 ##### Viewing cash drawer activity
 
@@ -147,7 +147,7 @@ The Open tab displays the following information:
 - A lock icon next to the name of the open cash drawer if the drawer is locked to the employee. For more information, see [Cash drawer lockdown](adminCashDrawerLockdown.html).
 
 
-- If the employee has the Manager > 3.18 Cash Drawers (Full) permission, the expected balance for all drawers is displayed in the Expected total balance section in the cash drawer activity panel. If the employee has the Manager > 3.17 Cash Drawers (Blind) permission, the expected balance for each drawer is not displayed.
+- If the employee has the Manager \> 3.18 Cash Drawers (Full) permission, the expected balance for all drawers is displayed in the Expected total balance section in the cash drawer activity panel. If the employee has the Manager \> 3.17 Cash Drawers (Blind) permission, the expected balance for each drawer is not displayed.
 
 
 

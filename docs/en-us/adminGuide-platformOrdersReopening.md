@@ -30,7 +30,7 @@ When you select re-open check, the Toast platform:
 
 
 
-To view the order on Toast POS devices, select Payment Terminal > Paid Checks.
+To view the order on Toast POS devices, select Payment Terminal \> Paid Checks.
 
 If a restaurant employee then performs an action on the order, the system changes the state of the check, the order, or both. For example, an employee adds items to the reopened check. The state of both the order and the check changes to open.
 

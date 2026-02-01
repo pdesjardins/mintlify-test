@@ -101,7 +101,7 @@ In addition to the methods described earlier in this section, the Add drop-down 
 - Copy Existing Modifiers: This option allows you to create a copy an existing modifier. The new modifier is separate and distinct from the original modifier. Changing the price of the new modifier has no effect on the original modifier.
 
 
-- New Modifier from New Item: This option works the same as the [Add > New Modifier from Existing Item](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems) option from a pricing perspective, however, it allows you to immediately create a new menu item on which to base your modifier.
+- New Modifier from New Item: This option works the same as the [Add \> New Modifier from Existing Item](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems) option from a pricing perspective, however, it allows you to immediately create a new menu item on which to base your modifier.
 
 
 - Bulk Add New Modifiers: This option allows you to bulk add modifiers by importing them from a spreadsheet. When you add modifiers in this way, you are limited to creating modifiers with [base prices](adminBasePrice.html). Once the modifiers are imported into the Toast platform, you can go to the details pages for their item references and specify a different pricing strategy for them. If, during a bulk add, you upload an empty price for a modifier, the Toast platform converts that price to $0.00.

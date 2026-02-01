@@ -31,7 +31,7 @@ The Delivery mode on the Toast POS app, has a built-in function that allows you 
 
 > **Note**
 > 
-> To use the Delivery Mode screen, you must have the 2. Delivery Access permission. From Toast Web, choose Employees > Employee management > Jobs to open the Jobs page. Select the job title to edit the permissions.For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
+> To use the Delivery Mode screen, you must have the 2. Delivery Access permission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobs page. Select the job title to edit the permissions.For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
 
 
 An Order Ready order must be assigned to a driver before it can be marked as complete. To assign and dispatch a driver from the Orders Hub screen:

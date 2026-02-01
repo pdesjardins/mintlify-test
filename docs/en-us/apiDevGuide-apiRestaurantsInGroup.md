@@ -46,8 +46,8 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \[(1)](apiDevGuide-apiRestaurantsInGroup.html#d1e84161282B4-F46D-4270-AE0F-A6973EF18C80-co)
-https://`[toast-api-hostname]`/restaurants/v1/groups/ae6c32fe-f4d2-4dcc-aa82-f30edac96296/restaurants[(2)](apiDevGuide-apiRestaurantsInGroup.html#d1e89161282B4-F46D-4270-AE0F-A6973EF18C80-co)
+-H "Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \
+https://`[toast-api-hostname]`/restaurants/v1/groups/ae6c32fe-f4d2-4dcc-aa82-f30edac96296/restaurants
 ```
 
 
@@ -64,7 +64,7 @@ The following example shows the JSON response data for a GET request to the `/re
 ```
 [
   {
-    "guid": "34ac7aaf-7178-4c6f-af63-c42ebc7e91f7"[(1)](apiDevGuide-apiRestaurantsInGroup.html#d1e106161282B4-F46D-4270-AE0F-A6973EF18C80-co)
+    "guid": "34ac7aaf-7178-4c6f-af63-c42ebc7e91f7"
   },
   {
     "guid": "76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf"

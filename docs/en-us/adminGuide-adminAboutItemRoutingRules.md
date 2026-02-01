@@ -24,7 +24,7 @@ An item routing rule defines a condition for an order that, if met, requires a c
 
 > **Note**
 > 
-> To create item routing rules, you must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setup permission.
+> To create item routing rules, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setup permission.
 
 
 After specifying the condition for your rule, you then define how you want the workflow to change.
@@ -145,7 +145,7 @@ Once you determine which prep stations you want to reroute and where you want th
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Item routing. 
+2. Choose Kitchen \> Kitchen stations \> Item routing. 
 
 
 3. Select the + Add button. A row is added to the interactive table.

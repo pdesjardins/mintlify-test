@@ -88,7 +88,7 @@ To use start queue, you need to enable the Start Queue setting. The Start Queue 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup.
+2. Go to Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup.
 
 
 3. Go to the Ticket Screens section, and then to the Start Queue setting.

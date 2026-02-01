@@ -34,20 +34,20 @@ Note these two scenarios:
 
 The cash drawer name appears in Toast Web in areas of the Cash Activity Audit and the Cash Drawer History reports. In addition, all areas on the Toast POS device that reference cash drawers will display the cash drawer name, not the associated printer name.
 
-You can assign a cash drawer name when you [create or update a cash drawer](adminCashDrawerSetup.html#adminCashDrawerCreate) with the Payments > Checks & receipt setup > Printers and cash drawers page in Toast Web.
+You can assign a cash drawer name when you [create or update a cash drawer](adminCashDrawerSetup.html#adminCashDrawerCreate) with the Payments \> Checks & receipt setup \> Printers and cash drawers page in Toast Web.
 
 #### Creating cash drawers
 
 This procedure assumes that you have a physical cash drawer connected to a printer and the printer has been connected to your Toast network.
 
-You need the Web Setup > 6.10 Printer and Cash Drawer Setup permission to configure a printer and its cash drawer.
+You need the Web Setup \> 6.10 Printer and Cash Drawer Setup permission to configure a printer and its cash drawer.
 
 **Procedure 6.28. To configure a new cash drawer**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > Cash drawers > View cash drawers to open the Cash drawers page.
+2. Choose Payments \> Payment methods \> Cash overview \> Cash drawers \> View cash drawers to open the Cash drawers page.
 
 
 3. Select the View all printers link. This opens the Printers and cash drawerspage.
@@ -122,7 +122,7 @@ An employee handling cash payments (either cash in drawer or cash in hand) must 
 2. In the Setup section, select Device Setup. This opens the Device Setup screen.
 
 
-3. Select the Allow Cash Payments setting, then select Accept cash payments to allow an employee to accept cash payments on the device. Employees must also have the POS Access > 1.6 Apply Cash Payments permission to accept cash payments.
+3. Select the Allow Cash Payments setting, then select Accept cash payments to allow an employee to accept cash payments on the device. Employees must also have the POS Access \> 1.6 Apply Cash Payments permission to accept cash payments.
 
 Select No cash payments if you want to prevent employees from accepting cash payments on the device, regardless of whether or not they have the Apply Cash Payment permission. For example, you can set this to No cash payments on a kitchen display system (KDS) device.
 

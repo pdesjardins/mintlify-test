@@ -21,7 +21,7 @@ Location-specific prices do not need to be limited to a simple currency amount (
 
 **Procedure 5.10. To use another pricing strategy for a location-specific price**
 
-1. Choose Menus > Bulk management > Price editor to open the Price editorpage.
+1. Choose Menus \> Bulk management \> Price editor to open the Price editorpage.
 
 
 2. Use the You are viewing menu to filter the page so that you see the menu that contains the menu item you want to edit. See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.

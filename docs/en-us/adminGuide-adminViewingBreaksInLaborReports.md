@@ -18,15 +18,15 @@ codeExamples: 0
 
 ### Viewing employee breaks in labor reports
 
-The Reports > Employee performance > Time entries report, described in this [Toast Central article](https://central.toasttab.com/s/article/Labor-Reports-Overview), displays time entries for your employees for the dates and hours you have chosen to view.
+The Reports \> Employee performance \> Time entries report, described in this [Toast Central article](https://central.toasttab.com/s/article/Labor-Reports-Overview), displays time entries for your employees for the dates and hours you have chosen to view.
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-time-entries-tab.png)
 
-If you have the Manager > Edit Time Entriespermission, clicking a time entry in this report displays the Update Time Entry dialog box for that entry. Here you can see a list of breaks the employee took or missed during the time entry. Breaks that were taken are shown in black text and you can click them to view and edit break entry details. Breaks that were missed are shown in gray text and are not editable.
+If you have the Manager \> Edit Time Entriespermission, clicking a time entry in this report displays the Update Time Entry dialog box for that entry. Here you can see a list of breaks the employee took or missed during the time entry. Breaks that were taken are shown in black text and you can click them to view and edit break entry details. Breaks that were missed are shown in gray text and are not editable.
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-update-time-entry-retake.PNG)
 
-The Reports > Employee performance > Break entries report shows detailed information about employee breaks during the dates and hours you have chosen to view.
+The Reports \> Employee performance \> Break entries report shows detailed information about employee breaks during the dates and hours you have chosen to view.
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-break-entries-tab.PNG)
 

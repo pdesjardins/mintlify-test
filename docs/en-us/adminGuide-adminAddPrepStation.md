@@ -49,14 +49,14 @@ When you add a prep station, you also assign a printer to it.
 
 
 
-To add a prep station, you must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setup access permission.
+To add a prep station, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setup access permission.
 
 **Procedure 10.1. To add a prep station**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Prep stations.
+2. Choose Kitchen \> Kitchen stations \> Prep stations.
 
 
 3. Select the + Add button. The Toast platform adds a row to the interactive grid.

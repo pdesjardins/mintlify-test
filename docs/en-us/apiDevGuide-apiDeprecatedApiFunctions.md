@@ -55,11 +55,11 @@ txKL1L-K2j1Enoq8An8hEM6e8J0KdAiwrYFO3W3CmWedaoz95K9ghNZVCs28
 Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
-dWq4Yzwo007AMgxjH9d241Y-g" \[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(2)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
-"https://`[toast-api-hostname]`/orders/v2/orders?[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+dWq4Yzwo007AMgxjH9d241Y-g" \
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+"https://`[toast-api-hostname]`/orders/v2/orders?
 startDate=2019-02-27T09%3A00%3A00.000-0500&
-endDate=2019-02-27T09%3A59%3A00.000-0500"[(4)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+endDate=2019-02-27T09%3A59%3A00.000-0500"
 ```
 
 
@@ -103,7 +103,7 @@ The following example shows the response data from the `/orders` endpoint using 
 
 ```
 [
-  "017fdd94-4a30-4657-9475-b1a684758531",[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e11509EC9F64-B75D-413A-803D-C8F76FF3D18A-co)
+  "017fdd94-4a30-4657-9475-b1a684758531",
   "a64ce8be-c3d0-44cb-a807-86b997847469",
   "bd1e031e-cb86-4ea5-baea-7a6d887d41d8",
 
@@ -410,10 +410,10 @@ The following example shows the JSON message body content for a `POST` request t
 
 ```
 {
-  "guid": "743B0D5C-66E4-4A46-B3E2-6694031B180C",[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745-co)
-  "firstName": "Josephine",[(2)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745-co)
-  "lastName": "Banton",[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e1688E813524-E4E5-4A3C-A9B0-E4D395D37745-co)
-  "email": "jbanton@example.org"[(4)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e1708E813524-E4E5-4A3C-A9B0-E4D395D37745-co)
+  "guid": "743B0D5C-66E4-4A46-B3E2-6694031B180C",
+  "firstName": "Josephine",
+  "lastName": "Banton",
+  "email": "jbanton@example.org"
 }
 ```
 
@@ -456,10 +456,10 @@ The following example shows the JSON message body content for a `POST` request t
 
 ```
 {
-  "guid": "65F15E87-F985-4AE4-B970-04CF5F758C17",[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e305E3AAA573-E85E-49CD-80EE-85E18B5086BE-co)
-  "transactionType": "ADD_VALUE",[(2)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e307E3AAA573-E85E-49CD-80EE-85E18B5086BE-co)
-  "amount": 10.00,[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e309E3AAA573-E85E-49CD-80EE-85E18B5086BE-co)
-  "localCreatedDate": "2018-06-16T15:01:14.000+0000"[(4)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e311E3AAA573-E85E-49CD-80EE-85E18B5086BE-co)
+  "guid": "65F15E87-F985-4AE4-B970-04CF5F758C17",
+  "transactionType": "ADD_VALUE",
+  "amount": 10.00,
+  "localCreatedDate": "2018-06-16T15:01:14.000+0000"
 }
 ```
 
@@ -529,11 +529,11 @@ The Toast platform stores data export files for seven days, and then they are de
 - SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminSshKeys.html).
 
 
-- Server URL: To locate the appropriate Server URL, navigate to Reports > Settings > SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
+- Server URL: To locate the appropriate Server URL, navigate to Reports \> Settings \> SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
 
 
 
-Export IDs can also be obtained from Toast Web. Navigate to Reports > Settings > Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
+Export IDs can also be obtained from Toast Web. Navigate to Reports \> Settings \> Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
 
 ![Image](https://doc.toasttab.com/doc/media/export_ids_data_export.png)
 
@@ -883,15 +883,15 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
         {
           "entityType": "MenuItem",
           "name": "Garden Salad",
-          "guid": "ca6c1271-6efb-470e-aa95-da4380d6bf62",[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e465A2FDFF6-1785-406C-970F-4C5331B7DDF8-co)
+          "guid": "ca6c1271-6efb-470e-aa95-da4380d6bf62",
 
           [contents omitted]
 
-          "optionGroups": [[(2)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e485A2FDFF6-1785-406C-970F-4C5331B7DDF8-co)
+          "optionGroups": [
             {
               "entityType": "MenuOptionGroup",
               "name": "Toppings",
-              "guid": "be8ff99e-8cfe-4641-88ef-6f4f32d00535",[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e505A2FDFF6-1785-406C-970F-4C5331B7DDF8-co)
+              "guid": "be8ff99e-8cfe-4641-88ef-6f4f32d00535",
 
               [contents omitted]
 
@@ -903,7 +903,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
                   [contents omitted]
 
-                  "isDefault": false,[(4)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e525A2FDFF6-1785-406C-970F-4C5331B7DDF8-co)
+                  "isDefault": false,
                 },
                 {
                   "entityType": "MenuItem",
@@ -912,7 +912,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
                   [contents omitted]
 
-                  "isDefault": true,[(5)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e545A2FDFF6-1785-406C-970F-4C5331B7DDF8-co)
+                  "isDefault": true,
                 },
           
     [contents omitted]
@@ -939,18 +939,18 @@ The following example shell script uses a **jq**command to select the default mo
 ```
 #!/bin/bash
 
-MENU_EXPORT_FILE="MenuExport_5c2dad3f-1b13-5be3-bc52-d132244153c5.json"[(1)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e31A5DAB7DB-524E-4BD7-B772-27EB69622FF0-co)
+MENU_EXPORT_FILE="MenuExport_5c2dad3f-1b13-5be3-bc52-d132244153c5.json"
 
-MENU_GUID="315267d2-80fd-4aef-95aa-62adf41bdb7a"[(2)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e33A5DAB7DB-524E-4BD7-B772-27EB69622FF0-co)
-MENU_GROUP_GUID="974c43f7-a357-4bef-92aa-00a1238e22e1"[(3)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e35A5DAB7DB-524E-4BD7-B772-27EB69622FF0-co)
-MENU_ITEM_GUID="dc426c22-e132-4adf-4adf-d82b1fe512b3"[(4)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e37A5DAB7DB-524E-4BD7-B772-27EB69622FF0-co)
+MENU_GUID="315267d2-80fd-4aef-95aa-62adf41bdb7a"
+MENU_GROUP_GUID="974c43f7-a357-4bef-92aa-00a1238e22e1"
+MENU_ITEM_GUID="dc426c22-e132-4adf-4adf-d82b1fe512b3"
 
-jq --arg MENU_GUID ${MENU_GUID} \[(5)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0-co)
+jq --arg MENU_GUID ${MENU_GUID} \
 --arg MENU_GROUP_GUID ${MENU_GROUP_GUID} \
 --arg MENU_ITEM_GUID ${MENU_ITEM_GUID} \
 '.[] | select(.guid==$MENU_GUID) | .groups[] | select(.guid==$MENU_GROUP_GUID)
 | .items[] | select(.guid==$MENU_ITEM_GUID) | .optionGroups[].items[] 
-| select(.isDefault==true)' \[(6)](apiDevGuide-apiDeprecatedApiFunctions.html#d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0-co)
+| select(.isDefault==true)' \
 ${MENU_EXPORT_FILE}
 ```
 

@@ -46,7 +46,7 @@ When you select Save, the current and additional versions are updated according 
 1. Log in to [Toast Web](adminToastPosAccessTypes.html).
 
 
-2. Go to Menus > Bulk management > Advanced Properties.
+2. Go to Menus \> Bulk management \> Advanced Properties.
 
 
 3. From the You are viewing menu, pick a location group that uses a menu that contains the item you want to edit and select Update.
@@ -72,7 +72,7 @@ When you select Save, the current and additional versions are updated according 
 9. Select Save. You return to the menu item's page with a notification that your item has been updated across multiple versions.
 
 
-10. Publish your changes using the Toast account > Publishing > Publish config page. For more information, see [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html).
+10. Publish your changes using the Toast account \> Publishing \> Publish config page. For more information, see [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html).
 
 
 

@@ -69,12 +69,12 @@ In addition, this [Toast Central article](https://central.toasttab.com/s/article
 
 #### Configure text messaging on expediter fulfillment
 
-To configure text messaging, you must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setup access permission. Then, follow these steps.
+To configure text messaging, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setup access permission. Then, follow these steps.
 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup to open the Kitchen page. Scroll down to theOrder Ready Text Messaging section.
+2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup to open the Kitchen page. Scroll down to theOrder Ready Text Messaging section.
 
 
 3. If your restaurant uses two-level fulfillment, you set the Fulfillment Text Level as follows.

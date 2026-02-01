@@ -54,7 +54,7 @@ You can view your cash drawer history and complete cash drawer actions on the Ca
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Reports > Sales > Sales Summary > Cash Summary and select the Cash drawer history link to open the Cash drawer history page. You can also choose Reports > Cash and loss management > Drawer history to open the Cash drawer history page.
+2. Choose Reports \> Sales \> Sales Summary \> Cash Summary and select the Cash drawer history link to open the Cash drawer history page. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash drawer history page.
 
 
 3. Navigate to the cash drawer you want to complete an action for. Scroll down to the Cash entries row and select the View link to view the Cash entries table.
@@ -254,7 +254,7 @@ In Toast Web, you can configure closed cash drawer confirmation thresholds. Thes
 - Closeout over/Short max: A dollar threshold that, if exceeded, requires a manager to approve the closing of the cash drawer.
 
 
-- Closeout over/Short warning: A confirmation warning that is triggered if the closing balance is over or under a configured amount. For example, if the over/short threshold is $5.00 and the actual closing balance is $5.00 over or under the threshold, then a warning is displayed to the employee about the variance. The employee must confirm the closing balance (this warning does not require managerial override). This warning is only shown if the employee has the Manager > 3.18 Cash Drawers (Full) access permission; otherwise, the warning is not shown as it contains cash balance information.
+- Closeout over/Short warning: A confirmation warning that is triggered if the closing balance is over or under a configured amount. For example, if the over/short threshold is $5.00 and the actual closing balance is $5.00 over or under the threshold, then a warning is displayed to the employee about the variance. The employee must confirm the closing balance (this warning does not require managerial override). This warning is only shown if the employee has the Manager \> 3.18 Cash Drawers (Full) access permission; otherwise, the warning is not shown as it contains cash balance information.
 
 
 
@@ -263,7 +263,7 @@ In Toast Web, you can configure closed cash drawer confirmation thresholds. Thes
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > Cash drawers > Cash drawer variance to open the Cash drawer variance page.
+2. Choose Payments \> Payment methods \> Cash overview \> Cash drawers \> Cash drawer variance to open the Cash drawer variance page.
 
 
 3. On the Cash drawer variance page, configure one or both of these settings:

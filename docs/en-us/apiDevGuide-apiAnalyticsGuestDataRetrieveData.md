@@ -26,9 +26,9 @@ To request the guest reporting data, you must include the guest reporting data r
 The following **curl** command sends a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/guest/payments/[(1)](apiDevGuide-apiAnalyticsGuestDataRetrieveData.html#d1e9348AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
-fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \[(2)](apiDevGuide-apiAnalyticsGuestDataRetrieveData.html#d1e9350AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsGuestDataRetrieveData.html#d1e9352AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/guest/payments/
+fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

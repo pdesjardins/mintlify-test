@@ -42,10 +42,10 @@ The following table describes the four Toast rounding options.
 
 | Rounding Option | Rounding Behavior | Rounding Examples | 
 | --- | --- | --- |
-| Half Even Rounding | Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24. | $0.112 -> $0.11$0.115 -> $0.12$0.125 -> $0.12$0.135 -> $0.14 | 
-| Half Up Rounding | Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35. | $0.112 -> $0.11$0.115 -> $0.12$0.125 -> $0.13$0.135 -> $0.14 | 
-| Always Round Down | Always round down every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round down to $1.23. | $0.112 -> $0.11$0.115 -> $0.11$0.125 -> $0.12$0.135 -> $0.13 | 
-| Always Round Up | Always round up every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round up to 1.24. | $0.112 -> $0.12$0.115 -> $0.12$0.125 -> $0.13$0.135 -> $0.14 | 
+| Half Even Rounding | Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24. | $0.112 -\> $0.11$0.115 -\> $0.12$0.125 -\> $0.12$0.135 -\> $0.14 | 
+| Half Up Rounding | Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35. | $0.112 -\> $0.11$0.115 -\> $0.12$0.125 -\> $0.13$0.135 -\> $0.14 | 
+| Always Round Down | Always round down every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round down to $1.23. | $0.112 -\> $0.11$0.115 -\> $0.11$0.125 -\> $0.12$0.135 -\> $0.13 | 
+| Always Round Up | Always round up every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round up to 1.24. | $0.112 -\> $0.12$0.115 -\> $0.12$0.125 -\> $0.13$0.135 -\> $0.14 | 
 
 #### Takeout tax rates
 
@@ -65,14 +65,14 @@ Keep the following in mind when you create a takeout tax rate:
 - The takeout tax rate applies to menu items using a dining option with the Take Out behavior. It does not apply to menu items using a dining option with a behavior of Dine In, Delivery, Curbside, or None.
 
 
-- Your restaurant must have at least one dining option with the Take Out behavior configured on the Kitchen > Dining options > Dining options page, as in this example:
+- Your restaurant must have at least one dining option with the Take Out behavior configured on the Kitchen \> Dining options \> Dining options page, as in this example:
 
 ![Dining Options page with a Take Out behavior example.](https://doc.toasttab.com/doc/media/tax-dining-options.png)
 
 If your restaurant does not have a dining option with the Take Out behavior, you cannot configure a takeout tax rate because the Take Out Taxsection of the [percent tax rate configuration page](adminPercentTaxRates.html#configurePercentTaxRate) will be unavailable.
 
 
-- Menus that can be used for takeout orders must have the Dining Option Tax setting configured as No Effect on the Menus > Bulk management > Advanced properties page, as in this example:
+- Menus that can be used for takeout orders must have the Dining Option Tax setting configured as No Effect on the Menus \> Bulk management \> Advanced properties page, as in this example:
 
 ![Dining Options Tax set to No Effect.](https://doc.toasttab.com/doc/media/tax-no-effect.png)
 
@@ -87,7 +87,7 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Settings > Manage tax rates to open the Tax rates page.
+2. Choose Menus \> Menu management \> Settings \> Manage tax rates to open the Tax rates page.
 
 
 3. Click + Add Tax Rate.

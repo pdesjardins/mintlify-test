@@ -23,7 +23,7 @@ The preferred technique for managing taxes is to manually assign the master vers
 
 **Procedure 5.19. To assign tax rates manually**
 
-1. Choose Menus > Menu management > Tax rates setup to open the Tax ratespage.
+1. Choose Menus \> Menu management \> Tax rates setup to open the Tax ratespage.
 
 
 2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.
@@ -32,7 +32,7 @@ The preferred technique for managing taxes is to manually assign the master vers
 3. Make sure your tax rates are not marked as default.
 
 
-4. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+4. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 5. Use the You are viewing menu to view the menus you want to assign taxes to.

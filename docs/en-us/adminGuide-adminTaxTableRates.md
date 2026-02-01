@@ -82,7 +82,7 @@ Before configuring a tax table rate, make sure that you have the state's tax tab
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Settings > Manage tax rates to open the Tax rates page.
+2. Choose Menus \> Menu management \> Settings \> Manage tax rates to open the Tax rates page.
 
 
 3. Click + Add Tax Rate.

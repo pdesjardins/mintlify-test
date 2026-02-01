@@ -17,11 +17,11 @@ codeExamples: 0
 
 To manage the partner integrations that have access to your restaurant in the Toast platform, you use the Integrations section in Toast Web. For example, you might use an integration partner to manage employees and shifts in the Toast platform, add orders from an online ordering interface, or read information about orders for financial accounting. You use the Integrations section to connect your restaurant to the integration partner and configure optional information that identifies your restaurant to the partner.
 
-Your restaurant establishes a customer relationship with an integration partner separately from your relationship with Toast. Connecting your restaurant to an integration partner in the Integrations > Integration management > Browse & purchase integrationspage gives that partner access to your restaurant in the Toast platform. It does not initiate any relationship between your restaurant and the integration partner.
+Your restaurant establishes a customer relationship with an integration partner separately from your relationship with Toast. Connecting your restaurant to an integration partner in the Integrations \> Integration management \> Browse & purchase integrationspage gives that partner access to your restaurant in the Toast platform. It does not initiate any relationship between your restaurant and the integration partner.
 
-For example, you establish a relationship with an integration partner that manages employees and shifts, separately from the Toast platform. That integration partner assigns your restaurant a parent company identifier (such as `<em>mycompany12345</em>`) and a restaurant location identifier (such as `<em>myrestaurantlocation67890</em>`). Choose Integrations > Integration management > Browse & purchase integrations in Toast Web to enable a connection between the integration partner and your restaurant in the Toast platform.
+For example, you establish a relationship with an integration partner that manages employees and shifts, separately from the Toast platform. That integration partner assigns your restaurant a parent company identifier (such as `<em>mycompany12345</em>`) and a restaurant location identifier (such as `<em>myrestaurantlocation67890</em>`). Choose Integrations \> Integration management \> Browse & purchase integrations in Toast Web to enable a connection between the integration partner and your restaurant in the Toast platform.
 
-Some integration partners assign identifiers for your parent company and its restaurant locations. The Integrations > Integration management > Configure integrations page includes *optional* configuration controls that you can use to enter the parent company and restaurant location identifiers if an integration partner uses them.
+Some integration partners assign identifiers for your parent company and its restaurant locations. The Integrations \> Integration management \> Configure integrations page includes *optional* configuration controls that you can use to enter the parent company and restaurant location identifiers if an integration partner uses them.
 
 The Toast Restaurant Management Suite gives you access to a large number of integration partners. For more information, see [Set Up Toast Partner Integrations](https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast#Activate).
 
@@ -41,14 +41,14 @@ Partners integrate with the Toast platform by using Toast APIs. Partners can get
 > The list of restaurants that an integration partner has access to in the Toast platform is updated immediately when a restaurant employee adds that integration partner on the Browse & purchase integrations page. It can take up to 15 minutes before other Toast APIs (for example, the orders API or the labor API) update their access lists and allow the partner to perform operations at a restaurant. Please note that in some cases, even after the 15-minute delay, it may require a few attempts before newly connected restaurants become accessible.
 
 
-To select the integration partners that have access to your restaurant on the Browse & purchase integrations page, you must have the Account Admin > Manage Integrationsaccess permission.
+To select the integration partners that have access to your restaurant on the Browse & purchase integrations page, you must have the Account Admin \> Manage Integrationsaccess permission.
 
 **Procedure 12.1. To add an integration**
 
 1. [Access Toast Web.](adminAccessToastAdminBackend.html)
 
 
-2. Choose Integrations > Integration management > Browse & purchase integrations.
+2. Choose Integrations \> Integration management \> Browse & purchase integrations.
 
 
 3. Find the integration partner you want to add, and click Add Now.
@@ -67,7 +67,7 @@ To select the integration partners that have access to your restaurant on the Br
 5. If necessary, on the Add Partner page, click Confirm.
 
 
-6. Choose Integrations > Integration management > Configure integrations to open the My integrations page.
+6. Choose Integrations \> Integration management \> Configure integrations to open the My integrations page.
 
 
 7. Next to the integration you added, click the gear icon. A pop-up window opens.

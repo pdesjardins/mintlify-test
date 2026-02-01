@@ -129,6 +129,6 @@ If the item-sent time feature is not enabled, the employee can apply the discoun
 
 > **Note**
 > 
-> If your restaurant has Course Pacingenabled in Toast Web, time-based discounts will apply to menu items added to the check and sent to the kitchen before the discount start time. You can disable Course Pacing by de-selecting Enable course pacing at Kitchen > Pacing > Meal Pacing > Course Pacing.
+> If your restaurant has Course Pacingenabled in Toast Web, time-based discounts will apply to menu items added to the check and sent to the kitchen before the discount start time. You can disable Course Pacing by de-selecting Enable course pacing at Kitchen \> Pacing \> Meal Pacing \> Course Pacing.
 
 

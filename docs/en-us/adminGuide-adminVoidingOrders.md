@@ -40,7 +40,7 @@ If you have void reasons configured, then when a restaurant employee voids a che
 
 **Procedure 6.89. To configure the list of available void reasons**
 
-1. From Toast Web, choose Payments > Transactions & refunds > Void reasons.
+1. From Toast Web, choose Payments \> Transactions & refunds \> Void reasons.
 
 ![Void Reasons page on Toast Web showing the list of available void reasons.](https://doc.toasttab.com/doc/media/void-reasons.png)
 

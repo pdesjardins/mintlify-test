@@ -93,15 +93,15 @@ The `Order` object in the following example creates a marketplace facilitator or
 
     [contents omitted]
 
-  "marketplaceFacilitatorTaxInfo": {[(1)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e183ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
-    "facilitatorCollectAndRemitTaxOrder": false[(2)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e185ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
+  "marketplaceFacilitatorTaxInfo": {
+    "facilitatorCollectAndRemitTaxOrder": false
   },
   "checks": [
     {
       "entityType": "Check",
       "selections": [
         {
-          "entityType": "MenuItemSelection",[(3)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e187ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
+          "entityType": "MenuItemSelection",
           "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup"
@@ -177,17 +177,17 @@ The `Order` object in the following example creates a marketplace facilitator or
 
     [contents omitted]
 
-  "marketplaceFacilitatorTaxInfo": {[(1)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e245ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
-    "taxes": [[(2)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e247ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
+  "marketplaceFacilitatorTaxInfo": {
+    "taxes": [
       {
         "name": "SomeTax",
-        "taxAmount": 3.21,[(3)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e249ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
-        "facilitatorCollectAndRemitTax": true[(4)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e251ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
+        "taxAmount": 3.21,
+        "facilitatorCollectAndRemitTax": true
       },
       {
         "name": "SomeOtherTax",
         "taxAmount": 2.34,
-        "facilitatorCollectAndRemitTax": false[(5)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e253ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
+        "facilitatorCollectAndRemitTax": false
       }
     ]
   },
@@ -197,7 +197,7 @@ The `Order` object in the following example creates a marketplace facilitator or
       "selections": [
         {
           "entityType": "MenuItemSelection",
-          "externalPriceAmount": 123.45,[(6)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e256ED70EBFB-66D2-4C17-9A10-C756EEEBD261-co)
+          "externalPriceAmount": 123.45,
           "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup"
@@ -258,7 +258,7 @@ The `Order` object in the following example creates a marketplace facilitator or
     [contents omitted]
 
   "marketplaceFacilitatorTaxInfo": {
-    "taxes": [[(1)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e390FF8D1928-D00D-4A66-8C03-09C0F1A6A166-co)
+    "taxes": [
       {
         "name": "SomeTax",
         "taxAmount": 0.10,
@@ -272,26 +272,26 @@ The `Order` object in the following example creates a marketplace facilitator or
       "selections": [
         {
           "entityType": "MenuItemSelection",
-          "externalPriceAmount": 0,[(2)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e392FF8D1928-D00D-4A66-8C03-09C0F1A6A166-co)
+          "externalPriceAmount": 0,
           "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup"
           },
           "item": {
             "entityType": "MenuItem",
-            "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802"[(3)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e394FF8D1928-D00D-4A66-8C03-09C0F1A6A166-co)
+            "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802"
           },
           "quantity": 1,
           "modifiers": [
             {
-              "externalPriceAmount": 10.00,[(4)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#selectedSizePriceCallout)
+              "externalPriceAmount": 10.00,
               "entityType": "MenuItemSelection",
               "optionGroup": {
-                "guid": "f315fe4c-a74d-49c1-b117-fe4494bb456e"[(5)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e396FF8D1928-D00D-4A66-8C03-09C0F1A6A166-co)
+                "guid": "f315fe4c-a74d-49c1-b117-fe4494bb456e"
               },
               "item": {
                 "entityType": "MenuItem",
-                "guid": "4382f595-8f01-4d97-b3ec-8fe91da963a1"[(6)](apiDevGuide-apiMarketplaceFacilitatorOrders.html#d1e398FF8D1928-D00D-4A66-8C03-09C0F1A6A166-co)
+                "guid": "4382f595-8f01-4d97-b3ec-8fe91da963a1"
               },
               "quantity": 1
             }

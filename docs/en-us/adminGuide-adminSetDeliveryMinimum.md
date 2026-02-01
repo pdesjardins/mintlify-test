@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Setting a delivery minimum
 
-You can use approval rules to configure which orders require manual approval and which orders are rejected based on certain criteria, such as a delivery minimum. In Toast Web, choose Takeout & delivery > Availability > Online ordering to open the Online ordering page and to create approval rules.
+You can use approval rules to configure which orders require manual approval and which orders are rejected based on certain criteria, such as a delivery minimum. In Toast Web, choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page and to create approval rules.
 
 #### Using approval rules
 
@@ -48,7 +48,7 @@ Approval rules determine which orders are automatically sent to the kitchen, whi
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Online ordering to open the Online ordering page.
+2. Choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page.
 
 
 3. In the Approval Rules section, select the checkbox next to the Delivery Minimum rule to enable the approval rule.

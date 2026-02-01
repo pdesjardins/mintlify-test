@@ -112,8 +112,8 @@ The following is an example of a successful configure search response.
     "searchTermNames": [
       {
         "key": "Room Number",
-        "value": "TEXT", [(1)](apiDevGuide-apiTenderPmsIntegration.html#C1DCCDC4-45EE-4899-A3DF-366229BB93BA-co)
-        "tenderPropertyType": "ROOM_ID", [(2)](apiDevGuide-apiTenderPmsIntegration.html#d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283-co)
+        "value": "TEXT", 
+        "tenderPropertyType": "ROOM_ID", 
         "maxLength": 3
       },
       {
@@ -843,7 +843,7 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
       "expansionSearchCriteria": []
     },
     "transactionToUpdate": "868cd4a6-66de-4f33-ad47-6867e67ba2e8",
-    "additionalGratuity": 2.86, [(1)](apiDevGuide-apiTenderPmsIntegration.html#e356efd8-0dac-4a34-8fae-c13421f2bd47-co)
+    "additionalGratuity": 2.86, 
     "paymentGuid": "6980a7b8-edb4-469e-bcb6-869b1cad082d",
     "tenderPayments": [
       {
@@ -859,8 +859,8 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
       "guid": "ad51d5f8-8573-4a4f-ad65-ce308f5ff763",
       "displayNumber": "2"
     },
-    "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6", [(2)](apiDevGuide-apiTenderPmsIntegration.html#d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E-co)
-    "check": [contents omitted] [(3)](apiDevGuide-apiTenderPmsIntegration.html#d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E-co)
+    "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6", 
+    "check": [contents omitted] 
   },
   "reverseTransactionInformation": null,
   "searchTransactionInformation": null
@@ -1021,7 +1021,7 @@ At the payment phase of the Toast platform order workflow:
 
 > **Note**
 > 
-> The name of the payment option is configurable from the Toast Web at Payments > Other Payment Options.
+> The name of the payment option is configurable from the Toast Web at Payments \> Other Payment Options.
 
 
 ![A screenshot of the Select Alternate Payment Type screen, showing the room charge option.](https://doc.toasttab.com/doc/media/tender_pos_pms1.png)
@@ -1048,7 +1048,7 @@ If the restaurant employee chose to print a receipt, the Room Charge payment and
 
 #### Reporting
 
-You can view information about tender transactions in the Sales Summary report. This report can be accessed by navigating to Reports > Sales > Sales Summary in Toast Web. Room charge tender payments appear in the Other section of the Sales Summary report, as shown below, and in the Payments tab. The payment Typeis shown as Other from the Payments tab.
+You can view information about tender transactions in the Sales Summary report. This report can be accessed by navigating to Reports \> Sales \> Sales Summary in Toast Web. Room charge tender payments appear in the Other section of the Sales Summary report, as shown below, and in the Payments tab. The payment Typeis shown as Other from the Payments tab.
 
 ![A screenshot of the Sales Summary report, showing hotel room charge transactions in the Other section.](https://doc.toasttab.com/doc/media/tender_reporting1_pms.png)
 

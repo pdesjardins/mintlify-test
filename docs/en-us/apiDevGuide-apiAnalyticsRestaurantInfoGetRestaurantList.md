@@ -42,8 +42,8 @@ The rate limit for this endpoint and method type is five requests per second and
 The following example shows a **curl** command that sends a `GET` request to the `/era/v1/restaurants-information` endpoint.
 
 ```
-curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \[(1)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270-co)
--H 'Authorization: Bearer `[token]`'[(2)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270-co)
+curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \
+-H 'Authorization: Bearer `[token]`'
 
 ```
 
@@ -60,11 +60,11 @@ The following example shows the response from the `/era/v1/restaurants-informati
 ```
 [
     {
-        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",[(1)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC-co)
-        "restaurantName": "Grove Place Cafe"[(2)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC-co)
-        "active": true,[(3)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC-co)
-        "testMode": false,[(4)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC-co)
-        "archived": false[(5)](apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.html#d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC-co)
+        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
+        "restaurantName": "Grove Place Cafe"
+        "active": true,
+        "testMode": false,
+        "archived": false
     },
     {
         "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",

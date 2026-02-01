@@ -98,7 +98,7 @@ You can either apply the discount separately to each quantity in the consolidate
 
 You can use the Consolidate menu itemssetting to configure your restaurant to show selected identical items on the order screen as consolidated items or as separate items.
 
-The Consolidate menu items setting is available in the Front of house > Order screen setup > UI options page in Toast Web.
+The Consolidate menu items setting is available in the Front of house \> Order screen setup \> UI options page in Toast Web.
 
 The available options are:
 
@@ -117,7 +117,7 @@ The available options are:
 
 If you [consolidate menu items](adminUiOptionsReference.html#configCombineItems), you can use the Consolidate discounts setting to set how to apply an item-level fixed currency discount to a consolidated item.
 
-The Consolidate discounts setting is available in the Front of house > Order screen setup > UI options page.
+The Consolidate discounts setting is available in the Front of house \> Order screen setup \> UI options page.
 
 ![The Consolidate discounts setting in Toast Web.](https://doc.toasttab.com/doc/media/discount-consolidate-discounts.png)
 

@@ -68,7 +68,7 @@ You can only snooze third-party online ordering channels that are on and accepti
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Third-party ordering.
+2. Choose Takeout & delivery \> Third-party ordering.
 
 
 3. Select the third-party online ordering channel you want to turn on, off, or snooze orders from. You can choose from the following ordering options: 

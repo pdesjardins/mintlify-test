@@ -24,10 +24,10 @@ You can create and apply a service charge to delivery orders. The service charge
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.
+2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
 
 
-3. In the Delivery fee section, select the Configure delivery service fees link to open the Service charges page. You can also navigate to this page by choosing Payments > Checks & receipt setup > Service charges.
+3. In the Delivery fee section, select the Configure delivery service fees link to open the Service charges page. You can also navigate to this page by choosing Payments \> Checks & receipt setup \> Service charges.
 
 
 4. Select the + Add button.

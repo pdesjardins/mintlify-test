@@ -45,7 +45,7 @@ Missed breaks are logged in the Break entriesreport, described in [Viewing emplo
 2. Switch to the restaurant you want to configure.
 
 
-3. Choose Employees > Payroll management > Break types to open the Break types page. You see the Breaks page with a list of the custom breaks you have created.
+3. Choose Employees \> Payroll management \> Break types to open the Break types page. You see the Breaks page with a list of the custom breaks you have created.
 
 
 4. Click the name of a break to see its details page.

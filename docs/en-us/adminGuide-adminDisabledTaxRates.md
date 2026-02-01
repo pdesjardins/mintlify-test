@@ -26,7 +26,7 @@ An example of when you may want to disable a tax rate is if you are in the proce
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Settings > Manage tax rates to open the Tax ratespage.
+2. Choose Menus \> Menu management \> Settings \> Manage tax rates to open the Tax ratespage.
 
 
 3. On the Tax rates page, select an existing tax rate.

@@ -134,7 +134,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
 https://`[toast-api-hostname]`/stock/v1/inventory
 ```
 
@@ -148,18 +148,18 @@ The following example shows the JSON response data for a GET request to the `/in
 **Example 5.2. Get all inventory return data**
 
 ```
-[[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e4531646253216-co)
+[
     {
-        "guid": "79977142-e076-4727-9b69-9176726b1603",[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e4551646253216-co)
-        "status": "OUT_OF_STOCK",[(3)](apiDevGuide-apiUsingTheStockApi.html#d1e4571646253216-co)
+        "guid": "79977142-e076-4727-9b69-9176726b1603",
+        "status": "OUT_OF_STOCK",
         "quantity": null,
-        "multiLocationId": "100000000171238879",[(4)](apiDevGuide-apiUsingTheStockApi.html#d1e4591646253216-co)
+        "multiLocationId": "100000000171238879",
         "versionId": "79977142-e076-4727-9b69-9176726b1603"
     },
     {
         "guid": "a4ccc387-912a-4b1d-8062-26b44eed7216",
         "status": "QUANTITY",
-        "quantity": 25.0,[(5)](apiDevGuide-apiUsingTheStockApi.html#d1e4611646253216-co)
+        "quantity": 25.0,
         "multiLocationId": "100000000171239701",
         "versionId": "a4ccc387-912a-4b1d-8062-26b44eed7216"
     },
@@ -225,8 +225,8 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3-co)
-https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
 ```
 
 
@@ -241,12 +241,12 @@ The following example shows the JSON response for the `GET` request.
 **Example 5.4. Get inventory by status return data**
 
 ```
-[[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e7091646253216-co)
+[
     {
-        "guid": "88521da5-198e-435b-a5ba-a09983525cf9",[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e7111646253216-co)
-        "status": "OUT_OF_STOCK",[(3)](apiDevGuide-apiUsingTheStockApi.html#d1e7131646253216-co)
-        "quantity": null,[(4)](apiDevGuide-apiUsingTheStockApi.html#d1e7151646253216-co)
-        "multiLocationId": "100000000171238879",[(5)](apiDevGuide-apiUsingTheStockApi.html#d1e7171646253216-co)
+        "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
+        "status": "OUT_OF_STOCK",
+        "quantity": null,
+        "multiLocationId": "100000000171238879",
         "versionId": "88521da5-198e-435b-a5ba-a09983525cf9"
     },
     {
@@ -341,9 +341,9 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e41779DA0981-6707-46FB-8E99-12EF303F8E00-co)
--H "Content-Type: application/json" \[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e41979DA0981-6707-46FB-8E99-12EF303F8E00-co)
--d @my-item-search-data.json \[(3)](apiDevGuide-apiUsingTheStockApi.html#d1e42179DA0981-6707-46FB-8E99-12EF303F8E00-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+-H "Content-Type: application/json" \
+-d @my-item-search-data.json \
 https://`[toast-api-hostname]`/stock/v1/inventory/search
 ```
 
@@ -361,24 +361,24 @@ The following example shows the JSON response data for a `POST` request to the `
 **Example 5.7. Search inventory by menu items response**
 
 ```
-[[(1)](apiDevGuide-apiUsingTheStockApi.html#d1e11941724334625-co)
+[
     {
-        "guid": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b",[(2)](apiDevGuide-apiUsingTheStockApi.html#d1e11961724334625-co)
+        "guid": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b",
         "itemGuidValidity": "VALID",
-        "status": "IN_STOCK",[(3)](apiDevGuide-apiUsingTheStockApi.html#d1e11981724334625-co)
+        "status": "IN_STOCK",
         "quantity": null,
-        "multiLocationId": "100000000171238879",[(4)](apiDevGuide-apiUsingTheStockApi.html#d1e12001724334625-co)
+        "multiLocationId": "100000000171238879",
         "versionId": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b"
     },
     {
         "guid": "ad4d928d-0740-4617-96db-bd2a4b1ae1e5",
         "itemGuidValidity": "VALID",
         "status": "QUANTITY",
-        "quantity": 100.0,[(5)](apiDevGuide-apiUsingTheStockApi.html#d1e12021724334625-co)
+        "quantity": 100.0,
         "multiLocationId": "100000000171239701",
         "versionId": "ad4d928d-0740-4617-96db-bd2a4b1ae1e5"
     },
-    {[(6)](apiDevGuide-apiUsingTheStockApi.html#d1e12051724334625-co)
+    {
         "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
@@ -386,7 +386,7 @@ The following example shows the JSON response data for a `POST` request to the `
         "multiLocationId": "null",
         "versionId": "88521da5-198e-435b-a5ba-a09983525cf9"
     },
-    {[(7)](apiDevGuide-apiUsingTheStockApi.html#d1e12071724334625-co)
+    {
         "guid": "null",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",

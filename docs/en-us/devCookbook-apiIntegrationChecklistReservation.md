@@ -230,27 +230,27 @@ The workflow below outlines how to create a reservation in your system and submi
 ```
 {
   "diningOption": {
-    "guid": "374d500f-c6d8-44d0-a18d-43fe5e7f750c"[(1)](devCookbook-apiIntegrationChecklistReservation.html#res-diningOption-co)
+    "guid": "374d500f-c6d8-44d0-a18d-43fe5e7f750c"
   },
   "revenueCenter": {
-    "guid": "81665a60-c20d-41da-a362-6474eab830d3"[(2)](devCookbook-apiIntegrationChecklistReservation.html#res-revenueCenter-co)
+    "guid": "81665a60-c20d-41da-a362-6474eab830d3"
   },
   "table": {
-    "guid": "880a2f72-8960-4a3f-b2a2-60b7a19975e7"[(3)](devCookbook-apiIntegrationChecklistReservation.html#res-table-co)
+    "guid": "880a2f72-8960-4a3f-b2a2-60b7a19975e7"
   },
-  "numberOfGuests": 4,[(4)](devCookbook-apiIntegrationChecklistReservation.html#res-numberOfGuests-co)
+  "numberOfGuests": 4,
   "server": {
-    "guid": "90d97fb8-931f-4196-aae9-d71bbcd5d3df"[(5)](devCookbook-apiIntegrationChecklistReservation.html#res-server-co)
+    "guid": "90d97fb8-931f-4196-aae9-d71bbcd5d3df"
   },
   "checks": [
     {
-      "tabName": "Reservation Partner - Ann M"[(6)](devCookbook-apiIntegrationChecklistReservation.html#res-tabName-co)
+      "tabName": "Reservation Partner - Ann M"
     },
     {
       "appliedServiceCharges": [
         {
           "serviceCharge": {
-            "guid": "9b2dd3cc-f4ab-4586-8c5a-2bbf6a9eef8d"[(7)](devCookbook-apiIntegrationChecklistReservation.html#res-serviceCharge-co)
+            "guid": "9b2dd3cc-f4ab-4586-8c5a-2bbf6a9eef8d"
            }
          }
        ]
@@ -260,10 +260,10 @@ The workflow below outlines how to create a reservation in your system and submi
       "payments": [
         {
           "type": "OTHER",
-          "amount": "20.00",[(8)](devCookbook-apiIntegrationChecklistReservation.html#res-deposit-co)
+          "amount": "20.00",
           "tipAmount": "0.00",
           "otherPayment": {
-            "guid": "40dbc841-7f29-47d0-9834-9cf9c5b591d2"[(9)](devCookbook-apiIntegrationChecklistReservation.html#res-otherPayment-co)
+            "guid": "40dbc841-7f29-47d0-9834-9cf9c5b591d2"
           }
         }
       ]

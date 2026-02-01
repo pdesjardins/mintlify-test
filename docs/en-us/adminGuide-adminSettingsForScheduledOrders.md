@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Settings for scheduled orders
 
-In the Online Ordering Scheduling Settingssection on the Online ordering page, you can configure your settings for scheduled orders. From Toast Web, choose Takeout & delivery > Availability > Online ordering to open the Online orderingpage.
+In the Online Ordering Scheduling Settingssection on the Online ordering page, you can configure your settings for scheduled orders. From Toast Web, choose Takeout & delivery \> Availability \> Online ordering to open the Online orderingpage.
 
 #### Enabling scheduled orders
 
@@ -33,7 +33,7 @@ In the Online Ordering Scheduling Settingssection on the Online ordering page, y
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Online ordering to open the Online ordering page.
+2. Choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page.
 
 
 3. Under the Online Ordering Scheduling Settings section, select one of the following options for the Enable Scheduling setting:

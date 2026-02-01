@@ -25,7 +25,7 @@ Your guests can use a house account as a payment method to pay for Toast orders.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Payments > Payment methods > House accounts to open the Accountspage.
+2. Go to Payments \> Payment methods \> House accounts to open the Accountspage.
 
 
 3. On the left panel, select the Settings tab. This opens the Settings page.
@@ -138,7 +138,7 @@ You can move a check(s) that was accidentally closed to the wrong house account.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Reports > Sales > Orders to open the Orders report.
+2. Go to Reports \> Sales \> Orders to open the Orders report.
 
 
 3. Locate the closed order that you want to move to different house account.

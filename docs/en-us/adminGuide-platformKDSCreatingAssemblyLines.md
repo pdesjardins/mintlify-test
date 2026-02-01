@@ -40,7 +40,7 @@ The following procedure is for creating an assembly line for a single-restaurant
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Assembly lines. The Assembly Lines page opens.
+2. Choose Kitchen \> Kitchen stations \> Assembly lines. The Assembly Lines page opens.
 
 
 3. Select the Add new button in the top right. The New assembly line dialog opens.
@@ -71,7 +71,7 @@ Assembly lines use versioning and targets for multi-location restaurants. The fo
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Assembly lines. The Assembly Lines page opens.
+2. Choose Kitchen \> Kitchen stations \> Assembly lines. The Assembly Lines page opens.
 
 
 3. Use the locations dropdown menu to select which locations you want to view.

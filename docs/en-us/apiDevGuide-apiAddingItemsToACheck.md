@@ -65,17 +65,17 @@ In the request message body, include the array of `Selection` objects.
 The following example shows an array that contains a `Selection` object to ad a menu item to an existing check.
 
 ```
-[[(1)](apiDevGuide-apiAddingItemsToACheck.html#d1e1350721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+[
   {
     "entityType": "MenuItemSelection",
     "itemGroup": {
-      "guid": "205c4612-d04d-43ec-86fd-7d0827a2eeed"[(2)](apiDevGuide-apiAddingItemsToACheck.html#d1e1370721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+      "guid": "205c4612-d04d-43ec-86fd-7d0827a2eeed"
     },
     "item": {
-      "guid": "c58b958e-85a0-485a-bb5c-3b588e056aff"[(3)](apiDevGuide-apiAddingItemsToACheck.html#d1e1390721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+      "guid": "c58b958e-85a0-485a-bb5c-3b588e056aff"
     }
-    "quantity": 2,[(4)](apiDevGuide-apiAddingItemsToACheck.html#d1e1410721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
-    "modifiers": [[(5)](apiDevGuide-apiAddingItemsToACheck.html#d1e1430721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+    "quantity": 2,
+    "modifiers": [
       
       [content omitted]
 
@@ -102,28 +102,28 @@ The following example shows the response for a `POST` request to the `/orders/<e
 
 ```
 {
-  "guid": "da257b12-4766-471c-9580-837d2b29eb92", [(1)](apiDevGuide-apiAddingItemsToACheck.html#d1e1700721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+  "guid": "da257b12-4766-471c-9580-837d2b29eb92", 
   "entityType": "Order",
 
   [content omitted]
 
   "checks": [
     {
-      "guid": "6e1bb8e0-534d-437f-bbad-0f08045f463e",[(2)](apiDevGuide-apiAddingItemsToACheck.html#d1e1720721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+      "guid": "6e1bb8e0-534d-437f-bbad-0f08045f463e",
       "entityType": "Check",
       
       [content omitted]
       
       "selections": [
         {
-          "guid": "f520f731-8164-41a8-b261-23b9df3bf861",[(3)](apiDevGuide-apiAddingItemsToACheck.html#d1e1740721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+          "guid": "f520f731-8164-41a8-b261-23b9df3bf861",
           "entityType": "MenuItemSelection",
                     
           [content omitted]
 
         },
         {
-          "guid": "a963dd45-e0bf-456b-a148-e955310d2643",[(4)](apiDevGuide-apiAddingItemsToACheck.html#d1e1760721E73C-4691-4104-AC0D-A8BEDFE8A31B-co)
+          "guid": "a963dd45-e0bf-456b-a148-e955310d2643",
           "entityType": "MenuItemSelection",
           
           [content omitted]      

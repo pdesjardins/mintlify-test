@@ -67,7 +67,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -97,7 +97,7 @@ Follow the procedure below to rename a menu group.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -144,7 +144,7 @@ Menu group reordering is limited to:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -182,7 +182,7 @@ For multi-location restaurants:
 
 > **Note**
 > 
-> To undo a menu group archive, go to the Menus > Bulk management > Items database page in Toast Web. Select the Menu Groups tab and then choose Show Archived. Select the checkbox for the menu group you want to restore and choose Restore.
+> To undo a menu group archive, go to the Menus \> Bulk management \> Items database page in Toast Web. Select the Menu Groups tab and then choose Show Archived. Select the checkbox for the menu group you want to restore and choose Restore.
 
 
 **Procedure 8.55. To remove a menu group**
@@ -190,7 +190,7 @@ For multi-location restaurants:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -282,7 +282,7 @@ Menu Group A
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
+2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
 
 
 3. From the Show section, choose Full menu.
@@ -401,7 +401,7 @@ Alternatively, you can do the following:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Kitchen > Pacing > Courses.
+- Select Kitchen \> Pacing \> Courses.
 
 
 
@@ -479,7 +479,7 @@ Alternatively, you can:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Menus > Settings > Sales categories.
+- Select Menus \> Settings \> Sales categories.
 
 
 
@@ -606,7 +606,7 @@ The side panel for each menu group has a Channel visibility section that shows t
 
 - Customer invoices, Catering & Events, Catering Online Ordering: The menu entity is visible when:
 
-- Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
+- Creating customer invoices for orders using the Payments \> Payment methods \> Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
 
 
 - Creating catering orders using Toast Catering & Events. For information, see this [Toast Central article](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).

@@ -62,13 +62,13 @@ In this example, you could also assign colors to the different salad dressing su
 
 ##### Configure KDS colors
 
-To configure your menu items and modifiers to include a custom color background, you must have the 4. Restaurant Admin > 4.5 Edit Full Menu access permission.
+To configure your menu items and modifiers to include a custom color background, you must have the 4. Restaurant Admin \> 4.5 Edit Full Menu access permission.
 
 Follow one of these procedures.
 
 **Procedure 10.8. To configure a KDS color for a menu item**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus > Menu manager.
+1. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus \> Menu manager.
 
 
 2. Select Full menu view, then navigate to the menu item you want to edit. Select the item to see its side panel.
@@ -92,7 +92,7 @@ Follow one of these procedures.
 1. Determine the modifiers that you want to highlight with color coding, and the color you want to assign to each one.
 
 
-2. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus > Bulk management > Advanced properties.
+2. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus \> Bulk management \> Advanced properties.
 
 
 3. (Multi-location restaurants only) Choose the locations you want to view from the You are viewingmenu.
@@ -304,7 +304,7 @@ Choosing how to configure individual items for printed and KDS tickets can affec
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Navigate to the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setuppage.
+2. Navigate to the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setuppage.
 
 
 3. Under the Printed Tickets and Ticket Screen section, navigate to the Individual Item Tickets setting.
@@ -362,7 +362,7 @@ For more information about these options, see [KDS settings](platformKitchenConf
 
 When you send items to the kitchen, you can choose whether multiple of the same item appear as a single line with an indicated quantity, or as individual lines of one item each. For example, if you enter an order with two Panini, consolidating the items appears as one line for Panini with a quantity of two. By not consolidating, the ticket has two Panini items, each with a quantity of one.
 
-The Consolidate Items with Multiple Quantities setting is available on the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup page under the Printed Tickets and Ticket Screens section.
+The Consolidate Items with Multiple Quantities setting is available on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page under the Printed Tickets and Ticket Screens section.
 
 Here is an example of a consolidated ticket at prep station and expediter KDS devices.
 
@@ -383,7 +383,7 @@ For the Consolidate Items with Multiple Quantities setting, choose Yes to group 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Navigate to the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setuppage.
+2. Navigate to the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setuppage.
 
 
 3. Under the Printed Tickets and Ticket Screen section, navigate to the Consolidate Items with Multiple Quantities setting.

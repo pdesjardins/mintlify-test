@@ -172,7 +172,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 **Clawback**
 : A financial provision, also known as tip withholding, that lets restaurant managers reclaim a percentage of employee credit card tips to cover the cost of credit card processing fees.
 
-Restaurant managers can enable this feature using the Employees > Payroll management > Tip withholding page in Toast Web. Once enabled, they can specify the Tip Withholding Percentage. For more information, see [Tip Withholding](https://central.toasttab.com/s/article/Tip-Withholding).
+Restaurant managers can enable this feature using the Employees \> Payroll management \> Tip withholding page in Toast Web. Once enabled, they can specify the Tip Withholding Percentage. For more information, see [Tip Withholding](https://central.toasttab.com/s/article/Tip-Withholding).
 
 
 
@@ -644,7 +644,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Toast Web**
-: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup > Other Setup). For more information, see [Using Toast Web](adminAccessToastAdminBackend.html).
+: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup \> Other Setup). For more information, see [Using Toast Web](adminAccessToastAdminBackend.html).
 
 
 
@@ -717,7 +717,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Z report (zero report, closeout report)**
-: A one-day sales summary that appears when you select Close Out Day on the home screen of a Toast POS device. This is a report for the entire business day. It can be customized to show the relevant information you wish to see at the end of a business day such as net sales, discounts and voids, and cash balance. The report can be customized on the Employees > POS report configurations > Manager end of day reportpage in Toast Web. Monitoring the Z report during the day does not interfere with the automated close out process that the Toast platform completes every night.
+: A one-day sales summary that appears when you select Close Out Day on the home screen of a Toast POS device. This is a report for the entire business day. It can be customized to show the relevant information you wish to see at the end of a business day such as net sales, discounts and voids, and cash balance. The report can be customized on the Employees \> POS report configurations \> Manager end of day reportpage in Toast Web. Monitoring the Z report during the day does not interfere with the automated close out process that the Toast platform completes every night.
 
 
 

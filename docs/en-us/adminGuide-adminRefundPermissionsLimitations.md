@@ -29,12 +29,12 @@ To be able to issue refunds, an employee must have the following permissions:
 
 
 
-****Manager > Find Checks****
+****Manager \> Find Checks****
 : This permission allows employees to locate a check to refund.
 
 
 
-****Manager > Void / Refund Payments****
+****Manager \> Void / Refund Payments****
 : This permission allows employees to issue refunds.
 
 
@@ -43,7 +43,7 @@ To be able to issue refunds, an employee must have the following permissions:
 
 **Procedure 6.22. To grant the required permissions to an employee:**
 
-1. Navigate to Employees > Employee management > Employees.
+1. Navigate to Employees \> Employee management \> Employees.
 
 
 2. In the Actions column for the employee, select the pencil icon.
@@ -96,5 +96,5 @@ Credit card payments can only be refunded once. If you issue a partial refund on
 
 Credit card payments can only be refunded up to 90 days after they are completed.
 
-When you reverse a credit card payment on the same day that it is taken, before it is captured and settled, it is considered a void, not a refund. Voided credit card payments display in the Reports > Cash and loss management > Voided paymentsreport.
+When you reverse a credit card payment on the same day that it is taken, before it is captured and settled, it is considered a void, not a refund. Voided credit card payments display in the Reports \> Cash and loss management \> Voided paymentsreport.
 

@@ -28,7 +28,7 @@ The Price editor page displays prices for all of your menu groups and menu items
 
 #### Price editor overview
 
-To view the Price editor page, [access Toast Web](adminAccessToastAdminBackend.html) and then choose Menus > Bulk management > Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
+To view the Price editor page, [access Toast Web](adminAccessToastAdminBackend.html) and then choose Menus \> Bulk management \> Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
 
 ##### Understanding the Price column
 
@@ -98,7 +98,7 @@ The prices continue to be time-specific prices but their values have all been ch
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Price editor to open the Price editorpage.
+2. Choose Menus \> Bulk management \> Price editor to open the Price editorpage.
 
 
 3. Expand the menus and menu groups to view the prices you want to make bulk changes to.
@@ -150,7 +150,7 @@ The Price editor page provides a quick option to convert a menu item that is ind
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Price editor to open the Price editorpage.
+2. Choose Menus \> Bulk management \> Price editor to open the Price editorpage.
 
 
 3. Expand the menus and menu groups to view the menu item you want to convert.
@@ -197,7 +197,7 @@ For customers that use the enterprise module, the Price Editor page provides a q
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Price editor to open the Price editorpage.
+2. Choose Menus \> Bulk management \> Price editor to open the Price editorpage.
 
 
 3. Expand the menus and menu groups to view the menu item you want to convert.

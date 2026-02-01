@@ -25,13 +25,13 @@ Toast support recommends that enterprises have at least one *super user* at the 
 
 The permissions granted to the managers at individual locations are at the discretion of the super user and the super user may choose not to give certain Account Admin permissions that are related to financial data such as Financial Accounts to individual managers. However, at a minimum, individual managers should have the following permissions:
 
-- Restaurant Admin > Employee Info: Allows to the manager to edit basic employee information including first and last name, phone number, and passcode. See [Editing an employee's basic information](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesBasicInformation).
+- Restaurant Admin \> Employee Info: Allows to the manager to edit basic employee information including first and last name, phone number, and passcode. See [Editing an employee's basic information](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesBasicInformation).
 
 
-- Restaurant Admin > Employee Jobs & Wages: Allows the manager to assign jobs to an employee, remove jobs from an employee, and override the wages associated with an employee's assigned jobs. See [Editing an employee's jobs](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesJobs).
+- Restaurant Admin \> Employee Jobs & Wages: Allows the manager to assign jobs to an employee, remove jobs from an employee, and override the wages associated with an employee's assigned jobs. See [Editing an employee's jobs](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesJobs).
 
 
-- Account Admin > User Permissions: Allows the manager to override the permissions an employee has inherited from any assigned jobs. This gives the manager the ability to directly add permissions to or remove permissions from a specific employee. See [Editing an employee's permissions](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesPermissions).
+- Account Admin \> User Permissions: Allows the manager to override the permissions an employee has inherited from any assigned jobs. This gives the manager the ability to directly add permissions to or remove permissions from a specific employee. See [Editing an employee's permissions](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesPermissions).
 
 
 
@@ -43,7 +43,7 @@ The Basic tab of the employee's details page contains core employee information 
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-basic-tab.PNG)
 
-To edit an employee's information (with the exception of email and POS access code, which have additional restrictions described below), you must have the Restaurant Admin > Employee Info permission to at least one restaurant where the employee works. You log into one of those restaurants, edit the employee's information, and click Save. The employee's information gets updated at all locations where the employee works.
+To edit an employee's information (with the exception of email and POS access code, which have additional restrictions described below), you must have the Restaurant Admin \> Employee Info permission to at least one restaurant where the employee works. You log into one of those restaurants, edit the employee's information, and click Save. The employee's information gets updated at all locations where the employee works.
 
 To edit an employee's email and POS access code, you must also have a superset of the permissions assigned to the employee you are trying to edit. To determine whether you have a superset of permissions, the Toast platform compares the permissions the employee has in each location (based on jobs assigned to the employee as well as any permission overrides the employee has) against the permissions you have in each location. If, in any location, you do not have at least the same permissions as the employee you are trying to edit, you do not have a superset of permissions and cannot edit the email or passcode for the employee. For example:
 
@@ -62,10 +62,10 @@ Then you must, at a minimum, have POS Accessand Delivery Access permissions in B
 
 To give a permission to an employee for a given location, you must:
 
-- Have the Account Admin > User Permissions permission at the given location.
+- Have the Account Admin \> User Permissions permission at the given location.
 
 
-- Have the permission yourself at the given location. For example, to give an employee the Manager > Discounts permission at the Boston location, you must have the Manager > Discounts permission at the Boston location yourself.
+- Have the permission yourself at the given location. For example, to give an employee the Manager \> Discounts permission at the Boston location, you must have the Manager \> Discounts permission at the Boston location yourself.
 
 
 
@@ -75,7 +75,7 @@ The same is true for removing a permission from an employee.
 
 To assign a job to an employee at a given location, you must:
 
-- Have the Restaurant Admin > Employee Jobs & Wages permission at the given location.
+- Have the Restaurant Admin \> Employee Jobs & Wages permission at the given location.
 
 
 - Have all of the job's permissions at the given location. For example, consider a Server job that includes all of the POS Access permissions. In order to assign the Server job to an employee at the Boston location, you must have the POS Access permissions to the Boston location yourself. Note that you do not have to be explicitly assigned the Server job, but you do need to have the Server job's permissions.

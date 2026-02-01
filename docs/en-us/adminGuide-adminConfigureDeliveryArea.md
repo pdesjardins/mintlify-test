@@ -24,14 +24,14 @@ codeExamples: 0
 > If you are using TDS, the delivery radius is automatically set by your delivery provider. Uber Direct offers a delivery radius of 8 miles, and DoorDash offers a delivery radius of 10 miles.
 
 
-For first-party delivery, you can configure your delivery area on the Takeout/delivery page in Toast Web. Your delivery area appears under the Delivery area section. The delivery area is set by the restaurant location address listed on the Location information page. To open the Location information page, choose Toast account > Business and location management > Location information.
+For first-party delivery, you can configure your delivery area on the Takeout/delivery page in Toast Web. Your delivery area appears under the Delivery area section. The delivery area is set by the restaurant location address listed on the Location information page. To open the Location information page, choose Toast account \> Business and location management \> Location information.
 
 **Procedure 3.33. To configure your delivery area**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.
+2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
 
 
 3. In the Delivery area section, select the Polygon tool (square icon) at the top right of the map. The tool allows you to draw and designate your delivery area. Select within the map to draw your delivery area. Double-click on the map to stop drawing.

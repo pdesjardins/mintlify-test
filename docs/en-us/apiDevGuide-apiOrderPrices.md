@@ -35,7 +35,7 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 {
   "entityType": "Order",
   "diningOption": {
-    "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c"[(1)](apiDevGuide-apiOrderPrices.html#d1e193C93B886C-2601-45C3-B008-CB13B0107A92-co)
+    "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c"
   },
   "checks": [
     {
@@ -43,12 +43,12 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
       "selections": [
         {
           "itemGroup": {
-            "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53"[(2)](apiDevGuide-apiOrderPrices.html#d1e195C93B886C-2601-45C3-B008-CB13B0107A92-co)
+            "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53"
           },
           "item": {
-            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"[(3)](apiDevGuide-apiOrderPrices.html#d1e197C93B886C-2601-45C3-B008-CB13B0107A92-co)
+            "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
           },
-          "quantity": 1,[(4)](apiDevGuide-apiOrderPrices.html#d1e199C93B886C-2601-45C3-B008-CB13B0107A92-co)
+          "quantity": 1,
           "modifiers": []
         }
       ]
@@ -100,14 +100,14 @@ The following example shows the response data returned by the `/prices` endpoint
       "entityType": "Check",
       "externalId": null,
       "displayNumber": null,
-      "amount": 8.99,[(1)](apiDevGuide-apiOrderPrices.html#d1e217C93B886C-2601-45C3-B008-CB13B0107A92-co)
+      "amount": 8.99,
       "tabName": null,
       "taxExempt": false,
       "payments": [],
       "appliedDiscounts": [],
       "voidDate": null,
       "openedDate": "2017-05-09T16:24:09.883+0000",
-      "totalAmount": 9.55,[(2)](apiDevGuide-apiOrderPrices.html#d1e219C93B886C-2601-45C3-B008-CB13B0107A92-co)
+      "totalAmount": 9.55,
       "selections": [
         {
           "guid": null,
@@ -125,12 +125,12 @@ The following example shows the response data returned by the `/prices` endpoint
             "externalId": null
           },
           "quantity": 1,
-          "preDiscountPrice": 8.99,[(3)](apiDevGuide-apiOrderPrices.html#d1e221C93B886C-2601-45C3-B008-CB13B0107A92-co)
+          "preDiscountPrice": 8.99,
           "voidReason": null,
           "optionGroup": null,
           "displayName": "Crab Cakes",
           "appliedDiscounts": [],
-          "tax": 0.56,[(4)](apiDevGuide-apiOrderPrices.html#d1e223C93B886C-2601-45C3-B008-CB13B0107A92-co)
+          "tax": 0.56,
           "modifiers": [],
           "seatNumber": -1,
           "voidDate": null,
@@ -140,7 +140,7 @@ The following example shows the response data returned by the `/prices` endpoint
           "voidBusinessDate": null,
           "createdDate": null,
           "preModifier": null,
-          "price": 8.99,[(5)](apiDevGuide-apiOrderPrices.html#d1e225C93B886C-2601-45C3-B008-CB13B0107A92-co)
+          "price": 8.99,
           "modifiedDate": null,
           "voided": false,
           "appliedTaxes": [
@@ -166,7 +166,7 @@ The following example shows the response data returned by the `/prices` endpoint
       "modifiedDate": null,
       "appliedLoyaltyInfo": null,
       "voided": false,
-      "taxAmount": 0.56,[(6)](apiDevGuide-apiOrderPrices.html#d1e228C93B886C-2601-45C3-B008-CB13B0107A92-co)
+      "taxAmount": 0.56,
       "appliedServiceCharges": [],
       "paymentStatus": "OPEN",
       "customer": null
@@ -258,13 +258,13 @@ The following example shows a JSON `Order` object that contains a check with a s
         {
           "entityType": "MenuItemSelection",
           "itemGroup": {
-            "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3"[(1)](apiDevGuide-apiOrderPrices.html#d1e18994C2B4C02-01BB-46CE-B543-1A815822BD0D-co)
+            "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3"
           },
           "item": {
-            "guid": "e19e5a1c-2b52-42ad-935e-568cd2a333dc"[(2)](apiDevGuide-apiOrderPrices.html#d1e19014C2B4C02-01BB-46CE-B543-1A815822BD0D-co)
+            "guid": "e19e5a1c-2b52-42ad-935e-568cd2a333dc"
           },
-          "quantity": 1,[(3)](apiDevGuide-apiOrderPrices.html#d1e19034C2B4C02-01BB-46CE-B543-1A815822BD0D-co)
-          "openPriceAmount": 4.50,[(4)](apiDevGuide-apiOrderPrices.html#d1e19054C2B4C02-01BB-46CE-B543-1A815822BD0D-co)
+          "quantity": 1,
+          "openPriceAmount": 4.50,
           "modifiers": []
         }
       ]
@@ -375,7 +375,7 @@ The following example shows an `appliedServiceCharges`value that applies an open
    "serviceCharge": {
      "guid": "0a81611c-b424-4586-9539-f33286c0211a"
    },
-   "chargeAmount": 3.45[(1)](apiDevGuide-apiOrderPrices.html#apiServiceChargeAmount2)
+   "chargeAmount": 3.45
   }
 ]
 ```

@@ -52,10 +52,10 @@ The following example shows the message body for a `/era/v1/menu/day` request th
 
 ```
 {
-  "startBusinessDate": "20220101",[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e4831F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "endBusinessDate": "20220101",[(2)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e4833F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "restaurantIds": [],[(3)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e4835F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "groupBy": ["MENU"][(4)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e4837F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+  "startBusinessDate": "20220101",
+  "endBusinessDate": "20220101",
+  "restaurantIds": [],
+  "groupBy": ["MENU"]
 }
 
 ```
@@ -171,10 +171,10 @@ The following example requests menu reporting data for two days and two restaura
 The following example **curl** command sends a `POST` request to the `/era/v1/menu/week` endpoint.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -H 'Authorization: Bearer [token]' \[(2)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5155F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5157F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5159F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
+  -H 'Authorization: Bearer [token]' \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -193,11 +193,11 @@ The following example shows the message body of the `/era/v1/menu/week` request 
 
 ```
 {
-  "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021", "b6bae410-1316-4d3b-b01f-47a758811db2"],[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5183F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "excludedRestaurantIds": [],[(2)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5185F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "startBusinessDate": "20220901",[(3)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5187F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "endBusinessDate": "20220906",[(4)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5189F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  "groupBy": ["MENU_ITEM"][(5)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5191F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+  "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021", "b6bae410-1316-4d3b-b01f-47a758811db2"],
+  "excludedRestaurantIds": [],
+  "startBusinessDate": "20220901",
+  "endBusinessDate": "20220906",
+  "groupBy": ["MENU_ITEM"]
 }
 
 ```
@@ -219,7 +219,7 @@ The following example shows the message body of the `/era/v1/menu/week` request 
 The following example shows the response from the `/era/v1/menu/week` endpoint.
 
 ```
-"bd9fb800-7c1e-40b8-9e5d-1010430a6a09"[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5210F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+"bd9fb800-7c1e-40b8-9e5d-1010430a6a09"
 ```
 
 
@@ -231,9 +231,9 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
 The following example **curl** command sends a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/[(1)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5235F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \[(2)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5237F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsMenuReportingDataAggregation.html#d1e5239F987D2F6-E937-4A8F-AC23-BD439B5BF371-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/
+bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

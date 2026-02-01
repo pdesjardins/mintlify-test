@@ -62,7 +62,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
-https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec731da7b45`[(1)](apiDevGuide-apiArchivingAnEmployee.html#d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400-co)
+https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec731da7b45`
 ```
 
 
@@ -89,8 +89,8 @@ The following example shows the response for a `DELETE` request to archive an em
     "chosenName": null,
     "createdDate": "2025-06-13T14:33:48.930+0000",
     "phoneNumber": null,
-    "deleted": true,[(1)](apiDevGuide-apiArchivingAnEmployee.html#d1e136038BF6586-9DC9-4F2D-B959-8942F3A9B4B3-co)
-    "deletedDate": "2025-06-13T14:34:04.632+0000",[(2)](apiDevGuide-apiArchivingAnEmployee.html#d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9-co)
+    "deleted": true,
+    "deletedDate": "2025-06-13T14:34:04.632+0000",
     "jobReferences": [],
     "modifiedDate": "2025-06-13T14:34:04.632+0000",
     "externalEmployeeId": null,

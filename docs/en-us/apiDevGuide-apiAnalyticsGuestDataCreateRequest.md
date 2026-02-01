@@ -48,10 +48,10 @@ To create a request for guest reporting data organized by payment, include the f
 The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint. This example uses the `week` time range.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \[(1)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
--H ‘Authorization: Bearer [token]‘ \[(2)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9265AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
+-H ‘Authorization: Bearer [token]‘ \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -70,13 +70,13 @@ The following example shows the message body for creating a guest reporting data
 
 ```
 {
-  "restaurantIds": [[(1)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9279AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
+  "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
     "6b853fa7-b3dc-4db7-a528-c3599823ccd1"
   ],
-  "excludedRestaurantIds": [],[(2)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
-  "startDate": "20240924",[(3)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
-  "endDate": "20240926"[(4)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9285AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
+  "excludedRestaurantIds": [],
+  "startDate": "20240924",
+  "endDate": "20240926"
 }
 
 ```
@@ -96,7 +96,7 @@ The following example shows the message body for creating a guest reporting data
 The following example shows the response from the `/era/v1/guest/payments/{timeRange}` endpoint.
 
 ```
-"fb23cfaa-56d7-4cb9-829d-531a8d02274a"[(1)](apiDevGuide-apiAnalyticsGuestDataCreateRequest.html#d1e9298AAAFB51B-562D-4033-B77B-6C18243DEDD8-co)
+"fb23cfaa-56d7-4cb9-829d-531a8d02274a"
 ```
 
 

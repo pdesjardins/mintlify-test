@@ -21,7 +21,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> To view and configure your restaurant's online ordering settings, you must have the Restaurant Operations Setuppermission. From Toast Web, choose Employees > Employee management > Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
+> To view and configure your restaurant's online ordering settings, you must have the Restaurant Operations Setuppermission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
 
 
 Toast Online Ordering makes it easy to accept, process, and deliver online orders. Guests place online orders on your restaurant's Toast Online Ordering website or on the Local by Toast app.
@@ -31,7 +31,7 @@ Toast Online Ordering makes it easy to accept, process, and deliver online order
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Availability > Online ordering.
+2. Choose Takeout & delivery \> Availability \> Online ordering.
 
 
 

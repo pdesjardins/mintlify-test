@@ -37,7 +37,7 @@ In Toast Web, most configuration changes require publishing, including the follo
 
 The following changes do not require publishing. When you save these changes, they are published immediately:
 
-- Under Employees > Employee management
+- Under Employees \> Employee management
 
 - Employees
 

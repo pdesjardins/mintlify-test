@@ -27,7 +27,7 @@ This information only applies if you use a [partner API account](apiClientAccoun
 
 #### Getting the restaurants you can access
 
-Restaurant employees who have the Account Admin > Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](adminPermissions.html).
+Restaurant employees who have the Account Admin \> Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](adminPermissions.html).
 
 When a restaurant employee selects your partner integration and gives you access to integrate with that restaurant:
 

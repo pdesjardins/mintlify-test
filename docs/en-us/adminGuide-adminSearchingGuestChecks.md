@@ -127,14 +127,14 @@ To use this feature to search for checks you must have the [3.23 Find Checks](ad
 - From the Quick Order or Table Service screen, select Lookup and on the Lookup dialog and tap Find Checks.
 
 
-- On the Toast POS home screen, select Manager Activities > Find Checks & Issue Refund.
+- On the Toast POS home screen, select Manager Activities \> Find Checks & Issue Refund.
 
 
 
 If you find a check on a Toast POS device you can open its order screen to make updates if needed.
 
 
-- [Access Toast Web](adminAccessToastAdminBackend.html)and then select Payments > Transactions & refunds > Find checks & issue refund.
+- [Access Toast Web](adminAccessToastAdminBackend.html)and then select Payments \> Transactions & refunds \> Find checks & issue refund.
 
 
 
@@ -182,12 +182,12 @@ Based on your selection, the receipt displays for review or a dialog opens for y
 
 5. For closed checks paid by credit card, the following additional options are available on the Actions menu.
 
-- To adjust the amount of a credit card payment that has not yet been captured, select Actions > Adjust Payment. The Payment Detail dialog opens for you to adjust the check amount, tip amount, or both.
+- To adjust the amount of a credit card payment that has not yet been captured, select Actions \> Adjust Payment. The Payment Detail dialog opens for you to adjust the check amount, tip amount, or both.
 
 ![The Payment Details dialog on Toast Web.](https://doc.toasttab.com/doc/media/guest-advanced-check-payment-detail.png)
 
 
-- To void a credit card payment, select Actions > Void.
+- To void a credit card payment, select Actions \> Void.
 
 
 

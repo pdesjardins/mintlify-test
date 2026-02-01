@@ -25,7 +25,7 @@ The Toast platform allows you to configure kitchen tickets to display other prep
 
 > **Note**
 > 
-> You must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setup permission to configure a prep station to monitor another prep station.
+> You must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setup permission to configure a prep station to monitor another prep station.
 
 
 Some things to keep in mind when using this feature:
@@ -56,7 +56,7 @@ For example, if all items in an order go to one prep station, there is no need t
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup.
+2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup.
 
 
 3. Under the Printed Tickets and Ticket Screens section, navigate to the Other stations setting.
@@ -112,7 +112,7 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 > **Note**
 > 
-> You must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setup permission to configure a prep station to monitor another prep station.
+> You must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setup permission to configure a prep station to monitor another prep station.
 
 
 **Procedure 10.18. To configure a prep station to monitor another prep station**
@@ -120,7 +120,7 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Prep stations.
+2. Choose Kitchen \> Kitchen stations \> Prep stations.
 
 
 3. Navigate to the prep station that should monitor another prep station.

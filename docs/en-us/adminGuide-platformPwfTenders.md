@@ -179,7 +179,7 @@ When you pre-authorize a card, you either authorize the current check total, or 
 
 | Pre-authorization use | Description | 
 | --- | --- |
-| No menu items on check | The guest's account is pre-authorized for the Minimum Pre-Authorization Amount found in Toast Web at Payments > Payment methods > Payment options. | 
+| No menu items on check | The guest's account is pre-authorized for the Minimum Pre-Authorization Amount found in Toast Web at Payments \> Payment methods \> Payment options. | 
 | Menu items on check | The guest's account is pre-authorized in the amount of the current transaction subtotal. | 
 | Menu items on check, but the check subtotal is not equal to or greater than the Minimum Pre-Authorization Amount | The guest's account is authorized for the Minimum Pre-authorization Amount. | 
 
@@ -230,7 +230,7 @@ If your restaurant has enabled digital receipts and you have configured a printe
 
 #### House accounts
 
-House accounts allow restaurant guests to make purchases and receive an invoice for payment later. You can create, manage, and edit house accounts in Toast Web from Payments> Payment methods > House accounts. For more information on creating, managing, and using house accounts, see [House accounts](https://central.toasttab.com/s/article/House-Accounts-1492809352564).
+House accounts allow restaurant guests to make purchases and receive an invoice for payment later. You can create, manage, and edit house accounts in Toast Web from Payments\> Payment methods \> House accounts. For more information on creating, managing, and using house accounts, see [House accounts](https://central.toasttab.com/s/article/House-Accounts-1492809352564).
 
 **Procedure 6.8. To pay a guest check with the House Acctpayment option**
 
@@ -323,9 +323,9 @@ Pay at a distance allows your guests to pay a check by receiving a text message 
 
 #### Other payment workflows
 
-The Other menu includes less commonly used, or custom, payment methods. You can configure other payment methods from Payments > Other Payment Options in Toast Web.
+The Other menu includes less commonly used, or custom, payment methods. You can configure other payment methods from Payments \> Other Payment Options in Toast Web.
 
-Occasionally, you may create a custom payment method that is only intended for use with Toast's APIs that you want to hide from the Toast POS app. You can control other payment methods' visibility by selecting Yes or No for the Show on POS setting in Toast Web at Payments > Other payment options. Select your payment method and scroll to find Show on POS.
+Occasionally, you may create a custom payment method that is only intended for use with Toast's APIs that you want to hide from the Toast POS app. You can control other payment methods' visibility by selecting Yes or No for the Show on POS setting in Toast Web at Payments \> Other payment options. Select your payment method and scroll to find Show on POS.
 
 ![Image](https://doc.toasttab.com/doc/media/pwfOtherPaymentsShowOnPos.png)
 
@@ -386,12 +386,12 @@ Customer credits allow your management to award guests with a credited balance r
 
 > **Note**
 > 
-> Customer Credits must be enabled in Toast Web from Payments > Payment methods > Customer credits.
+> Customer Credits must be enabled in Toast Web from Payments \> Payment methods \> Customer credits.
 
 
 **Procedure 6.12. To pay a guest check with the Customer credits payment option**
 
-1. From the payment screen, select Other > Customer Credits.
+1. From the payment screen, select Other \> Customer Credits.
 
 
 2. Enter the guest's phone number and select their account.
@@ -400,7 +400,7 @@ Customer credits allow your management to award guests with a credited balance r
 
 > **Note**
 > 
-> You can add guest information on a Toast POS device from Manager Activities > Lookup customer.
+> You can add guest information on a Toast POS device from Manager Activities \> Lookup customer.
 
 
 
@@ -413,7 +413,7 @@ Customer credits allow your management to award guests with a credited balance r
 
 ##### Custom payments
 
-You can create custom payment options to fit your business. On Toast Web, navigate to Payments > Payment methods > Other payment options. For more information about creating other payment types see [Setting up other payment options](https://central.toasttab.com/s/article/Setting-Up-Other-Payment-Options). The following sections details custom payment options that are often created by restaurant operators.
+You can create custom payment options to fit your business. On Toast Web, navigate to Payments \> Payment methods \> Other payment options. For more information about creating other payment types see [Setting up other payment options](https://central.toasttab.com/s/article/Setting-Up-Other-Payment-Options). The following sections details custom payment options that are often created by restaurant operators.
 
 ###### Gift certificate (paper)
 

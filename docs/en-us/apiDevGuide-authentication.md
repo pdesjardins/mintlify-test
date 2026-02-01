@@ -136,10 +136,10 @@ The following **curl** command requests an authentication token from the `/authe
 **Example 1.4. Authentication request using curl program command**
 
 ```
-curl -X POST \[(1)](apiDevGuide-authentication.html#d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
--H "Content-Type: application/json" \[(2)](apiDevGuide-authentication.html#d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
--d @`file-containing-message-body-parameter.json` \[(3)](apiDevGuide-authentication.html#d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
-https://`[toast-api-hostname]`/authentication/v1/authentication/login[(4)](apiDevGuide-authentication.html#d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3-co)
+curl -X POST \
+-H "Content-Type: application/json" \
+-d @`file-containing-message-body-parameter.json` \
+https://`[toast-api-hostname]`/authentication/v1/authentication/login
 
 ```
 
@@ -166,12 +166,12 @@ The authentication API returns the information shown in the following example fo
 
 ```
 {
-  "@class": ".SuccessfulResponse",[(1)](apiDevGuide-authentication.html#mg_d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+  "@class": ".SuccessfulResponse",
   "token": {
-    "tokenType": "Bearer",[(2)](apiDevGuide-authentication.html#mg_d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
-    "scope": null,[(3)](apiDevGuide-authentication.html#mg_d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co) 
-    "expiresIn": 19168,[(4)](apiDevGuide-authentication.html#mg_d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
-    "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyR3[(5)](apiDevGuide-authentication.html#mg_d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+    "tokenType": "Bearer",
+    "scope": null, 
+    "expiresIn": 19168,
+    "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyR3
       V3JkZXJzOnYThkYWE5LWIyMDQtNDhhZi1iZDY2LWZiMzZkNzViYjU1NiIsIm5hbWl
       uZ0F1dGhvcml05NiIGlBFVEVSUEFSVE5FUiIsImF6cCI6InBldGVyLXBhcnRuZXIi
       LCJzY29wZSI6WyJjcm0iLCJsYWJvciIsImNvbmZpZ3VyYXRpb24iLCJjYXNobWdtd
@@ -185,10 +185,10 @@ The authentication API returns the information shown in the following example fo
       G_PYZRsb7lwmJG3tPW74bDKZhYJVnPO3HMNnd93A8AL4QVOVBO6L6BdqsK3lZ7nzY
       0hALk-LzyD-w_maz-s2kFx7vbWrp0l2X_gSpEi3JkZXJzOn81T-2bBtz4vkObQm27
       iI0Ww8K2ZeRwkSaR8zL2Qo-5NiIGRcml059S1_halz_GuWy4xOctS5WZOuIe5FaA",
-    "idToken": null,[(6)](apiDevGuide-authentication.html#mg_d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
-    "refreshToken": null[(7)](apiDevGuide-authentication.html#mg_d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+    "idToken": null,
+    "refreshToken": null
   },
-  "status": "SUCCESS"[(8)](apiDevGuide-authentication.html#mg_d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+  "status": "SUCCESS"
 }
 
 ```
@@ -218,18 +218,18 @@ The following example shows the JWT payload contents for a partner API client ac
 
 ```
 {
-  "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",[(1)](apiDevGuide-authentication.html#d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",[(2)](apiDevGuide-authentication.html#d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "https://toasttab.com/partner_guid": "23a8eca9-b403-45bf-cd66-fb36a85be556",[(3)](apiDevGuide-authentication.html#d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "https://toasttab.com/type": "CUSTOMER",[(4)](apiDevGuide-authentication.html#d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "iss": "[Toast-token-issuer]",[(5)](apiDevGuide-authentication.html#d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "sub": "`my-client-id`@clients",[(6)](apiDevGuide-authentication.html#d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "aud": "https://toast-services-api/",[(7)](apiDevGuide-authentication.html#d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "iat": 1603107025,[(8)](apiDevGuide-authentication.html#d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "exp": 1588176466,[(9)](apiDevGuide-authentication.html#d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "azp": "`my-client-id`",[(10)](apiDevGuide-authentication.html#d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "scope": "orders:read menus:read",[(11)](apiDevGuide-authentication.html#d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "gty": "client-credentials"[(12)](apiDevGuide-authentication.html#d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",
+  "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",
+  "https://toasttab.com/partner_guid": "23a8eca9-b403-45bf-cd66-fb36a85be556",
+  "https://toasttab.com/type": "CUSTOMER",
+  "iss": "[Toast-token-issuer]",
+  "sub": "`my-client-id`@clients",
+  "aud": "https://toast-services-api/",
+  "iat": 1603107025,
+  "exp": 1588176466,
+  "azp": "`my-client-id`",
+  "scope": "orders:read menus:read",
+  "gty": "client-credentials"
 }
 ```
 
@@ -268,12 +268,12 @@ The authentication API returns the information shown in the following example fo
 
 ```
 {
-  "@class": ".SuccessfulResponse",[(1)](apiDevGuide-authentication.html#d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+  "@class": ".SuccessfulResponse",
   "token": {
-    "tokenType": "Bearer",[(2)](apiDevGuide-authentication.html#d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
-    "scope": null,[(3)](apiDevGuide-authentication.html#d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co) 
-    "expiresIn": 19168,[(4)](apiDevGuide-authentication.html#d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
-    "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyR3[(5)](apiDevGuide-authentication.html#d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+    "tokenType": "Bearer",
+    "scope": null, 
+    "expiresIn": 19168,
+    "accessToken": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyR3
       V3JkZXJzOnYThkYWE5LWIyMDQtNDhhZi1iZDY2LWZiMzZkNzViYjU1NiIsIm5hbWl
       uZ0F1dGhvcml05NiIGlBFVEVSUEFSVE5FUiIsImF6cCI6InBldGVyLXBhcnRuZXIi
       LCJzY29wZSI6WyJjcm0iLCJsYWJvciIsImNvbmZpZ3VyYXRpb24iLCJjYXNobWdtd
@@ -287,10 +287,10 @@ The authentication API returns the information shown in the following example fo
       G_PYZRsb7lwmJG3tPW74bDKZhYJVnPO3HMNnd93A8AL4QVOVBO6L6BdqsK3lZ7nzY
       0hALk-LzyD-w_maz-s2kFx7vbWrp0l2X_gSpEi3JkZXJzOn81T-2bBtz4vkObQm27
       iI0Ww8K2ZeRwkSaR8zL2Qo-5NiIGRcml059S1_halz_GuWy4xOctS5WZOuIe5FaA",
-    "idToken": null,[(6)](apiDevGuide-authentication.html#d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
-    "refreshToken": null[(7)](apiDevGuide-authentication.html#d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+    "idToken": null,
+    "refreshToken": null
   },
-  "status": "SUCCESS"[(8)](apiDevGuide-authentication.html#d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E-co)
+  "status": "SUCCESS"
 }
 
 ```
@@ -320,18 +320,18 @@ The following example shows the JWT payload contents for a restaurant management
 
 ```
 {
-  "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",[(1)](apiDevGuide-authentication.html#d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",[(2)](apiDevGuide-authentication.html#d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "https://toasttab.com/management_set_guid": "0423ad35-8ba2-45cf-9b6b-7da03f982c46",[(3)](apiDevGuide-authentication.html#d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "https://toasttab.com/type": "CUSTOMER",[(4)](apiDevGuide-authentication.html#d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "iss": "[Toast-token-issuer]",[(5)](apiDevGuide-authentication.html#d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "sub": "`my-client-id`@clients",[(6)](apiDevGuide-authentication.html#d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "aud": "https://toast-services-api/",[(7)](apiDevGuide-authentication.html#d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "iat": 1603107025,[(8)](apiDevGuide-authentication.html#d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "exp": 1588176466,[(9)](apiDevGuide-authentication.html#d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "azp": "`my-client-id`",[(10)](apiDevGuide-authentication.html#d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "scope": "orders:read menus:read",[(11)](apiDevGuide-authentication.html#d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
-  "gty": "client-credentials"[(12)](apiDevGuide-authentication.html#d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9-co)
+  "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",
+  "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",
+  "https://toasttab.com/management_set_guid": "0423ad35-8ba2-45cf-9b6b-7da03f982c46",
+  "https://toasttab.com/type": "CUSTOMER",
+  "iss": "[Toast-token-issuer]",
+  "sub": "`my-client-id`@clients",
+  "aud": "https://toast-services-api/",
+  "iat": 1603107025,
+  "exp": 1588176466,
+  "azp": "`my-client-id`",
+  "scope": "orders:read menus:read",
+  "gty": "client-credentials"
 }
 ```
 

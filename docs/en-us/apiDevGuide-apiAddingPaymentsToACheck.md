@@ -65,12 +65,12 @@ The following example shows an array of `Payment` objects to add payments to a c
 ```
 [
   {
-    "guid": "7c65cc16-15bd-496e-886b-a3c080b36100",[(1)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1602C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
-    "type": "CREDIT",[(2)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1622C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
-    "amount": 35.21,[(3)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1642C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
-    "tipAmount": 15[(4)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1662C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
+    "guid": "7c65cc16-15bd-496e-886b-a3c080b36100",
+    "type": "CREDIT",
+    "amount": 35.21,
+    "tipAmount": 15
   },
-  {[(5)](apiDevGuide-apiAddingPaymentsToACheck.html#SecondPaymentObjectInBodyParamco)
+  {
     "guid": "bbb13b9b-1897-48ce-81da-953a83e6472d",
     "type": "CREDIT",
     "amount": 48.74,
@@ -97,21 +97,21 @@ The following example shows example response data for a `POST` request to the `/
 
 ```
 {
-  "guid": "99e42b9c-2f45-4b01-ab90-de4169f6dd29",[(1)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1922C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
+  "guid": "99e42b9c-2f45-4b01-ab90-de4169f6dd29",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
     {
-      "guid": "b7dba08f-db0c-4db3-8ce8-ef25aa0cc492",[(2)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1942C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
+      "guid": "b7dba08f-db0c-4db3-8ce8-ef25aa0cc492",
       "entityType": "Check",
 
       [contents omitted]
 
-      "payments": [[(3)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1962C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
+      "payments": [
         {
-          "guid": "b7372d29-09fd-46bc-b95e-3c1ab4e77fae",[(4)](apiDevGuide-apiAddingPaymentsToACheck.html#d1e1982C4ACD83-A816-47C6-9522-28A21ED4EFA9-co)
+          "guid": "b7372d29-09fd-46bc-b95e-3c1ab4e77fae",
           "entityType": "OrderPayment",
           "externalId": null,
           "originalProcessingFee": null,

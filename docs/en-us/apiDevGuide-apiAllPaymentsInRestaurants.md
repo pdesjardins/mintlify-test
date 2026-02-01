@@ -49,8 +49,8 @@ curl -X GET \ -H "Authorization: Bearer
       9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
       QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
       dWq4Yzwo007AMgxjH9d241Y-g" \ -H "Toast-Restaurant-External-ID:
-      76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \[(1)](apiDevGuide-apiAllPaymentsInRestaurants.html#d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD-co)
-      https://`[toast-api-hostname]`/orders/v2/payments?paidBusinessDate=20200211[(2)](apiDevGuide-apiAllPaymentsInRestaurants.html#d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD-co)
+      76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \
+      https://`[toast-api-hostname]`/orders/v2/payments?paidBusinessDate=20200211
 ```
 
 
@@ -65,7 +65,7 @@ The following example shows the JSON response data for a GET request to the `/pa
 **Example 3.2. Get all payments return data**
 
 ```
-[[(1)](apiDevGuide-apiAllPaymentsInRestaurants.html#d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD-co)
+[
   "361d140a-aa0b-43ad-98d6-516c416555d9",
   "198790e9-ea0d-4eb1-9bed-fc6c3d71d71e",
   "249c4be9-2236-4636-a90a-3ad15fb1fc69"

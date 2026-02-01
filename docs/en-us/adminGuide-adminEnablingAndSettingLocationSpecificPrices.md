@@ -31,7 +31,7 @@ You must enable location-specific pricing on the details page for a menu item. A
 1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
 
 
 3. Use the You are viewing menu to filter the page so that you see the menu that contains the menu item you want to set location-specific prices for.See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.
@@ -52,7 +52,7 @@ You must enable location-specific pricing on the details page for a menu item. A
 
 **Procedure 5.7. To set location-specific prices for a menu item using the Price Editor**
 
-1. Choose Menus > Bulk management > Price editor to open the Price editorpage.
+1. Choose Menus \> Bulk management \> Price editor to open the Price editorpage.
 
 
 2. The You are viewing menu retains the settings you specified in the previous procedure, so the menu item should be available to edit on this page. To make it easier to find location-specific prices on the Price editorpage, you can also click the All Strategies menu and choose Location Specific Price.

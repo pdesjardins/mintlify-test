@@ -24,7 +24,7 @@ To verify that your kitchen printers are assigned correctly, follow these steps.
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Prep stations. An interactive grid with rows for each prep station appears.
+2. Choose Kitchen \> Kitchen stations \> Prep stations. An interactive grid with rows for each prep station appears.
 
 
 3. Review the Ticket Printer assignment for each prep station. If you assign the same printer to multiple prep stations, that printer will produce tickets for all of those prep stations.
@@ -33,7 +33,7 @@ To verify that your kitchen printers are assigned correctly, follow these steps.
 4. Save any changes.
 
 
-5. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen. 
+5. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen. 
 
 
 6. In the Expediter section, review the Expediter Printer(s) setting. If you assign the same printer to both the expediter and a prep station, that printer will produce tickets for both the prep station and the expediter.

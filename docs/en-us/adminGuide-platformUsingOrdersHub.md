@@ -553,7 +553,7 @@ In the detailed order information view, the following actions are available:
 
 > **Note**
 > 
-> Dining options and behaviors can be configured on the Kitchen > Dining options > Dining optionspage in Toast Web.
+> Dining options and behaviors can be configured on the Kitchen \> Dining options \> Dining optionspage in Toast Web.
 
 
 You can filter orders by the following options:
@@ -827,7 +827,7 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Orders Hub > Order ready guest messaging to open the Kitchen Display System (KDS) configuration page. To turn on the KDS configuration, toggle the setting from Offto On.
+2. Choose Takeout & delivery \> Orders Hub \> Order ready guest messaging to open the Kitchen Display System (KDS) configuration page. To turn on the KDS configuration, toggle the setting from Offto On.
 
 
 3. Select the Save button and then Publish all changes button. The Confirm Publish dialog box appears.
@@ -843,10 +843,10 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 
 > **Note**
 > 
-> To use the Orders Hub order ready messaging feature, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees > Employee management > Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
+> To use the Orders Hub order ready messaging feature, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
 
 
-On the Orders Hub screen, you can send a text message to guests notifying them that their order(s) are ready for pick up. When an Active order is marked as Order Ready, a text message is sent. You can configure order ready messaging in Toast Web. To open the Order Ready Messaging configuration page, choose Takeout & delivery > Orders Hub > Order ready messages > Order Ready Messaging.
+On the Orders Hub screen, you can send a text message to guests notifying them that their order(s) are ready for pick up. When an Active order is marked as Order Ready, a text message is sent. You can configure order ready messaging in Toast Web. To open the Order Ready Messaging configuration page, choose Takeout & delivery \> Orders Hub \> Order ready messages \> Order Ready Messaging.
 
 
 
@@ -878,7 +878,7 @@ The use of order ready messaging for marketing or other similar commercial messa
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Takeout & delivery > Orders Hub > Order ready guest messaging to open the Order ready messaging configuration page.
+2. Choose Takeout & delivery \> Orders Hub \> Order ready guest messaging to open the Order ready messaging configuration page.
 
 
 

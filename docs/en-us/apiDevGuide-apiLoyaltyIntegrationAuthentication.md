@@ -62,9 +62,9 @@ The following example shows the public key string in the JSON response from the 
 **Example 10.17. Example Public Key for Partner API Authentication**
 
 ```
-{[(1)](apiDevGuide-apiLoyaltyIntegrationAuthentication.html#d1e1145C7E95702-B765-4E3D-A3BE-E61D205ED051-co)
-   "alg":"SHA256withRSA",[(2)](apiDevGuide-apiLoyaltyIntegrationAuthentication.html#d1e1147C7E95702-B765-4E3D-A3BE-E61D205ED051-co)
-   "value":"-----BEGIN PUBLIC KEY-----\nnub\nvwIDAhqhkiG9w0BAQEJ9tKko/3jXqdzI/NO4n[(3)](apiDevGuide-apiLoyaltyIntegrationAuthentication.html#d1e1149C7E95702-B765-4E3D-A3BE-E61D205ED051-co)
+{
+   "alg":"SHA256withRSA",
+   "value":"-----BEGIN PUBLIC KEY-----\nnub\nvwIDAhqhkiG9w0BAQEJ9tKko/3jXqdzI/NO4n
 sAt0WZjpyovan2xPIkCv2z\nuaBBVUrOiJ6JeoJ9tKko/3jXqdzI/NO4nsLW5wq5UrPXsvbdXLZzMhu3b3
 sNmFJ9tKko/3jX5AEBaf5vXZCOfBVFnWnhLX61/KkI2dxwhS7fkxnjQ8wlfrh4tp3fKjDkI\nMgxTk1teh
 fWY0O3mKyKtnYvqvDSRvsZ03URzyEPddVYDYZjpyovan2xPypKRvBlxz\nxhM74p8dOhEp6zAh4pENVNyp

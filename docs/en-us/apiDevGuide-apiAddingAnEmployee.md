@@ -48,9 +48,9 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiAddingAnEmployee.html#d1e17121EC7EA2-706D-4B5B-B210-636982B89D94-co)
--H "Content-Type: application/json" \[(2)](apiDevGuide-apiAddingAnEmployee.html#d1e17321EC7EA2-706D-4B5B-B210-636982B89D94-co)
--d @my-new-employee-data.json \[(3)](apiDevGuide-apiAddingAnEmployee.html#d1e17521EC7EA2-706D-4B5B-B210-636982B89D94-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+-H "Content-Type: application/json" \
+-d @my-new-employee-data.json \
 https://`[toast-api-hostname]`/labor/v1/employees
 ```
 
@@ -71,15 +71,15 @@ The following example shows the message body data that provides information abou
 
 ```
 {
-  "entityType": "RestaurantUser", [(1)](apiDevGuide-apiAddingAnEmployee.html#d1e900FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
-  "email": "jgauthier@example.com", [(2)](apiDevGuide-apiAddingAnEmployee.html#d1e902FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
-  "firstName": "Josephine", [(3)](apiDevGuide-apiAddingAnEmployee.html#d1e904FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
+  "entityType": "RestaurantUser", 
+  "email": "jgauthier@example.com", 
+  "firstName": "Josephine", 
   "chosenName": "Jo",
-  "lastName": "Gauthier", [(4)](apiDevGuide-apiAddingAnEmployee.html#d1e906FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
-  "externalId": "TPC-PARTNER:12345", [(5)](apiDevGuide-apiAddingAnEmployee.html#d1e908FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
+  "lastName": "Gauthier", 
+  "externalId": "TPC-PARTNER:12345", 
   "externalEmployeeId": "1234567890", 
-  "passcode": "12345",[(6)](apiDevGuide-apiAddingAnEmployee.html#d1e911FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
-  "jobReferences": [ [(7)](apiDevGuide-apiAddingAnEmployee.html#d1e913FBC60BD6-1C8B-4652-A8F4-6C93856B0D67-co)
+  "passcode": "12345",
+  "jobReferences": [ 
     {
       "guid": "8d3bba92-10e4-4345-9ae6-ed94c09dc332",
       "entityType": "RestaurantJob"
@@ -113,7 +113,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 ```
 {
-  "guid": "e5c3a2f3-8aa2-4a66-b379-6c80b7277dc3",[(1)](apiDevGuide-apiAddingAnEmployee.html#d1e21821EC7EA2-706D-4B5B-B210-636982B89D94-co)
+  "guid": "e5c3a2f3-8aa2-4a66-b379-6c80b7277dc3",
   "entityType": "RestaurantUser",
   "externalId": null,
   "lastName": "Gauthier",
@@ -123,7 +123,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
   "createdDate": "2019-10-02T13:11:22.824+0000",
   "deleted": false,
   "deletedDate": null,
-  "jobReferences": [[(2)](apiDevGuide-apiAddingAnEmployee.html#add-employee-job-co)
+  "jobReferences": [
     {
       "guid": "8d3bba92-10e4-4345-9ae6-ed94c09dc332",
       "entityType": "RestaurantJob",
@@ -134,7 +134,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
   "disabled": null,
   "externalEmployeeId": null,
   "email": "jgauthier@example.com",
-  "passcode": "12345"[(3)](apiDevGuide-apiAddingAnEmployee.html#d1e22021EC7EA2-706D-4B5B-B210-636982B89D94-co)
+  "passcode": "12345"
 }
 ```
 

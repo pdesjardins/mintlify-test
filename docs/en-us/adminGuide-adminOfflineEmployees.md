@@ -60,7 +60,7 @@ The example in the procedure adjusts the time entry's Out Date field, which was 
 
 **Procedure 4.24. To adjust an employee's time entry record**
 
-1. In Toast Web, select Reports > Employee performance > Time entries.
+1. In Toast Web, select Reports \> Employee performance \> Time entries.
 
 
 2. If necessary, change the View on the Time Entries page to reflect when the employee clocked in and choose Update. For example, change it to Yesterday if the employee clocked in yesterday but you are making the change today.

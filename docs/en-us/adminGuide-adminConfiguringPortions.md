@@ -45,7 +45,7 @@ Detailed instructions for each of these configurations is provided below.
 1. Log in to Toast Web.
 
 
-2. Choose Menus > Menu management > Portions to open the Portionspage.
+2. Choose Menus \> Menu management \> Portions to open the Portionspage.
 
 
 3. Click the Add button to add a new portion.
@@ -79,7 +79,7 @@ Detailed instructions for each of these configurations is provided below.
 1. Log in to Toast Web.
 
 
-2. Choose Menus > Menu management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Menu management \> Advanced properties to open the Advanced properties page.
 
 
 3. Expand the menu and menu groups as necessary to locate a menu item that should have portions enabled.
@@ -103,7 +103,7 @@ Detailed instructions for each of these configurations is provided below.
 1. Log in to Toast Web.
 
 
-2. Choose Menus > Menu management > Advanced properties to open the Advanced properties page.
+2. Choose Menus \> Menu management \> Advanced properties to open the Advanced properties page.
 
 
 3. Expand the menu and menu groups as necessary to locate a modifier group that should have portions enabled.

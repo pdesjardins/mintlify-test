@@ -30,7 +30,7 @@ The following procedure describes how to create analytics API access credentials
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Integrations > Toast API access > Manage credentials to open the Manage credentials page.
+2. Choose Integrations \> Toast API access \> Manage credentials to open the Manage credentials page.
 
 
 

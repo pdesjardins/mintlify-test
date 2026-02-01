@@ -63,7 +63,7 @@ When an employee is assigned a job, the employee inherits the permissions associ
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-megan-mgr-restaurant-access.PNG)
 
-Megan Manager is assigned a job that applies to the Boston and Burlington locations only and includes the Account Admin > User Permissions permission. In this scenario, Megan Manager will have the User Permissions permission for the Boston and Burlington locations but not for the NYC, Atlanta, and Charlotte locations.
+Megan Manager is assigned a job that applies to the Boston and Burlington locations only and includes the Account Admin \> User Permissions permission. In this scenario, Megan Manager will have the User Permissions permission for the Boston and Burlington locations but not for the NYC, Atlanta, and Charlotte locations.
 
 #### Assigning an enterprise job
 

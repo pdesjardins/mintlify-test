@@ -134,10 +134,10 @@ The standard string representation of external identifiers is as follows:
 {`authority-name`}:{`identifier`}
 ```
 
-- *`authority-name`*: the unique name assigned by Toast for the naming authority for this domain object. (required for clients, <= 16 characters)
+- *`authority-name`*: the unique name assigned by Toast for the naming authority for this domain object. (required for clients, \<= 16 characters)
 
 
-- *`identifier`*: a string, number or combination thereof, that uniquely identifies a domain object in an external system (required, <= 256 characters)
+- *`identifier`*: a string, number or combination thereof, that uniquely identifies a domain object in an external system (required, \<= 256 characters)
 
 
 

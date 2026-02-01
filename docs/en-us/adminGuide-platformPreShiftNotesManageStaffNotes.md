@@ -51,10 +51,10 @@ As an employee, you can view staff notes on the Pre-shift notes screen on a Toas
 
 On a Toast POS device, staff can view notes from either: 
 
-- My Account > Pre-shift notes
+- My Account \> Pre-shift notes
 
 
-- Overflow menu > Pre-shift notes on the following screens: Table Service, Quick Order, Fast Service, Payment Terminal and Orders Hub.
+- Overflow menu \> Pre-shift notes on the following screens: Table Service, Quick Order, Fast Service, Payment Terminal and Orders Hub.
 
 
 
@@ -67,7 +67,7 @@ On a Toast POS device, staff can view notes from either:
 
 #### Creating staff notes
 
-On the Toast Now app, you can create notes for your staff. For example, you can create notes to capture menu changes, to remind your staff of side work, or to help coordinate events. To create a staff note, you must have access to the Toast Now app and have an employee job type that has access to the Manager > 3.2 Log Book permission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
+On the Toast Now app, you can create notes for your staff. For example, you can create notes to capture menu changes, to remind your staff of side work, or to help coordinate events. To create a staff note, you must have access to the Toast Now app and have an employee job type that has access to the Manager \> 3.2 Log Book permission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
 
 **Procedure 4.7. To create a staff note**
 

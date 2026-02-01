@@ -35,7 +35,7 @@ There are key differences between the behavior of the Publish Now prompt and the
 
 > **Note**
 > 
-> The Toast development team is working on an improved experience for publishing changes called the Publishing center. The Toast account > Publishing > Publishing center page will provide a centralized location where you can view information about configuration changes that are waiting to be published, have been successfully published, have failed to be published, or are scheduled to be published in the future. This feature is a work in progress and is in limited release. For more information, see [Publishing center overview](platformPublishingCenterOverview.html).
+> The Toast development team is working on an improved experience for publishing changes called the Publishing center. The Toast account \> Publishing \> Publishing center page will provide a centralized location where you can view information about configuration changes that are waiting to be published, have been successfully published, have failed to be published, or are scheduled to be published in the future. This feature is a work in progress and is in limited release. For more information, see [Publishing center overview](platformPublishingCenterOverview.html).
 
 
 #### Using the Publish Now prompt and Publish all changes buttons

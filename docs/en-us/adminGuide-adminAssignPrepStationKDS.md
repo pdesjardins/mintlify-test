@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Assigning a KDS device to a prep station
 
-If you use KDS devices to display tickets, you must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setupaccess permission to configure each device to display the tickets for a specific prep station. Before you add a prep station to a KDS device, consider whether you want or need to display the items sent to that prep station on that device.
+If you use KDS devices to display tickets, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setupaccess permission to configure each device to display the tickets for a specific prep station. Before you add a prep station to a KDS device, consider whether you want or need to display the items sent to that prep station on that device.
 
 
 
@@ -101,13 +101,13 @@ If you need to define different quantities for different item sizes, you must se
 
 To configure a production item, you must have the following access permissions.
 
-- 4. Restaurant Admin > 4.5 Edit Full Menu
+- 4. Restaurant Admin \> 4.5 Edit Full Menu
 
 
-- 6. Web Setup > 6.2 Kitchen / Dining Room Setup
+- 6. Web Setup \> 6.2 Kitchen / Dining Room Setup
 
 
-- 7. Device Setup > 7.3 KDS and Order Screen Setup
+- 7. Device Setup \> 7.3 KDS and Order Screen Setup
 
 
 
@@ -133,7 +133,7 @@ Follow these procedures to complete the configuration of a production item.
 2. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-3. Choose Kitchen > Kitchen stations > Production items to open the Production itemspage.
+3. Choose Kitchen \> Kitchen stations \> Production items to open the Production itemspage.
 
 
 4. Select the + Add button and then enter the name of the production item.
@@ -162,7 +162,7 @@ After you create one or more production items, you can assign them to menu items
 1. Identify a menu item or modifier that uses one of your production items and the quantity that it uses.
 
 
-2. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus > Bulk management > Advanced properties.
+2. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus \> Bulk management \> Advanced properties.
 
 
 3. (Multi-location restaurants only) Choose the locations you want to view from the You are viewing dropdown menu.

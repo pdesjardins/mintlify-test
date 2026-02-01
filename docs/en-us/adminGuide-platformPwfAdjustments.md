@@ -53,7 +53,7 @@ A check void completely removes a check. Keep the following in mind when voiding
 - If a check has a percent service charge, this charge remains on the check and is not removed if voided. However, service charge is updated to $0.00.
 
 
-- If a check has been sent to the kitchen, and then voided, the voided check is still shown on the Payments report in Toast Web. You can find this report from Reports > Payments > Payments.
+- If a check has been sent to the kitchen, and then voided, the voided check is still shown on the Payments report in Toast Web. You can find this report from Reports \> Payments \> Payments.
 
 
 - Voiding a check with a negative balance prompts you to refund the guest.

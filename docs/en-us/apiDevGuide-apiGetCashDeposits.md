@@ -35,8 +35,8 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiGetCashDeposits.html#d1e340BCBEC7F8-786B-4966-9AA6-0D290AA55A72-co)
-https://`[toast-api-hostname]`/cashmgmt/v1/deposits?businessDate=20190918[(2)](apiDevGuide-apiGetCashDeposits.html#d1e345BCBEC7F8-786B-4966-9AA6-0D290AA55A72-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+https://`[toast-api-hostname]`/cashmgmt/v1/deposits?businessDate=20190918
 ```
 
 
@@ -53,16 +53,16 @@ The following example shows a `DepositEntry` object in the response data from th
 ```
 [
   {
-    "guid": "8421034f-fa0b-495c-808e-bf98f63f0de7",[(1)](apiDevGuide-apiGetCashDeposits.html#d1e436A964BCF4-D54B-4D7D-8984-EE06A9BC0B09-co)
+    "guid": "8421034f-fa0b-495c-808e-bf98f63f0de7",
     "entityType": "DepositEntry",
-    "date": "2019-09-18T14:49:41.284+0000",[(2)](apiDevGuide-apiGetCashDeposits.html#d1e438A964BCF4-D54B-4D7D-8984-EE06A9BC0B09-co)
-    "amount": 3210.98,[(3)](apiDevGuide-apiGetCashDeposits.html#d1e440A964BCF4-D54B-4D7D-8984-EE06A9BC0B09-co)
-    "employee": {[(4)](apiDevGuide-apiGetCashDeposits.html#d1e442A964BCF4-D54B-4D7D-8984-EE06A9BC0B09-co)
+    "date": "2019-09-18T14:49:41.284+0000",
+    "amount": 3210.98,
+    "employee": {
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "undoes": null[(5)](apiDevGuide-apiGetCashDeposits.html#d1e444A964BCF4-D54B-4D7D-8984-EE06A9BC0B09-co)
+    "undoes": null
   }
 ]
 ```

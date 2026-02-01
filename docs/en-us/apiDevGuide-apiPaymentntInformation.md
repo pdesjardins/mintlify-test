@@ -38,8 +38,8 @@ curl -X GET \ -H "Authorization: Bearer
       9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
       QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
       dWq4Yzwo007AMgxjH9d241Y-g" \ -H "Toast-Restaurant-External-ID:
-      76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \[(1)](apiDevGuide-apiPaymentntInformation.html#d1e8108E4737FC-3875-4918-866A-092F630A0814-co)
-      https://`[toast-api-hostname]`/orders/v2/payments/361d140a-aa0b-43ad-98d6-516c416555d9[(2)](apiDevGuide-apiPaymentntInformation.html#d1e8158E4737FC-3875-4918-866A-092F630A0814-co)
+      76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \
+      https://`[toast-api-hostname]`/orders/v2/payments/361d140a-aa0b-43ad-98d6-516c416555d9
 ```
 
 
@@ -55,12 +55,12 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 ```
 {
-  "guid": "361d140a-aa0b-43ad-98d6-516c416555d9",[(1)](apiDevGuide-apiPaymentntInformation.html#d1e8554F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
+  "guid": "361d140a-aa0b-43ad-98d6-516c416555d9",
   "entityType": "OrderPayment",
   "externalId": null,
   "originalProcessingFee": null,
-  "amount": 57.73,[(2)](apiDevGuide-apiPaymentntInformation.html#d1e8574F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
-  "tipAmount": 0,[(3)](apiDevGuide-apiPaymentntInformation.html#d1e8594F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
+  "amount": 57.73,
+  "tipAmount": 0,
   "amountTendered": 0,
   "cashDrawer": null,
   "cardType": "VISA",
@@ -68,20 +68,20 @@ The following example shows the JSON response data for a GET request to the `/pa
     "id": "7c664bbbb33913bd"
   },
   "refundStatus": "NONE",
-  "houseAccount": null,[(4)](apiDevGuide-apiPaymentntInformation.html#d1e8614F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
-  "type": "CREDIT",[(5)](apiDevGuide-apiPaymentntInformation.html#d1e8634F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
-  "voidInfo": null,[(6)](apiDevGuide-apiPaymentntInformation.html#d1e8664F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
-  "otherPayment": null,[(7)](apiDevGuide-apiPaymentntInformation.html#d1e8684F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
+  "houseAccount": null,
+  "type": "CREDIT",
+  "voidInfo": null,
+  "otherPayment": null,
   "mcaRepaymentAmount": null,
   "createdDevice": {
     "id": "7c664bbbb33913bd"
   },
-  "paidDate": "2020-02-11T16:38:32.774+0000",[(8)](apiDevGuide-apiPaymentntInformation.html#d1e8704F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
-  "cardEntryMode": "KEYED",[(9)](apiDevGuide-apiPaymentntInformation.html#d1e8724F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
-  "paymentStatus": "CAPTURED",[(10)](apiDevGuide-apiPaymentntInformation.html#d1e8744F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
+  "paidDate": "2020-02-11T16:38:32.774+0000",
+  "cardEntryMode": "KEYED",
+  "paymentStatus": "CAPTURED",
   "paidBusinessDate": 20200211,
   "last4Digits": "1111",
-  "refund": null,[(11)](apiDevGuide-apiPaymentntInformation.html#d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49-co)
+  "refund": null,
   "orderGuid": "86675d88-b27e-4850-94ab-48662563eae8",
   "checkGuid": "ed4b222f-5259-43fd-8db0-1243a11ed554"
 }
@@ -154,29 +154,29 @@ The following example shows the JSON response data for a voided cash payment.
   "refundStatus": "NONE",
   "houseAccount": null,
   "type": "CASH",
-  "voidInfo": {[(1)](apiDevGuide-apiPaymentntInformation.html#d1e8873DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
-    "voidUser": {[(2)](apiDevGuide-apiPaymentntInformation.html#d1e8893DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
+  "voidInfo": {
+    "voidUser": {
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "voidApprover": {[(3)](apiDevGuide-apiPaymentntInformation.html#d1e8913DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
+    "voidApprover": {
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "voidDate": "2020-02-18T19:24:56.311+0000",[(4)](apiDevGuide-apiPaymentntInformation.html#d1e8933DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
-    "voidBusinessDate": 20200218,[(5)](apiDevGuide-apiPaymentntInformation.html#d1e8953DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
-    "voidReason": null[(6)](apiDevGuide-apiPaymentntInformation.html#d1e8983DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co) 
+    "voidDate": "2020-02-18T19:24:56.311+0000",
+    "voidBusinessDate": 20200218,
+    "voidReason": null 
   },
   "otherPayment": null,
   "mcaRepaymentAmount": null,
   "createdDevice": {
     "id": "7c664bbbb33913bd"
   },
-  "paidDate": "2020-02-18T18:10:28.187+0000",[(7)](apiDevGuide-apiPaymentntInformation.html#d1e9003DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
+  "paidDate": "2020-02-18T18:10:28.187+0000",
   "cardEntryMode": null,
-  "paymentStatus": "VOIDED",[(8)](apiDevGuide-apiPaymentntInformation.html#d1e9023DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF-co)
+  "paymentStatus": "VOIDED",
   "paidBusinessDate": 20200218, 
   "last4Digits": null, 
   "refund": null
@@ -226,7 +226,7 @@ The following example shows the JSON response data for a refunded credit card pa
   "lastModifiedDevice": {
     "id": null
   },
-  "refundStatus": "FULL",[(1)](apiDevGuide-apiPaymentntInformation.html#d1e11385397DA82-3E87-45E1-9461-6911EBC8A028-co)
+  "refundStatus": "FULL",
   "houseAccount": null,
   "type": "CREDIT",
   "voidInfo": null,
@@ -235,16 +235,16 @@ The following example shows the JSON response data for a refunded credit card pa
   "createdDevice": {
     "id": null
   },
-  "paidDate": "2020-02-19T19:47:51.206+0000",[(2)](apiDevGuide-apiPaymentntInformation.html#d1e11405397DA82-3E87-45E1-9461-6911EBC8A028-co)
+  "paidDate": "2020-02-19T19:47:51.206+0000",
   "cardEntryMode": "ONLINE",
   "paymentStatus": "CAPTURED",
   "paidBusinessDate": 20200219,
   "last4Digits": "1111",
-  "refund": {[(3)](apiDevGuide-apiPaymentntInformation.html#d1e11425397DA82-3E87-45E1-9461-6911EBC8A028-co)
-    "refundAmount": 6.36,[(4)](apiDevGuide-apiPaymentntInformation.html#d1e11445397DA82-3E87-45E1-9461-6911EBC8A028-co)
-    "tipRefundAmount": 0.0,[(5)](apiDevGuide-apiPaymentntInformation.html#d1e11465397DA82-3E87-45E1-9461-6911EBC8A028-co)
-    "refundDate": "2020-02-19T19:48:31.828+0000",[(6)](apiDevGuide-apiPaymentntInformation.html#d1e11495397DA82-3E87-45E1-9461-6911EBC8A028-co)
-    "refundBusinessDate": 20200219[(7)](apiDevGuide-apiPaymentntInformation.html#d1e11515397DA82-3E87-45E1-9461-6911EBC8A028-co)
+  "refund": {
+    "refundAmount": 6.36,
+    "tipRefundAmount": 0.0,
+    "refundDate": "2020-02-19T19:48:31.828+0000",
+    "refundBusinessDate": 20200219
   }
 }
 ```

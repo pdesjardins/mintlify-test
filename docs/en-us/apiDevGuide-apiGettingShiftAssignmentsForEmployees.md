@@ -41,9 +41,9 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878-co)
--o my-shifts-get-request-response-data.json \[(2)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878-co)
-"https://`[toast-api-hostname]`/labor/v1/shifts?startDate=[(3)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+-o my-shifts-get-request-response-data.json \
+"https://`[toast-api-hostname]`/labor/v1/shifts?startDate=
 2016-12-01T01:00:00.000-0000&endDate=2016-12-30T01:00:00.000-0000"
 ```
 
@@ -64,7 +64,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 ```
 [
-  {[(1)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878-co)
+  {
     "guid": "dbace5cb-390a-4242-a536-ca8a87393873",
     "entityType": "Shift",
     "externalId": null,
@@ -73,7 +73,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
     "deleted": false,
     "deletedDate": null,
     "employeeReference": {
-      "guid": "c2ecd57f-fc91-47ee-a30d-622c7726bf54",[(2)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878-co)
+      "guid": "c2ecd57f-fc91-47ee-a30d-622c7726bf54",
       "entityType": "RestaurantUser",
       "externalId": null
     },
@@ -94,7 +94,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
     "deleted": false,
     "deletedDate": null,
     "employeeReference": {
-      "guid": "c2ecd57f-fc91-47ee-a30d-622c7726bf54",[(3)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878-co)
+      "guid": "c2ecd57f-fc91-47ee-a30d-622c7726bf54",
       "entityType": "RestaurantUser",
       "externalId": null
     },
@@ -115,7 +115,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
     "deleted": false,
     "deletedDate": null,
     "employeeReference": {
-      "guid": "f438e387-660a-4a43-8478-947414ab08af",[(4)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878-co)
+      "guid": "f438e387-660a-4a43-8478-947414ab08af",
       "entityType": "RestaurantUser",
       "externalId": null
     },
@@ -151,8 +151,8 @@ For more information about the **jq** utility, see the [jq web site](https://ste
 
 ```
 jq \
-'.[] | select(.employeeReference.guid=="c2ecd57f-fc91-47ee-a30d-622c7726bf54")' \[(1)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD-co)
-my-shifts-get-request-response-data.json[(2)](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD-co)
+'.[] | select(.employeeReference.guid=="c2ecd57f-fc91-47ee-a30d-622c7726bf54")' \
+my-shifts-get-request-response-data.json
 ```
 
 

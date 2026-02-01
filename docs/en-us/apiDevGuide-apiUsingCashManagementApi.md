@@ -71,8 +71,8 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiUsingCashManagementApi.html#d1e195A5E2A1B1-DA0E-4054-99B6-F867706167E9-co)
-https://`[toast-api-hostname]`/cashmgmt/v1/entries?businessDate=20190917[(2)](apiDevGuide-apiUsingCashManagementApi.html#d1e200A5E2A1B1-DA0E-4054-99B6-F867706167E9-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+https://`[toast-api-hostname]`/cashmgmt/v1/entries?businessDate=20190917
 ```
 
 
@@ -89,28 +89,28 @@ The following example shows a `CashEntry` object in the response data from the `
 ```
 [
   {
-    "guid": "090f0e10-5469-4e86-a9d7-4c72eca366d7",[(1)](apiDevGuide-apiUsingCashManagementApi.html#d1e24433B240E1-39A5-4C20-8325-985CCE09250C-co)
+    "guid": "090f0e10-5469-4e86-a9d7-4c72eca366d7",
     "entityType": "CashEntry",
-    "date": "2019-09-17T15:32:49.844+0000",[(2)](apiDevGuide-apiUsingCashManagementApi.html#d1e24633B240E1-39A5-4C20-8325-985CCE09250C-co)
-    "reason": "buy window cleaning supplies",[(3)](apiDevGuide-apiUsingCashManagementApi.html#d1e24833B240E1-39A5-4C20-8325-985CCE09250C-co)
-    "amount": -25,[(4)](apiDevGuide-apiUsingCashManagementApi.html#d1e25033B240E1-39A5-4C20-8325-985CCE09250C-co)
-    "payoutReason": {[(5)](apiDevGuide-apiUsingCashManagementApi.html#d1e25233B240E1-39A5-4C20-8325-985CCE09250C-co)
+    "date": "2019-09-17T15:32:49.844+0000",
+    "reason": "buy window cleaning supplies",
+    "amount": -25,
+    "payoutReason": {
       "guid": "9bad959b-250e-4b0d-9b13-a1a52026474c",
       "entityType": "PayoutReason"
     },
-    "cashDrawer": {[(6)](apiDevGuide-apiUsingCashManagementApi.html#d1e25533B240E1-39A5-4C20-8325-985CCE09250C-co)
+    "cashDrawer": {
       "guid": "30795302-5fc9-461c-b314-ac8ea6e55cd5",
       "entityType": "CashDrawer"
     },
-    "undoes": null,[(7)](apiDevGuide-apiUsingCashManagementApi.html#d1e25733B240E1-39A5-4C20-8325-985CCE09250C-co)
-    "noSaleReason": null,[(8)](apiDevGuide-apiUsingCashManagementApi.html#d1e25933B240E1-39A5-4C20-8325-985CCE09250C-co)
-    "employee1": {[(9)](apiDevGuide-apiUsingCashManagementApi.html#d1e26133B240E1-39A5-4C20-8325-985CCE09250C-co)
+    "undoes": null,
+    "noSaleReason": null,
+    "employee1": {
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "type": "PAY_OUT",[(10)](apiDevGuide-apiUsingCashManagementApi.html#d1e26333B240E1-39A5-4C20-8325-985CCE09250C-co)
-    "employee2": null[(11)](apiDevGuide-apiUsingCashManagementApi.html#d1e26533B240E1-39A5-4C20-8325-985CCE09250C-co)
+    "type": "PAY_OUT",
+    "employee2": null
   }
 ]
 ```

@@ -25,7 +25,7 @@ You can access your shift review on the Toast POS app.
 1. Log in to a Toast POS device.
 
 
-2. Under My Account, select Shift Review to open the Shift Reviewscreen. As a manager, you can access and review your employees’ shift reviews by selecting Manager Activities> Review Employee Shifts.
+2. Under My Account, select Shift Review to open the Shift Reviewscreen. As a manager, you can access and review your employees’ shift reviews by selecting Manager Activities\> Review Employee Shifts.
 
 ![Shift review buttons on the Toast POS home screen.](https://doc.toasttab.com/doc/media/money-shift-review-accessing-shift-review.png)
 
@@ -37,7 +37,7 @@ You can review your shift review on a Toast POS device.
 
 **Procedure 6.108. To access your shift review**
 
-1. On the Toast POS device, select My Account > Shift Review to open the Shift Review screen. The Shift Reviewscreen displays the shift review report and the shift review workflow.
+1. On the Toast POS device, select My Account \> Shift Review to open the Shift Review screen. The Shift Reviewscreen displays the shift review report and the shift review workflow.
 
 ![Shift review screen on the Toast POS app.](https://doc.toasttab.com/doc/media/money-shift-review-shift-review-screen.png)
 
@@ -52,7 +52,7 @@ You can review your shift review on a Toast POS device.
 - Other shifts: This opens the Choose shift dialog box where you can choose to view and reopen previous shifts.
 
 
-- Full sales report: This opens the Sales Reports screen. The Sales Reports screen can also be accessed in Toast Web by selecting Reports > Sales > Sales summary. 
+- Full sales report: This opens the Sales Reports screen. The Sales Reports screen can also be accessed in Toast Web by selecting Reports \> Sales \> Sales summary. 
 
 
 - Refresh: This option manually resyncs order data and automatically updates the full sales report and the shift review report.

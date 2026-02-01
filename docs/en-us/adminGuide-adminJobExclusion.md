@@ -38,10 +38,10 @@ As a manager, you can measure key labor metrics with only controlled labor facto
 
 After excluding specific job roles, you can then run these reports and obtain metrics that do not have the excluded hourly jobs factored in:
 
-- In the Reports > Employee performance > Labor summary page, excluded jobs are not factored in the Total Pay column, while excluded job pay is not factored in the Total Pay/Sales column and excluded job hours are not factored in the Total Sales/Employee Hour column.
+- In the Reports \> Employee performance \> Labor summary page, excluded jobs are not factored in the Total Pay column, while excluded job pay is not factored in the Total Pay/Sales column and excluded job hours are not factored in the Total Sales/Employee Hour column.
 
 
-- In the Reports > Employee performance > Hourly sales report page, excluded job hours are not factored in the Labor Hrs column and excluded job pay is not factored in the Labor $ and Labor $/Net columns.
+- In the Reports \> Employee performance \> Hourly sales report page, excluded job hours are not factored in the Labor Hrs column and excluded job pay is not factored in the Labor $ and Labor $/Net columns.
 
 
 
@@ -50,7 +50,7 @@ After excluding specific job roles, you can then run these reports and obtain me
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Open the Employees > Employee management > Jobs page.
+2. Open the Employees \> Employee management \> Jobs page.
 
 
 3. Select an hourly job to be configured.

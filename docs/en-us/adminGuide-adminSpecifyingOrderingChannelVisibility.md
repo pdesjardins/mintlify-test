@@ -31,7 +31,7 @@ The details page for each menu, menu group, subgroup, menu item, or modifier gro
 
 - Customer invoices, Catering & Events, Catering Online Ordering: The menu entity is visible when:
 
-- Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
+- Creating customer invoices for orders using the Payments \> Payment methods \> Customer invoices page. For information, see this [Toast Central article](https://central.toasttab.com/s/article/How-to-Send-an-Invoice).
 
 
 - Creating catering orders using Toast Catering & Events. For information, see this [Toast Central article](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).

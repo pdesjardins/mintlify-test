@@ -18,7 +18,7 @@ codeExamples: 0
 
 ### Items database overview
 
-You can use the Menus > Bulk management > Items database page in Toast Web to:
+You can use the Menus \> Bulk management \> Items database page in Toast Web to:
 
 - View menu entities by entity type (menus, menu groups, menu items, modifier groups, modifiers). You can customize the properties you see for each entity type.
 

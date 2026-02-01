@@ -51,7 +51,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
 -H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
-"https://`[toast-api-hostname]`/labor/v1/employees/`0a7ced2c-b782-4585-8f41-4bb1656c3f67`/unarchive"[(1)](apiDevGuide-apiUnarchivingAnEmployee.html#d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3-co)
+"https://`[toast-api-hostname]`/labor/v1/employees/`0a7ced2c-b782-4585-8f41-4bb1656c3f67`/unarchive"
 ```
 
 
@@ -78,8 +78,8 @@ The following example shows the response for a `PUT` request to unarchive an emp
     "chosenName": null,
     "createdDate": "2025-06-13T14:33:48.930+0000",
     "phoneNumber": null,
-    "deleted": false,[(1)](apiDevGuide-apiUnarchivingAnEmployee.html#d1e143538BF6586-9DC9-4F2D-B959-8942F3A9B4B3-co)
-    "deletedDate": null,[(2)](apiDevGuide-apiUnarchivingAnEmployee.html#d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9-co)
+    "deleted": false,
+    "deletedDate": null,
     "jobReferences": [],
     "modifiedDate": "2025-06-13T14:35:12.598+0000",
     "externalEmployeeId": null,

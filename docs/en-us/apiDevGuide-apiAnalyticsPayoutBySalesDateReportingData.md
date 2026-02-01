@@ -59,10 +59,10 @@ To create a request for payout reporting data organized by sales date, include t
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/sales-date/{timeRange}` endpoint. This example uses the `day` time range.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/sales-date/day' \[(1)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8170E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Authorization: Bearer [token]' \[(2)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8172E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8174E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8176E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/sales-date/day' \
+  -H 'Authorization: Bearer [token]' \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -81,10 +81,10 @@ The following example shows the message body for creating a payout reporting dat
 
 ```
 {
-    "startDate": "20240710",[(1)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8218E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "endDate": "20240710",[(2)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8220E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],[(3)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8222E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "excludedRestaurantIds": [][(4)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8224E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+    "startDate": "20240710",
+    "endDate": "20240710",
+    "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],
+    "excludedRestaurantIds": []
 }
 ```
 
@@ -103,7 +103,7 @@ The following example shows the message body for creating a payout reporting dat
 The following example shows the response from the `/era/v1/payout/sales-date/day` endpoint.
 
 ```
-"bc5279b0-a46d-4707-94e6-614edd31f2b3"[(1)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8268E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+"bc5279b0-a46d-4707-94e6-614edd31f2b3"
 ```
 
 
@@ -121,9 +121,9 @@ Send a `GET` request to the `/era/v1/payout/sales-date/{reportRequestGuid}` endp
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/sales-date/{reportRequestGuid}`endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/sales-date/[(1)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8329E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-bc5279b0-a46d-4707-94e6-614edd31f2b3' \[(2)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8331E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.html#d1e8333E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/sales-date/
+bc5279b0-a46d-4707-94e6-614edd31f2b3' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

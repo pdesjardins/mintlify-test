@@ -252,7 +252,7 @@ If you do not want a menu item to inherit modifier groups, set its Inherit modif
 
 ##### Understanding where a menu item inherits its modifier groups from
 
-Menu items can belong to more than one menu path. When a menu item belongs to more than one menu path, it can inherit different modifier groups from each path. For example, the Grilled Cheese menu item in the illustration below belongs to two menu paths: Dinner > Dinner Sandwiches and Lunch > Lunch Sandwiches. When a Grilled Cheese is ordered from the Dinner > Dinner Sandwiches path, it uses the Dinner Sides modifier group. When a Grilled Cheese is ordered from the Lunch > Lunch Sandwiches path, the menu item uses the Lunch Sides modifier group.
+Menu items can belong to more than one menu path. When a menu item belongs to more than one menu path, it can inherit different modifier groups from each path. For example, the Grilled Cheese menu item in the illustration below belongs to two menu paths: Dinner \> Dinner Sandwiches and Lunch \> Lunch Sandwiches. When a Grilled Cheese is ordered from the Dinner \> Dinner Sandwiches path, it uses the Dinner Sides modifier group. When a Grilled Cheese is ordered from the Lunch \> Lunch Sandwiches path, the menu item uses the Lunch Sides modifier group.
 
 ![An example of a menu item that inherits different modifier groups, depending on the menu path the item is ordered from.](https://doc.toasttab.com/doc/media/menu-builder-inherited-mod-groups-from-different-paths.png)
 

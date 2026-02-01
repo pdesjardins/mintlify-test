@@ -74,7 +74,7 @@ The following example shows a `Payment` object that updates the tip amount for a
 
 ```
 {
-  "tipAmount": 10.00[(1)](apiDevGuide-apiUpdatingTipsInAPayment.html#d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5-co)
+  "tipAmount": 10.00
 }
 ```
 
@@ -88,26 +88,26 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
 
 ```
 {
-  "guid": "99e42b9c-2f45-4b01-ab90-de4169f6dd29",[(1)](apiDevGuide-apiUpdatingTipsInAPayment.html#d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5-co)
+  "guid": "99e42b9c-2f45-4b01-ab90-de4169f6dd29",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
     {
-      "guid": "b7dba08f-db0c-4db3-8ce8-ef25aa0cc492",[(2)](apiDevGuide-apiUpdatingTipsInAPayment.html#d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5-co)
+      "guid": "b7dba08f-db0c-4db3-8ce8-ef25aa0cc492",
       "entityType": "Check",
 
       [contents omitted]
 
       "payments": [
         {
-          "guid": "b7372d29-09fd-46bc-b95e-3c1ab4e77fae",[(3)](apiDevGuide-apiUpdatingTipsInAPayment.html#d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5-co)
+          "guid": "b7372d29-09fd-46bc-b95e-3c1ab4e77fae",
           "entityType": "OrderPayment",
           "externalId": null,
           "originalProcessingFee": null,
           "amount": 50.12,
-          "tipAmount": 10.00,[(4)](apiDevGuide-apiUpdatingTipsInAPayment.html#d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5-co)
+          "tipAmount": 10.00,
           "amountTendered": null,
           "cashDrawer": null,
           "cardType": "VISA",
@@ -125,7 +125,7 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
           },
           "paidDate": "2021-12-22T14:43:04.036+0000",
           "cardEntryMode": null,
-          "paymentStatus": "AUTHORIZED",[(5)](apiDevGuide-apiUpdatingTipsInAPayment.html#paymentStatus-co)
+          "paymentStatus": "AUTHORIZED",
           "paidBusinessDate": 20211222,
           "last4Digits": "1111",
           "refund": null

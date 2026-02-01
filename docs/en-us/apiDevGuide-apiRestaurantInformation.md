@@ -144,8 +144,8 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \[(1)](apiDevGuide-apiRestaurantInformation.html#d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D-co)
-https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf[(2)](apiDevGuide-apiRestaurantInformation.html#d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D-co)
+-H "Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf" \
+https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf
 ```
 
 
@@ -161,8 +161,8 @@ The following example shows the JSON response data for a GET request to the `/re
 
 ```
 {
-  "guid": "76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf",[(1)](apiDevGuide-apiRestaurantInformation.html#d1e566EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
-  "general": {[(2)](apiDevGuide-apiRestaurantInformation.html#d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
+  "guid": "76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf",
+  "general": {
     "archived": false,
     "name": "Trattoria Roma",
     "locationName": Fenway,
@@ -172,7 +172,7 @@ The following example shows the JSON response data for a GET request to the `/re
     "closeoutHour": 6,
     "managementGroupGuid": "ae6c32fe-f4d2-4dcc-aa82-f30edac96296"
   },
-  "urls": {[(3)](apiDevGuide-apiRestaurantInformation.html#d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
+  "urls": {
     "website": "https://www.example.com",
     "facebook": "",
     "twitter": "https://twitter.com/",
@@ -180,7 +180,7 @@ The following example shows the JSON response data for a GET request to the `/re
     "purchaseGiftCard": "https://www.toasttab.com/trattoria-roma/giftcards",
     "checkGiftCard": "https://www.toasttab.com/trattoria-roma/findcard"
   },
-  "location": {[(4)](apiDevGuide-apiRestaurantInformation.html#d1e572EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
+  "location": {
     "address1": "401 Park Drive",
     "address2": "",
     "city": "Boston",
@@ -191,7 +191,7 @@ The following example shows the JSON response data for a GET request to the `/re
     "latitude": 42.344552,
     "longitude": -71.102756
   },
-  "schedules": {[(5)](apiDevGuide-apiRestaurantInformation.html#d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
+  "schedules": {
     "daySchedules": {
       "1495000000000023": {
         "scheduleName": "Weekdays",
@@ -250,13 +250,13 @@ The following example shows the JSON response data for a GET request to the `/re
       "sunday": "1495000000000024"
     }
   },
-  "delivery": {[(6)](apiDevGuide-apiRestaurantInformation.html#d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
+  "delivery": {
     "enabled": true,
     "minimum": null,
     "area": ""
   },
-  "onlineOrdering": {[(7)](apiDevGuide-apiRestaurantInformation.html#d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
-    "enabled": true,[(8)](apiDevGuide-apiRestaurantInformation.html#apiRestaurantEnabled2)
+  "onlineOrdering": {
+    "enabled": true,
     "scheduling": false,
     "specialRequests": true,
     "specialRequestsMessage": "No substitutes",
@@ -275,7 +275,7 @@ The following example shows the JSON response data for a GET request to the `/re
       "ccTip": true
     }
   },
-  "prepTimes": {[(9)](apiDevGuide-apiRestaurantInformation.html#d1e581EA079BAD-EBC7-4074-A78B-E75704C9760F-co)
+  "prepTimes": {
     "deliveryPrepTime": 60,
     "deliveryTimeAfterOpen": 0,
     "deliveryTimeBeforeClose": 0,

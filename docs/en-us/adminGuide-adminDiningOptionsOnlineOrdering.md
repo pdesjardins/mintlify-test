@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Dining options for Toast online orders
 
-You configure dining option settings for Toast online orders in the Dining Options section. To open the Dining Options section, choose Takeout & delivery > Toast online ordering > Availability > Online ordering in Toast Web. The dining options you configure, such as delivery and takeout, are displayed on your restaurant's Toast Online Ordering website and Toast TakeOut.
+You configure dining option settings for Toast online orders in the Dining Options section. To open the Dining Options section, choose Takeout & delivery \> Toast online ordering \> Availability \> Online ordering in Toast Web. The dining options you configure, such as delivery and takeout, are displayed on your restaurant's Toast Online Ordering website and Toast TakeOut.
 
 If you configure only one dining option, that option will be set as default for all Toast online orders. If you configure more than one dining option, guests choose an option while placing their order. For example, if you configure the Takeout option setting and do not configure the Delivery option or Curbside option settings, your guests will be able to place Toast online orders for takeout only.
 

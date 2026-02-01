@@ -29,7 +29,7 @@ In Toast Web, you use the Discount and Food Waste Reasons page to set up the lis
 
 ![Discount and Food Waste Reasons page on Toast Web.](https://doc.toasttab.com/doc/media/discount-reasons-list.png)
 
-To display the Discount and Food Waste Reasons page, select Payments > Comps and promos > Discount and food waste reasons.
+To display the Discount and Food Waste Reasons page, select Payments \> Comps and promos \> Discount and food waste reasons.
 
 ##### Adding a discount reason
 

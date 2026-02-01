@@ -41,6 +41,6 @@ For example, the Lunch menu in the Menu Pricestable above has an identifier endi
 
 > **Note**
 > 
-> On the Advanced Properties page, be sure to choose your top-level restaurant group from the You are viewing menu and select Update. This ensures that you are viewing your entire restaurant group hierarchy and will see all the versions of each menu. Also, if you don't see the Number column on the Advanced Properties page, select the Show/Hidemenu and make sure Properties > Number is selected.
+> On the Advanced Properties page, be sure to choose your top-level restaurant group from the You are viewing menu and select Update. This ensures that you are viewing your entire restaurant group hierarchy and will see all the versions of each menu. Also, if you don't see the Number column on the Advanced Properties page, select the Show/Hidemenu and make sure Properties \> Number is selected.
 
 

@@ -25,7 +25,7 @@ codeExamples: 0
 > This feature is only available for Toast Flex devices. This feature is not available for Toast handhelds.
 
 
-To access your cash drawers on the Toast POS device, select the Toast logo until the Toast POS home screen appears. Choose Cash Management > Cash Drawers to open the Cash Drawers screen.
+To access your cash drawers on the Toast POS device, select the Toast logo until the Toast POS home screen appears. Choose Cash Management \> Cash Drawers to open the Cash Drawers screen.
 
 POS cash drawers actions are organized into the following categories:
 
@@ -89,7 +89,7 @@ The Cash In action adds cash to an open or paused cash drawer. Employees can ent
 ![Cash in dialog on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-cash-in.png)
 
 
-4. Select the Done button to save your Cash In entry. The Cash In entry is recorded on the cash drawer activity panel with the optional comment. The Cash In entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+4. Select the Done button to save your Cash In entry. The Cash In entry is recorded on the cash drawer activity panel with the optional comment. The Cash In entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 ![Cash in entry on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-cash-in-entry.png)
 
@@ -123,7 +123,7 @@ The Cash Collected action adds cash collected from an employee to an open or pau
 ![Cash collected entry on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-cash-collected-entry.png)
 
 
-7. Select the Done button to save your Cash Collected entry. The Cash Collected entry is recorded on the cash drawer activity panel with the optional comment. The Cash Collected entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+7. Select the Done button to save your Cash Collected entry. The Cash Collected entry is recorded on the cash drawer activity panel with the optional comment. The Cash Collected entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 To review details of the Cash Collectedentry, select the cash entry on the cash drawer activity panel. A dialog appears with details about the Cash Collected entry.
 
@@ -157,7 +157,7 @@ The Cash Out action removes cash from an open or paused cash drawer. The Cash Ou
 6. Select the Okay button to close out of the dialog.
 
 
-7. Select the Done button to save your Cash Out entry. The Cash Out entry is recorded on the cash drawer activity panel with the optional comment. The Cash Out entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+7. Select the Done button to save your Cash Out entry. The Cash Out entry is recorded on the cash drawer activity panel with the optional comment. The Cash Out entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 To review details of the Cash Outentry, select the cash entry on the cash drawer activity panel. A dialog appears with details about the Cash Out entry.
 
@@ -193,7 +193,7 @@ The Payout action removes cash from an open or paused cash drawer to pay for goo
 ![Payout entry on the Cash drawers screen on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-payout-entry.png)
 
 
-6. Select the Done button to save your Payout entry. The Payoutentry is recorded on the cash drawer activity panel with the optional comment. The Payout entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+6. Select the Done button to save your Payout entry. The Payoutentry is recorded on the cash drawer activity panel with the optional comment. The Payout entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 To review details of the Payout entry, select the cash entry on the cash drawer activity panel. A dialog appears with details about the Payoutentry.
 
@@ -204,7 +204,7 @@ To review details of the Payout entry, select the cash entry on the cash drawer 
 1. On the Toast POS device, select the Toast logo in the top corner until the Toast POS home screen appears.
 
 
-2. Choose Cash Management > Pay Out to open the Pay out dialog.
+2. Choose Cash Management \> Pay Out to open the Pay out dialog.
 
 
 3. In the Pay out dialog, complete the following:
@@ -230,7 +230,7 @@ To review details of the Payout entry, select the cash entry on the cash drawer 
 
 6. Select the Done button to complete the payout. The Payout entry is recorded on the cash drawer activity panel with the optional comment.
 
-The Payout entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+The Payout entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 A Pay Out slip is also printed with the name of the employee who made the payout with the following information:
 
@@ -286,7 +286,7 @@ To change the employee, select the pencil icon to open the Employees screen.
 5. Use the numerical keypad to enter the cash amount. To add a comment, select the + Add comment button. This opens a dialog where you can enter a comment.
 
 
-6. Select the Done button to save your Tip out entry. The Tip out entry is recorded on the cash drawer activity panel with the optional comment. The Tip Out entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+6. Select the Done button to save your Tip out entry. The Tip out entry is recorded on the cash drawer activity panel with the optional comment. The Tip Out entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 To review details of the Tip Out entry, select the cash entry on the cash drawer activity panel. A dialog appears with details about the Tip Outentry.
 
@@ -310,7 +310,7 @@ The Cash drop action removes cash from an open or paused cash drawer to transfer
 4. Use the numerical keypad to enter the cash amount. To add a comment, select the + Add comment button. This opens a dialog where you can enter a comment.
 
 
-5. Select the Done button to save your Cash drop entry. The Cash drop entry is recorded on the cash drawer activity panel with the optional comment. The Cash drop entry is also recorded in the Reports > Cash and loss management > Cash activity auditreport.
+5. Select the Done button to save your Cash drop entry. The Cash drop entry is recorded on the cash drawer activity panel with the optional comment. The Cash drop entry is also recorded in the Reports \> Cash and loss management \> Cash activity auditreport.
 
 To review details of the Cash drop entry, select the cash entry on the cash drawer activity panel. A dialog appears with details about the Cash drop entry.
 
@@ -355,7 +355,7 @@ The No sale action opens an open or paused cash drawer without changing the cash
 2. On the Cash drawer activity screen, select your No Sale reason button. This opens the Remove cash screen.
 
 
-3. A No sale entry is recorded on the cash drawer activity panel. The No sale entry is also recorded in the Reports > Cash and loss management > Cash activity audit report.
+3. A No sale entry is recorded on the cash drawer activity panel. The No sale entry is also recorded in the Reports \> Cash and loss management \> Cash activity audit report.
 
 To review details of the No Sale entry, select the cash entry on the cash drawer activity panel. A dialog appears with details about the No Saleentry.
 
@@ -370,18 +370,18 @@ You can configure no sale reasons in Toast Web.
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Transactions & refunds > No sale reasons to open the No sale reasons page. You can also configure no sale reasons from Payments > Payment methods > Cash overview > Payout and no sale reasons page.
+2. Choose Payments \> Transactions & refunds \> No sale reasons to open the No sale reasons page. You can also configure no sale reasons from Payments \> Payment methods \> Cash overview \> Payout and no sale reasons page.
 
 
 3. Select the + Add button to add another row to the No Sale Reasons table. Complete the following: 
 
-- Name: Enter a name that is descriptive of the purpose of the No Sale entry, such as *Make Change* or *Count Cash*. The name is included in the Reports > Cash and loss management > Cash activity audit report and also in the Reports > Cash and loss management > No sale report.
+- Name: Enter a name that is descriptive of the purpose of the No Sale entry, such as *Make Change* or *Count Cash*. The name is included in the Reports \> Cash and loss management \> Cash activity audit report and also in the Reports \> Cash and loss management \> No sale report.
 
 
 - Active: Select this checkbox if the no sale reason should be active. Only active reasons are listed on the Cash drawer activity screen.
 
 
-- Description (optional): Enter a description for the no sale reason. The description is not entered in the Reports > Cash and loss management > Cash activity audit report or in the Reports > Cash and loss management > No sale report. The description is intended to provide more information for anyone making changes on this page.
+- Description (optional): Enter a description for the no sale reason. The description is not entered in the Reports \> Cash and loss management \> Cash activity audit report or in the Reports \> Cash and loss management \> No sale report. The description is intended to provide more information for anyone making changes on this page.
 
 ![No sale reasons table on Toast Web.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-no-sale-table.png)
 
@@ -492,7 +492,7 @@ If no comment is provided, the following default comments are entered depending 
 
 ![Closeout shortage comment on cash entry dialog.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-closeout-shortage.png)
 
-Closeout comments are recorded in the Reports > Cash loss and management > Cash activity auditreport.
+Closeout comments are recorded in the Reports \> Cash loss and management \> Cash activity auditreport.
 
 ![Closeout shortage comment on cash entry dialog.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-closeout-comment-report.png)
 
@@ -511,14 +511,14 @@ When the new active drawer is created, it must have a starting balance. There ar
 
 
 
-To view and set the starting balance or reset balance type for individual cash drawers, choose Payments > Payment methods > Cash overview > View cash drawers to open the Cash drawers page. Select the arrow next to the cash drawer and navigate to the Primary cash drawer section to configure your cash balance settings.
+To view and set the starting balance or reset balance type for individual cash drawers, choose Payments \> Payment methods \> Cash overview \> View cash drawers to open the Cash drawers page. Select the arrow next to the cash drawer and navigate to the Primary cash drawer section to configure your cash balance settings.
 
 **Procedure 6.42. To configure a new starting balance for all cash drawers**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Payments > Payment methods > Cash overview > View cash drawers to open the Cash drawers page.
+2. Choose Payments \> Payment methods \> Cash overview \> View cash drawers to open the Cash drawers page.
 
 
 3. On the Cash drawers page, you can choose to change the starting balance and choose to either automatically start all new open drawers with the same starting balance. Select the checkbox under the Automatic reset column to automatically set the starting balance for each new open drawer. Clear the checkbox to manually set the starting balance for each new open drawer.
@@ -558,7 +558,7 @@ The Reopen action reopens a closed cash drawer. When you adjust the closing bala
 
 > **Note**
 > 
-> You must have the Manager > 3.21 Adjust Cash Drawer Start Balance permission to adjust the starting balance for a cash drawer.
+> You must have the Manager \> 3.21 Adjust Cash Drawer Start Balance permission to adjust the starting balance for a cash drawer.
 
 
 The starting balance is the initial amount of cash placed into a cash drawer at the beginning of a shift or day. You can adjust the starting balance for an open or paused cash drawer. For example, you need to adjust the starting balance because you accidentally put in a different amount of cash in the physical cash drawer than what is configured in Toast Web.
@@ -583,7 +583,7 @@ The starting balance is the initial amount of cash placed into a cash drawer at 
 ![Adjust cash drawer starting balance dialog.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-adjust-starting-balance-dialog.png)
 
 
-4. Select the Done button to save your changes. The new starting balance is displayed on the cash drawer activity panel. The new starting balance entry is recorded in the Reports > Cash and loss management > Cash drawer history report.
+4. Select the Done button to save your changes. The new starting balance is displayed on the cash drawer activity panel. The new starting balance entry is recorded in the Reports \> Cash and loss management \> Cash drawer history report.
 
 ![Adjusted cash drawer starting balance.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-adjusted-starting-balance-dialog.png)
 

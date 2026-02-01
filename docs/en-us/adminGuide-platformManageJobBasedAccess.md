@@ -26,7 +26,7 @@ If you do not have the permission enabled for any of your locations, you cannot 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Employees > Access management > Access management setup to open the Access management setup page.
+2. Choose Employees \> Access management \> Access management setup to open the Access management setup page.
 
 
 3. On the Access management setup page, navigate to the Limit POS permissions to clocked-in job setting and set the setting to On.
@@ -49,7 +49,7 @@ If you do not have the permission enabled for any of your locations, you cannot 
 5. Select the Save button to continue or the Cancel button to cancel out of the confirmation dialog.
 
 
-6. Choose Toast account > Publishing > Publish config to open the Publish configpage. Publish your changes for each location. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
+6. Choose Toast account \> Publishing \> Publish config to open the Publish configpage. Publish your changes for each location. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
 
 
 

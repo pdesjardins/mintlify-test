@@ -82,7 +82,7 @@ There are three levels of webhook subscription access:
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Integrations > Toast API access > Manage credentials to open the Manage webhooks page.
+2. Go to Integrations \> Toast API access \> Manage credentials to open the Manage webhooks page.
 
 
 3. On the Manage webhooks page, select the + Add webhook button. This opens the Create webhook subscription page.

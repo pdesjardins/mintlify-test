@@ -45,7 +45,7 @@ Follow the instructions below to make a copy of a bulk import template to use as
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Menus > Bulk management > Bulk import tool.
+2. Choose Menus \> Bulk management \> Bulk import tool.
 
 
 3. Select the link for the template you want to use. The template opens in a Google Sheets™ window.

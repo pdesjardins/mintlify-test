@@ -19,13 +19,13 @@ codeExamples: 0
 
 The order information that specifies the table or guest name for an order displays according to what was provided.
 
-1. If only the tab name is available, Tab: <tab name> is shown.
+1. If only the tab name is available, Tab: \<tab name\> is shown.
 
 
-2. If only the table number is available, Table <table number> is shown.
+2. If only the table number is available, Table \<table number\> is shown.
 
 
-3. If both tab name and table numbers are available, Table <table number>, Tab: <tab name> is shown.
+3. If both tab name and table numbers are available, Table \<table number>, Tab: \<tab name\> is shown.
 
 
 4. If neither the tab name nor table numbers are available, then the guest's first name and last name are shown. These are taken from the `Customers` object.

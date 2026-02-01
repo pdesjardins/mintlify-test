@@ -143,7 +143,7 @@ To manually save and publish your changes, follow the procedure below for the vi
 
 For single-location restaurants: Select Publish all changes.
 
-For multi-location restaurants: Select the Unpublished changes link at the top of the page to go to the Toast account > Publishing > Publish Config page and follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
+For multi-location restaurants: Select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page and follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
 
 
 
@@ -155,7 +155,7 @@ For multi-location restaurants: Select the Unpublished changes link at the top o
 2. In the Save changes now dialog, select Yes, save now.
 
 
-3. When you are ready to make your changes visible to employees and guests, select the Unpublished changes link at the top of the page to go to the Toast account > Publishing > Publish Config page.
+3. When you are ready to make your changes visible to employees and guests, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page.
 
 
 4. Follow the instructions below for your scenario:

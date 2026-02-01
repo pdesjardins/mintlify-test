@@ -61,10 +61,10 @@ To create a request for labor data, you must include:
 The following example **curl** command sends a `POST` request to the `/era/v1/labor/{timeRange}` endpoint. This example uses the `day` time range.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \[(1)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4384134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -H 'Authorization: Bearer [token]' \[(2)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4386134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4388134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4390134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
+  -H 'Authorization: Bearer [token]' \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -83,11 +83,11 @@ The following example shows the message body for creating a labor reporting data
 
 ```
 {
-  "startBusinessDate": "20230205",[(1)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4444134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "endBusinessDate": "20230205",[(2)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4446134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "restaurantIds": [],[(3)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4448134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "excludedRestaurantIds": [],[(4)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4450134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
-  "groupBy": [“JOB”][(5)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4452134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+  "startBusinessDate": "20230205",
+  "endBusinessDate": "20230205",
+  "restaurantIds": [],
+  "excludedRestaurantIds": [],
+  "groupBy": [“JOB”]
 }
 
 ```
@@ -109,7 +109,7 @@ The following example shows the message body for creating a labor reporting data
 The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 ```
-"707d9f10-e0fe-4e6d-af49-3123a78cd2b3"[(1)](apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.html#d1e4509134B67F3-A975-4412-A030-B6DDC7E2BD35-co)
+"707d9f10-e0fe-4e6d-af49-3123a78cd2b3"
 ```
 
 

@@ -59,10 +59,10 @@ To create a request for payout reporting data organized by settled date, include
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/{timeRange}` endpoint. This example uses the `day` time range.
 
 ```
-curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \[(1)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e6955E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Authorization: Bearer [token]' \[(2)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e6957E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Content-Type: application/json' \[(3)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e6959E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -d @[request-info].json \[(4)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e6961E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \
+  -H 'Authorization: Bearer [token]' \
+  -H 'Content-Type: application/json' \
+  -d @[request-info].json \
 ```
 
 
@@ -81,10 +81,10 @@ The following example shows the message body for creating a payout reporting dat
 
 ```
 {
-    "startDate": "20240710",[(1)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7003E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "endDate": "20240710",[(2)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7005E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],[(3)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7007E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-    "excludedRestaurantIds": [][(4)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7009E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+    "startDate": "20240710",
+    "endDate": "20240710",
+    "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],
+    "excludedRestaurantIds": []
 }
 ```
 
@@ -103,7 +103,7 @@ The following example shows the message body for creating a payout reporting dat
 The following example shows the response from the `/era/v1/payout/day` endpoint.
 
 ```
-"bc5279b0-a46d-4707-94e6-614edd31f2b3"[(1)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7053E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+"bc5279b0-a46d-4707-94e6-614edd31f2b3"
 ```
 
 
@@ -121,9 +121,9 @@ Send a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint to ret
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint.
 
 ```
-curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/[(1)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7114E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-bc5279b0-a46d-4707-94e6-614edd31f2b3' \[(2)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7116E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
-  -H 'Authorization: Bearer [token]'[(3)](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.html#d1e7118E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC-co)
+curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/
+bc5279b0-a46d-4707-94e6-614edd31f2b3' \
+  -H 'Authorization: Bearer [token]'
 ```
 
 

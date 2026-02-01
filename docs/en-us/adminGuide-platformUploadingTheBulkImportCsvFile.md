@@ -26,7 +26,7 @@ It is possible that some rows in a bulk menu import file have validation issues 
 1. Log in to Toast Web.
 
 
-2. Choose Menus > Bulk management > Bulk import tool.
+2. Choose Menus \> Bulk management \> Bulk import tool.
 
 
 3. Select Start new import. You see the Upload template page.

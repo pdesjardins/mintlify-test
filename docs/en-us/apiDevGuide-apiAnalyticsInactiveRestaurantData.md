@@ -29,7 +29,7 @@ The following example **curl** command sends a `POST` request to the `/era/v1/me
 
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics
-?onlyInactiveRestaurants=TRUE' \[(1)](apiDevGuide-apiAnalyticsInactiveRestaurantData.html#d1e2941F37ED50-563A-4DC2-A142-7FD5B7B554A5-co)
+?onlyInactiveRestaurants=TRUE' \
   -H ‘Authorization: Bearer `[token]`‘ \
   -H 'Content-Type: application/json' \
   -d @`[request-info]`.json \

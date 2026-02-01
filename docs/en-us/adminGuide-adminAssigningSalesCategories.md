@@ -76,7 +76,7 @@ Alternatively, you can:
 - Switch to the restaurant you want to create courses for.
 
 
-- Select Menus > Settings > Sales categories.
+- Select Menus \> Settings \> Sales categories.
 
 
 

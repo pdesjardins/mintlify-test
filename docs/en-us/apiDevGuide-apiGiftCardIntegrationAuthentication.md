@@ -62,9 +62,9 @@ The following example shows the public key string in the JSON response from the 
 **Example 10.2. Example public key for partner API authentication**
 
 ```
-{[(1)](apiDevGuide-apiGiftCardIntegrationAuthentication.html#d1e581CC3353FE-F616-4AA1-97F1-00D3437AB330-co)
-   "alg":"SHA256withRSA",[(2)](apiDevGuide-apiGiftCardIntegrationAuthentication.html#d1e583CC3353FE-F616-4AA1-97F1-00D3437AB330-co)
-   "value":"-----BEGIN PUBLIC KEY-----\nnub\nvwIDAhqhkiG9w0BAQEJ9tKko/3jXqdzI/NO4n[(3)](apiDevGuide-apiGiftCardIntegrationAuthentication.html#d1e585CC3353FE-F616-4AA1-97F1-00D3437AB330-co)
+{
+   "alg":"SHA256withRSA",
+   "value":"-----BEGIN PUBLIC KEY-----\nnub\nvwIDAhqhkiG9w0BAQEJ9tKko/3jXqdzI/NO4n
 sAt0WZjpyovan2xPIkCv2z\nuaBBVUrOiJ6JeoJ9tKko/3jXqdzI/NO4nsLW5wq5UrPXsvbdXLZzMhu3b3
 sNmFJ9tKko/3jX5AEBaf5vXZCOfBVFnWnhLX61/KkI2dxwhS7fkxnjQ8wlfrh4tp3fKjDkI\nMgxTk1teh
 fWY0O3mKyKtnYvqvDSRvsZ03URzyEPddVYDYZjpyovan2xPypKRvBlxz\nxhM74p8dOhEp6zAh4pENVNyp

@@ -62,7 +62,7 @@ If you want to update your locked or read-only credentials to full access, follo
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. A Toast employee or restaurant operator with full-access goes to Employees > Employee management > Employeesto open the Employees page. 
+2. A Toast employee or restaurant operator with full-access goes to Employees \> Employee management \> Employeesto open the Employees page. 
 
 
 3. The Toast employee or restaurant operator selects the employee’s name to open the Permissions page. 
@@ -83,7 +83,7 @@ If you want to update your locked or read-only credentials to full access, follo
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page. 
+2. Go to Integrations \> Toast API access \> Manage credentials to open the Manage credentials page. 
 
 
 3. On the Manage credentials page, select the credentials with the warning icon. This opens the Credentials page. 
@@ -92,7 +92,7 @@ If you want to update your locked or read-only credentials to full access, follo
 4. Select the link in the banner to open a dialog. The dialog displays a list of Toast locations you no longer have access to. 
 
 
-5. Ask a Toast employee or restaurant operator with full-access to go to Employees > Employee management > Employees to open the Employees page. 
+5. Ask a Toast employee or restaurant operator with full-access to go to Employees \> Employee management \> Employees to open the Employees page. 
 
 
 6. The Toast employee or restaurant operator selects the employee’s name to open the Permissions page.
@@ -126,7 +126,7 @@ The following procedure describes how to create standard API access credentials 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page.
+2. Go to Integrations \> Toast API access \> Manage credentials to open the Manage credentials page.
 
 
 

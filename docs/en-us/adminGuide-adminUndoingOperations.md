@@ -27,7 +27,7 @@ When you undo cash entries on the Toast POS device, the actions also open the ph
 
 > **Note**
 > 
-> You must have the POS Access > 1.13 No Sale permission to perform any undo cash entry action.
+> You must have the POS Access \> 1.13 No Sale permission to perform any undo cash entry action.
 
 
 You can undo the following cash entries on either Toast Web or a Toast POS device:
@@ -82,7 +82,7 @@ When you undo cash entries from Toast Web, the actions do not open the physical 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Reports > Sales > Sales Summary > Cash Summary and select the Cash drawer history link to open the Cash drawer history page. You can also choose Reports > Cash and loss management > Drawer history to open the Cash drawer history page.
+2. Choose Reports \> Sales \> Sales Summary \> Cash Summary and select the Cash drawer history link to open the Cash drawer history page. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash drawer history page.
 
 
 3. Navigate to the cash drawer you want to complete an action for. Scroll down to the Cash entries row and select the View link to view the Cash entries table.

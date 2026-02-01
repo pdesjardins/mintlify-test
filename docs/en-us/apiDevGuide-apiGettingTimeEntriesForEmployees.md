@@ -44,10 +44,10 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e15283A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
-"https://`[toast-api-hostname]`/labor/v1/timeEntries?startDate=[(2)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
+"https://`[toast-api-hostname]`/labor/v1/timeEntries?startDate=
 2018-11-14T01:00:00.000-0000&endDate=2018-11-16T01:00:00.000-0000
-&includeMissedBreaks=true"[(3)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e15983A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
+&includeMissedBreaks=true"
 ```
 
 
@@ -67,14 +67,14 @@ The following example shows a time entry for an employee.
 
 ```
 [
-  {[(1)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e21739786C5B-846E-4DDA-823C-AF858E53331A-co)
+  {
     "guid": "26ac616b-b0d2-4d4e-b89b-62291be33d80",
     "entityType": null,
     "externalId": null,
-    "nonCashSales": 0,[(2)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e21939786C5B-846E-4DDA-823C-AF858E53331A-co)
-    "outDate": "2018-11-15T19:17:34.653+0000",[(3)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22139786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "nonCashSales": 0,
+    "outDate": "2018-11-15T19:17:34.653+0000",
     "overtimeHours": 0,
-    "breaks": [[(4)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22339786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "breaks": [
       {
         "breakType": {
           "guid": "8ed442b0-ca52-416d-8976-f941184eba15",
@@ -98,31 +98,31 @@ The following example shows a time entry for an employee.
         "auditResponse": true
       }
     ],
-    "employeeReference": {[(5)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22539786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "employeeReference": {
       "guid": "a0c9070e-fffd-4e97-b3ea-fc356fbf9224",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "shiftReference": "56387b8e-78df-47a4-9395-e5e1cb3f04d1",[(6)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#shiftReferenceDescription)
-    "nonCashGratuityServiceCharges": 0,[(7)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22839786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "shiftReference": "56387b8e-78df-47a4-9395-e5e1cb3f04d1",
+    "nonCashGratuityServiceCharges": 0,
     "inDate": "2018-11-15T14:14:46.894+0000",
     "regularHours": 5.046599722222222,
-    "jobReference": {[(8)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23039786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "jobReference": {
       "guid": "8b623183-7d6f-4f7c-babb-e74fe722ad30",
       "entityType": "RestaurantJob",
       "externalId": null
     },
-    "tipsWithheld": 0,[(9)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23239786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "tipsWithheld": 0,
     "businessDate": "20181115",
-    "cashGratuityServiceCharges": 12.95,[(10)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23439786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "cashGratuityServiceCharges": 12.95,
     "createdDate": "2018-11-15T14:14:47.503+0000",
     "deleted": false,
     "deletedDate": null,
-    "cashSales": 139.02,[(11)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23639786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "cashSales": 139.02,
     "hourlyWage": 7.5,
-    "nonCashTips": 0,[(12)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23839786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "nonCashTips": 0,
     "modifiedDate": "2018-11-15T19:17:35.801+0000",
-    "declaredCashTips": 30[(13)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e24139786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "declaredCashTips": 30
   }
 ]
 ```

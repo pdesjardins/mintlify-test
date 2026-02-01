@@ -52,13 +52,13 @@ The menu manager preview page:
 
 1. Use one of the following procedures to open the menu manager preview page for the change set you want to update:
 
-- On the Menus > Menu management > Menu manager page, select the View scheduled button and choose a change set from the list.
+- On the Menus \> Menu management \> Menu manager page, select the View scheduled button and choose a change set from the list.
 
 
-- On the Menus > Menu management > Menu manager page, select the calendar icon next to an updated row and choose a change set from the list.
+- On the Menus \> Menu management \> Menu manager page, select the calendar icon next to an updated row and choose a change set from the list.
 
 
-- From the Toast account > Publishing > Publishing center page, locate the change set whose preview page you want to view and select its edit button. In the Includes changes from section, select the Menu manager link.
+- From the Toast account \> Publishing \> Publishing center page, locate the change set whose preview page you want to view and select its edit button. In the Includes changes from section, select the Menu manager link.
 
 
 

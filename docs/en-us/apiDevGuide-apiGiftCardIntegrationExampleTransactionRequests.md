@@ -23,17 +23,17 @@ The following example shows an example gift card integration API request.
 **Example 10.3. Gift card integration API transaction request**
 
 ```
-\> Content-Type: application/json[(1)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7809F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-\> Toast-Transaction-Type: GIFTCARD_REDEEM[(2)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7829F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-\> Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf[(3)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7849F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-\> Toast-Transaction-GUID: 63fdc064-c97e-431f-9cb2-0699c6488237[(4)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7869F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+\> Content-Type: application/json
+\> Toast-Transaction-Type: GIFTCARD_REDEEM
+\> Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf
+\> Toast-Transaction-GUID: 63fdc064-c97e-431f-9cb2-0699c6488237
 \> Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxM
    jM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.Sf
-   lKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c[(5)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7889F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-{[(6)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7919F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-  "redeemTransactionInformation":{[(7)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7939F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-    "redeemedValue":11.80,[(8)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7959F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-    "giftCardIdentifier":"231952736",[(9)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7979F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+   lKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+{
+  "redeemTransactionInformation":{
+    "redeemedValue":11.80,
+    "giftCardIdentifier":"231952736",
     "checkIdentifier":"41531b0c-ad11-4c11-9ad6-29ba76925a13",
     "isCashOut":false
   }
@@ -66,11 +66,11 @@ The following example shows an example gift card integration API response.
 **Example 10.4. Gift card integration API transaction response**
 
 ```
-{[(1)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e8119F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-  "transactionStatus":"ACCEPT",[(2)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e8139F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-  "redeemResponse":{[(3)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e8159F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-    "currentBalance":60.29,[(4)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e8179F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-    "redeemedValue":1[(5)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e8199F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+{
+  "transactionStatus":"ACCEPT",
+  "redeemResponse":{
+    "currentBalance":60.29,
+    "redeemedValue":1
   }
 }
 ```

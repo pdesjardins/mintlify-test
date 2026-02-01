@@ -83,7 +83,7 @@ The `Order` object in the following example creates an order that is scheduled f
       ],
       "payments": [
         {
-          "paidDate": "2022-03-01T10:00:00.000+0000",[(1)](apiDevGuide-orders_api_future_orders.html#orderPaidDate2)
+          "paidDate": "2022-03-01T10:00:00.000+0000",
           "type": "OTHER",
           "otherPayment": {
             "guid": "b9ba25d1-519a-4ea8-ba05-ed1d952b28bf"
@@ -94,8 +94,8 @@ The `Order` object in the following example creates an order that is scheduled f
       ]
     }
   ],
-  "promisedDate": "2022-03-05T16:00:00.000+0000",[(2)](apiDevGuide-orders_api_future_orders.html#d1e23837FED323-B0BC-404F-B11C-A782AC1FBA48-co)
-  "openedDate": "2022-03-05T16:00:00.000+0000"[(3)](apiDevGuide-orders_api_future_orders.html#co-apiFutureOrderExampleOpenedDate)
+  "promisedDate": "2022-03-05T16:00:00.000+0000",
+  "openedDate": "2022-03-05T16:00:00.000+0000"
 }
 ```
 

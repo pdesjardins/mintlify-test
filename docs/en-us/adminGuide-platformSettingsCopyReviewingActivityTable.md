@@ -57,7 +57,7 @@ On the Settings copy page, there is an Activity table that lists historical data
 
 > **Note**
 > 
-> To use the settings copy feature, you must have the Restaurant Admin > Settings Copy Toolpermission at the locations you are copying from and to.
+> To use the settings copy feature, you must have the Restaurant Admin \> Settings Copy Toolpermission at the locations you are copying from and to.
 
 
 

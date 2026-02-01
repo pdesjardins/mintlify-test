@@ -116,7 +116,7 @@ The following example shell script calculates the expected cash deposit for one 
 ```
 #!/bin/bash
 
-# Set parameters for Toast API requests.[(1)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+# Set parameters for Toast API requests.
 SERVER="https://`[toast-api-hostname]`"
 CLIENT_ID="`my-client`"
 CLIENT_SECRET="`tbKr17l*!dMUE1hU3a3F`" # Must be URL encoded
@@ -127,7 +127,7 @@ AUTHENTICATION_TOKEN=""
 
 # Define functions for this example script.
 
-authenticate () {[(2)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e19959B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+authenticate () {
     # Get an authentication token for Toast API requests.
     curl -X POST \
     -H "Content-Type: application/json" \
@@ -138,66 +138,66 @@ authenticate () {[(2)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e19
     AUTHENTICATION_TOKEN=`jq -r '.token.accessToken' authentication-response~`    
 }
 
-get_payments () {[(3)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e20159B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+get_payments () {
     # Get a list of the payment transactions for a business day.
     curl -X GET \
     -H "Authorization: Bearer ${AUTHENTICATION_TOKEN}" \
     -H "Toast-Restaurant-External-ID: ${RESTAURANT_GUID}" \
     -s -o my-payments~ \
-    "${SERVER}/orders/v2/payments?paidBusinessDate=${BUSINESS_DATE}"[(4)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    "${SERVER}/orders/v2/payments?paidBusinessDate=${BUSINESS_DATE}"
 
     # Find the number of payment record GUIDs in the JSON array
     # returned by the payments endpoint.
-    NUMBER_OF_PAYMENTS=`jq '. | length' my-payments~`[(5)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    NUMBER_OF_PAYMENTS=`jq '. | length' my-payments~`
 
     # Get detailed information about each payment.
     PAYMENT_NUMBER=0
-    while [[ "${PAYMENT_NUMBER}" -lt "${NUMBER_OF_PAYMENTS}" ]][(6)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e20759B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    while [[ "${PAYMENT_NUMBER}" -lt "${NUMBER_OF_PAYMENTS}" ]]
     do
-      PAYMENT_GUID=`jq -r .[${PAYMENT_NUMBER}] my-payments~`[(7)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e20959B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+      PAYMENT_GUID=`jq -r .[${PAYMENT_NUMBER}] my-payments~`
       # Run the get_payment function. Pass one payment GUID as an argument.
-      get_payment ${PAYMENT_GUID}[(8)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e21259B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
-      PAYMENT_NUMBER=$((${PAYMENT_NUMBER}+1))[(9)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e21459B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+      get_payment ${PAYMENT_GUID}
+      PAYMENT_NUMBER=$((${PAYMENT_NUMBER}+1))
     done
 }
 
-get_payment () {[(10)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e21659B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+get_payment () {
     # Get detailed information about one payment transaction.
     curl -X GET \
     -H "Authorization: Bearer ${AUTHENTICATION_TOKEN}" \
     -H "Toast-Restaurant-External-ID: ${RESTAURANT_GUID}" \
     -s -o my-payment~ \
-    "${SERVER}/orders/v2/payments/${1}"[(11)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e21859B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    "${SERVER}/orders/v2/payments/${1}"
 
     # If the type of the payment is CASH, add its amount to the total
     # cash transactions for the business day.
-    TRANSACTION_TYPE=`jq -r .type my-payment~`[(12)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e22059B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    TRANSACTION_TYPE=`jq -r .type my-payment~`
     PAYMENT_STATUS=`jq -r .paymentStatus my-payment~`
-    if [[ "${TRANSACTION_TYPE}" == "CASH" ]] && [[ "${PAYMENT_STATUS}" != "VOIDED" ]];[(13)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d1e22259B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    if [[ "${TRANSACTION_TYPE}" == "CASH" ]] && [[ "${PAYMENT_STATUS}" != "VOIDED" ]];
     then
       NUMBER_CASH_TRANSACTIONS=$((${NUMBER_CASH_TRANSACTIONS}+1))
       # Find the currency amount of the cash transaction.
-      CURRENT_TRANSACTION=`jq -r .amount my-payment~`[(14)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d2e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+      CURRENT_TRANSACTION=`jq -r .amount my-payment~`
       # Add the current transaction amount to the total for the business day.
       TOTAL_CASH_TRANSACTIONS=`echo \
-        "${TOTAL_CASH_TRANSACTIONS}+${CURRENT_TRANSACTION}" | bc`[(15)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d3e22759B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+        "${TOTAL_CASH_TRANSACTIONS}+${CURRENT_TRANSACTION}" | bc`
     fi
 }
 
-get_entries () {[(16)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+get_entries () {
     # Get an array of the cash entries for the business day.
     curl -X GET \
     -H "Authorization: Bearer ${AUTHENTICATION_TOKEN}" \
     -H "Toast-Restaurant-External-ID: ${RESTAURANT_GUID}" \
     -s -o my-cash-entries~ \
-    "${SERVER}/cashmgmt/v1/entries?businessDate=${BUSINESS_DATE}"[(17)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+    "${SERVER}/cashmgmt/v1/entries?businessDate=${BUSINESS_DATE}"
 
     # Calculate the total of all entries except for the CASH_COLLECTED type.
     for CASH_ENTRY_AMOUNT in `jq '.[] | \
-      select(.type!="CASH_COLLECTED") | .amount'  my-cash-entries~`[(18)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+      select(.type!="CASH_COLLECTED") | .amount'  my-cash-entries~`
     do
       TOTAL_CASH_ENTRY_ADJUSTMENTS=`echo \
-        "${TOTAL_CASH_ENTRY_ADJUSTMENTS}+${CASH_ENTRY_AMOUNT}" | bc`[(19)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d7e23559B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+        "${TOTAL_CASH_ENTRY_ADJUSTMENTS}+${CASH_ENTRY_AMOUNT}" | bc`
     done
 }
 
@@ -210,22 +210,22 @@ authenticate
 # Run the get_payments function in this example script to get the
 # total cash payments (cash collected from customers)for the business day.
 NUMBER_CASH_TRANSACTIONS=0
-TOTAL_CASH_TRANSACTIONS=0[(20)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d8e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+TOTAL_CASH_TRANSACTIONS=0
 get_payments
 
 # Run the get_entries function in this example script to get the total
 # cash entries for the business day, excluding cash collected.
 # This is typically a negative number.
-TOTAL_CASH_ENTRY_ADJUSTMENTS=0[(21)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d9e24059B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+TOTAL_CASH_ENTRY_ADJUSTMENTS=0
 get_entries
 
 # Calculate the total expected cash deposit by summing the cash collected
 # and the total of the cash entries (typically negative).
 EXPECTED_CASH_DEPOSIT=`echo \
-  "${TOTAL_CASH_TRANSACTIONS}+${TOTAL_CASH_ENTRY_ADJUSTMENTS}" | bc`[(22)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d0e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+  "${TOTAL_CASH_TRANSACTIONS}+${TOTAL_CASH_ENTRY_ADJUSTMENTS}" | bc`
 
 # Report the totals.
-echo "Number cash transactions:     ${NUMBER_CASH_TRANSACTIONS}"[(23)](apiDevGuide-apiCalculatingExpectedCashDeposits.html#d2e88859B7A05A-725E-4C5D-88B1-B5D63CCD0065-co)
+echo "Number cash transactions:     ${NUMBER_CASH_TRANSACTIONS}"
 echo "Total cash transactions:      ${TOTAL_CASH_TRANSACTIONS}"
 echo "Total cash entry adjustments: ${TOTAL_CASH_ENTRY_ADJUSTMENTS}"
 echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"

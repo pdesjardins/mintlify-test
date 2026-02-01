@@ -40,7 +40,7 @@ If you choose a restaurant group, the discount is also available at any of that 
 **Owner**
 : Controls which restaurant employees can edit the discount.
 
-Employees of the selected restaurant or group who have the 6. Web Setup > 6.1 Discounts Setup[permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable)can edit the discount.
+Employees of the selected restaurant or group who have the 6. Web Setup \> 6.1 Discounts Setup[permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable)can edit the discount.
 
 
 

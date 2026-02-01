@@ -31,7 +31,7 @@ Follow the instructions below to create a restaurant group. Note that to create 
 1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Toast account > Groups > Restaurant groups to open the Restaurant groupspage. A table lists each existing restaurant group in your enterprise. The Members column displays the locations and sub-groups contained in each restaurant group. Sub-group names are marked with < > characters to distinguish them from locations. Click a sub-group's name to open the details page for that sub-group.
+2. Choose Toast account \> Groups \> Restaurant groups to open the Restaurant groupspage. A table lists each existing restaurant group in your enterprise. The Members column displays the locations and sub-groups contained in each restaurant group. Sub-group names are marked with \< \> characters to distinguish them from locations. Click a sub-group's name to open the details page for that sub-group.
 
 ![Image](https://doc.toasttab.com/doc/media/restaurants_group_page.PNG)
 
@@ -54,7 +54,7 @@ Follow the instructions below to create a restaurant group. Note that to create 
 1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
 
 
-2. Choose Toast account > Groups > Restaurant groups to open the Restaurant groupspage.
+2. Choose Toast account \> Groups \> Restaurant groups to open the Restaurant groupspage.
 
 
 3. Click the name of the group you want to edit, make any changes needed and click Save.

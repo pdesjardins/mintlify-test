@@ -25,7 +25,7 @@ To publish changes you make to multiple locations, always use the Publish config
 
 **Procedure 5.1. To publish changes for multiple locations**
 
-1. In Toast Web, choose Toast account > Publishing > Publish config to view the Publish config page.
+1. In Toast Web, choose Toast account \> Publishing \> Publish config to view the Publish config page.
 
 
 2. From the You are viewing menu, select the restaurants you want to view. For more details, see [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html).

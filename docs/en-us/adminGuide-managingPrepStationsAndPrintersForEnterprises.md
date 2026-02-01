@@ -51,7 +51,7 @@ For example, assuming the configuration in the illustration below, when the cust
 1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage.
+2. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage.
 
 
 3. Use the You are viewing menu to show the prep stations for the corporate restaurant group (the corporate restaurant group is your top-level restaurant group and it should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for information on the You are viewing menu.
@@ -74,7 +74,7 @@ For example, assuming the configuration in the illustration below, when the cust
 
 **Procedure 5.14. To create master prep stations**
 
-1. Choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage.
+1. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage.
 
 
 2. Use the You are viewing menu to show the prep stations for the corporate restaurant group (this group will show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for information on the You are viewing menu.
@@ -103,7 +103,7 @@ For example, assuming the configuration in the illustration below, when the cust
 
 **Procedure 5.15. To create location-specific prep stations**
 
-1. Choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage.
+1. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage.
 
 
 2. Use the You are viewing menu to show the prep stations for the corporate restaurant group (this group should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for information on the You are viewing menu.

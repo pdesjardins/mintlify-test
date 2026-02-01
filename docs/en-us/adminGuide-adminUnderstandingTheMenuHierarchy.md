@@ -30,7 +30,7 @@ Toast products use a hierarchical structure to organize your menu offerings:
 
 - Menu groups can also contain *menu subgroups*that further classify the items in the group. For example, an Entrees menu group could contain From the Grill and Vegetarian subgroups.
 
-Subgroups can be used to make navigating your menu easier. However, each subgroup requires an additional selection by the user who is trying to find a specific menu item in that subgroup. For this reason, the menu builder limits the nesting of subgroups to three subgroups below a parent menu group (Menu > Menu group > Subgroup 1 > Subgroup 2 > Subgroup 3).
+Subgroups can be used to make navigating your menu easier. However, each subgroup requires an additional selection by the user who is trying to find a specific menu item in that subgroup. For this reason, the menu builder limits the nesting of subgroups to three subgroups below a parent menu group (Menu \> Menu group \> Subgroup 1 \> Subgroup 2 \> Subgroup 3).
 
 Menu groups and subgroups are effectively the same and have the same configuration settings. The only difference between them is where they exist in the menu's hierarchy.
 

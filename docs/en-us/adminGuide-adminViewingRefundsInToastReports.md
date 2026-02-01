@@ -107,7 +107,7 @@ Refunds are reported in the following reports.
 
 ##### Sales summary
 
-In the Reports > Sales > Sales summary report, refunds are reported as follows:
+In the Reports \> Sales \> Sales summary report, refunds are reported as follows:
 
 - Non-tip refund amounts appear in the Refunds column for each payment type.
 
@@ -127,7 +127,7 @@ Payments refunded using the custom amount refund type still appear in the Paymen
 
 ##### Refunds report
 
-In the Reports > Cash and loss management > Refunds report, on the Refunds tab, a line is shown for each payment that was refunded.
+In the Reports \> Cash and loss management \> Refunds report, on the Refunds tab, a line is shown for each payment that was refunded.
 
 ![Entry in the Reports > Cash and loss management > Refunds report.](https://doc.toasttab.com/doc/media/refunds-sales-exceptions-refunds.png)
 
@@ -162,9 +162,9 @@ This report includes the following details:
 
 ##### Accounting by day or location
 
-Toast’s configurable GL Account report can be viewed in Reports > Accounts > Accounting by day or Reports > Accounts > Accounting by location.
+Toast’s configurable GL Account report can be viewed in Reports \> Accounts \> Accounting by day or Reports \> Accounts \> Accounting by location.
 
-To configure this report, use the Reports > Accounts > General Ledger Accounts settings. To ensure that all financial figures are represented in the Accounting report, all entities should be mapped to a GL account code. To add a GL account code, select Add GL Account.
+To configure this report, use the Reports \> Accounts \> General Ledger Accounts settings. To ensure that all financial figures are represented in the Accounting report, all entities should be mapped to a GL account code. To add a GL account code, select Add GL Account.
 
 ![Add GL Account button.](https://doc.toasttab.com/doc/media/refunds-acctg-by-location-or-day-1.png)
 
@@ -184,7 +184,7 @@ Toast recommends that you create at least one GL code that is specific to refund
 
 ##### Drawer history
 
-In Reports > Cash and loss management > Drawer history, on the Cash Drawer Historytab:
+In Reports \> Cash and loss management \> Drawer history, on the Cash Drawer Historytab:
 
 - Cash refunds appear as a row under the Pay Out row. If no cash refunds are issued, this row does not appear.
 
@@ -197,7 +197,7 @@ If a cash refund is issued on a device that is not associated with a cash drawer
 
 ##### Cash activity audit
 
-On the day of the refund, each cash refund appears as an entry in Reports > Cash and loss management > Cash activity audit, on the Cash Activity Audit tab.
+On the day of the refund, each cash refund appears as an entry in Reports \> Cash and loss management \> Cash activity audit, on the Cash Activity Audit tab.
 
 #### Order details
 
@@ -251,7 +251,7 @@ Custom amount refunds do not affect the following:
 
 
 
-A custom refund is shown as a unique line item in the Sales Category table of the Reports > Sales > Sales summary report, with a negative value in the Net Sales column. This ensures that the figures in this report add up to equal the total Net Salesamounts in other Toast reports.
+A custom refund is shown as a unique line item in the Sales Category table of the Reports \> Sales \> Sales summary report, with a negative value in the Net Sales column. This ensures that the figures in this report add up to equal the total Net Salesamounts in other Toast reports.
 
 ![Sales Category table that contains an entry for custom amount refunds.](https://doc.toasttab.com/doc/media/refunds-reports-and-custom-amt-refunds.png)
 

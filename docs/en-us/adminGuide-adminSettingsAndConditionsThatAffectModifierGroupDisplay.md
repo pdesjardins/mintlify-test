@@ -48,7 +48,7 @@ The [menu builder](adminMenuBuilderOverview.html) view has an equivalent group o
 
 The menu builder does not yet have an equivalent setting for the Display Ordering Priority number.
 
-**Settings on the UI options page **The Front of house > Order screen setup > UI options page contains a Modifier ordering priority option in the Order screensection:
+**Settings on the UI options page **The Front of house \> Order screen setup \> UI options page contains a Modifier ordering priority option in the Order screensection:
 
 ![Example of the Modifier ordering priority setting.](https://doc.toasttab.com/doc/media/mod-group-ordering-modifier-ordering-priority.png)
 

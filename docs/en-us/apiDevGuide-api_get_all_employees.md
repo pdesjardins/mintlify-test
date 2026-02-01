@@ -41,7 +41,7 @@ Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
 9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
 QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
 dWq4Yzwo007AMgxjH9d241Y-g" \
--H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-api_get_all_employees.html#co-get-employees)
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \
 https://`[toast-api-hostname]`/labor/v1/employees
 ```
 
@@ -58,8 +58,8 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
 
 ```
 [
-  {[(1)](apiDevGuide-api_get_all_employees.html#d1e68BDD1A7D6-D479-4A5F-A4A1-975B60C265DD-co)
-    "guid": "b7946411-7d45-4beb-9bfc-0ec731da7b45",[(2)](apiDevGuide-api_get_all_employees.html#d1e70BDD1A7D6-D479-4A5F-A4A1-975B60C265DD-co)
+  {
+    "guid": "b7946411-7d45-4beb-9bfc-0ec731da7b45",
     "entityType": "RestaurantUser",
     "externalId": null,
     "lastName": "Mercier",
@@ -81,7 +81,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
     "externalEmployeeId": "1234567890",
     "email": "jmercier@arestaurant.com"
   },
-  {[(3)](apiDevGuide-api_get_all_employees.html#d1e72BDD1A7D6-D479-4A5F-A4A1-975B60C265DD-co)
+  {
     "guid": "abbafa20-0cbe-47e3-93e4-b69309e1bc33",
     "entityType": "RestaurantUser",
     "externalId": null,

@@ -16,7 +16,7 @@ codeExamples: 0
 
 The Receipt Setup page allows you to set the configuration of printed customer receipts. These receipts include:
 
-- Initial check (payment screen > Print)
+- Initial check (payment screen \> Print)
 
 
 - Cash payment receipt
@@ -44,31 +44,31 @@ The configuration you create will apply to all receipt printers; that is, you ca
 
 > **Note**
 > 
-> The receipts described in this section are intended for customer use, such as a credit card receipt that the customer will fill out and sign. Kitchen tickets (used by the kitchen staff for fulfilling orders) are configured on the Kitchen > Printers, tickets, & KDS devices > [Kitchen](adminKitchenDiningRoomReference.html#adminKitchenSetupReference) page, and are not discussed here.
+> The receipts described in this section are intended for customer use, such as a credit card receipt that the customer will fill out and sign. Kitchen tickets (used by the kitchen staff for fulfilling orders) are configured on the Kitchen \> Printers, tickets, & KDS devices \> [Kitchen](adminKitchenDiningRoomReference.html#adminKitchenSetupReference) page, and are not discussed here.
 
 
 Before you configure your receipts, make sure that you have performed these tasks:
 
-- Configure your printers by using the Printers and Cash Drawers page (choose the Payments > Checks & receipt setup > Printers and cash drawersmenu).
+- Configure your printers by using the Printers and Cash Drawers page (choose the Payments \> Checks & receipt setup \> Printers and cash drawersmenu).
 
 
 - Configure your Toast POS devices to access the networks on which the printers are located.
 
 
-- Configure the receipt printer on your Toast POS devices by tapping Setup > Device Setup > Receipt Printer and choosing a receipt printer.
+- Configure the receipt printer on your Toast POS devices by tapping Setup \> Device Setup \> Receipt Printer and choosing a receipt printer.
 
 
 
 By configuring your Toast POS device, you can test your receipt setup changes and adjust them as needed.
 
-To configure receipts, you need Restaurant Admin > POS Setup permission to access the Receipt Setup Toast Web page. For more information, see the [Access Permission Reference](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To configure receipts, you need Restaurant Admin \> POS Setup permission to access the Receipt Setup Toast Web page. For more information, see the [Access Permission Reference](adminPermissions.html#adminRestaurantAdminAccessPermissions).
 
 **Procedure 6.126. To configure customer printed receipts**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
-2. Select Payments > Checks & receipt setup > Guest receipt setup to open the Receipt Setup page.
+2. Select Payments \> Checks & receipt setup \> Guest receipt setup to open the Receipt Setup page.
 
 
 3. If configuring for a multi-location restaurant, select the name of the receipt you want to edit. 
@@ -97,7 +97,7 @@ To configure receipts, you need Restaurant Admin > POS Setup permission to acces
 
 - Print Payments: Select whether the receipt should show all the completed payments on the customer's full check, from the Order screen.
 
-Note that if you select Don't Show, other payment types handled as discounts will still print on the receipt. To configure these discounted other payment types, choose Payments > Payment methods > Other payment options, select the payment option name, and select Yes for the Treat as Discount option.
+Note that if you select Don't Show, other payment types handled as discounts will still print on the receipt. To configure these discounted other payment types, choose Payments \> Payment methods \> Other payment options, select the payment option name, and select Yes for the Treat as Discount option.
 
 
 - Itemize Quick Order Receipts: Specify whether receipts printed from Quick Order mode are always itemized. Note that this field does not affect receipts printed from Table Service mode.
@@ -117,7 +117,7 @@ Quick Order itemized receipts are useful for credit card payments, because the r
 - Combine items on receipt: Select Yes to combine multiple identically-named items under one name and also combine their price under one amount, or No to list each item separately by name and by price. For example, if the table has ordered two servings of Crab Cakes at $8.99 each, then a setting of Yes will print "2 Crab Cakes" once with an amount of $17.98, whereas a setting of Nowill print "Crab Cakes" twice, each with an amount of $8.99.
 
 
-- Display Tip Percentages on Customer Receipts: Specify whether suggested tip amounts are printed on the merchant copy of credit card, cash, or itemized receipts. If enabled, the tip heading is labelled Suggested Tip (if a gratuity service charge is not applied) or Suggested Additional Tip(if a gratuity service charge is applied). The suggested tip percentages are set in the Customized Tip Percentages field (on the Front of house > Order screen setup > UI options page). Note that if you enable this field, you should also enable the Display Tip Line field.
+- Display Tip Percentages on Customer Receipts: Specify whether suggested tip amounts are printed on the merchant copy of credit card, cash, or itemized receipts. If enabled, the tip heading is labelled Suggested Tip (if a gratuity service charge is not applied) or Suggested Additional Tip(if a gratuity service charge is applied). The suggested tip percentages are set in the Customized Tip Percentages field (on the Front of house \> Order screen setup \> UI options page). Note that if you enable this field, you should also enable the Display Tip Line field.
 
 
 - Display Charity Tip Line: Select Yes to include a tip line for a charity donation or No to omit the line on printed credit card receipts. Selecting Yes displays the Charity Tip Line Message field, which lets you enter a label (of 12 or fewer characters) for the charity line. The setting for this option has no effect on digital receipts.
