@@ -17,26 +17,47 @@
                         "group": "Getting started",
                         "pages": [
                             "docs/en-us/adminGuide-platformGettingStartedOmitChunkFromSearchIndex",
-                            "docs/en-us/adminGuide-platformToastPlatformOverview"
+                            "docs/en-us/adminGuide-platformToastPlatformOverview",
+                            "docs/en-us/adminGuide-platformToastPlatformConceptsOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Orders",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideOrdersOmitChunkFromSearchIndex"
+                            "docs/en-us/adminGuide-devPortalPlatformGuideOrdersOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformOrdersOverviewOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminOrderWorkflowOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminViewingOrderDetailsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminOrderManagementOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformPurgingClosedOrdersOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Off-premise dining",
                         "pages": [
-                            "docs/en-us/adminGuide-platformOffPremiseDiningOmitChunkFromSearchIndex"
+                            "docs/en-us/adminGuide-platformOffPremiseDiningOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformOrdersHubOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminOnlineOrderingSchedulesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminQuoteTimeStrategyOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminOnlineOrderingOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformThirdPartyOnlineOrderingChannelsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformAutoFireDeviceOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminDeliveryAndTDSOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformOffPremiseOfflineModeOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Employees",
                         "pages": [
                             "docs/en-us/adminGuide-platformEmployeesOmitChunkFromSearchIndex",
-                            "docs/en-us/adminGuide-adminJobExclusion"
+                            "docs/en-us/adminGuide-platformPermissionsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminEmployeesMfaOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformJobBasedAccessOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformPreShiftNotesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminTextAlertsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminTrackingMissedBreaksAndAcknowledgingBreaksOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminJobExclusion",
+                            "docs/en-us/adminGuide-platformEmployeesOfflineModeOmitChunkFromSearchIndex"
                         ]
                     },
                     {
@@ -44,24 +65,46 @@
                         "pages": [
                             "docs/en-us/adminGuide-platformMultiLocationOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-sharingMenusAndOtherInformationAmongRestaurants",
+                            "docs/en-us/adminGuide-understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations",
                             "docs/en-us/adminGuide-usingTheAdvancedPropertiesAndPriceEditorPages",
                             "docs/en-us/adminGuide-publishingChangesForMultipleLocations",
-                            "docs/en-us/adminGuide-managingPrepStationsAndPrintersForEnterprises"
+                            "docs/en-us/adminGuide-workingWithRestaurantGroupsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-workingWithVersionsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminSettingLocationSpecificPricesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformMenuSpecificPricesForMLMOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-managingPrepStationsAndPrintersForEnterprises",
+                            "docs/en-us/adminGuide-specifyingTaxRatesForEnterprisesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminWorkingWithJobsAndEmployeesInEnterprisesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminUsingReportsEnterprisesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformSettingsCopyOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Payments and money",
                         "pages": [
                             "docs/en-us/adminGuide-platformPaymentsAndMoneyOmitChunkFromSearchIndex",
-                            "docs/en-us/adminGuide-adminReceiptSetup"
+                            "docs/en-us/adminGuide-platformPwfOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminCreditCardsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminServiceChargesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminRefundsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminCashManagementOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformCheckManagementOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformHouseAccountsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformShiftReviewOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformCloseOutDayOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformServiceReportOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminTaxesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminReceiptSetup",
+                            "docs/en-us/adminGuide-platformPaymentsOfflineModeOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Publishing",
                         "pages": [
                             "docs/en-us/adminGuide-platformPublishingDocsOmitChunkFromSearchIndex",
-                            "docs/en-us/adminGuide-platformPublishingOverview"
+                            "docs/en-us/adminGuide-platformPublishingOverview",
+                            "docs/en-us/adminGuide-platformPublishingCenterOmitChunkFromSearchIndex"
                         ]
                     },
                     {
@@ -69,7 +112,20 @@
                         "pages": [
                             "docs/en-us/adminGuide-devPortalPlatformGuideMenusOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-adminMenuHierarchy",
-                            "docs/en-us/adminGuide-platformMenuAlcoholLabeling"
+                            "docs/en-us/adminGuide-adminCreatingYourMenuUsingTheBasicMenuBuilderOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformMenuBuilderForMultiLocationOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformPosLayoutViewOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformMenuManagerOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminMenuVisibilityOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminMenuPricingOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminPricingStrategyDetailsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformMenuAlcoholLabeling",
+                            "docs/en-us/adminGuide-adminMenuItemInventoryOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminModifierGroupDisplayOrderOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminUsingPortionsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platfomrItemsDatabaseOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformMenusBulkMenuImportOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminMenusForDigitalMenuBoardsOmitChunkFromSearchIndex"
                         ]
                     },
                     {
@@ -78,38 +134,58 @@
                             "docs/en-us/adminGuide-adminDiscountsIntroOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-platformDiscountsOverview",
                             "docs/en-us/adminGuide-adminDiscountTypes",
+                            "docs/en-us/adminGuide-adminConfiguringDiscountsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminDiscountsTypeSpecificConfigOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminDiscountTriggerComponentsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminDiscountsOverallAvailabilityOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminDiscountsApplyingOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminDiscountsEffectsOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-adminDiscountsTargetsAndOwners"
                         ]
                     },
                     {
                         "group": "Kitchen operations and fulfillment",
                         "pages": [
-                            "docs/en-us/adminGuide-platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex"
+                            "docs/en-us/adminGuide-platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformKitchenConfigurationOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminItemRoutingOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformKOPacingTimingOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminKitchenDisplaySystemOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformKDSBumpBarIntegrationOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformKitchenOpsKDSWorkflowExamplesOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminTroubleshootPrepStationsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformKitchenConfigReferenceOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-platformKitchenOpsOfflineSupportOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Network connections",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex"
+                            "docs/en-us/adminGuide-devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminOfflineModeOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Integrations",
                         "pages": [
                             "docs/en-us/adminGuide-platformIntegrationsOmitChunkFromSearchIndex",
-                            "docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations"
+                            "docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations",
+                            "docs/en-us/adminGuide-platformDataExportFilesOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Guests",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideGuestsOmitChunkFromSearchIndex"
+                            "docs/en-us/adminGuide-devPortalPlatformGuideGuestsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminWorkingWithCustomersOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-adminCustomerCreditsOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "UI options",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex"
+                            "docs/en-us/adminGuide-devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex",
+                            "docs/en-us/adminGuide-devPortalPlatformGuideUiOptionsReferenceOmitChunkFromSearchIndex"
                         ]
                     }
                 ]
@@ -120,71 +196,106 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalDevGettingStartedOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalDevGettingStartedOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-chooseYourIntegrationTypeOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureACustomIntegrationDeveloperOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureAStandardApiAccessDeveloperOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-ifYoureAnAnalyticsApiDeveloperOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiOverviewOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-authenticationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalChecklistsAndTestPlansOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Orders",
                         "pages": [
-                            "docs/en-us/apiDevGuide-apiOrdersOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-apiOrdersOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiOrdersOvercviewOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Payments",
                         "pages": [
                             "docs/en-us/apiDevGuide-portalApiGettingPaymentInformationOmitChunkFromSearchIndex",
-                            "docs/en-us/apiDevGuide-portalApiPaymentsOverview"
+                            "docs/en-us/apiDevGuide-portalApiPaymentsOverview",
+                            "docs/en-us/apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Menus",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAboutTheMenusApiOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiGettingMenuInformationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Stock",
                         "pages": [
                             "docs/en-us/apiDevGuide-portalApiGettingStockOmitChunkFromSearchIndex",
-                            "docs/en-us/apiDevGuide-apiStock"
+                            "docs/en-us/apiDevGuide-apiStock",
+                            "docs/en-us/apiDevGuide-apiGettingStockInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Restaurant info",
                         "pages": [
                             "docs/en-us/apiDevGuide-portalApiGettingRestaurantInfoOmitChunkFromSearchIndex",
-                            "docs/en-us/apiDevGuide-apiRestaurantInfo"
+                            "docs/en-us/apiDevGuide-apiRestaurantInfo",
+                            "docs/en-us/apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Employees",
                         "pages": [
-                            "docs/en-us/apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalApiGettingEmployeeInformationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Cash management",
                         "pages": [
                             "docs/en-us/apiDevGuide-portalApiGettingCashManagementEntriesOmitChunkFromSearchIndex",
-                            "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits"
+                            "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
+                            "docs/en-us/apiDevGuide-apiGettingCashManagementInformationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Webhooks",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalWebhooksOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalWebhooksOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiUsingWebhooksOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalWebhooksReferenceOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Outbound integrations",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-portalOutboundApiOverviewOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromSearchIndex"
                         ]
                     },
                     {
                         "group": "Analytics",
                         "pages": [
-                            "docs/en-us/apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex"
+                            "docs/en-us/apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAboutAnalyticsOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsPayoutReportingDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex",
+                            "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex"
                         ]
                     }
                 ]
@@ -195,7 +306,16 @@
                     {
                         "group": "Recipes",
                         "pages": [
-                            "docs/en-us/devCookbook-devPortalCookbookHowToOmitChunkFromSearchIndex"
+                            "docs/en-us/devCookbook-devPortalCookbookHowToOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookIntegrationsOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookEmployeesOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookGiftCardsOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookLoyaltyOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookOrderingOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookAnalyticsOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookReservationsOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookSecurityOmitChunkFromSearchIndex",
+                            "docs/en-us/devCookbook-cookbookWebhooksOmitChunkFromSearchIndex"
                         ]
                     }
                 ]
