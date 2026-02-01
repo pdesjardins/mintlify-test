@@ -10,7 +10,7 @@ previousSectionTitle: "Menu-specific price"
 nextSectionFile: adminGuide-adminOpenPrice.md
 nextSectionTitle: "Open price"
 excerpt: "Applies to: Menu items (including modifier item references)"
-keywords: [locationspecific,price,Applies to:]
+keywords: ["locationspecific", "price", "Applies to:"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Retrieving the labor reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataUnderstandingData.md
 nextSectionTitle: "Understanding the labor reporting data"
 excerpt: "The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the groupBy value in the message..."
-keywords: [aggregating,labor,reporting,data,groupBy,/era/v1/labor/{timeRange},EMPLOYEE,JOB,YYYYMMDD]
+keywords: ["aggregating", "labor", "reporting", "data", "groupBy", "/era/v1/labor/{timeRange}", "EMPLOYEE", "JOB", "YYYYMMDD"]
 procedures: 0
 codeExamples: 1
 ---

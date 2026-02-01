@@ -10,7 +10,7 @@ previousSectionTitle: "Firing Toast online orders"
 nextSectionFile: adminGuide-platformThirdPartyOnlineOrderingChannelsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Third-party online ordering channels"
 excerpt: "You configure dining option settings for Toast online orders in the Dining Options section. To open the Dining Options section, choose Takeout & delivery > Toast online ordering > Availability >..."
-keywords: [dining,options,toast,online,orders]
+keywords: ["dining", "options", "toast", "online", "orders"]
 procedures: 0
 codeExamples: 0
 ---

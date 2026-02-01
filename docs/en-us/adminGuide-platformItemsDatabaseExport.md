@@ -10,7 +10,7 @@ previousSectionTitle: "Items database overview"
 nextSectionFile: adminGuide-platformMenusBulkMenuImportOmitChunkFromSearchIndex.md
 nextSectionTitle: "Bulk menu imports"
 excerpt: "To export data from the Items database page, select the tab for the type of entity you want to export, and then select the export icon."
-keywords: [items,database,export]
+keywords: ["items", "database", "export"]
 procedures: 0
 codeExamples: 1
 ---

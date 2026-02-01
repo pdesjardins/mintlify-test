@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminDiscountsIntroOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 9. Discounts"
 externalReferences: [https://central.toasttab.com/s/article/Create-a-Menu-for-the-Delphi-Digital-Menu-Board]
 excerpt: "For customers that use a Delphi digital menu board, Toast typically recommends creating a menu specifically for..."
-keywords: [creating,menu,delphi,digital,board]
+keywords: ["creating", "menu", "delphi", "digital", "board"]
 procedures: 0
 codeExamples: 0
 ---

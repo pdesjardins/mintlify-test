@@ -10,7 +10,7 @@ previousSectionTitle: "Creating your menu hierarchy"
 nextSectionFile: adminGuide-adminSpecifyingACustomScheduleForAMenu.md
 nextSectionTitle: "Specifying a custom schedule for a menu"
 excerpt: "The menu builder makes it easy to create and add modifier groups to your Toast menu. A modifier group contains modifiers that allow guests to customize their meals. For example, a salad menu item..."
-keywords: [adding,modifier,groups,modifiers]
+keywords: ["adding", "modifier", "groups", "modifiers"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Filling out a bulk import spreadsheet"
 nextSectionFile: adminGuide-platformUploadingTheBulkImportCsvFile.md
 nextSectionTitle: "Uploading the bulk import CSV file"
 excerpt: "The following graphic shows the colors you can use in the Button color column when creating new menu items, modifier groups, and modifiers with the advanced template."
-keywords: [button,colors]
+keywords: ["button", "colors"]
 procedures: 0
 codeExamples: 0
 ---

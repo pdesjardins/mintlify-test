@@ -10,7 +10,7 @@ previousSectionTitle: "Labor reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData.md
 nextSectionTitle: "Retrieving the labor reporting data"
 excerpt: "You can request labor reporting data for a single day, week, or month. The type of time..."
-keywords: [creating,request,labor,reporting,data,startBusinessDate,endBusinessDate,YYYYMMDD,restaurantIds,excludedRestaurantIds]
+keywords: ["creating", "request", "labor", "reporting", "data", "startBusinessDate", "endBusinessDate", "YYYYMMDD", "restaurantIds", "excludedRestaurantIds"]
 procedures: 0
 codeExamples: 0
 ---

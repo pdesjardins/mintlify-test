@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsInactiveRestaurantData.md
 previousSectionTitle: "Viewing inactive restaurant data"
 nextSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataOverview.md
 nextSectionTitle: "Aggregated sales reporting data overview"
-keywords: [aggregated,sales,reporting,data]
+keywords: ["aggregated", "sales", "reporting", "data"]
 procedures: 0
 codeExamples: 0
 ---

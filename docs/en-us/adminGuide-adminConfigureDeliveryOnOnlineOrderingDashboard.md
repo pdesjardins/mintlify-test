@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring your delivery area"
 nextSectionFile: adminGuide-adminTDSNotificationsAndStatuses.md
 nextSectionTitle: "TDS notifications and statuses"
 excerpt: "The online ordering dashboard displays delivery settings, such as your delivery quote time and applicable throttling delays. From the dashboard, you can turn delivery on or off or add a delay."
-keywords: [configuring,delivery,settings,online,ordering,dashboard]
+keywords: ["configuring", "delivery", "settings", "online", "ordering", "dashboard"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Deciding when to publish changes"
 nextSectionFile: adminGuide-platformPublishingCenterOmitChunkFromSearchIndex.md
 nextSectionTitle: "Publishing center"
 excerpt: "The Toast platform provides the following options for publishing changes:"
-keywords: [publish,changes]
+keywords: ["publish", "changes"]
 procedures: 0
 codeExamples: 0
 ---

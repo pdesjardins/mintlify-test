@@ -10,7 +10,7 @@ previousSectionTitle: "Closing orders as soon as possible"
 nextSectionFile: adminGuide-adminManuallyPurgingClosedOrders.md
 nextSectionTitle: "Manually purging closed orders"
 excerpt: "The order..."
-keywords: [configuring,order,purger,service]
+keywords: ["configuring", "order", "purger", "service"]
 procedures: 1
 codeExamples: 0
 ---

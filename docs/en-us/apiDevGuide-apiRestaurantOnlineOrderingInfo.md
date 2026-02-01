@@ -10,7 +10,7 @@ previousSectionTitle: "Getting information about a specific restaurant"
 nextSectionFile: apiDevGuide-apiGettingOnlineOrderingSchedules.md
 nextSectionTitle: "Getting online ordering schedules"
 excerpt: "The return data from a GET request to the /restaurants/{restaurantGUID} endpoint of the restaurants API includes an OnlineOrdering object with the configuration for the restaurant's Toast Online..."
-keywords: [online,ordering,configuration,/restaurants/{restaurantGUID},OnlineOrdering,specialRequests,ccSameDay,ccFuture]
+keywords: ["online", "ordering", "configuration", "/restaurants/{restaurantGUID}", "OnlineOrdering", "specialRequests", "ccSameDay", "ccFuture"]
 procedures: 0
 codeExamples: 1
 ---

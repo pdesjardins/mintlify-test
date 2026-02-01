@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminUsingAdvancedPricingStrategiesForMenuItemsMenuB
 nextSectionTitle: "Using advanced pricing strategies for menu items"
 externalReferences: [https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering]
 excerpt: "The details page for each menu, menu group, subgroup, menu item, or modifier group has a Channel visibility section that shows the channels where the menu entity is..."
-keywords: [specifying,ordering,channel,visibility]
+keywords: ["specifying", "ordering", "channel", "visibility"]
 procedures: 0
 codeExamples: 0
 ---

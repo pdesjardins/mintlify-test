@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-platformPwfDigitalReceipts.md
 previousSectionTitle: "Digital receipts and printed receipts"
 nextSectionFile: adminGuide-platformPwfTenders.md
 nextSectionTitle: "Payment workflows"
-keywords: [adjustments]
+keywords: ["adjustments"]
 procedures: 0
 codeExamples: 0
 ---

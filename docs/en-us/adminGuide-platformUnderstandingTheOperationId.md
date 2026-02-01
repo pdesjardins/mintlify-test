@@ -10,7 +10,7 @@ previousSectionTitle: "Creating modifiers with the advanced template"
 nextSectionFile: adminGuide-platformSpecifyingToastIdentifiers.md
 nextSectionTitle: "Specifying Toast identifiers"
 excerpt: "You must provide..."
-keywords: [understanding,operation]
+keywords: ["understanding", "operation"]
 procedures: 0
 codeExamples: 0
 ---

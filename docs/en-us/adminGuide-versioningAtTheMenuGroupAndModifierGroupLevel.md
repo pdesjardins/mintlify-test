@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding how and when to use versioning"
 nextSectionFile: adminGuide-versioningOfMenuItems.md
 nextSectionTitle: "Versioning menu items"
 excerpt: "While..."
-keywords: [versioning,menu,group,modifier,level]
+keywords: ["versioning", "menu", "group", "modifier", "level"]
 procedures: 0
 codeExamples: 0
 ---

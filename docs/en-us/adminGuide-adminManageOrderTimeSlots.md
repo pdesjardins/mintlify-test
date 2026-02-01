@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring minimum lead times"
 nextSectionFile: adminGuide-adminQuoteTimeStrategyOmitChunkFromSearchIndex.md
 nextSectionTitle: "Quote time strategy"
 excerpt: "The online ordering schedule you configure in Toast Web determines the earliest and latest times in a business day when guests can place online orders. The available times are also affected by your..."
-keywords: [managing,first,last,online,ordering,time,slots]
+keywords: ["managing", "first", "last", "online", "ordering", "time", "slots"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Guest credit overview"
 nextSectionFile: adminGuide-adminConfigurePermissionsCustomerCredits.md
 nextSectionTitle: "Configuring permissions for working with credits"
 excerpt: "To..."
-keywords: [enabling,customer,credits,feature]
+keywords: ["enabling", "customer", "credits", "feature"]
 procedures: 1
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformOfflineModeLocalSync.md
 nextSectionTitle: "Offline mode with local sync"
 externalReferences: [https://status.toasttab.com/]
 excerpt: "Toast devices use offline mode when experiencing a connection issue. Offline mode indicates Toast devices communicate with each other through the Toast platform cloud-based services."
-keywords: [offline,mode]
+keywords: ["offline", "mode"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Tax table rates"
 nextSectionFile: adminGuide-adminTaxesOnModifiers.md
 nextSectionTitle: "Taxes on modifiers"
 excerpt: "You can deactivate any existing tax rate by changing its Type configuration to Disabled. After a tax rate has been disabled, it is not used by the Toast platform to calculate tax amounts for orders."
-keywords: [disabled,rates]
+keywords: ["disabled", "rates"]
 procedures: 1
 codeExamples: 0
 ---

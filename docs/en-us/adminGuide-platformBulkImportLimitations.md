@@ -10,7 +10,7 @@ previousSectionTitle: "Advanced template examples"
 nextSectionFile: adminGuide-adminMenusForDigitalMenuBoardsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Delphi digital menu boards"
 excerpt: "The bulk menu import tool has the following limitations:"
-keywords: [bulk,menu,import,limitations,BASE,CREATE,ATTACH]
+keywords: ["bulk", "menu", "import", "limitations", "BASE", "CREATE", "ATTACH"]
 procedures: 0
 codeExamples: 0
 ---

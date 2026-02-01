@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformUsingOrdersHub.md
 nextSectionTitle: "Using Orders Hub"
 externalReferences: [https://central.toasttab.com/s/article/Managing-Your-Quote-Time-Strategy]
 excerpt: "The Orders Hub screen in the Toast POS app displays all off-premise orders. An order is considered off-premise if the dining behavior is: Takeout, Delivery, or Curbside. The following sections..."
-keywords: [orders,overview]
+keywords: ["orders", "overview"]
 procedures: 0
 codeExamples: 0
 ---

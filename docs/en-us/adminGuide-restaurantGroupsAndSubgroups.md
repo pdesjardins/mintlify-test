@@ -10,7 +10,7 @@ previousSectionTitle: "Management group"
 nextSectionFile: adminGuide-versions.md
 nextSectionTitle: "Versions"
 excerpt: "You use restaurant groups and..."
-keywords: [restaurant,groups,subgroups]
+keywords: ["restaurant", "groups", "subgroups"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Pricing modifiers"
 nextSectionFile: adminGuide-adminPricingStrategies.md
 nextSectionTitle: "Pricing strategies"
 excerpt: "It is important to note that not all advanced pricing features are supported on all Toast product channels. For example, Toast Online Ordering does not support time-specific or open prices so you..."
-keywords: [toast,product,channel,support,advanced,pricing,features]
+keywords: ["toast", "product", "channel", "support", "advanced", "pricing", "features"]
 procedures: 0
 codeExamples: 0
 ---

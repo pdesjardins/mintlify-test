@@ -10,7 +10,7 @@ previousSectionTitle: "Using the fewest versions possible"
 nextSectionFile: adminGuide-versioningVersusCopying.md
 nextSectionTitle: "Versioning versus copying"
 excerpt: "When you no longer need a version, you can archive it. Archiving a version removes it from Toast Web."
-keywords: [archiving,version]
+keywords: ["archiving", "version"]
 procedures: 1
 codeExamples: 0
 ---

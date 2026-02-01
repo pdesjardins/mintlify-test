@@ -10,7 +10,7 @@ previousSectionTitle: "Combination pricing and menu groups"
 nextSectionFile: adminGuide-adminDiscountsOverallAvailabilityOmitChunkFromSearchIndex.md
 nextSectionTitle: "Configuring discount availability and status"
 excerpt: "To configure a combo discount to only include some of the menu items in a menu group, you can add a separate combo group for each individual menu item permutation of the combination."
-keywords: [handling,menu,groups,varying,prices]
+keywords: ["handling", "menu", "groups", "varying", "prices"]
 procedures: 0
 codeExamples: 0
 ---

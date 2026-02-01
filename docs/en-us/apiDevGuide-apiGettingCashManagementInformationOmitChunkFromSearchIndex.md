@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiWorkingWithCashEntriesAndDeposits.md
 previousSectionTitle: "Cash management overview"
 nextSectionFile: apiDevGuide-apiUsingCashManagementApi.md
 nextSectionTitle: "Getting cash entries"
-keywords: [getting,cash,management,information]
+keywords: ["getting", "cash", "management", "information"]
 procedures: 0
 codeExamples: 0
 ---

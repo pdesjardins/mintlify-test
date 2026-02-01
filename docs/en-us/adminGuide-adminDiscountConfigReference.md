@@ -10,7 +10,7 @@ previousSectionTitle: "Copying discounts"
 nextSectionFile: adminGuide-adminDiscountsTypeSpecificConfigOmitChunkFromSearchIndex.md
 nextSectionTitle: "Configuring type-specific settings for a discount"
 excerpt: "The following tables describe the fields that are displayed on the discount configuration page."
-keywords: [discount,configuration,reference]
+keywords: ["discount", "configuration", "reference"]
 procedures: 0
 codeExamples: 0
 ---

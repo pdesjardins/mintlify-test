@@ -10,7 +10,7 @@ previousSectionTitle: "Bulk menu imports"
 nextSectionFile: adminGuide-platformUnderstandingImportOperations.md
 nextSectionTitle: "Understanding import operations"
 excerpt: "The bulk import tool allows you to use a comma-separated values (CSV) file to import menu changes in bulk to Toast Web. The process for completing a bulk menu import is:"
-keywords: [bulk,import,tool,overview]
+keywords: ["bulk", "import", "tool", "overview"]
 procedures: 0
 codeExamples: 0
 ---

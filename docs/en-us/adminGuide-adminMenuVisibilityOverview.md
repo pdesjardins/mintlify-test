@@ -10,7 +10,7 @@ previousSectionTitle: "Menu visibility"
 nextSectionFile: adminGuide-adminVisibilitySettings.md
 nextSectionTitle: "Visibility settings"
 excerpt: "You use visibility settings to determine the channels where a menu entity is visible..."
-keywords: [visibility,overview]
+keywords: ["visibility", "overview"]
 procedures: 0
 codeExamples: 0
 ---

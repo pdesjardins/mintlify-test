@@ -10,7 +10,7 @@ previousSectionTitle: "Editing employee information, jobs, and permissions in en
 nextSectionFile: adminGuide-adminExampleConfigurationForEnterprises.md
 nextSectionTitle: "Example configurations for enterprises"
 excerpt: "The..."
-keywords: [understanding,menu,editing,permissions,enterprises]
+keywords: ["understanding", "menu", "editing", "permissions", "enterprises"]
 procedures: 0
 codeExamples: 0
 ---

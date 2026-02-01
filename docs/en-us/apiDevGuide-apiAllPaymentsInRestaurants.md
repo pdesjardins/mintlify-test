@@ -10,7 +10,7 @@ previousSectionTitle: "Getting payment information"
 nextSectionFile: apiDevGuide-apiPaymentntInformation.md
 nextSectionTitle: "Getting information about a specific payment"
 excerpt: "Send a GET request to..."
-keywords: [closeoutHour,paidBusinessDate,refundBusinessDate,voidBusinessDate]
+keywords: ["closeoutHour", "paidBusinessDate", "refundBusinessDate", "voidBusinessDate"]
 procedures: 0
 codeExamples: 2
 ---

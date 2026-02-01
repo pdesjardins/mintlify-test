@@ -10,7 +10,7 @@ previousSectionTitle: "Effects of applied discounts"
 nextSectionFile: adminGuide-adminDiscountExclusivity.md
 nextSectionTitle: "Exclusive and nonexclusive discounts"
 excerpt: "Toast discounts affect prices in the following ways."
-keywords: [effect,discounts,prices]
+keywords: ["effect", "discounts", "prices"]
 procedures: 0
 codeExamples: 0
 ---

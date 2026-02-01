@@ -10,7 +10,7 @@ previousSectionTitle: "Retrieving the guest reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex.md
 nextSectionTitle: "Restaurant information"
 excerpt: "Guest reporting data contains objects for each payment corresponding to the specified restaurants and payment dates. You can also choose to retrieve data for currently..."
-keywords: [understanding,guest,reporting,data,restaurantIds,excludedRestaurantIds,restaurantGuid,restaurantName,restaurantLocationName,restaurantLocationCode]
+keywords: ["understanding", "guest", "reporting", "data", "restaurantIds", "excludedRestaurantIds", "restaurantGuid", "restaurantName", "restaurantLocationName", "restaurantLocationCode"]
 procedures: 0
 codeExamples: 0
 ---

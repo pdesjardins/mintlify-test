@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding versioned entities in enterprise reports"
 nextSectionFile: adminGuide-adminExportingEnterpriseReports.md
 nextSectionTitle: "Exporting enterprise reports"
 excerpt: "This section provides some enterprise-specific information about several of Toast's reports."
-keywords: [enterprise,report,details]
+keywords: ["enterprise", "report", "details"]
 procedures: 0
 codeExamples: 0
 ---

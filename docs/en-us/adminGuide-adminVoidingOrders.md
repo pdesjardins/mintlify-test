@@ -10,7 +10,7 @@ previousSectionTitle: "Reopening closed checks"
 nextSectionFile: adminGuide-platformHouseAccountsOmitChunkFromSearchIndex.md
 nextSectionTitle: "House accounts"
 excerpt: "Until..."
-keywords: [voiding,checks]
+keywords: ["voiding", "checks"]
 procedures: 0
 codeExamples: 0
 ---

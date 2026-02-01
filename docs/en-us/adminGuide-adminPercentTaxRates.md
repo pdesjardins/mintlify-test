@@ -10,7 +10,7 @@ previousSectionTitle: "Taxes overview"
 nextSectionFile: adminGuide-adminFixedTaxRates.md
 nextSectionTitle: "Fixed rates"
 excerpt: "A percent tax rate calculates the..."
-keywords: [percent,rates]
+keywords: ["percent", "rates"]
 procedures: 0
 codeExamples: 0
 ---

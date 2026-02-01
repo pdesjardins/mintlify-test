@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminFiringToastOnlineOrders.md
 nextSectionTitle: "Firing Toast online orders"
 externalReferences: [https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#settings, https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#throttling, https://central.toasttab.com/s/article/Managing-Your-Quote-Time-Strategy, https://central.toasttab.com/s/article/How-is-the-delivery-time-for-Toast-Delivery-Services-determined-for-the-guest]
 excerpt: "On..."
-keywords: [online,ordering,dashboard]
+keywords: ["online", "ordering", "dashboard"]
 procedures: 1
 codeExamples: 0
 ---

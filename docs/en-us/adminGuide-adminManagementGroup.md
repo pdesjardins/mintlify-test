@@ -10,7 +10,7 @@ previousSectionTitle: "Session restaurant"
 nextSectionFile: adminGuide-restaurantGroupsAndSubgroups.md
 nextSectionTitle: "Restaurant groups and sub-groups"
 excerpt: "A..."
-keywords: [management,group]
+keywords: ["management", "group"]
 procedures: 0
 codeExamples: 0
 ---

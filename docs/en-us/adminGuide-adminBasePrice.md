@@ -10,7 +10,7 @@ previousSectionTitle: "Pricing strategies overview"
 nextSectionFile: adminGuide-adminTimeSpecificPrice.md
 nextSectionTitle: "Time-specific price"
 excerpt: "Applies to: Menu groups, menu items (including modifier item references)"
-keywords: [base,price,Applies to:]
+keywords: ["base", "price", "Applies to:"]
 procedures: 1
 codeExamples: 0
 ---

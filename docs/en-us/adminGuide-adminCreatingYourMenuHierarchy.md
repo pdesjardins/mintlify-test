@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminAddingModifierGroupsAndModifiers.md
 nextSectionTitle: "Adding modifier groups and modifiers"
 externalReferences: [https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.]
 excerpt: "This section provides procedures and information about creating your menu hierarchy."
-keywords: [creating,menu,hierarchy]
+keywords: ["creating", "menu", "hierarchy"]
 procedures: 0
 codeExamples: 0
 ---

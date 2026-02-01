@@ -10,7 +10,7 @@ previousSectionTitle: "Uploading the bulk import CSV file"
 nextSectionFile: adminGuide-platformAdvancedTemplateExamples.md
 nextSectionTitle: "Advanced template examples"
 excerpt: "There are two types of failures that can occur when importing data with the bulk import tool: data validation failures and import operations failures."
-keywords: [fixing,import,failures,GUID,ATTACH,error_summary_,error_summary.csv]
+keywords: ["fixing", "import", "failures", "GUID", "ATTACH", "error_summary_", "error_summary.csv"]
 procedures: 1
 codeExamples: 0
 ---

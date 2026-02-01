@@ -10,7 +10,7 @@ previousSectionTitle: "Saving changes in the menu manager"
 nextSectionFile: adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews.md
 nextSectionTitle: "Using and customizing the menu manager views"
 excerpt: "After completing a menu configuration change, be sure to save it. Whether or not you also publish your change depends on whether you want your changes to be visible to your guests (on Toast Online..."
-keywords: [understanding,publish,menu]
+keywords: ["understanding", "publish", "menu"]
 procedures: 0
 codeExamples: 0
 ---

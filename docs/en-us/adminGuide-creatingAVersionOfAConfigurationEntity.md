@@ -10,7 +10,7 @@ previousSectionTitle: "Versions"
 nextSectionFile: adminGuide-viewingDifferentVersionsOfTheSameConfigurationEntity.md
 nextSectionTitle: "Viewing different versions of the same configuration entity"
 excerpt: "Follow the instructions below to create a version of a configuration entity."
-keywords: [creating,version,configuration,entity]
+keywords: ["creating", "version", "configuration", "entity"]
 procedures: 1
 codeExamples: 0
 ---

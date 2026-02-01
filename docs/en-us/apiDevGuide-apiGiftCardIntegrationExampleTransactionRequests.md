@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiGiftCardIntegrationReferenceApiImplementation.md
 nextSectionTitle: "Reference gift card API implementation"
 externalReferences: [https://doc.toasttab.com/openapi/giftcards/overview/]
 excerpt: "The following example shows an example gift card integration API request."
-keywords: [GIFTCARD_REVERSE,GiftCardTransaction,GIFTCARD_REDEEM,redeemTransactionInformation,GiftCardTransactionResponse,transactionStatus,redeemResponse]
+keywords: ["GIFTCARD_REVERSE", "GiftCardTransaction", "GIFTCARD_REDEEM", "redeemTransactionInformation", "GiftCardTransactionResponse", "transactionStatus", "redeemResponse"]
 procedures: 0
 codeExamples: 2
 ---

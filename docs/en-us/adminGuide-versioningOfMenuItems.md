@@ -10,7 +10,7 @@ previousSectionTitle: "Versioning at the menu group and modifier group level"
 nextSectionFile: adminGuide-versioningAConfigurationEntityDoesNotVersionItsChildren.md
 nextSectionTitle: "Versioning a configuration entity does not version its children"
 excerpt: "You can..."
-keywords: [versioning,menu,items]
+keywords: ["versioning", "menu", "items"]
 procedures: 0
 codeExamples: 0
 ---

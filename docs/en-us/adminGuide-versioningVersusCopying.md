@@ -10,7 +10,7 @@ previousSectionTitle: "Archiving a version"
 nextSectionFile: adminGuide-adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Location-specific prices"
 excerpt: "Toast..."
-keywords: [versioning,versus,copying]
+keywords: ["versioning", "versus", "copying"]
 procedures: 0
 codeExamples: 0
 ---

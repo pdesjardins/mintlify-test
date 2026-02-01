@@ -10,7 +10,7 @@ previousSectionTitle: "Size price"
 nextSectionFile: adminGuide-adminStackingPricingStrategies.md
 nextSectionTitle: "Stacking pricing strategies"
 excerpt: "Applies to: Modifier groups"
-keywords: [sizesequence,price,Applies to:]
+keywords: ["sizesequence", "price", "Applies to:"]
 procedures: 1
 codeExamples: 0
 ---

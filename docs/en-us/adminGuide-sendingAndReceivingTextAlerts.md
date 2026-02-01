@@ -10,7 +10,7 @@ previousSectionTitle: "Enabling and configuring text alerts"
 nextSectionFile: adminGuide-adminTrackingMissedBreaksAndAcknowledgingBreaksOmitChunkFromSearchIndex.md
 nextSectionTitle: "Tracking missed breaks and acknowledging breaks"
 excerpt: "This section describes how to send a text alert from a Toast..."
-keywords: [sending,receiving,text,alerts,Sender's name,Alert content,Point of origin]
+keywords: ["sending", "receiving", "text", "alerts", "Sender's name", "Alert content", "Point of origin"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu manager"
 nextSectionFile: adminGuide-platformAccessingTheMenuManager.md
 nextSectionTitle: "Accessing the menu manager"
 excerpt: "With the menu manager, you can:"
-keywords: [menu,manager,overview]
+keywords: ["menu", "manager", "overview"]
 procedures: 0
 codeExamples: 0
 ---

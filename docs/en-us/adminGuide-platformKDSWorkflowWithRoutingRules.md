@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow with course pacing"
 nextSectionFile: adminGuide-platformKDSWorkflowWithSingleExpoAndPrepStationPrinters.md
 nextSectionTitle: "KDS workflow with a single expediter KDS device and prep station printers"
 excerpt: "The restaurant in this example uses routing rules to change the prep stations for an item depending..."
-keywords: [workflow,routing,rules,ALSO AT]
+keywords: ["workflow", "routing", "rules", "ALSO AT"]
 procedures: 1
 codeExamples: 0
 ---

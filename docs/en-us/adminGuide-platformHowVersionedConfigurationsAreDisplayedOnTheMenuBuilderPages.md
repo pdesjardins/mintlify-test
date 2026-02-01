@@ -10,7 +10,7 @@ previousSectionTitle: "Saving changes to multiple versions of a menu item"
 nextSectionFile: adminGuide-platformPosLayoutViewOmitChunkFromSearchIndex.md
 nextSectionTitle: "POS layout view"
 excerpt: "When you configure a menu or a menu item, many settings require you to choose other configuration entities. For example, when configuring a menu, you specify the menu groups contained in the menu...."
-keywords: [versioned,configurations,displayed,menu,builder,pages]
+keywords: ["versioned", "configurations", "displayed", "menu", "builder", "pages"]
 procedures: 0
 codeExamples: 3
 ---

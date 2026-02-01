@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformViewHouseAccountsReporting.md
 nextSectionTitle: "Viewing house accounts reporting"
 externalReferences: [https://central.toasttab.com/s/article/How-to-run-a-Tax-Exempt-transaction-1492809352212]
 excerpt: "House account invoices have one of the following statuses:"
-keywords: [managing,house,account,invoices]
+keywords: ["managing", "house", "account", "invoices"]
 procedures: 0
 codeExamples: 0
 ---

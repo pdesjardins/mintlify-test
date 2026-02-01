@@ -10,7 +10,7 @@ previousSectionTitle: "Detecting and avoiding infinite loops in the menus API JS
 nextSectionFile: apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.md
 nextSectionTitle: "Using PricingRules and PricingStrategy to calculate prices"
 excerpt: "All of the objects returned by the menus API have guid values. Menus, menu groups, menu items, modifier groups,..."
-keywords: [understanding,guids,referenceids,multilocationids,multiLocationId,referenceId]
+keywords: ["understanding", "guids", "referenceids", "multilocationids", "multiLocationId", "referenceId"]
 procedures: 0
 codeExamples: 0
 ---

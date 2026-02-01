@@ -10,7 +10,7 @@ previousSectionTitle: "Cash drawer lockdown"
 nextSectionFile: adminGuide-adminUserPermissionsCashMgmt.md
 nextSectionTitle: "User permissions for cash management"
 excerpt: "A deposit is cash removed from a restaurant to be deposited in a bank or other financial institution. A cash deposit should be the final cash management action of the day. After all checks are..."
-keywords: [cash,deposits]
+keywords: ["cash", "deposits"]
 procedures: 0
 codeExamples: 0
 ---

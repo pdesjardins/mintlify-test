@@ -10,7 +10,7 @@ previousSectionTitle: "Item and order routing"
 nextSectionFile: adminGuide-adminRoutingToPrepStations.md
 nextSectionTitle: "Routing with prep stations"
 excerpt: "Prep stations are areas of your restaurant where employees prepare, plate or package, and coordinate delivery of guest orders. It is important to create these prep stations in Toast Web, and assign..."
-keywords: [routing,overview]
+keywords: ["routing", "overview"]
 procedures: 0
 codeExamples: 0
 ---

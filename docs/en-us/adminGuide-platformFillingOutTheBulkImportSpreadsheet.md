@@ -10,7 +10,7 @@ previousSectionTitle: "Specifying Toast identifiers"
 nextSectionFile: adminGuide-platformButtonColors.md
 nextSectionTitle: "Button colors"
 excerpt: "The process for completing a bulk menu import follows this workflow:"
-keywords: [filling,bulk,import,spreadsheet]
+keywords: ["filling", "bulk", "import", "spreadsheet"]
 procedures: 0
 codeExamples: 0
 ---

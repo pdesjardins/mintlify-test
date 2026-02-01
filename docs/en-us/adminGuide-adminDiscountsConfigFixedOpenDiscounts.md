@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring type-specific settings for a discount"
 nextSectionFile: adminGuide-adminDiscountsConfigureBogo.md
 nextSectionTitle: "Configuring a BOGO discount"
 excerpt: "For fixed amount, fixed percent, open amount, and open percent discounts, you choose what the discount applies to. For fixed discounts, you also provide the discount value."
-keywords: [configuring,fixed,open,amount,percent,discounts]
+keywords: ["configuring", "fixed", "open", "amount", "percent", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

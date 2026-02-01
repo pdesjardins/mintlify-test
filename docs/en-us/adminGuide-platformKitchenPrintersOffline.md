@@ -10,7 +10,7 @@ previousSectionTitle: "KDS devices"
 nextSectionFile: adminGuide-devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 11. Network connections"
 excerpt: "For restaurants using kitchen printers and not KDS devices, when an outage is triggered by an internet service provider or Toast platform cloud-based service outage, Toast POS devices continue to..."
-keywords: [kitchen,printers]
+keywords: ["kitchen", "printers"]
 procedures: 0
 codeExamples: 0
 ---

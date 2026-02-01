@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsGuestDataUnderstandData.md
 previousSectionTitle: "Understanding the guest reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoOverview.md
 nextSectionTitle: "Restaurant information overview"
-keywords: [restaurant,information]
+keywords: ["restaurant", "information"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding inheritance"
 nextSectionFile: adminGuide-adminSettingInventoryStatusForMenuItems.md
 nextSectionTitle: "Setting the stock status and count for menu items"
 excerpt: "Toast support recommends adding images to your menu items to make them more appealing on your Toast Online Ordering website. Images must be in .jpg and .png format and no larger than 5MB."
-keywords: [adding,images,menu,items]
+keywords: ["adding", "images", "menu", "items"]
 procedures: 1
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiTimeouts.md
 nextSectionTitle: "Timeouts"
 externalReferences: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers]
 excerpt: "Webhook updates include a set of HTTP headers, some of which are standard HTTP headers and some of which are Toast-specific. This section provides more details on both types."
-keywords: [http,headers]
+keywords: ["http", "headers"]
 procedures: 0
 codeExamples: 0
 ---

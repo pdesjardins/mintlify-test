@@ -10,7 +10,7 @@ previousSectionTitle: "Setting a delivery minimum"
 nextSectionFile: adminGuide-adminReimburseDriversAndCashBanks.md
 nextSectionTitle: "Reimbursing drivers and configuring driver cash banks"
 excerpt: "You can create and apply a service charge to delivery orders. The service charge is automatically applied to all delivery orders."
-keywords: [configuring,delivery,service,charge]
+keywords: ["configuring", "delivery", "service", "charge"]
 procedures: 1
 codeExamples: 0
 ---

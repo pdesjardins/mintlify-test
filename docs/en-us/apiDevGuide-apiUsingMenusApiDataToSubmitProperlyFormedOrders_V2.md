@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiDeterminingIfMenuItemsOrModifiersContainAlcohol.
 nextSectionTitle: "Determining if a menu item or modifier contains alcohol"
 externalReferences: [https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/Menu/, https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/ModifierGroup/, https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/ModifierOption/, https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/MenuItem/, https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/Selection/]
 excerpt: "If you are using the menus API data to construct an ordering application, those orders will ultimately be..."
-keywords: [menus,data,submit,properly,formed,orders,minSelections,maxSelections,requiredMode,isMultiSelect]
+keywords: ["menus", "data", "submit", "properly", "formed", "orders", "minSelections", "maxSelections", "requiredMode", "isMultiSelect"]
 procedures: 0
 codeExamples: 0
 ---

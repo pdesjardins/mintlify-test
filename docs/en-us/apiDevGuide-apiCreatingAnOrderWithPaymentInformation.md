@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 4. Menus"
 externalReferences: [https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/]
 excerpt: "For payments other than credit card payments that are processed by the Toast platform, you use an alternative payment type. These payment types have a type of OTHER."
-keywords: [OTHER]
+keywords: ["OTHER"]
 procedures: 0
 codeExamples: 0
 ---

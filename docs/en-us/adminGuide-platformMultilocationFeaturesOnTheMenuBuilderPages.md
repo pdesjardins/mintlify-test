@@ -10,7 +10,7 @@ previousSectionTitle: "Some menu features are only available on the menu builder
 nextSectionFile: adminGuide-platformSavingChangesToMultipleVersionsOfAMenuItem.md
 nextSectionTitle: "Saving changes to multiple versions of a menu item"
 excerpt: "This section describes the additional features you see when using the menu builder pages for a multi-location restaurant."
-keywords: [multilocation,features,menu,builder,pages]
+keywords: ["multilocation", "features", "menu", "builder", "pages"]
 procedures: 0
 codeExamples: 0
 ---

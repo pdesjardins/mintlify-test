@@ -10,7 +10,7 @@ previousSectionTitle: "Takeout and delivery orders"
 nextSectionFile: adminGuide-platformOfflineAutofireDevices.md
 nextSectionTitle: "Offline Autofire devices"
 excerpt: "When a restaurant is offline, if a guest tries to place a Toast online order, an error message appears. The error message appears when the guest selects the Place Order button. The error message..."
-keywords: [toast,online,ordering,We couldn’t process your order. Please try again.,We’re experiencing issues processing online orders. This issue is typically resolved in less than 5 minutes. If the error persists,contact the restaurant directly to order.]
+keywords: ["toast", "online", "ordering", "We couldn’t process your order. Please try again.", "We’re experiencing issues processing online orders. This issue is typically resolved in less than 5 minutes. If the error persists", "contact the restaurant directly to order."]
 procedures: 0
 codeExamples: 0
 ---

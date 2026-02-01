@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding how orders are shared and stored"
 nextSectionFile: adminGuide-adminConfiguringTheOrderPurgerService.md
 nextSectionTitle: "Configuring the order purger service"
 excerpt: "Restaurant employees typically need access to orders when they are in an open or paid state. After an order is closed,..."
-keywords: [closing,orders,soon,possible]
+keywords: ["closing", "orders", "soon", "possible"]
 procedures: 0
 codeExamples: 0
 ---

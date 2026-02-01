@@ -10,7 +10,7 @@ previousSectionTitle: "Aggregating the menu reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsPayoutReportingDataOmitChunkFromSearchIndex.md
 nextSectionTitle: "Payout reporting data"
 excerpt: "Menu reporting data contains objects that correspond to each available restaurant and business date combination. Optionally, you can choose to aggregate the data by menu, menu group, menu item, or..."
-keywords: [understanding,menu,reporting,data,restaurantIds,excludedRestaurantIds,restaurantGuid,restaurantName,restaurantLocationName,restaurantLocationCode]
+keywords: ["understanding", "menu", "reporting", "data", "restaurantIds", "excludedRestaurantIds", "restaurantGuid", "restaurantName", "restaurantLocationName", "restaurantLocationCode"]
 procedures: 0
 codeExamples: 0
 ---

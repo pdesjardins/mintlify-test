@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring online ordering hours"
 nextSectionFile: adminGuide-adminMinimumLeadTimes.md
 nextSectionTitle: "Configuring minimum lead times"
 excerpt: "In..."
-keywords: [settings,scheduled,orders]
+keywords: ["settings", "scheduled", "orders"]
 procedures: 0
 codeExamples: 0
 ---

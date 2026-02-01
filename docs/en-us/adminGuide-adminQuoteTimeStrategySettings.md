@@ -10,7 +10,7 @@ previousSectionTitle: "Quote time strategies"
 nextSectionFile: adminGuide-adminUsingQuoteTimeStrategiesOffline.md
 nextSectionTitle: "Using quote time strategies offline"
 excerpt: "The following table provides information about the quote time strategies available on the Takeout & delivery page in Toast Web."
-keywords: [quote,time,strategy,settings]
+keywords: ["quote", "time", "strategy", "settings"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Restricting menu visibility to specific online ordering p
 nextSectionFile: adminGuide-adminMinimumModifiersAndVisibilitySettingsLegacy.md
 nextSectionTitle: "Minimum modifiers and visibility settings"
 excerpt: "Required modifiers are used to ensure that a modifier that is crucial to the fulfillment of a menu item is specified as part of the order. For example, a Dressing modifier could be required for a..."
-keywords: [required,modifier,groups,visibility,settings]
+keywords: ["required", "modifier", "groups", "visibility", "settings"]
 procedures: 0
 codeExamples: 0
 ---

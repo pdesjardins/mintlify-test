@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding data discrepancies"
 nextSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataOmitChunkFromSearchIndex.md
 nextSectionTitle: "Aggregated sales reporting data"
 excerpt: "By default, the analytics data only..."
-keywords: [viewing,inactive,restaurant,data,onlyInactiveRestaurants,/era/v1/metrics/{timeRange},TRUE,FALSE]
+keywords: ["viewing", "inactive", "restaurant", "data", "onlyInactiveRestaurants", "/era/v1/metrics/{timeRange}", "TRUE", "FALSE"]
 procedures: 0
 codeExamples: 1
 ---

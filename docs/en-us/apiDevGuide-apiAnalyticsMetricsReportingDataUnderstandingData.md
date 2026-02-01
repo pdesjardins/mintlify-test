@@ -10,7 +10,7 @@ previousSectionTitle: "Aggregating the aggregated sales reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex.md
 nextSectionTitle: "Check reporting data"
 excerpt: "Aggregated sales reporting data contains..."
-keywords: [understanding,aggregated,sales,reporting,data,restaurantGuid,businessDate,YYYYMMDD,guestCount,voidOrdersCount]
+keywords: ["understanding", "aggregated", "sales", "reporting", "data", "restaurantGuid", "businessDate", "YYYYMMDD", "guestCount", "voidOrdersCount"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "POS layout view"
 nextSectionFile: adminGuide-platformAccessingPosLayoutView.md
 nextSectionTitle: "Accessing POS layout view"
 excerpt: "POS layout view provides a browser-based tool that simulates what your menu looks like on the Toast POS app, including the steps a server would take to add items and modifiers to an order."
-keywords: [layout,view,overview]
+keywords: ["layout", "view", "overview"]
 procedures: 0
 codeExamples: 0
 ---

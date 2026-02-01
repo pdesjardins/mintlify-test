@@ -10,7 +10,7 @@ previousSectionTitle: "Verify order routing to prep stations"
 nextSectionFile: adminGuide-adminVerifyDeviceSetup.md
 nextSectionTitle: "Verify device setup"
 excerpt: "For efficient kitchen management, the expediter must receive all of the orders for supervised prep stations."
-keywords: [verify,order,routing,expediter]
+keywords: ["verify", "order", "routing", "expediter"]
 procedures: 1
 codeExamples: 0
 ---

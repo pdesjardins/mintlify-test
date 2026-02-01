@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiLoyaltyTransactionDescriptions.md
 nextSectionTitle: "Transaction types"
 externalReferences: [https://doc.toasttab.com/openapi/loyalty/overview/]
 excerpt: "You can integrate your loyalty program with the Toast platform by implementing an API that can handle REST HTTPS requests that the Toast platform sends to it. The Toast loyalty integration API..."
-keywords: [loyalty,integration,implementation]
+keywords: ["loyalty", "integration", "implementation"]
 procedures: 0
 codeExamples: 0
 ---

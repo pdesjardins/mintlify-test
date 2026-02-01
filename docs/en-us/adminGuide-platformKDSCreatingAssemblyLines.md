@@ -10,7 +10,7 @@ previousSectionTitle: "Adding a prep station"
 nextSectionFile: adminGuide-adminAddKitchenPrinter.md
 nextSectionTitle: "Adding a kitchen printer"
 excerpt: "An assembly line is created using prep stations that are then moved into the correct sequence. Before you create an assembly line, make sure that:"
-keywords: [creating,assembly,line]
+keywords: ["creating", "assembly", "line"]
 procedures: 1
 codeExamples: 0
 ---

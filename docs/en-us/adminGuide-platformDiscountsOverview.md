@@ -10,7 +10,7 @@ previousSectionTitle: "Chapter 9. Discounts"
 nextSectionFile: adminGuide-adminDiscountTypes.md
 nextSectionTitle: "Discount types"
 excerpt: "You use discounts to reduce the prices that your guests pay. For example, you might offer promotional discounts for specific menu..."
-keywords: [discounts,overview,Eligibility,Discount status,How a discount is selected and applied,Effect of the applied discount]
+keywords: ["discounts", "overview", "Eligibility", "Discount status", "How a discount is selected and applied", "Effect of the applied discount"]
 procedures: 0
 codeExamples: 0
 ---

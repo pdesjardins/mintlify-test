@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring portions"
 nextSectionFile: adminGuide-platfomrItemsDatabaseOmitChunkFromSearchIndex.md
 nextSectionTitle: "Items database"
 excerpt: "When you select a menu item in the Toast POS app that has portions enabled, you see a Portions button with the modifier group buttons:"
-keywords: [portions,toast]
+keywords: ["portions", "toast"]
 procedures: 0
 codeExamples: 0
 ---

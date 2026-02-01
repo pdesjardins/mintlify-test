@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformPublishingMenuManagerChanges.md
 nextSectionTitle: "Publishing menu manager changes"
 externalReferences: [https://central.toasttab.com/s/article/How-to-Send-an-Invoice]
 excerpt: "The menu manager's bulk editing feature lets you quickly make the same edit to multiple menu entities."
-keywords: [making,bulk,edits]
+keywords: ["making", "bulk", "edits"]
 procedures: 1
 codeExamples: 0
 ---

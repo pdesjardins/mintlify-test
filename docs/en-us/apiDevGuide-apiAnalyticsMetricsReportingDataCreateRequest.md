@@ -10,7 +10,7 @@ previousSectionTitle: "Aggregated sales reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData.md
 nextSectionTitle: "Retrieving the aggregated sales reporting data"
 excerpt: "There are two ways to create a request for aggregated sales reporting data:..."
-keywords: [creating,request,aggregated,sales,reporting,data,startBusinessDate,endBusinessDate,YYYYMMDD,restaurantIds]
+keywords: ["creating", "request", "aggregated", "sales", "reporting", "data", "startBusinessDate", "endBusinessDate", "YYYYMMDD", "restaurantIds"]
 procedures: 0
 codeExamples: 0
 ---

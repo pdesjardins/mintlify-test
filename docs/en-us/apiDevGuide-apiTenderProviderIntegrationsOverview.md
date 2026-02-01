@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiTenderPmsIntegration.md
 nextSectionTitle: "Hotel property management system integration"
 externalReferences: [https://doc.toasttab.com/openapi/tender/paths/~1yourendpointname/post/]
 excerpt: "You can use the Toast tender API to integrate your tender provider with the Toast platform. The tender API supports the and enables a hotel restaurant to directly bill a guest at the hotel, for..."
-keywords: [tender,provider,integrations,overview,POST,TenderTransaction,Toast-Transaction-Type]
+keywords: ["tender", "provider", "integrations", "overview", "POST", "TenderTransaction", "Toast-Transaction-Type"]
 procedures: 0
 codeExamples: 1
 ---

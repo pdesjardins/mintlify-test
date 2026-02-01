@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformEnableHouseAccountsPaymentMethod.md
 nextSectionTitle: "Enabling house accounts as a payment method"
 externalReferences: [https://central.toasttab.com/s/article/Access-Your-Guest-Data-with-the-Guest-Report]
 excerpt: "You can view the details of a house account on the House account profile page in Toast Web. On the House account profile page, you can:"
-keywords: [managing,house,account,information]
+keywords: ["managing", "house", "account", "information"]
 procedures: 0
 codeExamples: 0
 ---

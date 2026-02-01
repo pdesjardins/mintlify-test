@@ -10,7 +10,7 @@ previousSectionTitle: "Routing with prep stations"
 nextSectionFile: adminGuide-adminAboutItemRoutingRules.md
 nextSectionTitle: "Using item routing rules"
 excerpt: "Assembly lines use a sequence of prep stations to guide menu items..."
-keywords: [routing,assembly,lines,Dough,Sauce,Cheese,Toppings,Bake,Salad]
+keywords: ["routing", "assembly", "lines", "Dough", "Sauce", "Cheese", "Toppings", "Bake", "Salad"]
 procedures: 0
 codeExamples: 0
 ---

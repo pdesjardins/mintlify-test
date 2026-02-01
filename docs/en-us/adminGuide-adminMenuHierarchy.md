@@ -10,7 +10,7 @@ previousSectionTitle: "Chapter 8. Menus"
 nextSectionFile: adminGuide-adminCreatingYourMenuUsingTheBasicMenuBuilderOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu builder"
 excerpt: "Toast products use a hierarchical structure to organize a restaurant's menu offerings:"
-keywords: [Lunch,Dinner,Dinner menu > Pub fare,Grilled chicken,Grilled salmon,Entree,Avocado,Sandwich add-ons,Salad add-ons,Soups]
+keywords: ["Lunch", "Dinner", "Dinner menu > Pub fare", "Grilled chicken", "Grilled salmon", "Entree", "Avocado", "Sandwich add-ons", "Salad add-ons", "Soups"]
 procedures: 0
 codeExamples: 0
 ---

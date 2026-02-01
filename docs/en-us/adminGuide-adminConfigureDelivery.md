@@ -10,7 +10,7 @@ previousSectionTitle: "Delivery overview"
 nextSectionFile: adminGuide-adminSetDeliveryMinimum.md
 nextSectionTitle: "Setting a delivery minimum"
 externalReferences: [https://central.toasttab.com/s/article/Delivery-Mode-1493048871021, https://central.toasttab.com/s/article/Getting-Started-Toast-Delivery-Services-Setup]
-keywords: [delivery,settings]
+keywords: ["delivery", "settings"]
 procedures: 0
 codeExamples: 0
 ---

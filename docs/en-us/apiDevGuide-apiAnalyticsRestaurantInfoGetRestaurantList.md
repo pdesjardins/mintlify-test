@@ -8,7 +8,7 @@ parentSectionTitle: "Restaurant information"
 previousSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoOverview.md
 previousSectionTitle: "Restaurant information overview"
 excerpt: "You can use the /era/v1/restaurants-information endpoint of the analytics API to retrieve a list of the restaurants and their statuses..."
-keywords: [getting,list,restaurants,management,group,restaurantGuid,restaurantName,testMode]
+keywords: ["getting", "list", "restaurants", "management", "group", "restaurantGuid", "restaurantName", "testMode"]
 procedures: 0
 codeExamples: 0
 ---

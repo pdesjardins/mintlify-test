@@ -10,7 +10,7 @@ previousSectionTitle: "Guest reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsGuestDataRetrieveData.md
 nextSectionTitle: "Retrieving the guest reporting data"
 excerpt: "Send..."
-keywords: [creating,request,guest,reporting,data,/era/v1/guest/payments/{timeRange},onlyInactiveRestaurants,startDate,YYYYMMDD,endDate]
+keywords: ["creating", "request", "guest", "reporting", "data", "/era/v1/guest/payments/{timeRange}", "onlyInactiveRestaurants", "startDate", "YYYYMMDD", "endDate"]
 procedures: 0
 codeExamples: 0
 ---

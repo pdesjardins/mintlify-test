@@ -10,7 +10,7 @@ previousSectionTitle: "Settings copy feature"
 nextSectionFile: adminGuide-platformSettingsCopyCopyingSettings.md
 nextSectionTitle: "Copying settings using the settings copy feature"
 excerpt: "For..."
-keywords: [settings,copy,overview]
+keywords: ["settings", "copy", "overview"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Managing checks and orders"
 nextSectionFile: adminGuide-platformOrdersSendToDevices.md
 nextSectionTitle: "Sending orders to devices"
 excerpt: "When a restaurant employee places an order for a guest, the the order and its checks are assigned to that employee."
-keywords: [transferring,checks,orders,different,employee]
+keywords: ["transferring", "checks", "orders", "different", "employee"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Portions overview"
 nextSectionFile: adminGuide-platformAlteringThePriceOfAModifierAppliedToAPortion.md
 nextSectionTitle: "Altering the price of a modifier applied to a portion"
 excerpt: "By default, a portion of a modifier is priced..."
-keywords: [default,pricing,modifiers,applied,portions,Example: Portions and fixed prices,Example: Portions and sequence prices,Example: Portions and size prices]
+keywords: ["default", "pricing", "modifiers", "applied", "portions", "Example: Portions and fixed prices", "Example: Portions and sequence prices", "Example: Portions and size prices"]
 procedures: 0
 codeExamples: 0
 ---

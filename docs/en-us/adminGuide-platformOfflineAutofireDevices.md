@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformOfflinePaymentProcessingForDigitalOrders.md
 nextSectionTitle: "Offline payment processing for digital orders"
 externalReferences: [https://central.toasttab.com/s/article/Offline-Mode-Using-Toast-During-a-ISP-Outage]
 excerpt: "Various situations can cause your Toast device to go offline, including but not limited to:"
-keywords: [offline,autofire,devices]
+keywords: ["offline", "autofire", "devices"]
 procedures: 0
 codeExamples: 0
 ---

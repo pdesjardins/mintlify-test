@@ -10,7 +10,7 @@ previousSectionTitle: "Completing shift review"
 nextSectionFile: adminGuide-platformReviewingEmployeeShifts.md
 nextSectionTitle: "Reviewing employee shifts"
 externalReferences: [https://central.toasttab.com/s/article/Editing-Employee-Time-Clock-Entries-1492802387122]
-keywords: [reopening,shift]
+keywords: ["reopening", "shift"]
 procedures: 0
 codeExamples: 0
 ---

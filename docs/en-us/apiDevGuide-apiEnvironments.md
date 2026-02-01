@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-ifYoureACustomIntegrationDeveloperOmitChunkFromSear
 nextSectionTitle: "If you're a custom integration developer"
 externalReferences: [https://s3.amazonaws.com/toast-sandbox/static-content/apks/toast-android-pos-2.87.2.apk, https://bit.ly/3IlobYF]
 excerpt: "Toast maintains and provides continuous access to multiple, independent service environments for use by API integration clients during development, testing, and production. These environments are:"
-keywords: [Sandbox -,Production -]
+keywords: ["Sandbox -", "Production -"]
 procedures: 0
 codeExamples: 0
 ---

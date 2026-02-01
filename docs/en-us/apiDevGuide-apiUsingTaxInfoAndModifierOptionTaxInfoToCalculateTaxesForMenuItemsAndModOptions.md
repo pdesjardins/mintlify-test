@@ -10,7 +10,7 @@ previousSectionTitle: "Using PricingRules and PricingStrategy to calculate price
 nextSectionFile: apiDevGuide-apiUsingMenusApiDataToSubmitProperlyFormedOrders_V2.md
 nextSectionTitle: "Using menus API data to submit properly formed orders"
 excerpt: "In Toast Web, you can configure a modifier option's underlying item reference to use one of the following tax behaviors:"
-keywords: [taxinfo,modifieroptiontaxinfo,calculate,taxes,menu,items,modifier,options,modifierOptionTaxInfo,ModifierOption]
+keywords: ["taxinfo", "modifieroptiontaxinfo", "calculate", "taxes", "menu", "items", "modifier", "options", "modifierOptionTaxInfo", "ModifierOption"]
 procedures: 0
 codeExamples: 4
 ---

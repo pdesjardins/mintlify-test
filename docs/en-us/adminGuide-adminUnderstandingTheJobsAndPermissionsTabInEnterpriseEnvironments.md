@@ -10,7 +10,7 @@ previousSectionTitle: "Assigning restaurant access"
 nextSectionFile: adminGuide-adminAssigningRestaurantGroupLevelPermissions.md
 nextSectionTitle: "Assigning restaurant group-level permissions"
 excerpt: "The Jobs and Permissions tab on the employee details page has two sections, the Jobs section and the Access Permissions section. These two sections are closely related to one another but behave..."
-keywords: [understanding,jobs,permissions,enterprise,environments]
+keywords: ["understanding", "jobs", "permissions", "enterprise", "environments"]
 procedures: 0
 codeExamples: 0
 ---

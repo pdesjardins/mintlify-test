@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalWebhooksOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 9. Webhooks"
 externalReferences: [https://stedolan.github.io/jq/]
 excerpt: "The expected cash deposit for a restaurant is the currency amount of cash that should be available to be removed from a restaurant and deposited in a bank or other financial institution for a..."
-keywords: [calculating,expected,cash,deposits,CASH,CashEntry,CASH_COLLECTED,TIP_OUT,Undo Tip Out,get_payment]
+keywords: ["calculating", "expected", "cash", "deposits", "CASH", "CashEntry", "CASH_COLLECTED", "TIP_OUT", "Undo Tip Out", "get_payment"]
 procedures: 1
 codeExamples: 3
 ---

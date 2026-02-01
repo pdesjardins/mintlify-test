@@ -10,7 +10,7 @@ previousSectionTitle: "Payout reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData.md
 nextSectionTitle: "Payout reporting data by payments"
 excerpt: "Retrieving the payout reporting data by settled date is a two-step process. You must:"
-keywords: [payout,reporting,data,settled,date,/era/v1/payout/{timeRange},reportRequestGuid,/era/v1/payout/{requestReportGuid}]
+keywords: ["payout", "reporting", "data", "settled", "date", "/era/v1/payout/{timeRange}", "reportRequestGuid", "/era/v1/payout/{requestReportGuid}"]
 procedures: 0
 codeExamples: 0
 ---

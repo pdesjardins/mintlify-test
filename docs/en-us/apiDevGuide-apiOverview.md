@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-authenticationOmitChunkFromSearchIndex.md
 nextSectionTitle: "Authentication"
 externalReferences: [https://doc.toasttab.com/openapi/analytics/overview/, https://doc.toasttab.com/openapi/cashmanagement/overview/, https://doc.toasttab.com/openapi/configuration/overview/, https://doc.toasttab.com/openapi/creditcards/overview/, https://doc.toasttab.com/openapi/giftcards/overview/, https://doc.toasttab.com/openapi/kitchen/overview/, https://doc.toasttab.com/openapi/labor/overview/, https://doc.toasttab.com/openapi/loyalty/overview/, https://doc.toasttab.com/openapi/menus/overview/, https://doc.toasttab.com/openapi/orders/overview/, https://doc.toasttab.com/openapi/ordermgmt.configuration/overview/, https://doc.toasttab.com/openapi/packaging/overview/, https://doc.toasttab.com/openapi/partners/overview/, https://doc.toasttab.com/openapi/rx.availability.service/overview/, https://doc.toasttab.com/openapi/restaurants/overview/, https://doc.toasttab.com/openapi/stock/overview/, https://doc.toasttab.com/openapi/tender/overview/]
 excerpt: "The Toast platform REST web service APIs make it easier and more efficient to work with location data. This guide is intended..."
-keywords: [GET,POST,PUT,PATCH,DELETE]
+keywords: ["GET", "POST", "PUT", "PATCH", "DELETE"]
 procedures: 0
 codeExamples: 0
 ---

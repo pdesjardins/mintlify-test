@@ -10,7 +10,7 @@ previousSectionTitle: "Designing discounts for promotions"
 nextSectionFile: adminGuide-discountsAddingOrUpdatingToastDiscounts.md
 nextSectionTitle: "Adding or updating discounts"
 excerpt: "You view and manage your discounts from the Discounts page."
-keywords: [discounts,page]
+keywords: ["discounts", "page"]
 procedures: 0
 codeExamples: 0
 ---

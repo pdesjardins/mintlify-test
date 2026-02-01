@@ -10,7 +10,7 @@ previousSectionTitle: "Orders overview"
 nextSectionFile: adminGuide-platformOrdersPii.md
 nextSectionTitle: "Guest personal identifiable information"
 excerpt: "An order is the basic building block of a restaurant transaction. Each order specifies:"
-keywords: [order,information,About checks,Other order information]
+keywords: ["order", "information", "About checks", "Other order information"]
 procedures: 0
 codeExamples: 0
 ---

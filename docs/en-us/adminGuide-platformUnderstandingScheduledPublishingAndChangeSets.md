@@ -10,7 +10,7 @@ previousSectionTitle: "Manual and scheduled publishing"
 nextSectionFile: adminGuide-devPortalPlatformGuideMenusOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 8. Menus"
 excerpt: "The scheduled publishing feature lets you make..."
-keywords: [understanding,scheduled,publishing,change,sets]
+keywords: ["understanding", "scheduled", "publishing", "change", "sets"]
 procedures: 0
 codeExamples: 0
 ---

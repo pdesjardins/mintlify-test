@@ -10,7 +10,7 @@ previousSectionTitle: "Orders API overview"
 nextSectionFile: apiDevGuide-apiOrdersFirstOrder.md
 nextSectionTitle: "Submitting your first order to the orders API"
 excerpt: "An..."
-keywords: [Order]
+keywords: ["Order"]
 procedures: 0
 codeExamples: 0
 ---

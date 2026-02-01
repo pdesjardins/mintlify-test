@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring service charges"
 nextSectionFile: adminGuide-adminServiceChargeArchive.md
 nextSectionTitle: "Archiving service charges"
 excerpt: "To view information about service charges that were applied to orders, you can use the Sales Summary report or the Order Details report."
-keywords: [viewing,service,charges,were,applied,orders]
+keywords: ["viewing", "service", "charges", "were", "applied", "orders"]
 procedures: 1
 codeExamples: 0
 ---

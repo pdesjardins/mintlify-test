@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-orders_api_future_orders.md
 nextSectionTitle: "Scheduling future orders"
 externalReferences: [https://doc.toasttab.com/openapi/configuration/overview/]
 excerpt: "You can specify the revenue center associated with the order."
-keywords: [Order,revenueCenter,GET,/revenueCenters,/serviceAreas]
+keywords: ["Order", "revenueCenter", "GET", "/revenueCenters", "/serviceAreas"]
 procedures: 0
 codeExamples: 1
 ---

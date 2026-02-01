@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminFixedPrice.md
 nextSectionTitle: "Fixed price"
 externalReferences: [https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670]
 excerpt: "Applies to: Menu groups, menu items (not including modifier item references)"
-keywords: [open,price,Applies to:]
+keywords: ["open", "price", "Applies to:"]
 procedures: 2
 codeExamples: 0
 ---

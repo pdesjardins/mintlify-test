@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformReassigningAnAutoFireDevice.md
 nextSectionTitle: "Reassigning an offline Autofire device"
 externalReferences: [https://central.toasttab.com/s/article/Double-Printing?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web, https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407#using_thresholds_and_minimums, https://central.toasttab.com/s/article/Device-Groups]
 excerpt: "For more information about how to set up autofiring, see Setting up Order Auto-Firing."
-keywords: [configuring,autofire,device]
+keywords: ["configuring", "autofire", "device"]
 procedures: 3
 codeExamples: 0
 ---

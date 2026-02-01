@@ -10,7 +10,7 @@ previousSectionTitle: "Adding modifier groups and modifiers"
 nextSectionFile: adminGuide-platformDeterminingWhereAMenuItemIsUsed.md
 nextSectionTitle: "Determining where a menu item is used"
 excerpt: "You can use a menu's..."
-keywords: [specifying,custom,schedule,menu]
+keywords: ["specifying", "custom", "schedule", "menu"]
 procedures: 1
 codeExamples: 0
 ---

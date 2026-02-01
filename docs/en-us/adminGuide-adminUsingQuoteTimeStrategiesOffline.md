@@ -10,7 +10,7 @@ previousSectionTitle: "Quote time strategy settings"
 nextSectionFile: adminGuide-adminOnlineOrderingOmitChunkFromSearchIndex.md
 nextSectionTitle: "Toast Online Ordering"
 excerpt: "If your Toast device is offline due..."
-keywords: [quote,time,strategies,offline]
+keywords: ["quote", "time", "strategies", "offline"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Using price levels"
 nextSectionFile: adminGuide-adminPricingStrategyDetailsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Pricing strategies"
 excerpt: "You can use..."
-keywords: [discounts,pricing]
+keywords: ["discounts", "pricing"]
 procedures: 0
 codeExamples: 0
 ---

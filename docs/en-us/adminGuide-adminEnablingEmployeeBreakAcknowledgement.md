@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminViewingBreaksInLaborReports.md
 nextSectionTitle: "Viewing employee breaks in labor reports"
 externalReferences: [https://central.toasttab.com/s/article/Clocking-In-and-Out-for-Shifts-and-Breaks, https://central.toasttab.com/s/article/Shift-Review-Overview]
 excerpt: "When..."
-keywords: [enabling,employee,break,acknowledgement]
+keywords: ["enabling", "employee", "break", "acknowledgement"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Adding or updating discounts"
 nextSectionFile: adminGuide-adminDiscountConfigReference.md
 nextSectionTitle: "Discount configuration reference"
 excerpt: "You can copy an existing..."
-keywords: [copying,discounts]
+keywords: ["copying", "discounts"]
 procedures: 1
 codeExamples: 0
 ---

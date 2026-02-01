@@ -10,7 +10,7 @@ previousSectionTitle: "Online ordering dashboard"
 nextSectionFile: adminGuide-adminDiningOptionsOnlineOrdering.md
 nextSectionTitle: "Dining options for Toast online orders"
 excerpt: "On..."
-keywords: [firing,toast,online,orders]
+keywords: ["firing", "toast", "online", "orders"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu builder for multi-location restaurants"
 nextSectionFile: adminGuide-platformAccessingMenuBuilderPagesForMultiLocationRestaurants.md
 nextSectionTitle: "Accessing menu builder pages for multi-location restaurants"
 excerpt: "Toast introduced the menu builder as a replacement for the classic menu pages to provide an easier, more efficient tool for creating your menus. Toast is adding support to the menu builder for..."
-keywords: [overview,menu,builder,multilocation,restaurants]
+keywords: ["overview", "menu", "builder", "multilocation", "restaurants"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Managing orders from third-party online ordering channels
 nextSectionFile: adminGuide-platformAutoFireDeviceOmitChunkFromSearchIndex.md
 nextSectionTitle: "Autofiring"
 excerpt: "You can adjust menu visibility for an online ordering channel from the Third party ordering page in Toast Web. The Third party ordering page displays the following information:"
-keywords: [adjusting,menu,visibility,thirdparty,online,ordering,channel]
+keywords: ["adjusting", "menu", "visibility", "thirdparty", "online", "ordering", "channel"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Chapter 6. Restaurant info"
 nextSectionFile: apiDevGuide-apiRestaurantBusinessDate.md
 nextSectionTitle: "Restaurant closeoutHour and business dates"
 excerpt: "The restaurants API has endpoints that let you obtain two types of information about restaurants:"
-keywords: [/restaurants/v1/groups/{managementGroupGUID}/restaurants,/restaurants/v1/restaurants/{restaurantGUID}]
+keywords: ["/restaurants/v1/groups/{managementGroupGUID}/restaurants", "/restaurants/v1/restaurants/{restaurantGUID}"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminToastProductChannelSupportForAdvancedPricingFea
 nextSectionTitle: "Toast product channel support for advanced pricing features"
 externalReferences: [https://central.toasttab.com/s/article/Creating-Default-Modifiers, https://central.toasttab.com/s/article/Pre-Modifiers-1493068611745]
 excerpt: "This section provides information on creating and pricing modifier groups and their individual modifiers. It also describes the structure of a modifier. Understanding this structure is critical to..."
-keywords: [pricing,modifiers]
+keywords: ["pricing", "modifiers"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiGiftCardIntegrationWorkflow.md
 nextSectionTitle: "Gift card integration workflow"
 externalReferences: [https://doc.toasttab.com/openapi/giftcards/overview/]
 excerpt: "This section explains how to implement an integration with the Toast platform that allows the Toast POS to process gift card transactions using your gift card provider service."
-keywords: [gift,card,integration,overview]
+keywords: ["gift", "card", "integration", "overview"]
 procedures: 0
 codeExamples: 0
 ---

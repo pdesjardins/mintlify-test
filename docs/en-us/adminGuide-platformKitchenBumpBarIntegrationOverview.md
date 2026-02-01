@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformKitchenBumpBarSetUp.md
 nextSectionTitle: "Setting up the bump bar"
 externalReferences: [https://krscorporation.com/collections/toast]
 excerpt: "A bump bar is an external piece of hardware that allows employees to navigate the Kitchen Display System (KDS) device without using the touchscreen. This is useful when a touchscreen is not in a..."
-keywords: [bump,integration,overview]
+keywords: ["bump", "integration", "overview"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu manager permissions"
 nextSectionFile: adminGuide-platformMenuManagerViewingOptions.md
 nextSectionTitle: "Viewing options"
 excerpt: "This section provides information specific to using menu manager when your restaurant also uses the multi-location management module."
-keywords: [menu,manager,multilocation,restaurants]
+keywords: ["menu", "manager", "multilocation", "restaurants"]
 procedures: 0
 codeExamples: 0
 ---

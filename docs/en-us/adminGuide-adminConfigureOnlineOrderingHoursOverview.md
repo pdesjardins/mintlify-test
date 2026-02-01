@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminSettingsForScheduledOrders.md
 nextSectionTitle: "Settings for scheduled orders"
 externalReferences: [https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime]
 excerpt: "The Online ordering hours section displays the online ordering hours for Takeout & Third-party..."
-keywords: [configuring,online,ordering,hours,Error: could not close current day.,“Hours cannot pass closeout hour,which is [hour].”]
+keywords: ["configuring", "online", "ordering", "hours", "Error: could not close current day.", "“Hours cannot pass closeout hour", "which is [hour].”"]
 procedures: 3
 codeExamples: 0
 ---

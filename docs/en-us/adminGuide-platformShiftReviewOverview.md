@@ -10,7 +10,7 @@ previousSectionTitle: "Shift review"
 nextSectionFile: adminGuide-platformShiftReviewPermissions.md
 nextSectionTitle: "Permissions"
 excerpt: "Shift..."
-keywords: [overview]
+keywords: ["overview"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Time-specific price"
 nextSectionFile: adminGuide-adminLocationSpecificPrice.md
 nextSectionTitle: "Location-specific price"
 excerpt: "Applies to: Menu items (including modifier item references)"
-keywords: [menuspecific,price,Applies to:]
+keywords: ["menuspecific", "price", "Applies to:"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Setting up the bump bar"
 nextSectionFile: adminGuide-platformKitchenBumpBarGuidelines.md
 nextSectionTitle: "Bump bar usage guidelines"
 excerpt: "After the..."
-keywords: [bump]
+keywords: ["bump"]
 procedures: 0
 codeExamples: 0
 ---

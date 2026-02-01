@@ -10,7 +10,7 @@ previousSectionTitle: "Requiring a discount reason for a discount"
 nextSectionFile: adminGuide-adminDiscountsEffectsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Effects of applied discounts"
 excerpt: "You can create discounts that automatically apply to a check when a restaurant employee saves items (with the Send, Stay, Hold, or Pay buttons) or prints a receipt."
-keywords: [automatically,applying,discounts]
+keywords: ["automatically", "applying", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

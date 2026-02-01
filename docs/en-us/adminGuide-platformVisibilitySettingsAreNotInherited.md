@@ -10,7 +10,7 @@ previousSectionTitle: "Visibility settings"
 nextSectionFile: adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.md
 nextSectionTitle: "Restricting menu visibility to specific online ordering partners"
 excerpt: "Menu..."
-keywords: [visibility,settings,inherited]
+keywords: ["visibility", "settings", "inherited"]
 procedures: 0
 codeExamples: 0
 ---

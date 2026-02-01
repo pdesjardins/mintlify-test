@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformVisibilitySettingsAreNotInherited.md
 nextSectionTitle: "Visibility settings are not inherited"
 externalReferences: [https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering]
 excerpt: "Visibility settings are available in several places in Toast Web:"
-keywords: [visibility,settings]
+keywords: ["visibility", "settings"]
 procedures: 0
 codeExamples: 0
 ---

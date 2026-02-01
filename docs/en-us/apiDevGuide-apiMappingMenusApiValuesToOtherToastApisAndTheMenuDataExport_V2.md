@@ -10,7 +10,7 @@ previousSectionTitle: "Comparing the menus API with the configuration API and me
 nextSectionFile: apiDevGuide-apiMenusApiTroubleshooting_V2.md
 nextSectionTitle: "Menus API troubleshooting"
 excerpt: "To..."
-keywords: [mapping,menus,values,other,toast,apis,menu,data,export,startTime]
+keywords: ["mapping", "menus", "values", "other", "toast", "apis", "menu", "data", "export", "startTime"]
 procedures: 0
 codeExamples: 0
 ---

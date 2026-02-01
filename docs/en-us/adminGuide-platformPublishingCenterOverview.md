@@ -10,7 +10,7 @@ previousSectionTitle: "Publishing center"
 nextSectionFile: adminGuide-platformUnderstandingSavingAndPublishing.md
 nextSectionTitle: "Understanding saving and publishing"
 excerpt: "To make the changes you specify in Toast Web available to restaurant employees and guests, you must first save and then publish them. The Toast account > Publishing > Publishing center page will..."
-keywords: [publishing,center,overview]
+keywords: ["publishing", "center", "overview"]
 procedures: 0
 codeExamples: 0
 ---

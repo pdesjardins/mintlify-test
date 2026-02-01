@@ -10,7 +10,7 @@ previousSectionTitle: "Transaction types"
 nextSectionFile: apiDevGuide-apiLoyaltyKioskWorkflow.md
 nextSectionTitle: "Kiosk workflow"
 excerpt: "This section describes the user interface workflow for loyalty transactions in the Toast POS app."
-keywords: [workflow]
+keywords: ["workflow"]
 procedures: 1
 codeExamples: 0
 ---

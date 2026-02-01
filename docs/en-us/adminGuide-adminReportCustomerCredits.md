@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring credit expiration"
 nextSectionFile: adminGuide-devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 14. UI options"
 excerpt: "When you redeem credits as payment for a check, the Toast platform applies the value of the credit as a discount."
-keywords: [reporting,credit,redemptions]
+keywords: ["reporting", "credit", "redemptions"]
 procedures: 0
 codeExamples: 0
 ---

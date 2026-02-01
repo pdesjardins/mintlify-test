@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.md
 previousSectionTitle: "Payout reporting data by sales date"
 nextSectionFile: apiDevGuide-apiAnalyticsGuestDataOverview.md
 nextSectionTitle: "Guest reporting data overview"
-keywords: [guest,reporting,data]
+keywords: ["guest", "reporting", "data"]
 procedures: 0
 codeExamples: 0
 ---

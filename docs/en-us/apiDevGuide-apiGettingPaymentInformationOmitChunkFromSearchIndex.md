@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-portalApiPaymentsOverview.md
 previousSectionTitle: "Payments overview"
 nextSectionFile: apiDevGuide-apiAllPaymentsInRestaurants.md
 nextSectionTitle: "Getting all payments for a restaurant"
-keywords: [getting,payment,information]
+keywords: ["getting", "payment", "information"]
 procedures: 0
 codeExamples: 0
 ---

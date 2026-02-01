@@ -10,7 +10,7 @@ previousSectionTitle: "Menu-specific prices"
 nextSectionFile: adminGuide-platformAllVersionsOfAMenuUseTheSameMenuSpecificPrices.md
 nextSectionTitle: "All versions of a menu use the same menu-specific prices"
 excerpt: "Multi-location restaurants can have multiple versions of a menu, for example, a Dinner menu that has a version for a Boston location and another version for a Portland location. There are two..."
-keywords: [menuspecific,prices,multilocation,restaurants]
+keywords: ["menuspecific", "prices", "multilocation", "restaurants"]
 procedures: 0
 codeExamples: 2
 ---

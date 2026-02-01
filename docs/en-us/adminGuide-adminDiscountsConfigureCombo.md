@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring a BOGO discount"
 nextSectionFile: adminGuide-adminDiscountTriggerComponentsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Choosing the required items for a discount"
 excerpt: "For a combo discount, you configure the discount value and the eligible combinations of menu items."
-keywords: [configuring,combo,discount]
+keywords: ["configuring", "combo", "discount"]
 procedures: 0
 codeExamples: 0
 ---

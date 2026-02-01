@@ -10,7 +10,7 @@ previousSectionTitle: "Bulk discounts"
 nextSectionFile: adminGuide-platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 10. Kitchen operations and fulfillment"
 excerpt: "The discount..."
-keywords: [discount,configurations,multilocation,restaurants]
+keywords: ["discount", "configurations", "multilocation", "restaurants"]
 procedures: 0
 codeExamples: 0
 ---

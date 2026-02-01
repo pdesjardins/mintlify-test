@@ -10,7 +10,7 @@ previousSectionTitle: "Pricing strategies"
 nextSectionFile: adminGuide-adminUsingPriceLevels.md
 nextSectionTitle: "Using price levels"
 excerpt: "The..."
-keywords: [price,editor]
+keywords: ["price", "editor"]
 procedures: 0
 codeExamples: 0
 ---

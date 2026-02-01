@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminAssigningSalesCategories.md
 nextSectionTitle: "Assigning sales categories"
 externalReferences: [https://central.toasttab.com/s/article/Course-Firing-Options]
 excerpt: "You use courses to manage the firing of tickets to the kitchen for fulfillment."
-keywords: [assigning,courses]
+keywords: ["assigning", "courses"]
 procedures: 0
 codeExamples: 0
 ---

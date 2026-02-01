@@ -10,7 +10,7 @@ previousSectionTitle: "Firing by item prep time"
 nextSectionFile: adminGuide-platformKDSCalculatePrepStationFulfillTime.md
 nextSectionTitle: "Calculating prep station fulfillment times"
 excerpt: "The Toast platform can track the time it takes for prep stations and expediter KDS devices to..."
-keywords: [understanding,average,fulfillment,timers]
+keywords: ["understanding", "average", "fulfillment", "timers"]
 procedures: 1
 codeExamples: 0
 ---

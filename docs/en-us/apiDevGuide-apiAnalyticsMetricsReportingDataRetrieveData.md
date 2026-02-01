@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a request for aggregated sales reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataAggregation.md
 nextSectionTitle: "Aggregating the aggregated sales reporting data"
 excerpt: "Send..."
-keywords: [retrieving,aggregated,sales,reporting,data,/era/v1/metrics/{reportRequestGuid},fetchRestaurantNames,fetchRestaurantName]
+keywords: ["retrieving", "aggregated", "sales", "reporting", "data", "/era/v1/metrics/{reportRequestGuid}", "fetchRestaurantNames", "fetchRestaurantName"]
 procedures: 0
 codeExamples: 0
 ---

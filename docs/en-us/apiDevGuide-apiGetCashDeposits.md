@@ -10,7 +10,7 @@ previousSectionTitle: "Getting cash entries"
 nextSectionFile: apiDevGuide-apiCalculatingExpectedCashDeposits.md
 nextSectionTitle: "Calculating expected cash deposits"
 excerpt: "The deposits endpoint of the cash management API returns information about the actual cash deposits for a restaurant. For example, when you close out a business day for your restaurant, you might..."
-keywords: [getting,cash,deposit,entries,yyyyMMdd,DepositEntry]
+keywords: ["getting", "cash", "deposit", "entries", "yyyyMMdd", "DepositEntry"]
 procedures: 0
 codeExamples: 2
 ---

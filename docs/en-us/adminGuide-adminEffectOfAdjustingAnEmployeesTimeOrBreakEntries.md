@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminEffectOfAutoclockOutOnBreakEntries.md
 nextSectionTitle: "Effect of auto-clock out on break entries"
 externalReferences: [https://central.toasttab.com/s/article/Editing-Employee-Time-Clock-Entries-1492802387122]
 excerpt: "As described in this Toast Central article, it is possible to manually adjust an employee's time entry to modify the start or end time, using the Update Time Entry dialog box."
-keywords: [effect,adjusting,employees,time,break,entries]
+keywords: ["effect", "adjusting", "employees", "time", "break", "entries"]
 procedures: 0
 codeExamples: 0
 ---

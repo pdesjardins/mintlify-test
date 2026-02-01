@@ -10,7 +10,7 @@ previousSectionTitle: "Kitchen configuration"
 nextSectionFile: adminGuide-platformKDSCreatingAssemblyLines.md
 nextSectionTitle: "Creating an assembly line"
 excerpt: "When you add a prep..."
-keywords: [adding,prep,station]
+keywords: ["adding", "prep", "station"]
 procedures: 1
 codeExamples: 0
 ---

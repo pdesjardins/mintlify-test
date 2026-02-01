@@ -10,7 +10,7 @@ previousSectionTitle: "Routing overview"
 nextSectionFile: adminGuide-platformKDSRoutingUsingAssemblyLines.md
 nextSectionTitle: "Routing using assembly lines"
 excerpt: "For..."
-keywords: [routing,prep,stations]
+keywords: ["routing", "prep", "stations"]
 procedures: 0
 codeExamples: 0
 ---

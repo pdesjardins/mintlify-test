@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminSpecifyingOrderingChannelVisibility.md
 nextSectionTitle: "Specifying ordering channel visibility"
 externalReferences: [https://central.toasttab.com/s/article/Getting-Started-with-Toast-Online-Ordering-Pro, https://central.toasttab.com/s/article/Get-Started-With-the-Branded-Mobile-App]
 excerpt: "In the Time-based ordering rules section of a menu item's details page, you can specify rules for your online orders:"
-keywords: [setting,timebased,ordering,rules,online,orders]
+keywords: ["setting", "timebased", "ordering", "rules", "online", "orders"]
 procedures: 2
 codeExamples: 0
 ---

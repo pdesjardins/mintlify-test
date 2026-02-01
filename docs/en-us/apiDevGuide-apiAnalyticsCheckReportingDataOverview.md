@@ -10,7 +10,7 @@ previousSectionTitle: "Check reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest.md
 nextSectionTitle: "Creating a request for check reporting data"
 excerpt: "Check reporting data includes detailed check information for all orders created on a specific day. For more information on what is included in the check reporting data, see . For more information..."
-keywords: [check,reporting,data,overview,/era/v1/check/{timeRange},reportRequestGuid,/era/v1/check/{reportRequestGuid}]
+keywords: ["check", "reporting", "data", "overview", "/era/v1/check/{timeRange}", "reportRequestGuid", "/era/v1/check/{reportRequestGuid}"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Pre-shift notes"
 nextSectionFile: adminGuide-platformPreShiftNotesManageStaffNotes.md
 nextSectionTitle: "Managing staff notes"
 excerpt: "The pre-shift notes feature allows restaurants to keep their staff informed of key announcements, reminders, and updates during their shift."
-keywords: [preshift,notes,overview]
+keywords: ["preshift", "notes", "overview"]
 procedures: 0
 codeExamples: 0
 ---

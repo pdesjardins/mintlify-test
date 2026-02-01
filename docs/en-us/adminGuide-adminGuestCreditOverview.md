@@ -10,7 +10,7 @@ previousSectionTitle: "Guest credit"
 nextSectionFile: adminGuide-adminEnablingCustomerCredits.md
 nextSectionTitle: "Enabling the customer credits feature"
 excerpt: "With the Toast platform, you can give guests of your restaurant credit toward future purchases. Guests can apply the currency value of the credit that you give them as payment for Toast platform..."
-keywords: [guest,credit,overview]
+keywords: ["guest", "credit", "overview"]
 procedures: 0
 codeExamples: 0
 ---

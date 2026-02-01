@@ -10,7 +10,7 @@ previousSectionTitle: "Required scope for the analytics API"
 nextSectionFile: apiDevGuide-apiAnalyticsDataDiscrepancies.md
 nextSectionTitle: "Understanding data discrepancies"
 excerpt: "The rate limit used by..."
-keywords: [analytics,rate,limits,/era/v1/metrics/{timeRange},{timeRange,/era/v1/metrics/{reportRequestGuid},/era/v1/check/{timeRange},{timeRange},/era/v1/check/{reportRequestGuid},/era/v1/labor/{timeRange}]
+keywords: ["analytics", "rate", "limits", "/era/v1/metrics/{timeRange}", "{timeRange", "/era/v1/metrics/{reportRequestGuid}", "/era/v1/check/{timeRange}", "{timeRange}", "/era/v1/check/{reportRequestGuid}", "/era/v1/labor/{timeRange}"]
 procedures: 0
 codeExamples: 0
 ---

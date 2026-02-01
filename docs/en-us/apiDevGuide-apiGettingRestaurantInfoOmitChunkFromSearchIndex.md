@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiRestaurantBusinessDate.md
 previousSectionTitle: "Restaurant closeoutHour and business dates"
 nextSectionFile: apiDevGuide-apiRestaurantsInGroup.md
 nextSectionTitle: "Getting all restaurants in a management group"
-keywords: [getting,restaurant,info]
+keywords: ["getting", "restaurant", "info"]
 procedures: 0
 codeExamples: 0
 ---

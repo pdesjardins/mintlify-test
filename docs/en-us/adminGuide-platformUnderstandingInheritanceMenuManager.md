@@ -10,7 +10,7 @@ previousSectionTitle: "Using and customizing the menu manager views"
 nextSectionFile: adminGuide-platformMenuManagerWorkingWithMenus.md
 nextSectionTitle: "Working with menus"
 excerpt: "Menus use a hierarchical structure to organize a restaurant's menu offerings. This hierarchical structure allows restaurant guests and employees to quickly and easily locate the items they want to..."
-keywords: [understanding,inheritance]
+keywords: ["understanding", "inheritance"]
 procedures: 0
 codeExamples: 0
 ---

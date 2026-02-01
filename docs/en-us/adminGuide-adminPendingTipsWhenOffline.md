@@ -10,7 +10,7 @@ previousSectionTitle: "Completing shift review offline"
 nextSectionFile: adminGuide-platformPostOutage.md
 nextSectionTitle: "Post-outage experience"
 excerpt: "If you experience a bank or credit card processor..."
-keywords: [pending,tips,offline]
+keywords: ["pending", "tips", "offline"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Location-specific price overview"
 nextSectionFile: adminGuide-adminLocationSpecificPricesAndVersions.md
 nextSectionTitle: "Location-specific prices and versions"
 excerpt: "Location-specific..."
-keywords: [locationspecific,prices,restaurant,group,hierarchy]
+keywords: ["locationspecific", "prices", "restaurant", "group", "hierarchy"]
 procedures: 0
 codeExamples: 0
 ---

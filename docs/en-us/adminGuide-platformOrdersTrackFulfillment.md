@@ -10,7 +10,7 @@ previousSectionTitle: "Tracking the order state"
 nextSectionFile: adminGuide-platformOrdersSourceEffects.md
 nextSectionTitle: "Effect of order source on order validation and processes"
 excerpt: "The order fulfillment process is how the order items are received by the restaurant, sent to the kitchen, prepared, and provided to the guest."
-keywords: [tracking,order,fulfillment]
+keywords: ["tracking", "order", "fulfillment"]
 procedures: 0
 codeExamples: 0
 ---

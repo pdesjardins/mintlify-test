@@ -10,7 +10,7 @@ previousSectionTitle: "Kiosk workflow"
 nextSectionFile: apiDevGuide-apiLoyaltyErrorHandling.md
 nextSectionTitle: "Error handling"
 excerpt: "Loyalty reward offer redemptions are handled entirely by your organization. Your loyalty program is responsible for accepting or rejecting the redemptions as requested by the Toast platform and the..."
-keywords: [reward,offers,processing,Inquire]
+keywords: ["reward", "offers", "processing", "Inquire"]
 procedures: 0
 codeExamples: 0
 ---

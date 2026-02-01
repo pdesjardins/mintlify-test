@@ -10,7 +10,7 @@ previousSectionTitle: "Payout reporting data by settled date"
 nextSectionFile: apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData.md
 nextSectionTitle: "Payout reporting data by sales date"
 excerpt: "Retrieving the payout reporting data by payment is a two-step process. You must:"
-keywords: [payout,reporting,data,payments,reportRequestGuid,/era/v1/payout/payments/{requestReportGuid}]
+keywords: ["payout", "reporting", "data", "payments", "reportRequestGuid", "/era/v1/payout/payments/{requestReportGuid}"]
 procedures: 0
 codeExamples: 0
 ---

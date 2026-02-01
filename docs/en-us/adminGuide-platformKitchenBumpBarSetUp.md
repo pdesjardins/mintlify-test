@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformKitchenUsingBumpBars.md
 nextSectionTitle: "Using the bump bar"
 externalReferences: [https://central.toasttab.com/s/article/Toast-Hardware-Installation-Guide, https://central.toasttab.com/s/article/Toast-Flex-22-Installation-Guide]
 excerpt: "After the orientation of the bump bar is chosen and placement of the bump bar in the kitchen is finalized, you can connect the bump bar to the KDS device. This process is different depending on..."
-keywords: [setting,bump]
+keywords: ["setting", "bump"]
 procedures: 0
 codeExamples: 0
 ---

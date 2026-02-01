@@ -10,7 +10,7 @@ previousSectionTitle: "Archiving an employee"
 nextSectionFile: apiDevGuide-portalApiGettingCashManagementEntriesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 8. Cash management"
 excerpt: "To unarchive an employee, send a PUT request to the /labor/v1/employees/{employeeGuid}/unarchive endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter..."
-keywords: [/labor/v1/employees/{employeeGuid}/unarchive]
+keywords: ["/labor/v1/employees/{employeeGuid}/unarchive"]
 procedures: 0
 codeExamples: 0
 ---

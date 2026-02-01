@@ -10,7 +10,7 @@ previousSectionTitle: "Payment workflows"
 nextSectionFile: adminGuide-platformPwfDigitalReceipts.md
 nextSectionTitle: "Digital receipts and printed receipts"
 excerpt: "The Toast POS platform supports multiple ways for restaurant guests to make payments. The following sections describe the available payment methods, and how each method is used, on a Toast POS device."
-keywords: [payment,workflow,overview]
+keywords: ["payment", "workflow", "overview"]
 procedures: 0
 codeExamples: 0
 ---

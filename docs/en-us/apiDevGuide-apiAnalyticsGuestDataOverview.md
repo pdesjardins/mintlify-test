@@ -10,7 +10,7 @@ previousSectionTitle: "Guest reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsGuestDataCreateRequest.md
 nextSectionTitle: "Creating a request for guest reporting data"
 excerpt: "Guest reporting data includes payment details associated with a guest's payment card. For more information, see . For more information about inactive restaurant data, see ."
-keywords: [guest,reporting,data,overview,cardFingerprint,/era/v1/guest/payments/{timeRange},reportRequestGuid,/era/v1/guest/payments/{reportRequestGuid}]
+keywords: ["guest", "reporting", "data", "overview", "cardFingerprint", "/era/v1/guest/payments/{timeRange}", "reportRequestGuid", "/era/v1/guest/payments/{reportRequestGuid}"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Bulk import tool overview"
 nextSectionFile: adminGuide-platformCreatingModifierGroupsInABulkImport.md
 nextSectionTitle: "Creating modifier groups in a bulk import"
 excerpt: "The first column in each row of an import spreadsheet is called Operation. It defines whether the row is for a CREATE operation, an UPDATE operation, or an ATTACH operation:"
-keywords: [understanding,import,operations,CREATE,UPDATE,ATTACH]
+keywords: ["understanding", "import", "operations", "CREATE", "UPDATE", "ATTACH"]
 procedures: 0
 codeExamples: 0
 ---

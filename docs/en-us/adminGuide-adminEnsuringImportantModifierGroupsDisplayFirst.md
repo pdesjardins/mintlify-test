@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding modifier group display order"
 nextSectionFile: adminGuide-adminUsingPortionsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Portions"
 excerpt: "If you have a modifier group that is used in multiple locations and you want to ensure that the group appears first in the order of modifier groups, do the following:"
-keywords: [ensuring,important,modifier,groups,display,first]
+keywords: ["ensuring", "important", "modifier", "groups", "display", "first"]
 procedures: 0
 codeExamples: 0
 ---

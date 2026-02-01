@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiVoidOrder.md
 nextSectionTitle: "Void an order"
 externalReferences: [https://doc.toasttab.com/openapi/orders/overview/, https://doc.toasttab.com/openapi/orders/operation/pricesPost/]
 excerpt: "To create an order in the Toast platform, you send a POST request that contains a JSON Order object to the /orders endpoint of the orders API."
-keywords: [Order,POST]
+keywords: ["Order", "POST"]
 procedures: 0
 codeExamples: 0
 ---

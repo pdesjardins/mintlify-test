@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformServiceReportOmitChunkFromSearchIndex.md
 nextSectionTitle: "Service report"
 externalReferences: [https://central.toasttab.com/s/article/Future-Order-Setup-Pickup-Mode-and-Auto-Send]
 excerpt: "On the Close Out Day screen, you can view and complete various actions to..."
-keywords: [overview,All checks closed]
+keywords: ["overview", "All checks closed"]
 procedures: 1
 codeExamples: 0
 ---

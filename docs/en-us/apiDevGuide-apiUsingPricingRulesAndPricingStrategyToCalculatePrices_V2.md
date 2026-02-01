@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding GUIDs, referenceIds, and multiLocationIds"
 nextSectionFile: apiDevGuide-apiUsingTaxInfoAndModifierOptionTaxInfoToCalculateTaxesForMenuItemsAndModOptions.md
 nextSectionTitle: "Using taxInfo and modifierOptionTaxInfo to calculate taxes for menu items and modifier options"
 excerpt: "There are situations where additional context is needed before a price can be determined. For example, the price of a menu item that uses time-specific pricing depends on the time the menu item is..."
-keywords: [pricingrules,pricingstrategy,calculate,prices,pricingStrategy,pricingRules]
+keywords: ["pricingrules", "pricingstrategy", "calculate", "prices", "pricingStrategy", "pricingRules"]
 procedures: 0
 codeExamples: 0
 ---

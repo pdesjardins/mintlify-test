@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminCashDrawerSetup.md
 previousSectionTitle: "Setting up cash drawers"
 nextSectionFile: adminGuide-adminCashDrawerPOSOperations.md
 nextSectionTitle: "POS cash drawer operations"
-keywords: [cash,drawers]
+keywords: ["cash", "drawers"]
 procedures: 0
 codeExamples: 0
 ---

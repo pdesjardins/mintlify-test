@@ -10,7 +10,7 @@ previousSectionTitle: "Job-based access"
 nextSectionFile: adminGuide-platformManageJobBasedAccess.md
 nextSectionTitle: "Managing job-based access"
 excerpt: "The..."
-keywords: [jobbased,access,overview]
+keywords: ["jobbased", "access", "overview"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Job-based access overview"
 nextSectionFile: adminGuide-platformJobBasedAccessOnPOS.md
 nextSectionTitle: "Accessing jobs on a Toast POS device"
 excerpt: "You enable job-based access on the Access..."
-keywords: [managing,jobbased,access]
+keywords: ["managing", "jobbased", "access"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Grouping restaurants conceptually"
 nextSectionFile: adminGuide-workingWithVersionsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Versions"
 excerpt: "By default, a Gift/Rewards Card Program restaurant group is created for every Toast management group. This group is used exclusively to manage restaurant locations that are part of your loyalty..."
-keywords: [understanding,giftrewards,card,program,restaurant,group]
+keywords: ["understanding", "giftrewards", "card", "program", "restaurant", "group"]
 procedures: 0
 codeExamples: 0
 ---

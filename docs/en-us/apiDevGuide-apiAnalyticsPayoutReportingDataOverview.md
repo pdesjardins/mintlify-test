@@ -10,7 +10,7 @@ previousSectionTitle: "Payout reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData.md
 nextSectionTitle: "Payout reporting data by settled date"
 excerpt: "Payout reporting data includes a detailed look at the deposits from credit card payments. Three endpoints can be used to analyze the payout data:"
-keywords: [payout,reporting,data,overview]
+keywords: ["payout", "reporting", "data", "overview"]
 procedures: 0
 codeExamples: 0
 ---

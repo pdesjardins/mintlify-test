@@ -10,7 +10,7 @@ previousSectionTitle: "Selecting a menu group as a required item"
 nextSectionFile: adminGuide-adminCombinationPricingAndMenuGroups.md
 nextSectionTitle: "Combination pricing and menu groups"
 excerpt: "For BOGO and combo discounts, you configure groups of required menu items, menu groups, and menus."
-keywords: [configuring,groups,required,items]
+keywords: ["configuring", "groups", "required", "items"]
 procedures: 0
 codeExamples: 0
 ---

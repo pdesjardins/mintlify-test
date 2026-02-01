@@ -10,7 +10,7 @@ previousSectionTitle: "Text alerts"
 nextSectionFile: adminGuide-enablingAndConfiguringTextAlerts.md
 nextSectionTitle: "Enabling and configuring text alerts"
 excerpt: "The..."
-keywords: [text,alerts,overview]
+keywords: ["text", "alerts", "overview"]
 procedures: 0
 codeExamples: 0
 ---

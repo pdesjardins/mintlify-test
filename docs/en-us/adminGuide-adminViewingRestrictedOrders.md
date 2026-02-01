@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformPurgingClosedOrdersOmitChunkFromSearchIndex.
 nextSectionTitle: "Purging closed orders"
 externalReferences: [https://central.toasttab.com/s/article/Understand-when-to-void-vs-refund]
 excerpt: "A restricted order..."
-keywords: [working,restricted,orders]
+keywords: ["working", "restricted", "orders"]
 procedures: 0
 codeExamples: 0
 ---

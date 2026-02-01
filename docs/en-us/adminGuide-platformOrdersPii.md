@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminOrderWorkflowOmitChunkFromSearchIndex.md
 nextSectionTitle: "Order workflows and processing"
 externalReferences: [https://doc.toasttab.com/openapi/orders/overview]
 excerpt: "Toast products use guest personal identifiable information (PII) to help restaurant employees identify who an order belongs to. For example, in the case of a takeout order, a cashier needs to know..."
-keywords: [guest,personal,identifiable,information]
+keywords: ["guest", "personal", "identifiable", "information"]
 procedures: 0
 codeExamples: 0
 ---

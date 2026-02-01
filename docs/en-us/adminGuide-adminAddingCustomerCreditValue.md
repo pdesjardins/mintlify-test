@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring permissions for working with credits"
 nextSectionFile: adminGuide-adminRedeemCustomerCredit.md
 nextSectionTitle: "Redeeming credits"
 excerpt: "To give credits to restaurant guests you:"
-keywords: [adding,credit,value]
+keywords: ["adding", "credit", "value"]
 procedures: 1
 codeExamples: 0
 ---

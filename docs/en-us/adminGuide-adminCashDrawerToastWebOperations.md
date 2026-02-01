@@ -10,7 +10,7 @@ previousSectionTitle: "POS cash drawer operations"
 nextSectionFile: adminGuide-adminUndoingOperations.md
 nextSectionTitle: "Undoing cash drawer actions"
 excerpt: "Certain cash drawer actions available on the Toast POS device are also available on Toast Web. You can complete the following cash drawer actions from Toast Web:"
-keywords: [toast,cash,drawer,operations]
+keywords: ["toast", "cash", "drawer", "operations"]
 procedures: 0
 codeExamples: 0
 ---

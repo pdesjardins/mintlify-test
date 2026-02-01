@@ -10,7 +10,7 @@ previousSectionTitle: "Retrieving the aggregated sales reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataUnderstandingData.md
 nextSectionTitle: "Understanding aggregated sales reporting data"
 excerpt: "The default way to view the..."
-keywords: [aggregating,aggregated,sales,reporting,data,aggregateBy,HOUR,groupBy,/era/v1/metrics/{timeRange}]
+keywords: ["aggregating", "aggregated", "sales", "reporting", "data", "aggregateBy", "HOUR", "groupBy", "/era/v1/metrics/{timeRange}"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Service charges"
 nextSectionFile: adminGuide-adminServiceChargeType.md
 nextSectionTitle: "Service charge components"
 excerpt: "You can configure service charges that can be optionally added to a check as an upcharge. For example, you can configure an open service charge for your restaurant to specify a service charge amount..."
-keywords: [service,charge,overview]
+keywords: ["service", "charge", "overview"]
 procedures: 0
 codeExamples: 0
 ---

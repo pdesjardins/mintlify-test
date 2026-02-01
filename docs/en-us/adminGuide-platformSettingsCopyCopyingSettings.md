@@ -10,7 +10,7 @@ previousSectionTitle: "Settings copy overview"
 nextSectionFile: adminGuide-platformSettingsCopyReviewingActivityTable.md
 nextSectionTitle: "Reviewing past copies made using the settings copy feature"
 excerpt: "The..."
-keywords: [copying,settings,copy,feature]
+keywords: ["copying", "settings", "copy", "feature"]
 procedures: 1
 codeExamples: 0
 ---

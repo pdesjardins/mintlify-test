@@ -10,7 +10,7 @@ previousSectionTitle: "Discounts overview"
 nextSectionFile: adminGuide-adminConfiguringDiscountsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Creating and updating discounts"
 excerpt: "When you add a discount, you select the discount type:"
-keywords: [discount,types,BOGO discounts,Combo discounts]
+keywords: ["discount", "types", "BOGO discounts", "Combo discounts"]
 procedures: 0
 codeExamples: 0
 ---

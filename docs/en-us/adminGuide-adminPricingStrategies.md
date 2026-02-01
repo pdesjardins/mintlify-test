@@ -10,7 +10,7 @@ previousSectionTitle: "Toast product channel support for advanced pricing featur
 nextSectionFile: adminGuide-adminUsingThePriceEditor.md
 nextSectionTitle: "Using the price editor"
 excerpt: "When pricing your menu entities, you can choose from a variety of pricing strategies. The section describes those pricing strategies and tells you how to configure them. Each pricing strategy..."
-keywords: [pricing,strategies]
+keywords: ["pricing", "strategies"]
 procedures: 0
 codeExamples: 0
 ---

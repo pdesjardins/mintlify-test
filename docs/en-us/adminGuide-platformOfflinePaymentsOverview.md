@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminOfflineCCPayments.md
 nextSectionTitle: "Offline card payments"
 externalReferences: [https://central.toasttab.com/s/article/Preventing-a-Network-Disruption]
 excerpt: "40 seconds after no Internet connectivity or during a Toast outage, your Toast POS device enters offline mode. In offline mode, some payment options still function as expected; unavailable payment..."
-keywords: [offline,payments,overview]
+keywords: ["offline", "payments", "overview"]
 procedures: 0
 codeExamples: 0
 ---

@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataUnderstandingData
 previousSectionTitle: "Understanding the labor reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataOverview.md
 nextSectionTitle: "Menu reporting data overview"
-keywords: [menu,reporting,data]
+keywords: ["menu", "reporting", "data"]
 procedures: 0
 codeExamples: 0
 ---

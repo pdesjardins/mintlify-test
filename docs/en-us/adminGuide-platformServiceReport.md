@@ -10,7 +10,7 @@ previousSectionTitle: "Service report"
 nextSectionFile: adminGuide-adminTaxesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Taxes"
 excerpt: "On the Service Report screen, you can view your restaurant’s performance by service periods (day parts). Service periods divide your day into distinct segments, such as breakfast, lunch, and dinner...."
-keywords: [overview]
+keywords: ["overview"]
 procedures: 1
 codeExamples: 0
 ---

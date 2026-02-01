@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-intAdminMfaEnablingAndDisabling.md
 nextSectionTitle: "Enabling and disabling multi-factor authentication"
 externalReferences: [https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2, https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app]
 excerpt: "Multi-factor authentication (MFA) is a security feature that requires users to provide multiple forms of authentication to..."
-keywords: [multifactor,authentication,overview]
+keywords: ["multifactor", "authentication", "overview"]
 procedures: 0
 codeExamples: 0
 ---

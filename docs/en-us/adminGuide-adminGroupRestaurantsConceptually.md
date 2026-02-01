@@ -10,7 +10,7 @@ previousSectionTitle: "Creating, editing, and archiving restaurant groups"
 nextSectionFile: adminGuide-understandingTheGiftRewardsCardProgramRestaurantGroup.md
 nextSectionTitle: "Understanding the gift/rewards card program restaurant group"
 excerpt: "You can use restaurant groups to group locations that share a concept. For example, some of your locations may have a grill and others may not. You can add the locations that have a grill to a Grill..."
-keywords: [grouping,restaurants,conceptually]
+keywords: ["grouping", "restaurants", "conceptually"]
 procedures: 0
 codeExamples: 0
 ---

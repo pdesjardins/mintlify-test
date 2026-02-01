@@ -10,7 +10,7 @@ previousSectionTitle: "Text alerts overview"
 nextSectionFile: adminGuide-sendingAndReceivingTextAlerts.md
 nextSectionTitle: "Sending and receiving text alerts"
 excerpt: "To enable text alerts Access Toast Web. Select Front of house > Employee SOS > Text alert setup. Under the Enable Text Alerts option, select Yes."
-keywords: [enabling,configuring,text,alerts]
+keywords: ["enabling", "configuring", "text", "alerts"]
 procedures: 1
 codeExamples: 0
 ---

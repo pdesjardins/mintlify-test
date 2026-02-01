@@ -10,7 +10,7 @@ previousSectionTitle: "Check management"
 nextSectionFile: adminGuide-adminClosingPaidChecks.md
 nextSectionTitle: "Closing paid checks"
 excerpt: "You can manage your checks..."
-keywords: [check,management,overview]
+keywords: ["check", "management", "overview"]
 procedures: 0
 codeExamples: 0
 ---

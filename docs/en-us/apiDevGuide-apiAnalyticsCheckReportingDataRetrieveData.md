@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a request for check reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData.md
 nextSectionTitle: "Understanding the check reporting data"
 excerpt: "Send..."
-keywords: [retrieving,check,reporting,data,/era/v1/check/{reportRequestGuid},reportRequestGuid,fetchRestaurantNames]
+keywords: ["retrieving", "check", "reporting", "data", "/era/v1/check/{reportRequestGuid}", "reportRequestGuid", "fetchRestaurantNames"]
 procedures: 0
 codeExamples: 0
 ---

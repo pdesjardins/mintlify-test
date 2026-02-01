@@ -10,7 +10,7 @@ previousSectionTitle: "Toast pricing features"
 nextSectionFile: adminGuide-adminPricingMenuItems.md
 nextSectionTitle: "Pricing menu items"
 excerpt: "After completing a pricing change, be sure to save..."
-keywords: [note,about,publishing,prices]
+keywords: ["note", "about", "publishing", "prices"]
 procedures: 0
 codeExamples: 0
 ---

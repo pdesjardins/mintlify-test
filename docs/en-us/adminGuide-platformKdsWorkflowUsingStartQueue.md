@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow with a single expediter KDS device and prep 
 nextSectionFile: adminGuide-platformGridKDSWorkflow.md
 nextSectionTitle: "KDS workflow using grid view"
 excerpt: "The restaurant in this example uses KDS devices using start queue. For more information about start queue, see ."
-keywords: [workflow,start,queue]
+keywords: ["workflow", "start", "queue"]
 procedures: 1
 codeExamples: 0
 ---

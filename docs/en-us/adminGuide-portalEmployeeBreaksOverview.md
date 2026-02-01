@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminEnablingMissedBreakTracking.md
 nextSectionTitle: "Enabling missed break tracking"
 externalReferences: [https://central.toasttab.com/s/article/Building-Breaks-in-Toast]
 excerpt: "In the Toast platform, you can create custom break types that employees can use when clocking in and out for breaks on their Toast POS devices. For example, you can create a 10-minute paid break..."
-keywords: [employee,breaks,overview]
+keywords: ["employee", "breaks", "overview"]
 procedures: 0
 codeExamples: 0
 ---

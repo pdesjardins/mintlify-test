@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiMenusApiRateLimit_V2.md
 nextSectionTitle: "Menus API rate limit"
 externalReferences: [https://doc.toasttab.com/openapi/menus/overview/]
 excerpt: "There are two methods for determining if the menu data your integration client has for a restaurant has gone stale, the menus webhook and the /metadata endpoint. You should not make a call to the..."
-keywords: [determining,restaurants,menu,data,gone,stale,lastUpdated,Restaurant]
+keywords: ["determining", "restaurants", "menu", "data", "gone", "stale", "lastUpdated", "Restaurant"]
 procedures: 0
 codeExamples: 0
 ---

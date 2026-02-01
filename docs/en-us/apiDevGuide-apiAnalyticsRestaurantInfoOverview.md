@@ -10,7 +10,7 @@ previousSectionTitle: "Restaurant information"
 nextSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList.md
 nextSectionTitle: "Getting a list of restaurants in a management group"
 excerpt: "The restaurant information data includes the restaurant GUID, restaurant name, active status, test mode status, and archive status for every restaurant in a management group."
-keywords: [restaurant,information,overview,restaurantGUID,restaurantName,testMode]
+keywords: ["restaurant", "information", "overview", "restaurantGUID", "restaurantName", "testMode"]
 procedures: 0
 codeExamples: 0
 ---

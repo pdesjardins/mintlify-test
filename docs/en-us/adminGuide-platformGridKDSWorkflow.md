@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow using start queue"
 nextSectionFile: adminGuide-adminTroubleshootPrepStationsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Troubleshooting the preparation workflow"
 excerpt: "The..."
-keywords: [ALSO AT]
+keywords: ["ALSO AT"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Quote time strategy"
 nextSectionFile: adminGuide-adminQuoteTimeStrategies.md
 nextSectionTitle: "Quote time strategies"
 excerpt: "Quote time is the amount of time it takes to prepare a guest's online order for takeout or delivery. The quote time is the prep time plus delivery time. The quote time is displayed on your..."
-keywords: [quote,time,strategy,overview]
+keywords: ["quote", "time", "strategy", "overview"]
 procedures: 0
 codeExamples: 0
 ---

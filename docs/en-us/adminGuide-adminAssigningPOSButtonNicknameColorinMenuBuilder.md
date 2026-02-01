@@ -10,7 +10,7 @@ previousSectionTitle: "Setting the stock status and count for menu items"
 nextSectionFile: adminGuide-adminAssigningAlcoholLabelingToMenuItemsMenuBuilder.md
 nextSectionTitle: "Assigning alcohol labeling to menu items"
 excerpt: "You can customize the names and colors of the buttons employees see in the Toast POS app for the various menu entities:"
-keywords: [assigning,button,name,color]
+keywords: ["assigning", "button", "name", "color"]
 procedures: 0
 codeExamples: 0
 ---

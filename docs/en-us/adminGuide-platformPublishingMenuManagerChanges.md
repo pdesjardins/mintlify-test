@@ -10,7 +10,7 @@ previousSectionTitle: "Making bulk edits"
 nextSectionFile: adminGuide-platformWorkingWithMenuManagerChangeSets.md
 nextSectionTitle: "Working with menu manager change sets"
 excerpt: "The menu manager offers several workflows for saving and publishing your menu changes. With the menu manager, you can:"
-keywords: [publishing,menu,manager,changes]
+keywords: ["publishing", "menu", "manager", "changes"]
 procedures: 0
 codeExamples: 0
 ---

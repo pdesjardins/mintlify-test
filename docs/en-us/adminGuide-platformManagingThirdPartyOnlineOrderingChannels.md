@@ -10,7 +10,7 @@ previousSectionTitle: "Third-party online ordering channels"
 nextSectionFile: adminGuide-platformThirdPartyOnlineOrderingMenuVisibility.md
 nextSectionTitle: "Adjusting menu visibility for a third-party online ordering channel"
 excerpt: "The..."
-keywords: [managing,orders,thirdparty,online,ordering,channels,OFF UNTIL MANUALLY TURNED BACK ON,SNOOZED UNTIL [TOMORROW / TIME],Toast Online Ordering configuration published successfully to [restaurant name]]
+keywords: ["managing", "orders", "thirdparty", "online", "ordering", "channels", "OFF UNTIL MANUALLY TURNED BACK ON", "SNOOZED UNTIL [TOMORROW / TIME]", "Toast Online Ordering configuration published successfully to [restaurant name]"]
 procedures: 1
 codeExamples: 0
 ---

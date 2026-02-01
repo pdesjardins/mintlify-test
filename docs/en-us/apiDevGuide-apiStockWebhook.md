@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex.
 nextSectionTitle: "Chapter 10. Outbound integrations"
 externalReferences: [https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057]
 excerpt: "The stock webhook allows you to receive updates when the inventory status of a menu item or a modifier (via its item reference) changes."
-keywords: [eventCategory,eventType,out_of_stock]
+keywords: ["eventCategory", "eventType", "out_of_stock"]
 procedures: 0
 codeExamples: 0
 ---

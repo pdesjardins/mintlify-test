@@ -10,7 +10,7 @@ previousSectionTitle: "Viewing options"
 nextSectionFile: adminGuide-platformMenuManagerSavingChangesInTheMenuManager.md
 nextSectionTitle: "Saving changes in the menu manager"
 excerpt: "The Menu manager page includes a set of searching and filtering controls that you can use to refine the list of menu entities that are displayed, making individual entities easier to find and edit."
-keywords: [search,filtering,find,menu,entities]
+keywords: ["search", "filtering", "find", "menu", "entities"]
 procedures: 0
 codeExamples: 0
 ---

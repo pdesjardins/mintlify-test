@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiStockWebhook.md
 nextSectionTitle: "Stock webhook"
 externalReferences: [https://central.toasttab.com/s/article/Scheduling-Future-Orders]
 excerpt: "The restaurant online ordering schedule webhook allows you to receive real-time updates when a restaurant saves and publishes changes to their online ordering schedule. Typically, online ordering..."
-keywords: [order_schedule,eventCategory,ordering_schedule,eventType,ordering_schedule_updated]
+keywords: ["order_schedule", "eventCategory", "ordering_schedule", "eventType", "ordering_schedule_updated"]
 procedures: 0
 codeExamples: 0
 ---

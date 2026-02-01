@@ -10,7 +10,7 @@ previousSectionTitle: "Using the global price editor with location-specific pric
 nextSectionFile: adminGuide-platformMenuSpecificPricesForMLMOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu-specific prices"
 excerpt: "Location-specific prices do not need to be limited to a simple currency amount (for example, $10). You can use any of the pricing strategies available for menu items when you are setting a..."
-keywords: [pricing,strategies,locationspecific,prices]
+keywords: ["pricing", "strategies", "locationspecific", "prices"]
 procedures: 1
 codeExamples: 0
 ---

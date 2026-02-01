@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminOnlineOrderingSchedulesOmitChunkFromSearchIndex
 nextSectionTitle: "Online ordering hours"
 externalReferences: [https://central.toasttab.com/s/article/Double-Printing?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web]
 excerpt: "I’m offering both takeout and delivery dining options for online ordering. Why am I only seeing the quote time for one of them? The quote time for a specific dining option is displayed on the Orders..."
-keywords: [faqs,Manager Passcode or Swipe Card Required]
+keywords: ["faqs", "Manager Passcode or Swipe Card Required"]
 procedures: 0
 codeExamples: 0
 ---

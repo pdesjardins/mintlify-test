@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformPwfAdjustments.md
 nextSectionTitle: "Adjustments"
 externalReferences: [https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration]
 excerpt: "Digital receipts allow your guests to receive a text or email receipt. You can still print payment receipts if you use digital receipts."
-keywords: [digital,receipts,printed]
+keywords: ["digital", "receipts", "printed"]
 procedures: 0
 codeExamples: 0
 ---

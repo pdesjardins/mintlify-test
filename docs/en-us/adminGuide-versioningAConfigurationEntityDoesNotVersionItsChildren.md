@@ -10,7 +10,7 @@ previousSectionTitle: "Versioning menu items"
 nextSectionFile: adminGuide-usingTheFewestVersionsPossible.md
 nextSectionTitle: "Using the fewest versions possible"
 excerpt: "Because..."
-keywords: [versioning,configuration,entity,does,version,children]
+keywords: ["versioning", "configuration", "entity", "does", "version", "children"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Determining where a menu item is used"
 nextSectionFile: adminGuide-adminAddingImagesToMenuItems.md
 nextSectionTitle: "Adding images to menu items"
 excerpt: "Menus use a hierarchical structure to organize a restaurant's menu offerings. This hierarchical structure allows restaurant guests and employees to quickly and easily locate the items they want to..."
-keywords: [understanding,inheritance]
+keywords: ["understanding", "inheritance"]
 procedures: 0
 codeExamples: 1
 ---

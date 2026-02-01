@@ -10,7 +10,7 @@ previousSectionTitle: "Workflow examples"
 nextSectionFile: adminGuide-platformKDSWorkflowUsingTwoExpo.md
 nextSectionTitle: "KDS workflow using two expediters"
 excerpt: "The..."
-keywords: [workflow,expediter,ALSO AT]
+keywords: ["workflow", "expediter", "ALSO AT"]
 procedures: 1
 codeExamples: 0
 ---

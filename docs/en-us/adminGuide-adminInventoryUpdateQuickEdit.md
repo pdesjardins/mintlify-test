@@ -10,7 +10,7 @@ previousSectionTitle: "Changing inventory status on the menu item details page"
 nextSectionFile: adminGuide-adminMenuInventory86Report.md
 nextSectionTitle: "Viewing the 86 report"
 excerpt: "You can change a menu item's inventory status in Quick Edit mode on the Toast POS device. This method is especially useful for quickly 86ing a menu item that has suddenly gone out of stock."
-keywords: [changing,inventory,status,quick,edit,mode]
+keywords: ["changing", "inventory", "status", "quick", "edit", "mode"]
 procedures: 1
 codeExamples: 0
 ---

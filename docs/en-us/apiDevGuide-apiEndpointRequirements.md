@@ -10,7 +10,7 @@ previousSectionTitle: "Webhook basics"
 nextSectionFile: apiDevGuide-apiSubscriptions.md
 nextSectionTitle: "Subscriptions"
 excerpt: "The Toast..."
-keywords: [endpoint,requirements]
+keywords: ["endpoint", "requirements"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex.md
 nextSectionTitle: "Getting restaurant info"
 externalReferences: [https://doc.toasttab.com/openapi/orders/overview/, https://doc.toasttab.com/openapi/labor/overview/]
 excerpt: "The..."
-keywords: [restaurant,closeouthour,business,dates,closeoutHour,businessDate]
+keywords: ["restaurant", "closeouthour", "business", "dates", "closeoutHour", "businessDate"]
 procedures: 0
 codeExamples: 0
 ---

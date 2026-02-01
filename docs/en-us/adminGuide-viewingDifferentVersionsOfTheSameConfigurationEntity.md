@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a version of a configuration entity"
 nextSectionFile: adminGuide-understandingHowAndWhenToUseVersioning.md
 nextSectionTitle: "Understanding how and when to use versioning"
 excerpt: "Because they share data, versions are tightly coupled to each other and, as you work with versions, you need to be aware when other versions exist. You can tell when other versions exist on both the..."
-keywords: [viewing,different,versions,same,configuration,entity]
+keywords: ["viewing", "different", "versions", "same", "configuration", "entity"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Loyalty program integrations"
 nextSectionFile: apiDevGuide-apiLoyaltyIntegrationOverview.md
 nextSectionTitle: "Loyalty integration implementation"
 excerpt: "You can use the Toast loyalty integration API to integrate your loyalty program with the Toast platform."
-keywords: [loyalty,program,integration,overview]
+keywords: ["loyalty", "program", "integration", "overview"]
 procedures: 0
 codeExamples: 0
 ---

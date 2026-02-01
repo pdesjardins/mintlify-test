@@ -10,7 +10,7 @@ previousSectionTitle: "Viewing service charges that were applied to orders"
 nextSectionFile: adminGuide-adminRefundsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Refunds"
 excerpt: "You can archive a service charge, which means the service charge becomes inactive and is not applied to checks. Archived service charges are not displayed on the Service Charges page, unless you..."
-keywords: [archiving,service,charges]
+keywords: ["archiving", "service", "charges"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Required items overview"
 nextSectionFile: adminGuide-adminDiscountMenuGroupTriggers.md
 nextSectionTitle: "Selecting a menu group as a required item"
 excerpt: "You can choose any individual menu item in your restaurant menu configuration to be a required item for a discount. The item might be one of a list of..."
-keywords: [selecting,individual,menu,item,required]
+keywords: ["selecting", "individual", "menu", "item", "required"]
 procedures: 0
 codeExamples: 0
 ---

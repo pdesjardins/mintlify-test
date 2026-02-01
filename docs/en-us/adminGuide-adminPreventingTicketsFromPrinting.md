@@ -10,7 +10,7 @@ previousSectionTitle: "Monitoring items at other prep stations"
 nextSectionFile: adminGuide-platformKOPacingTimingOmitChunkFromSearchIndex.md
 nextSectionTitle: "Pacing and timing"
 excerpt: "Certain types of items and prep stations do not need to use kitchen tickets to facilitate fulfillment. In these situations, you can prevent tickets from being printed. You can do this by either:"
-keywords: [preventing,tickets,printing,displaying]
+keywords: ["preventing", "tickets", "printing", "displaying"]
 procedures: 0
 codeExamples: 0
 ---

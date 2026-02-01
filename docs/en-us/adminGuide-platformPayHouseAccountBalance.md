@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformManageHouseAccounts.md
 nextSectionTitle: "Managing house account invoices"
 externalReferences: [https://central.toasttab.com/s/article/Configuring-Payment-Options]
 excerpt: "House accounts can hold either a balance or a credit. If a guest pays for a check using a house account, this creates an outstanding balance. The balance is the total charge amount due. If a guest..."
-keywords: [paying,house,account,balance]
+keywords: ["paying", "house", "account", "balance"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Service charge components"
 nextSectionFile: adminGuide-adminServiceChargeCalculation.md
 nextSectionTitle: "Service charge calculations"
 excerpt: "Service charges can be applied automatically based on eligibility criteria. Service charges also can be applied manually."
-keywords: [service,charge,eligibility]
+keywords: ["service", "charge", "eligibility"]
 procedures: 0
 codeExamples: 0
 ---

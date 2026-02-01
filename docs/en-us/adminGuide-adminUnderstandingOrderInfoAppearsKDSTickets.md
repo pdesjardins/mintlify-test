@@ -10,7 +10,7 @@ previousSectionTitle: "Using a KDS expediter screen"
 nextSectionFile: adminGuide-platformKitchenUnderstandingItemFulfillmentKDS.md
 nextSectionTitle: "Understanding item fulfillment"
 excerpt: "The order information that specifies the table or guest name for an order displays according to what was provided."
-keywords: [Customers]
+keywords: ["Customers"]
 procedures: 0
 codeExamples: 0
 ---

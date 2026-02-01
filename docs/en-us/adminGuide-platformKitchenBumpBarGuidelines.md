@@ -10,7 +10,7 @@ previousSectionTitle: "Using the bump bar"
 nextSectionFile: adminGuide-platformKitchenOpsKDSWorkflowExamplesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Workflow examples"
 excerpt: "Follow these guidelines when using the bump bar:"
-keywords: [bump,usage,guidelines,Do not]
+keywords: ["bump", "usage", "guidelines", "Do not"]
 procedures: 0
 codeExamples: 0
 ---

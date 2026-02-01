@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminDiscountConfigReference.md
 previousSectionTitle: "Discount configuration reference"
 nextSectionFile: adminGuide-adminDiscountsConfigFixedOpenDiscounts.md
 nextSectionTitle: "Configuring fixed or open amount or percent discounts"
-keywords: [configuring,typespecific,settings,discount]
+keywords: ["configuring", "typespecific", "settings", "discount"]
 procedures: 0
 codeExamples: 0
 ---

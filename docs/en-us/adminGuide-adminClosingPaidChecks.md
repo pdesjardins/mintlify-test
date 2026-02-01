@@ -10,7 +10,7 @@ previousSectionTitle: "Check management overview"
 nextSectionFile: adminGuide-platformOrdersReopening.md
 nextSectionTitle: "Reopening closed checks"
 excerpt: "When a guest uses a credit card to pay for an order, the credit card is initially charged for the order itself. The check status changes from open to paid. The final amount charged might then be..."
-keywords: [closing,paid,checks]
+keywords: ["closing", "paid", "checks"]
 procedures: 0
 codeExamples: 0
 ---

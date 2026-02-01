@@ -10,7 +10,7 @@ previousSectionTitle: "Deleting location-specific prices"
 nextSectionFile: adminGuide-adminUsingPricingStrategiesWithLocationSpecificPrices.md
 nextSectionTitle: "Using pricing strategies with location-specific prices"
 excerpt: "You can use the global price editor in the upper left corner of the Price editor page to update multiple prices at once, including location-specific prices."
-keywords: [global,price,editor,locationspecific,prices]
+keywords: ["global", "price", "editor", "locationspecific", "prices"]
 procedures: 1
 codeExamples: 0
 ---

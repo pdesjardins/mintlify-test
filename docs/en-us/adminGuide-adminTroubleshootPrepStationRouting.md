@@ -10,7 +10,7 @@ previousSectionTitle: "Troubleshooting the preparation workflow"
 nextSectionFile: adminGuide-adminTroubleshootExpoRouting.md
 nextSectionTitle: "Verify order routing to an expediter"
 excerpt: "For efficient kitchen operation, orders for menu items and modifiers must go to the correct prep stations."
-keywords: [verify,order,routing,prep,stations]
+keywords: ["verify", "order", "routing", "prep", "stations"]
 procedures: 1
 codeExamples: 0
 ---

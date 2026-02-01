@@ -10,7 +10,7 @@ previousSectionTitle: "Creating and updating discounts"
 nextSectionFile: adminGuide-adminAvailableDiscounts.md
 nextSectionTitle: "Using the Discounts page"
 excerpt: "You can use Toast platform discounts to support the promotions that your restaurants offer. Those promotions must be compatible with the Toast platform discount configuration interface."
-keywords: [designing,discounts,promotions]
+keywords: ["designing", "discounts", "promotions"]
 procedures: 0
 codeExamples: 0
 ---

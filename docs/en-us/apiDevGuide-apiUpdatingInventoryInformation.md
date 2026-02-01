@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalApiGettingRestaurantInfoOmitChunkFromSearchIn
 nextSectionTitle: "Chapter 6. Restaurant info"
 externalReferences: [https://doc.toasttab.com/openapi/stock/overview/]
 excerpt: "You can use the stock API to update stock inventory information for menu items and modifiers (via their underlying menu item references)."
-keywords: [PUT,MenuItemInventory,multiLocationId,IN_STOCK,OUT_OF_STOCK,QUANTITY,itemGuidValidity,VALID,INVALID]
+keywords: ["PUT", "MenuItemInventory", "multiLocationId", "IN_STOCK", "OUT_OF_STOCK", "QUANTITY", "itemGuidValidity", "VALID", "INVALID"]
 procedures: 0
 codeExamples: 3
 ---

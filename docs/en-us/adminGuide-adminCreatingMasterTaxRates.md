@@ -10,7 +10,7 @@ previousSectionTitle: "Tax rates for enterprises"
 nextSectionFile: adminGuide-manuallyAssigningApplicableTaxes.md
 nextSectionTitle: "Manually assigning applicable taxes"
 excerpt: "By default, the Toast platform creates a state and local tax rate for each location in your enterprise. For an enterprise restaurant configuration, you should archive these auto-created tax rates..."
-keywords: [creating,master,rates]
+keywords: ["creating", "master", "rates"]
 procedures: 3
 codeExamples: 0
 ---

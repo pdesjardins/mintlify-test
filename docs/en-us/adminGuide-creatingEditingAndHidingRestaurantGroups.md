@@ -10,7 +10,7 @@ previousSectionTitle: "Restaurant groups"
 nextSectionFile: adminGuide-adminGroupRestaurantsConceptually.md
 nextSectionTitle: "Grouping restaurants conceptually"
 excerpt: "Follow the instructions below to create a..."
-keywords: [creating,editing,archiving,restaurant,groups]
+keywords: ["creating", "editing", "archiving", "restaurant", "groups"]
 procedures: 2
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Reports for enterprises"
 nextSectionFile: adminGuide-adminUnderstandingDataAggregationEnterpriseReports.md
 nextSectionTitle: "Understanding data aggregation in enterprise reports"
 excerpt: "In restaurant chains that use the enterprise module, the View area of the Reports page includes a restaurant hierarchy drop-down menu that allows..."
-keywords: [enterprise,reports,overview]
+keywords: ["enterprise", "reports", "overview"]
 procedures: 0
 codeExamples: 0
 ---

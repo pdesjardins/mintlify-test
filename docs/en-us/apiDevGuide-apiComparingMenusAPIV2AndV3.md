@@ -10,7 +10,7 @@ previousSectionTitle: "Menus API overview"
 nextSectionFile: apiDevGuide-apiMenusApiStructureMirrorsToastAdministrationBackEndStructure.md
 nextSectionTitle: "Menus API structure mirrors Toast Web structure"
 excerpt: "When choosing which version of the menus API to use, follow these guidelines:"
-keywords: [comparing,menus]
+keywords: ["comparing", "menus"]
 procedures: 0
 codeExamples: 0
 ---

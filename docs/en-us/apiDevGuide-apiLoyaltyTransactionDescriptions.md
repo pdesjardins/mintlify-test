@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiLoyaltyPosWorkflow.md
 nextSectionTitle: "POS workflow"
 externalReferences: [https://central.toasttab.com/s/article/Reprint-and-Resend-Receipt-from-Payment-Terminal, https://doc.toasttab.com/openapi/loyalty/tag/Data-definitions/schema/ResponseCheck/, https://central.toasttab.com/s/article/Voiding-Items-Payments-and-Checks]
 excerpt: "This section provides information about the way the Toast loyalty integration API transactions correspond to Toast platform transactions."
-keywords: [transaction,types,LOYALTY_SEARCH,LOYALTY_INQUIRE,LOYALTY_REDEEM,LOYALTY_ACCRUE,LOYALTY_REVERSE]
+keywords: ["transaction", "types", "LOYALTY_SEARCH", "LOYALTY_INQUIRE", "LOYALTY_REDEEM", "LOYALTY_ACCRUE", "LOYALTY_REVERSE"]
 procedures: 0
 codeExamples: 0
 ---

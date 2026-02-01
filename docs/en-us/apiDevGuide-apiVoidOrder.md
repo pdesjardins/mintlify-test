@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiUsingMultiLocationIdsInOrders.md
 nextSectionTitle: "Using multi-location IDs in orders"
 externalReferences: [https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/]
 excerpt: "If an order is placed and needs to be canceled, you can use..."
-keywords: [/orders/v2/orders/{orderGuid}/void,/ordersBulk]
+keywords: ["/orders/v2/orders/{orderGuid}/void", "/ordersBulk"]
 procedures: 0
 codeExamples: 0
 ---

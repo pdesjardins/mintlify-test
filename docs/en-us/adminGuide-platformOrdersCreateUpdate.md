@@ -10,7 +10,7 @@ previousSectionTitle: "Order workflows and processing"
 nextSectionFile: adminGuide-adminOrderStates.md
 nextSectionTitle: "Tracking the order state"
 excerpt: "The Toast platform supports multiple options for creating and updating orders."
-keywords: [orders,created,updated]
+keywords: ["orders", "created", "updated"]
 procedures: 0
 codeExamples: 0
 ---

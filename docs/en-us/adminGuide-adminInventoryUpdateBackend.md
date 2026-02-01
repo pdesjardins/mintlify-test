@@ -10,7 +10,7 @@ previousSectionTitle: "Menu item inventory overview"
 nextSectionFile: adminGuide-adminInventoryUpdateQuickEdit.md
 nextSectionTitle: "Changing inventory status in Quick Edit mode"
 excerpt: "You can change the inventory status on the menu item details page in Toast Web."
-keywords: [changing,inventory,status,menu,item,details,page]
+keywords: ["changing", "inventory", "status", "menu", "item", "details", "page"]
 procedures: 1
 codeExamples: 0
 ---

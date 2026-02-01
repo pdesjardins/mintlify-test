@@ -10,7 +10,7 @@ previousSectionTitle: "Multi-location features on the menu builder pages"
 nextSectionFile: adminGuide-platformHowVersionedConfigurationsAreDisplayedOnTheMenuBuilderPages.md
 nextSectionTitle: "How versioned configurations are displayed on the menu builder pages"
 excerpt: "The multi-location menu builder pages allow you to save changes to multiple versions of a menu item. For example, you can save pricing updates to one or more versions of a menu item, instead of..."
-keywords: [saving,changes,multiple,versions,menu,item]
+keywords: ["saving", "changes", "multiple", "versions", "menu", "item"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu manager and multi-location restaurants"
 nextSectionFile: adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.md
 nextSectionTitle: "Using search and filtering to find menu entities"
 excerpt: "The..."
-keywords: [viewing,options]
+keywords: ["viewing", "options"]
 procedures: 0
 codeExamples: 0
 ---

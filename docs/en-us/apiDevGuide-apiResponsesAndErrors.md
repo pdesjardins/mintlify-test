@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiExampleRequests.md
 nextSectionTitle: "Example API requests"
 externalReferences: [https://tools.ietf.org/html/rfc7231#section-6, https://doc.toasttab.com/openapi/]
 excerpt: "For..."
-keywords: [ErrorMessage]
+keywords: ["ErrorMessage"]
 procedures: 0
 codeExamples: 0
 ---

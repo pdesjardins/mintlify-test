@@ -10,7 +10,7 @@ previousSectionTitle: "Taxes"
 nextSectionFile: adminGuide-adminPercentTaxRates.md
 nextSectionTitle: "Percent rates"
 excerpt: "Most states levy sales taxes on meals that are served by a restaurant. Other levels of government, such as counties and cities, may also impose taxes on food and beverages served by restaurants in..."
-keywords: [taxes,overview]
+keywords: ["taxes", "overview"]
 procedures: 0
 codeExamples: 0
 ---

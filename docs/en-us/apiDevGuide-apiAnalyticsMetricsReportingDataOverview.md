@@ -10,7 +10,7 @@ previousSectionTitle: "Aggregated sales reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest.md
 nextSectionTitle: "Creating a request for aggregated sales reporting data"
 excerpt: "Aggregated sales reporting data includes a high-level view of active restaurant metrics based on orders, including sales and labor information. For more information on what is included in the..."
-keywords: [aggregated,sales,reporting,data,overview,/era/v1/metrics/{timeRange},reportRequestGuid,/era/v1/metrics/{reportRequestGuid}]
+keywords: ["aggregated", "sales", "reporting", "data", "overview", "/era/v1/metrics/{timeRange}", "reportRequestGuid", "/era/v1/metrics/{reportRequestGuid}"]
 procedures: 0
 codeExamples: 0
 ---

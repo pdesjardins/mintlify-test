@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminCashDrawerToastWebOperations.md
 nextSectionTitle: "Toast Web cash drawer operations"
 externalReferences: [https://central.toasttab.com/s/article/Pay-Outs-1492803987392#Reasons]
 excerpt: "To access your cash drawers on the Toast POS device, select the Toast logo until the Toast POS home screen appears. Choose Cash Management > Cash Drawers to open the Cash Drawers screen."
-keywords: [cash,drawer,operations]
+keywords: ["cash", "drawer", "operations"]
 procedures: 0
 codeExamples: 0
 ---

@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.
 previousSectionTitle: "Chapter 7. Employees"
 nextSectionFile: apiDevGuide-api_get_all_employees.md
 nextSectionTitle: "Getting all employees of a restaurant"
-keywords: [getting,employee,information]
+keywords: ["getting", "employee", "information"]
 procedures: 0
 codeExamples: 0
 ---

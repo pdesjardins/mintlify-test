@@ -10,7 +10,7 @@ previousSectionTitle: "Standard API access webhook subscriptions"
 nextSectionFile: apiDevGuide-devApiAccessSupportStandardApiAccess.md
 nextSectionTitle: "Standard API access support"
 excerpt: "Why is the &quot;Manage Credentials&quot; interface not visible? You must have the &quot;Manage Integrations&quot; permission to view the &quot;Manage Credentials&quot; interface."
-keywords: [POST,GET]
+keywords: ["POST", "GET"]
 procedures: 0
 codeExamples: 0
 ---

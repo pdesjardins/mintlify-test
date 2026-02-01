@@ -10,7 +10,7 @@ previousSectionTitle: "Displaying and filtering the reports"
 nextSectionFile: adminGuide-platformOrdersDetailsLinks.md
 nextSectionTitle: "Displaying additional details about an order"
 excerpt: "The content on the order details dialog in the Orders report is the same as the content on the order details panels in the Order details report."
-keywords: [overview,order,details,content]
+keywords: ["overview", "order", "details", "content"]
 procedures: 0
 codeExamples: 0
 ---

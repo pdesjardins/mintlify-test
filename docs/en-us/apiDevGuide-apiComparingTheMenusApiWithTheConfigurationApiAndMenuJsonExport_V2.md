@@ -10,7 +10,7 @@ previousSectionTitle: "POS button color hex codes for light and dark modes"
 nextSectionFile: apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2.md
 nextSectionTitle: "Mapping menus API values to other Toast APIs and the menu data export"
 excerpt: "This section compares and contrasts the menus API with the configuration API and the nightly menu JSON export so that you can understand their differences. In general, if you need to retrieve the..."
-keywords: [comparing,menus,configuration,menu,json,export]
+keywords: ["comparing", "menus", "configuration", "menu", "json", "export"]
 procedures: 0
 codeExamples: 0
 ---

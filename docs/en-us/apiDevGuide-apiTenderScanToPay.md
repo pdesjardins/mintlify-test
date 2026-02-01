@@ -10,7 +10,7 @@ previousSectionTitle: "Hotel property management system integration"
 nextSectionFile: apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 11. Analytics"
 excerpt: "The Toast tender API scan-to-pay feature..."
-keywords: [scantopay]
+keywords: ["scantopay"]
 procedures: 0
 codeExamples: 0
 ---

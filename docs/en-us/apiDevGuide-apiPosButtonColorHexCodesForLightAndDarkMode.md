@@ -10,7 +10,7 @@ previousSectionTitle: "Determining if a menu entity should be visible on a partn
 nextSectionFile: apiDevGuide-apiComparingTheMenusApiWithTheConfigurationApiAndMenuJsonExport_V2.md
 nextSectionTitle: "Comparing the menus API with the configuration API and menu JSON export"
 excerpt: "The Menu, MenuGroup, MenuItem, ModifierGroup, Modifier, and PreModifier objects of the menus API have two values, posButtonColorLight and posButtonColorDark, that represent the button color you see..."
-keywords: [button,color,codes,light,dark,modes,Menu,MenuGroup,MenuItem,ModifierGroup]
+keywords: ["button", "color", "codes", "light", "dark", "modes", "Menu", "MenuGroup", "MenuItem", "ModifierGroup"]
 procedures: 0
 codeExamples: 0
 ---

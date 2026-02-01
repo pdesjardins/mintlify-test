@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformOfflineMode.md
 nextSectionTitle: "Offline mode"
 externalReferences: [https://status.toasttab.com/]
 excerpt: "As a cloud-based app, the Toast platform must use the internet to connect to its cloud-based services. Other Toast operations, such as sending credit card information to credit card networks for..."
-keywords: [offline,mode,overview,Offline mode]
+keywords: ["offline", "mode", "overview", "Offline mode"]
 procedures: 0
 codeExamples: 0
 ---

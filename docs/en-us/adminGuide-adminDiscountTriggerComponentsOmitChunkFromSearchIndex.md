@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminDiscountsConfigureCombo.md
 previousSectionTitle: "Configuring a combo discount"
 nextSectionFile: adminGuide-adminDiscountRequiredItemsAbout.md
 nextSectionTitle: "Required items overview"
-keywords: [choosing,required,items,discount]
+keywords: ["choosing", "required", "items", "discount"]
 procedures: 0
 codeExamples: 0
 ---

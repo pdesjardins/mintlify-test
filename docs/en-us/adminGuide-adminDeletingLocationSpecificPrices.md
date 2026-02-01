@@ -10,7 +10,7 @@ previousSectionTitle: "Enabling and setting location-specific prices"
 nextSectionFile: adminGuide-adminUsingTheGlobalPriceEditorWithLocationSpecificPrices.md
 nextSectionTitle: "Using the global price editor with location-specific prices"
 excerpt: "To..."
-keywords: [deleting,locationspecific,prices]
+keywords: ["deleting", "locationspecific", "prices"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Quote time strategy overview"
 nextSectionFile: adminGuide-adminQuoteTimeStrategySettings.md
 nextSectionTitle: "Quote time strategy settings"
 excerpt: "The following sections describe the various quote time strategies available."
-keywords: [quote,time,strategies]
+keywords: ["quote", "time", "strategies"]
 procedures: 0
 codeExamples: 0
 ---

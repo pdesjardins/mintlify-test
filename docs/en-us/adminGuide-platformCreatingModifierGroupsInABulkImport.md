@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding import operations"
 nextSectionFile: adminGuide-platformCreatingModifiersWithTheAdvancedTemplate.md
 nextSectionTitle: "Creating modifiers with the advanced template"
 excerpt: "Some points to note when creating modifier groups using the bulk import tool:"
-keywords: [creating,modifier,groups,bulk,import,CREATE,ATTACH]
+keywords: ["creating", "modifier", "groups", "bulk", "import", "CREATE", "ATTACH"]
 procedures: 0
 codeExamples: 0
 ---

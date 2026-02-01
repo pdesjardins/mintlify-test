@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminEffectOfAdjustingAnEmployeesTimeOrBreakEntries.
 nextSectionTitle: "Effect of adjusting an employee's time or break entries"
 externalReferences: [https://central.toasttab.com/s/article/Labor-Reports-Overview]
 excerpt: "The Reports > Employee performance > Time entries report, described in this Toast Central article, displays time entries for your employees for the dates and hours you have chosen to view."
-keywords: [viewing,employee,breaks,labor,reports]
+keywords: ["viewing", "employee", "breaks", "labor", "reports"]
 procedures: 0
 codeExamples: 0
 ---

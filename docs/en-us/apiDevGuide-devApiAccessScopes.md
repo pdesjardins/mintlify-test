@@ -10,7 +10,7 @@ previousSectionTitle: "Standard API access requirements"
 nextSectionFile: apiDevGuide-devApiAccessResources.md
 nextSectionTitle: "Standard API access resources"
 excerpt: "Scopes determine the actions that your Toast API client has permission to perform, which is authenticated using the client ID and secret created in Toast Web. For more information, see ."
-keywords: [delivery_info.address:read,DeliveryInfo,digital_schedule:read,Customer]
+keywords: ["delivery_info.address:read", "DeliveryInfo", "digital_schedule:read", "Customer"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Using the price editor"
 nextSectionFile: adminGuide-adminDiscountsAndPricing.md
 nextSectionTitle: "Discounts and pricing"
 excerpt: "Price levels..."
-keywords: [price,levels]
+keywords: ["price", "levels"]
 procedures: 0
 codeExamples: 0
 ---

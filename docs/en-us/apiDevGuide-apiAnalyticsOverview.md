@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiAnalyticsUnderstandingProcess.md
 nextSectionTitle: "Understanding the analytics API process"
 externalReferences: [https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Pro]
 excerpt: "You can use the analytics API to request and view analytics data for restaurants in a management group."
-keywords: [analytics,overview]
+keywords: ["analytics", "overview"]
 procedures: 0
 codeExamples: 0
 ---

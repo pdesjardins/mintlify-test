@@ -10,7 +10,7 @@ previousSectionTitle: "Error handling"
 nextSectionFile: apiDevGuide-apiLoyaltyIntegrationNetworkFailureAndIdempotence.md
 nextSectionTitle: "Network failure and idempotence"
 excerpt: "The..."
-keywords: [latency,requirements]
+keywords: ["latency", "requirements"]
 procedures: 0
 codeExamples: 0
 ---

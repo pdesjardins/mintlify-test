@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring the order purger service"
 nextSectionFile: adminGuide-platformOffPremiseDiningOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 3. Off-premise dining"
 excerpt: "If you choose to..."
-keywords: [manually,purging,closed,orders]
+keywords: ["manually", "purging", "closed", "orders"]
 procedures: 1
 codeExamples: 0
 ---

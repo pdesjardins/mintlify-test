@@ -10,7 +10,7 @@ previousSectionTitle: "All versions of a menu use the same menu-specific prices"
 nextSectionFile: adminGuide-platformAboutTheNumberColumn.md
 nextSectionTitle: "About the Number column"
 excerpt: "This section provides detailed instructions for creating a pricing configuration where each version of a menu has its own menu-specific prices for a menu item, for example:"
-keywords: [each,version,menu,menuspecific,prices]
+keywords: ["each", "version", "menu", "menuspecific", "prices"]
 procedures: 1
 codeExamples: 1
 ---

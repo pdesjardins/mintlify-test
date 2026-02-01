@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding saving and publishing"
 nextSectionFile: adminGuide-platformUnderstandingScheduledPublishingAndChangeSets.md
 nextSectionTitle: "Understanding scheduled publishing and change sets"
 excerpt: "On..."
-keywords: [manual,scheduled,publishing]
+keywords: ["manual", "scheduled", "publishing"]
 procedures: 0
 codeExamples: 0
 ---

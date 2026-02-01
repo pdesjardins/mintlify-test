@@ -10,7 +10,7 @@ previousSectionTitle: "Service charge overview"
 nextSectionFile: adminGuide-adminServiceChargeEligibility.md
 nextSectionTitle: "Service charge eligibility"
 excerpt: "The service charge configuration includes the amount of the service charge, how to apply the service charge, and whether to apply tax to the service charge."
-keywords: [service,charge,components]
+keywords: ["service", "charge", "components"]
 procedures: 0
 codeExamples: 0
 ---

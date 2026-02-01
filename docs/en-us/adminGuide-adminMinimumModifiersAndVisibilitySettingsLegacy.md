@@ -10,7 +10,7 @@ previousSectionTitle: "Required modifier groups and visibility settings"
 nextSectionFile: adminGuide-adminMenuPricingOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu pricing"
 excerpt: "When you configure a modifier group to require guests and servers to choose a minimum number of modifiers from that group, you must also pay careful attention to the ordering channel visibility..."
-keywords: [minimum,modifiers,visibility,settings]
+keywords: ["minimum", "modifiers", "visibility", "settings"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Modifier group display order"
 nextSectionFile: adminGuide-adminSettingsAndConditionsThatAffectModifierGroupDisplay.md
 nextSectionTitle: "Settings and conditions that affect modifier group display order"
 excerpt: "The Toast platform has a number of settings and conditions that affect the order it uses to..."
-keywords: [modifier,group,display,order,overview]
+keywords: ["modifier", "group", "display", "order", "overview"]
 procedures: 0
 codeExamples: 0
 ---

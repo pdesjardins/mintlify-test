@@ -10,7 +10,7 @@ previousSectionTitle: "Menu reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData.md
 nextSectionTitle: "Retrieving the menu reporting data"
 excerpt: "There are two ways to create a request for menu reporting data: you can request menu reporting data for a custom time range or a specific time range. The type of time range you use determines the..."
-keywords: [creating,request,menu,reporting,data,startBusinessDate,endBusinessDate,YYYYMMDD,restaurantIds,excludedRestaurantIds]
+keywords: ["creating", "request", "menu", "reporting", "data", "startBusinessDate", "endBusinessDate", "YYYYMMDD", "restaurantIds", "excludedRestaurantIds"]
 procedures: 0
 codeExamples: 0
 ---

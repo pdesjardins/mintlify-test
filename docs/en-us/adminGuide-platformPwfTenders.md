@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminCreditCardsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Credit card payments"
 externalReferences: [https://central.toasttab.com/s/article/Guest-Pay-and-Dual-Reader-Functionality-with-Toast-Tap, https://central.toasttab.com/s/article/Card-Pre-Authorization-Configuration-Device-Setup, https://central.toasttab.com/s/article/House-Accounts-1492809352564, https://central.toasttab.com/s/article/Setting-Up-Other-Payment-Options]
 excerpt: "The following sections describe how to conduct cash, card, and other payments on your Toast POS application."
-keywords: [payment,workflows]
+keywords: ["payment", "workflows"]
 procedures: 0
 codeExamples: 0
 ---

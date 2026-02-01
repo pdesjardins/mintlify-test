@@ -10,7 +10,7 @@ previousSectionTitle: "Redeeming credits"
 nextSectionFile: adminGuide-adminReportCustomerCredits.md
 nextSectionTitle: "Reporting credit redemptions"
 excerpt: "The..."
-keywords: [configuring,credit,expiration]
+keywords: ["configuring", "credit", "expiration"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Tracking the order fulfillment"
 nextSectionFile: adminGuide-adminViewingOrderDetailsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Viewing order details"
 excerpt: "The order source indicates how the order was placed."
-keywords: [effect,order,source,validation,processes,OTHER]
+keywords: ["effect", "order", "source", "validation", "processes", "OTHER"]
 procedures: 0
 codeExamples: 0
 ---

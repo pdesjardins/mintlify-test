@@ -10,7 +10,7 @@ previousSectionTitle: "Working with modifier groups"
 nextSectionFile: adminGuide-platformMenuManagerWorkingWithPriceLevels.md
 nextSectionTitle: "Working with price levels"
 excerpt: "Modifier..."
-keywords: [working,modifiers]
+keywords: ["working", "modifiers"]
 procedures: 0
 codeExamples: 0
 ---

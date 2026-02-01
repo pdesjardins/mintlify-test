@@ -10,7 +10,7 @@ previousSectionTitle: "Creating master tax rates"
 nextSectionFile: adminGuide-usingDefaultTaxRatesAndInheritanceToAssignApplicableTaxes.md
 nextSectionTitle: "Using default tax rates and inheritance to assign applicable taxes"
 excerpt: "The preferred technique for managing taxes is to manually assign the master versions of your tax rates to your menus. With this configuration, the correct version of the tax will be applied to a..."
-keywords: [manually,assigning,applicable,taxes]
+keywords: ["manually", "assigning", "applicable", "taxes"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring discount availability and status"
 nextSectionFile: adminGuide-adminDiscountsMinMax.md
 nextSectionTitle: "Configuring required minimum and maximum check totals"
 excerpt: "For any discount, you can configure time-based availability criteria that controls when that discount is available for use:"
-keywords: [setting,availability,date,range,discount]
+keywords: ["setting", "availability", "date", "range", "discount"]
 procedures: 0
 codeExamples: 0
 ---

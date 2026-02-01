@@ -10,7 +10,7 @@ previousSectionTitle: "Getting restaurant info"
 nextSectionFile: apiDevGuide-apiRestaurantInformation.md
 nextSectionTitle: "Getting information about a specific restaurant"
 excerpt: "Send a GET request to the /restaurants/v1/groups/{managementGroupGUID}/restaurants endpoint of the restaurants API to get a list of the restaurants in a restaurant management group. The endpoint..."
-keywords: [/restaurants/v1/groups/{managementGroupGUID}/restaurants,Restaurant,/restaurants/v1/restaurants/{restaurantGUID}]
+keywords: ["/restaurants/v1/groups/{managementGroupGUID}/restaurants", "Restaurant", "/restaurants/v1/restaurants/{restaurantGUID}"]
 procedures: 0
 codeExamples: 2
 ---

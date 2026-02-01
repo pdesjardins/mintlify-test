@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiGettingRxOnlineOrderingAvailability.md
 nextSectionTitle: "Getting a restaurant's online ordering availability"
 externalReferences: [https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028, https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028#Enabling]
 excerpt: "To retrieve a restaurant..."
-keywords: [GET,/orderingSchedule,Toast-Restaurant-External-ID,DELIVERY,TAKEOUT,diningOptionBehavior,scheduledOrderMaxDays,TAKE_OUT]
+keywords: ["GET", "/orderingSchedule", "Toast-Restaurant-External-ID", "DELIVERY", "TAKEOUT", "diningOptionBehavior", "scheduledOrderMaxDays", "TAKE_OUT"]
 procedures: 0
 codeExamples: 3
 ---

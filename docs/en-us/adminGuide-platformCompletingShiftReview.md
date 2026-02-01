@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformReopeningAShift.md
 nextSectionTitle: "Reopening a shift"
 externalReferences: [https://central.toasttab.com/s/article/Clocking-In-and-Out-for-Shifts-and-Breaks]
 excerpt: "If shift review is required, the following steps must be completed before you can end your shift and clock out: Close all checks Reconcile cash and tips (this step is skipped if there are no cash..."
-keywords: [completing,shift,review]
+keywords: ["completing", "shift", "review"]
 procedures: 0
 codeExamples: 0
 ---

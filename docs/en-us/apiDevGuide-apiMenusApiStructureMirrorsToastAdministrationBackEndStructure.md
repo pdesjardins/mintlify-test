@@ -10,7 +10,7 @@ previousSectionTitle: "Comparing menus API V2 and V3"
 nextSectionFile: apiDevGuide-apiUsingMenusApiDataToConstructValidOrders.md
 nextSectionTitle: "Using menus API data to construct valid orders"
 excerpt: "The..."
-keywords: [menus,structure,mirrors,toast]
+keywords: ["menus", "structure", "mirrors", "toast"]
 procedures: 0
 codeExamples: 0
 ---

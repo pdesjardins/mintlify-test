@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding the operation ID"
 nextSectionFile: adminGuide-platformFillingOutTheBulkImportSpreadsheet.md
 nextSectionTitle: "Filling out a bulk import spreadsheet"
 excerpt: "To complete a bulk import spreadsheet, you may need one or more Toast identifiers for the following entities:"
-keywords: [specifying,toast,identifiers,versionID,multiLocationID]
+keywords: ["specifying", "toast", "identifiers", "versionID", "multiLocationID"]
 procedures: 0
 codeExamples: 0
 ---

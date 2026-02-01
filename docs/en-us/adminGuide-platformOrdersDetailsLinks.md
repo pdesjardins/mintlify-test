@@ -10,7 +10,7 @@ previousSectionTitle: "Overview of the order details content"
 nextSectionFile: adminGuide-adminOrderManagementOmitChunkFromSearchIndex.md
 nextSectionTitle: "Managing checks and orders"
 excerpt: "The order details dialog on the Orders report provides links to additional information and order actions, including:"
-keywords: [displaying,additional,details,about,order,Update history,Guest details,Menu item configuration,Rewards card details]
+keywords: ["displaying", "additional", "details", "about", "order", "Update history", "Guest details", "Menu item configuration", "Rewards card details"]
 procedures: 0
 codeExamples: 0
 ---

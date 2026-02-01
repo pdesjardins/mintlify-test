@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformShiftReviewOmitChunkFromSearchIndex.md
 nextSectionTitle: "Shift review"
 externalReferences: [https://central.toasttab.com/s/article/Configuring-Deferred-Sales-for-Gift-Certificates-and-Other-Menu-Items]
 excerpt: "You can view your deferred..."
-keywords: [viewing,house,accounts,reporting]
+keywords: ["viewing", "house", "accounts", "reporting"]
 procedures: 0
 codeExamples: 0
 ---

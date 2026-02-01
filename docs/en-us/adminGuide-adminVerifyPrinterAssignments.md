@@ -10,7 +10,7 @@ previousSectionTitle: "Verify device setup"
 nextSectionFile: adminGuide-adminVerifyAutomatedItemFiring.md
 nextSectionTitle: "Verify automated item firing and prep times"
 excerpt: "If a kitchen printer is printing two sets of tickets for every order, two prep stations or both a prep station and expediter seat might be configured to use the same printer."
-keywords: [verify,printer,assignments]
+keywords: ["verify", "printer", "assignments"]
 procedures: 1
 codeExamples: 0
 ---

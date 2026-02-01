@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding menu hierarchy"
 nextSectionFile: adminGuide-platformMenuManagerPermissions.md
 nextSectionTitle: "Menu manager permissions"
 excerpt: "The Toast platform currently has two workflows for menu creation: the menu manager workflow and the classic menu workflow. You access both workflows through Toast Web. The menu manager is a new,..."
-keywords: [menu,manager,classic,details,pages]
+keywords: ["menu", "manager", "classic", "details", "pages"]
 procedures: 0
 codeExamples: 0
 ---

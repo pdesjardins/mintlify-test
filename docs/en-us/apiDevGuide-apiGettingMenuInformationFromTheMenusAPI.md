@@ -10,7 +10,7 @@ previousSectionTitle: "About the menus API"
 nextSectionFile: apiDevGuide-apiComparingMenusAPIV2AndV3.md
 nextSectionTitle: "Comparing menus API V2 and V3"
 excerpt: "Using the menus API,..."
-keywords: [menus,overview,GET]
+keywords: ["menus", "overview", "GET"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalApiGettingStockOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 5. Stock"
 externalReferences: [https://doc.toasttab.com/openapi/configuration/overview/]
 excerpt: "This section explains how to use the Toast configuration API to get menu information for a restaurant."
-keywords: [/menuGroups,/menuGroups/{guid},/menuItems,/menuOptionGroups,/menuOptionGroups/{guid},/preModifiers,/preModifiers/{guid},/preModifierGroups,/preModifierGroups/{guid},Menu]
+keywords: ["/menuGroups", "/menuGroups/{guid}", "/menuItems", "/menuOptionGroups", "/menuOptionGroups/{guid}", "/preModifiers", "/preModifiers/{guid}", "/preModifierGroups", "/preModifierGroups/{guid}", "Menu"]
 procedures: 0
 codeExamples: 2
 ---

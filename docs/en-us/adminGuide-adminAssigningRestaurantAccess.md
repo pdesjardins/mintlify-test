@@ -10,7 +10,7 @@ previousSectionTitle: "Applying jobs to the restaurant group hierarchy"
 nextSectionFile: adminGuide-adminUnderstandingTheJobsAndPermissionsTabInEnterpriseEnvironments.md
 nextSectionTitle: "Understanding the Jobs and Permissions tab in enterprise environments"
 excerpt: "The Restaurant Access tab on an employee's details page allows you to quickly give an employee access to multiple locations..."
-keywords: [assigning,restaurant,access]
+keywords: ["assigning", "restaurant", "access"]
 procedures: 0
 codeExamples: 0
 ---

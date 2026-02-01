@@ -10,7 +10,7 @@ previousSectionTitle: "Subscriptions"
 nextSectionFile: apiDevGuide-apiHttpHeaders.md
 nextSectionTitle: "HTTP headers"
 excerpt: "Webhook messages are always sent as JSON payloads in the body of POST requests. The message is sent with Content-Type: application/json."
-keywords: [message,data,schema,Content-Type: application/json]
+keywords: ["message", "data", "schema", "Content-Type: application/json"]
 procedures: 0
 codeExamples: 1
 ---

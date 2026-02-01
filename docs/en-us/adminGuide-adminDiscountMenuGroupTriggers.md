@@ -10,7 +10,7 @@ previousSectionTitle: "Selecting an individual menu item as a required item"
 nextSectionFile: adminGuide-adminDiscountsCombiningTriggers.md
 nextSectionTitle: "Configuring groups of required items"
 excerpt: "When you search for an item for a discount, the results include matching items, menu groups, and menus."
-keywords: [selecting,menu,group,required,item]
+keywords: ["selecting", "menu", "group", "required", "item"]
 procedures: 0
 codeExamples: 0
 ---

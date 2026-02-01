@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminNoteAboutPublishingPrices.md
 nextSectionTitle: "Note about publishing prices"
 externalReferences: [https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670]
 excerpt: "The Toast platform offers a variety of pricing-related features that give you the flexibility to choose the pricing approaches that work best for your menu entities. The table below gives a brief..."
-keywords: [toast,pricing,features,Open items,Open Price pricing strategy]
+keywords: ["toast", "pricing", "features", "Open items", "Open Price pricing strategy"]
 procedures: 0
 codeExamples: 0
 ---

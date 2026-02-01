@@ -10,7 +10,7 @@ previousSectionTitle: "Purging orders overview"
 nextSectionFile: adminGuide-closingOrdersAsSoonAsPossible.md
 nextSectionTitle: "Closing orders as soon as possible"
 excerpt: "To understand the performance information provided in this section, it is helpful to have a basic understanding of how Toast platform orders are shared and stored."
-keywords: [understanding,orders,shared,stored]
+keywords: ["understanding", "orders", "shared", "stored"]
 procedures: 0
 codeExamples: 0
 ---

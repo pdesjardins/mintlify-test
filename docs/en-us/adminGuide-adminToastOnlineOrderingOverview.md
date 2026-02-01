@@ -10,7 +10,7 @@ previousSectionTitle: "Toast Online Ordering"
 nextSectionFile: adminGuide-adminViewingOnlineOrderingSettings.md
 nextSectionTitle: "Viewing online ordering settings"
 excerpt: "Toast Online Ordering makes it easy to accept, process, and deliver online orders. Guests place online orders on your restaurant's Toast Online Ordering website or on the Local by Toast app."
-keywords: [toast,online,ordering,overview]
+keywords: ["toast", "online", "ordering", "overview"]
 procedures: 1
 codeExamples: 0
 ---

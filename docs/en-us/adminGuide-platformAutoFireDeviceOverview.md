@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformConfiguringAutoFireDevice.md
 nextSectionTitle: "Configuring an Autofire device"
 externalReferences: [https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode]
 excerpt: "A Toast Autofire device is responsible for approving and firing online orders to the kitchen. An Autofire device:"
-keywords: [autofiring,overview]
+keywords: ["autofiring", "overview"]
 procedures: 0
 codeExamples: 0
 ---

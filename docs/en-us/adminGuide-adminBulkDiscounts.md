@@ -10,7 +10,7 @@ previousSectionTitle: "Exclusive and nonexclusive discounts"
 nextSectionFile: adminGuide-adminDiscountsTargetsAndOwners.md
 nextSectionTitle: "Discount configurations for multi-location restaurants"
 excerpt: "A bulk discount..."
-keywords: [bulk,discounts]
+keywords: ["bulk", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Columns in the menu manager views"
 nextSectionFile: adminGuide-adminMenuVisibilityOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu visibility"
 excerpt: "This section lists the current limitations of the menu manager."
-keywords: [menu,manager,limitations]
+keywords: ["menu", "manager", "limitations"]
 procedures: 0
 codeExamples: 0
 ---

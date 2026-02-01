@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformViewHouseAccounts.md
 nextSectionTitle: "Viewing house accounts"
 externalReferences: [https://central.toasttab.com/s/article/Test-Mode-Enable-and-Disable-1492802389999, https://central.toasttab.com/s/article/How-to-run-a-Tax-Exempt-transaction-1492809352212]
 excerpt: "House accounts can be created and added while your Toast account is in Test Mode. House accounts can take 24 to 48 hours to appear on a Toast POS device once the location comes out of Test Mode. For..."
-keywords: [house,accounts,overview]
+keywords: ["house", "accounts", "overview"]
 procedures: 0
 codeExamples: 0
 ---

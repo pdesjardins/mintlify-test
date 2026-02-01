@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding menu editing permissions for enterprises"
 nextSectionFile: adminGuide-adminUsingReportsEnterprisesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Reports for enterprises"
 excerpt: "While every enterprise has its own requirements for..."
-keywords: [example,configurations,enterprises]
+keywords: ["example", "configurations", "enterprises"]
 procedures: 0
 codeExamples: 0
 ---

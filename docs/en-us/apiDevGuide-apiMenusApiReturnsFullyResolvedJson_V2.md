@@ -10,7 +10,7 @@ previousSectionTitle: "Menus API rate limit"
 nextSectionFile: apiDevGuide-apiDetectingAndAvoidingInfiniteLoopsInTheMenusApiJson.md
 nextSectionTitle: "Detecting and avoiding infinite loops in the menus API JSON"
 excerpt: "The Toast platform's menu structure is..."
-keywords: [menus,returns,fully,resolved,json]
+keywords: ["menus", "returns", "fully", "resolved", "json"]
 procedures: 0
 codeExamples: 0
 ---

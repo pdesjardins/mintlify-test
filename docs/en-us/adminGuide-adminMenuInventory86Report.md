@@ -10,7 +10,7 @@ previousSectionTitle: "Changing inventory status in Quick Edit mode"
 nextSectionFile: adminGuide-adminModifierGroupDisplayOrderOmitChunkFromSearchIndex.md
 nextSectionTitle: "Modifier group display order"
 excerpt: "The Reports > Menus > 86 Report is a useful tool you can use to decide which menu items to reorder. The 86 Report provides the following information:"
-keywords: [viewing,report,Wings,Grilled Salmon,Pie]
+keywords: ["viewing", "report", "Wings", "Grilled Salmon", "Pie"]
 procedures: 0
 codeExamples: 0
 ---

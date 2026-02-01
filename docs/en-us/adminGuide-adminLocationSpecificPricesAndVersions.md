@@ -10,7 +10,7 @@ previousSectionTitle: "Location-specific prices and the restaurant group hierarc
 nextSectionFile: adminGuide-adminEnablingAndSettingLocationSpecificPrices.md
 nextSectionTitle: "Enabling and setting location-specific prices"
 excerpt: "In general, if you are using location-specific pricing for a menu item, Toast support recommends not..."
-keywords: [locationspecific,prices,versions]
+keywords: ["locationspecific", "prices", "versions"]
 procedures: 0
 codeExamples: 0
 ---

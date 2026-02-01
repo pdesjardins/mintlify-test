@@ -10,7 +10,7 @@ previousSectionTitle: "Menu builder"
 nextSectionFile: adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages.md
 nextSectionTitle: "Menu builder and the classic menu details pages"
 excerpt: "The menu builder is a lightweight, easy-to-use tool that lets you quickly create and make changes to your Toast menu."
-keywords: [menu,builder,overview]
+keywords: ["menu", "builder", "overview"]
 procedures: 0
 codeExamples: 0
 ---

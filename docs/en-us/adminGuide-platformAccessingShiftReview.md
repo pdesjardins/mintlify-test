@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformCompletingShiftReview.md
 nextSectionTitle: "Completing shift review"
 externalReferences: [https://central.toasttab.com/s/article/Resyncing-All-Data-on-Your-Devices]
 excerpt: "You can access your shift review on the Toast POS app."
-keywords: [accessing,shift,review]
+keywords: ["accessing", "shift", "review"]
 procedures: 1
 codeExamples: 0
 ---

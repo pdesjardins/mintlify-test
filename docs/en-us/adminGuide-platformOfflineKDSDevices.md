@@ -10,7 +10,7 @@ previousSectionTitle: "Offline support"
 nextSectionFile: adminGuide-platformKitchenPrintersOffline.md
 nextSectionTitle: "Kitchen printers"
 excerpt: "This applies to restaurants using KDS devices. For more information about offline mode, see . The kitchen display system (KDS) uses offline mode with local sync. For more information, see ."
-keywords: [devices]
+keywords: ["devices"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Pacing and timing"
 nextSectionFile: adminGuide-adminFireByPrepTime.md
 nextSectionTitle: "Firing by item prep time"
 excerpt: "To keep track of how long ordered items are taking to fulfill, the KDS device displays a ticket time on every ticket. When you enable course pacing and choose to send all courses to the kitchen..."
-keywords: [interpreting,ticket,times,fire]
+keywords: ["interpreting", "ticket", "times", "fire"]
 procedures: 0
 codeExamples: 0
 ---

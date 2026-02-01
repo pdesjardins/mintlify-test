@@ -10,7 +10,7 @@ previousSectionTitle: "Disabled rates"
 nextSectionFile: adminGuide-adminSmartTax.md
 nextSectionTitle: "Smart tax"
 excerpt: "Menu items have tax..."
-keywords: [taxes,modifiers]
+keywords: ["taxes", "modifiers"]
 procedures: 0
 codeExamples: 0
 ---

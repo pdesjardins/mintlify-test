@@ -10,7 +10,7 @@ previousSectionTitle: "Transferring checks or orders to a different employee"
 nextSectionFile: adminGuide-adminViewingRestrictedOrders.md
 nextSectionTitle: "Working with restricted orders"
 excerpt: "For open, paid, and closed orders, you can send the order to all of the Toast POS devices."
-keywords: [sending,orders,devices]
+keywords: ["sending", "orders", "devices"]
 procedures: 0
 codeExamples: 0
 ---

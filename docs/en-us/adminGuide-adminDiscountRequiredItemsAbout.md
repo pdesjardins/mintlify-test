@@ -10,7 +10,7 @@ previousSectionTitle: "Choosing the required items for a discount"
 nextSectionFile: adminGuide-adminDiscountSingleItemTriggers.md
 nextSectionTitle: "Selecting an individual menu item as a required item"
 excerpt: "Required items, sometimes referred to as trigger items, are the items or combinations of items that make the check eligible for a discount."
-keywords: [required,items,overview,Fixed and open percent and amount discounts,BOGO discounts,Combo discounts]
+keywords: ["required", "items", "overview", "Fixed and open percent and amount discounts", "BOGO discounts", "Combo discounts"]
 procedures: 0
 codeExamples: 0
 ---

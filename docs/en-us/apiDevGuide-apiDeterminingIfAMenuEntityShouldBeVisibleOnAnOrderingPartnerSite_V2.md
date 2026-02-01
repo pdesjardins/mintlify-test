@@ -10,7 +10,7 @@ previousSectionTitle: "Determining if a menu item or modifier contains alcohol"
 nextSectionFile: apiDevGuide-apiPosButtonColorHexCodesForLightAndDarkMode.md
 nextSectionTitle: "POS button color hex codes for light and dark modes"
 excerpt: "In Toast Web, there are channel visibility settings that restaurants use to control where a menu entity is visible and, by extension, available for ordering. For example, these settings control..."
-keywords: [determining,menu,entity,visible,partner,integration,POS,KIOSK,TOAST_ONLINE_ORDERING,ORDERING_PARTNERS]
+keywords: ["determining", "menu", "entity", "visible", "partner", "integration", "POS", "KIOSK", "TOAST_ONLINE_ORDERING", "ORDERING_PARTNERS"]
 procedures: 0
 codeExamples: 0
 ---

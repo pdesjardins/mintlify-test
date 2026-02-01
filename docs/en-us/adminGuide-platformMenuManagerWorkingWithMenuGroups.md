@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformMenuManagerWorkingWithMenuItems.md
 nextSectionTitle: "Working with menu items"
 externalReferences: [https://central.toasttab.com/s/article/Course-Firing-Options, https://central.toasttab.com/s/article/Sales-Reports-Overview, https://central.toasttab.com/s/article/Menu-Report-Overview-1492794696577, https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering]
 excerpt: "You..."
-keywords: [working,menu,groups,subgroups]
+keywords: ["working", "menu", "groups", "subgroups"]
 procedures: 0
 codeExamples: 0
 ---

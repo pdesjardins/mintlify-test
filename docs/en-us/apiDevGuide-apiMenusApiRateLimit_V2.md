@@ -10,7 +10,7 @@ previousSectionTitle: "Determining if a restaurant's menu data has gone stale"
 nextSectionFile: apiDevGuide-apiMenusApiReturnsFullyResolvedJson_V2.md
 nextSectionTitle: "Menus API returns fully resolved JSON"
 excerpt: "The GET /menus endpoint of the menus API uses an endpoint rate limit for each..."
-keywords: [menus,rate,limit,GET /menus,GET /metadata]
+keywords: ["menus", "rate", "limit", "GET /menus", "GET /metadata"]
 procedures: 0
 codeExamples: 0
 ---

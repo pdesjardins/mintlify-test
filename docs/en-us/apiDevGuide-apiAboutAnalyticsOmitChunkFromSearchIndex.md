@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex.md
 previousSectionTitle: "Chapter 11. Analytics"
 nextSectionFile: apiDevGuide-apiAnalyticsOverview.md
 nextSectionTitle: "Analytics API overview"
-keywords: [about,analytics]
+keywords: ["about", "analytics"]
 procedures: 0
 codeExamples: 0
 ---

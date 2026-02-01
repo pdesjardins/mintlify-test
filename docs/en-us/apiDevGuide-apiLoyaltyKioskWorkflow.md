@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiLoyaltyDiscountProcessing.md
 nextSectionTitle: "Reward offers processing"
 externalReferences: [https://central.toasttab.com/s/article/Kiosk-Placing-Orders-Making-Payments-and-Tipping]
 excerpt: "This section describes the user interface workflow for loyalty transactions in Toast Kiosk."
-keywords: [kiosk,workflow,LOYALTY_INQUIRE,Offer,LOYALTY_REDEEM,LOYALTY_ACCRUE]
+keywords: ["kiosk", "workflow", "LOYALTY_INQUIRE", "Offer", "LOYALTY_REDEEM", "LOYALTY_ACCRUE"]
 procedures: 1
 codeExamples: 0
 ---

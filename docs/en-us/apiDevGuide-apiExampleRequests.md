@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiDeployment.md
 nextSectionTitle: "Deployment best practices"
 externalReferences: [https://www.getpostman.com/, https://learning.postman.com/]
 excerpt: "Toast provides a Postman API client collection of API requests to help you test the APIs without writing any code."
-keywords: [Where can I get the Postman collection?,What initial setup should I do?,How do I make an API call?]
+keywords: ["Where can I get the Postman collection?", "What initial setup should I do?", "How do I make an API call?"]
 procedures: 0
 codeExamples: 0
 ---

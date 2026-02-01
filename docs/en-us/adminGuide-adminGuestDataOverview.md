@@ -10,7 +10,7 @@ previousSectionTitle: "Guest checks and data"
 nextSectionFile: adminGuide-adminSearchingGuestChecks.md
 nextSectionTitle: "Searching for guest checks"
 excerpt: "The Toast platform stores information about your guests and uses it to create a searchable database. The Toast platform automatically saves guest information in the database every time you:"
-keywords: [guest,data,overview]
+keywords: ["guest", "data", "overview"]
 procedures: 0
 codeExamples: 0
 ---

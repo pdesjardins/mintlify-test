@@ -10,7 +10,7 @@ previousSectionTitle: "Targets"
 nextSectionFile: adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations.md
 nextSectionTitle: "Filtering pages"
 excerpt: "When you create a version..."
-keywords: [owners,permissions]
+keywords: ["owners", "permissions"]
 procedures: 0
 codeExamples: 0
 ---

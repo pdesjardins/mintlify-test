@@ -10,7 +10,7 @@ previousSectionTitle: "Open price"
 nextSectionFile: adminGuide-adminSequencePrice.md
 nextSectionTitle: "Sequence price"
 excerpt: "Applies to: Modifier groups"
-keywords: [fixed,price,Applies to:]
+keywords: ["fixed", "price", "Applies to:"]
 procedures: 1
 codeExamples: 0
 ---

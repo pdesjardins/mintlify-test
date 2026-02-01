@@ -10,7 +10,7 @@ previousSectionTitle: "Location-specific prices and versions"
 nextSectionFile: adminGuide-adminDeletingLocationSpecificPrices.md
 nextSectionTitle: "Deleting location-specific prices"
 excerpt: "You..."
-keywords: [enabling,setting,locationspecific,prices]
+keywords: ["enabling", "setting", "locationspecific", "prices"]
 procedures: 2
 codeExamples: 0
 ---

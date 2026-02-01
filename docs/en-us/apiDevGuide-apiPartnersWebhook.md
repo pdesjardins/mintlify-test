@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiRxAvailabilityWebhook.md
 nextSectionTitle: "Restaurant availability webhook"
 externalReferences: [https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast]
 excerpt: "The partners webhook allows you to receive updates when:"
-keywords: [externalGroupRef,externalRestaurantRef,eventCategory,eventType]
+keywords: ["externalGroupRef", "externalRestaurantRef", "eventCategory", "eventType"]
 procedures: 0
 codeExamples: 0
 ---

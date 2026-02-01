@@ -10,7 +10,7 @@ previousSectionTitle: "Check reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.md
 nextSectionTitle: "Retrieving the check reporting data"
 excerpt: "Send a POST request to the /era/v1/check/day endpoint to request check reporting data for a single day. The rate limit for this endpoint and method type is five requests..."
-keywords: [creating,request,check,reporting,data,onlyInactiveRestaurants,restaurantIds,excludedRestaurantIds,startBusinessDate,endBusinessDate]
+keywords: ["creating", "request", "check", "reporting", "data", "onlyInactiveRestaurants", "restaurantIds", "excludedRestaurantIds", "startBusinessDate", "endBusinessDate"]
 procedures: 0
 codeExamples: 0
 ---

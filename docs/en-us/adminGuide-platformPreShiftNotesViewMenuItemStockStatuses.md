@@ -10,7 +10,7 @@ previousSectionTitle: "Managing staff notes"
 nextSectionFile: adminGuide-adminTextAlertsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Text alerts"
 excerpt: "The Pre-shift notes screen allows staff to easily view the inventory status of menu items. When your employee clocks in for their shift, the Pre-shift notes screen opens to display all out-of-stock..."
-keywords: [viewing,menu,item,stock,statuses]
+keywords: ["viewing", "menu", "item", "stock", "statuses"]
 procedures: 0
 codeExamples: 0
 ---

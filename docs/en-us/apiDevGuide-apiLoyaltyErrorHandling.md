@@ -10,7 +10,7 @@ previousSectionTitle: "Reward offers processing"
 nextSectionFile: apiDevGuide-apiLoyaltyLatencyRequirements.md
 nextSectionTitle: "Latency requirements"
 excerpt: "Your Toast POS loyalty integration interface implementation must return the following HTTPS responses to the requests that it receives from the Toast platform."
-keywords: [error,handling,ACCEPT,ERROR_INVALID_TOAST_TRANSACTION_TYPE,Toast-Transaction-Type,ERROR_ACCOUNT_INVALID,ERROR_INVALID_INPUT_PROPERTIES,ERROR_TRANSACTION_DOES_NOT_EXIST,LOYALTY_REVERSE,ERROR_INVALID_TOKEN]
+keywords: ["error", "handling", "ACCEPT", "ERROR_INVALID_TOAST_TRANSACTION_TYPE", "Toast-Transaction-Type", "ERROR_ACCOUNT_INVALID", "ERROR_INVALID_INPUT_PROPERTIES", "ERROR_TRANSACTION_DOES_NOT_EXIST", "LOYALTY_REVERSE", "ERROR_INVALID_TOKEN"]
 procedures: 0
 codeExamples: 0
 ---

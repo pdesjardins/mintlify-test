@@ -10,7 +10,7 @@ previousSectionTitle: "Menus API returns fully resolved JSON"
 nextSectionFile: apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2.md
 nextSectionTitle: "Understanding GUIDs, referenceIds, and multiLocationIds"
 excerpt: "While unusual, it is technically possible for the following menu structure to be created in Toast Web:"
-keywords: [detecting,avoiding,infinite,loops,menus,json]
+keywords: ["detecting", "avoiding", "infinite", "loops", "menus", "json"]
 procedures: 0
 codeExamples: 0
 ---

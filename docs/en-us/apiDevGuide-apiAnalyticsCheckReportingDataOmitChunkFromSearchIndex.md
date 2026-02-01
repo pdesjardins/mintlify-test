@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsMetricsReportingDataUnderstandingDa
 previousSectionTitle: "Understanding aggregated sales reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataOverview.md
 nextSectionTitle: "Check reporting data overview"
-keywords: [check,reporting,data]
+keywords: ["check", "reporting", "data"]
 procedures: 0
 codeExamples: 0
 ---

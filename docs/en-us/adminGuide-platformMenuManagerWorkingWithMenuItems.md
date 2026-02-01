@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformWorkingWithModifierGroupsMenuManager.md
 nextSectionTitle: "Working with modifier groups"
 externalReferences: [https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK., https://central.toasttab.com/s/article/Course-Firing-Options, https://central.toasttab.com/s/article/Sales-Reports-Overview, https://central.toasttab.com/s/article/Menu-Report-Overview-1492794696577, https://central.toasttab.com/s/article/Getting-Started-with-Toast-Online-Ordering-Pro, https://central.toasttab.com/s/article/Get-Started-With-the-Branded-Mobile-App, https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering, https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers]
 excerpt: "This section provides information about working with menu items in the menu manager."
-keywords: [working,menu,items]
+keywords: ["working", "menu", "items"]
 procedures: 0
 codeExamples: 0
 ---

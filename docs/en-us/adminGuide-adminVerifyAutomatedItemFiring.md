@@ -10,7 +10,7 @@ previousSectionTitle: "Verify printer assignments"
 nextSectionFile: adminGuide-platformKitchenConfigReferenceOmitChunkFromSearchIndex.md
 nextSectionTitle: "Kitchen configuration reference"
 excerpt: "If you enter..."
-keywords: [verify,automated,item,firing,prep,times]
+keywords: ["verify", "automated", "item", "firing", "prep", "times"]
 procedures: 1
 codeExamples: 0
 ---

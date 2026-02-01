@@ -10,7 +10,7 @@ previousSectionTitle: "Accessing menu builder pages for multi-location restauran
 nextSectionFile: adminGuide-platformMultilocationFeaturesOnTheMenuBuilderPages.md
 nextSectionTitle: "Multi-location features on the menu builder pages"
 excerpt: "Some..."
-keywords: [some,menu,features,only,available,builder,pages]
+keywords: ["some", "menu", "features", "only", "available", "builder", "pages"]
 procedures: 0
 codeExamples: 0
 ---

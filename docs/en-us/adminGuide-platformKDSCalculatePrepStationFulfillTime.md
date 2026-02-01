@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding average fulfillment timers"
 nextSectionFile: adminGuide-platformKdsStartQueue.md
 nextSectionTitle: "Using start queue"
 excerpt: "Prep..."
-keywords: [calculating,prep,station,fulfillment,times]
+keywords: ["calculating", "prep", "station", "fulfillment", "times"]
 procedures: 0
 codeExamples: 0
 ---

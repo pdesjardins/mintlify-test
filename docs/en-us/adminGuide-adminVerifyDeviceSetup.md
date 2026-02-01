@@ -10,7 +10,7 @@ previousSectionTitle: "Verify order routing to an expediter"
 nextSectionFile: adminGuide-adminVerifyPrinterAssignments.md
 nextSectionTitle: "Verify printer assignments"
 excerpt: "For a Toast KDS device to receive the correct orders, it must be set up for the correct prep station or expediter seat. In addition, you can limit the tickets shown on a device to specific dining..."
-keywords: [verify,device,setup]
+keywords: ["verify", "device", "setup"]
 procedures: 1
 codeExamples: 0
 ---

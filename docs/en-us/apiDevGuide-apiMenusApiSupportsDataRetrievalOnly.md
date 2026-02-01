@@ -10,7 +10,7 @@ previousSectionTitle: "Using menus API data to construct valid orders"
 nextSectionFile: apiDevGuide-apiMenusApiReturnsPublishedDataOnly.md
 nextSectionTitle: "Menus API returns published data only"
 excerpt: "The..."
-keywords: [menus,supports,data,retrieval,only]
+keywords: ["menus", "supports", "data", "retrieval", "only"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiPartnersWebhook.md
 nextSectionTitle: "Partners webhook"
 externalReferences: [https://central.toasttab.com/s/article/Configure-Packaging-Preferences-for-Takeout-and-Delivery]
 excerpt: "The..."
-keywords: [packaging_updated,eventCategory,eventType]
+keywords: ["packaging_updated", "eventCategory", "eventType"]
 procedures: 0
 codeExamples: 0
 ---

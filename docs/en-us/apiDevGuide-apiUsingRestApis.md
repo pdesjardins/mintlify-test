@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalHowToBuildAToastIntegration.md
 nextSectionTitle: "How to build a Toast integration"
 externalReferences: [https://developer.mozilla.org/en-US/docs/Glossary/REST, https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview, https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods, https://curl.se/, https://docs.oracle.com/en/java/javase/11/docs/api/java.net.http/java/net/http/HttpClient.html]
 excerpt: "Many Toast APIs are Representational State Transfer (REST) APIs. You can use REST APIs to connect your software and information systems to the Toast platform. REST APIs can perform functions..."
-keywords: [GET,POST,PUT,DELETE,HTTPClient]
+keywords: ["GET", "POST", "PUT", "DELETE", "HTTPClient"]
 procedures: 0
 codeExamples: 0
 ---

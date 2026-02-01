@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiPhysicalGiftCardRequirements.md
 nextSectionTitle: "Physical gift card requirements"
 externalReferences: [https://jwt.io/]
 excerpt: "You..."
-keywords: [Authorization]
+keywords: ["Authorization"]
 procedures: 0
 codeExamples: 2
 ---

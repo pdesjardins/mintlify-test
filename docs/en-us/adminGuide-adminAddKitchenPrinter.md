@@ -10,7 +10,7 @@ previousSectionTitle: "Creating an assembly line"
 nextSectionFile: adminGuide-adminAssignPrepStationKDS.md
 nextSectionTitle: "Assigning a KDS device to a prep station"
 excerpt: "Every restaurant that uses the Toast platform has at least one kitchen printer."
-keywords: [adding,kitchen,printer]
+keywords: ["adding", "kitchen", "printer"]
 procedures: 0
 codeExamples: 0
 ---

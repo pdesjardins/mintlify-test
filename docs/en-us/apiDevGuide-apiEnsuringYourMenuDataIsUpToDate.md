@@ -10,7 +10,7 @@ previousSectionTitle: "Menus API returns published data only"
 nextSectionFile: apiDevGuide-apiUnderstandingTheOrderInWhichModifierGroupsAreReturned.md
 nextSectionTitle: "Understanding the order in which modifier groups are returned"
 excerpt: "Toast..."
-keywords: [ensuring,menu,data,uptodate]
+keywords: ["ensuring", "menu", "data", "uptodate"]
 procedures: 0
 codeExamples: 0
 ---

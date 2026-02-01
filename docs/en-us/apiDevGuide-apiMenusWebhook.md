@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-devOrdersWebhookRef.md
 nextSectionTitle: "Orders webhook"
 externalReferences: [https://doc.toasttab.com/openapi/menus/overview/]
 excerpt: "The menus webhook sends a message when a restaurant that uses your integration has published a change to its menus. The message payload includes the GUID of the affected restaurant and a timestamp..."
-keywords: [eventCategory,menus_updated,eventType]
+keywords: ["eventCategory", "menus_updated", "eventType"]
 procedures: 0
 codeExamples: 0
 ---

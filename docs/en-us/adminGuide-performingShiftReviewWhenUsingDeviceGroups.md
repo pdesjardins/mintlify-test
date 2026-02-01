@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformCloseOutDayOmitChunkFromSearchIndex.md
 nextSectionTitle: "Close out day"
 externalReferences: [https://central.toasttab.com/s/article/Device-Groups]
 excerpt: "In high volume restaurants with a lot of orders, the number of orders each device must maintain in memory can have an impact on performance. As a solution to this issue, you can split your devices..."
-keywords: [performing,shift,review,device,groups]
+keywords: ["performing", "shift", "review", "device", "groups"]
 procedures: 0
 codeExamples: 0
 ---

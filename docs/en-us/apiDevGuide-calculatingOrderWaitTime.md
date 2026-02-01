@@ -10,7 +10,7 @@ previousSectionTitle: "Scheduling future orders"
 nextSectionFile: apiDevGuide-apiAddingItemsToACheck.md
 nextSectionTitle: "Adding items to an existing check"
 excerpt: "When you use the orders API to create an order, the orders API does not validate the time when you submit the order. The orders API accepts the order even if, for example, the restaurant is not..."
-keywords: [promisedDate,estimatedFulfillmentDate]
+keywords: ["promisedDate", "estimatedFulfillmentDate"]
 procedures: 0
 codeExamples: 0
 ---

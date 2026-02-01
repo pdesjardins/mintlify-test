@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding data aggregation in enterprise reports"
 nextSectionFile: adminGuide-adminEnterpriseReportDetails.md
 nextSectionTitle: "Enterprise report details"
 excerpt: "Versioned entities are automatically rolled up into a single entry on Toast reports. For example, consider the illustration below, which shows three versions of the Trout menu item, one for the..."
-keywords: [understanding,versioned,entities,enterprise,reports]
+keywords: ["understanding", "versioned", "entities", "enterprise", "reports"]
 procedures: 0
 codeExamples: 0
 ---

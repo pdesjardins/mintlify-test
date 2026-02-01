@@ -10,7 +10,7 @@ previousSectionTitle: "Viewing order details"
 nextSectionFile: adminGuide-platformOrdersDetailsDisplayFilter.md
 nextSectionTitle: "Displaying and filtering the reports"
 excerpt: "The Orders and Order details reports both provide detailed information about orders. They display the same information and use the same filters."
-keywords: [about,orders,order,details,reports]
+keywords: ["about", "orders", "order", "details", "reports"]
 procedures: 0
 codeExamples: 0
 ---

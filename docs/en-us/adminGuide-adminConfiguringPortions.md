@@ -10,7 +10,7 @@ previousSectionTitle: "Altering the price of a modifier applied to a portion"
 nextSectionFile: adminGuide-adminUsingPortionsInTheToastPosApp.md
 nextSectionTitle: "Using portions in the Toast POS app"
 excerpt: "To configure portions, you must:"
-keywords: [configuring,portions]
+keywords: ["configuring", "portions"]
 procedures: 3
 codeExamples: 0
 ---

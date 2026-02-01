@@ -10,7 +10,7 @@ previousSectionTitle: "Mapping menus API values to other Toast APIs and the menu
 nextSectionFile: apiDevGuide-menu_information_config_api.md
 nextSectionTitle: "Getting menu information from the configuration API"
 excerpt: "Problem: The JSON returned by the menus API is missing a value that you are expecting."
-keywords: [menus,troubleshooting,Problem:,Potential Solution:]
+keywords: ["menus", "troubleshooting", "Problem:", "Potential Solution:"]
 procedures: 0
 codeExamples: 0
 ---

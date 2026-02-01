@@ -10,7 +10,7 @@ previousSectionTitle: "Cash management overview"
 nextSectionFile: adminGuide-adminCashDrawers.md
 nextSectionTitle: "Cash drawers"
 excerpt: "Cash drawers are physically attached to printers. When employees perform actions that require cash transactions, the Toast platform opens the cash drawer."
-keywords: [setting,cash,drawers]
+keywords: ["setting", "cash", "drawers"]
 procedures: 0
 codeExamples: 0
 ---

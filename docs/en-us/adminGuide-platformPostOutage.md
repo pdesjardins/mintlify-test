@@ -10,7 +10,7 @@ previousSectionTitle: "Pending tips when offline"
 nextSectionFile: adminGuide-platformPublishingDocsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 7. Publishing"
 excerpt: "After..."
-keywords: [postoutage,experience]
+keywords: ["postoutage", "experience"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Updating payment information"
 externalReferences: [https://doc.toasttab.com/openapi/orders/overview/]
 excerpt: "Send a GET request to..."
-keywords: [getting,information,about,specific,payment,Payment,CREDIT,VoidInformation,Refund]
+keywords: ["getting", "information", "about", "specific", "payment", "Payment", "CREDIT", "VoidInformation", "Refund"]
 procedures: 0
 codeExamples: 2
 ---

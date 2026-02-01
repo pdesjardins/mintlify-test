@@ -10,7 +10,7 @@ previousSectionTitle: "Working with menu manager change sets"
 nextSectionFile: adminGuide-platformMenuManagerLimitations.md
 nextSectionTitle: "Menu manager limitations"
 excerpt: "The specific columns in the menu manager change according to the entity type you are viewing. The following sections describe the columns for each entity type."
-keywords: [columns,menu,manager,views]
+keywords: ["columns", "menu", "manager", "views"]
 procedures: 0
 codeExamples: 0
 ---

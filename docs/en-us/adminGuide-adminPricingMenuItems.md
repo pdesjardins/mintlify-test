@@ -10,7 +10,7 @@ previousSectionTitle: "Note about publishing prices"
 nextSectionFile: adminGuide-adminPricingModifierOptions.md
 nextSectionTitle: "Pricing modifiers"
 excerpt: "When pricing the menu items in a menu group, you can choose to either:"
-keywords: [pricing,menu,items]
+keywords: ["pricing", "menu", "items"]
 procedures: 0
 codeExamples: 0
 ---

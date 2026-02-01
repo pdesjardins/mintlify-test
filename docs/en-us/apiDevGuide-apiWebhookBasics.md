@@ -10,7 +10,7 @@ previousSectionTitle: "Using webhooks"
 nextSectionFile: apiDevGuide-apiEndpointRequirements.md
 nextSectionTitle: "Endpoint requirements"
 excerpt: "This section uses the following webhook terms and concepts:"
-keywords: [webhook,basics,partner_added,partner_removed]
+keywords: ["webhook", "basics", "partner_added", "partner_removed"]
 procedures: 0
 codeExamples: 0
 ---

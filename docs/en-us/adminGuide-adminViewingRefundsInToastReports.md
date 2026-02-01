@@ -10,7 +10,7 @@ previousSectionTitle: "Effect of refunds in the kitchen"
 nextSectionFile: adminGuide-adminCashManagementOmitChunkFromSearchIndex.md
 nextSectionTitle: "Cash management"
 excerpt: "You can view refund information on receipts, in reports, and in order details."
-keywords: [viewing,refunds,toast,receipts,reports,order,details]
+keywords: ["viewing", "refunds", "toast", "receipts", "reports", "order", "details"]
 procedures: 0
 codeExamples: 0
 ---

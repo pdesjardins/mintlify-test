@@ -10,7 +10,7 @@ previousSectionTitle: "POS layout view overview"
 nextSectionFile: adminGuide-platformMenuManagerOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu manager"
 excerpt: "You can access POS layout view from either the menu manager or the menu builder."
-keywords: [accessing,layout,view]
+keywords: ["accessing", "layout", "view"]
 procedures: 2
 codeExamples: 0
 ---

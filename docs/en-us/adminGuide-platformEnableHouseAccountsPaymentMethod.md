@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformPayHouseAccountBalance.md
 nextSectionTitle: "Paying a house account balance"
 externalReferences: [https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration]
 excerpt: "Your guests can use a house account as a payment method to pay for Toast orders. To allow your guests to pay using a house account, you need to turn on the Take house account payments on a POS..."
-keywords: [enabling,house,accounts,payment,method]
+keywords: ["enabling", "house", "accounts", "payment", "method"]
 procedures: 1
 codeExamples: 0
 ---

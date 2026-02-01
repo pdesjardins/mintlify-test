@@ -10,7 +10,7 @@ previousSectionTitle: "Default pricing of modifiers applied to portions"
 nextSectionFile: adminGuide-adminConfiguringPortions.md
 nextSectionTitle: "Configuring portions"
 excerpt: "The..."
-keywords: [altering,price,modifier,applied,portion]
+keywords: ["altering", "price", "modifier", "applied", "portion"]
 procedures: 0
 codeExamples: 0
 ---

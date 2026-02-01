@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminServiceChargeCalculation.md
 previousSectionTitle: "Service charge calculations"
 nextSectionFile: adminGuide-adminServiceChargeViewing.md
 nextSectionTitle: "Viewing service charges that were applied to orders"
-keywords: [configuring,service,charges]
+keywords: ["configuring", "service", "charges"]
 procedures: 0
 codeExamples: 0
 ---

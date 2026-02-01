@@ -10,7 +10,7 @@ previousSectionTitle: "Cash deposits"
 nextSectionFile: adminGuide-platformDeprecatedCashManagement.md
 nextSectionTitle: "Deprecated cash management"
 excerpt: "When assigning permissions, the best practice is to use job-based permissions..."
-keywords: [user,permissions,cash,management]
+keywords: ["user", "permissions", "cash", "management"]
 procedures: 0
 codeExamples: 0
 ---

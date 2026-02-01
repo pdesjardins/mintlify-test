@@ -10,7 +10,7 @@ previousSectionTitle: "Determining who can apply a discount"
 nextSectionFile: adminGuide-adminDiscountReasons.md
 nextSectionTitle: "Requiring a discount reason for a discount"
 excerpt: "You can optionally add one or more promo codes to any type of discount that is not auto-applied. A promo code is a text string or a scannable barcode that is assigned to a discount."
-keywords: [requiring,promo,codes,discounts]
+keywords: ["requiring", "promo", "codes", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

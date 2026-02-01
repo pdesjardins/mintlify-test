@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiUnarchivingAnEmployee.md
 nextSectionTitle: "Unarchiving an employee"
 externalReferences: [https://doc.toasttab.com/openapi/labor/tag/Data-definitions/schema/Employee/]
 excerpt: "To archive an employee, send a DELETE..."
-keywords: [/labor/v1/employees/{employeeId},deletedDate,Employee]
+keywords: ["/labor/v1/employees/{employeeId}", "deletedDate", "Employee"]
 procedures: 0
 codeExamples: 0
 ---

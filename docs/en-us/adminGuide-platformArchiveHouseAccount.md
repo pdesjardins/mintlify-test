@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a house account"
 nextSectionFile: adminGuide-platformManageHouseAccountsInfo.md
 nextSectionTitle: "Managing house account information"
 excerpt: "You can archive a house account in Toast Web. You can archive a house account with an outstanding balance."
-keywords: [archiving,house,account,House account archived successfully]
+keywords: ["archiving", "house", "account", "House account archived successfully"]
 procedures: 1
 codeExamples: 0
 ---

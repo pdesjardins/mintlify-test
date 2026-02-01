@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformWorkingWithModifiersMenuManager.md
 nextSectionTitle: "Working with modifiers"
 externalReferences: [https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering]
 excerpt: "This section provides information about working with modifier groups in the menu manager."
-keywords: [working,modifier,groups]
+keywords: ["working", "modifier", "groups"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu builder and the classic menu details pages"
 nextSectionFile: adminGuide-adminUnderstandingWhenToPublishYourMenu.md
 nextSectionTitle: "Understanding when to publish your menu"
 excerpt: "Toast products use a hierarchical structure to organize your menu offerings:"
-keywords: [understanding,menu,hierarchy]
+keywords: ["understanding", "menu", "hierarchy"]
 procedures: 0
 codeExamples: 0
 ---

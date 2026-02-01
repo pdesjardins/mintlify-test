@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminConfigureDeliveryArea.md
 nextSectionTitle: "Configuring your delivery area"
 externalReferences: [https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028#Enabling]
 excerpt: "You can choose to reimburse delivery drivers for the wear and tear of their personal vehicle."
-keywords: [reimbursing,drivers,configuring,driver,cash,banks]
+keywords: ["reimbursing", "drivers", "configuring", "driver", "cash", "banks"]
 procedures: 2
 codeExamples: 0
 ---

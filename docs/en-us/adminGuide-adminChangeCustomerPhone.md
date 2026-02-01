@@ -10,7 +10,7 @@ previousSectionTitle: "Adding a guest record"
 nextSectionFile: adminGuide-adminUsingCustomerInformationScreen.md
 nextSectionTitle: "Using the customer information screen"
 excerpt: "To manually update the telephone number or name in an existing restaurant guest record you must have the 1.1..."
-keywords: [updating,guest,information]
+keywords: ["updating", "guest", "information"]
 procedures: 1
 codeExamples: 0
 ---

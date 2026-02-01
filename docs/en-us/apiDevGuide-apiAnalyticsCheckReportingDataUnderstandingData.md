@@ -10,7 +10,7 @@ previousSectionTitle: "Retrieving the check reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataOmitChunkFromSearchIndex.md
 nextSectionTitle: "Labor reporting data"
 excerpt: "Check reporting data contains a constant set of values. These values appear for every..."
-keywords: [understanding,check,reporting,data,restaurantGuid,orderNumber,orderGuid,checkNumber,checkGuid,orderOpenedDate]
+keywords: ["understanding", "check", "reporting", "data", "restaurantGuid", "orderNumber", "orderGuid", "checkNumber", "checkGuid", "orderOpenedDate"]
 procedures: 0
 codeExamples: 0
 ---

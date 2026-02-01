@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformKitchenTextMessaging.md
 nextSectionTitle: "Text messaging"
 externalReferences: [https://central.toasttab.com/s/article/Customize-the-Appearance-of-KDS-Tickets]
 excerpt: "This section provides procedures and information about configuring kitchen tickets."
-keywords: [configuring,tickets]
+keywords: ["configuring", "tickets"]
 procedures: 0
 codeExamples: 0
 ---

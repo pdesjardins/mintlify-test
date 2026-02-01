@@ -10,7 +10,7 @@ previousSectionTitle: "House accounts overview"
 nextSectionFile: adminGuide-platformCreateNewHouseAccounts.md
 nextSectionTitle: "Creating a house account"
 excerpt: "You can view your active and archived house accounts in Toast Web. Go to Payments > Payment methods > House accounts to open the Accounts page. On the Accounts page, you can view the following..."
-keywords: [viewing,house,accounts]
+keywords: ["viewing", "house", "accounts"]
 procedures: 0
 codeExamples: 0
 ---

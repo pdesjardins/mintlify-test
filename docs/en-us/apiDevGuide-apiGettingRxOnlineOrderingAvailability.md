@@ -10,7 +10,7 @@ previousSectionTitle: "Getting online ordering schedules"
 nextSectionFile: apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 7. Employees"
 excerpt: "Send a GET request to the /restaurant-availability/v1/availability endpoint of the restaurant availability API to retrieve a restaurant’s availability to accept online orders. The..."
-keywords: [GET,restaurant_availability,restaurant_availability webhook,Toast-Restaurant-External-ID]
+keywords: ["GET", "restaurant_availability", "restaurant_availability webhook", "Toast-Restaurant-External-ID"]
 procedures: 0
 codeExamples: 3
 ---

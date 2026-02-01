@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow using two expediters"
 nextSectionFile: adminGuide-platformKDSWorkflowUsingCoursePacing.md
 nextSectionTitle: "KDS workflow with course pacing"
 excerpt: "The restaurant in this example uses courses to organize items. Courses are applied to menu items, which then appear as course tickets on KDS devices. For this example, the restaurant has Drinks,..."
-keywords: [workflow,courses,ALSO AT]
+keywords: ["workflow", "courses", "ALSO AT"]
 procedures: 1
 codeExamples: 0
 ---

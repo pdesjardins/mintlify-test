@@ -10,7 +10,7 @@ previousSectionTitle: "Timeouts"
 nextSectionFile: apiDevGuide-apiMessageSigning.md
 nextSectionTitle: "Message signing"
 excerpt: "The Toast platform attempts to resend updates to a webhook endpoint in the following circumstances:"
-keywords: [retry,support]
+keywords: ["retry", "support"]
 procedures: 0
 codeExamples: 0
 ---

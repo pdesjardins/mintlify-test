@@ -10,7 +10,7 @@ previousSectionTitle: "HTTP headers"
 nextSectionFile: apiDevGuide-apiRetrySupport.md
 nextSectionTitle: "Retry support"
 excerpt: "In order..."
-keywords: [timeouts]
+keywords: ["timeouts"]
 procedures: 0
 codeExamples: 0
 ---

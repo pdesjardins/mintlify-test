@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchI
 nextSectionTitle: "Updating stock information"
 externalReferences: [https://doc.toasttab.com/openapi/stock/overview/]
 excerpt: "You can use the stock API to retrieve stock inventory information for menu items and modifiers (via their underlying menu item references)."
-keywords: [OUT_OF_STOCK,QUANTITY,IN_STOCK,MenuItemInventory,multiLocationId,itemGuidValidity,VALID,INVALID,versionId]
+keywords: ["OUT_OF_STOCK", "QUANTITY", "IN_STOCK", "MenuItemInventory", "multiLocationId", "itemGuidValidity", "VALID", "INVALID", "versionId"]
 procedures: 0
 codeExamples: 0
 ---

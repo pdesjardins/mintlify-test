@@ -10,7 +10,7 @@ previousSectionTitle: "Publishing updates to restaurant configuration"
 nextSectionFile: adminGuide-platformWhenToPublish.md
 nextSectionTitle: "Deciding when to publish changes"
 excerpt: "In Toast Web, most configuration changes require publishing, including the following:"
-keywords: [changes,require,publishing]
+keywords: ["changes", "require", "publishing"]
 procedures: 0
 codeExamples: 0
 ---

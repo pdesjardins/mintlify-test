@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring groups of required items"
 nextSectionFile: adminGuide-adminDiscountsMenuGroupsVaryingPrices.md
 nextSectionTitle: "Handling menu groups with varying prices"
 excerpt: "When you use a menu group as a discount required item, you cannot specify a size or modifiers for the menu items. You cannot specify which menu items from the menu group are eligible."
-keywords: [combination,pricing,menu,groups]
+keywords: ["combination", "pricing", "menu", "groups"]
 procedures: 0
 codeExamples: 0
 ---

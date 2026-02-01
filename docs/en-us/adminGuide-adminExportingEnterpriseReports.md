@@ -10,7 +10,7 @@ previousSectionTitle: "Enterprise report details"
 nextSectionFile: adminGuide-platformSettingsCopyOmitChunkFromSearchIndex.md
 nextSectionTitle: "Settings copy feature"
 excerpt: "Report exports reflect the data you are currently viewing so, if you have chosen to view multiple locations in a report, those locations will be included in any exports of the report."
-keywords: [exporting,enterprise,reports]
+keywords: ["exporting", "enterprise", "reports"]
 procedures: 0
 codeExamples: 0
 ---

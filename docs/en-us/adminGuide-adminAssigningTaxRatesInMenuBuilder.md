@@ -10,7 +10,7 @@ previousSectionTitle: "Assigning sales categories"
 nextSectionFile: adminGuide-platformSettingTimeBasedOrderingRulesForOnlineOrders.md
 nextSectionTitle: "Setting time-based ordering rules for online orders"
 excerpt: "During..."
-keywords: [assigning,rates,behavior]
+keywords: ["assigning", "rates", "behavior"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Versioning a configuration entity does not version its ch
 nextSectionFile: adminGuide-archivingAVersion.md
 nextSectionTitle: "Archiving a version"
 excerpt: "In general, you should configure your Toast Web so that most of your configuration entities are shared across locations and you only create additional..."
-keywords: [fewest,versions,possible]
+keywords: ["fewest", "versions", "possible"]
 procedures: 0
 codeExamples: 0
 ---

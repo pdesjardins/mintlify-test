@@ -10,7 +10,7 @@ previousSectionTitle: "Jobs and employees in enterprises"
 nextSectionFile: adminGuide-adminApplyingJobsToTheRestaurantGroupHierarchy.md
 nextSectionTitle: "Applying jobs to the restaurant group hierarchy"
 excerpt: "When using the enterprise module, the Toast POS system provides several additional features for managing your jobs, employees, and permissions. You can:"
-keywords: [enterprise,jobs,employees,overview]
+keywords: ["enterprise", "jobs", "employees", "overview"]
 procedures: 0
 codeExamples: 0
 ---

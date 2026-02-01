@@ -10,7 +10,7 @@ previousSectionTitle: "Button colors"
 nextSectionFile: adminGuide-platformFixingImportFailures.md
 nextSectionTitle: "Fixing import failures"
 excerpt: "Once you have filled out your copy of a bulk import spreadsheet and downloaded it as a CSV file, you can upload..."
-keywords: [uploading,bulk,import,file]
+keywords: ["uploading", "bulk", "import", "file"]
 procedures: 1
 codeExamples: 0
 ---

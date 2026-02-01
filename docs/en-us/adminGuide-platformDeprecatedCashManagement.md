@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminUserPermissionsCashMgmt.md
 previousSectionTitle: "User permissions for cash management"
 nextSectionFile: adminGuide-platformCheckManagementOmitChunkFromSearchIndex.md
 nextSectionTitle: "Check management"
-keywords: [deprecated,cash,management]
+keywords: ["deprecated", "cash", "management"]
 procedures: 0
 codeExamples: 0
 ---

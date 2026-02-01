@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiTenderScanToPay.md
 nextSectionTitle: "Scan-to-pay"
 externalReferences: [https://doc.toasttab.com/tenderapidraftdoc/apiTenderApiReference.html#/definitions/Check]
 excerpt: "Property management systems (PMS) are used by hotels and motels to coordinate systems used for servicing guests, charges, and further accounting. You can use the tender API to implement an..."
-keywords: [hotel,property,management,system,integration]
+keywords: ["hotel", "property", "management", "system", "integration"]
 procedures: 0
 codeExamples: 0
 ---

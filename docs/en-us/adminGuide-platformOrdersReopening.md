@@ -10,7 +10,7 @@ previousSectionTitle: "Closing paid checks"
 nextSectionFile: adminGuide-adminVoidingOrders.md
 nextSectionTitle: "Voiding checks"
 excerpt: "You can reopen closed checks."
-keywords: [reopening,closed,checks]
+keywords: ["reopening", "closed", "checks"]
 procedures: 0
 codeExamples: 0
 ---

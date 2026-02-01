@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a request for guest reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsGuestDataUnderstandData.md
 nextSectionTitle: "Understanding the guest reporting data"
 excerpt: "Send a GET..."
-keywords: [retrieving,guest,reporting,data,/era/v1/guest/payments/{reportRequestGuid},reportRequestGuid]
+keywords: ["retrieving", "guest", "reporting", "data", "/era/v1/guest/payments/{reportRequestGuid}", "reportRequestGuid"]
 procedures: 0
 codeExamples: 0
 ---

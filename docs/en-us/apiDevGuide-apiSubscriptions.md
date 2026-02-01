@@ -10,7 +10,7 @@ previousSectionTitle: "Endpoint requirements"
 nextSectionFile: apiDevGuide-apiMessageDataSchema.md
 nextSectionTitle: "Message data schema"
 excerpt: "After..."
-keywords: [subscriptions]
+keywords: ["subscriptions"]
 procedures: 0
 codeExamples: 0
 ---

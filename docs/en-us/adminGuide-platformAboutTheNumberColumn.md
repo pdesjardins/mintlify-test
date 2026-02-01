@@ -10,7 +10,7 @@ previousSectionTitle: "Each version of a menu has its own menu-specific prices"
 nextSectionFile: adminGuide-managingPrepStationsAndPrintersForEnterprises.md
 nextSectionTitle: "Prep stations and printers for enterprises"
 excerpt: "For multi-location restaurants, a Number column is added the Menu Prices table. This additional column appears in the Menu Prices table on a menu item's details page:"
-keywords: [about,number,column]
+keywords: ["about", "number", "column"]
 procedures: 0
 codeExamples: 0
 ---

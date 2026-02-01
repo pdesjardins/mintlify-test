@@ -10,7 +10,7 @@ previousSectionTitle: "Size/sequence price"
 nextSectionFile: adminGuide-platformMenuAlcoholLabeling.md
 nextSectionTitle: "Menu item and modifier alcohol labeling"
 excerpt: "The Toast platform lets you stack multiple pricing strategies..."
-keywords: [stacking,pricing,strategies]
+keywords: ["stacking", "pricing", "strategies"]
 procedures: 0
 codeExamples: 0
 ---

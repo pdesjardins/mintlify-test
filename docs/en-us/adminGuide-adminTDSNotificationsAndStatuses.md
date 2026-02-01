@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformOffPremiseOfflineModeOmitChunkFromSearchInde
 nextSectionTitle: "Offline support"
 externalReferences: [https://central.toasttab.com/s/article/Do-customers-receive-notifications-for-Toast-Delivery-Service-orders?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web]
 excerpt: "When an order is being delivered by a driver, the guest receives the following text notifications during the delivery process:"
-keywords: [notifications,statuses]
+keywords: ["notifications", "statuses"]
 procedures: 0
 codeExamples: 0
 ---

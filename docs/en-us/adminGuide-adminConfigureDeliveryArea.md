@@ -10,7 +10,7 @@ previousSectionTitle: "Reimbursing drivers and configuring driver cash banks"
 nextSectionFile: adminGuide-adminConfigureDeliveryOnOnlineOrderingDashboard.md
 nextSectionTitle: "Configuring delivery settings on the online ordering dashboard"
 excerpt: "For first-party delivery, you can configure your delivery area on the Takeout/delivery page in Toast Web. Your delivery area appears under the Delivery area section. The delivery area is set by the..."
-keywords: [configuring,delivery,area]
+keywords: ["configuring", "delivery", "area"]
 procedures: 1
 codeExamples: 0
 ---

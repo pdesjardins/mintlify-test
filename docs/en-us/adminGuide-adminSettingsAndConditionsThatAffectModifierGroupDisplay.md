@@ -10,7 +10,7 @@ previousSectionTitle: "Modifier group display order overview"
 nextSectionFile: adminGuide-adminUnderstandingModifierGroupDisplay.md
 nextSectionTitle: "Understanding modifier group display order"
 excerpt: "In Toast Web, settings exist on both a modifier group's details page and on the UI options page that affect the order that the Toast platform uses to display modifier groups for a menu item."
-keywords: [settings,conditions,affect,modifier,group,display,order]
+keywords: ["settings", "conditions", "affect", "modifier", "group", "display", "order"]
 procedures: 0
 codeExamples: 0
 ---

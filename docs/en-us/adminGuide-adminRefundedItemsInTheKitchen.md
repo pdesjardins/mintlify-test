@@ -10,7 +10,7 @@ previousSectionTitle: "Issuing a refund"
 nextSectionFile: adminGuide-adminViewingRefundsInToastReports.md
 nextSectionTitle: "Viewing refunds in Toast receipts, reports, and order details"
 excerpt: "In Toast's kitchen products, refunded items are handled differently from voided or removed items."
-keywords: [effect,refunds,kitchen,Checks that are not yet fired,Checks that are re-fired,REFUNDED,CHANGED]
+keywords: ["effect", "refunds", "kitchen", "Checks that are not yet fired", "Checks that are re-fired", "REFUNDED", "CHANGED"]
 procedures: 0
 codeExamples: 0
 ---

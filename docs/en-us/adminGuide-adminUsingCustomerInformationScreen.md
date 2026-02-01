@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminCustomerCreditsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Guest credit"
 externalReferences: [https://central.toasttab.com/s/article/House-Accounts-1492809352564]
 excerpt: "The customer information screen allows you to add a guest’s profile to takeout, curbside, or delivery orders. The information entered on the customer information screen appears on the guest’s order."
-keywords: [customer,information,screen]
+keywords: ["customer", "information", "screen"]
 procedures: 0
 codeExamples: 0
 ---

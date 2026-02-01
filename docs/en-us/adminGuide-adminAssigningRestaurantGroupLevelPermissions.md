@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding the Jobs and Permissions tab in enterprise 
 nextSectionFile: adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.md
 nextSectionTitle: "Editing employee information, jobs, and permissions in enterprises"
 excerpt: "Restaurant group-level permissions are required for any employee that needs to:"
-keywords: [assigning,restaurant,grouplevel,permissions]
+keywords: ["assigning", "restaurant", "grouplevel", "permissions"]
 procedures: 2
 codeExamples: 0
 ---

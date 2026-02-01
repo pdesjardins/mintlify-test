@@ -10,7 +10,7 @@ previousSectionTitle: "Manually assigning applicable taxes"
 nextSectionFile: adminGuide-adminWorkingWithJobsAndEmployeesInEnterprisesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Jobs and employees in enterprises"
 excerpt: "Taxes that..."
-keywords: [default,rates,inheritance,assign,applicable,taxes]
+keywords: ["default", "rates", "inheritance", "assign", "applicable", "taxes"]
 procedures: 0
 codeExamples: 0
 ---

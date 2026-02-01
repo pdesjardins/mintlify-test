@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminCreditCardsOmitChunkFromSearchIndex.md
 previousSectionTitle: "Credit card payments"
 nextSectionFile: adminGuide-adminCreditCardDeclinedMessageReference.md
 nextSectionTitle: "Card declined message reference"
-keywords: [credit,card,payments]
+keywords: ["credit", "card", "payments"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiMarketplaceFacilitatorOrders.md
 nextSectionTitle: "Marketplace facilitator orders"
 externalReferences: [https://doc.toasttab.com/openapi/orders/operation/ordersOrderGuidDeliveryInfoPatch/]
 excerpt: "You can use the orders API to modify the following delivery information:"
-keywords: [/deliveryInfo,orders.delivery_info:write,deliveredDate,dispatchedDate,deliveryState,PENDING,PICKED_UP,IN_PROGRESS,DELIVERED,deliveryEmployee]
+keywords: ["/deliveryInfo", "orders.delivery_info:write", "deliveredDate", "dispatchedDate", "deliveryState", "PENDING", "PICKED_UP", "IN_PROGRESS", "DELIVERED", "deliveryEmployee"]
 procedures: 0
 codeExamples: 0
 ---

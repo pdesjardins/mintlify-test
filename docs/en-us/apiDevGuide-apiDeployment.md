@@ -10,7 +10,7 @@ previousSectionTitle: "Example API requests"
 nextSectionFile: apiDevGuide-apiHandlingDowntimes.md
 nextSectionTitle: "Handling Toast API downtime"
 excerpt: "When you deploy updates to your integration, use the following best practices:"
-keywords: [Do not deploy on weekends,Avoid peak traffic hours,Deploy updates incrementally,Monitor errors and roll back if needed]
+keywords: ["Do not deploy on weekends", "Avoid peak traffic hours", "Deploy updates incrementally", "Monitor errors and roll back if needed"]
 procedures: 0
 codeExamples: 0
 ---

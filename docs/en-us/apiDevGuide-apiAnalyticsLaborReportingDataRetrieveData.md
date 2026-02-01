@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a request for labor reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataAggregation.md
 nextSectionTitle: "Aggregating the labor reporting data"
 excerpt: "Send..."
-keywords: [retrieving,labor,reporting,data,/era/v1/labor/{reportRequestGuid},reportRequestGuid]
+keywords: ["retrieving", "labor", "reporting", "data", "/era/v1/labor/{reportRequestGuid}", "reportRequestGuid"]
 procedures: 0
 codeExamples: 0
 ---

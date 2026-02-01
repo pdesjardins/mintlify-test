@@ -10,7 +10,7 @@ previousSectionTitle: "Purging closed orders"
 nextSectionFile: adminGuide-understandingHowOrdersAreSharedAndStored.md
 nextSectionTitle: "Understanding how orders are shared and stored"
 excerpt: "Purging closed orders from Toast POS devices reduces the number of orders that the devices hold in memory and can improve performance. The Toast POS system has an order purging service that..."
-keywords: [purging,orders,overview]
+keywords: ["purging", "orders", "overview"]
 procedures: 0
 codeExamples: 0
 ---

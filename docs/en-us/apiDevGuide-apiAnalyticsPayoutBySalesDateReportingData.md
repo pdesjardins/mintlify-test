@@ -10,7 +10,7 @@ previousSectionTitle: "Payout reporting data by payments"
 nextSectionFile: apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex.md
 nextSectionTitle: "Guest reporting data"
 excerpt: "Retrieving the payout reporting data by sales date is a two-step process. You must:"
-keywords: [payout,reporting,data,sales,date,/era/v1/payout/sales-date/{timeRange},reportRequestGuid,/era/v1/payout/sales-date/{requestReportGuid}]
+keywords: ["payout", "reporting", "data", "sales", "date", "/era/v1/payout/sales-date/{timeRange}", "reportRequestGuid", "/era/v1/payout/sales-date/{requestReportGuid}"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Percent rates"
 nextSectionFile: adminGuide-adminTaxTableRates.md
 nextSectionTitle: "Tax table rates"
 excerpt: "A fixed tax rate levies the same monetary amount on a menu item, regardless of its price. You would use a fixed tax rate for special cases, such as for bottle deposits."
-keywords: [fixed,rates,Fixed Rate,Bottle Deposit]
+keywords: ["fixed", "rates", "Fixed Rate", "Bottle Deposit"]
 procedures: 1
 codeExamples: 0
 ---

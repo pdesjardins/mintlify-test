@@ -10,7 +10,7 @@ previousSectionTitle: "Managing how discounts are applied"
 nextSectionFile: adminGuide-adminDiscountsRequireManager.md
 nextSectionTitle: "Determining who can apply a discount"
 excerpt: "On the Toast POS app, to apply a discount, a restaurant employee taps the Dscnt button to display the available discounts, then taps the discount to apply."
-keywords: [configuring,discount,display,toast]
+keywords: ["configuring", "discount", "display", "toast"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu item inventory"
 nextSectionFile: adminGuide-adminInventoryUpdateBackend.md
 nextSectionTitle: "Changing inventory status on the menu item details page"
 excerpt: "An important task in operating a restaurant is keeping track of the inventory of your restaurant's menu items. If the inventory of a menu item starts to run low or goes out of stock, you must decide..."
-keywords: [menu,item,inventory,overview]
+keywords: ["menu", "item", "inventory", "overview"]
 procedures: 0
 codeExamples: 0
 ---

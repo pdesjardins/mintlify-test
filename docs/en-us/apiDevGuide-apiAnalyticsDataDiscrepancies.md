@@ -10,7 +10,7 @@ previousSectionTitle: "Analytics API rate limits"
 nextSectionFile: apiDevGuide-apiAnalyticsInactiveRestaurantData.md
 nextSectionTitle: "Viewing inactive restaurant data"
 excerpt: "Data discrepancies can occur..."
-keywords: [understanding,data,discrepancies]
+keywords: ["understanding", "data", "discrepancies"]
 procedures: 0
 codeExamples: 0
 ---

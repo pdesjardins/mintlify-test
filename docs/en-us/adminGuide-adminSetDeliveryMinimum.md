@@ -10,7 +10,7 @@ previousSectionTitle: "Delivery settings"
 nextSectionFile: adminGuide-adminConfigureDeliveryServiceCharge.md
 nextSectionTitle: "Configuring a delivery service charge"
 excerpt: "You can use approval rules to configure which orders require manual approval and which orders are rejected based on certain criteria, such as a..."
-keywords: [setting,delivery,minimum]
+keywords: ["setting", "delivery", "minimum"]
 procedures: 0
 codeExamples: 0
 ---

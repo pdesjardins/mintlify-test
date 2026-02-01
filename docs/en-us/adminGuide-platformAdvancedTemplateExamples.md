@@ -10,7 +10,7 @@ previousSectionTitle: "Fixing import failures"
 nextSectionFile: adminGuide-platformBulkImportLimitations.md
 nextSectionTitle: "Bulk menu import limitations"
 excerpt: "Because it is a more complex template to use, this section provides examples of different import operations when using the advanced template."
-keywords: [advanced,template,examples]
+keywords: ["advanced", "template", "examples"]
 procedures: 0
 codeExamples: 0
 ---

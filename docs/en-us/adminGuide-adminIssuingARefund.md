@@ -10,7 +10,7 @@ previousSectionTitle: "Refunds and voids"
 nextSectionFile: adminGuide-adminRefundedItemsInTheKitchen.md
 nextSectionTitle: "Effect of refunds in the kitchen"
 excerpt: "To issue a refund, you locate the check that requires a refund and then choose a refund type from the Refund menu."
-keywords: [issuing,refund]
+keywords: ["issuing", "refund"]
 procedures: 0
 codeExamples: 0
 ---

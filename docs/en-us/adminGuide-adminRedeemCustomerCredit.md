@@ -10,7 +10,7 @@ previousSectionTitle: "Adding credit value"
 nextSectionFile: adminGuide-adminConfiguringCustomerCreditExpiration.md
 nextSectionTitle: "Configuring credit expiration"
 excerpt: "To redeem credits for guests, you apply the value of a guest's available credits as payment for a check. If you have enabled the customer credits feature for your restaurant, Customer Credits is an..."
-keywords: [redeeming,credits]
+keywords: ["redeeming", "credits"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Using the Discounts page"
 nextSectionFile: adminGuide-adminCopyingDiscounts.md
 nextSectionTitle: "Copying discounts"
 excerpt: "From the Discounts page, you can add and update discounts."
-keywords: [adding,updating,discounts]
+keywords: ["adding", "updating", "discounts"]
 procedures: 1
 codeExamples: 0
 ---

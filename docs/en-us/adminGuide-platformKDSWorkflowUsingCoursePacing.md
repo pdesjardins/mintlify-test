@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow using courses"
 nextSectionFile: adminGuide-platformKDSWorkflowWithRoutingRules.md
 nextSectionTitle: "KDS workflow with routing rules"
 excerpt: "The restaurant in this example uses courses and meal pacing to fire items in the kitchen. This example restaurant has the current configurations:"
-keywords: [workflow,course,pacing,HOLD]
+keywords: ["workflow", "course", "pacing", "HOLD"]
 procedures: 1
 codeExamples: 0
 ---

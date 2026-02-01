@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminMonitoringTicketsOtherPrepStations.md
 nextSectionTitle: "Monitoring items at other prep stations"
 externalReferences: [https://central.toasttab.com/s/article/Creating-Service-Areas-and-Table-Setup-1493049150430]
 excerpt: "An item routing rule defines a condition for an order that, if met, requires a change to the order fulfillment workflow. The conditions are the dining option of the order, or the service area."
-keywords: [item,routing,rules]
+keywords: ["item", "routing", "rules"]
 procedures: 0
 codeExamples: 0
 ---

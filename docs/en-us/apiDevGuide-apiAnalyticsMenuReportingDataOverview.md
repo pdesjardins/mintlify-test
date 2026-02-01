@@ -10,7 +10,7 @@ previousSectionTitle: "Menu reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest.md
 nextSectionTitle: "Creating a request for menu reporting data"
 excerpt: "Menu..."
-keywords: [menu,reporting,data,overview,/era/v1/menu/{timeRange},reportRequestGuid,/era/v1/menu/{requestReportGuid}]
+keywords: ["menu", "reporting", "data", "overview", "/era/v1/menu/{timeRange}", "reportRequestGuid", "/era/v1/menu/{requestReportGuid}"]
 procedures: 0
 codeExamples: 0
 ---

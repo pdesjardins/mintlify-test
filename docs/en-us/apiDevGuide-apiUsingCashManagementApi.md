@@ -10,7 +10,7 @@ previousSectionTitle: "Getting cash management information"
 nextSectionFile: apiDevGuide-apiGetCashDeposits.md
 nextSectionTitle: "Getting cash deposit entries"
 excerpt: "The entries endpoint of the cash management API returns information about the following types of cash entry:"
-keywords: [getting,cash,entries,CASH_IN,CASH_OUT,CASH_COLLECTED,TIP_OUT,NO_SALE,PAY_OUT,UNDO_PAY_OUT]
+keywords: ["getting", "cash", "entries", "CASH_IN", "CASH_OUT", "CASH_COLLECTED", "TIP_OUT", "NO_SALE", "PAY_OUT", "UNDO_PAY_OUT"]
 procedures: 0
 codeExamples: 2
 ---

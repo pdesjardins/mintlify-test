@@ -10,7 +10,7 @@ previousSectionTitle: "Pricing strategies"
 nextSectionFile: adminGuide-adminBasePrice.md
 nextSectionTitle: "Base price"
 excerpt: "When pricing your menu entities, you can choose from a variety of pricing strategies. This section describes those pricing strategies and tells you how to configure them. Each pricing strategy..."
-keywords: [pricing,strategies,overview]
+keywords: ["pricing", "strategies", "overview"]
 procedures: 0
 codeExamples: 0
 ---

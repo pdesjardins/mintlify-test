@@ -10,7 +10,7 @@ previousSectionTitle: "Using item routing rules"
 nextSectionFile: adminGuide-adminPreventingTicketsFromPrinting.md
 nextSectionTitle: "Preventing tickets from printing or displaying"
 excerpt: "In..."
-keywords: [monitoring,items,other,prep,stations]
+keywords: ["monitoring", "items", "other", "prep", "stations"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Assigning a POS button name and color"
 nextSectionFile: adminGuide-adminAssigningPrepStationsMenuBuilder.md
 nextSectionTitle: "Assigning prep stations"
 excerpt: "The..."
-keywords: [assigning,alcohol,labeling,menu,items]
+keywords: ["assigning", "alcohol", "labeling", "menu", "items"]
 procedures: 0
 codeExamples: 0
 ---

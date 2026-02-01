@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataUnderstandingData.
 previousSectionTitle: "Understanding the menu reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsPayoutReportingDataOverview.md
 nextSectionTitle: "Payout reporting data overview"
-keywords: [payout,reporting,data]
+keywords: ["payout", "reporting", "data"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Adding images to menu items"
 nextSectionFile: adminGuide-adminAssigningPOSButtonNicknameColorinMenuBuilder.md
 nextSectionTitle: "Assigning a POS button name and color"
 excerpt: "You can set the stock status for menu items to indicate whether..."
-keywords: [setting,stock,status,count,menu,items]
+keywords: ["setting", "stock", "status", "count", "menu", "items"]
 procedures: 1
 codeExamples: 0
 ---

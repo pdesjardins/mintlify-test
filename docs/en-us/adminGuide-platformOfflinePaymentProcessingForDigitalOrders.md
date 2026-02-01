@@ -10,7 +10,7 @@ previousSectionTitle: "Offline Autofire devices"
 nextSectionFile: adminGuide-platformEmployeesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 4. Employees"
 excerpt: "During a payment..."
-keywords: [offline,payment,processing,digital,orders]
+keywords: ["offline", "payment", "processing", "digital", "orders"]
 procedures: 1
 codeExamples: 0
 ---

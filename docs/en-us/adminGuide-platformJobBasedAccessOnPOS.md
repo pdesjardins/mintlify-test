@@ -10,7 +10,7 @@ previousSectionTitle: "Managing job-based access"
 nextSectionFile: adminGuide-platformPreShiftNotesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Pre-shift notes"
 excerpt: "When the job-based access setting is enabled in Toast Web, when your employee clocks into a Toast POS device, the following message appears on the timeclock screen: Please note your permissions are..."
-keywords: [accessing,jobs,toast,device]
+keywords: ["accessing", "jobs", "toast", "device"]
 procedures: 0
 codeExamples: 0
 ---

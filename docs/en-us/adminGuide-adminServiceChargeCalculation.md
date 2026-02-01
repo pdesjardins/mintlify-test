@@ -10,7 +10,7 @@ previousSectionTitle: "Service charge eligibility"
 nextSectionFile: adminGuide-adminServiceChargeCreate.md
 nextSectionTitle: "Configuring service charges"
 excerpt: "Before a service charge can be automatically applied to a check, the Toast platform has to make a variety of calculations, including the following:"
-keywords: [service,charge,calculations]
+keywords: ["service", "charge", "calculations"]
 procedures: 0
 codeExamples: 0
 ---

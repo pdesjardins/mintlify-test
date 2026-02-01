@@ -10,7 +10,7 @@ previousSectionTitle: "Refunds"
 nextSectionFile: adminGuide-adminRefundsAndVoids.md
 nextSectionTitle: "Refunds and voids"
 excerpt: "The refund process allows you to issue refunds to guests. The process is available from the Toast POS and Toast Web."
-keywords: [refund,permissions,limitations]
+keywords: ["refund", "permissions", "limitations"]
 procedures: 0
 codeExamples: 0
 ---

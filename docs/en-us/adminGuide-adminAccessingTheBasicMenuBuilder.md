@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding when to publish your menu"
 nextSectionFile: adminGuide-adminCreatingYourMenuHierarchy.md
 nextSectionTitle: "Creating your menu hierarchy"
 excerpt: "Follow the instructions below to access the menu builder."
-keywords: [accessing,menu,builder]
+keywords: ["accessing", "menu", "builder"]
 procedures: 1
 codeExamples: 0
 ---

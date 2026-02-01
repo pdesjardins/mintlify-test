@@ -10,7 +10,7 @@ previousSectionTitle: "Retry support"
 nextSectionFile: apiDevGuide-portalWebhooksReferenceOmitChunkFromSearchIndex.md
 nextSectionTitle: "Webhooks reference"
 excerpt: "The Toast platform implements message signing that allows you to validate the source of data sent to your webhook endpoint."
-keywords: [message,signing,Toast-Signature]
+keywords: ["message", "signing", "Toast-Signature"]
 procedures: 0
 codeExamples: 1
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Guest data overview"
 nextSectionFile: adminGuide-adminAddingCustomers.md
 nextSectionTitle: "Adding a guest record"
 excerpt: "You can search for a current check directly on a Toast POS device using different kinds of information, including:"
-keywords: [searching,guest,checks]
+keywords: ["searching", "guest", "checks"]
 procedures: 3
 codeExamples: 0
 ---

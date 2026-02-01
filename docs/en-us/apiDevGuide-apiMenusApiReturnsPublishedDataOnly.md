@@ -10,7 +10,7 @@ previousSectionTitle: "Menus API supports data retrieval only"
 nextSectionFile: apiDevGuide-apiEnsuringYourMenuDataIsUpToDate.md
 nextSectionTitle: "Ensuring your menu data is up-to-date"
 excerpt: "To conserve the use of system resources, the menus API service only generates the JSON that it returns when a menu-related change has been made and published. This means that:"
-keywords: [menus,returns,published,data,only]
+keywords: ["menus", "returns", "published", "data", "only"]
 procedures: 0
 codeExamples: 0
 ---

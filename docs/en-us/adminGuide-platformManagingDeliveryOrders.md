@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformOrdersHubFAQs.md
 nextSectionTitle: "FAQs"
 externalReferences: [https://central.toasttab.com/s/article/Toast-Delivery-Services-Troubleshooting-FAQ, https://central.toasttab.com/s/article/Delivery-Mode-1493048871021#DispatchDriver]
 excerpt: "The..."
-keywords: [managing,firstparty,delivery,orders,You don’t have permission to complete delivery orders or delivery orders you are not assigned to.]
+keywords: ["managing", "firstparty", "delivery", "orders", "You don’t have permission to complete delivery orders or delivery orders you are not assigned to."]
 procedures: 1
 codeExamples: 0
 ---

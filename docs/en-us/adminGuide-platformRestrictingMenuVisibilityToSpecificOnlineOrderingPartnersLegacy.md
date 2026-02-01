@@ -10,7 +10,7 @@ previousSectionTitle: "Visibility settings are not inherited"
 nextSectionFile: adminGuide-adminRequiredModifierGroupsAndVisibilitySettingsLegacy.md
 nextSectionTitle: "Required modifier groups and visibility settings"
 excerpt: "In the menu manager details pages, when you enable the Online ordering partners..."
-keywords: [restricting,menu,visibility,specific,online,ordering,partners]
+keywords: ["restricting", "menu", "visibility", "specific", "online", "ordering", "partners"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow using one expediter"
 nextSectionFile: adminGuide-platformKDSWorkflowUsingCourses.md
 nextSectionTitle: "KDS workflow using courses"
 excerpt: "The restaurant in this example uses multiple prep station KDS devices and two expediter KDS devices that must..."
-keywords: [workflow,expediters,ALSO AT]
+keywords: ["workflow", "expediters", "ALSO AT"]
 procedures: 1
 codeExamples: 0
 ---

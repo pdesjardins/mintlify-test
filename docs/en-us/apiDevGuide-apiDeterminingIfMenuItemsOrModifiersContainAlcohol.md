@@ -10,7 +10,7 @@ previousSectionTitle: "Using menus API data to submit properly formed orders"
 nextSectionFile: apiDevGuide-apiDeterminingIfAMenuEntityShouldBeVisibleOnAnOrderingPartnerSite_V2.md
 nextSectionTitle: "Determining if a menu entity should be visible on a partner integration"
 excerpt: "There are situations where additional information regarding the alcohol content of a menu item or modifier is needed to determine whether an order contains alcohol and therefore requires additional..."
-keywords: [determining,menu,item,modifier,contains,alcohol,contentAdvisories,MenuItem,ModifierOption,ContentAdvisories]
+keywords: ["determining", "menu", "item", "modifier", "contains", "alcohol", "contentAdvisories", "MenuItem", "ModifierOption", "ContentAdvisories"]
 procedures: 0
 codeExamples: 3
 ---

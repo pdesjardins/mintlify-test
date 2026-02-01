@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiGettingShiftAssignmentsForEmployees.md
 nextSectionTitle: "Getting shift assignments for employees"
 externalReferences: [https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961]
 excerpt: "To get the time entry records for the..."
-keywords: [/labor/v1/timeEntries,outDate,nonCashSales]
+keywords: ["/labor/v1/timeEntries", "outDate", "nonCashSales"]
 procedures: 0
 codeExamples: 0
 ---

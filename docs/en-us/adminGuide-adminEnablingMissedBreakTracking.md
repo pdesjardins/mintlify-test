@@ -10,7 +10,7 @@ previousSectionTitle: "Employee breaks overview"
 nextSectionFile: adminGuide-adminEnablingEmployeeBreakAcknowledgement.md
 nextSectionTitle: "Enabling employee break acknowledgement"
 excerpt: "Missed break tracking is enabled per custom break type, so you can choose to track some types of breaks and not track others. When you enable missed break tracking for a custom break, you must..."
-keywords: [enabling,missed,break,tracking]
+keywords: ["enabling", "missed", "break", "tracking"]
 procedures: 1
 codeExamples: 0
 ---

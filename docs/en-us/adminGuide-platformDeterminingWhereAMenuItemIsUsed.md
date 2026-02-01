@@ -10,7 +10,7 @@ previousSectionTitle: "Specifying a custom schedule for a menu"
 nextSectionFile: adminGuide-platformUnderstandingInheritance.md
 nextSectionTitle: "Understanding inheritance"
 excerpt: "You can use the Found in section of a menu..."
-keywords: [determining,menu,item,used]
+keywords: ["determining", "menu", "item", "used"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Refund permissions and limitations"
 nextSectionFile: adminGuide-adminIssuingARefund.md
 nextSectionTitle: "Issuing a refund"
 excerpt: "You can void items in an order until a payment is captured. After the payment is captured, you must refund the payment on the items."
-keywords: [refunds,voids]
+keywords: ["refunds", "voids"]
 procedures: 0
 codeExamples: 0
 ---

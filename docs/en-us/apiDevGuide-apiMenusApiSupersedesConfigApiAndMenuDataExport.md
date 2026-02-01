@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding the order in which modifier groups are retu
 nextSectionFile: apiDevGuide-apiGettingMenuInformationOmitChunkFromSearchIndex.md
 nextSectionTitle: "Getting menu information"
 excerpt: "The menus API supersedes the configuration API and the nightly menu JSON export for menu data retrieval. To understand the differences between these three menu retrieval mechanisms, see ."
-keywords: [menus,supersedes,configuration,menu,data,export,retrieval]
+keywords: ["menus", "supersedes", "configuration", "menu", "data", "export", "retrieval"]
 procedures: 0
 codeExamples: 0
 ---

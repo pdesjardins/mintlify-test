@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminItemRoutingOmitChunkFromSearchIndex.md
 nextSectionTitle: "Item and order routing"
 externalReferences: [https://central.toasttab.com/s/article/Send-Text-Message-when-Order-is-Fulfilled-1492800294544]
 excerpt: "This section provides procedures and information about sending text messages when an order is fulfilled."
-keywords: [text,messaging]
+keywords: ["text", "messaging"]
 procedures: 0
 codeExamples: 0
 ---

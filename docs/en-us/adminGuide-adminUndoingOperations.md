@@ -10,7 +10,7 @@ previousSectionTitle: "Toast Web cash drawer operations"
 nextSectionFile: adminGuide-adminCashDrawerLockdown.md
 nextSectionTitle: "Cash drawer lockdown"
 excerpt: "You can undo cash drawer entries from either the Toast POS device or Toast Web. For example,..."
-keywords: [undoing,cash,drawer,actions]
+keywords: ["undoing", "cash", "drawer", "actions"]
 procedures: 0
 codeExamples: 0
 ---

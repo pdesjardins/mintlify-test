@@ -10,7 +10,7 @@ previousSectionTitle: "Accessing the menu manager"
 nextSectionFile: adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages.md
 nextSectionTitle: "Menu manager and the classic menu details pages"
 excerpt: "Toast..."
-keywords: [understanding,menu,hierarchy]
+keywords: ["understanding", "menu", "hierarchy"]
 procedures: 0
 codeExamples: 0
 ---

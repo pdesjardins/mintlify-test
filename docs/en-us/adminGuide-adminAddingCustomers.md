@@ -10,7 +10,7 @@ previousSectionTitle: "Searching for guest checks"
 nextSectionFile: adminGuide-adminChangeCustomerPhone.md
 nextSectionTitle: "Updating guest information"
 excerpt: "To manually create a guest..."
-keywords: [adding,guest,record]
+keywords: ["adding", "guest", "record"]
 procedures: 1
 codeExamples: 0
 ---

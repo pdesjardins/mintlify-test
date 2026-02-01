@@ -10,7 +10,7 @@ previousSectionTitle: "Offline support"
 nextSectionFile: adminGuide-adminOfflineOnlineOrdering.md
 nextSectionTitle: "Toast Online Ordering"
 excerpt: "You can place takeout and delivery orders when..."
-keywords: [takeout,delivery,orders]
+keywords: ["takeout", "delivery", "orders"]
 procedures: 0
 codeExamples: 0
 ---

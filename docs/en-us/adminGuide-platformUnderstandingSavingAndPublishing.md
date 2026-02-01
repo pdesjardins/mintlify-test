@@ -10,7 +10,7 @@ previousSectionTitle: "Publishing center overview"
 nextSectionFile: adminGuide-platformManualAndScheduledPublishing.md
 nextSectionTitle: "Manual and scheduled publishing"
 excerpt: "To fully understand how publishing behaves on the Toast platform, you must understand the difference between saving a configuration change and publishing it. Making the changes you specify in Toast..."
-keywords: [understanding,saving,publishing]
+keywords: ["understanding", "saving", "publishing"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformAccessingShiftReview.md
 nextSectionTitle: "Accessing shift review"
 externalReferences: [https://central.toasttab.com/s/article/Customizing-Shift-Review-Settings#Require, https://central.toasttab.com/s/article/Manager-Activities-Cash-Management-1493049150424, https://central.toasttab.com/s/article/Adjusting-Your-Starting-Cash-Drawer-Balance]
 excerpt: "You configure your shift review settings in Toast Web ."
-keywords: [configuring,shift,review]
+keywords: ["configuring", "shift", "review"]
 procedures: 0
 codeExamples: 0
 ---

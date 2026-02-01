@@ -10,7 +10,7 @@ previousSectionTitle: "Location-specific prices"
 nextSectionFile: adminGuide-adminLocationSpecificPricesAndTheRestaurantGroupHierarchy.md
 nextSectionTitle: "Location-specific prices and the restaurant group hierarchy"
 excerpt: "Location-specific pricing allows you to specify different prices for a menu item based on location or restaurant group. The location-specific pricing feature eliminates the need to create additional..."
-keywords: [locationspecific,price,overview]
+keywords: ["locationspecific", "price", "overview"]
 procedures: 0
 codeExamples: 0
 ---

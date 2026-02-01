@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiGettingShiftAssignmentsForEmployees.md
 previousSectionTitle: "Getting shift assignments for employees"
 nextSectionFile: apiDevGuide-apiAddingAnEmployee.md
 nextSectionTitle: "Adding an employee"
-keywords: [updating,employee,information]
+keywords: ["updating", "employee", "information"]
 procedures: 0
 codeExamples: 0
 ---

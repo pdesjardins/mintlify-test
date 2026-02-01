@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromS
 nextSectionTitle: "Tender provider integrations"
 externalReferences: [https://jwt.io/]
 excerpt: "You can verify..."
-keywords: [Authorization]
+keywords: ["Authorization"]
 procedures: 0
 codeExamples: 2
 ---

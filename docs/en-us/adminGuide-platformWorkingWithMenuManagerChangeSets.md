@@ -10,7 +10,7 @@ previousSectionTitle: "Publishing menu manager changes"
 nextSectionFile: adminGuide-platformColumnsInTheMenuManagerViews.md
 nextSectionTitle: "Columns in the menu manager views"
 excerpt: "This section provides information on working with change sets in the menu manager:"
-keywords: [working,menu,manager,change,sets]
+keywords: ["working", "menu", "manager", "change", "sets"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Working with modifiers"
 nextSectionFile: adminGuide-platformMenuManagerMakingBulkEdits.md
 nextSectionTitle: "Making bulk edits"
 excerpt: "This section provides information about working with price levels in the menu manager. It includes:"
-keywords: [working,price,levels]
+keywords: ["working", "price", "levels"]
 procedures: 0
 codeExamples: 0
 ---

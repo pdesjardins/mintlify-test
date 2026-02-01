@@ -10,7 +10,7 @@ previousSectionTitle: "Offline payments overview"
 nextSectionFile: adminGuide-adminCompletingShiftReviewOffline.md
 nextSectionTitle: "Completing shift review offline"
 excerpt: "During offline mode, you can still take card payments. When you process a card payment in offline mode, the Toast POS app takes the card information, encrypts it, and stores it on the Toast POS..."
-keywords: [offline,card,payments]
+keywords: ["offline", "card", "payments"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Effect of discounts on prices"
 nextSectionFile: adminGuide-adminBulkDiscounts.md
 nextSectionTitle: "Bulk discounts"
 excerpt: "Whether a discount is exclusive or nonexclusive determines whether the discount can be combined with other discounts."
-keywords: [exclusive,nonexclusive,discounts]
+keywords: ["exclusive", "nonexclusive", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

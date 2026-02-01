@@ -10,7 +10,7 @@ previousSectionTitle: "Ensuring your menu data is up-to-date"
 nextSectionFile: apiDevGuide-apiMenusApiSupersedesConfigApiAndMenuDataExport.md
 nextSectionTitle: "Menus API supersedes configuration API and menu data export for menu data retrieval"
 excerpt: "The..."
-keywords: [understanding,order,modifier,groups,returned]
+keywords: ["understanding", "order", "modifier", "groups", "returned"]
 procedures: 0
 codeExamples: 0
 ---

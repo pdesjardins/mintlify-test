@@ -10,7 +10,7 @@ previousSectionTitle: "Menus API structure mirrors Toast Web structure"
 nextSectionFile: apiDevGuide-apiMenusApiSupportsDataRetrievalOnly.md
 nextSectionTitle: "Menus API supports data retrieval only"
 excerpt: "If you are using the menus API data to construct an ordering application, those orders will ultimately be..."
-keywords: [menus,data,construct,valid,orders]
+keywords: ["menus", "data", "construct", "valid", "orders"]
 procedures: 0
 codeExamples: 0
 ---

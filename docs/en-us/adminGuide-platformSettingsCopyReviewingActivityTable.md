@@ -10,7 +10,7 @@ previousSectionTitle: "Copying settings using the settings copy feature"
 nextSectionFile: adminGuide-platformPaymentsAndMoneyOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 6. Payments and money"
 excerpt: "On the Settings copy page, there is an Activity table that lists historical data for any copies you made for that management group. This table includes the following columns:"
-keywords: [reviewing,past,copies,made,settings,copy,feature]
+keywords: ["reviewing", "past", "copies", "made", "settings", "copy", "feature"]
 procedures: 0
 codeExamples: 0
 ---

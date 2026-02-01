@@ -10,7 +10,7 @@ previousSectionTitle: "How orders are created and updated"
 nextSectionFile: adminGuide-platformOrdersTrackFulfillment.md
 nextSectionTitle: "Tracking the order fulfillment"
 excerpt: "The order state reflects the payment status and whether the order is completed."
-keywords: [tracking,order,state,Open,Paid,Closed]
+keywords: ["tracking", "order", "state", "Open", "Paid", "Closed"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Viewing different versions of the same configuration enti
 nextSectionFile: adminGuide-versioningAtTheMenuGroupAndModifierGroupLevel.md
 nextSectionTitle: "Versioning at the menu group and modifier group level"
 excerpt: "As you create your enterprise's configuration in Toast Web, you should consider the individual configuration..."
-keywords: [understanding,versioning]
+keywords: ["understanding", "versioning"]
 procedures: 0
 codeExamples: 0
 ---

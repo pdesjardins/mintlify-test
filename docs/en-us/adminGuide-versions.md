@@ -10,7 +10,7 @@ previousSectionTitle: "Restaurant groups and sub-groups"
 nextSectionFile: adminGuide-targets.md
 nextSectionTitle: "Targets"
 excerpt: "To..."
-keywords: [versions]
+keywords: ["versions"]
 procedures: 0
 codeExamples: 0
 ---

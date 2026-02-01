@@ -10,7 +10,7 @@ previousSectionTitle: "Offline support"
 nextSectionFile: adminGuide-platformMultiLocationOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 5. Multiple restaurant locations"
 excerpt: "During offline mode, employees can clock in on Toast POS devices and perform many tasks, such as taking orders. Employees may also be able to clock out, depending on whether shift reviews are..."
-keywords: [employee,clockin,clockout]
+keywords: ["employee", "clockin", "clockout"]
 procedures: 0
 codeExamples: 0
 ---

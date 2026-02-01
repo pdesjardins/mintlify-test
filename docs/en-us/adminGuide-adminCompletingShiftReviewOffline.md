@@ -10,7 +10,7 @@ previousSectionTitle: "Offline card payments"
 nextSectionFile: adminGuide-adminPendingTipsWhenOffline.md
 nextSectionTitle: "Pending tips when offline"
 excerpt: "If your Toast POS device is offline, you will be unable to complete shift review. During offline mode, you are unable to:"
-keywords: [completing,shift,review,offline]
+keywords: ["completing", "shift", "review", "offline"]
 procedures: 0
 codeExamples: 0
 ---

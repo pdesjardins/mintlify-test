@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformArchiveHouseAccount.md
 nextSectionTitle: "Archiving a house account"
 externalReferences: [https://central.toasttab.com/s/article/Access-Your-Guest-Data-with-the-Guest-Report]
 excerpt: "You..."
-keywords: [creating,house,account]
+keywords: ["creating", "house", "account"]
 procedures: 3
 codeExamples: 0
 ---

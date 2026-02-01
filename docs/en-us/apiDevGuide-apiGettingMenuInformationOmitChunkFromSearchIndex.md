@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiMenusApiSupersedesConfigApiAndMenuDataExport
 previousSectionTitle: "Menus API supersedes configuration API and menu data export for menu data retrieval"
 nextSectionFile: apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2.md
 nextSectionTitle: "Determining if a restaurant's menu data has gone stale"
-keywords: [getting,menu,information]
+keywords: ["getting", "menu", "information"]
 procedures: 0
 codeExamples: 0
 ---

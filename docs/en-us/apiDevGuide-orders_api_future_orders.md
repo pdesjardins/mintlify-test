@@ -10,7 +10,7 @@ previousSectionTitle: "Providing revenue center information for an order"
 nextSectionFile: apiDevGuide-calculatingOrderWaitTime.md
 nextSectionTitle: "Calculating order wait time"
 excerpt: "When you use the..."
-keywords: [promisedDate,openedDate,opendDate]
+keywords: ["promisedDate", "openedDate", "opendDate"]
 procedures: 0
 codeExamples: 0
 ---

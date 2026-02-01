@@ -10,7 +10,7 @@ previousSectionTitle: "First-party delivery and Toast Delivery Services"
 nextSectionFile: adminGuide-adminConfigureDelivery.md
 nextSectionTitle: "Delivery settings"
 excerpt: "The Toast platform offers delivery as an option for guest orders. Toast offers two options for delivery:"
-keywords: [delivery,overview]
+keywords: ["delivery", "overview"]
 procedures: 0
 codeExamples: 0
 ---

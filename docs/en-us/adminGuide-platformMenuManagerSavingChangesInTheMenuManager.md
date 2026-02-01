@@ -10,7 +10,7 @@ previousSectionTitle: "Using search and filtering to find menu entities"
 nextSectionFile: adminGuide-adminUnderstandingWhenToPublishYourMenuMenuManager.md
 nextSectionTitle: "Understanding when to publish your menu"
 excerpt: "Saving in the menu manager works differently, depending on the view you are currently using. The following sections provide more details."
-keywords: [saving,changes,menu,manager]
+keywords: ["saving", "changes", "menu", "manager"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Chapter 8. Cash management"
 nextSectionFile: apiDevGuide-apiGettingCashManagementInformationOmitChunkFromSearchIndex.md
 nextSectionTitle: "Getting cash management information"
 excerpt: "This section provides information about using Toast APIs to perform cash management operations that get information about cash entries and cash deposits."
-keywords: [cash,management,overview]
+keywords: ["cash", "management", "overview"]
 procedures: 0
 codeExamples: 0
 ---

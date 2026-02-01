@@ -10,7 +10,7 @@ previousSectionTitle: "Requiring promo codes for discounts"
 nextSectionFile: adminGuide-adminAutoApplyDiscounts.md
 nextSectionTitle: "Automatically applying discounts"
 excerpt: "You can configure a discount to require the restaurant employee to select a discount reason. A discount reason provides additional context for the applied discount."
-keywords: [requiring,discount,reason]
+keywords: ["requiring", "discount", "reason"]
 procedures: 0
 codeExamples: 0
 ---

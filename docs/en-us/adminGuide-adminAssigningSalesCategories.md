@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminAssigningTaxRatesInMenuBuilder.md
 nextSectionTitle: "Assigning tax rates and tax behavior"
 externalReferences: [https://central.toasttab.com/s/article/Sales-Reports-Overview, https://central.toasttab.com/s/article/Menu-Report-Overview-1492794696577]
 excerpt: "The Sales Summary and other Toast reports use sales categories to create a breakdown of your sales, organized by sales category, for example, Food, Drinks, Retail, and so on."
-keywords: [assigning,sales,categories]
+keywords: ["assigning", "sales", "categories"]
 procedures: 0
 codeExamples: 0
 ---

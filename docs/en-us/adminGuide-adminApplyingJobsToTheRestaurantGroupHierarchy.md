@@ -10,7 +10,7 @@ previousSectionTitle: "Enterprise jobs and employees overview"
 nextSectionFile: adminGuide-adminAssigningRestaurantAccess.md
 nextSectionTitle: "Assigning restaurant access"
 excerpt: "Toast Web allows you to create jobs and then assign those jobs to your employees. When you create a job in an enterprise environment, you specify:"
-keywords: [applying,jobs,restaurant,group,hierarchy]
+keywords: ["applying", "jobs", "restaurant", "group", "hierarchy"]
 procedures: 0
 codeExamples: 0
 ---

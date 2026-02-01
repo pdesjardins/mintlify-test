@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformKitchenAvgFullfillmentTimer.md
 nextSectionTitle: "Understanding average fulfillment timers"
 externalReferences: [https://central.toasttab.com/s/article/Pre-Modifiers-1493068611745]
 excerpt: "Timing..."
-keywords: [firing,item,prep,time]
+keywords: ["firing", "item", "prep", "time"]
 procedures: 0
 codeExamples: 0
 ---

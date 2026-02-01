@@ -10,7 +10,7 @@ previousSectionTitle: "Updating employee information"
 nextSectionFile: apiDevGuide-apiAddingAShiftAndAssigningIt.md
 nextSectionTitle: "Adding a shift and assigning it to an employee"
 excerpt: "To add an employee to the restaurant, send a POST request to the /labor/v1/employees endpoint of the labor API ."
-keywords: [firstName,lastName,externalEmployeeId]
+keywords: ["firstName", "lastName", "externalEmployeeId"]
 procedures: 0
 codeExamples: 0
 ---

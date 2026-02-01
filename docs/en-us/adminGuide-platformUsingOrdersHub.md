@@ -10,7 +10,7 @@ previousSectionTitle: "Orders Hub overview"
 nextSectionFile: adminGuide-platformManagingDeliveryOrders.md
 nextSectionTitle: "Managing first-party delivery orders"
 externalReferences: [https://central.toasttab.com/s/article/Approving-Online-Orders-Manually-14928108550801, https://central.toasttab.com/s/article/Starting-a-Tab-1492811100378#Removing_tab_from_Guest_Checks, https://central.toasttab.com/s/article/Online-Ordering-Customize-Pickup-Instructions#Contactless_delivery, https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#payment, https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407, https://central.toasttab.com/s/article/Order-Ready-Board-Overview-Configuration, https://central.toasttab.com/s/article/Access-Your-Guest-Data-with-the-Guest-Report]
-keywords: [orders]
+keywords: ["orders"]
 procedures: 0
 codeExamples: 0
 ---

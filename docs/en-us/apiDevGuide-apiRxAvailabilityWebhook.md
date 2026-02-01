@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiRxOnlineOrderingScheduleWebhook.md
 nextSectionTitle: "Restaurant online ordering schedule webhook"
 externalReferences: [https://central.toasttab.com/s/article/Troubleshooting-your-Autofire-Device, https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407, https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode, https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407#Enabling_Order_Auto-Firing_In_Toasts_Back-end]
 excerpt: "The restaurant_availability webhook allows you to receive real-time information about a restaurant's ability to accept online orders. The restaurant_availability webhook sends a message when:"
-keywords: [restaurant_availability,restaurant_availability_toggle,eventCategory,eventType]
+keywords: ["restaurant_availability", "restaurant_availability_toggle", "eventCategory", "eventType"]
 procedures: 0
 codeExamples: 0
 ---

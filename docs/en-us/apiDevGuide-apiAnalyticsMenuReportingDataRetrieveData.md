@@ -10,7 +10,7 @@ previousSectionTitle: "Creating a request for menu reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataAggregation.md
 nextSectionTitle: "Aggregating the menu reporting data"
 excerpt: "Send a GET request to the /era/v1/menu/{reportRequestGuid} endpoint to retrieve menu reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per..."
-keywords: [retrieving,menu,reporting,data,/era/v1/menu/{reportRequestGuid}]
+keywords: ["retrieving", "menu", "reporting", "data", "/era/v1/menu/{reportRequestGuid}"]
 procedures: 0
 codeExamples: 0
 ---

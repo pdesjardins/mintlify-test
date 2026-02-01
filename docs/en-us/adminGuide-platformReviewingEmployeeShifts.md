@@ -10,7 +10,7 @@ previousSectionTitle: "Reopening a shift"
 nextSectionFile: adminGuide-performingShiftReviewWhenUsingDeviceGroups.md
 nextSectionTitle: "Performing shift review when using device groups"
 excerpt: "As a manager, you can review employee shifts on a Toast POS device. To view employee shifts, navigate to Manager Activities, and select Review Employee Shifts to open the Review Employee Shifts..."
-keywords: [reviewing,employee,shifts]
+keywords: ["reviewing", "employee", "shifts"]
 procedures: 0
 codeExamples: 0
 ---

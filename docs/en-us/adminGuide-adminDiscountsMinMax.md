@@ -10,7 +10,7 @@ previousSectionTitle: "Setting the availability date range for a discount"
 nextSectionFile: adminGuide-adminDiscountsActiveInactive.md
 nextSectionTitle: "Making a discount active or inactive"
 excerpt: "You can configure..."
-keywords: [configuring,required,minimum,maximum,check,totals]
+keywords: ["configuring", "required", "minimum", "maximum", "check", "totals"]
 procedures: 1
 codeExamples: 0
 ---

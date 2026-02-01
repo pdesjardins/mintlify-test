@@ -10,7 +10,7 @@ previousSectionTitle: "Assigning alcohol labeling to menu items"
 nextSectionFile: adminGuide-adminAssigningCourses.md
 nextSectionTitle: "Assigning courses"
 excerpt: "You use prep stations to route menu items to the appropriate stations in the kitchen..."
-keywords: [assigning,prep,stations]
+keywords: ["assigning", "prep", "stations"]
 procedures: 0
 codeExamples: 0
 ---

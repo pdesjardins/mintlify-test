@@ -10,7 +10,7 @@ previousSectionTitle: "Aggregating the labor reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu reporting data"
 excerpt: "Labor reporting data contains consistent values that appear for each active restaurant and by business date. Optionally, you can choose to aggregate the labor reporting data by either employee or..."
-keywords: [understanding,labor,reporting,data,restaurantGuid,businessDate,YYYYMMDD,regularHours,overtimeHours,totalHours]
+keywords: ["understanding", "labor", "reporting", "data", "restaurantGuid", "businessDate", "YYYYMMDD", "regularHours", "overtimeHours", "totalHours"]
 procedures: 0
 codeExamples: 0
 ---

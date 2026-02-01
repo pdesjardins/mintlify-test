@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminDiscountTypes.md
 previousSectionTitle: "Discount types"
 nextSectionFile: adminGuide-adminDiscountsDesigningDiscounts.md
 nextSectionTitle: "Designing discounts for promotions"
-keywords: [creating,updating,discounts]
+keywords: ["creating", "updating", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

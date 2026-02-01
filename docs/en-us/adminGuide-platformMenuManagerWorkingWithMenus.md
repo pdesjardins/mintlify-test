@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformMenuManagerWorkingWithMenuGroups.md
 nextSectionTitle: "Working with menu groups and subgroups"
 externalReferences: [https://central.toasttab.com/s/article/Course-Firing-Options, https://central.toasttab.com/s/article/Sales-Reports-Overview, https://central.toasttab.com/s/article/Menu-Report-Overview-1492794696577, https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering]
 excerpt: "This section provides information about working with menus in the menu manager."
-keywords: [working,menus]
+keywords: ["working", "menus"]
 procedures: 0
 codeExamples: 0
 ---

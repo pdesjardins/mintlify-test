@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-platformOrdersDetailsReportsAbout.md
 previousSectionTitle: "About the Orders and Order details reports"
 nextSectionFile: adminGuide-platformOrdersDetailsContentOverview.md
 nextSectionTitle: "Overview of the order details content"
-keywords: [displaying,filtering,reports]
+keywords: ["displaying", "filtering", "reports"]
 procedures: 0
 codeExamples: 0
 ---

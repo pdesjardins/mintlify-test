@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring an Autofire device"
 nextSectionFile: adminGuide-adminDeliveryAndTDSOmitChunkFromSearchIndex.md
 nextSectionTitle: "First-party delivery and Toast Delivery Services"
 excerpt: "When the Autofire device goes offline, approval for online orders and..."
-keywords: [reassigning,offline,autofire,device]
+keywords: ["reassigning", "offline", "autofire", "device"]
 procedures: 0
 codeExamples: 0
 ---

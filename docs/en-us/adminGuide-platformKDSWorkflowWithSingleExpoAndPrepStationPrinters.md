@@ -10,7 +10,7 @@ previousSectionTitle: "KDS workflow with routing rules"
 nextSectionFile: adminGuide-platformKdsWorkflowUsingStartQueue.md
 nextSectionTitle: "KDS workflow using start queue"
 excerpt: "The restaurant in this example only uses one expediter KDS device. The restaurant assigns items in an order to individual seats and keeps printed prep station tickets with the item in order..."
-keywords: [workflow,single,expediter,device,prep,station,printers]
+keywords: ["workflow", "single", "expediter", "device", "prep", "station", "printers"]
 procedures: 1
 codeExamples: 0
 ---

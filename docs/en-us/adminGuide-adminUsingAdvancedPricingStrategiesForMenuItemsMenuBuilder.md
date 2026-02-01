@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformMenuBuilderForMultiLocationOmitChunkFromSear
 nextSectionTitle: "Menu builder for multi-location restaurants"
 externalReferences: [https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers, https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.]
 excerpt: "Currently, the menu builder supports setting base prices, size prices, and open prices. You can use the classic menu..."
-keywords: [advanced,pricing,strategies,menu,items]
+keywords: ["advanced", "pricing", "strategies", "menu", "items"]
 procedures: 3
 codeExamples: 0
 ---

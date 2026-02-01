@@ -10,7 +10,7 @@ previousSectionTitle: "Understanding when to publish your menu"
 nextSectionFile: adminGuide-platformUnderstandingInheritanceMenuManager.md
 nextSectionTitle: "Understanding inheritance"
 excerpt: "This section provides general information that applies to all menu manager views."
-keywords: [customizing,menu,manager,views]
+keywords: ["customizing", "menu", "manager", "views"]
 procedures: 0
 codeExamples: 0
 ---

@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData
 previousSectionTitle: "Understanding the check reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataOverview.md
 nextSectionTitle: "Labor reporting data overview"
-keywords: [labor,reporting,data]
+keywords: ["labor", "reporting", "data"]
 procedures: 0
 codeExamples: 0
 ---

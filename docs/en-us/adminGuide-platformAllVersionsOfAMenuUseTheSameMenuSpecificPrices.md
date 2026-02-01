@@ -10,7 +10,7 @@ previousSectionTitle: "Menu-specific prices for multi-location restaurants"
 nextSectionFile: adminGuide-platformEachVersionOfAMenuHasItsOwnMenuSpecificPrices.md
 nextSectionTitle: "Each version of a menu has its own menu-specific prices"
 excerpt: "Configuring menu-specific prices for a menu that has multiple versions follows the same basic procedure as configuring menu-specific prices for a menu that has only one version. The only difference..."
-keywords: [versions,menu,same,menuspecific,prices]
+keywords: ["versions", "menu", "same", "menuspecific", "prices"]
 procedures: 1
 codeExamples: 0
 ---

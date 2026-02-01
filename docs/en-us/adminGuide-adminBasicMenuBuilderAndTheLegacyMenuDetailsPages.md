@@ -10,7 +10,7 @@ previousSectionTitle: "Menu builder overview"
 nextSectionFile: adminGuide-adminUnderstandingTheMenuHierarchy.md
 nextSectionTitle: "Understanding the menu hierarchy"
 excerpt: "The Toast platform currently has two workflow for menu creation, the menu builder workflow and the classic menu workflow. You access both workflows through Toast Web. The menu builder is a new,..."
-keywords: [menu,builder,classic,details,pages]
+keywords: ["menu", "builder", "classic", "details", "pages"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Labor reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest.md
 nextSectionTitle: "Creating a request for labor reporting data"
 excerpt: "Labor reporting data includes detailed information..."
-keywords: [labor,reporting,data,overview,/era/v1/labor/{timeRange},reportRequestGuid,/era/v1/labor/{reportRequestGuid}]
+keywords: ["labor", "reporting", "data", "overview", "/era/v1/labor/{timeRange}", "reportRequestGuid", "/era/v1/labor/{reportRequestGuid}"]
 procedures: 0
 codeExamples: 0
 ---

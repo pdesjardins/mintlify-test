@@ -10,7 +10,7 @@ previousSectionTitle: "Fixed rates"
 nextSectionFile: adminGuide-adminDisabledTaxRates.md
 nextSectionTitle: "Disabled rates"
 excerpt: "Some states have sales taxes that are determined using tax tables made up of tax brackets. Each tax bracket consists of a dollar amount range and an associated tax amount for all sales that fall..."
-keywords: [table,rates]
+keywords: ["table", "rates"]
 procedures: 0
 codeExamples: 0
 ---

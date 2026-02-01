@@ -10,7 +10,7 @@ previousSectionTitle: "Sequence price"
 nextSectionFile: adminGuide-adminSizeSequencePrice.md
 nextSectionTitle: "Size/sequence price"
 excerpt: "Applies to: Menu items, modifier groups, modifier item references"
-keywords: [size,price,Applies to:]
+keywords: ["size", "price", "Applies to:"]
 procedures: 0
 codeExamples: 0
 ---

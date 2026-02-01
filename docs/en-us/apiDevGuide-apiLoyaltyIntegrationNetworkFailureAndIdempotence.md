@@ -10,7 +10,7 @@ previousSectionTitle: "Latency requirements"
 nextSectionFile: apiDevGuide-apiLoyaltyIntegrationAuthentication.md
 nextSectionTitle: "Loyalty integration authentication"
 excerpt: "The..."
-keywords: [network,failure,idempotence,LOYALTY_REVERSE,Toast-Transaction-GUID,LOYALTY_ACCRUE,LOYALTY_REDEEM]
+keywords: ["network", "failure", "idempotence", "LOYALTY_REVERSE", "Toast-Transaction-GUID", "LOYALTY_ACCRUE", "LOYALTY_REDEEM"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformPreShiftNotesViewMenuItemStockStatuses.md
 nextSectionTitle: "Viewing menu item stock statuses"
 externalReferences: [https://central.toasttab.com/s/article/Get-Started-with-the-Toast-Now-App]
 excerpt: "With the staff notes feature, you..."
-keywords: [managing,staff,notes]
+keywords: ["managing", "staff", "notes"]
 procedures: 0
 codeExamples: 0
 ---

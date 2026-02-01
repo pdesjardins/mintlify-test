@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformItemsDatabaseExport.md
 nextSectionTitle: "Items database export"
 externalReferences: [https://central.toasttab.com/s/article/Using-the-Items-Database]
 excerpt: "You can use the Menus > Bulk management > Items database page in Toast Web to:"
-keywords: [items,database,overview]
+keywords: ["items", "database", "overview"]
 procedures: 0
 codeExamples: 0
 ---

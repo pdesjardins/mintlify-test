@@ -10,7 +10,7 @@ previousSectionTitle: "Versions"
 nextSectionFile: adminGuide-ownersAndPermissions.md
 nextSectionTitle: "Owners and permissions"
 excerpt: "When..."
-keywords: [targets]
+keywords: ["targets"]
 procedures: 0
 codeExamples: 0
 ---

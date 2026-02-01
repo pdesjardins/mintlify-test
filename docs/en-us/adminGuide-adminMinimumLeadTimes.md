@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminManageOrderTimeSlots.md
 nextSectionTitle: "Managing first and last online ordering time slots"
 externalReferences: [https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings]
 excerpt: "Minimum lead times determine when your guests can place an online order for takeout or delivery. For example, if you set a 24 hour lead time, guests cannot place an online order for less than 24..."
-keywords: [configuring,minimum,lead,times]
+keywords: ["configuring", "minimum", "lead", "times"]
 procedures: 0
 codeExamples: 0
 ---

@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminMarketplaceFacilitatorTaxPayments.md
 nextSectionTitle: "Marketplace facilitator tax payments"
 externalReferences: [https://central.toasttab.com/s/article/Creating-and-Assigning-Revenue-Centers]
 excerpt: "The smart tax feature allows a restaurant to specify that a menu item's price includes tax when it is ordered in one..."
-keywords: [smart]
+keywords: ["smart"]
 procedures: 1
 codeExamples: 0
 ---

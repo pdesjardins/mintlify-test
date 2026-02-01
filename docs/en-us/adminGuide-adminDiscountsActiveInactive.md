@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring required minimum and maximum check totals"
 nextSectionFile: adminGuide-adminDiscountsArchive.md
 nextSectionTitle: "Archiving and restoring discounts"
 excerpt: "When you create a new discount, the discount is active by default."
-keywords: [making,discount,active,inactive]
+keywords: ["making", "discount", "active", "inactive"]
 procedures: 0
 codeExamples: 0
 ---

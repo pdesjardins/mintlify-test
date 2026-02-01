@@ -10,7 +10,7 @@ previousSectionTitle: "Adding a kitchen printer"
 nextSectionFile: adminGuide-platformKitchenConfiguringTickets.md
 nextSectionTitle: "Configuring tickets"
 excerpt: "If you use KDS devices to display tickets, you must have the 6. Web Setup > 6.2 Kitchen / Dining Room Setup access permission to configure each device to display the tickets for a specific prep..."
-keywords: [assigning,device,prep,station]
+keywords: ["assigning", "device", "prep", "station"]
 procedures: 1
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Enabling the customer credits feature"
 nextSectionFile: adminGuide-adminAddingCustomerCreditValue.md
 nextSectionTitle: "Adding credit value"
 excerpt: "To..."
-keywords: [configuring,permissions,working,credits]
+keywords: ["configuring", "permissions", "working", "credits"]
 procedures: 0
 codeExamples: 0
 ---

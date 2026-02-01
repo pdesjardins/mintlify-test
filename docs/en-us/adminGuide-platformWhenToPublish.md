@@ -10,7 +10,7 @@ previousSectionTitle: "Which changes require publishing?"
 nextSectionFile: adminGuide-platformHowToPublish.md
 nextSectionTitle: "How to publish changes"
 excerpt: "You publish your changes when you are ready for those changes to be visible to restaurant employees and guests."
-keywords: [deciding,publish,changes]
+keywords: ["deciding", "publish", "changes"]
 procedures: 0
 codeExamples: 0
 ---

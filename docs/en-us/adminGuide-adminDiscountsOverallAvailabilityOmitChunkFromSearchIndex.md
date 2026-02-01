@@ -9,7 +9,7 @@ previousSectionFile: adminGuide-adminDiscountsMenuGroupsVaryingPrices.md
 previousSectionTitle: "Handling menu groups with varying prices"
 nextSectionFile: adminGuide-adminDiscountAvailability.md
 nextSectionTitle: "Setting the availability date range for a discount"
-keywords: [configuring,discount,availability,status]
+keywords: ["configuring", "discount", "availability", "status"]
 procedures: 0
 codeExamples: 0
 ---

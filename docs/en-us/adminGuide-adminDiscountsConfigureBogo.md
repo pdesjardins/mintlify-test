@@ -10,7 +10,7 @@ previousSectionTitle: "Configuring fixed or open amount or percent discounts"
 nextSectionFile: adminGuide-adminDiscountsConfigureCombo.md
 nextSectionTitle: "Configuring a combo discount"
 excerpt: "For a BOGO discount, you choose the required buy items, and the eligible get items. For the get items, you set the amount of the discount, and the priority for discounting the items."
-keywords: [configuring,bogo,discount]
+keywords: ["configuring", "bogo", "discount"]
 procedures: 0
 codeExamples: 0
 ---

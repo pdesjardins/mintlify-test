@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiUpdatingDeliveryInfoForAnOrder.md
 nextSectionTitle: "Updating delivery information for an order"
 externalReferences: [https://doc.toasttab.com/openapi/orders/operation/ordersOrderGuidChecksCheckGuidPaymentsPaymentGuidPatch/]
 excerpt: "You can use the orders API to update a tip, or gratuity, amount in an existing credit card payment for an order."
-keywords: [paymentStatus,AUTHORIZED]
+keywords: ["paymentStatus", "AUTHORIZED"]
 procedures: 0
 codeExamples: 0
 ---

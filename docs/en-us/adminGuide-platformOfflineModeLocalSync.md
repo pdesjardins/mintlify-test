@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-platformIntegrationsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Chapter 12. Integrations"
 externalReferences: [https://status.toasttab.com/]
 excerpt: "Offline mode..."
-keywords: [offline,mode,local,sync]
+keywords: ["offline", "mode", "local", "sync"]
 procedures: 0
 codeExamples: 0
 ---

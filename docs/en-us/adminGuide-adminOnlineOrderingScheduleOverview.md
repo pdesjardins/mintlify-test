@@ -11,7 +11,7 @@ nextSectionFile: adminGuide-adminConfigureOnlineOrderingHoursOverview.md
 nextSectionTitle: "Configuring online ordering hours"
 externalReferences: [https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#hours, https://central.toasttab.com/s/article/Getting-Started-DoorDash-Integration]
 excerpt: "The hours you configure on the Online ordering hours section determine the hours during a business day when guests can place..."
-keywords: [online,ordering,hours,overview]
+keywords: ["online", "ordering", "hours", "overview"]
 procedures: 0
 codeExamples: 0
 ---

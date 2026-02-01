@@ -10,7 +10,7 @@ previousSectionTitle: "Retrieving the menu reporting data"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataUnderstandingData.md
 nextSectionTitle: "Understanding the menu reporting data"
 excerpt: "The default way to view menu reporting data is by day for each location. You can choose to further aggregate the data by menu, menu group, menu item, or modifier. The groupBy value in the message..."
-keywords: [aggregating,menu,reporting,data,groupBy,MENU,MENU_GROUP,MENU_ITEM,MODIFIER,YYYYMMDD]
+keywords: ["aggregating", "menu", "reporting", "data", "groupBy", "MENU", "MENU_GROUP", "MENU_ITEM", "MODIFIER", "YYYYMMDD"]
 procedures: 0
 codeExamples: 5
 ---

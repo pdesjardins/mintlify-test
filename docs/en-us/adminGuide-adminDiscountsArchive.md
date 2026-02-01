@@ -10,7 +10,7 @@ previousSectionTitle: "Making a discount active or inactive"
 nextSectionFile: adminGuide-adminDiscountsApplyingOmitChunkFromSearchIndex.md
 nextSectionTitle: "Managing how discounts are applied"
 excerpt: "To remove a discount from the available discounts, you archive the discount."
-keywords: [archiving,restoring,discounts]
+keywords: ["archiving", "restoring", "discounts"]
 procedures: 0
 codeExamples: 0
 ---

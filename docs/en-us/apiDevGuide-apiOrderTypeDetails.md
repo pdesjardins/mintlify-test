@@ -11,7 +11,7 @@ nextSectionFile: apiDevGuide-apiSpecifyingModifiersAndInstructions.md
 nextSectionTitle: "Specifying modifiers and instructions for menu item selections"
 externalReferences: [https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/, https://doc.toasttab.com/openapi/configuration/operation/tablesGet/, https://doc.toasttab.com/openapi/labor/operation/employeesGet/]
 excerpt: "Some of the required order details are based on the selected dining option."
-keywords: [Order,Check,diningOption]
+keywords: ["Order", "Check", "diningOption"]
 procedures: 0
 codeExamples: 1
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Menu manager and the classic menu details pages"
 nextSectionFile: adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants.md
 nextSectionTitle: "Menu manager and multi-location restaurants"
 excerpt: "The menu manager is controlled by three permissions:"
-keywords: [menu,manager,permissions]
+keywords: ["menu", "manager", "permissions"]
 procedures: 0
 codeExamples: 0
 ---

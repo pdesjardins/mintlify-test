@@ -10,7 +10,7 @@ previousSectionTitle: "Assigning restaurant group-level permissions"
 nextSectionFile: adminGuide-adminUnderstandingMenuEditingPermissionsForEnterprises.md
 nextSectionTitle: "Understanding menu editing permissions for enterprises"
 excerpt: "For..."
-keywords: [editing,employee,information,jobs,permissions,enterprises]
+keywords: ["editing", "employee", "information", "jobs", "permissions", "enterprises"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Key enterprise concepts"
 nextSectionFile: adminGuide-adminManagementGroup.md
 nextSectionTitle: "Management group"
 excerpt: "The session restaurant is the restaurant you..."
-keywords: [session,restaurant]
+keywords: ["session", "restaurant"]
 procedures: 0
 codeExamples: 0
 ---

@@ -10,7 +10,7 @@ previousSectionTitle: "Settings and conditions that affect modifier group displa
 nextSectionFile: adminGuide-adminEnsuringImportantModifierGroupsDisplayFirst.md
 nextSectionTitle: "Ensuring important modifier groups display first"
 excerpt: "To determine the display order for a menu item's modifier groups, the Toast platform starts by inspecting the Modifier ordering priority setting on the Front of house > Order screen setup > UI..."
-keywords: [understanding,modifier,group,display,order,(Menu Group 1 > Modifier B,Required),(Menu Item X > Modifier E,Required),(Menu Group 1 > Modifier A,Optional),(Menu Subgroup 2,Modifier C,Optional),(Menu Item X > Modifier F,Optional)]
+keywords: ["understanding", "modifier", "group", "display", "order", "(Menu Group 1 > Modifier B", "Required)", "(Menu Item X > Modifier E", "Required)", "(Menu Group 1 > Modifier A", "Optional)", "(Menu Subgroup 2", "Modifier C", "Optional)", "(Menu Item X > Modifier F", "Optional)"]
 procedures: 2
 codeExamples: 6
 ---

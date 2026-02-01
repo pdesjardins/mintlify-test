@@ -10,7 +10,7 @@ previousSectionTitle: "Analytics API overview"
 nextSectionFile: apiDevGuide-apiAnalyticsScope.md
 nextSectionTitle: "Required scope for the analytics API"
 excerpt: "Retrieving the analytics data involves two steps:"
-keywords: [understanding,analytics,process,reportRequestGuid]
+keywords: ["understanding", "analytics", "process", "reportRequestGuid"]
 procedures: 0
 codeExamples: 0
 ---

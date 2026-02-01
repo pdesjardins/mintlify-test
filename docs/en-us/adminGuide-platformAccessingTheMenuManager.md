@@ -10,7 +10,7 @@ previousSectionTitle: "Menu manager overview"
 nextSectionFile: adminGuide-platformUnderstandingMenuHierarchyMenuManager.md
 nextSectionTitle: "Understanding menu hierarchy"
 excerpt: "Follow the procedure below to access the menu manager."
-keywords: [accessing,menu,manager]
+keywords: ["accessing", "menu", "manager"]
 procedures: 1
 codeExamples: 0
 ---

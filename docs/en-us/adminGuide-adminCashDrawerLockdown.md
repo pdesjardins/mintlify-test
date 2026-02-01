@@ -10,7 +10,7 @@ previousSectionTitle: "Undoing cash drawer actions"
 nextSectionFile: adminGuide-adminCashDeposits.md
 nextSectionTitle: "Cash deposits"
 excerpt: "The cash drawer lockdown feature allows employees to lock cash drawers to themselves. Once a cash drawer is locked down to an employee, only that employee can use that drawer to make transactions..."
-keywords: [cash,drawer,lockdown]
+keywords: ["cash", "drawer", "lockdown"]
 procedures: 0
 codeExamples: 0
 ---

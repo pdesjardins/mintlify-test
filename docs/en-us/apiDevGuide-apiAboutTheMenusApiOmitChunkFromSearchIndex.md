@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex.m
 previousSectionTitle: "Chapter 4. Menus"
 nextSectionFile: apiDevGuide-apiGettingMenuInformationFromTheMenusAPI.md
 nextSectionTitle: "Menus API overview"
-keywords: [about,menus]
+keywords: ["about", "menus"]
 procedures: 0
 codeExamples: 0
 ---
