@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Loyalty program integrations"
-previousSectionFile: apiDevGuide-apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Loyalty program integrations"
+previousSectionFile: apiDevGuide-apiLoyaltyProgramIntegrationOverview.md
+previousSectionTitle: "Loyalty program integration overview"
 nextSectionFile: apiDevGuide-apiLoyaltyTransactionDescriptions.md
 nextSectionTitle: "Transaction types"
 externalReferences: [https://doc.toasttab.com/openapi/loyalty/overview/]

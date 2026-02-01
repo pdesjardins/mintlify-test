@@ -23,7 +23,7 @@ Note that comping an order that has items with a fixed rate leaves the tax amoun
 
 **Procedure 6.120. To configure a fixed rate**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Settings > Manage tax rates  to open the Tax rates page.

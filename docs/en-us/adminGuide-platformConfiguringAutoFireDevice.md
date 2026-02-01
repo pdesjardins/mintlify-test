@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformAutoFireDeviceOmitChunkFromSearchIndex.md
 parentSectionTitle: "Autofiring"
-previousSectionFile: adminGuide-platformAutoFireDeviceOmitChunkFromSearchIndex.md
-previousSectionTitle: "Autofiring"
+previousSectionFile: adminGuide-platformAutoFireDeviceOverview.md
+previousSectionTitle: "Autofiring overview"
 nextSectionFile: adminGuide-platformReassigningAnAutoFireDevice.md
 nextSectionTitle: "Reassigning an offline Autofire device"
 externalReferences: [https://central.toasttab.com/s/article/Double-Printing?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web, https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407#using_thresholds_and_minimums, https://central.toasttab.com/s/article/Device-Groups]
@@ -27,7 +27,7 @@ codeExamples: 0
 
 **Procedure 3.25. To configure an Autofire device in Toast Web**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Takeout & delivery > Availability > Online ordering to open the Online ordering page.
@@ -55,7 +55,7 @@ codeExamples: 0
 
 **Procedure 3.26. To change your Autofire device in Toast Web**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Takeout & delivery > Availability > Online ordering to open the Online ordering page.

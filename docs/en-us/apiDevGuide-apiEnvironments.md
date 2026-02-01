@@ -54,7 +54,7 @@ Use the link below to download the Toast POS app installer. Use the installer ve
 
 > **Note**
 > 
-> Sandbox environment access is limited to partner and custom integrations. Standard API access and analytics API access are only available in the production environment. For more information, see [Integration types](portalDevGettingStartedOmitChunkFromSearchIndex.html#apiIntegrationTypes).
+> Sandbox environment access is limited to partner and custom integrations. Standard API access and analytics API access are only available in the production environment. For more information, see [Integration types](apiIntegrationTypes.html).
 
 
 #### Production environment

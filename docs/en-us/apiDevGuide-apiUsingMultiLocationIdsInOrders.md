@@ -24,7 +24,7 @@ To do this, you can provide either:
 - The unique `guid` assigned to each menu entity. You can see examples of that in [Order details based on the order dining option](apiOrderTypeDetails.html) and [Specifying modifiers and instructions for menu item selections](apiSpecifyingModifiersAndInstructions.html).
 
 
-- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "[enterprise module](platformMultiLocationOmitChunkFromSearchIndex.html#sharingMenusAndOtherInformationAmongRestaurants)").
+- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "[enterprise module](sharingMenusAndOtherInformationAmongRestaurants.html)").
 
 
 

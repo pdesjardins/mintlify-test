@@ -5,8 +5,8 @@ type: document
 documentId: adminGuide
 parentSectionFile: adminGuide-index.md
 parentSectionTitle: "Platform guide"
-previousSectionFile: adminGuide-devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Chapter 14. UI options"
+previousSectionFile: adminGuide-adminUiOptionsReference.md
+previousSectionTitle: "UI options settings"
 externalReferences: [https://central.toasttab.com/s/article/Tip-Withholding, https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670, https://central.toasttab.com/s/article/Replacing-Faulty-Hardware-RMA]
 procedures: 0
 codeExamples: 0
@@ -199,7 +199,7 @@ Restaurant managers can enable this feature using the Employees > Payroll manage
 **Customer credit**
 : A type of promotion that guests can redeem for a future purchase. Example: a guest has an excessive wait for a reserved table and then receives the wrong order. You give them an immediate discount on their meal, and also give them credit toward their next visit.
 
-You can add customer credit (also called guest credit or store credit) to a guest's online record on a Toast POS device. Customer credits are deducted from net sales when they are redeemed. For more information, see [Guest credit overview](adminCustomerCreditsOmitChunkFromSearchIndex.html#adminGuestCreditOverview).
+You can add customer credit (also called guest credit or store credit) to a guest's online record on a Toast POS device. Customer credits are deducted from net sales when they are redeemed. For more information, see [Guest credit overview](adminGuestCreditOverview.html).
 
 
 
@@ -292,7 +292,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 **Gratuity**
-: A type of [*service charge*](adminGuide-adminGlossary.html#glossServiceCharge) that is determined by the restaurant and included in a guest's bill. After collection by the restaurant, gratuities are paid out to the employee (typically a server, bartender, or delivery driver) responsible for the check. Example: the restaurant adds an 18% gratuity to the bill for parties of six or more people dining in. For more information, see [Service charge overview](adminServiceChargesOmitChunkFromSearchIndex.html#adminServiceChargeOverview). See also [*Auto-gratuity*](adminGuide-adminGlossary.html#glossAutoGratuity) and [*Tip*](adminGuide-adminGlossary.html#glossTip).
+: A type of [*service charge*](adminGuide-adminGlossary.html#glossServiceCharge) that is determined by the restaurant and included in a guest's bill. After collection by the restaurant, gratuities are paid out to the employee (typically a server, bartender, or delivery driver) responsible for the check. Example: the restaurant adds an 18% gratuity to the bill for parties of six or more people dining in. For more information, see [Service charge overview](adminServiceChargeOverview.html). See also [*Auto-gratuity*](adminGuide-adminGlossary.html#glossAutoGratuity) and [*Tip*](adminGuide-adminGlossary.html#glossTip).
 
 
 
@@ -455,7 +455,7 @@ For more information, see [Routing items to a virtual prep station](adminPrevent
 
 
 **Offline payments**
-: Payments that are taken while the Toast device is experiencing a network disruption or Toast outage resulting in [Offline mode](devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex.html#adminOfflineModeOverview). Payments taken during Offline mode are authorized and processed once connectivity is restored.
+: Payments that are taken while the Toast device is experiencing a network disruption or Toast outage resulting in [Offline mode](adminOfflineModeOverview.html). Payments taken during Offline mode are authorized and processed once connectivity is restored.
 
 
 
@@ -513,7 +513,7 @@ For Toast platform configuration, a prep station identifies the location of a To
 
 
 **Production item**
-: An ingredient or component that is used by multiple menu items or modifiers. You can set up production items in the Toast platform on a KDS device to help line cooks and expediters monitor how many of that ingredient or component need to be prepared to fulfill current orders. For more information, see [About production items](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAboutProdItems).
+: An ingredient or component that is used by multiple menu items or modifiers. You can set up production items in the Toast platform on a KDS device to help line cooks and expediters monitor how many of that ingredient or component need to be prepared to fulfill current orders. For more information, see [About production items](adminAssignPrepStationKDS.html#adminAboutProdItems).
 
 
 
@@ -563,7 +563,7 @@ For Toast platform configuration, a prep station identifies the location of a To
 **Seat**
 : For a guest who is dining in, their seat identifies their physical location at a table in the restaurant or bar. Seats are typically numbered to assure servers can efficiently deliver items to the guests who ordered them.
 
-For table service orders, servers can include each guest's seat number. For more information about how to configure this option, see [???](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#adminOrderScreenRef).
+For table service orders, servers can include each guest's seat number. For more information about how to configure this option, see [???](adminUiOptionsReference.html#adminOrderScreenRef).
 
 
 
@@ -583,7 +583,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Service charge**
-: A fee determined by the restaurant and included in a guest's bill. In the Toast platform, a service charge can either be paid to the restaurant and included in [*net sales*](adminGuide-adminGlossary.html#glossNetSales) as a non-gratuity service charge, or paid to the employee (such as a server, bartender, or driver) on the check as a gratuity. For more information, see [Service charge overview](adminServiceChargesOmitChunkFromSearchIndex.html#adminServiceChargeOverview). See also [*Gratuity*](adminGuide-adminGlossary.html#glossGratuity).
+: A fee determined by the restaurant and included in a guest's bill. In the Toast platform, a service charge can either be paid to the restaurant and included in [*net sales*](adminGuide-adminGlossary.html#glossNetSales) as a non-gratuity service charge, or paid to the employee (such as a server, bartender, or driver) on the check as a gratuity. For more information, see [Service charge overview](adminServiceChargeOverview.html). See also [*Gratuity*](adminGuide-adminGlossary.html#glossGratuity).
 
 
 
@@ -644,7 +644,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Toast Web**
-: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup > Other Setup). For more information, see [Using Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup > Other Setup). For more information, see [Using Toast Web](adminAccessToastAdminBackend.html).
 
 
 
@@ -654,12 +654,12 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Toast POS home screen**
-: On a Toast POS device, the page that provides access to features other than the device's primary mode. The [access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions) assigned to the current user determine the set of features that are available on this page. For more information, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html).
+: On a Toast POS device, the page that provides access to features other than the device's primary mode. The [access permissions](adminPermissions.html) assigned to the current user determine the set of features that are available on this page. For more information, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html).
 
 
 
 **Toast platform**
-: The Toast point of sale (POS) product, which includes the Toast POS app, Toast restaurant hardware, Toast Web, and other restaurant workflow functionality. For more information, see [Toast platform overview](platformGettingStartedOmitChunkFromSearchIndex.html#platformToastPlatformOverview).
+: The Toast point of sale (POS) product, which includes the Toast POS app, Toast restaurant hardware, Toast Web, and other restaurant workflow functionality. For more information, see [Toast platform overview](platformToastPlatformOverview.html).
 
 
 

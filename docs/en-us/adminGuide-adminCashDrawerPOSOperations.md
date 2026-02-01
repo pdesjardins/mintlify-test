@@ -367,7 +367,7 @@ You can configure no sale reasons in Toast Web.
 
 **Procedure 6.39. To configure a no sale reason**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Transactions & refunds > No sale reasons to open the No sale reasons page. You can also configure no sale reasons from Payments > Payment methods > Cash overview > Payout and no sale reasons page.
@@ -515,7 +515,7 @@ To view and set the starting balance or reset balance type for individual cash d
 
 **Procedure 6.42. To configure a new starting balance for all cash drawers**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Payment methods > Cash overview > View cash drawers to open the Cash drawers page.

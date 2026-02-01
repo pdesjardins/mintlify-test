@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformHouseAccountsOmitChunkFromSearchIndex.md
 parentSectionTitle: "House accounts"
-previousSectionFile: adminGuide-platformHouseAccountsOmitChunkFromSearchIndex.md
-previousSectionTitle: "House accounts"
+previousSectionFile: adminGuide-platformHouseAccountsOverview.md
+previousSectionTitle: "House accounts overview"
 nextSectionFile: adminGuide-platformCreateNewHouseAccounts.md
 nextSectionTitle: "Creating a house account"
 excerpt: "You can view your active and archived house accounts in Toast Web. Go to Payments > Payment methods > House accounts to open the Accounts page. On the Accounts page, you can view the following..."

@@ -62,10 +62,10 @@ For more information about the endpoint used in this process, see the [/delivery
 
 **Procedure 2.8. To update the delivery information for an existing order**
 
-1. Locate the Toast platform GUID for the order you are updating. For more information on locating an order GUID see [Finding an order or check GUID](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersFindingAnOrderGuid).
+1. Locate the Toast platform GUID for the order you are updating. For more information on locating an order GUID see [Finding an order or check GUID](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersFindingAnOrderGuid).
 
 
-2. If you plan to update an order's `deliveryEmployee`field, locate the Toast platform GUID of the employee to assign as the delivery driver. For information on retrieving employee details, see [Getting all employees of a restaurant](apiEmployeeInformationOmitChunkFromSearchIndex.html#api-get-all-employees).
+2. If you plan to update an order's `deliveryEmployee`field, locate the Toast platform GUID of the employee to assign as the delivery driver. For information on retrieving employee details, see [Getting all employees of a restaurant](api_get_all_employees.html).
 
 
 3. Create a JSON `DeliveryInfo` object that contains the delivery information you want to update. For the list of values you can modify see [Delivery values](apiUpdatingDeliveryInfoForAnOrder.html#apiDeliveryInfoValues).

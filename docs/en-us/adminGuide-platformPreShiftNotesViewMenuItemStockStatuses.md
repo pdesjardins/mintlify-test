@@ -30,7 +30,7 @@ You can access the Pre-shift notes screen on the Toast POS app by navigating to 
 
 ![Shows menu item statuses on the Pre-shift screen on a Toast POS device.](https://doc.toasttab.com/doc/media/pre-shift-notes-today-shift-stock-update.png)
 
-To change a menu item’s inventory status on Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOmitChunkFromSearchIndex.html#adminMenuItemInventoryOverview). You can change a menu item’s inventory from the [menu item’s details page](adminInventoryUpdateBackend.html), or by entering the [Quick Edit mode](adminInventoryUpdateQuickEdit.html) on any order screen on the Toast POS.
+To change a menu item’s inventory status on Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOverview.html). You can change a menu item’s inventory from the [menu item’s details page](adminInventoryUpdateBackend.html), or by entering the [Quick Edit mode](adminInventoryUpdateQuickEdit.html) on any order screen on the Toast POS.
 
 #### Displaying low and out of stock items
 
@@ -38,7 +38,7 @@ You can choose to automatically display a summary of low and out of stock menu i
 
 **Procedure 4.12. To enable displaying of low and out of stock items**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Front of house > Pre-shift notesand toggle the Menu item stock setting to On.

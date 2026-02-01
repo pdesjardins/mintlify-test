@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminCashManagementOmitChunkFromSearchIndex.md
 parentSectionTitle: "Cash management"
-previousSectionFile: adminGuide-adminCashManagementOmitChunkFromSearchIndex.md
-previousSectionTitle: "Cash management"
+previousSectionFile: adminGuide-adminCashManagementOverview.md
+previousSectionTitle: "Cash management overview"
 nextSectionFile: adminGuide-adminCashDrawers.md
 nextSectionTitle: "Cash drawers"
 excerpt: "Cash drawers are physically attached to printers. When employees perform actions that require cash transactions, the Toast platform opens the cash drawer."
@@ -44,7 +44,7 @@ You need the Web Setup > 6.10 Printer and Cash Drawer Setup permission to config
 
 **Procedure 6.28. To configure a new cash drawer**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Payment methods > Cash overview > Cash drawers > View cash drawers to open the Cash drawers page.
@@ -112,7 +112,7 @@ Restaurants typically use one of two modes for how employees (such as servers or
 
 Based on the needs of the restaurant (such as for job roles or revenue centers), a restaurant can use both modes. For example, bartenders could use the cash in drawer mode, while servers could use cash in hand.
 
-An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](platformEmployeesOmitChunkFromSearchIndex.html#permissionApplyCashPayments)permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
+An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](adminPermissions.html#permissionApplyCashPayments)permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
 
 **Procedure 6.29. To configure a Toast POS device for a cash drawer mode**
 

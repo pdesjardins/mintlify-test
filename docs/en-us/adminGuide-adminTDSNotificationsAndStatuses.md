@@ -61,5 +61,5 @@ The Orders Hub displays various statuses that show the fulfillment progress for 
 
 
 
-For more information about TDS statuses, see [Toast Delivery Services statuses](platformOffPremiseDiningOmitChunkFromSearchIndex.html#platformTDSStatusReference).
+For more information about TDS statuses, see [Toast Delivery Services statuses](platformManagingDeliveryOrders.html#platformTDSStatusReference).
 

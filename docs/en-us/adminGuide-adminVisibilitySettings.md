@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminMenuVisibilityOmitChunkFromSearchIndex.md
 parentSectionTitle: "Menu visibility"
-previousSectionFile: adminGuide-adminMenuVisibilityOmitChunkFromSearchIndex.md
-previousSectionTitle: "Menu visibility"
+previousSectionFile: adminGuide-adminMenuVisibilityOverview.md
+previousSectionTitle: "Visibility overview"
 nextSectionFile: adminGuide-platformVisibilitySettingsAreNotInherited.md
 nextSectionTitle: "Visibility settings are not inherited"
 externalReferences: [https://central.toasttab.com/s/article/How-to-Send-an-Invoice, https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events, https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering]
@@ -36,7 +36,7 @@ These settings are available on the details pages for menus, menu groups, menu i
 *For menus only*: Two blue banners appear on the classic menu details page, one at the top of the page and a second above the visibility settings. These banners provide links to the menu's details page in the menu manager tool and to the Third party ordering page, respectively. Both of these pages provide additional settings that let you control which specific online ordering partners the menu is visible to. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash. The online ordering partner-specific settings are only available on menus. For more information, see [Restricting menu visibility to specific online ordering partners](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html).
 
 
-- In the Channel visibility section of the [menu manager](platformMenuManagerOmitChunkFromSearchIndex.html#platformBulkMenuManagerOverview) side panel:
+- In the Channel visibility section of the [menu manager](platformBulkMenuManagerOverview.html) side panel:
 
 ![The Channel visibility settings on a menu manager page.](https://doc.toasttab.com/doc/media/menu-builder-channel-visibility-deselected-channels.png)
 
@@ -75,7 +75,7 @@ The following table describes the visibility settings in more detail.
 - Configuring the menus and menu groups that guests can see when placing online catering orders. For information, see this [Toast Central article](https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering).
 
 Note that this setting is always enabled for all menu entities and cannot be changed. | 
-| Digital menu board | [Not available] | Available for menus only. The menu is visible on a Delphi digital menu board. Defaults to Off.This setting only appears for restaurants that have a Delphi digital menu board. For more information, see [Creating a menu for a Delphi digital menu board](adminMenusForDigitalMenuBoardsOmitChunkFromSearchIndex.html#platformCreatingAMenuForADigitalMenuBoard). | 
+| Digital menu board | [Not available] | Available for menus only. The menu is visible on a Delphi digital menu board. Defaults to Off.This setting only appears for restaurants that have a Delphi digital menu board. For more information, see [Creating a menu for a Delphi digital menu board](platformCreatingAMenuForADigitalMenuBoard.html). | 
 | Websites View-Only | [Not available] | Available for menus only. A read-only version of the menu is visible on your Toast website. Defaults to Off.This setting only appears for restaurants that have Digital Storefront Pro. | 
 
 In addition to the visibility settings described above, the Third party ordering page allows you to specify the menus that are visible to an online ordering partner while you configure other aspects of how your restaurant interacts with that partner. In the illustration below, the DRINKS, DINNER, and HAPPY HOUR menus are visible to DoorDash.

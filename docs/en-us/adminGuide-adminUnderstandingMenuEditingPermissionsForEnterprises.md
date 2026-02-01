@@ -37,7 +37,7 @@ There are three levels of menu editing permissions possible with the Toast platf
 - Rearranging the order of menu items or modifiers in their containing groups.
 
 
-- Specifying [location-specific pricing](adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.html#adminLocationSpecificPriceOverview) for menu items.
+- Specifying [location-specific pricing](adminLocationSpecificPriceOverview.html) for menu items.
 
 
 

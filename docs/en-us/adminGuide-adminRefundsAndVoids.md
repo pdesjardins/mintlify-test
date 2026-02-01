@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminRefundsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Refunds"
-previousSectionFile: adminGuide-adminRefundsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Refunds"
+previousSectionFile: adminGuide-adminRefundPermissionsLimitations.md
+previousSectionTitle: "Refund permissions and limitations"
 nextSectionFile: adminGuide-adminIssuingARefund.md
 nextSectionTitle: "Issuing a refund"
 excerpt: "You can void items in an order until a payment is captured. After the payment is captured, you must refund the payment on the items."

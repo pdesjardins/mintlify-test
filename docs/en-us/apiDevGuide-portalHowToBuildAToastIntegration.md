@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex.md
 parentSectionTitle: "General Toast API information"
-previousSectionFile: apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex.md
-previousSectionTitle: "General Toast API information"
+previousSectionFile: apiDevGuide-apiUsingRestApis.md
+previousSectionTitle: "Using REST APIs"
 nextSectionFile: apiDevGuide-apiUpdatesEmailDistributionList.md
 nextSectionTitle: "API status and updates"
 excerpt: "Welcome to the Toast integration community! Here's how to get started building your Toast integration. We look forward to seeing what you build!"
@@ -38,7 +38,7 @@ For more information, see [Integration partnership process](integrationDevProces
 
 ##### Get an authentication token
 
-Use [these instructions](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token) to use the authentication API to get your first authentication token.
+Use [these instructions](authentication.html#getting-authentication-token) to use the authentication API to get your first authentication token.
 
 ##### Refresh your authentication token
 
@@ -50,7 +50,7 @@ For more information, see [Refreshing authentication tokens](apiAuthTokenRefresh
 
 ##### If you use a [partner API client](apiClientAccounts.html#apiPartnerApiClientAccounts)
 
-Contact the Toast integrations team with your URL for the [partners webhook](apiPartnersGettingAccessibleRestaurants.html#apiGettingRestaurantAccessUpdatesFromPartnersWebhook). Review the [webhook documentation](portalWebhooksOmitChunkFromSearchIndex.html#apiWebhookBasics).
+Contact the Toast integrations team with your URL for the [partners webhook](apiPartnersGettingAccessibleRestaurants.html#apiGettingRestaurantAccessUpdatesFromPartnersWebhook). Review the [webhook documentation](apiWebhookBasics.html).
 
 Use this webhook to receive real-time notifications when:
 
@@ -69,7 +69,7 @@ In addition, poll the `/restaurants` endpoint of the [partners API](apiPartnersG
 
 ##### If you use a [restaurant management group API client](apiClientAccounts.html#apiRestaurantManagementGroupApiAccounts)
 
-Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiGettingRestaurantInfoOmitChunkFromSearchIndex.html#apiRestaurantsInGroup) a list of all restaurants in your restaurant management group.
+Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiRestaurantsInGroup.html) a list of all restaurants in your restaurant management group.
 
 You get the restaurant GUID and the restaurant group GUID from the Toast integrations team when you begin to build your integration.
 

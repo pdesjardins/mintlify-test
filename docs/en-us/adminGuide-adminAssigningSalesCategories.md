@@ -70,7 +70,7 @@ On the details page for a menu, menu group, or menu item, select Reporting. In t
 
 Alternatively, you can:
 
-- [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 - Switch to the restaurant you want to create courses for.

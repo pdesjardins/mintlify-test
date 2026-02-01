@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminTrackingMissedBreaksAndAcknowledgingBreaksOmitChunkFromSearchIndex.md
 parentSectionTitle: "Tracking missed breaks and acknowledging breaks"
-previousSectionFile: adminGuide-adminTrackingMissedBreaksAndAcknowledgingBreaksOmitChunkFromSearchIndex.md
-previousSectionTitle: "Tracking missed breaks and acknowledging breaks"
+previousSectionFile: adminGuide-portalEmployeeBreaksOverview.md
+previousSectionTitle: "Employee breaks overview"
 nextSectionFile: adminGuide-adminEnablingEmployeeBreakAcknowledgement.md
 nextSectionTitle: "Enabling employee break acknowledgement"
 excerpt: "Missed break tracking is enabled per custom break type, so you can choose to track some types of breaks and not track others. When you enable missed break tracking for a custom break, you must..."
@@ -39,7 +39,7 @@ Missed breaks are logged in the Break entriesreport, described in [Viewing emplo
 
 **Procedure 4.21. To enable missed break tracking**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Switch to the restaurant you want to configure.

@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-workingWithVersionsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Versions"
-previousSectionFile: adminGuide-workingWithVersionsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Versions"
+previousSectionFile: adminGuide-creatingAVersionOfAConfigurationEntity.md
+previousSectionTitle: "Creating a version of a configuration entity"
 nextSectionFile: adminGuide-understandingHowAndWhenToUseVersioning.md
 nextSectionTitle: "Understanding how and when to use versioning"
 excerpt: "Because they share data, versions are tightly coupled to each other and, as you work with versions, you need to be aware when other versions exist. You can tell when other versions exist on both the..."

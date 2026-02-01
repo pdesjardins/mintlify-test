@@ -5,8 +5,8 @@ type: section
 documentId: devCookbook
 parentSectionFile: devCookbook-cookbookAnalyticsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Reports"
-previousSectionFile: devCookbook-cookbookAnalyticsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Reports"
+previousSectionFile: devCookbook-apiIntegrationChecklistTemplate.md
+previousSectionTitle: "Building an Analytics integration"
 nextSectionFile: devCookbook-apiIntegrationChecklistAccounting.md
 nextSectionTitle: "Building a sales report"
 externalReferences: [https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961, https://doc.toasttab.com/openapi/labor/overview/, https://central.toasttab.com/s/article/Tip-Withholding]
@@ -45,7 +45,7 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ##### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devPortalCookbookHowToOmitChunkFromSearchIndex.html#apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
 ##### Decide what information your reports will provide
 
@@ -81,9 +81,9 @@ The steps below describe how to extract the following labor data:
 
 If a restaurant begins to use your integration after they are already live on the Toast platform, you must map the existing employees and jobs in the Toast platform to employees and jobs in your service.
 
-Consider doing an [initial employee load](apiEmployeeInformationOmitChunkFromSearchIndex.html#api-get-all-employees) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field to map employees in the Toast platform to employees in your service.
+Consider doing an [initial employee load](api_get_all_employees.html) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field to map employees in the Toast platform to employees in your service.
 
-Use the `/jobs` endpoint of the labor API to load initial job information. See [the labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification. If your integration allows restaurants to create employees in your platform and submit this information to the Toast platform, see [Building an employee management integration](cookbookEmployeesOmitChunkFromSearchIndex.html#apiIntegrationChecklistEmployee).
+Use the `/jobs` endpoint of the labor API to load initial job information. See [the labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification. If your integration allows restaurants to create employees in your platform and submit this information to the Toast platform, see [Building an employee management integration](apiIntegrationChecklistEmployee.html).
 
 ##### Set up recurring retrieval of employees, jobs, and configuration information
 
@@ -105,13 +105,13 @@ To report on labor information, you need to retrieve transactional information f
 
 Use the following endpoints to retrieve transactional information:
 
-- If you report on hours worked or breaks taken, retrieve yesterday's time entries using the `modifiedStartDate`and `modifiedEndDate` parameters of the `/timeEntries` endpoint of the labor API. See [Getting time entries for employees](apiEmployeeInformationOmitChunkFromSearchIndex.html#apiGettingTimeEntriesForEmployees) for more information.
+- If you report on hours worked or breaks taken, retrieve yesterday's time entries using the `modifiedStartDate`and `modifiedEndDate` parameters of the `/timeEntries` endpoint of the labor API. See [Getting time entries for employees](apiGettingTimeEntriesForEmployees.html) for more information.
 
 
-- If you report on shift clock-in timeliness, retrieve yesterday's shifts using the `startDate` and `endDate` parameters of the `/shifts` endpoint of the labor API. See [Getting shift assignments for employees](apiEmployeeInformationOmitChunkFromSearchIndex.html#apiGettingShiftAssignmentsForEmployees) for more information.
+- If you report on shift clock-in timeliness, retrieve yesterday's shifts using the `startDate` and `endDate` parameters of the `/shifts` endpoint of the labor API. See [Getting shift assignments for employees](apiGettingShiftAssignmentsForEmployees.html) for more information.
 
 
-- If you report on sales or tips per employee, retrieve yesterday's orders using the `startDate` and `endDate` parameters of the `/ordersBulk`endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+- If you report on sales or tips per employee, retrieve yesterday's orders using the `startDate` and `endDate` parameters of the `/ordersBulk`endpoint of the orders API. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
 
 

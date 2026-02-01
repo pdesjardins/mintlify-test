@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Tender provider integrations"
-previousSectionFile: apiDevGuide-apiBuildingATenderProviderIntegrationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Tender provider integrations"
+previousSectionFile: apiDevGuide-apiTenderProviderIntegrationsOverview.md
+previousSectionTitle: "Tender provider integrations overview"
 nextSectionFile: apiDevGuide-apiTenderScanToPay.md
 nextSectionTitle: "Scan-to-pay"
 externalReferences: [https://doc.toasttab.com/tenderapidraftdoc/apiTenderApiReference.html#/definitions/Check]

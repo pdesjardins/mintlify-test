@@ -22,7 +22,7 @@ For more information on using Toast APIs, see:
 - [API status and updates](apiUpdatesEmailDistributionList.html)
 
 
-- [Authentication return data for a restaurant management group API client](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant)
+- [Authentication return data for a restaurant management group API client](authentication.html#apiAuthenticationReturnDataRestaurant)
 
 
 - [Example API requests](apiExampleRequests.html)

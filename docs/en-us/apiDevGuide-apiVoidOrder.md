@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex.md
 parentSectionTitle: "Updating order information"
-previousSectionFile: apiDevGuide-portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex.md
-previousSectionTitle: "Updating order information"
+previousSectionFile: apiDevGuide-apiCreatingOrders.md
+previousSectionTitle: "Creating orders"
 nextSectionFile: apiDevGuide-apiUsingMultiLocationIdsInOrders.md
 nextSectionTitle: "Using multi-location IDs in orders"
 externalReferences: [https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/]
@@ -32,7 +32,7 @@ You might want to void an order if:
 
 
 
-When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/`{guid}``and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/`{guid}``and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 
 Voided orders can also be found in the Orders and Order details reports in Toast Web.
 
@@ -88,7 +88,7 @@ To void an order, ensure the following:
 - Your API client must have the `orders.channel:void`scope. For more information about scopes, see [Scopes](apiScopes.html).
 
 
-- The order was placed using an Other payment option and not with a cash or card payment. For more information about other payment options, see [Other payment workflows](platformPaymentsAndMoneyOmitChunkFromSearchIndex.html#platformPwfOther).
+- The order was placed using an Other payment option and not with a cash or card payment. For more information about other payment options, see [Other payment workflows](platformPwfTenders.html#platformPwfOther).
 
 
 - The order is not already voided or deleted.
@@ -100,7 +100,7 @@ To void an order, ensure the following:
 - The order is not restricted. For more information about restricted orders, see [Working with restricted orders](adminViewingRestrictedOrders.html).
 
 
-- You are using the same `clientId` in your [authentication](authenticationOmitChunkFromSearchIndex.html#authentication) that was used to create the original order with the orders API.
+- You are using the same `clientId` in your [authentication](authentication.html) that was used to create the original order with the orders API.
 
 
 
@@ -205,7 +205,7 @@ If your restaurant uses a kitchen display system (KDS) voided orders still show 
 
 Currently, the orders API `void` endpoint supports voiding orders with the following payment types.
 
-- Other payment types.: The Other payment is a custom payment type you can configure to meet additional needs. For more information about Other payment types, see [Other payment workflows](platformPaymentsAndMoneyOmitChunkFromSearchIndex.html#platformPwfOther).
+- Other payment types.: The Other payment is a custom payment type you can configure to meet additional needs. For more information about Other payment types, see [Other payment workflows](platformPwfTenders.html#platformPwfOther).
 
 If you try to void an order that has a payment type that is not an Other payment type, such as cash or card, you see the following 400 error response:
 

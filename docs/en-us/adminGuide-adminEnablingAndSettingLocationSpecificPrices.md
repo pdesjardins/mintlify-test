@@ -28,7 +28,7 @@ You must enable location-specific pricing on the details page for a menu item. A
 
 **Procedure 5.6. To enable location-specific pricing for a menu item**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.

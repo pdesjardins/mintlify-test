@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-authenticationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Authentication"
-previousSectionFile: apiDevGuide-authenticationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Authentication"
+previousSectionFile: apiDevGuide-authentication.md
+previousSectionTitle: "Authentication and restaurant access"
 nextSectionFile: apiDevGuide-apiAuthenticationRateLimit.md
 nextSectionTitle: "Authentication rate limit"
 excerpt: "The exp value encoded in the accessToken within the authentication token response indicates the UNIX time when the token will expire; UNIX time represents the number of seconds past 1970-01-01..."

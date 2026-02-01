@@ -33,5 +33,5 @@ Try to request no more than one or two authentication tokens per day.
 
 
 The length of time that an authentication token is valid depends on the Toast API environment you are using. The `expires_in` value in the JSON return data from the user management API indicates the length of time, in seconds, that the token is valid. For example, if the return data for an authentication token request includes the value `"expires_in":
-  3599` you can reuse the authentication token for approximately one hour. For more information about the return data from the user management system, see [Getting an authentication token](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token).
+  3599` you can reuse the authentication token for approximately one hour. For more information about the return data from the user management system, see [Getting an authentication token](authentication.html#getting-authentication-token).
 

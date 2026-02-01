@@ -21,7 +21,7 @@ When you no longer need a version, you can archive it. Archiving a version remov
 
 **Procedure 5.5. To archive a version of a configuration entity**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. View the details page for the configuration entity you want to archive.

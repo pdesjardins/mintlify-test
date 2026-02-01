@@ -22,7 +22,7 @@ You can create a single or multiple house accounts on the Accounts page in Toast
 
 **Procedure 6.92. To create a single house account**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Payments > Payment methods > House accounts to open the Accountspage.
@@ -66,7 +66,7 @@ You can create a single or multiple house accounts on the Accounts page in Toast
 
 **Procedure 6.93. To create multiple house accounts**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Payments > Payment methods > House accounts to open the Accountspage.

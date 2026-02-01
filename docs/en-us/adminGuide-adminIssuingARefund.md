@@ -61,7 +61,7 @@ Alternatively, from the Payment Terminal screen:
 - By check number: Select Find by Check Number, enter the check's number, select a date in the calendar and select Search.
 
 
-- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](adminViewingOrderDetailsOmitChunkFromSearchIndex.html#platformOrdersDetailsReportsAbout).
+- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](platformOrdersDetailsReportsAbout.html).
 
 
 - By customer info: Select Find by Customer Info, enter the customer's phone number, first name, last name, or tab name, and select Search.
@@ -88,7 +88,7 @@ To locate a check in Toast Web:
 - By check number: Select Find by Check Number, enter the check's number, select a date in the calendar and select Search.
 
 
-- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](adminViewingOrderDetailsOmitChunkFromSearchIndex.html#platformOrdersDetailsReportsAbout).
+- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](platformOrdersDetailsReportsAbout.html).
 
 
 - By customer info: Select Find by Customer Info, enter the customer's phone number, first name, last name, or tab name, and select Search.

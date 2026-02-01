@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminViewingOrderDetailsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Viewing order details"
-previousSectionFile: adminGuide-adminViewingOrderDetailsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Viewing order details"
+previousSectionFile: adminGuide-platformOrdersDetailsReportsAbout.md
+previousSectionTitle: "About the Orders and Order details reports"
 nextSectionFile: adminGuide-platformOrdersDetailsContentOverview.md
 nextSectionTitle: "Overview of the order details content"
 keywords: [displaying,filtering,reports]

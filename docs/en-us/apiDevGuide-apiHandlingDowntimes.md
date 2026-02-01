@@ -56,7 +56,7 @@ For more information about Toast API error codes, see [HTTP status codes](apiRes
 - If you receive a 5XX error when you use a Toast API, reduce your polling frequency at an exponential rate. See this [information about exponential backoff processes](https://en.wikipedia.org/wiki/Exponential_backoff).
 
 
-- If your integration retrieves information such as [orders](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders)or [time entries](apiEmployeeInformationOmitChunkFromSearchIndex.html#apiGettingTimeEntriesForEmployees)based on their last modification timestamp, use the timestamp of your last successful poll attempt when you evaluate how to backfill any missed data. 
+- If your integration retrieves information such as [orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders)or [time entries](apiGettingTimeEntriesForEmployees.html)based on their last modification timestamp, use the timestamp of your last successful poll attempt when you evaluate how to backfill any missed data. 
 
 The instant of the last successful data retrieval should be the start timestamp of your next attempt to retrieve data.
 
@@ -80,7 +80,7 @@ During a planned maintenance window, consider implementing the following approac
 - To minimize your integration's downtime, monitor the status notifications on [http://status-dev.toasttab.com](http://status-dev.toasttab.com). The maintenance window may end sooner than expected. You can resume your integration as soon as the maintenance window is over.
 
 
-- If your authentication token expires during the maintenance window, retrieve a new authentication token after the maintenance window is over. For more information about authentication, see [Getting an authentication token](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token) and [Refreshing authentication tokens](apiAuthTokenRefresh.html).
+- If your authentication token expires during the maintenance window, retrieve a new authentication token after the maintenance window is over. For more information about authentication, see [Getting an authentication token](authentication.html#getting-authentication-token) and [Refreshing authentication tokens](apiAuthTokenRefresh.html).
 
 
 - Include an alternate handling method for maintenance windows in your workflow. The way you handle unexpected, temporary unavailability might be inefficient for a longer, planned maintenance window. For example, if your integration retries an API call five minutes after it receives a 5XX error, your integration will have many failed retries during a 45-minute maintenance window. 
@@ -136,7 +136,7 @@ When there is planned downtime:
 
 If you receive a 5XX response when you try to submit an order, Toast may be experiencing an unplanned issue. Here are steps to take if you receive a 5XX response after an attempt to submit an order.
 
-First, evaluate whether the order submission truly succeeded by attempting to retrieve the order. For more information about retrieving an order, see [Getting detailed information about one order](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+First, evaluate whether the order submission truly succeeded by attempting to retrieve the order. For more information about retrieving an order, see [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 
 - If you are able to retrieve the order that you attempted to submit, the order was successfully submitted. You do not need to make additional order submission attempts.
 

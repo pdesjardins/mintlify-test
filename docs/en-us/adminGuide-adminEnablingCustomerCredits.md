@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminCustomerCreditsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Guest credit"
-previousSectionFile: adminGuide-adminCustomerCreditsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Guest credit"
+previousSectionFile: adminGuide-adminGuestCreditOverview.md
+previousSectionTitle: "Guest credit overview"
 nextSectionFile: adminGuide-adminConfigurePermissionsCustomerCredits.md
 nextSectionTitle: "Configuring permissions for working with credits"
 excerpt: "To..."

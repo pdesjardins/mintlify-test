@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-specifyingTaxRatesForEnterprisesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Tax rates for enterprises"
-previousSectionFile: adminGuide-specifyingTaxRatesForEnterprisesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Tax rates for enterprises"
+previousSectionFile: adminGuide-adminCreatingMasterTaxRates.md
+previousSectionTitle: "Creating master tax rates"
 nextSectionFile: adminGuide-usingDefaultTaxRatesAndInheritanceToAssignApplicableTaxes.md
 nextSectionTitle: "Using default tax rates and inheritance to assign applicable taxes"
 excerpt: "The preferred technique for managing taxes is to manually assign the master versions of your tax rates to your menus. With this configuration, the correct version of the tax will be applied to a..."

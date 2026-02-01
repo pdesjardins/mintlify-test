@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformDataExportFilesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Data export files"
-previousSectionFile: adminGuide-platformDataExportFilesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Data export files"
+previousSectionFile: adminGuide-adminDataExportOverview.md
+previousSectionTitle: "Data export files overview"
 nextSectionFile: adminGuide-configuringExports.md
 nextSectionTitle: "Configuring exports"
 excerpt: "Toast sFTP data exports require the use of a public SSH key. Use the below sections to learn how to generate public SSH keys, and where to place them within Toast Web."

@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformJobBasedAccessOmitChunkFromSearchIndex.md
 parentSectionTitle: "Job-based access"
-previousSectionFile: adminGuide-platformJobBasedAccessOmitChunkFromSearchIndex.md
-previousSectionTitle: "Job-based access"
+previousSectionFile: adminGuide-platformJobBasedAccessOverview.md
+previousSectionTitle: "Job-based access overview"
 nextSectionFile: adminGuide-platformJobBasedAccessOnPOS.md
 nextSectionTitle: "Accessing jobs on a Toast POS device"
 excerpt: "You enable job-based access on the Access..."
@@ -17,13 +17,13 @@ codeExamples: 0
 
 ### Managing job-based access
 
-You enable job-based access on the Access management setup page in Toast Web. To enable job-based access, you must have the 4.25 Enable job-based access permission enabled at each location in your management group. For more information, see [Access permissions reference](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions). If you do not have the permission enabled at every location, you can only view the setting in Toast Web. For example, if you have 20 locations in your management group, you must have the 4.25 Enable job-based access permission enabled to at all 20 locations to update the setting. If you only have the permission enabled at 10 locations, the toggle is grayed out and you cannot update it. 
+You enable job-based access on the Access management setup page in Toast Web. To enable job-based access, you must have the 4.25 Enable job-based access permission enabled at each location in your management group. For more information, see [Access permissions reference](adminPermissions.html). If you do not have the permission enabled at every location, you can only view the setting in Toast Web. For example, if you have 20 locations in your management group, you must have the 4.25 Enable job-based access permission enabled to at all 20 locations to update the setting. If you only have the permission enabled at 10 locations, the toggle is grayed out and you cannot update it. 
 
 If you do not have the permission enabled for any of your locations, you cannot access the Access management setuppage.
 
 **Procedure 4.6. To enable job-based access**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Employees > Access management > Access management setup to open the Access management setup page.
@@ -49,7 +49,7 @@ If you do not have the permission enabled for any of your locations, you cannot 
 5. Select the Save button to continue or the Cancel button to cancel out of the confirmation dialog.
 
 
-6. Choose Toast account > Publishing > Publish config to open the Publish configpage. Publish your changes for each location. For more information, see [Using the Publish Config page](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingPublishConfigPage).
+6. Choose Toast account > Publishing > Publish config to open the Publish configpage. Publish your changes for each location. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
 
 
 

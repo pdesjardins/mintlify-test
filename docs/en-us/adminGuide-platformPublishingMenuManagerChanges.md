@@ -81,7 +81,7 @@ You can select the calendar icon to open a list of the change sets that the upda
 
 #### Adding changes to an existing change set
 
-You can add edits made on the Menu managerpage to an existing change set that has not been published yet. As described in [Creating a new change set](platformPublishingMenuManagerChanges.html#platformCreatingANewChangeSetMenuManager), you can create a change set from the Menu manager page, but they can also be created from the publishing center page. See [Publishing center overview](platformPublishingCenterOmitChunkFromSearchIndex.html#platformPublishingCenterOverview)for more information about the publishing center.
+You can add edits made on the Menu managerpage to an existing change set that has not been published yet. As described in [Creating a new change set](platformPublishingMenuManagerChanges.html#platformCreatingANewChangeSetMenuManager), you can create a change set from the Menu manager page, but they can also be created from the publishing center page. See [Publishing center overview](platformPublishingCenterOverview.html)for more information about the publishing center.
 
 
 
@@ -169,7 +169,7 @@ For multi-location restaurants: Select the Unpublished changes link at the top o
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit other configuration pages in Toast Web (outside of the menu manager page) publishes changes to the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit other configuration pages in Toast Web (outside of the menu manager page) publishes changes to the [session restaurant](sessionRestaurant.html) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 

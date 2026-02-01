@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Retrieving the menu reporting data
 
-Send a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint to retrieve menu reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint to retrieve menu reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 #### Request to retrieve menu reporting data
 

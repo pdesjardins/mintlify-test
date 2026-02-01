@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminOnlineOrderingOmitChunkFromSearchIndex.md
 parentSectionTitle: "Toast Online Ordering"
-previousSectionFile: adminGuide-adminOnlineOrderingOmitChunkFromSearchIndex.md
-previousSectionTitle: "Toast Online Ordering"
+previousSectionFile: adminGuide-adminToastOnlineOrderingOverview.md
+previousSectionTitle: "Toast Online Ordering overview"
 nextSectionFile: adminGuide-adminOnlineOrderingDashboard.md
 nextSectionTitle: "Online ordering dashboard"
 excerpt: "You..."

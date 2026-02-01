@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminKitchenDisplaySystemOmitChunkFromSearchIndex.md
 parentSectionTitle: "Using the kitchen display system"
-previousSectionFile: adminGuide-adminKitchenDisplaySystemOmitChunkFromSearchIndex.md
-previousSectionTitle: "Using the kitchen display system"
+previousSectionFile: adminGuide-platformKDSOverview.md
+previousSectionTitle: "Kitchen display system overview"
 nextSectionFile: adminGuide-adminUsingExpo.md
 nextSectionTitle: "Using a KDS expediter screen"
 excerpt: "At..."

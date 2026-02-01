@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminConfiguringDiscountsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Creating and updating discounts"
-previousSectionFile: adminGuide-adminConfiguringDiscountsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Creating and updating discounts"
+previousSectionFile: adminGuide-adminDiscountsDesigningDiscounts.md
+previousSectionTitle: "Designing discounts for promotions"
 nextSectionFile: adminGuide-discountsAddingOrUpdatingToastDiscounts.md
 nextSectionTitle: "Adding or updating discounts"
 excerpt: "You view and manage your discounts from the Discounts page."

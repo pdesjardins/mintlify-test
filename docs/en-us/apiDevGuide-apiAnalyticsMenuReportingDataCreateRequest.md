@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex.md
 parentSectionTitle: "Menu reporting data"
-previousSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataOmitChunkFromSearchIndex.md
-previousSectionTitle: "Menu reporting data"
+previousSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataOverview.md
+previousSectionTitle: "Menu reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData.md
 nextSectionTitle: "Retrieving the menu reporting data"
 excerpt: "There are two ways to create a request for menu reporting data: you can request menu reporting data for a custom time range or a specific time range. The type of time range you use determines the..."
@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Creating a request for menu reporting data
 
-There are two ways to create a request for menu reporting data: you can request menu reporting data for a custom time range or a specific time range. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for custom, `month`, and `year` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+There are two ways to create a request for menu reporting data: you can request menu reporting data for a custom time range or a specific time range. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for custom, `month`, and `year` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 You must include the `startBusinessDate` and `endBusinessDate` properties in the message body to identify the start and end dates for the time range, in `YYYYMMDD`format. For the day time range, the dates must be the same.
 
@@ -39,7 +39,7 @@ Optionally, you can use the `restaurantIds` in the message body to list the GUID
 
 You can optionally aggregate the menu reporting data into groups by menu, menu group, menu item, or modifier using the `groupBy` value in the message body. For more information about using `groupBy` with the menu reporting data endpoint, see [Aggregating the menu reporting data](apiAnalyticsMenuReportingDataAggregation.html).
 
-Also, you can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).
+Also, you can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
 #### Creating a menu reporting data request for a custom time range
 

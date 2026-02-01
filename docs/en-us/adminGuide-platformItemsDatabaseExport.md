@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platfomrItemsDatabaseOmitChunkFromSearchIndex.md
 parentSectionTitle: "Items database"
-previousSectionFile: adminGuide-platfomrItemsDatabaseOmitChunkFromSearchIndex.md
-previousSectionTitle: "Items database"
+previousSectionFile: adminGuide-platformItemsDatabaseOverview.md
+previousSectionTitle: "Items database overview"
 nextSectionFile: adminGuide-platformMenusBulkMenuImportOmitChunkFromSearchIndex.md
 nextSectionTitle: "Bulk menu imports"
 excerpt: "To export data from the Items database page, select the tab for the type of entity you want to export, and then select the export icon."

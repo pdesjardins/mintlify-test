@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex.md
 parentSectionTitle: "Restaurant information"
-previousSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoOmitChunkFromSearchIndex.md
-previousSectionTitle: "Restaurant information"
+previousSectionFile: apiDevGuide-apiAnalyticsRestaurantInfoOverview.md
+previousSectionTitle: "Restaurant information overview"
 excerpt: "You can use the /era/v1/restaurants-information endpoint of the analytics API to retrieve a list of the restaurants and their statuses..."
 keywords: [getting,list,restaurants,management,group,restaurantGuid,restaurantName,testMode]
 procedures: 0
@@ -35,7 +35,7 @@ You can use the `/era/v1/restaurants-information`endpoint of the analytics API t
 
 The `restaurantGuid` is the unique GUID assigned to the restaurant by the Toast platform. The `restaurantName` is the restaurant’s name.
 
-The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 #### Request for restaurant information
 

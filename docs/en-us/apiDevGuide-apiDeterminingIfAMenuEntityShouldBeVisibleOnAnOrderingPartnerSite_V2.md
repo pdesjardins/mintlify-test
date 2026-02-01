@@ -21,7 +21,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> This section applies to partners using menus API V2 only. For partners using menus API V3, menu entities are pre-filtered to exclude menu entities that should not be visible on their sites. For more information, see [Comparing menus API V2 and V3](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiComparingMenusAPIV2AndV3).
+> This section applies to partners using menus API V2 only. For partners using menus API V3, menu entities are pre-filtered to exclude menu entities that should not be visible on their sites. For more information, see [Comparing menus API V2 and V3](apiComparingMenusAPIV2AndV3.html).
 
 
 In Toast Web, there are channel visibility settings that restaurants use to control where a menu entity is visible and, by extension, available for ordering. For example, these settings control whether an entity can be ordered on the Toast POS app, on a Toast Kiosk, through a restaurant's Toast Online Ordering website, or through a restaurant's integration with another, third-party online ordering system.

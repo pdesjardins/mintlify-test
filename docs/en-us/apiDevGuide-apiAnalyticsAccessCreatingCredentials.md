@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-ifYoureAnAnalyticsApiDeveloperOmitChunkFromSearchIndex.md
 parentSectionTitle: "If you're an analytics API developer"
-previousSectionFile: apiDevGuide-ifYoureAnAnalyticsApiDeveloperOmitChunkFromSearchIndex.md
-previousSectionTitle: "If you're an analytics API developer"
+previousSectionFile: apiDevGuide-apiAnalyticsAccessOverview.md
+previousSectionTitle: "Analytics API access overview"
 nextSectionFile: apiDevGuide-apiOverviewOmitChunkFromSearchIndex.md
 nextSectionTitle: "API overview"
 excerpt: "The following procedure describes how to create analytics API access credentials in Toast Web."
@@ -27,7 +27,7 @@ The following procedure describes how to create analytics API access credentials
 
 **Procedure 1.20. To create Analytics API credentials**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Integrations > Toast API access > Manage credentials to open the Manage credentials page.
@@ -108,7 +108,7 @@ On the Credentials page, you can:
 
 #### Viewing analytics API access credentials in JSON format
 
-You can choose to view your credentials in JSON format. JSON is short for JavaScript Object Notation. You can choose to copy your credentials and include them in the [request for an authentication token](authenticationOmitChunkFromSearchIndex.html#apiAuthGetTokenRequest).
+You can choose to view your credentials in JSON format. JSON is short for JavaScript Object Notation. You can choose to copy your credentials and include them in the [request for an authentication token](authentication.html#apiAuthGetTokenRequest).
 
 ![Shows credentials in JSON format.](https://doc.toasttab.com/doc/media/api-analytics-access-credentials-json.png)
 
@@ -121,7 +121,7 @@ You can choose to view your credentials in JSON format. JSON is short for JavaSc
 > Active authentication tokens generated using your credentials will continue to be valid until they expire or are replaced with new authentication tokens.
 
 
-A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
+A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](authentication.html#apiAuthTokenStorage).
 
 
 
@@ -144,7 +144,7 @@ A client secret is a private string assigned by Toast to verify the identity of 
 4. Select the Continue button. The View the client secret dialog opens.
 
 
-5. Select View secret. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
+5. Select View secret. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authentication.html#apiAuthTokenStorage).
 
 
 6. Select the I have copied and saved the client secret checkbox.

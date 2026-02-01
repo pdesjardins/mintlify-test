@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Updating employee information"
-previousSectionFile: apiDevGuide-apiWorkingWithEmployeesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Updating employee information"
+previousSectionFile: apiDevGuide-apiAddingAnEmployee.md
+previousSectionTitle: "Adding an employee"
 nextSectionFile: apiDevGuide-apiArchivingAnEmployee.md
 nextSectionTitle: "Archiving an employee"
 excerpt: "To add a shift and assign it to a restaurant employee, send a POST request to the /labor/v1/shifts endpoint of the labor API."

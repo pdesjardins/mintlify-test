@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformThirdPartyOnlineOrderingChannelsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Third-party online ordering channels"
-previousSectionFile: adminGuide-platformThirdPartyOnlineOrderingChannelsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Third-party online ordering channels"
+previousSectionFile: adminGuide-platformManagingThirdPartyOnlineOrderingChannels.md
+previousSectionTitle: "Managing orders from third-party online ordering channels"
 nextSectionFile: adminGuide-platformAutoFireDeviceOmitChunkFromSearchIndex.md
 nextSectionTitle: "Autofiring"
 excerpt: "You can adjust menu visibility for an online ordering channel from the Third party ordering page in Toast Web. The Third party ordering page displays the following information:"
@@ -53,7 +53,7 @@ You can adjust menu visibility for an online ordering channel from the Third par
 
 **Procedure 3.23. To add a menu to a third-party online ordering channel**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Takeout & delivery > Third party ordering. This displays all your third-party online ordering channels and their online ordering settings.

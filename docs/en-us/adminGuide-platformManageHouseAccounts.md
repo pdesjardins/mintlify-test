@@ -58,7 +58,7 @@ You can create an invoice(s) for house account(s) in Toast Web.
 
 **Procedure 6.103. To create a house account invoice**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Payments > Payment methods > House accounts to open the Accountspage.
@@ -283,7 +283,7 @@ You can choose to create multiple invoices and bulk send them to guests to colle
 
 **Procedure 6.104. To create bulk invoices**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Payments > Payment methods > House accounts to open the House accounts page.

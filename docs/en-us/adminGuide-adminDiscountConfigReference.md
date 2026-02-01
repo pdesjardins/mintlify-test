@@ -26,7 +26,7 @@ At the top of the discount configuration page are the following fields, which ap
 | Basic option | Settings and description | 
 | --- | --- |
 | Name of discount | Sets the name of the discount. The name is used on the discount button on the Toast POS app (unless overridden by the POS Namesetting) and on sales reports. | 
-| Number of discount | The identifier of the discount. The number is generated when you create the discount. It is not editable.Next to the discount number is the Copy option, which allows you to create a copy of the current discount. See [Copying discounts](adminCopyingDiscounts.html).For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations. You use the New Version option to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](workingWithVersionsOmitChunkFromSearchIndex.html#creatingAVersionOfAConfigurationEntity). | 
+| Number of discount | The identifier of the discount. The number is generated when you create the discount. It is not editable.Next to the discount number is the Copy option, which allows you to create a copy of the current discount. See [Copying discounts](adminCopyingDiscounts.html).For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations. You use the New Version option to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](creatingAVersionOfAConfigurationEntity.html). | 
 | Require manager permission for reward redemptions | This setting displays only if Permissions Level in Advanced Settings is set to Manager.Specifies whether a manager's permission is required to apply third-party (non-Toast) rewards that are linked to this discount.For details, see [Determining who can apply a discount](adminDiscountsRequireManager.html). | 
 | Target | Only displays for restaurants that use the multi-location module.Determines the restaurant or group that the discount applies to.For details, see [Discount configurations for multi-location restaurants](adminDiscountsTargetsAndOwners.html). | 
 | Owner | Only displays for restaurants that use the multi-location module.Determines the restaurant or group that can configure the discount.For details, see [Discount configurations for multi-location restaurants](adminDiscountsTargetsAndOwners.html). | 
@@ -46,7 +46,7 @@ When you select the discount type, type-specific fields are displayed below the 
 
 ##### Fields for fixed and open amount and percent discounts
 
-The following fields display when you set Discount Type to one of the fixed or open amount or percent discount types. See [Configuring fixed or open amount or percent discounts](adminDiscountsTypeSpecificConfigOmitChunkFromSearchIndex.html#adminDiscountsConfigFixedOpenDiscounts).
+The following fields display when you set Discount Type to one of the fixed or open amount or percent discount types. See [Configuring fixed or open amount or percent discounts](adminDiscountsConfigFixedOpenDiscounts.html).
 
 | Fixed discount setting | Options and description | 
 | --- | --- |
@@ -56,7 +56,7 @@ The following fields display when you set Discount Type to one of the fixed or o
 - Specific item/group: The discount is applied to the specified menu items and/or groups before the discount applies.
 
  | 
-| Discount will apply to all items except the following items/groups | For Applies to=Entire Check discounts that are not bulk discounts, when you select this check box, you can specify menu items, menu groups, or menus to exclude from the discount.See [Excluding items from a check-level discount](adminDiscountsTypeSpecificConfigOmitChunkFromSearchIndex.html#adminExclusionDiscounts). | 
+| Discount will apply to all items except the following items/groups | For Applies to=Entire Check discounts that are not bulk discounts, when you select this check box, you can specify menu items, menu groups, or menus to exclude from the discount.See [Excluding items from a check-level discount](adminDiscountsConfigFixedOpenDiscounts.html#adminExclusionDiscounts). | 
 | Check must include one of the following items/groups | For Applies to=Entire Check discounts, when you select this check box, you can specify required items for the discount.The required items must be on the check in order for the discount to apply. | 
 | Items | For Applies to=Specific item/group discounts, this section allows you to specify the required items for the discount.The required items must be on the check in order for the discount to apply. | 
 
@@ -99,7 +99,7 @@ The Promo codes section contains the list of promo codes for the discount. For d
 
 #### Availability
 
-The Availability section allows you to configure the dates, days of the week, and times when a discount is available. For details, see [Setting the availability date range for a discount](adminDiscountsOverallAvailabilityOmitChunkFromSearchIndex.html#adminDiscountAvailability).
+The Availability section allows you to configure the dates, days of the week, and times when a discount is available. For details, see [Setting the availability date range for a discount](adminDiscountAvailability.html).
 
 | Availability settings | Options and description | 
 | --- | --- |

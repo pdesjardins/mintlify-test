@@ -30,7 +30,7 @@ The `partners` webhook allows you to receive updates when:
 
 
 
-Partners webhook messages follow the [standard message data schema](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageDataSchema). When a message is published to your webhook endpoint for the `partner`event category, the `eventCategory` value is set to `partner` and the `eventType` is set to one of the following:
+Partners webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `partner`event category, the `eventCategory` value is set to `partner` and the `eventType` is set to one of the following:
 
 - [partner_added](apiPartnersWebhook.html#apiPartnerAdded)
 

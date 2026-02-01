@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminMenuItemInventoryOmitChunkFromSearchIndex.md
 parentSectionTitle: "Menu item inventory"
-previousSectionFile: adminGuide-adminMenuItemInventoryOmitChunkFromSearchIndex.md
-previousSectionTitle: "Menu item inventory"
+previousSectionFile: adminGuide-adminMenuItemInventoryOverview.md
+previousSectionTitle: "Menu item inventory overview"
 nextSectionFile: adminGuide-adminInventoryUpdateQuickEdit.md
 nextSectionTitle: "Changing inventory status in Quick Edit mode"
 excerpt: "You can change the inventory status on the menu item details page in Toast Web."
@@ -21,7 +21,7 @@ You can change the inventory status on the menu item details page in Toast Web.
 
 **Procedure 8.134. To change the menu item's inventory status from Toast Web**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menu > Menu management > Advanced properties to open the Advanced properties page.

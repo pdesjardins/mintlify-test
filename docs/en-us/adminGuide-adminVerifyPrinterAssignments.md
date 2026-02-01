@@ -21,7 +21,7 @@ If a kitchen printer is printing two sets of tickets for every order, two prep s
 
 To verify that your kitchen printers are assigned correctly, follow these steps.
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Kitchen stations > Prep stations. An interactive grid with rows for each prep station appears.

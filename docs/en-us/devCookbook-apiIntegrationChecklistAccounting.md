@@ -42,7 +42,7 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ##### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devPortalCookbookHowToOmitChunkFromSearchIndex.html#apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
 ##### Decide what information your reports will provide
 
@@ -141,9 +141,9 @@ This guide describes how to report on the following sales information:
 
 Reporting on sales depends on restaurants' usage of menu items and the overall structure of orders.
 
-To understand Toast menu concepts before you begin development, review [menu hierarchy information](devPortalPlatformGuideMenusOmitChunkFromSearchIndex.html#adminMenuHierarchy).
+To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminMenuHierarchy.html).
 
-To review order structure, see [Orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview).
+To review order structure, see [Orders API overview](portalOrdersApiOverview.html).
 
 #### Retrieving restaurant information
 
@@ -151,7 +151,7 @@ To review order structure, see [Orders API overview](apiOrdersOmitChunkFromSearc
 
 Use the [menus webhook](apiMenusWebhook.html) or query the `/metadata` endpoint of the menus API throughout the day.
 
-Retrieve a new menu when you determine that [your existing menu is outdated](apiGettingMenuInformationOmitChunkFromSearchIndex.html#apiDeterminingIfYourMenuJsonIsOutdated_V2).
+Retrieve a new menu when you determine that [your existing menu is outdated](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).
 
 In addition, query the following configuration API endpoints at least once a day:
 
@@ -197,7 +197,7 @@ To report on order information, you need to retrieve orders at least once per da
 > Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk`endpoint.
 
 
-See [Getting detailed information about multiple orders](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
 ##### Consider historical backfill
 

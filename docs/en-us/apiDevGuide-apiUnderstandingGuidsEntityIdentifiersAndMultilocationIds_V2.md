@@ -177,5 +177,5 @@ You use the `multiLocationId` to identify menu entities that are versions of eac
 
 The Toast platform ensures that once a `multiLocationId` value is assigned to a set of versions within a management group, that `multiLocationId` is not used for any other versioned menu entities in the same management group. It does not guarantee, however, that the `multiLocationId` is not used by another management group, to identify a set of versions within it.
 
-For detailed information on the enterprise module and versioning, see [Enterprise Restaurant Chains](platformMultiLocationOmitChunkFromSearchIndex.html#sharingMenusAndOtherInformationAmongRestaurants) in the Toast platform guide.
+For detailed information on the enterprise module and versioning, see [Enterprise Restaurant Chains](sharingMenusAndOtherInformationAmongRestaurants.html) in the Toast platform guide.
 

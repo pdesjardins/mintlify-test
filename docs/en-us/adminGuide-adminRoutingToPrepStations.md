@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminItemRoutingOmitChunkFromSearchIndex.md
 parentSectionTitle: "Item and order routing"
-previousSectionFile: adminGuide-adminItemRoutingOmitChunkFromSearchIndex.md
-previousSectionTitle: "Item and order routing"
+previousSectionFile: adminGuide-platformKitchenRoutingOverview.md
+previousSectionTitle: "Routing overview"
 nextSectionFile: adminGuide-platformKDSRoutingUsingAssemblyLines.md
 nextSectionTitle: "Routing using assembly lines"
 excerpt: "For..."
@@ -19,7 +19,7 @@ codeExamples: 0
 
 For an efficient order fulfillment workflow, assign every menu item and modifier in your menus to a prep station. In the Toast platform, a prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
-After you [add your prep stations](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAddPrepStation), assign them to your menus, menu groups, items, and modifiers, so that every item in an order can be sent immediately to the correct prep station for fulfillment. For items that require preparation at several prep stations, you can assign multiple prep stations.
+After you [add your prep stations](adminAddPrepStation.html), assign them to your menus, menu groups, items, and modifiers, so that every item in an order can be sent immediately to the correct prep station for fulfillment. For items that require preparation at several prep stations, you can assign multiple prep stations.
 
 If you assign a prep station to a menu or menu group, the Toast platform assigns that prep station to all of the items and modifiers in that menu or group. For example, you assign your "online" menu to a prep station dedicated to fulfilling those orders, and your "in store" menu(s) to different prep stations. You can then override this default assignment as needed for individual menu items and modifiers.
 
@@ -51,7 +51,7 @@ Depending on how you want to route items assigned to certain prep stations, you 
 
 **Procedure 10.12. To assign prep stations to send to specific station types**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend)
+1. [Access Toast Web ](adminAccessToastAdminBackend.html)
 
 
 2. Choose Kitchen > Kitchen stations > Prep stations.
@@ -89,7 +89,7 @@ You can also configure your kitchen tickets to show which other prep stations ar
 
 #### Assigning prep stations to menu entities
 
-The following procedure is for assigning prep stations to multiple [menu entities](devPortalPlatformGuideMenusOmitChunkFromSearchIndex.html#adminMenuHierarchy) at once. You can also choose to assign prep stations to each menu entity while creating it. For more information about assigning prep stations while creating a single menu entity, see [Assigning prep stations](adminAssigningPrepStationsMenuBuilder.html).
+The following procedure is for assigning prep stations to multiple [menu entities](adminMenuHierarchy.html) at once. You can also choose to assign prep stations to each menu entity while creating it. For more information about assigning prep stations while creating a single menu entity, see [Assigning prep stations](adminAssigningPrepStationsMenuBuilder.html).
 
 
 
@@ -100,7 +100,7 @@ The following procedure is for assigning prep stations to multiple [menu entitie
 
 **Procedure 10.13. To assign prep stations to menu entities**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties. The Advanced Propertiespage with an interactive table with rows for each restaurant menu opens.

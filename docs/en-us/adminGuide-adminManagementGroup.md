@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Key enterprise concepts"
-previousSectionFile: adminGuide-understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Key enterprise concepts"
+previousSectionFile: adminGuide-sessionRestaurant.md
+previousSectionTitle: "Session restaurant"
 nextSectionFile: adminGuide-restaurantGroupsAndSubgroups.md
 nextSectionTitle: "Restaurant groups and sub-groups"
 excerpt: "A..."

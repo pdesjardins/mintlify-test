@@ -42,7 +42,7 @@ Follow the instructions below to make a copy of a bulk import template to use as
 
 **Procedure 8.143. To make a copy of a bulk menu import template**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Bulk import tool.

@@ -38,7 +38,7 @@ The procedures below describe how to give and remove restaurant group-level perm
 
 **Procedure 5.20. To give an employee restaurant group-level permissions**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. If necessary, switch to a location where the employee has access.
@@ -68,7 +68,7 @@ The procedures below describe how to give and remove restaurant group-level perm
 
 **Procedure 5.21. To remove an employee's restaurant group-level permissions**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. If necessary, switch to a location where the employee has access.

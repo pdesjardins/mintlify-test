@@ -32,7 +32,7 @@ On the online ordering dashboard, you can quickly access settings to control you
 
 **Procedure 3.16. To access your restaurant's online ordering dashboard**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Takeout & delivery > Toast online ordering.

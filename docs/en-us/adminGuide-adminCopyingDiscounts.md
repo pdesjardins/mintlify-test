@@ -40,7 +40,7 @@ The Add a Discount page opens with a new (unsaved) discount. The new discount ha
 For a detailed list of discount configuration settings, see the [Discount configuration reference](adminDiscountConfigReference.html).
 
 
-3. Click Save to save the discount, then [publish the changes](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingOverview).
+3. Click Save to save the discount, then [publish the changes](platformPublishingOverview.html).
 
 
 

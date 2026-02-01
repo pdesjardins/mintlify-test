@@ -43,22 +43,22 @@ For items assigned to multiple prep stations, you can choose to determine how it
 
 The fulfillment process can be further personalized by:
 
-- [Showing other prep stations working on the items for a prep station ticket](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configOtherStations)
+- [Showing other prep stations working on the items for a prep station ticket](adminKitchenDiningRoomReference.html#configOtherStations)
 
 
-- [Changing how tickets group and display items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configIndividualTickets)
+- [Changing how tickets group and display items](adminKitchenDiningRoomReference.html#configIndividualTickets)
 
 
-- [Showing modifiers with or without their parent items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configModifierRouting)
+- [Showing modifiers with or without their parent items](adminKitchenDiningRoomReference.html#configModifierRouting)
 
 
-- [Using single or two-level expediter fulfillment](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configTwoLevelFulfillment)
+- [Using single or two-level expediter fulfillment](adminKitchenDiningRoomReference.html#configTwoLevelFulfillment)
 
 
-- [Requiring sequential expediter fulfillment](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configSequencedExpediterFulfillment)
+- [Requiring sequential expediter fulfillment](adminKitchenDiningRoomReference.html#configSequencedExpediterFulfillment)
 
 
-- [Allowing for all items on a ticket to be fulfilled at once](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems)
+- [Allowing for all items on a ticket to be fulfilled at once](adminKitchenDiningRoomReference.html#configFulfillItems)
 
 
 
@@ -80,7 +80,7 @@ Using KDS devices, you can configure the order in which tickets or items are ful
 
 
 
-Fulfilling tickets or items when not fulfilled at the required level requires an override by an employee with the [Manager](platformEmployeesOmitChunkFromSearchIndex.html#permissionManager)access permission. For information about how to sequence the order in which items are fulfilled at prep stations, see [Creating an assembly line](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#platformKDSCreatingAssemblyLines)and [Routing using assembly lines](platformKDSRoutingUsingAssemblyLines.html).
+Fulfilling tickets or items when not fulfilled at the required level requires an override by an employee with the [Manager](adminPermissions.html#permissionManager)access permission. For information about how to sequence the order in which items are fulfilled at prep stations, see [Creating an assembly line](platformKDSCreatingAssemblyLines.html)and [Routing using assembly lines](platformKDSRoutingUsingAssemblyLines.html).
 
 #### Fulfilling an item at all stations at the same time
 
@@ -121,7 +121,7 @@ By default, restaurants are configured to fulfill an item at multiple prep stati
 
 **Procedure 10.34. To update your fulfillment method**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup to open the Kitchen page.
@@ -147,7 +147,7 @@ By default, restaurants are configured to fulfill an item at multiple prep stati
 4. Select Save.
 
 
-5. When you are ready to see these changes on the KDS devices, select Publish Now. If you are publishing to multiple restaurant locations, use the Publish Config page. For more information, see [Using the Publish Config page](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingPublishConfigPage).
+5. When you are ready to see these changes on the KDS devices, select Publish Now. If you are publishing to multiple restaurant locations, use the Publish Config page. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
 
 
 

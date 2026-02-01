@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminOrderWorkflowOmitChunkFromSearchIndex.md
 parentSectionTitle: "Order workflows and processing"
-previousSectionFile: adminGuide-adminOrderWorkflowOmitChunkFromSearchIndex.md
-previousSectionTitle: "Order workflows and processing"
+previousSectionFile: adminGuide-platformOrdersCreateUpdate.md
+previousSectionTitle: "How orders are created and updated"
 nextSectionFile: adminGuide-platformOrdersTrackFulfillment.md
 nextSectionTitle: "Tracking the order fulfillment"
 excerpt: "The order state reflects the payment status and whether the order is completed."
@@ -36,7 +36,7 @@ A check has the same state values, since the check contains the price and paymen
 ****Closed****
 : The order or check is completed and fully paid for, including any tips, and the server has closed it.
 
-Closed orders can be cleared, or purged, from the Toast POS devices. You can still [view closed orders from Toast Web](adminViewingOrderDetailsOmitChunkFromSearchIndex.html#platformOrdersDetailsReportsAbout), and if needed [reopen closed checks](platformOrdersReopening.html).
+Closed orders can be cleared, or purged, from the Toast POS devices. You can still [view closed orders from Toast Web](platformOrdersDetailsReportsAbout.html), and if needed [reopen closed checks](platformOrdersReopening.html).
 
 
 

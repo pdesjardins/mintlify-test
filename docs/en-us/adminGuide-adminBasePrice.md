@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminPricingStrategyDetailsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Pricing strategies"
-previousSectionFile: adminGuide-adminPricingStrategyDetailsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Pricing strategies"
+previousSectionFile: adminGuide-adminPricingStrategiesOverview.md
+previousSectionTitle: "Pricing strategies overview"
 nextSectionFile: adminGuide-adminTimeSpecificPrice.md
 nextSectionTitle: "Time-specific price"
 excerpt: "Applies to: Menu groups, menu items (including modifier item references)"

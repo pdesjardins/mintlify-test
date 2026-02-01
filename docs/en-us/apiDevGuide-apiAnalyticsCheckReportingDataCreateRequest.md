@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex.md
 parentSectionTitle: "Check reporting data"
-previousSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataOmitChunkFromSearchIndex.md
-previousSectionTitle: "Check reporting data"
+previousSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataOverview.md
+previousSectionTitle: "Check reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData.md
 nextSectionTitle: "Retrieving the check reporting data"
 excerpt: "Send a POST request to the /era/v1/check/day endpoint to request check reporting data for a single day. The rate limit for this endpoint and method type is five requests..."
@@ -17,9 +17,9 @@ codeExamples: 0
 
 ### Creating a request for check reporting data
 
-Send a `POST` request to the `/era/v1/check/day` endpoint to request check reporting data for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting). 
+Send a `POST` request to the `/era/v1/check/day` endpoint to request check reporting data for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html). 
 
-You can optionally include only the data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).
+You can optionally include only the data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
 To create a request for check data, include the following:
 

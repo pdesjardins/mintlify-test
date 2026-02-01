@@ -56,17 +56,17 @@ You can retrieve a list of your current scopes through your [Toast developer por
 
 ##### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devPortalCookbookHowToOmitChunkFromSearchIndex.html#apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
 ##### Learn order structure concepts
 
-To familiarize yourself with the structure of an order, read the [Orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview) and the [Order object summary](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersOrderObjectSummary). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
+To familiarize yourself with the structure of an order, read the [Orders API overview](portalOrdersApiOverview.html) and the [Order object summary](apiOrdersOrderObjectSummary.html). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
 The guest's first and last name, email address, and phone number are found in the `Customer` object of the orders API.
 
 ##### Learn menu hierarchy concepts
 
-To familiarize yourself with menu structure, read the [menu hierarchy documentation](devPortalPlatformGuideMenusOmitChunkFromSearchIndex.html#adminMenuHierarchy).
+To familiarize yourself with menu structure, read the [menu hierarchy documentation](adminMenuHierarchy.html).
 
 Use the [menus API](https://doc.toasttab.com/openapi/menus/overview/) to retrieve a full menu from a Toast POS location so that you understand the menu structure.
 

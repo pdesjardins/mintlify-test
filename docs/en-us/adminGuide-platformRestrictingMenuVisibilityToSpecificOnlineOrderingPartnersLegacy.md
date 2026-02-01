@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Restricting menu visibility to specific online ordering partners
 
-In the [menu manager](platformMenuManagerOmitChunkFromSearchIndex.html#platformBulkMenuManagerOverview) details pages, when you enable the Online ordering partnerssetting for a menu, an additional list of the online ordering partners you integrate with appears. You can use these settings to make the menu visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash.
+In the [menu manager](platformBulkMenuManagerOverview.html) details pages, when you enable the Online ordering partnerssetting for a menu, an additional list of the online ordering partners you integrate with appears. You can use these settings to make the menu visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash.
 
 The Online ordering partners settings are slightly different depending on whether your restaurant uses the multi-location module or not. The illustration below shows the simpler version of the Online ordering partners settings for a restaurant that does not use the multi-location module.
 
@@ -123,7 +123,7 @@ This section covers how to configure a menu so it is visible to specific online 
 
 ![Example of the location dropdown list for an ordering partner.](https://doc.toasttab.com/doc/media/menu-builder-channel-visibility-mlm-selected-locations.png)
 
-The dropdown lists only show locations that are included in the menu's target *and* that you have the [Restaurant Admin > Edit Full Menu](platformEmployeesOmitChunkFromSearchIndex.html#adminRestaurantAdminAccessPermissions) permission to. For example, consider the following location group hierarchy:
+The dropdown lists only show locations that are included in the menu's target *and* that you have the [Restaurant Admin > Edit Full Menu](adminPermissions.html#adminRestaurantAdminAccessPermissions) permission to. For example, consider the following location group hierarchy:
 
 - Corporate
 

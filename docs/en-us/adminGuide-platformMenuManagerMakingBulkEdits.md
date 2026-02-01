@@ -24,7 +24,7 @@ Currently, the bulk edit feature supports setting the same [visibility settings]
 
 **Procedure 8.99. To set the same visibility settings for multiple menu items at once**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.

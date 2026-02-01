@@ -133,7 +133,7 @@ After you retrieve the packaging preference configuration information for a rest
 > The `AppliedPackagingInfo` object is optional. Orders that are submitted without this object are still accepted by the orders API.
 
 
-The procedure below describes how to apply packaging preferences to an order. For more information about the orders API, see the [orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview).
+The procedure below describes how to apply packaging preferences to an order. For more information about the orders API, see the [orders API overview](portalOrdersApiOverview.html).
 
 **Procedure 2.4. To apply packaging preferences to an order**
 
@@ -210,5 +210,5 @@ The example below shows the response data for a request to create an order that 
   
 #### Request an order with packaging preferences
 
-You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 

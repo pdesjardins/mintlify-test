@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminDeliveryAndTDSOmitChunkFromSearchIndex.md
 parentSectionTitle: "First-party delivery and Toast Delivery Services"
-previousSectionFile: adminGuide-adminDeliveryAndTDSOmitChunkFromSearchIndex.md
-previousSectionTitle: "First-party delivery and Toast Delivery Services"
+previousSectionFile: adminGuide-adminDeliveryOverview.md
+previousSectionTitle: "Delivery overview"
 nextSectionFile: adminGuide-adminSetDeliveryMinimum.md
 nextSectionTitle: "Setting a delivery minimum"
 externalReferences: [https://central.toasttab.com/s/article/Delivery-Mode-1493048871021, https://central.toasttab.com/s/article/Getting-Started-Toast-Delivery-Services-Setup]
@@ -45,7 +45,7 @@ You can configure your delivery options on the Takeout/delivery page in Toast We
 
 **Procedure 3.28. To configure your delivery option**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.

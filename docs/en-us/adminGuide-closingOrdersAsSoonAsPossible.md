@@ -21,5 +21,5 @@ Restaurant employees typically need access to orders when they are in an [*open*
 
 As a best practice, servers should close orders as soon as possible so that they can be purged from memory.
 
-You can view the order details for purged orders from Toast Web, and resend them to devices if necessary. For more information, see [About the Orders and Order details reports](adminViewingOrderDetailsOmitChunkFromSearchIndex.html#platformOrdersDetailsReportsAbout).
+You can view the order details for purged orders from Toast Web, and resend them to devices if necessary. For more information, see [About the Orders and Order details reports](platformOrdersDetailsReportsAbout.html).
 

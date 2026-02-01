@@ -135,7 +135,7 @@ The Toast platform also prevents you from assigning the same target to more than
 
 You must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to a location or location group in order to see that location or location group in the target and owner pickers. If you do not have the Edit Full Menupermission to a location or location group, the Toast platform filters it out of the target and owner pickers so you cannot assign it to a version.
 
-For more information, see the following sections in the [Multiple restaurant locations](platformMultiLocationOmitChunkFromSearchIndex.html#sharingMenusAndOtherInformationAmongRestaurants) chapter:
+For more information, see the following sections in the [Multiple restaurant locations](sharingMenusAndOtherInformationAmongRestaurants.html) chapter:
 
 - [Versions](versions.html)
 

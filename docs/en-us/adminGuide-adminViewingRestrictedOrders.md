@@ -84,7 +84,7 @@ Restaurant employees cannot make these changes.
 
 #### Refunding a restricted order
 
-Refunding a restricted order uses the standard [check refund workflow](adminIssuingARefund.html). Restricted orders paid for using a card, cash, or Toast gift cards can be refunded while restricted orders paid for with house accounts, third-party gift cards, or other payment types cannot be refunded. See [Refund permissions and limitations](adminRefundsOmitChunkFromSearchIndex.html#adminRefundPermissionsLimitations) for more information.
+Refunding a restricted order uses the standard [check refund workflow](adminIssuingARefund.html). Restricted orders paid for using a card, cash, or Toast gift cards can be refunded while restricted orders paid for with house accounts, third-party gift cards, or other payment types cannot be refunded. See [Refund permissions and limitations](adminRefundPermissionsLimitations.html) for more information.
 
 
 

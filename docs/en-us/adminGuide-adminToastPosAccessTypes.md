@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformToastPlatformConceptsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Toast platform concepts"
-previousSectionFile: adminGuide-platformToastPlatformConceptsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Toast platform concepts"
+previousSectionFile: adminGuide-adminAccessToastAdminBackend.md
+previousSectionTitle: "Using Toast Web"
 nextSectionFile: adminGuide-adminSoftwareComponents.md
 nextSectionTitle: "Toast platform software components"
 excerpt: "Restaurant employee access to the Toast platform's components is categorized into two groups: Administrative Non-administrative"

@@ -46,11 +46,11 @@ The restaurant online ordering schedule webhook checks for updates to a restaura
 > To trigger a webhook update, you must save and publish your online ordering schedule changes.
 
 
-The restaurant online ordering schedule webhook messages follow the [standard message data schema](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageDataSchema). When a message is published to your webhook endpoint for the `order_schedule` event category, the `eventCategory` value is set to `ordering_schedule`and the `eventType` is set to `ordering_schedule_updated`.
+The restaurant online ordering schedule webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `order_schedule` event category, the `eventCategory` value is set to `ordering_schedule`and the `eventType` is set to `ordering_schedule_updated`.
 
 #### Configuring online ordering schedules 
 
-You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery > Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminOnlineOrderingSchedulesOmitChunkFromSearchIndex.html#adminOnlineOrderingScheduleOverview).
+You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery > Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminOnlineOrderingScheduleOverview.html).
 
 #### ordering_schedule_updated
 

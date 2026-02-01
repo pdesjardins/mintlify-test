@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Updating payment information"
-previousSectionFile: apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Updating payment information"
+previousSectionFile: apiDevGuide-apiSubmittingPaymentsIntro.md
+previousSectionTitle: "Submitting payments"
 nextSectionFile: apiDevGuide-apiCreatingAnOrderWithPaymentInformation.md
 nextSectionTitle: "Alternative payment types"
 externalReferences: [https://tools.ietf.org/html/rfc4122#section-4.4, https://tools.ietf.org/html/rfc8017#section-7.1, https://www.openssl.org/docs/man1.1.1/man1/openssl-pkeyutl.html]
@@ -35,7 +35,7 @@ When you authorize a credit card payment, the credit cards API places a hold for
 > DISCLAIMER: Compliance with PCI DSS and all other regulations or laws is solely your responsibility. The information provided is for informational purposes only and should not be relied upon or used as a substitute for consultation with a Qualified Security Assessor or other legal advisor. Please consult a professional advisor for a qualified opinion on the applicability of requirements to your business operations.
 
 
-For general information about using the orders API, see [Orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview).
+For general information about using the orders API, see [Orders API overview](portalOrdersApiOverview.html).
 
 #### Overview of the credit card authorization and application process
 
@@ -306,7 +306,7 @@ To apply an authorized credit card payment to a check in an orders API order, yo
 > You must `POST` an order within five minutes of the credit card payment authorization. After five minutes, the credit card API automatically voids the payment.
 
 
-The following example shows the JSON message body data that applies an authorized credit card payment to a check. Most contents of the order object have been omitted from this example. For more information about `POST`ing orders in the orders API, see [Orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview).
+The following example shows the JSON message body data that applies an authorized credit card payment to a check. Most contents of the order object have been omitted from this example. For more information about `POST`ing orders in the orders API, see [Orders API overview](portalOrdersApiOverview.html).
 
 **Example 3.8. Example of applying an authorized credit card payment to a check**
 

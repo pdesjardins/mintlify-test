@@ -557,7 +557,7 @@ If you choose Optional and you use POS devices, you can also toggle the Include 
 
 ##### Sequence of modifier groups
 
-The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. See [Modifier group display order overview](adminModifierGroupDisplayOrderOmitChunkFromSearchIndex.html#platformModifierGroupDisplayOrderOverview) for more information.
+The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. See [Modifier group display order overview](platformModifierGroupDisplayOrderOverview.html) for more information.
 
 ##### Required modifier groups and visibility settings
 

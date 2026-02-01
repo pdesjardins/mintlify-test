@@ -99,7 +99,7 @@ Each master version and its related location-specific versions are represented b
 
 Configuration entities that should use this approach include:
 
-- [Taxes](specifyingTaxRatesForEnterprisesOmitChunkFromSearchIndex.html#adminCreatingMasterTaxRates)
+- [Taxes](adminCreatingMasterTaxRates.html)
 
 
 - [Prep Stations](managingPrepStationsAndPrintersForEnterprises.html)

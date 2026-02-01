@@ -63,7 +63,7 @@ For multi-location restaurants, filtering begins with selecting the locations wh
 
 ![An example of the locations filtering control on Full menu view.](https://doc.toasttab.com/doc/media/menu-manager-searching-and-filtering-fields-full-menu-view.png)
 
-By default, the locations control is set to the location you are currently logged into (also known as the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant)). The locations you have selected remain in place as you navigate between the Items, Modifiers, and Price levels views. Currently, when you go to Full menu view, the locations control is reset to the session restaurant.
+By default, the locations control is set to the location you are currently logged into (also known as the [session restaurant](sessionRestaurant.html)). The locations you have selected remain in place as you navigate between the Items, Modifiers, and Price levels views. Currently, when you go to Full menu view, the locations control is reset to the session restaurant.
 
 **Procedure 8.43. To filter by location**
 

@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminUsingPortionsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Portions"
-previousSectionFile: adminGuide-adminUsingPortionsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Portions"
+previousSectionFile: adminGuide-adminPortionsOverview.md
+previousSectionTitle: "Portions overview"
 nextSectionFile: adminGuide-platformAlteringThePriceOfAModifierAppliedToAPortion.md
 nextSectionTitle: "Altering the price of a modifier applied to a portion"
 excerpt: "By default, a portion of a modifier is priced..."

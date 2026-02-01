@@ -53,7 +53,7 @@ For example, if all items in an order go to one prep station, there is no need t
 > This setting must be configured to enable other station monitoring for both KDS and printed kitchen tickets.
 
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup.
@@ -117,7 +117,7 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 **Procedure 10.18. To configure a prep station to monitor another prep station**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Kitchen stations > Prep stations.
@@ -142,5 +142,5 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 
 
-For more information about working with prep stations, see [Adding a prep station](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAddPrepStation).
+For more information about working with prep stations, see [Adding a prep station](adminAddPrepStation.html).
 

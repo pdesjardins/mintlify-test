@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-workingWithRestaurantGroupsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Restaurant groups"
-previousSectionFile: adminGuide-workingWithRestaurantGroupsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Restaurant groups"
+previousSectionFile: adminGuide-creatingEditingAndHidingRestaurantGroups.md
+previousSectionTitle: "Creating, editing, and archiving restaurant groups"
 nextSectionFile: adminGuide-understandingTheGiftRewardsCardProgramRestaurantGroup.md
 nextSectionTitle: "Understanding the gift/rewards card program restaurant group"
 excerpt: "You can use restaurant groups to group locations that share a concept. For example, some of your locations may have a grill and others may not. You can add the locations that have a grill to a Grill..."

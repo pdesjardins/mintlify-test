@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformKitchenOpsKDSWorkflowExamplesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Workflow examples"
-previousSectionFile: adminGuide-platformKitchenOpsKDSWorkflowExamplesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Workflow examples"
+previousSectionFile: adminGuide-platformKDSWorkflowUsingSingleExpo.md
+previousSectionTitle: "KDS workflow using one expediter"
 nextSectionFile: adminGuide-platformKDSWorkflowUsingCourses.md
 nextSectionTitle: "KDS workflow using courses"
 excerpt: "The restaurant in this example uses multiple prep station KDS devices and two expediter KDS devices that must..."
@@ -26,7 +26,7 @@ codeExamples: 0
 
 The restaurant in this example uses multiple prep station KDS devices and two expediter KDS devices that must be fulfilled sequentially. In this example, the first-level expediter KDS device is used by the expediter to identify that all items on a ticket are made. Fulfillment at the first-level expediter KDS device indicates at the second-level expediter KDS device that the order is ready to be brought to guests by the food runner. Fulfillment at the second-level expediter KDS device indicates that the food runner brought the ticket items to the guest.
 
-For more information on the two expediter KDS devices configuration setting, see [Two-Level Fulfillment](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configTwoLevelFulfillment). For more information on the sequential expediter fulfillment configuration setting, see [Sequenced Expediter Fulfillment](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configSequencedExpediterFulfillment). This example restaurant configuration also uses individual item fulfillment and sends all prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configSendToExpediter).
+For more information on the two expediter KDS devices configuration setting, see [Two-Level Fulfillment](adminKitchenDiningRoomReference.html#configTwoLevelFulfillment). For more information on the sequential expediter fulfillment configuration setting, see [Sequenced Expediter Fulfillment](adminKitchenDiningRoomReference.html#configSequencedExpediterFulfillment). This example restaurant configuration also uses individual item fulfillment and sends all prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter).
 
 This workflow includes actions on other Toast POS devices to provide context and timing.
 
@@ -61,7 +61,7 @@ Here is the Green Tea item ticket on the Drinks prep station KDS device.
 
 > **Note**
 > 
-> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep stations working on the order. For more information on this setting, see [Other Stations](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
+> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep stations working on the order. For more information on this setting, see [Other Stations](adminKitchenDiningRoomReference.html#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
 
 
 Here is the Curry Bread and Ramen items ticket on the Food prep station KDS device.

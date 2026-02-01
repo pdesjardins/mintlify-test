@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformKDSBumpBarIntegrationOmitChunkFromSearchIndex.md
 parentSectionTitle: "KDS device bump bar integration"
-previousSectionFile: adminGuide-platformKDSBumpBarIntegrationOmitChunkFromSearchIndex.md
-previousSectionTitle: "KDS device bump bar integration"
+previousSectionFile: adminGuide-platformKitchenBumpBarIntegrationOverview.md
+previousSectionTitle: "Bump bar integration overview"
 nextSectionFile: adminGuide-platformKitchenUsingBumpBars.md
 nextSectionTitle: "Using the bump bar"
 externalReferences: [https://central.toasttab.com/s/article/Toast-Hardware-Installation-Guide, https://central.toasttab.com/s/article/Toast-Flex-22-Installation-Guide]
@@ -108,7 +108,7 @@ Once this bump bar is connected, these initial settings are saved if the bump ba
 
 #### Setting up a wireless bump bar
 
-To set up the wireless bump bar to work with your KDS device, you first need to connect the wireless bump bar, and then complete the set up process for the wireless bump bar on your KDS device. Before starting, verify that your [KDS device uses grid view](adminKitchenDisplaySystemOmitChunkFromSearchIndex.html#platformGridKDSSetUp).
+To set up the wireless bump bar to work with your KDS device, you first need to connect the wireless bump bar, and then complete the set up process for the wireless bump bar on your KDS device. Before starting, verify that your [KDS device uses grid view](platformKDSOverview.html#platformGridKDSSetUp).
 
 
 

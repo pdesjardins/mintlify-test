@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformSettingsCopyOmitChunkFromSearchIndex.md
 parentSectionTitle: "Settings copy feature"
-previousSectionFile: adminGuide-platformSettingsCopyOmitChunkFromSearchIndex.md
-previousSectionTitle: "Settings copy feature"
+previousSectionFile: adminGuide-platformSettingsCopyOverview.md
+previousSectionTitle: "Settings copy overview"
 nextSectionFile: adminGuide-platformSettingsCopyReviewingActivityTable.md
 nextSectionTitle: "Reviewing past copies made using the settings copy feature"
 excerpt: "The..."
@@ -38,16 +38,16 @@ Tags include the number of settings with that tag on that page or in that sectio
 
 > **Note**
 > 
-> Before you copy the settings, make sure copying does not disrupt any of the target locations. Copying settings using the settings copy feature requires publishing at each target location in order to take effect. For more information, see [How to publish changes](platformPublishingDocsOmitChunkFromSearchIndex.html#platformHowToPublish).
+> Before you copy the settings, make sure copying does not disrupt any of the target locations. Copying settings using the settings copy feature requires publishing at each target location in order to take effect. For more information, see [How to publish changes](platformHowToPublish.html).
 
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 
 > **Note**
 > 
->  The [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) should be the location with the settings you want to apply to other locations.
+>  The [session restaurant](sessionRestaurant.html) should be the location with the settings you want to apply to other locations.
 
 
 
@@ -112,7 +112,7 @@ Tags include the number of settings with that tag on that page or in that sectio
 ![The Actitvity table showing past copies on the Settings copy page.](https://doc.toasttab.com/doc/media/mlx-settings-copy-activity-table.png)
 
 
-11. On the Toast account > Publishing > Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingPublishConfigPage).
+11. On the Toast account > Publishing > Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage).
 
 
 

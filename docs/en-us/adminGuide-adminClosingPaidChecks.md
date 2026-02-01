@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformCheckManagementOmitChunkFromSearchIndex.md
 parentSectionTitle: "Check management"
-previousSectionFile: adminGuide-platformCheckManagementOmitChunkFromSearchIndex.md
-previousSectionTitle: "Check management"
+previousSectionFile: adminGuide-platformCheckManagement.md
+previousSectionTitle: "Check management overview"
 nextSectionFile: adminGuide-platformOrdersReopening.md
 nextSectionTitle: "Reopening closed checks"
 excerpt: "When a guest uses a credit card to pay for an order, the credit card is initially charged for the order itself. The check status changes from open to paid. The final amount charged might then be..."
@@ -41,7 +41,7 @@ Closing paid checks involves the following permissions:
 
 
 ****Access mode permissions****
-: [Access "mode" permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminModePermissions)provide access to the areas of the Toast POS app where the close check options are located.
+: [Access "mode" permissions](adminPermissions.html#adminModePermissions)provide access to the areas of the Toast POS app where the close check options are located.
 
 For closing multiple checks, you must have **Table Service Mode**, **Quick Order Mode**, or **Payment Terminal Mode**.
 
@@ -50,14 +50,14 @@ For closing a single check, you must have **Table Service Mode** or **Quick Orde
 
 
 ****Bulk Close Paid Checks****
-: The [Bulk Close Paid Checks](platformEmployeesOmitChunkFromSearchIndex.html#permissionBulkClosePaidChecks) permission allows you to close multiple checks in a single operation.
+: The [Bulk Close Paid Checks](adminPermissions.html#permissionBulkClosePaidChecks) permission allows you to close multiple checks in a single operation.
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Edit Other Employees' Orders****
-: The [Edit Other Employees' Orders](platformEmployeesOmitChunkFromSearchIndex.html#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
+: The [Edit Other Employees' Orders](adminPermissions.html#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
 
 If you have this permission, then you can close checks that are assigned to a different employee.
 

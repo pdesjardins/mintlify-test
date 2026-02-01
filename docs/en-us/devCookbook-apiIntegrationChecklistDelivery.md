@@ -19,7 +19,7 @@ codeExamples: 0
 
 Follow the steps below to build a delivery dispatch integration with the Toast platform.
 
-This integration allows you to provide dispatch information to restaurants and guests for delivery orders throughout the delivery process. If you support [first-party delivery](adminDeliveryAndTDSOmitChunkFromSearchIndex.html#adminDeliveryOverview), this integration also allows you to update the employee associated with delivery orders.
+This integration allows you to provide dispatch information to restaurants and guests for delivery orders throughout the delivery process. If you support [first-party delivery](adminDeliveryOverview.html), this integration also allows you to update the employee associated with delivery orders.
 
 #### Required scopes
 
@@ -56,7 +56,7 @@ You can retrieve a list of your current scopes through your [Toast developer por
 
 ##### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devPortalCookbookHowToOmitChunkFromSearchIndex.html#apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
 ##### Toast Web requirements
 
@@ -64,13 +64,13 @@ Within Toast Web, restaurants must enable first-party delivery in their delivery
 
 ##### Learn order structure concepts
 
-To successfully retrieve information relevant to delivery orders, familiarize yourself with the structure of an order by reading the [Orders API overview](apiOrdersOmitChunkFromSearchIndex.html#portalOrdersApiOverview) and [Order object summary](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersOrderObjectSummary). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
+To successfully retrieve information relevant to delivery orders, familiarize yourself with the structure of an order by reading the [Orders API overview](portalOrdersApiOverview.html) and [Order object summary](apiOrdersOrderObjectSummary.html). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
 ##### Retrieve configuration information
 
 Use the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) to retrieve the dining options configuration you need to dispatch drivers and deliver orders.
 
-Use the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/) to retrieve general information about the configuration of a restaurant. If you support [first-party delivery](adminDeliveryAndTDSOmitChunkFromSearchIndex.html#adminDeliveryOverview), the delivery area configured by restaurants in Toast Web is available in the restaurants API. The delivery area is only configurable when restaurants have first-party delivery enabled. To learn more about how restaurants configure their delivery area, see [Configuring your delivery area](adminConfigureDeliveryArea.html).
+Use the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/) to retrieve general information about the configuration of a restaurant. If you support [first-party delivery](adminDeliveryOverview.html), the delivery area configured by restaurants in Toast Web is available in the restaurants API. The delivery area is only configurable when restaurants have first-party delivery enabled. To learn more about how restaurants configure their delivery area, see [Configuring your delivery area](adminConfigureDeliveryArea.html).
 
 To ensure you have the latest restaurant configuration, poll the configuration API and restaurants API once per restaurant location per day, and update configuration information in your system based on anything that was added, updated, or deleted.
 

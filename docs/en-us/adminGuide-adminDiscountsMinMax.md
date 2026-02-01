@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminDiscountsOverallAvailabilityOmitChunkFromSearchIndex.md
 parentSectionTitle: "Configuring discount availability and status"
-previousSectionFile: adminGuide-adminDiscountsOverallAvailabilityOmitChunkFromSearchIndex.md
-previousSectionTitle: "Configuring discount availability and status"
+previousSectionFile: adminGuide-adminDiscountAvailability.md
+previousSectionTitle: "Setting the availability date range for a discount"
 nextSectionFile: adminGuide-adminDiscountsActiveInactive.md
 nextSectionTitle: "Making a discount active or inactive"
 excerpt: "You can configure..."

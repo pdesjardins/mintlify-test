@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminWorkingWithJobsAndEmployeesInEnterprisesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Jobs and employees in enterprises"
-previousSectionFile: adminGuide-adminWorkingWithJobsAndEmployeesInEnterprisesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Jobs and employees in enterprises"
+previousSectionFile: adminGuide-adminEnterpriseJobsAndEmployeesOverview.md
+previousSectionTitle: "Enterprise jobs and employees overview"
 nextSectionFile: adminGuide-adminAssigningRestaurantAccess.md
 nextSectionTitle: "Assigning restaurant access"
 excerpt: "Toast Web allows you to create jobs and then assign those jobs to your employees. When you create a job in an enterprise environment, you specify:"
@@ -53,7 +53,7 @@ When you select individual locations, the job is available at those locations on
 
 To de-select a restaurant group or location, click its name again to remove the check mark. When you de-select a restaurant group, its children are automatically de-selected, too.
 
-Note that when you create an enterprise job on the Create Job page, you can configure that job to apply to any portion of your restaurant group hierarchy, regardless of which location you are currently logged into (also known as the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant)). However, you should be aware that, if you configure the job to apply to a portion of the hierarchy that does not include the session restaurant, then you will not see that job on the Jobs page you get redirected to immediately after creating the job. For example, if you are current logged into the Boston location and you create a job that applies to the Southeast portion of the restaurant group hierarchy shown below, the job will be created but you will not see it in the list of jobs on the Jobspage while you are logged into the Boston location. To see this job, you must log into the Atlanta or Charlotte location (that is, one of the locations that the job applies to).
+Note that when you create an enterprise job on the Create Job page, you can configure that job to apply to any portion of your restaurant group hierarchy, regardless of which location you are currently logged into (also known as the [session restaurant](sessionRestaurant.html)). However, you should be aware that, if you configure the job to apply to a portion of the hierarchy that does not include the session restaurant, then you will not see that job on the Jobs page you get redirected to immediately after creating the job. For example, if you are current logged into the Boston location and you create a job that applies to the Southeast portion of the restaurant group hierarchy shown below, the job will be created but you will not see it in the list of jobs on the Jobspage while you are logged into the Boston location. To see this job, you must log into the Atlanta or Charlotte location (that is, one of the locations that the job applies to).
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-applies-to-menu-deselecting.PNG)
 

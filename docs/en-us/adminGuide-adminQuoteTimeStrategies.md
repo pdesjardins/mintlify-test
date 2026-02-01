@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminQuoteTimeStrategyOmitChunkFromSearchIndex.md
 parentSectionTitle: "Quote time strategy"
-previousSectionFile: adminGuide-adminQuoteTimeStrategyOmitChunkFromSearchIndex.md
-previousSectionTitle: "Quote time strategy"
+previousSectionFile: adminGuide-adminQuoteTimeStrategyOverview.md
+previousSectionTitle: "Quote time strategy overview"
 nextSectionFile: adminGuide-adminQuoteTimeStrategySettings.md
 nextSectionTitle: "Quote time strategy settings"
 excerpt: "The following sections describe the various quote time strategies available."

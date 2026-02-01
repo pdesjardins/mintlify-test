@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Getting payment information"
-previousSectionFile: apiDevGuide-apiGettingPaymentInformationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Getting payment information"
+previousSectionFile: apiDevGuide-apiAllPaymentsInRestaurants.md
+previousSectionTitle: "Getting all payments for a restaurant"
 nextSectionFile: apiDevGuide-portalSubmittingPaymentsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Updating payment information"
 externalReferences: [https://doc.toasttab.com/openapi/orders/overview/]

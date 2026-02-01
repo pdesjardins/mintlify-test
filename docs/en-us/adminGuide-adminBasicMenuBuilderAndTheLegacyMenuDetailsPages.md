@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminCreatingYourMenuUsingTheBasicMenuBuilderOmitChunkFromSearchIndex.md
 parentSectionTitle: "Menu builder"
-previousSectionFile: adminGuide-adminCreatingYourMenuUsingTheBasicMenuBuilderOmitChunkFromSearchIndex.md
-previousSectionTitle: "Menu builder"
+previousSectionFile: adminGuide-adminMenuBuilderOverview.md
+previousSectionTitle: "Menu builder overview"
 nextSectionFile: adminGuide-adminUnderstandingTheMenuHierarchy.md
 nextSectionTitle: "Understanding the menu hierarchy"
 excerpt: "The Toast platform currently has two workflow for menu creation, the menu builder workflow and the classic menu workflow. You access both workflows through Toast Web. The menu builder is a new,..."

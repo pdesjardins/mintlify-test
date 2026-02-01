@@ -21,7 +21,7 @@ If you enter prep times for your menu items, the Toast platform uses them to tim
 
 To verify that this feature is enabled for your restaurant, you must have the Web Setup > Kitchen / Dining Room Setupaccess permission. Then, follow these steps.
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Pacing > Meal pacingto open the Meal pacing page.

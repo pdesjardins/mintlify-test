@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex.md
 parentSectionTitle: "Getting restaurant info"
-previousSectionFile: apiDevGuide-apiGettingRestaurantInfoOmitChunkFromSearchIndex.md
-previousSectionTitle: "Getting restaurant info"
+previousSectionFile: apiDevGuide-apiRestaurantsInGroup.md
+previousSectionTitle: "Getting all restaurants in a management group"
 nextSectionFile: apiDevGuide-apiRestaurantOnlineOrderingInfo.md
 nextSectionTitle: "Online ordering configuration"
 excerpt: "Send a GET request to the /restaurants/v1/restaurants/{restaurantGUID} endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a..."

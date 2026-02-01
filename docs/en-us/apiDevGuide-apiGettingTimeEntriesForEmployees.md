@@ -1,0 +1,158 @@
+---
+title: "Getting time entries for employees"
+id: apiGettingTimeEntriesForEmployees
+type: section
+documentId: apiDevGuide
+parentSectionFile: apiDevGuide-portalApiGettingEmployeeInformationOmitChunkFromSearchIndex.md
+parentSectionTitle: "Getting employee information"
+previousSectionFile: apiDevGuide-api_get_all_employees.md
+previousSectionTitle: "Getting all employees of a restaurant"
+nextSectionFile: apiDevGuide-apiGettingShiftAssignmentsForEmployees.md
+nextSectionTitle: "Getting shift assignments for employees"
+externalReferences: [https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961]
+excerpt: "To get the time entry records for the..."
+keywords: [/labor/v1/timeEntries,outDate,nonCashSales]
+procedures: 0
+codeExamples: 0
+---
+
+### Getting time entries for employees
+
+To get the time entry records for the employees at your restaurant, send a `GET` request to the `/labor/v1/timeEntries` resource of the labor API. Time entries record information about the shifts that employees complete. The response contains an array of time entry objects that contain information about the time entries.
+
+If an employee has not clocked out of the work shift, the `outDate` value for the time entry is `null`. The time entry period is not yet complete. Time entry values can change as the server takes new orders and payments during an active work shift.
+
+When the employee clocks out, the `outDate` value is set to the date and time that the employee closed the work shift. The time entry is then complete. At this point, the monetary values in the time entry are static and are not updated by other activities in the restaurant. For example, if an employee has $100 of non-cash sales in their time entry when they clock out, and then an order of $10 non-cash sales is later transferred to the employee, the `nonCashSales` value of the time entry is still $100, not $110. The same applies to tips.
+
+#### Example request for employee time entries
+
+The following example **curl** command sends a `GET` request to the `/labor/v1/timeEntries` endpoint.
+
+**Example 7.3. Example request to GET the time entries for restaurant employees**
+
+```
+curl -v -X GET \
+-H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
+oiQ1JVTkNIVElNRSIsInJzR3VpZCI6IjE4YzQ5YWJlLWFlODItNGFlYy04ND
+M1LWJhYTRjMjVlYTY2MiIsInNjb3BlIjpbImxWQiOlsidG9hc3QiXSwibmFt
+aW5nQXV0aGhYm9yIiwib3JkZXJzIiwidXNlcm1nbXQiXSwiZXhwIjoxNDg0M
+zg5ODUwLCJqdGkiOiJlMDYzZjJkMy1jNGYyLTRiZjItODJmNi01MTg1NWMzZ
+DAxM2YiLCJjbGllbnRfaWQiOiJjcnVuY2h0aW1lIn0.X1_0y9Hzj5F9gdOw2
+o6VSYTyZwooAJiFMDmNakbZrtiUdYwLzuLwLpCMQzX5pKYtOqDUz_cetGJL3
+txKL1L-K2j1Enoq8An8hEM6e8J0KdAiwrYFO3W3CmWedaoz95K9ghNZVCs28
+Td2Sp3Ix3fObxbrvanocx9_OT8S9uM8hdSXmBI_ykTWvOVgK4hO24V3DJy4b
+9bz1FtgOvrClhELxCe8dJy7jiwAR60xczlCF5rna98RMLN6zY4ffjmljKFZ6
+QV0KkVppWjEiJn7oFHiIylCX1sSg7sddrGatj0xJzts3GJ8u8_lryUNHaEvJ
+dWq4Yzwo007AMgxjH9d241Y-g" \
+-H "Toast-Restaurant-External-ID: 4622e7a9-b4be-3fef-9220-b3dad273e0b4" \[(1)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e15283A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
+"https://`[toast-api-hostname]`/labor/v1/timeEntries?startDate=[(2)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
+2018-11-14T01:00:00.000-0000&endDate=2018-11-16T01:00:00.000-0000
+&includeMissedBreaks=true"[(3)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e15983A590EF-007A-48DE-8B8A-FE6BF2FE2ADA-co)
+```
+
+
+
+(1) Specify the GUID of the restaurant that you want to GET time entries for. This must be an individual restaurant, not the GUID for a restaurant group.
+
+(2) Specify the start and end dates of the time period you want to GET time entries for. You can select a period of up to 30 days.
+
+(3) The timeEntries endpoint accepts the includeMissedBreaks query parameter. If you set the value of includeMissedBreaks to true, the timeEntries endpoint returns TimeEntryBreak objects for scheduled break periods even if an employee did not take them. The includeMissedBreaks parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.
+
+  
+#### Example response
+
+The following example shows a time entry for an employee.
+
+**Example 7.4. Example response containing an employee time entry**
+
+```
+[
+  {[(1)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e21739786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "guid": "26ac616b-b0d2-4d4e-b89b-62291be33d80",
+    "entityType": null,
+    "externalId": null,
+    "nonCashSales": 0,[(2)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e21939786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "outDate": "2018-11-15T19:17:34.653+0000",[(3)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22139786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "overtimeHours": 0,
+    "breaks": [[(4)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22339786C5B-846E-4DDA-823C-AF858E53331A-co)
+      {
+        "breakType": {
+          "guid": "8ed442b0-ca52-416d-8976-f941184eba15",
+          "entityType": "BreakType"
+        },
+        "paid": true,
+        "inDate": "2018-11-15T14:19:27.043+0000",
+        "outDate": "2018-11-15T14:30:35.490+0000",
+        "missed": false,
+        "auditResponse": true
+      },
+      {
+        "breakType": {
+          "guid": "8ed442b0-ca52-416d-8976-f941184eba15",
+          "entityType": "BreakType"
+        },
+        "paid": true,
+        "inDate": "2018-11-15T18:13:46.894+0000",
+        "outDate": null,
+        "missed": true,
+        "auditResponse": true
+      }
+    ],
+    "employeeReference": {[(5)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22539786C5B-846E-4DDA-823C-AF858E53331A-co)
+      "guid": "a0c9070e-fffd-4e97-b3ea-fc356fbf9224",
+      "entityType": "RestaurantUser",
+      "externalId": null
+    },
+    "shiftReference": "56387b8e-78df-47a4-9395-e5e1cb3f04d1",[(6)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#shiftReferenceDescription)
+    "nonCashGratuityServiceCharges": 0,[(7)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e22839786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "inDate": "2018-11-15T14:14:46.894+0000",
+    "regularHours": 5.046599722222222,
+    "jobReference": {[(8)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23039786C5B-846E-4DDA-823C-AF858E53331A-co)
+      "guid": "8b623183-7d6f-4f7c-babb-e74fe722ad30",
+      "entityType": "RestaurantJob",
+      "externalId": null
+    },
+    "tipsWithheld": 0,[(9)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23239786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "businessDate": "20181115",
+    "cashGratuityServiceCharges": 12.95,[(10)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23439786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "createdDate": "2018-11-15T14:14:47.503+0000",
+    "deleted": false,
+    "deletedDate": null,
+    "cashSales": 139.02,[(11)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23639786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "hourlyWage": 7.5,
+    "nonCashTips": 0,[(12)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e23839786C5B-846E-4DDA-823C-AF858E53331A-co)
+    "modifiedDate": "2018-11-15T19:17:35.801+0000",
+    "declaredCashTips": 30[(13)](apiDevGuide-apiGettingTimeEntriesForEmployees.html#d1e24139786C5B-846E-4DDA-823C-AF858E53331A-co)
+  }
+]
+```
+
+
+
+(1) The GET request returns an array of time entry objects. Each object contains information about an employee's shift.
+
+(2) The nonCashSales value shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts.For example, nonCashSales includes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web.If the outDate value for the time entry is null, then the time entry period is not complete, and the sales totals are 0. If the outDate value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
+
+(3) The time entry object contains information about the shift worked. For example, this outDate value specifies the date and time that the employee clocked out (the value is null if the employee has not clocked out).
+
+(4) The breaks array contains break type objects that contain information about breaks taken by the employee:breakType is the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant.inDate specifies when the employee started the break and outDate is when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated).paid is a Boolean value that indicates whether the employee was paid for the break. If the value is true, the employee was paid for the break. If the value is false, the employee was not paid for the break.missed is a Boolean value that indicates whether the employee took the break. If the value is true, the employee did not take the break. If the value is false, the employee did take the break.auditResponse is a Boolean value that indicates whether the employee was asked to take the break. If the value is true, the employee was asked to take the break. If the value is false, the employee was not asked to take the break. If the value is null, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device.For information on configuring missed breaks and break acknowledgements, see Tracking missed breaks and acknowledging breaks in the Toast Platform Guide.
+
+(5) The employeeReference value specifies the employee who worked the shift.
+
+ The GUID of the Shift object associated with this time entry. The shiftReference value on a TimeEntry object is only populated if the restaurant uses Toast's clock-in enforcement feature, and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the shiftReference value is null.
+
+(7) The nonCashGratuityServiceCharges value is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).
+
+(8) The jobReference value specifies the job that the employee performed.
+
+(9) The tipsWithheld value specifies the amount withheld from the employee's credit card tips.
+
+(10) The cashGratuityServiceCharges value is the amount of gratuity service charges paid in cash to the employee.
+
+(11) The cashSales value shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts.If the outDate value for the time entry is null (the time entry period is not complete), the sales totals are 0. If the outDatevalue for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
+
+(12) The nonCashTips value lists the total amount of tips paid to the employee in non-cash tender.
+
+(13) The declaredCashTips value is the amount of tips paid to the employee in cash.
+
+  

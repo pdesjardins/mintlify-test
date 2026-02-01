@@ -41,7 +41,7 @@ You can include a description of the reason that you give a guest credit. The re
 3. Enter the guest's telephone number, name, or email address. Select the magnifying glass key to search for an existing guest record.
 
 
-4. Choose the guest's record from the list of search results. If you do not find an existing guest record, use the Add New Customer function to create a new record. For more information, see [Adding a guest record](devPortalPlatformGuideGuestsOmitChunkFromSearchIndex.html#adminAddingCustomers).
+4. Choose the guest's record from the list of search results. If you do not find an existing guest record, use the Add New Customer function to create a new record. For more information, see [Adding a guest record](adminAddingCustomers.html).
 
 The guest record displays the currency value of the credits that are available to the guest.
 

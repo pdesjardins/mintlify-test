@@ -55,7 +55,7 @@ As you work with change sets, here are some additional points to keep in mind:
 
 #### Scheduled publishing permissions
 
-Employees that have the 6. Web Setup > 6.7 Change sets permission to the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
+Employees that have the 6. Web Setup > 6.7 Change sets permission to the [session restaurant](sessionRestaurant.html) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
 
 The 6.7 Change sets permission only gives you permission to work with the change sets themselves. To work with the changes *stored* in a change set, you must have additional permissions specific to the changes you want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, you must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store your edits in a change set. For more information on menu manager permissions, see [Menu manager permissions](platformMenuManagerPermissions.html).
 
@@ -192,7 +192,7 @@ You can create a new, empty change set from the publishing center and then [add 
 
 **Procedure 7.3. To create a new change set**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Navigate to the Toast account > Publishing > Publishing center page.
@@ -371,9 +371,9 @@ The table below describes the error codes that you may see in the `publishing_er
 > The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](platformPublishingMenuManagerChanges.html#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
 
 
-To resolve the `ErrorConfigNeverPublished` error, [manually publish](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully. | 
-| `ErrorInternalPublishing` | An internal error has occurred while publishing changes. The `locationName` column lists the location where changes failed to publish. Try [manually publishing](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingOverview) changes for this location or contact Toast support for further assistance.  | 
-| `ErrorInternalJobExecution` | An internal error has occurred while executing the scheduled change set. Changes may be reflected in saved data, but no restaurant will receive published changes. Try [manually publishing](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingOverview) your changes or contact Toast support for further assistance.  | 
+To resolve the `ErrorConfigNeverPublished` error, [manually publish](platformPublishingOverview.html) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully. | 
+| `ErrorInternalPublishing` | An internal error has occurred while publishing changes. The `locationName` column lists the location where changes failed to publish. Try [manually publishing](platformPublishingOverview.html) changes for this location or contact Toast support for further assistance.  | 
+| `ErrorInternalJobExecution` | An internal error has occurred while executing the scheduled change set. Changes may be reflected in saved data, but no restaurant will receive published changes. Try [manually publishing](platformPublishingOverview.html) your changes or contact Toast support for further assistance.  | 
 
 ##### Menu update error codes
 

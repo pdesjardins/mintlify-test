@@ -18,7 +18,7 @@ codeExamples: 0
 
 For the Toast POS devices in your restaurant to record orders and display them for fulfillment effectively, you can configure each device individually with the Device Setup option.
 
-To configure a device you must have at least one of these ["mode" access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminModePermissions).
+To configure a device you must have at least one of these ["mode" access permissions](adminPermissions.html#adminModePermissions).
 
 - 1.1 Table Service Mode
 
@@ -50,7 +50,7 @@ Your complete set of assigned access permissions determines the options that app
 
 2. Navigate to the Setup section, and select Device Setup. A list of the configuration options that you can set for this device, and their current settings, appears.
 
-Your assigned access permissions determine the set of device setup options that appear. For more information, see [Permissions for accessing device setup options](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissionsDeviceSetupOptions).
+Your assigned access permissions determine the set of device setup options that appear. For more information, see [Permissions for accessing device setup options](adminPermissions.html#adminPermissionsDeviceSetupOptions).
 
 
 3. To change a setting, select the setting name then make your selections on the screen or screens that follow.

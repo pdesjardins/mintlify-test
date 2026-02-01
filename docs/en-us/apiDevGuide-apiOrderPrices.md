@@ -21,7 +21,7 @@ Order price information includes menu item prices, service charges, and taxes.
 
 #### Getting check prices before you submit an order
 
-Before you can `POST` an order to the `/orders`endpoint, you must first obtain the order price information for the order. For an overview of the order creation process, including the step to obtain the order prices, see [Order creation process for the orders API](portalCreatingAndUpdatingOrdersOmitChunkFromSearchIndex.html#apiOrdersCreationProcess).
+Before you can `POST` an order to the `/orders`endpoint, you must first obtain the order price information for the order. For an overview of the order creation process, including the step to obtain the order prices, see [Order creation process for the orders API](apiCreatingOrders.html#apiOrdersCreationProcess).
 
 To get the price information, you send a `POST` request to the `/prices` endpoint of the orders API. The request contains an `Order` object with the information about the order.
 
@@ -69,7 +69,7 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 
 ##### Response data from the /prices endpoint
 
-The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiOrdersOmitChunkFromSearchIndex.html#apiOrderObjectAmounts).
+The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiOrdersOrderObjectSummary.html#apiOrderObjectAmounts).
 
 The following example shows the response data returned by the `/prices` endpoint of the orders API.
 
@@ -295,7 +295,7 @@ You can apply general upcharges, or service charges, to checks when you create a
 
 Before you can apply a service charge, restaurants must configure the service charge in Toast Web. You then use the service charge GUID to add the service charge to the check. To retrieve the service charge GUID, you can use the configuration API.
 
-For more information about service charges and how restaurants configure them, see [Service charge overview](adminServiceChargesOmitChunkFromSearchIndex.html#adminServiceChargeOverview) in the *Toast Platform Guide*.
+For more information about service charges and how restaurants configure them, see [Service charge overview](adminServiceChargeOverview.html) in the *Toast Platform Guide*.
 
 ##### Getting the available service charges
 

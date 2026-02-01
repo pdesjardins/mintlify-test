@@ -52,9 +52,9 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
 | Status code | Name | Description | 
 | --- | --- | --- |
 | 400 | Bad Request | The API request triggered a known error.A 400 status code often occurs when the syntax of the request is incorrect or the body of a `POST` request is not structured correctly.You are responsible for evaluating the [error message](apiResponsesAndErrors.html#apiErrorMessage) returned in the API error response in order for future API requests to avoid this error. | 
-| 401 | Unauthorized | The authentication token you submitted is not a recognized Toast API [authentication token](authenticationOmitChunkFromSearchIndex.html#getting-authentication-token).It is possible that you are submitting an authentication token that has expired and you need to request a new token. | 
-| 403 | Forbidden | You are not permitted to access the resource that you are attempting to access.This error often occurs when:- You try to access a restaurant that is not [connected to your integration](apiPartnersGettingAccessibleRestaurants.html) (if using a [partner API client](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataPartner)).
-- You try to access a restaurant that is not [within the management group you work with](apiGettingRestaurantInfoOmitChunkFromSearchIndex.html#apiRestaurantsInGroup) (if using a [restaurant management group client](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant)).
+| 401 | Unauthorized | The authentication token you submitted is not a recognized Toast API [authentication token](authentication.html#getting-authentication-token).It is possible that you are submitting an authentication token that has expired and you need to request a new token. | 
+| 403 | Forbidden | You are not permitted to access the resource that you are attempting to access.This error often occurs when:- You try to access a restaurant that is not [connected to your integration](apiPartnersGettingAccessibleRestaurants.html) (if using a [partner API client](authentication.html#apiAuthenticationReturnDataPartner)).
+- You try to access a restaurant that is not [within the management group you work with](apiRestaurantsInGroup.html) (if using a [restaurant management group client](authentication.html#apiAuthenticationReturnDataRestaurant)).
 - Your API credentials do not have the proper authorization to use the API you are trying to use.
 
  | 

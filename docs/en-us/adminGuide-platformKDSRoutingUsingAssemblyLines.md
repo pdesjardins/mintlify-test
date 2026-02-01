@@ -53,7 +53,7 @@ For example, you have a Pizza assembly line applied to all items in the Pizza me
 
 Your restaurant uses a prep station KDS device for each of these prep stations, and an expediter KDS device.
 
-A Veggie Pizza item is assigned to all of these prep stations. When the item is sent to the kitchen, it first appears at the **Dough** prep station KDS device and the expediter KDS device. Once fulfilled at the **Dough** prep station KDS device, the item appears at the **Sauce** prep station KDS device. Once the item is fulfilled at the first prep station in the sequence, a yellow dot appears next to the item on the expediter ticket. This indicates that work on the item started and is not yet complete for fulfillment at the expediter. For more information, see [Partial fulfillment indicator](adminKitchenDisplaySystemOmitChunkFromSearchIndex.html#platformGridKDSPartialFulfillmentIndicator).
+A Veggie Pizza item is assigned to all of these prep stations. When the item is sent to the kitchen, it first appears at the **Dough** prep station KDS device and the expediter KDS device. Once fulfilled at the **Dough** prep station KDS device, the item appears at the **Sauce** prep station KDS device. Once the item is fulfilled at the first prep station in the sequence, a yellow dot appears next to the item on the expediter ticket. This indicates that work on the item started and is not yet complete for fulfillment at the expediter. For more information, see [Partial fulfillment indicator](platformKDSOverview.html#platformGridKDSPartialFulfillmentIndicator).
 
 This process continues from the **Sauce** prep station, to the **Cheese** prep station, to the **Toppings** prep station, and then to the **Bake** prep station. Once the item is completed at the **Bake** prep station, the item has completed the assembly line and is marked as completed at all prep stations on the expediter KDS device with a green check mark icon.
 
@@ -117,7 +117,7 @@ The Caesar Salad modifier is assigned the following assembly line and all prep s
 
 When the Caesar Salad item is a modifier for the Cheese Pizza item, the ticket for the Cheese Pizza item with a Caesar Salad modifier appears immediately at the **Salad** and **Dough** prep stations. The **Salad** prep station is outside of the Cheese Pizza item’s assembly line, so the ticket appears at the prep station immediately and not at a certain point in the assembly line sequence. Once the ticket is completed at the **Dough** prep station, it moves to the **Sauce** prep station. Once completed at the **Sauce** prep station, it moves to the **Cheese** prep station. Once completed at the **Cheese** prep station, the ticket moves to the **Toppings** prep station. The Cheese Pizza item still appears at the **Toppings** prep station, even though it is not an assigned prep station, because the Caesar Salad modifier does have **Toppings** as a prep station. The Caesar Salad item follows the sequence for the **Cheese** and **Toppings** prep stations used by the Cheese Pizza item’s assembly line, instead of the sequence originally assigned.
 
-To configure items that act as modifiers to follow the assembly line they are assigned, you can choose to route modifiers separately from their parent items using the [Modifier Routing](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configModifierRouting) setting. Otherwise, the parent item and modifier are shown together.
+To configure items that act as modifiers to follow the assembly line they are assigned, you can choose to route modifiers separately from their parent items using the [Modifier Routing](adminKitchenDiningRoomReference.html#configModifierRouting) setting. Otherwise, the parent item and modifier are shown together.
 
 #### Ticket splitting
 
@@ -128,7 +128,7 @@ To configure items that act as modifiers to follow the assembly line they are as
 > This feature is only available for assembly lines.
 
 
-If you [enable individual item fulfillment](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems), when you fulfill an individual item on a ticket in an assembly line, the item separates from the rest of the ticket and continues to the next prep station in the sequence. If you select more than one item, all items separate and appear on a new ticket on the next prep station in the sequence. The items appear on the next prep station in a sequence in the order they are fulfilled at the previous prep station.
+If you [enable individual item fulfillment](adminKitchenDiningRoomReference.html#configFulfillItems), when you fulfill an individual item on a ticket in an assembly line, the item separates from the rest of the ticket and continues to the next prep station in the sequence. If you select more than one item, all items separate and appear on a new ticket on the next prep station in the sequence. The items appear on the next prep station in a sequence in the order they are fulfilled at the previous prep station.
 
 For example, an order includes a BBQ Chicken Pizza item, Veggie Pizza item, and a Cheese Pizza item. They all use the same assembly line and are assigned all prep stations used in that assembly line:
 
@@ -142,7 +142,7 @@ For example, an order includes a BBQ Chicken Pizza item, Veggie Pizza item, and 
 
 
 
-You do not use [individual item tickets](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configIndividualTickets), so all three items appear on the same ticket at the **Dough** prep station when sent to the kitchen.
+You do not use [individual item tickets](adminKitchenDiningRoomReference.html#configIndividualTickets), so all three items appear on the same ticket at the **Dough** prep station when sent to the kitchen.
 
 The ticket is fulfilled at the **Dough** prep station, and appears at the **Sauce/Toppings** prep station.
 
@@ -187,7 +187,7 @@ The following procedure is for assigning assembly lines to multiple menu entitie
 
 **Procedure 10.14. To assign assembly lines to menu entities using the Advanced properties page**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
@@ -219,10 +219,10 @@ The following procedure is for assigning assembly lines to multiple menu entitie
 
 > **Note**
 > 
-> Use the Full menu view of the [menu manager page](platformMenuManagerOmitChunkFromSearchIndex.html#platformBulkMenuManagerOverview) to add assembly lines to menus, menu groups, and menu items.
+> Use the Full menu view of the [menu manager page](platformBulkMenuManagerOverview.html) to add assembly lines to menus, menu groups, and menu items.
 
 
-Use the Full menu view of the [menu manager page](platformMenuManagerOmitChunkFromSearchIndex.html#platformBulkMenuManagerOverview)to add assembly lines to menus, menu groups, and menu items for single-location restaurants. For information about adding assembly lines to menu entities for multi-location restaurants, see [Assigning assembly lines to menu entities for multi-location restaurants](platformKDSRoutingUsingAssemblyLines.html#platformKDSAssignAssemblyLinesMultiLocation).
+Use the Full menu view of the [menu manager page](platformBulkMenuManagerOverview.html)to add assembly lines to menus, menu groups, and menu items for single-location restaurants. For information about adding assembly lines to menu entities for multi-location restaurants, see [Assigning assembly lines to menu entities for multi-location restaurants](platformKDSRoutingUsingAssemblyLines.html#platformKDSAssignAssemblyLinesMultiLocation).
 
 To set an assembly line for a menu, go to the Kitchen prep section of the menu's details page and select the assembly line to which items ordered from the menu should be routed.
 
@@ -240,7 +240,7 @@ To override the inherited assembly line for a menu item, go to the Kitchen secti
 
 To configure a menu item to inherit its assembly line, set the Inherit assembly line? setting to Yes.
 
-If you do not have any assembly lines configured yet, use the Manage assembly lines link to go to the Assembly Lines page where you can create them. For more information on creating assembly lines, see [Creating an assembly line](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#platformKDSCreatingAssemblyLines).
+If you do not have any assembly lines configured yet, use the Manage assembly lines link to go to the Assembly Lines page where you can create them. For more information on creating assembly lines, see [Creating an assembly line](platformKDSCreatingAssemblyLines.html).
 
 ##### Assigning assembly lines to menu entities for multi-location restaurants
 
@@ -248,7 +248,7 @@ The following procedure is for assigning assembly lines to menu entities for mul
 
 **Procedure 10.15. To assign assembly lines to menu entities for multi-location restaurants**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.

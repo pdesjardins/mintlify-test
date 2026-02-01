@@ -22,7 +22,7 @@ codeExamples: 2
 
 > **Important**
 > 
-> The menus API has replaced the configuration API as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval.
+> The menus API has replaced the configuration API as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](apiGettingMenuInformationFromTheMenusAPI.html) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval.
 
 
 This section explains how to use the Toast configuration API to get menu information for a restaurant.

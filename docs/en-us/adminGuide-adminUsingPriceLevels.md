@@ -25,7 +25,7 @@ To use a price level, you must first create it, and then you assign it to the me
 
 **Procedure 8.118. To create a price level**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Settings > Price levels to open the Price levelspage.
@@ -49,7 +49,7 @@ To use a price level, you must first create it, and then you assign it to the me
 
 **Procedure 8.119. To assign a price level to a menu item**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
@@ -73,7 +73,7 @@ To use a price level, you must first create it, and then you assign it to the me
 
 **Procedure 8.120. To assign a price level to a menu group**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
@@ -104,7 +104,7 @@ By default, price levels use the Base Price pricing strategy. Price levels can a
 
 **Procedure 8.121. To change the pricing strategy of a price level**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Settings > Price levels to open the Price levelspage.

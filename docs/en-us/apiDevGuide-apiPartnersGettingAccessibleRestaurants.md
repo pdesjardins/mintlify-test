@@ -23,11 +23,11 @@ If you need to retrieve information about the restaurants you can access indepen
 
 The payload returned by both the partners webhook and the partners API includes location and group identifiers. You can use these identifiers to map restaurants in your system to Toast's restaurants and GUIDs. For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs).
 
-This information only applies if you use a [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts). Integrations that use [restaurant management group API accounts](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant) cannot use the partners webhook or partners API.
+This information only applies if you use a [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts). Integrations that use [restaurant management group API accounts](authentication.html#apiAuthenticationReturnDataRestaurant) cannot use the partners webhook or partners API.
 
 #### Getting the restaurants you can access
 
-Restaurant employees who have the Account Admin > Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions).
+Restaurant employees who have the Account Admin > Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](adminPermissions.html).
 
 When a restaurant employee selects your partner integration and gives you access to integrate with that restaurant:
 
@@ -43,7 +43,7 @@ When a restaurant employee selects your partner integration and gives you access
 
 When a restaurant adds your integration in Toast Partner Integrations, the Toast platform does not directly connect the restaurant to *your customer* account for that restaurant. This action authorizes and grants your partner API account access to the restaurant's data via API. As an integration partner, you are responsible for mapping your own customer accounts to Toast location GUIDs.
 
-For more information about how restaurant employees select integration partners and enable integration access, see [Managing and using integrations and Toast Partner Integrations](platformIntegrationsOmitChunkFromSearchIndex.html#adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
+For more information about how restaurant employees select integration partners and enable integration access, see [Managing and using integrations and Toast Partner Integrations](adminRestaurantServiceIntegrationsAndToastPartnerIntegrations.html).
 
 ##### Getting restaurant access updates from the partners webhook
 
@@ -51,7 +51,7 @@ To use the partners webhook, you must create a *webhook endpoint*. This is the U
 
 Once you have a webhook endpoint, Toast support can create a webhook subscription for your integration that associates your webhook endpoint with the webhook updates that are triggered by restaurants adding, removing, or reconfiguring your integration.
 
-For general information on setting up and using Toast webhooks, see [Webhook basics](portalWebhooksOmitChunkFromSearchIndex.html#apiWebhookBasics).
+For general information on setting up and using Toast webhooks, see [Webhook basics](apiWebhookBasics.html).
 
 For detailed information on the specific updates provided by the partners webhook, including example payloads, see [Partners webhook](apiPartnersWebhook.html).
 
@@ -94,7 +94,7 @@ https://`[toast-api-hostname]`/partners/v1/restaurants
 
 **Procedure 1.1. To get information about the restaurants you have access to**
 
-1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
+1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](authentication.html).
 
 
 2. Send a `GET` request to the `/restaurants` endpoint of the partners API.
@@ -196,7 +196,7 @@ https://`{toast-api-hostname}`/partners/v1/connectedRestaurants
 
 **Procedure 1.2. To get information about the restaurants you are connected to**
 
-1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
+1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](authentication.html).
 
 
 2. Send a `GET` request to the `/connectedRestaurants` endpoint of the partners API.
@@ -328,5 +328,5 @@ Location ID and group ID values are available in the partners API in the `extern
 
 If you use a [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts), Toast support recommends that you include information in your onboarding documentation instructing users on how to fill out these fields.
 
-Integrations that use [restaurant management group API accounts](authenticationOmitChunkFromSearchIndex.html#apiAuthenticationReturnDataRestaurant) cannot use these fields.
+Integrations that use [restaurant management group API accounts](authentication.html#apiAuthenticationReturnDataRestaurant) cannot use these fields.
 

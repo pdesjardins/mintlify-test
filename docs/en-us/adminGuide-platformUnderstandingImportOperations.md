@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformMenusBulkMenuImportOmitChunkFromSearchIndex.md
 parentSectionTitle: "Bulk menu imports"
-previousSectionFile: adminGuide-platformMenusBulkMenuImportOmitChunkFromSearchIndex.md
-previousSectionTitle: "Bulk menu imports"
+previousSectionFile: adminGuide-platformBulkImportToolOverview.md
+previousSectionTitle: "Bulk import tool overview"
 nextSectionFile: adminGuide-platformCreatingModifierGroupsInABulkImport.md
 nextSectionTitle: "Creating modifier groups in a bulk import"
 excerpt: "The first column in each row of an import spreadsheet is called Operation. It defines whether the row is for a CREATE operation, an UPDATE operation, or an ATTACH operation:"
@@ -51,7 +51,7 @@ You use the `CREATE` operation to:
 
 The `CREATE` operation has the following caveats:
 
-- During a `CREATE` operation, you must attach each newly created menu entity to a parent menu entity, using the Parent entity type and Parent version ID or operation ID columns in the `CREATE`row, to ensure that you don't create orphaned menu entities. Orphaned menu entities do not appear in the menus that restaurant guests and employees see. For more information about the Toast menu hierarchy, see [Menu hierarchy](devPortalPlatformGuideMenusOmitChunkFromSearchIndex.html#adminMenuHierarchy).
+- During a `CREATE` operation, you must attach each newly created menu entity to a parent menu entity, using the Parent entity type and Parent version ID or operation ID columns in the `CREATE`row, to ensure that you don't create orphaned menu entities. Orphaned menu entities do not appear in the menus that restaurant guests and employees see. For more information about the Toast menu hierarchy, see [Menu hierarchy](adminMenuHierarchy.html).
 
 
 - The `CREATE` operation for modifier groups has the limitation that you can attach the new modifier group to a menu item in the `CREATE` row but not to a menu group. However, in an `ATTACH` row, you can attach a modifier group to either a menu item or a menu group.

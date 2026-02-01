@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminEmployeesMfaOmitChunkFromSearchIndex.md
 parentSectionTitle: "Multi-factor authentication"
-previousSectionFile: adminGuide-adminEmployeesMfaOmitChunkFromSearchIndex.md
-previousSectionTitle: "Multi-factor authentication"
+previousSectionFile: adminGuide-platformMultiFactorAuthenticationOverview.md
+previousSectionTitle: "Multi-factor authentication overview"
 nextSectionFile: adminGuide-intAdminMfaConfiguringQrCode.md
 nextSectionTitle: "Configuring multi-factor authentication using an authenticator app"
 excerpt: "After you sign in to Toast Web, you can enable and disable multi-factor authentication for your employee account."

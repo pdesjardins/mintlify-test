@@ -28,7 +28,7 @@ The restaurant in this example uses KDS devices using start queue. For more info
 
 This example restaurant configuration:
 
-- Uses [individual item fulfillment](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems).
+- Uses [individual item fulfillment](adminKitchenDiningRoomReference.html#configFulfillItems).
 
 
 - Sends prep station items to prep station and expediter KDS devices.

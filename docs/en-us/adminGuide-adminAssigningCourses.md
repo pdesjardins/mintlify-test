@@ -52,7 +52,7 @@ If you are viewing a menu item in the menu builder, select Kitchen. If you are v
 
 Alternatively, you can do the following:
 
-- [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 - Switch to the restaurant you want to create courses for.

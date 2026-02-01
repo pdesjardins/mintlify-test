@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformPosLayoutViewOmitChunkFromSearchIndex.md
 parentSectionTitle: "POS layout view"
-previousSectionFile: adminGuide-platformPosLayoutViewOmitChunkFromSearchIndex.md
-previousSectionTitle: "POS layout view"
+previousSectionFile: adminGuide-platformPosLayoutViewOverview.md
+previousSectionTitle: "POS layout view overview"
 nextSectionFile: adminGuide-platformMenuManagerOmitChunkFromSearchIndex.md
 nextSectionTitle: "Menu manager"
 excerpt: "You can access POS layout view from either the menu manager or the menu builder."
@@ -28,7 +28,7 @@ You can access POS layout view from either the [menu manager](platformAccessingP
 
 **Procedure 8.40. To access POS layout view from the menu manager**
 
-1. [Log in to Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Select Menus > Bulk management > Menu manager. Alternatively, you can search for `menu
@@ -46,7 +46,7 @@ You can access POS layout view from either the [menu manager](platformAccessingP
 
 **Procedure 8.41. To access POS layout view from the menu builder**
 
-1. [Log in to Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. From the QUICK ACTIONS section, select Menu builder.

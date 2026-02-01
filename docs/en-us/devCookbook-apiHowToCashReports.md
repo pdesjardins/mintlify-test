@@ -41,7 +41,7 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ##### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devPortalCookbookHowToOmitChunkFromSearchIndex.html#apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
 ##### Decide what information your reports will provide
 
@@ -93,13 +93,13 @@ To display additional information associated with cash transactions, query the f
 
 
 
-In addition, query the `/employees`[endpoint](apiEmployeeInformationOmitChunkFromSearchIndex.html#api-get-all-employees) of the labor API at least once per day to retrieve information about the employees associated with cash transactions.
+In addition, query the `/employees`[endpoint](api_get_all_employees.html) of the labor API at least once per day to retrieve information about the employees associated with cash transactions.
 
 ##### Set up recurring retrieval of cash transactions
 
 To report on cash transactions, you need to retrieve cash entries and deposits once per day.
 
-- For cash entries, use the `businessDate` parameter of the `/entries`[endpoint](apiGettingCashManagementInformationOmitChunkFromSearchIndex.html#apiUsingCashManagementApi) of the cash management API.
+- For cash entries, use the `businessDate` parameter of the `/entries`[endpoint](apiUsingCashManagementApi.html) of the cash management API.
 
 Toast support recommends that you retrieve cash entries for the previous business day every day.
 

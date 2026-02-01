@@ -79,7 +79,7 @@ Before configuring a tax table rate, make sure that you have the state's tax tab
 
 **Procedure 6.121. To configure a tax table rate**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Settings > Manage tax rates to open the Tax rates page.

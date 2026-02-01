@@ -27,7 +27,7 @@ codeExamples: 0
 | **A:** | If a location displays a lock and is displayed as not available (appears dimmed), that indicates that the location does not have access to Toast Restaurant Management Suite Essentials or higher. Every location you want to have standard API access to requires a subscription to Toast Restaurant Management Suite Essentials or higher.Changes made to locations with an active subscription to Toast Restaurant Management Suite Essentials or higher may take a few minutes to be reflected in the Toast platform. | 
 
 | **Q:** | Why am I seeing a 401 error when making an API request? | 
-| **A:** | You may see a 401 error because you did not authenticate with valid credentials. For more information on authentication, see [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication). For more information about error codes, see [API responses and errors](apiResponsesAndErrors.html). | 
+| **A:** | You may see a 401 error because you did not authenticate with valid credentials. For more information on authentication, see [Authentication and restaurant access](authentication.html). For more information about error codes, see [API responses and errors](apiResponsesAndErrors.html). | 
 
 | **Q:** | Why am I seeing a 403 error when making an API request? | 
 | **A:** | You may see a 403 error message when making an API request for any of the following reasons:- You made a `POST` request. Standard API access only supports `GET` requests.

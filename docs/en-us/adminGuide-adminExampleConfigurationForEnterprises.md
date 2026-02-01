@@ -78,7 +78,7 @@ The instructions below describe how to create the manager and server jobs for th
 
 **Procedure 5.22. To create the manager job**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend) using your super user credentials.
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html) using your super user credentials.
 
 
 2. Choose Employees > Employee management > Jobs to open the Jobs page.
@@ -121,7 +121,7 @@ You can click a permission header row to quickly select all its child permission
 
 **Procedure 5.23. To create the server job**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend) using your super user credentials.
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html) using your super user credentials.
 
 
 2. Choose Employees > Employee management > Jobs to open the Jobs page.
@@ -168,7 +168,7 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 **Procedure 5.24. To add a franchise or location manager**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Switch to a location where the new manager should have access. If you are creating a franchise manager, go to one of the locations in the franchise. If you are creating a location manager, go to the location.
@@ -224,7 +224,7 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 **Procedure 5.25. To add a server employee**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Switch to a location where the new employee should have access.

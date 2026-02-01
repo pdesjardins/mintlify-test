@@ -64,7 +64,7 @@ For multi-location restaurants:
 
 **Procedure 8.81. To create a new modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -185,7 +185,7 @@ For multi-location restaurants:
 
 **Procedure 8.82. To add existing modifier groups to a menu group or item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -264,7 +264,7 @@ Follow the procedure below to rename a modifier group.
 
 **Procedure 8.83. To rename a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -330,7 +330,7 @@ For multi-location restaurants:
 
 **Procedure 8.84. To remove a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -399,7 +399,7 @@ You use the Pricing section in a modifier group's side panel to specify how the 
 
 - Group: All modifiers in the group share the same price. When you choose this option, a Price field appears in the Pricing section where you can enter the price for the modifiers.
 
-If the modifier group is configured with an advanced pricing strategy (for example, size or sequence pricing), you see a notification with a link that takes you to the modifier group's classic details page where you can edit the advanced pricing. For more information on advanced pricing strategies, see [Pricing strategies overview](adminPricingStrategyDetailsOmitChunkFromSearchIndex.html#adminPricingStrategiesOverview).
+If the modifier group is configured with an advanced pricing strategy (for example, size or sequence pricing), you see a notification with a link that takes you to the modifier group's classic details page where you can edit the advanced pricing. For more information on advanced pricing strategies, see [Pricing strategies overview](adminPricingStrategiesOverview.html).
 
 
 
@@ -418,7 +418,7 @@ If you choose Optional and you use POS devices, you can also toggle the Include 
 
 ##### Sequence of modifier groups
 
-The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. For more information, see [Modifier group display order overview](adminModifierGroupDisplayOrderOmitChunkFromSearchIndex.html#platformModifierGroupDisplayOrderOverview).
+The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. For more information, see [Modifier group display order overview](platformModifierGroupDisplayOrderOverview.html).
 
 ##### Required modifier groups and visibility settings
 
@@ -508,7 +508,7 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 
 **Procedure 8.85. To set ordering channel visibility for a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.

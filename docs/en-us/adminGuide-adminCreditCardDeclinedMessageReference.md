@@ -5,7 +5,7 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminCreditCardsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Credit card payments"
-previousSectionFile: adminGuide-adminCreditCardsOmitChunkFromSearchIndex.md
+previousSectionFile: adminGuide-adminCreditCardPayments.md
 previousSectionTitle: "Credit card payments"
 nextSectionFile: adminGuide-adminServiceChargesOmitChunkFromSearchIndex.md
 nextSectionTitle: "Service charges"

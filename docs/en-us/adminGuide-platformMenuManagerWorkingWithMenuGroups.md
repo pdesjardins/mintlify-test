@@ -64,7 +64,7 @@ For multi-location restaurants:
 
 **Procedure 8.52. To create a menu group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -94,7 +94,7 @@ Follow the procedure below to rename a menu group.
 
 **Procedure 8.53. To rename a menu group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -141,7 +141,7 @@ Menu group reordering is limited to:
 
 **Procedure 8.54. To reorder a menu group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -187,7 +187,7 @@ For multi-location restaurants:
 
 **Procedure 8.55. To remove a menu group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -279,7 +279,7 @@ Menu Group A
 
 **Procedure 8.56. To alphabetize the menu items in a menu group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -357,7 +357,7 @@ To override the inherited prep stations for a menu item, go to the Kitchen secti
 
 To configure a menu item to inherit its prep stations, set the Inherit prep stations? setting to Yes.
 
-If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAddPrepStation) and [Routing with prep stations](adminRoutingToPrepStations.html).
+If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminAddPrepStation.html) and [Routing with prep stations](adminRoutingToPrepStations.html).
 
 #### Assigning courses
 
@@ -395,7 +395,7 @@ If you are viewing a menu item in the menu builder, select Kitchen. If you are v
 
 Alternatively, you can do the following:
 
-- [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -473,7 +473,7 @@ On the details page for a menu, menu group, or menu item, select Reporting. In t
 
 Alternatively, you can:
 
-- [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -542,7 +542,7 @@ To override the inherited tax rates for a menu item, go to the Tax settings sect
 
 To configure a menu item so that it inherits its tax rates, set the Inherit tax rates? setting to Yes. To inherit the Tax inclusion or Takeout tax exceptionsetting, set the Inherit tax inclusion? or Inherit takeout tax? setting to Yes.
 
-If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOmitChunkFromSearchIndex.html#adminTaxesOverview).
+If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOverview.html).
 
 ##### Understanding tax inclusion
 

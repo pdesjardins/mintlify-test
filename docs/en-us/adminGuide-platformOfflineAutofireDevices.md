@@ -34,7 +34,7 @@ Various situations can cause your Toast device to go offline, including but not 
 
 
 
-For information on how to use your Toast device during an outage, see [Offline mode overview](devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex.html#adminOfflineModeOverview).
+For information on how to use your Toast device during an outage, see [Offline mode overview](adminOfflineModeOverview.html).
 
 #### Internet outage
 
@@ -91,7 +91,7 @@ If your non-Autofire device is experiencing an ISP outage, note the following:
 - If a backup printer has been set up properly and there is a local network connection, the Autofire assigned device still fires and prints order tickets.
 
 
-- Scheduled and existing orders still fire from the Autofire assigned device. Once internet service provider connection is restored, scheduled orders on the non-Autofire device move to the appropriate [Orders Hub status](platformOffPremiseDiningOmitChunkFromSearchIndex.html#platformOrderStatuses).
+- Scheduled and existing orders still fire from the Autofire assigned device. Once internet service provider connection is restored, scheduled orders on the non-Autofire device move to the appropriate [Orders Hub status](platformUsingOrdersHub.html#platformOrderStatuses).
 
 
 - Toast Online Ordering may be turned off when the Autofire assigned device has stopped approving and autofiring online orders for five minutes. This indicates an internet issue or other technical problems at the restaurant. For more information, see [Autofire device stopped approving online orders](apiRxAvailabilityWebhook.html).

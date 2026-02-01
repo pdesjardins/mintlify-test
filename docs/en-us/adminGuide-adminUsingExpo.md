@@ -30,7 +30,7 @@ In this "two-level fulfillment" workflow, both expediters are responsible for ma
 
 With the Toast POS, you can configure your KDS devices to display orders to one or two expediter seats.
 
-If your kitchen includes either one or two expediter screens, additional features are available, including options to [send SMS text messages](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminSendTextMessage) to guests or servers or [send on-screen notifications](adminUsingExpo.html#adminSendOnScreenNotifications) to server devices when an expediter marks orders as fulfilled.
+If your kitchen includes either one or two expediter screens, additional features are available, including options to [send SMS text messages](platformKitchenTextMessaging.html#adminSendTextMessage) to guests or servers or [send on-screen notifications](adminUsingExpo.html#adminSendOnScreenNotifications) to server devices when an expediter marks orders as fulfilled.
 
 For more information about setting up prep stations, see [Routing with prep stations](adminRoutingToPrepStations.html).
 
@@ -53,10 +53,10 @@ Follow one of these procedures to configure the expediter workflow.
 
 1. Determine which prep stations should route orders to the expediter.
 
-You can review the menu items and modifiers that are assigned to each prep station in Toast Web. For more information, see [Verify order routing to prep stations](adminTroubleshootPrepStationsOmitChunkFromSearchIndex.html#adminTroubleshootPrepStationRouting).
+You can review the menu items and modifiers that are assigned to each prep station in Toast Web. For more information, see [Verify order routing to prep stations](adminTroubleshootPrepStationRouting.html).
 
 
-2. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend)and choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage. An interactive grid with rows for each prep station appears.
+2. [Access Toast Web ](adminAccessToastAdminBackend.html)and choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage. An interactive grid with rows for each prep station appears.
 
 
 3. To send orders to the expediter, a prep station must have a check mark in the Send to Expediter column. Check this setting for each prep station you identified in Step 1, and then save your changes.
@@ -173,7 +173,7 @@ On-screen notifications have the following characteristics.
 
 To configure on-screen notifications for servers, you must have the Web Setup > Restaurant Operations Setupaccess permission to Toast Web. Then, follow these steps.
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Front of house > POS notifications > Notification setup to open the Notification setup page.

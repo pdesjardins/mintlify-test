@@ -25,7 +25,7 @@ With menu-specific pricing, the price of a menu item changes based on the menu i
 
 > **Important**
 > 
-> If your restaurant has multiple locations, there are additional best practices you should follow when configuring menu-specific prices. For more information, see [Menu-specific prices for multi-location restaurants](platformMenuSpecificPricesForMLMOmitChunkFromSearchIndex.html#platformMenuSpecificPricesForMultiLocationRestaurants) in the [Multiple restaurant locations](platformMultiLocationOmitChunkFromSearchIndex.html#sharingMenusAndOtherInformationAmongRestaurants) section.
+> If your restaurant has multiple locations, there are additional best practices you should follow when configuring menu-specific prices. For more information, see [Menu-specific prices for multi-location restaurants](platformMenuSpecificPricesForMultiLocationRestaurants.html) in the [Multiple restaurant locations](sharingMenusAndOtherInformationAmongRestaurants.html) section.
 
 
 You create menu-specific prices for a menu item on the item's details page. After you have created the menu-specific prices, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the menu-specific prices are not editable from the Itemsgrid.

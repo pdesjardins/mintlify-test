@@ -51,7 +51,7 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 
 - Digital menu board: Available for menus only. The menu is visible on a Delphi digital menu board. Defaults to Off.
 
-This setting only appears for restaurants that have a Delphi digital menu board. For more information, see [Creating a menu for a Delphi digital menu board](adminMenusForDigitalMenuBoardsOmitChunkFromSearchIndex.html#platformCreatingAMenuForADigitalMenuBoard).
+This setting only appears for restaurants that have a Delphi digital menu board. For more information, see [Creating a menu for a Delphi digital menu board](platformCreatingAMenuForADigitalMenuBoard.html).
 
 
 - Websites View-only: Available for menus only. A read-only version of the menu is visible on your Toast website. Defaults to Off.

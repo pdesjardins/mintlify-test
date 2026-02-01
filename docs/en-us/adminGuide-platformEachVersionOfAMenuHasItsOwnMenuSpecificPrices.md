@@ -46,7 +46,7 @@ In general, this procedure follows this flow:
 
 **Procedure 5.12. To configure each version of a menu to have its own menu-specific prices for a menu item**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Select Menus from the left-hand navigation bar.

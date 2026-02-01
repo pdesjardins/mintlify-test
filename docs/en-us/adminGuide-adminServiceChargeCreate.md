@@ -18,15 +18,15 @@ codeExamples: 0
 
 #### Prerequisites for configuring service charges
 
-To create a service charge, you need POS Access > Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](platformEmployeesOmitChunkFromSearchIndex.html#adminAddlPosAccessPermissions).
+To create a service charge, you need POS Access > Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminPermissions.html#adminAddlPosAccessPermissions).
 
-Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus > Menu management > Tax rates setup. For more information, see [Taxes overview](adminTaxesOmitChunkFromSearchIndex.html#adminTaxesOverview).
+Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus > Menu management > Tax rates setup. For more information, see [Taxes overview](adminTaxesOverview.html).
 
 #### Configuring a new service charge
 
 **Procedure 6.20. To configure a new service charge**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Checks & receipt setup > Service charges and fees.

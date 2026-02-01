@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchIndex.md
 parentSectionTitle: "If you're an integration partner"
-previousSectionFile: apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchIndex.md
-previousSectionTitle: "If you're an integration partner"
+previousSectionFile: apiDevGuide-apiPartnerIntegrationOverview.md
+previousSectionTitle: "Partner integration overview"
 nextSectionFile: apiDevGuide-apiPartnersGettingAccessibleRestaurants.md
 nextSectionTitle: "Location access"
 externalReferences: [https://pos.toasttab.com/integrations]
@@ -74,7 +74,7 @@ The partner agreement defines the details and business terms of the partnership 
 
 If you have met the requirements listed above, you enter the development stage. In this stage, the Toast integrations team provides you with your [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts)authentication credentials, which can be used for testing in the [sandbox environment](apiEnvironments.html#apiSandboxEnvironment).
 
-Once sandbox credentials are provided, you can begin to write and test your code. As you build your integration, refer to our [integration development checklists](portalChecklistsAndTestPlansOmitChunkFromSearchIndex.html#apiIntegrationChecklists).
+Once sandbox credentials are provided, you can begin to write and test your code. As you build your integration, refer to our [integration development checklists](apiIntegrationChecklists.html).
 
 #### Certification
 
@@ -124,7 +124,7 @@ You'll work with the Toast integration partner marketing team to develop co-mark
 
 #### General availability
 
-If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](platformIntegrationsOmitChunkFromSearchIndex.html#adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
+If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](adminRestaurantServiceIntegrationsAndToastPartnerIntegrations.html).
 
 
 

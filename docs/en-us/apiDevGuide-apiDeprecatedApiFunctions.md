@@ -130,7 +130,7 @@ This section includes information about Toast API authentication functionality t
 
 > **Important**
 > 
-> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
+> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authentication.html).
 
 
 You get an authentication token by sending a `POST` request to the `/usermgmt/v1/oauth/token` resource of the Toast user management API. The following example shows the URL of the user management token endpoint.
@@ -200,7 +200,7 @@ The following sections provide information about the return data provided for au
 
 > **Important**
 > 
-> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
+> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authentication.html).
 
 
 The user management API returns the following information for a successful authentication request using a partner API client. For more information about partner API accounts, see [Toast API accounts](apiClientAccounts.html).
@@ -263,7 +263,7 @@ iNTlbPVwAvrFTbEWcmys0",
 
 > **Important**
 > 
-> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
+> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](authentication.html).
 
 
 The user management API returns the following information for a successful authentication request using a restaurant management group API client. For more information about restaurant management group API accounts, see [Toast API accounts](apiClientAccounts.html).
@@ -336,7 +336,7 @@ This section provides information about working with restaurant guest records in
 > The CRM API is deprecated and will be replaced by future Toast API functionality. Before beginning development work using the CRM API, contact the Toast technical partnership team to make sure your integration plans are coordinated with upcoming API changes.
 
 
-For general information about the way the Toast POS handles guest records, see [Guest data overview](devPortalPlatformGuideGuestsOmitChunkFromSearchIndex.html#adminGuestDataOverview).
+For general information about the way the Toast POS handles guest records, see [Guest data overview](adminGuestDataOverview.html).
 
 The Toast POS creates customer records when:
 
@@ -514,7 +514,7 @@ This section includes information about Toast API menu functionality that is ava
 
 > **Important**
 > 
-> The menus API has replaced the the menu data export as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval, however, the export functionality will be deprecated at some point in the future and this section will be removed.
+> The menus API has replaced the the menu data export as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](apiGettingMenuInformationFromTheMenusAPI.html) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval, however, the export functionality will be deprecated at some point in the future and this section will be removed.
 
 
 You can get detailed information about the menus configured for your restaurant from the menu data export file. The Toast POS system generates data export files once a day and makes them available for downloading. This section provides information about downloading data export files and understanding the values in menu data export files.

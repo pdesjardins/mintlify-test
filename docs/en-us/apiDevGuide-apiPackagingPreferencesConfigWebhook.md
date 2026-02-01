@@ -34,7 +34,7 @@ The packaging preferences configuration webhook sends you a message when a resta
 
 When a restaurant sets their packaging preferences, and you receive the `packaging_updated` webhook message with the updates, you can submit orders using the [orders API](apiOrdersPackagingPreferences.html#apiOrdersPackagingPreferencesUsingTheOrdersApi) with packaging preferences.
 
-Packaging preferences configuration webhook messages follow the [standard message data schema](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageDataSchema). When a message is published to your webhook endpoint for the `packaging` event category, the `eventCategory` value is set to `partner` and the `eventType` is set to `packaging_updated`.
+Packaging preferences configuration webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `packaging` event category, the `eventCategory` value is set to `partner` and the `eventType` is set to `packaging_updated`.
 
 #### packaging_updated
 

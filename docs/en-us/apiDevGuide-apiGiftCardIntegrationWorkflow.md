@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Gift Card Integrations"
-previousSectionFile: apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Gift Card Integrations"
+previousSectionFile: apiDevGuide-apiGiftCardIntegrationOverview.md
+previousSectionTitle: "Gift card integration overview"
 nextSectionFile: apiDevGuide-apiGiftCardIntegrationAuthentication.md
 nextSectionTitle: "Gift card integration authentication"
 externalReferences: [https://central.toasttab.com/s/article/Cashing-Out-the-Remaining-Balance-of-a-Gift-Card]

@@ -28,7 +28,7 @@ The Price editor page displays prices for all of your menu groups and menu items
 
 #### Price editor overview
 
-To view the Price editor page, [access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend) and then choose Menus > Bulk management > Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
+To view the Price editor page, [access Toast Web](adminAccessToastAdminBackend.html) and then choose Menus > Bulk management > Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
 
 ##### Understanding the Price column
 
@@ -59,7 +59,7 @@ If a menu group or item is configured to use a Menu Specific Price but a price h
 ![Example of how the price editor displays a menu item that uses menu-specific pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-menu-prices.png)
 
 
-- [Location Specific Price](adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.html#adminLocationSpecificPriceOverview) strategy, the location-specific prices appear on separate rows. The rows are ordered based on the restaurant hierarchy with the least specific location in the hierarchy first (Corporate in the example below) and the most specific location in the hierarchy last (NYC in the example).
+- [Location Specific Price](adminLocationSpecificPriceOverview.html) strategy, the location-specific prices appear on separate rows. The rows are ordered based on the restaurant hierarchy with the least specific location in the hierarchy first (Corporate in the example below) and the most specific location in the hierarchy last (NYC in the example).
 
 ![Example of how the price editor displays a menu item that uses location-specific pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-location-price.png)
 
@@ -95,7 +95,7 @@ The prices continue to be time-specific prices but their values have all been ch
 
 **Procedure 8.115. To make bulk edits using the Price Editor**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Price editor to open the Price editorpage.
@@ -147,7 +147,7 @@ The Price editor page provides a quick option to convert a menu item that is ind
 
 **Procedure 8.116. To convert a menu item to use a menu-specific price**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Price editor to open the Price editorpage.
@@ -194,7 +194,7 @@ For customers that use the enterprise module, the Price Editor page provides a q
 
 **Procedure 8.117. To convert a menu item to use a location-specific price**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Price editor to open the Price editorpage.

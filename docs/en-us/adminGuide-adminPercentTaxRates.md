@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminTaxesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Taxes"
-previousSectionFile: adminGuide-adminTaxesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Taxes"
+previousSectionFile: adminGuide-adminTaxesOverview.md
+previousSectionTitle: "Taxes overview"
 nextSectionFile: adminGuide-adminFixedTaxRates.md
 nextSectionTitle: "Fixed rates"
 excerpt: "A percent tax rate calculates the..."
@@ -84,7 +84,7 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 
 #### Configuring percent rates
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Settings > Manage tax rates to open the Tax rates page.

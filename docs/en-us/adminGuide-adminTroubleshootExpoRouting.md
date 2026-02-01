@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminTroubleshootPrepStationsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Troubleshooting the preparation workflow"
-previousSectionFile: adminGuide-adminTroubleshootPrepStationsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Troubleshooting the preparation workflow"
+previousSectionFile: adminGuide-adminTroubleshootPrepStationRouting.md
+previousSectionTitle: "Verify order routing to prep stations"
 nextSectionFile: adminGuide-adminVerifyDeviceSetup.md
 nextSectionTitle: "Verify device setup"
 excerpt: "For efficient kitchen management, the expediter must receive all of the orders for supervised prep stations."
@@ -21,7 +21,7 @@ For efficient kitchen management, the [expediter](adminUsingExpo.html) must rece
 
 To review and update which prep station orders the expediter receives you must have the Web Setup > Kitchen / Dining Room Setup access permission. Then, follow these steps.
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Kitchen stations > Prep stations. An interactive grid with rows for each prep station appears.
@@ -42,7 +42,7 @@ To review and update which prep station orders the expediter receives you must h
 - [Verify device setup](adminVerifyDeviceSetup.html)
 
 
-- [Verify order routing to prep stations](adminTroubleshootPrepStationsOmitChunkFromSearchIndex.html#adminTroubleshootPrepStationRouting)
+- [Verify order routing to prep stations](adminTroubleshootPrepStationRouting.html)
 
 
 

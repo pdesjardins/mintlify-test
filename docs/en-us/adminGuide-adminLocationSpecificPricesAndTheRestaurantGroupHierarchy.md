@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Location-specific prices"
-previousSectionFile: adminGuide-adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Location-specific prices"
+previousSectionFile: adminGuide-adminLocationSpecificPriceOverview.md
+previousSectionTitle: "Location-specific price overview"
 nextSectionFile: adminGuide-adminLocationSpecificPricesAndVersions.md
 nextSectionTitle: "Location-specific prices and versions"
 excerpt: "Location-specific..."

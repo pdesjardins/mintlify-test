@@ -33,7 +33,7 @@ The restaurant in this example uses courses to organize items. Courses are appli
 > Courses are used when using meal pacing.The example restaurant configuration does not use meal pacing. For a workflow example using meal pacing, see [KDS workflow with course pacing](platformKDSWorkflowUsingCoursePacing.html).
 
 
-This example restaurant configuration does use individual item fulfillment and sends prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configSendToExpediter). This example restaurant also uses one expediter KDS device, and multiple prep station KDS devices.
+This example restaurant configuration does use individual item fulfillment and sends prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter). This example restaurant also uses one expediter KDS device, and multiple prep station KDS devices.
 
 
 
@@ -126,7 +126,7 @@ The expediter KDS device displays the fulfilled item with a green check mark. Th
 
 > **Note**
 > 
-> You can configure orders to be marked as ready on Orders Hub when they are fulfilled on the expediter KDS device. For more information, see [Marking KDS-fulfilled orders as Order Ready](platformOffPremiseDiningOmitChunkFromSearchIndex.html#platformMarkingKDSOrdersAsOrderReady).
+> You can configure orders to be marked as ready on Orders Hub when they are fulfilled on the expediter KDS device. For more information, see [Marking KDS-fulfilled orders as Order Ready](platformUsingOrdersHub.html#platformMarkingKDSOrdersAsOrderReady).
 
 
 

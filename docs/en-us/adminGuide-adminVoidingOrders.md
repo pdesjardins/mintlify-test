@@ -30,7 +30,7 @@ From the Toast POS app, you can either:
 
 
 
-You can also [void items and orders from the Orders Hub](platformOffPremiseDiningOmitChunkFromSearchIndex.html#platformVoidingAnItemOrAnOrder).
+You can also [void items and orders from the Orders Hub](platformUsingOrdersHub.html#platformVoidingAnItemOrAnOrder).
 
 #### Configuring void reasons
 
@@ -110,7 +110,7 @@ Voiding checks involves the following permissions:
 
 
 ****Access mode permissions****
-: [Access "mode" permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminModePermissions)provide access to the areas of the Toast POS app where the void check options are located.
+: [Access "mode" permissions](adminPermissions.html#adminModePermissions)provide access to the areas of the Toast POS app where the void check options are located.
 
 For the bulk check void, you must have Table Service Mode, Quick Order Mode, or Payment Terminal Mode permission.
 
@@ -119,21 +119,21 @@ For the single check void, you must have Table Service Mode or Quick Order Modep
 
 
 ****Bulk Void Open Checks****
-: The [Bulk Void Open Checks](platformEmployeesOmitChunkFromSearchIndex.html#permissionBulkVoidOpenChecks) permission allows you to select and void multiple checks at the same time.
+: The [Bulk Void Open Checks](adminPermissions.html#permissionBulkVoidOpenChecks) permission allows you to select and void multiple checks at the same time.
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Void Items/Orders****
-: The [Void Items/Orders](platformEmployeesOmitChunkFromSearchIndex.html#permissionVoidItemsOrders)permission allows you to select and void a single check.
+: The [Void Items/Orders](adminPermissions.html#permissionVoidItemsOrders)permission allows you to select and void a single check.
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Edit Other Employees' Orders****
-: The [Edit Other Employees' Orders](platformEmployeesOmitChunkFromSearchIndex.html#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
+: The [Edit Other Employees' Orders](adminPermissions.html#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
 
 If you have this permission, then you can void checks that are assigned to a different employee.
 
@@ -180,7 +180,7 @@ Select Void.
 
 
 
-When a check is voided, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPrintTicketChanges)configuration, a new ticket is printed.
+When a check is voided, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminKitchenDiningRoomReference.html#configPrintTicketChanges)configuration, a new ticket is printed.
 
 #### Voiding a single check
 
@@ -237,5 +237,5 @@ Select Void order.
 
 
 
-For an open order, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPrintTicketChanges)configuration, the order prints on a new ticket.
+For an open order, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminKitchenDiningRoomReference.html#configPrintTicketChanges)configuration, the order prints on a new ticket.
 

@@ -56,7 +56,7 @@ You need the Web Setup > 6.10 Printer and Cash Drawer Setup permission to config
 
 **Procedure 6.61. To configure a new cash drawer**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Payment methods > Cash overview > Cash drawers > View cash drawers to open the Cash drawers page.
@@ -124,7 +124,7 @@ Restaurants typically use one of two modes for how employees (such as servers or
 
 Based on the needs of the restaurant (such as for job roles or revenue centers), a restaurant can use both modes. For example, bartenders could use the cash in drawer mode, while servers could use cash in hand.
 
-An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](platformEmployeesOmitChunkFromSearchIndex.html#permissionApplyCashPayments) permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
+An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](adminPermissions.html#permissionApplyCashPayments) permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
 
 **Procedure 6.62. To configure a Toast POS device for a cash drawer mode**
 
@@ -682,7 +682,7 @@ When an employee makes a No Sale entry, a Please select a no sale reason dialog 
 
 **Procedure 6.71. To configure No Sale reasons**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Transactions & refunds > No sale reasons to open the No Sale Reasons page.
@@ -774,7 +774,7 @@ After you close the drawer, it appears on the Closed tab of the Cash Drawers scr
 
 **Procedure 6.73. To configure cash drawer closeout thresholds**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Payment methods > Cash overview > Cash drawers > Cash drawer varianceto open the Cash drawer variancepage.
@@ -947,7 +947,7 @@ The Cash entries section of the Cash Drawer History report contains the Update E
 
 **Procedure 6.78. To access the cash drawer operations in Toast Web**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Payment methods > Cash overview > View related reports > Cash drawer history report to open the Cash Drawer History report. You can also choose Reports > Cash and loss management > Drawer history to open the Cash Drawer History report.
@@ -1111,7 +1111,7 @@ When you undo cash entries from Toast Web, the operations do not open the physic
 
 **Procedure 6.83. To undo a cash entry from Toast Web**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Payments > Payment methods > Cash overview > View related reports > Cash drawer history report to open the Cash Drawer History report. You can also choose Reports > Cash and loss management > Drawer history to open the Cash Drawer History report.
@@ -1170,7 +1170,7 @@ To set up the cash drawer lockdown feature for restaurant employees, you should 
 
 **Procedure 6.84. To configure cash drawer lockdown**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Employees > Shift review > Shift review to open the Shift review setup page.

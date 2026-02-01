@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformKitchenConfigReferenceOmitChunkFromSearchIndex.md
 parentSectionTitle: "Kitchen configuration reference"
-previousSectionFile: adminGuide-platformKitchenConfigReferenceOmitChunkFromSearchIndex.md
-previousSectionTitle: "Kitchen configuration reference"
+previousSectionFile: adminGuide-adminKitchenDiningRoomReference.md
+previousSectionTitle: "Kitchen settings"
 nextSectionFile: adminGuide-platformKitchenOpsOfflineSupportOmitChunkFromSearchIndex.md
 nextSectionTitle: "Offline support"
 excerpt: "The kitchen display system (KDS) offers a number of options for changing the way information reaches your employees."
@@ -18,7 +18,7 @@ codeExamples: 0
 
 The kitchen display system (KDS) offers a number of options for changing the way information reaches your employees.
 
-This section presents a quick reference guide to the changes you can make to better meet the needs of your back of house employees. A series of tables present options for how the KDS device presents information, how you make a change, whether the setting affects all devices or an individual device, and the [access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions) that you need.
+This section presents a quick reference guide to the changes you can make to better meet the needs of your back of house employees. A series of tables present options for how the KDS device presents information, how you make a change, whether the setting affects all devices or an individual device, and the [access permissions](adminPermissions.html) that you need.
 
 #### KDS notification options
 
@@ -27,11 +27,11 @@ You can signal new and changed orders to back of house employees in different wa
 | If you want to... | Toast Web (All devices) | Toast POS home screen (Each device) | Required Permission | 
 | --- | --- | --- | --- |
 | Play a sound when a new ticket appears, a ticket is ready for fulfillment at an expediter KDS devices, an item is changed, and an item is marked as void |   | Setup > Device Setup > New Ticket Sound | Device Setup > 7.3 KDS and Order Screen Setup | 
-| Flash changed tickets | Kitchen > Printers, tickets, & KDS devices> Kitchen and ticket setup > [Flash Changes](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFlashChanges): Flash changes |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Change ticket colors as they age | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Warning Colors](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configWarningColors): Enabled |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Print tickets if needed | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Print On Demand](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPrintOnDemand): Enable |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Flash changed tickets | Kitchen > Printers, tickets, & KDS devices> Kitchen and ticket setup > [Flash Changes](adminKitchenDiningRoomReference.html#configFlashChanges): Flash changes |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Change ticket colors as they age | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Warning Colors](adminKitchenDiningRoomReference.html#configWarningColors): Enabled |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Print tickets if needed | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Print On Demand](adminKitchenDiningRoomReference.html#configPrintOnDemand): Enable |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
 
-For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](adminAccessToastAdminBackend.html).
 
 #### KDS interaction options
 
@@ -39,16 +39,16 @@ You define how back of house employees interact with the KDS device to fulfill t
 
 | If you want to... | Toast Web (All devices) | Toast POS home screen (Each device) | Required Permission | 
 | --- | --- | --- | --- |
-| Fulfill complete tickets | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Fulfill Items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems): Disable |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Fulfill tickets item by item  | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Fulfill Items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems): Enable |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Fulfill complete tickets | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems): Disable |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Fulfill tickets item by item  | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems): Enable |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
 | Fulfill with a double tap |   | Setup > Device Setup > Double-tap to Fulfill, Unfulfill | Device Setup > 7.3 KDS and Order Screen Setup | 
 | Fulfill with a tap to select then a tap on Fulfill |   | Setup > Device Setup > Double-tap to Fulfill, Unfulfill | Device Setup > 7.3 KDS and Order Screen Setup | 
 | Unfulfill with a double tap |   | Setup > Device Setup > Double-tap to Fulfill, Unfulfill | Device Setup > 7.3 KDS and Order Screen Setup | 
 | Unfulfill with a tap to select then a tap on Unfulfill |   | Setup > Device Setup > Double-tap to Fulfill, Unfulfill | Device Setup > 7.3 KDS and Order Screen Setup | 
-| Add the option to see item totals in All Day Display | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [All Day Display](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configAllDayDisplay): Yes, enable All Day Display, grouped by item... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Add the option to see modifier and item totals in All Day Display | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [All Day Display](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configAllDayDisplay): Yes, enable All Day Display, grouped by item and... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Add the option to see item totals in All Day Display | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [All Day Display](adminKitchenDiningRoomReference.html#configAllDayDisplay): Yes, enable All Day Display, grouped by item... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Add the option to see modifier and item totals in All Day Display | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [All Day Display](adminKitchenDiningRoomReference.html#configAllDayDisplay): Yes, enable All Day Display, grouped by item and... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
 
-For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](adminAccessToastAdminBackend.html).
 
 #### KDS ticket contents
 
@@ -56,22 +56,22 @@ You define what information appears on tickets by setting the options described 
 
 | If you want to... | Toast Web (All devices) | Toast POS home screen (Each device) | Required Permission | 
 | --- | --- | --- | --- |
-| See other prep stations working on ticket items | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Other Stations](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configOtherStations): For each ticket, list... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| See all courses fired at once and the status of each course | Kitchen > Pacing > Meal pacing > Course Pacing: Enable course pacing > Sending Courses: Send all courses individually >[ Previous Course Status](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPreviousCourseStatus): Show the status... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| [Color-code](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminColorCodingKdsTickets) menu items | Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
+| See other prep stations working on ticket items | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Other Stations](adminKitchenDiningRoomReference.html#configOtherStations): For each ticket, list... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| See all courses fired at once and the status of each course | Kitchen > Pacing > Meal pacing > Course Pacing: Enable course pacing > Sending Courses: Send all courses individually >[ Previous Course Status](adminKitchenDiningRoomReference.html#configPreviousCourseStatus): Show the status... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| [Color-code](platformKitchenConfiguringTickets.html#adminColorCodingKdsTickets) menu items | Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
               group}`* > *`{menu item}`*> KDS Color |   | Restaurant Admin > 4.5 Edit Full Menu | 
-| [Color-code](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminColorCodingKdsTickets)modifier options | Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
+| [Color-code](platformKitchenConfiguringTickets.html#adminColorCodingKdsTickets)modifier options | Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
               group}`* > *`{menu item}`*> *`{modifier group}`* > *`{modifier}`* > KDS Color |   | Restaurant Admin > 4.5 Edit Full Menu | 
 | Customize names for menu items | Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
               group}`* > *`{menu item}`*> Kitchen Name |   | Restaurant Admin > 4.5 Edit Full Menu | 
 | Customize names for modifiers | Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
               group}`* > *`{menu item}`*> *`{modifier group}`* > *`{modifier}`* > Kitchen Name |   | Restaurant Admin > 4.5 Edit Full Menu | 
-| Customize other labels | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Kitchen Names](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#adminKitchenNamesRef)fields |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Add a the tab name on tickets sent by Quick Order | Front of house > Order screen setup > UI options > [Prompt for tab name? (Quick Order only)](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configPromptTabName): On |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| Show the dining option on tickets sent by Quick Order when a default dining option is not set | Front of house > Order screen setup > UI options > [Prompt for Dining Option](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configPromptDiningOption): Yes |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| Customize other labels | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Kitchen Names](adminKitchenDiningRoomReference.html#adminKitchenNamesRef)fields |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Add a the tab name on tickets sent by Quick Order | Front of house > Order screen setup > UI options > [Prompt for tab name? (Quick Order only)](adminUiOptionsReference.html#configPromptTabName): On |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| Show the dining option on tickets sent by Quick Order when a default dining option is not set | Front of house > Order screen setup > UI options > [Prompt for Dining Option](adminUiOptionsReference.html#configPromptDiningOption): Yes |   | Web Setup > 6.6 Restaurant Operations Setup | 
 | Always show the dining option | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > Always Print and Show Dining Option: Yes |   | Web Setup > 6.6 Restaurant Operations Setup | 
 
-For more information about how to change configuration settings, see [Using Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+For more information about how to change configuration settings, see [Using Toast Web](adminAccessToastAdminBackend.html).
 
 #### KDS ticket layout
 
@@ -79,22 +79,22 @@ You can change how order information appears on tickets by setting the options d
 
 | If you want to... | Toast Web (All devices) | Toast POS home screen (Each device) | Required Permission | 
 | --- | --- | --- | --- |
-| See the check number as the most prominent identifier in ticket headers  | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [KDS Ticket Headers](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configKdsTicketHeaders): Check number |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| See the table number (or tab name) as the most prominent identifier in ticket headers | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [KDS Ticket Headers](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configKdsTicketHeaders): Table number |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| See lines with totals for identical items in an order | Front of house > Order screen setup > UI options > [Consolidate menu items](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configCombineItems): On |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See every item on its own line | Front of house > Order screen setup > UI options > [Consolidate menu items](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configCombineItems): Off |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See identical items consolidated into a single ticket with the quantity number when using separate kitchen tickets for each item | You need to change the following settings:1. Front of house > Order screen setup > UI options > [Consolidate menu items](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configCombineItems): On
-2. Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Individual Item Tickets Order](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configIndividualTickets) > KDS Settings: Display each item on individual tickets...
-3. Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Consolidate Items with Multiple Quantities](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configConsolidateItemsWithMultipleQuantities): Yes
+| See the check number as the most prominent identifier in ticket headers  | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [KDS Ticket Headers](adminKitchenDiningRoomReference.html#configKdsTicketHeaders): Check number |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| See the table number (or tab name) as the most prominent identifier in ticket headers | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [KDS Ticket Headers](adminKitchenDiningRoomReference.html#configKdsTicketHeaders): Table number |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| See lines with totals for identical items in an order | Front of house > Order screen setup > UI options > [Consolidate menu items](adminUiOptionsReference.html#configCombineItems): On |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| See every item on its own line | Front of house > Order screen setup > UI options > [Consolidate menu items](adminUiOptionsReference.html#configCombineItems): Off |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| See identical items consolidated into a single ticket with the quantity number when using separate kitchen tickets for each item | You need to change the following settings:1. Front of house > Order screen setup > UI options > [Consolidate menu items](adminUiOptionsReference.html#configCombineItems): On
+2. Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Individual Item Tickets Order](adminKitchenDiningRoomReference.html#configIndividualTickets) > KDS Settings: Display each item on individual tickets...
+3. Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Consolidate Items with Multiple Quantities](adminKitchenDiningRoomReference.html#configConsolidateItemsWithMultipleQuantities): Yes
 
  |   | Web Setup > Restaurant Operations SetupWeb Setup > Kitchen / Dining Room Setup | 
-| Have a separate ticket for each item (example: tapas-style delivery) | You need to change the following settings:1. Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Individual Item Tickets](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configIndividualTickets) > KDS Settings: Display each item on individual tickets...
-2. Kitchen > Pacing > Meal pacing > Course Pacing: Enable course pacing > Sending Courses: Send all courses individually >[Previous Course Status](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPreviousCourseStatus): unchecked
+| Have a separate ticket for each item (example: tapas-style delivery) | You need to change the following settings:1. Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) > KDS Settings: Display each item on individual tickets...
+2. Kitchen > Pacing > Meal pacing > Course Pacing: Enable course pacing > Sending Courses: Send all courses individually >[Previous Course Status](adminKitchenDiningRoomReference.html#configPreviousCourseStatus): unchecked
 
  |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Have one ticket for all items sent in an order | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Individual Item Tickets](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configIndividualTickets) > KDS Settings: Display all items... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| See modifiers on separate lines | Front of house > Order screen setup > UI options > [Modifier display mode](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierDisplayMode): Vertical |  | Web Setup > 6.6 Restaurant Operations Setup | 
-| See modifiers in a comma separated list | Front of house > Order screen setup > UI options > [Modifier display mode](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierDisplayMode): Horizontal |  | Web Setup > 6.6 Restaurant Operations Setup | 
+| Have one ticket for all items sent in an order | Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) > KDS Settings: Display all items... |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| See modifiers on separate lines | Front of house > Order screen setup > UI options > [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode): Vertical |  | Web Setup > 6.6 Restaurant Operations Setup | 
+| See modifiers in a comma separated list | Front of house > Order screen setup > UI options > [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode): Horizontal |  | Web Setup > 6.6 Restaurant Operations Setup | 
 | See modifiers listed by sort order | 
 
 > **Note**
@@ -102,7 +102,7 @@ You can change how order information appears on tickets by setting the options d
 > Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release.
 
 
-You need to change the following settings:1. Front of house > Order screen setup > UI options > [Modifier display mode](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierDisplayMode): Vertical or Horizontal
+You need to change the following settings:1. Front of house > Order screen setup > UI options > [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode): Vertical or Horizontal
 2. On the modifier's details page, a Sort Order is assigned. This can also be done on the Menus > Bulk Management > Advanced properties page and using the Show/Hide dropdown menu to choose Sort Order.
 
 > **Note**
@@ -113,7 +113,7 @@ You need to change the following settings:1. Front of house > Order screen setup
 
 
  |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See modifiers listed by modifier group display ordering priority in a comma-separated list in sequence selected | You need to change the following settings:1. Front of house > Order screen setup > UI options > [Modifier ordering priority](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierOrderingPriority): On
+| See modifiers listed by modifier group display ordering priority in a comma-separated list in sequence selected | You need to change the following settings:1. Front of house > Order screen setup > UI options > [Modifier ordering priority](adminUiOptionsReference.html#configModifierOrderingPriority): On
 
 > **Note**
 > 
@@ -124,12 +124,12 @@ You need to change the following settings:1. Front of house > Order screen setup
 2. On the modifier group's details page, the Display Ordering Priority setting is assigned. For more information, see [Understanding modifier group display order](adminUnderstandingModifierGroupDisplay.html).
 
  |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See modifiers listed in the same way they were added to the order | Front of house > Order screen setup > UI options > [Modifier group sorting](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierGroupSorting): Display in order modifiers were added |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See modifiers listed in the same order as they appear within the modifier group in Toast Web | Front of house > Order screen setup > UI options > [Modifier group sorting](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierGroupSorting): Display in order modifiers are listed in their modifier group  |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See modifiers on separate lines sequenced first by required modifiers, and then optional modifiers by extra charge amount | Front of house > Order screen setup > UI options > [Modifier display mode](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierDisplayMode): Legacy |   | Web Setup > 6.6 Restaurant Operations Setup | 
-| See modifiers in a comma-separated list in the order they were added on the orders screen | Front of house > Order screen setup > UI options > [Modifier display mode](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#configModifierDisplayMode): Legacy - Flatten |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| See modifiers listed in the same way they were added to the order | Front of house > Order screen setup > UI options > [Modifier group sorting](adminUiOptionsReference.html#configModifierGroupSorting): Display in order modifiers were added |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| See modifiers listed in the same order as they appear within the modifier group in Toast Web | Front of house > Order screen setup > UI options > [Modifier group sorting](adminUiOptionsReference.html#configModifierGroupSorting): Display in order modifiers are listed in their modifier group  |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| See modifiers on separate lines sequenced first by required modifiers, and then optional modifiers by extra charge amount | Front of house > Order screen setup > UI options > [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode): Legacy |   | Web Setup > 6.6 Restaurant Operations Setup | 
+| See modifiers in a comma-separated list in the order they were added on the orders screen | Front of house > Order screen setup > UI options > [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode): Legacy - Flatten |   | Web Setup > 6.6 Restaurant Operations Setup | 
 
-For more information about how to change configuration settings, see [Using Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+For more information about how to change configuration settings, see [Using Toast Web](adminAccessToastAdminBackend.html).
 
 #### KDS text and ticket size
 
@@ -161,17 +161,17 @@ Your kitchen can include one or more printers along with your kitchen display sy
 
 | If you want to... | Toast Web (All devices) | Toast POS home screen (Each device) | Required Permission | 
 | --- | --- | --- | --- |
-| Print a selected ticket manually | Kitchen > Printers, screens, & KDS devices > Kitchen > [Print On Demand](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPrintOnDemand): Enable kitchen staff... |  | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Print item(s) in a selected ticket manually | Kitchen > Printers, screens, & KDS devices > Kitchen > [Fulfill Items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems): Enable individual item fulfillment |  | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Print a selected ticket manually | Kitchen > Printers, screens, & KDS devices > Kitchen > [Print On Demand](adminKitchenDiningRoomReference.html#configPrintOnDemand): Enable kitchen staff... |  | Web Setup > 6.2 Kitchen / Dining Room Setup | 
+| Print item(s) in a selected ticket manually | Kitchen > Printers, screens, & KDS devices > Kitchen > [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems): Enable individual item fulfillment |  | Web Setup > 6.2 Kitchen / Dining Room Setup | 
 | Print tickets automatically on fulfillment |  | Setup > Device Setup > Auto-print Fulfilled Tickets | Device Setup > 7.3 KDS and Order Screen Setup | 
-| Print expediter tickets automatically when offline | You need to change the following settings:1. Kitchen > Printers, screens, & KDS devices > Kitchen > [Printing Mode](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPrintingMode): Only print ... when Toast is in offline mode
-2. Kitchen > Printers, screens, & KDS devices > Kitchen > [Expediter Printer(s)](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configExpediterPrinters)
+| Print expediter tickets automatically when offline | You need to change the following settings:1. Kitchen > Printers, screens, & KDS devices > Kitchen > [Printing Mode](adminKitchenDiningRoomReference.html#configPrintingMode): Only print ... when Toast is in offline mode
+2. Kitchen > Printers, screens, & KDS devices > Kitchen > [Expediter Printer(s)](adminKitchenDiningRoomReference.html#configExpediterPrinters)
 
  |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
-| Print all expediter tickets automatically | You need to change the following settings:1. Kitchen > Printers, screens, & KDS devices > Kitchen > [Printing Mode](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configPrintingMode): Always print expediter tickets
-2. Kitchen > Printers, screens, & KDS devices > Kitchen > [Expediter Printer(s)](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configExpediterPrinters)
+| Print all expediter tickets automatically | You need to change the following settings:1. Kitchen > Printers, screens, & KDS devices > Kitchen > [Printing Mode](adminKitchenDiningRoomReference.html#configPrintingMode): Always print expediter tickets
+2. Kitchen > Printers, screens, & KDS devices > Kitchen > [Expediter Printer(s)](adminKitchenDiningRoomReference.html#configExpediterPrinters)
 
  |   | Web Setup > 6.2 Kitchen / Dining Room Setup | 
 
-For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](adminAccessToastAdminBackend.html).
 

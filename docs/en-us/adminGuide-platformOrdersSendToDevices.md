@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminOrderManagementOmitChunkFromSearchIndex.md
 parentSectionTitle: "Managing checks and orders"
-previousSectionFile: adminGuide-adminOrderManagementOmitChunkFromSearchIndex.md
-previousSectionTitle: "Managing checks and orders"
+previousSectionFile: adminGuide-adminTransferringOrders.md
+previousSectionTitle: "Transferring checks or orders to a different employee"
 nextSectionFile: adminGuide-adminViewingRestrictedOrders.md
 nextSectionTitle: "Working with restricted orders"
 excerpt: "For open, paid, and closed orders, you can send the order to all of the Toast POS devices."

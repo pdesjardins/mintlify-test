@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminDiscountTriggerComponentsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Choosing the required items for a discount"
-previousSectionFile: adminGuide-adminDiscountTriggerComponentsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Choosing the required items for a discount"
+previousSectionFile: adminGuide-adminDiscountRequiredItemsAbout.md
+previousSectionTitle: "Required items overview"
 nextSectionFile: adminGuide-adminDiscountMenuGroupTriggers.md
 nextSectionTitle: "Selecting a menu group as a required item"
 excerpt: "You can choose any individual menu item in your restaurant menu configuration to be a required item for a discount. The item might be one of a list of..."
@@ -41,7 +41,7 @@ When you select a menu item that uses size pricing, you are prompted to select t
 
 ![Dialog to choose the size modifiers that apply to the discount.](https://doc.toasttab.com/doc/media/discount-trigger-size-and-modifier.png)
 
-For a combo discount, if you select more than one size, the Toast platform treats the lowest-priced size, which is typically the smallest, as the base size for the combo price. The Toast platform increases the combo price for the higher-priced sizes, which are typically larger, by the additional amount for those larger sizes. For more information, see [Upcharging discounted items in a combo discount](adminDiscountsEffectsOmitChunkFromSearchIndex.html#adminUpchargingDiscountedItems).
+For a combo discount, if you select more than one size, the Toast platform treats the lowest-priced size, which is typically the smallest, as the base size for the combo price. The Toast platform increases the combo price for the higher-priced sizes, which are typically larger, by the additional amount for those larger sizes. For more information, see [Upcharging discounted items in a combo discount](adminDiscountPricing.html#adminUpchargingDiscountedItems).
 
 The order in which the Toast platform considers sizes for size upcharging is based purely on the size pricing for the menu item. The names that you give to sizes, such as glass or bottle, do not affect how the platform considers the sizes.
 

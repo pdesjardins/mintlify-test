@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminDiscountsEffectsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Effects of applied discounts"
-previousSectionFile: adminGuide-adminDiscountsEffectsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Effects of applied discounts"
+previousSectionFile: adminGuide-adminDiscountPricing.md
+previousSectionTitle: "Effect of discounts on prices"
 nextSectionFile: adminGuide-adminBulkDiscounts.md
 nextSectionTitle: "Bulk discounts"
 excerpt: "Whether a discount is exclusive or nonexclusive determines whether the discount can be combined with other discounts."
@@ -96,7 +96,7 @@ However, if the order has only one large pizza, you cannot apply both nonexclusi
 
 The following table summarizes how different combinations of exclusive and nonexclusive discounts interact.
 
-For information on configuring required items for discounts, see [Choosing the required items for a discount](adminDiscountTriggerComponentsOmitChunkFromSearchIndex.html#adminDiscountRequiredItemsAbout).
+For information on configuring required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
 | Discount type | Required items | Exclusive or Nonexclusive | Combines with other discounts? | 
 | --- | --- | --- | --- |

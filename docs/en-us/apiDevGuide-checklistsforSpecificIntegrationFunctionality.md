@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-portalChecklistsAndTestPlansOmitChunkFromSearchIndex.md
 parentSectionTitle: "Checklists and test plans"
-previousSectionFile: apiDevGuide-portalChecklistsAndTestPlansOmitChunkFromSearchIndex.md
-previousSectionTitle: "Checklists and test plans"
+previousSectionFile: apiDevGuide-apiIntegrationChecklists.md
+previousSectionTitle: "Checklist and test plans overview"
 nextSectionFile: apiDevGuide-integrationTestPlans.md
 nextSectionTitle: "Integration test plans"
 externalReferences: [https://doc.toasttab.com/openapi/labor/operation/employeesGet/, https://doc.toasttab.com/openapi/configuration/operation/tablesGet/, https://doc.toasttab.com/openapi/restaurants/operation/restaurantsRestaurantGuidGet/, https://doc.toasttab.com/openapi/configuration/operation/revenueCentersGet/, https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/, https://doc.toasttab.com/openapi/configuration/overview/, https://doc.toasttab.com/openapi/orders/operation/ordersGet/]

@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformOffPremiseOfflineModeOmitChunkFromSearchIndex.md
 parentSectionTitle: "Offline support"
-previousSectionFile: adminGuide-platformOffPremiseOfflineModeOmitChunkFromSearchIndex.md
-previousSectionTitle: "Offline support"
+previousSectionFile: adminGuide-adminOfflineDelivery.md
+previousSectionTitle: "Takeout and delivery orders"
 nextSectionFile: adminGuide-platformOfflineAutofireDevices.md
 nextSectionTitle: "Offline Autofire devices"
 excerpt: "When a restaurant is offline, if a guest tries to place a Toast online order, an error message appears. The error message appears when the guest selects the Place Order button. The error message..."

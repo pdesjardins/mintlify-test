@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformPublishingCenterOmitChunkFromSearchIndex.md
 parentSectionTitle: "Publishing center"
-previousSectionFile: adminGuide-platformPublishingCenterOmitChunkFromSearchIndex.md
-previousSectionTitle: "Publishing center"
+previousSectionFile: adminGuide-platformPublishingCenterOverview.md
+previousSectionTitle: "Publishing center overview"
 nextSectionFile: adminGuide-platformManualAndScheduledPublishing.md
 nextSectionTitle: "Manual and scheduled publishing"
 excerpt: "To fully understand how publishing behaves on the Toast platform, you must understand the difference between saving a configuration change and publishing it. Making the changes you specify in Toast..."
@@ -23,7 +23,7 @@ To fully understand how publishing behaves on the Toast platform, you must under
 
 This step updates the *saved database*, which is a repository that the Toast platform uses to store configuration changes that are saved but not published yet. Changes stored in the saved database are not yet visible to restaurant employees and guests but they are visible in Toast Web.
 
-Having a saved database allows you to queue up multiple configuration changes and then publish them at the same time. For multi-location restaurants, it also allows you to control when saved changes are published to specific locations (for more information on publishing for multi-location restaurants, see [Using the Publish Config page](platformPublishingDocsOmitChunkFromSearchIndex.html#platformPublishingPublishConfigPage)).
+Having a saved database allows you to queue up multiple configuration changes and then publish them at the same time. For multi-location restaurants, it also allows you to control when saved changes are published to specific locations (for more information on publishing for multi-location restaurants, see [Using the Publish Config page](platformHowToPublish.html#platformPublishingPublishConfigPage)).
 
 
 - Publish your changes.

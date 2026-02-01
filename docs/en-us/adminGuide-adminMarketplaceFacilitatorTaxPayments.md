@@ -45,7 +45,7 @@ A marketplace facilitator might not remit all tax amounts for a Toast platform o
 
 The marketplace facilitator tax amount behavior described in this section only applies to orders that are *directly submitted* from the marketplace facilitator to the Toast platform. Your restaurant might receive orders that originated at a marketplace facilitator but then passed through another order handling service before being digitally submitted to the Toast platform. For example, if your Toast platform restaurant uses a direct integration with a marketplace facilitator ordering partner, the orders you receive through that integration are included in marketplace facilitator tax amount handling and reporting. Orders you receive *indirectly* from a marketplace facilitator, through a different ordering service, *are*included in reporting using tax rates configured in the Toast platform and *are not* included in marketplace facilitator reporting.
 
-If your restaurant uses a Toast API integration that gets information about orders, the order information that you get from Toast APIs includes information about tax amounts remitted on behalf of your restaurant. For more information, see [Marketplace facilitator tax information](apiOrdersOmitChunkFromSearchIndex.html#apiMarketplaceFacilitatorTaxInformation).
+If your restaurant uses a Toast API integration that gets information about orders, the order information that you get from Toast APIs includes information about tax amounts remitted on behalf of your restaurant. For more information, see [Marketplace facilitator tax information](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiMarketplaceFacilitatorTaxInformation).
 
 The following sections provide more information about marketplace facilitator tax payments:
 
@@ -117,9 +117,9 @@ The following diagram shows marketplace facilitator tax amounts in the Sales Sum
 
 ##### Calculating tax amounts
 
-To calculate the amounts used for taxes, refer to the orders API `AppliedTaxRate` object. For more information about this object and how it applies to marketplace facilitators, see [Reviewing marketplace facilitator tax calculations](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetMarketplaceFacilitatorCalculateTax).
+To calculate the amounts used for taxes, refer to the orders API `AppliedTaxRate` object. For more information about this object and how it applies to marketplace facilitators, see [Reviewing marketplace facilitator tax calculations](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetMarketplaceFacilitatorCalculateTax).
 
-For instructions on how to calculate the total marketplace facilitator tax paid for an order, see [Calculating total marketplace facilitator tax paid](apiOrdersOmitChunkFromSearchIndex.html#apiOrdersGetMarketplaceFacilitatorCalculateTotalTaxPaid).
+For instructions on how to calculate the total marketplace facilitator tax paid for an order, see [Calculating total marketplace facilitator tax paid](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetMarketplaceFacilitatorCalculateTotalTaxPaid).
 
 #### Tax amounts are aggregated for all items and checks
 

@@ -21,7 +21,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> To access the Review Employee Shifts screen, you must have 3. Manager > 3.12 Shift Reviewpermission. For more information about permissions, see [Manager access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminManagerAccessPermissions).
+> To access the Review Employee Shifts screen, you must have 3. Manager > 3.12 Shift Reviewpermission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
 
 
 As a manager, you can review employee shifts on a Toast POS device. To view employee shifts, navigate to Manager Activities, and select Review Employee Shifts to open the Review Employee Shiftsscreen. On the Review Employee Shifts screen, employee shifts are separated into either the Activeor Closed category. Active shifts are those where employees are actively taking orders and payments or are in the process of completing shift review. Closed shifts are those where employees have completed shift review and clocked out. The number of active or closed shifts appears to the left of the category name.
@@ -85,7 +85,7 @@ On the Review Employee Shifts screen, you can also complete the following action
 
 > **Note**
 > 
-> To access the Time entries panel, you must have 3. Manager > 3.14 Edit Time Entriespermission. For more information about permissions, see [Manager access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminManagerAccessPermissions).
+> To access the Time entries panel, you must have 3. Manager > 3.14 Edit Time Entriespermission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
 
 
 You can edit your own shift review or another employee’s using the Time entries panel.

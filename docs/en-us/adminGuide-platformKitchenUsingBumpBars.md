@@ -94,7 +94,7 @@ Alternatively to the up and down buttons, you can use the numbered buttons (1-10
 
 ![An example of tickets with bump bar numbers and the buttons they correspond to on the bump bar.](https://doc.toasttab.com/doc/media/kds-bump-bar-numbers.png)
 
-If there is no ticket number that corresponds to a numbered button, pressing that button has no effect. Depending on the [ticket size used for grid view](adminKitchenDisplaySystemOmitChunkFromSearchIndex.html#platformGridKDSGridLayout), you can have a maximum of ten tickets per page.
+If there is no ticket number that corresponds to a numbered button, pressing that button has no effect. Depending on the [ticket size used for grid view](platformKDSOverview.html#platformGridKDSGridLayout), you can have a maximum of ten tickets per page.
 
 When viewing a ticket dialog, the up and down buttons rotate through the actions and items available. An option in focus is shaded differently while in focus. A selected item is shaded until the selection is removed. Here is an example of the ticket dialog with the Fulfilloption in focus and several items selected.
 
@@ -102,7 +102,7 @@ When viewing a ticket dialog, the up and down buttons rotate through the actions
 
 #### Acknowledging a flashing ticket
 
-If your restaurant configuration uses the [Flash Changes](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFlashChanges) setting, the ticket intermittently changes the color of the ticket header to indicate there are changes. You need to acknowledge a ticket to stop the flashing behavior.
+If your restaurant configuration uses the [Flash Changes](adminKitchenDiningRoomReference.html#configFlashChanges) setting, the ticket intermittently changes the color of the ticket header to indicate there are changes. You need to acknowledge a ticket to stop the flashing behavior.
 
 **Procedure 10.40. To acknowledge a flashing ticket**
 
@@ -166,7 +166,7 @@ The focus changes to the ticket you want to acknowledge.
 
 #### Printing a ticket using the bump bar
 
-If a kitchen printer is configured, you can choose to print specific tickets from your KDS device to your kitchen printer. For more information on configuring a kitchen printer, see [Adding a kitchen printer](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAddKitchenPrinter).
+If a kitchen printer is configured, you can choose to print specific tickets from your KDS device to your kitchen printer. For more information on configuring a kitchen printer, see [Adding a kitchen printer](adminAddKitchenPrinter.html).
 
 
 
@@ -227,7 +227,7 @@ There are two ways to fulfill a ticket:
 
 #### Fulfilling an item or items using the bump bar
 
-If your restaurant configuration enables the [Fulfill Items](platformKitchenConfigReferenceOmitChunkFromSearchIndex.html#configFulfillItems) setting, you can choose to fulfill individual items on a ticket instead of the entire ticket.
+If your restaurant configuration enables the [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems) setting, you can choose to fulfill individual items on a ticket instead of the entire ticket.
 
 **Procedure 10.43. To fulfill an item or items**
 

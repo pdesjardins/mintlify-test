@@ -5,8 +5,8 @@ type: section
 documentId: devCookbook
 parentSectionFile: devCookbook-cookbookEmployeesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Employees"
-previousSectionFile: devCookbook-cookbookEmployeesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Employees"
+previousSectionFile: devCookbook-apiIntegrationChecklistEmployee.md
+previousSectionTitle: "Building an employee management integration"
 nextSectionFile: devCookbook-cookbookGiftCardsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Gift cards"
 externalReferences: [https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961, https://central.toasttab.com/s/article/Adding-and-Editing-Employees-and-Wages, https://doc.toasttab.com/openapi/labor/overview/]
@@ -42,7 +42,7 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ##### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devPortalCookbookHowToOmitChunkFromSearchIndex.html#apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
 #### Restaurant information management
 
@@ -50,13 +50,13 @@ Review and implement the instructions in [How to build a Toast integration](devP
 
 Employees have permissions based on their assigned job(s). Scheduled shifts must specify an employee and a job. See [this Toast Central article](https://central.toasttab.com/s/article/Adding-and-Editing-Employees-and-Wages) for more information about employee setup.
 
-If you plan to maintain employee information in your platform and submit this information to Toast, see [Building an employee management integration](cookbookEmployeesOmitChunkFromSearchIndex.html#apiIntegrationChecklistEmployee).
+If you plan to maintain employee information in your platform and submit this information to Toast, see [Building an employee management integration](apiIntegrationChecklistEmployee.html).
 
 ##### Build initial employee and job load
 
 If a restaurant begins using your integration after they are already live on the Toast platform, you will need to map the existing employees and jobs in the Toast platform to employees and jobs in your service.
 
-Consider doing an [initial employee load](apiEmployeeInformationOmitChunkFromSearchIndex.html#api-get-all-employees) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field for mapping employees in the Toast platform to employees in your service.
+Consider doing an [initial employee load](api_get_all_employees.html) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field for mapping employees in the Toast platform to employees in your service.
 
 Use the `/jobs` endpoint of the labor API to load initial job information. See [the Labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification.
 
@@ -104,7 +104,7 @@ Your service should track the shifts you have already created so you do not rece
 
 If an employee is clocked into a shift, you will receive a 400 HTTP response status code if you attempt to delete the shift.
 
-To evaluate whether an employee has clocked into their shift, retrieve [time entries](apiEmployeeInformationOmitChunkFromSearchIndex.html#apiGettingTimeEntriesForEmployees) at this location and look for the shift's GUID in the `shiftReference` value. If there is a time entry that contains this shift in the `shiftReference`, the employee has clocked in.
+To evaluate whether an employee has clocked into their shift, retrieve [time entries](apiGettingTimeEntriesForEmployees.html) at this location and look for the shift's GUID in the `shiftReference` value. If there is a time entry that contains this shift in the `shiftReference`, the employee has clocked in.
 
 Your integration should prevent users from attempting to delete shifts that employees have clocked into or display a user-friendly error message when somebody makes this shift deletion attempt.
 

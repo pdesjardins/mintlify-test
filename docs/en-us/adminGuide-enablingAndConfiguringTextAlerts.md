@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminTextAlertsOmitChunkFromSearchIndex.md
 parentSectionTitle: "Text alerts"
-previousSectionFile: adminGuide-adminTextAlertsOmitChunkFromSearchIndex.md
-previousSectionTitle: "Text alerts"
+previousSectionFile: adminGuide-platformTextAlertsOverview.md
+previousSectionTitle: "Text alerts overview"
 nextSectionFile: adminGuide-sendingAndReceivingTextAlerts.md
 nextSectionTitle: "Sending and receiving text alerts"
 excerpt: "To enable text alerts Access Toast Web. Select Front of house > Employee SOS > Text alert setup. Under the Enable Text Alerts option, select Yes."
@@ -19,7 +19,7 @@ codeExamples: 0
 
 **Procedure 4.13. To enable text alerts**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Select Front of house > Employee SOS > Text alert setup.
@@ -35,7 +35,7 @@ You see the SMS Messages, Who can receive SMS alerts, and Who can send SMS alert
 
 > **Note**
 > 
-> If your restaurant is part of a multi-location restaurant group, enabling text alerts for the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) enables it for all restaurants in the group.
+> If your restaurant is part of a multi-location restaurant group, enabling text alerts for the [session restaurant](sessionRestaurant.html) enables it for all restaurants in the group.
 
 
 #### Configuring preset text messages

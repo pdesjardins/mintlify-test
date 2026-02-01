@@ -142,7 +142,7 @@ If you have a check that you cannot close, you can either void the check with ma
 > **Note**
 > 
 > You can require employees to declare cash tips as part of their shift review. From Toast Web, choose Employees > Shift review > Shift review setup > Declare cash tips and then select Tipped employees must declare cash tips.
-> Employees who must declare cash tips must have the Tipped? option checked for their assigned job. For more information, see [UI options settings](devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex.html#adminUiOptionsReference).
+> Employees who must declare cash tips must have the Tipped? option checked for their assigned job. For more information, see [UI options settings](adminUiOptionsReference.html).
 
 
 The next step for shift review is to declare cash tips. This is an optional step that can be configured in Toast Web. Cash tips should be entered as a part of the shift review. Any cash tips entered on the Toast POS device are ignored.
@@ -212,7 +212,7 @@ The next step for shift review is to reconcile your cash and tips. Reconciling y
 
 > **Note**
 > 
-> To allow employees to cash out their credit card tips without having to enter a manager passcode, they must be assigned the 1.13 No Sale permission. This permission allows employees to make a No Sale entry and open a cash drawer without having to complete a transaction. For more information about permissions, see [Access permissions reference](platformEmployeesOmitChunkFromSearchIndex.html#adminAddlPosAccessPermissions).
+> To allow employees to cash out their credit card tips without having to enter a manager passcode, they must be assigned the 1.13 No Sale permission. This permission allows employees to make a No Sale entry and open a cash drawer without having to complete a transaction. For more information about permissions, see [Access permissions reference](adminPermissions.html#adminAddlPosAccessPermissions).
 
 
 **Procedure 6.113. To reconcile your cash and collect your non-cash tips**

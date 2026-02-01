@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminModifierGroupDisplayOrderOmitChunkFromSearchIndex.md
 parentSectionTitle: "Modifier group display order"
-previousSectionFile: adminGuide-adminModifierGroupDisplayOrderOmitChunkFromSearchIndex.md
-previousSectionTitle: "Modifier group display order"
+previousSectionFile: adminGuide-platformModifierGroupDisplayOrderOverview.md
+previousSectionTitle: "Modifier group display order overview"
 nextSectionFile: adminGuide-adminUnderstandingModifierGroupDisplay.md
 nextSectionTitle: "Understanding modifier group display order"
 excerpt: "In Toast Web, settings exist on both a modifier group's details page and on the UI options page that affect the order that the Toast platform uses to display modifier groups for a menu item."
@@ -42,7 +42,7 @@ Required modifier groups are shown first, followed by optional modifier groups t
 
 ![Example of the settings on a modifier group details page that affect modifier group display order.](https://doc.toasttab.com/doc/media/mod-group-ordering-required-and-display-ordering-priority.png)
 
-The [menu builder](adminCreatingYourMenuUsingTheBasicMenuBuilderOmitChunkFromSearchIndex.html#adminMenuBuilderOverview) view has an equivalent group of settings to the classic view's Selecting a modifier from this group is setting. These settings appear in the Modifier group settings section of a modifier group details page and their names are Required, Optional, and Include a POS prompt (for more information on these settings, see [Adding modifier groups and modifiers](adminAddingModifierGroupsAndModifiers.html)in the menu builder documentation).
+The [menu builder](adminMenuBuilderOverview.html) view has an equivalent group of settings to the classic view's Selecting a modifier from this group is setting. These settings appear in the Modifier group settings section of a modifier group details page and their names are Required, Optional, and Include a POS prompt (for more information on these settings, see [Adding modifier groups and modifiers](adminAddingModifierGroupsAndModifiers.html)in the menu builder documentation).
 
 ![Example of the settings on a modifier group details page in the menu builder that affect modifier group display order.](https://doc.toasttab.com/doc/media/mod-group-ordering-required-basic-menu-builder.png)
 

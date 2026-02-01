@@ -32,7 +32,7 @@ Follow the procedure below to edit a price level's price.
 
 **Procedure 8.98. To edit a price level's price**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.

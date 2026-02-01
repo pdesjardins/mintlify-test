@@ -150,7 +150,7 @@ Before restaurant employees can use the promo code search, you must enable it.
 
 **Procedure 9.9. To enable promo code search for a restaurant**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Front of house > Order screen setup > UI options to open the UI Options page.

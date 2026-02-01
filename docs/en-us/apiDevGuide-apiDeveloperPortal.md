@@ -149,7 +149,7 @@ The Community button on the top navigation bar opens the [Toast Integrations Com
 
 ##### Credentials
 
-The Credentials page contains your API credentials. Your API credentials grant you access to Toast resources and allow you to securely send API requests. For more information about credentials, see [Authentication and restaurant access](authenticationOmitChunkFromSearchIndex.html#authentication).
+The Credentials page contains your API credentials. Your API credentials grant you access to Toast resources and allow you to securely send API requests. For more information about credentials, see [Authentication and restaurant access](authentication.html).
 
 The Credentials page contains your Client name, Client ID, and Client secret.
 
@@ -335,7 +335,7 @@ Select the Update button to save your changes or select the Cancel button to clo
 
 ##### Webhooks
 
-The Webhooks page displays all your webhook subscriptions and their statuses, webhook subscription GUIDs, webhook event categories, and additional information. For more information about webhooks, see [Webhooks reference](portalWebhooksReferenceOmitChunkFromSearchIndex.html#apiWebhooksReference).
+The Webhooks page displays all your webhook subscriptions and their statuses, webhook subscription GUIDs, webhook event categories, and additional information. For more information about webhooks, see [Webhooks reference](apiWebhooksReference.html).
 
 ![Toast developer portal Webhooks page.](https://doc.toasttab.com/doc/media/developer-portal-webhooks-page.png)
 
@@ -352,7 +352,7 @@ Use the procedure below to add a new webhook subscription.
 
 2. On the Add webhook page, complete the following fields:
 
-- Event category: Select your event category from the drop-down menu. For more information, see [Webhooks reference](portalWebhooksReferenceOmitChunkFromSearchIndex.html#apiWebhooksReference).
+- Event category: Select your event category from the drop-down menu. For more information, see [Webhooks reference](apiWebhooksReference.html).
 
 
 - Webhook URL: Enter the URL of the webhook consumer service that receives the webhook events.
@@ -391,7 +391,7 @@ On the Webhooks page, you can view details about your webhook subscription. To v
 - Event category
 
 
-- Secret key. For more information, see [Message signing](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageSigning).
+- Secret key. For more information, see [Message signing](apiMessageSigning.html).
 
 
 
@@ -430,7 +430,7 @@ To view additional details about a webhook event, select the webhook GUID link. 
 - Route key.
 
 
-- Signature. For more information, see [Message signing](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageSigning).
+- Signature. For more information, see [Message signing](apiMessageSigning.html).
 
 
 - Webhook request body.
@@ -482,7 +482,7 @@ Use the procedure below to filter events associated with your webhook subscripti
 - Date and time the webhook event was initially sent to the webhook URL.
 
 
-- Number of webhook attempts. For more information about retry attempts, see [Retry support](portalWebhooksOmitChunkFromSearchIndex.html#apiRetrySupport).
+- Number of webhook attempts. For more information about retry attempts, see [Retry support](apiRetrySupport.html).
 
 
 - Webhook response code.

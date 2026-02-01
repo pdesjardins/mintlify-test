@@ -46,7 +46,7 @@ In the following example configuration, a check is eligible for the combo discou
 
 ![Combo discount that is configured with multiple combo groups.](https://doc.toasttab.com/doc/media/discount-combo-fields-filled.png)
 
-For more information about selecting required items for discounts, see [Choosing the required items for a discount](adminDiscountTriggerComponentsOmitChunkFromSearchIndex.html#adminDiscountRequiredItemsAbout).
+For more information about selecting required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
 #### Required item behavior for combo discounts
 
@@ -72,7 +72,7 @@ For example, a combo discount offers a cup of coffee and a bagel for $3.00. You 
 
 
 
-For more information about required items for discounts, see [Choosing the required items for a discount](adminDiscountTriggerComponentsOmitChunkFromSearchIndex.html#adminDiscountRequiredItemsAbout).
+For more information about required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
 #### Setting the maximum quantity to apply the discount to
 

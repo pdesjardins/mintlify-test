@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminDiscountsApplyingOmitChunkFromSearchIndex.md
 parentSectionTitle: "Managing how discounts are applied"
-previousSectionFile: adminGuide-adminDiscountsApplyingOmitChunkFromSearchIndex.md
-previousSectionTitle: "Managing how discounts are applied"
+previousSectionFile: adminGuide-adminDiscountsPosDisplay.md
+previousSectionTitle: "Configuring the discount display on the Toast POS app"
 nextSectionFile: adminGuide-adminDiscountPromoCodes.md
 nextSectionTitle: "Requiring promo codes for discounts"
 excerpt: "By default, any restaurant employee can apply an available discount to a check."

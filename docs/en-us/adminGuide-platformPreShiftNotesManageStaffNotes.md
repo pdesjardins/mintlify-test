@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformPreShiftNotesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Pre-shift notes"
-previousSectionFile: adminGuide-platformPreShiftNotesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Pre-shift notes"
+previousSectionFile: adminGuide-platformPreShiftNotes.md
+previousSectionTitle: "Pre-shift notes overview"
 nextSectionFile: adminGuide-platformPreShiftNotesViewMenuItemStockStatuses.md
 nextSectionTitle: "Viewing menu item stock statuses"
 externalReferences: [https://central.toasttab.com/s/article/Get-Started-with-the-Toast-Now-App]
@@ -67,7 +67,7 @@ On a Toast POS device, staff can view notes from either:
 
 #### Creating staff notes
 
-On the Toast Now app, you can create notes for your staff. For example, you can create notes to capture menu changes, to remind your staff of side work, or to help coordinate events. To create a staff note, you must have access to the Toast Now app and have an employee job type that has access to the Manager > 3.2 Log Book permission. For more information about permissions, see [Manager access permissions](platformEmployeesOmitChunkFromSearchIndex.html#adminManagerAccessPermissions).
+On the Toast Now app, you can create notes for your staff. For example, you can create notes to capture menu changes, to remind your staff of side work, or to help coordinate events. To create a staff note, you must have access to the Toast Now app and have an employee job type that has access to the Manager > 3.2 Log Book permission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
 
 **Procedure 4.7. To create a staff note**
 

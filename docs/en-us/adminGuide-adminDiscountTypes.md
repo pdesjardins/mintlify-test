@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminDiscountsIntroOmitChunkFromSearchIndex.md
 parentSectionTitle: "Chapter 9. Discounts"
-previousSectionFile: adminGuide-adminDiscountsIntroOmitChunkFromSearchIndex.md
-previousSectionTitle: "Chapter 9. Discounts"
+previousSectionFile: adminGuide-platformDiscountsOverview.md
+previousSectionTitle: "Discounts overview"
 nextSectionFile: adminGuide-adminConfiguringDiscountsOmitChunkFromSearchIndex.md
 nextSectionTitle: "Creating and updating discounts"
 excerpt: "When you add a discount, you select the discount type:"
@@ -39,7 +39,7 @@ The Toast platform supports the following types of discounts.
 
 
 
-For information about configuring fixed and open discounts, see [Configuring fixed or open amount or percent discounts](adminDiscountsTypeSpecificConfigOmitChunkFromSearchIndex.html#adminDiscountsConfigFixedOpenDiscounts).
+For information about configuring fixed and open discounts, see [Configuring fixed or open amount or percent discounts](adminDiscountsConfigFixedOpenDiscounts.html).
 
 
 

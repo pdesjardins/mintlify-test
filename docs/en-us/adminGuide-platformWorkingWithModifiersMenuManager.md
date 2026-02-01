@@ -98,7 +98,7 @@ The modifier's classic details page opens.
 
 2. Select Edit Item. The modifier's item reference page opens.
 
-From the item reference page, you can set the item reference name and price. This includes setting advanced pricing strategies for the item reference like menu-specific or location-specific pricing. For information on advanced pricing strategies, see [Pricing strategies overview](adminPricingStrategyDetailsOmitChunkFromSearchIndex.html#adminPricingStrategiesOverview).
+From the item reference page, you can set the item reference name and price. This includes setting advanced pricing strategies for the item reference like menu-specific or location-specific pricing. For information on advanced pricing strategies, see [Pricing strategies overview](adminPricingStrategiesOverview.html).
 
 
 3. If you make any changes to the item reference, select Save at the top of the page.
@@ -115,7 +115,7 @@ From the item reference page, you can set the item reference name and price. Thi
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](sessionRestaurant.html) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 
@@ -165,7 +165,7 @@ The modifier's classic details page opens.
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](sessionRestaurant.html) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 
@@ -228,7 +228,7 @@ For multi-location restaurants:
 
 **Procedure 8.88. To create new modifiers for a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -286,7 +286,7 @@ For multi-location restaurants, you must have the Edit Full Menu permission to t
 
 **Procedure 8.89. To add an existing modifier to a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -345,7 +345,7 @@ For multi-location restaurants:
 
 **Procedure 8.90. To set other details for a modifier**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -389,7 +389,7 @@ If the modifier [inherits its price](platformWorkingWithModifierGroupsMenuManage
 
 If the modifier is [priced individually](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager) and uses a base price, you can edit the price in the Modifier price field. The price you see and edit here is either the modifier's item reference price or its override price, if one exists. For more information, see [Understanding a modifier item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager).
 
-If the modifier is priced individually and uses an advanced pricing strategy, you can view the advanced price but you can't edit it. To edit the advanced price, use the More modifier settings link to go to the modifier's classic details page. From the classic modifier details page, you can access the modifier's [item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set an [advanced pricing strategy](adminPricingStrategyDetailsOmitChunkFromSearchIndex.html#adminPricingStrategiesOverview) for the modifier.
+If the modifier is priced individually and uses an advanced pricing strategy, you can view the advanced price but you can't edit it. To edit the advanced price, use the More modifier settings link to go to the modifier's classic details page. From the classic modifier details page, you can access the modifier's [item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set an [advanced pricing strategy](adminPricingStrategiesOverview.html) for the modifier.
 
 
 
@@ -422,7 +422,7 @@ For multi-location restaurants:
 
 **Procedure 8.91. To change the order of modifiers in a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -481,7 +481,7 @@ For multi-location restaurants:
 
 **Procedure 8.92. To remove modifiers from a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -521,7 +521,7 @@ When a modifier group is priced at the group level, all modifiers in the group u
 
 **Procedure 8.93. To set a base price for a modifier group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -592,7 +592,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 
 **Procedure 8.94. To set a base price for a modifier using the modifier group side panel**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -622,7 +622,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 
 **Procedure 8.95. To set a base price for a modifier using the Edit modifier dialog**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -658,7 +658,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 
 **Procedure 8.96. To set a base price in Modifiers view**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -686,7 +686,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 
 ##### Individually-priced modifiers that use advanced pricing strategies
 
-Using a modifier's [item reference page](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager), you can specify advanced pricing strategies for the modifier, including [size](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions), [menu-specific](adminMenuSpecificPrice.html), [location-specific](adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.html#adminLocationSpecificPriceOverview), [time-specific](adminTimeSpecificPrice.html), and [open](adminOpenPrice.html)prices.
+Using a modifier's [item reference page](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager), you can specify advanced pricing strategies for the modifier, including [size](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions), [menu-specific](adminMenuSpecificPrice.html), [location-specific](adminLocationSpecificPriceOverview.html), [time-specific](adminTimeSpecificPrice.html), and [open](adminOpenPrice.html)prices.
 
 The menu manager provides partial support for editing advanced prices on modifiers, allowing you to edit size, menu-specific, and location-specific prices in the Price column of Modifiers view.
 
@@ -701,7 +701,7 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 
 **Procedure 8.97. To edit an advanced price for a modifier in Modifiers view**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.

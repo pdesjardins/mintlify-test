@@ -21,7 +21,7 @@ You can create and apply a service charge to delivery orders. The service charge
 
 **Procedure 3.30. To configure a service charge for delivery orders**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Takeout & delivery > Availability > Takeout/delivery to open the Takeout/delivery page.

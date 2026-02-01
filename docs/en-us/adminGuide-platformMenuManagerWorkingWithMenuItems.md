@@ -42,7 +42,7 @@ For multi-location restaurants:
 
 **Procedure 8.59. To add a new menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -99,7 +99,7 @@ When reusing a menu item in multiple menu groups, keep in mind that:
 
 **Procedure 8.60. To add an existing menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -129,7 +129,7 @@ Follow the procedure below to rename a menu item.
 
 **Procedure 8.61. To rename a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -172,7 +172,7 @@ You can reorder menu items within a single menu group. You cannot move a menu it
 
 **Procedure 8.62. To reorder a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -220,7 +220,7 @@ For multi-location restaurants:
 
 **Procedure 8.63. To remove a menu item from a menu group**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -273,7 +273,7 @@ For multi-location restaurants:
 
 **Procedure 8.64. To archive a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -308,7 +308,7 @@ A menu item must be saved at least once before you can update its stock status.
 
 **Procedure 8.65. To set stock status for a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -374,7 +374,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 
 **Procedure 8.66. To edit a menu item's price in Full menu view**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -427,7 +427,7 @@ Note that open prices are not supported for Toast Online Ordering, so you should
 
 **Procedure 8.67. To edit a menu item's price in Items view**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -480,7 +480,7 @@ Toast support recommends adding images to your menu items to make them more appe
 
 **Procedure 8.68. To specify an image for a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -517,7 +517,7 @@ Use the procedure below to add a description to a menu item.
 
 **Procedure 8.69. To add a menu item description**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -566,7 +566,7 @@ Use the procedure below to specify the calorie count for a menu item.
 
 **Procedure 8.70. To specify calories for a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -600,7 +600,7 @@ Use the procedure below to specify a PLU or SKU for a menu item.
 
 **Procedure 8.71. To add a PLU or SKU for a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -643,7 +643,7 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 
 **Procedure 8.72. To assign alcohol labeling to a menu item**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -685,7 +685,7 @@ You can specify a kitchen name for a menu item. The kitchen name is used instead
 
 **Procedure 8.73. To specify a different name and color for KDS devices and kitchen tickets**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -742,7 +742,7 @@ To override the inherited prep stations for a menu item, go to the Kitchen secti
 
 To configure a menu item to inherit its prep stations, set the Inherit prep stations? setting to Yes.
 
-If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAddPrepStation) and [Routing with prep stations](adminRoutingToPrepStations.html).
+If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminAddPrepStation.html) and [Routing with prep stations](adminRoutingToPrepStations.html).
 
 #### Assigning courses
 
@@ -780,7 +780,7 @@ If you are viewing a menu item in the menu builder, select Kitchen. If you are v
 
 Alternatively, you can do the following:
 
-- [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -858,7 +858,7 @@ On the details page for a menu, menu group, or menu item, select Reporting. In t
 
 Alternatively, you can:
 
-- [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -927,7 +927,7 @@ To override the inherited tax rates for a menu item, go to the Tax settings sect
 
 To configure a menu item so that it inherits its tax rates, set the Inherit tax rates? setting to Yes. To inherit the Tax inclusion or Takeout tax exceptionsetting, set the Inherit tax inclusion? or Inherit takeout tax? setting to Yes.
 
-If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOmitChunkFromSearchIndex.html#adminTaxesOverview).
+If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOverview.html).
 
 ##### Understanding tax inclusion
 
@@ -1081,7 +1081,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 
 **Procedure 8.78. To edit a menu item's visibility in Full menu view**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -1108,7 +1108,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 
 **Procedure 8.79. To edit a menu item's visibility in Items view**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -1200,7 +1200,7 @@ Follow the instructions below to access the classic details page for a menu item
 
 **Procedure 8.80. To set an advanced price using the classic menu item details page**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Menu management > Menu manager to open the Menu managerpage.
@@ -1264,7 +1264,7 @@ If you are a multi-location restaurant, select the item's name to open its class
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](understandingKeyEnterpriseConceptsOmitChunkFromSearchIndex.html#sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](sessionRestaurant.html) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 

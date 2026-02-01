@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformPaymentsOfflineModeOmitChunkFromSearchIndex.md
 parentSectionTitle: "Offline support"
-previousSectionFile: adminGuide-platformPaymentsOfflineModeOmitChunkFromSearchIndex.md
-previousSectionTitle: "Offline support"
+previousSectionFile: adminGuide-platformOfflinePaymentsOverview.md
+previousSectionTitle: "Offline payments overview"
 nextSectionFile: adminGuide-adminCompletingShiftReviewOffline.md
 nextSectionTitle: "Completing shift review offline"
 excerpt: "During offline mode, you can still take card payments. When you process a card payment in offline mode, the Toast POS app takes the card information, encrypts it, and stores it on the Toast POS..."
@@ -34,7 +34,7 @@ You can also set a transaction limit for offline transactions which allows you t
 
 **Procedure 6.127. Configure card authorizations during a disruption**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Select Payments > Payment options. Scroll down to the Card authorization and payment disruptions section.
@@ -57,7 +57,7 @@ You can also set a transaction limit for offline transactions which allows you t
 
 
 
-4. With the Transaction Limit setting, you can optionally set a dollar amount limit for credit card transactions taken while in offline mode. Note that this threshold is not applied to employees who have the [Offline/Background Credit Card Processing](platformEmployeesOmitChunkFromSearchIndex.html#permissionOfflineCCProcessing) permission. A payment larger than the configured threshold requires manager approval.
+4. With the Transaction Limit setting, you can optionally set a dollar amount limit for credit card transactions taken while in offline mode. Note that this threshold is not applied to employees who have the [Offline/Background Credit Card Processing](adminPermissions.html#permissionOfflineCCProcessing) permission. A payment larger than the configured threshold requires manager approval.
 
 
 5. Save and publish your changes.

@@ -14,7 +14,7 @@ procedures: 3
 codeExamples: 0
 ---
 
-Similar to [tax rates](specifyingTaxRatesForEnterprisesOmitChunkFromSearchIndex.html#adminCreatingMasterTaxRates), Toast support recommends that, in an enterprise environment, you handle prep stations by creating a master version of each prep station and then creating location-specific versions of those masters for each location. This configuration makes it easier to assign prep stations to menu groups and items because only the master version of each prep station is shown, either on the Advanced properties page or on the menu entity's details page, reducing the number of prep stations you have to pick from (see [Creating a master version with location-specific versions for every location](understandingHowAndWhenToUseVersioning.html#creatingAMasterVersionWithLocationSpecificVersionsForEveryLocation)for more information). When you select a master prep station for a menu entity, the Toast platform automatically calculates which version of the prep station to use at each given location.
+Similar to [tax rates](adminCreatingMasterTaxRates.html), Toast support recommends that, in an enterprise environment, you handle prep stations by creating a master version of each prep station and then creating location-specific versions of those masters for each location. This configuration makes it easier to assign prep stations to menu groups and items because only the master version of each prep station is shown, either on the Advanced properties page or on the menu entity's details page, reducing the number of prep stations you have to pick from (see [Creating a master version with location-specific versions for every location](understandingHowAndWhenToUseVersioning.html#creatingAMasterVersionWithLocationSpecificVersionsForEveryLocation)for more information). When you select a master prep station for a menu entity, the Toast platform automatically calculates which version of the prep station to use at each given location.
 
 Also similar to tax rates, you should remove any auto-created prep stations before creating the masters and their location-specific versions.
 
@@ -48,7 +48,7 @@ For example, assuming the configuration in the illustration below, when the cust
 
 **Procedure 5.13. To archive auto-created prep stations**
 
-1. [Log in to Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Kitchen > Kitchen stations > Prep stations to open the Prep stationspage.

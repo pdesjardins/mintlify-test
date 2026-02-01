@@ -67,7 +67,7 @@ For example, the restaurant might add an additional 10 minutes to the preparatio
 
 
 
-3. The kitchen staff prepares the order. For more information about order preparation, see [Kitchen operations and fulfillment](platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex.html#adminAddPrepStation).
+3. The kitchen staff prepares the order. For more information about order preparation, see [Kitchen operations and fulfillment](adminAddPrepStation.html).
 
 
 4. The completed order is provided to the guest. Depending on the order dining option, this could mean:

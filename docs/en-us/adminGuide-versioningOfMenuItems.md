@@ -21,5 +21,5 @@ You can version menu items if necessary, however, if you only need to set differ
 
 If you need to override other aspects of a menu item, you can use versioning. Note that, if you version a menu item and then want to set location-specific pricing, you will have to set the location-specific pricing on all versions of the menu item.
 
-For more information on location-specific pricing, see [Location-specific price overview](adminSettingLocationSpecificPricesOmitChunkFromSearchIndex.html#adminLocationSpecificPriceOverview).
+For more information on location-specific pricing, see [Location-specific price overview](adminLocationSpecificPriceOverview.html).
 

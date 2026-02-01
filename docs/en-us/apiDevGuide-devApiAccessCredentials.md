@@ -59,7 +59,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 **Procedure 1.15. To update an employee’s locked access to full access**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. A Toast employee or restaurant operator with full-access goes to Employees > Employee management > Employeesto open the Employees page. 
@@ -80,7 +80,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 **Procedure 1.16. To update your read-only access to full access**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page. 
@@ -123,7 +123,7 @@ The following procedure describes how to create standard API access credentials 
 
 **Procedure 1.17. To create Standard API credentials**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Integrations > Toast API access > Manage credentials to open the Manage credentials page.
@@ -301,7 +301,7 @@ Select the Copy icon to copy the information.
 > Active authentication tokens generated using your credentials will continue to be valid until they expire or are replaced with new authentication tokens.
 
 
-A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
+A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](authentication.html#apiAuthTokenStorage).
 
 
 
@@ -318,7 +318,7 @@ A client secret is a private string assigned by Toast to verify the identity of 
 2. In the Ready to rotate the client secret dialog, confirm you want the existing client secret to expire and want to create a new client secret. To confirm, type ROTATE SECRET in the text field.
 
 
-3. Select the Continue button. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authenticationOmitChunkFromSearchIndex.html#apiAuthTokenStorage).
+3. Select the Continue button. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](authentication.html#apiAuthTokenStorage).
 
 
 4. Select the I have copied and saved the client secret checkbox to finish rotating your client secret. The Credentials page displays the date and time your new client secret was created.

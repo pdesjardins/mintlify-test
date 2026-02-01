@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiGettingStockInformationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Getting stock information"
-previousSectionFile: apiDevGuide-apiGettingStockInformationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Getting stock information"
+previousSectionFile: apiDevGuide-apiUsingTheStockWebhook.md
+previousSectionTitle: "Getting stock using the stock webhook"
 nextSectionFile: apiDevGuide-apiUpdatingInventoryInformationOmitChunkFromSearchIndex.md
 nextSectionTitle: "Updating stock information"
 externalReferences: [https://doc.toasttab.com/openapi/stock/overview/]
@@ -70,7 +70,7 @@ Toast support recommends that requests sent to Toast APIs use a combination of a
 
 No identifiers are submitted for requests to the `/inventory` endpoint, so `itemGuidValidity`is always `VALID` in responses from this endpoint.
 
-For requests to the `[/inventory/search](apiUsingTheStockApi.html#apiInventorySearch)` and `[/inventory/update](apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#apiUpdatingInventoryInformation)`endpoints, the stock API sets the `itemGuidValidity`value to `VALID` if it finds a match for the menu item. If the stock API does not find a match, either because the menu item does not exist at the location or because it has been archived, it sets `itemGuidValidity` to `INVALID` for that menu item. If a menu item is invalid, your integration should update the list of menu items it associates with the restaurant location to remove that menu item.
+For requests to the `[/inventory/search](apiUsingTheStockApi.html#apiInventorySearch)` and `[/inventory/update](apiUpdatingInventoryInformation.html)`endpoints, the stock API sets the `itemGuidValidity`value to `VALID` if it finds a match for the menu item. If the stock API does not find a match, either because the menu item does not exist at the location or because it has been archived, it sets `itemGuidValidity` to `INVALID` for that menu item. If a menu item is invalid, your integration should update the list of menu items it associates with the restaurant location to remove that menu item.
 
 For an invalid menu item, the stock API sets the following placeholders for the other JSON values:
 
@@ -91,7 +91,7 @@ For an invalid menu item, the stock API sets the following placeholders for the 
 
 > **Note**
 > 
-> You can use the [menus API](portalApiGettingMenusOmitChunkFromSearchIndex.html#apiGettingMenuInformationFromTheMenusAPI) to retrieve a fully resolved set of menus for each restaurant location, including identifiers for all of the location's menu items.
+> You can use the [menus API](apiGettingMenuInformationFromTheMenusAPI.html) to retrieve a fully resolved set of menus for each restaurant location, including identifiers for all of the location's menu items.
 
 
 
@@ -105,7 +105,7 @@ The following sections provide more information about retrieving inventory infor
 
 > **Note**
 > 
-> For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiUpdatingInventoryInformationOmitChunkFromSearchIndex.html#apiUpdatingInventoryInformation). For more information on how to change a menu item's inventory status using Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOmitChunkFromSearchIndex.html#adminMenuItemInventoryOverview).
+> For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiUpdatingInventoryInformation.html). For more information on how to change a menu item's inventory status using Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOverview.html).
 
 
 #### Getting all stock information for a location

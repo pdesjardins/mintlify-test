@@ -407,7 +407,7 @@ For example, for a pineapple and jalapeno pizza menu item, the default modifiers
 
 ##### Applying modifiers to menu item portions
 
-You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [Portions overview](adminUsingPortionsOmitChunkFromSearchIndex.html#adminPortionsOverview).
+You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [Portions overview](adminPortionsOverview.html).
 
 When you create an order in the orders API, to add portions and modifiers for those portions:
 

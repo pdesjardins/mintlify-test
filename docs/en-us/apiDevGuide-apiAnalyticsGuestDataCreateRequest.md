@@ -5,8 +5,8 @@ type: section
 documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex.md
 parentSectionTitle: "Guest reporting data"
-previousSectionFile: apiDevGuide-apiAnalyticsGuestDataOmitChunkFromSearchIndex.md
-previousSectionTitle: "Guest reporting data"
+previousSectionFile: apiDevGuide-apiAnalyticsGuestDataOverview.md
+previousSectionTitle: "Guest reporting data overview"
 nextSectionFile: apiDevGuide-apiAnalyticsGuestDataRetrieveData.md
 nextSectionTitle: "Retrieving the guest reporting data"
 excerpt: "Send..."
@@ -17,9 +17,9 @@ codeExamples: 0
 
 ### Creating a request for guest reporting data
 
-Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsRateLimiting).
+Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
-You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsOmitChunkFromSearchIndex.html#apiAnalyticsInactiveRestaurantData).
+You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
 To create a request for guest reporting data organized by payment, include the following:
 

@@ -693,7 +693,7 @@ When you use the orders API to add discounts to an order, the orders API verifie
 
 
 
-For more information about discount eligibility and combining discounts, see the [discounts information](adminDiscountsIntroOmitChunkFromSearchIndex.html#platformDiscountsOverview) in the *Toast Platform Guide*.
+For more information about discount eligibility and combining discounts, see the [discounts information](platformDiscountsOverview.html) in the *Toast Platform Guide*.
 
 ##### Determining whether a menu item allows discounts
 
@@ -1156,7 +1156,7 @@ From the Toast orders API, you can perform the following tasks related to loyalt
 
 
 
-For more information about loyalty programs, see [Loyalty program integration overview](apiBuildingALoyaltyIntegrationOmitChunkFromSearchIndex.html#apiLoyaltyProgramIntegrationOverview).
+For more information about loyalty programs, see [Loyalty program integration overview](apiLoyaltyProgramIntegrationOverview.html).
 
 ##### How the Toast platform interacts with loyalty programs
 

@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-adminUsingReportsEnterprisesOmitChunkFromSearchIndex.md
 parentSectionTitle: "Reports for enterprises"
-previousSectionFile: adminGuide-adminUsingReportsEnterprisesOmitChunkFromSearchIndex.md
-previousSectionTitle: "Reports for enterprises"
+previousSectionFile: adminGuide-adminEnterpriseReportsOverview.md
+previousSectionTitle: "Enterprise reports overview"
 nextSectionFile: adminGuide-adminUnderstandingVersionedEntitiesEnterpriseReports.md
 nextSectionTitle: "Understanding versioned entities in enterprise reports"
 excerpt: "Many of the reports break out the data you are viewing by location and include a Location column. You can use this column to sort the data by location. The Reports > Sales > Orders report uses this..."

@@ -79,7 +79,7 @@ When you undo cash entries from Toast Web, the actions do not open the physical 
 
 **Procedure 6.54. To undo a cash entry on Toast Web**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Reports > Sales > Sales Summary > Cash Summary and select the Cash drawer history link to open the Cash drawer history page. You can also choose Reports > Cash and loss management > Drawer history to open the Cash drawer history page.

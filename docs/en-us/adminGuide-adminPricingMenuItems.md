@@ -49,7 +49,7 @@ The Items section on a menu group details page displays the menu items contained
 
 **Procedure 8.111. To set a menu group-level price**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.
@@ -138,7 +138,7 @@ If all of the menu items in a menu group have a different price, as a best pract
 
 **Procedure 8.112. To set prices on individual menu items**
 
-1. [Access Toast Web ](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 
 
 2. Choose Menus > Bulk management > Advanced properties to open the Advanced properties page.

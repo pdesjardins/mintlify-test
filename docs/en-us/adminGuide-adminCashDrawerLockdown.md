@@ -55,7 +55,7 @@ You can configure the cash drawer lockdown setting for employees on Toast Web.
 
 **Procedure 6.55. To configure cash drawer lockdown**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Choose Employees > Shift review > Shift review setup or Advanced shift review setup. You can configure the cash drawer lockdown on both pages:

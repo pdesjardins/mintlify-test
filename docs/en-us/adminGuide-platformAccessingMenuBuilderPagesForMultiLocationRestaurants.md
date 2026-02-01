@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformMenuBuilderForMultiLocationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Menu builder for multi-location restaurants"
-previousSectionFile: adminGuide-platformMenuBuilderForMultiLocationOmitChunkFromSearchIndex.md
-previousSectionTitle: "Menu builder for multi-location restaurants"
+previousSectionFile: adminGuide-platformMenuBuilderForMultiLocationRestaurants.md
+previousSectionTitle: "Overview of menu builder for multi-location restaurants"
 nextSectionFile: adminGuide-platformSomeMenuFeaturesAreOnlyAvailableOnTheMenuBuilderPages.md
 nextSectionTitle: "Some menu features are only available on the menu builder pages"
 excerpt: "In..."

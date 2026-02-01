@@ -5,8 +5,8 @@ type: section
 documentId: adminGuide
 parentSectionFile: adminGuide-platformShiftReviewOmitChunkFromSearchIndex.md
 parentSectionTitle: "Shift review"
-previousSectionFile: adminGuide-platformShiftReviewOmitChunkFromSearchIndex.md
-previousSectionTitle: "Shift review"
+previousSectionFile: adminGuide-platformShiftReviewOverview.md
+previousSectionTitle: "Overview"
 nextSectionFile: adminGuide-platformConfiguringShiftReview.md
 nextSectionTitle: "Configuring your shift review"
 excerpt: "Certain..."

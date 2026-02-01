@@ -21,7 +21,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> You must have standard API access to create and manage webhook subscriptions. For more information, see [Standard API access overview](ifYoureAStandardApiAccessDeveloperOmitChunkFromSearchIndex.html#devApiAccessUserGuide).
+> You must have standard API access to create and manage webhook subscriptions. For more information, see [Standard API access overview](devApiAccessUserGuide.html).
 
 
 Webhook subscription access allows you to create and manage webhook subscriptions in Toast Web. A webhook subscription allows you to receive information about Toast platform events as they happen. You can manage subscriptions for following webhooks:
@@ -51,7 +51,7 @@ Webhook subscription access allows you to create and manage webhook subscription
 
 > **Note**
 > 
-> You must have the 8.4 Manage Integrationspermission to create and manage webhook subscriptions. For more information, see [Access permissions reference](platformEmployeesOmitChunkFromSearchIndex.html#adminPermissions).
+> You must have the 8.4 Manage Integrationspermission to create and manage webhook subscriptions. For more information, see [Access permissions reference](adminPermissions.html).
 
 
 As a standard API access user, the type of access you have to create and manage your webhook subscriptions depends if you created the credentials and if you have 8.4 Manage Integrationspermission enabled at all the locations associated with the credential. For more information, see [Standard API access credentials](devApiAccessCredentials.html). Webhook events are only generated for Toast locations linked to your standard API access credentials.
@@ -79,7 +79,7 @@ There are three levels of webhook subscription access:
 
 **Procedure 1.19. To create a webhook subscription**
 
-1. [Access Toast Web](platformToastPlatformConceptsOmitChunkFromSearchIndex.html#adminAccessToastAdminBackend).
+1. [Access Toast Web](adminAccessToastAdminBackend.html).
 
 
 2. Go to Integrations > Toast API access > Manage credentials to open the Manage webhooks page.
@@ -100,10 +100,10 @@ There are three levels of webhook subscription access:
 
 
 
-- Select the webhook event category. You can only select one webhook event category per subscription. For more information, see [Webhooks reference](portalWebhooksReferenceOmitChunkFromSearchIndex.html#apiWebhooksReference).
+- Select the webhook event category. You can only select one webhook event category per subscription. For more information, see [Webhooks reference](apiWebhooksReference.html).
 
 
-- Enter the webhook URL. This is the URL of the webhook consumer service that will receive the webhook events from the Toast platform. For more information, see [Webhook basics](portalWebhooksOmitChunkFromSearchIndex.html#apiWebhookBasics).
+- Enter the webhook URL. This is the URL of the webhook consumer service that will receive the webhook events from the Toast platform. For more information, see [Webhook basics](apiWebhookBasics.html).
 
 
 - Enter a name for the webhook subscription.
@@ -177,7 +177,7 @@ To view webhook information, select the view icon on the Manage webhooks page. T
 - View the webhook URL
 
 
-- View and copy the [secret key](portalWebhooksOmitChunkFromSearchIndex.html#apiMessageSigning)
+- View and copy the [secret key](apiMessageSigning.html)
 
 
 - View the webhook event category
