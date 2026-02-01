@@ -191,11 +191,11 @@ The following example shows `Link` header fields in a Toast API response.
 **Example 1.9. Link header fields with pagination information**
 
 ```
-Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1>; rel="first"[(1)](apiDevGuide-apiResponseDataPagination.html#d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
-Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=5>; rel="self"[(2)](apiDevGuide-apiResponseDataPagination.html#d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
-Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=4>; rel="prev"[(3)](apiDevGuide-apiResponseDataPagination.html#d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
-Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=6>; rel="next"[(4)](apiDevGuide-apiResponseDataPagination.html#d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
-Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10>; rel="last"[(5)](apiDevGuide-apiResponseDataPagination.html#d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
+Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1\>; rel="first"[(1)](apiDevGuide-apiResponseDataPagination.html#d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
+Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=5\>; rel="self"[(2)](apiDevGuide-apiResponseDataPagination.html#d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
+Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=4\>; rel="prev"[(3)](apiDevGuide-apiResponseDataPagination.html#d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
+Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=6\>; rel="next"[(4)](apiDevGuide-apiResponseDataPagination.html#d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
+Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel="last"[(5)](apiDevGuide-apiResponseDataPagination.html#d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9-co)
 ```
 
 

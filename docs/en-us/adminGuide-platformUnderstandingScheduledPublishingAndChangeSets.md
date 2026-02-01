@@ -390,8 +390,8 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
  | 
 | `Price was not updated because the pricing
                 strategy for location-specific price with target
-                {`target`} changed. Check the price setup for
-                item {`item guid`}.` | This error can be caused by either of the following:- You scheduled a change to a location-specific price that uses the base pricing strategy and, after scheduling the change, you updated the location-specific price to use a strategy other than base price.
+                {target} changed. Check the price setup for
+                item {item guid}.` | This error can be caused by either of the following:- You scheduled a change to a location-specific price that uses the base pricing strategy and, after scheduling the change, you updated the location-specific price to use a strategy other than base price.
 - You scheduled a change to a location-specific price that uses the menu-specific pricing strategy and, after scheduling the change, you updated the location-specific price to use a strategy other than menu-specific.
 
  | 

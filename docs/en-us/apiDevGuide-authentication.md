@@ -119,7 +119,7 @@ You include the following JSON object in the message body parameter of an `/auth
 **Example 1.3. Message body parameter for an `/authentication/login` endpoint request**
 
 ```
-`myToastApiClientSecret`
+myToastApiClientSecret
 ```
 
 
@@ -369,7 +369,7 @@ To use secured Toast API resources, when you make a request you:
 - Present a valid authentication token in the *`Authorization`* HTTP header field when you make a request. An authentication token is a text string that you can get from the `/authentication/login` endpoint of the authentication API. See [Getting an authentication token](authentication.html#getting-authentication-token).
 
 The Toast API uses bearer authentication tokens. You must include the string `Bearer` in the value of the *`Authorization`* HTTP header field, before the token string, to indicate the type of the token. For example, `Authorization: Bearer
-        [`my-authentication-token`]`.
+        [<em>my-authentication-token</em>]`.
 
 
 - Specify the individual restaurant context for your request in the *`Toast-Restaurant-External-ID`* header field.

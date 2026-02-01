@@ -164,25 +164,25 @@ This illustration shows the modifier group display order for Menu Item X. To mak
 - Size modifier group (if one exists)
 - Required modifier groups
   - Modifier groups inherited from Menu Group 1
-    (Menu Group 1 > Modifier B, Required)
+    (Menu Group 1 \> Modifier B, Required)
   - Modifier groups inherited from Menu Subgroup 2
     (None)
   - Modifier groups defined on the Menu Item X
-    (Menu Item X > Modifier E, Required)
+    (Menu Item X \> Modifier E, Required)
 - Optional with POS prompt modifier groups
   - Modifier groups inherited from Menu Group 1
     (None)
   - Modifier groups inherited from Menu Subgroup 2
-    (Menu Subgroup 2 > Modifier D, Optional with POS prompt)
+    (Menu Subgroup 2 \> Modifier D, Optional with POS prompt)
   - Modifier groups defined on the Menu Item X
     (None)
 - Optional modifier groups
   - Modifier groups inherited from Menu Group 1
-    (Menu Group 1 > Modifier A, Optional)
+    (Menu Group 1 \> Modifier A, Optional)
   - Modifier groups inherited from Menu Subgroup 2
     (Menu Subgroup 2, Modifier C, Optional)
   - Modifier groups defined on Menu Item X
-    (Menu Item X > Modifier F, Optional)
+    (Menu Item X \> Modifier F, Optional)
 ```
 
 Next, we assign priority 1 to some of the modifier groups and set Display Ordering Priority is set to Yes:
@@ -204,7 +204,7 @@ This illustration shows the modifier group display order for these conditions:
     - Modifier groups inherited from Menu Subgroup 2
       (None)
     - Modifier groups defined on Menu Item X
-      (Menu Item X > Modifier E, Required, Priority 1)
+      (Menu Item X \> Modifier E, Required, Priority 1)
   - Optional with POS prompt modifier groups
     - Modifier groups inherited from Menu Group 1
       (None)
@@ -216,14 +216,14 @@ This illustration shows the modifier group display order for these conditions:
     - Modifier groups inherited from Menu Group 1
       (None)
     - Modifier groups inherited from Menu Subgroup 2
-      (Menu Subgroup 2 > Modifier C, Optional, Priority 1)
+      (Menu Subgroup 2 \> Modifier C, Optional, Priority 1)
     - Modifier groups defined on Menu Item X
       (None)
 - Size modifier group without a Display Ordering Priority number (if one exists)
 - Modifier groups without a Display Ordering Priority number
   - Required modifier groups
     - Modifier groups inherited from Menu Group 1
-      (Menu Group 1 > Modifier B, Required, No priority)
+      (Menu Group 1 \> Modifier B, Required, No priority)
     - Modifier groups inherited from Menu Subgroup 2
       (None)
     - Modifier groups defined on Menu Item X
@@ -232,16 +232,16 @@ This illustration shows the modifier group display order for these conditions:
     - Modifier groups inherited from Menu Group 1
       (None)
     - Modifier groups inherited from Menu Subgroup 2
-      (Menu Subgroup 2 > Modifier D, Optional with POS prompt, No priority)
+      (Menu Subgroup 2 \> Modifier D, Optional with POS prompt, No priority)
     - Modifier groups defined on Menu Item X
       (None)
   - Optional modifier groups
     - Modifier groups inherited from Menu Group 1
-      (Menu Group 1 > Modifier A, Optional, No priority)
+      (Menu Group 1 \> Modifier A, Optional, No priority)
     - Modifier groups inherited from Menu Subgroup 2
       (None)
     - Modifier groups defined on Menu Item X
-      (Menu Item X > Modifier F, Optional, No priority)
+      (Menu Item X \> Modifier F, Optional, No priority)
 ```
 
 **Note about Size modifier groups with Display Ordering Priority numbers **Typically, the Size modifier groups that are used to specify menu item sizes do not have Display Ordering Prioritynumbers. This is because they are automatically created when a menu group or item is assigned the Size pricing strategy and, as such, they do not appear as an editable modifier group on the menu group or item’s details page. It is technically possible, however, to manually edit a Size modifier group on the Items Database page in Toast Web and assign it a Display Ordering Priority number. If this occurs, then the Size modifier group is sorted along with any other modifier groups that have a Display Ordering Priority number:

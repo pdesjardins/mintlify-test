@@ -265,8 +265,8 @@ The menu data export includes two types of information:
 
 
 
-The file name of the menu data export is `MenuExport_`[export file
-  identifier]`.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](downloading_data_export_files.html).
+The file name of the menu data export is `MenuExport_<em>[export file
+  identifier]</em>.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](downloading_data_export_files.html).
 
 
 

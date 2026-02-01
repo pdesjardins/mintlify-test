@@ -23,11 +23,11 @@ The following example shows an example gift card integration API request.
 **Example 10.3. Gift card integration API transaction request**
 
 ```
-> Content-Type: application/json[(1)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7809F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-> Toast-Transaction-Type: GIFTCARD_REDEEM[(2)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7829F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-> Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf[(3)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7849F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-> Toast-Transaction-GUID: 63fdc064-c97e-431f-9cb2-0699c6488237[(4)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7869F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
-> Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxM
+\> Content-Type: application/json[(1)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7809F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+\> Toast-Transaction-Type: GIFTCARD_REDEEM[(2)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7829F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+\> Toast-Restaurant-External-ID: 76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf[(3)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7849F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+\> Toast-Transaction-GUID: 63fdc064-c97e-431f-9cb2-0699c6488237[(4)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7869F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
+\> Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxM
    jM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.Sf
    lKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c[(5)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7889F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)
 {[(6)](apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests.html#d1e7919F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F-co)

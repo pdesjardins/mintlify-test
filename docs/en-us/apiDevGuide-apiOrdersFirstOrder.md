@@ -475,7 +475,7 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 Many menu items have associated modifiers, such as toppings or preparation options. To add modifiers to a menu item selection, include a `modifiers` array within the selection.
 
-First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/`{guid}``endpoint.
+First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/<em>{guid}</em>`endpoint.
 
 The following example shows a selection with a modifier:
 

@@ -25,7 +25,7 @@ The response contains an object containing information about the employee, inclu
 
 > **Note**
 > 
-> The labor API rejects new or updated values for `firstName`, `lastName`, and `externalEmployeeId` that include the following special characters: `{}<>$=\;%`
+> The labor API rejects new or updated values for `firstName`, `lastName`, and `externalEmployeeId` that include the following special characters: `{}\<\>$=\;%`
 
 
 #### Example request to add an employee

@@ -165,7 +165,7 @@ Next, you set the prices on each of the menu items contained in the group.
 > **Note**
 > 
 > If the menu item belongs to any other menu groups that use menu group-level pricing, the Toast platform displays the message **`This overrides group-level pricing provided by
-            <menu-group-name>`** to inform you of the override.
+            \<menu-group-name\>`** to inform you of the override.
 
 
 

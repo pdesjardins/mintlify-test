@@ -74,7 +74,7 @@ Attributes in the `in_stock` event's payload include:
 
 ```
 {
-  "timestamp": "<ISO formatted timestamp in UTC>",
+  "timestamp": "\<ISO formatted timestamp in UTC\>",
   "eventCategory": "stock",
   "eventType": "in_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
@@ -93,7 +93,7 @@ Attributes in the `in_stock` event's payload include:
 
 ```
 {
-  "timestamp": "<ISO formatted timestamp in UTC>",
+  "timestamp": "\<ISO formatted timestamp in UTC\>",
   "eventCategory": "stock",
   "eventType": "in_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
@@ -127,7 +127,7 @@ Attributes in the `out_of_stock` event's payload include:
 
 ```
 {
-  "timestamp": "<ISO formatted timestamp in UTC>",
+  "timestamp": "\<ISO formatted timestamp in UTC\>",
   "eventCategory": "stock",
   "eventType": "out_of_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
@@ -172,7 +172,7 @@ Attributes in the `low_quantity` event's payload include:
 
 ```
 {
-  "timestamp": "<ISO formatted timestamp in UTC>",
+  "timestamp": "\<ISO formatted timestamp in UTC\>",
   "eventCategory": "stock",
   "eventType": "low_quantity",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",

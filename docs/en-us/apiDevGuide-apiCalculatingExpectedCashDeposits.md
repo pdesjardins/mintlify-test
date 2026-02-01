@@ -53,7 +53,7 @@ The following procedure explains how to calculate the expected deposit for one r
 1. Get the list of payment GUIDs for the business day by sending a `GET` request to the `payments`endpoint of the orders API. Include the *`paidBusinessDate`* parameter to specify the business day.
 
 
-2. Get detailed information about each payment by sending a GET request to the `payments/`{guid}`` endpoint of the orders API.
+2. Get detailed information about each payment by sending a GET request to the `payments/<em>{guid}</em>` endpoint of the orders API.
 
 
 3. Calculate the sum of the `amount` values for each payment that has the `type``CASH`. The following example shows the `amount` and `type` values for a payment.

@@ -28,7 +28,7 @@ You can use the orders API to add authorized credit card payments to a check in 
 
 #### How to add the payments to the check
 
-To add payments to an existing check, you send a `POST`request to the `/orders/`{orderGuid}`/checks/`{checkGuid}`/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment` objects. The `type` value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
+To add payments to an existing check, you send a `POST`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment` objects. The `type` value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
 
 For more information, see [Post payments](https://doc.toasttab.com/openapi/orders/operation/ordersChecksPaymentsPost/) in the Toast API reference.
 
@@ -47,7 +47,7 @@ When you add payments to the check, you include the UUIDs of the authorized cred
 For information about the `Payment` object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/). For an example, see [Example array of Payment objects to add payments to an existing check](apiAddingPaymentsToACheck.html#apiExamplePaymentObjectForAddingAPayment).
 
 
-4. Send a `POST` request to the `/orders/`{orderGuid}`/checks/`{checkGuid}`/payments`endpoint of the orders API.
+4. Send a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.
 
 In the REST request path parameters, include the Toast platform GUID of the order and the check.
 
@@ -93,7 +93,7 @@ The following example shows an array of `Payment` objects to add payments to a c
 
 #### Example response data when adding a payment to an existing check
 
-The following example shows example response data for a `POST` request to the `/orders/`{orderGuid}`/checks/`{checkGuid}`/payments`endpoint of the orders API.
+The following example shows example response data for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.
 
 ```
 {

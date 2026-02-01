@@ -57,7 +57,7 @@ You can use the orders API to retrieve detailed information about a single order
 
 To request details for a single order, you must have the order GUID.
 
-You send a `GET` request to the `/orders/`{guid}`` endpoint.
+You send a `GET` request to the `/orders/<em>{guid}</em>` endpoint.
 
 ##### Example request for detailed information about one order
 
@@ -601,14 +601,14 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiResponseDataPagination.html).
 
 ```
-link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &startDate=2020-03-30T20%3A00%3A00.000Z&pageSize=1>; rel="first"
-link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &startDate=2020-03-30T20%3A00%3A00.000Z&pageSize=1&page=3>; rel="self"
-link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &pageSize=1&page=2&startDate=2020-03-30T20%3A00%3A00.000Z>; rel="prev"
-link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
-  &pageSize=1&page=4&startDate=2020-03-30T20%3A00%3A00.000Z>; rel="next"
+link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+  &pageSize=1&page=4&startDate=2020-03-30T20%3A00%3A00.000Z\>; rel="next"
 ```
 
 #### Calculating net sales using the orders API

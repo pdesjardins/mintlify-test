@@ -522,14 +522,14 @@ Use the following endpoints to add discounts to an existing order:
 ****Check-level discounts****
 : To add check-level discounts, send the `POST`message to:
 
-`/orders/`{orderGuid}`/checks/`{checkGuid}`/appliedDiscounts`
+`/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/appliedDiscounts`
 
 
 
 ****Item-level discounts****
 : To add an item-level discount, send the `POST`message to:
 
-`/orders/`{orderGuid}`/checks/`{checkGuid}`/selections/`{selectionGuid}`/appliedDiscounts`
+`/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections/<em>{selectionGuid}</em>/appliedDiscounts`
 
 
 

@@ -18,7 +18,7 @@ codeExamples: 0
 
 ### Void an order
 
-If an order is placed and needs to be canceled, you can use the `/orders/v2/orders/`{orderGuid}`/void`endpoint of the Toast orders API to void the order. For more information about this endpoint, see the [orders API reference](https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/).
+If an order is placed and needs to be canceled, you can use the `/orders/v2/orders/<em>{orderGuid}</em>/void`endpoint of the Toast orders API to void the order. For more information about this endpoint, see the [orders API reference](https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/).
 
 You might want to void an order if: 
 
@@ -32,7 +32,7 @@ You might want to void an order if:
 
 
 
-When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/`{guid}``and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/<em>{guid}</em>`and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
 
 Voided orders can also be found in the Orders and Order details reports in Toast Web.
 
@@ -133,8 +133,8 @@ The following procedure describes how to void an order.
 
 
 
-2. Send a `POST` request to the `/orders/v2/orders/`{order
-        GUID}`/void` endpoint of the orders API.
+2. Send a `POST` request to the `/orders/v2/orders/<em>{order
+        GUID}</em>/void` endpoint of the orders API.
 
 The body of the `POST` request contains the `JSON Order` object for the order.
 

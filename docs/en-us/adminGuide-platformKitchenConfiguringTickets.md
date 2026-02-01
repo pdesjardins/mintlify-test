@@ -142,7 +142,7 @@ For modifiers, there are several settings that can be used to choose how modifie
 
 > **Note**
 > 
-> Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release. To access this feature, send an email to `<[kitchenfeedback@toasttab.com](mailto:kitchenfeedback@toasttab.com)>`.
+> Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release. To access this feature, send an email to `\<[kitchenfeedback@toasttab.com](mailto:kitchenfeedback@toasttab.com)\>`.
 
 
 
