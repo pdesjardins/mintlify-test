@@ -17,7 +17,7 @@ codeExamples: 1
 
 ### Viewing inactive restaurant data
 
-By default, the analytics data only includes data from restaurants that are considered active at the time and date you make the analytics data request. To view inactive restaurant data, you can include the `onlyInactiveRestaurants` query parameter in the `POST` request to the `/era/v1/metrics` or `/era/v1/metrics/{timeRange}`endpoints.
+By default, the analytics data only includes data from restaurants that are considered active at the time and date you make the analytics data request. To view inactive restaurant data, you can include the `onlyInactiveRestaurants` query parameter in the `POST` request to the `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}`endpoints.
 
 The `onlyInactiveRestaurants` query parameter returns the analytics data for all restaurants in a management group currently considered inactive at the time you send the analytics data request.
 

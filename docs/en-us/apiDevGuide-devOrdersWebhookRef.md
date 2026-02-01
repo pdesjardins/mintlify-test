@@ -48,7 +48,7 @@ In an `orders` webhook message, the `eventCategory` and `eventType` are set to `
 
 #### order_updated details and message values
 
-The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/<em>{orderGuid}</em>` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
+The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/<em>\{orderGuid\}</em>` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
 
 Attributes in the `orders_updated` payload include: 
 
@@ -96,7 +96,7 @@ For performance and security, the following values are either omitted from the `
 
 
 
-To obtain this omitted information, you can send a `GET` request to the `/orders/v2/orders/<em>{orderGuid}</em>`endpoint.
+To obtain this omitted information, you can send a `GET` request to the `/orders/v2/orders/<em>\{orderGuid\}</em>`endpoint.
 
 #### Orders webhook sample message
 
@@ -105,25 +105,25 @@ The sample below shows the HTTP request received from the `orders` webhook.
 **Example 9.3. Payload example for the order_updated event**
 
 ```
-{
+\{
         "timestamp": "2024-03-28T15:11:01.050Z",
         "eventCategory": "order_updated",
         "eventType": "order_updated",
         "guid": "534bf25a-b657-45aa-9a63-47f8f35400d6",
-        "details": {
+        "details": \{
           "restaurantGuid": "0cd990c9-fd74-461d-8468-de2a0919ccbba",
-          "order": {
+          "order": \{
             "guid": "f6d98b95-2816-4f54-b1ab-7a5d71e83769",
             "entityType": "Order",
             "externalId": null,
             "revenueCenter": null,
-            "server": {
+            "server": \{
               "guid": "909523c3-5bf9-4bad-a3b9-68c4ce3c05e9",
               "entityType": "RestaurantUser",
               "externalId": null
             },
             "createdInTestMode": false,
-            "lastModifiedDevice": {
+            "lastModifiedDevice": \{
               "id": "9b5185224a27ab72"
             },
             "source": "In Store",
@@ -142,7 +142,7 @@ The sample below shows the HTTP request received from the `orders` webhook.
             "serviceArea": null,
             "curbsidePickupInfo": null,
             "numberOfGuests": 1,
-            "diningOption": {
+            "diningOption": \{
               "guid": "06f9f331-848a-41b2-896f-e73e32cb278e",
               "entityType": "DiningOption",
               "externalId": null
@@ -151,14 +151,14 @@ The sample below shows the HTTP request received from the `orders` webhook.
             "openedDate": "2024-04-01T15:09:30.223+0000",
             "voidBusinessDate": null,
             "checks": [
-              {
+              \{
                 "guid": "cd39b62e-363b-4029-98f1-f3dc91f00df4",
                 "entityType": "Check",
                 "externalId": null,
                 "displayNumber": "2",
                 "payments": [],
                 "appliedDiscounts": [],
-                "lastModifiedDevice": {
+                "lastModifiedDevice": \{
                   "id": "9b5185224a27ab72"
                 },
                 "voidDate": null,
@@ -175,7 +175,7 @@ The sample below shows the HTTP request received from the `orders` webhook.
                 "voidBusinessDate": null,
                 "createdDate": "2024-04-01T15:10:59.798+0000",
                 "deleted": false,
-                "createdDevice": {
+                "createdDevice": \{
                   "id": "9b5185224a27ab72"
                 },
                 "closedDate": null,
@@ -185,14 +185,14 @@ The sample below shows the HTTP request received from the `orders` webhook.
                 "appliedServiceCharges": [],
                 "customer": null
               },
-              {
+              \{
                 "guid": "3b3efd41-5b71-476f-9119-ac2eca247444",
                 "entityType": "Check",
                 "externalId": null,
                 "displayNumber": "1",
                 "payments": [],
                 "appliedDiscounts": [],
-                "lastModifiedDevice": {
+                "lastModifiedDevice": \{
                   "id": "9b5185224a27ab72"
                 },
                 "voidDate": null,
@@ -209,7 +209,7 @@ The sample below shows the HTTP request received from the `orders` webhook.
                 "voidBusinessDate": null,
                 "createdDate": "2024-04-01T15:10:59.782+0000",
                 "deleted": false,
-                "createdDevice": {
+                "createdDevice": \{
                   "id": "9b5185224a27ab72"
                 },
                 "closedDate": null,
@@ -221,9 +221,9 @@ The sample below shows the HTTP request received from the `orders` webhook.
               }
             ],
             "deleted": false,
-            "createdDevice": {
+            "createdDevice": \{
               "id": "9b5185224a27ab72"
-            },
+            \},
             "createdDate": "2024-04-01T15:10:59.817+0000",
             "closedDate": null,
             "deletedDate": "1970-01-01T00:00:00.000+0000",
@@ -233,9 +233,9 @@ The sample below shows the HTTP request received from the `orders` webhook.
             "pricingFeatures": [
               "TAXESV2"
             ]
-          }
-        }
-      }
+          \}
+        \}
+      \}
 ```
 
   

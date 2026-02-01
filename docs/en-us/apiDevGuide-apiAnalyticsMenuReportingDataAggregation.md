@@ -51,12 +51,12 @@ The menu reporting data you retrieve includes an object for every available comb
 The following example shows the message body for a `/era/v1/menu/day` request that uses the `groupBy`value with `MENU`.
 
 ```
-{
+\{
   "startBusinessDate": "20220101",
   "endBusinessDate": "20220101",
   "restaurantIds": [],
   "groupBy": ["MENU"]
-}
+\}
 
 ```
 
@@ -179,7 +179,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 
 
 
-(1) Send a POST request to the /era/v1/menu/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
+(1) Send a POST request to the /era/v1/menu/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is week.
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
@@ -192,13 +192,13 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 The following example shows the message body of the `/era/v1/menu/week` request that uses the `groupBy` value with `MENU_ITEM`.
 
 ```
-{
+\{
   "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021", "b6bae410-1316-4d3b-b01f-47a758811db2"],
   "excludedRestaurantIds": [],
   "startBusinessDate": "20220901",
   "endBusinessDate": "20220906",
   "groupBy": ["MENU_ITEM"]
-}
+\}
 
 ```
 
@@ -228,7 +228,7 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
 
 ##### Request to retrieve the menu reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/menu/\{reportRequestGuid\}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/
@@ -246,11 +246,11 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
 
 ##### Response to the retrieval request for menu reporting data
 
-The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/menu/\{reportRequestGuid\}` endpoint.
 
 ```
 [
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -268,7 +268,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemGuid": "8588c16e-5f17-4144-b4c0-47f4f42ed4c0",
         "menuItemName": "Pancake Special"
     },
-    {
+    \{
         "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": null,
@@ -286,7 +286,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemGuid": "4f5469c1-7f55-4f80-a1a6-d69253cd916b",
         "menuItemName": "Coffee"
     },
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -305,7 +305,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemName": "Full English Breakfast"
     },
     [content omitted]
-    {
+    \{
         "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": null,
@@ -323,7 +323,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemGuid": "8588c16e-5f17-4144-b4c0-47f4f42ed4c0",
         "menuItemName": "Pancake Special"
     },
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -341,7 +341,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemGuid": "8588c16e-5f17-4144-b4c0-47f4f42ed4c0",
         "menuItemName": "Pancake Special"
     },
-    {
+    \{
         "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": null,
@@ -359,7 +359,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemGuid": "a6a561ae-7c7a-4275-9345-ea3c0a72368f",
         "menuItemName": "Full English Breakfast"
     },
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -377,7 +377,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "menuItemGuid": "4f5469c1-7f55-4f80-a1a6-d69253cd916b",
         "menuItemName": "Coffee"
     },
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -394,7 +394,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
         "wasteAmount": 0.0,
         "menuItemGuid": "a6a561ae-7c7a-4275-9345-ea3c0a72368f",
         "menuItemName": "Full English Breakfast"
-    },
+    \},
     [content omitted]
 ]
 

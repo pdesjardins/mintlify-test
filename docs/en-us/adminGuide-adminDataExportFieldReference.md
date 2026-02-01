@@ -432,37 +432,37 @@ The following table shows the information about the pricing strategy for the mod
 | --- | --- | --- |
 | basePrice | Used when the [pricingStrategy](adminDataExportFieldReference.html#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:```
 "optionGroups": [ 
-{
+\{
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
   ...
   "pricingStrategy":"BASE_PRICE",
-  "pricingStategyRules": {
+  "pricingStategyRules": \{
     "basePrice": 1.00
-    }
+    \}
   ...
-}
+\}
 ```
 
  | Number | 
 | numberOfLevels | Used when the [pricingStrategy](adminDataExportFieldReference.html#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](adminDataExportFieldReference.html#adminDataExportSequencePrices)array. | Number | 
 | sequencePrices | Sets the price for each level defined in the [numberOfLevels](adminDataExportFieldReference.html#adminDataExportNumberOfLevels)value. For example:```
 "optionGroups": [ 
-{
+\{
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
   ...
   "pricingStrategy": "SEQUENCE_PRICE",
-  "pricingStrategyRules": {
+  "pricingStrategyRules": \{
     "numberOfLevels": 3,
     "sequencePrices": [
       0.50,
       0.75,
       1.00,
     ]
-  }
+  \}
   ...
-}
+\}
 ```
 
  | JSON array | 

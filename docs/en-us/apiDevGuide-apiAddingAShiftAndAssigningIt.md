@@ -62,19 +62,19 @@ The following example shows the message body data that provides information abou
 **Example 7.12. Example message body for a request to add a shift**
 
 ```
-{
-  "employeeReference": {
+\{
+  "employeeReference": \{
     "entityType": "RestaurantUser",
     "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67"
-  },
+  \},
   "entityType": "Shift",
   "inDate": "2017-01-13T06:00:00.000+0000",
-  "jobReference": {
+  "jobReference": \{
     "entityType": "RestaurantJob",
     "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330"
-  },
+  \},
   "outDate": "2017-01-13T13:00:00.000+0000"
-}
+\}
 ```
 
 
@@ -97,7 +97,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 **Example 7.13. Example response from a request to add a shift**
 
 ```
-{
+\{
   "guid": "08312056-c56f-4a10-a3c2-5660bf2b5143",
   "entityType": "Shift",
   "externalId": null,
@@ -105,19 +105,19 @@ The following example shows the response for a `POST` request to the `/labor/v1/
   "createdDate": "2016-12-29T05:33:16.712+0000",
   "deleted": false,
   "deletedDate": null,
-  "employeeReference": {
+  "employeeReference": \{
     "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67",
     "entityType": "RestaurantUser",
     "externalId": null
   },
   "modifiedDate": "2016-12-29T05:33:16.712+0000",
   "inDate": "2017-01-13T06:00:00.000+0000",
-  "jobReference": {
+  "jobReference": \{
     "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330",
     "entityType": "RestaurantJob",
     "externalId": null
-  }
-}
+  \}
+\}
 ```
 
 

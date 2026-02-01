@@ -94,22 +94,22 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
 **Example 9.12. Payload for an `ordering_schedule`_updated event**
 
 ```
-{
+\{
   "timestamp": "2025-05-06T20:35:21.083Z",
   "eventCategory": "ordering_schedule",
   "eventType": "ordering_schedule_updated",
   "guid": "5b6ba185-7c75-4f72-9885-0a821de275cc",
-  "details": {
+  "details": \{
     "restaurantGuid": "d6bf0376-cea1-47c0-a63c-9fc06638a5a6",
-    "orderingSchedule": {
+    "orderingSchedule": \{
       "servicePeriods": [
-        {
+        \{
           "diningOptionBehavior": "DELIVERY",
           "dayPeriods": [
-            {
+            \{
               "day": "SATURDAY",
               "timeRanges": [
-                {
+                \{
                   "start": [
                     12,
                     0
@@ -121,10 +121,10 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
                 }
               ]
             },
-            {
+            \{
               "day": "SUNDAY",
               "timeRanges": [
-                {
+                \{
                   "start": [
                     11,
                     0
@@ -138,13 +138,13 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
             }
           ]
         },
-        {
+        \{
           "diningOptionBehavior": "TAKE_OUT",
           "dayPeriods": [
-            {
+            \{
               "day": "TUESDAY",
               "timeRanges": [
-                {
+                \{
                   "start": [
                     8,
                     0
@@ -156,10 +156,10 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
                 }
               ]
             },
-            {
+            \{
               "day": "WEDNESDAY",
               "timeRanges": [
-                {
+                \{
                   "start": [
                     10,
                     0
@@ -171,10 +171,10 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
                 }
               ]
             },
-            {
+            \{
               "day": "THURSDAY",
               "timeRanges": [
-                {
+                \{
                   "start": [
                     12,
                     0
@@ -190,14 +190,14 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
         }
       ],
       "overrides": [
-        {
+        \{
           "description": "team party",
           "diningOptionBehavior": [
             "DELIVERY"
           ],
           "businessDate": 20250531,
           "timeRanges": [
-            {
+            \{
               "start": [
                 9,
                 0
@@ -206,15 +206,15 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
                 21,
                 0
               ]
-            }
+            \}
           ]
-        }
+        \}
       ],
       "scheduledOrderMaxDays": 3,
       "lastOrderConfiguration": "UNTIL_CLOSING_TIME"
-    }
-  }
-}
+    \}
+  \}
+\}
 ```
 
   

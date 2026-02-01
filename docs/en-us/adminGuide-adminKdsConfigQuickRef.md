@@ -58,14 +58,14 @@ You define what information appears on tickets by setting the options described 
 | --- | --- | --- | --- |
 | See other prep stations working on ticket items | Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup \> [Other Stations](adminKitchenDiningRoomReference.html#configOtherStations): For each ticket, list... |   | Web Setup \> 6.2 Kitchen / Dining Room Setup | 
 | See all courses fired at once and the status of each course | Kitchen \> Pacing \> Meal pacing \> Course Pacing: Enable course pacing \> Sending Courses: Send all courses individually \>[ Previous Course Status](adminKitchenDiningRoomReference.html#configPreviousCourseStatus): Show the status... |   | Web Setup \> 6.2 Kitchen / Dining Room Setup | 
-| [Color-code](platformKitchenConfiguringTickets.html#adminColorCodingKdsTickets) menu items | Menus \> Bulk management \> Advanced properties \> *`{menu}`* \> *`{menu
-              group}`* \> *`{menu item}`*\> KDS Color |   | Restaurant Admin \> 4.5 Edit Full Menu | 
-| [Color-code](platformKitchenConfiguringTickets.html#adminColorCodingKdsTickets)modifier options | Menus \> Bulk management \> Advanced properties \> *`{menu}`* \> *`{menu
-              group}`* \> *`{menu item}`*\> *`{modifier group}`* \> *`{modifier}`* \> KDS Color |   | Restaurant Admin \> 4.5 Edit Full Menu | 
-| Customize names for menu items | Menus \> Bulk management \> Advanced properties \> *`{menu}`* \> *`{menu
-              group}`* \> *`{menu item}`*\> Kitchen Name |   | Restaurant Admin \> 4.5 Edit Full Menu | 
-| Customize names for modifiers | Menus \> Bulk management \> Advanced properties \> *`{menu}`* \> *`{menu
-              group}`* \> *`{menu item}`*\> *`{modifier group}`* \> *`{modifier}`* \> Kitchen Name |   | Restaurant Admin \> 4.5 Edit Full Menu | 
+| [Color-code](platformKitchenConfiguringTickets.html#adminColorCodingKdsTickets) menu items | Menus \> Bulk management \> Advanced properties \> *`\{menu\}`* \> *`\{menu
+              group\}`* \> *`\{menu item\}`*\> KDS Color |   | Restaurant Admin \> 4.5 Edit Full Menu | 
+| [Color-code](platformKitchenConfiguringTickets.html#adminColorCodingKdsTickets)modifier options | Menus \> Bulk management \> Advanced properties \> *`\{menu\}`* \> *`\{menu
+              group\}`* \> *`\{menu item\}`*\> *`\{modifier group\}`* \> *`\{modifier\}`* \> KDS Color |   | Restaurant Admin \> 4.5 Edit Full Menu | 
+| Customize names for menu items | Menus \> Bulk management \> Advanced properties \> *`\{menu\}`* \> *`\{menu
+              group\}`* \> *`\{menu item\}`*\> Kitchen Name |   | Restaurant Admin \> 4.5 Edit Full Menu | 
+| Customize names for modifiers | Menus \> Bulk management \> Advanced properties \> *`\{menu\}`* \> *`\{menu
+              group\}`* \> *`\{menu item\}`*\> *`\{modifier group\}`* \> *`\{modifier\}`* \> Kitchen Name |   | Restaurant Admin \> 4.5 Edit Full Menu | 
 | Customize other labels | Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup \> [Kitchen Names](adminKitchenDiningRoomReference.html#adminKitchenNamesRef)fields |   | Web Setup \> 6.2 Kitchen / Dining Room Setup | 
 | Add a the tab name on tickets sent by Quick Order | Front of house \> Order screen setup \> UI options \> [Prompt for tab name? (Quick Order only)](adminUiOptionsReference.html#configPromptTabName): On |   | Web Setup \> 6.6 Restaurant Operations Setup | 
 | Show the dining option on tickets sent by Quick Order when a default dining option is not set | Front of house \> Order screen setup \> UI options \> [Prompt for Dining Option](adminUiOptionsReference.html#configPromptDiningOption): Yes |   | Web Setup \> 6.6 Restaurant Operations Setup | 

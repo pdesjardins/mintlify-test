@@ -19,7 +19,7 @@ codeExamples: 0
 
 The default way to view the aggregated sales reporting data is by day for each location. If you use the `day` time range, you can choose to view the data by hour for each location instead. Use the `aggregateBy` query parameter set to `HOUR` in the `/era/v1/metrics/day` request to organize the data by hour instead of day.
 
-Optionally, you can choose to aggregate the data into subsections according to an order's dining option, order source, revenue center, or a combination of two of these values. Use the `groupBy` value in the message body of the `/era/v1/metrics` or `/era/v1/metrics/{timeRange}` request to create subsections organized by dining option, order source, revenue center, or a combination of two of these values.
+Optionally, you can choose to aggregate the data into subsections according to an order's dining option, order source, revenue center, or a combination of two of these values. Use the `groupBy` value in the message body of the `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}` request to create subsections organized by dining option, order source, revenue center, or a combination of two of these values.
 
 #### Using the `aggregateBy` query parameter
 
@@ -37,7 +37,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 
 
-(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} is set to day.
+(1) Send a POST request to the /era/v1/metrics/\{timeRange\} endpoint of the analytics API. The \{timeRange\} is set to day.
 
 (2) Use the aggregateBy query parameter set to HOUR to group the aggregated sales reporting data by hour instead of day.
 
@@ -91,12 +91,12 @@ The hour number corresponds to the 24 hours of the day, starting at `0` and endi
 
 #### Using the `groupBy` value
 
-The `groupBy` value in the message body of a `/era/v1/metrics` or `/era/v1/metrics/{timeRange}` request can group the returned data by the dining option associated with an order, the order source which is the method used to submit the order, the revenue center associated with an order, or a combination of two of these values. Use `DINING_OPTION` to group the aggregated sales reporting data by dining option, `ORDER_SOURCE` to group by order source, and `REVENUE_CENTER` to group by revenue center.
+The `groupBy` value in the message body of a `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}` request can group the returned data by the dining option associated with an order, the order source which is the method used to submit the order, the revenue center associated with an order, or a combination of two of these values. Use `DINING_OPTION` to group the aggregated sales reporting data by dining option, `ORDER_SOURCE` to group by order source, and `REVENUE_CENTER` to group by revenue center.
 
 The following example shows the message body for a `/era/v1/metrics/week` request that uses the `groupBy` value with `DINING_OPTION`.
 
 ```
-{
+\{
   "startBusinessDate": "20220824",
   "endBusinessDate": "20220830",
   "restaurantIds": [
@@ -105,7 +105,7 @@ The following example shows the message body for a `/era/v1/metrics/week` reques
   "groupBy": [
     "DINING_OPTION"
   ]
-}
+\}
 
 ```
 
@@ -285,7 +285,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 
 
-(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
+(1) Send a POST request to the /era/v1/metrics/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is day.
 
 (2) Use the aggregateBy query parameter set to HOUR to group the aggregated sales reporting data by hour. For more information, see Using the aggregateBy query parameter.
 
@@ -300,7 +300,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 The following example shows the message body for the `/era/v1/metrics/day` request that uses the `groupBy` value with `DINING_OPTION` and `REVENUE_CENTER`.
 
 ```
-{
+\{
   "startBusinessDate": "20230201",
   "restaurantIds": [
     "43211888-2860-46c7-a8c8-32ba462e1280"
@@ -310,7 +310,7 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
     "DINING_OPTION", 
     "REVENUE_CENTER"
   ]
-}
+\}
 
 ```
 
@@ -345,7 +345,7 @@ The following example shows the response from the `/era/v1/metrics/day` endpoint
 
 ##### Request to retrieve the aggregated sales reporting data using `aggregateBy` and `groupBy`
 
-The following example **curl** command sends a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/metrics/\{reportRequestGuid\}` endpoint.
 
 ```
 curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
@@ -364,11 +364,11 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
 
 ##### Response to the retrieval request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
-The following example shows the response from the `/era/v1/metrics/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/metrics/\{reportRequestGuid\}` endpoint.
 
 ```
 [
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         [content omitted]
@@ -376,7 +376,7 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Dine In",
         "businessHour": "7"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         "guestCount": 14,
@@ -385,7 +385,7 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Take Out",
         "businessHour": "7"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         [content omitted]
@@ -393,7 +393,7 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Take Out",
         "businessHour": "7"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         [content omitted]
@@ -401,7 +401,7 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Take Out",
         "businessHour": "7"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessHour": "20230201",
         [content omitted]
@@ -409,7 +409,7 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Dine In",
         "businessHour": "8"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         [content omitted]
@@ -417,7 +417,7 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Take Out",
         "businessHour": "8"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         [content omitted]
@@ -425,14 +425,14 @@ The following example shows the response from the `/era/v1/metrics/{reportReques
         "diningOption": "Take Out",
         "businessHour": "8"
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "businessDate": "20230201",
         [content omitted]
         "revenueCenter": "No Revenue Center",
         "diningOption": "Take Out",
         "businessHour": "8"
-    },
+    \},
     [content omitted]
 ]
 

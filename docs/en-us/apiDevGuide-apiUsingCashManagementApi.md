@@ -88,30 +88,30 @@ The following example shows a `CashEntry` object in the response data from the `
 
 ```
 [
-  {
+  \{
     "guid": "090f0e10-5469-4e86-a9d7-4c72eca366d7",
     "entityType": "CashEntry",
     "date": "2019-09-17T15:32:49.844+0000",
     "reason": "buy window cleaning supplies",
     "amount": -25,
-    "payoutReason": {
+    "payoutReason": \{
       "guid": "9bad959b-250e-4b0d-9b13-a1a52026474c",
       "entityType": "PayoutReason"
     },
-    "cashDrawer": {
+    "cashDrawer": \{
       "guid": "30795302-5fc9-461c-b314-ac8ea6e55cd5",
       "entityType": "CashDrawer"
-    },
+    \},
     "undoes": null,
     "noSaleReason": null,
-    "employee1": {
+    "employee1": \{
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
-    },
+    \},
     "type": "PAY_OUT",
     "employee2": null
-  }
+  \}
 ]
 ```
 

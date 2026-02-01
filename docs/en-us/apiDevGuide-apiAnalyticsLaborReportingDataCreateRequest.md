@@ -32,7 +32,7 @@ Optionally, you can use the `restaurantIds` in the message body to list the GUID
 
 You can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
-Send a `POST` request to the `/era/v1/labor/{timeRange}` endpoint to request labor reporting data for a specific time range. The time range you specify can be `day`, `week`, or `month`.
+Send a `POST` request to the `/era/v1/labor/\{timeRange\}` endpoint to request labor reporting data for a specific time range. The time range you specify can be `day`, `week`, or `month`.
 
 To create a request for labor data, you must include:
 
@@ -58,7 +58,7 @@ To create a request for labor data, you must include:
 
 #### Request for labor reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/labor/{timeRange}` endpoint. This example uses the `day` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/labor/\{timeRange\}` endpoint. This example uses the `day` time range.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
@@ -69,7 +69,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
 
 
 
-(1) Send a POST request to the /era/v1/labor/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
+(1) Send a POST request to the /era/v1/labor/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is day.
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
@@ -82,13 +82,13 @@ curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
 The following example shows the message body for creating a labor reporting data request.
 
 ```
-{
+\{
   "startBusinessDate": "20230205",
   "endBusinessDate": "20230205",
   "restaurantIds": [],
   "excludedRestaurantIds": [],
   "groupBy": [“JOB”]
-}
+\}
 
 ```
 

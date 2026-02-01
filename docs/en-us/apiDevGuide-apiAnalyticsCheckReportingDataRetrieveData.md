@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Retrieving the check reporting data
 
-Send a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `GET` request to the `/era/v1/check/\{reportRequestGuid\}` endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 To request the check reporting data, you must include the check reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
@@ -25,7 +25,7 @@ Optionally, you can choose to include a `fetchRestaurantNames` query parameter. 
 
 #### Request to retrieve check reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/check/\{reportRequestGuid\}` endpoint.
 
 ```
 curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
@@ -46,11 +46,11 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 
 #### Response to the retrieval request for check reporting data
 
-The following example shows the response from the `/era/v1/check/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/check/\{reportRequestGuid\}` endpoint.
 
 ```
 [
-  {
+  \{
     "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
     "orderNumber": "5018",
     "orderGuid": "f8e4ae5e-ccbd-49e5-81e8-947d673c30ad",
@@ -73,7 +73,7 @@ The following example shows the response from the `/era/v1/check/{reportRequestG
     "restaurantName": "Grove Place Cafe"
   },
   [content omitted]
-  {
+  \{
     "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
     "orderNumber": "5010",
     "orderGuid": "98bca966-4969-4314-9a8a-8486340164d2",
@@ -94,7 +94,7 @@ The following example shows the response from the `/era/v1/check/{reportRequestG
     "checkGratuityAmount": 0.0,
     "checkRefundAmount": 0.0,
     "restaurantName": "Grove Place Cafe"
-  }
+  \}
 ]
 
 ```

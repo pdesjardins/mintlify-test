@@ -96,19 +96,19 @@ The following example shows a JSON message body data that provides information a
 
 ```
 [
-    {
+    \{
         "multiLocationId": "100000000171238879",
         "status": "IN_STOCK"
     },
-    {
+    \{
         "multiLocationId": "100000000171239701",
         "status": "QUANTITY",
         "quantity": 5.0
     },
-    {
+    \{
         "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
         "status": "OUT_OF_STOCK"
-    },
+    \},
 ]
 ```
 
@@ -136,7 +136,7 @@ The following example shows the JSON response data for a PUT request to the `/in
 
 ```
 [
-    {
+    \{
         "guid": "7d850cd0-c014-46f0-bfa6-b1f920c03743", 
         "itemGuidValidity": "VALID",
         "status": "IN_STOCK",
@@ -144,7 +144,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "multiLocationId": "100000000171238879",
         "versionId": "7d850cd0-c014-46f0-bfa6-b1f920c03743"
     },
-    {
+    \{
         "guid": "79977142-e076-4727-9b69-9176726b1603",
         "itemGuidValidity": "VALID",
         "status": "QUANTITY",
@@ -152,7 +152,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "multiLocationId": "100000000171239701",
         "versionId": "79977142-e076-4727-9b69-9176726b1603"
     },
-    {
+    \{
         "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
         "itemGuidValidity": "VALID",
         "status": "OUT_OF_STOCK",
@@ -160,7 +160,7 @@ The following example shows the JSON response data for a PUT request to the `/in
         "multiLocationId": "100000000171241912",
         "versionId": "88521da5-198e-435b-a5ba-a09983525cf9"
     },
-    {
+    \{
         "guid": "78271a25-cce4-4317-be6e-67be12722d20",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
@@ -168,14 +168,14 @@ The following example shows the JSON response data for a PUT request to the `/in
         "multiLocationId": "null",
         "versionId": "78271a25-cce4-4317-be6e-67be12722d20"
     },
-    {
+    \{
         "guid": "null",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
         "quantity": null,
         "multiLocationId": "400000000861576949",
         "versionId": "null"
-    }
+    \}
 ]
 ```
 

@@ -52,9 +52,9 @@ A GUID is a unique identifier that Toast generates when new objects are created.
 You use GUIDs to identify configured objects that are relevant to the order, such as menu items, dining options, and discounts. Here is an example of a `DiningOption` object, which provides a dining option GUID to identify the dining option for an order.
 
 ```
-"diningOption": {
+"diningOption": \{
   "guid": "18855a26-40d4-4a8f-b484-c6af211dd597"
-},
+\},
 ```
 
 To identify an object, you can use either `guid` or `multilocationId`. For more information about `multilocationId` and how to use it, see [Using multi-location IDs in orders](apiUsingMultiLocationIdsInOrders.html).

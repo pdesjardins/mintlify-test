@@ -30,14 +30,14 @@ The following example shows an example gift card integration API request.
 \> Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxM
    jM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.Sf
    lKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
-{
-  "redeemTransactionInformation":{
+\{
+  "redeemTransactionInformation":\{
     "redeemedValue":11.80,
     "giftCardIdentifier":"231952736",
     "checkIdentifier":"41531b0c-ad11-4c11-9ad6-29ba76925a13",
     "isCashOut":false
-  }
-}
+  \}
+\}
 ```
 
 
@@ -66,13 +66,13 @@ The following example shows an example gift card integration API response.
 **Example 10.4. Gift card integration API transaction response**
 
 ```
-{
+\{
   "transactionStatus":"ACCEPT",
-  "redeemResponse":{
+  "redeemResponse":\{
     "currentBalance":60.29,
     "redeemedValue":1
-  }
-}
+  \}
+\}
 ```
 
 

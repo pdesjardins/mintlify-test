@@ -234,7 +234,7 @@ The following example shows the JSON data that the user management API returns f
 **Example 1.14. Authentication return data for a partner API client**
 
 ```
-{
+\{
    "access_token":"eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOlsidG9hc3Q
 iXSwibmFtaW5nQXV0aG9yaXR5IjoiVE9BU1RXRUIiLCJzY29wZSI6WyJhY2
 Nlc3MtYWxsLXJlc3RhdXJhbnRzIiwiY2FyZHMiLCJjY3Byb2Nlc3NpbmciL
@@ -253,7 +253,7 @@ iNTlbPVwAvrFTbEWcmys0",
    "jti":"0aeb7877-24de-4ebe-8956-0d4acf7ba74e",
    "namingAuthority":"USEFULRESTAURANSERVICE",
    "partnerGuid": "46a8dba9-b204-38bf-bd76-fb26d74bc513"
-}
+\}
 ```
 
   
@@ -297,7 +297,7 @@ The following example shows the JSON data that the user management API returns f
 **Example 1.15. Authentication return data for a restaurant management group client**
 
 ```
-{
+\{
     "access_token": "eyJhbGciOiJSUzI1NiJ9ciOiJSUzI.e5nQXV0aG
 9yaXR5IjoiQ1JVTkNIVElNRSIsInJzR3VpZCI6IjyJhdWQiOlsidG9hc3QiX
 SwibmFtaWE4YzQ5YWJlLWFllIjpbImxhYm9yIiwib3JkZXJzIiwidXNlcm1n
@@ -316,7 +316,7 @@ iIylCX1sYzd241Y-gwo007AMgxjH9",
     "rsGuid": "18c49abe-4aec-a2e8-8543-baa4c25ea662",
     "scope": "labor orders usermgmt",
     "token_type": "bearer"
-}
+\}
 
 ```
 
@@ -376,11 +376,11 @@ The following example shows the message body for a `POST` request to the `/crm/v
 **Example 1.16. Guest search query message body**
 
 ```
-{
-  "query": {
+\{
+  "query": \{
     "phone": "9876543210"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -409,12 +409,12 @@ The following example shows the JSON message body content for a `POST` request t
 **Example 1.17. Message body content to add a guest**
 
 ```
-{
+\{
   "guid": "743B0D5C-66E4-4A46-B3E2-6694031B180C",
   "firstName": "Josephine",
   "lastName": "Banton",
   "email": "jbanton@example.org"
-}
+\}
 ```
 
 
@@ -433,34 +433,34 @@ The following example shows the JSON response data for a `POST` request to the `
 **Example 1.18. Add guest response data**
 
 ```
-{
+\{
   "guid": "743b0d5c-66e4-4a46-b3e2-6694031b180c",
   "entityType": "Customer",
   "firstName": "Josephine",
   "lastName": "Banton",
   "phone": null,
   "email": "jbanton@example.org"
-}
+\}
 ```
 
   
 ###### Adding guest credits
 
-To add customer credit value for a restaurant customer, you send a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint of the CRM API. Adding customer credit value creates a customer credit transaction.
+To add customer credit value for a restaurant customer, you send a `POST` request to the `/crm/v1/`/customers/*`\{customerId\}`*/creditTransactions endpoint of the CRM API. Adding customer credit value creates a customer credit transaction.
 
 To create a customer credit transaction, you must provide a unique identifier (UUID or GUID) for the transaction. The `CustomerCreditTransaction` object in the message body of the `POST` request must include a `guid`value containing a unique UUID or GUID for the new customer record.
 
-The following example shows the JSON message body content for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
+The following example shows the JSON message body content for a `POST` request to the `/crm/v1/`/customers/*`\{customerId\}`*/creditTransactions endpoint.
 
 **Example 1.19. Message body content to add guest credit value**
 
 ```
-{
+\{
   "guid": "65F15E87-F985-4AE4-B970-04CF5F758C17",
   "transactionType": "ADD_VALUE",
   "amount": 10.00,
   "localCreatedDate": "2018-06-16T15:01:14.000+0000"
-}
+\}
 ```
 
 
@@ -474,19 +474,19 @@ The following example shows the JSON message body content for a `POST` request t
 (4) Include the date and time that you added customer credits in the localCreatedDate value.
 
   
-The following example shows the JSON response data for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
+The following example shows the JSON response data for a `POST` request to the `/crm/v1/`/customers/*`\{customerId\}`*/creditTransactions endpoint.
 
 **Example 1.20. Add guest credit transaction response data**
 
 ```
-{
+\{
   "guid": "65f15e87-f985-4ae4-b970-04cf5f758c17",
   "entityType": "CustomerCreditTransaction",
   "approver": null,
   "note": null,
   "server": null,
   "amount": 10.01,
-  "restaurant": {
+  "restaurant": \{
     "guid": "76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf",
     "entityType": "Restaurant"
   },
@@ -496,11 +496,11 @@ The following example shows the JSON response data for a `POST` request to the `
   "localCreatedDate": "2018-06-16T15:01:14.000+0000",
   "device": null,
   "expirationDate": "2018-09-15T06:00:00.000+0000",
-  "customer": {
+  "customer": \{
     "guid": "f7111e82-5979-4579-a86b-e91d10ee6d3a",
     "entityType": "Customer"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -549,17 +549,17 @@ To access your restaurant's SFTP directory using terminal use the following comm
 
 ```
 sftp \ 
-      -i ~/`{SSH_key_filepath}` \
-      -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:`{export_id}`/`{YYYYMMDD}`/*
+      -i ~/`\{SSH_key_filepath\}` \
+      -r `\{sftp_username\}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:`\{export_id\}`/`\{YYYYMMDD\}`/*
 ```
 
-Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the details you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days and the *`{SSH_key_filepath}`* to the location of your SSH key on your machine.
+Replace the *`\{sftp_username\}`* and *`\{export_id\}`* placeholders with the details you received from Toast support. Change *`\{YYYYMMDD\}`* to the business date of the desired export within the last seven days and the *`\{SSH_key_filepath\}`* to the location of your SSH key on your machine.
 
 
 
 > **Note**
 > 
-> The *`{filepath}`* used will be the export directory for your restaurant files.
+> The *`\{filepath\}`* used will be the export directory for your restaurant files.
 
 
 
@@ -567,7 +567,7 @@ Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the detail
 
 Once you are connected to the SFTP directory use the **ls** command and press Return to display all files.
 
-Export all files using the **get *** command or use **get *`{fileName}`*** to export a specific file.
+Export all files using the **get *** command or use **get *`\{fileName\}`*** to export a specific file.
 
 
 
@@ -578,10 +578,10 @@ Export all files using the **get *** command or use **get *`{fileName}`*** to ex
 To access your restaurant's SFTP directory using command prompt use the following command:
 
 ```
-sftp -i `{SSH_key_filepath}` -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
+sftp -i `\{SSH_key_filepath\}` -r `\{sftp_username\}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
 
-Replace *`{SSH_key_filepath}`* with the location of your SSH key on your machine. Replace *`{export_username}`* with the export user name you received from Toast support.
+Replace *`\{SSH_key_filepath\}`* with the location of your SSH key on your machine. Replace *`\{export_username\}`* with the export user name you received from Toast support.
 
 
 2. **Exporting files using command prompt**
@@ -591,15 +591,15 @@ Once you are connected to the SFTP directory, use the **ls** command and press E
 To export a file for a specific location and date, use the following command:
 
 ```
-get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
+get /`\{export_id\}`/`\{YYYYMMDD\}` `\{download_location\}`
 ```
 
-Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
+Replace *`\{export_id\}`* with the export ID you received from Toast support. Change *`\{YYYYMMDD\}`* to the business date of the desired export within the last seven days. Replace *`\{download_location\}`* with the location on the local file system where you want the downloaded files to be stored.
 
 To export all files, use the following command:
 
 ```
-get * `{download_location}`
+get * `\{download_location\}`
 ```
 
 
@@ -782,37 +782,37 @@ The following table shows the information about the pricing strategy for the mod
 | --- | --- | --- |
 | basePrice | Used when the [pricingStrategy](apiDeprecatedApiFunctions.html#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:```
 "optionGroups": [ 
-{
+\{
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
   ...
   "pricingStrategy":"BASE_PRICE",
-  "pricingStategyRules": {
+  "pricingStategyRules": \{
     "basePrice": 1.00
-    }
+    \}
   ...
-}
+\}
 ```
 
  | Number | 
 | numberOfLevels | Used when the [pricingStrategy](apiDeprecatedApiFunctions.html#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDeprecatedApiFunctions.html#adminDataExportSequencePrices)array. | Number | 
 | sequencePrices | Sets the price for each level defined in the [numberOfLevels](apiDeprecatedApiFunctions.html#adminDataExportNumberOfLevels)value. For example:```
 "optionGroups": [ 
-{
+\{
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
   ...
   "pricingStrategy": "SEQUENCE_PRICE",
-  "pricingStrategyRules": {
+  "pricingStrategyRules": \{
     "numberOfLevels": 3,
     "sequencePrices": [
       0.50,
       0.75,
       1.00,
     ]
-  }
+  \}
   ...
-}
+\}
 ```
 
  | JSON array | 
@@ -870,17 +870,17 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 **Example 1.21. Menu hierarchy in the menu data export file**
 
 ```
-{
+\{
   "entityType": "Menu",
   "name": "Dinner",
   "guid": "7d9e0d3d-b844-4133-943a-4b8d0c160786",
   "groups": [
-    {
+    \{
       "entityType": "MenuGroup",
       "name": "Salads",
       "guid": "bd56a9b4-89c4-4105-bd8e-cdd5d95a1e3c",
       "items": [
-        {
+        \{
           "entityType": "MenuItem",
           "name": "Garden Salad",
           "guid": "ca6c1271-6efb-470e-aa95-da4380d6bf62",
@@ -888,7 +888,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
           [contents omitted]
 
           "optionGroups": [
-            {
+            \{
               "entityType": "MenuOptionGroup",
               "name": "Toppings",
               "guid": "be8ff99e-8cfe-4641-88ef-6f4f32d00535",
@@ -896,7 +896,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
               [contents omitted]
 
               "items": [
-                {
+                \{
                   "entityType": "MenuItem",
                   "name": "Banana peppers",
                   "guid": "3ad58e65-6daf-4c51-90ef-1af45bc33ac3",
@@ -905,7 +905,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
                   "isDefault": false,
                 },
-                {
+                \{
                   "entityType": "MenuItem",
                   "name": "Tomatoes",
                   "guid": "c95060c2-5aa6-44b2-a9d2-b2c1f01468ac",
@@ -913,7 +913,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
                   [contents omitted]
 
                   "isDefault": true,
-                },
+                \},
           
     [contents omitted]
                
@@ -945,13 +945,13 @@ MENU_GUID="315267d2-80fd-4aef-95aa-62adf41bdb7a"
 MENU_GROUP_GUID="974c43f7-a357-4bef-92aa-00a1238e22e1"
 MENU_ITEM_GUID="dc426c22-e132-4adf-4adf-d82b1fe512b3"
 
-jq --arg MENU_GUID ${MENU_GUID} \
---arg MENU_GROUP_GUID ${MENU_GROUP_GUID} \
---arg MENU_ITEM_GUID ${MENU_ITEM_GUID} \
+jq --arg MENU_GUID $\{MENU_GUID\} \
+--arg MENU_GROUP_GUID $\{MENU_GROUP_GUID} \
+--arg MENU_ITEM_GUID $\{MENU_ITEM_GUID\} \
 '.[] | select(.guid==$MENU_GUID) | .groups[] | select(.guid==$MENU_GROUP_GUID)
 | .items[] | select(.guid==$MENU_ITEM_GUID) | .optionGroups[].items[] 
 | select(.isDefault==true)' \
-${MENU_EXPORT_FILE}
+$\{MENU_EXPORT_FILE\}
 ```
 
 
@@ -974,7 +974,7 @@ The following example shows menu items that are the default modifiers for a menu
 **Example 1.23. Default modifiers for a menu item**
 
 ```
-{
+\{
   "entityType": "MenuItem",
   "name": "Cucumber",
   "guid": "e47b25f2-2c13-4428-b344-34b3214515d1",
@@ -987,7 +987,7 @@ The following example shows menu items that are the default modifiers for a menu
   "optionGroups": [],
   "idString": null
 }
-{
+\{
   "entityType": "MenuItem",
   "name": "Green Peppers",
   "guid": "f9ec9a05-5c60-42dc-ad17-db0fb6be93c7",
@@ -1000,7 +1000,7 @@ The following example shows menu items that are the default modifiers for a menu
   "optionGroups": [],
   "idString": null
 }
-{
+\{
   "entityType": "MenuItem",
   "name": "Onions",
   "guid": "ececb63f-0491-4955-9331-4ad2cd685e60",
@@ -1013,7 +1013,7 @@ The following example shows menu items that are the default modifiers for a menu
   "optionGroups": [],
   "idString": null
 }
-{
+\{
   "entityType": "MenuItem",
   "name": "Tomato",
   "guid": "cb5dc6ee-2c25-4fcc-aff8-8452c9bf19e1",
@@ -1026,7 +1026,7 @@ The following example shows menu items that are the default modifiers for a menu
   "optionGroups": [],
   "idString": null
 }
-{
+\{
   "entityType": "MenuItem",
   "name": "Garlic Croutons",
   "guid": "17831034-c2bc-4cca-b845-c52f441955be",
@@ -1038,7 +1038,7 @@ The following example shows menu items that are the default modifiers for a menu
   "isDefault": true,
   "optionGroups": [],
   "idString": null
-}
+\}
 ```
 
   

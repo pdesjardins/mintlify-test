@@ -31,13 +31,13 @@ Retrieving the payout reporting data by payment is a two-step process. You must:
 For more information, see [Creating a request for payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/payout/payments/{requestReportGuid}` endpoint to retrieve the payout reporting data organized by payments. For more information, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/payout/payments/\{requestReportGuid\}` endpoint to retrieve the payout reporting data organized by payments. For more information, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
 
 
 #### Creating a request for payout reporting data by payments
 
-Send a `POST` request to the `/era/v1/payout/payments/{timeRange}` endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `POST` request to the `/era/v1/payout/payments/\{timeRange\}` endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
@@ -89,12 +89,12 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
 The following example shows the message body for creating a payout reporting data by payments request.
 
 ```
-{
+\{
     "startDate": "20240710",
     "endDate": "20240710",
     "restaurantIds": ["95a96d7b-dbf5-46d3-98c5-c65c8ad18021"],
     "excludedRestaurantIds": []
-}
+\}
 ```
 
 
@@ -123,11 +123,11 @@ For an example that shows how to retrieve the payout reporting data by payments,
 
 #### Retrieving the payout reporting data by payments
 
-Send a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}` endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `GET` request to the `/era/v1/payout/payments/\{reportRequestGuid\}` endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 ##### Request to retrieve payout reporting data by payments
 
-The following example **curl** command sends a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/payout/payments/\{reportRequestGuid\}`endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/payments/
@@ -145,11 +145,11 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 ##### Response to retrieval request for payout reporting data by payments
 
-The following example shows the response from the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
+The following example shows the response from the `/era/v1/payout/payments/\{reportRequestGuid\}`endpoint.
 
 ```
 [
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -167,7 +167,7 @@ The following example shows the response from the `/era/v1/payout/payments/{repo
         "paymentSubtotal": 1.39,
         "paymentTotal": 1.39
     },
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -185,7 +185,7 @@ The following example shows the response from the `/era/v1/payout/payments/{repo
         "paymentSubtotal": 1.39,
         "paymentTotal": 1.4
     },
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": null,
@@ -202,7 +202,7 @@ The following example shows the response from the `/era/v1/payout/payments/{repo
         "gratuityAmount": 0.0,
         "paymentSubtotal": 1.39,
         "paymentTotal": 1.4
-    }
+    \}
 ]
 ```
 

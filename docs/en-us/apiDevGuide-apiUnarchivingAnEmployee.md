@@ -17,7 +17,7 @@ codeExamples: 0
 
 ### Unarchiving an employee
 
-To unarchive an employee, send a `PUT`request to the `/labor/v1/employees/{employeeGuid}/unarchive`endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
+To unarchive an employee, send a `PUT`request to the `/labor/v1/employees/\{employeeGuid\}/unarchive`endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
 
 When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the [jobs assigned](platformEmployeeJobs.html) to them before they were archived.
 
@@ -66,7 +66,7 @@ The following example shows the response for a `PUT` request to unarchive an emp
 **Example 7.17. Example response from a request to unarchive an employee**
 
 ```
-{
+\{
     "guid": "82965aae-7b53-448a-b7e5-e32039f01ff4",
     "entityType": "RestaurantUser",
     "externalId": null,
@@ -84,7 +84,7 @@ The following example shows the response for a `PUT` request to unarchive an emp
     "modifiedDate": "2025-06-13T14:35:12.598+0000",
     "externalEmployeeId": null,
     "email": "jblajoie8650087951@example.com"
-}
+\}
 ```
 
 

@@ -17,13 +17,13 @@ codeExamples: 0
 
 ### Retrieving the labor reporting data
 
-Send a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 To request the labor reporting data, you must include the labor reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
 #### Request to retrieve labor reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
@@ -41,11 +41,11 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 #### Response to the retrieval request for labor reporting data
 
-The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 
 ```
 [
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        "regularHours": 47.645,
@@ -71,7 +71,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        "regularHours": 5.8,
@@ -97,7 +97,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        "regularHours": 11.759,
@@ -123,7 +123,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        "regularHours": 37.988,
@@ -149,7 +149,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
        "businessDate": 20230203,
        "regularHours": 9.333,
@@ -175,7 +175,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
        "businessDate": 20230203,
        "regularHours": 9.5,
@@ -201,7 +201,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        "regularHours": 11.759,
@@ -226,7 +226,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
-   }
+   \}
 ]
 
 ```

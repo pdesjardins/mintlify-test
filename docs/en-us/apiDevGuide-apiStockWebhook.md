@@ -78,14 +78,14 @@ Attributes in the `in_stock` event's payload include:
   "eventCategory": "stock",
   "eventType": "in_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
-  "details": {
+  "details": \{
     "itemGuid": "1e199622-ccbf-4ba8-8c37-111519dca13b",
     "restaurantGuid": "3325cc58-dc6e-4e21-85f9-7de275ffe820",
     "status": "IN_STOCK",
     "multiLocationId": "100000000171238879",
     "versionId": "1e199622-ccbf-4ba8-8c37-111519dca13b"    
-  }
-}
+  \}
+\}
 ```
 
   
@@ -97,15 +97,15 @@ Attributes in the `in_stock` event's payload include:
   "eventCategory": "stock",
   "eventType": "in_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
-  "details": {
+  "details": \{
     "itemGuid": "1e199622-ccbf-4ba8-8c37-111519dca13b",
     "restaurantGuid": "3325cc58-dc6e-4e21-85f9-7de275ffe820",
     "status": "QUANTITY",
     "quantity": 10.0,
     "multiLocationId": "100000000171239701",
     "versionId": "1e199622-ccbf-4ba8-8c37-111519dca13b"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -131,14 +131,14 @@ Attributes in the `out_of_stock` event's payload include:
   "eventCategory": "stock",
   "eventType": "out_of_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
-  "details": {
+  "details": \{
     "itemGuid": "1e199622-ccbf-4ba8-8c37-111519dca13b",
     "restaurantGuid": "3325cc58-dc6e-4e21-85f9-7de275ffe820",
     "status": "OUT_OF_STOCK",
     "multiLocationId": "100000000171239569",
     "versionId": "1e199622-ccbf-4ba8-8c37-111519dca13b"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -176,15 +176,15 @@ Attributes in the `low_quantity` event's payload include:
   "eventCategory": "stock",
   "eventType": "low_quantity",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
-  "details": {
+  "details": \{
     "itemGuid": "1e199622-ccbf-4ba8-8c37-111519dca13b",
     "restaurantGuid": "3325cc58-dc6e-4e21-85f9-7de275ffe820",
     "status": "QUANTITY",
     "quantity": 5.0,
     "multiLocationId": "100000000171241912",
     "versionId": "1e199622-ccbf-4ba8-8c37-111519dca13b"
-  }
-}
+  \}
+\}
 ```
 
   

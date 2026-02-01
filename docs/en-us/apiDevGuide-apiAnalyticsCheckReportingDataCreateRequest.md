@@ -76,14 +76,14 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 The following example shows the message body for creating a check reporting data request.
 
 ```
-{
+\{
   "startBusinessDate": "20230201",
   "endBusinessDate": "20230201",
   "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021"
   ],
   "excludedRestaurantIds": []
-}
+\}
 
 ```
 

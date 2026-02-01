@@ -80,7 +80,7 @@ The following example shows the search terms configured as room number, name, re
 
 **Example 10.18. Configure search request**
 
-The `TENDER_SEARCH_CONFIG` transaction is a `POST` request to your tender API endpoint `https://<em>{your endpoint}</em>` with the following header parameters:
+The `TENDER_SEARCH_CONFIG` transaction is a `POST` request to your tender API endpoint `https://<em>\{your endpoint\}</em>` with the following header parameters:
 
 - `Toast-Transaction-Type`
 
@@ -103,42 +103,42 @@ This request has no message body.
 The following is an example of a successful configure search response.
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT",
   "discountsResponse": null,
   "paymentsResponse": null,
   "gratuityResponse": null,
-  "searchConfigResponse": {
+  "searchConfigResponse": \{
     "searchTermNames": [
-      {
+      \{
         "key": "Room Number",
         "value": "TEXT", 
         "tenderPropertyType": "ROOM_ID", 
         "maxLength": 3
       },
-      {
+      \{
         "key": "Name",
         "value": "TEXT",
         "tenderPropertyType": "OTHER",
         "maxLength": 30
       },
-      {
+      \{
         "key": "Reservation Number",
         "value": "NUMBER",
         "tenderPropertyType": "OTHER",
         "maxLength": 10
       },
-      {
+      \{
         "key": "Company Name",
         "value": "TEXT",
         "tenderPropertyType": "OTHER",
         "maxLength": 30
-      }
+      \}
     ]
-  },
+  \},
   "searchResponse": null,
   "redeemResponse": null
-}
+\}
 ```
 
 
@@ -193,75 +193,75 @@ The following example shows a search for a guest whose name contains `john`. The
 **Example 10.20. Search request message body**
 
 ```
-{
+\{
   "discountsTransactionInformation": null,
   "paymentsTransactionInformation": null,
   "redeemTransactionInformation": null,
   "gratuityTransactionInformation": null,
   "reverseTransactionInformation": null,
-  "searchTransactionInformation": {
+  "searchTransactionInformation": \{
     "swipeData": null,
     "scanData": null,
     "searchTerms": [
-      {
+      \{
         "key": "Name",
         "value": "john",
         "tenderPropertyType": "OTHER",
         "maxLength": 30
-      }
+      \}
     ],
     "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6",
     "checkGuid": "ad51d5f8-8573-4a4f-ad65-ce308f5ff763"
-  }
-}
+  \}
+\}
 ```
 
   
 **Example 10.21. Successful search response**
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT",
   "discountsResponse": null,
   "paymentsResponse": null,
   "gratuityResponse": null,
   "searchConfigResponse": null,
-  "searchResponse": {
+  "searchResponse": \{
     "searchResults": [
-      {
+      \{
         "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
         "properties": [
-          {
+          \{
             "key": "Room Number",
             "value": "100",
             "tenderPropertyType": "ROOM_ID",
             "maxLength": null
           },
-          {
+          \{
             "key": "Name",
             "value": "John Adams",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Reservation Number",
             "value": "54321",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Company Name",
             "value": "Toast, Inc.",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Guest Status",
             "value": "ACTIVE",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Charge Limit",
             "value": "$500.00",
             "tenderPropertyType": "OTHER",
@@ -269,46 +269,46 @@ The following example shows a search for a guest whose name contains `john`. The
           }
         ],
         "additionalProperties": [
-          {
+          \{
             "key": "storedValue",
             "value": "403.25"
           }
         ]
       },
-      {
+      \{
         "tenderIdentifier": "d453f4ea-627f-4f75-9674-eba26c7c621d",
         "properties": 
-          {
+          \{
             "key": "Room Number",
             "value": "308",
             "tenderPropertyType": "ROOM_ID",
             "maxLength": null
           },
-          {
+          \{
             "key": "Name",
             "value": "Amy Johns",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Reservation Number",
             "value": "12345",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Company Name",
             "value": "Toast, Inc.",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Guest Status",
             "value": "ACTIVE",
             "tenderPropertyType": "OTHER",
             "maxLength": null
           },
-          {
+          \{
             "key": "Charge Limit",
             "value": "$1000.00",
             "tenderPropertyType": "OTHER",
@@ -316,16 +316,16 @@ The following example shows a search for a guest whose name contains `john`. The
           }
         ],
         "additionalProperties": [
-          {
+          \{
             "key": "storedValue",
             "value": "980.73"
-          }
+          \}
         ]
-      }
+      \}
     ]
-  },
+  \},
   "redeemResponse": null
-}
+\}
 ```
 
   
@@ -355,17 +355,17 @@ After an employee selects a guest from the search results on the Toast POS devic
 **Example 10.22. Retrieve discounts request body**
 
 ```
-{
-  "discountsTransactionInformation": {
+\{
+  "discountsTransactionInformation": \{
     "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
-    "accountInfo": {
+    "accountInfo": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
       "expansionSearchCriteria": []
     },
     "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6",
-    "check": {
+    "check": \{
       "guid": "ad51d5f8-8573-4a4f-ad65-ce308f5ff763",
       "entityType": null,
       "externalId": null,
@@ -393,7 +393,7 @@ After an employee selects a guest from the search results on the Toast POS devic
       "openedDate": null,
       "totalAmount": null,
       "selections": [
-        {
+        \{
           "guid": "77cc9961-a859-4ae0-a545-3c7d36f796f4",
           "entityType": null,
           "externalId": null,
@@ -415,10 +415,10 @@ After an employee selects a guest from the search results on the Toast POS devic
           "price": 13,
           "voided": false,
           "appliedTaxes": [
-            {
+            \{
               "guid": "ec0ba24e-afd8-45cc-b39b-311b4bddcc63",
               "entityType": null,
-              "taxRate": {
+              "taxRate": \{
                 "guid": "df6eeefc-3f1f-4669-a9ef-3718a53b8418",
                 "entityType": "TaxRate"
               },
@@ -430,18 +430,18 @@ After an employee selects a guest from the search results on the Toast POS devic
             }
           ],
           "storedValueTransactionId": null,
-          "itemGroup": {
+          "itemGroup": \{
             "guid": "0598f4e5-223a-4b91-a674-9929d42e532d",
             "entityType": "MenuGroup",
             "externalId": "200000017820067195",
             "multiLocationId": null
           },
-          "item": {
+          "item": \{
             "guid": "791f5203-22b6-469a-a0f9-29e1177219ac",
             "entityType": "MenuItem",
             "externalId": "200000017820067789",
             "multiLocationId": null
-          },
+          \},
           "taxInclusion": "NOT_INCLUDED",
           "quantity": 1,
           "receiptLinePrice": 13,
@@ -455,7 +455,7 @@ After an employee selects a guest from the search results on the Toast POS devic
           "createdDate": null,
           "preModifier": null,
           "modifiedDate": null
-        }
+        \}
       ],
       "voidBusinessDate": null,
       "createdDate": null,
@@ -470,46 +470,46 @@ After an employee selects a guest from the search results on the Toast POS devic
       "driverShift": null,
       "appliedServiceCharges": [],
       "customer": null
-    },
+    \},
     "totalDiscountable": 13
-  },
+  \},
   "paymentsTransactionInformation": null,
   "redeemTransactionInformation": null,
   "gratuityTransactionInformation": null,
   "reverseTransactionInformation": null,
   "searchTransactionInformation": null
-}
+\}
 ```
 
   
 **Example 10.23. Successful retrieve discounts response**
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT",
-  "discountsResponse": {
-    "account": {
+  "discountsResponse": \{
+    "account": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
       "expansionSearchCriteria": null
     },
     "tenderDiscounts": [
-      {
+      \{
         "name": "Tender Dollar Discount",
         "identifier": "5570ca31-7391-4b0c-bd45-9788cc686a5b",
         "amount": 1,
         "selectionGuid": null,
         "appliedDiscountGuid": "54397374-cc57-4145-9f0b-784f02d3ea5c"
-      }
+      \}
     ]
-  },
+  \},
   "paymentsResponse": null,
   "gratuityResponse": null,
   "searchConfigResponse": null,
   "searchResponse": null,
   "redeemResponse": null
-}
+\}
 ```
 
 The retrieved discounts `tenderDiscounts` can be check-level or item-level discounts.
@@ -542,11 +542,11 @@ The Toast platform retrieves payments after applying the discounts received from
 **Example 10.24. Retrieve payments request body**
 
 ```
-{
+\{
   "discountsTransactionInformation": null,
-  "paymentsTransactionInformation": {
+  "paymentsTransactionInformation": \{
     "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
-    "accountInfo": {
+    "accountInfo": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [],
@@ -555,14 +555,14 @@ The Toast platform retrieves payments after applying the discounts received from
     "amount": 12.72,
     "tipAmount": 0,
     "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6",
-    "check": {
+    "check": \{
       "guid": "ad51d5f8-8573-4a4f-ad65-ce308f5ff763",
       "entityType": null,
       "externalId": null,
       "displayNumber": "2",
       "payments": [],
       "appliedDiscounts": [
-        {
+        \{
           "guid": "54397374-cc57-4145-9f0b-784f02d3ea5c",
           "entityType": null,
           "externalId": null,
@@ -602,7 +602,7 @@ The Toast platform retrieves payments after applying the discounts received from
       "openedDate": null,
       "totalAmount": null,
       "selections": [
-        {
+        \{
           "guid": "77cc9961-a859-4ae0-a545-3c7d36f796f4",
           "entityType": null,
           "externalId": null,
@@ -619,7 +619,7 @@ The Toast platform retrieves payments after applying the discounts received from
           "fulfillmentStatus": null,
           "optionGroupPricingMode": null,
           "giftCardSelectionInfo": null,
-          "salesCategory": {
+          "salesCategory": \{
             "guid": "d7933a7d-5db7-447b-83c4-99fab2b536ab",
             "entityType": "SalesCategory",
             "externalId": "200000022647976825",
@@ -629,10 +629,10 @@ The Toast platform retrieves payments after applying the discounts received from
           "price": 13,
           "voided": false,
           "appliedTaxes": [
-            {
+            \{
               "guid": "ec0ba24e-afd8-45cc-b39b-311b4bddcc63",
               "entityType": null,
-              "taxRate": {
+              "taxRate": \{
                 "guid": "df6eeefc-3f1f-4669-a9ef-3718a53b8418",
                 "entityType": "TaxRate"
               },
@@ -644,13 +644,13 @@ The Toast platform retrieves payments after applying the discounts received from
             }
           ],
           "storedValueTransactionId": null,
-          "itemGroup": {
+          "itemGroup": \{
             "guid": "0598f4e5-223a-4b91-a674-9929d42e532d",
             "entityType": "MenuGroup",
             "externalId": "200000017820067195",
             "multiLocationId": null
           },
-          "item": {
+          "item": \{
             "guid": "791f5203-22b6-469a-a0f9-29e1177219ac",
             "entityType": "MenuItem",
             "externalId": "200000017820067789",
@@ -686,52 +686,52 @@ The Toast platform retrieves payments after applying the discounts received from
       "customer": null
     },
     "tenderDiscountsApplied": [
-      {
+      \{
         "name": "Tender Dollar Discount",
         "identifier": "5570ca31-7391-4b0c-bd45-9788cc686a5b",
         "amount": 1,
         "selectionGuid": null,
         "appliedDiscountGuid": "54397374-cc57-4145-9f0b-784f02d3ea5c"
-      }
+      \}
     ]
-  },
+  \},
   "redeemTransactionInformation": null,
   "gratuityTransactionInformation": null,
   "reverseTransactionInformation": null,
   "searchTransactionInformation": null
-}
+\}
 ```
 
   
 **Example 10.25. Successful retrieve payments response**
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT",
   "discountsResponse": null,
-  "paymentsResponse": {
-    "account": {
+  "paymentsResponse": \{
+    "account": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
       "expansionSearchCriteria": null
     },
     "tenderPayments": [
-      {
+      \{
         "name": "Tender Payment",
         "identifier": "c359cde2-a758-46f3-a6d1-7f00e9b18f86",
         "type": "STORED_VALUE",
         "amount": 12.72,
         "tipAmount": 0,
         "paymentGuid": "6980a7b8-edb4-469e-bcb6-869b1cad082d"
-      }
+      \}
     ]
-  },
+  \},
   "gratuityResponse": null,
   "searchConfigResponse": null,
   "searchResponse": null,
   "redeemResponse": null
-}
+\}
 ```
 
   
@@ -754,12 +754,12 @@ After the Toast platform applies payments to the check, the discounts and paymen
 **Example 10.26. Redeem discounts and payments request body**
 
 ```
-{
+\{
   "discountsTransactionInformation": null,
   "paymentsTransactionInformation": null,
-  "redeemTransactionInformation": {
+  "redeemTransactionInformation": \{
     "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
-    "accountInfo": {
+    "accountInfo": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
@@ -768,7 +768,7 @@ After the Toast platform applies payments to the check, the discounts and paymen
     "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6",
     "check": [contents omitted],
     "tenderPaymentsApplied": [
-      {
+      \{
         "name": "Tender Payment",
         "identifier": "c359cde2-a758-46f3-a6d1-7f00e9b18f86",
         "type": "STORED_VALUE",
@@ -778,7 +778,7 @@ After the Toast platform applies payments to the check, the discounts and paymen
       }
     ],
     "tenderDiscountsApplied": [
-      {
+      \{
         "name": "Tender Dollar Discount",
         "identifier": "5570ca31-7391-4b0c-bd45-9788cc686a5b",
         "amount": 1,
@@ -786,24 +786,24 @@ After the Toast platform applies payments to the check, the discounts and paymen
         "appliedDiscountGuid": "54397374-cc57-4145-9f0b-784f02d3ea5c"
       }
     ],
-    "revenueCenter": {
+    "revenueCenter": \{
       "guid": "cc2f37ef-a05e-43ca-afb8-5dc1175d90d7",
       "name": "Dining Room"
-    }
-  },
+    \}
+  \},
   "gratuityTransactionInformation": null,
   "reverseTransactionInformation": null,
   "searchTransactionInformation": null
-}
+\}
 ```
 
   
 **Example 10.27. Successful redeem discounts and payments response**
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT"
-}
+\}
 ```
 
   
@@ -830,23 +830,23 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 **Example 10.28. Gratuity request body**
 
 ```
-{
+\{
   "discountsTransactionInformation": null,
   "paymentsTransactionInformation": null,
   "redeemTransactionInformation": null,
-  "gratuityTransactionInformation": {
+  "gratuityTransactionInformation": \{
     "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
-    "accountInfo": {
+    "accountInfo": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
       "expansionSearchCriteria": []
-    },
+    \},
     "transactionToUpdate": "868cd4a6-66de-4f33-ad47-6867e67ba2e8",
     "additionalGratuity": 2.86, 
     "paymentGuid": "6980a7b8-edb4-469e-bcb6-869b1cad082d",
     "tenderPayments": [
-      {
+      \{
         "name": "Tender Payment",
         "identifier": "c359cde2-a758-46f3-a6d1-7f00e9b18f86",
         "type": "STORED_VALUE",
@@ -855,16 +855,16 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
         "paymentGuid": "6980a7b8-edb4-469e-bcb6-869b1cad082d"
       }
     ],
-    "checkInfo": {
+    "checkInfo": \{
       "guid": "ad51d5f8-8573-4a4f-ad65-ce308f5ff763",
       "displayNumber": "2"
-    },
+    \},
     "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6", 
     "check": [contents omitted] 
-  },
+  \},
   "reverseTransactionInformation": null,
   "searchTransactionInformation": null
-}
+\}
 ```
 
 
@@ -879,32 +879,32 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 **Example 10.29. Successful gratuity response body**
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT",
   "discountsResponse": null,
   "paymentsResponse": null,
-  "gratuityResponse": {
-    "account": {
+  "gratuityResponse": \{
+    "account": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
       "expansionSearchCriteria": null
     },
     "tenderPayments": [
-      {
+      \{
         "name": "Tender Payment",
         "identifier": "c359cde2-a758-46f3-a6d1-7f00e9b18f86",
         "type": "STORED_VALUE",
         "amount": 12.72,
         "tipAmount": 2.86,
         "paymentGuid": "6980a7b8-edb4-469e-bcb6-869b1cad082d"
-      }
+      \}
     ]
-  },
+  \},
   "searchConfigResponse": null,
   "searchResponse": null,
   "redeemResponse": null
-}
+\}
 ```
 
   
@@ -936,14 +936,14 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
 **Example 10.30. Reverse request body**
 
 ```
-{
+\{
   "discountsTransactionInformation": null,
   "paymentsTransactionInformation": null,
   "redeemTransactionInformation": null,
   "gratuityTransactionInformation": null,
-  "reverseTransactionInformation": {
+  "reverseTransactionInformation": \{
     "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
-    "accountInfo": {
+    "accountInfo": \{
       "tenderIdentifier": "2670f8d0-c9c1-4dd1-b234-6922a81a7792",
       "properties": [contents omitted],
       "additionalProperties": [contents omitted],
@@ -957,7 +957,7 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
       "c359cde2-a758-46f3-a6d1-7f00e9b18f86"
     ],
     "tenderPaymentsToRemove": [
-      {
+      \{
         "name": "Tender Payment",
         "identifier": "c359cde2-a758-46f3-a6d1-7f00e9b18f86",
         "type": "STORED_VALUE",
@@ -967,7 +967,7 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
       }
     ],
     "tenderDiscountsToRemove": [
-      {
+      \{
         "name": "Tender Dollar Discount",
         "identifier": "5570ca31-7391-4b0c-bd45-9788cc686a5b",
         "amount": 1,
@@ -975,24 +975,24 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
         "appliedDiscountGuid": "54397374-cc57-4145-9f0b-784f02d3ea5c"
       }
     ],
-    "checkInfo": {
+    "checkInfo": \{
       "guid": "ad51d5f8-8573-4a4f-ad65-ce308f5ff763",
       "displayNumber": "2"
-    },
+    \},
     "originalTransactionStatus": "ACCEPT",
     "orderGuid": "b34bf7f6-7836-4dbb-963d-d7c8115838f6"
-  },
+  \},
   "searchTransactionInformation": null
-}
+\}
 ```
 
   
 **Example 10.31. Successful reverse response body**
 
 ```
-{
+\{
   "transactionStatus": "ACCEPT"
-}
+\}
 ```
 
   

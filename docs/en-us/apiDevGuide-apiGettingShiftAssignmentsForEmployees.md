@@ -64,7 +64,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 ```
 [
-  {
+  \{
     "guid": "dbace5cb-390a-4242-a536-ca8a87393873",
     "entityType": "Shift",
     "externalId": null,
@@ -72,20 +72,20 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
     "createdDate": "2016-12-22T01:56:34.004+0000",
     "deleted": false,
     "deletedDate": null,
-    "employeeReference": {
+    "employeeReference": \{
       "guid": "c2ecd57f-fc91-47ee-a30d-622c7726bf54",
       "entityType": "RestaurantUser",
       "externalId": null
     },
     "modifiedDate": "2016-12-22T01:56:34.004+0000",
     "inDate": "2016-12-13T06:00:00.000+0000",
-    "jobReference": {
+    "jobReference": \{
       "guid": "b9a91677-b948-4860-989c-4107b8c31ab3",
       "entityType": "RestaurantJob",
       "externalId": null
     }
   },
-  {
+  \{
     "guid": "76830753-0837-4388-ae45-89a1e8055d28",
     "entityType": "Shift",
     "externalId": null,
@@ -93,20 +93,20 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
     "createdDate": "2016-12-22T01:56:11.721+0000",
     "deleted": false,
     "deletedDate": null,
-    "employeeReference": {
+    "employeeReference": \{
       "guid": "c2ecd57f-fc91-47ee-a30d-622c7726bf54",
       "entityType": "RestaurantUser",
       "externalId": null
     },
     "modifiedDate": "2016-12-22T01:56:11.721+0000",
     "inDate": "2016-12-12T06:00:00.000+0000",
-    "jobReference": {
+    "jobReference": \{
       "guid": "b9a91677-b948-4860-989c-4107b8c31ab3",
       "entityType": "RestaurantJob",
       "externalId": null
     }
   },
-  {
+  \{
     "guid": "a7b61a4c-dd48-497c-8f52-2a6a7db89c88",
     "entityType": "Shift",
     "externalId": null,
@@ -114,19 +114,19 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
     "createdDate": "2016-12-22T01:25:04.135+0000",
     "deleted": false,
     "deletedDate": null,
-    "employeeReference": {
+    "employeeReference": \{
       "guid": "f438e387-660a-4a43-8478-947414ab08af",
       "entityType": "RestaurantUser",
       "externalId": null
     },
     "modifiedDate": "2016-12-22T01:25:04.135+0000",
     "inDate": "2016-12-11T06:00:00.000+0000",
-    "jobReference": {
+    "jobReference": \{
       "guid": "a5eec1c0-1143-4408-bb6b-3d4b28a594a3",
       "entityType": "RestaurantJob",
       "externalId": null
-    }
-  }
+    \}
+  \}
 ]
 ```
 

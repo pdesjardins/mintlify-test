@@ -80,12 +80,12 @@ Attributes in the `partner_added` event's payload include:
 **Example 9.5. Payload example for the partner_added event**
 
 ```
-{
+\{
     "timestamp": “2019-09-16T21:01:53.685Z”,
     "eventCategory": "partner",
     "eventType": "partner_added",
     "guid": "00000000-0000-0000-0000-000000000000",
-    "details": {
+    "details": \{
         "restaurantGuid": "00000000-1111-2222-3333-444444444444",
         "managementGroupGuid": "55555555-6666-7777-8888-999999999999",
         "restaurantName": "Toast Grill & Tap",
@@ -110,8 +110,8 @@ Attributes in the `partner_added` event's payload include:
         "restaurantTimezone": "America/New_York",
         "restaurantLatitude": "42.344257",
         "restaurantLongitude": "-71.102181"
-    }
-}
+    \}
+\}
 ```
 
   
@@ -124,12 +124,12 @@ The payload for the `partner_removed` webhook event is identical to the payload 
 **Example 9.6. Payload example for the partner_removed event**
 
 ```
-{
+\{
     "timestamp": “2019-09-16T21:22:12.825Z”,
     "eventCategory": "partner",
     "eventType": "partner_removed",
     "guid": "00000000-0000-0000-0000-000000000000",
-    "details": {
+    "details": \{
         "restaurantGuid": "00000000-1111-2222-3333-444444444444",
         "managementGroupGuid": "55555555-6666-7777-8888-999999999999",
         "restaurantName": "Toast Grill & Tap",
@@ -154,8 +154,8 @@ The payload for the `partner_removed` webhook event is identical to the payload 
         "restaurantTimezone": "America/New_York",
         "restaurantLatitude": "42.344257",
         "restaurantLongitude": "-71.102181"
-    }
-}
+    \}
+\}
 ```
 
   
@@ -168,12 +168,12 @@ The payload for the `partner_updated` webhook event is identical to the payload 
 **Example 9.7. Payload example for the partner_updated event**
 
 ```
-{
+\{
     "timestamp": “2019-09-16T21:14:02.142Z”,
     "eventCategory": "partner",
     "eventType": "partner_updated",
     "guid": "00000000-0000-0000-0000-000000000000",
-    "details": {
+    "details": \{
         "restaurantGuid": "00000000-1111-2222-3333-444444444444",
         "managementGroupGuid": "55555555-6666-7777-8888-999999999999",
         "restaurantName": "Toast Grill & Tap",
@@ -198,8 +198,8 @@ The payload for the `partner_updated` webhook event is identical to the payload 
         "restaurantTimezone": "America/New_York",
         "restaurantLatitude": "42.344257",
         "restaurantLongitude": "-71.102181"
-    }
-}
+    \}
+\}
 ```
 
 

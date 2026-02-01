@@ -136,7 +136,7 @@ The following example shows the response data from the `/restaurants` endpoint o
 
 ```
 [
-   {
+   \{
       "restaurantGuid":"0001ac81-423c-a426-0008-02426ac8423c",
       "managementGroupGuid":"88f3cca5-39d9-4acc-8627-3116c748f344",
       "restaurantName":"The Good Restaurant",
@@ -149,7 +149,7 @@ The following example shows the response data from the `/restaurants` endpoint o
       "isoModifiedDate": "2018-12-05T15:09:43.582Z",
       "isoCreatedDate": "2018-12-05T15:09:43.582Z"
    },
-   {
+   \{
       "restaurantGuid":"00034778-423c-a426-0008-02561ac81ce6",
       "managementGroupGuid":null,
       "restaurantName":"The Better Restaurant",
@@ -162,7 +162,7 @@ The following example shows the response data from the `/restaurants` endpoint o
       "isoModifiedDate": "2018-12-06T22:53:13.429Z",
       "isoCreatedDate": "2018-12-06T22:53:13.429Z"
    },
-   {
+   \{
       "restaurantGuid":"00013478-1ce6-a426-0008-02561ac81ce6",
       "managementGroupGuid":"88f3cca5-39d9-4acc-8627-3116c748f344",
       "restaurantName":"The Best Restaurant",
@@ -174,7 +174,7 @@ The following example shows the response data from the `/restaurants` endpoint o
       "createdDate": 1544626611217,
       "isoModifiedDate": "2018-12-12T14:56:51.217Z",
       "isoCreatedDate": "2018-12-12T14:56:51.217Z"
-   }
+   \}
 ]
 ```
 
@@ -184,7 +184,7 @@ The following example shows the response data from the `/restaurants` endpoint o
 Send a `GET` request to the `/connectedRestaurants` endpoint of the Toast partners API.
 
 ```
-https://`{toast-api-hostname}`/partners/v1/connectedRestaurants
+https://`\{toast-api-hostname\}`/partners/v1/connectedRestaurants
 ```
 
 
@@ -242,10 +242,10 @@ The following example shows the return data from the `/connectedRestaurants` end
 **Example 1.2. Return data from the /connectedrestaurants endpoint**
 
 ```
-{
+\{
     "currentPageNum": 1,
     "results": [
-        {
+        \{
             "restaurantGuid": "a1fa1689-3ba1-43c2-ba31-300f3d7abe2c",
             "managementGroupGuid": "1606c177-9a18-45fb-b022-446ec6a80431",
             "restaurantName": "Astro Doughnuts and Fried Chicken",
@@ -258,7 +258,7 @@ The following example shows the return data from the `/connectedRestaurants` end
             "isoModifiedDate": "2022-02-07T19:46:19.752Z",
             "isoCreatedDate": "2021-11-04T16:45:03.499Z"
         },
-        {
+        \{
             "restaurantGuid": "7c0b44f7-e5fe-4ab7-a036-59e541fa93a8",
             "managementGroupGuid": "2a541c86-5da4-401b-a2f0-182c1459ee45",
             "restaurantName": "Test's Cafe",
@@ -271,7 +271,7 @@ The following example shows the return data from the `/connectedRestaurants` end
             "isoModifiedDate": "2022-06-09T15:21:41.013Z",
             "isoCreatedDate": "2021-11-12T19:00:54.371Z"
         },
-        {
+        \{
             "restaurantGuid": "b1139b0d-6014-4c56-966a-262770a69cbf",
             "managementGroupGuid": "b3cc3a6c-45d7-4ce4-96da-9b8c1bf05fcb",
             "restaurantName": "Astro Doughnuts and Fried Chicken",
@@ -283,7 +283,7 @@ The following example shows the return data from the `/connectedRestaurants` end
             "createdDate": 1636365873198,
             "isoModifiedDate": "2022-02-07T19:46:19.792Z",
             "isoCreatedDate": "2021-11-08T10:04:33.198Z"
-        }
+        \}
     ],
     "totalResultCount": 33,
     "pageSize": 100,
@@ -293,7 +293,7 @@ The following example shows the return data from the `/connectedRestaurants` end
     "nextPageNum": null,
     "lastPageNum": 1,
     "previousPageNum": null
-}
+\}
     
 ```
 
@@ -310,7 +310,7 @@ Location ID and group ID values are available in the partners API in the `extern
 
 ```
 [
-   {
+   \{
       "restaurantGuid":"10c8b667-36cf-4048-8a1c-7e48390768d0",
       "managementGroupGuid":"23a5cb86-8913-4f8f-bdea-bb478c058fac",
       "restaurantName":"Toast Grill & Tap",
@@ -322,7 +322,7 @@ Location ID and group ID values are available in the partners API in the `extern
       "createdDate": 1544136793429,
       "isoModifiedDate": "2019-12-06T22:53:13.429Z",
       "isoCreatedDate": "2019-12-06T22:53:13.429Z"
-   }
+   \}
 ]
 ```
 

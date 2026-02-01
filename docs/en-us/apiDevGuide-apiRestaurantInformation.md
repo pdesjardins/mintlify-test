@@ -17,7 +17,7 @@ codeExamples: 2
 
 ### Getting information about a specific restaurant
 
-Send a `GET` request to the `/restaurants/v1/restaurants/{restaurantGUID}` endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a `RestaurantInfo` object that contains the following objects and their information:
+Send a `GET` request to the `/restaurants/v1/restaurants/\{restaurantGUID\}` endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a `RestaurantInfo` object that contains the following objects and their information:
 
 - `General` object: general information about the restaurant:
 
@@ -126,7 +126,7 @@ Note that the `name`, `timeZone`, and `closeoutHour` values are always populated
 
 
 
-The following example **curl** command sends a `GET` request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
+The following example **curl** command sends a `GET` request to the `/restaurants/v1/restaurants/\{restaurantGUID\}`endpoint.
 
 **Example 6.3. Get configuration of a specific restaurant**
 
@@ -152,17 +152,17 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
 
 (1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant from which to retrieve configuration information.
 
-(2) Use the same restaurant GUID in the /restaurants/v1/restaurants/{restaurantGUID}endpoint.
+(2) Use the same restaurant GUID in the /restaurants/v1/restaurants/\{restaurantGUID\}endpoint.
 
   
-The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
+The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/\{restaurantGUID\}`endpoint.
 
 **Example 6.4. Get restaurant configuration return data**
 
 ```
-{
+\{
   "guid": "76cb1b05-cb1e-4adf-863a-b2a94a5ecdcf",
-  "general": {
+  "general": \{
     "archived": false,
     "name": "Trattoria Roma",
     "locationName": Fenway,
@@ -172,7 +172,7 @@ The following example shows the JSON response data for a GET request to the `/re
     "closeoutHour": 6,
     "managementGroupGuid": "ae6c32fe-f4d2-4dcc-aa82-f30edac96296"
   },
-  "urls": {
+  "urls": \{
     "website": "https://www.example.com",
     "facebook": "",
     "twitter": "https://twitter.com/",
@@ -180,7 +180,7 @@ The following example shows the JSON response data for a GET request to the `/re
     "purchaseGiftCard": "https://www.toasttab.com/trattoria-roma/giftcards",
     "checkGiftCard": "https://www.toasttab.com/trattoria-roma/findcard"
   },
-  "location": {
+  "location": \{
     "address1": "401 Park Drive",
     "address2": "",
     "city": "Boston",
@@ -191,22 +191,22 @@ The following example shows the JSON response data for a GET request to the `/re
     "latitude": 42.344552,
     "longitude": -71.102756
   },
-  "schedules": {
-    "daySchedules": {
-      "1495000000000023": {
+  "schedules": \{
+    "daySchedules": \{
+      "1495000000000023": \{
         "scheduleName": "Weekdays",
         "services": [
-          {
+          \{
             "name": "Lunch",
-            "hours": {
+            "hours": \{
               "startTime": "12:00:00.000",
               "endTime": "15:59:00.000"
             },
             "overnight": false
           },
-          {
+          \{
             "name": "Dinner",
-            "hours": {
+            "hours": \{
               "startTime": "16:00:00.000",
               "endTime": "22:00:00.000"
             },
@@ -216,20 +216,20 @@ The following example shows the JSON response data for a GET request to the `/re
         "openTime": "12:00:00.000",
         "closeTime": "22:00:00.000"
       },
-      "1495000000000024": {
+      "1495000000000024": \{
         "scheduleName": "Weekends",
         "services": [
-          {
+          \{
             "name": "Lunch",
-            "hours": {
+            "hours": \{
               "startTime": "12:00:00.000",
               "endTime": "15:59:00.000"
             },
             "overnight": false
           },
-          {
+          \{
             "name": "Dinner",
-            "hours": {
+            "hours": \{
               "startTime": "16:00:00.000",
               "endTime": "22:00:00.000"
             },
@@ -240,7 +240,7 @@ The following example shows the JSON response data for a GET request to the `/re
         "closeTime": "22:00:00.000"
       }
     },
-    "weekSchedule": {
+    "weekSchedule": \{
       "monday": "1495000000000023",
       "tuesday": "1495000000000023",
       "wednesday": "1495000000000023",
@@ -250,23 +250,23 @@ The following example shows the JSON response data for a GET request to the `/re
       "sunday": "1495000000000024"
     }
   },
-  "delivery": {
+  "delivery": \{
     "enabled": true,
     "minimum": null,
     "area": ""
   },
-  "onlineOrdering": {
+  "onlineOrdering": \{
     "enabled": true,
     "scheduling": false,
     "specialRequests": true,
     "specialRequestsMessage": "No substitutes",
-    "paymentOptions": {
-      "delivery": {
+    "paymentOptions": \{
+      "delivery": \{
         "cash": true,
         "ccSameDay": true,
         "ccFuture": false
       },
-      "takeout": {
+      "takeout": \{
         "cash": true,
         "ccSameDay": true,
         "ccFuture": false,
@@ -275,7 +275,7 @@ The following example shows the JSON response data for a GET request to the `/re
       "ccTip": true
     }
   },
-  "prepTimes": {
+  "prepTimes": \{
     "deliveryPrepTime": 60,
     "deliveryTimeAfterOpen": 0,
     "deliveryTimeBeforeClose": 0,
@@ -284,8 +284,8 @@ The following example shows the JSON response data for a GET request to the `/re
     "takeoutTimeBeforeClose": 0,
     "takeoutThrottlingTime": 0,
     "deliveryThrottlingTime": 0
-  }
-}
+  \}
+\}
 ```
 
 

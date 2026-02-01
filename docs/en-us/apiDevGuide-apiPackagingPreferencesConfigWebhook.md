@@ -63,16 +63,16 @@ data type: string  |
 **Example 9.4. Payload example for the menus_updated event**
 
 ```
-{
+\{
  "timestamp": "2024-12-10T17:47:36.044Z",
  "eventCategory": "packaging",
  "eventType": "packaging_updated",
  "guid": "ae839da8-a506-498e-afb8-ff7d7dbd7231",
- "details": {
-   "packagingConfig": {
+ "details": \{
+   "packagingConfig": \{
      "enabled": true,
      "items": [
-       {
+       \{
          "id": "ccdbcbf8-5c5b-4158-ae61-3a6da8bc847d",
          "itemTypes": [
            "CONDIMENTS",
@@ -81,13 +81,13 @@ data type: string  |
          "guestDisplayName": "Ketchup and mustard",
          "guestInclusionType": "OPT_IN",
          "guestDescription": "Includes ketchup and mustard only."
-       }
+       \}
      ],
 
      "guestMessage": "Choose your packaging preferences to complete your order. "
-   }
- }
-}
+   \}
+ \}
+\}
 
 ```
 

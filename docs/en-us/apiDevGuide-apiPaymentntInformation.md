@@ -18,9 +18,9 @@ codeExamples: 2
 
 ### Getting information about a specific payment
 
-Send a `GET` request to the `/payments/<em>{guid}</em>` endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment` object that contains information about the payment. For information about the values of the `Payment` object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
+Send a `GET` request to the `/payments/<em>\{guid\}</em>` endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment` object that contains information about the payment. For information about the values of the `Payment` object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
 
-The following example **curl** command sends a `GET` request to the `/payments/<em>{guid}</em>` endpoint for a specific payment.
+The following example **curl** command sends a `GET` request to the `/payments/<em>\{guid\}</em>` endpoint for a specific payment.
 
 **Example 3.3. Get information of a specific payment**
 
@@ -49,12 +49,12 @@ curl -X GET \ -H "Authorization: Bearer
 (2) Specify the payment GUID, which you can get from the /payments endpoint of the orders API.
 
   
-The following example shows the JSON response data for a GET request to the `/payments/<em>{guid}</em>`endpoint. The payment method for this sample payment was a credit card.
+The following example shows the JSON response data for a GET request to the `/payments/<em>\{guid\}</em>`endpoint. The payment method for this sample payment was a credit card.
 
 **Example 3.4. Get payment return data**
 
 ```
-{
+\{
   "guid": "361d140a-aa0b-43ad-98d6-516c416555d9",
   "entityType": "OrderPayment",
   "externalId": null,
@@ -64,18 +64,18 @@ The following example shows the JSON response data for a GET request to the `/pa
   "amountTendered": 0,
   "cashDrawer": null,
   "cardType": "VISA",
-  "lastModifiedDevice": {
+  "lastModifiedDevice": \{
     "id": "7c664bbbb33913bd"
-  },
+  \},
   "refundStatus": "NONE",
   "houseAccount": null,
   "type": "CREDIT",
   "voidInfo": null,
   "otherPayment": null,
   "mcaRepaymentAmount": null,
-  "createdDevice": {
+  "createdDevice": \{
     "id": "7c664bbbb33913bd"
-  },
+  \},
   "paidDate": "2020-02-11T16:38:32.774+0000",
   "cardEntryMode": "KEYED",
   "paymentStatus": "CAPTURED",
@@ -84,7 +84,7 @@ The following example shows the JSON response data for a GET request to the `/pa
   "refund": null,
   "orderGuid": "86675d88-b27e-4850-94ab-48662563eae8",
   "checkGuid": "ed4b222f-5259-43fd-8db0-1243a11ed554"
-}
+\}
 ```
 
 
@@ -123,7 +123,7 @@ The following sections provide information about voided and refunded payments.
 
 #### Voided payments
 
-The `/payments/<em>{guid}</em>`endpoint can return data for voided payments. A void is a payment that has been fully or partially voided. Voids can be issued on the entire check or on one or more specific items.
+The `/payments/<em>\{guid\}</em>`endpoint can return data for voided payments. A void is a payment that has been fully or partially voided. Voids can be issued on the entire check or on one or more specific items.
 
 With one exception, any payment can be voided. The exception is a credit card payment that has been captured (the payment cannot be voided but can be refunded).
 
@@ -134,7 +134,7 @@ The following example shows the JSON response data for a voided cash payment.
 **Example 3.5. Example of a voided cash payment**
 
 ```
-{
+\{
   "guid": "2f20387c-2b39-4c67-8898-b3faccb3ce06",
   "entityType": "OrderPayment",
   "externalId": null,
@@ -142,45 +142,45 @@ The following example shows the JSON response data for a voided cash payment.
   "amount": 42.8,
   "tipAmount": 0,
   "amountTendered": 42.8,
-  "cashDrawer": {
+  "cashDrawer": \{
     "guid": "30795302-5fc9-461c-b314-ac8ea6e55cd5",
     "entityType": "CashDrawer",
     "externalId": null
   },
   "cardType": null,
-  "lastModifiedDevice": {
+  "lastModifiedDevice": \{
     "id": "7c664bbbb33913bd"
   },
   "refundStatus": "NONE",
   "houseAccount": null,
   "type": "CASH",
-  "voidInfo": {
-    "voidUser": {
+  "voidInfo": \{
+    "voidUser": \{
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "voidApprover": {
+    "voidApprover": \{
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
-    },
+    \},
     "voidDate": "2020-02-18T19:24:56.311+0000",
     "voidBusinessDate": 20200218,
     "voidReason": null 
   },
   "otherPayment": null,
   "mcaRepaymentAmount": null,
-  "createdDevice": {
+  "createdDevice": \{
     "id": "7c664bbbb33913bd"
-  },
+  \},
   "paidDate": "2020-02-18T18:10:28.187+0000",
   "cardEntryMode": null,
   "paymentStatus": "VOIDED",
   "paidBusinessDate": 20200218, 
   "last4Digits": null, 
   "refund": null
-}
+\}
 ```
 
 
@@ -204,7 +204,7 @@ The following example shows the JSON response data for a voided cash payment.
   
 #### Refunded payments
 
-The `/payments/<em>{guid}</em>`endpoint can return data for refunded payments. A refund is a credit card payment that has been fully reversed after it was captured. Refunds cannot be issued on specific items, but instead can only be issued on the entire check.
+The `/payments/<em>\{guid\}</em>`endpoint can return data for refunded payments. A refund is a credit card payment that has been fully reversed after it was captured. Refunds cannot be issued on specific items, but instead can only be issued on the entire check.
 
 In the return data for a refunded payment, the `Payment` object includes a `Refund` object with details of the refund operation.
 
@@ -213,7 +213,7 @@ The following example shows the JSON response data for a refunded credit card pa
 **Example 3.6. Example of a refunded payment**
 
 ```
-{
+\{
   "guid": "3e95fde2-da0f-4057-b91c-840b43e637c5",
   "entityType": "OrderPayment",
   "externalId": null,
@@ -223,30 +223,30 @@ The following example shows the JSON response data for a refunded credit card pa
   "amountTendered": 6.36,
   "cashDrawer": null,
   "cardType": "VISA",
-  "lastModifiedDevice": {
+  "lastModifiedDevice": \{
     "id": null
-  },
+  \},
   "refundStatus": "FULL",
   "houseAccount": null,
   "type": "CREDIT",
   "voidInfo": null,
   "otherPayment": null,
   "mcaRepaymentAmount": null,
-  "createdDevice": {
+  "createdDevice": \{
     "id": null
-  },
+  \},
   "paidDate": "2020-02-19T19:47:51.206+0000",
   "cardEntryMode": "ONLINE",
   "paymentStatus": "CAPTURED",
   "paidBusinessDate": 20200219,
   "last4Digits": "1111",
-  "refund": {
+  "refund": \{
     "refundAmount": 6.36,
     "tipRefundAmount": 0.0,
     "refundDate": "2020-02-19T19:48:31.828+0000",
     "refundBusinessDate": 20200219
-  }
-}
+  \}
+\}
 ```
 
 

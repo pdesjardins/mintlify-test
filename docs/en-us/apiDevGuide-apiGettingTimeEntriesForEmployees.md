@@ -67,7 +67,7 @@ The following example shows a time entry for an employee.
 
 ```
 [
-  {
+  \{
     "guid": "26ac616b-b0d2-4d4e-b89b-62291be33d80",
     "entityType": null,
     "externalId": null,
@@ -75,8 +75,8 @@ The following example shows a time entry for an employee.
     "outDate": "2018-11-15T19:17:34.653+0000",
     "overtimeHours": 0,
     "breaks": [
-      {
-        "breakType": {
+      \{
+        "breakType": \{
           "guid": "8ed442b0-ca52-416d-8976-f941184eba15",
           "entityType": "BreakType"
         },
@@ -86,8 +86,8 @@ The following example shows a time entry for an employee.
         "missed": false,
         "auditResponse": true
       },
-      {
-        "breakType": {
+      \{
+        "breakType": \{
           "guid": "8ed442b0-ca52-416d-8976-f941184eba15",
           "entityType": "BreakType"
         },
@@ -98,20 +98,20 @@ The following example shows a time entry for an employee.
         "auditResponse": true
       }
     ],
-    "employeeReference": {
+    "employeeReference": \{
       "guid": "a0c9070e-fffd-4e97-b3ea-fc356fbf9224",
       "entityType": "RestaurantUser",
       "externalId": null
-    },
+    \},
     "shiftReference": "56387b8e-78df-47a4-9395-e5e1cb3f04d1",
     "nonCashGratuityServiceCharges": 0,
     "inDate": "2018-11-15T14:14:46.894+0000",
     "regularHours": 5.046599722222222,
-    "jobReference": {
+    "jobReference": \{
       "guid": "8b623183-7d6f-4f7c-babb-e74fe722ad30",
       "entityType": "RestaurantJob",
       "externalId": null
-    },
+    \},
     "tipsWithheld": 0,
     "businessDate": "20181115",
     "cashGratuityServiceCharges": 12.95,
@@ -123,7 +123,7 @@ The following example shows a time entry for an employee.
     "nonCashTips": 0,
     "modifiedDate": "2018-11-15T19:17:35.801+0000",
     "declaredCashTips": 30
-  }
+  \}
 ]
 ```
 

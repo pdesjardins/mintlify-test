@@ -137,7 +137,7 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
 **Example 1.10. ErrorMessage object**
 
 ```
-{
+\{
   "status": 400,
   "code": 10025,
   "message": "Payment amount cannot be empty",
@@ -148,7 +148,7 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
   "developerMessage": null,
   "errors": [],
   "canRetry": null
-}
+\}
 ```
 
   

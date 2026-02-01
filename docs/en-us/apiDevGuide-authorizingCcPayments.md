@@ -48,14 +48,14 @@ The following procedure provides an overview of the process to authorize and app
 
 2. Generate a UUID unique identifier for the credit card payment.
 
-The payment UUID is a path parameter for a `PUT` request to the `/merchants/{merchantUuid}/payments/{paymentUuid}`resource.
+The payment UUID is a path parameter for a `PUT` request to the `/merchants/\{merchantUuid}/payments/\{paymentUuid\}`resource.
 
 You use the payment UUID to apply the authorized credit card payment to an order.
 
 To generate the payment UUID, you must use the algorithm described in [version four of the UUID standard](https://tools.ietf.org/html/rfc4122#section-4.4).
 
 
-3. Submit a `PUT` request to the `/merchants/{merchantUuid}/payments/{paymentUuid}` resource of the credit cards API.
+3. Submit a `PUT` request to the `/merchants/\{merchantUuid}/payments/\{paymentUuid\}` resource of the credit cards API.
 
 In the message body of the request, include the total price for all checks and encrypted credit card information. For more information, see [Authorizing a credit card payment](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
 
@@ -74,7 +74,7 @@ For a list of common reasons for card denial, see [Card declined message referen
 
 #### Authorizing a credit card payment
 
-To authorize a credit card payment for a check, you send a `PUT` request to the `/merchants/{merchantUuid}/payments/{paymentUuid}` resource of the credit cards API.
+To authorize a credit card payment for a check, you send a `PUT` request to the `/merchants/\{merchantUuid}/payments/\{paymentUuid\}` resource of the credit cards API.
 
 The credit cards API verifies that the credit card account has sufficient funds available and places a hold on the account for the amount of the payment.
 
@@ -106,7 +106,7 @@ The following example shows the JSON message body to `PUT` a credit card payment
 **Example 3.7. Authorization request message body**
 
 ```
-{
+\{
   "encryptedCardData": "FBRdBx38xrQ8UUQTAVUI3mLddkqtuxX6huPOsI
 1WKVS97ffQITY2yToeJU0e16aRo6ehZZxBO6YU0DKUOXiX8Kww1jXE3Rn5J8Do
 8n3wSeLV3Qomn0VvAd+5YT8bUijVs0aRUy3u34DpYwMkon0WMkq8BNGQWk3Whd
@@ -118,15 +118,15 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
   "tipAmount": 24.69,
   "willSaveCard": true,
   "cardNumberOrigin": "PARTNER_VAULT",
-  "requestMetadata": {
+  "requestMetadata": \{
     "localTransactionDate": "2019-08-24T22:00:00.000+0000",
     "originIPAddr": "189.219.91.62",
-    "partnerServiceInfo": {
+    "partnerServiceInfo": \{
       "instanceId": "my-api-client"
-    },
+    \},
     "cardFirst6": "411111",
     "cardLast4": "1111",
-    "billingAddress": {
+    "billingAddress": \{
         "name": "Clark Kent",
         "phone": "555-555-5555",
         "address1": "123 Main Street",
@@ -136,7 +136,7 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
         "postalCode": 02215,
         "country": "USA"
     },
-    "deliveryAddress": {
+    "deliveryAddress": \{
         "name": "Lois Lane",
         "phone": "111-555-5555",
         "address1": "789 Grand Avenue",
@@ -145,14 +145,14 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
         "region": "NY",
         "postalCode": 10001,
         "country": "USA"
-    },
+    \},
     "guestIdentifier": "toastyguest@domain.com",(14)
     "guestEmail": "toastyguest@domain.com",
     "userAgent": "Browser/1.0",
     "appName": "Our Company's Amazing Android App",
     "appVersion": "4.2"
-  }
-}
+  \}
+\}
 ```
 
 
@@ -311,29 +311,29 @@ The following example shows the JSON message body data that applies an authorize
 **Example 3.8. Example of applying an authorized credit card payment to a check**
 
 ```
-{
+\{
   "entityType": "Order",
 
     [contents omitted]
 
   "checks": [
-    {
+    \{
       "entityType": "Check",
 
         [contents omitted]
 
       "payments": [
-        {
+        \{
           "guid": "78700301-55B6-4C0F-8C69-69E8D3593850",
           "paidDate": "2018-01-24T22:00:00.000+0000",
           "type": "CREDIT",
           "amount": "98.76",
           "tipAmount": "24.69"
-        }
+        \}
       ]
-    }
+    \}
   ]
-}
+\}
 
 ```
 
@@ -370,14 +370,14 @@ The following example shows credit card information that you encrypt and base64 
 **Example 3.9. Example credit card information for an encryptedCardData value**
 
 ```
-{
+\{
   "cardNumber" : "4111111111111111",
   "zipCode" : "01234",
   "cvv" : "321",
   "expMonth" : "01",
   "expYear" : "20",
   "country" : "USA"
-}
+\}
 ```
 
 
@@ -400,7 +400,7 @@ The following example shows the base64-encoded and encrypted credit card informa
 **Example 3.10. Base64-encoded and encrypted credit card information in the `encryptedCardData` value**
 
 ```
-{
+\{
   "encryptedCardData": "yu3BmKwL65F3UVOrsQEZxhrSyN//QkwIhEjgAFVYV
     nl28IyQ+bHIdez1bcU0CSuljngjkQHGTAjQumBpSfqqDd61bKQw/drHJAWR10
     bIZU/q0iLHPf3bvt6h1rA0ViN0byr+zkFDo5tosGGf9VeJz6Dd5OMNunbgViO
@@ -412,14 +412,14 @@ The following example shows the base64-encoded and encrypted credit card informa
   "cardNumberOrigin": "END_USER",
   "amount": 100.00,
   "tipAmount": 25.00,
-  "requestMetadata": {
+  "requestMetadata": \{
     "localTransactionDate": "2019-03-11T17:32:00.000+0000",
     "originIPAddr": "123.456.78.90",
-    "partnerServiceInfo": {
+    "partnerServiceInfo": \{
       "instanceId": "myClient"
-    }
-  }
-}
+    \}
+  \}
+\}
 ```
 
   

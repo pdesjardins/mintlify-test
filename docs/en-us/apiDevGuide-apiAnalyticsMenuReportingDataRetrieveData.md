@@ -17,11 +17,11 @@ codeExamples: 0
 
 ### Retrieving the menu reporting data
 
-Send a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint to retrieve menu reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `GET` request to the `/era/v1/menu/\{reportRequestGuid\}` endpoint to retrieve menu reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 #### Request to retrieve menu reporting data
 
-The following example **curl** command sends a `GET` request to `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to `/era/v1/menu/\{reportRequestGuid\}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/
@@ -39,11 +39,11 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 #### Response to the retrieval request for menu reporting data
 
-The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/menu/\{reportRequestGuid\}` endpoint.
 
 ```
 [
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
@@ -61,7 +61,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
        "modifierGuid": "025d8278-edc3-409a-a16e-c082ccd9e5a5",
        "modifierName": "Soup de Jour"
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
@@ -79,7 +79,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
        "modifierGuid": "d1a45259-de30-48fc-950b-7ff2b3a31c75",
        "modifierName": "Chocolate Chip"
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
@@ -97,7 +97,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
        "modifierGuid": "ab57a7ca-b6b4-435f-be49-e86ba8215253",
        "modifierName": "Decaf"
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
@@ -116,7 +116,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
        "modifierName": "Vegetarian"
    },
    [content omitted]
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
@@ -134,7 +134,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
        "modifierGuid": "0580b349-d885-45bb-9097-197fe5f9eb40",
        "modifierName": "Blueberry"
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "restaurantName": "Grove Place Cafe",
        "restaurantLocationName": null,
@@ -151,7 +151,7 @@ The following example shows the response from the `/era/v1/menu/{reportRequestGu
        "wasteAmount": 0.0,
        "modifierGuid": "3c0b4332-cd0e-4fd5-ae7f-30e1480c46b7",
        "modifierName": "Croissant"
-   },
+   \},
    [content omitted]
 ]
 

@@ -17,33 +17,33 @@ codeExamples: 1
 
 ### Online ordering configuration
 
-The return data from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API includes an `OnlineOrdering` object with the configuration for the restaurant's Toast Online Ordering service. If the restaurant has the Toast Online Ordering feature, restaurant employees configure these settings on the Takeout & delivery \> Toast online ordering \> Toast Online Ordering page in the Toast Web.
+The return data from a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API includes an `OnlineOrdering` object with the configuration for the restaurant's Toast Online Ordering service. If the restaurant has the Toast Online Ordering feature, restaurant employees configure these settings on the Takeout & delivery \> Toast online ordering \> Toast Online Ordering page in the Toast Web.
 
-The following example shows the online ordering configuration values in the return data from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
+The following example shows the online ordering configuration values in the return data from a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API.
 
 **Example 6.5. Online ordering configuration in the restaurants API**
 
 ```
-  "onlineOrdering": {
+  "onlineOrdering": \{
     "enabled": true,
     "scheduling": true,
     "specialRequests": true,
     "specialRequestsMessage": "No substitutes. Additions may be charged extra.",
-    "paymentOptions": {
-      "delivery": {
+    "paymentOptions": \{
+      "delivery": \{
         "cash": true,
         "ccSameDay": true,
         "ccFuture": true
       },
-      "takeout": {
+      "takeout": \{
         "cash": true,
         "ccSameDay": true,
         "ccFuture": true,
         "ccInStore": true
-      },
+      \},
       "ccTip": true
-    }
-  }
+    \}
+  \}
 ```
 
 

@@ -59,34 +59,34 @@ The following example shows the response from the `/era/v1/restaurants-informati
 
 ```
 [
-    {
+    \{
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe"
         "active": true,
         "testMode": false,
         "archived": false
     },
-    {
+    \{
         "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
         "restaurantName": "Summer Street Cafe"
         "active": true,
         "testMode": false,
         "archived": false
     },
-    {
+    \{
         "restaurantGuid": "b6108638-ed33-4a26-b78d-37a9ae68f71f",
         "restaurantName": "Third Street Cafe"
         "active": false,
         "testMode": true,
         "archived": false
     },
-    {
+    \{
         "restaurantGuid": "43211888-2860-46c7-a8c8-32ba462e1280",
         "restaurantName": "West End Cafe"
         "active": true,
         "testMode": false,
         "archived": false
-    }
+    \}
 ]
 
 ```

@@ -87,20 +87,20 @@ data type:string |
 **Example 9.1. Payload example for a guestOrderStatusUpdated event**
 
 ```
-{
+\{
   "timestamp": "2023-11-09T18:06:59.394Z",
   "eventCategory": "guest_order_status",
   "eventType": "guestOrderStatusUpdated",
   "guid": "796818ae-9687-44ba-9a93-949d5a2361f3",
-  "details": {
+  "details": \{
     "eventGuid": "9cdcc8d4-87d7-481e-8d31-d0916c47b575",
     "orderGuid": "465cd280-6890-41f5-8576-c7619634c56f",
     "restaurantGuid": "f9b71aec-d452-4b35-927e-5e473161f10d",
     "guestOrderStatus": "READY_FOR_PICKUP",
     "lastUpdated": "2023-11-09T18:06:59.383Z",
     "version": null
-  }
-}
+  \}
+\}
 ```
 
   

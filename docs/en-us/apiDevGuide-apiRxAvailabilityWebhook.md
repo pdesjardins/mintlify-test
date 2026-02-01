@@ -146,18 +146,18 @@ The restaurant is online and can accept orders. Attributes in the `availability_
 **Example 9.8. Payload for an availability_online event when a restaurant is online and approving orders**
 
 ```
-{
+\{
   "timestamp": "2021-08-23T16:40:00.063Z",
   "eventCategory": "restaurant_availability",
   "eventType": "availability_online",
   "guid": "bf12cb0a-173a-4e66-bd3c-8121d4a5287f",
-  "details": {
+  "details": \{
     "restaurantGuid": "27d35c6a-7068-49f7-bee0-25e654e1227a",
     "status": "ONLINE",
     "reasonKey": "AVAILABILITY_ONLINE",
     "reason": "Restaurant is approving online orders"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -176,18 +176,18 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
 **Example 9.9. Payload for an availability_offline event when a restaurant is offline and not approving orders**
 
 ```
-{
+\{
   "timestamp": "2021-08-23T16:40:00.063Z",
   "eventCategory": "restaurant_availability",
   "eventType": "availability_offline",
   "guid": "bf12cb0a-173a-4e66-bd3c-8121d4a5287f",
-  "details": {
+  "details": \{
     "restaurantGuid": "27d35c6a-7068-49f7-bee0-25e654e1227a",
     "status": "OFFLINE",
     "reasonKey": "AVAILABILITY_OFFLINE",
     "reason": "Restaurant cannot accept online orders"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -230,18 +230,18 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
 **Example 9.10. Payload for a toggle_availability_online event when a restaurant is online and has turned on online ordering**
 
 ```
-{
+\{
   "timestamp": "2021-08-23T16:40:00.063Z",
   "eventCategory": "restaurant_availability_toggle",
   "eventType": "toggle_availability_online",
   "guid": "bf12cb0a-173a-4e66-bd3c-8121d4a5287f",
-  "details": {
+  "details": \{
     "restaurantGuid": "27d35c6a-7068-49f7-bee0-25e654e1227a",
     "status": "ONLINE",
     "reasonKey": "TOGGLE_ENABLED",
     "reason": "User enabled integration"
-  }
-}
+  \}
+\}
 ```
 
   
@@ -259,18 +259,18 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
 **Example 9.11. Payload for a toggle_availability_offline event when a restaurant is offline and has turned off online ordering**
 
 ```
-{
+\{
   "timestamp": "2021-08-23T16:40:00.063Z",
   "eventCategory": "restaurant_availability_toggle",
   "eventType": "toggle_availability_offline",
   "guid": "bf12cb0a-173a-4e66-bd3c-8121d4a5287f",
-  "details": {
+  "details": \{
     "restaurantGuid": "27d35c6a-7068-49f7-bee0-25e654e1227a",
     "status": "OFFLINE",
     "reasonKey": "TOGGLE_DISABLED",
     "reason": "User disabled integration"
-  }
-}
+  \}
+\}
 ```
 
   

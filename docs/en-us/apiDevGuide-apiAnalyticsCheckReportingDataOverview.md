@@ -21,10 +21,10 @@ Check reporting data includes detailed check information for all orders created 
 
 Retrieving the check reporting data is a two-step process. You must:
 
-1. Send a `POST` request to `/era/v1/check/{timeRange}` endpoint to create a request for check reporting data for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API currently only supports retrieving check reporting data for the `day` time range. For more information, see [Creating a request for check reporting data](apiAnalyticsCheckReportingDataCreateRequest.html).
+1. Send a `POST` request to `/era/v1/check/\{timeRange\}` endpoint to create a request for check reporting data for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API currently only supports retrieving check reporting data for the `day` time range. For more information, see [Creating a request for check reporting data](apiAnalyticsCheckReportingDataCreateRequest.html).
 
 
-2. Send a `GET` request to `/era/v1/check/{reportRequestGuid}` endpoint to retrieve the check reporting data. For more information, see [Retrieving the check reporting data](apiAnalyticsCheckReportingDataRetrieveData.html).
+2. Send a `GET` request to `/era/v1/check/\{reportRequestGuid\}` endpoint to retrieve the check reporting data. For more information, see [Retrieving the check reporting data](apiAnalyticsCheckReportingDataRetrieveData.html).
 
 
 

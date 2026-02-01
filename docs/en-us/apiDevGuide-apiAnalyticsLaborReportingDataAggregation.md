@@ -17,7 +17,7 @@ codeExamples: 1
 
 ### Aggregating the labor reporting data
 
-The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the `groupBy` value in the message body of the `/era/v1/labor/{timeRange}` request to create these subsections. Use `EMPLOYEE` to group the labor reporting data by employee and `JOB` to group by job.
+The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the `groupBy` value in the message body of the `/era/v1/labor/\{timeRange\}` request to create these subsections. Use `EMPLOYEE` to group the labor reporting data by employee and `JOB` to group by job.
 
 
 
@@ -29,12 +29,12 @@ The default way to view the labor reporting data is by day for each location. Yo
 The following example shows the message body for a `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
 
 ```
-{
+\{
   “startBusinessDate”: “20230203”,
   “endBusinessDate”: “20230209”,
   “restaurantIds”: [],
   “groupBy”:  [“EMPLOYEE”]
-}
+\}
 
 ```
 
@@ -133,7 +133,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
 
 
-(1) Send a POST request to the /era/v1/labor/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
+(1) Send a POST request to the /era/v1/labor/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is week.
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
@@ -146,13 +146,13 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 The following example shows the message body for the `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
 
 ```
-{
+\{
   "startBusinessDate": "20230203",
   "endBusinessDate": "20230205",
   "restaurantIds": [],
   "excludedRestaurantIds": [],
   "groupBy": ["EMPLOYEE"]
-}
+\}
 
 ```
 
@@ -189,7 +189,7 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 ##### Request to retrieve the labor reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
@@ -207,11 +207,11 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 ##### Response to the retrieval request for labor reporting data
 
-The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 
 ```
 [
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230204,
        [content omitted]
@@ -226,7 +226,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230204,
        [content omitted]
@@ -242,7 +242,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationCode": ""
    },
    [content omitted]
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        [content omitted]
@@ -257,7 +257,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
        "businessDate": 20230203,
        [content omitted]
@@ -273,7 +273,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationCode": ""
    },
    [content omitted]   
-   {
+   \{
        "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
        "businessDate": 20230203,
        [content omitted]
@@ -288,7 +288,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    },
-   {
+   \{
        "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
        "businessDate": 20230203,
        [content omitted]
@@ -304,7 +304,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationCode": ""
    },
    [content omitted]
-   {
+   \{
        "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
        "businessDate": 20230204,
        [content omitted]
@@ -319,7 +319,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
    }
-   {
+   \{
        "restaurantGuid": "b6bae410-1316-4d3b-b01f-47a758811db2",
        "businessDate": 20230204,
        [content omitted]
@@ -333,7 +333,7 @@ The following example shows the response from the `/era/v1/labor/{reportRequestG
        "restaurantName": "Summer Street Cafe",
        "restaurantLocationName": null,
        "restaurantLocationCode": ""
-   },
+   \},
    [content omitted]
 ]
 

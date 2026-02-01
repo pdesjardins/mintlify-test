@@ -81,43 +81,43 @@ To get the GUID identifiers for modifier groups, modifiers, and pre-modifiers, u
 The following example message body for an order shows a modifier and a pre-modifier for a menu item selection.
 
 ```
-{
+\{
   "entityType": "Order",
 
     [contents omitted]
 
   "checks": [
-    {
+    \{
       [contents omitted]
       "selections": [
-        {
-          "itemGroup": {
+        \{
+          "itemGroup": \{
             "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3",
           },
-          "item": {
+          "item": \{
             "guid": "28dc4d65-e84b-44f0-8b73-0a721d5a9b88"
           },
           "quantity": 1,
           "modifiers": [
-            {
-              "optionGroup": {
+            \{
+              "optionGroup": \{
                 "guid": "d0bf5394-adff-428d-8a6b-bcb848c8b16d"
               },
-              "item": {
+              "item": \{
                 "guid": "ed4d3bfc-ad0c-46e7-afdf-1fb48ff91edd"
               },
               "quantity": 1,
-              "preModifier": {
+              "preModifier": \{
                 "guid": "6311f315-3df8-48ed-bbc3-bd924cb90d55"
-              },
+              \},
               "modifiers": []
-            }
+            \}
           ]
-        }
+        \}
       ]
-    }
+    \}
   ]
-}
+\}
 
 ```
 
@@ -152,49 +152,49 @@ The orders API rejects orders that have mismatching menu item selection and modi
 The following excerpt from an `Order` object shows a menu item selection for five slices of Key Lime Pie. The Whipped Cream modifier is added to all of the slices.
 
 ```
-{
+\{
   "entityType": "Order",
       [contents omitted]
 "checks": [
-    {
+    \{
       "entityType": "Check",
       "selections": [
-        {
+        \{
           "guid": "f3c11a7a-91c6-4691-8a9f-c0b7a2c64266",
           "entityType": "MenuItemSelection",
           "displayName": "Key Lime Pie",
-          "itemGroup": {
+          "itemGroup": \{
             "guid": "c9f51ce7-d8cb-4cdb-bbd5-42c9a5f4a9df",
             "entityType": "MenuGroup"
           },
-          "item": {
+          "item": \{
             "guid": "944f6176-0b3d-432c-ab03-5665a5ab3c5c", 
             "entityType": "MenuItem"
-          },
+          \},
           "quantity": 5.0, 
           "modifiers": [ 
-            { 
+            \{ 
               "guid": "9d5616d0-f697-48bc-9f15-bcbca6bfb495",
               "entityType": "MenuItemSelection",
-              "optionGroup": {
+              "optionGroup": \{
                 "guid": "7d1bdd86-0c3e-48c5-936c-c28a6ff48345",
                 "entityType": "MenuOptionGroup",
                 "externalId": null
               },
               "displayName": "Whipped Cream",
-              "item": {
+              "item": \{
                 "guid": "b2755b69-2c99-4214-b74e-6b6a1467501f",
                 "entityType": "MenuItem",
                 "externalId": null
-              },
+              \},
               "quantity": 5.0 
-            }
+            \}
           ]
-        }
+        \}
       ]
-    }
+    \}
   ]
-}
+\}
 ```
 
 
@@ -251,59 +251,59 @@ The example below shows the correct modifier structure for an orders API POST re
 
 ```
 
-{
+\{
   "entityType": "Order",
-  "diningOption": {
+  "diningOption": \{
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
   "checks": [
-    {
+    \{
       "entityType": "Check",
       "selections": [
-        {
+        \{
           "entityType": "MenuItemSelection",
-          "itemGroup": {
+          "itemGroup": \{
             "guid": "8b4f2555-8482-406f-a1dd-82c5afd718a8",
             "entityType": "MenuGroup"
           },
-          "item": {
+          "item": \{
             "entityType": "MenuItem",
             "guid": "96edc6ab-3992-4665-a3d0-c5a9fffd81b7"
           },
           "quantity": 1,
           "modifiers": [
-            {
-              "optionGroup": {
+            \{
+              "optionGroup": \{
                 "guid": "a83a38b2-178a-4b31-b45f-e011f00faf6f" 
               },
-              "itemGroup": {
+              "itemGroup": \{
                 "guid": "8b4f2555-8482-406f-a1dd-82c5afd718a8",
                 "entityType": "MenuGroup"
               },
-              "item": {
+              "item": \{
                 "guid": "70afec63-1919-4fe1-8c2d-3dfaa232c406"
               },
               "quantity": 1,
               "modifiers": [
-                {
-                  "optionGroup": {
+                \{
+                  "optionGroup": \{
                     "guid": "6c677a8a-a858-43fd-b7f0-a404310c0e12"
                   },
-                  "item": {
+                  "item": \{
                     "guid": "d6ecdcb2-3a9f-4dcf-8034-900e34306271"
-                  },
+                  \},
                   "quantity": 1,
                   "modifiers": []
-                }
+                \}
               ]
-            }
+            \}
           ]
-        }
+        \}
       ]
-    }
+    \}
   ]
-}
+\}
 
 ```
 
@@ -324,63 +324,63 @@ You can add the same modifier to a menu item selection multiple times, as long a
 The following JSON body example adds whipped cream twice to a slice of cherry pie in an order:
 
 ```
-{
+\{
   "entityType": "Order",
    ...
 
 "checks": [
-    {
+    \{
       "entityType": "Check",
       "selections": [
-        {
+        \{
           "guid": "0d167434-07a8-444e-adeb-864eacbfe35f",
           "entityType": "MenuItemSelection",
           "displayName": "Cherry Pie",
-          "itemGroup": {
+          "itemGroup": \{
             "guid": "c9f51ce7-d8cb-4cdb-bbd5-42c9a5f4a9df",
             "entityType": "MenuGroup"
           },
-          "item": {
+          "item": \{
             "guid": "78727790-fcaa-4acd-adcd-7e12d5e67823", 
             "entityType": "MenuItem"
-          },
+          \},
           "quantity": 1.0, 
           "modifiers": [ 
-            { 
+            \{ 
               "guid": "29122a58-8c1f-4325-be79-0134641dce02",
               "entityType": "MenuItemSelection",
-              "optionGroup": {
+              "optionGroup": \{
                 "guid": "e957363b-b398-46be-a4e9-0f9fdb8edaf3",
                 "entityType": "MenuOptionGroup",
                 "externalId": null
               },
               "displayName": "Whipped Cream",
-              "item": {
+              "item": \{
                 "guid": "b2755b69-2c99-4214-b74e-6b6a1467501f",
                 "entityType": "MenuItem"
-              },
+              \},
               "quantity": 1.0 
             },
-            { 
+            \{ 
               "guid": "29122a58-8c1f-4325-be79-0134641dce02",
               "entityType": "MenuItemSelection",
-              "optionGroup": {
+              "optionGroup": \{
                 "guid": "e957363b-b398-46be-a4e9-0f9fdb8edaf3",
                 "entityType": "MenuOptionGroup"
               },
               "displayName": "Whipped Cream",
-              "item": {
+              "item": \{
                 "guid": "b2755b69-2c99-4214-b74e-6b6a1467501f",
                 "entityType": "MenuItem"
-              },
+              \},
               "quantity": 1.0
-            }
+            \}
           ]
-        }
+        \}
       ]
-    }
+    \}
   ]
-}
+\}
 ```
 
 
@@ -426,68 +426,68 @@ To retrieve the GUIDs for the portions, use the [menus API](https://doc.toasttab
 The following example order JSON applies modifiers to portions of a menu item selection.
 
 ```
-{
+\{
   "entityType": "Order",
-  "diningOption": {
+  "diningOption": \{
     [contents omitted]
   },
   "checks": [
-    {
-      "customer": {
+    \{
+      "customer": \{
           [contents omitted]
       },
       "selections": [
-        {
-          "itemGroup": {
+        \{
+          "itemGroup": \{
             "guid": "9a861b29-58ee-4c1c-9e23-9cac3a1132d4",
           },
-          "item": {
+          "item": \{
             "guid": "025006c3-acdc-4d09-be94-faffde4ce3b7"
-          },
+          \},
           "quantity": 1,
           "modifiers": [
-            {
-              "item": {
+            \{
+              "item": \{
                 "guid": "1e12608c-0875-4951-8570-cbc52e1180e6",
-              },
+              \},
               "quantity": 1,
               "selectionType": "PORTION",
               "modifiers": [
-                {
-                  "optionGroup": {
+                \{
+                  "optionGroup": \{
                     "guid": "669c7b5e-d0d8-49ef-af2d-f71ff3aa4ef3",
                   },
-                  "item": {
+                  "item": \{
                     "guid": "10e66af7-85aa-4865-9ad0-bcf9d95f44c4",
                   },
                   "quantity": 1
                 }
               ]
             },
-            {
-              "item": {
+            \{
+              "item": \{
                 "guid": "5f1257ac-00a1-43d1-8ad5-c9649629f651",
-              },
+              \},
               "quantity": 1,
               "selectionType": "PORTION",
               "modifiers": [
-                {
-                  "optionGroup": {
+                \{
+                  "optionGroup": \{
                     "guid": "669c7b5e-d0d8-49ef-af2d-f71ff3aa4ef3",
-                  "item": {
+                  "item": \{
                     "guid": "4ca5f20e-2330-4a20-88dd-882dfdb8193f"
-                  },
+                  \},
                   "quantity": 1
-                  }
-                }
+                  \}
+                \}
               ]
-            }
+            \}
           ]
-        }
+        \}
       ]
-    }
+    \}
   ]
-}
+\}
 ```
 
 
@@ -545,29 +545,29 @@ In the object for the special request:
 The following example JSON message body for a `POST` request to the orders API includes a special request for a menu item selection.
 
 ```
-{
+\{
   "entityType": "Order",
       [contents omitted]
   },
   "checks": [
-    {
+    \{
       "selections": [
-        {
+        \{
             [contents omitted]
-          "item": {
+          "item": \{
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
-          },
+          \},
           "modifiers": [
-            {
+            \{
               "selectionType": "SPECIAL_REQUEST"
               "displayName": "Put the salad dressing on the side, not mixed in.",
-            }
+            \}
           ]
-        }
+        \}
       ]
     [contents omitted]
   ]
-}
+\}
 ```
 
 

@@ -69,11 +69,11 @@ For example, a restaurant is open from 11:00 AM to 9:00 PM. However, they only t
 
 #### Retrieving the configured preparation time and hours of operation
 
-To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
+To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API.
 
 ##### Takeout and delivery quote and throttling times
 
-In the response to the `GET` request to the `/restaurants/{restaurantGUID}/` endpoint, the `prepTimes` object contains the current quote time and throttling time configurations.
+In the response to the `GET` request to the `/restaurants/\{restaurantGUID\}/` endpoint, the `prepTimes` object contains the current quote time and throttling time configurations.
 
 - The `deliveryPrepTime` and `takeoutPrepTime` values contain the delivery and takeout quote times.
 
@@ -82,12 +82,12 @@ In the response to the `GET` request to the `/restaurants/{restaurantGUID}/` end
 
 
 
-The following example shows the `prepTimes` object from the response from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
+The following example shows the `prepTimes` object from the response from a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API.
 
 **Example 2.5. Example takeout and delivery preparation and throttling time configuration from the restaurants API**
 
 ```
-  "prepTimes": {
+  "prepTimes": \{
     "deliveryPrepTime": 60,
     "deliveryThrottlingTime": 0,
     "takeoutPrepTime": 30,
@@ -96,7 +96,7 @@ The following example shows the `prepTimes` object from the response from a `GET
     "deliveryTimeBeforeClose": 0,
     "takeoutTimeAfterOpen": 0,
     "takeoutTimeBeforeClose": 0
-  }
+  \}
 ```
 
 
@@ -114,16 +114,16 @@ The following example shows the `prepTimes` object from the response from a `GET
   
 ##### Restaurant opening and closing times
 
-In the response to the `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API, the `schedules` value contains information about when the restaurant is open for business.
+In the response to the `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API, the `schedules` value contains information about when the restaurant is open for business.
 
 The following example shows the `schedules` value with the opening and closing time values.
 
 **Example 2.6. Example of daily opening and closing times in the response from the restaurants API**
 
 ```
-"schedules": {
-  "daySchedules": {
-    "1495000000000023": {
+"schedules": \{
+  "daySchedules": \{
+    "1495000000000023": \{
       "scheduleName": "Weekdays",
       "services": [
         
@@ -132,7 +132,7 @@ The following example shows the `schedules` value with the opening and closing t
       "openTime": "06:00:00.000",
       "closeTime": "02:00:00.000"
     },
-    "1495000000000024": {
+    "1495000000000024": \{
       "scheduleName": "Weekends",
       "services": [
         
@@ -143,7 +143,7 @@ The following example shows the `schedules` value with the opening and closing t
       "closeTime": "05:00:00.000"
     }
   },
-  "weekSchedule": {
+  "weekSchedule": \{
     "monday": "1495000000000023",
     "tuesday": "1495000000000023",
     "wednesday": "1495000000000023",
@@ -151,8 +151,8 @@ The following example shows the `schedules` value with the opening and closing t
     "friday": "1495000000000023",
     "saturday": "1495000000000024",
     "sunday": "1495000000000024"
-  }
-}
+  \}
+\}
 ```
 
 
