@@ -10,7 +10,7 @@ previousSectionTitle: "Refreshing authentication tokens"
 nextSectionFile: apiDevGuide-generalToastApiInformationOmitChunkFromSearchIndex.md
 nextSectionTitle: "General Toast API information"
 excerpt: "Your Toast API client must reuse authentication tokens for as long as possible before getting a new token from the Toast authentication API. Authentication tokens are typically valid for one day..."
-keywords: ["expires_in", ""expires_in": 3599"]
+keywords: ["expires_in", "\"expires_in\": 3599"]
 procedures: 0
 codeExamples: 0
 ---
