@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Payout reporting data by settled date
-
 Retrieving the payout reporting data by settled date is a two-step process. You must:
 
 1. Send a `POST` request to the `/era/v1/payout/\{timeRange\}` endpoint to create a request for payout reporting data organized by settled date for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API supports retrieving payout reporting data for the day, week, and month time ranges. For more information, see [Creating a request for payout reporting data by settled date](apiAnalyticsPayoutBySettledDateReportingData.html#apiAnalyticsPayoutBySettledDateReportingDataCreateRequest).

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a loyalty integration
-
 Follow the steps below to build a loyalty integration with the Toast platform, which allows customers to use your loyalty functionality in their Toast POS workflows.
 
 #### Setup

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Configuring a delivery service charge
-
 You can create and apply a service charge to delivery orders. The service charge is automatically applied to all delivery orders.
 
 **Procedure 3.30. To configure a service charge for delivery orders**

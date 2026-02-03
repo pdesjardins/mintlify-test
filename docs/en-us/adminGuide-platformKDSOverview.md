@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Kitchen display system overview
-
 The kitchen display system (KDS) allows you to use screens instead of printed tickets to route and display orders in the kitchen. Using KDS devices allows for better communication between back of house and front of house when the food is ready for guests, and transparency on which parts of an order are completed. If changes are made on Toast POS devices in the front of house, those changes appear on KDS devices in the kitchen in real time. KDS devices also provide visual and auditory settings to inform kitchen employees about order details. These settings include:
 
 - Sound notifications when there is a new ticket, a ticket is ready to be fulfilled at the expediter KDS device, an item is changed, and an item is voided.

@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Integration partnership process
-
 #### Overview
 
 The following sections describe the required actions to become an official Toast integration partner. This applies to:

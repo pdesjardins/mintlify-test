@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Managing first and last online ordering time slots
-
 The online ordering schedule you configure in Toast Web determines the earliest and latest times in a business day when guests can place online orders. The available times are also affected by your quote time strategy, applicable delays, and delivery times.
 
 #### Managing first online ordering time slots

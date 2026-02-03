@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with menus
-
 This section provides information about working with menus in the menu manager.
 
 #### Creating a menu

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Endpoint requirements
-
 The Toast platform publishes updates to a webhook endpoint as they happen. It is possible, but not required, to use the same webhook endpoint for multiple event categories. The specifics of the data posted to the endpoint allow you to determine which event category generated the update.
 
 To work correctly with the Toast platform, a webhook endpoint:

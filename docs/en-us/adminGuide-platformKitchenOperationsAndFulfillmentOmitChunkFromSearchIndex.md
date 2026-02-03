@@ -13,5 +13,3 @@ procedures: 0
 codeExamples: 0
 ---
 
-# Chapter 10. Kitchen operations and fulfillment
-

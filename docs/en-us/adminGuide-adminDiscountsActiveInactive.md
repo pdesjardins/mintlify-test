@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Making a discount active or inactive
-
 When you create a new discount, the discount is active by default.
 
 On the Discounts page, you use the toggle in the Active column to control whether the discount is inactive.

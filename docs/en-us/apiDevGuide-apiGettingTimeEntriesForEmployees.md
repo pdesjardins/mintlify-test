@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Getting time entries for employees
-
 To get the time entry records for the employees at your restaurant, send a `GET` request to the `/labor/v1/timeEntries` resource of the labor API. Time entries record information about the shifts that employees complete. The response contains an array of time entry objects that contain information about the time entries.
 
 If an employee has not clocked out of the work shift, the `outDate` value for the time entry is `null`. The time entry period is not yet complete. Time entry values can change as the server takes new orders and payments during an active work shift.

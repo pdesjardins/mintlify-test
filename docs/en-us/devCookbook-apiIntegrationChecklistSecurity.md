@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a security integration
-
 Follow the steps below to build a security integration with the Toast platform. This guide outlines how your integration can use Toast orders data in coordination with video footage from your security monitoring service to develop a security business solution. Using time stamps, you can integrate video footage with order data, allowing restaurants to monitor operations and detect possible fraud or theft.
 
 After you complete and test these steps, you can complete an end-to-end test of your integration functionality.
@@ -208,7 +206,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 ##### Set up recurring order retrieval of transactional information
 
-To report on completed orders, you need to retrieve orders at least once per day using the `startDate` and `endDate` parameters of the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint of the orders API. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+To report on completed orders, you need to retrieve orders at least once per day using the `startDate` and `endDate` parameters of the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
 
 For real-time order information, Toast support recommends using the [Orders webhook](devOrdersWebhookRef.html) to receive order updates as they occur instead of pulling order updates with the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint.
 

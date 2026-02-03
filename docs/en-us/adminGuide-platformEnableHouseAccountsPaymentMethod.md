@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Enabling house accounts as a payment method
-
 Your guests can use a house account as a payment method to pay for Toast orders. To allow your guests to pay using a house account, you need to turn on the Take house account payments on a POSsetting in Toast Web.
 
 **Procedure 6.95. To enable house accounts as a payment method**

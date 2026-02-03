@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 1
 ---
 
-### Each version of a menu has its own menu-specific prices
-
 This section provides detailed instructions for creating a pricing configuration where each version of a menu has its own menu-specific prices for a menu item, for example:
 
 ```

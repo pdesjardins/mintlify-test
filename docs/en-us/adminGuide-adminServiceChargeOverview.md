@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Service charge overview
-
 You can configure service charges that can be optionally added to a check as an upcharge. For example, you can configure an open service charge for your restaurant to specify a service charge amount independent of the price of the check. As another example, you could configure a distance-based charge for delivery orders that would apply to checks when the appropriate conditions are met.
 
 Service charges are monetary amounts that a restaurant requires a guest to pay, such as a mandatory fee for an order delivery. Service charges are thus different from tips, which are discretionary (optional or extra) payments determined by the guest. Note that a check can have both a service charge and a tip.

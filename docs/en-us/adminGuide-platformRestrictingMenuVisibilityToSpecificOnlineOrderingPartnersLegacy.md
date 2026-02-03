@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Restricting menu visibility to specific online ordering partners
-
 In the [menu manager](platformBulkMenuManagerOverview.html) details pages, when you enable the Online ordering partnerssetting for a menu, an additional list of the online ordering partners you integrate with appears. You can use these settings to make the menu visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash.
 
 The Online ordering partners settings are slightly different depending on whether your restaurant uses the multi-location module or not. The illustration below shows the simpler version of the Online ordering partners settings for a restaurant that does not use the multi-location module.

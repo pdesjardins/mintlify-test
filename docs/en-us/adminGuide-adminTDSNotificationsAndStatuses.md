@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### TDS notifications and statuses
-
 When an order is being delivered by a driver, the guest receives the following text notifications during the delivery process:
 
 - Initial notification: This message is sent when the driver is en-route to the restaurant. The message contains a TDS tracking link that the guest can select to view driver information and location.

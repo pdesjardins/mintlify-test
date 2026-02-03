@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Archiving a house account
-
 You can archive a house account in Toast Web. You can archive a house account with an outstanding balance.
 
 

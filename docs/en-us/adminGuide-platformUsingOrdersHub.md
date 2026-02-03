@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using Orders Hub
-
 #### Order statuses
 
 An order status is assigned to an order as it progresses through Orders Hub. The number of orders in each status is located next to the status name. The top navigation displays orders by the following five statuses:

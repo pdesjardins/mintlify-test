@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring service charges
-
 #### Prerequisites for configuring service charges
 
 To create a service charge, you need POS Access \> Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminPermissions.html#adminAddlPosAccessPermissions).

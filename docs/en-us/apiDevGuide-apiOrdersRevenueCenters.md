@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Providing revenue center information for an order
-
 You can specify the revenue center associated with the order.
 
 For example, restaurants might use revenue centers to report on order volume in specific locations of a restaurant, such as the patio, bar, or dining room. They might also use revenue centers for delivery services, to track the volume of orders from each service.

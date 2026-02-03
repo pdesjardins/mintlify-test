@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Transaction types
-
 This section provides information about the way the Toast loyalty integration API transactions correspond to Toast platform transactions.
 
 The Toast platform sends requests to your integration API when restaurant employees perform loyalty program transactions at a restaurant. You can identify the transaction type for each request using the *`Toast-Transaction-Type`* HTTP header parameter. The information that you receive in the request body depends on the transaction type. Your integration service must return response data synchronously. Your response includes information such as the offers available to a loyalty program member and error codes that are defined by the integration API specification.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Combination pricing and menu groups
-
 When you use a menu group as a discount required item, you cannot specify a size or modifiers for the menu items. You cannot specify which menu items from the menu group are eligible.
 
 If you use a menu group as a required item for a combo discount, make sure that all of the menu items in the menu group have prices that are compatible with the discount and promotion that you intend.

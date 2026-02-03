@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Permissions
-
 Certain permissions can affect shift review. To view and edit permissions from Toast Web, choose Employees \> Employee management \> Jobs to open the Jobspage. Select the job title to edit the permissions.
 
 Below is a list of permissions required to complete shift review or review your employees' shifts.

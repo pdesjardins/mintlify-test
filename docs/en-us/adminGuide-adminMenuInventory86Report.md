@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing the 86 report
-
 The Reports \> Menus \> 86 Report is a useful tool you can use to decide which menu items to reorder. The 86 Report provides the following information:
 
 - Menu items that have an inventory status of Out of Stock (that is, menu items that have been 86ed). Out of Stock menu items are always reported.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Specifying modifiers and instructions for menu item selections
-
 You can specify custom details for the menu item selections in an order.
 
 For example, a guest might want *jalapeno peppers*on a sandwich, *extra* rice, or the *large* size of a drink. Or they might want to have the salad dressing provided on the side instead of on the salad.

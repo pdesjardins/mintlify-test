@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Specifying ordering channel visibility
-
 The details page for each menu, menu group, subgroup, menu item, or modifier group has a Channel visibility section that shows the channels where the menu entity is visible. If a menu entity is visible on a channel, it is available for ordering on that channel. Options include:
 
 - POS: The menu entity is visible in the Toast POS app.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Settings and conditions that affect modifier group display order
-
 In Toast Web, settings exist on both a modifier group's details page and on the UI options page that affect the order that the Toast platform uses to display modifier groups for a menu item.
 
 **Settings on a modifier group's details page **In the classic menu editing view, a modifier group's details page has two settings that affect modifier group display order:

@@ -15,8 +15,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Searching for guest checks
-
 You can search for a current check directly on a Toast POS device using different kinds of information, including:
 
 - Guest first or last name

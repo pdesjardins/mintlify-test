@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Which changes require publishing?
-
 In Toast Web, most configuration changes require publishing, including the following:
 
 - Menu items and prices

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Order information
-
 An order is the basic building block of a restaurant transaction. Each order specifies:
 
 - The items that a guest purchases.

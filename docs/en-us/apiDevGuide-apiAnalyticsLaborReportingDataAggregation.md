@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Aggregating the labor reporting data
-
 The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the `groupBy` value in the message body of the `/era/v1/labor/\{timeRange\}` request to create these subsections. Use `EMPLOYEE` to group the labor reporting data by employee and `JOB` to group by job.
 
 

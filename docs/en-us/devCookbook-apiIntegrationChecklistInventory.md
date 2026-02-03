@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building an inventory tracking integration
-
 Follow the steps below to build an inventory tracking integration with the Toast platform, which allows restaurants to stay aware of their ingredient usage and potential cost savings.
 
 #### Required scopes
@@ -126,7 +124,7 @@ The following table provides suggested information that you can display in diffe
 
 ##### Set up a recurring order retrieval
 
-Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
 
 
 

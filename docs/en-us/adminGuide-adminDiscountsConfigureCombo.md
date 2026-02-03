@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring a combo discount
-
 For a combo discount, you configure the discount value and the eligible combinations of menu items.
 
 #### Configuring the combo discount value

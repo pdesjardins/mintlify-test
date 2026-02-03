@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring your shift review
-
 You configure your shift review settings in [Toast Web ](adminAccessToastAdminBackend.html).
 
 #### Requiring shift review

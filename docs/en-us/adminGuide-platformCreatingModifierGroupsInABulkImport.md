@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating modifier groups in a bulk import
-
 Some points to note when creating modifier groups using the bulk import tool:
 
 - The `CREATE` operation for modifier groups has the limitation that you can attach the new modifier group to a menu item in the `CREATE` row but not to a menu group. However, in an `ATTACH` row, you can attach a modifier group to either a menu item or a menu group.

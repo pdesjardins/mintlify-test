@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using start queue
-
 #### Start queue overview
 
 

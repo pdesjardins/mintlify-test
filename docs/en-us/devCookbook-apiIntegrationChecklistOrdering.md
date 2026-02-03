@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building an online ordering integration
-
 Follow the steps below to build an online ordering integration with the Toast platform.
 
 After you complete and test these steps, you can complete an end-to-end test of your integration functionality.

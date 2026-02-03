@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using the price editor
-
 The Price editor page displays prices for all of your menu groups and menu items in one location, where you can quickly view and edit them. It also provides features for bulk editing your prices, for example, increasing the prices of all of your sandwiches by $1.
 
 

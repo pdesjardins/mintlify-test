@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Displaying additional details about an order
-
 The order details dialog on the Orders report provides links to additional information and order actions, including:
 
 - [Sending orders to devices](platformOrdersSendToDevices.html)

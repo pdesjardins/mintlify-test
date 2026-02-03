@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with order discounts
-
 A discount is a reduction to the price of a check or a menu item selection. You can include discounts when you create an order, and add discounts to an existing order.
 
 To configure the available discounts at your restaurant, you use the Discounts screen of Toast Web. For more information about discounts in the Toast platform, see [Using the Discounts page](adminAvailableDiscounts.html).

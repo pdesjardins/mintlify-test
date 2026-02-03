@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Applying jobs to the restaurant group hierarchy
-
 Toast Web allows you to create jobs and then assign those jobs to your employees. When you create a job in an enterprise environment, you specify:
 
 - A set of permissions associated with the job. These permissions are granted to employees that are assigned the job.

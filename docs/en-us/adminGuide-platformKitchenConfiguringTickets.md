@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring tickets
-
 This section provides procedures and information about configuring kitchen tickets.
 
 #### Color-coding items and modifiers on KDS tickets

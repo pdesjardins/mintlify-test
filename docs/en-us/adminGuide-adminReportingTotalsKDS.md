@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Reporting item or ingredient totals with the KDS
-
 Keeping track of how many items or ingredients should be in progress, across all fired items, is an important tactic for efficiency and waste reduction. Mentally tracking totals, however, can be difficult to do accurately in a fast-paced, high-volume kitchen. With Toast POS devices, you can use either, or both, of these features to report continuously updated totals for fired items or ingredients on the KDS device.
 
 - All day view, which reports a total for each unique menu item, with or without totals for modifiers.

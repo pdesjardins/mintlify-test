@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### KDS workflow using grid view
-
 The restaurant in this example uses a KDS device using grid view with preview tickets enabled in the kitchen to receive orders from a drive-through window. Grid view does not use certain dynamic view features. For more information on these limitations, see [Features unavailable with grid view](platformKDSOverview.html#platformGridKDSUnavailableFeatures). For more information about preview tickets, see [Preview tickets](platformKDSOverview.html#platformGridKDSPreviewTickets).
 
 This example restaurant configuration uses the individual item fulfillment configuration and sends all prep station tickets to the expediter. For more information about the individual item fulfillment setting, see [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter). This example restaurant uses one expediter KDS device and two prep station KDS devices for the Drinks and Food prep stations.

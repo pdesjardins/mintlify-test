@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Transferring checks or orders to a different employee
-
 When a restaurant employee places an order for a guest, the the order and its checks are assigned to that employee.
 
 You can transfer orders or checks to a different employee who is currently clocked in. For example, there might be a shift change before the order is completed.

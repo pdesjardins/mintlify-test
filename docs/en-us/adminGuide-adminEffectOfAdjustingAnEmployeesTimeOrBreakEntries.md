@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Effect of adjusting an employee's time or break entries
-
 As described in this [Toast Central article](https://central.toasttab.com/s/article/Editing-Employee-Time-Clock-Entries-1492802387122), it is possible to manually adjust an employee's time entry to modify the start or end time, using the Update Time Entry dialog box.
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-update-time-entry.PNG)

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Managing job-based access
-
 You enable job-based access on the Access management setup page in Toast Web. To enable job-based access, you must have the 4.25 Enable job-based access permission enabled at each location in your management group. For more information, see [Access permissions reference](adminPermissions.html). If you do not have the permission enabled at every location, you can only view the setting in Toast Web. For example, if you have 20 locations in your management group, you must have the 4.25 Enable job-based access permission enabled to at all 20 locations to update the setting. If you only have the permission enabled at 10 locations, the toggle is grayed out and you cannot update it. 
 
 If you do not have the permission enabled for any of your locations, you cannot access the Access management setuppage.

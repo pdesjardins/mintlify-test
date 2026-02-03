@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Error handling
-
 Your Toast POS loyalty integration interface implementation must return the following HTTPS responses to the requests that it receives from the Toast platform.
 
 200 means OK and has predefined success status in the response

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing refunds in Toast receipts, reports, and order details
-
 You can view refund information on receipts, in reports, and in order details.
 
 In reports, refunds affect the overall sales, tax, gratuity, and tip values. There are also specific entries for refunds.

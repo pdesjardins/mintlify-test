@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Digital receipts and printed receipts
-
 Digital receipts allow your guests to receive a text or email receipt. You can still print payment receipts if you use digital receipts.
 
 The following table describes the functionality differences when you enable or disable the digital receipts configuration option.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building labor reports
-
 Use the instructions below to build labor reports using information from the Toast platform. This information will help when creating a payroll integration, predicting future staffing needs, identifying the most efficient employees, and more.
 
 You are now ready to provide customers with detailed information related to labor costs and efficiency, providing restaurants with useful information to run their business.
@@ -111,7 +109,7 @@ Use the following endpoints to retrieve transactional information:
 - If you report on shift clock-in timeliness, retrieve yesterday's shifts using the `startDate` and `endDate` parameters of the `/shifts` endpoint of the labor API. See [Getting shift assignments for employees](apiGettingShiftAssignmentsForEmployees.html) for more information.
 
 
-- If you report on sales or tips per employee, retrieve yesterday's orders using the `startDate` and `endDate` parameters of the `/ordersBulk`endpoint of the orders API. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+- If you report on sales or tips per employee, retrieve yesterday's orders using the `startDate` and `endDate` parameters of the `/ordersBulk`endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
 
 
 

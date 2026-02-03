@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Gift card integration authentication
-
 
 
 > **Important**

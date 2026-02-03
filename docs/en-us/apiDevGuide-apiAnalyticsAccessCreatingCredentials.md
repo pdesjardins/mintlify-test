@@ -14,8 +14,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Creating analytics API access credentials
-
 The following procedure describes how to create analytics API access credentials in Toast Web.
 
 

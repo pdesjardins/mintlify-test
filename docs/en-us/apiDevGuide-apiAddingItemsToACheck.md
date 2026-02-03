@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adding items to an existing check
-
 
 
 > **Important**
@@ -36,7 +34,7 @@ To add items to an existing check, you send a `POST`request to the `/orders/<em>
 
 **Procedure 2.5. To add items to an existing check**
 
-1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersFindingAnOrderGuid).
+1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](apiOrdersFindingAnOrderGuid.html).
 
 
 2. Create a JSON array of `Selection` objects that contain information about the items you are adding, including modifiers. For an example, see [Example request message body to add an item to an existing check](apiAddingItemsToACheck.html#apiExampleSelectionObjectsForAddingItemstoaCheck).

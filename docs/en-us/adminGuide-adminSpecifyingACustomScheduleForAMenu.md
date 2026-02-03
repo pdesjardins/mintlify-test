@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Specifying a custom schedule for a menu
-
 You can use a menu's Availability settings to define a specific time period that a menu is available or a specific set of days that the menu is available. By default, a menu's availability is set to Always, meaning the menu is available during all hours that the restaurant is open.
 
 For multi-location restaurants, the time period you specify is in each location's local time.

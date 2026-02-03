@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Getting shift assignments for employees
-
 To get information about the shifts that are scheduled for employees of a restaurant, send a `GET` request to the `/labor/v1/shifts` endpoint of the labor API.
 
 The response contains an array of shift objects that contain the configuration information for each shift.

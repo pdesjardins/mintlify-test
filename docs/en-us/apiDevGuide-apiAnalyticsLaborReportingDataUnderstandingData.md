@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding the labor reporting data
-
 Labor reporting data contains consistent values that appear for each active restaurant and by business date. Optionally, you can choose to aggregate the labor reporting data by either employee or job. For more information, see [Aggregating the labor reporting data](apiAnalyticsLaborReportingDataAggregation.html). For information about retrieving inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
 The restaurants included in the labor reporting data can be limited by adding the GUIDs of restaurants to either include only or exclude only. For an example that chooses specific restaurants, see [Creating a request for labor reporting data](apiAnalyticsLaborReportingDataCreateRequest.html).

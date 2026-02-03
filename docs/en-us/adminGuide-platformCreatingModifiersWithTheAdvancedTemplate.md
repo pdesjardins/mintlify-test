@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating modifiers with the advanced template
-
 When you are creating a new modifier in a bulk import, you are actually creating a menu item that functions as the modifier's [item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference). In the advanced template, the rows for creating a modifier, therefore, have all the same fields as a menu item but they also have additional fields that are specific to modifiers. These fields are optional and they allow you to define modifier-specific overrides for the item reference's name, target, and owner.
 
 To keep it as simple as possible, the basic template does not have fields for the modifier-specific overrides.

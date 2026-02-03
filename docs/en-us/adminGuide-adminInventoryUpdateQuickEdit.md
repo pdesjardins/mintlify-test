@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Changing inventory status in Quick Edit mode
-
 You can change a menu item's inventory status in Quick Edit mode on the Toast POS device. This method is especially useful for quickly 86ing a menu item that has suddenly gone out of stock.
 
 **Procedure 8.135. To update the menu item's inventory status in Quick Edit mode**

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building an Analytics integration
-
 Follow the steps below to build an analytics integration with the Toast platform.
 
 This integration allows you to provide restaurants with detailed information about sales, labor, inventory, and more. 

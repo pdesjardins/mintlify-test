@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a digital menu signage integration
-
 Follow the steps below to build a digital menu signage integration with the Toast platform.
 
 This integration allows you to retrieve menu and restaurant information to display on a digital menu signage board.

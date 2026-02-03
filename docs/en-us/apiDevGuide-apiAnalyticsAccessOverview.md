@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Analytics API access overview
-
 If you are a Toast customer looking for insight into your management group’s performance, you can use analytics API access to get read-only access to a specialized set of reporting and operational data. This access is included with [Restaurant Management Suite Pro](https://www.toasttab.com/customers/shop/software-services/restaurant-management-suite?tier=Pro) and is enabled through credentials you create in Toast Web. The analytics API provides narrowly focused, high-value data on sales, checks, labor, menus, payouts, and guests available only through this access type. Analytics API access gives you the flexibility to power custom reports, dashboards, and other business tools using your own analytics.
 
 For more information about using the analytics API, see [Analytics API overview](apiAnalyticsOverview.html).

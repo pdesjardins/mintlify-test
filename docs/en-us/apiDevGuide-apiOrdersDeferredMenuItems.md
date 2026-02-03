@@ -14,8 +14,6 @@ procedures: 1
 codeExamples: 1
 ---
 
-### Deferring menu items
-
 Deferred menu items are items whose revenue you want to exclude from an order total and overall reporting. For example, you may want to exclude gift card sales from a restaurant's revenue since the funds received from gift cards are paid upfront. Typically, gift card sales do not qualify for revenue recognition as no goods or services have been exchanged.
 
 When using the orders API you must indicate each menu item or modifier that you want to defer. The procedure below describes how to defer an item using the orders API.

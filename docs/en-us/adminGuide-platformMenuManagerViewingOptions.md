@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing options
-
 The Show controls in the menu manager let you customize how you view your menu data. You can either [view your entire menu](platformMenuManagerViewingOptions.html#platformMenuManagerViewingYourFullMenu) or [view menu entities of a specific type](platformMenuManagerViewingOptions.html#platformMenuManagerViewingIndividualEntityTypes), for example, menu items, modifiers, or price levels.
 
 #### Viewing your full menu

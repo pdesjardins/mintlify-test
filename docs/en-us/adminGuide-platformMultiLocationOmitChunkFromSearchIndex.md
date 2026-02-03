@@ -13,5 +13,3 @@ procedures: 0
 codeExamples: 0
 ---
 
-# Chapter 5. Multiple restaurant locations
-

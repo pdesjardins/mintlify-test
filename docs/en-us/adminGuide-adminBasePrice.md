@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Base price
-
 **Applies to:** Menu groups, menu items (including [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference))
 
 A base price is a constant price for a menu group or item that does not change based on other conditions (such as the time the order is placed).

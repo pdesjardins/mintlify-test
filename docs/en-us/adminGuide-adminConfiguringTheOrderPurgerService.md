@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Configuring the order purger service
-
 The order purger service runs every five minutes and counts the total number of orders in any state (open, paid, or closed). If that total number exceeds the defined Order Purge Threshold, the order purger iterates over the orders, marks those that are closed and can be purged from the device, and then removes the marked orders from the device. By default, the Order Purge Threshold is 800 total orders. Reducing this threshold causes the order purger to purge orders more frequently because the threshold gets met more frequently.
 
 

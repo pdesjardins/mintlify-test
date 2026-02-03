@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring permissions for working with credits
-
 To add and redeem guest credits, you must have specific Toast platform privileges. Toast restaurant employees who have permission to accept payment can redeem guest credits, or apply their value as a form of discount. Toast restaurant employees who have the Customer Credits & Reports permission can add guest credit value for a guest.
 
 The following table describes the Toast platform permissions that you need in order to perform guest credit transactions.

@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Alternative payment types
-
 For payments other than credit card payments that are processed by the Toast platform, you use an alternative payment type. These payment types have a `type` of `OTHER`.
 
 To get the list of available alternative payment types, use the [Get alternative payment types](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/) operation.

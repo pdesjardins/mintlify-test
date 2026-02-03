@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Checklists for specific integration functionality
-
 Toast provides the following integration checklists.
 
 #### Reservation integration checklist

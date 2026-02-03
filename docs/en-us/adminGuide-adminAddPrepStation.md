@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Adding a prep station
-
 When you add a prep station, you have the option of choosing whether items are also sent to the expediter using the Send to Expediter setting. With this setting, items are sent to both the prep station and the expediter. This applies to both KDS and printed tickets.
 
 

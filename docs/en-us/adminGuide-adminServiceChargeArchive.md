@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Archiving service charges
-
 You can archive a service charge, which means the service charge becomes inactive and is not applied to checks. Archived service charges are not displayed on the Service Charges page, unless you click the Show Archived link.
 
 **Procedure 6.21. To archive a service charge**

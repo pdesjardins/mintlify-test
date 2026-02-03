@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Verify order routing to prep stations
-
 For efficient kitchen operation, orders for menu items and modifiers must go to the correct prep stations.
 
 To review and update menu item assignments to prep stations you must have the Restaurant Admin \> Edit Full Menu access permission. Then, follow these steps.

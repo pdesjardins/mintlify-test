@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Verify order routing to an expediter
-
 For efficient kitchen management, the [expediter](adminUsingExpo.html) must receive all of the orders for supervised prep stations.
 
 To review and update which prep station orders the expediter receives you must have the Web Setup \> Kitchen / Dining Room Setup access permission. Then, follow these steps.

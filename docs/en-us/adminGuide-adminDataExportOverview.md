@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Data export files overview
-
 Toast data exports give you access to your Toast POS data. Data exports are configured to run automatically or can be downloaded manually, and can include the following data types:
 
 **Sales/Finance**

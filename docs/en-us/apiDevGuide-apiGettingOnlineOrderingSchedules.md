@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 3
 ---
 
-### Getting online ordering schedules
-
 To retrieve a restaurant location's online ordering schedule, send a `GET` request to the `/orderingSchedule`endpoint of the order management configuration API. This endpoint returns a restaurant location’s online ordering hours for takeout, delivery, or both. The ordering schedule indicates the hours when a guest can place orders for immediate or future fulfillment.
 
 

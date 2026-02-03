@@ -12,8 +12,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-# Glossary
-
 | [A](adminGuide-adminGlossary.html#glossA) | [B](adminGuide-adminGlossary.html#glossB) | [C](adminGuide-adminGlossary.html#glossC) | [D](adminGuide-adminGlossary.html#glossD) | [E](adminGuide-adminGlossary.html#glossE) | [F](adminGuide-adminGlossary.html#glossF) | [G](adminGuide-adminGlossary.html#glossG) | [H](adminGuide-adminGlossary.html#glossH) | [I](adminGuide-adminGlossary.html#glossI) | [K](adminGuide-adminGlossary.html#glossK) | [L](adminGuide-adminGlossary.html#glossL) | [M](adminGuide-adminGlossary.html#glossM) | [N](adminGuide-adminGlossary.html#glossN) | [O](adminGuide-adminGlossary.html#glossO) | [P](adminGuide-adminGlossary.html#glossP) | [Q](adminGuide-adminGlossary.html#glossQ) | [R](adminGuide-adminGlossary.html#glossR) | [S](adminGuide-adminGlossary.html#glossS) | [T](adminGuide-adminGlossary.html#glossT) | [U](adminGuide-adminGlossary.html#glossU) | [W](adminGuide-adminGlossary.html#glossW) | [Z](adminGuide-adminGlossary.html#glossZ) | [0-9](adminGuide-adminGlossary.html#gloss09) | 
 
 ### A

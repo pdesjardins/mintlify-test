@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Monitoring items at other prep stations
-
 In some restaurants, employees at one prep station need to be aware when other prep stations are involved in fulfilling items in the same order. For example, a kitchen that does not have an [*expediter*](adminGuide-adminGlossary.html#glossExpediter) relies on employees at a particular prep station to coordinate order fulfillment or on close communication among employees to synchronize order fulfillment. Including information about other involved prep stations on the ticket can help ensure effective cooperation.
 
 The Toast platform allows you to configure kitchen tickets to display other prep stations working on an item or order on both KDS and printed tickets. For KDS tickets, all prep stations monitor each other automatically. For printed tickets, you [must specify which other prep stations a prep station will monitor](adminMonitoringTicketsOtherPrepStations.html#adminKitchenMonitorPrintedTickets).

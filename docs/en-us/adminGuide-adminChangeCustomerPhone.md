@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Updating guest information
-
 To manually update the telephone number or name in an existing restaurant guest record you must have the 1.1 Table Service Mode, 1.2 Quick Order Mode, or 1.4 Payment Terminal Mode[access permission](adminPermissions.html#adminModePermissions). Then, follow these steps.
 
 1. Log on to a Toast POS device.

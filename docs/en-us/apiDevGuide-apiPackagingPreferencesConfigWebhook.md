@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Packaging preferences configuration webhook
-
 The packaging preferences configuration webhook sends you a message when a restaurant updates its packaging preferences in Toast Web. The message payload includes: 
 
 - The GUID of the restaurant changing its packaging preferences.

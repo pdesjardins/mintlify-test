@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Paginating response data
-
 [Some Toast API endpoints](apiResponseDataPagination.html#apiResponsePaginationTypes)paginate response data to limit the number of data objects they return, to make the size of the endpoint response data more practical for your integration. You can make additional requests to these endpoints to get data objects that were excluded from the response to your first request.
 
 For example, a restaurant might have a large number of discounts. An endpoint that returns discount data objects might limit the number of objects in a single response to ensure that the data size of the response does not become too large.

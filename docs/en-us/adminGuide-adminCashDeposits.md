@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Cash deposits
-
 A deposit is cash removed from a restaurant to be deposited in a bank or other financial institution. A cash deposit should be the final cash management action of the day. After all checks are closed, shift reviews are completed, and all cash drawers are closed, you can use the Cash Deposits screen to enter the actual cash amount of the deposit into the Toast platform.
 
 The deposit is the actual amount of cash that you will deposit in the bank. The deposit amount should not include the sum of the starting balances for all cash drawers, because the starting balance cash is not deposited in the bank but remains in the cash drawers.

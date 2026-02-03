@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing different versions of the same configuration entity
-
 Because they share data, versions are tightly coupled to each other and, as you work with versions, you need to be aware when other versions exist. You can tell when other versions exist on both the Advanced properties page and on the details page for a configuration entity.
 
 On the Advanced properties page, different versions of the same configuration entity can appear multiple times in the table and they will have identical values in the Number field. For example, in the illustration below, three versions of the Entrees menu exist and they have an identical Number value.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Enterprise jobs and employees overview
-
 When using the enterprise module, the Toast POS system provides several additional features for managing your jobs, employees, and permissions. You can:
 
 - Create jobs that apply to all or only a portion of your restaurant group hierarchy, allowing you to control which jobs get used at each location.

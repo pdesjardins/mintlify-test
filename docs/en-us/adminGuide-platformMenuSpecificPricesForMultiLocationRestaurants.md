@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Menu-specific prices for multi-location restaurants
-
 Multi-location restaurants can have multiple [versions](versions.html) of a menu, for example, a Dinner menu that has a version for a Boston location and another version for a Portland location. There are two approaches you can take if you want to use menu-specific prices with versioned menus:
 
 - All versions of the menu use the same menu-specific prices, for example:

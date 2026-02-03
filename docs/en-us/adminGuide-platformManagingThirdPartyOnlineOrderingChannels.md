@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Managing orders from third-party online ordering channels
-
 
 
 > **Note**

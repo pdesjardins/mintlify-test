@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Voiding checks
-
 Until the check payment is captured, you can void the check to cancel the payment and the menu item selections. For example, a guest might place an order and then have to leave unexpectedly before they receive the meal.
 
 After the payment is captured, you cannot void the check. You must refund the check amount. See [Refunds and voids](adminRefundsAndVoids.html).

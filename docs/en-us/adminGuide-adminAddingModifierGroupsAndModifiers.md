@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adding modifier groups and modifiers
-
 The menu builder makes it easy to create and add modifier groups to your Toast menu. A modifier group contains modifiers that allow guests to customize their meals. For example, a salad menu item might have a salad dressing modifier group that contains modifiers such as balsamic vinaigrette.
 
 Here are some important points to keep in mind when working with modifier groups and modifiers:

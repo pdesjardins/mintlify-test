@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Adding credit value
-
 To give credits to restaurant guests you:
 
 - Find the guest's record using the Lookup Customer function on a Toast POS device and then use the Add Value function. This section provides information about adding credit value using the Toast POS app.

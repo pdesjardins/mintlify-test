@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using multi-location IDs in orders
-
 When you use the orders API to post an order, you must identify the menu groups, menu items, modifier groups, and modifiers that are included in the order.
 
 To do this, you can provide either:

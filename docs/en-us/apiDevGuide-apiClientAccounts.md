@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast API accounts
-
 As part of the API registration process for an API environment, the Toast integrations team:
 
 - Creates API access accounts.

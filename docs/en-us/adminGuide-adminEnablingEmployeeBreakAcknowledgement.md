@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Enabling employee break acknowledgement
-
 When you have configured [missed break tracking](adminEnablingMissedBreakTracking.html)for a custom break, the Toast platform tracks when the employee took or missed breaks of that type during their shift. The break acknowledgement feature expands on that functionality by asking the employee, both for taken and missed breaks of that type, whether they were asked to take the break by their manager. An employee is asked for break acknowledgement when:
 
 - The employee clocks back in at the end of a break, using the End Break button on the Time Clock screen.

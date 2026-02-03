@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Accessing shift review
-
 You can access your shift review on the Toast POS app.
 
 **Procedure 6.107. To access shift review**

@@ -16,8 +16,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Creating a house account
-
 You can create a single or multiple house accounts on the Accounts page in Toast Web. Each house account must have a unique email address, but can share other information such as guest first and last name, address, and phone number.
 
 **Procedure 6.92. To create a single house account**

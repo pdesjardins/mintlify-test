@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Size price
-
 **Applies to:** Menu items, modifier groups, [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference)
 
 

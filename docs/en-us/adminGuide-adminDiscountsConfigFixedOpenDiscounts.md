@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring fixed or open amount or percent discounts
-
 For fixed amount, fixed percent, open amount, and open percent discounts, you choose what the discount applies to. For fixed discounts, you also provide the discount value.
 
 #### Providing the discount value for fixed discounts

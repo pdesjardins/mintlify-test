@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu item inventory overview
-
 An important task in operating a restaurant is keeping track of the inventory of your restaurant's menu items. If the inventory of a menu item starts to run low or goes out of stock, you must decide when to reorder. You can check the inventory status value of menu items for information as to their availability.
 
 

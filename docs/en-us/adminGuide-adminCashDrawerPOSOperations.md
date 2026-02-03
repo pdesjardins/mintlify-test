@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### POS cash drawer operations
-
 
 
 > **Note**

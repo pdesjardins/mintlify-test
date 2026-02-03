@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Employee clock-in and clock-out
-
 During offline mode, employees can clock in on Toast POS devices and perform many tasks, such as taking orders. Employees may also be able to clock out, depending on whether shift reviews are required.
 
 The following sections describe configuration settings that affect employee clock outs during offline mode, and the procedures that employees can use to safely start and end their shifts.

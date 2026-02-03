@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding how order information appears on KDS tickets
-
 The order information that specifies the table or guest name for an order displays according to what was provided.
 
 1. If only the tab name is available, Tab: \<tab name\> is shown.

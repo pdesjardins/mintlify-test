@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Location access
-
 The partners webhook and partners API both provide information about the restaurants you can access. With the partners webhook, the Toast platform pushes updates to your system when a restaurant adds your integration, removes your integration, or edits your integration's settings in the Toast platform. This is the preferred method for getting information about the restaurants you can access.
 
 If you need to retrieve information about the restaurants you can access independently of an event that triggers a webhook update, you can use the `/restaurants` endpoint of the partners API.

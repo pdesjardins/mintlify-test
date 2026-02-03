@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Interpreting ticket times and fire times
-
 To keep track of how long ordered items are taking to fulfill, the KDS device displays a *ticket time* on every ticket. When you [enable course pacing](adminKitchenDiningRoomReference.html#configCoursePacing) and choose to [send all courses to the kitchen immediately](adminKitchenDiningRoomReference.html#configSendingCourses), a *fire time* appears on every ticket. A *ticket time* is a timer that shows how long ago the order was *sent* to the kitchen. A *fire time*is a timer that shows how long ago the ticket was *fired* to the kitchen.
 
 

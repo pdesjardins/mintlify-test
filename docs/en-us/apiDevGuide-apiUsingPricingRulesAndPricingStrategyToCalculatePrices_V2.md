@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using PricingRules and PricingStrategy to calculate prices
-
 There are situations where additional context is needed before a price can be determined. For example, the price of a menu item that uses time-specific pricing depends on the time the menu item is ordered. For these situations, the menus API provides two values, `pricingStrategy` and `pricingRules`, that contain the information you need to calculate the menu item or modifier option's price. These values appear for every menu item, modifier group, and modifier option in the fully resolved JSON. Their contents change depending on how a menu item or modifier option's price has been configured.
 
 You use the `pricingStrategy` and `pricingRules` values to calculate prices for:

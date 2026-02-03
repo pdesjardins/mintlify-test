@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with menu manager change sets
-
 This section provides information on working with change sets in the menu manager:
 
 - [Editing a menu manager change set](platformWorkingWithMenuManagerChangeSets.html#platformEditingAMenuManagerChangeSet)

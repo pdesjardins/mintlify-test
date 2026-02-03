@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Enabling the customer credits feature
-
 To add and redeem credit for your guests you must enable the customer credits feature for your restaurant. When you enable customer credits, you can set the maximum currency amount of a single credit transaction and the number of days that a credit remains available for the guest to use as payment for restaurant checks.
 
 

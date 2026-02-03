@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Scopes
-
 Access to Toast APIs, specific endpoints, and specific API endpoint operations is controlled by the scopes that are associated with your [API account](apiClientAccounts.html). Toast API scopes and their capabilities are described below.
 
 To see the scopes associated with your API client, you must decrypt the authentication token you receive after you request an authentication token. For more information about the contents of a Toast API authentication token, see [Authentication return data for a partner API client](authentication.html#apiAuthenticationReturnDataPartner) and [Authentication return data for a restaurant management group API client](authentication.html#apiAuthenticationReturnDataRestaurant).

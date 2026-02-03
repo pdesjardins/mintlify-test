@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Offline payment processing for digital orders
-
 During a payment processor outage, the Toast platform can still accept orders placed through the Local by Toast app or the Toast Online Ordering website. Credit card payments are processed once the processor comes back online.
 
 

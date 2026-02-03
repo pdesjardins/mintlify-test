@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Order object summary
-
 An `Order` object contains details about an order. In the orders API, you use the `Order` object to create orders, update orders, and retrieve information about orders. You send `Order`objects in requests to create and update orders. The orders API returns `Order` objects in response to requests.
 
 This topic discusses some related sets of values in the `Order` object and how they are populated.

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Menu-specific price
-
 **Applies to:** Menu items (including [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference))
 
 With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu.

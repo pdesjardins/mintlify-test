@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Filling out a bulk import spreadsheet
-
 The process for completing a bulk menu import follows this workflow:
 
 - Choose a bulk import template ([basic](platformFillingOutTheBulkImportSpreadsheet.html#platformBulkMenuImportBasicTemplate), [item update](platformFillingOutTheBulkImportSpreadsheet.html#platformBulkMenuImportItemUpdateTemplate), or [advanced](platformFillingOutTheBulkImportSpreadsheet.html#platformBulkMenuImportAdvancedTemplate)) and make a copy of it.

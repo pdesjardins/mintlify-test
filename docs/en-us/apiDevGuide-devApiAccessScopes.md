@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Standard API access scopes
-
 Scopes determine the actions that your Toast API client has permission to perform, which is authenticated using the client ID and secret created in Toast Web. For more information, see [Scopes](apiScopes.html).
 
 Standard API access provides access to the following scopes:

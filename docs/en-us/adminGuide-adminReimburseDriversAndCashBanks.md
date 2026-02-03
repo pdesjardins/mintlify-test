@@ -16,8 +16,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Reimbursing drivers and configuring driver cash banks
-
 
 
 > **Important**

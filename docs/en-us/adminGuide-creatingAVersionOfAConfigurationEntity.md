@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Creating a version of a configuration entity
-
 Follow the instructions below to create a version of a configuration entity.
 
 

@@ -15,7 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Required scope for the analytics API
-
 All analytics API endpoints require the `enterprise-metrics:read` scope. This includes creating a analytics data request, retrieving the analytics data, and retrieving restaurant information for the management group.
 

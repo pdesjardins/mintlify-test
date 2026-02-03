@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast POS hardware components
-
 The Toast platform uses the following hardware components.
 
 - A personal or laptop computer which you use to access configuration settings and reports through the Toast Web website.

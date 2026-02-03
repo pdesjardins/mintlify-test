@@ -15,8 +15,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Creating master tax rates
-
 By default, the Toast platform creates a state and local tax rate for each location in your enterprise. For an enterprise restaurant configuration, you should archive these auto-created tax rates and, instead, do the following:
 
 - For each type of tax you must collect, create a tax rate that will function as the master version for that tax type. For example, you could create a tax rate named State Tax Master and another named Local Tax Master. Set the target for these master versions to the corporate restaurant group and set them to disabled.

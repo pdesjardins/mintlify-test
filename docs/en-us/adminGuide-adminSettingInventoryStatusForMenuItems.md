@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Setting the stock status and count for menu items
-
 You can set the stock status for menu items to indicate whether a menu item is in stock, out of stock, or in limited supply. Out of stock items are displayed to your guests, however, they are marked as "out of stock" and cannot be ordered.
 
 A menu item must be saved at least once before you can update its stock status.

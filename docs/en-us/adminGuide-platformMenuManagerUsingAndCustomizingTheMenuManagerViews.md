@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using and customizing the menu manager views
-
 This section provides general information that applies to all menu manager views.
 
 #### Using the Full menu view side panel

@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Standard API access overview
-
 Standard API access provides you with credentials with read-only access to Toast’s APIs, which you can use to read and review data from a single location or multiple locations in your management group. Standard API access allows you to:
 
 - Generate multiple credential sets. Each set is configurable to grant read access to specific restaurants or stores.

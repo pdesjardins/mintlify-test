@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Exclusive and nonexclusive discounts
-
 Whether a discount is exclusive or nonexclusive determines whether the discount can be combined with other discounts.
 
 Nonexclusive discounts can be combined with any other type of discount, regardless of whether the other discount is exclusive or nonexclusive.

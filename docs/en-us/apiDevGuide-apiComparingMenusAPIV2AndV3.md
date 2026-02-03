@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Comparing menus API V2 and V3
-
 When choosing which version of the menus API to use, follow these guidelines:
 
 - *Ordering partner integrations must use V3 of the menus API*.

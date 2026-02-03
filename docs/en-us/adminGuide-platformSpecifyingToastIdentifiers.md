@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Specifying Toast identifiers
-
 To complete a bulk import spreadsheet, you may need one or more Toast identifiers for the following entities:
 
 - Menu entities

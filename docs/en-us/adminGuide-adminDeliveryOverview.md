@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Delivery overview
-
 The Toast platform offers delivery as an option for guest orders. Toast offers two options for delivery:
 
 - First-party delivery: You use your own drivers to make deliveries.

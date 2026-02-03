@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### How to publish changes
-
 The Toast platform provides the following options for publishing changes:
 
 - [Publish Now prompt and Publish all changes button](platformHowToPublish.html#platformPublishingPublishPrompt)

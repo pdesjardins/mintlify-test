@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Automatically applying discounts
-
 You can create discounts that automatically apply to a check when a restaurant employee saves items (with the Send, Stay, Hold, or Pay buttons) or prints a receipt.
 
 An auto-apply discount is applied if the items on the check match the selection criteria of the discount, without any action from a restaurant employee.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using search and filtering to find menu entities
-
 The Menu manager page includes a set of searching and filtering controls that you can use to refine the list of menu entities that are displayed, making individual entities easier to find and edit.
 
 This illustration shows the controls on Full menu view.

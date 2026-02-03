@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### API status and updates
-
 To develop and maintain your Toast API integration, you need information about the status of API services and changes to the APIs. You can get this information from:
 
 - The Toast [platform system status web page](https://status.toasttab.com/#).

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Standard API access resources
-
 For more information on using Toast APIs, see:
 
 - [API status and updates](apiUpdatesEmailDistributionList.html)

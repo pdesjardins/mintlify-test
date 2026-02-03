@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Integration types
-
 The Toast platform supports different integration types, including:
 
 - Partner integrations: Technology providers create partner integrations that extend the Toast platform by adding their services and capabilities to it. Partner integrations use Toast APIs to read and write data on behalf of customers they share with Toast. For more information, see [Partner integration overview](apiPartnerIntegrationOverview.html).

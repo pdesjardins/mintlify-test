@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Required items overview
-
 Required items, sometimes referred to as trigger items, are the items or combinations of items that make the check eligible for a discount.
 
 A single item can be a specific menu item, a menu group, or a menu. When you select a menu item that has sizes or other modifiers, you are prompted to select the specific modifier. You can also specify the required quantity.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a CRM & Guest Engagement integration
-
 Follow the steps below to build a CRM & Guest Engagement integration with the Toast platform.
 
 This integration allows you to provide a CRM solution using order history.

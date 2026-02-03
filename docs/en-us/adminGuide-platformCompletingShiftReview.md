@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Completing shift review
-
 
 
 > **Note**

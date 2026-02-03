@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Quote time strategy settings
-
 The following table provides information about the quote time strategies available on the Takeout & deliverypage in Toast Web.
 
 

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding scheduled publishing and change sets
-
 
 
 > **Note**

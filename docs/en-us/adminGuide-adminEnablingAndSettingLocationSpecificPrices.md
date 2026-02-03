@@ -15,8 +15,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Enabling and setting location-specific prices
-
 You must enable location-specific pricing on the details page for a menu item. After you do so, you can edit the location-specific prices either on the Price editor page or on the menu item's details page.
 
 

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Undoing cash drawer actions
-
 You can undo cash drawer entries from either the Toast POS device or Toast Web. For example, you made a Pay Out entry to pay for cleaning supplies and took out money from the cash drawer; however, you never purchased the supplies so you want to undo the Pay Out entry and replace the cash in the drawer.
 
 When you undo a cash entry, the original cash entry remains listed in the cash drawer and a new undo cash entry is added. The cash drawer's current balance is adjusted to account for the undone entry. For example, if you undo a Pay Out entry of $20, the original $20 Pay Out entry remains listed in the cash drawer's record, a new $20 Undo Pay Out entry is added, and the cash drawer's balance is increased by $20.

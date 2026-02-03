@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Payout reporting data by payments
-
 Retrieving the payout reporting data by payment is a two-step process. You must:
 
 1. Send a `POST` request to the `/era/v1/payout/payments/day` endpoint to create a request for payout reporting data organized by payment for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier.

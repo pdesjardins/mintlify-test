@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Offline card payments
-
 During offline mode, you can still take card payments. When you process a card payment in offline mode, the Toast POS app takes the card information, encrypts it, and stores it on the Toast POS device. When the device is back online, the system sends the stored card information to the card networks for authorization.
 
 

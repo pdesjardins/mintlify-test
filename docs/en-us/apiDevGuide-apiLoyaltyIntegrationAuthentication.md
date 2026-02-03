@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Loyalty integration authentication
-
 
 
 > **Important**

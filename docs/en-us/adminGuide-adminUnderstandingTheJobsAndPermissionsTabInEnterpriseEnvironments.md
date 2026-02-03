@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding the Jobs and Permissions tab in enterprise environments
-
 The Jobs and Permissions tab on the employee details page has two sections, the Jobs section and the Access Permissions section. These two sections are closely related to one another but behave somewhat differently with respect to enterprise environments.
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-jobs-and-permissions-tab.PNG)

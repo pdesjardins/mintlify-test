@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Versioning a configuration entity does not version its children
-
 Because the menu structure in the Toast platform is also a hierarchy, it is important to distinguish between menu entities and their child entities. In other words, a menu is a configuration entity that contains menu groups, which are configuration entities in their own right. Menu groups contain menu items, which are also individual configuration entities, as are modifiers groups, and modifiers. Versioning a configuration entity does not version its children. It only creates a new version of the entity itself, and that version remains connected to the same child entities as the original version unless you modify it. For example, in the illustration below, the Seafood menu group that is targeted for the Southeast is connected to the same Lobster, Trout, and Salmon menu items as the Original Version. Only the menu group has been versioned, not its child entities.
 
 ![Image](https://doc.toasttab.com/doc/media/children_are_not_automatically_versioned.png)

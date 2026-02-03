@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Scan-to-pay
-
 The Toast tender API scan-to-pay feature allows the Toast platform to automatically identify a guest account. After recognizing a guest, a transaction can be closed to the appropriate location, such as a guest room, without the need to look up a guest’s account.
 
 You can use scan-to-pay in the following ways: 

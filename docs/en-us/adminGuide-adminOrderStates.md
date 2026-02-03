@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Tracking the order state
-
 The order state reflects the payment status and whether the order is completed.
 
 A check has the same state values, since the check contains the price and payment information. In most cases, the check and order state are the same. However, the states sometimes can be different. For example, if you [reopen a check](platformOrdersReopening.html) on a closed order, only the check state changes.

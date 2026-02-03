@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Kiosk workflow
-
 This section describes the user interface workflow for loyalty transactions in Toast Kiosk.
 
 1. On the Kiosk device, the guest taps the START button.

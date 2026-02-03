@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding inheritance
-
 Menus use a hierarchical structure to organize a restaurant's menu offerings. This hierarchical structure allows restaurant guests and employees to quickly and easily locate the items they want to add to an order. The menu hierarchy is described in detail in [Menu hierarchy](adminMenuHierarchy.html) but, at a high level, the hierarchy looks like this:
 
 - Location

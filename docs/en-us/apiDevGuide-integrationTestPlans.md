@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Integration test plans
-
 You can use these test plans to validate your integrations.
 
 #### Gift card integration test plan

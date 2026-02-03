@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Credit card payments
-
 #### Prepaid credit cards
 
 You can accept prepaid credit cards as a form of payment in the Toast platform. The way that you accept prepaid credit cards is similar to accepting traditional credit cards. It is common for restaurant employees to swipe a prepaid credit card without realizing that it is not a traditional credit card. Because prepaid credit cards have a limited available balance, there are important differences in the way the Toast platform processes prepaid credit card payments.

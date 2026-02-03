@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adding a kitchen printer
-
 Every restaurant that uses the Toast platform has at least one kitchen printer.
 
 - In a restaurant that primarily uses kitchen printers, there are usually at least two printers. Each printer acts as the backup for the other.

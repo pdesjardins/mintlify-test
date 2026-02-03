@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating orders
-
 To create an order in the Toast platform, you send a `POST` request that contains a JSON `Order` object to the `/orders` endpoint of the orders API.
 
 Before you `POST` the order, you must retrieve the check prices (calculated by the Toast platform) from the `/prices`endpoint. The `/prices` endpoint is the only reliable and supported way to determine the payment amount for a check.

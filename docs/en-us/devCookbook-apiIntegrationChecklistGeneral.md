@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### How to build a Toast integration
-
 Welcome to the Toast integration community! Here's how to get started building your Toast integration.
 
 #### Initial setup

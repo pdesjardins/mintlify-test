@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Getting stock information using the stock API
-
 You can use the [stock API](https://doc.toasttab.com/openapi/stock/overview/) to retrieve stock inventory information for menu items and modifiers (via their underlying menu item references).
 
 The stock API has the following endpoints for retrieving inventory information:

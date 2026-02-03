@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 3
 ---
 
-### Calculating expected cash deposits
-
 The expected cash deposit for a restaurant is the currency amount of cash that should be available to be removed from a restaurant and deposited in a bank or other financial institution for a business day. You can calculate the expected deposit for a business day using information about cash transactions that you get from the orders API and information about cash collected and cash payments that you get from the cash management API. For more information about the orders API, see [Orders API overview](portalOrdersApiOverview.html).
 
 The following lists describe the components of the expected cash deposit for a Toast POS restaurant.

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Disabled rates
-
 You can deactivate any existing tax rate by changing its Type configuration to Disabled. After a tax rate has been disabled, it is not used by the Toast platform to calculate tax amounts for orders.
 
 An example of when you may want to disable a tax rate is if you are in the process of creating a new tax rate, and you disable it until because but it is not ready for use.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Standard API access FAQs
-
 | **Q:** | Why is the "Manage Credentials" interface not visible? | 
 | **A:** | You must have the "Manage Integrations" permission to view the "Manage Credentials" interface. | 
 

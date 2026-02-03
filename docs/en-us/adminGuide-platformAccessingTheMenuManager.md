@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Accessing the menu manager
-
 Follow the procedure below to access the menu manager.
 
 **Procedure 8.42. To access the menu manager**

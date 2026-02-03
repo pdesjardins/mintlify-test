@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Accessing menu builder pages for multi-location restaurants
-
 In multi-location environments, you access the menu builder pages by first going to the classic page for a menu or menu item, and then using a link in a banner at the top of the page to switch to the new experience.
 
 **Procedure 8.38. To access a menu or menu item details page in the menu builder (multi-location)**

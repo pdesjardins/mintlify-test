@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating a request for guest reporting data
-
 Send a `POST` request to the `/era/v1/guest/payments/\{timeRange\}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).

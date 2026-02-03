@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Analytics API overview
-
 
 
 > **Important**

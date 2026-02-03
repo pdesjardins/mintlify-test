@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Check management overview
-
 You can manage your checks on the Payment Terminal screen on the Toast POS app. You can manage your checks by viewing guest checks and payments, sorting and filtering checks, or by voiding, closing, or reopening checks. On the POS home screen, select Mode \> Payment Terminal to open the Payment Terminal screen.
 
 On the Payment Terminal, checks are organized by status:

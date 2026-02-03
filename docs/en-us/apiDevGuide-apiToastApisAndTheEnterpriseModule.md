@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast APIs and the enterprise module
-
 Using Toast Web, you define configuration for how your Toast platform behaves. This includes such tasks as defining menus, kitchen set up, dining area set up, applied tax rates, and so on. You must publish this configuration to make it available to the Toast POS devices used throughout your restaurant. For information about how to publish configuration changes, see [Publishing updates to restaurant configuration](platformPublishingOverview.html).
 
 The enterprise module is an optional module that allows restaurant chains with multiple locations to share configuration across locations, for example, a common set of menu items. Core to the enterprise module's functionality is the concept of versions, which allow your locations to share some aspects of a configuration entity (a menu, menu item, discount reason, tax rate, and so on) while maintaining the ability to override other aspects. For example, your locations may share a Main Course menu group that includes chicken, salmon, lobster, and steak menu items. One location may not be able to serve lobster, so it would use a version of the Main Course menu group that omits the lobster menu item.

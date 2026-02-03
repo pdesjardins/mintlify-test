@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast platform access types
-
 Restaurant employee access to the Toast platform's components is categorized into two groups:
 
 - Administrative

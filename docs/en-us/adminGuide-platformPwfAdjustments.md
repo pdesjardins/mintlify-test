@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adjustments
-
 #### Voids
 
 Voiding a check, item or payment is the process of removing an item or payment from a check or removing the check altogether. Check items can only be voided if that have been sent to the kitchen, and payments can only be voided if it was successfully processed.

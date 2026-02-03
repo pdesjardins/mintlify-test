@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Analytics API rate limits
-
 The rate limit used by an endpoint depends on the endpoint and its time range. The following table lists the endpoints of the analytics API, organized by endpoint, method type, and rate limit. Notes are included when applicable.
 
 

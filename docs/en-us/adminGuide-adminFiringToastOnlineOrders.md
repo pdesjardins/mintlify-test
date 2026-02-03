@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Firing Toast online orders
-
 On the Online ordering page, you can choose when throttled Toast Online Ordering orders fire to the kitchen. From the Toast Web, choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page. You can choose either:
 
 - No, do not fire throttled ASAP orders to the kitchen. Orders are fired based on the throttling delay.

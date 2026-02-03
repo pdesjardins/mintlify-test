@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Creating an assembly line
-
 An assembly line is created using prep stations that are then moved into the correct sequence. Before you create an assembly line, make sure that:
 
 - You [created prep stations](adminAddPrepStation.html).

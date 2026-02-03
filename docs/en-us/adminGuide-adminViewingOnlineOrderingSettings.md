@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing online ordering settings
-
 You can quickly view your Toast Online Ordering settings on the Toast Web home page. On the home page, in the TOAST ONLINE ORDERING section, you can view your takeout and delivery settings. Published changes made to your takeout or delivery settings are displayed in this section. The following information is displayed:
 
 - Takeout quote time and status

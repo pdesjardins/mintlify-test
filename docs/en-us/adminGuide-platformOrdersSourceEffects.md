@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Effect of order source on order validation and processes
-
 The order source indicates how the order was placed.
 
 - Created at the restaurant on some form of Toast device such as a handheld device or a kiosk.

@@ -15,8 +15,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Assigning restaurant group-level permissions
-
 Restaurant group-level permissions are required for any employee that needs to:
 
 - View reports for groups of restaurants.

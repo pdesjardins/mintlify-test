@@ -16,8 +16,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Configuring an Autofire device
-
 
 
 > **Note**

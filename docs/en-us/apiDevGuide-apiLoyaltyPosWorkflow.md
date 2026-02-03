@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### POS workflow
-
 This section describes the user interface workflow for loyalty transactions in the Toast POS app.
 
 1. The Rewards button is listed as a menu group. When you open the Rewards group, you see the Lookup Customer button.

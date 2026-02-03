@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Authentication and restaurant access
-
 Toast APIs use the [OAuth 2](https://tools.ietf.org/html/rfc6749)client-credentials grant type to authenticate access to secure resources. When you send requests to secure API resources, you include an OAuth 2 bearer authentication token in the Authorization HTTP header field of your request.
 
 

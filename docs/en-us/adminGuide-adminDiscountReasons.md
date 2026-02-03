@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Requiring a discount reason for a discount
-
 You can configure a discount to require the restaurant employee to select a discount reason. A discount reason provides additional context for the applied discount.
 
 For example, you might configure a general 5% discount that can be used for different reasons, such as in response to a customer complaint or as an employee discount.

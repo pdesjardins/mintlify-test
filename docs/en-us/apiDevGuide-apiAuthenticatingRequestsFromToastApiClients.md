@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Authenticating outbound API requests
-
 Your Toast outbound API integration can verify the authenticity of the REST API requests you receive from the Toast platform. When you implement [a Toast outbound API integration](apiUsingToastOutboundApis.html), the Toast platform sends REST requests to your server. To maintain security of your integration, you must verify that each request was sent from the Toast platform client.
 
 #### About the outbound API authentication process

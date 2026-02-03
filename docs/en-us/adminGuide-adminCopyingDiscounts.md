@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Copying discounts
-
 You can copy an existing discount. Except for the discount name, the new discount is initially identical to the discount from which it was copied. You can then make configuration changes to the new discount.
 
 Copying a discount saves you from having to create a completely new discount that shares similar configuration properties with existing discounts.

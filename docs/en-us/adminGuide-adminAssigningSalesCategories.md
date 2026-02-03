@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Assigning sales categories
-
 The Sales Summary and other Toast reports use sales categories to create a breakdown of your sales, organized by sales category, for example, Food, Drinks, Retail, and so on.
 
 Some points to keep in mind when using sales categories:

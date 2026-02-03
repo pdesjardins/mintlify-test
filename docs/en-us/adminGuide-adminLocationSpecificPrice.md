@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Location-specific price
-
 **Applies to:** Menu items (including [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference))
 
 Location-specific pricing only applies to customers who use the enterprise module.

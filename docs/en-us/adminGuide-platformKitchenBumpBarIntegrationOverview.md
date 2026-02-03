@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Bump bar integration overview
-
 A bump bar is an external piece of hardware that allows employees to navigate the Kitchen Display System (KDS) device without using the touchscreen. This is useful when a touchscreen is not in a convenient location (such as placed up high or away from the station), or when dealing with ingredients and equipment (making it difficult to use a touchscreen). Additionally, it provides a more consistent experience for employees who are accustomed to using a bump bar.
 
 Toast KDS devices support specific third-party bump bars. Please refer to the [Toast-specific website](https://krscorporation.com/collections/toast) for ordering the Toast-supported bump bar.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 3
 ---
 
-### Determining if a menu item or modifier contains alcohol
-
 There are situations where additional information regarding the alcohol content of a menu item or modifier is needed to determine whether an order contains alcohol and therefore requires additional handling. For example, local laws might require an ID check or prevent the accrual of loyalty points for orders containing alcohol. For these situations, the menus API provides a `contentAdvisories`value for `MenuItem` and `ModifierOption` objects. This `contentAdvisories` value holds a `ContentAdvisories` object that contains important information about the contents of a menu item or modifier.
 
 The `ContentAdvisories` object contains an `alcohol` value containing an `Alcohol` object, which encapsulates important information pertaining to the alcoholic aspects of a menu item or modifier. The `Alcohol` object has one value, `containsAlcohol` string, which may be one of the following:

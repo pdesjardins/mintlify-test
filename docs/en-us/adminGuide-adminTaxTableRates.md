@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Tax table rates
-
 Some states have sales taxes that are determined using tax tables made up of tax brackets. Each tax bracket consists of a dollar amount range and an associated tax amount for all sales that fall within that range.
 
 For example, a tax bracket with a range from $9.34 to $9.50 could have a tax of $0.57 for any sale within that range. Thus, a check subtotal for $9.36 would have a tax of $0.57 and a different check subtotal for $9.48 would also have the same $0.57 tax.

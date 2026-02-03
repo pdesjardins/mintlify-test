@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast product channel support for advanced pricing features
-
 It is important to note that not all advanced pricing features are supported on all Toast product channels. For example, Toast Online Ordering does not support time-specific or open prices so you should not use those pricing strategies for menu items that will be displayed on your Toast Online Ordering website. Before using an advanced pricing feature, check the table below to ensure that the strategy you want to use is supported by the Toast product channels where those menu items will be visible.
 
 | Pricing Feature | Supported Product Channels | 

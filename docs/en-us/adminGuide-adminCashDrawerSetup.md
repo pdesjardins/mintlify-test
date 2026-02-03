@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Setting up cash drawers
-
 Cash drawers are physically attached to printers. When employees perform actions that require cash transactions, the Toast platform opens the cash drawer.
 
 #### Cash drawer names

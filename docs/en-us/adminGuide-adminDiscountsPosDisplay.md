@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring the discount display on the Toast POS app
-
 On the Toast POS app, to apply a discount, a restaurant employee taps the Dscnt button to display the available discounts, then taps the discount to apply.
 
 In the Advanced Settings section of the discount configuration page, the following settings control how the discount is displayed on the Toast POS app.

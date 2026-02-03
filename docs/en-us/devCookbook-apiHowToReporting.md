@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a data warehouse integration
-
 Follow the steps below to build a data warehouse integration with Toast.
 
 This type of integration provides restaurants with greater visibility into key information that will help them run their business.
@@ -161,7 +159,7 @@ After you decide what to display in your reports, build a retrieval of transacti
 
 | Information type | Transactional information | Additional information | 
 | --- | --- | --- |
-| Orders | Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API.[More information](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders)
+| Orders | Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API.[More information](apiOrdersGetDetailedInfoAboutMultipleOrders.html)
 
 > **Note**
 > 

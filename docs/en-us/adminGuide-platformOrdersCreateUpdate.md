@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### How orders are created and updated
-
 The Toast platform supports multiple options for creating and updating orders.
 
 - Using the Toast POS app on a Toast device.

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Fixed price
-
 **Applies to:** Modifier groups
 
 With the Fixed Price pricing strategy, you set a single, constant price for all modifiers in a modifier group. For example, if you set a fixed price of $1 for the Toppings modifier group, all of the toppings within the group (pepperoni, sausage, onion, mushrooms, and so on) cost $1.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating a request for aggregated sales reporting data
-
 There are two ways to create a request for aggregated sales reporting data: you can request aggregated sales reporting data for a custom time range or a specific time range. The type of time range you use also determines the rate limit for this endpoint and method type. The rate limit for custom, `month`, and `year`time ranges is 10 requests per hour. The rate limit for `day`and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 You must include the `startBusinessDate` and `endBusinessDate` properties in the message body to identify the start and end dates of your time range, in `YYYYMMDD`format.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Grouping restaurants conceptually
-
 You can use restaurant groups to group locations that share a concept. For example, some of your locations may have a grill and others may not. You can add the locations that have a grill to a Grill Locations restaurant group, then create a Grill menu with items that require a grill to prepare and set the menu's target to the Grill Locations restaurant group. This configuration makes the grill menu items available only in locations that can actually prepare them. The other menus you create can be targeted at the corporate restaurant group, making them available to all locations.
 
 In the example below, the Boston location appears twice in the restaurant group hierarchy, in the Corporate \> Franchise Owner 1 \> Northeast group and in the Corporate \> Grill Locations group. This means that the Boston location will have access to configuration entities whose target is set any of the following:

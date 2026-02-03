@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Setting the availability date range for a discount
-
 For any discount, you can configure time-based availability criteria that controls when that discount is available for use:
 
 - One (and only one) date range. For example, an Oktoberfest discount is available from September 19, 2020 through October 4, 2020.

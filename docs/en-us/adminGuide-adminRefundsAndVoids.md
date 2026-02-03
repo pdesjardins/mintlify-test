@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Refunds and voids
-
 
 
 > **Note**

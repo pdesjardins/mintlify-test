@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adding payments to an existing check
-
 
 
 > **Important**
@@ -34,7 +32,7 @@ For more information, see [Post payments](https://doc.toasttab.com/openapi/order
 
 **Procedure 2.6. To add payments to a check in an existing order**
 
-1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersFindingAnOrderGuid).
+1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](apiOrdersFindingAnOrderGuid.html).
 
 
 2. Authorize the credit card payments that you are adding. For more information, see [Credit card payments](authorizingCcPayments.html).

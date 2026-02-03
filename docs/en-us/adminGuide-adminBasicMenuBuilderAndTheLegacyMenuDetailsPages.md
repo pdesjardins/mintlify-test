@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu builder and the classic menu details pages
-
 The Toast platform currently has two workflow for menu creation, the menu builder workflow and the classic menu workflow. You access both workflows through Toast Web. The menu builder is a new, easier-to-use menu creation tool that is designed to help you quickly create and manage your menus. A portion of the menu builder page for editing a menu item is shown below:
 
 ![A portion of the menu builder page for a menu item.](https://doc.toasttab.com/doc/media/menu-builder-edit-item-page.png)

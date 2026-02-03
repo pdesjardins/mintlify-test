@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Assigning tax rates and tax behavior
-
 During the on-boarding process, you specify the tax rates that apply to your restaurant location. By default, these tax rates are inherited by any menus you create for the restaurant. According to the rules of menu inheritance, the tax rates also flow down to your menu groups, subgroups, and menu items in the following ways:
 
 - Menu groups inherit their tax rates from their parent menus.

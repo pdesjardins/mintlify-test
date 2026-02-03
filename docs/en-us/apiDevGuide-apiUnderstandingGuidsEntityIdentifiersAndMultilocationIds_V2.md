@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding GUIDs, referenceIds, and multiLocationIds
-
 All of the objects returned by the menus API have `guid` values. Menus, menu groups, menu items, modifier groups, and modifier options have `multiLocationId` values. Modifier groups, modifier options, and premodifier groups also have `referenceId` values. All three values contain IDs, however, they are used for different purposes. The sections below describe each ID type and what they are used for.
 
 - [guid values](apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2.html#apiGuidValues_V2)

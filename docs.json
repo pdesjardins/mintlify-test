@@ -1003,7 +1003,19 @@
                                     "docs/en-us/apiDevGuide-portalOrdersApiOverview",
                                     "docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary",
                                     "docs/en-us/apiDevGuide-apiOrdersFirstOrder",
-                                    "docs/en-us/apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex"
+                                    "docs/en-us/apiDevGuide-apiOrdersErrors"
+                                ]
+                            },
+                            {
+                                "group": "Getting order information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiOrdersGetScopes",
+                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder",
+                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersNetSalesCalculation",
+                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation",
+                                    "docs/en-us/apiDevGuide-apiOrdersFindingAnOrderGuid",
+                                    "docs/en-us/apiDevGuide-apiDailyOrderForTrackingExcessFood"
                                 ]
                             },
                             {

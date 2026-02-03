@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Offline payments overview
-
 40 seconds after no Internet connectivity or during a Toast outage, your Toast POS device enters offline mode. In offline mode, some payment options still function as expected; unavailable payment types are inaccessible and grayed out, as seen below.
 
 ![Image](https://doc.toasttab.com/doc/media/payment_offline.png)

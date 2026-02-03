@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Stock webhook
-
 The `stock` webhook allows you to receive updates when the inventory status of a menu item or a modifier (via its item reference) changes.
 
 

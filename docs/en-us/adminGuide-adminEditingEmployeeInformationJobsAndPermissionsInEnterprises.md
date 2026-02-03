@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Editing employee information, jobs, and permissions in enterprises
-
 For enterprises with multiple locations, it is common that one employee may need to make changes to another employee's permissions, basic information, or jobs and wages at another location. The Toast platform has a set of rules it uses to determine what changes you can make to other employees. This section describes those rules.
 
 #### Minimum permission configuration for enterprises

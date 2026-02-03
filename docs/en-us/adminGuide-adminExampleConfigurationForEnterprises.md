@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Example configurations for enterprises
-
 While every enterprise has its own requirements for employee, job, and permission configuration, this section provides a detailed example of a common approach. It includes the following types of employees:
 
 - A *super user* that has full permissions at all locations in the restaurant group hierarchy. The super user can manage employees for the entire enterprise and edit their permissions. This user can also edit any entity in Toast Web, including menu entities [owned](ownersAndPermissions.html) by the corporate restaurant group.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Selecting an individual menu item as a required item
-
 You can choose any individual menu item in your restaurant menu configuration to be a required item for a discount. The item might be one of a list of items, or might be part of a combo group of items.
 
 To make the selected item more specific, you can specify eligible sizes or modifiers.

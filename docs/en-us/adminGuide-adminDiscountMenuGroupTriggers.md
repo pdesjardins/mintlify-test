@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Selecting a menu group as a required item
-
 When you search for an item for a discount, the results include matching items, menu groups, and menus.
 
 ![Search list of matching items.](https://doc.toasttab.com/doc/media/discount-item-search-mixed-results.png)

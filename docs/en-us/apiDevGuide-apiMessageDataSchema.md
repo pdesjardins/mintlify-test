@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Message data schema
-
 Webhook messages are always sent as JSON payloads in the body of POST requests. The message is sent with `Content-Type:
     application/json`.
 

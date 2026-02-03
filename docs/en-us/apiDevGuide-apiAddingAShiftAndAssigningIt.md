@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adding a shift and assigning it to an employee
-
 To add a shift and assign it to a restaurant employee, send a `POST` request to the `/labor/v1/shifts` endpoint of the labor API.
 
 The response provides information about the shift, including the Toast platform GUID.

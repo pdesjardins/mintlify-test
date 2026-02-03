@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Visibility settings
-
 Visibility settings are available in several places in Toast Web:
 
 - In the Properties section of the classic details pages:

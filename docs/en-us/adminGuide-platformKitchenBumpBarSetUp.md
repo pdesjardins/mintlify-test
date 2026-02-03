@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Setting up the bump bar
-
 After the orientation of the bump bar is chosen and placement of the bump bar in the kitchen is finalized, you can connect the bump bar to the KDS device. This process is different depending on whether you use a bump bar with a USB cable or a wireless bump bar. For information about how to set up a bump bar with a USB cable, see [Setting up a bump bar with a USB cable](platformKitchenBumpBarSetUp.html#platformKitchenBumpBarUSBSetup). For information about how to set up a wireless bump bar, see [Setting up a wireless bump bar](platformKitchenBumpBarSetUp.html#platformKitchenBumpBarWirelessSetup).
 
 #### Setting up a bump bar with a USB cable

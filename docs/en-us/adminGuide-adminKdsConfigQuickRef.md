@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### KDS configuration quick reference
-
 The kitchen display system (KDS) offers a number of options for changing the way information reaches your employees.
 
 This section presents a quick reference guide to the changes you can make to better meet the needs of your back of house employees. A series of tables present options for how the KDS device presents information, how you make a change, whether the setting affects all devices or an individual device, and the [access permissions](adminPermissions.html) that you need.

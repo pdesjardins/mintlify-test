@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Using pricing strategies with location-specific prices
-
 Location-specific prices do not need to be limited to a simple currency amount (for example, $10). You can use any of the pricing strategies available for menu items when you are setting a location-specific price, including Base Price, Size Price, Menu Specific Price, Time Specific Price, and Open Price. For example, you could use a Time Specific Price to specify that, on weekends at your Boston location, a menu item is sold for a special reduced price.
 
 **Procedure 5.10. To use another pricing strategy for a location-specific price**

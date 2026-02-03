@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Retrieving the aggregated sales reporting data
-
 Send a `GET` request to the `/era/v1/metrics/\{reportRequestGuid\}` endpoint to retrieve aggregated sales reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 Optionally, you can choose to include a `fetchRestaurantNames` query parameter. The `fetchRestaurantNames` query parameter set to `true` adds the restaurant name to the aggregated sales reporting data. If set to `false`, it does not add the restaurant name, which acts the same as not including the `fetchRestaurantName` query parameter.

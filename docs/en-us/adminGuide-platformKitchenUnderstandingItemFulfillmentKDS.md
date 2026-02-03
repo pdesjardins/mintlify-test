@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding item fulfillment
-
 For restaurants using KDS devices, you can mark a ticket or item as fulfilled. When an item assigned to a single prep station is fulfilled at the prep station level, a green check mark appears next to it on both prep station and expediter KDS device tickets. Once all items on a ticket or the ticket itself is fulfilled at the prep station, the ticket disappears from the prep station KDS device. When all items on an expediter ticket are fulfilled at their prep stations, the ticket turns green on the expediter KDS device. Once fulfilled at the expediter, the ticket disappears from the expediter KDS device.
 
 

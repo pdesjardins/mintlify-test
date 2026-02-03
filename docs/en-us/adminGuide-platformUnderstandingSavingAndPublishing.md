@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding saving and publishing
-
 To fully understand how publishing behaves on the Toast platform, you must understand the difference between saving a configuration change and publishing it. Making the changes you specify in Toast Web available to restaurant employees and guests is a two-step process that requires both, as described below:
 
 - Save your changes.

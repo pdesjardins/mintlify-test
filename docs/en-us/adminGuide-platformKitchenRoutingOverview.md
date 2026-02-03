@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Routing overview
-
 Prep stations are areas of your restaurant where employees prepare, plate or package, and coordinate delivery of guest orders. It is important to [create these prep stations in Toast Web](adminAddPrepStation.html), and assign kitchen printers and kitchen display system (KDS) devices in these areas so that you can assign them to menus, menu groups, menu items, and modifiers. This allows you to route items directly to the appropriate prep station once an order is sent to the kitchen. However, you may want some items to be sent only to prep stations, expediters, or both.
 
 

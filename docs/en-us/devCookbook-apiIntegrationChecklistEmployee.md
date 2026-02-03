@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building an employee management integration
-
 Follow the steps below to build an employee management integration with the Toast platform.
 
 This integration allows employee information to flow seamlessly between your system and the Toast platform. If you want to build additional labor reporting functionality, see [Building labor reports](apiIntegrationChecklistPayroll.html).

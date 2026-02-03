@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding data discrepancies
-
 Data discrepancies can occur when orders are modified. When an order is modified, the changes are updated in the analytics data. The time until the analytics data reflects this update depends on the when the order is modified and when the order was originally scheduled for fulfillment:
 
 

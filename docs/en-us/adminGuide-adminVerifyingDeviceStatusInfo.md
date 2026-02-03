@@ -14,8 +14,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Verifying device status and information
-
 Every screen on the Toast POS app provides access to a Device status option. The Device status option contains information that you can use to verify the status and details of your Toast POS devices, investigate problems, and provide additional information to Toast support when necessary.
 
 To access the Device status option, select the overflow menu on the top right (the ⋮icon), and then Device status. The device status dialog opens. The dialog contains the following tabs:

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating a request for labor reporting data
-
 You can request labor reporting data for a single day, week, or month. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for a `month` time range is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 You must include the `startBusinessDate` and `endBusinessDate` properties in the message body to identify the start and end dates for the time range, in `YYYYMMDD`format. For the `day` time range, the dates must be the same.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Webhook basics
-
 This section uses the following webhook terms and concepts:
 
 | Term | Definition | 

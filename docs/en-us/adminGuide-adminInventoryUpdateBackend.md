@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Changing inventory status on the menu item details page
-
 You can change the inventory status on the menu item details page in Toast Web.
 
 **Procedure 8.134. To change the menu item's inventory status from Toast Web**

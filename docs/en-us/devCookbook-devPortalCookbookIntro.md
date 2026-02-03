@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-# Integration how-to guides
-
 Use these start-to-finish recipes to get your integration implemented and live. Follow best practices and make sure you don't miss a step.
 
 - **Your Toast integration **What it takes to get your integration live and running on the Toast platform.

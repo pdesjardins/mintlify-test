@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Restaurant groups and sub-groups
-
 You use restaurant groups and sub-groups to organize your locations into a hierarchy. For example, you could group locations by geographic area or by franchise owner or by some other characteristic, such as locations that have a grill or a bar. As you create your configuration entities in Toast Web, you can specify which portions of the hierarchy will use your entities and which users in the hierarchy will be allowed to edit those entities.
 
 

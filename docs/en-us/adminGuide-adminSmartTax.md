@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Smart tax
-
 The smart tax feature allows a restaurant to specify that a menu item's price includes tax when it is ordered in one section of the restaurant and does not include tax when it is ordered in another section of the restaurant. For example, a guest can order an item at either the bar or in the main dining room. To prevent bartenders from having to handle coins, which can slow down service, and to make tipping easier, you want the price of the item to be a whole number that includes tax when it is ordered at the bar. In the main dining room, where speed of service is less of a concern, you don't want the item's price to include tax, so that you don't lose out on the extra revenue.
 
 To better understand the effect of tax inclusion on your revenue, consider an item that has a price of $10 and a tax rate of 7%. When tax is included, the Toast platform calculates a price and tax combination that equals the price you have set but also covers any applicable taxes. In this case, the guest pays $10 ($9.35 for the item and $0.65 for the tax) and your revenue is $9.35:

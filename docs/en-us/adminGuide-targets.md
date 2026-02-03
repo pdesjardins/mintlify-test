@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Targets
-
 When you create a version of a configuration entity, you specify a target. The target dictates which locations have access to that version of the entity. When you set a configuration entity's target, you are specifying a particular point in the restaurant group/location hierarchy. The entity will be accessible to restaurant groups and locations from that point in the hierarchy on down.
 
 For example, in the illustration below, a configuration entity whose target is set to “Corporate” is available to all locations because Corporate is at the top of the hierarchy and Corporate’s children inherit Corporate’s entities unless a more specific version exists. Moving down the hierarchy, a configuration entity whose target is set to Franchise Owner 1 is available to the Northeast and Southeast restaurant sub-groups and, by extension, Boston, NYC, Burlington, Atlanta, and Charlotte. A configuration entity whose target is set to Burlington is only available at the Burlington location.

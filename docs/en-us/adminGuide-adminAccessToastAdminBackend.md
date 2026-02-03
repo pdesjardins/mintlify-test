@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using Toast Web
-
 You use Toast Web to review and change configuration settings for your restaurant. Toast Web is a website that you sign into with your Toast account credentials. For example, you can edit menus, add restaurant employees, and view reports and analytics from Toast Web.
 
 To access Toast Web, you must have email address-password user credentials and one or more of the Restaurant Adminaccess permissions. You can access Toast Web from a web browser or from the Toast POS app.

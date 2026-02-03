@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Copying settings using the settings copy feature
-
 The settings you can copy using the settings copy feature are organized by the page that the settings can be found on, and then by section. You can choose to copy all settings on a page or section on that page by selecting the checkbox next to the page or section name.
 
 Each page category includes a redirect icon to the right of the page name that redirects to the settings page in Toast Web. Under each page category is a list of settings that can be copied using the settings copy feature. Page categories, sections, and settings have tags to provide additional information. The tags include the following:

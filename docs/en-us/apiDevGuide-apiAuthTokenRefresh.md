@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Refreshing authentication tokens
-
 The `exp` value encoded in the `accessToken`within the authentication token response indicates the UNIX time when the token will expire; UNIX time represents the number of seconds past 1970-01-01 00:00:00Z. You refresh your integration's authentication token to get a new token that you can use after the existing one expires.
 
 Authentication tokens are valid for one day. Multiple requests for authentication tokens during the same period of token validity will return the same token and the same expiration time. To ensure that you receive an authentication token with an expiration time that is later than the expiration time of your previous authentication token, your client *must* request a new authentication token during the last one-minute period that the previous authentication token is valid, or re-authenticate once the previous token expires. 

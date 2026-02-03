@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding how and when to use versioning
-
 As you create your enterprise's configuration in Toast Web, you should consider the individual configuration entities you are creating, what your enterprise's requirements are, and whether those entities benefit from versioning. Several scenarios are possible and they are described in the following sections.
 
 #### Creating a single configuration entity shared by all locations

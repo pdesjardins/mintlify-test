@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Offline mode
-
 Toast devices use offline mode when experiencing a connection issue. Offline mode indicates Toast devices communicate with each other through the Toast platform cloud-based services.
 
 

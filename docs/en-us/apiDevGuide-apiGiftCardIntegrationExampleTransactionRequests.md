@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Example gift card transaction request
-
 The following example shows an example gift card integration API request.
 
 **Example 10.3. Gift card integration API transaction request**

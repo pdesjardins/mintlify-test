@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu manager permissions
-
 The menu manager is controlled by three permissions:
 
 - [4. Restaurant Admin \> 4.5 Edit Full Menu](platformMenuManagerPermissions.html#platformMenuManagerMenuEditingPermissions)

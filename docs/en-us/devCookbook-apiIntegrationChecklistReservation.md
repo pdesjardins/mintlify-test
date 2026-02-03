@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a reservation integration
-
 Follow the steps below to build a reservation integration with the Toast platform.
 
 This integration allows you to let guests place reservations at Toast restaurants, and provides restaurants with reporting on guest ordering preferences and order analytics.

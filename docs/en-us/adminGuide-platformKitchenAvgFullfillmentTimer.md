@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Understanding average fulfillment timers
-
 The Toast platform can track the time it takes for prep stations and expediter KDS devices to fulfill the ticket or individual items. The Average Fulfillment Timer setting displays the average fulfillment time for prep stations and expediter KDS devices to fulfill tickets or items. The fulfillment time is the time it takes between when an item or ticket is fired and when it is fulfilled. For prep stations, this is when it is fulfilled at the prep station level. For expediters, this is when it is fulfilled at the expediter level, which may include two levels of expediters if using two-level fulfillment.
 
 On a prep station KDS device, the average fulfillment timers are included for the prep stations assigned to that device.

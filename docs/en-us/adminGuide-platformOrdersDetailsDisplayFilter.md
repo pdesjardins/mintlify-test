@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Displaying and filtering the reports
-
 #### Required permission for the reports
 
 To view the Orders or Order details report, you must have the Restaurant Admin \> Sales Reports permission.

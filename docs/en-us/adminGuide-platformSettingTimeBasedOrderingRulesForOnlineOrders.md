@@ -16,8 +16,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Setting time-based ordering rules for online orders
-
 In the Time-based ordering rules section of a menu item's details page, you can specify rules for your online orders:
 
 - Minimum lead time: Allows you to specify the number of hours in advance a guest must order the menu item online.

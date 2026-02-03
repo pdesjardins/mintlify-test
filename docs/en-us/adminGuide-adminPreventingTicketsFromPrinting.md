@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Preventing tickets from printing or displaying
-
 Certain types of items and prep stations do not need to use kitchen tickets to facilitate fulfillment. In these situations, you can prevent tickets from being printed. You can do this by either:
 
 - *Creating a virtual prep station to send items to.* This is useful for specific menu items that do not have to be fulfilled by the kitchen. For example, if a restaurant sells merchandise, employees in the kitchen are not responsible for fulfilling them and do not need to see a kitchen ticket. This method applies to both KDS and printed tickets.

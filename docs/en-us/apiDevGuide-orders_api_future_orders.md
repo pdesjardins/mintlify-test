@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Scheduling future orders
-
 When you use the orders API to create an order, you can schedule the order to be fulfilled in the future. For example, you might send a request in the morning to schedule a takeout order for dinner, or set up a large delivery order a few days in advance.
 
 

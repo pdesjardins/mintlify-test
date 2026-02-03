@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### KDS devices
-
 This applies to restaurants using KDS devices. For more information about offline mode, see [Offline mode overview](adminOfflineModeOverview.html). The kitchen display system (KDS) uses *offline mode with local sync*. For more information, see [Offline mode with local sync](platformOfflineModeLocalSync.html).
 
 Different outage types result in different limitations for your KDS device. For more information about the different types of outages, see [Disruption types](adminOfflineModeOverview.html#platformOfflineDisruptionTypes).

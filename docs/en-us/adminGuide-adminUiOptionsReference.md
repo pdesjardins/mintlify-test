@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### UI options settings
-
 The settings on this page customize how employees interact with Toast POS devices.
 
 To review and change settings on the Front of house \> Order screen setup \> UI options page, you must have the Web Setup \> 6.6 Restaurant Operations Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).

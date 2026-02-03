@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast platform software components
-
 The Toast platform includes the following software components.
 
 - Toast Web website, accessible from any internet-connected device, for restaurant-wide configuration, real-time reporting, and in-depth analytics.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Effect of refunds in the kitchen
-
 In Toast's kitchen products, refunded items are handled differently from voided or removed items.
 
 Issuing a refund does not fire a new ticket to the kitchen.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menus API returns published data only
-
 To conserve the use of system resources, the menus API service only generates the JSON that it returns when a menu-related change has been made and published. This means that:
 
 - The menus API returns published data only.

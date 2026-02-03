@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Adding or updating discounts
-
 From the Discounts page, you can add and update discounts.
 
 To configure discounts for a restaurant, a user must have the 6. Web Setup \> 6.1 Discounts Setup[permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable).

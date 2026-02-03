@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Gift card integration overview
-
 This section explains how to implement an integration with the Toast platform that allows the Toast POS to process gift card transactions using your gift card provider service.
 
 You can integrate your gift card provider service with the Toast platform by implementing an API that can handle REST HTTP requests that the Toast platform sends to it. The Toast gift card API specification describes the required functionality of a REST web service that will handle Toast POS gift card transactions. For more information, see reference documentation in the [gift card integration API reference documentation](https://doc.toasttab.com/openapi/giftcards/overview/).

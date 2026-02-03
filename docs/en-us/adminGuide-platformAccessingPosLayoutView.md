@@ -15,8 +15,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Accessing POS layout view
-
 You can access POS layout view from either the [menu manager](platformAccessingPosLayoutView.html#platformToAccessPosLayoutViewFromTheMenuManager) or the [menu builder](platformAccessingPosLayoutView.html#platformToAccessPosLayoutViewFromTheMenuBuilder).
 
 

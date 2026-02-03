@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Guest order fulfillment status webhook
-
 #### Guest order fulfillment status webhook overview
 
 The `guest order fulfillment status` webhook sends a message when a restaurant's kitchen moves an order from one stage in the fulfillment process to the next stage. Updates from the `guest order

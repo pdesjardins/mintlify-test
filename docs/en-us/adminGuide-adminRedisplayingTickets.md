@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Redisplaying tickets with recall and unfulfill
-
 When you use a KDS device to keep track of orders, mistakes or changes sometimes happen. You might mark a ticket as fulfilled that is really still in progress, a recently fulfilled item (or entire order) might need to be prepared again, or an item was changed by a guest after it was fulfilled by the kitchen. KDS devices offer the following features to recover a ticket that was marked as fulfilled and redisplay it on the KDS device.
 
 To recover a ticket, you have the option to either recall or unfulfill a ticket. Recall brings back the ticket you most recently fulfilled on that KDS device. Unfulfill brings back a specific ticket that you choose which was fulfilled within the configured [recently fulfilled timeframe](adminKitchenDiningRoomReference.html#configViewRecentlyFulfilled).

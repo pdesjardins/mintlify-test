@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### FAQs
-
 | **Q:** | I’m offering both takeout and delivery dining options for online ordering. Why am I only seeing the quote time for one of them? | 
 | **A:** | The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:- You have selected Delivery as a dining option in the Takeout/deliverypage in Toast Web. From Toast Web, choose Takeout & delivery \> Takeout/delivery to open the Takeout/delivery page.
 - You have turned on the Deliveryor Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.

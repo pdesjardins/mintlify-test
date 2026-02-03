@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Message signing
-
 The Toast platform implements message signing that allows you to validate the source of data sent to your webhook endpoint.
 
 

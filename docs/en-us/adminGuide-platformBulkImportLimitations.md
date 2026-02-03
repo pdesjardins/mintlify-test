@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Bulk menu import limitations
-
 The bulk menu import tool has the following limitations:
 
 - Menu items created with the basic template must use the `BASE` pricing strategy.

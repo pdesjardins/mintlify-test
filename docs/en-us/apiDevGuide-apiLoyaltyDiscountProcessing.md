@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Reward offers processing
-
 Loyalty reward offer redemptions are handled entirely by your organization. Your loyalty program is responsible for accepting or rejecting the redemptions as requested by the Toast platform and the POS will honor them as reported from your loyalty program integration. The Toast POS applies reward redemptions as discounts.
 
 - When the Toast POS sends an inquire request to your loyalty program integration, it includes all of the discounts that are currently applied to a check. Your loyalty program integration can use these to determine whether those discounts affect the applicability of your loyalty reward discount.

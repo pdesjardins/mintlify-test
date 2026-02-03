@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding import operations
-
 The first column in each row of an import spreadsheet is called Operation. It defines whether the row is for a `CREATE` operation, an `UPDATE` operation, or an `ATTACH` operation:
 
 ![Example import spreadsheet showing the location of the Operation column.](https://doc.toasttab.com/doc/media/menus-bulk-import-operations.png)

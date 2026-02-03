@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Versions
-
 To allow your locations to share some aspects of a configuration entity while maintaining the ability to override other aspects, you can use versions. For example, consider the following Seafood menu group made up of four menu items, Lobster, Trout, Salmon, and Shrimp:
 
 ![Image](https://doc.toasttab.com/doc/media/original_version.png)

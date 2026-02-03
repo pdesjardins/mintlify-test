@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-# Developing a Toast integration
-
 Use these guides to help you use Toast APIs and build a successful integration with the Toast platform.
 
 - **Getting started **Start by identifying your integration type, then learn how to make sure your integration works smoothly with the Toast platform.

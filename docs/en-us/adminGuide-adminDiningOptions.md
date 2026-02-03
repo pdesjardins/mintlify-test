@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Dining options
-
 A dining option is a type of ordering and fulfillment workflow available at a restaurant location. The dining options you configure for your restaurant on the Toast Web Dining options page are displayed as available options on Toast POS devices and Toast Online Ordering platforms. Some Toast platform functionality varies based on dining option behavior for an order.
 
 Restaurant employees placing orders using a Toast POS device, and guests placing orders on online ordering channels select a dining option such as dine-in, delivery, or takeout from the list of available options. The dining option informs the kitchen whether they should plate or package the prepared food.

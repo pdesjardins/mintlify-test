@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### KDS workflow with routing rules
-
 
 
 > **Note**

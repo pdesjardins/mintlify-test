@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding the analytics API process
-
 Retrieving the analytics data involves two steps:
 
 1. Creating a request for the analytics data and receiving a request identifier

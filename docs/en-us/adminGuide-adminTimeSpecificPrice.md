@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Time-specific price
-
 **Applies to:** Menu groups, menu items (including [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference))
 
 With time-specific pricing, you define the price of a menu group or item during specific times of the day. For example, a menu item that costs $10 between noon and 2pm and $12 during the rest of the day. With time-specific pricing, you also specify a base price that functions as a default price for times of day when a time-specific price has not been defined.

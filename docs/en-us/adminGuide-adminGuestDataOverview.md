@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Guest data overview
-
 The Toast platform stores information about your guests and uses it to create a searchable database. The Toast platform automatically saves guest information in the database every time you:
 
 - Use a credit card to pay a guest check or preauthorize a tab

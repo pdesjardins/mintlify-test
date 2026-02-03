@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Archiving and restoring discounts
-
 To remove a discount from the available discounts, you archive the discount.
 
 Archived discounts do not display on the Discounts list. They do not display on a Toast POS device and are not applied automatically.

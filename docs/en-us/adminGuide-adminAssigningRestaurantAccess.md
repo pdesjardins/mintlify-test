@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Assigning restaurant access
-
 The Restaurant Access tab on an employee's details page allows you to quickly give an employee access to multiple locations in your enterprise. *An employee must have restaurant access to a location in order to use that restaurant's Toast POS devices.*
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-restaurant-access-tab.PNG)

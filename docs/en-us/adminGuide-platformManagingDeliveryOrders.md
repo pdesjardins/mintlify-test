@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Managing first-party delivery orders
-
 
 
 > **Note**

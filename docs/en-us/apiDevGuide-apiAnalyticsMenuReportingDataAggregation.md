@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 5
 ---
 
-### Aggregating the menu reporting data
-
 The default way to view menu reporting data is by day for each location. You can choose to further aggregate the data by menu, menu group, menu item, or modifier. The `groupBy` value in the message body of the `/era/v1/menu/day` or `/era/v1/menu/week` request groups the data by one of these options:
 
 - `MENU` to group by menu

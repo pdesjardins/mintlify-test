@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Card declined message reference
-
 When a card payment cannot be processed, the Toast POS device shows a message from the card network. These response messages can be difficult to interpret. The following table shows the response messages received most frequently on Toast POS devices with descriptions for why that message might appear.
 
 

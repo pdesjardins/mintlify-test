@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Issuing a refund
-
 To issue a refund, you [locate the check](adminIssuingARefund.html#adminLocatingACheckToRefund) that requires a refund and then choose a refund type from the Refund menu.
 
 You can choose to refund specific items, the entire check, tip only, tax only, or a custom amount. When you refund specific items or the entire check, you can specify the quantity to refund for each item.

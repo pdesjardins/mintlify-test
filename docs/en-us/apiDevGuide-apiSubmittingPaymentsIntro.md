@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Submitting payments
-
 To indicate that a guest paid for an order on your ordering application, the orders that you submit must contain payment information.
 
 If you use the Toast platform as your credit card payment processor, you [submit payments through Toast's credit card API](authorizingCcPayments.html).

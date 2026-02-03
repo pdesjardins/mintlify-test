@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Offline mode with local sync
-
 Offline mode with local sync uses a Toast device as the point of connection, or the local hub device, between all devices on a restaurant's local network. This allows Toast devices to communicate with each other in the event that an issue arises with the internet service provider or the Toast platform cloud-based service. The local hub device relays updates from one device to other devices and to the Toast platform cloud-based service. Offline mode with local sync relies on a local network connection to function.
 
 

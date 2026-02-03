@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Online ordering dashboard
-
 On the online ordering dashboard, you can quickly access settings to control your order volume and online ordering availability during peak times. From the dashboard, you can:
 
 - Turn on/turn off/snooze online ordering availability.

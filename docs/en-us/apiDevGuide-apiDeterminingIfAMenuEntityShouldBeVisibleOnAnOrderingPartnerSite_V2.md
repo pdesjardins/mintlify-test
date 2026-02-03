@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Determining if a menu entity should be visible on a partner integration
-
 
 
 > **Important**

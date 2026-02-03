@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Payment workflows
-
 The following sections describe how to conduct cash, card, and other payments on your Toast POS application.
 
 #### Cash

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Percent rates
-
 A percent tax rate calculates the sales tax on a menu item based on a fixed percentage of the item price. You configure a percent tax rate for your restaurant if your region uses a percent-based sales tax rate.
 
 For example, suppose a state has a sales tax of 5% on meals sold by restaurants. If your restaurant were in that state, you could create a percent tax rate of 5% that is imposed on menu items. With that tax rate, a meal with a subtotal of $108.80 would have a sales tax of $5.44, for a total of $114.24. Keep in mind that additional taxes (such as a local tax) could also be applied to the check.

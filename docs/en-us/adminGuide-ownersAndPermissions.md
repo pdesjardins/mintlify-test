@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Owners and permissions
-
 When you create a version of a configuration entity, you specify an owner. An owner is a restaurant group or location. Users who have access permissions to that restaurant group or location, or one of its parents, are able to edit the entity. For example, in the restaurant group hierarchy shown below, a configuration entity that is owned by the Corporate group will be editable by users who have permissions to the Corporate group. No other users will be able to edit a Corporate-owned entity because Corporate is at the top of the hierarchy. A configuration entity that is owned by the Northeast group will be editable by users who have permissions to the Northeast group, the Franchise Owner 1 group, and the Corporate group. A configuration entity that is owned by Burlington is editable by users who have permission to the Burlington location as well as the Northeast, Franchise Owner 1, and Corporate restaurant groups.
 
 ![Image](https://doc.toasttab.com/doc/media/owners_and_the_hierarchy.png)

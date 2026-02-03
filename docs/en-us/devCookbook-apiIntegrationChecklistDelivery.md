@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a delivery dispatch integration
-
 Follow the steps below to build a delivery dispatch integration with the Toast platform.
 
 This integration allows you to provide dispatch information to restaurants and guests for delivery orders throughout the delivery process. If you support [first-party delivery](adminDeliveryOverview.html), this integration also allows you to update the employee associated with delivery orders.

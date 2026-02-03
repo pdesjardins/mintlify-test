@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using item routing rules
-
 An item routing rule defines a condition for an order that, if met, requires a change to the order fulfillment workflow. The conditions are the [*dining option*](adminGuide-adminGlossary.html#glossDiningOption) of the order, or the [*service area*](adminGuide-adminGlossary.html#glossServiceArea).
 
 

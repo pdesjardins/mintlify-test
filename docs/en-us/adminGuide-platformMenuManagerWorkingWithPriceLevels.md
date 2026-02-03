@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with price levels
-
 This section provides information about working with price levels in the menu manager. It includes:
 
 - [Editing a price level's price](platformMenuManagerWorkingWithPriceLevels.html#platformMenuManagerEditingAPriceLevelsPrice)

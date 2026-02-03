@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Getting information about a specific restaurant
-
 Send a `GET` request to the `/restaurants/v1/restaurants/\{restaurantGUID\}` endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a `RestaurantInfo` object that contains the following objects and their information:
 
 - `General` object: general information about the restaurant:

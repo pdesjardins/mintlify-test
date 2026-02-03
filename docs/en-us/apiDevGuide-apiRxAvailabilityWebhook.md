@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Restaurant availability webhook
-
 The `restaurant_availability` webhook allows you to receive real-time information about a restaurant's ability to accept online orders. The `restaurant_availability` webhook sends a message when:
 
 - The Toast Autofire™ device has stopped approving online orders.

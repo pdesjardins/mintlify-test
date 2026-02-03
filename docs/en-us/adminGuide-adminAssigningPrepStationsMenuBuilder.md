@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Assigning prep stations
-
 You use prep stations to route menu items to the appropriate stations in the kitchen for fulfillment. A prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
 

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using portions in the Toast POS app
-
 When you select a menu item in the Toast POS app that has portions enabled, you see a Portions button with the modifier group buttons:
 
 ![Image](https://doc.toasttab.com/doc/media/portions-button-in-app.PNG)

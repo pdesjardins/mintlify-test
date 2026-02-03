@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast pricing features
-
 The Toast platform offers a variety of pricing-related features that give you the flexibility to choose the pricing approaches that work best for your menu entities. The table below gives a brief overview of each pricing feature and the types of menu entities you can use them for.
 
 | Pricing Feature | Description | Can be applied to | 

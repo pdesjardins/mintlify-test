@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Kitchen settings
-
 The following sections provide information about the Kitchen settings in Toast Web.
 
 In addition, the following topics provide information about other Kitchen categories.

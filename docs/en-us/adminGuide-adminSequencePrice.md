@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Sequence price
-
 **Applies to:** Modifier groups
 
 

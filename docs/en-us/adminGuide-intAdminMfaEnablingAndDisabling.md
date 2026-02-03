@@ -14,8 +14,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Enabling and disabling multi-factor authentication
-
 After you sign in to Toast Web, you can enable and disable multi-factor authentication for your employee account.
 
 

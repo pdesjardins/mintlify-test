@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Getting cash deposit entries
-
 The `deposits` endpoint of the cash management API returns information about the actual cash deposits for a restaurant. For example, when you close out a business day for your restaurant, you might package any cash that is greater than the amount needed for the start of the next day and deposit it in a bank. You record the deposit amount using the deposits function of the Toast POS.
 
 **Example 8.3. Get all cash deposits made on a specific business date**

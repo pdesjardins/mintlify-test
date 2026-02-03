@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### SSH keys
-
 Toast sFTP data exports require the use of a public SSH key. Use the below sections to learn how to generate public SSH keys, and where to place them within Toast Web.
 
 

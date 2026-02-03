@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Updating the tip amount for a payment
-
 
 
 > **Important**
@@ -39,15 +37,15 @@ For more information, see [Update a tip amount](https://doc.toasttab.com/openapi
 
 **Procedure 2.7. To update the tip amount for an existing payment**
 
-1. Find the Toast platform GUIDs of the order, the check, and the payment you are updating. For more information on locating order and check GUIDs, see [Finding an order or check guid](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersFindingAnOrderGuid).
+1. Find the Toast platform GUIDs of the order, the check, and the payment you are updating. For more information on locating order and check GUIDs, see [Finding an order or check guid](apiOrdersFindingAnOrderGuid.html).
 
 - The response from the `POST` request to create an order contains the order, check, and payment GUIDs.
 
 
-- If you know the order GUID, you can send a `GET`request to get the order details, which include the check and payment GUIDs. See [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+- If you know the order GUID, you can send a `GET`request to get the order details, which include the check and payment GUIDs. See [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
 
 
-- If you do not know the order GUID, you can send a `GET` request to get the details for orders that were updated during a specific time interval. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders). The order details include the order, check, and payment GUIDs.
+- If you do not know the order GUID, you can send a `GET` request to get the details for orders that were updated during a specific time interval. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html). The order details include the order, check, and payment GUIDs.
 
 
 

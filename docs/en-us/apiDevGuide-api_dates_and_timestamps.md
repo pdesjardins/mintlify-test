@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Dates and timestamps
-
 All Toast APIs use ISO 8601 string representation for dates and timestamps and all such dates and timestamps are in UTC. Your Toast API integration must convert dates and times to the appropriate time zone. For example, your integration might convert a date and time value to the time zone of a restaurant location.
 
 #### Timestamp and time formats

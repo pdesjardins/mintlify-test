@@ -15,8 +15,6 @@ procedures: 2
 codeExamples: 6
 ---
 
-### Understanding modifier group display order
-
 To determine the display order for a menu item's modifier groups, the Toast platform starts by inspecting the Modifier ordering priority setting on the Front of house \> Order screen setup \> UI options page. This section describes the two possible scenarios, when the Modifier ordering priority setting is set to Off and when it is set to On.
 
 **Procedure 8.136. When the Modifier ordering priority is set to Off**

@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Access permissions reference
-
 #### Access permissions overview
 
 This section describes the access permissions that are available for the Toast platform. Each permission grants access to a system feature, such as an option on a Toast POS device or a type of report to run or configuration change to make.

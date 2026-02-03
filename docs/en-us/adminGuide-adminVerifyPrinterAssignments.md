@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Verify printer assignments
-
 If a kitchen printer is printing two sets of tickets for every order, two prep stations or both a prep station and expediter seat might be configured to use the same printer.
 
 To verify that your kitchen printers are assigned correctly, follow these steps.

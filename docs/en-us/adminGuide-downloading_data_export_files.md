@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Downloading data export files
-
 The Toast platform stores data export files for seven days, and then they are deleted. When data exports are enabled for your restaurant, the following items are needed to retrieve your files: 
 
 - SFTP User name: This is provided by Toast support.

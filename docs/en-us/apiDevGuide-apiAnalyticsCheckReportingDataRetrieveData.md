@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Retrieving the check reporting data
-
 Send a `GET` request to the `/era/v1/check/\{reportRequestGuid\}` endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 To request the check reporting data, you must include the check reporting data request GUID, or `reportRequestGuid`, as a path variable.

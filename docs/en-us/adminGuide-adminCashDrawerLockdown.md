@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Cash drawer lockdown
-
 The cash drawer lockdown feature allows employees to lock cash drawers to themselves. Once a cash drawer is locked down to an employee, only that employee can use that drawer to make transactions during the employee's shift. At the end of the shift, the employee must close the cash drawer before clocking out.
 
 A locked down drawer is more secure because it is not shared with other employees (although managers can override this restriction). Locked down drawers also make it easier for a manager to track cash flow in a drawer and to resolve cash discrepancies.

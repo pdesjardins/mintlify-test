@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### All versions of a menu use the same menu-specific prices
-
 Configuring menu-specific prices for a menu that has multiple versions follows the same basic procedure as configuring menu-specific prices for a menu that has only one version. The only difference is that, as with all changes affecting multiple locations, you must publish changes to each location that is affected.
 
 **Procedure 5.11. To create menu-specific prices for a menu item on a versioned menu**

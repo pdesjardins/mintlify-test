@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Mapping menus API values to other Toast APIs and the menu data export
-
 To create a stronger connection between the data returned by the menus API and the configuration options you see in Toast Web, the menus API uses updated names for some of the JSON values it returns, as compared to the names used by existing Toast APIs or the menu data export.
 
 

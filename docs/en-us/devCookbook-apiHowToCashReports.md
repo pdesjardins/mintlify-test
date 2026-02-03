@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a cash transactions report
-
 Use the instructions below to build cash transaction reports using information from the Toast platform. This information helps when validating cash drawer values, spotting large cash transactions, reviewing payout activity, and more.
 
 The integration allows you to provide customers with detailed information about cash transactions, providing restaurants with useful information to understand their daily cash flow.

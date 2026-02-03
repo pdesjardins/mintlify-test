@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using the bump bar
-
 After the bump bar is connected, you can start using it to navigate the Kitchen Display System (KDS) device and perform various actions. When the bump bar is connected, the kitchen tickets include a bump bar number on the bottom right corner. The selected ticket is indicated by a darker shaded background for light mode, and a lighter shaded background for dark mode.
 
 Here is an example of a KDS device with the bump bar connected, in light mode.

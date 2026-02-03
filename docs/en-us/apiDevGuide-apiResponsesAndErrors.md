@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### API responses and errors
-
 For successful requests, the HTTP response code is usually 200. The response body contains an API-specific object in JSON format. In certain cases, other HTTP response codes might be used to indicate success.
 
 If a request cannot be processed successfully, a 4*`xx`* HTTP response code is usually returned. The response body is a serialized JSON `ErrorMessage` that contains information about the error. For more information, see [ErrorMessage information](apiResponsesAndErrors.html#apiErrorMessage).

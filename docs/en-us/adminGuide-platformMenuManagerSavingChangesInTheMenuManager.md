@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Saving changes in the menu manager
-
 Saving in the menu manager works differently, depending on the view you are currently using. The following sections provide more details.
 
 #### Saving changes in Full menu view

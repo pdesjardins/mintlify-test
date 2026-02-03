@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Determining who can apply a discount
-
 By default, any restaurant employee can apply an available discount to a check.
 
 You can configure a discount to require a manager to apply the discount.

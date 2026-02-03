@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Bulk import tool overview
-
 
 
 > **Important**

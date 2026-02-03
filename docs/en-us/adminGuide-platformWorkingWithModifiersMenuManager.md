@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with modifiers
-
 Modifier groups contain individual modifiers that allow guests to customize their orders. For example, a Dinner Salad menu item might have a Salad Dressing modifier group that contains modifiers such as Blue Cheese and Ranch.
 
 To add and customize the modifiers in a modifier group, you use the Modifiers section of a modifier group's side panel:

@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### HTTP headers
-
 Webhook updates include a set of HTTP headers, some of which are standard HTTP headers and some of which are Toast-specific. This section provides more details on both types.
 
 - [Toast-specific HTTP headers](apiHttpHeaders.html#apiToastSpecificHttpHeaders)

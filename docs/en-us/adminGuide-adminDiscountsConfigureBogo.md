@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring a BOGO discount
-
 For a BOGO discount, you choose the required buy items, and the eligible get items. For the get items, you set the amount of the discount, and the priority for discounting the items.
 
 You can also specify the required number of buy items and the maximum number of get items.

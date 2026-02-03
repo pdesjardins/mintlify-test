@@ -14,8 +14,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Employee jobs
-
 You can use jobs to configure access permissions and other employee configuration settings for groups of employees who have similar roles at your Toast platform restaurant.
 
 You can configure employee jobs in Toast Web. To open the Jobs configuration page, choose Employees \> Jobs.

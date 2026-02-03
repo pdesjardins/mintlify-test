@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Getting menu information from the configuration API
-
 
 
 > **Important**

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Versioning at the menu group and modifier group level
-
 While you can version any configuration entity that has the Target and Owner fields, Toast support typically recommends that versioning of menu entities happens at the menu group level. This allows you to create location-specific menu groups that can be populated with corporate-controlled menu items as needed. For example, in the illustration below, the corporate version of the Seafood menu group contains four menu items, Lobster, Trout, Salmon, and Shrimp. All four menu items are owned by the Corporate restaurant group, meaning they are only editable by users who have permissions to the Corporate restaurant group. Two location-specific versions of the Seafood menu group exist, one that omits shrimp and is targeted at the Northeast restaurant group and another that omits lobster and is targeted at the Southeast restaurant group. The same menu items are used by all three versions and the menu item details (sizes, prices, and so on) are controlled at the corporate level.
 
 ![Image](https://doc.toasttab.com/doc/media/versioning_at_the_group_level.png)

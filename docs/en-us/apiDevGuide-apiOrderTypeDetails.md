@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Order details based on the order dining option
-
 Some of the required order details are based on the selected dining option.
 
 A dining option describes a customizable workflow for an order. Restaurants define their dining options. The selected dining option affects the required values in the `Order` and `Check`objects.

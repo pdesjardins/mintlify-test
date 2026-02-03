@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Manually assigning applicable taxes
-
 The preferred technique for managing taxes is to manually assign the master versions of your tax rates to your menus. With this configuration, the correct version of the tax will be applied to a menu, depending on location. For example, assuming the following tax rates, if the current location is Boston, the state tax would be 6.25% while when the current location is Atlanta, the state tax is 4%.
 
 ![Image](https://doc.toasttab.com/doc/media/tax_rates_no_defaults.PNG)

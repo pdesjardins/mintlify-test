@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Overview of the order details content
-
 The content on the order details dialog in the Orders report is the same as the content on the order details panels in the Order details report.
 
 The order details information starts with an order summary that includes the number of guests, number of checks, the source of the order, and the devices that were used to process the order.

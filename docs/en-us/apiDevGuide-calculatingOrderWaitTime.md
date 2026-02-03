@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Calculating order wait time
-
 When you use the orders API to create an order, the orders API does not validate the time when you submit the order. The orders API accepts the order even if, for example, the restaurant is not currently open, is not currently accepting online orders, or will close before the order can be fulfilled.
 
 You can use information from the restaurant configuration to:

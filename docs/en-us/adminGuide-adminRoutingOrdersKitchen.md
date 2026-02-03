@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### How orders are routed to KDS devices
-
 At its core, a kitchen display system (KDS) device is like a kitchen printer: it relies on the values that you define for your menu items and modifiers. To help label and route orders, the KDS device adds information about other aspects of the operation: your prep stations, expediter seats, service areas, dining options, and so on. As a result, the way that you configure these operations can affect the way the KDS device presents order information.
 
 While both the KDS device and your kitchen printers present order information, the KDS offers additional features that may be beneficial, such as sequenced fulfillment, text messaging on fulfillment, and preference settings for interacting with the KDS device.

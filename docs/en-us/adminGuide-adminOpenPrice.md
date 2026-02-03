@@ -16,8 +16,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Open price
-
 **Applies to:** Menu groups, menu items (*not* including [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference))
 
 The Toast platform provides two methods for working with menu items that require open prices, the Open Items feature and the Open Price pricing strategy.

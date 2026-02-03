@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Ensuring your menu data is up-to-date
-
 Toast Support recommends that you compare the date and time of your current menu JSON to that of the most recently published JSON to see if changes have been made before you make a call to the `/menus` endpoint. You retrieve the date and time of the most recently published JSON using the `/metadata` endpoint. See [Determining if a restaurant's menu data has gone stale](apiDeterminingIfYourMenuJsonIsOutdated_V2.html) for more information.
 
 

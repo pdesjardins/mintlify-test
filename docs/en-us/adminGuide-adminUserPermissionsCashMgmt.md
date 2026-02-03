@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### User permissions for cash management
-
 When assigning permissions, the best practice is to use job-based permissions instead of employee-based permissions. That is, you assign permissions to a job and then assign employees to that job, instead of assigning individual permissions
 
 The following table lists the permissions that are required for specific cash management tasks.

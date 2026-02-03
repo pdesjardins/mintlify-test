@@ -15,8 +15,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Configuring portions
-
 To configure portions, you must:
 
 - Create the portions themselves, for example, **`1st

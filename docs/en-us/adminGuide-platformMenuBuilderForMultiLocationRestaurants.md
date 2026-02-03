@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Overview of menu builder for multi-location restaurants
-
 Toast introduced the [menu builder as a replacement for the classic menu pages](adminBasicMenuBuilderAndTheLegacyMenuDetailsPages.html) to provide an easier, more efficient tool for creating your menus. Toast is adding support to the menu builder for restaurants that use the multi-location module. Multi-location restaurants can now use the menu builder to edit menus and menu items used by multiple locations.
 
 

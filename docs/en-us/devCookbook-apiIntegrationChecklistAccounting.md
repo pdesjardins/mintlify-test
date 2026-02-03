@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a sales report
-
 Use the instructions below to build sales reports using information from the Toast platform. This information will help when reporting on total sales and payments, reviewing tax information, identifying top-selling items, and more.
 
 This integration provides restaurants with useful information to run their business.
@@ -197,7 +195,7 @@ To report on order information, you need to retrieve orders at least once per da
 > Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk`endpoint.
 
 
-See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
 
 ##### Consider historical backfill
 

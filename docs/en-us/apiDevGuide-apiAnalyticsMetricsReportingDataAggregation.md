@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Aggregating the aggregated sales reporting data
-
 The default way to view the aggregated sales reporting data is by day for each location. If you use the `day` time range, you can choose to view the data by hour for each location instead. Use the `aggregateBy` query parameter set to `HOUR` in the `/era/v1/metrics/day` request to organize the data by hour instead of day.
 
 Optionally, you can choose to aggregate the data into subsections according to an order's dining option, order source, revenue center, or a combination of two of these values. Use the `groupBy` value in the message body of the `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}` request to create subsections organized by dining option, order source, revenue center, or a combination of two of these values.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Requiring promo codes for discounts
-
 You can optionally add one or more promo codes to any type of discount that is not auto-applied. A promo code is a text string or a scannable barcode that is assigned to a discount.
 
 When the restaurant employee selects the discount on the order screen, the Toast POS app prompts them for a promo code. The discount is applied to the check only if the employee enters the correct promo code. A restaurant can also allow employees to [search for promo codes](adminDiscountPromoCodes.html#adminPromoCodeSearch) in order to apply the corresponding discount.

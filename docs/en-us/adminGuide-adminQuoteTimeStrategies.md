@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Quote time strategies
-
 The following sections describe the various quote time strategies available.
 
 #### SmartQuote

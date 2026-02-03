@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Managing house account invoices
-
 House account invoices have one of the following statuses:
 
 - PAID: The invoice has been paid.

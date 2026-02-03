@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Altering the price of a modifier applied to a portion
-
 
 
 > **Note**

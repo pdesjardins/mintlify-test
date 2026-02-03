@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Understanding menu editing permissions for enterprises
-
 The edits that you can make to a menu in Toast Web are determined by the permissions you have. This section provides information about the types of menu editing permissions that are available and the recommended practices for setting these permissions when you are using the enterprise module.
 
 #### Levels of menu editing permissions

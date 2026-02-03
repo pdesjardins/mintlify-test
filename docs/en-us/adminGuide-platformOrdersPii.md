@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Guest personal identifiable information
-
 Toast products use guest personal identifiable information (PII) to help restaurant employees identify who an order belongs to. For example, in the case of a takeout order, a cashier needs to know which order belongs to a guest picking up an order.
 
 #### Tab name

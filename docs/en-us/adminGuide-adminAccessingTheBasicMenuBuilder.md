@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Accessing the menu builder
-
 Follow the instructions below to access the menu builder.
 
 **Procedure 8.1. To access the menu builder**

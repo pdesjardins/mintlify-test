@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Refund permissions and limitations
-
 The refund process allows you to issue refunds to guests. The process is available from the Toast POS and Toast Web.
 
 Before an employee can issue a refund, they must be given permission to find checks and refund payments.

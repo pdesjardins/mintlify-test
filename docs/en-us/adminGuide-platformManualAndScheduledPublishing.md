@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Manual and scheduled publishing
-
 On the Toast platform, you have two options for publishing your changes. You can publish the changes manually when you are ready for restaurant employees and guests to see them or you can schedule them to be published at a specific date and time in the future.
 
 

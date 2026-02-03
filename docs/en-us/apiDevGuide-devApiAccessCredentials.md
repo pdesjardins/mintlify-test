@@ -15,8 +15,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Standard API access credentials
-
 As a standard API access user, you can create and manage credentials for a Toast location or locations in a management group. The level of access you have to edit and view standard API access credentials depends on whether:
 
 - You created the credentials or another Toast user did.

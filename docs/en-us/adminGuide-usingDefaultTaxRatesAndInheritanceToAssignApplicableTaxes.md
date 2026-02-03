@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using default tax rates and inheritance to assign applicable taxes
-
 
 
 > **Note**

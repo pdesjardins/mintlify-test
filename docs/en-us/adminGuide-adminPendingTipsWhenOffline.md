@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Pending tips when offline
-
 If you experience a bank or credit card processor outage, tips might be in a pending state until the outage is resolved. During an outage, pending tips and payments cannot be processed. Once the outage is resolved, pending tips are automatically reconciled and processed. If an employee is still clocked in their shift when the outage is resolved, reconciled tips will appear on their shift review as normal. If the employee is clocked out, the reconciled tips will go directly to the restaurant.
 
 

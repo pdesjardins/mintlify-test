@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Columns in the menu manager views
-
 The specific columns in the menu manager change according to the entity type you are viewing. The following sections describe the columns for each entity type.
 
 #### Full menu view

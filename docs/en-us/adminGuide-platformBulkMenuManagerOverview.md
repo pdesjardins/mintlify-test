@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu manager overview
-
 With the menu manager, you can:
 
 - View your entire menu on a single page.

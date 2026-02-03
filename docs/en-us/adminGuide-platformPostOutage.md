@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Post-outage experience
-
 After your Toast POS device goes offline, network-dependent payment methods, such as gift cards or loyalty redemptions, become inactive. However, you can still accept card payments. Card payments are held in a payment queue and are submitted for processing once your Toast POS device is online again.
 
 

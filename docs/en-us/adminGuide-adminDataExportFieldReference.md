@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Data export field reference
-
 This section explains the data included in Toast data export reports.
 
 #### Accounting data export

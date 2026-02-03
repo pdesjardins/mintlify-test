@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Taxes on modifiers
-
 Menu items have tax configurations that determine which tax rates are applied when the menu item is added to a check. If a menu item has modifier options, you can use the Modifier Tax Behavior configuration option to specify how a modifier is taxed.
 
 The Modifier Tax Behavior configuration option is on the detail page of the modifier option's menu item reference. For information on modifier option item references, see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).

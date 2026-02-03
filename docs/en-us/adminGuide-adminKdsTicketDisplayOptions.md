@@ -14,8 +14,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Filtering tickets on a KDS device
-
 On each of your KDS devices, you can limit the tickets that display to specific courses, dining options, or a combination of both.
 
 For example, you want appetizers to be fulfilled within 8 minutes, and main courses to be fulfilled within 15 minutes. To organize tickets in the kitchen so that appetizer tickets are automatically displayed separately from main course tickets, you place two KDS devices at each of your prep stations, and configure one to show tickets for appetizer orders only and the other to show tickets for main course orders only. Selectively filtering tickets based on course in this way helps your employees work more effectively to meet your target timeframes.

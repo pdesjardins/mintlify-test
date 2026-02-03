@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Sending orders to devices
-
 For open, paid, and closed orders, you can send the order to all of the Toast POS devices.
 
 On the order details dialog in the Ordersreport, the Send to devices option sends the order to all Toast POS devices.

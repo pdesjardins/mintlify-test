@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Marketplace facilitator orders
-
 If your organization is designated a marketplace facilitator by a taxation authority, then when you use the orders API to create orders, you can either:
 
 - Allow the Toast platform to calculate and populate the item prices and tax amounts based on the restaurant configuration.

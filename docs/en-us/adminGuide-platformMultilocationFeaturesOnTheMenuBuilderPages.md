@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Multi-location features on the menu builder pages
-
 This section describes the additional features you see when using the menu builder pages for a multi-location restaurant.
 
 #### Target, owner, number and GUID

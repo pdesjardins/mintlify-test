@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using price levels
-
 Price levels allow you to quickly price menu items or groups that all share the same price. You create a price level, and then assign it to the menu items and groups that will use it. For example, all bottled beers are $5 and all draft beers are $6. To change the price of the menu items and groups that use a price level, you only need to change the price level itself. This eliminates the need to edit the price for each individual menu group or item.
 
 #### Creating and assigning price levels

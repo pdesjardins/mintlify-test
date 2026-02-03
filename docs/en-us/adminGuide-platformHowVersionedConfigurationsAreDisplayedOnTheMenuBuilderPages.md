@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 3
 ---
 
-### How versioned configurations are displayed on the menu builder pages
-
 When you configure a menu or a menu item, many settings require you to choose other configuration entities. For example, when configuring a menu, you specify the menu groups contained in the menu. Menu groups are configuration entities in their own right, with their own collection of settings. In a multi-location environment, many configuration entities can be versioned. For example, you might have a Seafood menu group with three versions:
 
 - Seafood - Northeast version includes trout, lobster, and shrimp.

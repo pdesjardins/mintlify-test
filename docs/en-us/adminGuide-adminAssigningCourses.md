@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Assigning courses
-
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
 You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](platformUnderstandingInheritance.html).

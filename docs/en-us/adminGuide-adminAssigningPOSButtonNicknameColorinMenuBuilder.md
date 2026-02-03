@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Assigning a POS button name and color
-
 You can customize the names and colors of the buttons employees see in the Toast POS app for the various menu entities:
 
 - For menus, menu groups, subgroups, menu items, and modifier groups, go to the details section of the menu entity's details page. For example, for a menu, go to Menu details.

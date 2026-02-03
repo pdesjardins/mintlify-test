@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Discount configuration reference
-
 The following tables describe the fields that are displayed on the discount configuration page.
 
 #### Top-level fields

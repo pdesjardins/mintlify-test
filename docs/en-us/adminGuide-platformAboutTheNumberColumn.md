@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### About the Number column
-
 For multi-location restaurants, a Number column is added the Menu Prices table. This additional column appears in the Menu Prices table on a menu item's details page:
 
 ![Example of the Number column in the Menu Prices table on the menu items details page.](https://doc.toasttab.com/doc/media/menus-mlm-msp-number-column-item-details-page.png)

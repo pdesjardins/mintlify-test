@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Restaurant closeoutHour and business dates
-
 The restaurant API's `closeoutHour` determines your restaurant's `businessDate` value in other Toast APIs. The `closeoutHour` is a value from 0-12 (midnight (0) to noon (12)), which represents your restaurant's Business Day Cutoff configuration in Toast Web. For example, if your restaurant's Business Day Cutoff field is set to 4 AM, the `closeoutHour` value will be `4`. The time zone for the Business Day Cutoff is determined by your restaurant's Time Zone configuration in Toast Web.
 
 

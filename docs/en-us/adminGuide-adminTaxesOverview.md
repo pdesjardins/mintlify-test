@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Taxes overview
-
 Most states levy sales taxes on meals that are served by a restaurant. Other levels of government, such as counties and cities, may also impose taxes on food and beverages served by restaurants in their regions.
 
 The Toast platform lets you configure various types of tax rate settings for your restaurant. These tax rates ensure you are collecting the correct amount of tax from your guests, based on the region where your restaurant is located.

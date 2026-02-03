@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Enterprise reports overview
-
 In restaurant chains that use the enterprise module, the View area of the Reports page includes a restaurant hierarchy drop-down menu that allows you to pick the location(s) or restaurant group(s) you want to view reports for, as shown below.
 
 ![Image](https://doc.toasttab.com/doc/media/mmm_reports_view_menu.png)

@@ -15,7 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menus API supports data retrieval only
-
 The menus API returns all values for all objects in the JSON output, even if they are empty or null. The menus API currently supports data retrieval only. If any of the menu entities returned by the menus API need modification, those configuration changes must be made in the Toast Web by the Toast customer.
 

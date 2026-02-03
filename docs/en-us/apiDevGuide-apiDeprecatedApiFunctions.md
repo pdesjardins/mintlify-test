@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Deprecated API functions
-
 This section includes information about Toast API functionality that is available but is expected to be removed or replaced.
 
 #### Orders

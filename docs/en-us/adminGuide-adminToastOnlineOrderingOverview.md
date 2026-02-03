@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Toast Online Ordering overview
-
 
 
 > **Note**

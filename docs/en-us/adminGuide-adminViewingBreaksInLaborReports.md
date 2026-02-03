@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing employee breaks in labor reports
-
 The Reports \> Employee performance \> Time entries report, described in this [Toast Central article](https://central.toasttab.com/s/article/Labor-Reports-Overview), displays time entries for your employees for the dates and hours you have chosen to view.
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-time-entries-tab.png)

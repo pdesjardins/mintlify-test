@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Advanced template examples
-
 Because it is a more complex template to use, this section provides examples of different import operations when using the advanced template.
 
 

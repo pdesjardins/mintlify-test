@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Deleting location-specific prices
-
 To delete location-specific prices, you must use the menu item's details page. When deleting location-specific prices, note that you must maintain at least one valid price for the menu item's target. For example, assuming the restaurant group hierarchy in the illustration below, if a menu item's target is Boston, you must have a location-specific price defined for Boston or one of its ancestor restaurant groups (Northeast, Franchise Owner 1, or Corporate).
 
 ![Image](https://doc.toasttab.com/doc/media/location_specific_pricing_deleting_lsp.png)

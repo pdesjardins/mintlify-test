@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Service charge calculations
-
 Before a service charge can be automatically applied to a check, the Toast platform has to make a variety of calculations, including the following:
 
 - Calculate whether the service charge is eligible to be automatically applied to a check. See [Service charge eligibility](adminServiceChargeEligibility.html). Keep in mind that you can manually apply a service charge to a check.

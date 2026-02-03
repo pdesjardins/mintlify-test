@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Standard API access requirements
-
 The following are required to enable standard API access:
 
 - You must be an active employee of that Toast location you are creating credentials for.

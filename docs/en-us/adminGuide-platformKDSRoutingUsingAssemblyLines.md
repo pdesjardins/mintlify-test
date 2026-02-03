@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Routing using assembly lines
-
 Assembly lines use a sequence of prep stations to guide menu items through the kitchen. Items appear at the first prep station in a sequence, and, once fulfilled, appear at the next prep station in the sequence where it is *not yet fulfilled*. The assembly line sequence is complete when the item is fulfilled at all prep stations in the sequence that are *assigned to the item*.
 
 This means that:

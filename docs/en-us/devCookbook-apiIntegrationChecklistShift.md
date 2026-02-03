@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a shift scheduling integration
-
 Follow the steps below to build a shift scheduling integration with the Toast platform.
 
 This type of integration allows restaurants to use [clock-in enforcement](https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961) functionality to ensure adequate staffing each day. If you want to build additional labor reporting functionality, see [Building labor reports](apiIntegrationChecklistPayroll.html).

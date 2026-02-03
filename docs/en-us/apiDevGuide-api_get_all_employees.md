@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Getting all employees of a restaurant
-
 To get information about the employees of a restaurant, send a `GET` request to the `/labor/v1/employees` endpoint of the labor API.
 
 The request returns an array of `Employee` objects that contain the configuration information for each employee.

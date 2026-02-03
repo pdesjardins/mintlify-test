@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Void an order
-
 If an order is placed and needs to be canceled, you can use the `/orders/v2/orders/<em>\{orderGuid\}</em>/void`endpoint of the Toast orders API to void the order. For more information about this endpoint, see the [orders API reference](https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/).
 
 You might want to void an order if: 
@@ -32,7 +30,7 @@ You might want to void an order if:
 
 
 
-When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/<em>\{guid\}</em>`and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/<em>\{guid\}</em>`and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
 
 Voided orders can also be found in the Orders and Order details reports in Toast Web.
 

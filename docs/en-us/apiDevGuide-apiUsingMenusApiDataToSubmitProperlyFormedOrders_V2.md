@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using menus API data to submit properly formed orders
-
 If you are using the menus API data to construct an ordering application, those orders will ultimately be injected into the Toast platform using the orders API. It is important that orders injected into the orders API are properly formed and valid. You can inspect certain values in the menus API data to make sure that the orders you submit to the orders API will pass validation. For example, if a modifier group has a minimum number of selections required, the orders API will fail an order that contains too few selections from that modifier group. You can inspect the `minSelections` values on the modifier groups returned by the menus API to make sure you account for the minimum selections requirement and your orders will pass validation.
 
 Use the following values returned by the menus API to ensure that you submit orders correctly to the orders API:

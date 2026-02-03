@@ -15,7 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menus API supersedes configuration API and menu data export for menu data retrieval
-
 The menus API supersedes the configuration API and the nightly menu JSON export for menu data retrieval. To understand the differences between these three menu retrieval mechanisms, see [Comparing the menus API with the configuration API and menu JSON export](apiComparingTheMenusApiWithTheConfigurationApiAndMenuJsonExport_V2.html).
 

@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with modifier groups
-
 This section provides information about working with modifier groups in the menu manager.
 
 #### Creating a modifier group

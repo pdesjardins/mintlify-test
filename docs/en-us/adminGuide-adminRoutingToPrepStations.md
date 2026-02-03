@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Routing with prep stations
-
 For an efficient order fulfillment workflow, assign every menu item and modifier in your menus to a prep station. In the Toast platform, a prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
 After you [add your prep stations](adminAddPrepStation.html), assign them to your menus, menu groups, items, and modifiers, so that every item in an order can be sent immediately to the correct prep station for fulfillment. For items that require preparation at several prep stations, you can assign multiple prep stations.

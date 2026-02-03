@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Pricing modifiers
-
 This section provides information on creating and pricing modifier groups and their individual modifiers. It also describes the structure of a modifier. Understanding this structure is critical to understanding how modifier pricing behaves.
 
 #### Understanding a modifier item reference

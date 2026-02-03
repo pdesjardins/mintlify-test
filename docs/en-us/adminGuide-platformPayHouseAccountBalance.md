@@ -16,11 +16,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Paying a house account balance
+House accounts can hold either a balance or a credit. If a guest pays for a check using a house account, this creates an outstanding balance. The balance is the total charge amount due. If a guest has funds available in their house account, this creates a credit balance. Outstanding balances must be paid either on the Toast POS or by invoice.
 
-House accounts can hold either a balance or a credit. If a guest pays for a check using a house account, this creates an outstanding balance. The balance is the total charge amount due. If a guest has funds available in their house account, this creates a credit balance. Outstanding balances must be paid either on the Toast POS or by invoice. 
-
-Below is a list of actions that will increase an outstanding balance and actions that will decrease an outstanding balance and may create a credit: 
+Below is a list of actions that will increase an outstanding balance and actions that will decrease an outstanding balance and may create a credit:
 
 **Actions that increase the outstanding balance**
 
@@ -37,7 +35,7 @@ Below is a list of actions that will increase an outstanding balance and actions
 
 
 
-- Paying a custom invoice house account payment. 
+- Paying a custom invoice house account payment.
 
 
 
@@ -52,10 +50,10 @@ Below is a list of actions that will increase an outstanding balance and actions
 - Overpaying an outstanding house account balance.
 
 
-- Manually decreasing the outstanding balance. 
+- Manually decreasing the outstanding balance.
 
 
-- Removing a house account payment on a POS device. 
+- Removing a house account payment on a POS device.
 
 
 
@@ -83,10 +81,31 @@ Guests can pay a house account balance on a Toast POS device on any order screen
 3. Select the Pay Balance button. This opens the Pay House Account Balance dialog.
 
 
-4. Enter the customer number, or house account, or select the Lookup button to open the Customer lookup screen. On the Customer lookup screen, enter the guest's first or last name, email address, customer number, or phone number to search for the house account. Partial information can be used to search. This opens the Pay House Account Balance dialog.
+4. In the Pay House Account Balance dialog, enter the customer number, or house account, or select the Lookup button to open the Customer lookup screen. On the Customer lookup screen, enter the guest's first or last name, email address, customer number, or phone number to search for the house account. Partial information can be used to search.
 
 
-5. In the Pay House Account Balance dialog, enter in the amount to be paid. You cannot edit the house account information in the dialog.
+5. This opens the Pay House Account Balancescreen. If there are unpaid invoices linked to the house account, the invoices are displayed. If there are no unpaid invoices, a dialog appears where you can pay the house account balance.
+
+![The Pay house account balance screen on the Toast POS.](https://doc.toasttab.com/doc/media/platform-house-accounts-pay-account-balance-unpaid-invoices.png)
+
+
+6. On the Pay House Account Balance screen, choose to:
+
+- Pay an open invoice. This opens the Payment Terminal screen. On the Payment Terminal screen, choose to pay for the invoice using the available payment methods.
+
+
+
+> **Note**
+> 
+> Toast support recommends you pay open invoices to keep records accurate.
+
+
+
+- Select the Skip button to open a dialog where you can pay the current balance or update the payment amount. Select the Pay balancebutton to pay the house account balance.
+
+
+
+![The Pay house account balance dialog on the Toast POS.](https://doc.toasttab.com/doc/media/platform-house-accounts-pay-account-balance-dialog.png)
 
 
 
@@ -95,12 +114,8 @@ Guests can pay a house account balance on a Toast POS device on any order screen
 > If you try to pay a house account that has a credit as the outstanding balance, a message appears notifying you that payment is not necessary.
 
 
-![The Pay House Account Balance dialog.](https://doc.toasttab.com/doc/media/platform-house-accounts-pay-account-balance-dialog.png)
 
-
-6. Select the Done button to go back to the order screen. On the order screen, your payment is listed on the order details panel.
-
-To remove a payment, select the payment on the order details panel and select the Remove button. This removes the payment from the check.
+7. On the order screen, your payment is listed on the order details dialog. To remove a payment, select the payment on the order details panel and select the Remove button. This removes the payment from the check.
 
 ![The Remove button emphasized on a payment screen.](https://doc.toasttab.com/doc/media/platform-house-accounts-remove-balance-payment.png)
 

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Completing shift review offline
-
 If your Toast POS device is offline, you will be unable to complete shift review. During offline mode, you are unable to:
 
 - Close checks

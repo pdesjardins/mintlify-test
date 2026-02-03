@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Enabling and configuring text alerts
-
 **Procedure 4.13. To enable text alerts**
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).

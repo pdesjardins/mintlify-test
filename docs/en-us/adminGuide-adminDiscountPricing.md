@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Effect of discounts on prices
-
 Toast discounts affect prices in the following ways.
 
 #### Check and item discounts

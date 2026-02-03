@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu manager and the classic menu details pages
-
 The Toast platform currently has two workflows for menu creation: the menu manager workflow and the classic menu workflow. You access both workflows through Toast Web. The menu manager is a new, easier-to-use menu creation tool that is designed to help you quickly create and manage your menus. The illustration below shows the menu manager with a menu item selected for editing in a side panel:
 
 ![An example of the menu manager page with a menu item selected for editing.](https://doc.toasttab.com/doc/media/menu-manager-full-menu-view-with-item-selected.png)

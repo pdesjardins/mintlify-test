@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Handling menu groups with varying prices
-
 To configure a combo discount to only include some of the menu items in a menu group, you can add a separate combo group for each individual menu item permutation of the combination.
 
 The following example shows items in a menu group that use size pricing. You might want to include any small order of fries as a required item in a combination discount. However, if you use the fries menu group as a required item, the discount combination price would include both small and large orders of fries.

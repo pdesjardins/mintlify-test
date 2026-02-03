@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Environments
-
 Toast maintains and provides continuous access to multiple, independent service environments for use by API integration clients during development, testing, and production. These environments are:
 
 - **Sandbox -** used for integration testing. For more information, see [Sandbox environment](apiEnvironments.html#apiSandboxEnvironment).

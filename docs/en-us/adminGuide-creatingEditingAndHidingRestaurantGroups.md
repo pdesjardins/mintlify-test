@@ -15,8 +15,6 @@ procedures: 2
 codeExamples: 0
 ---
 
-### Creating, editing, and archiving restaurant groups
-
 Follow the instructions below to create a restaurant group. Note that to create a restaurant sub-group, you must create the group first, using the instructions below, and then add it to a parent restaurant group.
 
 

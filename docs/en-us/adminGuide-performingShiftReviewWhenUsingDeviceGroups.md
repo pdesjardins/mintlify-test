@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Performing shift review when using device groups
-
 
 
 > **Note**

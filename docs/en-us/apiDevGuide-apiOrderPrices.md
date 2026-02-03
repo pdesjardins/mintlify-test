@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Order prices
-
 Order price information includes menu item prices, service charges, and taxes.
 
 #### Getting check prices before you submit an order

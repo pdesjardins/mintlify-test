@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Using the global price editor with location-specific prices
-
 You can use the global price editor in the upper left corner of the Price editor page to update multiple prices at once, including location-specific prices.
 
 **Procedure 5.9. To globally update prices for a menu item**

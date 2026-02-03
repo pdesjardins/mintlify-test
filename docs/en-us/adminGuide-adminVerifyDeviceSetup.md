@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Verify device setup
-
 For a Toast KDS device to receive the correct orders, it must be set up for the correct prep station or expediter seat. In addition, you can limit the tickets shown on a device to specific dining options, courses, or a combination of both.
 
 To verify that the device is set up as expected, follow these steps.

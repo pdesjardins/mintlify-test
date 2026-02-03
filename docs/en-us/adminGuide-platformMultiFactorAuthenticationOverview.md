@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Multi-factor authentication overview
-
 Multi-factor authentication (MFA) is a security feature that requires users to provide multiple forms of authentication to access an account, making it much harder for unauthorized users to gain access even if they have the password. The multiple forms of authentication are often broken into categories like “something you know” (for example, passwords) and “something you have” (for example, access to a phone that can receive one-time passcodes).
 
 When you use multi-factor authentication, the Toast platform prompts you for a numeric passcode in addition to your username and password when you sign in to Toast Web as an employee. You get the passcode from a short message system (SMS) text message or using an authenticator application that generates a secure passcode. The combination of your username and password and the passcode that you get using a device that only you are likely to have are the multiple factors that increase the security of your employee account.

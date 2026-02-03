@@ -16,8 +16,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Making bulk edits
-
 The menu manager's bulk editing feature lets you quickly make the same edit to multiple menu entities.
 
 Currently, the bulk edit feature supports setting the same [visibility settings](platformColumnsInTheMenuManagerViews.html#platformMenuManagerItemAndModifierColumns_Visibility) for multiple menu items at once. Visibility settings control where a menu item is visible and available for ordering.

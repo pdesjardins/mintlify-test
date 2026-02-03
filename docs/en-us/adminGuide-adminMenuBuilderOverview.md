@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu builder overview
-
 The menu builder is a lightweight, easy-to-use tool that lets you quickly create and make changes to your Toast menu.
 
 

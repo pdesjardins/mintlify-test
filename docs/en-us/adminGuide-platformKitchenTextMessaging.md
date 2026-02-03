@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Text messaging
-
 This section provides procedures and information about sending text messages when an order is fulfilled.
 
 #### Sending text messages on expediter fulfillment

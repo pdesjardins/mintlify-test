@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Designing discounts for promotions
-
 You can use Toast platform discounts to support the promotions that your restaurants offer. Those promotions must be compatible with the Toast platform discount configuration interface.
 
 The Toast platform discount configuration interface makes it easy to create many types of promotional discounts. Depending on how you configured your menu, in particular with menu groups, it might be difficult or impractical to create and maintain some more complicated promotional discount types. When you design promotional discounts, make sure that you understand how the Toast discount configuration interface interacts with your menu configuration.

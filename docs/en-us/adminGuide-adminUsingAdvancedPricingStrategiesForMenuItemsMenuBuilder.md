@@ -16,8 +16,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Using advanced pricing strategies for menu items
-
 Currently, the menu builder supports setting base prices, size prices, and open prices. You can use the classic menu item detail pages to configure other advanced pricing strategies for your menu items, including time prices, and price levels. You can also use the classic pages to specify that a menu item inherits its price from a menu group. If you set an advanced pricing strategy on a menu item's classic details page, the menu builder will display the pricing strategy's name and the price range for the price (for example, $8.00 - $10.00). If you configure a menu item to inherit its price from a menu group, the menu builder displays a message informing you that you must use the classic page to update the menu item's price, along with a link to the classic page.
 
 It is important to note that not all pricing strategies are supported on all Toast ordering channels. For example, Toast Online Ordering does not support time or open prices so you should not use those pricing strategies for menu items that will be displayed on your Toast Online Ordering website. Before using an advanced pricing strategy, check the table below to ensure that the strategy you want to use is supported by the Toast ordering channels where those menu items will be visible. This table also includes a description of each pricing strategy and the location where you configure it (in the menu builder or in the classic menu item details page). The sections that follow the table describe how to configure each of these pricing strategies.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Detecting and avoiding infinite loops in the menus API JSON
-
 While unusual, it is technically possible for the following menu structure to be created in Toast Web:
 
 - Menu Item A includes Modifier Group B

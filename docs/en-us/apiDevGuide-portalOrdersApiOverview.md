@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Orders API overview
-
 The orders API allows you to create orders, update existing orders, and retrieve information about orders.
 
 #### Components of an order
@@ -156,9 +154,9 @@ For information about dining options and the required information for types of d
 
 
 ****Retrieve information about orders****
-: You can use an order GUID to retrieve the details for that order. See [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+: You can use an order GUID to retrieve the details for that order. See [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
 
-You can retrieve details about orders that were either modified during a specific date range, or that were created on a specific business date. See [Getting detailed information about multiple orders](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutMultipleOrders).
+You can retrieve details about orders that were either modified during a specific date range, or that were created on a specific business date. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html).
 
 You can only retrieve order details for orders that were created after December 1, 2015 (2015-12-01).
 

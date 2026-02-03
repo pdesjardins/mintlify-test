@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast developer portal
-
 #### Developer portal overview
 
 The Toast developer portal allows you to easily view and manage your credentials and scopes, access technical documentation, and connect with the Toast integration community.

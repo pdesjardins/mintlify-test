@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Archiving a version
-
 When you no longer need a version, you can archive it. Archiving a version removes it from Toast Web.
 
 **Procedure 5.5. To archive a version of a configuration entity**

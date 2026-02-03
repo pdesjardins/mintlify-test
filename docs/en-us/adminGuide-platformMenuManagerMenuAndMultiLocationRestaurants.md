@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu manager and multi-location restaurants
-
 This section provides information specific to using menu manager when your restaurant also uses the multi-location management module.
 
 #### Full menu view limitations for multi-location restaurants

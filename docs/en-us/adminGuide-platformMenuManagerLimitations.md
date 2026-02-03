@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menu manager limitations
-
 This section lists the current limitations of the menu manager.
 
 - Full menu view limitations include the following:

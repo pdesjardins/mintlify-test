@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with menu groups and subgroups
-
 You use menu groups and subgroups to further organize the offerings in a menu. For example, a Dinner menu could have an Entrees menu group that, in turn, contains Grill Entrees and Vegetarian Entrees subgroups.
 
 Subgroups can be used to make navigating your menu easier. However, each subgroup requires an additional selection by the user who is trying to find a specific menu item in that subgroup. For this reason, the menu manager limits the nesting of subgroups to three subgroups below a parent menu group:

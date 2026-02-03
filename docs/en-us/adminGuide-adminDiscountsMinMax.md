@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Configuring required minimum and maximum check totals
-
 You can configure minimum and maximum check total thresholds for any type of discount. These thresholds determine if a discount can be applied to a check, based on the pre-tax check total. The check must also meet any other eligibility criteria for the discount.
 
 For example, you can specify that a BOGO discount can be applied to a check only if the pre-tax check total is less than $25.00. If the check total is more than $25.00, the BOGO discount cannot be applied, even if the items on the check would otherwise satisfy the requirements of the discount.

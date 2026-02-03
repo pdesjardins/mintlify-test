@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Getting cash entries
-
 The `entries` endpoint of the cash management API returns information about the following types of cash entry:
 
 - `CASH_IN` - A restaurant employee puts cash in a cash drawer. This type of entry represents miscellaneous cash operations that are not handled by standard Toast POS functionality. Note that when a restaurant employee undoes a `CASH_OUT`cash entry, the system posts a `CASH_IN` cash entry for the same amount.

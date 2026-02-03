@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Getting information about a specific payment
-
 Send a `GET` request to the `/payments/<em>\{guid\}</em>` endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment` object that contains information about the payment. For information about the values of the `Payment` object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
 
 The following example **curl** command sends a `GET` request to the `/payments/<em>\{guid\}</em>` endpoint for a specific payment.

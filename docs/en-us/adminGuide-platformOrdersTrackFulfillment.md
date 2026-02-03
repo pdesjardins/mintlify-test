@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Tracking the order fulfillment
-
 The order fulfillment process is how the order items are received by the restaurant, sent to the kitchen, prepared, and provided to the guest.
 
 The fulfillment process includes the following steps:

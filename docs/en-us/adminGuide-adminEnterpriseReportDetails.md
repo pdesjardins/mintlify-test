@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Enterprise report details
-
 This section provides some enterprise-specific information about several of Toast's reports.
 
 #### Product mix comparison report

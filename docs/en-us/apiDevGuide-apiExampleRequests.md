@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Example API requests
-
 Toast provides a Postman™ API client collection of API requests to help you test the APIs without writing any code.
 
 | **1.1.** | **What is Postman, and where can I learn more about it?** | 

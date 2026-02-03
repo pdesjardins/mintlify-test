@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Building a gift card integration
-
 Follow the steps below to build a gift card integration with the Toast platform.
 
 This integration allows customers to use your gift card functionality in their Toast POS workflows.

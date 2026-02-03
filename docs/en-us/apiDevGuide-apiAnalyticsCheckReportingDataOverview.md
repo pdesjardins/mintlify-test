@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Check reporting data overview
-
 Check reporting data includes detailed check information for all orders created on a specific day. For more information on what is included in the check reporting data, see [Understanding the check reporting data](apiAnalyticsCheckReportingDataUnderstandingData.html). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
 Retrieving the check reporting data is a two-step process. You must:

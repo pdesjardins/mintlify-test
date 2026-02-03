@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Rate limiting
-
 To maintain the stability and availability of APIs for all client applications, Toast APIs are rate-limited. This ensures that a single API client cannot consume all API resources and deny service to other clients. Requests that exceed a rate limit are denied with an HTTP status code 429 response.
 
 #### Toast rate limit values

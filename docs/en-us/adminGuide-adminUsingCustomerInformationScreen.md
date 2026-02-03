@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using the customer information screen
-
 The customer information screen allows you to add a guest’s profile to takeout, curbside, or delivery orders. The information entered on the customer information screen appears on the guest’s order.
 
 On the customer information screen, you can:

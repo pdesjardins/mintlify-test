@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Fixed rates
-
 A fixed tax rate levies the same monetary amount on a menu item, regardless of its price. You would use a fixed tax rate for special cases, such as for bottle deposits.
 
 Note that comping an order that has items with a fixed rate leaves the tax amount on the check total. When you comp an order that has items on it with a fixed tax rate, the tax remains as an open balance. This occurs whether only the item with the fixed rate is comped or if the entire order is comped.

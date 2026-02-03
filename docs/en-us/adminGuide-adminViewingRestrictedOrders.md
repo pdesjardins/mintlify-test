@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Working with restricted orders
-
 A restricted order is one that has been closed for a long time, making it unlikely that you will need to reopen or edit it. For example, if an order was opened, paid for, and closed 90 days ago, it is very unlikely that you would need to change it. Restricted orders are protected from changes and the only update allowed is to process a refund.
 
 ![Diagram showing the transition from closed to restricted.](https://doc.toasttab.com/doc/media/order-states-restricted.png)

@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Offline mode overview
-
 As a cloud-based app, the Toast platform must use the internet to connect to its cloud-based services. Other Toast operations, such as sending credit card information to credit card networks for authorization and connecting with third-party integrations, must be performed through the internet and the Toast platform cloud-based service. The internet connection is provided by an internet service provider (ISP).
 
 The internet connection is made through a network router. The router can also provide a Wi-Fi network for the restaurant. Although network connection types can vary from one restaurant to another, Toast terminals and access points typically have hard-wired Ethernet connections to the router. Mobile (handheld) devices typically have Wi-Fi connections, and printers may use hardwired or Wi-Fi connections. Toast support recommends using hardwired connections where possible.

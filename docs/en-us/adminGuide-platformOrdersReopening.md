@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Reopening closed checks
-
 You can reopen closed checks.
 
 For closed orders that are not yet restricted, the order details dialog in the Orders report displays a re-open check link next to each check. For more information, see [Working with restricted orders](adminViewingRestrictedOrders.html).

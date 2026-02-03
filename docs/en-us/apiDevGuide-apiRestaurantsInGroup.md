@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 2
 ---
 
-### Getting all restaurants in a management group
-
 Send a `GET` request to the `/restaurants/v1/groups/\{managementGroupGUID\}/restaurants`endpoint of the restaurants API to get a list of the restaurants in a restaurant management group. The endpoint returns a JSON array of `Restaurant` objects. Each `Restaurant` object contains the GUID of a restaurant in the restaurant management group.
 
 You can get a restaurant management group's GUID from either of these resources:

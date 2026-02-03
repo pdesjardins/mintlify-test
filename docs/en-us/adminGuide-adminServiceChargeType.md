@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Service charge components
-
 The service charge configuration includes the amount of the service charge, how to apply the service charge, and whether to apply tax to the service charge.
 
 #### How the service charge type determines the service charge amount

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing menu item stock statuses
-
 The Pre-shift notes screen allows staff to easily view the inventory status of menu items. When your employee clocks in for their shift, the Pre-shift notes screen opens to display all out-of-stock and low-stock items. When a menu item is marked out of stock or shows low inventory (an inventory count of less than five) on either the Toast Now app or on the Toast POS, the item’s inventory status is updated on the Pre-shift notesscreen on the Toast POS device.
 
 You can access the Pre-shift notes screen on the Toast POS app by navigating to My Account \> Pre-shift notes or through the overflow menu on the following screens: Table Service, Quick Order, Fast Service, Payment Terminal, and Orders Hub.

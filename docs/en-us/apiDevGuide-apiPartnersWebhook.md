@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Partners webhook
-
 The `partners` webhook allows you to receive updates when:
 
 - Your integration is added to a restaurant location.

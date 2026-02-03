@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Gift card integration workflow
-
 The Toast platform sends requests to your gift card API implementation when it processes gift card transactions at restaurants that use your gift card provider service. Your implementation of the gift card API must return information about the results of your attempt to process the transaction.
 
 The following sections provide more information about the gift card transaction workflow in a Toast platform gift card integration.

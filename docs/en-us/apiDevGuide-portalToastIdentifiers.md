@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Toast identifiers
-
 When working with Toast APIs, you will encounter various identifiers for Toast entities. For example, when you submit an order to the orders API, you must provide identifiers for the menu items and modifiers that are included in the order. In certain circumstances, the Toast platform has more than one way to identify an entity. This section describes the different types of Toast identifiers, their relationships to one another, and when to use them.
 
 #### multiLocationId and guid identifiers

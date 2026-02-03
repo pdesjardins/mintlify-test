@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Deprecated cash management
-
 
 
 > **Important**

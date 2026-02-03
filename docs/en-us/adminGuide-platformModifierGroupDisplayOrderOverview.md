@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Modifier group display order overview
-
 The Toast platform has a number of settings and conditions that affect the order it uses to display modifier groups for a menu item. None of these settings or conditions on their own determine the display order for modifier groups. Rather, it is the combination of these settings and conditions that determines the display order.
 
 

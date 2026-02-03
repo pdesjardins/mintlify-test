@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Items database export
-
 To export data from the Items database page, select the tab for the type of entity you want to export, and then select the export icon.
 
 All data is exported for all entities of the type you selected, regardless of the searching and filtering you have done on the Items database page. For example, if you are viewing the Items tab, all of the items in your menu are exported along with all of their data, even if you used the search field or the Show/hide columns option to limit what you see on the Items database page.

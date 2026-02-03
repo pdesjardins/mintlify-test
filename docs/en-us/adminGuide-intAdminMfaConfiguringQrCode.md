@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Configuring multi-factor authentication using an authenticator app
-
 You can choose to set up your multi-factor authentication using a QR code or SMS. To learn how to set it up using SMS, see [Configuring multi-factor authentication using SMS](intAdminMfaConfiguringSms.html).
 
 **Procedure 4.3. To use a QR code for multi-factor authentication**

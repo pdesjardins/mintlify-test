@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Service charge eligibility
-
 Service charges can be applied automatically based on eligibility criteria. Service charges also can be applied manually.
 
 #### Criteria for applying a service charge automatically

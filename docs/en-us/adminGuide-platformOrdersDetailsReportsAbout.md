@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### About the Orders and Order details reports
-
 The Orders and Order details reports both provide detailed information about orders. They display the same information and use the same filters.
 
 #### Orders report

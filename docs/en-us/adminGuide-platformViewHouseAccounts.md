@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Viewing house accounts
-
 You can view your active and archived house accounts in Toast Web. Go to Payments \> Payment methods \> House accounts to open the Accounts page. On the Accounts page, you can view the following information:
 
 - Total number of house accounts

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Sending and receiving text alerts
-
 This section describes how to send a text alert from a Toast POS device. 
 
 **Procedure 4.20. To send a text alert from a Toast POS device**

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Comparing the menus API with the configuration API and menu JSON export
-
 This section compares and contrasts the menus API with the configuration API and the nightly menu JSON export so that you can understand their differences. In general, if you need to retrieve the entire menu structure for a restaurant, the menus API is the preferred method for doing so.
 
 - [Comparing the menus API with the configuration API](apiComparingTheMenusApiWithTheConfigurationApiAndMenuJsonExport_V2.html#apiComparingTheMenusApiWithTheConfigurationApi_V2)

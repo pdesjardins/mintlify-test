@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Authentication rate limit
-
 Your Toast API client must reuse authentication tokens for as long as possible before getting a new token from the Toast authentication API. Authentication tokens are typically valid for one day after they are initially issued.
 
 Try to request no more than one or two authentication tokens per day.

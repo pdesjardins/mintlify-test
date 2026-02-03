@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Retrieving the labor reporting data
-
 Send a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
 To request the labor reporting data, you must include the labor reporting data request GUID, or `reportRequestGuid`, as a path variable.

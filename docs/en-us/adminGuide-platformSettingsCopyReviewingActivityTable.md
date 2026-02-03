@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Reviewing past copies made using the settings copy feature
-
 On the Settings copy page, there is an Activity table that lists historical data for any copies you made for that management group. This table includes the following columns:
 
 - Status: This reflects the status of the copying. There are three possible statuses for your copy instance:

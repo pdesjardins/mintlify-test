@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Getting a list of restaurants in a management group
-
 You can use the `/era/v1/restaurants-information`endpoint of the analytics API to retrieve a list of the restaurants and their statuses in the management group associated with your account. This list includes the `restaurantGuid` and the `restaurantName`, and the restaurant statuses for `active`, `testMode`, and `archived`.
 
 - The `restaurantGuid` is the unique GUID assigned to the restaurant by the Toast platform.

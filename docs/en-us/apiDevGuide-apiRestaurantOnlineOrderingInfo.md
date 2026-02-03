@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 1
 ---
 
-### Online ordering configuration
-
 The return data from a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API includes an `OnlineOrdering` object with the configuration for the restaurant's Toast Online Ordering service. If the restaurant has the Toast Online Ordering feature, restaurant employees configure these settings on the Takeout & delivery \> Toast online ordering \> Toast Online Ordering page in the Toast Web.
 
 The following example shows the online ordering configuration values in the return data from a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API.

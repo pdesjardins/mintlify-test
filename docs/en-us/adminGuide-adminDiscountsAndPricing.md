@@ -15,7 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Discounts and pricing
-
 You can use discounts to reduce the prices that your restaurant guests pay. For example, you might offer promotional discounts for specific menu items. For more information about Toast platform discounts, see [Discounts overview](platformDiscountsOverview.html).
 

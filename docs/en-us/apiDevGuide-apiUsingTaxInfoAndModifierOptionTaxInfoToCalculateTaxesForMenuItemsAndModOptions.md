@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 4
 ---
 
-### Using taxInfo and modifierOptionTaxInfo to calculate taxes for menu items and modifier options
-
 In Toast Web, you can configure a modifier option's underlying [item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference) to use one of the following tax behaviors:
 
 - Inherit item tax rate: The modifier is taxed at the same rate as the parent menu item. For example, if the menu item is taxed at 6.25%, then the modifier option is also taxed at the 6.25% rate. This is the default behavior.

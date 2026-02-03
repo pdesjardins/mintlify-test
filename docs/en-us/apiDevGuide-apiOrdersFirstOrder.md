@@ -7,15 +7,13 @@ parentSectionFile: apiDevGuide-apiOrdersOvercviewOmitChunkFromSearchIndex.md
 parentSectionTitle: "About the orders API"
 previousSectionFile: apiDevGuide-apiOrdersOrderObjectSummary.md
 previousSectionTitle: "Order object summary"
-nextSectionFile: apiDevGuide-portalApiGettingOrdersOmitChunkFromSearchIndex.md
-nextSectionTitle: "Getting order information"
+nextSectionFile: apiDevGuide-apiOrdersErrors.md
+nextSectionTitle: "Orders API errors"
 externalReferences: [https://doc.toasttab.com/openapi/restaurants/overview/, https://doc.toasttab.com/openapi/orders/overview/, https://doc.toasttab.com/openapi/configuration/overview/]
 excerpt: "This topic describes how to authenticate, gather required information, build an order JSON payload, and submit your first order to the Toast orders API."
 procedures: 0
 codeExamples: 0
 ---
-
-### Submitting your first order to the orders API
 
 This topic describes how to authenticate, gather required information, build an order JSON payload, and submit your first order to the Toast orders API.
 
@@ -564,7 +562,7 @@ After successfully submitting your first order, you can explore additional capab
 - **Schedule future orders** - Create orders to be fulfilled at a specific date and time. For more information, see [Scheduling future orders](orders_api_future_orders.html).
 
 
-- **Retrieve order details** - Get information about existing orders. For more information, see [Getting detailed information about one order](portalApiGettingOrdersOmitChunkFromSearchIndex.html#apiOrdersGetDetailedInfoAboutOneOrder).
+- **Retrieve order details** - Get information about existing orders. For more information, see [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
 
 
 - **Void an order** - Cancel an order that was accidentally placed or is no longer needed. For more information, see [Void an order](apiVoidOrder.html).

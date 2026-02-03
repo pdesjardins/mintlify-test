@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-# Platform guide
-
 These guides provide detailed information about the functionality of the Toast platform that you can use to integrate Toast platform products and features with your business operations.
 
 - **Getting started **What you need to know about configuring and working with the Toast platform.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### POS layout view overview
-
 POS layout view provides a browser-based tool that simulates what your menu looks like on the Toast POS app, including the steps a server would take to add items and modifiers to an order.
 
 

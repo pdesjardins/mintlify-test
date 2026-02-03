@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Viewing service charges that were applied to orders
-
 To view information about service charges that were applied to orders, you can use the Sales Summary report or the Order Details report.
 
 The Sales Summary report lists the service charge names and the amounts that were applied to orders.

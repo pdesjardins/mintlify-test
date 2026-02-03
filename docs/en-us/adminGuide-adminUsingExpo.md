@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using a KDS expediter screen
-
 In some restaurants, the kitchen staff includes an [*expediter*](adminGuide-adminGlossary.html#glossExpediter). The responsibilities of the expediter, or expo, can include managing communication between the front and back of the house, organizing item timing, and finalizing orders for service. In this workflow, the expediter determines when an order is completely fulfilled and ready for service, rather than the cooks.
 
 ![A workflow diagram of three KDS devices: two as prep station screens, Grill/Saute and Salad, going on to an expediter screen.](https://doc.toasttab.com/doc/media/KDS_workflow_1expo.png)

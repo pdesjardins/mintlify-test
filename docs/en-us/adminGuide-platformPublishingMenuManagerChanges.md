@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Publishing menu manager changes
-
 The menu manager offers several workflows for saving and publishing your menu changes. With the menu manager, you can:
 
 - [Create a new change set](platformPublishingMenuManagerChanges.html#platformCreatingANewChangeSetMenuManager) from the Menu manager page that is saved and published at a later date and time.

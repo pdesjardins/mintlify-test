@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Hotel property management system integration
-
 Property management systems (PMS) are used by hotels and motels to coordinate systems used for servicing guests, charges, and further accounting. You can use the tender API to implement an integration between a PMS and the Toast platform. The tender integration allows an employee at a hotel or restaurant to look up a guest's account and post charges to their hotel folio.
 
 #### Transaction descriptions

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Configuring groups of required items
-
 For BOGO and combo discounts, you configure groups of required menu items, menu groups, and menus.
 
 Each group represents a different way for a check to be eligible for the discount. The check must contain all of the required items from at least one of the configured groups.

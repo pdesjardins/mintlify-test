@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adjusting menu visibility for a third-party online ordering channel
-
 
 
 > **Note**

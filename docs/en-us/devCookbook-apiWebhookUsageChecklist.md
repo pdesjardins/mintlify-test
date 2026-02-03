@@ -13,8 +13,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Adding a webhook subscription
-
 Use these instructions to add a new webhook subscription to your Toast integration.
 
 #### Setup and planning

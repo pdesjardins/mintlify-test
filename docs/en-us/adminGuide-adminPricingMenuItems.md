@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Pricing menu items
-
 When pricing the menu items in a menu group, you can choose to either:
 
 - [Set a price on the menu group and then configure the group's menu items to inherit that price.](adminPricingMenuItems.html#adminSettingPricesAtTheMenuGroupLevel)

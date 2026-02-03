@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Retry support
-
 The Toast platform attempts to resend updates to a webhook endpoint in the following circumstances:
 
 - There is a timeout when connecting to, sending to, or receiving from the webhook endpoint. See [Timeouts](apiTimeouts.html) for more information.

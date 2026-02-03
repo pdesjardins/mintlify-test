@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Assigning a KDS device to a prep station
-
 If you use KDS devices to display tickets, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setupaccess permission to configure each device to display the tickets for a specific prep station. Before you add a prep station to a KDS device, consider whether you want or need to display the items sent to that prep station on that device.
 
 

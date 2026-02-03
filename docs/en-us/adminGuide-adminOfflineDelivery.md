@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Takeout and delivery orders
-
 You can place takeout and delivery orders when the device is in offline mode. However, you cannot look up guest information to link the order to an existing guest account. If you attempt to do so, the following message displays on the lookup dialog:
 
 ![The Toast POS device showing the lookup error message in offline mode.](https://doc.toasttab.com/doc/media/offline-lookup.png)

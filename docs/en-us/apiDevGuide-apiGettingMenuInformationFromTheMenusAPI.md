@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Menus API overview
-
 Using the menus API, you can retrieve a fully resolved set of menus for the restaurant you specify. With this data, you can construct a menu that satisfies your business requirements. For example, you can use the menus API data to construct a digital menu board or create an ordering application where guests can place orders.
 
 To retrieve data from the menus API, you send a `GET`request to the `/menus` endpoint. Before retrieving data, send a `GET` request to the `/metadata` endpoint to [determine if the menu data you have is stale](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).

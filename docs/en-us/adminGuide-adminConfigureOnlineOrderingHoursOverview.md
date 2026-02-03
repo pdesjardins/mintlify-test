@@ -16,8 +16,6 @@ procedures: 3
 codeExamples: 0
 ---
 
-### Configuring online ordering hours
-
 The Online ordering hours section displays the online ordering hours for Takeout & Third-party delivery and First-party delivery. In the Online ordering hours section, the Takeout and Third-party delivery hours are always shown, while First-party delivery hours are only shown if first-party delivery is enabled in Toast Web. To enable first-party delivery, choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/Delivery page.
 
 The following table describes which online ordering hours configuration to use for each ordering channel.

@@ -15,8 +15,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Fixing import failures
-
 There are two types of failures that can occur when importing data with the bulk import tool: data validation failures and import operations failures.
 
 When it attempts to import a CSV file, the Toast platform first validates the data in the CSV file to make sure it conforms to the acceptable values described in [Filling out a bulk import spreadsheet](platformFillingOutTheBulkImportSpreadsheet.html). If any of the rows fail this validation step, the Toast platform displays the Errors found in import file page to notify you of the data validation failure:

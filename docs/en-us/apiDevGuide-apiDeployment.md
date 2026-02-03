@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Deployment best practices
-
 When you deploy updates to your integration, use the following best practices:
 
 

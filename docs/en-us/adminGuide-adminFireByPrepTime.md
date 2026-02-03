@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Firing by item prep time
-
 Timing order preparation is important, so that every component of the course or meal is ready at the same time. This helps increase guest satisfaction and reduce waste. Typically, employees send all of the items in an order to the kitchen at once (or all of the items in a course for a restaurant that uses [courses](adminKitchenDiningRoomReference.html#configCoursesSection)). For online orders, items are sent to the kitchen at the same time automatically. In restaurants that use Toast KDS devices, this can result in all sent items firing immediately to the prep station KDS devices.
 
 #### About item firing by prep time

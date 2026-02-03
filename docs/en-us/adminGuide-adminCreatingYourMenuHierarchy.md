@@ -16,8 +16,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Creating your menu hierarchy
-
 This section provides procedures and information about creating your menu hierarchy.
 
 #### Working with menus

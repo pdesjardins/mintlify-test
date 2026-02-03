@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 3
 ---
 
-### Getting a restaurant's online ordering availability
-
 Send a `GET` request to the `/restaurant-availability/v1/availability` endpoint of the restaurant availability API to retrieve a restaurant’s availability to accept online orders. The `restaurant_availability` webhook sends a message when the restaurant’s Toast Autofire™ device has stopped approving online orders.
 
 This is the [fallback endpoint](apiWebhookUsageChecklist.html) for the `[restaurant_availability

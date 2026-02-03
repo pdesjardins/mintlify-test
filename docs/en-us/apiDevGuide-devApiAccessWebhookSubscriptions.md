@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Standard API access webhook subscriptions
-
 
 
 > **Note**

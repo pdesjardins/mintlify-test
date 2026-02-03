@@ -14,8 +14,6 @@ procedures: 1
 codeExamples: 0
 ---
 
-### Accessing the Toast POS Device Setup screen
-
 For the Toast POS devices in your restaurant to record orders and display them for fulfillment effectively, you can configure each device individually with the Device Setup option.
 
 To configure a device you must have at least one of these ["mode" access permissions](adminPermissions.html#adminModePermissions).

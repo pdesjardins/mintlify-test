@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Bump bar usage guidelines
-
 Follow these guidelines when using the bump bar:
 
 - **Do not** plug multiple bump bar devices into one KDS device. The KDS device only recognizes one bump bar at a time.

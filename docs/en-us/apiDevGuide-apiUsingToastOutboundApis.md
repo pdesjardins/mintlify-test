@@ -14,8 +14,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Using Toast outbound APIs
-
 You can use Toast outbound APIs to integrate restaurant services with the Toast platform. A Toast outbound API includes a REST API server specification that your organization implements and maintains. In a Toast outbound API integration, the Toast platform acts as the API client, and sends HTTP requests to your organization's API server. For example, the Toast platform might send API requests to your organization's outbound API server during a Toast POS app workflow to integrate a gift card, loyalty program, or other restaurant service.
 
 The following diagram shows the Toast platform making HTTP requests as an API client and receiving HTTP responses from the API server that your organization implements.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Timeouts
-
 In order to keep the Toast platform's webhook support operating with optimum performance, timeouts are enforced on requests sent to webhook endpoints. This protects the webhook system from endpoints that may be experiencing issues or are poorly implemented. Currently, these timeouts are:
 
 - Connection timeout: If the Toast platform experiences a timeout greater than 2 seconds while trying to connect to the webhook endpoint, it will abandon the update request.

@@ -15,8 +15,6 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Pre-shift notes overview
-
 The pre-shift notes feature allows restaurants to keep their staff informed of key announcements, reminders, and updates during their shift.
 
 Benefits to the pre-shift notes feature include:
