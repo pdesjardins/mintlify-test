@@ -19,7 +19,7 @@ You can specify custom details for the menu item selections in an order.
 
 For example, a guest might want *jalapeno peppers*on a sandwich, *extra* rice, or the *large* size of a drink. Or they might want to have the salad dressing provided on the side instead of on the salad.
 
-### Applying modifiers and pre-modifiers
+## Applying modifiers and pre-modifiers
 
 To specify the custom details for a menu item selection, you add modifiers and pre-modifiers.
 
@@ -29,7 +29,7 @@ A pre-modifier applies a text string to a modifier. It is typically displayed be
 
 In the orders API, to include the modifiers and pre-modifiers for a menu item selection, you add a `modifiers` value to the menu item's `Selection` object.
 
-#### Structure of a modifiers entry
+### Structure of a modifiers entry
 
 The `modifiers` value is an array of objects. Each object in `modifiers` defines the details of a modifier to add to the menu item selection.
 
@@ -133,7 +133,7 @@ The following example message body for an order shows a modifier and a pre-modif
 
 (6) The GUID of the pre-modifier for this modifier. For example, the pre-modifier might be NO or EXTRA.
 
-#### Requirements for modifier quantities
+### Requirements for modifier quantities
 
 The orders API requires that the quantity of a modifier is equal to the quantity of the menu item selection.
 
@@ -145,7 +145,7 @@ If different instances of the same item require a different set of modifiers, th
 
 The orders API rejects orders that have mismatching menu item selection and modifier quantities. For example, if a check contains a menu item selection with `"quantity": 1` and a modifier with `"quantity": 2`, the Toast platform rejects the order. If the menu item selection `quantity` is `3`, but the modifier `quantity` is only `2`, the Toast platform rejects the order.
 
-##### Example of matching item and modifier quantities
+#### Example of matching item and modifier quantities
 
 The following excerpt from an `Order` object shows a menu item selection for five slices of Key Lime Pie. The Whipped Cream modifier is added to all of the slices.
 
@@ -205,7 +205,7 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
 
  Quantity of the modifier. For example, five Whipped Creams (one whipped cream per pie).
 
-#### Using nested modifier groups sourced from menu groups
+### Using nested modifier groups sourced from menu groups
 
 You must include specific identifiers when a modifier meets the following conditions: 
 
@@ -243,7 +243,7 @@ You must include specific identifiers when a modifier meets the following condit
 
 
 
-##### Example nested modifier from a reused menu group
+#### Example nested modifier from a reused menu group
 
 The example below shows the correct modifier structure for an orders API POST request.
 
@@ -315,7 +315,7 @@ The example below shows the correct modifier structure for an orders API POST re
 
 (4) The GUID for the specific menu item selection chosen as a nested modifier. This is used when a modifier item itself has additional, secondary options applied to it for example, specifying well done for a side steak's temperature modifier.
 
-#### Adding the same modifier multiple times to a menu item selection
+### Adding the same modifier multiple times to a menu item selection
 
 You can add the same modifier to a menu item selection multiple times, as long as each instance of the modifier has the same quantity as the menu item selection. This tells the restaurant to add the modifier to the item more than once. For example, if a guest wants double the cheese on a pizza, you can add the cheese modifier twice.
 
@@ -393,7 +393,7 @@ The following JSON body example adds whipped cream twice to a slice of cherry pi
 
  Another modifier with a quantity of one, specified in the modifiers array. For example, the second Whipped Cream.
 
-#### Including default modifiers
+### Including default modifiers
 
 A menu item can be configured with default modifiers. For example, a turkey sandwich menu item by default has lettuce and tomato modifiers.
 
@@ -403,7 +403,7 @@ When you use the orders API to order an item that has default modifiers, default
 
 For example, for a pineapple and jalapeno pizza menu item, the default modifiers are cheese, pineapple, and jalapenos. To use the orders API to order the pineapple and jalapeno pizza, you must include all of those default modifiers in the `modifiers` value for the item. If a guest requests the pizza without jalapenos, you include only the cheese and pineapple modifiers. The Toast platform then specifies that the pizza should not have jalapenos.
 
-#### Applying modifiers to menu item portions
+### Applying modifiers to menu item portions
 
 You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [Portions overview](adminPortionsOverview.html).
 
@@ -512,13 +512,13 @@ The following example order JSON applies modifiers to portions of a menu item se
 
 (11) Apply modifiers to a portion in the modifiers value for that portion.
 
-### Special requests and instructions
+## Special requests and instructions
 
 When you create an order in the orders API, you can specify special requests and instructions for the menu item selections. For example, when they order a salad, a guest might request that salad dressing is packaged on the side, instead of mixed in.
 
 Special requests appear with the item name in the order description in the Toast platform and printed order tickets. Restaurant employees can see the requests when they prepare the items for an order.
 
-#### How to add a special request to a menu item selection
+### How to add a special request to a menu item selection
 
 To add a special request to a menu item selection, in the `modifiers` object, add an object with the request message.
 
@@ -538,7 +538,7 @@ In the object for the special request:
 > To display special requests on your restaurant's KDS, add them to the `modifiers` object. Special requests added to objects other than `modifiers` will not show on the KDS.
 
 
-#### Example of adding a special request to a menu item selection
+### Example of adding a special request to a menu item selection
 
 The following example JSON message body for a `POST` request to the orders API includes a special request for a menu item selection.
 

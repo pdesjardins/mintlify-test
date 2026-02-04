@@ -53,7 +53,7 @@ Stock webhook events reflect changes to these settings or to a menu item's quant
 
 To set a menu item's stock status in the Toast app, a restaurant uses Quick Edit mode (described in this [Toast Central article](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057)). To set it in Toast Web, the restaurant uses the Inventory section of the menu item's details page.
 
-### in_stock
+## in_stock
 
 The menu item has been manually marked as in stock or its quantity has been set to a value that exceeds the low quantity threshold. Currently, the low quantity threshold is set to 5 for all menu items and is not configurable.
 
@@ -107,7 +107,7 @@ Attributes in the `in_stock` event's payload include:
 ```
 
   
-### out_of_stock
+## out_of_stock
 
 The menu item's quantity has reached 0 or it has been manually marked as out of stock.
 
@@ -140,7 +140,7 @@ Attributes in the `out_of_stock` event's payload include:
 ```
 
   
-### low_quantity
+## low_quantity
 
 The `low_quantity` webhook event is triggered when either of the following occurs:
 

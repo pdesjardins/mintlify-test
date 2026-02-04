@@ -17,7 +17,7 @@ codeExamples: 0
 
 The following sections describe the various quote time strategies available.
 
-### SmartQuote
+## SmartQuote
 
 
 
@@ -52,7 +52,7 @@ In this example:
 A guest places an ASAP online order for takeout at 1:00 PM. The Toast-provided SmartQuote prep time is 20 minutes. The guest’s order will be ready at 1:20 PM.
 
   
-### Manual
+## Manual
 
 
 
@@ -82,7 +82,7 @@ A guest places an ASAP Toast online order for takeout at 1:00 PM. The configured
 A guest places an ASAP Toast online order for delivery at 1:00 PM. The configured Manual quote time is 25 minutes. The guest’s order will be ready and delivered by 1:25 PM.
 
   
-### Kitchen capacity
+## Kitchen capacity
 
 The Kitchen capacity strategy sets quote times based on the number of orders or items the kitchen can prepare in a 15-minute time interval. First, set a quote time, which serves as the base time for the Kitchen capacity strategy. Then set your kitchen capacity by either the number of orders or by the number of items that your kitchen can prepare in a 15-minute interval. If you use the Kitchen capacity strategy it applies to both takeout and delivery orders.
 
@@ -205,7 +205,7 @@ In this example, there are three sequential time slots available starting at 5:0
 The guest’s quote time for their 15 item order is 5:45 PM.
 
   
-### Order price
+## Order price
 
 The Order price strategy sets quote times based on the total order price. This strategy applies to both takeout and delivery orders.
 

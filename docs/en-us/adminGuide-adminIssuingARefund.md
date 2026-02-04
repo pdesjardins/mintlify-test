@@ -21,13 +21,13 @@ You can choose to refund specific items, the entire check, tip only, tax only, o
 
 ![Refund drop-down with the available refund types.](https://doc.toasttab.com/doc/media/refunds-refund-menu.png)
 
-### Locating a check to refund
+## Locating a check to refund
 
 To issue a refund, you must first locate the original check on either the POS or Toast Web.
 
 You can only issue cash refunds from a Toast POS device.
 
-#### Locating a check on a Toast POS device
+### Locating a check on a Toast POS device
 
 To locate a check on a Toast POS device:
 
@@ -71,7 +71,7 @@ Alternatively, from the Payment Terminal screen:
 
 
 
-#### Locating a check in Toast Web
+### Locating a check in Toast Web
 
 To locate a check in Toast Web:
 
@@ -98,7 +98,7 @@ To locate a check in Toast Web:
 
 
 
-### Refunding items and service charges
+## Refunding items and service charges
 
 One option for a refund is to refund specific items or service charges.
 
@@ -193,7 +193,7 @@ To close the message, select Ok.
 
 
 
-### Refunding an entire check
+## Refunding an entire check
 
 The Entire check option contains the same steps and options as the By item(s) option. When you choose Entire check, all of the order items are selected by default. You can then de-select items and specify refund quantities. You can also choose to refund some or all of the tip.
 
@@ -284,7 +284,7 @@ To close the message, select Ok.
 
 
 
-### Refunding a tip only
+## Refunding a tip only
 
 The Tip only option allows you to refund some or all of the tip on an order.
 
@@ -331,7 +331,7 @@ To close the message, select Ok.
 
 
 
-### Refunding tax only
+## Refunding tax only
 
 The Tax only option allows you to refund only the tax for an order. You can also optionally refund some or all of the order tip.
 
@@ -387,7 +387,7 @@ To close the message, Select Ok.
 
 
 
-### Refunding a custom amount on a payment
+## Refunding a custom amount on a payment
 
 The Custom amount option allows you to specify a specific amount to refund, instead of selecting specific items or charges. When you refund a custom amount, you can also choose to refund some or all of the tip.
 
@@ -449,7 +449,7 @@ To close the message, select Ok.
 
 
 
-### Refunding a check that has multiple payments
+## Refunding a check that has multiple payments
 
 In the refund process, the payment screen displays the payment for the refunded check:
 
@@ -465,7 +465,7 @@ In the refund process, the payment screen displays the payment for the refunded 
 
 When a refunded check contains multiple payments, you can distribute the refund among those payments.
 
-#### Information about multiple payments on the payment screen
+### Information about multiple payments on the payment screen
 
 The payment screen displays all of the eligible payments. For each payment, the screen shows the amount paid toward the check and the tip. You can then specify the refund values for each payment.
 
@@ -484,7 +484,7 @@ The payment list never includes other payment types, house accounts, and third-p
 
 
 
-#### Distributing refunds for item, entire check, and tax refunds
+### Distributing refunds for item, entire check, and tax refunds
 
 For refunds by item, entire check refunds, and tax refunds, the banner at the top of the payment screen initially shows the amount of the refund based on your selections. As you enter values in the Amount fields, the banner is updated to indicate the remaining refund amount to distribute.
 
@@ -492,7 +492,7 @@ In the following example, the selected refund amount is 19.26. The values in the
 
 ![Multiple payments screen for item, entire check, and tax refunds.](https://doc.toasttab.com/doc/media/refunds-multiple-payments-1.png)
 
-#### Distributing refunds for custom value and tip only refunds
+### Distributing refunds for custom value and tip only refunds
 
 For custom value refunds and tip only refunds, the banner at the top of the page initially shows the total check amount before the tip.
 
@@ -500,13 +500,13 @@ For tip only refunds, the Amount fields are disabled.
 
 ![Multiple payments screen for a custom value or a tip only refund.](https://doc.toasttab.com/doc/media/refunds-multiple-payments-2.png)
 
-#### Refunds for payments that were not included in the original refund
+### Refunds for payments that were not included in the original refund
 
 If you do not specify a refund value for a payment when you refund a multi-payment check, then to issue a refund against that payment method later on, you must use the custom value refund method.
 
 For example, you issue a refund against a $40.00 check that has two credit card payments. You refund $15.00 to one of the credit cards, but do not refund anything to the other credit card. To issue a refund to the other credit card, you must use a custom value refund.
 
-### Removing other payments, house accounts, and third-party gift cards
+## Removing other payments, house accounts, and third-party gift cards
 
 To reverse payments made using house accounts, third-party gift cards or other payment types, you must use the Remove workflow, which is available from the Pay screen on the Toast POS app. You cannot remove these payments from Toast Web.
 

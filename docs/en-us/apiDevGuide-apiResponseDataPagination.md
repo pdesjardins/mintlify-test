@@ -21,7 +21,7 @@ For example, a restaurant might have a large number of discounts. An endpoint th
 
 If an endpoint paginates response data, the number of objects that it returns in a single response is based on the data size of those objects. An endpoint might return more or fewer objects in a single request depending on the amount of data in each object.
 
-### Page token pagination
+## Page token pagination
 
 
 
@@ -32,7 +32,7 @@ If an endpoint paginates response data, the number of objects that it returns in
 
 An endpoint that paginates response data provides an identifier string for *the next set* of response data objects in an HTTP response header field. The endpoint accepts that identifier string as an optional query parameter in the following requests that you make and returns the next set of response data objects.
 
-#### Paginated response header field and query parameter
+### Paginated response header field and query parameter
 
 When you interact with an endpoint that has paginated results, you use the following header field and query parameter:
 
@@ -52,7 +52,7 @@ When you interact with an endpoint that has paginated results, you use the follo
 
 Some Toast API endpoints paginate responses in a way that returns a fixed number of result data objects in each page. If the endpoint you are using includes the `pageSize` and `page` query parameters, the endpoint uses fixed-size response data pagination. For more information, see [Fixed-size paginated responses](apiResponseDataPagination.html#apiResponseDataPaginationFixedPageSize).
 
-#### How to use paginated Toast API responses
+### How to use paginated Toast API responses
 
 The following procedure explains how to use paginated Toast API responses.
 
@@ -127,13 +127,13 @@ When the response does not include the `Toast-Next-Page-Token` header field, you
 
 
 
-#### Managing 409 HTTP errors in paginated responses
+### Managing 409 HTTP errors in paginated responses
 
 A restaurant might change its configuration while your integration client is retrieving paginated data for that restaurant. If a restaurant that your client is retrieving paginated data for publishes any changes to its configuration during the data retrieval, the Toast platform sends a 409 HTTP error.
 
 If your integration client receives a 409 error, it should re-submit the request it is making, without the `pageToken`query parameter, so that the response restarts from the first page.
 
-### Fixed-size paginated responses
+## Fixed-size paginated responses
 
 [Some Toast API endpoints](apiResponseDataPagination.html#apiResponsePaginationTypes)allow your client to control the number of objects in the response data. In a Toast API endpoint that uses fixed page size response data pagination, you specify:
 
@@ -151,7 +151,7 @@ If your integration client receives a 409 error, it should re-submit the request
 > Most Toast APIs *do not* paginate responses using fixed page sizes. If the Toast API endpoint that you are using does not accept the `pageSize` and `page` query parameters, that endpoint uses the pagination functionality explained in [Page token pagination](apiResponseDataPagination.html#apiPaginationPageToken).
 
 
-#### Query parameters for fixed page size pagination
+### Query parameters for fixed page size pagination
 
 For fixed page size pagination, you use the following query parameters:
 
@@ -169,7 +169,7 @@ For fixed page size pagination, you use the following query parameters:
 
 
 
-#### How to use a fixed page size paginated response
+### How to use a fixed page size paginated response
 
 To use the paginated response of a Toast API endpoint that uses a fixed page size, make a `GET` request to the endpoint. Inspect the `Toast-Total-Result-Count` HTTP header field in the response to determine the total number of objects the endpoint will return.
 
@@ -209,7 +209,7 @@ Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel
 (5) The URL and query parameters that will return the last set of objects available from the API endpoint.
 
   
-### Response pagination types used by Toast APIs
+## Response pagination types used by Toast APIs
 
 The following table identifies the pagination functionality used by Toast API endpoints.
 

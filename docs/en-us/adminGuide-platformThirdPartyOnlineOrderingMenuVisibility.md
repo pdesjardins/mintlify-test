@@ -40,7 +40,7 @@ You can adjust menu visibility for an online ordering channel from the Third par
 
 
 
-### Adding a menu to a third-party online ordering channel
+## Adding a menu to a third-party online ordering channel
 
 
 
@@ -83,7 +83,7 @@ You can adjust menu visibility for an online ordering channel from the Third par
 
 
 
-### Removing a menu from a third-party online ordering channel
+## Removing a menu from a third-party online ordering channel
 
 
 

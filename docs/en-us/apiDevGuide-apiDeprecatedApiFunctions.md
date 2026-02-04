@@ -17,11 +17,11 @@ codeExamples: 0
 
 This section includes information about Toast API functionality that is available but is expected to be removed or replaced.
 
-### Orders
+## Orders
 
 This section includes information about Toast orders API functionality that is available but is expected to be removed or replaced.
 
-#### Getting order identifiers for a time period (deprecated)
+### Getting order identifiers for a time period (deprecated)
 
 You can send a `GET` request to the `/orders` endpoint to get a list of the orders that were last modified during a period of time.
 
@@ -118,11 +118,11 @@ The following example shows the response data from the `/orders` endpoint using 
 (1) The /orders endpoint returns a JSON array of order GUIDs.
 
   
-### Authentication
+## Authentication
 
 This section includes information about Toast API authentication functionality that is available but is expected to be removed or replaced.
 
-#### Legacy API authentication (deprecated)
+### Legacy API authentication (deprecated)
 
 
 
@@ -192,7 +192,7 @@ The following sections provide information about the return data provided for au
 
 
 
-##### Authentication return data for a partner API client
+#### Authentication return data for a partner API client
 
 
 
@@ -255,7 +255,7 @@ iNTlbPVwAvrFTbEWcmys0",
 ```
 
   
-##### Authentication return data for a restaurant management group API client
+#### Authentication return data for a restaurant management group API client
 
 
 
@@ -319,11 +319,11 @@ iIylCX1sYzd241Y-gwo007AMgxjH9",
 ```
 
   
-### Guests
+## Guests
 
 This section includes information about Toast API guest functionality that is available but is expected to be removed or replaced.
 
-#### Working with guests (deprecated)
+### Working with guests (deprecated)
 
 This section provides information about working with restaurant guest records in Toast APIs. You can use the Toast CRM (customer relations management) API to perform operations that affect restaurant guest records.
 
@@ -363,7 +363,7 @@ The following sections provide more information about working with customers.
 
 
 
-##### Searching for guest records
+#### Searching for guest records
 
 To find existing customer records in the Toast POS you send a `POST` request to the `/crm/v1/customers/search` endpoint of the CRM API.
 
@@ -382,7 +382,7 @@ The following example shows the message body for a `POST` request to the `/crm/v
 ```
 
   
-##### Adding a guest record
+#### Adding a guest record
 
 To add a customer record to a restaurant and its restaurant group you send a `POST` request to the `/crm/v1/customers` endpoint of the CRM API. The `POST` request to the customers endpoint creates a customer record and returns a JSON `Customer` object containing the new customer information.
 
@@ -442,7 +442,7 @@ The following example shows the JSON response data for a `POST` request to the `
 ```
 
   
-##### Adding guest credits
+#### Adding guest credits
 
 To add customer credit value for a restaurant customer, you send a `POST` request to the `/crm/v1/`/customers/*`\{customerId\}`*/creditTransactions endpoint of the CRM API. Adding customer credit value creates a customer credit transaction.
 
@@ -502,11 +502,11 @@ The following example shows the JSON response data for a `POST` request to the `
 ```
 
   
-### Menus
+## Menus
 
 This section includes information about Toast API menu functionality that is available but is expected to be removed or replaced.
 
-#### Getting menu information from the menu data export (deprecated)
+### Getting menu information from the menu data export (deprecated)
 
 
 
@@ -517,7 +517,7 @@ This section includes information about Toast API menu functionality that is ava
 
 You can get detailed information about the menus configured for your restaurant from the menu data export file. The Toast POS system generates data export files once a day and makes them available for downloading. This section provides information about downloading data export files and understanding the values in menu data export files.
 
-##### Downloading data export files
+#### Downloading data export files
 
 The Toast platform stores data export files for seven days, and then they are deleted. When data exports are enabled for your restaurant, the following items are needed to retrieve your files: 
 
@@ -539,7 +539,7 @@ Export IDs can also be obtained from Toast Web. Navigate to Reports \> Settings 
 
 Prior to downloading data export files, ensure that you have [added an SSH key](adminSshKeys.html) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
 
-##### Accessing your SFTP directory using macOS terminal
+#### Accessing your SFTP directory using macOS terminal
 
 1. **Connect to your SFTP directory**
 
@@ -569,7 +569,7 @@ Export all files using the **get *** command or use **get *`\{fileName\}`*** to 
 
 
 
-##### Accessing your SFTP directory using Windows command prompt
+#### Accessing your SFTP directory using Windows command prompt
 
 1. **Connect to your SFTP directory**
 
@@ -602,7 +602,7 @@ get * `\{download_location\}`
 
 
 
-##### Menu Data Export Values
+#### Menu Data Export Values
 
 The menu data export includes two types of information:
 
@@ -623,11 +623,11 @@ The file name of the menu data export is `MenuExport_<em>[export file
 > The JSON format of the menu data export is significantly different than the spreadsheet formats of other Toast POS data exports. JSON is optimized for use by software and the menu data export is intended to assist in integration with Toast POS API clients.
 
 
-##### Menus
+#### Menus
 
 This section describes information about each menu entity at your restaurant.
 
-##### Menu
+#### Menu
 
 The following table shows the information about each menu at your restaurant from from the menu data export.
 
@@ -670,7 +670,7 @@ The following table shows the information about each menu at your restaurant fro
 | daysAvailableBits | This field is a numeric version of the daysAvailableString field and is for Toast internal use only. | Int | 
 | imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
 
-##### MenuGroup
+#### MenuGroup
 
 The following table shows the information about each menu group at your restaurant from the menu data export.
 
@@ -692,7 +692,7 @@ The following table shows the information about each menu group at your restaura
 
  | String | 
 
-##### MenuItem
+#### MenuItem
 
 The following table shows the information about each menu item at your restaurant from the menu data export.
 
@@ -720,7 +720,7 @@ The following table shows the information about each menu item at your restauran
 
  | String | 
 
-##### MenuOptionGroup
+#### MenuOptionGroup
 
 The following table shows the information about each menu option group, or modifier group, at your restaurant from the menu data export.
 
@@ -772,7 +772,7 @@ There are two scenarios that can occur with substitution pricing:- If the substi
 
  | String | 
 
-##### PricingStrategyRules
+#### PricingStrategyRules
 
 The following table shows the information about the pricing strategy for the modifier groups at your restaurant from the menu data export.
 
@@ -815,7 +815,7 @@ The following table shows the information about the pricing strategy for the mod
 
  | JSON array | 
 
-##### Premodifiers and postmodifiers
+#### Premodifiers and postmodifiers
 
 This section describes:
 
@@ -826,7 +826,7 @@ This section describes:
 
 
 
-##### premodifierGroups
+#### premodifierGroups
 
 The following table shows the information about the premodifier groups at your restaurant from the menu data export.
 
@@ -837,7 +837,7 @@ The following table shows the information about the premodifier groups at your r
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
 | premodifiers | An array of [premodifiers](apiDeprecatedApiFunctions.html#menuExportPremodifier) objects. | JSON array | 
 
-##### premodifiers
+#### premodifiers
 
 The following table shows the information about the premodifiers or postmodifiers at your restaurant from the menu data export.
 
@@ -857,7 +857,7 @@ The following table shows the information about the premodifiers or postmodifier
 
  | String | 
 
-##### Finding the default modifiers for a menu item
+#### Finding the default modifiers for a menu item
 
 When you create an order using the orders API, you must include all of the default modifiers for each menu item selection. If you omit a default modifier, the orders API will not apply it to the menu item. You can find the default modifiers for a menu item in the menu data export file for your restaurant. For general information about the menu data export file, see [Getting menu information from the menu data export (deprecated)](apiDeprecatedApiFunctions.html#apiMenuInformationMenuDataExport).
 
@@ -1040,7 +1040,7 @@ The following example shows menu items that are the default modifiers for a menu
 ```
 
   
-#### Menu entity visibility enhancements (rolled out)
+### Menu entity visibility enhancements (rolled out)
 
 The following sections describe changes to the visibility settings for menu entities (menus, menu groups, menu items, modifier groups, modifier options and their underlying item references). Visibility settings control where a menu entity is visible and, by extension, available for ordering. For example, visibility settings control whether an entity can be ordered on a Toast POS device, on a Toast Kiosk, via a restaurant's Toast online ordering website, or via a restaurant's integration with another online ordering system.
 
@@ -1083,7 +1083,7 @@ To allow you to develop against the new `visibility` array, the sandbox environm
 
 
 
-##### Understanding the new visibility behavior
+#### Understanding the new visibility behavior
 
 To understand the visibility changes, it is helpful to understand the old behavior. Previously, menu entities in the Toast POS system had several configuration options in Toast Web for controlling where an entity was visible and available for ordering. On the menu entity details pages, those settings look liked this:
 
@@ -1157,7 +1157,7 @@ To sum up, the effect of these changes for online ordering partners are as follo
 > For historical reasons, modifier groups currently do not have the Online orders: Toast option in the Visible To settings in Toast Web. This omission does not affect partner implementations because the Online orders: Toast option only impacts whether a menu entity is available on a restaurant's Toast Online Ordering site. In other words, the omission of this setting has no bearing on whether the modifier group is visible to a partner integration's online ordering site. The Online orders: Toast option will be added to modifier groups in a future release. Also, the `TOAST_ONLINE_ORDERING` enum is included in the `visibility` array for all modifier groups, regardless of the Visible To settings. This is a temporary condition that will be fixed soon. It should not impede the ability for partners to use, test, and code against the new Visible Tosettings because the `TOAST_ONLINE_ORDERING` enum is intended for the use of Toast Online Ordering only.
 
 
-##### Understanding the Grubhub enumeration
+#### Understanding the Grubhub enumeration
 
 Conceptually, the Grubhub setting has been replaced by the more general Online orders: Ordering partners setting and restaurants that used the Grubhub setting will automatically be migrated to the new Ordering partners setting. This means that any menu entity that had the Grubhub setting set to Yes will now have the Online orders: Ordering partners option enabled and, in the menus API `visibility` array, the `ORDERING_PARTNERS` enum will be present. In the short term, however, the `visibility`array will continue to contain the `GRUBHUB` enum for backwards compatibility. In the future, the `GRUBHUB` enum will be removed.
 

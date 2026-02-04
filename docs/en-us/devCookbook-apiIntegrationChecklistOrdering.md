@@ -19,7 +19,7 @@ Follow the steps below to build an online ordering integration with the Toast pl
 
 After you complete and test these steps, you can complete an end-to-end test of your integration functionality.
 
-### Required scopes
+## Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -51,13 +51,13 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 
 
-### Initial setup and testing
+## Initial setup and testing
 
-#### Complete initial integration setup
+### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-#### Learn menu hierarchy concepts
+### Learn menu hierarchy concepts
 
 To familiarize yourself with restaurants' menu structure, read the [menu hierarchy documentation](adminMenuHierarchy.html).
 
@@ -65,7 +65,7 @@ Then use the [menus API](apiMenusApiReturnsFullyResolvedJson_V2.html) to retriev
 
 Review [menu hierarchy](adminUnderstandingTheMenuHierarchy.html)information before you begin development related to menus.
 
-#### Retrieve configuration components
+### Retrieve configuration components
 
 Use the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) to retrieve the configuration you will need to place successful orders. Configuration options you may need include:
 
@@ -90,15 +90,15 @@ Use the [configuration API](https://doc.toasttab.com/openapi/configuration/overv
 
 Use the [packaging configuration API](https://doc.toasttab.com/openapi/packaging/overview/) to retrieve the packaging preference configurations you need for takeout or delivery orders.
 
-#### Place a test order
+### Place a test order
 
 To learn how Toast platform orders are structured, place an order using [example API requests](apiExampleRequests.html).
 
 To place a successful test order, you will need to retrieve an authentication token and replace the entity identifiers in the test order with entity identifiers at your test restaurant. You use the configuration and menu APIs to retrieve these identifiers.
 
-### Functionality planning
+## Functionality planning
 
-#### Determine how you will use free-text fields
+### Determine how you will use free-text fields
 
 You can set check tab names and display numbers in the way you choose.
 
@@ -114,25 +114,25 @@ Toast support recommends using these fields in the following ways:
 
 
 
-#### Decide which menu item pricing strategies you will support
+### Decide which menu item pricing strategies you will support
 
 Most Toast Online Ordering integrations support [base price](adminBasePrice.html), [menu-specific pricing](adminMenuSpecificPrice.html), and [size pricing](adminSizePrice.html).
 
 Supporting [time-specific pricing](adminTimeSpecificPrice.html) is recommended and will be a differentiator for your integration.
 
-#### Decide which modifier group pricing strategies you will support
+### Decide which modifier group pricing strategies you will support
 
 In addition to the menu item pricing strategies described above, modifier groups can also use [sequence pricing](adminSequencePrice.html) and [size/sequence pricing](adminSizeSequencePrice.html).
 
 Using these pricing strategies is a recommended differentiator for your online ordering integration.
 
-### Voiding an order
+## Voiding an order
 
 You can void an order using the orders API `void`endpoint. For more information, see [Void an order](apiVoidOrder.html).
 
-### Menu display
+## Menu display
 
-#### Build your menu display
+### Build your menu display
 
 Your menu should display at least:
 
@@ -175,7 +175,7 @@ Be sure your menu display allows:
 
 
 
-#### Only display a menu while it is configured to be available
+### Only display a menu while it is configured to be available
 
 Restaurants can configure menus to only be available at certain times of day, such as a brunch or happy hour menu.
 
@@ -183,7 +183,7 @@ Your integration should only display menus when their corresponding `Availabilit
 
 Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when building menu display times.
 
-#### Update menus on a near-real-time basis
+### Update menus on a near-real-time basis
 
 The [menus webhook](apiMenusWebhook.html) and the `/metadata` endpoint of the menus API tells you the timestamp of the most recent change to a restaurant's published menu.
 
@@ -191,15 +191,15 @@ If you do not use the menus webhook, your integration should poll the `/metadata
 
 For more information about menu syncing, see [Determining if a restaurant's menu data has gone stale](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).
 
-#### Avoid infinite loops when parsing menus
+### Avoid infinite loops when parsing menus
 
 There is a rare but possible menu configuration that can send your integration into an infinite loop when parsing a restaurant menu.
 
 To avoid this problem, see [Detecting and avoiding infinite loops in the menus API JSON](apiDetectingAndAvoidingInfiniteLoopsInTheMenusApiJson.html).
 
-### Handling out of stock Items (86'ing)
+## Handling out of stock Items (86'ing)
 
-#### Display item stock information
+### Display item stock information
 
 Your menu display should prevent guests from ordering items that are out of stock. Use the [stock webhook](apiUsingTheStockWebhook.html) to receive real-time notifications about item stock updates.
 
@@ -207,71 +207,71 @@ Fall back to the [stock API](apiUsingTheStockApi.html) if you miss a webhook upd
 
 See [this Toast Central article](https://central.toasttab.com/s/article/86-an-Item) for information about how to test out of stock items.
 
-### Handling dining option behavior
+## Handling dining option behavior
 
-#### Review dining option behaviors
+### Review dining option behaviors
 
 The behavior value on a dining option controls the order data that you are required to submit.
 
 For more information about dining option behaviors, see [Types of dining options](apiOrderTypeDetails.html#apiOrdersDiningOptionTypes).
 
-#### Build dine-in order interface
+### Build dine-in order interface
 
 When a guest submits a dine-in order, you must include a table with the order.
 
 For more information about submitting dine-in orders, see [Creating a dine-in order](apiOrderTypeDetails.html#apiOrdersCreateDinein).
 
-##### Providing table information for a dine-in order
+#### Providing table information for a dine-in order
 
 To include table information for a dine-in order, see [Providing table information for a dine-in order](apiOrderTypeDetails.html#apiOrdersCreateDineinTable).
 
-##### Adding items to existing checks
+#### Adding items to existing checks
 
 If your integration allows guests to add items to existing checks, see [Adding items to an existing check](apiAddingItemsToACheck.html).
 
-##### Prevent guests from leaving the restaurant without paying for their meal
+#### Prevent guests from leaving the restaurant without paying for their meal
 
 You are responsible for implementing functionality to ensure guests do not leave the restaurant without paying for their meal. For example, you could require payment at the time the order is placed.
 
-#### Build takeout order interface
+### Build takeout order interface
 
 When a guest submits a takeout order, you must submit the guest name, phone number, and email address with the order.
 
 For more information about submitting takeout orders, see [Creating a takeout order](apiOrderTypeDetails.html#apiOrdersCreateTakeout).
 
-#### Build curbside pickup order interface
+### Build curbside pickup order interface
 
 When a guest submits a curbside pickup order, you must submit the guest name, phone number, and email address with the order, as well as information about the guest’s mode of transport.
 
 For more information about submitting curbside pickup orders, see [Creating a curbside pickup order](apiOrderTypeDetails.html#apiOrdersCreateCurbside).
 
-#### Build delivery order interface
+### Build delivery order interface
 
 When a guest submits a delivery order, you must submit the guest name, phone number, email address, and delivery address with the order.
 
 For more information about submitting delivery orders, see [Creating a delivery order](apiOrderTypeDetails.html#apiOrdersCreatingDelivery).
 
-#### Validate guest information format
+### Validate guest information format
 
 Guest phone numbers must contain ten numeric digits.
 
 Guest email addresses must be unique per individual guest and must contain an at-sign (`@`) and a period (`.`).
 
-### Handling modifiers
+## Handling modifiers
 
-#### Handle default modifiers
+### Handle default modifiers
 
 The `isDefault` boolean value on modifier options indicates whether or not a modifier option is included with its parent menu item by default. If a modifier option is a default modifier on its parent item, your integration should display it by default and guests should have the option to remove it.
 
 For example, a hamburger menu item may include lettuce or tomato modifier options by default, but guests may want to remove one or both of these default options.
 
-#### Handle minimum and maximum selection options
+### Handle minimum and maximum selection options
 
 Modifier groups have `minSelection` and `maxSelection` values that describe the minimum and maximum number of selections a guest may make from a modifier group.
 
 Your ordering integration must enforce these values.
 
-#### Handle duplicate selections from a modifier group
+### Handle duplicate selections from a modifier group
 
 The `allowsDuplicates` boolean value on a modifier group indicates whether a guest can select the same option from a modifier group multiple times on the same menu item selection.
 
@@ -279,39 +279,39 @@ For example, if `allowsDuplicates` is `true`for a pepperoni modifier option on a
 
 See [Requirements for modifier quantities](apiSpecifyingModifiersAndInstructions.html#requirementsforModifierQuantities) for information about how to apply multiple quantities of the same modifier option on a menu item selection.
 
-#### Handle nested modifiers
+### Handle nested modifiers
 
 Restaurant employees can nest modifiers as deeply as they want in a menu. For example, a “burger” menu item may have an “add-ons” modifier group, which includes a modifier option of “cheese.” The “cheese” modifier option may include its own modifier group of “cheese type,” which contains modifier options of “American” and “Swiss.”
 
 Your integration should be able to handle at least three layers of nested modifiers, meaning an item and three layers of modifiers.
 
-#### Handle pre-modifiers
+### Handle pre-modifiers
 
 Modifier groups can have associated pre-modifiers. Common examples of pre-modifiers include “no,” “light,” “extra,” or “on the side.”
 
 As a differentiator, it is beneficial for your integration to allow guests to include pre-modifiers in the ordering process.
 
-#### Handle special requests
+### Handle special requests
 
 Orders can have free-text special requests on menu items and modifiers.
 
 To add special request functionality to your ordering integration, see [Special requests and instructions](apiSpecifyingModifiersAndInstructions.html#apiOrderSpecialInstructions).
 
-### Handling packaging preferences
+## Handling packaging preferences
 
-#### Review packaging preferences
+### Review packaging preferences
 
 Packaging preferences configured by restaurants indicate options for packaging takeout and delivery orders, such as utensils, napkins, or straws. Your integration is responsible for reviewing the available packaging preferences from the packaging configuration API and including guest-selected options when submitting orders. For more information on available packaging preferences, see [Getting packaging preference configuration options](apiOrdersPackagingPreferences.html#apiOrdersPackagingPreferencesGetGuid).
 
-#### Build packaging preferences functionality
+### Build packaging preferences functionality
 
 Your ordering interface should include packaging preference options for takeout and delivery orders. For more information about including packaging preferences in guest orders, see [Creating an order with packaging preferences](apiOrdersPackagingPreferences.html#apiOrdersPackagingPreferencesUsingTheOrdersApi).
 
-### Order timing
+## Order timing
 
 When developing functionality related to order timing, review the [Daylight Savings Time](api_dates_and_timestamps.html#apiDaylightSavingsTime) documentation.
 
-#### Display restaurant hours
+### Display restaurant hours
 
 Use the [`/orderingSchedule`endpoint](apiGettingOnlineOrderingSchedules.html) to retrieve a restaurant location’s hours of operation.
 
@@ -319,7 +319,7 @@ Display these hours on the restaurant's ordering site.
 
 Use these hours to control the times at which you submit orders. You are responsible for preventing order submission while the restaurant is closed. The orders API does not enforce restaurant hours.
 
-#### Build future order functionality
+### Build future order functionality
 
 If your integration will support future order submission (for example, placing a catering order on Monday to be fulfilled on Friday), review the instructions in [Scheduling future orders](orders_api_future_orders.html).
 
@@ -329,9 +329,9 @@ Use the [order management configuration API](apiGettingOnlineOrderingSchedules.h
 
 Also be sure to accommodate [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when building future order submission functionality.
 
-### Pricing
+## Pricing
 
-#### Charge prices calculated by the Toast platform
+### Charge prices calculated by the Toast platform
 
 Before you charge a guest for an order, call the `/prices` endpoint of the orders API to get the price of each item selection calculated by the Toast platform.
 
@@ -339,33 +339,33 @@ For an order to arrive fully paid, the payment you submit must match the Toast p
 
 For more information, see [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices).
 
-#### Display correct prices in your interface
+### Display correct prices in your interface
 
 The Toast platform has many pricing strategies. You need to display accurate prices to guests.
 
 For more information about the Toast platform’s more complex pricing strategies, see [Using PricingRules and PricingStrategy to calculate prices](apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html).
 
-#### Calculate taxes
+### Calculate taxes
 
 The `/prices` endpoint of the orders API provides the taxes associated with an order.
 
 To calculate taxes yourself for display purposes, use [these instructions](apiOrderPrices.html#apiTaxRounding).
 
-#### Handle discounts
+### Handle discounts
 
 The `isDiscountable` value on `MenuItem`objects in the [menus API](apiGettingMenuInformationFromTheMenusAPI.html)indicates whether or not an item can be discounted. Do not allow guests to apply discounts to menu items that have an `isDiscountable` value of `false`.
 
 If your integration will allow guests to use discounts, see [Applying discounts to a new order](apiDiscountingOrders.html#apiApplyingDiscount) for more information.
 
-#### Service charges
+### Service charges
 
 Restaurants may add service charges to orders. Examples of service charges include delivery fees and automatic gratuities.
 
 For more information about adding services charges, see [Service charges for checks](apiOrderPrices.html#apiServiceCharges).
 
-### Payments
+## Payments
 
-#### Encrypt card data
+### Encrypt card data
 
 This step only applies to ordering integrations that use the Toast credit cards API.
 
@@ -373,7 +373,7 @@ Before you submit an authorization request, you must create an encrypted card da
 
 For more information about encrypting card data, see [Encrypting credit card information](authorizingCcPayments.html#apiEncryptingCreditCardInformation).
 
-#### Authorize credit cards
+### Authorize credit cards
 
 This step only applies to ordering integrations that use the Toast credit cards API.
 
@@ -381,7 +381,7 @@ After you create an encrypted card data string, you submit the string in a credi
 
 For more information about credit card authorization, see [Authorizing a credit card payment](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
 
-#### Distinguish between new and saved cards
+### Distinguish between new and saved cards
 
 This step only applies to ordering integrations that use the Toast credit cards API.
 
@@ -393,19 +393,19 @@ When a guest pays with a credit card using saved information that is stored in a
 
 For more information, see [Optimizing fraud detection](authorizingCcPayments.html#apiCreditCardsOptimizingFraudDetection).
 
-#### Submit payments
+### Submit payments
 
 If you use the Toast credit cards API, you should submit the payment you authorized using [these instructions](authorizingCcPayments.html#apiApplyingCCPaymentToOrder).
 
 If you do not use the Toast credit cards API, you submit payments using [alternative payment types](apiCreatingAnOrderWithPaymentInformation.html). A restaurant's alternative payment types can be found in the [configuration API](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/).
 
-#### Submit tips
+### Submit tips
 
 To submit tips, populate the `tipAmount` value on your [payment authorization](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
 
 Include a `tipAmount` on the payment that you submit with an order.
 
-#### Document your refund workflow
+### Document your refund workflow
 
 If you use the Toast credit cards API, servers can refund guests using the Toast POS.
 
@@ -413,9 +413,9 @@ If you do not use the credit cards API, servers must separately refund guests ou
 
 In either case, you need to explain how to process refunds for restaurant employees.
 
-### Delivery dispatch
+## Delivery dispatch
 
-#### Update delivery status over time
+### Update delivery status over time
 
 If your online ordering application supports delivery orders, and your organization manages the employees who deliver them, you can update the orders' delivery information when that information becomes available.
 
@@ -423,17 +423,17 @@ You can update the order's delivery status, dispatch and delivery timestamps, an
 
 For more information, see [Updating delivery information for an order](apiUpdatingDeliveryInfoForAnOrder.html).
 
-### Reporting
+## Reporting
 
-#### Submit revenue centers
+### Submit revenue centers
 
 To make it easier for restaurants to report on which orders came from your integration, submit revenue centers on your orders.
 
 You can retrieve revenue centers from the [configuration API](https://doc.toasttab.com/openapi/configuration/operation/revenueCentersGet/). Follow these [instructions for adding revenue centers to orders](apiOrdersRevenueCenters.html).
 
-### Configuration syncing
+## Configuration syncing
 
-#### Sync configuration regularly
+### Sync configuration regularly
 
 After your integration goes live, restaurants may add, change, or remove configuration such as dining options and revenue centers.
 

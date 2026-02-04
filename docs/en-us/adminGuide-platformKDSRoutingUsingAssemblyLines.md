@@ -77,7 +77,7 @@ Here is a diagram illustrating the path of the item through the kitchen.
 
 ![A workflow diagram of an item going from Front of House to five prep stations that are part of an assembly line: Dough, Sauce, Cheese, Toppings, and Bake with two prep stations assigned to the same device.](https://doc.toasttab.com/doc/media/kds-routing-assembly-line-device-with-2-prep-station.png)
 
-### Routing with modifiers
+## Routing with modifiers
 
 Modifiers automatically follow the same assembly line as their parent item. If a modifier is a menu item with an assembly line applied, it follows the assembly line applied to the parent item instead.
 
@@ -117,7 +117,7 @@ When the Caesar Salad item is a modifier for the Cheese Pizza item, the ticket f
 
 To configure items that act as modifiers to follow the assembly line they are assigned, you can choose to route modifiers separately from their parent items using the [Modifier Routing](adminKitchenDiningRoomReference.html#configModifierRouting) setting. Otherwise, the parent item and modifier are shown together.
 
-### Ticket splitting
+## Ticket splitting
 
 
 
@@ -146,7 +146,7 @@ The ticket is fulfilled at the **Dough** prep station, and appears at the **Sauc
 
 The Cheese Pizza item is completed first and is fulfilled at the Sauce/Toppings prep station. It appears on a separate ticket by itself at the Bake prep station. The BBQ Chicken Pizza item and Veggie Pizza item are fulfilled at the same time, and appear on a ticket together at the Bake prep station, beneath the Cheese Pizza item ticket.
 
-### Working with item routing rules
+## Working with item routing rules
 
 Assembly lines work with item routing rules differently depending on whether the rerouted prep stations are included in the assembly line or not. Item routing rules can be used to add or change prep stations depending on the dining option or service area condition. Depending on whether the rerouted prep station is included in the assembly line or not, an item can be routed to an additional prep station in the sequence once the condition is met, or appear immediately at the prep station in addition to the first prep station in a sequence. For more information about item routing rules, see [Using item routing rules](adminAboutItemRoutingRules.html).
 
@@ -159,7 +159,7 @@ Assembly lines work with item routing rules differently depending on whether the
 
 For example, an item routing rule routes items to go to the **Pack** prep station in addition to their other stations when the dining option is Takeout. If you include the **Pack** prep station in the assembly line sequence, when the dining option is *not* Takeout, the **Pack** prep station is skipped in the sequence. If you do not include the **Pack** prep station in the assembly line, when the dining option is Takeout, the item immediately shows at the first prep station in the assembly line and the **Pack** prep station.
 
-### Assigning assembly lines to menu entities
+## Assigning assembly lines to menu entities
 
 
 
@@ -179,7 +179,7 @@ You can use assembly lines to route menu items to prep stations in a specific or
 
 Menu items will only appear on prep stations in an assembly line if the prep station is assigned to the menu item itself or a parent menu entity. For information about how to assign prep stations to menu entities, see [Assigning prep stations to menu entities](adminRoutingToPrepStations.html#adminAssignPrepStationMenu).
 
-#### Assigning assembly lines to multiple menu entities through Advanced properties
+### Assigning assembly lines to multiple menu entities through Advanced properties
 
 The following procedure is for assigning assembly lines to multiple menu entities at once using the Menus \> Bulk management \> Advanced properties page in Toast Web.
 
@@ -211,7 +211,7 @@ The following procedure is for assigning assembly lines to multiple menu entitie
 
 
 
-#### Assigning assembly lines to menu entities for single-location restaurants
+### Assigning assembly lines to menu entities for single-location restaurants
 
 
 
@@ -240,7 +240,7 @@ To configure a menu item to inherit its assembly line, set the Inherit assembly 
 
 If you do not have any assembly lines configured yet, use the Manage assembly lines link to go to the Assembly Lines page where you can create them. For more information on creating assembly lines, see [Creating an assembly line](platformKDSCreatingAssemblyLines.html).
 
-#### Assigning assembly lines to menu entities for multi-location restaurants
+### Assigning assembly lines to menu entities for multi-location restaurants
 
 The following procedure is for assigning assembly lines to menu entities for multi-location restaurants. For information about adding assembly lines to menu entities for single-location restaurants, see [Assigning assembly lines to menu entities for single-location restaurants](platformKDSRoutingUsingAssemblyLines.html#platformKDSAssignAssemblyLinesSingleLocation).
 

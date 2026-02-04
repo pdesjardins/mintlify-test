@@ -19,7 +19,7 @@ An `Order` object contains details about an order. In the orders API, you use th
 
 This topic discusses some related sets of values in the `Order` object and how they are populated.
 
-### Overview of Order object content
+## Overview of Order object content
 
 An `Order` object contains details about:
 
@@ -43,7 +43,7 @@ The following diagram provides a high-level overview of the `Order` object conte
 
 ![Image](https://doc.toasttab.com/doc/media/order-api-order-object-overview.png)
 
-### GUIDs and identifiers in the order object
+## GUIDs and identifiers in the order object
 
 A GUID is a unique identifier that Toast generates when new objects are created.
 
@@ -61,7 +61,7 @@ When you create an order, the Toast platform generates GUIDs for the `Order` obj
 
 You use those GUIDs to identify an order, check, or menu item selection to retrieve or to modify.
 
-### Order status information
+## Order status information
 
 In the `Order` object, the status information reflects the current status of the order, check, or menu item selection. Statuses can reflect the current status of fulfillment or payment.
 
@@ -69,7 +69,7 @@ Status information is returned in responses.
 
 In most cases, the Toast platform updates the status values based on actions to an item, check, or order.
 
-#### Order status values
+### Order status values
 
 An order can have the following status values:
 
@@ -103,7 +103,7 @@ When the delivery is complete, `deliveryState` is `DELIVERED`.
 
 
 
-#### Check status values
+### Check status values
 
 A check can have the following status values:
 
@@ -140,7 +140,7 @@ The status indicates the current approval and capture status of the credit card 
 
 
 
-#### Menu item selection status values
+### Menu item selection status values
 
 A menu item selection can have the following status values:
 
@@ -161,7 +161,7 @@ A menu item selection can have the following status values:
 
 
 
-### Order dates and times
+## Order dates and times
 
 In the `Order` object, the order, checks, and menu item selections have multiple dates and times associated with them. The dates and times track events related to the order placement and processing, including when the order entities are created, updated, completed, and paid for.
 
@@ -169,7 +169,7 @@ Many order-related dates and times are set by the Toast platform based on the cr
 
 The following timestamps are associated with orders, checks, and menu item selections.
 
-#### Order creation and scheduling dates
+### Order creation and scheduling dates
 
 The following dates are set when an order is created.
 
@@ -235,7 +235,7 @@ For future orders, matches `promisedDate`.
 
 
 
-#### Order fulfillment, payment, and delivery
+### Order fulfillment, payment, and delivery
 
 The following dates and times are set based on when an order is fulfilled, delivered, and paid for.
 
@@ -312,7 +312,7 @@ For orders without tips, the Toast platform populates `closedDate` during the ni
 
 
 
-#### Order changes, deletions, and voids
+### Order changes, deletions, and voids
 
 The following dates are set based on changes to an order.
 
@@ -384,13 +384,13 @@ By default, the cutoff time is 4:00 AM. For example, if a check is voided at 1:0
 
 
 
-### Order amounts
+## Order amounts
 
 The order amount values determine the amount that guests are charged. Amount values are associated with menu item selections and checks.
 
 For most of the amount values in the `Order` object, the Toast platform either retrieves the amount from the restaurant configuration, or uses an algorithm to calculate it based on other values. For example, prices for menu selection items are configured. Amounts such as taxes and check totals are calculated.
 
-#### Components of order amounts
+### Components of order amounts
 
 Order amounts include the following components:
 
@@ -436,7 +436,7 @@ For more information on configuring discounts, see [Managing discounts](adminAva
 
 
 
-#### Amounts on menu item selections
+### Amounts on menu item selections
 
 A menu item selection has the following amounts associated with it.
 
@@ -528,7 +528,7 @@ The values are only different when you apply a percent discount to an item that 
 
 
 
-#### Amounts on checks
+### Amounts on checks
 
 A check can have the following amount values associated with it:
 
@@ -608,7 +608,7 @@ Calculated by the Toast platform based on the specific tax configuration.
 
 
 
-#### Example order with order amounts
+### Example order with order amounts
 
 To demonstrate the item and check amounts, we'll use a simple example order.
 

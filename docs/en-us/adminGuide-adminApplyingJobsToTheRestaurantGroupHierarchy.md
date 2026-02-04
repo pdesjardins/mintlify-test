@@ -24,7 +24,7 @@ Toast Web allows you to create jobs and then assign those jobs to your employees
 
 
 
-### Creating an enterprise job
+## Creating an enterprise job
 
 Creating a job for an enterprise is essentially the same as creating a job for a single location. You give the job a title, provide some information about pay and job functions such as cashier or driver, and set the permissions for the job. There are, however, two additional caveats with enterprise jobs:
 
@@ -55,7 +55,7 @@ Note that when you create an enterprise job on the Create Job page, you can conf
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-applies-to-menu-deselecting.PNG)
 
-### Understanding the Applies To setting from the employee perspective
+## Understanding the Applies To setting from the employee perspective
 
 When an employee is assigned a job, the employee inherits the permissions associated with that job. In an enterprise configuration, because of the Applies To setting, the inheritance rules are slightly more complex. Specifically, the employee inherits a job's permissions only at locations that the job applies to and to which the employee has access. For example, consider a franchise manager, Megan Manager, who has access to all of the locations in the Franchise Owner 1 restaurant group shown in the illustration below (Boston, Burlington, NYC, Atlanta, and Charlotte).
 
@@ -63,7 +63,7 @@ When an employee is assigned a job, the employee inherits the permissions associ
 
 Megan Manager is assigned a job that applies to the Boston and Burlington locations only and includes the Account Admin \> User Permissions permission. In this scenario, Megan Manager will have the User Permissions permission for the Boston and Burlington locations but not for the NYC, Atlanta, and Charlotte locations.
 
-### Assigning an enterprise job
+## Assigning an enterprise job
 
 You assign one or more jobs to an employee on the employee details page:
 

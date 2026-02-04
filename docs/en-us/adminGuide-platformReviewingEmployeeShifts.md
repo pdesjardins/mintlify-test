@@ -77,7 +77,7 @@ On the Review Employee Shifts screen, you can also complete the following action
 
 
 
-### Editing time entries
+## Editing time entries
 
 
 

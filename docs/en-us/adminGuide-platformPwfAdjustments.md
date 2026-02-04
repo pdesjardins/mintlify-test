@@ -14,13 +14,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Voids
+## Voids
 
 Voiding a check, item or payment is the process of removing an item or payment from a check or removing the check altogether. Check items can only be voided if that have been sent to the kitchen, and payments can only be voided if it was successfully processed.
 
 The following procedures define workflows for voiding a check, a payment or line items.
 
-#### Check, item, and payment voids
+### Check, item, and payment voids
 
 Voiding a check, item, or payment happens for multiple reasons, including:
 
@@ -39,7 +39,7 @@ Voiding a check, item, or payment happens for multiple reasons, including:
 
 The following procedures show how to void a check, item, or payment.
 
-##### Voiding a check
+#### Voiding a check
 
 **Procedure 6.1. To void a check**
 
@@ -91,7 +91,7 @@ The following procedure shows how to void an order on the Toast platform.
 
 
 
-##### Voiding a payment
+#### Voiding a payment
 
 You may want to void a payment if an incorrect payment was applied to a transaction. The following procedure shows how to void a payment on the Toast platform.
 
@@ -128,7 +128,7 @@ You may want to void a payment if an incorrect payment was applied to a transact
 
 
 
-##### Voiding an item
+#### Voiding an item
 
 When an employee makes a mistake, or to appease a guest who had an unsatisfactory experience, you may have to void an item. The following procedure shows how to void an item on the Toast platform.
 
@@ -160,7 +160,7 @@ When an employee makes a mistake, or to appease a guest who had an unsatisfactor
 
 
 
-### Refunds
+## Refunds
 
 Refunding a guest is one of the most common actions taken on a point of sale system. Most commonly, a refund is issued if an incorrect payment type is used, or to resolve guest issues. For more information about refunds, see [Refunds](adminRefundPermissionsLimitations.html).
 

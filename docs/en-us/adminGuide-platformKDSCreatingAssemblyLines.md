@@ -60,7 +60,7 @@ The following procedure is for creating an assembly line for a single-restaurant
 
 
 
-### Assembly lines for multi-location restaurants
+## Assembly lines for multi-location restaurants
 
 Assembly lines use versioning and targets for multi-location restaurants. The following procedure is for creating an assembly line for a multi-location restaurant. For information about versions, see [Versions](versions.html). For information about targets, see [Targets](targets.html).
 

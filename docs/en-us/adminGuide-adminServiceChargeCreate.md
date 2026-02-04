@@ -14,13 +14,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Prerequisites for configuring service charges
+## Prerequisites for configuring service charges
 
 To create a service charge, you need POS Access \> Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminPermissions.html#adminAddlPosAccessPermissions).
 
 Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus \> Menu management \> Tax rates setup. For more information, see [Taxes overview](adminTaxesOverview.html).
 
-### Configuring a new service charge
+## Configuring a new service charge
 
 **Procedure 6.20. To configure a new service charge**
 
@@ -187,7 +187,7 @@ For example, you might want to apply a delivery service charge to orders that ar
 
 
 
-### Determining the display sequence of service charges
+## Determining the display sequence of service charges
 
 On the Toast POS device, the service charges are displayed using the same sequence as the Service Chargespage.
 

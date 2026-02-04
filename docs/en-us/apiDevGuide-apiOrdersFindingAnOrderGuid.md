@@ -16,7 +16,7 @@ codeExamples: 0
 
 The following sections detail multiple methods for locating either an order GUID or a check GUID.
 
-### How to locate an order GUID
+## How to locate an order GUID
 
 - If you have created an order using the orders API, the response from the `POST` request contains the order GUID. For more information about creating orders see [Creating orders](apiCreatingOrders.html).
 
@@ -30,7 +30,7 @@ The following sections detail multiple methods for locating either an order GUID
 
 
 
-### How to locate a check GUID
+## How to locate a check GUID
 
 - If you know the order GUID, you can send a `GET`request to the `/orders` endpoint and retrieve the order details, which include the check GUID. See [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
 

@@ -18,7 +18,7 @@ codeExamples: 0
 
 This section provides procedures and information about creating your menu hierarchy.
 
-### Working with menus
+## Working with menus
 
 The sections below describe how to:
 
@@ -136,7 +136,7 @@ For multi-location restaurants, the time period you specify is in each location'
 
 
 
-### Working with menu groups and subgroups
+## Working with menu groups and subgroups
 
 You use menu groups and subgroups to further organize the offerings in a menu. For example, a Dinner menu could have an Entrees menu group that, in turn, contains From the Grill and Vegetarian subgroups.
 
@@ -150,7 +150,7 @@ Menu
             Subgroup 3 (this is the limit of subgroup nesting)
 ```
 
-#### Comparing menu groups and subgroups
+### Comparing menu groups and subgroups
 
 Menu groups and subgroups have the same configuration options on their details pages and are effectively the same except for their location in the menu hierarchy. The primary difference between them is how you access them.
 
@@ -172,7 +172,7 @@ Menu groups have a set of shortcuts on the menu builder home page for tasks like
 
 Because subgroups are not visible on the menu builder home page, you cannot manage them from the home page in the same way you can manage menu groups.
 
-#### Working with menu groups and subgroups
+### Working with menu groups and subgroups
 
 The sections below describe how to:
 
@@ -374,7 +374,7 @@ The sections below describe how to:
 
 
 
-### Working with menu items
+## Working with menu items
 
 You can quickly create menu items using the Items table on the details page for a menu group or subgroup.
 
@@ -735,7 +735,7 @@ If there are more than 25 search results, scroll to the end of the list and sele
 
 
 
-### Using breadcrumbs to navigate the menu hierarchy
+## Using breadcrumbs to navigate the menu hierarchy
 
 At the top of the details page for each menu group, subgroup, menu item, or modifier group, you see a set of breadcrumbs that you can use to quickly step your way back up the menu hierarchy. For example, the illustration below shows the **Dinner Salads** subgroup. The **Dinner Salads** subgroup is a child of the **Salads** menu group, which is in turn a child of the **Dinner** menu. Selecting the **Salads** breadcrumb returns you to the **Salads** details page while selecting the **Dinner** breadcrumb returns you to the **Dinner** details page.
 

@@ -17,7 +17,7 @@ codeExamples: 0
 
 Price levels allow you to quickly price menu items or groups that all share the same price. You create a price level, and then assign it to the menu items and groups that will use it. For example, all bottled beers are $5 and all draft beers are $6. To change the price of the menu items and groups that use a price level, you only need to change the price level itself. This eliminates the need to edit the price for each individual menu group or item.
 
-### Creating and assigning price levels
+## Creating and assigning price levels
 
 To use a price level, you must first create it, and then you assign it to the menu items and groups that will use it.
 
@@ -96,7 +96,7 @@ To use a price level, you must first create it, and then you assign it to the me
 
 
 
-### Using price levels with other pricing strategies
+## Using price levels with other pricing strategies
 
 By default, price levels use the Base Price pricing strategy. Price levels can also be combined with other pricing strategies, such as size pricing, menu-specific pricing, or time-specific pricing. A common approach is to use price levels with time-specific pricing. For example, a bakery might offer muffins for $3, but from 4 to 6p.m. the muffins are $1 cheaper. In this scenario, you could apply time-specific pricing to the price level, so that between the hours of 4 to 6p.m., the price would drop from $3 to $2
 

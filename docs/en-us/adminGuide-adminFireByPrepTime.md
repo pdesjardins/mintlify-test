@@ -18,7 +18,7 @@ codeExamples: 0
 
 Timing order preparation is important, so that every component of the course or meal is ready at the same time. This helps increase guest satisfaction and reduce waste. Typically, employees send all of the items in an order to the kitchen at once (or all of the items in a course for a restaurant that uses [courses](adminKitchenDiningRoomReference.html#configCoursesSection)). For online orders, items are sent to the kitchen at the same time automatically. In restaurants that use Toast KDS devices, this can result in all sent items firing immediately to the prep station KDS devices.
 
-### About item firing by prep time
+## About item firing by prep time
 
 If the Toast platform fires all of the items in an order or course when they are sent to the kitchen, some items are fulfilled quickly and can end up getting cold (or warm) while waiting for the other items to be completed.
 
@@ -103,7 +103,7 @@ If you decide to enable the item fire by prep time feature, consider the followi
 
 
 
-### Configuring prep times for menu items
+## Configuring prep times for menu items
 
 To configure your menu items to include prep times, you must have the 4. Restaurant Admin \> 4.5 Edit Full Menuaccess permission. For information about adding prep times to modifiers, see [Using prep times for modifiers](adminFireByPrepTime.html#adminUsePrepTimesModifiers).
 
@@ -174,7 +174,7 @@ If the Item Fire by Prep Time setting has the Enable item fire by prep time chec
 
 
 
-### Enabling the item fire by prep time feature
+## Enabling the item fire by prep time feature
 
 To enable the item fire by prep time feature, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setupaccess permission.
 
@@ -202,13 +202,13 @@ To enable the item fire by prep time feature, you must have the 6. Web Setup \> 
 
 
 
-### Giving expediter KDS devices the ability to override prep times
+## Giving expediter KDS devices the ability to override prep times
 
 The ability to override the automated firing setting gives expediter KDS devices a way to fire items to prep stations ahead of their scheduled times, and mark scheduled items as fulfilled or unfulfilled as needed. If you use two-level fulfillment, enabling the overriding prep times setting gives both levels of expediter KDS devices the option to fire, fulfill, and unfulfill items.
 
 Your expediter KDS devices interact with tickets differently based on whether you have the [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems) setting set to Enable individual item fulfillment or to Disable individual item fulfillment. To configure this setting in Toast Web, navigate to Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup and scroll to the Ticket Screens section.
 
-#### Overriding prep times with individual item fulfillment enabled
+### Overriding prep times with individual item fulfillment enabled
 
 When the Fulfill Items setting is set to Enable individual item fulfillment, to fire or fulfill items ahead of schedule, an employee selects a ticket on the expediter KDS device and a dialog opens. The employee then selects one or more of the items in the dialog to fire or fulfill.
 
@@ -222,7 +222,7 @@ The Black Bean Burger item has not been fired and has the options to Fire before
 
 If the employee selects more than one item, only actions that apply to all of the selected items are shown and available. In the above example, selecting both items only enables the Fulfill option because the Double Turkey Burger item was already fired. Selecting a fulfilled item enables the Unfulfill option.
 
-#### Overriding prep times with individual item fulfillment disabled
+### Overriding prep times with individual item fulfillment disabled
 
 When the Fulfill Items setting is set to Disable individual item fulfillment, to fire or fulfill items ahead of schedule, an employee selects a ticket on the expediter KDS device and new actions are shown and available.
 
@@ -256,7 +256,7 @@ Dynamic view includes:
 
 To unfulfill a ticket, select the Show Recently Fulfilled option at the top of the screen and then select the ticket. The Unfulfill action appears in the title bar.
 
-#### Configuring prep time override for expediters
+### Configuring prep time override for expediters
 
 To configure your KDS device so that an expediter can fire items ahead of schedule, you must have the 4. Restaurant Admin \> 4.5 Edit Full Menu access permission.
 
@@ -275,7 +275,7 @@ To configure your KDS device so that an expediter can fire items ahead of schedu
 
 
 
-### Using prep times for modifiers
+## Using prep times for modifiers
 
 You can define prep times for modifiers as well as for menu items. Based on the configuration settings for your restaurant and for the associated menu item and modifier, the Toast platform uses a modifier's prep time in one of the following ways.
 
@@ -286,7 +286,7 @@ You can define prep times for modifiers as well as for menu items. Based on the 
 
 
 
-#### Prep times for integral modifiers
+### Prep times for integral modifiers
 
 Some modifiers have a direct effect on how long it takes to prepare the parent menu item. For example, how thoroughly to cook a beef item affects how long it is cooked. A hamburger that is ordered rare takes less time to prepare than a hamburger that is ordered well done. For modifiers like these, which are [*integral*](adminGuide-adminGlossary.html#glossIntegralModifier) to the parent menu item, you configure prep times that add to, or subtract from, the parent menu item's prep time.
 
@@ -332,7 +332,7 @@ Before you configure prep times for integral modifiers, consider the following.
 
 
 
-#### Configuring prep times for integral modifiers
+### Configuring prep times for integral modifiers
 
 To configure prep times for modifiers that have a direct effect on how long it takes to prepare an item you must have the 4. Restaurant Admin \> 4.5 Edit Full Menu access permission. You must also [enable the item fire by prep time feature](adminFireByPrepTime.html#adminEnableItemFirePrepTime).
 
@@ -377,7 +377,7 @@ To configure prep times for modifiers that have a direct effect on how long it t
 
 
 
-#### Prep times for independent modifiers
+### Prep times for independent modifiers
 
 In some cases, the modifier selected for a menu item is prepared and served separately from the menu item. For example, an entree includes a side salad that is included with the menu item, but prepared and served before the entree. You can configure prep times for [*independent modifiers*](adminGuide-adminGlossary.html#glossIndependentModifier) so that the Toast platform automatically schedules and fires independent modifiers in the same way that menu items are scheduled and fired.
 
@@ -401,7 +401,7 @@ Before you configure prep times for independent modifiers, consider the followin
 
 
 
-#### Configuring prep times for independent modifiers
+### Configuring prep times for independent modifiers
 
 To configure a prep time for a modifier that is prepared independently of its associated menu item, you must have the following access permissions to Toast Web.
 

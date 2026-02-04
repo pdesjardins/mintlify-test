@@ -40,7 +40,7 @@ The loyalty integration API supports the following transaction types:
 
 The following sections provide information about Toast loyalty integration transaction types.
 
-### LOYALTY_SEARCH
+## LOYALTY_SEARCH
 
 The search workflow occurs when a restaurant employee selects the Rewards button in the Toast POS app and the restaurant guest has not already provided an identifying card or other form of loyalty program account identification.
 
@@ -112,7 +112,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 ```
 
   
-### LOYALTY_INQUIRE
+## LOYALTY_INQUIRE
 
 The inquire workflow occurs when a restaurant employee selects the Rewards button in the Toast POS app if a restaurant guest's loyalty account has already been found. The Toast platform might send multiple inquire transactions while handling a single purchase interaction for a restaurant guest.
 
@@ -376,7 +376,7 @@ This is still possible if the check changes. For example, add two pizzas to the 
 ```
 
   
-### LOYALTY_REDEEM
+## LOYALTY_REDEEM
 
 The redeem workflow occurs when the Toast platform processes a guest payment and completes a purchase transaction.
 
@@ -611,7 +611,7 @@ The redeem transaction follows the final inquire transaction during the payment 
 (4) Set the transactionStatus to ACCEPT to indicate that your service has successfully processed the request. The status is ACCEPT even when you determine that some redeemed rewards offers are not valid.
 
   
-#### Handling redeemed offers that are not valid
+### Handling redeemed offers that are not valid
 
 Each time a restaurant guest chooses to redeem a reward offer, the Toast platform sends a redeem request. If you determine that the reward offer is no longer valid:
 
@@ -625,7 +625,7 @@ Each time a restaurant guest chooses to redeem a reward offer, the Toast platfor
 
 
 
-### LOYALTY_ACCRUE
+## LOYALTY_ACCRUE
 
 
 
@@ -807,7 +807,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
 ```
 
   
-#### Enabling loyalty messages and QR codes on guest receipts
+### Enabling loyalty messages and QR codes on guest receipts
 
 If your loyalty program integration allows guests to earn points by scanning a QR code on their receipt, the Toast platform will print the QR code if both of the following conditions are met:
 
@@ -829,7 +829,7 @@ If both conditions are met, Toast prints the guest receipt with a QR code. When 
 
 Additionally, you can choose to print an optional customizable message on your guest’s receipt by populating the `userMessage` field in a `LOYALTY_ACCRUE`transaction. For more information, see [Loyalty integration specification](https://doc.toasttab.com/openapi/loyalty/tag/Data-definitions/schema/ResponseCheck/).
 
-### LOYALTY_REVERSE
+## LOYALTY_REVERSE
 
 The reverse workflow occurs when a restaurant employee voids (undoes) a guest's check or voids items that were affected by a loyalty program offer.
 
@@ -889,7 +889,7 @@ The reverse workflow occurs when a restaurant employee voids (undoes) a guest's 
 ```
 
   
-#### Triggering a reverse transaction
+### Triggering a reverse transaction
 
 You can only reverse redeem and accrue transactions. You reverse redeem and accrue transactions you void menu item selections, payments, and checks. For information about voiding items, payments, and checks in the Toast POS app, see this [Toast central article](https://central.toasttab.com/s/article/Voiding-Items-Payments-and-Checks).
 

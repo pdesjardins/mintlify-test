@@ -33,7 +33,7 @@ You can configure any combination of these availability criteria. For example, y
 
 If the time is outside of the discount availability, then the discount button does not show on the Toast POS app.
 
-### Configuring the available times for a discount
+## Configuring the available times for a discount
 
 The Availability section of the discount configuration page contains the time-based options for the discount availability.
 
@@ -102,7 +102,7 @@ In this example, the discount is available from 8am to 10am and also from 9pm to
 
 
 
-### Evaluating the applicability of a time-based discount
+## Evaluating the applicability of a time-based discount
 
 Time-based discounts are evaluated based on the time that the discount is applied on a check.
 

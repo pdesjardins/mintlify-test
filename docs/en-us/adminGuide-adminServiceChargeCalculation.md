@@ -30,7 +30,7 @@ Before a service charge can be automatically applied to a check, the Toast platf
 
 
 
-### Post-discount and pre-discount calculations
+## Post-discount and pre-discount calculations
 
 A fixed percent service charge calculates the service charge amount based on the pre-discount or post-discount check total amount, depending on the configuration of the Calculated on pre-discount or post-discount total option. The following example shows how each configuration affects the check's final total amount.
 
@@ -71,7 +71,7 @@ For this example, the calculations for pre-discount and post-discount configurat
 
 Note that the service charge is applied in both cases because the Apply After Amount Threshold ($10.00 in this example) is always evaluated against the check amount *before* any discounts have been applied (therefore, the check amount is $10.00 in both cases).
 
-### Service charge taxes
+## Service charge taxes
 
 You can optionally configure a service charge to be taxed, using one or more of your existing tax rates. The following example of a service charge configuration page shows that the Taxed option is set to Yesand the Applicable Taxes option (in the Taxes section) is using the `State
         Tax` rate of 9% for the service charge:

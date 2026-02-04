@@ -13,7 +13,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Start queue overview
+## Start queue overview
 
 
 
@@ -77,7 +77,7 @@ For prep station KDS device tickets:
 
 ![Example of a started ticket on the expediter KDS device and then prep station KDS device.](https://doc.toasttab.com/doc/media/kds-start-queue-prep-station-tickets.png)
 
-### Configuring start queue
+## Configuring start queue
 
 To use start queue, you need to enable the Start Queue setting. The Start Queue setting applies to all KDS devices at the restaurant. Start queue is not configurable for individual devices.
 
@@ -99,7 +99,7 @@ To use start queue, you need to enable the Start Queue setting. The Start Queue 
 
 
 
-### Using start queue
+## Using start queue
 
 
 

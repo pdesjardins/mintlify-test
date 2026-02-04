@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Order statuses
+## Order statuses
 
 An order status is assigned to an order as it progresses through Orders Hub. The number of orders in each status is located next to the status name. The top navigation displays orders by the following five statuses:
 
@@ -35,7 +35,7 @@ An order status is assigned to an order as it progresses through Orders Hub. The
 
 
 
-#### Needs approval
+### Needs approval
 
 The Needs Approval tab displays orders that need to be manually approved before they can be fulfilled. If you have enabled [manual approval mode](https://central.toasttab.com/s/article/Approving-Online-Orders-Manually-14928108550801) for online orders, then orders submitted through your Toast Online Ordering website or through the Local by Toast app are listed in the Needs Approval tab. Orders submitted through third-party online ordering channels are automatically approved and will not appear in the Needs Approval tab. Orders Hub purges orders in the Needs Approval tab at the end of the business day.
 
@@ -140,7 +140,7 @@ In the detailed order information view, the following actions are available:
 
 
 
-#### Scheduled
+### Scheduled
 
 The Scheduled tab displays orders that are scheduled to be fulfilled at a future date and time. An order whose requested fulfillment time is later than the current order quote time is considered a future order and is displayed under the Scheduled tab. Orders in the Scheduled tab are not purged until they are fired or canceled.
 
@@ -257,7 +257,7 @@ After the order is updated, a notification appears at the bottom of the screen s
 
 
 
-#### Active
+### Active
 
 When you open the Orders Hub screen, the Active tab is the default view. The Active tab displays orders that are currently being prepared. To mark an Active order as Order Ready, select the Order Ready button. Orders Hub purges orders in the Active tab at the end of the business day.
 
@@ -355,7 +355,7 @@ In the detailed order information view, actions are available. Available actions
 
 
 
-#### Order ready
+### Order ready
 
 The Order Ready tab displays orders that are ready for pickup or delivery. To complete an order, select the Complete button to move it to the Completed tab. Orders Hub purges orders in the Order Ready tab at the end of the business day.
 
@@ -453,7 +453,7 @@ In the detailed order information view, the following actions are available:
 
 
 
-#### Completed
+### Completed
 
 The Completed tab displays orders that have been completed. When an order is marked as Completed, guests can pick up their takeout order, or drivers can collect orders for delivery. To mark an order as Completed, select the Complete button in the order detail view. The order moves to the Completed tab. Orders Hub purges orders in the Completed tab at the end of the day.
 
@@ -545,7 +545,7 @@ In the detailed order information view, the following actions are available:
 
 
 
-### Filtering orders
+## Filtering orders
 
 
 
@@ -648,7 +648,7 @@ If you choose the Custom filter, a date picker appears. Select the date range an
 
 
 
-### Searching and sorting orders
+## Searching and sorting orders
 
 To search for an orders in Orders Hub, select the magnifying glass. You can search by the following criteria:
 
@@ -701,7 +701,7 @@ To sort orders, select the dual arrows icon. A menu appears specifying sorting c
 
 
 
-### Multi-selecting orders
+## Multi-selecting orders
 
 You can use the multi-select feature to select multiple orders and then complete various actions or move them to the next Orders Hub status. Using the multi-select feature, you can perform the following bulk actions:
 
@@ -774,7 +774,7 @@ You can use the multi-select feature to select multiple orders and then complete
 
 
 
-### Voiding an item or an order
+## Voiding an item or an order
 
 
 
@@ -787,7 +787,7 @@ Item(s) and order(s) can be voided in Orders Hub. To void an item(s) or an order
 
 Select the Update button on the order entry. This opens the Quick Order screen.
 
-#### Unpaid order
+### Unpaid order
 
 - Voiding an item(s) crosses out the item(s) on the order entry. The unpaid order remains in the Active tab.
 
@@ -796,7 +796,7 @@ Select the Update button on the order entry. This opens the Quick Order screen.
 
 
 
-#### Paid order
+### Paid order
 
 - Voiding an item(s) crosses out the item(s) on the order entry. The paid order remains in the Activetab. On the detailed information view, the Pay $ button displays the negative amount due back to the guest. A dialog box appears prompting you to dismiss the error, edit the order to pay the amount to the guest, or update the order.
 
@@ -805,11 +805,11 @@ Select the Update button on the order entry. This opens the Quick Order screen.
 
 
 
-#### Single item order
+### Single item order
 
 For orders that only contain one item, void the order instead of the item. Voiding the order instead of the single item removes the order from the Orders Hub screen. If you void the item, the order remains in the Active tab on the Orders Hub screen. The order will remain until an action is taken. Available actions are: Print, Update or Complete.
 
-### Marking KDS-fulfilled orders as Order Ready
+## Marking KDS-fulfilled orders as Order Ready
 
 You can choose to have orders fulfilled by the Kitchen Display System (KDS) automatically marked as Order Ready in Orders Hub. On the [Order Ready Board](https://central.toasttab.com/s/article/Order-Ready-Board-Overview-Configuration), this moves orders from the In Progress column to the Order Readycolumn.
 
@@ -835,7 +835,7 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 
 
 
-### Configuring order ready messaging
+## Configuring order ready messaging
 
 
 
@@ -853,7 +853,7 @@ On the Orders Hub screen, you can send a text message to guests notifying them t
 > Orders Hub order ready messaging is only available for orders placed using the Toast Online Ordering website, or the Local by Toast app with a dining behavior of either Takeout or Curbside. Order ready messaging is not available for orders placed through third-party online ordering channels.
 
 
-#### Enabling order ready messaging
+### Enabling order ready messaging
 
 
 
@@ -903,13 +903,13 @@ The use of order ready messaging for marketing or other similar commercial messa
 
 
 
-#### Sending an order ready text message
+### Sending an order ready text message
 
 To send a text message to your guest notifying them that their Active order is ready, select the Order Ready button. This moves the order to the Order Ready tab and triggers Orders Hub to send a text message to the phone number associated with the order.
 
 Only one text message is sent to the guest. An additional text message is sent if the order is updated or reopened. 
 
-### Guest profile snapshot
+## Guest profile snapshot
 
 
 

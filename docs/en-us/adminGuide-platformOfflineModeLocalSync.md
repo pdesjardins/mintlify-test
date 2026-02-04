@@ -27,7 +27,7 @@ Offline mode with local sync uses a Toast device as the point of connection, or 
 
 The content of the Toast POS device offline messaging depends on the primary mode of your Toast POS device and the Toast products you use. For example, if your restaurant uses online ordering and KDS devices, the offline dialog for a Toast POS device using payment terminal mode during an internet service disruption reflects offline behavior for those products in relation to payment terminal mode. In this example, the messaging includes continuing to send orders to KDS devices, continuing to take orders and payments, not turning off the device while offline, and other related guidance.
 
-### Local hub devices
+## Local hub devices
 
 For offline mode with local sync to work, your restaurant needs an eligible device to act as the local hub device.
 
@@ -69,7 +69,7 @@ An eligible device is:
 
 A local hub device is assigned automatically by Toast.
 
-### Offline due to a local network connection issue
+## Offline due to a local network connection issue
 
 When a device is offline due to a local network connectivity issue, a banner displays at the top of the Toast POS app screen to inform you that the device is offline and that there is a local network connection issue. When the device initially switches to offline mode with local sync, a dialog opens, informing you what you can still do while offline and what actions to avoid.
 
@@ -95,7 +95,7 @@ To recover, first check that your network cable is securely connected or Wi-Fi i
 
 After the issue is resolved and the connection is restored, the offline banner disappears.
 
-### Offline due to an internet service disruption
+## Offline due to an internet service disruption
 
 When a device is offline due to local network connectivity or internet issues, a banner displays at the top of the Toast POS app screen to inform you that the device is offline because of an internet issue. When the device initially switches to offline mode with local sync, a dialog opens, informing you what you can still do while offline and what actions to avoid.
 
@@ -121,7 +121,7 @@ To resolve this issue, contact your ISP (internet service provider). For more in
 
 Once the issue is resolved for the device and the connection is restored, the offline banner disappears.
 
-### Offline due to a Toast platform cloud-based service disruption
+## Offline due to a Toast platform cloud-based service disruption
 
 When a device is offline due to a Toast platform cloud-based service disruption, a banner displays at the top of the Toast POS app screen to inform you that the device is offline because of a Toast platform cloud-based service disruption. When the device initially switches to offline mode with local sync, a dialog opens, informing you what you can still do while offline and what actions to avoid.
 
@@ -147,7 +147,7 @@ This is a Toast service issue and Toast is working to resolve the issue. You can
 
 Once the issue is resolved for the device and the connection is restored, the offline banner disappears.
 
-### Best practices and available operations
+## Best practices and available operations
 
 This section provides some best practices for offline Toast POS devices using offline mode with local sync, as well as listing which Toast operations are, and are not, available.
 

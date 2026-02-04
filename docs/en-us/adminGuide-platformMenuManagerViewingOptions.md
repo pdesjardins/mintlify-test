@@ -17,7 +17,7 @@ codeExamples: 0
 
 The Show controls in the menu manager let you customize how you view your menu data. You can either [view your entire menu](platformMenuManagerViewingOptions.html#platformMenuManagerViewingYourFullMenu) or [view menu entities of a specific type](platformMenuManagerViewingOptions.html#platformMenuManagerViewingIndividualEntityTypes), for example, menu items, modifiers, or price levels.
 
-### Viewing your full menu
+## Viewing your full menu
 
 Select Full menu from the Show section to view your entire menu on a single page. When you first open it, the Full menu view displays a list of your menus. Use the expand icon next to a menu's name to view the menu groups contained in the menu. Continue to use the expand icons for the menu groups to view subgroups and items.
 
@@ -47,7 +47,7 @@ For more information about using side panels, see [Using the Full menu view side
 > You cannot use the scheduled publishing feature with Full menu view updates. Updates made in the Full menu view must be [published manually](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
-### Viewing individual entity types
+## Viewing individual entity types
 
 To view a list of all menu entities of a specific type, select the type from the Show section. For example, to view a list of all your menu items, select Items from the Show section. All of your items are shown on a single page, where you can quickly search for, filter, and edit them.
 

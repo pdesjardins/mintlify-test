@@ -35,7 +35,7 @@ When you authorize a credit card payment, the credit cards API places a hold for
 
 For general information about using the orders API, see [Orders API overview](portalOrdersApiOverview.html).
 
-### Overview of the credit card authorization and application process
+## Overview of the credit card authorization and application process
 
 The following procedure provides an overview of the process to authorize and apply a credit card payment.
 
@@ -70,7 +70,7 @@ Error messages in the credit cards API are intentionally not specific or detaile
 
 For a list of common reasons for card denial, see [Card declined message reference](adminCreditCardDeclinedMessageReference.html).
 
-### Authorizing a credit card payment
+## Authorizing a credit card payment
 
 To authorize a credit card payment for a check, you send a `PUT` request to the `/merchants/\{merchantUuid}/payments/\{paymentUuid\}` resource of the credit cards API.
 
@@ -192,7 +192,7 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
  The version of the mobile app (if any) that the payment is made through. You can use any string to represent the app version. There are no format or content requirements.
 
   
-### Optimizing fraud detection
+## Optimizing fraud detection
 
 The Toast platform performs fraud detection when it authorizes credit card payments. To ensure maximum protection from fraudulent transactions for your organization and for restaurant guests, your integration *must* send accurate information about the credit card transaction and the transaction type.
 
@@ -209,7 +209,7 @@ You include the `guestIdentifier` value in the `PaymentRequestMetadata` object f
 
 
 
-#### Using card number origin values
+### Using card number origin values
 
 The `PUT` request message body for authorizing a payment includes a `cardNumberOrigin` value. This value indicates whether:
 
@@ -285,7 +285,7 @@ The following table provides more information about the values you include in th
 > When you authorize a payment for a new credit card, you must set the `cardNumberOrigin` value to `END_USER`, even if you use an external credit card vaulting service to save guests' credit cards. Setting the `cardNumberOrigin` value to `END_USER` gives you additional fraud protection when authorizing payment for new credit cards.
 
 
-#### Using guestIdentifier values
+### Using guestIdentifier values
 
 The Toast platform uses the `guestIdentifier` value for fraud evaluation. The `guestIdentifier` value is a unique identifier for a restaurant guest associated with a credit card payment.
 
@@ -293,7 +293,7 @@ You use the same identifier for a guest even when that guest uses different meth
 
 If you use the same `guestIdentifier` value repeatedly on many card authorizations for multiple guests, authorizations using this `guestIdentifier` are likely to be declined because of the suspicious activity. A `guestIdentifier` value of `0` will cause credit card authorizations to fail.
 
-### Applying an authorized credit card payment to an orders API check
+## Applying an authorized credit card payment to an orders API check
 
 To apply an authorized credit card payment to a check in an orders API order, you include the payment UUID that you authorized as the payment GUID. The Toast platform applies the credit card payment to the check and attempts to capture the funds later in the business day.
 
@@ -348,7 +348,7 @@ The following example shows the JSON message body data that applies an authorize
 (5) The amount of the gratuity that the guest applied to the check.
 
   
-### Encrypting credit card information
+## Encrypting credit card information
 
 
 
@@ -421,7 +421,7 @@ The following example shows the base64-encoded and encrypted credit card informa
 ```
 
   
-#### Encryption algorithms
+### Encryption algorithms
 
 When you request credit card authorization for a payment, you encrypt credit card information. The public key that you receive from the Toast integrations team uses one of the following encryption algorithms to encrypt credit card information in an authentication request:
 
@@ -441,7 +441,7 @@ This algorithm is supported by modern web browsers by default. The Toast integra
 
 
 
-##### Identifying the encryption algorithm in an authorization request
+#### Identifying the encryption algorithm in an authorization request
 
 The encryption key identifier string that you receive from the Toast integrations team identifies the algorithm that you use to encrypt credit card information.
 
@@ -488,7 +488,7 @@ For more information about making an authorization request, see [Authorizing a c
 > The RSA-OAEP with SHA1 hashing encryption algorithm is deprecated.
 
 
-##### Example encryption using RSA OAEP with SHA256 hashing
+#### Example encryption using RSA OAEP with SHA256 hashing
 
 The following example UNIX command-line command uses the **openssl** version 1.1.1 utility to encrypt and base64 encode a file that contains JSON credit card information. *This example command is intended for integration development and testing. It is not suitable for production use.*
 
@@ -518,7 +518,7 @@ openssl pkeyutl \
 (6) This tr command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON encryptedCardDatavalue for a credit cards API authorization request.
 
   
-#### Encryption keys and key identifiers
+### Encryption keys and key identifiers
 
 When you make a credit card authorization request, you specify the identifier of the encryption key that you are using. The Toast integrations team can issue you multiple encryption keys to make it easier for you to refresh your keys without interrupting your credit cards API integration. Specifying which key you use to encrypt credit card information allows the Toast platform to use the correct algorithm and private key to decrypt the information in your request.
 
@@ -526,7 +526,7 @@ In an authorization request, you include the identifier of the public encryption
 
 For more information about making an authorization request, see [Authorizing a credit card payment](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
 
-#### Testing encryption in the sandbox environment
+### Testing encryption in the sandbox environment
 
 You can test encrypting credit card information for credit cards API authorization requests in the sandbox environment.
 

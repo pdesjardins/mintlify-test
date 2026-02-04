@@ -17,7 +17,7 @@ codeExamples: 0
 
 For a combo discount, you configure the discount value and the eligible combinations of menu items.
 
-### Configuring the combo discount value
+## Configuring the combo discount value
 
 When you select Combo as the discount type, a Value field displays.
 
@@ -27,7 +27,7 @@ In the Value field, provide the price to charge for the combo.
 
 For example, if the combo discount offers a sandwich and a drink for $13.00, enter 13 in the Value field.
 
-### Selecting the required items for the combo discount
+## Selecting the required items for the combo discount
 
 In the Items section, provide the eligible combinations of items.
 
@@ -46,7 +46,7 @@ In the following example configuration, a check is eligible for the combo discou
 
 For more information about selecting required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
-### Required item behavior for combo discounts
+## Required item behavior for combo discounts
 
 When working with combo discounts, keep in mind the following discount behavior:
 
@@ -72,7 +72,7 @@ For example, a combo discount offers a cup of coffee and a bagel for $3.00. You 
 
 For more information about required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
-### Setting the maximum quantity to apply the discount to
+## Setting the maximum quantity to apply the discount to
 
 You can configure a combo discount as a bulk discount, which includes the minimum and maximum quantity to apply the discount to. See [Bulk discounts](adminBulkDiscounts.html).
 

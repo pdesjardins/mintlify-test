@@ -33,7 +33,7 @@ For more information, see [Creating a request for payout reporting data by payme
 
 
 
-### Creating a request for payout reporting data by payments
+## Creating a request for payout reporting data by payments
 
 Send a `POST` request to the `/era/v1/payout/payments/\{timeRange\}` endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
@@ -61,7 +61,7 @@ To create a request for payout reporting data organized by payments, include the
 > You can include restaurant GUIDs for either `restaurantIds` or `excludedRestaurantIds`but not for both. Listing restaurant GUIDs for both results in a 400 error or blank payout reporting data. They are contradictory values that cannot be used together.
 
 
-#### Request for payout reporting data by payments
+### Request for payout reporting data by payments
 
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/payments/day` endpoint.
 
@@ -82,7 +82,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
 
 (4) Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this curl command example.
 
-#### Message body for payout reporting data by payments
+### Message body for payout reporting data by payments
 
 The following example shows the message body for creating a payout reporting data by payments request.
 
@@ -105,7 +105,7 @@ The following example shows the message body for creating a payout reporting dat
 
 (4) The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the restaurantIds value, so all other restaurants are excluded automatically.
 
-#### Response to request for payout reporting data by payments
+### Response to request for payout reporting data by payments
 
 The following example shows the response from the `/era/v1/payout/payments/day` endpoint.
 
@@ -119,11 +119,11 @@ The following example shows the response from the `/era/v1/payout/payments/day` 
 
 For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
-### Retrieving the payout reporting data by payments
+## Retrieving the payout reporting data by payments
 
 Send a `GET` request to the `/era/v1/payout/payments/\{reportRequestGuid\}` endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
-#### Request to retrieve payout reporting data by payments
+### Request to retrieve payout reporting data by payments
 
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/payments/\{reportRequestGuid\}`endpoint.
 
@@ -141,7 +141,7 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 (3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-#### Response to retrieval request for payout reporting data by payments
+### Response to retrieval request for payout reporting data by payments
 
 The following example shows the response from the `/era/v1/payout/payments/\{reportRequestGuid\}`endpoint.
 
@@ -204,7 +204,7 @@ The following example shows the response from the `/era/v1/payout/payments/\{rep
 ]
 ```
 
-### Understanding the payout reporting data by payments
+## Understanding the payout reporting data by payments
 
 Payout reporting data by payment contains objects that correspond to each available restaurant and payment combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 

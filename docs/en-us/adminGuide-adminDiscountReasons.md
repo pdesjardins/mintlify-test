@@ -21,7 +21,7 @@ For example, you might configure a general 5% discount that can be used for diff
 
 You set up a central list of discount reasons that can be assigned to any discount. In the discount configuration, you select the specific reasons that can be used with that discount.
 
-### Managing the list of discount reasons
+## Managing the list of discount reasons
 
 In Toast Web, you use the Discount and Food Waste Reasons page to set up the list of discount reasons that can be assigned to discounts.
 
@@ -29,7 +29,7 @@ In Toast Web, you use the Discount and Food Waste Reasons page to set up the lis
 
 To display the Discount and Food Waste Reasons page, select Payments \> Comps and promos \> Discount and food waste reasons.
 
-#### Adding a discount reason
+### Adding a discount reason
 
 For each discount reason you provide a name and, optionally, a description.
 
@@ -45,13 +45,13 @@ For each discount reason you provide a name and, optionally, a description.
 
 
 
-#### Editing an existing discount reason
+### Editing an existing discount reason
 
 To edit the discount name or description, click the current value. You can then edit the value.
 
 To make a discount reason inactive, slide the Active toggle to the left. To make an inactive discount reason active, slide the Active toggle to the right.
 
-#### Archiving a discount reason
+### Archiving a discount reason
 
 To archive a discount reason, so that it is no longer available, click the ... icon, then click Archive.
 
@@ -59,7 +59,7 @@ To view the list of archived discount reasons, click Archived. To return to the 
 
 On the archived discounts list, to unarchive a discount reason, click the ... icon, then click Unarchive.
 
-### Configuring discount reasons for a discount
+## Configuring discount reasons for a discount
 
 The discount reasons configuration for a discount is in the Advanced Settings section of the discount configuration page.
 

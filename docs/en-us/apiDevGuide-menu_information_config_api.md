@@ -175,7 +175,7 @@ TzU" \
 ```
 
   
-### MenuItems, MenuGroups, MenuOptionGroups, and Menus
+## MenuItems, MenuGroups, MenuOptionGroups, and Menus
 
 The Toast POS represents menus using the following data objects:
 
@@ -194,7 +194,7 @@ The Toast POS represents menus using the following data objects:
 
 Toast also offers pre-modifiers, which can supply additional information about a modifier, and pre-modifier groups. For more information, see the [reference documentation for the configuration API](https://doc.toasttab.com/openapi/configuration/overview/).
 
-### Working with the Toast menu hierarchy
+## Working with the Toast menu hierarchy
 
 Toast menus have the following attributes:
 
@@ -208,7 +208,7 @@ Toast menus have the following attributes:
 
 
 
-#### Raw menu JSON versus resolved menu JSON
+### Raw menu JSON versus resolved menu JSON
 
 There are two different logical representations of a menu. The configuration API currently operates on a raw menu structure in which `MenuOptionGroup`s appear at any level as described above, and inheritance flags are present and necessary to determine which options are available for which items.
 
@@ -264,7 +264,7 @@ The following example demonstrates a simple raw menu structure. If you need a JS
 ]
 ```
 
-#### Constructing the menu
+### Constructing the menu
 
 A restaurant's complete menu can be reconstructed via API calls.
 

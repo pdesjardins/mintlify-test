@@ -32,7 +32,7 @@ If your kitchen includes either one or two expediter screens, additional feature
 
 For more information about setting up prep stations, see [Routing with prep stations](adminRoutingToPrepStations.html).
 
-### Configure the expediter workflow
+## Configure the expediter workflow
 
 To configure your kitchen workflow to include one or two expediters, you must have the following access permissions to Toast Web.
 
@@ -141,7 +141,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 
 
 
-### Sending on-screen notifications on expediter fulfillment
+## Sending on-screen notifications on expediter fulfillment
 
 If your kitchen includes a KDS device for one or two expediters, you can configure the Toast platform to send notifications to server devices when an expediter marks the order fulfilled.
 
@@ -167,7 +167,7 @@ On-screen notifications have the following characteristics.
 
 
 
-### Configure on-screen notification on expediter fulfillment
+## Configure on-screen notification on expediter fulfillment
 
 To configure on-screen notifications for servers, you must have the Web Setup \> Restaurant Operations Setupaccess permission to Toast Web. Then, follow these steps.
 

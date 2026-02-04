@@ -19,7 +19,7 @@ Send a `GET` request to the `/era/v1/guest/payments/\{reportRequestGuid\}` endpo
 
 To request the guest reporting data, you must include the guest reporting data request GUID, or `reportRequestGuid`, as a path parameter.
 
-### Request to retrieve guest reporting data
+## Request to retrieve guest reporting data
 
 The following **curl** command sends a `GET` request to the `/era/v1/guest/payments/\{reportRequestGuid\}`endpoint.
 
@@ -37,7 +37,7 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 (3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-### Response to the retrieval request for guest reporting data
+## Response to the retrieval request for guest reporting data
 
 The following example shows the response from the `/era/v1/guest/payments/\{reportRequestGuid\}`endpoint.
 

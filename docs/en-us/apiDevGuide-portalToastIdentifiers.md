@@ -16,11 +16,11 @@ codeExamples: 0
 
 When working with Toast APIs, you will encounter various identifiers for Toast entities. For example, when you submit an order to the orders API, you must provide identifiers for the menu items and modifiers that are included in the order. In certain circumstances, the Toast platform has more than one way to identify an entity. This section describes the different types of Toast identifiers, their relationships to one another, and when to use them.
 
-### multiLocationId and guid identifiers
+## multiLocationId and guid identifiers
 
 Toast configuration entities are assigned both a `multiLocationId` and a `guid` identifier.
 
-#### Multi-location management and versioned entities
+### Multi-location management and versioned entities
 
 To understand these two identifiers, you have to understand some core Toast concepts for multi-location restaurants.
 
@@ -28,7 +28,7 @@ Toast customers use the multi-location management module when they want to share
 
 When a restaurant uses the multi-location management module, its configuration entities (such as menu items, prep stations, and discount reasons) can be [versioned](versions.html) and those versions can be assigned to specific restaurant locations, or [groups of locations](restaurantGroupsAndSubgroups.html). For example, a restaurant could have two versions of a Breakfast Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all of, their data. For example, the Boston version of the Breakfast Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
 
-#### multilocationId value
+### multilocationId value
 
 To identify entities that are shared across locations, the Toast APIs use a `multiLocationId` value. To continue the example above, the Breakfast Sandwich for the Boston location has the same `multiLocationId` as the Breakfast Sandwich for the New York City location (`11111111` in the example below). These matching `multiLocationId` values indicate that the two menu items are related versions and represent the same overall item.
 
@@ -42,7 +42,7 @@ Breakfast Sandwich
   multiLocationId: 11111111
 ```
 
-#### guid value
+### guid value
 
 Within a set of versioned entities, however, each version continues to have its own unique identifier. That unique identifier is contained in the `guid` value. To continue the example from above, each version of the Breakfast Sandwich has its own unique `guid`.
 
@@ -58,7 +58,7 @@ Breakfast Sandwich
   guid: bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb
 ```
 
-#### Using multilocationId in API requests
+### Using multilocationId in API requests
 
 To identify an entity in a request sent to a Toast API, you can either:
 
@@ -90,7 +90,7 @@ The recommended approach is to use the `multiLocationId`. Your integration can u
 
 When you use the `multiLocationId` as the identifier for the menu item, you eliminate the need to know which location the menu item is being submitted to.
 
-#### Additional notes about multi-location identifiers
+### Additional notes about multi-location identifiers
 
 Some additional notes about the `multiLocationId`identifier:
 
@@ -114,13 +114,13 @@ Some additional notes about the `multiLocationId`identifier:
 
 
 
-### Using multiLocationId for single-location restaurants
+## Using multiLocationId for single-location restaurants
 
 Toast APIs generate both `multiLocationId` and `guid` identifiers for all restaurants, whether they use the multi-location management module or not. This allows your integration to use the same code, regardless of whether a restaurant is part of a larger group. It also protects your integration from issues if a single-location restaurant adds the multi-location management module in the future.
 
 For single-location restaurants, each Toast entity has a single version, and that single version is assigned `guid` and `multiLocationId` identifiers. In this situation, the `multiLocationId` identifier has a one-to-one relationship with the `guid` identifier, because there are no other versions that share the `multiLocationId`.
 
-### External identifiers
+## External identifiers
 
 You can assign external identifiers to track Toast POS configuration and order objects using identifier strings that match your other information systems. For example, if your organization maintains employee identifiers in a system other than the Toast POS, you can store the employee identifier in the Toast POS record for an employee as an external identifier. Custom external identifiers are optional. The preferred identifier is the Toast Globally Unique Identifier (GUID). Toast APIs are optimized for use with GUIDs.
 

@@ -42,7 +42,7 @@ When you use either recall or unfulfill, note the following:
 
 When you change an item after the corresponding ticket was fulfilled in the kitchen, the KDS device unfulfills the item and marks the ticket as recalled. For items that use assembly lines, this recalls the item back to the first prep station KDS device in the sequence that applies to the item.
 
-### Recall a ticket
+## Recall a ticket
 
 The recall feature allows you to quickly recover from a situation in which you realize right away that you accidentally marked a ticket as fulfilled.
 
@@ -63,7 +63,7 @@ You can select Recall more than once. Each time, the KDS device unfulfills and r
 > You can recall a ticket for the length of time defined by the [Recently Fulfilled Timeframe](adminKitchenDiningRoomReference.html#configViewRecentlyFulfilled) setting. You cannot recall tickets fulfilled prior to this timeframe (for example, more than 30 minutes ago).
 
 
-#### Recalling items that use assembly lines
+### Recalling items that use assembly lines
 
 
 
@@ -90,7 +90,7 @@ Ticket behavior after you select Recall is slightly different when recalling an 
 
 For more information about how routing works with assembly lines, see [Routing using assembly lines](platformKDSRoutingUsingAssemblyLines.html). For more information about partial fulfillment indicators, see [Partial fulfillment indicator](platformKDSOverview.html#platformGridKDSPartialFulfillmentIndicator).
 
-### Unfulfill an item or ticket
+## Unfulfill an item or ticket
 
 To review fulfilled tickets and then choose which one you want to unfulfill, select Show recently fulfilled on the KDS device.
 
@@ -153,7 +153,7 @@ In the example that follows, after selecting ticket #1, only the Cobb Salad item
 
 
 
-#### Unfulfilling items that use assembly lines
+### Unfulfilling items that use assembly lines
 
 
 
@@ -180,7 +180,7 @@ Ticket behavior after you unfulfill a ticket is slightly different for unfulfill
 
 For more information about how routing works with assembly lines, see [Routing using assembly lines](platformKDSRoutingUsingAssemblyLines.html). For more information about partial fulfillment indicators, see [Partial fulfillment indicator](platformKDSOverview.html#platformGridKDSPartialFulfillmentIndicator).
 
-### Modified fulfilled items are marked as recalled and unfulfilled
+## Modified fulfilled items are marked as recalled and unfulfilled
 
 When an employee makes a change on the Toast POS device to a fulfilled item, the Toast platform marks the item as unfulfilled on KDS devices, and marks the ticket as RECALLED and the modified item as CHANGED. If your KDS devices hide fulfilled tickets, this redisplays the ticket. A kitchen employee then fulfills the item or ticket again.
 

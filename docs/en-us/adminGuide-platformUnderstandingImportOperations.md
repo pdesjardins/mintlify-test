@@ -33,7 +33,7 @@ The three import templates support different operations:
 
 The following sections describe each operation type in more detail.
 
-### CREATE operations
+## CREATE operations
 
 You use the `CREATE` operation to:
 
@@ -66,7 +66,7 @@ The `CREATE` operation has the following caveats:
 
 
 
-### UPDATE operations
+## UPDATE operations
 
 The `UPDATE` operation is limited to updating menu items.
 
@@ -91,7 +91,7 @@ For `UPDATE` operations, the bulk import tool:
 
 
 
-### ATTACH operations
+## ATTACH operations
 
 You use the `ATTACH` operation to attach a menu entity to a parent menu entity. You can attach:
 

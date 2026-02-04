@@ -19,7 +19,7 @@ Follow the steps below to build an analytics integration with the Toast platform
 
 This integration allows you to provide restaurants with detailed information about sales, labor, inventory, and more. 
 
-### Required scopes
+## Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -47,13 +47,13 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 You can retrieve a list of your current scopes through your [Toast developer portal](apiDeveloperPortal.html#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](integrationDevProcess.html)guide for instructions on requesting access.
 
-### Setup and planning
+## Setup and planning
 
-#### Complete initial integration setup
+### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-#### Retrieve configuration information
+### Retrieve configuration information
 
 Use the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) to retrieve necessary configuration information you need to build your analytics capabilities. For example, retrieving a list of the dining options for a restaurant so that you can provide human-readable dining option names when presenting information from the orders API.
 
@@ -61,7 +61,7 @@ Use the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/
 
 To ensure you have the latest restaurant configuration, poll the configuration API and the restaurants API once per restaurant location per day, and update configuration information in your system based on anything that was added, updated, or deleted. 
 
-#### Learn menu and order structure concepts
+### Learn menu and order structure concepts
 
 Integrations consuming order information will rely on the restaurants’ usage of menu items and the overall structure of orders. 
 
@@ -69,7 +69,7 @@ To understand Toast menu concepts before you begin development, review [menu hie
 
 To successfully retrieve information relevant to orders, familiarize yourself with the structure of an order by reading the [Orders API overview](https://doc.toasttab.com/doc/devguide/portalOrdersApiOverview.html) and [Order object summary](https://doc.toasttab.com/doc/devguide/apiOrdersOrderObjectSummary.html). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/). 
 
-#### Decide if your integration will include cash transaction information
+### Decide if your integration will include cash transaction information
 
 To report on cash transactions, you need to retrieve cash entries and deposits once per day. 
 
@@ -94,7 +94,7 @@ To display additional information associated with cash transactions, query the f
 
 In addition, query the `/employees`[endpoint](https://doc.toasttab.com/doc/devguide/api_get_all_employees.html)of the labor API at least once per day to retrieve information about the employees associated with cash transactions.
 
-#### Decide if your integration will include order information
+### Decide if your integration will include order information
 
 To report on order information, use the [orders updated webhook](https://doc.toasttab.com/doc/apiordersdraftdoc/devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur.
 
@@ -142,7 +142,7 @@ In addition, query the following configuration API endpoints at least once a day
 
 
 
-#### Consider historical backfill for integrations consuming order information 
+### Consider historical backfill for integrations consuming order information 
 
 When a restaurant first connects to your integration, they may expect to see some historical information already displayed in your system. Define how many days of historical orders and cash transactions you retrieve when a restaurant first connects to your integration. 
 
@@ -152,7 +152,7 @@ Toast support recommends retrieving twelve weeks of historical and orders when a
 
 Ensure your integration adheres to the endpoint specific rate-limit for the `/ordersBulk` endpoint when retrieving order data. For more information about Toast rate limits, see [Rate limiting](https://doc.toasttab.com/doc/devguide/apiRateLimiting.html).
 
-#### Determine closeout hour
+### Determine closeout hour
 
 When retrieving cash transaction or order information, you need to determine the closeout hour of the restaurant. 
 

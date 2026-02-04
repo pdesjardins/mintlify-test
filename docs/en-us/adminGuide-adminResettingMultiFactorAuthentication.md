@@ -13,7 +13,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Overview
+## Overview
 
 Multi-factor authentication (MFA) is a secure authentication method where you are asked to provide additional details to further secure your Toast account. The following list provides some MFA reset scenarios, and why you may want to reset your MFA.
 
@@ -24,7 +24,7 @@ Multi-factor authentication (MFA) is a secure authentication method where you ar
 
 
 
-### How to reset multi-factor authentication
+## How to reset multi-factor authentication
 
 Use the following procedure to reset your multi-factor authentication (MFA).
 

@@ -21,7 +21,7 @@ Nonexclusive discounts can be combined with any other type of discount, regardle
 
 Exclusive discounts cannot be combined with other exclusive discounts. They can, however, be combined with nonexclusive discounts.
 
-### Determining whether a discount is exclusive or nonexclusive
+## Determining whether a discount is exclusive or nonexclusive
 
 For the following types of discounts, you can configure whether the discount can be combined with other discounts.
 
@@ -45,7 +45,7 @@ To configure whether the discount is exclusive or nonexclusive, you use the Allo
 
 Item-level discounts and combo discounts are always exclusive. The Allow with other discounts setting is always not enabled and empty.
 
-### How exclusivity affects discount applicability
+## How exclusivity affects discount applicability
 
 When you apply a discount to a check, it can affect the applicability status of the menu items on the check:
 
@@ -58,7 +58,7 @@ For example, if you apply an exclusive check-level discount to a check, all item
 
 
 
-#### Effect of discount sequence on discount eligibility
+### Effect of discount sequence on discount eligibility
 
 If two check-level discounts are on a check, one of those discounts must be a nonexclusive discount. Whether the discounts can be combined depends on which discount is applied first.
 
@@ -75,7 +75,7 @@ In other words, although a nonexclusive discount can normally be combined with a
 
 
 
-#### Effect on applicable BOGO discounts
+### Effect on applicable BOGO discounts
 
 BOGO discounts are also affected if their buy and get items are used up:
 
@@ -90,7 +90,7 @@ However, if the order has only one large pizza, you cannot apply both nonexclusi
 
 
 
-### Combinations of exclusive and non-exclusive discounts
+## Combinations of exclusive and non-exclusive discounts
 
 The following table summarizes how different combinations of exclusive and nonexclusive discounts interact.
 

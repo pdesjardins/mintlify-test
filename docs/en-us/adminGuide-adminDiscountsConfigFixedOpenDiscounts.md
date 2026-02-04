@@ -17,7 +17,7 @@ codeExamples: 0
 
 For fixed amount, fixed percent, open amount, and open percent discounts, you choose what the discount applies to. For fixed discounts, you also provide the discount value.
 
-### Providing the discount value for fixed discounts
+## Providing the discount value for fixed discounts
 
 On the discount configuration page, when you select either Fixed $ Off or Fixed % Offas the discount type, a Value field is displayed.
 
@@ -31,7 +31,7 @@ For a Fixed % Off discount, the value is the percent to discount from the item o
 
 ![Value field for a fixed percent discount.](https://doc.toasttab.com/doc/media/discount-fixed-percent-value.png)
 
-### Selecting what the discount applies to
+## Selecting what the discount applies to
 
 In the configuration for both fixed and open discounts, the Applies to setting specifies how the discount is applied.
 
@@ -66,7 +66,7 @@ To configure required items for the discount, select Check must include one of t
 
 
 
-### Excluding items from a check-level discount
+## Excluding items from a check-level discount
 
 For check-level discounts, you can exclude specific menu items, menu groups, or menus. When the discount is applied to a check, the discount ignores the excluded items and applies the discount to the rest of the check.
 
@@ -77,7 +77,7 @@ For check-level discounts, you can exclude specific menu items, menu groups, or 
 > This feature is in limited release.
 
 
-#### Rules for configuring and applying a discount with exclusions
+### Rules for configuring and applying a discount with exclusions
 
 The rules for configuring and applying a discount with excluded items are as follows:
 
@@ -104,7 +104,7 @@ The rules for configuring and applying a discount with excluded items are as fol
 
 
 
-#### Selecting the excluded items
+### Selecting the excluded items
 
 When you select Entire check for a fixed or open discount, the discount configuration page displays a check box that allows you to select items to exclude.
 

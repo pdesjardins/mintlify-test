@@ -30,7 +30,7 @@ When an order is being delivered by a driver, the guest receives the following t
 
 For more information about TDS notifications, see [Do customers receive notifications for Toast Delivery Services orders?](https://central.toasttab.com/s/article/Do-customers-receive-notifications-for-Toast-Delivery-Service-orders?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web)
 
-### TDS statuses on Orders Hub
+## TDS statuses on Orders Hub
 
 The Orders Hub displays various statuses that show the fulfillment progress for a TDS order. The Orders Hub displays the following statuses during the fulfillment and delivery process:
 

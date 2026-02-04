@@ -67,7 +67,7 @@ For example, if all items in an order go to one prep station, there is no need t
 
 
 
-### Monitoring KDS tickets
+## Monitoring KDS tickets
 
 For KDS tickets, the other prep stations working on items in the order are included automatically at the bottom of the ticket when configured to show other stations.
 
@@ -84,7 +84,7 @@ The ticket for the Cold prep station shows the Cold prep station item (Cobb Sala
 > If you have the limited release Send tosetting for prep stations, prep stations set to Expediter only are not listed with other prep stations working on the KDS ticket.
 
 
-### Monitoring printed kitchen tickets
+## Monitoring printed kitchen tickets
 
 For printed kitchen tickets, you specify which other prep station(s) you want to monitor at a given prep station. When an order includes items that are routed to both prep stations, kitchen tickets print the name of the monitored prep station and a list of menu items routed to that prep station at the end of the ticket. For more information about configuring other stations for printed tickets, see [Procedure 10.18, “To configure a prep station to monitor another prep station”](adminMonitoringTicketsOtherPrepStations.html#adminConfigurePrintOtherStationsItems).
 

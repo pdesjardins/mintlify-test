@@ -29,7 +29,7 @@ On the Payment Terminal, checks are organized by status:
 
 
 
-### Sorting and filtering checks
+## Sorting and filtering checks
 
 On the Payments Terminal screen, you can view, sort, and filter your checks and their payment statuses. You can choose from the following filtering and sorting options.
 
@@ -121,7 +121,7 @@ To remove a filter option, select the Xicon on the label or select the Clear lin
 
 
 
-### Searching checks
+## Searching checks
 
 On the Payment Terminal screen, you can also search for checks by selecting the magnifying glass icon. This opens a search field. As you type, the Payment Terminalsearches and displays a list of checks that match the entered characters.
 

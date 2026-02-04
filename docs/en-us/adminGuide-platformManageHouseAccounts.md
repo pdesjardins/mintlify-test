@@ -32,7 +32,7 @@ House account invoices have one of the following statuses:
 
 Invoices can be sent according to a set payment schedule. At the end of the billing cycle, you must create and send an invoice(s) for the outstanding house account balance.
 
-### Configure bulk house account invoice settings
+## Configure bulk house account invoice settings
 
 You can configure house account settings for bulk invoices. On the Settings page, you can configure the following settings:
 
@@ -50,7 +50,7 @@ You can configure house account settings for bulk invoices. On the Settings page
 
 Configured settings apply to all bulk invoices, however you can choose to remove a setting from individual invoices.
 
-### Creating a house account invoice
+## Creating a house account invoice
 
 You can create an invoice(s) for house account(s) in Toast Web.
 
@@ -265,17 +265,17 @@ The newly created invoice is sent as an email, text message, or both to your gue
 
 
 
-#### Sending a draft invoice
+### Sending a draft invoice
 
 You can send a previously saved draft invoice from the House account profile page. You can edit draft invoices before you send them.
 
 In the Invoices section, choose the invoice with a DRAFT status and select the invoice link to open the Invoice page. Complete the workflow from the [Creating a house account invoice](platformManageHouseAccounts.html#platformCreateHouseAccountInvoice) section.
 
-#### Deleting a draft invoice
+### Deleting a draft invoice
 
 On the Invoice page, you can delete a draft invoice. From the Actions dropdown menu, select Delete draft. A confirmation dialog box appears asking if you want to delete the draft. This action cannot be undone. Select the Delete draft button to continue. This opens the Catering & Events page where you view all your invoices and their statuses. The invoice is removed from the Invoice page.
 
-#### Creating bulk invoices
+### Creating bulk invoices
 
 You can choose to create multiple invoices and bulk send them to guests to collect payment. You can bulk create and send invoices on the House accounts page in Toast Web.
 

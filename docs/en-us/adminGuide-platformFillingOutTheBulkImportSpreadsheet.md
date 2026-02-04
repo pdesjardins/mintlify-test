@@ -34,7 +34,7 @@ This section describes how to make a copy of a bulk import spreadsheet. It also 
 
 For information on downloading the import spreadsheet as a CSV file, consult the documentation for the spreadsheet application you are using. For information on importing the CSV file into the Toast platform, see [Uploading the bulk import CSV file](platformUploadingTheBulkImportCsvFile.html).
 
-### Make a copy of a bulk import template
+## Make a copy of a bulk import template
 
 Follow the instructions below to make a copy of a bulk import template to use as the starting point for your own bulk import spreadsheet.
 
@@ -58,7 +58,7 @@ Follow the instructions below to make a copy of a bulk import template to use as
 
 
 
-### Basic template
+## Basic template
 
 Use the basic template to quickly create menu items, modifier groups, and modifiers with the minimum required information (name, pricing strategy, price, and parent menu entity).
 
@@ -149,7 +149,7 @@ Examples of invalid price strings:```
 
  | 
 
-### Item update template
+## Item update template
 
 Use the item update template to update the name, POS name, kitchen name, item description, price, PLU, or SKU of existing menu items.
 
@@ -274,7 +274,7 @@ For more information, see [Specifying Toast identifiers](platformSpecifyingToast
 
  | 
 
-### Advanced template
+## Advanced template
 
 Each row in the advanced template represents an import operation such as creating a new menu item, updating the attributes of a menu item, or attaching a modifier to a modifier group. Every row has the same set of columns. The way you fill out the columns in any given row depends on the import operation you are defining in that row. Not all columns are used for every operation.
 

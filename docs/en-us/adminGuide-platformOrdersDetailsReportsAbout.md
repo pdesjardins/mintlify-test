@@ -17,7 +17,7 @@ codeExamples: 0
 
 The Orders and Order details reports both provide detailed information about orders. They display the same information and use the same filters.
 
-### Orders report
+## Orders report
 
 The Orders report displays a tabular list of orders that match the filter criteria.
 
@@ -27,7 +27,7 @@ When you click an order, the order details dialog is displayed. The order detail
 
 ![Order details dialog displayed from the Orders report.](https://doc.toasttab.com/doc/media/orders-report-order-details-dialog.png)
 
-### Order details report
+## Order details report
 
 The Order details report starts with a summary of the menu items from the orders that match the filter criteria.
 

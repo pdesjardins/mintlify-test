@@ -18,7 +18,7 @@ codeExamples: 0
 
 This section provides procedures and information about sending text messages when an order is fulfilled.
 
-### Sending text messages on expediter fulfillment
+## Sending text messages on expediter fulfillment
 
 If your kitchen includes a KDS for one or two expediters, you can configure the Toast POS to automatically send SMS text messages when the expediters mark the order fulfilled. For example, to encourage timely pickup, a quick service restaurant might decide to send text messages to guests who place online orders.
 
@@ -65,7 +65,7 @@ If your kitchen is configured to Enable individual item fulfillment, the text me
 
 In addition, this [Toast Central article](https://central.toasttab.com/s/article/Send-Text-Message-when-Order-is-Fulfilled-1492800294544) provides an overview of sending text messages.
 
-### Configure text messaging on expediter fulfillment
+## Configure text messaging on expediter fulfillment
 
 To configure text messaging, you must have the 6. Web Setup \> 6.2 Kitchen / Dining Room Setup access permission. Then, follow these steps.
 

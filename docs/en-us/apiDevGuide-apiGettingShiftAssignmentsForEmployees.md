@@ -19,7 +19,7 @@ To get information about the shifts that are scheduled for employees of a restau
 
 The response contains an array of shift objects that contain the configuration information for each shift.
 
-### Example request to GET scheduled shifts
+## Example request to GET scheduled shifts
 
 The following example **curl** command sends a `GET` request to the `/labor/v1/shifts` endpoint.
 
@@ -54,7 +54,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 (3) Specify the start and end dates of the time period you want to GET shifts for. You can select up to 30 days.
 
   
-### Example response
+## Example response
 
 The following example shows the response for a `GET`request to the `/labor/v1/shifts` resource.
 
@@ -139,7 +139,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 (4) This shift is assigned to a different employee.
 
   
-### Example jq utility command to select shifts for a specific employee
+## Example jq utility command to select shifts for a specific employee
 
 The following example **jq** command selects the shift objects for a specific employee from the array of shift objects in the response from `/labor/v1/shifts` .
 

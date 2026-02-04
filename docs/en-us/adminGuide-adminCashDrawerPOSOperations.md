@@ -34,7 +34,7 @@ POS cash drawers actions are organized into the following categories:
 
 
 
-### During a shift
+## During a shift
 
 Cash drawer actions completed during a shift include making cash entries and adjusting the starting cash drawer balance. These actions are only available for open or paused cash drawers.
 
@@ -70,7 +70,7 @@ Cash drawer actions that can be completed during a shift are organized into thre
 
 
 
-#### Cash in
+### Cash in
 
 The Cash In action adds cash to an open or paused cash drawer. Employees can enter an optional comment for the cash entry.
 
@@ -95,7 +95,7 @@ To review details of the Cash In entry, select the cash entry on the cash drawer
 
 
 
-#### Cash collected
+### Cash collected
 
 The Cash Collected action adds cash collected from an employee to an open or paused drawer. Employees can enter an optional comment for the cash entry.
 
@@ -127,7 +127,7 @@ To review details of the Cash Collectedentry, select the cash entry on the cash 
 
 
 
-#### Cash out
+### Cash out
 
 The Cash Out action removes cash from an open or paused cash drawer. The Cash Out amount cannot exceed the cash drawer's current balance. Employees can enter an optional comment for the cash entry.
 
@@ -161,7 +161,7 @@ To review details of the Cash Outentry, select the cash entry on the cash drawer
 
 
 
-#### Payout
+### Payout
 
 The Payout action removes cash from an open or paused cash drawer to pay for goods or services. The payout amount cannot exceed the cash drawer's current balance. Employees can enter an optional comment for the cash entry. There are two options to complete a payout:
 
@@ -250,7 +250,7 @@ A Pay Out slip is also printed with the name of the employee who made the payout
 
 
 
-#### Tip out
+### Tip out
 
 
 
@@ -290,7 +290,7 @@ To review details of the Tip Out entry, select the cash entry on the cash drawer
 
 
 
-#### Cash drop
+### Cash drop
 
 The Cash drop action removes cash from an open or paused cash drawer to transfer money from one location to another for safekeeping, or if you want to reduce the amount of cash in a cash drawer. For example, you can use the Cash drop action if you need to move money from one safe to another in the store. The cash drop amount cannot exceed the cash drawer's current balance. Employees can enter an optional comment for the cash entry.
 
@@ -341,7 +341,7 @@ A Cash drop slip is also printed with the name of the employee who made the Cash
 
 
 
-#### No sale
+### No sale
 
 The No sale action opens an open or paused cash drawer without changing the cash balance. For example, an employee can make a No Sale entry to make change for a guest, or to count the cash in the cash drawer. You can select from previously configured no sale reasons or choose to configure a new no sale reason.
 
@@ -359,7 +359,7 @@ To review details of the No Sale entry, select the cash entry on the cash drawer
 
 
 
-##### Configuring no sale reasons
+#### Configuring no sale reasons
 
 You can configure no sale reasons in Toast Web.
 
@@ -392,11 +392,11 @@ You can configure no sale reasons in Toast Web.
 
 
 
-### During shift review
+## During shift review
 
 Certain cash drawer actions can be completed during shift review, such as closing a cash drawer, opening a new drawer, reopening a closed drawer, or adjusting a cash drawer’s starting balance.
 
-#### Closing a cash drawer
+### Closing a cash drawer
 
 The Close action closes an open or paused cash drawer. To close a cash drawer, you must count the bills and coins in the drawer and enter the amount into the Toast platform. If you choose to count the cash later, this pauses the open cash drawer and opens a new cash drawer. A paused drawer cannot accept cash payments, but you can complete cash entries, such as adding or removing cash.
 
@@ -472,7 +472,7 @@ You can now choose to create a deposit for the cash in the cash drawer. For more
 
 
 
-##### Adding a comment for a closed drawer
+#### Adding a comment for a closed drawer
 
 You can add an optional comment when closing a cash drawer. You can choose to enter a custom comment or a comment will be entered on the cash drawer activity panel depending if there was a variance with the closeout amount and the expected amount. For more information, see [Managing cash drawer variance](adminCashDrawerToastWebOperations.html#adminCashDrawerManageCloseDrawerVariance).
 
@@ -494,7 +494,7 @@ Closeout comments are recorded in the Reports \> Cash loss and management \> Cas
 
 ![Closeout shortage comment on cash entry dialog.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-closeout-comment-report.png)
 
-#### Opening a new cash drawer
+### Opening a new cash drawer
 
 Opening a new cash drawer replaces a current open cash drawer with a new active drawer. This action is typically done at the end of a shift to start a new drawer for the next shift. The new open drawer keeps the name of the previous open drawer and its starting cash balance. The name of the new drawer follows this naming convention: *Drawer (2)*. The number after the drawer name increases with each drawer replacement.
 
@@ -537,7 +537,7 @@ To view and set the starting balance or reset balance type for individual cash d
 
 
 
-### Reopening a cash drawer
+## Reopening a cash drawer
 
 The Reopen action reopens a closed cash drawer. When you adjust the closing balance of a closed drawer, this reopens the cash drawer and moves it from under the Closed tab to under the Pausedheading on the Cash Drawers screen.
 
@@ -550,7 +550,7 @@ The Reopen action reopens a closed cash drawer. When you adjust the closing bala
 
 
 
-### Adjusting the cash drawer starting balance
+## Adjusting the cash drawer starting balance
 
 
 

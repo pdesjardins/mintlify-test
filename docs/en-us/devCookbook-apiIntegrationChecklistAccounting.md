@@ -19,7 +19,7 @@ Use the instructions below to build sales reports using information from the Toa
 
 This integration provides restaurants with useful information to run their business.
 
-### Required scopes
+## Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -36,13 +36,13 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 
 
-### Setup and planning
+## Setup and planning
 
-#### Complete initial integration setup
+### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-#### Decide what information your reports will provide
+### Decide what information your reports will provide
 
 Before beginning development, decide what reports you will build.
 
@@ -135,7 +135,7 @@ This guide describes how to report on the following sales information:
 
 
 
-#### Review menu and order structure
+### Review menu and order structure
 
 Reporting on sales depends on restaurants' usage of menu items and the overall structure of orders.
 
@@ -143,9 +143,9 @@ To understand Toast menu concepts before you begin development, review [menu hie
 
 To review order structure, see [Orders API overview](portalOrdersApiOverview.html).
 
-### Retrieving restaurant information
+## Retrieving restaurant information
 
-#### Set up recurring retrieval of menu and configuration information
+### Set up recurring retrieval of menu and configuration information
 
 Use the [menus webhook](apiMenusWebhook.html) or query the `/metadata` endpoint of the menus API throughout the day.
 
@@ -184,7 +184,7 @@ In addition, query the following configuration API endpoints at least once a day
 
 
 
-#### Set up recurring order retrieval of transactional information
+### Set up recurring order retrieval of transactional information
 
 To report on order information, you need to retrieve orders at least once per day using the `startDate` and `endDate` parameters of the `/ordersBulk` endpoint of the orders API.
 
@@ -197,7 +197,7 @@ To report on order information, you need to retrieve orders at least once per da
 
 See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
 
-#### Consider historical backfill
+### Consider historical backfill
 
 When a restaurant first connects to your integration, they may expect to see some historical information already displayed in your system. Define how many days of historical orders you retrieve when a restaurant first connects to your integration.
 
@@ -205,7 +205,7 @@ To retrieve the orders for these days, use either the `businessDate` or `startDa
 
 Toast support recommends retrieving twelve weeks of historical orders when a restaurant first connects to your integration.
 
-#### Determine closeout hour
+### Determine closeout hour
 
 The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
 
@@ -213,9 +213,9 @@ The default closeout hour is 4:00 a.m. local time unless a Toast employee change
 
 Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
 
-### Building report functionality
+## Building report functionality
 
-#### Separate future orders from past orders
+### Separate future orders from past orders
 
 Guests may place orders for future fulfillment. For example, a guest may place a catering order on a Monday to be fulfilled on a Friday.
 
@@ -223,7 +223,7 @@ An order is a future order if its `promisedDate` is in the future. In all order 
 
 For more information about how integration partners submit future orders, see [Scheduling future orders](orders_api_future_orders.html).
 
-#### Suppress voided entities by default
+### Suppress voided entities by default
 
 Servers can void erroneous orders, checks, item selections, and payments. Restaurants may not want information about voided entities to appear in their sales summaries.
 
@@ -231,13 +231,13 @@ If the `voided` value on an order, check, selection, or payment is `true`, Toast
 
 See [this Toast Central article](https://central.toasttab.com/s/article/Voiding-Items-Payments-and-Checks) for more information about how to test void functionality.
 
-#### Suppress deferred entities
+### Suppress deferred entities
 
 Item selections can be marked as deferred. Deferred selections (usually Gift Cards or similar) see the value of the selection realized at the restaurant at a later date. The sales report for that later date will correctly capture that sales information. These selections should not appear in sales summaries.
 
 If the `deferred` value on a selection is `true`, Toast support recommends ignoring this entity when calculating all sales information below.
 
-#### Reporting on total sales
+### Reporting on total sales
 
 Below are suggestions for reporting on total sales within a given timeframe.
 
@@ -297,7 +297,7 @@ To allow users to drill down into the amount charged for each service charge:
 
 
 
-#### Reporting on payments
+### Reporting on payments
 
 Below are ideas for reporting on payment information for a given timeframe:
 
@@ -345,7 +345,7 @@ Sum the `amount` values on each payment.
 
 
 
-#### Reporting on order trending per category
+### Reporting on order trending per category
 
 Below are ideas for reporting on sales per category within a given timeframe.
 
@@ -411,7 +411,7 @@ To retrieve the name of a service period, use the `/restaurantServices` endpoint
 
 
 
-#### Summarizing sales information
+### Summarizing sales information
 
 Below are ideas for calculating sales statistics within a given timeframe.
 

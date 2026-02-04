@@ -29,7 +29,7 @@ The Toast integrations team periodically announces maintenance periods for which
 
 You must register a separate API client account for each environment. See [Toast API accounts](apiClientAccounts.html).
 
-### Sandbox environment
+## Sandbox environment
 
 The sandbox environment is intended for partner and custom integration development and testing of Toast API integrations in a realistic setting. As with production, sandbox environment public APIs are versioned and fully functional. The sandbox environment has simulated payment processing.
 
@@ -55,7 +55,7 @@ Use the link below to download the Toast POS app installer. Use the installer ve
 > Sandbox environment access is limited to partner and custom integrations. Standard API access and analytics API access are only available in the production environment. For more information, see [Integration types](apiIntegrationTypes.html).
 
 
-### Production environment
+## Production environment
 
 The production environment is the live Toast platform environment. You can use the production environment after your integration testing is complete. Production environment API access is [rate limited](apiRateLimiting.html).
 

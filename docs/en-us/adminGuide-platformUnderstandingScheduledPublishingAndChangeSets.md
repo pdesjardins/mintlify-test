@@ -51,7 +51,7 @@ As you work with change sets, here are some additional points to keep in mind:
 
 
 
-### Scheduled publishing permissions
+## Scheduled publishing permissions
 
 Employees that have the 6. Web Setup \> 6.7 Change sets permission to the [session restaurant](sessionRestaurant.html) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
 
@@ -59,7 +59,7 @@ The 6.7 Change sets permission only gives you permission to work with the change
 
 Employees that have the 6. Web Setup \> 6.4 Publishing permission to the session restaurant have read-only access to the publishing center. This means they can view change sets and add changes to *existing change sets*but they cannot create change sets, delete change sets, or modify the names and schedules of change sets.
 
-### Scheduled publishing only replaces the properties included in a change set
+## Scheduled publishing only replaces the properties included in a change set
 
 A manual publish replaces an entire configuration entity in the published database with data from the saved database. For example, you change Menu Item A's name to Menu Item B and manually publish it. All of Menu Item A's properties are overwritten in the published database with data from the saved database, even though only the name was changed.
 
@@ -130,7 +130,7 @@ Price = $5
 
 This example demonstrates that change sets only update configuration entities with the *specific changes that are included in the change set*. If updates are made to a configuration entity outside of a change set, those updates are applied on the next manual publish.
 
-### Change set statuses
+## Change set statuses
 
 You can view a change set's status on the Toast account \> Publishing \> Publishing center page. The following table describes change set status types:
 
@@ -158,7 +158,7 @@ To resolve this most common cause of partial publishes, make sure all of the ent
  | 
 | Failed | None of the changes in the change set were successfully saved and published. See [Resolving change set errors](platformUnderstandingScheduledPublishingAndChangeSets.html#platformResolvingChangeSetErrors) for more information. | 
 
-### Working with change sets in the publishing center
+## Working with change sets in the publishing center
 
 The Publish later tab of the Toast account \> Publishing \> Publishing center page provides a centralized location for viewing and working with change sets.
 
@@ -184,7 +184,7 @@ From this page, you can:
 
 Change sets on the publishing center page are sorted by publish date, newest to oldest. Change sets that don't have a publish date are shown at the top of the list.
 
-#### Creating a new change set
+### Creating a new change set
 
 You can create a new, empty change set from the publishing center and then [add changes to it later](platformUnderstandingScheduledPublishingAndChangeSets.html#platformNavigatingToAChangeSetsPreviewPages).
 
@@ -238,7 +238,7 @@ In the Which change set would you like to add changes to dialog box, select the 
 > It is also possible to [create a new change set from the menu manager](platformPublishingMenuManagerChanges.html), the only area of Toast Web that currently includes the scheduled publishing feature.
 
 
-#### Editing a change set's description, date, or time
+### Editing a change set's description, date, or time
 
 Follow the instructions below to edit the description, date, or time associated with a change set.
 
@@ -259,7 +259,7 @@ Follow the instructions below to edit the description, date, or time associated 
 
 
 
-#### Navigating to a change set's preview pages
+### Navigating to a change set's preview pages
 
 A change set contains a collection of changes that you have made using other configuration pages in Toast Web (for example, the menu manager page) and then stored in the change set. You can edit the changes contained in a change set using special preview versions of the configuration pages you used to specify the changes. These preview pages show a side-by-side view of the existing saved configuration and the changes recorded in the change set.
 
@@ -290,7 +290,7 @@ A change set contains a collection of changes that you have made using other con
 
 
 
-#### Deleting a change set
+### Deleting a change set
 
 When you delete a change set, the changes associated with it are not saved or published.
 
@@ -311,7 +311,7 @@ When you delete a change set, the changes associated with it are not saved or pu
 
 
 
-### Resolving change set errors
+## Resolving change set errors
 
 The Publish later tab lists your change sets and their [statuses](platformUnderstandingScheduledPublishingAndChangeSets.html#platformChangeSetStatuses). For change sets that have a status of `FAILED` or `PARTIAL
       PUBLISH`, you can download error files that provide more information about the failures that occurred when the change set was executed. You can download these error files from two locations:
@@ -336,7 +336,7 @@ When you download the error files for a change set, one or more comma-separated 
 
 
 
-#### Columns in the error CSV files
+### Columns in the error CSV files
 
 The following table describes the columns in the error CSV files. Two of the columns, `locationId` and `locationName`, only appear in the `publishing_errors-[change-set-name].csv` file.
 
@@ -352,11 +352,11 @@ The following table describes the columns in the error CSV files. Two of the col
 | `targetId` | The unique identifier, or `GUID`, of location or location group that the menu entity is [targeted at](targets.html). See [Toast identifiers](portalToastIdentifiers.html) for more information on `GUID`s. | 
 | `targetName` | The name of the location or location group that the menu entity is [targeted at](targets.html). | 
 
-#### Publishing errors for menu items targeted at multiple locations
+### Publishing errors for menu items targeted at multiple locations
 
 For menu items that are targeted at multiple locations, the `publishing_errors-[change-set-name].csv` file contains a row for each location where a publishing attempt was made and failed. For example, Menu Item A is targeted at a location group that has six locations. If Menu Item A has a publishing failure at three of those locations, the `publishing_errors-[change-set-name].csv`file will contain three rows for Menu Item A errors, one row for each location where the publishing attempt failed.
 
-#### Publishing error codes
+### Publishing error codes
 
 The table below describes the error codes that you may see in the `publishing_errors-[change-set-name].csv` file.
 
@@ -373,7 +373,7 @@ To resolve the `ErrorConfigNeverPublished` error, [manually publish](platformPub
 | `ErrorInternalPublishing` | An internal error has occurred while publishing changes. The `locationName` column lists the location where changes failed to publish. Try [manually publishing](platformPublishingOverview.html) changes for this location or contact Toast support for further assistance.  | 
 | `ErrorInternalJobExecution` | An internal error has occurred while executing the scheduled change set. Changes may be reflected in saved data, but no restaurant will receive published changes. Try [manually publishing](platformPublishingOverview.html) your changes or contact Toast support for further assistance.  | 
 
-#### Menu update error codes
+### Menu update error codes
 
 Menu update errors can occur if edits are made to a menu entity *after* a change set that includes the menu entity was created but *before* the change set executes. The following table provides more information about the changes that can cause these problems and the error codes associated with them.
 
@@ -394,11 +394,11 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
 
  | 
 
-#### Locating menu items that have errors using their GUID
+### Locating menu items that have errors using their GUID
 
 The CSV files are generated when the change set fails to execute and they contain the menu item data (menu item name, target name, target ID, and so on) that existed at the time of execution. It is possible for the menu item name to be edited *after* the CSV files were generated, creating a situation where the menu item name shown in the error file is different from the menu item name shown in Toast Web. If this occurs, you can use the Menus \> Bulk management \> Items database page to search for the menu item by its `GUID`, which can be found in the `entityId`column of the errors summary file.
 
-### Scheduled publishing notes and limitations
+## Scheduled publishing notes and limitations
 
 This section discusses important notes and limitations of the scheduled publishing feature.
 

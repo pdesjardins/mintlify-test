@@ -41,7 +41,7 @@ You can optionally aggregate the aggregated sales reporting data into groups by 
 
 Also, you can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
-### Creating an aggregated sales reporting data request for a custom time range
+## Creating an aggregated sales reporting data request for a custom time range
 
 Send a `POST` request to the `/era/v1/metrics` endpoint to request aggregated sales reporting data for a customized time range. A custom time range can cover the current date and earlier. For example, if the current date is January 1, 2025, you could choose a range of January 1, 2023 to January 1, 2025, but the end date could not be January 2, 2025.
 
@@ -54,7 +54,7 @@ To create a request for aggregated sales reporting data that covers a customized
 
 
 
-#### Request for a custom time range of aggregated sales reporting data
+### Request for a custom time range of aggregated sales reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics` endpoint.
 
@@ -76,7 +76,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
 
 (4) Include details about the requested aggregated sales reporting data in the message body. The following example is the message body for this curl command example.
 
-#### Message body for the custom time range aggregated sales reporting data request
+### Message body for the custom time range aggregated sales reporting data request
 
 The following example shows the message body for creating an aggregated sales reporting data request for a custom time range.
 
@@ -107,7 +107,7 @@ The following example shows the message body for creating an aggregated sales re
 
 (5) This request is for aggregated sales reporting data grouped by revenue center.
 
-#### Response to the request for custom time range aggregated sales reporting data
+### Response to the request for custom time range aggregated sales reporting data
 
 The following example shows the response from the `/era/v1/metrics` endpoint.
 
@@ -121,7 +121,7 @@ The following example shows the response from the `/era/v1/metrics` endpoint.
 
 For an example that shows how to retrieve the aggregated sales reporting data, see [Retrieving the aggregated sales reporting data](apiAnalyticsMetricsReportingDataRetrieveData.html).
 
-### Creating an aggregated sales reporting data request for a specific time range
+## Creating an aggregated sales reporting data request for a specific time range
 
 Send a `POST` request to `/era/v1/metrics/\{timeRange\}` endpoint to request aggregated sales reporting data for a specific time range. The time range you specify can be a day, week, month, or year. Accordingly, the options for the `\{timeRange\}` path parameter are:
 
@@ -147,7 +147,7 @@ If you choose the `day` time range, you can choose to group the aggregated sales
 > The number of days between, and including, the `startBusinessDate` and `endBusinessDate` must be equal to or less than the day limit for the specified time range.
 
 
-#### Request for specific time range aggregated sales reporting data
+### Request for specific time range aggregated sales reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/\{timeRange\}` endpoint. This example uses the `week` time range.
 
@@ -169,7 +169,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 
 (4) Include details about the requested aggregated sales reporting data in the message body. The following example is the message body for this curl command example.
 
-#### Message body for the specific time range aggregated sales reporting data request
+### Message body for the specific time range aggregated sales reporting data request
 
 The following example shows the message body for creating an aggregated sales reporting data request for a specific time range. This example is for the `week` time range.
 
@@ -199,7 +199,7 @@ The following example shows the message body for creating an aggregated sales re
 
 (5) This request for aggregated sales reporting data is not grouped by dining option, order source, or revenue center.
 
-#### Response to the request for specific time range aggregated sales reporting data
+### Response to the request for specific time range aggregated sales reporting data
 
 The following example shows the response from the `/era/v1/metrics/\{timeRange\}` endpoint.
 

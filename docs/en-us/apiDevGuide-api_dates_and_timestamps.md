@@ -17,7 +17,7 @@ codeExamples: 0
 
 All Toast APIs use ISO 8601 string representation for dates and timestamps and all such dates and timestamps are in UTC. Your Toast API integration must convert dates and times to the appropriate time zone. For example, your integration might convert a date and time value to the time zone of a restaurant location.
 
-### Timestamp and time formats
+## Timestamp and time formats
 
 Toast APIs include date and time values and time-only values.
 
@@ -42,11 +42,11 @@ For example, the "+" in the date `2020-01-01T14:13:12.000+0400` must be escaped 
 
 For more information about URL encoding, see the [IETF URI](https://tools.ietf.org/html/rfc3986#section-2.1) standard.
 
-### Daylight savings time
+## Daylight savings time
 
 If you submit time-based information to the Toast platform, or you interact with time-based configuration, you need to consider daylight savings time when you do your development. Observe [state-specific daylight savings practices](https://en.wikipedia.org/wiki/Daylight_saving_time_in_the_United_States#Local_DST_observance) when doing development related to daylight savings time.
 
-#### Submitting time-based information
+### Submitting time-based information
 
 UTC times are not affected by daylight savings time. If you submit data to the Toast platform that includes timestamps, such as the `openedDate` and `promisedDate` for an order or the `inDate` and `outDate` of an employee shift, your integration must consider and accommodate daylight savings time when it determines timestamp values.
 
@@ -67,7 +67,7 @@ The `openedDate` and `promisedDate`should be set to the UTC equivalent of 7:00 P
 
 
 
-#### Time-based configuration
+### Time-based configuration
 
 Certain configuration in the Toast platform is time-based. For example, a restaurant may use a time-based menu, time-based pricing, or a time-based discount to accommodate their happy hour.
 
@@ -75,7 +75,7 @@ Certain configuration in the Toast platform is time-based. For example, a restau
 
 When your integration uses this time-based configuration information, you must shift the times as needed when daylight savings time begins and ends.
 
-#### Using restaurant hours
+### Using restaurant hours
 
 The `closeoutHour` JSON value and `schedules` object in the [restaurants API](apiRestaurantInformation.html) are both relative to the restaurant's local time.
 

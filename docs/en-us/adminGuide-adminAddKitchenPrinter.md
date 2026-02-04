@@ -43,7 +43,7 @@ There are two methods to adding a new kitchen printer to your kitchen setup: thr
 
 Repeat these steps to add other kitchen printers, or to update the information for a printer by adding its backup printer. After you set up your printers, you can assign them to your prep stations.
 
-### To add a printer on the Toast POS app
+## To add a printer on the Toast POS app
 
 1. Navigate to the Toast POS app home screen.
 
@@ -154,7 +154,7 @@ For example, "Cold Station KP (171)" or "Backup KP (170)".
 
 
 
-### To add a printer on Toast Web
+## To add a printer on Toast Web
 
 1. [Access Toast Web ](adminAccessToastAdminBackend.html).
 

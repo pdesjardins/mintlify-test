@@ -17,7 +17,7 @@ codeExamples: 0
 
 This section provides general information that applies to all menu manager views.
 
-### Using the Full menu view side panel
+## Using the Full menu view side panel
 
 When you select the name of a menu entity from the menu hierarchy table in Full menu view, a side panel opens with details for that entity. The side panel lets you quickly configure your menu entities without leaving Full menuview.
 
@@ -40,7 +40,7 @@ To close the side panel, select the close icon in the upper-right corner of the 
 
 To save changes you make in the side panel, use the Save button that appears at the bottom of the panel. Note that other changes you make in Full menu view, outside of the side panel (for example, adding a menu or re-ordering your menu groups), are automatically saved. If you close the side panel without selecting the Savebutton, changes you have made in the panel are discarded.
 
-### Showing, hiding, and reorganizing columns
+## Showing, hiding, and reorganizing columns
 
 You can use the Columns selector to show, hide, and reorganize columns in the menu manager views.
 
@@ -77,7 +77,7 @@ Some columns are grouped together as a set and must be shown or hidden as a set.
 
 
 
-### Expanding and collapsing rows
+## Expanding and collapsing rows
 
 When you first open a menu manager view, the rows are collapsed. The illustration below shows the Full menu view when it is first opened:
 
@@ -102,11 +102,11 @@ To expand or collapse all the rows, select the expand/collapse all icon:
 
 ![The location of the expand/collapse all icon on Items view.](https://doc.toasttab.com/doc/media/menu-manager-items-view-expand-all-icon.png)
 
-### Using keyboard shortcuts while entering menu data
+## Using keyboard shortcuts while entering menu data
 
 The menu manager has been designed to make menu data entry as efficient as possible. In particular, it makes use of the keyboard to allow for more rapid menu updates. This section provides more details.
 
-#### Entering menu data in Full menu view
+### Entering menu data in Full menu view
 
 When you add a new menu entity on the Full menu view, using one of the Add [entity type] buttons, a new row is added to the page with an empty text box where you can type the entity's name. After entering a name, you can do any of the following to finish creating the new entity:
 
@@ -126,7 +126,7 @@ If you have not entered a name for the new entity yet, any action (pressing Ente
 
 To remove the entity's name but leave the new row in place so you can re-enter a name, select the X icon in the name field.
 
-#### Entering menu data in Items, Modifiers, and Price level views
+### Entering menu data in Items, Modifiers, and Price level views
 
 To assist you in quickly entering menu data, the Items, Modifiers, and Price levels views have the following keyboard shortcuts:
 
@@ -137,7 +137,7 @@ To assist you in quickly entering menu data, the Items, Modifiers, and Price lev
 
 
 
-### Quickly viewing details pages for menu entities
+## Quickly viewing details pages for menu entities
 
 On the Items, Modifiers, or Price levels view, you can quickly navigate to the details page for a menu entity by selecting its name. A new tab opens with the details page for the entity you selected.
 

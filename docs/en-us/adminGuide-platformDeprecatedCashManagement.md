@@ -21,15 +21,15 @@ codeExamples: 0
 > This content will be deprecated. For the latest information about cash drawers, see [Cash drawers](adminCashDrawers.html).
 
 
-### Cash management overview
+## Cash management overview
 
 Cash management is an umbrella term that describes the many workflows and features that you can use to manage your cash transactions, report cash tips, and close out your day.
 
-### Setting up cash drawers
+## Setting up cash drawers
 
 Cash drawers are physically attached to printers. When restaurant employees perform actions that require cash transactions, the Toast platform opens the cash drawer.
 
-#### Cash drawer names
+### Cash drawer names
 
 You can optionally configure names for cash drawers, so that the printer and the cash drawer will each have a distinct name. If you do not configure a cash drawer name, the printer name is used as the name of the cash drawer.
 
@@ -46,7 +46,7 @@ The cash drawer name appears in Toast Web in areas of the Cash Activity Audit an
 
 You can assign a cash drawer name when you [create or update a cash drawer](platformDeprecatedCashManagement.html#platformCashDrawerCreate) with the Payments \> Checks & receipt setup \> Printers and cash drawers page in Toast Web.
 
-#### Creating cash drawers
+### Creating cash drawers
 
 This procedure assumes that you have a physical cash drawer connected to a printer and the printer has been connected to your Toast network.
 
@@ -109,7 +109,7 @@ You need the Web Setup \> 6.10 Printer and Cash Drawer Setup permission to confi
 
 
 
-#### Configuring cash in drawer or cash in hand
+### Configuring cash in drawer or cash in hand
 
 Restaurants typically use one of two modes for how employees (such as servers or bartenders) handle cash payments:
 
@@ -161,7 +161,7 @@ Select No cash payments if you want to prevent employees from accepting cash pay
 
 
 
-#### Re-assigning a cash drawer to a Toast POS device
+### Re-assigning a cash drawer to a Toast POS device
 
 If a specific Toast POS device is configured for cash in drawer mode, it must be assigned to printer that has a cash drawer. Typically, this cash drawer assignment remains throughout the employee's shift, but you can change the cash drawer assignment (for example, if the drawer does not operate properly because of a mechanical or electronic problem).
 
@@ -212,7 +212,7 @@ If you see this message, re-assign the receipt printer to one with a cash drawer
 
 
 
-### Cash drawer states
+## Cash drawer states
 
 A cash drawer can be in one of the following cash drawer states:
 
@@ -248,7 +248,7 @@ Cash drawers for the restaurant are listed in the Cash Drawers screen on the Toa
 
 ![The Toast POS device showing the Cash Drawers screen.](https://doc.toasttab.com/doc/media/cm-cash-drawer-screen.png)
 
-#### Active drawers
+### Active drawers
 
 An active cash drawer is one that restaurant employees are using to make cash entries. A cash entry (called an Action in the cash drawer) is one of the following:
 
@@ -336,7 +336,7 @@ The active drawer screen contains the following information:
 
 At the bottom of the screen are buttons for cash drawer operations, such as making a Cash Drop entry and closing the cash drawer. These operations are described in [Cash drawer operations](platformDeprecatedCashManagement.html#platformCashDrawerOperations).
 
-#### Open drawers
+### Open drawers
 
 You create an open drawer when you use the New Drawer button to replace an existing active drawer. Typically, you create the open drawer to verify its transactions and cash balance before you close the drawer.
 
@@ -352,7 +352,7 @@ Open drawers are listed in the OPEN tab of the Cash Drawers screen, as in this e
 
 Tapping the name of the open drawer displays the open drawer screen, which is functionally similar to the active drawer screen. The buttons at the bottom of the screen provide the same cash drawer operations as with active drawers. For example, the During Shift buttons let you adjust the drawer's balance before closing it. These operations are described in [Cash drawer operations](platformDeprecatedCashManagement.html#platformCashDrawerOperations).
 
-#### Closed drawers
+### Closed drawers
 
 A closed drawer is a previously active or open drawer that you closed with the Close Drawer button. You then confirmed the balance in the closed drawer by counting the bills and filling out the Close Out Balance dialog for the drawer. Closing the drawer enters the actual closing balance into the Toast POS.
 
@@ -380,7 +380,7 @@ The top panel shows three balance amounts for the closed drawer:
 
 As the example shows, the During Shiftbuttons are disabled. The End of Shift buttons are described in [End of Shift operations](platformDeprecatedCashManagement.html#platformEndOfShiftOperations) and the Adjust Start button is described in [Adjust Starting Balance operation](platformDeprecatedCashManagement.html#platformAdjustStartOperation).
 
-### Cash drawer operations
+## Cash drawer operations
 
 Cash drawers have three sets of operations that allow employees to perform these cash drawer activities:
 
@@ -394,13 +394,13 @@ Cash drawers have three sets of operations that allow employees to perform these
 
 
 
-#### During Shift operations
+### During Shift operations
 
 The During Shift operations allow employees to perform cash entries during their open shifts. These operations can also be used to make cash adjustments in open drawers before they are closed.
 
 The During Shift operations, which are available only for active and open drawers, are described in the following sections.
 
-##### Cash In
+#### Cash In
 
 Cash In entries add cash to active and open drawers. The employee can enter a custom reason for the entry as a comment.
 
@@ -432,7 +432,7 @@ Cash In entries add cash to active and open drawers. The employee can enter a cu
 
 As a result, a Cash In action for the amount is added to the cash drawer, together with the name of the employee who made the entry. This information (including the reason for the entry) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport.
 
-##### Cash Collected
+#### Cash Collected
 
 Cash Collected entries add cash to active and open drawers. The employee can enter a custom reason for the entry as a comment. The intent of a Cash Collected entry is to collect cash in hand from a server and add it to the cash drawer.
 
@@ -467,7 +467,7 @@ Note that a Cash Collected entry executed from a cash drawer is similar to the C
 
 As a result, a Cash Collected entry for the amount is made in the cash drawer, with the name of the employee from whom the cash was collected. This information (including the reason) will also be listed in the Reports \> Cash and loss management \> Cash activity audit report.
 
-##### Cash Out
+#### Cash Out
 
 Cash Out entries remove cash from active and open drawers. The Cash Out amount cannot exceed the cash drawer's current balance.
 
@@ -499,7 +499,7 @@ Optionally, the employee can enter a custom reason for the entry as a comment. C
 
 As a result, a Cash Out action for the removed amount is entered in the cash drawer, together with the name of the employee who made the entry. This information (including a comment for the entry) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport.
 
-##### Tip Out
+#### Tip Out
 
 Tip Out entries remove cash from active and open drawers to distribute tips or gratuities to restaurant employees. The Tip Out amount cannot exceed the cash drawer's current balance.
 
@@ -534,7 +534,7 @@ The employee can provide information for the entry as a comment.
 
 As a result, a Tip Out entry for the amount removed is made in the cash drawer, together with the name of the employee to whom the cash tips were distributed. This information (including the reason) will also be listed in the Reports \> Cash and loss management \> Cash activity audit report.
 
-##### Pay Out
+#### Pay Out
 
 Pay Out entries remove cash from active and open drawers to pay for goods or services. The Pay Out amount cannot exceed the cash drawer's current balance.
 
@@ -626,7 +626,7 @@ A Pay Out slip is also printed, with the name of the employee who made the Pay O
 
 
 
-##### Cash Drop
+#### Cash Drop
 
 Cash Drop entries remove cash from an active or open drawer. The cash is usually transferred to a different restaurant location (such as a safe) for safekeeping. The Cash Drop amount cannot exceed the cash drawer's current balance.
 
@@ -672,7 +672,7 @@ A Cash Drop slip is also printed, with the restaurant name at the top followed b
 
 
 
-##### No Sale
+#### No Sale
 
 No Sale entries open the cash drawer without a change to the cash balance. For example, a restaurant employee performs a No Sale entry to make change for a customer. Another common example is that you make a No Sale entry in order to count the cash in the cash drawer.
 
@@ -719,11 +719,11 @@ When an employee makes a No Sale entry, a Please select a no sale reason dialog 
 
 As a result, a No Sale action for $0.00 is entered in the cash drawer, along with the name of the employee who made the No Sale entry. This information (including the name of the No Sale reason) will also be listed in the Reports \> Cash and loss management \> Cash activity auditreport and also in the Reports \> Cash and loss management \> No sale reports.
 
-#### End of Shift operations
+### End of Shift operations
 
 You use the End of Shift operations to control the state of a cash drawer (such as closing it) or to reset its starting balance. The close drawer operation, for example, is used as part of the shift review process that collects the money from a cash drawer.
 
-##### Close drawer
+#### Close drawer
 
 The close drawer operation closes an active or open drawer. As part of the closing operation, you physically count the cash in the drawer and enter the amount in the Cash Actualfield of the Close Out Balance dialog. This action enters the actual closing balance into Toast.
 
@@ -831,7 +831,7 @@ After you close the drawer, it appears on the Closed tab of the Cash Drawers scr
 
 As a result, the current active or open drawer is closed and a new instance of the cash drawer is created. Information from the closed drawer operation is added to the Reports \> Cash and loss management \> Cash activity auditreport.
 
-##### New drawer
+#### New drawer
 
 The new drawer operation replaces the current active drawer (which becomes an open drawer) with a new active drawer. This operation is typically used at the end of a shift to start a new drawer for the next shift.
 
@@ -868,7 +868,7 @@ For more information of these configuration settings, see [Creating cash drawers
 
 After the active drawer is replaced, it is moved to the Open tab of the Cash Drawers screen, while the new active drawer is added to the Active tab.
 
-##### Re-open
+#### Re-open
 
 The re-open operation re-opens a closed drawer so that it becomes an open drawer. The re-open operation is not available in active or open drawers.
 
@@ -885,7 +885,7 @@ A use case for re-opening a closed drawer is to adjust the actual closing balanc
 
 After the drawer is re-opened, it appears on the Open tab of the Cash Drawers screen.
 
-#### Adjust Starting Balance operation
+### Adjust Starting Balance operation
 
 The Adjust Starting Balance button lets you adjust the starting balance for an existing cash drawer. This operation is useful if you discover that you had put a different amount of cash in the physical drawer than you had configured for the drawer. Another example is if you have manual cash drawers and an employee entered the wrong amount in the New Cash Drawer numeric keypad when closing a cash drawer.
 
@@ -908,7 +908,7 @@ As a result, the cash drawer's starting balance is immediately adjusted. The cas
 
 ![The Toast POS device showing the Cash Drawer screen.](https://doc.toasttab.com/doc/media/cm-adjusted-drawer.png)
 
-#### Toast Web cash drawer operations
+### Toast Web cash drawer operations
 
 A subset of the cash drawer operations on the Toast POS device are also available on Toast Web. You have the option of using a web browser instead of a Toast POS device to perform these cash drawer operations. Note that you cannot make Cash Payments (that is, cash transactions for guest orders) into a cash drawer from Toast Web.
 
@@ -928,7 +928,7 @@ The results of these Toast Web operations update the cash drawer as seen on the 
 
 If you need to perform any cash drawer operation that is not available on Toast Web (such as re-opening a closed drawer), you must use the Toast POS device.
 
-##### Accessing the cash drawer Toast Web operations
+#### Accessing the cash drawer Toast Web operations
 
 The cash drawer Toast Web operations are available in the Cash Drawer History report, which is a section of the Sales Report. The Cash Drawer History report lists all the active cash drawers in the restaurant. The same set of cash drawer Toast Web operations is available for each cash drawer.
 
@@ -963,7 +963,7 @@ The Cash entries section of the Cash Drawer History report contains the Update E
 
 
 
-##### Adding cash entries from Toast Web
+#### Adding cash entries from Toast Web
 
 The Update Entries menu lets you make these cash entries:
 
@@ -1003,7 +1003,7 @@ At this point, the dialog box should look like this example:
 
 The cash entry is listed in the Cash entries section of the Cash Drawer History report and also in the cash drawer on the Toast POS device.
 
-##### Closing cash drawers from Toast Web
+#### Closing cash drawers from Toast Web
 
 You can close an active cash drawer from Toast Web. While similar to the [close drawer operation on the Toast POS device](platformDeprecatedCashManagement.html#platformCloseDrawerOperation), the Toast Web version has the following differences:
 
@@ -1031,7 +1031,7 @@ You can close an active cash drawer from Toast Web. While similar to the [close 
 
 After you close the drawer, it appears on the Closed tab of the Cash Drawers screen (on the Toast POS device) and its status is changed to Closed on the Cash Drawer History report. For more information on closed drawers, see [Closed drawers](platformDeprecatedCashManagement.html#platformClosedCashDrawers).
 
-##### Adjusting starting balance from Toast Web
+#### Adjusting starting balance from Toast Web
 
 You can adjust the starting balance for a cash drawer from the Toast Web. This operation is functionally the same as the version on the Toast POS device, described in [Adjust Starting Balance operation](platformDeprecatedCashManagement.html#platformAdjustStartOperation).
 
@@ -1049,7 +1049,7 @@ You can adjust the starting balance for a cash drawer from the Toast Web. This o
 
 After you make the adjustment, it is listed in the Start balance adjustments section of the Cash Drawer History report.
 
-#### Undoing cash entries
+### Undoing cash entries
 
 You can undo cash entries in a cash drawer from either the Toast POS device or Toast Web. For example, you made a Pay Out entry to pay for restaurant cleaning supplies and took out money from the cash drawer; however, you never purchased the supplies so you want to undo the Pay Out entry and replace the cash in the drawer.
 
@@ -1076,7 +1076,7 @@ You can undo the following cash entries:
 
 
 
-##### Undoing cash entries on the Toast POS device
+#### Undoing cash entries on the Toast POS device
 
 When you undo cash entries on the Toast POS device, the operations also open the physical cash drawer, so that you can manually add or remove cash to adjust the cash balance. For this reason, you must have the POS Access \> 1.13 No Sale permission to perform any undo cash entry operation.
 
@@ -1103,7 +1103,7 @@ As a result, the cash drawer displays the undone cash entry and the Balance fiel
 
 ![The Toast POS device showing a cash drawer with an undone cash entry.](https://doc.toasttab.com/doc/media/cm-undone-drawer.png)
 
-##### Undoing cash entries from Toast Web
+#### Undoing cash entries from Toast Web
 
 When you undo cash entries from Toast Web, the operations do not open the physical cash drawer. Therefore, if you want to manually add or remove cash, you must issue a [No Sale](platformDeprecatedCashManagement.html#platformNoSaleOperation) command from the Toast POS device.
 
@@ -1132,7 +1132,7 @@ When you undo cash entries from Toast Web, the operations do not open the physic
 
 As a result, the Cash Drawer Historyreport displays the undone cash entry and the cash drawer's balance is adjusted for the undone amount.
 
-### Cash drawer lockdown
+## Cash drawer lockdown
 
 You use the cash drawer lockdown feature to allow employees to assign cash drawers to themselves. Once a cash drawer is locked down to a specific employee, only that employee can use that drawer to make transactions during the employee's shift. At the end of the shift, the employee must close the cash drawer before clocking out.
 
@@ -1162,7 +1162,7 @@ Keep the following in mind when using the cash drawer lockdown feature:
 
 
 
-#### Configure cash drawer lockdown
+### Configure cash drawer lockdown
 
 To set up the cash drawer lockdown feature for restaurant employees, you should enable the three Shift Review/Closeout configuration options listed below.
 
@@ -1184,7 +1184,7 @@ To set up the cash drawer lockdown feature for restaurant employees, you should 
 
 
 
-#### Lock down a cash drawer
+### Lock down a cash drawer
 
 To lock down a cash drawer, you use the open lock icon that displays on the Toast POS device. This icon appears next to the drawer name in the Active tab and at the top of the drawer view. 
 

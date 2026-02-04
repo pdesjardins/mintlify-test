@@ -14,7 +14,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Overview
+## Overview
 
 The following sections describe the required actions to become an official Toast integration partner. This applies to:
 
@@ -36,7 +36,7 @@ Each potential Toast integration partner must reach and complete the milestones 
 
 ![Integration partner milestones](https://doc.toasttab.com/doc/media/apiDevProcessMilestones.png)
 
-### Application
+## Application
 
 The first step to becoming a Toast integration partner is to apply for partnership. During the application step, potential partners are vetted to ensure a proper fit for a Toast partnership. If you have not applied to become a Toast integration partner, select the card below to get started.
 
@@ -48,7 +48,7 @@ The first step to becoming a Toast integration partner is to apply for partnersh
 
 Toast receives a high volume of applications for partnership and is not able to integrate with all interested integration partners.
 
-### Discovery
+## Discovery
 
 During the discovery stage, business opportunity and a potential partner's technical readiness is determined. If the Toast integration team needs more information to assess your integration's functionality and feasibility, they will contact you to schedule a discovery call.
 
@@ -64,17 +64,17 @@ Before moving forward into the development stage, the potential integration part
 
 
 
-### Partner agreement
+## Partner agreement
 
 The partner agreement defines the details and business terms of the partnership between the integration partner and Toast. At this stage, business terms are presented by both the potential integration partner and Toast. A partnership agreement must be signed before moving forward in the integration development process.
 
-### Development kickoff
+## Development kickoff
 
 If you have met the requirements listed above, you enter the development stage. In this stage, the Toast integrations team provides you with your [partner API account](apiClientAccounts.html#apiPartnerApiClientAccounts)authentication credentials, which can be used for testing in the [sandbox environment](apiEnvironments.html#apiSandboxEnvironment).
 
 Once sandbox credentials are provided, you can begin to write and test your code. As you build your integration, refer to our [integration development checklists](apiIntegrationChecklists.html).
 
-### Certification
+## Certification
 
 When your integration is ready for live restaurants in the production environment, contact your Toast integrations representative to schedule a certification call. The goal of certifying your integration is to ensure that you and the Toast integrations team feel comfortable introducing your integration to pilot customers in the production environment during the [beta phase](integrationDevProcess.html#apiIntegrationDeveloperProcessBetaPhase). If there are no issues, your integration is certified and enters the alpha phase.
 
@@ -95,13 +95,13 @@ The certification call is a one-hour interactive demo-style review of your integ
 
 If problems or questions arise during the certification call, the Toast integrations team sends you an email to communicate the issues. It is your responsibility to resolve any issues before you can receive production credentials. Once the certification call is complete, the Toast integrations team certifies your integration and you move to the alpha phase.
 
-### Alpha phase
+## Alpha phase
 
 After your integration is certified, the Toast integrations team issues production credentials and your integration enters the alpha phase. The alpha phase aims to ensure that there is nothing preventing the integration’s usage or negatively impacting restaurant operations.
 
 During this phase, your integration is enabled for a single restaurant as the alpha customer. After a week of usage, the Toast integrations team checks your integration's performance logs and the alpha customer can provide feedback.
 
-### Beta phase
+## Beta phase
 
 After you have received your integration certification, production credentials, and have completed a successful alpha test phase, your integration enters the beta phase.
 
@@ -120,7 +120,7 @@ The Toast integrations team contacts the beta restaurants to get feedback. If an
 
 You'll work with the Toast integration partner marketing team to develop co-marketing strategies and integration marketing materials.
 
-### General availability
+## General availability
 
 If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](adminRestaurantServiceIntegrationsAndToastPartnerIntegrations.html).
 

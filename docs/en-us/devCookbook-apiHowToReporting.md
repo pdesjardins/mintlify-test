@@ -21,7 +21,7 @@ This type of integration provides restaurants with greater visibility into key i
 
 This document describes how to build a general data warehouse. For more detailed information about how to report on specific types of data, see [Building a sales report](apiIntegrationChecklistAccounting.html) and [Building labor reports](apiIntegrationChecklistPayroll.html).
 
-### Required scopes
+## Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -47,11 +47,11 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 
 
-### Complete initial integration setup
+## Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-### Determine closeout hour
+## Determine closeout hour
 
 The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
 
@@ -59,7 +59,7 @@ The default closeout hour is 4:00 a.m. local time unless a Toast employee change
 
 Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
 
-### Review menu and order structure
+## Review menu and order structure
 
 Reporting on sales depends on restaurants' usage of menu items and the overall structure of orders.
 
@@ -67,7 +67,7 @@ To understand Toast menu concepts before you begin development, review [menu hie
 
 To review order structure, see [Orders API overview](portalOrdersApiOverview.html).
 
-### Plan your display
+## Plan your display
 
 The following table provides suggested information that you can display in different types of reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](portalOrdersApiOverview.html).
 
@@ -153,7 +153,7 @@ The following table provides suggested information that you can display in diffe
 
  | 
 
-### Set up a recurring retrieval of transactional information
+## Set up a recurring retrieval of transactional information
 
 After you decide what to display in your reports, build a retrieval of transactional information. Below are recommendations for how to retrieve transactional data.
 
@@ -171,13 +171,13 @@ After you decide what to display in your reports, build a retrieval of transacti
 | Time entries | Retrieve all time entries from the previous day using the `/timeEntries` endpoint of the labor API.[More information](apiGettingTimeEntriesForEmployees.html) | Use the `modifiedStartDate` and `modifiedEndDate` query parameters of the `/timeEntries` endpoint to retrieve all time entries created or updated during the previous business day. | 
 | Cash transactions | Retrieve all cash transactions from the previous business day using the `/deposits` and `/entries` endpoints of the cash management API.[More information](apiWorkingWithCashEntriesAndDeposits.html) | Use the cash management API to retrieve all cash transactions from the previous business day, such as when employees open the cash drawer, add cash to the cash drawer, and retrieve their day's tips in cash. | 
 
-### Consider a one-time historical information backfill per location
+## Consider a one-time historical information backfill per location
 
 Consider loading historical order information for each restaurant location one time when that location begins to use your integration.
 
 Toast support recommends retrieving twelve weeks of historical data.
 
-### Retrieve restaurant configuration information
+## Retrieve restaurant configuration information
 
 Consider including the configuration information shown in the table below in your reporting integration. After deciding which configuration information you want to display, set up a daily poll to the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) and [menus API](https://doc.toasttab.com/openapi/menus/overview/) to retrieve it.
 
@@ -201,7 +201,7 @@ Consider including the following configuration in your analytics integration.
 | Cash configuration | Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/)Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/)Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/) | Cash configuration allows you to display metadata about the cash transactions at a restaurant.For more information about working with cash entries, see [Cash management overview](apiWorkingWithCashEntriesAndDeposits.html). | 
 | Labor configuration | Break types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/breakTypesGet/)Employees from the labor API. [More information](api_get_all_employees.html)Jobs from the labor API. [More information](https://doc.toasttab.com/openapi/labor/operation/jobsGet/) | This labor information allows you to display information about restaurant employees, the jobs they do, and the breaks they take. | 
 
-### Add additional business logic
+## Add additional business logic
 
 Consider suppressing voided orders and deleted time entries from your reports by default. Allow users to actively choose to display these transactions.
 
@@ -209,7 +209,7 @@ Use the `voided` value on an `Order` object to determine whether an order was vo
 
 Use the `deleted` value on `TimeEntry` objects to determine whether a time entry was deleted.
 
-### Build your data warehouse display and summaries
+## Build your data warehouse display and summaries
 
 After you build a basic data warehouse display of transactional data, consider summarizing Toast information in any of the following ways:
 

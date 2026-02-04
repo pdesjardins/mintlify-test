@@ -50,7 +50,7 @@ For this example, fired items are sent to the appropriate prep station KDS devic
 
 You can also choose to send items to multiple prep stations. For more information, see [Multiple prep stations for an item](adminRoutingToPrepStations.html#platformKitchenMultiplePrepStationAssignment).
 
-### KDS device interface
+## KDS device interface
 
 Here is an example of the expediter KDS device interface, with multiple tickets.
 
@@ -102,7 +102,7 @@ The middle of the screen is the area where tickets display. Tickets appear at th
 
 At the bottom of the screen, there are production items, if configured. For more information about production items, see [About production items](adminAssignPrepStationKDS.html#adminAboutProdItems).
 
-### Grid view for KDS
+## Grid view for KDS
 
 In addition to classic, or *dynamic*, view for the kitchen display system devices, there is *grid view*. Grid view is designed to show a set maximum of tickets per screen, making it easier to process orders for a fast-moving restaurant. For example, a drive-through restaurant can only work on a set number of orders at a time. A set number of tickets on a screen makes it easier to process orders.
 
@@ -168,7 +168,7 @@ The bottom of the screen is for navigation and page indicators. For more informa
 > The Android navigation bar is hidden on grid view to maximize screen space. Swipe upward from the bottom of the screen to reveal it.
 
 
-#### Setting up grid view
+### Setting up grid view
 
 
 
@@ -210,7 +210,7 @@ The Device Setup screen opens.
 
 
 
-#### Ticket sizing and layout
+### Ticket sizing and layout
 
 When you first switch to grid view, you can choose the ticket sizing and layout you want to use. The layout can be set as:
 
@@ -296,7 +296,7 @@ You can also change the ticket size at any time.
 
 
 
-#### Preview tickets
+### Preview tickets
 
 Preview tickets (fire on next) allow kitchen staff to see items as they are added to an order by providing a preview ticket. The item appears on the preview ticket after the restaurant employee adds the item to the order and begins to enter the next item.
 
@@ -366,7 +366,7 @@ If you exit or close the Toast POS app while an order is in progress, the previe
 
 For an example workflow of a KDS device using grid view with preview tickets enabled, see [KDS workflow using grid view](platformGridKDSWorkflow.html).
 
-#### Pagination
+### Pagination
 
 Grid view uses Next and Previous on the bottom right and left of the KDS screen to navigate to the next and previous pages. You can also swipe right and left to navigate to the next and previous pages.
 
@@ -376,7 +376,7 @@ Here is an example of grid view with multiple pages.
 
 ![An example of grid view with two pages, with the current page icon shaded a darker gray.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-pagination.png)
 
-#### Payment status
+### Payment status
 
 Grid view tickets display a payment status, which indicates whether the order for the ticket is paid or not. The payment status can be:
 
@@ -391,7 +391,7 @@ Here is an example of a ticket before and after it is paid.
 
 ![An example of a grid view ticket before and after the order is paid. The ticket displays NOT PAID before the payment, on the left, and PAID after the payment, on the right.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-ticket-before-after-payment.png)
 
-#### Dark mode
+### Dark mode
 
 Grid view is available in dark mode. To change to dark mode, select the overflow menu (the ⋮ icon), choose Device Setup, and select the POS Display Themesetting to choose between the Light mode and Dark mode options. Select Saveto implement the theme.
 
@@ -399,7 +399,7 @@ Here is an example of grid view using dark mode.
 
 ![An example of grid view on a KDS device using dark mode.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-dark-mode.png)
 
-#### Assembly lines
+### Assembly lines
 
 An assembly line is a sequence of prep stations that you can assign to menu entities that an item follows in the kitchen. Once an item is sent to the kitchen, it appears on the first prep station in the sequence, and once fulfilled at that prep station, it moves to the second prep station in the sequence. This continues until the sequence is completed.
 
@@ -417,7 +417,7 @@ Before you start creating and assigning assembly lines, verify the following:
 
 
 
-#### Partial fulfillment indicator
+### Partial fulfillment indicator
 
 
 
@@ -441,7 +441,7 @@ Here is an example of a ticket on an expediter KDS device using grid view with o
 
 ![An example of a partial-fulfillment indicator and a fulfilled at all prep stations indicator on an expediter KDS device ticket.](https://doc.toasttab.com/doc/media/kds-partial-fulfillment-indicator.png)
 
-#### Food runner fulfillment
+### Food runner fulfillment
 
 
 
@@ -474,7 +474,7 @@ Here is an example of two tickets on the expediter KDS device: one with the gree
 
 Food runner fulfillment only works for expediter KDS device tickets with multiple items. Once a ticket or all of the items on a ticket are fulfilled, the ticket disappears from the KDS device.
 
-#### Grid view and dynamic view
+### Grid view and dynamic view
 
 In addition to new features only for grid view, grid view also implements several existing features differently from dynamic view to maximize efficiency with the new layout. These differences apply to:
 
@@ -498,7 +498,7 @@ In addition to new features only for grid view, grid view also implements severa
 
 
 
-##### Production items
+#### Production items
 
 While dynamic view supports any number of production items, grid view supports a maximum of *30* production items. When viewing the grid view KDS device in landscape orientation, 30 production items appear as five rows, with six items in each row. In portrait orientation, 30 production items appear as six rows, with five items in each row.
 
@@ -508,7 +508,7 @@ Here is an example of a grid view device showing eight production items.
 
 For more information about production items, see [About production items](adminAssignPrepStationKDS.html#adminAboutProdItems).
 
-##### Ticket header
+#### Ticket header
 
 While dynamic view displays the dining option beneath the header, grid view has moved the dining option to the header itself.
 
@@ -516,11 +516,11 @@ Here is an example of a ticket on a KDS device using grid view, compared to a ti
 
 ![A comparison of a kitchen ticket in both grid view and dynamic view.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-versus-dynamic-tickets.png)
 
-##### Action to fulfill
+#### Action to fulfill
 
 In addition to the double-tap action, you can also swipe downwards anywhere on the ticket itself to either fulfill or unfulfill it for grid view. The motion fulfills or unfulfills the ticket depending on whether you have Double tap to fulfill or Double tap to unfulfillenabled. By default, the setting is Double tap to fulfill, meaning swiping downwards or double tapping fulfills the ticket. 
 
-##### Average fulfillment timer
+#### Average fulfillment timer
 
 
 
@@ -551,7 +551,7 @@ Select + Collapse Timers to hide all timers except for the expediter timer on th
 
 For more information about average fulfillment timers, see [Understanding average fulfillment timers](platformKitchenAvgFullfillmentTimer.html).
 
-#### Grid view usage guidelines
+### Grid view usage guidelines
 
 When using the grid view feature, use the following guidelines:
 
@@ -565,7 +565,7 @@ When using the grid view feature, use the following guidelines:
 
 
 
-#### Features unavailable with grid view
+### Features unavailable with grid view
 
 Grid view for KDS devices does not support the text size feature available with dynamic view for KDS devices.
 

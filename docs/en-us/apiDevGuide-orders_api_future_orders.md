@@ -24,7 +24,7 @@ When you use the orders API to create an order, you can schedule the order to be
 > Do not set the `promisedDate` value to a date and time earlier than the `openedDate` value. Orders submitted to the orders API where the `promisedDate` is earlier than the `opendDate` will be rejected.
 
 
-### Setting promisedDate for a future order
+## Setting promisedDate for a future order
 
 The `promisedDate` value for an order sets the date and time to fulfill the order. When you include the `promisedDate`value, the order you create is scheduled for that date and time.
 
@@ -36,7 +36,7 @@ For example, if an order takes 45 minutes to prepare, do not set `promisedDate` 
 
 For information on how to estimate the wait time for an order, see [Calculating order wait time](calculatingOrderWaitTime.html).
 
-### Setting openedDate for a future order
+## Setting openedDate for a future order
 
 The `openedDate` value for an order is the date and time when the order was opened. `openedDate` is used to set the business date of an order. The business date determines when an order is added to the open orders report. A scheduled order should not appear in the open orders report until the day that it is scheduled to fire.
 
@@ -46,11 +46,11 @@ If you do not include an `openedDate` value, then `openedDate` is set to the cur
 
 For example, on March 1 at 10:00 AM, you create an order that is scheduled to be fulfilled on March 5 at 4:00 PM. When you create the order, you set both `promisedDate` and `openedDate`to the timestamp for March 5 at 4:00 PM.
 
-### Setting paidDate for a payment on a future order
+## Setting paidDate for a payment on a future order
 
 If the request for the future order includes a payment, set the `paidDate` for the payment to the timestamp when the payment is placed. The `paidDate` cannot be more than 7 days from the date the guest presented the credit card payment.
 
-### Example Order object for a scheduled order
+## Example Order object for a scheduled order
 
 The `Order` object in the following example creates an order that is scheduled for future fulfillment.
 

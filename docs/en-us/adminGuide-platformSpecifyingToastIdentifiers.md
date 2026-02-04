@@ -40,7 +40,7 @@ You use these identifiers to provide information about the menu entities you are
 
 The rest of this section describes where to find the identifiers you need to fill out a bulk import spreadsheet.
 
-### Identifiers for menu entities
+## Identifiers for menu entities
 
 To see identifiers for menu entities, Toast support must enable the Order API product module for your restaurant. With this module enabled, you can see a menu entity's identifiers on its details page:
 
@@ -48,7 +48,7 @@ To see identifiers for menu entities, Toast support must enable the Order API pr
 
 The GUID field corresponds to the menu entity's `versionID`. The Number field corresponds to the menu entity's `multiLocationId`.
 
-### Identifiers for prep stations, sales categories, and tax rates
+## Identifiers for prep stations, sales categories, and tax rates
 
 To see identifiers for prep stations, sales categories, and tax rates, Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, a Number column is added to the listing page for each entity type that contains the `multiLocationId` for the entity. For example, this illustration shows the Number column on the Prep Stations page:
 
@@ -56,7 +56,7 @@ To see identifiers for prep stations, sales categories, and tax rates, Toast sup
 
 If you don't provide a prep station ID when you create a menu item or modifier, the menu item or modifier inherits the prep station assigned to its parent menu entity. The same is true for sales categories and tax rates.
 
-### Identifiers for location groups and individual locations
+## Identifiers for location groups and individual locations
 
 To see identifiers for locations and location groups (formerly called *restaurant groups*), Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, the Toast account \> Business and location management \> Location groups (Restaurant groups) page becomes available in Toast Web. You can retrieve a location or a location group's identifier from this page, using the instructions below.
 

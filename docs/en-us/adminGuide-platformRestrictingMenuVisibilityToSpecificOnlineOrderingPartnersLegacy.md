@@ -23,7 +23,7 @@ The Online ordering partners settings are slightly different depending on whethe
 
 If your restaurant does not use the multi-location module, see [Ordering partner-specific settings for a single location](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerSpecificSettingsForASingleLocation)for information on using the ordering partner-specific settings. If your restaurant uses the multi-location module, see [Ordering partner-specific settings for multi-location restaurants](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants).
 
-### Ordering partner-specific settings for a single location
+## Ordering partner-specific settings for a single location
 
 
 
@@ -69,7 +69,7 @@ These settings apply to the restaurant you are currently logged into. For exampl
 
 
 
-### Ordering partner-specific settings for multi-location restaurants
+## Ordering partner-specific settings for multi-location restaurants
 
 
 
@@ -234,7 +234,7 @@ The locations you have selected to view are shown in the table at the top. If a 
 
 
 
-#### Ordering partner visibility settings and versioned menus
+### Ordering partner visibility settings and versioned menus
 
 The multi-location module allows you to create multiple versions of a menu and target those versions at specific locations. If you have a menu with multiple versions:
 
@@ -251,7 +251,7 @@ If this situation occurs, Toast Web displays a warning. To keep the menu version
 
 For more information on versions, see [Versions](versions.html).
 
-### Complementary visibility settings on Third party ordering page
+## Complementary visibility settings on Third party ordering page
 
 Complementary visibility settings exist on the Third party ordering page that let you specify the menus that are visible to a specific third-party online ordering partner. These settings only apply for the restaurant you are currently logged into.
 
@@ -345,7 +345,7 @@ If you enable or disable a menu's visibility on either the menu details page or 
 
 For more information on the Third party ordering page, see [Adjusting menu visibility for a third-party online ordering channel](platformThirdPartyOnlineOrderingMenuVisibility.html).
 
-### Disabling the online ordering partners setting when no partners are selected
+## Disabling the online ordering partners setting when no partners are selected
 
 Toast support recommends that you turn off the overall Online ordering partners setting for a menu if that menu is not visible to any ordering partners at any locations.
 
@@ -353,7 +353,7 @@ Toast support recommends that you turn off the overall Online ordering partners 
 
 Toast support makes this recommendation because the classic menu details page and the Advanced Properties page, which are older, cannot display the visibility settings for individual online ordering partners. They can only show whether the overall Online ordering partners setting is on or off. If all the individual ordering partners are disabled but the overall Online ordering partners setting is enabled, it creates the appearance in the classic menu details page and on the Advanced Properties page that online ordering partner visibility is enabled when, in actuality, it is not.
 
-### Limitations of the ordering partner-specific visibility settings
+## Limitations of the ordering partner-specific visibility settings
 
 Currently, the ordering partner-specific visibility settings are:
 

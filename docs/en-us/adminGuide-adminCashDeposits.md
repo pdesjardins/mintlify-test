@@ -21,7 +21,7 @@ The deposit is the actual amount of cash that you will deposit in the bank. The 
 
 By entering deposits into the Toast platform, you can later view them in the Reports \> Cash and loss management \> Drawer history \> Cash drawer history report in Toast Web. The Cash drawer history report is a historical record of these transactions, and you can verify them against the deposit slips from your bank.
 
-### Viewing cash deposit activity
+## Viewing cash deposit activity
 
 On the Cash Deposits screen, you can view your deposit activity report, add a deposit, and print the deposit activity report. The deposit activity report displays the following information for each deposit:
 
@@ -45,7 +45,7 @@ In addition, the deposit activity report shows the total amount of deposits for 
 
 ![Shows the Cash Deposits screen on the Toast POS.](https://doc.toasttab.com/doc/media/money-deposits-cash-deposits-screen.png)
 
-### Entering a cash deposit
+## Entering a cash deposit
 
 You can enter cash deposits from the Toast POS device and from the Toast Web. Deposits appear on both the POS and the Toast Web.
 
@@ -150,7 +150,7 @@ The newly created deposit also appears on the deposit activity report on Toast P
 
 
 
-### Undoing deposits
+## Undoing deposits
 
 You can undo deposit entries from a Toast POS device or from the Toast Web. When you undo a deposit, the original Deposit action remains listed on the Cash Deposits screen and a new Undo Deposit action is added. Also, the Actual Deposit amount in the Cash Drawer History report is adjusted to account for the undone entry. For example, if you undo a Deposit entry of $50, the original $50 Deposit entry remains listed in the Cash Depositsscreen, a new $50 Undo Deposit entry is added, and the Actual Deposit amount is decreased by $50.
 
@@ -192,7 +192,7 @@ You can undo deposit entries from a Toast POS device or from the Toast Web. When
 
 
 
-### Viewing deposits in the Drawer History report
+## Viewing deposits in the Drawer History report
 
 You can view the deposit amount in the Reports \> Cash and loss management \> Drawer history report. (The Reports \> Cash and loss management \> Cash drawer overview report also shows the deposit amount, but does not provide the detailed information of the Cash Drawer History report). You can generate these reports from the Toast Web.
 
@@ -221,7 +221,7 @@ The fields show the following information:
 
 In the Cash Entries row, under the Total column, select View to display the Deposits section. This section provides detailed information for all the deposits that have been made for the day. The same information is also available in the Cash Management \> Cash Deposits screen on a Toast POS device.
 
-### Expected Deposits and Total Cash
+## Expected Deposits and Total Cash
 
 The Reports \> Sales \> Sales summaryreport lists the Expected Deposit and Total Cash amounts:
 
@@ -253,7 +253,7 @@ If the two amounts do not match, the discrepancy may be caused by one or more of
 
 If you still cannot identify the reason for the cash discrepancy, contact Toast support for assistance.
 
-### Deposit Summary in the Z Report
+## Deposit Summary in the Z Report
 
 You can configure the Close Out Day Z Report to display a deposit summary. To do so, choose Employees \> POS report configurations \> Manager end of day report to open the Z Report screen. Scroll to the Deposit Summary checkbox to enable or disable the deposit summary.
 

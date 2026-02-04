@@ -19,7 +19,7 @@ Follow the steps below to build a security integration with the Toast platform. 
 
 After you complete and test these steps, you can complete an end-to-end test of your integration functionality.
 
-### Required scopes
+## Required scopes
 
 To build a security integration, you must have the following [scopes](apiScopes.html):
 
@@ -47,13 +47,13 @@ To build a security integration, you must have the following [scopes](apiScopes.
 
 You can retrieve a list of your current scopes through your [Toast developer portal](apiDeveloperPortal.html#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](integrationDevProcess.html)guide for instructions on requesting access.
 
-### Setup and planning
+## Setup and planning
 
-#### Complete initial integration setup
+### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-#### Review menu and order structure
+### Review menu and order structure
 
 Reporting on sales depends on a restaurant’s usage of menu items and the overall structure of orders.
 
@@ -61,11 +61,11 @@ To understand Toast menu concepts before you begin development, review [Menu hie
 
 To review order structure, see [Orders API overview](portalOrdersApiOverview.html) and [Order object summary](apiOrdersOrderObjectSummary.html). For more information about the orders API, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
-#### Decide what order information you will provide
+### Decide what order information you will provide
 
 Before beginning development, decide how you will report on the data retrieved. You should consider what information you will need to align transactions with video footage to detect possible fraud, theft, and so on. We specifically recommend you report on discounts, voids, and refunds. This guide will also describe how to determine the time a transaction began and ended, on which device, and by which employee, in order to sync this with video footage.
 
-#### Plan your display
+### Plan your display
 
 The following table provides suggested information that you can use when displaying order data alongside video footage or in reports. 
 
@@ -128,9 +128,9 @@ The following table provides suggested information that you can use when display
 
  | 
 
-### Retrieve restaurant configuration information
+## Retrieve restaurant configuration information
 
-#### Set up recurring retrieval of menu and configuration information
+### Set up recurring retrieval of menu and configuration information
 
 Consider including the following configuration information in your integration. After deciding which configuration information you want to retrieve, set up a daily poll to the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) and [menus API](https://doc.toasttab.com/openapi/menus/overview/) to retrieve it. 
 
@@ -204,41 +204,41 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
  | 
 
-#### Set up recurring order retrieval of transactional information
+### Set up recurring order retrieval of transactional information
 
 To report on completed orders, you need to retrieve orders at least once per day using the `startDate` and `endDate` parameters of the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
 
 For real-time order information, Toast support recommends using the [Orders webhook](devOrdersWebhookRef.html) to receive order updates as they occur instead of pulling order updates with the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint.
 
-#### Determine closeout hour
+### Determine closeout hour
 
 The `closeoutHour` value in the `General`object returned by the [restaurants API](https://doc.toasttab.com/doc/devguide/apiRestaurantInformation.html) contains the restaurant’s closeout hour. The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on order entities changes after the `closeoutHour`.
 
 Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
 
-### Building report functionality
+## Building report functionality
 
-#### Determine dining option and source of an order
+### Determine dining option and source of an order
 
 Based on the response from the [/diningOptions](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/)endpoint, determine which dining options your security integration needs to sync with video footage and/or report on. Each dining option has a corresponding behavior such as "`DINE_IN`", "`TAKE_OUT`", or "`DELIVERY`". Special consideration should be taken for dining options indicating an off-premise order and payment experience (such as orders placed through the orders API or online orders) as these orders will not have an on-premise payment transaction to sync to video footage. Optionally, you can use timestamps on these orders to sync with preparation video footage.
 
 While off-premise orders will have limited relation to video footage, these orders may need to be included in any reports provided - such as reporting on discounts, voids, and so on. In this case, the order source should be considered. Possible order sources include in-store, online, API, kiosk, and so on. All order sources are documented on the [order object API reference](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/Order/).
 
-#### Analyze order timestamps
+### Analyze order timestamps
 
 There are many timestamps included in the [order](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/Order/)object and [check](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/Check/)object that will be helpful to consider when syncing in-store transactions with video footage. Review the [order object API reference](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/Order/) with consideration to the `createdDate`, `openedDate`, `paidDate`, `closedDate`, and `modifiedDate`. For void reporting, the `voidDate`and `voidBusinessDate` will also be useful.
 
-#### Determine voided entities
+### Determine voided entities
 
 Servers can void orders, checks, item selections, and payments. If the `voided` value on an order, check, selection, or payment is `true`, your integration should include this data in the applicable void report. Consider displaying selection and payment void reasons by mapping the `voidReason` value on the selection or payment to the information in the [/voidReasons](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)endpoint of the configuration API. 
 
 See this [Toast Central article](https://central.toasttab.com/s/article/Voiding-Items-Payments-and-Checks) for more information about how to test void functionality.
 
-#### Determine discounts applied
+### Determine discounts applied
 
 Discounts can be applied to checks and item selections. Parse the checks and selections objects for the `appliedDiscounts`array in order to appropriately report on discounts. 
 
-#### Determine refunds
+### Determine refunds
 
 If the payment object of a [check](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/Check/)includes a `refundStatus` value of `PARTIAL` or `FULL`, details of the refund can be found on the refund object.
 

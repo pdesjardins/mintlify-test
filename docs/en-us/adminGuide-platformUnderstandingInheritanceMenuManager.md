@@ -51,7 +51,7 @@ For the settings that the menu entity types have in common, you can use inherita
 
 You can disable the inheritance at any point in the menu hierarchy, allowing you to override an inherited setting. For example, consider a Sandwiches menu group that has an assortment of sandwiches, one of which is vegan. You could add a Cheese Selection modifier group to the Sandwiches menu group and allow the non-vegan sandwiches to inherit it. For the vegan sandwich, you can disable modifier group inheritance so that Cheese Selection doesn't appear when the vegan sandwich is ordered.
 
-### Understanding inheritance for menu items
+## Understanding inheritance for menu items
 
 This section provides additional inheritance information for menu items.
 
@@ -75,7 +75,7 @@ Examples of inheritance include:
 
 
 
-#### Menu items can inherit different settings when ordered from different menu paths
+### Menu items can inherit different settings when ordered from different menu paths
 
 Menu items can also belong to more than one menu path. For example, a Turkey Club menu item could belong to two menu paths, a Takeout Menu \> Takeout Sandwiches path and a Dine-in Menu \> Dinner \> Dinner Sandwiches path. When a menu item belongs to more than one menu path, it can inherit different settings for each path.
 
@@ -105,7 +105,7 @@ The Turkey Club's menu item details page shows all of these relationships. You c
 
 This example uses prep stations to illustrate its point, but modifier groups, courses, sales categories, tax rates, and tax behavior all use this same approach.
 
-#### Disabling inheritance for a menu item
+### Disabling inheritance for a menu item
 
 You can configure a menu item so that it does not inherit settings from its parent menu entities. For example, if you do not want a menu item to inherit its prep stations from a parent menu entity, you set its Inherit prep stations?setting to No. Similar settings exist for inheriting modifier groups, courses, prep stations, sales categories, tax rates, and tax behavior.
 

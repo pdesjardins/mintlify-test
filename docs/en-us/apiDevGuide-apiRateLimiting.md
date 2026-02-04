@@ -16,7 +16,7 @@ codeExamples: 0
 
 To maintain the stability and availability of APIs for all client applications, Toast APIs are rate-limited. This ensures that a single API client cannot consume all API resources and deny service to other clients. Requests that exceed a rate limit are denied with an HTTP status code 429 response.
 
-### Toast rate limit values
+## Toast rate limit values
 
 Here are the current rate limits for Toast APIs. These rate limits are described in more detail in [How rate limiting works](apiRateLimiting.html#apiRateLimitingOverview).
 
@@ -72,11 +72,11 @@ The `GET /ordersBulk` endpoint of the orders API uses an endpoint rate limit of 
 > Toast support reaches out directly to integration providers to discuss the need for an account rate limit before putting the rate limit in place. See [Account rate limits](apiRateLimiting.html#apiAccountRateLimits) for more information.
 
 
-### How rate limiting works
+## How rate limiting works
 
 This section provides an overview of Toast rate limiting functionality.
 
-#### Rate limiting is per restaurant or per IP address
+### Rate limiting is per restaurant or per IP address
 
 When the `Toast-Restaurant-External-ID` header is included in the request, then rate limiting is applied per restaurant location.
 
@@ -92,7 +92,7 @@ When rate limits are applied per restaurant location, requests that your API cli
 > Toast support reaches out directly to integration providers to discuss the need for an account rate limit before putting the rate limit in place. See [Account rate limits](apiRateLimiting.html#apiAccountRateLimits) for more information.
 
 
-#### Rate limits are a collection of limits
+### Rate limits are a collection of limits
 
 A rate limit is a collection of limits. For example, 20 requests per second and 10,000 requests per fifteen minutes.
 
@@ -100,7 +100,7 @@ Toast APIs return header fields in response to each request that report on the s
 
 For more information, see [Rate limiting header fields](apiRateLimiting.html#apiRateLimitingHeaderFieldsV2).
 
-#### Rate limits use fixed time slices
+### Rate limits use fixed time slices
 
 Toast APIs use fixed time slices when they calculate whether the [individual limits within a rate limit](apiRateLimiting.html#apiRateLimitesAreACollectionOfLimits) were reached.
 
@@ -149,7 +149,7 @@ With each response, the Toast APIs return a header field that tells you when the
 
 For more information, see [Rate limiting header fields](apiRateLimiting.html#apiRateLimitingHeaderFieldsV2).
 
-#### Rate limit types and priority
+### Rate limit types and priority
 
 Toast APIs use the following rate limit types:
 
@@ -218,7 +218,7 @@ Because the global rate limit has the highest priority and its rate limit has be
 > Toast support reaches out directly to integration providers to discuss the need for an account rate limit before putting the rate limit in place. See [Account rate limits](apiRateLimiting.html#apiAccountRateLimits) for more information.
 
 
-#### Rate limiting header fields
+### Rate limiting header fields
 
 The following header fields are returned for every request to inform you of the rate limit that you are closest to exceeding. They are:
 
@@ -270,13 +270,13 @@ The values in these header fields may change significantly as you make API reque
 > Rate limiting header fields are not included in authentication API responses. See [Authentication rate limit](apiAuthenticationRateLimit.html) for more information.
 
 
-#### Handling being rate limited
+### Handling being rate limited
 
 Toast APIs return a 429 HTTP response code when an API client that has been rate limited submits a request.
 
 If your client receives a 429 response, it should stop making requests and inspect the `X-Toast-RateLimit-Reset` or `Retry-After` header field to determine when it can start making requests again.
 
-### Programming a client for sustained time-sensitive requests
+## Programming a client for sustained time-sensitive requests
 
 Toast API rate limits include both shorter and longer time slices to support bursts of requests (20 per second) as well as sustained requests over time (10,000 per 15 minutes). API clients that need to make sustained requests for time-sensitive data, such as order status updates, must be programmed to take both time slices into account so that they are not rate limited when attempting to make a request for that time-sensitive data.
 
@@ -293,7 +293,7 @@ If an API client makes 20 requests per second, as allowed by the shorter time sl
 
 To avoid this long delay, the client application should throttle its requests so that it does not exceed either limit. Specifically, if the client makes 11 requests per second, it does not exceed either limit because this request frequency translates into 9,900 requests in 15 minutes (11 requests X 60 seconds X 15 minutes = 9,900).
 
-### Account rate limits
+## Account rate limits
 
 
 
@@ -305,7 +305,7 @@ To avoid this long delay, the client application should throttle its requests so
 
 [API accounts](apiClientAccounts.html#apitypesOfToastApiAccounts) that integrates with many restaurant locations may have additional account-specific rate limits. Account rate limits are used to limit the total number of requests an integration can make to an API or an endpoint *across all restaurant locations* during a given time slice. For these accounts, the Toast platform tracks both the number of requests made per location and the total number of requests made across locations within each time slice.
 
-#### Account rate limit example
+### Account rate limit example
 
 To understand how account rate limits work, consider the following example:
 
@@ -327,11 +327,11 @@ To avoid this situation, Toast support assigns Account A an account rate limit o
 
 
 
-#### Account rate limits are per API or per endpoint
+### Account rate limits are per API or per endpoint
 
 Account rate limits are applied per API or per endpoint. Requests that your integration client sends to one API or endpoint do not affect the client's rate limits for other APIs or endpoints. In other words, if Client A has reached its account rate limit for an API during a given time slice, it can still make requests to other Toast APIs during the same time slice. This also holds true for endpoint requests. If Client A has reached its account rate limit for an endpoint during a given time slice, it can still make requests to other endpoints.
 
-#### Account rate limit header field
+### Account rate limit header field
 
 The value `ACCOUNT` is added to the `X-Toast-RateLimit-By` header field when an account rate limit is the closest to being exceeded:
 
@@ -346,7 +346,7 @@ The value `ACCOUNT` is added to the `X-Toast-RateLimit-By` header field when an 
 
 
 
-#### Additional locations may affect the account rate limit
+### Additional locations may affect the account rate limit
 
 If you are an integration provider with an account rate limit, and additional restaurant locations add your integration to their restaurant, those additional locations will contribute to the total number of requests your integration makes across all locations. This can potentially cause the integration to exceed the account rate limit. For this reason, as additional locations add your integration to their restaurant, you may need to adjust how your integration handles throttling to ensure it doesn't exceed its account rate limit.
 

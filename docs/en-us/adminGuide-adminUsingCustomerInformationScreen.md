@@ -32,7 +32,7 @@ On the customer information screen, you can:
 
 You can access the customer information screen from the Quick Order screen on the Toast POS app. On the Quick Order screen, select the Dining option button to display your dining options. Select a dining option with a dining behavior of either takeout, curbside, or delivery to display the customer information screen.
 
-### Customer information screen settings
+## Customer information screen settings
 
 Certain Toast Web configurations and settings affect how the customer information screen appears on the Toast POS app.
 
@@ -66,7 +66,7 @@ Certain Toast Web configurations and settings affect how the customer informatio
 
 
 
-### Searching and viewing a guest’s profile
+## Searching and viewing a guest’s profile
 
 On the customer information screen, you can search for guests using one of the following options:
 
@@ -158,7 +158,7 @@ If no guest profile is found, the New customer screen appears. You can create a 
 
 
 
-### Editing a guest’s profile
+## Editing a guest’s profile
 
 You can edit a guest’s profile from the guest details panel.
 
@@ -191,7 +191,7 @@ If the Toast platform cannot load or find addresses, or determine the delivery r
 
 
 
-### Adding a guest’s profile to an order
+## Adding a guest’s profile to an order
 
 To add a guest’s profile to an order, select the guest profile to open the guest details panel. Select the ✓ Selectbutton to add the guest profile to the order. The ✓ Select button is unavailable if information required to complete the order is missing. For example, if a delivery address is missing from a delivery order, you cannot select the profile until a delivery address is added.
 
@@ -205,7 +205,7 @@ If the delivery address is within the restaurant’s delivery area, a `Within de
 > The delivery label does not prevent guests from placing orders. If an order is outside of the delivery range, the Toast platform may not approve and process the order.
 
 
-### Creating a new guest profile
+## Creating a new guest profile
 
 **Procedure 13.8. To create a new guest profile**
 
@@ -275,7 +275,7 @@ If the delivery address is within the restaurant’s delivery area, a `Within de
 
 
 
-### Scheduling a future order
+## Scheduling a future order
 
 You can schedule a future from the customer information screen.
 
@@ -296,7 +296,7 @@ The new scheduled fulfillment date and time appears at the top of the customer i
 
 
 
-### Reordering from previous orders
+## Reordering from previous orders
 
 You can reorder menu items from the guest details panel. In the guest details panel, under Previous orders, you can view the guest's order history. Select a previous order entry to display the order information including order date, item quantity, item name, and item price.
 
@@ -309,15 +309,15 @@ You can reorder menu items from the guest details panel. In the guest details pa
 
 To reorder, select the order entry and then select the ✓ Add to order button. This opens the Quick Order screen, and the items from that order appear on the order screen.
 
-### Configuring your delivery area
+## Configuring your delivery area
 
 A delivery area must be configured for first-party delivery. The delivery area is used to determine if a guest’s delivery address is within your delivery range. If the guest’s address is outside your delivery area, an `Out of delivery range (# of miles)` label appears under the guest’s delivery address. For more information on how to configure your delivery area, see [Configuring your delivery area](adminConfigureDeliveryArea.html).
 
-### Offline support
+## Offline support
 
 If your restaurant is offline, certain actions such as searching for or editing a guest profile may be unavailable. The search function on the customer information screen is unavailable until you reconnect. For more information about offline mode, see [Offline mode overview](adminOfflineModeOverview.html)
 
-#### Using the customer information screen while offline
+### Using the customer information screen while offline
 
 You can open and use the customer information screen while in offline mode. You can add a new guest profile while in offline mode. If you add a new guest profile while offline, the customer information screen displays the offline banner with the message: `Your
         customer data is unavailable until you reconnect. Add a new customer

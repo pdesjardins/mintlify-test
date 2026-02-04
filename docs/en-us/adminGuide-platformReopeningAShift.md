@@ -22,7 +22,7 @@ codeExamples: 0
 > If the shift is closed and the employee has clocked out, the shift cannot be reopened from a Toast POS device. To reopen a shift, navigate to the Time Entries page in Toast Web. For more information, see [Editing Employee Time Clock Entries](https://central.toasttab.com/s/article/Editing-Employee-Time-Clock-Entries-1492802387122).
 
 
-### Reopening your shift
+## Reopening your shift
 
 As an employee, you can reopen your shift during shift review. Some instances of when you might want to reopen your shift include:
 
@@ -57,7 +57,7 @@ As an employee, you can reopen your shift during shift review. Some instances of
 
 
 
-### Reopening an employee's shift
+## Reopening an employee's shift
 
 As a manager, you can reopen an employee’s shift. Some instances of when you might want to reopen a shift include:
 

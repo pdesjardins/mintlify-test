@@ -32,11 +32,11 @@ The Orders Hub screen in the Toast POS app displays all off-premise orders. An o
 > The Orders Hub screen can be used on a non Toast Autofire™ device, however at least one Toast POS device in the restaurant must be configured to autofire.
 
 
-### Permissions
+## Permissions
 
 To use the Orders Hub screen, you must have the 1.5 Pending Orders Mode/Orders Hub Mode permission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
 
-### Takeout and delivery quote times
+## Takeout and delivery quote times
 
 Current takeout and delivery quote times are displayed at the top of the Orders Hub screen. [Quote times](https://central.toasttab.com/s/article/Managing-Your-Quote-Time-Strategy) displayed affect orders placed using the Toast Online Ordering website, the Local by Toast app, or the Toast POS app. The quote time does not apply to online ordering channel orders (for example, DoorDash, Uber Eats, or Grubhub). You can configure these times in the Quote time strategy section in Toast Web. 
 
@@ -47,7 +47,7 @@ Current takeout and delivery quote times are displayed at the top of the Orders 
 > If you're using the order price quote time strategy, quote times associated with the first price interval are displayed.
 
 
-### Using the Manage Online Orders button
+## Using the Manage Online Orders button
 
 
 
@@ -112,7 +112,7 @@ The Manage Online Orders button on the Orders Hub screen opens a dialog box wher
 > For more information, see [Managing orders from third-party online ordering channels](platformManagingThirdPartyOnlineOrderingChannels.html).
 
 
-### Creating a new order
+## Creating a new order
 
 
 
@@ -123,7 +123,7 @@ The Manage Online Orders button on the Orders Hub screen opens a dialog box wher
 
 The New Order button at the top right opens the Quick Order screen. On this screen, you can manually enter an off-premise dining order. On the Quick Order screen, select the Dining optionbutton and select an off-premise dining option.
 
-### Overflow menu
+## Overflow menu
 
 
 

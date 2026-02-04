@@ -17,7 +17,7 @@ codeExamples: 0
 
 In the Online Ordering Scheduling Settingssection on the Online ordering page, you can configure your settings for scheduled orders. From Toast Web, choose Takeout & delivery \> Availability \> Online ordering to open the Online orderingpage.
 
-### Enabling scheduled orders
+## Enabling scheduled orders
 
 
 
@@ -62,7 +62,7 @@ In the Online Ordering Scheduling Settingssection on the Online ordering page, y
 > You have to configure a payment option for future orders. To configure a payment option, under the Takeout Payment Options section, select Credit Card - Online (Future Orders).
 
 
-### Scheduling future orders
+## Scheduling future orders
 
 If you choose Yes, guests may schedule orders, guests are able to place orders through your Toast Online Ordering website or the Local by Toast app for immediate fulfillment or future fulfillment. Guests can select either the Order now or Schedule for later option while placing an online order.
 
@@ -77,7 +77,7 @@ For example, if the default date range is 14 days, your Toast Online Ordering we
 
 If you choose No, all orders will be fulfilled as soon as possible, guests can only be able to place orders through your Toast Online Ordering website or the Local by Toast app for immediate fulfillment. The Schedule for laterbutton is disabled.
 
-### Scheduling future orders outside ordering hours
+## Scheduling future orders outside ordering hours
 
 If you choose Yes, guests may schedule orders, guests can schedule future orders outside of online ordering hours. They can only place orders for future fulfillment, not immediate fulfillment. On the Toast Online Ordering website and Toast TakeOut, the Order now button is disabled.
 

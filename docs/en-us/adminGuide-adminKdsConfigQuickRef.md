@@ -18,7 +18,7 @@ The kitchen display system (KDS) offers a number of options for changing the way
 
 This section presents a quick reference guide to the changes you can make to better meet the needs of your back of house employees. A series of tables present options for how the KDS device presents information, how you make a change, whether the setting affects all devices or an individual device, and the [access permissions](adminPermissions.html) that you need.
 
-### KDS notification options
+## KDS notification options
 
 You can signal new and changed orders to back of house employees in different ways by setting the options described in the following table.
 
@@ -31,7 +31,7 @@ You can signal new and changed orders to back of house employees in different wa
 
 For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](adminAccessToastAdminBackend.html).
 
-### KDS interaction options
+## KDS interaction options
 
 You define how back of house employees interact with the KDS device to fulfill tickets and view consolidated ([*All Day*](adminGuide-adminGlossary.html#glossAllDay)) totals by setting the options described in the following table.
 
@@ -48,7 +48,7 @@ You define how back of house employees interact with the KDS device to fulfill t
 
 For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html) or [Using Toast Web](adminAccessToastAdminBackend.html).
 
-### KDS ticket contents
+## KDS ticket contents
 
 You define what information appears on tickets by setting the options described in the following table.
 
@@ -71,7 +71,7 @@ You define what information appears on tickets by setting the options described 
 
 For more information about how to change configuration settings, see [Using Toast Web](adminAccessToastAdminBackend.html).
 
-### KDS ticket layout
+## KDS ticket layout
 
 You can change how order information appears on tickets by setting the options described in the following table.
 
@@ -129,7 +129,7 @@ You need to change the following settings:1. Front of house \> Order screen setu
 
 For more information about how to change configuration settings, see [Using Toast Web](adminAccessToastAdminBackend.html).
 
-### KDS text and ticket size
+## KDS text and ticket size
 
 To assure that every cook can see the tickets on the KDS device clearly, you can change the text size directly on each device. On the KDS device, select the Overflow menu (the ⋮ icon) and choose Text Size. Changing the text size also changes the size of the tickets and affects how many tickets can appear on the display at one time.
 
@@ -139,7 +139,7 @@ To see the rest of the tickets that are waiting to be fulfilled, you swipe the s
 
 ![A KDS device with tickets in a grid of four columns and three or four tickets in each column.](https://doc.toasttab.com/doc/media/KDS_swipe_RTL.gif)
 
-### Printing options for the KDS
+## Printing options for the KDS
 
 Your kitchen can include one or more printers along with your kitchen display system (KDS) devices. (To ensure continuing operation when the Toast devices are in offline mode, at least one kitchen printer is required.) You configure ticket printing by setting the options described in the following table.
 

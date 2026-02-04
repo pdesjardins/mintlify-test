@@ -50,7 +50,7 @@ For more information on configuring and using size prices, see the following top
 
 
 
-### Using size pricing in the Toast POS app
+## Using size pricing in the Toast POS app
 
 This section provides an example of the most common scenario when working with size pricing in the Toast POS app. The configuration for this example sets size-based prices on the Cheese Pizza menu item ($10 for a small and $14 for a large). It also sets size-based prices on the Toppings modifier group and configures the group so that the price of a modifier in the group is determined by the size of the menu item it is applied to. In this case, that means toppings on a small pizza are $2 and toppings on a large pizza are $3.
 
@@ -68,7 +68,7 @@ To add a modifier to the menu item, tap the modifier group name, then tap a modi
 
 Tap Done when you are finished specifying the modifiers for a menu item to add it to the order.
 
-### Configuring size pricing on menu groups and menu items
+## Configuring size pricing on menu groups and menu items
 
 You create size prices for a menu group or item on the group or item's details page. After you have created size prices for a menu item, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the size prices are not editable from the Items grid. To edit a size price, you can either return to the menu group or item's details page and edit it there, or, edit it on the [Price editor](adminUsingThePriceEditor.html) page.
 
@@ -118,7 +118,7 @@ You create size prices for a menu group or item on the group or item's details p
 
 
 
-### Configuring size pricing on modifier groups and modifiers
+## Configuring size pricing on modifier groups and modifiers
 
 For modifiers, size pricing can be configured at either the modifier group level or the individual modifier level:
 
@@ -129,7 +129,7 @@ For modifiers, size pricing can be configured at either the modifier group level
 
 
 
-#### Creating matching sizes for menu items and modifiers
+### Creating matching sizes for menu items and modifiers
 
 For scenarios where the price of a modifier is determined by the size of the menu item it is applied to, you must specify sizes on the individual menu items and then create corresponding sizes for the modifiers themselves. The sizes on the menu items and modifiers must match exactly, both in the number of sizes and the text used for the size names. For example, this configuration is acceptable:
 
@@ -158,7 +158,7 @@ This configuration *is not acceptable*because XLarge is missing from the modifie
 | Large | Large | 
 | XLarge |  | 
 
-#### Size pricing for modifier groups
+### Size pricing for modifier groups
 
 Follow the instructions below to configure size pricing for a modifier group. All of the modifiers in the group follow the same size pricing rules, for example, all of the toppings in a Toppings modifier group cost $0.50 for a small pizza, $1 for a medium pizza, and $1.50 for a large pizza.
 
@@ -193,7 +193,7 @@ Follow the instructions below to configure size pricing for a modifier group. Al
 > The [Price Editor](adminUsingThePriceEditor.html) does not yet support editing modifier group or modifier prices. You can edit size prices for a modifier group on the modifier group's details page.
 
 
-#### Size pricing for individual modifiers
+### Size pricing for individual modifiers
 
 Follow the instructions below to configure size pricing for individual modifiers. When specifying size pricing for an individual modifier, you actually configure the sizes and their associated prices on the [modifier's underlying item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
 

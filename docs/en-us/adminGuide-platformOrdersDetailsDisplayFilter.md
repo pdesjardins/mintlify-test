@@ -14,11 +14,11 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Required permission for the reports
+## Required permission for the reports
 
 To view the Orders or Order details report, you must have the Restaurant Admin \> Sales Reports permission.
 
-### Displaying the reports
+## Displaying the reports
 
 From Toast Web:
 
@@ -31,7 +31,7 @@ From Toast Web:
 
 The reports tabs at the top of the report provide access to other reports.
 
-### Filtering the reports
+## Filtering the reports
 
 By default, the Orders and Order details reports show orders that were opened by any employee on the current day. The date, time, and employee filtering fields are displayed at the top of the report. For multi-location restaurants, there is also a location field.
 
@@ -90,7 +90,7 @@ You can choose one of the preset values. To choose a specific start and end date
 
 
 
-### Sorting the reports
+## Sorting the reports
 
 By default:
 

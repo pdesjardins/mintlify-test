@@ -18,7 +18,7 @@ codeExamples: 0
 
 Property management systems (PMS) are used by hotels and motels to coordinate systems used for servicing guests, charges, and further accounting. You can use the tender API to implement an integration between a PMS and the Toast platform. The tender integration allows an employee at a hotel or restaurant to look up a guest's account and post charges to their hotel folio.
 
-### Transaction descriptions
+## Transaction descriptions
 
 The tender API supports the following transaction types for the PMS integration workflow:
 
@@ -44,7 +44,7 @@ The tender API supports the following transaction types for the PMS integration 
 
 
 
-#### Configure search
+### Configure search
 
 Configuring the search is the first transaction that occurs when an employee initiates the workflow to charge a check to a guest's account.
 
@@ -146,7 +146,7 @@ The following is an example of a successful configure search response.
 (2) The tenderProperType attribute must be associated with ROOM_ID for the key-value pair that defines Room Number in the configure search response and on each search response.
 
   
-#### Guest search
+### Guest search
 
 After the search configuration request, the Toast POS device displays the guest search criteria. An employee can search for a guest on the Toast POS device using a guest's information, such as name, room number, or reservation number.
 
@@ -327,7 +327,7 @@ The following example shows a search for a guest whose name contains `john`. The
 ```
 
   
-#### Retrieve discounts
+### Retrieve discounts
 
 After an employee selects a guest from the search results on the Toast POS device, the Toast platform retrieves discounts from the PMS provider.
 
@@ -513,7 +513,7 @@ After an employee selects a guest from the search results on the Toast POS devic
 The retrieved discounts `tenderDiscounts` can be check-level or item-level discounts.
 
   
-#### Retrieve payments
+### Retrieve payments
 
 The Toast platform retrieves payments after applying the discounts received from the PMS provider.
 
@@ -733,7 +733,7 @@ The Toast platform retrieves payments after applying the discounts received from
 ```
 
   
-#### Redeem discounts and payments
+### Redeem discounts and payments
 
 After the Toast platform applies payments to the check, the discounts and payments are redeemed. For more information about gratuity payments, see [Gratuity](apiTenderPmsIntegration.html#apiTenderGratuityPMS).
 
@@ -805,7 +805,7 @@ After the Toast platform applies payments to the check, the discounts and paymen
 ```
 
   
-#### Gratuity
+### Gratuity
 
 If configured, the Toast platform prompts the restaurant employee for a gratuity after the Toast platform receives a response from the PMS provider about the discounts and payments redemption.
 
@@ -906,7 +906,7 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 ```
 
   
-#### Reverse payments and discounts
+### Reverse payments and discounts
 
 A transaction is reversed in the following situations:
 
@@ -994,7 +994,7 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
 ```
 
   
-### POS workflow
+## POS workflow
 
 This section describes the user interface workflow in the Toast platform for billing a hotel restaurant guest using the hotel's PMS provider.
 
@@ -1044,7 +1044,7 @@ If the restaurant employee chose to print a receipt, the Room Charge payment and
 
 
 
-### Reporting
+## Reporting
 
 You can view information about tender transactions in the Sales Summary report. This report can be accessed by navigating to Reports \> Sales \> Sales Summary in Toast Web. Room charge tender payments appear in the Other section of the Sales Summary report, as shown below, and in the Payments tab. The payment Typeis shown as Other from the Payments tab.
 

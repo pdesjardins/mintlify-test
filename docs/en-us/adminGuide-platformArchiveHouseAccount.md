@@ -46,7 +46,7 @@ On the Accounts page, the archived house account appears under the Archived tab.
 
 
 
-### Restoring a house account
+## Restoring a house account
 
 To restore a house account, select the Restore button on the House account profile page. A `House account restored
       successfully` banner appears on the page. On the Accounts page, the restored house account appears under the Active tab.

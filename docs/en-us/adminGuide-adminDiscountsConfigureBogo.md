@@ -19,13 +19,13 @@ For a BOGO discount, you choose the required buy items, and the eligible get ite
 
 You can also specify the required number of buy items and the maximum number of get items.
 
-### Configuring the required buy items
+## Configuring the required buy items
 
 For buy items, you select the required items. You also configure the required number of buy items.
 
 A buy item in a BOGO discount cannot have any other discounts applied to it. If the buy item has a different discount applied to it, then it cannot trigger the BOGO discount.
 
-#### Selecting the buy items
+### Selecting the buy items
 
 You use the Buy Items section of the discount configuration page to configure the required buy items for a BOGO discount.
 
@@ -33,17 +33,17 @@ Under Applies to, to allow any item to be eligible for the discount, select Any 
 
 To select specific items and quantities as the buy items, select Specific item/group. You can set up one or more combinations of items. Each combination represents an available option to qualify for the discount. The check must include one of these combinations. For details on selecting required items, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
-#### Setting the required number of buy items
+### Setting the required number of buy items
 
 In the Advanced Settings section of the discount configuration page, you use the Required # of Buy Items field to configure the number of buy items that must be on the order. By default the value is 1.
 
 For example, if you configure the discount to allow any item as the buy item, then you use this field to specify the number of items that must be present in the order before the discount can be applied.
 
-### Configuring the get items
+## Configuring the get items
 
 For get items, you select the eligible items, and configure the discount to apply. You can also configure the maximum number of get items that can receive the discount.
 
-#### Selecting the get items
+### Selecting the get items
 
 You use the Get Items section of the discount configuration page to select the eligible get items for a BOGO discount.
 
@@ -51,7 +51,7 @@ Under Applies to, to allow any item to be a get item, select Any item.
 
 To select specific items to be get items, select Specific items/group, then select the items. For get items, you select individual items or groups. When selecting individual items, you can specify which sizes are eligible for the discount. For more information on selecting required items, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
 
-#### Setting the discount amount and eligible item priority
+### Setting the discount amount and eligible item priority
 
 Under Discount, you set the type and amount of the discount on the get item. For example, you can discount $2 or 10% off of the price.
 
@@ -81,11 +81,11 @@ You also choose how to determine which eligible get item receives the discount.
 
 
 
-#### Setting the maximum number of get items to discount
+### Setting the maximum number of get items to discount
 
 In the Advanced Settings section of the discount configuration page, you use the Eligible # of Get Items field to configure the number of get items that can receive the discount. By default, the value is 1.
 
-### BOGO discounts on receipts
+## BOGO discounts on receipts
 
 The layout of BOGO receipts shows how the discount was applied. These receipt changes are visible on printed receipts, on the order screen of the Toast POS app, and on Toast Web (for example, on receipts on the Reports \> Payments \> Payments page).
 

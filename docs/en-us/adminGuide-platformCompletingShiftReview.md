@@ -39,7 +39,7 @@ Two additional steps, declaring your cash tips and closing a cash drawer, are re
 
 If shift review is optional, you can clock out of your shift at any time and do not need to close any open and unpaid checks.
 
-### Clocking into your shift
+## Clocking into your shift
 
 
 
@@ -65,7 +65,7 @@ If you are required to clock in to complete your shift review, but have not cloc
 
 For more information about how to clock into your shift from the Time Clock screen, see [Clocking In and Out for Shifts and Breaks](https://central.toasttab.com/s/article/Clocking-In-and-Out-for-Shifts-and-Breaks).
 
-### Closing checks
+## Closing checks
 
 The first step in shift review is to close all open and unpaid checks. The Checks step displays a summary of your checks that includes the:
 
@@ -133,7 +133,7 @@ If you have a check that you cannot close, you can either void the check with ma
 > Any open or paid checks at the closeout hour (by default is 4:00 AM local time) are automatically closed with zero tips entered.
 
 
-### Declaring cash tips
+## Declaring cash tips
 
 
 
@@ -195,7 +195,7 @@ If a minimum tip requirement has been configured, you cannot declare negative ca
 > After you declare your cash tips, you can reopen your shift from the Declare cash tips step. Select the Reopen shift link then select the Reopen shift button to reopen the shift.
 
 
-### Reconciling cash and tips
+## Reconciling cash and tips
 
 
 
@@ -278,7 +278,7 @@ The Toast platform calculates the amount you owe to the restaurant or the restau
 
 
 
-### Closing cash drawers
+## Closing cash drawers
 
 The next step in shift review is closing any cash drawer(s) locked to you. This is an optional step that can be configured on the Toast POS device. For more information on how to lock down a cash drawer, see [Lock down a cash drawer](adminCashDrawerLockdown.html).
 
@@ -333,7 +333,7 @@ The Cash drawers step displays a summary of your cash drawers. The summary displ
 
 
 
-### Clocking out or starting a new shift
+## Clocking out or starting a new shift
 
 
 

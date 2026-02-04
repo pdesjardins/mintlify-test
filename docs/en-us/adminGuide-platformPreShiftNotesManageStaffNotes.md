@@ -25,7 +25,7 @@ codeExamples: 0
 
 With the staff notes feature, you can communicate information such as new daily specials, upcoming reservations, operational changes, housekeeping tasks, and team acknowledgements like birthdays and celebrations. Employees are prompted to view staff notes when they clock into their shift on a Toast POS device. This ensures your staff is kept up to date with the latest information and are prepared for their shift.
 
-### Viewing staff notes
+## Viewing staff notes
 
 
 
@@ -63,7 +63,7 @@ On a Toast POS device, staff can view notes from either:
 > Staff must have permission to access at least one of the order screens listed above to be able to view shift notes.
 
 
-### Creating staff notes
+## Creating staff notes
 
 On the Toast Now app, you can create notes for your staff. For example, you can create notes to capture menu changes, to remind your staff of side work, or to help coordinate events. To create a staff note, you must have access to the Toast Now app and have an employee job type that has access to the Manager \> 3.2 Log Book permission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
 
@@ -113,7 +113,7 @@ The published note appears on the Staff notes screen on the Toast Now app, and o
 
 
 
-### Scheduling staff notes
+## Scheduling staff notes
 
 You can choose to schedule staff notes to be published on a future date. You can create a staff note up to seven days into the future. Scheduled notes are available to view starting at 4:00 AM on the publish date.
 
@@ -156,7 +156,7 @@ A banner appears on the Staff notesscreen with a clock icon indicating that a st
 
 
 
-### Editing staff notes
+## Editing staff notes
 
 On the Staff notes screen, you can edit a staff note.
 
@@ -172,7 +172,7 @@ On the Staff notes screen, you can edit a staff note.
 
 
 
-### Deleting staff notes
+## Deleting staff notes
 
 On the Staff notes screen, you can delete a published or scheduled staff note.
 

@@ -42,7 +42,7 @@ Partners webhook messages follow the [standard message data schema](apiMessageDa
 
 The updates published through the `partner` event category are in addition to the emails you currently receive when your integration is added to or removed from a restaurant location. For more information about how to trigger a webhook event in the `partner` category, see [this Toast Central article](https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast).
 
-### partner_added
+## partner_added
 
 Your integration has been added to a new restaurant location.
 
@@ -113,7 +113,7 @@ Attributes in the `partner_added` event's payload include:
 ```
 
   
-### partner_removed
+## partner_removed
 
 Your integration has been removed from a new restaurant location.
 
@@ -157,7 +157,7 @@ The payload for the `partner_removed` webhook event is identical to the payload 
 ```
 
   
-### partner_updated
+## partner_updated
 
 Settings have been updated for your integration, for example, the `externalGroupRef` or `externalRestaurantRef`configuration has been updated.
 

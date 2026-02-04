@@ -21,7 +21,7 @@ codeExamples: 0
 > This feature is only available for Toast Flex devices. This feature is not available for Toast handhelds.
 
 
-### Cash drawer states
+## Cash drawer states
 
 A cash drawer can be in one of the following cash drawer states:
 
@@ -39,7 +39,7 @@ You can change the state of cash drawers as needed during business hours. For ex
 
 At the 4 AM closeout hour, cash drawers are automatically closed. If a Toast location is offline at the start of the business day, the Toast platform will be unable to create new cash drawers and the functionality will be unavailable until the restaurant is online.
 
-#### Accessing cash drawers
+### Accessing cash drawers
 
 
 
@@ -50,7 +50,7 @@ At the 4 AM closeout hour, cash drawers are automatically closed. If a Toast loc
 
 To access your cash drawers on the Toast POS device, select the Toast logo until the Toast POS home screen appears. Choose Cash Management \> Cash Drawers to open the Cash Drawersscreen.
 
-#### Viewing cash drawer activity
+### Viewing cash drawer activity
 
 The Cash Drawers screen displays the following information:
 
@@ -121,7 +121,7 @@ The Cash Drawers screen displays the following information:
 
 ![Shows the Cash Drawers screen on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-screen.png)
 
-### Open cash drawers
+## Open cash drawers
 
 Open cash drawers are listed under the Opentab on the Cash Drawers screen on the Toast POS device. An open cash drawer is a drawer that is in use and can take cash entries and payments. A paused cash drawer is listed under the Open tab until it is closed. Open drawer(s) and their expected total balance are displayed on the cash drawer activity panel.
 
@@ -149,7 +149,7 @@ The Open tab displays the following information:
 
 
 
-#### Open cash drawer screen
+### Open cash drawer screen
 
 To view individual cash drawer activity, on the Cash Drawers screen, select the cash drawer to open the Cash drawer activity screen. On the Cash drawer activity screen, you can view the cash entries for an open cash drawer and complete cash drawer actions. The Cash drawer activity screen displays:
 
@@ -181,7 +181,7 @@ To view individual cash drawer activity, on the Cash Drawers screen, select the 
 
 
 
-#### Open cash drawer actions
+### Open cash drawer actions
 
 On the Cash drawer activity screen, the cash drawer actions that you can complete are organized into one of the following categories:
 
@@ -198,7 +198,7 @@ For more information, see [POS cash drawer operations](adminCashDrawerPOSOperati
 
 ![Shows open cash drawer action categories on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-open-cash-drawer-categories.png)
 
-##### Add cash
+#### Add cash
 
 The following actions are available to add cash to an open cash drawer:
 
@@ -216,7 +216,7 @@ The following actions are available to add cash to an open cash drawer:
 
 
 
-##### Remove cash
+#### Remove cash
 
 The following actions are available to remove cash from an open cash drawer:
 
@@ -240,11 +240,11 @@ The following actions are available to remove cash from an open cash drawer:
 
 
 
-##### No sale
+#### No sale
 
 A No sale action does not change the balance of a cash drawer. The cash drawer is opened without changing the drawer’s cash balance. For example, an employee can perform a No Sale transaction to make change for a guest.
 
-### Paused cash drawers
+## Paused cash drawers
 
 Paused cash drawers are listed under the Paused heading under the Open tab on the Cash Drawers screen on the Toast POS device. A paused cash drawer is a previously open drawer that can no longer take cash entries or payments. The drawer cannot be closed as the cash in the drawer has not been counted yet. Choosing to count the cash later pauses the cash drawer and opens a new cash drawer. The newly created open cash drawer keeps the name of the original open drawer and adds a number (for example, *3*) at the end of the cash drawer name. The newly created open drawer also has the same starting balance as the paused drawer. For example, if you have an open cash drawer named *Bar* with a starting balance of $100, and you choose to count the drawer's cash later, this opens a new cash drawer with the name of *Bar* (2) with a starting balance of $100. For more information on how to configure a cash drawer’s starting balance, see [Adjusting starting balance](adminCashDrawerToastWebOperations.html#adminCashDrawerToastWebAdjustStartingBalance).
 
@@ -252,15 +252,15 @@ A paused drawer has a label of *TO BE COUNTED*next to the cash drawer name on th
 
 ![Shows a paused cash drawer on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-paused-cash-drawers.png)
 
-#### Paused cash drawer screen
+### Paused cash drawer screen
 
 On the Cash drawer activity screen, you can view the cash entries for a paused cash drawer and complete cash drawer actions. The Cash drawer activity screen displays the same information and actions as the [Open cash drawer screen](adminCashDrawers.html#adminOpenCashDrawersScreen).
 
-#### Paused cash drawer actions
+### Paused cash drawer actions
 
 The same cash drawer actions available for an open cash drawer are also available for a paused cash drawer. For more information, see [Open cash drawer actions](adminCashDrawers.html#adminOpenCashDrawerActions).
 
-### Closed cash drawers
+## Closed cash drawers
 
 Closed cash drawers are listed under the Closed tab on the Cash Drawersscreen on the Toast POS device. A closed drawer is a previously open drawer that cannot accept cash entries of any type. To close a cash drawer, you must count the bills and coins in the cash drawer and enter the closing balance into the Toast platform. Closed drawer(s) and their expected balance are displayed on the cash drawers activity panel.
 
@@ -268,7 +268,7 @@ From a closed drawer, you can create a deposit. For more information, see [Cash 
 
 ![Shows closed cash drawers on the Toast POS device.](https://doc.toasttab.com/doc/media/cash-mgt-closed-cash-drawers.png)
 
-#### Closed cash drawer screen
+### Closed cash drawer screen
 
 On the Cash drawer activity screen, you can view the cash entries for a closed cash drawer and complete cash drawer actions. The Cash drawer activity screen displays:
 
@@ -303,7 +303,7 @@ On the Cash drawer activity screen, you can view the cash entries for a closed c
 
 
 
-#### Closed cash drawer actions
+### Closed cash drawer actions
 
 
 

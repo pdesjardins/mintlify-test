@@ -52,7 +52,7 @@ For more information about the Send to setting, see [Sequencing fulfillment by s
 
 Repeat these steps for each of your prep station KDS devices.
 
-### About production items
+## About production items
 
 When you [configure production items](adminAssignPrepStationKDS.html#adminConfigureProductionItem) for your restaurant, you create a customized system for tracking your most critical ingredients. The KDS reports a continuously updated total across fired orders for each production item below the individual tickets, including when the count is zero (0). You specify which production items you want to track on each of your KDS devices.
 
@@ -95,7 +95,7 @@ If you need to define different quantities for different item sizes, you must se
 
 
 
-### Configure a production item
+## Configure a production item
 
 To configure a production item, you must have the following access permissions.
 

@@ -36,7 +36,7 @@ The sections below describe how to use these workflows.
 > You cannot add changes made on the Full menuview to a change set. They must be saved and [manually published](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
-### Creating a new change set
+## Creating a new change set
 
 A change set stores the configuration edits you make but it does not save and publish them until a date and time that you specify. When that date and time occurs, the Toast platform saves the changes in the change set and then immediately publishes them to all affected locations, making them available to restaurant employees and guests.
 
@@ -77,7 +77,7 @@ You can select the calendar icon to open a list of the change sets that the upda
 
 
 
-### Adding changes to an existing change set
+## Adding changes to an existing change set
 
 You can add edits made on the Menu managerpage to an existing change set that has not been published yet. As described in [Creating a new change set](platformPublishingMenuManagerChanges.html#platformCreatingANewChangeSetMenuManager), you can create a change set from the Menu manager page, but they can also be created from the publishing center page. See [Publishing center overview](platformPublishingCenterOverview.html)for more information about the publishing center.
 
@@ -103,7 +103,7 @@ You can select the calendar icon to open a list of the change sets that the upda
 
 
 
-### Saving changes and manually publishing them
+## Saving changes and manually publishing them
 
 With the manual workflow, your changes must be:
 
@@ -174,7 +174,7 @@ For multi-location restaurants: Select the Unpublished changes link at the top o
 
 
 
-### Scheduling changes for menu entities that have not been previously published
+## Scheduling changes for menu entities that have not been previously published
 
 Modifiers and price levels must have already been published at least once before you can use the menu manager's Schedule button to schedule updates for them. For example, you create Price Level A. You must publish Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
 

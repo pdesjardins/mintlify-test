@@ -17,7 +17,7 @@ codeExamples: 0
 
 Saving in the menu manager works differently, depending on the view you are currently using. The following sections provide more details.
 
-### Saving changes in Full menu view
+## Saving changes in Full menu view
 
 Full menu view consists of a table that shows your menu hierarchy and an optional side panel that you can choose to display or hide for a particular menu entity. The Toast platform automatically saves changes you make in the menu hierarchy table as you work. For example, if you add a new menu or re-order your menu groups, those changes are automatically saved. To save changes you make in a side panel, you use the Save button that appears at the bottom of the panel.
 
@@ -32,7 +32,7 @@ Changes made in Full menu view must be manually published when you're ready for 
 > The [scheduled publishing](platformPublishingMenuManagerChanges.html) feature that allows you to save and publish your changes at a future date and time is not yet supported for Full menu view updates.
 
 
-### Saving changes in Items, Modifiers, or Price levels view
+## Saving changes in Items, Modifiers, or Price levels view
 
 Unlike Full menu view, the Items, Modifiers, and Price levels views do not have auto-save functionality. Instead, you use the Save [X] changes button to save your changes.
 

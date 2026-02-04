@@ -21,7 +21,7 @@ This integration allows you to let guests place reservations at Toast restaurant
 
 In this guide, references to submitting reservation information to the Toast platform means using the Toast orders API to send reservation-specific details. Toast does not have a reservation API. Submitting reservation information to the Toast platform is done by submitting an order that only includes the information specific to the reservation. This approach enables your integration to share reservation information effectively and maintain consistency between your system and the Toast platform.
 
-### Required scopes
+## Required scopes
 
 To follow these instructions, you must have the following scopes:
 
@@ -52,13 +52,13 @@ To follow these instructions, you must have the following scopes:
 
 You can retrieve a list of your current scopes through your [Toast developer portal](apiDeveloperPortal.html#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](integrationDevProcess.html)guide for instructions on requesting access.
 
-### Setup and planning
+## Setup and planning
 
-#### Complete initial integration setup
+### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-#### Determine if you will pass reservation information to the Toast platform
+### Determine if you will pass reservation information to the Toast platform
 
 Reservation integrations can follow one of two methods:
 
@@ -71,7 +71,7 @@ Reservation integrations can follow one of two methods:
 
 With either method, your system will be the source of truth for reservation requests and availability. Toast recommends building a read-write integration to ensure consistency between your system and the Toast platform.
 
-#### Retrieve configuration information
+### Retrieve configuration information
 
 Retrieve restaurant configurations using the following endpoints of [configuration API](https://doc.toasttab.com/openapi/configuration/overview/). To ensure you have the latest restaurant configuration, poll the configuration API once per restaurant location per day, and update configuration information in your system based on newly added, updated, or deleted information.
 
@@ -120,7 +120,7 @@ Use the [configuration API](https://doc.toasttab.com/openapi/configuration/overv
 
 Use the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/) to retrieve information about the configuration of a restaurant, including restaurant service hours and location information. Use the restaurant information to ensure guests cannot create reservations outside of the restaurant's hours of operation.
 
-#### Learn order structure concepts
+### Learn order structure concepts
 
 Familiarize yourself with the structure of an order by reading the [Orders API overview](portalOrdersApiOverview.html) and [Order object summary](apiOrdersOrderObjectSummary.html). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
@@ -130,45 +130,45 @@ Ensure your integration adheres to the endpoint specific rate-limit for the `/or
 
 To understand which order elements are relevant to your integration, see [Understanding reservation order data](apiIntegrationChecklistReservation.html#reservationIntegData).
 
-### Building a read-only reservation integration
+## Building a read-only reservation integration
 
 Since your integration will handle reservations entirely within your system, you will rely on the response from the orders API to obtain the necessary order data for updating reservation information in your system. For more information, see [Understanding reservation order data](apiIntegrationChecklistReservation.html#reservationIntegData).
 
-### Building a read-write reservation integration
+## Building a read-write reservation integration
 
 If your integration is passing reservation information to the Toast platform, you will submit an order without menu item selections and include the required information listed below. Your integration will do this by sending a `POST` request to the [`/orders`](https://doc.toasttab.com/openapi/orders/operation/ordersPost/)endpoint of the orders API. For more information, see [Creating orders](apiCreatingOrders.html).
 
-#### Understand required information
+### Understand required information
 
 When passing reservation information to the Toast platform, your integration must include the following information.
 
-##### Dining option
+#### Dining option
 
 Include a `diningOption` with a `DINE_IN`dining behavior in the order. Send a `GET` request to the `[/diningOptions](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/)`endpoint of the configuration API to retrieve the restaurant's dining options. Your integration should allow restaurants to choose which dining options they want your integration to use in your system's user interface.
 
-##### Revenue center
+#### Revenue center
 
 Include a `revenueCenter` in the order. Assigning a revenue center to orders allows restaurants to categorize reservation orders in their revenue reporting. Send a `GET` request to the `[/revenueCenters](https://doc.toasttab.com/openapi/configuration/operation/revenueCentersGet/)`endpoint of the configuration API to retrieve the restaurant's revenue centers. Your integration should allow restaurants to choose which revenue center they want your integration to use in your system's user interface.
 
-##### Table
+#### Table
 
 Include a `table` in the order. This links the reservation details to the specific table at the restaurant where the guest will be dining. Send a `GET` request to the [`/tables`](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)endpoint of the configuration API to retrieve information about a restaurant's tables. Your table configurations should match the table configurations in the Toast platform.
 
-##### Guest count
+#### Guest count
 
 Include the `numberOfGuests` value in the order to identify guest count. This helps restaurant staff prepare and manage the table effectively by knowing how many guests are dining. Additionally, the `numberOfGuests` provides useful information for building reports.
 
-##### Tab name
+#### Tab name
 
 Include a `tabName` value in the order to identify your integration and guest information. Use the naming convention: `\{Partner name} - \{Guest first name} \{Guest last initial\}`. Your integration should allow restaurants to customize tab naming conventions in your system's user interface based on restaurant requirements.
 
 For more information about where tab names appear in the Toast platform, see [Guest personal identifiable information](platformOrdersPii.html).
 
-#### Determine what optional functionality you will support
+### Determine what optional functionality you will support
 
 When passing reservation information to the Toast platform, your integration may include the following optional functionality.
 
-##### Deposits
+#### Deposits
 
 If your system collects deposits with reservations, you must communicate this information to the Toast platform when you submit the reservation so that the guest is not asked to repay their deposit amount. Deposits are processed through your system when the guest makes the reservation and is communicated to Toast when you submit the order. Deposits are not processed through Toast and use an alternative payment type in the reservation order submission. You are responsible for paying the restaurant for deposits made outside of the Toast platform.
 
@@ -176,17 +176,17 @@ To retrieve your alternative payment type identifier, send a `GET` request to th
 
 If you support deposits, your onboarding process should include working with restaurants to create an alternative payment type specific to your integration. [This guide](https://central.toasttab.com/s/article/Setting-Up-Other-Payment-Options) outlines how to create alternative payment types in the Toast platform. Creating an alternative payment type cannot be done via API.
 
-##### Employee information
+#### Employee information
 
 You can optionally allow restaurant operators to assign servers to reservations when guests check in. If your integration will support this, send a `GET` request to the `[/employees](https://doc.toasttab.com/openapi/labor/operation/employeesGet/)`endpoint of the labor API to retrieve information about restaurant employees. Include the identifier of the employee in the `server` field in your order submission.
 
-##### Service charges
+#### Service charges
 
 You can optionally pass service charges with reservation orders. Including a service charge enables restaurants to add additional fees to reservation orders, such as gratuity. To retrieve service charge information, send a `GET` request to the `[/serviceCharges](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)`endpoint of the configuration API. Your integration should allow restaurants to choose which service charges they want your integration to use in your system's user interface. For more information, see [Service charge overview](adminServiceChargeOverview.html)to learn more.
 
-#### Reservation creation workflow
+### Reservation creation workflow
 
-##### Create and submit a reservation to the Toast platform
+#### Create and submit a reservation to the Toast platform
 
 The workflow below outlines how to create a reservation in your system and submit the reservation information to the Toast platform:
 
@@ -291,7 +291,7 @@ The workflow below outlines how to create a reservation in your system and submi
 (9) The guid used to identify the alternativePaymentType used for reservation deposits.
 
   
-### Understanding reservation order data
+## Understanding reservation order data
 
 Use the following information from the orders API response to update the reservation in your system in real-time.
 
@@ -302,7 +302,7 @@ Use the following information from the orders API response to update the reserva
 | Order status | `order.closedDate` | Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon. For more information, see the orders API reference documentation on the [`closedDate`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response). | 
 | Table | `order.table.guid` | Review the `guid` value associated with the `table` assigned to the order to understand `table` assignment. For more information, see the orders API reference documentation on the [`table`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response)object. To understand the `table guid`values, send a `GET` request to the [`/tables`](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)endpoint of the configuration API to retrieve the restaurant's tables. | 
 
-### Reporting
+## Reporting
 
 The `/ordersBulk` endpoint response of the orders API response will allow you to understand order details required for reporting. Consider reporting on item selection and check amount, including discounts and service charges. Information about orders can also be related to guest profiles managed within your system. Options for reporting categorization that can be understood from the orders API include:
 

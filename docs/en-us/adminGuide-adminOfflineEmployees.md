@@ -19,7 +19,7 @@ During offline mode, employees can clock in on Toast POS devices and perform man
 
 The following sections describe configuration settings that affect employee clock outs during offline mode, and the procedures that employees can use to safely start and end their shifts.
 
-### Preparing for offline mode
+## Preparing for offline mode
 
 Two restaurant configuration settings affect how employees can end their shifts:
 
@@ -50,7 +50,7 @@ The Turn Auto Clock Out On option controls the following:
 
 Contact Toast support to find out the setting of your restaurant's Turn Auto Clock Out On option or to change it.
 
-### Adjusting time entries
+## Adjusting time entries
 
 The following procedure explains how to adjust an employee's time entry record. You can use this procedure for an employee who could not clock out during offline mode.
 

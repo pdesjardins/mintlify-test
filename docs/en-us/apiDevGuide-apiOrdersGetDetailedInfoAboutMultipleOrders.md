@@ -25,13 +25,13 @@ You can use the orders API to retrieve details about orders that were modified o
 > Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
 
 
-### How to make the request
+## How to make the request
 
 To retrieve the orders, you send a `GET`request to the `/ordersBulk` endpoint.
 
 The `/ordersBulk` endpoint returns an array of `Order` objects for each order that is selected based on the specified time period.
 
-### Specifying the time period for the request
+## Specifying the time period for the request
 
 When you send a `GET` request to the `/ordersBulk` endpoint, you specify the period of time that you want to return orders.
 
@@ -56,7 +56,7 @@ Toast support recommends that you use the `startDate` and `endDate` query parame
 
 The `businessDate` query parameter selects orders based on the *creation* date. The request only returns orders that were created on that business day. It does not return orders that were modified on that business day, but created on an earlier day.
 
-### Paginating the request results
+## Paginating the request results
 
 To control the number of `Order` objects that the `/ordersBulk` endpoint returns for each request, use the `pageSize` query parameter. The maximum `pageSize`that you can specify is 100.
 
@@ -82,7 +82,7 @@ For an example of the pagination links in a `/ordersBulk`endpoint response, see 
 > The `/ordersBulk` endpoint has a lower rate limit than most other Toast API endpoints. API clients can poll the `/orderBulk` endpoint up to five times per location per second. For more information about API rate limits, see [Toast rate limit values](apiRateLimiting.html#apiToastRateLimits).
 
 
-### Example request for detailed information about multiple orders
+## Example request for detailed information about multiple orders
 
 The following example shows a request for detailed information about orders that were last modified during a period of time.
 
@@ -118,7 +118,7 @@ pageSize=10&page=2"
 
 (5) In the pageSize query parameter, specify the maximum number of objects to include in the response. In the page query parameter, specify the sequence number of the set of objects to return. For more information, see Paginating response data.
 
-### Example response data containing multiple orders
+## Example response data containing multiple orders
 
 The following example shows the response data from the `/ordersBulk` endpoint. It contains detailed information about multiple orders.
 
@@ -303,7 +303,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 (5) Each subsequent Order object in the array provides detailed information about a different order.
 
-### Example response data pagination header fields
+## Example response data pagination header fields
 
 The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiResponseDataPagination.html).
 

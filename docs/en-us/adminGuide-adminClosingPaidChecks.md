@@ -26,7 +26,7 @@ From the Toast POS app, you can either:
 
 
 
-### Required permissions to close a check
+## Required permissions to close a check
 
 To be able to close checks, you must have an access mode permission.
 
@@ -63,7 +63,7 @@ If you have this permission, then you can close checks that are assigned to a di
 
 
 
-### Closing multiple checks
+## Closing multiple checks
 
 From the Paid Checks screen, you can select and close multiple checks.
 
@@ -90,7 +90,7 @@ Alternatively, you can choose Select alland then tap individual checks to desele
 
 
 
-### Closing a single check
+## Closing a single check
 
 You close an individual check from the order screen.
 

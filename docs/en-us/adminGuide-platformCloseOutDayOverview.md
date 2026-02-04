@@ -155,7 +155,7 @@ An `All checks closed` message appears if there are no open or unpaid checks. In
 
 
 
-### Closing out the day offline
+## Closing out the day offline
 
 If your Toast POS device is offline, you will be unable to complete your close out day tasks. During offline mode, you are unable to:
 

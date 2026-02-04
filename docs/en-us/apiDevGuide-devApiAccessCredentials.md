@@ -108,7 +108,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 Once you have the 8.4 Manage Integrationspermission at every location associated with the credentials you want to edit, you will be able to edit those credentials as needed.
 
-### Creating standard API access credentials
+## Creating standard API access credentials
 
 The following procedure describes how to create standard API access credentials in Toast Web.
 
@@ -185,7 +185,7 @@ An email is sent confirming that standard API access has been activated for your
 
 
 
-### Viewing standard API access credentials
+## Viewing standard API access credentials
 
 You can view your standard API access credentials on the Manage credentials page in Toast Web. The Manage credentials page displays the following information:
 
@@ -218,7 +218,7 @@ You can view your standard API access credentials on the Manage credentials page
 
 
 
-### Managing standard API access credentials
+## Managing standard API access credentials
 
 You can manage your standard API access credentials on the Manage credentials page in Toast Web. To view and edit your credentials, select the edit icon (pencil) next to the credential name to open the Credentials page. On the Credentials page, you can view information and complete various actions. From the Credentialspage, you can:
 
@@ -258,23 +258,23 @@ You can manage your standard API access credentials on the Manage credentials pa
 
 ![Shows credential details on the Credentials page.](https://doc.toasttab.com/doc/media/dev-api-access-manage-credentials.png)
 
-#### Editing standard API access credentials
+### Editing standard API access credentials
 
 To edit your standard API access credentials, select the Edit credentials button to open the Edit credentials page. On the Edit credentials page, you can edit your credential name and change the location(s) the credentials have access to. Select the Confirm button to confirm and save your changes.
 
-#### Editing group or location IDs
+### Editing group or location IDs
 
 Group and location IDs are account numbers that you can use to map restaurants in your integration. After populating a group or location ID for the location, you can retrieve this value using the restaurants API. For more information, see [Using location and group identifiers](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs).
 
 ![Shows edit group or location ID dialog.](https://doc.toasttab.com/doc/media/dev-api-access-edit-ids.png)
 
-#### Viewing standard API access credentials in JSON format
+### Viewing standard API access credentials in JSON format
 
 You can choose to view your credentials in JSON format. JSON is short for JavaScript Object Notation. You can choose to copy your credentials and include them in the header of your API requests.
 
 ![Shows credentials in JSON format.](https://doc.toasttab.com/doc/media/dev-api-access-credentials-json.png)
 
-#### Copying credentials and other information
+### Copying credentials and other information
 
 You can choose to copy the following information to your clipboard for easy reference. You can copy:
 
@@ -290,7 +290,7 @@ You can choose to copy the following information to your clipboard for easy refe
 
 Select the Copy icon to copy the information.
 
-#### Rotating client secret
+### Rotating client secret
 
 
 
@@ -325,7 +325,7 @@ An email is sent notifying you that your client secret has been rotated with the
 
 
 
-#### Deleting standard API access credentials
+### Deleting standard API access credentials
 
 
 

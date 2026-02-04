@@ -17,7 +17,7 @@ codeExamples: 0
 
 The orders API allows you to create orders, update existing orders, and retrieve information about orders.
 
-### Components of an order
+## Components of an order
 
 Here is a high-level overview of the information contained in an order. For the full list of values in the `Order` object, see the [Orders section of the API reference](https://doc.toasttab.com/openapi/orders/overview/). For a summary of the `Order`object, including descriptions of the status, date-time, and amount fields associated with an order, see [Order object summary](apiOrdersOrderObjectSummary.html).
 
@@ -101,7 +101,7 @@ Note that the `customer` object does not contain loyalty program information.
 
 
 
-### Diagrams of basic order structures
+## Diagrams of basic order structures
 
 The following diagram shows the basic structure of a typical delivery order.
 
@@ -115,7 +115,7 @@ The following diagram shows the basic structure of a typical dine-in order that 
 
 ![Image](https://doc.toasttab.com/doc/media/order-api-overview-diagram-dinein.png)
 
-### Orders API tasks
+## Orders API tasks
 
 You can use the orders API to perform the following tasks:
 
@@ -166,11 +166,11 @@ If your integration submits orders to the Toast platform, your integration is an
 
 
 
-### Orders API limitations
+## Orders API limitations
 
 When using the orders API to create an order, be aware of the following limitations and default behavior.
 
-#### Order scheduling
+### Order scheduling
 
 By default, the orders API creates an order that is to be fulfilled as soon as possible. It does not verify the restaurant service hours.
 
@@ -178,7 +178,7 @@ You are responsible for submitting orders while the restaurant is open. For more
 
 You also can create an order to be fulfilled at a specific time. For example, you can create an order when the restaurant is closed, but indicate to fulfill the order when the restaurant is open. See [Scheduling future orders](orders_api_future_orders.html).
 
-#### Order menu selection items
+### Order menu selection items
 
 For the menu selection items in API orders, the following limitations apply:
 
@@ -193,7 +193,7 @@ You are responsible for preventing guests from ordering items that are not avail
 
 
 
-#### Order payment
+### Order payment
 
 Orders created using the orders API are limited to the `CREDIT` and `OTHER` payment types.
 
@@ -201,29 +201,29 @@ Note that the orders API ignores the tax exempt setting for `OTHER` payment type
 
 The orders API does not allow you to create cash orders or orders that use Toast gift cards.
 
-#### Loyalty programs
+### Loyalty programs
 
 You cannot use Toast loyalty functionality with orders that are created using the orders API.
 
 You can use the orders API to apply a third-party loyalty program that is integrated with Toast. For details, see [Working with loyalty programs](apiDiscountingOrders.html#orders-api-loyalty-programs).
 
-#### Gift card programs
+### Gift card programs
 
 You cannot use Toast or third-party gift card functionality with orders that are created using the orders API.
 
-#### Order communication to the kitchen
+### Order communication to the kitchen
 
 If a restaurant uses a Kitchen Display System (KDS) device, and has properly configured an auto-firing device, then the order is sent straight to the kitchen.
 
 The order is not subject to approval rules or manual approval.
 
-#### Order text messages
+### Order text messages
 
 Orders that are entered using the orders API do not [initiate SMS text messages](platformKitchenTextMessaging.html#adminSendTextMessage). Guests or servers only receive text messages when an order is entered in the Toast platform, for example, from a Toast POS device.
 
 When building the functionality to send an order fulfillment text message from your platform, your code should inspect the `fulfillmentStatus` value of an order and ensure it is set to `READY` before it sends any messages. The `fulfillmentStatus` value is in the `selections`object which is a part of the `checks` object.
 
-#### Order size
+### Order size
 
 The orders API returns an HTTP status code 400 response when your integration attempts to:
 

@@ -16,7 +16,7 @@ codeExamples: 0
 
 This section explains the data included in Toast data export reports.
 
-### Accounting data export
+## Accounting data export
 
 The accounting data export includes the revenue amounts for each general ledger (GL) code that you have configured for your restaurant during one business day. The file name of the accounting data export is `AccountingReport.xls`.
 
@@ -31,7 +31,7 @@ The following table shows details on what the accounting data export contains.
 | Description | Text Description | String | 
 | Amount | Currency amount | Number (two digits) Formatted USD | 
 
-### All items data export
+## All items data export
 
 The all items data export includes information about all of the items in the menu for your restaurant. The file name of the all items data export is `AllItemsReport.csv`.
 
@@ -66,7 +66,7 @@ The following table shows details on what the all items data export contains.
 | % Net Amt (Menu) | Net amount as a percent of Total Menu Net Amount | Number (5 decimals) | 
 | % Net Amt (All) | Net amount as a percent of Total Net Amount | Number (5 decimals) | 
 
-### Cash management data export
+## Cash management data export
 
 The cash management data export includes information about cash payments made at your restaurant. The file name of the cash management data export is `CashEntries.csv`.
 
@@ -86,7 +86,7 @@ The following table shows details on what the cash management data export contai
 | Employee 2 | Employee Name who received Amount | String | 
 | Payout Reason | A description of the reason for the cash payment | String | 
 
-### Check details data export
+## Check details data export
 
 The check details data export includes information about about the checks in the orders placed at your restaurant. The file name of the checks data export is `CheckDetails.csv`.
 
@@ -114,7 +114,7 @@ The following table shows details on what the check details data export contains
 | Customer Phone | The telephone number of the customer associated with the check. | String | 
 | Customer Email | The email address of the customer associated with the check. | String | 
 
-### Item modifier selection data export
+## Item modifier selection data export
 
 The item modifier data export includes information about the modifiers applied to items ordered at your restaurant. The file name of the item modifier selection data export is `ModifiersSelectionDetails.csv`.
 
@@ -151,7 +151,7 @@ The following table shows details on what the item modifier data export contains
 | Void Reason ID | Void Reason ID | Long | 
 | Void Reason | Reason for void | String | 
 
-### Item selection data export
+## Item selection data export
 
 The item selection data export includes information about the items ordered at your restaurant. The file name of the item selection data export is `ItemSelectionDetails.csv`.
 
@@ -191,7 +191,7 @@ The following table shows details on what the item selection data export contain
 | Dining Option Tax | A description of tax payments applied because of the dining option for the check. | String | 
 | Tab Name | A name assigned to the check. | String | 
 
-### Kitchen details data export
+## Kitchen details data export
 
 The kitchen details data export includes information about the kitchen tickets at your restaurant. The file name of the kitchen data export is `KitchenTimings.csv`.
 
@@ -214,7 +214,7 @@ The following table shows details on what the kitchen details data export contai
           hours, 1 minute and 6 seconds`. | String | 
 | Fulfilled By | The name of the employee who fulfilled the ticket. | String | 
 
-### Labor data export
+## Labor data export
 
 The labor data export includes information about the shifts worked by employees at your restaurant. The file name of the labor data export is `TimeEntries.csv`.
 
@@ -252,7 +252,7 @@ The following table shows details on what the labor data export contains.
 | Overtime Pay | The amount that an employee is paid for overtime hours in the time entry. | Number (2 digits) | 
 | Total Pay | The amount paid to an employee for non-overtime and overtime hours. | Number (2 digits) | 
 
-### Menu data export
+## Menu data export
 
 The menu data export includes two types of information:
 
@@ -273,11 +273,11 @@ The file name of the menu data export is `MenuExport_<em>[export file
 > The JSON format of the menu data export is significantly different than the spreadsheet formats of other Toast POS data exports. JSON is optimized for use by software and the menu data export is intended to assist in integration with Toast POS API clients.
 
 
-#### Menus
+### Menus
 
 This section describes information about each menu entity at your restaurant.
 
-##### Menu
+#### Menu
 
 The following table shows the information about each menu at your restaurant from from the menu data export.
 
@@ -320,7 +320,7 @@ The following table shows the information about each menu at your restaurant fro
 | daysAvailableBits | This field is a numeric version of the daysAvailableString field and is for Toast internal use only. | Int | 
 | imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
 
-##### MenuGroup
+#### MenuGroup
 
 The following table shows the information about each menu group at your restaurant from the menu data export.
 
@@ -342,7 +342,7 @@ The following table shows the information about each menu group at your restaura
 
  | String | 
 
-##### MenuItem
+#### MenuItem
 
 The following table shows the information about each menu item at your restaurant from the menu data export.
 
@@ -370,7 +370,7 @@ The following table shows the information about each menu item at your restauran
 
  | String | 
 
-##### MenuOptionGroup
+#### MenuOptionGroup
 
 The following table shows the information about each menu option group, or modifier group, at your restaurant from the menu data export.
 
@@ -422,7 +422,7 @@ There are two scenarios that can occur with substitution pricing:- If the substi
 
  | String | 
 
-##### PricingStrategyRules
+#### PricingStrategyRules
 
 The following table shows the information about the pricing strategy for the modifier groups at your restaurant from the menu data export.
 
@@ -465,7 +465,7 @@ The following table shows the information about the pricing strategy for the mod
 
  | JSON array | 
 
-#### Premodifiers and postmodifiers
+### Premodifiers and postmodifiers
 
 This section describes:
 
@@ -476,7 +476,7 @@ This section describes:
 
 
 
-##### premodifierGroups
+#### premodifierGroups
 
 The following table shows the information about the premodifier groups at your restaurant from the menu data export.
 
@@ -487,7 +487,7 @@ The following table shows the information about the premodifier groups at your r
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
 | premodifiers | An array of [premodifiers](adminDataExportFieldReference.html#menuExportPremodifier) objects. | JSON array | 
 
-##### premodifiers
+#### premodifiers
 
 The following table shows the information about the premodifiers or postmodifiers at your restaurant from the menu data export.
 
@@ -507,7 +507,7 @@ The following table shows the information about the premodifiers or postmodifier
 
  | String | 
 
-### Orders data export
+## Orders data export
 
 The orders report includes information about the orders placed at your restaurant. The file name of the orders data export is `OrderDetails.csv`.
 
@@ -540,7 +540,7 @@ The following table shows details on what the orders data export contains.
 | Duration (Opened to Paid) | Time Duration from Open Timestamp to Paid Timestamp | Time (HH:MM:SS) | 
 | Order Source | "Source of Order (In store, Online)" | String | 
 
-### Payments data export
+## Payments data export
 
 The payments data export includes information about the payments applied to checks at your restaurant. The file name of the payments data export is `PaymentDetails.csv`.
 

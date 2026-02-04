@@ -28,7 +28,7 @@ If your state uses tax tables, you can configure a tax table rate for your resta
 > Tax inclusive items (an item that includes tax amounts in the item price) are not supported with tax table rates.
 
 
-### Understanding state tax tables
+## Understanding state tax tables
 
 Before creating a tax table rate, you should understand the state tax table's tax brackets and its tax pattern.
 
@@ -71,7 +71,7 @@ This example state tax table has a six-bracket tax pattern (from .06 to .25). No
 
 When you configure your Tax Table tax rate, you will have to identify the tax pattern and also specify which tax bracket begins the tax pattern.
 
-### Configuring tax table rates
+## Configuring tax table rates
 
 Before configuring a tax table rate, make sure that you have the state's tax table with you and that you have determined its tax pattern.
 

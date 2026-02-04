@@ -18,7 +18,7 @@ codeExamples: 0
 
 This section provides information about working with menus in the menu manager.
 
-### Creating a menu
+## Creating a menu
 
 This section provides information about creating menus.
 
@@ -47,7 +47,7 @@ For multi-location restaurants, newly created menus are automatically targeted a
 
 
 
-### Renaming a menu
+## Renaming a menu
 
 Follow the procedure below to rename a menu.
 
@@ -78,7 +78,7 @@ Follow the procedure below to rename a menu.
 
 
 
-### Reordering menus
+## Reordering menus
 
 Your Toast ordering channels display your menus in the order you see them in the Full menu view. You can reorder your menus so they appear in the order you want them to.
 
@@ -109,7 +109,7 @@ Your Toast ordering channels display your menus in the order you see them in the
 
 
 
-### Archiving a menu
+## Archiving a menu
 
 You can archive a menu to hide it from your Toast ordering channels.
 
@@ -155,7 +155,7 @@ For multi-location restaurants:
 
 
 
-### Assigning a POS button name and color
+## Assigning a POS button name and color
 
 You can customize the names and colors of the buttons employees see in the Toast POS app for the various menu entities:
 
@@ -170,7 +170,7 @@ Enter a name in the POS name field. To specify a button color, select the Button
 
 By default, the POS name field is empty and the button color is set to white.
 
-### Assigning tax rates and tax behavior
+## Assigning tax rates and tax behavior
 
 During the on-boarding process, you specify the tax rates that apply to your restaurant location. By default, these tax rates are inherited by any menus you create for the restaurant. According to the rules of menu inheritance, the tax rates also flow down to your menu groups, subgroups, and menu items in the following ways:
 
@@ -199,7 +199,7 @@ The following sections provide instructions for setting tax rates and behavior. 
 
 
 
-#### Setting tax rates and tax behavior
+### Setting tax rates and tax behavior
 
 To override the inherited tax rates for a menu, menu group, or subgroup, go to the Taxes section of the entity's details page, select the link icon next to Tax rates to unlink the configuration, and then select the tax rates from the list. To override the Calculate prices with tax included or Takeout exception setting, select its link icon to unlink the configuration and then configure the setting as needed.
 
@@ -217,7 +217,7 @@ To configure a menu item so that it inherits its tax rates, set the Inherit tax 
 
 If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOverview.html).
 
-#### Understanding tax inclusion
+### Understanding tax inclusion
 
 When tax is included in a menu item's price, the guest pays the price you have set and any applicable taxes are taken out of that price, instead of being added to it. Use this option when you want a guest's check total to be a round number. This eliminates the need for employees to deal with coins and makes tipping simpler to calculate. It can, however, decrease net revenue if the price you set does not account for applicable taxes.
 
@@ -249,7 +249,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminAssigningTaxRatesInMenuBuilder.html#platformSettingTaxRatesAndTaxBehavior).
 
-#### Understanding takeout tax exception
+### Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 
@@ -257,7 +257,7 @@ For more information on setting takeout tax exemption behavior, see [Setting tax
 
 For more information on dining options, see [Dining options](adminDiningOptions.html).
 
-### Assigning prep stations
+## Assigning prep stations
 
 You use prep stations to route menu items to the appropriate stations in the kitchen for fulfillment. A prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
@@ -288,7 +288,7 @@ To configure a menu item to inherit its prep stations, set the Inherit prep stat
 
 If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminAddPrepStation.html) and [Routing with prep stations](adminRoutingToPrepStations.html).
 
-### Assigning courses
+## Assigning courses
 
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
@@ -312,7 +312,7 @@ To configure a menu item so that it inherits its course, set the Inherit course?
 
 If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminAssigningCourses.html#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
-#### Creating courses
+### Creating courses
 
 While you can assign courses in the menu builder, you must use the classic Courses page to create the courses themselves.
 
@@ -348,7 +348,7 @@ Alternatively, you can do the following:
 
 
 
-### Assigning sales categories
+## Assigning sales categories
 
 The Sales Summary and other Toast reports use sales categories to create a breakdown of your sales, organized by sales category, for example, Food, Drinks, Retail, and so on.
 
@@ -390,7 +390,7 @@ To configure a menu item so that it inherits its sales category, set the Inherit
 
 If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminAssigningSalesCategories.html#platformCreatingSalesCategoriesMenuBuilder).
 
-#### Creating sales categories
+### Creating sales categories
 
 While you can assign sales categories in the menu builder, you must use the classic Sales Categories page to create the sales categories themselves.
 
@@ -426,7 +426,7 @@ Alternatively, you can:
 
 
 
-### Specifying a custom schedule for a menu
+## Specifying a custom schedule for a menu
 
 You can use a menu's Availability settings to define a specific time period that a menu is available or a specific set of days that the menu is available. By default, a menu's availability is set to Always, meaning the menu is available during all hours that the restaurant is open.
 
@@ -473,7 +473,7 @@ For multi-location restaurants, the time period you specify is in each location'
 
 
 
-### Specifying ordering channel visibility for a menu
+## Specifying ordering channel visibility for a menu
 
 The side panel for each menu has a Channel visibility section that shows the channels where the menu is visible. If a menu is visible on a channel, it is available for ordering on that channel. Options include:
 
@@ -526,7 +526,7 @@ The Websites View-only setting only appears for restaurants that have Digital St
 
 Unlike other settings such as tax rates and prep stations, the Channel visibility settings cannot be inherited from a parent. That said, if a parent menu entity is hidden from view for any of the Toast channels, then its child menu entities are also hidden from those channels. For example, consider a Dinner menu that contains an Appetizers group with a Chicken Satay menu item. If you hide the Dinner menu from Toast Online Ordering and the Toast Takeout (Local by Toast) app, then the Appetizers group and the Chicken Satay menu item will also be hidden from Toast Online Ordering and the Toast Takeout (Local by Toast) app, even if the Toast Online Ordering, Toast Takeout (Local by Toast) app setting is enabled for Appetizers and Chicken Satay.
 
-#### Restricting menu visibility to specific online ordering partners
+### Restricting menu visibility to specific online ordering partners
 
 When you enable the Online ordering partners option for a menu, an additional list of the online ordering partners you integrate with appears. You can use these settings to make the menu visible to specific online ordering partners and hide it from others. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash. For more information on using these settings, see [Restricting menu visibility to specific online ordering partners](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html).
 

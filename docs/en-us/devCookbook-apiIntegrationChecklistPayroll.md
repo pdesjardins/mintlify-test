@@ -19,7 +19,7 @@ Use the instructions below to build labor reports using information from the Toa
 
 You are now ready to provide customers with detailed information related to labor costs and efficiency, providing restaurants with useful information to run their business.
 
-### Required scopes
+## Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -39,13 +39,13 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 
 
-### Setup and planning
+## Setup and planning
 
-#### Complete initial integration setup
+### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-#### Decide what information your reports will provide
+### Decide what information your reports will provide
 
 Before you begin development, decide what reports you will build.
 
@@ -73,9 +73,9 @@ The steps below describe how to extract the following labor data:
 
 
 
-### Retrieving restaurant information
+## Retrieving restaurant information
 
-#### Build initial employee and job load
+### Build initial employee and job load
 
 If a restaurant begins to use your integration after they are already live on the Toast platform, you must map the existing employees and jobs in the Toast platform to employees and jobs in your service.
 
@@ -83,7 +83,7 @@ Consider doing an [initial employee load](api_get_all_employees.html) when a res
 
 Use the `/jobs` endpoint of the labor API to load initial job information. See [the labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification. If your integration allows restaurants to create employees in your platform and submit this information to the Toast platform, see [Building an employee management integration](apiIntegrationChecklistEmployee.html).
 
-#### Set up recurring retrieval of employees, jobs, and configuration information
+### Set up recurring retrieval of employees, jobs, and configuration information
 
 Query the following endpoints at least once per location per day to ensure you maintain accurate labor information over time:
 
@@ -97,7 +97,7 @@ Query the following endpoints at least once per location per day to ensure you m
 
 
 
-#### Set up recurring retrieval of transactional information
+### Set up recurring retrieval of transactional information
 
 To report on labor information, you need to retrieve transactional information from restaurants at least once per day.
 
@@ -113,7 +113,7 @@ Use the following endpoints to retrieve transactional information:
 
 
 
-#### Determine closeout hour
+### Determine closeout hour
 
 The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
 
@@ -121,9 +121,9 @@ The default closeout hour is 4:00 a.m. local time unless a Toast employee change
 
 Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
 
-### Building report functionality
+## Building report functionality
 
-#### Reporting on hours worked and wages earned
+### Reporting on hours worked and wages earned
 
 Use the `regularHours` and `overtimeHours`values on `TimeEntry` objects to determine how many regular and overtime hours an employee worked while they were clocked in.
 
@@ -133,13 +133,13 @@ The labor API does not expose the overtime factor to determine overtime wages ea
 
 If `hourlyWage` is null, the time entry is associated with a salaried job.
 
-#### Reporting on breaks taken
+### Reporting on breaks taken
 
 Use the `breaks` value on `TimeEntry`objects to determine how much paid and unpaid break time an employee took while clocked in.
 
 The `breakType` value on the time entry corresponds to a `BreakType` object in the configuration API.
 
-#### Reporting on shift clock-in timeliness
+### Reporting on shift clock-in timeliness
 
 If the restaurant uses clock-in enforcement functionality, then the `shiftReference` on a `TimeEntry` object is populated with the GUID of the employee's scheduled shift.
 
@@ -147,7 +147,7 @@ If the employee clocked in outside of the restaurant's allowed clock-in window o
 
 To compare the employee's scheduled shift time with their actual clock-in and clock-out times, compare the `inDate` and `outDate` values on the corresponding `TimeEntry`and `Shift` objects.
 
-#### Reporting on sales and tips per employee
+### Reporting on sales and tips per employee
 
 The employee associated with an order is listed in the `server` value on an `Order` object in the orders API. To calculate an employee's sales and tips, sum the `amount` (for total sales) and `tipAmount` (for tips) on the payments associated with their orders.
 
@@ -157,7 +157,7 @@ Toast support recommends using the orders API rather than the `cashSales`, `nonC
 
 To determine if a payment or tip was cash, credit, or another payment type, use the `type` value on the `Payment` object in the orders API.
 
-#### Additional reporting ideas
+### Additional reporting ideas
 
 Consider using the labor information you retrieve from Toast APIs in the following ways:
 

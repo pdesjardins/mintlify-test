@@ -18,7 +18,7 @@ codeExamples: 0
 
 This section provides information about working with menu items in the menu manager.
 
-### Adding a new menu item
+## Adding a new menu item
 
 Use the procedure below to add a new menu item.
 
@@ -72,7 +72,7 @@ If you need to specify any other menu item configurations, scroll to the appropr
 
 
 
-### Adding an existing menu item
+## Adding an existing menu item
 
 To reduce the number of menu items you have to manage, add existing menu items whenever possible instead of creating new ones.
 
@@ -121,7 +121,7 @@ When reusing a menu item in multiple menu groups, keep in mind that:
 
 
 
-### Renaming a menu item
+## Renaming a menu item
 
 Follow the procedure below to rename a menu item.
 
@@ -155,7 +155,7 @@ Follow the procedure below to rename a menu item.
 
 
 
-### Reordering menu items
+## Reordering menu items
 
 Your Toast ordering channels display your menu items in the order you see them in the Full menu view. You can reorder your menu items so they appear in the order you want them to.
 
@@ -191,7 +191,7 @@ You can reorder menu items within a single menu group. You cannot move a menu it
 
 
 
-### Removing a menu item from a menu group
+## Removing a menu item from a menu group
 
 You can remove a menu item from a menu group using the Remove menu item option from the overflow menu. When you remove a menu item from a menu group, the item no longer appears in that menu group, but the item remains in your Toast Web database and can still be added to or used by other menu groups.
 
@@ -242,7 +242,7 @@ For multi-location restaurants:
 
 
 
-### Archiving a menu item
+## Archiving a menu item
 
 You can archive a menu item to hide it from your Toast ordering channels. When archiving a menu item, keep in mind that:
 
@@ -298,7 +298,7 @@ For multi-location restaurants:
 
 
 
-### Setting stock status and count for a menu item
+## Setting stock status and count for a menu item
 
 You can set the stock status for menu items to indicate whether a menu item is in stock, out of stock, or in limited supply. Out of stock items are displayed to your guests, however, they are marked as "out of stock" and cannot be ordered.
 
@@ -348,7 +348,7 @@ Stock changes that you make are immediately applied and there is no need to save
 
 
 
-### Editing a menu item's price
+## Editing a menu item's price
 
 You can edit menu items that are *priced individually* from either Full menu view or Items view.
 
@@ -472,7 +472,7 @@ Note that open prices are not supported for Toast Online Ordering, so you should
 
 
 
-### Adding images to menu items
+## Adding images to menu items
 
 Toast support recommends adding images to your menu items to make them more appealing on your Toast Online Ordering website. Images must be in .jpg and .png format and no larger than 5MB.
 
@@ -509,7 +509,7 @@ Toast support recommends adding images to your menu items to make them more appe
 
 
 
-### Adding a menu item description
+## Adding a menu item description
 
 Use the procedure below to add a description to a menu item.
 
@@ -543,7 +543,7 @@ Use the procedure below to add a description to a menu item.
 
 
 
-### Assigning a POS button name and color
+## Assigning a POS button name and color
 
 You can customize the names and colors of the buttons employees see in the Toast POS app for the various menu entities:
 
@@ -558,7 +558,7 @@ Enter a name in the POS name field. To specify a button color, select the Button
 
 By default, the POS name field is empty and the button color is set to white.
 
-### Specifying calories for a menu item
+## Specifying calories for a menu item
 
 Use the procedure below to specify the calorie count for a menu item.
 
@@ -592,7 +592,7 @@ Use the procedure below to specify the calorie count for a menu item.
 
 
 
-### Specifying a PLU or SKU for a menu item
+## Specifying a PLU or SKU for a menu item
 
 Use the procedure below to specify a PLU or SKU for a menu item.
 
@@ -626,7 +626,7 @@ Use the procedure below to specify a PLU or SKU for a menu item.
 
 
 
-### Assigning alcohol labeling to menu items
+## Assigning alcohol labeling to menu items
 
 Each menu item has a Does this item contain alcohol? setting, under the Item detailssection in the side panel. This setting identifies whether the menu item contains alcohol in cases where orders containing alcohol require additional handling. For example, local laws might require an ID check or prevent accrual of loyalty points.
 
@@ -669,7 +669,7 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 
 
 
-### Determining where a menu item is used
+## Determining where a menu item is used
 
 You can use the Found in section of a menu item's details page to see which menus a menu item is included in and the path within each menu that an employee or guest must follow to get to the menu item. To quickly go to a menu or menu group in a menu path, select its name.
 
@@ -677,7 +677,7 @@ For example, the menu item in the illustration below belongs to two menu paths: 
 
 ![An example of the Found in section of a menu item details page, showing the two menu paths for the item.](https://doc.toasttab.com/doc/media/menu-builder-found-in.png)
 
-### Specifying a different name and color for KDS devices and kitchen tickets
+## Specifying a different name and color for KDS devices and kitchen tickets
 
 You can specify a kitchen name for a menu item. The kitchen name is used instead of the POS name on KDS devices and printed kitchen tickets. You can also specify a KDS color for a menu item. The KDS color is used instead of the POS color on KDS devices.
 
@@ -711,7 +711,7 @@ You can specify a kitchen name for a menu item. The kitchen name is used instead
 
 
 
-### Assigning prep stations
+## Assigning prep stations
 
 You use prep stations to route menu items to the appropriate stations in the kitchen for fulfillment. A prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
@@ -742,7 +742,7 @@ To configure a menu item to inherit its prep stations, set the Inherit prep stat
 
 If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminAddPrepStation.html) and [Routing with prep stations](adminRoutingToPrepStations.html).
 
-### Assigning courses
+## Assigning courses
 
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
@@ -766,7 +766,7 @@ To configure a menu item so that it inherits its course, set the Inherit course?
 
 If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminAssigningCourses.html#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
-#### Creating courses
+### Creating courses
 
 While you can assign courses in the menu builder, you must use the classic Courses page to create the courses themselves.
 
@@ -802,7 +802,7 @@ Alternatively, you can do the following:
 
 
 
-### Assigning sales categories
+## Assigning sales categories
 
 The Sales Summary and other Toast reports use sales categories to create a breakdown of your sales, organized by sales category, for example, Food, Drinks, Retail, and so on.
 
@@ -844,7 +844,7 @@ To configure a menu item so that it inherits its sales category, set the Inherit
 
 If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminAssigningSalesCategories.html#platformCreatingSalesCategoriesMenuBuilder).
 
-#### Creating sales categories
+### Creating sales categories
 
 While you can assign sales categories in the menu builder, you must use the classic Sales Categories page to create the sales categories themselves.
 
@@ -880,7 +880,7 @@ Alternatively, you can:
 
 
 
-### Assigning tax rates and tax behavior
+## Assigning tax rates and tax behavior
 
 During the on-boarding process, you specify the tax rates that apply to your restaurant location. By default, these tax rates are inherited by any menus you create for the restaurant. According to the rules of menu inheritance, the tax rates also flow down to your menu groups, subgroups, and menu items in the following ways:
 
@@ -909,7 +909,7 @@ The following sections provide instructions for setting tax rates and behavior. 
 
 
 
-#### Setting tax rates and tax behavior
+### Setting tax rates and tax behavior
 
 To override the inherited tax rates for a menu, menu group, or subgroup, go to the Taxes section of the entity's details page, select the link icon next to Tax rates to unlink the configuration, and then select the tax rates from the list. To override the Calculate prices with tax included or Takeout exception setting, select its link icon to unlink the configuration and then configure the setting as needed.
 
@@ -927,7 +927,7 @@ To configure a menu item so that it inherits its tax rates, set the Inherit tax 
 
 If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOverview.html).
 
-#### Understanding tax inclusion
+### Understanding tax inclusion
 
 When tax is included in a menu item's price, the guest pays the price you have set and any applicable taxes are taken out of that price, instead of being added to it. Use this option when you want a guest's check total to be a round number. This eliminates the need for employees to deal with coins and makes tipping simpler to calculate. It can, however, decrease net revenue if the price you set does not account for applicable taxes.
 
@@ -959,7 +959,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminAssigningTaxRatesInMenuBuilder.html#platformSettingTaxRatesAndTaxBehavior).
 
-#### Understanding takeout tax exception
+### Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 
@@ -967,7 +967,7 @@ For more information on setting takeout tax exemption behavior, see [Setting tax
 
 For more information on dining options, see [Dining options](adminDiningOptions.html).
 
-### Setting time-based ordering rules for online orders
+## Setting time-based ordering rules for online orders
 
 In the Time-based ordering rules section of a menu item's details page, you can specify rules for your online orders:
 
@@ -1024,7 +1024,7 @@ In the Time-based ordering rules section of a menu item's details page, you can 
 
 
 
-### Specifying ordering channel visibility for a menu item
+## Specifying ordering channel visibility for a menu item
 
 The side panel for each menu item has a Channel visibility section that shows the ordering channels where the menu item is visible. If a menu item is visible on a channel, it is available for ordering on that channel. Options include:
 
@@ -1132,7 +1132,7 @@ Follow the procedure below for the view you want to use, [Full menu](platformMen
 
 
 
-### Using advanced pricing strategies for menu items
+## Using advanced pricing strategies for menu items
 
 Menu manager supports setting base prices, size prices, and open prices in Full menu view and editing existing base, size, location-specific, and menu-specific prices in Items view.
 
@@ -1269,7 +1269,7 @@ If you are a multi-location restaurant, select the item's name to open its class
 
 
 
-### Viewing read-only menu item information in Items view
+## Viewing read-only menu item information in Items view
 
 The Items view of the menu manager provides additional read-only information about menu items. For example, the Found in column displays information about where a menu item appears in the menu hierarchy. For more information, see [Items and modifiers view](platformColumnsInTheMenuManagerViews.html#platformMenuManagerItemAndModifierColumns).
 

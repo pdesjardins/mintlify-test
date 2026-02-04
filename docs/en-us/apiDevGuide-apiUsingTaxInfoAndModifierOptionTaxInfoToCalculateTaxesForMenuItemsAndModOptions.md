@@ -133,7 +133,7 @@ Modifier Option 3 is configured so that its tax rate overrides the parent menu i
 > It is not shown in the examples in this section but the `ModifierOption` object still contains the original `taxInfo` value that stored the tax rate GUIDs for a modifier option's parent menu item. Your integration should switch from using the `taxInfo` value to using the `modifierOptionTaxInfo` value. The `taxInfo`value is no longer accurate for modifier options that do not inherit their tax rates from a parent menu item.
 
 
-### Impact of tax-related features not returned in the ModifierOptionTaxInfo object
+## Impact of tax-related features not returned in the ModifierOptionTaxInfo object
 
 There are other tax-related features that can impact the tax of a modifier option, such as tax inclusion and smart tax, that *are not* returned in the `ModifierOptionTaxInfo` object. More information on these features and their impact on modifier option taxes is provided in [Tax functionality interaction](adminTaxesOnModifiers.html#adminModifierTaxInteraction).
 

@@ -20,7 +20,7 @@ A restricted order is one that has been closed for a long time, making it unlike
 
 ![Diagram showing the transition from closed to restricted.](https://doc.toasttab.com/doc/media/order-states-restricted.png)
 
-### Identifying restricted orders
+## Identifying restricted orders
 
 When you view a restricted order in Toast Web, the Order Details page shows a padlock icon next to the order number. The image below shows an example of a restricted order.
 
@@ -28,7 +28,7 @@ When you view a restricted order in Toast Web, the Order Details page shows a pa
 
 Restricted orders do not have the send to devices or re-open check links on the Toast Web Order Details page that are found on un-restricted orders.
 
-### Restricting an order
+## Restricting an order
 
 The Toast platform determines when the configured time period has elapsed for a closed order and updates its state to restricted automatically.
 
@@ -67,7 +67,7 @@ Setting orders to restrict at the end of the day minimizes the need for reportin
 
 To update the restricted order time period for your restaurant, contact Toast support. Restaurant employees cannot update the Restricted Check Period configuration option.
 
-### Removing an order restriction
+## Removing an order restriction
 
 Once an order has been marked as restricted, its status cannot be changed to unrestricted. If necessary, Toast support can make the following changes to a restricted order:
 
@@ -80,7 +80,7 @@ Once an order has been marked as restricted, its status cannot be changed to unr
 
 Restaurant employees cannot make these changes.
 
-### Refunding a restricted order
+## Refunding a restricted order
 
 Refunding a restricted order uses the standard [check refund workflow](adminIssuingARefund.html). Restricted orders paid for using a card, cash, or Toast gift cards can be refunded while restricted orders paid for with house accounts, third-party gift cards, or other payment types cannot be refunded. See [Refund permissions and limitations](adminRefundPermissionsLimitations.html) for more information.
 
@@ -91,7 +91,7 @@ Refunding a restricted order uses the standard [check refund workflow](adminIssu
 > Toast platform reports include restricted order refunds on the date of the refund, and not the date of the original transaction.
 
 
-### Voiding a restricted order
+## Voiding a restricted order
 
 Once an order has become restricted, you cannot void it and must instead refund the order. For more information about when to void or refund an order, see this [Toast Central article](https://central.toasttab.com/s/article/Understand-when-to-void-vs-refund).
 

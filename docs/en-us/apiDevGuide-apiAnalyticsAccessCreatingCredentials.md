@@ -104,13 +104,13 @@ On the Credentials page, you can:
 
 
 
-### Viewing analytics API access credentials in JSON format
+## Viewing analytics API access credentials in JSON format
 
 You can choose to view your credentials in JSON format. JSON is short for JavaScript Object Notation. You can choose to copy your credentials and include them in the [request for an authentication token](authentication.html#apiAuthGetTokenRequest).
 
 ![Shows credentials in JSON format.](https://doc.toasttab.com/doc/media/api-analytics-access-credentials-json.png)
 
-### Rotating client secret
+## Rotating client secret
 
 
 
@@ -152,7 +152,7 @@ A client secret is a private string assigned by Toast to verify the identity of 
 
 
 
-### Deleting analytics API access credentials
+## Deleting analytics API access credentials
 
 
 

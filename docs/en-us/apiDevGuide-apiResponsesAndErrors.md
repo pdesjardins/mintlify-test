@@ -24,7 +24,7 @@ Your Toast API integration client software must also be prepared to handle 5*`xx
 
 Be aware that different APIs handle errors in different ways. If it makes sense for the API call and implementation, it is acceptable to flag a warning or even an error and continue processing a multi-step request to completion.
 
-### Monitoring Toast API responses
+## Monitoring Toast API responses
 
 Toast APIs return important information about the results of the REST requests that you send. The Toast APIs return standard HTTP responses, which include information about the result of the REST request and information about any errors that occurred. When you develop an integration with the Toast platform, your client software must monitor and respond to those HTTP responses.
 
@@ -32,20 +32,20 @@ The Toast platform performs restaurant functions and returns restaurant informat
 
 To get help correcting problems that result in unsuccessful Toast API requests, contact Toast integration support.
 
-### HTTP status codes
+## HTTP status codes
 
 Toast APIs use [HTTP status codes](https://tools.ietf.org/html/rfc7231#section-6) to indicate the status of an API request. Toast APIs support the following HTTP status codes.
 
 Almost all APIs support the HTTP codes below and no additional HTTP codes. If an API supports any HTTP codes other than the ones listed below, [the reference documentation for the API](https://doc.toasttab.com/openapi/) lists the additional supported codes.
 
-#### Success
+### Success
 
 | Status code | Name | Description | 
 | --- | --- | --- |
 | 200 | OK | Successful response. The Toast platform was able to process the API request as expected. | 
 | 204 | No Content | The request was successful but there is no content to return. | 
 
-#### Client error
+### Client error
 
 | Status code | Name | Description | 
 | --- | --- | --- |
@@ -62,7 +62,7 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
 | 429 | Too Many Requests | You have exceeded your [rate limit](apiRateLimiting.html) and must wait before sending more Toast API requests. | 
 | 499 | Client Closed Request | Your system closed the API request before the Toast platform was able to process the request. | 
 
-#### Server error
+### Server error
 
 | Status code | Name | Description | 
 | --- | --- | --- |
@@ -70,7 +70,7 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
 | 502 | Bad Gateway | The Toast platform experienced an internal gateway error when attempting to process the request. | 
 | 504 | Gateway Timeout | The Toast platform was unable to process the request because internal services took too long to complete processing actions (timeout). | 
 
-### ErrorMessage information
+## ErrorMessage information
 
 Toast APIs return a JSON `ErrorMessage` object in the HTTP response to an unsuccessful REST request. The `ErrorMessage` object includes information that describes one or more errors encountered during the processing of a request.
 
@@ -150,7 +150,7 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
 ```
 
   
-### Common errors
+## Common errors
 
 | Error | Description | 
 | --- | --- |

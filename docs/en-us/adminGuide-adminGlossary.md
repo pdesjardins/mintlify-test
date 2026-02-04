@@ -14,7 +14,7 @@ codeExamples: 0
 
 | [A](adminGuide-adminGlossary.html#glossA) | [B](adminGuide-adminGlossary.html#glossB) | [C](adminGuide-adminGlossary.html#glossC) | [D](adminGuide-adminGlossary.html#glossD) | [E](adminGuide-adminGlossary.html#glossE) | [F](adminGuide-adminGlossary.html#glossF) | [G](adminGuide-adminGlossary.html#glossG) | [H](adminGuide-adminGlossary.html#glossH) | [I](adminGuide-adminGlossary.html#glossI) | [K](adminGuide-adminGlossary.html#glossK) | [L](adminGuide-adminGlossary.html#glossL) | [M](adminGuide-adminGlossary.html#glossM) | [N](adminGuide-adminGlossary.html#glossN) | [O](adminGuide-adminGlossary.html#glossO) | [P](adminGuide-adminGlossary.html#glossP) | [Q](adminGuide-adminGlossary.html#glossQ) | [R](adminGuide-adminGlossary.html#glossR) | [S](adminGuide-adminGlossary.html#glossS) | [T](adminGuide-adminGlossary.html#glossT) | [U](adminGuide-adminGlossary.html#glossU) | [W](adminGuide-adminGlossary.html#glossW) | [Z](adminGuide-adminGlossary.html#glossZ) | [0-9](adminGuide-adminGlossary.html#gloss09) | 
 
-#### A
+## A
 
 
 
@@ -57,7 +57,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 
-#### B
+## B
 
 
 
@@ -108,7 +108,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 
-#### C
+## C
 
 
 
@@ -203,7 +203,7 @@ You can add customer credit (also called guest credit or store credit) to a gues
 
 
 
-#### D
+## D
 
 
 
@@ -221,7 +221,7 @@ A Toast KDS device can be configured to show orders based on the specified dinin
 
 
 
-#### E
+## E
 
 
 
@@ -249,7 +249,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 
-#### F
+## F
 
 
 
@@ -280,7 +280,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 
-#### G
+## G
 
 
 
@@ -311,7 +311,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 
-#### H
+## H
 
 
 
@@ -327,7 +327,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 
-#### I
+## I
 
 
 
@@ -360,7 +360,7 @@ Example: you set up a menu group named Salad and set the prep station for that g
 
 
 
-#### K
+## K
 
 
 
@@ -371,7 +371,7 @@ Example: you set up a menu group named Salad and set the prep station for that g
 
 
 
-#### L
+## L
 
 
 
@@ -387,7 +387,7 @@ Example: you set up a menu group named Salad and set the prep station for that g
 
 
 
-#### M
+## M
 
 
 
@@ -423,7 +423,7 @@ Example: you set up a menu group named Salad and set the prep station for that g
 
 
 
-#### N
+## N
 
 
 
@@ -448,7 +448,7 @@ For more information, see [Routing items to a virtual prep station](adminPrevent
 
 
 
-#### O
+## O
 
 
 
@@ -479,7 +479,7 @@ For more information, see [Routing items to a virtual prep station](adminPrevent
 
 
 
-#### P
+## P
 
 
 
@@ -522,7 +522,7 @@ For Toast platform configuration, a prep station identifies the location of a To
 
 
 
-#### Q
+## Q
 
 
 
@@ -533,7 +533,7 @@ For Toast platform configuration, a prep station identifies the location of a To
 
 
 
-#### R
+## R
 
 
 
@@ -554,7 +554,7 @@ For Toast platform configuration, a prep station identifies the location of a To
 
 
 
-#### S
+## S
 
 
 
@@ -627,7 +627,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 
-#### T
+## T
 
 
 
@@ -678,7 +678,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 
-#### U
+## U
 
 
 
@@ -694,7 +694,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 
-#### W
+## W
 
 
 
@@ -710,7 +710,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 
-#### Z
+## Z
 
 
 
@@ -721,7 +721,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 
-#### 0-9
+## 0-9
 
 
 

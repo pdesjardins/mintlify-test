@@ -32,7 +32,7 @@ When you use this option, the order is re-sent to the kitchen. Closed orders are
 
 
 
-### Note on transferring split checks
+## Note on transferring split checks
 
 An order can be split into multiple checks. When you select a single check to transfer from an order that contains multiple checks, the Toast platform automatically selects and transfers all of the checks in the order.
 
@@ -40,7 +40,7 @@ You might want to transfer only one check to a different server. For example, a 
 
 To only transfer a single check, instead of transferring the check to a different employee, update the check to change its table.
 
-### Required permissions to to transfer checks and orders
+## Required permissions to to transfer checks and orders
 
 To be able to transfer checks and orders, you must have both an access mode permission and a specific permission to transfer multiple orders or a single order.
 
@@ -82,7 +82,7 @@ If you have this permission, then you can transfer checks or orders that are ass
 
 
 
-### Transferring multiple checks
+## Transferring multiple checks
 
 When you transfer multiple open or paid checks to a different employee, the checks are not re-sent to the kitchen.
 
@@ -118,7 +118,7 @@ The Toast platform transfers the order and its associated checks to that employe
 
 
 
-### Transferring a single check or order
+## Transferring a single check or order
 
 When you transfer a single check to a different employee, the Toast platform resends the order to the kitchen without marking it as changed.
 

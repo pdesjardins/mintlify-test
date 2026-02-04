@@ -17,7 +17,7 @@ codeExamples: 0
 
 Service charges can be applied automatically based on eligibility criteria. Service charges also can be applied manually.
 
-### Criteria for applying a service charge automatically
+## Criteria for applying a service charge automatically
 
 The Toast platform uses the following criteria to determine whether a service charge can be automatically applied to a check.
 
@@ -44,7 +44,7 @@ The Toast platform uses the following criteria to determine whether a service ch
 
  | 
 
-### Manually adding and removing service charges
+## Manually adding and removing service charges
 
 If a service charge is not automatically applied to a check, a restaurant employee can manually add the service charge. To add the service charge:
 

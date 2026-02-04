@@ -119,7 +119,7 @@ The following sections provide information about voided and refunded payments.
 
 
 
-### Voided payments
+## Voided payments
 
 The `/payments/<em>\{guid\}</em>`endpoint can return data for voided payments. A void is a payment that has been fully or partially voided. Voids can be issued on the entire check or on one or more specific items.
 
@@ -200,7 +200,7 @@ The following example shows the JSON response data for a voided cash payment.
 (8) The current status of the payment, which is VOIDED for voided payments.
 
   
-### Refunded payments
+## Refunded payments
 
 The `/payments/<em>\{guid\}</em>`endpoint can return data for refunded payments. A refund is a credit card payment that has been fully reversed after it was captured. Refunds cannot be issued on specific items, but instead can only be issued on the entire check.
 

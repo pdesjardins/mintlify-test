@@ -68,7 +68,7 @@ After the CSV file is imported successfully, you are redirected to the Import hi
 
 
 
-### Fixing the order of re-imported menu entities
+## Fixing the order of re-imported menu entities
 
 After fixing a partially complete import, you may also need to to use Toast Web to re-order the imported menu entities. This is because previously failed entities are added to the bottom of their parent entities when they are re-imported.
 
@@ -91,7 +91,7 @@ Menu Group X
    Menu Item B
 ```
 
-### Returning to an incomplete report
+## Returning to an incomplete report
 
 It is possible to leave the Incomplete importpage without fixing and retrying the failed import (you can leave the Incomplete import page by clicking the close icon (X), or navigating to another page in Toast Web, or closing Toast Web altogether). If you do leave the Incomplete importpage with a failed bulk import in progress, then the next time you visit the Bulk import tool page, you see a notification on the Getting started tab, telling you that you have one or more import attempts that need attention. This notification remains on the Getting started tab until you resolve the issue with the failed bulk imports.
 

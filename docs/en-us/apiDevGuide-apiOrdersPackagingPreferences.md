@@ -14,7 +14,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-### Overview
+## Overview
 
 
 
@@ -43,11 +43,11 @@ For more information, see [Creating an order with packaging preferences](apiOrde
 
 
 
-### Working with packaging preferences
+## Working with packaging preferences
 
 The following sections further describe the way that you retrieve restaurant packaging options configuration and apply guest packaging preferences to an order.
 
-#### Getting packaging preference configuration options
+### Getting packaging preference configuration options
 
 Before you can submit an order with packaging preferences, you must retrieve the packaging preference configuration information for a restaurant from the [packaging configuration API](https://doc.toasttab.com/openapi/packaging/overview/).
 
@@ -120,7 +120,7 @@ Some local regulations require third-party ordering platforms to clearly state t
 (6) The guestMessage value includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.
 
   
-#### Creating an order with packaging preferences
+### Creating an order with packaging preferences
 
 After you retrieve the packaging preference configuration information for a restaurant and get a guest's packaging preferences in your ordering interface, you submit the order using the orders API. To submit an order with packaging preferences, you use the `AppliedPackagingInfo` and `AppliedPackagingItems`objects. For information about these objects, see [the orders API reference documentation.](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/AppliedPackagingInfo/)
 
@@ -206,7 +206,7 @@ The example below shows the response data for a request to create an order that 
 ```
 
   
-### Request an order with packaging preferences
+## Request an order with packaging preferences
 
 You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](apiOrdersGetDetailedInfoAboutOneOrder.html).
 
