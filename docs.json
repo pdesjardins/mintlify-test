@@ -16,7 +16,6 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "docs/en-us/adminGuide-platformGettingStartedOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-platformToastPlatformOverview",
                             {
                                 "group": "Toast platform concepts",
@@ -36,7 +35,6 @@
                     {
                         "group": "Orders",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideOrdersOmitChunkFromSearchIndex",
                             {
                                 "group": "Orders overview",
                                 "pages": [
@@ -85,7 +83,6 @@
                     {
                         "group": "Off-premise dining",
                         "pages": [
-                            "docs/en-us/adminGuide-platformOffPremiseDiningOmitChunkFromSearchIndex",
                             {
                                 "group": "Orders Hub",
                                 "pages": [
@@ -166,7 +163,6 @@
                     {
                         "group": "Employees",
                         "pages": [
-                            "docs/en-us/adminGuide-platformEmployeesOmitChunkFromSearchIndex",
                             {
                                 "group": "Permissions",
                                 "pages": [
@@ -231,7 +227,6 @@
                     {
                         "group": "Multiple restaurant locations",
                         "pages": [
-                            "docs/en-us/adminGuide-platformMultiLocationOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-sharingMenusAndOtherInformationAmongRestaurants",
                             {
                                 "group": "Key enterprise concepts",
@@ -335,7 +330,6 @@
                     {
                         "group": "Payments and money",
                         "pages": [
-                            "docs/en-us/adminGuide-platformPaymentsAndMoneyOmitChunkFromSearchIndex",
                             {
                                 "group": "Payment workflows",
                                 "pages": [
@@ -466,7 +460,6 @@
                     {
                         "group": "Publishing",
                         "pages": [
-                            "docs/en-us/adminGuide-platformPublishingDocsOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-platformPublishingOverview",
                             "docs/en-us/adminGuide-platformChangesThatRequirePublishing",
                             "docs/en-us/adminGuide-platformWhenToPublish",
@@ -485,7 +478,6 @@
                     {
                         "group": "Menus",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideMenusOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-adminMenuHierarchy",
                             {
                                 "group": "Menu builder",
@@ -664,7 +656,6 @@
                     {
                         "group": "Discounts",
                         "pages": [
-                            "docs/en-us/adminGuide-adminDiscountsIntroOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-platformDiscountsOverview",
                             "docs/en-us/adminGuide-adminDiscountTypes",
                             {
@@ -729,7 +720,6 @@
                     {
                         "group": "Kitchen operations and fulfillment",
                         "pages": [
-                            "docs/en-us/adminGuide-platformKitchenOperationsAndFulfillmentOmitChunkFromSearchIndex",
                             {
                                 "group": "Kitchen configuration",
                                 "pages": [
@@ -826,7 +816,6 @@
                     {
                         "group": "Network connections",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideNetworkConnectionsOmitChunkFromSearchIndex",
                             {
                                 "group": "Offline support",
                                 "pages": [
@@ -840,7 +829,6 @@
                     {
                         "group": "Integrations",
                         "pages": [
-                            "docs/en-us/adminGuide-platformIntegrationsOmitChunkFromSearchIndex",
                             "docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations",
                             {
                                 "group": "Data export files",
@@ -858,7 +846,6 @@
                     {
                         "group": "Guests",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideGuestsOmitChunkFromSearchIndex",
                             {
                                 "group": "Guest checks and data",
                                 "pages": [
@@ -886,7 +873,6 @@
                     {
                         "group": "UI options",
                         "pages": [
-                            "docs/en-us/adminGuide-devPortalPlatformGuideUiOptionsOmitChunkFromSearchIndex",
                             {
                                 "group": "UI options",
                                 "pages": [
@@ -903,7 +889,6 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalDevGettingStartedOmitChunkFromSearchIndex",
                             {
                                 "group": "Choose your integration type",
                                 "pages": [
@@ -996,7 +981,6 @@
                     {
                         "group": "Orders",
                         "pages": [
-                            "docs/en-us/apiDevGuide-apiOrdersOmitChunkFromSearchIndex",
                             {
                                 "group": "About the orders API",
                                 "pages": [
@@ -1045,7 +1029,6 @@
                     {
                         "group": "Payments",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalApiGettingPaymentInformationOmitChunkFromSearchIndex",
                             "docs/en-us/apiDevGuide-portalApiPaymentsOverview",
                             {
                                 "group": "Getting payment information",
@@ -1067,7 +1050,6 @@
                     {
                         "group": "Menus",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalApiGettingMenusOmitChunkFromSearchIndex",
                             {
                                 "group": "About the menus API",
                                 "pages": [
@@ -1107,7 +1089,6 @@
                     {
                         "group": "Stock",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalApiGettingStockOmitChunkFromSearchIndex",
                             "docs/en-us/apiDevGuide-apiStock",
                             {
                                 "group": "Getting stock information",
@@ -1127,7 +1108,6 @@
                     {
                         "group": "Restaurant info",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalApiGettingRestaurantInfoOmitChunkFromSearchIndex",
                             "docs/en-us/apiDevGuide-apiRestaurantInfo",
                             "docs/en-us/apiDevGuide-apiRestaurantBusinessDate",
                             {
@@ -1145,7 +1125,6 @@
                     {
                         "group": "Employees",
                         "pages": [
-                            "docs/en-us/apiDevGuide-apiEmployeeInformationOmitChunkFromSearchIndex",
                             {
                                 "group": "Getting employee information",
                                 "pages": [
@@ -1168,7 +1147,6 @@
                     {
                         "group": "Cash management",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalApiGettingCashManagementEntriesOmitChunkFromSearchIndex",
                             "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
                             {
                                 "group": "Getting cash management information",
@@ -1183,7 +1161,6 @@
                     {
                         "group": "Webhooks",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalWebhooksOmitChunkFromSearchIndex",
                             {
                                 "group": "Using webhooks",
                                 "pages": [
@@ -1216,7 +1193,6 @@
                     {
                         "group": "Outbound integrations",
                         "pages": [
-                            "docs/en-us/apiDevGuide-portalOutboundIntegrationsOmitChunkFromSearchIndex",
                             {
                                 "group": "Outbound API overview",
                                 "pages": [
@@ -1263,7 +1239,6 @@
                     {
                         "group": "Analytics",
                         "pages": [
-                            "docs/en-us/apiDevGuide-apiAnalyticsOmitChunkFromSearchIndex",
                             {
                                 "group": "About the analytics API",
                                 "pages": [
@@ -1349,7 +1324,6 @@
                     {
                         "group": "Recipes",
                         "pages": [
-                            "docs/en-us/devCookbook-devPortalCookbookHowToOmitChunkFromSearchIndex",
                             {
                                 "group": "Building integrations",
                                 "pages": [
