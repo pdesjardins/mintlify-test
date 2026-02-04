@@ -68,7 +68,7 @@ House accounts can hold a credit that can used for future orders. This allows gu
 
 Guests can pay a house account balance on a Toast POS device on any order screen. House account balances can be paid by all payment methods except by another house account. For more information on configuring payment options, see this [Toast Central article](https://central.toasttab.com/s/article/Configuring-Payment-Options).
 
-#### Paying a house account balance on the POS
+### Paying a house account balance on the POS
 
 **Procedure 6.98. To pay a house account balance on the POS**
 
@@ -121,11 +121,11 @@ Guests can pay a house account balance on a Toast POS device on any order screen
 
 
 
-#### Paying a house account invoice
+### Paying a house account invoice
 
 Guests can pay their invoice on Toast Web or from the pay link in their invoice email or text message.
 
-##### Paying an invoice from email or text message
+#### Paying an invoice from email or text message
 
 **Procedure 6.99. To pay a house account invoice from email or text message**
 
@@ -139,7 +139,7 @@ Guests can pay their invoice on Toast Web or from the pay link in their invoice 
 
 
 
-##### Paying an invoice on Toast Web
+#### Paying an invoice on Toast Web
 
 **Procedure 6.100. To pay a house account balance on Toast Web**
 
@@ -197,7 +197,7 @@ On the Payment schedule tab, the payment is listed with the due date, amount pai
 
 
 
-##### Adding a tip
+#### Adding a tip
 
 
 
@@ -226,12 +226,12 @@ You can add a pre-configured tip amount or a custom tip to an open or paid invoi
 > You can turn off the tipping feature by clearing the Allow customers to add a tip checkbox in the Details section on the Invoice page.
 
 
-##### Resending a receipt
+#### Resending a receipt
 
 To resend a paid invoice receipt, select Resend receipt from the Actions dropdown menu on the Invoice page. If the receipt was successfully sent, a `Receipt sent
         successfully` banner appears at the bottom of the page.
 
-##### Adjusting a payment
+#### Adjusting a payment
 
 You can adjust the payment amount for an invoice on the Invoice page. You can void or adjust a payment from the Payment schedule section or from the Actions dropdown menu on the Invoice page.
 
@@ -276,7 +276,7 @@ You can adjust the payment amount for an invoice on the Invoice page. You can vo
 
 
 
-##### Voiding a payment
+#### Voiding a payment
 
 You can void a payment for an open invoice on the Invoice page.
 

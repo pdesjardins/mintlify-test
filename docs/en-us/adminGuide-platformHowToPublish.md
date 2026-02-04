@@ -36,7 +36,7 @@ There are key differences between the behavior of the Publish Now prompt and the
 > The Toast development team is working on an improved experience for publishing changes called the Publishing center. The Toast account \> Publishing \> Publishing center page will provide a centralized location where you can view information about configuration changes that are waiting to be published, have been successfully published, have failed to be published, or are scheduled to be published in the future. This feature is a work in progress and is in limited release. For more information, see [Publishing center overview](platformPublishingCenterOverview.html).
 
 
-#### Using the Publish Now prompt and Publish all changes buttons
+### Using the Publish Now prompt and Publish all changes buttons
 
 The Publish Now prompt appears at the top of a Toast Web page when you make a change that requires publishing, allowing you to publish that change immediately.
 
@@ -61,7 +61,7 @@ Select the Publish Now prompt or a Publish all changes button if:
 
 
 
-#### Using the Publish Config page
+### Using the Publish Config page
 
 The Publish Config page displays a publication history for your restaurant. It also allows you to publish changes for one or more locations.
 
@@ -82,7 +82,7 @@ For a restaurant with a single location, if you have saved changes that need to 
 
 For a restaurant with multiple locations, the Publish Config page lets you publish one location at a time, or you can select a set of locations and publish them all at once. For more information, see [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html).
 
-#### Using the Publish Config V2 page
+### Using the Publish Config V2 page
 
 The Publish Config V2 page provides similar functionality to the Publish Config page but it includes additional information about changes that were published and changes that are queued up to publish. This additional information includes:
 

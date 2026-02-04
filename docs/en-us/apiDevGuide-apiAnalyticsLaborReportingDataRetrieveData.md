@@ -19,7 +19,7 @@ Send a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint to re
 
 To request the labor reporting data, you must include the labor reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
-#### Request to retrieve labor reporting data
+### Request to retrieve labor reporting data
 
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 
@@ -37,7 +37,7 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 (3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-#### Response to the retrieval request for labor reporting data
+### Response to the retrieval request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 

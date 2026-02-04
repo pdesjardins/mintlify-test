@@ -52,7 +52,7 @@ You can use the orders API to modify the following delivery information:
 > The delivery location values (for example, street address and city) cannot be updated.
 
 
-#### How to update the delivery information
+### How to update the delivery information
 
 To update delivery information, you send a `PATCH` request to the `/orders/<em>\{orderGuid\}</em>/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo` object that provides the updated values.
 
@@ -93,7 +93,7 @@ The response contains the full `Order` object. For an example, see [this respons
 > Once an order's `deliveryState` is `DELIVERED`, updates are no longer allowed.
 
 
-#### Example DeliveryInfo object
+### Example DeliveryInfo object
 
 The following example shows the `DeliveryInfo` object for updating delivery information for an order. For definitions of the values below, see [Delivery values](apiUpdatingDeliveryInfoForAnOrder.html#apiDeliveryInfoValues).
 
@@ -122,7 +122,7 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 
 (5) The delivery notes for the order. For more information, see notes.
 
-#### Example response when updating delivery information
+### Example response when updating delivery information
 
 The following example shows the response for a `PATCH`request to the `/orders/<em>\{orderGuid\}</em>/deliveryInfo`endpoint of the orders API.
 
@@ -173,7 +173,7 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
 
 (3) The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have behavior set to DELIVERY.
 
-#### Viewing the delivery information in the Toast POS application
+### Viewing the delivery information in the Toast POS application
 
 The following image shows an order on the Unassigned tab of the Deliveryscreen on a Toast POS device.
 

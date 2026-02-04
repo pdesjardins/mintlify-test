@@ -21,7 +21,7 @@ You can configure a discount to require a manager to apply the discount.
 
 If a manager is required to apply the discount, you can also require manager permissions for third-party rewards that are tied to the discount.
 
-#### Requiring manager permissions to apply a discount
+### Requiring manager permissions to apply a discount
 
 In the Advanced Settings section of the discount configuration page, the Permissions Level setting determines who can apply a discount.
 
@@ -29,7 +29,7 @@ By default, it is set to Any User, meaning that any restaurant employee can appl
 
 To only allow a manager to apply the discount, select Manager.
 
-#### Requiring manager permissions for third-party rewards
+### Requiring manager permissions for third-party rewards
 
 A discount can be associated with third-party rewards.
 

@@ -34,7 +34,7 @@ When a restaurant sets their packaging preferences, and you receive the `packagi
 
 Packaging preferences configuration webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `packaging` event category, the `eventCategory` value is set to `partner` and the `eventType` is set to `packaging_updated`.
 
-#### packaging_updated
+### packaging_updated
 
 A restaurant using your integration has updated its packaging preferences configuration in Toast Web.
 

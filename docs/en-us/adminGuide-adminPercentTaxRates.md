@@ -23,7 +23,7 @@ You can configure multiple percent tax rates for your restaurant. For example, y
 
 In addition to the basic (primary) percent tax rate, you can optionally configure a secondary [takeout tax rate](adminPercentTaxRates.html#takeoutTaxRate) for takeout orders.
 
-#### Rounding options
+### Rounding options
 
 When you configure a percent tax rate, you select a rounding option for the tax rate. A rounding option determines how tax amounts that have three or more decimal places are rounded to two decimal places. This type of rounding is often called penny rounding, because each fractional penny is rounded to a whole penny.
 
@@ -45,7 +45,7 @@ The following table describes the four Toast rounding options.
 | Always Round Down | Always round down every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round down to $1.23. | $0.112 -\> $0.11$0.115 -\> $0.11$0.125 -\> $0.12$0.135 -\> $0.13 | 
 | Always Round Up | Always round up every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round up to 1.24. | $0.112 -\> $0.12$0.115 -\> $0.12$0.125 -\> $0.13$0.135 -\> $0.14 | 
 
-#### Takeout tax rates
+### Takeout tax rates
 
 The tax code in some states specify that different tax rates must be charged for takeout food items versus dine-in food items. For example, meals consumed in the restaurant may be taxed at a higher rate than meals taken out and consumed at home.
 
@@ -80,7 +80,7 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 
 ![Dining Option dialog on the Toast POS device.](https://doc.toasttab.com/doc/media/tax-pos-dining-option.png)
 
-#### Configuring percent rates
+### Configuring percent rates
 
 1. [Access Toast Web](adminAccessToastAdminBackend.html).
 

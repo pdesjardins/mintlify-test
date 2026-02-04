@@ -29,7 +29,7 @@ For example, you can create a check-level discount that applies a 20% bulk disco
 
 
 
-#### Eligible discount types for bulk discounts
+### Eligible discount types for bulk discounts
 
 You can configure these discount types to be bulk discounts:
 
@@ -51,7 +51,7 @@ The discount must have one and only one required item, which can be a menu item,
 
 Item-level discounts, open amount and percent discounts, and BOGO discounts are not eligible to be bulk discounts.
 
-#### Configuring a bulk discount
+### Configuring a bulk discount
 
 On the discount configuration page, under Advanced Settings, the Bulk Discount setting determines whether a discount can apply in bulk to the number of eligible items that you configure.
 
@@ -84,7 +84,7 @@ If you check the Bulk Discount setting but leave the Quantity fields blank, the 
 > You use the Min Quantity and Max Quantity fields to control the application of the bulk discount based on the number of eligible items on the check. You can also use the Min/Maxconfiguration option to control the application of the bulk discount based on the monetary total of the check. For details on the Required Min/Max Check Amount setting, see [Configuring required minimum and maximum check totals](adminDiscountsMinMax.html).
 
 
-#### Viewing a bulk discount on the Toast POS app
+### Viewing a bulk discount on the Toast POS app
 
 On the Toast POS app order screen, when you apply a bulk discount to a check, the items to which the discount applies are grouped under the name of the discount.
 

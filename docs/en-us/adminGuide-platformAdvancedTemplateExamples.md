@@ -24,7 +24,7 @@ Because it is a more complex template to use, this section provides examples of 
 > Due to their large size, the images in this section appear as thumbnails. To see the full-size image, right-click the image and choose Open image in new tab. You may also have to zoom in on the image after you open it in a new tab, to more easily see the details.
 
 
-#### Menu item operations
+### Menu item operations
 
 This example creates a new menu item and attaches it to an existing menu group.
 
@@ -34,7 +34,7 @@ This example attaches a new menu item to an existing menu group.
 
 ![Example of an import spreadsheet that attaches a new menu item to an existing menu group.](https://doc.toasttab.com/doc/media/menus-bulk-import-example-2.png)
 
-#### Modifier group operations
+### Modifier group operations
 
 This example creates a new modifier group and attaches it to a new menu item *in the same import file*.
 
@@ -56,7 +56,7 @@ This example attaches an existing modifier group to a new menu item.
 
 ![Example of an import spreadsheet that attaches an existing modifier group to a new menu item.](https://doc.toasttab.com/doc/media/menus-bulk-import-example-10.png)
 
-#### Modifier operations
+### Modifier operations
 
 This example creates a new modifier and attaches it to a new modifier group *in the same import file*.
 

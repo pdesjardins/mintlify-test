@@ -45,7 +45,7 @@ In addition to the specific bump bar and overlay insert, your restaurant must us
 > You can still use the KDS device touchscreen while the bump bar is connected.
 
 
-#### Choosing the bump bar orientation
+### Choosing the bump bar orientation
 
 You can choose to orient your bump bar either horizontally or vertically, depending what works best for your kitchen. The button overlay included with the bump bar has the horizontal layout printed on one side and the vertical layout printed on the other side, allowing you to change the orientation as needed.
 
@@ -121,7 +121,7 @@ When using the vertical layout with a wireless bump bar, the light indicator mus
 
 For more information on how to set up the bump bar, see [Setting up the bump bar](platformKitchenBumpBarSetUp.html).
 
-#### Understanding the button layout
+### Understanding the button layout
 
 The bump bar uses an overlay insert to label the bump bar buttons, with each button performing a specific action. The following is a diagram of the bump bar horizontal layout with numbers corresponding to descriptions in a list below the diagram.
 

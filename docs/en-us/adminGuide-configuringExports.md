@@ -30,7 +30,7 @@ On the Data Exports page, you see a list of exportable data types, for example, 
 
 ![The Data Exports page displaying data options.](https://doc.toasttab.com/doc/media/data-export-configuration-screen.png)
 
-#### Configuring the order of data export columns
+### Configuring the order of data export columns
 
 You can reorder the columns in each data type by selecting the grid box in the far left column and moving it up or down into place. The order of the columns in the data export file reflects the order you arrange in Toast Web.
 

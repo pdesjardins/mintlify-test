@@ -30,11 +30,11 @@ Loyalty reward offer redemptions are handled entirely by your organization. Your
 
 
 
-#### Check-level reward offers
+### Check-level reward offers
 
 There is no additional validation done by the POS for check-level rewards. Check-level rewards are entirely validated by your loyalty program. If applied, the POS will recalculate the check total.
 
-#### Item-level reward offers
+### Item-level reward offers
 
 Minimal validation occurs in the POS when an item-level reward offer is selected. The offer must include a selection GUID to which the reward can apply. If the reward is applied by the restaurant employee, the POS will attach the reward to the item selection with the matching GUID.
 
@@ -51,7 +51,7 @@ The `Check` contains a list of `Selection` objects representing items on the che
 
 
 
-#### Discount limitations
+### Discount limitations
 
 You can only apply a single item-level discount to a menu item selection in a check. If a restaurant employee applies a discount configured in the Toast platform to a menu item selection, you cannot apply an additional item-level discount based on loyalty program rewards.
 

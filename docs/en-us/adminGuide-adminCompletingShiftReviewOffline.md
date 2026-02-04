@@ -30,7 +30,7 @@ If your Toast POS device is offline, you will be unable to complete shift review
 
 
 
-#### Starting your shift when offline
+### Starting your shift when offline
 
 If you are offline at the start of your shift, you will be unable to log in to a Toast POS device, however you can clock in and start your shift by using the normal procedure of signing in with a passcode and then clocking in on the Clock In/Out screen.
 
@@ -46,7 +46,7 @@ After clocking in, employees should follow these best practices:
 
 
 
-#### Ending your shift when offline
+### Ending your shift when offline
 
 If you are offline at the end of your shift, your shift review workflow is dependent on if shift review is required or optional.
 

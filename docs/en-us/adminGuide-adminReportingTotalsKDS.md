@@ -28,7 +28,7 @@ These features count only fired items, and do not report items that are in sent 
 
 In addition, this [Toast Central article](https://central.toasttab.com/s/article/KDS-All-Day-1493055871075) provides an overview of all day view, and this [Toast Central article](https://central.toasttab.com/s/article/Production-Item-Count) provides an overview of production items.
 
-#### About all day view
+### About all day view
 
 When you [enable all day view](adminReportingTotalsKDS.html#adminEnableAllDayView) for your restaurant, a Show All Day View option appears in the KDS device title bar. Employees can use this feature to see totals for identical menu items, with or without information about modifiers, by temporarily switching from the ticket screen to all day view. All day view gives your kitchen employees a way to verify how many of each item they need to be working on at any given time.
 
@@ -50,7 +50,7 @@ Kitchen employees might prefer this configuration of all day view if the wings a
 
 To return to the ticket view from all day view you tap Hide All Day View.
 
-#### Update all day view
+### Update all day view
 
 By default, all day view is enabled for all restaurants to display item names and totals. To update your configuration of all day view, you must have the Web Setup \> Kitchen / Dining Room Setup access permission. Then, follow these steps.
 

@@ -57,7 +57,7 @@ The following sections provide more information about marketplace facilitator ta
 
 
 
-#### Tax payment reporting information
+### Tax payment reporting information
 
 You can see the tax amount that a marketplace facilitator remitted for an order in the Toast platform reporting information for your restaurant.
 
@@ -113,13 +113,13 @@ The following diagram shows marketplace facilitator tax amounts in the Sales Sum
 > Toast platform reporting information includes many aggregated tax calculations that are not broken down by marketplace facilitator tax payment categories. This excludes Local by Toast and Toast Local which can be found in the Sales Summary Report. Aggregated tax amount calculations other than the ones described in this section include *both paid and unpaid* marketplace facilitator tax amounts.
 
 
-##### Calculating tax amounts
+#### Calculating tax amounts
 
 To calculate the amounts used for taxes, refer to the orders API `AppliedTaxRate` object. For more information about this object and how it applies to marketplace facilitators, see [Reviewing marketplace facilitator tax calculations](apiMarketplaceFacilitatorTaxInformation.html#apiOrdersGetMarketplaceFacilitatorCalculateTax).
 
 For instructions on how to calculate the total marketplace facilitator tax paid for an order, see [Calculating total marketplace facilitator tax paid](apiMarketplaceFacilitatorTaxInformation.html#apiOrdersGetMarketplaceFacilitatorCalculateTotalTaxPaid).
 
-#### Tax amounts are aggregated for all items and checks
+### Tax amounts are aggregated for all items and checks
 
 The tax amounts for marketplace facilitator orders are aggregated for each guest check in an order. Tax amounts that apply to specific items in an order are not reported separately from other items. For example, if an item in an order is subject to an alcoholic beverage tax, that tax amount is aggregated with the other tax amounts for the order in Toast platform reporting information.
 
@@ -129,7 +129,7 @@ The following diagram shows the tax amount aggregation for a marketplace facilit
 
 ![Marketplace facilitator orders sum the tax amounts for all items in all checks and then divide the total tax amount proportionately by item price among all items when the data is stored in the Toast platform. This includes item types that are taxed at different rates.](https://doc.toasttab.com/doc/media/marketplace-facilitator-tax-aggregation.png)
 
-#### Marketplace facilitator orders are protected from changes
+### Marketplace facilitator orders are protected from changes
 
 When your Toast restaurant receives an order from a marketplace facilitator, you cannot make changes to the order. The Toast platform protects marketplace facilitator orders from changes because those orders match information that originated in the marketplace facilitator transaction.
 

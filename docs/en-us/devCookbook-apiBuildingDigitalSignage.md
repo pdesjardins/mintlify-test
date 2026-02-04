@@ -19,7 +19,7 @@ Follow the steps below to build a digital menu signage integration with the Toas
 
 This integration allows you to retrieve menu and restaurant information to display on a digital menu signage board.
 
-#### Required scopes
+### Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -35,21 +35,21 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 You can retrieve a list of your current scopes through your [Toast developer portal](apiDeveloperPortal.html#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](integrationDevProcess.html)guide for instructions on requesting access.
 
-#### Setup and planning
+### Setup and planning
 
-##### Complete initial integration setup
+#### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-##### Learn menu structure and hierarchy
+#### Learn menu structure and hierarchy
 
 Building a digital menu signage integration requires understanding of the Toast menu hierarchy, menu groups, items, modifiers, and sub-menu groups.
 
 To understand Toast menu concepts before you begin development, please review the [menu hierarchy documentation](adminMenuHierarchy.html).
 
-#### Handle menu data
+### Handle menu data
 
-##### Build your menu
+#### Build your menu
 
 Your digital signage might display different information depending on the exact experience you’re targeting. At least top level menu item names will be required, and other information may be displayed depending on the target experience.
 
@@ -90,7 +90,7 @@ Avoid infinite loops when parsing menus. There is a rare but possible menu confi
 
 Finally, your menu display integration should be able to handle [multiLocationId values](apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2.html). These values represent versions of the same menu item across multiple locations in a restaurant group. Handling these values will be important for many of your larger customers.
 
-##### Handle out of stock items
+#### Handle out of stock items
 
 Understand item stock information utilizing our [Stock API](apiUsingTheStockApi.html) endpoint and webhooks. Your menu display should prevent guests from seeing (ordering) items that are out of stock. Initialize the stock status of menu items by polling the stock API. Then your integration can use the [stock webhook](apiUsingTheStockWebhook.html) to receive real-time notifications about item stock updates. Fall back to the stock API if you miss a webhook update or if your webhook subscription is paused.
 

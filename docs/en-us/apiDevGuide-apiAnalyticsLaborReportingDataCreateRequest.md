@@ -54,7 +54,7 @@ To create a request for labor data, you must include:
 
 
 
-#### Request for labor reporting data
+### Request for labor reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/labor/\{timeRange\}` endpoint. This example uses the `day` time range.
 
@@ -75,7 +75,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
 
 (4) Include details about the requested labor reporting data in the message body. The following example is the message body for this curl command example.
 
-#### Message body for labor reporting data
+### Message body for labor reporting data
 
 The following example shows the message body for creating a labor reporting data request.
 
@@ -102,7 +102,7 @@ The following example shows the message body for creating a labor reporting data
 
 (5) This request for labor reporting data is grouped by job.
 
-#### Response to request for labor reporting data
+### Response to request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/day` endpoint.
 

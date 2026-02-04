@@ -25,11 +25,11 @@ A promo code can have effective dates to determine when the promo code is valid.
 
 A promo code can also be single use, meaning that each guest can only use the promo code once to apply the discount. To track the promo code usage, the guest provides a telephone number.
 
-#### Components of a promo code
+### Components of a promo code
 
 Each promo code includes the following components.
 
-##### Code value
+#### Code value
 
 The code is the value that is provided to enable the discount to be applied.
 
@@ -50,7 +50,7 @@ Text string codes can contain the following characters:
 
 
 
-##### Single use promo codes
+#### Single use promo codes
 
 By default, a promo code can be used multiple times by the same guest.
 
@@ -58,7 +58,7 @@ A single-use promo code can only be used once by each guest. For example, a disc
 
 When a restaurant employee enters a single-use promo code, they are prompted to enter the guest telephone number. If that number already has been used for the promo code, then the promo code is rejected and the discount is not applied.
 
-##### Promo code effective dates
+#### Promo code effective dates
 
 The effective dates for a promo code define the period of time during which the promo code is valid. If you do not specify effective dates for a promo code, then the promo code is always valid.
 
@@ -68,7 +68,7 @@ The effective dates must always include both a Start Date setting and an End Dat
 
 The Availability section of the discount configuration page allows you to specify effective dates for the discount as a whole. The promo code's start and end dates must fall within the range of the discount's Availabilitystart and end dates. For example, a discount with Availability dates of June 1 through June 3 cannot be configured with a promo code that is available June 2 through June 4.
 
-##### Promo code status
+#### Promo code status
 
 The Statusvalue for a promo code is set automatically based on the configured start and end dates:
 
@@ -84,13 +84,13 @@ The Statusvalue for a promo code is set automatically based on the configured st
 
 If you enter an upcoming or expired promo code on the Toast POS device, the promo code is not accepted and an error is displayed to indicate that the current date is not within the promo code date range.
 
-#### Configuring promo codes
+### Configuring promo codes
 
 The Promo Codes section of the discount configuration page contains the list of promo codes for a discount.
 
 ![Promo codes list for a discount.](https://doc.toasttab.com/doc/media/discount-promo-code-dates.png)
 
-##### Adding or updating a promo code
+#### Adding or updating a promo code
 
 From the Promo Codes list, you can add new promo codes and update the configuration of existing promo codes.
 
@@ -132,17 +132,17 @@ For more information about the effective dates for promo codes, see [Promo code 
 
 
 
-##### Removing a promo code
+#### Removing a promo code
 
 To remove a promo code from the list, click the delete icon for the promo code. The delete icon is in the Delete column at the right of the promo code list.
 
-#### Enabling and using promo code search
+### Enabling and using promo code search
 
 When a restaurant employee selects a discount to apply, if the discount requires a promo code, they are prompted to enter it.
 
 The promo code search setting allows restaurant employees to look up promo codes for guests and then apply the matching discount to an open check.
 
-##### Enabling promo code search for the Toast POS app
+#### Enabling promo code search for the Toast POS app
 
 Before restaurant employees can use the promo code search, you must enable it.
 
@@ -161,7 +161,7 @@ Before restaurant employees can use the promo code search, you must enable it.
 
 
 
-##### Searching for and applying a promo code
+#### Searching for and applying a promo code
 
 After you enable the promo code search feature, restaurant employees can search for promo codes in both Quick Order mode and Table Service mode.
 

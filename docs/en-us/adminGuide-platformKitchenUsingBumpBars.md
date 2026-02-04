@@ -57,7 +57,7 @@ While the bump bar is connected, temporary messages appear on the bottom of the 
 > If you use the touchscreen while the bump bar is connected, the action messages still appear.
 
 
-#### Navigating using the bump bar
+### Navigating using the bump bar
 
 You can navigate using the bump bar by:
 
@@ -98,7 +98,7 @@ When viewing a ticket dialog, the up and down buttons rotate through the actions
 
 ![An example of several items selected and the Fulfill option in focus when using a bump bar.](https://doc.toasttab.com/doc/media/kds-bump-bar-ticket-details.png)
 
-#### Acknowledging a flashing ticket
+### Acknowledging a flashing ticket
 
 If your restaurant configuration uses the [Flash Changes](adminKitchenDiningRoomReference.html#configFlashChanges) setting, the ticket intermittently changes the color of the ticket header to indicate there are changes. You need to acknowledge a ticket to stop the flashing behavior.
 
@@ -120,7 +120,7 @@ The focus changes to the ticket you want to acknowledge.
 
 
 
-#### Rushing a ticket using the bump bar
+### Rushing a ticket using the bump bar
 
 If you want to make a specific ticket a priority, you can choose to rush it, which moves the ticket to the top left of the KDS screen for all devices and marks it with RUSH.
 
@@ -162,7 +162,7 @@ The focus changes to the ticket you want to acknowledge.
 
 
 
-#### Printing a ticket using the bump bar
+### Printing a ticket using the bump bar
 
 If a kitchen printer is configured, you can choose to print specific tickets from your KDS device to your kitchen printer. For more information on configuring a kitchen printer, see [Adding a kitchen printer](adminAddKitchenPrinter.html).
 
@@ -210,7 +210,7 @@ The focus changes to the ticket you want to acknowledge.
 
 
 
-#### Fulfilling a ticket using the bump bar
+### Fulfilling a ticket using the bump bar
 
 You can fulfill a ticket, which marks all items on the ticket as fulfilled. For more information on what happens when fulfilling at a prep station, see [Understanding item fulfillment](platformKitchenUnderstandingItemFulfillmentKDS.html).
 
@@ -223,7 +223,7 @@ There are two ways to fulfill a ticket:
 
 
 
-#### Fulfilling an item or items using the bump bar
+### Fulfilling an item or items using the bump bar
 
 If your restaurant configuration enables the [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems) setting, you can choose to fulfill individual items on a ticket instead of the entire ticket.
 
@@ -270,7 +270,7 @@ The ticket dialog closes and a green check mark appears next to the item, indica
 
 
 
-#### Showing recently fulfilled tickets using the bump bar
+### Showing recently fulfilled tickets using the bump bar
 
 To show recently fulfilled tickets, press the view button on the bump bar. This displays both unfulfilled and recently fulfilled tickets. Press the view button again to hide recently fulfilled tickets. Here is an example of a page that shows fulfilled and unfulfilled tickets.
 
@@ -278,7 +278,7 @@ To show recently fulfilled tickets, press the view button on the bump bar. This 
 
 The fulfilled ticket is on the left and the unfulfilled ticket is on the right.
 
-#### Unfulfilling an item or items using the bump bar
+### Unfulfilling an item or items using the bump bar
 
 You can choose to unfulfill or recall a fulfilled item on a ticket so that the kitchen works on the item again.
 
@@ -353,7 +353,7 @@ The ticket dialog closes. The changes to the ticket depend on the fulfillment st
 
 
 
-#### Recall the most recently fulfilled ticket using the bump bar
+### Recall the most recently fulfilled ticket using the bump bar
 
 To recall the ticket most recently fulfilled on a device, press the RECALL LAST button. For more information about recall behavior, see [Redisplaying tickets with recall and unfulfill](adminRedisplayingTickets.html).
 

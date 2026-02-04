@@ -19,7 +19,7 @@ Access to Toast APIs, specific endpoints, and specific API endpoint operations i
 
 To see the scopes associated with your API client, you must decrypt the authentication token you receive after you request an authentication token. For more information about the contents of a Toast API authentication token, see [Authentication return data for a partner API client](authentication.html#apiAuthenticationReturnDataPartner) and [Authentication return data for a restaurant management group API client](authentication.html#apiAuthenticationReturnDataRestaurant).
 
-#### API client scope reference
+### API client scope reference
 
 The following table describes the scopes that determine what actions your Toast API client has permission to perform.
 
@@ -66,7 +66,7 @@ The following table describes the scopes that determine what actions your Toast 
 | Stock | Read | `stock:read` | Allows reading from the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
 | Stock | Write | `stock:write` | Allows updating stock status for menu items (and modifier option [item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference)) using the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
 
-#### Getting API client scopes
+### Getting API client scopes
 
 The scopes that give your Toast API client permission to use APIs, endpoints, and endpoint functions are assigned based on your organization's business requirements. Some Toast API scopes are available to all API clients and some scopes are assigned to clients after specific certification of the integration function they are used for.
 

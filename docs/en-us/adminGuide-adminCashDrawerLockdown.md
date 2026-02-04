@@ -47,7 +47,7 @@ It is important to note the following when using the cash drawer lockdown featur
 
 
 
-#### Configure cash drawer lockdown
+### Configure cash drawer lockdown
 
 You can configure the cash drawer lockdown setting for employees on Toast Web.
 
@@ -84,7 +84,7 @@ You can configure the cash drawer lockdown setting for employees on Toast Web.
 
 
 
-#### Lock down a cash drawer
+### Lock down a cash drawer
 
 On the Toast POS device, you can only lock open and paused cash drawers. You cannot lock closed drawers.
 

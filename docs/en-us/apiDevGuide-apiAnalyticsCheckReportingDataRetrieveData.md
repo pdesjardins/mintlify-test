@@ -21,7 +21,7 @@ To request the check reporting data, you must include the check reporting data r
 
 Optionally, you can choose to include a `fetchRestaurantNames` query parameter. If the `fetchRestaurantNames` query parameter is set to `true`, it adds the restaurant name to the check reporting data. If the `fetchRestaurantNames` query parameter is set to `false` or not included, it does not add the restaurant name.
 
-#### Request to retrieve check reporting data
+### Request to retrieve check reporting data
 
 The following example **curl** command sends a `GET` request to the `/era/v1/check/\{reportRequestGuid\}` endpoint.
 
@@ -42,7 +42,7 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 
 (4) Include an authentication token. For more information, see Authentication and restaurant access.
 
-#### Response to the retrieval request for check reporting data
+### Response to the retrieval request for check reporting data
 
 The following example shows the response from the `/era/v1/check/\{reportRequestGuid\}` endpoint.
 

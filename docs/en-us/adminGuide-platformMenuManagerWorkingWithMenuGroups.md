@@ -47,7 +47,7 @@ Subgroups can be used to make navigating your menu easier. However, each subgrou
 > Menu groups and subgroups have the same configuration options and are effectively the same except for their location in the menu hierarchy. This guide uses the term *menu group* to generically refer to both and only uses the term *subgroup* when it is necessary to make a distinction between the two.
 
 
-#### Creating a menu group
+### Creating a menu group
 
 This section provides information about creating menu groups.
 
@@ -86,7 +86,7 @@ For multi-location restaurants:
 
 
 
-#### Renaming a menu group
+### Renaming a menu group
 
 Follow the procedure below to rename a menu group.
 
@@ -117,7 +117,7 @@ Follow the procedure below to rename a menu group.
 
 
 
-#### Reordering menu groups
+### Reordering menu groups
 
 Your Toast ordering channels display your menu groups in the order you see them in the Full menu view. You can reorder your menu groups so they appear in the order you want them to.
 
@@ -160,7 +160,7 @@ Menu group reordering is limited to:
 
 
 
-#### Removing a menu group from its parent
+### Removing a menu group from its parent
 
 You can remove a menu group from its parent menu or menu group to hide it from your Toast ordering channels.
 
@@ -212,7 +212,7 @@ For multi-location restaurants:
 
 
 
-#### Alphabetizing the menu items in a menu group
+### Alphabetizing the menu items in a menu group
 
 You can alphabetize the menu items in a menu group, making them easier for employees and guests to find.
 
@@ -311,7 +311,7 @@ Menu Group A
 
 
 
-#### Assigning a POS button name and color
+### Assigning a POS button name and color
 
 You can customize the names and colors of the buttons employees see in the Toast POS app for the various menu entities:
 
@@ -326,7 +326,7 @@ Enter a name in the POS name field. To specify a button color, select the Button
 
 By default, the POS name field is empty and the button color is set to white.
 
-#### Assigning prep stations
+### Assigning prep stations
 
 You use prep stations to route menu items to the appropriate stations in the kitchen for fulfillment. A prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
@@ -357,7 +357,7 @@ To configure a menu item to inherit its prep stations, set the Inherit prep stat
 
 If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminAddPrepStation.html) and [Routing with prep stations](adminRoutingToPrepStations.html).
 
-#### Assigning courses
+### Assigning courses
 
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
@@ -381,7 +381,7 @@ To configure a menu item so that it inherits its course, set the Inherit course?
 
 If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminAssigningCourses.html#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
-##### Creating courses
+#### Creating courses
 
 While you can assign courses in the menu builder, you must use the classic Courses page to create the courses themselves.
 
@@ -417,7 +417,7 @@ Alternatively, you can do the following:
 
 
 
-#### Assigning sales categories
+### Assigning sales categories
 
 The Sales Summary and other Toast reports use sales categories to create a breakdown of your sales, organized by sales category, for example, Food, Drinks, Retail, and so on.
 
@@ -459,7 +459,7 @@ To configure a menu item so that it inherits its sales category, set the Inherit
 
 If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminAssigningSalesCategories.html#platformCreatingSalesCategoriesMenuBuilder).
 
-##### Creating sales categories
+#### Creating sales categories
 
 While you can assign sales categories in the menu builder, you must use the classic Sales Categories page to create the sales categories themselves.
 
@@ -495,7 +495,7 @@ Alternatively, you can:
 
 
 
-#### Assigning tax rates and tax behavior
+### Assigning tax rates and tax behavior
 
 During the on-boarding process, you specify the tax rates that apply to your restaurant location. By default, these tax rates are inherited by any menus you create for the restaurant. According to the rules of menu inheritance, the tax rates also flow down to your menu groups, subgroups, and menu items in the following ways:
 
@@ -524,7 +524,7 @@ The following sections provide instructions for setting tax rates and behavior. 
 
 
 
-##### Setting tax rates and tax behavior
+#### Setting tax rates and tax behavior
 
 To override the inherited tax rates for a menu, menu group, or subgroup, go to the Taxes section of the entity's details page, select the link icon next to Tax rates to unlink the configuration, and then select the tax rates from the list. To override the Calculate prices with tax included or Takeout exception setting, select its link icon to unlink the configuration and then configure the setting as needed.
 
@@ -542,7 +542,7 @@ To configure a menu item so that it inherits its tax rates, set the Inherit tax 
 
 If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOverview.html).
 
-##### Understanding tax inclusion
+#### Understanding tax inclusion
 
 When tax is included in a menu item's price, the guest pays the price you have set and any applicable taxes are taken out of that price, instead of being added to it. Use this option when you want a guest's check total to be a round number. This eliminates the need for employees to deal with coins and makes tipping simpler to calculate. It can, however, decrease net revenue if the price you set does not account for applicable taxes.
 
@@ -574,7 +574,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminAssigningTaxRatesInMenuBuilder.html#platformSettingTaxRatesAndTaxBehavior).
 
-##### Understanding takeout tax exception
+#### Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 
@@ -582,7 +582,7 @@ For more information on setting takeout tax exemption behavior, see [Setting tax
 
 For more information on dining options, see [Dining options](adminDiningOptions.html).
 
-#### Specifying ordering channel visibility for a menu group
+### Specifying ordering channel visibility for a menu group
 
 
 
@@ -623,7 +623,7 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 
 Unlike other settings such as tax rates and prep stations, the Channel visibility settings cannot be inherited from a parent. That said, if a parent menu entity is hidden from view for any of the Toast channels, then its child menu entities are also hidden from those channels. For example, consider a Dinner menu that contains an Appetizers group with a Chicken Satay menu item. If you hide the Dinner menu from Toast Online Ordering and the Toast Takeout (Local by Toast) app, then the Appetizers group and the Chicken Satay menu item will also be hidden from Toast Online Ordering and the Toast Takeout (Local by Toast) app, even if the Toast Online Ordering, Toast Takeout (Local by Toast) app setting is enabled for Appetizers and Chicken Satay.
 
-#### Viewing menu group versions (multi-location only)
+### Viewing menu group versions (multi-location only)
 
 The Menu groups section of a menu's details page shows the menu groups that the menu contains. If a menu group has more than one version, you see the View versionslink on its card.
 

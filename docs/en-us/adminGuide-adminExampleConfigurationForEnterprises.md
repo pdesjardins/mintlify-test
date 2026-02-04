@@ -51,7 +51,7 @@ To support these types of employees, you need the following jobs:
 
 The *manager* job is assigned to both franchise and location managers, however, you specify different locations where these managers' permissions apply. For example, a franchise manager's permissions apply only to locations in their franchise while a location manager's permissions apply only to the single location where they work.
 
-#### Understanding equivalent employees in the enterprise example
+### Understanding equivalent employees in the enterprise example
 
 When adding employees, the manager who is logged in to Toast Web can add employees that have equivalent permissions and restaurant access to their own, or a subset of their own permissions and restaurant access. This means that the employees being added can have:
 
@@ -66,11 +66,11 @@ In the enterprise example presented in this section, super users can add super u
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-adding-employees-in-an-enterprise.png)
 
-#### Adding jobs and employees to the enterprise example
+### Adding jobs and employees to the enterprise example
 
 Use the procedures below to add the manager and server jobs described in this enterprise example and also add employees for each job type. Prior to following these procedures, a Toast employee must create the super user job for you and assign it to at least one person in your enterprise.
 
-##### Adding jobs to the enterprise example
+#### Adding jobs to the enterprise example
 
 The instructions below describe how to create the manager and server jobs for the enterprise example. You must be a super user to create these jobs.
 
@@ -160,7 +160,7 @@ You can click a permission header row to quickly select all its child permission
 
 
 
-##### Adding employees to the enterprise example
+#### Adding employees to the enterprise example
 
 In this enterprise example, any type of manager can add a non-managerial employee, although franchise and location managers are restricted to adding employees to their own franchises or locations. To add a manager-level employee, you must be either a super user or an equivalent manager yourself. See [Understanding equivalent employees in the enterprise example](adminExampleConfigurationForEnterprises.html#adminUnderstandingEquivalentEmployeesInTheEnterpriseExample)for details.
 

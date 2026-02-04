@@ -38,7 +38,7 @@ To configure a menu item so that it inherits its course, set the Inherit course?
 
 If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminAssigningCourses.html#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
-#### Creating courses
+### Creating courses
 
 While you can assign courses in the menu builder, you must use the classic Courses page to create the courses themselves.
 

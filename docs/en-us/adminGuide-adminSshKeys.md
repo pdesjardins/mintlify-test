@@ -23,11 +23,11 @@ Toast sFTP data exports require the use of a public SSH key. Use the below secti
 > Private SSH keys are not supported.
 
 
-#### How to generate an SSH key with macOS™ or Windows™
+### How to generate an SSH key with macOS™ or Windows™
 
 This section includes information about how to generate an SSH key using macOS or Windows.
 
-##### macOS
+#### macOS
 
 Open a terminal window and use the below command to create a new SSH key.
 
@@ -46,7 +46,7 @@ Replace *`\{filename\}`* with the desired name of your SSH key file.
 
 The command shown above saves a private key and a public key in the ~/.ssh directory as *`filename`* (private key) and *`filename.pub`* (public key.) Open the .pub file in a text editor to retrieve your public key to add to the Toast Web.
 
-##### Windows
+#### Windows
 
 Open a command prompt and use the below command to create a new SSH key.
 
@@ -65,7 +65,7 @@ Replace the following from the above command:
 
 The above command saves a private key and public key in the C:\Users\user\.ssh directory as *`filename`*(private key) and *`filename.pub`* (public key). Open the .pub file in a text editor to retrieve your public key to add to Toast Web.
 
-##### Add your SSH key to Toast Web
+#### Add your SSH key to Toast Web
 
 Toast Web allows up to 10 SSH keys. It is recommended to add a new SSH key for each operator, or data export user, instead of sharing one. If a user outside of your restaurant needs access to your sFTP, they should create their SSH key and share it with someone that can add the key to Toast Web. After being generated, SSH keys must be added to the SSH Keys page at Reports \> Settings \> SSH Keys. The following information includes the necessary steps for adding SSH keys to the Toast Web.
 

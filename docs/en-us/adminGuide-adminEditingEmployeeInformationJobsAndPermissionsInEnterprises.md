@@ -17,7 +17,7 @@ codeExamples: 0
 
 For enterprises with multiple locations, it is common that one employee may need to make changes to another employee's permissions, basic information, or jobs and wages at another location. The Toast platform has a set of rules it uses to determine what changes you can make to other employees. This section describes those rules.
 
-#### Minimum permission configuration for enterprises
+### Minimum permission configuration for enterprises
 
 Toast support recommends that enterprises have at least one *super user* at the corporate level. A super user has access to all Toast permissions for the entire corporation. A Toast employee grants this level of access to the super user. The super user must then choose a minimum of one manager user at each individual location that also has access to most, if not all, permissions.
 
@@ -35,7 +35,7 @@ The permissions granted to the managers at individual locations are at the discr
 
 Additionally, managers can modify an employee's credentials (email and passcode) if they have a superset of the employee's permissions at all of the locations the employee works at. See [Editing an employee's basic information](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesBasicInformation) for more details.
 
-#### Editing an employee's basic information
+### Editing an employee's basic information
 
 The Basic tab of the employee's details page contains core employee information such as first and last name, phone number, and email address:
 
@@ -56,7 +56,7 @@ If an employee has:
 
 Then you must, at a minimum, have POS Accessand Delivery Access permissions in Boston and POS Access permissions in Burlington in order to edit the employee's email and POS access code.
 
-#### Editing an employee's permissions
+### Editing an employee's permissions
 
 To give a permission to an employee for a given location, you must:
 
@@ -69,7 +69,7 @@ To give a permission to an employee for a given location, you must:
 
 The same is true for removing a permission from an employee.
 
-#### Editing an employee's jobs
+### Editing an employee's jobs
 
 To assign a job to an employee at a given location, you must:
 
@@ -82,11 +82,11 @@ To assign a job to an employee at a given location, you must:
 
 The same is true for removing a job from an employee.
 
-#### Editing your own permissions
+### Editing your own permissions
 
 You cannot give yourself a permission in the Toast platform. Another user who has proper access permissions, according to the rules set out in the [Editing an employee's permissions](adminEditingEmployeeInformationJobsAndPermissionsInEnterprises.html#adminEditingAnEmployeesPermissions) section, must give it to you.
 
-#### Understanding how job permissions conflicts are resolved
+### Understanding how job permissions conflicts are resolved
 
 If an employee is assigned multiple jobs at the same location that have conflicting permissions (one job gives a certain permission while another job does not), the Toast platform defaults to giving the employee all of the permissions for all the employee's assigned jobs any time that employee is logged in. For example, consider a scenario where an employee has both Assistant Manager and Server jobs, and the Assistant Manager job gives the permission for voiding checks while the Server job does not. When the employee logs into the Toast platform, regardless of the job they use when clocking in, they will have permission to void checks.
 

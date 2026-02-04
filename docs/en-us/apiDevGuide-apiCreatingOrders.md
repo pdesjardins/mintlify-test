@@ -22,13 +22,13 @@ Before you `POST` the order, you must retrieve the check prices (calculated by t
 
 If you `POST` an order with a payment amount that does not match the results from the `/prices` endpoint, then restaurant employees must handle the underpayment or overpayment during order fulfillment.
 
-#### Building shopping cart orders
+### Building shopping cart orders
 
 A shopping cart order, also called a draft order, is an order that is created by adding items to an online ordering shopping cart before it is submitted to the orders API.
 
 The orders API does not support shopping cart functionality. Your integration must implement a shopping cart feature to save added items before you create an order using the orders API. Items that guests add to a shopping cart are not saved in the Toast platform until you create the order.
 
-#### Order creation process for the orders API
+### Order creation process for the orders API
 
 To use the orders API to create and `POST` a new order:
 

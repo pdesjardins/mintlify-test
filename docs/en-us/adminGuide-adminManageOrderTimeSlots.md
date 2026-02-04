@@ -17,7 +17,7 @@ codeExamples: 0
 
 The online ordering schedule you configure in Toast Web determines the earliest and latest times in a business day when guests can place online orders. The available times are also affected by your quote time strategy, applicable delays, and delivery times.
 
-#### Managing first online ordering time slots
+### Managing first online ordering time slots
 
 The Toast platform adds the quote time value to the beginning of the online ordering hours to determine the first available time slot. The following example shows how the first available online ordering slot is affected by the quote time and delivery or takeout settings.
 
@@ -38,7 +38,7 @@ In this example:
 In this case, the first available fulfillment time for takeout orders on that day is 9:15 AM, and the first available fulfillment time for delivery orders is 9:30 AM.
 
   
-#### Managing last online ordering time slots
+### Managing last online ordering time slots
 
 The Toast platform subtracts the quote time value from the end of online ordering hours to determine the last available time slot. The following example shows how the last available online ordering slot is affected by the quote time and delivery or takeout settings.
 

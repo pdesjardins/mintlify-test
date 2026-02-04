@@ -30,7 +30,7 @@ From the Toast POS app, you can either:
 
 You can also [void items and orders from the Orders Hub](platformUsingOrdersHub.html#platformVoidingAnItemOrAnOrder).
 
-#### Configuring void reasons
+### Configuring void reasons
 
 Optionally, you can configure your restaurant with or more descriptive reasons why a void was made.
 
@@ -97,7 +97,7 @@ If you have void reasons configured, then when a restaurant employee voids a che
 
 
 
-#### Required permissions to void checks
+### Required permissions to void checks
 
 To be able to void checks, you must have both an access mode permission and a specific permission to void multiple checks or a single check.
 
@@ -139,7 +139,7 @@ If you have this permission, then you can void checks that are assigned to a dif
 
 
 
-#### Voiding multiple checks
+### Voiding multiple checks
 
 You can select multiple open checks to void at at the same time.
 
@@ -180,7 +180,7 @@ Select Void.
 
 When a check is voided, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminKitchenDiningRoomReference.html#configPrintTicketChanges)configuration, a new ticket is printed.
 
-#### Voiding a single check
+### Voiding a single check
 
 You can select a single open, paid, or closed check and then void it.
 

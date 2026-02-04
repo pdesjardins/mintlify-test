@@ -21,7 +21,7 @@ An auto-apply discount is applied if the items on the check match the selection 
 
 Discounts can only be applied automatically to checks that are created or updated on the Toast POS app.
 
-#### Eligibility rules for auto-apply discounts
+### Eligibility rules for auto-apply discounts
 
 You can configure these discount types to be auto-apply discounts:
 
@@ -50,13 +50,13 @@ You cannot add the auto-apply feature to any discount that has any of the follow
 
 
 
-#### Configuring a discount to be auto-applied
+### Configuring a discount to be auto-applied
 
 For eligible discounts, the Advanced settings section of the discount configuration page includes an Auto apply discount setting that allows you to specify whether to automatically apply the discount.
 
 ![The Auto apply discount setting in the Advanced Settings section of the discount configuration page.](https://doc.toasttab.com/doc/media/discount-auto-apply.png)
 
-#### How discounts are auto-applied to checks
+### How discounts are auto-applied to checks
 
 The Toast platform applies auto-apply discounts as follows:
 
@@ -94,7 +94,7 @@ Manually-applied discounts are never removed.
 
 
 
-#### Determining the sequencing of auto-applied discounts
+### Determining the sequencing of auto-applied discounts
 
 You can control the sequence in which to auto-apply discounts.
 
@@ -122,7 +122,7 @@ As you edit the sequence numbers, the discount rows are moved to reflect the new
 
 
 
-#### Example of an auto-applied discount on the Toast POS app
+### Example of an auto-applied discount on the Toast POS app
 
 As an example of how a discount is automatically applied to a check, assume you have a BOGO auto-apply discount named *BOGO*. The discount has a buy item of one avocado toast and a get item of one soda at a 25% discount.
 

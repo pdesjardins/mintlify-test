@@ -43,7 +43,7 @@ An offline state is triggered by the following:
 
 Depending on which [type of disruption](adminOfflineModeOverview.html#platformOfflineDisruptionTypes) you are experiencing, what [data synchronization method](adminOfflineModeOverview.html#platformOfflineDataSyncMethods) is in use, and how many devices are affected, how offline mode works for your restaurant can differ.
 
-#### Disruption types
+### Disruption types
 
 The type of disruption you experience affects the offline working conditions for your restaurant. Each disruption type has it's own steps to resolve the disruption.
 
@@ -82,7 +82,7 @@ If your restaurant is offline, the disruption can be:
 
 For more information on what you can do while using offline mode depending on the disruption type, see [Data synchronization methods for offline mode](adminOfflineModeOverview.html#platformOfflineDataSyncMethods) and choose the data synchronization method.
 
-##### Local network disruption
+#### Local network disruption
 
 *If the local network is down*, something is wrong with your router. 
 
@@ -121,7 +121,7 @@ When you experience a local network connection disruption, try the following:
 
 
 
-##### Internet service provider disruption
+#### Internet service provider disruption
 
 *If the internet connection is down*, something is wrong on your internet service provider’s end. 
 
@@ -143,7 +143,7 @@ When you experience an internet connection disruption, try the following:
 
 
 
-##### Toast platform cloud-based server disruption
+#### Toast platform cloud-based server disruption
 
 *If there is a Toast platform cloud-based server outage*, something is wrong on the Toast end, and support is working on fixing it.
 
@@ -158,7 +158,7 @@ When you experience an internet connection disruption, try the following:
 
 When you experience a Toast platform cloud-based service disruption, you can visit the [Toast status page](https://status.toasttab.com/) for a message about the outage and sign up for future updates.
 
-#### Data synchronization methods for offline mode
+### Data synchronization methods for offline mode
 
 Toast is migrating from the current data synchronization method to one that implements local sync. Local sync enables devices to communicate with each other through a local, eligible device automatically assigned by Toast called the local hub device.
 

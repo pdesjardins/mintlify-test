@@ -24,7 +24,7 @@ Certain types of items and prep stations do not need to use kitchen tickets to f
 
 
 
-#### Routing items to a virtual prep station
+### Routing items to a virtual prep station
 
 For items that do not require any effort to prepare, you can route the items to a virtual **No Print** prep station. The **No Print** prep station can then be used as a destination for items you do not want kitchen tickets for. For example, your restaurant might sell bottled drinks that guests fulfill for themselves. When guests request these items, none of the employees working at actual kitchen prep stations are involved in fulfilling them and do not need to see the associated ticket.
 
@@ -70,7 +70,7 @@ For items that do not require any effort to prepare, you can route the items to 
 
 
 
-#### Configure a device to not print its own tickets
+### Configure a device to not print its own tickets
 
 For prep stations in the restaurant where an employee can both take and fulfill guest orders, the employee does not need to reference a printed ticket of the order they entered to fulfill it. Instead, you can configure the Toast POS device to not print tickets for that specific prep station.
 

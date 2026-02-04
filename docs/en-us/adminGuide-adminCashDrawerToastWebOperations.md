@@ -36,7 +36,7 @@ Certain cash drawer actions available on the Toast POS device are also available
 
 A cash drawer action completed in Toast Web is also reflected in the Toast POS. For example, if you adjust the starting balance for a cash drawer in Toast Web, that change is also reflected on the Toast POS device.
 
-#### Accessing Toast Web cash drawer operations
+### Accessing Toast Web cash drawer operations
 
 You can view your cash drawer history and complete cash drawer actions on the Cash drawer history report in Toast Web. The Cash drawer history report provides an overview of all cash activity at a single location for a single day.
 
@@ -71,7 +71,7 @@ You can view your cash drawer history and complete cash drawer actions on the Ca
 
 
 
-##### Cash in and cash collected
+#### Cash in and cash collected
 
 You can complete a Cash In or Cash Collected action from the Cash drawer history page in Toast Web.
 
@@ -114,7 +114,7 @@ You can complete a Cash In or Cash Collected action from the Cash drawer history
 
 
 
-##### Cash out
+#### Cash out
 
 Similar to a Cash In action, you can complete a Cash Out action from the Cash drawer history report page in Toast Web. The workflow to complete a Cash Out entry is the same for Pay Out and Tip Out, except you have to select an employee to complete a Tip Out action.
 
@@ -151,7 +151,7 @@ Similar to a Cash In action, you can complete a Cash Out action from the Cash dr
 
 
 
-##### Cash drop
+#### Cash drop
 
 Similar to a Cash In or Cash Out action, you can complete a Cash Drop action from the Cash drawer historypage in Toast Web.
 
@@ -175,7 +175,7 @@ Similar to a Cash In or Cash Out action, you can complete a Cash Drop action fro
 
 
 
-##### Closing cash drawer
+#### Closing cash drawer
 
 You can complete a Close Cash Drawer action from the Cash drawer history page in Toast Web.
 
@@ -196,7 +196,7 @@ You can complete a Close Cash Drawer action from the Cash drawer history page in
 
 
 
-##### Adjusting starting balance
+#### Adjusting starting balance
 
 You can complete an Adjust Starting Balance action from the Cash drawer historypage in Toast Web.
 
@@ -217,7 +217,7 @@ You can complete an Adjust Starting Balance action from the Cash drawer historyp
 
 
 
-##### Updating closing balance
+#### Updating closing balance
 
 
 
@@ -245,7 +245,7 @@ You can complete an Update Closing Balance action from the Cash drawer historypa
 
 
 
-##### Managing cash drawer variance
+#### Managing cash drawer variance
 
 In Toast Web, you can configure closed cash drawer confirmation thresholds. These thresholds apply when you close a cash drawer and the closing amount does not match the expected balance. You can configure the following thresholds:
 

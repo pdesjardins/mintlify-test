@@ -114,11 +114,11 @@ When you use `JOB`, the data is split into subsections by restaurant, then by da
 > The data is not organized chronologically by day or alphabetically by job name.
 
 
-#### Example of labor reporting data aggregated by employee
+### Example of labor reporting data aggregated by employee
 
 The following example requests labor reporting data for three days and two restaurants, and is grouped into subsections by employee.
 
-##### Request for labor reporting data
+#### Request for labor reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/labor/week` endpoint.
 
@@ -139,7 +139,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
 (4) Include details about the requested labor reporting data in the message body. The following example is the message body for this curl command example.
 
-##### Message body for the labor reporting data request
+#### Message body for the labor reporting data request
 
 The following example shows the message body for the `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
 
@@ -173,7 +173,7 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 > Adding restaurant GUIDs to both `restaurantIds`and `excludedRestaurantIds` results in an error.
 
 
-##### Response to the labor reporting data request
+#### Response to the labor reporting data request
 
 The following example shows the response from the `/era/v1/labor/day` endpoint.
 
@@ -185,7 +185,7 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 (1) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-##### Request to retrieve the labor reporting data
+#### Request to retrieve the labor reporting data
 
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 
@@ -203,7 +203,7 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 (3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-##### Response to the retrieval request for labor reporting data
+#### Response to the retrieval request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/\{reportRequestGuid\}` endpoint.
 

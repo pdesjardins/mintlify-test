@@ -34,13 +34,13 @@ Various situations can cause your Toast device to go offline, including but not 
 
 For information on how to use your Toast device during an outage, see [Offline mode overview](adminOfflineModeOverview.html).
 
-#### Internet outage
+### Internet outage
 
 During an internet connection issue, your Toast POS device is offline. If you are on the Orders Hub screen when the device switches to use offline mode, a No internet connection banner appears. Below the banner is a dialog box with information on what you can do while offline and what to avoid. Select the Troubleshoot button for additional [troubleshooting information](platformOfflineAutofireDevices.html#platformTroubleshootingYourDeviceDuringAnISPOutage) or select the Got it button to close out of the dialog box.
 
 From the dialog, scan the QR code to visit a Toast Central article or select the Quick troubleshooting dropdown to display troubleshooting steps. Select the Backbutton to return to the previous screen or select the Done button to close the dialog.
 
-##### Autofire device offline due to an internet outage
+#### Autofire device offline due to an internet outage
 
 If your Autofire device is offline due to an ISP outage, the Orders Hub screen displays a banner. The information displayed in the banner depends on your restaurant configurations and if you have a printer configured and connected to the network:
 
@@ -60,7 +60,7 @@ The information displayed in the dialog box depends on your restaurant configura
 
 
 
-##### Non-Autofire device offline due to an internet outage
+#### Non-Autofire device offline due to an internet outage
 
 If your non-Autofire device is offline due to an ISP outage, the Orders Hub screen displays a No internet connection - New online orders are not showing on this device. Toast Online Ordering may be turned off banner. A dialog box appears below the banner with information on what you can still do offline and what to avoid:
 
@@ -96,7 +96,7 @@ If your non-Autofire device is experiencing an ISP outage, note the following:
 
 
 
-##### Troubleshooting your device during an internet outage
+#### Troubleshooting your device during an internet outage
 
 During an ISP outage, your Toast device is offline as the device is unable to access the internet or Toast servers. If a local connection is available and backup printers have been set up properly, tickets print to the kitchen during an ISP outage. Try the following steps to troubleshoot your device during an ISP outage:
 
@@ -115,7 +115,7 @@ During an ISP outage, your Toast device is offline as the device is unable to ac
 
 For more information on using your Toast device in offline mode, see [Offline Mode: Using Toast During an Internet Service Provider (ISP) Outage](https://central.toasttab.com/s/article/Offline-Mode-Using-Toast-During-a-ISP-Outage).
 
-#### Autofire device outage
+### Autofire device outage
 
 If your Autofire device is offline, non-Autofire devices display custom banners and dialog boxes depending on your restaurant configurations. Non-Autofire devices display Autofiring device is unavailable - Scheduled orders will not fire. Toast Online Ordering may be turned off banners. Scheduled orders do not fire and new online orders must be manually approved. An active Autofire device is required to fire and print scheduled orders and automatically approve new online orders. Below the banner is a dialog box with information on what you can do offline and what to avoid:
 
@@ -131,7 +131,7 @@ If your Autofire device is offline, non-Autofire devices display custom banners 
 
 From the dialog box, scan the QR code to visit a Toast Central article or select the Quick troubleshootingdropdown to display various troubleshooting steps. To go back to the front of the dialog box, select the Back button or select the Done button to close the dialog box.
 
-##### Troubleshooting your non-Autofire device during an Autofire device outage
+#### Troubleshooting your non-Autofire device during an Autofire device outage
 
 If your non-Autofire assigned device is experiencing an Autofire outage, try the following steps to troubleshoot your Autofire device:
 

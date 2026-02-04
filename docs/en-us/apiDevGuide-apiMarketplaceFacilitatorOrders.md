@@ -30,7 +30,7 @@ In both cases, you also indicate whether you collect and remit taxes on behalf o
 
 For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
 
-#### Overview of the order creation process for a marketplace facilitator order
+### Overview of the order creation process for a marketplace facilitator order
 
 A marketplace facilitator uses the following process to create an order and remit tax payments.
 
@@ -66,7 +66,7 @@ If you specify the order prices and tax amounts, then `MarketplaceFacilitatorTax
 
 
 
-#### Allowing the Toast platform to calculate the prices and tax amounts
+### Allowing the Toast platform to calculate the prices and tax amounts
 
 When you create a marketplace facilitator order, you can have the Toast platform calculate and populate the prices and tax amounts when the order is created.
 
@@ -130,7 +130,7 @@ The `Order` object in the following example creates a marketplace facilitator or
 (3) If you include the facilitatorCollectAndRemitTaxOrder value, do not specify externalPriceAmount for menu item selections in the order.
 
   
-#### Specifying prices and tax amounts
+### Specifying prices and tax amounts
 
 When you create a marketplace facilitator order, you can provide the prices and tax amounts for the order. You typically select this option when you have a tax partner that calculates the tax amounts for you.
 
@@ -232,7 +232,7 @@ The `Order` object in the following example creates a marketplace facilitator or
 (6) Specifies the price for this menu item selection. To specify prices and tax amounts for a marketplace facilitator order, include the externalPriceAmount value for each menu item selection. The specified price should correspond to the price that is configured in the restaurant menu.
 
   
-#### Specifying size prices in marketplace facilitator orders
+### Specifying size prices in marketplace facilitator orders
 
 Marketplace facilitator orders can include menu items that use size pricing. For information about menu items with size pricing, see [Menu item with a size price](apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#apiMenuItemWithASizePrice_V2).
 

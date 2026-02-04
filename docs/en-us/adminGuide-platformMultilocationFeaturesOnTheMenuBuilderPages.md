@@ -17,7 +17,7 @@ codeExamples: 0
 
 This section describes the additional features you see when using the menu builder pages for a multi-location restaurant.
 
-#### Target, owner, number and GUID
+### Target, owner, number and GUID
 
 The Menu details section of a menu page displays the target, owner, number (also known as multi-location ID) and GUID information for the menu you are editing. This same information is provided in the Item details section of a menu item page. The following illustration show the Menu details section for a menu:
 
@@ -32,7 +32,7 @@ The following table provides descriptions for target, owner, number, and GUID:
 | Number | Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see [Toast identifiers](portalToastIdentifiers.html). | 
 | GUID | Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see [Toast identifiers](portalToastIdentifiers.html). | 
 
-#### Menu group versions (menu page only)
+### Menu group versions (menu page only)
 
 The Menu groups section of a menu's details page shows the menu groups that the menu contains. If a menu group has more than one version, you see the View versionslink on its card.
 

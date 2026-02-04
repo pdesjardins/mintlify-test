@@ -39,7 +39,7 @@ When an employee is archived:
 
 
 
-#### Example request to archive an employee
+### Example request to archive an employee
 
 The following example **curl** command sends a `DELETE` request to archive an employee.
 
@@ -68,7 +68,7 @@ https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec73
 (1) Include the Toast platform identifier for the employee in the path parameter of the request.
 
   
-#### Example response to archiving an employee
+### Example response to archiving an employee
 
 The following example shows the response for a `DELETE` request to archive an employee. For information about the values in this `Employee` object, see [the API reference documentation](https://doc.toasttab.com/openapi/labor/tag/Data-definitions/schema/Employee/).
 

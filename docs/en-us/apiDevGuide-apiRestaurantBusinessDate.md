@@ -25,7 +25,7 @@ The restaurant API's `closeoutHour` determines your restaurant's `businessDate` 
 > Your restaurant's Business Day Cutoff and Time Zone configurations can only be updated by Toast Support.
 
 
-#### Toast Web business closeout operations
+### Toast Web business closeout operations
 
 When your restaurant's `closeoutHour` time has been reached, the following operations occur in Toast Web:
 
@@ -43,7 +43,7 @@ When your restaurant's `closeoutHour` time has been reached, the following opera
 > The Toast platform will not close unpaid orders. Unpaid orders remain open until they are resolved either by being paid or voided.
 
 
-#### Toast API business closeout operations
+### Toast API business closeout operations
 
 When your restaurant's `closeoutHour` time has been reached, the following operations occur in Toast APIs.
 

@@ -19,7 +19,7 @@ A discount is a reduction to the price of a check or a menu item selection. You 
 
 To configure the available discounts at your restaurant, you use the Discounts screen of Toast Web. For more information about discounts in the Toast platform, see [Using the Discounts page](adminAvailableDiscounts.html).
 
-#### Types of discounts
+### Types of discounts
 
 Restaurants configure each discount to indicate whether it can be applied to a menu item selection or to a check. The discount specifies the eligibility requirements for the discount, and indicates how to determine the discount amount.
 
@@ -78,11 +78,11 @@ For example, a guest gets a discounted price when they purchase a cup of coffee 
 
 
 
-#### Retrieving available discounts
+### Retrieving available discounts
 
 You can retrieve a list of discounts that are configured for the restaurant. You can also retrieve discounts that an order is eligible for.
 
-##### Getting the list of configured discounts for a restaurant
+#### Getting the list of configured discounts for a restaurant
 
 To get information about the discounts configured for a restaurant, send a `GET` request to the `/discounts`endpoint of the configuration API.
 
@@ -169,7 +169,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
 
 (10) The fixedTotal value indicates the total price of items discounted by this combo discount. The fixedTotalvalue is null for discounts that are not combo discounts.
 
-##### Getting the list of applicable discounts for an order
+#### Getting the list of applicable discounts for an order
 
 A `GET` request to the `/discounts` endpoint returns all of the configured discounts for a restaurant. The response does not consider whether a discount applies to an order.
 
@@ -224,11 +224,11 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
 
  For a check-level discount, the applicableSelections value is empty.
 
-#### Applying discounts to a new order
+### Applying discounts to a new order
 
 You can add a discount to either an individual menu item selection or to an entire check. Each discount is configured to indicate whether it can be applied to a check or to a menu item selection.
 
-##### AppliedDiscounts object
+#### AppliedDiscounts object
 
 To add the discount, you add an `AppliedDiscounts` object to the `MenuItemSelection` object or to the `Check`object.
 
@@ -257,7 +257,7 @@ For an open amount discount, the `AppliedDiscount` object also contains a `disco
 ]
 ```
 
-##### Applying discounts to menu item selections
+#### Applying discounts to menu item selections
 
 You can only apply one discount to a menu item selection. The discount must be an item-level discount.
 
@@ -312,7 +312,7 @@ The following example shows a discount applied to a menu item selection.
 
 (2) The guid value identifies a discount that is configured for your restaurant. For information about getting available discounts, see Retrieving available discounts.
 
-##### Applying discounts to an entire check
+#### Applying discounts to an entire check
 
 You can apply more than one check-level discount to a check.
 
@@ -378,7 +378,7 @@ The following example shows a discount applied to a check.
 
 (2) The guid value identifies a discount that is configured for your restaurant. For information about getting GUIDs for discounts, see Retrieving available discounts.
 
-#### Applying promotional codes
+### Applying promotional codes
 
 Discounts can be configured with a promotional code, also known as a promo code. For orders placed from the Toast POS, to apply the discount, the employee must enter the promotional code or scan a barcode.
 
@@ -449,13 +449,13 @@ The following example shows promotional codes applied to check and menu item sel
 
 (4) The appliedPromoCode value identifies a promotion that is associated with the check discount.
 
-#### Applying discounts to an existing order
+### Applying discounts to an existing order
 
 You can add discounts to a check or menu item selection in an existing order.
 
 The check `paymentStatus` must be `OPEN`.
 
-##### Required information to add the discount
+#### Required information to add the discount
 
 Before you can add a discount to a check or a menu item selection, you need the following information:
 
@@ -497,7 +497,7 @@ For example:
 
 (3) The identifier of another discount that is being added.
 
-##### POSTing the discounts to the check or menu item selection
+#### POSTing the discounts to the check or menu item selection
 
 When you add discounts to an existing order, you send a `POST` message to the `/appliedDiscounts` endpoint for the check or the menu item selection.
 
@@ -535,7 +535,7 @@ Use the following endpoints to add discounts to an existing order:
 
 The body of the message is the JSON array of `AppliedDiscount` objects.
 
-##### Example responses for added discounts
+#### Example responses for added discounts
 
 When you add a discount to an existing order, the response contains an `Order` object that shows the added discounts.
 
@@ -674,7 +674,7 @@ Here is an example of a response to a request to add a discount to a menu item s
 
 (4) The Toast platform GUID of the discount you added.
 
-#### Verifying eligibility for discounts
+### Verifying eligibility for discounts
 
 When you use the orders API to add discounts to an order, the orders API verifies that the discounts are applicable based on the discount eligibility requirements, which can include:
 
@@ -693,7 +693,7 @@ When you use the orders API to add discounts to an order, the orders API verifie
 
 For more information about discount eligibility and combining discounts, see the [discounts information](platformDiscountsOverview.html) in the *Toast Platform Guide*.
 
-##### Determining whether a menu item allows discounts
+#### Determining whether a menu item allows discounts
 
 In the menus API, the `isDiscountable` field for a menu item determines whether any discount can be applied to that item.
 
@@ -701,11 +701,11 @@ If `isDiscountable` is `false`, then the item cannot have any discounts applied 
 
 The orders API does not apply discounts to non-discountable items. If you add a discount to a non-discountable item, the `discountAmount` is set to 0 in the response.
 
-##### Determining eligibility based on order date
+#### Determining eligibility based on order date
 
 A discount might only be available during a specific date range. For an order created using the orders API, the eligibility is based on the order creation time.
 
-##### Verifying eligibility for BOGO discounts
+#### Verifying eligibility for BOGO discounts
 
 A BOGO discount is based on "buy" items and "get" items. When an order contains the qualifying "buy" items, the guest receives the qualifying "get" items. For example, when a guest buys a bagel, they get a free cup of coffee. Or when a guest buys two cups of soup, they get a third cup of soup for free.
 
@@ -737,7 +737,7 @@ For example, you apply a BOGO discount that offers free coffee with a purchased 
 
 
 
-##### Verifying eligibility for combo discounts
+#### Verifying eligibility for combo discounts
 
 A combo discount applies to multiple menu item selections in an order. A combo discount can be configured to apply to more than one item of the same type or to a combination of different items. For example, a combo discount might be:
 
@@ -756,7 +756,7 @@ When it identifies items to match the combo discount, the Toast platform does no
 
 For example, you apply a combo discount that offers two small cheese pizzas for a fixed amount. The order contains two cheese pizzas. However, you also applied a 50% off discount to one of those pizzas. The discounted pizza cannot count toward the combo discount.
 
-#### How BOGO and combo discounts are applied in returned order data
+### How BOGO and combo discounts are applied in returned order data
 
 When the Toast platform applies a BOGO or combo discount, it updates the menu item selections to reflect the discount.
 
@@ -764,7 +764,7 @@ To do this, the Toast platform might split the original menu item selections.
 
 For example, an order includes two menu item selections - one for three bagels, and the other for a cup of coffee. The applied combo discount offers a bagel and coffee for a reduced price. The returned order object splits the bagel menu selection item. The bagel that the discount applies to is listed separately from the other two bagels.
 
-##### Applying BOGO discounts
+#### Applying BOGO discounts
 
 A BOGO discount is applied to the "get" items for the discount. In the returned `Order` object, the discount is removed from the check and added to the "get" items.
 
@@ -951,7 +951,7 @@ The following example shows the return data for an order that includes a BOGO di
 
 (14) The price of the "get" item is reduced by the BOGO discount. In this example, the BOGO discount reduces the price of the "get" item by 100%.
 
-##### Applying a combo discount
+#### Applying a combo discount
 
 When the Toast platform applies a combo discount, it adds a `comboItems` object to the `AppliedDiscounts`object. The `comboItems` object identifies the menu item selections that are part of the discount.
 
@@ -1141,7 +1141,7 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
 
 (14) The price of the two menu items after the combo discount is applied.
 
-#### Working with loyalty programs
+### Working with loyalty programs
 
 A loyalty program rewards guests for patronizing a restaurant. A loyalty program might offer a reward based on a number of visits or a total dollar amount. Loyalty programs might also offer discounts.
 
@@ -1156,7 +1156,7 @@ From the Toast orders API, you can perform the following tasks related to loyalt
 
 For more information about loyalty programs, see [Loyalty program integration overview](apiLoyaltyProgramIntegrationOverview.html).
 
-##### How the Toast platform interacts with loyalty programs
+#### How the Toast platform interacts with loyalty programs
 
 To perform loyalty account operations, the Toast platform communicates with a third-party loyalty program service provider. The loyalty program service provider maintains information about customers' qualifying purchases and determines the loyalty program discounts that a customer can apply to checks.
 
@@ -1174,7 +1174,7 @@ The Toast platform does not maintain configuration information about loyalty pro
 
 
 
-##### Applying checks to a loyalty program account
+#### Applying checks to a loyalty program account
 
 To apply a check to a loyalty program account, include an `AppliedLoyaltyInfo` object in the `Check` object. The `AppliedLoyaltyInfo` object includes the following information:
 
@@ -1235,7 +1235,7 @@ The following example shows a check being applied to a loyalty program account.
 
 (3) The vendor value specifies the loyalty program service provider. The value is one of the enumerated service provider names that are supported by the Toast POS system. The value is usually INTEGRATION.
 
-##### Applying loyalty program discounts to an order
+#### Applying loyalty program discounts to an order
 
 To apply loyalty program discounts to an order:
 
@@ -1394,7 +1394,7 @@ This example shows the JSON message body to `POST` an order with an item-level l
 
 (6) The referenceId value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.
 
-##### Validating loyalty program account and discount eligibility
+#### Validating loyalty program account and discount eligibility
 
 When you `POST` the order, the Toast POS sends the following information to the program service provider:
 

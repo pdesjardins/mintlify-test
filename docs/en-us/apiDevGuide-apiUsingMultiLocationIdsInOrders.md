@@ -32,7 +32,7 @@ Note that for each menu entity, you must submit either a `guid` OR a `multiLocat
 
 You can submit `guid` values for some menu entities and `multiLocationId` values for others. You cannot submit both a `guid` and a `multiLocationId` for the *same menu entity*.
 
-#### Example orders API request with multilocationIds
+### Example orders API request with multilocationIds
 
 The following example shows a request to the `/orders`endpoint that uses `multiLocationId` values.
 
@@ -100,7 +100,7 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
 
 (6) The guest who is placing the order.
 
-#### Example Order object with both identifiers in an orders API response
+### Example Order object with both identifiers in an orders API response
 
 Responses to requests sent to the `/orders/\{GUID\}` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
 

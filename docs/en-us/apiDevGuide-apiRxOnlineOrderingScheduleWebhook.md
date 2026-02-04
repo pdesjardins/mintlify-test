@@ -46,11 +46,11 @@ The restaurant online ordering schedule webhook checks for updates to a restaura
 
 The restaurant online ordering schedule webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `order_schedule` event category, the `eventCategory` value is set to `ordering_schedule`and the `eventType` is set to `ordering_schedule_updated`.
 
-#### Configuring online ordering schedules 
+### Configuring online ordering schedules 
 
 You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery \> Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminOnlineOrderingScheduleOverview.html).
 
-#### ordering_schedule_updated
+### ordering_schedule_updated
 
 Attributes in the `ordering_schedule_updated` event’s payload include:
 

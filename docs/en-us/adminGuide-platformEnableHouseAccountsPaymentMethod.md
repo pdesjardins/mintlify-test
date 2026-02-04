@@ -43,7 +43,7 @@ Your guests can use a house account as a payment method to pay for Toast orders.
 
 
 
-#### Paying for orders with a house account
+### Paying for orders with a house account
 
 Guests who have a house account and the Take house account payments on a POS setting set to On can choose to pay for a Toast order with a house account.
 
@@ -114,13 +114,13 @@ On the House account profile page in Toast Web, you can view the order (transact
 
 
 
-#### Paying for an order with a negative house account balance
+### Paying for an order with a negative house account balance
 
 If a house account has a negative balance, guests can pay for their order using the credit on the house account. When prompted on the Toast POS device, select House account as the payment method. The house account credit is used to pay for the order and no payment is necessary until the balance is positive.
 
 The total of the transaction is deducted from the house account and the outstanding balance is shown on the House account profile page. Transaction details are shown in the Account activity section. The transaction displays CHARGE as the activity type and the amount charged.
 
-#### Moving a closed check to a different house account
+### Moving a closed check to a different house account
 
 You can move a check(s) that was accidentally closed to the wrong house account.
 

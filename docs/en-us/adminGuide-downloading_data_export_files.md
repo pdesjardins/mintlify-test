@@ -35,7 +35,7 @@ Export IDs can also be obtained from Toast Web. Navigate to Reports \> Settings 
 
 Prior to downloading data export files, ensure that you have [added an SSH key](adminSshKeys.html) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
 
-#### Accessing your SFTP directory using macOS terminal
+### Accessing your SFTP directory using macOS terminal
 
 1. **Connect to your SFTP directory**
 
@@ -65,7 +65,7 @@ Export all files using the **get *** command or use **get *`\{fileName\}`*** to 
 
 
 
-#### Accessing your SFTP directory using Windows command prompt
+### Accessing your SFTP directory using Windows command prompt
 
 1. **Connect to your SFTP directory**
 

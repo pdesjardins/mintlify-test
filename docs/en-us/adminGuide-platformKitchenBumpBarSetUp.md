@@ -18,7 +18,7 @@ codeExamples: 0
 
 After the orientation of the bump bar is chosen and placement of the bump bar in the kitchen is finalized, you can connect the bump bar to the KDS device. This process is different depending on whether you use a bump bar with a USB cable or a wireless bump bar. For information about how to set up a bump bar with a USB cable, see [Setting up a bump bar with a USB cable](platformKitchenBumpBarSetUp.html#platformKitchenBumpBarUSBSetup). For information about how to set up a wireless bump bar, see [Setting up a wireless bump bar](platformKitchenBumpBarSetUp.html#platformKitchenBumpBarWirelessSetup).
 
-#### Setting up a bump bar with a USB cable
+### Setting up a bump bar with a USB cable
 
 Depending on your KDS device model, you need either a USB-B to USB-C cable or a USB-B to USB-A cable. The bump bar uses a USB-B connector. Toast Flex devices use a USB-C connector. Elo devices use a USB-A or USB-C connector.
 
@@ -104,7 +104,7 @@ Here is the location of the cable ports on the Toast Flex 22.
 
 Once this bump bar is connected, these initial settings are saved if the bump bar is disconnected and reconnected successfully. If a different bump bar is connected, you need to repeat the initial setup process.
 
-#### Setting up a wireless bump bar
+### Setting up a wireless bump bar
 
 To set up the wireless bump bar to work with your KDS device, you first need to connect the wireless bump bar, and then complete the set up process for the wireless bump bar on your KDS device. Before starting, verify that your [KDS device uses grid view](platformKDSOverview.html#platformGridKDSSetUp).
 

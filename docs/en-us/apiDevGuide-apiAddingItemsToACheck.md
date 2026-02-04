@@ -28,7 +28,7 @@ You cannot add items to a check in a restricted order. A closed order becomes re
 
 The added items ignore meal pacing.
 
-#### How to add the items to the check
+### How to add the items to the check
 
 To add items to an existing check, you send a `POST`request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/selections`endpoint. To identify the items to add, you provide a JSON array of `Selection` objects.
 
@@ -58,7 +58,7 @@ In the request message body, include the array of `Selection` objects.
 
 
 
-#### Example request message body to add an item to an existing check
+### Example request message body to add an item to an existing check
 
 The following example shows an array that contains a `Selection` object to ad a menu item to an existing check.
 
@@ -94,7 +94,7 @@ The following example shows an array that contains a `Selection` object to ad a 
 
 (5) If applicable, the modifiers for the added item. For more information about adding modifiers, see Applying modifiers and pre-modifiers.
 
-#### Example response after adding items to an existing check
+### Example response after adding items to an existing check
 
 The following example shows the response for a `POST` request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/selections`endpoint of the orders API.
 
@@ -149,7 +149,7 @@ The following example shows the response for a `POST` request to the `/orders/<e
 
 (4) The Toast platform system GUID of the menu item selection that was added to the existing check.
 
-#### How added items are sent to the kitchen
+### How added items are sent to the kitchen
 
 When you add menu item selections to an existing check, the effect in the kitchen depends on the following factors:
 
@@ -175,7 +175,7 @@ For scheduled orders, is the order `promisedDate`still in the future?
 
 
 
-##### Handling for orders that do not require approval
+#### Handling for orders that do not require approval
 
 If the original order did not require approval, the added menu item selections are handled as follows:
 
@@ -197,7 +197,7 @@ If the order is already fired, then the added items are fired ASAP on a new tick
 
 
 
-##### Handling for orders that do require approval
+#### Handling for orders that do require approval
 
 If the original order required approval, then added menu item selections are handled as follows:
 

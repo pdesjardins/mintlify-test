@@ -20,7 +20,7 @@ For payments other than credit card payments that are processed by the Toast pla
 
 To get the list of available alternative payment types, use the [Get alternative payment types](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/) operation.
 
-#### Example order with an alternative payment type
+### Example order with an alternative payment type
 
 The following example shows an `Order` object that contains one check with a single payment that was processed outside of the Toast platform.
 
@@ -93,7 +93,7 @@ The following example shows an `Order` object that contains one check with a sin
 (11) The currency value presented by the customer to provide the payment. Do not include the tip in the amountTenderedvalue.
 
   
-#### Example response from the orders API
+### Example response from the orders API
 
 The following example shows the response returned by the `/orders` endpoint of the orders API.
 

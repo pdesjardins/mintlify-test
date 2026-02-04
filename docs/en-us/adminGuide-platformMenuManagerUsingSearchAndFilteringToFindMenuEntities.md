@@ -27,7 +27,7 @@ This illustration shows the controls on Itemsview.
 
 The following sections provide more details on using the search and filtering controls.
 
-#### Searching for menu entities
+### Searching for menu entities
 
 The Items, Modifiers, and Price levels views have a search field. As you enter search terms in this field, the content of the menu manager view you are on is immediately filtered to match what you enter. You can use the search field on its own or in conjunction with the filtering controls to refine the list of menu entities that appear on the view.
 
@@ -38,7 +38,7 @@ The Items, Modifiers, and Price levels views have a search field. As you enter s
 > Full menu view does not have a search field.
 
 
-#### Filtering menu entities
+### Filtering menu entities
 
 In addition to the search field, the menu manager page includes a set of filtering controls. The following sections describe how these controls behave:
 
@@ -55,7 +55,7 @@ In addition to the search field, the menu manager page includes a set of filteri
 
 
 
-##### Filtering by location (multi-location only)
+#### Filtering by location (multi-location only)
 
 For multi-location restaurants, filtering begins with selecting the locations whose menu data you want to view from the locations control. All of the menu manager views have a locations control. The following illustration shows the control on Full menu view.
 
@@ -105,7 +105,7 @@ When you select an individual location, that location is selected along with any
 
 
 
-##### Filtering menu items and modifiers
+#### Filtering menu items and modifiers
 
 To filter menu items or modifiers, you select a menu and then you optionally select one or more menu groups from that menu. The menu manager view updates to show only those menu items or modifiers that are used in the menu and menu groups you specified. You can add an optional search term in the search field to use with the filtering controls to further limit the contents of the menu manager view.
 
@@ -137,7 +137,7 @@ A dash next to a menu group's name indicates that only some of its subgroups are
 
 ![An example of the menu groups dialog with a partially selected menu group.](https://doc.toasttab.com/doc/media/menu-manager-menu-groups-filter-partially-selected-group.png)
 
-##### Filtering price levels
+#### Filtering price levels
 
 Price levels cannot be filtered in single-location restaurants. Use the search field to limit the list of price levels you see in the menu manager if you have a single-location restaurant.
 
@@ -181,7 +181,7 @@ The location control filters price levels so that you only see price levels that
 
 
 
-##### Resetting the filters
+#### Resetting the filters
 
 On the Items, Modifiers, and Price levelsview, the Clear all button to the right of the filtering controls resets the controls in the following way:
 

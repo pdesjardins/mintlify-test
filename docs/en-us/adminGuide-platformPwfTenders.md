@@ -18,7 +18,7 @@ codeExamples: 0
 
 The following sections describe how to conduct cash, card, and other payments on your Toast POS application.
 
-#### Cash
+### Cash
 
 The following procedure describes the steps in the Toast POS system payment workflow when a guest uses cash to make a payment.
 
@@ -57,7 +57,7 @@ If Digital Receipts are not enabled, and a printer is configured, a Merchant Cop
 
 
 
-#### Credit
+### Credit
 
 The following procedure describes the steps in the Toast POS system payment workflow when a guest uses a credit or debit card to make a payment.
 
@@ -109,7 +109,7 @@ If Digital Receipts are not enabled, and a printer is configured, a Merchant Cop
 
 If the Toast platform is unable to authorize the card payment for the transaction amount, the Toast POS app and guest-facing display show the Unable to process payment screen. You can select Cancel payment or Try another card.
 
-#### Guest pay
+### Guest pay
 
 Guest Pay puts the guest in control of completing their payment, and is supported for restaurants using dual card readers. Dual card reader capability is supported on Toast POS devices with multiple screens, such as the Toast Flex, where one screen faces the cashier, and another faces the guest. Guest Pay asks the guest to swipe, insert or tap their card. Card taps are supported with the Toast Tap device only. For more information on Guest Pay and dual reader functionality, see [Guest Pay and Dual Reader Functionality](https://central.toasttab.com/s/article/Guest-Pay-and-Dual-Reader-Functionality-with-Toast-Tap).
 
@@ -157,13 +157,13 @@ If Digital Receipts are not enabled, and a printer is configured, a Merchant Cop
 
 If the Toast platform is unable to authorize the card payment for the transaction amount, the Toast POS app and guest-facing display show the Unable to process payment screen. You can select Cancel payment or Try another card.
 
-#### Pre-authorizations
+### Pre-authorizations
 
 Pre-authorizations allow restaurant employees to save a guest’s card on a check and create a tab. You must configure the Toast platform settings for your restaurant to allow credit card preauthorization. See [this Toast Central article](https://central.toasttab.com/s/article/Card-Pre-Authorization-Configuration-Device-Setup) for more information on enabling pre-authorizations.
 
 
 
-##### Pre-authorizing a card
+#### Pre-authorizing a card
 
 Swipe the guest’s card directly on the order screen of a check that has not been paid for or otherwise closed. You can only pre-authorize a card that is swiped. Once a card is swiped, a green Pre-Authorized banner displays on the check. The following diagram shows a check with the pre-authorized banner.
 
@@ -171,7 +171,7 @@ Swipe the guest’s card directly on the order screen of a check that has not be
 
 If a check does not contain the green Pre-Authorized indicator, then that check does not contain a pre-authorization.
 
-##### Pre-authorization amounts
+#### Pre-authorization amounts
 
 When you pre-authorize a card, you either authorize the current check total, or a configured minimum pre-authorization amount. You can set the minimum pre-authorization amount in Toast Web. The following table explains each pre-authorization use case.
 
@@ -181,7 +181,7 @@ When you pre-authorize a card, you either authorize the current check total, or 
 | Menu items on check | The guest's account is pre-authorized in the amount of the current transaction subtotal. | 
 | Menu items on check, but the check subtotal is not equal to or greater than the Minimum Pre-Authorization Amount | The guest's account is authorized for the Minimum Pre-authorization Amount. | 
 
-##### Using a saved card
+#### Using a saved card
 
 When you pre-authorize a guest’s card for an order, the Toast POS saves their credit card information for future use, as long as the order has not been closed.
 
@@ -226,7 +226,7 @@ If your restaurant has enabled digital receipts and you have configured a printe
 
 
 
-#### House accounts
+### House accounts
 
 House accounts allow restaurant guests to make purchases and receive an invoice for payment later. You can create, manage, and edit house accounts in Toast Web from Payments\> Payment methods \> House accounts. For more information on creating, managing, and using house accounts, see [House accounts](https://central.toasttab.com/s/article/House-Accounts-1492809352564).
 
@@ -290,7 +290,7 @@ If the Toast platform does not have a record for the guest, you must create a gu
 
 
 
-#### Pay at a distance
+### Pay at a distance
 
 Pay at a distance allows your guests to pay a check by receiving a text message with a payment link.
 
@@ -319,7 +319,7 @@ Pay at a distance allows your guests to pay a check by receiving a text message 
 
 
 
-#### Other payment workflows
+### Other payment workflows
 
 The Other menu includes less commonly used, or custom, payment methods. You can configure other payment methods from Payments \> Other Payment Options in Toast Web.
 
@@ -327,7 +327,7 @@ Occasionally, you may create a custom payment method that is only intended for u
 
 ![Image](https://doc.toasttab.com/doc/media/pwfOtherPaymentsShowOnPos.png)
 
-##### Room charge
+#### Room charge
 
 
 
@@ -376,7 +376,7 @@ The room charge payment option allows restaurant employees to search for a hotel
 
 
 
-##### Customer credits
+#### Customer credits
 
 Customer credits allow your management to award guests with a credited balance redeemable at your restaurant. 
 
@@ -409,11 +409,11 @@ Customer credits allow your management to award guests with a credited balance r
 
 
 
-##### Custom payments
+#### Custom payments
 
 You can create custom payment options to fit your business. On Toast Web, navigate to Payments \> Payment methods \> Other payment options. For more information about creating other payment types see [Setting up other payment options](https://central.toasttab.com/s/article/Setting-Up-Other-Payment-Options). The following sections details custom payment options that are often created by restaurant operators.
 
-###### Gift certificate (paper)
+##### Gift certificate (paper)
 
 **Procedure 6.13. To pay a guest check with a custom gift certificate (paper) payment option**
 
@@ -442,7 +442,7 @@ If your restaurant has enabled digital receipts and you have configured a printe
 
 
 
-###### Check
+##### Check
 
 **Procedure 6.14. To pay a guest check with a custom check payment option**
 
@@ -471,7 +471,7 @@ If your restaurant has enabled digital receipts and you have configured a printe
 
 
 
-###### Non-integrated third party payments
+##### Non-integrated third party payments
 
 Restaurants can create a custom payment option for a non-integrated third party takeout or delivery service. This may be useful if your restaurant's takeout or delivery service transactions are managed outside of your Toast POS platform.
 

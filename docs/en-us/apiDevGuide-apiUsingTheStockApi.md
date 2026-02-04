@@ -106,7 +106,7 @@ The following sections provide more information about retrieving inventory infor
 > For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiUpdatingInventoryInformation.html). For more information on how to change a menu item's inventory status using Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOverview.html).
 
 
-#### Getting all stock information for a location
+### Getting all stock information for a location
 
 Send a `GET` request to the `/inventory` endpoint of the stock API to get inventory information for the menu items of a restaurant. The request returns a JSON array of `MenuItemInventory` objects containing information on the stock status and quantity of the menu items.
 
@@ -184,7 +184,7 @@ The following example shows the JSON response data for a GET request to the `/in
 (5) The quantity value indicates the amount of stock remaining for menu items with an inventory status of QUANTITY. The quantity value is null for menu items with an OUT_OF_STOCK inventory status.
 
   
-#### Getting inventory by status
+### Getting inventory by status
 
 You can restrict menu items in the response to those with either a `QUANTITY` or `OUT_OF_STOCK` status by using the `status` query parameter of the `/inventory`endpoint. The format of the `status` request parameter is one of the following:
 
@@ -270,7 +270,7 @@ The following example shows the JSON response for the `GET` request.
 (5) The multiLocationId value for the menu item.Toast support recommends using a combination of a menu item's multiLocationId and a restaurant location's GUID, instead of the menu item's guid, to identify menu items in subsequent requests. See Toast identifiers for more information.
 
   
-#### Searching inventory for specific menu items
+### Searching inventory for specific menu items
 
 To retrieve inventory information for a list of menu items, you send a `PUT` request to the `/inventory/search` endpoint. The request must include a message body that contains an `InventorySearchRequest`object with one or both of these values:
 

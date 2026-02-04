@@ -14,7 +14,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-#### Guest order fulfillment status webhook overview
+### Guest order fulfillment status webhook overview
 
 The `guest order fulfillment status` webhook sends a message when a restaurant's kitchen moves an order from one stage in the fulfillment process to the next stage. Updates from the `guest order
     fulfillment status` webhook are only sent to the third-party online ordering channel that the order was placed through. For example, Uber Eats™ ordering service updates are only sent to Uber Eats, and not to DoorDash™ or Grubhub™. For information on how to enable ordering from third-party online ordering channels, see [Managing orders from third-party online ordering channels](platformManagingThirdPartyOnlineOrderingChannels.html).
@@ -31,7 +31,7 @@ Toast products and features that use guest order fulfillment statuses include:
 
 
 
-#### Guest order fulfillment status webhook statuses
+### Guest order fulfillment status webhook statuses
 
 A guest’s order progresses through various statuses during the fulfillment process. The initial state of all orders is `RECEIVED`. The `guest order fulfillment status`webhook sends a message when the order’s status is updated to one of the following statuses: 
 
@@ -50,7 +50,7 @@ A guest’s order progresses through various statuses during the fulfillment pro
 
 When an order transitions from the `RECEIVED` status to either the `IN_PREPARATION`, `READY_FOR_PICKUP`, `CLOSED`, or `VOIDED` status, the webhook sends a message. Only one webhook message is sent per order transition. For example, when an order has been approved and transitions to the `IN_PREPARATION` status, the webhook sends a message. The webhook service does not send a message when an order has been updated, such as when an additional drink is added to the order.
 
-##### Sending a message when an order is marked as Order Ready
+#### Sending a message when an order is marked as Order Ready
 
 
 
@@ -61,7 +61,7 @@ When an order transitions from the `RECEIVED` status to either the `IN_PREPARATI
 
 When an order is marked as Order Ready in Orders Hub or is fulfilled by the Kitchen Display System (KDS), this triggers the `guest order fulfillment status` webhook to send a message. The message is sent to the third-party online ordering channel that the order was placed through. For example, if a guest places an order through DoorDash, the DoorDash driver is sent a message notifying them that the guest’s order is now ready for pickup.
 
-##### guestOrderStatusUpdated
+#### guestOrderStatusUpdated
 
 The attributes in the `guestOrderStatusUpdated` event’s payload include:
 

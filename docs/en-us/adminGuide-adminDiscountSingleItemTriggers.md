@@ -19,7 +19,7 @@ You can choose any individual menu item in your restaurant menu configuration to
 
 To make the selected item more specific, you can specify eligible sizes or modifiers.
 
-#### Searching for and selecting the item
+### Searching for and selecting the item
 
 To search for a menu item, begin to type the name in the item search box.
 
@@ -31,7 +31,7 @@ In the list of matching items, menu groups, and menus, click the item name.
 
 For an individual menu item, you can also choose the required modifiers or sizes. You cannot configure modifiers for a required item that is a menu group.
 
-#### Selecting the eligible sizes for an item
+### Selecting the eligible sizes for an item
 
 For a menu item that uses size pricing, you specify the sizes that qualify for the discount. For example, a discount might apply to large and extra-large cheese pizzas but not to small cheese pizzas.
 
@@ -43,7 +43,7 @@ For a combo discount, if you select more than one size, the Toast platform treat
 
 The order in which the Toast platform considers sizes for size upcharging is based purely on the size pricing for the menu item. The names that you give to sizes, such as glass or bottle, do not affect how the platform considers the sizes.
 
-#### Selecting eligible modifiers for required items
+### Selecting eligible modifiers for required items
 
 For a menu item that has modifiers, you can specify which modifiers qualify as required items or are included in the discount price.
 

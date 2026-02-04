@@ -19,7 +19,7 @@ To get information about the employees of a restaurant, send a `GET` request to 
 
 The request returns an array of `Employee` objects that contain the configuration information for each employee.
 
-#### Example request for information about all employees
+### Example request for information about all employees
 
 The following example **curl** command sends a `GET` request to the `/labor/v1/employees` endpoint.
 
@@ -48,7 +48,7 @@ https://`[toast-api-hostname]`/labor/v1/employees
  Specify the GUID of the restaurant that you want to GET employees for. This must be an individual restaurant, not the GUID for a restaurant group.
 
   
-#### Example response
+### Example response
 
 The following example shows the response for a `GET`request to the `/labor/v1/employees` resource.
 

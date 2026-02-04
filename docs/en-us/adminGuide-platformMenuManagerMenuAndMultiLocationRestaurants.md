@@ -17,7 +17,7 @@ codeExamples: 0
 
 This section provides information specific to using menu manager when your restaurant also uses the multi-location management module.
 
-#### Full menu view limitations for multi-location restaurants
+### Full menu view limitations for multi-location restaurants
 
 Full menu view has the following limitations when used by multi-location restaurants:
 
@@ -34,13 +34,13 @@ Full menu view has the following limitations when used by multi-location restaur
 
 
 
-#### Versioned menu entities in menu manager
+### Versioned menu entities in menu manager
 
 When a restaurant uses the multi-location management module, its menu entities can be [versioned](versions.html) and those versions can be assigned to specific restaurant locations, or [groups of locations](restaurantGroupsAndSubgroups.html). For example, a restaurant could have two versions of an Egg Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all, of their data. For example, the Boston version of the Egg Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
 
 This section describes some key points when working with versioned menu entities in the menu manager.
 
-##### How versioned menu entities are displayed in menu manager views
+#### How versioned menu entities are displayed in menu manager views
 
 The menu manager can display both versioned and unversioned menu entities but they behave slightly differently:
 
@@ -61,7 +61,7 @@ The illustration below shows the same versioned menu item in Full menu view
 
 For more information, see [Versions](versions.html).
 
-##### Defaults for targets and owners
+#### Defaults for targets and owners
 
 When you create a new menu entity for a multi-location restaurant, you define the locations or location groups that use that entity. This is the menu entity's *target*. You also define who can edit the menu entity. This is the menu entity's *owner*.
 
@@ -94,7 +94,7 @@ Toast Web prevents you from setting a target and owner that you don't have permi
 
 For more information, see [Targets](targets.html) and [Owners and permissions](ownersAndPermissions.html).
 
-#### Available at (Target), Editable by (Owner), Number, and GUID properties
+### Available at (Target), Editable by (Owner), Number, and GUID properties
 
 For multi-location restaurants, the detailssection of each menu entity's side panel displays the target, owner, number (also known as multi-location ID) and GUID information for the entity you are editing. The following illustration shows these fields as they appear in the Item details section for a menu item:
 
@@ -102,7 +102,7 @@ For multi-location restaurants, the detailssection of each menu entity's side pa
 
 The following sections provide descriptions for these properties.
 
-##### Available at (Target) and Editable by (Owner)
+#### Available at (Target) and Editable by (Owner)
 
 As described in [Versions](versions.html), menu entities can have versions. Versions share some, but not all, of their configuration settings. Each version of a menu entity has a target and an owner:
 
@@ -148,11 +148,11 @@ For more information, see the following sections in the [Multiple restaurant loc
 
 
 
-##### Number
+#### Number
 
 The Number field is used to identify related versions of a menu entity. Menu entity versions with the same Number are all versions of the same menu entity. This field is read only. For more information, see [Toast identifiers](portalToastIdentifiers.html).
 
-##### GUID
+#### GUID
 
 The GUID field is used to identify a specific version of a menu entity. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. This field is read-only. For more information, see [Toast identifiers](portalToastIdentifiers.html).
 

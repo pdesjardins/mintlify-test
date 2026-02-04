@@ -32,7 +32,7 @@ If your menu entities have names that begin with any of the following special ch
 @ (at)
 ```
 
-#### Special characters in items database export
+### Special characters in items database export
 
 Restaurant employees who export menu data from the Items database page to a CSV file often import that file into a spreadsheet application for further editing.
 

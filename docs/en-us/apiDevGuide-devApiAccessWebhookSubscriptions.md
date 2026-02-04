@@ -43,7 +43,7 @@ Webhook subscription access allows you to create and manage webhook subscription
 
 
 
-#### Managing webhook subscriptions
+### Managing webhook subscriptions
 
 
 
@@ -66,7 +66,7 @@ There are three levels of webhook subscription access:
 
 
 
-##### Creating webhook subscriptions
+#### Creating webhook subscriptions
 
 
 
@@ -122,7 +122,7 @@ You can view your new webhook subscription on the Manage webhooks page.
 
 
 
-##### Viewing webhook subscriptions
+#### Viewing webhook subscriptions
 
 You can view your webhook subscriptions on the Manage webhooks page in Toast Web. The Manage webhooks page displays the following information:
 
@@ -193,7 +193,7 @@ To view webhook information, select the view icon on the Manage webhooks page. T
 
 ![Shows the webhook subscription details on the Webhook subscription page in Toast Web.](https://doc.toasttab.com/doc/media/dev-api-access-view-webhook-subscription.png)
 
-##### Editing webhook subscriptions
+#### Editing webhook subscriptions
 
 You can edit your webhook subscriptions from the Manage webhooks page in Toast Web. To edit a webhook subscription, select the edit icon next to the webhook subscription name to open the Edit webhook subscription page. On the Edit webhook subscription, you can:
 
@@ -222,7 +222,7 @@ You can edit your webhook subscriptions from the Manage webhooks page in Toast W
 
 Select the Save button to save your changes.
 
-##### Deleting webhook subscriptions
+#### Deleting webhook subscriptions
 
 To delete your webhook subscription, select the Delete button on the Webhook subscription page. This opens a confirmation dialog. In the dialog, type DELETE in the text field to confirm deletion of the subscription.
 

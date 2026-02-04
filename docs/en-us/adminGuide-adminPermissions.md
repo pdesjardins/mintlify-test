@@ -14,7 +14,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-#### Access permissions overview
+### Access permissions overview
 
 This section describes the access permissions that are available for the Toast platform. Each permission grants access to a system feature, such as an option on a Toast POS device or a type of report to run or configuration change to make.
 
@@ -27,7 +27,7 @@ This section describes the access permissions that are available for the Toast p
 
 In order to set up jobs, you must have the Employee Jobs & Wages access permission and credentials to access Toast Web. To assign an access permission to an individual employee, you must have the User Permissions access permission. In addition, you must yourself have an access permission in order to include it in a job or assign it to an employee.
 
-#### POS access permissions
+### POS access permissions
 
 The POS access permissions give employees the ability to use the main modes, or functions, of the Toast POS device. Every employee who has a POS access code can sign in to a Toast POS device to access the clock in/out screen for time entry. To use Toast POS devices for any other tasks, employees must have one or more of the mode permissions.
 
@@ -141,7 +141,7 @@ Employees who have a mode permission and who also have credentials to access Toa
 
 Employees who need to complete additional tasks must have additional access permissions assigned.
 
-#### Additional POS access permissions
+### Additional POS access permissions
 
 To provide access to more of the options and features available on Toast POS devices, you assign one or more of the following POS access permissions. You must assign these permissions along with one or more of the [mode permissions](adminPermissions.html#adminModePermissions).
 
@@ -165,7 +165,7 @@ The following table includes information about the POS Access permissions relate
 | Record Excess Food Menu Items | **Gives access to **the Waste Tracking screen on the Toast POS device.**Assign to **managers and employees that need access to record excess food items and waste throughout the day. For more information, see [this Toast Central article](https://central.toasttab.com/s/article/Get-Started-with-Food-Waste-Reduction). | 
 | Split Checks | **Gives access to **the ability to restrict employees from splitting checks without manager approval.**Assign to **managers and employees that need to prevent employees from splitting a check without first having a manager enter their POS passcode. | 
 
-#### Delivery access permissions
+### Delivery access permissions
 
 The access permissions described in this section give employees access to features used to complete delivery orders.
 
@@ -180,7 +180,7 @@ The following table includes information about the Delivery Access permissions o
 | Complete Delivery | For internal use only. | 
 | Update Driver | For internal use only. | 
 
-#### Manager access permissions
+### Manager access permissions
 
 To provide access to options and features on Toast POS devices that entail greater responsibility, you assign one or more of these manager access permissions. You must assign these permissions along with one or more of the [mode permissions](adminPermissions.html#adminModePermissions). In addition, some of these features require user credentials to access Toast Web.
 
@@ -244,7 +244,7 @@ The following table includes information about the Manager access permissions on
 | Void / Refund Payments (Limited to Same Day Only) | **Gives access to **void or refund a payment taken the same business day. With this permission enabled, employees are not prompted for a manager login to process the refund.**Assign to **employees who need to refund guests without manager approval. | 
 | Age Verification Override | **Gives access to **approve age verification overrides when selling age-restricted items such as alcohol. When an employee triggers an age verification prompt and needs to override it, a manager with this permission can approve the override.**Assign to **managers and supervisors who are authorized to approve age verification overrides for alcohol sales. | 
 
-#### Restaurant admin access permissions
+### Restaurant admin access permissions
 
 To provide access to restaurant-wide reporting and configuration options for your Toast platform, you assign one or more of these restaurant admin access permissions. In most cases, these reporting and configuration features require that employees have credentials to access Toast Web.
 
@@ -299,7 +299,7 @@ The following table includes information about the Restaurant Admin access permi
 
  | 
 
-#### Quick edit access permissions
+### Quick edit access permissions
 
 The quick edit feature allows you to quickly make edits to your menu directly on the Toast POS app, for example, you can change the price of a menu item or mark a menu item as out of stock. The quick edit feature includes a number of permissions that give you a fine level of control over the types of quick edits an employee can make on the Toast POS app. For example, you can give an employee the Inventory & Quantity permission to allow them to mark a menu item as out of stock, but not give the employee any other quick edit permissions for tasks such as editing prices or re-arranging menu items in their menu groups.
 
@@ -328,7 +328,7 @@ The following table includes information about the Quick Edit Access permissions
 | Rearrange Items / Mods | **Gives access to **quick edit mode on the Toast POS app where the employee can rearrange the order of menu items in a menu group or modifier options in a modifier group.**Assign to **managers and employees who need to make menu adjustments directly on a Toast POS device. | 
 | Remove Items / Mods | **Gives access to **quick edit mode on the Toast POS app where the employee can remove menu items from a menu group or modifier options from a modifier group.**Assign to **managers and employees who need to make menu adjustments directly on a Toast POS device. | 
 
-#### Web setup access permissions
+### Web setup access permissions
 
 Permissions in the Web Setup section control access to configuration options in Toast Web.
 
@@ -410,7 +410,7 @@ The following table includes information about the Web Setup access permissions 
 
  | 
 
-#### Device setup access permissions
+### Device setup access permissions
 
 Permissions in the Device Setup section control access to Setup \> Device Setup configuration options that are available from a Toast POS device. The access permissions that you assign to an employee control which configuration options that employee can change.
 
@@ -472,7 +472,7 @@ The following table includes information about the Device Setup access permissio
 
  | 
 
-#### Account admin access permissions
+### Account admin access permissions
 
 To provide access to sensitive or specialized information for your Toast platform, you assign one or more of these account admin access permissions. Employees who have any of these permissions must also have credentials to access Toast Web.
 
@@ -491,7 +491,7 @@ The following table includes information about the Account Admin access permissi
 | Accounting Sales Setup | **Gives access to **The Accounting pages related to sales, which grant the ability to manage integrations between the Toast platform and your accounting software. | 
 | Accounting Accounts Payable Setup | **Gives access to **The Accounting pages related to accounts payable, which grant the ability to manage integrations between the Toast platform and your accounting software. | 
 
-#### Permissions for accessing device setup options
+### Permissions for accessing device setup options
 
 The Device Setup screen on a Toast POS device includes many configuration options that affect the behavior of the POS device. The access permissions that you assign to a restaurant employee control which configuration options that employee can change. For more information about the access permissions that control access to specific Device Setup screen configuration controls, see [Device setup access permissions](adminPermissions.html#adminDeviceSetupAccessPermissions).
 

@@ -66,7 +66,7 @@ The House account profile page has four tabs on the left navigation. You can sel
 
 
 
-#### Overview
+### Overview
 
 In the Overview section, you can:
 
@@ -103,7 +103,7 @@ In the Overview section, you can:
 
 
 
-##### Editing house account owner information
+#### Editing house account owner information
 
 In the Overview section, you can edit the house account owner’s information. To edit owner information, select the edit icon (pencil). This opens the Edit house account page. From the Edit house account page, you can edit:
 
@@ -114,7 +114,7 @@ In the Overview section, you can edit the house account owner’s information. T
 
 
 
-##### Adjusting a house account's outstanding balance
+#### Adjusting a house account's outstanding balance
 
 
 
@@ -145,7 +145,7 @@ For example, if a house account has a balance of $397.00, you can adjust (reduce
 
 ![The Adjust outstanding balance dialog.](https://doc.toasttab.com/doc/media/platform-house-accounts-adjust-balance.png)
 
-#### Activity
+### Activity
 
 In the Activity section, you can:
 
@@ -201,7 +201,7 @@ In the Activity section, you can:
 
 
 
-#### Invoices
+### Invoices
 
 In the Invoices section, you can view the statuses of your invoices and other details:
 
@@ -231,7 +231,7 @@ In the Invoices section, you can view the statuses of your invoices and other de
 
 
 
-#### Contact
+### Contact
 
 In the Contact section, you can view the contact information for the owner of the house account.
 

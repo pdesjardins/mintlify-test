@@ -24,7 +24,7 @@ This section provides information on working with change sets in the menu manage
 
 
 
-#### Editing a menu manager change set
+### Editing a menu manager change set
 
 Before it is published, you can view the updates in a change set and modify them as needed. To view the updates, you use the menu manager preview page for the change set.
 
@@ -92,7 +92,7 @@ To edit a specific update, enter or choose its new value in the New column. For 
 
 
 
-#### Resolving errors for menu manager change sets
+### Resolving errors for menu manager change sets
 
 Errors can occur if edits are made to a menu entity *after* a change set that includes the entity was created but *before* the change set executes. For example, consider a change set that includes an edit to a menu item's size price. If that size price is removed from the item before the change set executes, an error occurs. For more information on managing errors that occur when the Toast platform executes a menu manager change set, see [Resolving change set errors](platformUnderstandingScheduledPublishingAndChangeSets.html#platformResolvingChangeSetErrors) and [Menu update error codes](platformUnderstandingScheduledPublishingAndChangeSets.html#platformMenuUpdateErrorCodes).
 

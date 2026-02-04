@@ -42,7 +42,7 @@ The following sections provide instructions for setting tax rates and behavior. 
 
 
 
-#### Setting tax rates and tax behavior
+### Setting tax rates and tax behavior
 
 To override the inherited tax rates for a menu, menu group, or subgroup, go to the Taxes section of the entity's details page, select the link icon next to Tax rates to unlink the configuration, and then select the tax rates from the list. To override the Calculate prices with tax included or Takeout exception setting, select its link icon to unlink the configuration and then configure the setting as needed.
 
@@ -60,7 +60,7 @@ To configure a menu item so that it inherits its tax rates, set the Inherit tax 
 
 If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminTaxesOverview.html).
 
-#### Understanding tax inclusion
+### Understanding tax inclusion
 
 When tax is included in a menu item's price, the guest pays the price you have set and any applicable taxes are taken out of that price, instead of being added to it. Use this option when you want a guest's check total to be a round number. This eliminates the need for employees to deal with coins and makes tipping simpler to calculate. It can, however, decrease net revenue if the price you set does not account for applicable taxes.
 
@@ -92,7 +92,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminAssigningTaxRatesInMenuBuilder.html#platformSettingTaxRatesAndTaxBehavior).
 
-#### Understanding takeout tax exception
+### Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 

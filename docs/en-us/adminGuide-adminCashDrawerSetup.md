@@ -17,7 +17,7 @@ codeExamples: 0
 
 Cash drawers are physically attached to printers. When employees perform actions that require cash transactions, the Toast platform opens the cash drawer.
 
-#### Cash drawer names
+### Cash drawer names
 
 You can optionally configure names for cash drawers, so that the printer and the cash drawer will each have a distinct name. If you do not configure a cash drawer name, the printer name is used as the name of the cash drawer.
 
@@ -34,7 +34,7 @@ The cash drawer name appears in Toast Web in areas of the Cash Activity Audit an
 
 You can assign a cash drawer name when you [create or update a cash drawer](adminCashDrawerSetup.html#adminCashDrawerCreate) with the Payments \> Checks & receipt setup \> Printers and cash drawers page in Toast Web.
 
-#### Creating cash drawers
+### Creating cash drawers
 
 This procedure assumes that you have a physical cash drawer connected to a printer and the printer has been connected to your Toast network.
 
@@ -97,7 +97,7 @@ You need the Web Setup \> 6.10 Printer and Cash Drawer Setup permission to confi
 
 
 
-#### Configuring cash in drawer or cash in hand
+### Configuring cash in drawer or cash in hand
 
 Restaurants typically use one of two modes for how employees (such as servers or bartenders) handle cash payments:
 
@@ -149,7 +149,7 @@ Select No cash payments if you want to prevent employees from accepting cash pay
 
 
 
-#### Re-assigning a cash drawer to a Toast POS device
+### Re-assigning a cash drawer to a Toast POS device
 
 If a specific Toast POS device is configured for cash in drawer mode, it must be assigned to printer that has a cash drawer. Typically, this cash drawer assignment remains throughout the employee's shift, but you can change the cash drawer assignment (for example, if the drawer does not operate properly because of a mechanical or electronic problem).
 

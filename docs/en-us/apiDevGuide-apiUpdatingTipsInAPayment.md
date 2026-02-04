@@ -29,7 +29,7 @@ You can only update the tip on credit card payments that are not yet captured or
 
 The `paymentStatus` for credit card payments must be `AUTHORIZED`. Capturing a payment begins the process of settling that payment with credit card providers. Credit card payments are usually captured at the end of the business day for a restaurant.
 
-#### How to update the tip amount
+### How to update the tip amount
 
 To update a tip amount, you send a `PATCH`request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments/<em>\{paymentGuid\}</em>`endpoint of the Toast orders API. You include a `Payment` JSON object with an updated `tipAmount` value. The `type`of the updated payment must be `CREDIT` or `OTHER`. For credit card payments, the `paymentStatus` on the updated payment must be `AUTHORIZED.`
 
@@ -66,7 +66,7 @@ In the request message body, include the `Payment`object that contains the updat
 
 
 
-#### Example Payment object that updates the tip amount for an existing payment
+### Example Payment object that updates the tip amount for an existing payment
 
 The following example shows a `Payment` object that updates the tip amount for an existing payment.
 
@@ -80,7 +80,7 @@ The following example shows a `Payment` object that updates the tip amount for a
 
 (1) The updated tip amount. The tip amount for the payment is completely replaced by the tipAmount value that you include in the message body of the PATCHrequest.
 
-#### Example response when you update a tip in an existing payment
+### Example response when you update a tip in an existing payment
 
 The following example shows a response for a `PATCH`request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments/<em>\{paymentGuid\}</em>`endpoint of the orders API.
 

@@ -41,7 +41,7 @@ The following sections provide more information about the gift card transaction 
 
 
 
-#### Single endpoint
+### Single endpoint
 
 The Toast gift card API specification includes a single endpoint. The Toast platform sends information about all gift card transaction types to that endpoint. The information in the HTTP request indicates the type of transaction and provides details about it.
 
@@ -60,11 +60,11 @@ Your single endpoint must return a JSON `GiftCardTransactionResponse` object in 
 > Your gift card API implementation must use HTTPS for all REST requests and responses.
 
 
-#### HTTP required for REST requests and responses
+### HTTP required for REST requests and responses
 
 Your gift card API implementation must use HTTPS for all REST requests and responses. HTTPS uses Transport Layer Security (TLS) to encrypt and secure communications between the API client and server.
 
-#### Gift card transaction types
+### Gift card transaction types
 
 The following table describes the transaction types that the Toast platform sends to your gift card provider service. The Toast platform includes the transaction type identifier in the `Toast-Transaction-Type` header parameter for each gift card transaction API request.
 
@@ -83,13 +83,13 @@ The following table describes the transaction types that the Toast platform send
 | `GIFTCARD_REDEEM` | Decreases the amount of money available on a gift card.For example, the Toast platform sends a `GIFTCARD_REDEEM` request when a restaurant guest makes a purchase using a gift card as a form of payment.If the redeem request is for a cash-out transaction, the `isCashOut` value of the `TransactionInformationRedeem` object is `true`. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see [Cash out transactions](apiGiftCardIntegrationWorkflow.html#apiGiftCardApiCashOutRedeem).**Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status. | 
 | `GIFTCARD_REVERSE` | Undoes a previous gift card transaction.For example, the Toast platform sends a `GIFTCARD_REVERSE` request when a restaurant employee voids a purchase made with a gift card.**Required **Your gift card implementation must handle requests with this transaction type. | 
 
-#### Verification Codes (PINs)
+### Verification Codes (PINs)
 
 All transaction types can support verification codes (also known as PINs). You may choose to support verification codes (PINs) for your Toast gift card API implementation. If you’d like to add this to your existing Toast gift card API implementation, reach out to the Developer Relations team to inquire about adding Verification Code (PIN) support to your Toast API implementation scope.
 
 If a user enters a verification code, the Toast platform sends it as part of any of the transactions listed below. The Toast platform also indicates if the card number is entered via swipe, manual entry (keyed), or scan (1D or 2D barcode). The provider must validate the verification code and use the corresponding response type. If a verification code is not entered but is required, the provider can choose to respond with “ERROR_VERIFICATION_REQUIRED” to indicate the user must resubmit using a verification code (PIN).
 
-#### Response status types
+### Response status types
 
 The following table describes the response status types that your gift card provider service can send to the Toast platform. Your gift card integration API implementation returns a transaction status identifier in the `transactionStatus` value of the GiftCardTransactionResponse object.
 
@@ -121,7 +121,7 @@ The following table describes the response status types that your gift card prov
 | `ERROR_VERIFICATION_REQUIRED` | Verification code (PIN) data is necessary to complete the transaction but the data is missing or `null` in the JSON body. | 
 | `ERROR_VERIFICATION_NOT_SUPPORTED` | Verification code (PIN) data is provided by the JSON body but the provider doesn't support verification code. | 
 
-#### Multiple requests for a gift card transaction
+### Multiple requests for a gift card transaction
 
 The Toast platform may send multiple requests to your gift card integration API implementation when it processes a gift card transaction.
 
@@ -197,7 +197,7 @@ The following procedures describe the sequence of integration API requests that 
 
 
 
-#### Cash out transactions
+### Cash out transactions
 
 Restaurant locations that use the Toast gift card provider integration can give guests cash as a gift card redeem transaction when applicable regulations require cash-out transactions. For example, some gift-card regulations require that guests can withdraw all remaining funds available on a gift card when the balance is below a specific threshold. A cash-out redeem transaction deducts funds from the gift card account and the guest receives the funds directly in cash. A guest must cash out the entire available balance of a gift card account. A cash out transaction leaves the gift card account with a 0.00 currency balance and you should update the card's balance to zero in your system. See [this article](https://central.toasttab.com/s/article/Cashing-Out-the-Remaining-Balance-of-a-Gift-Card) for more information about cash out transactions.
 

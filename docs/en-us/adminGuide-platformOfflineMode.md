@@ -42,7 +42,7 @@ For details on Toast platform functionality in offline mode, see:
 
 
 
-#### Offline mode check number assignments
+### Offline mode check number assignments
 
 If your restaurant goes offline, your Toast POS devices still generate a check number for any orders that are created while offline. Offline check numbers are calculated in the following way: 
 
@@ -60,7 +60,7 @@ For example, if your Toast POS device number is 1, while in offline mode, your c
 
 Once your POS devices are back online, check numbering resumes from where it left off before going offline, and the offline mode check numbers are no longer used.
 
-#### Offline due to a local network connection disruption
+### Offline due to a local network connection disruption
 
 When a device is offline due to a local network connectivity issue, a banner displays at the top of the Toast POS app screen to inform you the device is offline and there is a local network connection issue. When the device initially switches to offline mode, a dialog opens, informing you what you can still do while offline and what actions to avoid.
 
@@ -86,7 +86,7 @@ To recover, first check that your local network cable is securely connected or W
 
 After the issue is resolved and the local network connection is restored, the offline banner disappears.
 
-#### Offline due to an internet service disruption
+### Offline due to an internet service disruption
 
 When a device is offline due to an internet connection issue, a banner displays at the top of the Toast POS app screen to inform you that the device is offline and there is an internet connection issue. When the device initially switches to offline mode, a dialog opens, informing you what you can still do while offline and what actions to avoid.
 
@@ -112,7 +112,7 @@ To resolve this issue, contact your internet service provider (ISP). For more in
 
 Once the issue is resolved for the device and the connection is restored, the offline banner disappears.
 
-#### Offline due to a Toast platform cloud-based service disruption
+### Offline due to a Toast platform cloud-based service disruption
 
 When a device is offline due to a Toast platform cloud-based service disruption, a banner displays at the top of the Toast POS app screen to inform you that the device is offline because of a Toast platform cloud-based service disruption. When the device initially switches to offline mode, a dialog opens, informing you what you can still do while offline and what actions to avoid.
 
@@ -138,7 +138,7 @@ This is a Toast service issue and Toast is working to resolve it. You can visit 
 
 Once the issue is resolved for the device and the connection is restored, the offline banner disappears.
 
-#### Best practices and available operations
+### Best practices and available operations
 
 This section provides some best practices for offline Toast POS devices using offline mode, as well as listing which Toast operations are, and are not, available.
 

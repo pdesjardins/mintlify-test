@@ -48,7 +48,7 @@ To create a request for check data, include the following:
 > The date used to determine whether a check is within the time range or not is the date the order was initially expected to be fulfilled.
 
 
-#### Request for check reporting data
+### Request for check reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/check/day` endpoint.
 
@@ -69,7 +69,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 
 (4) Include details about the requested check reporting data in the message body. The following example is the message body for this curl command example.
 
-#### Message body for check reporting data
+### Message body for check reporting data
 
 The following example shows the message body for creating a check reporting data request.
 
@@ -95,7 +95,7 @@ The following example shows the message body for creating a check reporting data
 
 (4) The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the restaurantIdsvalue, so all other restaurants are excluded automatically.
 
-#### Response to request for check reporting data
+### Response to request for check reporting data
 
 The following example shows the response from the `/era/v1/check/day` endpoint.
 

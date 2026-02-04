@@ -24,11 +24,11 @@ The Price editor page displays prices for all of your menu groups and menu items
 > Currently, the Price editor page does not display prices for modifier groups and modifiers. To edit prices for those, you must use the modifier group and modifier details pages.
 
 
-#### Price editor overview
+### Price editor overview
 
 To view the Price editor page, [access Toast Web](adminAccessToastAdminBackend.html) and then choose Menus \> Bulk management \> Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
 
-##### Understanding the Price column
+#### Understanding the Price column
 
 The Price column displays the prices for your menu groups and items. Editing the contents of the Price column is equivalent to making changes on a menu group or menu item's details page.
 
@@ -73,13 +73,13 @@ If a menu group or item is configured to use a Menu Specific Price but a price h
 
 
 
-##### Filtering by pricing strategy
+#### Filtering by pricing strategy
 
 To make it easier to locate and edit prices on the Price editor page, you can filter the prices you see by pricing strategy. Choose the pricing strategy you want from the menu in the upper-right corner of the page. The page is filtered to show only menu groups and items that use that pricing strategy. To return to viewing all prices, choose All Strategies from this menu.
 
 ![The location of the pricing strategy filter on the Price Editor page.](https://doc.toasttab.com/doc/media/pricing-price-editor-strategy-filter.png)
 
-#### Using the Price Editor to make bulk edits
+### Using the Price Editor to make bulk edits
 
 To make a bulk edit in the Price Editor, you choose the menu groups and menu items that the bulk edit will apply to and then you choose the type of edit to make. You can choose to set the prices to a specific dollar value, or to increase or decrease them by a dollar or percentage amount. The numeric prices of the menu groups and items change to reflect the edits you make. However, these changes have no affect on your inheritance or pricing strategy configuration. Menu items that inherit their prices continue to inherit them. Pricing strategies you have specified remain in effect but the prices configured for those strategies are updated. For example, consider the following time-specific prices:
 
@@ -128,11 +128,11 @@ The prices continue to be time-specific prices but their values have all been ch
 
 
 
-#### Converting to menu-specific or location-specific prices
+### Converting to menu-specific or location-specific prices
 
 The Price editor page allows you to quickly convert the prices of menu items to menu-specific or location-specific prices.
 
-##### Converting menu items to menu-specific prices
+#### Converting menu items to menu-specific prices
 
 The Price editor page provides a quick option to convert a menu item that is individually priced using the Base Price pricing strategy into one that uses the Menu Specific Price pricing strategy.
 
@@ -179,7 +179,7 @@ The Price editor page provides a quick option to convert a menu item that is ind
 
 
 
-##### Converting menu items to location-specific prices
+#### Converting menu items to location-specific prices
 
 For customers that use the enterprise module, the Price Editor page provides a quick option to convert a menu item that is individually priced using the Base Price pricing strategy to one that uses the Location Specific Price pricing strategy.
 

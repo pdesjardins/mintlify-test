@@ -17,7 +17,7 @@ codeExamples: 0
 
 As you create your enterprise's configuration in Toast Web, you should consider the individual configuration entities you are creating, what your enterprise's requirements are, and whether those entities benefit from versioning. Several scenarios are possible and they are described in the following sections.
 
-#### Creating a single configuration entity shared by all locations
+### Creating a single configuration entity shared by all locations
 
 There are a number of configuration entities in Toast Web that, while they have Target and Owner fields available for you to use, are generally specified once, at the corporate level, and then shared among all locations in the enterprise. Typically, you will create one version of these entities and set their Target and Owner fields to your corporate restaurant group. This makes the entities available to all of your locations while restricting editing of the entities to users who have permissions to the corporate restaurant group. For example, you can create a common set of No Sale Reasons and share them among all your locations.
 
@@ -72,7 +72,7 @@ Configuration entities that typically benefit from this approach include:
 
 
 
-#### Creating a master version with location-specific versions for every location
+### Creating a master version with location-specific versions for every location
 
 For some configuration entities, such as tax rates and prep stations, you should create a master version of the entity and then create location-specific versions from that master and assign them to each location. This approach has two benefits:
 
@@ -104,7 +104,7 @@ Configuration entities that should use this approach include:
 
 
 
-#### Creating a master version with location-specific versions for some locations
+### Creating a master version with location-specific versions for some locations
 
 Some configuration entities, such as price levels or courses, may be used by most but not all of the locations in your enterprise. In this scenario, you can create a master version of the entity and set its Target and Owner to the corporate restaurant group. For any restaurant sub-groups or locations that need a modified version of the entity, you create a new version from the master and set its Target and Owner to the restaurant sub-group or location. This technique allows you to specify one configuration that is shared by most of your locations but also override that configuration for certain restaurant groups or locations.
 
@@ -130,7 +130,7 @@ Configuration entities that typically benefit from this approach include:
 
 
 
-#### Configuration entities that do not benefit from versioning
+### Configuration entities that do not benefit from versioning
 
 The details for some configuration entities are almost entirely location-specific. As such, these entities do not benefit from versioning because very little information can be shared among locations. This is the case for Printers and Receipt Setup. For this type of configuration entity, there is no reason to create a master version with location-specific versions based off the master. Instead, you can add an individual configuration entity for each location and set its Target and Owner fields to that location.
 

@@ -35,7 +35,7 @@ The `restaurantGuid` is the unique GUID assigned to the restaurant by the Toast 
 
 The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
-#### Request for restaurant information
+### Request for restaurant information
 
 The following example shows a **curl** command that sends a `GET` request to the `/era/v1/restaurants-information` endpoint.
 
@@ -51,7 +51,7 @@ curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
-#### Response to the request for restaurant information
+### Response to the request for restaurant information
 
 The following example shows the response from the `/era/v1/restaurants-information` endpoint.
 

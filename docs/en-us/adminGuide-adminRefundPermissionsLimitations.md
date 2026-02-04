@@ -21,7 +21,7 @@ Before an employee can issue a refund, they must be given permission to find che
 
 There are also limitations and recommendations around the types of payments that support refunds, and when you can issue cash and credit card refunds.
 
-#### Refund permissions
+### Refund permissions
 
 To be able to issue refunds, an employee must have the following permissions:
 
@@ -72,13 +72,13 @@ For each permission:
 
 
 
-#### Allowed payment types for refunds
+### Allowed payment types for refunds
 
 You can issue refunds on checks that have credit card, cash, or Toast gift card payments on them.
 
 You cannot refund payments that were made using other payment types, house accounts, or third-party gift cards. For information on how to remove these payments, see [Removing other payments, house accounts, and third-party gift cards](adminIssuingARefund.html#adminRemovingOtherPaymentsHouseAccountsAndThirdPartyGiftCards).
 
-#### Cash refunds
+### Cash refunds
 
 You can only issue refunds on cash payments in the Toast POS app. You cannot refund cash payments from Toast Web.
 
@@ -86,7 +86,7 @@ Toast support strongly recommends that you issue cash refunds on a Toast POS dev
 
 When you issue a cash refund on a device that is not associated with a cash drawer, there is no cash drawer report to log the refund to. There will be no record of the cash refund in your reports.
 
-#### Credit card refunds
+### Credit card refunds
 
 You can refund credit card or Toast gift card payments in either the Toast POS app or in Toast Web.
 

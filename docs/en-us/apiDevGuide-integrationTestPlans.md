@@ -16,7 +16,7 @@ codeExamples: 0
 
 You can use these test plans to validate your integrations.
 
-#### Gift card integration test plan
+### Gift card integration test plan
 
 You can use this test plan while you build your gift card integration. Your integration should be able to successfully complete all cases in this plan before it goes live.
 
@@ -53,7 +53,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
 | 25 | Active Card | Add Value | Run a balance inquiry on the card used in cases 23-24. | The card balance should be increased by the correct amount. | 
 | 26 | Active Card | Reverse Add Value | On the Closed Checks tab, find the order created in case 25.Click Pay ($).Void all payments.In the overflow menu, click Void Order.Confirm the void operation.Create a new order.Click Gift Card and then click Balance Inquiry.Swipe the card whose Add Value action was voided. | The gift card balance should be decremented by the voided Add Value action. | 
 
-#### Loyalty integration test plan
+### Loyalty integration test plan
 
 You can use this test plan while you build your gift card integration. Your integration should be able to successfully complete all cases in this plan before it goes live.
 

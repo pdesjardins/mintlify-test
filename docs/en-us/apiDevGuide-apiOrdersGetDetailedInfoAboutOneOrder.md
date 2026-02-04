@@ -17,13 +17,13 @@ codeExamples: 0
 
 You can use the orders API to retrieve detailed information about a single order. To identify the order to return, you use the order GUID.
 
-#### How to make the request
+### How to make the request
 
 To request details for a single order, you must have the order GUID.
 
 You send a `GET` request to the `/orders/<em>\{guid\}</em>` endpoint.
 
-#### Example request for detailed information about one order
+### Example request for detailed information about one order
 
 The following example shows a request for detailed information about one order.
 
@@ -54,7 +54,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 (3) Send a GET request to the /orders/\{guid\} endpoint of the orders API. Specify the GUID of the order as a path parameter.
 
-#### Example response data
+### Example response data
 
 The following example shows the response data from the `/orders/\{guid\}` endpoint. It contains detailed information about one order.
 

@@ -23,7 +23,7 @@ When applying these settings to multiple locations, you can select locations for
 
 For settings where you can select more than one option or uses a custom field, you create a set of options that can then be applied to locations. Add a new entry, modify the entry in the dialog that appears, and then select locations.
 
-#### Login screen
+### Login screen
 
 The following table provides information about the settings of the Login screen section on the Front of house \> Order screen setup \> UI options page.
 
@@ -43,7 +43,7 @@ You can also allow employees to access Toast POS devices that have a magnetic ca
 
  | 
 
-#### Order screen
+### Order screen
 
 The following table provides information about the settings of the Order screen section on the Front of house \> Order screen setup \> UI options page.
 
@@ -343,7 +343,7 @@ For more information about the effects of these options, see [KDS ticket layout]
 
 When enabled, employees can search for menu items by name using a search bar and the on-screen keyboard. | 
 
-#### POS Scheduling Settings
+### POS Scheduling Settings
 
 The following table provides information about the settings of the POS Scheduling Settings section on the Front of house \> Order screen setup \> UI options page.
 
@@ -356,7 +356,7 @@ The following table provides information about the settings of the POS Schedulin
  | 
 | Time to send previous day's orders to kitchen (Next Day mode) | This is the time when orders that are scheduled for fulfillment the next day are sent to the kitchen. The time is formatted as a 24-hour value, ranging from 4:00 to 23:59. For example, 3:30 PM is formatted as 15:30. | 
 
-#### Service Areas Screen
+### Service Areas Screen
 
 The following table provides information about the settings of the Service Areas Screen section on the Front of house \> Order screen setup \> UI options page.
 
@@ -367,7 +367,7 @@ The following table provides information about the settings of the Service Areas
 
  | 
 
-#### Tipping
+### Tipping
 
 The following table provides information about the settings of the Tipping section on the Front of house \> Order screen setup \> UI options page.
 
@@ -446,7 +446,7 @@ Note that service charges, unlike tips, are included in the check total and coll
 | Minimum amount | This setting appears only if [Requires approval?](adminUiOptionsReference.html#configTipOptionsRequireApproval) is Yes. This defines the minimum amount a tip must be to require manager approval. | 
 | Minimum % of balance due | This setting appears only if [Requires approval?](adminUiOptionsReference.html#configTipOptionsRequireApproval) is Yes. This defines the minimum percentage of the check a tip must equal to require manager approval. | 
 
-#### Shift review / closeout
+### Shift review / closeout
 
 The following table provides information about the Advanced shift review setup page settings. To navigate to the Advanced shift review setup page, select Employees \> Shift review \> Advanced shift review setup.
 
@@ -500,9 +500,9 @@ For more information about the effect of these options, see the [Negative Declar
 
  | 
 
-#### Report configurations
+### Report configurations
 
-##### Shift review report configurations
+#### Shift review report configurations
 
 The following list contains the sections you can include in the Shift review report. To navigate to the Shift review report page, select Employees \> POS report configurations \> Shift review report. For more information about these sections, see [Shift review report configurations](platformConfiguringShiftReview.html#platformShiftReviewReportConfigurations).
 
@@ -564,7 +564,7 @@ To include a section in the shift review report, select the checkbox next to the
 
 You also have the option to change the order of the sections. Click or tap and drag the reorder icon next to a section name and move it to a different location in the list.
 
-##### Z report configurations
+#### Z report configurations
 
 The following list contains the sections you can choose to include in the Z Report. To navigate to the Z Report page, select Front of house \> Order screen setup \> UI options \> Report configurations and follow the link under the Z report configurations section. For more information about these sections, see this [Toast Central article](https://central.toasttab.com/s/article/Close-Out-Day-Z-Report-Auto-Capture#Z_report).
 
@@ -623,7 +623,7 @@ To include a section on the Z report, select the checkbox next to the section na
 
 You also have the option to change the sequence in which these sections appear. Click or tap and drag the reorder icon next to a section name and move it to a different location in the list.
 
-##### Closed drawer report configurations
+#### Closed drawer report configurations
 
 The following table provides information about the settings of the Closed Drawer Report page. To navigate to the Closed Drawer Report page, select Payments \> Payment methods \> Cash overview \> POS report configurations \> Cash drawer report. For more information about the sections you can include in your closed drawer report, see [this Toast Central article](https://central.toasttab.com/s/article/Closed-Drawer-Report-1492723816056).
 
@@ -640,7 +640,7 @@ The following table provides information about the settings of the Closed Drawer
 
 To include a section in the closed drawer report, select the checkbox next to the section name under the Show? column.You also have the option to change the sequence in which these sections appear. Click or tap and drag the reorder icon next to a section name and move it to a different location in the list. | 
 
-#### Time clock
+### Time clock
 
 The following table provides information about the settings of the Time clock section on the Front of house \> Order screen setup \> UI options page.
 
@@ -677,7 +677,7 @@ The following table provides information about the settings of the Time clock se
 
  | 
 
-#### Tax options
+### Tax options
 
 The following table provides information about the settings of the Tax options section on the Front of house \> Order screen setup \> UI options page.
 
@@ -693,7 +693,7 @@ The following table provides information about the settings of the Tax options s
 
 For more information, see [Smart tax](adminSmartTax.html). | 
 
-#### Order management
+### Order management
 
 The following table provides information about the settings of the Order management section on the Front of house \> Order screen setup \> UI options page.
 

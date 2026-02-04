@@ -31,7 +31,7 @@ In each order, the `diningOption` object specifies the GUID of the dining option
 
 You use the configuration API to retrieve the available dining option GUIDs.
 
-#### Types of dining options
+### Types of dining options
 
 The restaurant defines the available dining options. For more information about dining options and how to configure them, see [Dining options](adminDiningOptions.html) in the *Platform Guide*.
 
@@ -70,7 +70,7 @@ Orders with delivery dining options must provide `customer` and `deliveryInfo`in
 
 Restaurants can configure multiple dining options for a given behavior. For example, they can have different delivery options to help to differentiate between orders that are delivered by the restaurant and orders that are delivered by a service.
 
-#### Retrieving the available dining options
+### Retrieving the available dining options
 
 When you create an order, the `diningOption` value must specify the GUID of the dining option to use for the order.
 
@@ -113,11 +113,11 @@ Here is an example of the request results:
 \}
 ```
 
-#### Creating a dine-in order
+### Creating a dine-in order
 
 A dine-in order uses a dining option where `behavior` is `DINE_IN`. For a dine-in order, in addition to the menu item selections, you can provide information about the table and server.
 
-##### Providing table information for a dine-in order
+#### Providing table information for a dine-in order
 
 You can create a dine-in order at a specific restaurant table.
 
@@ -143,7 +143,7 @@ When you use the orders API to create an order at a restaurant table, that order
 
 
 
-##### Providing server information for a dine-in order
+#### Providing server information for a dine-in order
 
 You can specify the restaurant employee who is responsible for the order.
 
@@ -160,7 +160,7 @@ The employee must be an active employee at the current restaurant location. The 
 
 To retrieve information about restaurant employees, send a `GET` request to the `/employees` endpoint of the labor API. For more information, see [Get employees](https://doc.toasttab.com/openapi/labor/operation/employeesGet/) in the API reference.
 
-##### Example POST message body for a dine-in order
+#### Example POST message body for a dine-in order
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a dine-in order at a restaurant table.
 
@@ -212,19 +212,19 @@ The following example shows the message body for a `POST`request to the `/orders
 
  In a Customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
 
-#### Creating a takeout order
+### Creating a takeout order
 
 A takeout order uses a dining option where `behavior` is `TAKE_OUT`.
 
 For takeout orders, in addition to the menu item selections, you provide information about the guest who will pick up the order.
 
-##### Providing guest information for a takeout order
+#### Providing guest information for a takeout order
 
 For a takeout order, the `Check` object must include a `customer` object that contains name and contact information for the guest.
 
 In the `customer` object, the `firstName`, `lastName`, `phone`, and `email` fields are required.
 
-##### Example POST message body for a takeout order
+#### Example POST message body for a takeout order
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a takeout order.
 
@@ -275,7 +275,7 @@ The following example shows the message body for a `POST`request to the `/orders
 
  In a customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
 
-##### Example response to a takeout order POST request
+#### Example response to a takeout order POST request
 
 The following example shows the response from the `/orders` endpoint for a takeout order.
 
@@ -420,7 +420,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
 
 (5) Information about the guest who will pick up the order.
 
-#### Creating a curbside pickup order
+### Creating a curbside pickup order
 
 A curbside pickup order is a variation of a takeout order. Instead of the guest entering the restaurant to pick up the order, a restaurant employee brings the order out to the guest's vehicle.
 
@@ -428,7 +428,7 @@ A curbside pickup order uses a dining option where `behavior` is `TAKE_OUT` and 
 
 In addition to the required `customer` value for a takeout order, you can also provide `curbsidePickupInfo` to identify the vehicle that is picking up the order.
 
-##### Providing curbside pickup information for a curbside pickup order
+#### Providing curbside pickup information for a curbside pickup order
 
 When you place an order that specifies a dining option with curbside behavior, the request body can include the `curbsidePickupInfo`object.
 
@@ -451,7 +451,7 @@ On Toast POS devices, the curbside pickup information is displayed at the top of
 
 ![An orders screen with the guest's curbside information emphasized.](https://doc.toasttab.com/doc/media/api-orders-create-curbside-order.png)
 
-##### Example POST message body for a curbside pickup order
+#### Example POST message body for a curbside pickup order
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a curbside pickup order.
 
@@ -511,7 +511,7 @@ The following example shows the message body for a `POST`request to the `/orders
 
 (5) In a customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
 
-##### Example response to a curbside pickup order POST request
+#### Example response to a curbside pickup order POST request
 
 The following example shows the response from the `/orders` endpoint to a curbside pickup order request.
 
@@ -615,19 +615,19 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
 (6) Information about the guest who will pick up the order.
 
-#### Creating a delivery order
+### Creating a delivery order
 
 A delivery order uses a dining option where behavior is `DELIVERY`.
 
 For delivery orders, in addition to the menu item selections, you must provide guest information and delivery information.
 
-##### Providing guest information for a delivery order
+#### Providing guest information for a delivery order
 
 For a delivery order, the `Check` object must include a `customer` object that contains name and contact information for the guest.
 
 In `customer`, the `firstName`, `lastName`, `phone`, and `email` fields are required.
 
-##### Providing delivery information for a delivery order
+#### Providing delivery information for a delivery order
 
 For a delivery order, the order object must include a `deliveryInfo` object that provides details about the address to deliver the order to.
 
@@ -635,7 +635,7 @@ In `deliveryInfo`, you must provide the `address1`, `city`, `state`, and `zipCod
 
 You can also optionally use the `notes` value to provide notes for the delivery. For example, you can indicate where to leave the delivery or how to contact the guest when the delivery arrives.
 
-##### Example POST message body for a delivery order
+#### Example POST message body for a delivery order
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a delivery order.
 
@@ -694,7 +694,7 @@ The following example shows the message body for a `POST`request to the `/orders
 
  In a customer object, the email value is the unique identifier for the guest. The email value must be unique for each individual guest.
 
-##### Example response to a delivery order POST request
+#### Example response to a delivery order POST request
 
 When you use the orders API to create a delivery order, the response includes information about the order preparation and delivery.
 

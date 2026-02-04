@@ -18,7 +18,7 @@ Use the instructions below to build cash transaction reports using information f
 
 The integration allows you to provide customers with detailed information about cash transactions, providing restaurants with useful information to understand their daily cash flow.
 
-#### Required scopes
+### Required scopes
 
 To follow these instructions, you must have the following [scopes](apiScopes.html):
 
@@ -35,13 +35,13 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 
 
-#### Setup and planning
+### Setup and planning
 
-##### Complete initial integration setup
+#### Complete initial integration setup
 
 Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
 
-##### Decide what information your reports will provide
+#### Decide what information your reports will provide
 
 Before you begin development, decide what reports you will build.
 
@@ -75,9 +75,9 @@ This guide describes how to report on the following cash transaction information
 
 
 
-#### Retrieving restaurant information
+### Retrieving restaurant information
 
-##### Set up recurring retrieval of configuration and employee information
+#### Set up recurring retrieval of configuration and employee information
 
 To display additional information associated with cash transactions, query the following configuration API endpoints at least once per day:
 
@@ -93,7 +93,7 @@ To display additional information associated with cash transactions, query the f
 
 In addition, query the `/employees`[endpoint](api_get_all_employees.html) of the labor API at least once per day to retrieve information about the employees associated with cash transactions.
 
-##### Set up recurring retrieval of cash transactions
+#### Set up recurring retrieval of cash transactions
 
 To report on cash transactions, you need to retrieve cash entries and deposits once per day.
 
@@ -108,7 +108,7 @@ Toast support recommends retrieving deposits for the previous business day every
 
 
 
-##### Consider historical backfill
+#### Consider historical backfill
 
 When a restaurant first connects to your integration, they may expect to see some historical information already displayed in your system.
 
@@ -116,7 +116,7 @@ Define how many days of historical cash transactions you retrieve when a restaur
 
 Toast support recommends that you retrieve twelve weeks of historical cash transactions when a restaurant first connects to your integration.
 
-##### Determine closeout hour
+#### Determine closeout hour
 
 The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
 
@@ -124,15 +124,15 @@ The default closeout hour is 4:00 a.m. local time unless a Toast employee change
 
 Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
 
-#### Building report functionality
+### Building report functionality
 
-##### Associate cash drawer information with cash entries
+#### Associate cash drawer information with cash entries
 
 To display the cash drawer associated with the cash entry, identify the `cashDrawer` value of the `CashEntry`object returned by the `/entries` endpoint of the cash management API.
 
 Then display the `name` of the associated `CashDrawer` object returned by the `/cashDrawers`endpoint of the configuration API.
 
-##### Addition and removal of miscellaneous cash from cash drawer
+#### Addition and removal of miscellaneous cash from cash drawer
 
 To report on the addition and removal of miscellaneous cash from the cash drawer, your reports should display cash entries whose `type` values are `CASH_IN` and `CASH_OUT`. Cash entries with `type` of `CASH_IN` or `CASH_OUT` indicate that employees added cash to a cash drawer or removed cash from a cash drawer outside of a transaction.
 
@@ -149,7 +149,7 @@ To display the name of the employee who *approved* the addition or removal of ca
 
 When a restaurant employee undoes a `CASH_IN` entry, there is a corresponding `CASH_OUT` entry. In that `CASH_OUT` entry, the `undoes` value contains the GUID of the original `CASH_IN` transaction. Similarly, when a restaurant employee undoes a `CASH_OUT` entry, there is a corresponding `CASH_IN` entry. In that `CASH_IN`entry, the `undoes` value contains the GUID of the original `CASH_OUT` transaction. If the `undoes` value on a cash entry contains information, your reports should match this cash entry with the original entry it undoes. The `CASH_IN` and corresponding `CASH_OUT` entries may occur on different business days.
 
-##### Addition and removal of cash tips from cash drawer
+#### Addition and removal of cash tips from cash drawer
 
 To report on the addition and removal of miscellaneous cash from the cash drawer, your reports should display cash entries whose `type` values are `CASH_COLLECTED` and `TIP_OUT`.
 
@@ -166,7 +166,7 @@ To display the name of the employee who is the *subject of* the shift review tha
 
 When a restaurant employee undoes a `CASH_COLLECTED`entry, there is a corresponding `TIP_OUT` entry. In that `TIP_OUT` entry, the `undoes` value contains the GUID of the original `CASH_COLLECTED` transaction. Similarly, when a restaurant employee undoes a `TIP_OUT` entry, there is a corresponding `CASH_COLLECTED` entry. In that `CASH_COLLECTED` entry, the `undoes` value contains the GUID of the original `TIP_OUT` transaction. If the `undoes` value on a cash entry contains information, your reports should match this cash entry with the original entry it undoes. The `CASH_COLLECTED` and corresponding `TIP_OUT`entries may occur on different business days.
 
-##### "No sale" transactions
+#### "No sale" transactions
 
 To report on the addition and removal of miscellaneous cash from the cash drawer, your reports should display cash entries whose `type` value is `NO_SALE`.
 
@@ -176,7 +176,7 @@ To display the reason the employee performed the "no sale" transaction, display 
 
 To display the name of the employee who initiated the cash transaction, match the GUID of the `employee`1 value on the `CashEntry` object with that of the corresponding employee from the `/employees` endpoint of the labor API and display the employee name.
 
-##### Cash payments for goods and services
+#### Cash payments for goods and services
 
 To report on cash payments for goods and services, your reports should display cash entries whose `type` values are `PAY_OUT` and `UNDO_PAY_OUT`.
 
@@ -190,7 +190,7 @@ To display the name of the employee who *approved* the payout transaction, match
 
 When a restaurant employee undoes a `PAY_OUT` entry, there is a corresponding `UNDO_PAY_OUT` entry. In that `UNDO_PAY_OUT` transaction, the `undoes` value contains the GUID of the original `PAY_OUT` transaction. If the `undoes` value on a cash entry contains information, your reports should match this cash entry with the original entry it undoes. The `PAY_OUT` and corresponding `UNDO_PAY_OUT`entries may occur on different business days.
 
-##### Delivery driver reimbursement
+#### Delivery driver reimbursement
 
 To report on cash reimbursement of delivery drivers, your reports should display cash entries whose `type` value is `DRIVER_REIMBURSEMENT`.
 
@@ -200,7 +200,7 @@ To display the name of the employee who *performed* the shift review that create
 
 To display the name of the employee who is the *subject of* the shift review that created the driver reimbursement transaction, match the GUID of the `employee`2 value on the `CashEntry` object with that of the corresponding employee from the `/employees` endpoint of the labor API and display the employee name.
 
-##### Closeouts
+#### Closeouts
 
 To report on when employees close a cash drawer, your reports should display cash entries whose `type` value is `CLOSE_OUT_EXACT`, `CLOSE_OUT_OVERAGE`, and `CLOSE_OUT_SHORTAGE`.
 
@@ -216,17 +216,17 @@ To report on when employees close a cash drawer, your reports should display cas
 
 To display the name of the employee who initiated the cash transaction, match the GUID of the `employee`1 value on the `CashEntry` object with that of the corresponding employee from the `/employees` endpoint of the labor API and display the employee name.
 
-##### Deposits
+#### Deposits
 
 To report on cash deposits from the previous business day, display the deposits you retrieved from the `/deposits` endpoint of the cash management API. The `amount` value indicates the amount of cash deposited in the cash drawer.
 
 To display the name of the employee who deposited the cash, match the GUID of the `employee` value on the `Deposit`object with that of the corresponding employee from the `/employees` endpoint of the labor API and display the employee name.
 
-##### Expected cash balance in cash drawer
+#### Expected cash balance in cash drawer
 
 Follow [these instructions](apiCalculatingExpectedCashDeposits.html) to report on the expected cash balance in a cash drawer at the end of a business day.
 
-##### Anomalous cash transactions
+#### Anomalous cash transactions
 
 Consider flagging cash transactions that restaurants may consider noteworthy.
 

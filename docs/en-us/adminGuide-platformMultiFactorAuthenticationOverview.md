@@ -20,7 +20,7 @@ Multi-factor authentication (MFA) is a security feature that requires users to p
 
 When you use multi-factor authentication, the Toast platform prompts you for a numeric passcode in addition to your username and password when you sign in to Toast Web as an employee. You get the passcode from a short message system (SMS) text message or using an authenticator application that generates a secure passcode. The combination of your username and password and the passcode that you get using a device that only you are likely to have are the multiple factors that increase the security of your employee account.
 
-#### Why is enrolling in MFA important?
+### Why is enrolling in MFA important?
 
 MFA is one of the simplest and most effective ways for Toast users to protect their accounts and access to proprietary business information and operations. MFA adds an extra layer of security by requiring additional verification beyond a password, which is critical given how easily passwords can be stolen or guessed. This additional layer stops cybercriminals from accessing sensitive data even if they manage to obtain an employee’s password, protecting against phishing attacks and identity theft. By using MFA, Toast users can not only keep their accounts safe, but also gain peace of mind knowing their information is significantly better protected from unauthorized access.
 
@@ -35,7 +35,7 @@ Ideally, anyone with access to critical systems or operations should enroll in M
 
 For more information about employee permissions, see [Access permissions reference](adminPermissions.html).
 
-#### Options for receiving MFA passcodes
+### Options for receiving MFA passcodes
 
 You can choose the way that you get the secure passcode for multi-factor authentication.
 

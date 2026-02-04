@@ -52,7 +52,7 @@ The following sections describe:
 
 
 
-#### How to know an order has been voided
+### How to know an order has been voided
 
 Once an order has been voided, you can expect the following updates. 
 
@@ -79,7 +79,7 @@ Once an order has been voided, you can expect the following updates.
 
 
 
-#### Prerequisites to void an order
+### Prerequisites to void an order
 
 To void an order, ensure the following:
 
@@ -102,7 +102,7 @@ To void an order, ensure the following:
 
 
 
-#### Voiding an order with the /void endpoint
+### Voiding an order with the /void endpoint
 
 To void an order, you send a `POST` request that contains a `JSON Order` object to the `/void`endpoint of the orders API. Before you void an order, ensure it meets the [prerequisites](apiVoidOrder.html#apiVoidOrderPrereq).
 
@@ -141,7 +141,7 @@ The body of the `POST` request contains the `JSON Order` object for the order.
 
 
 
-#### Voiding an order with discounts
+### Voiding an order with discounts
 
 You can void an order that has discounts if the order meets all the [prerequisites](apiVoidOrder.html#apiVoidOrderPrereq). When you void an order with discounts, you use the same [API request](apiVoidOrder.html#apiVoidOrderToVoidAnOrder) that you use to void an order without discounts.
 
@@ -193,13 +193,13 @@ The example response from the orders API below shows a portion of an order with 
 ```
 
   
-#### Displaying voided orders on a kitchen display system (KDS)
+### Displaying voided orders on a kitchen display system (KDS)
 
 If your restaurant uses a kitchen display system (KDS) voided orders still show on the KDS, but are updated with strikethrough text styling and the word VOIDED in parenthesis for each voided item selection. The image below shows an example of this update.
 
 ![A voided order updated with strikethrough text.](https://doc.toasttab.com/doc/media/apiVoidOrderVoidedOrder.png)
 
-#### Supported payment types
+### Supported payment types
 
 Currently, the orders API `void` endpoint supports voiding orders with the following payment types.
 

@@ -26,7 +26,7 @@ The response contains an object containing information about the employee, inclu
 > The labor API rejects new or updated values for `firstName`, `lastName`, and `externalEmployeeId` that include the following special characters: `{}\<\>$=\;%`
 
 
-#### Example request to add an employee
+### Example request to add an employee
 
 The following example **curl** command sends a `POST` request to the `/labor/v1/employees` resource.
 
@@ -61,7 +61,7 @@ https://`[toast-api-hostname]`/labor/v1/employees
 (3) Include information about the new employee in the message body of the POST request. This example curl command sends message body data from the contents of a file.
 
   
-#### Example employee details for the request to add an employee
+### Example employee details for the request to add an employee
 
 The following example shows the message body data that provides information about the new employee.
 
@@ -103,7 +103,7 @@ The following example shows the message body data that provides information abou
 (7) You can specify the job for the new employee. This value is optional. To assign a job, you need the Toast platform GUID or the external identifier for the job.
 
   
-#### Example response
+### Example response
 
 The following example shows the response for a `POST` request to the `/labor/v1/employees` endpoint.
 

@@ -14,7 +14,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-#### Overview
+### Overview
 
 
 
@@ -44,7 +44,7 @@ The order_updated webhook event eliminates the need for you to submit `GET` requ
 
 In an `orders` webhook message, the `eventCategory` and `eventType` are set to `order_updated` or `channel_order_updated`.
 
-#### order_updated details and message values
+### order_updated details and message values
 
 The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/<em>\{orderGuid\}</em>` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](devOrdersWebhookRef.html#devOrdersWebhookSampleJSON).
 
@@ -58,7 +58,7 @@ Attributes in the `orders_updated` payload include:
 | `guid` | A unique Toast platform identifier for the webhook event.data type:stringformat:UUID | 
 | `details` | A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the `appliedPackagingInfo` object which describes any order packaging preferences. | 
 
-#### Omitted values
+### Omitted values
 
 For performance and security, the following values are either omitted from the `orders` webhook messages, or return as `null`.
 
@@ -96,7 +96,7 @@ For performance and security, the following values are either omitted from the `
 
 To obtain this omitted information, you can send a `GET` request to the `/orders/v2/orders/<em>\{orderGuid\}</em>`endpoint.
 
-#### Orders webhook sample message
+### Orders webhook sample message
 
 The sample below shows the HTTP request received from the `orders` webhook.
 

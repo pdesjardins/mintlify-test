@@ -16,15 +16,15 @@ codeExamples: 0
 
 Welcome to the Toast integration community! Here's how to get started building your Toast integration. We look forward to seeing what you build!
 
-#### Initial setup
+### Initial setup
 
-##### Sign up for updates
+#### Sign up for updates
 
 Before you build your integration, be sure you're on the distribution list for release notes and status updates.
 
 Subscribe to updates on [this page](apiUpdatesEmailDistributionList.html).
 
-##### Download example API requests
+#### Download example API requests
 
 To familiarize yourself with Toast APIs, download our collection of [example API requests](apiExampleRequests.html).
 
@@ -32,21 +32,21 @@ To get an authentication token, plug in your credentials and the sandbox hostnam
 
 For more information, see [Integration partnership process](integrationDevProcess.html).
 
-#### Authentication
+### Authentication
 
-##### Get an authentication token
+#### Get an authentication token
 
 Use [these instructions](authentication.html#getting-authentication-token) to use the authentication API to get your first authentication token.
 
-##### Refresh your authentication token
+#### Refresh your authentication token
 
 Your integration should request a new authentication token during the last minute the original token is valid (less than 60 seconds before the original token expires).
 
 For more information, see [Refreshing authentication tokens](apiAuthTokenRefresh.html).
 
-#### Restaurant connections
+### Restaurant connections
 
-##### If you use a [partner API client](apiClientAccounts.html#apiPartnerApiClientAccounts)
+#### If you use a [partner API client](apiClientAccounts.html#apiPartnerApiClientAccounts)
 
 Contact the Toast integrations team with your URL for the [partners webhook](apiPartnersGettingAccessibleRestaurants.html#apiGettingRestaurantAccessUpdatesFromPartnersWebhook). Review the [webhook documentation](apiWebhookBasics.html).
 
@@ -65,7 +65,7 @@ If you receive a notification that a restaurant has removed your integration, st
 
 In addition, poll the `/restaurants` endpoint of the [partners API](apiPartnersGettingAccessibleRestaurants.html#apiUsingPartnersApiToGetRestaurantInfo)to retrieve a list of all restaurants connected to your integration. Programmatically poll this endpoint a few times per day using the `lastModified` query parameter to see if any new restaurants have connected to your integration since you last evaluated the list.
 
-##### If you use a [restaurant management group API client](apiClientAccounts.html#apiRestaurantManagementGroupApiAccounts)
+#### If you use a [restaurant management group API client](apiClientAccounts.html#apiRestaurantManagementGroupApiAccounts)
 
 Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiRestaurantsInGroup.html) a list of all restaurants in your restaurant management group.
 
@@ -73,17 +73,17 @@ You get the restaurant GUID and the restaurant group GUID from the Toast integra
 
 If you add restaurants to your management group in the future, the endpoint will include the new restaurant locations in the list.
 
-#### Rate limits
+### Rate limits
 
 
 
-##### Throttle for rate limits
+#### Throttle for rate limits
 
 To avoid receiving rate limit errors when you call Toast APIs, throttle your requests so they stay within Toast API [rate limits](apiRateLimiting.html).
 
-#### Error management
+### Error management
 
-##### Determine your error logging process
+#### Determine your error logging process
 
 To resolve any issues in your integration, you must know when errors occur and have information to help determine the causes of those errors.
 
@@ -91,19 +91,19 @@ If you cannot successfully submit data to the Toast platform or retrieve data fr
 
 It is critical that you have a strong error management and resolution process.
 
-##### Use a halting mechanism
+#### Use a halting mechanism
 
 If you receive the same error when you make the same API request multiple times, you should stop making that API request.
 
 Your integration should have an error threshold, after which you stop submitting the same API call repeatedly and instead raise an alert in your own system to investigate the error.
 
-##### Plan downtime procedures
+#### Plan downtime procedures
 
 After your integration goes live, you need to be equipped to handle planned and unplanned downtimes of the Toast platform.
 
 Use the [API downtime guidelines](apiHandlingDowntimes.html) to create your downtime procedures before you need them.
 
-#### Write integration documentation
+### Write integration documentation
 
 If there is an issue with the integration, instruct mutual customers to contact your support team rather than the Toast support team. Because you build and maintain your integration with Toast, we ensure a smooth customer experience when mutual customers contact your team with questions and issues about your integration.
 

@@ -36,7 +36,7 @@ You see the SMS Messages, Who can receive SMS alerts, and Who can send SMS alert
 > If your restaurant is part of a multi-location restaurant group, enabling text alerts for the [session restaurant](sessionRestaurant.html) enables it for all restaurants in the group.
 
 
-#### Configuring preset text messages
+### Configuring preset text messages
 
 The text alert feature comes with four preset text (SMS) messages that restaurant employees can send from Toast POS devices. The messages are listed in Toast Web in the order in which they appear on a POS device. From the Front of house \> Employee SOS \> Text alert setup page in Toast Web you can edit, delete, or reorder existing messages as well as add new messages to the list.
 
@@ -90,7 +90,7 @@ The text alert feature comes with four preset text (SMS) messages that restauran
 
 
 
-#### Configuring text alert recipients
+### Configuring text alert recipients
 
 Text alert recipients are grouped by job roles. When you select a job role to receive text alerts, all employees in that role who have provided a phone number for their personal profile receive text alerts.
 
@@ -122,7 +122,7 @@ If you want a custom set of employees in different job roles to receive text ale
 
 
 
-#### Configuring who can send text alerts
+### Configuring who can send text alerts
 
 You can allow all employees in certain job roles to send preset text alerts from Toast POS devices.
 

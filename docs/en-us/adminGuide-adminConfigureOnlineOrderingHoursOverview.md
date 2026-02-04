@@ -128,7 +128,7 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 
 
 
-#### Accepting online orders until closing time
+### Accepting online orders until closing time
 
 From the Online ordering hours section you can choose to allow guests to place online orders until your restaurant’s closing time. You can choose to allow guests to place orders:
 
@@ -168,7 +168,7 @@ A guest places an order at 9:30 PM. The guest's quote time for their order is 10
 
 Select the Publish all changes button to save and publish your changes. The Confirm Publishdialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
 
-#### Configuring overrides
+### Configuring overrides
 
 From the Online ordering hours section you can also add, edit, or remove an override. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For example, if your normal operating hours are from 9 AM-9 PM, you can schedule an online ordering override from 1-6 PM every Monday. The override is your restaurant's new online operating hours for Mondays. 
 

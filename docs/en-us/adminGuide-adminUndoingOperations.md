@@ -49,7 +49,7 @@ You can undo the following cash entries on either Toast Web or a Toast POS devic
 
 
 
-#### Undoing cash entries on a Toast POS device
+### Undoing cash entries on a Toast POS device
 
 When you undo cash entries from the Toast POS device, the actions open the physical cash drawer.
 
@@ -71,7 +71,7 @@ When the physical cash drawer opens, add or remove cash as required and then clo
 
 
 
-#### Undoing cash entries on Toast Web
+### Undoing cash entries on Toast Web
 
 When you undo cash entries from Toast Web, the actions do not open the physical cash drawer. If you want to manually add or remove cash, you must complete a No Sale action from the Toast POS device.
 

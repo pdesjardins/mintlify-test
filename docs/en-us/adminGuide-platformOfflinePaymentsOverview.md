@@ -22,7 +22,7 @@ codeExamples: 0
 
 During offline mode, if you attempt to use an unavailable payment type, a dialog displays stating Payment method unavailable while offline. While in offline mode, cash and card payments can still be processed. Gift cards, loyalty redemptions, Tender API payments, text to pay, customer credits, comp cards and house accounts cannot be used offline. For more information about offline credit card payments, see [Offline card payments](adminOfflineCCPayments.html).
 
-#### Offline mode best practices
+### Offline mode best practices
 
 Because your devices cannot sync with each other in offline mode, orders taken on one terminal will not appear on other terminals. **Toast support recommends that each employee choose a single device to place and update orders.** More than one employee can work on a device, but it is important that they use the same device while in offline mode.
 

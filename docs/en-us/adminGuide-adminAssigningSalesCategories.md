@@ -56,7 +56,7 @@ To configure a menu item so that it inherits its sales category, set the Inherit
 
 If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminAssigningSalesCategories.html#platformCreatingSalesCategoriesMenuBuilder).
 
-#### Creating sales categories
+### Creating sales categories
 
 While you can assign sales categories in the menu builder, you must use the classic Sales Categories page to create the sales categories themselves.
 

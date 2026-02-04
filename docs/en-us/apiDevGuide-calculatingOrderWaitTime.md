@@ -31,7 +31,7 @@ You can use information from the restaurant configuration to:
 
 When you use the orders API to create the order, the `estimatedFulfillmentDate` value in the response indicates when the order will be fulfilled. The algorithm that the Toast platform uses to set `estimatedFulfillmentDate` includes the configured restaurant quotes times, hours, and throttling.
 
-#### Restaurant configuration settings that affect order wait time
+### Restaurant configuration settings that affect order wait time
 
 A restaurant uses Toast Web or a Toast POS device to configure the following settings that affect order wait times:
 
@@ -65,11 +65,11 @@ For example, a restaurant is open from 11:00 AM to 9:00 PM. However, they only t
 
 
 
-#### Retrieving the configured preparation time and hours of operation
+### Retrieving the configured preparation time and hours of operation
 
 To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API.
 
-##### Takeout and delivery quote and throttling times
+#### Takeout and delivery quote and throttling times
 
 In the response to the `GET` request to the `/restaurants/\{restaurantGUID\}/` endpoint, the `prepTimes` object contains the current quote time and throttling time configurations.
 
@@ -110,7 +110,7 @@ The following example shows the `prepTimes` object from the response from a `GET
 (5) The deliveryTimeAfterOpen, deliveryTimeBeforeClose, takeoutTimeAfterOpen, and takeoutTimeBeforeClose settings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always 0.
 
   
-##### Restaurant opening and closing times
+#### Restaurant opening and closing times
 
 In the response to the `GET` request to the `/restaurants/\{restaurantGUID\}` endpoint of the restaurants API, the `schedules` value contains information about when the restaurant is open for business.
 
@@ -172,7 +172,7 @@ The following example shows the `schedules` value with the opening and closing t
 (8) The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.
 
   
-##### Restaurant online ordering hours
+#### Restaurant online ordering hours
 
 Restaurants that use Toast Online Ordering can configure when they accept online orders. The restaurant can have different hours for online and takeout orders. They can also configure specific exceptions to those hours.
 
@@ -180,7 +180,7 @@ To see the current hours for online delivery and takeout orders, send a `GET` re
 
 For more information, see [Getting online ordering schedules](apiGettingOnlineOrderingSchedules.html).
 
-#### Estimating takeout order wait time
+### Estimating takeout order wait time
 
 To calculate the estimated takeout order wait time, you add the amount of time it takes to prepare takeout orders and the amount of time that restaurant employees have chosen to delay takeout order firing.
 
@@ -197,7 +197,7 @@ If the current time is outside of the restaurant's hours of operation, then you 
 
 For a scheduled order, you must also make sure that `promisedDate` is within the allowed maximum amount of time for future orders. For example, a restaurant might not accept scheduled orders for a date that is more than two weeks in the future.
 
-#### Estimating delivery order wait time
+### Estimating delivery order wait time
 
 To calculate the estimated delivery order wait time, you add the amount of time it takes to prepare delivery orders and the amount of time that restaurant employees have chosen to delay delivery order firing.
 

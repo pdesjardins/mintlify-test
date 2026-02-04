@@ -51,7 +51,7 @@ https://`[toast-sandbox-api-hostname]`/usermgmt/v1/oauth/token_key
 > The Toast integrations team supplies the host names for Toast API environments during your integration process.
 
 
-#### Public keys
+### Public keys
 
 A Toast public key for partner API authentication is an X.509 Public Key encoded in DER in PEM format.
 
@@ -80,11 +80,11 @@ Qc99xVQ8wlfrh4tp56yjRnub\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
 (3) The value value includes the public key string. You can use the string supplied in the value value to validate the authentication tokens in a Toast platform gift card transaction request.
 
   
-#### Using the public key to validate JWTs
+### Using the public key to validate JWTs
 
 You can validate JSON Web Tokens (JWTs) using several libraries for common programming languages. For more information about working with JWTs, see [https://jwt.io/](https://jwt.io/). The JWT web site also includes a tool that you can use to verify a token manually.
 
-#### Refreshing the public key
+### Refreshing the public key
 
 Typically, the Toast integrations team does not change the key pair used to sign JWTs. You can cache the public key that you get from the Toast API user management service. You do not need to get a new copy of the public key every time you verify an incoming request.
 

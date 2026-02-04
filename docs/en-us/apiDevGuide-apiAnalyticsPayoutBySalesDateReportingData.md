@@ -24,7 +24,7 @@ Retrieving the payout reporting data by sales date is a two-step process. You mu
 
 
 
-#### Creating a request for payout reporting data by sales date
+### Creating a request for payout reporting data by sales date
 
 Send a `POST` request to the `/era/v1/payout/sales-date/\{timeRange\}` endpoint to request payout reporting data organized by sales date for that specific time range. The `timeRange` can be `day`, `week`, or `month`. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for `month` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
@@ -52,7 +52,7 @@ To create a request for payout reporting data organized by sales date, include t
 > You can include restaurant GUIDs for either `restaurantIds` or `excludedRestaurantIds` but not for both. Listing restaurant GUIDs for both results in a 400 error or blank payout reporting data. They are contradictory values that cannot be used together.
 
 
-##### Request for payout reporting data by sales date
+#### Request for payout reporting data by sales date
 
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/sales-date/\{timeRange\}` endpoint. This example uses the `day` time range.
 
@@ -73,7 +73,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/sales-date/day' \
 
 (4) Include details about the requested payout reporting data organized by sales date in the message body. The following example is the message body for this curlcommand example.
 
-##### Message body for payout reporting data by sales date
+#### Message body for payout reporting data by sales date
 
 The following example shows the message body for creating a payout reporting data by sales date request.
 
@@ -96,7 +96,7 @@ The following example shows the message body for creating a payout reporting dat
 
 (4) The list of restaurant GUIDs from the management group to exclude from the payout reporting data organized by sales date. In this example, restaurants are included with the restaurantIds value, so all other restaurants are excluded automatically.
 
-##### Response to request for payout reporting data by sales date
+#### Response to request for payout reporting data by sales date
 
 The following example shows the response from the `/era/v1/payout/sales-date/day` endpoint.
 
@@ -110,11 +110,11 @@ The following example shows the response from the `/era/v1/payout/sales-date/day
 
 For an example that shows how to retrieve the payout reporting data by sales date, see [Retrieving the payout reporting data by sales date](apiAnalyticsPayoutBySalesDateReportingData.html#apiAnalyticsPayoutBySalesDateReportingDataRetrieveData).
 
-#### Retrieving the payout reporting data by sales date
+### Retrieving the payout reporting data by sales date
 
 Send a `GET` request to the `/era/v1/payout/sales-date/\{reportRequestGuid\}` endpoint to retrieve payout reporting data organized by sales date. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
 
-##### Request to retrieve payout reporting data by sales date
+#### Request to retrieve payout reporting data by sales date
 
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/sales-date/\{reportRequestGuid\}`endpoint.
 
@@ -132,7 +132,7 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 (3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-##### Response to retrieval request for payout reporting data by sales date
+#### Response to retrieval request for payout reporting data by sales date
 
 The following example shows the response from the `/era/v1/payout/sales-date/\{reportRequestGuid\}`endpoint.
 
@@ -158,7 +158,7 @@ The following example shows the response from the `/era/v1/payout/sales-date/\{r
 
 ```
 
-#### Understanding the payout reporting data by sales date
+### Understanding the payout reporting data by sales date
 
 Payout reporting data by sales date contains objects that correspond to each available restaurant and sales date combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 

@@ -17,7 +17,7 @@ codeExamples: 0
 
 The service charge configuration includes the amount of the service charge, how to apply the service charge, and whether to apply tax to the service charge.
 
-#### How the service charge type determines the service charge amount
+### How the service charge type determines the service charge amount
 
 The service charge type determines the amount of the service charge:
 
@@ -31,7 +31,7 @@ The service charge type determines the amount of the service charge:
 
 
 
-#### How the service charge is applied
+### How the service charge is applied
 
 The following service charge settings affect how the service charge is applied and assigned:
 
@@ -66,11 +66,11 @@ If the threshold is 0.00 or is blank, then the service charge is not applied aut
 
 You should configure separate service charges for each dining option (delivery, takeout, dine-in). It is not recommended to use the same service charge for different dining options.
 
-#### Whether to apply tax to the service charge
+### Whether to apply tax to the service charge
 
 Optionally, you can configure the service charge to be [taxed](adminServiceChargeCalculation.html#adminServiceChargeTaxes), using one or more of your configured tax rates.
 
-#### Effects of gratuity service charges
+### Effects of gratuity service charges
 
 For gratuity service charges, be aware of the following:
 

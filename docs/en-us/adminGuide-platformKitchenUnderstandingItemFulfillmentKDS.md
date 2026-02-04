@@ -60,7 +60,7 @@ The fulfillment process can be further personalized by:
 
 
 
-#### Sequencing fulfillment by station type and level
+### Sequencing fulfillment by station type and level
 
 
 
@@ -80,13 +80,13 @@ Using KDS devices, you can configure the order in which tickets or items are ful
 
 Fulfilling tickets or items when not fulfilled at the required level requires an override by an employee with the [Manager](adminPermissions.html#permissionManager)access permission. For information about how to sequence the order in which items are fulfilled at prep stations, see [Creating an assembly line](platformKDSCreatingAssemblyLines.html)and [Routing using assembly lines](platformKDSRoutingUsingAssemblyLines.html).
 
-#### Fulfilling an item at all stations at the same time
+### Fulfilling an item at all stations at the same time
 
 If you choose to *fulfill at the same time*, once the item is fulfilled at one prep station, it is fulfilled at all other prep stations. If the item is the only item or the last unfulfilled item on a ticket at these other prep stations, once it is fulfilled, the ticket is fulfilled and it disappears from prep station screens.
 
 For example, the Chicken Caesar Salad item is assigned to both the Grill and Salad prep stations. An order containing a single Chicken Caesar Salad item appears on both the Grill and Salad prep station KDS devices. When fulfilled at the Salad prep station, it is also fulfilled at the Grill prep station automatically and disappears from the prep station KDS devices. On the expediter KDS device, the Chicken Caesar Salad is marked as ready with a green check mark. The ticket turns green to indicate the ticket is ready.
 
-#### Fulfilling an item at each station independently
+### Fulfilling an item at each station independently
 
 
 
@@ -106,7 +106,7 @@ If you choose to *fulfill at each station independently*, items assigned to mult
 
 For example, the Chicken Caesar Salad item is assigned to both the Grill and Salad prep stations. An order containing a single Chicken Caesar Salad item appears on both the Grill and Salad prep station KDS devices. When fulfilled at the Salad prep station, it disappears from the Salad prep station KDS device. It remains on the Grill prep station KDS device until the Grill prep station fulfills the ticket. Once fulfilled, it disappears from the device, and the expediter KDS device indicates that the Chicken Caesar Salad is ready at the prep stations with a green check mark. The ticket turns green to indicate the ticket is ready.
 
-#### Choose a fulfillment method
+### Choose a fulfillment method
 
 By default, restaurants are configured to fulfill an item at multiple prep stations simultaneously when marked as fulfilled at one prep station. To change the fulfillment method for your restaurant, you can use the Fulfillment method setting.
 

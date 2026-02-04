@@ -30,7 +30,7 @@ Before you can use scan-to-pay, you must be a Toast integration partner or subsc
 
 The following sections describe the Toast platform processes that take place during a scan-to-pay transaction, how to process a scan-to-pay transaction using a QR code, and how to process a scan-to-pay transaction with a guest's unique identifier.
 
-#### Tender API scan-to-pay transactions
+### Tender API scan-to-pay transactions
 
 The tender API scan-to-pay transactions use the same transactions as other tender API communications. These transactions include: 
 
@@ -54,11 +54,11 @@ For more information about the tender API transactions, see [Transaction descrip
 
 If you scan a QR code, or enter a guest's unique identifier, and the code is not recognized, you could receive an error. For information about how to respond to certain errors, see [Error handling](apiTenderProviderIntegrationsOverview.html#apiTenderErrorHandling).
 
-#### POS workflow
+### POS workflow
 
 The following sections describe how to complete a transaction using a QR code or a guest's unique identifier.
 
-##### Using a scan-to-pay QR code
+#### Using a scan-to-pay QR code
 
 The following procedure describes how to complete a scan-to-pay transaction using a QR code.
 
@@ -81,7 +81,7 @@ The following procedure describes how to complete a scan-to-pay transaction usin
 
 
 
-##### Using a unique guest identifier
+#### Using a unique guest identifier
 
 Guests can be given a unique identifier to use at the POS during checkout. You can find the guest's unique identifier in the API JSON payload for a tender API transaction as the `tenderIdentifier`. For examples of the tender API JSON payload, see [Transaction descriptions](apiTenderPmsIntegration.html#apiTenderTransactionDescriptionsPMS).
 

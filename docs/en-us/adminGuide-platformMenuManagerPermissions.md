@@ -29,15 +29,15 @@ The menu manager is controlled by three permissions:
 
 The following sections provide more details.
 
-#### Menu editing permissions
+### Menu editing permissions
 
 In order to access the menu manager and make edits to your menus, you must have the permissions described in the sections below.
 
-##### For single location restaurants
+#### For single location restaurants
 
 You must have the 4. Restaurant Admin \> 4.5 Edit Full Menu permission to the location you are logged into to access the menu manager and make edits to your menus.
 
-##### For multi-location restaurants
+#### For multi-location restaurants
 
 To access the menu manager itself, you must have the 4. Restaurant Admin \> 4.5 Edit Full Menupermission at the location you have logged into (also known as the [session restaurant](index.html)). If you do not have this permission, the menu manager does not appear in Toast Web.
 
@@ -95,7 +95,7 @@ For menu entities you do not have permission to edit, the menu manager does the 
 
 For more information, see [Owners and permissions](ownersAndPermissions.html).
 
-#### Publishing and change set permissions
+### Publishing and change set permissions
 
 The scheduled publishing feature, which is available on the Items, Modifiers, and Price levels views, lets you make changes to your Toast configuration that are then saved and published at a later date and time. When you use this feature, you create change sets. A change set records updates you want to make to your Toast platform configuration. At a date and time that you specify, the updates in the change set are saved to the [saved database](platformUnderstandingSavingAndPublishing.html) and then immediately published to the [published database](platformUnderstandingSavingAndPublishing.html), making them available to employees and guests.
 

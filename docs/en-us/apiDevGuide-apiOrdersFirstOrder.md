@@ -17,7 +17,7 @@ codeExamples: 0
 
 This topic describes how to authenticate, gather required information, build an order JSON payload, and submit your first order to the Toast orders API.
 
-#### Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have the following:
 
@@ -40,7 +40,7 @@ For more information about scopes, see [Scopes](apiScopes.html).
 
 
 
-#### Order object overview
+### Order object overview
 
 Every order requires, at minimum, a dining option and a check with menu item selections. The following example shows the basic `Order` object structure.
 
@@ -80,7 +80,7 @@ The following table describes the required fields:
 
 For detailed information about all values in an `Order`object, see [Order object summary](apiOrdersOrderObjectSummary.html) and the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
-##### Required headers
+#### Required headers
 
 All requests to the Toast platform APIs require the following headers:
 
@@ -91,11 +91,11 @@ All requests to the Toast platform APIs require the following headers:
               \{accessToken\}`*. | 
 | `Content-Type` | Required for `POST`requests. Must be set to `application/json`. | 
 
-#### Submitting your first order
+### Submitting your first order
 
 Complete the following steps to submit your first order.
 
-##### To submit your first order
+#### To submit your first order
 
 1. **Authenticate and get an access token**
 
@@ -469,7 +469,7 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 
 
-#### Adding modifiers to menu items
+### Adding modifiers to menu items
 
 Many menu items have associated modifiers, such as toppings or preparation options. To add modifiers to a menu item selection, include a `modifiers` array within the selection.
 
@@ -516,7 +516,7 @@ The following example shows a selection with a modifier:
 
 For more information, see [Applying modifiers to orders](apiSpecifyingModifiersAndInstructions.html#apiApplyingModifiers).
 
-#### Error handling
+### Error handling
 
 When submitting orders, you may encounter the following HTTP status codes:
 
@@ -532,7 +532,7 @@ When submitting orders, you may encounter the following HTTP status codes:
             application/json` header. | 
 | 500 | Internal Server Error | An unexpected error occurred. Note the `requestId` from the error response and contact Toast support if the issue persists. | 
 
-##### Common error messages
+#### Common error messages
 
 The following table describes common error messages and their resolutions:
 
@@ -546,7 +546,7 @@ The following table describes common error messages and their resolutions:
 | `Referenced entity (type=DiningOption) must
               contain a GUID` | The `diningOption` object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API. | 
 
-#### Next steps
+### Next steps
 
 After successfully submitting your first order, you can explore additional capabilities of the orders API:
 

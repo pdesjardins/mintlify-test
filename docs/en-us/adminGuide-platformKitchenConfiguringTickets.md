@@ -18,13 +18,13 @@ codeExamples: 0
 
 This section provides procedures and information about configuring kitchen tickets.
 
-#### Color-coding items and modifiers on KDS tickets
+### Color-coding items and modifiers on KDS tickets
 
 Preparing orders accurately and efficiently can be an ongoing challenge, and errors can be expensive. With the KDS, you can use color to make the differences and similarities between menu items or modifiers easier to identify and act on.
 
 In addition, this [Toast Central article](https://central.toasttab.com/s/article/Customize-the-Appearance-of-KDS-Tickets) provides an overview of customizing colors for KDS devices.
 
-##### Using KDS colors
+#### Using KDS colors
 
 Examples of how you can use color-coding on your KDS tickets follow.
 
@@ -58,7 +58,7 @@ In this example, you could also assign colors to the different salad dressing su
 > You cannot configure KDS colors for pre and post modifiers.
 
 
-##### Configure KDS colors
+#### Configure KDS colors
 
 To configure your menu items and modifiers to include a custom color background, you must have the 4. Restaurant Admin \> 4.5 Edit Full Menu access permission.
 
@@ -109,11 +109,11 @@ Follow one of these procedures.
 
 
 
-#### Sorting order for items and modifiers
+### Sorting order for items and modifiers
 
 The Toast platform allows you to specify how you want items and modifiers to be listed on kitchen tickets. The logic used to sort items is different from modifiers.
 
-##### Sorting items on kitchen tickets
+#### Sorting items on kitchen tickets
 
 You can choose to sort items by assigned seat numbers, assigned sort order, or by how the items are entered on the order screen. You can use the [Item Sorting Priority](adminKitchenDiningRoomReference.html#configItemSortingPriority) setting to sort items on kitchen tickets.
 
@@ -127,7 +127,7 @@ You can choose to sort items by assigned seat numbers, assigned sort order, or b
 
 
 
-##### Sorting modifiers on kitchen tickets
+#### Sorting modifiers on kitchen tickets
 
 For modifiers, there are several settings that can be used to choose how modifiers are sorted on kitchen tickets:
 
@@ -213,7 +213,7 @@ The order in which the modifier groups are displayed is determined by the modifi
 
 
 
-#### Individual item kitchen tickets
+### Individual item kitchen tickets
 
 
 
@@ -233,7 +233,7 @@ The Toast platform allows you to have separate tickets for each item in an order
 
 The Individual Item Tickets setting has two parts for [Print Settings](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsPrinted) and [KDS Settings](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsKDS).
 
-##### Print settings
+#### Print settings
 
 You can choose to print individual item tickets for prep station printed tickets, and also choose to include a prep station ticket that includes all items sent to that prep station for that course, called an *overview ticket*. An overview ticket may also be referred to as a *master* ticket on printed tickets.
 
@@ -264,7 +264,7 @@ When configuring how items appear on printed prep station tickets, there are thr
 
 When using individual tickets, overview tickets, or both, the prep station ticket prints the ticket type at the top, marking it as *Individual* or *Master*.
 
-##### KDS settings
+#### KDS settings
 
 You can choose whether to have all items appear on the same ticket for prep station and expediter KDS devices, only expediter KDS devices, or neither prep station or KDS devices.
 
@@ -293,7 +293,7 @@ When configuring how items appear on KDS tickets, there are three KDS Settings o
 
 
 
-##### Configuring individual item tickets
+#### Configuring individual item tickets
 
 Choosing how to configure individual items for printed and KDS tickets can affect how identical items are consolidated. For more information, see [Consolidate identical items](platformKitchenConfiguringTickets.html#platformKitchenConsolidateIdenticalItems)Consolidating identical items.
 
@@ -342,7 +342,7 @@ For more information about these options, see [KDS settings](platformKitchenConf
 
 
 
-#### Consolidate identical items
+### Consolidate identical items
 
 
 
@@ -372,7 +372,7 @@ Here is an example of non-consolidated tickets at prep station and expediter KDS
 
 If you choose to use [individual item kitchen tickets](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemKitchenTickets), each item has a ticket. For this example, consolidated items appear as one ticket for Panini with a quantity of two, while unconsolidated items appear as two tickets for Panini with a quantity of one.
 
-##### Configuring consolidated items with multiple quantities
+#### Configuring consolidated items with multiple quantities
 
 For the Consolidate Items with Multiple Quantities setting, choose Yes to group all identical items into one item line with a multiple quantity. Choose No to separate identical items into separate lines with a quantity of one each.
 

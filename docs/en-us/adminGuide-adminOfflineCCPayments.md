@@ -24,7 +24,7 @@ During offline mode, you can still take card payments. When you process a card p
 > There is a risk associated with taking offline payments, because payments cannot be verified until the Internet connection is restored. This means an offline payment can be denied when your system returns online. Please be aware that you are responsible for any declined, expired, or disputed payments while operating in offline mode. If this is a concern, you should select Continue accepting card payments without waiting for authorization as your background processing mode. For more information about the processing modes, see [processing modes](adminOfflineCCPayments.html#adminOfflineCCProcessing). Toast strongly recommends tablets that have taken offline payments return online within three days, preferably within 24 hours, to mitigate the possibility of a chargeback.
 
 
-#### Card authorizations and payment disruptions
+### Card authorizations and payment disruptions
 
 You can set the Card authorization and payment disruption option to control whether your restaurant can still process card transactions after losing its connectivity. As part of the card payment workflow, card authorization requests are processed in real time or in the background, depending on the configured Card authorization and payment disruptionsetting.
 
@@ -62,13 +62,13 @@ You can also set a transaction limit for offline transactions which allows you t
 
 
 
-#### Auto-capturing payments
+### Auto-capturing payments
 
 The Toast POS device auto-captures card payments every night after closeout. The card payments authorized throughout the day are captured into a batch to be processed. Once this process occurs, the payments cannot be updated with tips or otherwise adjusted in any way.
 
 If your Toast POS device is offline and an auto-capture is approaching, contact Toast support to temporarily disable auto-capture until your Internet connection is re-established. Disabling auto-capture ensures Toast does not capture your card payments until you have properly updated them, such as entering card tips.
 
-#### Card pre-authorization
+### Card pre-authorization
 
 In offline mode, the Toast POS app cannot communicate with credit card payment processors. Therefore, if you use the credit/debit card pre-authorization feature, cards cannot be pre-authorized in offline mode.
 

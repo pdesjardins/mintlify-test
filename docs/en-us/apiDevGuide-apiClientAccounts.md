@@ -26,7 +26,7 @@ As part of the API registration process for an API environment, the Toast integr
 
 
 
-#### Client identifier and secret
+### Client identifier and secret
 
 API users must register with the Toast integrations team for each environment to obtain the client credentials to use with that environment. In this context, *client* refers to the software that you use to exchange information with Toast APIs.
 
@@ -41,7 +41,7 @@ The client secret is similar to a password. Do not use email to send or receive 
 
 
 
-#### Types of Toast API accounts
+### Types of Toast API accounts
 
 A Toast API account is one of the following types:
 
@@ -56,7 +56,7 @@ An example of a restaurant management group is a restaurant chain, with multiple
 
 
 
-##### Partner API accounts
+#### Partner API accounts
 
 Partner API accounts give an API client access to multiple Toast platform restaurants that may be part of different restaurant management groups. Typically, a partner API client account is used by a restaurant service provider. An individual Toast platform restaurant that uses the services that you provide can choose to give your API account access to the restaurant.
 
@@ -68,7 +68,7 @@ The following diagram shows a partner API client using a partner authentication 
 
 For information about finding the restaurants that your partner API account has access to, see [Location access](apiPartnersGettingAccessibleRestaurants.html).
 
-##### Restaurant management group API accounts
+#### Restaurant management group API accounts
 
 Restaurant management group API accounts give an API client access to all of the Toast platform restaurants in one restaurant management group. A restaurant management group might represent a restaurant chain or it might represent the ownership of a single restaurant location.
 

@@ -55,7 +55,7 @@ Each `POST` request to the endpoint includes:
 
 For more information about the transaction descriptions, workflows and examples, see [Transaction descriptions](apiTenderPmsIntegration.html#apiTenderTransactionDescriptionsPMS).
 
-#### Error handling
+### Error handling
 
 Your tender interface implementation must return the following HTTPS responses to the requests that it receives from the Toast platform.
 
@@ -103,11 +103,11 @@ Your tender interface implementation must return the following HTTPS responses t
 
 500 means there was an internal server error.
 
-#### Latency requirements
+### Latency requirements
 
 The Toast platform expects a 500ms average response time from your tender API endpoint. The maximum response time must be five seconds, after which the Toast platform may close the socket and send another request. Response times should be as short as possible.
 
-#### Limitations
+### Limitations
 
 - You cannot use the tender API to pay for checks generated using the orders API or Toast Online Ordering. The tender API is only supported through the Toast platform.
 

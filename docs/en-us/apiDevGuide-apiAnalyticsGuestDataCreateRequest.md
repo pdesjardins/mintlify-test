@@ -41,7 +41,7 @@ To create a request for guest reporting data organized by payment, include the f
 > You can include restaurant GUIDs for either `restaurantIds` or `excludedRestaurantIds` but not for both. Listing restaurant GUIDs for both results in a 400 error or blank guest reporting data. `restaurantIds` and `excludedRestaurantIds` are contradictory values that cannot be used together.
 
 
-#### Request for guest reporting data
+### Request for guest reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/\{timeRange\}` endpoint. This example uses the `week` time range.
 
@@ -62,7 +62,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 
 (4) Include details about the requested guest reporting data in the message body. The following example is the message body for this curl command example.
 
-#### Message body for guest reporting data
+### Message body for guest reporting data
 
 The following example shows the message body for creating a guest reporting data request for a specific time range. This example is for the `week` time range.
 
@@ -89,7 +89,7 @@ The following example shows the message body for creating a guest reporting data
 
 (4) The end date of the time range for the guest reporting data, in YYYYMMDD format.
 
-#### Response to request for guest reporting data
+### Response to request for guest reporting data
 
 The following example shows the response from the `/era/v1/guest/payments/\{timeRange\}` endpoint.
 

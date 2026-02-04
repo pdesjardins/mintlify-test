@@ -37,7 +37,7 @@ When pricing menu items that belong to multiple menu groups, there are some requ
 
 
 
-#### Setting prices at the menu group level
+### Setting prices at the menu group level
 
 If all, or most, of the menu items in a menu group have the same price, as a best practice you should set a price at the menu group level. If necessary, you can override this price for specific menu items within the group.
 
@@ -130,7 +130,7 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 
 
-#### Setting prices on individual menu items
+### Setting prices on individual menu items
 
 If all of the menu items in a menu group have a different price, as a best practice you should specify prices on the individual menu items.
 

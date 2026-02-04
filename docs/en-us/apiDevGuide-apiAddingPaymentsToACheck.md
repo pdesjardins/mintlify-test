@@ -24,7 +24,7 @@ codeExamples: 0
 
 You can use the orders API to add authorized credit card payments to a check in an existing order.
 
-#### How to add the payments to the check
+### How to add the payments to the check
 
 To add payments to an existing check, you send a `POST`request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment` objects. The `type` value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
 
@@ -56,7 +56,7 @@ In the request message body, include the array of `Payment` objects that contain
 
 
 
-#### Example array of Payment objects to add payments to an existing check
+### Example array of Payment objects to add payments to an existing check
 
 The following example shows an array of `Payment` objects to add payments to a check in an existing order.
 
@@ -89,7 +89,7 @@ The following example shows an array of `Payment` objects to add payments to a c
 
  You can add one or more payments in the array. This example adds two payments to the check.
 
-#### Example response data when adding a payment to an existing check
+### Example response data when adding a payment to an existing check
 
 The following example shows example response data for a `POST` request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments`endpoint of the orders API.
 

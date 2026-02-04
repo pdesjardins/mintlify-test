@@ -18,7 +18,7 @@ To add a shift and assign it to a restaurant employee, send a `POST` request to 
 
 The response provides information about the shift, including the Toast platform GUID.
 
-#### Example request to add a shift
+### Example request to add a shift
 
 The following example **curl** command sends a `POST` request to the `/labor/v1/shifts` endpoint.
 
@@ -53,7 +53,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 (3) Include information about the new employee in the message body of the POST request. This example curl command sends message body data from the contents of a file.
 
   
-#### Example shift details for the message body of the request to add a shift
+### Example shift details for the message body of the request to add a shift
 
 The following example shows the message body data that provides information about the shift.
 
@@ -88,7 +88,7 @@ The following example shows the message body data that provides information abou
 (5) Specify the date and time that the shift ends.
 
   
-#### Example response
+### Example response
 
 The following example shows the response for a `POST` request to the `/labor/v1/shifts` resource.
 

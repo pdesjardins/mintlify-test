@@ -24,7 +24,7 @@ This section provides information about working with price levels in the menu ma
 
 
 
-#### Editing a price level's price
+### Editing a price level's price
 
 Follow the procedure below to edit a price level's price.
 
@@ -63,7 +63,7 @@ Follow the procedure below to edit a price level's price.
 
 
 
-#### Viewing read-only price-level information
+### Viewing read-only price-level information
 
 The Price levels view of the menu manager provides additional read-only information about modifiers. For example, the Price strategy column displays the name of the price strategy that the price level uses. For more information, see [Price levels view](platformColumnsInTheMenuManagerViews.html#platformMenuManagerPriceLevelsColumns).
 

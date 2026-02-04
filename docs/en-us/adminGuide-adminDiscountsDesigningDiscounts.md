@@ -21,7 +21,7 @@ The Toast platform discount configuration interface makes it easy to create many
 
 The following sections provide information about the types of promotional discounts that you can configure in the Toast platform, and which types of discounts might be impractical to configure and maintain. For general information about Toast platform discount types, see [Discount types](adminDiscountTypes.html).
 
-#### Fully supported discount types
+### Fully supported discount types
 
 The following table shows discount types that are not complicated to configure. These discount types are fully supported and easy to maintain as your menu configuration changes.
 
@@ -34,7 +34,7 @@ The following table shows discount types that are not complicated to configure. 
 | [Combo discounts](adminDiscountTypes.html#adminCombinationDiscounts)that apply a combo price for any number of specific menu items. | Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00. | 
 | [Combo discounts](adminDiscountTypes.html#adminCombinationDiscounts)that apply a combo price for any number of specific menu items and menu groups in which *all menu items have the same price and do not use size pricing*. | Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00. | 
 
-#### Discount types that are supported with additional configuration
+### Discount types that are supported with additional configuration
 
 The following table shows discount types that you can configure, but that might require complicated setup in the discount configuration interface. These discounts might be more difficult to maintain as your menu configuration changes.
 

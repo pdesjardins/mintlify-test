@@ -17,7 +17,7 @@ codeExamples: 0
 
 Toast discounts affect prices in the following ways.
 
-#### Check and item discounts
+### Check and item discounts
 
 You can configure and apply discounts that affect the price of an entire restaurant check or that affect the price of an individual menu item in a check.
 
@@ -34,13 +34,13 @@ Toast discount types for combinations of items, such as Buy One Get One (BOGO) d
 
 For more information about discount types, see [Discount types](adminDiscountTypes.html).
 
-#### Combo price discounts
+### Combo price discounts
 
 A combo (combination) discount sets the price of multiple menu items in a check to a fixed currency amount. The fixed currency amount is not based on or affected by the normal prices of the selected items.
 
 For example, you might configure a discount that sets the price of two large cheese pizzas and a small order of garlic bread to $15.00. In this example, the normal prices of the menu items do not affect the combo discount price. The combo price is exactly $15.00.
 
-##### Upcharging discounted items in a combo discount
+#### Upcharging discounted items in a combo discount
 
 You can configure combo discounts to reduce the price of menu items that use size pricing and still increase the price for larger sizes or additional modifiers.
 
@@ -50,7 +50,7 @@ In the following example, the combo discount applies the combo price if a check 
 
 ![Diagram showing how a combo discount adjusts the price based on item size.](https://doc.toasttab.com/doc/media/combo-discount-size-menu.png)
 
-##### Combo discounts with both taxed and tax-exempt items
+#### Combo discounts with both taxed and tax-exempt items
 
 You can have a combo discount in which one item is taxed and another is tax-exempt. In this case, the items are weighed within the combo, and the tax is the ratio of the taxed item within the combo discount.
 
@@ -68,7 +68,7 @@ The tax is assigned based on the price after the weighing. This means that the t
 
 The total of the discounted check is $12.80, which is the sum of the combo discount price and the tax.
 
-#### Combining multiple discounts
+### Combining multiple discounts
 
 You can apply discounts to items in a check. You can apply more than one discount to a check. When you apply more than one discount to the items in a check and to the check itself, the Toast platform applies the discounts in the following order:
 
@@ -86,13 +86,13 @@ You can only apply one discount to an item in a check.
 
 You can only apply more than one discount to a check if the discount rules for each discount allow those discounts to be combined. For more information, see [Exclusive and nonexclusive discounts](adminDiscountExclusivity.html).
 
-#### Consolidated items and item-level fixed currency discounts
+### Consolidated items and item-level fixed currency discounts
 
 For item-level fixed currency discounts, when you consolidate identical items into a single item, you can also determine how to apply the discounts to the consolidated item.
 
 You can either apply the discount separately to each quantity in the consolidated item, or apply the discount once to the total quantity of the consolidated item.
 
-##### Configuring item consolidation
+#### Configuring item consolidation
 
 You can use the Consolidate menu itemssetting to configure your restaurant to show selected identical items on the order screen as consolidated items or as separate items.
 
@@ -111,7 +111,7 @@ The available options are:
 
 
 
-##### Configuring discount consolidation for consolidated items
+#### Configuring discount consolidation for consolidated items
 
 If you [consolidate menu items](adminUiOptionsReference.html#configCombineItems), you can use the Consolidate discounts setting to set how to apply an item-level fixed currency discount to a consolidated item.
 

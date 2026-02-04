@@ -17,7 +17,7 @@ codeExamples: 0
 
 The reports in Toast Web include net sales values. You can also use [amount values from the orders API](apiOrdersOrderObjectSummary.html#apiOrderObjectAmounts) to calculate the net sales.
 
-#### Orders API information to include in net sales
+### Orders API information to include in net sales
 
 
 
@@ -57,7 +57,7 @@ A typical calculation of net sales using orders API information does not include
 
 Include the orders API information for any orders and checks *that are not excluded* in the list above. For example, include open and unpaid orders in the net sales calculation for your integration.
 
-#### How to calculate net sales from orders API information
+### How to calculate net sales from orders API information
 
 
 

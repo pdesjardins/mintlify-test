@@ -19,7 +19,7 @@ You can view refund information on receipts, in reports, and in order details.
 
 In reports, refunds affect the overall sales, tax, gratuity, and tip values. There are also specific entries for refunds.
 
-#### Viewing refunds on receipts
+### Viewing refunds on receipts
 
 Refund information is printed at the bottom of the receipt.
 
@@ -38,7 +38,7 @@ The refund information includes:
 
 
 
-#### Net sales, tax, gratuity, and tip values
+### Net sales, tax, gratuity, and tip values
 
 Refunds do not affect financial data on the day of the original order. Refunds only affect financial data on the day of the refund.
 
@@ -99,11 +99,11 @@ On December 15, the following figures decrease:
 | Lunch service period | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
 | Main Dining Room service area | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
 
-#### Reports
+### Reports
 
 Refunds are reported in the following reports.
 
-##### Sales summary
+#### Sales summary
 
 In the Reports \> Sales \> Sales summary report, refunds are reported as follows:
 
@@ -123,7 +123,7 @@ A custom amount refund is shown as a unique line item in the Sales Category tabl
 
 Payments refunded using the custom amount refund type still appear in the Payments Summary table.
 
-##### Refunds report
+#### Refunds report
 
 In the Reports \> Cash and loss management \> Refunds report, on the Refunds tab, a line is shown for each payment that was refunded.
 
@@ -158,7 +158,7 @@ This report includes the following details:
 
 
 
-##### Accounting by day or location
+#### Accounting by day or location
 
 Toast’s configurable GL Account report can be viewed in Reports \> Accounts \> Accounting by day or Reports \> Accounts \> Accounting by location.
 
@@ -180,7 +180,7 @@ To ensure that refunds do not cause an Over/Short amount in this report, map the
 
 Toast recommends that you create at least one GL code that is specific to refunds, and that you map this code to these entities. For example, you might create a GL Code called `Refunds`.​​
 
-##### Drawer history
+#### Drawer history
 
 In Reports \> Cash and loss management \> Drawer history, on the Cash Drawer Historytab:
 
@@ -193,11 +193,11 @@ In Reports \> Cash and loss management \> Drawer history, on the Cash Drawer His
 
 If a cash refund is issued on a device that is not associated with a cash drawer, then the refund is not included in a cash drawer report. There will be no record of the cash refund in your reports.
 
-##### Cash activity audit
+#### Cash activity audit
 
 On the day of the refund, each cash refund appears as an entry in Reports \> Cash and loss management \> Cash activity audit, on the Cash Activity Audit tab.
 
-#### Order details
+### Order details
 
 The order details include the refunds associated with the order.
 
@@ -224,7 +224,7 @@ In the Payments table, the amount refunded to a payment is displayed in the Refu
 
 ![Order details page with refund values.](https://doc.toasttab.com/doc/media/refunds-order-details-2.png)
 
-#### Custom amount refunds
+### Custom amount refunds
 
 Because custom amount refunds do not require the selection of items or service charges, they only affect the total Net Sales and Tip amounts in reports.
 

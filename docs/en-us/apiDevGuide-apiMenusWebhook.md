@@ -22,7 +22,7 @@ If you are using the `menus` webhook, Toast support recommends also polling the 
 
 Menus webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `menus`event category, the `eventCategory` value is set to `menus`. Currently, `menus_updated` is the only `eventType` for the `menus` event category. For details on the payload for this event type, see [menus_updated](apiMenusWebhook.html#apiMenusUpdated).
 
-#### menus_updated
+### menus_updated
 
 A restaurant that uses your integration has published a change to its menus.
 

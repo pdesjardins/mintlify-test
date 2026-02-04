@@ -17,35 +17,35 @@ codeExamples: 0
 
 The specific columns in the menu manager change according to the entity type you are viewing. The following sections describe the columns for each entity type.
 
-#### Full menu view
+### Full menu view
 
 This section describes the columns you see in the Full menu view.
 
 ![An example of Full menu view.](https://doc.toasttab.com/doc/media/menu-manager-full-menu-view-multi-location.png)
 
-##### Name
+#### Name
 
 The Name column contains the name for the menu.
 
-##### Available at (target) (multi-location only)
+#### Available at (target) (multi-location only)
 
 The Available at (target) column only appears for multi-location restaurants.
 
 The Available at (target) column contains the name of the location group or individual location that uses the menu. If the target's name is too long to fit in the column, hover your mouse over it to see the full name.
 
-##### Number (multi-location only)
+#### Number (multi-location only)
 
 The Number column only appears for multi-location restaurants.
 
 The Number column lists the multi-location number for the menu. A multi-location number lets you identify related versions of the same menu. Menus with the same number are versions of the same menu. For more information about versions, see [Versions](versions.html).
 
-#### Items and modifiers view
+### Items and modifiers view
 
 This section describes the columns you see in the Items and Modifiersviews.
 
 ![An example of the Items view.](https://doc.toasttab.com/doc/media/menu-manager.png)
 
-##### Name
+#### Name
 
 The Name column contains the name for the menu item or modifier.
 
@@ -57,7 +57,7 @@ For more information on the multi-location number, see [Viewing different versio
 
 Keep in mind that a menu item or modifier may have more versions than those you see in the menu manager, depending on the locations you have chosen to view. For example, Menu Item A has three versions, one each for the Boston, Miami, and New York City locations. If you are viewing the Boston and Miami locations on the Menu manager page, you see two rows for the Boston and Miami versions. The New York City version is not visible.
 
-##### Change set indicator
+#### Change set indicator
 
 If the menu item or modifier is included in any change sets, you see a calendar icon on its row with a number that indicates the number of change sets it is included in.
 
@@ -76,13 +76,13 @@ Change sets are part of the scheduled publishing feature. They are used to store
 
 For more information on scheduled publishing and change sets, see [Understanding scheduled publishing and change sets](platformUnderstandingScheduledPublishingAndChangeSets.html).
 
-##### Target (multi-location only)
+#### Target (multi-location only)
 
 The Target column only appears for multi-location restaurants.
 
 The Target column contains the menu item or modifier's [target](targets.html). A target is a location group or individual location that uses the menu item or modifier. If the menu item or modifier is targeted at a location group, the line below the location group's name indicates the number of subgroups and individual locations the location group contains. These subgroups and locations also use the menu item or modifier.
 
-##### Found in
+#### Found in
 
 The Found in column displays information about where a menu item or modifier appears in the menu hierarchy.
 
@@ -115,7 +115,7 @@ If an item or a modifier is found in more than one location in the menu hierarch
 
 ![An example of the pop-up with additional found in locations.](https://doc.toasttab.com/doc/media/menu-manager-found-in-hover.png)
 
-##### Visibility
+#### Visibility
 
 In the Visibility column, you can see where a menu item or modifier is visible and available for ordering. Options include:
 
@@ -141,7 +141,7 @@ In the Visibility column, you can see where a menu item or modifier is visible a
 
 Currently, the Visibility column is only editable for menu items. For modifiers, you can see the Visibility column but it is not editable. Hover your cursor over the Visibility column for a menu item or modifier to see its full list of visibility settings.
 
-##### Price on
+#### Price on
 
 The Price on column provides information about where a menu item or modifier's price is set:
 
@@ -154,7 +154,7 @@ The Price on column provides information about where a menu item or modifier's p
 
 Modifiers can belong to multiple modifier groups. The modifier price you see in the menu manager is only used by modifier groups that are priced at the individual modifier level. Modifier groups that are priced at the group level or do not charge for their modifiers ignore the individual price. If you edit the individual price, but the modifier is priced at the group level or doesn't charge for its modifiers, then the price you specify in the menu manager has no effect. For more information on pricing modifier groups, see [Setting the pricing method for a modifier group](adminPricingModifierOptions.html#adminSettingTheModifierPricingMethodForAModifierGroup).
 
-##### Price strategy
+#### Price strategy
 
 The Price strategy column contains the menu item or modifier's pricing strategy.
 
@@ -225,7 +225,7 @@ If a menu item or modifier uses location-specific prices, and those location-spe
 > Currently, the menu manager only supports editing nested base prices and menus-specific prices under location-specific prices.
 
 
-##### Price
+#### Price
 
 The Price column contains the menu item or modifier's price or price range.
 
@@ -254,7 +254,7 @@ For location-specific prices, there are some additional points to keep in mind:
 
 
 
-#### Price levels view
+### Price levels view
 
 This section describes the columns you see in the Price levels view.
 
@@ -267,7 +267,7 @@ This section describes the columns you see in the Price levels view.
 > For more information on price levels, see [Using price levels](adminUsingPriceLevels.html).
 
 
-##### Name
+#### Name
 
 The Name column contains the name for the price level.
 
@@ -275,7 +275,7 @@ For multi-location restaurants, this column also lists the multi-location number
 
 Keep in mind that a price level may have more versions than those you see in the menu manager, depending on the locations you have chosen to view. For example, Price Level A has three versions, one each for the Boston, Miami, and New York City locations. If you are viewing the Boston and Miami locations on the Menu manager page, you see two rows for the Boston and Miami versions. The New York City version is not visible.
 
-##### Change set indicator
+#### Change set indicator
 
 If a price level is included in any change sets, you see a calendar icon on its row with a number that indicates the number of change sets it is included in.
 
@@ -285,19 +285,19 @@ Change sets are part of the scheduled publishing feature. They are used to store
 
 For more information on scheduled publishing and change sets, see [Understanding scheduled publishing and change sets](platformUnderstandingScheduledPublishingAndChangeSets.html).
 
-##### Target (multi-location only)
+#### Target (multi-location only)
 
 The Target column only appears for multi-location restaurants.
 
 The Target column contains the price level's [target](targets.html). A target is a location group or individual location that uses the price level. If the price level is targeted at a location group, the line below the location group's name indicates the number of subgroups and individual locations the location group contains. These subgroups and locations also use the price level.
 
-##### Price strategy
+#### Price strategy
 
 The Price strategy column contains the price strategy used by the price level.
 
 On its details page, a price level can be configured to use one of the advanced pricing strategies, like menu-specific or time-specific price. However, currently you can only edit a price level in the menu manager if it uses the Basestrategy. If a price level uses an advanced pricing strategy, the strategy name is listed in the Price strategycolumn and a price range is shown in the Pricecolumn but you cannot edit it.
 
-##### Price
+#### Price
 
 The Price column contains the price that is set for the price level.
 

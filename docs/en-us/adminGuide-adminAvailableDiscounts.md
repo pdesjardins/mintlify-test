@@ -21,7 +21,7 @@ To display the Discounts page, from Toast Web, choose Payments \> Comps and prom
 
 ![Discounts list.](https://doc.toasttab.com/doc/media/discount-main-page.png)
 
-#### Options for managing discounts
+### Options for managing discounts
 
 The Discounts page includes the following options to manage discounts:
 
@@ -72,7 +72,7 @@ The Target and Owner columns are available only for restaurants that use the mul
 
 When you refresh the Discounts page, all changes that were applied by the Show All Promo Codes and Show/Hide Columns controls are removed. The page returns to its default settings.
 
-#### Columns in the discounts list
+### Columns in the discounts list
 
 The list of discounts on the Discounts page includes the following columns:
 
@@ -167,7 +167,7 @@ See [Archiving and restoring discounts](adminDiscountsArchive.html) and [Copying
 
 
 
-#### Sorting the list of discounts
+### Sorting the list of discounts
 
 To sort the discounts list based on the values in a specific column, click the column heading. Each time you click a column heading, the sort switches between ascending and descending order.
 

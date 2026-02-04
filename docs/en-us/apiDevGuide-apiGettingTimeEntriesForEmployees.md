@@ -22,7 +22,7 @@ If an employee has not clocked out of the work shift, the `outDate` value for th
 
 When the employee clocks out, the `outDate` value is set to the date and time that the employee closed the work shift. The time entry is then complete. At this point, the monetary values in the time entry are static and are not updated by other activities in the restaurant. For example, if an employee has $100 of non-cash sales in their time entry when they clock out, and then an order of $10 non-cash sales is later transferred to the employee, the `nonCashSales` value of the time entry is still $100, not $110. The same applies to tips.
 
-#### Example request for employee time entries
+### Example request for employee time entries
 
 The following example **curl** command sends a `GET` request to the `/labor/v1/timeEntries` endpoint.
 
@@ -57,7 +57,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 (3) The timeEntries endpoint accepts the includeMissedBreaks query parameter. If you set the value of includeMissedBreaks to true, the timeEntries endpoint returns TimeEntryBreak objects for scheduled break periods even if an employee did not take them. The includeMissedBreaks parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.
 
   
-#### Example response
+### Example response
 
 The following example shows a time entry for an employee.
 

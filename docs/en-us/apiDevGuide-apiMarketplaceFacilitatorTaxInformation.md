@@ -16,7 +16,7 @@ codeExamples: 0
 
 For orders submitted by a marketplace facilitator, the prices and tax amounts are either populated by the Toast platform, or provided by the marketplace facilitator.
 
-#### About marketplace facilitators
+### About marketplace facilitators
 
 For Toast platform restaurants, a marketplace facilitator is a business that:
 
@@ -33,7 +33,7 @@ For Toast Takeout and Toast Local orders, Toast acts as the marketplace facilita
 
 For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
 
-#### Indicating the source of prices and tax amounts
+### Indicating the source of prices and tax amounts
 
 The orders API return data indicates whether the prices and tax amounts were populated by the Toast platform, or specified by the marketplace facilitator. It also indicates whether the marketplace facilitator collected and remitted the taxes on behalf of the restaurant.
 
@@ -48,7 +48,7 @@ In the `appliedTaxes` object, the `type` value indicates whether the value came 
 
 The `facilitatorCollectAndRemitTax` value indicates whether the marketplace facilitator remitted the tax on behalf of the restaurant. If set to `true`, then the marketplace facilitator remitted the tax.
 
-##### Reviewing marketplace facilitator tax calculations
+#### Reviewing marketplace facilitator tax calculations
 
 To review the tax calculation for a marketplace facilitator, refer to the `AppliedTaxRate` object. This object contains the following details:
 
@@ -84,7 +84,7 @@ To review the tax calculation for a marketplace facilitator, refer to the `Appli
 
 
 
-##### Calculating total marketplace facilitator tax paid
+#### Calculating total marketplace facilitator tax paid
 
 To calculate the total marketplace facilitator tax amount that was remitted on behalf of a restaurant for an order, sum the `taxAmount` values from all `AppliedTaxRate`objects where `facilitatorCollectAndRemitTax` is `true`.
 
@@ -147,7 +147,7 @@ The following example shows how to identify marketplace facilitator taxes that w
 
 In this example, the total marketplace facilitator tax paid would be `0.46` (the sum of `taxAmount` values where `facilitatorCollectAndRemitTax` is `true`). 
 
-#### Example return data with Toast platform prices and tax amounts
+### Example return data with Toast platform prices and tax amounts
 
 The following example shows the orders API return data for a marketplace facilitator order where the Toast platform calculated and populated the prices and tax amounts.
 
@@ -225,7 +225,7 @@ The following example shows the orders API return data for a marketplace facilit
 
 (2) Indicates that the marketplace facilitator remitted tax amounts on behalf of the restaurant location.
 
-#### Example return data with specified prices and tax amounts
+### Example return data with specified prices and tax amounts
 
 The following example shows the orders API return data for a marketplace facilitator order where the marketplace facilitator specifies the prices and tax amounts.
 

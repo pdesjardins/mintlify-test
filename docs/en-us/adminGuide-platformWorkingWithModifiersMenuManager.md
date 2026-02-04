@@ -40,7 +40,7 @@ Here are some important points to keep in mind when working with modifiers:
 
 
 
-#### Understanding a modifier item reference
+### Understanding a modifier item reference
 
 In the [classic menu configuration experience](adminMenuManagerAndTheClassicMenuDetailsPages.html), you can base a modifier on an existing menu item. For example, a Fries menu item can function as a normal menu item but also as the item reference for a Fries modifier. For this reason, all modifiers are supported by an underlying menu item, called the modifier's *item reference*. Item references have all the configuration settings of a normal menu item such as name, POS button color, pricing, and so on.
 
@@ -170,7 +170,7 @@ The modifier's classic details page opens.
 
 
 
-#### Versioned modifiers (multi-location only)
+### Versioned modifiers (multi-location only)
 
 Modifiers can be versioned using the New Version button on their classic details pages. For example, you could have a Fries modifier targeted at a Corporate location group that uses an [override price](platformWorkingWithModifiersMenuManager.html#platformToSpecifyAnOverrideNameOrPriceForAModifier) of $7 and another version of that modifier targeted at Boston that uses an override price of $9.
 
@@ -211,7 +211,7 @@ If you edit a versioned modifier in the Modifiers table, you are only editing th
 
 If you need to edit a modifier version that doesn't appear in the Modifiers table, you can use Modifiers view instead, which has columns for setting the modifier version's price and visibility. To edit other settings, select the name of a modifier version in Modifiers view to open its classic modifier details page. From the classic modifier details page, you can also select Edit Item to access the modifier's [item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set additional properties.
 
-#### Creating a new modifier
+### Creating a new modifier
 
 Follow the instructions below to create new modifiers for a modifier group.
 
@@ -267,7 +267,7 @@ For multi-location restaurants:
 
 
 
-#### Adding an existing modifier to a modifier group
+### Adding an existing modifier to a modifier group
 
 To reduce the number of modifiers you have to manage, add existing modifiers whenever possible instead of creating new ones. For example, a Breakfast Sides modifier group and a Burger Toppings modifier group could share a Bacon modifier.
 
@@ -324,7 +324,7 @@ If you have a multi-location restaurant:
 
 
 
-#### Editing a modifier's details
+### Editing a modifier's details
 
 The Modifiers table in the modifier group side panel displays names and prices for the modifiers contained in the group (the Price column only appears if the modifiers in the group are [priced individually](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager)). To set other details for a modifier, such as button color and calories, you open its Edit modifier dialog by selecting the modifier's name in the Modifiers table.
 
@@ -402,7 +402,7 @@ If the modifier is priced individually and uses an advanced pricing strategy, yo
 
 
 
-#### Reordering modifiers
+### Reordering modifiers
 
 Your Toast ordering channels display your modifiers in the order you see them in the Full menu view. You can reorder your modifiers so they appear in the order you want them to.
 
@@ -450,7 +450,7 @@ For multi-location restaurants:
 
 
 
-#### Removing a modifier from a group
+### Removing a modifier from a group
 
 When you remove a modifier from a modifier group, the modifier no longer appears in that modifier group, but the modifier remains in your Toast Web database and can still be added to or used by other modifier groups.
 
@@ -509,11 +509,11 @@ For multi-location restaurants:
 
 
 
-#### Specifying modifier prices
+### Specifying modifier prices
 
 When you create a modifier group, you [specify how modifiers in that group are priced](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager): no charge, all modifiers share the same price, or modifiers are priced individually. This section covers how to set prices for modifiers once you've chosen the pricing method for a modifier group.
 
-##### Modifiers priced at the group level
+#### Modifiers priced at the group level
 
 When a modifier group is priced at the group level, all modifiers in the group use the same price. You can set a base price for the modifier group using the modifier group's side panel in the menu manager.
 
@@ -564,7 +564,7 @@ To set an advanced pricing strategy for the modifier group, you use the classic 
 
 If a modifier group uses an advanced pricing strategy, the Pricing section in the modifier group's side panel lists the strategy and advises you to go to the classic modifier group details page to edit it.
 
-##### Individually-priced modifiers that use base prices
+#### Individually-priced modifiers that use base prices
 
 Individually-priced modifiers that use base prices can be edited in the following locations:
 
@@ -682,7 +682,7 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 
 
 
-##### Individually-priced modifiers that use advanced pricing strategies
+#### Individually-priced modifiers that use advanced pricing strategies
 
 Using a modifier's [item reference page](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager), you can specify advanced pricing strategies for the modifier, including [size](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions), [menu-specific](adminMenuSpecificPrice.html), [location-specific](adminLocationSpecificPriceOverview.html), [time-specific](adminTimeSpecificPrice.html), and [open](adminOpenPrice.html)prices.
 
@@ -739,13 +739,13 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 
 
 
-##### Modifiers that use override prices
+#### Modifiers that use override prices
 
 When a modifier is based on an existing menu item, you can choose to use the price of the underlying menu item as the price of the modifier, or you can override that price with a price that is specific to the modifier. For example, the price of the Fries menu item could be $8 while the override price of the Fries modifier is $5.
 
 Override prices are always base prices. Override price appears in the Modifiers table of the modifier group side panel, in the Price field of the Edit modifier dialog, and in the Pricecolumn of Modifiers view. If you edit an override price in any of those locations, it has no effect on the item reference price, only the override price is affected. For more information on setting override prices, see [Understanding a modifier item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager).
 
-#### Viewing read-only modifier information
+### Viewing read-only modifier information
 
 The Modifiers view of the menu manager provides additional read-only information about modifiers. For example, the Found in column displays information about where a modifier appears in the menu hierarchy. For more information, see [Items and modifiers view](platformColumnsInTheMenuManagerViews.html#platformMenuManagerItemAndModifierColumns).
 

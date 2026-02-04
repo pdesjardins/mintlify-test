@@ -19,7 +19,7 @@ The default way to view the aggregated sales reporting data is by day for each l
 
 Optionally, you can choose to aggregate the data into subsections according to an order's dining option, order source, revenue center, or a combination of two of these values. Use the `groupBy` value in the message body of the `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}` request to create subsections organized by dining option, order source, revenue center, or a combination of two of these values.
 
-#### Using the `aggregateBy` query parameter
+### Using the `aggregateBy` query parameter
 
 The `aggregateBy` query parameter divides the metric data into either daily or hourly increments. Setting `aggregateBy` to `DAY` divides the order data into daily intervals and setting to `HOUR` divides the order data into hourly intervals. The data is aggregated by `DAY` by default. You can only aggregate by `HOUR` when using the `/era/v1/metrics/day`request.
 
@@ -87,7 +87,7 @@ When aggregating by hour, the report splits the data into sections by hour, whic
 
 The hour number corresponds to the 24 hours of the day, starting at `0` and ending at `23`. `0`represents the interval between 12 AM and 1 AM, `1`represents the interval between 1 AM and 2 AM, `2`represents the interval between 2 AM and 3 AM, and so on.
 
-#### Using the `groupBy` value
+### Using the `groupBy` value
 
 The `groupBy` value in the message body of a `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}` request can group the returned data by the dining option associated with an order, the order source which is the method used to submit the order, the revenue center associated with an order, or a combination of two of these values. Use `DINING_OPTION` to group the aggregated sales reporting data by dining option, `ORDER_SOURCE` to group by order source, and `REVENUE_CENTER` to group by revenue center.
 
@@ -265,11 +265,11 @@ If the `groupBy` value uses two values and is used in conjunction with the `aggr
 
 
 
-#### Example using `aggregateBy` and `groupBy`
+### Example using `aggregateBy` and `groupBy`
 
 This section includes examples of how to create a request for and retrieve aggregated sales reporting data that is aggregated into hourly intervals, and then grouped into subsections by dining option and revenue center for a single example restaurant.
 
-##### Request for aggregated sales reporting data using `aggregateBy` and `groupBy`
+#### Request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/day` endpoint.
 
@@ -293,7 +293,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 (5) Include details about the requested aggregated sales reporting data in the message body. The following example is the message body for this curl command example.
 
-##### Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`
+#### Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`
 
 The following example shows the message body for the `/era/v1/metrics/day` request that uses the `groupBy` value with `DINING_OPTION` and `REVENUE_CENTER`.
 
@@ -329,7 +329,7 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
 > Adding restaurant GUIDs to both `restaurantIds`and `excludedRestaurantIds` results in an error. For more information, see [Creating a request for aggregated sales reporting data](apiAnalyticsMetricsReportingDataCreateRequest.html).
 
 
-##### Response to the request for aggregated sales reporting data using `aggregateBy` and `groupBy`
+#### Response to the request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example shows the response from the `/era/v1/metrics/day` endpoint.
 
@@ -341,7 +341,7 @@ The following example shows the response from the `/era/v1/metrics/day` endpoint
 
 (1) The GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-##### Request to retrieve the aggregated sales reporting data using `aggregateBy` and `groupBy`
+#### Request to retrieve the aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example **curl** command sends a `GET` request to the `/era/v1/metrics/\{reportRequestGuid\}` endpoint.
 
@@ -360,7 +360,7 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
 
 (3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-##### Response to the retrieval request for aggregated sales reporting data using `aggregateBy` and `groupBy`
+#### Response to the retrieval request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example shows the response from the `/era/v1/metrics/\{reportRequestGuid\}` endpoint.
 

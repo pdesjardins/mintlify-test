@@ -18,7 +18,7 @@ codeExamples: 0
 
 Toast products use guest personal identifiable information (PII) to help restaurant employees identify who an order belongs to. For example, in the case of a takeout order, a cashier needs to know which order belongs to a guest picking up an order.
 
-#### Tab name
+### Tab name
 
 When using the POS modes listed below on a Toast POS device, you can create a tab name that contains a guest's PII with the Tab function. While a tab name is most commonly used to input a guest's name, some restaurants may use this field to input a guest's name, address, or phone number.
 
@@ -37,7 +37,7 @@ When using the POS modes listed below on a Toast POS device, you can create a ta
 
 You can also create a tab name using the `tabName`field in the `checks` object of the Toast orders API. For more information about the orders API, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview).
 
-#### Tab name display
+### Tab name display
 
 When an employee creates a tab name for an order, it is displayed in the areas described below, in addition to being displayed on the POS device.
 

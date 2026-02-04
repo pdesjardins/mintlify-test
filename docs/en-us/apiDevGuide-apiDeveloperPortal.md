@@ -14,7 +14,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-#### Developer portal overview
+### Developer portal overview
 
 The Toast developer portal allows you to easily view and manage your credentials and scopes, access technical documentation, and connect with the Toast integration community.
 
@@ -35,7 +35,7 @@ To use the developer portal, you need:
 
 
 
-##### Activating your account
+#### Activating your account
 
 Once your developer portal account is created by the Toast Partner Connect team, you will receive a welcome email from Toast with a link to activate and set up your account.
 
@@ -55,7 +55,7 @@ Once your developer portal account is created by the Toast Partner Connect team,
 
 
 
-##### Using the developer portal
+#### Using the developer portal
 
 On the developer portal home page, you can:
 
@@ -105,7 +105,7 @@ On the developer portal home page, you can:
 
 ![Toast developer portal Home page.](https://doc.toasttab.com/doc/media/developer-portal-home-page.png)
 
-###### Environment selector
+##### Environment selector
 
 
 
@@ -133,19 +133,19 @@ The following image shows the environment selector on the Toast developer portal
 
 ![The environment selector on the developer portal.](https://doc.toasttab.com/doc/media/developer-portal-environment-switcher.png)
 
-###### API status
+##### API status
 
 The API status button on the top navigation bar opens the [Toast APIs status](https://status-dev.toasttab.com/)and incident history page.
 
-###### Documentation
+##### Documentation
 
 The Documentation button on the top navigation bar opens the [Technical Documentation site](index.html). The site has links to various documentation resources useful for integration developers.
 
-###### Community
+##### Community
 
 The Community button on the top navigation bar opens the [Toast Integrations Community Forum](https://developers.toasttab.com/hc/en-us/community/topics). In the forum, you can read announcements and news, ask questions, and submit feature requests.
 
-##### Credentials
+#### Credentials
 
 The Credentials page contains your API credentials. Your API credentials grant you access to Toast resources and allow you to securely send API requests. For more information about credentials, see [Authentication and restaurant access](authentication.html).
 
@@ -164,19 +164,19 @@ To copy your Client name or Client ID, select the Copy button to copy the inform
 > Rotating your client secret terminates the existing client secret for Toast API access and creates a new client secret to replace it. The active authentication token generated using your credentials is valid until it expires or is replaced with a new authentication token.
 
 
-###### Scopes
+##### Scopes
 
 The Scopes page contains the API scopes associated with your developer portal account. Access to Toast APIs, specific endpoints, and specific API endpoint operations is controlled by the scopes that are associated with your client credentials. For more information, select the [Scope Descriptions](apiScopes.html) link.
 
 ![Toast developer portal Scopes page.](https://doc.toasttab.com/doc/media/developer-portal-scopes-page.png)
 
-###### API access endpoint
+##### API access endpoint
 
 The API access endpoint page displays the endpoint you can use to access Toast's production environment. For more information, see [Environments](apiEnvironments.html).
 
 ![Toast developer portal API access point page.](https://doc.toasttab.com/doc/media/developer-portal-access-point-page.png)
 
-##### Connected restaurants
+#### Connected restaurants
 
 The Connected Restaurants page displays all the restaurants that are connected to your integration.
 
@@ -188,7 +188,7 @@ You can also export a report of your connected restaurants by selecting the Expo
 
 ![Toast developer portal Connected restaurants page.](https://doc.toasttab.com/doc/media/developer-portal-connected-restaurants-page.png)
 
-##### Marketplace listing
+#### Marketplace listing
 
 The Toast Partner Integrations marketplace listing page is where you can manage the details of your Toast Partner Integrations listing. Your marketplace listing provides information about your integration, such as a description, logo, and support details. Toast Partner Integrations is Toast's integration management portal. For more information about Toast Partner Integrations, see [Set Up Toast Partner Integrations](https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast).
 
@@ -271,7 +271,7 @@ On the Toast Partner Integrations marketplace listing page, you can edit and vie
 
 
 
-###### Getting help with your integration
+##### Getting help with your integration
 
 You can use the links to the right of the About your app section to learn more about integrations or to open a support request. Select the links to:
 
@@ -285,7 +285,7 @@ You can use the links to the right of the About your app section to learn more a
 
 
 
-##### Payment methods
+#### Payment methods
 
 
 
@@ -298,7 +298,7 @@ The Payment methods page displays your payment method configurations and their s
 
 ![Payment method configurations page on developer portal.](https://doc.toasttab.com/doc/media/developer-portal-payment-methods-page.png)
 
-###### Adding a payment method configuration
+##### Adding a payment method configuration
 
 Use the procedure below to add a new payment method configuration.
 
@@ -316,7 +316,7 @@ Use the procedure below to add a new payment method configuration.
 
 ![Add payment method configurations dialog on developer portal.](https://doc.toasttab.com/doc/media/developer-portal-add-payment-methods.png)
 
-###### Editing a payment method configuration
+##### Editing a payment method configuration
 
 On the Payment methods page, you can edit an existing payment method configuration. Select the arrow next to the payment method configuration to open the Edit configuration dialog. In the dialog, you can:
 
@@ -331,7 +331,7 @@ Select the Update button to save your changes or select the Cancel button to clo
 
 ![Edit payment method configurations dialog on developer portal.](https://doc.toasttab.com/doc/media/developer-portal-edit-payment-methods.png)
 
-##### Webhooks
+#### Webhooks
 
 The Webhooks page displays all your webhook subscriptions and their statuses, webhook subscription GUIDs, webhook event categories, and additional information. For more information about webhooks, see [Webhooks reference](apiWebhooksReference.html).
 
@@ -339,7 +339,7 @@ The Webhooks page displays all your webhook subscriptions and their statuses, we
 
 On the Webhooks page, you add a new webhook subscription or view and edit details of a webhook subscription.
 
-###### Adding a new webhook subscription
+##### Adding a new webhook subscription
 
 Use the procedure below to add a new webhook subscription.
 
@@ -370,7 +370,7 @@ Use the procedure below to add a new webhook subscription.
 
 
 
-###### Viewing webhook subscription details
+##### Viewing webhook subscription details
 
 On the Webhooks page, you can view details about your webhook subscription. To view details, select the webhook link or the View button. This opens the Webhooks events page where you can view the follow details:
 
@@ -437,7 +437,7 @@ To view additional details about a webhook event, select the webhook GUID link. 
 
 
 
-###### Filtering webhook subscription events
+##### Filtering webhook subscription events
 
 Use the procedure below to filter events associated with your webhook subscription.
 
@@ -497,7 +497,7 @@ Use the procedure below to filter events associated with your webhook subscripti
 
 
 
-###### Editing webhook subscription details
+##### Editing webhook subscription details
 
 
 
@@ -541,7 +541,7 @@ Use the procedure below to edit details about your webook subscription or delete
 
 
 
-##### Activity log
+#### Activity log
 
 
 
@@ -556,11 +556,11 @@ The Activity Log page displays a list of the instances when the client secret wa
 
 You can filter your activity log by custom date range. To filter by date range, select the date picker and enter your custom date range. Select the Apply button to apply the custom date range filter. The Activity Log displays a list of activities that match your filter, or displays a message notifying you that no activities match your filter.
 
-##### Support and feedback
+#### Support and feedback
 
 You can find help and provide feedback on the Toast developer portal by selecting the Support or Feedback tabs on the left navigation pane. The tabs open the [Toast Integrations Community Forum](https://developers.toasttab.com/hc/en-us/community/topics) where you can view support articles or submit a request.
 
-##### User guide
+#### User guide
 
 You can view the Developer guide by selecting the User guide tab on the left navigation pane. The tab opens to the [Toast developer portal overview](apiDeveloperPortal.html).
 

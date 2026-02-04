@@ -39,11 +39,11 @@ You can optionally aggregate the menu reporting data into groups by menu, menu g
 
 Also, you can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
 
-#### Creating a menu reporting data request for a custom time range
+### Creating a menu reporting data request for a custom time range
 
 Send a `POST` request to the `/era/v1/menu` endpoint to request menu reporting data for a customized time range. A custom time range can cover the current date and earlier. For example, if the current date is January 1, 2025, you could choose a range of January 1, 2023 to January 1, 2025, but the end date could not be January 2, 2025.
 
-##### Request for a custom time range of menu reporting data
+#### Request for a custom time range of menu reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/menu` endpoint.
 
@@ -64,7 +64,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \
 
 (4) Include details about the requested menu reporting data in the message body. The following example is the message body for this curl command example.
 
-##### Message body for a custom time range of menu reporting data
+#### Message body for a custom time range of menu reporting data
 
 The following example shows the message body for creating a menu reporting data request for a custom time range.
 
@@ -90,7 +90,7 @@ The following example shows the message body for creating a menu reporting data 
 
 (4) The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, excludedRestaurantIds must be empty because a restaurant GUID is already included with the restaurantIds value.
 
-##### Response to request for a custom time range of menu reporting data
+#### Response to request for a custom time range of menu reporting data
 
 The following example shows the response from the `/era/v1/menu` endpoint.
 
@@ -104,7 +104,7 @@ The following example shows the response from the `/era/v1/menu` endpoint.
 
 For an example about how to retrieve the menu reporting data, see [Retrieving the menu reporting data](apiAnalyticsMenuReportingDataRetrieveData.html).
 
-#### Creating a menu reporting data request for a specific time range
+### Creating a menu reporting data request for a specific time range
 
 Send a `POST` request to `/era/v1/menu/\{timeRange\}` endpoint to request menu reporting data for a specific time range. The time range you specify can be a day, week, month, or year, as represented by these options for the `\{timeRange\}` path parameter:
 
@@ -128,7 +128,7 @@ Send a `POST` request to `/era/v1/menu/\{timeRange\}` endpoint to request menu r
 > The number of days between, and including, the `startBusinessDate` and `endBusinessDate` must be equal to or less than the day limit for the specified time range.
 
 
-##### Request for a specific time range of menu reporting data
+#### Request for a specific time range of menu reporting data
 
 The following example **curl** command sends a `POST` request to the `/era/v1/menu/\{timeRange\}` endpoint. This example uses the `day` time range.
 
@@ -149,7 +149,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
 
 (4) Include details about the requested menu reporting data in the message body. The following example is the message body for this curl command example.
 
-##### Message body for a specific time range of menu reporting data
+#### Message body for a specific time range of menu reporting data
 
 The following example shows the message body for creating a menu reporting data request for a specific time range. This example is for the `day` time range.
 
@@ -178,7 +178,7 @@ The following example shows the message body for creating a menu reporting data 
 
 (5) This request is for menu reporting data grouped by modifier.
 
-##### Response to request for a specific time range of menu reporting data
+#### Response to request for a specific time range of menu reporting data
 
 The following example shows the response from the `/era/v1/menu/\{timeRange\}` endpoint.
 

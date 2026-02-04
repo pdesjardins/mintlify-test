@@ -18,7 +18,7 @@ codeExamples: 0
 
 You configure your shift review settings in [Toast Web ](adminAccessToastAdminBackend.html).
 
-#### Requiring shift review
+### Requiring shift review
 
 Certain job roles may require employees to complete shift review before clocking out. On the Shift review page, you can customize your Require shift review setting to require employees to complete shift review before clocking out. For more information about requiring employees to complete shift review before clocking out, see [Customizing Shift Review Settings](https://central.toasttab.com/s/article/Customizing-Shift-Review-Settings#Require).
 
@@ -64,7 +64,7 @@ Certain job roles may require employees to complete shift review before clocking
 
 The Toast platform automatically saves your changes. Select the Publish all changes button to publish your changes.
 
-#### Configuring your cash drawer and cash balance
+### Configuring your cash drawer and cash balance
 
 You can configure and assign a cash drawer to an employee to use during their shift. If an employee is assigned a cash drawer, then they must complete the additional step of closing the cash drawer for shift review. For more information about how to use cash drawers, see [Using Cash Drawers During Your Shift](https://central.toasttab.com/s/article/Manager-Activities-Cash-Management-1493049150424).
 
@@ -72,7 +72,7 @@ From Toast Web, you can configure, adjust, and choose how to reset the starting 
 
 For more information about cash drawers, see [Adjusting Your Starting Cash Drawer Balance](https://central.toasttab.com/s/article/Adjusting-Your-Starting-Cash-Drawer-Balance).
 
-#### Configuring your shift review report
+### Configuring your shift review report
 
 You can configure the information that appears on your shift review report. The shift review report is a summary of activity completed during your shift. You can configure your shift review report in Toast Web.
 
@@ -149,7 +149,7 @@ You can configure the information that appears on your shift review report. The 
 
 The Toast platform automatically saves your changes. Select the Publish all changes button to publish your changes. For more information on shift review report configurations, see [Shift review / closeout](adminUiOptionsReference.html).
 
-#### Shift review report configurations
+### Shift review report configurations
 
 The sections included in your shift review report reflect your selections in the Shift review report section on the Shift review page. Each shift review report section contains rows that display the activity completed during your shift.
 

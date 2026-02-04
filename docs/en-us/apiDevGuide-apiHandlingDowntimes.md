@@ -17,7 +17,7 @@ codeExamples: 0
 
 While Toast strives to provide APIs that are reliable and highly available, downtimes may occur due to both planned maintenance and unplanned issues. The goal of this guide is to enable your platforms to handle these situations gracefully and provide the best experience you can for our mutual customers.
 
-#### How to know when ordering functionality is unavailable
+### How to know when ordering functionality is unavailable
 
 There are several ways to know if a restaurant is offline:
 
@@ -42,7 +42,7 @@ When Toast has planned maintenance windows, we send release note announcements i
 
 
 
-#### General best practices for handling downtime
+### General best practices for handling downtime
 
 When your integration uses Toast API servers, use the following recommended best practices to handle a downtime window:
 
@@ -63,7 +63,7 @@ The instant of the last successful data retrieval should be the start timestamp 
 
 
 
-#### Planned maintenance windows
+### Planned maintenance windows
 
 Scheduled maintenance windows are announced in advance on [http://status-dev.toasttab.com](http://status-dev.toasttab.com). The maintenance windows for the Toast platform typically occur on the United States Thanksgiving and Christmas holidays due to the low order volume on these days. Toast support teams attempt to announce scheduled maintenance windows with at least four weeks in advance.
 
@@ -101,7 +101,7 @@ During a maintenance window, you need to halt the polling requests for your inte
 
 
 
-#### Order injection during downtimes
+### Order injection during downtimes
 
 If your integration submits orders into the Toast platform, you must modify your order submission behavior if there is a Toast platform maintenance window or unexpected downtime.
 
@@ -109,7 +109,7 @@ You should include a unique external identifier with each order you submit so th
 
 Here are recommended ways of handling order submission during offline windows so that restaurants successfully receive orders from your integration.
 
-##### Planned downtime
+#### Planned downtime
 
 When there is planned downtime:
 
@@ -130,7 +130,7 @@ When there is planned downtime:
 
 
 
-##### Unplanned downtime
+#### Unplanned downtime
 
 If you receive a 5XX response when you try to submit an order, Toast may be experiencing an unplanned issue. Here are steps to take if you receive a 5XX response after an attempt to submit an order.
 

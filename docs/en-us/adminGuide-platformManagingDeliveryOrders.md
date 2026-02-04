@@ -55,7 +55,7 @@ After you dispatch a driver, the order moves to the EN ROUTE tab on the Delivery
 
 
 
-#### Toast Delivery Services statuses
+### Toast Delivery Services statuses
 
 When your restaurant fulfills a guest delivery order using Toast Delivery Services (TDS), the Orders Hub screen displays one of the following blue status indicators to show fulfillment progress:
 

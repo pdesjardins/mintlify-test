@@ -17,7 +17,7 @@ codeExamples: 0
 
 Toast provides the following integration checklists.
 
-#### Reservation integration checklist
+### Reservation integration checklist
 
 This section provides a checklist you can use to build a reservation integration with the Toast POS system.
 

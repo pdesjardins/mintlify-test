@@ -29,7 +29,7 @@ You can access your shift review on the Toast POS app.
 
 
 
-#### Reviewing your shift review
+### Reviewing your shift review
 
 You can review your shift review on a Toast POS device.
 
@@ -73,7 +73,7 @@ You can review your shift review on a Toast POS device.
 
 
 
-#### Viewing other shifts
+### Viewing other shifts
 
 You can view your previous shifts from the Shift Review screen.
 
@@ -96,22 +96,22 @@ You can view your previous shifts from the Shift Review screen.
 
 
 
-#### Viewing your full sales report
+### Viewing your full sales report
 
 You can view your full sales report from the Shift Review screen. To view your sales report, select the Full sales report button in the overflow menu.
 
-#### Refreshing your shift review report
+### Refreshing your shift review report
 
 You can manually refresh your shift review report from the Shift Review screen. To refresh your shift review, select the Refresh button in the overflow menu.
 
-#### Resyncing shift review data
+### Resyncing shift review data
 
 If your shift review data fails to load, an error message displays: `Failed to load shift review. Try re-syncing data to load
       shift review`.
 
 To resync your data, select the Resync databutton. For information on how to resync the data on your device, see [Resyncing all data on your devices](https://central.toasttab.com/s/article/Resyncing-All-Data-on-Your-Devices).
 
-#### Switching users
+### Switching users
 
 You can switch users from the Shift Reviewscreen. To switch users, select the Switch userbutton to return to the passcode screen.
 

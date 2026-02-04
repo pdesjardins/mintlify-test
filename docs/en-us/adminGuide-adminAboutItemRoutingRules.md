@@ -43,7 +43,7 @@ As soon as you publish the item routing rule, the Toast platform applies the rul
 > If you use the Dining Option[additional modifier group](adminUiOptionsReference.html#configAdditionalModifierGroups) to identify a different dining option for an item in an order, that item is routed to the same prep stations as the other items in the order.
 
 
-#### Rerouting based on dining option
+### Rerouting based on dining option
 
 The dining option that guests select for their meals can have a significant effect on which, and how many, prep stations are involved in fulfilling the order. With the Toast platform, you can set up item routing rules that change the way items are routed for fulfillment based on the dining option specified. This means sending the item to an additional prep station or a completely different prep station, depending on the dining option.
 
@@ -51,7 +51,7 @@ For more information about how you configure dining options, see [Dining Options
 
 You can also use KDS devices to display tickets only for specified dining options. For more information, see [Filtering tickets on a KDS device](adminKdsTicketDisplayOptions.html).
 
-##### Routing tickets to an additional prep station
+#### Routing tickets to an additional prep station
 
 One way to change item routing based on dining option is to add an additional prep station for items to be assigned to. For example, this occurs when a particular dining option requires an extra step or process.
 
@@ -73,7 +73,7 @@ This requires three different item routing rules for each prep station when the 
 
 You do not need to add item routing rules for dine-in orders, because that dining option does not require additional or different prep stations.
 
-##### Routing tickets to a different prep station
+#### Routing tickets to a different prep station
 
 Another way to change item routing based on dining option is to change which prep station receives orders. For example, you have a quick service restaurant. Guests can place orders in person and receive them immediately at the counter or over the phone and then pick them up at a scheduled time.
 
@@ -83,7 +83,7 @@ To accommodate both dining options as efficiently as possible, your kitchen has 
 
 For in-person orders, the line cook interacts with the guest to fulfill the order. Therefore, tickets do not need to be printed for the Dine-in prep station. For phone orders, because the guest is not there to work with the line cook, the order is printed at the Takeout prep station.
 
-#### Rerouting based on service area
+### Rerouting based on service area
 
 You can also choose to change how items are routed based on the service area. Item routing rules can be set to change the prep stations items are routed to when sent from a specified service area. This means sending an item to an additional or completely different prep station, depending on what you need for each service area.
 
@@ -91,7 +91,7 @@ For more information about how to configure service areas, see this [Toast Centr
 
 You can also use KDS devices to display tickets only for specified service areas. For more information, see [Filtering tickets on a KDS device](adminKdsTicketDisplayOptions.html).
 
-##### Routing tickets to an additional prep station
+#### Routing tickets to an additional prep station
 
 One way to change item routing based on service area is to add an additional prep station for items to be assigned to. For example, this occurs when a particular service area requires an extra step or process.
 
@@ -113,7 +113,7 @@ This requires three different item routing rules for each prep station when the 
 
 You do not need to add item routing rules for other service areas, because those service areas do not require additional or different prep stations.
 
-##### Routing tickets to a different prep station
+#### Routing tickets to a different prep station
 
 Another way to change item routing based on service area is to change which prep station receives orders.
 
@@ -123,7 +123,7 @@ For example, you have a full service restaurant that includes a Bar service area
 
 For all other service area orders, the items should be prepared at the Drinks prep station, therefore items do not need to be routed to a different prep station.
 
-#### Adding item routing rules
+### Adding item routing rules
 
 Before creating item routing rules, make sure that you configure any prep stations, dining options, or service areas you need, and assign prep stations to your menu entities. Take into consideration the following:
 

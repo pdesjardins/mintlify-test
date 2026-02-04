@@ -36,7 +36,7 @@ If you choose to have a prep station send to prep stations, the item displays on
 
 If your restaurant has a bar, you might also add a prep station for the bar so that drink orders can be routed to the bartenders for fulfillment, and not to the kitchen.
 
-#### Sending items to prep stations, expediters, or both
+### Sending items to prep stations, expediters, or both
 
 
 
@@ -79,13 +79,13 @@ Depending on how you want to route items assigned to certain prep stations, you 
 > If you require fulfillment at both prep stations and expediters using the Sequenced KDS fulfillment setting, items only need to be fulfilled where they were sent to. For example, if you choose to send an item to only prep stations, you cannot fulfill the item at the expediter because it was never sent to expediter.
 
 
-#### Multiple prep stations for an item
+### Multiple prep stations for an item
 
 For individual items that require work at multiple prep stations, you can choose to assign more than one prep station to it. For example, a Caesar Chicken Salad item is sent to both the *Cold* prep station and the *Grill* prep station. For more information on how the item is fulfilled at multiple prep stations on the KDS, see [Understanding item fulfillment](platformKitchenUnderstandingItemFulfillmentKDS.html).
 
 You can also configure your kitchen tickets to show which other prep stations are working on the item or order. For more information, see [Monitoring items at other prep stations](adminMonitoringTicketsOtherPrepStations.html).
 
-#### Assigning prep stations to menu entities
+### Assigning prep stations to menu entities
 
 The following procedure is for assigning prep stations to multiple [menu entities](adminMenuHierarchy.html) at once. You can also choose to assign prep stations to each menu entity while creating it. For more information about assigning prep stations while creating a single menu entity, see [Assigning prep stations](adminAssigningPrepStationsMenuBuilder.html).
 

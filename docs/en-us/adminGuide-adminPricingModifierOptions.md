@@ -18,7 +18,7 @@ codeExamples: 0
 
 This section provides information on creating and pricing modifier groups and their individual modifiers. It also describes the structure of a modifier. Understanding this structure is critical to understanding how modifier pricing behaves.
 
-#### Understanding a modifier item reference
+### Understanding a modifier item reference
 
 Modifiers are supported by an underlying menu item, called the modifier item reference. The underlying item may be an existing menu item, for example, a Sandwich Sides modifier may reference a Fries menu item. The Fries menu item exists as a standalone menu item and it also functions as the item reference for a Sandwich Sides modifier. When you create a modifier that does not refer to an existing menu item, the Toast platform creates an underlying reference menu item for it.
 
@@ -32,11 +32,11 @@ If you need to change the menu item that a modifier references, you can click th
 
 ![Example showing the location of the Change Item and Edit Item buttons.](https://doc.toasttab.com/doc/media/pricing-mod-option-details-edit-item.png)
 
-#### Approaches to creating modifiers and their pricing methods
+### Approaches to creating modifiers and their pricing methods
 
 There are multiple approaches to creating modifiers and the approach you take determines the methods that are available for pricing your modifiers. You can create modifiers that are based on an existing menu group or existing menu items, or you can manually create standalone modifiers that exist solely within the context of their modifier group. This section provides more information on each approach.
 
-##### Manually creating modifiers
+#### Manually creating modifiers
 
 To manually create modifiers for a modifier group, you go to the modifier group's details page and, in the Modifiers section, set the Would you like to use an existing menu group setting to No. When you choose this option, a Modifiers grid appears on the page. Click the Add button to add a row to the grid where you can manually specify a modifier for the group.
 
@@ -56,7 +56,7 @@ When you create a modifier group composed of manually created modifiers, the Pri
 
 For more information on these settings, see [Setting the pricing method for a modifier group](adminPricingModifierOptions.html#adminSettingTheModifierPricingMethodForAModifierGroup).
 
-##### Basing a modifier group on an existing menu group
+#### Basing a modifier group on an existing menu group
 
 To base a modifier group on an existing menu group, you go to the modifier group's details page and, in the Modifiers section, set the Would you like to use an existing menu group setting to Yes, use an existing menu group. When you choose this option, a Source Menu Group button appears on the page where you can choose the menu group that will function as the modifiers for the modifier group.
 
@@ -73,7 +73,7 @@ When you create a modifier group based on an existing menu group, you must set a
 
 For more information on these settings, see [Setting the pricing method for a modifier group](adminPricingModifierOptions.html#adminSettingTheModifierPricingMethodForAModifierGroup).
 
-##### Basing modifiers on existing menu items
+#### Basing modifiers on existing menu items
 
 To base a modifier on an existing menu item, you start by going to a modifier group's details page and, in the Modifiers section, setting the Would you like to use an existing menu group setting to No. When you choose this option, a Modifiers grid appears on the page. Click the Add button below the grid, choose New Modifier from Existing Item from the drop-down list, and then choose the menu item you want to base the modifier on from the Select Menu Items dialog box. The Toast platform creates the new modifier and displays the modifier's details page. On this page, you see the Pricing section and its Override item reference price setting.
 
@@ -89,7 +89,7 @@ When you set the Override item reference price setting to No, the Modifiers grid
 
 If the item reference uses the Base pricing strategy, you can edit that base price directly in the Modifiers grid. This changes the price for both the modifier and the underlying item reference. If the item reference uses any other pricing strategy, you must edit the price on the details page for the item reference itself (see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference) for information on viewing the details page for an item reference).
 
-##### Other methods for adding modifiers to a modifier group
+#### Other methods for adding modifiers to a modifier group
 
 In addition to the methods described earlier in this section, the Add drop-down list in the Modifiers grid has several other methods for adding modifiers to a modifier group. They include:
 
@@ -106,7 +106,7 @@ In addition to the methods described earlier in this section, the Add drop-down 
 
 
 
-#### Setting the pricing method for a modifier group
+### Setting the pricing method for a modifier group
 
 The Pricing section of a modifier group details page includes the How are modifiers in this group priced setting. You use this setting to specify how the modifiers in the group should be priced. You can choose one of these options:
 
@@ -150,7 +150,7 @@ Choosing this pricing method also adds some settings necessary for [substitution
 
 
 
-#### Using substitution pricing for default modifiers
+### Using substitution pricing for default modifiers
 
 
 
@@ -215,7 +215,7 @@ Regardless of how you define your default modifiers, substitution pricing is alw
 > Substitution pricing does not currently support the use of location-specific prices on default modifiers. If you want to use substitution pricing, do not specify location-specific prices on the item references for your default modifiers.
 
 
-#### Allowing default modifiers to charge their modifier price
+### Allowing default modifiers to charge their modifier price
 
 
 
@@ -248,7 +248,7 @@ The price of a default modifier is defined in the modifier's underlying [item re
 
 For more information on configuring default modifiers, see this [Toast Central article](https://central.toasttab.com/s/article/Creating-Default-Modifiers).
 
-#### Pre-modifiers and pricing
+### Pre-modifiers and pricing
 
 Pre-modifiers allow you to add prefixes and suffixes to a modifier such as NO, EXTRA, ON THE SIDE, and so on. Depending on the intended behavior of the pre-modifier, you may want the addition of a pre-modifier to change the price of its associated modifier. For example, you could choose to increase the price of a modifier that is prefixed with an EXTRA pre-modifier.
 

@@ -54,7 +54,7 @@ Keep the following important notes in mind when using the taxes on modifiers fea
 
 
 
-#### Modifier tax behavior examples
+### Modifier tax behavior examples
 
 The modifier tax behavior feature enables modifiers to have a different tax rate than their parent items or to override the tax rate of their parent item. The following are examples of when each of these settings would be used:
 
@@ -65,7 +65,7 @@ The modifier tax behavior feature enables modifiers to have a different tax rate
 
 
 
-#### Tax functionality interaction
+### Tax functionality interaction
 
 The modifier tax behavior feature interacts with other tax functionality as follows:
 
@@ -88,11 +88,11 @@ The modifier tax behavior feature interacts with other tax functionality as foll
 
 
 
-#### Configuring taxes on modifiers
+### Configuring taxes on modifiers
 
 The following configuration procedures require that you access the detail page for modifier option's item reference. For instructions on how to view this page, see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
 
-##### Configuring unique tax rates
+#### Configuring unique tax rates
 
 You can configure with a tax rate for a modifier option which is different from the tax configured for its parent menu item. The modifier option's unique tax rate is applied separately from the menu item tax rate.
 
@@ -125,7 +125,7 @@ You can configure with a tax rate for a modifier option which is different from 
 
 
 
-##### Configuring override tax rates
+#### Configuring override tax rates
 
 You can configure with a tax rate for a modifier option which is different from the tax configured for its parent menu item and which overrides the parent item's tax rate. In this case, both the modifier option and its parent item are taxed using the rate configured for the modifier option.
 
@@ -156,7 +156,7 @@ You can configure with a tax rate for a modifier option which is different from 
 
 
 
-##### Configuring inherited tax rates
+#### Configuring inherited tax rates
 
 If you want the unique or override tax rate setting to no longer apply and want the modifier to inherit its tax rate from its parent item, simply change the Modifier Tax Behaviorsetting to the Inherit item tax rate option. This will cause the modifier to ignore any selected tax rates in the Applicable taxes section.
 

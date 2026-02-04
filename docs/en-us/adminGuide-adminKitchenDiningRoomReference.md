@@ -28,13 +28,13 @@ In addition, the following topics provide information about other Kitchen catego
 
 
 
-#### Kitchen
+### Kitchen
 
 To review and change settings on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable).
 
 For more information, see [How orders are routed to KDS devices](adminRoutingOrdersKitchen.html).
 
-##### Printed Tickets and Ticket Screens
+#### Printed Tickets and Ticket Screens
 
 The following table provides information about the settings of the Printed Tickets and Ticket Screens section on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page.
 
@@ -76,7 +76,7 @@ For more information about this setting, see [Consolidate identical items](platf
 
  | 
 
-##### Expediter
+#### Expediter
 
 The following table provides information about the settings of the Expediter section on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page.
 
@@ -123,7 +123,7 @@ This is only applicable to KDS devices. For more information, see [Sequencing fu
 
 For more information, see [Firing by item prep time](adminFireByPrepTime.html). | 
 
-##### Printed Tickets
+#### Printed Tickets
 
 The following table provides information about the settings of the Printed Tickets section on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page.
 
@@ -179,7 +179,7 @@ In this example, [Individual Item Tickets](adminKitchenDiningRoomReference.html#
 
  | 
 
-##### Tickets Screens
+#### Tickets Screens
 
 The following table provides information about the settings of the Ticket Screens section on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page.
 
@@ -251,7 +251,7 @@ For more information about the effects of these options, see [About all day view
 
  | 
 
-##### Order ready text messaging
+#### Order ready text messaging
 
 The following table provides information about the settings of the Order ready text messaging section on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page.
 
@@ -273,7 +273,7 @@ In each of these categories, To Guest and To Server default to cleared. To speci
 
  | 
 
-##### Kitchen Names
+#### Kitchen Names
 
 The following table provides information about the settings of the Kitchen Names section on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page.
 
@@ -298,7 +298,7 @@ The following table provides information about the settings of the Kitchen Names
  | 
 | Kitchen Names | These options customize the terms that appear on your kitchen tickets. Each option defaults to the corresponding Original Name. For example, if some of your back of house employees read English and others read Chinese, for the original name "VOIDED" you can supply a Kitchen Name of "Void- 作废".You can replace any of the original name values with a different value, but you cannot remove them completely. For example, if you do not want "No Course specified" to appear on tickets, you can replace it with a period (.) or hyphen (-) character.The kitchen names that you define appear on all printed tickets and Toast KDS devices.For more information about the effects of these settings, see [KDS ticket contents](adminKdsConfigQuickRef.html#adminKdsQuickRefContent). | 
 
-#### Courses
+### Courses
 
 To review and change settings on the Kitchen \> Pacing \> Courses page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
 
@@ -315,7 +315,7 @@ The following table provides information about the settings of the Kitchen \> Pa
 | Order | To change the sequence in which courses display for selection, select Order. An Order column appears in the grid so that you can enter a sequence number next to each course. | 
 | Actions (menu icon) | To remove a course, click the menu icon next to it and then select Archive. | 
 
-#### Prep stations
+### Prep stations
 
 To review and change settings on the Kitchen \> Kitchen stations \> Prep stations page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
 
@@ -350,7 +350,7 @@ This includes items on KDS or printed tickets. For more information, see [Sendin
  | 
 | Actions (menu icon) | To remove a prep station, click the menu icon next to it and then select Archive. | 
 
-#### Advanced item routing
+### Advanced item routing
 
 To change item routing behavior on the Kitchen \> Kitchen stations \> Item routing page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions). These settings change the existing item behavior when certain conditions are met.
 
@@ -372,7 +372,7 @@ The following table provides information about the settings of the Kitchen \> Ki
 | Reroute To | The new destination of items that meet the configured category and condition. The item can be rerouted to more than one prep station. | 
 | Actions (menu icon) | To remove a routing rule, click the menu icon next to that routing rule and then select Archive. | 
 
-#### Production Items
+### Production Items
 
 To review and change settings on the Kitchen \> Kitchen stations \> Production items page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
 
@@ -387,7 +387,7 @@ The following table provides information about the settings of the Kitchen \> Ki
 | Order | To change the sequence in which production items display along the bottom of the KDS device, select Order. An Order column appears in the table so that you can enter a sequence number next to each production item. | 
 | Actions (menu icon) | To remove a production item, click the menu icon next to that production item and then select Archive. | 
 
-#### Dining Options
+### Dining Options
 
 The Toast platform includes three dining options by default: Dine In, Take Out, and Delivery. On the Dining Options page, you define additional dining options that apply to your restaurant, and archive options that do not apply. When you define an additional dining option, you specify dine in, takeout, delivery, or curbside as the behavior for that option.
 
@@ -407,13 +407,13 @@ The following table provides information about the settings of the Kitchen \> Di
 | Default | To streamline ordering, you can specify the most frequently used dining option for your restaurant. On individual Toast POS devices you can override this restaurant-wide default by setting Setup \> Device Setup \> Device Default Dining Option. Specifying a default relabels the Dining button on order screens to the name of the default dining option.If you do not specify a default dining option, you can set the [Prompt for Dining Option (Quick Order only)](adminUiOptionsReference.html#configPromptDiningOption)setting. | 
 | Actions (menu icon) | To remove a dining option, select the menu icon next to that option and then select Archive. | 
 
-#### Meal Pacing
+### Meal Pacing
 
 To review and change settings on the Kitchen \> Pacing \> Meal pacing page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
 
 You add [courses](adminKitchenDiningRoomReference.html#configCoursesSection) on the Kitchen \> Pacing \> Courses page, and you can update or review the course assignments for all of your menu entries at once on the Menus \> Bulk management \> Advanced properties page.
 
-##### Course Pacing
+#### Course Pacing
 
 The following table provides information about the settings of the Course Pacing section on the Kitchen \> Pacing \> Meal pacing page.
 
@@ -493,7 +493,7 @@ To include only fired tickets or items in the all day view and production items 
 
 The status information is either Not Fulfilled, or Fulfilledaccompanied by the time since the course was fulfilled. | 
 
-##### Item Pacing
+#### Item Pacing
 
 The following table provides information about the settings of the Item Pacing section on the Kitchen \> Pacing \> Meal pacing page.
 

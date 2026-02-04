@@ -28,7 +28,7 @@ If an employee had a swipe card for signing into the Toast POS, the swipe card *
 > If an employee has a different role when you unarchive them than they had when they were archived, you must evaluate the jobs that are assigned to the employee and whether that employee should continue to be able to sign into Toast Web. When you unarchive an employee, that employee keeps all jobs that were previously assigned and will be able to sign into Toast Web.
 
 
-#### Example request to unarchive an employee
+### Example request to unarchive an employee
 
 The following example **curl** command sends a `PUT` request to unarchive an employee.
 
@@ -57,7 +57,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 (1) Include the Toast platform identifier for the employee in the path parameter of the request.
 
   
-#### Example response
+### Example response
 
 The following example shows the response for a `PUT` request to unarchive an employee.
 
