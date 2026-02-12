@@ -33,12 +33,12 @@ Here are some important points to keep in mind when creating new modifier groups
 
 - When you add a modifier group to a menu group, by default, it is inherited by all menu items in the menu group.
 
-You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? option to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](platformWorkingWithModifierGroupsMenuManager.html#platformInheritingModifierGroupsFromAParentMenuGroupMenuManager).
+You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? option to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformInheritingModifierGroupsFromAParentMenuGroupMenuManager).
 
 
 
 
-- To reduce the number of modifier groups you have to manage, [add existing modifier groups](platformWorkingWithModifierGroupsMenuManager.html#platformAddingExistingModifierGroupsToAMenuGroupOrItemMenuManager) to menu groups or items whenever possible instead of creating new ones. For example, add the same Salad Dressing modifier group to both the Dinner Salad and Side Salad menu items.
+- To reduce the number of modifier groups you have to manage, [add existing modifier groups](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformAddingExistingModifierGroupsToAMenuGroupOrItemMenuManager) to menu groups or items whenever possible instead of creating new ones. For example, add the same Salad Dressing modifier group to both the Dinner Salad and Side Salad menu items.
 
 
 - You must add at least one modifier to a modifier group before you can save the group.
@@ -47,22 +47,22 @@ You can disable inherited modifier groups for an individual item within a menu g
 
 For multi-location restaurants:
 
-- Currently, the menu group side panel does not have the Modifier groups card, so you cannot add modifier groups in the side panel. You must go to a menu group's [classic details page](adminMenuManagerAndTheClassicMenuDetailsPages.html) to add modifier groups to it.
+- Currently, the menu group side panel does not have the Modifier groups card, so you cannot add modifier groups in the side panel. You must go to a menu group's [classic details page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) to add modifier groups to it.
 
 
-- Newly created modifier groups inherit the target and owner of their parent menu group or menu item by default. For more information, see [Defaults for targets and owners](platformMenuManagerMenuAndMultiLocationRestaurants.html#platformMenuManagerDefaultsForTargetsAndOwners).
+- Newly created modifier groups inherit the target and owner of their parent menu group or menu item by default. For more information, see [Defaults for targets and owners](adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants#platformMenuManagerDefaultsForTargetsAndOwners).
 
 
 - You must have the Edit Full Menupermission to the owner of a menu group or item in order to add a new modifier group to it.
 
 
-- If the menu group or item you are adding a modifier group to is [versioned](versions.html), you must pick the version you want to add the modifier group to. The modifier group is only added to that version.
+- If the menu group or item you are adding a modifier group to is [versioned](adminGuide-versions), you must pick the version you want to add the modifier group to. The modifier group is only added to that version.
 
 
 
 **Procedure 8.81. To create a new modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -71,10 +71,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group or item you want to add a modifier group to.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group or item you want to add a modifier group to.
 
 
 6. Select the menu group or item to view its side panel, then scroll to the Modifier groups section.
@@ -112,19 +112,19 @@ The Create modifier group page opens.
 9. In the Modifier group details section, if you use Toast POS devices, you can customize the name and color of the POS button. To customize the name, enter a name in the POS name field. To specify a button color, select Button color and then select a color from the color palette.
 
 
-10. In the Pricing section, [specify how the modifiers in this group are priced](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager).
+10. In the Pricing section, [specify how the modifiers in this group are priced](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager).
 
 
-11. In the Modifiers section, [create new modifiers](platformWorkingWithModifiersMenuManager.html#platformCreatingANewModifierInAModifierGroupMenuManager) or [add existing modifiers](platformWorkingWithModifiersMenuManager.html#platformAddingAnExistingModifierToAModifierGroupMenuManager) to the group.
+11. In the Modifiers section, [create new modifiers](adminGuide-platformWorkingWithModifiersMenuManager#platformCreatingANewModifierInAModifierGroupMenuManager) or [add existing modifiers](adminGuide-platformWorkingWithModifiersMenuManager#platformAddingAnExistingModifierToAModifierGroupMenuManager) to the group.
 
 
-12. In the Modifier group settings section, [choose whether selecting a modifier from this group is required or optional, and, if it's optional, whether to prompt the server](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingIfAModifierGroupIsRequiredOrOptionalMenuManager).
+12. In the Modifier group settings section, [choose whether selecting a modifier from this group is required or optional, and, if it's optional, whether to prompt the server](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingIfAModifierGroupIsRequiredOrOptionalMenuManager).
 
 
-13. In the Modifier group settings section, [specify whether you want guests to be able to order more than one modifier from this group, the minimum and maximum number of modifiers to choose from, and whether a modifier can be chosen more than once](platformWorkingWithModifierGroupsMenuManager.html#platformAllowingGuestsToChooseOneorMoreModifiersFromTheSameModifierGroupMenuManager).
+13. In the Modifier group settings section, [specify whether you want guests to be able to order more than one modifier from this group, the minimum and maximum number of modifiers to choose from, and whether a modifier can be chosen more than once](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformAllowingGuestsToChooseOneorMoreModifiersFromTheSameModifierGroupMenuManager).
 
 
-14. In the Channel visibility section, [select the ordering channels where this modifier group is visible](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingOrderingChannelVisibilityForAModifierGroupMenuManager). A modifier group is available for ordering on the channels where it is visible.
+14. In the Channel visibility section, [select the ordering channels where this modifier group is visible](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingOrderingChannelVisibilityForAModifierGroupMenuManager). A modifier group is available for ordering on the channels where it is visible.
 
 
 15. Select Save.
@@ -133,7 +133,7 @@ The Create modifier group page opens.
 16. Select the X icon in the upper-left corner to return to Full menu view.
 
 
-17. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+17. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -150,7 +150,7 @@ Here are some important points to keep in mind when adding existing modifier gro
 
 - When you add a modifier group to a menu group, by default, it is inherited by all menu items in the menu group.
 
-You can disable inherited modifier groups for an individual item by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups?option to No, it will not inherit *any* modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](platformWorkingWithModifierGroupsMenuManager.html#platformInheritingModifierGroupsFromAParentMenuGroupMenuManager).
+You can disable inherited modifier groups for an individual item by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups?option to No, it will not inherit *any* modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformInheritingModifierGroupsFromAParentMenuGroupMenuManager).
 
 
 
@@ -168,7 +168,7 @@ You can disable inherited modifier groups for an individual item by setting the 
 
 For multi-location restaurants:
 
-- Currently, the menu group side panel does not have the Modifier groups card, so you cannot add existing modifier groups in the side panel. You must go to a menu group's [classic details page](adminMenuManagerAndTheClassicMenuDetailsPages.html) to add modifier groups to it.
+- Currently, the menu group side panel does not have the Modifier groups card, so you cannot add existing modifier groups in the side panel. You must go to a menu group's [classic details page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) to add modifier groups to it.
 
 
 - You must have the Edit Full Menupermission to the owner of a menu group or item in order to add an existing modifier group to it.
@@ -177,13 +177,13 @@ For multi-location restaurants:
 - The existing modifier groups you are allowed to add are filtered so that you can only add modifier groups that have a target that is the same as the parent menu item's target, or an ancestor or child of the parent menu item's target. This ensures that the target of the modifier group is compatible with the target of its parent menu item.
 
 
-- If the menu group or item you are adding a modifier group to is [versioned](versions.html), you must pick the version you want to add the existing modifier group to. The modifier group is only added to that version.
+- If the menu group or item you are adding a modifier group to is [versioned](adminGuide-versions), you must pick the version you want to add the existing modifier group to. The modifier group is only added to that version.
 
 
 
 **Procedure 8.82. To add existing modifier groups to a menu group or item**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -192,10 +192,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group or item you want to add an existing modifier group to.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group or item you want to add an existing modifier group to.
 
 
 6. Select the menu group or item to view its side panel, then scroll to the Modifier groups section.
@@ -252,7 +252,7 @@ If there are more than 25 search results, scroll to the end of the list and sele
 14. Select Save in the side panel. Refresh the page and return to the Full menu view to see your changes in the menu hierarchy table.
 
 
-15. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+15. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -262,7 +262,7 @@ Follow the procedure below to rename a modifier group.
 
 **Procedure 8.83. To rename a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -271,10 +271,10 @@ Follow the procedure below to rename a modifier group.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group's name to open its side panel.
@@ -286,13 +286,13 @@ Follow the procedure below to rename a modifier group.
 8. Select Save.
 
 
-9. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 ## Reordering modifier groups
 
-Currently, you cannot reorder modifier groups in Full menu view. You must use the [classic pages](adminMenuManagerAndTheClassicMenuDetailsPages.html) for the menu group or item that contains the modifier groups instead.
+Currently, you cannot reorder modifier groups in Full menu view. You must use the [classic pages](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) for the menu group or item that contains the modifier groups instead.
 
 ## Removing a modifier group from a menu group or item
 
@@ -312,7 +312,7 @@ For multi-location restaurants:
 - You must have the Edit Full Menupermission to the owner of a menu group or item in order to remove a modifier group from it. For example, consider a Sandwiches menu group that has a Cheese modifier group. You must have Edit Full Menu permission to the owner of the Sandwiches menu group to remove the Cheese modifier group from it.
 
 
-- If a menu group or item is [versioned](versions.html) and you want to remove a modifier group from it, you must pick the version you want to remove the modifier group from. The modifier group is removed from that version only. The other versions continue to use the modifier group.
+- If a menu group or item is [versioned](adminGuide-versions) and you want to remove a modifier group from it, you must pick the version you want to remove the modifier group from. The modifier group is removed from that version only. The other versions continue to use the modifier group.
 
 
 - If a modifier group is versioned and you remove it from a menu group or item, all versions of the modifier group are removed from the menu group or item.
@@ -323,12 +323,12 @@ For multi-location restaurants:
 
 > **Note**
 > 
-> To remove a modifier group from *all* menu groups or items that use it, you must archive it from the modifier group's [classic details page](adminMenuManagerAndTheClassicMenuDetailsPages.html).
+> To remove a modifier group from *all* menu groups or items that use it, you must archive it from the modifier group's [classic details page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages).
 
 
 **Procedure 8.84. To remove a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -337,16 +337,16 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to remove.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to remove.
 
 
 6. Select the menu item's overflow menu (...) and choose Remove modifier group. Your changes are automatically saved.
 
 
-7. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+7. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -366,7 +366,7 @@ Menu items can belong to more than one menu path. When a menu item belongs to mo
 
 When you set a menu item's Inherit modifier groups? option to Yes, you see a set of tables that show the different menu paths the menu item belongs to. The table for each path shows the modifier groups that the menu item inherits for each path, and the specific parent menu groups within those paths that provide the inherited modifier groups.
 
-For more information on inheritance, see [Understanding inheritance](platformUnderstandingInheritanceMenuManager.html).
+For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritanceMenuManager).
 
 ### Menu items can have item-level and menu group-level modifier groups
 
@@ -392,12 +392,12 @@ You use the Pricing section in a modifier group's side panel to specify how the 
 - No charge: There is no charge for the modifiers in the group.
 
 
-- Individual: Each modifier in the group has its own price. When you choose this option, the table in the Modifiers section displays a Price column that you use to specify the prices of the modifiers. Currently, you can set base prices using the Price column. For information on setting individual prices for a modifier, see [Specifying modifier prices](platformWorkingWithModifiersMenuManager.html#platformSpecifyingModifiersPricesMenuManager).
+- Individual: Each modifier in the group has its own price. When you choose this option, the table in the Modifiers section displays a Price column that you use to specify the prices of the modifiers. Currently, you can set base prices using the Price column. For information on setting individual prices for a modifier, see [Specifying modifier prices](adminGuide-platformWorkingWithModifiersMenuManager#platformSpecifyingModifiersPricesMenuManager).
 
 
 - Group: All modifiers in the group share the same price. When you choose this option, a Price field appears in the Pricing section where you can enter the price for the modifiers.
 
-If the modifier group is configured with an advanced pricing strategy (for example, size or sequence pricing), you see a notification with a link that takes you to the modifier group's classic details page where you can edit the advanced pricing. For more information on advanced pricing strategies, see [Pricing strategies overview](adminPricingStrategiesOverview.html).
+If the modifier group is configured with an advanced pricing strategy (for example, size or sequence pricing), you see a notification with a link that takes you to the modifier group's classic details page where you can edit the advanced pricing. For more information on advanced pricing strategies, see [Pricing strategies overview](adminGuide-adminPricingStrategiesOverview).
 
 
 
@@ -416,11 +416,11 @@ If you choose Optional and you use POS devices, you can also toggle the Include 
 
 ### Sequence of modifier groups
 
-The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. For more information, see [Modifier group display order overview](platformModifierGroupDisplayOrderOverview.html).
+The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. For more information, see [Modifier group display order overview](adminGuide-platformModifierGroupDisplayOrderOverview).
 
 ### Required modifier groups and visibility settings
 
-When you configure a modifier group as Required, you must also pay careful attention to the group's [ordering channel visibility](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingOrderingChannelVisibilityForAModifierGroupMenuManager) settings. If the group is not visible on a particular channel, guests and servers won't see it on that channel and it will be missing from orders placed on that channel, even if it is marked as Required. Examples of channels include the Toast POS app, a Toast Kiosk, a restaurant's Toast online ordering site, or a third-party ordering website like Grubhub, Doordash, or UberEats.
+When you configure a modifier group as Required, you must also pay careful attention to the group's [ordering channel visibility](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingOrderingChannelVisibilityForAModifierGroupMenuManager) settings. If the group is not visible on a particular channel, guests and servers won't see it on that channel and it will be missing from orders placed on that channel, even if it is marked as Required. Examples of channels include the Toast POS app, a Toast Kiosk, a restaurant's Toast online ordering site, or a third-party ordering website like Grubhub, Doordash, or UberEats.
 
 Consider the following example. A Dinner Salad menu item has a Dressing modifier group that is marked as Required. The Dinner Salad's visibility settings specify that it is visible and available for ordering on all channels. The Dressing modifier group, however, was accidentally configured so that it is not visible on the Toast Online Ordering site. When a guest places an order for the Dinner Salad on the Toast online ordering site, they are not shown the Dressing modifier group because that modifier group is not visible on the Toast online ordering site. Consequently, when the order is sent to the restaurant, it is missing a selection from the Dressing modifier group.
 
@@ -456,7 +456,7 @@ If the Allow guests to select more than one modifier option is On, the Can a sin
 
 ### Minimum modifiers and visibility settings
 
-When you configure a modifier group to use the What is the minimum number a guest must select setting, you must also pay careful attention to the [ordering channel visibility](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingOrderingChannelVisibilityForAModifierGroupMenuManager) settings for the modifiers in that group. Specifically, you must ensure that the number of modifiers that are visible in any given ordering channel meet or exceed the minimum number of modifiers a guest or server must select from the modifier group.
+When you configure a modifier group to use the What is the minimum number a guest must select setting, you must also pay careful attention to the [ordering channel visibility](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingOrderingChannelVisibilityForAModifierGroupMenuManager) settings for the modifiers in that group. Specifically, you must ensure that the number of modifiers that are visible in any given ordering channel meet or exceed the minimum number of modifiers a guest or server must select from the modifier group.
 
 For example, consider a Lunch Sides modifier group that sets the What is the minimum number a guest must selectoption to 2 and has the following modifiers:
 
@@ -506,7 +506,7 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 
 **Procedure 8.85. To set ordering channel visibility for a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -515,10 +515,10 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Channel visibility section.
@@ -530,7 +530,7 @@ Note that this setting is always enabled for all menu entities and cannot be cha
 8. Select Save.
 
 
-9. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 

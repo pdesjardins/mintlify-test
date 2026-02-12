@@ -23,7 +23,7 @@ To add and customize the modifiers in a modifier group, you use the Modifiers se
 
 Here are some important points to keep in mind when working with modifiers:
 
-- To reduce the number of modifiers you have to manage, [add existing modifiers](platformWorkingWithModifiersMenuManager.html#platformAddingAnExistingModifierToAModifierGroupMenuManager) to modifier groups whenever possible instead of creating new ones. For example, a Breakfast Sides modifier group and a Burger Toppings modifier group could share a Bacon modifier.
+- To reduce the number of modifiers you have to manage, [add existing modifiers](adminGuide-platformWorkingWithModifiersMenuManager#platformAddingAnExistingModifierToAModifierGroupMenuManager) to modifier groups whenever possible instead of creating new ones. For example, a Breakfast Sides modifier group and a Burger Toppings modifier group could share a Bacon modifier.
 
 
 - If a modifier is used by more than one modifier group:
@@ -42,7 +42,7 @@ Here are some important points to keep in mind when working with modifiers:
 
 ## Understanding a modifier item reference
 
-In the [classic menu configuration experience](adminMenuManagerAndTheClassicMenuDetailsPages.html), you can base a modifier on an existing menu item. For example, a Fries menu item can function as a normal menu item but also as the item reference for a Fries modifier. For this reason, all modifiers are supported by an underlying menu item, called the modifier's *item reference*. Item references have all the configuration settings of a normal menu item such as name, POS button color, pricing, and so on.
+In the [classic menu configuration experience](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages), you can base a modifier on an existing menu item. For example, a Fries menu item can function as a normal menu item but also as the item reference for a Fries modifier. For this reason, all modifiers are supported by an underlying menu item, called the modifier's *item reference*. Item references have all the configuration settings of a normal menu item such as name, POS button color, pricing, and so on.
 
 When you create a new modifier that is *not based on* an existing menu item, the Toast platform automatically creates an item reference for it. This maintains the same underlying structure for both modifiers based on existing menu items and modifiers that are not based on existing menu items. This section uses the term *stand-alone modifier* for a modifier that is not based on an existing menu item.
 
@@ -90,13 +90,13 @@ The modifier's classic details page opens.
 
 > **Note**
 > 
-> For multi-location restaurants, if a modifier is [versioned](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifiers table and the version that has the highest target is displayed. It is this highest-targeted version that you see in the Edit modifier dialog. Selecting the More modifier settings opens the classic modifier details page for this highest version. For information on opening the classic modifier details pages for the other versions, see [Versioned modifiers (multi-location only)](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly).
+> For multi-location restaurants, if a modifier is [versioned](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifiers table and the version that has the highest target is displayed. It is this highest-targeted version that you see in the Edit modifier dialog. Selecting the More modifier settings opens the classic modifier details page for this highest version. For information on opening the classic modifier details pages for the other versions, see [Versioned modifiers (multi-location only)](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly).
 
 
 
 2. Select Edit Item. The modifier's item reference page opens.
 
-From the item reference page, you can set the item reference name and price. This includes setting advanced pricing strategies for the item reference like menu-specific or location-specific pricing. For information on advanced pricing strategies, see [Pricing strategies overview](adminPricingStrategiesOverview.html).
+From the item reference page, you can set the item reference name and price. This includes setting advanced pricing strategies for the item reference like menu-specific or location-specific pricing. For information on advanced pricing strategies, see [Pricing strategies overview](adminGuide-adminPricingStrategiesOverview).
 
 
 3. If you make any changes to the item reference, select Save at the top of the page.
@@ -107,13 +107,13 @@ From the item reference page, you can set the item reference name and price. Thi
 - If you have a single location, select Publish now.
 
 
-- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
+- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
 
 
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](sessionRestaurant.html) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 
@@ -139,7 +139,7 @@ The modifier's classic details page opens.
 
 > **Note**
 > 
-> For multi-location restaurants, if a modifier is [versioned](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifiers table and the version that has the highest target is displayed. It is this highest-targeted version that you see in the Edit modifier dialog. Selecting the More modifier settings opens the classic modifier details page for this highest version. For information on opening the classic modifier details pages for the other versions, see [Versioned modifiers (multi-location only)](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly).
+> For multi-location restaurants, if a modifier is [versioned](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifiers table and the version that has the highest target is displayed. It is this highest-targeted version that you see in the Edit modifier dialog. Selecting the More modifier settings opens the classic modifier details page for this highest version. For information on opening the classic modifier details pages for the other versions, see [Versioned modifiers (multi-location only)](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly).
 
 
 
@@ -157,13 +157,13 @@ The modifier's classic details page opens.
 - If you have a single location, select Publish now.
 
 
-- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) to publish changes to all or some of your locations.
+- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account \> Publishing \> Publish Config page. Follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
 
 
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](sessionRestaurant.html) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 
@@ -172,7 +172,7 @@ The modifier's classic details page opens.
 
 ## Versioned modifiers (multi-location only)
 
-Modifiers can be versioned using the New Version button on their classic details pages. For example, you could have a Fries modifier targeted at a Corporate location group that uses an [override price](platformWorkingWithModifiersMenuManager.html#platformToSpecifyAnOverrideNameOrPriceForAModifier) of $7 and another version of that modifier targeted at Boston that uses an override price of $9.
+Modifiers can be versioned using the New Version button on their classic details pages. For example, you could have a Fries modifier targeted at a Corporate location group that uses an [override price](adminGuide-platformWorkingWithModifiersMenuManager#platformToSpecifyAnOverrideNameOrPriceForAModifier) of $7 and another version of that modifier targeted at Boston that uses an override price of $9.
 
 ![The location of the New Version button on the classic modifier details page.](https://doc.toasttab.com/doc/media/menu-manager-classic-modifier-details-page-new-version-button.png)
 
@@ -188,7 +188,7 @@ The Modifiers table you see in the modifier group side panel, however, behaves d
 
 ![An example of Full menu view showing multiple rows for a versioned modifier.](https://doc.toasttab.com/doc/media/menu-manager-versioned-modifier-side-panel.png)
 
-If a modifier is versioned, you see a single row for that modifier in the Modifiers table on the modifier group side panel. The version that has the highest target is displayed in the row, along with its price if the modifier group is [priced individually](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager). For example, consider the following location group hierarchy:
+If a modifier is versioned, you see a single row for that modifier in the Modifiers table on the modifier group side panel. The version that has the highest target is displayed in the row, along with its price if the modifier group is [priced individually](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager). For example, consider the following location group hierarchy:
 
 - Corporate
 
@@ -209,7 +209,7 @@ If the modifier has versions targeted at Corporate and Northeast, then the Corpo
 
 If you edit a versioned modifier in the Modifiers table, you are only editing the highest-targeted version. If you select the name of a versioned modifier in the Modifiers table, the Edit modifier dialog that appears also only affects the highest-targeted version.
 
-If you need to edit a modifier version that doesn't appear in the Modifiers table, you can use Modifiers view instead, which has columns for setting the modifier version's price and visibility. To edit other settings, select the name of a modifier version in Modifiers view to open its classic modifier details page. From the classic modifier details page, you can also select Edit Item to access the modifier's [item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set additional properties.
+If you need to edit a modifier version that doesn't appear in the Modifiers table, you can use Modifiers view instead, which has columns for setting the modifier version's price and visibility. To edit other settings, select the name of a modifier version in Modifiers view to open its classic modifier details page. From the classic modifier details page, you can also select Edit Item to access the modifier's [item reference](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set additional properties.
 
 ## Creating a new modifier
 
@@ -217,7 +217,7 @@ Follow the instructions below to create new modifiers for a modifier group.
 
 For multi-location restaurants:
 
-- Newly created modifiers inherit the target and owner of their parent modifier group by default. For more information, see [Defaults for targets and owners](platformMenuManagerMenuAndMultiLocationRestaurants.html#platformMenuManagerDefaultsForTargetsAndOwners).
+- Newly created modifiers inherit the target and owner of their parent modifier group by default. For more information, see [Defaults for targets and owners](adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants#platformMenuManagerDefaultsForTargetsAndOwners).
 
 
 - You must have the Edit Full Menupermission to the owner of a modifier group in order to create a new modifier for it.
@@ -226,7 +226,7 @@ For multi-location restaurants:
 
 **Procedure 8.88. To create new modifiers for a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -235,10 +235,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to add a modifier to.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to add a modifier to.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -250,7 +250,7 @@ For multi-location restaurants:
 8. After you are done entering the modifier name, select the Create new option (alternatively, you can press the Enter key).
 
 
-9. If your modifiers are [priced individually](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager), the Modifiers table has a Price column where you can enter a price for each modifier you create.
+9. If your modifiers are [priced individually](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager), the Modifiers table has a Price column where you can enter a price for each modifier you create.
 
 
 
@@ -263,7 +263,7 @@ For multi-location restaurants:
 10. Select Save.
 
 
-11. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+11. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -284,7 +284,7 @@ For multi-location restaurants, you must have the Edit Full Menu permission to t
 
 **Procedure 8.89. To add an existing modifier to a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -293,10 +293,10 @@ For multi-location restaurants, you must have the Edit Full Menu permission to t
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the modifier group you want to add an existing modifier to.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the modifier group you want to add an existing modifier to.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -312,7 +312,7 @@ If you have a multi-location restaurant:
 - The dropdown list of matching modifiers is filtered so that you only see modifiers that both match the text you enter and have a target that is the same as the parent modifier group's target, or an ancestor or descendant of the parent modifier group's target. This ensures that the target of the modifier is compatible with the target of its parent modifier group.
 
 
-- If the existing modifier is [versioned](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifierstable and it displays the version with the highest target. For more information, see [Versioned modifiers (multi-location only)](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly).
+- If the existing modifier is [versioned](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifierstable and it displays the version with the highest target. For more information, see [Versioned modifiers (multi-location only)](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly).
 
 
 
@@ -320,30 +320,30 @@ If you have a multi-location restaurant:
 9. Select Save.
 
 
-10. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+10. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 ## Editing a modifier's details
 
-The Modifiers table in the modifier group side panel displays names and prices for the modifiers contained in the group (the Price column only appears if the modifiers in the group are [priced individually](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager)). To set other details for a modifier, such as button color and calories, you open its Edit modifier dialog by selecting the modifier's name in the Modifiers table.
+The Modifiers table in the modifier group side panel displays names and prices for the modifiers contained in the group (the Price column only appears if the modifiers in the group are [priced individually](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager)). To set other details for a modifier, such as button color and calories, you open its Edit modifier dialog by selecting the modifier's name in the Modifiers table.
 
 
 
 > **Note**
 > 
-> To fully understand and edit a modifier, you should understand the concept of a modifier item reference. For more information, see [Understanding a modifier item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager).
+> To fully understand and edit a modifier, you should understand the concept of a modifier item reference. For more information, see [Understanding a modifier item reference](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager).
 
 
 For multi-location restaurants:
 
-- If a modifier is [versioned](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifiers table and it displays the version with the highest target. It is this highest-targeted version that you can see and edit in the Edit modifier dialog. To edit the other versions, you must go to their classic details pages. For more information, see [Versioned modifiers (multi-location only)](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly).
+- If a modifier is [versioned](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly), you see a single row in the Modifiers table and it displays the version with the highest target. It is this highest-targeted version that you can see and edit in the Edit modifier dialog. To edit the other versions, you must go to their classic details pages. For more information, see [Versioned modifiers (multi-location only)](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly).
 
 
 
 **Procedure 8.90. To set other details for a modifier**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -352,10 +352,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -372,7 +372,7 @@ The Edit modifier dialog opens.
 
 - Edit the modifier's name.
 
-The name you see and edit here is either the modifier's item reference name or its override name, if one exists. For more information, see [Understanding a modifier item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager).
+The name you see and edit here is either the modifier's item reference name or its override name, if one exists. For more information, see [Understanding a modifier item reference](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager).
 
 
 - Enter the number of calories for the modifier. If you enter a minus sign before a modifier's calorie value, the amount you enter is deducted from the menu item's calorie value. For example, for a No Cheese modifier, you could use the minus sign to deduct the cheese calories from the menu item.
@@ -383,11 +383,11 @@ The name you see and edit here is either the modifier's item reference name or i
 
 - View or edit the modifier's price:
 
-If the modifier [inherits its price](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager) from its parent modifier group, you can view the price but you can't edit it. You must edit the price from the Pricing section of the modifier group's side panel instead.
+If the modifier [inherits its price](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager) from its parent modifier group, you can view the price but you can't edit it. You must edit the price from the Pricing section of the modifier group's side panel instead.
 
-If the modifier is [priced individually](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager) and uses a base price, you can edit the price in the Modifier price field. The price you see and edit here is either the modifier's item reference price or its override price, if one exists. For more information, see [Understanding a modifier item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager).
+If the modifier is [priced individually](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager) and uses a base price, you can edit the price in the Modifier price field. The price you see and edit here is either the modifier's item reference price or its override price, if one exists. For more information, see [Understanding a modifier item reference](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager).
 
-If the modifier is priced individually and uses an advanced pricing strategy, you can view the advanced price but you can't edit it. To edit the advanced price, use the More modifier settings link to go to the modifier's classic details page. From the classic modifier details page, you can access the modifier's [item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set an [advanced pricing strategy](adminPricingStrategiesOverview.html) for the modifier.
+If the modifier is priced individually and uses an advanced pricing strategy, you can view the advanced price but you can't edit it. To edit the advanced price, use the More modifier settings link to go to the modifier's classic details page. From the classic modifier details page, you can access the modifier's [item reference](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager) page where you can set an [advanced pricing strategy](adminGuide-adminPricingStrategiesOverview) for the modifier.
 
 
 
@@ -398,7 +398,7 @@ If the modifier is priced individually and uses an advanced pricing strategy, yo
 10. Select Save in the side panel.
 
 
-11. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+11. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -420,7 +420,7 @@ For multi-location restaurants:
 
 **Procedure 8.91. To change the order of modifiers in a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -429,10 +429,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -446,7 +446,7 @@ For multi-location restaurants:
 8. Select Save.
 
 
-9. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -479,7 +479,7 @@ For multi-location restaurants:
 
 **Procedure 8.92. To remove modifiers from a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -488,10 +488,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -505,13 +505,13 @@ For multi-location restaurants:
 8. Select Save.
 
 
-9. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 ## Specifying modifier prices
 
-When you create a modifier group, you [specify how modifiers in that group are priced](platformWorkingWithModifierGroupsMenuManager.html#platformSpecifyingHowModifiersInAGroupArePricedMenuManager): no charge, all modifiers share the same price, or modifiers are priced individually. This section covers how to set prices for modifiers once you've chosen the pricing method for a modifier group.
+When you create a modifier group, you [specify how modifiers in that group are priced](adminGuide-platformWorkingWithModifierGroupsMenuManager#platformSpecifyingHowModifiersInAGroupArePricedMenuManager): no charge, all modifiers share the same price, or modifiers are priced individually. This section covers how to set prices for modifiers once you've chosen the pricing method for a modifier group.
 
 ### Modifiers priced at the group level
 
@@ -519,7 +519,7 @@ When a modifier group is priced at the group level, all modifiers in the group u
 
 **Procedure 8.93. To set a base price for a modifier group**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -528,10 +528,10 @@ When a modifier group is priced at the group level, all modifiers in the group u
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Pricing section.
@@ -546,19 +546,19 @@ When a modifier group is priced at the group level, all modifiers in the group u
 9. Select Save.
 
 
-10. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+10. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 To set an advanced pricing strategy for the modifier group, you use the classic modifier group details page, accessed by selecting the More settings link in the modifier group's side panel. Advanced price strategies include:
 
-- [Size](adminSizePrice.html): The price of the modifier changes based on the size chosen for the menu item. For example, a topping on a small pizza costs $5 and topping on a large pizza costs $10.
+- [Size](adminGuide-adminSizePrice): The price of the modifier changes based on the size chosen for the menu item. For example, a topping on a small pizza costs $5 and topping on a large pizza costs $10.
 
 
-- [Sequence](adminSequencePrice.html): The price of individual modifiers in a modifier group is determined by the sequence in which they are added to a menu item. For example, on a pizza menu item with a Toppings modifier group, the first topping is free, the second topping costs $5.00, the third topping costs $5.50, and all additional toppings cost $6.00.
+- [Sequence](adminGuide-adminSequencePrice): The price of individual modifiers in a modifier group is determined by the sequence in which they are added to a menu item. For example, on a pizza menu item with a Toppings modifier group, the first topping is free, the second topping costs $5.00, the third topping costs $5.50, and all additional toppings cost $6.00.
 
 
-- [Size/sequence](adminSizeSequencePrice.html): The price of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $5.00 and additional toppings are $6 while the first topping on a large pizza is $10 and additional toppings are $11.
+- [Size/sequence](adminGuide-adminSizeSequencePrice): The price of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $5.00 and additional toppings are $6 while the first topping on a large pizza is $10 and additional toppings are $11.
 
 
 
@@ -578,19 +578,19 @@ Individually-priced modifiers that use base prices can be edited in the followin
 
 
 
-Changes you make in Modifiers view can either be [manually published](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) or [scheduled for future publishing](platformPublishingMenuManagerChanges.html). Full menu view does not support scheduled publishing, so you must manually publish pricing changes you make in Full menu view.
+Changes you make in Modifiers view can either be [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) or [scheduled for future publishing](adminGuide-platformPublishingMenuManagerChanges). Full menu view does not support scheduled publishing, so you must manually publish pricing changes you make in Full menu view.
 
 For multi-location restaurants:
 
-- If a modifier is [versioned](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly), you see a single row for it in the Modifierssection of the modifier group side panel. This single row displays the name and price of the version with the highest target. It is also this highest-targeted version that you edit in the corresponding Edit modifier dialog.
+- If a modifier is [versioned](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly), you see a single row for it in the Modifierssection of the modifier group side panel. This single row displays the name and price of the version with the highest target. It is also this highest-targeted version that you edit in the corresponding Edit modifier dialog.
 
-To edit the other versions, you can use the Price column in Modifiers view or go to classic details pages for the modifier version you want to edit. For more information, see [Versioned modifiers (multi-location only)](platformWorkingWithModifiersMenuManager.html#platformVersionedModifiersMultiLocationOnly).
+To edit the other versions, you can use the Price column in Modifiers view or go to classic details pages for the modifier version you want to edit. For more information, see [Versioned modifiers (multi-location only)](adminGuide-platformWorkingWithModifiersMenuManager#platformVersionedModifiersMultiLocationOnly).
 
 
 
 **Procedure 8.94. To set a base price for a modifier using the modifier group side panel**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -599,10 +599,10 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -614,13 +614,13 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 8. Select Save in the side panel.
 
 
-9. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 **Procedure 8.95. To set a base price for a modifier using the Edit modifier dialog**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -629,10 +629,10 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the modifier group you want to edit.
 
 
 6. Select the modifier group to view its side panel, then scroll to the Modifiers section.
@@ -650,13 +650,13 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 10. Select Save in the side panel.
 
 
-11. [Manually publish](platformPublishingMenuManagerChanges.html#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+11. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 **Procedure 8.96. To set a base price in Modifiers view**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -665,26 +665,26 @@ To edit the other versions, you can use the Price column in Modifiers view or go
 3. From the Show section, choose Modifiers.
 
 
-4. Use the [search field](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringMenuEntities) to refine the list of modifiers.
+4. Use the [search field](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of modifiers.
 
 
 5. To edit a modifier with a base price, enter the new price in the Price column.
 
 
-6. Continue reading the [Publishing menu manager changes](platformPublishingMenuManagerChanges.html) section to understand how to make your menu changes available to restaurant employees and guests.
+6. Continue reading the [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to restaurant employees and guests.
 
 
 
 > **Important**
 > 
-> Modifiers view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either* select Scheduleto create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](platformPublishingMenuManagerChanges.html).
+> Modifiers view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either* select Scheduleto create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
 
 ### Individually-priced modifiers that use advanced pricing strategies
 
-Using a modifier's [item reference page](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager), you can specify advanced pricing strategies for the modifier, including [size](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions), [menu-specific](adminMenuSpecificPrice.html), [location-specific](adminLocationSpecificPriceOverview.html), [time-specific](adminTimeSpecificPrice.html), and [open](adminOpenPrice.html)prices.
+Using a modifier's [item reference page](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager), you can specify advanced pricing strategies for the modifier, including [size](adminGuide-adminSizePrice#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions), [menu-specific](adminGuide-adminMenuSpecificPrice), [location-specific](adminGuide-adminLocationSpecificPriceOverview), [time-specific](adminGuide-adminTimeSpecificPrice), and [open](adminGuide-adminOpenPrice)prices.
 
 The menu manager provides partial support for editing advanced prices on modifiers, allowing you to edit size, menu-specific, and location-specific prices in the Price column of Modifiers view.
 
@@ -699,7 +699,7 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 
 **Procedure 8.97. To edit an advanced price for a modifier in Modifiers view**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -708,7 +708,7 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 3. From the Show section, choose Modifiers.
 
 
-4. Use the [search field](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringMenuEntities) to refine the list of modifiers.
+4. Use the [search field](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of modifiers.
 
 
 5. To edit a modifier with a size, menu-specific, or location-specific price, expand its row and enter the new prices in the Price column.
@@ -717,24 +717,24 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 
 > **Note**
 > 
-> The menu manager only allows you to edit size prices that are already defined on a modifier's [classic details page](adminMenuManagerAndTheClassicMenuDetailsPages.html). If you need to add a price for another size, you must add the size's price on the classic details page first, before it is visible and available for editing on the Menu manager page. The same is true for menu-specific and location-specific prices. If you need to add a price for another menu or location, you must add the price on the classic details page first. For more information on adding size prices, see [Configuring size pricing on modifier groups and modifiers](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions). For more information on adding menu-specific prices, see [Menu-specific price](adminMenuSpecificPrice.html). For more information on adding location-specific prices, see [Enabling and setting location-specific prices](adminEnablingAndSettingLocationSpecificPrices.html).
+> The menu manager only allows you to edit size prices that are already defined on a modifier's [classic details page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages). If you need to add a price for another size, you must add the size's price on the classic details page first, before it is visible and available for editing on the Menu manager page. The same is true for menu-specific and location-specific prices. If you need to add a price for another menu or location, you must add the price on the classic details page first. For more information on adding size prices, see [Configuring size pricing on modifier groups and modifiers](adminGuide-adminSizePrice#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions). For more information on adding menu-specific prices, see [Menu-specific price](adminGuide-adminMenuSpecificPrice). For more information on adding location-specific prices, see [Enabling and setting location-specific prices](adminGuide-adminEnablingAndSettingLocationSpecificPrices).
 
 
 
 
 > **Note**
 > 
-> If a modifier is versioned, all of its versions that use location-specific pricing use the *same location-specific prices*. In this situation, the versioned modifier appears on multiple rows on the Modifiers view, one row per version, and the location-specific prices associated with the versions are identical. If you edit the location-specific prices for one version, they are edited for all versions. For more information, see [Location-specific prices and versions](adminLocationSpecificPricesAndVersions.html).
+> If a modifier is versioned, all of its versions that use location-specific pricing use the *same location-specific prices*. In this situation, the versioned modifier appears on multiple rows on the Modifiers view, one row per version, and the location-specific prices associated with the versions are identical. If you edit the location-specific prices for one version, they are edited for all versions. For more information, see [Location-specific prices and versions](adminGuide-adminLocationSpecificPricesAndVersions).
 
 
 
-6. Continue reading the [Publishing menu manager changes](platformPublishingMenuManagerChanges.html) section to understand how to make your menu changes available to restaurant employees and guests.
+6. Continue reading the [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to restaurant employees and guests.
 
 
 
 > **Important**
 > 
-> Modifiers view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either* select Scheduleto create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](platformPublishingMenuManagerChanges.html).
+> Modifiers view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either* select Scheduleto create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
@@ -743,9 +743,9 @@ The Modifiers table in the modifier group side panel and the Edit modifier dialo
 
 When a modifier is based on an existing menu item, you can choose to use the price of the underlying menu item as the price of the modifier, or you can override that price with a price that is specific to the modifier. For example, the price of the Fries menu item could be $8 while the override price of the Fries modifier is $5.
 
-Override prices are always base prices. Override price appears in the Modifiers table of the modifier group side panel, in the Price field of the Edit modifier dialog, and in the Pricecolumn of Modifiers view. If you edit an override price in any of those locations, it has no effect on the item reference price, only the override price is affected. For more information on setting override prices, see [Understanding a modifier item reference](platformWorkingWithModifiersMenuManager.html#platformUnderstandingAModifierItemReferenceMenuManager).
+Override prices are always base prices. Override price appears in the Modifiers table of the modifier group side panel, in the Price field of the Edit modifier dialog, and in the Pricecolumn of Modifiers view. If you edit an override price in any of those locations, it has no effect on the item reference price, only the override price is affected. For more information on setting override prices, see [Understanding a modifier item reference](adminGuide-platformWorkingWithModifiersMenuManager#platformUnderstandingAModifierItemReferenceMenuManager).
 
 ## Viewing read-only modifier information
 
-The Modifiers view of the menu manager provides additional read-only information about modifiers. For example, the Found in column displays information about where a modifier appears in the menu hierarchy. For more information, see [Items and modifiers view](platformColumnsInTheMenuManagerViews.html#platformMenuManagerItemAndModifierColumns).
+The Modifiers view of the menu manager provides additional read-only information about modifiers. For example, the Found in column displays information about where a modifier appears in the menu hierarchy. For more information, see [Items and modifiers view](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns).
 

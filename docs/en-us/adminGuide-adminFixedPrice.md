@@ -33,7 +33,7 @@ With the Fixed Price pricing strategy, you set a single, constant price for all 
 4. Save your changes.
 
 
-5. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+5. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -41,6 +41,6 @@ With the Fixed Price pricing strategy, you set a single, constant price for all 
 
 > **Note**
 > 
-> The [Price Editor](adminUsingThePriceEditor.html) does not yet support editing modifier group or modifier prices, so fixed prices for a modifier group must be edited on the modifier group's details page.
+> The [Price Editor](adminGuide-adminUsingThePriceEditor) does not yet support editing modifier group or modifier prices, so fixed prices for a modifier group must be edited on the modifier group's details page.
 
 

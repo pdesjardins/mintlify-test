@@ -15,9 +15,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `POST` request to the `/era/v1/guest/payments/\{timeRange\}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `POST` request to the `/era/v1/guest/payments/\{timeRange\}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
-You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
+You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 To create a request for guest reporting data organized by payment, include the following:
 
@@ -101,5 +101,5 @@ The following example shows the response from the `/era/v1/guest/payments/\{time
 
 (1) The GUID for the guest reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-For an example about how to retrieve the guest reporting data, see [Retrieving the guest reporting data](apiAnalyticsGuestDataRetrieveData.html).
+For an example about how to retrieve the guest reporting data, see [Retrieving the guest reporting data](apiDevGuide-apiAnalyticsGuestDataRetrieveData).
 

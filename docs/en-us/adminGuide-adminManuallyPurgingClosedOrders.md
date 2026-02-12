@@ -15,7 +15,7 @@ procedures: 1
 codeExamples: 0
 ---
 
-If you choose to manually initiate a closed order purge, the process is effectively the same as when the [order purger service](adminConfiguringTheOrderPurgerService.html) runs with the exception of the threshold setting, which is ignored. A manual purge will run even if the total number of orders in any state is less than the configured threshold.
+If you choose to manually initiate a closed order purge, the process is effectively the same as when the [order purger service](adminGuide-adminConfiguringTheOrderPurgerService) runs with the exception of the threshold setting, which is ignored. A manual purge will run even if the total number of orders in any state is less than the configured threshold.
 
 **Procedure 2.5. To manually purge closed orders**
 

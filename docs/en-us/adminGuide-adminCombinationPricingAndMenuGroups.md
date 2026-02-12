@@ -27,5 +27,5 @@ The following diagram shows a combo discount that uses a menu group as a require
 
 ![Diagram showing a combo discount with a required menu group that contains items with different prices.](https://doc.toasttab.com/doc/media/discount-combo-price-size-price-menu-group.png)
 
-To configure combo discount required items that only include the menu group menu items that you intend to include in a promotion, you must use individual required items and separate groups in the discount configuration. For more information, see [Handling menu groups with varying prices](adminDiscountsMenuGroupsVaryingPrices.html).
+To configure combo discount required items that only include the menu group menu items that you intend to include in a promotion, you must use individual required items and separate groups in the discount configuration. For more information, see [Handling menu groups with varying prices](adminGuide-adminDiscountsMenuGroupsVaryingPrices).
 

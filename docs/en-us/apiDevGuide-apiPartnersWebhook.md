@@ -28,15 +28,15 @@ The `partners` webhook allows you to receive updates when:
 
 
 
-Partners webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `partner`event category, the `eventCategory` value is set to `partner` and the `eventType` is set to one of the following:
+Partners webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). When a message is published to your webhook endpoint for the `partner`event category, the `eventCategory` value is set to `partner` and the `eventType` is set to one of the following:
 
-- [partner_added](apiPartnersWebhook.html#apiPartnerAdded)
-
-
-- [partner_removed](apiPartnersWebhook.html#apiPartnerDeleted)
+- [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded)
 
 
-- [partner_updated](apiPartnersWebhook.html#apiPartnerUpdated)
+- [partner_removed](apiDevGuide-apiPartnersWebhook#apiPartnerDeleted)
+
+
+- [partner_updated](apiDevGuide-apiPartnersWebhook#apiPartnerUpdated)
 
 
 
@@ -117,7 +117,7 @@ Attributes in the `partner_added` event's payload include:
 
 Your integration has been removed from a new restaurant location.
 
-The payload for the `partner_removed` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiPartnersWebhook.html#apiPartnerAdded) for details.
+The payload for the `partner_removed` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for details.
 
 **Example 9.6. Payload example for the partner_removed event**
 
@@ -161,7 +161,7 @@ The payload for the `partner_removed` webhook event is identical to the payload 
 
 Settings have been updated for your integration, for example, the `externalGroupRef` or `externalRestaurantRef`configuration has been updated.
 
-The payload for the `partner_updated` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiPartnersWebhook.html#apiPartnerAdded) for details.
+The payload for the `partner_updated` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for details.
 
 **Example 9.7. Payload example for the partner_updated event**
 

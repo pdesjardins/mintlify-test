@@ -19,11 +19,11 @@ Follow the steps below to build a data warehouse integration with Toast.
 
 This type of integration provides restaurants with greater visibility into key information that will help them run their business.
 
-This document describes how to build a general data warehouse. For more detailed information about how to report on specific types of data, see [Building a sales report](apiIntegrationChecklistAccounting.html) and [Building labor reports](apiIntegrationChecklistPayroll.html).
+This document describes how to build a general data warehouse. For more detailed information about how to report on specific types of data, see [Building a sales report](devCookbook-apiIntegrationChecklistAccounting) and [Building labor reports](devCookbook-apiIntegrationChecklistPayroll).
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiScopes.html):
+To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
 
 - `cashmgmt:read`
 
@@ -49,27 +49,27 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ## Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ## Determine closeout hour
 
-The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
+The `closeoutHour` value in the `General`object returned by the [restaurants API](apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
 
 The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on API data changes after the `closeoutHour`.
 
-Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ## Review menu and order structure
 
 Reporting on sales depends on restaurants' usage of menu items and the overall structure of orders.
 
-To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminMenuHierarchy.html).
+To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminGuide-adminMenuHierarchy).
 
-To review order structure, see [Orders API overview](portalOrdersApiOverview.html).
+To review order structure, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 ## Plan your display
 
-The following table provides suggested information that you can display in different types of reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](portalOrdersApiOverview.html).
+The following table provides suggested information that you can display in different types of reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 | Report type | Object | Values | 
 | --- | --- | --- |
@@ -159,17 +159,17 @@ After you decide what to display in your reports, build a retrieval of transacti
 
 | Information type | Transactional information | Additional information | 
 | --- | --- | --- |
-| Orders | Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API.[More information](apiOrdersGetDetailedInfoAboutMultipleOrders.html)
+| Orders | Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API.[More information](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders)
 
 > **Note**
 > 
-> Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
+> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
 
 
  | Use the `startDate` and `endDate` query parameters of the `/ordersBulk` endpoint to retrieve orders by their `modifiedDate` timestamp. | 
-| Payments | Retrieve all payments from the previous day using the `/payments` endpoint of the orders API.[More information](apiAllPaymentsInRestaurants.html) | Use the `paidBusinessDate`, `voidBusinessDate`, and `refundBusinessDate`query parameters to retrieve all payment transactions from the previous business date.Retrieve payments at least six hours after the restaurant's `closeoutHour` in order to retrieve all credit card payments and fees from the previous day. | 
-| Time entries | Retrieve all time entries from the previous day using the `/timeEntries` endpoint of the labor API.[More information](apiGettingTimeEntriesForEmployees.html) | Use the `modifiedStartDate` and `modifiedEndDate` query parameters of the `/timeEntries` endpoint to retrieve all time entries created or updated during the previous business day. | 
-| Cash transactions | Retrieve all cash transactions from the previous business day using the `/deposits` and `/entries` endpoints of the cash management API.[More information](apiWorkingWithCashEntriesAndDeposits.html) | Use the cash management API to retrieve all cash transactions from the previous business day, such as when employees open the cash drawer, add cash to the cash drawer, and retrieve their day's tips in cash. | 
+| Payments | Retrieve all payments from the previous day using the `/payments` endpoint of the orders API.[More information](apiDevGuide-apiAllPaymentsInRestaurants) | Use the `paidBusinessDate`, `voidBusinessDate`, and `refundBusinessDate`query parameters to retrieve all payment transactions from the previous business date.Retrieve payments at least six hours after the restaurant's `closeoutHour` in order to retrieve all credit card payments and fees from the previous day. | 
+| Time entries | Retrieve all time entries from the previous day using the `/timeEntries` endpoint of the labor API.[More information](apiDevGuide-apiGettingTimeEntriesForEmployees) | Use the `modifiedStartDate` and `modifiedEndDate` query parameters of the `/timeEntries` endpoint to retrieve all time entries created or updated during the previous business day. | 
+| Cash transactions | Retrieve all cash transactions from the previous business day using the `/deposits` and `/entries` endpoints of the cash management API.[More information](apiDevGuide-apiWorkingWithCashEntriesAndDeposits) | Use the cash management API to retrieve all cash transactions from the previous business day, such as when employees open the cash drawer, add cash to the cash drawer, and retrieve their day's tips in cash. | 
 
 ## Consider a one-time historical information backfill per location
 
@@ -186,7 +186,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 - Use the `lastModified` query parameter so that you only retrieve entities modified after the specified timestamp.
 
 
-- Only retrieve a new menu when you determine that your existing menu is outdated. For more information about when to retrieve a new menu, see [Determining if a restaurant's menu data has gone stale](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).
+- Only retrieve a new menu when you determine that your existing menu is outdated. For more information about when to retrieve a new menu, see [Determining if a restaurant's menu data has gone stale](apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2).
 
 
 
@@ -196,10 +196,10 @@ Consider including the following configuration in your analytics integration.
 | --- | --- | --- |
 | Reporting categories | Revenue centers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/revenueCentersGet/)Sales categories from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/) | See Toast Central for more information about [revenue centers](https://central.toasttab.com/s/article/Creating-and-Assigning-Revenue-Centers) and [sales categories](https://central.toasttab.com/s/article/Sales-Categories-1492812477858). | 
 | Order configuration | Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)Dining options from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/)Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)Service charges from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/) | These pieces of configuration are often associated with orders.They describe how the order was placed and how its price was calculated. | 
-| Menu information | Menu information, such as menu group names, menu item names, and item tags from the menus API. [More information](apiGettingMenuInformationFromTheMenusAPI.html) | The menus API returns menu item names and other menu-related information you may want to display in your reporting platform. | 
+| Menu information | Menu information, such as menu group names, menu item names, and item tags from the menus API. [More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) | The menus API returns menu item names and other menu-related information you may want to display in your reporting platform. | 
 | Restaurant information | Restaurant services from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/)Service areas from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/serviceAreasGet/)Tables from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/) | This restaurant information allows your integration to report on when and where orders were placed in your restaurant.See Toast Central for more information about [hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services) and [service areas and tables](https://central.toasttab.com/s/article/Creating-Service-Areas-and-Table-Setup-1493049150430). | 
-| Cash configuration | Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/)Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/)Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/) | Cash configuration allows you to display metadata about the cash transactions at a restaurant.For more information about working with cash entries, see [Cash management overview](apiWorkingWithCashEntriesAndDeposits.html). | 
-| Labor configuration | Break types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/breakTypesGet/)Employees from the labor API. [More information](api_get_all_employees.html)Jobs from the labor API. [More information](https://doc.toasttab.com/openapi/labor/operation/jobsGet/) | This labor information allows you to display information about restaurant employees, the jobs they do, and the breaks they take. | 
+| Cash configuration | Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/)Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/)Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/) | Cash configuration allows you to display metadata about the cash transactions at a restaurant.For more information about working with cash entries, see [Cash management overview](apiDevGuide-apiWorkingWithCashEntriesAndDeposits). | 
+| Labor configuration | Break types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/breakTypesGet/)Employees from the labor API. [More information](apiDevGuide-api_get_all_employees)Jobs from the labor API. [More information](https://doc.toasttab.com/openapi/labor/operation/jobsGet/) | This labor information allows you to display information about restaurant employees, the jobs they do, and the breaks they take. | 
 
 ## Add additional business logic
 

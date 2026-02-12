@@ -37,7 +37,7 @@ The Available at (target) column contains the name of the location group or indi
 
 The Number column only appears for multi-location restaurants.
 
-The Number column lists the multi-location number for the menu. A multi-location number lets you identify related versions of the same menu. Menus with the same number are versions of the same menu. For more information about versions, see [Versions](versions.html).
+The Number column lists the multi-location number for the menu. A multi-location number lets you identify related versions of the same menu. Menus with the same number are versions of the same menu. For more information about versions, see [Versions](adminGuide-versions).
 
 ## Items and modifiers view
 
@@ -49,11 +49,11 @@ This section describes the columns you see in the Items and Modifiersviews.
 
 The Name column contains the name for the menu item or modifier.
 
-For multi-location restaurants, this column also lists the multi-location number for the menu item or modifier. A multi-location number lets you identify related [versions](versions.html) of the same menu entity. Menu entities with the same number are versions of the same menu entity. For example, in the illustration below, the Fried Egg menu item has two versions, one used by the CORPORATE restaurant group (and its subgroups and locations) and another used only by the Boston location:
+For multi-location restaurants, this column also lists the multi-location number for the menu item or modifier. A multi-location number lets you identify related [versions](adminGuide-versions) of the same menu entity. Menu entities with the same number are versions of the same menu entity. For example, in the illustration below, the Fried Egg menu item has two versions, one used by the CORPORATE restaurant group (and its subgroups and locations) and another used only by the Boston location:
 
 ![An example of two related versions of the same menu item and their identical multi-location number.](https://doc.toasttab.com/doc/media/menu-manager-number-field.png)
 
-For more information on the multi-location number, see [Viewing different versions of the same configuration entity](viewingDifferentVersionsOfTheSameConfigurationEntity.html).
+For more information on the multi-location number, see [Viewing different versions of the same configuration entity](adminGuide-viewingDifferentVersionsOfTheSameConfigurationEntity).
 
 Keep in mind that a menu item or modifier may have more versions than those you see in the menu manager, depending on the locations you have chosen to view. For example, Menu Item A has three versions, one each for the Boston, Miami, and New York City locations. If you are viewing the Boston and Miami locations on the Menu manager page, you see two rows for the Boston and Miami versions. The New York City version is not visible.
 
@@ -74,13 +74,13 @@ If you have updated one or more size prices within a set of size prices, the cal
 
 Change sets are part of the scheduled publishing feature. They are used to store menu updates that are scheduled to be saved and published at a later date and time. Select the calendar icon to see the list of the change sets a menu entity is included in. Select a change set from the list to view the change set.
 
-For more information on scheduled publishing and change sets, see [Understanding scheduled publishing and change sets](platformUnderstandingScheduledPublishingAndChangeSets.html).
+For more information on scheduled publishing and change sets, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
 
 ### Target (multi-location only)
 
 The Target column only appears for multi-location restaurants.
 
-The Target column contains the menu item or modifier's [target](targets.html). A target is a location group or individual location that uses the menu item or modifier. If the menu item or modifier is targeted at a location group, the line below the location group's name indicates the number of subgroups and individual locations the location group contains. These subgroups and locations also use the menu item or modifier.
+The Target column contains the menu item or modifier's [target](adminGuide-targets). A target is a location group or individual location that uses the menu item or modifier. If the menu item or modifier is targeted at a location group, the line below the location group's name indicates the number of subgroups and individual locations the location group contains. These subgroups and locations also use the menu item or modifier.
 
 ### Found in
 
@@ -152,7 +152,7 @@ The Price on column provides information about where a menu item or modifier's p
 
 
 
-Modifiers can belong to multiple modifier groups. The modifier price you see in the menu manager is only used by modifier groups that are priced at the individual modifier level. Modifier groups that are priced at the group level or do not charge for their modifiers ignore the individual price. If you edit the individual price, but the modifier is priced at the group level or doesn't charge for its modifiers, then the price you specify in the menu manager has no effect. For more information on pricing modifier groups, see [Setting the pricing method for a modifier group](adminPricingModifierOptions.html#adminSettingTheModifierPricingMethodForAModifierGroup).
+Modifiers can belong to multiple modifier groups. The modifier price you see in the menu manager is only used by modifier groups that are priced at the individual modifier level. Modifier groups that are priced at the group level or do not charge for their modifiers ignore the individual price. If you edit the individual price, but the modifier is priced at the group level or doesn't charge for its modifiers, then the price you specify in the menu manager has no effect. For more information on pricing modifier groups, see [Setting the pricing method for a modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup).
 
 ### Price strategy
 
@@ -229,7 +229,7 @@ If a menu item or modifier uses location-specific prices, and those location-spe
 
 The Price column contains the menu item or modifier's price or price range.
 
-You can edit the prices in this column for menu items or modifiers that are priced individually and use the base, size, menu-specific, or location-specific pricing strategy. Menu items or modifiers that use size, menu-specific, or location-specific prices have an [expandable row](platformMenuManagerUsingAndCustomizingTheMenuManagerViews.html#platformMenuManagerExpandingAndCollapsingRows). The top of the expandable row contains the price range. The expanded rows contain the editable size, menu-specific, or location-specific prices.
+You can edit the prices in this column for menu items or modifiers that are priced individually and use the base, size, menu-specific, or location-specific pricing strategy. Menu items or modifiers that use size, menu-specific, or location-specific prices have an [expandable row](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows). The top of the expandable row contains the price range. The expanded rows contain the editable size, menu-specific, or location-specific prices.
 
 For pricing configurations that the menu manager does not yet support, you can see pricing information but it is not editable. You must continue to edit the prices for these menu items or modifiers outside of the menu manager. This includes:
 
@@ -240,17 +240,17 @@ For pricing configurations that the menu manager does not yet support, you can s
 
 
 
-It is important to remember that the modifier prices you see in the menu manager are *individual prices*. A modifier's individual price is overridden when it is included by a modifier group that is priced at the group level. For more information, see [Price on](platformColumnsInTheMenuManagerViews.html#platformMenuManagerItemAndModifierColumns_PriceOn).
+It is important to remember that the modifier prices you see in the menu manager are *individual prices*. A modifier's individual price is overridden when it is included by a modifier group that is priced at the group level. For more information, see [Price on](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns_PriceOn).
 
 For location-specific prices, there are some additional points to keep in mind:
 
-- If a menu item or modifier uses the location-specific pricing strategy, the location-specific prices must be base prices or menu-specific prices for them to be editable in the menu manager. Location-specific prices that use one of the other [advanced pricing strategies](adminToastPosPricingFeatures.html) are not editable. For more information, see [Using pricing strategies with location-specific prices](adminUsingPricingStrategiesWithLocationSpecificPrices.html)and [Menu-specific prices for multi-location restaurants](platformMenuSpecificPricesForMultiLocationRestaurants.html).
+- If a menu item or modifier uses the location-specific pricing strategy, the location-specific prices must be base prices or menu-specific prices for them to be editable in the menu manager. Location-specific prices that use one of the other [advanced pricing strategies](adminGuide-adminToastPosPricingFeatures) are not editable. For more information, see [Using pricing strategies with location-specific prices](adminGuide-adminUsingPricingStrategiesWithLocationSpecificPrices)and [Menu-specific prices for multi-location restaurants](adminGuide-platformMenuSpecificPricesForMultiLocationRestaurants).
 
 
 - If you are filtering by location, the location-specific prices you see in the Price column are also filtered. For example, Menu Item A has location-specific prices for the Boston and Miami locations but you are currently filtering the menu manager to view only menu items for the Boston location. In this scenario, the Boston location-specific price appears in the Price column for Menu Item A but the Miami location-specific price does not.
 
 
-- If a menu item or modifier is versioned, all versions of the menu item or modifier that use location-specific pricing use *the same location-specific prices*. Editing the location-specific prices for one version edits them for all versions. For more information, see [Location-specific prices and versions](adminLocationSpecificPricesAndVersions.html).
+- If a menu item or modifier is versioned, all versions of the menu item or modifier that use location-specific pricing use *the same location-specific prices*. Editing the location-specific prices for one version edits them for all versions. For more information, see [Location-specific prices and versions](adminGuide-adminLocationSpecificPricesAndVersions).
 
 
 
@@ -264,14 +264,14 @@ This section describes the columns you see in the Price levels view.
 
 > **Note**
 > 
-> For more information on price levels, see [Using price levels](adminUsingPriceLevels.html).
+> For more information on price levels, see [Using price levels](adminGuide-adminUsingPriceLevels).
 
 
 ### Name
 
 The Name column contains the name for the price level.
 
-For multi-location restaurants, this column also lists the multi-location number for the price level. A multi-location number lets you identify related [versions](versions.html) of the same menu entity. Menu entities with the same number are versions of the same menu entity. For more information on the multi-location number, see [Viewing different versions of the same configuration entity](viewingDifferentVersionsOfTheSameConfigurationEntity.html).
+For multi-location restaurants, this column also lists the multi-location number for the price level. A multi-location number lets you identify related [versions](adminGuide-versions) of the same menu entity. Menu entities with the same number are versions of the same menu entity. For more information on the multi-location number, see [Viewing different versions of the same configuration entity](adminGuide-viewingDifferentVersionsOfTheSameConfigurationEntity).
 
 Keep in mind that a price level may have more versions than those you see in the menu manager, depending on the locations you have chosen to view. For example, Price Level A has three versions, one each for the Boston, Miami, and New York City locations. If you are viewing the Boston and Miami locations on the Menu manager page, you see two rows for the Boston and Miami versions. The New York City version is not visible.
 
@@ -283,13 +283,13 @@ If a price level is included in any change sets, you see a calendar icon on its 
 
 Change sets are part of the scheduled publishing feature. They are used to store menu updates that are scheduled to be saved and published at a later date and time. Select the calendar icon to see the list of the change sets a price level is included in. Select a change set from the list to view the change set.
 
-For more information on scheduled publishing and change sets, see [Understanding scheduled publishing and change sets](platformUnderstandingScheduledPublishingAndChangeSets.html).
+For more information on scheduled publishing and change sets, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
 
 ### Target (multi-location only)
 
 The Target column only appears for multi-location restaurants.
 
-The Target column contains the price level's [target](targets.html). A target is a location group or individual location that uses the price level. If the price level is targeted at a location group, the line below the location group's name indicates the number of subgroups and individual locations the location group contains. These subgroups and locations also use the price level.
+The Target column contains the price level's [target](adminGuide-targets). A target is a location group or individual location that uses the price level. If the price level is targeted at a location group, the line below the location group's name indicates the number of subgroups and individual locations the location group contains. These subgroups and locations also use the price level.
 
 ### Price strategy
 

@@ -42,6 +42,6 @@ Currently, menus API V3 only supports ordering partners. Additional re-factoring
 
 > **Note**
 > 
-> For more information on the channel visibility settings in the Toast Web, see [Specifying ordering channel visibility](adminSpecifyingOrderingChannelVisibility.html) (for menu builder users) and [Visibility overview](adminMenuVisibilityOverview.html) (for classic menu page users).
+> For more information on the channel visibility settings in the Toast Web, see [Specifying ordering channel visibility](adminGuide-adminSpecifyingOrderingChannelVisibility) (for menu builder users) and [Visibility overview](adminGuide-adminMenuVisibilityOverview) (for classic menu page users).
 
 

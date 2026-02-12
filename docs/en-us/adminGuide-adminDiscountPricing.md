@@ -32,7 +32,7 @@ Some Toast discount types can apply to either checks or items. You can configure
 
 Toast discount types for combinations of items, such as Buy One Get One (BOGO) discounts, do not apply directly to either items or checks.
 
-For more information about discount types, see [Discount types](adminDiscountTypes.html).
+For more information about discount types, see [Discount types](adminGuide-adminDiscountTypes).
 
 ## Combo price discounts
 
@@ -84,7 +84,7 @@ You can apply discounts to items in a check. You can apply more than one discoun
 
 You can only apply one discount to an item in a check.
 
-You can only apply more than one discount to a check if the discount rules for each discount allow those discounts to be combined. For more information, see [Exclusive and nonexclusive discounts](adminDiscountExclusivity.html).
+You can only apply more than one discount to a check if the discount rules for each discount allow those discounts to be combined. For more information, see [Exclusive and nonexclusive discounts](adminGuide-adminDiscountExclusivity).
 
 ## Consolidated items and item-level fixed currency discounts
 
@@ -113,7 +113,7 @@ The available options are:
 
 ### Configuring discount consolidation for consolidated items
 
-If you [consolidate menu items](adminUiOptionsReference.html#configCombineItems), you can use the Consolidate discounts setting to set how to apply an item-level fixed currency discount to a consolidated item.
+If you [consolidate menu items](adminGuide-adminUiOptionsReference#configCombineItems), you can use the Consolidate discounts setting to set how to apply an item-level fixed currency discount to a consolidated item.
 
 The Consolidate discounts setting is available in the Front of house \> Order screen setup \> UI options page.
 

@@ -40,16 +40,16 @@ As soon as you publish the item routing rule, the Toast platform applies the rul
 
 > **Note**
 > 
-> If you use the Dining Option[additional modifier group](adminUiOptionsReference.html#configAdditionalModifierGroups) to identify a different dining option for an item in an order, that item is routed to the same prep stations as the other items in the order.
+> If you use the Dining Option[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups) to identify a different dining option for an item in an order, that item is routed to the same prep stations as the other items in the order.
 
 
 ## Rerouting based on dining option
 
 The dining option that guests select for their meals can have a significant effect on which, and how many, prep stations are involved in fulfilling the order. With the Toast platform, you can set up item routing rules that change the way items are routed for fulfillment based on the dining option specified. This means sending the item to an additional prep station or a completely different prep station, depending on the dining option.
 
-For more information about how you configure dining options, see [Dining Options](adminKitchenDiningRoomReference.html#configDiningOptions).
+For more information about how you configure dining options, see [Dining Options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions).
 
-You can also use KDS devices to display tickets only for specified dining options. For more information, see [Filtering tickets on a KDS device](adminKdsTicketDisplayOptions.html).
+You can also use KDS devices to display tickets only for specified dining options. For more information, see [Filtering tickets on a KDS device](adminGuide-adminKdsTicketDisplayOptions).
 
 ### Routing tickets to an additional prep station
 
@@ -89,7 +89,7 @@ You can also choose to change how items are routed based on the service area. It
 
 For more information about how to configure service areas, see this [Toast Central article](https://central.toasttab.com/s/article/Creating-Service-Areas-and-Table-Setup-1493049150430).
 
-You can also use KDS devices to display tickets only for specified service areas. For more information, see [Filtering tickets on a KDS device](adminKdsTicketDisplayOptions.html).
+You can also use KDS devices to display tickets only for specified service areas. For more information, see [Filtering tickets on a KDS device](adminGuide-adminKdsTicketDisplayOptions).
 
 ### Routing tickets to an additional prep station
 
@@ -140,7 +140,7 @@ Once you determine which prep stations you want to reroute and where you want th
 
 **Procedure 10.16. To create item routing rules**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen \> Kitchen stations \> Item routing. 
@@ -162,7 +162,7 @@ Once you determine which prep stations you want to reroute and where you want th
 
 
 
-6. From the Condition list, select the [dining option](adminKitchenDiningRoomReference.html#configDiningOptions) or service area that your rule applies to.
+6. From the Condition list, select the [dining option](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) or service area that your rule applies to.
 
 
 7. From the Reroute From list, select the prep station that you want to reroute items from.

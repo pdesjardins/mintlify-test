@@ -45,7 +45,7 @@ If shift review is optional, you can clock out of your shift at any time and do 
 
 > **Note**
 > 
-> Some jobs may require you to clock in to your shift in order to complete shift review. For more information, see [Requiring shift review](platformConfiguringShiftReview.html#platformRequiringShiftReview).
+> Some jobs may require you to clock in to your shift in order to complete shift review. For more information, see [Requiring shift review](adminGuide-platformConfiguringShiftReview#platformRequiringShiftReview).
 
 
 If you are required to clock in to complete your shift review, but have not clocked in yet, an error message appears on the Shift Review screen. The error message displays: `Please clock
@@ -140,7 +140,7 @@ If you have a check that you cannot close, you can either void the check with ma
 > **Note**
 > 
 > You can require employees to declare cash tips as part of their shift review. From Toast Web, choose Employees \> Shift review \> Shift review setup \> Declare cash tips and then select Tipped employees must declare cash tips.
-> Employees who must declare cash tips must have the Tipped? option checked for their assigned job. For more information, see [UI options settings](adminUiOptionsReference.html).
+> Employees who must declare cash tips must have the Tipped? option checked for their assigned job. For more information, see [UI options settings](adminGuide-adminUiOptionsReference).
 
 
 The next step for shift review is to declare cash tips. This is an optional step that can be configured in Toast Web. Cash tips should be entered as a part of the shift review. Any cash tips entered on the Toast POS device are ignored.
@@ -210,7 +210,7 @@ The next step for shift review is to reconcile your cash and tips. Reconciling y
 
 > **Note**
 > 
-> To allow employees to cash out their credit card tips without having to enter a manager passcode, they must be assigned the 1.13 No Sale permission. This permission allows employees to make a No Sale entry and open a cash drawer without having to complete a transaction. For more information about permissions, see [Access permissions reference](adminPermissions.html#adminAddlPosAccessPermissions).
+> To allow employees to cash out their credit card tips without having to enter a manager passcode, they must be assigned the 1.13 No Sale permission. This permission allows employees to make a No Sale entry and open a cash drawer without having to complete a transaction. For more information about permissions, see [Access permissions reference](adminGuide-adminPermissions#adminAddlPosAccessPermissions).
 
 
 **Procedure 6.113. To reconcile your cash and collect your non-cash tips**
@@ -280,7 +280,7 @@ The Toast platform calculates the amount you owe to the restaurant or the restau
 
 ## Closing cash drawers
 
-The next step in shift review is closing any cash drawer(s) locked to you. This is an optional step that can be configured on the Toast POS device. For more information on how to lock down a cash drawer, see [Lock down a cash drawer](adminCashDrawerLockdown.html).
+The next step in shift review is closing any cash drawer(s) locked to you. This is an optional step that can be configured on the Toast POS device. For more information on how to lock down a cash drawer, see [Lock down a cash drawer](adminGuide-adminCashDrawerLockdown).
 
 The Cash drawers step displays a summary of your cash drawers. The summary displays:
 
@@ -295,7 +295,7 @@ The Cash drawers step displays a summary of your cash drawers. The summary displ
 
 > **Note**
 > 
-> The cash drawer closeout threshold is the dollar threshold that, if exceeded, requires a manager to approve the closing of the cash drawer. The cash drawer closeout thresholds in the Close Out Balance dialog box depend on your configurations in the Toast Web. For more information on how to configure your closeout thresholds, see [Managing cash drawer variance](adminCashDrawerToastWebOperations.html#adminCashDrawerManageCloseDrawerVariance).
+> The cash drawer closeout threshold is the dollar threshold that, if exceeded, requires a manager to approve the closing of the cash drawer. The cash drawer closeout thresholds in the Close Out Balance dialog box depend on your configurations in the Toast Web. For more information on how to configure your closeout thresholds, see [Managing cash drawer variance](adminGuide-adminCashDrawerToastWebOperations#adminCashDrawerManageCloseDrawerVariance).
 
 
 **Procedure 6.114. To close your cash drawer**

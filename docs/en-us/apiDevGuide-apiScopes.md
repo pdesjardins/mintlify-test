@@ -15,9 +15,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-Access to Toast APIs, specific endpoints, and specific API endpoint operations is controlled by the scopes that are associated with your [API account](apiClientAccounts.html). Toast API scopes and their capabilities are described below.
+Access to Toast APIs, specific endpoints, and specific API endpoint operations is controlled by the scopes that are associated with your [API account](apiDevGuide-apiClientAccounts). Toast API scopes and their capabilities are described below.
 
-To see the scopes associated with your API client, you must decrypt the authentication token you receive after you request an authentication token. For more information about the contents of a Toast API authentication token, see [Authentication return data for a partner API client](authentication.html#apiAuthenticationReturnDataPartner) and [Authentication return data for a restaurant management group API client](authentication.html#apiAuthenticationReturnDataRestaurant).
+To see the scopes associated with your API client, you must decrypt the authentication token you receive after you request an authentication token. For more information about the contents of a Toast API authentication token, see [Authentication return data for a partner API client](apiDevGuide-authentication#apiAuthenticationReturnDataPartner) and [Authentication return data for a restaurant management group API client](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant).
 
 ## API client scope reference
 
@@ -64,7 +64,7 @@ The following table describes the scopes that determine what actions your Toast 
 | Packaging preferences | Read | `packaging:read` | Allows reading a restaurant's packaging preferences configuration using the [packaging configuration API](https://doc.toasttab.com/openapi/packaging/overview/).  | 
 | Restaurant availabilityRestaurants | Read | `restaurants:read` | Allows reading from the [restaurant availability API](https://doc.toasttab.com/openapi/rx.availability.service/overview/).Allows reading from the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/). | 
 | Stock | Read | `stock:read` | Allows reading from the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
-| Stock | Write | `stock:write` | Allows updating stock status for menu items (and modifier option [item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference)) using the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
+| Stock | Write | `stock:write` | Allows updating stock status for menu items (and modifier option [item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)) using the [stock API](https://doc.toasttab.com/openapi/stock/overview/). | 
 
 ## Getting API client scopes
 

@@ -17,7 +17,7 @@ codeExamples: 0
 
 For an efficient order fulfillment workflow, assign every menu item and modifier in your menus to a prep station. In the Toast platform, a prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.
 
-After you [add your prep stations](adminAddPrepStation.html), assign them to your menus, menu groups, items, and modifiers, so that every item in an order can be sent immediately to the correct prep station for fulfillment. For items that require preparation at several prep stations, you can assign multiple prep stations.
+After you [add your prep stations](adminGuide-adminAddPrepStation), assign them to your menus, menu groups, items, and modifiers, so that every item in an order can be sent immediately to the correct prep station for fulfillment. For items that require preparation at several prep stations, you can assign multiple prep stations.
 
 If you assign a prep station to a menu or menu group, the Toast platform assigns that prep station to all of the items and modifiers in that menu or group. For example, you assign your "online" menu to a prep station dedicated to fulfilling those orders, and your "in store" menu(s) to different prep stations. You can then override this default assignment as needed for individual menu items and modifiers.
 
@@ -27,7 +27,7 @@ Once the item is sent from the front of house, the item can either appear on a K
 
 > **Note**
 > 
-> The limited release Send to setting allows you to choose whether a prep station sends its items to the prep station, expediter, or both. For more information, see [Sending items to prep stations, expediters, or both](adminRoutingToPrepStations.html#platformKitchenSendingToPrepStationExpediterBoth).
+> The limited release Send to setting allows you to choose whether a prep station sends its items to the prep station, expediter, or both. For more information, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
 
 
 If you choose to have a prep station send to prep stations, the item displays on the prep station KDS device, prints at the prep station kitchen printer, or both. For example, your kitchen has *Cold* and *Hot* prep stations, so you add a prep station for each one, along with another prep station for *Dessert*. Once an order is sent from the front of house, the item displays on a KDS or prints from a kitchen printer at the prep station or stations assigned to it.
@@ -49,7 +49,7 @@ Depending on how you want to route items assigned to certain prep stations, you 
 
 **Procedure 10.12. To assign prep stations to send to specific station types**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html)
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)
 
 
 2. Choose Kitchen \> Kitchen stations \> Prep stations.
@@ -81,13 +81,13 @@ Depending on how you want to route items assigned to certain prep stations, you 
 
 ## Multiple prep stations for an item
 
-For individual items that require work at multiple prep stations, you can choose to assign more than one prep station to it. For example, a Caesar Chicken Salad item is sent to both the *Cold* prep station and the *Grill* prep station. For more information on how the item is fulfilled at multiple prep stations on the KDS, see [Understanding item fulfillment](platformKitchenUnderstandingItemFulfillmentKDS.html).
+For individual items that require work at multiple prep stations, you can choose to assign more than one prep station to it. For example, a Caesar Chicken Salad item is sent to both the *Cold* prep station and the *Grill* prep station. For more information on how the item is fulfilled at multiple prep stations on the KDS, see [Understanding item fulfillment](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS).
 
-You can also configure your kitchen tickets to show which other prep stations are working on the item or order. For more information, see [Monitoring items at other prep stations](adminMonitoringTicketsOtherPrepStations.html).
+You can also configure your kitchen tickets to show which other prep stations are working on the item or order. For more information, see [Monitoring items at other prep stations](adminGuide-adminMonitoringTicketsOtherPrepStations).
 
 ## Assigning prep stations to menu entities
 
-The following procedure is for assigning prep stations to multiple [menu entities](adminMenuHierarchy.html) at once. You can also choose to assign prep stations to each menu entity while creating it. For more information about assigning prep stations while creating a single menu entity, see [Assigning prep stations](adminAssigningPrepStationsMenuBuilder.html).
+The following procedure is for assigning prep stations to multiple [menu entities](adminGuide-adminMenuHierarchy) at once. You can also choose to assign prep stations to each menu entity while creating it. For more information about assigning prep stations while creating a single menu entity, see [Assigning prep stations](adminGuide-adminAssigningPrepStationsMenuBuilder).
 
 
 
@@ -98,7 +98,7 @@ The following procedure is for assigning prep stations to multiple [menu entitie
 
 **Procedure 10.13. To assign prep stations to menu entities**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Bulk management \> Advanced properties. The Advanced Propertiespage with an interactive table with rows for each restaurant menu opens.

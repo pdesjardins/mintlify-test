@@ -81,7 +81,7 @@ If you check the Bulk Discount setting but leave the Quantity fields blank, the 
 
 > **Note**
 > 
-> You use the Min Quantity and Max Quantity fields to control the application of the bulk discount based on the number of eligible items on the check. You can also use the Min/Maxconfiguration option to control the application of the bulk discount based on the monetary total of the check. For details on the Required Min/Max Check Amount setting, see [Configuring required minimum and maximum check totals](adminDiscountsMinMax.html).
+> You use the Min Quantity and Max Quantity fields to control the application of the bulk discount based on the number of eligible items on the check. You can also use the Min/Maxconfiguration option to control the application of the bulk discount based on the monetary total of the check. For details on the Required Min/Max Check Amount setting, see [Configuring required minimum and maximum check totals](adminGuide-adminDiscountsMinMax).
 
 
 ## Viewing a bulk discount on the Toast POS app

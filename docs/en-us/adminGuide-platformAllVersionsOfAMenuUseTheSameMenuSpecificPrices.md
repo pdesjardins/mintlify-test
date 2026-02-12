@@ -55,7 +55,7 @@ Configuring menu-specific prices for a menu that has multiple versions follows t
 
 > **Note**
 > 
-> If you are unsure about which locations are affected by your changes and require publishing, see [About the Number column](platformAboutTheNumberColumn.html) for information on using the Number column to determine which locations require publishing.
+> If you are unsure about which locations are affected by your changes and require publishing, see [About the Number column](adminGuide-platformAboutTheNumberColumn) for information on using the Number column to determine which locations require publishing.
 
 
 
@@ -67,7 +67,7 @@ Configuring menu-specific prices for a menu that has multiple versions follows t
 
 > **Note**
 > 
-> For more info on the Publish Config page, see [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html).
+> For more info on the Publish Config page, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
 
 
 

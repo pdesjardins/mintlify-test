@@ -32,11 +32,11 @@ Various situations can cause your Toast device to go offline, including but not 
 
 
 
-For information on how to use your Toast device during an outage, see [Offline mode overview](adminOfflineModeOverview.html).
+For information on how to use your Toast device during an outage, see [Offline mode overview](adminGuide-adminOfflineModeOverview).
 
 ## Internet outage
 
-During an internet connection issue, your Toast POS device is offline. If you are on the Orders Hub screen when the device switches to use offline mode, a No internet connection banner appears. Below the banner is a dialog box with information on what you can do while offline and what to avoid. Select the Troubleshoot button for additional [troubleshooting information](platformOfflineAutofireDevices.html#platformTroubleshootingYourDeviceDuringAnISPOutage) or select the Got it button to close out of the dialog box.
+During an internet connection issue, your Toast POS device is offline. If you are on the Orders Hub screen when the device switches to use offline mode, a No internet connection banner appears. Below the banner is a dialog box with information on what you can do while offline and what to avoid. Select the Troubleshoot button for additional [troubleshooting information](adminGuide-platformOfflineAutofireDevices#platformTroubleshootingYourDeviceDuringAnISPOutage) or select the Got it button to close out of the dialog box.
 
 From the dialog, scan the QR code to visit a Toast Central article or select the Quick troubleshooting dropdown to display troubleshooting steps. Select the Backbutton to return to the previous screen or select the Done button to close the dialog.
 
@@ -89,10 +89,10 @@ If your non-Autofire device is experiencing an ISP outage, note the following:
 - If a backup printer has been set up properly and there is a local network connection, the Autofire assigned device still fires and prints order tickets.
 
 
-- Scheduled and existing orders still fire from the Autofire assigned device. Once internet service provider connection is restored, scheduled orders on the non-Autofire device move to the appropriate [Orders Hub status](platformUsingOrdersHub.html#platformOrderStatuses).
+- Scheduled and existing orders still fire from the Autofire assigned device. Once internet service provider connection is restored, scheduled orders on the non-Autofire device move to the appropriate [Orders Hub status](adminGuide-platformUsingOrdersHub#platformOrderStatuses).
 
 
-- Toast Online Ordering may be turned off when the Autofire assigned device has stopped approving and autofiring online orders for five minutes. This indicates an internet issue or other technical problems at the restaurant. For more information, see [Autofire device stopped approving online orders](apiRxAvailabilityWebhook.html).
+- Toast Online Ordering may be turned off when the Autofire assigned device has stopped approving and autofiring online orders for five minutes. This indicates an internet issue or other technical problems at the restaurant. For more information, see [Autofire device stopped approving online orders](apiDevGuide-apiRxAvailabilityWebhook).
 
 
 

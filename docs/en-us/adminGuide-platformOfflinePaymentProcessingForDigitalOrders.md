@@ -28,7 +28,7 @@ You can review the status of your guest credit card payments in the Toast Web.
 
 **Procedure 3.34. To view your credit card payments**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Reports to open the Reports page.

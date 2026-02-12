@@ -18,11 +18,11 @@ codeExamples: 0
 
 The menu manager's bulk editing feature lets you quickly make the same edit to multiple menu entities.
 
-Currently, the bulk edit feature supports setting the same [visibility settings](platformColumnsInTheMenuManagerViews.html#platformMenuManagerItemAndModifierColumns_Visibility) for multiple menu items at once. Visibility settings control where a menu item is visible and available for ordering.
+Currently, the bulk edit feature supports setting the same [visibility settings](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns_Visibility) for multiple menu items at once. Visibility settings control where a menu item is visible and available for ordering.
 
 **Procedure 8.99. To set the same visibility settings for multiple menu items at once**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Menu manager to open the Menu managerpage.
@@ -31,7 +31,7 @@ Currently, the bulk edit feature supports setting the same [visibility settings]
 3. From the Show section, select Items.
 
 
-4. Optionally, use the [search](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerSearchingForMenuEntities)and [filter controls](platformMenuManagerUsingSearchAndFilteringToFindMenuEntities.html#platformMenuManagerFilteringMenuEntities) to find the menu items you want to edit.
+4. Optionally, use the [search](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities)and [filter controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to find the menu items you want to edit.
 
 
 5. Select the check box to the left of each menu item you want to configure visibility settings for. The bulk edit bar appears below the menu manager view, indicating the number of items you have selected.
@@ -66,7 +66,7 @@ Currently, the bulk edit feature supports setting the same [visibility settings]
 8. Select Update [X] items.
 
 
-9. After making your visibility changes, you must either schedule them to be published in the future, or save and publish them immediately. For more information, see [Publishing menu manager changes](platformPublishingMenuManagerChanges.html).
+9. After making your visibility changes, you must either schedule them to be published in the future, or save and publish them immediately. For more information, see [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
 
 
 

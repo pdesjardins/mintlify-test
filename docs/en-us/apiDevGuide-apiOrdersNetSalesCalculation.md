@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-The reports in Toast Web include net sales values. You can also use [amount values from the orders API](apiOrdersOrderObjectSummary.html#apiOrderObjectAmounts) to calculate the net sales.
+The reports in Toast Web include net sales values. You can also use [amount values from the orders API](apiDevGuide-apiOrdersOrderObjectSummary#apiOrderObjectAmounts) to calculate the net sales.
 
 ## Orders API information to include in net sales
 
@@ -71,7 +71,7 @@ Here is an overview of the process to calculate net sales for a group of orders 
 1. Use the [Get multiple orders](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/) request to retrieve the orders that were opened during the period of time that you want to do the calculation for.
 
 
-2. [Calculate the net sales values for each order](apiOrdersNetSalesCalculation.html#apiOrdersNetSalesSingleOrder).
+2. [Calculate the net sales values for each order](apiDevGuide-apiOrdersNetSalesCalculation#apiOrdersNetSalesSingleOrder).
 
 
 3. Sum the order net sales values to get the total net sales.

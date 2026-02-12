@@ -32,5 +32,5 @@ Regardless of the event category, the data in the message that is published to y
 \}
 ```
 
-For reference information on the payload returned for specific event categories, see [Webhooks reference](apiWebhooksReference.html).
+For reference information on the payload returned for specific event categories, see [Webhooks reference](apiDevGuide-apiWebhooksReference).
 

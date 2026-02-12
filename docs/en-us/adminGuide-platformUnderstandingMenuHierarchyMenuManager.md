@@ -15,5 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-Toast products use a hierarchical structure to organize a restaurant's menu offerings, making it easier for employees and guests to find what they want to order. To use the menu manager successfully, it is important to understand the Toast menu hierarchy. For more information, see [Menu hierarchy](adminMenuHierarchy.html).
+Toast products use a hierarchical structure to organize a restaurant's menu offerings, making it easier for employees and guests to find what they want to order. To use the menu manager successfully, it is important to understand the Toast menu hierarchy. For more information, see [Menu hierarchy](adminGuide-adminMenuHierarchy).
 

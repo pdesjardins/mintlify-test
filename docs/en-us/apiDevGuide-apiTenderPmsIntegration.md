@@ -22,25 +22,25 @@ Property management systems (PMS) are used by hotels and motels to coordinate sy
 
 The tender API supports the following transaction types for the PMS integration workflow:
 
-- `[TENDER_SEARCH_CONFIG](apiTenderPmsIntegration.html#apiTenderConfigureSearchPMS)`: Request configured search terms for the restaurant. Search terms can be First Name, Last Name, Room Number, Email, or Company.
+- `[TENDER_SEARCH_CONFIG](apiDevGuide-apiTenderPmsIntegration#apiTenderConfigureSearchPMS)`: Request configured search terms for the restaurant. Search terms can be First Name, Last Name, Room Number, Email, or Company.
 
 
-- [`TENDER_SEARCH`](apiTenderPmsIntegration.html#apiTenderSearchPMS): Search for an account.
+- [`TENDER_SEARCH`](apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS): Search for an account.
 
 
-- `[TENDER_RETRIEVE_DISCOUNTS](apiTenderPmsIntegration.html#apiRetrieveDiscountsPMS)`: Retrieve applicable discounts for a check.
+- `[TENDER_RETRIEVE_DISCOUNTS](apiDevGuide-apiTenderPmsIntegration#apiRetrieveDiscountsPMS)`: Retrieve applicable discounts for a check.
 
 
-- `[TENDER_RETRIEVE_PAYMENTS](apiTenderPmsIntegration.html#apiTenderRetrievePaymentsPMS)`: Retrieve payment for a check.
+- `[TENDER_RETRIEVE_PAYMENTS](apiDevGuide-apiTenderPmsIntegration#apiTenderRetrievePaymentsPMS)`: Retrieve payment for a check.
 
 
-- `[TENDER_REDEEM](apiTenderPmsIntegration.html#apiTenderRedeemDiscountsPaymentsPMS)`: Confirm payment and discounts applied to a check.
+- `[TENDER_REDEEM](apiDevGuide-apiTenderPmsIntegration#apiTenderRedeemDiscountsPaymentsPMS)`: Confirm payment and discounts applied to a check.
 
 
-- `[TENDER_GRATUITY](apiTenderPmsIntegration.html#apiTenderGratuityPMS)`: Add a tip to a previously confirmed payment.
+- `[TENDER_GRATUITY](apiDevGuide-apiTenderPmsIntegration#apiTenderGratuityPMS)`: Add a tip to a previously confirmed payment.
 
 
-- `[TENDER_REVERSE](apiTenderPmsIntegration.html#apiTenderReversePaymentsAndDiscountsPMS)`: Reverse a previous discount redemption or gratuity.
+- `[TENDER_REVERSE](apiDevGuide-apiTenderPmsIntegration#apiTenderReversePaymentsAndDiscountsPMS)`: Reverse a previous discount redemption or gratuity.
 
 
 
@@ -735,7 +735,7 @@ The Toast platform retrieves payments after applying the discounts received from
   
 ### Redeem discounts and payments
 
-After the Toast platform applies payments to the check, the discounts and payments are redeemed. For more information about gratuity payments, see [Gratuity](apiTenderPmsIntegration.html#apiTenderGratuityPMS).
+After the Toast platform applies payments to the check, the discounts and payments are redeemed. For more information about gratuity payments, see [Gratuity](apiDevGuide-apiTenderPmsIntegration#apiTenderGratuityPMS).
 
 **Procedure 10.14. Redeem discounts and payments workflow**
 

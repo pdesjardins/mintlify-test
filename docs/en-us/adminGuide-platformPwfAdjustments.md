@@ -162,5 +162,5 @@ When an employee makes a mistake, or to appease a guest who had an unsatisfactor
 
 ## Refunds
 
-Refunding a guest is one of the most common actions taken on a point of sale system. Most commonly, a refund is issued if an incorrect payment type is used, or to resolve guest issues. For more information about refunds, see [Refunds](adminRefundPermissionsLimitations.html).
+Refunding a guest is one of the most common actions taken on a point of sale system. Most commonly, a refund is issued if an incorrect payment type is used, or to resolve guest issues. For more information about refunds, see [Refunds](adminGuide-adminRefundPermissionsLimitations).
 

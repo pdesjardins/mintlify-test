@@ -22,22 +22,22 @@ The `stock` webhook allows you to receive updates when the inventory status of a
 
 > **Note**
 > 
-> Modifiers are supported by an underlying menu item, called the modifier item reference. In this section, the term *menu item* refers to both menu items and modifier item references, as the stock webhook reports on their status in the same way. For detailed information on modifier item references, see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
+> Modifiers are supported by an underlying menu item, called the modifier item reference. In this section, the term *menu item* refers to both menu items and modifier item references, as the stock webhook reports on their status in the same way. For detailed information on modifier item references, see [Understanding a modifier item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 
-Stock webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `stock`event category, the `eventCategory` value is set to `stock` and the `eventType` is set to one of the following:
+Stock webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). When a message is published to your webhook endpoint for the `stock`event category, the `eventCategory` value is set to `stock` and the `eventType` is set to one of the following:
 
-- [in_stock](apiStockWebhook.html#apiInStock)
-
-
-- [out_of_stock](apiStockWebhook.html#apiOutOfStock)
+- [in_stock](apiDevGuide-apiStockWebhook#apiInStock)
 
 
-- [low_quantity](apiStockWebhook.html#apiLowQuantity)
+- [out_of_stock](apiDevGuide-apiStockWebhook#apiOutOfStock)
+
+
+- [low_quantity](apiDevGuide-apiStockWebhook#apiLowQuantity)
 
 
 
-A menu item's inventory can be changed in the [stock API](apiUpdatingInventoryInformation.html), in the Toast app, and in Toast Web, and set to one of the following:
+A menu item's inventory can be changed in the [stock API](apiDevGuide-apiUpdatingInventoryInformation), in the Toast app, and in Toast Web, and set to one of the following:
 
 - In Stock: The menu item is in stock. There is no specific quantity associated with the menu item but it is assumed to be available.
 
@@ -62,7 +62,7 @@ Attributes in the `in_stock` event's payload include:
 | Value | Description | 
 | --- | --- |
 | `itemGuid` | A unique identifier for the menu item, assigned by the Toast platform.data type:stringformat:uuid | 
-| `multiLocationId` | A consistent identifier that applies to all versions of a menu item that is shared across locations.Requests sent to Toast APIs can use a combination of the `multiLocationId` and `restaurantGuid` values, instead of the `itemGuid` value, to identify a menu item. Integration clients can extract the `multiLocationId` and `restaurantGuid` from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See [Toast identifiers](portalToastIdentifiers.html) for more information.data type:string | 
+| `multiLocationId` | A consistent identifier that applies to all versions of a menu item that is shared across locations.Requests sent to Toast APIs can use a combination of the `multiLocationId` and `restaurantGuid` values, instead of the `itemGuid` value, to identify a menu item. Integration clients can extract the `multiLocationId` and `restaurantGuid` from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.data type:string | 
 | `restaurantGuid` | A unique identifier for the restaurant, assigned by the Toast platform.data type:stringformat:uuid | 
 | `quantity` | Indicates the quantity of this menu item that is available. This value is included if the `status`attribute is set to `QUANTITY` and omitted if the status attribute is set to `IN_STOCK`.data type:numberformat:double | 
 | `status` | `IN_STOCK` or `QUANTITY`data type:string | 
@@ -116,7 +116,7 @@ Attributes in the `out_of_stock` event's payload include:
 | Value | Description | 
 | --- | --- |
 | `itemGuid` | A unique identifier for the menu item, assigned by the Toast platform.data type:stringformat:uuid | 
-| `multiLocationId` | A consistent identifier that applies to all versions of a menu item that is shared across locations.Requests sent to Toast APIs can use a combination of the `multiLocationId` and `restaurantGuid` values, instead of the `itemGuid` value, to identify a menu item. Integration clients can extract the `multiLocationId` and `restaurantGuid` from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See [Toast identifiers](portalToastIdentifiers.html) for more information.data type:string | 
+| `multiLocationId` | A consistent identifier that applies to all versions of a menu item that is shared across locations.Requests sent to Toast APIs can use a combination of the `multiLocationId` and `restaurantGuid` values, instead of the `itemGuid` value, to identify a menu item. Integration clients can extract the `multiLocationId` and `restaurantGuid` from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.data type:string | 
 | `restaurantGuid` | A unique identifier for the restaurant, assigned by the Toast platform.data type:stringformat:uuid | 
 | `status` | `OUT_OF_STOCK`data type: string | 
 | `versionId` | Reserved for future use. | 
@@ -160,7 +160,7 @@ Attributes in the `low_quantity` event's payload include:
 | Value | Description | 
 | --- | --- |
 | `itemGuid` | A unique identifier for the menu item, assigned by the Toast platform.data type:stringformat:uuid | 
-| `multiLocationId` | A consistent identifier that applies to all versions of a menu item that is shared across locations.Requests sent to Toast APIs can use a combination of the `multiLocationId` and `restaurantGuid` values, instead of the `itemGuid` value, to identify a menu item. Integration clients can extract the `multiLocationId` and `restaurantGuid` from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See [Toast identifiers](portalToastIdentifiers.html) for more information.data type:string | 
+| `multiLocationId` | A consistent identifier that applies to all versions of a menu item that is shared across locations.Requests sent to Toast APIs can use a combination of the `multiLocationId` and `restaurantGuid` values, instead of the `itemGuid` value, to identify a menu item. Integration clients can extract the `multiLocationId` and `restaurantGuid` from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.data type:string | 
 | `quantity` | Indicates the quantity of this menu item that is available.data type:numberformat:double | 
 | `restaurantGuid` | A unique identifier for the restaurant, assigned by the Toast platform.data type:stringformat:uuid | 
 | `status` | `QUANTITY`data type: string | 

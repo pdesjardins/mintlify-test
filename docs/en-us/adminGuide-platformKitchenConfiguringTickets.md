@@ -66,7 +66,7 @@ Follow one of these procedures.
 
 **Procedure 10.8. To configure a KDS color for a menu item**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus \> Menu manager.
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)and then choose Menus \> Menu manager.
 
 
 2. Select Full menu view, then navigate to the menu item you want to edit. Select the item to see its side panel.
@@ -90,16 +90,16 @@ Follow one of these procedures.
 1. Determine the modifiers that you want to highlight with color coding, and the color you want to assign to each one.
 
 
-2. [Access Toast Web ](adminAccessToastAdminBackend.html)and then choose Menus \> Bulk management \> Advanced properties.
+2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)and then choose Menus \> Bulk management \> Advanced properties.
 
 
 3. (Multi-location restaurants only) Choose the locations you want to view from the You are viewingmenu.
 
 
-4. Expand the advanced properties table to find the modifier you want to edit, select its name, then select Edit Item to see the classic details page for the modifier's [item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
+4. Expand the advanced properties table to find the modifier you want to edit, select its name, then select Edit Item to see the classic details page for the modifier's [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 
-5. Next to the KDS Color, select the square tile. The [color palette](platformKitchenConfiguringTickets.html#adminKdsColorPalette)opens.
+5. Next to the KDS Color, select the square tile. The [color palette](adminGuide-platformKitchenConfiguringTickets#adminKdsColorPalette)opens.
 
 
 6. Select the color that you want to assign to the modifier.
@@ -115,9 +115,9 @@ The Toast platform allows you to specify how you want items and modifiers to be 
 
 ### Sorting items on kitchen tickets
 
-You can choose to sort items by assigned seat numbers, assigned sort order, or by how the items are entered on the order screen. You can use the [Item Sorting Priority](adminKitchenDiningRoomReference.html#configItemSortingPriority) setting to sort items on kitchen tickets.
+You can choose to sort items by assigned seat numbers, assigned sort order, or by how the items are entered on the order screen. You can use the [Item Sorting Priority](adminGuide-adminKitchenDiningRoomReference#configItemSortingPriority) setting to sort items on kitchen tickets.
 
-- To sort by assigned seat numbers, you must enable the seat numbers modifier group with the Additional Modifier Groups setting, and assign the Seat Number modifier group to the menu item. If two items have the same seat number, they are sorted by Sort Order, if available. If no Sort Order is available, the items are sorted by how they were added to the order. For more information, see [Additional Modifier Groups](adminUiOptionsReference.html#configAdditionalModifierGroups).
+- To sort by assigned seat numbers, you must enable the seat numbers modifier group with the Additional Modifier Groups setting, and assign the Seat Number modifier group to the menu item. If two items have the same seat number, they are sorted by Sort Order, if available. If no Sort Order is available, the items are sorted by how they were added to the order. For more information, see [Additional Modifier Groups](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups).
 
 
 - To sort by sort order, you must assign a Sort Order value to the menu item. The Sort Order determines how the item is sorted against all other items. If two items have the same Sort Order, they are sorted by Seat Number if available. If no Seat Number is available, the items are sorted by how they were added to the order. If a Sort Order for an item is empty, it is listed after those that have a Sort Order assigned, then by Seat Number if available, and then how they were added to the order. This sorting also affects how items appear on order screens.
@@ -160,7 +160,7 @@ For modifiers, there are several settings that can be used to choose how modifie
 
 How these settings are prioritized depends on several factors. The following is an ordered list detailing the hierarchy of how these settings are applied.
 
-1. If [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode) is set to:
+1. If [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to:
 
 - Vertical or Horizontal: The other settings affecting modifier sorting order apply as expected.
 
@@ -180,7 +180,7 @@ How these settings are prioritized depends on several factors. The following is 
 
 
 
-3. If no Sort Order is configured for modifiers and [Modifier ordering priority](adminUiOptionsReference.html#configModifierOrderingPriority) is set to On, the modifiers are sorted by modifier group.
+3. If no Sort Order is configured for modifiers and [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority) is set to On, the modifiers are sorted by modifier group.
 
 
 
@@ -202,7 +202,7 @@ The order in which the modifier groups are displayed is determined by the modifi
 
 
 
-4. The modifiers are then ordered based on the [Modifier group sorting](adminUiOptionsReference.html#configModifierGroupSorting) setting option:
+4. The modifiers are then ordered based on the [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) setting option:
 
 - Display in order modifiers were added: The modifiers are listed the way they were added by an employee on the order screen.
 
@@ -222,16 +222,16 @@ The order in which the modifier groups are displayed is determined by the modifi
 > This setting is in limited release.
 
 
-The Toast platform allows you to have separate tickets for each item in an order, or to have an order ticket with all items in an order. For example, you have an order with two items, Panini and Burger that both route to the Hot prep station. If using individual item tickets, this results in two tickets, one with Panini and another with Burger. If not using individual item tickets, this results in a single ticket with two items, Panini and Burger. The Individual Item Tickets setting has separate configurations for both [printed](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsPrinted)and [KDS tickets](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsKDS). Individual item tickets can apply to printed prep station tickets, and to KDS prep station and expediter tickets, depending on your setup.
+The Toast platform allows you to have separate tickets for each item in an order, or to have an order ticket with all items in an order. For example, you have an order with two items, Panini and Burger that both route to the Hot prep station. If using individual item tickets, this results in two tickets, one with Panini and another with Burger. If not using individual item tickets, this results in a single ticket with two items, Panini and Burger. The Individual Item Tickets setting has separate configurations for both [printed](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemTicketsPrinted)and [KDS tickets](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemTicketsKDS). Individual item tickets can apply to printed prep station tickets, and to KDS prep station and expediter tickets, depending on your setup.
 
 
 
 > **Note**
 > 
-> Individual tickets apply differently for items with multiple quantities. Depending on your Individual Item Tickets setting options, you can choose to specify whether items with multiple quantities are consolidated into a single item with a multiple quantity, or as separate items each with a quantity of one. For more information, see [Consolidate identical items](platformKitchenConfiguringTickets.html#platformKitchenConsolidateIdenticalItems).
+> Individual tickets apply differently for items with multiple quantities. Depending on your Individual Item Tickets setting options, you can choose to specify whether items with multiple quantities are consolidated into a single item with a multiple quantity, or as separate items each with a quantity of one. For more information, see [Consolidate identical items](adminGuide-platformKitchenConfiguringTickets#platformKitchenConsolidateIdenticalItems).
 
 
-The Individual Item Tickets setting has two parts for [Print Settings](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsPrinted) and [KDS Settings](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsKDS).
+The Individual Item Tickets setting has two parts for [Print Settings](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemTicketsPrinted) and [KDS Settings](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemTicketsKDS).
 
 ### Print settings
 
@@ -241,7 +241,7 @@ You can choose to print individual item tickets for prep station printed tickets
 
 > **Note**
 > 
-> Individual item tickets and overview tickets only apply to printed prep station tickets. Printed expediter tickets always include all items in a course for an order, when configured to [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter).
+> Individual item tickets and overview tickets only apply to printed prep station tickets. Printed expediter tickets always include all items in a course for an order, when configured to [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
 
 
 When configuring how items appear on printed prep station tickets, there are three Print Settings options to choose from:
@@ -272,7 +272,7 @@ You can choose whether to have all items appear on the same ticket for prep stat
 
 > **Note**
 > 
-> Items only appear on the expediter KDS device if the prep station they are assigned to is configured to [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter).
+> Items only appear on the expediter KDS device if the prep station they are assigned to is configured to [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
 
 
 When configuring how items appear on KDS tickets, there are three KDS Settings options to choose from:
@@ -295,11 +295,11 @@ When configuring how items appear on KDS tickets, there are three KDS Settings o
 
 ### Configuring individual item tickets
 
-Choosing how to configure individual items for printed and KDS tickets can affect how identical items are consolidated. For more information, see [Consolidate identical items](platformKitchenConfiguringTickets.html#platformKitchenConsolidateIdenticalItems)Consolidating identical items.
+Choosing how to configure individual items for printed and KDS tickets can affect how identical items are consolidated. For more information, see [Consolidate identical items](adminGuide-platformKitchenConfiguringTickets#platformKitchenConsolidateIdenticalItems)Consolidating identical items.
 
 **Procedure 10.10. To configure individual item tickets for printed and KDS tickets**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Navigate to the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setuppage.
@@ -320,7 +320,7 @@ Choosing how to configure individual items for printed and KDS tickets can affec
 
 
 
-For more information about these options, see [Print settings](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsPrinted).
+For more information about these options, see [Print settings](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemTicketsPrinted).
 
 
 5. Select an option for KDS Settings.
@@ -335,7 +335,7 @@ For more information about these options, see [Print settings](platformKitchenCo
 
 
 
-For more information about these options, see [KDS settings](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemTicketsKDS).
+For more information about these options, see [KDS settings](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemTicketsKDS).
 
 
 6. Save and publish your changes.
@@ -355,7 +355,7 @@ For more information about these options, see [KDS settings](platformKitchenConf
 
 > **Note**
 > 
-> If you have the [Consolidate menu items](adminUiOptionsReference.html#configCombineItems) setting set to Off, your items appear as they are entered on the order screen and the Consolidate Item with Multiple Quantities setting is ignored. For example, if you enter two individual Panini, they cannot be consolidated at the kitchen level and appear as two individual Panini. If you enter Panini with a quantity of two, they cannot be unconsolidated at the kitchen level and appear as Panini with a quantity of two.
+> If you have the [Consolidate menu items](adminGuide-adminUiOptionsReference#configCombineItems) setting set to Off, your items appear as they are entered on the order screen and the Consolidate Item with Multiple Quantities setting is ignored. For example, if you enter two individual Panini, they cannot be consolidated at the kitchen level and appear as two individual Panini. If you enter Panini with a quantity of two, they cannot be unconsolidated at the kitchen level and appear as Panini with a quantity of two.
 
 
 When you send items to the kitchen, you can choose whether multiple of the same item appear as a single line with an indicated quantity, or as individual lines of one item each. For example, if you enter an order with two Panini, consolidating the items appears as one line for Panini with a quantity of two. By not consolidating, the ticket has two Panini items, each with a quantity of one.
@@ -370,7 +370,7 @@ Here is an example of non-consolidated tickets at prep station and expediter KDS
 
 ![An example of a ticket with items that are not consolidated.](https://doc.toasttab.com/doc/media/kitchen-multi-item-unconsolidated.png)
 
-If you choose to use [individual item kitchen tickets](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemKitchenTickets), each item has a ticket. For this example, consolidated items appear as one ticket for Panini with a quantity of two, while unconsolidated items appear as two tickets for Panini with a quantity of one.
+If you choose to use [individual item kitchen tickets](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemKitchenTickets), each item has a ticket. For this example, consolidated items appear as one ticket for Panini with a quantity of two, while unconsolidated items appear as two tickets for Panini with a quantity of one.
 
 ### Configuring consolidated items with multiple quantities
 
@@ -378,7 +378,7 @@ For the Consolidate Items with Multiple Quantities setting, choose Yes to group 
 
 **Procedure 10.11. To configure consolidated items with multiple quantities**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Navigate to the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setuppage.

@@ -44,7 +44,7 @@ The configuration you create will apply to all receipt printers; that is, you ca
 
 > **Note**
 > 
-> The receipts described in this section are intended for customer use, such as a credit card receipt that the customer will fill out and sign. Kitchen tickets (used by the kitchen staff for fulfilling orders) are configured on the Kitchen \> Printers, tickets, & KDS devices \> [Kitchen](adminKitchenDiningRoomReference.html#adminKitchenSetupReference) page, and are not discussed here.
+> The receipts described in this section are intended for customer use, such as a credit card receipt that the customer will fill out and sign. Kitchen tickets (used by the kitchen staff for fulfilling orders) are configured on the Kitchen \> Printers, tickets, & KDS devices \> [Kitchen](adminGuide-adminKitchenDiningRoomReference#adminKitchenSetupReference) page, and are not discussed here.
 
 
 Before you configure your receipts, make sure that you have performed these tasks:
@@ -61,11 +61,11 @@ Before you configure your receipts, make sure that you have performed these task
 
 By configuring your Toast POS device, you can test your receipt setup changes and adjust them as needed.
 
-To configure receipts, you need Restaurant Admin \> POS Setup permission to access the Receipt Setup Toast Web page. For more information, see the [Access Permission Reference](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To configure receipts, you need Restaurant Admin \> POS Setup permission to access the Receipt Setup Toast Web page. For more information, see the [Access Permission Reference](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions).
 
 **Procedure 6.126. To configure customer printed receipts**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Select Payments \> Checks & receipt setup \> Guest receipt setup to open the Receipt Setup page.

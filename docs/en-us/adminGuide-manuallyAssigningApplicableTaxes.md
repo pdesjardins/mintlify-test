@@ -24,7 +24,7 @@ The preferred technique for managing taxes is to manually assign the master vers
 1. Choose Menus \> Menu management \> Tax rates setup to open the Tax ratespage.
 
 
-2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html)for information on the You are viewingmenu.
+2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
 
 
 3. Make sure your tax rates are not marked as default.
@@ -53,7 +53,7 @@ The preferred technique for managing taxes is to manually assign the master vers
 10. Repeat these steps for each menu.
 
 
-11. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) for information on accessing and using that page.
+11. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

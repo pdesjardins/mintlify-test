@@ -21,12 +21,12 @@ Follow the instructions below to create a version of a configuration entity.
 
 > **Note**
 > 
-> For information on what a version is, see [Versions](versions.html).
+> For information on what a version is, see [Versions](adminGuide-versions).
 
 
 **Procedure 5.4. To create a version of a configuration entity**
 
-1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. View the details page for the configuration entity you want to version.
@@ -41,7 +41,7 @@ You see the New Version window.
 ![Image](https://doc.toasttab.com/doc/media/new_version_window.PNG)
 
 
-4. Select a target and an owner for the version. Note that you must set an owner that is at the same point in the restaurant group hierarchy as the target or above. For more information on targets, see [Targets](targets.html). For more information on owners, see [Owners and permissions](ownersAndPermissions.html).
+4. Select a target and an owner for the version. Note that you must set an owner that is at the same point in the restaurant group hierarchy as the target or above. For more information on targets, see [Targets](adminGuide-targets). For more information on owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
 5. Click Submit.

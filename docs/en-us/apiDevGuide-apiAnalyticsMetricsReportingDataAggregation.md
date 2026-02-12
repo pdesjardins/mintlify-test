@@ -326,7 +326,7 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
 
 > **Important**
 > 
-> Adding restaurant GUIDs to both `restaurantIds`and `excludedRestaurantIds` results in an error. For more information, see [Creating a request for aggregated sales reporting data](apiAnalyticsMetricsReportingDataCreateRequest.html).
+> Adding restaurant GUIDs to both `restaurantIds`and `excludedRestaurantIds` results in an error. For more information, see [Creating a request for aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest).
 
 
 ### Response to the request for aggregated sales reporting data using `aggregateBy` and `groupBy`

@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> To access the Review Employee Shifts screen, you must have 3. Manager \> 3.12 Shift Reviewpermission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
+> To access the Review Employee Shifts screen, you must have 3. Manager \> 3.12 Shift Reviewpermission. For more information about permissions, see [Manager access permissions](adminGuide-adminPermissions#adminManagerAccessPermissions).
 
 
 As a manager, you can review employee shifts on a Toast POS device. To view employee shifts, navigate to Manager Activities, and select Review Employee Shifts to open the Review Employee Shiftsscreen. On the Review Employee Shifts screen, employee shifts are separated into either the Activeor Closed category. Active shifts are those where employees are actively taking orders and payments or are in the process of completing shift review. Closed shifts are those where employees have completed shift review and clocked out. The number of active or closed shifts appears to the left of the category name.
@@ -83,7 +83,7 @@ On the Review Employee Shifts screen, you can also complete the following action
 
 > **Note**
 > 
-> To access the Time entries panel, you must have 3. Manager \> 3.14 Edit Time Entriespermission. For more information about permissions, see [Manager access permissions](adminPermissions.html#adminManagerAccessPermissions).
+> To access the Time entries panel, you must have 3. Manager \> 3.14 Edit Time Entriespermission. For more information about permissions, see [Manager access permissions](adminGuide-adminPermissions#adminManagerAccessPermissions).
 
 
 You can edit your own shift review or another employee’s using the Time entries panel.
@@ -139,7 +139,7 @@ For closed shifts, you can:
 - Remove the start time. This removes the shift from the Toast platform and any associated reports and can affect any cash collected or tips paid out from cash drawers
 
 
-- Declare or adjust cash tips. Select the Declare cash tips button to open a numerical keypad where you can enter a new numerical value or adjust your cash tips. The total declared cash tips appear below the Declare cash tips button. For more information, see [Declaring cash tips](platformCompletingShiftReview.html#platformDeclaringCashTips).
+- Declare or adjust cash tips. Select the Declare cash tips button to open a numerical keypad where you can enter a new numerical value or adjust your cash tips. The total declared cash tips appear below the Declare cash tips button. For more information, see [Declaring cash tips](adminGuide-platformCompletingShiftReview#platformDeclaringCashTips).
 
 ![The Declare cash tips numerical keypad opened.](https://doc.toasttab.com/doc/media/money-shift-review-time-entries-panel-declare-cash-tips.png)
 

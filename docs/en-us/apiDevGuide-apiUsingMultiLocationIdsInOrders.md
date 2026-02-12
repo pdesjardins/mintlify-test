@@ -19,14 +19,14 @@ When you use the orders API to post an order, you must identify the menu groups,
 
 To do this, you can provide either:
 
-- The unique `guid` assigned to each menu entity. You can see examples of that in [Order details based on the order dining option](apiOrderTypeDetails.html) and [Specifying modifiers and instructions for menu item selections](apiSpecifyingModifiersAndInstructions.html).
+- The unique `guid` assigned to each menu entity. You can see examples of that in [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails) and [Specifying modifiers and instructions for menu item selections](apiDevGuide-apiSpecifyingModifiersAndInstructions).
 
 
-- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "[enterprise module](sharingMenusAndOtherInformationAmongRestaurants.html)").
+- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "[enterprise module](adminGuide-sharingMenusAndOtherInformationAmongRestaurants)").
 
 
 
-For information about `guid` and `multilocationId` values and using them in API requests, see [Toast identifiers](portalToastIdentifiers.html).
+For information about `guid` and `multilocationId` values and using them in API requests, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
 
 Note that for each menu entity, you must submit either a `guid` OR a `multiLocationId`. You cannot submit both identifiers. When you submit both types of identifier for a menu entity, the order submission fails.
 

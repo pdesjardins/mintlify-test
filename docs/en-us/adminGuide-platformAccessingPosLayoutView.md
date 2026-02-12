@@ -15,7 +15,7 @@ procedures: 2
 codeExamples: 0
 ---
 
-You can access POS layout view from either the [menu manager](platformAccessingPosLayoutView.html#platformToAccessPosLayoutViewFromTheMenuManager) or the [menu builder](platformAccessingPosLayoutView.html#platformToAccessPosLayoutViewFromTheMenuBuilder).
+You can access POS layout view from either the [menu manager](adminGuide-platformAccessingPosLayoutView#platformToAccessPosLayoutViewFromTheMenuManager) or the [menu builder](adminGuide-platformAccessingPosLayoutView#platformToAccessPosLayoutViewFromTheMenuBuilder).
 
 
 
@@ -26,7 +26,7 @@ You can access POS layout view from either the [menu manager](platformAccessingP
 
 **Procedure 8.40. To access POS layout view from the menu manager**
 
-1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
+1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Select Menus \> Bulk management \> Menu manager. Alternatively, you can search for `menu
@@ -44,7 +44,7 @@ You can access POS layout view from either the [menu manager](platformAccessingP
 
 **Procedure 8.41. To access POS layout view from the menu builder**
 
-1. [Log in to Toast Web ](adminAccessToastAdminBackend.html).
+1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. From the QUICK ACTIONS section, select Menu builder.

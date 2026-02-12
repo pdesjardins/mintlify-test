@@ -30,15 +30,15 @@ The packaging preferences configuration webhook sends you a message when a resta
 
  For information on how a restaurant can configure packaging preferences, see this [Toast Central article](https://central.toasttab.com/s/article/Configure-Packaging-Preferences-for-Takeout-and-Delivery).
 
-When a restaurant sets their packaging preferences, and you receive the `packaging_updated` webhook message with the updates, you can submit orders using the [orders API](apiOrdersPackagingPreferences.html#apiOrdersPackagingPreferencesUsingTheOrdersApi) with packaging preferences.
+When a restaurant sets their packaging preferences, and you receive the `packaging_updated` webhook message with the updates, you can submit orders using the [orders API](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi) with packaging preferences.
 
-Packaging preferences configuration webhook messages follow the [standard message data schema](apiMessageDataSchema.html). When a message is published to your webhook endpoint for the `packaging` event category, the `eventCategory` value is set to `partner` and the `eventType` is set to `packaging_updated`.
+Packaging preferences configuration webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). When a message is published to your webhook endpoint for the `packaging` event category, the `eventCategory` value is set to `partner` and the `eventType` is set to `packaging_updated`.
 
 ## packaging_updated
 
 A restaurant using your integration has updated its packaging preferences configuration in Toast Web.
 
-The packaging preferences configuration webhook `eventType` is `packaging_updated`. The webhook payload is similar to the packaging preferences response data from the [packagingConfig endpoint](apiOrdersPackagingPreferences.html).
+The packaging preferences configuration webhook `eventType` is `packaging_updated`. The webhook payload is similar to the packaging preferences response data from the [packagingConfig endpoint](apiDevGuide-apiOrdersPackagingPreferences).
 
 Attributes in the `packaging_updated` event's payload include:
 
@@ -46,7 +46,7 @@ Attributes in the `packaging_updated` event's payload include:
 | --- | --- |
 | `packagingConfig` | The parent object that holds the following information about the specific packaging preference configurations.data type:string | 
 | `enabled` | Indicates whether the restaurant is currently using packaging preferences in this object. If `TRUE`, you display the packaging options to guests in your ordering interface. If `FALSE`, do not display the options. data type: string | 
-| `items` | The list of available packaging items. The `items` array contains the following fields and values:- `id`: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the [orders API](apiOrdersPackagingPreferences.html#apiOrdersPackagingPreferencesUsingTheOrdersApi).
+| `items` | The list of available packaging items. The `items` array contains the following fields and values:- `id`: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the [orders API](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi).
 - `itemTypes`: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different `itemTypes`. For example, an item named "to-go items” that has `itemTypes` of napkins and utensils.
 - `guestDisplayName`: An alternative name the restaurant team can configure for a packaging item. For example, you may select `itemTypes` for `CONDIMENTS` but have your guests see the following message: “Ketchup and mustard.”
 - `guestInclusionType`: Defines how the restaurant guest should interact with the packaging preference. The available values are: - `OPT_IN`: A guest must complete an action to include packaging preferences, such as selecting a checkbox.

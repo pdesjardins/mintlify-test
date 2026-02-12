@@ -15,14 +15,14 @@ procedures: 0
 codeExamples: 0
 ---
 
-Check reporting data includes detailed check information for all orders created on a specific day. For more information on what is included in the check reporting data, see [Understanding the check reporting data](apiAnalyticsCheckReportingDataUnderstandingData.html). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
+Check reporting data includes detailed check information for all orders created on a specific day. For more information on what is included in the check reporting data, see [Understanding the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 Retrieving the check reporting data is a two-step process. You must:
 
-1. Send a `POST` request to `/era/v1/check/\{timeRange\}` endpoint to create a request for check reporting data for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API currently only supports retrieving check reporting data for the `day` time range. For more information, see [Creating a request for check reporting data](apiAnalyticsCheckReportingDataCreateRequest.html).
+1. Send a `POST` request to `/era/v1/check/\{timeRange\}` endpoint to create a request for check reporting data for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API currently only supports retrieving check reporting data for the `day` time range. For more information, see [Creating a request for check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest).
 
 
-2. Send a `GET` request to `/era/v1/check/\{reportRequestGuid\}` endpoint to retrieve the check reporting data. For more information, see [Retrieving the check reporting data](apiAnalyticsCheckReportingDataRetrieveData.html).
+2. Send a `GET` request to `/era/v1/check/\{reportRequestGuid\}` endpoint to retrieve the check reporting data. For more information, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).
 
 
 

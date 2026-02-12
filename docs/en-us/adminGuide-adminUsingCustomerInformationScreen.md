@@ -38,7 +38,7 @@ Certain Toast Web configurations and settings affect how the customer informatio
 
 **Procedure 13.4. To display the customer information screen for takeout or curbside orders**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
@@ -53,7 +53,7 @@ Certain Toast Web configurations and settings affect how the customer informatio
 
 **Procedure 13.5. To add guest delivery and billing information to an order**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
@@ -311,11 +311,11 @@ To reorder, select the order entry and then select the ✓ Add to order button. 
 
 ## Configuring your delivery area
 
-A delivery area must be configured for first-party delivery. The delivery area is used to determine if a guest’s delivery address is within your delivery range. If the guest’s address is outside your delivery area, an `Out of delivery range (# of miles)` label appears under the guest’s delivery address. For more information on how to configure your delivery area, see [Configuring your delivery area](adminConfigureDeliveryArea.html).
+A delivery area must be configured for first-party delivery. The delivery area is used to determine if a guest’s delivery address is within your delivery range. If the guest’s address is outside your delivery area, an `Out of delivery range (# of miles)` label appears under the guest’s delivery address. For more information on how to configure your delivery area, see [Configuring your delivery area](adminGuide-adminConfigureDeliveryArea).
 
 ## Offline support
 
-If your restaurant is offline, certain actions such as searching for or editing a guest profile may be unavailable. The search function on the customer information screen is unavailable until you reconnect. For more information about offline mode, see [Offline mode overview](adminOfflineModeOverview.html)
+If your restaurant is offline, certain actions such as searching for or editing a guest profile may be unavailable. The search function on the customer information screen is unavailable until you reconnect. For more information about offline mode, see [Offline mode overview](adminGuide-adminOfflineModeOverview)
 
 ### Using the customer information screen while offline
 

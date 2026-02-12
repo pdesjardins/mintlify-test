@@ -34,7 +34,7 @@ When you set `promisedDate`, make sure that the date and time reflects the requi
 
 For example, if an order takes 45 minutes to prepare, do not set `promisedDate` for a delivery order to 15 minutes after the restaurant starts to accept delivery orders.
 
-For information on how to estimate the wait time for an order, see [Calculating order wait time](calculatingOrderWaitTime.html).
+For information on how to estimate the wait time for an order, see [Calculating order wait time](apiDevGuide-calculatingOrderWaitTime).
 
 ## Setting openedDate for a future order
 

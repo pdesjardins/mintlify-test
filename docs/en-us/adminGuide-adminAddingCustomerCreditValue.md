@@ -20,11 +20,11 @@ To give credits to restaurant guests you:
 - Find the guest's record using the Lookup Customer function on a Toast POS device and then use the Add Value function. This section provides information about adding credit value using the Toast POS app.
 
 
-- Use the Toast CRM API to add credit value for a guest. For more information, see [Working with guests (deprecated)](apiDeprecatedApiFunctions.html#apiWorkingWithCustomers).
+- Use the Toast CRM API to add credit value for a guest. For more information, see [Working with guests (deprecated)](apiDevGuide-apiDeprecatedApiFunctions#apiWorkingWithCustomers).
 
 
 
-To add credit value to a guest record, you need to have the Customer Credits & Reports permission. If your Toast employee account does not have the Customer Credits & Reports permission, you can look up or create a guest record and begin adding guest credit value for the guest. Another restaurant employee who does have the Customer Credits & Reports permission must approve the guest credit to complete the transaction and add the value. For more information, see [Configuring permissions for working with credits](adminConfigurePermissionsCustomerCredits.html).
+To add credit value to a guest record, you need to have the Customer Credits & Reports permission. If your Toast employee account does not have the Customer Credits & Reports permission, you can look up or create a guest record and begin adding guest credit value for the guest. Another restaurant employee who does have the Customer Credits & Reports permission must approve the guest credit to complete the transaction and add the value. For more information, see [Configuring permissions for working with credits](adminGuide-adminConfigurePermissionsCustomerCredits).
 
 You can include a description of the reason that you give a guest credit. The reason description is an open text entry field. The reason does not affect the way that you can redeem the credit or the way that the Toast platform categorizes the credit.
 
@@ -39,7 +39,7 @@ You can include a description of the reason that you give a guest credit. The re
 3. Enter the guest's telephone number, name, or email address. Select the magnifying glass key to search for an existing guest record.
 
 
-4. Choose the guest's record from the list of search results. If you do not find an existing guest record, use the Add New Customer function to create a new record. For more information, see [Adding a guest record](adminAddingCustomers.html).
+4. Choose the guest's record from the list of search results. If you do not find an existing guest record, use the Add New Customer function to create a new record. For more information, see [Adding a guest record](adminGuide-adminAddingCustomers).
 
 The guest record displays the currency value of the credits that are available to the guest.
 

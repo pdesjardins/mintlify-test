@@ -54,7 +54,7 @@ When you create a modifier group composed of manually created modifiers, the Pri
 
 
 
-For more information on these settings, see [Setting the pricing method for a modifier group](adminPricingModifierOptions.html#adminSettingTheModifierPricingMethodForAModifierGroup).
+For more information on these settings, see [Setting the pricing method for a modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup).
 
 ### Basing a modifier group on an existing menu group
 
@@ -71,7 +71,7 @@ When you create a modifier group based on an existing menu group, you must set a
 
 
 
-For more information on these settings, see [Setting the pricing method for a modifier group](adminPricingModifierOptions.html#adminSettingTheModifierPricingMethodForAModifierGroup).
+For more information on these settings, see [Setting the pricing method for a modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup).
 
 ### Basing modifiers on existing menu items
 
@@ -87,22 +87,22 @@ When you set the Override item reference price setting to No, the Modifiers grid
 
 ![Example of the Modifiers grid, showing a modifier that uses a menu-specific price.](https://doc.toasttab.com/doc/media/pricing-mod-option-time-based-price.png)
 
-If the item reference uses the Base pricing strategy, you can edit that base price directly in the Modifiers grid. This changes the price for both the modifier and the underlying item reference. If the item reference uses any other pricing strategy, you must edit the price on the details page for the item reference itself (see [Understanding a modifier item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference) for information on viewing the details page for an item reference).
+If the item reference uses the Base pricing strategy, you can edit that base price directly in the Modifiers grid. This changes the price for both the modifier and the underlying item reference. If the item reference uses any other pricing strategy, you must edit the price on the details page for the item reference itself (see [Understanding a modifier item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference) for information on viewing the details page for an item reference).
 
 ### Other methods for adding modifiers to a modifier group
 
 In addition to the methods described earlier in this section, the Add drop-down list in the Modifiers grid has several other methods for adding modifiers to a modifier group. They include:
 
-- Add Existing Modifiers: This option allows you add an existing modifier to your modifier group. If you choose to override the item reference price, then the price of the modifier will be the same for all modifier groups that contain it (assuming the modifier groups are configured to set prices on individual modifiers). For more information on overriding item reference prices, see [Basing modifiers on existing menu items](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems).
+- Add Existing Modifiers: This option allows you add an existing modifier to your modifier group. If you choose to override the item reference price, then the price of the modifier will be the same for all modifier groups that contain it (assuming the modifier groups are configured to set prices on individual modifiers). For more information on overriding item reference prices, see [Basing modifiers on existing menu items](adminGuide-adminPricingModifierOptions#adminBasingModifierOptionsOnExistingMenuItems).
 
 
 - Copy Existing Modifiers: This option allows you to create a copy an existing modifier. The new modifier is separate and distinct from the original modifier. Changing the price of the new modifier has no effect on the original modifier.
 
 
-- New Modifier from New Item: This option works the same as the [Add \> New Modifier from Existing Item](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems) option from a pricing perspective, however, it allows you to immediately create a new menu item on which to base your modifier.
+- New Modifier from New Item: This option works the same as the [Add \> New Modifier from Existing Item](adminGuide-adminPricingModifierOptions#adminBasingModifierOptionsOnExistingMenuItems) option from a pricing perspective, however, it allows you to immediately create a new menu item on which to base your modifier.
 
 
-- Bulk Add New Modifiers: This option allows you to bulk add modifiers by importing them from a spreadsheet. When you add modifiers in this way, you are limited to creating modifiers with [base prices](adminBasePrice.html). Once the modifiers are imported into the Toast platform, you can go to the details pages for their item references and specify a different pricing strategy for them. If, during a bulk add, you upload an empty price for a modifier, the Toast platform converts that price to $0.00.
+- Bulk Add New Modifiers: This option allows you to bulk add modifiers by importing them from a spreadsheet. When you add modifiers in this way, you are limited to creating modifiers with [base prices](adminGuide-adminBasePrice). Once the modifiers are imported into the Toast platform, you can go to the details pages for their item references and specify a different pricing strategy for them. If, during a bulk add, you upload an empty price for a modifier, the Toast platform converts that price to $0.00.
 
 
 
@@ -112,23 +112,23 @@ The Pricing section of a modifier group details page includes the How are modifi
 
 - No charge
 
-The modifiers in a modifier group are free of charge. If you choose the No charge pricing method, any [override prices](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems) you have set for the modifiers in the group are ignored.
+The modifiers in a modifier group are free of charge. If you choose the No charge pricing method, any [override prices](adminGuide-adminPricingModifierOptions#adminBasingModifierOptionsOnExistingMenuItems) you have set for the modifiers in the group are ignored.
 
 
 - All modifiers share the same price
 
 Choosing this pricing method adds the Modifier Group Pricing section to the modifier group details page. Here, you can specify a group-level pricing strategy that applies to all of the modifiers in the group. The pricing strategies for a modifier group include:
 
-- Fixed: All of the modifiers in the group have the same, constant price. For example, if you set a fixed price of $1 for the Toppings modifier group, all of the toppings within the group (pepperoni, sausage, onion, mushrooms, and so on) cost $1 at all times. For more information, see [Fixed price](adminFixedPrice.html).
+- Fixed: All of the modifiers in the group have the same, constant price. For example, if you set a fixed price of $1 for the Toppings modifier group, all of the toppings within the group (pepperoni, sausage, onion, mushrooms, and so on) cost $1 at all times. For more information, see [Fixed price](adminGuide-adminFixedPrice).
 
 
-- Sequence: The prices of the modifiers in the modifier group are determined by the sequence in which they are added to a menu item. For example, on a pizza menu item with a Toppings modifier group, the first topping is free, the second topping costs $1.00, the third topping costs $1.50, and all additional toppings cost $2.00. For more information, see [Sequence price](adminSequencePrice.html).
+- Sequence: The prices of the modifiers in the modifier group are determined by the sequence in which they are added to a menu item. For example, on a pizza menu item with a Toppings modifier group, the first topping is free, the second topping costs $1.00, the third topping costs $1.50, and all additional toppings cost $2.00. For more information, see [Sequence price](adminGuide-adminSequencePrice).
 
 
-- Size: The cost of a modifier changes depending on either the size of the menu item it is applied to (for example, a topping costs $0.50 on a small pizza, $1 on a medium pizza, and $1.50 on a large pizza) or the size chosen for the modifier itself (for example, the small size of pepperoni costs $1 and the large size costs $2). For more information, see [Size price](adminSizePrice.html).
+- Size: The cost of a modifier changes depending on either the size of the menu item it is applied to (for example, a topping costs $0.50 on a small pizza, $1 on a medium pizza, and $1.50 on a large pizza) or the size chosen for the modifier itself (for example, the small size of pepperoni costs $1 and the large size costs $2). For more information, see [Size price](adminGuide-adminSizePrice).
 
 
-- Size/Sequence: The cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1 while the first topping on a large pizza is $1.50 and additional toppings are $2.50. For more information, see [Size/sequence price](adminSizeSequencePrice.html).
+- Size/Sequence: The cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1 while the first topping on a large pizza is $1.50 and additional toppings are $2.50. For more information, see [Size/sequence price](adminGuide-adminSizeSequencePrice).
 
 
 
@@ -139,14 +139,14 @@ Choosing this pricing method adds the Modifier Group Pricing section to the modi
 > The Sequence, Size, and Size/Sequencepricing strategies are not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk.
 
 
-If you have chosen to [base a modifier group on an existing menu group](adminPricingModifierOptions.html#adminBasingAModifierGroupOnAnExistingMenuGroup), you must use this pricing method for that modifier group. Also, if you choose this pricing method, any [override prices](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems) you have set for the modifiers in the group are ignored and the group-level price is used instead.
+If you have chosen to [base a modifier group on an existing menu group](adminGuide-adminPricingModifierOptions#adminBasingAModifierGroupOnAnExistingMenuGroup), you must use this pricing method for that modifier group. Also, if you choose this pricing method, any [override prices](adminGuide-adminPricingModifierOptions#adminBasingModifierOptionsOnExistingMenuItems) you have set for the modifiers in the group are ignored and the group-level price is used instead.
 
 
 - Each modifier has a unique price
 
-Choosing this pricing method adds the Price column to the Modifiers grid. The behavior of the Price column depends on how you created the modifiers. If you added [standalone modifiers](adminPricingModifierOptions.html#adminManuallyCreatingModifierOptions) to the modifier group (that is, modifiers that are not based on existing menu items or menu groups), you can use the Price column to quickly specify constant, fixed prices for those modifiers. If you added modifiers based on existing menu items, the behavior of the Price column depends on whether those modifiers are using the prices of their item references or specifying their own modifier-specific prices. For more information, see [Basing modifiers on existing menu items](adminPricingModifierOptions.html#adminBasingModifierOptionsOnExistingMenuItems).
+Choosing this pricing method adds the Price column to the Modifiers grid. The behavior of the Price column depends on how you created the modifiers. If you added [standalone modifiers](adminGuide-adminPricingModifierOptions#adminManuallyCreatingModifierOptions) to the modifier group (that is, modifiers that are not based on existing menu items or menu groups), you can use the Price column to quickly specify constant, fixed prices for those modifiers. If you added modifiers based on existing menu items, the behavior of the Price column depends on whether those modifiers are using the prices of their item references or specifying their own modifier-specific prices. For more information, see [Basing modifiers on existing menu items](adminGuide-adminPricingModifierOptions#adminBasingModifierOptionsOnExistingMenuItems).
 
-Choosing this pricing method also adds some settings necessary for [substitution pricing for default modifiers](adminPricingModifierOptions.html#adminUsingSubstitutionPricingForDefaultModifierOptions) and [size-based pricing of modifiers](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions) (note that the substitution pricing is in limited release).
+Choosing this pricing method also adds some settings necessary for [substitution pricing for default modifiers](adminGuide-adminPricingModifierOptions#adminUsingSubstitutionPricingForDefaultModifierOptions) and [size-based pricing of modifiers](adminGuide-adminSizePrice#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions) (note that the substitution pricing is in limited release).
 
 
 
@@ -192,7 +192,7 @@ Regardless of how you define your default modifiers, substitution pricing is alw
 1. In the Pricing section of a modifier group's details page, make sure the How are modifiers in this group priced setting is set to either All modifiers share the same price or Each modifier has a unique price. One of these settings is required to gain access to the Default Modifiers and Substitutions section.
 
 
-2. If necessary, specify the [pricing for the modifiers](adminPricingModifierOptions.html) in the modifier group you are editing.
+2. If necessary, specify the [pricing for the modifiers](adminGuide-adminPricingModifierOptions) in the modifier group you are editing.
 
 
 3. In the Default Modifiers and Substitutions section, set Allow default modifiers to charge their configured price to No - Ignore modifier price. When you select this option, the Enable Substitution Pricingsection becomes available.
@@ -204,7 +204,7 @@ Regardless of how you define your default modifiers, substitution pricing is alw
 5. Save your changes.
 
 
-6. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+6. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -226,14 +226,14 @@ Regardless of how you define your default modifiers, substitution pricing is alw
 
 You can specify whether the default modifiers in a modifier group are allowed to charge their configured price. For example, consider a Caesar Salad menu item that costs $10 and has a Chicken default modifier that costs $5. When a Caesar Salad is added to the order, the Chicken default modifier is also automatically added. The price of the Caesar salad itself is $10 and the price of the chicken is $5, making the total cost $15.
 
-The price of a default modifier is defined in the modifier's underlying [item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference). You can use any of the pricing strategies that are compatible with modifier item references when defining the price of a default modifier.
+The price of a default modifier is defined in the modifier's underlying [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference). You can use any of the pricing strategies that are compatible with modifier item references when defining the price of a default modifier.
 
 **Procedure 8.114. To allow default modifiers to charge their modifier price**
 
 1. In the Pricing section of a modifier group's details page, make sure the How are modifiers in this group priced setting is set to either All modifiers share the same price or Each modifier has a unique price. One of these settings is required to gain access to the Default Modifiers and Substitutions section.
 
 
-2. If necessary, specify the [pricing for the modifiers](adminPricingModifierOptions.html) in the modifier group you are editing.
+2. If necessary, specify the [pricing for the modifiers](adminGuide-adminPricingModifierOptions) in the modifier group you are editing.
 
 
 3. In the Default Modifiers and Substitutions section, set Allow default modifiers to charge their configured price to Yes - Charge modifier price.
@@ -242,7 +242,7 @@ The price of a default modifier is defined in the modifier's underlying [item re
 4. Save your changes.
 
 
-5. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+5. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 

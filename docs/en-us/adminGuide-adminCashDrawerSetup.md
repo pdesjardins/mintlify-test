@@ -32,7 +32,7 @@ Note these two scenarios:
 
 The cash drawer name appears in Toast Web in areas of the Cash Activity Audit and the Cash Drawer History reports. In addition, all areas on the Toast POS device that reference cash drawers will display the cash drawer name, not the associated printer name.
 
-You can assign a cash drawer name when you [create or update a cash drawer](adminCashDrawerSetup.html#adminCashDrawerCreate) with the Payments \> Checks & receipt setup \> Printers and cash drawers page in Toast Web.
+You can assign a cash drawer name when you [create or update a cash drawer](adminGuide-adminCashDrawerSetup#adminCashDrawerCreate) with the Payments \> Checks & receipt setup \> Printers and cash drawers page in Toast Web.
 
 ## Creating cash drawers
 
@@ -42,7 +42,7 @@ You need the Web Setup \> 6.10 Printer and Cash Drawer Setup permission to confi
 
 **Procedure 6.28. To configure a new cash drawer**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments \> Payment methods \> Cash overview \> Cash drawers \> View cash drawers to open the Cash drawers page.
@@ -110,7 +110,7 @@ Restaurants typically use one of two modes for how employees (such as servers or
 
 Based on the needs of the restaurant (such as for job roles or revenue centers), a restaurant can use both modes. For example, bartenders could use the cash in drawer mode, while servers could use cash in hand.
 
-An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](adminPermissions.html#permissionApplyCashPayments)permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
+An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](adminGuide-adminPermissions#permissionApplyCashPayments)permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
 
 **Procedure 6.29. To configure a Toast POS device for a cash drawer mode**
 

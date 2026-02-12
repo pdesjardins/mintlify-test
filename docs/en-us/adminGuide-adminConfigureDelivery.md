@@ -43,7 +43,7 @@ You can configure your delivery options on the Takeout/delivery page in Toast We
 
 **Procedure 3.28. To configure your delivery option**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
@@ -81,7 +81,7 @@ You must choose how to collect your guest's billing information. You can choose 
 
 
 
-- Disable delivery. Select this option to turn off delivery. You can also turn off delivery from the [online ordering dashboard](adminOnlineOrderingDashboard.html).
+- Disable delivery. Select this option to turn off delivery. You can also turn off delivery from the [online ordering dashboard](adminGuide-adminOnlineOrderingDashboard).
 
 
 

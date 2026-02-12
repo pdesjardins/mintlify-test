@@ -22,7 +22,7 @@ You can use the orders API to retrieve details about orders that were modified o
 
 > **Note**
 > 
-> Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
+> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
 
 
 ## How to make the request
@@ -66,7 +66,7 @@ For example, the time period you specify selects 100 orders. You set `pageSize` 
 
 The response header fields for the `/ordersBulk` endpoint include a set of response pagination links that you can use to send requests that return each `Order` object in the set of orders you select in a time period. These link header fields follow the pattern described in the [proposed Internet Engineering Task Force (IETF) web linking standard](https://tools.ietf.org/html/rfc5988).
 
-For an example of the pagination links in a `/ordersBulk`endpoint response, see [Example response data pagination header fields](apiOrdersGetDetailedInfoAboutMultipleOrders.html#apiOrdersBulkPaginationHeaderFieldsExample). For more information about Toast API response pagination, see [Paginating response data](apiResponseDataPagination.html).
+For an example of the pagination links in a `/ordersBulk`endpoint response, see [Example response data pagination header fields](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders#apiOrdersBulkPaginationHeaderFieldsExample). For more information about Toast API response pagination, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
 
 
 
@@ -79,7 +79,7 @@ For an example of the pagination links in a `/ordersBulk`endpoint response, see 
 
 > **Note**
 > 
-> The `/ordersBulk` endpoint has a lower rate limit than most other Toast API endpoints. API clients can poll the `/orderBulk` endpoint up to five times per location per second. For more information about API rate limits, see [Toast rate limit values](apiRateLimiting.html#apiToastRateLimits).
+> The `/ordersBulk` endpoint has a lower rate limit than most other Toast API endpoints. API clients can poll the `/orderBulk` endpoint up to five times per location per second. For more information about API rate limits, see [Toast rate limit values](apiDevGuide-apiRateLimiting#apiToastRateLimits).
 
 
 ## Example request for detailed information about multiple orders
@@ -305,7 +305,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 ## Example response data pagination header fields
 
-The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiResponseDataPagination.html).
+The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
 
 ```
 link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z

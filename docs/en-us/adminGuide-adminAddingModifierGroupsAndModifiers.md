@@ -26,22 +26,22 @@ Here are some important points to keep in mind when working with modifier groups
 
 - When you add a modifier group to a menu group or subgroup, by default, it is inherited by all menu items in the group.
 
-You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? setting to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminAddingModifierGroupsAndModifiers.html#adminInheritingMenuGroupsFromParentMenuGroup).
+You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? setting to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminGuide-adminAddingModifierGroupsAndModifiers#adminInheritingMenuGroupsFromParentMenuGroup).
 
 
 
 > **Note**
 > 
-> The remainder of this section uses the term *menu group* to refer to both menu groups and subgroups. Menu groups and subgroups have the same configuration settings and are effectively the same except for their location in the menu hierarchy. When there is a need to differentiate, the documentation does so. For more information, see [Comparing menu groups and subgroups](adminCreatingYourMenuHierarchy.html#adminComparingMenuGroupsAndSubgroups).
+> The remainder of this section uses the term *menu group* to refer to both menu groups and subgroups. Menu groups and subgroups have the same configuration settings and are effectively the same except for their location in the menu hierarchy. When there is a need to differentiate, the documentation does so. For more information, see [Comparing menu groups and subgroups](adminGuide-adminCreatingYourMenuHierarchy#adminComparingMenuGroupsAndSubgroups).
 
 
 
 
 
-- To reduce the number of modifier groups you have to manage, [add existing modifier groups](adminAddingModifierGroupsAndModifiers.html#adminAddingAnExistingModifierGroupToAMenuGroupOrItem) to menu groups or items whenever possible instead of creating new ones. For example, add the same Salad Dressing modifier group to both the Dinner Salad and Side Salad menu items.
+- To reduce the number of modifier groups you have to manage, [add existing modifier groups](adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingAnExistingModifierGroupToAMenuGroupOrItem) to menu groups or items whenever possible instead of creating new ones. For example, add the same Salad Dressing modifier group to both the Dinner Salad and Side Salad menu items.
 
 
-- If you remove a modifier group from a menu group, it is removed for all of the menu items in that menu group. For more information, see [Removing a modifier group](adminAddingModifierGroupsAndModifiers.html#adminRemovingAModifierGroup).
+- If you remove a modifier group from a menu group, it is removed for all of the menu items in that menu group. For more information, see [Removing a modifier group](adminGuide-adminAddingModifierGroupsAndModifiers#adminRemovingAModifierGroup).
 
 
 - If a modifier group is used by more than one menu group or item:
@@ -71,12 +71,12 @@ Here are some important points to keep in mind when creating new modifier groups
 
 - When you add a modifier group to a menu group, by default, it is inherited by all menu items in the menu group.
 
-You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? option to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminAddingModifierGroupsAndModifiers.html#adminInheritingMenuGroupsFromParentMenuGroup).
+You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? option to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminGuide-adminAddingModifierGroupsAndModifiers#adminInheritingMenuGroupsFromParentMenuGroup).
 
 
 
 
-- To reduce the number of modifier groups you have to manage, [add existing modifier groups](adminAddingModifierGroupsAndModifiers.html#adminAddingAnExistingModifierGroupToAMenuGroupOrItem) to menu groups or items whenever possible instead of creating new ones. For example, add the same Salad Dressing modifier group to both the Dinner Salad and Side Salad menu items.
+- To reduce the number of modifier groups you have to manage, [add existing modifier groups](adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingAnExistingModifierGroupToAMenuGroupOrItem) to menu groups or items whenever possible instead of creating new ones. For example, add the same Salad Dressing modifier group to both the Dinner Salad and Side Salad menu items.
 
 
 - You must add at least one modifier to a group before you can save the group.
@@ -85,7 +85,7 @@ You can disable inherited modifier groups for an individual item within a menu g
 
 **Procedure 8.19. To create a new modifier group**
 
-1. On the details page for the [menu group](adminCreatingYourMenuHierarchy.html#adminToEditAMenuGroup), [subgroup](adminCreatingYourMenuHierarchy.html#adminToEditASubgroup), or [item](adminCreatingYourMenuHierarchy.html#adminToEditAMenuItem)that you want to add a modifier group to, select Modifier groups.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup), [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup), or [item](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem)that you want to add a modifier group to, select Modifier groups.
 
 
 2. In the Modifier groups section, do one of the following:
@@ -110,22 +110,22 @@ The Create modifier group page opens.
 3. On the Create modifier group page, in the Modifier group details section, enter a name for the modifier group in the Modifier group name field.
 
 
-4. In the Modifier group details section, if you use Toast POS devices, you can [customize the POS button name and color](adminAssigningPOSButtonNicknameColorinMenuBuilder.html).
+4. In the Modifier group details section, if you use Toast POS devices, you can [customize the POS button name and color](adminGuide-adminAssigningPOSButtonNicknameColorinMenuBuilder).
 
 
-5. In the Pricing section, [specify how the modifiers in this group are priced](adminAddingModifierGroupsAndModifiers.html#adminSpecifyingModifierGroupPricing).
+5. In the Pricing section, [specify how the modifiers in this group are priced](adminGuide-adminAddingModifierGroupsAndModifiers#adminSpecifyingModifierGroupPricing).
 
 
-6. In the Modifiers section, [add modifiers to your modifier group](adminAddingModifierGroupsAndModifiers.html#adminAddingModifierstoModifierGroup).
+6. In the Modifiers section, [add modifiers to your modifier group](adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingModifierstoModifierGroup).
 
 
-7. In the Modifier group settings section, [choose whether selecting a modifier from this group is required or optional, and, if it's optional, whether to prompt the server](adminAddingModifierGroupsAndModifiers.html#adminSpecifyingModifierGroupRequiredOptional).
+7. In the Modifier group settings section, [choose whether selecting a modifier from this group is required or optional, and, if it's optional, whether to prompt the server](adminGuide-adminAddingModifierGroupsAndModifiers#adminSpecifyingModifierGroupRequiredOptional).
 
 
-8. In the Modifier group settings section, [specify whether you want guests to be able to order more than one modifier from this group, the minimum and maximum number of modifiers to choose from, and whether a modifier can be chosen more than once](adminAddingModifierGroupsAndModifiers.html#adminAllowingCustomerstoChooseOneorMoreModifiersfromModGroup).
+8. In the Modifier group settings section, [specify whether you want guests to be able to order more than one modifier from this group, the minimum and maximum number of modifiers to choose from, and whether a modifier can be chosen more than once](adminGuide-adminAddingModifierGroupsAndModifiers#adminAllowingCustomerstoChooseOneorMoreModifiersfromModGroup).
 
 
-9. In the Channel visibility section, [select the ordering channels where this modifier group is visible](adminSpecifyingOrderingChannelVisibility.html). A modifier group is available for ordering on the channels where it is visible.
+9. In the Channel visibility section, [select the ordering channels where this modifier group is visible](adminGuide-adminSpecifyingOrderingChannelVisibility). A modifier group is available for ordering on the channels where it is visible.
 
 
 10. Select Save. You see the details page for the menu entity again and the modifier group you created has been added to the Modifier groups section.
@@ -137,7 +137,7 @@ The Create modifier group page opens.
 12. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-13. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+13. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -154,7 +154,7 @@ Here are some important points to keep in mind when adding existing modifier gro
 
 - When you add a modifier group to a menu group, by default, it is inherited by all menu items in the menu group.
 
-You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? option to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminAddingModifierGroupsAndModifiers.html#adminInheritingMenuGroupsFromParentMenuGroup).
+You can disable inherited modifier groups for an individual item within a menu group or subgroup, by setting the item's Inherit modifier groups? setting to No. If you set a menu item's Inherit modifier groups? option to No, it will not inherit *any* of the modifier groups assigned to *any* of its parent menu groups. For more information, see [Inheriting modifier groups from a parent menu group](adminGuide-adminAddingModifierGroupsAndModifiers#adminInheritingMenuGroupsFromParentMenuGroup).
 
 
 
@@ -172,7 +172,7 @@ You can disable inherited modifier groups for an individual item within a menu g
 
 **Procedure 8.20. To add existing modifier groups to a menu group or item**
 
-1. On the details page for the [menu group](adminCreatingYourMenuHierarchy.html#adminToEditAMenuGroup), [subgroup](adminCreatingYourMenuHierarchy.html#adminToEditASubgroup), or [item](adminCreatingYourMenuHierarchy.html#adminToEditAMenuItem) that you want to add an existing modifier group to, select Modifier groups.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup), [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup), or [item](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem) that you want to add an existing modifier group to, select Modifier groups.
 
 
 2. In the Modifier groups section, do one of the following:
@@ -236,13 +236,13 @@ If there are more than 25 search results, scroll to the end of the list and sele
 10. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-11. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+11. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 ## Inheriting modifier groups from a parent menu group
 
-The Modifier groups section of the [menu item details](adminCreatingYourMenuHierarchy.html#adminToEditAMenuItem) page has an Inherit modifier groups? setting. By default, this setting is set to Yes, so that the menu item inherits modifier groups from its parent menu groups.
+The Modifier groups section of the [menu item details](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem) page has an Inherit modifier groups? setting. By default, this setting is set to Yes, so that the menu item inherits modifier groups from its parent menu groups.
 
 If you do not want a menu item to inherit modifier groups, set its Inherit modifier groups? setting to No and then add modifier groups to it directly using the Item-level modifier groupssettings.
 
@@ -256,7 +256,7 @@ Menu items can belong to more than one menu path. When a menu item belongs to mo
 
 When you set a menu item's Inherit modifier groups? option to Yes, you see a set of tables that show the different menu paths the menu item belongs to. The table for each path shows the modifier groups that the menu item inherits for each path, and the specific parent menu groups within those paths that provide the inherited modifier groups.
 
-For more information on inheritance, see [Understanding inheritance](platformUnderstandingInheritance.html).
+For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 ### Menu items can have item-level and menu group-level modifier groups
 
@@ -281,7 +281,7 @@ To edit a modifier group's configuration, you use its details page.
 
 **Procedure 8.21. To edit a modifier group**
 
-1. On the details page for the [menu group](adminCreatingYourMenuHierarchy.html#adminToEditAMenuGroup), [subgroup](adminCreatingYourMenuHierarchy.html#adminToEditASubgroup), or [item](adminCreatingYourMenuHierarchy.html#adminToEditAMenuItem)that contains the modifier group that you want to edit, select Modifier groups.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup), [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup), or [item](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem)that contains the modifier group that you want to edit, select Modifier groups.
 
 
 2. In the Modifier groups section, do one of the following:
@@ -305,13 +305,13 @@ The modifier group's details page opens.
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 ## Specifying modifier group pricing
 
-You use the Pricing section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup) to specify how the modifiers in a group are priced:
+You use the Pricing section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup) to specify how the modifiers in a group are priced:
 
 - No charge: There is no charge for the modifiers in the group.
 
@@ -327,13 +327,13 @@ You use the Pricing section of a [modifier group's details page](adminAddingModi
 
 Modifier groups contain individual modifiers that allow guests to customize their orders. For example, a Dinner Salad menu item might have a Salad Dressing modifier group that contains modifiers such as Balsamic Vinaigrette and Ranch.
 
-To add and customize the modifiers in a modifier group, you use the Modifiers section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup). The Modifiers section contains a Modifiers table that lists the modifiers in the modifier group you are creating or editing:
+To add and customize the modifiers in a modifier group, you use the Modifiers section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup). The Modifiers section contains a Modifiers table that lists the modifiers in the modifier group you are creating or editing:
 
 ![A modifier group details page with the Modifiers section displayed.](https://doc.toasttab.com/doc/media/menu-builder-modifiers-table.png)
 
 Here are some important points to keep in mind when working with modifiers:
 
-- To reduce the number of modifiers you have to manage, [add existing modifiers](adminAddingModifierGroupsAndModifiers.html#platformAddingAnExistingModifierToAModifierGroup) to modifier groups whenever possible instead of creating new ones. For example, a Breakfast Sides modifier group and a Burger Toppings modifier group could share a Bacon modifier.
+- To reduce the number of modifiers you have to manage, [add existing modifiers](adminGuide-adminAddingModifierGroupsAndModifiers#platformAddingAnExistingModifierToAModifierGroup) to modifier groups whenever possible instead of creating new ones. For example, a Breakfast Sides modifier group and a Burger Toppings modifier group could share a Bacon modifier.
 
 
 - If a modifier is used by more than one modifier group:
@@ -356,7 +356,7 @@ Follow the instructions below to create new modifiers for a modifier group.
 
 **Procedure 8.22. To create new modifiers for a modifier group**
 
-1. In the Modifiers section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), enter the name of the first modifier in the first row.
+1. In the Modifiers section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), enter the name of the first modifier in the first row.
 
 ![The Modifiers section with a new modifier entered in the first row.](https://doc.toasttab.com/doc/media/menu-builder-modifiers-table-empty.png)
 
@@ -364,7 +364,7 @@ Follow the instructions below to create new modifiers for a modifier group.
 2. To add another modifier to the modifier group, select + Add. A new row is added to the table where you can specify the details of the next modifier.
 
 
-3. If your modifiers are [priced individually](adminAddingModifierGroupsAndModifiers.html#adminSpecifyingModifierGroupPricing), the Modifiers table has a Price column where you can enter a price for each modifier you create.
+3. If your modifiers are [priced individually](adminGuide-adminAddingModifierGroupsAndModifiers#adminSpecifyingModifierGroupPricing), the Modifiers table has a Price column where you can enter a price for each modifier you create.
 
 
 
@@ -380,7 +380,7 @@ Follow the instructions below to create new modifiers for a modifier group.
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -399,7 +399,7 @@ If a modifier group is used by more than one menu group or item, keep in mind th
 
 **Procedure 8.23. To add existing modifiers to a modifier group**
 
-1. In the Modifiers section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), select the arrow next to the + Add button and then choose Add existing from the menu.
+1. In the Modifiers section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), select the arrow next to the + Add button and then choose Add existing from the menu.
 
 ![The location of the Add existing option.](https://doc.toasttab.com/doc/media/menu-builder-modifiers-table-add-existing-mod.png)
 
@@ -451,7 +451,7 @@ You can repeat these steps to add more than one existing modifier during a singl
 6. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-7. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+7. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -461,7 +461,7 @@ Follow the instructions below to change the display sequence of the modifiers in
 
 **Procedure 8.24. To change the display sequence of modifiers in a modifier group**
 
-1. In the Modifiers section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), select a modifier's reorder icon and drag the row to its new location.
+1. In the Modifiers section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), select a modifier's reorder icon and drag the row to its new location.
 
 ![The location of a modifier's reorder icon.](https://doc.toasttab.com/doc/media/menu-builder-modifiers-table-reorder.png)
 
@@ -472,17 +472,17 @@ Follow the instructions below to change the display sequence of the modifiers in
 3. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-4. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+4. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 ### Editing a modifier's details
 
-The Modifiers table displays a modifier's name and price (the Price column only appears if the modifiers in the group are [priced individually](adminAddingModifierGroupsAndModifiers.html#adminSpecifyingModifierGroupPricing)). To set other details for a modifier, such as button color and calories, you open its Edit modifier dialog.
+The Modifiers table displays a modifier's name and price (the Price column only appears if the modifiers in the group are [priced individually](adminGuide-adminAddingModifierGroupsAndModifiers#adminSpecifyingModifierGroupPricing)). To set other details for a modifier, such as button color and calories, you open its Edit modifier dialog.
 
 **Procedure 8.25. To set other details for a modifier**
 
-1. In the Modifiers section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), select a modifier's edit icon.
+1. In the Modifiers section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), select a modifier's edit icon.
 
 ![The location of a modifier's edit icon.](https://doc.toasttab.com/doc/media/menu-builder-modifiers-table-edit.png)
 
@@ -513,7 +513,7 @@ You see the Edit modifierdialog:
 4. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -523,7 +523,7 @@ Follow the instructions below to remove modifiers from a modifier group.
 
 **Procedure 8.26. To remove modifiers from a modifier group**
 
-1. In the Modifiers section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), select a modifier's remove icon.
+1. In the Modifiers section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), select a modifier's remove icon.
 
 ![The location of a modifier's remove icon.](https://doc.toasttab.com/doc/media/menu-builder-modifiers-table-remove.png)
 
@@ -536,13 +536,13 @@ If a modifier is used by more than one modifier group, and you remove it from on
 3. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-4. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html) for more information.
+4. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
 
 
 
 ## Specifying if a modifier group is required or optional
 
-In the Modifier group settings section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), you can choose whether selecting a modifier from a group is required or optional:
+In the Modifier group settings section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), you can choose whether selecting a modifier from a group is required or optional:
 
 - A Required modifier group is always shown to a guest or server and they must make a selection before they can proceed with an order (for example, meat temperature on a Steak menu item).
 
@@ -555,11 +555,11 @@ If you choose Optional and you use POS devices, you can also toggle the Include 
 
 ### Sequence of modifier groups
 
-The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. See [Modifier group display order overview](platformModifierGroupDisplayOrderOverview.html) for more information.
+The sequence of modifier groups in Toast ordering channels is affected by the required and optional settings. In general, required modifier groups are shown first, followed by optional groups that use a POS prompt, followed by optional groups that don't use a POS prompt; however there are other factors that affect modifier group display order. See [Modifier group display order overview](adminGuide-platformModifierGroupDisplayOrderOverview) for more information.
 
 ### Required modifier groups and visibility settings
 
-When you configure a modifier group as Required, you must also pay careful attention to the group's [ordering channel visibility](adminSpecifyingOrderingChannelVisibility.html) settings. If the group is not visible on a particular channel, guests and servers won't see it on that channel and it will be missing from orders placed on that channel, even if it is marked as Required. Examples of channels include the Toast POS app, a Toast Kiosk, a restaurant's Toast online ordering site, or a third-party ordering website like Grubhub, Doordash, or UberEats.
+When you configure a modifier group as Required, you must also pay careful attention to the group's [ordering channel visibility](adminGuide-adminSpecifyingOrderingChannelVisibility) settings. If the group is not visible on a particular channel, guests and servers won't see it on that channel and it will be missing from orders placed on that channel, even if it is marked as Required. Examples of channels include the Toast POS app, a Toast Kiosk, a restaurant's Toast online ordering site, or a third-party ordering website like Grubhub, Doordash, or UberEats.
 
 Consider the following example. A Dinner Salad menu item has a Dressing modifier group that is marked as Required. The Dinner Salad's visibility settings specify that it is visible and available for ordering on all channels. The Dressing modifier group, however, was accidentally configured so that it is not visible on the Toast Online Ordering site. When a guest places an order for the Dinner Salad on the Toast online ordering site, they are not shown the Dressing modifier group because that modifier group is not visible on the Toast online ordering site. Consequently, when the order is sent to the restaurant, it is missing a selection from the Dressing modifier group.
 
@@ -567,7 +567,7 @@ To sum up, if you mark a modifier group as Required, pay careful attention to it
 
 ## Allowing guests to choose one or more modifiers from the same modifier group
 
-In the Modifier group settings section of a [modifier group's details page](adminAddingModifierGroupsAndModifiers.html#adminEditingAModifierGroup), you can specify whether guests can order more than one modifier from a modifier group.
+In the Modifier group settings section of a [modifier group's details page](adminGuide-adminAddingModifierGroupsAndModifiers#adminEditingAModifierGroup), you can specify whether guests can order more than one modifier from a modifier group.
 
 Set the Allow guests to select more than one modifier toggle to On if you want guests to be able to select more than one modifier from this group. The additional options you see depend on whether the modifier group is required or optional:
 
@@ -595,7 +595,7 @@ If the Allow guests to select more than one modifier option is On, the Can a sin
 
 ### Minimum modifiers and visibility settings
 
-When you configure a modifier group to use the What is the minimum number a guest must select setting, you must also pay careful attention to the [ordering channel visibility](adminSpecifyingOrderingChannelVisibility.html) settings for the modifiers in that group. Specifically, you must ensure that the number of modifiers that are visible in any given ordering channel meet or exceed the minimum number of modifiers a guest or server must select from the modifier group.
+When you configure a modifier group to use the What is the minimum number a guest must select setting, you must also pay careful attention to the [ordering channel visibility](adminGuide-adminSpecifyingOrderingChannelVisibility) settings for the modifiers in that group. Specifically, you must ensure that the number of modifiers that are visible in any given ordering channel meet or exceed the minimum number of modifiers a guest or server must select from the modifier group.
 
 For example, consider a Lunch Sides modifier group that sets the What is the minimum number a guest must selectoption to 2 and has the following modifiers:
 
@@ -624,7 +624,7 @@ Here are some important points to keep in mind when removing modifier groups:
 
 **Procedure 8.27. To remove a modifier group**
 
-1. On the details page for the [menu group](adminCreatingYourMenuHierarchy.html#adminToEditAMenuGroup), [subgroup](adminCreatingYourMenuHierarchy.html#adminToEditASubgroup), or [item](adminCreatingYourMenuHierarchy.html#adminToEditAMenuItem)that contains the modifier group that you want to remove, select Modifier groups.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup), [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup), or [item](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem)that contains the modifier group that you want to remove, select Modifier groups.
 
 
 2. Select the Remove icon (-) for the modifier group you want to remove.
@@ -636,7 +636,7 @@ Here are some important points to keep in mind when removing modifier groups:
 4. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 

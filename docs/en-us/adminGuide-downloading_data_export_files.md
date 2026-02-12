@@ -20,7 +20,7 @@ The Toast platform stores data export files for seven days, and then they are de
 - SFTP User name: This is provided by Toast support.
 
 
-- SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminSshKeys.html).
+- SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminGuide-adminSshKeys).
 
 
 - Server URL: To locate the appropriate Server URL, navigate to Reports \> Settings \> SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
@@ -33,7 +33,7 @@ Export IDs can also be obtained from Toast Web. Navigate to Reports \> Settings 
 
 
 
-Prior to downloading data export files, ensure that you have [added an SSH key](adminSshKeys.html) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
+Prior to downloading data export files, ensure that you have [added an SSH key](adminGuide-adminSshKeys) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
 
 ## Accessing your SFTP directory using macOS terminal
 

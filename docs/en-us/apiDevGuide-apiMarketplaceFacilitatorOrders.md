@@ -28,7 +28,7 @@ The prices that you provide should match the menu prices from the restaurant con
 
 In both cases, you also indicate whether you collect and remit taxes on behalf of the Toast restaurant. Restaurant employees use Toast platform analytics and reports to get information about the tax amounts that a marketplace facilitator paid on their behalf.
 
-For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
+For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminGuide-adminMarketplaceFacilitatorTaxPayments).
 
 ## Overview of the order creation process for a marketplace facilitator order
 
@@ -37,7 +37,7 @@ A marketplace facilitator uses the following process to create an order and remi
 1. As a marketplace facilitator, your organization receives a guest order to be fulfilled at a Toast restaurant location.
 
 
-2. You use the orders API to get accurate price and tax amount information for the order. For more information, see [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices).
+2. You use the orders API to get accurate price and tax amount information for the order. For more information, see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
 
 3. You receive payment for the order from the restaurant guest.
@@ -47,10 +47,10 @@ A marketplace facilitator uses the following process to create an order and remi
 
 When you create a Toast platform order as a marketplace facilitator, you can either:
 
-- Allow the Toast platform to calculate and populate the prices and tax amounts. For more information, see [Allowing the Toast platform to calculate the prices and tax amounts](apiMarketplaceFacilitatorOrders.html#apiUsingToastPlatformPricesMarketplaceFacilitatorOrders).
+- Allow the Toast platform to calculate and populate the prices and tax amounts. For more information, see [Allowing the Toast platform to calculate the prices and tax amounts](apiDevGuide-apiMarketplaceFacilitatorOrders#apiUsingToastPlatformPricesMarketplaceFacilitatorOrders).
 
 
-- Provide the prices and tax amounts for the items in the order. For more information, see [Specifying prices and tax amounts](apiMarketplaceFacilitatorOrders.html#apiSpecifyingPricesMarketplaceFacilitatorOrders).
+- Provide the prices and tax amounts for the items in the order. For more information, see [Specifying prices and tax amounts](apiDevGuide-apiMarketplaceFacilitatorOrders#apiSpecifyingPricesMarketplaceFacilitatorOrders).
 
 
 
@@ -134,15 +134,15 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 When you create a marketplace facilitator order, you can provide the prices and tax amounts for the order. You typically select this option when you have a tax partner that calculates the tax amounts for you.
 
-When you choose this option, make sure that the prices that you provide are consistent with the restaurant menu prices. You can get the prices for the current order (see [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices)), or get the prices from the menu configuration (see [Get menus](https://doc.toasttab.com/openapi/menus/operation/menusGet/)).
+When you choose this option, make sure that the prices that you provide are consistent with the restaurant menu prices. You can get the prices for the current order (see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices)), or get the prices from the menu configuration (see [Get menus](https://doc.toasttab.com/openapi/menus/operation/menusGet/)).
 
-Service charges and discounts are not supported when your integration provides prices and tax amounts for the order. Including an `appliedServiceCharges` or `appliedDiscounts` object in your order submission will cause the order to fail and return an error. For more information about service charges, see [Service charges for checks](apiOrderPrices.html#apiServiceCharges). For more information about discounts, see [Working with order discounts](apiDiscountingOrders.html).
+Service charges and discounts are not supported when your integration provides prices and tax amounts for the order. Including an `appliedServiceCharges` or `appliedDiscounts` object in your order submission will cause the order to fail and return an error. For more information about service charges, see [Service charges for checks](apiDevGuide-apiOrderPrices#apiServiceCharges). For more information about discounts, see [Working with order discounts](apiDevGuide-apiDiscountingOrders).
 
 In a marketplace facilitator order that specifies prices and tax amounts:
 
 - For each menu item selection, provide the item price as the value of `externalPriceAmount`.
 
-For menu items that use size pricing, specify the item price as the value of `externalPriceAmount` for the size-price modifier. For the parent item, set `externalPriceAmount` to `0.00`. For more information, see [Specifying size prices in marketplace facilitator orders](apiMarketplaceFacilitatorOrders.html#apiSpecifyingPricesMarketplaceFacilitatorOrdersSizePrice).
+For menu items that use size pricing, specify the item price as the value of `externalPriceAmount` for the size-price modifier. For the parent item, set `externalPriceAmount` to `0.00`. For more information, see [Specifying size prices in marketplace facilitator orders](apiDevGuide-apiMarketplaceFacilitatorOrders#apiSpecifyingPricesMarketplaceFacilitatorOrdersSizePrice).
 
 
 - In the `MarketplaceFacilitatorTaxInfo` object for the order, include a `taxes` array of `AppliedTaxRate` objects.
@@ -234,7 +234,7 @@ The `Order` object in the following example creates a marketplace facilitator or
   
 ## Specifying size prices in marketplace facilitator orders
 
-Marketplace facilitator orders can include menu items that use size pricing. For information about menu items with size pricing, see [Menu item with a size price](apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2.html#apiMenuItemWithASizePrice_V2).
+Marketplace facilitator orders can include menu items that use size pricing. For information about menu items with size pricing, see [Menu item with a size price](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2#apiMenuItemWithASizePrice_V2).
 
 When you create a marketplace facilitator order and specify prices, you include an `externalPriceAmount` for all of the menu item selections. For size-priced items:
 

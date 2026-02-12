@@ -23,7 +23,7 @@ The Toast platform stores information about your guests and uses it to create a 
 - Create an order for delivery or takeout using a Toast POS device or the orders API
 
 
-- Create a guest record using the Toast CRM (customer relations management) API. For more information, see [Working with guests (deprecated)](apiDeprecatedApiFunctions.html#apiWorkingWithCustomers).
+- Create a guest record using the Toast CRM (customer relations management) API. For more information, see [Working with guests (deprecated)](apiDevGuide-apiDeprecatedApiFunctions#apiWorkingWithCustomers).
 
 
 - Complete any other action that transmits information about guests to the Toast platform. For example, the guest information stored on gift cards is added to the Toast platform when you import gift cards

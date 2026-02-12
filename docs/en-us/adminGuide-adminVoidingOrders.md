@@ -17,7 +17,7 @@ codeExamples: 0
 
 Until the check payment is captured, you can void the check to cancel the payment and the menu item selections. For example, a guest might place an order and then have to leave unexpectedly before they receive the meal.
 
-After the payment is captured, you cannot void the check. You must refund the check amount. See [Refunds and voids](adminRefundsAndVoids.html).
+After the payment is captured, you cannot void the check. You must refund the check amount. See [Refunds and voids](adminGuide-adminRefundsAndVoids).
 
 From the Toast POS app, you can either:
 
@@ -28,7 +28,7 @@ From the Toast POS app, you can either:
 
 
 
-You can also [void items and orders from the Orders Hub](platformUsingOrdersHub.html#platformVoidingAnItemOrAnOrder).
+You can also [void items and orders from the Orders Hub](adminGuide-platformUsingOrdersHub#platformVoidingAnItemOrAnOrder).
 
 ## Configuring void reasons
 
@@ -108,7 +108,7 @@ Voiding checks involves the following permissions:
 
 
 ****Access mode permissions****
-: [Access "mode" permissions](adminPermissions.html#adminModePermissions)provide access to the areas of the Toast POS app where the void check options are located.
+: [Access "mode" permissions](adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the void check options are located.
 
 For the bulk check void, you must have Table Service Mode, Quick Order Mode, or Payment Terminal Mode permission.
 
@@ -117,21 +117,21 @@ For the single check void, you must have Table Service Mode or Quick Order Modep
 
 
 ****Bulk Void Open Checks****
-: The [Bulk Void Open Checks](adminPermissions.html#permissionBulkVoidOpenChecks) permission allows you to select and void multiple checks at the same time.
+: The [Bulk Void Open Checks](adminGuide-adminPermissions#permissionBulkVoidOpenChecks) permission allows you to select and void multiple checks at the same time.
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Void Items/Orders****
-: The [Void Items/Orders](adminPermissions.html#permissionVoidItemsOrders)permission allows you to select and void a single check.
+: The [Void Items/Orders](adminGuide-adminPermissions#permissionVoidItemsOrders)permission allows you to select and void a single check.
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Edit Other Employees' Orders****
-: The [Edit Other Employees' Orders](adminPermissions.html#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
+: The [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
 
 If you have this permission, then you can void checks that are assigned to a different employee.
 
@@ -178,7 +178,7 @@ Select Void.
 
 
 
-When a check is voided, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminKitchenDiningRoomReference.html#configPrintTicketChanges)configuration, a new ticket is printed.
+When a check is voided, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminGuide-adminKitchenDiningRoomReference#configPrintTicketChanges)configuration, a new ticket is printed.
 
 ## Voiding a single check
 
@@ -235,5 +235,5 @@ Select Void order.
 
 
 
-For an open order, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminKitchenDiningRoomReference.html#configPrintTicketChanges)configuration, the order prints on a new ticket.
+For an open order, "(VOIDED)" appears on corresponding KDS tickets with lines through the voided items. Depending on the [Print Ticket Changes](adminGuide-adminKitchenDiningRoomReference#configPrintTicketChanges)configuration, the order prints on a new ticket.
 

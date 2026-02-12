@@ -21,15 +21,15 @@ Welcome to the Toast integration community! Here's how to get started building y
 
 ### Sign up for updates
 
-Subscribe to updates on [this page](apiUpdatesEmailDistributionList.html). This adds you to the distribution list for release notes and status updates.
+Subscribe to updates on [this page](apiDevGuide-apiUpdatesEmailDistributionList). This adds you to the distribution list for release notes and status updates.
 
 ### Download example API requests
 
-To familiarize yourself with Toast APIs, download our collection of [example API requests](apiExampleRequests.html).
+To familiarize yourself with Toast APIs, download our collection of [example API requests](apiDevGuide-apiExampleRequests).
 
 To get an authentication token, plug in your credentials and the sandbox hostname. You get your credentials and the sandbox hostname from the Toast integrations team when you start to build your integration.
 
-For more information, see [Integration partnership process](integrationDevProcess.html).
+For more information, see [Integration partnership process](apiDevGuide-integrationDevProcess).
 
 ## Authentication
 
@@ -37,18 +37,18 @@ For more information, see [Integration partnership process](integrationDevProces
 
 > **Note**
 > 
-> This section does not apply to the [gift card API](apiGiftCardIntegrationOverview.html) or the [loyalty API](apiLoyaltyProgramIntegrationOverview.html).
+> This section does not apply to the [gift card API](apiDevGuide-apiGiftCardIntegrationOverview) or the [loyalty API](apiDevGuide-apiLoyaltyProgramIntegrationOverview).
 
 
 ### Get an authentication token
 
-Use [these instructions](authentication.html#getting-authentication-token) to use the authentication API to get your first authentication token.
+Use [these instructions](apiDevGuide-authentication#getting-authentication-token) to use the authentication API to get your first authentication token.
 
 ### Refresh your authentication token
 
 Your integration should request a new authentication token during the last minute the original token is valid (less than 60 seconds before the original token expires).
 
-For more information, see [Refreshing authentication tokens](apiAuthTokenRefresh.html).
+For more information, see [Refreshing authentication tokens](apiDevGuide-apiAuthTokenRefresh).
 
 ## Restaurant connections
 
@@ -56,19 +56,19 @@ For more information, see [Refreshing authentication tokens](apiAuthTokenRefresh
 
 > **Note**
 > 
-> This section does not apply to the [gift card API](apiGiftCardIntegrationOverview.html) or the [loyalty API](apiLoyaltyProgramIntegrationOverview.html).
+> This section does not apply to the [gift card API](apiDevGuide-apiGiftCardIntegrationOverview) or the [loyalty API](apiDevGuide-apiLoyaltyProgramIntegrationOverview).
 
 
-### If you use a [partner API client](apiClientAccounts.html#apiPartnerApiClientAccounts)
+### If you use a [partner API client](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts)
 
-Contact the Toast integrations team with your URL for the [partners webhook](apiPartnersGettingAccessibleRestaurants.html#apiGettingRestaurantAccessUpdatesFromPartnersWebhook). Review the [webhook documentation](apiWebhookBasics.html).
+Contact the Toast integrations team with your URL for the [partners webhook](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGettingRestaurantAccessUpdatesFromPartnersWebhook). Review the [webhook documentation](apiDevGuide-apiWebhookBasics).
 
 Use this webhook to receive real-time notifications when:
 
 - Your integration is added or removed.
 
 
-- Restaurants update the [location and group ID fields](apiPartnersGettingAccessibleRestaurants.html#apiPartnersLocationGroupIDs) for your integration.
+- Restaurants update the [location and group ID fields](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs) for your integration.
 
 
 
@@ -76,19 +76,19 @@ The webhook should be your primary mechanism to understand who is connected to y
 
 If you receive a notification that a restaurant has removed your integration, stop all API requests for that restaurant location.
 
-In addition, poll the `/restaurants` endpoint of the [partners API](apiPartnersGettingAccessibleRestaurants.html#apiUsingPartnersApiToGetRestaurantInfo)to retrieve a list of all restaurants connected to your integration. Programmatically poll this endpoint a few times per day using the `lastModified` query parameter to see if any new restaurants have connected to your integration since you last evaluated the list.
+In addition, poll the `/restaurants` endpoint of the [partners API](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiUsingPartnersApiToGetRestaurantInfo)to retrieve a list of all restaurants connected to your integration. Programmatically poll this endpoint a few times per day using the `lastModified` query parameter to see if any new restaurants have connected to your integration since you last evaluated the list.
 
-The `/connectedRestaurants` endpoint can also be used to retrieve your connected restaurants and provides a paginated response. `/connectedRestaurants` includes the same JSON objects as the `/restaurants` endpoint with a few additional fields for navigating different response pages. For more information on using the `/connectedRestaurants` endpoint, see [How to make a request to /connectedRestaurants](apiPartnersGettingAccessibleRestaurants.html#apiConnectedRestaurantsHowTo) or visit the [Get connected restaurants](https://doc.toasttab.com/openapi/partners/operation/connectedRestaurantsGet/) API specification. For more information on pagination, see [Paginating response data](apiResponseDataPagination.html).
+The `/connectedRestaurants` endpoint can also be used to retrieve your connected restaurants and provides a paginated response. `/connectedRestaurants` includes the same JSON objects as the `/restaurants` endpoint with a few additional fields for navigating different response pages. For more information on using the `/connectedRestaurants` endpoint, see [How to make a request to /connectedRestaurants](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiConnectedRestaurantsHowTo) or visit the [Get connected restaurants](https://doc.toasttab.com/openapi/partners/operation/connectedRestaurantsGet/) API specification. For more information on pagination, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
 
-### If you use a [restaurant management group API client](apiClientAccounts.html#apiRestaurantManagementGroupApiAccounts)
+### If you use a [restaurant management group API client](apiDevGuide-apiClientAccounts#apiRestaurantManagementGroupApiAccounts)
 
-Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiRestaurantsInGroup.html) a list of all restaurants in your restaurant management group.
+Use the restaurant GUID and restaurant group GUID to retrieve from the [/groups endpoint](apiDevGuide-apiRestaurantsInGroup) a list of all restaurants in your restaurant management group.
 
 You get the restaurant GUID and the restaurant group GUID from the Toast integrations team when you begin to build your integration.
 
 If you add restaurants to your management group in the future, the endpoint will include the new restaurant locations in the list.
 
-You can get detailed information about a specific restaurant using the `/v1/restaurants/\{restaurantGUID\}` endpoint of the restaurants API. For more information, see [Getting information about a specific restaurant](apiRestaurantInformation.html). When you use the `/v1/restaurants/\{restaurantGUID\}` endpoint, set the `includeArchived` query parameter to `true` to ensure that the endpoint will return information about the restaurant even if it has been made inactive (archived). You can determine whether a restaurant has been archived by checking the `archived`value in the `General` object of the restaurant information you receive from the endpoint response. If you use the `/v1/restaurants/\{restaurantGUID\}` endpoint and receive an HTTP 404 Not Found response, set the `includeArchived` query parameter to `true` and make the request again to determine whether the restaurant exists and has been archived. 
+You can get detailed information about a specific restaurant using the `/v1/restaurants/\{restaurantGUID\}` endpoint of the restaurants API. For more information, see [Getting information about a specific restaurant](apiDevGuide-apiRestaurantInformation). When you use the `/v1/restaurants/\{restaurantGUID\}` endpoint, set the `includeArchived` query parameter to `true` to ensure that the endpoint will return information about the restaurant even if it has been made inactive (archived). You can determine whether a restaurant has been archived by checking the `archived`value in the `General` object of the restaurant information you receive from the endpoint response. If you use the `/v1/restaurants/\{restaurantGUID\}` endpoint and receive an HTTP 404 Not Found response, set the `includeArchived` query parameter to `true` and make the request again to determine whether the restaurant exists and has been archived. 
 
 ## Rate limits
 
@@ -96,12 +96,12 @@ You can get detailed information about a specific restaurant using the `/v1/rest
 
 > **Note**
 > 
-> This section does not apply to the [gift card API](apiGiftCardIntegrationOverview.html) or the [loyalty API](apiLoyaltyProgramIntegrationOverview.html).
+> This section does not apply to the [gift card API](apiDevGuide-apiGiftCardIntegrationOverview) or the [loyalty API](apiDevGuide-apiLoyaltyProgramIntegrationOverview).
 
 
 ### Throttle for rate limits
 
-To avoid receiving rate limit errors when you call Toast APIs, throttle your requests so they stay within Toast API [rate limits](apiRateLimiting.html).
+To avoid receiving rate limit errors when you call Toast APIs, throttle your requests so they stay within Toast API [rate limits](apiDevGuide-apiRateLimiting).
 
 ## Error management
 
@@ -123,7 +123,7 @@ Your integration should have an error threshold, after which you stop submitting
 
 After your integration goes live, you need to be equipped to handle planned and unplanned downtimes of the Toast platform.
 
-Use the [API downtime guidelines](apiHandlingDowntimes.html) to create your downtime procedures before you need them.
+Use the [API downtime guidelines](apiDevGuide-apiHandlingDowntimes) to create your downtime procedures before you need them.
 
 ## Integration documentation
 

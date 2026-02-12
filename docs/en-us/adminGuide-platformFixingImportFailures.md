@@ -17,7 +17,7 @@ codeExamples: 0
 
 There are two types of failures that can occur when importing data with the bulk import tool: data validation failures and import operations failures.
 
-When it attempts to import a CSV file, the Toast platform first validates the data in the CSV file to make sure it conforms to the acceptable values described in [Filling out a bulk import spreadsheet](platformFillingOutTheBulkImportSpreadsheet.html). If any of the rows fail this validation step, the Toast platform displays the Errors found in import file page to notify you of the data validation failure:
+When it attempts to import a CSV file, the Toast platform first validates the data in the CSV file to make sure it conforms to the acceptable values described in [Filling out a bulk import spreadsheet](adminGuide-platformFillingOutTheBulkImportSpreadsheet). If any of the rows fail this validation step, the Toast platform displays the Errors found in import file page to notify you of the data validation failure:
 
 ![Example of the Errors found in import file page, showing one error.](https://doc.toasttab.com/doc/media/menus-bulk-import-data-validation-error.png)
 
@@ -64,7 +64,7 @@ The following procedure describes how to fix data validation and import operatio
 After the CSV file is imported successfully, you are redirected to the Import history tab and notified that the import was successful. A new entry is also added to the Complete imports table for the import you just completed.
 
 
-10. If the re-import was to fix a partially complete import, you may also need to to use Toast Web to re-order the imported menu entities. For more information, see [Fixing the order of re-imported menu entities](platformFixingImportFailures.html#platformFixingTheOrderOfReImportedMenuEntities)below.
+10. If the re-import was to fix a partially complete import, you may also need to to use Toast Web to re-order the imported menu entities. For more information, see [Fixing the order of re-imported menu entities](adminGuide-platformFixingImportFailures#platformFixingTheOrderOfReImportedMenuEntities)below.
 
 
 
@@ -97,5 +97,5 @@ It is possible to leave the Incomplete importpage without fixing and retrying th
 
 ![Example of the Bulk import tool page, showing a notification that one or more import attempts need attention.](https://doc.toasttab.com/doc/media/menus-bulk-import-import-needs-attention.png)
 
-You can quickly restart the re-import process by selecting the View import history link in the notification or by going to the Import history tab. Any failed imports are listed in the Incomplete imports table. Select the Fix and retry link for a failed import to re-open the Incomplete import page for the import and continue with the [procedure](platformFixingImportFailures.html#platformToFixAndReImportABulkImportCsvFile)provided above.
+You can quickly restart the re-import process by selecting the View import history link in the notification or by going to the Import history tab. Any failed imports are listed in the Incomplete imports table. Select the Fix and retry link for a failed import to re-open the Incomplete import page for the import and continue with the [procedure](adminGuide-platformFixingImportFailures#platformToFixAndReImportABulkImportCsvFile)provided above.
 

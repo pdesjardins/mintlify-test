@@ -49,9 +49,9 @@ The restaurant in this example uses courses and meal pacing to fire items in the
 
 
 
-For more information on course pacing settings, see [Course Pacing](adminKitchenDiningRoomReference.html#configCoursePacingRef).
+For more information on course pacing settings, see [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacingRef).
 
-This example restaurant also uses individual item fulfillment and sends prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter).
+This example restaurant also uses individual item fulfillment and sends prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
 
 1. The order is placed on or received by a Toast POS device.
 

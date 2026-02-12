@@ -21,7 +21,7 @@ This integration provides restaurants with useful information to run their busin
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiScopes.html):
+To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
 
 - `config:read`
 
@@ -40,7 +40,7 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ### Decide what information your reports will provide
 
@@ -63,7 +63,7 @@ This guide describes how to report on the following sales information:
 
 > **Note**
 > 
-> You can also report on marketplace facilitator tax payments. For more information see, [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
+> You can also report on marketplace facilitator tax payments. For more information see, [Marketplace facilitator tax payments](adminGuide-adminMarketplaceFacilitatorTaxPayments).
 
 
 
@@ -139,17 +139,17 @@ This guide describes how to report on the following sales information:
 
 Reporting on sales depends on restaurants' usage of menu items and the overall structure of orders.
 
-To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminMenuHierarchy.html).
+To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminGuide-adminMenuHierarchy).
 
-To review order structure, see [Orders API overview](portalOrdersApiOverview.html).
+To review order structure, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 ## Retrieving restaurant information
 
 ### Set up recurring retrieval of menu and configuration information
 
-Use the [menus webhook](apiMenusWebhook.html) or query the `/metadata` endpoint of the menus API throughout the day.
+Use the [menus webhook](apiDevGuide-apiMenusWebhook) or query the `/metadata` endpoint of the menus API throughout the day.
 
-Retrieve a new menu when you determine that [your existing menu is outdated](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).
+Retrieve a new menu when you determine that [your existing menu is outdated](apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2).
 
 In addition, query the following configuration API endpoints at least once a day:
 
@@ -192,10 +192,10 @@ To report on order information, you need to retrieve orders at least once per da
 
 > **Note**
 > 
-> Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk`endpoint.
+> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk`endpoint.
 
 
-See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
+See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
 ### Consider historical backfill
 
@@ -207,11 +207,11 @@ Toast support recommends retrieving twelve weeks of historical orders when a res
 
 ### Determine closeout hour
 
-The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
+The `closeoutHour` value in the `General`object returned by the [restaurants API](apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
 
 The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on order entities changes after the `closeoutHour`.
 
-Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ## Building report functionality
 
@@ -221,7 +221,7 @@ Guests may place orders for future fulfillment. For example, a guest may place a
 
 An order is a future order if its `promisedDate` is in the future. In all order sales summaries, consider separating future orders from past orders so that restaurants have an accurate picture of how many orders they *fulfilled* on each day in the past.
 
-For more information about how integration partners submit future orders, see [Scheduling future orders](orders_api_future_orders.html).
+For more information about how integration partners submit future orders, see [Scheduling future orders](apiDevGuide-orders_api_future_orders).
 
 ### Suppress voided entities by default
 
@@ -237,6 +237,30 @@ Item selections can be marked as deferred. Deferred selections (usually Gift Car
 
 If the `deferred` value on a selection is `true`, Toast support recommends ignoring this entity when calculating all sales information below.
 
+### Filter fundraising contributions from sales reporting
+
+Fundraising contributions appear as service charges in the orders API. When guests make donations through the Toast fundraising feature, the donation amount is added to the check as a service charge with a `serviceChargeCategory` value of `FUNDRAISING_CAMPAIGN`.
+
+Since fundraising contributions are included in the `check.amount` value (which includes all non-gratuity service charges), you may want to exclude them when calculating net sales or order amounts for reporting purposes.
+
+To filter fundraising contributions from your calculations:
+
+- **For service charge totals:**Check the `serviceChargeCategory` value on each `AppliedServiceCharge` object. If the `serviceChargeCategory` value is `FUNDRAISING_CAMPAIGN`, exclude this service charge when calculating service charge totals for sales reporting.
+
+
+- **For order amount calculations:** To calculate the net order amount (excluding fundraising contributions), you can either:
+
+- Sum the `amount` values on each check, then subtract the sum of `chargeAmount` values from service charges where `serviceChargeCategory` is `FUNDRAISING_CAMPAIGN`.
+
+
+- Use the net sales calculation method described in [Calculating net sales using the orders API](apiDevGuide-apiOrdersNetSalesCalculation), which builds the net order amount from components and excludes fundraising contributions when adding service charges.
+
+
+
+
+
+For more information about the `serviceChargeCategory`field and other service charge types, see [Service charges for checks](apiDevGuide-apiOrderPrices#apiServiceCharges).
+
 ### Reporting on total sales
 
 Below are suggestions for reporting on total sales within a given timeframe.
@@ -251,7 +275,9 @@ All ideas require polling the `/ordersBulk` endpoint of the orders API for the d
 
 
 ****Order amount charged****
-: Sum the `amount` values on each check.
+: To calculate the gross order amount charged (including fundraising contributions), sum the `amount` values on each check.
+
+To calculate the net order amount charged (excluding fundraising contributions), see [Filter fundraising contributions from sales reporting](devCookbook-apiIntegrationChecklistAccounting#salesReportBuildFuncSuppressFundraising).
 
 
 
@@ -282,14 +308,14 @@ To allow users to drill down into the amount discounted with each discount:
 
 
 ****Amount charged in service charges****
-: Sum the `chargeAmount` values on the `AppliedServiceCharge` objects on each check.
+: Sum the `chargeAmount` values on the `AppliedServiceCharge` objects on each check. Exclude service charges where the `serviceChargeCategory` value is `FUNDRAISING_CAMPAIGN` from your service charge totals.
 
 To allow users to drill down into the amount charged for each service charge:
 
 1. Use the information you saved from the `/serviceCharges` endpoint of the configuration API to look up the name of the service charge in the `serviceCharge` value.
 
 
-2. Sum the `chargeAmount` values within each service charge.
+2. Sum the `chargeAmount` values within each service charge. Exclude service charges where `serviceChargeCategory` is `FUNDRAISING_CAMPAIGN`.
 
 
 

@@ -77,7 +77,7 @@ Before configuring a tax table rate, make sure that you have the state's tax tab
 
 **Procedure 6.121. To configure a tax table rate**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Menu management \> Settings \> Manage tax rates to open the Tax rates page.
@@ -91,10 +91,10 @@ Before configuring a tax table rate, make sure that you have the state's tax tab
 - Name: Enter a name for the tax rate, such as `State Tax Table Rate`.
 
 
-- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](targets.html).
+- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
 
 
-- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](ownersAndPermissions.html).
+- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
 - Import ID: Leave this field blank. It is for internal use only.

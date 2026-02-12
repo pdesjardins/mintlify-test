@@ -70,7 +70,7 @@ This illustration shows the modifier group display order when the Display Orderi
 1. Modifier groups are first sorted by their Display Ordering Priority number. Groups with lower numbers appear before groups with higher numbers or no numbers. For example, a modifier group with a Display Ordering Priorityof 1 appears before a modifier group with a Display Ordering Priority of 2 or those with no number at all.
 
 
-2. If a Size modifier group exists for the menu item (and it does not have a Display Order Priority number, see the [note](adminUnderstandingModifierGroupDisplay.html#adminNoteAboutSizeModifierGroupsWithDisplayOrderingPriorityNumbers)below), it is sorted after modifier groups that have a Display Ordering Priority number and before modifier groups that do not have a Display Ordering Priority number:
+2. If a Size modifier group exists for the menu item (and it does not have a Display Order Priority number, see the [note](adminGuide-adminUnderstandingModifierGroupDisplay#adminNoteAboutSizeModifierGroupsWithDisplayOrderingPriorityNumbers)below), it is sorted after modifier groups that have a Display Ordering Priority number and before modifier groups that do not have a Display Ordering Priority number:
 
 - Groups with a Display Ordering Prioritynumber
 

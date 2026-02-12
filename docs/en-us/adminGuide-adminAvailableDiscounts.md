@@ -28,12 +28,12 @@ The Discounts page includes the following options to manage discounts:
 
 
 **Add a Discount**
-: Creates a new discount. See [Adding or updating discounts](discountsAddingOrUpdatingToastDiscounts.html).
+: Creates a new discount. See [Adding or updating discounts](adminGuide-discountsAddingOrUpdatingToastDiscounts).
 
 
 
 **Order**
-: Sets the sequence in which to auto-apply discounts. See [Automatically applying discounts](adminAutoApplyDiscounts.html).
+: Sets the sequence in which to auto-apply discounts. See [Automatically applying discounts](adminGuide-adminAutoApplyDiscounts).
 
 
 
@@ -42,7 +42,7 @@ The Discounts page includes the following options to manage discounts:
 
 Discounts that do not have configured promo codes do not display the promo code subsection.
 
-From the displayed promo code information, you can edit the Code and Description fields. You cannot edit the promo code's effective dates. See [Requiring promo codes for discounts](adminDiscountPromoCodes.html).
+From the displayed promo code information, you can edit the Code and Description fields. You cannot edit the promo code's effective dates. See [Requiring promo codes for discounts](adminGuide-adminDiscountPromoCodes).
 
 When you click Show All Promo Codes, the button label changes to Hide All Promo Codes. Click Hide All Promo Codes to hide all the promo code information and change the button label to Show All Promo Codes.
 
@@ -53,7 +53,7 @@ When you click Show All Promo Codes, the button label changes to Hide All Promo 
 
 To return to the list of non-archived discounts, click Back to Discounts.
 
-See [Archiving and restoring discounts](adminDiscountsArchive.html).
+See [Archiving and restoring discounts](adminGuide-adminDiscountsArchive).
 
 
 
@@ -119,7 +119,7 @@ The number can also be used to identify a discount if you have multiple discount
 
 You can use the drop-down list box to change the discount type.
 
-For more information, see [Discount types](adminDiscountTypes.html).
+For more information, see [Discount types](adminGuide-adminDiscountTypes).
 
 
 
@@ -161,7 +161,7 @@ To deactivate a discount, slide the Active toggle switch to the left.
 **Actions (… icon)**
 : Contains the Archive and Copy options.
 
-See [Archiving and restoring discounts](adminDiscountsArchive.html) and [Copying discounts](adminCopyingDiscounts.html).
+See [Archiving and restoring discounts](adminGuide-adminDiscountsArchive) and [Copying discounts](adminGuide-adminCopyingDiscounts).
 
 
 

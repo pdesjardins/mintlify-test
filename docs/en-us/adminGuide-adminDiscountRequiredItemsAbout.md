@@ -32,7 +32,7 @@ If you choose to apply the check to a specific item or group, then you choose th
 
 If you choose to apply the discount to the entire check, you can choose specific items that are excluded from the discount, or that must be present to be eligible for the discount.
 
-See [Configuring fixed or open amount or percent discounts](adminDiscountsConfigFixedOpenDiscounts.html).
+See [Configuring fixed or open amount or percent discounts](adminGuide-adminDiscountsConfigFixedOpenDiscounts).
 
 
 
@@ -43,7 +43,7 @@ For the buy items, you configure one or more combinations of items. The check mu
 
 For the get items, you configure one or more eligible items. You do not specify quantities for those items.
 
-See [Configuring a BOGO discount](adminDiscountsConfigureBogo.html).
+See [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo).
 
 
 
@@ -52,7 +52,7 @@ See [Configuring a BOGO discount](adminDiscountsConfigureBogo.html).
 
 Within each combination, you can specify the required quantity for each item.
 
-See [Configuring a combo discount](adminDiscountsConfigureCombo.html).
+See [Configuring a combo discount](adminGuide-adminDiscountsConfigureCombo).
 
 
 

@@ -14,7 +14,7 @@ procedures: 3
 codeExamples: 0
 ---
 
-Similar to [tax rates](adminCreatingMasterTaxRates.html), Toast support recommends that, in an enterprise environment, you handle prep stations by creating a master version of each prep station and then creating location-specific versions of those masters for each location. This configuration makes it easier to assign prep stations to menu groups and items because only the master version of each prep station is shown, either on the Advanced properties page or on the menu entity's details page, reducing the number of prep stations you have to pick from (see [Creating a master version with location-specific versions for every location](understandingHowAndWhenToUseVersioning.html#creatingAMasterVersionWithLocationSpecificVersionsForEveryLocation)for more information). When you select a master prep station for a menu entity, the Toast platform automatically calculates which version of the prep station to use at each given location.
+Similar to [tax rates](adminGuide-adminCreatingMasterTaxRates), Toast support recommends that, in an enterprise environment, you handle prep stations by creating a master version of each prep station and then creating location-specific versions of those masters for each location. This configuration makes it easier to assign prep stations to menu groups and items because only the master version of each prep station is shown, either on the Advanced properties page or on the menu entity's details page, reducing the number of prep stations you have to pick from (see [Creating a master version with location-specific versions for every location](adminGuide-understandingHowAndWhenToUseVersioning#creatingAMasterVersionWithLocationSpecificVersionsForEveryLocation)for more information). When you select a master prep station for a menu entity, the Toast platform automatically calculates which version of the prep station to use at each given location.
 
 Also similar to tax rates, you should remove any auto-created prep stations before creating the masters and their location-specific versions.
 
@@ -48,13 +48,13 @@ For example, assuming the configuration in the illustration below, when the cust
 
 **Procedure 5.13. To archive auto-created prep stations**
 
-1. [Log in to Toast Web](adminAccessToastAdminBackend.html).
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage.
 
 
-3. Use the You are viewing menu to show the prep stations for the corporate restaurant group (the corporate restaurant group is your top-level restaurant group and it should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for information on the You are viewing menu.
+3. Use the You are viewing menu to show the prep stations for the corporate restaurant group (the corporate restaurant group is your top-level restaurant group and it should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations) for information on the You are viewing menu.
 
 
 4. Click the actions button for the prep station you want to archive and choose Archive from the menu.
@@ -68,7 +68,7 @@ For example, assuming the configuration in the illustration below, when the cust
 6. Repeat these steps for the other prep stations that were automatically created.
 
 
-7. Continue with the [next procedure](managingPrepStationsAndPrintersForEnterprises.html#toCreateMasterPrepStations) to create master prep stations.
+7. Continue with the [next procedure](adminGuide-managingPrepStationsAndPrintersForEnterprises#toCreateMasterPrepStations) to create master prep stations.
 
 
 
@@ -77,7 +77,7 @@ For example, assuming the configuration in the illustration below, when the cust
 1. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage.
 
 
-2. Use the You are viewing menu to show the prep stations for the corporate restaurant group (this group will show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for information on the You are viewing menu.
+2. Use the You are viewing menu to show the prep stations for the corporate restaurant group (this group will show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations) for information on the You are viewing menu.
 
 
 3. Click the plus button to add a new prep station.
@@ -97,7 +97,7 @@ For example, assuming the configuration in the illustration below, when the cust
 7. Repeat these steps to add any other master prep stations your restaurants use.
 
 
-8. Continue with the [Procedure 5.15, “To create location-specific prep stations”](managingPrepStationsAndPrintersForEnterprises.html#toCreateLocationSpecificPrepStations) procedure.
+8. Continue with the [Procedure 5.15, “To create location-specific prep stations”](adminGuide-managingPrepStationsAndPrintersForEnterprises#toCreateLocationSpecificPrepStations) procedure.
 
 
 
@@ -106,7 +106,7 @@ For example, assuming the configuration in the illustration below, when the cust
 1. Choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage.
 
 
-2. Use the You are viewing menu to show the prep stations for the corporate restaurant group (this group should show all locations). See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for information on the You are viewing menu.
+2. Use the You are viewing menu to show the prep stations for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations) for information on the You are viewing menu.
 
 
 3. Click the actions button for a master prep station and choose New Version.
@@ -129,7 +129,7 @@ For example, assuming the configuration in the illustration below, when the cust
 8. Repeat these steps to create a version of each master prep station for every location in your enterprise.
 
 
-9. Publish your changes using the Publish configpage. See [Publishing changes for multiple locations](publishingChangesForMultipleLocations.html) for information on accessing and using that page.
+9. Publish your changes using the Publish configpage. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

@@ -37,7 +37,7 @@ The order information that specifies the table or guest name for an order displa
 
 > **Note**
 > 
-> Whether the table or guest information appears before or after the check number depends on the [KDS Ticket Headers](adminKitchenDiningRoomReference.html#configKdsTicketHeaders).
+> Whether the table or guest information appears before or after the check number depends on the [KDS Ticket Headers](adminGuide-adminKitchenDiningRoomReference#configKdsTicketHeaders).
 
 
 The following example shows an order ticket on the KDS device with both a tab name and a table number.
@@ -48,5 +48,5 @@ The following example shows an order ticket on the KDS device with the guest's f
 
 ![An example of a KDS ticket that has only the guest name.](https://doc.toasttab.com/doc/media/KDS_guest_name.png)
 
-To prompt for a tab name on the Toast POS app, see [Prompt for tab name? (Quick Order only)](adminUiOptionsReference.html#configPromptTabName).
+To prompt for a tab name on the Toast POS app, see [Prompt for tab name? (Quick Order only)](adminGuide-adminUiOptionsReference#configPromptTabName).
 

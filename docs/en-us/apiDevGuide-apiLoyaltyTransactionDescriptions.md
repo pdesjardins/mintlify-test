@@ -409,7 +409,7 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 > **Note**
 > 
-> The Toast platform does not process rewards offer redemptions when a restaurant experiences an Internet outage or other network disruption. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](adminOfflineModeOverview.html).
+> The Toast platform does not process rewards offer redemptions when a restaurant experiences an Internet outage or other network disruption. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](adminGuide-adminOfflineModeOverview).
 
 
 **Example 10.10. Loyalty redeem request**
@@ -631,7 +631,7 @@ Each time a restaurant guest chooses to redeem a reward offer, the Toast platfor
 
 > **Note**
 > 
-> The Toast platform does not send accrue requests when a restaurant experiences an internet outage or other network disruption. A Toast POS device stores payments and sends accrue requests for them when the device is connected to the network again. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](adminOfflineModeOverview.html).
+> The Toast platform does not send accrue requests when a restaurant experiences an internet outage or other network disruption. A Toast POS device stores payments and sends accrue requests for them when the device is connected to the network again. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](adminGuide-adminOfflineModeOverview).
 
 
 The accrue workflow occurs as an asynchronous process after a guest pays for a check. The Toast platform sends a `LOYALTY_ACCRUE` request regardless of the presence of a `loyaltyIdentifier`.

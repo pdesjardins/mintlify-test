@@ -20,5 +20,5 @@ The following diagram shows the Toast platform making HTTP requests as an API cl
 
 ![A diagram showing the Toast platform making HTTP requests as an API client and receiving HTTP responses from your organization's API server.](https://doc.toasttab.com/doc/media/toast-outbound-apis.png)
 
-A Toast outbound API is similar to a webhook in that the Toast platform sends HTTP messages to your organization to communicate about specific Toast platform events. Toast outbound APIs include richer information about Toast platform operations than a webhook and directly interact with your organization's API implementation based on its HTTP responses in a way that is more dynamic than webhooks. For information about Toast platform webhooks, see [Webhook basics](apiWebhookBasics.html).
+A Toast outbound API is similar to a webhook in that the Toast platform sends HTTP messages to your organization to communicate about specific Toast platform events. Toast outbound APIs include richer information about Toast platform operations than a webhook and directly interact with your organization's API implementation based on its HTTP responses in a way that is more dynamic than webhooks. For information about Toast platform webhooks, see [Webhook basics](apiDevGuide-apiWebhookBasics).
 

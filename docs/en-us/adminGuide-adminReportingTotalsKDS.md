@@ -30,7 +30,7 @@ In addition, this [Toast Central article](https://central.toasttab.com/s/article
 
 ## About all day view
 
-When you [enable all day view](adminReportingTotalsKDS.html#adminEnableAllDayView) for your restaurant, a Show All Day View option appears in the KDS device title bar. Employees can use this feature to see totals for identical menu items, with or without information about modifiers, by temporarily switching from the ticket screen to all day view. All day view gives your kitchen employees a way to verify how many of each item they need to be working on at any given time.
+When you [enable all day view](adminGuide-adminReportingTotalsKDS#adminEnableAllDayView) for your restaurant, a Show All Day View option appears in the KDS device title bar. Employees can use this feature to see totals for identical menu items, with or without information about modifiers, by temporarily switching from the ticket screen to all day view. All day view gives your kitchen employees a way to verify how many of each item they need to be working on at any given time.
 
 An example of the KDS device for a sports bar that specializes in chicken wings and chicken tenders served with different kinds of sauces follows.
 
@@ -54,7 +54,7 @@ To return to the ticket view from all day view you tap Hide All Day View.
 
 By default, all day view is enabled for all restaurants to display item names and totals. To update your configuration of all day view, you must have the Web Setup \> Kitchen / Dining Room Setup access permission. Then, follow these steps.
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup to open the Kitchen page.

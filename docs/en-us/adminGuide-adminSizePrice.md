@@ -15,14 +15,14 @@ procedures: 0
 codeExamples: 0
 ---
 
-**Applies to:** Menu items, modifier groups, [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference)
+**Applies to:** Menu items, modifier groups, [modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)
 
 
 
 > **Note**
 > 
 > Size pricing for menu items is supported on all product channels.
-> Size pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminToastProductChannelSupportForAdvancedPricingFeatures.html).
+> Size pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).
 
 
 With size pricing, the price of a menu item changes based on the size chosen for the menu item. For example, a small pizza costs $10 and a large pizza costs $14.
@@ -40,13 +40,13 @@ In both scenarios, you configure the prices for the modifiers separately from th
 
 For more information on configuring and using size prices, see the following topics:
 
-- [Using size pricing in the Toast POS app](adminSizePrice.html#adminUsingSizePricingInTheToastPosApp)
+- [Using size pricing in the Toast POS app](adminGuide-adminSizePrice#adminUsingSizePricingInTheToastPosApp)
 
 
-- [Configuring size pricing on menu groups and menu items](adminSizePrice.html#adminConfiguringSizePricingOnMenuGroupsAndMenuItems)
+- [Configuring size pricing on menu groups and menu items](adminGuide-adminSizePrice#adminConfiguringSizePricingOnMenuGroupsAndMenuItems)
 
 
-- [Configuring size pricing on modifier groups and modifiers](adminSizePrice.html#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions)
+- [Configuring size pricing on modifier groups and modifiers](adminGuide-adminSizePrice#adminConfiguringSizePricingOnModifierGroupsAndModifierOptions)
 
 
 
@@ -70,7 +70,7 @@ Tap Done when you are finished specifying the modifiers for a menu item to add i
 
 ## Configuring size pricing on menu groups and menu items
 
-You create size prices for a menu group or item on the group or item's details page. After you have created size prices for a menu item, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the size prices are not editable from the Items grid. To edit a size price, you can either return to the menu group or item's details page and edit it there, or, edit it on the [Price editor](adminUsingThePriceEditor.html) page.
+You create size prices for a menu group or item on the group or item's details page. After you have created size prices for a menu item, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the size prices are not editable from the Items grid. To edit a size price, you can either return to the menu group or item's details page and edit it there, or, edit it on the [Price editor](adminGuide-adminUsingThePriceEditor) page.
 
 **Procedure 8.129. To enable size pricing on a menu group or item**
 
@@ -114,7 +114,7 @@ You create size prices for a menu group or item on the group or item's details p
 6. Save your changes.
 
 
-7. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+7. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -170,7 +170,7 @@ Follow the instructions below to configure size pricing for a modifier group. Al
 2. Under the Modifier Group Pricingsection, select Size Price. The Size Price grid appears.
 
 
-3. Define your sizes by entering a size name in the Size column and a corresponding price for the size in the Price column. The sizes you create *must exactly match* the sizes defined for the menu items this modifier group will apply to, as described in [Creating matching sizes for menu items and modifiers](adminSizePrice.html#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
+3. Define your sizes by entering a size name in the Size column and a corresponding price for the size in the Price column. The sizes you create *must exactly match* the sizes defined for the menu items this modifier group will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
 
 
 4. To add additional rows to the grid, click the Add Size button.
@@ -182,7 +182,7 @@ Follow the instructions below to configure size pricing for a modifier group. Al
 6. Save your changes.
 
 
-7. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+7. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -190,19 +190,19 @@ Follow the instructions below to configure size pricing for a modifier group. Al
 
 > **Note**
 > 
-> The [Price Editor](adminUsingThePriceEditor.html) does not yet support editing modifier group or modifier prices. You can edit size prices for a modifier group on the modifier group's details page.
+> The [Price Editor](adminGuide-adminUsingThePriceEditor) does not yet support editing modifier group or modifier prices. You can edit size prices for a modifier group on the modifier group's details page.
 
 
 ### Size pricing for individual modifiers
 
-Follow the instructions below to configure size pricing for individual modifiers. When specifying size pricing for an individual modifier, you actually configure the sizes and their associated prices on the [modifier's underlying item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
+Follow the instructions below to configure size pricing for individual modifiers. When specifying size pricing for an individual modifier, you actually configure the sizes and their associated prices on the [modifier's underlying item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 When configuring size pricing at the individual modifier level, you can choose whether the size of the modifier is:
 
-- Dictated by the [size of the associated menu item](adminSizePrice.html#adminToConfigureSizePricingOnAModOptionDependentOnMenuItemSize). If you choose this configuration, the sizes you specify for the [modifier's item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference) must match the sizes specified for the associated menu items exactly, both in the number of sizes and the text used for the size names, as described in [Creating matching sizes for menu items and modifiers](adminSizePrice.html#adminCreatingMatchingSizesForMenuItemsAndModifierOptions).
+- Dictated by the [size of the associated menu item](adminGuide-adminSizePrice#adminToConfigureSizePricingOnAModOptionDependentOnMenuItemSize). If you choose this configuration, the sizes you specify for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference) must match the sizes specified for the associated menu items exactly, both in the number of sizes and the text used for the size names, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions).
 
 
-- Specified [independently from the menu item size](adminSizePrice.html#adminToConfigureSizePricingOnAModOptionSizeSetIndependently). If you choose this configuration, the sizes you specify for the modifier's item reference do not have to match menu item sizes. Also, the Toast POS app will prompt you for a size after the modifier is selected.
+- Specified [independently from the menu item size](adminGuide-adminSizePrice#adminToConfigureSizePricingOnAModOptionSizeSetIndependently). If you choose this configuration, the sizes you specify for the modifier's item reference do not have to match menu item sizes. Also, the Toast POS app will prompt you for a size after the modifier is selected.
 
 
 
@@ -220,7 +220,7 @@ When configuring size pricing at the individual modifier level, you can choose w
 4. In the Modifiers section, locate the Modifiers grid.
 
 
-5. In the Modifiers grid, click the Edit Item icon for a modifier to see the details page for the [modifier's item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
+5. In the Modifiers grid, click the Edit Item icon for a modifier to see the details page for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 ![Example of the Modifiers grid showing the location of the Edit Item icon.](https://doc.toasttab.com/doc/media/pricing-edit-icon-pizza-toppings.png)
 
@@ -228,7 +228,7 @@ When configuring size pricing at the individual modifier level, you can choose w
 6. Under the Pricing section, set Pricing Strategy to Size Price. The Size Prices grid appears.
 
 
-7. Define your sizes by entering a size name in the Size column and a corresponding price in the Price column. The sizes you create for the modifier's item reference *must exactly match*the sizes defined for the menu items the modifier will apply to, as described in [Creating matching sizes for menu items and modifiers](adminSizePrice.html#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
+7. Define your sizes by entering a size name in the Size column and a corresponding price in the Price column. The sizes you create for the modifier's item reference *must exactly match*the sizes defined for the menu items the modifier will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
 
 
 8. To add additional rows to the grid, click the Add button.
@@ -265,7 +265,7 @@ When configuring size pricing at the individual modifier level, you can choose w
 11. Save your changes.
 
 
-12. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+12. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -283,7 +283,7 @@ When configuring size pricing at the individual modifier level, you can choose w
 4. In the Modifiers section, locate the Modifiers grid.
 
 
-5. In the Modifiers grid, click the Edit Item icon for a modifier to see the details page for the [modifier's item reference](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
+5. In the Modifiers grid, click the Edit Item icon for a modifier to see the details page for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 ![Example of the Modifiers grid showing the location of the Edit Item icon.](https://doc.toasttab.com/doc/media/pricing-edit-icon-pizza-toppings.png)
 
@@ -328,7 +328,7 @@ When configuring size pricing at the individual modifier level, you can choose w
 11. Save your changes.
 
 
-12. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+12. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -336,6 +336,6 @@ When configuring size pricing at the individual modifier level, you can choose w
 
 > **Note**
 > 
-> The [Price Editor](adminUsingThePriceEditor.html) does not yet support editing modifier group or modifier prices, so size prices for a modifier must be edited on the details page for the modifier's item reference.
+> The [Price Editor](adminGuide-adminUsingThePriceEditor) does not yet support editing modifier group or modifier prices, so size prices for a modifier must be edited on the details page for the modifier's item reference.
 
 

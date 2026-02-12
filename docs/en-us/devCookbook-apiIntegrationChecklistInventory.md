@@ -19,7 +19,7 @@ Follow the steps below to build an inventory tracking integration with the Toast
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiScopes.html):
+To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
 
 - `config:read`
 
@@ -38,11 +38,11 @@ To follow these instructions, you must have the following [scopes](apiScopes.htm
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ### Review menu hierarchy
 
-Inventory tracking depends on usage of menu items. To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminMenuHierarchy.html).
+Inventory tracking depends on usage of menu items. To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminGuide-adminMenuHierarchy).
 
 ## Ingredient management
 
@@ -56,7 +56,7 @@ It should also allow restaurants to record when they discarded the remainder of 
 
 ### Retrieve menu items
 
-Use the Toast [menus API](apiGettingMenuInformationFromTheMenusAPI.html)to retrieve all menu items that the restaurant sells.
+Use the Toast [menus API](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)to retrieve all menu items that the restaurant sells.
 
 Your inventory functionality should allow restaurant administrators to map recipes to menu items using the recipe management functionality that you build.
 
@@ -78,15 +78,15 @@ This functionality should also evaluate how much of each ingredient was wasted. 
 
 ### Determine closeout hour
 
-The `closeoutHour` value in the `General`object returned by the [restaurants API](apiRestaurantInformation.html) contains the restaurant's closeout hour.
+The `closeoutHour` value in the `General`object returned by the [restaurants API](apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
 
 The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on API data changes after the `closeoutHour`.
 
-Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ### Plan your display
 
-The following table provides suggested information that you can display in different types of inventory reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](portalOrdersApiOverview.html).
+The following table provides suggested information that you can display in different types of inventory reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 | Object |  Values | 
 | --- | --- |
@@ -124,13 +124,13 @@ The following table provides suggested information that you can display in diffe
 
 ### Set up a recurring order retrieval
 
-Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
+Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
 
 
 > **Note**
 > 
-> Toast support recommends using the [orders updated webhook](devOrdersWebhookRef.html#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
+> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
 
 
 Use the `startDate` and `endDate` query parameters to retrieve orders by their `modifiedDate`timestamp.
@@ -145,14 +145,14 @@ Toast support recommends retrieving twelve weeks of historical data.
 
 Consider including the configuration information shown in the table below in your inventory integration.
 
-After you decide which configuration information you want to display, set up a daily poll to the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) and [menus API](apiGettingMenuInformationFromTheMenusAPI.html)to retrieve it.
+After you decide which configuration information you want to display, set up a daily poll to the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/) and [menus API](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)to retrieve it.
 
 To reduce the amount of data that you receive when you poll the configuration API:
 
 - Use the `lastModified` query parameter so that you only retrieve entities modified after the specified timestamp.
 
 
-- Only retrieve a new menu when you determine that your existing menu is outdated. For more information about when to retrieve a new menu, see [Determining if a restaurant's menu data has gone stale](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).
+- Only retrieve a new menu when you determine that your existing menu is outdated. For more information about when to retrieve a new menu, see [Determining if a restaurant's menu data has gone stale](apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2).
 
 
 
@@ -160,7 +160,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 | --- | --- | --- |
 | Reporting categories | Sales categories from the configuration API.[More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/) | See Toast Central for more information about [sales categories](https://central.toasttab.com/s/article/Sales-Categories-1492812477858). | 
 | Order configuration | Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/) | These pieces of configuration are often associated with orders.They describe how the order was placed and how its price was calculated.  | 
-| Menu information | Menu information from the menus API.In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items.[More information](apiGettingMenuInformationFromTheMenusAPI.html) | The menus API returns menu item names and other menu-related information you may want to display in your inventory platform.  | 
+| Menu information | Menu information from the menus API.In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items.[More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) | The menus API returns menu item names and other menu-related information you may want to display in your inventory platform.  | 
 | Restaurant information | Restaurant services from the configuration API.[More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/) | This restaurant information allows your integration to report on when orders were placed in your restaurant.For more information, see this [Toast Central article about hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services). | 
 
 ### Add additional business logic
@@ -171,11 +171,11 @@ Use the `voided` value on an `Order` object to determine whether an order was vo
 
 ### Track sales across enterprise groups
 
-Many restaurant groups use the [enterprise module](apiToastApisAndTheEnterpriseModule.html)of the Toast platform to share entities across many locations.
+Many restaurant groups use the [enterprise module](apiDevGuide-apiToastApisAndTheEnterpriseModule)of the Toast platform to share entities across many locations.
 
 To track sales of the same item across multiple restaurant locations, use the `multilocationId` value in the menus API to tie sales together across locations.
 
-For more information, see [multiLocationId values](apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2.html#apiMultilocationIdValues_V2).
+For more information, see [multiLocationId values](apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiMultilocationIdValues_V2).
 
 ### Build your inventory report display and summaries
 

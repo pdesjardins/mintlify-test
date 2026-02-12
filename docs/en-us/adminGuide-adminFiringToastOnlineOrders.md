@@ -69,7 +69,7 @@ The lead time is added to the prep time (45 minutes plus 30 minutes). The order 
   
 **Procedure 3.21. To configure your firing delays:**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page.

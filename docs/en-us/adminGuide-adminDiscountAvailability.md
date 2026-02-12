@@ -39,7 +39,7 @@ The Availability section of the discount configuration page contains the time-ba
 
 **Procedure 9.6. To add availability times to a discount**
 
-1. [Add a discount or edit an existing one](adminDiscountsDesigningDiscounts.html).
+1. [Add a discount or edit an existing one](adminGuide-adminDiscountsDesigningDiscounts).
 
 
 2. Scroll down to the Availabilitysection.

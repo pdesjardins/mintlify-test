@@ -89,7 +89,7 @@ Toast Web allows up to 10 SSH keys. It is recommended to add a new SSH key for e
 
 
 
-After your SSH key is added to Toast Web, you can continue with [downloading data export files.](downloading_data_export_files.html)
+After your SSH key is added to Toast Web, you can continue with [downloading data export files.](adminGuide-downloading_data_export_files)
 
 
 

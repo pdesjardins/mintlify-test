@@ -39,5 +39,5 @@ You can use the Menus \> Bulk management \> Items database page in Toast Web to:
 
 For more information on performing these tasks, see this [Toast Central article](https://central.toasttab.com/s/article/Using-the-Items-Database).
 
-In addition to the tasks above, you can export data for the type of menu entity you are currently viewing on the Items database page to a comma-separated values file (CSV). For more information on exporting from the items database, see [Items database export](platformItemsDatabaseExport.html).
+In addition to the tasks above, you can export data for the type of menu entity you are currently viewing on the Items database page to a comma-separated values file (CSV). For more information on exporting from the items database, see [Items database export](adminGuide-platformItemsDatabaseExport).
 

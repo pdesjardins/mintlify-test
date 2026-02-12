@@ -22,9 +22,9 @@ codeExamples: 0
 > This workflow example uses dynamic view for KDS devices.
 
 
-The restaurant in this example uses routing rules to change the prep stations for an item depending on the order's dining option and underlying dining behavior. The example restaurant configures all orders using the Take Out dining option to send items originally routed to the Food prep station, to instead go to the Pack prep station and Food prep station.. For information on routing rules, see [Rerouting based on dining option](adminAboutItemRoutingRules.html#adminReroutingOrdersBasedOnDiningOption). This restaurant does not use courses.
+The restaurant in this example uses routing rules to change the prep stations for an item depending on the order's dining option and underlying dining behavior. The example restaurant configures all orders using the Take Out dining option to send items originally routed to the Food prep station, to instead go to the Pack prep station and Food prep station.. For information on routing rules, see [Rerouting based on dining option](adminGuide-adminAboutItemRoutingRules#adminReroutingOrdersBasedOnDiningOption). This restaurant does not use courses.
 
-This example restaurant also uses individual item fulfillment, sends prep station tickets to the expediter, and uses an outline color to differentiate KDS tickets with a dining behavior of takeout, delivery, or curbside. For more information on the individual item fulfillment setting, see [Fulfill Items](adminKitchenDiningRoomReference.html#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminKitchenDiningRoomReference.html#configSendToExpediter). For more information on applying an outline color to tickets based on dining behavior, see [Ticket colors by dining behavior - Enabled](adminKitchenDiningRoomReference.html#configKDSTicketColorByDiningBehaviorEnabled).
+This example restaurant also uses individual item fulfillment, sends prep station tickets to the expediter, and uses an outline color to differentiate KDS tickets with a dining behavior of takeout, delivery, or curbside. For more information on the individual item fulfillment setting, see [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). For more information on applying an outline color to tickets based on dining behavior, see [Ticket colors by dining behavior - Enabled](adminGuide-adminKitchenDiningRoomReference#configKDSTicketColorByDiningBehaviorEnabled).
 
 The restaurant in this example does not use courses.
 
@@ -61,7 +61,7 @@ Here is the Curry Bread and Ramen items ticket on the Food prep station KDS devi
 
 > **Note**
 > 
-> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep stations working on the order. For more information on this setting, see [Other Stations](adminKitchenDiningRoomReference.html#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
+> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep stations working on the order. For more information on this setting, see [Other Stations](adminGuide-adminKitchenDiningRoomReference#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
 
 
 Here is the Pack prep station KDS device.
@@ -105,7 +105,7 @@ The employee fulfills the Curry Bread item on the Pack prep station KDS device. 
 
 > **Note**
 > 
-> For menu items assigned to multiple prep stations, when the item is fulfilled at one prep station, the item is fulfilled at all assigned prep stations. For more information, see [Understanding item fulfillment](platformKitchenUnderstandingItemFulfillmentKDS.html).
+> For menu items assigned to multiple prep stations, when the item is fulfilled at one prep station, the item is fulfilled at all assigned prep stations. For more information, see [Understanding item fulfillment](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS).
 
 
 Here is the Pack prep station KDS device.

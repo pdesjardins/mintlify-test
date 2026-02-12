@@ -31,7 +31,7 @@ For example, a restaurant ordering service such as Grubhub™, Uber Eats™, or 
 
 For Toast Takeout and Toast Local orders, Toast acts as the marketplace facilitator and remits tax amounts on behalf of the restaurant. In these cases, Toast pays the tax amounts for the orders.
 
-For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminMarketplaceFacilitatorTaxPayments.html).
+For more information about marketplace facilitator orders in the Toast platform, see [Marketplace facilitator tax payments](adminGuide-adminMarketplaceFacilitatorTaxPayments).
 
 ## Indicating the source of prices and tax amounts
 

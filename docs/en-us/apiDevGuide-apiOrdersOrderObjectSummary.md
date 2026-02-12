@@ -55,7 +55,7 @@ You use GUIDs to identify configured objects that are relevant to the order, suc
 \},
 ```
 
-To identify an object, you can use either `guid` or `multilocationId`. For more information about `multilocationId` and how to use it, see [Using multi-location IDs in orders](apiUsingMultiLocationIdsInOrders.html).
+To identify an object, you can use either `guid` or `multilocationId`. For more information about `multilocationId` and how to use it, see [Using multi-location IDs in orders](apiDevGuide-apiUsingMultiLocationIdsInOrders).
 
 When you create an order, the Toast platform generates GUIDs for the `Order` object, `Check` objects, and `Selection` objects. These GUIDs are returned in orders API responses.
 
@@ -403,7 +403,7 @@ For most items, prices are specified in the menu configuration.
 
 Some items are open price items, which means that you provide the price when you create the order.
 
-For more information, see the [menu pricing section](adminPricingStrategiesOverview.html) of the *Platform Guide*.
+For more information, see the [menu pricing section](adminGuide-adminPricingStrategiesOverview) of the *Platform Guide*.
 
 
 
@@ -412,7 +412,7 @@ For more information, see the [menu pricing section](adminPricingStrategiesOverv
 
 Taxes are calculated based on the applicable taxes and tax rates.
 
-For more information on taxes and tax rates, see the [taxes section](adminTaxesOverview.html) of the *Platform Guide*.
+For more information on taxes and tax rates, see the [taxes section](adminGuide-adminTaxesOverview) of the *Platform Guide*.
 
 
 
@@ -423,14 +423,14 @@ On the Toast platform, some service charges are added automatically based on the
 
 Service charges might also be taxable.
 
-For more information on service charges, see the [service charges section](adminServiceChargeOverview.html) in the *Platform Guide*.
+For more information on service charges, see the [service charges section](adminGuide-adminServiceChargeOverview) in the *Platform Guide*.
 
 
 
 ****Discounts****
 : The applicable discounts that reduce the amount of a check or a menu item selection.
 
-For more information on configuring discounts, see [Managing discounts](adminAvailableDiscounts.html) in the *Platform Guide*.
+For more information on configuring discounts, see [Managing discounts](adminGuide-adminAvailableDiscounts) in the *Platform Guide*.
 
 
 
@@ -456,7 +456,7 @@ Populated based on the menu configuration, or using the value provided in `exter
 
 The price of the menu item selection as calculated by the marketplace facilitator. This is the price before the quantity, taxes, discounts, and modifier option adjustments are applied.
 
-For more information about marketplace facilitator orders, see [Marketplace facilitator orders](apiMarketplaceFacilitatorOrders.html).
+For more information about marketplace facilitator orders, see [Marketplace facilitator orders](apiDevGuide-apiMarketplaceFacilitatorOrders).
 
 Used to populate `receiptLinePrice`.
 

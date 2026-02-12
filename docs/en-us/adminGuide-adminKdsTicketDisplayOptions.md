@@ -40,5 +40,5 @@ If all of the check boxes or none of the check boxes are checked, all tickets ap
 
 
 
-The Toast platform also offers a way for kitchens that use printers (or a combination of printers and KDS devices) to change the way that items are routed for fulfillment based on the dining option specified. For more information, see [Rerouting based on dining option](adminAboutItemRoutingRules.html#adminReroutingOrdersBasedOnDiningOption).
+The Toast platform also offers a way for kitchens that use printers (or a combination of printers and KDS devices) to change the way that items are routed for fulfillment based on the dining option specified. For more information, see [Rerouting based on dining option](adminGuide-adminAboutItemRoutingRules#adminReroutingOrdersBasedOnDiningOption).
 

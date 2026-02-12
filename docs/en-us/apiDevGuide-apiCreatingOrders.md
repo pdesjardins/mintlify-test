@@ -34,13 +34,13 @@ To use the orders API to create and `POST` a new order:
 
 1. Create a JSON `Order` object that includes the dining option, checks, and menu item selections for the order. You can also include a revenue center.
 
-For information about the required details for different dining options, as well as example order objects for each type, see [Order details based on the order dining option](apiOrderTypeDetails.html).
+For information about the required details for different dining options, as well as example order objects for each type, see [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails).
 
-For other limitations on menu selection items, scheduling, and how orders from the API are processed, see [Orders API limitations](portalOrdersApiOverview.html#ordersAPILimitations).
+For other limitations on menu selection items, scheduling, and how orders from the API are processed, see [Orders API limitations](apiDevGuide-portalOrdersApiOverview#ordersAPILimitations).
 
-For information on providing revenue center information in an order, see [Providing revenue center information for an order](apiOrdersRevenueCenters.html).
+For information on providing revenue center information in an order, see [Providing revenue center information for an order](apiDevGuide-apiOrdersRevenueCenters).
 
-To create a scheduled order to be fulfilled at later time, provide a `promisedDate` value. See [Scheduling future orders](orders_api_future_orders.html).
+To create a scheduled order to be fulfilled at later time, provide a `promisedDate` value. See [Scheduling future orders](apiDevGuide-orders_api_future_orders).
 
 For detailed information about all of the values in an `Order` object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
 
@@ -51,7 +51,7 @@ To do this, send a `POST` request to the `/prices` endpoint of the orders API. I
 
 The `Order` object returned by the `/prices`endpoint includes the base price, tax amount, and total price of each check.
 
-For more information, see [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices).
+For more information, see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
 
 3. Optionally, add payment information for the checks to the `Order` object.
@@ -60,11 +60,11 @@ To include payment information for a check, add a `payments` value to the `Check
 
 The payment type must be either `CREDIT` or `OTHER`.
 
-For more information about `CREDIT` payments, see [Credit card payments](authorizingCcPayments.html).
+For more information about `CREDIT` payments, see [Credit card payments](apiDevGuide-authorizingCcPayments).
 
 For an `OTHER` type payment, include in the `Payment` object the GUID of a previously configured alternative payment type. Note that the orders API ignores the tax exempt setting for the payment type. The order is taxed regardless of whether the payment type is configured to be tax exempt.
 
-Payment information is optional. If an order is not yet paid for, you can omit the `payments` value. When the order is paid for, you can update the order to add the payment information. See [Adding payments to an existing check](apiAddingPaymentsToACheck.html).
+Payment information is optional. If an order is not yet paid for, you can omit the `payments` value. When the order is paid for, you can update the order to add the payment information. See [Adding payments to an existing check](apiDevGuide-apiAddingPaymentsToACheck).
 
 
 4. Send a `POST` request to the `/orders` endpoint of the orders API.

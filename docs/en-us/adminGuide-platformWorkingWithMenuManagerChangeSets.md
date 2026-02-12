@@ -17,10 +17,10 @@ codeExamples: 0
 
 This section provides information on working with change sets in the menu manager:
 
-- [Editing a menu manager change set](platformWorkingWithMenuManagerChangeSets.html#platformEditingAMenuManagerChangeSet)
+- [Editing a menu manager change set](adminGuide-platformWorkingWithMenuManagerChangeSets#platformEditingAMenuManagerChangeSet)
 
 
-- [Resolving errors for menu manager change sets](platformWorkingWithMenuManagerChangeSets.html#platformResolvingErrorsForMenuManagerChangeSets)
+- [Resolving errors for menu manager change sets](adminGuide-platformWorkingWithMenuManagerChangeSets#platformResolvingErrorsForMenuManagerChangeSets)
 
 
 
@@ -32,7 +32,7 @@ Before it is published, you can view the updates in a change set and modify them
 
 > **Note**
 > 
-> Every change set has one or more preview pages associated with it. A preview page is a special version of a Toast Web page that shows you the existing configuration and the changes you have made and included in the change set. For more information, see [Understanding scheduled publishing and change sets](platformUnderstandingScheduledPublishingAndChangeSets.html).
+> Every change set has one or more preview pages associated with it. A preview page is a special version of a Toast Web page that shows you the existing configuration and the changes you have made and included in the change set. For more information, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
 
 
 The menu manager preview page:
@@ -94,5 +94,5 @@ To edit a specific update, enter or choose its new value in the New column. For 
 
 ## Resolving errors for menu manager change sets
 
-Errors can occur if edits are made to a menu entity *after* a change set that includes the entity was created but *before* the change set executes. For example, consider a change set that includes an edit to a menu item's size price. If that size price is removed from the item before the change set executes, an error occurs. For more information on managing errors that occur when the Toast platform executes a menu manager change set, see [Resolving change set errors](platformUnderstandingScheduledPublishingAndChangeSets.html#platformResolvingChangeSetErrors) and [Menu update error codes](platformUnderstandingScheduledPublishingAndChangeSets.html#platformMenuUpdateErrorCodes).
+Errors can occur if edits are made to a menu entity *after* a change set that includes the entity was created but *before* the change set executes. For example, consider a change set that includes an edit to a menu item's size price. If that size price is removed from the item before the change set executes, an error occurs. For more information on managing errors that occur when the Toast platform executes a menu manager change set, see [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) and [Menu update error codes](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformMenuUpdateErrorCodes).
 

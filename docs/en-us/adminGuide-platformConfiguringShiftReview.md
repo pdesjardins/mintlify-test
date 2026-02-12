@@ -16,7 +16,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-You configure your shift review settings in [Toast Web ](adminAccessToastAdminBackend.html).
+You configure your shift review settings in [Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 ## Requiring shift review
 
@@ -24,7 +24,7 @@ Certain job roles may require employees to complete shift review before clocking
 
 **Procedure 6.105. To require employees to complete shift review before clocking out**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Employees \> Shift review \> Shift review setup to open the Shift review setuppage.
@@ -85,7 +85,7 @@ You can configure the information that appears on your shift review report. The 
 
 **Procedure 6.106. To configure your shift review report**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Employees \> POS report configurations \> Shift review report to open the Shift review report page.
@@ -147,7 +147,7 @@ You can configure the information that appears on your shift review report. The 
 
 
 
-The Toast platform automatically saves your changes. Select the Publish all changes button to publish your changes. For more information on shift review report configurations, see [Shift review / closeout](adminUiOptionsReference.html).
+The Toast platform automatically saves your changes. Select the Publish all changes button to publish your changes. For more information on shift review report configurations, see [Shift review / closeout](adminGuide-adminUiOptionsReference).
 
 ## Shift review report configurations
 

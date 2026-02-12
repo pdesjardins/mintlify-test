@@ -31,7 +31,7 @@ codeExamples: 0
 **All day**
 : The total count of an item that needs to be sent out from the kitchen across several orders. Used to clarify and prioritize workflow in the kitchen. Example: the grill cook asks, "Chef, can you give me an all day." The chef replies, "You’ve got 8 strip steaks and 3 ribeyes all day."
 
-The Toast KDS device offers an All Day Viewoption to make calculating counts easier and more accurate for cooks and expediters. For more information, see [About all day view](adminReportingTotalsKDS.html#adminAllDayView).
+The Toast KDS device offers an All Day Viewoption to make calculating counts easier and more accurate for cooks and expediters. For more information, see [About all day view](adminGuide-adminReportingTotalsKDS#adminAllDayView).
 
 
 
@@ -87,7 +87,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 **BOGO**
-: Buy One Get One, a type of discount or promotional offer. For more information, see [**BOGO discounts**](adminDiscountTypes.html#adminBogoDiscounts). See also [*Buy item*](adminGuide-adminGlossary.html#glossBuyItem) and [*Get item*](adminGuide-adminGlossary.html#glossGetItem).
+: Buy One Get One, a type of discount or promotional offer. For more information, see [**BOGO discounts**](adminGuide-adminDiscountTypes#adminBogoDiscounts). See also [*Buy item*](adminGuide-adminGlossary.html#glossBuyItem) and [*Get item*](adminGuide-adminGlossary.html#glossGetItem).
 
 
 
@@ -128,7 +128,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 **Cash drawer lockdown**
-: An employee may lock themselves to a cash drawer for the duration of a shift. The cash drawer is assigned to that employee and only they can take payments and deposit cash into that drawer. No other employees can access that cash drawer unless they have employee permission Cash Drawer Lockdown (Override). An employee who is locked down to a cash drawer must also close the cash drawer as a part of their shift review in order to clock out. For more information, see [Cash drawer lockdown](adminCashDrawerLockdown.html).
+: An employee may lock themselves to a cash drawer for the duration of a shift. The cash drawer is assigned to that employee and only they can take payments and deposit cash into that drawer. No other employees can access that cash drawer unless they have employee permission Cash Drawer Lockdown (Override). An employee who is locked down to a cash drawer must also close the cash drawer as a part of their shift review in order to clock out. For more information, see [Cash drawer lockdown](adminGuide-adminCashDrawerLockdown).
 
 
 
@@ -138,7 +138,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 **Cash drawer states**
-: Cash drawers can be in one of three states: active, open, or closed. For more information, see [Cash drawer states](adminCashDrawers.html#adminCashDrawerStates).
+: Cash drawers can be in one of three states: active, open, or closed. For more information, see [Cash drawer states](adminGuide-adminCashDrawers#adminCashDrawerStates).
 
 
 
@@ -175,7 +175,7 @@ Restaurant managers can enable this feature using the Employees \> Payroll manag
 
 
 **Closed order**
-: An order that has been fully paid for, including any tips, and closed by the server. For more information, see [Tracking the order state](adminOrderStates.html). See also [*Paid order*](adminGuide-adminGlossary.html#glossPaidOrder).
+: An order that has been fully paid for, including any tips, and closed by the server. For more information, see [Tracking the order state](adminGuide-adminOrderStates). See also [*Paid order*](adminGuide-adminGlossary.html#glossPaidOrder).
 
 
 
@@ -197,7 +197,7 @@ Restaurant managers can enable this feature using the Employees \> Payroll manag
 **Customer credit**
 : A type of promotion that guests can redeem for a future purchase. Example: a guest has an excessive wait for a reserved table and then receives the wrong order. You give them an immediate discount on their meal, and also give them credit toward their next visit.
 
-You can add customer credit (also called guest credit or store credit) to a guest's online record on a Toast POS device. Customer credits are deducted from net sales when they are redeemed. For more information, see [Guest credit overview](adminGuestCreditOverview.html).
+You can add customer credit (also called guest credit or store credit) to a guest's online record on a Toast POS device. Customer credits are deducted from net sales when they are redeemed. For more information, see [Guest credit overview](adminGuide-adminGuestCreditOverview).
 
 
 
@@ -210,7 +210,7 @@ You can add customer credit (also called guest credit or store credit) to a gues
 **Dining option**
 : The method used to deliver an order to a guest. Examples: Dine In, Takeout, or Delivery.
 
-A Toast KDS device can be configured to show orders based on the specified dining option. For more information, see [Verify device setup](adminVerifyDeviceSetup.html).
+A Toast KDS device can be configured to show orders based on the specified dining option. For more information, see [Verify device setup](adminGuide-adminVerifyDeviceSetup).
 
 
 
@@ -243,7 +243,7 @@ A Toast KDS device can be configured to show orders based on the specified dinin
 **Expediter (Expo)**
 : The person who manages the way food comes out of the kitchen and is served to guests. Often the head chef or kitchen manager.
 
-For the Toast platform, an expediter is a Toast KDS device or kitchen printer that displays or prints all of the orders for a specified set of prep stations. Example: a restaurant has three prep stations: Bar, Grill/Fry, and Middle. The head chef uses a KDS device to manage the kitchen, so food orders routed to the Grill/Fry and Middle prep station screens are also sent to the expediter screen. For more information, see [Using a KDS expediter screen](adminUsingExpo.html).
+For the Toast platform, an expediter is a Toast KDS device or kitchen printer that displays or prints all of the orders for a specified set of prep stations. Example: a restaurant has three prep stations: Bar, Grill/Fry, and Middle. The head chef uses a KDS device to manage the kitchen, so food orders routed to the Grill/Fry and Middle prep station screens are also sent to the expediter screen. For more information, see [Using a KDS expediter screen](adminGuide-adminUsingExpo).
 
 
 
@@ -290,7 +290,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 **Gratuity**
-: A type of [*service charge*](adminGuide-adminGlossary.html#glossServiceCharge) that is determined by the restaurant and included in a guest's bill. After collection by the restaurant, gratuities are paid out to the employee (typically a server, bartender, or delivery driver) responsible for the check. Example: the restaurant adds an 18% gratuity to the bill for parties of six or more people dining in. For more information, see [Service charge overview](adminServiceChargeOverview.html). See also [*Auto-gratuity*](adminGuide-adminGlossary.html#glossAutoGratuity) and [*Tip*](adminGuide-adminGlossary.html#glossTip).
+: A type of [*service charge*](adminGuide-adminGlossary.html#glossServiceCharge) that is determined by the restaurant and included in a guest's bill. After collection by the restaurant, gratuities are paid out to the employee (typically a server, bartender, or delivery driver) responsible for the check. Example: the restaurant adds an 18% gratuity to the bill for parties of six or more people dining in. For more information, see [Service charge overview](adminGuide-adminServiceChargeOverview). See also [*Auto-gratuity*](adminGuide-adminGlossary.html#glossAutoGratuity) and [*Tip*](adminGuide-adminGlossary.html#glossTip).
 
 
 
@@ -342,7 +342,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 **Independent modifier**
-: A [*modifier*](adminGuide-adminGlossary.html#glossModifier) that is prepared and served separately from its associated item, and can affect how long the item takes to prepare. Example: a steak can be ordered with a side salad, which can be served before, after, or at the same time as the steak. The side salad is an independent modifier. For more information, see [Prep times for independent modifiers](adminFireByPrepTime.html#adminIndependentModifier).
+: A [*modifier*](adminGuide-adminGlossary.html#glossModifier) that is prepared and served separately from its associated item, and can affect how long the item takes to prepare. Example: a steak can be ordered with a side salad, which can be served before, after, or at the same time as the steak. The side salad is an independent modifier. For more information, see [Prep times for independent modifiers](adminGuide-adminFireByPrepTime#adminIndependentModifier).
 
 
 
@@ -354,7 +354,7 @@ Example: you set up a menu group named Salad and set the prep station for that g
 
 
 **Integral modifier**
-: A [*modifier*](adminGuide-adminGlossary.html#glossModifier) that is essential to the completeness of its associated item, and can affect how long the time takes to prepare. Example: a burger can be ordered cooked to various temperatures. The meat temperature (rare, medium rare, medium, etc.), is an integral modifier. For more information, see [Prep times for integral modifiers](adminFireByPrepTime.html#adminIntegralModifier).
+: A [*modifier*](adminGuide-adminGlossary.html#glossModifier) that is essential to the completeness of its associated item, and can affect how long the time takes to prepare. Example: a burger can be ordered cooked to various temperatures. The meat temperature (rare, medium rare, medium, etc.), is an integral modifier. For more information, see [Prep times for integral modifiers](adminGuide-adminFireByPrepTime#adminIntegralModifier).
 
 
 
@@ -365,7 +365,7 @@ Example: you set up a menu group named Salad and set the prep station for that g
 
 
 **Kitchen display system (KDS)**
-: The software that displays a list of orders on one or more Toast POS devices, typically a tablet that is wall-mounted, and is optimized for use by cooks, expediters, and bartenders. The KDS device can either replace or be used with printed order tickets. For more information, see [How orders are routed to KDS devices](adminRoutingOrdersKitchen.html).
+: The software that displays a list of orders on one or more Toast POS devices, typically a tablet that is wall-mounted, and is optimized for use by cooks, expediters, and bartenders. The KDS device can either replace or be used with printed order tickets. For more information, see [How orders are routed to KDS devices](adminGuide-adminRoutingOrdersKitchen).
 
 
 
@@ -437,12 +437,12 @@ Net sales identifies business income *after*deductions have been taken (discount
 **No Print prep station**
 : For menu items that do not require any [*BOH*](adminGuide-adminGlossary.html#glossBOH) effort to prepare, such as retail goods or self-serve coffee, you do not need to print or display kitchen tickets at a prep station. Those menu items can be routed to a virtual "No Print" prep station that does not have an associated kitchen printer.
 
-For more information, see [Routing items to a virtual prep station](adminPreventingTicketsFromPrinting.html#adminNoPrintPrepStation).
+For more information, see [Routing items to a virtual prep station](adminGuide-adminPreventingTicketsFromPrinting#adminNoPrintPrepStation).
 
 
 
 **Non-printing prep station**
-: A device-level configuration option that prevents kitchen tickets from printing if the Toast KDS device at that prep station was also used to place the order. For more information, see [Configure a device to not print its own tickets](adminPreventingTicketsFromPrinting.html#adminNonPrintingPrepStation).
+: A device-level configuration option that prevents kitchen tickets from printing if the Toast KDS device at that prep station was also used to place the order. For more information, see [Configure a device to not print its own tickets](adminGuide-adminPreventingTicketsFromPrinting#adminNonPrintingPrepStation).
 
 
 
@@ -453,7 +453,7 @@ For more information, see [Routing items to a virtual prep station](adminPrevent
 
 
 **Offline payments**
-: Payments that are taken while the Toast device is experiencing a network disruption or Toast outage resulting in [Offline mode](adminOfflineModeOverview.html). Payments taken during Offline mode are authorized and processed once connectivity is restored.
+: Payments that are taken while the Toast device is experiencing a network disruption or Toast outage resulting in [Offline mode](adminGuide-adminOfflineModeOverview). Payments taken during Offline mode are authorized and processed once connectivity is restored.
 
 
 
@@ -489,7 +489,7 @@ For more information, see [Routing items to a virtual prep station](adminPrevent
 
 
 **Paid order**
-: An order that has been paid for but has not been closed by the server. This is the state an order is in when a server has run a guest's credit card for the amount owed, but has not yet added the tip amount in and closed the order. For more information, see [Tracking the order state](adminOrderStates.html).
+: An order that has been paid for but has not been closed by the server. This is the state an order is in when a server has run a guest's credit card for the amount owed, but has not yet added the tip amount in and closed the order. For more information, see [Tracking the order state](adminGuide-adminOrderStates).
 
 
 
@@ -506,12 +506,12 @@ For more information, see [Routing items to a virtual prep station](adminPrevent
 **Prep station**
 : The area in the kitchen where a certain type of food is prepared. Examples: grill, wood oven, fry, or salad.
 
-For Toast platform configuration, a prep station identifies the location of a Toast KDS device or kitchen printer that displays or prints orders for menu items. Example: salad items are routed to the Cold prep station, and items with grilled chicken are routed to the Grill prep station. Menus can be configured to route a salad order that includes grilled chicken to both of these prep stations so that both cooks can work on the order in parallel. For more information, see [How orders are routed to KDS devices](adminRoutingOrdersKitchen.html).
+For Toast platform configuration, a prep station identifies the location of a Toast KDS device or kitchen printer that displays or prints orders for menu items. Example: salad items are routed to the Cold prep station, and items with grilled chicken are routed to the Grill prep station. Menus can be configured to route a salad order that includes grilled chicken to both of these prep stations so that both cooks can work on the order in parallel. For more information, see [How orders are routed to KDS devices](adminGuide-adminRoutingOrdersKitchen).
 
 
 
 **Production item**
-: An ingredient or component that is used by multiple menu items or modifiers. You can set up production items in the Toast platform on a KDS device to help line cooks and expediters monitor how many of that ingredient or component need to be prepared to fulfill current orders. For more information, see [About production items](adminAssignPrepStationKDS.html#adminAboutProdItems).
+: An ingredient or component that is used by multiple menu items or modifiers. You can set up production items in the Toast platform on a KDS device to help line cooks and expediters monitor how many of that ingredient or component need to be prepared to fulfill current orders. For more information, see [About production items](adminGuide-adminAssignPrepStationKDS#adminAboutProdItems).
 
 
 
@@ -561,7 +561,7 @@ For Toast platform configuration, a prep station identifies the location of a To
 **Seat**
 : For a guest who is dining in, their seat identifies their physical location at a table in the restaurant or bar. Seats are typically numbered to assure servers can efficiently deliver items to the guests who ordered them.
 
-For table service orders, servers can include each guest's seat number. For more information about how to configure this option, see [???](adminUiOptionsReference.html#adminOrderScreenRef).
+For table service orders, servers can include each guest's seat number. For more information about how to configure this option, see [???](adminGuide-adminUiOptionsReference#adminOrderScreenRef).
 
 
 
@@ -581,7 +581,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Service charge**
-: A fee determined by the restaurant and included in a guest's bill. In the Toast platform, a service charge can either be paid to the restaurant and included in [*net sales*](adminGuide-adminGlossary.html#glossNetSales) as a non-gratuity service charge, or paid to the employee (such as a server, bartender, or driver) on the check as a gratuity. For more information, see [Service charge overview](adminServiceChargeOverview.html). See also [*Gratuity*](adminGuide-adminGlossary.html#glossGratuity).
+: A fee determined by the restaurant and included in a guest's bill. In the Toast platform, a service charge can either be paid to the restaurant and included in [*net sales*](adminGuide-adminGlossary.html#glossNetSales) as a non-gratuity service charge, or paid to the employee (such as a server, bartender, or driver) on the check as a gratuity. For more information, see [Service charge overview](adminGuide-adminServiceChargeOverview). See also [*Gratuity*](adminGuide-adminGlossary.html#glossGratuity).
 
 
 
@@ -642,7 +642,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Toast Web**
-: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup \> Other Setup). For more information, see [Using Toast Web](adminAccessToastAdminBackend.html).
+: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup \> Other Setup). For more information, see [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 
@@ -652,12 +652,12 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Toast POS home screen**
-: On a Toast POS device, the page that provides access to features other than the device's primary mode. The [access permissions](adminPermissions.html) assigned to the current user determine the set of features that are available on this page. For more information, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html).
+: On a Toast POS device, the page that provides access to features other than the device's primary mode. The [access permissions](adminGuide-adminPermissions) assigned to the current user determine the set of features that are available on this page. For more information, see [Accessing the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
 
 
 
 **Toast platform**
-: The Toast point of sale (POS) product, which includes the Toast POS app, Toast restaurant hardware, Toast Web, and other restaurant workflow functionality. For more information, see [Toast platform overview](platformToastPlatformOverview.html).
+: The Toast point of sale (POS) product, which includes the Toast POS app, Toast restaurant hardware, Toast Web, and other restaurant workflow functionality. For more information, see [Toast platform overview](adminGuide-platformToastPlatformOverview).
 
 
 
@@ -672,7 +672,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Two-level fulfillment**
-: A back-of-house KDS workflow in which orders fulfilled on prep station screens go to a sequence of two expediter screens to finalize and then serve or deliver to guests. For more information, see [Using a KDS expediter screen](adminUsingExpo.html).
+: A back-of-house KDS workflow in which orders fulfilled on prep station screens go to a sequence of two expediter screens to finalize and then serve or deliver to guests. For more information, see [Using a KDS expediter screen](adminGuide-adminUsingExpo).
 
 
 

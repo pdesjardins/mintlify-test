@@ -22,5 +22,5 @@ The `menus` webhook is the preferred method for determining when a restaurant's 
 
 As an alternative to the `menus` webhook, you can use the `/metadata` endpoint to retrieve the most recent date and time that the restaurant's menu was published, in the UTC time zone. You can compare the date and time returned by the `/metadata`endpoint to the `lastUpdated` value of the `Restaurant` object in your current menu data. Toast support strongly recommends that you do not make a call to the `/menus` endpoint unless the date and time returned by the `/metadata` endpoint is more recent than the `lastUpdated` date and time. If your integration uses the `/metadata` endpoint, Toast Support recommends that you poll the `/metadata` endpoint throughout the day to determine if your menu data has become stale.
 
-For more information on the `menus` webhook, see [Menus webhook](apiMenusWebhook.html). For more information on the `/metadata` endpoint, see the [menus API reference documentation](https://doc.toasttab.com/openapi/menus/overview/).
+For more information on the `menus` webhook, see [Menus webhook](apiDevGuide-apiMenusWebhook). For more information on the `/metadata` endpoint, see the [menus API reference documentation](https://doc.toasttab.com/openapi/menus/overview/).
 

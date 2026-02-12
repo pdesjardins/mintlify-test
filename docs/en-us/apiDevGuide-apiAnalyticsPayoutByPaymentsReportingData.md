@@ -26,18 +26,18 @@ Retrieving the payout reporting data by payment is a two-step process. You must:
 > The analytics API currently only supports retrieving payout by payments reporting data for the `day` time range.
 
 
-For more information, see [Creating a request for payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataCreateRequest).
+For more information, see [Creating a request for payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData#apiAnalyticsPayoutByPaymentsReportingDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/payout/payments/\{requestReportGuid\}` endpoint to retrieve the payout reporting data organized by payments. For more information, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/payout/payments/\{requestReportGuid\}` endpoint to retrieve the payout reporting data organized by payments. For more information, see [Retrieving the payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
 
 
 ## Creating a request for payout reporting data by payments
 
-Send a `POST` request to the `/era/v1/payout/payments/\{timeRange\}` endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `POST` request to the `/era/v1/payout/payments/\{timeRange\}` endpoint to request payout reporting data organized by payments for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
-You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
+You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 To create a request for payout reporting data organized by payments, include the following:
 
@@ -117,11 +117,11 @@ The following example shows the response from the `/era/v1/payout/payments/day` 
 
 (1) The GUID for the payout reporting data by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiAnalyticsPayoutByPaymentsReportingData.html#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
+For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
 ## Retrieving the payout reporting data by payments
 
-Send a `GET` request to the `/era/v1/payout/payments/\{reportRequestGuid\}` endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+Send a `GET` request to the `/era/v1/payout/payments/\{reportRequestGuid\}` endpoint to retrieve payout reporting data organized by payments. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 ### Request to retrieve payout reporting data by payments
 
@@ -206,7 +206,7 @@ The following example shows the response from the `/era/v1/payout/payments/\{rep
 
 ## Understanding the payout reporting data by payments
 
-Payout reporting data by payment contains objects that correspond to each available restaurant and payment combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
+Payout reporting data by payment contains objects that correspond to each available restaurant and payment combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 The restaurants included in the payout reporting data organized by payments can be limited using either the `restaurantIds`or `excludedRestaurantIds` value in the message body. You can include restaurant GUIDs for only one of these values. Any restaurants listed with the `restaurantIds` value are included in the payout reporting data, with any restaurants not listed excluded. Any restaurants listed with the `excludedRestaurantIds` value are excluded from the payout reporting data, with any restaurants not listed included. When both are left blank, all restaurants are included automatically.
 

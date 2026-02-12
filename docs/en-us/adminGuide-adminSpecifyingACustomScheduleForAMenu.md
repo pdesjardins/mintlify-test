@@ -46,7 +46,7 @@ For multi-location restaurants, the time period you specify is in each location'
 6. Select Save again.
 
 
-7. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+7. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 

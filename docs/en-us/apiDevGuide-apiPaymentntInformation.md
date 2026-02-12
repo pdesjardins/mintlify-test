@@ -112,10 +112,10 @@ The following example shows the JSON response data for a GET request to the `/pa
   
 The following sections provide information about voided and refunded payments.
 
-- [Voided payments](apiPaymentntInformation.html#apiVoidedPayments)
+- [Voided payments](apiDevGuide-apiPaymentntInformation#apiVoidedPayments)
 
 
-- [Refunded payments](apiPaymentntInformation.html#apiRefundedPayments)
+- [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments)
 
 
 

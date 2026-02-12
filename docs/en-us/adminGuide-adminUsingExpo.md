@@ -28,9 +28,9 @@ In this "two-level fulfillment" workflow, both expediters are responsible for ma
 
 With the Toast POS, you can configure your KDS devices to display orders to one or two expediter seats.
 
-If your kitchen includes either one or two expediter screens, additional features are available, including options to [send SMS text messages](platformKitchenTextMessaging.html#adminSendTextMessage) to guests or servers or [send on-screen notifications](adminUsingExpo.html#adminSendOnScreenNotifications) to server devices when an expediter marks orders as fulfilled.
+If your kitchen includes either one or two expediter screens, additional features are available, including options to [send SMS text messages](adminGuide-platformKitchenTextMessaging#adminSendTextMessage) to guests or servers or [send on-screen notifications](adminGuide-adminUsingExpo#adminSendOnScreenNotifications) to server devices when an expediter marks orders as fulfilled.
 
-For more information about setting up prep stations, see [Routing with prep stations](adminRoutingToPrepStations.html).
+For more information about setting up prep stations, see [Routing with prep stations](adminGuide-adminRoutingToPrepStations).
 
 ## Configure the expediter workflow
 
@@ -43,7 +43,7 @@ To configure your kitchen workflow to include one or two expediters, you must ha
 
 
 
-To set up the Toast POS devices as expediter screens, you must also have at least one of the "mode" access permissions. For more information, see [Accessing the Toast POS Device Setup screen](adminConfigureDevice.html).
+To set up the Toast POS devices as expediter screens, you must also have at least one of the "mode" access permissions. For more information, see [Accessing the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
 
 Follow one of these procedures to configure the expediter workflow.
 
@@ -51,10 +51,10 @@ Follow one of these procedures to configure the expediter workflow.
 
 1. Determine which prep stations should route orders to the expediter.
 
-You can review the menu items and modifiers that are assigned to each prep station in Toast Web. For more information, see [Verify order routing to prep stations](adminTroubleshootPrepStationRouting.html).
+You can review the menu items and modifiers that are assigned to each prep station in Toast Web. For more information, see [Verify order routing to prep stations](adminGuide-adminTroubleshootPrepStationRouting).
 
 
-2. [Access Toast Web ](adminAccessToastAdminBackend.html)and choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage. An interactive grid with rows for each prep station appears.
+2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)and choose Kitchen \> Kitchen stations \> Prep stations to open the Prep stationspage. An interactive grid with rows for each prep station appears.
 
 
 3. To send orders to the expediter, a prep station must have a check mark in the Send to Expediter column. Check this setting for each prep station you identified in Step 1, and then save your changes.
@@ -63,7 +63,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 
 > **Note**
 > 
-> If you have the limited release Send tosetting instead of the Send to Expeditersetting, select the Prep stations and expediters option. For information about having items appear only on expediter KDS devices, see [Sending items to prep stations, expediters, or both](adminRoutingToPrepStations.html#platformKitchenSendingToPrepStationExpediterBoth).
+> If you have the limited release Send tosetting instead of the Send to Expeditersetting, select the Prep stations and expediters option. For information about having items appear only on expediter KDS devices, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
 
 
 
@@ -92,7 +92,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 
 **Procedure 10.33. To configure two expediter screens**
 
-1. Complete Steps 1-3 from the [single expediter configuration](adminUsingExpo.html#singleExpo)procedure to define which prep stations send orders to the expediter.
+1. Complete Steps 1-3 from the [single expediter configuration](adminGuide-adminUsingExpo#singleExpo)procedure to define which prep stations send orders to the expediter.
 
 
 2. Choose Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup, and in the Expediter section set Two-Level Fulfillment to Two levels.
@@ -101,7 +101,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 
 > **Note**
 > 
-> If you have the limited release Send tosetting instead of the Send to Expeditersetting, select the Prep stations and expediters option. For information about having items appear only on expediter KDS devices, see [Sending items to prep stations, expediters, or both](adminRoutingToPrepStations.html#platformKitchenSendingToPrepStationExpediterBoth).
+> If you have the limited release Send tosetting instead of the Send to Expeditersetting, select the Prep stations and expediters option. For information about having items appear only on expediter KDS devices, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
 
 
 
@@ -124,7 +124,7 @@ You can review the menu items and modifiers that are assigned to each prep stati
 
 
 
-6. On the Toast POS device that is located at the *second* expediter seat, [access Device Setup](adminConfigureDevice.html), tap Primary Mode, and then make the following selections.
+6. On the Toast POS device that is located at the *second* expediter seat, [access Device Setup](adminGuide-adminConfigureDevice), tap Primary Mode, and then make the following selections.
 
 - Kitchen Display/Expo Screen is the primary device usage.
 
@@ -163,7 +163,7 @@ On-screen notifications have the following characteristics.
 - If your kitchen is configured to Enable individual item fulfillment, the notification is sent after all items are marked fulfilled.
 
 
-- If your kitchen workflow has [two expediters](adminUsingExpo.html), the notification is sent as soon as either of the two expediters marks the order fulfilled.
+- If your kitchen workflow has [two expediters](adminGuide-adminUsingExpo), the notification is sent as soon as either of the two expediters marks the order fulfilled.
 
 
 
@@ -171,7 +171,7 @@ On-screen notifications have the following characteristics.
 
 To configure on-screen notifications for servers, you must have the Web Setup \> Restaurant Operations Setupaccess permission to Toast Web. Then, follow these steps.
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Front of house \> POS notifications \> Notification setup to open the Notification setup page.

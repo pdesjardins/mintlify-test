@@ -30,7 +30,7 @@ For items that do not require any effort to prepare, you can route the items to 
 
 **Procedure 10.19. To set up a virtual prep station and route menu items to it**
 
-1. [Add a prep station](adminAddPrepStation.html).
+1. [Add a prep station](adminGuide-adminAddPrepStation).
 
 - Name the prep station No Print.
 
@@ -58,10 +58,10 @@ For items that do not require any effort to prepare, you can route the items to 
 ![The Prep Stations page with a No Print prep station example emphasized.](https://doc.toasttab.com/doc/media/kitchen-noprint-prepstation.png)
 
 
-2. Verify that all prep station KDS devices do not have the **No Print** prep station [assigned](adminAssignPrepStationKDS.html).
+2. Verify that all prep station KDS devices do not have the **No Print** prep station [assigned](adminGuide-adminAssignPrepStationKDS).
 
 
-3. [Assign the **No Print** prep station to menu items](adminRoutingToPrepStations.html#adminAssignPrepStationMenu).
+3. [Assign the **No Print** prep station to menu items](adminGuide-adminRoutingToPrepStations#adminAssignPrepStationMenu).
 
 ![The Advanced Properties page with bottled drink items routed to the No Print prep station.](https://doc.toasttab.com/doc/media/prep_station_no_print.png)
 
@@ -85,10 +85,10 @@ For example, an employee at the Bar prep station enters a cocktail order on the 
 
 **Procedure 10.20. To set up a Toast POS device to not print tickets at a specific prep station**
 
-1. [Add the printer](adminAddKitchenPrinter.html).
+1. [Add the printer](adminGuide-adminAddKitchenPrinter).
 
 
-2. [Add the prep station](adminAddPrepStation.html).
+2. [Add the prep station](adminGuide-adminAddPrepStation).
 
 - Name the prep station.
 
@@ -114,7 +114,7 @@ For example, an employee at the Bar prep station enters a cocktail order on the 
 
 
 
-3. [Assign the prep station to menu items](adminRoutingToPrepStations.html#adminAssignPrepStationMenu).
+3. [Assign the prep station to menu items](adminGuide-adminRoutingToPrepStations#adminAssignPrepStationMenu).
 
 ![The Advanced Properties page with Specialty items routed to the Bar prep station.](https://doc.toasttab.com/doc/media/prep_station_bar.png)
 
@@ -122,7 +122,7 @@ For example, an employee at the Bar prep station enters a cocktail order on the 
 4. Save and publish your changes.
 
 
-5. On the prep station Toast POS device that you do not want to print tickets from, [access the Toast POS Device Setup screen](adminConfigureDevice.html).
+5. On the prep station Toast POS device that you do not want to print tickets from, [access the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
 
 
 6. In the Kitchen Setup section, select Non-Printing Prep Stations. The Non-Printing Prep Stations screen opens.

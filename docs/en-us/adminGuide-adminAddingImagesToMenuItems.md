@@ -31,7 +31,7 @@ Toast support recommends adding images to your menu items to make them more appe
 4. Select Save.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 

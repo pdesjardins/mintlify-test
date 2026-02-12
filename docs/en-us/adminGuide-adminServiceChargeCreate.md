@@ -16,15 +16,15 @@ codeExamples: 0
 
 ## Prerequisites for configuring service charges
 
-To create a service charge, you need POS Access \> Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminPermissions.html#adminAddlPosAccessPermissions).
+To create a service charge, you need POS Access \> Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminGuide-adminPermissions#adminAddlPosAccessPermissions).
 
-Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus \> Menu management \> Tax rates setup. For more information, see [Taxes overview](adminTaxesOverview.html).
+Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus \> Menu management \> Tax rates setup. For more information, see [Taxes overview](adminGuide-adminTaxesOverview).
 
 ## Configuring a new service charge
 
 **Procedure 6.20. To configure a new service charge**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments \> Checks & receipt setup \> Service charges and fees.
@@ -45,14 +45,14 @@ Before you create a service charge that is taxed, configure your tax rates using
 **Target**
 : (Enterprise module only) Select the restaurants in a restaurant group to which this service charge can be applied.
 
-For information on targets, see [Targets](targets.html).
+For information on targets, see [Targets](adminGuide-targets).
 
 
 
 **Owner**
 : (Enterprise module only) Select the group level permission that is needed to edit the service charge.
 
-For information on owners, see [Owners and permissions](ownersAndPermissions.html).
+For information on owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
 

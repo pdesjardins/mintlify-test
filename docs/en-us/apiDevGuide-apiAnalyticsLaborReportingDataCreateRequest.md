@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can request labor reporting data for a single day, week, or month. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for a `month` time range is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+You can request labor reporting data for a single day, week, or month. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for a `month` time range is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 You must include the `startBusinessDate` and `endBusinessDate` properties in the message body to identify the start and end dates for the time range, in `YYYYMMDD`format. For the `day` time range, the dates must be the same.
 
@@ -28,7 +28,7 @@ Optionally, you can use the `restaurantIds` in the message body to list the GUID
 > You can include restaurant GUIDs for only one of these values. Listing restaurant GUIDs for both `restaurantIds` and `excludedRestaurantIds` results in a 400 error or blank labor reporting data. They are contradictory values that cannot be used together.
 
 
-You can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
+You can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 Send a `POST` request to the `/era/v1/labor/\{timeRange\}` endpoint to request labor reporting data for a specific time range. The time range you specify can be `day`, `week`, or `month`.
 
@@ -114,5 +114,5 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 (1) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-For an example that shows how to retrieve the labor reporting data, see [Retrieving the labor reporting data](apiAnalyticsLaborReportingDataRetrieveData.html).
+For an example that shows how to retrieve the labor reporting data, see [Retrieving the labor reporting data](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData).
 

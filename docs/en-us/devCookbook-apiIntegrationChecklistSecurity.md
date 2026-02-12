@@ -21,7 +21,7 @@ After you complete and test these steps, you can complete an end-to-end test of 
 
 ## Required scopes
 
-To build a security integration, you must have the following [scopes](apiScopes.html):
+To build a security integration, you must have the following [scopes](apiDevGuide-apiScopes):
 
 - `cashmgmt:read`
 
@@ -45,21 +45,21 @@ To build a security integration, you must have the following [scopes](apiScopes.
 
 
 
-You can retrieve a list of your current scopes through your [Toast developer portal](apiDeveloperPortal.html#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](integrationDevProcess.html)guide for instructions on requesting access.
+You can retrieve a list of your current scopes through your [Toast developer portal](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
 
 ## Setup and planning
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ### Review menu and order structure
 
 Reporting on sales depends on a restaurant’s usage of menu items and the overall structure of orders.
 
-To understand Toast menu concepts before you begin development, review [Menu hierarchy](adminMenuHierarchy.html).
+To understand Toast menu concepts before you begin development, review [Menu hierarchy](adminGuide-adminMenuHierarchy).
 
-To review order structure, see [Orders API overview](portalOrdersApiOverview.html) and [Order object summary](apiOrdersOrderObjectSummary.html). For more information about the orders API, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
+To review order structure, see [Orders API overview](apiDevGuide-portalOrdersApiOverview) and [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary). For more information about the orders API, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
 ### Decide what order information you will provide
 
@@ -176,7 +176,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 - Use the `lastModified` query parameter to only retrieve entities modified after the specified timestamp.
 
 
-- Use the [menus webhook](apiMenusWebhook.html) or query the [/metadata](https://doc.toasttab.com/openapi/menusv3/operation/metadataGet/)endpoint of menus API throughout the day. Only retrieve a new menu when you determine that your [existing menu is outdated](apiDeterminingIfYourMenuJsonIsOutdated_V2.html).
+- Use the [menus webhook](apiDevGuide-apiMenusWebhook) or query the [/metadata](https://doc.toasttab.com/openapi/menusv3/operation/metadataGet/)endpoint of menus API throughout the day. Only retrieve a new menu when you determine that your [existing menu is outdated](apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2).
 
 
 
@@ -193,7 +193,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 | Menu information | The menus API returns menu item names and other menu-related information you may want to display in your platform.- Menu information, such as menu group names, menu item names, and item tags from the menus API. [More information](https://doc.toasttab.com/doc/devguide/apiGettingMenuInformationFromTheMenusAPI.html)
 
  | 
-| Cash configuration | Cash configuration allows you to display metadata about the cash transactions at a restaurant. For more information about working with cash entries, see [Cash management overview](apiWorkingWithCashEntriesAndDeposits.html). - Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)
+| Cash configuration | Cash configuration allows you to display metadata about the cash transactions at a restaurant. For more information about working with cash entries, see [Cash management overview](apiDevGuide-apiWorkingWithCashEntriesAndDeposits). - Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)
 - No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/)
 - Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/)
 - Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)
@@ -206,15 +206,15 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 ### Set up recurring order retrieval of transactional information
 
-To report on completed orders, you need to retrieve orders at least once per day using the `startDate` and `endDate` parameters of the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint of the orders API. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html) for more information.
+To report on completed orders, you need to retrieve orders at least once per day using the `startDate` and `endDate` parameters of the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint of the orders API. See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
-For real-time order information, Toast support recommends using the [Orders webhook](devOrdersWebhookRef.html) to receive order updates as they occur instead of pulling order updates with the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint.
+For real-time order information, Toast support recommends using the [Orders webhook](apiDevGuide-devOrdersWebhookRef) to receive order updates as they occur instead of pulling order updates with the [/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)endpoint.
 
 ### Determine closeout hour
 
 The `closeoutHour` value in the `General`object returned by the [restaurants API](https://doc.toasttab.com/doc/devguide/apiRestaurantInformation.html) contains the restaurant’s closeout hour. The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on order entities changes after the `closeoutHour`.
 
-Consider [daylight savings time](api_dates_and_timestamps.html#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ## Building report functionality
 

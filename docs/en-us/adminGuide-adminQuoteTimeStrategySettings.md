@@ -21,7 +21,7 @@ The following table provides information about the quote time strategies availab
 
 > **Note**
 > 
-> Changes to quote times are reflected on the [Online ordering dashboard](adminOnlineOrderingDashboard.html) and on [Orders Hub](platformOrdersHubOverview.html).
+> Changes to quote times are reflected on the [Online ordering dashboard](adminGuide-adminOnlineOrderingDashboard) and on [Orders Hub](adminGuide-platformOrdersHubOverview).
 
 
 | Quote time strategy | Configuration | 

@@ -17,7 +17,7 @@ codeExamples: 0
 
 A discount is a reduction to the price of a check or a menu item selection. You can include discounts when you create an order, and add discounts to an existing order.
 
-To configure the available discounts at your restaurant, you use the Discounts screen of Toast Web. For more information about discounts in the Toast platform, see [Using the Discounts page](adminAvailableDiscounts.html).
+To configure the available discounts at your restaurant, you use the Discounts screen of Toast Web. For more information about discounts in the Toast platform, see [Using the Discounts page](adminGuide-adminAvailableDiscounts).
 
 ## Types of discounts
 
@@ -316,7 +316,7 @@ The following example shows a discount applied to a menu item selection.
 
 You can apply more than one check-level discount to a check.
 
-Check-level and BOGO discounts have an [Allow with other discounts](adminDiscountExclusivity.html)setting. This setting determines whether the discount can be applied at the same time as other check-level and BOGO discounts.
+Check-level and BOGO discounts have an [Allow with other discounts](adminGuide-adminDiscountExclusivity)setting. This setting determines whether the discount can be applied at the same time as other check-level and BOGO discounts.
 
 - If Allow with other discounts is enabled, then the discount can be combined with other check-level or BOGO discounts. This includes check-level or BOGO discounts that have Allow with other discounts disabled.
 
@@ -691,7 +691,7 @@ When you use the orders API to add discounts to an order, the orders API verifie
 
 
 
-For more information about discount eligibility and combining discounts, see the [discounts information](platformDiscountsOverview.html) in the *Toast Platform Guide*.
+For more information about discount eligibility and combining discounts, see the [discounts information](adminGuide-platformDiscountsOverview) in the *Toast Platform Guide*.
 
 ### Determining whether a menu item allows discounts
 
@@ -1154,7 +1154,7 @@ From the Toast orders API, you can perform the following tasks related to loyalt
 
 
 
-For more information about loyalty programs, see [Loyalty program integration overview](apiLoyaltyProgramIntegrationOverview.html).
+For more information about loyalty programs, see [Loyalty program integration overview](apiDevGuide-apiLoyaltyProgramIntegrationOverview).
 
 ### How the Toast platform interacts with loyalty programs
 

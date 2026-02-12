@@ -88,7 +88,7 @@ Filtering options:
 
 
 
-- Dining option. This list is dynamic and the filtering options available depend on your restaurant's configurations. For more information, see [Dining options](index.html).
+- Dining option. This list is dynamic and the filtering options available depend on your restaurant's configurations. For more information, see [Dining options](adminGuide-index).
 
 
 - Payment status

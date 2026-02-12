@@ -26,7 +26,7 @@ To understand these two identifiers, you have to understand some core Toast conc
 
 Toast customers use the multi-location management module when they want to share configuration among multiple restaurant locations. For example, individual locations can share menus, dining options, employees, job descriptions, and so on with other locations in a larger restaurant group. The more configuration that multiple locations share, the easier it becomes to maintain that configuration because Toast customers are managing one instance of a shared entity used by multiple locations, instead of separate instances across different locations.
 
-When a restaurant uses the multi-location management module, its configuration entities (such as menu items, prep stations, and discount reasons) can be [versioned](versions.html) and those versions can be assigned to specific restaurant locations, or [groups of locations](restaurantGroupsAndSubgroups.html). For example, a restaurant could have two versions of a Breakfast Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all of, their data. For example, the Boston version of the Breakfast Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
+When a restaurant uses the multi-location management module, its configuration entities (such as menu items, prep stations, and discount reasons) can be [versioned](adminGuide-versions) and those versions can be assigned to specific restaurant locations, or [groups of locations](adminGuide-restaurantGroupsAndSubgroups). For example, a restaurant could have two versions of a Breakfast Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all of, their data. For example, the Boston version of the Breakfast Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
 
 ### multilocationId value
 
@@ -94,7 +94,7 @@ When you use the `multiLocationId` as the identifier for the menu item, you elim
 
 Some additional notes about the `multiLocationId`identifier:
 
-- Toast APIs generate both `multiLocationId` and `guid` identifiers for the entities in all restaurants, whether they use the multi-location management module or not. This allows your integration to use the same code, regardless of whether a restaurant is part of a larger group. See [Using multiLocationId for single-location restaurants](portalToastIdentifiers.html#portalUsingMultiLocationIForSingleLocationRestaurants)for more information.
+- Toast APIs generate both `multiLocationId` and `guid` identifiers for the entities in all restaurants, whether they use the multi-location management module or not. This allows your integration to use the same code, regardless of whether a restaurant is part of a larger group. See [Using multiLocationId for single-location restaurants](apiDevGuide-portalToastIdentifiers#portalUsingMultiLocationIForSingleLocationRestaurants)for more information.
 
 
 - The `multiLocationId` is new to the Toast APIs. Not all APIs support it yet. If an API does not expose the `multiLocationId` value, you must continue to use the `guid` as the identifier for a Toast entity. Currently, the following APIs support `multiLocationId`:

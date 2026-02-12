@@ -19,26 +19,26 @@ codeExamples: 0
 | **A:** | You must have the "Manage Integrations" permission to view the "Manage Credentials" interface. | 
 
 | **Q:** | How do I add new locations to my existing credentials? | 
-| **A:** | You can add new locations on the Edit credentials page. For information on how to edit which location(s) you have standard API access to, see [Editing standard API access credentials](devApiAccessCredentials.html#devApiAccessEditingCredentials). | 
+| **A:** | You can add new locations on the Edit credentials page. For information on how to edit which location(s) you have standard API access to, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials). | 
 
 | **Q:** | Why is there a lock next to a Toast POS location that is not available (appears dimmed)? | 
 | **A:** | If a location displays a lock and is displayed as not available (appears dimmed), that indicates that the location does not have access to Toast Restaurant Management Suite Essentials or higher. Every location you want to have standard API access to requires a subscription to Toast Restaurant Management Suite Essentials or higher.Changes made to locations with an active subscription to Toast Restaurant Management Suite Essentials or higher may take a few minutes to be reflected in the Toast platform. | 
 
 | **Q:** | Why am I seeing a 401 error when making an API request? | 
-| **A:** | You may see a 401 error because you did not authenticate with valid credentials. For more information on authentication, see [Authentication and restaurant access](authentication.html). For more information about error codes, see [API responses and errors](apiResponsesAndErrors.html). | 
+| **A:** | You may see a 401 error because you did not authenticate with valid credentials. For more information on authentication, see [Authentication and restaurant access](apiDevGuide-authentication). For more information about error codes, see [API responses and errors](apiDevGuide-apiResponsesAndErrors). | 
 
 | **Q:** | Why am I seeing a 403 error when making an API request? | 
 | **A:** | You may see a 403 error message when making an API request for any of the following reasons:- You made a `POST` request. Standard API access only supports `GET` requests.
 - You tried to access the `menus /v3`endpoints. Standard API access only supports `menus
                   /v2` endpoints.
-- Your credentials do not include access to this restaurant. For information on how to edit which location(s) you have standard API access to, see [Editing standard API access credentials](devApiAccessCredentials.html#devApiAccessEditingCredentials).
-- Your API client is missing the required scope for this endpoint. For information on how to edit the scopes configured for a client, see [Editing standard API access credentials](devApiAccessCredentials.html#devApiAccessEditingCredentials).
+- Your credentials do not include access to this restaurant. For information on how to edit which location(s) you have standard API access to, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials).
+- Your API client is missing the required scope for this endpoint. For information on how to edit the scopes configured for a client, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials).
 
 
 
 > **Note**
 > 
-> This list is not exhaustive. For more information about error codes, see [API responses and errors](apiResponsesAndErrors.html).
+> This list is not exhaustive. For more information about error codes, see [API responses and errors](apiDevGuide-apiResponsesAndErrors).
 
 
  | 

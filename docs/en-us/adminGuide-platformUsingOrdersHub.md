@@ -182,7 +182,7 @@ The scheduled firing time displayed is dynamic, meaning it changes as the order 
 - Dining option. For example, Delivery or Pickup.
 
 
-- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](platformManagingDeliveryOrders.html#platformTDSStatusReference).
+- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](adminGuide-platformManagingDeliveryOrders#platformTDSStatusReference).
 
 
 - Dining behavior. For example, Delivery is displayed for off-premise orders.
@@ -278,7 +278,7 @@ Each order entry in the Active tab displays the following information:
 - Dining option. For example, Delivery or Pickup.
 
 
-- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](platformManagingDeliveryOrders.html#platformTDSStatusReference).
+- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](adminGuide-platformManagingDeliveryOrders#platformTDSStatusReference).
 
 
 - Dining behavior. For example, Delivery is displayed for off-premise orders.
@@ -376,7 +376,7 @@ Each order entry in the Order Ready tab displays the following information:
 - Dining option. For example, Delivery or Pickup.
 
 
-- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](platformManagingDeliveryOrders.html#platformTDSStatusReference).
+- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](adminGuide-platformManagingDeliveryOrders#platformTDSStatusReference).
 
 
 - Dining behavior. For example, Delivery is displayed for off-premise orders.
@@ -474,7 +474,7 @@ Each order entry in the Completed tab displays the following information:
 - Dining option. For example, Delivery or Pickup.
 
 
-- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](platformManagingDeliveryOrders.html#platformTDSStatusReference).
+- Delivery status or payment status. For a full list of delivery statuses available for orders fulfilled by Toast Delivery Services (TDS), see [Toast Delivery Services statuses](adminGuide-platformManagingDeliveryOrders#platformTDSStatusReference).
 
 
 - Dining behavior. For example, Delivery is displayed for off-premise orders.
@@ -822,7 +822,7 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 
 **Procedure 3.6. To enable the KDS configuration**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Orders Hub \> Order ready guest messaging to open the Kitchen Display System (KDS) configuration page. To turn on the KDS configuration, toggle the setting from Offto On.
@@ -841,7 +841,7 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 
 > **Note**
 > 
-> To use the Orders Hub order ready messaging feature, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
+> To use the Orders Hub order ready messaging feature, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
 
 
 On the Orders Hub screen, you can send a text message to guests notifying them that their order(s) are ready for pick up. When an Active order is marked as Order Ready, a text message is sent. You can configure order ready messaging in Toast Web. To open the Order Ready Messaging configuration page, choose Takeout & delivery \> Orders Hub \> Order ready messages \> Order Ready Messaging.
@@ -873,7 +873,7 @@ The use of order ready messaging for marketing or other similar commercial messa
 
 **Procedure 3.7. To enable order ready messaging**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Orders Hub \> Order ready guest messaging to open the Order ready messaging configuration page.

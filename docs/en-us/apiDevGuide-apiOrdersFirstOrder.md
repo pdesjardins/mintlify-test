@@ -21,7 +21,7 @@ This topic describes how to authenticate, gather required information, build an 
 
 Before you begin, ensure you have the following:
 
-- **API client credentials** - You need a `clientId` and `clientSecret` for authentication. For information about setting up an API client, see [Authentication](authentication.html).
+- **API client credentials** - You need a `clientId` and `clientSecret` for authentication. For information about setting up an API client, see [Authentication](apiDevGuide-authentication).
 
 
 - **Required scopes** - Your API client must have access to the following scopes:
@@ -33,7 +33,7 @@ Before you begin, ensure you have the following:
 
 
 
-For more information about scopes, see [Scopes](apiScopes.html).
+For more information about scopes, see [Scopes](apiDevGuide-apiScopes).
 
 
 - **Location GUID** - The unique identifier for the Toast location you are submitting orders for. You can find this in Toast Web or retrieve it using the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/).
@@ -78,7 +78,7 @@ The following table describes the required fields:
 | `checks.selections.itemGroup` | Object | A reference to the menu group that contains the menu item. Must contain the `guid` of the parent menu group. | 
 | `checks.selections.quantity` | Number | The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight. | 
 
-For detailed information about all values in an `Order`object, see [Order object summary](apiOrdersOrderObjectSummary.html) and the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
+For detailed information about all values in an `Order`object, see [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary) and the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
 ### Required headers
 
@@ -133,7 +133,7 @@ The response includes an access token to use in the `Authorization` header for s
 
 Store the `accessToken` value for use in the following steps.
 
-For more information about authentication, see [Authentication](authentication.html).
+For more information about authentication, see [Authentication](apiDevGuide-authentication).
 
 
 2. **Retrieve the available dining options**
@@ -170,7 +170,7 @@ The response returns an array of dining options:
 
 Note the `guid` of the dining option you want to use. This example uses "Dine-in" with GUID `23fc2559-fc37-46ce-a963-cc5fdb88af0c`.
 
-For more information, see [Retrieving the available dining options](apiOrderTypeDetails.html#apiOrdersGetDiningOptions).
+For more information, see [Retrieving the available dining options](apiDevGuide-apiOrderTypeDetails#apiOrdersGetDiningOptions).
 
 
 3. **Retrieve menu groups**
@@ -404,7 +404,7 @@ The response returns the order with calculated prices, taxes, and totals. This s
 
 (4) The calculated price for each menu item selection.
 
-For more information, see [Getting check prices](apiOrderPrices.html#apiGettingCheckPrices).
+For more information, see [Getting check prices](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
 
 7. **Submit the order**
@@ -514,7 +514,7 @@ The following example shows a selection with a modifier:
 
 (3) The GUID of the option group that contains the modifier. This is required for modifier selections.
 
-For more information, see [Applying modifiers to orders](apiSpecifyingModifiersAndInstructions.html#apiApplyingModifiers).
+For more information, see [Applying modifiers to orders](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
 
 ## Error handling
 
@@ -550,22 +550,22 @@ The following table describes common error messages and their resolutions:
 
 After successfully submitting your first order, you can explore additional capabilities of the orders API:
 
-- **Add payments** - Add payment information to close the check. For more information, see [Adding payments to an existing check](apiAddingPaymentsToACheck.html).
+- **Add payments** - Add payment information to close the check. For more information, see [Adding payments to an existing check](apiDevGuide-apiAddingPaymentsToACheck).
 
 
-- **Create different order types** - Learn about creating takeout, delivery, and curbside orders. For more information, see [Order details based on the order dining option](apiOrderTypeDetails.html).
+- **Create different order types** - Learn about creating takeout, delivery, and curbside orders. For more information, see [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails).
 
 
-- **Apply discounts** - Add discounts to items or checks. For more information, see [Working with order discounts](apiDiscountingOrders.html).
+- **Apply discounts** - Add discounts to items or checks. For more information, see [Working with order discounts](apiDevGuide-apiDiscountingOrders).
 
 
-- **Schedule future orders** - Create orders to be fulfilled at a specific date and time. For more information, see [Scheduling future orders](orders_api_future_orders.html).
+- **Schedule future orders** - Create orders to be fulfilled at a specific date and time. For more information, see [Scheduling future orders](apiDevGuide-orders_api_future_orders).
 
 
-- **Retrieve order details** - Get information about existing orders. For more information, see [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
+- **Retrieve order details** - Get information about existing orders. For more information, see [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 
 
-- **Void an order** - Cancel an order that was accidentally placed or is no longer needed. For more information, see [Void an order](apiVoidOrder.html).
+- **Void an order** - Cancel an order that was accidentally placed or is no longer needed. For more information, see [Void an order](apiDevGuide-apiVoidOrder).
 
 
 

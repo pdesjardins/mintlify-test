@@ -15,17 +15,17 @@ procedures: 0
 codeExamples: 2
 ---
 
-Send a `GET` request to the `/payments` endpoint of the orders API to get a JSON array of the GUIDs of the payments processed in a business day at your restaurant. A business day's cutoff is defined by the restaurant's `closeoutHour`, which you can retrieve with the [restaurant API](apiRestaurantInformation.html).
+Send a `GET` request to the `/payments` endpoint of the orders API to get a JSON array of the GUIDs of the payments processed in a business day at your restaurant. A business day's cutoff is defined by the restaurant's `closeoutHour`, which you can retrieve with the [restaurant API](apiDevGuide-apiRestaurantInformation).
 
 Depending on the query parameter that you use, you can retrieve the following types of payments:
 
 - The `paidBusinessDate` query parameter returns a list of the payments made during the business day. The payment method can be of any type, such as by cash, credit card, or gift card.
 
 
-- The `refundBusinessDate` query parameter returns a list of the payments that were refunded during the business day. For details on refunded payments, see [Refunded payments](apiPaymentntInformation.html#apiRefundedPayments).
+- The `refundBusinessDate` query parameter returns a list of the payments that were refunded during the business day. For details on refunded payments, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments).
 
 
-- The `voidBusinessDate` query parameter returns a list of the payments that were voided during the business day. For details on voided payments, see [Voided payments](apiPaymentntInformation.html#apiVoidedPayments).
+- The `voidBusinessDate` query parameter returns a list of the payments that were voided during the business day. For details on voided payments, see [Voided payments](apiDevGuide-apiPaymentntInformation#apiVoidedPayments).
 
 
 

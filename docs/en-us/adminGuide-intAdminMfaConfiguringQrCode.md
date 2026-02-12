@@ -15,7 +15,7 @@ procedures: 1
 codeExamples: 0
 ---
 
-You can choose to set up your multi-factor authentication using a QR code or SMS. To learn how to set it up using SMS, see [Configuring multi-factor authentication using SMS](intAdminMfaConfiguringSms.html).
+You can choose to set up your multi-factor authentication using a QR code or SMS. To learn how to set it up using SMS, see [Configuring multi-factor authentication using SMS](adminGuide-intAdminMfaConfiguringSms).
 
 **Procedure 4.3. To use a QR code for multi-factor authentication**
 

@@ -33,7 +33,7 @@ When you authorize a credit card payment, the credit cards API places a hold for
 > DISCLAIMER: Compliance with PCI DSS and all other regulations or laws is solely your responsibility. The information provided is for informational purposes only and should not be relied upon or used as a substitute for consultation with a Qualified Security Assessor or other legal advisor. Please consult a professional advisor for a qualified opinion on the applicability of requirements to your business operations.
 
 
-For general information about using the orders API, see [Orders API overview](portalOrdersApiOverview.html).
+For general information about using the orders API, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 ## Overview of the credit card authorization and application process
 
@@ -41,7 +41,7 @@ The following procedure provides an overview of the process to authorize and app
 
 **Procedure 3.1. To authorize and apply a credit card payment for an orders API order**
 
-1. Submit a `POST` request to the `/prices` endpoint of the orders API to get the total price of each check in an order. For more information, see [Getting check prices before you submit an order](apiOrderPrices.html#apiGettingCheckPrices).
+1. Submit a `POST` request to the `/prices` endpoint of the orders API to get the total price of each check in an order. For more information, see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
 
 2. Generate a UUID unique identifier for the credit card payment.
@@ -55,20 +55,20 @@ To generate the payment UUID, you must use the algorithm described in [version f
 
 3. Submit a `PUT` request to the `/merchants/\{merchantUuid}/payments/\{paymentUuid\}` resource of the credit cards API.
 
-In the message body of the request, include the total price for all checks and encrypted credit card information. For more information, see [Authorizing a credit card payment](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
+In the message body of the request, include the total price for all checks and encrypted credit card information. For more information, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).
 
 
 4. Within five minutes, submit a `POST`request to the `/orders` endpoint of the orders API to add the order.
 
-In the JSON message body data for a check, set the `guid` value of the payment object to the payment UUID of the credit card payment. For more information, see [Applying an authorized credit card payment to an orders API check](authorizingCcPayments.html#apiApplyingCCPaymentToOrder).
+In the JSON message body data for a check, set the `guid` value of the payment object to the payment UUID of the credit card payment. For more information, see [Applying an authorized credit card payment to an orders API check](apiDevGuide-authorizingCcPayments#apiApplyingCCPaymentToOrder).
 
 
 
-If a credit card payment cannot be authorized, the [ErrorMessage object](apiResponsesAndErrors.html#apiErrorMessage) typically includes a generic, non-null, error message such as `Invalid card data`.
+If a credit card payment cannot be authorized, the [ErrorMessage object](apiDevGuide-apiResponsesAndErrors#apiErrorMessage) typically includes a generic, non-null, error message such as `Invalid card data`.
 
 Error messages in the credit cards API are intentionally not specific or detailed, to minimize the error information that reaches attackers that are attempting to make fraudulent payments.
 
-For a list of common reasons for card denial, see [Card declined message reference](adminCreditCardDeclinedMessageReference.html).
+For a list of common reasons for card denial, see [Card declined message reference](adminGuide-adminCreditCardDeclinedMessageReference).
 
 ## Authorizing a credit card payment
 
@@ -200,12 +200,12 @@ Toast platform fraud detection uses the following information from a credit card
 
 - `cardNumberOrigin` - Indicates whether the credit card information in the authorization request was supplied directly by the guest or from stored credit card information from a previous transaction.
 
-You include the `cardNumberOrigin` value in a `PaymentAuthorization` object in the message body parameter of a credit card authorization request. For more information, see [Table 3.1, “cardNumberOrigin values”](authorizingCcPayments.html#apiCardNumberOriginValues).
+You include the `cardNumberOrigin` value in a `PaymentAuthorization` object in the message body parameter of a credit card authorization request. For more information, see [Table 3.1, “cardNumberOrigin values”](apiDevGuide-authorizingCcPayments#apiCardNumberOriginValues).
 
 
 - `guestIdentifier` - An identification string that your integration assigns to guests who initiate credit card authorizations.
 
-You include the `guestIdentifier` value in the `PaymentRequestMetadata` object for your credit card authorization request. For more information, see [Using guestIdentifier values](authorizingCcPayments.html#apiUsingGuestIdentifierValues).
+You include the `guestIdentifier` value in the `PaymentRequestMetadata` object for your credit card authorization request. For more information, see [Using guestIdentifier values](apiDevGuide-authorizingCcPayments#apiUsingGuestIdentifierValues).
 
 
 
@@ -304,7 +304,7 @@ To apply an authorized credit card payment to a check in an orders API order, yo
 > You must `POST` an order within five minutes of the credit card payment authorization. After five minutes, the credit card API automatically voids the payment.
 
 
-The following example shows the JSON message body data that applies an authorized credit card payment to a check. Most contents of the order object have been omitted from this example. For more information about `POST`ing orders in the orders API, see [Orders API overview](portalOrdersApiOverview.html).
+The following example shows the JSON message body data that applies an authorized credit card payment to a check. Most contents of the order object have been omitted from this example. For more information about `POST`ing orders in the orders API, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 **Example 3.8. Example of applying an authorized credit card payment to a check**
 
@@ -361,7 +361,7 @@ When you send a `PUT` request to authorize a payment in the credit cards API, yo
 
 To compose the `encryptedCardData` value, you include credit card information in a JSON object and encrypt it using the encryption algorithm and RSA public key that corresponds to the encryption key identifier (`keyId`) that you receive from Toast integration support.
 
-For information about supported encryption algorithms, see [Encryption algorithms](authorizingCcPayments.html#apiCreditCardInformationEncryptionAlgorithms). For information about key identifiers, see [Encryption keys and key identifiers](authorizingCcPayments.html#apiEncryptionKeysAndKeyIdentifiers).
+For information about supported encryption algorithms, see [Encryption algorithms](apiDevGuide-authorizingCcPayments#apiCreditCardInformationEncryptionAlgorithms). For information about key identifiers, see [Encryption keys and key identifiers](apiDevGuide-authorizingCcPayments#apiEncryptionKeysAndKeyIdentifiers).
 
 The following example shows credit card information that you encrypt and base64 encode in order to generate an `encryptedCardData`value.
 
@@ -464,7 +464,7 @@ The encryption key identifier string includes:
 
 
 
-For more information about key identifiers, see [Encryption keys and key identifiers](authorizingCcPayments.html#apiEncryptionKeysAndKeyIdentifiers).
+For more information about key identifiers, see [Encryption keys and key identifiers](apiDevGuide-authorizingCcPayments#apiEncryptionKeysAndKeyIdentifiers).
 
 The following example shows the identification string for an encryption algorithm and the identifier of a public encryption key in a `keyId` value.
 
@@ -479,7 +479,7 @@ The following table includes the identification strings for the encryption algor
 | RSA-OAEP with SHA256 hashing | RSA-OAEP-SHA256 | 
 | RSA-OAEP with SHA1 hashing, deprecated | RSA-OAEP-SHA1 | 
 
-For more information about making an authorization request, see [Authorizing a credit card payment](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
+For more information about making an authorization request, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).
 
 
 
@@ -522,9 +522,9 @@ openssl pkeyutl \
 
 When you make a credit card authorization request, you specify the identifier of the encryption key that you are using. The Toast integrations team can issue you multiple encryption keys to make it easier for you to refresh your keys without interrupting your credit cards API integration. Specifying which key you use to encrypt credit card information allows the Toast platform to use the correct algorithm and private key to decrypt the information in your request.
 
-In an authorization request, you include the identifier of the public encryption key that you received from the Toast integrations team in the `keyId` value of a `PaymentAuthorization`object in the request message body. For information about encryption algorithm identifiers, see [Identifying the encryption algorithm in an authorization request](authorizingCcPayments.html#apiSpecifyingEncryptionAlgorithmInAnAuthorizationRequest).
+In an authorization request, you include the identifier of the public encryption key that you received from the Toast integrations team in the `keyId` value of a `PaymentAuthorization`object in the request message body. For information about encryption algorithm identifiers, see [Identifying the encryption algorithm in an authorization request](apiDevGuide-authorizingCcPayments#apiSpecifyingEncryptionAlgorithmInAnAuthorizationRequest).
 
-For more information about making an authorization request, see [Authorizing a credit card payment](authorizingCcPayments.html#apiAuthorizingACreditCardPayment).
+For more information about making an authorization request, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).
 
 ### Testing encryption in the sandbox environment
 
@@ -539,9 +539,9 @@ You can test encrypting credit card information for credit cards API authorizati
 - You can use a test public encryption key for the sandbox environment. The Toast integrations support team provides you with a test encryption key.
 
 
-- In the sandbox environment, the credit cards API does not validate whether the CVV, ZIP code or expiration date you submit are formatted correctly. For more information about the correct way to format these values see [Encrypting credit card information](authorizingCcPayments.html#apiEncryptingCreditCardInformation).
+- In the sandbox environment, the credit cards API does not validate whether the CVV, ZIP code or expiration date you submit are formatted correctly. For more information about the correct way to format these values see [Encrypting credit card information](apiDevGuide-authorizingCcPayments#apiEncryptingCreditCardInformation).
 
 
 
-For more information about Toast API environments, see [Environments](apiEnvironments.html).
+For more information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).
 

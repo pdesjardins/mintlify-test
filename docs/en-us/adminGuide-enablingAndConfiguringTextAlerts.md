@@ -17,7 +17,7 @@ codeExamples: 0
 
 **Procedure 4.13. To enable text alerts**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Select Front of house \> Employee SOS \> Text alert setup.
@@ -33,7 +33,7 @@ You see the SMS Messages, Who can receive SMS alerts, and Who can send SMS alert
 
 > **Note**
 > 
-> If your restaurant is part of a multi-location restaurant group, enabling text alerts for the [session restaurant](sessionRestaurant.html) enables it for all restaurants in the group.
+> If your restaurant is part of a multi-location restaurant group, enabling text alerts for the [session restaurant](adminGuide-sessionRestaurant) enables it for all restaurants in the group.
 
 
 ## Configuring preset text messages

@@ -15,13 +15,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-In the [menu manager](platformBulkMenuManagerOverview.html) details pages, when you enable the Online ordering partnerssetting for a menu, an additional list of the online ordering partners you integrate with appears. You can use these settings to make the menu visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash.
+In the [menu manager](adminGuide-platformBulkMenuManagerOverview) details pages, when you enable the Online ordering partnerssetting for a menu, an additional list of the online ordering partners you integrate with appears. You can use these settings to make the menu visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash.
 
 The Online ordering partners settings are slightly different depending on whether your restaurant uses the multi-location module or not. The illustration below shows the simpler version of the Online ordering partners settings for a restaurant that does not use the multi-location module.
 
 ![The Channel visibility settings on a menu manager page for a restaurant that does not use the multi-location module](https://doc.toasttab.com/doc/media/menu-builder-channel-visibility-deselected-channels.png)
 
-If your restaurant does not use the multi-location module, see [Ordering partner-specific settings for a single location](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerSpecificSettingsForASingleLocation)for information on using the ordering partner-specific settings. If your restaurant uses the multi-location module, see [Ordering partner-specific settings for multi-location restaurants](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants).
+If your restaurant does not use the multi-location module, see [Ordering partner-specific settings for a single location](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerSpecificSettingsForASingleLocation)for information on using the ordering partner-specific settings. If your restaurant uses the multi-location module, see [Ordering partner-specific settings for multi-location restaurants](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants).
 
 ## Ordering partner-specific settings for a single location
 
@@ -29,7 +29,7 @@ If your restaurant does not use the multi-location module, see [Ordering partner
 
 > **Note**
 > 
-> This section applies to restaurants that do not use the multi-location module. If your restaurant uses the multi-location module, see [Ordering partner-specific settings for multi-location restaurants](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants)instead.
+> This section applies to restaurants that do not use the multi-location module. If your restaurant uses the multi-location module, see [Ordering partner-specific settings for multi-location restaurants](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants)instead.
 
 
 Use the instructions below to configure a menu so that it is only visible to specific online ordering partners.
@@ -65,7 +65,7 @@ These settings apply to the restaurant you are currently logged into. For exampl
 6. Select Save in the side panel.
 
 
-7. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog box. For more information, see [Understanding when to publish your menu](adminUnderstandingWhenToPublishYourMenu.html).
+7. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog box. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -75,7 +75,7 @@ These settings apply to the restaurant you are currently logged into. For exampl
 
 > **Note**
 > 
-> This section applies to restaurants that use the multi-location module. If your restaurant does not use the multi-location module, see [Ordering partner-specific settings for a single location](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerSpecificSettingsForASingleLocation)instead.
+> This section applies to restaurants that use the multi-location module. If your restaurant does not use the multi-location module, see [Ordering partner-specific settings for a single location](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerSpecificSettingsForASingleLocation)instead.
 
 
 This section covers how to configure a menu so it is visible to specific online ordering partners for specific locations. For example, you can configure a menu so that it is visible to Uber Eats for the Atlanta and Boston locations but hidden from DoorDash for these locations.
@@ -84,7 +84,7 @@ This section covers how to configure a menu so it is visible to specific online 
 
 > **Important**
 > 
-> If a menu is versioned, the ordering partner-specific visibility settings you set for one version apply to *all versions*. For more information, see [Ordering partner visibility settings and versioned menus](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerVisibilitySettingsAndVersionedMenus).
+> If a menu is versioned, the ordering partner-specific visibility settings you set for one version apply to *all versions*. For more information, see [Ordering partner visibility settings and versioned menus](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerVisibilitySettingsAndVersionedMenus).
 
 
 **Procedure 8.106. To configure ordering partner-specific visibility for a menu (multi-location)**
@@ -121,7 +121,7 @@ This section covers how to configure a menu so it is visible to specific online 
 
 ![Example of the location dropdown list for an ordering partner.](https://doc.toasttab.com/doc/media/menu-builder-channel-visibility-mlm-selected-locations.png)
 
-The dropdown lists only show locations that are included in the menu's target *and* that you have the [Restaurant Admin \> Edit Full Menu](adminPermissions.html#adminRestaurantAdminAccessPermissions) permission to. For example, consider the following location group hierarchy:
+The dropdown lists only show locations that are included in the menu's target *and* that you have the [Restaurant Admin \> Edit Full Menu](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions) permission to. For example, consider the following location group hierarchy:
 
 - Corporate
 
@@ -171,7 +171,7 @@ For each menu group, menu item, modifier group, and modifier *within this same m
 
 > **Note**
 > 
-> If any of the menu versions has Online ordering partners set to Off, a warning appears. Setting them all so that Online ordering partners is On resolves the warning. For more information, see [Ordering partner visibility settings and versioned menus](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerVisibilitySettingsAndVersionedMenus).
+> If any of the menu versions has Online ordering partners set to Off, a warning appears. Setting them all so that Online ordering partners is On resolves the warning. For more information, see [Ordering partner visibility settings and versioned menus](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerVisibilitySettingsAndVersionedMenus).
 
 
 **Procedure 8.107. To toggle Online ordering partners to On using the Advanced Properties page (multi-location)**
@@ -203,7 +203,7 @@ For each menu group, menu item, modifier group, and modifier *within this same m
 ![Example of setting the Visible to column to Online orders: Partners.](https://doc.toasttab.com/doc/media/menu-viz-workarounds-mlm-visible-to-settings.png)
 
 
-8. If the menu has multiple versions, select Online orders: Partners from the Visible tocolumn for each version. For more information, see [Ordering partner visibility settings and versioned menus](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformOrderingPartnerVisibilitySettingsAndVersionedMenus).
+8. If the menu has multiple versions, select Online orders: Partners from the Visible tocolumn for each version. For more information, see [Ordering partner visibility settings and versioned menus](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerVisibilitySettingsAndVersionedMenus).
 
 ![Example of setting the Visible to column to Online orders: Partners for another menu version.](https://doc.toasttab.com/doc/media/menu-viz-workarounds-setting-online-ordering-partners-for-another-version.png)
 
@@ -216,7 +216,7 @@ Also for each additional version, expand the version and ensure that the Online 
 10. Choose Toast account \> Publishing \> Publish config to view the Publish configpage.
 
 
-11. From the You are viewing menu, select the locations you want to view. For more information, see [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html).
+11. From the You are viewing menu, select the locations you want to view. For more information, see [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations).
 
 The locations you have selected to view are shown in the table at the top. If a location has outstanding changes that need publishing, a Publish button appears in the location's row. If the location is up to date, it is marked as “Published”.
 
@@ -249,7 +249,7 @@ If this situation occurs, Toast Web displays a warning. To keep the menu version
 
 
 
-For more information on versions, see [Versions](versions.html).
+For more information on versions, see [Versions](adminGuide-versions).
 
 ## Complementary visibility settings on Third party ordering page
 
@@ -257,7 +257,7 @@ Complementary visibility settings exist on the Third party ordering page that le
 
 ![An example of the Third party ordering page](https://doc.toasttab.com/doc/media/third-party-ordering-config.png)
 
-Before you can add a menu on the Third party ordering page, you must first enable its online ordering partner visibility, using one of the three procedures below. Single location restaurants can use any of the three procedures. Multi-location restaurants can use either the [second](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformToEnableOnlineOrderingPartnerVisibilityInTheClassicMenuDetailsPage)or [third](platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy.html#platformToEnableOnlineOrderingPartnerVisibilityOnTheAdvancedPropertiesPage)procedures.
+Before you can add a menu on the Third party ordering page, you must first enable its online ordering partner visibility, using one of the three procedures below. Single location restaurants can use any of the three procedures. Multi-location restaurants can use either the [second](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformToEnableOnlineOrderingPartnerVisibilityInTheClassicMenuDetailsPage)or [third](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformToEnableOnlineOrderingPartnerVisibilityOnTheAdvancedPropertiesPage)procedures.
 
 **Procedure 8.108. To enable online ordering partner visibility in the menu manager**
 
@@ -343,7 +343,7 @@ Before you can add a menu on the Third party ordering page, you must first enabl
 
 If you enable or disable a menu's visibility on either the menu details page or on Third party ordering page, the other page is updated accordingly.
 
-For more information on the Third party ordering page, see [Adjusting menu visibility for a third-party online ordering channel](platformThirdPartyOnlineOrderingMenuVisibility.html).
+For more information on the Third party ordering page, see [Adjusting menu visibility for a third-party online ordering channel](adminGuide-platformThirdPartyOnlineOrderingMenuVisibility).
 
 ## Disabling the online ordering partners setting when no partners are selected
 
@@ -357,7 +357,7 @@ Toast support makes this recommendation because the classic menu details page an
 
 Currently, the ordering partner-specific visibility settings are:
 
-- Limited to menus. They are not available for menu groups, menu items, modifier groups, or [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference).
+- Limited to menus. They are not available for menu groups, menu items, modifier groups, or [modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 
 - Only available in the menu manager. They are not available in the classic menu details pages or from the Advanced Properties page.
@@ -366,7 +366,7 @@ Currently, the ordering partner-specific visibility settings are:
 
 > **Note**
 > 
-> See [Menu builder and the classic menu details pages](adminBasicMenuBuilderAndTheLegacyMenuDetailsPages.html)for a comparison of the classic menu details pages and the menu manager.
+> See [Menu builder and the classic menu details pages](adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages)for a comparison of the classic menu details pages and the menu manager.
 
 
 

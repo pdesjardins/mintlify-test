@@ -23,7 +23,7 @@ To use a price level, you must first create it, and then you assign it to the me
 
 **Procedure 8.118. To create a price level**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Settings \> Price levels to open the Price levelspage.
@@ -41,13 +41,13 @@ To use a price level, you must first create it, and then you assign it to the me
 6. Save and publish your changes.
 
 
-7. [Assign your price levels to the menu items and groups that will use them.](adminUsingPriceLevels.html#adminToAssignAPriceLevelToAMenuItem)
+7. [Assign your price levels to the menu items and groups that will use them.](adminGuide-adminUsingPriceLevels#adminToAssignAPriceLevelToAMenuItem)
 
 
 
 **Procedure 8.119. To assign a price level to a menu item**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
@@ -65,13 +65,13 @@ To use a price level, you must first create it, and then you assign it to the me
 6. Save your changes.
 
 
-7. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+7. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
 **Procedure 8.120. To assign a price level to a menu group**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Bulk management \> Advanced properties to open the Advanced properties page.
@@ -92,7 +92,7 @@ To use a price level, you must first create it, and then you assign it to the me
 7. Save your changes.
 
 
-8. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+8. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -102,7 +102,7 @@ By default, price levels use the Base Price pricing strategy. Price levels can a
 
 **Procedure 8.121. To change the pricing strategy of a price level**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus \> Settings \> Price levels to open the Price levelspage.
@@ -111,13 +111,13 @@ By default, price levels use the Base Price pricing strategy. Price levels can a
 3. Click the name of a price level to view its details page.
 
 
-4. From Pricing Strategy settings, select your pricing strategy and configure its details. The pricing strategies include [Base Price](adminBasePrice.html), [Size Price](adminSizePrice.html#adminConfiguringSizePricingOnMenuGroupsAndMenuItems), [Menu Specific Price](adminMenuSpecificPrice.html), [Time Specific Price](adminTimeSpecificPrice.html), and [Open Price](adminOpenPrice.html).
+4. From Pricing Strategy settings, select your pricing strategy and configure its details. The pricing strategies include [Base Price](adminGuide-adminBasePrice), [Size Price](adminGuide-adminSizePrice#adminConfiguringSizePricingOnMenuGroupsAndMenuItems), [Menu Specific Price](adminGuide-adminMenuSpecificPrice), [Time Specific Price](adminGuide-adminTimeSpecificPrice), and [Open Price](adminGuide-adminOpenPrice).
 
 
 5. Save your changes.
 
 
-6. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+6. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 

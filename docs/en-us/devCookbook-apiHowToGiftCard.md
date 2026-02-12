@@ -23,17 +23,17 @@ This integration allows customers to use your gift card functionality in their T
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](apiIntegrationChecklistGeneral.html).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ### Submit endpoint to Toast
 
-Your gift card integration requires a [single endpoint](apiGiftCardIntegrationWorkflow.html#apiGiftCardIntegrationSingleEndpoint). Submit your test environment endpoint to Toast support so they can set up the endpoint in the sandbox environment.
+Your gift card integration requires a [single endpoint](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationSingleEndpoint). Submit your test environment endpoint to Toast support so they can set up the endpoint in the sandbox environment.
 
 ### Review initial information
 
-Review the [gift card integration overview](apiGiftCardIntegrationOverview.html) to understand the flow of information in a gift card integration.
+Review the [gift card integration overview](apiDevGuide-apiGiftCardIntegrationOverview) to understand the flow of information in a gift card integration.
 
-In addition, familiarize yourself with [physical card requirements](apiPhysicalGiftCardRequirements.html) and [workflows that involve multiple transactions](apiGiftCardIntegrationWorkflow.html#apiGiftCardIntegrationMultipleRequestsForTransaction).
+In addition, familiarize yourself with [physical card requirements](apiDevGuide-apiPhysicalGiftCardRequirements) and [workflows that involve multiple transactions](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction).
 
 ### Decide card vendor
 
@@ -41,7 +41,7 @@ If your integration will support physical gift cards, you must select a card ven
 
 When restaurants purchase new physical cards, they should import the card numbers into your platform so that you recognize those card numbers when you receive gift card transactions from them.
 
-For more information, see [Physical gift card requirements](apiPhysicalGiftCardRequirements.html).
+For more information, see [Physical gift card requirements](apiDevGuide-apiPhysicalGiftCardRequirements).
 
 ## Success responses
 
@@ -51,7 +51,7 @@ When you receive a `GIFTCARD_GET_BALANCE` request, you should return the balance
 
 ### Develop success workflow
 
-Review all [gift card transaction types](apiGiftCardIntegrationWorkflow.html#apiGiftCardIntegrationTransactionTypes) and determine which of the following transaction types you will support:
+Review all [gift card transaction types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes) and determine which of the following transaction types you will support:
 
 - `GIFTCARD_ACTIVATE`
 
@@ -91,7 +91,7 @@ If two requests contain the same `Toast-Transaction-GUID`, they are the same req
 
 ### Validate that you send timely responses
 
-Ensure that your endpoint adheres to Toast gift card [latency requirements](apiLoyaltyLatencyRequirements.html). This allows the Toast platform to correctly understand how you processed the transaction in your system.
+Ensure that your endpoint adheres to Toast gift card [latency requirements](apiDevGuide-apiLoyaltyLatencyRequirements). This allows the Toast platform to correctly understand how you processed the transaction in your system.
 
 If your endpoint does not adhere to timeout requirements, guests will see an error message on the POS app that instructs them to contact your support team.
 
@@ -117,7 +117,7 @@ If the `Toast-Restaurant-External-ID` header in a gift card transaction contains
 
 Your endpoint must validate that gift card transactions came from the Toast production environment.
 
-If your [gift card authentication](apiGiftCardIntegrationAuthentication.html) process determined that a transaction came from somewhere other than the Toast production environment, your endpoint must return a 400 HTTP response status code and a `transactionStatus` of `ERROR_INVALID_TOKEN`.
+If your [gift card authentication](apiDevGuide-apiGiftCardIntegrationAuthentication) process determined that a transaction came from somewhere other than the Toast production environment, your endpoint must return a 400 HTTP response status code and a `transactionStatus` of `ERROR_INVALID_TOKEN`.
 
 ### Handle unknown card numbers
 
@@ -150,7 +150,7 @@ If you receive unexpected information from the Toast platform, your endpoint mus
 
 
 
-See [Response status types](apiGiftCardIntegrationWorkflow.html#apiGiftCardIntegrationResponseTypes) for more information.
+See [Response status types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationResponseTypes) for more information.
 
 ### Handle unexpected errors in your system
 
@@ -160,7 +160,7 @@ If your system has an unexpected error, your endpoint must return a 500 HTTP res
 
 ### Run through the test plan
 
-Use the [gift card integration test plan](integrationTestPlans.html#apiIntegrationChecklistGiftCard) to validate that you correctly handle each test case.
+Use the [gift card integration test plan](apiDevGuide-integrationTestPlans#apiIntegrationChecklistGiftCard) to validate that you correctly handle each test case.
 
 ### Load-test your endpoint
 

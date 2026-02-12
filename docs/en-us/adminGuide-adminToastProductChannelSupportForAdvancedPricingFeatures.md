@@ -19,7 +19,7 @@ It is important to note that not all advanced pricing features are supported on 
 
 | Pricing Feature | Supported Product Channels | 
 | --- | --- |
-| [Size Price](adminSizePrice.html) pricing strategy | For menu items and menu groups, size-specific prices are supported on:- Toast POS app
+| [Size Price](adminGuide-adminSizePrice) pricing strategy | For menu items and menu groups, size-specific prices are supported on:- Toast POS app
 - Toast Online Ordering
 - Toast Takeout (Local by Toast) app
 - Toast Kiosk
@@ -32,12 +32,12 @@ For modifier groups and modifiers, size-specific prices are supported on:- Toast
 - Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)
 
  | 
-| [Menu Specific Price](adminMenuSpecificPrice.html)pricing strategy | Toast POS appToast Online OrderingToast Takeout (Local by Toast) appToast KioskToast Order and PayOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Time Specific Price](adminTimeSpecificPrice.html)pricing strategy | Toast POS appToast Online OrderingToast Takeout (Local by Toast) appToast KioskToast Order and PayOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Location Specific Price](adminLocationSpecificPrice.html) pricing strategy | Toast POS appToast KioskOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Open Price](adminOpenPrice.html) pricing strategy | Toast POS appOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Sequence Price](adminSequencePrice.html) pricing strategy | Toast POS appToast Online OrderingOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Size/Sequence Price](adminSizeSequencePrice.html)pricing strategy | Toast POS appToast Online OrderingOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Substitution pricing](adminPricingModifierOptions.html#adminUsingSubstitutionPricingForDefaultModifierOptions) | Toast POS appOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
-| [Price levels](adminUsingPriceLevels.html) | Toast POS appToast KioskOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Menu Specific Price](adminGuide-adminMenuSpecificPrice)pricing strategy | Toast POS appToast Online OrderingToast Takeout (Local by Toast) appToast KioskToast Order and PayOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Time Specific Price](adminGuide-adminTimeSpecificPrice)pricing strategy | Toast POS appToast Online OrderingToast Takeout (Local by Toast) appToast KioskToast Order and PayOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Location Specific Price](adminGuide-adminLocationSpecificPrice) pricing strategy | Toast POS appToast KioskOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Open Price](adminGuide-adminOpenPrice) pricing strategy | Toast POS appOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Sequence Price](adminGuide-adminSequencePrice) pricing strategy | Toast POS appToast Online OrderingOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Size/Sequence Price](adminGuide-adminSizeSequencePrice)pricing strategy | Toast POS appToast Online OrderingOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Substitution pricing](adminGuide-adminPricingModifierOptions#adminUsingSubstitutionPricingForDefaultModifierOptions) | Toast POS appOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
+| [Price levels](adminGuide-adminUsingPriceLevels) | Toast POS appToast KioskOnline ordering partners (Support can vary by online ordering partner, contact partner to confirm.) | 
 

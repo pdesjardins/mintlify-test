@@ -101,7 +101,7 @@ Note that the `name`, `timeZone`, and `closeoutHour` values are always populated
 
 
 
-- `Schedules` object: information about the restaurant services (such as lunch and dinner) and the schedules for those services over a one-week period. For details on the `Schedules` object, see [Restaurant configuration settings that affect order wait time](calculatingOrderWaitTime.html#apiRestaurantTimeConfigurationSettings).
+- `Schedules` object: information about the restaurant services (such as lunch and dinner) and the schedules for those services over a one-week period. For details on the `Schedules` object, see [Restaurant configuration settings that affect order wait time](apiDevGuide-calculatingOrderWaitTime#apiRestaurantTimeConfigurationSettings).
 
 
 - `Delivery` object: information about the Toast delivery service provided by the restaurant:
@@ -117,10 +117,10 @@ Note that the `name`, `timeZone`, and `closeoutHour` values are always populated
 
 
 
-- `OnlineOrdering`object: information about the restaurant's online ordering service, including payment options for online orders. For details on the `OnlineOrdering` object, see [Online ordering configuration](apiRestaurantOnlineOrderingInfo.html).
+- `OnlineOrdering`object: information about the restaurant's online ordering service, including payment options for online orders. For details on the `OnlineOrdering` object, see [Online ordering configuration](apiDevGuide-apiRestaurantOnlineOrderingInfo).
 
 
-- `PrepTimes` object: information about the scheduled availability of dining options that are provided by the restaurant. For details on the `PrepTimes` object, see [Restaurant configuration settings that affect order wait time](calculatingOrderWaitTime.html#apiRestaurantTimeConfigurationSettings).
+- `PrepTimes` object: information about the scheduled availability of dining options that are provided by the restaurant. For details on the `PrepTimes` object, see [Restaurant configuration settings that affect order wait time](apiDevGuide-calculatingOrderWaitTime#apiRestaurantTimeConfigurationSettings).
 
 
 

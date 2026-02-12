@@ -21,7 +21,7 @@ Authentication tokens are valid for one day. Multiple requests for authenticatio
 
 For example, if your client requests an authentication token at 15:00 and this token expires at 21:00, and then you request another authentication token at 15:30, you will receive the same authentication token with the same expiration time (21:00) in the second request. You are not able to request a new unique authentication token until 20:59 PM. You must either request your new authentication token between 20:59 and 21:00 PM in order to consistently have a valid authentication token or request a new authentication token once the previous token expires. 
 
-Toast support recommends that you cache only *one*copy of the token for all locations instead of caching one copy of the token per location. This reduces the chances of receiving a 429 rate-limiting error when authenticating with an expired token. For more information on authentication rate limits, please see [Authentication rate limit](apiAuthenticationRateLimit.html).
+Toast support recommends that you cache only *one*copy of the token for all locations instead of caching one copy of the token per location. This reduces the chances of receiving a 429 rate-limiting error when authenticating with an expired token. For more information on authentication rate limits, please see [Authentication rate limit](apiDevGuide-apiAuthenticationRateLimit).
 
 If you send an expired authentication token in a request to Toast's APIs, you will receive a 401 error in response. If you receive a 401 error, your integration *must* stop using this token and must request a new token to avoid receiving additional 401 errors.
 

@@ -19,12 +19,12 @@ codeExamples: 0
 
 > **Important**
 > 
-> To use the `/orders` endpoint to add items to an existing check, you need access to the `orders.items:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiScopes.html).
+> To use the `/orders` endpoint to add items to an existing check, you need access to the `orders.items:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiDevGuide-apiScopes).
 
 
 You can use the orders API to add items to an existing check.
 
-You cannot add items to a check in a restricted order. A closed order becomes restricted automatically after a specific period of time. For more information, see [Working with restricted orders](adminViewingRestrictedOrders.html).
+You cannot add items to a check in a restricted order. A closed order becomes restricted automatically after a specific period of time. For more information, see [Working with restricted orders](adminGuide-adminViewingRestrictedOrders).
 
 The added items ignore meal pacing.
 
@@ -34,10 +34,10 @@ To add items to an existing check, you send a `POST`request to the `/orders/<em>
 
 **Procedure 2.5. To add items to an existing check**
 
-1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](apiOrdersFindingAnOrderGuid.html).
+1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](apiDevGuide-apiOrdersFindingAnOrderGuid).
 
 
-2. Create a JSON array of `Selection` objects that contain information about the items you are adding, including modifiers. For an example, see [Example request message body to add an item to an existing check](apiAddingItemsToACheck.html#apiExampleSelectionObjectsForAddingItemstoaCheck).
+2. Create a JSON array of `Selection` objects that contain information about the items you are adding, including modifiers. For an example, see [Example request message body to add an item to an existing check](apiDevGuide-apiAddingItemsToACheck#apiExampleSelectionObjectsForAddingItemstoaCheck).
 
 
 
@@ -54,7 +54,7 @@ In the `POST` request path parameters, include the Toast platform GUIDs of the o
 In the request message body, include the array of `Selection` objects.
 
 
-4. Examine the response that you receive from the Orders API. Verify that your request processed successfully with a 200 HTTP code response. For an example, see [Example response after adding items to an existing check](apiAddingItemsToACheck.html#apiExampleResponseDataWhenAddingItemstoaCheck).
+4. Examine the response that you receive from the Orders API. Verify that your request processed successfully with a 200 HTTP code response. For an example, see [Example response after adding items to an existing check](apiDevGuide-apiAddingItemsToACheck#apiExampleResponseDataWhenAddingItemstoaCheck).
 
 
 

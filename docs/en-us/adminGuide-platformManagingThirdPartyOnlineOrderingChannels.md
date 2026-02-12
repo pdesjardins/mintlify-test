@@ -19,10 +19,10 @@ codeExamples: 0
 
 > **Note**
 > 
-> To access third-party online ordering configuration settings, you must have the 6.6 Restaurant Operations Setuppermission. For more information about permissions, see [Web setup access permissions](adminPermissions.html#adminWebSetupAccessPermissions).
+> To access third-party online ordering configuration settings, you must have the 6.6 Restaurant Operations Setuppermission. For more information about permissions, see [Web setup access permissions](adminGuide-adminPermissions#adminWebSetupAccessPermissions).
 
 
-The Toast platform integrates with various third-party online ordering channels such as DoorDash™, Grubhub™, and Uber Eats™. You can choose to turn on, off, or snooze (pause) third-party online ordering channels on the Takeout & delivery page in Toast Web. Snoozing pauses ordering from a channel or all channels for 20 or 40 minutes, or until the start of online ordering hours for the next day. For more information, see [Configuring online ordering hours](adminConfigureOnlineOrderingHoursOverview.html).
+The Toast platform integrates with various third-party online ordering channels such as DoorDash™, Grubhub™, and Uber Eats™. You can choose to turn on, off, or snooze (pause) third-party online ordering channels on the Takeout & delivery page in Toast Web. Snoozing pauses ordering from a channel or all channels for 20 or 40 minutes, or until the start of online ordering hours for the next day. For more information, see [Configuring online ordering hours](adminGuide-adminConfigureOnlineOrderingHoursOverview).
 
 If you have multiple online ordering channels, you can configure each channel’s status individually or you can bulk change statuses using the dropdown menu next to the Third party orderingheading. Changing channel statuses may change what appears on the Third party ordering heading.
 
@@ -63,7 +63,7 @@ You can only snooze third-party online ordering channels that are on and accepti
 > The default setting for third-party online ordering channels is On in Toast Web.
 
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Third-party ordering.

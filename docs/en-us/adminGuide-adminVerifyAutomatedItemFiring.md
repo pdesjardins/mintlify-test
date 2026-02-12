@@ -15,11 +15,11 @@ procedures: 1
 codeExamples: 0
 ---
 
-If you enter prep times for your menu items, the Toast platform uses them to time when items are fired to the KDS. In order for the prep times to be used, however, you must enable the [item fire by prep time](adminFireByPrepTime.html#adminItemFireByPrepTime)feature.
+If you enter prep times for your menu items, the Toast platform uses them to time when items are fired to the KDS. In order for the prep times to be used, however, you must enable the [item fire by prep time](adminGuide-adminFireByPrepTime#adminItemFireByPrepTime)feature.
 
 To verify that this feature is enabled for your restaurant, you must have the Web Setup \> Kitchen / Dining Room Setupaccess permission. Then, follow these steps.
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen \> Pacing \> Meal pacingto open the Meal pacing page.
@@ -34,5 +34,5 @@ After you enable item fire by prep time, the Toast platform uses prep times to s
 
 
 
-You can also use Menus \> Menu management \> Advanced properties to review the prep times on file for all menu items and modifiers. For more information, see [Configuring prep times for menu items](adminFireByPrepTime.html#adminConfigurePrepTimesItems) or [Configuring prep times for integral modifiers](adminFireByPrepTime.html#adminConfigurePrepTimesModifiers).
+You can also use Menus \> Menu management \> Advanced properties to review the prep times on file for all menu items and modifiers. For more information, see [Configuring prep times for menu items](adminGuide-adminFireByPrepTime#adminConfigurePrepTimesItems) or [Configuring prep times for integral modifiers](adminGuide-adminFireByPrepTime#adminConfigurePrepTimesModifiers).
 

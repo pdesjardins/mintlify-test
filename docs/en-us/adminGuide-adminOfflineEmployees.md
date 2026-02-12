@@ -30,7 +30,7 @@ Two restaurant configuration settings affect how employees can end their shifts:
 
 
 
-The [Shift Review](adminUiOptionsReference.html#confShiftReview) option affects how employees can clock out at the end of their shifts:
+The [Shift Review](adminGuide-adminUiOptionsReference#confShiftReview) option affects how employees can clock out at the end of their shifts:
 
 - Required forces employees to perform a shift review before clocking out. The shift review allows the employee to close out all checks and declare tips. During offline mode, employees cannot clock out of their shifts because shift reviews are not supported in offline mode.
 

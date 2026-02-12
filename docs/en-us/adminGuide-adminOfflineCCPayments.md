@@ -21,7 +21,7 @@ During offline mode, you can still take card payments. When you process a card p
 
 > **Important**
 > 
-> There is a risk associated with taking offline payments, because payments cannot be verified until the Internet connection is restored. This means an offline payment can be denied when your system returns online. Please be aware that you are responsible for any declined, expired, or disputed payments while operating in offline mode. If this is a concern, you should select Continue accepting card payments without waiting for authorization as your background processing mode. For more information about the processing modes, see [processing modes](adminOfflineCCPayments.html#adminOfflineCCProcessing). Toast strongly recommends tablets that have taken offline payments return online within three days, preferably within 24 hours, to mitigate the possibility of a chargeback.
+> There is a risk associated with taking offline payments, because payments cannot be verified until the Internet connection is restored. This means an offline payment can be denied when your system returns online. Please be aware that you are responsible for any declined, expired, or disputed payments while operating in offline mode. If this is a concern, you should select Continue accepting card payments without waiting for authorization as your background processing mode. For more information about the processing modes, see [processing modes](adminGuide-adminOfflineCCPayments#adminOfflineCCProcessing). Toast strongly recommends tablets that have taken offline payments return online within three days, preferably within 24 hours, to mitigate the possibility of a chargeback.
 
 
 ## Card authorizations and payment disruptions
@@ -32,7 +32,7 @@ You can also set a transaction limit for offline transactions which allows you t
 
 **Procedure 6.127. Configure card authorizations during a disruption**
 
-1. [Access Toast Web ](adminAccessToastAdminBackend.html).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Select Payments \> Payment options. Scroll down to the Card authorization and payment disruptions section.
@@ -55,7 +55,7 @@ You can also set a transaction limit for offline transactions which allows you t
 
 
 
-4. With the Transaction Limit setting, you can optionally set a dollar amount limit for credit card transactions taken while in offline mode. Note that this threshold is not applied to employees who have the [Offline/Background Credit Card Processing](adminPermissions.html#permissionOfflineCCProcessing) permission. A payment larger than the configured threshold requires manager approval.
+4. With the Transaction Limit setting, you can optionally set a dollar amount limit for credit card transactions taken while in offline mode. Note that this threshold is not applied to employees who have the [Offline/Background Credit Card Processing](adminGuide-adminPermissions#permissionOfflineCCProcessing) permission. A payment larger than the configured threshold requires manager approval.
 
 
 5. Save and publish your changes.

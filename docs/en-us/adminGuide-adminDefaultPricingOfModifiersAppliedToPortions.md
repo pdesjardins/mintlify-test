@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> By default, a portion of a modifier is priced the same as a full serving of the modifier. This section describes that default behavior. If you want to alter the price of a modifier when it is applied to a portion, you can use the Price Multiplier setting described in [Altering the price of a modifier applied to a portion](platformAlteringThePriceOfAModifierAppliedToAPortion.html).
+> By default, a portion of a modifier is priced the same as a full serving of the modifier. This section describes that default behavior. If you want to alter the price of a modifier when it is applied to a portion, you can use the Price Multiplier setting described in [Altering the price of a modifier applied to a portion](adminGuide-platformAlteringThePriceOfAModifierAppliedToAPortion).
 
 
 By default, a portion of a modifier is priced the same as a full serving of the modifier. For example, if the cost of a pizza topping is $1, the cost of putting that pizza topping on the 1st half of the pizza remains $1. This applies to all pricing strategies, whether the pricing strategy is specified at the modifier group level or at the individual modifier level. Other examples are provided below to help illustrate this concept.

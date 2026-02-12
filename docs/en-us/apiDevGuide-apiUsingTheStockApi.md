@@ -61,14 +61,14 @@ The `null` value for `IN_STOCK`items indicates that there is no specific quantit
 
 - `multiLocationId`: A consistent identifier that applies to all versions of a menu item that is shared across locations.
 
-Toast support recommends that requests sent to Toast APIs use a combination of a restaurant location's GUID and the `multiLocationId` to identify a menu item (instead of the menu item's `guid` value). Integration clients can extract the `multiLocationId` from menus API or stock API responses and use it in subsequent requests to Toast APIs. See [Toast identifiers](portalToastIdentifiers.html)for more information.
+Toast support recommends that requests sent to Toast APIs use a combination of a restaurant location's GUID and the `multiLocationId` to identify a menu item (instead of the menu item's `guid` value). Integration clients can extract the `multiLocationId` from menus API or stock API responses and use it in subsequent requests to Toast APIs. See [Toast identifiers](apiDevGuide-portalToastIdentifiers)for more information.
 
 
 - `itemGuidValidity`: Indicates whether a menu item identifier that you included in your request is valid or not.
 
 No identifiers are submitted for requests to the `/inventory` endpoint, so `itemGuidValidity`is always `VALID` in responses from this endpoint.
 
-For requests to the `[/inventory/search](apiUsingTheStockApi.html#apiInventorySearch)` and `[/inventory/update](apiUpdatingInventoryInformation.html)`endpoints, the stock API sets the `itemGuidValidity`value to `VALID` if it finds a match for the menu item. If the stock API does not find a match, either because the menu item does not exist at the location or because it has been archived, it sets `itemGuidValidity` to `INVALID` for that menu item. If a menu item is invalid, your integration should update the list of menu items it associates with the restaurant location to remove that menu item.
+For requests to the `[/inventory/search](apiDevGuide-apiUsingTheStockApi#apiInventorySearch)` and `[/inventory/update](apiDevGuide-apiUpdatingInventoryInformation)`endpoints, the stock API sets the `itemGuidValidity`value to `VALID` if it finds a match for the menu item. If the stock API does not find a match, either because the menu item does not exist at the location or because it has been archived, it sets `itemGuidValidity` to `INVALID` for that menu item. If a menu item is invalid, your integration should update the list of menu items it associates with the restaurant location to remove that menu item.
 
 For an invalid menu item, the stock API sets the following placeholders for the other JSON values:
 
@@ -89,7 +89,7 @@ For an invalid menu item, the stock API sets the following placeholders for the 
 
 > **Note**
 > 
-> You can use the [menus API](apiGettingMenuInformationFromTheMenusAPI.html) to retrieve a fully resolved set of menus for each restaurant location, including identifiers for all of the location's menu items.
+> You can use the [menus API](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) to retrieve a fully resolved set of menus for each restaurant location, including identifiers for all of the location's menu items.
 
 
 
@@ -103,7 +103,7 @@ The following sections provide more information about retrieving inventory infor
 
 > **Note**
 > 
-> For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiUpdatingInventoryInformation.html). For more information on how to change a menu item's inventory status using Toast Web, see [Menu item inventory overview](adminMenuItemInventoryOverview.html).
+> For more information on how to change a menu item's inventory information using the stock API's `/inventory/update`endpoint, see [Updating stock](apiDevGuide-apiUpdatingInventoryInformation). For more information on how to change a menu item's inventory status using Toast Web, see [Menu item inventory overview](adminGuide-adminMenuItemInventoryOverview).
 
 
 ## Getting all stock information for a location
@@ -281,7 +281,7 @@ To retrieve inventory information for a list of menu items, you send a `PUT` req
 
 
 
-For information on these two identifier types, see [Toast identifiers](portalToastIdentifiers.html).
+For information on these two identifier types, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
 
 The following example shows the message body for a `POST` request to the `/inventory/search` endpoint using both `multiLocationIds` and `guids`.
 

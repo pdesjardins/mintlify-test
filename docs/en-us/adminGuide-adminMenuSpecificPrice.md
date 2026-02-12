@@ -15,7 +15,7 @@ procedures: 1
 codeExamples: 0
 ---
 
-**Applies to:** Menu items (including [modifier item references](adminPricingModifierOptions.html#adminUnderstandingAModifierOptionsItemReference))
+**Applies to:** Menu items (including [modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference))
 
 With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu.
 
@@ -23,7 +23,7 @@ With menu-specific pricing, the price of a menu item changes based on the menu i
 
 > **Important**
 > 
-> If your restaurant has multiple locations, there are additional best practices you should follow when configuring menu-specific prices. For more information, see [Menu-specific prices for multi-location restaurants](platformMenuSpecificPricesForMultiLocationRestaurants.html) in the [Multiple restaurant locations](sharingMenusAndOtherInformationAmongRestaurants.html) section.
+> If your restaurant has multiple locations, there are additional best practices you should follow when configuring menu-specific prices. For more information, see [Menu-specific prices for multi-location restaurants](adminGuide-platformMenuSpecificPricesForMultiLocationRestaurants) in the [Multiple restaurant locations](adminGuide-sharingMenusAndOtherInformationAmongRestaurants) section.
 
 
 You create menu-specific prices for a menu item on the item's details page. After you have created the menu-specific prices, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the menu-specific prices are not editable from the Itemsgrid.
@@ -61,11 +61,11 @@ The Items grid only displays one price, determined by the menu you are currently
 4. Save your changes.
 
 
-5. [If you are done editing prices for your menus, publish your changes.](adminNoteAboutPublishingPrices.html)
+5. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
 Once you have created a menu-specific price, you can either return to the menu item's details page and edit it there, or edit it on the Price editor page. When editing a menu-specific price on the Price editor page, be sure to expand the menu that contains the menu-specific price you want to edit, locate the menu item within that menu, and enter a new price for the menu item.
 
-On the Price editor page, you can also bulk convert prices to menu-specific prices. For more information, see [Using the price editor](adminUsingThePriceEditor.html).
+On the Price editor page, you can also bulk convert prices to menu-specific prices. For more information, see [Using the price editor](adminGuide-adminUsingThePriceEditor).
 

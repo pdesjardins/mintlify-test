@@ -43,7 +43,7 @@ Approval rules determine which orders are automatically sent to the kitchen, whi
 
 **Procedure 3.29. To enable a delivery minimum rule**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery \> Availability \> Online ordering to open the Online ordering page.

@@ -20,7 +20,7 @@ You can create a single or multiple house accounts on the Accounts page in Toast
 
 **Procedure 6.92. To create a single house account**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Payments \> Payment methods \> House accounts to open the Accountspage.
@@ -64,7 +64,7 @@ You can create a single or multiple house accounts on the Accounts page in Toast
 
 **Procedure 6.93. To create multiple house accounts**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Payments \> Payment methods \> House accounts to open the Accountspage.
@@ -102,7 +102,7 @@ You can create a single or multiple house accounts on the Accounts page in Toast
 
 > **Note**
 > 
-> The creation of multiple house accounts is permanent and cannot be undone. You can always choose to archive a house account at any time. For more information, see [Archiving a house account](platformArchiveHouseAccount.html).
+> The creation of multiple house accounts is permanent and cannot be undone. You can always choose to archive a house account at any time. For more information, see [Archiving a house account](adminGuide-platformArchiveHouseAccount).
 
 
 ![The Create multiple accounts confirmation dialog in Toast Web.](https://doc.toasttab.com/doc/media/platform-house-accounts-bulk-create-accounts-confirmation.png)

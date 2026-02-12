@@ -47,7 +47,7 @@ Fast Cash buttons close a transaction to the nearest currency amount, in increme
 
 
 
-If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 4. Payment is complete.
@@ -97,7 +97,7 @@ The following procedure describes the steps in the Toast POS system payment work
 
 
 
-If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 6. Payment is complete.
@@ -151,7 +151,7 @@ The following procedure describes the steps in the Toast POS system payment work
 
 
 
-If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 
@@ -219,7 +219,7 @@ After swiping a card on the order, select Pay ($) and you’ll see Saved CC on t
 
 
 
-If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 4. If your restaurant has a loyalty rewards program and digital receipts enabled, The guest-facing display asks the guest to sign up or enter their details to claim their points. You can skip this step.
@@ -238,7 +238,7 @@ House accounts allow restaurant guests to make purchases and receive an invoice 
 2. Enter a transaction amount and select House acct. Select House acct without entering a transaction amount to tender the exact amount due. You cannot enter a payment amount greater than the amount due, but you can enter an amount less than the amount due to split payments. Selecting House acct displays the Enter Account Number screen.
 
 
-3. Enter the guest's account number and select Done or select Lookup to [locate the guest account](platformPwfTenders.html#platformLookUpHouseAccount).
+3. Enter the guest's account number and select Done or select Lookup to [locate the guest account](adminGuide-platformPwfTenders#platformLookUpHouseAccount).
 
 
 4. Confirm you want to charge the account you located by selecting Invoice. The Toast POS asks the guest to select a tip amount.
@@ -262,7 +262,7 @@ House accounts allow restaurant guests to make purchases and receive an invoice 
 
 
 
-If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If Digital Receipts are not enabled, and a printer is configured, a Merchant Copy and a Customer Copy of the receipt are printed. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 
@@ -438,7 +438,7 @@ You can create custom payment options to fit your business. On Toast Web, naviga
 
 
 
-If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 
@@ -467,7 +467,7 @@ If your restaurant has enabled digital receipts and you have configured a printe
 
 
 
-If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 
@@ -505,7 +505,7 @@ Restaurants can create a custom payment option for a non-integrated third party 
 
 
 
-If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](platformPwfDigitalReceipts.html).
+If your restaurant has enabled digital receipts and you have configured a printer, the Toast POS device will print a Merchant Copy and a Customer Copy of the receipt. For more information about Digital Receipts see [Digital receipts and printed receipts](adminGuide-platformPwfDigitalReceipts).
 
 
 

@@ -19,7 +19,7 @@ Follow the procedure below to access the menu manager.
 
 **Procedure 8.42. To access the menu manager**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. In the left pane, choose Menus to go to the Menus page and then select Menu manager.

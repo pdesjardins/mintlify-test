@@ -19,7 +19,7 @@ The Jobs and Permissions tab on the employee details page has two sections, the 
 
 ![Image](https://doc.toasttab.com/doc/media/mjm-jobs-and-permissions-tab.PNG)
 
-The Jobs portion of the tab shows the jobs that can be, and have been, assigned to the employee whose details you are viewing. This list is limited to jobs that are applicable *to the session restaurant*. For example, if you are logged into the Boston location, this list contains jobs whose Apply To property is set to the Boston location or one of its ancestors in the restaurant group hierarchy. The Apply To setting is described in detail in [Applying jobs to the restaurant group hierarchy](adminApplyingJobsToTheRestaurantGroupHierarchy.html).
+The Jobs portion of the tab shows the jobs that can be, and have been, assigned to the employee whose details you are viewing. This list is limited to jobs that are applicable *to the session restaurant*. For example, if you are logged into the Boston location, this list contains jobs whose Apply To property is set to the Boston location or one of its ancestors in the restaurant group hierarchy. The Apply To setting is described in detail in [Applying jobs to the restaurant group hierarchy](adminGuide-adminApplyingJobsToTheRestaurantGroupHierarchy).
 
 By contrast, the Access Permissions area reflects the employee's permissions *across the entire enterprise*. This means that you may see permissions in the Access Permissions entries that reflect jobs that are not listed in the Jobs area. For example, consider the following scenario.
 
@@ -37,7 +37,7 @@ The Rider's Grill enterprise has these jobs:
 
 Rider's Grill has an employee, Samuel Server, with these characteristics:
 
-- Samuel Server has [restaurant access](adminAssigningRestaurantAccess.html)to both the Boston and Burlington locations.
+- Samuel Server has [restaurant access](adminGuide-adminAssigningRestaurantAccess)to both the Boston and Burlington locations.
 
 
 - At the Boston location, Samuel Server is assigned the Server job and the Key Employee - Boston job.

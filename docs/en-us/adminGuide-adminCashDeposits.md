@@ -55,7 +55,7 @@ You can enter cash deposits from the Toast POS device and from the Toast Web. De
 
 > **Note**
 > 
-> To enter a cash deposit from a Toast POS device, an employee must have the 3.18 Cash Drawers (Full)permission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminPermissions.html#adminModePermissions).
+> To enter a cash deposit from a Toast POS device, an employee must have the 3.18 Cash Drawers (Full)permission. From Toast Web, choose Employees \> Employee management \> Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
 
 
 1. On a Toast POS device, select Cash management \> Cash Deposits to open the Cash Deposits screen. The Cash Depositsscreen displays the cash deposit activity for the restaurant.
@@ -111,7 +111,7 @@ If you select the Count bills button on the Create deposit screen, this opens th
 > To add a cash deposit for a past date, managers must have both the Managers \> 3.18 Cash Drawers (Full) and the Restaurant Admin \> 4.12 Edit Historical Data permissions.
 
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments \> Payment methods \> Cash overview \> View related reports \> Cash drawer history report to open the Cash Drawer History report. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash Drawer History report.
@@ -174,7 +174,7 @@ You can undo deposit entries from a Toast POS device or from the Toast Web. When
 
 **Procedure 6.60. To undo a deposit from Toast Web**
 
-1. [Access Toast Web](adminAccessToastAdminBackend.html).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments \> Payment methods \> Cash overview \> View related reports \> Cash drawer history report to open the Cash Drawer Historyreport. You can also choose Reports \> Cash and loss management \> Drawer history to open the Cash Drawer History report.

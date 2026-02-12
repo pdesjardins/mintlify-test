@@ -209,7 +209,7 @@ To view the details for an order:
 2. Select Find a check & issue refund.
 
 
-3. [Locate the check](adminIssuingARefund.html#adminToLocateACheckInToastAdminBackend).
+3. [Locate the check](adminGuide-adminIssuingARefund#adminToLocateACheckInToastAdminBackend).
 
 
 4. Select the blue check number in the upper-left corner.
@@ -253,7 +253,7 @@ A custom refund is shown as a unique line item in the Sales Category table of th
 
 ![Sales Category table that contains an entry for custom amount refunds.](https://doc.toasttab.com/doc/media/refunds-reports-and-custom-amt-refunds.png)
 
-Payments that are refunded using the custom amount refund type still appear in the [Payments Summary](adminViewingRefundsInToastReports.html#adminSalesSummaryPaymentsSummary)table.
+Payments that are refunded using the custom amount refund type still appear in the [Payments Summary](adminGuide-adminViewingRefundsInToastReports#adminSalesSummaryPaymentsSummary)table.
 
 Finally, when you refund a custom amount, you also specify whether to also refund any portion of the check's tip. If you refund the tip when you refund a custom amount, then tip amounts in reports also decrease.
 

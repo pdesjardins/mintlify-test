@@ -44,6 +44,6 @@ The following diagram shows the relationship between the Toast platform and a gi
 
 > **Note**
 > 
-> Toast Online Ordering functionality supports gift card integrations only if your integration supports verification codes (PINs). For more information, see [Verification Codes (PINs)](apiGiftCardIntegrationWorkflow.html#apiGiftCardIntegrationVerificationsCodes).
+> Toast Online Ordering functionality supports gift card integrations only if your integration supports verification codes (PINs). For more information, see [Verification Codes (PINs)](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationVerificationsCodes).
 
 

@@ -157,6 +157,6 @@ When restaurant employees undo cash entries, the `reason` and `type` values of t
 
 
 
-Note that you should include undone tip out cash entries when you are calculating [expected cash deposits](apiCalculatingExpectedCashDeposits.html).
+Note that you should include undone tip out cash entries when you are calculating [expected cash deposits](apiDevGuide-apiCalculatingExpectedCashDeposits).
 
   

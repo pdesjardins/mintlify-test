@@ -20,7 +20,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> To use the `/orders` endpoint to update a tip, you need access to the `orders.payments:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiScopes.html).
+> To use the `/orders` endpoint to update a tip, you need access to the `orders.payments:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiDevGuide-apiScopes).
 
 
 You can use the orders API to update a tip, or gratuity, amount in an existing credit card payment for an order.
@@ -37,20 +37,20 @@ For more information, see [Update a tip amount](https://doc.toasttab.com/openapi
 
 **Procedure 2.7. To update the tip amount for an existing payment**
 
-1. Find the Toast platform GUIDs of the order, the check, and the payment you are updating. For more information on locating order and check GUIDs, see [Finding an order or check guid](apiOrdersFindingAnOrderGuid.html).
+1. Find the Toast platform GUIDs of the order, the check, and the payment you are updating. For more information on locating order and check GUIDs, see [Finding an order or check guid](apiDevGuide-apiOrdersFindingAnOrderGuid).
 
 - The response from the `POST` request to create an order contains the order, check, and payment GUIDs.
 
 
-- If you know the order GUID, you can send a `GET`request to get the order details, which include the check and payment GUIDs. See [Getting detailed information about one order](apiOrdersGetDetailedInfoAboutOneOrder.html).
+- If you know the order GUID, you can send a `GET`request to get the order details, which include the check and payment GUIDs. See [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 
 
-- If you do not know the order GUID, you can send a `GET` request to get the details for orders that were updated during a specific time interval. See [Getting detailed information about multiple orders](apiOrdersGetDetailedInfoAboutMultipleOrders.html). The order details include the order, check, and payment GUIDs.
+- If you do not know the order GUID, you can send a `GET` request to get the details for orders that were updated during a specific time interval. See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders). The order details include the order, check, and payment GUIDs.
 
 
 
 
-2. Create a JSON `Payment` object that includes a `tipAmount` value. Set the `tipAmount` value to the updated tip amount. For an example, see [Example Payment object that updates the tip amount for an existing payment](apiUpdatingTipsInAPayment.html#apiExamplePaymentObjectForUpdatingATipAmount).
+2. Create a JSON `Payment` object that includes a `tipAmount` value. Set the `tipAmount` value to the updated tip amount. For an example, see [Example Payment object that updates the tip amount for an existing payment](apiDevGuide-apiUpdatingTipsInAPayment#apiExamplePaymentObjectForUpdatingATipAmount).
 
 For this type of request, you can only include the `tipAmount` value. The provided `tipAmount`value completely replaces any previous tip amount on the payment.
 
@@ -62,7 +62,7 @@ In the REST request path parameters, include the Toast platform GUID of the orde
 In the request message body, include the `Payment`object that contains the updated `tipAmount` value.
 
 
-4. Examine the response that you receive from the orders API. Verify that your request is processed successfully. For an example, see [Example response when you update a tip in an existing payment](apiUpdatingTipsInAPayment.html#apiExampleResponseDataWhenUpdatingATipAmount).
+4. Examine the response that you receive from the orders API. Verify that your request is processed successfully. For an example, see [Example response when you update a tip in an existing payment](apiDevGuide-apiUpdatingTipsInAPayment#apiExampleResponseDataWhenUpdatingATipAmount).
 
 
 

@@ -39,7 +39,7 @@ When you select a menu item that uses size pricing, you are prompted to select t
 
 ![Dialog to choose the size modifiers that apply to the discount.](https://doc.toasttab.com/doc/media/discount-trigger-size-and-modifier.png)
 
-For a combo discount, if you select more than one size, the Toast platform treats the lowest-priced size, which is typically the smallest, as the base size for the combo price. The Toast platform increases the combo price for the higher-priced sizes, which are typically larger, by the additional amount for those larger sizes. For more information, see [Upcharging discounted items in a combo discount](adminDiscountPricing.html#adminUpchargingDiscountedItems).
+For a combo discount, if you select more than one size, the Toast platform treats the lowest-priced size, which is typically the smallest, as the base size for the combo price. The Toast platform increases the combo price for the higher-priced sizes, which are typically larger, by the additional amount for those larger sizes. For more information, see [Upcharging discounted items in a combo discount](adminGuide-adminDiscountPricing#adminUpchargingDiscountedItems).
 
 The order in which the Toast platform considers sizes for size upcharging is based purely on the size pricing for the menu item. The names that you give to sizes, such as glass or bottle, do not affect how the platform considers the sizes.
 
@@ -54,7 +54,7 @@ For a menu item that has modifiers, you can specify which modifiers qualify as r
 
 
 
-Combo discounts that include modifier options apply to the least expensive modifiers for an item. For more information, see [Configuring a combo discount](adminDiscountsConfigureCombo.html).
+Combo discounts that include modifier options apply to the least expensive modifiers for an item. For more information, see [Configuring a combo discount](adminGuide-adminDiscountsConfigureCombo).
 
 **Procedure 9.5. To select the modifiers for an item**
 

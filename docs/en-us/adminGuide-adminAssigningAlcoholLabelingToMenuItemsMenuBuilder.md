@@ -28,5 +28,5 @@ Select Yes to indicate that the item contains alcohol and requires additional ha
 
 Identifying alcoholic items makes it easier for online ordering partners to comply with alcohol delivery laws and enables restaurants to include alcohol with takeout and delivery orders.
 
-For information on assigning alcohol labeling to modifiers in addition to menu items, see [Menu item and modifier alcohol labeling](platformMenuAlcoholLabeling.html).
+For information on assigning alcohol labeling to modifiers in addition to menu items, see [Menu item and modifier alcohol labeling](adminGuide-platformMenuAlcoholLabeling).
 

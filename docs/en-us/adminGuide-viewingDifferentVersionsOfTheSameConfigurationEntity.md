@@ -21,7 +21,7 @@ On the Advanced properties page, different versions of the same configuration en
 
 ![Image](https://doc.toasttab.com/doc/media/version_indicator_adv_props_page.PNG)
 
-Note that you may not see multiple versions of a configuration entity on the Advanced properties page even if multiple versions of the entity exist. Specifically, if the locations you are currently viewing all share a single version of the configuration entity, then that is the only entity you will see, even if other versions exist. See [Filtering pages](filteringPagesForSpecificRestaurantGroupsAndLocations.html) for more information.
+Note that you may not see multiple versions of a configuration entity on the Advanced properties page even if multiple versions of the entity exist. Specifically, if the locations you are currently viewing all share a single version of the configuration entity, then that is the only entity you will see, even if other versions exist. See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations) for more information.
 
 On the configuration entity's details page, the following icon next to the Number field indicates that multiple versions of the entity exist:
 

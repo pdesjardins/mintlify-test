@@ -44,7 +44,7 @@ In the following example configuration, a check is eligible for the combo discou
 
 ![Combo discount that is configured with multiple combo groups.](https://doc.toasttab.com/doc/media/discount-combo-fields-filled.png)
 
-For more information about selecting required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
+For more information about selecting required items for discounts, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
 
 ## Required item behavior for combo discounts
 
@@ -70,11 +70,11 @@ For example, a combo discount offers a cup of coffee and a bagel for $3.00. You 
 
 
 
-For more information about required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
+For more information about required items for discounts, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
 
 ## Setting the maximum quantity to apply the discount to
 
-You can configure a combo discount as a bulk discount, which includes the minimum and maximum quantity to apply the discount to. See [Bulk discounts](adminBulkDiscounts.html).
+You can configure a combo discount as a bulk discount, which includes the minimum and maximum quantity to apply the discount to. See [Bulk discounts](adminGuide-adminBulkDiscounts).
 
 If you do not configure the combo discount as a bulk discount, then in the Advanced Settings section, the Total Quantity field allows you to specify the number of eligible combos in an order.
 

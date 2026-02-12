@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-There are two ways to create a request for aggregated sales reporting data: you can request aggregated sales reporting data for a custom time range or a specific time range. The type of time range you use also determines the rate limit for this endpoint and method type. The rate limit for custom, `month`, and `year`time ranges is 10 requests per hour. The rate limit for `day`and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiAnalyticsRateLimiting.html).
+There are two ways to create a request for aggregated sales reporting data: you can request aggregated sales reporting data for a custom time range or a specific time range. The type of time range you use also determines the rate limit for this endpoint and method type. The rate limit for custom, `month`, and `year`time ranges is 10 requests per hour. The rate limit for `day`and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 You must include the `startBusinessDate` and `endBusinessDate` properties in the message body to identify the start and end dates of your time range, in `YYYYMMDD`format.
 
@@ -35,11 +35,11 @@ Optionally, you can use the `restaurantIds` in the message body to list the GUID
 > You can include restaurant GUIDs for only one of these values. Listing restaurant GUIDs for both `restaurantIds` and `excludedRestaurantIds` results in a 400 error or blank aggregated sales reporting data. They are contradictory values that cannot be used together.
 
 
-If you use the `day` time range, you can aggregate the aggregated sales reporting data hourly instead of the default of daily by using the `aggregateBy` query parameter set to `HOUR`. For more information, see [Using the `aggregateBy` query parameter](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataAggregateBy).
+If you use the `day` time range, you can aggregate the aggregated sales reporting data hourly instead of the default of daily by using the `aggregateBy` query parameter set to `HOUR`. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy).
 
-You can optionally aggregate the aggregated sales reporting data into groups by either dining option, order source, revenue center, or a combination of two of these values, using the `groupBy` value in the message body. For more information about using `groupBy`, see [Using the `groupBy` value](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataGroupBy).
+You can optionally aggregate the aggregated sales reporting data into groups by either dining option, order source, revenue center, or a combination of two of these values, using the `groupBy` value in the message body. For more information about using `groupBy`, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).
 
-Also, you can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiAnalyticsInactiveRestaurantData.html).
+Also, you can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 ## Creating an aggregated sales reporting data request for a custom time range
 
@@ -119,7 +119,7 @@ The following example shows the response from the `/era/v1/metrics` endpoint.
 
 (1) The GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-For an example that shows how to retrieve the aggregated sales reporting data, see [Retrieving the aggregated sales reporting data](apiAnalyticsMetricsReportingDataRetrieveData.html).
+For an example that shows how to retrieve the aggregated sales reporting data, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
 
 ## Creating an aggregated sales reporting data request for a specific time range
 
@@ -138,7 +138,7 @@ Send a `POST` request to `/era/v1/metrics/\{timeRange\}` endpoint to request agg
 
 
 
-If you choose the `day` time range, you can choose to group the aggregated sales reporting data by hour instead of day. For more information about aggregating by hour, see [Using the `aggregateBy` query parameter](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataAggregateBy). For an example of using the `aggregateBy` query parameter, see [Example using `aggregateBy` and `groupBy`](apiAnalyticsMetricsReportingDataAggregation.html#apiAnalyticsMetricsReportingDataAggregateByGroupByExample).
+If you choose the `day` time range, you can choose to group the aggregated sales reporting data by hour instead of day. For more information about aggregating by hour, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy). For an example of using the `aggregateBy` query parameter, see [Example using `aggregateBy` and `groupBy`](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateByGroupByExample).
 
 
 
@@ -211,5 +211,5 @@ The following example shows the response from the `/era/v1/metrics/\{timeRange\}
 
 (1) The GUID for the aggregated sales reporting data, or the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-For the example about how to retrieve the aggregated sales reporting data for this request, see [Retrieving the aggregated sales reporting data](apiAnalyticsMetricsReportingDataRetrieveData.html).
+For the example about how to retrieve the aggregated sales reporting data for this request, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
 

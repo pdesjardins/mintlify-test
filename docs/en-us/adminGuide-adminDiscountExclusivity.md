@@ -94,7 +94,7 @@ However, if the order has only one large pizza, you cannot apply both nonexclusi
 
 The following table summarizes how different combinations of exclusive and nonexclusive discounts interact.
 
-For information on configuring required items for discounts, see [Choosing the required items for a discount](adminDiscountRequiredItemsAbout.html).
+For information on configuring required items for discounts, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
 
 | Discount type | Required items | Exclusive or Nonexclusive | Combines with other discounts? | 
 | --- | --- | --- | --- |

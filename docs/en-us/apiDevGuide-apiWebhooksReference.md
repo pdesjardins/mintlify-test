@@ -16,30 +16,30 @@ codeExamples: 0
 
 This section provides a reference for the Toast platform's webhook event categories. It includes:
 
-- [Guest order fulfillment status webhook](apiGuestOrderFulfillmentStatusWebhook.html)
+- [Guest order fulfillment status webhook](apiDevGuide-apiGuestOrderFulfillmentStatusWebhook)
 
 
-- [Menus webhook](apiMenusWebhook.html)
+- [Menus webhook](apiDevGuide-apiMenusWebhook)
 
 
-- [Orders webhook](devOrdersWebhookRef.html)
+- [Orders webhook](apiDevGuide-devOrdersWebhookRef)
 
 
-- [Packaging preferences configuration webhook](apiPackagingPreferencesConfigWebhook.html)
+- [Packaging preferences configuration webhook](apiDevGuide-apiPackagingPreferencesConfigWebhook)
 
 
-- [Partners webhook](apiPartnersWebhook.html)
+- [Partners webhook](apiDevGuide-apiPartnersWebhook)
 
 
-- [Restaurant availability webhook](apiRxAvailabilityWebhook.html)
+- [Restaurant availability webhook](apiDevGuide-apiRxAvailabilityWebhook)
 
 
-- [Restaurant online ordering schedule webhook](apiRxOnlineOrderingScheduleWebhook.html)
+- [Restaurant online ordering schedule webhook](apiDevGuide-apiRxOnlineOrderingScheduleWebhook)
 
 
-- [Stock webhook](apiStockWebhook.html)
+- [Stock webhook](apiDevGuide-apiStockWebhook)
 
 
 
-For information on using Toast webhooks, see [Webhook basics](apiWebhookBasics.html).
+For information on using Toast webhooks, see [Webhook basics](apiDevGuide-apiWebhookBasics).
 

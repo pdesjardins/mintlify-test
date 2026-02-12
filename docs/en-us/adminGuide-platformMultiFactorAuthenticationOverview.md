@@ -33,16 +33,16 @@ Ideally, anyone with access to critical systems or operations should enroll in M
 
 
 
-For more information about employee permissions, see [Access permissions reference](adminPermissions.html).
+For more information about employee permissions, see [Access permissions reference](adminGuide-adminPermissions).
 
 ## Options for receiving MFA passcodes
 
 You can choose the way that you get the secure passcode for multi-factor authentication.
 
-- You can use any authenticator app to generate secure codes. For example, you can use the [Google Authenticator™ mobile app](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) or the [Duo™ mobile app](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app). For more information about configuring an authenticator app for Toast platform multi-factor authentication, see [Configuring multi-factor authentication using an authenticator app](intAdminMfaConfiguringQrCode.html).
+- You can use any authenticator app to generate secure codes. For example, you can use the [Google Authenticator™ mobile app](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) or the [Duo™ mobile app](https://duo.com/product/multi-factor-authentication-mfa/duo-mobile-app). For more information about configuring an authenticator app for Toast platform multi-factor authentication, see [Configuring multi-factor authentication using an authenticator app](adminGuide-intAdminMfaConfiguringQrCode).
 
 
-- You can receive secure codes through text messages (SMS). For more information about configuring Toast platform multi-factor authentication using SMS text messaging, see [Configuring multi-factor authentication using SMS](intAdminMfaConfiguringSms.html).
+- You can receive secure codes through text messages (SMS). For more information about configuring Toast platform multi-factor authentication using SMS text messaging, see [Configuring multi-factor authentication using SMS](adminGuide-intAdminMfaConfiguringSms).
 
 
 

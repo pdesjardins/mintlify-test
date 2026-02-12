@@ -18,21 +18,21 @@ The following sections provide information about the Kitchen settings in Toast W
 
 In addition, the following topics provide information about other Kitchen categories.
 
-- [Prep Stations](adminAddPrepStation.html)
+- [Prep Stations](adminGuide-adminAddPrepStation)
 
 
-- [Printers](adminAddKitchenPrinter.html)
+- [Printers](adminGuide-adminAddKitchenPrinter)
 
 
-- [Item Routing](adminAboutItemRoutingRules.html)
+- [Item Routing](adminGuide-adminAboutItemRoutingRules)
 
 
 
 ## Kitchen
 
-To review and change settings on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminWebSetupAccessPermissionsReferenceTable).
+To review and change settings on the Kitchen \> Printers, tickets, & KDS devices \> Kitchen and ticket setup page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminWebSetupAccessPermissionsReferenceTable).
 
-For more information, see [How orders are routed to KDS devices](adminRoutingOrdersKitchen.html).
+For more information, see [How orders are routed to KDS devices](adminGuide-adminRoutingOrdersKitchen).
 
 ### Printed Tickets and Ticket Screens
 
@@ -40,8 +40,8 @@ The following table provides information about the settings of the Printed Ticke
 
 | Setting | Options and Description | 
 | --- | --- |
-| These settings affect the way that tickets print or appear on Toast KDS devices. In addition, settings that you configure on the Front of house \> Order screen setup \> [UI options](adminUiOptionsReference.html) page also affect the appearance of both printed and KDS device kitchen tickets. | 
-| Always Print and Show Dining Option | Defines whether orders that have the default dining option print or show that dining option on tickets. You define your restaurant's [dining options](adminKitchenDiningRoomReference.html#configDiningOptions) on the Kitchen \> Dining options \> Dining options page, and can specify one of your dining options as the default.- YesAll tickets include the name of the specified dining option, including tickets for the default dining option.
+| These settings affect the way that tickets print or appear on Toast KDS devices. In addition, settings that you configure on the Front of house \> Order screen setup \> [UI options](adminGuide-adminUiOptionsReference) page also affect the appearance of both printed and KDS device kitchen tickets. | 
+| Always Print and Show Dining Option | Defines whether orders that have the default dining option print or show that dining option on tickets. You define your restaurant's [dining options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) on the Kitchen \> Dining options \> Dining options page, and can specify one of your dining options as the default.- YesAll tickets include the name of the specified dining option, including tickets for the default dining option.
 - NoOnly tickets for the non-default dining options include the dining option name. Tickets for orders with the default dining option do not include the dining option.
 
  | 
@@ -49,22 +49,22 @@ The following table provides information about the settings of the Printed Ticke
                       FRY`.
 - Do not list other stations working on each ticket
 
-For more information about the effects of these options, see [KDS ticket contents](adminKdsConfigQuickRef.html#adminKdsQuickRefContent). | 
+For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent). | 
 | Individual Item Tickets | Defines how tickets for orders that have multiple items appear on both printed tickets and KDS tickets. These options are separated into Print Settingsand KDS Settingsrespectively.For printed tickets:- Print all items from an order on a single ticketAn example order for two items prints one ticket for all items in that course and order.
 - Print individual tickets with an overview ticket at each prep stationAn example order for two items prints three tickets: one ticket for each item and one overview ticket, also referred to as a master ticket.
 - Print individual tickets without an overview ticket at each prep stationAn example order for two items displays two tickets: one ticket for each item.
 
-For printed tickets, you can also include `x of y` item counters with the [Ticket Footer](adminKitchenDiningRoomReference.html#configTicketFooter) setting.For KDS tickets:- Display all items from an order on a single ticketAn example order for two items displays one ticket at both prep station and expediter KDS devices: one ticket for all items in that course and order.
+For printed tickets, you can also include `x of y` item counters with the [Ticket Footer](adminGuide-adminKitchenDiningRoomReference#configTicketFooter) setting.For KDS tickets:- Display all items from an order on a single ticketAn example order for two items displays one ticket at both prep station and expediter KDS devices: one ticket for all items in that course and order.
 - Display each item on individual tickets at both prep stations and exposAn example order for two items displays two tickets at both prep station and expediter KDS devices: one for each item in that course and order.
 - Display each item on individual tickets at prep stations onlyAn example order for two items displays two tickets at the prep station KDS device, one ticket for each item. One ticket displays on the expediter KDS device, one ticket for all items in that course and order.
 
-For more information about this setting, see [Individual item kitchen tickets](platformKitchenConfiguringTickets.html#platformKitchenIndividualItemKitchenTickets). | 
+For more information about this setting, see [Individual item kitchen tickets](adminGuide-platformKitchenConfiguringTickets#platformKitchenIndividualItemKitchenTickets). | 
 | Consolidate Items with Multiple Quantities | Defines whether menu items with a quantity of more than one are consolidated into a single ticket with the quantity included or displayed as individual tickets for each item.- Yes, consolidate items with multiple quantities as a single entity with an indicated quantityThis option shows menu items with a quantity of more than one as a single ticket with the quantity shown. For example, if the order includes three burgers, the kitchen ticket shows burgers with a quantity of three.
 - No, show items with multiple quantities as separate entities, each with a quantity of oneThis option shows single quantity tickets for a menu item. For example, if the order includes three burgers, there are three burger kitchen tickets, each with a quantity of one.
 
-For more information about this setting, see [Consolidate identical items](platformKitchenConfiguringTickets.html#platformKitchenConsolidateIdenticalItems). | 
-| Item Sorting Priority | For restaurants that set [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) to Print all items from an order on a single ticket for the Print Settings and Display all items from an order on a single ticket for the KDS Settings, this setting defines the sequencing method to use for items on a ticket.- By seat number, sort items sequentially by assigned seat numbers (Seat Number must be enabled in UI Options)This option applies if you configure the following settings on the Front of house \> Order screen setup \> UI options page.- Set [Party size](adminUiOptionsReference.html#configPartySize) to Always ask before creating a new order
-- Set Seat number (Table Service Only), Seat number (Quick Order Only), or both of these [additional modifier groups](adminUiOptionsReference.html#configAdditionalModifierGroups) to Enabled
+For more information about this setting, see [Consolidate identical items](adminGuide-platformKitchenConfiguringTickets#platformKitchenConsolidateIdenticalItems). | 
+| Item Sorting Priority | For restaurants that set [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) to Print all items from an order on a single ticket for the Print Settings and Display all items from an order on a single ticket for the KDS Settings, this setting defines the sequencing method to use for items on a ticket.- By seat number, sort items sequentially by assigned seat numbers (Seat Number must be enabled in UI Options)This option applies if you configure the following settings on the Front of house \> Order screen setup \> UI options page.- Set [Party size](adminGuide-adminUiOptionsReference#configPartySize) to Always ask before creating a new order
+- Set Seat number (Table Service Only), Seat number (Quick Order Only), or both of these [additional modifier groups](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups) to Enabled
 
 
 - By sort order, sort items by the assigned sort order (Sort Order must be assigned in Advanced Properties)This option applies if, for each menu item, you define a Sort Order value. You can update or review the sort order for all of your menu items at once on the Menus \> Bulk management \> Advanced propertiespage.
@@ -82,17 +82,17 @@ The following table provides information about the settings of the Expediter sec
 
 | Setting | Options and Description | 
 | --- | --- |
-| These settings affect the way that tickets print or appear on Toast KDS devices for expediters.In order for tickets to be sent to an expediter printer or screen, you must define the prep station screens that send tickets on to the expediter screen on the Kitchen \> Kitchen stations \> Prep stations page. You then use these settings to specify additional [workflow preferences](adminUsingExpo.html) for your expediters, and, for a KDS device, use Device Setup to identify the device located at the expediter seat. | 
-| Expediter Printer(s) | You can select any of the printers previously set up on the Payments \> Checks & receipt setup \> Printers and cash drawers page. Defaults to cleared for all printers. To specify the printers that you want to print the tickets for your expediter, select one or more printers.For more information about the effect of this setting, see [Printing options for the KDS](adminKdsConfigQuickRef.html#adminKdsQuickRefPrinting).To review or update which prep station orders are included on expediter tickets, see [Verify order routing to an expediter](adminTroubleshootExpoRouting.html). | 
+| These settings affect the way that tickets print or appear on Toast KDS devices for expediters.In order for tickets to be sent to an expediter printer or screen, you must define the prep station screens that send tickets on to the expediter screen on the Kitchen \> Kitchen stations \> Prep stations page. You then use these settings to specify additional [workflow preferences](adminGuide-adminUsingExpo) for your expediters, and, for a KDS device, use Device Setup to identify the device located at the expediter seat. | 
+| Expediter Printer(s) | You can select any of the printers previously set up on the Payments \> Checks & receipt setup \> Printers and cash drawers page. Defaults to cleared for all printers. To specify the printers that you want to print the tickets for your expediter, select one or more printers.For more information about the effect of this setting, see [Printing options for the KDS](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefPrinting).To review or update which prep station orders are included on expediter tickets, see [Verify order routing to an expediter](adminGuide-adminTroubleshootExpoRouting). | 
 | Printing Mode | Defines whether all expediter tickets should print on the designated Expediter Printer(s).- Always print expediter ticketsApplies to kitchens that rely on printed tickets.
 - Only print expediter tickets when Toast is in offline modeApplies to kitchens that use Toast KDS devices at expediter seats.
 
-For more information about the effects of these settings, see [Printing options for the KDS](adminKdsConfigQuickRef.html#adminKdsQuickRefPrinting). To verify that a KDS device is set up for use by an expediter, see [Verify device setup](adminVerifyDeviceSetup.html). | 
+For more information about the effects of these settings, see [Printing options for the KDS](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefPrinting). To verify that a KDS device is set up for use by an expediter, see [Verify device setup](adminGuide-adminVerifyDeviceSetup). | 
 | Two-Level Fulfillment | For kitchens that use Toast KDS devices for expediter tickets, defines whether orders must be marked as fulfilled by two expediter screens in sequence (a kitchen expo and a food runner, for example), or if a single expediter screen is responsible for final order fulfillment.- Two levels
 - Single level
 
-For more information, see [Using a KDS expediter screen](adminUsingExpo.html). | 
-| Sequenced Expediter Fulfillment | Determines whether tickets are required to be fulfilled at Expediter-1 (first level) before they can be fulfilled at Expediter-2 (second level).This setting is available when [Two-Level Fulfillment](adminKitchenDiningRoomReference.html#configTwoLevelFulfillment) is set to Two levels.- To enable this feature, select Sequenced Expediter Fulfillment.
+For more information, see [Using a KDS expediter screen](adminGuide-adminUsingExpo). | 
+| Sequenced Expediter Fulfillment | Determines whether tickets are required to be fulfilled at Expediter-1 (first level) before they can be fulfilled at Expediter-2 (second level).This setting is available when [Two-Level Fulfillment](adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment) is set to Two levels.- To enable this feature, select Sequenced Expediter Fulfillment.
 - To disable this feature, clear Sequenced Expediter Fulfillment.
 
  | 
@@ -113,7 +113,7 @@ Defines whether items must be fulfilled at the first-level expediter before the 
 
 
 
-This is only applicable to KDS devices. For more information, see [Sequencing fulfillment by station type and level](platformKitchenUnderstandingItemFulfillmentKDS.html#platformKDSSequencingFulfillmentByStationTypeAndLevel). | 
+This is only applicable to KDS devices. For more information, see [Sequencing fulfillment by station type and level](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel). | 
 | Show Guest Name in Bold on Expediter Tickets | Defines the emphasis given to the guest name on tickets.- Yes, print guest name in bold on top of expediter tickets
 - No
 
@@ -121,7 +121,7 @@ This is only applicable to KDS devices. For more information, see [Sequencing fu
 | Override Item Prep Time | Defines whether the expediters can assess items that are scheduled but not yet fired, and fire them manually as needed.- Yes
 - No
 
-For more information, see [Firing by item prep time](adminFireByPrepTime.html). | 
+For more information, see [Firing by item prep time](adminGuide-adminFireByPrepTime). | 
 
 ### Printed Tickets
 
@@ -129,14 +129,14 @@ The following table provides information about the settings of the Printed Ticke
 
 | Setting | Options and Description | 
 | --- | --- |
-| These settings affect the appearance of printed tickets. In addition, the settings you configure on the [UI Options](adminUiOptionsReference.html) page also affect the appearance of printed tickets. | 
-| Print Guest Details | For kitchens that use kitchen printers, defines whether guest information and special delivery notes print on tickets for orders with either takeout or delivery behavior. When you define [dining options](adminKitchenDiningRoomReference.html#configDiningOptions) on the Kitchen \> Dining options \> Dining options page, you specify takeout, delivery, or dine-in behavior for each dining option.- Yes, include full guest details for takeout and delivery orders (name, address, etc.)
+| These settings affect the appearance of printed tickets. In addition, the settings you configure on the [UI Options](adminGuide-adminUiOptionsReference) page also affect the appearance of printed tickets. | 
+| Print Guest Details | For kitchens that use kitchen printers, defines whether guest information and special delivery notes print on tickets for orders with either takeout or delivery behavior. When you define [dining options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) on the Kitchen \> Dining options \> Dining options page, you specify takeout, delivery, or dine-in behavior for each dining option.- Yes, include full guest details for takeout and delivery orders (name, address, etc.)
 - No
 
  | 
 | Print Default Modifiers Black | For kitchens that use kitchen printers, defines the font color to use for a modifier option that is identified as the default in its modifier group. This setting only applies if you also configure your restaurant with the following settings:- You specify a default modifier option for one or more of the modifier groups on your menu.
-- On the Front of house \> Order screen setup \> UI Options page you set [Modifier display mode](adminUiOptionsReference.html#configModifierDisplayMode) to Vertical: list one modifier per line.
-- On the Front of house \> Order screen setup \> UI Options page you set [Show default modifiers?](adminUiOptionsReference.html#configShowDefaultModifiers) to On.
+- On the Front of house \> Order screen setup \> UI Options page you set [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) to Vertical: list one modifier per line.
+- On the Front of house \> Order screen setup \> UI Options page you set [Show default modifiers?](adminGuide-adminUiOptionsReference#configShowDefaultModifiers) to On.
 
 In addition, the printer must be able to print in both black and red, such as an Epson U220 printer.This setting does not affect the appearance of tickets on KDS devices.You can select:- YesModifiers print in red font, with the exception of default modifiers, which print in black font.
 - NoAll modifiers print in red font, including default modifiers.
@@ -159,9 +159,9 @@ In addition, the printer must be able to print in both black and red, such as an
 
 
 
-You can use this setting in conjunction with the [Consolidate menu items](adminUiOptionsReference.html#configCombineItems)setting, which is located on the Front of house \> Order screen setup \> UI Options page. The effect of the Consolidate menu items setting on identical menu items with identical modifiers is not changed. | 
-| Split Tickets by Course | For kitchens that use kitchen printers, defines whether to print a separate ticket for each course. This setting only applies if you also configure your restaurant with the following settings.- You set [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) to Print all items from an order on a single ticket for the Print Settings and Display all items from an order on a single ticket for the KDS Settings
-- On the Kitchen \> Pacing \> Meal pacing page you set [Course Pacing](adminKitchenDiningRoomReference.html#configCoursePacing) to Enable course pacing.
+You can use this setting in conjunction with the [Consolidate menu items](adminGuide-adminUiOptionsReference#configCombineItems)setting, which is located on the Front of house \> Order screen setup \> UI Options page. The effect of the Consolidate menu items setting on identical menu items with identical modifiers is not changed. | 
+| Split Tickets by Course | For kitchens that use kitchen printers, defines whether to print a separate ticket for each course. This setting only applies if you also configure your restaurant with the following settings.- You set [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) to Print all items from an order on a single ticket for the Print Settings and Display all items from an order on a single ticket for the KDS Settings
+- On the Kitchen \> Pacing \> Meal pacing page you set [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) to Enable course pacing.
 
 You can select:- Yes, cut tickets into separate chits by course
 - No
@@ -171,9 +171,9 @@ You can select:- Yes, cut tickets into separate chits by course
 | Footer Spacing | Defaults to 0 blank lines. To change the number of blank lines that appear at the bottom of printed tickets, select a value from 0 to 20. | 
 | Ticket Footer | Defaults to cleared for all Section Name options. To include an additional section of information at the end of a printed ticket, you select the Prep Station check box, the Expediter check box, or both.- Count of Tickets (i.e. 1 of 2)This option applies to printed tickets only. Prep station tickets include `1 of n`, `2 of n`, etc. count lines for each item, where `n` is the total number of items in the order. Expediter tickets (and overview tickets, if printed) include count lines for every item in the order.The illustrations that follow show examples of this message on prep station and expediter tickets.![Image](https://doc.toasttab.com/doc/media/ticket_xofy_prep.png)
 
-In this example, [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) is set to Print all items from an order on a single ticket for the Print Settings. Line cooks can keep track of all of the kitchen tickets produced for a single order by using the order number and the item counts.![Image](https://doc.toasttab.com/doc/media/ticket_xofy_individual.png)
+In this example, [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) is set to Print all items from an order on a single ticket for the Print Settings. Line cooks can keep track of all of the kitchen tickets produced for a single order by using the order number and the item counts.![Image](https://doc.toasttab.com/doc/media/ticket_xofy_individual.png)
 
-In this example, [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) is set to print individual item tickets. In addition to helping keep track of all of the tickets for a single order, the tickets can be used as item labels.
+In this example, [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) is set to print individual item tickets. In addition to helping keep track of all of the tickets for a single order, the tickets can be used as item labels.
 - Scheduled Order Due TimeThis option applies to printed tickets for pending future orders only. If selected, these tickets include `- ORDER DUE: HH:MM PM -`, where HH:MM is the time that an order is due.
 - Payment Status (Takeout and Delivery only)This option applies to printed expediter tickets for takeout and delivery orders only. If selected, these tickets include the payment status (such as `Paid` or `Payment Required`) in the footer.
 
@@ -196,7 +196,7 @@ The following table provides information about the settings of the Ticket Screen
 - Enable preview tickets
 - Disable preview tickets
 
-For more information about preview tickets, see [Preview tickets](platformKDSOverview.html#platformGridKDSPreviewTickets). | 
+For more information about preview tickets, see [Preview tickets](adminGuide-platformKDSOverview#platformGridKDSPreviewTickets). | 
 | Start Queue | 
 
 > **Note**
@@ -207,19 +207,19 @@ For more information about preview tickets, see [Preview tickets](platformKDSOve
 This setting determines if your KDS devices use start queue. Start queue divides prep station KDS screens into a section for cooking and a section for unstarted tickets to indicate whether or not a prep station is working on a ticket.- Enable start queue
 - Disable start queue
 
-For more information about start queue, see [Start queue overview](platformKdsStartQueue.html#platformKdsStartQueueOverview). | 
+For more information about start queue, see [Start queue overview](adminGuide-platformKdsStartQueue#platformKdsStartQueueOverview). | 
 | Recently Fulfilled Timeframe | This setting defines how long, in minutes, a fulfilled ticket can be reviewed on a KDS device using the Show Recently Fulfilled option. Must be greater than 0.
 
 > **Note**
 > 
-- For prep stations that use an [expediter workflow](adminUsingExpo.html), the system considers tickets to be fulfilled when the expediter marks them as fulfilled. If you use two expediters, the second expediter completes order fulfillment.
+- For prep stations that use an [expediter workflow](adminGuide-adminUsingExpo), the system considers tickets to be fulfilled when the expediter marks them as fulfilled. If you use two expediters, the second expediter completes order fulfillment.
 - The option for this setting also affects the recall feature. You can use Recall to unfulfill the last fulfilled ticket, as long as it was fulfilled during this timeframe.
 - During high-volume periods, the system may use a shorter timeframe.
 
 
 
-For more information, see [Redisplaying tickets with recall and unfulfill](adminRedisplayingTickets.html). | 
-| Warning Colors | Defaults to Disabled. After you select Enabled, this setting offers a series of options that give you control over the ticket heading colors that appear on the KDS device as cues to how long tickets remain unfulfilled.For more information about the effects of these options, see [KDS notification options](adminKdsConfigQuickRef.html#adminKdsQuickRefNotification). | 
+For more information, see [Redisplaying tickets with recall and unfulfill](adminGuide-adminRedisplayingTickets). | 
+| Warning Colors | Defaults to Disabled. After you select Enabled, this setting offers a series of options that give you control over the ticket heading colors that appear on the KDS device as cues to how long tickets remain unfulfilled.For more information about the effects of these options, see [KDS notification options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefNotification). | 
 | Level 1 - 4 Enabled | Defaults to cleared. To specify the different timing threshold levels you want to set up select one or more levels. | 
 | Level 1 - 4 Threshold (minutes) | To define how long the ticket heading appears with its associated color after it is fired, you select a value from 1-20 (in one-minute increments), 22-30 (in two-minute increments), or 35-90 (in five-minute increments).For example, at a quick service restaurant you might set thresholds of 2, 3, and 5 minutes, while in a fine dining restaurant you might set thresholds of 10, 20, and 30 minutes. | 
 | Level 1 - 4 Color | Defaults to white. To assign a color to tickets that remain unfulfilled long enough to reach one of the defined threshold levels, select the white tile and then select a color from the palette that opens. | 
@@ -228,26 +228,26 @@ For more information, see [Redisplaying tickets with recall and unfulfill](admin
 | Print On Demand | Defines whether a Printoption appears when you select a ticket on the KDS device.- Enable kitchen staff to print tickets or takeout / delivery receipts from the kitchen display system
 - Disable printing from the kitchen display system
 
-For more information about the effects of these options, see [KDS notification options](adminKdsConfigQuickRef.html#adminKdsQuickRefNotification) or [Printing options for the KDS](adminKdsConfigQuickRef.html#adminKdsQuickRefPrinting). | 
+For more information about the effects of these options, see [KDS notification options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefNotification) or [Printing options for the KDS](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefPrinting). | 
 | Flash Changes | Defines whether the KDS device alerts employees to new and changed tickets by intermittently changing the color of the ticket headers. To acknowledge the ticket and stop the flashing, you select the ticket.- Flash changes (new tickets, fired courses, etc) until acknowledged by kitchen staff
 - Don't flash changes
 
-For more information about the effects of these options, see [KDS notification options](adminKdsConfigQuickRef.html#adminKdsQuickRefNotification). | 
-| Fulfill Items | Defines whether selecting a ticket provides an option to fulfill all of the items on the ticket at once, or opens a dialog box in which you can select specific items and then select Fulfill for each one.For restaurants that set [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) to Display all items from an order on a single ticket for the KDS Settings, this setting is typically set to Enable individual item fulfillment.- Enable individual item fulfillment
+For more information about the effects of these options, see [KDS notification options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefNotification). | 
+| Fulfill Items | Defines whether selecting a ticket provides an option to fulfill all of the items on the ticket at once, or opens a dialog box in which you can select specific items and then select Fulfill for each one.For restaurants that set [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) to Display all items from an order on a single ticket for the KDS Settings, this setting is typically set to Enable individual item fulfillment.- Enable individual item fulfillment
 - Disable individual item fulfillment
 
-For more information about the effects of these options, see [KDS interaction options](adminKdsConfigQuickRef.html#adminKdsQuickRefInteraction) or [Printing options for the KDS](adminKdsConfigQuickRef.html#adminKdsQuickRefPrinting). | 
+For more information about the effects of these options, see [KDS interaction options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefInteraction) or [Printing options for the KDS](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefPrinting). | 
 | Fulfillment method | Defines the way items assigned to multiple prep stations are fulfilled.- Fulfill at the same timeThis option fulfills the item at all prep stations when it is marked as fulfilled at one prep station.
 - Fulfill at each station independentlyThis option requires fulfillment at each assigned prep station for an item to be considered fulfilled.
 
-For more information about these fulfillment options, see [Understanding item fulfillment](platformKitchenUnderstandingItemFulfillmentKDS.html). | 
+For more information about these fulfillment options, see [Understanding item fulfillment](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS). | 
 | All Day Display | Defines whether a Show All Day View option appears in the KDS title bar.- Yes, enable All Day Display, grouped by item onlyThis option provides a total count across tickets for all menu items that currently appear on the KDS device. Only the count and the item name appear. This is the default option.
 - Yes, enable All Day Display, grouped by item and sub-grouped by modifiersThis option provides a total count across tickets for all menu items that currently appear on the KDS device. Below the count and the item name, the course and a subtotal for each variation introduced by modifiers, if any, appear.
 - No, do not enable All Day Display
 
-For more information about the effects of these options, see [About all day view](adminReportingTotalsKDS.html#adminAllDayView). | 
+For more information about the effects of these options, see [About all day view](adminGuide-adminReportingTotalsKDS#adminAllDayView). | 
 | KDS Ticket Headers | Defines whether the check number or the table number is more prominent on KDS tickets.- Check numberThis option displays the check number (in the format `#nn`) in larger, bold font in the top left corner of KDS tickets. If available, the table number (or tab or guest name) appears in smaller, normal font directly below it.
-- Table numberThis option displays the table number (in the format `Table nn`) in larger, bold font in the top left corner of KDS tickets. The check number appears in smaller, normal font directly below it.If a tab name is available, it appears after the table number as `Tab: abc`. If the order does not have either a table number, tab name, or guest name, the check number displays in the top left corner without an additional identifier below it. For more information about the display order for table number, tab name, and guest name, see [Understanding how order information appears on KDS tickets](adminUnderstandingOrderInfoAppearsKDSTickets.html).
+- Table numberThis option displays the table number (in the format `Table nn`) in larger, bold font in the top left corner of KDS tickets. The check number appears in smaller, normal font directly below it.If a tab name is available, it appears after the table number as `Tab: abc`. If the order does not have either a table number, tab name, or guest name, the check number displays in the top left corner without an additional identifier below it. For more information about the display order for table number, tab name, and guest name, see [Understanding how order information appears on KDS tickets](adminGuide-adminUnderstandingOrderInfoAppearsKDSTickets).
 
  | 
 
@@ -257,10 +257,10 @@ The following table provides information about the settings of the Order ready t
 
 | Setting | Options and Description | 
 | --- | --- |
-| The settings described in this section configure automated text messaging to guests, employees, or both when orders are fulfilled. For more information about the settings in this section, see [Sending text messages on expediter fulfillment](platformKitchenTextMessaging.html#adminSendTextMessage). | 
+| The settings described in this section configure automated text messaging to guests, employees, or both when orders are fulfilled. For more information about the settings in this section, see [Sending text messages on expediter fulfillment](adminGuide-platformKitchenTextMessaging#adminSendTextMessage). | 
 | Fulfillment Text Level | This setting determines when a text indicating an order is fulfilled is sent.- Prep station (the first prep station to fulfill any part of the order will trigger a text)
 - Expediter (fulfillment from the expediter screen will trigger a text)
-- Expediter, Level 2 (fulfillment from the second expediter screen will trigger a text; also known as "Expediter 2" or "second level" expediter if two level expediter fulfillment is enabled)This option is available when [Two-Level Fulfillment](adminKitchenDiningRoomReference.html#configTwoLevelFulfillment) is set to Two levels.
+- Expediter, Level 2 (fulfillment from the second expediter screen will trigger a text; also known as "Expediter 2" or "second level" expediter if two level expediter fulfillment is enabled)This option is available when [Two-Level Fulfillment](adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment) is set to Two levels.
 
  | 
 | Send text message | This setting gives you fine-grained control over who receives SMS (text) messages and what they contain.- For Quick Orders sets the messaging for orders entered in quick order mode on a Toast POS device.
@@ -288,7 +288,7 @@ The following table provides information about the settings of the Kitchen Names
 - Curbside
 - Online Ordering
 - Delivery
-- [list of [course names](adminKitchenDiningRoomReference.html#configCoursesSection)]
+- [list of [course names](adminGuide-adminKitchenDiningRoomReference#configCoursesSection)]
 - No Course specified
 - time fulfilled
 - not fulfilled
@@ -296,15 +296,15 @@ The following table provides information about the settings of the Kitchen Names
 - No
 
  | 
-| Kitchen Names | These options customize the terms that appear on your kitchen tickets. Each option defaults to the corresponding Original Name. For example, if some of your back of house employees read English and others read Chinese, for the original name "VOIDED" you can supply a Kitchen Name of "Void- 作废".You can replace any of the original name values with a different value, but you cannot remove them completely. For example, if you do not want "No Course specified" to appear on tickets, you can replace it with a period (.) or hyphen (-) character.The kitchen names that you define appear on all printed tickets and Toast KDS devices.For more information about the effects of these settings, see [KDS ticket contents](adminKdsConfigQuickRef.html#adminKdsQuickRefContent). | 
+| Kitchen Names | These options customize the terms that appear on your kitchen tickets. Each option defaults to the corresponding Original Name. For example, if some of your back of house employees read English and others read Chinese, for the original name "VOIDED" you can supply a Kitchen Name of "Void- 作废".You can replace any of the original name values with a different value, but you cannot remove them completely. For example, if you do not want "No Course specified" to appear on tickets, you can replace it with a period (.) or hyphen (-) character.The kitchen names that you define appear on all printed tickets and Toast KDS devices.For more information about the effects of these settings, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent). | 
 
 ## Courses
 
-To review and change settings on the Kitchen \> Pacing \> Courses page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To review and change settings on the Kitchen \> Pacing \> Courses page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions).
 
 After you add courses, you can assign them to your menus, menu groups, menu items, or modifier options. You can update or review the course assignments for all of your menu entries at once on the  Menus \> Bulk management \> Advanced properties page.
 
-You can also give employees the option to specify the course for each item in an order with the Course[additional modifier group](adminUiOptionsReference.html#configAdditionalModifierGroups). To give employees the ability to send an order with multiple courses, but fire each course separately, you can enable the [Course Pacing](adminKitchenDiningRoomReference.html#configCoursePacing) setting.
+You can also give employees the option to specify the course for each item in an order with the Course[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups). To give employees the ability to send an order with multiple courses, but fire each course separately, you can enable the [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) setting.
 
 The following table provides information about the settings of the Kitchen \> Pacing \> Courses page.
 
@@ -317,9 +317,9 @@ The following table provides information about the settings of the Kitchen \> Pa
 
 ## Prep stations
 
-To review and change settings on the Kitchen \> Kitchen stations \> Prep stations page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To review and change settings on the Kitchen \> Kitchen stations \> Prep stations page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions).
 
-For information about adding and customizing prep station behavior, see [Adding a prep station](adminAddPrepStation.html) and [Procedure 10.18, “To configure a prep station to monitor another prep station”](adminMonitoringTicketsOtherPrepStations.html#adminConfigurePrintOtherStationsItems).
+For information about adding and customizing prep station behavior, see [Adding a prep station](adminGuide-adminAddPrepStation) and [Procedure 10.18, “To configure a prep station to monitor another prep station”](adminGuide-adminMonitoringTicketsOtherPrepStations#adminConfigurePrintOtherStationsItems).
 
 | Setting | Options and Description | 
 | --- | --- |
@@ -341,8 +341,8 @@ Defines whether items assigned to the prep station are sent to the prep station,
 - Expediter onlyItems assigned to this prep station are only sent to the expediter. Prep stations with this setting cannot be assigned to prep station KDS devices.
 - Prep station onlyItems assigned to this prep station are only sent to the prep station.
 
-This includes items on KDS or printed tickets. For more information, see [Sending items to prep stations, expediters, or both](adminRoutingToPrepStations.html#platformKitchenSendingToPrepStationExpediterBoth). | 
-| Other Stations | This setting prints the items worked on by the selected station. This setting only affects printed tickets.For example, an order contains an item sent to the Bakery prep station and an item sent to the Pack prep station. The Bakery prep station has Other Stations set to Pack. When the order is sent, the Bakery kitchen printer prints the Bakery item, and also lists the Other Station prep station name, Pack, and the item from the order.If you choose to [print an overview ticket at each prep station](adminKitchenDiningRoomReference.html#configIndividualTickets), only the overview ticket lists items from the other prep station(s). If you enable [course pacing](adminKitchenDiningRoomReference.html#configCoursePacing), the information included on a ticket is determined by course. | 
+This includes items on KDS or printed tickets. For more information, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth). | 
+| Other Stations | This setting prints the items worked on by the selected station. This setting only affects printed tickets.For example, an order contains an item sent to the Bakery prep station and an item sent to the Pack prep station. The Bakery prep station has Other Stations set to Pack. When the order is sent, the Bakery kitchen printer prints the Bakery item, and also lists the Other Station prep station name, Pack, and the item from the order.If you choose to [print an overview ticket at each prep station](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets), only the overview ticket lists items from the other prep station(s). If you enable [course pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing), the information included on a ticket is determined by course. | 
 | Ticket Printer | This setting chooses the printer that prints the prep station's tickets. | 
 | Always Print Tickets | This setting determines whether prep station tickets are always printed, or only when the restaurant is in offline mode.- To enable this feature, select Always Print Tickets.
 - To disable this feature, clear Always Print Tickets.
@@ -352,9 +352,9 @@ This includes items on KDS or printed tickets. For more information, see [Sendin
 
 ## Advanced item routing
 
-To change item routing behavior on the Kitchen \> Kitchen stations \> Item routing page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions). These settings change the existing item behavior when certain conditions are met.
+To change item routing behavior on the Kitchen \> Kitchen stations \> Item routing page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions). These settings change the existing item behavior when certain conditions are met.
 
-For information about setting up menu item routing to prep stations, see [Assigning prep stations to menu entities](adminRoutingToPrepStations.html#adminAssignPrepStationMenu). For more information about advanced item routing, see [Routing overview](platformKitchenRoutingOverview.html).
+For information about setting up menu item routing to prep stations, see [Assigning prep stations to menu entities](adminGuide-adminRoutingToPrepStations#adminAssignPrepStationMenu). For more information about advanced item routing, see [Routing overview](adminGuide-platformKitchenRoutingOverview).
 
 The following table provides information about the settings of the Kitchen \> Kitchen stations \> Item routingpage.
 
@@ -367,16 +367,16 @@ The following table provides information about the settings of the Kitchen \> Ki
 - Service AreaThe item is rerouted depending on the chosen service area.
 
  | 
-| Condition | The condition of the item routing rule that must be met in order for the rule to apply to the item. This is either a dining option or a service area, depending on the chosen [Category](adminKitchenDiningRoomReference.html#configItemRoutingCategory). | 
+| Condition | The condition of the item routing rule that must be met in order for the rule to apply to the item. This is either a dining option or a service area, depending on the chosen [Category](adminGuide-adminKitchenDiningRoomReference#configItemRoutingCategory). | 
 | Reroute From | The original destination of items that meet the configured category and condition. If the item is not originally routed to this prep station, it is not rerouted to the new prep stations. | 
 | Reroute To | The new destination of items that meet the configured category and condition. The item can be rerouted to more than one prep station. | 
 | Actions (menu icon) | To remove a routing rule, click the menu icon next to that routing rule and then select Archive. | 
 
 ## Production Items
 
-To review and change settings on the Kitchen \> Kitchen stations \> Production items page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To review and change settings on the Kitchen \> Kitchen stations \> Production items page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions).
 
-For more information about production items, see [About production items](adminAssignPrepStationKDS.html#adminAboutProdItems).
+For more information about production items, see [About production items](adminGuide-adminAssignPrepStationKDS#adminAboutProdItems).
 
 The following table provides information about the settings of the Kitchen \> Kitchen stations \> Production itemspage.
 
@@ -393,7 +393,7 @@ The Toast platform includes three dining options by default: Dine In, Take Out, 
 
 For example, your restaurant has an outdoor patio area with seating for guests. If you want the kitchen to package orders for the patio in takeout containers, you can set up a Patio dining option with a behavior of takeout.
 
-Dining options can apply to a complete order or to an item within an order by using one of the [Additional Modifier Groups](adminUiOptionsReference.html#configAdditionalModifierGroups).
+Dining options can apply to a complete order or to an item within an order by using one of the [Additional Modifier Groups](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups).
 
 The following table provides information about the settings of the Kitchen \> Dining options \> Dining optionspage.
 
@@ -404,14 +404,14 @@ The following table provides information about the settings of the Kitchen \> Di
 | Behavior | To specify differences in how the kitchen plates or packages the order, you can select Dine In, Take Out, Delivery or Curbside. You can also specify None. | 
 | Future | To identify a dining option to use for pending orders scheduled for fulfillment on a date in the future, select Future. | 
 | API | This setting only applies to customers who use the Toast orders API. To allow an integration partner to access a dining option so that orders can be placed or information retrieved, select API. | 
-| Default | To streamline ordering, you can specify the most frequently used dining option for your restaurant. On individual Toast POS devices you can override this restaurant-wide default by setting Setup \> Device Setup \> Device Default Dining Option. Specifying a default relabels the Dining button on order screens to the name of the default dining option.If you do not specify a default dining option, you can set the [Prompt for Dining Option (Quick Order only)](adminUiOptionsReference.html#configPromptDiningOption)setting. | 
+| Default | To streamline ordering, you can specify the most frequently used dining option for your restaurant. On individual Toast POS devices you can override this restaurant-wide default by setting Setup \> Device Setup \> Device Default Dining Option. Specifying a default relabels the Dining button on order screens to the name of the default dining option.If you do not specify a default dining option, you can set the [Prompt for Dining Option (Quick Order only)](adminGuide-adminUiOptionsReference#configPromptDiningOption)setting. | 
 | Actions (menu icon) | To remove a dining option, select the menu icon next to that option and then select Archive. | 
 
 ## Meal Pacing
 
-To review and change settings on the Kitchen \> Pacing \> Meal pacing page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminPermissions.html#adminRestaurantAdminAccessPermissions).
+To review and change settings on the Kitchen \> Pacing \> Meal pacing page, you must have the Web Setup \> 6.2 Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminRestaurantAdminAccessPermissions).
 
-You add [courses](adminKitchenDiningRoomReference.html#configCoursesSection) on the Kitchen \> Pacing \> Courses page, and you can update or review the course assignments for all of your menu entries at once on the Menus \> Bulk management \> Advanced properties page.
+You add [courses](adminGuide-adminKitchenDiningRoomReference#configCoursesSection) on the Kitchen \> Pacing \> Courses page, and you can update or review the course assignments for all of your menu entries at once on the Menus \> Bulk management \> Advanced properties page.
 
 ### Course Pacing
 
@@ -419,17 +419,17 @@ The following table provides information about the settings of the Course Pacing
 
 | Setting | Options and Description | 
 | --- | --- |
-| Course Pacing | This setting separates the send and fire actions for orders so that you can set the pace of item firing and fulfillment either manually or automatically. Select Enable course pacing to enable this feature.Additional options are available after you enable course pacing.If a course is not specified for an item, the system includes a "No Course" heading and lists that item on tickets first, followed by headings for each course and the related items. A course can be configured for a menu item or modifier, or, [if enabled](adminUiOptionsReference.html#configAdditionalModifierGroups), can be added or changed by the employee on the Toast POS app.To send all items in an order simultaneously or one at a time from the Orders screen using the Server Item Firing feature, clear Enable course pacing. | 
-| Modifier Course Firing | This setting determines whether modifiers are fired with the configured course or with the same course as the parent menu item.This setting is available when [Course Pacing](adminKitchenDiningRoomReference.html#configCoursePacing) is set to Enable course pacing.- Fire modifier to its configured courseThis option fires a modifier with the configured course.
+| Course Pacing | This setting separates the send and fire actions for orders so that you can set the pace of item firing and fulfillment either manually or automatically. Select Enable course pacing to enable this feature.Additional options are available after you enable course pacing.If a course is not specified for an item, the system includes a "No Course" heading and lists that item on tickets first, followed by headings for each course and the related items. A course can be configured for a menu item or modifier, or, [if enabled](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups), can be added or changed by the employee on the Toast POS app.To send all items in an order simultaneously or one at a time from the Orders screen using the Server Item Firing feature, clear Enable course pacing. | 
+| Modifier Course Firing | This setting determines whether modifiers are fired with the configured course or with the same course as the parent menu item.This setting is available when [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) is set to Enable course pacing.- Fire modifier to its configured courseThis option fires a modifier with the configured course.
 - Do not fire modifiers separatelyThis option fires a modifier with the same course as the menu item. This is for modifiers that have a different course than the parent menu item.
 
  | 
-| Sending Courses | This setting determines when courses are sent to the kitchen.This setting is available when [Course Pacing](adminKitchenDiningRoomReference.html#configCoursePacing) is set to Enable course pacing.- Send all courses to kitchen immediatelyThis option sends all courses to the kitchen. Whether courses have a held or fired status depends on the [Firing Courses](adminKitchenDiningRoomReference.html#configFiringCourses)setting.For both the KDS device and printed tickets, all courses are shown.
+| Sending Courses | This setting determines when courses are sent to the kitchen.This setting is available when [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) is set to Enable course pacing.- Send all courses to kitchen immediatelyThis option sends all courses to the kitchen. Whether courses have a held or fired status depends on the [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses)setting.For both the KDS device and printed tickets, all courses are shown.
 - Send courses individuallyThis option fires only the selected courses to the kitchen.On the KDS device, the remaining courses are not fired or sent to the kitchen and must be sent by the employee from the POS app.For tickets printed for the expediter seat, all courses are printed, with the selected courses marked as fired and the rest as held. When the next course is fired from the POS app, a new ticket is printed with the course marked as fired.For tickets printed for prep stations, only the fired courses are printed. When subsequent courses are fired, a new ticket is printed.
 
  | 
-| Firing Courses | This setting determines how courses are fired to the kitchen.This setting is available when [Sending Courses](adminKitchenDiningRoomReference.html#configSendingCourses) is set to Send all courses to kitchen immediately.- Server fires courses individuallyThis option sends all courses to the kitchen, with the selected ones fired. The unselected courses appear as held tickets. If in use, the "No course" course is fired immediately.For printed tickets, when a held course is fired, a new ticket prints with the status change and the course name. It does not include the menu item or modifier names.
-- Automate course firingThis option sends all courses to the kitchen. The first course, and the "No course" if it's in use, are fired immediately. The remaining courses appear as held tickets and are fired when certain conditions are met, as defined in the [Automated Firing](adminKitchenDiningRoomReference.html#configAutomatedFiring) setting.
+| Firing Courses | This setting determines how courses are fired to the kitchen.This setting is available when [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send all courses to kitchen immediately.- Server fires courses individuallyThis option sends all courses to the kitchen, with the selected ones fired. The unselected courses appear as held tickets. If in use, the "No course" course is fired immediately.For printed tickets, when a held course is fired, a new ticket prints with the status change and the course name. It does not include the menu item or modifier names.
+- Automate course firingThis option sends all courses to the kitchen. The first course, and the "No course" if it's in use, are fired immediately. The remaining courses appear as held tickets and are fired when certain conditions are met, as defined in the [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) setting.
 
 > **Note**
 > 
@@ -440,7 +440,7 @@ The following table provides information about the settings of the Course Pacing
 - Expediter fires courses individuallyThis option sends all courses to the kitchen as held tickets. The expediter can then fire or fulfill the course tickets individually. This includes the "No course" course.This option is designed for KDS devices. For printed tickets, all courses are printed with a held status. When a course is fired, the prep station printer prints a new ticket with the changed status and the menu items and modifiers included in that course.
 
  | 
-| Automated Firing | This setting determines what conditions need to be met for a course to fire automatically.This setting is available when [Firing Courses](adminKitchenDiningRoomReference.html#configFiringCourses) is set to Automate course firing.
+| Automated Firing | This setting determines what conditions need to be met for a course to fire automatically.This setting is available when [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses) is set to Automate course firing.
 
 > **Note**
 > 
@@ -459,13 +459,13 @@ The following table provides information about the settings of the Course Pacing
 > This setting is only available for KDS devices and is not supported for use with kitchen printers.
 
 
-This option appears if [Automated Firing](adminKitchenDiningRoomReference.html#configAutomatedFiring) is set to either When previous course is fulfilled by all prep stations or When previous course is fulfilled by the expediter. | 
-| Course Firing Schedule | This setting lists each course and allows you to set the time for when the next course is automatically fired.This option appears if [Automated Firing](adminKitchenDiningRoomReference.html#configAutomatedFiring) is set to On a timed schedule.The Course Firing Schedule lists each configured course, and in the Fire Next Course After column you can enter the time, in seconds, between that course being fired and the next course firing. | 
-| Expediter Override | This setting determines whether the expediter can fire courses before meeting the configured conditions.This option appears if [Firing Courses](adminKitchenDiningRoomReference.html#configFiringCourses) is set to either Server fires courses individually or Automate course firing.- Allow expediter to fire a course ahead of its timeThis option allows the expediter to fire held courses, regardless of whether the conditions triggering the next course to fire are met.
+This option appears if [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) is set to either When previous course is fulfilled by all prep stations or When previous course is fulfilled by the expediter. | 
+| Course Firing Schedule | This setting lists each course and allows you to set the time for when the next course is automatically fired.This option appears if [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) is set to On a timed schedule.The Course Firing Schedule lists each configured course, and in the Fire Next Course After column you can enter the time, in seconds, between that course being fired and the next course firing. | 
+| Expediter Override | This setting determines whether the expediter can fire courses before meeting the configured conditions.This option appears if [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses) is set to either Server fires courses individually or Automate course firing.- Allow expediter to fire a course ahead of its timeThis option allows the expediter to fire held courses, regardless of whether the conditions triggering the next course to fire are met.
 - Do not allow expediter to fire a course ahead of its timeThis option prevents the expediter from firing held courses. Courses are fired when configured conditions are met or by the employee.
 
  | 
-| Held Tickets | This setting determines whether prep station screens show held courses.This option appears if [Sending Courses](adminKitchenDiningRoomReference.html#configSendingCourses) is set to Send all courses to kitchen immediately.
+| Held Tickets | This setting determines whether prep station screens show held courses.This option appears if [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send all courses to kitchen immediately.
 
 > **Note**
 > 
@@ -476,7 +476,7 @@ This option appears if [Automated Firing](adminKitchenDiningRoomReference.html#c
 - Show at expediter onlyThis option shows held courses at the expediter only. The prep stations show fired courses only.
 
  | 
-| All day view with held items | This setting includes both held and fired tickets in the [all day view](adminKitchenDiningRoomReference.html#configAllDayDisplay) and [production items](adminAssignPrepStationKDS.html#adminConfigureProductionItem) counts.This option appears if [Held Tickets](adminKitchenDiningRoomReference.html#configHeldTickets) is set to Show at both expediter and prep stations.
+| All day view with held items | This setting includes both held and fired tickets in the [all day view](adminGuide-adminKitchenDiningRoomReference#configAllDayDisplay) and [production items](adminGuide-adminAssignPrepStationKDS#adminConfigureProductionItem) counts.This option appears if [Held Tickets](adminGuide-adminKitchenDiningRoomReference#configHeldTickets) is set to Show at both expediter and prep stations.
 
 > **Note**
 > 
@@ -484,7 +484,7 @@ This option appears if [Automated Firing](adminKitchenDiningRoomReference.html#c
 
 
 To include only fired tickets or items in the all day view and production items counts, clear the Include held items in all day view and production item counts option. | 
-| Previous Course Status | This setting determines whether tickets include information about the status of the previous courses. All menu items and modifiers in a course must be fulfilled in order for the course to be marked as fulfilled. Select the Show the status of previous courses on kitchen tickets check box to enable this setting.This option appears if [Sending Courses](adminKitchenDiningRoomReference.html#configSendingCourses) is set to Send courses individually.
+| Previous Course Status | This setting determines whether tickets include information about the status of the previous courses. All menu items and modifiers in a course must be fulfilled in order for the course to be marked as fulfilled. Select the Show the status of previous courses on kitchen tickets check box to enable this setting.This option appears if [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send courses individually.
 
 > **Note**
 > 
@@ -499,7 +499,7 @@ The following table provides information about the settings of the Item Pacing s
 
 | Setting | Options and Description | 
 | --- | --- |
-| Item Fire by Prep Time | This setting determines whether the Toast platform uses preparation times to schedule and fire items in an order or course ticket. For more information, see [Firing by item prep time](adminFireByPrepTime.html).
+| Item Fire by Prep Time | This setting determines whether the Toast platform uses preparation times to schedule and fire items in an order or course ticket. For more information, see [Firing by item prep time](adminGuide-adminFireByPrepTime).
 
 > **Note**
 > 
@@ -510,7 +510,7 @@ Menu items and modifiers are assigned a time it takes to prepare so that they ar
 
 > **Important**
 > 
-> This setting is ignored when [Individual Item Tickets](adminKitchenDiningRoomReference.html#configIndividualTickets) is set to either Display each item on individual tickets at both prep stations and expos or Display each item on individual tickets at prep stations only for KDS Settings.
+> This setting is ignored when [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) is set to either Display each item on individual tickets at both prep stations and expos or Display each item on individual tickets at prep stations only for KDS Settings.
 
 
  | 
