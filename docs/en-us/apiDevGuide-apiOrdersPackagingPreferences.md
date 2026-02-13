@@ -77,6 +77,7 @@ Some local regulations require third-party ordering platforms to clearly state t
 
 **Example 2.2. Example response data from the `published/packagingConfig` endpoint**
 
+
 ```
 {
     "enabled": true, 
@@ -149,6 +150,7 @@ The examples below show an order request and response that includes multiple pac
 
 **Example 2.3. Packaging preferences orders API POST message body**
 
+
 ```
   [content omitted]
 
@@ -181,6 +183,7 @@ The examples below show an order request and response that includes multiple pac
 The example below shows the response data for a request to create an order that includes packaging preferences.
 
 **Example 2.4. Packaging preferences orders API POST response message body**
+
 
 ```
   [content omitted]

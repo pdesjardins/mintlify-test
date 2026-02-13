@@ -134,6 +134,7 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
 
 **Example 1.10. ErrorMessage object**
 
+
 ```
 {
   "status": 400,

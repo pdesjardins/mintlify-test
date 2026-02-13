@@ -83,6 +83,7 @@ data type:string |
 
 **Example 9.1. Payload example for a guestOrderStatusUpdated event**
 
+
 ```
 {
   "timestamp": "2023-11-09T18:06:59.394Z",

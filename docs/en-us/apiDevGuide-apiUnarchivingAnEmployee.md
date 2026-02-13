@@ -34,6 +34,7 @@ The following example **curl** command sends a `PUT` request to unarchive an emp
 
 **Example 7.16. Example request to unarchive an employee**
 
+
 ```
 curl -v -X PUT \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -62,6 +63,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 The following example shows the response for a `PUT` request to unarchive an employee.
 
 **Example 7.17. Example response from a request to unarchive an employee**
+
 
 ```
 {

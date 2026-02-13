@@ -19,6 +19,7 @@ Webhook messages are always sent as JSON payloads in the body of POST requests. 
 
 Regardless of the event category, the data in the message that is published to your endpoint follows the same schema:
 
+
 ```
 {
     "timestamp": “`\<ISO formatted timestamp in UTC\>`”,

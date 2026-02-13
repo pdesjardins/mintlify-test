@@ -30,6 +30,7 @@ The following example **curl** command sends a `GET` request to the `/restaurant
 
 **Example 6.1. Get all restaurants of a management group**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -58,6 +59,7 @@ https://`[toast-api-hostname]`/restaurants/v1/groups/ae6c32fe-f4d2-4dcc-aa82-f30
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint.
 
 **Example 6.2. Get all restaurants return data**
+
 
 ```
 [

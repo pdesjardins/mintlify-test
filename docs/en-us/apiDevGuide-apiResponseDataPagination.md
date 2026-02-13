@@ -67,6 +67,7 @@ If the response does not include a `Toast-Next-Page-Token` field, there are no m
 
 The following example shows the `Toast-Next-Page-Token` field in the header of a Toast API response.
 
+
 ```
 Date: Tue, 31 Aug 2021 21:16:09 GMT
 Content-Type: application/json
@@ -102,6 +103,7 @@ CF-RAY: 6879473d0d6f1851-EWR
 3. Include the token string in the `pageToken` query parameter of another request to the endpoint.
 
 The following example shows the `pageToken` query parameter with a token string value.
+
 
 ```
 https://`[toast-api-hostname]`/config/v2/discounts?pageToken=Yzp7Imxhc3RUeXBlIjoiT
@@ -187,6 +189,7 @@ Toast API endpoints that paginate responses to control the size of response data
 The following example shows `Link` header fields in a Toast API response.
 
 **Example 1.9. Link header fields with pagination information**
+
 
 ```
 Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1\>; rel="first"

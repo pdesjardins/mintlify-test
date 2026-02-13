@@ -31,6 +31,7 @@ The following example **curl** command sends a `PUT` request to the `/inventory/
 
 **Example 5.8. Update menu item inventory information**
 
+
 ```
 curl -X PUT \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -92,6 +93,7 @@ The following example shows a JSON message body data that provides information a
 
 **Example 5.9. JSON message body content to update menu items**
 
+
 ```
 [
     {
@@ -131,6 +133,7 @@ The response for an update request includes a [`MenuItemInventory`object](apiDev
 The following example shows the JSON response data for a PUT request to the `/inventory/update` endpoint.
 
 **Example 5.10. Inventory update response**
+
 
 ```
 [

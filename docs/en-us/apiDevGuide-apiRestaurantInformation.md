@@ -127,6 +127,7 @@ The following example **curl** command sends a `GET` request to the `/restaurant
 
 **Example 6.3. Get configuration of a specific restaurant**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -155,6 +156,7 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
 
 **Example 6.4. Get restaurant configuration return data**
+
 
 ```
 {

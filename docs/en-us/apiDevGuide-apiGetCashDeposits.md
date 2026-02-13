@@ -19,6 +19,7 @@ The `deposits` endpoint of the cash management API returns information about the
 
 **Example 8.3. Get all cash deposits made on a specific business date**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -47,6 +48,7 @@ https://`[toast-api-hostname]`/cashmgmt/v1/deposits?businessDate=20190918
 The following example shows a `DepositEntry` object in the response data from the `deposits` endpoint.
 
 **Example 8.4. DepositEntry object in deposits endpoint response data**
+
 
 ```
 [

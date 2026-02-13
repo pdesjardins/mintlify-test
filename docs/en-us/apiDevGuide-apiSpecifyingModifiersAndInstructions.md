@@ -78,6 +78,7 @@ To get the GUID identifiers for modifier groups, modifiers, and pre-modifiers, u
 
 The following example message body for an order shows a modifier and a pre-modifier for a menu item selection.
 
+
 ```
 {
   "entityType": "Order",
@@ -148,6 +149,7 @@ The orders API rejects orders that have mismatching menu item selection and modi
 #### Example of matching item and modifier quantities
 
 The following excerpt from an `Order` object shows a menu item selection for five slices of Key Lime Pie. The Whipped Cream modifier is added to all of the slices.
+
 
 ```
 {
@@ -247,6 +249,7 @@ You must include specific identifiers when a modifier meets the following condit
 
 The example below shows the correct modifier structure for an orders API POST request.
 
+
 ```
 
 {
@@ -320,6 +323,7 @@ The example below shows the correct modifier structure for an orders API POST re
 You can add the same modifier to a menu item selection multiple times, as long as each instance of the modifier has the same quantity as the menu item selection. This tells the restaurant to add the modifier to the item more than once. For example, if a guest wants double the cheese on a pizza, you can add the cheese modifier twice.
 
 The following JSON body example adds whipped cream twice to a slice of cherry pie in an order:
+
 
 ```
 {
@@ -422,6 +426,7 @@ When you create an order in the orders API, to add portions and modifiers for th
 To retrieve the GUIDs for the portions, use the [menus API](https://doc.toasttab.com/openapi/menus/overview/).
 
 The following example order JSON applies modifiers to portions of a menu item selection.
+
 
 ```
 {
@@ -541,6 +546,7 @@ In the object for the special request:
 ### Example of adding a special request to a menu item selection
 
 The following example JSON message body for a `POST` request to the orders API includes a special request for a menu item selection.
+
 
 ```
 {

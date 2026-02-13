@@ -167,6 +167,7 @@ If a specific Toast POS device is configured for cash in drawer mode, it must be
 
 You also make this re-assignment if the Toast POS device was previously using a printer without a cash drawer (for example, it was in cash in hand mode) and you now want it to use cash in drawer mode. Note that if the Toast POS device is configured to use cash in drawer mode but is using a printer without a cash drawer, it displays this warning when you make a cash payment: 
 
+
 ```
 You don't have the Cash Drawer Access permission.
 ```

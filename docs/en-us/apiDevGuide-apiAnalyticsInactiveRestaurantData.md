@@ -25,6 +25,7 @@ Setting `onlyInactiveRestaurants` to `TRUE`includes inactive restaurant data and
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics` endpoint using the `onlyInactiveRestaurants` query parameter.
 
+
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics
 ?onlyInactiveRestaurants=TRUE' \

@@ -23,6 +23,7 @@ To request the labor reporting data, you must include the labor reporting data r
 
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
+
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 707d9f10-e0fe-4e6d-af49-3123a78cd2b3’ \
@@ -40,6 +41,7 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 ## Response to the retrieval request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
+
 
 ```
 [

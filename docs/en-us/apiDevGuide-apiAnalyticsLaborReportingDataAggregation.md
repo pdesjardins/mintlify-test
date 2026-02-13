@@ -26,6 +26,7 @@ The default way to view the labor reporting data is by day for each location. Yo
 
 The following example shows the message body for a `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
 
+
 ```
 {
   “startBusinessDate”: “20230203”,
@@ -122,6 +123,7 @@ The following example requests labor reporting data for three days and two resta
 
 The following example **curl** command sends a `POST` request to the `/era/v1/labor/week` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
   -H 'Authorization: Bearer [token]' \
@@ -142,6 +144,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 ### Message body for the labor reporting data request
 
 The following example shows the message body for the `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
+
 
 ```
 {
@@ -177,6 +180,7 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 
 The following example shows the response from the `/era/v1/labor/day` endpoint.
 
+
 ```
 "97adf06d-60c3-4224-8062-003c9157702e"
 ```
@@ -188,6 +192,7 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 ### Request to retrieve the labor reporting data
 
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
+
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
@@ -206,6 +211,7 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 ### Response to the retrieval request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
+
 
 ```
 [

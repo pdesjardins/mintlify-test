@@ -41,6 +41,7 @@ The section below describes how the Toast platform chooses the representative ve
 
 First, the Toast platform looks at the target of the entity you are editing (that is, the entity whose details page you are currently viewing) and determines which branch of the location group hierarchy it belongs to. For example, consider the following location group hierarchy:
 
+
 ```
 Corporate
    Northeast
@@ -51,6 +52,7 @@ Corporate
 ```
 
 A menu that is targeted at Northeast (let's call this Menu - Northeast) belongs to the branch of the location group hierarchy shown in bold below:
+
 
 ```
 Corporate
@@ -83,6 +85,7 @@ Consider a scenario where you want to add a Seafood menu group to the Menu - Nor
 
 
 Seafood - Northeast and Seafood - Boston both fall into the same branch as Menu - Northeast, as shown below:
+
 
 ```
 Corporate

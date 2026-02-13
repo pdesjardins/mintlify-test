@@ -45,6 +45,7 @@ The following example **curl** command sends a `DELETE` request to archive an em
 
 **Example 7.14. Example request to archive an employee**
 
+
 ```
 curl -X DELETE \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -73,6 +74,7 @@ https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec73
 The following example shows the response for a `DELETE` request to archive an employee. For information about the values in this `Employee` object, see [the API reference documentation](https://doc.toasttab.com/openapi/labor/tag/Data-definitions/schema/Employee/).
 
 **Example 7.15. Example response to a request to archive an employee**
+
 
 ```
 {

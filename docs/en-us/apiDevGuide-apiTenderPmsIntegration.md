@@ -100,6 +100,7 @@ This request has no message body.
 
 The following is an example of a successful configure search response.
 
+
 ```
 {
   "transactionStatus": "ACCEPT",
@@ -189,6 +190,7 @@ The following example shows a search for a guest whose name contains `john`. The
 
 **Example 10.20. Search request message body**
 
+
 ```
 {
   "discountsTransactionInformation": null,
@@ -215,6 +217,7 @@ The following example shows a search for a guest whose name contains `john`. The
 
   
 **Example 10.21. Successful search response**
+
 
 ```
 {
@@ -351,6 +354,7 @@ After an employee selects a guest from the search results on the Toast POS devic
 
 **Example 10.22. Retrieve discounts request body**
 
+
 ```
 {
   "discountsTransactionInformation": {
@@ -481,6 +485,7 @@ After an employee selects a guest from the search results on the Toast POS devic
   
 **Example 10.23. Successful retrieve discounts response**
 
+
 ```
 {
   "transactionStatus": "ACCEPT",
@@ -536,6 +541,7 @@ The Toast platform retrieves payments after applying the discounts received from
 
 
 **Example 10.24. Retrieve payments request body**
+
 
 ```
 {
@@ -701,6 +707,7 @@ The Toast platform retrieves payments after applying the discounts received from
   
 **Example 10.25. Successful retrieve payments response**
 
+
 ```
 {
   "transactionStatus": "ACCEPT",
@@ -749,6 +756,7 @@ After the Toast platform applies payments to the check, the discounts and paymen
 
 **Example 10.26. Redeem discounts and payments request body**
 
+
 ```
 {
   "discountsTransactionInformation": null,
@@ -796,6 +804,7 @@ After the Toast platform applies payments to the check, the discounts and paymen
   
 **Example 10.27. Successful redeem discounts and payments response**
 
+
 ```
 {
   "transactionStatus": "ACCEPT"
@@ -824,6 +833,7 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 
 **Example 10.28. Gratuity request body**
+
 
 ```
 {
@@ -873,6 +883,7 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
   
 **Example 10.29. Successful gratuity response body**
+
 
 ```
 {
@@ -931,6 +942,7 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
 
 **Example 10.30. Reverse request body**
 
+
 ```
 {
   "discountsTransactionInformation": null,
@@ -984,6 +996,7 @@ In the request body, the value of `transactionToUpdate` is the `Toast-Transactio
 
   
 **Example 10.31. Successful reverse response body**
+
 
 ```
 {

@@ -103,6 +103,7 @@ The following example shows the JSON message body to `PUT` a credit card payment
 
 **Example 3.7. Authorization request message body**
 
+
 ```
 {
   "encryptedCardData": "FBRdBx38xrQ8UUQTAVUI3mLddkqtuxX6huPOsI
@@ -308,6 +309,7 @@ The following example shows the JSON message body data that applies an authorize
 
 **Example 3.8. Example of applying an authorized credit card payment to a check**
 
+
 ```
 {
   "entityType": "Order",
@@ -367,6 +369,7 @@ The following example shows credit card information that you encrypt and base64 
 
 **Example 3.9. Example credit card information for an encryptedCardData value**
 
+
 ```
 {
   "cardNumber" : "4111111111111111",
@@ -396,6 +399,7 @@ The following example shows credit card information that you encrypt and base64 
 The following example shows the base64-encoded and encrypted credit card information in the `encryptedCardData` value.
 
 **Example 3.10. Base64-encoded and encrypted credit card information in the `encryptedCardData` value**
+
 
 ```
 {
@@ -468,6 +472,7 @@ For more information about key identifiers, see [Encryption keys and key identif
 
 The following example shows the identification string for an encryption algorithm and the identifier of a public encryption key in a `keyId` value.
 
+
 ```
 RSA-OAEP-SHA256::a253759c-1c91-4f22-9db9-71ba24738f8d_MyRestaurantService
 ```
@@ -493,6 +498,7 @@ For more information about making an authorization request, see [Authorizing a c
 The following example UNIX command-line command uses the **openssl** version 1.1.1 utility to encrypt and base64 encode a file that contains JSON credit card information. *This example command is intended for integration development and testing. It is not suitable for production use.*
 
 **Example 3.11. Example openssl commands to encrypt and base64 encode an encryptedCardData value**
+
 
 ```
 openssl pkeyutl \

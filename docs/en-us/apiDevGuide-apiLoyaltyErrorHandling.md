@@ -65,6 +65,7 @@ To include a custom error message, you add a `message` value to the `LoyaltyTran
 
 **Example 10.16. LoyaltyTransactionResponse object that includes a custom error message**
 
+
 ```
 {
   "transactionStatus": "ERROR",

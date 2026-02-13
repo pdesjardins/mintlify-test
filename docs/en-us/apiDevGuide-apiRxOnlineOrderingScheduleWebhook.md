@@ -91,6 +91,7 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
 
 **Example 9.12. Payload for an `ordering_schedule`_updated event**
 
+
 ```
 {
   "timestamp": "2025-05-06T20:35:21.083Z",

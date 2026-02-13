@@ -118,7 +118,8 @@ Price strings must follow these rules:- The string can use a minus sign, `-1.00`
 - A price string cannot exceed 25 characters.
 - A price string cannot include a currency symbol. For example, `$100` is not acceptable.
 
-Examples of valid price strings:```
+Examples of valid price strings:
+```
 null
 ""
 ".12"
@@ -133,7 +134,8 @@ null
 "(100.0)"
 ```
 
-Examples of invalid price strings:```
+Examples of invalid price strings:
+```
 "$100"
 "$a" 
 "." 
@@ -204,7 +206,8 @@ Price strings must follow these rules:- The string can use a minus sign, `-1.00`
 - A price string cannot exceed 25 characters.
 - A price string cannot include a currency symbol. For example, `$100` is not acceptable.
 
-Examples of valid price strings:```
+Examples of valid price strings:
+```
 null
 ""
 ".12"
@@ -219,7 +222,8 @@ null
 "(100.0)"
 ```
 
-Examples of invalid price strings:```
+Examples of invalid price strings:
+```
 "$100"
 "$a" 
 "." 
@@ -242,25 +246,30 @@ Examples of invalid price strings:```
 - Maximum length is 255 characters
 
  | 
-| Sales category multiLocation ID | The multilocation ID for the sales category that applies to this menu item.If you update the sales category ID for a menu item, and the item had previously been set to inherit its sales category ID from a parent menu group, the item is reconfigured so that it no longer inherits its sales category from a parent menu group. The menu item now has its own sales category.Example of a sales category ID:```
+| Sales category multiLocation ID | The multilocation ID for the sales category that applies to this menu item.If you update the sales category ID for a menu item, and the item had previously been set to inherit its sales category ID from a parent menu group, the item is reconfigured so that it no longer inherits its sales category from a parent menu group. The menu item now has its own sales category.Example of a sales category ID:
+```
 500000000032822323
 ```
 
 For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers). | 
-| Prep station multiLocation IDs | The multilocation IDs for the prep stations that this menu item should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID.If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.Example of a single prep station ID:```
+| Prep station multiLocation IDs | The multilocation IDs for the prep stations that this menu item should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID.If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.Example of a single prep station ID:
+```
 500000000032885671
 ```
 
-Example of multiple prep stations IDs:```
+Example of multiple prep stations IDs:
+```
 "500000000032885671,500000000094945671"
 ```
 
 For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers). | 
-| Tax rate multiLocation IDs | The multilocation IDs for the tax rates that apply to this menu item. If you specify a single tax rate, you can just provide the ID.If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.Example of a single tax rate ID:```
+| Tax rate multiLocation IDs | The multilocation IDs for the tax rates that apply to this menu item. If you specify a single tax rate, you can just provide the ID.If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.Example of a single tax rate ID:
+```
 500000000139746504
 ```
 
-Example of multiple tax rates IDs:```
+Example of multiple tax rates IDs:
+```
 "500000000139746504,500000000959646504"
 ```
 
@@ -403,7 +412,8 @@ Price strings must follow these rules:- The string can use a minus sign, `-1.00`
 - A price string cannot exceed 25 characters.
 - A price string cannot include a currency symbol. For example, `$100` is not acceptable.
 
-Examples of valid price strings:```
+Examples of valid price strings:
+```
 null
 ""
 ".12"
@@ -418,7 +428,8 @@ null
 "(100.0)"
 ```
 
-Examples of invalid price strings:```
+Examples of invalid price strings:
+```
 "$100"
 "$a" 
 "." 
@@ -448,25 +459,30 @@ Examples of invalid price strings:```
 - Maximum length is 255 characters
 
  | Used for `CREATE` operations where Entity type is `MENU_ITEM` or `MODIFIER` and for `UPDATE`operationsEmpty for all other operationsColumn can be omitted from spreadsheet if empty for all rows | 
-| Prep station multiLocation IDs | The multilocation IDs for the prep stations that this menu item or modifier should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID.If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.If you don't provide a prep station ID when you create a menu item or modifier, the menu item or modifier inherits the prep station assigned to its parent menu entity.Example of a single prep station ID:```
+| Prep station multiLocation IDs | The multilocation IDs for the prep stations that this menu item or modifier should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID.If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.If you don't provide a prep station ID when you create a menu item or modifier, the menu item or modifier inherits the prep station assigned to its parent menu entity.Example of a single prep station ID:
+```
 500000000032885671
 ```
 
-Example of multiple prep stations IDs:```
+Example of multiple prep stations IDs:
+```
 "500000000032885671,500000000094945671"
 ```
 
 For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers). | Used for `CREATE` operations where Entity type is `MENU_ITEM` or `MODIFIER` and for `UPDATE`operationsEmpty for all other operationsColumn can be omitted from spreadsheet if empty for all rows | 
-| Tax rate multiLocation IDs | The multilocation IDs for the tax rates that apply to this menu item or modifier. If you specify a single tax rate, you can just provide the ID.If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.If you don't provide a tax rate ID when you create a menu item or modifier, the menu item or modifier inherits the tax rates assigned to its parent menu entity.Example of a single tax rate ID:```
+| Tax rate multiLocation IDs | The multilocation IDs for the tax rates that apply to this menu item or modifier. If you specify a single tax rate, you can just provide the ID.If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes.If you don't provide a tax rate ID when you create a menu item or modifier, the menu item or modifier inherits the tax rates assigned to its parent menu entity.Example of a single tax rate ID:
+```
 500000000139746504
 ```
 
-Example of multiple tax rates IDs:```
+Example of multiple tax rates IDs:
+```
 "500000000139746504,500000000959646504"
 ```
 
 For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers). | Used for `CREATE` operations where Entity type is `MENU_ITEM` or `MODIFIER` and for `UPDATE`operationsEmpty for all other operationsColumn can be omitted from spreadsheet if empty for all rows | 
-| Sales category multiLocation ID | The multilocation ID for the sales category that applies to this menu item or modifier.If you don't provide a sales category ID when you create a menu item or modifier, the menu item or modifier inherits the sales category assigned to its parent menu entity.Example of a sales category ID:```
+| Sales category multiLocation ID | The multilocation ID for the sales category that applies to this menu item or modifier.If you don't provide a sales category ID when you create a menu item or modifier, the menu item or modifier inherits the sales category assigned to its parent menu entity.Example of a sales category ID:
+```
 500000000032822323
 ```
 

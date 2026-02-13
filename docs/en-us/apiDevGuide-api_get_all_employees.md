@@ -25,6 +25,7 @@ The following example **curl** command sends a `GET` request to the `/labor/v1/e
 
 **Example 7.1. Example request to GET all employees of a restaurant**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -53,6 +54,7 @@ https://`[toast-api-hostname]`/labor/v1/employees
 The following example shows the response for a `GET`request to the `/labor/v1/employees` resource.
 
 **Example 7.2. Example response to a request to GET restaurant employees**
+
 
 ```
 [

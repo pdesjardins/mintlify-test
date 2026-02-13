@@ -142,6 +142,7 @@ You use menu groups and subgroups to further organize the offerings in a menu. F
 
 Subgroups can be used to make navigating your menu easier. However, each subgroup requires an additional selection by the user who is trying to find a specific menu item in that subgroup. For this reason, the menu builder limits the nesting of subgroups to three subgroups below a parent menu group:
 
+
 ```
 Menu
    Menu group

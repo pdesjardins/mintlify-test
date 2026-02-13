@@ -40,6 +40,7 @@ Toast support recommends that you use the `startDate` and `endDate` query parame
 
 The following example shows the path for a `GET` request that will return orders last modified during a one-hour period. The values of the `startDate` and `endDate` query parameters must be URL encoded. For more information about date and time formats, see [Dates and timestamps](apiDevGuide-api_dates_and_timestamps).
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -75,6 +76,7 @@ endDate=2019-02-27T09%3A59%3A00.000-0500"
 
 The following example **curl** command shows a request for all of the orders that were created during one restaurant business day. Specify the restaurant business day with the *`businessDate`* query parameter.
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -98,6 +100,7 @@ businessDate=20190227"
 **Example 1.13. Response data containing order GUIDs for one business day**
 
 The following example shows the response data from the `/orders` endpoint using the *`businessDate`* query parameter. It contains the GUIDs of each order that was created at a restaurant during a business day. The response data from a request using the *`startDate`*and *`endDate`* query parameters will contain the GUIDs of orders that were modified or created during the specified time period.
+
 
 ```
 [
@@ -133,6 +136,7 @@ This section includes information about Toast API authentication functionality t
 
 You get an authentication token by sending a `POST` request to the `/usermgmt/v1/oauth/token` resource of the Toast user management API. The following example shows the URL of the user management token endpoint.
 
+
 ```
 https://`[toast-api-hostname]`/usermgmt/v1/oauth/token
 ```
@@ -160,6 +164,7 @@ To create the message body of an authentication request, concatenate your client
 
 The following example shows a concatenated string of the *`grant_type`*, *`client_id`*, and *`client_secret`* parameters.
 
+
 ```
 grant_type=client_credentials&client_id=my-identifier&client_secret=XwEW%3C%3CvR*k6%3B%23Fp8
 ```
@@ -172,6 +177,7 @@ grant_type=client_credentials&client_id=my-identifier&client_secret=XwEW%3C%3CvR
 
 
 The following **curl** command requests an authentication token from the `usermgmt/v1/oauth/token` resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
+
 
 ```
 curl -X POST \
@@ -230,6 +236,7 @@ The user management API does not return a complete list of the Toast APIs that y
 The following example shows the JSON data that the user management API returns for a successful authentication request using a partner API client.
 
 **Example 1.14. Authentication return data for a partner API client**
+
 
 ```
 {
@@ -293,6 +300,7 @@ The user management API does not return a complete list of the Toast APIs that y
 The following example shows the JSON data that the user management API returns for a successful request using a restaurant management group client.
 
 **Example 1.15. Authentication return data for a restaurant management group client**
+
 
 ```
 {
@@ -373,6 +381,7 @@ The following example shows the message body for a `POST` request to the `/crm/v
 
 **Example 1.16. Guest search query message body**
 
+
 ```
 {
   "query": {
@@ -406,6 +415,7 @@ The following example shows the JSON message body content for a `POST` request t
 
 **Example 1.17. Message body content to add a guest**
 
+
 ```
 {
   "guid": "743B0D5C-66E4-4A46-B3E2-6694031B180C",
@@ -430,6 +440,7 @@ The following example shows the JSON response data for a `POST` request to the `
 
 **Example 1.18. Add guest response data**
 
+
 ```
 {
   "guid": "743b0d5c-66e4-4a46-b3e2-6694031b180c",
@@ -451,6 +462,7 @@ To create a customer credit transaction, you must provide a unique identifier (U
 The following example shows the JSON message body content for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
 
 **Example 1.19. Message body content to add guest credit value**
+
 
 ```
 {
@@ -475,6 +487,7 @@ The following example shows the JSON message body content for a `POST` request t
 The following example shows the JSON response data for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
 
 **Example 1.20. Add guest credit transaction response data**
+
 
 ```
 {
@@ -545,6 +558,7 @@ Prior to downloading data export files, ensure that you have [added an SSH key](
 
 To access your restaurant's SFTP directory using terminal use the following command:
 
+
 ```
 sftp \ 
       -i ~/`{SSH_key_filepath}` \
@@ -575,6 +589,7 @@ Export all files using the **get *** command or use **get *`{fileName}`*** to ex
 
 To access your restaurant's SFTP directory using command prompt use the following command:
 
+
 ```
 sftp -i `{SSH_key_filepath}` -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
@@ -588,6 +603,7 @@ Once you are connected to the SFTP directory, use the **ls** command and press E
 
 To export a file for a specific location and date, use the following command:
 
+
 ```
 get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 ```
@@ -595,6 +611,7 @@ get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
 
 To export all files, use the following command:
+
 
 ```
 get * `{download_location}`
@@ -655,7 +672,8 @@ The following table shows the information about each menu at your restaurant fro
 | endTimeHHmmLocalStandardTime | The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at `00:00`). | String | 
 | availableAllTimes | Indicates whether the menu is available at all times of the day. If the value is `false`, then the startTime* fields and the endTime* fields list when this time-based menu is available. | Boolean | 
 | availableAllDays | Indicates whether the menu is available each day of the week. | Boolean | 
-| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:```
+| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:
+```
 "daysAvailableString": [
    "Mon",
    "Tues",
@@ -728,7 +746,8 @@ The following table shows the information about each menu option group, or modif
 | name | A descriptive identifier for the menu option group. For example, `Substitutions` or `Extras`. | String | 
 | guid | The unique identifier for the menu option group, assigned by the Toast POS. | String | 
 | minSelections | The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is `1`. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness. | Integer | 
-| maxSelections | The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.As an example of a menu option group with a maximum greater than one, assume this configuration:```
+| maxSelections | The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.As an example of a menu option group with a maximum greater than one, assume this configuration:
+```
 Group: Cheese
 Items: ( Cheddar, American, Swiss )
 maxSelections: 2
@@ -776,7 +795,8 @@ The following table shows the information about the pricing strategy for the mod
 
 | Field | Description | Data Type | 
 | --- | --- | --- |
-| basePrice | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:```
+| basePrice | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
+```
 "optionGroups": [ 
 {
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
@@ -792,7 +812,8 @@ The following table shows the information about the pricing strategy for the mod
 
  | Number | 
 | numberOfLevels | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices)array. | Number | 
-| sequencePrices | Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:```
+| sequencePrices | Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:
+```
 "optionGroups": [ 
 {
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
@@ -864,6 +885,7 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
 **Example 1.21. Menu hierarchy in the menu data export file**
 
+
 ```
 {
   "entityType": "Menu",
@@ -931,6 +953,7 @@ The following example shell script uses a **jq**command to select the default mo
 
 **Example 1.22. Using the jq utility to find the default modifiers for a menu item**
 
+
 ```
 #!/bin/bash
 
@@ -967,6 +990,7 @@ ${MENU_EXPORT_FILE}
 The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](apiDevGuide-apiDeprecatedApiFunctions#apiUsingJqToFindDefaultModifiers).
 
 **Example 1.23. Default modifiers for a menu item**
+
 
 ```
 {

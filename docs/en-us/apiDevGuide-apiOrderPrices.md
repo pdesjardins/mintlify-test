@@ -29,6 +29,7 @@ The `/prices` endpoint is the only reliable and supported way to determine the p
 
 The following example shows a JSON `Order` object to `POST` to the `/prices` endpoint. The order contains one check with a single menu item.
 
+
 ```
 {
   "entityType": "Order",
@@ -70,6 +71,7 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiDevGuide-apiOrdersOrderObjectSummary#apiOrderObjectAmounts).
 
 The following example shows the response data returned by the `/prices` endpoint of the orders API.
+
 
 ```
 {
@@ -211,6 +213,7 @@ To verify that a menu item is an open price menu item, check the `pricingStrateg
 
 The following example `MenuItem` object is for an open price menu item:
 
+
 ```
 ...
 "menuItems": [
@@ -243,6 +246,7 @@ Include the open price items in the request body that you send to the `/prices` 
 ### Example Order object with an open price item
 
 The following example shows a JSON `Order` object that contains a check with a single open price menu item.
+
 
 ```
 {
@@ -366,6 +370,7 @@ Do not provide a `chargeAmount` for `FIXED` or `PERCENT` service charges. The or
 ### Example appliedServiceCharges value
 
 The following example shows an `appliedServiceCharges`value that applies an open service charge to a check.
+
 
 ```
 "appliedServiceCharges": [

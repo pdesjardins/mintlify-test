@@ -22,6 +22,7 @@ A dining option describes a customizable workflow for an order. Restaurants defi
 
 In each order, the `diningOption` object specifies the GUID of the dining option to use. For example:
 
+
 ```
 "diningOption": {
   "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
@@ -78,6 +79,7 @@ To get a list of the available dining options for a restaurant, send a `GET` req
 
 Here is an example of the request results:
 
+
 ```
 {
   "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
@@ -125,6 +127,7 @@ When you create an order for a specific table, you can also provide customer inf
 
 To specify the table for an order, provide a `Table`object that specifies the Toast platform GUID of the table. For example:
 
+
 ```
 "table": {
   "guid": "170b5f39-060e-45c3-89f0-4907c16ab12c",1
@@ -149,6 +152,7 @@ You can specify the restaurant employee who is responsible for the order.
 
 To specify the restaurant employee, provide a `server`object that specifies the Toast platform GUID of the employee. For example:
 
+
 ```
 "server": {
   "guid": "dc9b7cd6-4389-4a6d-83c3-2fde7f033567",
@@ -163,6 +167,7 @@ To retrieve information about restaurant employees, send a `GET` request to the 
 ### Example POST message body for a dine-in order
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a dine-in order at a restaurant table.
+
 
 ```
 {
@@ -228,6 +233,7 @@ In the `customer` object, the `firstName`, `lastName`, `phone`, and `email` fiel
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a takeout order.
 
+
 ```
 {
   "entityType": "Order",
@@ -278,6 +284,7 @@ The following example shows the message body for a `POST`request to the `/orders
 ### Example response to a takeout order POST request
 
 The following example shows the response from the `/orders` endpoint for a takeout order.
+
 
 ```
 {
@@ -432,6 +439,7 @@ In addition to the required `customer` value for a takeout order, you can also p
 
 When you place an order that specifies a dining option with curbside behavior, the request body can include the `curbsidePickupInfo`object.
 
+
 ```
 "curbsidePickupInfo": {
   "entityType": "CurbsidePickup",
@@ -454,6 +462,7 @@ On Toast POS devices, the curbside pickup information is displayed at the top of
 ### Example POST message body for a curbside pickup order
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a curbside pickup order.
+
 
 ```
 {
@@ -514,6 +523,7 @@ The following example shows the message body for a `POST`request to the `/orders
 ### Example response to a curbside pickup order POST request
 
 The following example shows the response from the `/orders` endpoint to a curbside pickup order request.
+
 
 ```
 {
@@ -639,6 +649,7 @@ You can also optionally use the `notes` value to provide notes for the delivery.
 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a delivery order.
 
+
 ```
 {
   "entityType": "Order",
@@ -699,6 +710,7 @@ The following example shows the message body for a `POST`request to the `/orders
 When you use the orders API to create a delivery order, the response includes information about the order preparation and delivery.
 
 The following example shows the message body for an endpoint response to a delivery order request.
+
 
 ```
 {

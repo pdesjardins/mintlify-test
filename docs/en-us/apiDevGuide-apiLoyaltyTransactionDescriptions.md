@@ -61,6 +61,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 
 **Example 10.5. Loyalty account search request**
 
+
 ```
 {
   "toastTransactionType":"LOYALTY_SEARCH",
@@ -79,6 +80,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 
   
 **Example 10.6. Successful loyalty account search response (200 HTTP code)**
+
 
 ```
 {
@@ -104,6 +106,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
  You may return a pointsBalance in your response to a LOYALTY_SEARCH request, but this balance will not display on the POS. The points balance only displays on the POS in response to LOYALTY_INQUIRE requests.
 
 **Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
+
 
 ```
 {
@@ -199,6 +202,7 @@ This is still possible if the check changes. For example, add two pizzas to the 
 
 
 **Example 10.8. Loyalty inquire request**
+
 
 ```
 {
@@ -347,6 +351,7 @@ This is still possible if the check changes. For example, add two pizzas to the 
   
 **Example 10.9. Successful loyalty inquire response**
 
+
 ```
 {
   "checkResponse":{
@@ -413,6 +418,7 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 
 **Example 10.10. Loyalty redeem request**
+
 
 ```
 {
@@ -550,6 +556,7 @@ The redeem transaction follows the final inquire transaction during the payment 
   
 **Example 10.11. Successful loyalty redeem response**
 
+
 ```
 {
   "checkResponse":{
@@ -657,6 +664,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
 
 
 **Example 10.12. Loyalty accrue request**
+
 
 ```
 {
@@ -800,6 +808,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
   
 **Example 10.13. Successful loyalty accrue response**
 
+
 ```
 {
   "transactionStatus":"ACCEPT"
@@ -851,6 +860,7 @@ The reverse workflow occurs when a restaurant employee voids (undoes) a guest's 
 
 **Example 10.14. Loyalty reverse request**
 
+
 ```
 {
   "toastTransactionType":"LOYALTY_REVERSE",
@@ -881,6 +891,7 @@ The reverse workflow occurs when a restaurant employee voids (undoes) a guest's 
 
   
 **Example 10.15. Successful loyalty reverse**
+
 
 ```
 {

@@ -62,6 +62,7 @@ In the request message body, include the array of `Selection` objects.
 
 The following example shows an array that contains a `Selection` object to ad a menu item to an existing check.
 
+
 ```
 [
   {
@@ -97,6 +98,7 @@ The following example shows an array that contains a `Selection` object to ad a 
 ## Example response after adding items to an existing check
 
 The following example shows the response for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint of the orders API.
+
 
 ```
 {

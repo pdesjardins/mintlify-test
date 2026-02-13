@@ -143,6 +143,7 @@ The restaurant is online and can accept orders. Attributes in the `availability_
 
 **Example 9.8. Payload for an availability_online event when a restaurant is online and approving orders**
 
+
 ```
 {
   "timestamp": "2021-08-23T16:40:00.063Z",
@@ -171,6 +172,7 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
 | `reason` | `Restaurant cannot accept online orders`The human-readable reason why the restaurant is unavailable to accept online orders. data type: string  | 
 
 **Example 9.9. Payload for an availability_offline event when a restaurant is offline and not approving orders**
+
 
 ```
 {
@@ -226,6 +228,7 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
 
 **Example 9.10. Payload for a toggle_availability_online event when a restaurant is online and has turned on online ordering**
 
+
 ```
 {
   "timestamp": "2021-08-23T16:40:00.063Z",
@@ -254,6 +257,7 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
 | `reason` | `User disabled integration`The human-readable reason why the restaurant is unavailable to accept orders. data type: string  | 
 
 **Example 9.11. Payload for a toggle_availability_offline event when a restaurant is offline and has turned off online ordering**
+
 
 ```
 {

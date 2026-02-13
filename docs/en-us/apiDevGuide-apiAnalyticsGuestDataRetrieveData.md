@@ -23,6 +23,7 @@ To request the guest reporting data, you must include the guest reporting data r
 
 The following **curl** command sends a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
 
+
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/guest/payments/
 fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
@@ -40,6 +41,7 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 ## Response to the retrieval request for guest reporting data
 
 The following example shows the response from the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
+
 
 ```
 [

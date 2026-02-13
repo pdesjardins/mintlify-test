@@ -102,6 +102,7 @@ The sample below shows the HTTP request received from the `orders` webhook.
 
 **Example 9.3. Payload example for the order_updated event**
 
+
 ```
 {
         "timestamp": "2024-03-28T15:11:01.050Z",

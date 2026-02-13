@@ -79,6 +79,7 @@ If a restaurant removes a partner's integration, this restaurant is no longer pr
 
 Send a `GET` request to the `/restaurants`endpoint of the Toast partners API.
 
+
 ```
 https://`[toast-api-hostname]`/partners/v1/restaurants
 ```
@@ -132,6 +133,7 @@ The following example shows the response data from the `/restaurants` endpoint o
 
 **Example 1.1. Response data from the /restaurants endpoint**
 
+
 ```
 [
    {
@@ -180,6 +182,7 @@ The following example shows the response data from the `/restaurants` endpoint o
 #### How to make a request to /connectedRestaurants
 
 Send a `GET` request to the `/connectedRestaurants` endpoint of the Toast partners API.
+
 
 ```
 https://`{toast-api-hostname}`/partners/v1/connectedRestaurants
@@ -238,6 +241,7 @@ For each restaurant, the `/connectedRestaurants` JSON response data contains the
 The following example shows the return data from the `/connectedRestaurants` endpoint of the partners API.
 
 **Example 1.2. Return data from the /connectedrestaurants endpoint**
+
 
 ```
 {
@@ -305,6 +309,7 @@ For example, if a restaurant location has a numeric account number in your syste
 ![Group ID and Location ID fields for a restaurant location](https://doc.toasttab.com/doc/media/externalIDs.png)
 
 Location ID and group ID values are available in the partners API in the `externalGroupRef` and `externalRestaurantRef`fields.
+
 
 ```
 [

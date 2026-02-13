@@ -36,6 +36,7 @@ A fixed percent service charge calculates the service charge amount based on the
 
 Service charge and check example:
 
+
 ```
 Check total before service charge and discount are applied = $10.00
 Discount = $2.00 OFF
@@ -83,6 +84,7 @@ When the tax is calculated on the service charge amount, the service charge tax 
 
 If the service charge has one applicable tax rate, the tax rate is calculated on the service charge amount and then added to the check's total tax amount. This example uses the following values for the check, service charge, and tax rate:
 
+
 ```
 Check total amount before service charge is applied = $50.00
 Check total tax amount before service charge is applied = $2.50
@@ -100,6 +102,7 @@ State tax rate: 5.00%
 **Procedure 6.19. Tax calculation example for two tax rates**
 
 If the service charge has two or more applicable tax rates, each tax rate is calculated separately on the service charge amount and then those tax amounts are added to the check's tax amount. This example uses the following values for the check, service charge, and tax rates:
+
 
 ```
 Check total amount before service charge is applied = $50.00

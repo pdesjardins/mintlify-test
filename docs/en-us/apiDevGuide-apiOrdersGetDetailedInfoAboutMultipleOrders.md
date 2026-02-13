@@ -86,6 +86,7 @@ For an example of the pagination links in a `/ordersBulk`endpoint response, see 
 
 The following example shows a request for detailed information about orders that were last modified during a period of time.
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -121,6 +122,7 @@ pageSize=10&page=2"
 ## Example response data containing multiple orders
 
 The following example shows the response data from the `/ordersBulk` endpoint. It contains detailed information about multiple orders.
+
 
 ```
 [
@@ -306,6 +308,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 ## Example response data pagination header fields
 
 The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
+
 
 ```
 link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z

@@ -41,6 +41,7 @@ Prior to downloading data export files, ensure that you have [added an SSH key](
 
 To access your restaurant's SFTP directory using terminal use the following command:
 
+
 ```
 sftp \ 
       -i ~/`{SSH_key_filepath}` \
@@ -71,6 +72,7 @@ Export all files using the **get *** command or use **get *`{fileName}`*** to ex
 
 To access your restaurant's SFTP directory using command prompt use the following command:
 
+
 ```
 sftp -i `{SSH_key_filepath}` -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
@@ -84,6 +86,7 @@ Once you are connected to the SFTP directory, use the **ls** command and press E
 
 To export a file for a specific location and date, use the following command:
 
+
 ```
 get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 ```
@@ -91,6 +94,7 @@ get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
 
 To export all files, use the following command:
+
 
 ```
 get * `{download_location}`

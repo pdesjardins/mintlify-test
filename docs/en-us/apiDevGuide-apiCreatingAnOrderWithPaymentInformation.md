@@ -26,6 +26,7 @@ The following example shows an `Order` object that contains one check with a sin
 
 **Example 3.12. POST request message body to create a dine-in order with payment information**
 
+
 ```
 {
   "entityType": "Order",
@@ -98,6 +99,7 @@ The following example shows an `Order` object that contains one check with a sin
 The following example shows the response returned by the `/orders` endpoint of the orders API.
 
 **Example 3.13. Orders endpoint response for a dine-in order with an alternative payment**
+
 
 ```
 {

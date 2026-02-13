@@ -19,6 +19,7 @@ Multi-location restaurants can have multiple [versions](adminGuide-versions) of 
 
 - All versions of the menu use the same menu-specific prices, for example:
 
+
 ```
 At the Boston location:
   On the Lunch menu, Crab Cakes cost $10
@@ -37,6 +38,7 @@ To use this pricing configuration, you set the pricing strategy for the Crab Cak
 
 
 - Each version of the menu has its own menu-specific prices, for example:
+
 
 ```
 At the Boston location:

@@ -25,6 +25,7 @@ The `aggregateBy` query parameter divides the metric data into either daily or h
 
 The following example shows a `/era/v1/metrics/day`request that uses the `aggregateBy` query parameter set to `HOUR`:
 
+
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy=HOUR' \  
   -H 'Authorization: Bearer `[token]`' \
@@ -92,6 +93,7 @@ The hour number corresponds to the 24 hours of the day, starting at `0` and endi
 The `groupBy` value in the message body of a `/era/v1/metrics` or `/era/v1/metrics/{timeRange}` request can group the returned data by the dining option associated with an order, the order source which is the method used to submit the order, the revenue center associated with an order, or a combination of two of these values. Use `DINING_OPTION` to group the aggregated sales reporting data by dining option, `ORDER_SOURCE` to group by order source, and `REVENUE_CENTER` to group by revenue center.
 
 The following example shows the message body for a `/era/v1/metrics/week` request that uses the `groupBy` value with `DINING_OPTION`.
+
 
 ```
 {
@@ -273,6 +275,7 @@ This section includes examples of how to create a request for and retrieve aggre
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/day` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy=HOUR' \
   -H 'Authorization: Bearer `[token]`' \
@@ -296,6 +299,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 ### Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`
 
 The following example shows the message body for the `/era/v1/metrics/day` request that uses the `groupBy` value with `DINING_OPTION` and `REVENUE_CENTER`.
+
 
 ```
 {
@@ -333,6 +337,7 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
 
 The following example shows the response from the `/era/v1/metrics/day` endpoint.
 
+
 ```
 "3a29d28e-171f-43d8-a36a-0a26fe65783d"
 ```
@@ -344,6 +349,7 @@ The following example shows the response from the `/era/v1/metrics/day` endpoint
 ### Request to retrieve the aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example **curl** command sends a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint.
+
 
 ```
 curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
@@ -363,6 +369,7 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
 ### Response to the retrieval request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example shows the response from the `/era/v1/metrics/{reportRequestGuid}` endpoint.
+
 
 ```
 [

@@ -97,6 +97,7 @@ The response contains the full `Order` object. For an example, see [this respons
 
 The following example shows the `DeliveryInfo` object for updating delivery information for an order. For definitions of the values below, see [Delivery values](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).
 
+
 ```
 {
   "deliveredDate": "2021-09-14T17:57:42.263+0000",
@@ -125,6 +126,7 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 ## Example response when updating delivery information
 
 The following example shows the response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
+
 
 ```
 {

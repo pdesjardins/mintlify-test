@@ -77,6 +77,7 @@ Attributes in the `partner_added` event's payload include:
 
 **Example 9.5. Payload example for the partner_added event**
 
+
 ```
 {
     "timestamp": “2019-09-16T21:01:53.685Z”,
@@ -121,6 +122,7 @@ The payload for the `partner_removed` webhook event is identical to the payload 
 
 **Example 9.6. Payload example for the partner_removed event**
 
+
 ```
 {
     "timestamp": “2019-09-16T21:22:12.825Z”,
@@ -164,6 +166,7 @@ Settings have been updated for your integration, for example, the `externalGroup
 The payload for the `partner_updated` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for details.
 
 **Example 9.7. Payload example for the partner_updated event**
+
 
 ```
 {

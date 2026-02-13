@@ -25,6 +25,7 @@ Depending on your browser and its settings, the browser may save the file to its
 
 If your menu entities have names that begin with any of the following special characters, see [Special characters in items database export](adminGuide-platformItemsDatabaseExport#platformSpecialCharactersInItemsDatabaseExport) for additional important information:
 
+
 ```
 + (plus)
 = (equal)
@@ -38,6 +39,7 @@ Restaurant employees who export menu data from the Items database page to a CSV 
 
 Spreadsheet applications treat names that begin with certain special characters as formulas, not names, causing them to appear incorrectly in the spreadsheet application. Those special characters are:
 
+
 ```
 + (plus)
 = (equal)
@@ -49,6 +51,7 @@ To avoid this problem, the Toast platform modifies the menu entity names during 
 
 When it modifies a name with a special character, the Toast platform inserts a single quote (') before the special character itself and double-quotes (") at the beginning and end of the name. For example, the Toast platform modifies the name of a modifier called `+ Chicken` like this:
 
+
 ```
 "'+ Chicken"
 ```
@@ -59,6 +62,7 @@ When importing the CSV file, spreadsheet applications handle the additional sing
 
 - Google Sheets™ ignores the single and double quotes, so the name of our example modifier appears as:
 
+
 ```
 + Chicken
 ```
@@ -67,6 +71,7 @@ Because the single and double quotes have both been ignored, no additional manua
 
 
 - Microsoft® Excel® and Apple® Numbers® ignores the double quotes but it does not ignore the single quote, so our example modifier name appears as:
+
 
 ```
 '+ Chicken

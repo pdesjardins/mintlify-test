@@ -25,6 +25,7 @@ Optionally, you can choose to include a `fetchRestaurantNames` query parameter. 
 
 The following example **curl** command sends a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint.
 
+
 ```
 curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 83c93717-02ba-4b7c-9891-dfe090274d2d/
@@ -45,6 +46,7 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 ## Response to the retrieval request for check reporting data
 
 The following example shows the response from the `/era/v1/check/{reportRequestGuid}` endpoint.
+
 
 ```
 [

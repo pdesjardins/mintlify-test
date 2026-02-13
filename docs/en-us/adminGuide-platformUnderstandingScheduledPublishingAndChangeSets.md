@@ -69,12 +69,14 @@ To more fully understand the potential effects of this difference, consider the 
 
 A menu item has the following properties:
 
+
 ```
 Name = Menu Item A 
 Price = $3
 ```
 
 On the menu item details page, a user updates the name of the menu item to Menu Item B and the price of the menu item to $4. The user saves the updated menu item but *does not publish the changes*. At this point, the name and price of the menu item in the saved and published databases look like this:
+
 
 ```
 Saved (visible in Toast Web):
@@ -87,6 +89,7 @@ Price = $3
 ```
 
 Using the menu manager, the user updates the price of the menu item again to $5. The user creates a change set for the price update and schedules it to execute in 7 days. The $5 price change only exists in the change set. It does not affect the current state of the saved and published databases.
+
 
 ```
 Saved (visible in Toast Web):
@@ -103,6 +106,7 @@ Price = $5
 
 In 7 days, the Toast platform saves and publishes the updated price from change set. The menu item's price is updated to $5 in both the saved and published databases. However, only the price is updated because that is the only edit contained in the change set. The name change to Menu Item B continues to exist in the saved database but it has not been published yet.
 
+
 ```
 Saved (visible in Toast Web):
 Name = Menu Item B
@@ -117,6 +121,7 @@ Executed
 ```
 
 The user does a [manual publish](adminGuide-platformManualAndScheduledPublishing). At this point, the updated name from the saved database is transferred to the published database.
+
 
 ```
 Saved (visible in Toast Web):

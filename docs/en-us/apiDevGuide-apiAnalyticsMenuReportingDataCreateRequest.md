@@ -47,6 +47,7 @@ Send a `POST` request to the `/era/v1/menu` endpoint to request menu reporting d
 
 The following example **curl** command sends a `POST` request to the `/era/v1/menu` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \
   -H ‘Authorization: Bearer [token]‘ \
@@ -67,6 +68,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \
 ### Message body for a custom time range of menu reporting data
 
 The following example shows the message body for creating a menu reporting data request for a custom time range.
+
 
 ```
 {
@@ -93,6 +95,7 @@ The following example shows the message body for creating a menu reporting data 
 ### Response to request for a custom time range of menu reporting data
 
 The following example shows the response from the `/era/v1/menu` endpoint.
+
 
 ```
 "fb23cfaa-56d7-4cb9-829d-531a8d02274a"
@@ -132,6 +135,7 @@ Send a `POST` request to `/era/v1/menu/{timeRange}` endpoint to request menu rep
 
 The following example **curl** command sends a `POST` request to the `/era/v1/menu/{timeRange}` endpoint. This example uses the `day` time range.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
   -H ‘Authorization: Bearer [token]‘ \
@@ -152,6 +156,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
 ### Message body for a specific time range of menu reporting data
 
 The following example shows the message body for creating a menu reporting data request for a specific time range. This example is for the `day` time range.
+
 
 ```
 {
@@ -181,6 +186,7 @@ The following example shows the message body for creating a menu reporting data 
 ### Response to request for a specific time range of menu reporting data
 
 The following example shows the response from the `/era/v1/menu/{timeRange}` endpoint.
+
 
 ```
 "fb23cfaa-56d7-4cb9-829d-531a8d02274a"

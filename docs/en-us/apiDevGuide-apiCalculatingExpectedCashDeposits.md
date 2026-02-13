@@ -56,6 +56,7 @@ The following procedure explains how to calculate the expected deposit for one r
 
 3. Calculate the sum of the `amount` values for each payment that has the `type``CASH`. The following example shows the `amount` and `type` values for a payment.
 
+
 ```
 {
   "entityType": "OrderPayment",
@@ -77,6 +78,7 @@ The following procedure explains how to calculate the expected deposit for one r
 
 
 5. Calculate the sum of the `amount` values for each cash entry that has any `type` value other than `CASH_COLLECTED`. Pay out, tip out, and cash out entries have negative amounts. The following example shows the `amount` and `type` values for a cash entry.
+
 
 ```
 [
@@ -110,6 +112,7 @@ The following procedure explains how to calculate the expected deposit for one r
 The following example shell script calculates the expected cash deposit for one restaurant on one business day. The script uses the **jq** utility to get information from Toast API JSON response data. For more information about the **jq**utility, see the [jq web site](https://stedolan.github.io/jq/). This example script is intended as an illustration of the procedure for calculating expected deposits and is not suitable for production use.
 
 **Example 8.5. Shell script to calculate the expected cash deposit for one business day**
+
 
 ```
 #!/bin/bash

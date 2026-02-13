@@ -28,6 +28,7 @@ The following example **curl** command sends a `GET` request to the `/labor/v1/t
 
 **Example 7.3. Example request to GET the time entries for restaurant employees**
 
+
 ```
 curl -v -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -62,6 +63,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 The following example shows a time entry for an employee.
 
 **Example 7.4. Example response containing an employee time entry**
+
 
 ```
 [

@@ -41,6 +41,7 @@ The JSON sample below shows a menu item, Cheese Pizza, that references Size and 
 
 **Example 4.1. Sample JSON for modifier group and modifier option references**
 
+
 ```
 {
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",

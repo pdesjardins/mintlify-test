@@ -112,6 +112,7 @@ The following procedure describes how to void an order.
 
 1. Create a JSON object to describe the void operation. The JSON object is the message body parameter for the void request. The following example shows the void request message body contents.
 
+
 ```
 {
   "selections": {
@@ -149,6 +150,7 @@ When you void an order with discounts, all discounts on the check are voided. Al
 The example response from the orders API below shows a portion of an order with discounts that have been voided. When a discount is voided, the `processingState` field of the `appliedDiscounts`object is set to either `VOID` or `PENDING_VOID` for discounts requiring external validation, for example, integrated loyalty programs.
 
 **Example 2.1. Example orders API response of a voided order with discounts**
+
 
 ```
 {
@@ -205,6 +207,7 @@ Currently, the orders API `void` endpoint supports voiding orders with the follo
 - Other payment types.: The Other payment is a custom payment type you can configure to meet additional needs. For more information about Other payment types, see [Other payment workflows](adminGuide-platformPwfTenders#platformPwfOther).
 
 If you try to void an order that has a payment type that is not an Other payment type, such as cash or card, you see the following 400 error response:
+
 
 ```
 "status": 400

@@ -118,6 +118,7 @@ The following example **curl** command sends a `GET` request to the `/inventory`
 
 **Example 5.1. Get all menu item inventory for a location**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -144,6 +145,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory
 The following example shows the JSON response data for a GET request to the `/inventory` endpoint.
 
 **Example 5.2. Get all inventory return data**
+
 
 ```
 [
@@ -190,12 +192,14 @@ You can restrict menu items in the response to those with either a `QUANTITY` or
 
 - Use a value of `QUANTITY` to get all menu items with an inventory status of `QUANTITY`:
 
+
 ```
 https://`[toast-api-hostname]`/stock/v1/inventory?status=QUANTITY
 ```
 
 
 - Use a value of `OUT_OF_STOCK` to get all menu items with an inventory status of `OUT_OF_STOCK`:
+
 
 ```
 https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
@@ -208,6 +212,7 @@ The request returns a JSON array of `MenuItemInventory` objects containing inven
 The following example **curl** command sends a `GET` request to the `/inventory`endpoint with a `status` query parameter of `OUT_OF_STOCK`.
 
 **Example 5.3. Get inventory by status**
+
 
 ```
 curl -X GET \
@@ -237,6 +242,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
 The following example shows the JSON response for the `GET` request.
 
 **Example 5.4. Get inventory by status return data**
+
 
 ```
 [
@@ -287,6 +293,7 @@ The following example shows the message body for a `POST` request to the `/inven
 
 **Example 5.5. JSON message body content to search inventory by menu items**
 
+
 ```
 {
     "multiLocationIds": [
@@ -325,6 +332,7 @@ The following example **curl** command sends a `POST` request to the `/inventory
 
 **Example 5.6. Search inventory by menu items**
 
+
 ```
 curl -X POST \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -357,6 +365,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory/search
 The following example shows the JSON response data for a `POST` request to the `/inventory/search` resource.
 
 **Example 5.7. Search inventory by menu items response**
+
 
 ```
 [

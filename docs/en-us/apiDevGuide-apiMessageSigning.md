@@ -37,6 +37,7 @@ To validate the message, you compute the signature on your side, using the same 
 
 The signature is derived by concatenating the body and timestamp of the webhook message into a string. This string is hashed and then signed using the HMAC-SHA256 algorithm and the secret key. The following is a code sample for computing the signature:
 
+
 ```
 import javax.crypto.spec.SecretKeySpec;
 import javax.crypto.Mac;

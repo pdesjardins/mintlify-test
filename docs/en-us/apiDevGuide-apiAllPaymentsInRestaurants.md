@@ -33,6 +33,7 @@ The following example **curl** command sends a `GET` request to the `/payments`e
 
 **Example 3.1. Get all payments for a restaurant**
 
+
 ```
 curl -X GET \ -H "Authorization: Bearer
       eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -61,6 +62,7 @@ curl -X GET \ -H "Authorization: Bearer
 The following example shows the JSON response data for a GET request to the `/payments` endpoint.
 
 **Example 3.2. Get all payments return data**
+
 
 ```
 [

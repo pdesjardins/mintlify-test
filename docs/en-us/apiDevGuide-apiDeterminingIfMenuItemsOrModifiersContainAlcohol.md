@@ -37,6 +37,7 @@ If the value is `null`, this indicates that the restaurant has not set the corre
 
 The following is an example of a `MenuItem` object for a menu item containing alcohol:
 
+
 ```
 "menuItems": [
   {
@@ -56,6 +57,7 @@ The following is an example of a `MenuItem` object for a menu item containing al
 ```
 
 The following is an example of a `ModifierOption`object for a modifier not containing alcohol:
+
 
 ```
 "modifierOptionReferences": {
@@ -77,6 +79,7 @@ The following is an example of a `ModifierOption`object for a modifier not conta
 ```
 
 The following is an example of a `MenuItem`object for a menu item whose `containsAlcohol` option has not been set in Toast Web:
+
 
 ```
 "menuItems": [

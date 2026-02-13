@@ -29,6 +29,7 @@ To retrieve a restaurant location's online ordering schedule, send a `GET` reque
 
 In the following example, you send a `GET` request to the `/orderingSchedule` endpoint with the `Toast-Restaurant-External-ID` to retrieve a restaurant location's online ordering schedule.
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -63,6 +64,7 @@ The following example shows a restaurant location's online ordering schedule for
 > **Note**
 > 
 > Online ordering hours can extend past midnight as long as they are before the [closeout hour](apiDevGuide-apiRestaurantInformation). The closeout hour is the business day cutoff, which is the hour of the day that ends the current business day and starts the next. Allow at least 15 minutes between the end of the online ordering hour and the closeout hour. To configure your closeout hours, contact Toast support.
+
 
 
 ```
@@ -199,6 +201,7 @@ The values returned are organized by `diningOptionBehavior`.
 **Example 6.8. Determining if a restaurant accepts online orders**
 
 In the following example, the response returns an empty array. This means the restaurant location has not configured their online ordering hours in Toast Web. We recommend you contact the restaurant location prior to going live to confirm online ordering hours have been configured.
+
 
 ```
 {

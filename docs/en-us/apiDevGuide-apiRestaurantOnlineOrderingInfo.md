@@ -21,6 +21,7 @@ The following example shows the online ordering configuration values in the retu
 
 **Example 6.5. Online ordering configuration in the restaurants API**
 
+
 ```
   "onlineOrdering": {
     "enabled": true,

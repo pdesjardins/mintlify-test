@@ -40,6 +40,7 @@ Your implementation is responsible for returning the response synchronously.
 
 Tender integrations define a single HTTPS endpoint. In your implementation, all requests are posted to this single endpoint. Requests from restaurants configured to use your service are sent to this endpoint. For example, you can name your endpoint to be:
 
+
 ```
 https://`toastapi.com/tenderapi`
 ```

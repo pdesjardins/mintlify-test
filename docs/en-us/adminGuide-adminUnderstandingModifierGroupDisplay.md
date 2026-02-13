@@ -46,6 +46,7 @@ Similarly, modifier groups that are explicitly defined on the menu item are furt
 
 This illustration shows the modifier group display order when the Display Ordering Priority is set to No:
 
+
 ```
 - Size modifier group (if one exists)
 - Required modifier groups
@@ -107,6 +108,7 @@ Similarly, modifier groups that are explicitly defined on the menu item are furt
 
 This illustration shows the modifier group display order when the Display Ordering Priority is set to Yes:
 
+
 ```
 - Modifier groups with a Display Ordering Priority number, in ascending
   order starting from 1
@@ -148,6 +150,7 @@ This illustration shows the modifier group display order when the Display Orderi
 
 Consider the following menu hierarchy structure and modifier group assignments:
 
+
 ```
 Menu Group 1 - Modifier A, Optional; Modifier B, Required
   Menu Subgroup 2 - Modifier C, Optional; Modifier D, Optional with POS prompt
@@ -157,6 +160,7 @@ Menu Group 1 - Modifier A, Optional; Modifier B, Required
 The Toast platform still presents modifier groups for Menu Item X organized by required, optional with POS prompt, and optional settings. Within each of those three categorizations, however, the modifier groups are sequenced according to the nested menu group hierarchy, so Menu Group 1 modifier groups are shown first, followed by Menu Subgroup 2 modifier groups, followed by Menu Item X modifier groups.
 
 This illustration shows the modifier group display order for Menu Item X. To make this example easier to understand, it assumes the Display Ordering Priority is set to No.
+
 
 ```
 - Size modifier group (if one exists)
@@ -185,6 +189,7 @@ This illustration shows the modifier group display order for Menu Item X. To mak
 
 Next, we assign priority 1 to some of the modifier groups and set Display Ordering Priority is set to Yes:
 
+
 ```
 Menu Group 1 - Modifier A, Optional; Modifier B, Required
   Menu Subgroup 2 - Modifier C, Optional, Priority 1; Modifier D, Optional with POS prompt
@@ -192,6 +197,7 @@ Menu Group 1 - Modifier A, Optional; Modifier B, Required
 ```
 
 This illustration shows the modifier group display order for these conditions:
+
 
 ```
 - Modifier groups with a Display Ordering Priority number, in ascending

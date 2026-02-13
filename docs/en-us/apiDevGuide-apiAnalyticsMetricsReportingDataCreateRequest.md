@@ -58,6 +58,7 @@ To create a request for aggregated sales reporting data that covers a customized
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
   -H ‘Authorization: Bearer `[token]`‘ \
@@ -79,6 +80,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
 ### Message body for the custom time range aggregated sales reporting data request
 
 The following example shows the message body for creating an aggregated sales reporting data request for a custom time range.
+
 
 ```
 {
@@ -110,6 +112,7 @@ The following example shows the message body for creating an aggregated sales re
 ### Response to the request for custom time range aggregated sales reporting data
 
 The following example shows the response from the `/era/v1/metrics` endpoint.
+
 
 ```
 "fb23cfaa-56d7-4cb9-829d-531a8d02274a"
@@ -151,6 +154,7 @@ If you choose the `day` time range, you can choose to group the aggregated sales
 
 The following example **curl** command sends a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint. This example uses the `week` time range.
 
+
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
   -H 'Authorization: Bearer `[token]`' \
@@ -172,6 +176,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 ### Message body for the specific time range aggregated sales reporting data request
 
 The following example shows the message body for creating an aggregated sales reporting data request for a specific time range. This example is for the `week` time range.
+
 
 ```
 {
@@ -202,6 +207,7 @@ The following example shows the message body for creating an aggregated sales re
 ### Response to the request for specific time range aggregated sales reporting data
 
 The following example shows the response from the `/era/v1/metrics/{timeRange}` endpoint.
+
 
 ```
 "d3d1ebdb-5e46-46ea-9491-f091466c5f22"

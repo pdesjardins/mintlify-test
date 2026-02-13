@@ -31,12 +31,14 @@ You use the public key that matches the Toast environment that you are integrati
 
 - For the production environment (real transactions) send a `GET` request to the following endpoint.
 
+
 ```
 https://`[toast-production-api-hostname]`/usermgmt/v1/oauth/token_key
 ```
 
 
 - For the sandbox environment (testing transactions) send a `GET` request to the following endpoint.
+
 
 ```
 https://`[toast-sandbox-api-hostname]`/usermgmt/v1/oauth/token_key
@@ -58,6 +60,7 @@ A Toast public key for partner API authentication is an X.509 Public Key encoded
 The following example shows the public key string in the JSON response from the `usermgmt/v1/oauth/token_key` endpoint. The JSON value named `value` contains the public key string. The key string in this example is not functional.
 
 **Example 10.2. Example public key for partner API authentication**
+
 
 ```
 {

@@ -88,6 +88,7 @@ The Found in column displays information about where a menu item or modifier app
 
 The Found in column is limited to two levels of menu hierarchy. For a menu item, this means that the Found in column lists the menu that contains the item and the item's immediate parent menu group. For example, consider the following menu hierarchy:
 
+
 ```
 Breakfast Menu [menu]
     Food [menu group]
@@ -98,6 +99,7 @@ Breakfast Menu [menu]
 For the 3-egg Omelet menu item, the Found in column displays `Breakfast Menu \> Egg Dishes`.
 
 For modifiers, the Found in column lists the item or menu group that the modifier applies to along with the modifier's immediate parent modifier group. For example, consider the following menu hierarchy:
+
 
 ```
 Breakfast Menu [menu]

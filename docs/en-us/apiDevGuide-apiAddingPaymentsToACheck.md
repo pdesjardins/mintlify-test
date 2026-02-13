@@ -60,6 +60,7 @@ In the request message body, include the array of `Payment` objects that contain
 
 The following example shows an array of `Payment` objects to add payments to a check in an existing order.
 
+
 ```
 [
   {
@@ -92,6 +93,7 @@ The following example shows an array of `Payment` objects to add payments to a c
 ## Example response data when adding a payment to an existing check
 
 The following example shows example response data for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.
+
 
 ```
 {

@@ -70,6 +70,7 @@ In the request message body, include the `Payment`object that contains the updat
 
 The following example shows a `Payment` object that updates the tip amount for an existing payment.
 
+
 ```
 {
   "tipAmount": 10.00
@@ -83,6 +84,7 @@ The following example shows a `Payment` object that updates the tip amount for a
 ## Example response when you update a tip in an existing payment
 
 The following example shows a response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments/<em>{paymentGuid}</em>`endpoint of the orders API.
+
 
 ```
 {

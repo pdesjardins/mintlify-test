@@ -52,6 +52,7 @@ To create a request for check data, include the following:
 
 The following example **curl** command sends a `POST` request to the `/era/v1/check/day` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
   -H 'Authorization: Bearer `[token]`' \
@@ -72,6 +73,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 ## Message body for check reporting data
 
 The following example shows the message body for creating a check reporting data request.
+
 
 ```
 {
@@ -98,6 +100,7 @@ The following example shows the message body for creating a check reporting data
 ## Response to request for check reporting data
 
 The following example shows the response from the `/era/v1/check/day` endpoint.
+
 
 ```
 "83c93717-02ba-4b7c-9891-dfe090274d2d"

@@ -49,6 +49,7 @@ These three settings are represented by the `modifierOptionTaxInfo` value of the
 
 To understand how to calculate menu item and modifier option taxes, consider the following example of three modifier options that apply to the same menu item but use different tax behavior configurations. To begin, we need to know the tax rate assigned to the menu item, which is specified in the menu item's `taxInfo`value. The Cheese Pizza menu item below uses the tax rate identified by the GUID `1a2b`:
 
+
 ```
 "menuItems": [
   {
@@ -66,6 +67,7 @@ To understand how to calculate menu item and modifier option taxes, consider the
 Modifier Option 1, shown below, is configured in Toast Web to inherit its tax rate from a parent menu item. As such, its `taxRateGuids` value contains the same tax rate GUID as Cheese Pizza (`1a2b`) and its `overrideItemTaxRates` value is set to `false`. With this scenario, you would use the `taxInfo` value in the `MenuItem` object (`1a2b`) to determine the tax rate for Cheese Pizza and the `taxRateGuids` value in the `ModifierOptionTaxInfo` object (also `1a2b`) to determine the tax rate for Modifier Option 1.
 
 **Example 4.9. Modifier Option 1 inherits the parent menu item's tax rate**
+
 
 ```
 "modifierOptionReferences": {
@@ -88,6 +90,7 @@ Modifier Option 2 is configured to use its own unique tax rate. Its `taxRateGuid
 
 **Example 4.10. Modifier Option 2 has its own unique tax rate**
 
+
 ```
 "modifierOptionReferences": {
   "9": {
@@ -108,6 +111,7 @@ Modifier Option 2 is configured to use its own unique tax rate. Its `taxRateGuid
 Modifier Option 3 is configured so that its tax rate overrides the parent menu item's tax rate. Its `taxRateGuids` value contains the tax rate GUID from its underlying modifier option item reference (`3c4d)`and its `overrideItemTaxRates`value is set to `true`. When Modifier Option 3 is applied to Cheese Pizza in an order, the `taxInfo` value in the `MenuItem` object for Cheese Pizza (`1a2b`) should be overridden by the `taxRateGuids` value in the `ModifierOptionTaxInfo` object for Modifier Option 3 (`3c4d`). This means your integration should use the `3c4d` tax rate for both Cheese Pizza and Modifier Option 3.
 
 **Example 4.11. Modifier Option 3's tax rate overrides the parent menu item's tax rate**
+
 
 ```
 "modifierOptionReferences": {

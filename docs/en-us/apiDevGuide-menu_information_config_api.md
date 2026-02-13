@@ -69,6 +69,7 @@ The following example shows the JSON representations of a menu, composed from co
 
 **Example 4.12. JSON Menu Composed from Configuration API Return Data**
 
+
 ```
 [
   {
@@ -119,6 +120,7 @@ The following example shows the JSON representations of a menu, composed from co
 The following example shows a curl command that places an order for `'Award Winning' Curly-Q Fries` with `Full Basket` modifier with the **curl** command and order JSON shown in the following example.
 
 **Example 4.13. Submitting an Order Selection with a Modifier**
+
 
 ```
 curl -X POST \
@@ -215,6 +217,7 @@ In a resolved menu structure, inheritance information has been consulted, `MenuO
 
 The following example demonstrates a simple raw menu structure. If you need a JSON export of a restaurant menu for testing, contact Toast integration support. Note that these exports will include pricing information, which is not yet available through the API. Actual API responses will also include an additional `externalId` field, which is omitted here. For more information, see [External identifiers](apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers).
 
+
 ```
 [
   {
@@ -269,11 +272,13 @@ A restaurant's complete menu can be reconstructed via API calls.
 
 In the above example, calling
 
+
 ```
 GET /menus/a2a0b78a-a480-4adb-bbac-b32a7e0c2a12
 ```
 
 returns
+
 
 ```
 {
@@ -291,11 +296,13 @@ returns
 
 Which gives you a list of `MenuGroup` GUIDs. For each one, you can the call
 
+
 ```
 GET /menuGroups/578c5e48-7d99-438f-be61-f4f972569ce6
 ```
 
 which returns
+
 
 ```
 {
@@ -318,6 +325,7 @@ which returns
 ```
 
 giving you lists of the `MenuItem` GUIDs, `MenuOptionGroup` GUIDs, and `MenuGroup` GUIDs (none in this case) in each of those `MenuGroup`s. For each such GUID, make the appropriate call:
+
 
 ```
 GET /menuOptionGroups/f63f8bd3-9764-4b1b-b3c9-40c8c104b42b
@@ -343,11 +351,13 @@ In this case we can see that there are two options in the "Size" `MenuOptionGrou
 
 Going back up to the "A Twist On Fries" group, make the calls for the listed `MenuItem`s:
 
+
 ```
 GET /menuItems/f21f2250-6f97-4a31-8a78-3283a5be0af4
 ```
 
 This returns
+
 
 ```
 {
@@ -360,6 +370,7 @@ This returns
 ```
 
 We've now retrieved all the relevant information, but there is one more step. Checking the inheritOptionGroups flag on each MenuItem, we can see that "'Award Winning' Curly-Q Fries" inherits MenuOptionGroups from its parent, "A Twist On Fries". This means that the "Size" options apply to it. To derive a resolved Menu structure from this information, remove the "optionGroups" attribute from "A Twist On Fries" and copy it into each MenuItem that inherits it (in this case just "'Award Winning' Curly-Q Fries"). Then remove the iniheritGroups flag from all menuItems. The final resolved Menu structure is
+
 
 ```
 [

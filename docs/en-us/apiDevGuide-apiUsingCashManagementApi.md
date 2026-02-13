@@ -55,6 +55,7 @@ The following example **curl** command sends a `GET` request to the `entries`end
 
 **Example 8.1. Get all cash entries made on a specific business date**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -83,6 +84,7 @@ https://`[toast-api-hostname]`/cashmgmt/v1/entries?businessDate=20190917
 The following example shows a `CashEntry` object in the response data from the `entries` endpoint.
 
 **Example 8.2. CashEntry object in entries endpoint response data**
+
 
 ```
 [

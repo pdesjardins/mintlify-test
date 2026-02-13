@@ -27,6 +27,7 @@ For more information, see `[](apiDevGuide-apiRxAvailabilityWebhook)[restaurant_a
 
 In the following example, you send a `GET` request to the `/restaurant-availability/v1/availability` endpoint with the `Toast-Restaurant-External-ID` to retrieve a restaurant location's online ordering availability.
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -56,6 +57,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 The following example shows an online restaurant location's ordering availability.
 
+
 ```
 {
     "restaurantGuid": "00000000-05f4-55a4-0000-0000020f4be3",
@@ -69,6 +71,7 @@ The following example shows an online restaurant location's ordering availabilit
 **Example 6.11. Ordering availability response for an offline restaurant**
 
 The following example shows an offline restaurant location's ordering availability.
+
 
 ```
 {

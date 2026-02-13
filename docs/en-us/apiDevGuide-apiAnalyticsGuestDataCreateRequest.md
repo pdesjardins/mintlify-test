@@ -45,6 +45,7 @@ To create a request for guest reporting data organized by payment, include the f
 
 The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint. This example uses the `week` time range.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 -H ‘Authorization: Bearer [token]‘ \
@@ -65,6 +66,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 ## Message body for guest reporting data
 
 The following example shows the message body for creating a guest reporting data request for a specific time range. This example is for the `week` time range.
+
 
 ```
 {
@@ -92,6 +94,7 @@ The following example shows the message body for creating a guest reporting data
 ## Response to request for guest reporting data
 
 The following example shows the response from the `/era/v1/guest/payments/{timeRange}` endpoint.
+
 
 ```
 "fb23cfaa-56d7-4cb9-829d-531a8d02274a"

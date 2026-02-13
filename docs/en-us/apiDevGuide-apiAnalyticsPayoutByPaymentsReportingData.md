@@ -65,6 +65,7 @@ To create a request for payout reporting data organized by payments, include the
 
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/payments/day` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
   -H 'Authorization: Bearer [token]' \
@@ -85,6 +86,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
 ### Message body for payout reporting data by payments
 
 The following example shows the message body for creating a payout reporting data by payments request.
+
 
 ```
 {
@@ -109,6 +111,7 @@ The following example shows the message body for creating a payout reporting dat
 
 The following example shows the response from the `/era/v1/payout/payments/day` endpoint.
 
+
 ```
 "62bd5cf3-26c5-4fa8-8f51-15b3dd4d2e09"
 ```
@@ -127,6 +130,7 @@ Send a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}` endpoi
 
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
 
+
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/payments/
 bc5279b0-a46d-4707-94e6-614edd31f2b3' \
@@ -144,6 +148,7 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 ### Response to retrieval request for payout reporting data by payments
 
 The following example shows the response from the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
+
 
 ```
 [

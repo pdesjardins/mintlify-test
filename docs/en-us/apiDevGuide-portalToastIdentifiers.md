@@ -32,6 +32,7 @@ When a restaurant uses the multi-location management module, its configuration e
 
 To identify entities that are shared across locations, the Toast APIs use a `multiLocationId` value. To continue the example above, the Breakfast Sandwich for the Boston location has the same `multiLocationId` as the Breakfast Sandwich for the New York City location (`11111111` in the example below). These matching `multiLocationId` values indicate that the two menu items are related versions and represent the same overall item.
 
+
 ```
 Menu data retrieved for the Boston location:
 Breakfast Sandwich
@@ -45,6 +46,7 @@ Breakfast Sandwich
 ### guid value
 
 Within a set of versioned entities, however, each version continues to have its own unique identifier. That unique identifier is contained in the `guid` value. To continue the example from above, each version of the Breakfast Sandwich has its own unique `guid`.
+
 
 ```
 Menu data retrieved for the Boston location:
@@ -127,6 +129,7 @@ You can assign external identifiers to track Toast POS configuration and order o
 An external identifier is a bundle of information that uniquely identifies a particular domain object in an external system according to some naming authority, across space and time.
 
 The standard string representation of external identifiers is as follows:
+
 
 ```
 {`authority-name`}:{`identifier`}

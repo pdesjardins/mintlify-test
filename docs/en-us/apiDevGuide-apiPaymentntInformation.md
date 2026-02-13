@@ -22,6 +22,7 @@ The following example **curl** command sends a `GET` request to the `/payments/<
 
 **Example 3.3. Get information of a specific payment**
 
+
 ```
 curl -X GET \ -H "Authorization: Bearer
       eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -50,6 +51,7 @@ curl -X GET \ -H "Authorization: Bearer
 The following example shows the JSON response data for a GET request to the `/payments/<em>{guid}</em>`endpoint. The payment method for this sample payment was a credit card.
 
 **Example 3.4. Get payment return data**
+
 
 ```
 {
@@ -131,6 +133,7 @@ The following example shows the JSON response data for a voided cash payment.
 
 **Example 3.5. Example of a voided cash payment**
 
+
 ```
 {
   "guid": "2f20387c-2b39-4c67-8898-b3faccb3ce06",
@@ -209,6 +212,7 @@ In the return data for a refunded payment, the `Payment` object includes a `Refu
 The following example shows the JSON response data for a refunded credit card payment.
 
 **Example 3.6. Example of a refunded payment**
+
 
 ```
 {

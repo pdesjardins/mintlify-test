@@ -303,7 +303,8 @@ The following table shows the information about each menu at your restaurant fro
 | endTimeHHmmLocalStandardTime | The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at `00:00`). | String | 
 | availableAllTimes | Indicates whether the menu is available at all times of the day. If the value is `false`, then the startTime* fields and the endTime* fields list when this time-based menu is available. | Boolean | 
 | availableAllDays | Indicates whether the menu is available each day of the week. | Boolean | 
-| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:```
+| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:
+```
 "daysAvailableString": [
    "Mon",
    "Tues",
@@ -376,7 +377,8 @@ The following table shows the information about each menu option group, or modif
 | name | A descriptive identifier for the menu option group. For example, `Substitutions` or `Extras`. | String | 
 | guid | The unique identifier for the menu option group, assigned by the Toast POS. | String | 
 | minSelections | The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is `1`. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness. | Integer | 
-| maxSelections | The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.As an example of a menu option group with a maximum greater than one, assume this configuration:```
+| maxSelections | The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.As an example of a menu option group with a maximum greater than one, assume this configuration:
+```
 Group: Cheese
 Items: ( Cheddar, American, Swiss )
 maxSelections: 2
@@ -424,7 +426,8 @@ The following table shows the information about the pricing strategy for the mod
 
 | Field | Description | Data Type | 
 | --- | --- | --- |
-| basePrice | Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:```
+| basePrice | Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
+```
 "optionGroups": [ 
 {
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
@@ -440,7 +443,8 @@ The following table shows the information about the pricing strategy for the mod
 
  | Number | 
 | numberOfLevels | Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](adminGuide-adminDataExportFieldReference#adminDataExportSequencePrices)array. | Number | 
-| sequencePrices | Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels)value. For example:```
+| sequencePrices | Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels)value. For example:
+```
 "optionGroups": [ 
 {
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",

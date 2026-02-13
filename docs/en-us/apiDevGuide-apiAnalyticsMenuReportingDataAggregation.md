@@ -48,6 +48,7 @@ The menu reporting data you retrieve includes an object for every available comb
 
 The following example shows the message body for a `/era/v1/menu/day` request that uses the `groupBy`value with `MENU`.
 
+
 ```
 {
   "startBusinessDate": "20220101",
@@ -70,6 +71,7 @@ The following example shows the message body for a `/era/v1/menu/day` request th
 
 When you use `MENU`, the menu reporting data includes objects with information related to a menu for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and two menus. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
 
+
 ```
 Restaurant 1, Day 1, Menu 1
 Restaurant 1, Day 1, Menu 2
@@ -82,6 +84,7 @@ Restaurant 2, Day 2, Menu 2
 In the list above, the first object includes menu information related to Menu 1 on Day 1 for Restaurant 1.
 
 When you use `MENU_GROUP`, the menu reporting data includes objects with information related to a menu group for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and three menu groups. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
+
 
 ```
 Restaurant 1, Day 1, Menu Group 1
@@ -98,6 +101,7 @@ Restaurant 2, Day 2, Menu Group 2
 In the list above, the first object includes menu information related to Menu Group 1 on Day 1 for Restaurant 1.
 
 When you use `MENU_ITEM`, the menu reporting data includes objects with information related to a menu item for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and four menu items. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
+
 
 ```
 Restaurant 1, Day 1, Menu Item 1
@@ -146,6 +150,7 @@ When you use `MODIFIER`, the menu reporting data includes objects with informati
 
 
 
+
 ```
 Restaurant 1, Day 1, Modifier 1
 Restaurant 1, Day 1, Modifier 2
@@ -168,6 +173,7 @@ The following example requests menu reporting data for two days and two restaura
 
 The following example **curl** command sends a `POST` request to the `/era/v1/menu/week` endpoint.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
   -H 'Authorization: Bearer [token]' \
@@ -188,6 +194,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 ### Message body for the menu reporting data request
 
 The following example shows the message body of the `/era/v1/menu/week` request that uses the `groupBy` value with `MENU_ITEM`.
+
 
 ```
 {
@@ -216,6 +223,7 @@ The following example shows the message body of the `/era/v1/menu/week` request 
 
 The following example shows the response from the `/era/v1/menu/week` endpoint.
 
+
 ```
 "bd9fb800-7c1e-40b8-9e5d-1010430a6a09"
 ```
@@ -227,6 +235,7 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
 ### Request to retrieve the menu reporting data
 
 The following example **curl** command sends a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint.
+
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/
@@ -245,6 +254,7 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
 ### Response to the retrieval request for menu reporting data
 
 The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.
+
 
 ```
 [

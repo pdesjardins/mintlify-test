@@ -74,6 +74,7 @@ After fixing a partially complete import, you may also need to to use Toast Web 
 
 Consider an import file that creates three menu items (Menu Items A, B, and C) and attaches them to the same menu group (Menu Group X). If, during the import process, the row for menu item B fails, then the initial import looks like this:
 
+
 ```
 Menu Group X
    Menu Item A
@@ -83,6 +84,7 @@ Menu Group X
 ```
 
 After you fix the row for Menu Item B and re-import, the order of menu items is:
+
 
 ```
 Menu Group X

@@ -20,6 +20,7 @@ The following example shows an example gift card integration API request.
 
 **Example 10.3. Gift card integration API transaction request**
 
+
 ```
 \> Content-Type: application/json
 \> Toast-Transaction-Type: GIFTCARD_REDEEM
@@ -62,6 +63,7 @@ The following example shows an example gift card integration API request.
 The following example shows an example gift card integration API response.
 
 **Example 10.4. Gift card integration API transaction response**
+
 
 ```
 {

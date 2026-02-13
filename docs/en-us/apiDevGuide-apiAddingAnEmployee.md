@@ -32,6 +32,7 @@ The following example **curl** command sends a `POST` request to the `/labor/v1/
 
 **Example 7.8. Example request to add an employee to a restaurant**
 
+
 ```
 curl -X POST \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -66,6 +67,7 @@ https://`[toast-api-hostname]`/labor/v1/employees
 The following example shows the message body data that provides information about the new employee.
 
 **Example 7.9. Example message content with information about a new employee**
+
 
 ```
 {
@@ -108,6 +110,7 @@ The following example shows the message body data that provides information abou
 The following example shows the response for a `POST` request to the `/labor/v1/employees` endpoint.
 
 **Example 7.10. Example response for the add employee request**
+
 
 ```
 {

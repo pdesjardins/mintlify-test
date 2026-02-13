@@ -17,6 +17,7 @@ codeExamples: 1
 
 This section provides detailed instructions for creating a pricing configuration where each version of a menu has its own menu-specific prices for a menu item, for example:
 
+
 ```
 At the Boston location:
   On the Lunch menu, Crab Cakes cost $10

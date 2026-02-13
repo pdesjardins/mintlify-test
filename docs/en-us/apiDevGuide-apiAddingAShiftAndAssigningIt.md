@@ -24,6 +24,7 @@ The following example **curl** command sends a `POST` request to the `/labor/v1/
 
 **Example 7.11. Example request to add a shift and assign it to an employee**
 
+
 ```
 curl -v -X POST \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -59,6 +60,7 @@ The following example shows the message body data that provides information abou
 
 **Example 7.12. Example message body for a request to add a shift**
 
+
 ```
 {
   "employeeReference": {
@@ -93,6 +95,7 @@ The following example shows the message body data that provides information abou
 The following example shows the response for a `POST` request to the `/labor/v1/shifts` resource.
 
 **Example 7.13. Example response from a request to add a shift**
+
 
 ```
 {

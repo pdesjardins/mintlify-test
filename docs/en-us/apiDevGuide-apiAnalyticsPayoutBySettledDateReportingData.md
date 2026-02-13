@@ -56,6 +56,7 @@ To create a request for payout reporting data organized by settled date, include
 
 The following example **curl** command sends a `POST` request to the `/era/v1/payout/{timeRange}` endpoint. This example uses the `day` time range.
 
+
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \
   -H 'Authorization: Bearer [token]' \
@@ -76,6 +77,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \
 ### Message body for payout reporting data by settled date
 
 The following example shows the message body for creating a payout reporting data by settled date request.
+
 
 ```
 {
@@ -100,6 +102,7 @@ The following example shows the message body for creating a payout reporting dat
 
 The following example shows the response from the `/era/v1/payout/day` endpoint.
 
+
 ```
 "bc5279b0-a46d-4707-94e6-614edd31f2b3"
 ```
@@ -118,6 +121,7 @@ Send a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint to ret
 
 The following example **curl** command sends a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint.
 
+
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/payout/
 bc5279b0-a46d-4707-94e6-614edd31f2b3' \
@@ -135,6 +139,7 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 ### Response to retrieval request for payout reporting data by settled date
 
 The following example shows the response from the `/era/v1/payout/{reportRequestGuid}` endpoint.
+
 
 ```
 [

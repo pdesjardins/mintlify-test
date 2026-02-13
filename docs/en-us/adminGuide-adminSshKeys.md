@@ -31,6 +31,7 @@ This section includes information about how to generate an SSH key using macOS o
 
 Open a terminal window and use the below command to create a new SSH key.
 
+
 ```
 ssh-keygen -t rsa -f ~/.ssh/`{filename}`
 ```
@@ -49,6 +50,7 @@ The command shown above saves a private key and a public key in the ~/.ssh direc
 ### Windows
 
 Open a command prompt and use the below command to create a new SSH key.
+
 
 ```
 ssh-keygen -t rsa -f "C:\Users\`{user}`\.ssh\`{filename}"`

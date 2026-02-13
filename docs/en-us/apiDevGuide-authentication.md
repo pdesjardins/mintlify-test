@@ -104,6 +104,7 @@ If any of the following things occurs, your API credentials are considered compr
 
 To get an authentication token, you send a `POST` request to the `/authentication/login` endpoint of the Toast authentication API. The following example shows the URL of the endpoint.
 
+
 ```
 https://`[toast-api-hostname]`/authentication/v1/authentication/login
 ```
@@ -115,6 +116,7 @@ When the authentication API determines that the client identifier and client sec
 You include the following JSON object in the message body parameter of an `/authentication/login` endpoint request.
 
 **Example 1.3. Message body parameter for an `/authentication/login` endpoint request**
+
 
 ```
 myToastApiClientSecret
@@ -132,6 +134,7 @@ myToastApiClientSecret
 The following **curl** command requests an authentication token from the `/authentication/login` resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
 
 **Example 1.4. Authentication request using curl program command**
+
 
 ```
 curl -X POST \
@@ -161,6 +164,7 @@ The return data that you receive depends on the type of Toast API client you are
 The authentication API returns the information shown in the following example for a successful authentication request using a partner API client. For more information about partner API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 **Example 1.5. Authentication return data for a partner API client**
+
 
 ```
 {
@@ -214,6 +218,7 @@ The following example shows the JWT payload contents for a partner API client ac
 
 **Example 1.6. JWT payload contents for partner API client access token**
 
+
 ```
 {
   "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",
@@ -263,6 +268,7 @@ The following example shows the JWT payload contents for a partner API client ac
 The authentication API returns the information shown in the following example for a successful authentication request using a restaurant management group API client. For more information about restaurant management group API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 **Example 1.7. Authentication return data for a restaurant management group client**
+
 
 ```
 {
@@ -315,6 +321,7 @@ The authentication API returns the information shown in the following example fo
 The following example shows the JWT payload contents for a restaurant management group API client access token.
 
 **Example 1.8. JWT payload contents for restaurant management group API client access token**
+
 
 ```
 {
@@ -376,6 +383,7 @@ To specify the restaurant that is the subject of a Toast API request, you includ
 
 
 The following **curl** command presents an authentication token when it makes a Toast API request.
+
 
 ```
 curl -X GET \

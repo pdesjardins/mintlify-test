@@ -84,6 +84,7 @@ The following example shows the `prepTimes` object from the response from a `GET
 
 **Example 2.5. Example takeout and delivery preparation and throttling time configuration from the restaurants API**
 
+
 ```
   "prepTimes": {
     "deliveryPrepTime": 60,
@@ -117,6 +118,7 @@ In the response to the `GET` request to the `/restaurants/{restaurantGUID}` endp
 The following example shows the `schedules` value with the opening and closing time values.
 
 **Example 2.6. Example of daily opening and closing times in the response from the restaurants API**
+
 
 ```
 "schedules": {

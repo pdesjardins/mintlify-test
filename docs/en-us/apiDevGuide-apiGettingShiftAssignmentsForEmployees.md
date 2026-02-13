@@ -25,6 +25,7 @@ The following example **curl** command sends a `GET` request to the `/labor/v1/s
 
 **Example 7.5. Example request to GET all scheduled shifts for a restaurant**
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -59,6 +60,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 The following example shows the response for a `GET`request to the `/labor/v1/shifts` resource.
 
 **Example 7.6. Example response to a request to GET restaurant shifts**
+
 
 ```
 [
@@ -146,6 +148,7 @@ The following example **jq** command selects the shift objects for a specific em
 For more information about the **jq** utility, see the [jq web site](https://stedolan.github.io/jq/).
 
 **Example 7.7. jq utility command to select shifts for one employee**
+
 
 ```
 jq \

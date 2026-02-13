@@ -136,6 +136,7 @@ Select a specific change to see more information about it in the right-hand pane
 
 Below the Published Changes list are pagination controls that allow you to page through the published changes table. Because the Publish Config V2page's performance is not optimized, it can be quicker to edit the URL of the page instead of using the pagination controls. To edit the URL, add `?page=[page-number]` to the end. For example, the following URL goes to page 6 of the Published Changes list.
 
+
 ```
 https://www.toasttab.com/restaurants/admin/configchangesv2?page=6
 ```

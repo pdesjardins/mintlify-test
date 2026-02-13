@@ -70,6 +70,7 @@ Attributes in the `in_stock` event's payload include:
 
 **Example 9.13. Payload for an in_stock event when a menu item is manually marked as In Stock**
 
+
 ```
 {
   "timestamp": "\<ISO formatted timestamp in UTC\>",
@@ -88,6 +89,7 @@ Attributes in the `in_stock` event's payload include:
 
   
 **Example 9.14. Payload for an in_stock event when a menu item's quantity is manually set and that quantity exceeds the low quantity threshold**
+
 
 ```
 {
@@ -122,6 +124,7 @@ Attributes in the `out_of_stock` event's payload include:
 | `versionId` | Reserved for future use. | 
 
 **Example 9.15. Payload example for the out_of_stock event**
+
 
 ```
 {
@@ -167,6 +170,7 @@ Attributes in the `low_quantity` event's payload include:
 | `versionId` | Reserved for future use. | 
 
 **Example 9.16. Payload example for the low_quantity event**
+
 
 ```
 {

@@ -44,6 +44,7 @@ For more information about scopes, see [Scopes](apiDevGuide-apiScopes).
 
 Every order requires, at minimum, a dining option and a check with menu item selections. The following example shows the basic `Order` object structure.
 
+
 ```
 {
   "diningOption": {
@@ -102,6 +103,7 @@ Before making any API requests, you must obtain an access token using your clien
 
 Send a `POST` request to the `/authentication/v1/authentication/login` endpoint with the following request body:
 
+
 ```
 {
   "clientId": "`clientId`",
@@ -111,6 +113,7 @@ Send a `POST` request to the `/authentication/v1/authentication/login` endpoint 
 ```
 
 The response includes an access token to use in the `Authorization` header for subsequent requests:
+
 
 ```
 {
@@ -140,6 +143,7 @@ For more information about authentication, see [Authentication](apiDevGuide-auth
 Every order requires a dining option. Send a `GET` request to the `/config/v2/diningOptions` endpoint to retrieve the dining options configured for the location.
 
 The response returns an array of dining options:
+
 
 ```
 [
@@ -177,6 +181,7 @@ For more information, see [Retrieving the available dining options](apiDevGuide-
 Menu items belong to menu groups. Send a `GET` request to the `/config/v2/menuGroups` endpoint to retrieve the menu groups.
 
 The response returns an array of menu groups with their GUIDs and names. Note the `guid` of the menu group that contains the item you want to order.
+
 
 ```
 [
@@ -223,6 +228,7 @@ The response returns an array of menu groups with their GUIDs and names. Note th
 Send a `GET` request to the `/config/v2/menuItems` endpoint to retrieve menu items.
 
 The response includes each menu item's `guid`, `name`, and `menuGroups` array:
+
 
 ```
 [
@@ -276,6 +282,7 @@ Menu items can belong to multiple menu groups. If a menu item belongs to more th
 5. **Build your order JSON**
 
 Using the GUIDs you collected, build your order JSON. The following example shows a simple dine-in order with two menu items:
+
 
 ```
 {
@@ -340,6 +347,7 @@ Before submitting the order, you can validate the order and retrieve pricing inf
 Send a `POST` request to the `/orders/v2/prices` endpoint. Include your order JSON as the message body.
 
 The response returns the order with calculated prices, taxes, and totals. This step also validates your order structure and confirms that all referenced entities exist:
+
 
 ```
 {
@@ -412,6 +420,7 @@ Send a `POST` request to the `/orders/v2/orders` endpoint to submit your order. 
 
 A successful response (HTTP 200) returns the complete `Order` object with generated GUIDs, calculated prices, and status information:
 
+
 ```
 {
   "guid": "89488287-f259-435b-a654-0bc391596af0",
@@ -475,6 +484,7 @@ Many menu items have associated modifiers, such as toppings or preparation optio
 First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/<em>{guid}</em>`endpoint.
 
 The following example shows a selection with a modifier:
+
 
 ```
 {

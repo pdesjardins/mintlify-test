@@ -85,6 +85,7 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 **Example 2.7. Marketplace facilitator order where the Toast platform populates the prices and tax amounts**
 
+
 ```
 {
   "entityType": "Order",
@@ -169,6 +170,7 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 **Example 2.8. Marketplace facilitator order that specifies prices and tax amounts**
 
+
 ```
 {
   "entityType": "Order",
@@ -248,6 +250,7 @@ When you create a marketplace facilitator order and specify prices, you include 
 The `Order` object in the following example creates a marketplace facilitator order with a menu item selection that uses size pricing.
 
 **Example 2.9. Marketplace facilitator order that specifies a size-based price for a menu item selection**
+
 
 ```
 {

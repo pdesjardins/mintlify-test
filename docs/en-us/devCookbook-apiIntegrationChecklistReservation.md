@@ -225,6 +225,7 @@ The workflow below outlines how to create a reservation in your system and submi
 
 **Example 1.1. Example POST request to the orders API**
 
+
 ```
 {
   "diningOption": {

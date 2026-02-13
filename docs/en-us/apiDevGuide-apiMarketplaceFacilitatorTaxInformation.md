@@ -118,6 +118,7 @@ For example, to calculate the total marketplace facilitator tax paid for an orde
 
 The following example shows how to identify marketplace facilitator taxes that were remitted:
 
+
 ```
 {
   "checks": [
@@ -150,6 +151,7 @@ In this example, the total marketplace facilitator tax paid would be `0.46` (the
 ## Example return data with Toast platform prices and tax amounts
 
 The following example shows the orders API return data for a marketplace facilitator order where the Toast platform calculated and populated the prices and tax amounts.
+
 
 ```
 {
@@ -232,6 +234,7 @@ The following example shows the orders API return data for a marketplace facilit
 The prices should correspond to the prices from the restaurant menu. The tax amounts are usually calculated by a tax partner.
 
 The marketplace facilitator submits those prices and tax amounts to the Toast platform.
+
 
 ```
 {

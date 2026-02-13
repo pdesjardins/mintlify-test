@@ -90,6 +90,7 @@ In the results, the information about each discount includes the GUID that you u
 
 The following example shows the JSON return data for a `GET` request to the `/discounts`endpoint.
 
+
 ```
 [
   {
@@ -179,6 +180,7 @@ The response contains a list of applicable discounts. For each discount, the res
 
 Here is an example of a response to a `POST` request to the `/applicableDiscounts` endpoint:
 
+
 ```
 [
     {
@@ -234,6 +236,7 @@ To add the discount, you add an `AppliedDiscounts` object to the `MenuItemSelect
 
 The `AppliedDiscounts` object contains an `AppliedDiscount` object for each discount to apply. The `AppliedDiscount` object specifies the discount GUID.
 
+
 ```
 "appliedDiscounts": [
   {
@@ -245,6 +248,7 @@ The `AppliedDiscounts` object contains an `AppliedDiscount` object for each disc
 ```
 
 For an open amount discount, the `AppliedDiscount` object also contains a `discountAmount` value that specifies the amount of the discount.
+
 
 ```
 "appliedDiscounts": [
@@ -262,6 +266,7 @@ For an open amount discount, the `AppliedDiscount` object also contains a `disco
 You can only apply one discount to a menu item selection. The discount must be an item-level discount.
 
 The following example shows a discount applied to a menu item selection.
+
 
 ```
 {
@@ -329,6 +334,7 @@ For example, a BOGO discount allows guests to receive a free cup of coffee when 
 
 The following example shows a discount applied to a check.
 
+
 ```
 {
   "entityType": "Order",
@@ -394,6 +400,7 @@ When you use the orders API to create orders, you can include promotional codes 
 The Toast platform does not verify that the `appliedPromoCode` value matches a promotional code that is configured for the discount.
 
 The following example shows promotional codes applied to check and menu item selection discounts in an order:
+
 
 ```
 {
@@ -473,6 +480,7 @@ You also create an array of `AppliedDiscount` objects for the discounts you are 
 
 For example:
 
+
 ```
 [
   {
@@ -541,6 +549,7 @@ When you add a discount to an existing order, the response contains an `Order` o
 
 Here is an example of a response to a request to add discounts to a check:
 
+
 ```
 {
   "guid": "52b90296-359c-4015-a42b-044276a9c0b3",
@@ -596,6 +605,7 @@ Here is an example of a response to a request to add discounts to a check:
 (3) The Toast platform GUID of the discount you added.
 
 Here is an example of a response to a request to add a discount to a menu item selection:
+
 
 ```
 {
@@ -774,6 +784,7 @@ The "get" items are in a separate `MenuItemSelection`object. The `appliedDiscoun
 
 For example, the following order contains a single menu item selection for three cups of soup. The applied BOGO discount offers a free cup of soup for every cup purchased.
 
+
 ```
 {  
    "entityType":"Order",
@@ -829,6 +840,7 @@ In the returned order information, there are two `MenuItemSelection` objects.
 
 
 The following example shows the return data for an order that includes a BOGO discount. In this example, the BOGO discount is *buy* one cup of soup and *get* one cup of soup free. The check in the order includes three cups of soup.
+
 
 ```
 {
@@ -957,6 +969,7 @@ When the Toast platform applies a combo discount, it adds a `comboItems` object 
 
 For example, the following order contains a single menu item selection for three cups of soup. The applied combo discount offers two cups of soup for a reduced price.
 
+
 ```
 {  
    "entityType":"Order",
@@ -1012,6 +1025,7 @@ In the returned order information, there are two `MenuItemSelection` objects.
 
 
 In the `AppliedDiscounts` object for the check, the `comboItems` object points to the `MenuItemSelection` object for the two cups of soup.
+
 
 ```
 {
@@ -1187,6 +1201,7 @@ To apply a check to a loyalty program account, include an `AppliedLoyaltyInfo` o
 
 The following example shows a check being applied to a loyalty program account.
 
+
 ```
 {
   "entityType": "Order",
@@ -1268,6 +1283,7 @@ In the `LoyaltyDetails` object, provide the following information:
 
 The following example shows the JSON message body to `POST` an order with a check-level loyalty program discount.
 
+
 ```
 {  
    "entityType":"Order",
@@ -1331,6 +1347,7 @@ The following example shows the JSON message body to `POST` an order with a chec
 (6) The referenceId value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.
 
 This example shows the JSON message body to `POST` an order with an item-level loyalty program discount.
+
 
 ```
 {  

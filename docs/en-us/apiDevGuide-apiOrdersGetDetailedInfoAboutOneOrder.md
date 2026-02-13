@@ -27,6 +27,7 @@ You send a `GET` request to the `/orders/<em>{guid}</em>` endpoint.
 
 The following example shows a request for detailed information about one order.
 
+
 ```
 curl -X GET \
 -H "Authorization: Bearer eyJzI1NiJ9hbGciOiJSU.eyJhd9yaXR5Ij
@@ -57,6 +58,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 ## Example response data
 
 The following example shows the response data from the `/orders/{guid}` endpoint. It contains detailed information about one order.
+
 
 ```
 {

@@ -60,6 +60,7 @@ data type: string  |
 
 **Example 9.4. Payload example for the menus_updated event**
 
+
 ```
 {
  "timestamp": "2024-12-10T17:47:36.044Z",

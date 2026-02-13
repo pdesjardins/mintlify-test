@@ -35,6 +35,7 @@ Attributes in the `menus_updated` event's payload include:
 
 **Example 9.2. Payload example for the menus_updated event**
 
+
 ```
 {
     "timestamp": “2019-09-16T21:01:53.685Z”,

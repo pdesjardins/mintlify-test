@@ -50,6 +50,7 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
 
 **Example 4.2. Sample JSON for a menu item that uses the Time Specific Price pricing strategy**
 
+
 ```
 {
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
@@ -156,6 +157,7 @@ The Toast platform automatically creates a Size modifier group when you choose t
 In this use case, the `timeSpecificPricingRules`array contained in the `pricingRules` value is empty because the menu item uses a size price, not a time-specific price. Also, the `sizeSequencePricingRules` array is empty because because this array is used for modifier option pricing, not menu item pricing.
 
 **Example 4.3. Sample JSON for a menu item that uses the Size Price pricing strategy**
+
 
 ```
 {
@@ -277,6 +279,7 @@ When calculating [size pricing](adminGuide-adminSizePrice) for a modifier option
 In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PRICE` and it has two sizes defined, Small and Large, priced at $8 and $10 respectively (for information on size pricing for a menu item, see [Menu item with a size price](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2#apiMenuItemWithASizePrice_V2)). The Toppings modifier group's `pricingStrategy` is also `SIZE_PRICE`and its sizes and prices are defined in its own `pricingRules` value.
 
 **Example 4.4. Sample JSON for modifier options that inherit Size pricing from a parent modifier group**
+
 
 ```
 {
@@ -486,6 +489,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
 
 **Example 4.5. Sample JSON for modifier options that inherit Sequence pricing from a parent modifier group**
 
+
 ```
 {
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
@@ -674,6 +678,7 @@ With [size/sequence pricing](adminGuide-adminSizeSequencePrice), the cost of a m
 In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PRICE` and it has two sizes defined, Small and Large, priced at $8 and $10 respectively (for information on size pricing for a menu item, see [Menu item with a size price](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2#apiMenuItemWithASizePrice_V2)). The Toppings modifier group's `pricingStrategy` is `SIZE_SEQUENCE_PRICE` and it defines that the first topping on a small Cheese Pizza costs $1 while the second topping costs $2. Likewise, the first topping on a large Cheese Pizza costs $3 and the second topping costs $4.
 
 **Example 4.6. Sample JSON for modifier options that inherit Size/Sequence pricing from a parent modifier group**
+
 
 ```
 {
@@ -882,6 +887,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 
 **Example 4.7. Sample JSON for a modifier option that inherits a Time Specific Price from its item reference**
 
+
 ```
 {
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
@@ -1062,6 +1068,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 The example below shows a modifier group, Toppings, whose modifier options are individually priced. One of the modifier options in the Toppings group, Tomatoes, uses the `SIZE_PRICE` pricing strategy. Two sizes and prices are defined for Tomatoes, Small for $1.50 and Large for $3.50.
 
 **Example 4.8. Sample JSON for a modifier option that inherits a Size Price from its item reference**
+
 
 ```
 {
