@@ -15,62 +15,48 @@ procedures: 2
 codeExamples: 0
 ---
 
-You can access POS layout view from either the [menu
-    manager](adminGuide-platformAccessingPosLayoutView#platformToAccessPosLayoutViewFromTheMenuManager) or the [menu
-    builder](adminGuide-platformAccessingPosLayoutView#platformToAccessPosLayoutViewFromTheMenuBuilder).
+You can access POS layout view from either the [menu manager](adminGuide-platformAccessingPosLayoutView#platformToAccessPosLayoutViewFromTheMenuManager) or the [menu builder](adminGuide-platformAccessingPosLayoutView#platformToAccessPosLayoutViewFromTheMenuBuilder).
 
 
 
 > **Note**
 > 
-> Currently, customers that use multi-location management must
-      access POS layout view from the menu manager.
+> Currently, customers that use multi-location management must access POS layout view from the menu manager.
 
 
 **Procedure 8.40. To access POS layout view from the menu manager**
 
-1. [Log in to Toast Web
-        ](adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Select Menus > Bulk management > Menu
-        manager. Alternatively, you can search for `menu manager`.
+2. Select Menus &gt; Bulk management &gt; Menu manager. Alternatively, you can search for `menu manager`.
 
 
-3. Select View POS layout to open the POS
-        layout view tool.
+3. Select View POS layout to open the POS layout view tool.
 
 ![Example showing the location of the View POS layout button in the upper right corner of the screen.](https://doc.toasttab.com/doc/media/pos-layout-view-button-from-menu-manager.png)
 
 
-4. Select the menus, menu groups, items, modifier groups, and
-        modifiers to navigate the menu in POS layout view.
+4. Select the menus, menu groups, items, modifier groups, and modifiers to navigate the menu in POS layout view.
 
 
 
 **Procedure 8.41. To access POS layout view from the menu builder**
 
-1. [Log in to Toast Web
-        ](adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. From the QUICK ACTIONS section, select
-        Menu builder.
+2. From the QUICK ACTIONS section, select Menu builder.
 
-Alternatively, you can search for `menu builder` or
-        select Menus in the left pane to go to the
-        Menus > Menu management section, then select
-        Menu builder.
+Alternatively, you can search for `menu builder` or select Menus in the left pane to go to the Menus &gt; Menu management section, then select Menu builder.
 
 
-3. Select View POS layout to open the POS
-        layout view tool.
+3. Select View POS layout to open the POS layout view tool.
 
 ![Example showing the location of the View POS layout button in the upper right corner of the screen.](https://doc.toasttab.com/doc/media/pos-layout-view-button.png)
 
 
-4. Select the menus, menu groups, items, modifier groups, and
-        modifiers to navigate the menu in POS layout view.
+4. Select the menus, menu groups, items, modifier groups, and modifiers to navigate the menu in POS layout view.
 
 
 

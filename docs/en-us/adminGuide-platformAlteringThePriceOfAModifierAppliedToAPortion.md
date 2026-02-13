@@ -19,26 +19,12 @@ codeExamples: 0
 
 > **Note**
 > 
-> The Price Multiplier setting is in limited
-      release.
+> The Price Multiplier setting is in limited release.
 
 
-The first step in using portions is to create the portions
-    themselves, for example, 1st Half and 2nd Half. You can use a portion's
-    Price Multiplier setting to alter the price of a
-    modifier when it is applied to that portion. For example, consider a
-    pepperoni modifier that normally costs $6 when applied to a whole pizza.
-    If the pepperoni modifier is applied to the 1st Half portion of a pizza,
-    and the Price Multiplier setting for the 1st Half
-    portion is set to 0.5, then the cost of the pepperoni modifier when
-    applied to the 1st Half portion is $3.
+The first step in using portions is to create the portions themselves, for example, 1st Half and 2nd Half. You can use a portion's Price Multiplier setting to alter the price of a modifier when it is applied to that portion. For example, consider a pepperoni modifier that normally costs $6 when applied to a whole pizza. If the pepperoni modifier is applied to the 1st Half portion of a pizza, and the Price Multiplier setting for the 1st Half portion is set to 0.5, then the cost of the pepperoni modifier when applied to the 1st Half portion is $3.
 
-For advanced pricing strategies, the Toast platform calculates the
-    final price of a modifier in two steps. First, it determines the price of
-    the modifier, independent of any portions, and then it applies the
-    Price Multiplier to that price. For example, consider
-    a pizza toppings modifier group that uses the following sequence
-    pricing:
+For advanced pricing strategies, the Toast platform calculates the final price of a modifier in two steps. First, it determines the price of the modifier, independent of any portions, and then it applies the Price Multiplier to that price. For example, consider a pizza toppings modifier group that uses the following sequence pricing:
 
 - First topping, $1
 
@@ -53,11 +39,7 @@ For advanced pricing strategies, the Toast platform calculates the
 
 
 
-Initially, the Toast platform uses the sequence in which the
-    toppings are added to the order, not whether the toppings are applied to
-    the entire pizza or a portion of the pizza, to determine the prices. Here
-    is how the Toast platform determines the initial price for each
-    topping:
+Initially, the Toast platform uses the sequence in which the toppings are added to the order, not whether the toppings are applied to the entire pizza or a portion of the pizza, to determine the prices. Here is how the Toast platform determines the initial price for each topping:
 
 - Whole pizza, first topping, $1
 
@@ -75,10 +57,7 @@ Initially, the Toast platform uses the sequence in which the
 
 
 
-Next, the Toast platform multiplies the cost of each modifier by the
-    Price Multiplier configured for each portion. If both
-    the 1st Half and the 2nd Half portions have a Price
-    Multiplier of 0.5, then the final modifier prices are:
+Next, the Toast platform multiplies the cost of each modifier by the Price Multiplier configured for each portion. If both the 1st Half and the 2nd Half portions have a Price Multiplier of 0.5, then the final modifier prices are:
 
 - Whole pizza, first topping, $1
 

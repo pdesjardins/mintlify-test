@@ -16,32 +16,18 @@ procedures: 0
 codeExamples: 3
 ---
 
-To retrieve a restaurant location's online ordering schedule, send
-      a `GET` request to the `/orderingSchedule`
-      endpoint of the order management configuration API. This endpoint
-      returns a restaurant location’s online ordering hours for takeout,
-      delivery, or both. The ordering schedule indicates the hours when a
-      guest can place orders for immediate or future fulfillment.
+To retrieve a restaurant location's online ordering schedule, send a `GET` request to the `/orderingSchedule`endpoint of the order management configuration API. This endpoint returns a restaurant location’s online ordering hours for takeout, delivery, or both. The ordering schedule indicates the hours when a guest can place orders for immediate or future fulfillment.
 
 
 
 > **Important**
 > 
-> Retrieve a restaurant's online ordering schedule at least once
-        per day at the end of the business day. This ensures that you have
-        up-to-date information about when online ordering hours begin and end
-        on the next business day. [Future orders](apiDevGuide-orders_api_future_orders) must fall
-        within a restaurant's ordering hours. You are responsible for
-        respecting the restaurant’s hours. The orders API will not validate
-        against these hours.
+> Retrieve a restaurant's online ordering schedule at least once per day at the end of the business day. This ensures that you have up-to-date information about when online ordering hours begin and end on the next business day. [Future orders](apiDevGuide-orders_api_future_orders) must fall within a restaurant's ordering hours. You are responsible for respecting the restaurant’s hours. The orders API will not validate against these hours.
 
 
 **Example 6.6. Request for a restaurant's online ordering schedule**
 
-In the following example, you send a `GET` request to
-        the `/orderingSchedule` endpoint with the
-        `Toast-Restaurant-External-ID` to retrieve a restaurant
-        location's online ordering schedule.
+In the following example, you send a `GET` request to the `/orderingSchedule` endpoint with the `Toast-Restaurant-External-ID` to retrieve a restaurant location's online ordering schedule.
 
 ```
 curl -X GET \
@@ -63,36 +49,20 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Include an authentication token. For more information, see
-            Authentication and restaurant access.
+(1) Include an authentication token. For more information, see Authentication and restaurant access.
 
-(2) Specify the location GUID of the restaurant whose online
-            ordering schedule you want to retrieve.
+(2) Specify the location GUID of the restaurant whose online ordering schedule you want to retrieve.
 
   
-**Example 6.7. Response containing a restaurant's online ordering
-        schedule**
+**Example 6.7. Response containing a restaurant's online ordering schedule**
 
-The following example shows a restaurant location's online
-        ordering schedule for both `DELIVERY` and
-        `TAKEOUT` dining option behaviors. The
-        `/orderingSchedule` endpoint returns an array of values
-        configured in the [Online ordering
-        hours](adminGuide-adminConfigureOnlineOrderingHoursOverview) section on the Takeout & delivery
-        page in Toast Web. Restaurant operators must have [first-party
-        delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
+The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the [Online ordering hours](adminGuide-adminConfigureOnlineOrderingHoursOverview) section on the Takeout & delivery page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
 
 
 
 > **Note**
 > 
-> Online ordering hours can extend past midnight as long as
-            they are before the [closeout hour](apiDevGuide-apiRestaurantInformation). The
-            closeout hour is the business day cutoff, which is the hour of the
-            day that ends the current business day and starts the next. Allow
-            at least 15 minutes between the end of the online ordering hour
-            and the closeout hour. To configure your closeout hours, contact
-            Toast support.
+> Online ordering hours can extend past midnight as long as they are before the [closeout hour](apiDevGuide-apiRestaurantInformation). The closeout hour is the business day cutoff, which is the hour of the day that ends the current business day and starts the next. Allow at least 15 minutes between the end of the online ordering hour and the closeout hour. To configure your closeout hours, contact Toast support.
 
 
 ```
@@ -203,52 +173,32 @@ The following example shows a restaurant location's online
 
 
 
-(1) The diningOptionBehavior
-            the online ordering schedule is returned for.
+(1) The diningOptionBehaviorthe online ordering schedule is returned for.
 
 (2) The local time in HH:MM format.
 
-(3) Returns scheduled overrides. Scheduled overrides are
-            temporary periods of time (customizable increments of 15 minutes)
-            when a restaurant can adjust their online ordering schedule for a
-            selected date or date range. For more information, see Configuring overrides.
+(3) Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see Configuring overrides.
 
-(4) Indicates which diningOptionBehavior the
-            override applies to.
+(4) Indicates which diningOptionBehavior the override applies to.
 
-(5) The maximum number of days in the
-            future a guest can schedule an online order. You should
-            not place orders more than the scheduledOrderMaxDays.
-            This value can be configured in the Online
-            ordering section on the Takeout &
-            delivery page in Toast Web.
+(5) The maximum number of days in the future a guest can schedule an online order. You should not place orders more than the scheduledOrderMaxDays. This value can be configured in the Online ordering section on the Takeout & delivery page in Toast Web.
 
   
-The values returned are organized by
-      `diningOptionBehavior`.
+The values returned are organized by `diningOptionBehavior`.
 
-- If the restaurants you work with manage their own delivery,
-            use `DELIVERY` hours. For more information on how to
-            configure self-delivery, see [Set
-            Up Delivery Using Your Own Drivers](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028#Enabling).
+- If the restaurants you work with manage their own delivery, use `DELIVERY` hours. For more information on how to configure self-delivery, see [Set Up Delivery Using Your Own Drivers](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028#Enabling).
 
 
-- If you or the restaurants you work with offer third-party
-            orders and pickup, use `TAKE_OUT` hours.
+- If you or the restaurants you work with offer third-party orders and pickup, use `TAKE_OUT` hours.
 
 
-- To display general restaurant availability, use
-            `TAKE_OUT` hours.
+- To display general restaurant availability, use `TAKE_OUT` hours.
 
 
 
 **Example 6.8. Determining if a restaurant accepts online orders**
 
-In the following example, the response returns an empty array.
-        This means the restaurant location has not configured their online
-        ordering hours in Toast Web. We recommend you contact the restaurant
-        location prior to going live to confirm online ordering hours have
-        been configured.
+In the following example, the response returns an empty array. This means the restaurant location has not configured their online ordering hours in Toast Web. We recommend you contact the restaurant location prior to going live to confirm online ordering hours have been configured.
 
 ```
 {

@@ -15,43 +15,30 @@ procedures: 0
 codeExamples: 0
 ---
 
-To retrieve order data from the Toast platform, your Toast API client
-  must at least have the `orders:read` scope. API clients that
-  submit orders to the Toast platform must have both the
-  `orders:read` scope and the `orders.channel:read`
-  scope.
+To retrieve order data from the Toast platform, your Toast API client must at least have the `orders:read` scope. API clients that submit orders to the Toast platform must have both the `orders:read` scope and the `orders.channel:read`scope.
 
 The following scopes allow you to view guest data:
 
 
 
 **`delivery_info.address:read`**
-: This scope is needed to view the `deliveryInfo`
-        information, which provides details about the address to deliver the
-        order to.
+: This scope is needed to view the `deliveryInfo`information, which provides details about the address to deliver the order to.
 
-If your Toast API client does not have the
-        `delivery_info.address:read` scope, then the
-        `deliveryInfo` value is `null`.
+If your Toast API client does not have the `delivery_info.address:read` scope, then the `deliveryInfo` value is `null`.
 
 
 
 **`guest.pi:read`**
 : This scope is needed to view the following values:
 
-- `Check.customer` - Name and contact information
-            for the guest.
+- `Check.customer` - Name and contact information for the guest.
 
 
-- `curbsidePickupInfo` - Information about the
-            vehicle the guest uses for a curbside pickup.
+- `curbsidePickupInfo` - Information about the vehicle the guest uses for a curbside pickup.
 
 
 
-If your Toast API client does not have the
-        `guest.pi:read` scope, then the response does not include
-        the `customer` or `curbsidePickupInfo`
-        values.
+If your Toast API client does not have the `guest.pi:read` scope, then the response does not include the `customer` or `curbsidePickupInfo`values.
 
 
 

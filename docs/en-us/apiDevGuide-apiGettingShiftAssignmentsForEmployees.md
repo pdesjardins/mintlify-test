@@ -15,21 +15,15 @@ procedures: 0
 codeExamples: 0
 ---
 
-To get information about the shifts that are scheduled for
-      employees of a restaurant, send a `GET` request
-      to the `/labor/v1/shifts` endpoint of the labor API.
+To get information about the shifts that are scheduled for employees of a restaurant, send a `GET` request to the `/labor/v1/shifts` endpoint of the labor API.
 
-The response contains an array of shift objects that contain the
-      configuration information for each shift.
+The response contains an array of shift objects that contain the configuration information for each shift.
 
 ## Example request to GET scheduled shifts
 
-The following example **curl** command sends a
-        `GET` request to the
-        `/labor/v1/shifts` endpoint.
+The following example **curl** command sends a `GET` request to the `/labor/v1/shifts` endpoint.
 
-**Example 7.5. Example request to GET all scheduled shifts for a
-          restaurant**
+**Example 7.5. Example request to GET all scheduled shifts for a restaurant**
 
 ```
 curl -X GET \
@@ -53,27 +47,18 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Specify the GUID of the restaurant that you want to
-              get shifts for. This must be an individual
-              restaurant, not the GUID for a restaurant group.
+(1) Specify the GUID of the restaurant that you want to get shifts for. This must be an individual restaurant, not the GUID for a restaurant group.
 
-(2) This example uses a JSON parsing utility to select the
-              shifts for one employee. The utility reads the JSON response
-              data for this request from the output file specified
-              here.
+(2) This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.
 
-(3) Specify the start and end dates of the time period you
-              want to GET shifts for. You can select up to 30
-              days.
+(3) Specify the start and end dates of the time period you want to GET shifts for. You can select up to 30 days.
 
   
 ## Example response
 
-The following example shows the response for a `GET`
-        request to the `/labor/v1/shifts` resource.
+The following example shows the response for a `GET`request to the `/labor/v1/shifts` resource.
 
-**Example 7.6. Example response to a request to GET restaurant
-          shifts**
+**Example 7.6. Example response to a request to GET restaurant shifts**
 
 ```
 [
@@ -145,29 +130,20 @@ The following example shows the response for a `GET`
 
 
 
-(1) The GET request returns an array
-              of shift objects. Each object contains information about a
-              shift.
+(1) The GET request returns an array of shift objects. Each object contains information about a shift.
 
-(2) The employeeReference value identifies the
-              employee who is assigned to the shift.
+(2) The employeeReference value identifies the employee who is assigned to the shift.
 
-(3) This shift is assigned to the same employee as the first
-              shift in the array.
+(3) This shift is assigned to the same employee as the first shift in the array.
 
 (4) This shift is assigned to a different employee.
 
   
-## Example jq utility command to select shifts for a specific
-        employee
+## Example jq utility command to select shifts for a specific employee
 
-The following example **jq** command selects the
-        shift objects for a specific employee from the array of shift objects
-        in the response from `/labor/v1/shifts` .
+The following example **jq** command selects the shift objects for a specific employee from the array of shift objects in the response from `/labor/v1/shifts` .
 
-For more information about the **jq** utility,
-        see the [jq web
-        site](https://stedolan.github.io/jq/).
+For more information about the **jq** utility, see the [jq web site](https://stedolan.github.io/jq/).
 
 **Example 7.7. jq utility command to select shifts for one employee**
 
@@ -179,14 +155,8 @@ my-shifts-get-request-response-data.json
 
 
 
-(1) This jq command syntax selects the JSON
-              array members that have a specific employee GUID in the
-              employeeReference.guid value for the shift.
+(1) This jq command syntax selects the JSON array members that have a specific employee GUID in the employeeReference.guid value for the shift.
 
-(2) In this example, the jq utility is
-              reading JSON from the output file of the curl
-              command that made the initial GET request to the shifts
-              resource. See Example 7.5, “Example request to GET all scheduled shifts for a
-          restaurant”.
+(2) In this example, the jq utility is reading JSON from the output file of the curlcommand that made the initial GET request to the shifts resource. See Example 7.5, “Example request to GET all scheduled shifts for a restaurant”.
 
   

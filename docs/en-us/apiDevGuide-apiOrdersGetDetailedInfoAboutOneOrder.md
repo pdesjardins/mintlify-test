@@ -15,22 +15,17 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can use the orders API to retrieve detailed information about a
-  single order. To identify the order to return, you use the order
-  GUID.
+You can use the orders API to retrieve detailed information about a single order. To identify the order to return, you use the order GUID.
 
 ## How to make the request
 
-To request details for a single order, you must have the order
-    GUID.
+To request details for a single order, you must have the order GUID.
 
-You send a `GET` request to the
-    `/orders/<em>{guid}</em>` endpoint.
+You send a `GET` request to the `/orders/<em>{guid}</em>` endpoint.
 
 ## Example request for detailed information about one order
 
-The following example shows a request for detailed information about
-    one order.
+The following example shows a request for detailed information about one order.
 
 ```
 curl -X GET \
@@ -53,22 +48,15 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Include an authentication token. For more information, see
-        Authentication and restaurant access.
+(1) Include an authentication token. For more information, see Authentication and restaurant access.
 
-(2) Specify the GUID of the restaurant that created the orders. This
-        must be the GUID of an individual restaurant. It cannot be the GUID of
-        a restaurant group.
+(2) Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.
 
-(3) Send a GET request to the
-        /orders/{guid} endpoint of the
-        orders API. Specify the GUID of the order as a path parameter.
+(3) Send a GET request to the /orders/{guid} endpoint of the orders API. Specify the GUID of the order as a path parameter.
 
 ## Example response data
 
-The following example shows the response data from the
-    `/orders/{guid}` endpoint. It contains detailed information
-    about one order.
+The following example shows the response data from the `/orders/{guid}` endpoint. It contains detailed information about one order.
 
 ```
 {
@@ -271,33 +259,15 @@ The following example shows the response data from the
 
 
 
-(1) The /orders/{guid}
-        endpoint returns an Order JSON object. For more
-        information about the values in the Order object, see the
-        orders
-        API reference documentation.
+(1) The /orders/{guid}endpoint returns an Order JSON object. For more information about the values in the Order object, see the orders API reference documentation.
 
- The deliveryInfo JSON value is only populated if
-        your Toast API client has the delivery_info.address:read
-        scope. For more information about scopes, see Scopes.
+ The deliveryInfo JSON value is only populated if your Toast API client has the delivery_info.address:readscope. For more information about scopes, see Scopes.
 
- The curbsidePickupInfo JSON value is only populated
-        if your Toast API client has the guest.pi:read scope. For
-        more information about scopes, see Scopes.
+ The curbsidePickupInfo JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
 
- The receiptLinePrice JSON value is the base price
-        of a menu item without modifiers or quantity applied.
+ The receiptLinePrice JSON value is the base price of a menu item without modifiers or quantity applied.
 
- When creating orders, restaurant employees can select the
-        physical seat in which a guest sits. If a seat number is specified,
-        then the seatNumber value on a Selection
-        object represents the seat number associated with the menu item
-        selection. If the menu item selection is shared among multiple seats,
-        then seatNumber is 0. If no seat number is
-        associated with the menu item selection, then seatNumber
-        is -1.
+ When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the seatNumber value on a Selectionobject represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then seatNumber is 0. If no seat number is associated with the menu item selection, then seatNumberis -1.
 
- The customer JSON value is only populated if your
-        Toast API client has the guest.pi:read scope. For more
-        information about scopes, see Scopes.
+ The customer JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
 

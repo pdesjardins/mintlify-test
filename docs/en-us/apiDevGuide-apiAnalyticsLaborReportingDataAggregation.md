@@ -15,25 +15,16 @@ procedures: 0
 codeExamples: 1
 ---
 
-The default way to view the labor reporting data is by day for
-      each location. You can choose to aggregate the data into subsections by
-      either employee or job. Use the `groupBy` value in the
-      message body of the `/era/v1/labor/{timeRange}` request to
-      create these subsections. Use `EMPLOYEE` to group the labor
-      reporting data by employee and `JOB` to group by job.
+The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the `groupBy` value in the message body of the `/era/v1/labor/{timeRange}` request to create these subsections. Use `EMPLOYEE` to group the labor reporting data by employee and `JOB` to group by job.
 
 
 
 > **Note**
 > 
-> You can only aggregate using one value, either
-        `EMPLOYEE` or `JOB`. Using both values results
-        in an error.
+> You can only aggregate using one value, either `EMPLOYEE` or `JOB`. Using both values results in an error.
 
 
-The following example shows the message body for a
-      `/era/v1/labor/week` request that uses the
-      `groupBy` value with `EMPLOYEE`.
+The following example shows the message body for a `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
 
 ```
 {
@@ -47,24 +38,15 @@ The following example shows the message body for a
 
 
 
-(1) The start date of the time range for the labor reporting data,
-          in YYYYMMDD format.
+(1) The start date of the time range for the labor reporting data, in YYYYMMDD format.
 
-(2) The end date of the time range for the labor reporting data,
-          in YYYYMMDD format.
+(2) The end date of the time range for the labor reporting data, in YYYYMMDD format.
 
-(3) The list of restaurant GUIDs from the management group to
-          include in the labor reporting data. Restaurant GUIDs not listed are
-          excluded.
+(3) The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.
 
-(4) This request is for labor reporting data grouped by
-          employee.
+(4) This request is for labor reporting data grouped by employee.
 
-When you use `EMPLOYEE`, the data is split into
-      subsections by restaurant, then by day for the restaurant, and then by
-      employee for the day at that restaurant. For example, the following list
-      shows the structure of labor reporting data for two example restaurants,
-      covering two days and four employees.
+When you use `EMPLOYEE`, the data is split into subsections by restaurant, then by day for the restaurant, and then by employee for the day at that restaurant. For example, the following list shows the structure of labor reporting data for two example restaurants, covering two days and four employees.
 
 - Restaurant 1, Day 1, Employee 1
 
@@ -95,15 +77,10 @@ When you use `EMPLOYEE`, the data is split into
 
 > **Note**
 > 
-> The data is not organized chronologically by day or
-        alphabetically by employee name.
+> The data is not organized chronologically by day or alphabetically by employee name.
 
 
-When you use `JOB`, the data is split into subsections
-      by restaurant, then by day for the restaurant, and then by job for the
-      day at that restaurant. For example, the following list shows the
-      structure of labor reporting data for two example restaurants, covering
-      two days and four jobs.
+When you use `JOB`, the data is split into subsections by restaurant, then by day for the restaurant, and then by job for the day at that restaurant. For example, the following list shows the structure of labor reporting data for two example restaurants, covering two days and four jobs.
 
 - Restaurant 1, Day 1, Job 1
 
@@ -134,21 +111,16 @@ When you use `JOB`, the data is split into subsections
 
 > **Note**
 > 
-> The data is not organized chronologically by day or
-        alphabetically by job name.
+> The data is not organized chronologically by day or alphabetically by job name.
 
 
 ## Example of labor reporting data aggregated by employee
 
-The following example requests labor reporting data for three
-        days and two restaurants, and is grouped into subsections by
-        employee.
+The following example requests labor reporting data for three days and two restaurants, and is grouped into subsections by employee.
 
 ### Request for labor reporting data
 
-The following example **curl** command sends a
-          `POST` request to the
-          `/era/v1/labor/week` endpoint.
+The following example **curl** command sends a `POST` request to the `/era/v1/labor/week` endpoint.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
@@ -159,26 +131,17 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
 
 
-(1) Send a POST request to the
-              /era/v1/labor/{timeRange} endpoint of the analytics
-              API. The {timeRange} in this example is
-              week.
+(1) Send a POST request to the /era/v1/labor/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
 
-(2) Include an authentication token. For more information, see
-              Authentication and restaurant access.
+(2) Include an authentication token. For more information, see Authentication and restaurant access.
 
-(3) Set the data type of the message body to
-              application/json.
+(3) Set the data type of the message body to application/json.
 
-(4) Include details about the requested labor reporting data
-              in the message body. The following example is the message body
-              for this curl command example.
+(4) Include details about the requested labor reporting data in the message body. The following example is the message body for this curl command example.
 
 ### Message body for the labor reporting data request
 
-The following example shows the message body for the
-          `/era/v1/labor/week` request that uses the
-          `groupBy` value with `EMPLOYEE`.
+The following example shows the message body for the `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
 
 ```
 {
@@ -193,38 +156,26 @@ The following example shows the message body for the
 
 
 
-(1) The start date of the time range for the labor reporting
-              data, in YYYYMMDD format.
+(1) The start date of the time range for the labor reporting data, in YYYYMMDD format.
 
-(2) The end date of the time range for the labor reporting
-              data, in YYYYMMDD format. The
-              endBusinessDate value is optional for requests
-              using the day time range.
+(2) The end date of the time range for the labor reporting data, in YYYYMMDD format. The endBusinessDate value is optional for requests using the day time range.
 
-(3) The list of restaurant GUIDs from the management group to
-              include in the labor reporting data. Restaurant GUIDs not listed
-              are excluded.
+(3) The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.
 
-(4) The list of restaurant GUIDs from the management group to
-              exclude from the labor reporting data. For this example, no
-              restaurants are listed, so all other restaurants are
-              included.
+(4) The list of restaurant GUIDs from the management group to exclude from the labor reporting data. For this example, no restaurants are listed, so all other restaurants are included.
 
-(5) This request is for labor reporting data grouped by
-              employee.
+(5) This request is for labor reporting data grouped by employee.
 
 
 
 > **Important**
 > 
-> Adding restaurant GUIDs to both `restaurantIds`
-            and `excludedRestaurantIds` results in an error.
+> Adding restaurant GUIDs to both `restaurantIds`and `excludedRestaurantIds` results in an error.
 
 
 ### Response to the labor reporting data request
 
-The following example shows the response from the
-          `/era/v1/labor/day` endpoint.
+The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 ```
 "97adf06d-60c3-4224-8062-003c9157702e"
@@ -232,15 +183,11 @@ The following example shows the response from the
 
 
 
-(1) The GUID for the labor reporting data request, also called
-              the reportRequestGuid. For more information about
-              how to retrieve data using the analytics API, see Understanding the analytics API process.
+(1) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
 ### Request to retrieve the labor reporting data
 
-The following example **curl** command sends a
-          `GET` request to the
-          `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
@@ -250,22 +197,15 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
 
-(1) Send a GET request to the
-              /era/v1/labor endpoint of the analytics API.
+(1) Send a GET request to the /era/v1/labor endpoint of the analytics API.
 
-(2) Include the GUID for the labor reporting data request,
-              also called the reportRequestGuid. For more
-              information about how to retrieve data using the analytics API,
-              see Understanding the analytics API process.
+(2) Include the GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see
-              Authentication and restaurant access.
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-### Response to the retrieval request for labor reporting
-          data
+### Response to the retrieval request for labor reporting data
 
-The following example shows the response from the
-          `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
 
 ```
 [

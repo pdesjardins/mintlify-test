@@ -15,42 +15,26 @@ procedures: 0
 codeExamples: 0
 ---
 
-When you use the orders API to post an order, you must identify the
-  menu groups, menu items, modifier groups, and modifiers that are included in
-  the order.
+When you use the orders API to post an order, you must identify the menu groups, menu items, modifier groups, and modifiers that are included in the order.
 
 To do this, you can provide either:
 
-- The unique `guid` assigned to each menu entity. You can
-      see examples of that in [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails) and [Specifying modifiers and instructions for menu item
-    selections](apiDevGuide-apiSpecifyingModifiersAndInstructions).
+- The unique `guid` assigned to each menu entity. You can see examples of that in [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails) and [Specifying modifiers and instructions for menu item selections](apiDevGuide-apiSpecifyingModifiersAndInstructions).
 
 
-- The `multilocationId` for each menu entity. This is the
-      recommended option, especially for restaurants that use the
-      multi-location management module (previously known as the "[enterprise
-      module](adminGuide-sharingMenusAndOtherInformationAmongRestaurants)").
+- The `multilocationId` for each menu entity. This is the recommended option, especially for restaurants that use the multi-location management module (previously known as the "[enterprise module](adminGuide-sharingMenusAndOtherInformationAmongRestaurants)").
 
 
 
-For information about `guid` and
-  `multilocationId` values and using them in API requests, see
-  [Toast identifiers](apiDevGuide-portalToastIdentifiers).
+For information about `guid` and `multilocationId` values and using them in API requests, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
 
-Note that for each menu entity, you must submit either a
-  `guid` OR a `multiLocationId`. You cannot submit both
-  identifiers. When you submit both types of identifier for a menu entity, the
-  order submission fails.
+Note that for each menu entity, you must submit either a `guid` OR a `multiLocationId`. You cannot submit both identifiers. When you submit both types of identifier for a menu entity, the order submission fails.
 
-You can submit `guid` values for some menu entities and
-  `multiLocationId` values for others. You cannot submit both a
-  `guid` and a `multiLocationId` for the *same
-  menu entity*.
+You can submit `guid` values for some menu entities and `multiLocationId` values for others. You cannot submit both a `guid` and a `multiLocationId` for the *same menu entity*.
 
 ## Example orders API request with multilocationIds
 
-The following example shows a request to the `/orders`
-    endpoint that uses `multiLocationId` values.
+The following example shows a request to the `/orders`endpoint that uses `multiLocationId` values.
 
 ```
 { 
@@ -104,34 +88,23 @@ The following example shows a request to the `/orders`
 
 
 
-(1) The Order object that defines the order being
-        submitted.
+(1) The Order object that defines the order being submitted.
 
-(2) The parent menu group for a menu item to submit in this order.
-        For example, Salads.
+(2) The parent menu group for a menu item to submit in this order. For example, Salads.
 
-(3) The menu item included in this order. For example, Dinner
-        Salad.
+(3) The menu item included in this order. For example, Dinner Salad.
 
-(4) A modifier group for the Dinner Salad menu item. For example,
-        Salad Dressing.
+(4) A modifier group for the Dinner Salad menu item. For example, Salad Dressing.
 
-(5) A modifier for the Dinner Salad menu item. For example, Balsamic
-        Vinaigrette.
+(5) A modifier for the Dinner Salad menu item. For example, Balsamic Vinaigrette.
 
 (6) The guest who is placing the order.
 
-## Example Order object with both identifiers in an orders API
-    response
+## Example Order object with both identifiers in an orders API response
 
-Responses to requests sent to the `/orders/{GUID}` and
-    `/ordersBulk` endpoints contain both the
-    `multiLocationId` and `guid` for all
-    `item`, `itemGroup`, and `optionGroup`
-    objects in an order.
+Responses to requests sent to the `/orders/{GUID}` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
 
-The following example response shows how both identifiers are
-    provided for each menu entity.
+The following example response shows how both identifiers are provided for each menu entity.
 
 ```
 {
@@ -216,15 +189,11 @@ The following example response shows how both identifiers are
 
 
 
-(1) The multiLocationId for the modifier group. For
-        example, Salad Dressing.
+(1) The multiLocationId for the modifier group. For example, Salad Dressing.
 
-(2) The multiLocationId for the modifier. For example,
-        Balsamic Vinaigrette.
+(2) The multiLocationId for the modifier. For example, Balsamic Vinaigrette.
 
-(3) The multiLocationId for the menu group. For
-        example, Salads.
+(3) The multiLocationId for the menu group. For example, Salads.
 
-(4) The multiLocationId for the menu item. For example,
-        Dinner Salad.
+(4) The multiLocationId for the menu item. For example, Dinner Salad.
 

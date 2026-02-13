@@ -15,11 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-At the end of the business day, which is typically 4 AM, the Toast
-    platform automatically clocks out any employees who have not clocked out
-    already and creates a time entry for them. If you have enabled missed
-    break tracking, the Toast platform will evaluate whether the employees
-    have missed any breaks during the time intervals they worked and it will
-    log missed breaks accordingly. It is not possible to log break
-    acknowledgements for missed breaks that are logged in this way.
+At the end of the business day, which is typically 4 AM, the Toast platform automatically clocks out any employees who have not clocked out already and creates a time entry for them. If you have enabled missed break tracking, the Toast platform will evaluate whether the employees have missed any breaks during the time intervals they worked and it will log missed breaks accordingly. It is not possible to log break acknowledgements for missed breaks that are logged in this way.
 

@@ -15,35 +15,15 @@ procedures: 0
 codeExamples: 0
 ---
 
-The default way to view the aggregated sales reporting data is by
-      day for each location. If you use the `day` time range, you
-      can choose to view the data by hour for each location instead. Use the
-      `aggregateBy` query parameter set to `HOUR` in the
-      `/era/v1/metrics/day` request to organize the data by hour
-      instead of day.
+The default way to view the aggregated sales reporting data is by day for each location. If you use the `day` time range, you can choose to view the data by hour for each location instead. Use the `aggregateBy` query parameter set to `HOUR` in the `/era/v1/metrics/day` request to organize the data by hour instead of day.
 
-Optionally, you can choose to aggregate the data into subsections
-      according to an order's dining option, order source, revenue center, or
-      a combination of two of these values. Use the `groupBy` value
-      in the message body of the `/era/v1/metrics` or
-      `/era/v1/metrics/{timeRange}` request to create subsections
-      organized by dining option, order source, revenue center, or a
-      combination of two of these values.
+Optionally, you can choose to aggregate the data into subsections according to an order's dining option, order source, revenue center, or a combination of two of these values. Use the `groupBy` value in the message body of the `/era/v1/metrics` or `/era/v1/metrics/{timeRange}` request to create subsections organized by dining option, order source, revenue center, or a combination of two of these values.
 
 ## Using the `aggregateBy` query parameter
 
-The `aggregateBy` query parameter divides the metric
-        data into either daily or hourly increments. Setting
-        `aggregateBy` to `DAY` divides the order data
-        into daily intervals and setting to `HOUR` divides the
-        order data into hourly intervals. The data is aggregated by
-        `DAY` by default. You can only aggregate by
-        `HOUR` when using the `/era/v1/metrics/day`
-        request.
+The `aggregateBy` query parameter divides the metric data into either daily or hourly increments. Setting `aggregateBy` to `DAY` divides the order data into daily intervals and setting to `HOUR` divides the order data into hourly intervals. The data is aggregated by `DAY` by default. You can only aggregate by `HOUR` when using the `/era/v1/metrics/day`request.
 
-The following example shows a `/era/v1/metrics/day`
-        request that uses the `aggregateBy` query parameter set to
-        `HOUR`:
+The following example shows a `/era/v1/metrics/day`request that uses the `aggregateBy` query parameter set to `HOUR`:
 
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy=HOUR' \  
@@ -55,30 +35,17 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 
 
-(1) Send a POST request to the
-            /era/v1/metrics/{timeRange} endpoint of the analytics
-            API. The {timeRange} is set to
-            day.
+(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} is set to day.
 
-(2) Use the aggregateBy query parameter set to
-            HOUR to group the aggregated sales reporting data by
-            hour instead of day.
+(2) Use the aggregateBy query parameter set to HOUR to group the aggregated sales reporting data by hour instead of day.
 
-(3) Include an authentication token. For more information, see
-            Authentication and restaurant access.
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-(4) Set the data type of the message body to
-            application/json.
+(4) Set the data type of the message body to application/json.
 
-(5) Include details about the requested aggregated sales
-            reporting data in the message body. For an example of the message
-            body, see Message body for the aggregated sales reporting data request
-          using aggregateBy and groupBy.
+(5) Include details about the requested aggregated sales reporting data in the message body. For an example of the message body, see Message body for the aggregated sales reporting data request using aggregateBy and groupBy.
 
-When aggregating by day, the report splits the data into
-        sections by day, which are organized from oldest to newest. For
-        example, the following list shows the structure of aggregated sales
-        reporting data, aggregated by day, for one example restaurant.
+When aggregating by day, the report splits the data into sections by day, which are organized from oldest to newest. For example, the following list shows the structure of aggregated sales reporting data, aggregated by day, for one example restaurant.
 
 - Day 1
 
@@ -90,10 +57,7 @@ When aggregating by day, the report splits the data into
 
 
 
-When aggregating by hour, the report splits the data into
-        sections by hour, which are organized from oldest to newest. For
-        example, the following list shows the structure of aggregated sales
-        reporting data, aggregated by hour, for one example restaurant:
+When aggregating by hour, the report splits the data into sections by hour, which are organized from oldest to newest. For example, the following list shows the structure of aggregated sales reporting data, aggregated by hour, for one example restaurant:
 
 - Day 1, Hour 9
 
@@ -118,33 +82,16 @@ When aggregating by hour, the report splits the data into
 
 > **Note**
 > 
-> Aggregating by hour is only available to the `day`
-          time range. Aggregating by hour results in the same day for each
-          section, with each section representing a different hour.
+> Aggregating by hour is only available to the `day`time range. Aggregating by hour results in the same day for each section, with each section representing a different hour.
 
 
-The hour number corresponds to the 24 hours of the day, starting
-        at `0` and ending at `23`. `0`
-        represents the interval between 12 AM and 1 AM, `1`
-        represents the interval between 1 AM and 2 AM, `2`
-        represents the interval between 2 AM and 3 AM, and so on.
+The hour number corresponds to the 24 hours of the day, starting at `0` and ending at `23`. `0`represents the interval between 12 AM and 1 AM, `1`represents the interval between 1 AM and 2 AM, `2`represents the interval between 2 AM and 3 AM, and so on.
 
 ## Using the `groupBy` value
 
-The `groupBy` value in the message body of a
-        `/era/v1/metrics` or
-        `/era/v1/metrics/{timeRange}` request can group the
-        returned data by the dining option associated with an order, the order
-        source which is the method used to submit the order, the revenue
-        center associated with an order, or a combination of two of these
-        values. Use `DINING_OPTION` to group the aggregated sales
-        reporting data by dining option, `ORDER_SOURCE` to group by
-        order source, and `REVENUE_CENTER` to group by revenue
-        center.
+The `groupBy` value in the message body of a `/era/v1/metrics` or `/era/v1/metrics/{timeRange}` request can group the returned data by the dining option associated with an order, the order source which is the method used to submit the order, the revenue center associated with an order, or a combination of two of these values. Use `DINING_OPTION` to group the aggregated sales reporting data by dining option, `ORDER_SOURCE` to group by order source, and `REVENUE_CENTER` to group by revenue center.
 
-The following example shows the message body for a
-        `/era/v1/metrics/week` request that uses the
-        `groupBy` value with `DINING_OPTION`.
+The following example shows the message body for a `/era/v1/metrics/week` request that uses the `groupBy` value with `DINING_OPTION`.
 
 ```
 {
@@ -162,25 +109,15 @@ The following example shows the message body for a
 
 
 
-(1) The start date of the time range for the aggregated sales
-            reporting data, in YYYYMMDD format.
+(1) The start date of the time range for the aggregated sales reporting data, in YYYYMMDD format.
 
-(2) The end date of the time range for the aggregated sales
-            reporting data, in YYYYMMDD format.
+(2) The end date of the time range for the aggregated sales reporting data, in YYYYMMDD format.
 
-(3) The list of restaurant GUIDs from the management group to
-            include in the aggregated sales reporting data. Restaurant GUIDs
-            not listed are excluded.
+(3) The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.
 
-(4) This request is for aggregated sales reporting data grouped
-            by dining option.
+(4) This request is for aggregated sales reporting data grouped by dining option.
 
-When you use `DINING_OPTION`, the data is split into
-        subsections by dining option, which are organized alphabetically by
-        the dining option name, and then by day for that dining option. For
-        example, the following list shows the structure of aggregated sales
-        reporting data for one example restaurant, covering two days and two
-        dining options.
+When you use `DINING_OPTION`, the data is split into subsections by dining option, which are organized alphabetically by the dining option name, and then by day for that dining option. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant, covering two days and two dining options.
 
 - Day 1, Dining Option A
 
@@ -195,12 +132,7 @@ When you use `DINING_OPTION`, the data is split into
 
 
 
-When you use `ORDER_SOURCE`, the data is split into
-        subsections by order source, which are organized alphabetically by the
-        name of the order source, and then by day for that order source. For
-        example, the following list shows the structure of aggregated sales
-        reporting data for one example restaurant, covering two days and two
-        order sources.
+When you use `ORDER_SOURCE`, the data is split into subsections by order source, which are organized alphabetically by the name of the order source, and then by day for that order source. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant, covering two days and two order sources.
 
 - Day 1, Order Source 1
 
@@ -215,12 +147,7 @@ When you use `ORDER_SOURCE`, the data is split into
 
 
 
-When you use `REVENUE_CENTER`, the data is split into
-        subsections by revenue center, which are organized alphabetically by
-        the revenue center name, and then by day for that revenue center. For
-        example, the following list shows the structure of aggregated sales
-        reporting data for one example restaurant, covering two days and two
-        revenue centers.
+When you use `REVENUE_CENTER`, the data is split into subsections by revenue center, which are organized alphabetically by the revenue center name, and then by day for that revenue center. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant, covering two days and two revenue centers.
 
 - Day 1, Revenue Center A
 
@@ -239,18 +166,10 @@ When you use `REVENUE_CENTER`, the data is split into
 
 > **Note**
 > 
-> If no revenue center is associated with an order, the revenue
-          center name is `No Revenue Center`.
+> If no revenue center is associated with an order, the revenue center name is `No Revenue Center`.
 
 
-When grouping by both `DINING_OPTION` and
-        `ORDER_SOURCE`, the data is split into subsections by
-        dining option, then by order source, and finally by day. The order in
-        which the options are listed does not affect the response. They are
-        listed alphabetically by dining option and then order source. For
-        example, the following list shows the structure of aggregated sales
-        reporting data for one example restaurant covering two days, four
-        dining options, and three order sources.
+When grouping by both `DINING_OPTION` and `ORDER_SOURCE`, the data is split into subsections by dining option, then by order source, and finally by day. The order in which the options are listed does not affect the response. They are listed alphabetically by dining option and then order source. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant covering two days, four dining options, and three order sources.
 
 - Day 1, Dining Option 1, Order Source 1
 
@@ -277,14 +196,7 @@ When grouping by both `DINING_OPTION` and
 
 
 
-When grouping by both `DINING_OPTION` and
-        `REVENUE_CENTER`, the data is split into subsections by
-        dining option, then by revenue center, and finally by day. The order
-        in which the options are listed does not affect the response. They are
-        listed alphabetically by dining option and then revenue center. For
-        example, the following list shows the structure of aggregated sales
-        reporting data for one example restaurant covering two days, two
-        revenue centers, and two dining options.
+When grouping by both `DINING_OPTION` and `REVENUE_CENTER`, the data is split into subsections by dining option, then by revenue center, and finally by day. The order in which the options are listed does not affect the response. They are listed alphabetically by dining option and then revenue center. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant covering two days, two revenue centers, and two dining options.
 
 - Day 1, Revenue Center A, Dining Option A
 
@@ -305,14 +217,7 @@ When grouping by both `DINING_OPTION` and
 
 
 
-When grouping by both `ORDER_SOURCE` and
-        `REVENUE_CENTER`, the data is split into subsections by
-        revenue center, then by order source, and finally by day. The order in
-        which the options are listed does not affect the response. The
-        response lists each section alphabetically by revenue center and then
-        order source. For example, the following list shows the structure of
-        aggregated sales reporting data for one example restaurant covering
-        two days, two revenue centers, and two order sources.
+When grouping by both `ORDER_SOURCE` and `REVENUE_CENTER`, the data is split into subsections by revenue center, then by order source, and finally by day. The order in which the options are listed does not affect the response. The response lists each section alphabetically by revenue center and then order source. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant covering two days, two revenue centers, and two order sources.
 
 - Day 1, Revenue Center A, Order Source A
 
@@ -333,14 +238,7 @@ When grouping by both `ORDER_SOURCE` and
 
 
 
-If the `groupBy` value uses two values and is used in
-        conjunction with the `aggregateBy` query parameter set to
-        `HOUR`, the aggregated sales reporting data is split into
-        sections by hour, then by either dining option, revenue center, or
-        order source respectively. For example, the aggregated sales reporting
-        data for one example restaurant covering two hours, two dining
-        options, and two revenue centers, is structured similarly to the
-        following:
+If the `groupBy` value uses two values and is used in conjunction with the `aggregateBy` query parameter set to `HOUR`, the aggregated sales reporting data is split into sections by hour, then by either dining option, revenue center, or order source respectively. For example, the aggregated sales reporting data for one example restaurant covering two hours, two dining options, and two revenue centers, is structured similarly to the following:
 
 - Day 1, Revenue Center A, Dining Option A, Hour 8
 
@@ -367,20 +265,13 @@ If the `groupBy` value uses two values and is used in
 
 
 
-## Example using `aggregateBy` and
-        `groupBy`
+## Example using `aggregateBy` and `groupBy`
 
-This section includes examples of how to create a request for
-        and retrieve aggregated sales reporting data that is aggregated into
-        hourly intervals, and then grouped into subsections by dining option
-        and revenue center for a single example restaurant.
+This section includes examples of how to create a request for and retrieve aggregated sales reporting data that is aggregated into hourly intervals, and then grouped into subsections by dining option and revenue center for a single example restaurant.
 
-### Request for aggregated sales reporting data using
-          `aggregateBy` and `groupBy`
+### Request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
-The following example **curl** command sends a
-          `POST` request to the
-          `/era/v1/metrics/day` endpoint.
+The following example **curl** command sends a `POST` request to the `/era/v1/metrics/day` endpoint.
 
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy=HOUR' \
@@ -392,33 +283,19 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 
 
-(1) Send a POST request to the
-              /era/v1/metrics/{timeRange} endpoint of the
-              analytics API. The {timeRange} in this example is
-              day.
+(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
 
-(2) Use the aggregateBy query parameter set to
-              HOUR to group the aggregated sales reporting data
-              by hour. For more information, see Using the aggregateBy query parameter.
+(2) Use the aggregateBy query parameter set to HOUR to group the aggregated sales reporting data by hour. For more information, see Using the aggregateBy query parameter.
 
-(3) Include an authentication token. For more information, see
-              Authentication and restaurant access.
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-(4) Set the data type of the message body to
-              application/json.
+(4) Set the data type of the message body to application/json.
 
-(5) Include details about the requested aggregated sales
-              reporting data in the message body. The following
-              example is the message body for this
-              curl command example.
+(5) Include details about the requested aggregated sales reporting data in the message body. The following example is the message body for this curl command example.
 
-### Message body for the aggregated sales reporting data request
-          using `aggregateBy` and `groupBy`
+### Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`
 
-The following example shows the message body for the
-          `/era/v1/metrics/day` request that uses the
-          `groupBy` value with `DINING_OPTION` and
-          `REVENUE_CENTER`.
+The following example shows the message body for the `/era/v1/metrics/day` request that uses the `groupBy` value with `DINING_OPTION` and `REVENUE_CENTER`.
 
 ```
 {
@@ -437,37 +314,24 @@ The following example shows the message body for the
 
 
 
-(1) The start date of the time range for the aggregated sales
-              reporting data, in YYYYMMDD format. The
-              endBusinessDate value is optional for requests
-              using the day time range.
+(1) The start date of the time range for the aggregated sales reporting data, in YYYYMMDD format. The endBusinessDate value is optional for requests using the day time range.
 
-(2) The list of restaurant GUIDs from the management group to
-              include in the aggregated sales reporting data. Restaurant GUIDs
-              not listed are excluded.
+(2) The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.
 
-(3) The list of restaurant GUIDs from the management group to
-              exclude from the aggregated sales reporting data. For this
-              example, one restaurant is included, which excludes all other
-              restaurants automatically.
+(3) The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. For this example, one restaurant is included, which excludes all other restaurants automatically.
 
-(4) This request is for aggregated sales reporting data
-              grouped by dining option and revenue center.
+(4) This request is for aggregated sales reporting data grouped by dining option and revenue center.
 
 
 
 > **Important**
 > 
-> Adding restaurant GUIDs to both `restaurantIds`
-            and `excludedRestaurantIds` results in an error. For
-            more information, see [Creating a request for aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest).
+> Adding restaurant GUIDs to both `restaurantIds`and `excludedRestaurantIds` results in an error. For more information, see [Creating a request for aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest).
 
 
-### Response to the request for aggregated sales reporting data
-          using `aggregateBy` and `groupBy`
+### Response to the request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
-The following example shows the response from the
-          `/era/v1/metrics/day` endpoint.
+The following example shows the response from the `/era/v1/metrics/day` endpoint.
 
 ```
 "3a29d28e-171f-43d8-a36a-0a26fe65783d"
@@ -475,17 +339,11 @@ The following example shows the response from the
 
 
 
-(1) The GUID for the aggregated sales reporting data request,
-              also called the reportRequestGuid. For more
-              information about how to retrieve data using the analytics API,
-              see Understanding the analytics API process.
+(1) The GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-### Request to retrieve the aggregated sales reporting data using
-          `aggregateBy` and `groupBy`
+### Request to retrieve the aggregated sales reporting data using `aggregateBy` and `groupBy`
 
-The following example **curl** command sends a
-          `GET` request to the
-          `/era/v1/metrics/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
@@ -496,24 +354,15 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
 
 
 
-(1) Send a GET request to the
-              /era/v1/metrics endpoint of the analytics
-              API.
+(1) Send a GET request to the /era/v1/metrics endpoint of the analytics API.
 
-(2) Include the GUID for the aggregated sales reporting data
-              request, also called the reportRequestGuid. For
-              more information about how to retrieve data using the analytics
-              API, see Understanding the analytics API process.
+(2) Include the GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see
-              Authentication and restaurant access.
+(3) Include an authentication token. For more information, see Authentication and restaurant access.
 
-### Response to the retrieval request for aggregated sales
-          reporting data using `aggregateBy` and
-          `groupBy`
+### Response to the retrieval request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
-The following example shows the response from the
-          `/era/v1/metrics/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/metrics/{reportRequestGuid}` endpoint.
 
 ```
 [

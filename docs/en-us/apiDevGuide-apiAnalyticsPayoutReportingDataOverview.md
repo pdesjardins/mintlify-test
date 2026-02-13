@@ -15,22 +15,15 @@ procedures: 0
 codeExamples: 0
 ---
 
-Payout reporting data includes a detailed look at the deposits
-      from credit card payments. Three endpoints can be used to analyze the
-      payout data:
+Payout reporting data includes a detailed look at the deposits from credit card payments. Three endpoints can be used to analyze the payout data:
 
-- The `/era/v1/payout` endpoint to analyze payout
-            data by the date the payout was made. For more information, see
-            [Payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData).
+- The `/era/v1/payout` endpoint to analyze payout data by the date the payout was made. For more information, see [Payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData).
 
 
-- The `/era/v1/payout/payments` endpoint to analyze
-            payout data by each payment. For more information, see [Payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData).
+- The `/era/v1/payout/payments` endpoint to analyze payout data by each payment. For more information, see [Payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData).
 
 
-- The `/era/v1/payout/sales-date` endpoint to
-            analyze payout data by the date the sale was made. For more
-            information, see [Payout reporting data by sales date](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData).
+- The `/era/v1/payout/sales-date` endpoint to analyze payout data by the date the sale was made. For more information, see [Payout reporting data by sales date](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData).
 
 
 
@@ -38,7 +31,6 @@ Payout reporting data includes a detailed look at the deposits
 
 > **Note**
 > 
-> For more information about using inactive restaurant data, see
-        [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
+> For more information about using inactive restaurant data, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 

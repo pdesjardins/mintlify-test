@@ -15,185 +15,115 @@ procedures: 0
 codeExamples: 2
 ---
 
-Send a `GET` request to the
-      `/restaurants/v1/restaurants/{restaurantGUID}` endpoint of
-      the restaurants API to obtain configuration information for a specific
-      restaurant. The endpoint returns a `RestaurantInfo` object
-      that contains the following objects and their information:
+Send a `GET` request to the `/restaurants/v1/restaurants/{restaurantGUID}` endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a `RestaurantInfo` object that contains the following objects and their information:
 
-- `General` object: general
-          information about the restaurant:
+- `General` object: general information about the restaurant:
 
-- `name` is the restaurant's guest-facing name.
-              For example: `West End Grille`.
+- `name` is the restaurant's guest-facing name. For example: `West End Grille`.
 
 
-- `locationName` is a name used externally to
-              differentiate multiple locations. For example, `Davis Square` might be the location of one of the restaurants in
-              a restaurant group in a city.
+- `locationName` is a name used externally to differentiate multiple locations. For example, `Davis Square` might be the location of one of the restaurants in a restaurant group in a city.
 
 
-- `locationCode` is a code used internally to
-              differentiate multiple locations. It is typically a three or
-              four letter code.
+- `locationCode` is a code used internally to differentiate multiple locations. It is typically a three or four letter code.
 
 
-- `description` is a description of the
-              restaurant. This description appears on Toast's website.
+- `description` is a description of the restaurant. This description appears on Toast's website.
 
 
-- `timeZone` is the name of the restaurant's time
-              zone in the IANA (Internet Assigned Numbers Authority) time zone
-              database.
+- `timeZone` is the name of the restaurant's time zone in the IANA (Internet Assigned Numbers Authority) time zone database.
 
 
-- `closeoutHour` is the business day cutoff,
-              which is the hour of the day that ends the current business day
-              and starts the next. The value is 0-12 (midnight to noon) and is
-              in the restaurant's time zone. For example, a value of
-              `4` means that 4:00 AM is the close of the current
-              business day. Note that this value is different from the
-              `closeTime` value for a day schedule.
+- `closeoutHour` is the business day cutoff, which is the hour of the day that ends the current business day and starts the next. The value is 0-12 (midnight to noon) and is in the restaurant's time zone. For example, a value of `4` means that 4:00 AM is the close of the current business day. Note that this value is different from the `closeTime` value for a day schedule.
 
 
-- `managementGroupGuid` is the GUID of the
-              restaurant management group.
+- `managementGroupGuid` is the GUID of the restaurant management group.
 
 
-- `archived` indicates whether the restaurant has
-              been made inactive on the Toast platform. An example reason that
-              a restaurant is archived is that it was created in error.
+- `archived` indicates whether the restaurant has been made inactive on the Toast platform. An example reason that a restaurant is archived is that it was created in error.
 
 
 
-Note that the `name`, `timeZone`, and
-          `closeoutHour` values are always populated, but the other
-          values may be null.
+Note that the `name`, `timeZone`, and `closeoutHour` values are always populated, but the other values may be null.
 
 
-- `URLs` object: web addresses
-          for the restaurant:
+- `URLs` object: web addresses for the restaurant:
 
-- `website` is the restaurant's primary
-              (independently-hosted) website.
+- `website` is the restaurant's primary (independently-hosted) website.
 
 
-- `facebook` is the restaurant's Facebook
-              page.To
+- `facebook` is the restaurant's Facebook page.To
 
 
-- `twitter` is the restaurant's Twitter
-              feed.
+- `twitter` is the restaurant's Twitter feed.
 
 
-- `orderOnline` is the restaurant's online
-              ordering page, where guests can place takeout or delivery
-              orders.
+- `orderOnline` is the restaurant's online ordering page, where guests can place takeout or delivery orders.
 
 
-- `purchaseGiftCard` is the restaurant's website
-              where guests can purchase gift cards. This value is populated
-              only if the location has Toast gift cards (not a gift card
-              integration).
+- `purchaseGiftCard` is the restaurant's website where guests can purchase gift cards. This value is populated only if the location has Toast gift cards (not a gift card integration).
 
 
-- `checkGiftCard` is the restaurant's website
-              where guests can find balances and other information about gift
-              cards. This value is populated only if the location has Toast
-              gift cards (not a gift card integration).
+- `checkGiftCard` is the restaurant's website where guests can find balances and other information about gift cards. This value is populated only if the location has Toast gift cards (not a gift card integration).
 
 
 
 
-- `Location` object:
-          information about the physical location of the restaurant:
+- `Location` object: information about the physical location of the restaurant:
 
-- `address1` is the first line of the
-              restaurant's street address.
+- `address1` is the first line of the restaurant's street address.
 
 
-- `address2` is the second line of the
-              restaurant's street address.
+- `address2` is the second line of the restaurant's street address.
 
 
 - `city` is the restaurant's city or town.
 
 
-- `stateCode` is the two-letter abbreviation of
-              the restaurant's state, such as `CA` for
-              California.
+- `stateCode` is the two-letter abbreviation of the restaurant's state, such as `CA` for California.
 
 
-- `zipCode` is the restaurant's ZIP or postal
-              code.
+- `zipCode` is the restaurant's ZIP or postal code.
 
 
-- `country` is the two-letter abbreviation of the
-              restaurant's country, such as `US` for United
-              States.
+- `country` is the two-letter abbreviation of the restaurant's country, such as `US` for United States.
 
 
-- `phone` is the restaurant's 10-digit phone
-              number.
+- `phone` is the restaurant's 10-digit phone number.
 
 
-- `latitude` is the restaurant's north/south
-              geographical coordinate in decimal degrees.
+- `latitude` is the restaurant's north/south geographical coordinate in decimal degrees.
 
 
-- `longitude` is the restaurant's east/west
-              geographical coordinate in decimal degrees.
+- `longitude` is the restaurant's east/west geographical coordinate in decimal degrees.
 
 
 
 
-- `Schedules` object:
-          information about the restaurant services (such as lunch and dinner)
-          and the schedules for those services over a one-week period. For
-          details on the `Schedules` object, see [Restaurant configuration settings that affect order wait
-    time](apiDevGuide-calculatingOrderWaitTime#apiRestaurantTimeConfigurationSettings).
+- `Schedules` object: information about the restaurant services (such as lunch and dinner) and the schedules for those services over a one-week period. For details on the `Schedules` object, see [Restaurant configuration settings that affect order wait time](apiDevGuide-calculatingOrderWaitTime#apiRestaurantTimeConfigurationSettings).
 
 
-- `Delivery` object:
-          information about the Toast delivery service provided by the
-          restaurant:
+- `Delivery` object: information about the Toast delivery service provided by the restaurant:
 
-- `enabled` indicates whether the restaurant
-              provides a Toast delivery service.
+- `enabled` indicates whether the restaurant provides a Toast delivery service.
 
 
-- `minimum` is minimum order price that qualifies
-              for delivery.
+- `minimum` is minimum order price that qualifies for delivery.
 
 
-- `area` is the geographic area in which the
-              restaurant provides delivery service. The delivery area is
-              represented by an encoded set of latitude and longitude
-              coordinates that describe a polygon area on a map. The
-              coordinates are encoded using the Google maps encoded polyline
-              algorithm format.
+- `area` is the geographic area in which the restaurant provides delivery service. The delivery area is represented by an encoded set of latitude and longitude coordinates that describe a polygon area on a map. The coordinates are encoded using the Google maps encoded polyline algorithm format.
 
 
 
 
-- `OnlineOrdering`
-          object: information about the restaurant's online ordering service,
-          including payment options for online orders. For details on the
-          `OnlineOrdering` object, see [Online ordering configuration](apiDevGuide-apiRestaurantOnlineOrderingInfo).
+- `OnlineOrdering`object: information about the restaurant's online ordering service, including payment options for online orders. For details on the `OnlineOrdering` object, see [Online ordering configuration](apiDevGuide-apiRestaurantOnlineOrderingInfo).
 
 
-- `PrepTimes` object:
-          information about the scheduled availability of dining options that
-          are provided by the restaurant. For details on the
-          `PrepTimes` object, see [Restaurant configuration settings that affect order wait
-    time](apiDevGuide-calculatingOrderWaitTime#apiRestaurantTimeConfigurationSettings).
+- `PrepTimes` object: information about the scheduled availability of dining options that are provided by the restaurant. For details on the `PrepTimes` object, see [Restaurant configuration settings that affect order wait time](apiDevGuide-calculatingOrderWaitTime#apiRestaurantTimeConfigurationSettings).
 
 
 
-The following example **curl** command sends a
-      `GET` request to the
-      `/restaurants/v1/restaurants/{restaurantGUID}`
-      endpoint.
+The following example **curl** command sends a `GET` request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
 
 **Example 6.3. Get configuration of a specific restaurant**
 
@@ -217,19 +147,12 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
 
 
 
-(1) Use the
-            Toast-Restaurant-External-ID request
-            parameter to specify the GUID of the restaurant from which to
-            retrieve configuration information.
+(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant from which to retrieve configuration information.
 
-(2) Use the same restaurant GUID in the
-            /restaurants/v1/restaurants/{restaurantGUID}
-            endpoint.
+(2) Use the same restaurant GUID in the /restaurants/v1/restaurants/{restaurantGUID}endpoint.
 
   
-The following example shows the JSON response data for a GET
-      request to the `/restaurants/v1/restaurants/{restaurantGUID}`
-      endpoint.
+The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
 
 **Example 6.4. Get restaurant configuration return data**
 
@@ -364,42 +287,22 @@ The following example shows the JSON response data for a GET
 
 
 
-(1) The GUID of the restaurant from which configuration
-            information is retrieved.
+(1) The GUID of the restaurant from which configuration information is retrieved.
 
-(2) General information about the
-            restaurant. The name of this sample restaurant is Trattoria Roma.
+(2) General information about the restaurant. The name of this sample restaurant is Trattoria Roma.
 
-(3) The web addresses for the
-            restaurant.
+(3) The web addresses for the restaurant.
 
-(4) The physical location of the
-            restaurant.
+(4) The physical location of the restaurant.
 
-(5) The schedules and services
-            provided by the restaurant. This sample restaurant has two day
-            schedules, named Weekdays and Weekends.
-            Each day schedule has an openTime value that
-            designates when the first service of the day begins and a
-            closeTime value for when the last service of the day
-            ends.
+(5) The schedules and servicesprovided by the restaurant. This sample restaurant has two day schedules, named Weekdays and Weekends. Each day schedule has an openTime value that designates when the first service of the day begins and a closeTime value for when the last service of the day ends.
 
-(6) The delivery service of the
-            restaurant. In this sample restaurant, a delivery service is
-            available.
+(6) The delivery service of the restaurant. In this sample restaurant, a delivery service is available.
 
-(7) The online ordering service
-            provided by the restaurant. In this sample restaurant, a delivery
-            service is available, orders are fulfilled as soon as possible,
-            and both cash and credit card payments are accepted for takeout
-            and delivery orders.
+(7) The online ordering serviceprovided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.
 
- The enabled value in the
-            OnlineOrdering object will always be
-            true after the restaurant does their initial setup
-            for Toast Online Ordering.
+ The enabled value in the OnlineOrdering object will always be true after the restaurant does their initial setup for Toast Online Ordering.
 
-(9) The scheduled availability of the dining
-            options provided by the restaurant.
+(9) The scheduled availability of the dining options provided by the restaurant.
 
   

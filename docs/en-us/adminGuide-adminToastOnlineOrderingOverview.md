@@ -19,27 +19,17 @@ codeExamples: 0
 
 > **Note**
 > 
-> To view and configure your restaurant's online ordering settings,
-      you must have the Restaurant Operations Setup
-      permission. From Toast Web, choose Employees > Employee
-      management > Jobs to open the Jobs
-      page. Select the job title to edit the permissions. For more
-      information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+> To view and configure your restaurant's online ordering settings, you must have the Restaurant Operations Setuppermission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
 
 
-Toast Online Ordering makes it easy to accept, process, and deliver
-    online orders. Guests place online orders on your restaurant's Toast
-    Online Ordering website or on the Local by Toast app.
+Toast Online Ordering makes it easy to accept, process, and deliver online orders. Guests place online orders on your restaurant's Toast Online Ordering website or on the Local by Toast app.
 
-**Procedure 3.15. To access your restaurant's online ordering
-      settings**
+**Procedure 3.15. To access your restaurant's online orderingsettings**
 
-1. [Access Toast
-        Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery > Availability >
-        Online ordering.
+2. Choose Takeout & delivery &gt; Availability &gt; Online ordering.
 
 
 
@@ -47,8 +37,6 @@ Toast Online Ordering makes it easy to accept, process, and deliver
 
 > **Important**
 > 
-> The settings described in the following sections apply to Toast
-      Online Ordering channels only. These settings do not impact how online
-      ordering integrations interact with your restaurant.
+> The settings described in the following sections apply to Toast Online Ordering channels only. These settings do not impact how online ordering integrations interact with your restaurant.
 
 

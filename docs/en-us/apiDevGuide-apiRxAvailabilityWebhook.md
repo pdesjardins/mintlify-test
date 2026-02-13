@@ -16,26 +16,16 @@ procedures: 0
 codeExamples: 0
 ---
 
-The `restaurant_availability` webhook allows you to receive
-  real-time information about a restaurant's ability to accept online orders.
-  The `restaurant_availability` webhook sends a message
-  when:
+The `restaurant_availability` webhook allows you to receive real-time information about a restaurant's ability to accept online orders. The `restaurant_availability` webhook sends a message when:
 
-- The Toast Autofire™ device has stopped approving online
-      orders.
+- The Toast Autofire™ device has stopped approving online orders.
 
 
-- A third-party online ordering channel (for example, Uber
-      Eats™, DoorDash™, or Grubhub™) was
-      turned on or off, or snoozed (paused). A channel may be paused for 20 or
-      40 minutes, or until the start of the restaurant's online ordering hours
-      for the next day.
+- A third-party online ordering channel (for example, Uber Eats™, DoorDash™, or Grubhub™) was turned on or off, or snoozed (paused). A channel may be paused for 20 or 40 minutes, or until the start of the restaurant's online ordering hours for the next day.
 
 
 
-Restaurant availability webhook messages follow the [standard message
-  data schema](apiDevGuide-apiMessageDataSchema). The `restaurant_availability` webhook has
-  two event categories:
+Restaurant availability webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). The `restaurant_availability` webhook has two event categories:
 
 - `restaurant_availability`
 
@@ -44,11 +34,7 @@ Restaurant availability webhook messages follow the [standard message
 
 
 
-When you receive a webhook event for the
-  `restaurant_availability` event category, the
-  `eventCategory` value is set to
-  `restaurant_availability` and the `eventType` is set
-  to one of the following:
+When you receive a webhook event for the `restaurant_availability` event category, the `eventCategory` value is set to `restaurant_availability` and the `eventType` is set to one of the following:
 
 - [availability_online](apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOnline)
 
@@ -57,11 +43,7 @@ When you receive a webhook event for the
 
 
 
-When you receive a webhook event for the
-  `restaurant_availability_toggle` event category, the
-  `eventCategory` value is set to
-  `restaurant_availability_toggle` and the `eventType`
-  is set to one of the following:
+When you receive a webhook event for the `restaurant_availability_toggle` event category, the `eventCategory` value is set to `restaurant_availability_toggle` and the `eventType`is set to one of the following:
 
 - [toggle_availability_online](apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOnlineToggle)
 
@@ -74,56 +56,41 @@ When you receive a webhook event for the
 
 > **Note**
 > 
-> Multiple webhook messages can be sent from Toast depending on the
-    scenario.
+> Multiple webhook messages can be sent from Toast depending on the scenario.
 
 
 For more information about webhooks, see [Webhook basics](apiDevGuide-apiWebhookBasics) and [Message data schema](apiDevGuide-apiMessageDataSchema).
 
 ## Restaurant availability status overview
 
-A restaurant’s availability status is one of the
-    following:
+A restaurant’s availability status is one of the following:
 
 - `ONLINE`:
 
-- The restaurant’s autofire device is online and approving
-              orders.
+- The restaurant’s autofire device is online and approving orders.
 
 
-- The restaurant has stopped snoozing ordering from a
-              third-party online ordering channel. The restaurant is accepting
-              online orders from the channel.
+- The restaurant has stopped snoozing ordering from a third-party online ordering channel. The restaurant is accepting online orders from the channel.
 
 
-- The restaurant has turned on a third-party ordering
-              channel and is accepting online orders from the channel.
+- The restaurant has turned on a third-party ordering channel and is accepting online orders from the channel.
 
 
 
 
 - `OFFLINE`: 
 
-- The restaurant’s autofire device is offline and has
-                stopped approving orders.
+- The restaurant’s autofire device is offline and has stopped approving orders.
 
 
-- The restaurant has started snoozing ordering from a
-                third-party online ordering channel. The restaurant is not
-                accepting online orders from the channel.
+- The restaurant has started snoozing ordering from a third-party online ordering channel. The restaurant is not accepting online orders from the channel.
 
 
-- The restaurant has turned off a third-party ordering
-                channel and is not accepting online orders from the
-                channel.
+- The restaurant has turned off a third-party ordering channel and is not accepting online orders from the channel.
 
 
 
-When a restaurant is `OFFLINE`, you can still place
-          online orders via the orders API. You will receive a 200 response
-          and the restaurant will see the order when they come back
-          `ONLINE`. Toast support recommends waiting to place
-          orders until the restaurant's status is `ONLINE`.
+When a restaurant is `OFFLINE`, you can still place online orders via the orders API. You will receive a 200 response and the restaurant will see the order when they come back `ONLINE`. Toast support recommends waiting to place orders until the restaurant's status is `ONLINE`.
 
 
 
@@ -131,95 +98,50 @@ When a restaurant is `OFFLINE`, you can still place
 
 > **Note**
 > 
-> Placing orders while the restaurant is offline can cause orders
-        to not fire to the kitchen and may result in the restaurant becoming
-        overwhelmed with missed orders once back online. This can contribute
-        to a poor guest ordering experience.
+> Placing orders while the restaurant is offline can cause orders to not fire to the kitchen and may result in the restaurant becoming overwhelmed with missed orders once back online. This can contribute to a poor guest ordering experience.
 
 
 ## Autofire device stopped approving online orders
 
 The webhook service checks for updates when:
 
-- An `ONLINE` restaurant is `OFFLINE`. Gone
-        `OFFLINE` means the restaurant’s orders are pending. No
-        order has been approved and autofired for fulfillment in the last five
-        minutes. This indicates that there may be a network issue or other
-        technical problems at the restaurant. For more information, see [Troubleshoot
-        Your Autofire Device](https://central.toasttab.com/s/article/Troubleshooting-your-Autofire-Device).
+- An `ONLINE` restaurant is `OFFLINE`. Gone `OFFLINE` means the restaurant’s orders are pending. No order has been approved and autofired for fulfillment in the last five minutes. This indicates that there may be a network issue or other technical problems at the restaurant. For more information, see [Troubleshoot Your Autofire Device](https://central.toasttab.com/s/article/Troubleshooting-your-Autofire-Device).
 
 
-- An `OFFLINE` restaurant is now `ONLINE`.
-        Coming back `ONLINE` means the restaurant has approved and
-        autofired at least one order in the last five minutes.
+- An `OFFLINE` restaurant is now `ONLINE`. Coming back `ONLINE` means the restaurant has approved and autofired at least one order in the last five minutes.
 
 
 
-The `restaurant_availability` webhook sends updates when
-    a restaurant's autofire device has stopped auto-approving orders for five
-    minutes. The restaurant availability service runs every minute to check if
-    at least one order has been abandoned, meaning it has not approved and
-    autofired an order within a five minute period. For example, if your guest
-    placed an order at 9:02 AM, and your restaurant stopped auto-approving
-    orders at 9:02 AM, the service runs at 9:03 AM but does not fire a webhook
-    event because only one minute has passed since the order was created and
-    not approved. When the service runs at 9:07 AM and the order was still not
-    been approved, the webhook event fires. For more information about
-    autofiring orders, see [Setting
-    up Order Auto-Firing](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407).
+The `restaurant_availability` webhook sends updates when a restaurant's autofire device has stopped auto-approving orders for five minutes. The restaurant availability service runs every minute to check if at least one order has been abandoned, meaning it has not approved and autofired an order within a five minute period. For example, if your guest placed an order at 9:02 AM, and your restaurant stopped auto-approving orders at 9:02 AM, the service runs at 9:03 AM but does not fire a webhook event because only one minute has passed since the order was created and not approved. When the service runs at 9:07 AM and the order was still not been approved, the webhook event fires. For more information about autofiring orders, see [Setting up Order Auto-Firing](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407).
 
 
 
 > **Note**
 > 
-> If you do not receive any `restaurant_availability`
-      webhook events, the restaurant should be considered `ONLINE`.
-      This assumes you are respecting the restaurant’s available operating
-      hours for both ASAP and scheduled orders placed for future
-      fulfillment.
+> If you do not receive any `restaurant_availability`webhook events, the restaurant should be considered `ONLINE`. This assumes you are respecting the restaurant’s available operating hours for both ASAP and scheduled orders placed for future fulfillment.
 
 
-Restaurants using Toast Online Ordering with [Manual
-    Approval or Approval Rules](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode) configured do not trigger webhook events
-    with the AVAILABILITY_OFFLINE `reasonKey`. Only restaurants
-    that choose to “Send orders directly to the kitchen” are included in the
-    `ONLINE` and `OFFLINE` webhook alerts for this
-    scenario. Restaurants can configure their approval options in Toast Web.
-    These settings do not apply to online ordering integration channels.
-    Orders sent via the orders API are immediately autofired to the kitchen.
-    For more information, see [Orders API limitations](apiDevGuide-portalOrdersApiOverview#ordersAPILimitations).
+Restaurants using Toast Online Ordering with [Manual Approval or Approval Rules](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode) configured do not trigger webhook events with the AVAILABILITY_OFFLINE `reasonKey`. Only restaurants that choose to “Send orders directly to the kitchen” are included in the `ONLINE` and `OFFLINE` webhook alerts for this scenario. Restaurants can configure their approval options in Toast Web. These settings do not apply to online ordering integration channels. Orders sent via the orders API are immediately autofired to the kitchen. For more information, see [Orders API limitations](apiDevGuide-portalOrdersApiOverview#ordersAPILimitations).
 
 
 
 > **Note**
 > 
-> This limitation does not apply to the scenario when a restaurant
-      turns a third-party online ordering channel on or off.
+> This limitation does not apply to the scenario when a restaurant turns a third-party online ordering channel on or off.
 
 
 ### availability_online
 
-The restaurant is online and can accept orders. Attributes in the
-      `availability_online` event’s payload include:
+The restaurant is online and can accept orders. Attributes in the `availability_online` event’s payload include:
 
 | Value | Description | 
 | --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the
-              restaurant.data type:
-              stringformat:
-              uuid | 
-| `status` | `ONLINE`data
-              type: string | 
-| `reasonKey` | `AVAILABILITY_ONLINE`The
-              machine-readable reason why the restaurant is available to
-              accept online orders. data
-              type: string | 
-| `reason` | `Restaurant is approving online orders`The human-readable reason why the restaurant is
-              available to accept orders. data
-              type: string  | 
+| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
+| `status` | `ONLINE`data type: string | 
+| `reasonKey` | `AVAILABILITY_ONLINE`The machine-readable reason why the restaurant is available to accept online orders. data type: string | 
+| `reason` | `Restaurant is approving online orders`The human-readable reason why the restaurant is available to accept orders. data type: string  | 
 
-**Example 9.8. Payload for an availability_online event when a restaurant is
-        online and approving orders**
+**Example 9.8. Payload for an availability_online event when a restaurant is online and approving orders**
 
 ```
 {
@@ -239,29 +161,16 @@ The restaurant is online and can accept orders. Attributes in the
   
 ### availability_offline
 
-The restaurant is offline and should not receive orders.
-      Attributes in the `availability_offline` event’s payload
-      include:
+The restaurant is offline and should not receive orders. Attributes in the `availability_offline` event’s payload include:
 
 | Value | Description | 
 | --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the
-              restaurant.data type:
-              stringformat:
-              uuid | 
-| `status` | `OFFLINE`data
-              type: string  | 
-| `reasonKey` | `AVAILABILITY_OFFLINE`The
-              machine-readable reason why the restaurant is unavailable to
-              accept online orders. data
-              type: string | 
-| `reason` | `Restaurant cannot accept online orders`The human-readable reason why the
-              restaurant is unavailable to accept online orders.
-              data type: string
-               | 
+| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
+| `status` | `OFFLINE`data type: string  | 
+| `reasonKey` | `AVAILABILITY_OFFLINE`The machine-readable reason why the restaurant is unavailable to accept online orders. data type: string | 
+| `reason` | `Restaurant cannot accept online orders`The human-readable reason why the restaurant is unavailable to accept online orders. data type: string  | 
 
-**Example 9.9. Payload for an availability_offline event when a restaurant is
-        offline and not approving orders**
+**Example 9.9. Payload for an availability_offline event when a restaurant is offline and not approving orders**
 
 ```
 {
@@ -279,34 +188,21 @@ The restaurant is offline and should not receive orders.
 ```
 
   
-## Third-party online ordering channel has been manually turned on or
-    off
+## Third-party online ordering channel has been manually turned on or off
 
-A third-party online ordering channel is any online ordering channel
-    such as Uber Eats, DoorDash, or Grubhub. Restaurants can turn a
-    third-party online ordering channel on or off in Toast Web. The default
-    setting for an online ordering channel is `ONLINE`. For more
-    information about turning on or off a third-party online ordering channel,
-    see [Managing orders from third-party online ordering channels](adminGuide-platformManagingThirdPartyOnlineOrderingChannels).
+A third-party online ordering channel is any online ordering channel such as Uber Eats, DoorDash, or Grubhub. Restaurants can turn a third-party online ordering channel on or off in Toast Web. The default setting for an online ordering channel is `ONLINE`. For more information about turning on or off a third-party online ordering channel, see [Managing orders from third-party online ordering channels](adminGuide-platformManagingThirdPartyOnlineOrderingChannels).
 
 
 
 > **Note**
 > 
-> A webhook message is sent every time an online ordering channel is
-      turned on or off.
+> A webhook message is sent every time an online ordering channel is turned on or off.
 
 
-- If a restaurant’s status is `ONLINE`, this means that
-        the restaurant has manually turned on online ordering for that
-        ordering channel. An `ONLINE` status means the restaurant
-        is available for guests to place orders.
+- If a restaurant’s status is `ONLINE`, this means that the restaurant has manually turned on online ordering for that ordering channel. An `ONLINE` status means the restaurant is available for guests to place orders.
 
 
-- If a restaurant’s status is `OFFLINE`, this means
-        that the restaurant has manually turned off online ordering for that
-        ordering channel. An `OFFLINE` status means the restaurant
-        is unavailable for guests to place orders.
+- If a restaurant’s status is `OFFLINE`, this means that the restaurant has manually turned off online ordering for that ordering channel. An `OFFLINE` status means the restaurant is unavailable for guests to place orders.
 
 
 
@@ -314,37 +210,21 @@ A third-party online ordering channel is any online ordering channel
 
 > **Note**
 > 
-> If the restaurant has manually turned on ordering from third-party
-      online ordering channels on Toast Web, but the restaurant's availability
-      status is showing still `OFFLINE`, check if the autofire
-      device is online and operational. For more information, see [Troubleshoot
-      Your Autofire Device](https://central.toasttab.com/s/article/Troubleshooting-your-Autofire-Device).
+> If the restaurant has manually turned on ordering from third-party online ordering channels on Toast Web, but the restaurant's availability status is showing still `OFFLINE`, check if the autofire device is online and operational. For more information, see [Troubleshoot Your Autofire Device](https://central.toasttab.com/s/article/Troubleshooting-your-Autofire-Device).
 
 
 ### toggle_availability_online
 
-The restaurant has turned on online ordering for that ordering
-      channel. Attributes in the `toggle_availability_online`
-      event’s payload include:
+The restaurant has turned on online ordering for that ordering channel. Attributes in the `toggle_availability_online`event’s payload include:
 
 | Value | Description | 
 | --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the
-              restaurant.data type:
-              stringformat:
-              uuid | 
-| `status` | `ONLINE`data
-              type: string | 
-| `reasonKey` | `TOGGLE_ENABLED`The
-              machine-readable reason why the restaurant is available to
-              accept online orders.data
-              type: string | 
-| `reason` | `User enabled integration`The human-readable reason why the restaurant is
-              available to accept orders. data
-              type: string  | 
+| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
+| `status` | `ONLINE`data type: string | 
+| `reasonKey` | `TOGGLE_ENABLED`The machine-readable reason why the restaurant is available to accept online orders.data type: string | 
+| `reason` | `User enabled integration`The human-readable reason why the restaurant is available to accept orders. data type: string  | 
 
-**Example 9.10. Payload for a toggle_availability_online event when a
-        restaurant is online and has turned on online ordering**
+**Example 9.10. Payload for a toggle_availability_online event when a restaurant is online and has turned on online ordering**
 
 ```
 {
@@ -364,28 +244,16 @@ The restaurant has turned on online ordering for that ordering
   
 ### toggle_availability_offline
 
-The restaurant has turned off online ordering for that ordering
-      channel. Attributes in the `toggle_availability_offline`
-      event’s payload include:
+The restaurant has turned off online ordering for that ordering channel. Attributes in the `toggle_availability_offline`event’s payload include:
 
 | Value | Description | 
 | --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the
-              restaurant.data type:
-              stringformat:
-              uuid | 
-| `status` | `OFFLINE`data
-              type: string | 
-| `reasonKey` | `TOGGLE_DISABLED`The
-              machine-readable reason why the restaurant is unavailable to
-              accept online orders.data
-              type: string | 
-| `reason` | `User disabled integration`The human-readable reason why the restaurant is
-              unavailable to accept orders. data
-              type: string  | 
+| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
+| `status` | `OFFLINE`data type: string | 
+| `reasonKey` | `TOGGLE_DISABLED`The machine-readable reason why the restaurant is unavailable to accept online orders.data type: string | 
+| `reason` | `User disabled integration`The human-readable reason why the restaurant is unavailable to accept orders. data type: string  | 
 
-**Example 9.11. Payload for a toggle_availability_offline event when a
-        restaurant is offline and has turned off online ordering**
+**Example 9.11. Payload for a toggle_availability_offline event when a restaurant is offline and has turned off online ordering**
 
 ```
 {
@@ -405,73 +273,42 @@ The restaurant has turned off online ordering for that ordering
   
 ## Restaurant availability webhook statuses
 
-For a restaurant to be available to accept online orders, the online
-    ordering channel toggle and the autofire device must be on (indicating the
-    restaurant's health as being online). Any combination where the online
-    ordering channel toggle and the autofire device are not both on results in
-    the restaurant being offline and unable to accept online orders. The table
-    below outlines the combination of online ordering toggle availability with
-    the autofire device status and the resulting restaurant status.
+For a restaurant to be available to accept online orders, the online ordering channel toggle and the autofire device must be on (indicating the restaurant's health as being online). Any combination where the online ordering channel toggle and the autofire device are not both on results in the restaurant being offline and unable to accept online orders. The table below outlines the combination of online ordering toggle availability with the autofire device status and the resulting restaurant status.
 
-| Online ordering channel toggle
-            availability | Autofire device status | Restaurant availability status | 
+| Online ordering channel toggle availability | Autofire device status | Restaurant availability status | 
 | --- | --- | --- |
-| `toggle_availability_online`The online ordering channel toggle is on.
-             | `availability_online`Restaurant health is online. | The restaurant is online and available to accept
-            online orders.  | 
-| `toggle_availability_online`The online ordering channel toggle is on.
-             | `availability_offline`Restaurant
-            health is offline. | The restaurant is offline and not available to accept
-            online orders.  | 
-| `toggle_availability_offline`The online ordering channel toggle is off.
-             | `availability_online`Restaurant
-            health is online. | The restaurant is offline and not available to accept
-            online orders.  | 
-| `toggle_availability_offline`The online ordering channel toggle is off.
-             | `availability_offline`Restaurant health is offline. | The restaurant is offline and not available to accept
-            online orders.  | 
+| `toggle_availability_online`The online ordering channel toggle is on.  | `availability_online`Restaurant health is online. | The restaurant is online and available to accept online orders.  | 
+| `toggle_availability_online`The online ordering channel toggle is on.  | `availability_offline`Restaurant health is offline. | The restaurant is offline and not available to accept online orders.  | 
+| `toggle_availability_offline`The online ordering channel toggle is off.  | `availability_online`Restaurant health is online. | The restaurant is offline and not available to accept online orders.  | 
+| `toggle_availability_offline`The online ordering channel toggle is off.  | `availability_offline`Restaurant health is offline. | The restaurant is offline and not available to accept online orders.  | 
 
 ## Testing the restaurant availability webhook
 
 ### Setup and testing
 
-Before testing, you need an Android tablet or emulator and the
-      most recent Toast APK version in a Sandbox environment. Set up your
-      tablet or emulator as an autofire device. For more information, see
-      [Setting
-      Up an Auto-fire Device](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407). Submit a test API order using the Toast
-      orders API to ensure the autofire device is configured correctly.
+Before testing, you need an Android tablet or emulator and the most recent Toast APK version in a Sandbox environment. Set up your tablet or emulator as an autofire device. For more information, see [Setting Up an Auto-fire Device](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407). Submit a test API order using the Toast orders API to ensure the autofire device is configured correctly.
 
-The following procedures describe how to trigger
-      `OFFLINE` and `ONLINE` webhook events.
+The following procedures describe how to trigger `OFFLINE` and `ONLINE` webhook events.
 
 
 
 > **Note**
 > 
-> Restaurants must choose to the “Send orders directly to the
-        kitchen” approval rule to receive the `ONLINE` and
-        `OFFLINE` webhook events. For more information, see [Get
-        Started With Online Ordering](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode).
+> Restaurants must choose to the “Send orders directly to the kitchen” approval rule to receive the `ONLINE` and `OFFLINE` webhook events. For more information, see [Get Started With Online Ordering](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode).
 
 
 **Procedure 9.1. To trigger an `OFFLINE` webhook event**
 
-1. Ensure that your Toast POS device is online and you have
-          configured an autofire device.
+1. Ensure that your Toast POS device is online and you have configured an autofire device.
 
 
-2. Submit a test order using the orders API. For more
-          information, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
+2. Submit a test order using the orders API. For more information, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 
-3. Disable the autofire device. For more information on how to
-          disable your autofire device, see [Set
-          up Order Auto-firing](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407#Enabling_Order_Auto-Firing_In_Toasts_Back-end).
+3. Disable the autofire device. For more information on how to disable your autofire device, see [Set up Order Auto-firing](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407#Enabling_Order_Auto-Firing_In_Toasts_Back-end).
 
 
-4. Submit another test order. After five minutes, you receive an
-          `OFFLINE` webhook event.
+4. Submit another test order. After five minutes, you receive an `OFFLINE` webhook event.
 
 
 
@@ -480,8 +317,7 @@ The following procedures describe how to trigger
 1. Enable the autofire device.
 
 
-2. Submit another test order using the orders API. After one
-          minute, you receive an `ONLINE` webhook event.
+2. Submit another test order using the orders API. After one minute, you receive an `ONLINE` webhook event.
 
 
 

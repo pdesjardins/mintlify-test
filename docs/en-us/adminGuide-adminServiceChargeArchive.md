@@ -15,27 +15,20 @@ procedures: 1
 codeExamples: 0
 ---
 
-You can archive a service charge, which means the service charge
-      becomes inactive and is not applied to checks. Archived service charges
-      are not displayed on the Service Charges page,
-      unless you click the Show Archived link.
+You can archive a service charge, which means the service charge becomes inactive and is not applied to checks. Archived service charges are not displayed on the Service Charges page, unless you click the Show Archived link.
 
 **Procedure 6.21. To archive a service charge**
 
-1. [Access Toast
-          Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Payments > Checks & receipt setup >
-          Service charges and fees to open the Service
-          Charges page.
+2. Choose Payments &gt; Checks & receipt setup &gt; Service charges and fees to open the Service Charges page.
 
 
 3. Select the service charge to be archived.
 
 
-4. Click on the Action button (in the
-          right-most column) and select Archive.
+4. Click on the Action button (in the right-most column) and select Archive.
 
 
 5. Click Save.

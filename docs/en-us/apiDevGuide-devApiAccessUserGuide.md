@@ -14,17 +14,12 @@ procedures: 0
 codeExamples: 0
 ---
 
-Standard API access provides you with credentials with read-only
-    access to Toast’s APIs, which you can use to read and review data from a
-    single location or multiple locations in your management group. Standard
-    API access allows you to:
+Standard API access provides you with credentials with read-only access to Toast’s APIs, which you can use to read and review data from a single location or multiple locations in your management group. Standard API access allows you to:
 
-- Generate multiple credential sets. Each set is configurable to
-          grant read access to specific restaurants or stores.
+- Generate multiple credential sets. Each set is configurable to grant read access to specific restaurants or stores.
 
 
-- Use the credentials to read and review data from restaurants
-          and stores included in your credential configuration.
+- Use the credentials to read and review data from restaurants and stores included in your credential configuration.
 
 
 
@@ -32,15 +27,12 @@ Standard API access provides you with credentials with read-only
 
 > **Note**
 > 
-> All API requests are location-specific. This means that you must
-        make separate API requests for each location you want to read data
-        from.
+> All API requests are location-specific. This means that you must make separate API requests for each location you want to read data from.
 
 
 The following is not included with Standard API access:
 
-- Write access. Your integration can only read data from
-          Toast.
+- Write access. Your integration can only read data from Toast.
 
 
 - Sandbox access

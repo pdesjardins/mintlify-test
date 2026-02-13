@@ -15,31 +15,18 @@ procedures: 0
 codeExamples: 0
 ---
 
-To create a stronger connection between the data returned by the
-      menus API and the configuration options you see in Toast Web, the menus
-      API uses updated names for some of the JSON values it returns, as
-      compared to the names used by existing Toast APIs or the menu data
-      export.
+To create a stronger connection between the data returned by the menus API and the configuration options you see in Toast Web, the menus API uses updated names for some of the JSON values it returns, as compared to the names used by existing Toast APIs or the menu data export.
 
 
 
 > **Important**
 > 
-> A menu entity's GUID remains consistent between the APIs even if
-        the names used by the APIs are different.
+> A menu entity's GUID remains consistent between the APIs even if the names used by the APIs are different.
 
 
-The menus API has also restructured and combined some menu data to
-      make it easier to consume. For example, the menu data export uses twelve
-      separate values to express when a menu is available
-      (`startTime`, `endTime`,
-      `availableAllDays`, `daysAvailableString`, and so
-      on) while the menus API combines those separate elements into a single
-      `availability` value.
+The menus API has also restructured and combined some menu data to make it easier to consume. For example, the menu data export uses twelve separate values to express when a menu is available (`startTime`, `endTime`, `availableAllDays`, `daysAvailableString`, and so on) while the menus API combines those separate elements into a single `availability` value.
 
-The following sections provide mappings that show the menu-related
-      configuration options in Toast Web and the JSON values that represent
-      those options in the Toast POS APIs and the menu data export.
+The following sections provide mappings that show the menu-related configuration options in Toast Web and the JSON values that represent those options in the Toast POS APIs and the menu data export.
 
 - [Restaurant mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiRestaurantMappings_V2)
 
@@ -68,10 +55,7 @@ The following sections provide mappings that show the menu-related
 
 ## Restaurant mappings
 
-The menus API returns metadata about a restaurant in its
-        `Restaurant` object. The restaurants API returns comparable
-        data for some of these metadata values, as shown in the table
-        below.
+The menus API returns metadata about a restaurant in its `Restaurant` object. The restaurants API returns comparable data for some of these metadata values, as shown in the table below.
 
 | Toast Web | Menus API | Restaurants API | 
 | --- | --- | --- |
@@ -82,12 +66,7 @@ The menus API returns metadata about a restaurant in its
 
 ## Menu mappings
 
-This section provides a mapping that shows the configuration
-        options for menus in Toast Web and the JSON values that represent
-        those configuration options in the menu data export, the menus API,
-        and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for menus in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |
@@ -111,12 +90,7 @@ This section provides a mapping that shows the configuration
 
 ## Menu group mappings
 
-This section provides a mapping that shows the configuration
-        options for menu groups in Toast Web and the JSON values that
-        represent those configuration options in the menu data export, the
-        menus API, and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for menu groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |
@@ -141,12 +115,7 @@ This section provides a mapping that shows the configuration
 
 ## Menu item mappings
 
-This section provides a mapping that shows the configuration
-        options for menu items in Toast Web and the JSON values that represent
-        those configuration options in the menu data export, the menus API,
-        and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for menu items in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |
@@ -182,12 +151,7 @@ This section provides a mapping that shows the configuration
 
 ## Modifier group mappings
 
-This section provides a mapping that shows the configuration
-        options for modifier groups in Toast Web and the JSON values that
-        represent those configuration options in the menu data export, the
-        menus API, and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for modifier groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |
@@ -201,8 +165,7 @@ This section provides a mapping that shows the configuration
 | Max # selections | maxSelections | maxSelections | maxSelections | 
 | Pre-Modifier Group | premodifierGroupReferences | - | - | 
 | Select where pricing is set | pricingStrategypricingRules | pricingMode | - | 
-| Allow default modifiers to charge their
-                configured price | defaultOptionsChargePrice | defaultOptionsChargePrice | - | 
+| Allow default modifiers to charge their configured price | defaultOptionsChargePrice | defaultOptionsChargePrice | - | 
 | Enable Substitution Pricing | defaultOptionsSubstitutionPricing | defaultOptionsSubstitutionPricing | - | 
 | Select pricing for all modifiers | pricingStrategypricingRules | - | - | 
 | Fixed Modifier Price | pricingStrategypricingRules | - | - | 
@@ -218,23 +181,12 @@ This section provides a mapping that shows the configuration
 
 > **Note**
 > 
-> While the menu data export contains JSON data for the
-          premodifiers themselves, it does not contain data that defines the
-          modifier groups that a premodifier applies to. The menus API has
-          resolved this issue by including a
-          `premodifierGroupReferences` value on each
-          `ModifierGroup` object that defines which premodifiers
-          apply to each modifier group.
+> While the menu data export contains JSON data for the premodifiers themselves, it does not contain data that defines the modifier groups that a premodifier applies to. The menus API has resolved this issue by including a `premodifierGroupReferences` value on each `ModifierGroup` object that defines which premodifiers apply to each modifier group.
 
 
 ## Modifier option mappings
 
-This section provides a mapping that shows the configuration
-        options for modifier options in Toast Web and the JSON values that
-        represent those configuration options in the menu data export, the
-        menus API, and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for modifier options in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |
@@ -252,8 +204,7 @@ This section provides a mapping that shows the configuration
 | Calories | calories | calories | - | 
 | SKU | sku | sku | - | 
 | PLU | plu | plu | - | 
-| GUID (on the menu item details
-                page) | - | itemGroupGuid | - | 
+| GUID (on the menu item details page) | - | itemGroupGuid | - | 
 | Option Groups | modifierGroupReferences | optionGroups | - | 
 | Price | pricingStrategypricingRules | price | - | 
 | Description | description | description | - | 
@@ -265,12 +216,7 @@ This section provides a mapping that shows the configuration
 
 ## Premodifier group mappings
 
-This section provides a mapping that shows the configuration
-        options for premodifier groups in Toast Web and the JSON values that
-        represent those configuration options in the menu data export, the
-        menus API, and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for premodifier groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |
@@ -281,12 +227,7 @@ This section provides a mapping that shows the configuration
 
 ## Premodifier mappings
 
-This section provides a mapping that shows the configuration
-        options for premodifiers in Toast Web and the JSON values that
-        represent those configuration options in the menu data export, the
-        menus API, and the configuration API. If a configuration option is not
-        represented in the data returned by an API or in the data export, it
-        is marked with a dash (-).
+This section provides a mapping that shows the configuration options for premodifiers in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 | Toast Web | Menus API | Menu data export | Configuration API | 
 | --- | --- | --- | --- |

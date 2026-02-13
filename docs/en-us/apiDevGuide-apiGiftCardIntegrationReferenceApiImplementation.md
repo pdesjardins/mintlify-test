@@ -15,8 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can use an example implementation of the Toast gift card
-    integration API to help plan your own implementation of the API. The
-    example implementation is available from the following public
-    GitHub™ repository: [https://github.com/toasttab/GC-API-example-implementation](https://github.com/toasttab/GC-API-example-implementation).
+You can use an example implementation of the Toast gift card integration API to help plan your own implementation of the API. The example implementation is available from the following public GitHub™ repository: [https://github.com/toasttab/GC-API-example-implementation](https://github.com/toasttab/GC-API-example-implementation).
 

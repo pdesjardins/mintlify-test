@@ -14,23 +14,18 @@ procedures: 0
 codeExamples: 0
 ---
 
-Use these guides to help you use Toast APIs and build a successful
-  integration with the Toast platform.
+Use these guides to help you use Toast APIs and build a successful integration with the Toast platform.
 
-- **Getting started **Start by identifying your integration type, then learn how to
-        make sure your integration works smoothly with the Toast
-        platform.
+- **Getting started **Start by identifying your integration type, then learn how to make sure your integration works smoothly with the Toast platform.
 
 
-- **Orders **Information about the orders taken and fulfilled at restaurant
-        locations.
+- **Orders **Information about the orders taken and fulfilled at restaurant locations.
 
 
 - **Payments **Information about guest payments applied to checks.
 
 
-- **Menus **Information about menus available at restaurant
-        locations.
+- **Menus **Information about menus available at restaurant locations.
 
 
 - **Stock **Information about menu item selection availability.
@@ -42,20 +37,16 @@ Use these guides to help you use Toast APIs and build a successful
 - **Employees **Employee information for a restaurant location.
 
 
-- **Cash entries **Information about cash deposits and other cash
-        transactions.
+- **Cash entries **Information about cash deposits and other cash transactions.
 
 
-- **Webhooks **Register to receive information about Toast platform events as
-        they happen.
+- **Webhooks **Register to receive information about Toast platform events as they happen.
 
 
-- **Outbound integrations **Build an API that the Toast platform will use to integrate with
-        your service.
+- **Outbound integrations **Build an API that the Toast platform will use to integrate with your service.
 
 
-- **Analytics **Request and view analytic data for locations in a management
-        group.
+- **Analytics **Request and view analytic data for locations in a management group.
 
 
 

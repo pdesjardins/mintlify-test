@@ -15,22 +15,17 @@ procedures: 0
 codeExamples: 0
 ---
 
-The Toast platform supports multiple options for creating and
-    updating orders.
+The Toast platform supports multiple options for creating and updating orders.
 
 - Using the Toast POS app on a Toast device.
 
-When an order is created on the Toast POS app, it is
-        automatically replicated to the other devices in the same network. You
-        can create an order on one device and then update it on another
-        device.
+When an order is created on the Toast POS app, it is automatically replicated to the other devices in the same network. You can create an order on one device and then update it on another device.
 
 
 - Online from a website.
 
 
-- [Using the orders
-        API.](apiDevGuide-apiCreatingOrders#apiOrdersCreationProcess)
+- [Using the orders API.](apiDevGuide-apiCreatingOrders#apiOrdersCreationProcess)
 
 
 

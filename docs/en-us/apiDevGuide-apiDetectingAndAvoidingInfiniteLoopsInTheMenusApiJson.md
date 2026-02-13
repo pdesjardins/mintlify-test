@@ -15,8 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-While unusual, it is technically possible for the following menu
-      structure to be created in Toast Web:
+While unusual, it is technically possible for the following menu structure to be created in Toast Web:
 
 - Menu Item A includes Modifier Group B
 
@@ -28,18 +27,12 @@ While unusual, it is technically possible for the following menu
 
 
 
-This configuration can create an infinite loop that prevents a
-      menu from being resolved. If your integration encounters a modifier
-      option whose item reference is the same as the modifier option's parent
-      menu item (Menu Item A in the example above), your integration should
-      stop looping through the menu JSON and not display the modifier
-      option.
+This configuration can create an infinite loop that prevents a menu from being resolved. If your integration encounters a modifier option whose item reference is the same as the modifier option's parent menu item (Menu Item A in the example above), your integration should stop looping through the menu JSON and not display the modifier option.
 
 
 
 > **Note**
 > 
-> For information about modifier option item references, see
-        [Understanding a modifier item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
+> For information about modifier option item references, see [Understanding a modifier item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 

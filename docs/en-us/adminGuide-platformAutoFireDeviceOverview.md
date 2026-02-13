@@ -16,26 +16,21 @@ procedures: 0
 codeExamples: 0
 ---
 
-A Toast Autofire™ device is responsible for approving and
-    firing online orders to the kitchen. An Autofire device:
+A Toast Autofire™ device is responsible for approving and firing online orders to the kitchen. An Autofire device:
 
-- Approves orders that are sent directly to the kitchen and orders
-        that use [approval
-        rules](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode).
+- Approves orders that are sent directly to the kitchen and orders that use [approval rules](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode).
 
 
 - Prints payment receipts for online orders.
 
 
-- Fires scheduled orders to the kitchen based on the prep
-        time.
+- Fires scheduled orders to the kitchen based on the prep time.
 
 
 
 > **Note**
 > 
-> Only Autofire devices can manually or automatically fire
-          scheduled orders.
+> Only Autofire devices can manually or automatically fire scheduled orders.
 
 
 

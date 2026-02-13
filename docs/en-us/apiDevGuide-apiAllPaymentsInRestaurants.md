@@ -15,36 +15,21 @@ procedures: 0
 codeExamples: 2
 ---
 
-Send a `GET` request to the
-      `/payments` endpoint of the orders API to get a JSON array of
-      the GUIDs of the payments processed in a business day at your
-      restaurant. A business day's cutoff is defined by the restaurant's
-      `closeoutHour`, which you can retrieve with the [restaurant
-      API](apiDevGuide-apiRestaurantInformation).
+Send a `GET` request to the `/payments` endpoint of the orders API to get a JSON array of the GUIDs of the payments processed in a business day at your restaurant. A business day's cutoff is defined by the restaurant's `closeoutHour`, which you can retrieve with the [restaurant API](apiDevGuide-apiRestaurantInformation).
 
-Depending on the query parameter that you use, you can retrieve
-      the following types of payments:
+Depending on the query parameter that you use, you can retrieve the following types of payments:
 
-- The `paidBusinessDate` query parameter returns a
-          list of the payments made during the business day. The payment
-          method can be of any type, such as by cash, credit card, or gift
-          card.
+- The `paidBusinessDate` query parameter returns a list of the payments made during the business day. The payment method can be of any type, such as by cash, credit card, or gift card.
 
 
-- The `refundBusinessDate` query parameter returns a
-          list of the payments that were refunded during the business day. For
-          details on refunded payments, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments).
+- The `refundBusinessDate` query parameter returns a list of the payments that were refunded during the business day. For details on refunded payments, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments).
 
 
-- The `voidBusinessDate` query parameter returns a
-          list of the payments that were voided during the business day. For
-          details on voided payments, see [Voided payments](apiDevGuide-apiPaymentntInformation#apiVoidedPayments).
+- The `voidBusinessDate` query parameter returns a list of the payments that were voided during the business day. For details on voided payments, see [Voided payments](apiDevGuide-apiPaymentntInformation#apiVoidedPayments).
 
 
 
-The following example **curl** command sends a
-      `GET` request to the `/payments`
-      endpoint of the orders API.
+The following example **curl** command sends a `GET` request to the `/payments`endpoint of the orders API.
 
 **Example 3.1. Get all payments for a restaurant**
 
@@ -68,21 +53,12 @@ curl -X GET \ -H "Authorization: Bearer
 
 
 
-(1) Use the
-            Toast-Restaurant-External-ID request
-            parameter to specify the GUID of the restaurant for which payments
-            will be returned.
+(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant for which payments will be returned.
 
-(2) Specify the business date for order payments in the
-            paidBusinessDate query parameter.
-            Alternatively, you could query for refunds with the
-            refundBusinessDate query parameter or for
-            voids with the voidBusinessDate query
-            parameter.
+(2) Specify the business date for order payments in the paidBusinessDate query parameter. Alternatively, you could query for refunds with the refundBusinessDate query parameter or for voids with the voidBusinessDate query parameter.
 
   
-The following example shows the JSON response data for a GET
-      request to the `/payments` endpoint.
+The following example shows the JSON response data for a GET request to the `/payments` endpoint.
 
 **Example 3.2. Get all payments return data**
 
@@ -96,8 +72,6 @@ The following example shows the JSON response data for a GET
 
 
 
-(1) The /payments endpoint returns a JSON array of
-            payment GUIDs. In this example, the query returns three
-            payments.
+(1) The /payments endpoint returns a JSON array of payment GUIDs. In this example, the query returns three payments.
 
   

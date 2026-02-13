@@ -15,18 +15,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-To get information about the employees of a restaurant, send a
-      `GET` request to the
-      `/labor/v1/employees` endpoint of the labor API.
+To get information about the employees of a restaurant, send a `GET` request to the `/labor/v1/employees` endpoint of the labor API.
 
-The request returns an array of `Employee` objects that
-      contain the configuration information for each employee.
+The request returns an array of `Employee` objects that contain the configuration information for each employee.
 
 ## Example request for information about all employees
 
-The following example **curl** command sends a
-        `GET` request to the
-        `/labor/v1/employees` endpoint.
+The following example **curl** command sends a `GET` request to the `/labor/v1/employees` endpoint.
 
 **Example 7.1. Example request to GET all employees of a restaurant**
 
@@ -50,18 +45,14 @@ https://`[toast-api-hostname]`/labor/v1/employees
 
 
 
- Specify the GUID of the restaurant that you want to
-              GET employees for. This must be an individual
-              restaurant, not the GUID for a restaurant group.
+ Specify the GUID of the restaurant that you want to GET employees for. This must be an individual restaurant, not the GUID for a restaurant group.
 
   
 ## Example response
 
-The following example shows the response for a `GET`
-        request to the `/labor/v1/employees` resource.
+The following example shows the response for a `GET`request to the `/labor/v1/employees` resource.
 
-**Example 7.2. Example response to a request to GET restaurant
-          employees**
+**Example 7.2. Example response to a request to GET restaurant employees**
 
 ```
 [
@@ -117,14 +108,10 @@ The following example shows the response for a `GET`
 
 
 
-(1) The GET request returns an array
-              of employee objects. Each object contains information about an
-              employee.
+(1) The GET request returns an array of employee objects. Each object contains information about an employee.
 
-(2) The guid value contains the unique Toast
-              platform identifier for the employee.
+(2) The guid value contains the unique Toast platform identifier for the employee.
 
-(3) Each object contains information for a different
-              employee.
+(3) Each object contains information for a different employee.
 
   

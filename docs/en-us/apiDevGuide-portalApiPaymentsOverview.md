@@ -14,18 +14,12 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can use the orders API to get information about payments made
-    for checks at your restaurant.
+You can use the orders API to get information about payments made for checks at your restaurant.
 
-- You send a `GET` request to the
-        `/payments` endpoint to get a list of the payments made in
-        one business day.
+- You send a `GET` request to the `/payments` endpoint to get a list of the payments made in one business day.
 
 
-- You send a `GET` request to the
-        `/payments/<em>{guid}</em>` endpoint to
-        get detailed information about one payment, specified by its
-        GUID.
+- You send a `GET` request to the `/payments/<em>{guid}</em>` endpoint to get detailed information about one payment, specified by its GUID.
 
 
 

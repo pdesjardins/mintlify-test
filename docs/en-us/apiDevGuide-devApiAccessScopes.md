@@ -15,9 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-Scopes determine the actions that your Toast API client has
-    permission to perform, which is authenticated using the client ID and
-    secret created in Toast Web. For more information, see [Scopes](apiDevGuide-apiScopes).
+Scopes determine the actions that your Toast API client has permission to perform, which is authenticated using the client ID and secret created in Toast Web. For more information, see [Scopes](apiDevGuide-apiScopes).
 
 Standard API access provides access to the following scopes:
 
@@ -29,8 +27,7 @@ Standard API access provides access to the following scopes:
 
 > **Note**
 > 
-> This scope exposes additional information in the
-                `DeliveryInfo` object of the orders API.
+> This scope exposes additional information in the `DeliveryInfo` object of the orders API.
 
 
  | orders API | 
@@ -39,8 +36,7 @@ Standard API access provides access to the following scopes:
 
 > **Note**
 > 
-> This scope to exposes additional information in the
-                `Customer` object of the orders API.
+> This scope to exposes additional information in the `Customer` object of the orders API.
 
 
  | orders API | 

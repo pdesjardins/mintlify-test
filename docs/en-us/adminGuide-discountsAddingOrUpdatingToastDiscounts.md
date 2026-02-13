@@ -15,60 +15,41 @@ procedures: 1
 codeExamples: 0
 ---
 
-From the Discounts page, you can add and
-      update discounts.
+From the Discounts page, you can add and update discounts.
 
-To configure discounts for a restaurant, a user must have the
-      6. Web Setup > 6.1 Discounts Setup[permission](adminGuide-adminPermissions#adminWebSetupAccessPermissionsReferenceTable).
+To configure discounts for a restaurant, a user must have the 6. Web Setup &gt; 6.1 Discounts Setup[permission](adminGuide-adminPermissions#adminWebSetupAccessPermissionsReferenceTable).
 
-The following is a high-level overview of the procedure to add or
-      edit a discount.
+The following is a high-level overview of the procedure to add or edit a discount.
 
 **Procedure 9.1. To add or update a Toast discount**
 
-1. [Access Toast
-          Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. To open the Discounts page, choose
-          Payments > Comps and promos > Discounts and promo
-          codes.
+2. To open the Discounts page, choose Payments &gt; Comps and promos &gt; Discounts and promo codes.
 
 
-3. To create a new discount, choose Add a
-          Discount.
+3. To create a new discount, choose Add a Discount.
 
-To edit an existing discount, in the Edit
-          column for the discount, choose the pencil icon.
+To edit an existing discount, in the Editcolumn for the discount, choose the pencil icon.
 
 
-4. In the Name of discount field, specify
-          the name of the discount.
+4. In the Name of discount field, specify the name of the discount.
 
 
-5. From the Discount type dropdown list,
-          select the type of discount. For an overview of the discount types,
-          see [Discount types](adminGuide-adminDiscountTypes).
+5. From the Discount type dropdown list, select the type of discount. For an overview of the discount types, see [Discount types](adminGuide-adminDiscountTypes).
 
 
 6. Complete the rest of the discount configuration.
 
-The settings for the discount depend on the type that you
-          choose. For example, the Allow with other
-          discounts and Auto apply discount
-          settings are grayed out if they cannot be selected for a
-          discount.
+The settings for the discount depend on the type that you choose. For example, the Allow with other discounts and Auto apply discountsettings are grayed out if they cannot be selected for a discount.
 
-For a detailed list of discount configuration options, see the
-          [Discount configuration reference](adminGuide-adminDiscountConfigReference).
+For a detailed list of discount configuration options, see the [Discount configuration reference](adminGuide-adminDiscountConfigReference).
 
 
-7. Click Save to save the discount, then
-          [publish the
-          changes](adminGuide-platformPublishingOverview).
+7. Click Save to save the discount, then [publish the changes](adminGuide-platformPublishingOverview).
 
 
 
-After you create a new discount, it is listed on the
-      Discounts page.
+After you create a new discount, it is listed on the Discounts page.
 

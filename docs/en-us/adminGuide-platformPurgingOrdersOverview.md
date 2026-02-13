@@ -15,9 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-Purging closed orders from Toast POS devices reduces the number of
-    orders that the devices hold in memory and can improve performance. The
-    Toast POS system has an order purging service that periodically identifies
-    and purges closed orders. You can also purge closed orders manually at any
-    time from a Toast POS device.
+Purging closed orders from Toast POS devices reduces the number of orders that the devices hold in memory and can improve performance. The Toast POS system has an order purging service that periodically identifies and purges closed orders. You can also purge closed orders manually at any time from a Toast POS device.
 

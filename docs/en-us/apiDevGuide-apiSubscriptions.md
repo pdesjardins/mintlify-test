@@ -15,15 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-After you have created a webhook endpoint, you work with the Toast
-    Integrations team to have your webhook subscription created. The
-    subscription registers a webhook endpoint in the Toast platform and
-    creates an association between the partner that owns the webhook endpoint
-    and the event categories that will be sent to the endpoint. The
-    subscription also defines the [webhook secret](apiDevGuide-apiMessageSigning) that is used for
-    verifying the authenticity of a message and its contents.
+After you have created a webhook endpoint, you work with the Toast Integrations team to have your webhook subscription created. The subscription registers a webhook endpoint in the Toast platform and creates an association between the partner that owns the webhook endpoint and the event categories that will be sent to the endpoint. The subscription also defines the [webhook secret](apiDevGuide-apiMessageSigning) that is used for verifying the authenticity of a message and its contents.
 
-After the subscription has been created, your endpoint will receive
-    updates as they happen in the Toast platform. To unsubscribe from the
-    webhook, you must contact the Toast Integrations team.
+After the subscription has been created, your endpoint will receive updates as they happen in the Toast platform. To unsubscribe from the webhook, you must contact the Toast Integrations team.
 

@@ -15,101 +15,57 @@ procedures: 0
 codeExamples: 0
 ---
 
-You use discounts to reduce the prices that your guests pay. For
-    example, you might offer promotional discounts for specific menu items or
-    for an entire check. Or you might offer combinations of items for a lower
-    price.
+You use discounts to reduce the prices that your guests pay. For example, you might offer promotional discounts for specific menu items or for an entire check. Or you might offer combinations of items for a lower price.
 
 The Toast platform supports different [types of discounts](adminGuide-adminDiscountTypes).
 
-The configuration for a discount involves the following
-    areas:
+The configuration for a discount involves the following areas:
 
 
 
 ****Eligibility****
-: A discount can only be applied if the discount eligibility
-          requirements are met.
+: A discount can only be applied if the discount eligibility requirements are met.
 
-Discounts are often configured with [required items](adminGuide-adminDiscountRequiredItemsAbout).
-          The discount can only be applied when the guest purchases a specific
-          item or combination of items.
+Discounts are often configured with [required items](adminGuide-adminDiscountRequiredItemsAbout). The discount can only be applied when the guest purchases a specific item or combination of items.
 
-You can also configure a discount with an [availability range of dates,
-          days, and times](adminGuide-adminDiscountAvailability). Even if a check includes the required
-          items, if the current date is not within the availability range, the
-          discount cannot be applied.
+You can also configure a discount with an [availability range of dates, days, and times](adminGuide-adminDiscountAvailability). Even if a check includes the required items, if the current date is not within the availability range, the discount cannot be applied.
 
-The discount might also require a [minimum or a
-          maximum check total](adminGuide-adminDiscountsMinMax). If the pre-tax check total is too small
-          or too large, then the discount cannot be applied.
+The discount might also require a [minimum or a maximum check total](adminGuide-adminDiscountsMinMax). If the pre-tax check total is too small or too large, then the discount cannot be applied.
 
-You can also specify which [dining options](adminGuide-adminDiningOptions) are eligible
-          for the discount. For example, you might want to offer a discount
-          only for dine-in customers, or only for takeout orders. The discount
-          will only be available when the selected dining option is used for
-          the order.
+You can also specify which [dining options](adminGuide-adminDiningOptions) are eligible for the discount. For example, you might want to offer a discount only for dine-in customers, or only for takeout orders. The discount will only be available when the selected dining option is used for the order.
 
 
 
 ****Discount status****
-: A discount can be either [active or inactive](adminGuide-adminDiscountsActiveInactive).
-          Inactive discounts cannot be applied to a check. For example, you
-          might make a discount inactive while you are configuring it, then
-          make it active when it is complete. As another example, you might
-          make a discount active for special occasions, then make it inactive
-          again.
+: A discount can be either [active or inactive](adminGuide-adminDiscountsActiveInactive). Inactive discounts cannot be applied to a check. For example, you might make a discount inactive while you are configuring it, then make it active when it is complete. As another example, you might make a discount active for special occasions, then make it inactive again.
 
-You can [archive discounts](adminGuide-adminDiscountsArchive) that you
-          no longer want to use at all. Archived discounts are not displayed
-          on the Discounts page in Toast Web, and cannot
-          be applied to checks or items.
+You can [archive discounts](adminGuide-adminDiscountsArchive) that you no longer want to use at all. Archived discounts are not displayed on the Discounts page in Toast Web, and cannot be applied to checks or items.
 
 
 
-****How a discount is selected and
-        applied****
-: Some discounts can be [applied automatically](adminGuide-adminAutoApplyDiscounts) to
-          eligible checks that are created or updated on the Toast POS
-          app.
+****How a discount is selected and applied****
+: Some discounts can be [applied automatically](adminGuide-adminAutoApplyDiscounts) to eligible checks that are created or updated on the Toast POS app.
 
-Otherwise, a restaurant employee selects the applicable
-          discount from the Toast POS app. The discount configuration includes
-          [how to display it on the Toast
-          POS device](adminGuide-adminDiscountsPosDisplay).
+Otherwise, a restaurant employee selects the applicable discount from the Toast POS app. The discount configuration includes [how to display it on the Toast POS device](adminGuide-adminDiscountsPosDisplay).
 
-For discounts that [require manager
-          permissions](adminGuide-adminDiscountsRequireManager), restaurant employees that do not have manager
-          permissions must ask a manager to enter a passcode before the
-          discount can be applied.
+For discounts that [require manager permissions](adminGuide-adminDiscountsRequireManager), restaurant employees that do not have manager permissions must ask a manager to enter a passcode before the discount can be applied.
 
-A discount might also require that the restaurant employee
-          enter a valid [promo code](adminGuide-adminDiscountPromoCodes).
+A discount might also require that the restaurant employee enter a valid [promo code](adminGuide-adminDiscountPromoCodes).
 
-Restaurant employees might also have to select a [discount
-          reason](adminGuide-adminDiscountReasons), to provide additional context for why the discount
-          was applied.
+Restaurant employees might also have to select a [discount reason](adminGuide-adminDiscountReasons), to provide additional context for why the discount was applied.
 
-Discounts can also be applied to orders that are created using
-          the orders API. For more information, see [Applying discounts to a new order](apiDevGuide-apiDiscountingOrders#apiApplyingDiscount).
+Discounts can also be applied to orders that are created using the orders API. For more information, see [Applying discounts to a new order](apiDevGuide-apiDiscountingOrders#apiApplyingDiscount).
 
 
 
-****Effect of the applied
-        discount****
-: When a discount is applied to a check, then the discount
-          configuration determines the [effect on the check
-          prices](adminGuide-adminDiscountPricing).
+****Effect of the applied discount****
+: When a discount is applied to a check, then the discount configuration determines the [effect on the check prices](adminGuide-adminDiscountPricing).
 
-Discounts are configured with a currency amount or percent
-          amount to discount, or a discounted price to charge for a
-          combination of items.
+Discounts are configured with a currency amount or percent amount to discount, or a discounted price to charge for a combination of items.
 
-[Bulk discounts](adminGuide-adminBulkDiscounts) can be
-          automatically applied multiple times within the same check.
+[Bulk discounts](adminGuide-adminBulkDiscounts) can be automatically applied multiple times within the same check.
 
-The effect of the discount is also affected by [whether
-          a discount can be combined with other discounts](adminGuide-adminDiscountExclusivity).
+The effect of the discount is also affected by [whether a discount can be combined with other discounts](adminGuide-adminDiscountExclusivity).
 
 
 

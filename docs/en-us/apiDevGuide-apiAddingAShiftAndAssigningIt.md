@@ -14,21 +14,15 @@ procedures: 0
 codeExamples: 0
 ---
 
-To add a shift and assign it to a restaurant employee, send a
-      `POST` request to the
-      `/labor/v1/shifts` endpoint of the labor API.
+To add a shift and assign it to a restaurant employee, send a `POST` request to the `/labor/v1/shifts` endpoint of the labor API.
 
-The response provides information about the shift, including the
-      Toast platform GUID.
+The response provides information about the shift, including the Toast platform GUID.
 
 ## Example request to add a shift
 
-The following example **curl** command sends a
-        `POST` request to the
-        `/labor/v1/shifts` endpoint.
+The following example **curl** command sends a `POST` request to the `/labor/v1/shifts` endpoint.
 
-**Example 7.11. Example request to add a shift and assign it to an
-          employee**
+**Example 7.11. Example request to add a shift and assign it to an employee**
 
 ```
 curl -v -X POST \
@@ -52,25 +46,16 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Specify the GUID of the restaurant to add the shift to.
-              This must be an individual restaurant, not the GUID for a
-              restaurant group.
+(1) Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.
 
-(2) Specify the data type of the message body in the
-              Content-Type header field. The value must
-              be application/json.
+(2) Specify the data type of the message body in the Content-Type header field. The value must be application/json.
 
-(3) Include information about the new employee in the message
-              body of the POST request. This example
-              curl command sends message body data from the
-              contents of a file.
+(3) Include information about the new employee in the message body of the POST request. This example curl command sends message body data from the contents of a file.
 
   
-## Example shift details for the message body of the request to
-        add a shift
+## Example shift details for the message body of the request to add a shift
 
-The following example shows the message body data that provides
-        information about the shift.
+The following example shows the message body data that provides information about the shift.
 
 **Example 7.12. Example message body for a request to add a shift**
 
@@ -92,25 +77,20 @@ The following example shows the message body data that provides
 
 
 
-(1) Specify the GUID of the employee who will work the
-              shift.
+(1) Specify the GUID of the employee who will work the shift.
 
-(2) Specify the data type of the Toast platform input object.
-              The value must be Shift.
+(2) Specify the data type of the Toast platform input object. The value must be Shift.
 
 (3) Specify the date and time that the shift begins.
 
-(4) Specify the job for the shift in the
-              jobReference value.
+(4) Specify the job for the shift in the jobReference value.
 
 (5) Specify the date and time that the shift ends.
 
   
 ## Example response
 
-The following example shows the response for a
-        `POST` request to the
-        `/labor/v1/shifts` resource.
+The following example shows the response for a `POST` request to the `/labor/v1/shifts` resource.
 
 **Example 7.13. Example response from a request to add a shift**
 
@@ -140,7 +120,6 @@ The following example shows the response for a
 
 
 
-(1) The guid value contains the GUID that the
-              Toast platform assigns to the shift.
+(1) The guid value contains the GUID that the Toast platform assigns to the shift.
 
   

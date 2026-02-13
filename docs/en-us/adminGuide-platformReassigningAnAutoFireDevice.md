@@ -15,10 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-When the Autofire device goes offline, approval for online orders
-    and automatic firing of scheduled orders is paused until a new device is
-    set as the Autofire device. The Toast platform does not automatically
-    reassign another device to Autofire. To change your Autofire device, see
-    [Configuring an autofire
-    device](adminGuide-platformConfiguringAutoFireDevice).
+When the Autofire device goes offline, approval for online orders and automatic firing of scheduled orders is paused until a new device is set as the Autofire device. The Toast platform does not automatically reassign another device to Autofire. To change your Autofire device, see [Configuring an autofire device](adminGuide-platformConfiguringAutoFireDevice).
 

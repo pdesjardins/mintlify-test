@@ -15,8 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-In Toast Web, most configuration changes require publishing,
-    including the following:
+In Toast Web, most configuration changes require publishing, including the following:
 
 - Menu items and prices
 
@@ -34,11 +33,9 @@ In Toast Web, most configuration changes require publishing,
 
 
 
-The following changes do not require publishing. When you save these
-    changes, they are published immediately:
+The following changes do not require publishing. When you save these changes, they are published immediately:
 
-- Under Employees > Employee
-        management
+- Under Employees &gt; Employee management
 
 - Employees
 
