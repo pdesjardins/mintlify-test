@@ -15,20 +15,29 @@ procedures: 1
 codeExamples: 0
 ---
 
-For efficient kitchen management, the [expediter](adminGuide-adminUsingExpo) must receive all of the orders for supervised prep stations.
+For efficient kitchen management, the [expediter](adminGuide-adminUsingExpo) must receive all of the
+    orders for supervised prep stations.
 
-To review and update which prep station orders the expediter receives you must have the Web Setup \> Kitchen / Dining Room Setup access permission. Then, follow these steps.
+To review and update which prep station orders the expediter
+    receives you must have the Web Setup > Kitchen / Dining Room
+    Setup access permission. Then, follow these steps.
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
-
-
-2. Choose Kitchen \> Kitchen stations \> Prep stations. An interactive grid with rows for each prep station appears.
-
-
-3. Review the Send to Expediter setting for each prep station.
+1. [Access Toast Web
+        ](adminGuide-adminAccessToastAdminBackend).
 
 
-4. To change whether orders for a prep station go to the expediter, click in the Send to Expediter cell to select or clear its assignment.
+2. Choose Kitchen > Kitchen stations > Prep
+        stations. An interactive grid with rows for each prep
+        station appears.
+
+
+3. Review the Send to Expediter setting for
+        each prep station.
+
+
+4. To change whether orders for a prep station go to the expediter,
+        click in the Send to Expediter cell to select or
+        clear its assignment.
 
 
 5. Save and publish your changes.

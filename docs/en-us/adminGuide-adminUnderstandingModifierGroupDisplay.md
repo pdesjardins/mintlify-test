@@ -15,19 +15,30 @@ procedures: 2
 codeExamples: 6
 ---
 
-To determine the display order for a menu item's modifier groups, the Toast platform starts by inspecting the Modifier ordering priority setting on the Front of house \> Order screen setup \> UI options page. This section describes the two possible scenarios, when the Modifier ordering priority setting is set to Off and when it is set to On.
+To determine the display order for a menu item's modifier groups,
+    the Toast platform starts by inspecting the Modifier ordering
+    priority setting on the Front of house > Order
+    screen setup > UI options page. This section describes the
+    two possible scenarios, when the Modifier ordering
+    priority setting is set to Off and when it
+    is set to On.
 
 **Procedure 8.136. When the Modifier ordering priority is set to Off**
 
-1. If the menu item uses the Size pricing strategy, it will have a Size modifier group associated with it for specifying the size of menu item to order. This Size modifier group is shown first.
+1. If the menu item uses the Size pricing
+        strategy, it will have a Size modifier group associated with it for
+        specifying the size of menu item to order. This Size modifier group is
+        shown first.
 
 
-2. Next, the remaining modifier groups are sorted by their required/optional setting and put in this order:
+2. Next, the remaining modifier groups are sorted by their
+        required/optional setting and put in this order:
 
 - Required modifier groups
 
 
-- Modifier groups that are optional but include a POS prompt
+- Modifier groups that are optional but include a POS
+            prompt
 
 
 - Optional modifier groups
@@ -35,16 +46,26 @@ To determine the display order for a menu item's modifier groups, the Toast plat
 
 
 
-3. Next, modifier groups with the same required/optional setting are further sorted according to whether they are inherited from a parent menu group or explicitly defined on the menu item itself. Inherited modifier groups appear first, explicitly defined modifier groups appear second.
+3. Next, modifier groups with the same required/optional setting
+        are further sorted according to whether they are inherited from a
+        parent menu group or explicitly defined on the menu item itself.
+        Inherited modifier groups appear first, explicitly defined modifier
+        groups appear second.
 
 
-4. Next, modifier groups that are inherited from a parent menu group are further sorted using the order that the modifier groups appear in on the menu group’s details page.
+4. Next, modifier groups that are inherited from a parent menu
+        group are further sorted using the order that the modifier groups
+        appear in on the menu group’s details page.
 
-Similarly, modifier groups that are explicitly defined on the menu item are further sorted according using the order in which they appear on the menu item details page.
+Similarly, modifier groups that are explicitly defined on the
+        menu item are further sorted according using the order in which they
+        appear on the menu item details page.
 
 
 
-This illustration shows the modifier group display order when the Display Ordering Priority is set to No:
+This illustration shows the modifier group display order when the
+    Display Ordering Priority is set to
+    No:
 
 ```
 - Size modifier group (if one exists)
@@ -67,28 +88,45 @@ This illustration shows the modifier group display order when the Display Orderi
 
 **Procedure 8.137. When the Display Ordering Priority is set to Yes**
 
-1. Modifier groups are first sorted by their Display Ordering Priority number. Groups with lower numbers appear before groups with higher numbers or no numbers. For example, a modifier group with a Display Ordering Priorityof 1 appears before a modifier group with a Display Ordering Priority of 2 or those with no number at all.
+1. Modifier groups are first sorted by their Display
+        Ordering Priority number. Groups with lower numbers appear
+        before groups with higher numbers or no numbers. For example, a
+        modifier group with a Display Ordering Priority
+        of 1 appears before a modifier group with a Display Ordering
+        Priority of 2 or those with no number at all.
 
 
-2. If a Size modifier group exists for the menu item (and it does not have a Display Order Priority number, see the [note](adminGuide-adminUnderstandingModifierGroupDisplay#adminNoteAboutSizeModifierGroupsWithDisplayOrderingPriorityNumbers)below), it is sorted after modifier groups that have a Display Ordering Priority number and before modifier groups that do not have a Display Ordering Priority number:
+2. If a Size modifier group exists for the menu item (and it does
+        not have a Display Order Priority number, see the
+        [note](adminGuide-adminUnderstandingModifierGroupDisplay#adminNoteAboutSizeModifierGroupsWithDisplayOrderingPriorityNumbers)
+        below), it is sorted after modifier groups that have a
+        Display Ordering Priority number and before
+        modifier groups that do not have a Display Ordering
+        Priority number:
 
-- Groups with a Display Ordering Prioritynumber
+- Groups with a Display Ordering Priority
+            number
 
 
-- Size modifier group (without a Display Ordering Priority number)
+- Size modifier group (without a Display Ordering
+            Priority number)
 
 
-- Groups without a Display Ordering Priority number
+- Groups without a Display Ordering
+            Priority number
 
 
 
 
-3. Next, modifier groups with the same Display Ordering Priority setting are further sorted by their required/optional setting and put in this order:
+3. Next, modifier groups with the same Display Ordering
+        Priority setting are further sorted by their
+        required/optional setting and put in this order:
 
 - Required modifier groups
 
 
-- Modifier groups that are optional but include a POS prompt
+- Modifier groups that are optional but include a POS
+            prompt
 
 
 - Optional modifier groups
@@ -96,16 +134,26 @@ This illustration shows the modifier group display order when the Display Orderi
 
 
 
-4. Next, modifier groups with the same required/optional setting are further sorted according to whether they are inherited from a parent menu group or explicitly defined on the menu item itself. Inherited modifier groups appear first, explicitly defined modifier groups appear second.
+4. Next, modifier groups with the same required/optional setting
+        are further sorted according to whether they are inherited from a
+        parent menu group or explicitly defined on the menu item itself.
+        Inherited modifier groups appear first, explicitly defined modifier
+        groups appear second.
 
 
-5. Next, modifier groups that are inherited from a parent menu group are further sorted using the order that the modifier groups appear in on the menu group’s details page.
+5. Next, modifier groups that are inherited from a parent menu
+        group are further sorted using the order that the modifier groups
+        appear in on the menu group’s details page.
 
-Similarly, modifier groups that are explicitly defined on the menu item are further sorted according using the order in which they appear on the menu item details page.
+Similarly, modifier groups that are explicitly defined on the
+        menu item are further sorted according using the order in which they
+        appear on the menu item details page.
 
 
 
-This illustration shows the modifier group display order when the Display Ordering Priority is set to Yes:
+This illustration shows the modifier group display order when the
+    Display Ordering Priority is set to
+    Yes:
 
 ```
 - Modifier groups with a Display Ordering Priority number, in ascending
@@ -144,9 +192,13 @@ This illustration shows the modifier group display order when the Display Orderi
       on the menu item's details page
 ```
 
-**Display order when menu subgroups are used **If a menu item is contained within a set of nested menu groups (also called subgroups), then the order of those nested menu groups is taken into account when presenting the required, optional with POS prompt, and optional modifier groups for the menu item.
+**Display order when menu subgroups are used **If a menu item is contained within a set of nested menu groups
+      (also called subgroups), then the order of those nested menu groups is
+      taken into account when presenting the required, optional with POS
+      prompt, and optional modifier groups for the menu item.
 
-Consider the following menu hierarchy structure and modifier group assignments:
+Consider the following menu hierarchy structure and modifier group
+    assignments:
 
 ```
 Menu Group 1 - Modifier A, Optional; Modifier B, Required
@@ -154,9 +206,17 @@ Menu Group 1 - Modifier A, Optional; Modifier B, Required
     Menu Item X - Modifier E, Required; Modifier F, Optional
 ```
 
-The Toast platform still presents modifier groups for Menu Item X organized by required, optional with POS prompt, and optional settings. Within each of those three categorizations, however, the modifier groups are sequenced according to the nested menu group hierarchy, so Menu Group 1 modifier groups are shown first, followed by Menu Subgroup 2 modifier groups, followed by Menu Item X modifier groups.
+The Toast platform still presents modifier groups for Menu Item X
+    organized by required, optional with POS prompt, and optional settings.
+    Within each of those three categorizations, however, the modifier groups
+    are sequenced according to the nested menu group hierarchy, so Menu Group
+    1 modifier groups are shown first, followed by Menu Subgroup 2 modifier
+    groups, followed by Menu Item X modifier groups.
 
-This illustration shows the modifier group display order for Menu Item X. To make this example easier to understand, it assumes the Display Ordering Priority is set to No.
+This illustration shows the modifier group display order for Menu
+    Item X. To make this example easier to understand, it assumes the
+    Display Ordering Priority is set to
+    No.
 
 ```
 - Size modifier group (if one exists)
@@ -183,7 +243,9 @@ This illustration shows the modifier group display order for Menu Item X. To mak
     (Menu Item X \> Modifier F, Optional)
 ```
 
-Next, we assign priority 1 to some of the modifier groups and set Display Ordering Priority is set to Yes:
+Next, we assign priority 1 to some of the modifier groups and set
+    Display Ordering Priority is set to
+    Yes:
 
 ```
 Menu Group 1 - Modifier A, Optional; Modifier B, Required
@@ -191,7 +253,8 @@ Menu Group 1 - Modifier A, Optional; Modifier B, Required
     Menu Item X - Modifier E, Required, Priority 1; Modifier F, Optional
 ```
 
-This illustration shows the modifier group display order for these conditions:
+This illustration shows the modifier group display order for these
+    conditions:
 
 ```
 - Modifier groups with a Display Ordering Priority number, in ascending
@@ -242,12 +305,26 @@ This illustration shows the modifier group display order for these conditions:
       (Menu Item X \> Modifier F, Optional, No priority)
 ```
 
-**Note about Size modifier groups with Display Ordering Priority numbers **Typically, the Size modifier groups that are used to specify menu item sizes do not have Display Ordering Prioritynumbers. This is because they are automatically created when a menu group or item is assigned the Size pricing strategy and, as such, they do not appear as an editable modifier group on the menu group or item’s details page. It is technically possible, however, to manually edit a Size modifier group on the Items Database page in Toast Web and assign it a Display Ordering Priority number. If this occurs, then the Size modifier group is sorted along with any other modifier groups that have a Display Ordering Priority number:
+**Note about Size modifier groups with Display Ordering Priority
+      numbers **Typically, the Size modifier groups that are used to specify menu
+      item sizes do not have Display Ordering Priority
+      numbers. This is because they are automatically created when a menu
+      group or item is assigned the Size pricing strategy
+      and, as such, they do not appear as an editable modifier group on the
+      menu group or item’s details page. It is technically possible, however,
+      to manually edit a Size modifier group on the Items
+      Database page in Toast Web and assign it a Display
+      Ordering Priority number. If this occurs, then the Size
+      modifier group is sorted along with any other modifier groups that have
+      a Display Ordering Priority number:
 
-- Groups with a Display Ordering Prioritynumber (including a Size group that has a Display Ordering Priority number)
+- Groups with a Display Ordering Priority
+        number (including a Size group that has a Display Ordering
+        Priority number)
 
 
-- Groups without a Display Ordering Prioritynumber
+- Groups without a Display Ordering Priority
+        number
 
 
 

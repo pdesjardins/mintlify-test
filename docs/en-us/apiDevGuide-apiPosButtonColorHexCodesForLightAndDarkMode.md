@@ -15,13 +15,27 @@ procedures: 0
 codeExamples: 0
 ---
 
-The `Menu`, `MenuGroup`, `MenuItem`, `ModifierGroup`, `Modifier`, and `PreModifier` objects of the menus API have two values, `posButtonColorLight` and `posButtonColorDark`, that represent the button color you see for that menu entity in the Toast POS app.
+The `Menu`, `MenuGroup`,
+      `MenuItem`, `ModifierGroup`,
+      `Modifier`, and `PreModifier` objects of the menus
+      API have two values, `posButtonColorLight` and
+      `posButtonColorDark`, that represent the button color you see
+      for that menu entity in the Toast POS app.
 
-When an employee configures the POS button color for a menu entity, they select a color pairing that consists of two colors, one for light mode and one for dark mode. `posButtonColorLight`contains the hexadecimal (hex) code for the light mode color. `posButtonColorDark` contains the hex code for the dark mode color.
+When an employee configures the POS button color for a menu
+      entity, they select a color pairing that consists of two colors, one for
+      light mode and one for dark mode. `posButtonColorLight`
+      contains the hexadecimal (hex) code for the light mode color.
+      `posButtonColorDark` contains the hex code for the dark mode
+      color.
 
-The default color pairing is `WHITE`. In the `WHITE` color pairing, `posButtonColorLight` is `#f7f7f7` and `posButtonColorDark` is `#1a1c23`.
+The default color pairing is `WHITE`. In the
+      `WHITE` color pairing, `posButtonColorLight` is
+      `#f7f7f7` and `posButtonColorDark` is
+      `#1a1c23`.
 
-The following table shows the color pairing names and the color hex codes for light and dark mode associated with each pairing.
+The following table shows the color pairing names and the color
+      hex codes for light and dark mode associated with each pairing.
 
 | Color pairing name | Light hex code | Dark hex code | 
 | --- | --- | --- |

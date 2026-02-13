@@ -14,7 +14,8 @@ procedures: 0
 codeExamples: 0
 ---
 
-This section provides a reference for the Toast platform's webhook event categories. It includes:
+This section provides a reference for the Toast platform's webhook
+  event categories. It includes:
 
 - [Guest order fulfillment status webhook](apiDevGuide-apiGuestOrderFulfillmentStatusWebhook)
 

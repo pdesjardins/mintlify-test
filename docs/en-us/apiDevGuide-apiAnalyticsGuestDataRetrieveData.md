@@ -15,13 +15,22 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}` endpoint to retrieve guest reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the
+      `/era/v1/guest/payments/{reportRequestGuid}` endpoint to
+      retrieve guest reporting data. The rate limit for this endpoint and
+      method type is five requests per second and 30 requests per minute. For
+      more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
-To request the guest reporting data, you must include the guest reporting data request GUID, or `reportRequestGuid`, as a path parameter.
+To request the guest reporting data, you must include the guest
+      reporting data request GUID, or `reportRequestGuid`, as a
+      path parameter.
 
 ## Request to retrieve guest reporting data
 
-The following **curl** command sends a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
+The following **curl** command sends a
+        `GET` request to the
+        `/era/v1/guest/payments/{reportRequestGuid}`
+        endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/guest/payments/
@@ -31,15 +40,23 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 
 
-(1) Send a GET request to the /era/v1/guest/payments endpoint of the analytics API.
+(1) Send a GET request to the
+            /era/v1/guest/payments endpoint of the analytics
+            API.
 
-(2) Include the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
+(2) Include the reportRequestGuid. For more
+            information about how to retrieve data using the analytics API,
+            see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
+(3) Include an authentication token. For more information, see
+            Authentication and restaurant access.
 
-## Response to the retrieval request for guest reporting data
+## Response to the retrieval request for guest reporting
+        data
 
-The following example shows the response from the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
+The following example shows the response from the
+        `/era/v1/guest/payments/{reportRequestGuid}`
+        endpoint.
 
 ```
 [
@@ -169,5 +186,6 @@ The following example shows the response from the `/era/v1/guest/payments/{repor
 ]
 ```
 
-For more information about the values in the response, see [Understanding the guest reporting data](apiDevGuide-apiAnalyticsGuestDataUnderstandData).
+For more information about the values in the response, see
+        [Understanding the guest reporting data](apiDevGuide-apiAnalyticsGuestDataUnderstandData).
 

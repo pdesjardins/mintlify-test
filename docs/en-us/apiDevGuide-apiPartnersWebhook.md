@@ -16,7 +16,8 @@ procedures: 0
 codeExamples: 0
 ---
 
-The `partners` webhook allows you to receive updates when:
+The `partners` webhook allows you to receive updates
+  when:
 
 - Your integration is added to a restaurant location.
 
@@ -24,11 +25,17 @@ The `partners` webhook allows you to receive updates when:
 - Your integration is removed from a restaurant location.
 
 
-- Your integration's settings in the Toast POS system are updated, for example, when the `externalGroupRef` or `externalRestaurantRef` property is updated.
+- Your integration's settings in the Toast POS system are updated,
+      for example, when the `externalGroupRef` or
+      `externalRestaurantRef` property is updated.
 
 
 
-Partners webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). When a message is published to your webhook endpoint for the `partner`event category, the `eventCategory` value is set to `partner` and the `eventType` is set to one of the following:
+Partners webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). When
+  a message is published to your webhook endpoint for the `partner`
+  event category, the `eventCategory` value is set to
+  `partner` and the `eventType` is set to one of the
+  following:
 
 - [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded)
 
@@ -40,40 +47,131 @@ Partners webhook messages follow the [standard message data schema](apiDevGuide-
 
 
 
-The updates published through the `partner` event category are in addition to the emails you currently receive when your integration is added to or removed from a restaurant location. For more information about how to trigger a webhook event in the `partner` category, see [this Toast Central article](https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast).
+The updates published through the `partner` event category
+  are in addition to the emails you currently receive when your integration is
+  added to or removed from a restaurant location. For more information about
+  how to trigger a webhook event in the `partner` category, see
+  [this
+  Toast Central article](https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast).
 
 ## partner_added
 
 Your integration has been added to a new restaurant location.
 
-Attributes in the `partner_added` event's payload include:
+Attributes in the `partner_added` event's payload
+    include:
 
 | Value | Description | 
 | --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
-| `managementGroupGuid` | A unique Toast POS identifier for a group of restaurants. The management group GUID will be the same for all restaurants within the same group. The management group GUID will be null if a restaurant location does not belong to a restaurant management group.May be null.data type:stringformat:uuid | 
-| `restaurantName` | The human-readable name of the restaurant, set on the Restaurant Info screen of Toast Web.data type: string | 
-| `locationName` | The name of a specific restaurant location, set on the Restaurant Info screen of Toast Web. For example, a restaurant group might assign a location name such as `Palo Alto` or `Boston` to identify a specific location. Note that this field is not required by the Toast platform, so it may be empty.May be null.data type:string | 
-| `externalGroupRef` | An identifier for the restaurant group that is recognized by the the partner that made the request to the `/restaurants` endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.May be null.data type:string | 
-| `externalRestaurantRef` | An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.May be null.data type: string | 
-| `modifiedDate` | The most recent date and time that the partner connection was edited. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.data type:stringformat:date-time | 
-| `createdDate` | The date and time that the partner connection was created. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.data type:stringformat:date-time | 
-| `isoModifiedDate` | The most recent date and time that the partner connection was edited. The date and time are expressed in ISO 8601 format.data type:string | 
-| `isoCreatedDate` | The date and time that the partner connection was created. The date and time are expressed in ISO 8601 format.data type:string | 
-| `createdByFirstName` | The first name of the restaurant employee who added the integration to the restaurant location.May be null.data type:string | 
-| `createdByLastName` | The last name of the restaurant employee who added the integration to the restaurant location.May be null.data type:string | 
-| `createdByEmailAddress` | The email address of the restaurant employee who added the integration.May be null.data type:string | 
-| `createdByPhoneNumber` | The phone number of the restaurant employee who added the integration.May be null.data type:string | 
-| `restaurantPhoneNumber` | The phone number of the restaurant location.May be null.data type: string | 
-| `restaurantAddressLine1` | The first line of the restaurant's address.May be null.data type: string | 
-| `restaurantAddressLine2` | The second line of the restaurant's address.May be null.data type: string | 
-| `restaurantCity` | The city the restaurant location resides in.May be null.data type: string | 
-| `restaurantState` | The state the restaurant location resides in.May be null.data type: string | 
-| `restaurantZipCode` | The zip code for the restaurant location.May be null.data type: string | 
-| `restaurantCountryCode` | The ISO 3166-2 country code for the restaurant location.data type:string | 
-| `restaurantTimezone` | The IANA time zone identifier of the restaurant location. For example, `America/New_York`.data type: string | 
-| `restaurantLatitude` | The north/south geographic coordinate of the restaurant, in decimal degrees.May be null.data type:number | 
-| `restaurantLongtitude` | The east/west geographic coordinate of the restaurant, in decimal degrees.May be null.data type:number | 
+| `restaurantGuid` | A unique Toast POS identifier for the
+            restaurant.data type:
+            stringformat:
+            uuid | 
+| `managementGroupGuid` | A unique Toast POS identifier for a group of
+            restaurants. The management group GUID will be the same for all
+            restaurants within the same group. The management group GUID will
+            be null if a restaurant location does not belong to a restaurant
+            management group.May be
+            null.data type:
+            stringformat:
+            uuid | 
+| `restaurantName` | The human-readable name of the restaurant, set on the
+            Restaurant Info screen of Toast Web.data type: string | 
+| `locationName` | The name of a specific restaurant location, set on
+            the Restaurant Info screen of Toast Web. For
+            example, a restaurant group might assign a location name such as
+            `Palo Alto` or `Boston` to identify a
+            specific location. Note that this field is not required by the
+            Toast platform, so it may be empty.May be
+            null.data type:
+            string | 
+| `externalGroupRef` | An identifier for the restaurant group that is
+            recognized by the the partner that made the request to the
+            `/restaurants` endpoint. This information is entered by
+            the restaurant administrator. If you need information about the
+            restaurant group in this data string, you instruct the restaurant
+            administrator to enter it in the Toast POS system configuration
+            for the integration partner connection.May be
+            null.data type:
+            string | 
+| `externalRestaurantRef` | An identifier for the restaurant location that is
+            recognized by the partner that made the request to the
+            `/restaurants` endpoint. This information is entered by
+            the restaurant administrator. If you need information about the
+            restaurant location in this data string, you instruct the
+            restaurant administrator to enter it in the Toast POS system
+            configuration for the integration partner
+            connection.May be null.data
+            type: string | 
+| `modifiedDate` | The most recent date and time that the partner
+            connection was edited. The date and time are expressed in
+            milliseconds from the UNIX epoch, January 1, 1970 00:00:00
+            UTC.data type:
+            stringformat:
+            date-time | 
+| `createdDate` | The date and time that the partner connection was
+            created. The date and time are expressed in milliseconds from the
+            UNIX epoch, January 1, 1970 00:00:00
+            UTC.data type:
+            stringformat:
+            date-time | 
+| `isoModifiedDate` | The most recent date and time that the partner
+            connection was edited. The date and time are expressed in ISO 8601
+            format.data type:
+            string | 
+| `isoCreatedDate` | The date and time that the partner connection was
+            created. The date and time are expressed in ISO 8601
+            format.data type:
+            string | 
+| `createdByFirstName` | The first name of the restaurant employee who added
+            the integration to the restaurant location.May be
+            null.data type:
+            string | 
+| `createdByLastName` | The last name of the restaurant employee who added
+            the integration to the restaurant location.May be
+            null.data type:
+            string | 
+| `createdByEmailAddress` | The email address of the restaurant employee who
+            added the integration.May be
+            null.data type:
+            string | 
+| `createdByPhoneNumber` | The phone number of the restaurant employee who added
+            the integration.May be
+            null.data type:
+            string | 
+| `restaurantPhoneNumber` | The phone number of the restaurant
+            location.May be null.data
+            type: string | 
+| `restaurantAddressLine1` | The first line of the restaurant's
+            address.May be null.data
+            type: string | 
+| `restaurantAddressLine2` | The second line of the restaurant's
+            address.May be null.data
+            type: string | 
+| `restaurantCity` | The city the restaurant location resides
+            in.May be null.data
+            type: string | 
+| `restaurantState` | The state the restaurant location resides
+            in.May be null.data
+            type: string | 
+| `restaurantZipCode` | The zip code for the restaurant
+            location.May be null.data
+            type: string | 
+| `restaurantCountryCode` | The ISO 3166-2 country code for the restaurant
+            location.data type:
+            string | 
+| `restaurantTimezone` | The IANA time zone identifier of the restaurant
+            location. For example,
+            `America/New_York`.data
+            type: string | 
+| `restaurantLatitude` | The north/south geographic coordinate of the
+            restaurant, in decimal degrees.May be
+            null.data type:
+            number | 
+| `restaurantLongtitude` | The east/west geographic coordinate of the
+            restaurant, in decimal degrees.May be
+            null.data type:
+            number | 
 
 **Example 9.5. Payload example for the partner_added event**
 
@@ -115,9 +213,13 @@ Attributes in the `partner_added` event's payload include:
   
 ## partner_removed
 
-Your integration has been removed from a new restaurant location.
+Your integration has been removed from a new restaurant
+    location.
 
-The payload for the `partner_removed` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for details.
+The payload for the `partner_removed` webhook event is
+    identical to the payload for the `partner_added` event. See
+    [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for
+    details.
 
 **Example 9.6. Payload example for the partner_removed event**
 
@@ -159,9 +261,14 @@ The payload for the `partner_removed` webhook event is identical to the payload 
   
 ## partner_updated
 
-Settings have been updated for your integration, for example, the `externalGroupRef` or `externalRestaurantRef`configuration has been updated.
+Settings have been updated for your integration, for example, the
+    `externalGroupRef` or `externalRestaurantRef`
+    configuration has been updated.
 
-The payload for the `partner_updated` webhook event is identical to the payload for the `partner_added` event. See [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for details.
+The payload for the `partner_updated` webhook event is
+    identical to the payload for the `partner_added` event. See
+    [partner_added](apiDevGuide-apiPartnersWebhook#apiPartnerAdded) for
+    details.
 
 **Example 9.7. Payload example for the partner_updated event**
 
@@ -202,8 +309,10 @@ The payload for the `partner_updated` webhook event is identical to the payload 
 
 
 
-(1) The externalGroupRef field has been updated.
+(1) The externalGroupRef field has been
+          updated.
 
-(2) The externalRestaurantRef field has been updated.
+(2) The externalRestaurantRef field has been
+          updated.
 
   

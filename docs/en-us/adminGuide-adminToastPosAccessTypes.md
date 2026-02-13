@@ -14,7 +14,8 @@ procedures: 0
 codeExamples: 0
 ---
 
-Restaurant employee access to the Toast platform's components is categorized into two groups:
+Restaurant employee access to the Toast platform's components is
+      categorized into two groups:
 
 - Administrative
 
@@ -23,9 +24,12 @@ Restaurant employee access to the Toast platform's components is categorized int
 
 
 
-Depending on their access type, employees use different credentials to access the Toast platform's software and hardware components.
+Depending on their access type, employees use different
+      credentials to access the Toast platform's software and hardware
+      components.
 
-The following table includes information about the access types and their credential type and uses.
+The following table includes information about the access types
+      and their credential type and uses.
 
 | Access type | Credential type | Used for signing into | 
 | --- | --- | --- |
@@ -39,10 +43,13 @@ The following table includes information about the access types and their creden
 
 > **Note**
 > 
-> The POS access code sign in page on a Toast POS device is visible only after an administrative restaurant employee signs into the device using their email address and password.
+> The POS access code sign in page on a Toast POS device is
+        visible only after an administrative restaurant employee signs into
+        the device using their email address and password.
 
 
-The following diagram shows the Toast platform access types.
+The following diagram shows the Toast platform access
+      types.
 
 ![Diagram showing an administrative user logging in to both Toast Web and a Toast POS device using an email and password. Diagram also shows a non-administrative user logging in to a Toast POS device using a passcode.](https://doc.toasttab.com/doc/media/gs_solid_toast_pos_access_types.png)
 

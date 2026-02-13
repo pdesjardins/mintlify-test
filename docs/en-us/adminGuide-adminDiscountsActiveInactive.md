@@ -15,15 +15,23 @@ procedures: 0
 codeExamples: 0
 ---
 
-When you create a new discount, the discount is active by default.
+When you create a new discount, the discount is active by
+      default.
 
-On the Discounts page, you use the toggle in the Active column to control whether the discount is inactive.
+On the Discounts page, you use the toggle in
+      the Active column to control whether the discount
+      is inactive.
 
-An inactive discount does not display on the Toast POS app and is not applied automatically.
+An inactive discount does not display on the Toast POS app and is
+      not applied automatically.
 
-To deactivate a discount, slide the Activetoggle switch to the left.
+To deactivate a discount, slide the Active
+      toggle switch to the left.
 
-To activate a discount, slide the Activetoggle switch to the right.
+To activate a discount, slide the Active
+      toggle switch to the right.
 
-After you make a discount active or inactive, click Save to save the status change, then [publish the changes](adminGuide-platformPublishingOverview).
+After you make a discount active or inactive, click
+      Save to save the status change, then [publish
+      the changes](adminGuide-platformPublishingOverview).
 

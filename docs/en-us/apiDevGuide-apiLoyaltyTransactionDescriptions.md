@@ -16,46 +16,80 @@ procedures: 0
 codeExamples: 0
 ---
 
-This section provides information about the way the Toast loyalty integration API transactions correspond to Toast platform transactions.
+This section provides information about the way the Toast loyalty
+    integration API transactions correspond to Toast platform
+    transactions.
 
-The Toast platform sends requests to your integration API when restaurant employees perform loyalty program transactions at a restaurant. You can identify the transaction type for each request using the *`Toast-Transaction-Type`* HTTP header parameter. The information that you receive in the request body depends on the transaction type. Your integration service must return response data synchronously. Your response includes information such as the offers available to a loyalty program member and error codes that are defined by the integration API specification.
+The Toast platform sends requests to your integration API when
+    restaurant employees perform loyalty program transactions at a restaurant.
+    You can identify the transaction type for each request using the
+    *`Toast-Transaction-Type`* HTTP header parameter. The
+    information that you receive in the request body depends on the
+    transaction type. Your integration service must return response data
+    synchronously. Your response includes information such as the offers
+    available to a loyalty program member and error codes that are defined by
+    the integration API specification.
 
-The loyalty integration API supports the following transaction types:
+The loyalty integration API supports the following transaction
+    types:
 
-- `LOYALTY_SEARCH`: Retrieve a list of loyalty accounts that match search criteria.
-
-
-- `LOYALTY_INQUIRE`: Retrieve list of available offers for a loyalty member, as well as verify offers that have been applied to the check.
-
-
-- `LOYALTY_REDEEM`: Redeem the offers applied to a check.
-
-
-- `LOYALTY_ACCRUE`: Describe the member's purchases to earn credit for future rewards.
-
-
-- `LOYALTY_REVERSE`: Reverse a previous `LOYALTY_REDEEM` or `LOYALTY_ACCRUE`transaction.
+- `LOYALTY_SEARCH`: Retrieve a list of loyalty accounts
+        that match search criteria.
 
 
+- `LOYALTY_INQUIRE`: Retrieve list of available offers
+        for a loyalty member, as well as verify offers that have been applied
+        to the check.
 
-The following sections provide information about Toast loyalty integration transaction types.
+
+- `LOYALTY_REDEEM`: Redeem the offers applied to a
+        check.
+
+
+- `LOYALTY_ACCRUE`: Describe the member's purchases to
+        earn credit for future rewards.
+
+
+- `LOYALTY_REVERSE`: Reverse a previous
+        `LOYALTY_REDEEM` or `LOYALTY_ACCRUE`
+        transaction.
+
+
+
+The following sections provide information about Toast loyalty
+    integration transaction types.
 
 ## LOYALTY_SEARCH
 
-The search workflow occurs when a restaurant employee selects the Rewards button in the Toast POS app and the restaurant guest has not already provided an identifying card or other form of loyalty program account identification.
+The search workflow occurs when a restaurant employee selects the
+      Rewards button in the Toast POS app and the
+      restaurant guest has not already provided an identifying card or other
+      form of loyalty program account identification.
 
 **Procedure 10.5. Search workflow**
 
-1. The restaurant employee selects the Rewards button in the Toast POS app and enters identifying information (name, email address, or phone number) about a restaurant guest.
+1. The restaurant employee selects the
+          Rewards button in the Toast POS app and enters
+          identifying information (name, email address, or phone number) about
+          a restaurant guest.
 
 
-2. The POS sends a search request to your loyalty program integration. The request body includes a `TransactionInformationSearch` object holding identifying information about the restaurant guest.
+2. The POS sends a search request to your loyalty program
+          integration. The request body includes a
+          `TransactionInformationSearch` object holding identifying
+          information about the restaurant guest.
 
 
-3. Your loyalty program integration responds to the search request. The request body includes a `ResponseSearch`object holding list of loyalty accounts that match the search criteria. The HTTP header for the response includes a 200 HTTP response code if there is at least one account found or a 404 HTTP response code if there are no accounts found.
+3. Your loyalty program integration responds to the search
+          request. The request body includes a `ResponseSearch`
+          object holding list of loyalty accounts that match the search
+          criteria. The HTTP header for the response includes a 200 HTTP
+          response code if there is at least one account found or a 404 HTTP
+          response code if there are no accounts found.
 
 
-4. The restaurant employee selects the correct account or cancels the workflow.
+4. The restaurant employee selects the correct account or cancels
+          the workflow.
 
 
 
@@ -78,7 +112,8 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 ```
 
   
-**Example 10.6. Successful loyalty account search response (200 HTTP code)**
+**Example 10.6. Successful loyalty account search response (200 HTTP
+        code)**
 
 ```
 {
@@ -101,9 +136,13 @@ The search workflow occurs when a restaurant employee selects the Rewards button
   
 
 
- You may return a pointsBalance in your response to a LOYALTY_SEARCH request, but this balance will not display on the POS. The points balance only displays on the POS in response to LOYALTY_INQUIRE requests.
+ You may return a pointsBalance in your response
+          to a LOYALTY_SEARCH request, but this balance will not
+          display on the POS. The points balance only displays on the POS in
+          response to LOYALTY_INQUIRE requests.
 
-**Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
+**Example 10.7. Loyalty account search response with no accounts found (404
+        HTTP code)**
 
 ```
 {
@@ -114,80 +153,129 @@ The search workflow occurs when a restaurant employee selects the Rewards button
   
 ## LOYALTY_INQUIRE
 
-The inquire workflow occurs when a restaurant employee selects the Rewards button in the Toast POS app if a restaurant guest's loyalty account has already been found. The Toast platform might send multiple inquire transactions while handling a single purchase interaction for a restaurant guest.
+The inquire workflow occurs when a restaurant employee selects the
+      Rewards button in the Toast POS app if a restaurant
+      guest's loyalty account has already been found. The Toast platform might
+      send multiple inquire transactions while handling a single purchase
+      interaction for a restaurant guest.
 
 **Procedure 10.6. Inquire workflow**
 
-1. The restaurant employee selects a guest's loyalty account from search results or scans, swipes, or keys in the loyalty account identifier in the Toast POS app.
+1. The restaurant employee selects a guest's loyalty account from
+          search results or scans, swipes, or keys in the loyalty account
+          identifier in the Toast POS app.
 
 
-2. The POS sends an inquire request to your loyalty program integration. The request body includes a `TransactionInformationCheck` object holding the following information:
+2. The POS sends an inquire request to your loyalty program
+          integration. The request body includes a
+          `TransactionInformationCheck` object holding the
+          following information:
 
-- The loyalty program account information that identifies the guest.
-
-
-- The restaurant check for the guest. The check might include menu item selections or have no selections. The check might include loyalty program offers that have already been applied (redemptions).
-
-
-
-
-3. Your loyalty program integration responds to the inquire request. The request body includes a `ResponseCheck`object holding the following information:
-
-- A list of available offers. You determine which offers to include in the list. If an item-level offer is available, you must specify the item GUID so the POS knows which item it applies to.
-
-Each offer contains a boolean value indicating whether the offer is applicable based on the current check contents. If the offer is not applicable, the POS will display the offer with formatting to indicate that it is not available (for example, light gray text) and without a Redeembutton.
+- The loyalty program account information that identifies
+              the guest.
 
 
-- A list of offers that are currently applied to the check that *are not valid*. The POS will remove those offers from the check.
-
-
-- A list of offers that are currently applied to the check (redemptions) that *are valid*.
-
-
-- A `ResponseCheck` object must include an `accountInfo` value.
-
-
-- If you include a numeric `pointsBalance` on your `ResponseCheck` object, the points balance will display on the POS.
+- The restaurant check for the guest. The check might
+              include menu item selections or have no selections. The check
+              might include loyalty program offers that have already been
+              applied (redemptions).
 
 
 
 
-4. The restaurant employee might make changes to the check. For example:
+3. Your loyalty program integration responds to the inquire
+          request. The request body includes a `ResponseCheck`
+          object holding the following information:
 
-- Apply and remove loyalty program offers based on the offers that the guest chooses. Each time the employee selects the Rewards button, the Toast platform sends an inquire request.
+- A list of available offers. You determine which offers to
+              include in the list. If an item-level offer is available, you
+              must specify the item GUID so the POS knows which item it
+              applies to.
+
+Each offer contains a boolean value indicating whether the
+              offer is applicable based on the current check contents. If the
+              offer is not applicable, the POS will display the offer with
+              formatting to indicate that it is not available (for example,
+              light gray text) and without a Redeem
+              button.
+
+
+- A list of offers that are currently applied to the check
+              that *are not valid*. The POS will remove
+              those offers from the check.
+
+
+- A list of offers that are currently applied to the check
+              (redemptions) that *are valid*.
+
+
+- A `ResponseCheck` object must include an
+              `accountInfo` value.
+
+
+- If you include a numeric `pointsBalance` on
+              your `ResponseCheck` object, the points balance will
+              display on the POS.
+
+
+
+
+4. The restaurant employee might make changes to the check. For
+          example:
+
+- Apply and remove loyalty program offers based on the
+              offers that the guest chooses. Each time the employee selects
+              the Rewards button, the Toast platform
+              sends an inquire request.
 
 
 - Add and remove items from the check.
 
 
-- Apply and remove discounts that are not associated with the loyalty program to and from the check.
+- Apply and remove discounts that are not associated with
+              the loyalty program to and from the check.
 
 
 
 
-5. The restaurant employee finishes entering the guest's order and enters the payment screen of the POS.
+5. The restaurant employee finishes entering the guest's order
+          and enters the payment screen of the POS.
 
 
-6. The POS sends another inquire request. This request repeats step [Step 2](apiDevGuide-apiLoyaltyTransactionDescriptions.html#apiLoyaltyInquireStepInquire).
+6. The POS sends another inquire request. This request repeats
+          step [Step 2](apiDevGuide-apiLoyaltyTransactionDescriptions.html#apiLoyaltyInquireStepInquire).
 
 
-7. Your loyalty program integration responds to the inquire request. This response repeats step [Step 3](apiDevGuide-apiLoyaltyTransactionDescriptions.html#apiLoyaltyInquireStepRespond).
+7. Your loyalty program integration responds to the inquire
+          request. This response repeats step [Step 3](apiDevGuide-apiLoyaltyTransactionDescriptions.html#apiLoyaltyInquireStepRespond).
 
 
-8. The POS processes the payment and completes the guest transaction.
+8. The POS processes the payment and completes the guest
+          transaction.
 
 
 
-When discounts display on the POS, all applicable discounts display first, followed by all discounts that are not applicable. Within each type of discount (applicable and non-applicable), discounts are ordered by name alphabetically.
+When discounts display on the POS, all applicable discounts
+      display first, followed by all discounts that are not applicable. Within
+      each type of discount (applicable and non-applicable), discounts are
+      ordered by name alphabetically.
 
-In all scenarios, response contains a list of accepted and rejected redemptions, if any.
+In all scenarios, response contains a list of accepted and
+      rejected redemptions, if any.
 
-- If ACCEPTED, redemption is added to check as a discount.
+- If ACCEPTED, redemption is added to check as a
+          discount.
 
 
-- If REJECTED, redemption is removed from the check with an error message.
+- If REJECTED, redemption is removed from the check with an
+          error message.
 
-This is still possible if the check changes. For example, add two pizzas to the order and apply a BOGO discount, buy two pizzas and get a pizza for free. Then remove one of the pizzas. The next inquire will indicate that the offer which was previously applied is rejected because the check does not have the items that are needed to qualify for the offer.
+This is still possible if the check changes. For example, add
+          two pizzas to the order and apply a BOGO discount, buy two pizzas
+          and get a pizza for free. Then remove one of the pizzas. The next
+          inquire will indicate that the offer which was previously applied is
+          rejected because the check does not have the items that are needed
+          to qualify for the offer.
 
 
 
@@ -195,7 +283,10 @@ This is still possible if the check changes. For example, add two pizzas to the 
 
 > **Note**
 > 
-> The Toast platform changes the `tabName` of the check with the `firstName` and `lastName` from the `accountInfo` object that is in the loyalty program integration response to the inquire request.
+> The Toast platform changes the `tabName` of the check
+        with the `firstName` and `lastName` from the
+        `accountInfo` object that is in the loyalty program
+        integration response to the inquire request.
 
 
 **Example 10.8. Loyalty inquire request**
@@ -378,30 +469,43 @@ This is still possible if the check changes. For example, add two pizzas to the 
   
 ## LOYALTY_REDEEM
 
-The redeem workflow occurs when the Toast platform processes a guest payment and completes a purchase transaction.
+The redeem workflow occurs when the Toast platform processes a
+      guest payment and completes a purchase transaction.
 
-The redeem transaction follows the final inquire transaction during the payment process of the guest purchase transaction.
+The redeem transaction follows the final inquire transaction
+      during the payment process of the guest purchase transaction.
 
 **Procedure 10.7. Redeem workflow**
 
-1. The POS sends a redeem request. The request body includes a `TransactionInformationCheck` object holding the following information:
+1. The POS sends a redeem request. The request body includes a
+          `TransactionInformationCheck` object holding the
+          following information:
 
-- The loyalty program account information that identifies the guest.
-
-
-- The restaurant check for the guest. The check might include menu item selections or have no selections. The check might include loyalty program offers that have been applied.
-
-
+- The loyalty program account information that identifies
+              the guest.
 
 
-2. Your loyalty program integration responds to the redeem request. The request body might include a `ResponseCheck`object holding the following information:
-
-- A list of offers that are currently applied to the check that *are not valid*. The POS will remove those offers from the check.
-
+- The restaurant check for the guest. The check might
+              include menu item selections or have no selections. The check
+              might include loyalty program offers that have been
+              applied.
 
 
 
-3. The POS processes the payment and completes the guest transaction.
+
+2. Your loyalty program integration responds to the redeem
+          request. The request body might include a `ResponseCheck`
+          object holding the following information:
+
+- A list of offers that are currently applied to the check
+              that *are not valid*. The POS will remove
+              those offers from the check.
+
+
+
+
+3. The POS processes the payment and completes the guest
+          transaction.
 
 
 
@@ -409,7 +513,11 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 > **Note**
 > 
-> The Toast platform does not process rewards offer redemptions when a restaurant experiences an Internet outage or other network disruption. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](adminGuide-adminOfflineModeOverview).
+> The Toast platform does not process rewards offer redemptions
+        when a restaurant experiences an Internet outage or other network
+        disruption. When a restaurant does not have a functioning network, it
+        is in *offline mode*. For more information, see
+        [Offline mode overview](adminGuide-adminOfflineModeOverview).
 
 
 **Example 10.10. Loyalty redeem request**
@@ -602,26 +710,54 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 
 
-(1) The rejectedRedemptions array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a RejectedRedemption object in this array. For more information, see Handling redeemed offers that are not valid.
+(1) The rejectedRedemptions array is empty because
+            your loyalty program service determined that all of the redeemed
+            reward offers in the redeem request are valid. If your loyalty
+            program service determines that a redeemed reward is not valid,
+            you must include a RejectedRedemption object in this
+            array. For more information, see Handling redeemed offers that are not valid.
 
-(2) The appliedRedemptions array includes a Redemption object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.
+(2) The appliedRedemptions array includes a
+            Redemption object for each rewards offer that your
+            loyalty program service determines is valid for the loyalty
+            account and the current guest check.
 
- In this example, since the quantity of the applied redemption is 2 and the amount is 5, the total amount discounted will be 10.
+ In this example, since the quantity of the
+            applied redemption is 2 and the amount is 5, the
+            total amount discounted will be 10.
 
-(4) Set the transactionStatus to ACCEPT to indicate that your service has successfully processed the request. The status is ACCEPT even when you determine that some redeemed rewards offers are not valid.
+(4) Set the transactionStatus to
+            ACCEPT to indicate that your service has successfully
+            processed the request. The status is ACCEPT even when
+            you determine that some redeemed rewards offers are not
+            valid.
 
   
 ### Handling redeemed offers that are not valid
 
-Each time a restaurant guest chooses to redeem a reward offer, the Toast platform sends a redeem request. If you determine that the reward offer is no longer valid:
+Each time a restaurant guest chooses to redeem a reward offer,
+        the Toast platform sends a redeem request. If you determine that the
+        reward offer is no longer valid:
 
-- Include `ACCEPT` in the `transactionStatus` value of the `LoyaltyTransactionResponse` object you return to the Toast platform.
+- Include `ACCEPT` in the
+            `transactionStatus` value of the
+            `LoyaltyTransactionResponse` object you return to the
+            Toast platform.
 
 
-- Include a `RejectedRedemption` object for each reward offer that is no longer valid in the `rejectedRedemptions` value of the `LoyaltyTransactionResponse` object. Each `RejectedRedemption` object is required to include a `Redemption` object with the `appliedDiscountGuid` value to identify the rejected reward.
+- Include a `RejectedRedemption` object for each
+            reward offer that is no longer valid in the
+            `rejectedRedemptions` value of the
+            `LoyaltyTransactionResponse` object. Each
+            `RejectedRedemption` object is required to include a
+            `Redemption` object with the
+            `appliedDiscountGuid` value to identify the rejected
+            reward.
 
 
-- The Toast platform updates the check. If the guest chooses to redeem another reward offer, the POS sends another redeem request.
+- The Toast platform updates the check. If the guest chooses
+            to redeem another reward offer, the POS sends another redeem
+            request.
 
 
 
@@ -631,26 +767,44 @@ Each time a restaurant guest chooses to redeem a reward offer, the Toast platfor
 
 > **Note**
 > 
-> The Toast platform does not send accrue requests when a restaurant experiences an internet outage or other network disruption. A Toast POS device stores payments and sends accrue requests for them when the device is connected to the network again. When a restaurant does not have a functioning network, it is in *offline mode*. For more information, see [Offline mode overview](adminGuide-adminOfflineModeOverview).
+> The Toast platform does not send accrue requests when a
+        restaurant experiences an internet outage or other network disruption.
+        A Toast POS device stores payments and sends accrue requests for them
+        when the device is connected to the network again. When a restaurant
+        does not have a functioning network, it is in *offline
+        mode*. For more information, see [Offline mode overview](adminGuide-adminOfflineModeOverview).
 
 
-The accrue workflow occurs as an asynchronous process after a guest pays for a check. The Toast platform sends a `LOYALTY_ACCRUE` request regardless of the presence of a `loyaltyIdentifier`.
+The accrue workflow occurs as an asynchronous process after a
+      guest pays for a check. The Toast platform sends a
+      `LOYALTY_ACCRUE` request regardless of the presence of a
+      `loyaltyIdentifier`.
 
 **Procedure 10.8. Accrue workflow**
 
-1. The POS sends an accrue request. The request body includes a `TransactionInformationCheck` object holding the following information:
+1. The POS sends an accrue request. The request body includes a
+          `TransactionInformationCheck` object holding the
+          following information:
 
-- The loyalty program account information that identifies the guest.
-
-
-- The restaurant check for the guest. The check might include menu item selections or have no selections. The check might include loyalty program offers that have been applied.
-
-
+- The loyalty program account information that identifies
+              the guest.
 
 
-2. Your loyalty program integration responds to the accrue request. The request body might include a `ResponseCheck`object holding the following information:
+- The restaurant check for the guest. The check might
+              include menu item selections or have no selections. The check
+              might include loyalty program offers that have been
+              applied.
 
-- A list of offers that are currently applied to the check that *are not valid*. The POS will remove those offers from the check.
+
+
+
+2. Your loyalty program integration responds to the accrue
+          request. The request body might include a `ResponseCheck`
+          object holding the following information:
+
+- A list of offers that are currently applied to the check
+              that *are not valid*. The POS will remove
+              those offers from the check.
 
 
 
@@ -807,9 +961,12 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
 ```
 
   
-### Enabling loyalty messages and QR codes on guest receipts
+### Enabling loyalty messages and QR codes on guest
+        receipts
 
-If your loyalty program integration allows guests to earn points by scanning a QR code on their receipt, the Toast platform will print the QR code if both of the following conditions are met:
+If your loyalty program integration allows guests to earn points
+        by scanning a QR code on their receipt, the Toast platform will print
+        the QR code if both of the following conditions are met:
 
 - No loyalty account is associated with the check
 
@@ -818,34 +975,56 @@ If your loyalty program integration allows guests to earn points by scanning a Q
 
 
 
-If both conditions are met, Toast prints the guest receipt with a QR code. When your guest scans the QR code, a pop-up banner appears with the `LOCATION_GUID:ORDER_GUID:CHECK_GUID`. This information is used to look up the guest’s order and apply points to their loyalty account in your integration.
+If both conditions are met, Toast prints the guest receipt with
+        a QR code. When your guest scans the QR code, a pop-up banner appears
+        with the `LOCATION_GUID:ORDER_GUID:CHECK_GUID`. This
+        information is used to look up the guest’s order and apply points to
+        their loyalty account in your integration.
 
 
 
 > **Note**
 > 
-> If a guest receipt needs to be reprinted after the check has been closed and the QR code has been printed, the receipt must be reprinted from the Payment Terminal screen on the Toast POS device. For more information, see [Reprint and Resend Receipts](https://central.toasttab.com/s/article/Reprint-and-Resend-Receipt-from-Payment-Terminal).
+> If a guest receipt needs to be reprinted after the check has
+          been closed and the QR code has been printed, the receipt must be
+          reprinted from the Payment Terminal screen on
+          the Toast POS device. For more information, see [Reprint
+          and Resend Receipts](https://central.toasttab.com/s/article/Reprint-and-Resend-Receipt-from-Payment-Terminal).
 
 
-Additionally, you can choose to print an optional customizable message on your guest’s receipt by populating the `userMessage` field in a `LOYALTY_ACCRUE`transaction. For more information, see [Loyalty integration specification](https://doc.toasttab.com/openapi/loyalty/tag/Data-definitions/schema/ResponseCheck/).
+Additionally, you can choose to print an optional customizable
+        message on your guest’s receipt by populating the
+        `userMessage` field in a `LOYALTY_ACCRUE`
+        transaction. For more information, see [Loyalty
+        integration specification](https://doc.toasttab.com/openapi/loyalty/tag/Data-definitions/schema/ResponseCheck/).
 
 ## LOYALTY_REVERSE
 
-The reverse workflow occurs when a restaurant employee voids (undoes) a guest's check or voids items that were affected by a loyalty program offer.
+The reverse workflow occurs when a restaurant employee voids
+      (undoes) a guest's check or voids items that were affected by a loyalty
+      program offer.
 
 **Procedure 10.9. Reverse workflow**
 
-1. The POS sends a reverse request. The request body includes a `TransactionInformationReverse` object holding the following information:
+1. The POS sends a reverse request. The request body includes a
+          `TransactionInformationReverse` object holding the
+          following information:
 
-- The loyalty program account information that identifies the guest.
-
-
-- The identifier of the previous loyalty program transaction that needs to be reversed. The identifier of a transaction is in the `Toast-Transaction-GUID` header parameter of the transaction request.
-
-
+- The loyalty program account information that identifies
+              the guest.
 
 
-2. Your loyalty program integration responds to the response request. The request body indicates the success or failure of the reverse transaction.
+- The identifier of the previous loyalty program transaction
+              that needs to be reversed. The identifier of a transaction is in
+              the `Toast-Transaction-GUID` header parameter of the
+              transaction request.
+
+
+
+
+2. Your loyalty program integration responds to the response
+          request. The request body indicates the success or failure of the
+          reverse transaction.
 
 
 
@@ -891,11 +1070,20 @@ The reverse workflow occurs when a restaurant employee voids (undoes) a guest's 
   
 ### Triggering a reverse transaction
 
-You can only reverse redeem and accrue transactions. You reverse redeem and accrue transactions you void menu item selections, payments, and checks. For information about voiding items, payments, and checks in the Toast POS app, see this [Toast central article](https://central.toasttab.com/s/article/Voiding-Items-Payments-and-Checks).
+You can only reverse redeem and accrue transactions. You reverse
+        redeem and accrue transactions you void menu item selections,
+        payments, and checks. For information about voiding items, payments,
+        and checks in the Toast POS app, see this [Toast
+        central article](https://central.toasttab.com/s/article/Voiding-Items-Payments-and-Checks).
 
-The redeem transaction occurs during the payment process. You can reverse a redeem transaction after payment by voiding the entire check or voiding a menu item selection that is related to the redeem transaction.
+The redeem transaction occurs during the payment process. You
+        can reverse a redeem transaction after payment by voiding the entire
+        check or voiding a menu item selection that is related to the redeem
+        transaction.
 
-The accrue transaction occurs asynchronously after you complete the payment process. You can reverse an accrue transaction by voiding the entire check or by making a change to the payment.
+The accrue transaction occurs asynchronously after you complete
+        the payment process. You can reverse an accrue transaction by voiding
+        the entire check or by making a change to the payment.
 
 **Example of changing payment**
 
@@ -905,10 +1093,14 @@ The accrue transaction occurs asynchronously after you complete the payment proc
 2. The check is still open.
 
 
-3. The guest leaves a tip. The guest modifies the payment by adding a tip to the total.
+3. The guest leaves a tip. The guest modifies the payment by
+            adding a tip to the total.
 
 
-4. Although there may not be a change in the accrual amount, modifying the payment triggers a reverse transaction for the accrue transaction for the payment and it triggers a new accrue transaction for the updated payment.
+4. Although there may not be a change in the accrual amount,
+            modifying the payment triggers a reverse transaction for the
+            accrue transaction for the payment and it triggers a new accrue
+            transaction for the updated payment.
 
 
 

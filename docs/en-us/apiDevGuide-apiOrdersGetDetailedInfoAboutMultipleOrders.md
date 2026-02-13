@@ -16,7 +16,8 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can use the orders API to retrieve details about orders that were modified or created during a specified time period.
+You can use the orders API to retrieve details about orders that were
+  modified or created during a specified time period.
 
 
 
@@ -27,64 +28,109 @@ You can use the orders API to retrieve details about orders that were modified o
 
 ## How to make the request
 
-To retrieve the orders, you send a `GET`request to the `/ordersBulk` endpoint.
+To retrieve the orders, you send a `GET`
+    request to the `/ordersBulk` endpoint.
 
-The `/ordersBulk` endpoint returns an array of `Order` objects for each order that is selected based on the specified time period.
+The `/ordersBulk` endpoint returns an array of
+    `Order` objects for each order that is selected based on the
+    specified time period.
 
 ## Specifying the time period for the request
 
-When you send a `GET` request to the `/ordersBulk` endpoint, you specify the period of time that you want to return orders.
+When you send a `GET` request to the
+    `/ordersBulk` endpoint, you specify the period of time that you
+    want to return orders.
 
-To specify the time period, you use one of the following options:
+To specify the time period, you use one of the following
+    options:
 
-- **Select the orders that were last modified during a specified time period.**
+- **Select the orders that were last
+          modified during a specified time period.**
 
-To use this option, specify dates and times in the `startDate` and `endDate` query parameters.
+To use this option, specify dates and times in the
+          `startDate` and `endDate` query
+          parameters.
 
-Order creation is considered an order modification. The request results include orders that were created during the specified time period.
-
-
-- **Select the orders that were created during a single restaurant business day.**
-
-To use this option, set the `businessDate` query parameter.
-
-In the restaurants API, the restaurant's business day cutoff is determined by the `closeoutHour` value in the `General` object within the `RestaurantInfo`object.
-
+Order creation is considered an order modification. The
+          request results include orders that were created during the
+          specified time period.
 
 
-Toast support recommends that you use the `startDate` and `endDate` query parameters. These parameters select orders based on the *modification* time stamp. The request returns orders that were either created or modified during that time period.
+- **Select the orders that were created
+          during a single restaurant business day.**
 
-The `businessDate` query parameter selects orders based on the *creation* date. The request only returns orders that were created on that business day. It does not return orders that were modified on that business day, but created on an earlier day.
+To use this option, set the `businessDate` query
+          parameter.
+
+In the restaurants API, the restaurant's business day cutoff
+          is determined by the `closeoutHour` value in the
+          `General` object within the `RestaurantInfo`
+          object.
+
+
+
+Toast support recommends that you use the `startDate` and
+    `endDate` query parameters. These parameters select orders
+    based on the *modification* time stamp. The request
+    returns orders that were either created or modified during that time
+    period.
+
+The `businessDate` query parameter selects orders based
+    on the *creation* date. The request only returns orders
+    that were created on that business day. It does not return orders that
+    were modified on that business day, but created on an earlier day.
 
 ## Paginating the request results
 
-To control the number of `Order` objects that the `/ordersBulk` endpoint returns for each request, use the `pageSize` query parameter. The maximum `pageSize`that you can specify is 100.
+To control the number of `Order` objects that the
+    `/ordersBulk` endpoint returns for each request, use the
+    `pageSize` query parameter. The maximum `pageSize`
+    that you can specify is 100.
 
-If the number of matching orders is greater than the value of `pageSize`, use the `page` parameter to specify the sequence number of the set of objects to return.
+If the number of matching orders is greater than the value of
+    `pageSize`, use the `page` parameter to specify the
+    sequence number of the set of objects to return.
 
-For example, the time period you specify selects 100 orders. You set `pageSize` to `10`. To return the first ten orders, set `page` to `1`. To return the next ten orders, set `page` to `2`.
+For example, the time period you specify selects 100 orders. You set
+    `pageSize` to `10`. To return the first ten orders,
+    set `page` to `1`. To return the next ten orders,
+    set `page` to `2`.
 
-The response header fields for the `/ordersBulk` endpoint include a set of response pagination links that you can use to send requests that return each `Order` object in the set of orders you select in a time period. These link header fields follow the pattern described in the [proposed Internet Engineering Task Force (IETF) web linking standard](https://tools.ietf.org/html/rfc5988).
+The response header fields for the `/ordersBulk` endpoint
+    include a set of response pagination links that you can use to send
+    requests that return each `Order` object in the set of orders
+    you select in a time period. These link header fields follow the pattern
+    described in the [proposed Internet
+    Engineering Task Force (IETF) web linking standard](https://tools.ietf.org/html/rfc5988).
 
-For an example of the pagination links in a `/ordersBulk`endpoint response, see [Example response data pagination header fields](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders#apiOrdersBulkPaginationHeaderFieldsExample). For more information about Toast API response pagination, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
+For an example of the pagination links in a `/ordersBulk`
+    endpoint response, see [Example response data pagination header fields](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders#apiOrdersBulkPaginationHeaderFieldsExample). For more
+    information about Toast API response pagination, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
 
 
 
 > **Note**
 > 
-> Unlike the endpoints of the Toast configuration API, the `/ordersBulk` endpoint does not return a `last`link field.
+> Unlike the endpoints of the Toast configuration API, the
+      `/ordersBulk` endpoint does not return a `last`
+      link field.
 
 
 
 
 > **Note**
 > 
-> The `/ordersBulk` endpoint has a lower rate limit than most other Toast API endpoints. API clients can poll the `/orderBulk` endpoint up to five times per location per second. For more information about API rate limits, see [Toast rate limit values](apiDevGuide-apiRateLimiting#apiToastRateLimits).
+> The `/ordersBulk` endpoint has a lower rate limit than
+      most other Toast API endpoints. API clients can poll the
+      `/orderBulk` endpoint up to five times per location per
+      second. For more information about API rate limits, see [Toast rate limit values](apiDevGuide-apiRateLimiting#apiToastRateLimits).
 
 
-## Example request for detailed information about multiple orders
+## Example request for detailed information about multiple
+    orders
 
-The following example shows a request for detailed information about orders that were last modified during a period of time.
+The following example shows a request for detailed information about
+    orders that were last modified during a period of time.
 
 ```
 curl -X GET \
@@ -108,19 +154,30 @@ pageSize=10&page=2"
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access.
+(1) Include an authentication token. For more information, see
+        Authentication and restaurant access.
 
-(2) Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.
+(2) Specify the GUID of the restaurant that created the orders. This
+        must be the GUID of an individual restaurant. It cannot be the GUID of
+        a restaurant group.
 
-(3) Send a GET request to the /ordersBulk endpoint of the orders API.
+(3) Send a GET request to the
+        /ordersBulk endpoint of the orders API.
 
-(4) To specify a period of time to return orders for, use the startDate and endDatequery parameters.
+(4) To specify a period of time to return orders for, use the
+        startDate and endDate
+        query parameters.
 
-(5) In the pageSize query parameter, specify the maximum number of objects to include in the response. In the page query parameter, specify the sequence number of the set of objects to return. For more information, see Paginating response data.
+(5) In the pageSize query parameter, specify the
+        maximum number of objects to include in the response. In the
+        page query parameter, specify the sequence number of the
+        set of objects to return. For more information, see Paginating response data.
 
 ## Example response data containing multiple orders
 
-The following example shows the response data from the `/ordersBulk` endpoint. It contains detailed information about multiple orders.
+The following example shows the response data from the
+    `/ordersBulk` endpoint. It contains detailed information about
+    multiple orders.
 
 ```
 [
@@ -293,19 +350,29 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 
 
-(1) The first Order object in the array provides detailed information about a single order.
+(1) The first Order object in the array provides
+        detailed information about a single order.
 
- The deliveryInfo JSON value is only populated if your Toast API client has the delivery_info.address:readscope. For more information about scopes, see Scopes.
+ The deliveryInfo JSON value is only populated if
+        your Toast API client has the delivery_info.address:read
+        scope. For more information about scopes, see Scopes.
 
- The curbsidePickupInfo JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
+ The curbsidePickupInfo JSON value is only populated
+        if your Toast API client has the guest.pi:read scope. For
+        more information about scopes, see Scopes.
 
- The customer JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
+ The customer JSON value is only populated if your
+        Toast API client has the guest.pi:read scope. For more
+        information about scopes, see Scopes.
 
-(5) Each subsequent Order object in the array provides detailed information about a different order.
+(5) Each subsequent Order object in the array provides
+        detailed information about a different order.
 
 ## Example response data pagination header fields
 
-The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
+The following example shows the header fields that provide response
+    data pagination URLs for the `/ordersBulk` endpoint. For more
+    information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).
 
 ```
 link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z

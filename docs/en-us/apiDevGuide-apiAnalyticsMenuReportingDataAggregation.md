@@ -15,7 +15,12 @@ procedures: 0
 codeExamples: 5
 ---
 
-The default way to view menu reporting data is by day for each location. You can choose to further aggregate the data by menu, menu group, menu item, or modifier. The `groupBy` value in the message body of the `/era/v1/menu/day` or `/era/v1/menu/week` request groups the data by one of these options:
+The default way to view menu reporting data is by day for each
+      location. You can choose to further aggregate the data by menu, menu
+      group, menu item, or modifier. The `groupBy` value in the
+      message body of the `/era/v1/menu/day` or
+      `/era/v1/menu/week` request groups the data by one of these
+      options:
 
 - `MENU` to group by menu
 
@@ -34,19 +39,31 @@ The default way to view menu reporting data is by day for each location. You can
 
 > **Note**
 > 
-> You can only use the `groupBy` value if requesting data for a `day` or `week` time range.
+> You can only use the `groupBy` value if requesting
+        data for a `day` or `week` time range.
 
 
-The menu reporting data you retrieve includes an object for every available combination of business date, restaurant, and menu entity. If there is no information correlated to a combination of data, then there is no object. For example, if a menu item was not ordered on Monday, there is no data available for the menu item on Monday for the restaurant. Another example is a menu that is only available on Sundays. There is no data for that menu at that restaurant for days other than Sunday.
+The menu reporting data you retrieve includes an object for every
+      available combination of business date, restaurant, and menu entity. If
+      there is no information correlated to a combination of data, then there
+      is no object. For example, if a menu item was not ordered on Monday,
+      there is no data available for the menu item on Monday for the
+      restaurant. Another example is a menu that is only available on Sundays.
+      There is no data for that menu at that restaurant for days other than
+      Sunday.
 
 
 
 > **Note**
 > 
-> You can only aggregate using one value, either `MENU`, `MENU_GROUP`, `MENU_ITEM`, or `MODIFIER`.
+> You can only aggregate using one value, either
+        `MENU`, `MENU_GROUP`, `MENU_ITEM`, or
+        `MODIFIER`.
 
 
-The following example shows the message body for a `/era/v1/menu/day` request that uses the `groupBy`value with `MENU`.
+The following example shows the message body for a
+      `/era/v1/menu/day` request that uses the `groupBy`
+      value with `MENU`.
 
 ```
 {
@@ -60,15 +77,27 @@ The following example shows the message body for a `/era/v1/menu/day` request th
 
 
 
-(1) The start date of the time range for the menu reporting data, in YYYYMMDD format.
+(1) The start date of the time range for the menu reporting data,
+          in YYYYMMDD format.
 
-(2) The end date of the time range for the menu reporting data, in YYYYMMDD format.
+(2) The end date of the time range for the menu reporting data, in
+          YYYYMMDD format.
 
-(3) The list of restaurant GUIDs from the management group to include in the menu reporting data. If any restaurants are listed, the restaurant GUIDs not listed are excluded. When left blank, all restaurants are included by default.
+(3) The list of restaurant GUIDs from the management group to
+          include in the menu reporting data. If any restaurants are listed,
+          the restaurant GUIDs not listed are excluded. When left blank, all
+          restaurants are included by default.
 
-(4) This request is for menu reporting data grouped by menu.
+(4) This request is for menu reporting data grouped by
+          menu.
 
-When you use `MENU`, the menu reporting data includes objects with information related to a menu for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and two menus. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
+When you use `MENU`, the menu reporting data includes
+      objects with information related to a menu for a specific restaurant and
+      day. If there is no information correlated to a combination of data,
+      then there is no object. The following list shows possible objects in
+      the menu reporting data for two restaurants, covering two days and two
+      menus. The objects can appear in any order in the menu reporting data.
+      They are not organized chronologically or alphabetically.
 
 ```
 Restaurant 1, Day 1, Menu 1
@@ -79,9 +108,17 @@ Restaurant 2, Day 2, Menu 1
 Restaurant 2, Day 2, Menu 2
 ```
 
-In the list above, the first object includes menu information related to Menu 1 on Day 1 for Restaurant 1.
+In the list above, the first object includes menu information
+      related to Menu 1 on Day 1 for Restaurant 1.
 
-When you use `MENU_GROUP`, the menu reporting data includes objects with information related to a menu group for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and three menu groups. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
+When you use `MENU_GROUP`, the menu reporting data
+      includes objects with information related to a menu group for a specific
+      restaurant and day. If there is no information correlated to a
+      combination of data, then there is no object. The following list shows
+      possible objects in the menu reporting data for two restaurants,
+      covering two days and three menu groups. The objects can appear in any
+      order in the menu reporting data. They are not organized chronologically
+      or alphabetically.
 
 ```
 Restaurant 1, Day 1, Menu Group 1
@@ -95,9 +132,17 @@ Restaurant 2, Day 2, Menu Group 1
 Restaurant 2, Day 2, Menu Group 2
 ```
 
-In the list above, the first object includes menu information related to Menu Group 1 on Day 1 for Restaurant 1.
+In the list above, the first object includes menu information
+      related to Menu Group 1 on Day 1 for Restaurant 1.
 
-When you use `MENU_ITEM`, the menu reporting data includes objects with information related to a menu item for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and four menu items. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
+When you use `MENU_ITEM`, the menu reporting data
+      includes objects with information related to a menu item for a specific
+      restaurant and day. If there is no information correlated to a
+      combination of data, then there is no object. The following list shows
+      possible objects in the menu reporting data for two restaurants,
+      covering two days and four menu items. The objects can appear in any
+      order in the menu reporting data. They are not organized chronologically
+      or alphabetically.
 
 ```
 Restaurant 1, Day 1, Menu Item 1
@@ -114,9 +159,17 @@ Restaurant 2, Day 2, Menu Item 2
 Restaurant 2, Day 2, Menu Item 4
 ```
 
-In the list above, the first object includes menu information related to Menu Item 1 on Day 1 for Restaurant 1.
+In the list above, the first object includes menu information
+      related to Menu Item 1 on Day 1 for Restaurant 1.
 
-When you use `MODIFIER`, the menu reporting data includes objects with information related to a modifier for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days, and three modifiers. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
+When you use `MODIFIER`, the menu reporting data
+      includes objects with information related to a modifier for a specific
+      restaurant and day. If there is no information correlated to a
+      combination of data, then there is no object. The following list shows
+      possible objects in the menu reporting data for two restaurants,
+      covering two days, and three modifiers. The objects can appear in any
+      order in the menu reporting data. They are not organized chronologically
+      or alphabetically.
 
 - Restaurant 1, Day 1, Modifier 1
 
@@ -158,15 +211,20 @@ Restaurant 2, Day 2, Modifier 1
 Restaurant 2, Day 2, Modifier 2
 ```
 
-In the list above, the first object includes menu information related to Modifier 1 on Day 1 for Restaurant 1.
+In the list above, the first object includes menu information
+      related to Modifier 1 on Day 1 for Restaurant 1.
 
 ## Example of menu reporting data aggregated by menu item
 
-The following example requests menu reporting data for two days and two restaurants, and is grouped into subsections by menu item.
+The following example requests menu reporting data for two days
+        and two restaurants, and is grouped into subsections by menu
+        item.
 
 ### Request for menu reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/menu/week` endpoint.
+The following example **curl** command sends a
+          `POST` request to the
+          `/era/v1/menu/week` endpoint.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
@@ -177,17 +235,26 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 
 
 
-(1) Send a POST request to the /era/v1/menu/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
+(1) Send a POST request to the
+              /era/v1/menu/{timeRange} endpoint of the analytics
+              API. The {timeRange} in this example is
+              week.
 
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
+(2) Include an authentication token. For more information, see
+              Authentication and restaurant access.
 
-(3) Set the data type of the message body to application/json.
+(3) Set the data type of the message body to
+              application/json.
 
-(4) Include details about the requested menu reporting data in the message body. The following example is the message body for this curl command example.
+(4) Include details about the requested menu reporting data in
+              the message body. The following example is the message body for
+              this curl command example.
 
 ### Message body for the menu reporting data request
 
-The following example shows the message body of the `/era/v1/menu/week` request that uses the `groupBy` value with `MENU_ITEM`.
+The following example shows the message body of the
+          `/era/v1/menu/week` request that uses the
+          `groupBy` value with `MENU_ITEM`.
 
 ```
 {
@@ -202,19 +269,29 @@ The following example shows the message body of the `/era/v1/menu/week` request 
 
 
 
-(1) The list of restaurant GUIDs from the management group to include in the menu reporting data. Restaurant GUIDs not listed are excluded.
+(1) The list of restaurant GUIDs from the management group to
+              include in the menu reporting data. Restaurant GUIDs not listed
+              are excluded.
 
-(2) The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, excludedRestaurantIds must be empty because restaurant GUIDs are already included with the restaurantIds value.
+(2) The list of restaurant GUIDs from the management group to
+              exclude from the menu reporting data. For this example,
+              excludedRestaurantIds must be empty because
+              restaurant GUIDs are already included with the
+              restaurantIds value.
 
-(3) The start date of the time range for the menu reporting data, in YYYYMMDD format.
+(3) The start date of the time range for the menu reporting
+              data, in YYYYMMDD format.
 
-(4) The end date of the time range for the menu reporting data, in YYYYMMDD format.
+(4) The end date of the time range for the menu reporting
+              data, in YYYYMMDD format.
 
-(5) This request is for menu reporting data grouped by menu item.
+(5) This request is for menu reporting data grouped by menu
+              item.
 
 ### Response to the menu reporting data request
 
-The following example shows the response from the `/era/v1/menu/week` endpoint.
+The following example shows the response from the
+          `/era/v1/menu/week` endpoint.
 
 ```
 "bd9fb800-7c1e-40b8-9e5d-1010430a6a09"
@@ -222,11 +299,15 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
 
 
 
-(1) The GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
+(1) The GUID for the menu reporting data request, also called
+              the reportRequestGuid. For more information about
+              how to retrieve data using the analytics API, see Understanding the analytics API process.
 
 ### Request to retrieve the menu reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a
+          `GET` request to the
+          `/era/v1/menu/{reportRequestGuid}` endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/menu/
@@ -236,15 +317,21 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
 
 
 
-(1) Send a GET request to the /era/v1/menu endpoint of the analytics API.
+(1) Send a GET request to the
+              /era/v1/menu endpoint of the analytics API.
 
-(2) Include the GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
+(2) Include the GUID for the menu reporting data request, also
+              called the reportRequestGuid. For more information
+              about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
+(3) Include an authentication token. For more information, see
+              Authentication and restaurant access.
 
-### Response to the retrieval request for menu reporting data
+### Response to the retrieval request for menu reporting
+          data
 
-The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example shows the response from the
+          `/era/v1/menu/{reportRequestGuid}` endpoint.
 
 ```
 [

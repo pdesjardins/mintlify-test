@@ -15,7 +15,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-The `GET /menus` endpoint of the menus API uses an endpoint rate limit for each client of one request per second per location. Requests that your API client makes for one restaurant do not affect the client's rate limits for any other restaurant. Note that this is a lower rate limit than the default API rate limit that is enforced for other Toast APIs. The `GET /metadata` endpoint of the menus API uses the default API rate limit described in [Toast rate limit values](apiDevGuide-apiRateLimiting#apiToastRateLimits).
+The `GET /menus` endpoint of the menus API uses an
+      endpoint rate limit for each client of one request per second per
+      location. Requests that your API client makes for one restaurant do not
+      affect the client's rate limits for any other restaurant. Note that this
+      is a lower rate limit than the default API rate limit that is enforced
+      for other Toast APIs. The `GET /metadata` endpoint of the
+      menus API uses the default API rate limit described in [Toast rate limit values](apiDevGuide-apiRateLimiting#apiToastRateLimits).
 
 For more information on rate limits for Toast APIs, see [Rate limiting](apiDevGuide-apiRateLimiting).
 

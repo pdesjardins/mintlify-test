@@ -15,10 +15,11 @@ procedures: 0
 codeExamples: 1
 ---
 
-Webhook messages are always sent as JSON payloads in the body of POST requests. The message is sent with `Content-Type:
-    application/json`.
+Webhook messages are always sent as JSON payloads in the body of
+    POST requests. The message is sent with `Content-Type: application/json`.
 
-Regardless of the event category, the data in the message that is published to your endpoint follows the same schema:
+Regardless of the event category, the data in the message that is
+    published to your endpoint follows the same schema:
 
 ```
 {
@@ -32,5 +33,6 @@ Regardless of the event category, the data in the message that is published to y
 }
 ```
 
-For reference information on the payload returned for specific event categories, see [Webhooks reference](apiDevGuide-apiWebhooksReference).
+For reference information on the payload returned for specific event
+    categories, see [Webhooks reference](apiDevGuide-apiWebhooksReference).
 

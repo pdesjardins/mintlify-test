@@ -15,9 +15,15 @@ procedures: 0
 codeExamples: 0
 ---
 
-For open, paid, and closed orders, you can send the order to all of the Toast POS devices.
+For open, paid, and closed orders, you can send the order to all of
+    the Toast POS devices.
 
-On the order details dialog in the Ordersreport, the Send to devices option sends the order to all Toast POS devices.
+On the order details dialog in the Orders
+    report, the Send to devices option sends the order to
+    all Toast POS devices.
 
-To view the order on a POS device, select Payment Terminal, then select either Open Checks, Paid Checks, or Closed Checks.
+To view the order on a POS device, select Payment
+    Terminal, then select either Open Checks,
+    Paid Checks, or Closed
+    Checks.
 

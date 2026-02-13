@@ -15,7 +15,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-Have additional questions? Visit our [Toast Integrations Community Forum](https://developers.toasttab.com/hc/en-us/community/topics). Login or sign up for an account to access the Toast Integrations Community Forum.
+Have additional questions? Visit our [Toast
+    Integrations Community Forum](https://developers.toasttab.com/hc/en-us/community/topics). Login or sign up for an account to
+    access the Toast Integrations Community Forum.
 
 If your questions contain sensitive information, use this [form](https://tost.co/custom-api-support).
 
@@ -23,6 +25,7 @@ If your questions contain sensitive information, use this [form](https://tost.co
 
 > **Note**
 > 
-> Do not provide your client secret or authentication token in plain text if posting in the Toast Integrations Community Forum.
+> Do not provide your client secret or authentication token in plain
+      text if posting in the Toast Integrations Community Forum.
 
 

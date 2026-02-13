@@ -15,27 +15,44 @@ procedures: 0
 codeExamples: 1
 ---
 
-The Toast platform implements message signing that allows you to validate the source of data sent to your webhook endpoint.
+The Toast platform implements message signing that allows you to
+    validate the source of data sent to your webhook endpoint.
 
 
 
 > **Note**
 > 
-> Using message signing to validate a webhook message is not required, however, it is highly recommended.
+> Using message signing to validate a webhook message is not
+      required, however, it is highly recommended.
 
 
-Using the secret key that is generated when your webhook subscription is created, and the body and timestamp of the message, a signature for each message is computed and published in the `Toast-Signature` HTTP header on the POST request to your endpoint.
+Using the secret key that is generated when your webhook
+    subscription is created, and the body and timestamp of the message, a
+    signature for each message is computed and published in the
+    `Toast-Signature` HTTP header on the POST request to your
+    endpoint.
 
 
 
 > **Note**
 > 
-> The secret key is unique for each webhook subscription within an environment. For example, a `stock` webhook subscription has a different secret key than a `partner` webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see [Webhook basics](apiDevGuide-apiWebhookBasics). For more information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).
+> The secret key is unique for each webhook subscription within an
+      environment. For example, a `stock` webhook subscription has
+      a different secret key than a `partner` webhook subscription
+      for the same integration partner and within the same environment. For
+      more information about webhook subscriptions, see [Webhook basics](apiDevGuide-apiWebhookBasics). For more
+      information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).
 
 
-To validate the message, you compute the signature on your side, using the same process that the Toast platform uses to compute the signature. If the signatures match, then the message is valid and trustworthy.
+To validate the message, you compute the signature on your side,
+    using the same process that the Toast platform uses to compute the
+    signature. If the signatures match, then the message is valid and
+    trustworthy.
 
-The signature is derived by concatenating the body and timestamp of the webhook message into a string. This string is hashed and then signed using the HMAC-SHA256 algorithm and the secret key. The following is a code sample for computing the signature:
+The signature is derived by concatenating the body and timestamp of
+    the webhook message into a string. This string is hashed and then signed
+    using the HMAC-SHA256 algorithm and the secret key. The following is a
+    code sample for computing the signature:
 
 ```
 import javax.crypto.spec.SecretKeySpec;

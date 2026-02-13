@@ -22,9 +22,16 @@ codeExamples: 0
 > The text alerts feature is in limited release.
 
 
-The text alert feature allows restaurant employees to request immediate assistance from managers and support staff by sending text messages in real time from Toast POS devices if critical safety or operational issues arise.
+The text alert feature allows restaurant employees to request
+    immediate assistance from managers and support staff by sending text
+    messages in real time from Toast POS devices if critical safety or
+    operational issues arise.
 
-Recipients can receive text alerts on their mobile phones or on WiFi-enabled personal devices like tablets using a VoIP phone number.
+Recipients can receive text alerts on their mobile phones or on
+    WiFi-enabled personal devices like tablets using a VoIP phone
+    number.
 
-You must have the [Manager \> Send Notifications](adminGuide-adminPermissions#adminManagerAccessPermissions) access permission to enable and manage text alerts for your restaurant.
+You must have the [Manager > Send
+    Notifications](adminGuide-adminPermissions#adminManagerAccessPermissions) access permission to enable and manage
+    text alerts for your restaurant.
 

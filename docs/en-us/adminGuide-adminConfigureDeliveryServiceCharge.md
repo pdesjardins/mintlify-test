@@ -15,48 +15,79 @@ procedures: 1
 codeExamples: 0
 ---
 
-You can create and apply a service charge to delivery orders. The service charge is automatically applied to all delivery orders.
+You can create and apply a service charge to delivery orders. The
+    service charge is automatically applied to all delivery orders.
 
 **Procedure 3.30. To configure a service charge for delivery orders**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast
+        Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery \> Availability \> Takeout/delivery to open the Takeout/delivery page.
+2. Choose Takeout & delivery > Availability >
+        Takeout/delivery to open the
+        Takeout/delivery page.
 
 
-3. In the Delivery fee section, select the Configure delivery service fees link to open the Service charges page. You can also navigate to this page by choosing Payments \> Checks & receipt setup \> Service charges.
+3. In the Delivery fee section, select the
+        Configure delivery service fees link to open the
+        Service charges page. You can also navigate to
+        this page by choosing Payments > Checks & receipt
+        setup > Service charges.
 
 
 4. Select the + Add button.
 
 
-5. Enter your service charge information. For more information about service charges, see [Configuring service charges](adminGuide-adminServiceChargeCreate).
+5. Enter your service charge information. For more information
+        about service charges, see [Configuring service
+        charges](adminGuide-adminServiceChargeCreate).
 
 
-6. Navigate to the Delivery option. Select Yes to open the advanced Delivery configuration section.
+6. Navigate to the Delivery option. Select
+        Yes to open the advanced Delivery
+        configuration section.
 
 
 
 > **Note**
 > 
-> A delivery service charge is applied to checks that have their dining behavior set to Delivery.
+> A delivery service charge is applied to checks that have their
+          dining behavior set to Delivery.
 
 
-- Waive fee threshold: Enter a threshold (as a dollar amount) that determines whether to waive the delivery service charge. The service charge is waived if the pre-discount amount of the check is greater than or equal to this amount. If you do not enter a waive fee threshold or the threshold is $0.00, the fee is not waived.
+- Waive fee threshold: Enter a threshold
+            (as a dollar amount) that determines whether to waive the delivery
+            service charge. The service charge is waived if the pre-discount
+            amount of the check is greater than or equal to this amount. If
+            you do not enter a waive fee threshold or the threshold is $0.00,
+            the fee is not waived.
 
-Do not set a Waive fee threshold if you have set an Apply after amount thresholdamount.
+Do not set a Waive fee threshold if you
+            have set an Apply after amount threshold
+            amount.
 
 
 
-- Delivery distance threshold: Enter the distance value that determines whether to apply the delivery service charge. This fee is only applied if the distance from the restaurant to the delivery address is greater than or equal to this value and the dining behavior is set to Delivery. The Delivery distance threshold does not apply to TDS orders.
+- Delivery distance threshold: Enter the
+            distance value that determines whether to apply the delivery
+            service charge. This fee is only applied if the distance from the
+            restaurant to the delivery address is greater than or equal to
+            this value and the dining behavior is set to
+            Delivery. The Delivery distance
+            threshold does not apply to TDS orders.
 
 
 
 
-7. Select the Save button to save your changes and then the Publish Now button to publish your changes.
+7. Select the Save button to save your changes
+        and then the Publish Now button to publish your
+        changes.
 
-The new service charge appears on the Service charges page. On the Service chargespage, you can edit charges, apply charges to other dining options, reorder charges, or archive charges.
+The new service charge appears on the Service
+        charges page. On the Service charges
+        page, you can edit charges, apply charges to other dining options,
+        reorder charges, or archive charges.
 
 
 

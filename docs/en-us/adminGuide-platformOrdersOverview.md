@@ -15,7 +15,8 @@ procedures: 0
 codeExamples: 0
 ---
 
-An order is the basic building block of a restaurant transaction. Each order specifies:
+An order is the basic building block of a restaurant transaction.
+    Each order specifies:
 
 - The items that a guest purchases.
 
@@ -35,7 +36,10 @@ An order is the basic building block of a restaurant transaction. Each order spe
 
 
 ****About checks****
-: Each order contains one or more checks. An order usually has only one check, but it can have multiple checks. For example, a party of guests might request separate checks so that each guest can pay separately.
+: Each order contains one or more checks. An order usually has
+          only one check, but it can have multiple checks. For example, a
+          party of guests might request separate checks so that each guest can
+          pay separately.
 
 Each check includes:
 
@@ -45,10 +49,12 @@ Each check includes:
 - Applicable taxes. See [Taxes](adminGuide-adminTaxesOverview).
 
 
-- Discounts on the menu item selections and on the entire check. See [Discounts](adminGuide-platformDiscountsOverview).
+- Discounts on the menu item selections and on the entire
+              check. See [Discounts](adminGuide-platformDiscountsOverview).
 
 
-- Service charges on the check. See [Service charges](adminGuide-adminServiceChargeOverview).
+- Service charges on the check. See [Service
+              charges](adminGuide-adminServiceChargeOverview).
 
 
 - Information about the guest. See [Guests](adminGuide-adminGuestDataOverview).
@@ -61,21 +67,28 @@ Each check includes:
 
 
 ****Other order information****
-: Outside of the checks, the order tracks how the guest receives the ordered items:
+: Outside of the checks, the order tracks how the guest receives
+          the ordered items:
 
-- The selected [dining option](adminGuide-adminDiningOptions). A dining option is associated with a specific dining behavior (in-person, takeout, curbside pickup, delivery).
-
-
-- The restaurant employee who is responsible for the order.
-
-
-- For in-person dining, the table where the guest is located.
+- The selected [dining option](adminGuide-adminDiningOptions). A dining
+              option is associated with a specific dining behavior (in-person,
+              takeout, curbside pickup, delivery).
 
 
-- For delivery orders, the delivery address and instructions.
+- The restaurant employee who is responsible for the
+              order.
 
 
-- For curbside pickup orders, information about the vehicle that is picking up the order.
+- For in-person dining, the table where the guest is
+              located.
+
+
+- For delivery orders, the delivery address and
+              instructions.
+
+
+- For curbside pickup orders, information about the vehicle
+              that is picking up the order.
 
 
 

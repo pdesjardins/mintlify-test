@@ -15,22 +15,28 @@ procedures: 1
 codeExamples: 0
 ---
 
-When you no longer need a version, you can archive it. Archiving a version removes it from Toast Web.
+When you no longer need a version, you can archive it. Archiving a
+    version removes it from Toast Web.
 
 **Procedure 5.5. To archive a version of a configuration entity**
 
-1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast
+        Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. View the details page for the configuration entity you want to archive.
+2. View the details page for the configuration entity you want to
+        archive.
 
 
-3. Click the Actions button at the top right of the page and select Archive from the menu:
+3. Click the Actions button at the top right
+        of the page and select Archive from the
+        menu:
 
 ![Image](https://doc.toasttab.com/doc/media/actions_button.PNG)
 
 
-4. Click OK to confirm that you want to archive the version.
+4. Click OK to confirm that you want to
+        archive the version.
 
 
 

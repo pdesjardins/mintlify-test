@@ -15,83 +15,132 @@ procedures: 0
 codeExamples: 0
 ---
 
-Toast APIs use the [OAuth 2](https://tools.ietf.org/html/rfc6749)client-credentials grant type to authenticate access to secure resources. When you send requests to secure API resources, you include an OAuth 2 bearer authentication token in the Authorization HTTP header field of your request.
+Toast APIs use the [OAuth 2](https://tools.ietf.org/html/rfc6749)
+  client-credentials grant type to authenticate access to secure resources.
+  When you send requests to secure API resources, you include an OAuth 2
+  bearer authentication token in the Authorization HTTP header field of your
+  request.
 
 
 
 > **Note**
 > 
-> The authentication endpoint and procedure described here replaced an earlier Toast API authentication service. If your integration uses the legacy authentication endpoint, you must implement support for the authentication process described here. For information about the legacy authentication endpoint and process, see [Legacy API authentication (deprecated)](apiDevGuide-apiDeprecatedApiFunctions#apiLegacyAuthentication).
+> The authentication endpoint and procedure described here replaced an
+    earlier Toast API authentication service. If your integration uses the
+    legacy authentication endpoint, you must implement support for the
+    authentication process described here. For information about the legacy
+    authentication endpoint and process, see [Legacy API authentication (deprecated)](apiDevGuide-apiDeprecatedApiFunctions#apiLegacyAuthentication).
 
 
 ## About authentication tokens
 
-An authentication token is an encoded text string that you can get from the authentication API (`/authentication`). To request an authentication token, you send the client identifier and client secret in the message body of a `POST` request to the `/authentication/login` endpoint of the authentication API (`/authentication/v1/authentication/login`).
+An authentication token is an encoded text string that you can get
+    from the authentication API (`/authentication`). To request an
+    authentication token, you send the client identifier and client secret in
+    the message body of a `POST` request to the
+    `/authentication/login` endpoint of the authentication API
+    (`/authentication/v1/authentication/login`).
 
-Authentication tokens are valid for a limited period of time. The length of time is determined by the Toast API environment that you use. When it returns the token, the authentication API response specifies how long an authentication token is valid. After an authentication token expires, you must get a new token from the authentication API.
+Authentication tokens are valid for a limited period of time. The
+    length of time is determined by the Toast API environment that you use.
+    When it returns the token, the authentication API response specifies how
+    long an authentication token is valid. After an authentication token
+    expires, you must get a new token from the authentication API.
 
 ## Getting API credentials
 
-Before you can authenticate, you need API credentials. The way you get credentials depends on your integration access type. Credentials include a `clientId` and `clientSecret`. The table below shows how credentials are issued for each integration type. For more information, see [Integration types](apiDevGuide-apiIntegrationTypes).
+Before you can authenticate, you need API credentials. The way you
+    get credentials depends on your integration access type. Credentials
+    include a `clientId` and `clientSecret`. The table
+    below shows how credentials are issued for each integration type. For more
+    information, see [Integration types](apiDevGuide-apiIntegrationTypes).
 
 | Integration Type | Credentials | 
 | --- | --- |
-| Partner integrations | Credentials are created by the Toast integrations team after your application has been reviewed and approved. For more information see, [Integration partnership process](apiDevGuide-integrationDevProcess). | 
-| Custom integrations | Credentials are created by the Toast integrations team after you have been approved for custom integration access. For more information see, [Custom integration overview](apiDevGuide-apiCustomIntegrationOverview). | 
-| Standard API access | You create your own credentials through Toast Web. For more information, see [Creating standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessCreatingCredentials). | 
-| Analytics API access | You create your own credentials through Toast Web. For more information, see [Creating analytics API access credentials](apiDevGuide-apiAnalyticsAccessCreatingCredentials). | 
+| Partner integrations | Credentials are created by the Toast integrations
+              team after your application has been reviewed and approved. For
+              more information see, [Integration partnership process](apiDevGuide-integrationDevProcess). | 
+| Custom integrations | Credentials are created by the Toast integrations
+              team after you have been approved for custom integration access.
+              For more information see, [Custom integration overview](apiDevGuide-apiCustomIntegrationOverview). | 
+| Standard API access | You create your own credentials through Toast Web.
+              For more information, see [Creating standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessCreatingCredentials). | 
+| Analytics API access | You create your own credentials through Toast Web.
+              For more information, see [Creating analytics API access credentials](apiDevGuide-apiAnalyticsAccessCreatingCredentials). | 
 
 ## Credential storage guidelines
 
-API credentials provide access to valuable and sensitive information and must be saved in a secure way. If your API credentials are exposed, the Toast integrations team deactivates the compromised credentials and generates new ones.
+API credentials provide access to valuable and sensitive information
+    and must be saved in a secure way. If your API credentials are exposed,
+    the Toast integrations team deactivates the compromised credentials and
+    generates new ones.
 
-To decrease the likelihood of exposing your API credentials, follow these guidelines for your production and sandbox API credentials.
+To decrease the likelihood of exposing your API credentials, follow
+    these guidelines for your production and sandbox API credentials.
 
 ### Do this
 
 It is best to do the following things:
 
-- Save your API credentials as environment variables. If your team needs local access to credential strings, share them using a secret management service and store them in local environment variables.
+- Save your API credentials as environment variables. If your
+          team needs local access to credential strings, share them using a
+          secret management service and store them in local environment
+          variables.
 
 
-- Programmatically retrieve your API credentials at runtime from a secret management service. This allows you to rotate credentials without the need to update environment variables.
+- Programmatically retrieve your API credentials at runtime from
+          a secret management service. This allows you to rotate credentials
+          without the need to update environment variables.
 
 
-- When possible, visually mask your client secret to decrease the likelihood of displaying the secret when you use a screen-sharing service or when other people can see your computer display.
+- When possible, visually mask your client secret to decrease
+          the likelihood of displaying the secret when you use a
+          screen-sharing service or when other people can see your computer
+          display.
 
 
 
 ### Don't do this
 
-It is best *not* to do the following things:
+It is best *not* to do the following
+      things:
 
-- Do not store API credentials in your Toast integration code.
-
-
-- Do not store API credentials in any repositories saved to the cloud, whether public or private.
-
-
-- Do not display your client secret while using a screen-sharing service.
+- Do not store API credentials in your Toast integration
+          code.
 
 
-- Do not send an unencrypted client secret via email or in a messenger application.
+- Do not store API credentials in any repositories saved to the
+          cloud, whether public or private.
+
+
+- Do not display your client secret while using a screen-sharing
+          service.
+
+
+- Do not send an unencrypted client secret via email or in a
+          messenger application.
 
 
 
 ### Indicators of credential compromise
 
-If any of the following things occurs, your API credentials are considered compromised. Contact Toast support immediately so that you can receive a new client secret.
+If any of the following things occurs, your API credentials are
+      considered compromised. Contact Toast support immediately so that you
+      can receive a new client secret.
 
-- Your client secret is committed to a repository that is not a purpose-built secret management service.
+- Your client secret is committed to a repository that is not a
+          purpose-built secret management service.
 
 
 - Your client secret is deployed in your code.
 
 
-- Somebody sends your client secret in plain text via email or on a messenger application.
+- Somebody sends your client secret in plain text via email or
+          on a messenger application.
 
 
-- Your client secret is displayed on a screen-share recording that is saved to the cloud.
+- Your client secret is displayed on a screen-share recording
+          that is saved to the cloud.
 
 
 - You have any other known or suspected security breach.
@@ -102,19 +151,34 @@ If any of the following things occurs, your API credentials are considered compr
 
 ### Making the request
 
-To get an authentication token, you send a `POST` request to the `/authentication/login` endpoint of the Toast authentication API. The following example shows the URL of the endpoint.
+To get an authentication token, you send a
+      `POST` request to the
+      `/authentication/login` endpoint of the Toast authentication
+      API. The following example shows the URL of the endpoint.
 
 ```
 https://`[toast-api-hostname]`/authentication/v1/authentication/login
 ```
 
-You must include your client identifier and client secret string in the message body of a `POST` request for an authentication token. You receive a client identifier string (*`clientId`*) and client secret string (*`clientSecret`*) from the Toast support team. Follow [these guidelines](apiDevGuide-authentication#apiAuthTokenStorage) when storing your API credentials.
+You must include your client identifier and client secret string
+      in the message body of a `POST` request for an
+      authentication token. You receive a client identifier string
+      (*`clientId`*) and client secret string
+      (*`clientSecret`*) from the Toast support team.
+      Follow [these guidelines](apiDevGuide-authentication#apiAuthTokenStorage) when storing
+      your API credentials.
 
-When the authentication API determines that the client identifier and client secret string are valid, it returns an authentication token along with a set of data describing the way you can use it. For more information, see [Toast API accounts](apiDevGuide-apiClientAccounts).
+When the authentication API determines that the client identifier
+      and client secret string are valid, it returns an authentication token
+      along with a set of data describing the way you can use it. For more
+      information, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
-You include the following JSON object in the message body parameter of an `/authentication/login` endpoint request.
+You include the following JSON object in the message body
+      parameter of an `/authentication/login` endpoint
+      request.
 
-**Example 1.3. Message body parameter for an `/authentication/login` endpoint request**
+**Example 1.3. Message body parameter for an
+        `/authentication/login` endpoint request**
 
 ```
 myToastApiClientSecret
@@ -124,12 +188,16 @@ myToastApiClientSecret
 
 (1) The identifier string for your Toast API client.
 
-(2) The secret string that corresponds to your Toast API client.
+(2) The secret string that corresponds to your Toast API
+            client.
 
-(3) Always include the userAccessType value and set it to TOAST_MACHINE_CLIENT.
+(3) Always include the userAccessType value and set
+            it to TOAST_MACHINE_CLIENT.
 
   
-The following **curl** command requests an authentication token from the `/authentication/login` resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
+The following **curl** command requests an
+      authentication token from the `/authentication/login` resource.
+      For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
 
 **Example 1.4. Authentication request using curl program command**
 
@@ -143,22 +211,33 @@ https://`[toast-api-hostname]`/authentication/v1/authentication/login
 
 
 
-(1) Use the POST HTTP method to make an authentication request.
+(1) Use the POST HTTP method to make an
+            authentication request.
 
-(2) Include the HTTP Content-Type header field and set its value to application/json.
+(2) Include the HTTP Content-Type header field and
+            set its value to application/json.
 
-(3) Include a JSON object including your client identifier and client secret in the message body parameter. See Example 1.3, “Message body parameter for an /authentication/login endpoint request”.
+(3) Include a JSON object including your client identifier and
+            client secret in the message body parameter. See Example 1.3, “Message body parameter for an
+        /authentication/login endpoint request”.
 
-(4) Send the request to the /authentication/loginendpoint of the authentication API.
+(4) Send the request to the /authentication/login
+            endpoint of the authentication API.
 
   
 ### Authentication return data
 
-The return data that you receive depends on the type of Toast API client you are using. Toast APIs support partner clients and restaurant management group clients. For more information about the types of Toast API clients, see [Toast API accounts](apiDevGuide-apiClientAccounts).
+The return data that you receive depends on the type of Toast API
+      client you are using. Toast APIs support partner clients and restaurant
+      management group clients. For more information about the types of Toast
+      API clients, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 #### Authentication return data for a partner API client
 
-The authentication API returns the information shown in the following example for a successful authentication request using a partner API client. For more information about partner API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
+The authentication API returns the information shown in the
+        following example for a successful authentication request using a
+        partner API client. For more information about partner API accounts,
+        see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 **Example 1.5. Authentication return data for a partner API client**
 
@@ -195,24 +274,37 @@ The authentication API returns the information shown in the following example fo
 
  For internal use.
 
- The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
+ The OAuth 2 authentication scheme used for the
+              authentication token. Toast API authentication uses the bearer
+              authentication scheme.
 
- The scope value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.
+ The scope value in your authentication token
+              request response will be null. Your JSON Web Token (JWT)
+              contains your list of scopes.
 
- The number of remaining seconds that the authentication token is valid. For more information, see Refreshing authentication tokens.
+ The number of remaining seconds that the authentication
+              token is valid. For more information, see Refreshing authentication tokens.
 
- A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see Example 1.6, “JWT payload contents for partner API client access token”.
+ A JSON Web Token (JWT) string that contains an
+              authentication token. You present this string when you make
+              requests to other Toast API resources. The JWT includes
+              information about your Toast API client. For more information,
+              see Example 1.6, “JWT payload contents for partner API client access
+          token”.
 
  For internal use.
 
  For internal use.
 
- Indicates that your authentication request was successful.
+ Indicates that your authentication request was
+              successful.
 
   
-The following example shows the JWT payload contents for a partner API client access token.
+The following example shows the JWT payload contents for a
+        partner API client access token.
 
-**Example 1.6. JWT payload contents for partner API client access token**
+**Example 1.6. JWT payload contents for partner API client access
+          token**
 
 ```
 {
@@ -235,34 +327,56 @@ The following example shows the JWT payload contents for a partner API client ac
 
 (1) A human-readable name representing your API client.
 
-(2) The types of users that can authenticate through the system. For API clients, this is TOAST_MACHINE_CLIENT. TOAST_MACHINE_CLIENT represents the type of access credentials issued to services that use Toast APIs. 
+(2) The types of users that can authenticate through the
+              system. For API clients, this is
+              TOAST_MACHINE_CLIENT.
+              TOAST_MACHINE_CLIENT represents the type of access
+              credentials issued to services that use Toast APIs.
+              
 
-(3) The unique Toast platform identifier for the integration partner organization.
+(3) The unique Toast platform identifier for the integration
+              partner organization.
 
-(4) The type of client requesting authentication. For partner API clients, this is PARTNER. 
+(4) The type of client requesting authentication. For partner
+              API clients, this is PARTNER. 
 
 (5) The issuer of the authentication token.
 
-(6) The subject of the token being issued. This value will be set to your client identifier and the string @clients.
+(6) The subject of the token being issued. This value will be
+              set to your client identifier and the string
+              @clients.
 
 (7) The intended audience of your API usage.
 
-(8) A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.
+(8) A standard JWT claim indicating the time that the
+              authentication token was issued. The time is presented in UNIX
+              epoch format.
 
-(9) A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.
+(9) A standard JWT claim indicating the time that the
+              authentication token expires. The time is presented in UNIX
+              epoch format.
 
-(10) A standard JWT claim containing the identifier for the Toast API client.
+(10) A standard JWT claim containing the identifier for the
+              Toast API client.
 
-(11) The API functionality that your client ID is provisioned to use. For more information about API scopes, see API scopes page.
+(11) The API functionality that your client ID is provisioned
+              to use. For more information about API scopes, see API scopes
+              page.
 
-(12) The grant type of this API client. This value will be client-credentials.
+(12) The grant type of this API client. This value will be
+              client-credentials.
 
   
-#### Authentication return data for a restaurant management group API client
+#### Authentication return data for a restaurant management group
+        API client
 
-The authentication API returns the information shown in the following example for a successful authentication request using a restaurant management group API client. For more information about restaurant management group API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
+The authentication API returns the information shown in the
+        following example for a successful authentication request using a
+        restaurant management group API client. For more information about
+        restaurant management group API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
-**Example 1.7. Authentication return data for a restaurant management group client**
+**Example 1.7. Authentication return data for a restaurant management group
+          client**
 
 ```
 {
@@ -297,24 +411,37 @@ The authentication API returns the information shown in the following example fo
 
 (1) For internal use.
 
-(2) The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
+(2) The OAuth 2 authentication scheme used for the
+              authentication token. Toast API authentication uses the bearer
+              authentication scheme.
 
-(3) The scope value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.
+(3) The scope value in your authentication token
+              request response will be null. Your JSON Web Token (JWT)
+              contains your list of scopes.
 
-(4) The number of remaining seconds that the authentication token is valid. For more information, see Refreshing authentication tokens.
+(4) The number of remaining seconds that the authentication
+              token is valid. For more information, see Refreshing authentication tokens.
 
-(5) A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see Example 1.8, “JWT payload contents for restaurant management group API client access token”.
+(5) A JSON Web Token (JWT) string that contains an
+              authentication token. You present this string when you make
+              requests to other Toast API resources. The JWT includes
+              information about your Toast API client. For more information,
+              see Example 1.8, “JWT payload contents for restaurant management group API
+          client access token”.
 
 (6) For internal use.
 
 (7) For internal use.
 
-(8) Indicates that your authentication request was successful.
+(8) Indicates that your authentication request was
+              successful.
 
   
-The following example shows the JWT payload contents for a restaurant management group API client access token.
+The following example shows the JWT payload contents for a
+        restaurant management group API client access token.
 
-**Example 1.8. JWT payload contents for restaurant management group API client access token**
+**Example 1.8. JWT payload contents for restaurant management group API
+          client access token**
 
 ```
 {
@@ -337,47 +464,78 @@ The following example shows the JWT payload contents for a restaurant management
 
 (1) A human-readable name representing your API client.
 
-(2) The types of users that can authenticate through the system. For API clients, this is TOAST_MACHINE_CLIENT. TOAST_MACHINE_CLIENT represents the type of access credentials issued to services that use Toast APIs. 
+(2) The types of users that can authenticate through the
+              system. For API clients, this is
+              TOAST_MACHINE_CLIENT.
+              TOAST_MACHINE_CLIENT represents the type of access
+              credentials issued to services that use Toast APIs.
+              
 
-(3) The unique Toast platform identifier for the restaurant management group this client can access.
+(3) The unique Toast platform identifier for the restaurant
+              management group this client can access.
 
-(4) The type of client requesting authentication. For restaurant management group API clients, this is CUSTOMER. 
+(4) The type of client requesting authentication. For
+              restaurant management group API clients, this is
+              CUSTOMER. 
 
 (5) The issuer of the authentication token.
 
-(6) The subject of the token being issued. This value will be set to your client identifier and the string @clients.
+(6) The subject of the token being issued. This value will be
+              set to your client identifier and the string
+              @clients.
 
 (7) The intended audience of your API usage.
 
-(8) A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.
+(8) A standard JWT claim indicating the time that the
+              authentication token was issued. The time is presented in UNIX
+              epoch format.
 
-(9) A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.
+(9) A standard JWT claim indicating the time that the
+              authentication token expires. The time is presented in UNIX
+              epoch format.
 
-(10) A standard JWT claim containing the identifier for the Toast API client.
+(10) A standard JWT claim containing the identifier for the
+              Toast API client.
 
-(11) The API functionality that your client ID is provisioned to use. For more information about API scopes, see the API scopes page.
+(11) The API functionality that your client ID is provisioned
+              to use. For more information about API scopes, see the API scopes
+              page.
 
-(12) The grant type of this API client. This value will be client-credentials.
+(12) The grant type of this API client. This value will be
+              client-credentials.
 
   
 ## Using an authentication token
 
-To use secured Toast API resources, when you make a request you:
+To use secured Toast API resources, when you make a request
+    you:
 
-- Present a valid authentication token in the *`Authorization`* HTTP header field when you make a request. An authentication token is a text string that you can get from the `/authentication/login` endpoint of the authentication API. See [Getting an authentication token](apiDevGuide-authentication#getting-authentication-token).
+- Present a valid authentication token in the
+        *`Authorization`* HTTP header field when you make a
+        request. An authentication token is a text string that you can get
+        from the `/authentication/login` endpoint of the
+        authentication API. See [Getting an authentication token](apiDevGuide-authentication#getting-authentication-token).
 
-The Toast API uses bearer authentication tokens. You must include the string `Bearer` in the value of the *`Authorization`* HTTP header field, before the token string, to indicate the type of the token. For example, `Authorization: Bearer
-        [<em>my-authentication-token</em>]`.
+The Toast API uses bearer authentication tokens. You must
+        include the string `Bearer` in the value of the
+        *`Authorization`* HTTP header field, before the
+        token string, to indicate the type of the token. For example,
+        `Authorization: Bearer [<em>my-authentication-token</em>]`.
 
 
-- Specify the individual restaurant context for your request in the *`Toast-Restaurant-External-ID`* header field.
+- Specify the individual restaurant context for your request in
+        the *`Toast-Restaurant-External-ID`* header
+        field.
 
-To specify the restaurant that is the subject of a Toast API request, you include the Toast system GUID for that restaurant in the *`Toast-Restaurant-External-ID`* HTTP header field. For example, `Toast-Restaurant-External-ID:
-        47286e0a4-4fef-9230-b3dae11e7a9`.
+To specify the restaurant that is the subject of a Toast API
+        request, you include the Toast system GUID for that restaurant in the
+        *`Toast-Restaurant-External-ID`* HTTP header field.
+        For example, `Toast-Restaurant-External-ID: 47286e0a4-4fef-9230-b3dae11e7a9`.
 
 
 
-The following **curl** command presents an authentication token when it makes a Toast API request.
+The following **curl** command presents an
+    authentication token when it makes a Toast API request.
 
 ```
 curl -X GET \
