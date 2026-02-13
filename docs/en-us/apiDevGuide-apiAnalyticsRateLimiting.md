@@ -27,32 +27,32 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
 | Method and endpoint | Rate limits | Notes | 
 | --- | --- | --- |
 | `POST``/era/v1/metrics` | 10 requests per hour | This endpoint uses a custom time range. | 
-| `POST``/era/v1/metrics/{timeRange}` | If `{timeRange`}} is:- `month` or `year`: 10 requests per hour
+| `POST``/era/v1/metrics/{timeRange}` | If `{timeRange`} is:- `month` or `year`: 10 requests per hour
 - `day` or `week`: 10 requests per minute, 60 requests per hour
 
  |  | 
 | `GET``/era/v1/metrics/{reportRequestGuid}` | 5 requests per second30 requests per minute |   | 
 | `POST``/era/v1/check/{timeRange}` | 5 requests per minute60 requests per day | This endpoint uses `day` as the `{timeRange}`. | 
 | `GET``/era/v1/check/{reportRequestGuid}` | 5 requests per second30 requests per minute |  | 
-| `POST``/era/v1/labor/{timeRange}` | If `{timeRange`}} is:- `month`: 10 requests per hour
+| `POST``/era/v1/labor/{timeRange}` | If `{timeRange`} is:- `month`: 10 requests per hour
 - `day` or `week`: 10 requests per minute, 60 requests per hour
 
  |  | 
 | `GET``/era/v1/labor/{reportRequestGuid}` | 5 requests per second30 requests per minute |  | 
 | `POST``/era/v1/menu` | 10 requests per hour | This endpoint uses a custom time range. | 
-| `POST``/era/v1/menu/{timeRange}` | If `{timeRange`}} is:- `month` or `year`: 10 requests per hour
+| `POST``/era/v1/menu/{timeRange}` | If `{timeRange`} is:- `month` or `year`: 10 requests per hour
 - `day` or `week`: 10 requests per minute, 60 requests per hour
 
  |  | 
 | `GET``/era/v1/menu/{reportRequestGuid}` | 5 requests per second30 requests per minute |  | 
-| `POST``/era/v1/payout/{timeRange}` | If `{timeRange`}} is:- `month`: 10 requests per hour
+| `POST``/era/v1/payout/{timeRange}` | If `{timeRange`} is:- `month`: 10 requests per hour
 - `day` or `week`: 10 requests per minute and 60 requests per hour
 
  |  | 
 | `GET``/era/v1/payout/{reportRequestGuid}` | 5 requests per second30 requests per minute |  | 
 | `POST``/era/v1/payout/payments/{timeRange}` | 5 requests per minute60 requests per day | This endpoint uses `day` as the `{timeRange}`. | 
 | `GET``/era/v1/payout/payments/{reportRequestGuid}` | 5 requests per second30 requests per minute |  | 
-| `POST``/era/v1/payout/sales-date/{timeRange}` | If `{timeRange`}} is:- `month`: 10 requests per hour
+| `POST``/era/v1/payout/sales-date/{timeRange}` | If `{timeRange`} is:- `month`: 10 requests per hour
 - `day` or `week`: 10 requests per minute and 60 requests per hour
 
  |  | 
