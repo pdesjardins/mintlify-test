@@ -16,7 +16,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-To archive an employee, send a `DELETE`request to the `/labor/v1/employees/\{employeeId\}` endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
+To archive an employee, send a `DELETE`request to the `/labor/v1/employees/{employeeId}` endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
 
 This operation updates the employee in a way that indicates the employee is inactive and cannot access the Toast POS or other parts of the Toast platform. The Toast platform does not delete information about employees when you archive them, and you can [unarchive an employee later, if you need to](apiDevGuide-apiUnarchivingAnEmployee).
 
@@ -75,7 +75,7 @@ The following example shows the response for a `DELETE` request to archive an em
 **Example 7.15. Example response to a request to archive an employee**
 
 ```
-\{
+{
     "guid": "82965aae-7b53-448a-b7e5-e32039f01ff4",
     "entityType": "RestaurantUser",
     "externalId": null,
@@ -93,7 +93,7 @@ The following example shows the response for a `DELETE` request to archive an em
     "modifiedDate": "2025-06-13T14:34:04.632+0000",
     "externalEmployeeId": null,
     "email": "jblajoie8650087951@example.com"
-\}
+}
 ```
 
 

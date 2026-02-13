@@ -68,7 +68,7 @@ The following example shows the message body data that provides information abou
 **Example 7.9. Example message content with information about a new employee**
 
 ```
-\{
+{
   "entityType": "RestaurantUser", 
   "email": "jgauthier@example.com", 
   "firstName": "Josephine", 
@@ -78,12 +78,12 @@ The following example shows the message body data that provides information abou
   "externalEmployeeId": "1234567890", 
   "passcode": "12345",
   "jobReferences": [ 
-    \{
+    {
       "guid": "8d3bba92-10e4-4345-9ae6-ed94c09dc332",
       "entityType": "RestaurantJob"
-    \}
+    }
   ] 
-\}
+}
 ```
 
 
@@ -110,7 +110,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 **Example 7.10. Example response for the add employee request**
 
 ```
-\{
+{
   "guid": "e5c3a2f3-8aa2-4a66-b379-6c80b7277dc3",
   "entityType": "RestaurantUser",
   "externalId": null,
@@ -122,18 +122,18 @@ The following example shows the response for a `POST` request to the `/labor/v1/
   "deleted": false,
   "deletedDate": null,
   "jobReferences": [
-    \{
+    {
       "guid": "8d3bba92-10e4-4345-9ae6-ed94c09dc332",
       "entityType": "RestaurantJob",
       "externalId": null
-    \}
+    }
   ],
   "modifiedDate": "2019-10-02T13:11:22.824+0000",
   "disabled": null,
   "externalEmployeeId": null,
   "email": "jgauthier@example.com",
   "passcode": "12345"
-\}
+}
 ```
 
 

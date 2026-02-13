@@ -54,7 +54,7 @@ You can use the orders API to modify the following delivery information:
 
 ## How to update the delivery information
 
-To update delivery information, you send a `PATCH` request to the `/orders/<em>\{orderGuid\}</em>/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo` object that provides the updated values.
+To update delivery information, you send a `PATCH` request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo` object that provides the updated values.
 
 For more information about the endpoint used in this process, see the [/deliveryInfo reference guide.](https://doc.toasttab.com/openapi/orders/operation/ordersOrderGuidDeliveryInfoPatch/)
 
@@ -73,7 +73,7 @@ The delivery location values (for example, street address and city) cannot be up
 For an example `DeliveryInfo` object, see [Example DeliveryInfo object](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiExampleDeliveryInfoObject).
 
 
-4. Send a `PATCH` request to the `/orders/<em>\{orderGuid\}</em>/deliveryInfo`endpoint of the orders API.
+4. Send a `PATCH` request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
 
 In the `PATCH` path, include the Toast platform GUID of the order.
 
@@ -98,15 +98,15 @@ The response contains the full `Order` object. For an example, see [this respons
 The following example shows the `DeliveryInfo` object for updating delivery information for an order. For definitions of the values below, see [Delivery values](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).
 
 ```
-\{
+{
   "deliveredDate": "2021-09-14T17:57:42.263+0000",
   "dispatchedDate": "2021-09-14T17:57:42.263+0000",
   "deliveryState": "DELIVERED",
-  "deliveryEmployee": \{
+  "deliveryEmployee": {
     "guid": "e10f2ae0-9690-4ab2-86fe-fa6603d708d0"
-  \},
+  },
     "notes": "Leave order at door."
-\}
+}
 
 ```
 
@@ -124,16 +124,16 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 
 ## Example response when updating delivery information
 
-The following example shows the response for a `PATCH`request to the `/orders/<em>\{orderGuid\}</em>/deliveryInfo`endpoint of the orders API.
+The following example shows the response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
 
 ```
-\{
+{
   "guid": "d16ceaeb-d8a3-4d47-82db-0199d37c0713",
   "entityType": "Order",
  
  [contents omitted]
 
-  "deliveryInfo": \{
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -144,25 +144,25 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
     "notes": "Leave order at door.",
     "deliveredDate": "2021-09-14T17:57:42.263+0000",
     "dispatchedDate": "2021-09-14T17:57:42.263+0000",
-    "deliveryEmployee": \{
+    "deliveryEmployee": {
       "guid": "e10f2ae0-9690-4ab2-86fe-fa6603d708d0",
       "entityType": "RestaurantUser",
       "externalId": null
-    \},
+    },
     "deliveryState": "DELIVERED"
-  \},
+  },
 
   [contents omitted]
 
-  "diningOption": \{
+  "diningOption": {
     "guid": "f6cd5b58-27d7-462a-922f-7f919a6f9137",
     "entityType": "DiningOption",
     "externalId": null
-  \},
+  },
  
   [contents omitted]
 
-\}
+}
 ```
 
 

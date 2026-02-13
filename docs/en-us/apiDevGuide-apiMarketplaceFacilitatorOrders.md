@@ -86,38 +86,38 @@ The `Order` object in the following example creates a marketplace facilitator or
 **Example 2.7. Marketplace facilitator order where the Toast platform populates the prices and tax amounts**
 
 ```
-\{
+{
   "entityType": "Order",
 
     [contents omitted]
 
-  "marketplaceFacilitatorTaxInfo": \{
+  "marketplaceFacilitatorTaxInfo": {
     "facilitatorCollectAndRemitTaxOrder": false
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802"
-          \},
+          },
           "quantity": 1,
           "modifiers": []
-        \}
+        }
       ],
 
     [contents omitted]
 
-    \}
+    }
   ]
-\}
+}
 
 ```
 
@@ -170,19 +170,19 @@ The `Order` object in the following example creates a marketplace facilitator or
 **Example 2.8. Marketplace facilitator order that specifies prices and tax amounts**
 
 ```
-\{
+{
   "entityType": "Order",
 
     [contents omitted]
 
-  "marketplaceFacilitatorTaxInfo": \{
+  "marketplaceFacilitatorTaxInfo": {
     "taxes": [
-      \{
+      {
         "name": "SomeTax",
         "taxAmount": 3.21,
         "facilitatorCollectAndRemitTax": true
       },
-      \{
+      {
         "name": "SomeOtherTax",
         "taxAmount": 2.34,
         "facilitatorCollectAndRemitTax": false
@@ -190,30 +190,30 @@ The `Order` object in the following example creates a marketplace facilitator or
     ]
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
           "externalPriceAmount": 123.45,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802"
-          \},
+          },
           "quantity": 1,
           "modifiers": []
-        \}
+        }
       ],
 
     [contents omitted]
 
-    \}
+    }
   ]
-\}
+}
 
 ```
 
@@ -250,14 +250,14 @@ The `Order` object in the following example creates a marketplace facilitator or
 **Example 2.9. Marketplace facilitator order that specifies a size-based price for a menu item selection**
 
 ```
-\{
+{
   "entityType": "Order",
 
     [contents omitted]
 
-  "marketplaceFacilitatorTaxInfo": \{
+  "marketplaceFacilitatorTaxInfo": {
     "taxes": [
-      \{
+      {
         "name": "SomeTax",
         "taxAmount": 0.10,
         "facilitatorCollectAndRemitTax": true
@@ -265,43 +265,43 @@ The `Order` object in the following example creates a marketplace facilitator or
     ]
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
           "externalPriceAmount": 0,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802"
           },
           "quantity": 1,
           "modifiers": [
-            \{
+            {
               "externalPriceAmount": 10.00,
               "entityType": "MenuItemSelection",
-              "optionGroup": \{
+              "optionGroup": {
                 "guid": "f315fe4c-a74d-49c1-b117-fe4494bb456e"
               },
-              "item": \{
+              "item": {
                 "entityType": "MenuItem",
                 "guid": "4382f595-8f01-4d97-b3ec-8fe91da963a1"
-              \},
+              },
               "quantity": 1
-            \}
+            }
           ]
-        \}
+        }
       ],
 
     [contents omitted]
 
-    \}
+    }
   ]
-\}
+}
 ```
 
 

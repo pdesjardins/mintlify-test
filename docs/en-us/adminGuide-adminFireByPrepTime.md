@@ -358,7 +358,7 @@ To configure prep times for modifiers that have a direct effect on how long it t
 - Enter all times in seconds.
 
 
-- To reduce the item prep time, enter a negative number in the format **`-\{seconds\}`**. For example, -60.
+- To reduce the item prep time, enter a negative number in the format **`-{seconds}`**. For example, -60.
 
 
 

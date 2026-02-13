@@ -21,15 +21,15 @@ Webhook messages are always sent as JSON payloads in the body of POST requests. 
 Regardless of the event category, the data in the message that is published to your endpoint follows the same schema:
 
 ```
-\{
+{
     "timestamp": “`\<ISO formatted timestamp in UTC\>`”,
     "eventCategory": "`\<eventCategory\>`",
     "eventType": "`\<eventType\>`",
     "guid": "`\<eventGuid\>`",
-    "details": \{
+    "details": {
         `\<eventType specific payload\>`
-  \}
-\}
+  }
+}
 ```
 
 For reference information on the payload returned for specific event categories, see [Webhooks reference](apiDevGuide-apiWebhooksReference).

@@ -15,13 +15,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `GET` request to the `/era/v1/guest/payments/\{reportRequestGuid\}` endpoint to retrieve guest reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}` endpoint to retrieve guest reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 To request the guest reporting data, you must include the guest reporting data request GUID, or `reportRequestGuid`, as a path parameter.
 
 ## Request to retrieve guest reporting data
 
-The following **curl** command sends a `GET` request to the `/era/v1/guest/payments/\{reportRequestGuid\}`endpoint.
+The following **curl** command sends a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
 
 ```
 curl -X GET \ 'https://[toast-api-hostname]/era/v1/guest/payments/
@@ -39,11 +39,11 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 ## Response to the retrieval request for guest reporting data
 
-The following example shows the response from the `/era/v1/guest/payments/\{reportRequestGuid\}`endpoint.
+The following example shows the response from the `/era/v1/guest/payments/{reportRequestGuid}`endpoint.
 
 ```
 [
-    \{
+    {
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": "Richmond",
@@ -53,7 +53,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "5a3dd0fd-48e0-4f32-8dc4-500784498477",
         "cardFingerprint": "22030f99-0bd1-4766-9bd4-9dd33576684f"
     },
-    \{
+    {
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": "Richmond",
@@ -63,7 +63,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "95a97b2d-31a2-46a3-8592-5fb5fb74cf13",
         "cardFingerprint": "5391bff6-f5fa-4f0b-9df6-6125f1254737"
     },
-    \{
+    {
         "restaurantGuid": "6b853fa7-b3dc-4db7-a528-c3599823ccd1",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": "Boston",
@@ -74,7 +74,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "cardFingerprint": "88ec15f8-4b4a-4071-925a-340ce5e313b1"
     },
     [content omitted]
-    \{
+    {
         "restaurantGuid": "6b853fa7-b3dc-4db7-a528-c3599823ccd1",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": "Boston",
@@ -84,7 +84,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "95dba2a7-caa9-437d-81c7-e04c9b770241",
         "cardFingerprint": "d180c71f-a80d-4030-914d-f11a42664223"
     },
-    \{
+    {
         "restaurantGuid": "6b853fa7-b3dc-4db7-a528-c3599823ccd1",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": "Boston",
@@ -94,7 +94,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "3641122d-9d3e-4f2e-b081-e5ce472546e9",
         "cardFingerprint": "35962871-10ae-4b98-89a9-f81a049552fd"
     },
-    \{
+    {
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": "Richmond",
@@ -104,7 +104,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "ae9e449c-3998-40fc-834a-11b8d8a99830",
         "cardFingerprint": "22030f99-0bd1-4766-9bd4-9dd33576684f"
     },
-    \{
+    {
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": "Richmond",
@@ -114,7 +114,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "a4be40b5-7747-427f-9e78-b50802660cff",
         "cardFingerprint": "a85ae337-8c00-41a6-bd79-0efec7870575"
     },
-    \{
+    {
         "restaurantGuid": "6b853fa7-b3dc-4db7-a528-c3599823ccd1",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": "Boston",
@@ -125,7 +125,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "cardFingerprint": "ea918c06-f999-4c30-99c6-486fad5f9918"
     },
     [content omitted]
-    \{
+    {
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": "Richmond",
@@ -135,7 +135,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "a4049a1b-59e0-46af-bac5-f9d971dfc094",
         "cardFingerprint": "e6e7b568-0375-47ff-a380-fd1f44101a4e"
     },
-    \{
+    {
         "restaurantGuid": "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
         "restaurantName": "Grove Place Cafe",
         "restaurantLocationName": "Richmond",
@@ -145,7 +145,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "0bf2b932-d849-4229-ab5f-7857c612dc38",
         "cardFingerprint": "e6e7b568-0375-47ff-a380-fd1f44101a4e"
     },
-    \{
+    {
         "restaurantGuid": "6b853fa7-b3dc-4db7-a528-c3599823ccd1",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": "Boston",
@@ -155,7 +155,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "paymentGuid": "1cef78b9-51da-48c6-b03a-3a34f0728742",
         "cardFingerprint": "b46dca14-e213-4c04-9c88-8ecf09d1ca04"
     },
-    \{
+    {
         "restaurantGuid": "6b853fa7-b3dc-4db7-a528-c3599823ccd1",
         "restaurantName": "Summer Street Cafe",
         "restaurantLocationName": "Boston",
@@ -164,7 +164,7 @@ The following example shows the response from the `/era/v1/guest/payments/\{repo
         "orderGuid": "a773d61d-d0c7-4d98-94ad-100a5e6be980",
         "paymentGuid": "5e1f17d7-21df-43fa-8af6-81a2f36828a5",
         "cardFingerprint": "22030f99-0bd1-4766-9bd4-9dd33576684f"
-    \}
+    }
     [content omitted]
 ]
 ```

@@ -37,36 +37,36 @@ You can submit `guid` values for some menu entities and `multiLocationId` values
 The following example shows a request to the `/orders`endpoint that uses `multiLocationId` values.
 
 ```
-\{ 
-    "diningOption": \{
+{ 
+    "diningOption": {
         "guid": "03e8796d-6eeb-460c-83fe-376766003059",
     },
     "checks": [
-        \{
+        {
             "selections": [
-                \{
-                    "itemGroup": \{ 
+                {
+                    "itemGroup": { 
                         "multiLocationId": "500000008202847047",
                     },
-                    "item": \{ 
+                    "item": { 
                         "multiLocationId": "500000008202871058"
                     },
                     "quantity": 1,
                     "modifiers": [
-                        \{
-                            "optionGroup": \{ 
+                        {
+                            "optionGroup": { 
                                 "multiLocationId": "500000000111604139"
                             },
-                            "item": \{ 
+                            "item": { 
                                 "multiLocationId": "500000000106492270"
                             },
                             "quantity": 1
                         },
-                        \{
-                            "optionGroup": \{
+                        {
+                            "optionGroup": {
                                 "multiLocationId": "500000000106491932"
                             },
-                            "item": \{
+                            "item": {
                                 "multiLocationId": "500000000099996428"
                             },
                             "quantity": 1
@@ -74,16 +74,16 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
                     ]
                 }
             ],
-            "customer": \{ 
+            "customer": { 
                 "entityType": "Customer",
                 "firstName": "Jack",
                 "lastName": "Jones",
                 "phone": "333-555-5555",
                 "email": "jack@example.com"
-            \}
-        \}
+            }
+        }
     ]
-\}
+}
 ```
 
 
@@ -102,26 +102,26 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
 
 ## Example Order object with both identifiers in an orders API response
 
-Responses to requests sent to the `/orders/\{GUID\}` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
+Responses to requests sent to the `/orders/{GUID}` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
 
 The following example response shows how both identifiers are provided for each menu entity.
 
 ```
-\{
+{
   "guid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "guid": "e4c1f40d-3247-4b8b-9891-52f445930fa3",
       "entityType": "Check",
 
       [contents omitted]
 
       "selections": [
-        \{
+        {
           "guid": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b",
           "entityType": "MenuItemSelection",
 
@@ -129,62 +129,62 @@ The following example response shows how both identifiers are provided for each 
 
           "displayName": "Dinner Salad",
           "modifiers": [
-            \{
+            {
               "guid": "7d850cd0-c014-46f0-bfa6-b1f920c03743",
               "entityType": "MenuItemSelection",
 
               [contents omitted]
 
-              "optionGroup": \{
+              "optionGroup": {
                 "guid": "8a2f952d-4dca-4eb0-b867-445f3a674bad",
                 "entityType": "MenuOptionGroup",
                 "externalId": null,
                 "multiLocationId": "100000000171239701" 
-              \},
+              },
               "displayName": "Balsamic Vinaigrette",
 
               [contents omitted]
 
-              "item": \{
+              "item": {
                 "guid": "e5ccef2d-dc70-4c2d-bddd-d8448dee2e61",
                 "entityType": "MenuItem",
                 "externalId": null,
                 "multiLocationId": "100000000171239909" 
-              \},
+              },
               
               [contents omitted]
 
-            \},
+            },
           ],
           
           [contents omitted]
 
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "c922e206-8512-4d99-a79d-32532eae239f",
             "entityType": "MenuGroup",
             "externalId": null,
             "multiLocationId": "100000000171239911" 
           },
-          "item": \{
+          "item": {
             "guid": "50508a61-b561-4a5b-8bbb-7838c045dfab",
             "entityType": "MenuItem",
             "externalId": null,
             "multiLocationId": "100000000437569098" 
-          \},
+          },
           
           [contents omitted]
 
-        \},
+        },
       ],
 
       [contents omitted]
 
-    \},
+    },
   ],
   
   [contents omitted]
 
-\}
+}
 ```
 
 

@@ -26,7 +26,7 @@ You can use the orders API to add authorized credit card payments to a check in 
 
 ## How to add the payments to the check
 
-To add payments to an existing check, you send a `POST`request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment` objects. The `type` value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
+To add payments to an existing check, you send a `POST`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the Toast orders API. To include the information about the payments, you include an array of JSON `Payment` objects. The `type` value for the payments must be `CREDIT`, and you must authorize the payments before you add them.
 
 For more information, see [Post payments](https://doc.toasttab.com/openapi/orders/operation/ordersChecksPaymentsPost/) in the Toast API reference.
 
@@ -45,7 +45,7 @@ When you add payments to the check, you include the UUIDs of the authorized cred
 For information about the `Payment` object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/). For an example, see [Example array of Payment objects to add payments to an existing check](apiDevGuide-apiAddingPaymentsToACheck#apiExamplePaymentObjectForAddingAPayment).
 
 
-4. Send a `POST` request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments`endpoint of the orders API.
+4. Send a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.
 
 In the REST request path parameters, include the Toast platform GUID of the order and the check.
 
@@ -62,18 +62,18 @@ The following example shows an array of `Payment` objects to add payments to a c
 
 ```
 [
-  \{
+  {
     "guid": "7c65cc16-15bd-496e-886b-a3c080b36100",
     "type": "CREDIT",
     "amount": 35.21,
     "tipAmount": 15
   },
-  \{
+  {
     "guid": "bbb13b9b-1897-48ce-81da-953a83e6472d",
     "type": "CREDIT",
     "amount": 48.74,
     "tipAmount": 20
-  \}
+  }
 ]
 ```
 
@@ -81,7 +81,7 @@ The following example shows an array of `Payment` objects to add payments to a c
 
 (1) The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see Credit card payments.
 
-(2) The /orders/\{orderGuid\}/checks/\{checkGuid\}/paymentsendpoint only supports adding credit card payments. This value must be CREDIT.
+(2) The /orders/{orderGuid}/checks/{checkGuid}/paymentsendpoint only supports adding credit card payments. This value must be CREDIT.
 
 (3) The currency amount to apply to the check price in the added payment.
 
@@ -91,24 +91,24 @@ The following example shows an array of `Payment` objects to add payments to a c
 
 ## Example response data when adding a payment to an existing check
 
-The following example shows example response data for a `POST` request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/payments`endpoint of the orders API.
+The following example shows example response data for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.
 
 ```
-\{
+{
   "guid": "99e42b9c-2f45-4b01-ab90-de4169f6dd29",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "guid": "b7dba08f-db0c-4db3-8ce8-ef25aa0cc492",
       "entityType": "Check",
 
       [contents omitted]
 
       "payments": [
-        \{
+        {
           "guid": "b7372d29-09fd-46bc-b95e-3c1ab4e77fae",
           "entityType": "OrderPayment",
           "externalId": null,
@@ -118,7 +118,7 @@ The following example shows example response data for a `POST` request to the `/
           "amountTendered": null,
           "cashDrawer": null,
           "cardType": "VISA",
-          "lastModifiedDevice": \{
+          "lastModifiedDevice": {
             "id": null
           },
           "refundStatus": "NONE",
@@ -127,26 +127,26 @@ The following example shows example response data for a `POST` request to the `/
           "voidInfo": null,
           "otherPayment": null,
           "mcaRepaymentAmount": null,
-          "createdDevice": \{
+          "createdDevice": {
             "id": null
-          \},
+          },
           "paidDate": "2019-03-31T14:43:04.036+0000",
           "cardEntryMode": null,
           "paymentStatus": "AUTHORIZED",
           "paidBusinessDate": 20190331,
           "last4Digits": "1111",
           "refund": null
-        \}
+        }
       ],
 
       [contents omitted]
 
-    \}
+    }
   ],
 
   [contents omitted]
 
-\}
+}
 
 ```
 

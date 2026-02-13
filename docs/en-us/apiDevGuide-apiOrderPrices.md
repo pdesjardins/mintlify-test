@@ -30,29 +30,29 @@ The `/prices` endpoint is the only reliable and supported way to determine the p
 The following example shows a JSON `Order` object to `POST` to the `/prices` endpoint. The order contains one check with a single menu item.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
-          "itemGroup": \{
+        {
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53"
           },
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
-          \},
+          },
           "quantity": 1,
           "modifiers": []
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -72,7 +72,7 @@ The response from the `/prices` endpoint fills in the amounts, including prices 
 The following example shows the response data returned by the `/prices` endpoint of the orders API.
 
 ```
-\{
+{
   "guid": null,
   "entityType": "Order",
   "externalId": null,
@@ -81,7 +81,7 @@ The following example shows the response data returned by the `/prices` endpoint
   "deliveryInfo": null,
   "serviceArea": null,
   "numberOfGuests": 1,
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption",
     "externalId": null
@@ -93,7 +93,7 @@ The following example shows the response data returned by the `/prices` endpoint
   "businessDate": 20170509,
   "voidBusinessDate": null,
   "checks": [
-    \{
+    {
       "guid": null,
       "entityType": "Check",
       "externalId": null,
@@ -107,21 +107,21 @@ The following example shows the response data returned by the `/prices` endpoint
       "openedDate": "2017-05-09T16:24:09.883+0000",
       "totalAmount": 9.55,
       "selections": [
-        \{
+        {
           "guid": null,
           "entityType": "MenuItemSelection",
           "externalId": null,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup",
             "externalId": null
           },
           "deferred": false,
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem",
             "externalId": null
-          \},
+          },
           "quantity": 1,
           "preDiscountPrice": 8.99,
           "voidReason": null,
@@ -142,19 +142,19 @@ The following example shows the response data returned by the `/prices` endpoint
           "modifiedDate": null,
           "voided": false,
           "appliedTaxes": [
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
                 "entityType": "TaxRate"
-              \},
+              },
               "name": "State Tax",
               "rate": 0.0625,
               "taxAmount": 0.56,
               "type": "PERCENT"
-            \}
+            }
           ]
-        \}
+        }
       ],
       "voidBusinessDate": null,
       "deleted": false,
@@ -168,7 +168,7 @@ The following example shows the response data returned by the `/prices` endpoint
       "appliedServiceCharges": [],
       "paymentStatus": "OPEN",
       "customer": null
-    \}
+    }
   ],
   "deleted": false,
   "paidDate": null,
@@ -180,7 +180,7 @@ The following example shows the response data returned by the `/prices` endpoint
   "voided": false,
   "estimatedFulfillmentDate": null,
   "table": null
-\}
+}
 ```
 
 
@@ -214,7 +214,7 @@ The following example `MenuItem` object is for an open price menu item:
 ```
 ...
 "menuItems": [
-  \{
+  {
     "entityIdentifier": "0/2/0/e19e5a1c-2b52-42ad-935e-568cd2a333dc",
     "name": "Soda",
     "guid": "e19e5a1c-2b52-42ad-935e-568cd2a333dc",
@@ -245,30 +245,30 @@ Include the open price items in the request body that you send to the `/prices` 
 The following example shows a JSON `Order` object that contains a check with a single open price menu item.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c"
   },
   "checks": [
-    \{
+    {
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3"
           },
-          "item": \{
+          "item": {
             "guid": "e19e5a1c-2b52-42ad-935e-568cd2a333dc"
-          \},
+          },
           "quantity": 1,
           "openPriceAmount": 4.50,
           "modifiers": []
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -369,12 +369,12 @@ The following example shows an `appliedServiceCharges`value that applies an open
 
 ```
 "appliedServiceCharges": [
-  \{
-   "serviceCharge": \{
+  {
+   "serviceCharge": {
      "guid": "0a81611c-b424-4586-9539-f33286c0211a"
-   \},
+   },
    "chargeAmount": 3.45
-  \}
+  }
 ]
 ```
 

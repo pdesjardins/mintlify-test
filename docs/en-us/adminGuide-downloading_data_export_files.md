@@ -43,17 +43,17 @@ To access your restaurant's SFTP directory using terminal use the following comm
 
 ```
 sftp \ 
-      -i ~/`\{SSH_key_filepath\}` \
-      -r `\{sftp_username\}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:`\{export_id\}`/`\{YYYYMMDD\}`/*
+      -i ~/`{SSH_key_filepath}` \
+      -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:`{export_id}`/`{YYYYMMDD}`/*
 ```
 
-Replace the *`\{sftp_username\}`* and *`\{export_id\}`* placeholders with the details you received from Toast support. Change *`\{YYYYMMDD\}`* to the business date of the desired export within the last seven days and the *`\{SSH_key_filepath\}`* to the location of your SSH key on your machine.
+Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the details you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days and the *`{SSH_key_filepath}`* to the location of your SSH key on your machine.
 
 
 
 > **Note**
 > 
-> The *`\{filepath\}`* used will be the export directory for your restaurant files.
+> The *`{filepath}`* used will be the export directory for your restaurant files.
 
 
 
@@ -61,7 +61,7 @@ Replace the *`\{sftp_username\}`* and *`\{export_id\}`* placeholders with the de
 
 Once you are connected to the SFTP directory use the **ls** command and press Return to display all files.
 
-Export all files using the **get *** command or use **get *`\{fileName\}`*** to export a specific file.
+Export all files using the **get *** command or use **get *`{fileName}`*** to export a specific file.
 
 
 
@@ -72,10 +72,10 @@ Export all files using the **get *** command or use **get *`\{fileName\}`*** to 
 To access your restaurant's SFTP directory using command prompt use the following command:
 
 ```
-sftp -i `\{SSH_key_filepath\}` -r `\{sftp_username\}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
+sftp -i `{SSH_key_filepath}` -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
 
-Replace *`\{SSH_key_filepath\}`* with the location of your SSH key on your machine. Replace *`\{export_username\}`* with the export user name you received from Toast support.
+Replace *`{SSH_key_filepath}`* with the location of your SSH key on your machine. Replace *`{export_username}`* with the export user name you received from Toast support.
 
 
 2. **Exporting files using command prompt**
@@ -85,15 +85,15 @@ Once you are connected to the SFTP directory, use the **ls** command and press E
 To export a file for a specific location and date, use the following command:
 
 ```
-get /`\{export_id\}`/`\{YYYYMMDD\}` `\{download_location\}`
+get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 ```
 
-Replace *`\{export_id\}`* with the export ID you received from Toast support. Change *`\{YYYYMMDD\}`* to the business date of the desired export within the last seven days. Replace *`\{download_location\}`* with the location on the local file system where you want the downloaded files to be stored.
+Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
 
 To export all files, use the following command:
 
 ```
-get * `\{download_location\}`
+get * `{download_location}`
 ```
 
 

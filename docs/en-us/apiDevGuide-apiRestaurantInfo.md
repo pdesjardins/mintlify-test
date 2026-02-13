@@ -17,10 +17,10 @@ codeExamples: 0
 
 The restaurants API has endpoints that let you obtain two types of information about restaurants:
 
-- The `/restaurants/v1/groups/\{managementGroupGUID\}/restaurants`endpoint returns a list of the restaurants that belong to a restaurant management group.
+- The `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint returns a list of the restaurants that belong to a restaurant management group.
 
 
-- The `/restaurants/v1/restaurants/\{restaurantGUID\}`endpoint returns configuration information about a specific restaurant location. This configuration information is more business oriented (such as the restaurant's location, services, and schedules) than the information returned by the [configuration API](apiDevGuide-apiPartnersGettingAccessibleRestaurants).
+- The `/restaurants/v1/restaurants/{restaurantGUID}`endpoint returns configuration information about a specific restaurant location. This configuration information is more business oriented (such as the restaurant's location, services, and schedules) than the information returned by the [configuration API](apiDevGuide-apiPartnersGettingAccessibleRestaurants).
 
 
 

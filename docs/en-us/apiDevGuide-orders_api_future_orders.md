@@ -55,23 +55,23 @@ If the request for the future order includes a payment, set the `paidDate` for t
 The `Order` object in the following example creates an order that is scheduled for future fulfillment.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
           },
@@ -80,21 +80,21 @@ The `Order` object in the following example creates an order that is scheduled f
         }
       ],
       "payments": [
-        \{
+        {
           "paidDate": "2022-03-01T10:00:00.000+0000",
           "type": "OTHER",
-          "otherPayment": \{
+          "otherPayment": {
             "guid": "b9ba25d1-519a-4ea8-ba05-ed1d952b28bf"
-          \},
+          },
           "amount": 8.63,
           "tipAmount": 1.02
-        \}
+        }
       ]
-    \}
+    }
   ],
   "promisedDate": "2022-03-05T16:00:00.000+0000",
   "openedDate": "2022-03-05T16:00:00.000+0000"
-\}
+}
 ```
 
 

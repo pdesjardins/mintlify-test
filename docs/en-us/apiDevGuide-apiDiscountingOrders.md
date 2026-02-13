@@ -92,7 +92,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
 
 ```
 [
-  \{
+  {
     "guid": "a96fd992-9d69-4a62-894f-b621c31127a5",
     "entityType": "Discount",
     "amount": 25,
@@ -105,7 +105,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     "type": "FIXED",
     "fixedTotal": null
   },
-  \{
+  {
     "guid": "f66bd37f-8814-4f3a-a8ec-536d359dc1b7",
     "entityType": "Discount",
     "amount": null,
@@ -118,7 +118,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     "type": "BOGO",
     "fixedTotal": null
   },
-  \{
+  {
     "guid": "baf12b76-511a-416d-871f-8d4532d425e4",
     "entityType": "Discount",
     "amount": null,
@@ -131,7 +131,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     "type": "PERCENT",
     "fixedTotal": null
   },
-  \{
+  {
     "guid": "23b26475-7e0a-4c0b-a2dc-9b6fcbe49e15",
     "entityType": "Discount",
     "amount": null,
@@ -143,7 +143,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     "itemPickingPriority": "FIRST",
     "type": "FIXED_TOTAL",
     "fixedTotal": 5
-  \}
+  }
 ]
 ```
 
@@ -181,34 +181,34 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
 
 ```
 [
-    \{
-        "discount": \{
+    {
+        "discount": {
             "guid": "1086966b-1411-4d4b-b275-6b8643f5afb0",
             "entityType": "Discount"
-        \},
+        },
         "applicableChecks": [],
         "applicableSelections": [
-            \{
+            {
                 "guid": "1f801d3f-4715-4ae7-b518-5df56b9910a3",
                 "entityType": "SELECTION",
                 "externalId": null
             }
         ]
     },
-    \{
-        "discount": \{
+    {
+        "discount": {
             "guid": "138c3818-371c-4de9-88b2-c839fa144e8c",
             "entityType": "Discount"
-        \},
+        },
         "applicableChecks": [
-            \{
+            {
                 "guid": null,
                 "entityType": "CHECK",
                 "externalId": null
-            \}
+            }
         ],
         "applicableSelections": []
-    \}
+    }
 ]
 ```
 
@@ -236,11 +236,11 @@ The `AppliedDiscounts` object contains an `AppliedDiscount` object for each disc
 
 ```
 "appliedDiscounts": [
-  \{
-    "discount": \{
+  {
+    "discount": {
       "guid": "f66bd37f-8814-4f3a-a8ec-536d359dc1b7"
-    \}
-  \}
+    }
+  }
 ]
 ```
 
@@ -248,12 +248,12 @@ For an open amount discount, the `AppliedDiscount` object also contains a `disco
 
 ```
 "appliedDiscounts": [
-  \{
-    "discount": \{
+  {
+    "discount": {
       "guid": "462c68a3-40ce-41ab-89e2-e26aaa41696e"
-    \},
+    },
     "discountAmount": 2.0
-  \}
+  }
 ]
 ```
 
@@ -264,46 +264,46 @@ You can only apply one discount to a menu item selection. The discount must be a
 The following example shows a discount applied to a menu item selection.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
-      "customer": \{
+      "customer": {
         "email": "fgauthier@example.com",
         "firstName": "Francis",
         "lastName": "Gauthier",
         "phone": "987-654-3210"
       },
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "28dc4d65-e84b-44f0-8b73-0a721d5a9b88"
-          \},
+          },
           "appliedDiscounts": [
-            \{
-              "discount": \{
+            {
+              "discount": {
                 "guid": "a96fd992-9d69-4a62-894f-b621c31127a5"
-              \}
-            \}
+              }
+            }
           ],
           "quantity": 2,
           "modifiers": []
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -330,46 +330,46 @@ For example, a BOGO discount allows guests to receive a free cup of coffee when 
 The following example shows a discount applied to a check.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
-      "customer": \{
+      "customer": {
         "email": "fgauthier@example.com",
         "firstName": "Francis",
         "lastName": "Gauthier",
         "phone": "987-654-3210"
       },
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "4c842ed6-ae99-425a-a343-390ab0e081d3",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "28dc4d65-e84b-44f0-8b73-0a721d5a9b88"
-          \},
+          },
           "quantity": 2,
           "modifiers": []
-        \}
+        }
       ],
       "appliedDiscounts": [
-        \{
-          "discount": \{
+        {
+          "discount": {
             "guid": "f66bd37f-8814-4f3a-a8ec-536d359dc1b7"
-          \} 
-        \}
+          } 
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -396,47 +396,47 @@ The Toast platform does not verify that the `appliedPromoCode` value matches a p
 The following example shows promotional codes applied to check and menu item selection discounts in an order:
 
 ```
-\{
-  "diningOption": \{
+{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
           },
           "quantity": 1,
           "modifiers": [],
           "appliedDiscounts": [
-          \{
-            "discount": \{
+          {
+            "discount": {
               "guid": "590d2298-471d-4adb-8b83-24103157df6c"
-            \},
+            },
           "appliedPromoCode": "MYSPECIALOFFER"
         }
       ]
         }
       ],
       "appliedDiscounts": [
-        \{
-          "discount": \{
+        {
+          "discount": {
             "guid": "69d98978-6363-40bf-96eb-1e0d97dcea3d"
-          \},
+          },
           "appliedPromoCode": "MYEXTRASPECIALOFFER"
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -475,17 +475,17 @@ For example:
 
 ```
 [
-  \{
-    "discount": \{
+  {
+    "discount": {
       "guid": "a96fd992-9d69-4a62-894f-b621c31127a5"
     }
   },
-  \{
-    "discount": \{
+  {
+    "discount": {
       "guid": "30430bb7-0e55-4aae-b783-ee62cda3ca7d"
-    \},
+    },
     "appliedPromoCode": "MYEXTRASPECIALOFFER"
-  \}
+  }
 ]
 ```
 
@@ -520,14 +520,14 @@ Use the following endpoints to add discounts to an existing order:
 ****Check-level discounts****
 : To add check-level discounts, send the `POST`message to:
 
-`/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/appliedDiscounts`
+`/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/appliedDiscounts`
 
 
 
 ****Item-level discounts****
 : To add an item-level discount, send the `POST`message to:
 
-`/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/selections/<em>\{selectionGuid\}</em>/appliedDiscounts`
+`/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections/<em>{selectionGuid}</em>/appliedDiscounts`
 
 
 
@@ -542,21 +542,21 @@ When you add a discount to an existing order, the response contains an `Order` o
 Here is an example of a response to a request to add discounts to a check:
 
 ```
-\{
+{
   "guid": "52b90296-359c-4015-a42b-044276a9c0b3",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "guid": "b79bbce8-cc4f-42f5-b42d-1f644888db34",
       "entityType": "Check",
 
       [contents omitted]
 
       "appliedDiscounts": [
-        \{
+        {
           "guid": "43130ce2-24e4-4532-b77d-f1cee4690743",
           "entityType": "AppliedCustomDiscount",
           "externalId": null,
@@ -566,24 +566,24 @@ Here is an example of a response to a request to add discounts to a check:
           "name": "MyCheckDiscount",
           "comboItems": [],
           "discountAmount": 11.1,
-          "discount": \{
+          "discount": {
             "guid": "c0c17bfb-db88-4322-ae58-df5059325a1a",
             "entityType": "Discount"
-          \},
+          },
           "nonTaxDiscountAmount": 11.1,
           "triggers": [],
           "appliedPromoCode": null
-        \}
+        }
       ],
 
       [contents omitted]
 
-    \}
+    }
   ],
 
   [contents omitted]
 
-\}
+}
 
 ```
 
@@ -598,28 +598,28 @@ Here is an example of a response to a request to add discounts to a check:
 Here is an example of a response to a request to add a discount to a menu item selection:
 
 ```
-\{
+{
   "guid": "52b90296-359c-4015-a42b-044276a9c0b3",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "guid": "b79bbce8-cc4f-42f5-b42d-1f644888db34",
       "entityType": "Check",
 
       [contents omitted]
 
       "selections": [
-        \{
+        {
           "guid": "ee3d2c4a-2d67-4c4e-8aa0-b8496fb00110",
           "entityType": "MenuItemSelection",
 
           [contents omitted]
 
           "appliedDiscounts": [
-            \{
+            {
               "guid": "9d0a2fb6-c962-4ccd-89b6-c96865a7b2f3",
               "entityType": "AppliedCustomDiscount",
               "externalId": null,
@@ -629,38 +629,38 @@ Here is an example of a response to a request to add a discount to a menu item s
               "name": "MyItemDiscount",
               "comboItems": [],
               "discountAmount": 11.1,
-              "discount": \{
+              "discount": {
                 "guid": "896304bc-6151-4e13-a407-89a4792fa2ba",
                 "entityType": "Discount"
               },
               "nonTaxDiscountAmount": 11.1,
               "triggers": [
-                \{
-                  "selection": \{
+                {
+                  "selection": {
                     "guid": "33182827-db63-4119-84a3-230e3e7eb809",
                     "entityType": "MenuItemSelection",
                     "externalId": null
-                  \},
+                  },
                   "quantity": 1
-                \}
+                }
               ],
               "appliedPromoCode": null
-            \}
+            }
           ],
 
           [contents omitted]
 
-        \}
+        }
       ],
 
       [contents omitted]
 
-    \}
+    }
   ],
 
   [contents omitted]
 
-\}
+}
 
 ```
 
@@ -775,40 +775,40 @@ The "get" items are in a separate `MenuItemSelection`object. The `appliedDiscoun
 For example, the following order contains a single menu item selection for three cups of soup. The applied BOGO discount offers a free cup of soup for every cup purchased.
 
 ```
-\{  
+{  
    "entityType":"Order",
 
    [contents omitted]
 
    },
    "checks":[  
-      \{  
+      {  
          "entityType":"Check",
          "selections":[  
-           \{
+           {
              "entityType": "MenuItemSelection",
-             "itemGroup": \{
+             "itemGroup": {
                "guid": "e0da05d4-db71-44ed-805b-95284d22df73",
                "entityType": "MenuGroup"
              },
-             "item": \{
+             "item": {
                "entityType": "MenuItem",
                "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
-             \},
+             },
              "quantity": 3,
              "modifiers": []
            }
          ],
          "appliedDiscounts": [
-           \{
-             "discount": \{
+           {
+             "discount": {
                 "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88"
-             \}
-           \}
+             }
+           }
         ]
-      \}
+      }
    ]
-\}
+}
 ```
 
 
@@ -831,30 +831,30 @@ In the returned order information, there are two `MenuItemSelection` objects.
 The following example shows the return data for an order that includes a BOGO discount. In this example, the BOGO discount is *buy* one cup of soup and *get* one cup of soup free. The check in the order includes three cups of soup.
 
 ```
-\{
+{
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "entityType": "Check",
 
       [contents omitted]
 
       "appliedDiscounts": [],
       "selections": [
-        \{
+        {
           "guid": "e0da05d4-db71-44ed-805b-95284d22df73",
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem"
-          \},
+          },
           "quantity": 2,
           "preDiscountPrice": 17.98,
           "displayName": "Soup",
@@ -864,22 +864,22 @@ The following example shows the return data for an order that includes a BOGO di
           [contents omitted]
 
         },
-        \{
+        {
           "guid": "2950ded4-f21a-428d-a847-698bcb260c03",
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem"
-          \},
+          },
           "quantity": 1,
           "preDiscountPrice": 8.99,
           "displayName": "Soup",
           "appliedDiscounts": [
-            \{
+            {
               "guid": "7ec5c2e8-b6ae-4d30-8084-fecf3dd611f3",
               "entityType": "AppliedCustomDiscount",
               "approver": null,
@@ -888,37 +888,37 @@ The following example shows the return data for an order that includes a BOGO di
               "name": "Enjoy more soup.",
               "comboItems": [],
               "discountAmount": 8.99,
-              "discount": \{
+              "discount": {
                 "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88",
                 "entityType": "Discount"
               },
               "triggers": [
-                \{
-                  "selection": \{
+                {
+                  "selection": {
                     "guid": "e0da05d4-db71-44ed-805b-95284d22df73",
                     "entityType": "MenuItemSelection"
-                  \},
+                  },
                   "quantity": 1
-                \}
+                }
               ],
               "appliedPromoCode": null
-            \}
+            }
           ],
           "price": 0,
 
           [contents omitted]
 
-        \}
+        }
       ],
 
       [contents omitted]
 
-    \}
+    }
   ],
 
   [contents omitted]
 
-\}
+}
 ```
 
 
@@ -958,40 +958,40 @@ When the Toast platform applies a combo discount, it adds a `comboItems` object 
 For example, the following order contains a single menu item selection for three cups of soup. The applied combo discount offers two cups of soup for a reduced price.
 
 ```
-\{  
+{  
    "entityType":"Order",
 
    [contents omitted]
 
    },
    "checks":[  
-      \{  
+      {  
          "entityType":"Check",
          "selections":[  
-           \{
+           {
              "entityType": "MenuItemSelection",
-             "itemGroup": \{
+             "itemGroup": {
                "guid": "e0da05d4-db71-44ed-805b-95284d22df73",
                "entityType": "MenuGroup"
              },
-             "item": \{
+             "item": {
                "entityType": "MenuItem",
                "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
-             \},
+             },
              "quantity": 3,
              "modifiers": []
            }
          ],
          "appliedDiscounts": [
-           \{
-             "discount": \{
+           {
+             "discount": {
                 "guid": "7e345df5-9b3c-4e5a-9fbe-6183c56d2f88"
-             \}
-           \}
+             }
+           }
         ]
-      \}
+      }
    ]
-\}
+}
 ```
 
 
@@ -1014,19 +1014,19 @@ In the returned order information, there are two `MenuItemSelection` objects.
 In the `AppliedDiscounts` object for the check, the `comboItems` object points to the `MenuItemSelection` object for the two cups of soup.
 
 ```
-\{
+{
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "entityType": "Check",
 
       [contents omitted]
 
       "appliedDiscounts": [
-        \{
+        {
           "guid": "3b97af77-bb9f-4f83-87e1-471a1dd984cd",
           "entityType": "MultiItemAppliedDiscount",
           "approver": null,
@@ -1034,22 +1034,22 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
           "loyaltyDetails": null,
           "name": "Eat more soup.",
           "comboItems": [
-            \{
+            {
               "guid": "b059bf10-2d4b-4aba-808a-46d0ecfa1b71",
               "entityType": "MenuItemSelection"
             }
           ],
           "discountAmount": 2.98,
-          "discount": \{
+          "discount": {
             "guid": "b1fba60e-f119-45ce-81ed-1e030c8e8705",
             "entityType": "Discount"
           },
           "triggers": [
-            \{
-              "selection": \{
+            {
+              "selection": {
                 "guid": "13c704da-d8bd-4a72-8df3-d340efb1e0d3",
                 "entityType": "MenuItemSelection"
-              \},
+              },
               "quantity": 2
             }
           ],
@@ -1058,17 +1058,17 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
       ],
       "totalAmount": 25.67,
       "selections": [
-        \{
+        {
           "guid": "13c704da-d8bd-4a72-8df3-d340efb1e0d3",
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem"
-          \},
+          },
           "quantity": 1,
           "preDiscountPrice": 8.99,
           "appliedDiscounts": [],
@@ -1077,19 +1077,19 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
 
           "price": 8.99
         },
-        \{
+        {
           "guid": "b059bf10-2d4b-4aba-808a-46d0ecfa1b71",
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup",
             "externalId": null
           },
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem",
             "externalId": null
-          \},
+          },
           "quantity": 2,
           "preDiscountPrice": 17.98,
           "appliedDiscounts": [],
@@ -1097,17 +1097,17 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
           [contents omitted]
           
           "price": 15
-        \}
+        }
       ]
 
       [contents omitted]
 
-    \}
+    }
   ]
 
 [contents omitted]
 
-\}
+}
 
 ```
 
@@ -1188,43 +1188,43 @@ To apply a check to a loyalty program account, include an `AppliedLoyaltyInfo` o
 The following example shows a check being applied to a loyalty program account.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "4f4d2103-2e0f-45d7-ae4c-8a9c16648fd1",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
-      "customer": \{
+      "customer": {
         "email": "fgauthier@example.com",
         "firstName": "Francis",
         "lastName": "Gauthier",
         "phone": "987-654-3210"
       },
-      "appliedLoyaltyInfo": \{
+      "appliedLoyaltyInfo": {
         "loyaltyIdentifier": "6000101001599474",
         "vendor": "`MYLOYALTYPROVIDER`"
       },
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "eeebddd6-6556-4c81-bd2b-1d1a1a716a83",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "79df2dfb-340d-405f-a0f9-55b882606ce5"
-          \},
+          },
           "quantity": 3,
           "modifiers": []
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -1269,51 +1269,51 @@ In the `LoyaltyDetails` object, provide the following information:
 The following example shows the JSON message body to `POST` an order with a check-level loyalty program discount.
 
 ```
-\{  
+{  
    "entityType":"Order",
-   "diningOption":\{  
+   "diningOption":{  
       "guid":"4f4d2103-2e0f-45d7-ae4c-8a9c16648fd1",
       "entityType":"DiningOption"
    },
    "checks":[  
-      \{  
+      {  
          "entityType":"Check",
-         "customer":\{
+         "customer":{
             "email":"fgauthier@example.com",
             "firstName":"Francis",
             "lastName":"Gauthier",
             "phone":"987-654-3210"
          },
-         "appliedLoyaltyInfo": \{
+         "appliedLoyaltyInfo": {
             "loyaltyIdentifier": "6000101001599474",
             "vendor": "INTEGRATION"
          },
          "selections":[  
-            \{  
+            {  
                "entityType":"MenuItemSelection",
-               "itemGroup":\{  
+               "itemGroup":{  
                   "guid":"eeebddd6-6556-4c81-bd2b-1d1a1a716a83",
                   "entityType":"MenuGroup"
                },
-               "item":\{  
+               "item":{  
                   "entityType":"MenuItem",
                   "guid":"79df2dfb-340d-405f-a0f9-55b882606ce5"
-               \},
+               },
                "quantity":3,
                "modifiers": []
-            \}
+            }
          ],
          "appliedDiscounts": [
-           \{
-             "loyaltyDetails": \{
+           {
+             "loyaltyDetails": {
                "vendor": "INTEGRATION",
                "referenceId": "4"
-             \}
-           \}
+             }
+           }
          ]
-      \}
+      }
    ]
-\}
+}
 ```
 
 
@@ -1333,51 +1333,51 @@ The following example shows the JSON message body to `POST` an order with a chec
 This example shows the JSON message body to `POST` an order with an item-level loyalty program discount.
 
 ```
-\{  
+{  
    "entityType":"Order",
-   "diningOption":\{  
+   "diningOption":{  
       "guid":"4f4d2103-2e0f-45d7-ae4c-8a9c16648fd1",
       "entityType":"DiningOption"
    },
    "checks":[  
-      \{  
+      {  
          "entityType":"Check",
-         "customer":\{
+         "customer":{
             "email":"fgauthier@example.com",
             "firstName":"Francis",
             "lastName":"Gauthier",
             "phone":"987-654-3210"
          },
-         "appliedLoyaltyInfo": \{
+         "appliedLoyaltyInfo": {
             "loyaltyIdentifier": "6000101001599474",
             "vendor": "INTEGRATION"
          },
          "selections":[  
-            \{  
+            {  
                "entityType":"MenuItemSelection",
-               "itemGroup":\{  
+               "itemGroup":{  
                   "guid":"eeebddd6-6556-4c81-bd2b-1d1a1a716a83",
                   "entityType":"MenuGroup"
                },
-               "item":\{  
+               "item":{  
                   "entityType":"MenuItem",
                   "guid":"79df2dfb-340d-405f-a0f9-55b882606ce5"
-               \},
+               },
                "quantity":3,
                "appliedDiscounts": [
-                 \{
-                   "loyaltyDetails": \{
+                 {
+                   "loyaltyDetails": {
                    "vendor": "INTEGRATION",
                    "referenceId": "4"
-                   \}
-                 \}
+                   }
+                 }
                ],
                "modifiers": []
-            \}
+            }
          ]
-      \}
+      }
    ]
-\}
+}
 ```
 
 

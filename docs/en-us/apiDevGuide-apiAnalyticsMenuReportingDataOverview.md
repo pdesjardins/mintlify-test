@@ -19,10 +19,10 @@ Menu reporting data includes detailed information about menu entities as they re
 
 Retrieving the menu reporting data is a two-step process. You must:
 
-1. Send a `POST` request to the `/era/v1/menu` or `/era/v1/menu/\{timeRange\}`endpoint to create a request for menu reporting data for the restaurants in a management group. The response includes the `reportRequestGuid`, the unique request identifier. These endpoints are for either a custom time range (`/era/v1/menu`), which can include a time range for any number or days, or a specific time range (`/era/v1/menu/\{timeRange\}`), which allows for a maximum number of days depending on the specific time range value chosen. For more information, see [Creating a request for menu reporting data](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest).
+1. Send a `POST` request to the `/era/v1/menu` or `/era/v1/menu/{timeRange}`endpoint to create a request for menu reporting data for the restaurants in a management group. The response includes the `reportRequestGuid`, the unique request identifier. These endpoints are for either a custom time range (`/era/v1/menu`), which can include a time range for any number or days, or a specific time range (`/era/v1/menu/{timeRange}`), which allows for a maximum number of days depending on the specific time range value chosen. For more information, see [Creating a request for menu reporting data](apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/menu/\{requestReportGuid\}` endpoint to retrieve the menu reporting data. For more information, see [Retrieving the menu reporting data](apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/menu/{requestReportGuid}` endpoint to retrieve the menu reporting data. For more information, see [Retrieving the menu reporting data](apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData).
 
 
 

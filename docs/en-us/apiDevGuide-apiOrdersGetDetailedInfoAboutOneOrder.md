@@ -21,7 +21,7 @@ You can use the orders API to retrieve detailed information about a single order
 
 To request details for a single order, you must have the order GUID.
 
-You send a `GET` request to the `/orders/<em>\{guid\}</em>` endpoint.
+You send a `GET` request to the `/orders/<em>{guid}</em>` endpoint.
 
 ## Example request for detailed information about one order
 
@@ -52,34 +52,34 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 (2) Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.
 
-(3) Send a GET request to the /orders/\{guid\} endpoint of the orders API. Specify the GUID of the order as a path parameter.
+(3) Send a GET request to the /orders/{guid} endpoint of the orders API. Specify the GUID of the order as a path parameter.
 
 ## Example response data
 
-The following example shows the response data from the `/orders/\{guid\}` endpoint. It contains detailed information about one order.
+The following example shows the response data from the `/orders/{guid}` endpoint. It contains detailed information about one order.
 
 ```
-\{
+{
   "guid": "017fdd94-4a30-4657-9475-b1a684758531",
   "entityType": "Order",
   "externalId": null,
-  "revenueCenter": \{
+  "revenueCenter": {
       "guid": "9ab6a5cf-32e0-47ee-9fd3-c73507ef3c01",
       "entityType": "RevenueCenter",
       "externalId": null
   },
-  "server": \{
+  "server": {
     "guid": "5c305143-183f-49cf-b4d5-49a610826822",
     "entityType": "RestaurantUser",
     "externalId": null
   },
-  "lastModifiedDevice": \{
+  "lastModifiedDevice": {
     "id": "175785aa78a7c4dc"
   },
-  "createdDevice": \{
+  "createdDevice": {
       "id": "175785aa78a7c4dc"
   },
-  "deliveryInfo": \{
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -90,14 +90,14 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
     "notes": ""
   },
   "serviceArea": null,
-  "curbsidePickupInfo": \{
+  "curbsidePickupInfo": {
     "entityType": "CurbsidePickup",
     "notes": "Convertible with top down",
     "transportColor": "blue",
     "transportDescription": "Street Cruiser"
   },
   "numberOfGuests": 1,
-  "diningOption": \{
+  "diningOption": {
     "guid": "d527b5cf-96d2-41dc-92e6-8e9ca1ed36bd",
     "entityType": "DiningOption",
     "externalId": null
@@ -109,7 +109,7 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
   "businessDate": 20190224,
   "voidBusinessDate": null,
   "checks": [
-    \{
+    {
       "guid": "9f42438a-a375-4983-9f80-c0dae5c33196",
       "entityType": "Check",
       "externalId": null,
@@ -118,7 +118,7 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
       "tabName": "Toasty Toaster",
       "taxExempt": false,
       "payments": [
-        \{
+        {
           "guid": "e8cee462-78b4-4d83-a8ac-6006903f36d7",
           "entityType": "OrderPayment",
           "externalId": null,
@@ -128,10 +128,10 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
           "amountTendered": 0,
           "cashDrawer": null,
           "cardType": "VISA",
-          "lastModifiedDevice": \{
+          "lastModifiedDevice": {
               "id": "175785aa78a7c4dc"
           },
-          "createdDevice": \{
+          "createdDevice": {
               "id": "175785aa78a7c4dc"
           },
           "refundStatus": "NONE",
@@ -151,28 +151,28 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
       "voidDate": null,
       "openedDate": "2019-02-24T13:48:44.206+0000",
       "totalAmount": 1.06,
-      "lastModifiedDevice": \{
+      "lastModifiedDevice": {
           "id": "175785aa78a7c4dc"
       },
-      "createdDevice": \{
+      "createdDevice": {
           "id": "d64b3fd17cad3db2"
       },
       "selections": [
-        \{
+        {
           "guid": "69684faa-c35d-4ab4-9bff-41805ae52276",
           "entityType": "MenuItemSelection",
           "externalId": null,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup",
             "externalId": null
           },
           "deferred": false,
-          "item": \{
+          "item": {
             "guid": "a7b9ee4d-e41b-46ac-9ba4-d56dd7b2fb20",
             "entityType": "MenuItem",
             "externalId": null
-          \},
+          },
           "quantity": 1,
           "receiptLinePrice": 1,
           "preDiscountPrice": 1,
@@ -186,7 +186,7 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
           "voidDate": null,
           "fulfillmentStatus": "SENT",
           "optionGroupPricingMode": null,
-          "salesCategory": \{
+          "salesCategory": {
               "guid": "b6a5fa5c-5b4f-49ca-a49f-d35814110f81",
               "entityType": "SalesCategory",
               "externalId": null
@@ -198,15 +198,15 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
           "price": 1,
           "modifiedDate": "2019-02-24T13:49:39.252+0000",
           "voided": false,
-          "diningOption": \{
+          "diningOption": {
               "guid": "d527b5cf-96d2-41dc-92e6-8e9ca1ed36bd",
               "entityType": "DiningOption",
               "externalId": null
           },
           "appliedTaxes": [
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
                 "entityType": "TaxRate"
               },
@@ -229,7 +229,7 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
       "taxAmount": 0.06,
       "appliedServiceCharges": [],
       "paymentStatus": "CLOSED",
-      "customer": \{
+      "customer": {
           "entityType": "Customer",
           "firstName": "Jack",
           "lastName": "Jones",
@@ -242,24 +242,24 @@ The following example shows the response data from the `/orders/\{guid\}` endpoi
   "paidDate": "2019-02-24T13:49:38.616+0000",
   "closedDate": "2019-02-25T11:05:00.024+0000",
   "deletedDate": "1970-01-01T00:00:00.000+0000",
-  "restaurantService": \{
+  "restaurantService": {
       "guid": "9d57bbfc-c0e1-4bb0-9cec-ebcb186306bb",
       "entityType": "RestaurantService",
       "externalId": null
-  \},
+  },
   "modifiedDate": "2019-02-25T11:05:00.024+0000",
   "promisedDate": null,
   "voided": false,
   "estimatedFulfillmentDate": null,
   "requiredPrepTime": "PT0S",
   "table": null
-\}
+}
 
 ```
 
 
 
-(1) The /orders/\{guid\}endpoint returns an Order JSON object. For more information about the values in the Order object, see the orders API reference documentation.
+(1) The /orders/{guid}endpoint returns an Order JSON object. For more information about the values in the Order object, see the orders API reference documentation.
 
  The deliveryInfo JSON value is only populated if your Toast API client has the delivery_info.address:readscope. For more information about scopes, see Scopes.
 

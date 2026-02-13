@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `POST` request to the `/era/v1/guest/payments/\{timeRange\}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
@@ -43,7 +43,7 @@ To create a request for guest reporting data organized by payment, include the f
 
 ## Request for guest reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/\{timeRange\}` endpoint. This example uses the `week` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint. This example uses the `week` time range.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
@@ -54,7 +54,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 
 
 
-(1) Send a POST request to the /era/v1/guest/payments/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is week.
+(1) Send a POST request to the /era/v1/guest/payments/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
@@ -67,7 +67,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 The following example shows the message body for creating a guest reporting data request for a specific time range. This example is for the `week` time range.
 
 ```
-\{
+{
   "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021",
     "6b853fa7-b3dc-4db7-a528-c3599823ccd1"
@@ -75,7 +75,7 @@ The following example shows the message body for creating a guest reporting data
   "excludedRestaurantIds": [],
   "startDate": "20240924",
   "endDate": "20240926"
-\}
+}
 
 ```
 
@@ -91,7 +91,7 @@ The following example shows the message body for creating a guest reporting data
 
 ## Response to request for guest reporting data
 
-The following example shows the response from the `/era/v1/guest/payments/\{timeRange\}` endpoint.
+The following example shows the response from the `/era/v1/guest/payments/{timeRange}` endpoint.
 
 ```
 "fb23cfaa-56d7-4cb9-829d-531a8d02274a"

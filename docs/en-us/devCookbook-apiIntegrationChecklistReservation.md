@@ -160,7 +160,7 @@ Include the `numberOfGuests` value in the order to identify guest count. This he
 
 #### Tab name
 
-Include a `tabName` value in the order to identify your integration and guest information. Use the naming convention: `\{Partner name} - \{Guest first name} \{Guest last initial\}`. Your integration should allow restaurants to customize tab naming conventions in your system's user interface based on restaurant requirements.
+Include a `tabName` value in the order to identify your integration and guest information. Use the naming convention: `{Partner name} - {Guest first name} {Guest last initial}`. Your integration should allow restaurants to customize tab naming conventions in your system's user interface based on restaurant requirements.
 
 For more information about where tab names appear in the Toast platform, see [Guest personal identifiable information](adminGuide-platformOrdersPii).
 
@@ -226,48 +226,48 @@ The workflow below outlines how to create a reservation in your system and submi
 **Example 1.1. Example POST request to the orders API**
 
 ```
-\{
-  "diningOption": \{
+{
+  "diningOption": {
     "guid": "374d500f-c6d8-44d0-a18d-43fe5e7f750c"
   },
-  "revenueCenter": \{
+  "revenueCenter": {
     "guid": "81665a60-c20d-41da-a362-6474eab830d3"
   },
-  "table": \{
+  "table": {
     "guid": "880a2f72-8960-4a3f-b2a2-60b7a19975e7"
-  \},
+  },
   "numberOfGuests": 4,
-  "server": \{
+  "server": {
     "guid": "90d97fb8-931f-4196-aae9-d71bbcd5d3df"
   },
   "checks": [
-    \{
+    {
       "tabName": "Reservation Partner - Ann M"
     },
-    \{
+    {
       "appliedServiceCharges": [
-        \{
-          "serviceCharge": \{
+        {
+          "serviceCharge": {
             "guid": "9b2dd3cc-f4ab-4586-8c5a-2bbf6a9eef8d"
            }
          }
        ]
      },
 
-    \{
+    {
       "payments": [
-        \{
+        {
           "type": "OTHER",
           "amount": "20.00",
           "tipAmount": "0.00",
-          "otherPayment": \{
+          "otherPayment": {
             "guid": "40dbc841-7f29-47d0-9834-9cf9c5b591d2"
-          \}
-        \}
+          }
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 

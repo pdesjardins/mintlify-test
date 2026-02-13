@@ -59,12 +59,12 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 The following example shows an online restaurant location's ordering availability.
 
 ```
-\{
+{
     "restaurantGuid": "00000000-05f4-55a4-0000-0000020f4be3",
     "status": "ONLINE",
     "reasonKey": "AVAILABILITY_ONLINE",
     "reason": "Restaurant is approving online orders"
-  \}
+  }
 ```
 
   
@@ -73,12 +73,12 @@ The following example shows an online restaurant location's ordering availabilit
 The following example shows an offline restaurant location's ordering availability.
 
 ```
-\{
+{
     "restaurantGuid": "00000000-05f4-55a4-0000-0000020f4be3",
     "status": "OFFLINE",
     "reasonKey": "AVAILABILITY_OFFLINE",
     "reason": "Restaurant cannot accept online orders"
-  \}
+  }
 ```
 
   

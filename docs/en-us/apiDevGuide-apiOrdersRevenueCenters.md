@@ -23,10 +23,10 @@ For example, restaurants might use revenue centers to report on order volume in 
 To specify the revenue center, in the `Order` object, provide a `revenueCenter` object that specifies the Toast platform GUID of the revenue center. For example:
 
 ```
-"revenueCenter": \{
+"revenueCenter": {
     "guid": "908f0483-ac03-4c9a-a5a4-43c37786e237",
     "entityType": "RevenueCenter"
-  \},
+  },
 ```
 
 To retrieve the GUIDs of the available revenue centers for a restaurant, send a `GET` request to the `/revenueCenters` endpoint of the configuration API.

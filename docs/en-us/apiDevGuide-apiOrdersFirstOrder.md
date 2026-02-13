@@ -45,26 +45,26 @@ For more information about scopes, see [Scopes](apiDevGuide-apiScopes).
 Every order requires, at minimum, a dining option and a check with menu item selections. The following example shows the basic `Order` object structure.
 
 ```
-\{
-  "diningOption": \{
-    "guid": "`\{diningOption GUID\}`"
+{
+  "diningOption": {
+    "guid": "`{diningOption GUID}`"
   },
   "checks": [
-    \{
+    {
       "selections": [
-        \{
-          "item": \{
-            "guid": "`\{selection item GUID\}`"
+        {
+          "item": {
+            "guid": "`{selection item GUID}`"
           },
-          "itemGroup": \{
-            "guid": "`\{itemGroup GUID\}`"
-          \},
+          "itemGroup": {
+            "guid": "`{itemGroup GUID}`"
+          },
           "quantity": 1
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 The following table describes the required fields:
@@ -88,7 +88,7 @@ All requests to the Toast platform APIs require the following headers:
 | --- | --- |
 | `Toast-Restaurant-External-ID` | The GUID of the Toast location for the request. | 
 | `Authorization` | The access token in the format *`Bearer
-              \{accessToken\}`*. | 
+              {accessToken}`*. | 
 | `Content-Type` | Required for `POST`requests. Must be set to `application/json`. | 
 
 ## Submitting your first order
@@ -104,25 +104,25 @@ Before making any API requests, you must obtain an access token using your clien
 Send a `POST` request to the `/authentication/v1/authentication/login` endpoint with the following request body:
 
 ```
-\{
+{
   "clientId": "`clientId`",
   "clientSecret": "`clientSecret`",
   "userAccessType": "TOAST_MACHINE_CLIENT"
-\}
+}
 ```
 
 The response includes an access token to use in the `Authorization` header for subsequent requests:
 
 ```
-\{
-  "token": \{
+{
+  "token": {
     "tokenType": "Bearer",
     "scope": "orders:write,orders:read",
     "expiresIn": 86400,
     "accessToken": "eyJ0eXAiOiJKV1Q..."
-  \},
+  },
   "status": "SUCCESS"
-\}
+}
 ```
 
 
@@ -144,27 +144,27 @@ The response returns an array of dining options:
 
 ```
 [
-  \{
+  {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption",
     "name": "Dine-in",
     "curbside": false,
     "behavior": "DINE_IN"
   },
-  \{
+  {
     "guid": "7c6843f3-db7d-4096-bdd2-4eefd99b900f",
     "entityType": "DiningOption",
     "name": "Takeout",
     "curbside": false,
     "behavior": "TAKE_OUT"
   },
-  \{
+  {
     "guid": "b1b10604-a8f9-4a21-ae86-7db974ee9dbf",
     "entityType": "DiningOption",
     "name": "Delivery",
     "curbside": false,
     "behavior": "DELIVERY"
-  \}
+  }
 ]
 ```
 
@@ -181,40 +181,40 @@ The response returns an array of menu groups with their GUIDs and names. Note th
 
 ```
 [
-  \{
+  {
     "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
     "entityType": "MenuGroup",
     "externalId": null,
     "name": "Hamburgers",
-    "menu": \{
+    "menu": {
       "guid": "a9b6e0d4-5c3f-4e2a-b1d8-7f9e6c5a4b3d",
       "entityType": "Menu"
     },
     "visibility": "ALL",
     "menuItems": [
-      \{
+      {
         "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
         "entityType": "MenuItem"
       }
     ]
   },
-  \{
+  {
     "guid": "500feeaa-5624-4e05-aa80-17b7e6025835",
     "entityType": "MenuGroup",
     "externalId": null,
     "name": "Smoothies",
-    "menu": \{
+    "menu": {
       "guid": "a9b6e0d4-5c3f-4e2a-b1d8-7f9e6c5a4b3d",
       "entityType": "Menu"
     },
     "visibility": "ALL",
     "menuItems": [
-      \{
+      {
         "guid": "9ec9573d-efa7-465e-a272-cc3171729a6c",
         "entityType": "MenuItem"
-      \}
+      }
     ]
-  \}
+  }
 ]
 ```
 
@@ -227,7 +227,7 @@ The response includes each menu item's `guid`, `name`, and `menuGroups` array:
 
 ```
 [
-  \{
+  {
     "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
     "entityType": "MenuItem",
     "externalId": null,
@@ -237,19 +237,19 @@ The response includes each menu item's `guid`, `name`, and `menuGroups` array:
     "visibility": "ALL",
     "orderableOnline": "YES",
     "menuGroups": [
-      \{
+      {
         "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
         "entityType": "MenuGroup"
       }
     ],
     "optionGroups": [
-      \{
+      {
         "guid": "47d73134-03da-4fb5-b564-5358b3b37d34",
         "entityType": "MenuOptionGroup"
       }
     ]
   },
-  \{
+  {
     "guid": "9ec9573d-efa7-465e-a272-cc3171729a6c",
     "entityType": "MenuItem",
     "externalId": null,
@@ -259,13 +259,13 @@ The response includes each menu item's `guid`, `name`, and `menuGroups` array:
     "visibility": "ALL",
     "orderableOnline": "YES",
     "menuGroups": [
-      \{
+      {
         "guid": "500feeaa-5624-4e05-aa80-17b7e6025835",
         "entityType": "MenuGroup"
-      \}
+      }
     ],
     "optionGroups": []
-  \}
+  }
 ]
 ```
 
@@ -279,44 +279,44 @@ Menu items can belong to multiple menu groups. If a menu item belongs to more th
 Using the GUIDs you collected, build your order JSON. The following example shows a simple dine-in order with two menu items:
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
-  \},
+  },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "item": \{
+          "item": {
             "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
             "entityType": "MenuItem"
           },
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
             "entityType": "MenuGroup"
-          \},
+          },
           "quantity": 1
         },
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "item": \{
+          "item": {
             "guid": "9ec9573d-efa7-465e-a272-cc3171729a6c",
             "entityType": "MenuItem"
           },
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "500feeaa-5624-4e05-aa80-17b7e6025835",
             "entityType": "MenuGroup"
-          \},
+          },
           "quantity": 2
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -343,55 +343,55 @@ Send a `POST` request to the `/orders/v2/prices` endpoint. Include your order JS
 The response returns the order with calculated prices, taxes, and totals. This step also validates your order structure and confirms that all referenced entities exist:
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "amount": 25.00,
       "taxAmount": 2.19,
       "totalAmount": 27.19,
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "item": \{
+          "item": {
             "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
             "entityType": "MenuItem"
           },
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
             "entityType": "MenuGroup"
-          \},
+          },
           "quantity": 1,
           "preDiscountPrice": 12.00,
           "price": 12.00,
           "tax": 1.05
         },
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "item": \{
+          "item": {
             "guid": "9ec9573d-efa7-465e-a272-cc3171729a6c",
             "entityType": "MenuItem"
           },
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "500feeaa-5624-4e05-aa80-17b7e6025835",
             "entityType": "MenuGroup"
-          \},
+          },
           "quantity": 2,
           "preDiscountPrice": 13.00,
           "price": 13.00,
           "tax": 1.14
-        \}
+        }
       ],
       "appliedTaxes": [],
       "appliedServiceCharges": []
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -414,45 +414,45 @@ Send a `POST` request to the `/orders/v2/orders` endpoint to submit your order. 
 A successful response (HTTP 200) returns the complete `Order` object with generated GUIDs, calculated prices, and status information:
 
 ```
-\{
+{
   "guid": "89488287-f259-435b-a654-0bc391596af0",
   "entityType": "Order",
   "source": "API",
   "approvalStatus": "NEEDS_APPROVAL",
   "businessDate": 20250115,
   "createdDate": "2025-01-15T14:30:00.000+0000",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "guid": "6e1bb8e0-534d-437f-bbad-0f08045f463e",
       "entityType": "Check",
       "amount": 25.00,
       "taxAmount": 2.19,
       "totalAmount": 27.19,
       "selections": [
-        \{
+        {
           "guid": "f520f731-8164-41a8-b261-23b9df3bf861",
           "entityType": "MenuItemSelection",
-          "item": \{
+          "item": {
             "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
             "entityType": "MenuItem"
           },
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
             "entityType": "MenuGroup"
-          \},
+          },
           "quantity": 1,
           "price": 12.00,
           "tax": 1.05
-        \}
+        }
       ],
       "paymentStatus": "OPEN"
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -473,37 +473,37 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 Many menu items have associated modifiers, such as toppings or preparation options. To add modifiers to a menu item selection, include a `modifiers` array within the selection.
 
-First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/<em>\{guid\}</em>`endpoint.
+First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/<em>{guid}</em>`endpoint.
 
 The following example shows a selection with a modifier:
 
 ```
-\{
+{
   "entityType": "MenuItemSelection",
-  "item": \{
+  "item": {
     "guid": "8a3e1737-50ea-4e3c-bcc5-9477a7820bf4",
     "entityType": "MenuItem"
   },
-  "itemGroup": \{
+  "itemGroup": {
     "guid": "1c6187fa-37e7-4fc6-b42a-2ec5f0e3c36f",
     "entityType": "MenuGroup"
-  \},
+  },
   "quantity": 1,
   "modifiers": [
-    \{
+    {
       "entityType": "MenuItemSelection",
-      "item": \{
+      "item": {
         "guid": "58e6629f-5a1e-42f8-b6c7-4351d628b92d",
         "entityType": "MenuItem"
       },
-      "optionGroup": \{
+      "optionGroup": {
         "guid": "47d73134-03da-4fb5-b564-5358b3b37d34",
         "entityType": "MenuOptionGroup"
-      \},
+      },
       "quantity": 1
-    \}
+    }
   ]
-\}
+}
 ```
 
 

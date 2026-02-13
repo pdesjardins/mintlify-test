@@ -163,9 +163,9 @@ The authentication API returns the information shown in the following example fo
 **Example 1.5. Authentication return data for a partner API client**
 
 ```
-\{
+{
   "@class": ".SuccessfulResponse",
-  "token": \{
+  "token": {
     "tokenType": "Bearer",
     "scope": null, 
     "expiresIn": 19168,
@@ -185,9 +185,9 @@ The authentication API returns the information shown in the following example fo
       iI0Ww8K2ZeRwkSaR8zL2Qo-5NiIGRcml059S1_halz_GuWy4xOctS5WZOuIe5FaA",
     "idToken": null,
     "refreshToken": null
-  \},
+  },
   "status": "SUCCESS"
-\}
+}
 
 ```
 
@@ -215,7 +215,7 @@ The following example shows the JWT payload contents for a partner API client ac
 **Example 1.6. JWT payload contents for partner API client access token**
 
 ```
-\{
+{
   "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",
   "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",
   "https://toasttab.com/partner_guid": "23a8eca9-b403-45bf-cd66-fb36a85be556",
@@ -228,7 +228,7 @@ The following example shows the JWT payload contents for a partner API client ac
   "azp": "`my-client-id`",
   "scope": "orders:read menus:read",
   "gty": "client-credentials"
-\}
+}
 ```
 
 
@@ -265,9 +265,9 @@ The authentication API returns the information shown in the following example fo
 **Example 1.7. Authentication return data for a restaurant management group client**
 
 ```
-\{
+{
   "@class": ".SuccessfulResponse",
-  "token": \{
+  "token": {
     "tokenType": "Bearer",
     "scope": null, 
     "expiresIn": 19168,
@@ -287,9 +287,9 @@ The authentication API returns the information shown in the following example fo
       iI0Ww8K2ZeRwkSaR8zL2Qo-5NiIGRcml059S1_halz_GuWy4xOctS5WZOuIe5FaA",
     "idToken": null,
     "refreshToken": null
-  \},
+  },
   "status": "SUCCESS"
-\}
+}
 
 ```
 
@@ -317,7 +317,7 @@ The following example shows the JWT payload contents for a restaurant management
 **Example 1.8. JWT payload contents for restaurant management group API client access token**
 
 ```
-\{
+{
   "https://toasttab.com/client_name": "`MYNAMINGAUTHORITY`",
   "https://toasttab.com/access_type": "TOAST_MACHINE_CLIENT",
   "https://toasttab.com/management_set_guid": "0423ad35-8ba2-45cf-9b6b-7da03f982c46",
@@ -330,7 +330,7 @@ The following example shows the JWT payload contents for a restaurant management
   "azp": "`my-client-id`",
   "scope": "orders:read menus:read",
   "gty": "client-credentials"
-\}
+}
 ```
 
 

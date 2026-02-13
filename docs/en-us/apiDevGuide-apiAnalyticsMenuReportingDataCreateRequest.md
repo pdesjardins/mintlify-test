@@ -69,14 +69,14 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \
 The following example shows the message body for creating a menu reporting data request for a custom time range.
 
 ```
-\{
+{
   "startBusinessDate": "20220101",
   "endBusinessDate": "20230912",
   "restaurantIds": [
     "95a96d7b-dbf5-46d3-98c5-c65c8ad18021"
   ],
   "excludedRestaurantIds": [],
-\}
+}
 
 ```
 
@@ -106,7 +106,7 @@ For an example about how to retrieve the menu reporting data, see [Retrieving th
 
 ## Creating a menu reporting data request for a specific time range
 
-Send a `POST` request to `/era/v1/menu/\{timeRange\}` endpoint to request menu reporting data for a specific time range. The time range you specify can be a day, week, month, or year, as represented by these options for the `\{timeRange\}` path parameter:
+Send a `POST` request to `/era/v1/menu/{timeRange}` endpoint to request menu reporting data for a specific time range. The time range you specify can be a day, week, month, or year, as represented by these options for the `{timeRange}` path parameter:
 
 - `day`: This requests data for one day, with the date specified by `startBusinessDate` in the message body. Providing an `endBusinessDate` is optional. If you choose to include the `endBusinessDate`, it must be the same date as the `startBusinessDate`.
 
@@ -130,7 +130,7 @@ Send a `POST` request to `/era/v1/menu/\{timeRange\}` endpoint to request menu r
 
 ### Request for a specific time range of menu reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/menu/\{timeRange\}` endpoint. This example uses the `day` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/menu/{timeRange}` endpoint. This example uses the `day` time range.
 
 ```
 curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
@@ -141,7 +141,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
 
 
 
-(1) Send a POST request to the /era/v1/menu/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is day.
+(1) Send a POST request to the /era/v1/menu/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
@@ -154,7 +154,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
 The following example shows the message body for creating a menu reporting data request for a specific time range. This example is for the `day` time range.
 
 ```
-\{
+{
   "startBusinessDate": "20220901",
   "endBusinessDate": "20220901",
   "restaurantIds": [
@@ -162,7 +162,7 @@ The following example shows the message body for creating a menu reporting data 
   ],
   "excludedRestaurantIds": [],
   "groupBy": ["MODIFIER"]
-\}
+}
 
 ```
 
@@ -180,7 +180,7 @@ The following example shows the message body for creating a menu reporting data 
 
 ### Response to request for a specific time range of menu reporting data
 
-The following example shows the response from the `/era/v1/menu/\{timeRange\}` endpoint.
+The following example shows the response from the `/era/v1/menu/{timeRange}` endpoint.
 
 ```
 "fb23cfaa-56d7-4cb9-829d-531a8d02274a"

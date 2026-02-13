@@ -147,27 +147,27 @@ The following example shows the JSON response data for a GET request to the `/in
 
 ```
 [
-    \{
+    {
         "guid": "79977142-e076-4727-9b69-9176726b1603",
         "status": "OUT_OF_STOCK",
         "quantity": null,
         "multiLocationId": "100000000171238879",
         "versionId": "79977142-e076-4727-9b69-9176726b1603"
     },
-    \{
+    {
         "guid": "a4ccc387-912a-4b1d-8062-26b44eed7216",
         "status": "QUANTITY",
         "quantity": 25.0,
         "multiLocationId": "100000000171239701",
         "versionId": "a4ccc387-912a-4b1d-8062-26b44eed7216"
     },
-    \{
+    {
         "guid": "8a2f952d-4dca-4eb0-b867-445f3a674bad",
         "status": "QUANTITY",
         "quantity": 10.75,
         "multiLocationId": "100000000171239569",
         "versionId": "8a2f952d-4dca-4eb0-b867-445f3a674bad"
-    \}
+    }
 ]
 ```
 
@@ -240,20 +240,20 @@ The following example shows the JSON response for the `GET` request.
 
 ```
 [
-    \{
+    {
         "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
         "status": "OUT_OF_STOCK",
         "quantity": null,
         "multiLocationId": "100000000171238879",
         "versionId": "88521da5-198e-435b-a5ba-a09983525cf9"
     },
-    \{
+    {
         "guid": "79977142-e076-4727-9b69-9176726b1603",
         "status": "OUT_OF_STOCK",
         "quantity": null,
         "multiLocationId": "100000000171239701",
         "versionId": "79977142-e076-4727-9b69-9176726b1603"
-    \}
+    }
 ]
 ```
 
@@ -288,7 +288,7 @@ The following example shows the message body for a `POST` request to the `/inven
 **Example 5.5. JSON message body content to search inventory by menu items**
 
 ```
-\{
+{
     "multiLocationIds": [
         "100000000171238879",
         "100000000171239701"
@@ -296,7 +296,7 @@ The following example shows the message body for a `POST` request to the `/inven
     "guids": [
         "88521da5-198e-435b-a5ba-a09983525cf9"
     ]
-\}
+}
 ```
 
   
@@ -360,7 +360,7 @@ The following example shows the JSON response data for a `POST` request to the `
 
 ```
 [
-    \{
+    {
         "guid": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b",
         "itemGuidValidity": "VALID",
         "status": "IN_STOCK",
@@ -368,7 +368,7 @@ The following example shows the JSON response data for a `POST` request to the `
         "multiLocationId": "100000000171238879",
         "versionId": "2f91e217-ec31-4659-a7ba-dc66d76a1b5b"
     },
-    \{
+    {
         "guid": "ad4d928d-0740-4617-96db-bd2a4b1ae1e5",
         "itemGuidValidity": "VALID",
         "status": "QUANTITY",
@@ -376,7 +376,7 @@ The following example shows the JSON response data for a `POST` request to the `
         "multiLocationId": "100000000171239701",
         "versionId": "ad4d928d-0740-4617-96db-bd2a4b1ae1e5"
     },
-    \{
+    {
         "guid": "88521da5-198e-435b-a5ba-a09983525cf9",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
@@ -384,14 +384,14 @@ The following example shows the JSON response data for a `POST` request to the `
         "multiLocationId": "null",
         "versionId": "88521da5-198e-435b-a5ba-a09983525cf9"
     },
-    \{
+    {
         "guid": "null",
         "itemGuidValidity": "INVALID",
         "status": "OUT_OF_STOCK",
         "quantity": null,
         "multiLocationId": "400000000861576949",
         "versionId": "null"
-    \}
+    }
 ]
 ```
 

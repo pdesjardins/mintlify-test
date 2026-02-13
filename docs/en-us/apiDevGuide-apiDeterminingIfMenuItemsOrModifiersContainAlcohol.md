@@ -39,27 +39,27 @@ The following is an example of a `MenuItem` object for a menu item containing al
 
 ```
 "menuItems": [
-  \{
+  {
     "name": "Rum Punch",
     "guid": "0a6e4999-cfl1-4dd6-bf4d-f4d2b65f7d88",
     "multiLocationId": "100000000100009153",
 
     [contents omitted]
 
-    "contentAdvisories": \{
-      "alcohol": \{
+    "contentAdvisories": {
+      "alcohol": {
         "containsAlcohol": "YES"
-      \}
-    \}
-  \}                       
+      }
+    }
+  }                       
 ]
 ```
 
 The following is an example of a `ModifierOption`object for a modifier not containing alcohol:
 
 ```
-"modifierOptionReferences": \{
-  "2": \{
+"modifierOptionReferences": {
+  "2": {
     "referenceId": 2,
     "name": "Lettuce",
     "guid": "429f9045-74a1-81bc-4c48-86ce51c2f6ae",
@@ -67,32 +67,32 @@ The following is an example of a `ModifierOption`object for a modifier not conta
 
     [contents omitted]
 
-    "contentAdvisories": \{
-      "alcohol": \{
+    "contentAdvisories": {
+      "alcohol": {
         "containsAlcohol": "NO"
-      \}
-    \}
-  \}
-\}
+      }
+    }
+  }
+}
 ```
 
 The following is an example of a `MenuItem`object for a menu item whose `containsAlcohol` option has not been set in Toast Web:
 
 ```
 "menuItems": [
-  \{
+  {
     "name": "Grilled Cheese",
     "guid": "0a6e4999-cfl1-4dd6-bf4d-f4d2b65f7d88",
     "multiLocationId": "100000000100009153",
 
     [contents omitted]
 
-    "contentAdvisories": \{
-      "alcohol": \{
+    "contentAdvisories": {
+      "alcohol": {
         "containsAlcohol": null
-      \}
-    \}
-  \}                       
+      }
+    }
+  }                       
 ]
 ```
 

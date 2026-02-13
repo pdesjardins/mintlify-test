@@ -157,7 +157,7 @@ On-screen notifications have the following characteristics.
 - Servers receive notifications on the device where they are currently signed in. If the server is not signed in to a device when the order is fulfilled, the notification does not display.
 
 
-- When a device receives a notification, a sound plays and an exclamation point (!) icon appears near the Toast logo. When the server taps the icon, the message "Table `\{n\}`/Check#`\{n\}`: Dishes are ready to be served" followed by the time appears.
+- When a device receives a notification, a sound plays and an exclamation point (!) icon appears near the Toast logo. When the server taps the icon, the message "Table `{n}`/Check#`{n}`: Dishes are ready to be served" followed by the time appears.
 
 
 - If your kitchen is configured to Enable individual item fulfillment, the notification is sent after all items are marked fulfilled.

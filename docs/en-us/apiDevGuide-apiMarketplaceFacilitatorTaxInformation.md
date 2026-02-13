@@ -119,30 +119,30 @@ For example, to calculate the total marketplace facilitator tax paid for an orde
 The following example shows how to identify marketplace facilitator taxes that were remitted:
 
 ```
-\{
+{
   "checks": [
-    \{
+    {
       "selections": [
-        \{
+        {
           "appliedTaxes": [
-            \{
+            {
               "entityType": "AppliedTaxRate",
               "name": "State Tax",
               "taxAmount": 0.31,
               "facilitatorCollectAndRemitTax": true
             },
-            \{
+            {
               "entityType": "AppliedTaxRate",
               "name": "Local Tax",
               "taxAmount": 0.15,
               "facilitatorCollectAndRemitTax": true
-            \}
+            }
           ]
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 In this example, the total marketplace facilitator tax paid would be `0.46` (the sum of `taxAmount` values where `facilitatorCollectAndRemitTax` is `true`). 
@@ -152,31 +152,31 @@ In this example, the total marketplace facilitator tax paid would be `0.46` (the
 The following example shows the orders API return data for a marketplace facilitator order where the Toast platform calculated and populated the prices and tax amounts.
 
 ```
-\{
+{
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "entityType": "Check",
 
      [contents omitted]
 
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
 
           [contents omitted]
 
           "appliedTaxes": [
-            \{
+            {
               "guid": "26aa5680-3233-4d3b-9504-051a622ae76d",
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
                 "entityType": "TaxRate"
-              \},
+              },
               "rate": 0.0625,
               "name": "State Tax",
               "taxAmount": 0.31,
@@ -184,16 +184,16 @@ The following example shows the orders API return data for a marketplace facilit
               "facilitatorCollectAndRemitTax": true
             }
           ],
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup",
             "externalId": null
           },
-          "item": \{
+          "item": {
             "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802",
             "entityType": "MenuItem",
             "externalId": null
-          \},
+          },
 
           [contents omitted]
 
@@ -202,7 +202,7 @@ The following example shows the orders API return data for a marketplace facilit
 
           [contents omitted]
 
-        \}
+        }
       ],
 
       [contents omitted]
@@ -211,12 +211,12 @@ The following example shows the orders API return data for a marketplace facilit
 
       [contents omitted]
 
-   \}
+   }
   ],
 
   [contents omitted]
 
-\}
+}
 ```
 
 
@@ -234,32 +234,32 @@ The prices should correspond to the prices from the restaurant menu. The tax amo
 The marketplace facilitator submits those prices and tax amounts to the Toast platform.
 
 ```
-\{
+{
   "guid": "cdef26f4-68bd-42a1-a1e0-be43c4fb52f0",
   "entityType": "Order",
 
   [contents omitted]
 
   "checks": [
-    \{
+    {
       "entityType": "Check",
  
       [contents omitted]
 
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
 
           [contents omitted]
 
           "appliedTaxes": [
-            \{
+            {
               "guid": "688cdc21-ab92-427e-9837-c981cc2d55c5",
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "a19eaf97-c0b9-47bf-9af2-ed833c3e4051",
                 "entityType": "TaxRate"
-              \},
+              },
               "rate": null,
               "name": "Marketplace Facilitator Taxes Paid",
               "taxAmount": 0.1,
@@ -267,16 +267,16 @@ The marketplace facilitator submits those prices and tax amounts to the Toast pl
               "facilitatorCollectAndRemitTax": true
             }
           ],
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "881472e6-dd94-48c6-b5c6-25e51a864208",
             "entityType": "MenuGroup",
             "externalId": null
           },
-          "item": \{
+          "item": {
             "guid": "9c59d4ab-8242-450f-8f36-b16e1b3ab802",
             "entityType": "MenuItem",
             "externalId": null
-          \},
+          },
  
           [contents omitted]
 
@@ -284,7 +284,7 @@ The marketplace facilitator submits those prices and tax amounts to the Toast pl
 
           [contents omitted]
 
-        \}
+        }
       ],
 
      [contents omitted]
@@ -293,12 +293,12 @@ The marketplace facilitator submits those prices and tax amounts to the Toast pl
 
      [contents omitted]
 
-    \}
+    }
   ],
 
   [contents omitted]
 
-\}
+}
 ```
 
 

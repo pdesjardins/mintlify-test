@@ -32,13 +32,13 @@ The menu resources available from the configuration API provide JSON representat
 - `/menus`
 
 
-- `/menus/\{guid\}`
+- `/menus/{guid}`
 
 
 - `/menuGroups`
 
 
-- `/menuGroups/\{guid\}`
+- `/menuGroups/{guid}`
 
 
 - `/menuItems`
@@ -47,19 +47,19 @@ The menu resources available from the configuration API provide JSON representat
 - `/menuOptionGroups`
 
 
-- `/menuOptionGroups/\{guid\}`
+- `/menuOptionGroups/{guid}`
 
 
 - `/preModifiers`
 
 
-- `/preModifiers/\{guid\}`
+- `/preModifiers/{guid}`
 
 
 - `/preModifierGroups`
 
 
-- `/preModifierGroups/\{guid\}`
+- `/preModifierGroups/{guid}`
 
 
 
@@ -71,47 +71,47 @@ The following example shows the JSON representations of a menu, composed from co
 
 ```
 [
-  \{
+  {
     "entityType":"Menu",
     "name":"Lunch Menu",
     "guid":"a2a0b78a-a480-4adb-bbac-b32a7e0c2a12",
     "groups":[
-      \{
+      {
         "entityType":"MenuGroup",
         "name":"A Twist-On-Fries",
         "guid":"578c5e48-7d99-438f-be61-f4f972569ce6",
         "subgroups":[],
         "items":[
-          \{
+          {
             "entityType":"MenuItem",
             "name":"'Award Winning' Curly-Q Fries",
             "guid":"f21f2250-6f97-4a31-8a78-3283a5be0af4",
             "optionGroups":[
-              \{
+              {
                 "entityType":"MenuOptionGroup",
                 "name":"Size",
                 "guid":"f63f8bd3-9764-4b1b-b3c9-40c8c104b42b",
                 "items":[
-                  \{
+                  {
                     "entityType":"MenuItem",
                     "name":"Half Basket",
                     "guid":"3c043245-3b4f-4e87-a6c9-6eeeb073518a",
                     "optionGroups":[]
                   },
-                  \{
+                  {
                     "entityType":"MenuItem",
                     "name":"Full Basket",
                     "guid":"68343381-290b-4410-9b8a-c8d63d9c9e1a",
                     "optionGroups":[]
-                  \}
+                  }
                 ]
-              \}
+              }
             ]
-          \}
+          }
         ]
-      \}
+      }
     ]
-  \}
+  }
 ]
 ```
 
@@ -132,46 +132,46 @@ YTE5YzVhNzBmNzg5IiwiY2xpZW50X2lkIjoidG9hc3R3ZWIifQ.WzS6hcLrfXtcsmwXq2u0Ou
 CmXBZoBRY0wVk__gNpg8TnV94zEnpB77BkBlVPqKk8YM9_ZOC1MDt4atZVAM_ImiEbtugTF9z
 6YPROhhtDYx37BaDNrViUggvhY5PplZND_nSNSgA8nu6CARBIoTcfoWzSg0jj1yR8mUk2edFc
 TzU" \
--d '\{
+-d '{
     "entityType": "Order",
-    "diningOption": \{
+    "diningOption": {
       "guid": "a8512bcf-fde7-446e-ac31-7c342d4aaaff",
       "entityType": "DiningOption"
     },
     "checks": [
-      \{
+      {
         "entityType": "Check",
         "selections": [
-          \{
+          {
             "entityType": "MenuItemSelection",
-            "itemGroup": \{
+            "itemGroup": {
               "guid": "578c5e48-7d99-438f-be61-f4f972569ce6",
               "entityType": "MenuGroup"
             },
-            "item": \{
+            "item": {
               "guid": "f21f2250-6f97-4a31-8a78-3283a5be0af4",
               "entityType": "MenuItem"
             },
             "quantity": 1,
-            "modifiers": [\{
+            "modifiers": [{
                 "entityType": "MenuItemSelection",
-                "optionGroup": \{
+                "optionGroup": {
                   "guid": "f63f8bd3-9764-4b1b-b3c9-40c8c104b42b",
                   "entityType": "MenuOptionGroup"
                 },
-                "item": \{
+                "item": {
                   "guid": "68343381-290b-4410-9b8a-c8d63d9c9e1a",
                   "entityType": "MenuItem"
-                \},
+                },
                 "quantity": 1,
                 "modifiers": []
-              \}
+              }
             ]
-          \}
+          }
         ]
-      \}
+      }
     ]
-  \}' "https://`[toast-api-hostname]`/orders/v2/orders"
+  }' "https://`[toast-api-hostname]`/orders/v2/orders"
 ```
 
   
@@ -218,29 +218,29 @@ The following example demonstrates a simple raw menu structure. If you need a JS
 
 ```
 [
-  \{
+  {
     "entityType":"Menu",
     "name":"Lunch Menu",
     "guid":"a2a0b78a-a480-4adb-bbac-b32a7e0c2a12",
     "groups":[
-      \{
+      {
         "entityType":"MenuGroup",
         "name":"A Twist On Fries",
         "guid":"578c5e48-7d99-438f-be61-f4f972569ce6",
         "subgroups":[],
         "optionGroups": [
-          \{
+          {
             "entityType":"MenuOptionGroup",
             "name":"Size",
             "guid":"f63f8bd3-9764-4b1b-b3c9-40c8c104b42b",
             "items":[
-              \{
+              {
                 "entityType":"MenuItem",
                 "name":"Half Basket",
                 "guid":"3c043245-3b4f-4e87-a6c9-6eeeb073518a",
                 "optionGroups":[]
               },
-              \{
+              {
                 "entityType":"MenuItem",
                 "name":"Full Basket",
                 "guid":"68343381-290b-4410-9b8a-c8d63d9c9e1a",
@@ -250,17 +250,17 @@ The following example demonstrates a simple raw menu structure. If you need a JS
           }
         ]
         "items":[
-          \{
+          {
             "entityType":"MenuItem",
             "name":"'Award Winning' Curly-Q Fries",
             "guid":"f21f2250-6f97-4a31-8a78-3283a5be0af4",
             "optionGroups":[],
             "inheritOptionGroups":true
-          \}
+          }
         ]
-      \}
+      }
     ]
-  \}
+  }
 ]
 ```
 
@@ -277,17 +277,17 @@ GET /menus/a2a0b78a-a480-4adb-bbac-b32a7e0c2a12
 returns
 
 ```
-\{
+{
   "entityType":"Menu",
   "name":"Lunch Menu",
   "guid":"a2a0b78a-a480-4adb-bbac-b32a7e0c2a12",
   "groups":[
-    \{
+    {
       "guid":"578c5e48-7d99-438f-be61-f4f972569ce6",
       "entityType": "MenuGroup"
-    \}
+    }
   ]
-\}
+}
 ```
 
 Which gives you a list of `MenuGroup` GUIDs. For each one, you can the call
@@ -299,23 +299,23 @@ GET /menuGroups/578c5e48-7d99-438f-be61-f4f972569ce6
 which returns
 
 ```
-\{
+{
   "entityType":"MenuGroup",
   "name":"A Twist On Fries",
   "guid":"578c5e48-7d99-438f-be61-f4f972569ce6",
   "subgroups":[],
   "optionGroups": [
-    \{
+    {
       "entityType":"MenuOptionGroup",
       "guid":"f63f8bd3-9764-4b1b-b3c9-40c8c104b42b"
     }
   "items":[
-    \{
+    {
       "entityType":"MenuItem",
       "guid":"f21f2250-6f97-4a31-8a78-3283a5be0af4"
-    \}
+    }
   ]
-\}
+}
 ```
 
 giving you lists of the `MenuItem` GUIDs, `MenuOptionGroup` GUIDs, and `MenuGroup` GUIDs (none in this case) in each of those `MenuGroup`s. For each such GUID, make the appropriate call:
@@ -323,21 +323,21 @@ giving you lists of the `MenuItem` GUIDs, `MenuOptionGroup` GUIDs, and `MenuGrou
 ```
 GET /menuOptionGroups/f63f8bd3-9764-4b1b-b3c9-40c8c104b42b
 
-\{
+{
   "entityType":"MenuOptionGroup",
   "name":"Size",
   "guid":"f63f8bd3-9764-4b1b-b3c9-40c8c104b42b",
   "items":[
-    \{
+    {
       "entityType":"MenuItem",
       "guid":"3c043245-3b4f-4e87-a6c9-6eeeb073518a"
     },
-    \{
+    {
       "entityType":"MenuItem",
       "guid":"68343381-290b-4410-9b8a-c8d63d9c9e1a"
-    \}
+    }
   ]
-\}
+}
 ```
 
 In this case we can see that there are two options in the "Size" `MenuOptionGroup`. These options themselves can of course be retrieved as above with `GET``/menuItems/<em>\<guid\></em>`.
@@ -351,60 +351,60 @@ GET /menuItems/f21f2250-6f97-4a31-8a78-3283a5be0af4
 This returns
 
 ```
-\{
+{
   "entityType":"MenuItem",
   "name":"'Award Winning' Curly-Q Fries",
   "guid":"f21f2250-6f97-4a31-8a78-3283a5be0af4",
   "modifierGroups":[],
   "inheritOptionGroups":true
-\}
+}
 ```
 
 We've now retrieved all the relevant information, but there is one more step. Checking the inheritOptionGroups flag on each MenuItem, we can see that "'Award Winning' Curly-Q Fries" inherits MenuOptionGroups from its parent, "A Twist On Fries". This means that the "Size" options apply to it. To derive a resolved Menu structure from this information, remove the "optionGroups" attribute from "A Twist On Fries" and copy it into each MenuItem that inherits it (in this case just "'Award Winning' Curly-Q Fries"). Then remove the iniheritGroups flag from all menuItems. The final resolved Menu structure is
 
 ```
 [
-  \{
+  {
     "entityType":"Menu",
     "name":"Lunch Menu",
     "guid":"a2a0b78a-a480-4adb-bbac-b32a7e0c2a12",
     "groups":[
-      \{
+      {
         "entityType":"MenuGroup",
         "name":"A Twist On Fries",
         "guid":"578c5e48-7d99-438f-be61-f4f972569ce6",
         "subgroups":[],
         "items":[
-          \{
+          {
             "entityType":"MenuItem",
             "name":"'Award Winning' Curly-Q Fries",
             "guid":"f21f2250-6f97-4a31-8a78-3283a5be0af4",
             "optionGroups": [
-              \{
+              {
                 "entityType":"MenuOptionGroup",
                 "name":"Size",
                 "guid":"f63f8bd3-9764-4b1b-b3c9-40c8c104b42b",
                 "items":[
-                  \{
+                  {
                     "entityType":"MenuItem",
                     "name":"Half Basket",
                     "guid":"3c043245-3b4f-4e87-a6c9-6eeeb073518a",
                     "optionGroups":[]
                   },
-                  \{
+                  {
                     "entityType":"MenuItem",
                     "name":"Full Basket",
                     "guid":"68343381-290b-4410-9b8a-c8d63d9c9e1a",
                     "optionGroups":[]
-                  \}
+                  }
                 ]
-              \}
+              }
             ]
-          \}
+          }
         ]
-      \}
+      }
     ]
-  \}
+  }
 ]
 ```
 

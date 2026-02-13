@@ -50,18 +50,18 @@ The following example shows a `DepositEntry` object in the response data from th
 
 ```
 [
-  \{
+  {
     "guid": "8421034f-fa0b-495c-808e-bf98f63f0de7",
     "entityType": "DepositEntry",
     "date": "2019-09-18T14:49:41.284+0000",
     "amount": 3210.98,
-    "employee": \{
+    "employee": {
       "guid": "9659c962-7a8a-43ec-9343-47cafb68e83b",
       "entityType": "RestaurantUser",
       "externalId": null
-    \},
+    },
     "undoes": null
-  \}
+  }
 ]
 ```
 

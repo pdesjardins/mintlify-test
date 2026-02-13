@@ -16,7 +16,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-If an order is placed and needs to be canceled, you can use the `/orders/v2/orders/<em>\{orderGuid\}</em>/void`endpoint of the Toast orders API to void the order. For more information about this endpoint, see the [orders API reference](https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/).
+If an order is placed and needs to be canceled, you can use the `/orders/v2/orders/<em>{orderGuid}</em>/void`endpoint of the Toast orders API to void the order. For more information about this endpoint, see the [orders API reference](https://toastprereleaseorders.redoc.ly/orders/operation/voidOrder/).
 
 You might want to void an order if: 
 
@@ -30,7 +30,7 @@ You might want to void an order if:
 
 
 
-When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/<em>\{guid\}</em>`and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
+When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/<em>{guid}</em>`and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 
 Voided orders can also be found in the Orders and Order details reports in Toast Web.
 
@@ -113,14 +113,14 @@ The following procedure describes how to void an order.
 1. Create a JSON object to describe the void operation. The JSON object is the message body parameter for the void request. The following example shows the void request message body contents.
 
 ```
-\{
-  "selections": \{
+{
+  "selections": {
     "voidAll": true
   },
-  "payments": \{
+  "payments": {
     "voidAll": true
-  \}
-\}
+  }
+}
 ```
 
 
@@ -131,8 +131,8 @@ The following procedure describes how to void an order.
 
 
 
-2. Send a `POST` request to the `/orders/v2/orders/<em>\{order
-        GUID\}</em>/void` endpoint of the orders API.
+2. Send a `POST` request to the `/orders/v2/orders/<em>{order
+        GUID}</em>/void` endpoint of the orders API.
 
 The body of the `POST` request contains the `JSON Order` object for the order.
 
@@ -152,20 +152,20 @@ The example response from the orders API below shows a portion of an order with 
 **Example 2.1. Example orders API response of a voided order with discounts**
 
 ```
-\{
+{
   "guid": "f682e0b8-5869-45f8-a1c4-04ccbc077006",
   "entityType": "Order",
-  \{content omitted}
+  {content omitted}
   "voided": true,
   "voidDate": "2025-09-10T20:46:40.700+0000",
   "voidBusinessDate": 20250910,
   "checks": [
-    \{
+    {
       "voided": true,
       "voidDate": "2025-09-10T20:46:40.700+0000",
       "voidBusinessDate": 20250910,
       "appliedDiscounts": [
-        \{
+        {
           "guid": "a1b2c3d4-e5f6-7890-abcd-ef1234567775",
           "processingState": "VOID",
           "discountAmount": 5,
@@ -173,23 +173,23 @@ The example response from the orders API below shows a portion of an order with 
         }
       ],
       "selections": [
-        \{
+        {
           "voided": true,
           "voidDate": "2025-09-10T20:46:40.700+0000",
           "voidBusinessDate": 20250910,
           "appliedDiscounts": [
-            \{
+            {
               "guid": "cf5f6416-25f1-4075-b5a5-700ee1d58ccc",
               "processingState": "VOID",
               "discountAmount": 1,
               "name": "Item-level discount"
-            \}
+            }
           ]
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
   

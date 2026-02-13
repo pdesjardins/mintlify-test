@@ -42,27 +42,27 @@ The JSON sample below shows a menu item, Cheese Pizza, that references Size and 
 **Example 4.1. Sample JSON for modifier group and modifier option references**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 ...
               },
               ...
@@ -78,9 +78,9 @@ The JSON sample below shows a menu item, Cheese Pizza, that references Size and 
       ]
     }
   ],
-  "modifierGroupReferences": \{
+  "modifierGroupReferences": {
     ...
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -91,13 +91,13 @@ The JSON sample below shows a menu item, Cheese Pizza, that references Size and 
       ],
       ...
     },
-    "3": \{
+    "3": {
       "referenceId": 3,
       "name": "Toppings",
       "guid": "58b79986-f88f-411d-ba18-14b1e2441e9d",
       ...
       "pricingStrategy": "SIZE_PRICE",
-      "pricingRules": \{
+      "pricingRules": {
         ...
       },
       ...
@@ -109,39 +109,39 @@ The JSON sample below shows a menu item, Cheese Pizza, that references Size and 
     },
     ...
   },
-  "modifierOptionReferences": \{
+  "modifierOptionReferences": {
     ...
-    "10": \{
+    "10": {
       "referenceId": 10,
       "name": "Mushrooms",
       "guid": "fa24fee9-76c4-40ba-ae3c-7dfccafdd8d3",
       ...
       "modifierGroupReferences": []
     },
-    "11": \{
+    "11": {
       "referenceId": 11,
       "name": "Onions",
       "guid": "afee6be7-8280-4c69-a170-9fdf4c76bf7b",
       ...
       "modifierGroupReferences": []
     },
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
       ...
       "modifierGroupReferences": []
-    \},
+    },
     ...
-  \}
-\}
+  }
+}
 ```
 
   

@@ -45,18 +45,18 @@ import java.nio.charset.StandardCharsets;
 
 String HMAC = "HmacSHA256";
 
-String getSignature(String secret, String body, String timestamp) \{
+String getSignature(String secret, String body, String timestamp) {
   SecretKeySpec signingKey = new SecretKeySpec(secret.getBytes(), HMAC);
-  try \{
+  try {
       String signature = body + timestamp;
       Mac mac = Mac.getInstance(HMAC);
       mac.init(signingKey);
       byte[] rawHmac = mac.doFinal(signature.getBytes(StandardCharsets.UTF_8));
       return DatatypeConverter.printBase64Binary(rawHmac);
-  } catch (Exception e) \{
+  } catch (Exception e) {
       logger.warn("Failed to generate Webhook Signature", e);
       return null;
-  \}
-\}
+  }
+}
 ```
 

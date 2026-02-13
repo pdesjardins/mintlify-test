@@ -56,7 +56,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
 
 ```
 [
-  \{
+  {
     "guid": "b7946411-7d45-4beb-9bfc-0ec731da7b45",
     "entityType": "RestaurantUser",
     "externalId": null,
@@ -68,7 +68,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
     "deleted": false,
     "deletedDate": "1970-01-01T00:00:00.000+0000",
     "jobReferences": [
-      \{
+      {
         "guid": "34ff8f6e-15e6-4ec1-b496-f57fc18fa0c6",
         "entityType": "RestaurantJob",
         "externalId": null
@@ -79,7 +79,7 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
     "externalEmployeeId": "1234567890",
     "email": "jmercier@arestaurant.com"
   },
-  \{
+  {
     "guid": "abbafa20-0cbe-47e3-93e4-b69309e1bc33",
     "entityType": "RestaurantUser",
     "externalId": null,
@@ -91,17 +91,17 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
     "deleted": true,
     "deletedDate": "2016-11-23T15:54:23.634+0000",
     "jobReferences": [
-      \{
+      {
         "guid": "a5eec1c0-1143-4408-bb6b-3d4b28a594a3",
         "entityType": "RestaurantJob",
         "externalId": null
-      \}
+      }
     ],
     "modifiedDate": "2016-11-23T15:54:23.635+0000",
     "disabled": false,
     "externalEmployeeId": "",
     "email": "couellet@arestaurant.com"
-  \}
+  }
 ]
 
 ```

@@ -27,45 +27,45 @@ The following example shows an `Order` object that contains one check with a sin
 **Example 3.12. POST request message body to create a dine-in order with payment information**
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec"
-          \},
+          },
           "quantity": 1,
           "modifiers": []
-        \}
+        }
       ],
       "payments": [
-        \{
+        {
           "paidDate": "2017-05-09T16:24:09.000+0000",
           "type": "OTHER",
           "amount": "9.55",
-          "otherPayment": \{
+          "otherPayment": {
             "guid": "0dc19214-d29e-4ab9-a773-27e5812999c7"
-          \},
+          },
           "tipAmount": "0.00",
           "amountTendered": "9.55"
-        \}
+        }
       ]
-    \}
+    }
   ]
-\}
+}
 ```
 
 
@@ -100,7 +100,7 @@ The following example shows the response returned by the `/orders` endpoint of t
 **Example 3.13. Orders endpoint response for a dine-in order with an alternative payment**
 
 ```
-\{
+{
   "guid": "71e46534-c837-4492-b4c1-0a841aea4ad5",
   "entityType": "Order",
   "externalId": null,
@@ -109,11 +109,11 @@ The following example shows the response returned by the `/orders` endpoint of t
   "deliveryInfo": null,
   "serviceArea": null,
   "numberOfGuests": 1,
-  "diningOption": \{
+  "diningOption": {
     "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
     "entityType": "DiningOption",
     "externalId": null
-  \},
+  },
   "source": "API",
   "voidDate": null,
   "openedDate": "2017-05-09T16:24:10.158+0000",
@@ -121,7 +121,7 @@ The following example shows the response returned by the `/orders` endpoint of t
   "businessDate": 20170509,
   "voidBusinessDate": null,
   "checks": [
-    \{
+    {
       "guid": "c1784eaf-7ca8-461a-ba38-795ec51cf84a",
       "entityType": "Check",
       "externalId": null,
@@ -130,7 +130,7 @@ The following example shows the response returned by the `/orders` endpoint of t
       "tabName": null,
       "taxExempt": false,
       "payments": [
-        \{
+        {
           "guid": "b6e08e3f-56cb-4873-bcc7-f0ea30842fee",
           "entityType": "OrderPayment",
           "externalId": null,
@@ -144,35 +144,35 @@ The following example shows the response returned by the `/orders` endpoint of t
           "houseAccount": null,
           "type": "OTHER",
           "voidInfo": null,
-          "otherPayment": \{
+          "otherPayment": {
             "guid": "0dc19214-d29e-4ab9-a773-27e5812999c7",
             "entityType": "AlternatePaymentType",
             "externalId": null
-          \},
+          },
           "paidDate": "2017-05-09T16:24:09.000+0000",
           "cardEntryMode": null,
           "paymentStatus": "CAPTURED",
           "paidBusinessDate": 20170509,
           "last4Digits": null,
           "refund": null
-        \}
+        }
       ],
       "appliedDiscounts": [],
       "voidDate": null,
       "openedDate": "2017-05-09T16:24:10.165+0000",
       "totalAmount": 9.55,
       "selections": [
-        \{
+        {
           "guid": "3ede373e-ed90-4315-88d0-3f34f76a7513",
           "entityType": "MenuItemSelection",
           "externalId": null,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
             "entityType": "MenuGroup",
             "externalId": null
           },
           "deferred": false,
-          "item": \{
+          "item": {
             "guid": "a8b4439d-185d-41df-8ad3-2ff4f7dfa6ec",
             "entityType": "MenuItem",
             "externalId": null
@@ -196,19 +196,19 @@ The following example shows the response returned by the `/orders` endpoint of t
           "modifiedDate": "2017-05-09T16:24:10.193+0000",
           "voided": false,
           "appliedTaxes": [
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
                 "entityType": "TaxRate"
-              \},
+              },
               "name": "State Tax",
               "rate": 0.0625,
               "taxAmount": 0.56,
               "type": "PERCENT"
-            \}
+            }
           ]
-        \}
+        }
       ],
       "voidBusinessDate": null,
       "deleted": false,
@@ -222,7 +222,7 @@ The following example shows the response returned by the `/orders` endpoint of t
       "appliedServiceCharges": [],
       "paymentStatus": "CLOSED",
       "customer": null
-    \}
+    }
   ],
   "deleted": false,
   "paidDate": "2017-05-09T16:24:10.204+0000",
@@ -234,7 +234,7 @@ The following example shows the response returned by the `/orders` endpoint of t
   "voided": false,
   "estimatedFulfillmentDate": null,
   "table": null
-\}
+}
 ```
 
 

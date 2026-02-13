@@ -31,7 +31,7 @@ The example below shows a deferred item with a deferred modifier.
 ```
 
               "selections": [
-                    \{
+                    {
                         "guid": "a2235d4c-96dc-43ae-b0b4-693649778n44",
                         "entityType": "MenuItemSelection",
                         "externalId": null,
@@ -42,19 +42,19 @@ The example below shows a deferred item with a deferred modifier.
                         "displayName": "Shrimp risotto",
                         "appliedDiscounts": [],
                         "modifiers": [
-                            \{
+                            {
                                 "guid": "1236c34c-793f-4f67-9b02-b1b2b3b4b5b6",
                                 "entityType": "MenuItemSelection",
                                 "externalId": null,
                                 "deferred": true,
                                 "preDiscountPrice": 2.0,
                                 "voidReason": null,
-                                "optionGroup": \{
+                                "optionGroup": {
                                     "guid": "32acba90-2f06-4186-9d14-fecef3cb6599",
                                     "entityType": "MenuOptionGroup",
                                     "externalId": null,
                                     "multiLocationId": "574000462271555"
-                                \},
+                                },
   
 ```
 

@@ -23,10 +23,10 @@ A dining option describes a customizable workflow for an order. Restaurants defi
 In each order, the `diningOption` object specifies the GUID of the dining option to use. For example:
 
 ```
-"diningOption": \{
+"diningOption": {
   "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
   "entityType": "DiningOption"
-\},
+},
 ```
 
 You use the configuration API to retrieve the available dining option GUIDs.
@@ -79,7 +79,7 @@ To get a list of the available dining options for a restaurant, send a `GET` req
 Here is an example of the request results:
 
 ```
-\{
+{
   "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
   "entityType": "DiningOption",
   "externalId": null,
@@ -87,7 +87,7 @@ Here is an example of the request results:
   "curbside": true,
   "behavior": "TAKE_OUT"
 },
-\{
+{
   "guid": "7c6843f3-db7d-4096-bdd2-4eefd99b900f",
   "entityType": "DiningOption",
   "externalId": null,
@@ -95,7 +95,7 @@ Here is an example of the request results:
   "curbside": false,
   "behavior": "TAKE_OUT"
 },
-\{
+{
   "guid": "23fc2559-fc37-46ce-a963-cc5fdb88af0c",
   "entityType": "DiningOption",
   "externalId": null,
@@ -103,14 +103,14 @@ Here is an example of the request results:
   "curbside": false,
   "behavior": "DINE_IN"
 },
-\{
+{
   "guid": "b1b10604-a8f9-4a21-ae86-7db974ee9dbf",
   "entityType": "DiningOption",
   "externalId": null,
   "name": "Delivery",
   "curbside": false,
   "behavior": "DELIVERY"
-\}
+}
 ```
 
 ## Creating a dine-in order
@@ -126,10 +126,10 @@ When you create an order for a specific table, you can also provide customer inf
 To specify the table for an order, provide a `Table`object that specifies the Toast platform GUID of the table. For example:
 
 ```
-"table": \{
+"table": {
   "guid": "170b5f39-060e-45c3-89f0-4907c16ab12c",1
   "entityType": "Table"
-\},
+},
 ```
 
 To retrieve the GUIDs of the available tables, send a `GET` request to the `/tables` endpoint of the configuration API. For more information, see [Get tables](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/) in the API reference.
@@ -150,10 +150,10 @@ You can specify the restaurant employee who is responsible for the order.
 To specify the restaurant employee, provide a `server`object that specifies the Toast platform GUID of the employee. For example:
 
 ```
-"server": \{
+"server": {
   "guid": "dc9b7cd6-4389-4a6d-83c3-2fde7f033567",
   "entityType": "RestaurantUser"
-\},
+},
 ```
 
 The employee must be an active employee at the current restaurant location. The orders API does not prevent you from specifying a deleted employee.
@@ -165,37 +165,37 @@ To retrieve information about restaurant employees, send a `GET` request to the 
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a dine-in order at a restaurant table.
 
 ```
-\{
+{
   "entityType": "Order",
-  "table": \{
+  "table": {
     "guid": "170b5f39-060e-45c3-89f0-4907c16ab12c",
     "entityType": "Table"
   },
-  "server": \{
+  "server": {
     "guid": "dc9b7cd6-4389-4a6d-83c3-2fde7f033567",
     "entityType": "RestaurantUser"
   },
-  "diningOption": \{
+  "diningOption": {
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
-  "revenueCenter": \{
+  "revenueCenter": {
     "guid": "908f0483-ac03-4c9a-a5a4-43c37786e237",
     "entityType": "RevenueCenter"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
-      "customer": \{
+      "customer": {
         "entityType": "Customer",
         "firstName": "Severe",
         "lastName": "Thibault",
         "phone": "555-555-5555",
         "email": "severe@example.com"
-      \}
-    \}
+      }
+    }
   ]
-\}
+}
 ```
 
 
@@ -229,23 +229,23 @@ In the `customer` object, the `firstName`, `lastName`, `phone`, and `email` fiel
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a takeout order.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "75cd1156-c33a-4842-9cbd-717aebbf069e",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "2478cec3-bca2-4956-a3aa-eda571d5518a"
           },
@@ -253,16 +253,16 @@ The following example shows the message body for a `POST`request to the `/orders
           "modifiers": []
         }
       ],
-      "customer": \{
+      "customer": {
           "entityType": "Customer",
           "firstName": "Jack",
           "lastName": "Jones",
           "phone": "333-555-5555",
           "email": "jack@example.com"
-      \}
-    \}
+      }
+    }
   ]
-\}
+}
 ```
 
 
@@ -280,7 +280,7 @@ The following example shows the message body for a `POST`request to the `/orders
 The following example shows the response from the `/orders` endpoint for a takeout order.
 
 ```
-\{
+{
   "guid": "df8cd211-c5c9-4fe4-b56b-fa0db87eb80b",
   "entityType": "Order",
   "externalId": null,
@@ -289,7 +289,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
   "deliveryInfo": null,
   "serviceArea": null,
   "numberOfGuests": 1,
-  "diningOption": \{
+  "diningOption": {
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption",
     "externalId": null
@@ -301,7 +301,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
   "businessDate": 20171004,
   "voidBusinessDate": null,
   "checks": [
-    \{
+    {
       "guid": "602d2cec-eb97-4be0-948f-4a38f614c1f1",
       "entityType": "Check",
       "externalId": null,
@@ -315,17 +315,17 @@ The following example shows the response from the `/orders` endpoint for a takeo
       "openedDate": "2017-10-04T13:54:00.970+0000",
       "totalAmount": 10.69,
       "selections": [
-        \{
+        {
           "guid": "13ae0536-bff4-4d24-a13a-722508a2556a",
           "entityType": "MenuItemSelection",
           "externalId": null,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "75cd1156-c33a-4842-9cbd-717aebbf069e",
             "entityType": "MenuGroup",
             "externalId": null
           },
           "deferred": false,
-          "item": \{
+          "item": {
             "guid": "2478cec3-bca2-4956-a3aa-eda571d5518a",
             "entityType": "MenuItem",
             "externalId": null
@@ -349,9 +349,9 @@ The following example shows the response from the `/orders` endpoint for a takeo
           "modifiedDate": "2017-10-04T13:54:00.997+0000",
           "voided": false,
           "appliedTaxes": [
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "92c6c470-74bb-4f84-b31f-2c144b70a285",
                 "entityType": "TaxRate"
               },
@@ -360,19 +360,19 @@ The following example shows the response from the `/orders` endpoint for a takeo
               "taxAmount": 0.075,
               "type": "PERCENT"
             },
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
                 "entityType": "TaxRate"
-              \},
+              },
               "name": "State Tax",
               "rate": 0.0625,
               "taxAmount": 0.625,
               "type": "PERCENT"
-            \}
+            }
           ]
-        \}
+        }
       ],
       "voidBusinessDate": null,
       "deleted": false,
@@ -385,15 +385,15 @@ The following example shows the response from the `/orders` endpoint for a takeo
       "taxAmount": 0.7,
       "appliedServiceCharges": [],
       "paymentStatus": "OPEN",
-      "customer": \{
+      "customer": {
         "guid": "3d4b9481-4e96-42dd-8dea-d59184819cbb",
         "entityType": "Customer",
         "firstName": "Jack",
         "lastName": "Jones",
         "phone": "3335555555",
         "email": "jack@example.com"
-      \}
-    \}
+      }
+    }
   ],
   "deleted": false,
   "paidDate": null,
@@ -405,7 +405,7 @@ The following example shows the response from the `/orders` endpoint for a takeo
   "voided": false,
   "estimatedFulfillmentDate": "2017-10-04T14:24:00.969+0000",
   "table": null
-\}
+}
 ```
 
 
@@ -433,12 +433,12 @@ In addition to the required `customer` value for a takeout order, you can also p
 When you place an order that specifies a dining option with curbside behavior, the request body can include the `curbsidePickupInfo`object.
 
 ```
-"curbsidePickupInfo": \{
+"curbsidePickupInfo": {
   "entityType": "CurbsidePickup",
   "notes": "Convertible with top down",
   "transportColor": "blue",
   "transportDescription": "Street Cruiser"
-\},
+},
 ```
 
 The `curbsidePickupInfo` object is not required, but it is recommended, to help restaurant staff to identify a guest when they arrive to pick up their order.
@@ -456,13 +456,13 @@ On Toast POS devices, the curbside pickup information is displayed at the top of
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a curbside pickup order.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
     "entityType": "DiningOption"
   },
-  "curbsidePickupInfo": \{
+  "curbsidePickupInfo": {
     "entityType": "CurbsidePickup",
     "notes": "Convertible with top down",
     "transportColor": "blue",
@@ -470,16 +470,16 @@ The following example shows the message body for a `POST`request to the `/orders
   },
 
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "75cd1156-c33a-4842-9cbd-717aebbf069e",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "2478cec3-bca2-4956-a3aa-eda571d5518a"
           },
@@ -487,16 +487,16 @@ The following example shows the message body for a `POST`request to the `/orders
           "modifiers": []
         }
       ],
-      "customer": \{
+      "customer": {
           "entityType": "Customer",
           "firstName": "Alice",
           "lastName": "Patron",
           "phone": "333-555-5555",
           "email": "alice@example.com"
-      \}
-    \}
+      }
+    }
   ]
-\}
+}
 ```
 
 
@@ -516,17 +516,17 @@ The following example shows the message body for a `POST`request to the `/orders
 The following example shows the response from the `/orders` endpoint to a curbside pickup order request.
 
 ```
-\{
+{
     "guid": "db3acf81-e63e-47ed-aa1b-cba97e15549f",
     "entityType": "Order",
     "externalId": null,
     "revenueCenter": null,
-    "server": \{
+    "server": {
         "guid": "fbfb15e0-cc32-44f1-9239-195324d6be76",
         "entityType": "RestaurantUser",
         "externalId": null
     },
-    "lastModifiedDevice": \{
+    "lastModifiedDevice": {
         "id": null
     },
 
@@ -534,7 +534,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
     "deliveryInfo": null,
     "serviceArea": null,
-    "curbsidePickupInfo": \{
+    "curbsidePickupInfo": {
         "guid": "0ca623cb-c1eb-4881-8222-67a393e00b5c",
         "entityType": "CurbsidePickup",
         "transportColor": "blue",
@@ -542,7 +542,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
         "transportDescription": "Street Cruiser"
     },
     "numberOfGuests": 1,
-    "diningOption": \{
+    "diningOption": {
         "guid": "162a8c8d-4ca9-4cf1-b1bd-88470cc0d928",
         "entityType": "DiningOption",
         "externalId": null
@@ -550,16 +550,16 @@ The following example shows the response from the `/orders` endpoint to a curbsi
     "openedDate": "2020-06-17T19:14:56.348+0000",
     "voidBusinessDate": null,
     "checks": [
-        \{
+        {
             "guid": "682b5aaf-d4e3-4e7b-ac53-f897ea5cad2d",
             "entityType": "Check",
             "externalId": null,
             "displayNumber": "3",
             "payments": [],
             "appliedDiscounts": [],
-            "lastModifiedDevice": \{
+            "lastModifiedDevice": {
                 "id": null
-            \},
+            },
             "voidDate": null,
             "paidDate": null,
             "appliedLoyaltyInfo": null,
@@ -571,7 +571,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
             "openedDate": "2020-06-17T19:14:56.348+0000",
             "totalAmount": 17.1,
             "selections": [
-                \{
+                {
                     [contents omitted]
                 }
             ],
@@ -582,7 +582,7 @@ The following example shows the response from the `/orders` endpoint to a curbsi
             "modifiedDate": "2020-06-17T19:14:56.565+0000",
             "taxAmount": 1.12,
             "appliedServiceCharges": [],
-            "customer": \{
+            "customer": {
                 "guid": "84f4ac23-e05b-46a9-99d9-16a2a8516bb8",
                 "entityType": "Customer",
                 "firstName": "Alice",
@@ -593,12 +593,12 @@ The following example shows the response from the `/orders` endpoint to a curbsi
         }
     ],
     "deleted": false,
-    "createdDevice": \{
+    "createdDevice": {
         "id": null
-    \},
+    },
     
     [contents omitted]
-\}
+}
 ```
 
 
@@ -640,13 +640,13 @@ You can also optionally use the `notes` value to provide notes for the delivery.
 The following example shows the message body for a `POST`request to the `/orders` endpoint to create a delivery order.
 
 ```
-\{
+{
   "entityType": "Order",
-  "diningOption": \{
+  "diningOption": {
     "guid": "b1b10604-a8f9-4a21-ae86-7db974ee9dbf",
     "entityType": "DiningOption"
   },
-  "deliveryInfo": \{
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -655,16 +655,16 @@ The following example shows the message body for a `POST`request to the `/orders
     "notes": "Send text message to 555-555-5555 when you arrive at the building."
   },
   "checks": [
-    \{
+    {
       "entityType": "Check",
       "selections": [
-        \{
+        {
           "entityType": "MenuItemSelection",
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "75cd1156-c33a-4842-9cbd-717aebbf069e",
             "entityType": "MenuGroup"
           },
-          "item": \{
+          "item": {
             "entityType": "MenuItem",
             "guid": "2478cec3-bca2-4956-a3aa-eda571d5518a"
           },
@@ -672,16 +672,16 @@ The following example shows the message body for a `POST`request to the `/orders
           "modifiers": []
         }
       ],
-      "customer": \{
+      "customer": {
           "entityType": "Customer",
           "firstName": "Sarah",
           "lastName": "Gomez",
           "phone": "555-555-5555",
           "email": "sarah@example.com"
-      \}
-    \}
+      }
+    }
   ]
-\}
+}
 ```
 
 
@@ -701,13 +701,13 @@ When you use the orders API to create a delivery order, the response includes in
 The following example shows the message body for an endpoint response to a delivery order request.
 
 ```
-\{
+{
   "guid": "4f0dbb70-46e8-4e02-bd22-9444cf9dc96b",
   "entityType": "Order",
   "externalId": null,
   "revenueCenter": null,
   "server": null,
-  "deliveryInfo": \{
+  "deliveryInfo": {
     "address1": "401 Park Drive",
     "address2": "Suite 801",
     "city": "Boston",
@@ -722,11 +722,11 @@ The following example shows the message body for an endpoint response to a deliv
   },
   "serviceArea": null,
   "numberOfGuests": 1,
-  "diningOption": \{
+  "diningOption": {
     "guid": "b1b10604-a8f9-4a21-ae86-7db974ee9dbf",
     "entityType": "DiningOption",
     "externalId": null
-  \},
+  },
   "source": "API",
   "voidDate": null,
   "openedDate": "2017-10-04T19:31:34.480+0000",
@@ -734,7 +734,7 @@ The following example shows the message body for an endpoint response to a deliv
   "businessDate": 20171004,
   "voidBusinessDate": null,
   "checks": [
-    \{
+    {
       "guid": "5a967d3f-b80a-41dc-8223-80665255dd9a",
       "entityType": "Check",
       "externalId": null,
@@ -748,21 +748,21 @@ The following example shows the message body for an endpoint response to a deliv
       "openedDate": "2017-10-04T19:31:34.482+0000",
       "totalAmount": 10.69,
       "selections": [
-        \{
+        {
           "guid": "25679951-23fa-4e29-a9e2-18b7f1c25cfb",
           "entityType": "MenuItemSelection",
           "externalId": null,
-          "itemGroup": \{
+          "itemGroup": {
             "guid": "75cd1156-c33a-4842-9cbd-717aebbf069e",
             "entityType": "MenuGroup",
             "externalId": null
           },
           "deferred": false,
-          "item": \{
+          "item": {
             "guid": "2478cec3-bca2-4956-a3aa-eda571d5518a",
             "entityType": "MenuItem",
             "externalId": null
-          \},
+          },
           "quantity": 1,
           "preDiscountPrice": 9.99,
           "voidReason": null,
@@ -782,9 +782,9 @@ The following example shows the message body for an endpoint response to a deliv
           "modifiedDate": "2017-10-04T19:31:34.510+0000",
           "voided": false,
           "appliedTaxes": [
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "92c6c470-74bb-4f84-b31f-2c144b70a285",
                 "entityType": "TaxRate"
               },
@@ -793,19 +793,19 @@ The following example shows the message body for an endpoint response to a deliv
               "taxAmount": 0.075,
               "type": "PERCENT"
             },
-            \{
+            {
               "entityType": "AppliedTaxRate",
-              "taxRate": \{
+              "taxRate": {
                 "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
                 "entityType": "TaxRate"
-              \},
+              },
               "name": "State Tax",
               "rate": 0.0625,
               "taxAmount": 0.625,
               "type": "PERCENT"
-            \}
+            }
           ]
-        \}
+        }
       ],
       "voidBusinessDate": null,
       "deleted": false,
@@ -818,15 +818,15 @@ The following example shows the message body for an endpoint response to a deliv
       "taxAmount": 0.7,
       "appliedServiceCharges": [],
       "paymentStatus": "OPEN",
-      "customer": \{
+      "customer": {
         "guid": "479ad7e0-1942-42a5-874e-8cab3871190b",
         "entityType": "Customer",
         "firstName": "Sarah",
         "lastName": "Gomez",
         "phone": "5555555555",
         "email": "sarah@example.com"
-      \}
-    \}
+      }
+    }
   ],
   "deleted": false,
   "paidDate": null,
@@ -838,7 +838,7 @@ The following example shows the message body for an endpoint response to a deliv
   "voided": false,
   "estimatedFulfillmentDate": "2017-10-04T20:31:34.480+0000",
   "table": null
-\}
+}
 ```
 
 

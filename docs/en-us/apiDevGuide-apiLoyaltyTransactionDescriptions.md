@@ -62,40 +62,40 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 **Example 10.5. Loyalty account search request**
 
 ```
-\{
+{
   "toastTransactionType":"LOYALTY_SEARCH",
-  "searchTransactionInformation":\{
-    "searchCriteria":\{
+  "searchTransactionInformation":{
+    "searchCriteria":{
       "firstName":"James",
       "lastName":"Smith",
       "email":null,
       "phone":null
-    \}
-  \},
+    }
+  },
   "checkTransactionInformation":null,
   "reverseTransactionInformation":null
-\}
+}
 ```
 
   
 **Example 10.6. Successful loyalty account search response (200 HTTP code)**
 
 ```
-\{
-  "searchResponse":\{
+{
+  "searchResponse":{
     "accounts":[
-      \{
+      {
         "identifier":"1",
         "firstName":"james",
         "lastName":"smith",
         "phone":"1111111111",
         "email":"a1@toasttab.com",
         "pointsBalance":40
-      \}
+      }
     ]
-  \},
+  },
   "transactionStatus":"ACCEPT"
-\}
+}
 ```
 
   
@@ -106,9 +106,9 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 **Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
 
 ```
-\{
+{
   "transactionStatus":"ERROR_ACCOUNT_INVALID"
-\}
+}
 ```
 
   
@@ -201,12 +201,12 @@ This is still possible if the check changes. For example, add two pizzas to the 
 **Example 10.8. Loyalty inquire request**
 
 ```
-\{
+{
   "toastTransactionType":"LOYALTY_INQUIRE",
   "searchTransactionInformation":null,
-  "checkTransactionInformation":\{
+  "checkTransactionInformation":{
     "loyaltyIdentifier":"1",
-    "check":\{
+    "check":{
       "guid":"5728df00-d770-4aeb-a4c9-53226a104ac0",
       "entityType":null,
       "externalId":null,
@@ -225,7 +225,7 @@ This is still possible if the check changes. For example, add two pizzas to the 
       "openedDate":"2019-08-24T14:15:22Z",
       "totalAmount":103.51,
       "selections":[
-        \{
+        {
           "guid":"5e4fa4aa-4269-4383-9bbd-774591bbfb3c",
           "entityType":null,
           "externalId":null,
@@ -243,10 +243,10 @@ This is still possible if the check changes. For example, add two pizzas to the 
           "price":87.92,
           "voided":false,
           "appliedTaxes":[
-            \{
+            {
               "guid":null,
               "entityType":"AppliedTaxRate",
-              "taxRate":\{
+              "taxRate":{
                 "guid":"78aca305-6fbc-42ea-a85b-1671c52367eb",
                 "entityType":"TaxRate"
               },
@@ -256,12 +256,12 @@ This is still possible if the check changes. For example, add two pizzas to the 
               "type":"PERCENT"
             }
           ],
-          "itemGroup":\{
+          "itemGroup":{
             "guid":"15694864-225d-4b47-a60b-b9c20986b0af",
             "entityType":"MenuGroup",
             "externalId":"100000000100004070"
           },
-          "item":\{
+          "item":{
             "guid":"5abf524e-31b5-4c1b-a797-7a44d888d071",
             "entityType":"MenuItem",
             "externalId":"100000000100004071"
@@ -276,7 +276,7 @@ This is still possible if the check changes. For example, add two pizzas to the 
           "preModifier":null,
           "modifiedDate":null
         },
-        \{
+        {
           "guid":"c4c6cd98-d1ba-42f6-87c0-4d8af7486be7",
           "entityType":null,
           "externalId":null,
@@ -294,10 +294,10 @@ This is still possible if the check changes. For example, add two pizzas to the 
           "price":9.5,
           "voided":false,
           "appliedTaxes":[
-            \{
+            {
               "guid":null,
               "entityType":"AppliedTaxRate",
-              "taxRate":\{
+              "taxRate":{
                 "guid":"78aca305-6fbc-42ea-a85b-1671c52367eb",
                 "entityType":"TaxRate"
               },
@@ -307,16 +307,16 @@ This is still possible if the check changes. For example, add two pizzas to the 
               "type":"PERCENT"
             }
           ],
-          "itemGroup":\{
+          "itemGroup":{
             "guid":"15694864-225d-4b47-a60b-b9c20986b0af",
             "entityType":"MenuGroup",
             "externalId":"100000000100004070"
           },
-          "item":\{
+          "item":{
             "guid":"a1a96ffc-fb39-422b-93bd-44f15692f707",
             "entityType":"MenuItem",
             "externalId":"100000000100004072"
-          \},
+          },
           "taxInclusion":null,
           "quantity":1.0,
           "unitOfMeasure":null,
@@ -326,7 +326,7 @@ This is still possible if the check changes. For example, add two pizzas to the 
           "createdDate":null,
           "preModifier":null,
           "modifiedDate":null
-        \}
+        }
       ],
       "voidBusinessDate":null,
       "deleted":false,
@@ -337,20 +337,20 @@ This is still possible if the check changes. For example, add two pizzas to the 
       "taxAmount":6.09,
       "appliedServiceCharges":[],
       "customer":null
-    \},
+    },
     "redemptions":[]
-  \},
+  },
   "reverseTransactionInformation":null
-\}
+}
 ```
 
   
 **Example 10.9. Successful loyalty inquire response**
 
 ```
-\{
-  "checkResponse":\{
-    "accountInfo":\{
+{
+  "checkResponse":{
+    "accountInfo":{
       "identifier":"1",
       "firstName":"james",
       "lastName":"smith",
@@ -358,21 +358,21 @@ This is still possible if the check changes. For example, add two pizzas to the 
       "email":"a1@gmail.com"
     },
     "offers":[
-      \{
+      {
         "identifier":"4",
         "name":"reward 3",
         "applicable":false,
         "selectionType":"ITEM",
         "amount":"10",
         "quantity":2
-      \}
+      }
     ],
     "rejectedRedemptions":[],
     "appliedRedemptions":[],
     "userMessage":"Visit http://www.website.com to check your points balance."
-  \},
+  },
   "transactionStatus":"ACCEPT"
-\}
+}
 ```
 
   
@@ -415,35 +415,35 @@ The redeem transaction follows the final inquire transaction during the payment 
 **Example 10.10. Loyalty redeem request**
 
 ```
-\{
+{
   "toastTransactionType":"LOYALTY_REDEEM",
   "searchTransactionInformation":null,
-  "checkTransactionInformation":\{
+  "checkTransactionInformation":{
     "loyaltyIdentifier":"3",
-    "check":\{
+    "check":{
       "guid":"c79ecf26-1540-486c-9aee-e10ef34e228e",
       "entityType":null,
       "externalId":null,
       "displayNumber":"3002",
       "payments":[],
       "appliedDiscounts":[
-        \{
+        {
           "guid":"5318bf86-505a-43fe-91ad-feb6fe6e0ad2",
           "entityType":"AppliedLoyaltyProviderDiscount",
-          "approver":\{
+          "approver":{
             "guid":"915ae2ef-a59a-44dd-bea3-a23977cf5e26",
             "entityType":"RestaurantUser",
             "externalId":"100000000100005200"
           },
           "processingState":"PENDING_APPLIED",
-          "loyaltyDetails":\{
+          "loyaltyDetails":{
             "vendor":null,
             "referenceId":"1"
           },
           "name":"reward 1",
           "comboItems":[],
           "discountAmount":5,
-          "discount":\{
+          "discount":{
             "guid":"e7b9fc51-bb27-47c5-b3e8-c5c47600380e",
             "entityType":"CustomDiscount"
           },
@@ -455,7 +455,7 @@ The redeem transaction follows the final inquire transaction during the payment 
       "lastModifiedDevice":null,
       "voidDate":null,
       "paidDate":null,
-      "appliedLoyaltyInfo":\{
+      "appliedLoyaltyInfo":{
         "guid":null,
         "entityType":null,
         "accrualText":null,
@@ -471,7 +471,7 @@ The redeem transaction follows the final inquire transaction during the payment 
       "openedDate":"2019-08-24T14:15:22Z",
       "totalAmount":41.4,
       "selections":[
-        \{
+        {
           "guid":"dfa59529-c3d1-4dff-967d-12e19525f749",
           "entityType":null,
           "externalId":null,
@@ -489,10 +489,10 @@ The redeem transaction follows the final inquire transaction during the payment 
           "price":38.96,
           "voided":false,
           "appliedTaxes":[
-            \{
+            {
               "guid":null,
               "entityType":"AppliedTaxRate",
-              "taxRate":\{
+              "taxRate":{
                 "guid":"78aca305-6fbc-42ea-a85b-1671c52367eb",
                 "entityType":"TaxRate"
               },
@@ -502,12 +502,12 @@ The redeem transaction follows the final inquire transaction during the payment 
               "type":"PERCENT"
             }
           ],
-          "itemGroup":\{
+          "itemGroup":{
             "guid":"15694864-225d-4b47-a60b-b9c20986b0af",
             "entityType":"MenuGroup",
             "externalId":"100000000100004070"
           },
-          "item":\{
+          "item":{
             "guid":"5abf524e-31b5-4c1b-a797-7a44d888d071",
             "entityType":"MenuItem",
             "externalId":"100000000100004071"
@@ -534,26 +534,26 @@ The redeem transaction follows the final inquire transaction during the payment 
       "customer":null
     },
     "redemptions":[
-      \{
+      {
         "identifier":"1",
         "itemId":null,
         "selectionGuid":null,
         "amount":5,
         "quantity":2
-      \}
+      }
     ]
-  \},
+  },
   "reverseTransactionInformation":null
-\}
+}
 ```
 
   
 **Example 10.11. Successful loyalty redeem response**
 
 ```
-\{
-  "checkResponse":\{
-    "accountInfo":\{
+{
+  "checkResponse":{
+    "accountInfo":{
       "identifier":"3",
       "firstName":"jack",
       "lastName":"williams",
@@ -561,7 +561,7 @@ The redeem transaction follows the final inquire transaction during the payment 
       "email":"a3@gmail.com"
     },
     "offers":[
-      \{
+      {
         "identifier":"1",
         "name":"reward 1",
         "applicable":true,
@@ -569,35 +569,35 @@ The redeem transaction follows the final inquire transaction during the payment 
         "amount":"5",
         "quantity":4
       },
-      \{
+      {
         "identifier":"3",
         "name":"reward 3",
         "applicable":false,
         "selectionType":"ITEM",
         "amount":"10",
         "itemApplication":[
-          \{
+          {
             "selectionIdentifier":"undefined",
             "amount":"10"
-          \}
+          }
         ],
         "quantity":10
-      \}
+      }
     ],
     "rejectedRedemptions":[],
     "appliedRedemptions":[
-      \{
+      {
         "identifier":"1",
         "itemId":null,
         "selectionGuid":null,
         "amount":5,
         "quantity":2
-      \}
+      }
     ],
     "userMessage":"Visit http://www.website.com to check your points balance"
-  \},
+  },
   "transactionStatus":"ACCEPT"
-\}
+}
 ```
 
 
@@ -659,18 +659,18 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
 **Example 10.12. Loyalty accrue request**
 
 ```
-\{
+{
   "toastTransactionType":"LOYALTY_ACCRUE",
   "searchTransactionInformation":null,
-  "checkTransactionInformation":\{
+  "checkTransactionInformation":{
     "loyaltyIdentifier":null,
-    "check":\{
+    "check":{
       "guid":"5728df00-d770-4aeb-a4c9-53226a104ac0",
       "entityType":"Check",
       "externalId":null,
       "displayNumber":"183",
       "payments":[
-        \{
+        {
           "guid":"8b251345-3cda-486e-91c9-cd760c6087c6",
           "entityType":"OrderPayment",
           "externalId":null,
@@ -678,13 +678,13 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
           "amount":8.69,
           "tipAmount":0,
           "amountTendered":9,
-          "cashDrawer":\{
+          "cashDrawer":{
             "guid":"404a8efc-3eda-471a-a11d-f69358d54084",
             "entityType":"CashDrawer",
             "externalId":null
           },
           "cardType":null,
-          "lastModifiedDevice":\{
+          "lastModifiedDevice":{
             "id":"f51c0a6ce7da722c"
           },
           "refundStatus":"NONE",
@@ -693,7 +693,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
           "voidInfo":null,
           "otherPayment":null,
           "mcaRepaymentAmount":null,
-          "createdDevice":\{
+          "createdDevice":{
             "id":"f51c0a6ce7da722c"
           },
           "paidDate":"2019-04-08T21:16:46.738+0000",
@@ -705,7 +705,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
         }
       ],
       "appliedDiscounts":[],
-      "lastModifiedDevice":\{
+      "lastModifiedDevice":{
         "id":"f51c0a6ce7da722c"
       },
       "voidDate":null,
@@ -719,7 +719,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
       "openedDate":"2019-08-24T14:15:22Z",
       "totalAmount":8.69,
       "selections":[
-        \{
+        {
           "guid":"c3283098-44c1-4712-866a-2b53cdc39b25",
           "entityType":"MenuItemSelection",
           "externalId":null,
@@ -732,7 +732,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
           "modifiers":[],
           "voidDate":null,
           "fulfillmentStatus":"SENT",
-          "salesCategory":\{
+          "salesCategory":{
             "guid":"c6909137-0deb-4197-9003-3092294fe1a3",
             "entityType":"SalesCategory",
             "externalId":null
@@ -741,10 +741,10 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
           "price":8,
           "voided":false,
           "appliedTaxes":[
-            \{
+            {
               "guid":"92894bfa-e56c-4638-9fa9-88e4d24190a3",
               "entityType":"AppliedTaxRate",
-              "taxRate":\{
+              "taxRate":{
                 "guid":"9164a65c-5f25-4cb9-8fb9-b55cace11445",
                 "entityType":"TaxRate"
               },
@@ -754,12 +754,12 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
               "type":"PERCENT"
             }
           ],
-          "itemGroup":\{
+          "itemGroup":{
             "guid":"e8cee39c-7ff2-4ef1-9de9-e4ab0ee777f0",
             "entityType":"MenuGroup",
             "externalId":null
           },
-          "item":\{
+          "item":{
             "guid":"859d3db8-9dd4-42ab-9f6a-374d09e27825",
             "entityType":"MenuItem",
             "externalId":null
@@ -768,7 +768,7 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
           "quantity":1,
           "unitOfMeasure":"NONE",
           "tax":0.69,
-          "diningOption":\{
+          "diningOption":{
             "guid":"29481dc5-7a77-4b57-81ba-75710c5b39c8",
             "entityType":"DiningOption",
             "externalId":null
@@ -781,29 +781,29 @@ The accrue workflow occurs as an asynchronous process after a guest pays for a c
       ],
       "voidBusinessDate":null,
       "deleted":false,
-      "createdDevice":\{
+      "createdDevice":{
         "id":"f51c0a6ce7da722c"
-      \},
+      },
       "closedDate":"2019-04-08T21:16:46.767+0000",
       "deletedDate":"1970-01-01T00:00:00.000+0000",
       "modifiedDate":"2019-04-08T21:16:48.028+0000",
       "taxAmount":0.69,
       "appliedServiceCharges":[],
       "customer":null
-    \},
+    },
     "redemptions":[]
-  \},
+  },
   "reverseTransactionInformation":null
-\}
+}
 ```
 
   
 **Example 10.13. Successful loyalty accrue response**
 
 ```
-\{
+{
   "transactionStatus":"ACCEPT"
-\}
+}
 ```
 
   
@@ -852,40 +852,40 @@ The reverse workflow occurs when a restaurant employee voids (undoes) a guest's 
 **Example 10.14. Loyalty reverse request**
 
 ```
-\{
+{
   "toastTransactionType":"LOYALTY_REVERSE",
   "searchTransactionInformation":null,
   "checkTransactionInformation":null,
-  "reverseTransactionInformation":\{
+  "reverseTransactionInformation":{
     "loyaltyIdentifier":"1",
     "transactionId":"ab11d469-5ed5-4daa-b9d6-addefdb1c1f7",
     "redemptions":[
-      \{
+      {
         "identifier":"5",
         "appliedDiscountGuid":"64456691-c34e-4784-9c6e-fc514a0f4b7b",
         "selectionGuid":null,
         "amount":0.01,
         "quantity":1
       },
-      \{
+      {
         "identifier":"5",
         "appliedDiscountGuid":"64456691-c34e-4784-9c6e-fc514a0f4b7b",
         "selectionGuid":null,
         "amount":0.01,
         "quantity":1
-      \}
+      }
     ]
-  \}
-\}
+  }
+}
 ```
 
   
 **Example 10.15. Successful loyalty reverse**
 
 ```
-\{
+{
   "transactionStatus":"ACCEPT"
-\}
+}
 ```
 
   

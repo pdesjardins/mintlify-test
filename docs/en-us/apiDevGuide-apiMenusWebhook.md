@@ -36,16 +36,16 @@ Attributes in the `menus_updated` event's payload include:
 **Example 9.2. Payload example for the menus_updated event**
 
 ```
-\{
+{
     "timestamp": “2019-09-16T21:01:53.685Z”,
     "eventCategory": "menus",
     "eventType": "menus_updated",
     "guid": "00000000-0000-0000-0000-000000000000",
-    "details": \{
+    "details": {
         "restaurantGuid": "00000000-1111-2222-3333-444444444444",
         "publishedDate": "2021-10-06T20:11:01.737Z"
-    \}
-\}
+    }
+}
 ```
 
   

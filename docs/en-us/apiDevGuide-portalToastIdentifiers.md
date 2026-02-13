@@ -129,7 +129,7 @@ An external identifier is a bundle of information that uniquely identifies a par
 The standard string representation of external identifiers is as follows:
 
 ```
-\{`authority-name`}:\{`identifier`\}
+{`authority-name`}:{`identifier`}
 ```
 
 - *`authority-name`*: the unique name assigned by Toast for the naming authority for this domain object. (required for clients, \<= 16 characters)

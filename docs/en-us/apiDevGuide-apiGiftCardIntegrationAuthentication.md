@@ -60,7 +60,7 @@ The following example shows the public key string in the JSON response from the 
 **Example 10.2. Example public key for partner API authentication**
 
 ```
-\{
+{
    "alg":"SHA256withRSA",
    "value":"-----BEGIN PUBLIC KEY-----\nnub\nvwIDAhqhkiG9w0BAQEJ9tKko/3jXqdzI/NO4n
 sAt0WZjpyovan2xPIkCv2z\nuaBBVUrOiJ6JeoJ9tKko/3jXqdzI/NO4nsLW5wq5UrPXsvbdXLZzMhu3b3
@@ -68,7 +68,7 @@ sNmFJ9tKko/3jX5AEBaf5vXZCOfBVFnWnhLX61/KkI2dxwhS7fkxnjQ8wlfrh4tp3fKjDkI\nMgxTk1t
 fWY0O3mKyKtnYvqvDSRvsZ03URzyEPddVYDYZjpyovan2xPypKRvBlxz\nxhM74p8dOhEp6zAh4pENVNyp
 o+xVj/7Ko9Ie3fKjDkI\nMgxTk1tehCcNP1G/8UK\nE6oPta6r3e1Fi77K\nE6oPta66HP5KCur3mf3jQ6
 Qc99xVQ8wlfrh4tp56yjRnub\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
-\}
+}
 ```
 
 

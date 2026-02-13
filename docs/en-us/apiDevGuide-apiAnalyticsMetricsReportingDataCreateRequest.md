@@ -81,7 +81,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
 The following example shows the message body for creating an aggregated sales reporting data request for a custom time range.
 
 ```
-\{
+{
   "startBusinessDate": "20220824",
   "endBusinessDate": "20220903",
   "restaurantIds": [
@@ -91,7 +91,7 @@ The following example shows the message body for creating an aggregated sales re
   "groupBy": [
     "REVENUE_CENTER"
   ]
-\}
+}
 
 ```
 
@@ -123,7 +123,7 @@ For an example that shows how to retrieve the aggregated sales reporting data, s
 
 ## Creating an aggregated sales reporting data request for a specific time range
 
-Send a `POST` request to `/era/v1/metrics/\{timeRange\}` endpoint to request aggregated sales reporting data for a specific time range. The time range you specify can be a day, week, month, or year. Accordingly, the options for the `\{timeRange\}` path parameter are:
+Send a `POST` request to `/era/v1/metrics/{timeRange}` endpoint to request aggregated sales reporting data for a specific time range. The time range you specify can be a day, week, month, or year. Accordingly, the options for the `{timeRange}` path parameter are:
 
 - `day`: This requests data for one day, with the date specified by `startBusinessDate` in the message body. Providing an `endBusinessDate` is optional. If you choose to include the `endBusinessDate`, it must be the same date as the `startBusinessDate`.
 
@@ -149,7 +149,7 @@ If you choose the `day` time range, you can choose to group the aggregated sales
 
 ### Request for specific time range aggregated sales reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/metrics/\{timeRange\}` endpoint. This example uses the `week` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint. This example uses the `week` time range.
 
 ```
 curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
@@ -161,7 +161,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 
 
 
-(1) Send a POST request to the /era/v1/metrics/\{timeRange\} endpoint of the analytics API. The \{timeRange\} in this example is week.
+(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
 
 (2) Include an authentication token. For more information, see Authentication and restaurant access.
 
@@ -174,7 +174,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 The following example shows the message body for creating an aggregated sales reporting data request for a specific time range. This example is for the `week` time range.
 
 ```
-\{
+{
   "startBusinessDate": "20230205",
   "endBusinessDate": "20230207",
   "restaurantIds": [
@@ -183,7 +183,7 @@ The following example shows the message body for creating an aggregated sales re
   ],
   "excludedRestaurantIds": [],
   "groupBy": []
-\}
+}
 
 ```
 
@@ -201,7 +201,7 @@ The following example shows the message body for creating an aggregated sales re
 
 ### Response to the request for specific time range aggregated sales reporting data
 
-The following example shows the response from the `/era/v1/metrics/\{timeRange\}` endpoint.
+The following example shows the response from the `/era/v1/metrics/{timeRange}` endpoint.
 
 ```
 "d3d1ebdb-5e46-46ea-9491-f091466c5f22"

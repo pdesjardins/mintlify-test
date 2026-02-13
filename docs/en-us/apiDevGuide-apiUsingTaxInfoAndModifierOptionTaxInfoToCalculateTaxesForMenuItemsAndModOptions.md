@@ -51,14 +51,14 @@ To understand how to calculate menu item and modifier option taxes, consider the
 
 ```
 "menuItems": [
-  \{
+  {
     "name": "Cheese Pizza",
     ...
     "taxInfo": [
       "1a2b"
     ],
     ...
-  \},
+  },
   ...
 ]
 ```
@@ -68,8 +68,8 @@ Modifier Option 1, shown below, is configured in Toast Web to inherit its tax ra
 **Example 4.9. Modifier Option 1 inherits the parent menu item's tax rate**
 
 ```
-"modifierOptionReferences": \{
-  "7": \{
+"modifierOptionReferences": {
+  "7": {
     "referenceId": 7,
     "name": "Modifier Option 1",
     ...
@@ -78,9 +78,9 @@ Modifier Option 1, shown below, is configured in Toast Web to inherit its tax ra
       "overrideItemTaxRates": false
     ],
     ...
-  \},
+  },
   ...
-\},
+},
 ```
 
   
@@ -89,8 +89,8 @@ Modifier Option 2 is configured to use its own unique tax rate. Its `taxRateGuid
 **Example 4.10. Modifier Option 2 has its own unique tax rate**
 
 ```
-"modifierOptionReferences": \{
-  "9": \{
+"modifierOptionReferences": {
+  "9": {
     "referenceId": 9,
     "name": "Modifier Option 2",
     ...
@@ -99,9 +99,9 @@ Modifier Option 2 is configured to use its own unique tax rate. Its `taxRateGuid
       "overrideItemTaxRates": false
     ],
     ...
-  \},
+  },
   ...
-\},
+},
 ```
 
   
@@ -110,8 +110,8 @@ Modifier Option 3 is configured so that its tax rate overrides the parent menu i
 **Example 4.11. Modifier Option 3's tax rate overrides the parent menu item's tax rate**
 
 ```
-"modifierOptionReferences": \{
-  "12": \{
+"modifierOptionReferences": {
+  "12": {
     "referenceId": 12,
     "name": "Modifier Option 3",
     ...
@@ -120,9 +120,9 @@ Modifier Option 3 is configured so that its tax rate overrides the parent menu i
       "overrideItemTaxRates": true
     ],
     ...
-  \},
+  },
   ...
-\},
+},
 ```
 
   

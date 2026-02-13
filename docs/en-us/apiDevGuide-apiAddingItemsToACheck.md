@@ -30,7 +30,7 @@ The added items ignore meal pacing.
 
 ## How to add the items to the check
 
-To add items to an existing check, you send a `POST`request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/selections`endpoint. To identify the items to add, you provide a JSON array of `Selection` objects.
+To add items to an existing check, you send a `POST`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint. To identify the items to add, you provide a JSON array of `Selection` objects.
 
 **Procedure 2.5. To add items to an existing check**
 
@@ -47,7 +47,7 @@ To add items to an existing check, you send a `POST`request to the `/orders/<em>
 
 
 
-3. Send a `POST` request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/selections`endpoint of the Orders API. 
+3. Send a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint of the Orders API. 
 
 In the `POST` request path parameters, include the Toast platform GUIDs of the order and the check. 
 
@@ -64,21 +64,21 @@ The following example shows an array that contains a `Selection` object to ad a 
 
 ```
 [
-  \{
+  {
     "entityType": "MenuItemSelection",
-    "itemGroup": \{
+    "itemGroup": {
       "guid": "205c4612-d04d-43ec-86fd-7d0827a2eeed"
     },
-    "item": \{
+    "item": {
       "guid": "c58b958e-85a0-485a-bb5c-3b588e056aff"
-    \}
+    }
     "quantity": 2,
     "modifiers": [
       
       [content omitted]
 
     ]
-  \}
+  }
 ]
 ```
 
@@ -96,47 +96,47 @@ The following example shows an array that contains a `Selection` object to ad a 
 
 ## Example response after adding items to an existing check
 
-The following example shows the response for a `POST` request to the `/orders/<em>\{orderGuid\}</em>/checks/<em>\{checkGuid\}</em>/selections`endpoint of the orders API.
+The following example shows the response for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint of the orders API.
 
 ```
-\{
+{
   "guid": "da257b12-4766-471c-9580-837d2b29eb92", 
   "entityType": "Order",
 
   [content omitted]
 
   "checks": [
-    \{
+    {
       "guid": "6e1bb8e0-534d-437f-bbad-0f08045f463e",
       "entityType": "Check",
       
       [content omitted]
       
       "selections": [
-        \{
+        {
           "guid": "f520f731-8164-41a8-b261-23b9df3bf861",
           "entityType": "MenuItemSelection",
                     
           [content omitted]
 
         },
-        \{
+        {
           "guid": "a963dd45-e0bf-456b-a148-e955310d2643",
           "entityType": "MenuItemSelection",
           
           [content omitted]      
 
-        \}
+        }
       ],
     
       [content omitted]
     
-    \}
+    }
   ], 
 
   [content omitted]
 
-\}
+}
 ```
 
 

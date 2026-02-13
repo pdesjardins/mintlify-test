@@ -51,13 +51,13 @@ The following procedure explains how to calculate the expected deposit for one r
 1. Get the list of payment GUIDs for the business day by sending a `GET` request to the `payments`endpoint of the orders API. Include the *`paidBusinessDate`* parameter to specify the business day.
 
 
-2. Get detailed information about each payment by sending a GET request to the `payments/<em>\{guid\}</em>` endpoint of the orders API.
+2. Get detailed information about each payment by sending a GET request to the `payments/<em>{guid}</em>` endpoint of the orders API.
 
 
 3. Calculate the sum of the `amount` values for each payment that has the `type``CASH`. The following example shows the `amount` and `type` values for a payment.
 
 ```
-\{
+{
   "entityType": "OrderPayment",
 
     [contents omitted]
@@ -69,7 +69,7 @@ The following procedure explains how to calculate the expected deposit for one r
   "type": "CASH",
 
     [contents omitted]
-\}
+}
 ```
 
 
@@ -80,7 +80,7 @@ The following procedure explains how to calculate the expected deposit for one r
 
 ```
 [
-  \{
+  {
     "entityType": "CashEntry",
 
       [contents omitted]
@@ -90,7 +90,7 @@ The following procedure explains how to calculate the expected deposit for one r
       [contents omitted]
 
     "type": "PAY_OUT"
-  \}
+  }
 ]
 
 ```
@@ -125,24 +125,24 @@ AUTHENTICATION_TOKEN=""
 
 # Define functions for this example script.
 
-authenticate () \{
+authenticate () {
     # Get an authentication token for Toast API requests.
     curl -X POST \
     -H "Content-Type: application/json" \
-    -d "\{\"clientId\":\"$\{CLIENT_ID}\",\"clientSecret\":\"$\{CLIENT_SECRET}\",\"userAccessType\":\"TOAST_MACHINE_CLIENT\"}" \
+    -d "{\"clientId\":\"${CLIENT_ID}\",\"clientSecret\":\"${CLIENT_SECRET}\",\"userAccessType\":\"TOAST_MACHINE_CLIENT\"}" \
     -s -o authentication-response~ \
-    $\{SERVER}/authentication/v1/authentication/login
+    ${SERVER}/authentication/v1/authentication/login
     # Hold the authentication token and reuse it.
     AUTHENTICATION_TOKEN=`jq -r '.token.accessToken' authentication-response~`    
 }
 
-get_payments () \{
+get_payments () {
     # Get a list of the payment transactions for a business day.
     curl -X GET \
-    -H "Authorization: Bearer $\{AUTHENTICATION_TOKEN}" \
-    -H "Toast-Restaurant-External-ID: $\{RESTAURANT_GUID}" \
+    -H "Authorization: Bearer ${AUTHENTICATION_TOKEN}" \
+    -H "Toast-Restaurant-External-ID: ${RESTAURANT_GUID}" \
     -s -o my-payments~ \
-    "$\{SERVER}/orders/v2/payments?paidBusinessDate=$\{BUSINESS_DATE\}"
+    "${SERVER}/orders/v2/payments?paidBusinessDate=${BUSINESS_DATE}"
 
     # Find the number of payment record GUIDs in the JSON array
     # returned by the payments endpoint.
@@ -150,54 +150,54 @@ get_payments () \{
 
     # Get detailed information about each payment.
     PAYMENT_NUMBER=0
-    while [[ "$\{PAYMENT_NUMBER}" -lt "$\{NUMBER_OF_PAYMENTS\}" ]]
+    while [[ "${PAYMENT_NUMBER}" -lt "${NUMBER_OF_PAYMENTS}" ]]
     do
-      PAYMENT_GUID=`jq -r .[$\{PAYMENT_NUMBER\}] my-payments~`
+      PAYMENT_GUID=`jq -r .[${PAYMENT_NUMBER}] my-payments~`
       # Run the get_payment function. Pass one payment GUID as an argument.
-      get_payment $\{PAYMENT_GUID\}
-      PAYMENT_NUMBER=$(($\{PAYMENT_NUMBER\}+1))
+      get_payment ${PAYMENT_GUID}
+      PAYMENT_NUMBER=$((${PAYMENT_NUMBER}+1))
     done
 }
 
-get_payment () \{
+get_payment () {
     # Get detailed information about one payment transaction.
     curl -X GET \
-    -H "Authorization: Bearer $\{AUTHENTICATION_TOKEN}" \
-    -H "Toast-Restaurant-External-ID: $\{RESTAURANT_GUID}" \
+    -H "Authorization: Bearer ${AUTHENTICATION_TOKEN}" \
+    -H "Toast-Restaurant-External-ID: ${RESTAURANT_GUID}" \
     -s -o my-payment~ \
-    "$\{SERVER}/orders/v2/payments/$\{1\}"
+    "${SERVER}/orders/v2/payments/${1}"
 
     # If the type of the payment is CASH, add its amount to the total
     # cash transactions for the business day.
     TRANSACTION_TYPE=`jq -r .type my-payment~`
     PAYMENT_STATUS=`jq -r .paymentStatus my-payment~`
-    if [[ "$\{TRANSACTION_TYPE}" == "CASH" ]] && [[ "$\{PAYMENT_STATUS\}" != "VOIDED" ]];
+    if [[ "${TRANSACTION_TYPE}" == "CASH" ]] && [[ "${PAYMENT_STATUS}" != "VOIDED" ]];
     then
-      NUMBER_CASH_TRANSACTIONS=$(($\{NUMBER_CASH_TRANSACTIONS\}+1))
+      NUMBER_CASH_TRANSACTIONS=$((${NUMBER_CASH_TRANSACTIONS}+1))
       # Find the currency amount of the cash transaction.
       CURRENT_TRANSACTION=`jq -r .amount my-payment~`
       # Add the current transaction amount to the total for the business day.
       TOTAL_CASH_TRANSACTIONS=`echo \
-        "$\{TOTAL_CASH_TRANSACTIONS}+$\{CURRENT_TRANSACTION\}" | bc`
+        "${TOTAL_CASH_TRANSACTIONS}+${CURRENT_TRANSACTION}" | bc`
     fi
 }
 
-get_entries () \{
+get_entries () {
     # Get an array of the cash entries for the business day.
     curl -X GET \
-    -H "Authorization: Bearer $\{AUTHENTICATION_TOKEN}" \
-    -H "Toast-Restaurant-External-ID: $\{RESTAURANT_GUID}" \
+    -H "Authorization: Bearer ${AUTHENTICATION_TOKEN}" \
+    -H "Toast-Restaurant-External-ID: ${RESTAURANT_GUID}" \
     -s -o my-cash-entries~ \
-    "$\{SERVER}/cashmgmt/v1/entries?businessDate=$\{BUSINESS_DATE\}"
+    "${SERVER}/cashmgmt/v1/entries?businessDate=${BUSINESS_DATE}"
 
     # Calculate the total of all entries except for the CASH_COLLECTED type.
     for CASH_ENTRY_AMOUNT in `jq '.[] | \
       select(.type!="CASH_COLLECTED") | .amount'  my-cash-entries~`
     do
       TOTAL_CASH_ENTRY_ADJUSTMENTS=`echo \
-        "$\{TOTAL_CASH_ENTRY_ADJUSTMENTS}+$\{CASH_ENTRY_AMOUNT\}" | bc`
+        "${TOTAL_CASH_ENTRY_ADJUSTMENTS}+${CASH_ENTRY_AMOUNT}" | bc`
     done
-\}
+}
 
 # Run functions in this example script.
 
@@ -220,13 +220,13 @@ get_entries
 # Calculate the total expected cash deposit by summing the cash collected
 # and the total of the cash entries (typically negative).
 EXPECTED_CASH_DEPOSIT=`echo \
-  "$\{TOTAL_CASH_TRANSACTIONS}+$\{TOTAL_CASH_ENTRY_ADJUSTMENTS\}" | bc`
+  "${TOTAL_CASH_TRANSACTIONS}+${TOTAL_CASH_ENTRY_ADJUSTMENTS}" | bc`
 
 # Report the totals.
-echo "Number cash transactions:     $\{NUMBER_CASH_TRANSACTIONS\}"
-echo "Total cash transactions:      $\{TOTAL_CASH_TRANSACTIONS}"
-echo "Total cash entry adjustments: $\{TOTAL_CASH_ENTRY_ADJUSTMENTS}"
-echo "Expected cash deposit:        $\{EXPECTED_CASH_DEPOSIT\}"
+echo "Number cash transactions:     ${NUMBER_CASH_TRANSACTIONS}"
+echo "Total cash transactions:      ${TOTAL_CASH_TRANSACTIONS}"
+echo "Total cash entry adjustments: ${TOTAL_CASH_ENTRY_ADJUSTMENTS}"
+echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
 ```
 
 

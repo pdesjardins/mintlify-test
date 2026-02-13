@@ -168,7 +168,7 @@ There are currently no custom rate limits for individual Toast APIs.
 
 
 ****Endpoint rate limits****
-: Endpoint rate limits apply to requests that are made to individual endpoints, such as requests to the `/orders/\{guid\}` endpoint of the orders API.
+: Endpoint rate limits apply to requests that are made to individual endpoints, such as requests to the `/orders/{guid}` endpoint of the orders API.
 
 
 
@@ -249,7 +249,7 @@ This header field uses the UNIX epoch format because it is easiest to compare pr
 
 When a rate limit is exceeded, an additional header, `Retry-After`, is provided in the 429 HTTP response to help you to recover from the rate limited state. This header gives you the number of seconds until the request count is reset for the rate limit specified in `X-Toast-RateLimit-By`.
 
-The header fields are in the context of the request. For example, consider a `GET` request to the `/orders/\{guid\}`endpoint:
+The header fields are in the context of the request. For example, consider a `GET` request to the `/orders/{guid}`endpoint:
 
 - If the `X-Toast-RateLimit-By` header field returns `GLOBAL`, then the rate limit that is closest to being exceeded is the global rate limit.
 
@@ -257,7 +257,7 @@ The header fields are in the context of the request. For example, consider a `GE
 - If the `X-Toast-RateLimit-By` header field returns `API`, then the rate limit that is closest to being exceeded is the orders API rate limit.
 
 
-- If the `X-Toast-RateLimit-By` header field returns `ENDPOINT`, then the rate limit for the `/orders/\{guid\}` endpoint is closest to being exceeded.
+- If the `X-Toast-RateLimit-By` header field returns `ENDPOINT`, then the rate limit for the `/orders/{guid}` endpoint is closest to being exceeded.
 
 
 

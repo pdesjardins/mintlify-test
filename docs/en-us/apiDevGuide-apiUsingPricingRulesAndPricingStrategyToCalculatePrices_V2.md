@@ -51,33 +51,33 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
 **Example 4.2. Sample JSON for a menu item that uses the Time Specific Price pricing strategy**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "6f54db28-557b-4070-b3da-58a52fa4a4fb",
               ...
               "price": null,
               "pricingStrategy": "TIME_SPECIFIC_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [
-                  \{
+                  {
                     "timeSpecificPrice": 8.0,
                     "basePrice": 10.0,
                     "schedule": [
-                      \{
+                      {
                         "days": [
                           "MONDAY",
                           "TUESDAY",
@@ -86,7 +86,7 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
                           "FRIDAY"
                         ],
                         "timeRanges": [
-                          \{
+                          {
                             "start": "12:00",
                             "end": "14:00"
                           }
@@ -94,17 +94,17 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
                       }
                     ]
                   },
-                  \{
+                  {
                     "timeSpecificPrice": 9.0,
                     "basePrice": 10.0,
                     "schedule": [
-                      \{
+                      {
                         "days": [
                           "SATURDAY",
                           "SUNDAY"
                         ],
                         "timeRanges": [
-                          \{
+                          {
                             "start": "12:00",
                             "end": "15:00"
                           }
@@ -123,13 +123,13 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
       ]
     }
   ],
-  "modifierGroupReferences": \{
+  "modifierGroupReferences": {
     ...
   },
-  "modifierOptionReferences": \{
+  "modifierOptionReferences": {
     ...
-  \}
-\}
+  }
+}
 ```
 
 
@@ -158,31 +158,31 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
 **Example 4.3. Sample JSON for a menu item that uses the Size Price pricing strategy**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [],
                 "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
-              \},
+              },
               ...
               "modifierGroupReferences": [
                 2,
@@ -196,9 +196,9 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
       ]
     }
   ],
-  "modifierGroupReferences": \{
+  "modifierGroupReferences": {
     ...
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -214,9 +214,9 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
     },
     ...
   },
-  "modifierOptionReferences": \{
+  "modifierOptionReferences": {
     ...
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
@@ -227,7 +227,7 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -237,10 +237,10 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
-    \}
+    }
     ...
-  \}
-\}
+  }
+}
 ```
 
 
@@ -279,31 +279,31 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
 **Example 4.4. Sample JSON for modifier options that inherit Size pricing from a parent modifier group**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [],
                 "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
-              \},
+              },
               ...
               "modifierGroupReferences": [
                 2,
@@ -317,9 +317,9 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ]
     }
   ],
-  "modifierGroupReferences": \{
+  "modifierGroupReferences": {
     ...
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -333,38 +333,38 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ],
       ...
     },
-    "3": \{
+    "3": {
       "referenceId": 3,
       "name": "Toppings",
       "guid": "58b79986-f88f-411d-ba18-14b1e2441e9d",
       ...
       "pricingStrategy": "SIZE_PRICE",
-      "pricingRules": \{
+      "pricingRules": {
         "timeSpecificPricingRules": [],
         "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
         "sizeSequencePricingRules": [
-          \{
+          {
             "sizeName": "Small",    (12)
             "sizeGuid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
             "sequencePrices": [
-              \{
+              {
                 "sequence": 1,
                 "price": 2.0
               }
             ]
           },
-          \{
+          {
             "sizeName": "Large",
             "sizeGuid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
             "sequencePrices": [
-              \{
+              {
                 "sequence": 1,
                 "price": 4.0
-              \}
+              }
             ]
-          \}
+          }
         ]
-      \},
+      },
       ...
       "modifierOptionReferences": [
         10,
@@ -374,9 +374,9 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
     },
     ...
   },
-  "modifierOptionReferences": \{
+  "modifierOptionReferences": {
     ...
-    "10": \{
+    "10": {
       "referenceId": 10,
       "name": "Mushrooms",
       "guid": "fa24fee9-76c4-40ba-ae3c-7dfccafdd8d3",
@@ -387,7 +387,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ...
       "modifierGroupReferences": []
     },
-    "11": \{
+    "11": {
       "referenceId": 11,
       "name": "Onions",
       "guid": "afee6be7-8280-4c69-a170-9fdf4c76bf7b",
@@ -398,7 +398,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ...
       "modifierGroupReferences": []
     },
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
@@ -409,7 +409,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -419,10 +419,10 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
-    \},
+    },
     ...
-  \}
-\}
+  }
+}
 ```
 
 
@@ -487,31 +487,31 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
 **Example 4.5. Sample JSON for modifier options that inherit Sequence pricing from a parent modifier group**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [],
                 "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
-              \},
+              },
               ...
               "modifierGroupReferences": [
                 2,
@@ -525,38 +525,38 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       ]
     }
   ],
-  "modifierGroupReferences": \{
+  "modifierGroupReferences": {
     ...
-    "4": \{
+    "4": {
       "referenceId": 4,
       "name": "Toppings",
       "guid": "2fb9889a-e3e9-4039-9bbd-99defb7f04b1",
       ...
       "pricingStrategy": "SEQUENCE_PRICE",
-      "pricingRules": \{
+      "pricingRules": {
         "timeSpecificPricingRules": [],
         "sizeSpecificPricingGuid": null,
         "sizeSequencePricingRules": [
-          \{
+          {
             "sizeName": null,
             "sizeGuid": null,
             "sequencePrices": [
-              \{
+              {
                 "sequence": 1,
                 "price": 1.0
               },
-              \{
+              {
                 "sequence": 2,
                 "price": 2.0
               },
-              \{
+              {
                 "sequence": 3,
                 "price": 2.5
-              \}
+              }
             ]
-          \}
+          }
         ]
-      \},
+      },
       ...
       "modifierOptionReferences": [
         14,
@@ -564,7 +564,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       ],
       ...
     },
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -579,9 +579,9 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       ...
     },
   },
-  "modifierOptionReferences": \{
+  "modifierOptionReferences": {
     ...
-    "14": \{
+    "14": {
       "referenceId": 14,
       "name": "Pepperoni",
       "guid": "11adaad3-c391-42e8-a234-350a16e5a68d",
@@ -592,7 +592,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       ...
       "modifierGroupReferences": []
     },
-    "15": \{
+    "15": {
       "referenceId": 15,
       "name": "Sausage",
       "guid": "bd3a44ed-8362-49b8-8f6e-c899480137ff",
@@ -604,7 +604,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       "modifierGroupReferences": []
     },
     ...
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
@@ -615,7 +615,7 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -625,9 +625,9 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
-    \}
-  \}
-\}
+    }
+  }
+}
 ```
 
 
@@ -676,31 +676,31 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
 **Example 4.6. Sample JSON for modifier options that inherit Size/Sequence pricing from a parent modifier group**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [],
                 "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
-              \},
+              },
               ...
               "modifierGroupReferences": [
                 2,
@@ -714,9 +714,9 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ]
     }
   ],
-  "modifierGroupReferences": \{
+  "modifierGroupReferences": {
     ...
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -730,46 +730,46 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ],
       ...
     },
-    "5": \{
+    "5": {
       "referenceId": 5,
       "name": "Toppings",
       "guid": "e65dd350-5628-45fd-993d-8cf9c4f15a76",
       ...
       "pricingStrategy": "SIZE_SEQUENCE_PRICE",
-      "pricingRules": \{
+      "pricingRules": {
         "timeSpecificPricingRules": [],
         "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
         "sizeSequencePricingRules": [
-          \{
+          {
             "sizeName": "Small",
             "sizeGuid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
             "sequencePrices": [
-              \{
+              {
                 "sequence": 1,
                 "price": 1.0
               },
-              \{
+              {
                 "sequence": 2,
                 "price": 2.0
               }
             ]
           },
-          \{
+          {
             "sizeName": "Large",
             "sizeGuid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
             "sequencePrices": [
-              \{
+              {
                 "sequence": 1,
                 "price": 3.0
               },
-              \{
+              {
                 "sequence": 2,
                 "price": 4.0
-              \}
+              }
             ]
-          \}
+          }
         ]
-      \},
+      },
       ...
       "modifierOptionReferences": [
         16,
@@ -779,9 +779,9 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
     },
     ...
   },
-  "modifierOptionReferences": \{
+  "modifierOptionReferences": {
     ...
-    "16": \{
+    "16": {
       "referenceId": 16,
       "name": "Olives",
       "guid": "8d45403d-5393-4c19-9d11-1dd963df8a26",
@@ -792,7 +792,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ...
       "modifierGroupReferences": []
     },
-    "17": \{
+    "17": {
       "referenceId": 17,
       "name": "Peppers",
       "guid": "d4977c91-08d3-4060-a7bd-13e19a83e794",
@@ -803,7 +803,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ...
       "modifierGroupReferences": []
     },
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
@@ -814,7 +814,7 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -824,9 +824,9 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
-    \}
-  \}
-\}
+    }
+  }
+}
 ```
 
 
@@ -883,31 +883,31 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 **Example 4.7. Sample JSON for a modifier option that inherits a Time Specific Price from its item reference**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [],
                 "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
-              \},
+              },
               ...
               "modifierGroupReferences": [
                 2,
@@ -921,8 +921,8 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ]
     }
   ],
-  "modifierGroupReferences": \{
-    "6": \{
+  "modifierGroupReferences": {
+    "6": {
       "referenceId": 6,
       "name": "Toppings",
       "guid": "a1778e92-7ce9-4b1e-867d-c1effd7478b8",
@@ -936,7 +936,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ],
       ...
     },
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -951,21 +951,21 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ...
     },
   },
-  "modifierOptionReferences": \{
-    "18": \{
+  "modifierOptionReferences": {
+    "18": {
       "referenceId": 18,
       "name": "Goat Cheese",
       "guid": "0ca19f15-184c-4b69-8049-cd50bf96c39e",
       ...
       "price": null,
       "pricingStrategy": "TIME_SPECIFIC_PRICE",
-      "pricingRules": \{
+      "pricingRules": {
         "timeSpecificPricingRules": [
-          \{
+          {
             "timeSpecificPrice": 1.0,
             "basePrice": 2.0,
             "schedule": [
-              \{
+              {
                 "days": [
                   "MONDAY",
                   "TUESDAY",
@@ -976,7 +976,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
                   "SUNDAY"
                 ],
                 "timeRanges": [
-                  \{
+                  {
                     "start": "12:00",
                     "end": "14:00"
                   }
@@ -990,7 +990,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       },
       ...
     },
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
@@ -1001,7 +1001,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -1011,9 +1011,9 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
-    \}
-  \}
-\}
+    }
+  }
+}
 ```
 
 
@@ -1064,31 +1064,31 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 **Example 4.8. Sample JSON for a modifier option that inherits a Size Price from its item reference**
 
 ```
-\{
+{
   "restaurantGuid": "2071fb81-988b-4d75-b8dc-c5c17cff9706",
   ...
   "menus": [
-    \{
+    {
       "name": "Dinner",
       "guid": "ddd681de-3c12-4d45-b8b1-a5b2ea898210",
       ...
       "menuGroups": [
-        \{
+        {
           "name": "Pizza",
           "guid": "dc868006-919a-4950-a4cc-3a03f9770fd7",
           ...
           "menuItems": [
-            \{
+            {
               "name": "Cheese Pizza",
               "guid": "95c5d500-8d92-46f2-bec4-fb2a42a46621",
               ...
               "price": null,
               "pricingStrategy": "SIZE_PRICE",
-              "pricingRules": \{
+              "pricingRules": {
                 "timeSpecificPricingRules": [],
                 "sizeSpecificPricingGuid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
                 "sizeSequencePricingRules": []
-              \},
+              },
               ...
               "modifierGroupReferences": [
                 2,
@@ -1102,8 +1102,8 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ]
     }
   ],
-  "modifierGroupReferences": \{
-    "7": \{
+  "modifierGroupReferences": {
+    "7": {
       "referenceId": 7,
       "name": "Size",
       "guid": "1517b7a4-612f-4447-ab93-46b989f01b6b",
@@ -1117,7 +1117,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ],
       ...
     },
-    "6": \{
+    "6": {
       "referenceId": 6,
       "name": "Toppings",
       "guid": "a1778e92-7ce9-4b1e-867d-c1effd7478b8",
@@ -1131,7 +1131,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ],
       ...
     },
-    "2": \{
+    "2": {
       "referenceId": 2,
       "name": "Size",
       "guid": "23c02762-9d6a-4d3f-a298-71c989bf31b0",
@@ -1145,25 +1145,25 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ],
       ...
     },
-  "modifierOptionReferences": \{
-    "19": \{
+  "modifierOptionReferences": {
+    "19": {
       "referenceId": 19,
       "name": "Tomatoes",
       "guid": "b53cb945-d790-4386-88b5-c29b4f72141f",
       ...
       "price": null,
       "pricingStrategy": "SIZE_PRICE",
-      "pricingRules": \{
+      "pricingRules": {
         "timeSpecificPricingRules": [],
         "sizeSpecificPricingGuid": "1517b7a4-612f-4447-ab93-46b989f01b6b",
         "sizeSequencePricingRules": []
-      \},
+      },
       ...
       "modifierGroupReferences": [
         7
       ]
     },
-    "20": \{
+    "20": {
       "referenceId": 20,
       "name": "Small",
       "guid": "e5c9883b-5c15-4771-9efa-0a63b9124484",
@@ -1174,7 +1174,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ...
       "modifierGroupReferences": []
     },
-    "21": \{
+    "21": {
       "referenceId": 21,
       "name": "Large",
       "guid": "269cbff6-2e90-4ef8-8a83-ea5a76fb7199",
@@ -1185,7 +1185,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ...
       "modifierGroupReferences": []
     },
-    "12": \{
+    "12": {
       "referenceId": 12,
       "name": "Small",
       "guid": "352244f2-a952-4a3a-a3ae-7775fa221ce7",
@@ -1196,7 +1196,7 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       ...
       "modifierGroupReferences": []
     },
-    "13": \{
+    "13": {
       "referenceId": 13,
       "name": "Large",
       "guid": "4ff89bca-b448-4892-bc4c-62c37a28ac44",
@@ -1206,9 +1206,9 @@ The example below shows a modifier group, Toppings, whose modifier options are i
       "pricingRules": null,
       ...
       "modifierGroupReferences": []
-    \}
-  \}
-\}
+    }
+  }
+}
 ```
 
 

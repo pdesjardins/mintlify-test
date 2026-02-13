@@ -66,42 +66,42 @@ The following example shows a restaurant location's online ordering schedule for
 
 
 ```
-\{
+{
     "servicePeriods": [
-        \{
+        {
             "diningOptionBehavior": "DELIVERY" ,
             "dayPeriods": [
-                \{
+                {
                     "day": "MONDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "11:00" ,
                             "end": "02:00"
                         }
                     ]
                 },
-                \{
+                {
                     "day": "WEDNESDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "11:00",
                             "end": "20:00"
                         }
                     ]
                 },
-                \{
+                {
                     "day": "FRIDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "11:00",
                             "end": "20:00"
                         }
                     ]
                 },
-                \{
+                {
                     "day": "SATURDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "12:00",
                             "end": "19:00"
                         }
@@ -109,50 +109,50 @@ The following example shows a restaurant location's online ordering schedule for
                 }
             ]
         },
-        \{
+        {
             "diningOptionBehavior": "TAKE_OUT",
             "dayPeriods": [
-                \{
+                {
                     "day": "MONDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "11:00",
                             "end": "02:00"
                         }
                     ]
                 },
-                \{
+                {
                     "day": "WEDNESDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "11:00",
                             "end": "20:00"
                         }
                     ]
                 },
-                \{
+                {
                     "day": "FRIDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "11:00",
                             "end": "20:00"
                         }
                     ]
                 },
-                \{
+                {
                     "day": "SATURDAY",
                     "timeRanges": [
-                        \{
+                        {
                             "start": "10:00",
                             "end": "19:00"
-                        \}
+                        }
                     ]
-                \}
+                }
             ]
-        \}
+        }
     ],
     "overrides":  [
-        \{
+        {
             "description": "New operating hours",
             "diningOptionBehavior":  [
                 "DELIVERY",
@@ -160,15 +160,15 @@ The following example shows a restaurant location's online ordering schedule for
             ],
             "businessDate": 20211004,
             "timeRanges": [
-                \{
+                {
                     "start": "13:00",
                     "end": "16:00"
-                \}
+                }
             ]
-        \}
+        }
     ],
     "scheduledOrderMaxDays": 21 
-\}
+}
 ```
 
 
@@ -201,11 +201,11 @@ The values returned are organized by `diningOptionBehavior`.
 In the following example, the response returns an empty array. This means the restaurant location has not configured their online ordering hours in Toast Web. We recommend you contact the restaurant location prior to going live to confirm online ordering hours have been configured.
 
 ```
-\{
+{
     "servicePeriods": [],
     "overrides": [],
     "scheduledOrderMaxDays": 0
-\}
+}
 
 ```
 

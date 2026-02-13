@@ -19,10 +19,10 @@ Aggregated sales reporting data includes a high-level view of active restaurant 
 
 Retrieving the aggregated sales reporting data is a two-step process. You must:
 
-1. Send a `POST` request to the `/era/v1/metrics` or `/era/v1/metrics/\{timeRange\}` endpoint to create a request for aggregated sales reporting data for the restaurants in a management group and receive the `reportRequestGuid`, the unique request identifier. These endpoints are for either a custom time range (`/era/v1/metrics`) or a specific time range (`/era/v1/metrics/\{timeRange\}`). For more information, see [Creating a request for aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest).
+1. Send a `POST` request to the `/era/v1/metrics` or `/era/v1/metrics/{timeRange}` endpoint to create a request for aggregated sales reporting data for the restaurants in a management group and receive the `reportRequestGuid`, the unique request identifier. These endpoints are for either a custom time range (`/era/v1/metrics`) or a specific time range (`/era/v1/metrics/{timeRange}`). For more information, see [Creating a request for aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/metrics/\{reportRequestGuid\}` endpoint to retrieve the aggregated sales reporting data. For more information, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint to retrieve the aggregated sales reporting data. For more information, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
 
 
 

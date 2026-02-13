@@ -32,10 +32,10 @@ This section includes information about how to generate an SSH key using macOS o
 Open a terminal window and use the below command to create a new SSH key.
 
 ```
-ssh-keygen -t rsa -f ~/.ssh/`\{filename\}`
+ssh-keygen -t rsa -f ~/.ssh/`{filename}`
 ```
 
-Replace *`\{filename\}`* with the desired name of your SSH key file.
+Replace *`{filename}`* with the desired name of your SSH key file.
 
 
 
@@ -51,15 +51,15 @@ The command shown above saves a private key and a public key in the ~/.ssh direc
 Open a command prompt and use the below command to create a new SSH key.
 
 ```
-ssh-keygen -t rsa -f "C:\Users\`\{user\}`\.ssh\`\{filename\}"`
+ssh-keygen -t rsa -f "C:\Users\`{user}`\.ssh\`{filename}"`
 ```
 
 Replace the following from the above command:
 
-- `\{user\}`: Your desktop user name
+- `{user}`: Your desktop user name
 
 
-- `\{filename\}`: The desired name of your SSH key file.
+- `{filename}`: The desired name of your SSH key file.
 
 
 

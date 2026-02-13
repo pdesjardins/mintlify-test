@@ -124,17 +124,17 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 ```
 [
-  \{
+  {
     "guid": "5274c0f8-bf61-4e37-ad04-cf4ca1326822",
     "entityType": "Order",
     "externalId": null,
     "revenueCenter": null,
-    "server": \{
+    "server": {
       "guid": "dc9b7cd6-4389-4a6d-83c3-2fde7f033567",
       "entityType": "RestaurantUser",
       "externalId": null
     },
-    "lastModifiedDevice": \{
+    "lastModifiedDevice": {
       "id": null
     },
     "source": "API",
@@ -148,7 +148,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
     "table": null,
     "requiredPrepTime": "PT30M",
     "approvalStatus": "FUTURE",
-    "deliveryInfo": \{
+    "deliveryInfo": {
       "address1": "401 Park Drive",
       "address2": "Suite 801",
       "city": "Boston",
@@ -159,14 +159,14 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
       "notes": ""
     },
     "serviceArea": null,
-    "curbsidePickupInfo": \{
+    "curbsidePickupInfo": {
       "entityType": "CurbsidePickup",
       "notes": "Convertible with top down",
       "transportColor": "blue",
       "transportDescription": "Street Cruiser"
     },
     "numberOfGuests": 1,
-    "diningOption": \{
+    "diningOption": {
       "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
       "entityType": "DiningOption",
       "externalId": null
@@ -174,14 +174,14 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
     "openedDate": "2020-03-02T19:17:02.552+0000",
     "voidBusinessDate": null,
     "checks": [
-      \{
+      {
         "guid": "df38b30c-04b3-4eb3-923e-7cec05357674",
         "entityType": "Check",
         "externalId": null,
         "displayNumber": "pdesjardins-api-1583176621",
         "payments": [],
         "appliedDiscounts": [],
-        "lastModifiedDevice": \{
+        "lastModifiedDevice": {
           "id": null
         },
         "voidDate": null,
@@ -195,7 +195,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
         "openedDate": "2020-03-02T19:17:02.552+0000",
         "totalAmount": 111,
         "selections": [
-          \{
+          {
             "guid": "2e917d92-04e5-4a2b-bb1a-bde41009feb3",
             "entityType": "MenuItemSelection",
             "externalId": null,
@@ -209,7 +209,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
             "seatNumber": -1,
             "voidDate": null,
             "fulfillmentStatus": "NEW",
-            "salesCategory": \{
+            "salesCategory": {
               "guid": "c0915e46-341e-4ec0-b46e-cb87fab729fd",
               "entityType": "SalesCategory",
               "externalId": null
@@ -218,12 +218,12 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
             "price": 111,
             "voided": false,
             "appliedTaxes": [],
-            "itemGroup": \{
+            "itemGroup": {
               "guid": "c639a684-7245-4259-b9c5-f913e481347e",
               "entityType": "MenuGroup",
               "externalId": null
             },
-            "item": \{
+            "item": {
               "guid": "88aebc5f-4635-4141-9c0f-5a9be6324218",
               "entityType": "MenuItem",
               "externalId": null
@@ -232,7 +232,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
             "quantity": 1,
             "unitOfMeasure": "NONE",
             "tax": 0,
-            "diningOption": \{
+            "diningOption": {
               "guid": "18855a26-40d4-4a8f-b484-c6af211dd597",
               "entityType": "DiningOption",
               "externalId": null
@@ -245,7 +245,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
         ],
         "voidBusinessDate": null,
         "deleted": false,
-        "createdDevice": \{
+        "createdDevice": {
           "id": null
         },
         "closedDate": null,
@@ -253,7 +253,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
         "modifiedDate": "2020-03-02T19:17:02.609+0000",
         "taxAmount": 0,
         "appliedServiceCharges": [],
-        "customer": \{
+        "customer": {
           "entityType": "Customer",
           "firstName": "Jack",
           "lastName": "Jones",
@@ -263,7 +263,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
       }
     ],
     "deleted": false,
-    "createdDevice": \{
+    "createdDevice": {
       "id": null
     },
     "closedDate": null,
@@ -274,20 +274,20 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
       "TAXESV2"
     ]
   },
-  \{
+  {
     "guid": "529d9853-e28a-482b-9ee7-41580b0a53d0",
     "entityType": "Order",
 
     `[contents omitted]`
 
   },
-  \{
+  {
     "guid": "c3f0c5bd-3b06-4b5d-8035-be57ae38a02a",
     "entityType": "Order",
 
     `[contents omitted]`
 
-  \}
+  }
 ]
 ```
 

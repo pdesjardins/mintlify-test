@@ -78,10 +78,10 @@ Some local regulations require third-party ordering platforms to clearly state t
 **Example 2.2. Example response data from the `published/packagingConfig` endpoint**
 
 ```
-\{
+{
     "enabled": true, 
     "items": [
-        \{
+        {
             "id": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",
             "itemTypes": [
                 "UTENSILS",
@@ -91,7 +91,7 @@ Some local regulations require third-party ordering platforms to clearly state t
             "guestInclusionType": "OPT_IN",
             "guestDescription": "Include 4 sets of utensils and one pack of napkins"
         },
-        \{
+        {
             "id": "be9c8aac-9d7f-4ff5-bfdd-f7d2fcb4711f",
             "itemTypes": [
                 "BAGS"
@@ -99,10 +99,10 @@ Some local regulations require third-party ordering platforms to clearly state t
             "guestDisplayName": "Pack in plastic bag",
             "guestInclusionType": "OPT_OUT",
             "guestDescription": null
-        \}
+        }
     ],
     "guestMessage": "Thank you for helping our restaurant remain eco-friendly!" 
-\}
+}
 ```
 
 
@@ -152,21 +152,21 @@ The examples below show an order request and response that includes multiple pac
 ```
   [content omitted]
 
-  "diningOption": \{
+  "diningOption": {
     "guid": "0fbb34e4-5495-4e9d-b050-d96155a4de4a"
   },
-  "appliedPackagingInfo": \{
+  "appliedPackagingInfo": {
     "appliedPackagingItems": [
-      \{
+      {
         "itemConfigId": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",
         "inclusion": "YES"
       },
-      \{
+      {
         "itemConfigId": "be9c8aac-9d7f-4ff5-bfdd-f7d2fcb4711f",
         "inclusion": "YES"
-      \}
+      }
     ]
-  \}
+  }
 
   [content omitted]
 ```
@@ -185,11 +185,11 @@ The example below shows the response data for a request to create an order that 
 ```
   [content omitted]
 
-  "appliedPackagingInfo": \{
+  "appliedPackagingInfo": {
     "guid": "3061c33b-9245-44c4-a066-73f1e74e4a61",
     "entityType": "AppliedPackagingInfo",
     "appliedPackagingItems": [
-      \{
+      {
         "guid": "db6475e6-dfc1-43a9-9a70-4b8ba1951f43",
         "entityType": "AppliedPackagingItem",
         "itemConfigId": "0632bedc-9a09-4cd2-9575-f2ff189f5f2e",
@@ -198,9 +198,9 @@ The example below shows the response data for a request to create an order that 
           "UTENSILS"
         ],
         "guestDisplayName": "Include utensils"
-      \}
+      }
     ]
-  \}
+  }
   
   [content omitted]
 ```
