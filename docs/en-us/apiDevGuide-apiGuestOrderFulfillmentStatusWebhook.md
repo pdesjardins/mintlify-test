@@ -75,23 +75,23 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
   <tbody>
     <tr>
       <td>`eventGuid`</td>
-      <td>The unique Toast platform identifier for the webhook event. <br/>data type:string</td>
+      <td>The unique Toast platform identifier for the webhook event.  <br/> data type: string</td>
     </tr>
     <tr>
       <td>`orderGuid`</td>
-      <td>The unique Toast platform identifier for the order. <br/>data type:string</td>
+      <td>The unique Toast platform identifier for the order.  <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantGuid`</td>
-      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
       <td>`guestOrderStatus`</td>
-      <td>The current status of a guest's order in the restaurant fulfillment process. <ul><li>`IN_PREPARATION`: The order is being actively worked on.</li><li>`READY_FOR_PICKUP`: The order is ready for guest pickup.</li><li>`CLOSED`: The order is paid for and marked as completed.</li><li>`VOIDED`:<ul><li>If the order is open, the order will be voided and not be fulfilled.</li><li>If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul><br/>data type:string</td>
+      <td>The current status of a guest's order in the restaurant fulfillment process. <ul><li>`IN_PREPARATION`: The order is being actively worked on.</li><li>`READY_FOR_PICKUP`: The order is ready for guest pickup.</li><li>`CLOSED`: The order is paid for and marked as completed.</li><li>`VOIDED`:<ul><li>If the order is open, the order will be voided and not be fulfilled.</li><li>If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</td>
     </tr>
     <tr>
       <td>`lastUpdated`</td>
-      <td>The date and time the order’s `guestOrderStatus` was last updated. The date and time is presented in ISO 8601 format. <br/>data type:string<br/>format:date-time</td>
+      <td>The date and time the order’s `guestOrderStatus` was last updated. The date and time is presented in ISO 8601 format.  <br/> data type: string <br/> format: date-time</td>
     </tr>
     <tr>
       <td>`version`</td>

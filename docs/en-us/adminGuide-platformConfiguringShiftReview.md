@@ -170,37 +170,37 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Cash in hand (collected cash sales) </td>
       <td>Total amount of cash payments taken by an employee that is kept separately in their own cash bank. </td>
-      <td>Apply Cash Paymentspermission.</td>
+      <td>Apply Cash Payments permission.</td>
     </tr>
     <tr>
       <td>Cash in drawer</td>
       <td>Total amount of cash payments taken by an employee and placed into a cash drawer. </td>
-      <td>Shift Review Sales Datapermission. <br/>**In the Toast POS app **<ul><li>Setup &gt; Device Setup &gt; Open Cash Drawer &gt; Yes</li><li>Setup &gt; Device Setup &gt; Receipt Printer </li></ul></td>
+      <td>Shift Review Sales Data permission.  <br/> **In the Toast POS app **<ul><li>Setup > Device Setup > Open Cash Drawer > Yes</li><li>Setup > Device Setup > Receipt Printer </li></ul></td>
     </tr>
     <tr>
       <td>Driver bank </td>
       <td>Starting cash balance for drivers to use during their shift. </td>
-      <td>**In Toast Web **<ul><li>Takeout & delivery &gt; Availability &gt; Takeout / delivery &gt; Driver cash management &gt; Assign driver bank &gt; Yes, assign driver bank for reporting</li></ul></td>
+      <td>**In Toast Web **<ul><li>Takeout & delivery > Availability > Takeout / delivery > Driver cash management > Assign driver bank > Yes, assign driver bank for reporting</li></ul></td>
     </tr>
     <tr>
       <td>Total gratuity and fees </td>
       <td>Total gratuity and fees to be paid out to the employee. </td>
-      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Payout options </li></ul></td>
+      <td>**In Toast Web **<ul><li>Employees > Shift review > Payout options </li></ul></td>
     </tr>
     <tr>
       <td>Non-cash tips (%) </td>
       <td>Total amount of non-cash tips to be paid out to the employee. </td>
-      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Payout options </li></ul></td>
+      <td>**In Toast Web **<ul><li>Employees > Shift review > Payout options </li></ul></td>
     </tr>
     <tr>
       <td>Tips withheld (%) </td>
       <td>Total amount of tips withheld by the restaurant to cover the cost of credit card processing fees. </td>
-      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Payout options </li><li>Employees &gt; Payroll management &gt; Tip withholding &gt; Enable house tip withholding</li></ul></td>
+      <td>**In Toast Web **<ul><li>Employees > Shift review > Payout options </li><li>Employees > Payroll management > Tip withholding > Enable house tip withholding</li></ul></td>
     </tr>
     <tr>
       <td>Driver reimbursement </td>
       <td>Total amount a driver is reimbursed for wear and tear of their personal vehicle used for delivery. </td>
-      <td>Requires a Driver job. <br/>**In Toast Web **<ul><li>Takeout & delivery &gt; Availability &gt; Takeout / delivery &gt; Driver reimbursement &gt; Reimburse drivers &gt; Yes, reimburse drivers for each delivery order completed</li></ul></td>
+      <td>Requires a Driver job.  <br/> **In Toast Web **<ul><li>Takeout & delivery > Availability > Takeout / delivery > Driver reimbursement > Reimburse drivers > Yes, reimburse drivers for each delivery order completed</li></ul></td>
     </tr>
     <tr>
       <td>Employee owes restaurant or restaurant owes Employee</td>
@@ -213,11 +213,11 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Cash tips (declared)(%) </td>
       <td>Total cash tips.</td>
-      <td>Requires a Tipped job. <br/>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review setup &gt; Declare cash tips </li></ul></td>
+      <td>Requires a Tipped job.  <br/> **In Toast Web **<ul><li>Employees > Shift review > Shift review setup > Declare cash tips </li></ul></td>
     </tr>
     <tr>
       <td>Total tips & fees</td>
-      <td>Total tips and fees are calculated as: <br/>Non-cash tips (ex: credit card payment tips) +<br/>Non-cash gratuity and cash automatic gratuity (ex: service charges) +<br/>Total driver reimbursements+<br/>Declared cash tips (ex: cash tips declared during shift review) -<br/>House tip share (ex: tip withholding reclaims a portion of employee credit card tips to cover processing fees)</td>
+      <td>Total tips and fees are calculated as:  <br/> Non-cash tips (ex: credit card payment tips) + <br/> Non-cash gratuity and cash automatic gratuity (ex: service charges) + <br/> Total driver reimbursements + <br/> Declared cash tips (ex: cash tips declared during shift review) - <br/> House tip share (ex: tip withholding reclaims a portion of employee credit card tips to cover processing fees)</td>
       <td> </td>
     </tr>
     <tr>
@@ -247,7 +247,7 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Sales category (%) </td>
       <td>Total tip amount per sales category. </td>
-      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review report &gt; Tip sharing</li></ul></td>
+      <td>**In Toast Web **<ul><li>Employees > Shift review > Shift review report > Tip sharing</li></ul></td>
     </tr>
     <tr>
       <td>Total </td>
@@ -260,7 +260,7 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Fees to the driver </td>
       <td>Delivery driver fees. </td>
-      <td>**In Toast Web **<ul><li>A service charge must be configured.</li><li>Payments &gt; Checks & receipt setup &gt; Service charges </li></ul></td>
+      <td>**In Toast Web **<ul><li>A service charge must be configured.</li><li>Payments > Checks & receipt setup > Service charges </li></ul></td>
     </tr>
     <tr>
       <td>Fees </td>
@@ -278,17 +278,17 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Sales category </td>
       <td>Total number of items and net sales per sales category. </td>
-      <td>**In Toast Web **<ul><li>A sales category must be configured.</li><li>Menus &gt; Settings &gt; Sales categories</li></ul></td>
+      <td>**In Toast Web **<ul><li>A sales category must be configured.</li><li>Menus > Settings > Sales categories</li></ul></td>
     </tr>
     <tr>
       <td>Non-grat svc charges </td>
       <td>Total non-gratuity collected by the restaurant and added to the restaurant’s net sales amount.</td>
-      <td>**In Toast Web **<ul><li>A service charge must be configured.</li><li>Payments &gt; Checks & receipt setup &gt; Service charges </li></ul></td>
+      <td>**In Toast Web **<ul><li>A service charge must be configured.</li><li>Payments > Checks & receipt setup > Service charges </li></ul></td>
     </tr>
     <tr>
       <td>Deferred amount </td>
       <td>Total amount that is excluded from the restaurant’s net sales.</td>
-      <td>**In Toast Web **<ul><li>Menus &gt; Bulk management &gt; Advanced properties &gt; Select your item &gt; Reporting &gt; Defer Revenue &gt; Yes</li></ul></td>
+      <td>**In Toast Web **<ul><li>Menus > Bulk management > Advanced properties > Select your item > Reporting > Defer Revenue > Yes</li></ul></td>
     </tr>
     <tr>
       <td>Total net sales </td>
@@ -334,7 +334,7 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Revenue center </td>
       <td>Total amount of revenue center sales. The total amount does not include taxes. </td>
-      <td>**In Toast Web **<ul><li>A revenue center must be configured.</li><li>Front of house &gt; Tables & sections &gt; Revenue centers </li></ul></td>
+      <td>**In Toast Web **<ul><li>A revenue center must be configured.</li><li>Front of house > Tables & sections > Revenue centers </li></ul></td>
     </tr>
     <tr>
       <td>Total Voids heading</td>
@@ -365,12 +365,12 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Removal amount </td>
       <td>Total amount removed from checks. </td>
-      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review report &gt; Total removals </li></ul></td>
+      <td>**In Toast Web **<ul><li>Employees > Shift review > Shift review report > Total removals </li></ul></td>
     </tr>
     <tr>
       <td>Removed item count </td>
       <td>Total number of items removed from checks.</td>
-      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review report &gt; Total removals </li></ul></td>
+      <td>**In Toast Web **<ul><li>Employees > Shift review > Shift review report > Total removals </li></ul></td>
     </tr>
     <tr>
       <td>Total Discounts heading</td>
@@ -378,7 +378,7 @@ The following table lists the shift review report row, a description of the row,
     <tr>
       <td>Discount name </td>
       <td>Total number of discounts applied and discount amount. </td>
-      <td>**In Toast Web **<ul><li>A discount must be configured.</li><li>Payments &gt; Comps and promos &gt; Discounts and promo codes </li></ul></td>
+      <td>**In Toast Web **<ul><li>A discount must be configured.</li><li>Payments > Comps and promos > Discounts and promo codes </li></ul></td>
     </tr>
     <tr>
       <td>Total Payments heading</td>

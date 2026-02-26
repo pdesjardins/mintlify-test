@@ -113,7 +113,7 @@ The following example shows an `Order` object that contains one check with a sin
     </tr>
     <tr>
       <td>[(11)](#co-d1e3799EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
-      <td>The currency value presented by the customer to provide the payment. Do not include the tip in the `amountTendered`value.</td>
+      <td>The currency value presented by the customer to provide the payment. Do not include the tip in the `amountTendered` value.</td>
     </tr>
   
 ## Example response from the orders API

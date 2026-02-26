@@ -111,7 +111,7 @@ The following example shows the message body for creating a check reporting data
     </tr>
     <tr>
       <td>[(4)](#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
     </tr>
 ## Response to request for check reporting data
 

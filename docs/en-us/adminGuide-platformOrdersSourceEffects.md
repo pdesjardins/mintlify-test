@@ -44,9 +44,9 @@ The following table summarizes the differences in order processing among the ord
   <tbody>
     <tr>
       <td>Menu item availability</td>
-      <td>Menu item configuration for in-store availability.<br/>Able to check availability based on the current time and inventory. </td>
-      <td>Menu item configuration for online availability.<br/>Can check availability based on the current time and inventory. </td>
-      <td>Cannot add open menu items to the order. An open menu item is one where the restaurant employee specifies both the item description and price.<br/>Can add open price menu items and special requests.<br/>No other configuration for menu item availability.<br/>Cannot verify availability based on time or inventory. </td>
+      <td>Menu item configuration for in-store availability. <br/> Able to check availability based on the current time and inventory. </td>
+      <td>Menu item configuration for online availability. <br/> Can check availability based on the current time and inventory. </td>
+      <td>Cannot add open menu items to the order. An open menu item is one where the restaurant employee specifies both the item description and price. <br/> Can add open price menu items and special requests. <br/> No other configuration for menu item availability. <br/> Cannot verify availability based on time or inventory. </td>
     </tr>
     <tr>
       <td>Scheduled orders</td>
@@ -56,7 +56,7 @@ The following table summarizes the differences in order processing among the ord
     </tr>
     <tr>
       <td>Discounts</td>
-      <td>Can select applicable discounts.<br/>Discounts can be applied automatically. </td>
+      <td>Can select applicable discounts. <br/> Discounts can be applied automatically. </td>
       <td></td>
       <td>Cannot apply an open amount discount.</td>
     </tr>
@@ -76,7 +76,7 @@ The following table summarizes the differences in order processing among the ord
       <td>Payment options</td>
       <td>Can use any active payment option.</td>
       <td>Can configure available payment options for takeout and delivery orders.</td>
-      <td>Can create orders using either a credit card or an `OTHER` payment type.<br/>Can only add credit card payments to an existing order.</td>
+      <td>Can create orders using either a credit card or an `OTHER` payment type. <br/> Can only add credit card payments to an existing order.</td>
     </tr>
     <tr>
       <td>Text messages</td>

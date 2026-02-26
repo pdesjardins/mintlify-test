@@ -249,11 +249,11 @@ The following table identifies the pagination functionality used by Toast API en
     </tr>
     <tr>
       <td>Kitchen API</td>
-      <td>All endpoints that return paginated response data use *page token pagination* for response data.<br/>For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).</td>
+      <td>All endpoints that return paginated response data use *page token pagination* for response data. <br/> For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).</td>
     </tr>
     <tr>
-      <td>Orders API `/ordersBulk`endpoint</td>
-      <td>The orders API `/ordersBulk` endpoint uses *fixed-size pagination*.<br/>For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize).</td>
+      <td>Orders API `/ordersBulk` endpoint</td>
+      <td>The orders API `/ordersBulk` endpoint uses *fixed-size pagination*. <br/> For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize).</td>
     </tr>
   </tbody>
 </table>

@@ -50,23 +50,23 @@ The following table describes the four Toast rounding options.
   <tbody>
     <tr>
       <td>Half Even Rounding</td>
-      <td>Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.<br/>For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24.</td>
-      <td>$0.112 -&gt; $0.11<br/>$0.115 -&gt; $0.12<br/>$0.125 -&gt; $0.12<br/>$0.135 -&gt; $0.14</td>
+      <td>Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24. <br/> For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24.</td>
+      <td>$0.112 -> $0.11 <br/> $0.115 -> $0.12 <br/> $0.125 -> $0.12 <br/> $0.135 -> $0.14</td>
     </tr>
     <tr>
       <td>Half Up Rounding</td>
-      <td>Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.<br/>For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35.</td>
-      <td>$0.112 -&gt; $0.11<br/>$0.115 -&gt; $0.12<br/>$0.125 -&gt; $0.13<br/>$0.135 -&gt; $0.14</td>
+      <td>Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24. <br/> For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35.</td>
+      <td>$0.112 -> $0.11 <br/> $0.115 -> $0.12 <br/> $0.125 -> $0.13 <br/> $0.135 -> $0.14</td>
     </tr>
     <tr>
       <td>Always Round Down</td>
-      <td>Always round down every fractional penny, including half-way values.<br/>For example, $1.234, $1.235, and $1.236 all round down to $1.23.</td>
-      <td>$0.112 -&gt; $0.11<br/>$0.115 -&gt; $0.11<br/>$0.125 -&gt; $0.12<br/>$0.135 -&gt; $0.13</td>
+      <td>Always round down every fractional penny, including half-way values. <br/> For example, $1.234, $1.235, and $1.236 all round down to $1.23.</td>
+      <td>$0.112 -> $0.11 <br/> $0.115 -> $0.11 <br/> $0.125 -> $0.12 <br/> $0.135 -> $0.13</td>
     </tr>
     <tr>
       <td>Always Round Up</td>
-      <td>Always round up every fractional penny, including half-way values.<br/>For example, $1.234, $1.235, and $1.236 all round up to 1.24.</td>
-      <td>$0.112 -&gt; $0.12<br/>$0.115 -&gt; $0.12<br/>$0.125 -&gt; $0.13<br/>$0.135 -&gt; $0.14</td>
+      <td>Always round up every fractional penny, including half-way values. <br/> For example, $1.234, $1.235, and $1.236 all round up to 1.24.</td>
+      <td>$0.112 -> $0.12 <br/> $0.115 -> $0.12 <br/> $0.125 -> $0.13 <br/> $0.135 -> $0.14</td>
     </tr>
   </tbody>
 </table>

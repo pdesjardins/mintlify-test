@@ -172,7 +172,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     </tr>
     <tr>
       <td>[(6)](#co-d1e2310734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>For BOGO discounts, the `itemPickingPriority` value indicates the setting of the [item picking priority option](adminGuide-adminDiscountsConfigureBogo#adminDiscountsBogoGetItemDiscount). For example, a value of `LEAST_EXPENSIVE`means that the least expensive "get" item is discounted.</td>
+      <td>For BOGO discounts, the `itemPickingPriority` value indicates the setting of the [item picking priority option](adminGuide-adminDiscountsConfigureBogo#adminDiscountsBogoGetItemDiscount). For example, a value of `LEAST_EXPENSIVE` means that the least expensive "get" item is discounted.</td>
     </tr>
     <tr>
       <td>[(7)](#co-d1e2312734545DE-34ED-4C72-91FC-F7D438E64472)</td>
@@ -180,7 +180,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     </tr>
     <tr>
       <td>[(8)](#co-d1e2314734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The type value `PERCENT` indicates that this discount reduces the price of an item by the `percentage`value.</td>
+      <td>The type value `PERCENT` indicates that this discount reduces the price of an item by the `percentage` value.</td>
     </tr>
     <tr>
       <td>[(9)](#co-d1e2316734545DE-34ED-4C72-91FC-F7D438E64472)</td>
@@ -188,7 +188,7 @@ The following example shows the JSON return data for a `GET` request to the `/di
     </tr>
     <tr>
       <td>[(10)](#co-d1e2318734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `fixedTotal` value indicates the total price of items discounted by this combo discount. The `fixedTotal`value is `null` for discounts that are not combo discounts.</td>
+      <td>The `fixedTotal` value indicates the total price of items discounted by this combo discount. The `fixedTotal` value is `null` for discounts that are not combo discounts.</td>
     </tr>
 ### Getting the list of applicable discounts for an order
 
@@ -242,7 +242,7 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
     </tr>
     <tr>
       <td>[(2)](#availableDiscountsEmptyChecksCo)</td>
-      <td>Because this is an item-level discount, the `checks`value is empty.</td>
+      <td>Because this is an item-level discount, the `checks` value is empty.</td>
     </tr>
     <tr>
       <td>[(3)](#availableDiscountsItemGuidCo)</td>
@@ -250,7 +250,7 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
     </tr>
     <tr>
       <td>[(4)](#availableDiscountsChecksCo)</td>
-      <td>For a check-level discount, the `applicableChecks`value is populated.</td>
+      <td>For a check-level discount, the `applicableChecks` value is populated.</td>
     </tr>
     <tr>
       <td>[(5)](#availableDiscountsEmptySelectionsCo)</td>
@@ -416,7 +416,7 @@ The following example shows a discount applied to a check.
 
     <tr>
       <td>[(1)](#co-d1e379F363EEC9-2046-412B-BBF1-890075ECA926)</td>
-      <td>The `appliedDiscounts` value in the `Check` object contains `AppliedDiscount`objects for each discount that you apply to the check. Specify the GUID for each discount. For information about getting the GUID for a discount, see [Retrieving available discounts](apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving).</td>
+      <td>The `appliedDiscounts` value in the `Check` object contains `AppliedDiscount` objects for each discount that you apply to the check. Specify the GUID for each discount. For information about getting the GUID for a discount, see [Retrieving available discounts](apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving).</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e381F363EEC9-2046-412B-BBF1-890075ECA926)</td>
@@ -900,7 +900,7 @@ For example, the following order contains a single menu item selection for three
     </tr>
     <tr>
       <td>[(3)](#co-d1e23172AAD0504-D23B-47FA-B191-CCDA17A4B028)</td>
-      <td>The GUID for a BOGO discount that is configured for your restaurant. You apply BOGO discounts in the `appliedDiscounts` value for the `Check`object.</td>
+      <td>The GUID for a BOGO discount that is configured for your restaurant. You apply BOGO discounts in the `appliedDiscounts` value for the `Check` object.</td>
     </tr>
 In the returned order information, there are two `MenuItemSelection` objects.
 
@@ -1013,7 +1013,7 @@ The following example shows the return data for an order that includes a BOGO di
     </tr>
     <tr>
       <td>[(2)](#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The GUID that the Toast POS system assigns to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount.<br/>In this example, the first `MenuItemSelection` object includes the items that triggered the BOGO discount. The items that trigger a BOGO discount are the "buy" items.</td>
+      <td>The GUID that the Toast POS system assigns to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount. <br/> In this example, the first `MenuItemSelection` object includes the items that triggered the BOGO discount. The items that trigger a BOGO discount are the "buy" items.</td>
     </tr>
     <tr>
       <td>[(3)](#co-d1e2363FB6A5D14-9F96-466C-8541-5687523E637B)</td>
@@ -1021,15 +1021,15 @@ The following example shows the return data for an order that includes a BOGO di
     </tr>
     <tr>
       <td>[(4)](#co-d1e2365FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object. This object includes the "buy" item for the BOGO discount.<br/>The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `2` in this `MenuItemSelection` object includes the "buy" item and another item that is not affected by the BOGO discount at all.</td>
+      <td>The quantity of the menu items in this `MenuItemSelection` object. This object includes the "buy" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `2` in this `MenuItemSelection` object includes the "buy" item and another item that is not affected by the BOGO discount at all.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e2367FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>No discounts are applied to the `MenuItemSelection`for the "buy" item in the BOGO discount.</td>
+      <td>No discounts are applied to the `MenuItemSelection` for the "buy" item in the BOGO discount.</td>
     </tr>
     <tr>
       <td>[(6)](#co-d1e2370FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The GUID that the Toast platform assigns to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount.<br/>In this example, the second `MenuItemSelection`object includes the items that the BOGO discount applies to. The items that are reduced in price by a BOGO discount are the "get" items.</td>
+      <td>The GUID that the Toast platform assigns to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount. <br/> In this example, the second `MenuItemSelection` object includes the items that the BOGO discount applies to. The items that are reduced in price by a BOGO discount are the "get" items.</td>
     </tr>
     <tr>
       <td>[(7)](#co-d1e2372FB6A5D14-9F96-466C-8541-5687523E637B)</td>
@@ -1037,7 +1037,7 @@ The following example shows the return data for an order that includes a BOGO di
     </tr>
     <tr>
       <td>[(8)](#co-d1e2374FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object. This object includes the "get" item for the BOGO discount.<br/>The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `1` in this `MenuItemSelection` object includes the "get" item.</td>
+      <td>The quantity of the menu items in this `MenuItemSelection` object. This object includes the "get" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `1` in this `MenuItemSelection` object includes the "get" item.</td>
     </tr>
     <tr>
       <td>[(9)](#co-d1e2376FB6A5D14-9F96-466C-8541-5687523E637B)</td>
@@ -1235,7 +1235,7 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
 
     <tr>
       <td>[(1)](#co-d1e2717531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>You apply a combo discount in the `appliedDiscounts`value of the `Check` object in an order. The response data for a check with a combo discount includes the discount information in the `appliedDiscounts` value for the `Check`.</td>
+      <td>You apply a combo discount in the `appliedDiscounts` value of the `Check` object in an order. The response data for a check with a combo discount includes the discount information in the `appliedDiscounts` value for the `Check`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e2719531BD268-895B-4950-9F99-86F6459D75C7)</td>
@@ -1263,7 +1263,7 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
     </tr>
     <tr>
       <td>[(8)](#co-d1e2732531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object.<br/>The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `1` in this `MenuItemSelection` object is not included in the combo discount.</td>
+      <td>The quantity of the menu items in this `MenuItemSelection` object. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `1` in this `MenuItemSelection` object is not included in the combo discount.</td>
     </tr>
     <tr>
       <td>[(9)](#co-d1e2734531BD268-895B-4950-9F99-86F6459D75C7)</td>
@@ -1275,7 +1275,7 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
     </tr>
     <tr>
       <td>[(11)](#co-d1e2738531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object.<br/>The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `2` in this `MenuItemSelection` object includes the two cups of soup that are configured in the example combo discount.</td>
+      <td>The quantity of the menu items in this `MenuItemSelection` object. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `2` in this `MenuItemSelection` object includes the two cups of soup that are configured in the example combo discount.</td>
     </tr>
     <tr>
       <td>[(12)](#co-d1e2741531BD268-895B-4950-9F99-86F6459D75C7)</td>

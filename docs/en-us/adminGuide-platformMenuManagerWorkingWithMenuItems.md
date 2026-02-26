@@ -1249,15 +1249,15 @@ It is important to note that not all pricing strategies are supported on all Toa
     </tr>
     <tr>
       <td>Menu-specific price</td>
-      <td>With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu.<br/>Menu-specific prices require that the same menu item has been added to multiple menus. Currently, that type of configuration can only be created in the classic menu details pages in Toast Web. For instructions on how to add the same menu item to multiple menus, see this [Toast Central article](https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers).</td>
+      <td>With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu. <br/> Menu-specific prices require that the same menu item has been added to multiple menus. Currently, that type of configuration can only be created in the classic menu details pages in Toast Web. For instructions on how to add the same menu item to multiple menus, see this [Toast Central article](https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers).</td>
       <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
-      <td>Classic menu item details page<br/>You can update existing menu-specific prices in the menu manager Items view *after* you have defined them on the classic menu item details page.</td>
+      <td>Classic menu item details page <br/> You can update existing menu-specific prices in the menu manager Items view *after* you have defined them on the classic menu item details page.</td>
     </tr>
     <tr>
       <td>Location-specific price</td>
       <td>With location-specific pricing, the price of a menu item changes based on the location it was ordered from, for example, a menu item that costs $15 when it is ordered from the Boston location and $17 when it is ordered from the New York location.</td>
       <td><ul><li>Toast POS app</li><li>Toast Kiosk</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
-      <td>Classic menu item details page<br/>You can update existing location-specific prices in the menu manager Items view *after* you have defined them on the classic menu item details page.</td>
+      <td>Classic menu item details page <br/> You can update existing location-specific prices in the menu manager Items view *after* you have defined them on the classic menu item details page.</td>
     </tr>
     <tr>
       <td>Time price</td>

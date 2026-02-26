@@ -104,7 +104,7 @@ The following example shows the response for a `DELETE` request to archive an em
 
     <tr>
       <td>[(1)](#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
-      <td>When you archive an employee, the `deleted`value is set to `true`.</td>
+      <td>When you archive an employee, the `deleted` value is set to `true`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>

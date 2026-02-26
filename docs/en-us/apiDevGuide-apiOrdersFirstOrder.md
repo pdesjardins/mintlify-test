@@ -134,11 +134,12 @@ All requests to the Toast platform APIs require the following headers:
     </tr>
     <tr>
       <td>`Authorization`</td>
-      <td>The access token in the format *`Bearer {accessToken}`*.</td>
+      <td>The access token in the format *`Bearer
+              {accessToken}`*.</td>
     </tr>
     <tr>
       <td>`Content-Type`</td>
-      <td>Required for `POST`requests. Must be set to `application/json`.</td>
+      <td>Required for `POST` requests. Must be set to `application/json`.</td>
     </tr>
   </tbody>
 </table>
@@ -664,7 +665,8 @@ When submitting orders, you may encounter the following HTTP status codes:
     <tr>
       <td>415</td>
       <td>Unsupported Media Type</td>
-      <td>The request does not include the `Content-Type: application/json` header.</td>
+      <td>The request does not include the `Content-Type:
+            application/json` header.</td>
     </tr>
     <tr>
       <td>500</td>
@@ -688,7 +690,8 @@ The following table describes common error messages and their resolutions:
   </thead>
   <tbody>
     <tr>
-      <td>`Could not parse as Order object`</td>
+      <td>`Could not parse as Order
+              object`</td>
       <td>Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</td>
     </tr>
     <tr>
@@ -696,11 +699,13 @@ The following table describes common error messages and their resolutions:
       <td>The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the `menuGroups` array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the `menuGroups` array.</td>
     </tr>
     <tr>
-      <td>`Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId`</td>
+      <td>`Referenced entity (type=MenuItem) must
+              contain either a GUID or MultiLocationId`</td>
       <td>A menu item in your request is missing its GUID. Ensure every `item` object contains a valid `guid` value.</td>
     </tr>
     <tr>
-      <td>`Referenced entity (type=DiningOption) must contain a GUID`</td>
+      <td>`Referenced entity (type=DiningOption) must
+              contain a GUID`</td>
       <td>The `diningOption` object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</td>
     </tr>
   </tbody>

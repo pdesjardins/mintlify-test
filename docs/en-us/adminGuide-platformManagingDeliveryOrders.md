@@ -92,7 +92,7 @@ When your restaurant fulfills a guest delivery order using Toast Delivery Servic
     </tr>
     <tr>
       <td>DELIVERY CANCELLED </td>
-      <td>The delivery person who was previously assigned to pick up this order has cancelled the pick up.<br/>Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </td>
+      <td>The delivery person who was previously assigned to pick up this order has cancelled the pick up. <br/> Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </td>
     </tr>
     <tr>
       <td>UNDELIVERABLE</td>

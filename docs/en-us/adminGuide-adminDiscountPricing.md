@@ -179,11 +179,11 @@ The discount in the example is applied as follows, depending on the configuratio
   <tbody>
     <tr>
       <td>Consolidate discounts: Off</td>
-      <td>The fixed currency discount is applied to the total of all items:<br/>2 Sodas, $10 - $2 Discount = $8</td>
+      <td>The fixed currency discount is applied to the total of all items: <br/> 2 Sodas, $10 - $2 Discount = $8</td>
     </tr>
     <tr>
       <td>Consolidate discounts: On</td>
-      <td>The fixed currency discount is applied to each quantity of one item:<br/>2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</td>
+      <td>The fixed currency discount is applied to each quantity of one item: <br/> 2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</td>
     </tr>
   </tbody>
 </table>

@@ -52,21 +52,21 @@ When an employee creates a tab name for an order, it is displayed in the areas d
   <tbody>
     <tr>
       <td>Kitchen Display System (KDS)</td>
-      <td>If a ticket has a tab name, the tab name displays on the KDS ticket as shown in the image below.<br/>![Tab name shown on KDS.](https://doc.toasttab.com/doc/media/platformOrdersPiiTabNameKds.png)
+      <td>If a ticket has a tab name, the tab name displays on the KDS ticket as shown in the image below. <br/> ![Tab name shown on KDS.](https://doc.toasttab.com/doc/media/platformOrdersPiiTabNameKds.png)
 
-<br/></td>
+ <br/> </td>
     </tr>
     <tr>
       <td>Receipts</td>
-      <td>Receipts can be configured to display a tab name. In Toast Web navigate to Payments &gt; Checks & receipt setup &gt; Guest receipt setup. If the Show Tab Name setting is set to Show tab name on customer receipts, a ticket's tab name displays on the guest receipt as seen in the image below. ![Tab name shown on receipt.](https://doc.toasttab.com/doc/media/platformOrdersPiiReceiptTabName.png)
+      <td>Receipts can be configured to display a tab name. In Toast Web navigate to Payments > Checks & receipt setup > Guest receipt setup. If the Show Tab Name setting is set to Show tab name on customer receipts, a ticket's tab name displays on the guest receipt as seen in the image below. ![Tab name shown on receipt.](https://doc.toasttab.com/doc/media/platformOrdersPiiReceiptTabName.png)
 
 </td>
     </tr>
     <tr>
       <td>Order detail summary report</td>
-      <td>A ticket's tab name shows in the Order details summary report as seen in image below. From Toast Web navigate to Reports &gt; Sales &gt; Order details. The tab name field only shows if a tab name was used on the order.<br/>![Tab name shown on the Order Details report.](https://doc.toasttab.com/doc/media/platformOrdersPiiOrderDetailsReport.png)
+      <td>A ticket's tab name shows in the Order details summary report as seen in image below. From Toast Web navigate to Reports > Sales > Order details. The tab name field only shows if a tab name was used on the order. <br/> ![Tab name shown on the Order Details report.](https://doc.toasttab.com/doc/media/platformOrdersPiiOrderDetailsReport.png)
 
-<br/></td>
+ <br/> </td>
     </tr>
   </tbody>
 </table>

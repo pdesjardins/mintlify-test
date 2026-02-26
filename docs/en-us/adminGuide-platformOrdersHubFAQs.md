@@ -25,7 +25,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td>**A:**</td>
-      <td>The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:<ul><li>You have selected Delivery as a dining option in the Takeout/deliverypage in Toast Web. From Toast Web, choose Takeout & delivery &gt; Takeout/delivery to open the Takeout/delivery page.</li><li>You have turned on the Deliveryor Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.</li></ul></td>
+      <td>The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:<ul><li>You have selected Delivery as a dining option in the Takeout/delivery page in Toast Web. From Toast Web, choose Takeout & delivery > Takeout/delivery to open the Takeout/delivery page.</li><li>You have turned on the Delivery or Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -39,7 +39,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td>**A:**</td>
-      <td>Yes, you can use the Orders Hub screen in dark mode. To enable dark mode on your device, navigate to the Setup screen. Tap on Device Setup &gt; POS Display Theme. Select Dark mode and then tap the Savebutton.</td>
+      <td>Yes, you can use the Orders Hub screen in dark mode. To enable dark mode on your device, navigate to the Setup screen. Tap on Device Setup > POS Display Theme. Select Dark mode and then tap the Save button.</td>
     </tr>
   </tbody>
 </table>
@@ -117,7 +117,8 @@ codeExamples: 0
     </tr>
     <tr>
       <td>**A:**</td>
-      <td>To use the Manage Online Orders button on the Orders Hub screen, you must have the 3.29 Throttle Online Orders permission. If you do not have the 3.29 Throttle Online Orders permission, you will encounter an error message when trying to access the Manage Online Orders button on the Orders Hub screen. The error message displays: `Manager Passcode or Swipe Card Required`. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).</td>
+      <td>To use the Manage Online Orders button on the Orders Hub screen, you must have the 3.29 Throttle Online Orders permission. If you do not have the 3.29 Throttle Online Orders permission, you will encounter an error message when trying to access the Manage Online Orders button on the Orders Hub screen. The error message displays: `Manager
+            Passcode or Swipe Card Required`. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).</td>
     </tr>
   </tbody>
 </table>

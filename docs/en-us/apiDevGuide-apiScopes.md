@@ -56,7 +56,7 @@ The following table describes the scopes that determine what actions your Toast 
       <td>Kitchen</td>
       <td>Read</td>
       <td>`kitchen:read`</td>
-      <td>Allows reading from the[kitchen API](https://doc.toasttab.com/openapi/kitchen/overview/).</td>
+      <td>Allows reading from the[ kitchen API](https://doc.toasttab.com/openapi/kitchen/overview/).</td>
     </tr>
     <tr>
       <td>Labor</td>
@@ -124,13 +124,13 @@ The following table describes the scopes that determine what actions your Toast 
       <td>Orders</td>
       <td>Read</td>
       <td>`orders:read`</td>
-      <td>Allows reading from the [orders API](https://doc.toasttab.com/openapi/orders/overview/) with the exception of guest information.<br/>If your API client creates orders, then to read orders, it must have both the `orders:read` scope and the `orders.channel:read` scope.</td>
+      <td>Allows reading from the [orders API](https://doc.toasttab.com/openapi/orders/overview/) with the exception of guest information. <br/> If your API client creates orders, then to read orders, it must have both the `orders:read` scope and the `orders.channel:read` scope.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Read</td>
       <td>`orders.channel:read`</td>
-      <td>Allows API clients that submit orders to the Toast platform to read from the [orders API](https://doc.toasttab.com/openapi/orders/overview/).<br/>To read orders, the API client must have both the `orders:read` scope and the `orders.channel:read` scope.<br/>API clients that have the `orders.channel:read` scope can only read the orders that they submitted. They cannot read orders from any other source.</td>
+      <td>Allows API clients that submit orders to the Toast platform to read from the [orders API](https://doc.toasttab.com/openapi/orders/overview/). <br/> To read orders, the API client must have both the `orders:read` scope and the `orders.channel:read` scope. <br/> API clients that have the `orders.channel:read` scope can only read the orders that they submitted. They cannot read orders from any other source.</td>
     </tr>
     <tr>
       <td>Orders</td>
@@ -187,10 +187,10 @@ The following table describes the scopes that determine what actions your Toast 
       <td>Allows reading a restaurant's packaging preferences configuration using the [packaging configuration API](https://doc.toasttab.com/openapi/packaging/overview/). </td>
     </tr>
     <tr>
-      <td>Restaurant availability<br/>Restaurants</td>
+      <td>Restaurant availability <br/> Restaurants</td>
       <td>Read</td>
       <td>`restaurants:read`</td>
-      <td>Allows reading from the [restaurant availability API](https://doc.toasttab.com/openapi/rx.availability.service/overview/).<br/>Allows reading from the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/).</td>
+      <td>Allows reading from the [restaurant availability API](https://doc.toasttab.com/openapi/rx.availability.service/overview/). <br/> Allows reading from the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/).</td>
     </tr>
     <tr>
       <td>Stock</td>

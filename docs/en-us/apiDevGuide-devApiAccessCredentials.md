@@ -46,19 +46,19 @@ There are three levels of access:
   </thead>
   <tbody>
     <tr>
-      <td>8.4 Manage Integrationspermission</td>
+      <td>8.4 Manage Integrations permission</td>
       <td>You created the credentials.</td>
       <td>You did not create the credentials.</td>
     </tr>
     <tr>
-      <td>You have the 8.4 Manage Integrationspermission enabled at every location linked to the credentials in the management group.</td>
-      <td>Full access <br/>Allows for editing and reading of credentials.</td>
-      <td>Full access<br/>Allows for editing and reading of credentials.</td>
+      <td>You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
+      <td>Full access  <br/> Allows for editing and reading of credentials.</td>
+      <td>Full access <br/> Allows for editing and reading of credentials.</td>
     </tr>
     <tr>
       <td>You do *not* have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
-      <td>Read-only<br/>Allows for reading of credentials.</td>
-      <td>Locked<br/>Does not allow for editing or reading of credentials.</td>
+      <td>Read-only <br/> Allows for reading of credentials.</td>
+      <td>Locked <br/> Does not allow for editing or reading of credentials.</td>
     </tr>
   </tbody>
 </table>

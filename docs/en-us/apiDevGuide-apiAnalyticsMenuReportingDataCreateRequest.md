@@ -213,7 +213,7 @@ The following example shows the message body for creating a menu reporting data 
     </tr>
     <tr>
       <td>[(4)](#co-d1e5996F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the menu reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the menu reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e5998F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>

@@ -39,11 +39,11 @@ Attributes in the `menus_updated` event's payload include:
   <tbody>
     <tr>
       <td>`restaurantGuid`</td>
-      <td>A unique Toast POS identifier for the restaurant whose menu has changed.<br/>data type: string<br/>format:uuid</td>
+      <td>A unique Toast POS identifier for the restaurant whose menu has changed. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
       <td>`publishedDate`</td>
-      <td>The most recent date and time that the menus for this restaurant were published. This timestamp is in the UTC time zone (not the restaurant's local timezone). The date and time are expressed in ISO 8601 format.<br/>data type: string</td>
+      <td>The most recent date and time that the menus for this restaurant were published. This timestamp is in the UTC time zone (not the restaurant's local timezone). The date and time are expressed in ISO 8601 format. <br/> data type: string</td>
     </tr>
   </tbody>
 </table>

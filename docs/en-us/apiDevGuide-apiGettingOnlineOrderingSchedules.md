@@ -181,7 +181,7 @@ The following example shows a restaurant location's online ordering schedule for
 
     <tr>
       <td>[(1)](#co-d1e1163EA94E75-C09B-4686-82C8-0754D4415861)</td>
-      <td>The [diningOptionBehavior](apiDevGuide-apiOrderTypeDetails#apiOrdersDiningOptionTypes)the online ordering schedule is returned for.</td>
+      <td>The [diningOptionBehavior](apiDevGuide-apiOrderTypeDetails#apiOrdersDiningOptionTypes) the online ordering schedule is returned for.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e1183EA94E75-C09B-4686-82C8-0754D4415861)</td>

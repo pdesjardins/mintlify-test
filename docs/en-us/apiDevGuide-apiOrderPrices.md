@@ -60,7 +60,7 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 
     <tr>
       <td>[(1)](#co-d1e193C93B886C-2601-45C3-B008-CB13B0107A92)</td>
-      <td>The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery.<br/>For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</td>
+      <td>The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery. <br/> For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e195C93B886C-2601-45C3-B008-CB13B0107A92)</td>
@@ -415,7 +415,7 @@ The following example shows an `appliedServiceCharges`value that applies an open
 
     <tr>
       <td>[(1)](#apiServiceChargeAmount)</td>
-      <td>You include `chargeAmount` for `OPEN`service charges. Do not include `chargeAmount` for `FIXED` or `PERCENT` service charges.</td>
+      <td>You include `chargeAmount` for `OPEN` service charges. Do not include `chargeAmount` for `FIXED` or `PERCENT` service charges.</td>
     </tr>
 ### Identifying service charge types
 

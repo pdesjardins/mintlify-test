@@ -165,7 +165,7 @@ The following is an example of a successful configure search response.
 
     <tr>
       <td>[(1)](#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA)</td>
-      <td>The `value` attribute must be `TEXT`if your integration supports alpha-numeric room numbers.</td>
+      <td>The `value` attribute must be `TEXT` if your integration supports alpha-numeric room numbers.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283)</td>

@@ -164,7 +164,7 @@ From the Online ordering hours section you can choose to allow guests to place o
   <tbody>
     <tr>
       <td>Closing time</td>
-      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 10:00 PM.</li></ul><br/>A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM. 
+      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 10:00 PM.</li></ul> <br/> A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM. 
 
 > **Note**
 > 
@@ -175,7 +175,7 @@ From the Online ordering hours section you can choose to allow guests to place o
     </tr>
     <tr>
       <td>Closing time minus quote time</td>
-      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 9:30 PM.</li></ul><br/>A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM. <br/>For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</td>
+      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 9:30 PM.</li></ul> <br/> A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM.  <br/> For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</td>
     </tr>
   </tbody>
 </table>

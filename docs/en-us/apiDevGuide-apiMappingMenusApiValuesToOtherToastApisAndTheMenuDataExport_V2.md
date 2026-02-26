@@ -144,7 +144,7 @@ This section provides a mapping that shows the configuration options for menus i
     <tr>
       <td>Times available</td>
       <td>availability</td>
-      <td>startTime<br/>endTime<br/>startTimeHHmm<br/>endTimeHHmm<br/>startTimeLocalStandardTime<br/>endTimeLocalStandardTime<br/>startTimeHHmmLocalStandardTime<br/>endTimeHHmmLocalStandardTime</td>
+      <td>startTime <br/> endTime <br/> startTimeHHmm <br/> endTimeHHmm <br/> startTimeLocalStandardTime <br/> endTimeLocalStandardTime <br/> startTimeHHmmLocalStandardTime <br/> endTimeHHmmLocalStandardTime</td>
       <td>-</td>
     </tr>
     <tr>
@@ -156,7 +156,7 @@ This section provides a mapping that shows the configuration options for menus i
     <tr>
       <td>Days available</td>
       <td>availability</td>
-      <td>daysAvailableBits<br/>daysAvailableString</td>
+      <td>daysAvailableBits <br/> daysAvailableString</td>
       <td>-</td>
     </tr>
     <tr>
@@ -377,43 +377,43 @@ This section provides a mapping that shows the configuration options for menu it
     </tr>
     <tr>
       <td>Price Level</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Pricing Strategy</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Base Price</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Size Prices</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Menu Prices</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Time Prices</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Location Prices</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>
@@ -599,7 +599,7 @@ This section provides a mapping that shows the configuration options for modifie
     </tr>
     <tr>
       <td>Select where pricing is set</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>pricingMode</td>
       <td>-</td>
     </tr>
@@ -617,32 +617,32 @@ This section provides a mapping that shows the configuration options for modifie
     </tr>
     <tr>
       <td>Select pricing for all modifiers</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Fixed Modifier Price</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Sequence Price</td>
-      <td>pricingStrategy<br/>pricingRules</td>
-      <td>pricingStrategy<br/>pricingStrategyRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
+      <td>pricingStrategy <br/> pricingStrategyRules</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Size Price</td>
-      <td>pricingStrategy<br/>pricingRules</td>
-      <td>pricingStrategy<br/>pricingStrategyRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
+      <td>pricingStrategy <br/> pricingStrategyRules</td>
       <td>-</td>
     </tr>
     <tr>
       <td>Size/Sequence Price</td>
-      <td>pricingStrategy<br/>pricingRules</td>
-      <td>pricingStrategy<br/>pricingStrategyRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
+      <td>pricingStrategy <br/> pricingStrategyRules</td>
       <td>-</td>
     </tr>
     <tr>
@@ -792,7 +792,7 @@ This section provides a mapping that shows the configuration options for modifie
     </tr>
     <tr>
       <td>Price</td>
-      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy <br/> pricingRules</td>
       <td>price</td>
       <td>-</td>
     </tr>

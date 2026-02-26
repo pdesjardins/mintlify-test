@@ -86,7 +86,7 @@ The following example shows an array of `Payment` objects to add payments to a c
     </tr>
     <tr>
       <td>[(2)](#co-d1e1622C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
-      <td>The `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint only supports adding credit card payments. This value must be `CREDIT`.</td>
+      <td>The `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments` endpoint only supports adding credit card payments. This value must be `CREDIT`.</td>
     </tr>
     <tr>
       <td>[(3)](#co-d1e1642C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>

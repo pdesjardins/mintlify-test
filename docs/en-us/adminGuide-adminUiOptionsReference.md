@@ -41,7 +41,7 @@ The following table provides information about the settings of the Login screen 
     </tr>
     <tr>
       <td>Mask passcode</td>
-      <td>This setting allows you to apply passcode masking.<ul><li>On<br/>This option is enabled by default to activate passcode masking on all Toast POS devices. Asterisks (*) appear instead of the typed digits when employees enter their passcodes.</li><li>Off<br/>This option disables passcode masking.</li></ul><br/>You can also allow employees to access Toast POS devices that have a magnetic card reader by swiping a card with a magnetic stripe. On Toast POS devices, you associate a card with an employee passcode by selecting Manager Activities &gt; Register Swipe Card.</td>
+      <td>This setting allows you to apply passcode masking.<ul><li>On <br/> This option is enabled by default to activate passcode masking on all Toast POS devices. Asterisks (*) appear instead of the typed digits when employees enter their passcodes.</li><li>Off <br/> This option disables passcode masking.</li></ul> <br/> You can also allow employees to access Toast POS devices that have a magnetic card reader by swiping a card with a magnetic stripe. On Toast POS devices, you associate a card with an employee passcode by selecting Manager Activities > Register Swipe Card.</td>
     </tr>
     <tr>
       <td>Additional text</td>
@@ -75,23 +75,23 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr>
       <td>Additional Modifier Groups</td>
-      <td>This setting lists modifier groups that you can include on the order screen for every menu item. The modifier options that employees select from these modifier groups appear on kitchen tickets to help coordinate serving, packaging, plating, and preparing items to each guest's specifications.<br/>To include a button for an additional modifier group, select the Enabled checkbox.<br/>In the example, all of the additional modifier groups are enabled. A button appears for each enabled modifier group on the right, or bottom, of the order screen after the menu-related modifier groups for the item being ordered.![A Table Service order screen for an order of chicken wings with modifier buttons for Seat Number, Dining Option, Course, Split, and Special Request after the menu-related size and sauce modifier buttons.](https://doc.toasttab.com/doc/media/order_in_progress_addl_modifiers.png)
+      <td>This setting lists modifier groups that you can include on the order screen for every menu item. The modifier options that employees select from these modifier groups appear on kitchen tickets to help coordinate serving, packaging, plating, and preparing items to each guest's specifications. <br/> To include a button for an additional modifier group, select the Enabled checkbox. <br/> In the example, all of the additional modifier groups are enabled. A button appears for each enabled modifier group on the right, or bottom, of the order screen after the menu-related modifier groups for the item being ordered.![A Table Service order screen for an order of chicken wings with modifier buttons for Seat Number, Dining Option, Course, Split, and Special Request after the menu-related size and sauce modifier buttons.](https://doc.toasttab.com/doc/media/order_in_progress_addl_modifiers.png)
 
-<br/>If an ordered item does not have any associated menu-related modifier groups, employees select the ordered item to access buttons for additional modifier groups.<br/>You can also change the sequence in which the additional modifier buttons appear on order screens. To move a button to a different location, click and drag the reorder icon next to the name of the additional modifier group.<ul><li>Seat number (Table Service Only)
-
-> **Note**
-> 
-> To use this option, you must also set [Party size](adminGuide-adminUiOptionsReference#configPartySize) to Always ask before creating a new order.
-
-
-<br/>This option adds the Seat Number modifier group for orders taken in Table Service mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear.<br/>If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page, set [Item Sorting Priority](adminGuide-adminKitchenDiningRoomReference#configItemSortingPriority) to By seat number.</li><li>Seat number (Quick Order Only)
+ <br/> If an ordered item does not have any associated menu-related modifier groups, employees select the ordered item to access buttons for additional modifier groups. <br/> You can also change the sequence in which the additional modifier buttons appear on order screens. To move a button to a different location, click and drag the reorder icon next to the name of the additional modifier group.<ul><li>Seat number (Table Service Only)
 
 > **Note**
 > 
 > To use this option, you must also set [Party size](adminGuide-adminUiOptionsReference#configPartySize) to Always ask before creating a new order.
 
 
-<br/>This option adds the Seat Number modifier group for orders taken in Quick Order mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear.<br/>If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page, set [Item Sorting Priority](adminGuide-adminKitchenDiningRoomReference#configItemSortingPriority) to By seat number.</li><li>Dining option<br/>This option adds the Dining Option modifier group. When an employee selects Dining Option, buttons for Dine In, Take Out, Delivery, and so on appear. You define the [dining options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) that your restaurant uses on the Kitchen &gt; Dining options &gt; Dining options page.
+ <br/> This option adds the Seat Number modifier group for orders taken in Table Service mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear. <br/> If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup page, set [Item Sorting Priority](adminGuide-adminKitchenDiningRoomReference#configItemSortingPriority) to By seat number.</li><li>Seat number (Quick Order Only)
+
+> **Note**
+> 
+> To use this option, you must also set [Party size](adminGuide-adminUiOptionsReference#configPartySize) to Always ask before creating a new order.
+
+
+ <br/> This option adds the Seat Number modifier group for orders taken in Quick Order mode. For parties with more than one guest, when an employee selects Seat Number, buttons for Share, 1, 2, and so on appear. <br/> If you enable this option, you can require employees to specify seat numbers by selecting the Required checkbox. You can also use the seat number to sort items on kitchen tickets: on the Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup page, set [Item Sorting Priority](adminGuide-adminKitchenDiningRoomReference#configItemSortingPriority) to By seat number.</li><li>Dining option <br/> This option adds the Dining Option modifier group. When an employee selects Dining Option, buttons for Dine In, Take Out, Delivery, and so on appear. You define the [dining options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) that your restaurant uses on the Kitchen > Dining options > Dining options page.
 
 > **Note**
 > 
@@ -101,16 +101,16 @@ The following table provides information about the settings of the Order screen 
 
 ![A kitchen ticket with Dine In printed in large font at the top, a course of Dessert in the center, and 1 sandwich with Take Out, in brackets and italics, underneath.](https://doc.toasttab.com/doc/media/dine_in_vs_take_out.png)
 
-<br/>If you define rules to [reroute orders based on the dining option](adminGuide-adminAboutItemRoutingRules#adminReroutingOrdersBasedOnDiningOption) specified, this additional modifier only affects the appearance of the item on the ticket. It does not affect how the Toast platform routes the order.</li><li>Course<br/>This option adds the Coursemodifier group. When an employee selects Course, buttons for your courses (Apps, Main, Dessert, and so on) appear.<br/>You add [courses](adminGuide-adminKitchenDiningRoomReference#configCourses) on the Kitchen &gt; Pacing &gt; Coursespage, and enable [course pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) on the Kitchen &gt; Pacing &gt; Meal pacing page.</li><li>Split<br/>This option adds the Splitmodifier group. When an employee selects Split, buttons for For 2, For 3, For 4, and so on appear.
+ <br/> If you define rules to [reroute orders based on the dining option](adminGuide-adminAboutItemRoutingRules#adminReroutingOrdersBasedOnDiningOption) specified, this additional modifier only affects the appearance of the item on the ticket. It does not affect how the Toast platform routes the order.</li><li>Course <br/> This option adds the Course modifier group. When an employee selects Course, buttons for your courses (Apps, Main, Dessert, and so on) appear. <br/> You add [courses](adminGuide-adminKitchenDiningRoomReference#configCourses) on the Kitchen > Pacing > Courses page, and enable [course pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) on the Kitchen > Pacing > Meal pacing page.</li><li>Split <br/> This option adds the Split modifier group. When an employee selects Split, buttons for For 2, For 3, For 4, and so on appear.
 
 > **Note**
 > 
-> The button for this modifier appears on the right (or bottom) of the order screen to identify how to plate an item for service. The Splitbutton that is available on the left (or top) of the order screen applies to the order as a whole, and allows employees to divide a check for payment by multiple guests.
+> The button for this modifier appears on the right (or bottom) of the order screen to identify how to plate an item for service. The Split button that is available on the left (or top) of the order screen applies to the order as a whole, and allows employees to divide a check for payment by multiple guests.
 
 
 ![An order screen showing both of the Split buttons.](https://doc.toasttab.com/doc/media/split_check_vs_split_modifiers.png)
 
-</li><li>Special request<br/>This option is enabled by default to add the Special Request modifier group. When an employee selects Special Request, the New Request dialog prompts for the name and optional additional cost of the requested modification.</li></ul></td>
+</li><li>Special request <br/> This option is enabled by default to add the Special Request modifier group. When an employee selects Special Request, the New Request dialog prompts for the name and optional additional cost of the requested modification.</li></ul></td>
     </tr>
     <tr>
       <td>Special request price entry</td>
@@ -125,7 +125,7 @@ When enabled, a price can be specified for each Special Request additional modif
     </tr>
     <tr>
       <td>Show Send, Stay, and Hold buttons</td>
-      <td>This setting only applies if [Orders send only after check is paid](adminGuide-adminUiOptionsReference#configOrdersSendOnlyAfterPaid) is set to Off.<br/>This setting lists buttons that you can use on order screens. To include a button for one of these actions, select the checkbox next to the action name.<ul><li>Send<br/>This option allows employees to send ordered items to the kitchen, and begin an order for another guest, without collecting payment for the first order.</li><li>Stay<br/>This option allows employees to send a partial order to the kitchen, and continue to enter additional items to the same order for the same group of guests. For example, employees can use this option to send the drink order for a large party and then immediately begin taking orders for additional items.</li><li>Hold<br/>This option allows employees to save all ordered items without sending them to the kitchen or collecting payment. To return to a held order, employees select All checks on the top right and select the Open tab.</li></ul>
+      <td>This setting only applies if [Orders send only after check is paid](adminGuide-adminUiOptionsReference#configOrdersSendOnlyAfterPaid) is set to Off. <br/> This setting lists buttons that you can use on order screens. To include a button for one of these actions, select the checkbox next to the action name.<ul><li>Send <br/> This option allows employees to send ordered items to the kitchen, and begin an order for another guest, without collecting payment for the first order.</li><li>Stay <br/> This option allows employees to send a partial order to the kitchen, and continue to enter additional items to the same order for the same group of guests. For example, employees can use this option to send the drink order for a large party and then immediately begin taking orders for additional items.</li><li>Hold <br/> This option allows employees to save all ordered items without sending them to the kitchen or collecting payment. To return to a held order, employees select All checks on the top right and select the Open tab.</li></ul>
 
 > **Note**
 > 
@@ -136,7 +136,7 @@ When enabled, a price can be specified for each Special Request additional modif
     </tr>
     <tr>
       <td>Valid SSIDs</td>
-      <td>This setting identifies the valid service set identifier (SSID) name of your wireless local area network (WLAN). When you use this setting to set one or more SSIDs, Toast POS devices will only connect to the internet using the specified network(s).<br/>To add an SSID, select Add SSID and enter the name of the network in the entry field that appears.
+      <td>This setting identifies the valid service set identifier (SSID) name of your wireless local area network (WLAN). When you use this setting to set one or more SSIDs, Toast POS devices will only connect to the internet using the specified network(s). <br/> To add an SSID, select Add SSID and enter the name of the network in the entry field that appears.
 
 > **Note**
 > 
@@ -147,18 +147,18 @@ When enabled, a price can be specified for each Special Request additional modif
     </tr>
     <tr>
       <td>Orders send only after check is paid</td>
-      <td>This setting determines whether payment is required before orders are sent to the kitchen for fulfillment.<ul><li>On<br/>This option only shows the Pay $ button. Employees must receive payment to send tickets to the kitchen. Applies to all order screens.
+      <td>This setting determines whether payment is required before orders are sent to the kitchen for fulfillment.<ul><li>On <br/> This option only shows the Pay $ button. Employees must receive payment to send tickets to the kitchen. Applies to all order screens.
 
 > **Note**
 > 
-> When employees specify a [dining option](adminGuide-adminKitchenDiningRoomReference#configDiningOptions)that has takeout or delivery as a dining behavior the following functions are expected: 
+> When employees specify a [dining option](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) that has takeout or delivery as a dining behavior the following functions are expected: 
 <ul><li>The Stay and Send buttons appear on all order modes.</li><li>The Hold button appears on the Table Service screen.</li><li>The Pay ($) button functions as a Send button and sends a ticket to the kitchen even if the order has not been paid. To prevent unpaid checks from firing to the kitchen, employees should use the Stay button instead of Pay ($).</li></ul>
 
-<br/>For example, the employees in a quick service restaurant use hand-held devices to take orders from guests as they walk in. Selecting Onstreamlines the typical in-person ordering and payment process. When a guest calls in a takeout order, however, the employee can send the order to the kitchen and take payment by credit card (by selecting Pay $), or send the order to the kitchen (by selecting Send, which appears for the takeout dining option) and receive cash payment when the guest arrives.</li><li>Off<br/>This option provides the Send, Stay, and Holdbuttons on the Table Service and Delivery screens for all orders, regardless of the selected dining option. It also provides access to the [Show Send, Stay, and Hold buttons](adminGuide-adminUiOptionsReference#configShowSendHoldStay) setting for Quick Order mode.</li></ul></td>
+ <br/> For example, the employees in a quick service restaurant use hand-held devices to take orders from guests as they walk in. Selecting On streamlines the typical in-person ordering and payment process. When a guest calls in a takeout order, however, the employee can send the order to the kitchen and take payment by credit card (by selecting Pay $), or send the order to the kitchen (by selecting Send, which appears for the takeout dining option) and receive cash payment when the guest arrives.</li><li>Off <br/> This option provides the Send, Stay, and Hold buttons on the Table Service and Delivery screens for all orders, regardless of the selected dining option. It also provides access to the [Show Send, Stay, and Hold buttons](adminGuide-adminUiOptionsReference#configShowSendHoldStay) setting for Quick Order mode.</li></ul></td>
     </tr>
     <tr>
       <td>Prompt for tab name? (Quick Order only)</td>
-      <td>This setting determines whether a tab name (or credit card swipe) is required for dine-in orders when employees use quick order mode to send an order to the kitchen. The tab name appears at the top of the kitchen ticket under the order number.<ul><li>On<br/>This option prompts employees for a tab name or card swipe when they select Pay $ for a dine-in order. If Send, Stay, or Holdare enabled by the [Show Send, Stay, and Hold buttons](adminGuide-adminUiOptionsReference#configShowSendHoldStay) option, or Fast Cash is enabled by [Show fast cash button?](adminGuide-adminUiOptionsReference#configFastCashButton), selecting them for a dine-in order also prompts for the tab name.<br/>After you select this option, Device Setup includes an Override Blank Tab Name Prompt setting. You configure this setting to Off on devices that *should* prompt for a tab name, or to On on devices that you do not want to prompt for a tab name.</li><li>Off<br/>This option does not prompt employees for a tab name or card swipe.</li></ul><br/>For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent).</td>
+      <td>This setting determines whether a tab name (or credit card swipe) is required for dine-in orders when employees use quick order mode to send an order to the kitchen. The tab name appears at the top of the kitchen ticket under the order number.<ul><li>On <br/> This option prompts employees for a tab name or card swipe when they select Pay $ for a dine-in order. If Send, Stay, or Hold are enabled by the [Show Send, Stay, and Hold buttons](adminGuide-adminUiOptionsReference#configShowSendHoldStay) option, or Fast Cash is enabled by [Show fast cash button?](adminGuide-adminUiOptionsReference#configFastCashButton), selecting them for a dine-in order also prompts for the tab name. <br/> After you select this option, Device Setup includes an Override Blank Tab Name Prompt setting. You configure this setting to Off on devices that *should* prompt for a tab name, or to On on devices that you do not want to prompt for a tab name.</li><li>Off <br/> This option does not prompt employees for a tab name or card swipe.</li></ul> <br/> For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent).</td>
     </tr>
     <tr>
       <td>Prompt for dining option? (Quick Order only)</td>
@@ -166,25 +166,25 @@ When enabled, a price can be specified for each Special Request additional modif
 
 > **Note**
 > 
-> This setting requires that none of the [dining options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) defined on the Kitchen &gt; Dining options &gt; Dining options is identified as the default.
+> This setting requires that none of the [dining options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) defined on the Kitchen > Dining options > Dining options is identified as the default.
 
 
-<ul><li>On<br/>Select this option to prompt employees for the dining option when they select Pay $in Quick Order mode. If Send, Stay, or Holdare enabled by the [Show Send, Stay, and Hold buttons](adminGuide-adminUiOptionsReference#configShowSendHoldStay) setting, or Fast Cash is enabled by [Show fast cash button?](adminGuide-adminUiOptionsReference#configFastCashButton), selecting them also prompts for the dining option.
+<ul><li>On <br/> Select this option to prompt employees for the dining option when they select Pay $ in Quick Order mode. If Send, Stay, or Hold are enabled by the [Show Send, Stay, and Hold buttons](adminGuide-adminUiOptionsReference#configShowSendHoldStay) setting, or Fast Cash is enabled by [Show fast cash button?](adminGuide-adminUiOptionsReference#configFastCashButton), selecting them also prompts for the dining option.
 
 > **Note**
 > 
-> For this option to take effect, verify that there is no default dining option specified by either the Kitchen &gt; Dining options &gt; Dining options page for your restaurant or Setup &gt; Device Setup &gt; Device Default Dining Option for a specific Toast POS device.
+> For this option to take effect, verify that there is no default dining option specified by either the Kitchen > Dining options > Dining options page for your restaurant or Setup > Device Setup > Device Default Dining Option for a specific Toast POS device.
 
 
-</li><li>Off<br/>Select this option if the kitchen does not need this information on kitchen tickets, or if you have a default dining option defined on the Kitchen &gt; Dining options &gt; Dining options page or on your Toast POS devices.</li></ul><br/>For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent).</td>
+</li><li>Off <br/> Select this option if the kitchen does not need this information on kitchen tickets, or if you have a default dining option defined on the Kitchen > Dining options > Dining options page or on your Toast POS devices.</li></ul> <br/> For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent).</td>
     </tr>
     <tr>
       <td>Show item sent time</td>
-      <td>This setting determines whether the time that the order was sent to the kitchen appears below the item list on the order screen.<ul><li>On<br/>Select this option to include a `Sent HH:MM` message below the item list on order screens. The sent time appears for every ordering mode: Table Service, Quick Order, and Delivery. Including this information with orders gives employees and managers additional insight into the fulfillment time frame, and, as a result, the guest experience.</li><li>Off<br/>Select this option if you do not need this information on order screens.</li></ul></td>
+      <td>This setting determines whether the time that the order was sent to the kitchen appears below the item list on the order screen.<ul><li>On <br/> Select this option to include a `Sent HH:MM` message below the item list on order screens. The sent time appears for every ordering mode: Table Service, Quick Order, and Delivery. Including this information with orders gives employees and managers additional insight into the fulfillment time frame, and, as a result, the guest experience.</li><li>Off <br/> Select this option if you do not need this information on order screens.</li></ul></td>
     </tr>
     <tr>
       <td>Modifier display mode</td>
-      <td>This setting controls how modifiers appear under menu items on order screens and printed and KDS device kitchen tickets.<br/>Illustrations of the order and kitchen tickets for each setting are provided. The example order is for a sandwich item with the following modifiers entered in sequence: required modifiers for meat (chicken) and side (green salad, which has an extra charge and requires the dressing modifier, balsamic), and optional modifiers of bacon (extra charge), lettuce, and tomato. [Add modifier charges to item price](adminGuide-adminUiOptionsReference#configHideModifierPrices) is set to On and [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) is set to Display in order modifiers are listed in their modifier group.<ul><li>Vertical: list one modifier per line<br/>Select this option to show each modifier on a separate line, in either the sequence the employee selects them or in the sequence the modifier groups and modifiers are defined for the menu item, as defined by the Sort Order, [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority), and [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) settings. In kitchens that use KDS devices and set [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) to Enable individual item fulfillment, kitchen employees can individually mark modifiers in the list as fulfilled.![An order screen using vertical to display the example order](https://doc.toasttab.com/doc/media/vertical_order.png)
+      <td>This setting controls how modifiers appear under menu items on order screens and printed and KDS device kitchen tickets. <br/> Illustrations of the order and kitchen tickets for each setting are provided. The example order is for a sandwich item with the following modifiers entered in sequence: required modifiers for meat (chicken) and side (green salad, which has an extra charge and requires the dressing modifier, balsamic), and optional modifiers of bacon (extra charge), lettuce, and tomato. [Add modifier charges to item price](adminGuide-adminUiOptionsReference#configHideModifierPrices) is set to On and [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) is set to Display in order modifiers are listed in their modifier group.<ul><li>Vertical: list one modifier per line <br/> Select this option to show each modifier on a separate line, in either the sequence the employee selects them or in the sequence the modifier groups and modifiers are defined for the menu item, as defined by the Sort Order, [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority), and [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) settings. In kitchens that use KDS devices and set [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) to Enable individual item fulfillment, kitchen employees can individually mark modifiers in the list as fulfilled.![An order screen using vertical to display the example order](https://doc.toasttab.com/doc/media/vertical_order.png)
 
 ![A KDS device using vertical to display the example order.](https://doc.toasttab.com/doc/media/vertical_kds.png)
 
@@ -195,7 +195,7 @@ When enabled, a price can be specified for each Special Request additional modif
 > To use Sort Order to sort how modifiers are ordered on printed and KDS kitchen tickets, you must use either the Vertical or Horizontal options. Using Sort Order to sort modifiers on kitchen tickets is in limited release.
 
 
-</li><li>Horizontal: list all modifiers on one line, comma separated<br/>Select this option to show each modifier in a comma-separated list, in either the sequence the employee selects them or in the sequence the modifier groups and modifiers are defined for the menu item, as defined by the Sort Order, [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority), and [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) settings.![An order screen using horizontal to display the example order.](https://doc.toasttab.com/doc/media/horizontal_order.png)
+</li><li>Horizontal: list all modifiers on one line, comma separated <br/> Select this option to show each modifier in a comma-separated list, in either the sequence the employee selects them or in the sequence the modifier groups and modifiers are defined for the menu item, as defined by the Sort Order, [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority), and [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting) settings.![An order screen using horizontal to display the example order.](https://doc.toasttab.com/doc/media/horizontal_order.png)
 
 ![A KDS device using horizontal to display the example order.](https://doc.toasttab.com/doc/media/horizontal_kds.png)
 
@@ -206,7 +206,7 @@ When enabled, a price can be specified for each Special Request additional modif
 > To use Sort Order to sort how modifiers are ordered on printed and KDS kitchen tickets, you must use either the Vertical or Horizontal options. Using Sort Order to sort modifiers on kitchen tickets is in limited release.
 
 
-</li><li>Legacy<br/>Select this option to show each modifier on a separate line, with required modifier options first, followed by optional modifiers sorted from lowest price (free) to highest. Multiple modifier options with the same price appear in the sequence the employee selects them. In kitchens that use KDS devices and set [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) to Enable individual item fulfillment, kitchen employees can individually mark modifiers in the list as fulfilled.![An order screen using legacy to display the example order.](https://doc.toasttab.com/doc/media/legacy_order.png)
+</li><li>Legacy <br/> Select this option to show each modifier on a separate line, with required modifier options first, followed by optional modifiers sorted from lowest price (free) to highest. Multiple modifier options with the same price appear in the sequence the employee selects them. In kitchens that use KDS devices and set [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) to Enable individual item fulfillment, kitchen employees can individually mark modifiers in the list as fulfilled.![An order screen using legacy to display the example order.](https://doc.toasttab.com/doc/media/legacy_order.png)
 
 ![A KDS device using legacy to display the example order.](https://doc.toasttab.com/doc/media/legacy_kds.png)
 
@@ -217,7 +217,7 @@ When enabled, a price can be specified for each Special Request additional modif
 > The Legacy and Legacy - Flatten options override the [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode), [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting), and [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority) settings.
 
 
-</li><li>Legacy - Flatten<br/>Select this option to show modifiers in a comma-separated list, in the sequence the employee selects them.![An order screen using legacy - flatten to display the example order.](https://doc.toasttab.com/doc/media/legacy_flatten_order.png)
+</li><li>Legacy - Flatten <br/> Select this option to show modifiers in a comma-separated list, in the sequence the employee selects them.![An order screen using legacy - flatten to display the example order.](https://doc.toasttab.com/doc/media/legacy_flatten_order.png)
 
 ![A KDS device using legacy - flatten to display the example order.](https://doc.toasttab.com/doc/media/legacy_flatten_kds.png)
 
@@ -228,15 +228,15 @@ When enabled, a price can be specified for each Special Request additional modif
 > The Legacy and Legacy - Flatten options override the [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode), [Modifier group sorting](adminGuide-adminUiOptionsReference#configModifierGroupSorting), and [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority) settings.
 
 
-</li></ul><br/>For more information about the effects of these options, see [KDS ticket layout](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefLayout).</td>
+</li></ul> <br/> For more information about the effects of these options, see [KDS ticket layout](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefLayout).</td>
     </tr>
     <tr>
       <td>Show default modifiers?</td>
-      <td>This setting determines how default modifiers in a modifier group appear on order screens and printed and KDS device kitchen tickets.<br/>Illustrations of the order and kitchen tickets for each setting are provided. The example order is for a sandwich item that has default modifiers of lettuce, onion, and tomato. The guest in this example asks for lettuce and tomato but no onion. [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to Vertical: list one modifier per line.<ul><li>On<br/>Select this option if you want all selected modifier options to appear below the ordered item. If a modifier is selected it appears, if it is not selected it does not appear.![An order screen that shows all selected modifiers.](https://doc.toasttab.com/doc/media/show_default_yes_order.png)
+      <td>This setting determines how default modifiers in a modifier group appear on order screens and printed and KDS device kitchen tickets. <br/> Illustrations of the order and kitchen tickets for each setting are provided. The example order is for a sandwich item that has default modifiers of lettuce, onion, and tomato. The guest in this example asks for lettuce and tomato but no onion. [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to Vertical: list one modifier per line.<ul><li>On <br/> Select this option if you want all selected modifier options to appear below the ordered item. If a modifier is selected it appears, if it is not selected it does not appear.![An order screen that shows all selected modifiers.](https://doc.toasttab.com/doc/media/show_default_yes_order.png)
 
 ![A KDS device that shows all selected modifiers.](https://doc.toasttab.com/doc/media/show_default_yes_kds.png)
 
-</li><li>Off<br/>Select this option if you only want default modifier options to appear below the ordered item when they are specifically de-selected. A default modifier option that is de-selected appears with `NO` before the name.![An order screen that only shows default modifiers if they are not .](https://doc.toasttab.com/doc/media/show_default_no_order.png)
+</li><li>Off <br/> Select this option if you only want default modifier options to appear below the ordered item when they are specifically de-selected. A default modifier option that is de-selected appears with `NO` before the name.![An order screen that only shows default modifiers if they are not .](https://doc.toasttab.com/doc/media/show_default_no_order.png)
 
 ![A KDS device using horizontal to display the example order.](https://doc.toasttab.com/doc/media/show_default_no_kds.png)
 
@@ -251,25 +251,25 @@ When enabled, a price can be specified for each Special Request additional modif
 > If you enable the Seat Number[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups), items always appear on separate lines, even if a seat number is not explicitly specified by the employee.
 
 
-<br/>Illustrations of the order and kitchen tickets for each setting are provided. The example order is for two identical chicken wings with Buffalo sauce. [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to Vertical: list one modifier per line.<ul><li>On<br/>Select this option to show identical items and modifiers once with the total number ordered on order screens and printed or KDS device kitchen tickets. Applies only when the Seat Number[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups) is not enabled.![An order screen using Consolidate menu items set to On to display the example order.](https://doc.toasttab.com/doc/media/combine_items_yes_order.png)
+ <br/> Illustrations of the order and kitchen tickets for each setting are provided. The example order is for two identical chicken wings with Buffalo sauce. [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to Vertical: list one modifier per line.<ul><li>On <br/> Select this option to show identical items and modifiers once with the total number ordered on order screens and printed or KDS device kitchen tickets. Applies only when the Seat Number[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups) is not enabled.![An order screen using Consolidate menu items set to On to display the example order.](https://doc.toasttab.com/doc/media/combine_items_yes_order.png)
 
 ![A KDS device using Consolidate menu items set to On to display the example order.](https://doc.toasttab.com/doc/media/combine_items_yes_kds.png)
 
-</li><li>Off<br/>Select this option to show each item separately, with a count of 1, on order screens and printed or KDS device kitchen tickets.![An order screen using Consolidate menu items set to Off to display the example order.](https://doc.toasttab.com/doc/media/combine_items_no_order.png)
+</li><li>Off <br/> Select this option to show each item separately, with a count of 1, on order screens and printed or KDS device kitchen tickets.![An order screen using Consolidate menu items set to Off to display the example order.](https://doc.toasttab.com/doc/media/combine_items_no_order.png)
 
 ![A KDS device using Consolidate menu items set to Off to display the example order.](https://doc.toasttab.com/doc/media/combine_items_no_kds.png)
 
-</li></ul><br/>For more information about the effects of these options, see [KDS ticket layout](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefLayout).</td>
+</li></ul> <br/> For more information about the effects of these options, see [KDS ticket layout](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefLayout).</td>
     </tr>
     <tr>
       <td>Consolidate discounts</td>
-      <td>This setting determines whether an item-level fixed currency discount is applied to each item in a consolidated group of identical items in an order.<ul><li>On<br/>Select this option to apply an item-level fixed currency discount to each item in a consolidated group of identical items. Note that consolidated groups of identical items are created when the Consolidate menu items setting is enabled.</li><li>Off<br/>Select this option if you do not want an item-level fixed currency discount to be applied to all items in a consolidated group of identical items, but instead want the discount to be applied to the total of all items.</li></ul></td>
+      <td>This setting determines whether an item-level fixed currency discount is applied to each item in a consolidated group of identical items in an order.<ul><li>On <br/> Select this option to apply an item-level fixed currency discount to each item in a consolidated group of identical items. Note that consolidated groups of identical items are created when the Consolidate menu items setting is enabled.</li><li>Off <br/> Select this option if you do not want an item-level fixed currency discount to be applied to all items in a consolidated group of identical items, but instead want the discount to be applied to the total of all items.</li></ul></td>
     </tr>
     <tr>
       <td>Consolidate modifiers</td>
-      <td>This setting determines whether each modifier option for a menu item appears on a separate line or if identical modifier options are combined and shown on one line with the total count.<br/>The configuration of the Consolidate modifiers setting affects the way that modifier options appear on:<ul><li>Toast POS order screens</li><li>Printed kitchen tickets, KDS device tickets, and the KDS all day display view</li><li>Guest facing displays</li><li>Guest receipts</li></ul><br/>You can select:<ul><li>On<br/>Select this option to show identical modifier options once with the total number ordered.![An example of an order that shows identical modifier options grouped together with a prefix sum.](https://doc.toasttab.com/doc/media/con-mods-yes.png)
+      <td>This setting determines whether each modifier option for a menu item appears on a separate line or if identical modifier options are combined and shown on one line with the total count. <br/> The configuration of the Consolidate modifiers setting affects the way that modifier options appear on:<ul><li>Toast POS order screens</li><li>Printed kitchen tickets, KDS device tickets, and the KDS all day display view</li><li>Guest facing displays</li><li>Guest receipts</li></ul> <br/> You can select:<ul><li>On <br/> Select this option to show identical modifier options once with the total number ordered.![An example of an order that shows identical modifier options grouped together with a prefix sum.](https://doc.toasttab.com/doc/media/con-mods-yes.png)
 
-</li><li>Off<br/>Select this option to show each modifier option separately.![An example of an order that shows modifier options listed separately, even if they are identical.](https://doc.toasttab.com/doc/media/con-mods-no.png)
+</li><li>Off <br/> Select this option to show each modifier option separately.![An example of an order that shows modifier options listed separately, even if they are identical.](https://doc.toasttab.com/doc/media/con-mods-no.png)
 
 </li></ul></td>
     </tr>
@@ -279,47 +279,47 @@ When enabled, a price can be specified for each Special Request additional modif
 
 > **Note**
 > 
-> This setting affects only order screens. You define how modifier prices appear on guest receipts on the Payments &gt; Checks & receipt setup &gt; Guest receipt setup page.
+> This setting affects only order screens. You define how modifier prices appear on guest receipts on the Payments > Checks & receipt setup > Guest receipt setup page.
 
 
-<ul><li>On<br/>Select this option if you only want the total price of the menu item and all modifier options to appear on the order screen.</li><li>Off<br/>Select this option if you want modifier option prices to appear separately from menu item prices.<br/>If [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to Legacy or Vertical: list one modifier per linethe price of each modifier option appears on its own line; if set to Legacy - Flatten or Horizontal: list all modifiers on one line, comma separated the system sums the modifier option prices and displays the total below the menu item price.</li></ul></td>
+<ul><li>On <br/> Select this option if you only want the total price of the menu item and all modifier options to appear on the order screen.</li><li>Off <br/> Select this option if you want modifier option prices to appear separately from menu item prices. <br/> If [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) is set to Legacy or Vertical: list one modifier per line the price of each modifier option appears on its own line; if set to Legacy - Flatten or Horizontal: list all modifiers on one line, comma separated the system sums the modifier option prices and displays the total below the menu item price.</li></ul></td>
     </tr>
     <tr>
       <td>Modifier group sorting</td>
-      <td>For restaurants with [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) set to Vertical: list one modifier per line or Horizontal: list all modifiers on one line, comma separated, this setting controls the sequence in which modifier options appear on order screens and printed and KDS device kitchen tickets.<ul><li>Display in order modifiers were added<br/>Select this option to list the modifier options in the sequence the employee selects them.</li><li>Display in order modifiers are listed in their modifier group<br/>Select this option to list modifier options sequenced by how the modifier groups are sequenced for the menu item, and, for multi-select modifier groups, by how the modifier options are sequenced in the modifier group.</li></ul><br/>For example, you serve different kinds of barbecue sauce with your chicken wings, defined as options in the modifier group as mild, medium, hot, and insane. When guests order more than one of the sauces with their wings, they can either be listed in the order that the employee adds them (hot, mild, insane), or always in the same sequence relative to each other (mild, hot, insane).
+      <td>For restaurants with [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode) set to Vertical: list one modifier per line or Horizontal: list all modifiers on one line, comma separated, this setting controls the sequence in which modifier options appear on order screens and printed and KDS device kitchen tickets.<ul><li>Display in order modifiers were added <br/> Select this option to list the modifier options in the sequence the employee selects them.</li><li>Display in order modifiers are listed in their modifier group <br/> Select this option to list modifier options sequenced by how the modifier groups are sequenced for the menu item, and, for multi-select modifier groups, by how the modifier options are sequenced in the modifier group.</li></ul> <br/> For example, you serve different kinds of barbecue sauce with your chicken wings, defined as options in the modifier group as mild, medium, hot, and insane. When guests order more than one of the sauces with their wings, they can either be listed in the order that the employee adds them (hot, mild, insane), or always in the same sequence relative to each other (mild, hot, insane).
 
 > **Note**
 > 
-> If you configured the Sort Ordersetting for modifiers, that overrides this setting. Using Sort Order to sort modifiers on kitchen tickets is in limited release.
+> If you configured the Sort Order setting for modifiers, that overrides this setting. Using Sort Order to sort modifiers on kitchen tickets is in limited release.
 
 
-<br/>For more information about the effects of these options, see [KDS ticket layout](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefLayout).</td>
+ <br/> For more information about the effects of these options, see [KDS ticket layout](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefLayout).</td>
     </tr>
     <tr>
       <td>Modifier ordering priority</td>
-      <td>This setting determines the sequence in which modifier group buttons appear on order screens and how modifiers are organized on printed and KDS kitchen tickets. This option applies to modifier groups defined in the menu. If you enable any of the [additional modifier groups](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups), they appear after the menu modifier groups.<ul><li>On<br/>Select this option if you want modifier group buttons to appear in the sequence defined by their Display Ordering Priority values. To review and update these values for all of your modifier groups use Menus &gt; Bulk management &gt; Advanced properties.
+      <td>This setting determines the sequence in which modifier group buttons appear on order screens and how modifiers are organized on printed and KDS kitchen tickets. This option applies to modifier groups defined in the menu. If you enable any of the [additional modifier groups](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups), they appear after the menu modifier groups.<ul><li>On <br/> Select this option if you want modifier group buttons to appear in the sequence defined by their Display Ordering Priority values. To review and update these values for all of your modifier groups use Menus > Bulk management > Advanced properties.
 
 > **Note**
 > 
 > For KDS devices using dynamic view and printed kitchen tickets, this setting is treated as if On is always selected.
 
 
-</li><li>Off<br/>Select this option if you want buttons for any required modifier groups to appear on the order screen before optional modifier groups.</li></ul>
+</li><li>Off <br/> Select this option if you want buttons for any required modifier groups to appear on the order screen before optional modifier groups.</li></ul>
 
 > **Note**
 > 
-> If you configured the Sort Ordersetting for modifiers, that overrides this setting. Using Sort Order to sort modifiers on kitchen tickets is in limited release.
+> If you configured the Sort Order setting for modifiers, that overrides this setting. Using Sort Order to sort modifiers on kitchen tickets is in limited release.
 
 
 </td>
     </tr>
     <tr>
       <td>Show fast cash button? (Quick Order only)</td>
-      <td>This setting determines whether employees using Quick Order mode can use a single button to accept payments in cash for the exact amount of the check.<ul><li>On<br/>Select this option to include the Fast Cash button on the Quick Order screen, next to the Pay button. The Fast Cash button appears while an order is in progress, and has the effect of immediately closing a check when exact change is received.</li><li>Off<br/>Select this option to not include the Fast Cash button on the Quick Order screen.</li></ul></td>
+      <td>This setting determines whether employees using Quick Order mode can use a single button to accept payments in cash for the exact amount of the check.<ul><li>On <br/> Select this option to include the Fast Cash button on the Quick Order screen, next to the Pay button. The Fast Cash button appears while an order is in progress, and has the effect of immediately closing a check when exact change is received.</li><li>Off <br/> Select this option to not include the Fast Cash button on the Quick Order screen.</li></ul></td>
     </tr>
     <tr>
       <td>Close order screen after printing receipt</td>
-      <td>This setting determines whether the order screen remains open to the same order after employees tap Print to print a guest receipt.<ul><li>On<br/>Select this option to refresh the order screen after employees tap Print. The screen that appears next depends on the [Auto switch user](adminGuide-adminUiOptionsReference#configAutoSwitchUser) setting:<ul><li>Off: A new order screen appears. The same employee can take the next order.</li><li>On: The passcode screen. A different employee can sign in.</li></ul></li><li>Off<br/>Select this option to keep the order screen open for the same order (similar to Stay) after employees tap Print.</li></ul></td>
+      <td>This setting determines whether the order screen remains open to the same order after employees tap Print to print a guest receipt.<ul><li>On <br/> Select this option to refresh the order screen after employees tap Print. The screen that appears next depends on the [Auto switch user](adminGuide-adminUiOptionsReference#configAutoSwitchUser) setting:<ul><li>Off: A new order screen appears. The same employee can take the next order.</li><li>On: The passcode screen. A different employee can sign in.</li></ul></li><li>Off <br/> Select this option to keep the order screen open for the same order (similar to Stay) after employees tap Print.</li></ul></td>
     </tr>
     <tr>
       <td>Auto switch user</td>
@@ -330,19 +330,19 @@ When enabled, a price can be specified for each Special Request additional modif
 > Regardless of how you configure this setting, if you define a Screen Timeout period on a device the system signs the current user out of that device whenever the specified time period elapses without activity. For information about configuring individual devices, see [Accessing the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
 
 
-<ul><li>On<br/>Select this option to automatically sign the current user out and return to the passcode screen each time employees send an order to the kitchen, hold an order, or complete a payment transaction. If [Close After Printing](adminGuide-adminUiOptionsReference#configCloseAfterPrinting) is Yes, the passcode screen also appears when employees print guest receipts.</li><li>Off<br/>Select this option if you do not want employees to sign in after every order.</li></ul></td>
+<ul><li>On <br/> Select this option to automatically sign the current user out and return to the passcode screen each time employees send an order to the kitchen, hold an order, or complete a payment transaction. If [Close After Printing](adminGuide-adminUiOptionsReference#configCloseAfterPrinting) is Yes, the passcode screen also appears when employees print guest receipts.</li><li>Off <br/> Select this option if you do not want employees to sign in after every order.</li></ul></td>
     </tr>
     <tr>
       <td>Edit other employees' checks confirmation</td>
-      <td>This setting determines whether employees who have the [Edit Other Employees' Orders](adminGuide-adminPermissions#adminAddlPosAccessPermissions) access permission must respond to a confirmation prompt when they edit another employee's check.<ul><li>Prompt user when editing another server's check<br/>Select this option to present a confirmation dialog with the name of the employee who opened the check when lead employees change a check that is in progress.</li><li>Don't prompt<br/>Select this option to streamline the work of lead employees who frequently need to add items to checks opened by other employees.</li></ul></td>
+      <td>This setting determines whether employees who have the [Edit Other Employees' Orders](adminGuide-adminPermissions#adminAddlPosAccessPermissions) access permission must respond to a confirmation prompt when they edit another employee's check.<ul><li>Prompt user when editing another server's check <br/> Select this option to present a confirmation dialog with the name of the employee who opened the check when lead employees change a check that is in progress.</li><li>Don't prompt <br/> Select this option to streamline the work of lead employees who frequently need to add items to checks opened by other employees.</li></ul></td>
     </tr>
     <tr>
       <td>Enable promo code search</td>
-      <td>This setting determines whether order screens include the Promo Code option on the overflow menu (the ⋮icon).<ul><li>On<br/>Select this option to allow employees to look up promo codes for guests.</li><li>Off<br/>Select this option to require guests to present the promo code to receive a discount.</li></ul></td>
+      <td>This setting determines whether order screens include the Promo Code option on the overflow menu (the ⋮ icon).<ul><li>On <br/> Select this option to allow employees to look up promo codes for guests.</li><li>Off <br/> Select this option to require guests to present the promo code to receive a discount.</li></ul></td>
     </tr>
     <tr>
       <td>Enable manual entry when using scale</td>
-      <td>This setting determines whether employees, when using a device that is connected to a scale, can enter item weights manually.<ul><li>On<br/>Select this option to allow employees to override the weight provided by the scale.</li><li>Off<br/>Select this option to only use the weight provided by the scale.</li></ul></td>
+      <td>This setting determines whether employees, when using a device that is connected to a scale, can enter item weights manually.<ul><li>On <br/> Select this option to allow employees to override the weight provided by the scale.</li><li>Off <br/> Select this option to only use the weight provided by the scale.</li></ul></td>
     </tr>
     <tr>
       <td>Menu item search</td>
@@ -421,68 +421,73 @@ The following table provides information about the settings of the Tipping secti
   <tbody>
     <tr>
       <td>Tip / Tax</td>
-      <td>This setting determines the sequence in which the Toast platform calculates suggested [*tip*](adminGuide-adminGlossary.html#glossTip) amounts and fixed percent [*service charges*](adminGuide-adminGlossary.html#glossServiceCharge).<ul><li>Calculate tip before tax<br/>Select this option to calculate suggested tip or service charge amounts first, and then calculate taxes.</li><li>Calculate tip after tax<br/>Select this option to calculate charges for taxes first, and then calculate suggested tip or service charge amounts.</li></ul><br/>Examples of how the Toast platform calculates suggested tips and service charges follow.<br/>**Suggested tip**: For items totalling $50, a tax rate of 7.5%, and suggested tip percentages of 15%, 18%, and 20%, the system:<ul><li>Calculates tip before tax: Calculates suggested tip amounts of $7.50, $9.00, and $10. Then uses the $50 item total to calculate the taxes, `$50 * .075 = $4.50`, for a total check amount of $54.50.</li><li>Calculates tip after tax: Calculates the taxes, `$50 * .075 = $4.50`, for a total check amount of $54.50. Then uses the $54.50 total to calculate suggested tip amounts of $8.06, $9.68, and $10.75.</li></ul><br/>Note that the total on the check, which is paid to the restaurant, is the same in both cases. The actual tip amount paid directly to the employee is at the guest's discretion.<br/>**Service charge**: For items totalling $1000, a tax rate of 6.25%, and a service charge of 20% (taxed at the same rate), the system either:<ul><li>Calculates tip before tax: Calculates the service charge as `$1000 * .20 = $200`, for a new subtotal of $1200. Then uses the new subtotal to calculate the tax, `$1200 * .0625 = $75`, for a total check amount of `$1200 + $75 = $1275`.</li><li>Calculates tip after tax: Calculates the taxes, `$1000 * .0625 = $62.50`, for a new subtotal of $1062.50. Then uses the new subtotal to calculate the service charge, `$1062.50 * .20 = $212.50`. Because this service charge is taxable, the system also calculates the tax on the service charge, `$212.50 * .0625 = $13.28`. Then adds the service charge and its tax to the subtotal, for a total check amount of `$1062.50 + $212.50 + $13.28 = $1288.28`.</li></ul><br/>Note that service charges, unlike tips, are included in the check total and collected by the restaurant. As a result, the setting that you choose for this option can affect the total check amount.<br/>Appropriate variations on these computations apply to service charges that have different tax rates or that are not taxed.<br/>For more information about service charges, see [Service charge overview](adminGuide-adminServiceChargeOverview).</td>
+      <td>This setting determines the sequence in which the Toast platform calculates suggested [*tip*](adminGuide-adminGlossary.html#glossTip) amounts and fixed percent [*service charges*](adminGuide-adminGlossary.html#glossServiceCharge).<ul><li>Calculate tip before tax <br/> Select this option to calculate suggested tip or service charge amounts first, and then calculate taxes.</li><li>Calculate tip after tax <br/> Select this option to calculate charges for taxes first, and then calculate suggested tip or service charge amounts.</li></ul> <br/> Examples of how the Toast platform calculates suggested tips and service charges follow. <br/> **Suggested tip**: For items totalling $50, a tax rate of 7.5%, and suggested tip percentages of 15%, 18%, and 20%, the system:<ul><li>Calculates tip before tax: Calculates suggested tip amounts of $7.50, $9.00, and $10. Then uses the $50 item total to calculate the taxes, `$50 * .075 = $4.50`, for a total check amount of $54.50.</li><li>Calculates tip after tax: Calculates the taxes, `$50 * .075 = $4.50`, for a total check amount of $54.50. Then uses the $54.50 total to calculate suggested tip amounts of $8.06, $9.68, and $10.75.</li></ul> <br/> Note that the total on the check, which is paid to the restaurant, is the same in both cases. The actual tip amount paid directly to the employee is at the guest's discretion. <br/> **Service charge**: For items totalling $1000, a tax rate of 6.25%, and a service charge of 20% (taxed at the same rate), the system either:<ul><li>Calculates tip before tax: Calculates the service charge as `$1000 * .20 =
+                    $200`, for a new subtotal of $1200. Then uses the new subtotal to calculate the tax, `$1200 * .0625 =
+                    $75`, for a total check amount of `$1200 + $75
+                    = $1275`.</li><li>Calculates tip after tax: Calculates the taxes, `$1000 * .0625 = $62.50`, for a new subtotal of $1062.50. Then uses the new subtotal to calculate the service charge, `$1062.50 * .20 =
+                    $212.50`. Because this service charge is taxable, the system also calculates the tax on the service charge, `$212.50 * .0625 = $13.28`. Then adds the service charge and its tax to the subtotal, for a total check amount of `$1062.50 + $212.50 + $13.28 =
+                    $1288.28`.</li></ul> <br/> Note that service charges, unlike tips, are included in the check total and collected by the restaurant. As a result, the setting that you choose for this option can affect the total check amount. <br/> Appropriate variations on these computations apply to service charges that have different tax rates or that are not taxed. <br/> For more information about service charges, see [Service charge overview](adminGuide-adminServiceChargeOverview).</td>
     </tr>
     <tr>
       <td>Tip & signature flow</td>
-      <td><ul><li>Combined tip & signature screen<br/>Tip selection and guest signature are on a single screen. This option supports the default tip selection.
+      <td><ul><li>Combined tip & signature screen <br/> Tip selection and guest signature are on a single screen. This option supports the default tip selection.
 
 > **Note**
 > 
 > The default tip selection can be [Default percentage](adminGuide-adminUiOptionsReference#configTipOptionsDefaultPercentage), [Default amount](adminGuide-adminUiOptionsReference#configTipOptionsDefaultAmount), or both depending on your [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) setting.
 
 
-</li><li>Legacy tip screen along with the legacy signature screen<br/>Tip selection and guest signature are on separate screens. This option does not support default tip selection.</li></ul></td>
+</li><li>Legacy tip screen along with the legacy signature screen <br/> Tip selection and guest signature are on separate screens. This option does not support default tip selection.</li></ul></td>
     </tr>
     <tr>
       <td>Tip options</td>
-      <td><ul><li>Show tip options in percentages only</li><li>Show tip options in amounts only</li><li>Show tip options in amounts and percentages<br/>For check totals below a specified value, suggested tips appear as dollar amounts. For check totals above the specified value, suggested tips appear as percentages of the total. You use the [Tip option transaction amount](adminGuide-adminUiOptionsReference#confTipOptionTransactionAmount) to specify the value.</li></ul></td>
+      <td><ul><li>Show tip options in percentages only</li><li>Show tip options in amounts only</li><li>Show tip options in amounts and percentages <br/> For check totals below a specified value, suggested tips appear as dollar amounts. For check totals above the specified value, suggested tips appear as percentages of the total. You use the [Tip option transaction amount](adminGuide-adminUiOptionsReference#confTipOptionTransactionAmount) to specify the value.</li></ul></td>
     </tr>
     <tr>
       <td>Tip option transaction amount</td>
-      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to Show tip options in amounts and percentages.<br/>This setting determines the total check value used to determine whether the suggested tips are dollar amounts or percentages.</td>
+      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to Show tip options in amounts and percentages. <br/> This setting determines the total check value used to determine whether the suggested tips are dollar amounts or percentages.</td>
     </tr>
     <tr>
       <td>Tip amounts</td>
-      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to either Show tip options in amounts only or Show tip options in amounts and percentages.<br/>You can enter up to three dollar amounts. Each value defines a dollar amount to automatically add as a tip. For example, 1.00, 1.50, 2.00.
+      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to either Show tip options in amounts only or Show tip options in amounts and percentages. <br/> You can enter up to three dollar amounts. Each value defines a dollar amount to automatically add as a tip. For example, 1.00, 1.50, 2.00.
 
 > **Note**
 > 
-> This field can be reconfigured to accept up to four dollar amounts: choose Payments &gt; Payment methods &gt; Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen.
+> This field can be reconfigured to accept up to four dollar amounts: choose Payments > Payment methods > Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen.
 
 
 </td>
     </tr>
     <tr>
       <td>Default amount</td>
-      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to Show tip options in amounts only.<br/>This setting determines what tipping option is preselected on the guest-facing display.<ul><li>One of the amounts set by [Tip amounts](adminGuide-adminUiOptionsReference#confCustomizeTipDollarAmounts). For example:<ul><li>$1.00</li><li>$1.50</li><li>$2.00</li></ul></li><li>No tip</li><li>None<br/>Select this option if you do not want any of the tip amounts or the No tip option to be preselected on the guest-facing display. The guest must select a suggested tip amount or No tip to proceed.</li></ul></td>
+      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to Show tip options in amounts only. <br/> This setting determines what tipping option is preselected on the guest-facing display.<ul><li>One of the amounts set by [Tip amounts](adminGuide-adminUiOptionsReference#confCustomizeTipDollarAmounts). For example:<ul><li>$1.00</li><li>$1.50</li><li>$2.00</li></ul></li><li>No tip</li><li>None <br/> Select this option if you do not want any of the tip amounts or the No tip option to be preselected on the guest-facing display. The guest must select a suggested tip amount or No tip to proceed.</li></ul></td>
     </tr>
     <tr>
       <td>Tip percentages</td>
-      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to either Show tip options in percentages only or Show tip options in amounts and percentages.<br/>You can enter up to three numbers. Each value defines a percentage of the check total to automatically add as a tip. For example, 15, 18, 20.<br/>To include these percentages on guest receipts, you must also enable the Display Tip Percentages on Customer Receipts setting on the Marketing &gt; Receipt Setup page.
+      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to either Show tip options in percentages only or Show tip options in amounts and percentages. <br/> You can enter up to three numbers. Each value defines a percentage of the check total to automatically add as a tip. For example, 15, 18, 20. <br/> To include these percentages on guest receipts, you must also enable the Display Tip Percentages on Customer Receipts setting on the Marketing > Receipt Setup page.
 
 > **Note**
 > 
-> Previously, this field accepted up to four values. If you prefer this legacy feature, choose Payments &gt; Payment methods &gt; Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen. As a result, this field accepts up to four tip percentage values, but an extra payment step will be presented to guests who pay on a Toast device. This [Toast Central article](https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration) provides additional information.
+> Previously, this field accepted up to four values. If you prefer this legacy feature, choose Payments > Payment methods > Payment options, and set the Tip & signature flow option to Legacy tip screen along with the legacy signature screen. As a result, this field accepts up to four tip percentage values, but an extra payment step will be presented to guests who pay on a Toast device. This [Toast Central article](https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration) provides additional information.
 
 
 </td>
     </tr>
     <tr>
       <td>Default percentage</td>
-      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to either Show tip options in percentages only or Show tip options in amounts and percentages.<br/>This setting determines what tipping option is preselected on the guest-facing display.<ul><li>One of the amounts set by [Tip percentages](adminGuide-adminUiOptionsReference#confCustomizeTipPercentages). For example:<ul><li>25%</li><li>20%</li><li>18%</li></ul></li><li>No tip</li><li>None<br/>Select this option if you do not want any of the tip pergentages, or the No tip option, to be preselected on the guest-facing display. The guest must select a suggested tip percentage or No tip to proceed.</li></ul></td>
+      <td>This setting appears if [Tip options](adminGuide-adminUiOptionsReference#configChooseTipOptions) is set to either Show tip options in percentages only or Show tip options in amounts and percentages. <br/> This setting determines what tipping option is preselected on the guest-facing display.<ul><li>One of the amounts set by [Tip percentages](adminGuide-adminUiOptionsReference#confCustomizeTipPercentages). For example:<ul><li>25%</li><li>20%</li><li>18%</li></ul></li><li>No tip</li><li>None <br/> Select this option if you do not want any of the tip pergentages, or the No tip option, to be preselected on the guest-facing display. The guest must select a suggested tip percentage or No tip to proceed.</li></ul></td>
     </tr>
     <tr>
       <td>Require approval?</td>
-      <td><ul><li>Yes<br/>Significant adjustments to tips require manager approval</li><li>No<br/>Significant adjustments to tips do not require manager approval</li></ul></td>
+      <td><ul><li>Yes <br/> Significant adjustments to tips require manager approval</li><li>No <br/> Significant adjustments to tips do not require manager approval</li></ul></td>
     </tr>
     <tr>
       <td>Minimum amount</td>
-      <td>This setting appears only if [Requires approval?](adminGuide-adminUiOptionsReference#configTipOptionsRequireApproval) is Yes. <br/>This defines the minimum amount a tip must be to require manager approval.</td>
+      <td>This setting appears only if [Requires approval?](adminGuide-adminUiOptionsReference#configTipOptionsRequireApproval) is Yes.  <br/> This defines the minimum amount a tip must be to require manager approval.</td>
     </tr>
     <tr>
       <td>Minimum % of balance due</td>
-      <td>This setting appears only if [Requires approval?](adminGuide-adminUiOptionsReference#configTipOptionsRequireApproval) is Yes. <br/>This defines the minimum percentage of the check a tip must equal to require manager approval.</td>
+      <td>This setting appears only if [Requires approval?](adminGuide-adminUiOptionsReference#configTipOptionsRequireApproval) is Yes.  <br/> This defines the minimum percentage of the check a tip must equal to require manager approval.</td>
     </tr>
   </tbody>
 </table>
@@ -509,7 +514,7 @@ The following table provides information about the Advanced shift review setup p
   <tbody>
     <tr>
       <td>Require shift review</td>
-      <td>This setting determines whether employees must close the checks for all of their orders and declare their cash tips before they clock out.<ul><li>Required<br/>This option requires employees to close all [*open*](adminGuide-adminGlossary.html#glossOpenOrder) and [*paid orders*](adminGuide-adminGlossary.html#glossPaidOrder), which includes finalizing credit card transactions by adding any tip amounts and closing them.</li><li>Optional<br/>This option allows employees to clock out when their orders are either paid or closed. Shift review does not require entry of a cash tip amount.
+      <td>This setting determines whether employees must close the checks for all of their orders and declare their cash tips before they clock out.<ul><li>Required <br/> This option requires employees to close all [*open*](adminGuide-adminGlossary.html#glossOpenOrder) and [*paid orders*](adminGuide-adminGlossary.html#glossPaidOrder), which includes finalizing credit card transactions by adding any tip amounts and closing them.</li><li>Optional <br/> This option allows employees to clock out when their orders are either paid or closed. Shift review does not require entry of a cash tip amount.
 
 > **Note**
 > 
@@ -536,11 +541,11 @@ The following table provides information about the Advanced shift review setup p
     </tr>
     <tr>
       <td>Negative cash tips</td>
-      <td>This setting appears only if Declare cash tips is Tipped employees must declare cash tips.<ul><li>Allow</li><li>Do not allow</li></ul><br/>For more information about the effect of these options, see the [Negative Declared Tips manager access permission](adminGuide-adminPermissions#permissionNegativeDeclaredTips).</td>
+      <td>This setting appears only if Declare cash tips is Tipped employees must declare cash tips.<ul><li>Allow</li><li>Do not allow</li></ul> <br/> For more information about the effect of these options, see the [Negative Declared Tips manager access permission](adminGuide-adminPermissions#permissionNegativeDeclaredTips).</td>
     </tr>
     <tr>
       <td>Minimum tip percentage</td>
-      <td>This setting appears only if [Declare cash tips](adminGuide-adminUiOptionsReference#configDeclareCashTips) is Tipped employees must declare cash tips.<br/>The value of this setting defines the minimum amount, as a percentage of cash tips, that employees must report during shift review.<br/>For more information about the effect of this setting, see [Closing cash drawer](adminGuide-adminCashDrawerToastWebOperations#adminCashDrawerToastWebCloseDrawer).</td>
+      <td>This setting appears only if [Declare cash tips](adminGuide-adminUiOptionsReference#configDeclareCashTips) is Tipped employees must declare cash tips. <br/> The value of this setting defines the minimum amount, as a percentage of cash tips, that employees must report during shift review. <br/> For more information about the effect of this setting, see [Closing cash drawer](adminGuide-adminCashDrawerToastWebOperations#adminCashDrawerToastWebCloseDrawer).</td>
     </tr>
     <tr>
       <td>Require reconcile cash & tips</td>
@@ -695,7 +700,7 @@ The following table provides information about the settings of the Closed Drawer
     </tr>
     <tr>
       <td>Section Name</td>
-      <td>This setting lists sections that you can include in your closed drawer report.<ul><li>Cash Summary</li><li>No Sale Audit</li><li>Cash Transaction Detail</li><li>Signatures</li></ul><br/>To include a section in the closed drawer report, select the checkbox next to the section name under the Show? column.<br/>You also have the option to change the sequence in which these sections appear. Click or tap and drag the reorder icon next to a section name and move it to a different location in the list.</td>
+      <td>This setting lists sections that you can include in your closed drawer report.<ul><li>Cash Summary</li><li>No Sale Audit</li><li>Cash Transaction Detail</li><li>Signatures</li></ul> <br/> To include a section in the closed drawer report, select the checkbox next to the section name under the Show? column. <br/> You also have the option to change the sequence in which these sections appear. Click or tap and drag the reorder icon next to a section name and move it to a different location in the list.</td>
     </tr>
   </tbody>
 </table>
@@ -727,14 +732,14 @@ The following table provides information about the settings of the Time clock se
     </tr>
     <tr>
       <td>Time entry rounding scheme</td>
-      <td>This setting determines how the Toast platform applies rounding to the computation of employee hours. The payroll service that you use, such as Toast Payroll, can affect which option is more appropriate for your location.<ul><li>All time entries are added together, then rounded for total hours<br/>This option retains full precision for calculations of the length of time between employee clock in and clock out. All time periods are summed and then rounded to two decimal places. This is the default option.
+      <td>This setting determines how the Toast platform applies rounding to the computation of employee hours. The payroll service that you use, such as Toast Payroll, can affect which option is more appropriate for your location.<ul><li>All time entries are added together, then rounded for total hours <br/> This option retains full precision for calculations of the length of time between employee clock in and clock out. All time periods are summed and then rounded to two decimal places. This is the default option.
 
 > **Note**
 > 
 > Toast labor reports, including the Time Entries report, limit the precision shown for time periods to two decimal places. This limitation can result in differences between the length of time that the system uses to determine pay and the time periods shown on the report.
 
 
-</li><li>Each time entry is rounded, then added together for total hours<br/>This option rounds the length of time calculated between employee clock in and clock out to two decimal places. All time periods are then summed. Select this option if you use Toast Payroll, or are directed to do so by an integration partner offering a payroll service.
+</li><li>Each time entry is rounded, then added together for total hours <br/> This option rounds the length of time calculated between employee clock in and clock out to two decimal places. All time periods are then summed. Select this option if you use Toast Payroll, or are directed to do so by an integration partner offering a payroll service.
 
 > **Note**
 > 
@@ -760,12 +765,12 @@ The following table provides information about the settings of the Tax options s
   </thead>
   <tbody>
     <tr>
-      <td>Receipt tax options &gt; Layout</td>
+      <td>Receipt tax options > Layout</td>
       <td><ul><li>One line</li><li>Separate lines</li></ul></td>
     </tr>
     <tr>
-      <td>Receipt tax options &gt; Label</td>
-      <td>This setting appears only if Receipt Tax options &gt; Layout is One line.<br/>The label appears on printed guest receipts to identify the total amount charged as tax. This setting accepts a text string.</td>
+      <td>Receipt tax options > Label</td>
+      <td>This setting appears only if Receipt Tax options > Layout is One line. <br/> The label appears on printed guest receipts to identify the total amount charged as tax. This setting accepts a text string.</td>
     </tr>
     <tr>
       <td>Smart tax</td>

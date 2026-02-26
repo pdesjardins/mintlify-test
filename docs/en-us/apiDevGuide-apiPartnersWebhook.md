@@ -59,99 +59,99 @@ Attributes in the `partner_added` event's payload include:
   <tbody>
     <tr>
       <td>`restaurantGuid`</td>
-      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
       <td>`managementGroupGuid`</td>
-      <td>A unique Toast POS identifier for a group of restaurants. The management group GUID will be the same for all restaurants within the same group. The management group GUID will be null if a restaurant location does not belong to a restaurant management group.<br/>May be null.<br/>data type:string<br/>format:uuid</td>
+      <td>A unique Toast POS identifier for a group of restaurants. The management group GUID will be the same for all restaurants within the same group. The management group GUID will be null if a restaurant location does not belong to a restaurant management group. <br/> May be null. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
       <td>`restaurantName`</td>
-      <td>The human-readable name of the restaurant, set on the Restaurant Info screen of Toast Web.<br/>data type: string</td>
+      <td>The human-readable name of the restaurant, set on the Restaurant Info screen of Toast Web. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`locationName`</td>
-      <td>The name of a specific restaurant location, set on the Restaurant Info screen of Toast Web. For example, a restaurant group might assign a location name such as `Palo Alto` or `Boston` to identify a specific location. Note that this field is not required by the Toast platform, so it may be empty.<br/>May be null.<br/>data type:string</td>
+      <td>The name of a specific restaurant location, set on the Restaurant Info screen of Toast Web. For example, a restaurant group might assign a location name such as `Palo Alto` or `Boston` to identify a specific location. Note that this field is not required by the Toast platform, so it may be empty. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`externalGroupRef`</td>
-      <td>An identifier for the restaurant group that is recognized by the the partner that made the request to the `/restaurants` endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.<br/>May be null.<br/>data type:string</td>
+      <td>An identifier for the restaurant group that is recognized by the the partner that made the request to the `/restaurants` endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`externalRestaurantRef`</td>
-      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.<br/>May be null.<br/>data type: string</td>
+      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`modifiedDate`</td>
-      <td>The most recent date and time that the partner connection was edited. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.<br/>data type:string<br/>format:date-time</td>
+      <td>The most recent date and time that the partner connection was edited. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC. <br/> data type: string <br/> format: date-time</td>
     </tr>
     <tr>
       <td>`createdDate`</td>
-      <td>The date and time that the partner connection was created. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.<br/>data type:string<br/>format:date-time</td>
+      <td>The date and time that the partner connection was created. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC. <br/> data type: string <br/> format: date-time</td>
     </tr>
     <tr>
       <td>`isoModifiedDate`</td>
-      <td>The most recent date and time that the partner connection was edited. The date and time are expressed in ISO 8601 format.<br/>data type:string</td>
+      <td>The most recent date and time that the partner connection was edited. The date and time are expressed in ISO 8601 format. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`isoCreatedDate`</td>
-      <td>The date and time that the partner connection was created. The date and time are expressed in ISO 8601 format.<br/>data type:string</td>
+      <td>The date and time that the partner connection was created. The date and time are expressed in ISO 8601 format. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`createdByFirstName`</td>
-      <td>The first name of the restaurant employee who added the integration to the restaurant location.<br/>May be null.<br/>data type:string</td>
+      <td>The first name of the restaurant employee who added the integration to the restaurant location. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`createdByLastName`</td>
-      <td>The last name of the restaurant employee who added the integration to the restaurant location.<br/>May be null.<br/>data type:string</td>
+      <td>The last name of the restaurant employee who added the integration to the restaurant location. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`createdByEmailAddress`</td>
-      <td>The email address of the restaurant employee who added the integration.<br/>May be null.<br/>data type:string</td>
+      <td>The email address of the restaurant employee who added the integration. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`createdByPhoneNumber`</td>
-      <td>The phone number of the restaurant employee who added the integration.<br/>May be null.<br/>data type:string</td>
+      <td>The phone number of the restaurant employee who added the integration. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantPhoneNumber`</td>
-      <td>The phone number of the restaurant location.<br/>May be null.<br/>data type: string</td>
+      <td>The phone number of the restaurant location. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantAddressLine1`</td>
-      <td>The first line of the restaurant's address.<br/>May be null.<br/>data type: string</td>
+      <td>The first line of the restaurant's address. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantAddressLine2`</td>
-      <td>The second line of the restaurant's address.<br/>May be null.<br/>data type: string</td>
+      <td>The second line of the restaurant's address. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantCity`</td>
-      <td>The city the restaurant location resides in.<br/>May be null.<br/>data type: string</td>
+      <td>The city the restaurant location resides in. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantState`</td>
-      <td>The state the restaurant location resides in.<br/>May be null.<br/>data type: string</td>
+      <td>The state the restaurant location resides in. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantZipCode`</td>
-      <td>The zip code for the restaurant location.<br/>May be null.<br/>data type: string</td>
+      <td>The zip code for the restaurant location. <br/> May be null. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantCountryCode`</td>
-      <td>The ISO 3166-2 country code for the restaurant location.<br/>data type:string</td>
+      <td>The ISO 3166-2 country code for the restaurant location. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantTimezone`</td>
-      <td>The IANA time zone identifier of the restaurant location. For example, `America/New_York`.<br/>data type: string</td>
+      <td>The IANA time zone identifier of the restaurant location. For example, `America/New_York`. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`restaurantLatitude`</td>
-      <td>The north/south geographic coordinate of the restaurant, in decimal degrees.<br/>May be null.<br/>data type:number</td>
+      <td>The north/south geographic coordinate of the restaurant, in decimal degrees. <br/> May be null. <br/> data type: number</td>
     </tr>
     <tr>
       <td>`restaurantLongtitude`</td>
-      <td>The east/west geographic coordinate of the restaurant, in decimal degrees.<br/>May be null.<br/>data type:number</td>
+      <td>The east/west geographic coordinate of the restaurant, in decimal degrees. <br/> May be null. <br/> data type: number</td>
     </tr>
   </tbody>
 </table>

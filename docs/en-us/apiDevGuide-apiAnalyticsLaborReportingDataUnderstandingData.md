@@ -68,7 +68,7 @@ The following table specifies the returned set of values in the labor reporting 
     </tr>
     <tr>
       <td>`grossSalesAmount`</td>
-      <td>The total sales, including discounts and refunds. This property is only included when no `groupBy`value is specified.</td>
+      <td>The total sales, including discounts and refunds. This property is only included when no `groupBy` value is specified.</td>
     </tr>
     <tr>
       <td>`netSalesPerEmployeeHour`</td>
@@ -92,7 +92,7 @@ The following table specifies the returned set of values in the labor reporting 
     </tr>
     <tr>
       <td>`jobTitle`</td>
-      <td>The job name. This property only appears when the request for labor data includes the `groupBy`property with value `JOB`. If not aggregated by `JOB`, the value is `null`.</td>
+      <td>The job name. This property only appears when the request for labor data includes the `groupBy` property with value `JOB`. If not aggregated by `JOB`, the value is `null`.</td>
     </tr>
     <tr>
       <td>`jobCode`</td>
@@ -100,7 +100,7 @@ The following table specifies the returned set of values in the labor reporting 
     </tr>
     <tr>
       <td>`employeeGuid`</td>
-      <td>The identifier assigned by the Toast platform used to identify an employee. This property only appears when the request for labor data includes the `groupBy`property with value `EMPLOYEE`. If not aggregated by `EMPLOYEE`, the value is `null`.</td>
+      <td>The identifier assigned by the Toast platform used to identify an employee. This property only appears when the request for labor data includes the `groupBy` property with value `EMPLOYEE`. If not aggregated by `EMPLOYEE`, the value is `null`.</td>
     </tr>
     <tr>
       <td>`employeeFirstName`</td>

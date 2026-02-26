@@ -52,7 +52,7 @@ This section uses the following webhook terms and concepts:
     </tr>
     <tr>
       <td>Webhook secret</td>
-      <td>A secret passphrase generated when a webhook subscription is created. The passphrase is used to sign the contents of a message posted to the endpoint associated with the webhook subscription. See [Message signing](apiDevGuide-apiMessageSigning).<br/>The secret key is unique for each webhook subscription within an environment. For example, a `stock` webhook subscription has a different secret key than a `partner` webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see [Webhook basics](apiDevGuide-apiWebhookBasics). For more information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).</td>
+      <td>A secret passphrase generated when a webhook subscription is created. The passphrase is used to sign the contents of a message posted to the endpoint associated with the webhook subscription. See [Message signing](apiDevGuide-apiMessageSigning). <br/> The secret key is unique for each webhook subscription within an environment. For example, a `stock` webhook subscription has a different secret key than a `partner` webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see [Webhook basics](apiDevGuide-apiWebhookBasics). For more information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).</td>
     </tr>
   </tbody>
 </table>

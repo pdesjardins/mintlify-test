@@ -110,5 +110,5 @@ The `Order` object in the following example creates an order that is scheduled f
     </tr>
     <tr>
       <td>[(3)](#apiFutureOrderExampleOpenedDate-co)</td>
-      <td>The `openedDate` value specifies the business date of the order. If you do not include an `openedDate` value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This `openedDate`value matches the `promisedDate` value.</td>
+      <td>The `openedDate` value specifies the business date of the order. If you do not include an `openedDate` value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This `openedDate` value matches the `promisedDate` value.</td>
     </tr>

@@ -111,7 +111,7 @@ The following table provides suggested information that you can display in diffe
     </tr>
     <tr>
       <td>Payments</td>
-      <td>By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items.<br/>Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Refund information</li><li>Type</li><li>Payment status</li></ul></td>
+      <td>By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items. <br/> Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Refund information</li><li>Type</li><li>Payment status</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -162,23 +162,23 @@ To reduce the amount of data that you receive when you poll the configuration AP
   <tbody>
     <tr>
       <td>Reporting categories</td>
-      <td>Sales categories from the configuration API.<br/>[More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/)</td>
+      <td>Sales categories from the configuration API. <br/> [More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/)</td>
       <td>See Toast Central for more information about [sales categories](https://central.toasttab.com/s/article/Sales-Categories-1492812477858).</td>
     </tr>
     <tr>
       <td>Order configuration</td>
-      <td>Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)<br/>Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)<br/>Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/)</td>
-      <td>These pieces of configuration are often associated with orders.<br/>They describe how the order was placed and how its price was calculated. </td>
+      <td>Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/) <br/> Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/) <br/> Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/)</td>
+      <td>These pieces of configuration are often associated with orders. <br/> They describe how the order was placed and how its price was calculated. </td>
     </tr>
     <tr>
       <td>Menu information</td>
-      <td>Menu information from the menus API.<br/>In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items.<br/>[More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)</td>
+      <td>Menu information from the menus API. <br/> In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items. <br/> [More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)</td>
       <td>The menus API returns menu item names and other menu-related information you may want to display in your inventory platform. </td>
     </tr>
     <tr>
       <td>Restaurant information</td>
-      <td>Restaurant services from the configuration API.<br/>[More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/)</td>
-      <td>This restaurant information allows your integration to report on when orders were placed in your restaurant.<br/>For more information, see this [Toast Central article about hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services).</td>
+      <td>Restaurant services from the configuration API. <br/> [More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/)</td>
+      <td>This restaurant information allows your integration to report on when orders were placed in your restaurant. <br/> For more information, see this [Toast Central article about hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services).</td>
     </tr>
   </tbody>
 </table>

@@ -78,17 +78,17 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     <tr>
       <td>400</td>
       <td>Bad Request</td>
-      <td>The API request triggered a known error.<br/>A 400 status code often occurs when the syntax of the request is incorrect or the body of a `POST` request is not structured correctly.<br/>You are responsible for evaluating the [error message](apiDevGuide-apiResponsesAndErrors#apiErrorMessage) returned in the API error response in order for future API requests to avoid this error.</td>
+      <td>The API request triggered a known error. <br/> A 400 status code often occurs when the syntax of the request is incorrect or the body of a `POST` request is not structured correctly. <br/> You are responsible for evaluating the [error message](apiDevGuide-apiResponsesAndErrors#apiErrorMessage) returned in the API error response in order for future API requests to avoid this error.</td>
     </tr>
     <tr>
       <td>401</td>
       <td>Unauthorized</td>
-      <td>The authentication token you submitted is not a recognized Toast API [authentication token](apiDevGuide-authentication#getting-authentication-token).<br/>It is possible that you are submitting an authentication token that has expired and you need to request a new token.</td>
+      <td>The authentication token you submitted is not a recognized Toast API [authentication token](apiDevGuide-authentication#getting-authentication-token). <br/> It is possible that you are submitting an authentication token that has expired and you need to request a new token.</td>
     </tr>
     <tr>
       <td>403</td>
       <td>Forbidden</td>
-      <td>You are not permitted to access the resource that you are attempting to access.<br/>This error often occurs when:<ul><li>You try to access a restaurant that is not [connected to your integration](apiDevGuide-apiPartnersGettingAccessibleRestaurants) (if using a [partner API client](apiDevGuide-authentication#apiAuthenticationReturnDataPartner)).</li><li>You try to access a restaurant that is not [within the management group you work with](apiDevGuide-apiRestaurantsInGroup) (if using a [restaurant management group client](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)).</li><li>Your API credentials do not have the proper authorization to use the API you are trying to use.</li></ul></td>
+      <td>You are not permitted to access the resource that you are attempting to access. <br/> This error often occurs when:<ul><li>You try to access a restaurant that is not [connected to your integration](apiDevGuide-apiPartnersGettingAccessibleRestaurants) (if using a [partner API client](apiDevGuide-authentication#apiAuthenticationReturnDataPartner)).</li><li>You try to access a restaurant that is not [within the management group you work with](apiDevGuide-apiRestaurantsInGroup) (if using a [restaurant management group client](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)).</li><li>Your API credentials do not have the proper authorization to use the API you are trying to use.</li></ul></td>
     </tr>
     <tr>
       <td>404</td>
@@ -98,12 +98,12 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     <tr>
       <td>409</td>
       <td>Conflict</td>
-      <td>Your API request conflicts with the current state of Toast product data. For example, you might send a `PUT` request to update an employee's wage override for one of their jobs, but an earlier request removed the job from the employee.<br/>This error is also returned if a restaurant publishes changes to its configuration while you are retrieving paginated data from that restaurant. See [Managing 409 HTTP errors in paginated responses](apiDevGuide-apiResponseDataPagination#apiPagination409HTTPErrors) for more information.</td>
+      <td>Your API request conflicts with the current state of Toast product data. For example, you might send a `PUT` request to update an employee's wage override for one of their jobs, but an earlier request removed the job from the employee. <br/> This error is also returned if a restaurant publishes changes to its configuration while you are retrieving paginated data from that restaurant. See [Managing 409 HTTP errors in paginated responses](apiDevGuide-apiResponseDataPagination#apiPagination409HTTPErrors) for more information.</td>
     </tr>
     <tr>
       <td>422</td>
       <td>Unprocessable Entity</td>
-      <td>Your API request contains something that the Toast platform cannot process.<br/>A 422 HTTP response often occurs when an external partner tries to authorize a credit card transaction with `amount` and `tipAmount`values that are both $0.</td>
+      <td>Your API request contains something that the Toast platform cannot process. <br/> A 422 HTTP response often occurs when an external partner tries to authorize a credit card transaction with `amount` and `tipAmount` values that are both $0.</td>
     </tr>
     <tr>
       <td>429</td>

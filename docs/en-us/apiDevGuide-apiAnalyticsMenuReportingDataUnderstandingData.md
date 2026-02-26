@@ -92,7 +92,7 @@ The following table specifies the returned set of values in the menu reporting d
     </tr>
     <tr>
       <td>`menuName`</td>
-      <td>The name of the menu. This property appears when the request for menu data includes the `groupBy`property with value `MENU`.</td>
+      <td>The name of the menu. This property appears when the request for menu data includes the `groupBy` property with value `MENU`.</td>
     </tr>
     <tr>
       <td>`menuGroupGuid`</td>

@@ -100,7 +100,7 @@ The following table specifies the returned set of values in the aggregated sales
     </tr>
     <tr>
       <td>`businessHour`</td>
-      <td>The hour the data represents. This appears when the `aggregateBy` query parameter is set to `HOUR` in the `/era/v1/metrics/day`request. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy).</td>
+      <td>The hour the data represents. This appears when the `aggregateBy` query parameter is set to `HOUR` in the `/era/v1/metrics/day` request. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy).</td>
     </tr>
     <tr>
       <td>`hourlyJobTotalHours`</td>
@@ -116,7 +116,7 @@ The following table specifies the returned set of values in the aggregated sales
     </tr>
     <tr>
       <td>`restaurantName`</td>
-      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET`request.</td>
+      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET` request.</td>
     </tr>
   </tbody>
 </table>

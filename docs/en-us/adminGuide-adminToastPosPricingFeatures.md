@@ -31,22 +31,22 @@ The Toast platform offers a variety of pricing-related features that give you th
     <tr>
       <td>[Base Price](adminGuide-adminBasePrice) pricing strategy</td>
       <td>The price of a menu entity, for example, $5. A base price can be used in conjunction with a more complex pricing strategy such as time-specific pricing or menu-specific pricing. When combined with a more complex pricing strategy, the base price provides a default price for cases where the more complex price does not apply. For example, if you specify a time-specific price for a menu item during the hours of 12 p.m. to 2 p.m., the base price is used for the menu item for any orders placed outside of that two-hour time period.</td>
-      <td>Menu groups<br/>Menu items<br/>[Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
+      <td>Menu groups <br/> Menu items <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
-      <td>[Time Specific Price](adminGuide-adminTimeSpecificPrice)pricing strategy</td>
-      <td>For example, a menu item that costs $10 between noon and 2p.m. and $12 during the rest of the day.<br/>For multi-location restaurants, the time-specific price is in each location's local time.</td>
-      <td>Menu groups<br/>Menu items<br/>[Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
+      <td>[Time Specific Price](adminGuide-adminTimeSpecificPrice) pricing strategy</td>
+      <td>For example, a menu item that costs $10 between noon and 2p.m. and $12 during the rest of the day. <br/> For multi-location restaurants, the time-specific price is in each location's local time.</td>
+      <td>Menu groups <br/> Menu items <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
-      <td>[Menu Specific Price](adminGuide-adminMenuSpecificPrice)pricing strategy</td>
+      <td>[Menu Specific Price](adminGuide-adminMenuSpecificPrice) pricing strategy</td>
       <td>For example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu.</td>
-      <td>Menu items<br/>[Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
+      <td>Menu items <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
       <td>[Location Specific Price](adminGuide-adminLocationSpecificPrice) pricing strategy</td>
-      <td>Only applies to customers that use the enterprise module.<br/>For example, a steak that costs $18 at the Boston location and $20 at the New York City location.</td>
-      <td>Menu items<br/>[Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
+      <td>Only applies to customers that use the enterprise module. <br/> For example, a steak that costs $18 at the Boston location and $20 at the New York City location.</td>
+      <td>Menu items <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
       <td>[Size Price](adminGuide-adminSizePrice) pricing strategy</td>
@@ -59,12 +59,12 @@ The Toast platform offers a variety of pricing-related features that give you th
 
 
 </td>
-      <td>Menu groups<br/>Menu items<br/>Modifier groups<br/>[Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
+      <td>Menu groups <br/> Menu items <br/> Modifier groups <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
       <td>[Open Price](adminGuide-adminOpenPrice) pricing strategy</td>
-      <td>Allows you to manually specify a price for a menu item at the time that menu item is ordered on the Toast POS app. The Open Price strategy can be set on individual menu items or at the menu group level.<br/>See also **Open items** below for another pricing feature that handles menu items with open prices.</td>
-      <td>Menu groups<br/>Menu items</td>
+      <td>Allows you to manually specify a price for a menu item at the time that menu item is ordered on the Toast POS app. The Open Price strategy can be set on individual menu items or at the menu group level. <br/> See also **Open items** below for another pricing feature that handles menu items with open prices.</td>
+      <td>Menu groups <br/> Menu items</td>
     </tr>
     <tr>
       <td>[Fixed Price](adminGuide-adminFixedPrice) pricing strategy</td>
@@ -84,7 +84,7 @@ The Toast platform offers a variety of pricing-related features that give you th
       <td>Modifier groups</td>
     </tr>
     <tr>
-      <td>[Size/Sequence Price](adminGuide-adminSizeSequencePrice)pricing strategy</td>
+      <td>[Size/Sequence Price](adminGuide-adminSizeSequencePrice) pricing strategy</td>
       <td>With size/sequence pricing, the cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1, while the first topping on a large pizza is $1.50 and additional toppings are $2.50
 
 > **Note**
@@ -103,12 +103,12 @@ The Toast platform offers a variety of pricing-related features that give you th
     <tr>
       <td>[Price levels](adminGuide-adminUsingPriceLevels)</td>
       <td>Price levels allow you to price a collection of menu groups or menu items using the same price. For example, all draft beers are $6 while all bottled beers are $5. You define a price level and then assign it to the menu group or menu items that should use that price level. To make changes to all the menu groups or items that use a price level, you only need to change the price level itself, rather than every menu group and item it applies to.</td>
-      <td>Menu groups<br/>Menu items<br/>[Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
+      <td>Menu groups <br/> Menu items <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
       <td>Open items</td>
-      <td>Open items allow you to create a special request for a menu item that does not exist on your regular menu. When you create an open item on the Toast POS app, you give the item a name and a price and add it to a guest's check. Open items are configured on the Menus &gt; Settings &gt; Open items page. For information about configuring and using open items, see this [Toast Central article](https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670).<br/>Also, see **Open Price pricing strategy** above for another pricing feature that handles menu items with open prices.</td>
-      <td>Menu groups<br/>Menu items</td>
+      <td>Open items allow you to create a special request for a menu item that does not exist on your regular menu. When you create an open item on the Toast POS app, you give the item a name and a price and add it to a guest's check. Open items are configured on the Menus > Settings > Open items page. For information about configuring and using open items, see this [Toast Central article](https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670). <br/> Also, see **Open Price pricing strategy** above for another pricing feature that handles menu items with open prices.</td>
+      <td>Menu groups <br/> Menu items</td>
     </tr>
   </tbody>
 </table>

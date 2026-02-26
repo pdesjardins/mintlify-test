@@ -439,7 +439,7 @@ The following example shows the JSON message body content for a `POST` request t
 
     <tr>
       <td>[(1)](#co-d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745)</td>
-      <td>Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the `guid`value.</td>
+      <td>Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the `guid` value.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745)</td>
@@ -780,7 +780,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>daysAvailableString</td>
-      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.<br/>In this example, the menu is available on all days except for Sunday and Saturday:
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`. <br/> In this example, the menu is available on all days except for Sunday and Saturday:
 ```
 "daysAvailableString": [
    "Mon",
@@ -801,7 +801,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>imageLink</td>
-      <td>A URL to an image located on Amazon S3. For example:<br/>https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
+      <td>A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
       <td>String</td>
     </tr>
   </tbody>
@@ -843,7 +843,8 @@ The following table shows the information about each menu group at your restaura
     </tr>
     <tr>
       <td>subgroups</td>
-      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`.</td>
+      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the
+              Bottle`.</td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -858,7 +859,7 @@ The following table shows the information about each menu group at your restaura
     </tr>
     <tr>
       <td>imageLink</td>
-      <td>A URL to an image located on Amazon S3. For example:<br/>https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
+      <td>A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
       <td>String</td>
     </tr>
     <tr>
@@ -920,7 +921,7 @@ The following table shows the information about each menu item at your restauran
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>This value only applies to items in a [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup)object.</td>
+      <td>This value only applies to items in a [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup) object.</td>
       <td>Integer</td>
     </tr>
     <tr>
@@ -960,7 +961,7 @@ The following table shows the information about each menu item at your restauran
     </tr>
     <tr>
       <td>imageLink</td>
-      <td>A URL to an image located on Amazon S3. For example:<br/>https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
+      <td>A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1012,7 +1013,7 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.<br/>As an example of a menu option group with a maximum greater than one, assume this configuration:
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration:
 ```
 Group: Cheese
 Items: ( Cheddar, American, Swiss )
@@ -1020,7 +1021,7 @@ maxSelections: 2
 minSelections: 1
 ```
 
-<br/>This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the `minSelections`value).</li></ul></td>
+ <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the `minSelections` value).</li></ul></td>
       <td>Integer or null</td>
     </tr>
     <tr>
@@ -1030,7 +1031,7 @@ minSelections: 1
     </tr>
     <tr>
       <td>pricingStrategy</td>
-      <td>Indicates the way prices are set for the options in this menu option group. Values are:<ul><li>`NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).</li><li>`BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li>`SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li>`UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></td>
+      <td>Indicates the way prices are set for the options in this menu option group. Values are:<ul><li>`NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE` if the [pricingMode](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup) is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED` (no additional cost is charged for the options in the menu option group).</li><li>`BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li>`SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li>`UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
@@ -1045,7 +1046,7 @@ minSelections: 1
     </tr>
     <tr>
       <td>defaultOptionsSubstitutionPricing</td>
-      <td>Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul><li>`NO` - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li>`YES` - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul><br/>There are two scenarios that can occur with substitution pricing:<ul><li>If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li>If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></td>
+      <td>Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul><li>`NO` - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li>`YES` - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul> <br/> There are two scenarios that can occur with substitution pricing:<ul><li>If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li>If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
@@ -1082,7 +1083,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody>
     <tr>
       <td>basePrice</td>
-      <td>Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
+      <td>Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup) is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
 ```
 "optionGroups": [ 
 {
@@ -1102,12 +1103,12 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr>
       <td>numberOfLevels</td>
-      <td>Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices)array.</td>
+      <td>Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup) is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices) array.</td>
       <td>Number</td>
     </tr>
     <tr>
       <td>sequencePrices</td>
-      <td>Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:
+      <td>Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels) value. For example:
 ```
 "optionGroups": [ 
 {
@@ -1197,7 +1198,8 @@ The following table shows the information about the premodifiers or postmodifier
   <tbody>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON SIDE`.</td>
+      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON
+              SIDE`.</td>
       <td>String</td>
     </tr>
     <tr>

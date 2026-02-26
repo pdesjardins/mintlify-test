@@ -128,7 +128,7 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
     </tr>
     <tr>
       <td>`managementGroupGuid`</td>
-      <td>The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group.<br/>If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</td>
+      <td>The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group. <br/> If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</td>
     </tr>
     <tr>
       <td>`restaurantName`</td>
@@ -136,7 +136,7 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
     </tr>
     <tr>
       <td>`locationName`</td>
-      <td>The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.<br/>For example, a restaurant group might assign a location code such as `#1234` to a specific location.</td>
+      <td>The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web. <br/> For example, a restaurant group might assign a location code such as `#1234` to a specific location.</td>
     </tr>
     <tr>
       <td>`createdByEmailAddress`</td>
@@ -144,11 +144,11 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
     </tr>
     <tr>
       <td>`externalGroupRef`</td>
-      <td>An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint.<br/>This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.<br/>For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
+      <td>An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
     </tr>
     <tr>
       <td>`externalRestaurantRef`</td>
-      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint.<br/>This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.<br/>For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
+      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
     </tr>
     <tr>
       <td>`isoCreatedDate`</td>

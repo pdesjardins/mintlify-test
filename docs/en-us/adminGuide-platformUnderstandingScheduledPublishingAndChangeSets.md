@@ -150,7 +150,7 @@ You can view a change set's status on the Toast account &gt; Publishing &gt; Pub
   <tbody>
     <tr>
       <td>Incomplete</td>
-      <td>The change set has a description but changes are not assigned to it yet.<br/>Incomplete change sets may or may not have a publish date.</td>
+      <td>The change set has a description but changes are not assigned to it yet. <br/> Incomplete change sets may or may not have a publish date.</td>
     </tr>
     <tr>
       <td>Not scheduled</td>
@@ -170,14 +170,14 @@ You can view a change set's status on the Toast account &gt; Publishing &gt; Pub
     </tr>
     <tr>
       <td>Partial publish</td>
-      <td>Some of the changes in the changes set were successfully saved and published but some failed.<br/>Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes.<br/>For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
+      <td>Some of the changes in the changes set were successfully saved and published but some failed. <br/> Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
 
 > **Note**
 > 
 > The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
 
 
-<br/>To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully.<br/>See [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information.
+ <br/> To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully. <br/> See [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information.
 
 > **Note**
 > 
@@ -393,11 +393,11 @@ The following table describes the columns in the error CSV files. Two of the col
     </tr>
     <tr>
       <td>`locationId`</td>
-      <td>This column only appears in the `publishing_errors-[change-set-name].csv`file.<br/>The unique identifier, or `GUID`, of the location where the publishing attempt failed.</td>
+      <td>This column only appears in the `publishing_errors-[change-set-name].csv` file. <br/> The unique identifier, or `GUID`, of the location where the publishing attempt failed.</td>
     </tr>
     <tr>
       <td>`locationName`</td>
-      <td>This column only appears in the `publishing_errors-[change-set-name].csv`file.<br/>The name of the location where the publishing attempt failed.</td>
+      <td>This column only appears in the `publishing_errors-[change-set-name].csv` file. <br/> The name of the location where the publishing attempt failed.</td>
     </tr>
     <tr>
       <td>`entityType`</td>
@@ -405,7 +405,7 @@ The following table describes the columns in the error CSV files. Two of the col
     </tr>
     <tr>
       <td>`entityId`</td>
-      <td>The unique identifier, or `GUID`, that the Toast platform generates for the menu entity. See [Toast identifiers](apiDevGuide-portalToastIdentifiers)for more information on `GUID`s.</td>
+      <td>The unique identifier, or `GUID`, that the Toast platform generates for the menu entity. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information on `GUID`s.</td>
     </tr>
     <tr>
       <td>`entityName`</td>
@@ -441,14 +441,14 @@ The table below describes the error codes that you may see in the `publishing_er
   <tbody>
     <tr>
       <td>`ErrorConfigNeverPublished`</td>
-      <td>The menu entity has never been published to the location listed in the `locationName` column. Most menu entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes.<br/>Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes.<br/>For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
+      <td>The menu entity has never been published to the location listed in the `locationName` column. Most menu entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
 
 > **Note**
 > 
 > The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
 
 
-<br/>To resolve the `ErrorConfigNeverPublished` error, [manually publish](adminGuide-platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully.</td>
+ <br/> To resolve the `ErrorConfigNeverPublished` error, [manually publish](adminGuide-platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully.</td>
     </tr>
     <tr>
       <td>`ErrorInternalPublishing`</td>
@@ -479,15 +479,19 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
       <td>The menu item in the change set was archived and edits cannot be made to it.</td>
     </tr>
     <tr>
-      <td>`You are not permitted to access this resource`</td>
-      <td>The [owner](adminGuide-ownersAndPermissions) of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to the location or location group that now owns the menu item.</td>
+      <td>`You are not permitted to access this
+                resource`</td>
+      <td>The [owner](adminGuide-ownersAndPermissions) of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to the location or location group that now owns the menu item.</td>
     </tr>
     <tr>
       <td>`ParameterValidationError`</td>
       <td>This error can be caused by either of the following:<ul><li>The change set contains an edit to a price but that price has been deleted from the menu item. For example, the change set includes an edit to the location-specific price for the New York location, but the New York location-specific price has been removed from the menu item.</li><li>The pricing strategy of the menu item has changed to a strategy that is not compatible with the pricing edit in the change set. For example, Menu Item A uses the menu-specific pricing strategy. A user adds another menu-specific price to Menu Item A and saves it in a change set to be published in one week. Before the change set executes, another user changes Menu Item A's pricing strategy to location-specific pricing. At this point, the menu-specific price defined in the change set is no longer compatible with Menu Item A's location-specific pricing strategy.</li></ul></td>
     </tr>
     <tr>
-      <td>`Price was not updated because the pricing strategy for location-specific price with target {target} changed. Check the price setup for item {item guid}.`</td>
+      <td>`Price was not updated because the pricing
+                strategy for location-specific price with target
+                {target} changed. Check the price setup for
+                item {item guid}.`</td>
       <td>This error can be caused by either of the following:<ul><li>You scheduled a change to a location-specific price that uses the base pricing strategy and, after scheduling the change, you updated the location-specific price to use a strategy other than base price.</li><li>You scheduled a change to a location-specific price that uses the menu-specific pricing strategy and, after scheduling the change, you updated the location-specific price to use a strategy other than menu-specific.</li></ul></td>
     </tr>
   </tbody>

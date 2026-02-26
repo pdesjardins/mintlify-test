@@ -56,7 +56,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory/update
 
     <tr>
       <td>[(1)](#co-d1e1511646327542)</td>
-      <td>Use the `Toast-Restaurant-External-ID`request parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
+      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e1531646327542)</td>

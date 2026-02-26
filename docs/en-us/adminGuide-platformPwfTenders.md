@@ -186,7 +186,7 @@ When you pre-authorize a card, you either authorize the current check total, or 
   <tbody>
     <tr>
       <td>No menu items on check</td>
-      <td>The guest's account is pre-authorized for the Minimum Pre-Authorization Amount found in Toast Web at Payments &gt; Payment methods &gt; Payment options.</td>
+      <td>The guest's account is pre-authorized for the Minimum Pre-Authorization Amount found in Toast Web at Payments > Payment methods > Payment options.</td>
     </tr>
     <tr>
       <td>Menu items on check</td>

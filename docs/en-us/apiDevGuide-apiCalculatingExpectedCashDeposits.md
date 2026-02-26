@@ -296,7 +296,7 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
     </tr>
     <tr>
       <td>[(16)](#co-d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
-      <td>Send a `GET` request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the `type`value `CASH_COLLECTED`.</td>
+      <td>Send a `GET` request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the `type` value `CASH_COLLECTED`.</td>
     </tr>
     <tr>
       <td>[(17)](#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>

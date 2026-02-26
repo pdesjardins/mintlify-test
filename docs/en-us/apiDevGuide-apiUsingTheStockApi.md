@@ -191,7 +191,7 @@ The following example shows the JSON response data for a GET request to the `/in
     </tr>
     <tr>
       <td>[(4)](#co-d1e4591646253216)</td>
-      <td>The `multiLocationId` value for the menu item.<br/>Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
+      <td>The `multiLocationId` value for the menu item. <br/> Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e4611646253216)</td>
@@ -291,7 +291,7 @@ The following example shows the JSON response for the `GET` request.
     </tr>
     <tr>
       <td>[(3)](#co-d1e7131646253216)</td>
-      <td>The `status` value is `OUT_OF_STOCK`for the menu item. The `status` value would be `QUANTITY` if you had specified `status=QUANTITY` as the request parameter.</td>
+      <td>The `status` value is `OUT_OF_STOCK` for the menu item. The `status` value would be `QUANTITY` if you had specified `status=QUANTITY` as the request parameter.</td>
     </tr>
     <tr>
       <td>[(4)](#co-d1e7151646253216)</td>
@@ -299,7 +299,7 @@ The following example shows the JSON response for the `GET` request.
     </tr>
     <tr>
       <td>[(5)](#co-d1e7171646253216)</td>
-      <td>The `multiLocationId` value for the menu item.<br/>Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
+      <td>The `multiLocationId` value for the menu item. <br/> Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
     </tr>
   
 ## Searching inventory for specific menu items
@@ -391,7 +391,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory/search
     </tr>
     <tr>
       <td>[(3)](#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00)</td>
-      <td>Include the menu item list in the message body of the `POST` request. This example **curl** command sends message body data from the contents of the `my-item-search-data.json`file.</td>
+      <td>Include the menu item list in the message body of the `POST` request. This example **curl** command sends message body data from the contents of the `my-item-search-data.json` file.</td>
     </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/inventory/search` resource.
@@ -452,7 +452,7 @@ The following example shows the JSON response data for a `POST` request to the `
     </tr>
     <tr>
       <td>[(4)](#co-d1e12001724334625)</td>
-      <td>The `multiLocationId` value for the menu item.<br/>Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
+      <td>The `multiLocationId` value for the menu item. <br/> Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e12021724334625)</td>

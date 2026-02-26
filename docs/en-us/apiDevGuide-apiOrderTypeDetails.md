@@ -223,7 +223,7 @@ The following example shows the message body for a `POST`request to the `/orders
     </tr>
     <tr>
       <td>[(5)](#co-d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8)</td>
-      <td>You must include a `checks` value with at least one `Check` object. The check does not need to include any menu item selections. You can optionally include a `customer`value with information about the restaurant guest.</td>
+      <td>You must include a `checks` value with at least one `Check` object. The check does not need to include any menu item selections. You can optionally include a `customer` value with information about the restaurant guest.</td>
     </tr>
     <tr>
       <td>[(6)](#dineInEmail)</td>
@@ -542,7 +542,7 @@ The following example shows the message body for a `POST`request to the `/orders
 
     <tr>
       <td>[(1)](#co-d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
-      <td>The GUID of the dining option for the order. For a curbside pickup dining option, `behavior` is `TAKE_OUT`and `curbside` is `true`.</td>
+      <td>The GUID of the dining option for the order. For a curbside pickup dining option, `behavior` is `TAKE_OUT` and `curbside` is `true`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
@@ -759,7 +759,7 @@ The following example shows the message body for a `POST`request to the `/orders
     </tr>
     <tr>
       <td>[(3)](#co-d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B)</td>
-      <td>The `customer` object contains information about the guest who will receive the order. The `customer` object is required for delivery orders. The `firstName`, `lastName`, `phone`, and `email`values are required. The data must be formatted correctly.</td>
+      <td>The `customer` object contains information about the guest who will receive the order. The `customer` object is required for delivery orders. The `firstName`, `lastName`, `phone`, and `email` values are required. The data must be formatted correctly.</td>
     </tr>
     <tr>
       <td>[(4)](#delivEmailUnique)</td>

@@ -187,7 +187,7 @@ https://`[toast-api-hostname]`/authentication/v1/authentication/login
     </tr>
     <tr>
       <td>[(4)](#co-d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
-      <td>Send the request to the `/authentication/login`endpoint of the authentication API.</td>
+      <td>Send the request to the `/authentication/login` endpoint of the authentication API.</td>
     </tr>
   
 ### Authentication return data

@@ -63,7 +63,7 @@ The following table specifies the set of values returned in the check reporting 
       <td>The most recent date that the check was modified.</td>
     </tr>
     <tr>
-      <td>`checkStatus`</td>
+      <td>`checkStatus `</td>
       <td>The payment state of the check. The state can be one of the following values: <ul><li>`OPEN` : The check is open and unpaid.</li><li>`PAID` : The check is paid, but the payment is not finalized.</li><li>`CLOSED` : The check payment is finalized.</li></ul></td>
     </tr>
     <tr>
@@ -108,7 +108,7 @@ The following table specifies the set of values returned in the check reporting 
     </tr>
     <tr>
       <td>`restaurantName`</td>
-      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET`request.</td>
+      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET` request.</td>
     </tr>
   </tbody>
 </table>

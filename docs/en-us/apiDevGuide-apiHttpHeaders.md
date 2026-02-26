@@ -40,7 +40,7 @@ The following table describes the Toast-specific HTTP headers included with webh
   <tbody>
     <tr>
       <td>`Toast-Attempt-Number`</td>
-      <td>Indicates how many times the Toast platform has sent the webhook message.<br/>The first time the Toast platform sends a webhook message, the `Toast-Attempt-Number` is `1`. If the Toast platform retries sending the message, it increments the number. For information about retrying webhook messages, see [Retry support](apiDevGuide-apiRetrySupport).</td>
+      <td>Indicates how many times the Toast platform has sent the webhook message. <br/> The first time the Toast platform sends a webhook message, the `Toast-Attempt-Number` is `1`. If the Toast platform retries sending the message, it increments the number. For information about retrying webhook messages, see [Retry support](apiDevGuide-apiRetrySupport).</td>
     </tr>
     <tr>
       <td>`Toast-Signature`</td>
@@ -48,7 +48,7 @@ The following table describes the Toast-specific HTTP headers included with webh
     </tr>
     <tr>
       <td>`Toast-Event-Type`</td>
-      <td>The type of event that has occurred, for example, a `partner_added` event for the `partners`webhook or a `low_quantity` event for the `stock` webhook.</td>
+      <td>The type of event that has occurred, for example, a `partner_added` event for the `partners` webhook or a `low_quantity` event for the `stock` webhook.</td>
     </tr>
     <tr>
       <td>`Toast-Restaurant-External-ID`</td>
@@ -96,7 +96,8 @@ In addition to the Toast-specific HTTP headers, webhook events include the stand
     </tr>
     <tr>
       <td>`User-Agent`</td>
-      <td>`Apache-HttpClient/4.5.10 (Java/1.8.0_212)`</td>
+      <td>`Apache-HttpClient/4.5.10
+              (Java/1.8.0_212)`</td>
     </tr>
   </tbody>
 </table>

@@ -345,7 +345,7 @@ The `Order` object in the following example creates a marketplace facilitator or
     </tr>
     <tr>
       <td>[(5)](#co-d1e396FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>
-      <td>The Toast platform GUID of the Sizemodifier group that is used for size pricing.</td>
+      <td>The Toast platform GUID of the Size modifier group that is used for size pricing.</td>
     </tr>
     <tr>
       <td>[(6)](#co-d1e398FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>

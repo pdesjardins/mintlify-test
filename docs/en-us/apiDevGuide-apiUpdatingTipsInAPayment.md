@@ -81,7 +81,7 @@ The following example shows a `Payment` object that updates the tip amount for a
 
     <tr>
       <td>[(1)](#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
-      <td>The updated tip amount. The tip amount for the payment is completely replaced by the `tipAmount` value that you include in the message body of the `PATCH`request.</td>
+      <td>The updated tip amount. The tip amount for the payment is completely replaced by the `tipAmount` value that you include in the message body of the `PATCH` request.</td>
     </tr>
 ## Example response when you update a tip in an existing payment
 
@@ -165,5 +165,5 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
     </tr>
     <tr>
       <td>[(5)](#co-paymentStatus)</td>
-      <td>When you update a tip amount, the `paymentStatus`value must be `AUTHORIZED`.</td>
+      <td>When you update a tip amount, the `paymentStatus` value must be `AUTHORIZED`.</td>
     </tr>

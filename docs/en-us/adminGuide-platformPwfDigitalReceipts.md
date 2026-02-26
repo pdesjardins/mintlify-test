@@ -31,7 +31,7 @@ The following table describes the functionality differences when you enable or d
   <tbody>
     <tr>
       <td>Enabled</td>
-      <td><ul><li>Guests select a tip amount.</li><li>The POS app displays Text, Email, and Printreceipt options on the guest-facing display, Toast Go, and flip tablet devices.</li><li>If your restaurant uses Toast Loyalty, guests are asked to sign up for your loyalty program, or sign into an existing loyalty account.</li><li>If your restaurant has enabled Guest Feedback, the Toast Go guests are asked to complete an experience survey.</li><li>The payment screen does not show the optional Tip box seen when digital receipts are disabled.</li></ul></td>
+      <td><ul><li>Guests select a tip amount.</li><li>The POS app displays Text, Email, and Print receipt options on the guest-facing display, Toast Go, and flip tablet devices.</li><li>If your restaurant uses Toast Loyalty, guests are asked to sign up for your loyalty program, or sign into an existing loyalty account.</li><li>If your restaurant has enabled Guest Feedback, the Toast Go guests are asked to complete an experience survey.</li><li>The payment screen does not show the optional Tip box seen when digital receipts are disabled.</li></ul></td>
     </tr>
     <tr>
       <td>Disabled</td>

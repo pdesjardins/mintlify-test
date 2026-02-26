@@ -327,22 +327,22 @@ Use the following information from the orders API response to update the reserva
     <tr>
       <td>Dining option</td>
       <td>`order.diningOption.guid`</td>
-      <td>Review the `guid` value associated with the `diningOption` assigned to the order to understand dining behavior. <br/>Orders associated with reservations will have a `diningOption`with a `DINE_IN` dining behavior. <br/>For more information, see the orders API reference documentation on the [`diningOption`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response)object.</td>
+      <td>Review the `guid` value associated with the `diningOption` assigned to the order to understand dining behavior.  <br/> Orders associated with reservations will have a `diningOption` with a `DINE_IN` dining behavior.  <br/> For more information, see the orders API reference documentation on the [`diningOption`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response) object.</td>
     </tr>
     <tr>
       <td>Guest count</td>
       <td>`order.numberOfGuests`</td>
-      <td>Review the value associated with the `numberOfGuests` assigned to the order to understand guest count. <br/>For more information, see the orders API reference documentation on the [`numberOfGuests`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response)key.</td>
+      <td>Review the value associated with the `numberOfGuests` assigned to the order to understand guest count.  <br/> For more information, see the orders API reference documentation on the [`numberOfGuests`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response) key.</td>
     </tr>
     <tr>
       <td>Order status</td>
       <td>`order.closedDate`</td>
-      <td>Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon. <br/>For more information, see the orders API reference documentation on the [`closedDate`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response).</td>
+      <td>Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon.  <br/> For more information, see the orders API reference documentation on the [`closedDate`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response).</td>
     </tr>
     <tr>
       <td>Table</td>
       <td>`order.table.guid`</td>
-      <td>Review the `guid` value associated with the `table` assigned to the order to understand `table` assignment. <br/>For more information, see the orders API reference documentation on the [`table`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response)object. <br/>To understand the `table guid`values, send a `GET` request to the [`/tables`](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)endpoint of the configuration API to retrieve the restaurant's tables.</td>
+      <td>Review the `guid` value associated with the `table` assigned to the order to understand `table` assignment.  <br/> For more information, see the orders API reference documentation on the [`table`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response) object.  <br/> To understand the `table guid` values, send a `GET` request to the [`/tables`](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/) endpoint of the configuration API to retrieve the restaurant's tables.</td>
     </tr>
   </tbody>
 </table>

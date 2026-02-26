@@ -61,19 +61,19 @@ Attributes in the `orders_updated` payload include:
   <tbody>
     <tr>
       <td>`timestamp`</td>
-      <td>The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz.<br/>data type: string</td>
+      <td>The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`eventCategory`</td>
-      <td>`order_updated` or `channel_order_updated`.<br/>data type: string</td>
+      <td>`order_updated` or `channel_order_updated`. <br/> data type: string</td>
     </tr>
     <tr>
       <td>`eventType`</td>
-      <td>`order_updated` or `channel_order_updated`.<br/> data type: string </td>
+      <td>`order_updated` or `channel_order_updated`. <br/>  data type: string </td>
     </tr>
     <tr>
       <td>`guid`</td>
-      <td>A unique Toast platform identifier for the webhook event.<br/>data type:string<br/>format:UUID</td>
+      <td>A unique Toast platform identifier for the webhook event. <br/> data type: string <br/> format: UUID</td>
     </tr>
     <tr>
       <td>`details`</td>

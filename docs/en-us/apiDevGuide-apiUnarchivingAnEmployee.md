@@ -93,7 +93,7 @@ The following example shows the response for a `PUT` request to unarchive an emp
 
     <tr>
       <td>[(1)](#co-d1e1426B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
-      <td>When you unarchive an employee, the `deleted`value is set to `false`.</td>
+      <td>When you unarchive an employee, the `deleted` value is set to `false`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>

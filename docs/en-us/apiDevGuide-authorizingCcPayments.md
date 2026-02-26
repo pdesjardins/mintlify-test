@@ -201,7 +201,7 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
     </tr>
     <tr>
       <td>[(10)](#first6)</td>
-      <td>The first six digits of the credit card number. The first six digits are the bank identification number (BIN) for the card. The value must match exactly the information provided in the encrypted card data. This value is required when `cardNumberOrigin`is `END_USER`.</td>
+      <td>The first six digits of the credit card number. The first six digits are the bank identification number (BIN) for the card. The value must match exactly the information provided in the encrypted card data. This value is required when `cardNumberOrigin` is `END_USER`.</td>
     </tr>
     <tr>
       <td>[(11)](#last4)</td>
@@ -316,11 +316,11 @@ The following table provides more information about the values you include in th
   <tbody>
     <tr>
       <td>`END_USER`</td>
-      <td>The guest provided the credit card information directly.<br/>The `PaymentRequestMetadata`object in the `requestMetadata` value *must* include: <ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
+      <td>The guest provided the credit card information directly. <br/> The `PaymentRequestMetadata` object in the `requestMetadata` value *must* include: <ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
     </tr>
     <tr>
       <td>`PARTNER_VAULT`</td>
-      <td>Your integration retrieved the credit card information from secure storage.<br/>The `PaymentRequestMetadata` object in the `requestMetadata` value *must*include:<ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
+      <td>Your integration retrieved the credit card information from secure storage. <br/> The `PaymentRequestMetadata` object in the `requestMetadata` value *must* include:<ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -449,7 +449,7 @@ The following example shows credit card information that you encrypt and base64 
     </tr>
     <tr>
       <td>[(3)](#co-d1e5785CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
-      <td>The three- or four-digit card verification value (CVV) of the card. When `cardNumberOrigin` is `PARTNER_VAULT` in the credit card authorization request, the CVV is not required, but it is validated for correctness if it is submitted. If you do not submit a CVV on a credit card authorization request, you can either omit the `cvv`value on your authorization, or submit a `cvv` value of `null`. The `cvv` value you submit should not be an empty string (`""`).</td>
+      <td>The three- or four-digit card verification value (CVV) of the card. When `cardNumberOrigin` is `PARTNER_VAULT` in the credit card authorization request, the CVV is not required, but it is validated for correctness if it is submitted. If you do not submit a CVV on a credit card authorization request, you can either omit the `cvv` value on your authorization, or submit a `cvv` value of `null`. The `cvv` value you submit should not be an empty string (`""`).</td>
     </tr>
     <tr>
       <td>[(4)](#co-d1e5985CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
@@ -616,7 +616,7 @@ openssl pkeyutl \
     </tr>
     <tr>
       <td>[(6)](#co-d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
-      <td>This **tr** command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON `encryptedCardData`value for a credit cards API authorization request.</td>
+      <td>This **tr** command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON `encryptedCardData` value for a credit cards API authorization request.</td>
     </tr>
   
 ### Encryption keys and key identifiers

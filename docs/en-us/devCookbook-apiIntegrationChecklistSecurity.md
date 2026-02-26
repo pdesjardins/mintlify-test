@@ -90,7 +90,7 @@ The following table provides suggested information that you can use when display
     </tr>
     <tr>
       <td>Menu item selections</td>
-      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the `displayName`value within the `Selection` object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li></ul></td>
+      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the `displayName` value within the `Selection` object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li></ul></td>
     </tr>
     <tr>
       <td>Payments</td>

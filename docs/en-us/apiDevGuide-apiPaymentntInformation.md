@@ -135,7 +135,7 @@ The following example shows the JSON response data for a GET request to the `/pa
     </tr>
     <tr>
       <td>[(11)](#co-d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>If the payment has been refunded, this value contains a `Refund` object with information about the refund. For details, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments). The value is `null`if the payment has not been refunded.</td>
+      <td>If the payment has been refunded, this value contains a `Refund` object with information about the refund. For details, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments). The value is `null` if the payment has not been refunded.</td>
     </tr>
   
 The following sections provide information about voided and refunded payments.

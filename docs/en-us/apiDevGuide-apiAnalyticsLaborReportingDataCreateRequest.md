@@ -116,7 +116,7 @@ The following example shows the message body for creating a labor reporting data
     </tr>
     <tr>
       <td>[(4)](#co-d1e4450134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the labor reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the labor reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e4452134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>

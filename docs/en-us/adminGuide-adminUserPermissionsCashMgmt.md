@@ -30,43 +30,43 @@ The following table lists the permissions that are required for specific cash ma
   <tbody>
     <tr>
       <td>Open the cash drawer in order to provide change and finalize cash transactions.</td>
-      <td>POS Access &gt; Cash Drawer Access</td>
+      <td>POS Access > Cash Drawer Access</td>
     </tr>
     <tr>
-      <td>Accept a cash payment against a check with an open balance due. In addition to this permission, the employee's Toast POS device must have the Allow Cash Paymentsdevice setting enabled.</td>
-      <td>POS Access &gt; Apply Cash Payments</td>
+      <td>Accept a cash payment against a check with an open balance due. In addition to this permission, the employee's Toast POS device must have the Allow Cash Payments device setting enabled.</td>
+      <td>POS Access > Apply Cash Payments</td>
     </tr>
     <tr>
       <td>[Undo cash entries](adminGuide-adminUndoingOperations) in a cash drawer. Also allows the No Sale button to be displayed on the Order screen while in Quick Order mode. Use the No Sale button to open the cash drawer without having to complete a transaction. This permission also allows employees to do their own shift reviews.</td>
-      <td>POS Access &gt; No Sale</td>
+      <td>POS Access > No Sale</td>
     </tr>
     <tr>
-      <td>Full Access permits the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission also allows the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts.<br/>For an employee to access the Reports &gt; Cash and loss management &gt; Drawer history and Cash activity auditreports on a POS device, must have the Restaurant Admin &gt; 4.1 Sales Reports permission assigned.</td>
-      <td>Manager &gt; Cash Drawers (Full)</td>
+      <td>Full Access permits the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission also allows the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts. <br/> For an employee to access the Reports > Cash and loss management > Drawer history and Cash activity audit reports on a POS device, must have the Restaurant Admin > 4.1 Sales Reports permission assigned.</td>
+      <td>Manager > Cash Drawers (Full)</td>
     </tr>
     <tr>
-      <td>Blind Access does not allow the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission, however, does allow the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts.<br/>Recommended for a cashier who closes a shift by counting cash in the drawer without knowing what the expected amount should be, while also being able to do other cash adjustments.</td>
-      <td>Manager &gt; Cash Drawers (Blind)</td>
+      <td>Blind Access does not allow the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission, however, does allow the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts. <br/> Recommended for a cashier who closes a shift by counting cash in the drawer without knowing what the expected amount should be, while also being able to do other cash adjustments.</td>
+      <td>Manager > Cash Drawers (Blind)</td>
     </tr>
     <tr>
-      <td>Take payments and put money in cash drawers that are locked to other users. This permission also allows the employee to close any cash drawer and (if they also have the Manager &gt; 3.22 Pay Out permission) to authorize pay outs from any cash drawer.</td>
-      <td>Manager &gt; Cash Drawer Lockdown (Override)</td>
+      <td>Take payments and put money in cash drawers that are locked to other users. This permission also allows the employee to close any cash drawer and (if they also have the Manager > 3.22 Pay Out permission) to authorize pay outs from any cash drawer.</td>
+      <td>Manager > Cash Drawer Lockdown (Override)</td>
     </tr>
     <tr>
-      <td>Input or approve a large cash over/under amount while closing out a cash drawer. The threshold for this amount is set on the Payments &gt; Payment methods &gt; Cash overview &gt; Cash drawer variance &gt; Cash drawer variancescreen. </td>
-      <td>Manager &gt; Large Cash Over/Under</td>
+      <td>Input or approve a large cash over/under amount while closing out a cash drawer. The threshold for this amount is set on the Payments > Payment methods > Cash overview > Cash drawer variance > Cash drawer variance screen. </td>
+      <td>Manager > Large Cash Over/Under</td>
     </tr>
     <tr>
       <td>Adjust the starting balance of a cash drawer.</td>
-      <td>Manager &gt; Adjust Cash Drawer Start Balance</td>
+      <td>Manager > Adjust Cash Drawer Start Balance</td>
     </tr>
     <tr>
       <td>Take a cash payment from the restaurant (house) or any cash drawer that is not locked to a different employee.</td>
-      <td>Manager &gt; Pay Out</td>
+      <td>Manager > Pay Out</td>
     </tr>
     <tr>
-      <td>Access the Reports &gt; Sales &gt; Sales summary report and use the Sales Summary, Orders, Order Details, Payments, Shifts, Cash Activity Audit, and Cash Drawer Historyreport tabs for order details, transaction details, shifts, and cash information.<br/>For an employee to access the Cash Drawer History and Cash Activity Audit reports on a POS device, must have the the 3.18 Cash Drawers (Full)permission assigned.</td>
-      <td>Restaurant Admin &gt; Sales Reports</td>
+      <td>Access the Reports > Sales > Sales summary report and use the Sales Summary, Orders, Order Details, Payments, Shifts, Cash Activity Audit, and Cash Drawer History report tabs for order details, transaction details, shifts, and cash information. <br/> For an employee to access the Cash Drawer History and Cash Activity Audit reports on a POS device, must have the the 3.18 Cash Drawers (Full) permission assigned.</td>
+      <td>Restaurant Admin > Sales Reports</td>
     </tr>
   </tbody>
 </table>

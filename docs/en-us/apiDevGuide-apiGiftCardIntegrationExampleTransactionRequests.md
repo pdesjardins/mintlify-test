@@ -55,7 +55,7 @@ The following example shows an example gift card integration API request.
     </tr>
     <tr>
       <td>[(4)](#co-d1e7869F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>This header parameter supplies an identifier for the specific transaction request. You must keep this identifier in your integration implementation. The Toast platform may refer to the transaction identifier in a future `GIFTCARD_REVERSE`transaction. For more information, see [Gift card transaction types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes).</td>
+      <td>This header parameter supplies an identifier for the specific transaction request. You must keep this identifier in your integration implementation. The Toast platform may refer to the transaction identifier in a future `GIFTCARD_REVERSE` transaction. For more information, see [Gift card transaction types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes).</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e7889F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
@@ -67,7 +67,7 @@ The following example shows an example gift card integration API request.
     </tr>
     <tr>
       <td>[(7)](#co-d1e7939F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>Because this gift card transaction type is `GIFTCARD_REDEEM`, the `GiftCardTransaction`object includes a `redeemTransactionInformation`value.</td>
+      <td>Because this gift card transaction type is `GIFTCARD_REDEEM`, the `GiftCardTransaction` object includes a `redeemTransactionInformation` value.</td>
     </tr>
     <tr>
       <td>[(8)](#co-d1e7959F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>

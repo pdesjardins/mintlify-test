@@ -38,7 +38,7 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
     <tr>
       <td>AUTH DECLINED</td>
-      <td>Do not honor<br/>Transaction not permitted to issuer/cardholder<br/>Exceeds withdrawal limit<br/>Domain Restriction Controls Fail<br/>Declined-transaction in violation of law<br/>Declined PIN attempts</td>
+      <td>Do not honor <br/> Transaction not permitted to issuer/cardholder <br/> Exceeds withdrawal limit <br/> Domain Restriction Controls Fail <br/> Declined-transaction in violation of law <br/> Declined PIN attempts</td>
     </tr>
     <tr>
       <td>AUTH TRN NO AL'W</td>
@@ -46,15 +46,15 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
     <tr>
       <td>CALL OPER</td>
-      <td>Refer to card issuer<br/>Refer to call center</td>
+      <td>Refer to card issuer <br/> Refer to call center</td>
     </tr>
     <tr>
       <td>CALL VOICE OPER</td>
-      <td>Refer to card issuer<br/>Re-enter transaction</td>
+      <td>Refer to card issuer <br/> Re-enter transaction</td>
     </tr>
     <tr>
       <td>CARD EXPIRED</td>
-      <td>Expiration date check failed<br/>Expired card<br/>Card expiry date less than current date</td>
+      <td>Expiration date check failed <br/> Expired card <br/> Card expiry date less than current date</td>
     </tr>
     <tr>
       <td>CARDHLDR DECLINE</td>
@@ -66,7 +66,7 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
     <tr>
       <td>DECLINED</td>
-      <td>Declined by user<br/>Invalid effective date on card</td>
+      <td>Declined by user <br/> Invalid effective date on card</td>
     </tr>
     <tr>
       <td>ERR PROC FIELD</td>
@@ -78,7 +78,7 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
     <tr>
       <td>INV CARD NUMBER</td>
-      <td>Invalid cardholder account<br/>Account number not found in BIN table</td>
+      <td>Invalid cardholder account <br/> Account number not found in BIN table</td>
     </tr>
     <tr>
       <td>INVALID AMOUNT</td>
@@ -118,7 +118,7 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
     <tr>
       <td>PICK UP CARD </td>
-      <td>Pick up card <br/>Decline - pick up card<br/>Pick up card - No Fraud<br/>Pick up card (Special Condition)<br/>Pick up card (Special Condition)(Fraud Account)<br/>Lost card - pick up<br/>Stolen card - pick up</td>
+      <td>Pick up card  <br/> Decline - pick up card <br/> Pick up card - No Fraud <br/> Pick up card (Special Condition) <br/> Pick up card (Special Condition)(Fraud Account) <br/> Lost card - pick up <br/> Stolen card - pick up</td>
     </tr>
     <tr>
       <td>PIN TRIES EXCEED</td>
@@ -138,11 +138,11 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
     <tr>
       <td>TRANS DENIED</td>
-      <td>Do not honor<br/>Invalid cardholder account<br/>Unable to locate record<br/>Insufficient funds<br/>Restricted card<br/>Security violation<br/>Account activity limit exceeded<br/>Allowable number of PIN entry tries exceeded<br/>One or more errors in message<br/>File is unavailable<br/>No credit account<br/>Fraudulent activity detected</td>
+      <td>Do not honor <br/> Invalid cardholder account <br/> Unable to locate record <br/> Insufficient funds <br/> Restricted card <br/> Security violation <br/> Account activity limit exceeded <br/> Allowable number of PIN entry tries exceeded <br/> One or more errors in message <br/> File is unavailable <br/> No credit account <br/> Fraudulent activity detected</td>
     </tr>
     <tr>
       <td>TRANS NOT ALLOW</td>
-      <td>Transactions not allowed to cardholder<br/>Transactions not allowed to terminal<br/>Illegal transaction - violation of law<br/>Capture transactions not allowed for this payment type<br/>Capture transaction on authorization only terminal<br/>Private label transaction not allowed for terminal<br/>Store reporting transactions not allowed</td>
+      <td>Transactions not allowed to cardholder <br/> Transactions not allowed to terminal <br/> Illegal transaction - violation of law <br/> Capture transactions not allowed for this payment type <br/> Capture transaction on authorization only terminal <br/> Private label transaction not allowed for terminal <br/> Store reporting transactions not allowed</td>
     </tr>
   </tbody>
 </table>

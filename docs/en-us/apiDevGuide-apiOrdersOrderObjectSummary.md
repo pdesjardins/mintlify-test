@@ -652,7 +652,7 @@ For the menu item selection, the amounts are as follows:
     <tr>
       <td>`price`</td>
       <td>15.0</td>
-      <td>Subtract the total `discountAmount`(1.0) from the `preDiscountPrice`(16.0).</td>
+      <td>Subtract the total `discountAmount` (1.0) from the `preDiscountPrice` (16.0).</td>
     </tr>
     <tr>
       <td>`AppliedTax.taxAmount` (State tax)</td>

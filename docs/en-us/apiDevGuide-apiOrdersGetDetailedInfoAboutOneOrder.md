@@ -269,11 +269,11 @@ The following example shows the response data from the `/orders/{guid}` endpoint
 
     <tr>
       <td>[(1)](#co-d1e15009EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
-      <td>The `/orders/<em>{guid}</em>`endpoint returns an `Order` JSON object. For more information about the values in the `Order` object, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/).</td>
+      <td>The `/orders/<em>{guid}</em>` endpoint returns an `Order` JSON object. For more information about the values in the `Order` object, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/).</td>
     </tr>
     <tr>
       <td>[(2)](#apiOrdersDeliveryInfo)</td>
-      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read`scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
     </tr>
     <tr>
       <td>[(3)](#apiOrdersCurbsideInfo)</td>
@@ -285,7 +285,7 @@ The following example shows the response data from the `/orders/{guid}` endpoint
     </tr>
     <tr>
       <td>[(5)](#SeatNumberCO)</td>
-      <td>When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the `seatNumber` value on a `Selection`object represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then `seatNumber` is `0`. If no seat number is associated with the menu item selection, then `seatNumber`is `-1`.</td>
+      <td>When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the `seatNumber` value on a `Selection` object represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then `seatNumber` is `0`. If no seat number is associated with the menu item selection, then `seatNumber` is `-1`.</td>
     </tr>
     <tr>
       <td>[(6)](#apiOrdersCustomer)</td>

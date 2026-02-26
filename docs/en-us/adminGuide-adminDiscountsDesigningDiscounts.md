@@ -51,11 +51,11 @@ The following table shows discount types that are not complicated to configure. 
       <td>Buy a large cheese pizza at the normal price and get a large order of garlic bread for $3.00.</td>
     </tr>
     <tr>
-      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for any number of specific menu items.</td>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts) that apply a combo price for any number of specific menu items.</td>
       <td>Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00.</td>
     </tr>
     <tr>
-      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for any number of specific menu items and menu groups in which *all menu items have the same price and do not use size pricing*.</td>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts) that apply a combo price for any number of specific menu items and menu groups in which *all menu items have the same price and do not use size pricing*.</td>
       <td>Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00.</td>
     </tr>
   </tbody>
@@ -91,7 +91,7 @@ The following table shows discount types that you can configure, but that might 
       <td>Buy a large cheese pizza at the normal price and get a small appetizer (another menu group that uses size pricing) for $5.00.</td>
     </tr>
     <tr>
-      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for menu groups that use size pricing or that include items with different prices</td>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts) that apply a combo price for menu groups that use size pricing or that include items with different prices</td>
       <td>Buy any large or extra-large pizza (a menu group that uses size pricing) and a small appetizer (another menu group that uses size pricing) for $15.00. </td>
     </tr>
   </tbody>

@@ -97,7 +97,7 @@ The following example shows the message body for creating a guest reporting data
     </tr>
     <tr>
       <td>[(2)](#co-d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
     </tr>
     <tr>
       <td>[(3)](#co-d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>

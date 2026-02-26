@@ -154,7 +154,7 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
     </tr>
     <tr>
       <td>[(2)](#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D)</td>
-      <td>Use the same restaurant GUID in the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.</td>
+      <td>Use the same restaurant GUID in the `/restaurants/v1/restaurants/{restaurantGUID}` endpoint.</td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
@@ -299,7 +299,8 @@ The following example shows the JSON response data for a GET request to the `/re
     </tr>
     <tr>
       <td>[(2)](#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
-      <td>[General information](apiDevGuide-apiRestaurantInformation#restInfoGeneral) about the restaurant. The name of this sample restaurant is `Trattoria Roma`.</td>
+      <td>[General information](apiDevGuide-apiRestaurantInformation#restInfoGeneral) about the restaurant. The name of this sample restaurant is `Trattoria
+            Roma`.</td>
     </tr>
     <tr>
       <td>[(3)](#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
@@ -311,7 +312,7 @@ The following example shows the JSON response data for a GET request to the `/re
     </tr>
     <tr>
       <td>[(5)](#co-d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
-      <td>The [schedules and services](apiDevGuide-apiRestaurantInformation#restInfoSchedules)provided by the restaurant. This sample restaurant has two day schedules, named `Weekdays` and `Weekends`. Each day schedule has an `openTime` value that designates when the first service of the day begins and a `closeTime` value for when the last service of the day ends.</td>
+      <td>The [schedules and services](apiDevGuide-apiRestaurantInformation#restInfoSchedules) provided by the restaurant. This sample restaurant has two day schedules, named `Weekdays` and `Weekends`. Each day schedule has an `openTime` value that designates when the first service of the day begins and a `closeTime` value for when the last service of the day ends.</td>
     </tr>
     <tr>
       <td>[(6)](#co-d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
@@ -319,7 +320,7 @@ The following example shows the JSON response data for a GET request to the `/re
     </tr>
     <tr>
       <td>[(7)](#co-d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
-      <td>The [online ordering service](apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering)provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</td>
+      <td>The [online ordering service](apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering) provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</td>
     </tr>
     <tr>
       <td>[(8)](#apiRestaurantEnabled)</td>

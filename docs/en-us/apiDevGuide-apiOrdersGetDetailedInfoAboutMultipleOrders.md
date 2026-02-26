@@ -123,7 +123,7 @@ pageSize=10&page=2"
     </tr>
     <tr>
       <td>[(4)](#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
-      <td>To specify a period of time to return orders for, use the *`startDate`* and *`endDate`*query parameters.</td>
+      <td>To specify a period of time to return orders for, use the *`startDate`* and *`endDate`* query parameters.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
@@ -311,7 +311,7 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
     </tr>
     <tr>
       <td>[(2)](#apiOrdersBulkDeliveryInfo)</td>
-      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read`scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
     </tr>
     <tr>
       <td>[(3)](#apiOrdersBulkCurbsideInfo)</td>
