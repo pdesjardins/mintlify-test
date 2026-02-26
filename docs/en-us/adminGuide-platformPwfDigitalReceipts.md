@@ -35,9 +35,7 @@ The following table describes the functionality differences when you enable or d
     </tr>
     <tr>
       <td>Disabled</td>
-      <td><ul><li>For credit payments, a guest copy and a merchant copy are printed.</li><li>Guest-facing displays, Toast Go, and flip tablet devices do not present the guest with Print, Text or Email receipt options.</li><li>An optional tip box is added to the payment screen, as seen in the following diagram. When completing credit transactions, you can add a tip amount in this box, and the payment total is updated for the guest. Alternatively, You can still add tips after you complete a transaction by adjusting the closed check.![Image](https://doc.toasttab.com/doc/media/pwfPaymentScreenDRD.png)
-
-</li></ul></td>
+      <td><ul><li>For credit payments, a guest copy and a merchant copy are printed.</li><li>Guest-facing displays, Toast Go, and flip tablet devices do not present the guest with Print, Text or Email receipt options.</li><li>An optional tip box is added to the payment screen, as seen in the following diagram. When completing credit transactions, you can add a tip amount in this box, and the payment total is updated for the guest. Alternatively, You can still add tips after you complete a transaction by adjusting the closed check.![Image](https://doc.toasttab.com/doc/media/pwfPaymentScreenDRD.png)</li></ul></td>
     </tr>
   </tbody>
 </table>
