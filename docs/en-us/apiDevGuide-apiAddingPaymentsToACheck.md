@@ -80,16 +80,26 @@ The following example shows an array of `Payment` objects to add payments to a c
 
 
 
-(1) The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see Credit card payments.
-
-(2) The /orders/{orderGuid}/checks/{checkGuid}/paymentsendpoint only supports adding credit card payments. This value must be CREDIT.
-
-(3) The currency amount to apply to the check price in the added payment.
-
-(4) The currency amount of a tip or gratuity in the added payment.
-
- You can add one or more payments in the array. This example adds two payments to the check.
-
+    <tr>
+      <td>[(1)](#co-d1e1602C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see [Credit card payments](apiDevGuide-authorizingCcPayments).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1622C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint only supports adding credit card payments. This value must be `CREDIT`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1642C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The currency amount to apply to the check price in the added payment.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1662C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The currency amount of a tip or gratuity in the added payment.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#coSecondPaymentObjectInBodyParam)</td>
+      <td>You can add one or more payments in the array. This example adds two payments to the check.</td>
+    </tr>
 ## Example response data when adding a payment to an existing check
 
 The following example shows example response data for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.
@@ -154,11 +164,19 @@ The following example shows example response data for a `POST` request to the `/
 
 
 
-(1) The Toast platform GUID of the order that you added payments to.
-
-(2) The Toast platform GUID of the check that you added payments to.
-
-(3) The payments value in a check includes an array of Payment objects for the payments that are applied to the check. These payments include the payments that you added.
-
-(4) The Toast platform GUID of a payment that you added.
-
+    <tr>
+      <td>[(1)](#co-d1e1922C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The Toast platform GUID of the order that you added payments to.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1942C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The Toast platform GUID of the check that you added payments to.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1962C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The `payments` value in a check includes an array of `Payment` objects for the payments that are applied to the check. These payments include the payments that you added.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1982C4ACD83-A816-47C6-9522-28A21ED4EFA9)</td>
+      <td>The Toast platform GUID of a payment that you added.</td>
+    </tr>

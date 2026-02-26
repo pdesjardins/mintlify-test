@@ -56,11 +56,29 @@ You can have a combo discount in which one item is taxed and another is tax-exem
 
 For example, assume this combo discount:
 
-| Discount component | Amount | 
-| --- | --- |
-| NonTaxed item | $5.00 | 
-| Taxed item | $10.00 and taxed at 10% | 
-| Combo price for both items | $12.00 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Discount component</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NonTaxed item</td>
+      <td>$5.00</td>
+    </tr>
+    <tr>
+      <td>Taxed item</td>
+      <td>$10.00 and taxed at 10%</td>
+    </tr>
+    <tr>
+      <td>Combo price for both items</td>
+      <td>$12.00</td>
+    </tr>
+  </tbody>
+</table>
 
 Based on the weighing, the new price of the Taxed item is calculated as $8.00 and the NonTaxed item as $4.00, which adds up to the $12.00 price of the discount.
 
@@ -150,8 +168,23 @@ In this example:
 
 The discount in the example is applied as follows, depending on the configuration setting:
 
-| Configuration setting | Effect | 
-| --- | --- |
-| Consolidate discounts: Off | The fixed currency discount is applied to the total of all items:2 Sodas, $10 - $2 Discount = $8 | 
-| Consolidate discounts: On | The fixed currency discount is applied to each quantity of one item:2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuration setting</th>
+      <th>Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Consolidate discounts: Off</td>
+      <td>The fixed currency discount is applied to the total of all items:<br/>2 Sodas, $10 - $2 Discount = $8</td>
+    </tr>
+    <tr>
+      <td>Consolidate discounts: On</td>
+      <td>The fixed currency discount is applied to each quantity of one item:<br/>2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</td>
+    </tr>
+  </tbody>
+</table>
 

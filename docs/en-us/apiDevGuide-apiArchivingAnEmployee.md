@@ -66,8 +66,10 @@ https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec73
 
 
 
-(1) Include the Toast platform identifier for the employee in the path parameter of the request.
-
+    <tr>
+      <td>[(1)](#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400)</td>
+      <td>Include the Toast platform identifier for the employee in the path parameter of the request.</td>
+    </tr>
   
 ## Example response to archiving an employee
 
@@ -100,8 +102,12 @@ The following example shows the response for a `DELETE` request to archive an em
 
 
 
-(1) When you archive an employee, the deletedvalue is set to true.
-
-(2) The deletedDate value indicates the date and time you archived the employee.
-
+    <tr>
+      <td>[(1)](#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
+      <td>When you archive an employee, the `deleted`value is set to `true`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
+      <td>The `deletedDate` value indicates the date and time you archived the employee.</td>
+    </tr>
   

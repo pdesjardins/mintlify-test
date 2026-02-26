@@ -134,12 +134,33 @@ Restaurants using Toast Online Ordering with [Manual Approval or Approval Rules]
 
 The restaurant is online and can accept orders. Attributes in the `availability_online` event’s payload include:
 
-| Value | Description | 
-| --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
-| `status` | `ONLINE`data type: string | 
-| `reasonKey` | `AVAILABILITY_ONLINE`The machine-readable reason why the restaurant is available to accept online orders. data type: string | 
-| `reason` | `Restaurant is approving online orders`The human-readable reason why the restaurant is available to accept orders. data type: string  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+    </tr>
+    <tr>
+      <td>`status`</td>
+      <td>`ONLINE`<br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reasonKey`</td>
+      <td>`AVAILABILITY_ONLINE`<br/>The machine-readable reason why the restaurant is available to accept online orders. <br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reason`</td>
+      <td>`Restaurant is approving online orders`<br/>The human-readable reason why the restaurant is available to accept orders. <br/>data type: string </td>
+    </tr>
+  </tbody>
+</table>
 
 **Example 9.8. Payload for an availability_online event when a restaurant is online and approving orders**
 
@@ -164,12 +185,33 @@ The restaurant is online and can accept orders. Attributes in the `availability_
 
 The restaurant is offline and should not receive orders. Attributes in the `availability_offline` event’s payload include:
 
-| Value | Description | 
-| --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
-| `status` | `OFFLINE`data type: string  | 
-| `reasonKey` | `AVAILABILITY_OFFLINE`The machine-readable reason why the restaurant is unavailable to accept online orders. data type: string | 
-| `reason` | `Restaurant cannot accept online orders`The human-readable reason why the restaurant is unavailable to accept online orders. data type: string  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+    </tr>
+    <tr>
+      <td>`status`</td>
+      <td>`OFFLINE`<br/>data type: string </td>
+    </tr>
+    <tr>
+      <td>`reasonKey`</td>
+      <td>`AVAILABILITY_OFFLINE`<br/>The machine-readable reason why the restaurant is unavailable to accept online orders. <br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reason`</td>
+      <td>`Restaurant cannot accept online orders`<br/>The human-readable reason why the restaurant is unavailable to accept online orders. <br/>data type: string </td>
+    </tr>
+  </tbody>
+</table>
 
 **Example 9.9. Payload for an availability_offline event when a restaurant is offline and not approving orders**
 
@@ -219,12 +261,33 @@ A third-party online ordering channel is any online ordering channel such as Ube
 
 The restaurant has turned on online ordering for that ordering channel. Attributes in the `toggle_availability_online`event’s payload include:
 
-| Value | Description | 
-| --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
-| `status` | `ONLINE`data type: string | 
-| `reasonKey` | `TOGGLE_ENABLED`The machine-readable reason why the restaurant is available to accept online orders.data type: string | 
-| `reason` | `User enabled integration`The human-readable reason why the restaurant is available to accept orders. data type: string  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+    </tr>
+    <tr>
+      <td>`status`</td>
+      <td>`ONLINE`<br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reasonKey`</td>
+      <td>`TOGGLE_ENABLED`<br/>The machine-readable reason why the restaurant is available to accept online orders.<br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reason`</td>
+      <td>`User enabled integration`<br/>The human-readable reason why the restaurant is available to accept orders. <br/>data type: string </td>
+    </tr>
+  </tbody>
+</table>
 
 **Example 9.10. Payload for a toggle_availability_online event when a restaurant is online and has turned on online ordering**
 
@@ -249,12 +312,33 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
 
 The restaurant has turned off online ordering for that ordering channel. Attributes in the `toggle_availability_offline`event’s payload include:
 
-| Value | Description | 
-| --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
-| `status` | `OFFLINE`data type: string | 
-| `reasonKey` | `TOGGLE_DISABLED`The machine-readable reason why the restaurant is unavailable to accept online orders.data type: string | 
-| `reason` | `User disabled integration`The human-readable reason why the restaurant is unavailable to accept orders. data type: string  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+    </tr>
+    <tr>
+      <td>`status`</td>
+      <td>`OFFLINE`<br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reasonKey`</td>
+      <td>`TOGGLE_DISABLED`<br/>The machine-readable reason why the restaurant is unavailable to accept online orders.<br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`reason`</td>
+      <td>`User disabled integration`<br/>The human-readable reason why the restaurant is unavailable to accept orders. <br/>data type: string </td>
+    </tr>
+  </tbody>
+</table>
 
 **Example 9.11. Payload for a toggle_availability_offline event when a restaurant is offline and has turned off online ordering**
 
@@ -279,12 +363,38 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
 
 For a restaurant to be available to accept online orders, the online ordering channel toggle and the autofire device must be on (indicating the restaurant's health as being online). Any combination where the online ordering channel toggle and the autofire device are not both on results in the restaurant being offline and unable to accept online orders. The table below outlines the combination of online ordering toggle availability with the autofire device status and the resulting restaurant status.
 
-| Online ordering channel toggle availability | Autofire device status | Restaurant availability status | 
-| --- | --- | --- |
-| `toggle_availability_online`The online ordering channel toggle is on.  | `availability_online`Restaurant health is online. | The restaurant is online and available to accept online orders.  | 
-| `toggle_availability_online`The online ordering channel toggle is on.  | `availability_offline`Restaurant health is offline. | The restaurant is offline and not available to accept online orders.  | 
-| `toggle_availability_offline`The online ordering channel toggle is off.  | `availability_online`Restaurant health is online. | The restaurant is offline and not available to accept online orders.  | 
-| `toggle_availability_offline`The online ordering channel toggle is off.  | `availability_offline`Restaurant health is offline. | The restaurant is offline and not available to accept online orders.  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Online ordering channel toggle availability</th>
+      <th>Autofire device status</th>
+      <th>Restaurant availability status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`toggle_availability_online`<br/>The online ordering channel toggle is on. </td>
+      <td>`availability_online`<br/>Restaurant health is online.</td>
+      <td>The restaurant is online and available to accept online orders. </td>
+    </tr>
+    <tr>
+      <td>`toggle_availability_online`<br/>The online ordering channel toggle is on. </td>
+      <td>`availability_offline`<br/>Restaurant health is offline.</td>
+      <td>The restaurant is offline and not available to accept online orders. </td>
+    </tr>
+    <tr>
+      <td>`toggle_availability_offline`<br/>The online ordering channel toggle is off. </td>
+      <td>`availability_online`<br/>Restaurant health is online.</td>
+      <td>The restaurant is offline and not available to accept online orders. </td>
+    </tr>
+    <tr>
+      <td>`toggle_availability_offline`<br/>The online ordering channel toggle is off. </td>
+      <td>`availability_offline`<br/>Restaurant health is offline.</td>
+      <td>The restaurant is offline and not available to accept online orders. </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Testing the restaurant availability webhook
 

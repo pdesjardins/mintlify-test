@@ -21,21 +21,54 @@ The restaurants included in the guest reporting data can be limited using either
 
 The following table specifies the returned set of values in the guest reporting data. The values are listed in the order they appear.
 
-| Value name | Definition | 
-| --- | --- |
-| `restaurantGuid` | The unique identifier assigned to the restaurant by the Toast platform. | 
-| `restaurantName` | The restaurant’s name. | 
-| `restaurantLocationName` | The restaurant’s location name. | 
-| `restaurantLocationCode` | The restaurant’s location code. | 
-| `paymentDate` | The date when the payment was processed, in `YYYYMMDD` format. | 
-| `orderGuid` | The unique identifier assigned to the order by the Toast platform. | 
-| `paymentGuid` | The unique identifier assigned to the payment by the Toast platform. | 
-| `cardFingerprint` | The unique identifier assigned to a guest's payment card by the Toast platform.
+
+<table>
+  <thead>
+    <tr>
+      <th>Value name</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+    </tr>
+    <tr>
+      <td>`restaurantName`</td>
+      <td>The restaurant’s name.</td>
+    </tr>
+    <tr>
+      <td>`restaurantLocationName`</td>
+      <td>The restaurant’s location name.</td>
+    </tr>
+    <tr>
+      <td>`restaurantLocationCode`</td>
+      <td>The restaurant’s location code.</td>
+    </tr>
+    <tr>
+      <td>`paymentDate`</td>
+      <td>The date when the payment was processed, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>`orderGuid`</td>
+      <td>The unique identifier assigned to the order by the Toast platform.</td>
+    </tr>
+    <tr>
+      <td>`paymentGuid`</td>
+      <td>The unique identifier assigned to the payment by the Toast platform.</td>
+    </tr>
+    <tr>
+      <td>`cardFingerprint`</td>
+      <td>The unique identifier assigned to a guest's payment card by the Toast platform.
 
 > **Note**
 > 
 > `cardFingerprint` data is only available for payments processed starting in August 2024. `cardFingerprint` data is not supported for older payments.
 
 
- | 
+</td>
+    </tr>
+  </tbody>
+</table>
 

@@ -148,10 +148,14 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
 
 
 
-(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant from which to retrieve configuration information.
-
-(2) Use the same restaurant GUID in the /restaurants/v1/restaurants/{restaurantGUID}endpoint.
-
+    <tr>
+      <td>[(1)](#co-d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D)</td>
+      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant from which to retrieve configuration information.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D)</td>
+      <td>Use the same restaurant GUID in the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.</td>
+    </tr>
   
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
 
@@ -289,22 +293,40 @@ The following example shows the JSON response data for a GET request to the `/re
 
 
 
-(1) The GUID of the restaurant from which configuration information is retrieved.
-
-(2) General information about the restaurant. The name of this sample restaurant is Trattoria Roma.
-
-(3) The web addresses for the restaurant.
-
-(4) The physical location of the restaurant.
-
-(5) The schedules and servicesprovided by the restaurant. This sample restaurant has two day schedules, named Weekdays and Weekends. Each day schedule has an openTime value that designates when the first service of the day begins and a closeTime value for when the last service of the day ends.
-
-(6) The delivery service of the restaurant. In this sample restaurant, a delivery service is available.
-
-(7) The online ordering serviceprovided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.
-
- The enabled value in the OnlineOrdering object will always be true after the restaurant does their initial setup for Toast Online Ordering.
-
-(9) The scheduled availability of the dining options provided by the restaurant.
-
+    <tr>
+      <td>[(1)](#co-d1e566EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The GUID of the restaurant from which configuration information is retrieved.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>[General information](apiDevGuide-apiRestaurantInformation#restInfoGeneral) about the restaurant. The name of this sample restaurant is `Trattoria Roma`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The [web addresses](apiDevGuide-apiRestaurantInformation#restInfoURLs) for the restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e572EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The [physical location](apiDevGuide-apiRestaurantInformation#restInfoLocation) of the restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The [schedules and services](apiDevGuide-apiRestaurantInformation#restInfoSchedules)provided by the restaurant. This sample restaurant has two day schedules, named `Weekdays` and `Weekends`. Each day schedule has an `openTime` value that designates when the first service of the day begins and a `closeTime` value for when the last service of the day ends.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The [delivery service](apiDevGuide-apiRestaurantInformation#restInfoDelivery) of the restaurant. In this sample restaurant, a delivery service is available.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The [online ordering service](apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering)provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#apiRestaurantEnabled)</td>
+      <td>The `enabled` value in the `OnlineOrdering` object will always be `true` after the restaurant does their initial setup for Toast Online Ordering.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e581EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
+      <td>The [scheduled availability of the dining options](apiDevGuide-apiRestaurantInformation#restInfoPrepTimes) provided by the restaurant.</td>
+    </tr>
   

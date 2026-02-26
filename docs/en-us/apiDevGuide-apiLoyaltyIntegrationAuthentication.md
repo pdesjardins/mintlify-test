@@ -76,12 +76,18 @@ Qc99xVQ8wlfrh4tp56yjRnub\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
 
 
 
-(1) The /oauth/token_key endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.
-
-(2) The alg value indicates the encryption algorithm used for the public key.
-
-(3) The value value includes the public key string. You can use the string supplied in the value value to validate the authentication tokens in a Toast platform loyalty transaction request.
-
+    <tr>
+      <td>[(1)](#co-d1e1145C7E95702-B765-4E3D-A3BE-E61D205ED051)</td>
+      <td>The `/oauth/token_key` endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1147C7E95702-B765-4E3D-A3BE-E61D205ED051)</td>
+      <td>The `alg` value indicates the encryption algorithm used for the public key.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1149C7E95702-B765-4E3D-A3BE-E61D205ED051)</td>
+      <td>The `value` value includes the public key string. You can use the string supplied in the `value` value to validate the authentication tokens in a Toast platform loyalty transaction request.</td>
+    </tr>
   
 ## Using the public key to validate JWTs
 

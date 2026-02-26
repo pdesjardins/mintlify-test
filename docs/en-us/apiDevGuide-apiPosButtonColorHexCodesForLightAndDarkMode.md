@@ -23,35 +23,161 @@ The default color pairing is `WHITE`. In the `WHITE` color pairing, `posButtonCo
 
 The following table shows the color pairing names and the color hex codes for light and dark mode associated with each pairing.
 
-| Color pairing name | Light hex code | Dark hex code | 
-| --- | --- | --- |
-| WHITE | #f7f7f7 | #1a1c23 | 
-| TERRACOTTA_1 | #ffe6e9 | #7e635d | 
-| TERRACOTTA_2 | #efa49f | #74504D | 
-| TERRACOTTA_3 | #f07166 | #722e25 | 
-| TERRACOTTA_4 | #e45a4e | #561408 | 
-| ORANGE_1 | #fbd9b6 | #8f5f3d | 
-| ORANGE_2 | #f7be6e | #7e4116 | 
-| ORANGE_3 | #f98c1f | #803500 | 
-| ORANGE_4 | #e56f1a | #682d03 | 
-| YELLOW_1 | #fbf5b6 | #7e6b44 | 
-| YELLOW_2 | #fed850 | #7b5f27 | 
-| YELLOW_3 | #e9b10c | #7c5000 | 
-| YELLOW_4 | #c78605 | #633d09 | 
-| GRASS_1 | #e8f7d4 | #657552 | 
-| GRASS_2 | #afe26c | #556e34 | 
-| GRASS_3 | #71b314 | #37570a | 
-| GRASS_4 | #32a206 | #113a00 | 
-| SKY_1 | #e3f0fb | #637486 | 
-| SKY_2 | #9fc5f0 | #4d6074 | 
-| SKY_3 | #77a5e4 | #2a456b | 
-| SKY_4 | #558edd | #213554 | 
-| LAVENDER_1 | #f1e3fd | #78668a | 
-| LAVENDER_2 | #dab2f7 | #5e4776 | 
-| LAVENDER_3 | #b26ee2 | #402960 | 
-| LAVENDER_4 | #a270db | #25174f | 
-| GRAY_1 | #d0d0d0 | #6c6c6c | 
-| GRAY_2 | #c3c3c3 | #5f5f5f | 
-| GRAY_3 | #b1b1b1 | #474747 | 
-| GRAY_4 | #989898 | #404040 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Color pairing name</th>
+      <th>Light hex code</th>
+      <th>Dark hex code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>WHITE</td>
+      <td>#f7f7f7</td>
+      <td>#1a1c23</td>
+    </tr>
+    <tr>
+      <td>TERRACOTTA_1</td>
+      <td>#ffe6e9</td>
+      <td>#7e635d</td>
+    </tr>
+    <tr>
+      <td>TERRACOTTA_2</td>
+      <td>#efa49f</td>
+      <td>#74504D</td>
+    </tr>
+    <tr>
+      <td>TERRACOTTA_3</td>
+      <td>#f07166</td>
+      <td>#722e25</td>
+    </tr>
+    <tr>
+      <td>TERRACOTTA_4</td>
+      <td>#e45a4e</td>
+      <td>#561408</td>
+    </tr>
+    <tr>
+      <td>ORANGE_1</td>
+      <td>#fbd9b6</td>
+      <td>#8f5f3d</td>
+    </tr>
+    <tr>
+      <td>ORANGE_2</td>
+      <td>#f7be6e</td>
+      <td>#7e4116</td>
+    </tr>
+    <tr>
+      <td>ORANGE_3</td>
+      <td>#f98c1f</td>
+      <td>#803500</td>
+    </tr>
+    <tr>
+      <td>ORANGE_4</td>
+      <td>#e56f1a</td>
+      <td>#682d03</td>
+    </tr>
+    <tr>
+      <td>YELLOW_1</td>
+      <td>#fbf5b6</td>
+      <td>#7e6b44</td>
+    </tr>
+    <tr>
+      <td>YELLOW_2</td>
+      <td>#fed850</td>
+      <td>#7b5f27</td>
+    </tr>
+    <tr>
+      <td>YELLOW_3</td>
+      <td>#e9b10c</td>
+      <td>#7c5000</td>
+    </tr>
+    <tr>
+      <td>YELLOW_4</td>
+      <td>#c78605</td>
+      <td>#633d09</td>
+    </tr>
+    <tr>
+      <td>GRASS_1</td>
+      <td>#e8f7d4</td>
+      <td>#657552</td>
+    </tr>
+    <tr>
+      <td>GRASS_2</td>
+      <td>#afe26c</td>
+      <td>#556e34</td>
+    </tr>
+    <tr>
+      <td>GRASS_3</td>
+      <td>#71b314</td>
+      <td>#37570a</td>
+    </tr>
+    <tr>
+      <td>GRASS_4</td>
+      <td>#32a206</td>
+      <td>#113a00</td>
+    </tr>
+    <tr>
+      <td>SKY_1</td>
+      <td>#e3f0fb</td>
+      <td>#637486</td>
+    </tr>
+    <tr>
+      <td>SKY_2</td>
+      <td>#9fc5f0</td>
+      <td>#4d6074</td>
+    </tr>
+    <tr>
+      <td>SKY_3</td>
+      <td>#77a5e4</td>
+      <td>#2a456b</td>
+    </tr>
+    <tr>
+      <td>SKY_4</td>
+      <td>#558edd</td>
+      <td>#213554</td>
+    </tr>
+    <tr>
+      <td>LAVENDER_1</td>
+      <td>#f1e3fd</td>
+      <td>#78668a</td>
+    </tr>
+    <tr>
+      <td>LAVENDER_2</td>
+      <td>#dab2f7</td>
+      <td>#5e4776</td>
+    </tr>
+    <tr>
+      <td>LAVENDER_3</td>
+      <td>#b26ee2</td>
+      <td>#402960</td>
+    </tr>
+    <tr>
+      <td>LAVENDER_4</td>
+      <td>#a270db</td>
+      <td>#25174f</td>
+    </tr>
+    <tr>
+      <td>GRAY_1</td>
+      <td>#d0d0d0</td>
+      <td>#6c6c6c</td>
+    </tr>
+    <tr>
+      <td>GRAY_2</td>
+      <td>#c3c3c3</td>
+      <td>#5f5f5f</td>
+    </tr>
+    <tr>
+      <td>GRAY_3</td>
+      <td>#b1b1b1</td>
+      <td>#474747</td>
+    </tr>
+    <tr>
+      <td>GRAY_4</td>
+      <td>#989898</td>
+      <td>#404040</td>
+    </tr>
+  </tbody>
+</table>
 

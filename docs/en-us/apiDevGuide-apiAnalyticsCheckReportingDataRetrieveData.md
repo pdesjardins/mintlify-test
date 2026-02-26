@@ -35,14 +35,22 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 
 
 
-(1) Send a GET request to the /era/v1/check endpoint of the analytics API.
-
-(2) The GUID for the check reporting data request, also called the reportRequestGuid. For more information about the analytics API process, see Understanding the analytics API process.
-
-(3) Set the fetchRestaurantNames query parameter to true to include the restaurant name in the response.
-
-(4) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Send a `GET` request to the `/era/v1/check` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2949DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>The GUID for the check reporting data request, also called the `reportRequestGuid`. For more information about the analytics API process, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2951DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Set the `fetchRestaurantNames` query parameter to `true` to include the restaurant name in the response.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2953DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ## Response to the retrieval request for check reporting data
 
 The following example shows the response from the `/era/v1/check/{reportRequestGuid}` endpoint.
@@ -101,7 +109,9 @@ The following example shows the response from the `/era/v1/check/{reportRequestG
 
 
 
-(1) The restaurantName value appears because the fetchRestaurantName query parameter was set to true in the request.
-
+    <tr>
+      <td>[(1)](#co-d1e3178EFD2B73E-74F6-4B53-908A-CFB01123F156)</td>
+      <td>The `restaurantName` value appears because the `fetchRestaurantName` query parameter was set to `true` in the request.</td>
+    </tr>
 For more information about the values in the response, see [Understanding the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData).
 

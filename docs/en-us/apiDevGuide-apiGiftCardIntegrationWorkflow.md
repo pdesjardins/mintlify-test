@@ -68,20 +68,44 @@ Your gift card API implementation must use HTTPS for all REST requests and respo
 
 The following table describes the transaction types that the Toast platform sends to your gift card provider service. The Toast platform includes the transaction type identifier in the `Toast-Transaction-Type` header parameter for each gift card transaction API request.
 
-| Transaction type | Description | 
-| --- | --- |
-| `GIFTCARD_ACTIVATE` | Activates a new gift card. For example, the Toast platform sends a `GIFTCARD_ACTIVATE` request when it handles a gift card sale transaction.**Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status. | 
-| `GIFTCARD_ADD_VALUE` | Increases the amount of money available on a gift card.For example, the Toast platform sends a GIFTCARD_ADD_VALUE request when it handles a gift card sale (initial balance) or when a restaurant guest purchases additional value to add to a gift card balance. **Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status. | 
-| `GIFTCARD_GET_BALANCE` | Requests the amount of money that is available for purchases on a gift card.For example, the Toast platform sends a `GIFTCARD_GET_BALANCE` request when a restaurant guest asks a restaurant employee to check the amount of money that is available.
+
+<table>
+  <thead>
+    <tr>
+      <th>Transaction type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`GIFTCARD_ACTIVATE`</td>
+      <td>Activates a new gift card. <br/>For example, the Toast platform sends a `GIFTCARD_ACTIVATE` request when it handles a gift card sale transaction.<br/>**Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status.</td>
+    </tr>
+    <tr>
+      <td>`GIFTCARD_ADD_VALUE`</td>
+      <td>Increases the amount of money available on a gift card.<br/>For example, the Toast platform sends a GIFTCARD_ADD_VALUE request when it handles a gift card sale (initial balance) or when a restaurant guest purchases additional value to add to a gift card balance. <br/>**Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status.</td>
+    </tr>
+    <tr>
+      <td>`GIFTCARD_GET_BALANCE`</td>
+      <td>Requests the amount of money that is available for purchases on a gift card.<br/>For example, the Toast platform sends a `GIFTCARD_GET_BALANCE` request when a restaurant guest asks a restaurant employee to check the amount of money that is available.
 
 > **Note**
 > 
 > In some situations, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a card is not already active during a gift card sale.
 
 
-**Required **Your gift card implementation must handle requests with this transaction type. | 
-| `GIFTCARD_REDEEM` | Decreases the amount of money available on a gift card.For example, the Toast platform sends a `GIFTCARD_REDEEM` request when a restaurant guest makes a purchase using a gift card as a form of payment.If the redeem request is for a cash-out transaction, the `isCashOut` value of the `TransactionInformationRedeem` object is `true`. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see [Cash out transactions](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardApiCashOutRedeem).**Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status. | 
-| `GIFTCARD_REVERSE` | Undoes a previous gift card transaction.For example, the Toast platform sends a `GIFTCARD_REVERSE` request when a restaurant employee voids a purchase made with a gift card.**Required **Your gift card implementation must handle requests with this transaction type. | 
+<br/>**Required **Your gift card implementation must handle requests with this transaction type.</td>
+    </tr>
+    <tr>
+      <td>`GIFTCARD_REDEEM`</td>
+      <td>Decreases the amount of money available on a gift card.<br/>For example, the Toast platform sends a `GIFTCARD_REDEEM` request when a restaurant guest makes a purchase using a gift card as a form of payment.<br/>If the redeem request is for a cash-out transaction, the `isCashOut` value of the `TransactionInformationRedeem` object is `true`. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see [Cash out transactions](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardApiCashOutRedeem).<br/>**Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`response status.</td>
+    </tr>
+    <tr>
+      <td>`GIFTCARD_REVERSE`</td>
+      <td>Undoes a previous gift card transaction.<br/>For example, the Toast platform sends a `GIFTCARD_REVERSE` request when a restaurant employee voids a purchase made with a gift card.<br/>**Required **Your gift card implementation must handle requests with this transaction type.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Verification Codes (PINs)
 
@@ -93,33 +117,80 @@ If a user enters a verification code, the Toast platform sends it as part of any
 
 The following table describes the response status types that your gift card provider service can send to the Toast platform. Your gift card integration API implementation returns a transaction status identifier in the `transactionStatus` value of the GiftCardTransactionResponse object.
 
-| Transaction status | Description | 
-| --- | --- |
-| `ACCEPT` | The transaction was handled successfully. | 
-| `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` | Your implementation does not handle the optional transaction type that was supplied in the request.Return this response status type when the request transaction type *is one of the types defined* by the gift card integration API specification but you have decided not to support it. | 
-| `ERROR_INVALID_TOAST_TRANSACTION_TYPE` | The transaction type identifier supplied in the `Toast-Transaction-Type` header parameter of the request is not one of the recognized transaction types.Return this response status type when the request transaction type *is not one of the types defined* by the gift card integration API specification. | 
-| `ERROR_CARD_ALREADY_ACTIVATED` | The transaction attempted to activate a gift card that is already active. | 
-| `ERROR_CARD_NOT_ACTIVATED` | The gift card is not active.
+
+<table>
+  <thead>
+    <tr>
+      <th>Transaction status</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`ACCEPT`</td>
+      <td>The transaction was handled successfully.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`</td>
+      <td>Your implementation does not handle the optional transaction type that was supplied in the request.<br/>Return this response status type when the request transaction type *is one of the types defined* by the gift card integration API specification but you have decided not to support it.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_INVALID_TOAST_TRANSACTION_TYPE`</td>
+      <td>The transaction type identifier supplied in the `Toast-Transaction-Type` header parameter of the request is not one of the recognized transaction types.<br/>Return this response status type when the request transaction type *is not one of the types defined* by the gift card integration API specification.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_CARD_ALREADY_ACTIVATED`</td>
+      <td>The transaction attempted to activate a gift card that is already active.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_CARD_NOT_ACTIVATED`</td>
+      <td>The gift card is not active.
 
 > **Note**
 > 
 > In some situations, the Toast platform might make a transaction request to verify that a gift card is not already active. In this situation, the Toast platform expects to receive a `ERROR_CARD_NOT_ACTIVATED`transaction status. For more information, see [Multiple requests for a gift card transaction](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction).
 
 
- | 
-| `ERROR_CARD_INVALID` | The gift card identifier is not in the set of identifiers that correspond to the current restaurant.For example, if a gift card identifier is entered incorrectly or if the gift card identifier corresponds to a different restaurant location, your implementation returns this status. | 
-| `ERROR_INVALID_INPUT_PROPERTIES` | The values that the Toast platform supplied in the `GiftCardTransaction` object in the request message body do not match the requirements of the transaction type. | 
-| `ERROR_TRANSACTION_DOES_NOT_EXIST` | The transaction specified by a `GIFTCARD_REVERSE` type request does not exist. | 
-| `ERROR_INVALID_TOKEN` | The authentication token supplied in the `Authorization` header parameter is invalid or cannot be validated. For information about request authentication, see [Gift card integration authentication](apiDevGuide-apiGiftCardIntegrationAuthentication). | 
-| `ERROR_TRANSACTION_CANNOT_BE_REVERSED` | The transaction specified by a `GIFTCARD_REVERSE` type request cannot be reversed. The following transaction types cannot be reversed:- `GIFTCARD_GET_BALANCE`
-- `GIFTCARD_REVERSE`
-- Transactions that have already been reversed
-
- | 
-| `ERROR_INVALID_RESTAURANT` | The restaurant identifier included in the `Toast-Restaurant-External-ID` header parameter of the request is not recognized by the gift card provider integration implementation.You receive the identifiers for Toast platform restaurants from the Toast integrations team when you implement your gift card integration. | 
-| `ERROR_VERIFICATION_FAILED` | The verification code (PIN) data specified by the JSON body is invalid. | 
-| `ERROR_VERIFICATION_REQUIRED` | Verification code (PIN) data is necessary to complete the transaction but the data is missing or `null` in the JSON body. | 
-| `ERROR_VERIFICATION_NOT_SUPPORTED` | Verification code (PIN) data is provided by the JSON body but the provider doesn't support verification code. | 
+</td>
+    </tr>
+    <tr>
+      <td>`ERROR_CARD_INVALID`</td>
+      <td>The gift card identifier is not in the set of identifiers that correspond to the current restaurant.<br/>For example, if a gift card identifier is entered incorrectly or if the gift card identifier corresponds to a different restaurant location, your implementation returns this status.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_INVALID_INPUT_PROPERTIES`</td>
+      <td>The values that the Toast platform supplied in the `GiftCardTransaction` object in the request message body do not match the requirements of the transaction type.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_TRANSACTION_DOES_NOT_EXIST`</td>
+      <td>The transaction specified by a `GIFTCARD_REVERSE` type request does not exist.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_INVALID_TOKEN`</td>
+      <td>The authentication token supplied in the `Authorization` header parameter is invalid or cannot be validated. For information about request authentication, see [Gift card integration authentication](apiDevGuide-apiGiftCardIntegrationAuthentication).</td>
+    </tr>
+    <tr>
+      <td>`ERROR_TRANSACTION_CANNOT_BE_REVERSED`</td>
+      <td>The transaction specified by a `GIFTCARD_REVERSE` type request cannot be reversed. The following transaction types cannot be reversed:<ul><li>`GIFTCARD_GET_BALANCE`</li><li>`GIFTCARD_REVERSE`</li><li>Transactions that have already been reversed</li></ul></td>
+    </tr>
+    <tr>
+      <td>`ERROR_INVALID_RESTAURANT`</td>
+      <td>The restaurant identifier included in the `Toast-Restaurant-External-ID` header parameter of the request is not recognized by the gift card provider integration implementation.<br/>You receive the identifiers for Toast platform restaurants from the Toast integrations team when you implement your gift card integration.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_VERIFICATION_FAILED`</td>
+      <td>The verification code (PIN) data specified by the JSON body is invalid.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_VERIFICATION_REQUIRED`</td>
+      <td>Verification code (PIN) data is necessary to complete the transaction but the data is missing or `null` in the JSON body.</td>
+    </tr>
+    <tr>
+      <td>`ERROR_VERIFICATION_NOT_SUPPORTED`</td>
+      <td>Verification code (PIN) data is provided by the JSON body but the provider doesn't support verification code.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Multiple requests for a gift card transaction
 

@@ -63,12 +63,33 @@ Configuring the search is the first transaction that occurs when an employee ini
 
 The `value` must be one of the following:
 
-| Value | Description | 
-| --- | --- |
-| `NUMBER` | A numeric value such as room number, or reservation number. | 
-| `TEXT` | An alphanumeric value such as a guest's name or their company's name. | 
-| `EMAIL` | The guest's email address. | 
-| `PHONE_NUMBER` | A numeric-only value for the guest's phone number.  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`NUMBER`</td>
+      <td>A numeric value such as room number, or reservation number.</td>
+    </tr>
+    <tr>
+      <td>`TEXT`</td>
+      <td>An alphanumeric value such as a guest's name or their company's name.</td>
+    </tr>
+    <tr>
+      <td>`EMAIL`</td>
+      <td>The guest's email address.</td>
+    </tr>
+    <tr>
+      <td>`PHONE_NUMBER`</td>
+      <td>A numeric-only value for the guest's phone number. </td>
+    </tr>
+  </tbody>
+</table>
 
 The first four search terms are displayed on the guest lookup screen on the Toast POS device. The `value` also determines the type of virtual keyboard that is displayed for the search term. For example, `TEXT` does not allow a number pad to be used.
 
@@ -142,10 +163,14 @@ The following is an example of a successful configure search response.
 
 
 
-(1) The value attribute must be TEXTif your integration supports alpha-numeric room numbers.
-
-(2) The tenderProperType attribute must be associated with ROOM_ID for the key-value pair that defines Room Number in the configure search response and on each search response.
-
+    <tr>
+      <td>[(1)](#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA)</td>
+      <td>The `value` attribute must be `TEXT`if your integration supports alpha-numeric room numbers.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283)</td>
+      <td>The `tenderProperType` attribute must be associated with `ROOM_ID` for the key-value pair that defines Room Number in the configure search response and on each [search response](apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS).</td>
+    </tr>
   
 ### Guest search
 
@@ -875,12 +900,18 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 
 
-(1) Gratuity added to the check during the gratuity transaction.
-
-(2) The unique order identifier.
-
-(3) A Check object that contains the order's complete transaction details.
-
+    <tr>
+      <td>[(1)](#co-e356efd8-0dac-4a34-8fae-c13421f2bd47)</td>
+      <td>Gratuity added to the check during the gratuity transaction.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E)</td>
+      <td>The unique order identifier.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E)</td>
+      <td>A `Check` object that contains the order's complete transaction details.</td>
+    </tr>
   
 **Example 10.29. Successful gratuity response body**
 

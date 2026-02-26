@@ -76,10 +76,14 @@ https://`[toast-api-hostname]`/cashmgmt/v1/entries?businessDate=20190917
 
 
 
-(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant from which to retrieve cash entries. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.
-
-(2) Use the businessDate request parameter to specify the date (in yyyyMMdd format) on which the cash entries were created.
-
+    <tr>
+      <td>[(1)](#co-d1e195A5E2A1B1-DA0E-4054-99B6-F867706167E9)</td>
+      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant from which to retrieve cash entries. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e200A5E2A1B1-DA0E-4054-99B6-F867706167E9)</td>
+      <td>Use the `businessDate` request parameter to specify the date (in `yyyyMMdd` format) on which the cash entries were created.</td>
+    </tr>
   
 The following example shows a `CashEntry` object in the response data from the `entries` endpoint.
 
@@ -117,28 +121,50 @@ The following example shows a `CashEntry` object in the response data from the `
 
 
 
-(1) The GUID of this CashEntry object.
-
-(2) The date and time when the cash entry was made.
-
-(3) A descriptive comment entered by the restaurant employee when the cash entry was made. For undone cash entries, a hard-coded reason (such as Undo Pay Out) is provided by the system.
-
-(4) The US currency amount that the restaurant employee removed from (for negative amounts) or added to (for positive amounts) the cash drawer.
-
-(5) The GUID of the pre-configured pay out reason for this PAY_OUT cash entry. The value is null if the cash entry is any type other than PAY_OUT.
-
-(6) The GUID of the cash drawer in which the cash entry was made.
-
-(7) The GUID of the cash entry that was undone. The value is null if this cash entry does not undo a previous cash entry.
-
-(8) The GUID of the pre-configured no sale reason for a NO_SALE cash entry. The value is null if the cash entry is any type other than NO_SALE.
-
-(9) The GUID or external identifier of the restaurant employee who made the cash entry.
-
-(10) The cash entry type for this transaction.
-
-(11) The GUID of the restaurant employee who approved this transaction. The value is null if approval was not needed.
-
+    <tr>
+      <td>[(1)](#co-d1e24433B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID of this `CashEntry` object.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e24633B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The date and time when the cash entry was made.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e24833B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>A descriptive comment entered by the restaurant employee when the cash entry was made. For undone cash entries, a hard-coded reason (such as `Undo Pay Out`) is provided by the system.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e25033B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The US currency amount that the restaurant employee removed from (for negative amounts) or added to (for positive amounts) the cash drawer.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e25233B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID of the pre-configured pay out reason for this `PAY_OUT` cash entry. The value is `null` if the cash entry is any type other than `PAY_OUT`.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e25533B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID of the cash drawer in which the cash entry was made.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e25733B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID of the cash entry that was undone. The value is `null` if this cash entry does not undo a previous cash entry.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e25933B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID of the pre-configured no sale reason for a `NO_SALE` cash entry. The value is `null` if the cash entry is any type other than `NO_SALE`.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e26133B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID or external identifier of the restaurant employee who made the cash entry.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e26333B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The cash entry type for this transaction.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e26533B240E1-39A5-4C20-8325-985CCE09250C)</td>
+      <td>The GUID of the restaurant employee who approved this transaction. The value is `null` if approval was not needed.</td>
+    </tr>
 **Undone Cash Entries**
 
 When restaurant employees undo cash entries, the `reason` and `type` values of the resulting undo cash entries are as follows:

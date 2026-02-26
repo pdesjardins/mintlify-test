@@ -40,10 +40,14 @@ https://`[toast-api-hostname]`/cashmgmt/v1/deposits?businessDate=20190918
 
 
 
-(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant from which to retrieve cash deposits. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.
-
-(2) Use the businessDate request parameter to specify the date (in yyyyMMdd format) on which the cash deposits were created.
-
+    <tr>
+      <td>[(1)](#co-d1e340BCBEC7F8-786B-4966-9AA6-0D290AA55A72)</td>
+      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant from which to retrieve cash deposits. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e345BCBEC7F8-786B-4966-9AA6-0D290AA55A72)</td>
+      <td>Use the `businessDate` request parameter to specify the date (in `yyyyMMdd` format) on which the cash deposits were created.</td>
+    </tr>
   
 The following example shows a `DepositEntry` object in the response data from the `deposits` endpoint.
 
@@ -69,14 +73,24 @@ The following example shows a `DepositEntry` object in the response data from th
 
 
 
-(1) The GUID of this DepositEntry object.
-
-(2) The date and time when the cash deposit was made.
-
-(3) The amount of the deposit. The amount value must be greater than zero.
-
-(4) The GUID or external identifier of the restaurant employee who created the cash deposit.
-
-(5) The GUID of the deposit entry that was undone. The value is null if this deposit entry does not undo a previous deposit entry.
-
+    <tr>
+      <td>[(1)](#co-d1e436A964BCF4-D54B-4D7D-8984-EE06A9BC0B09)</td>
+      <td>The GUID of this `DepositEntry` object.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e438A964BCF4-D54B-4D7D-8984-EE06A9BC0B09)</td>
+      <td>The date and time when the cash deposit was made.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e440A964BCF4-D54B-4D7D-8984-EE06A9BC0B09)</td>
+      <td>The amount of the deposit. The `amount` value must be greater than zero.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e442A964BCF4-D54B-4D7D-8984-EE06A9BC0B09)</td>
+      <td>The GUID or external identifier of the restaurant employee who created the cash deposit.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e444A964BCF4-D54B-4D7D-8984-EE06A9BC0B09)</td>
+      <td>The GUID of the deposit entry that was undone. The value is `null` if this deposit entry does not undo a previous deposit entry.</td>
+    </tr>
   

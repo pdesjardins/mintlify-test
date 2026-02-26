@@ -51,12 +51,18 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Specify the GUID of the restaurant that you want to GET time entries for. This must be an individual restaurant, not the GUID for a restaurant group.
-
-(2) Specify the start and end dates of the time period you want to GET time entries for. You can select a period of up to 30 days.
-
-(3) The timeEntries endpoint accepts the includeMissedBreaks query parameter. If you set the value of includeMissedBreaks to true, the timeEntries endpoint returns TimeEntryBreak objects for scheduled break periods even if an employee did not take them. The includeMissedBreaks parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.
-
+    <tr>
+      <td>[(1)](#co-d1e15283A590EF-007A-48DE-8B8A-FE6BF2FE2ADA)</td>
+      <td>Specify the GUID of the restaurant that you want to `GET` time entries for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA)</td>
+      <td>Specify the start and end dates of the time period you want to `GET` time entries for. You can select a period of up to 30 days.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e15983A590EF-007A-48DE-8B8A-FE6BF2FE2ADA)</td>
+      <td>The `timeEntries` endpoint accepts the `includeMissedBreaks` query parameter. If you set the value of `includeMissedBreaks` to `true`, the `timeEntries` endpoint returns `TimeEntryBreak` objects for scheduled break periods even if an employee did not take them. The `includeMissedBreaks` parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.</td>
+    </tr>
   
 ## Example response
 
@@ -129,30 +135,56 @@ The following example shows a time entry for an employee.
 
 
 
-(1) The GET request returns an array of time entry objects. Each object contains information about an employee's shift.
-
-(2) The nonCashSales value shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts.For example, nonCashSales includes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web.If the outDate value for the time entry is null, then the time entry period is not complete, and the sales totals are 0. If the outDate value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
-
-(3) The time entry object contains information about the shift worked. For example, this outDate value specifies the date and time that the employee clocked out (the value is null if the employee has not clocked out).
-
-(4) The breaks array contains break type objects that contain information about breaks taken by the employee:breakType is the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant.inDate specifies when the employee started the break and outDate is when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated).paid is a Boolean value that indicates whether the employee was paid for the break. If the value is true, the employee was paid for the break. If the value is false, the employee was not paid for the break.missed is a Boolean value that indicates whether the employee took the break. If the value is true, the employee did not take the break. If the value is false, the employee did take the break.auditResponse is a Boolean value that indicates whether the employee was asked to take the break. If the value is true, the employee was asked to take the break. If the value is false, the employee was not asked to take the break. If the value is null, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device.For information on configuring missed breaks and break acknowledgements, see Tracking missed breaks and acknowledging breaks in the Toast Platform Guide.
-
-(5) The employeeReference value specifies the employee who worked the shift.
-
- The GUID of the Shift object associated with this time entry. The shiftReference value on a TimeEntry object is only populated if the restaurant uses Toast's clock-in enforcement feature, and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the shiftReference value is null.
-
-(7) The nonCashGratuityServiceCharges value is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).
-
-(8) The jobReference value specifies the job that the employee performed.
-
-(9) The tipsWithheld value specifies the amount withheld from the employee's credit card tips.
-
-(10) The cashGratuityServiceCharges value is the amount of gratuity service charges paid in cash to the employee.
-
-(11) The cashSales value shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts.If the outDate value for the time entry is null (the time entry period is not complete), the sales totals are 0. If the outDatevalue for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.
-
-(12) The nonCashTips value lists the total amount of tips paid to the employee in non-cash tender.
-
-(13) The declaredCashTips value is the amount of tips paid to the employee in cash.
-
+    <tr>
+      <td>[(1)](#co-d1e21739786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `GET` request returns an array of time entry objects. Each object contains information about an employee's shift.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e21939786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `nonCashSales` value shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts.<br/>For example, `nonCashSales` includes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web.<br/>If the `outDate` value for the time entry is `null`, then the time entry period is not complete, and the sales totals are `0`. If the `outDate` value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e22139786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The time entry object contains information about the shift worked. For example, this `outDate` value specifies the date and time that the employee clocked out (the value is `null` if the employee has not clocked out).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e22339786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `breaks` array contains break type objects that contain information about breaks taken by the employee:<ul><li>`breakType` is the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant.</li><li>`inDate` specifies when the employee started the break and `outDate` is when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated).</li><li>`paid` is a Boolean value that indicates whether the employee was paid for the break. If the value is `true`, the employee was paid for the break. If the value is `false`, the employee was not paid for the break.</li><li>`missed` is a Boolean value that indicates whether the employee took the break. If the value is `true`, the employee did not take the break. If the value is `false`, the employee did take the break.</li><li>`auditResponse` is a Boolean value that indicates whether the employee was asked to take the break. If the value is `true`, the employee was asked to take the break. If the value is `false`, the employee was not asked to take the break. If the value is `null`, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device.<br/>For information on configuring missed breaks and break acknowledgements, see [Tracking missed breaks and acknowledging breaks](adminGuide-portalEmployeeBreaksOverview) in the *Toast Platform Guide*.</li></ul></td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e22539786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `employeeReference` value specifies the employee who worked the shift.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#shiftReference)</td>
+      <td>The GUID of the `Shift` object associated with this time entry. The `shiftReference` value on a `TimeEntry` object is only populated if the restaurant uses Toast's [clock-in enforcement feature](https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961), and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the `shiftReference` value is null.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e22839786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `nonCashGratuityServiceCharges` value is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e23039786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `jobReference` value specifies the job that the employee performed.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e23239786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `tipsWithheld` value specifies the amount withheld from the employee's credit card tips.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e23439786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `cashGratuityServiceCharges` value is the amount of gratuity service charges paid in cash to the employee.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e23639786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `cashSales` value shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts.<br/>If the `outDate` value for the time entry is `null` (the time entry period is not complete), the sales totals are `0`. If the `outDate`value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e23839786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `nonCashTips` value lists the total amount of tips paid to the employee in non-cash tender.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e24139786C5B-846E-4DDA-823C-AF858E53331A)</td>
+      <td>The `declaredCashTips` value is the amount of tips paid to the employee in cash.</td>
+    </tr>
   

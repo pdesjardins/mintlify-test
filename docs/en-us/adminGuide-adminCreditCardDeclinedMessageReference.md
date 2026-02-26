@@ -23,34 +23,127 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
 > The messages and the descriptions shown in the following tables are produced by the card processor, not by Toast. The information provided in these tables is intended for reference only, and is subject to change without notice by the card network.
 
 
-| Response Message | Descriptions | 
-| --- | --- |
-| *REQUEST DENIED* | Do not honor | 
-| AUTH DECLINED | Do not honorTransaction not permitted to issuer/cardholderExceeds withdrawal limitDomain Restriction Controls FailDeclined-transaction in violation of lawDeclined PIN attempts | 
-| AUTH TRN NO AL'W | Auth transaction not allowed for this payment | 
-| CALL OPER | Refer to card issuerRefer to call center | 
-| CALL VOICE OPER | Refer to card issuerRe-enter transaction | 
-| CARD EXPIRED | Expiration date check failedExpired cardCard expiry date less than current date | 
-| CARDHLDR DECLINE | Declined per cardholder request | 
-| CVD ERROR | Do not honor | 
-| DECLINED | Declined by userInvalid effective date on card | 
-| ERR PROC FIELD | Format error, invalid value in message | 
-| HOLD - CALL | Pick up | 
-| INV CARD NUMBER | Invalid cardholder accountAccount number not found in BIN table | 
-| INVALID AMOUNT | Invalid amount | 
-| INVALID CARD | Invalid card number | 
-| INVALID CARD NO | Invalid card number | 
-| INVALID EXP DATE | Invalid expiry date | 
-| INVALID FUNCTION  | Transaction not permitted to terminal  | 
-| INVALID MERC NO  | Invalid merchant or terminal  | 
-| INVALID PIN  | Invalid pin  | 
-| LOST/STOLEN CARD | Lost or stolen card | 
-| NO CHECKING ACCT | Error | 
-| PICK UP CARD  | Pick up card Decline - pick up cardPick up card - No FraudPick up card (Special Condition)Pick up card (Special Condition)(Fraud Account)Lost card - pick upStolen card - pick up | 
-| PIN TRIES EXCEED | Re-enter transaction | 
-| PROC ERROR 13 | System error | 
-| SECURITY VIOLATION | Security violation | 
-| TRAN NOT ALLOWED | Transaction not permitted to terminal | 
-| TRANS DENIED | Do not honorInvalid cardholder accountUnable to locate recordInsufficient fundsRestricted cardSecurity violationAccount activity limit exceededAllowable number of PIN entry tries exceededOne or more errors in messageFile is unavailableNo credit accountFraudulent activity detected | 
-| TRANS NOT ALLOW | Transactions not allowed to cardholderTransactions not allowed to terminalIllegal transaction - violation of lawCapture transactions not allowed for this payment typeCapture transaction on authorization only terminalPrivate label transaction not allowed for terminalStore reporting transactions not allowed | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Response Message</th>
+      <th>Descriptions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>*REQUEST DENIED*</td>
+      <td>Do not honor</td>
+    </tr>
+    <tr>
+      <td>AUTH DECLINED</td>
+      <td>Do not honor<br/>Transaction not permitted to issuer/cardholder<br/>Exceeds withdrawal limit<br/>Domain Restriction Controls Fail<br/>Declined-transaction in violation of law<br/>Declined PIN attempts</td>
+    </tr>
+    <tr>
+      <td>AUTH TRN NO AL'W</td>
+      <td>Auth transaction not allowed for this payment</td>
+    </tr>
+    <tr>
+      <td>CALL OPER</td>
+      <td>Refer to card issuer<br/>Refer to call center</td>
+    </tr>
+    <tr>
+      <td>CALL VOICE OPER</td>
+      <td>Refer to card issuer<br/>Re-enter transaction</td>
+    </tr>
+    <tr>
+      <td>CARD EXPIRED</td>
+      <td>Expiration date check failed<br/>Expired card<br/>Card expiry date less than current date</td>
+    </tr>
+    <tr>
+      <td>CARDHLDR DECLINE</td>
+      <td>Declined per cardholder request</td>
+    </tr>
+    <tr>
+      <td>CVD ERROR</td>
+      <td>Do not honor</td>
+    </tr>
+    <tr>
+      <td>DECLINED</td>
+      <td>Declined by user<br/>Invalid effective date on card</td>
+    </tr>
+    <tr>
+      <td>ERR PROC FIELD</td>
+      <td>Format error, invalid value in message</td>
+    </tr>
+    <tr>
+      <td>HOLD - CALL</td>
+      <td>Pick up</td>
+    </tr>
+    <tr>
+      <td>INV CARD NUMBER</td>
+      <td>Invalid cardholder account<br/>Account number not found in BIN table</td>
+    </tr>
+    <tr>
+      <td>INVALID AMOUNT</td>
+      <td>Invalid amount</td>
+    </tr>
+    <tr>
+      <td>INVALID CARD</td>
+      <td>Invalid card number</td>
+    </tr>
+    <tr>
+      <td>INVALID CARD NO</td>
+      <td>Invalid card number</td>
+    </tr>
+    <tr>
+      <td>INVALID EXP DATE</td>
+      <td>Invalid expiry date</td>
+    </tr>
+    <tr>
+      <td>INVALID FUNCTION </td>
+      <td>Transaction not permitted to terminal </td>
+    </tr>
+    <tr>
+      <td>INVALID MERC NO </td>
+      <td>Invalid merchant or terminal </td>
+    </tr>
+    <tr>
+      <td>INVALID PIN </td>
+      <td>Invalid pin </td>
+    </tr>
+    <tr>
+      <td>LOST/STOLEN CARD</td>
+      <td>Lost or stolen card</td>
+    </tr>
+    <tr>
+      <td>NO CHECKING ACCT</td>
+      <td>Error</td>
+    </tr>
+    <tr>
+      <td>PICK UP CARD </td>
+      <td>Pick up card <br/>Decline - pick up card<br/>Pick up card - No Fraud<br/>Pick up card (Special Condition)<br/>Pick up card (Special Condition)(Fraud Account)<br/>Lost card - pick up<br/>Stolen card - pick up</td>
+    </tr>
+    <tr>
+      <td>PIN TRIES EXCEED</td>
+      <td>Re-enter transaction</td>
+    </tr>
+    <tr>
+      <td>PROC ERROR 13</td>
+      <td>System error</td>
+    </tr>
+    <tr>
+      <td>SECURITY VIOLATION</td>
+      <td>Security violation</td>
+    </tr>
+    <tr>
+      <td>TRAN NOT ALLOWED</td>
+      <td>Transaction not permitted to terminal</td>
+    </tr>
+    <tr>
+      <td>TRANS DENIED</td>
+      <td>Do not honor<br/>Invalid cardholder account<br/>Unable to locate record<br/>Insufficient funds<br/>Restricted card<br/>Security violation<br/>Account activity limit exceeded<br/>Allowable number of PIN entry tries exceeded<br/>One or more errors in message<br/>File is unavailable<br/>No credit account<br/>Fraudulent activity detected</td>
+    </tr>
+    <tr>
+      <td>TRANS NOT ALLOW</td>
+      <td>Transactions not allowed to cardholder<br/>Transactions not allowed to terminal<br/>Illegal transaction - violation of law<br/>Capture transactions not allowed for this payment type<br/>Capture transaction on authorization only terminal<br/>Private label transaction not allowed for terminal<br/>Store reporting transactions not allowed</td>
+    </tr>
+  </tbody>
+</table>
 

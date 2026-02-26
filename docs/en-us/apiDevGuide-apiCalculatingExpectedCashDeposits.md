@@ -234,50 +234,96 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
 
 
 
-(1) These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see Authentication and restaurant access.
-
-(2) Send a GET request to the user management API to get an authentication token. For more information, see Authentication and restaurant access. Store the authentication token string in a script variable so that other example functions can use it.
-
-(3) Send a GET request to the orders API to get a list of the GUIDs of each payment made during a business day. For each payment GUID, run another example shell script function to get detailed information about the payment.
-
-(4) Specify the business day of the payments in the paidBusinessDate query parameter.
-
-(5) Count the number of payment GUIDs for the business day.
-
-(6) Run a separate function to get detailed payment information for each of the payment GUIDs for the business day.
-
-(7) Get one GUID from the list.
-
-(8) Run the example get_payment function and pass the payment GUID as an argument.
-
-(9) Increment a counter variable to move on to the next payment GUID.
-
-(10) Send a GET request to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is CASH, add the payment amount to the total of cash payments for the business day.
-
-(11) The get_payments function passes a payment GUID as an argument to this function.
-
-(12) Get the type value for the payment.
-
-(13) Only include CASH payments in the total. Exclude voided payments.
-
-(14) Get the currency amount of the payment.
-
-(15) Add the amount of the payment to the total amount of the cash payments for the business day.
-
-(16) Send a GET request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the typevalue CASH_COLLECTED.
-
-(17) Specify the business day of the cash entries in the businessDate query parameter.
-
-(18) Get a list of the amounts of the entries that do not have the typeCASH_COLLECTED.
-
-(19) Add each amount to the total cash entries for the business day. The amount values are negative or positive depending on whether the cash entry removes or adds cash to a restaurant cash drawer.
-
-(20) Set the total of cash payments to zero and run the function that gets payments for the business day.
-
-(21) Set the total of cash entries to zero and run the function that gets cash entries for the business day.
-
-(22) Calculate the sum of total cash payments and total cash entries for the business day to get the expected cash deposit.
-
-(23) Number of non-voided cash transactions.
-
+    <tr>
+      <td>[(1)](#co-d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e19959B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Send a GET request to the user management API to get an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication). Store the authentication token string in a script variable so that other example functions can use it.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e20159B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Send a GET request to the orders API to get a list of the GUIDs of each payment made during a business day. For each payment GUID, run another example shell script function to get detailed information about the payment.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Specify the business day of the payments in the *`paidBusinessDate`* query parameter.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Count the number of payment GUIDs for the business day.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e20759B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Run a separate function to get detailed payment information for each of the payment GUIDs for the business day.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e20959B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Get one GUID from the list.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e21259B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Run the example `get_payment` function and pass the payment GUID as an argument.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e21459B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Increment a counter variable to move on to the next payment GUID.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e21659B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Send a `GET` request to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is `CASH`, add the payment amount to the total of cash payments for the business day.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e21859B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>The `get_payments` function passes a payment GUID as an argument to this function.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e22059B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Get the type value for the payment.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e22259B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Only include `CASH` payments in the total. Exclude voided payments.</td>
+    </tr>
+    <tr>
+      <td>[(14)](#co-d2e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Get the currency amount of the payment.</td>
+    </tr>
+    <tr>
+      <td>[(15)](#co-d3e22759B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Add the amount of the payment to the total amount of the cash payments for the business day.</td>
+    </tr>
+    <tr>
+      <td>[(16)](#co-d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Send a `GET` request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the `type`value `CASH_COLLECTED`.</td>
+    </tr>
+    <tr>
+      <td>[(17)](#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Specify the business day of the cash entries in the *`businessDate`* query parameter.</td>
+    </tr>
+    <tr>
+      <td>[(18)](#co-d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Get a list of the amounts of the entries that do not have the `type``CASH_COLLECTED`.</td>
+    </tr>
+    <tr>
+      <td>[(19)](#co-d7e23559B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Add each amount to the total cash entries for the business day. The amount values are negative or positive depending on whether the cash entry removes or adds cash to a restaurant cash drawer.</td>
+    </tr>
+    <tr>
+      <td>[(20)](#co-d8e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Set the total of cash payments to zero and run the function that gets payments for the business day.</td>
+    </tr>
+    <tr>
+      <td>[(21)](#co-d9e24059B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Set the total of cash entries to zero and run the function that gets cash entries for the business day.</td>
+    </tr>
+    <tr>
+      <td>[(22)](#co-d0e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Calculate the sum of total cash payments and total cash entries for the business day to get the expected cash deposit.</td>
+    </tr>
+    <tr>
+      <td>[(23)](#co-d2e88859B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
+      <td>Number of non-voided cash transactions.</td>
+    </tr>
   

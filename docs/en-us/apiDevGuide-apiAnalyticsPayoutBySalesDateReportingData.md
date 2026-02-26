@@ -66,14 +66,22 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/sales-date/day' \
 
 
 
-(1) Send a POST request to the /era/v1/payout/sales-date/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
-
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(3) Set the data type of the message body to application/json.
-
-(4) Include details about the requested payout reporting data organized by sales date in the message body. The following example is the message body for this curlcommand example.
-
+    <tr>
+      <td>[(1)](#co-d1e8170E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Send a `POST` request to the `/era/v1/payout/sales-date/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `day`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8172E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e8174E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e8176E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include details about the requested payout reporting data organized by sales date in the message body. The following example is the message body for this **curl**command example.</td>
+    </tr>
 ### Message body for payout reporting data by sales date
 
 The following example shows the message body for creating a payout reporting data by sales date request.
@@ -90,14 +98,22 @@ The following example shows the message body for creating a payout reporting dat
 
 
 
-(1) The start date of the time range for the payout reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the payout reporting data, in YYYYMMDD format. This is the same value as the start date for the day time range.
-
-(3) The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) The list of restaurant GUIDs from the management group to exclude from the payout reporting data organized by sales date. In this example, restaurants are included with the restaurantIds value, so all other restaurants are excluded automatically.
-
+    <tr>
+      <td>[(1)](#co-d1e8218E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The start date of the time range for the payout reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8220E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The end date of the time range for the payout reporting data, in `YYYYMMDD` format. This is the same value as the start date for the `day` time range.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e8222E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e8224E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the payout reporting data organized by sales date. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+    </tr>
 ### Response to request for payout reporting data by sales date
 
 The following example shows the response from the `/era/v1/payout/sales-date/day` endpoint.
@@ -109,8 +125,10 @@ The following example shows the response from the `/era/v1/payout/sales-date/day
 
 
 
-(1) The GUID for the payout reporting data organized by sales date request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e8268E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The GUID for the payout reporting data organized by sales date request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 For an example that shows how to retrieve the payout reporting data by sales date, see [Retrieving the payout reporting data by sales date](apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData#apiAnalyticsPayoutBySalesDateReportingDataRetrieveData).
 
 ## Retrieving the payout reporting data by sales date
@@ -130,12 +148,18 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 
 
-(1) Send a GET request to the /era/v1/payout/sales-date endpoint of the analytics API.
-
-(2) Include the GUID for the payout reporting data organized by sales date request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e8329E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Send a `GET` request to the `/era/v1/payout/sales-date` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8331E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include the GUID for the payout reporting data organized by sales date request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e8333E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ### Response to retrieval request for payout reporting data by sales date
 
 The following example shows the response from the `/era/v1/payout/sales-date/{reportRequestGuid}`endpoint.
@@ -171,18 +195,63 @@ The restaurants included in the payout reporting data organized by sales date ca
 
 The following table specifies the returned set of values in the payout reporting data organized by sales date. The values are listed in the order they appear.
 
-| Value name | Definition | 
-| --- | --- |
-| `restaurantGuid` | The unique identifier assigned to the restaurant by the Toast platform. | 
-| `restaurantName` | The restaurant’s name. | 
-| `restaurantLocationName` | The restaurant’s location name. | 
-| `restaurantLocationCode` | The restaurant’s location code. | 
-| `salesDate` | The date when the payment was completed.  | 
-| `settledDate` | The date when the payouts associated with the payment were either processed or settled. | 
-| `transactionCount` | The number of transactions made on the sales date. | 
-| `paymentAmount` | The amount paid to the restaurant by guests using cards on the sales date. | 
-| `refundAmount` | The amount refunded to guests by the restaurant for payments made on the sales date. | 
-| `totalFeeAmount` | The amount paid or owed by the restaurant in fees associated with payments made on the sales date. An example is the processing fees charged by card providers on payments. | 
-| `withholdingAmount` | The amount owed to Toast by the restaurant for products and services. For example, this includes Toast Capital, Fundraising, and Instant Deposit. | 
-| `payoutAmount` | The amount to be deposited into the restaurant’s account associated with the sales date. This amount is calculated by subtracting the `refundAmount`, `totalFeeAmount`, and `withholdingAmount` from the `paymentAmount`. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value name</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+    </tr>
+    <tr>
+      <td>`restaurantName`</td>
+      <td>The restaurant’s name.</td>
+    </tr>
+    <tr>
+      <td>`restaurantLocationName`</td>
+      <td>The restaurant’s location name.</td>
+    </tr>
+    <tr>
+      <td>`restaurantLocationCode`</td>
+      <td>The restaurant’s location code.</td>
+    </tr>
+    <tr>
+      <td>`salesDate`</td>
+      <td>The date when the payment was completed. </td>
+    </tr>
+    <tr>
+      <td>`settledDate`</td>
+      <td>The date when the payouts associated with the payment were either processed or settled.</td>
+    </tr>
+    <tr>
+      <td>`transactionCount`</td>
+      <td>The number of transactions made on the sales date.</td>
+    </tr>
+    <tr>
+      <td>`paymentAmount`</td>
+      <td>The amount paid to the restaurant by guests using cards on the sales date.</td>
+    </tr>
+    <tr>
+      <td>`refundAmount`</td>
+      <td>The amount refunded to guests by the restaurant for payments made on the sales date.</td>
+    </tr>
+    <tr>
+      <td>`totalFeeAmount`</td>
+      <td>The amount paid or owed by the restaurant in fees associated with payments made on the sales date. An example is the processing fees charged by card providers on payments.</td>
+    </tr>
+    <tr>
+      <td>`withholdingAmount`</td>
+      <td>The amount owed to Toast by the restaurant for products and services. For example, this includes Toast Capital, Fundraising, and Instant Deposit.</td>
+    </tr>
+    <tr>
+      <td>`payoutAmount`</td>
+      <td>The amount to be deposited into the restaurant’s account associated with the sales date. This amount is calculated by subtracting the `refundAmount`, `totalFeeAmount`, and `withholdingAmount` from the `paymentAmount`.</td>
+    </tr>
+  </tbody>
+</table>
 

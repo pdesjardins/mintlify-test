@@ -27,13 +27,28 @@ Depending on their access type, employees use different credentials to access th
 
 The following table includes information about the access types and their credential type and uses.
 
-| Access type | Credential type | Used for signing into | 
-| --- | --- | --- |
-| Administrative | Email address and password | - Toast Web
-- Toast POS devices
 
- | 
-| Non-administrative | 4+ digit POS access code | Toast POS devices | 
+<table>
+  <thead>
+    <tr>
+      <th>Access type</th>
+      <th>Credential type</th>
+      <th>Used for signing into</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Administrative</td>
+      <td>Email address and password</td>
+      <td><ul><li>Toast Web</li><li>Toast POS devices</li></ul></td>
+    </tr>
+    <tr>
+      <td>Non-administrative</td>
+      <td>4+ digit POS access code</td>
+      <td>Toast POS devices</td>
+    </tr>
+  </tbody>
+</table>
 
 
 

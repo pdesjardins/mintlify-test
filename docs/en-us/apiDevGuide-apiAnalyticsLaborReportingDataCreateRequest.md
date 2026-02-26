@@ -68,14 +68,22 @@ curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
 
 
 
-(1) Send a POST request to the /era/v1/labor/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
-
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(3) Set the data type of the message body to application/json.
-
-(4) Include details about the requested labor reporting data in the message body. The following example is the message body for this curl command example.
-
+    <tr>
+      <td>[(1)](#co-d1e4384134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Send a `POST` request to the `/era/v1/labor/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `day`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e4386134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e4388134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e4390134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include details about the requested labor reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+    </tr>
 ## Message body for labor reporting data
 
 The following example shows the message body for creating a labor reporting data request.
@@ -94,16 +102,26 @@ The following example shows the message body for creating a labor reporting data
 
 
 
-(1) The start date of the time range for the labor reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the labor reporting data, in YYYYMMDD format. This is the same value as the start date.
-
-(3) The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) The list of restaurant GUIDs from the management group to exclude from the labor reporting data. In this example, restaurants are included with the restaurantIdsvalue, so all other restaurants are excluded automatically.
-
-(5) This request for labor reporting data is grouped by job.
-
+    <tr>
+      <td>[(1)](#co-d1e4444134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The start date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e4446134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The end date of the time range for the labor reporting data, in `YYYYMMDD` format. This is the same value as the start date.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e4448134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e4450134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the labor reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e4452134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>This request for labor reporting data is grouped by job.</td>
+    </tr>
 ## Response to request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/day` endpoint.
@@ -115,7 +133,9 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 
 
-(1) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e4509134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 For an example that shows how to retrieve the labor reporting data, see [Retrieving the labor reporting data](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData).
 

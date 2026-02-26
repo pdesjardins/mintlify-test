@@ -62,14 +62,22 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 
 
 
-(1) Send a POST request to the /era/v1/check/day endpoint of the analytics API.
-
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(3) Set the data type of the message body to application/json.
-
-(4) Include details about the requested check reporting data in the message body. The following example is the message body for this curl command example.
-
+    <tr>
+      <td>[(1)](#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Send a `POST` request to the `/era/v1/check/day` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>Include details about the requested check reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+    </tr>
 ## Message body for check reporting data
 
 The following example shows the message body for creating a check reporting data request.
@@ -89,14 +97,22 @@ The following example shows the message body for creating a check reporting data
 
 
 
-(1) The start date of the time range for the check reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the check reporting data, in YYYYMMDD format. This is the same value as the start date.
-
-(3) The list of restaurant GUIDs from the management group to include in the check reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the restaurantIdsvalue, so all other restaurants are excluded automatically.
-
+    <tr>
+      <td>[(1)](#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>The start date of the time range for the check reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>The end date of the time range for the check reporting data, in `YYYYMMDD` format. This is the same value as the start date.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the check reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+    </tr>
 ## Response to request for check reporting data
 
 The following example shows the response from the `/era/v1/check/day` endpoint.
@@ -108,7 +124,9 @@ The following example shows the response from the `/era/v1/check/day` endpoint.
 
 
 
-(1) The GUID for the check reporting data request, also called the reportRequestGuid. For more information about the analytics API process, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td>The GUID for the check reporting data request, also called the `reportRequestGuid`. For more information about the analytics API process, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 For an example that shows how to retrieve the check reporting data, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).
 

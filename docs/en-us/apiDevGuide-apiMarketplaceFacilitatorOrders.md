@@ -124,12 +124,18 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 
 
-(1) Contains information about the taxes that a marketplace facilitator organization remits on behalf of a Toast restaurant.
-
-(2) Indicates whether the marketplace facilitator organization will pay the tax amounts for an order on behalf of the restaurant that fulfills the order. In this example, the marketplace facilitator will not pay the tax amounts.
-
-(3) If you include the facilitatorCollectAndRemitTaxOrder value, do not specify externalPriceAmount for menu item selections in the order.
-
+    <tr>
+      <td>[(1)](#co-d1e183ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>Contains information about the taxes that a marketplace facilitator organization remits on behalf of a Toast restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e185ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>Indicates whether the marketplace facilitator organization will pay the tax amounts for an order on behalf of the restaurant that fulfills the order. In this example, the marketplace facilitator will not pay the tax amounts.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e187ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>If you include the `facilitatorCollectAndRemitTaxOrder` value, do not specify `externalPriceAmount` for menu item selections in the order.</td>
+    </tr>
   
 ## Specifying prices and tax amounts
 
@@ -221,18 +227,30 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 
 
-(1) Contains information about the taxes that a marketplace facilitator organization remits on behalf of a Toast restaurant.
-
-(2) Include the taxes value if you specify prices and tax amounts for a marketplace facilitator order.
-
-(3) Specifies the total tax amount for this tax type across all of the checks and menu item selections in the order.
-
-(4) The value true indicates that the marketplace facilitator organization will pay this tax amount for the order on behalf of the restaurant that fulfills the order.
-
-(5) The value false indicates that the marketplace facilitator organization will not pay this tax amount for the order on behalf of the restaurant that fulfills the order.
-
-(6) Specifies the price for this menu item selection. To specify prices and tax amounts for a marketplace facilitator order, include the externalPriceAmount value for each menu item selection. The specified price should correspond to the price that is configured in the restaurant menu.
-
+    <tr>
+      <td>[(1)](#co-d1e245ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>Contains information about the taxes that a marketplace facilitator organization remits on behalf of a Toast restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e247ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>Include the `taxes` value if you specify prices and tax amounts for a marketplace facilitator order.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e249ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>Specifies the total tax amount for this tax type across all of the checks and menu item selections in the order.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e251ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>The value `true` indicates that the marketplace facilitator organization will pay this tax amount for the order on behalf of the restaurant that fulfills the order.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e253ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>The value `false` indicates that the marketplace facilitator organization will not pay this tax amount for the order on behalf of the restaurant that fulfills the order.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e256ED70EBFB-66D2-4C17-9A10-C756EEEBD261)</td>
+      <td>Specifies the price for this menu item selection. To specify prices and tax amounts for a marketplace facilitator order, include the `externalPriceAmount` value for each menu item selection. The specified price should correspond to the price that is configured in the restaurant menu.</td>
+    </tr>
   
 ## Specifying size prices in marketplace facilitator orders
 
@@ -309,16 +327,28 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 
 
-(1) When you specify tax amounts for an order, you also specify the prices for items in the order. For more information, see Specifying prices and tax amounts.
-
-(2) For items that use size prices, set externalPriceAmount for the parent item to 0.00.
-
-(3) The Toast platform GUID of the size-priced parent item.
-
- The price of the selected size modifier for the size-priced item.
-
-(5) The Toast platform GUID of the Sizemodifier group that is used for size pricing.
-
-(6) The Toast platform GUID of the selected modifier for the item that uses size pricing. Represents a value such as Small, Medium, or Large.
-
+    <tr>
+      <td>[(1)](#co-d1e390FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>
+      <td>When you specify tax amounts for an order, you also specify the prices for items in the order. For more information, see [Specifying prices and tax amounts](apiDevGuide-apiMarketplaceFacilitatorOrders#apiSpecifyingPricesMarketplaceFacilitatorOrders).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e392FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>
+      <td>For items that use size prices, set `externalPriceAmount` for the parent item to `0.00`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e394FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>
+      <td>The Toast platform GUID of the size-priced parent item.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#selectedSizePriceMarker)</td>
+      <td>The price of the selected size modifier for the size-priced item.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e396FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>
+      <td>The Toast platform GUID of the Sizemodifier group that is used for size pricing.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e398FF8D1928-D00D-4A66-8C03-09C0F1A6A166)</td>
+      <td>The Toast platform GUID of the selected modifier for the item that uses size pricing. Represents a value such as Small, Medium, or Large.</td>
+    </tr>
   

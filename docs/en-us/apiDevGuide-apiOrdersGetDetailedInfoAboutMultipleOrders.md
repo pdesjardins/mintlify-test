@@ -109,16 +109,26 @@ pageSize=10&page=2"
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(2) Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.
-
-(3) Send a GET request to the /ordersBulk endpoint of the orders API.
-
-(4) To specify a period of time to return orders for, use the startDate and endDatequery parameters.
-
-(5) In the pageSize query parameter, specify the maximum number of objects to include in the response. In the page query parameter, specify the sequence number of the set of objects to return. For more information, see Paginating response data.
-
+    <tr>
+      <td>[(1)](#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
+      <td>Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
+      <td>Send a `GET` request to the `/ordersBulk` endpoint of the orders API.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
+      <td>To specify a period of time to return orders for, use the *`startDate`* and *`endDate`*query parameters.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
+      <td>In the `pageSize` query parameter, specify the maximum number of objects to include in the response. In the `page` query parameter, specify the sequence number of the set of objects to return. For more information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).</td>
+    </tr>
 ## Example response data containing multiple orders
 
 The following example shows the response data from the `/ordersBulk` endpoint. It contains detailed information about multiple orders.
@@ -295,16 +305,26 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 
 
-(1) The first Order object in the array provides detailed information about a single order.
-
- The deliveryInfo JSON value is only populated if your Toast API client has the delivery_info.address:readscope. For more information about scopes, see Scopes.
-
- The curbsidePickupInfo JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
-
- The customer JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
-
-(5) Each subsequent Order object in the array provides detailed information about a different order.
-
+    <tr>
+      <td>[(1)](#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E)</td>
+      <td>The first `Order` object in the array provides detailed information about a single order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#apiOrdersBulkDeliveryInfo)</td>
+      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read`scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#apiOrdersBulkCurbsideInfo)</td>
+      <td>The `curbsidePickupInfo` JSON value is only populated if your Toast API client has the `guest.pi:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#apiOrdersBulkCustomer)</td>
+      <td>The `customer` JSON value is only populated if your Toast API client has the `guest.pi:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E)</td>
+      <td>Each subsequent `Order` object in the array provides detailed information about a different order.</td>
+    </tr>
 ## Example response data pagination header fields
 
 The following example shows the header fields that provide response data pagination URLs for the `/ordersBulk` endpoint. For more information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).

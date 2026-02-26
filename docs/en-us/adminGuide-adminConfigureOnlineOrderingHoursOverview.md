@@ -20,16 +20,25 @@ The Online ordering hours section displays the online ordering hours for Takeout
 
 The following table describes which online ordering hours configuration to use for each ordering channel.
 
-| Online ordering hours | Used for | 
-| --- | --- |
-| Takeout & Third-party delivery  | - Toast Online Ordering
-- Toast Delivery Services (TDS)
-- Third-party online ordering channels (for example, Grubhub, DoorDash, and Uber Eats)
 
- | 
-| First-party delivery  | - First-party deliveries
-
- | 
+<table>
+  <thead>
+    <tr>
+      <th>Online ordering hours</th>
+      <th>Used for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Takeout & Third-party delivery </td>
+      <td><ul><li>Toast Online Ordering</li><li>Toast Delivery Services (TDS)</li><li>Third-party online ordering channels (for example, Grubhub, DoorDash, and Uber Eats)</li></ul></td>
+    </tr>
+    <tr>
+      <td>First-party delivery </td>
+      <td><ul><li>First-party deliveries</li></ul></td>
+    </tr>
+  </tbody>
+</table>
 
 From the Online ordering hours section, you can open or close your restaurant to online ordering, edit your online ordering hours, and choose to accept orders until closing time.
 
@@ -144,25 +153,32 @@ From the Online ordering hours section you can choose to allow guests to place o
 > This only applies to ASAP orders and not scheduled orders.
 
 
-| Accept orders until | Example | 
-| --- | --- |
-| Closing time | In this example: - Your restaurant closes at 10:00 PM.
-- Your quote time is 30 minutes.
-- Guests can place orders up to 10:00 PM.
 
-A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM. 
+<table>
+  <thead>
+    <tr>
+      <th>Accept orders until</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Closing time</td>
+      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 10:00 PM.</li></ul><br/>A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM. 
 
 > **Note**
 > 
 > The closing time does not consider lead times. For more information about lead times, see [Online Ordering: Advanced Settings](https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime).
 
 
- | 
-| Closing time minus quote time | In this example: - Your restaurant closes at 10:00 PM.
-- Your quote time is 30 minutes.
-- Guests can place orders up to 9:30 PM.
-
-A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM. For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM. | 
+</td>
+    </tr>
+    <tr>
+      <td>Closing time minus quote time</td>
+      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 9:30 PM.</li></ul><br/>A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM. <br/>For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</td>
+    </tr>
+  </tbody>
+</table>
 
 Select the Publish all changes button to save and publish your changes. The Confirm Publishdialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
 

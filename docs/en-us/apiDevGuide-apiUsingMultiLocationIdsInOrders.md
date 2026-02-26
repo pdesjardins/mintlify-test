@@ -89,18 +89,30 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
 
 
 
-(1) The Order object that defines the order being submitted.
-
-(2) The parent menu group for a menu item to submit in this order. For example, Salads.
-
-(3) The menu item included in this order. For example, Dinner Salad.
-
-(4) A modifier group for the Dinner Salad menu item. For example, Salad Dressing.
-
-(5) A modifier for the Dinner Salad menu item. For example, Balsamic Vinaigrette.
-
-(6) The guest who is placing the order.
-
+    <tr>
+      <td>[(1)](#co-d1e1951635951163)</td>
+      <td>The `Order` object that defines the order being submitted.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1971635951163)</td>
+      <td>The parent menu group for a menu item to submit in this order. For example, Salads.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1991635951163)</td>
+      <td>The menu item included in this order. For example, Dinner Salad.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2011635951163)</td>
+      <td>A modifier group for the Dinner Salad menu item. For example, Salad Dressing.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e2031635951163)</td>
+      <td>A modifier for the Dinner Salad menu item. For example, Balsamic Vinaigrette.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e2061635951163)</td>
+      <td>The guest who is placing the order.</td>
+    </tr>
 ## Example Order object with both identifiers in an orders API response
 
 Responses to requests sent to the `/orders/{GUID}` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
@@ -191,11 +203,19 @@ The following example response shows how both identifiers are provided for each 
 
 
 
-(1) The multiLocationId for the modifier group. For example, Salad Dressing.
-
-(2) The multiLocationId for the modifier. For example, Balsamic Vinaigrette.
-
-(3) The multiLocationId for the menu group. For example, Salads.
-
-(4) The multiLocationId for the menu item. For example, Dinner Salad.
-
+    <tr>
+      <td>[(1)](#co-d1e2731635951163)</td>
+      <td>The `multiLocationId` for the modifier group. For example, Salad Dressing.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2791635951163)</td>
+      <td>The `multiLocationId` for the modifier. For example, Balsamic Vinaigrette.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2871635951163)</td>
+      <td>The `multiLocationId` for the menu group. For example, Salads.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2891635951163)</td>
+      <td>The `multiLocationId` for the menu item. For example, Dinner Salad.</td>
+    </tr>

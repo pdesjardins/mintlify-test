@@ -57,125 +57,620 @@ The following sections provide mappings that show the menu-related configuration
 
 The menus API returns metadata about a restaurant in its `Restaurant` object. The restaurants API returns comparable data for some of these metadata values, as shown in the table below.
 
-| Toast Web | Menus API | Restaurants API | 
-| --- | --- | --- |
-| Restaurant GUID | restaurantGuid | guid (in the Restaurant object) | 
-| Publication Date | lastUpdated | - | 
-| Time Zone | restaurantTimeZone | timeZone | 
-| Menus | menus | - | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Restaurants API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Restaurant GUID</td>
+      <td>restaurantGuid</td>
+      <td>guid (in the Restaurant object)</td>
+    </tr>
+    <tr>
+      <td>Publication Date</td>
+      <td>lastUpdated</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Time Zone</td>
+      <td>restaurantTimeZone</td>
+      <td>timeZone</td>
+    </tr>
+    <tr>
+      <td>Menus</td>
+      <td>menus</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Menu mappings
 
 This section provides a mapping that shows the configuration options for menus in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| - | - | entityType | - | 
-| Name | name | name | name | 
-| Menu GUID | guid | guid | - | 
-| Number | multilocationId | - | - | 
-| Groups | menuGroups | groups | groups | 
-| Available at all times of the day | availability | availableAllTimes | - | 
-| Times available | availability | startTimeendTimestartTimeHHmmendTimeHHmmstartTimeLocalStandardTimeendTimeLocalStandardTimestartTimeHHmmLocalStandardTimeendTimeHHmmLocalStandardTime | - | 
-| Available every day | availability | availableAllDays | - | 
-| Days available | availability | daysAvailableBitsdaysAvailableString | - | 
-| Description | description | description | - | 
-| Image | image | imageLink | images | 
-| High Res Image | highResImage | - | - | 
-| Visibility | visibility | visibility | visibility | 
-| Orderable Online | visibility | orderableOnline | orderableOnline | 
-| Grubhub | visibility | - | - | 
-| - | - | idString | - | 
-| - | - | orderableOnlineStatus | - | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>entityType</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>name</td>
+    </tr>
+    <tr>
+      <td>Menu GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>multilocationId</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Groups</td>
+      <td>menuGroups</td>
+      <td>groups</td>
+      <td>groups</td>
+    </tr>
+    <tr>
+      <td>Available at all times of the day</td>
+      <td>availability</td>
+      <td>availableAllTimes</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Times available</td>
+      <td>availability</td>
+      <td>startTime<br/>endTime<br/>startTimeHHmm<br/>endTimeHHmm<br/>startTimeLocalStandardTime<br/>endTimeLocalStandardTime<br/>startTimeHHmmLocalStandardTime<br/>endTimeHHmmLocalStandardTime</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Available every day</td>
+      <td>availability</td>
+      <td>availableAllDays</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Days available</td>
+      <td>availability</td>
+      <td>daysAvailableBits<br/>daysAvailableString</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>description</td>
+      <td>description</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td>image</td>
+      <td>imageLink</td>
+      <td>images</td>
+    </tr>
+    <tr>
+      <td>High Res Image</td>
+      <td>highResImage</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+    </tr>
+    <tr>
+      <td>Orderable Online</td>
+      <td>visibility</td>
+      <td>orderableOnline</td>
+      <td>orderableOnline</td>
+    </tr>
+    <tr>
+      <td>Grubhub</td>
+      <td>visibility</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>idString</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>orderableOnlineStatus</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Menu group mappings
 
 This section provides a mapping that shows the configuration options for menu groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| - | - | entityType | - | 
-| Name | name | name | name | 
-| GUID | guid | guid | - | 
-| Number | multilocationId | - | - | 
-| Items | menuItems | items | items | 
-| Modifier Groups | - | - | optionGroups | 
-| Subgroups | menuGroups | subgroups | subgroups | 
-| Description | description | description | - | 
-| Image | image | imageLink | images | 
-| Visibility | visibility | visibility | visibility | 
-| Orderable Online | visibility | orderableOnline | orderableOnline | 
-| Grubhub | visibility | - | - | 
-| - | - | idString | - | 
-| - | - | - | menu | 
-| - | - | - | parent | 
-| inheritOptionGroups | - | - | inheritOptionGroups | 
-| Unit of Measure | - | - | unitOfMeasure | 
-| Inherit Unit of Measure | - | - | inheritUnitOfMeasure | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>entityType</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>name</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>multilocationId</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Items</td>
+      <td>menuItems</td>
+      <td>items</td>
+      <td>items</td>
+    </tr>
+    <tr>
+      <td>Modifier Groups</td>
+      <td>-</td>
+      <td>-</td>
+      <td>optionGroups</td>
+    </tr>
+    <tr>
+      <td>Subgroups</td>
+      <td>menuGroups</td>
+      <td>subgroups</td>
+      <td>subgroups</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>description</td>
+      <td>description</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td>image</td>
+      <td>imageLink</td>
+      <td>images</td>
+    </tr>
+    <tr>
+      <td>Visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+    </tr>
+    <tr>
+      <td>Orderable Online</td>
+      <td>visibility</td>
+      <td>orderableOnline</td>
+      <td>orderableOnline</td>
+    </tr>
+    <tr>
+      <td>Grubhub</td>
+      <td>visibility</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>idString</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>menu</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>parent</td>
+    </tr>
+    <tr>
+      <td>inheritOptionGroups</td>
+      <td>-</td>
+      <td>-</td>
+      <td>inheritOptionGroups</td>
+    </tr>
+    <tr>
+      <td>Unit of Measure</td>
+      <td>-</td>
+      <td>-</td>
+      <td>unitOfMeasure</td>
+    </tr>
+    <tr>
+      <td>Inherit Unit of Measure</td>
+      <td>-</td>
+      <td>-</td>
+      <td>inheritUnitOfMeasure</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Menu item mappings
 
 This section provides a mapping that shows the configuration options for menu items in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| - | - | entityType | - | 
-| Name | name | name | name | 
-| GUID | guid | guid | - | 
-| Number | multilocationId | - | - | 
-| Price Level | pricingStrategypricingRules | price | - | 
-| Pricing Strategy | pricingStrategypricingRules | - | - | 
-| Base Price | pricingStrategypricingRules | price | - | 
-| Size Prices | pricingStrategypricingRules | price | - | 
-| Menu Prices | pricingStrategypricingRules | price | - | 
-| Time Prices | pricingStrategypricingRules | price | - | 
-| Location Prices | pricingStrategypricingRules | price | - | 
-| Portions | portions | - | - | 
-| Modifier Groups | modifierGroupReferences | optionGroups | optionGroups | 
-| Inherited Modifier Groups | - | - | inheritOptionGroups | 
-| Description | description | description | - | 
-| Calories | calories | calories | calories | 
-| Image | image | imageLink | images | 
-| Tags | itemTags | - | - | 
-| Visibility | visibility | visibility | visibility | 
-| Orderable Online | visibility | orderableOnline | orderableOnline | 
-| Grubhub Orderable | visibility | - | - | 
-| SKU | sku | - | sku | 
-| PLU | plu | - | plu | 
-| Sales Category | salesCategory | - | - | 
-| Can be discounted | isDiscountable | - | - | 
-| Applicable taxes | taxInfo | - | - | 
-| Unit of Measure | - | unitOfMeasure | unitOfMeasure | 
-| Inherit Unit of Measure | - | - | inheritUnitOfMeasure | 
-| - | - | - | type | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>entityType</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>name</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>multilocationId</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Price Level</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Pricing Strategy</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Base Price</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Size Prices</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Menu Prices</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Time Prices</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Location Prices</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Portions</td>
+      <td>portions</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Modifier Groups</td>
+      <td>modifierGroupReferences</td>
+      <td>optionGroups</td>
+      <td>optionGroups</td>
+    </tr>
+    <tr>
+      <td>Inherited Modifier Groups</td>
+      <td>-</td>
+      <td>-</td>
+      <td>inheritOptionGroups</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>description</td>
+      <td>description</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Calories</td>
+      <td>calories</td>
+      <td>calories</td>
+      <td>calories</td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td>image</td>
+      <td>imageLink</td>
+      <td>images</td>
+    </tr>
+    <tr>
+      <td>Tags</td>
+      <td>itemTags</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+    </tr>
+    <tr>
+      <td>Orderable Online</td>
+      <td>visibility</td>
+      <td>orderableOnline</td>
+      <td>orderableOnline</td>
+    </tr>
+    <tr>
+      <td>Grubhub Orderable</td>
+      <td>visibility</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>SKU</td>
+      <td>sku</td>
+      <td>-</td>
+      <td>sku</td>
+    </tr>
+    <tr>
+      <td>PLU</td>
+      <td>plu</td>
+      <td>-</td>
+      <td>plu</td>
+    </tr>
+    <tr>
+      <td>Sales Category</td>
+      <td>salesCategory</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Can be discounted</td>
+      <td>isDiscountable</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Applicable taxes</td>
+      <td>taxInfo</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Unit of Measure</td>
+      <td>-</td>
+      <td>unitOfMeasure</td>
+      <td>unitOfMeasure</td>
+    </tr>
+    <tr>
+      <td>Inherit Unit of Measure</td>
+      <td>-</td>
+      <td>-</td>
+      <td>inheritUnitOfMeasure</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>type</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Modifier group mappings
 
 This section provides a mapping that shows the configuration options for modifier groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| - | - | entityType | - | 
-| Name | name | name | name | 
-| GUID | guid | guid | - | 
-| Number | multilocationId | - | - | 
-| Required | requiredMode | - | - | 
-| Multi-select | isMultiSelect | - | - | 
-| Min # selections | minSelections | minSelections | minSelections | 
-| Max # selections | maxSelections | maxSelections | maxSelections | 
-| Pre-Modifier Group | premodifierGroupReferences | - | - | 
-| Select where pricing is set | pricingStrategypricingRules | pricingMode | - | 
-| Allow default modifiers to charge their configured price | defaultOptionsChargePrice | defaultOptionsChargePrice | - | 
-| Enable Substitution Pricing | defaultOptionsSubstitutionPricing | defaultOptionsSubstitutionPricing | - | 
-| Select pricing for all modifiers | pricingStrategypricingRules | - | - | 
-| Fixed Modifier Price | pricingStrategypricingRules | - | - | 
-| Sequence Price | pricingStrategypricingRules | pricingStrategypricingStrategyRules | - | 
-| Size Price | pricingStrategypricingRules | pricingStrategypricingStrategyRules | - | 
-| Size/Sequence Price | pricingStrategypricingRules | pricingStrategypricingStrategyRules | - | 
-| Modifiers | modifierOptionReferences | items | options | 
-| Visibility | visibility | visibility | - | 
-| Grubhub | visibility | - | - | 
-| ID string | - | idString | - | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>entityType</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>name</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>multilocationId</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Required</td>
+      <td>requiredMode</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Multi-select</td>
+      <td>isMultiSelect</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Min # selections</td>
+      <td>minSelections</td>
+      <td>minSelections</td>
+      <td>minSelections</td>
+    </tr>
+    <tr>
+      <td>Max # selections</td>
+      <td>maxSelections</td>
+      <td>maxSelections</td>
+      <td>maxSelections</td>
+    </tr>
+    <tr>
+      <td>Pre-Modifier Group</td>
+      <td>premodifierGroupReferences</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Select where pricing is set</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingMode</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Allow default modifiers to charge their configured price</td>
+      <td>defaultOptionsChargePrice</td>
+      <td>defaultOptionsChargePrice</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Enable Substitution Pricing</td>
+      <td>defaultOptionsSubstitutionPricing</td>
+      <td>defaultOptionsSubstitutionPricing</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Select pricing for all modifiers</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Fixed Modifier Price</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Sequence Price</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy<br/>pricingStrategyRules</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Size Price</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy<br/>pricingStrategyRules</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Size/Sequence Price</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>pricingStrategy<br/>pricingStrategyRules</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Modifiers</td>
+      <td>modifierOptionReferences</td>
+      <td>items</td>
+      <td>options</td>
+    </tr>
+    <tr>
+      <td>Visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Grubhub</td>
+      <td>visibility</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>ID string</td>
+      <td>-</td>
+      <td>idString</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -188,54 +683,257 @@ This section provides a mapping that shows the configuration options for modifie
 
 This section provides a mapping that shows the configuration options for modifier options in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| - | - | entityType | - | 
-| Name | name | name | - | 
-| GUID | guid | guid | - | 
-| Number | multilocationId | - | - | 
-| Enable duplicates of this modifier | allowsDuplicates | - | - | 
-| Default | isDefault | isDefaultMod | - | 
-| Visibility | visibility | visibility | - | 
-| Orderable Online | visibility | orderableOnline | - | 
-| Grubhub Orderable | visibility | - | - | 
-| Tax info | taxInfo | - | - | 
-| Sales Category | salesCategory | - | - | 
-| Calories | calories | calories | - | 
-| SKU | sku | sku | - | 
-| PLU | plu | plu | - | 
-| GUID (on the menu item details page) | - | itemGroupGuid | - | 
-| Option Groups | modifierGroupReferences | optionGroups | - | 
-| Price | pricingStrategypricingRules | price | - | 
-| Description | description | description | - | 
-| Item Tags | itemTags | - | - | 
-| - | - | maxSelections | - | 
-| - | jsonIdentifier | - | - | 
-| Portions | portions | - | - | 
-| Image | image | - | - | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>entityType</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>multilocationId</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Enable duplicates of this modifier</td>
+      <td>allowsDuplicates</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td>isDefault</td>
+      <td>isDefaultMod</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Visibility</td>
+      <td>visibility</td>
+      <td>visibility</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Orderable Online</td>
+      <td>visibility</td>
+      <td>orderableOnline</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Grubhub Orderable</td>
+      <td>visibility</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Tax info</td>
+      <td>taxInfo</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Sales Category</td>
+      <td>salesCategory</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Calories</td>
+      <td>calories</td>
+      <td>calories</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>SKU</td>
+      <td>sku</td>
+      <td>sku</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>PLU</td>
+      <td>plu</td>
+      <td>plu</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>GUID (on the menu item details page)</td>
+      <td>-</td>
+      <td>itemGroupGuid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Option Groups</td>
+      <td>modifierGroupReferences</td>
+      <td>optionGroups</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>pricingStrategy<br/>pricingRules</td>
+      <td>price</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>description</td>
+      <td>description</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Item Tags</td>
+      <td>itemTags</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>maxSelections</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>jsonIdentifier</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Portions</td>
+      <td>portions</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td>image</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Premodifier group mappings
 
 This section provides a mapping that shows the configuration options for premodifier groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| Name | name | name | name | 
-| GUID | guid | guid | - | 
-| Default | - | isDefault | isDefault | 
-| Members | premodifiers | premodifiers |  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>name</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td>-</td>
+      <td>isDefault</td>
+      <td>isDefault</td>
+    </tr>
+    <tr>
+      <td>Members</td>
+      <td>premodifiers</td>
+      <td>premodifiers</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Premodifier mappings
 
 This section provides a mapping that shows the configuration options for premodifiers in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
-| Toast Web | Menus API | Menu data export | Configuration API | 
-| --- | --- | --- | --- |
-| Name | name | name | name | 
-| GUID | guid | guid | - | 
-| Base Price | fixedPrice | basePrice | basePrice | 
-| Scale Price | - | scalePrice | scalePrice | 
-| Scale Factor | multiplicationFactor | scaleFactor | scaleFactor | 
-| Display Mode | displayMode | displayMode | displayMode | 
-| Parent | - | - | parent | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Toast Web</th>
+      <th>Menus API</th>
+      <th>Menu data export</th>
+      <th>Configuration API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name</td>
+      <td>name</td>
+      <td>name</td>
+      <td>name</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>guid</td>
+      <td>guid</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Base Price</td>
+      <td>fixedPrice</td>
+      <td>basePrice</td>
+      <td>basePrice</td>
+    </tr>
+    <tr>
+      <td>Scale Price</td>
+      <td>-</td>
+      <td>scalePrice</td>
+      <td>scalePrice</td>
+    </tr>
+    <tr>
+      <td>Scale Factor</td>
+      <td>multiplicationFactor</td>
+      <td>scaleFactor</td>
+      <td>scaleFactor</td>
+    </tr>
+    <tr>
+      <td>Display Mode</td>
+      <td>displayMode</td>
+      <td>displayMode</td>
+      <td>displayMode</td>
+    </tr>
+    <tr>
+      <td>Parent</td>
+      <td>-</td>
+      <td>-</td>
+      <td>parent</td>
+    </tr>
+  </tbody>
+</table>
 

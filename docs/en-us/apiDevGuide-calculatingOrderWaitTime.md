@@ -100,16 +100,26 @@ The following example shows the `prepTimes` object from the response from a `GET
 
 
 
-(1) The amount of time, in minutes, that it takes to prepare and deliver a delivery order.
-
-(2) The amount of time, in minutes, that restaurant employees have chosen to delay delivery orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.
-
-(3) The amount of time, in minutes, that it takes to prepare a takeout order.
-
-(4) The amount of time, in minutes, that restaurant employees have chosen to delay takeout orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.
-
-(5) The deliveryTimeAfterOpen, deliveryTimeBeforeClose, takeoutTimeAfterOpen, and takeoutTimeBeforeClose settings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always 0.
-
+    <tr>
+      <td>[(1)](#co-d1e34136459DE-07E9-4B54-81B7-2199831BCEFD)</td>
+      <td>The amount of time, in minutes, that it takes to prepare and deliver a delivery order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e49136459DE-07E9-4B54-81B7-2199831BCEFD)</td>
+      <td>The amount of time, in minutes, that restaurant employees have chosen to delay delivery orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e40136459DE-07E9-4B54-81B7-2199831BCEFD)</td>
+      <td>The amount of time, in minutes, that it takes to prepare a takeout order.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e47136459DE-07E9-4B54-81B7-2199831BCEFD)</td>
+      <td>The amount of time, in minutes, that restaurant employees have chosen to delay takeout orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e36136459DE-07E9-4B54-81B7-2199831BCEFD)</td>
+      <td>The `deliveryTimeAfterOpen`, `deliveryTimeBeforeClose`, `takeoutTimeAfterOpen`, and `takeoutTimeBeforeClose` settings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always `0`.</td>
+    </tr>
   
 ### Restaurant opening and closing times
 
@@ -157,22 +167,38 @@ The following example shows the `schedules` value with the opening and closing t
 
 
 
-(1) The identifier of a one-day schedule configured for a restaurant. Each schedule can then be assigned to one or more days of the week.
-
-(2) The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 6:00 AM.
-
-(3) The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 2:00 AM.
-
-(4) The identifier of another one-day schedule configured for a restaurant.
-
-(5) The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 11:00 AM.
-
-(6) The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 5:00 AM.
-
-(7) The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.
-
-(8) The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.
-
+    <tr>
+      <td>[(1)](#co-d1e11738A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The identifier of a one-day schedule configured for a restaurant. Each schedule can then be assigned to one or more days of the week.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e11938A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 6:00 AM.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e12138A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 2:00 AM.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e12338A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The identifier of another one-day schedule configured for a restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e12538A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 11:00 AM.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e12838A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 5:00 AM.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e13038A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e13238A7ED93-4BA1-46CE-89EF-D4AB1AFCB058)</td>
+      <td>The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.</td>
+    </tr>
   
 ### Restaurant online ordering hours
 

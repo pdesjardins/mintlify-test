@@ -25,25 +25,44 @@ codeExamples: 0
 
 You can use the orders API to modify the following delivery information:
 
-| Value | Description | 
-| --- | --- |
-| `deliveredDate` | The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format. | 
-| `dispatchedDate` | The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format. | 
-| `deliveryState` | The status of the delivery order. The available values for `deliveryState` are:- `PENDING`: The delivery order has not been dispatched. Corresponds to the Unassignedtab for deliveries on the Toast POS app.
-- `PICKED_UP`: The delivery employee has picked up the order from the restaurant.
-- `IN_PROGRESS`: The order is on its way to the destination. Corresponds to the En Routetab for deliveries on the Toast POS app.
-- `DELIVERED`: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.
 
- | 
-| `deliveryEmployee` | An object that contains the Toast platform GUID of the employee assigned as the delivery driver. | 
-| `notes` | Delivery notes provided by the guest who placed the order. 
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`deliveredDate`</td>
+      <td>The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format.</td>
+    </tr>
+    <tr>
+      <td>`dispatchedDate`</td>
+      <td>The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format.</td>
+    </tr>
+    <tr>
+      <td>`deliveryState`</td>
+      <td>The status of the delivery order. The available values for `deliveryState` are:<ul><li>`PENDING`: The delivery order has not been dispatched. Corresponds to the Unassignedtab for deliveries on the Toast POS app.</li><li>`PICKED_UP`: The delivery employee has picked up the order from the restaurant.</li><li>`IN_PROGRESS`: The order is on its way to the destination. Corresponds to the En Routetab for deliveries on the Toast POS app.</li><li>`DELIVERED`: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</li></ul></td>
+    </tr>
+    <tr>
+      <td>`deliveryEmployee`</td>
+      <td>An object that contains the Toast platform GUID of the employee assigned as the delivery driver.</td>
+    </tr>
+    <tr>
+      <td>`notes`</td>
+      <td>Delivery notes provided by the guest who placed the order. 
 
 > **Important**
 > 
 > Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.
 
 
- | 
+</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -113,16 +132,26 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 
 
 
-(1) The date and time when the delivery employee indicated the order was delivered.
-
-(2) The date and time the restaurant indicated the order was available for delivery and was assigned to a delivery employee.
-
-(3) The state of a delivery order. The possible values are PENDING, IN_PROGRESS, PICKED_UP, or DELIVERED.
-
-(4) The Toast platform GUID of the delivery employee at the restaurant.
-
-(5) The delivery notes for the order. For more information, see notes.
-
+    <tr>
+      <td>[(1)](#co-d1e2925533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The date and time when the delivery employee indicated the order was delivered.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2945533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The date and time the restaurant indicated the order was available for delivery and was assigned to a delivery employee.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2965533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The state of a delivery order. The possible values are `PENDING`, `IN_PROGRESS`, `PICKED_UP`, or `DELIVERED`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2985533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The Toast platform GUID of the delivery employee at the restaurant.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e2085533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The delivery notes for the order. For more information, see [notes](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).</td>
+    </tr>
 ## Example response when updating delivery information
 
 The following example shows the response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
@@ -169,12 +198,18 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
 
 
 
-(1) The Toast platform GUID assigned to this order.
-
-(2) Information about the delivery, including address information and any values you updated.
-
-(3) The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have behavior set to DELIVERY.
-
+    <tr>
+      <td>[(1)](#co-d1e2255533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The Toast platform GUID assigned to this order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2275533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>Information about the delivery, including address information and any values you updated.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2385533E9A4-9140-47FA-BA5E-B39FCEBDF6B0)</td>
+      <td>The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have `behavior` set to `DELIVERY`.</td>
+    </tr>
 ## Viewing the delivery information in the Toast POS application
 
 The following image shows an order on the Unassigned tab of the Deliveryscreen on a Toast POS device.

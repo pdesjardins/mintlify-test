@@ -54,31 +54,34 @@ You can configure your online ordering schedule and overrides in Toast Web. Choo
 
 Attributes in the `ordering_schedule_updated` event’s payload include:
 
-| Value | Description | 
-| --- | --- |
-| `restaurantGuid` | A unique Toast POS identifier for the restaurant.data type:stringformat:uuid | 
-| `orderingSchedule` | The parent object that holds information about the days and times when the restaurant location accepts online orders.  | 
-| `servicePeriods` | An object that contains information about the restaurant's online ordering schedule. The `servicePeriods` array contains the following fields and values:- `diningOptionBehavior``TAKE_OUT` or `DELIVERY`The dining behavior.data type: string
-- `dayPeriods`Object that contains information about the specific day and time range when the restaurant location accepts online orders.data type: object- `day`The day the online ordering schedule is returned for.data type: string
-- `timeRanges`Key-value pair detailing the start and end time for online ordering in HH:MM format.data type: object- `start`The local time in HH:MM format when the restaurant’s online ordering hours start.data type: string
-- `end`The local time in HH:MM format when the restaurant’s online ordering hours end.data type: string
 
-
-
-
-
- | 
-| `overrides` | An object that contains information about planned overrides. Overrides only affect Toast Online Ordering and third-party orders. For more information, see [Configuring overrides](adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours). The overrides array contains the following fields and values: - `description`The description of the override.data type: string
-- `diningOptionBehavior``TAKE_OUT` or `DELIVERY`The dining behavior.data type: string
-- `businessDate`The day the override applies to in YYYYMMDD format. data type: integer- `timeRanges`Key-value pair detailing the start and end time for online ordering in HH:MM format.data type: object- `start`The local time in HH:MM format when the restaurant’s online ordering hours start.data type: string
-- `end`The local time in HH:MM format when the restaurant’s online ordering hours end.data type: string
-
-
-
-
-
- | 
-| `scheduledOrderMaxDays` | Number of days an online order can be placed into the future.data type:integer
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>A unique Toast POS identifier for the restaurant.<br/>data type:string<br/>format:uuid</td>
+    </tr>
+    <tr>
+      <td>`orderingSchedule`</td>
+      <td>The parent object that holds information about the days and times when the restaurant location accepts online orders. </td>
+    </tr>
+    <tr>
+      <td>`servicePeriods`</td>
+      <td>An object that contains information about the restaurant's online ordering schedule. <br/>The `servicePeriods` array contains the following fields and values:<ul><li>`diningOptionBehavior`<br/>`TAKE_OUT` or `DELIVERY`<br/>The dining behavior.<br/>data type: string</li><li>`dayPeriods`<br/>Object that contains information about the specific day and time range when the restaurant location accepts online orders.<br/>data type: object<ul><li>`day`<br/>The day the online ordering schedule is returned for.<br/>data type: string</li><li>`timeRanges`<br/>Key-value pair detailing the start and end time for online ordering in HH:MM format.<br/>data type: object<ul><li>`start`<br/>The local time in HH:MM format when the restaurant’s online ordering hours start.<br/>data type: string</li><li>`end`<br/>The local time in HH:MM format when the restaurant’s online ordering hours end.<br/>data type: string</li></ul></li></ul></li></ul></td>
+    </tr>
+    <tr>
+      <td>`overrides`</td>
+      <td>An object that contains information about planned overrides. Overrides only affect Toast Online Ordering and third-party orders. For more information, see [Configuring overrides](adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours). <br/>The overrides array contains the following fields and values: <ul><li>`description`<br/>The description of the override.<br/>data type: string</li><li>`diningOptionBehavior`<br/>`TAKE_OUT` or `DELIVERY`<br/>The dining behavior.<br/>data type: string</li><li>`businessDate`<br/>The day the override applies to in YYYYMMDD format. <br/>data type: integer<ul><li>`timeRanges`<br/>Key-value pair detailing the start and end time for online ordering in HH:MM format.<br/>data type: object<ul><li>`start`<br/>The local time in HH:MM format when the restaurant’s online ordering hours start.<br/>data type: string</li><li>`end`<br/>The local time in HH:MM format when the restaurant’s online ordering hours end.<br/>data type: string</li></ul></li></ul></li></ul></td>
+    </tr>
+    <tr>
+      <td>`scheduledOrderMaxDays`</td>
+      <td>Number of days an online order can be placed into the future.<br/>data type:integer
 
 > **Note**
 > 
@@ -86,8 +89,14 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
 > For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Scheduling-Future-Orders).
 
 
- | 
-| `lastOrderConfiguration` | `UNTIL_CLOSING_TIME` or `UNTIL_PREPTIME_CUTOFF`Indicates when the restaurant will stop accepting online orders. data type: string | 
+</td>
+    </tr>
+    <tr>
+      <td>`lastOrderConfiguration`</td>
+      <td>`UNTIL_CLOSING_TIME` or `UNTIL_PREPTIME_CUTOFF`<br/>Indicates when the restaurant will stop accepting online orders. <br/>data type: string</td>
+    </tr>
+  </tbody>
+</table>
 
 **Example 9.12. Payload for an `ordering_schedule`_updated event**
 

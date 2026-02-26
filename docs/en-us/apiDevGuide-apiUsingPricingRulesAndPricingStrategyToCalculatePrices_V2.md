@@ -135,18 +135,30 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
 
 
 
-(1) The price of the Cheese Pizza menu item during the time period defined by the schedule value ($8).
-
-(2) The base price of the Cheese Pizza menu item ($10), used for time periods when a time-specific price has not been defined.
-
-(3) The schedule for this time specific price, which defines the days and times the price applies.
-
-(4) The days this time-specific price applies (Monday through Friday).
-
-(5) The times this time-specific price applies (noon to 2pm), in the restaurant's local time.
-
-(6) The configuration for another time-specific price for Saturday and Sunday.
-
+    <tr>
+      <td>[(1)](#co-d1e5741578678687)</td>
+      <td>The price of the Cheese Pizza menu item during the time period defined by the `schedule` value ($8).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e5761578678687)</td>
+      <td>The base price of the Cheese Pizza menu item ($10), used for time periods when a time-specific price has not been defined.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e5781578678687)</td>
+      <td>The schedule for this time specific price, which defines the days and times the price applies.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e5801578678687)</td>
+      <td>The days this time-specific price applies (Monday through Friday).</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e5821578678687)</td>
+      <td>The times this time-specific price applies (noon to 2pm), in the restaurant's local time.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e5851578678687)</td>
+      <td>The configuration for another time-specific price for Saturday and Sunday.</td>
+    </tr>
   
 ### Menu item with a size price
 
@@ -247,26 +259,46 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
 
 
 
-(1) The GUID of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 2.
-
-(2) A reference to the Size modifier group in the modifierGroupReferences map. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(3) References to other, non-size related, modifier groups that modify the Cheese Pizza menu item.
-
-(4) The Size modifier group for the Cheese Pizza menu item.
-
-(5) References to the modifier options in the Size modifier group where the individual sizes and prices are defined.
-
-(6) The Small modifier option, which defines the price of the Small size of the Cheese Pizza menu item.
-
-(7) The price ($8) of the Small size of the Cheese Pizza menu item. This price is inherited from the Small modifier option's underlying item reference.
-
-(8) The pricingStrategy for the Small modifier option, inherited from the underlying item reference.
-
-(9) The pricingRules for the Small modifier option, inherited from the underlying item reference.
-
-(10) The Large modifier option, which defines the price of the Large size of the Cheese Pizza menu item.
-
+    <tr>
+      <td>[(1)](#co-d1e6741578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e6761578678687)</td>
+      <td>A reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e6781578678687)</td>
+      <td>References to other, non-size related, modifier groups that modify the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e6801578678687)</td>
+      <td>The Size modifier group for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e6821578678687)</td>
+      <td>References to the modifier options in the Size modifier group where the individual sizes and prices are defined.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e6851578678687)</td>
+      <td>The Small modifier option, which defines the price of the Small size of the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e6871578678687)</td>
+      <td>The price ($8) of the Small size of the Cheese Pizza menu item. This price is inherited from the Small modifier option's underlying [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e6891578678687)</td>
+      <td>The `pricingStrategy` for the Small modifier option, inherited from the underlying item reference.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e6911578678687)</td>
+      <td>The `pricingRules` for the Small modifier option, inherited from the underlying item reference.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e6931578678687)</td>
+      <td>The Large modifier option, which defines the price of the Large size of the Cheese Pizza menu item.</td>
+    </tr>
   
 ## Calculating prices for modifier options that inherit a price from a modifier group
 
@@ -430,56 +462,106 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
 
 
 
-(1) Indicates that the pricing strategy for the Cheese Pizza menu item is SIZE_PRICE.
-
-(2) The GUID of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 2.
-
-(3) Reference to the Size modifier group in the modifierGroupReferences map. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(4) Reference to the Toppings modifier group.
-
-(5) The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.
-
-(6) Prices are defined on the Small and Large modifier options themselves, so the pricingStrategy for the Size modifier group is NONE and pricingRules is null.
-
-(7) Reference to the Small modifier option for the Cheese Pizza menu item.
-
-(8) Reference to the Large modifier option for the Cheese Pizza menu item.
-
-(9) The Toppings modifier group.
-
-(10) Indicates that the pricing strategy for the Toppings modifier group is SIZE_PRICE.
-
-(11) The GUID of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.
-
-(12) An object that defines the price of toppings added to a Small cheese pizza.
-
-(13) The GUID of the modifier option that defines the matching Small size of the Cheese Pizza menu item.
-
-(14) The sequence value is always 1 for the SIZE_PRICE pricing strategy because there is only one price for each size of the modifier option. (Other pricing strategies use the sequence value to assign a price to a modifier option based on the sequence in which it was ordered.)
-
-(15) The price for a Small size of a topping ($2).
-
-(16) An object that defines the price of toppings added to a Large cheese pizza.
-
-(17) The GUID of the modifier option that defines the matching Large size of the Cheese Pizza menu item.
-
-(18) The price for a Large size of a topping ($4).
-
-(19) Reference to the Mushrooms modifier option.
-
-(20) Reference to the Onions modifier option.
-
-(21) GROUP_PRICE indicates that the Mushrooms modifier option inherits its price from its parent modifier group.
-
-(22) The modifier option that defines the price of a Small cheese pizza.
-
-(23) The price of a Small cheese pizza ($8).
-
-(24) The modifier option that defines the price of a Large cheese pizza.
-
-(25) The price of a Large cheese pizza ($10).
-
+    <tr>
+      <td>[(1)](#co-d1e8361578678687)</td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8381578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e8401578678687)</td>
+      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e8421578678687)</td>
+      <td>Reference to the Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e8441578678687)</td>
+      <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e8471578678687)</td>
+      <td>Prices are defined on the Small and Large modifier options themselves, so the `pricingStrategy` for the Size modifier group is `NONE` and `pricingRules` is `null`.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e8491578678687)</td>
+      <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e8511578678687)</td>
+      <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e8531578678687)</td>
+      <td>The Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e8551578678687)</td>
+      <td>Indicates that the pricing strategy for the Toppings modifier group is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e8571578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e8601578678687)</td>
+      <td>An object that defines the price of toppings added to a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e8621578678687)</td>
+      <td>The `GUID` of the modifier option that defines the matching Small size of the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(14)](#co-d1e8641578678687)</td>
+      <td>The sequence value is always 1 for the `SIZE_PRICE` pricing strategy because there is only one price for each size of the modifier option. (Other pricing strategies use the sequence value to assign a price to a modifier option based on the sequence in which it was ordered.)</td>
+    </tr>
+    <tr>
+      <td>[(15)](#co-d1e8661578678687)</td>
+      <td>The price for a Small size of a topping ($2).</td>
+    </tr>
+    <tr>
+      <td>[(16)](#co-d1e8681578678687)</td>
+      <td>An object that defines the price of toppings added to a Large cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(17)](#co-d1e8701578678687)</td>
+      <td>The `GUID` of the modifier option that defines the matching Large size of the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(18)](#co-d1e8731578678687)</td>
+      <td>The price for a Large size of a topping ($4).</td>
+    </tr>
+    <tr>
+      <td>[(19)](#co-d1e8751578678687)</td>
+      <td>Reference to the Mushrooms modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(20)](#co-d1e8771578678687)</td>
+      <td>Reference to the Onions modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(21)](#co-d1e8791578678687)</td>
+      <td>`GROUP_PRICE` indicates that the Mushrooms modifier option inherits its price from its parent modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(22)](#co-d1e8811578678687)</td>
+      <td>The modifier option that defines the price of a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(23)](#co-d1e8831578678687)</td>
+      <td>The price of a Small cheese pizza ($8).</td>
+    </tr>
+    <tr>
+      <td>[(24)](#co-d1e8861578678687)</td>
+      <td>The modifier option that defines the price of a Large cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(25)](#co-d1e8881578678687)</td>
+      <td>The price of a Large cheese pizza ($10).</td>
+    </tr>
   
 ### Modifier option that inherits a sequence price from a modifier group
 
@@ -636,40 +718,74 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
 
 
 
-(1) Indicates that the pricing strategy for the Cheese Pizza menu item is SIZE_PRICE.
-
-(2) The GUID of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 2.
-
-(3) Reference to the Size modifier group in the modifierGroupReferences map. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(4) Reference to the Toppings modifier group.
-
-(5) The Toppings modifier group.
-
-(6) Indicates that the pricing strategy for the Toppings modifier group is SEQUENCE_PRICE.
-
-(7) The price of the first topping added to the Cheese Pizza menu item ($1).
-
-(8) The price of the second topping added to the Cheese Pizza menu item ($2).
-
-(9) The price of the third topping added to the Cheese Pizza menu item ($2.50). Because this is the last price in the sequence, it is also the price of any toppings added beyond the third.
-
-(10) Reference to the Pepperoni modifier option.
-
-(11) Reference to the Sausage modifier option.
-
-(12) The Size modifier group that defines sizes for the Cheese Pizza menu item.
-
-(13) Reference to the Small modifier option.
-
-(14) Reference to the Large modifier option.
-
-(15) GROUP_PRICE indicates that the Pepperoni modifier option inherits its price from its parent modifier group.
-
-(16) A Small cheese pizza costs $8.
-
-(17) A Large cheese pizza costs $10.
-
+    <tr>
+      <td>[(1)](#co-d1e10441578678687)</td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e10461578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e10481578678687)</td>
+      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e10501578678687)</td>
+      <td>Reference to the Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e10521578678687)</td>
+      <td>The Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e10551578678687)</td>
+      <td>Indicates that the pricing strategy for the Toppings modifier group is `SEQUENCE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e10571578678687)</td>
+      <td>The price of the first topping added to the Cheese Pizza menu item ($1).</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e10591578678687)</td>
+      <td>The price of the second topping added to the Cheese Pizza menu item ($2).</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e10611578678687)</td>
+      <td>The price of the third topping added to the Cheese Pizza menu item ($2.50). Because this is the last price in the sequence, it is also the price of any toppings added beyond the third.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e10631578678687)</td>
+      <td>Reference to the Pepperoni modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e10651578678687)</td>
+      <td>Reference to the Sausage modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e10681578678687)</td>
+      <td>The Size modifier group that defines sizes for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e10701578678687)</td>
+      <td>Reference to the Small modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(14)](#co-d1e10721578678687)</td>
+      <td>Reference to the Large modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(15)](#co-d1e10741578678687)</td>
+      <td>`GROUP_PRICE` indicates that the Pepperoni modifier option inherits its price from its parent modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(16)](#co-d1e10761578678687)</td>
+      <td>A Small cheese pizza costs $8.</td>
+    </tr>
+    <tr>
+      <td>[(17)](#co-d1e10781578678687)</td>
+      <td>A Large cheese pizza costs $10.</td>
+    </tr>
   
 ### Modifier option that inherits a size/sequence price from a modifier group
 
@@ -836,46 +952,86 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
 
 
 
-(1) Indicates that the pricing strategy for the Cheese Pizza menu item is SIZE_PRICE.
-
-(2) The GUID of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 2.
-
-(3) Reference to the Size modifier group in the modifierGroupReferences map. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(4) Reference to the Toppings modifier group.
-
-(5) The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.
-
-(6) Prices are defined on the Small and Large modifier options themselves, so the pricingStrategy for the Size modifier group is NONE and pricingRules is null.
-
-(7) Reference to the Small modifier option for the Cheese Pizza menu item.
-
-(8) Reference to the Large modifier option for the Cheese Pizza menu item.
-
-(9) The Toppings modifier group.
-
-(10) Indicates that the pricing strategy for the Toppings modifier group is SIZE_SEQUENCE_PRICE.
-
-(11) The GUID of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.
-
-(12) An object that defines the price of toppings added to a Small cheese pizza.
-
-(13) The GUID of the modifier option that defines the matching Small size of the Cheese Pizza menu item.
-
-(14) The price of the first topping added to a Small cheese pizza ($1).
-
-(15) The price of the second topping added to a Small cheese pizza ($2). Because this is the last price in the sequence, it is also the price of any toppings added beyond the second.
-
-(16) Reference to the Olives modifier option.
-
-(17) Reference to the Peppers modifier option.
-
-(18) GROUP_PRICE indicates that the Olives modifier option inherits its price from its parent modifier group.
-
-(19) The modifier option that defines the price of a Small cheese pizza.
-
-(20) The price of a Small cheese pizza ($8).
-
+    <tr>
+      <td>[(1)](#co-d1e11991578678687)</td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e12011578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e12031578678687)</td>
+      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e12051578678687)</td>
+      <td>Reference to the Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e12071578678687)</td>
+      <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e12101578678687)</td>
+      <td>Prices are defined on the Small and Large modifier options themselves, so the `pricingStrategy` for the Size modifier group is `NONE` and `pricingRules` is null.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e12121578678687)</td>
+      <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e12141578678687)</td>
+      <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e12161578678687)</td>
+      <td>The Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e12181578678687)</td>
+      <td>Indicates that the pricing strategy for the Toppings modifier group is `SIZE_SEQUENCE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e12201578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e12231578678687)</td>
+      <td>An object that defines the price of toppings added to a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e12251578678687)</td>
+      <td>The `GUID` of the modifier option that defines the matching Small size of the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(14)](#co-d1e12271578678687)</td>
+      <td>The price of the first topping added to a Small cheese pizza ($1).</td>
+    </tr>
+    <tr>
+      <td>[(15)](#co-d1e12291578678687)</td>
+      <td>The price of the second topping added to a Small cheese pizza ($2). Because this is the last price in the sequence, it is also the price of any toppings added beyond the second.</td>
+    </tr>
+    <tr>
+      <td>[(16)](#co-d1e12311578678687)</td>
+      <td>Reference to the Olives modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(17)](#co-d1e12331578678687)</td>
+      <td>Reference to the Peppers modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(18)](#co-d1e12361578678687)</td>
+      <td>`GROUP_PRICE` indicates that the Olives modifier option inherits its price from its parent modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(19)](#co-d1e12381578678687)</td>
+      <td>The modifier option that defines the price of a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(20)](#co-d1e12401578678687)</td>
+      <td>The price of a Small cheese pizza ($8).</td>
+    </tr>
   
 ## Calculating prices for modifier options that use their item reference price
 
@@ -1024,44 +1180,82 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 
 
 
-(1) Indicates that the pricing strategy for the Cheese Pizza menu item is SIZE_PRICE.
-
-(2) The GUID of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 2.
-
-(3) Reference to the Size modifier group in the modifierGroupReferences map. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(4) Reference to the Toppings modifier group.
-
-(5) The Toppings modifier group.
-
-(6) A price is defined on the Goat Cheese modifier option itself, so the pricingStrategy for the Toppings modifier group is NONE and pricingRules is null.
-
-(7) Reference to the Goat Cheese modifier option.
-
-(8) The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.
-
-(9) Prices are defined on the Small and Large modifier options themselves, so the pricingStrategy for the Size modifier group is NONE and pricingRules is null.
-
-(10) Reference to the Small modifier option for the Cheese Pizza menu item.
-
-(11) Reference to the Large modifier option for the Cheese Pizza menu item.
-
-(12) Indicates that the pricing strategy for the Goat Cheese modifier option is TIME_SPECIFIC_PRICE.
-
-(13) The price of the Goat Cheese modifier option during the time period defined by the schedule value ($1).
-
-(14) The base price of the Goat Cheese modifier option ($2), used for time periods when a time-specific price has not been defined.
-
-(15) The schedule for this time-specific price, which defines the days and times the price applies.
-
-(16) The days this time-specific price applies (Monday through Sunday).
-
-(17) The times this time-specific price applies (noon to 2pm), in the restaurant's local time.
-
-(18) The modifier option that defines the price of a Small cheese pizza.
-
-(19) The price of a Small cheese pizza ($8).
-
+    <tr>
+      <td>[(1)](#co-d1e13871578678687)</td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e13891578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e13911578678687)</td>
+      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e13931578678687)</td>
+      <td>Reference to the Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e13951578678687)</td>
+      <td>The Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e13981578678687)</td>
+      <td>A price is defined on the Goat Cheese modifier option itself, so the `pricingStrategy` for the Toppings modifier group is `NONE` and `pricingRules` is null.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e14001578678687)</td>
+      <td>Reference to the Goat Cheese modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e14021578678687)</td>
+      <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e14041578678687)</td>
+      <td>Prices are defined on the Small and Large modifier options themselves, so the `pricingStrategy` for the Size modifier group is `NONE` and `pricingRules` is null.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e14061578678687)</td>
+      <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e14081578678687)</td>
+      <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e14111578678687)</td>
+      <td>Indicates that the pricing strategy for the Goat Cheese modifier option is `TIME_SPECIFIC_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e14131578678687)</td>
+      <td>The price of the Goat Cheese modifier option during the time period defined by the schedule value ($1).</td>
+    </tr>
+    <tr>
+      <td>[(14)](#co-d1e14151578678687)</td>
+      <td>The base price of the Goat Cheese modifier option ($2), used for time periods when a time-specific price has not been defined.</td>
+    </tr>
+    <tr>
+      <td>[(15)](#co-d1e14171578678687)</td>
+      <td>The schedule for this time-specific price, which defines the days and times the price applies.</td>
+    </tr>
+    <tr>
+      <td>[(16)](#co-d1e14191578678687)</td>
+      <td>The days this time-specific price applies (Monday through Sunday).</td>
+    </tr>
+    <tr>
+      <td>[(17)](#co-d1e14211578678687)</td>
+      <td>The times this time-specific price applies (noon to 2pm), in the restaurant's local time.</td>
+    </tr>
+    <tr>
+      <td>[(18)](#co-d1e14241578678687)</td>
+      <td>The modifier option that defines the price of a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(19)](#co-d1e14261578678687)</td>
+      <td>The price of a Small cheese pizza ($8).</td>
+    </tr>
   
 ### Modifier option that uses a size price from its item reference
 
@@ -1220,44 +1414,84 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 
 
 
-(1) Indicates that the pricing strategy for the Cheese Pizza menu item is SIZE_PRICE.
-
-(2) The GUID of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 2.
-
-(3) Reference to the Size modifier group in the modifierGroupReferences map. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(4) Reference to the Toppings modifier group.
-
-(5) The Size modifier group that defines sizes and prices for the Tomatoes modifier option.
-
-(6) Reference to the Small modifier option for the Tomatoes modifier option.
-
-(7) Reference to the Large modifier option for the Tomatoes modifier option.
-
-(8) Prices are defined on the modifier options themselves, so the pricingStrategy is NONE and pricingRules is null.
-
-(9) Reference to the Tomatoes modifier option.
-
-(10) The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.
-
-(11) Reference to the Small modifier option for the Cheese Pizza menu item.
-
-(12) Reference to the Large modifier option for the Cheese Pizza menu item.
-
-(13) The Tomatoes modifier option.
-
-(14) Indicates that the pricing strategy for the Tomatoes modifier option is SIZE_PRICE.
-
-(15) The GUID of the Size modifier group that defines sizes and prices for the Tomatoes modifier option. Note that this is the same modifier group that is referenced in the modifierGroupReferences map using the ID 7.
-
-(16) Reference to the Size modifier group that defines sizes and prices for the Tomatoes modifier option. This is the same modifier group whose GUID is specified in the sizeSpecificPricingGuid value.
-
-(17) The modifier option that defines the price of the Tomatoes modifier option when it is applied to a Small cheese pizza.
-
-(18) The modifier option that defines the price of the Tomatoes modifier option when it is applied to a Large cheese pizza.
-
-(19) The modifier option that defines the price of a Small cheese pizza.
-
-(20) The modifier option that defines the price of a Large cheese pizza.
-
+    <tr>
+      <td>[(1)](#co-d1e15511578678687)</td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e15531578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e15551578678687)</td>
+      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e15571578678687)</td>
+      <td>Reference to the Toppings modifier group.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e15591578678687)</td>
+      <td>The Size modifier group that defines sizes and prices for the Tomatoes modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e15621578678687)</td>
+      <td>Reference to the Small modifier option for the Tomatoes modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e15641578678687)</td>
+      <td>Reference to the Large modifier option for the Tomatoes modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e15661578678687)</td>
+      <td>Prices are defined on the modifier options themselves, so the `pricingStrategy` is `NONE` and `pricingRules` is null.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e15681578678687)</td>
+      <td>Reference to the Tomatoes modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e15701578678687)</td>
+      <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e15721578678687)</td>
+      <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e15751578678687)</td>
+      <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#co-d1e15771578678687)</td>
+      <td>The Tomatoes modifier option.</td>
+    </tr>
+    <tr>
+      <td>[(14)](#co-d1e15791578678687)</td>
+      <td>Indicates that the pricing strategy for the Tomatoes modifier option is `SIZE_PRICE`.</td>
+    </tr>
+    <tr>
+      <td>[(15)](#co-d1e15811578678687)</td>
+      <td>The `GUID` of the Size modifier group that defines sizes and prices for the Tomatoes modifier option. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `7`.</td>
+    </tr>
+    <tr>
+      <td>[(16)](#co-d1e15831578678687)</td>
+      <td>Reference to the Size modifier group that defines sizes and prices for the Tomatoes modifier option. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+    </tr>
+    <tr>
+      <td>[(17)](#co-d1e15851578678687)</td>
+      <td>The modifier option that defines the price of the Tomatoes modifier option when it is applied to a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(18)](#co-d1e15881578678687)</td>
+      <td>The modifier option that defines the price of the Tomatoes modifier option when it is applied to a Large cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(19)](#co-d1e15901578678687)</td>
+      <td>The modifier option that defines the price of a Small cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[(20)](#co-d1e15921578678687)</td>
+      <td>The modifier option that defines the price of a Large cheese pizza.</td>
+    </tr>
   

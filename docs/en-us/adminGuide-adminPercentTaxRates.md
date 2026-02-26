@@ -38,12 +38,38 @@ For example, a tax rate of 6.25%, when applied to a $50.75 check, results in a t
 
 The following table describes the four Toast rounding options.
 
-| Rounding Option | Rounding Behavior | Rounding Examples | 
-| --- | --- | --- |
-| Half Even Rounding | Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24. | $0.112 -&gt; $0.11$0.115 -&gt; $0.12$0.125 -&gt; $0.12$0.135 -&gt; $0.14 | 
-| Half Up Rounding | Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35. | $0.112 -&gt; $0.11$0.115 -&gt; $0.12$0.125 -&gt; $0.13$0.135 -&gt; $0.14 | 
-| Always Round Down | Always round down every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round down to $1.23. | $0.112 -&gt; $0.11$0.115 -&gt; $0.11$0.125 -&gt; $0.12$0.135 -&gt; $0.13 | 
-| Always Round Up | Always round up every fractional penny, including half-way values.For example, $1.234, $1.235, and $1.236 all round up to 1.24. | $0.112 -&gt; $0.12$0.115 -&gt; $0.12$0.125 -&gt; $0.13$0.135 -&gt; $0.14 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Rounding Option</th>
+      <th>Rounding Behavior</th>
+      <th>Rounding Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Half Even Rounding</td>
+      <td>Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.<br/>For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24.</td>
+      <td>$0.112 -&gt; $0.11<br/>$0.115 -&gt; $0.12<br/>$0.125 -&gt; $0.12<br/>$0.135 -&gt; $0.14</td>
+    </tr>
+    <tr>
+      <td>Half Up Rounding</td>
+      <td>Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.<br/>For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35.</td>
+      <td>$0.112 -&gt; $0.11<br/>$0.115 -&gt; $0.12<br/>$0.125 -&gt; $0.13<br/>$0.135 -&gt; $0.14</td>
+    </tr>
+    <tr>
+      <td>Always Round Down</td>
+      <td>Always round down every fractional penny, including half-way values.<br/>For example, $1.234, $1.235, and $1.236 all round down to $1.23.</td>
+      <td>$0.112 -&gt; $0.11<br/>$0.115 -&gt; $0.11<br/>$0.125 -&gt; $0.12<br/>$0.135 -&gt; $0.13</td>
+    </tr>
+    <tr>
+      <td>Always Round Up</td>
+      <td>Always round up every fractional penny, including half-way values.<br/>For example, $1.234, $1.235, and $1.236 all round up to 1.24.</td>
+      <td>$0.112 -&gt; $0.12<br/>$0.115 -&gt; $0.12<br/>$0.125 -&gt; $0.13<br/>$0.135 -&gt; $0.14</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Takeout tax rates
 

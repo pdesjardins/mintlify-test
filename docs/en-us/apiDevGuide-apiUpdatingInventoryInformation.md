@@ -54,12 +54,18 @@ https://`[toast-api-hostname]`/stock/v1/inventory/update
 
 
 
-(1) Use the Toast-Restaurant-External-IDrequest parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.
-
-(2) Specify the data type of the message body in the Content-Type header field. The value must be application/json.
-
-(3) Include the array of menu items to update in the message body of the PUT request. This example curl command sends message body data from the contents of the my-item-inventory-data.json file.
-
+    <tr>
+      <td>[(1)](#co-d1e1511646327542)</td>
+      <td>Use the `Toast-Restaurant-External-ID`request parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1531646327542)</td>
+      <td>Specify the data type of the message body in the Content-Type header field. The value must be `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1551646327542)</td>
+      <td>Include the array of menu items to update in the message body of the `PUT` request. This example **curl** command sends message body data from the contents of the `my-item-inventory-data.json` file.</td>
+    </tr>
   
 For each menu item to update, include a `MenuItemInventory`object in the message body with the following values:
 
@@ -114,12 +120,18 @@ The following example shows a JSON message body data that provides information a
 
 
 
-(1) This object uses a multiLocationId to identify the menu item to update and sets the menu item's stock status to IN_STOCK.
-
-(2) This object uses a multiLocationId to identify the menu item to update. It sets the menu item's stock status to QUANTITY and specifies in the quantity value that there are five units of the menu item in stock.
-
-(3) This object uses a guid to identify the menu item to update and sets the menu item's stock status to OUT_OF_STOCK.
-
+    <tr>
+      <td>[(1)](#co-d1e2911646327542)</td>
+      <td>This object uses a `multiLocationId` to identify the menu item to update and sets the menu item's stock status to `IN_STOCK`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2951646327542)</td>
+      <td>This object uses a `multiLocationId` to identify the menu item to update. It sets the menu item's stock status to `QUANTITY` and specifies in the `quantity` value that there are five units of the menu item in stock.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2971646327542)</td>
+      <td>This object uses a `guid` to identify the menu item to update and sets the menu item's stock status to `OUT_OF_STOCK`.</td>
+    </tr>
   
 The response for an update request includes a [`MenuItemInventory`object](apiDevGuide-apiUsingTheStockApi#portalMenuItemInventoryObject) with the inventory information for each menu item identifier you submitted in the request. The stock API sets the `itemGuidValidity` value of each `MenuItemInventory`object to indicate whether it found a matching menu item and made the update. `VALID` indicates a matching item was found and its stock status was updated. `INVALID` indicates no matching item was found and no action was taken for that identifier. If a menu item's status is `INVALID`, your integration should update the list of menu items it associates with the restaurant location.
 
@@ -182,16 +194,26 @@ The following example shows the JSON response data for a PUT request to the `/in
 
 
 
-(1) Return data for a menu item whose status was set to IN_STOCK.
-
-(2) Return data for a menu item whose status was set to QUANTITY and whose quantity was set to 5.0.
-
-(3) Return data for a menu item whose status was set to OUT_OF_STOCK.
-
-(4) Return data for a menu item guid that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.
-
-(5) Return data for a menu item multiLocationId that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.
-
+    <tr>
+      <td>[(1)](#co-d1e5391724334607)</td>
+      <td>Return data for a menu item whose status was set to `IN_STOCK`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e5411724334607)</td>
+      <td>Return data for a menu item whose status was set to `QUANTITY` and whose quantity was set to `5.0`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e5431724334607)</td>
+      <td>Return data for a menu item whose status was set to `OUT_OF_STOCK`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e5451724334607)</td>
+      <td>Return data for a menu item `guid` that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e5471724334607)</td>
+      <td>Return data for a menu item `multiLocationId` that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+    </tr>
   
 Note that, if your integration also uses the [stock webhook](apiDevGuide-apiStockWebhook), your webhook endpoint receives a message indicating that an inventory update has occurred whenever updates are made using the stock API.
 

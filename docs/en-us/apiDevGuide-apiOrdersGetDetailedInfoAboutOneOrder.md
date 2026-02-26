@@ -49,12 +49,18 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(2) Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.
-
-(3) Send a GET request to the /orders/{guid} endpoint of the orders API. Specify the GUID of the order as a path parameter.
-
+    <tr>
+      <td>[(1)](#co-d1e12909EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e13109EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e13309EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Send a `GET` request to the `/orders/<em>{guid}</em>` endpoint of the orders API. Specify the GUID of the order as a path parameter.</td>
+    </tr>
 ## Example response data
 
 The following example shows the response data from the `/orders/{guid}` endpoint. It contains detailed information about one order.
@@ -261,15 +267,27 @@ The following example shows the response data from the `/orders/{guid}` endpoint
 
 
 
-(1) The /orders/{guid}endpoint returns an Order JSON object. For more information about the values in the Order object, see the orders API reference documentation.
-
- The deliveryInfo JSON value is only populated if your Toast API client has the delivery_info.address:readscope. For more information about scopes, see Scopes.
-
- The curbsidePickupInfo JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
-
- The receiptLinePrice JSON value is the base price of a menu item without modifiers or quantity applied.
-
- When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the seatNumber value on a Selectionobject represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then seatNumber is 0. If no seat number is associated with the menu item selection, then seatNumberis -1.
-
- The customer JSON value is only populated if your Toast API client has the guest.pi:read scope. For more information about scopes, see Scopes.
-
+    <tr>
+      <td>[(1)](#co-d1e15009EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>The `/orders/<em>{guid}</em>`endpoint returns an `Order` JSON object. For more information about the values in the `Order` object, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#apiOrdersDeliveryInfo)</td>
+      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read`scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#apiOrdersCurbsideInfo)</td>
+      <td>The `curbsidePickupInfo` JSON value is only populated if your Toast API client has the `guest.pi:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#receiptLinePrice-co)</td>
+      <td>The `receiptLinePrice` JSON value is the base price of a menu item without modifiers or quantity applied.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#SeatNumberCO)</td>
+      <td>When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the `seatNumber` value on a `Selection`object represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then `seatNumber` is `0`. If no seat number is associated with the menu item selection, then `seatNumber`is `-1`.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#apiOrdersCustomer)</td>
+      <td>The `customer` JSON value is only populated if your Toast API client has the `guest.pi:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+    </tr>

@@ -19,33 +19,81 @@ Scopes determine the actions that your Toast API client has permission to perfor
 
 Standard API access provides access to the following scopes:
 
-| Scope | Toast API | 
-| --- | --- |
-| `cashmgmt:read` | cash management API | 
-| `config:read` | configuration API | 
-| `delivery_info.address:read`
+
+<table>
+  <thead>
+    <tr>
+      <th>Scope</th>
+      <th>Toast API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`cashmgmt:read`</td>
+      <td>cash management API</td>
+    </tr>
+    <tr>
+      <td>`config:read`</td>
+      <td>configuration API</td>
+    </tr>
+    <tr>
+      <td>`delivery_info.address:read`
 
 > **Note**
 > 
 > This scope exposes additional information in the `DeliveryInfo` object of the orders API.
 
 
- | orders API | 
-| `digital_schedule:read` | order management configuration API | 
-| `guest.pi:read`
+</td>
+      <td>orders API</td>
+    </tr>
+    <tr>
+      <td>`digital_schedule:read`</td>
+      <td>order management configuration API</td>
+    </tr>
+    <tr>
+      <td>`guest.pi:read`
 
 > **Note**
 > 
 > This scope to exposes additional information in the `Customer` object of the orders API.
 
 
- | orders API | 
-| `kitchen:read` | kitchen API | 
-| `labor.employees:read` | labor API | 
-| `labor:read` | labor API | 
-| `menus:read` | menus v2 API | 
-| `orders:read` | orders API | 
-| `packaging:read` | packaging configuration API | 
-| `restaurants:read` | restaurant availability API, restaurants API | 
-| `stock:read` | stock API | 
+</td>
+      <td>orders API</td>
+    </tr>
+    <tr>
+      <td>`kitchen:read`</td>
+      <td>kitchen API</td>
+    </tr>
+    <tr>
+      <td>`labor.employees:read`</td>
+      <td>labor API</td>
+    </tr>
+    <tr>
+      <td>`labor:read`</td>
+      <td>labor API</td>
+    </tr>
+    <tr>
+      <td>`menus:read`</td>
+      <td>menus v2 API</td>
+    </tr>
+    <tr>
+      <td>`orders:read`</td>
+      <td>orders API</td>
+    </tr>
+    <tr>
+      <td>`packaging:read`</td>
+      <td>packaging configuration API</td>
+    </tr>
+    <tr>
+      <td>`restaurants:read`</td>
+      <td>restaurant availability API, restaurants API</td>
+    </tr>
+    <tr>
+      <td>`stock:read`</td>
+      <td>stock API</td>
+    </tr>
+  </tbody>
+</table>
 

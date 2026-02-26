@@ -36,11 +36,32 @@ There are three levels of access:
 
 
 
-| Permission | Ownership | 
-| --- | --- |
-| 8.4 Manage Integrationspermission | You created the credentials. | You did not create the credentials. | 
-| You have the 8.4 Manage Integrationspermission enabled at every location linked to the credentials in the management group. | Full access Allows for editing and reading of credentials. | Full accessAllows for editing and reading of credentials. | 
-| You do *not* have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group. | Read-onlyAllows for reading of credentials. | LockedDoes not allow for editing or reading of credentials. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Permission</th>
+      <th>Ownership</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8.4 Manage Integrationspermission</td>
+      <td>You created the credentials.</td>
+      <td>You did not create the credentials.</td>
+    </tr>
+    <tr>
+      <td>You have the 8.4 Manage Integrationspermission enabled at every location linked to the credentials in the management group.</td>
+      <td>Full access <br/>Allows for editing and reading of credentials.</td>
+      <td>Full access<br/>Allows for editing and reading of credentials.</td>
+    </tr>
+    <tr>
+      <td>You do *not* have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
+      <td>Read-only<br/>Allows for reading of credentials.</td>
+      <td>Locked<br/>Does not allow for editing or reading of credentials.</td>
+    </tr>
+  </tbody>
+</table>
 
 On the Manage credentials page, a warning icon next to a credential’s name indicates you have read-only access, a lock icon indicates that you cannot edit or view the credential, and no icon indicates you have full access to the credential.
 

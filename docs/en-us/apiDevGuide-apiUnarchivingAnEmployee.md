@@ -55,8 +55,10 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Include the Toast platform identifier for the employee in the path parameter of the request.
-
+    <tr>
+      <td>[(1)](#co-d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3)</td>
+      <td>Include the Toast platform identifier for the employee in the path parameter of the request.</td>
+    </tr>
   
 ## Example response
 
@@ -89,8 +91,12 @@ The following example shows the response for a `PUT` request to unarchive an emp
 
 
 
-(1) When you unarchive an employee, the deletedvalue is set to false.
-
-(2) When you unarchive an employee, the deletedDate value is set to null.
-
+    <tr>
+      <td>[(1)](#co-d1e1426B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
+      <td>When you unarchive an employee, the `deleted`value is set to `false`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
+      <td>When you unarchive an employee, the `deletedDate` value is set to `null`.</td>
+    </tr>
   

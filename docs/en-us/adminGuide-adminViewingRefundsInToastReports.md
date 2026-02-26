@@ -76,28 +76,95 @@ The following example illustrates the effect of refunds on financial data.
 
 A dine-in check from Lunch in the Main Dining Room on December 14 contains the following items, service charges, and tip.
 
-| Check item, service charge, or tip | Price | 
-| --- | --- |
-| Cheeseburger | $6.50 ($5 price + $1.50 tax) | 
-| Non-gratuity service fee | $5.00 | 
-| Gratuity | $2.00 | 
-| Tip | $3.00 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Check item, service charge, or tip</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cheeseburger</td>
+      <td>$6.50 ($5 price + $1.50 tax)</td>
+    </tr>
+    <tr>
+      <td>Non-gratuity service fee</td>
+      <td>$5.00</td>
+    </tr>
+    <tr>
+      <td>Gratuity</td>
+      <td>$2.00</td>
+    </tr>
+    <tr>
+      <td>Tip</td>
+      <td>$3.00</td>
+    </tr>
+  </tbody>
+</table>
 
 These were all refunded on December 15.
 
 On December 15, the following figures decrease:
 
-| Finance value | Decrease | Notes | 
-| --- | --- | --- |
-| Total Net Sales | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
-| Gratuity | -$2.00 |   | 
-| Food Sales Category | -$5.00 | Cheeseburger | 
-| Tax | -$1.50 |   | 
-| Tips | -$3.00 |   | 
-| Dine In | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
-| Revenue center for this check | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
-| Lunch service period | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
-| Main Dining Room service area | -$10.00 | $5 Cheeseburger + $5 Non-Gratuity Service Fee | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Finance value</th>
+      <th>Decrease</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total Net Sales</td>
+      <td>-$10.00</td>
+      <td>$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+    </tr>
+    <tr>
+      <td>Gratuity</td>
+      <td>-$2.00</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Food Sales Category</td>
+      <td>-$5.00</td>
+      <td>Cheeseburger</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>-$1.50</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Tips</td>
+      <td>-$3.00</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Dine In</td>
+      <td>-$10.00</td>
+      <td>$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+    </tr>
+    <tr>
+      <td>Revenue center for this check</td>
+      <td>-$10.00</td>
+      <td>$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+    </tr>
+    <tr>
+      <td>Lunch service period</td>
+      <td>-$10.00</td>
+      <td>$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+    </tr>
+    <tr>
+      <td>Main Dining Room service area</td>
+      <td>-$10.00</td>
+      <td>$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Reports
 

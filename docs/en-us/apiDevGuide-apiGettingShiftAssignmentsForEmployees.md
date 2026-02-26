@@ -48,12 +48,18 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Specify the GUID of the restaurant that you want to get shifts for. This must be an individual restaurant, not the GUID for a restaurant group.
-
-(2) This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.
-
-(3) Specify the start and end dates of the time period you want to GET shifts for. You can select up to 30 days.
-
+    <tr>
+      <td>[(1)](#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>Specify the GUID of the restaurant that you want to `get` shifts for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>Specify the start and end dates of the time period you want to `GET` shifts for. You can select up to 30 days.</td>
+    </tr>
   
 ## Example response
 
@@ -132,14 +138,22 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 
 
-(1) The GET request returns an array of shift objects. Each object contains information about a shift.
-
-(2) The employeeReference value identifies the employee who is assigned to the shift.
-
-(3) This shift is assigned to the same employee as the first shift in the array.
-
-(4) This shift is assigned to a different employee.
-
+    <tr>
+      <td>[(1)](#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>The `GET` request returns an array of shift objects. Each object contains information about a shift.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>The `employeeReference` value identifies the employee who is assigned to the shift.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>This shift is assigned to the same employee as the first shift in the array.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td>This shift is assigned to a different employee.</td>
+    </tr>
   
 ## Example jq utility command to select shifts for a specific employee
 
@@ -158,8 +172,12 @@ my-shifts-get-request-response-data.json
 
 
 
-(1) This jq command syntax selects the JSON array members that have a specific employee GUID in the employeeReference.guid value for the shift.
-
-(2) In this example, the jq utility is reading JSON from the output file of the curlcommand that made the initial GET request to the shifts resource. See Example 7.5, “Example request to GET all scheduled shifts for a restaurant”.
-
+    <tr>
+      <td>[(1)](#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD)</td>
+      <td>This **jq** command syntax selects the JSON array members that have a specific employee GUID in the `employeeReference.guid` value for the shift.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD)</td>
+      <td>In this example, the **jq** utility is reading JSON from the output file of the **curl**command that made the initial GET request to the shifts resource. See [Example 7.5, “Example request to GET all scheduled shifts for a restaurant”](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example).</td>
+    </tr>
   

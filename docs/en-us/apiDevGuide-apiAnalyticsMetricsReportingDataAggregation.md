@@ -36,16 +36,26 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 
 
-(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} is set to day.
-
-(2) Use the aggregateBy query parameter set to HOUR to group the aggregated sales reporting data by hour instead of day.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(4) Set the data type of the message body to application/json.
-
-(5) Include details about the requested aggregated sales reporting data in the message body. For an example of the message body, see Message body for the aggregated sales reporting data request using aggregateBy and groupBy.
-
+    <tr>
+      <td>[(1)](#co-d1e451DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6)</td>
+      <td>Send a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint of the analytics API. The `{timeRange}` is set to `day`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e455DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6)</td>
+      <td>Use the `aggregateBy` query parameter set to `HOUR` to group the aggregated sales reporting data by hour instead of day.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e461DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e463DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e468DC5A6931-2D76-4C46-BBFF-DAEEFE875EB6)</td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. For an example of the message body, see [Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateByGroupByExampleCreateMessageBody).</td>
+    </tr>
 When aggregating by day, the report splits the data into sections by day, which are organized from oldest to newest. For example, the following list shows the structure of aggregated sales reporting data, aggregated by day, for one example restaurant.
 
 - Day 1
@@ -111,14 +121,22 @@ The following example shows the message body for a `/era/v1/metrics/week` reques
 
 
 
-(1) The start date of the time range for the aggregated sales reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the aggregated sales reporting data, in YYYYMMDD format.
-
-(3) The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) This request is for aggregated sales reporting data grouped by dining option.
-
+    <tr>
+      <td>[(1)](#co-d1e2276FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The start date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2296FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The end date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2316FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2336FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>This request is for aggregated sales reporting data grouped by dining option.</td>
+    </tr>
 When you use `DINING_OPTION`, the data is split into subsections by dining option, which are organized alphabetically by the dining option name, and then by day for that dining option. For example, the following list shows the structure of aggregated sales reporting data for one example restaurant, covering two days and two dining options.
 
 - Day 1, Dining Option A
@@ -286,16 +304,26 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
 
 
 
-(1) Send a POST request to the /era/v1/metrics/{timeRange} endpoint of the analytics API. The {timeRange} in this example is day.
-
-(2) Use the aggregateBy query parameter set to HOUR to group the aggregated sales reporting data by hour. For more information, see Using the aggregateBy query parameter.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(4) Set the data type of the message body to application/json.
-
-(5) Include details about the requested aggregated sales reporting data in the message body. The following example is the message body for this curl command example.
-
+    <tr>
+      <td>[(1)](#co-d1e5736FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Send a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `day`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e5776FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Use the `aggregateBy` query parameter set to `HOUR` to group the aggregated sales reporting data by hour. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e5796FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e5816FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e5846FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateByGroupByExampleCreateMessageBody) is the message body for this **curl** command example.</td>
+    </tr>
 ### Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`
 
 The following example shows the message body for the `/era/v1/metrics/day` request that uses the `groupBy` value with `DINING_OPTION` and `REVENUE_CENTER`.
@@ -318,14 +346,22 @@ The following example shows the message body for the `/era/v1/metrics/day` reque
 
 
 
-(1) The start date of the time range for the aggregated sales reporting data, in YYYYMMDD format. The endBusinessDate value is optional for requests using the day time range.
-
-(2) The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.
-
-(3) The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. For this example, one restaurant is included, which excludes all other restaurants automatically.
-
-(4) This request is for aggregated sales reporting data grouped by dining option and revenue center.
-
+    <tr>
+      <td>[(1)](#co-d1e6526FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The start date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format. The `endBusinessDate` value is optional for requests using the `day` time range.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e6546FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e6566FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. For this example, one restaurant is included, which excludes all other restaurants automatically.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e6586FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>This request is for aggregated sales reporting data grouped by dining option and revenue center.</td>
+    </tr>
 
 
 > **Important**
@@ -344,8 +380,10 @@ The following example shows the response from the `/era/v1/metrics/day` endpoint
 
 
 
-(1) The GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e7026FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>The GUID for the aggregated sales reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 ### Request to retrieve the aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example **curl** command sends a `GET` request to the `/era/v1/metrics/{reportRequestGuid}` endpoint.
@@ -360,12 +398,18 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/metrics/
 
 
 
-(1) Send a GET request to the /era/v1/metrics endpoint of the analytics API.
-
-(2) Include the GUID for the aggregated sales reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e7226FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Send a `GET` request to the `/era/v1/metrics` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e7246FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Include the GUID for the aggregated sales reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e7286FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ### Response to the retrieval request for aggregated sales reporting data using `aggregateBy` and `groupBy`
 
 The following example shows the response from the `/era/v1/metrics/{reportRequestGuid}` endpoint.

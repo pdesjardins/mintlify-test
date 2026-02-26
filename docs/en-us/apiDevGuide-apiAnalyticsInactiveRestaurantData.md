@@ -37,8 +37,10 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics
 
 
 
-(1) Include the onlyInactiveRestaurants query parameter set to TRUE to request analytics data from inactive restaurants only.
-
+    <tr>
+      <td>[(1)](#co-d1e2941F37ED50-563A-4DC2-A142-7FD5B7B554A5)</td>
+      <td>Include the `onlyInactiveRestaurants` query parameter set to `TRUE` to request analytics data from inactive restaurants only.</td>
+    </tr>
 If there are no inactive restaurants in a management group, the response to the `POST` request for the analytics data is a "No inactive restaurants found" message. For more information about creating a request for aggregated sales reporting data, see [Creating a request for aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest).
 
 If there are inactive restaurants in a management group, but no sales from those restaurants during the requested time range, the response to the `GET` request for the analytics data is a closing and opening bracket. For more information about retrieving aggregated sales reporting data, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).

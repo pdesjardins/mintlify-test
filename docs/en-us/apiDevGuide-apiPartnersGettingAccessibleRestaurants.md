@@ -113,19 +113,61 @@ The GUID for a restaurant is in the `restaurantGuid` value of the return data. T
 
 For each restaurant, the `/restaurants` endpoint the JSON response contains the following values:
 
-| Value | Description | 
-| --- | --- |
-| `restaurantGuid` | The unique Toast platform identifier for the restaurant. | 
-| `managementGroupGuid` | The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group.If a restaurant location does not belong to a restaurant management group, then the management group GUID is null. | 
-| `restaurantName` | The human-readable name of the restaurant location. | 
-| `locationName` | The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.For example, a restaurant group might assign a location code such as `#1234` to a specific location. | 
-| `createdByEmailAddress` | The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details. | 
-| `externalGroupRef` | An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs). | 
-| `externalRestaurantRef` | An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs). | 
-| `isoCreatedDate` | The date and time that the partner connection was created, expressed in ISO 8601 format. | 
-| `isoModifiedDate` | The most recent date and time that the partner connection was edited, expressed in ISO 8601 format. | 
-| `createdDate` | The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC. | 
-| `modifiedDate` | The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>The unique Toast platform identifier for the restaurant.</td>
+    </tr>
+    <tr>
+      <td>`managementGroupGuid`</td>
+      <td>The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group.<br/>If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</td>
+    </tr>
+    <tr>
+      <td>`restaurantName`</td>
+      <td>The human-readable name of the restaurant location.</td>
+    </tr>
+    <tr>
+      <td>`locationName`</td>
+      <td>The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.<br/>For example, a restaurant group might assign a location code such as `#1234` to a specific location.</td>
+    </tr>
+    <tr>
+      <td>`createdByEmailAddress`</td>
+      <td>The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details.</td>
+    </tr>
+    <tr>
+      <td>`externalGroupRef`</td>
+      <td>An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint.<br/>This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.<br/>For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
+    </tr>
+    <tr>
+      <td>`externalRestaurantRef`</td>
+      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint.<br/>This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.<br/>For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
+    </tr>
+    <tr>
+      <td>`isoCreatedDate`</td>
+      <td>The date and time that the partner connection was created, expressed in ISO 8601 format.</td>
+    </tr>
+    <tr>
+      <td>`isoModifiedDate`</td>
+      <td>The most recent date and time that the partner connection was edited, expressed in ISO 8601 format.</td>
+    </tr>
+    <tr>
+      <td>`createdDate`</td>
+      <td>The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
+    </tr>
+    <tr>
+      <td>`modifiedDate`</td>
+      <td>The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Example /restaurants response
 
@@ -224,17 +266,53 @@ You can query your response by adding the following parameters:
 
 For each restaurant, the `/connectedRestaurants` JSON response data contains the same values seen from the [`/restaurants`response data](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGetRestaurantsReturnFieldList), as well as the following values:
 
-| Value | Description | 
-| --- | --- |
-| `currentPageNum` | The active page number from the return response. | 
-| `totalResultCount` | The total number of results in the response. This number matches `totalCount`. | 
-| `pageSize` | The active page size used when viewing the response data. This can be modified using the `pageSize` query parameter. | 
-| `currentPageToken` | The token for the current page information snapshot. Refer to this if you need to return to this exact dataset. | 
-| `nextPageToken` | The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset. | 
-| `totalCount` | The total number of results in the response. This number matches `totalResultCount`. | 
-| `nextPageNum` | The next available page in the response. `Null` if you have come to the end of available pages. | 
-| `lastPageNumber` | The last available page in the response. | 
-| `previousPageNum` | The page number for the previous page in the response. `Null` when you are on the first page of the response. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`currentPageNum`</td>
+      <td>The active page number from the return response.</td>
+    </tr>
+    <tr>
+      <td>`totalResultCount`</td>
+      <td>The total number of results in the response. This number matches `totalCount`.</td>
+    </tr>
+    <tr>
+      <td>`pageSize`</td>
+      <td>The active page size used when viewing the response data. This can be modified using the `pageSize` query parameter.</td>
+    </tr>
+    <tr>
+      <td>`currentPageToken`</td>
+      <td>The token for the current page information snapshot. Refer to this if you need to return to this exact dataset.</td>
+    </tr>
+    <tr>
+      <td>`nextPageToken`</td>
+      <td>The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset.</td>
+    </tr>
+    <tr>
+      <td>`totalCount`</td>
+      <td>The total number of results in the response. This number matches `totalResultCount`.</td>
+    </tr>
+    <tr>
+      <td>`nextPageNum`</td>
+      <td>The next available page in the response. `Null` if you have come to the end of available pages.</td>
+    </tr>
+    <tr>
+      <td>`lastPageNumber`</td>
+      <td>The last available page in the response.</td>
+    </tr>
+    <tr>
+      <td>`previousPageNum`</td>
+      <td>The page number for the previous page in the response. `Null` when you are on the first page of the response.</td>
+    </tr>
+  </tbody>
+</table>
 
 #### /connectedRestaurants example return data
 

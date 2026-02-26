@@ -85,16 +85,26 @@ The following example shows an array that contains a `Selection` object to ad a 
 
 
 
-(1) You can include multiple menu item selections in the JSON array. This example contains a single item.
-
-(2) The Toast platform GUID of the menu group for the menu item to add to the check. For more information, see Menus API overview.
-
-(3) The Toast platform GUID of the menu item to add to the check.
-
-(4) The quantity of the menu item to add to the check.
-
-(5) If applicable, the modifiers for the added item. For more information about adding modifiers, see Applying modifiers and pre-modifiers.
-
+    <tr>
+      <td>[(1)](#co-d1e1350721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>You can include multiple menu item selections in the JSON array. This example contains a single item.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1370721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The Toast platform GUID of the menu group for the menu item to add to the check. For more information, see [Menus API overview](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1390721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The Toast platform GUID of the menu item to add to the check.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1410721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The quantity of the menu item to add to the check.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e1430721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>If applicable, the modifiers for the added item. For more information about adding modifiers, see [Applying modifiers and pre-modifiers](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).</td>
+    </tr>
 ## Example response after adding items to an existing check
 
 The following example shows the response for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint of the orders API.
@@ -143,14 +153,22 @@ The following example shows the response for a `POST` request to the `/orders/<e
 
 
 
-(1) The Toast platform GUID of the order that contains the check that you added menu items to.
-
-(2) The Toast platform GUID of the check that you added menu items to.
-
-(3) The Toast platform GUID of a menu item selection from the original check.
-
-(4) The Toast platform system GUID of the menu item selection that was added to the existing check.
-
+    <tr>
+      <td>[(1)](#co-d1e1700721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The Toast platform GUID of the order that contains the check that you added menu items to.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1720721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The Toast platform GUID of the check that you added menu items to.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1740721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The Toast platform GUID of a menu item selection from the original check.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1760721E73C-4691-4104-AC0D-A8BEDFE8A31B)</td>
+      <td>The Toast platform system GUID of the menu item selection that was added to the existing check.</td>
+    </tr>
 ## How added items are sent to the kitchen
 
 When you add menu item selections to an existing check, the effect in the kitchen depends on the following factors:

@@ -34,12 +34,33 @@ Authentication tokens are valid for a limited period of time. The length of time
 
 Before you can authenticate, you need API credentials. The way you get credentials depends on your integration access type. Credentials include a `clientId` and `clientSecret`. The table below shows how credentials are issued for each integration type. For more information, see [Integration types](apiDevGuide-apiIntegrationTypes).
 
-| Integration Type | Credentials | 
-| --- | --- |
-| Partner integrations | Credentials are created by the Toast integrations team after your application has been reviewed and approved. For more information see, [Integration partnership process](apiDevGuide-integrationDevProcess). | 
-| Custom integrations | Credentials are created by the Toast integrations team after you have been approved for custom integration access. For more information see, [Custom integration overview](apiDevGuide-apiCustomIntegrationOverview). | 
-| Standard API access | You create your own credentials through Toast Web. For more information, see [Creating standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessCreatingCredentials). | 
-| Analytics API access | You create your own credentials through Toast Web. For more information, see [Creating analytics API access credentials](apiDevGuide-apiAnalyticsAccessCreatingCredentials). | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Integration Type</th>
+      <th>Credentials</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Partner integrations</td>
+      <td>Credentials are created by the Toast integrations team after your application has been reviewed and approved. For more information see, [Integration partnership process](apiDevGuide-integrationDevProcess).</td>
+    </tr>
+    <tr>
+      <td>Custom integrations</td>
+      <td>Credentials are created by the Toast integrations team after you have been approved for custom integration access. For more information see, [Custom integration overview](apiDevGuide-apiCustomIntegrationOverview).</td>
+    </tr>
+    <tr>
+      <td>Standard API access</td>
+      <td>You create your own credentials through Toast Web. For more information, see [Creating standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessCreatingCredentials).</td>
+    </tr>
+    <tr>
+      <td>Analytics API access</td>
+      <td>You create your own credentials through Toast Web. For more information, see [Creating analytics API access credentials](apiDevGuide-apiAnalyticsAccessCreatingCredentials).</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Credential storage guidelines
 
@@ -124,12 +145,18 @@ myToastApiClientSecret
 
 
 
-(1) The identifier string for your Toast API client.
-
-(2) The secret string that corresponds to your Toast API client.
-
-(3) Always include the userAccessType value and set it to TOAST_MACHINE_CLIENT.
-
+    <tr>
+      <td>[(1)](#co-d1e98A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>The identifier string for your Toast API client.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e103A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>The secret string that corresponds to your Toast API client.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e105A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>Always include the `userAccessType` value and set it to `TOAST_MACHINE_CLIENT`.</td>
+    </tr>
   
 The following **curl** command requests an authentication token from the `/authentication/login` resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
 
@@ -146,14 +173,22 @@ https://`[toast-api-hostname]`/authentication/v1/authentication/login
 
 
 
-(1) Use the POST HTTP method to make an authentication request.
-
-(2) Include the HTTP Content-Type header field and set its value to application/json.
-
-(3) Include a JSON object including your client identifier and client secret in the message body parameter. See Example 1.3, “Message body parameter for an /authentication/login endpoint request”.
-
-(4) Send the request to the /authentication/loginendpoint of the authentication API.
-
+    <tr>
+      <td>[(1)](#co-d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>Use the `POST` HTTP method to make an authentication request.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>Include the HTTP `Content-Type` header field and set its value to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>Include a JSON object including your client identifier and client secret in the message body parameter. See [Example 1.3, “Message body parameter for an `/authentication/login` endpoint request”](apiDevGuide-authentication#apiMessageBodyParamForAuthenticationRequest).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3)</td>
+      <td>Send the request to the `/authentication/login`endpoint of the authentication API.</td>
+    </tr>
   
 ### Authentication return data
 
@@ -197,22 +232,38 @@ The authentication API returns the information shown in the following example fo
 
 
 
- For internal use.
-
- The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
-
- The scope value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.
-
- The number of remaining seconds that the authentication token is valid. For more information, see Refreshing authentication tokens.
-
- A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see Example 1.6, “JWT payload contents for partner API client access token”.
-
- For internal use.
-
- For internal use.
-
- Indicates that your authentication request was successful.
-
+    <tr>
+      <td>[(1)](#mg_co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>For internal use.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#mg_co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#mg_co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>The `scope` value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#mg_co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>The number of remaining seconds that the authentication token is valid. For more information, see [Refreshing authentication tokens](apiDevGuide-apiAuthTokenRefresh).</td>
+    </tr>
+    <tr>
+      <td>[(5)](#mg_co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see [Example 1.6, “JWT payload contents for partner API client access token”](apiDevGuide-authentication#apiAuthenticationJwtContentsPartner).</td>
+    </tr>
+    <tr>
+      <td>[(6)](#mg_co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>For internal use.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#mg_co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>For internal use.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#mg_co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>Indicates that your authentication request was successful.</td>
+    </tr>
   
 The following example shows the JWT payload contents for a partner API client access token.
 
@@ -238,30 +289,54 @@ The following example shows the JWT payload contents for a partner API client ac
 
 
 
-(1) A human-readable name representing your API client.
-
-(2) The types of users that can authenticate through the system. For API clients, this is TOAST_MACHINE_CLIENT. TOAST_MACHINE_CLIENT represents the type of access credentials issued to services that use Toast APIs. 
-
-(3) The unique Toast platform identifier for the integration partner organization.
-
-(4) The type of client requesting authentication. For partner API clients, this is PARTNER. 
-
-(5) The issuer of the authentication token.
-
-(6) The subject of the token being issued. This value will be set to your client identifier and the string @clients.
-
-(7) The intended audience of your API usage.
-
-(8) A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.
-
-(9) A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.
-
-(10) A standard JWT claim containing the identifier for the Toast API client.
-
-(11) The API functionality that your client ID is provisioned to use. For more information about API scopes, see API scopes page.
-
-(12) The grant type of this API client. This value will be client-credentials.
-
+    <tr>
+      <td>[(1)](#co-d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A human-readable name representing your API client.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The types of users that can authenticate through the system. For API clients, this is `TOAST_MACHINE_CLIENT`. `TOAST_MACHINE_CLIENT` represents the type of access credentials issued to services that use Toast APIs. </td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The unique Toast platform identifier for the integration partner organization.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The type of client requesting authentication. For partner API clients, this is `PARTNER`. </td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The issuer of the authentication token.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The subject of the token being issued. This value will be set to your client identifier and the string `@clients`.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The intended audience of your API usage.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A standard JWT claim containing the identifier for the Toast API client.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The API functionality that your client ID is provisioned to use. For more information about API scopes, see [API scopes page](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The grant type of this API client. This value will be `client-credentials`.</td>
+    </tr>
   
 #### Authentication return data for a restaurant management group API client
 
@@ -301,22 +376,38 @@ The authentication API returns the information shown in the following example fo
 
 
 
-(1) For internal use.
-
-(2) The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.
-
-(3) The scope value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.
-
-(4) The number of remaining seconds that the authentication token is valid. For more information, see Refreshing authentication tokens.
-
-(5) A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see Example 1.8, “JWT payload contents for restaurant management group API client access token”.
-
-(6) For internal use.
-
-(7) For internal use.
-
-(8) Indicates that your authentication request was successful.
-
+    <tr>
+      <td>[(1)](#co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>For internal use.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>The `scope` value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>The number of remaining seconds that the authentication token is valid. For more information, see [Refreshing authentication tokens](apiDevGuide-apiAuthTokenRefresh).</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see [Example 1.8, “JWT payload contents for restaurant management group API client access token”](apiDevGuide-authentication#apiAuthenticationJwtContentsRMG).</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>For internal use.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>For internal use.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E)</td>
+      <td>Indicates that your authentication request was successful.</td>
+    </tr>
   
 The following example shows the JWT payload contents for a restaurant management group API client access token.
 
@@ -342,30 +433,54 @@ The following example shows the JWT payload contents for a restaurant management
 
 
 
-(1) A human-readable name representing your API client.
-
-(2) The types of users that can authenticate through the system. For API clients, this is TOAST_MACHINE_CLIENT. TOAST_MACHINE_CLIENT represents the type of access credentials issued to services that use Toast APIs. 
-
-(3) The unique Toast platform identifier for the restaurant management group this client can access.
-
-(4) The type of client requesting authentication. For restaurant management group API clients, this is CUSTOMER. 
-
-(5) The issuer of the authentication token.
-
-(6) The subject of the token being issued. This value will be set to your client identifier and the string @clients.
-
-(7) The intended audience of your API usage.
-
-(8) A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.
-
-(9) A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.
-
-(10) A standard JWT claim containing the identifier for the Toast API client.
-
-(11) The API functionality that your client ID is provisioned to use. For more information about API scopes, see the API scopes page.
-
-(12) The grant type of this API client. This value will be client-credentials.
-
+    <tr>
+      <td>[(1)](#co-d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A human-readable name representing your API client.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The types of users that can authenticate through the system. For API clients, this is `TOAST_MACHINE_CLIENT`. `TOAST_MACHINE_CLIENT` represents the type of access credentials issued to services that use Toast APIs. </td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The unique Toast platform identifier for the restaurant management group this client can access.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The type of client requesting authentication. For restaurant management group API clients, this is `CUSTOMER`. </td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The issuer of the authentication token.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The subject of the token being issued. This value will be set to your client identifier and the string `@clients`.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The intended audience of your API usage.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>A standard JWT claim containing the identifier for the Toast API client.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The API functionality that your client ID is provisioned to use. For more information about API scopes, see the [API scopes page](apiDevGuide-apiScopes).</td>
+    </tr>
+    <tr>
+      <td>[(12)](#co-d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9)</td>
+      <td>The grant type of this API client. This value will be `client-credentials`.</td>
+    </tr>
   
 ## Using an authentication token
 

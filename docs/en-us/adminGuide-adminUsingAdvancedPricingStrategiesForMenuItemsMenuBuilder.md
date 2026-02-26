@@ -20,41 +20,49 @@ Currently, the menu builder supports setting base prices, size prices, and open 
 
 It is important to note that not all pricing strategies are supported on all Toast ordering channels. For example, Toast Online Ordering does not support time or open prices so you should not use those pricing strategies for menu items that will be displayed on your Toast Online Ordering website. Before using an advanced pricing strategy, check the table below to ensure that the strategy you want to use is supported by the Toast ordering channels where those menu items will be visible. This table also includes a description of each pricing strategy and the location where you configure it (in the menu builder or in the classic menu item details page). The sections that follow the table describe how to configure each of these pricing strategies.
 
-| Pricing Strategy | Description | Can be used with... | Configure in... | 
-| --- | --- | --- | --- |
-| Size price | With size pricing, the price of a menu item changes based on the size chosen for the menu item. For example, a small pizza costs $6 and a large pizza costs $8. | - Toast POS app
-- Toast Online Ordering
-- Toast Takeout (Local by Toast) app
-- Toast Kiosk
-- Toast Order and Pay
-- Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)
 
- | Menu builder | 
-| Open price | With open pricing, you manually specify a price for a menu item when that menu item is ordered on the Toast POS app. For example, you may want to set the price of a menu item differently depending on the market price of that menu item on the day that it is ordered. | - Toast POS app
-- Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)
-
- | Menu builder | 
-| Menu-specific price | With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu.Menu-specific prices require that the same menu item has been added to multiple menus. Currently, that type of configuration can only be created in the classic menu details pages in Toast Web. For instructions on how to add the same menu item to multiple menus, see this [Adding/Copying Menu Items and Modifiers](https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers) in Toast Central. | - Toast POS app
-- Toast Online Ordering
-- Toast Takeout (Local by Toast) app
-- Toast Kiosk
-- Toast Order and Pay
-- Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)
-
- | Classic menu item details page | 
-| Time price | With time pricing, you define the price of a menu group or item during specific times of the day. For example, a menu item that costs $10 between noon and 2pm and $12 during the rest of the day. With time pricing, you also specify a base price that functions as a default price for times of day when a time price has not been defined. | - Toast POS app
-- Toast Online Ordering
-- Toast Takeout (Local by Toast) app
-- Toast Kiosk
-- Toast Order and Pay
-- Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)
-
- | Classic menu item details page | 
-| Price levels | Price levels allow you to quickly price menu items that all share the same price. You create a price level, and then assign it to the menu items that will use it. For example, all bottled beers are $5 and all draft beers are $6. To change the price of the menu items that use a price level, you only need to change the price level itself. This eliminates the need to edit the price for each individual menu group or item. | - Toast POS app
-- Toast Kiosk
-- Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)
-
- | Classic menu item details page | 
+<table>
+  <thead>
+    <tr>
+      <th>Pricing Strategy</th>
+      <th>Description</th>
+      <th>Can be used with...</th>
+      <th>Configure in...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Size price</td>
+      <td>With size pricing, the price of a menu item changes based on the size chosen for the menu item. For example, a small pizza costs $6 and a large pizza costs $8.</td>
+      <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)</li></ul></td>
+      <td>Menu builder</td>
+    </tr>
+    <tr>
+      <td>Open price</td>
+      <td>With open pricing, you manually specify a price for a menu item when that menu item is ordered on the Toast POS app. For example, you may want to set the price of a menu item differently depending on the market price of that menu item on the day that it is ordered.</td>
+      <td><ul><li>Toast POS app</li><li>Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)</li></ul></td>
+      <td>Menu builder</td>
+    </tr>
+    <tr>
+      <td>Menu-specific price</td>
+      <td>With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu.<br/>Menu-specific prices require that the same menu item has been added to multiple menus. Currently, that type of configuration can only be created in the classic menu details pages in Toast Web. For instructions on how to add the same menu item to multiple menus, see this [Adding/Copying Menu Items and Modifiers](https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers) in Toast Central.</td>
+      <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)</li></ul></td>
+      <td>Classic menu item details page</td>
+    </tr>
+    <tr>
+      <td>Time price</td>
+      <td>With time pricing, you define the price of a menu group or item during specific times of the day. For example, a menu item that costs $10 between noon and 2pm and $12 during the rest of the day. With time pricing, you also specify a base price that functions as a default price for times of day when a time price has not been defined.</td>
+      <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)</li></ul></td>
+      <td>Classic menu item details page</td>
+    </tr>
+    <tr>
+      <td>Price levels</td>
+      <td>Price levels allow you to quickly price menu items that all share the same price. You create a price level, and then assign it to the menu items that will use it. For example, all bottled beers are $5 and all draft beers are $6. To change the price of the menu items that use a price level, you only need to change the price level itself. This eliminates the need to edit the price for each individual menu group or item.</td>
+      <td><ul><li>Toast POS app</li><li>Toast Kiosk</li><li>Online ordering partners (Support can vary by online ordering partner, contact the partner to confirm.)</li></ul></td>
+      <td>Classic menu item details page</td>
+    </tr>
+  </tbody>
+</table>
 
 **Procedure 8.35. To set a size price in the menu builder**
 

@@ -42,21 +42,33 @@ The packaging preferences configuration webhook `eventType` is `packaging_update
 
 Attributes in the `packaging_updated` event's payload include:
 
-| Value | Description | 
-| --- | --- |
-| `packagingConfig` | The parent object that holds the following information about the specific packaging preference configurations.data type:string | 
-| `enabled` | Indicates whether the restaurant is currently using packaging preferences in this object. If `TRUE`, you display the packaging options to guests in your ordering interface. If `FALSE`, do not display the options. data type: string | 
-| `items` | The list of available packaging items. The `items` array contains the following fields and values:- `id`: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the [orders API](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi).
-- `itemTypes`: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different `itemTypes`. For example, an item named "to-go items” that has `itemTypes` of napkins and utensils.
-- `guestDisplayName`: An alternative name the restaurant team can configure for a packaging item. For example, you may select `itemTypes` for `CONDIMENTS` but have your guests see the following message: “Ketchup and mustard.”
-- `guestInclusionType`: Defines how the restaurant guest should interact with the packaging preference. The available values are: - `OPT_IN`: A guest must complete an action to include packaging preferences, such as selecting a checkbox.
-- `OPT_OUT`: A guest must complete an action to opt out of packaging, such as de-selecting a checkbox.
 
-
-- `guestDescription`: Further describes the packaging item, in addition to the `guestDisplayName`. For example, if the `itemType` is `CONDIMENTS`, and the `guestDisplayName` is "Ketchup and mustard", the `guestDescription` could show "Includes ketchup and mustard only."
-
-data type: string  | 
-| `guestMessage` | An optional message configured by the restaurant that you show to guests on your ordering interface.data type:string | 
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`packagingConfig`</td>
+      <td>The parent object that holds the following information about the specific packaging preference configurations.<br/>data type:string</td>
+    </tr>
+    <tr>
+      <td>`enabled`</td>
+      <td>Indicates whether the restaurant is currently using packaging preferences in this object. If `TRUE`, you display the packaging options to guests in your ordering interface. If `FALSE`, do not display the options. <br/>data type: string</td>
+    </tr>
+    <tr>
+      <td>`items`</td>
+      <td>The list of available packaging items. The `items` array contains the following fields and values:<ul><li>`id`: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the [orders API](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi).</li><li>`itemTypes`: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different `itemTypes`. For example, an item named "to-go items” that has `itemTypes` of napkins and utensils.</li><li>`guestDisplayName`: An alternative name the restaurant team can configure for a packaging item. For example, you may select `itemTypes` for `CONDIMENTS` but have your guests see the following message: “Ketchup and mustard.”</li><li>`guestInclusionType`: Defines how the restaurant guest should interact with the packaging preference. The available values are: <ul><li>`OPT_IN`: A guest must complete an action to include packaging preferences, such as selecting a checkbox.</li><li>`OPT_OUT`: A guest must complete an action to opt out of packaging, such as de-selecting a checkbox.</li></ul></li><li>`guestDescription`: Further describes the packaging item, in addition to the `guestDisplayName`. For example, if the `itemType` is `CONDIMENTS`, and the `guestDisplayName` is "Ketchup and mustard", the `guestDescription` could show "Includes ketchup and mustard only."</li></ul><br/>data type: string </td>
+    </tr>
+    <tr>
+      <td>`guestMessage`</td>
+      <td>An optional message configured by the restaurant that you show to guests on your ordering interface.<br/>data type:string</td>
+    </tr>
+  </tbody>
+</table>
 
 **Example 9.4. Payload example for the menus_updated event**
 

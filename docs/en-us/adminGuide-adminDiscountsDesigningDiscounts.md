@@ -25,14 +25,41 @@ The following sections provide information about the types of promotional discou
 
 The following table shows discount types that are not complicated to configure. These discount types are fully supported and easy to maintain as your menu configuration changes.
 
-| Discount use | Example discount | 
-| --- | --- |
-| Check-level [fixed amount and fixed percent discounts](adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts) | 5% off an entire check before 7:00 AM. | 
-| Item-level [fixed amount and fixed percent discounts](adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts) | $3.00 off a large cheese pizza. | 
-| [Buy One Get One (BOGO) discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with *buy items* that are specific menu items and that apply a fixed or percent discount to the *get item*. | Buy a large cheese pizza (a single menu item) and get a free (100% discount), two-liter bottled drink. | 
-| [BOGO discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with buy items that are specific menu items and that apply a combo price for a single, specific get menu item. | Buy a large cheese pizza at the normal price and get a large order of garlic bread for $3.00. | 
-| [Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for any number of specific menu items. | Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00. | 
-| [Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for any number of specific menu items and menu groups in which *all menu items have the same price and do not use size pricing*. | Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Discount use</th>
+      <th>Example discount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Check-level [fixed amount and fixed percent discounts](adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts)</td>
+      <td>5% off an entire check before 7:00 AM.</td>
+    </tr>
+    <tr>
+      <td>Item-level [fixed amount and fixed percent discounts](adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts)</td>
+      <td>$3.00 off a large cheese pizza.</td>
+    </tr>
+    <tr>
+      <td>[Buy One Get One (BOGO) discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with *buy items* that are specific menu items and that apply a fixed or percent discount to the *get item*.</td>
+      <td>Buy a large cheese pizza (a single menu item) and get a free (100% discount), two-liter bottled drink.</td>
+    </tr>
+    <tr>
+      <td>[BOGO discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with buy items that are specific menu items and that apply a combo price for a single, specific get menu item.</td>
+      <td>Buy a large cheese pizza at the normal price and get a large order of garlic bread for $3.00.</td>
+    </tr>
+    <tr>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for any number of specific menu items.</td>
+      <td>Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00.</td>
+    </tr>
+    <tr>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for any number of specific menu items and menu groups in which *all menu items have the same price and do not use size pricing*.</td>
+      <td>Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Discount types that are supported with additional configuration
 
@@ -46,9 +73,27 @@ The following table shows discount types that you can configure, but that might 
 > For information about configuring more complicated discounts, see [Handling menu groups with varying prices](adminGuide-adminDiscountsMenuGroupsVaryingPrices).
 
 
-| Discount use | Example discount | 
-| --- | --- |
-| [BOGO discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with a buy item that is a menu group, where the menu group uses size pricing or includes items with different prices | Buy any large or extra-large pizza (a menu group that uses size pricing) at the normal price and get a large order of garlic bread for $3.00. | 
-| [BOGO discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with a get item that is a menu group, where the menu group uses size pricing or includes items with different prices and that applies a combo discount | Buy a large cheese pizza at the normal price and get a small appetizer (another menu group that uses size pricing) for $5.00. | 
-| [Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for menu groups that use size pricing or that include items with different prices | Buy any large or extra-large pizza (a menu group that uses size pricing) and a small appetizer (another menu group that uses size pricing) for $15.00.  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Discount use</th>
+      <th>Example discount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[BOGO discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with a buy item that is a menu group, where the menu group uses size pricing or includes items with different prices</td>
+      <td>Buy any large or extra-large pizza (a menu group that uses size pricing) at the normal price and get a large order of garlic bread for $3.00.</td>
+    </tr>
+    <tr>
+      <td>[BOGO discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with a get item that is a menu group, where the menu group uses size pricing or includes items with different prices and that applies a combo discount</td>
+      <td>Buy a large cheese pizza at the normal price and get a small appetizer (another menu group that uses size pricing) for $5.00.</td>
+    </tr>
+    <tr>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts)that apply a combo price for menu groups that use size pricing or that include items with different prices</td>
+      <td>Buy any large or extra-large pizza (a menu group that uses size pricing) and a small appetizer (another menu group that uses size pricing) for $15.00. </td>
+    </tr>
+  </tbody>
+</table>
 

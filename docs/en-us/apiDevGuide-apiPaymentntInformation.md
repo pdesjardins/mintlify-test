@@ -43,10 +43,14 @@ curl -X GET \ -H "Authorization: Bearer
 
 
 
-(1) Use the Toast-Restaurant-External-ID request parameter to specify the GUID of the restaurant in which the payment was made.
-
-(2) Specify the payment GUID, which you can get from the /payments endpoint of the orders API.
-
+    <tr>
+      <td>[(1)](#co-d1e8108E4737FC-3875-4918-866A-092F630A0814)</td>
+      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant in which the payment was made.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8158E4737FC-3875-4918-866A-092F630A0814)</td>
+      <td>Specify the payment GUID, which you can get from the `/payments` endpoint of the orders API.</td>
+    </tr>
   
 The following example shows the JSON response data for a GET request to the `/payments/<em>{guid}</em>`endpoint. The payment method for this sample payment was a credit card.
 
@@ -89,28 +93,50 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
 
-(1) The guid value contains the unique Toast POS identifier of the payment.
-
-(2) The amount of the payment, including taxes and service charges but excluding tips.
-
-(3) The amount tipped on this payment.
-
-(4) If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is null if a house account was not used for payment.
-
-(5) The payment method, such as CREDIT for a credit card.
-
-(6) If the payment was voided, this value contains a VoidInformation object with information about the void. For details, see Voided payments. The value is null if the payment has not been voided.
-
-(7) Reference information (such as the GUID) of an other payment option used to pay the check. The value is null if an other payment option was not used for payment.
-
-(8) The date and time when the payment was made.
-
-(9) For credit card payments, specifies how the credit card data was obtained. The value is null if a credit card was not used for payment.
-
-(10) The status of the payment. In this example, the payment has been captured.
-
-(11) If the payment has been refunded, this value contains a Refund object with information about the refund. For details, see Refunded payments. The value is nullif the payment has not been refunded.
-
+    <tr>
+      <td>[(1)](#co-d1e8554F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>The `guid` value contains the unique Toast POS identifier of the payment.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8574F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>The amount of the payment, including taxes and service charges but excluding tips.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e8594F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>The amount tipped on this payment.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e8614F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is `null` if a house account was not used for payment.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e8634F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>The payment method, such as `CREDIT` for a credit card.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e8664F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>If the payment was voided, this value contains a `VoidInformation` object with information about the void. For details, see [Voided payments](apiDevGuide-apiPaymentntInformation#apiVoidedPayments). The value is `null` if the payment has not been voided.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e8684F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>Reference information (such as the GUID) of an other payment option used to pay the check. The value is `null` if an other payment option was not used for payment.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e8704F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>The date and time when the payment was made.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e8724F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>For credit card payments, specifies how the credit card data was obtained. The value is `null` if a credit card was not used for payment.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e8744F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>The status of the payment. In this example, the payment has been captured.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td>If the payment has been refunded, this value contains a `Refund` object with information about the refund. For details, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments). The value is `null`if the payment has not been refunded.</td>
+    </tr>
   
 The following sections provide information about voided and refunded payments.
 
@@ -186,22 +212,38 @@ The following example shows the JSON response data for a voided cash payment.
 
 
 
-(1) The VoidInformation object with details of the void.
-
-(2) The restaurant employee who voided the check or the item. The guid value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see Getting all employees of a restaurant.
-
-(3) The restaurant employee who approved the void. The employee approving the void may be the same person who voided the payment.
-
-(4) The date and time when the payment was voided.
-
-(5) The business date when the payment was voided.
-
-(6) The pre-configured void reason that was specified for the void. The value is null if a void reason was not specified.
-
-(7) The date and time when the original (pre-void) payment was made.
-
-(8) The current status of the payment, which is VOIDED for voided payments.
-
+    <tr>
+      <td>[(1)](#co-d1e8873DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The `VoidInformation` object with details of the void.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e8893DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The restaurant employee who voided the check or the item. The `guid` value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see [Getting all employees of a restaurant](apiDevGuide-api_get_all_employees).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e8913DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The restaurant employee who approved the void. The employee approving the void may be the same person who voided the payment.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e8933DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The date and time when the payment was voided.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e8953DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The business date when the payment was voided.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e8983DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The pre-configured void reason that was specified for the void. The value is `null` if a void reason was not specified.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e9003DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The date and time when the original (pre-void) payment was made.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e9023DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td>The current status of the payment, which is `VOIDED` for voided payments.</td>
+    </tr>
   
 ## Refunded payments
 
@@ -253,18 +295,32 @@ The following example shows the JSON response data for a refunded credit card pa
 
 
 
-(1) The status of the refund. A FULL status means that a full refund was made on this payment.
-
-(2) The date and time when the original (pre-refund) payment was made.
-
-(3) The Refund object with details of the refund.
-
-(4) The amount of the refund, excluding the tip.
-
-(5) The amount of the tip refund.
-
-(6) The date and time when the payment was refunded.
-
-(7) The business date when the payment was refunded.
-
+    <tr>
+      <td>[(1)](#co-d1e11385397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The status of the refund. A `FULL` status means that a full refund was made on this payment.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e11405397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The date and time when the original (pre-refund) payment was made.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e11425397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The `Refund` object with details of the refund.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e11445397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The amount of the refund, excluding the tip.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e11465397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The amount of the tip refund.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e11495397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The date and time when the payment was refunded.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e11515397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td>The business date when the payment was refunded.</td>
+    </tr>
   

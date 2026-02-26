@@ -70,14 +70,48 @@ Every order requires, at minimum, a dining option and a check with menu item sel
 
 The following table describes the required fields:
 
-| Field | Type | Description | 
-| --- | --- | --- |
-| `diningOption` | Object | Specifies the dining option for the order. Must contain a `guid` that references a valid dining option configured for the location. | 
-| `checks` | Array | An array of `Check` objects. Most orders have one check. Each check must contain at least one menu item selection. | 
-| `checks.selections` | Array | An array of `Selection` objects representing the menu items being ordered. | 
-| `checks.selections.item` | Object | A reference to the menu item being ordered. Must contain the `guid` of a valid menu item. | 
-| `checks.selections.itemGroup` | Object | A reference to the menu group that contains the menu item. Must contain the `guid` of the parent menu group. | 
-| `checks.selections.quantity` | Number | The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`diningOption`</td>
+      <td>Object</td>
+      <td>Specifies the dining option for the order. Must contain a `guid` that references a valid dining option configured for the location.</td>
+    </tr>
+    <tr>
+      <td>`checks`</td>
+      <td>Array</td>
+      <td>An array of `Check` objects. Most orders have one check. Each check must contain at least one menu item selection.</td>
+    </tr>
+    <tr>
+      <td>`checks.selections`</td>
+      <td>Array</td>
+      <td>An array of `Selection` objects representing the menu items being ordered.</td>
+    </tr>
+    <tr>
+      <td>`checks.selections.item`</td>
+      <td>Object</td>
+      <td>A reference to the menu item being ordered. Must contain the `guid` of a valid menu item.</td>
+    </tr>
+    <tr>
+      <td>`checks.selections.itemGroup`</td>
+      <td>Object</td>
+      <td>A reference to the menu group that contains the menu item. Must contain the `guid` of the parent menu group.</td>
+    </tr>
+    <tr>
+      <td>`checks.selections.quantity`</td>
+      <td>Number</td>
+      <td>The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</td>
+    </tr>
+  </tbody>
+</table>
 
 For detailed information about all values in an `Order`object, see [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary) and the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
@@ -85,11 +119,29 @@ For detailed information about all values in an `Order`object, see [Order object
 
 All requests to the Toast platform APIs require the following headers:
 
-| Header | Description | 
-| --- | --- |
-| `Toast-Restaurant-External-ID` | The GUID of the Toast location for the request. | 
-| `Authorization` | The access token in the format *`Bearer {accessToken}`*. | 
-| `Content-Type` | Required for `POST`requests. Must be set to `application/json`. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Header</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`Toast-Restaurant-External-ID`</td>
+      <td>The GUID of the Toast location for the request.</td>
+    </tr>
+    <tr>
+      <td>`Authorization`</td>
+      <td>The access token in the format *`Bearer {accessToken}`*.</td>
+    </tr>
+    <tr>
+      <td>`Content-Type`</td>
+      <td>Required for `POST`requests. Must be set to `application/json`.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Submitting your first order
 
@@ -129,10 +181,14 @@ The response includes an access token to use in the `Authorization` header for s
 
 
 
-(1) The list of scopes assigned to your API client.
-
-(2) The authentication bearer token needed to place API calls.
-
+    <tr>
+      <td>[(1)](#co-authResponseScope)</td>
+      <td>The list of scopes assigned to your API client.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-authResponseAccessToken)</td>
+      <td>The authentication bearer token needed to place API calls.</td>
+    </tr>
 Store the `accessToken` value for use in the following steps.
 
 For more information about authentication, see [Authentication](apiDevGuide-authentication).
@@ -327,18 +383,30 @@ Using the GUIDs you collected, build your order JSON. The following example show
 
 
 
-(1) The diningOption object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.
-
-(2) The checks array contains one or more Check objects. Most orders have a single check.
-
-(3) The selections array contains the menu items being ordered.
-
-(4) The GUID of the menu item. Retrieve this from the configuration API.
-
-(5) The GUID of the menu group that contains this item. The item must belong to this group.
-
-(6) The quantity of this item being ordered.
-
+    <tr>
+      <td>[(1)](#co-firstOrderDiningOption)</td>
+      <td>The `diningOption` object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-firstOrderChecks)</td>
+      <td>The `checks` array contains one or more `Check` objects. Most orders have a single check.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-firstOrderSelections)</td>
+      <td>The `selections` array contains the menu items being ordered.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-firstOrderItemGuid)</td>
+      <td>The GUID of the menu item. Retrieve this from the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/).</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-firstOrderItemGroup)</td>
+      <td>The GUID of the menu group that contains this item. The item must belong to this group.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-firstOrderQuantity)</td>
+      <td>The quantity of this item being ordered.</td>
+    </tr>
 
 6. **Get the order price (optional but recommended)**
 
@@ -403,14 +471,22 @@ The response returns the order with calculated prices, taxes, and totals. This s
 
 
 
-(1) The subtotal of the check before taxes.
-
-(2) The total tax amount for the check.
-
-(3) The total amount due including taxes.
-
-(4) The calculated price for each menu item selection.
-
+    <tr>
+      <td>[(1)](#co-pricesResponseAmount)</td>
+      <td>The subtotal of the check before taxes.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-pricesResponseTax)</td>
+      <td>The total tax amount for the check.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-pricesResponseTotal)</td>
+      <td>The total amount due including taxes.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-pricesResponseItemPrice)</td>
+      <td>The calculated price for each menu item selection.</td>
+    </tr>
 For more information, see [Getting check prices](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
 
@@ -465,16 +541,26 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 
 
-(1) The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.
-
-(2) The orders API sets the source value to API for orders you submit.
-
-(3) The approvalStatus indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.
-
-(4) Each check receives a unique GUID. Use this to add items or payments to the check.
-
-(5) The amount, taxAmount, and totalAmount values show the calculated check totals.
-
+    <tr>
+      <td>[(1)](#co-firstOrderResponseGuid)</td>
+      <td>The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-firstOrderResponseSource)</td>
+      <td>The orders API sets the `source` value to `API` for orders you submit.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-firstOrderResponseStatus)</td>
+      <td>The `approvalStatus` indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-firstOrderResponseCheckGuid)</td>
+      <td>Each check receives a unique GUID. Use this to add items or payments to the check.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-firstOrderResponseAmount)</td>
+      <td>The `amount`, `taxAmount`, and `totalAmount` values show the calculated check totals.</td>
+    </tr>
 
 
 ## Adding modifiers to menu items
@@ -517,39 +603,108 @@ The following example shows a selection with a modifier:
 
 
 
-(1) The modifiers array contains modifier selections that apply to the parent menu item.
-
-(2) The GUID of the modifier item (for example, a topping or add-on option).
-
-(3) The GUID of the option group that contains the modifier. This is required for modifier selections.
-
+    <tr>
+      <td>[(1)](#co-firstOrderModifiers)</td>
+      <td>The `modifiers` array contains modifier selections that apply to the parent menu item.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-firstOrderModifierItem)</td>
+      <td>The GUID of the modifier item (for example, a topping or add-on option).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-firstOrderOptionGroup)</td>
+      <td>The GUID of the option group that contains the modifier. This is required for modifier selections.</td>
+    </tr>
 For more information, see [Applying modifiers to orders](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
 
 ## Error handling
 
 When submitting orders, you may encounter the following HTTP status codes:
 
-| Status Code | Description | Resolution | 
-| --- | --- | --- |
-| 200 | Success | The API created the order successfully. The response body contains the complete order details. | 
-| 400 | Bad Request | The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group. | 
-| 401 | Unauthorized | The access token is missing, invalid, or expired. Obtain a new access token and retry the request. | 
-| 403 | Forbidden | The API client does not have access to the location or does not have the required scope (`orders.orders:write`). | 
-| 404 | Not Found | A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location. | 
-| 413 | Payload Too Large | The number of checks in the order exceeds the allowed limit. | 
-| 415 | Unsupported Media Type | The request does not include the `Content-Type: application/json` header. | 
-| 500 | Internal Server Error | An unexpected error occurred. Note the `requestId` from the error response and contact Toast support if the issue persists. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Status Code</th>
+      <th>Description</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>200</td>
+      <td>Success</td>
+      <td>The API created the order successfully. The response body contains the complete order details.</td>
+    </tr>
+    <tr>
+      <td>400</td>
+      <td>Bad Request</td>
+      <td>The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</td>
+    </tr>
+    <tr>
+      <td>401</td>
+      <td>Unauthorized</td>
+      <td>The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</td>
+    </tr>
+    <tr>
+      <td>403</td>
+      <td>Forbidden</td>
+      <td>The API client does not have access to the location or does not have the required scope (`orders.orders:write`).</td>
+    </tr>
+    <tr>
+      <td>404</td>
+      <td>Not Found</td>
+      <td>A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</td>
+    </tr>
+    <tr>
+      <td>413</td>
+      <td>Payload Too Large</td>
+      <td>The number of checks in the order exceeds the allowed limit.</td>
+    </tr>
+    <tr>
+      <td>415</td>
+      <td>Unsupported Media Type</td>
+      <td>The request does not include the `Content-Type: application/json` header.</td>
+    </tr>
+    <tr>
+      <td>500</td>
+      <td>Internal Server Error</td>
+      <td>An unexpected error occurred. Note the `requestId` from the error response and contact Toast support if the issue persists.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Common error messages
 
 The following table describes common error messages and their resolutions:
 
-| Error Message | Resolution | 
-| --- | --- |
-| `Could not parse as Order object` | Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request. | 
-| Item (`item GUID`) does not belong to the group (`item group GUID`) | The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the `menuGroups` array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the `menuGroups` array. | 
-| `Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId` | A menu item in your request is missing its GUID. Ensure every `item` object contains a valid `guid` value. | 
-| `Referenced entity (type=DiningOption) must contain a GUID` | The `diningOption` object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Error Message</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`Could not parse as Order object`</td>
+      <td>Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</td>
+    </tr>
+    <tr>
+      <td>Item (`item GUID`) does not belong to the group (`item group GUID`)</td>
+      <td>The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the `menuGroups` array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the `menuGroups` array.</td>
+    </tr>
+    <tr>
+      <td>`Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId`</td>
+      <td>A menu item in your request is missing its GUID. Ensure every `item` object contains a valid `guid` value.</td>
+    </tr>
+    <tr>
+      <td>`Referenced entity (type=DiningOption) must contain a GUID`</td>
+      <td>The `diningOption` object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Next steps
 

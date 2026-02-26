@@ -273,35 +273,79 @@ The workflow below outlines how to create a reservation in your system and submi
 
 
 
-(1) The diningOption used by restaurants for orders with a dining behavior of DINE_IN.
-
-(2) The revenueCenter used by the restaurant for reservation orders.
-
-(3) The table the guest has been assigned to.
-
-(4) The number of guests for the reservation.
-
-(5) The employee guid of the server assigned to the reservation.
-
-(6) The tabName for the order to identify your reservation and guest information.
-
-(7) The serviceCharge used by the restaurant for reservation orders.
-
-(8) The deposit amount.
-
-(9) The guid used to identify the alternativePaymentType used for reservation deposits.
-
+    <tr>
+      <td>[(1)](#co-res-diningOption)</td>
+      <td>The `diningOption` used by restaurants for orders with a dining behavior of `DINE_IN`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-res-revenueCenter)</td>
+      <td>The `revenueCenter` used by the restaurant for reservation orders.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-res-table)</td>
+      <td>The `table` the guest has been assigned to.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-res-numberOfGuests)</td>
+      <td>The number of guests for the reservation.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-res-server)</td>
+      <td>The employee guid of the `server` assigned to the reservation.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-res-tabName)</td>
+      <td>The `tabName` for the order to identify your reservation and guest information.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-res-serviceCharge)</td>
+      <td>The `serviceCharge` used by the restaurant for reservation orders.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-res-deposit)</td>
+      <td>The deposit amount.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-res-otherPayment)</td>
+      <td>The guid used to identify the `alternativePaymentType` used for reservation deposits.</td>
+    </tr>
   
 ## Understanding reservation order data
 
 Use the following information from the orders API response to update the reservation in your system in real-time.
 
-| Information type | Transactional information | Additional information | 
-| --- | --- | --- |
-| Dining option | `order.diningOption.guid` | Review the `guid` value associated with the `diningOption` assigned to the order to understand dining behavior. Orders associated with reservations will have a `diningOption`with a `DINE_IN` dining behavior. For more information, see the orders API reference documentation on the [`diningOption`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response)object. | 
-| Guest count | `order.numberOfGuests` | Review the value associated with the `numberOfGuests` assigned to the order to understand guest count. For more information, see the orders API reference documentation on the [`numberOfGuests`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response)key. | 
-| Order status | `order.closedDate` | Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon. For more information, see the orders API reference documentation on the [`closedDate`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response). | 
-| Table | `order.table.guid` | Review the `guid` value associated with the `table` assigned to the order to understand `table` assignment. For more information, see the orders API reference documentation on the [`table`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response)object. To understand the `table guid`values, send a `GET` request to the [`/tables`](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)endpoint of the configuration API to retrieve the restaurant's tables. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Information type</th>
+      <th>Transactional information</th>
+      <th>Additional information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dining option</td>
+      <td>`order.diningOption.guid`</td>
+      <td>Review the `guid` value associated with the `diningOption` assigned to the order to understand dining behavior. <br/>Orders associated with reservations will have a `diningOption`with a `DINE_IN` dining behavior. <br/>For more information, see the orders API reference documentation on the [`diningOption`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response)object.</td>
+    </tr>
+    <tr>
+      <td>Guest count</td>
+      <td>`order.numberOfGuests`</td>
+      <td>Review the value associated with the `numberOfGuests` assigned to the order to understand guest count. <br/>For more information, see the orders API reference documentation on the [`numberOfGuests`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response)key.</td>
+    </tr>
+    <tr>
+      <td>Order status</td>
+      <td>`order.closedDate`</td>
+      <td>Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon. <br/>For more information, see the orders API reference documentation on the [`closedDate`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response).</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td>`order.table.guid`</td>
+      <td>Review the `guid` value associated with the `table` assigned to the order to understand `table` assignment. <br/>For more information, see the orders API reference documentation on the [`table`](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response)object. <br/>To understand the `table guid`values, send a `GET` request to the [`/tables`](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)endpoint of the configuration API to retrieve the restaurant's tables.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Reporting
 

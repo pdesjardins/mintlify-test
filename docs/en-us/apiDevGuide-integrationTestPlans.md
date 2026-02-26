@@ -24,34 +24,202 @@ You should also ensure that your integration successfully [authenticates](apiDev
 
 You can [download a CSV version of this test plan](toast-api-integration-checklist-giftcard.csv).
 
-| Case number | Card type | Test case name | Steps | Expected results | 
-| --- | --- | --- | --- | --- |
-| 1 | Non-Existent Card | Add Value | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Add Value ($).Enter any value, and click Next.Swipe or enter a number not associated with a gift card at that restaurant. | Gift card cannot be founderror message appears. | 
-| 2 | Non-Existent Card | Balance Inquiry | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Balance Inquiry.Swipe or enter a number not associated with a gift card at that restaurant. | Gift card cannot be founderror message appears. | 
-| 3 | Non-Existent Card | Redeem | From the Toast POS app &gt; New Order.Add items to your order.Click Pay.Click Gift Card.Swipe or enter a number not associated with a gift card at that restaurant. | Gift card cannot be founderror message appears. | 
-| 4 | Non-Existent Card | Sell Card | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Sell Card.Enter any value, and click `Next`.Swipe or enter a number not associated with a gift card at the restaurant. | Gift card cannot be founderror message appears. | 
-| 5 | Inactive Card | Add Value | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Add Value ($).Enter any value, and click Next.Swipe an inactive gift card. | The gift card is inactiveerror message appears. | 
-| 6 | Inactive Card | Balance Inquiry | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Balance Inquiry.Swipe an inactive gift card. | The gift card is inactiveerror message appears. | 
-| 7 | Inactive Card | Redeem | From the Toast POS app &gt; New Order.Add items to your order.Click Pay.Click Gift Card.Swipe an inactive gift card. | The gift card is inactiveerror message appears. | 
-| 8 | Inactive Card | Sell Card | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Sell Card.Enter any value, and click Next.Swipe inactive gift card. | The gift card should display as an item selection on the check, for the amount for which you sold it. | 
-| 9 | Inactive Card | Sell Card | Pay cash for the check you created in case 8, which contains the gift card. | You should be able to sell and pay for the gift card successfully. | 
-| 10 | Inactive Card | Sell Card | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Balance Inquiry.Swipe the gift card. | The gift card's balance should be the amount for which you sold it. | 
-| 11 | Inactive Card | Reverse Sell Card | Follow the steps from case 8.From the Toast POS app, navigate to the Closed Orders tab.Locate the check from your card sale.Click Update, then Pay, then Void. Confirm the void operation.In the overflow menu, click Void Order. Confirm the void operation.Create a new order.Click Gift Card.Click Balance Inquiry.Enter in the card number for the gift card you originally sold.Click Done. | The gift card is inactiveerror message appears. | 
-| 12 | Active Card | Balance Inquiry | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Balance Inquiry.Swipe active gift card. | The balance should be the correct and expected balance on the card. | 
-| 13 | Active Card | Redeem Full Order | From the Toast POS app &gt; New Order.Add items to your order.Ensure that the total amount due is less than the amount on the gift card.Click Pay.Click Gift Card.Swipe an active gift card. | The order should go to the Paid Checks tab on the POS, and it should have a gift card payment for the full order amount. | 
-| 14 | Active Card | Redeem Full Order | Run a balance inquiry on the card used in case 13. | The balance should be decremented by the amount of the previous order. | 
-| 15 | Active Card | Redeem Partial Order | From the Toast POS app &gt; New Order.Add items to your order.Ensure the total amount due is more than the amount on the gift card.Click Pay.Click Gift Card.Swipe an active gift card. | The Payments screen will open.Verify that there is a gift card payment for the full amount of the gift card in the payments list.Verify that there is a balance due. | 
-| 16 | Active Card | Redeem Partial Order | Complete the order from case 15 with a second payment. | The order should appear on the Paid Checks tab. | 
-| 17 | Active Card | Redeem Partial Order | Run a balance inquiry on the card used in case 16. | The card balance should be $0. | 
-| 18 | Active Card | Reverse Redeem | On the Paid Checks tab, locate one of the orders created and paid for in one of the previous two tests.Click Pay ($).Note the card number you use to pay for this order, and the amount of money for which you redeem it.Click each payment and press Remove / Void.In the overflow menu, clock Void Order.Create a new order.Run a balance inquiry on the gift card for which you voided the payment. | The card balance should be incremented by the amount of the voided payment. | 
-| 19 | Active Card | Tip Without Digital Receipts | On the the Toast POS app home screen, navigate to the Setup section and click Device Setup.Turn off digital receipts.From the home screen, in the Mode section, click Payment Terminal.Create an order worth less than the value of an active gift card.Click Pay.Click Gift Card.On the Paid Checks tab, locate the previous check and click Pay ($).Enter in a tip that the gift card has enough money to cover.Click Update, and then Close. | The check should be moved to the Closed Checks tab. | 
-| 20 | Active Card | Tip Without Digital Receipts | Run a balance inquiry on the card used in case 19. | The balance on the card should be decremented by the amount of the check and tip. | 
-| 21 | Active Card | Tip With Digital Receipts | On the the Toast POS app home screen, navigate to the Setup section and click Device Setup.Turn Digital Receipts on.From the home screen, in the Mode section, click Payment Terminal.Create an order worth less than the value on an active gift card.Click Pay.Click Gift Card.When the tip dialog appears, select a tip amount less than the gift card balance. This dialog does not allow you to tip more than the balance on the card.Complete the order. | The check should be moved to the Closed Checks tab. | 
-| 22 | Active Card | Tip With Digital Receipts | Get the balance of the card used in case 21. | The balance on the card should be decremented by the amount of the check and tip. | 
-| 23 | Active Card | Add Value | From the Toast POS app &gt; New Order.Tap Gift Cards &gt; Add Value ($).Enter any value, and click Next.Swipe an active gift card. | Verify that Add Value ($) is added to the check for the correct amount. | 
-| 24 | Active Card | Add Value | Complete the order from case 23. | The check should move to the Closed Checks tab. | 
-| 25 | Active Card | Add Value | Run a balance inquiry on the card used in cases 23-24. | The card balance should be increased by the correct amount. | 
-| 26 | Active Card | Reverse Add Value | On the Closed Checks tab, find the order created in case 25.Click Pay ($).Void all payments.In the overflow menu, click Void Order.Confirm the void operation.Create a new order.Click Gift Card and then click Balance Inquiry.Swipe the card whose Add Value action was voided. | The gift card balance should be decremented by the voided Add Value action. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Case number</th>
+      <th>Card type</th>
+      <th>Test case name</th>
+      <th>Steps</th>
+      <th>Expected results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Non-Existent Card</td>
+      <td>Add Value</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Add Value ($).<br/>Enter any value, and click Next.<br/>Swipe or enter a number not associated with a gift card at that restaurant.</td>
+      <td>Gift card cannot be founderror message appears.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Non-Existent Card</td>
+      <td>Balance Inquiry</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Balance Inquiry.<br/>Swipe or enter a number not associated with a gift card at that restaurant.</td>
+      <td>Gift card cannot be founderror message appears.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Non-Existent Card</td>
+      <td>Redeem</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Add items to your order.<br/>Click Pay.<br/>Click Gift Card.<br/>Swipe or enter a number not associated with a gift card at that restaurant.</td>
+      <td>Gift card cannot be founderror message appears.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Non-Existent Card</td>
+      <td>Sell Card</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Sell Card.<br/>Enter any value, and click `Next`.<br/>Swipe or enter a number not associated with a gift card at the restaurant.</td>
+      <td>Gift card cannot be founderror message appears.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Inactive Card</td>
+      <td>Add Value</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Add Value ($).<br/>Enter any value, and click Next.<br/>Swipe an inactive gift card.</td>
+      <td>The gift card is inactiveerror message appears.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Inactive Card</td>
+      <td>Balance Inquiry</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Balance Inquiry.<br/>Swipe an inactive gift card.</td>
+      <td>The gift card is inactiveerror message appears.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Inactive Card</td>
+      <td>Redeem</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Add items to your order.<br/>Click Pay.<br/>Click Gift Card.<br/>Swipe an inactive gift card.</td>
+      <td>The gift card is inactiveerror message appears.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Inactive Card</td>
+      <td>Sell Card</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Sell Card.<br/>Enter any value, and click Next.<br/>Swipe inactive gift card.</td>
+      <td>The gift card should display as an item selection on the check, for the amount for which you sold it.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Inactive Card</td>
+      <td>Sell Card</td>
+      <td>Pay cash for the check you created in case 8, which contains the gift card.</td>
+      <td>You should be able to sell and pay for the gift card successfully.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Inactive Card</td>
+      <td>Sell Card</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Balance Inquiry.<br/>Swipe the gift card.</td>
+      <td>The gift card's balance should be the amount for which you sold it.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Inactive Card</td>
+      <td>Reverse Sell Card</td>
+      <td>Follow the steps from case 8.<br/>From the Toast POS app, navigate to the Closed Orders tab.<br/>Locate the check from your card sale.<br/>Click Update, then Pay, then Void. Confirm the void operation.<br/>In the overflow menu, click Void Order. Confirm the void operation.<br/>Create a new order.<br/>Click Gift Card.<br/>Click Balance Inquiry.<br/>Enter in the card number for the gift card you originally sold.<br/>Click Done.</td>
+      <td>The gift card is inactiveerror message appears.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Active Card</td>
+      <td>Balance Inquiry</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Balance Inquiry.<br/>Swipe active gift card.</td>
+      <td>The balance should be the correct and expected balance on the card.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Active Card</td>
+      <td>Redeem Full Order</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Add items to your order.<br/>Ensure that the total amount due is less than the amount on the gift card.<br/>Click Pay.<br/>Click Gift Card.<br/>Swipe an active gift card.</td>
+      <td>The order should go to the Paid Checks tab on the POS, and it should have a gift card payment for the full order amount.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Active Card</td>
+      <td>Redeem Full Order</td>
+      <td>Run a balance inquiry on the card used in case 13.</td>
+      <td>The balance should be decremented by the amount of the previous order.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Active Card</td>
+      <td>Redeem Partial Order</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Add items to your order.<br/>Ensure the total amount due is more than the amount on the gift card.<br/>Click Pay.<br/>Click Gift Card.<br/>Swipe an active gift card.</td>
+      <td>The Payments screen will open.<br/>Verify that there is a gift card payment for the full amount of the gift card in the payments list.<br/>Verify that there is a balance due.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Active Card</td>
+      <td>Redeem Partial Order</td>
+      <td>Complete the order from case 15 with a second payment.</td>
+      <td>The order should appear on the Paid Checks tab.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Active Card</td>
+      <td>Redeem Partial Order</td>
+      <td>Run a balance inquiry on the card used in case 16.</td>
+      <td>The card balance should be $0.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Active Card</td>
+      <td>Reverse Redeem</td>
+      <td>On the Paid Checks tab, locate one of the orders created and paid for in one of the previous two tests.<br/>Click Pay ($).<br/>Note the card number you use to pay for this order, and the amount of money for which you redeem it.<br/>Click each payment and press Remove / Void.<br/>In the overflow menu, clock Void Order.<br/>Create a new order.<br/>Run a balance inquiry on the gift card for which you voided the payment.</td>
+      <td>The card balance should be incremented by the amount of the voided payment.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Active Card</td>
+      <td>Tip Without Digital Receipts</td>
+      <td>On the the Toast POS app home screen, navigate to the Setup section and click Device Setup.<br/>Turn off digital receipts.<br/>From the home screen, in the Mode section, click Payment Terminal.<br/>Create an order worth less than the value of an active gift card.<br/>Click Pay.<br/>Click Gift Card.<br/>On the Paid Checks tab, locate the previous check and click Pay ($).<br/>Enter in a tip that the gift card has enough money to cover.<br/>Click Update, and then Close.</td>
+      <td>The check should be moved to the Closed Checks tab.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Active Card</td>
+      <td>Tip Without Digital Receipts</td>
+      <td>Run a balance inquiry on the card used in case 19.</td>
+      <td>The balance on the card should be decremented by the amount of the check and tip.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Active Card</td>
+      <td>Tip With Digital Receipts</td>
+      <td>On the the Toast POS app home screen, navigate to the Setup section and click Device Setup.<br/>Turn Digital Receipts on.<br/>From the home screen, in the Mode section, click Payment Terminal.<br/>Create an order worth less than the value on an active gift card.<br/>Click Pay.<br/>Click Gift Card.<br/>When the tip dialog appears, select a tip amount less than the gift card balance. This dialog does not allow you to tip more than the balance on the card.<br/>Complete the order.</td>
+      <td>The check should be moved to the Closed Checks tab.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Active Card</td>
+      <td>Tip With Digital Receipts</td>
+      <td>Get the balance of the card used in case 21.</td>
+      <td>The balance on the card should be decremented by the amount of the check and tip.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Active Card</td>
+      <td>Add Value</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Gift Cards &gt; Add Value ($).<br/>Enter any value, and click Next.<br/>Swipe an active gift card.</td>
+      <td>Verify that Add Value ($) is added to the check for the correct amount.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Active Card</td>
+      <td>Add Value</td>
+      <td>Complete the order from case 23.</td>
+      <td>The check should move to the Closed Checks tab.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Active Card</td>
+      <td>Add Value</td>
+      <td>Run a balance inquiry on the card used in cases 23-24.</td>
+      <td>The card balance should be increased by the correct amount.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Active Card</td>
+      <td>Reverse Add Value</td>
+      <td>On the Closed Checks tab, find the order created in case 25.<br/>Click Pay ($).<br/>Void all payments.<br/>In the overflow menu, click Void Order.<br/>Confirm the void operation.<br/>Create a new order.<br/>Click Gift Card and then click Balance Inquiry.<br/>Swipe the card whose Add Value action was voided.</td>
+      <td>The gift card balance should be decremented by the voided Add Value action.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Loyalty integration test plan
 
@@ -61,36 +229,228 @@ You should also ensure that your integration successfully [authenticates](apiDev
 
 You can [download a CSV version of this test plan](toast-api-integration-checklist-loyalty.csv).
 
-| Case number | Category | Test case | Steps | Expected results | 
-| --- | --- | --- | --- | --- |
-| 1 | Account Lookup | Card swipe | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Swipe a card associated with a loyalty account at that restaurant. | The expected loyalty account should appear. | 
-| 2 | Account Lookup | Card swipe | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Swipe a card NOT associated with a loyalty account at that restaurant. | The Invalid Account error message should appear. | 
-| 3 | Account Lookup | Card swipe | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Swipe a card that is NOT a loyalty account card. | The Card swiped is not a rewards card error message should appear. | 
-| 4 | Account Lookup | Keying in number | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Key in a card number associated with a loyalty account at that restaurant. | The expected loyalty account should appear. | 
-| 5 | Account Lookup | Scanning QR code | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer &gt; Scan.Scan a QR code associated with a loyalty account at that restaurant. | The expected loyalty account should appear. | 
-| 6 | Account Lookup | Scanning QR code | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer &gt; Scan.Scan a QR code NOT associated with a loyalty account at that restaurant. | The Invalid Account error message should appear. | 
-| 7 | Account Lookup | By email | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer &gt; Lookup.Key in an email address associated with a loyalty account at that restaurant. | The expected loyalty account should appear. | 
-| 8 | Account Lookup | By phone number | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer &gt; Lookup.Key in a phone number associated with a loyalty account at that restaurant. | The expected loyalty account should appear. | 
-| 9 | Account Lookup | By name | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer &gt; Lookup.Key in a name associated with a loyalty account at that restaurant. | The expected loyalty account should appear. | 
-| 10 | Account Inquiry | Unavailable rewards | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards. | The expected rewards value should display, but because the awards are unavailable for redemption, you should not be able to apply them to a check. | 
-| 11 | Account Inquiry | Available rewards | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer. | The expected rewards should be available redemption.A Redeem button should be present. | 
-| 12 | Account Inquiry | Rewards points | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards. | The expected rewards value should display on the dialog. | 
-| 13 | Account Inquiry | Invalidated rewards | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer.Remove the items from your check.Tap Rewards &gt; Look Up Customer. | The reward should be removed from the check.The error message Changes to the check have voided applied rewards. Discounts that are no longer applicable have been removed should display. | 
-| 14 | Redemption | Item-level discount | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer.Tap Redeemto add a reward to the check. | The reward should apply to the target item on the check.The amount discounted should be correct. | 
-| 15 | Redemption | Item-level discount | Tap Pay. | The reward discount should be correctly carried to the payment screen. | 
-| 16 | Redemption | Item-level discount | Complete payment on the check. | The payment should process successfully. | 
-| 17 | Redemption | Check-level discount | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer.Tap Redeemto add a reward to the check. | The reward should apply to the check.The amount discounted should be correct. | 
-| 18 | Redemption | Check-level discount | Tap Pay. | The reward discount should be correctly carried to the payment screen. | 
-| 19 | Redemption | Check-level discount | Complete payment on the check. | The payment should process successfully. | 
-| 20 | Redemption | Buy one get one discount | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer. | The expected reward should display, but should be unavailable for redemption. | 
-| 21 | Redemption | Buy one get one discount | Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer. | The expected rewards should be available redemption.A Redeem button should be present. | 
-| 22 | Redemption | Buy one get one discount | Tap Redeem to add a reward to the check. | The reward should apply to the target item on the check.The amount discounted should be correct. | 
-| 23 | Redemption | Buy one get one discount | Tap Pay. | The reward discount should be correctly carried to the payment screen. | 
-| 24 | Redemption | Buy one get one discount | Complete payment on the check. | The payment should process successfully. | 
-| 25 | Accrual and Reversal | Without reward applied to check | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items to the check.Tap Pay($). | The payment should process successfully.You should see the expected accrual message. | 
-| 26 | Accrual and Reversal | Accrual reverse | On the Closed Checks tab, find the order placed in case 25.Tap Pay($).Void all payments.In the overflow menu, clock Void Order.Confirm the void operation. | The check should be successfully voided in Toast.You should see the expected reversal message. | 
-| 27 | Accrual and Reversal | With reward applied to check | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer.Tap Redeemto add a reward to the check.Tap Pay.Complete payment on the check. | The payment should process successfully.You should see the expected accrual and redeem messages. | 
-| 28 | Accrual and Reversal | Redemption reverse | On the Closed Checks tab, find the order placed in case 27.Tap Pay($).Void all payments.In the overflow menu, click Void Order.Confirm the void operation. | The check should be successfully voided in Toast,.You should see the expected reversal messages. | 
-| 29 | Accrual and Reversal | With multiple rewards applied to check | From the Toast POS app &gt; New Order.Tap Rewards&gt; Look Up Customer.Look up a loyalty account that has associated rewards.Add items that would trigger rewards to the check.Tap Rewards &gt; Look Up Customer.Tap Redeemto add a reward to the check.Repeat at least once in order to apply multiple rewards to the check.Tap Pay.Complete payment on the check. | The payment should process successfully.You should see the expected accrual and redeem messages. | 
-| 30 | Accrual and Reversal | Partial redemption reverse | On the Closed Checks tab, find the order placed in case 29.Tap Update.Select a reward that was redeemed, and void it from the check.Tap Pay.Complete payment on the check. | The check should successfully close.You should see the expected reversal messages. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Case number</th>
+      <th>Category</th>
+      <th>Test case</th>
+      <th>Steps</th>
+      <th>Expected results</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Account Lookup</td>
+      <td>Card swipe</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Swipe a card associated with a loyalty account at that restaurant.</td>
+      <td>The expected loyalty account should appear.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Account Lookup</td>
+      <td>Card swipe</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Swipe a card NOT associated with a loyalty account at that restaurant.</td>
+      <td>The Invalid Account error message should appear.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Account Lookup</td>
+      <td>Card swipe</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Swipe a card that is NOT a loyalty account card.</td>
+      <td>The Card swiped is not a rewards card error message should appear.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Account Lookup</td>
+      <td>Keying in number</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Key in a card number associated with a loyalty account at that restaurant.</td>
+      <td>The expected loyalty account should appear.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Account Lookup</td>
+      <td>Scanning QR code</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer &gt; Scan.<br/>Scan a QR code associated with a loyalty account at that restaurant.</td>
+      <td>The expected loyalty account should appear.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Account Lookup</td>
+      <td>Scanning QR code</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer &gt; Scan.<br/>Scan a QR code NOT associated with a loyalty account at that restaurant.</td>
+      <td>The Invalid Account error message should appear.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Account Lookup</td>
+      <td>By email</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer &gt; Lookup.<br/>Key in an email address associated with a loyalty account at that restaurant.</td>
+      <td>The expected loyalty account should appear.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Account Lookup</td>
+      <td>By phone number</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer &gt; Lookup.<br/>Key in a phone number associated with a loyalty account at that restaurant.</td>
+      <td>The expected loyalty account should appear.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Account Lookup</td>
+      <td>By name</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer &gt; Lookup.<br/>Key in a name associated with a loyalty account at that restaurant.</td>
+      <td>The expected loyalty account should appear.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Account Inquiry</td>
+      <td>Unavailable rewards</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.</td>
+      <td>The expected rewards value should display, but because the awards are unavailable for redemption, you should not be able to apply them to a check.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Account Inquiry</td>
+      <td>Available rewards</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.</td>
+      <td>The expected rewards should be available redemption.<br/>A Redeem button should be present.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Account Inquiry</td>
+      <td>Rewards points</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.</td>
+      <td>The expected rewards value should display on the dialog.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Account Inquiry</td>
+      <td>Invalidated rewards</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.<br/>Remove the items from your check.<br/>Tap Rewards &gt; Look Up Customer.</td>
+      <td>The reward should be removed from the check.<br/>The error message Changes to the check have voided applied rewards. Discounts that are no longer applicable have been removed should display.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Redemption</td>
+      <td>Item-level discount</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.<br/>Tap Redeemto add a reward to the check.</td>
+      <td>The reward should apply to the target item on the check.<br/>The amount discounted should be correct.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Redemption</td>
+      <td>Item-level discount</td>
+      <td>Tap Pay.</td>
+      <td>The reward discount should be correctly carried to the payment screen.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Redemption</td>
+      <td>Item-level discount</td>
+      <td>Complete payment on the check.</td>
+      <td>The payment should process successfully.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Redemption</td>
+      <td>Check-level discount</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.<br/>Tap Redeemto add a reward to the check.</td>
+      <td>The reward should apply to the check.<br/>The amount discounted should be correct.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Redemption</td>
+      <td>Check-level discount</td>
+      <td>Tap Pay.</td>
+      <td>The reward discount should be correctly carried to the payment screen.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Redemption</td>
+      <td>Check-level discount</td>
+      <td>Complete payment on the check.</td>
+      <td>The payment should process successfully.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Redemption</td>
+      <td>Buy one get one discount</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.</td>
+      <td>The expected reward should display, but should be unavailable for redemption.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Redemption</td>
+      <td>Buy one get one discount</td>
+      <td>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.</td>
+      <td>The expected rewards should be available redemption.<br/>A Redeem button should be present.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Redemption</td>
+      <td>Buy one get one discount</td>
+      <td>Tap Redeem to add a reward to the check.</td>
+      <td>The reward should apply to the target item on the check.<br/>The amount discounted should be correct.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Redemption</td>
+      <td>Buy one get one discount</td>
+      <td>Tap Pay.</td>
+      <td>The reward discount should be correctly carried to the payment screen.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Redemption</td>
+      <td>Buy one get one discount</td>
+      <td>Complete payment on the check.</td>
+      <td>The payment should process successfully.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Accrual and Reversal</td>
+      <td>Without reward applied to check</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items to the check.<br/>Tap Pay($).</td>
+      <td>The payment should process successfully.<br/>You should see the expected accrual message.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Accrual and Reversal</td>
+      <td>Accrual reverse</td>
+      <td>On the Closed Checks tab, find the order placed in case 25.<br/>Tap Pay($).<br/>Void all payments.<br/>In the overflow menu, clock Void Order.<br/>Confirm the void operation.</td>
+      <td>The check should be successfully voided in Toast.<br/>You should see the expected reversal message.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Accrual and Reversal</td>
+      <td>With reward applied to check</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.<br/>Tap Redeemto add a reward to the check.<br/>Tap Pay.<br/>Complete payment on the check.</td>
+      <td>The payment should process successfully.<br/>You should see the expected accrual and redeem messages.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Accrual and Reversal</td>
+      <td>Redemption reverse</td>
+      <td>On the Closed Checks tab, find the order placed in case 27.<br/>Tap Pay($).<br/>Void all payments.<br/>In the overflow menu, click Void Order.<br/>Confirm the void operation.</td>
+      <td>The check should be successfully voided in Toast,.<br/>You should see the expected reversal messages.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Accrual and Reversal</td>
+      <td>With multiple rewards applied to check</td>
+      <td>From the Toast POS app &gt; New Order.<br/>Tap Rewards&gt; Look Up Customer.<br/>Look up a loyalty account that has associated rewards.<br/>Add items that would trigger rewards to the check.<br/>Tap Rewards &gt; Look Up Customer.<br/>Tap Redeemto add a reward to the check.<br/>Repeat at least once in order to apply multiple rewards to the check.<br/>Tap Pay.<br/>Complete payment on the check.</td>
+      <td>The payment should process successfully.<br/>You should see the expected accrual and redeem messages.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Accrual and Reversal</td>
+      <td>Partial redemption reverse</td>
+      <td>On the Closed Checks tab, find the order placed in case 29.<br/>Tap Update.<br/>Select a reward that was redeemed, and void it from the check.<br/>Tap Pay.<br/>Complete payment on the check.</td>
+      <td>The check should successfully close.<br/>You should see the expected reversal messages.</td>
+    </tr>
+  </tbody>
+</table>
 

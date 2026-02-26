@@ -103,8 +103,10 @@ The search workflow occurs when a restaurant employee selects the Rewards button
   
 
 
- You may return a pointsBalance in your response to a LOYALTY_SEARCH request, but this balance will not display on the POS. The points balance only displays on the POS in response to LOYALTY_INQUIRE requests.
-
+    <tr>
+      <td>[(1)](#loyaltySearchPoints)</td>
+      <td>You may return a `pointsBalance` in your response to a `LOYALTY_SEARCH` request, but this balance will not display on the POS. The points balance only displays on the POS in response to `LOYALTY_INQUIRE` requests.</td>
+    </tr>
 **Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
 
 
@@ -609,14 +611,22 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 
 
-(1) The rejectedRedemptions array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a RejectedRedemption object in this array. For more information, see Handling redeemed offers that are not valid.
-
-(2) The appliedRedemptions array includes a Redemption object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.
-
- In this example, since the quantity of the applied redemption is 2 and the amount is 5, the total amount discounted will be 10.
-
-(4) Set the transactionStatus to ACCEPT to indicate that your service has successfully processed the request. The status is ACCEPT even when you determine that some redeemed rewards offers are not valid.
-
+    <tr>
+      <td>[(1)](#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987)</td>
+      <td>The `rejectedRedemptions` array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a `RejectedRedemption` object in this array. For more information, see [Handling redeemed offers that are not valid](apiDevGuide-apiLoyaltyTransactionDescriptions#apiLoyaltyIntegrationHandlingRedeemOfferNotValid).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987)</td>
+      <td>The `appliedRedemptions` array includes a `Redemption` object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#apiLoyaltyQuantity)</td>
+      <td>In this example, since the `quantity` of the applied redemption is 2 and the `amount` is 5, the total amount discounted will be 10.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987)</td>
+      <td>Set the `transactionStatus` to `ACCEPT` to indicate that your service has successfully processed the request. The status is `ACCEPT` even when you determine that some redeemed rewards offers are not valid.</td>
+    </tr>
   
 ### Handling redeemed offers that are not valid
 

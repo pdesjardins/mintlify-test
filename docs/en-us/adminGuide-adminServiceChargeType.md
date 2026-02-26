@@ -74,8 +74,23 @@ Optionally, you can configure the service charge to be [taxed](adminGuide-adminS
 
 For gratuity service charges, be aware of the following:
 
-| Part of service charges affected | Important information | 
-| --- | --- |
-| Location of gratuity service charges on a check | On the Toast POS device, gratuity service charge amounts are listed as Fees and Charges in the payment section of the check. | 
-| Suggested tip amounts | When a gratuity service charge is applied to a check, it affects the suggested tip amounts shown on digital receipts.The Toast platform overrides the suggested tip percentages that you configure with a set of pre-defined percentages. For example, on the UI Options page, you may have set the [Customize Tip Percentages](adminGuide-adminUiOptionsReference#confCustomizeTipPercentages) option to 20%, 22%, and 25%. However, if a gratuity service charge is applied, then on digital receipt the suggested tip percentages are 3%, 5%, and 7%. To open the UI Options page, choose Front of House &gt; Order screen setup &gt; UI options.The same behavior occurs with printed receipts if you enabled the Display Tip Percentages on Customer Receipts option on the Receipt Setup page. To open the Receipt Setup page, choose Payments &gt; Checks & receipt setup &gt; Guest receipt setup.Non-gratuity service charges do not affect the configured suggested tip percentages.**Not supported on Toast Mobile Order & Pay **On Toast Mobile Order & Pay, suggested tip amounts are not overridden when a gratuity service charge is added. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Part of service charges affected</th>
+      <th>Important information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Location of gratuity service charges on a check</td>
+      <td>On the Toast POS device, gratuity service charge amounts are listed as Fees and Charges in the payment section of the check.</td>
+    </tr>
+    <tr>
+      <td>Suggested tip amounts</td>
+      <td>When a gratuity service charge is applied to a check, it affects the suggested tip amounts shown on digital receipts.<br/>The Toast platform overrides the suggested tip percentages that you configure with a set of pre-defined percentages. For example, on the UI Options page, you may have set the [Customize Tip Percentages](adminGuide-adminUiOptionsReference#confCustomizeTipPercentages) option to 20%, 22%, and 25%. However, if a gratuity service charge is applied, then on digital receipt the suggested tip percentages are 3%, 5%, and 7%. To open the UI Options page, choose Front of House &gt; Order screen setup &gt; UI options.<br/>The same behavior occurs with printed receipts if you enabled the Display Tip Percentages on Customer Receipts option on the Receipt Setup page. To open the Receipt Setup page, choose Payments &gt; Checks & receipt setup &gt; Guest receipt setup.<br/>Non-gratuity service charges do not affect the configured suggested tip percentages.<br/>**Not supported on Toast Mobile Order & Pay **On Toast Mobile Order & Pay, suggested tip amounts are not overridden when a gratuity service charge is added.</td>
+    </tr>
+  </tbody>
+</table>
 

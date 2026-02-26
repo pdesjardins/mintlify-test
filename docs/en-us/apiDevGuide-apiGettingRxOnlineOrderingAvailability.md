@@ -48,10 +48,14 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(2) Specify the location GUID of the restaurant whose online ordering availability you want to retrieve.
-
+    <tr>
+      <td>[(1)](#co-d1e672109AB21-78E4-4FF7-8E28-AA98325F0F63)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e692109AB21-78E4-4FF7-8E28-AA98325F0F63)</td>
+      <td>Specify the location GUID of the restaurant whose online ordering availability you want to retrieve.</td>
+    </tr>
   
 **Example 6.10. Ordering availability response for an online restaurant**
 

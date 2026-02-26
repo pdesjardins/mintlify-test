@@ -88,39 +88,33 @@ Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDayligh
 
 The following table provides suggested information that you can display in different types of inventory reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
-| Object |  Values | 
-| --- | --- |
-| Orders | Consider displaying the following reporting information for orders:- Order source
-- Opened date
-- Paid date
-- Closed date
-- Voided status
 
- | 
-| Checks | Consider displaying the following reporting information for checks:- Display number
-- Tab name
-- Total amount
-- Refunded amount
-- Applied discount names
-- Applied discount amounts
-
- | 
-| Menu item selections | Consider displaying the following reporting information for item selections:- Menu item name - Use `displayName` value on `Selection` object
-- Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item
-- Price
-- Applied discount names
-- Applied discount amounts
-- Sales category name
-- Menu item tags
-- Menu item SKU
-
- | 
-| Payments | By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items.Consider displaying the following reporting information for payments:- Amount
-- Refund information
-- Type
-- Payment status
-
- | 
+<table>
+  <thead>
+    <tr>
+      <th>Object</th>
+      <th> Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Orders</td>
+      <td>Consider displaying the following reporting information for orders:<ul><li>Order source</li><li>Opened date</li><li>Paid date</li><li>Closed date</li><li>Voided status</li></ul></td>
+    </tr>
+    <tr>
+      <td>Checks</td>
+      <td>Consider displaying the following reporting information for checks:<ul><li>Display number</li><li>Tab name</li><li>Total amount</li><li>Refunded amount</li><li>Applied discount names</li><li>Applied discount amounts</li></ul></td>
+    </tr>
+    <tr>
+      <td>Menu item selections</td>
+      <td>Consider displaying the following reporting information for item selections:<ul><li>Menu item name - Use `displayName` value on `Selection` object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Menu item tags</li><li>Menu item SKU</li></ul></td>
+    </tr>
+    <tr>
+      <td>Payments</td>
+      <td>By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items.<br/>Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Refund information</li><li>Type</li><li>Payment status</li></ul></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Set up a recurring order retrieval
 
@@ -156,12 +150,38 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 
 
-| Information type | Configuration | Additional information | 
-| --- | --- | --- |
-| Reporting categories | Sales categories from the configuration API.[More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/) | See Toast Central for more information about [sales categories](https://central.toasttab.com/s/article/Sales-Categories-1492812477858). | 
-| Order configuration | Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/) | These pieces of configuration are often associated with orders.They describe how the order was placed and how its price was calculated.  | 
-| Menu information | Menu information from the menus API.In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items.[More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) | The menus API returns menu item names and other menu-related information you may want to display in your inventory platform.  | 
-| Restaurant information | Restaurant services from the configuration API.[More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/) | This restaurant information allows your integration to report on when orders were placed in your restaurant.For more information, see this [Toast Central article about hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services). | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Information type</th>
+      <th>Configuration</th>
+      <th>Additional information</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reporting categories</td>
+      <td>Sales categories from the configuration API.<br/>[More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/)</td>
+      <td>See Toast Central for more information about [sales categories](https://central.toasttab.com/s/article/Sales-Categories-1492812477858).</td>
+    </tr>
+    <tr>
+      <td>Order configuration</td>
+      <td>Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)<br/>Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)<br/>Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/)</td>
+      <td>These pieces of configuration are often associated with orders.<br/>They describe how the order was placed and how its price was calculated. </td>
+    </tr>
+    <tr>
+      <td>Menu information</td>
+      <td>Menu information from the menus API.<br/>In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items.<br/>[More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)</td>
+      <td>The menus API returns menu item names and other menu-related information you may want to display in your inventory platform. </td>
+    </tr>
+    <tr>
+      <td>Restaurant information</td>
+      <td>Restaurant services from the configuration API.<br/>[More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/)</td>
+      <td>This restaurant information allows your integration to report on when orders were placed in your restaurant.<br/>For more information, see this [Toast Central article about hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services).</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Add additional business logic
 

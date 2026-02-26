@@ -100,9 +100,15 @@ The `Order` object in the following example creates an order that is scheduled f
 
 
 
- If you submit a payment with the order, the paidDate for the payment should be the timestamp when the payment is placed.
-
-(2) The promisedDate value specifies the date and time when the order will be fulfilled.
-
- The openedDate value specifies the business date of the order. If you do not include an openedDate value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This openedDatevalue matches the promisedDate value.
-
+    <tr>
+      <td>[(1)](#orderPaidDate)</td>
+      <td>If you submit a payment with the order, the `paidDate` for the payment should be the timestamp when the payment is placed.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e23837FED323-B0BC-404F-B11C-A782AC1FBA48)</td>
+      <td>The `promisedDate` value specifies the date and time when the order will be fulfilled.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#apiFutureOrderExampleOpenedDate-co)</td>
+      <td>The `openedDate` value specifies the business date of the order. If you do not include an `openedDate` value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This `openedDate`value matches the `promisedDate` value.</td>
+    </tr>

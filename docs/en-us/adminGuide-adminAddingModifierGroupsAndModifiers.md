@@ -580,14 +580,48 @@ Set the Allow guests to select more than one modifier toggle to On if you want g
 
 The table below provides some examples to help you better understand how to use the minimum and maximum settings:
 
-| Requirements | Example | Settings | 
-| --- | --- | --- |
-| Guests can make zero or one selection from this modifier group. | A Protein modifier group that lets a guest optionally add chicken or salmon to a Salad entree. | OptionalMinimum: 0Maximum: 1 | 
-| Guests must make one, and only one, selection from this modifier group. | A Temperature modifier group that defines the cooking temperature for a Steak entree and has Rare, Medium, or Well Done modifiers. | RequiredMinimum: 1Maximum: 1 | 
-| Guests must select a specific number of modifiers from this modifier group. | A pick-two lunch entree where the guest can pick two offerings from a group of lunch dishes, for example, soup and a sandwich, or soup and a salad, or salad and a sandwich. | RequiredMinimum: 2Maximum: 2 | 
-| Guests can select as few or as many modifiers from this modifier group as they want. | A Pizza Toppings modifier group for a make-your-own pizza where the guest can choose as few or as many toppings as they like. | OptionalNo minimumNo maximum | 
-| Guests must select at least one modifier from this modifier group but they can also pick as many modifiers from this group as they want. | A Cheese Choice modifier group where the guest must specify at least one type of cheese to add to a sandwich but they can optionally add as many types of cheese as they want. | RequiredMinimum: 1No maximum | 
-| Guests do not have to select any modifiers from this group but, if they do, they are limited to a specific number. | An Extra Sides modifier group where the guest does not have to pick a side dish but they can optionally add up to two side dishes. | OptionalNo minimumMaximum: 2 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Requirements</th>
+      <th>Example</th>
+      <th>Settings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Guests can make zero or one selection from this modifier group.</td>
+      <td>A Protein modifier group that lets a guest optionally add chicken or salmon to a Salad entree.</td>
+      <td>Optional<br/>Minimum: 0<br/>Maximum: 1</td>
+    </tr>
+    <tr>
+      <td>Guests must make one, and only one, selection from this modifier group.</td>
+      <td>A Temperature modifier group that defines the cooking temperature for a Steak entree and has Rare, Medium, or Well Done modifiers.</td>
+      <td>Required<br/>Minimum: 1<br/>Maximum: 1</td>
+    </tr>
+    <tr>
+      <td>Guests must select a specific number of modifiers from this modifier group.</td>
+      <td>A pick-two lunch entree where the guest can pick two offerings from a group of lunch dishes, for example, soup and a sandwich, or soup and a salad, or salad and a sandwich.</td>
+      <td>Required<br/>Minimum: 2<br/>Maximum: 2</td>
+    </tr>
+    <tr>
+      <td>Guests can select as few or as many modifiers from this modifier group as they want.</td>
+      <td>A Pizza Toppings modifier group for a make-your-own pizza where the guest can choose as few or as many toppings as they like.</td>
+      <td>Optional<br/>No minimum<br/>No maximum</td>
+    </tr>
+    <tr>
+      <td>Guests must select at least one modifier from this modifier group but they can also pick as many modifiers from this group as they want.</td>
+      <td>A Cheese Choice modifier group where the guest must specify at least one type of cheese to add to a sandwich but they can optionally add as many types of cheese as they want.</td>
+      <td>Required<br/>Minimum: 1<br/>No maximum</td>
+    </tr>
+    <tr>
+      <td>Guests do not have to select any modifiers from this group but, if they do, they are limited to a specific number.</td>
+      <td>An Extra Sides modifier group where the guest does not have to pick a side dish but they can optionally add up to two side dishes.</td>
+      <td>Optional<br/>No minimum<br/>Maximum: 2</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Selecting a single modifier more than once
 

@@ -50,10 +50,14 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(2) Specify the location GUID of the restaurant whose online ordering schedule you want to retrieve.
-
+    <tr>
+      <td>[(1)](#co-d1e88264BB8911-6D33-427B-B2BF-261630CB0B01)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e88464BB8911-6D33-427B-B2BF-261630CB0B01)</td>
+      <td>Specify the location GUID of the restaurant whose online ordering schedule you want to retrieve.</td>
+    </tr>
   
 **Example 6.7. Response containing a restaurant's online ordering schedule**
 
@@ -175,16 +179,26 @@ The following example shows a restaurant location's online ordering schedule for
 
 
 
-(1) The diningOptionBehaviorthe online ordering schedule is returned for.
-
-(2) The local time in HH:MM format.
-
-(3) Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see Configuring overrides.
-
-(4) Indicates which diningOptionBehavior the override applies to.
-
-(5) The maximum number of days in the future a guest can schedule an online order. You should not place orders more than the scheduledOrderMaxDays. This value can be configured in the Online ordering section on the Takeout & delivery page in Toast Web.
-
+    <tr>
+      <td>[(1)](#co-d1e1163EA94E75-C09B-4686-82C8-0754D4415861)</td>
+      <td>The [diningOptionBehavior](apiDevGuide-apiOrderTypeDetails#apiOrdersDiningOptionTypes)the online ordering schedule is returned for.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1183EA94E75-C09B-4686-82C8-0754D4415861)</td>
+      <td>The local time in HH:MM format.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1203EA94E75-C09B-4686-82C8-0754D4415861)</td>
+      <td>Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see [Configuring overrides](adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1223EA94E75-C09B-4686-82C8-0754D4415861)</td>
+      <td>Indicates which `diningOptionBehavior` the override applies to.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e1243EA94E75-C09B-4686-82C8-0754D4415861)</td>
+      <td>The [maximum number of days in the future](apiDevGuide-orders_api_future_orders) a guest can schedule an online order. You should not place orders more than the `scheduledOrderMaxDays`. This value can be configured in the Online ordering section on the Takeout & delivery page in Toast Web.</td>
+    </tr>
   
 The values returned are organized by `diningOptionBehavior`.
 

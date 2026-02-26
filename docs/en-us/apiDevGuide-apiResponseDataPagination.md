@@ -201,24 +201,43 @@ Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel
 
 
 
-(1) The URL and query parameters that will return the first set of objects available from the API endpoint.
-
-(2) The URL and query parameters that will return the current set of objects from the API endpoint.
-
-(3) The URL and query parameters that will return the set of objects immediately preceding the current set from the API endpoint.
-
-(4) The URL and query parameters that will return the first set of objects immediately after the current set from the API endpoint.
-
-(5) The URL and query parameters that will return the last set of objects available from the API endpoint.
-
+    <tr>
+      <td>[(1)](#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td>The URL and query parameters that will return the first set of objects available from the API endpoint.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td>The URL and query parameters that will return the current set of objects from the API endpoint.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td>The URL and query parameters that will return the set of objects immediately preceding the current set from the API endpoint.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td>The URL and query parameters that will return the first set of objects immediately after the current set from the API endpoint.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td>The URL and query parameters that will return the last set of objects available from the API endpoint.</td>
+    </tr>
   
 ## Response pagination types used by Toast APIs
 
 The following table identifies the pagination functionality used by Toast API endpoints.
 
-| API and endpoint | Response pagination used | 
-| --- | --- |
-| Configuration API | All endpoints that return paginated response data use *page token pagination*. For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).
+
+<table>
+  <thead>
+    <tr>
+      <th>API and endpoint</th>
+      <th>Response pagination used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Configuration API</td>
+      <td>All endpoints that return paginated response data use *page token pagination*. For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).
 
 > **Note**
 > 
@@ -226,7 +245,16 @@ The following table identifies the pagination functionality used by Toast API en
 > As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.
 
 
- | 
-| Kitchen API | All endpoints that return paginated response data use *page token pagination* for response data.For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken). | 
-| Orders API `/ordersBulk`endpoint | The orders API `/ordersBulk` endpoint uses *fixed-size pagination*.For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize). | 
+</td>
+    </tr>
+    <tr>
+      <td>Kitchen API</td>
+      <td>All endpoints that return paginated response data use *page token pagination* for response data.<br/>For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).</td>
+    </tr>
+    <tr>
+      <td>Orders API `/ordersBulk`endpoint</td>
+      <td>The orders API `/ordersBulk` endpoint uses *fixed-size pagination*.<br/>For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize).</td>
+    </tr>
+  </tbody>
+</table>
 

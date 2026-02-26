@@ -63,14 +63,22 @@ endDate=2019-02-27T09%3A59%3A00.000-0500"
 
 
 
-(1) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(2) Specify the GUID of the restaurant that created the orders. This must be an individual restaurant, not the GUID for a restaurant group.
-
-(3) Send a GET request to the /orders endpoint of the orders API.
-
-(4) Specify a period of time up to one hour by including dates and times in the startDate and endDate query parameters.
-
+    <tr>
+      <td>[(1)](#co-d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Specify the GUID of the restaurant that created the orders. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Send a `GET` request to the `/orders` endpoint of the orders API.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>Specify a period of time up to one hour by including dates and times in the *`startDate`* and *`endDate`* query parameters.</td>
+    </tr>
   
 **Example 1.12. Request for orders created during one business day**
 
@@ -118,8 +126,10 @@ The following example shows the response data from the `/orders` endpoint using 
 
 
 
-(1) The /orders endpoint returns a JSON array of order GUIDs.
-
+    <tr>
+      <td>[(1)](#co-d1e11509EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
+      <td>The `/orders` endpoint returns a JSON array of order GUIDs.</td>
+    </tr>
   
 ## Authentication
 
@@ -427,14 +437,22 @@ The following example shows the JSON message body content for a `POST` request t
 
 
 
-(1) Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the guidvalue.
-
-(2) Include a first name, or given name, for the customer.
-
-(3) Include a last name, or family name, for the customer.
-
-(4) You must include either an email address (shown) or a telephone number for the customer.
-
+    <tr>
+      <td>[(1)](#co-d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745)</td>
+      <td>Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the `guid`value.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745)</td>
+      <td>Include a first name, or given name, for the customer.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1688E813524-E4E5-4A3C-A9B0-E4D395D37745)</td>
+      <td>Include a last name, or family name, for the customer.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1708E813524-E4E5-4A3C-A9B0-E4D395D37745)</td>
+      <td>You must include either an email address (shown) or a telephone number for the customer.</td>
+    </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/crm/v1/customers` endpoint.
 
@@ -475,14 +493,22 @@ The following example shows the JSON message body content for a `POST` request t
 
 
 
-(1) Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the guid value.
-
-(2) Include the ADD_VALUE value when you add customer credit value in a transaction.
-
-(3) Include the currency amount of the customer credit transaction in the amount value.
-
-(4) Include the date and time that you added customer credits in the localCreatedDate value.
-
+    <tr>
+      <td>[(1)](#co-d1e305E3AAA573-E85E-49CD-80EE-85E18B5086BE)</td>
+      <td>Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the `guid` value.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e307E3AAA573-E85E-49CD-80EE-85E18B5086BE)</td>
+      <td>Include the `ADD_VALUE` value when you add customer credit value in a transaction.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e309E3AAA573-E85E-49CD-80EE-85E18B5086BE)</td>
+      <td>Include the currency amount of the customer credit transaction in the `amount` value.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e311E3AAA573-E85E-49CD-80EE-85E18B5086BE)</td>
+      <td>Include the date and time that you added customer credits in the `localCreatedDate` value.</td>
+    </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/crm/v1/`/customers/*`{customerId}`*/creditTransactions endpoint.
 
@@ -647,32 +673,114 @@ This section describes information about each menu entity at your restaurant.
 
 The following table shows the information about each menu at your restaurant from from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| entityType | The type of the menu component described by this JSON object. The value for a menu object is `Menu`. | String | 
-| name | A descriptive identifier for the menu. For example, `Food` or `Drinks`. | String | 
-| guid | The unique identifier for the menu, assigned by the Toast POS. | String | 
-| description | A written description of the menu. | String | 
-| groups | A JSON array of [MenuGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenugroup) objects. | JSON array | 
-| idString | This field is for Toast internal use only. | String | 
-| orderableOnline | Indicates whether the menu is available for online ordering. Valid values are `true` and `false`. This field is a Boolean version of the orderableOnlineStatus field. | Boolean | 
-| orderableOnlineStatus | Indicates whether the menu is available for online ordering. Valid values are `YES` and `NO`. This field is a string version of the orderableOnline field. | String | 
-| visibility | Indicates where the menu is displayed and who can see it. Values are:- `ALL` - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY` - The menu is visible only on Toast POS devices (including kiosks).
-- `NONE` - The menu is hidden from everyone.
 
- | String | 
-| startTime | The time of day when a time-based menu becomes available. The value is in milliseconds (for example, `41400000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field. | Int | 
-| endTime | The time of day when a time-based menu stops being available. The value is in milliseconds (for example, `57600000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field. | Int | 
-| startTimeHHmm | The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTime field to a more readable format (the day starts at `00:00`). | String | 
-| endTimeHHmm | The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTime field to a more readable format (the day starts at `00:00`). | String | 
-| startTimeLocalStandardTime | The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `23400000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field. | Int | 
-| endTimeLocalStandardTime | The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `36900000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field. | Int | 
-| startTimeHHmmLocalStandardTime | The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at `00:00`). | String | 
-| endTimeHHmmLocalStandardTime | The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at `00:00`). | String | 
-| availableAllTimes | Indicates whether the menu is available at all times of the day. If the value is `false`, then the startTime* fields and the endTime* fields list when this time-based menu is available. | Boolean | 
-| availableAllDays | Indicates whether the menu is available each day of the week. | Boolean | 
-| daysAvailableString | A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.In this example, the menu is available on all days except for Sunday and Saturday:
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>entityType</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu object is `Menu`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>A descriptive identifier for the menu. For example, `Food` or `Drinks`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>guid</td>
+      <td>The unique identifier for the menu, assigned by the Toast POS.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>A written description of the menu.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>groups</td>
+      <td>A JSON array of [MenuGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenugroup) objects.</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>idString</td>
+      <td>This field is for Toast internal use only.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>orderableOnline</td>
+      <td>Indicates whether the menu is available for online ordering. Valid values are `true` and `false`. This field is a Boolean version of the orderableOnlineStatus field.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>orderableOnlineStatus</td>
+      <td>Indicates whether the menu is available for online ordering. Valid values are `YES` and `NO`. This field is a string version of the orderableOnline field.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>visibility</td>
+      <td>Indicates where the menu is displayed and who can see it. Values are:<ul><li>`ALL` - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu is hidden from everyone.</li></ul></td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>startTime</td>
+      <td>The time of day when a time-based menu becomes available. The value is in milliseconds (for example, `41400000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
+      <td>Int</td>
+    </tr>
+    <tr>
+      <td>endTime</td>
+      <td>The time of day when a time-based menu stops being available. The value is in milliseconds (for example, `57600000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field.</td>
+      <td>Int</td>
+    </tr>
+    <tr>
+      <td>startTimeHHmm</td>
+      <td>The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>endTimeHHmm</td>
+      <td>The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>startTimeLocalStandardTime</td>
+      <td>The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `23400000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
+      <td>Int</td>
+    </tr>
+    <tr>
+      <td>endTimeLocalStandardTime</td>
+      <td>The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `36900000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field.</td>
+      <td>Int</td>
+    </tr>
+    <tr>
+      <td>startTimeHHmmLocalStandardTime</td>
+      <td>The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>endTimeHHmmLocalStandardTime</td>
+      <td>The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>availableAllTimes</td>
+      <td>Indicates whether the menu is available at all times of the day. If the value is `false`, then the startTime* fields and the endTime* fields list when this time-based menu is available.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>availableAllDays</td>
+      <td>Indicates whether the menu is available each day of the week.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>daysAvailableString</td>
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`.<br/>In this example, the menu is available on all days except for Sunday and Saturday:
 ```
 "daysAvailableString": [
    "Mon",
@@ -683,70 +791,228 @@ The following table shows the information about each menu at your restaurant fro
 ]
 ```
 
- | JSON array | 
-| daysAvailableBits | This field is a numeric version of the daysAvailableString field and is for Toast internal use only. | Int | 
-| imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
+</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>daysAvailableBits</td>
+      <td>This field is a numeric version of the daysAvailableString field and is for Toast internal use only.</td>
+      <td>Int</td>
+    </tr>
+    <tr>
+      <td>imageLink</td>
+      <td>A URL to an image located on Amazon S3. For example:<br/>https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
+      <td>String</td>
+    </tr>
+  </tbody>
+</table>
 
 #### MenuGroup
 
 The following table shows the information about each menu group at your restaurant from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| entityType | The type of the menu component described by this JSON object. The value for a menu object is `MenuGroup`. | String | 
-| name | A descriptive identifier for the menu group. For example, `Appetizers` or `Entrees`. | String | 
-| guid | The unique identifier for the menu group, assigned by the Toast POS. | String | 
-| description | A written description of the menu group. | String | 
-| subgroups | An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`. | JSON array | 
-| items | An array of [MenuItem](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuitem) objects. | JSON array | 
-| idString | This field is for Toast internal use only. | String | 
-| imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
-| orderableOnline | Indicates whether the menu group is available for online ordering. | Boolean | 
-| visibility | Indicates where the menu group is displayed and who can see it. Values are:- `ALL` - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY` - The menu group is visible only on Toast POS devices (including kiosks).
-- `NONE` - The menu group is hidden from everyone.
 
- | String | 
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>entityType</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu object is `MenuGroup`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>A descriptive identifier for the menu group. For example, `Appetizers` or `Entrees`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>guid</td>
+      <td>The unique identifier for the menu group, assigned by the Toast POS.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>A written description of the menu group.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>subgroups</td>
+      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`.</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>items</td>
+      <td>An array of [MenuItem](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuitem) objects.</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>idString</td>
+      <td>This field is for Toast internal use only.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>imageLink</td>
+      <td>A URL to an image located on Amazon S3. For example:<br/>https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>orderableOnline</td>
+      <td>Indicates whether the menu group is available for online ordering.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>visibility</td>
+      <td>Indicates where the menu group is displayed and who can see it. Values are:<ul><li>`ALL` - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu group is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu group is hidden from everyone.</li></ul></td>
+      <td>String</td>
+    </tr>
+  </tbody>
+</table>
 
 #### MenuItem
 
 The following table shows the information about each menu item at your restaurant from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| entityType | The type of the menu component described by this JSON object. The value for a menu item object is `MenuItem`. | String | 
-| name | A descriptive identifier for the menu item. For example, `Caesar Salad` or `Lemonade`. | String | 
-| guid | The unique identifier for the menu item, assigned by the Toast POS. | String | 
-| description | A written description of the menu item. | String | 
-| sku | The stock keeping unit (SKU) identifier for the item. | String | 
-| plu | The price lookup (PLU) code for the item. | String | 
-| maxSelections | This value only applies to items in a [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup)object. | Integer | 
-| price | The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency. | Currency | 
-| prices | An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu. | JSON array | 
-| isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| optionGroups | An array of [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup) objects. | JSON array | 
-| idString | This field is for Toast internal use only. | String | 
-| itemGroupGuid | The unique identifier of the menu group to which this menu item belongs. | String | 
-| calories | The caloric value for this menu item. The value can be any positive or negative integer, or zero. | Integer | 
-| imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
-| orderableOnline | Indicates whether the menu item is available for online ordering. | Boolean | 
-| visibility | Indicates where the menu item is displayed and who can see it. Values are:- `ALL` - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY` - The menu item is visible only on Toast POS devices (including kiosks).
-- `NONE` - The menu item is hidden from everyone.
 
- | String | 
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>entityType</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu item object is `MenuItem`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>A descriptive identifier for the menu item. For example, `Caesar Salad` or `Lemonade`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>guid</td>
+      <td>The unique identifier for the menu item, assigned by the Toast POS.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>A written description of the menu item.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>sku</td>
+      <td>The stock keeping unit (SKU) identifier for the item.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>plu</td>
+      <td>The price lookup (PLU) code for the item.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>maxSelections</td>
+      <td>This value only applies to items in a [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup)object.</td>
+      <td>Integer</td>
+    </tr>
+    <tr>
+      <td>price</td>
+      <td>The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency.</td>
+      <td>Currency</td>
+    </tr>
+    <tr>
+      <td>prices</td>
+      <td>An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu.</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>isDefault</td>
+      <td>Whether or not the item is selected unless a customer chooses to decline it.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>optionGroups</td>
+      <td>An array of [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup) objects.</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>idString</td>
+      <td>This field is for Toast internal use only.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>itemGroupGuid</td>
+      <td>The unique identifier of the menu group to which this menu item belongs.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>calories</td>
+      <td>The caloric value for this menu item. The value can be any positive or negative integer, or zero.</td>
+      <td>Integer</td>
+    </tr>
+    <tr>
+      <td>imageLink</td>
+      <td>A URL to an image located on Amazon S3. For example:<br/>https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>orderableOnline</td>
+      <td>Indicates whether the menu item is available for online ordering.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>visibility</td>
+      <td>Indicates where the menu item is displayed and who can see it. Values are:<ul><li>`ALL` - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu item is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu item is hidden from everyone.</li></ul></td>
+      <td>String</td>
+    </tr>
+  </tbody>
+</table>
 
 #### MenuOptionGroup
 
 The following table shows the information about each menu option group, or modifier group, at your restaurant from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| entityType | The type of the menu component described by this JSON object. The value for a menu option group object is `MenuOptionGroup`. | String | 
-| name | A descriptive identifier for the menu option group. For example, `Substitutions` or `Extras`. | String | 
-| guid | The unique identifier for the menu option group, assigned by the Toast POS. | String | 
-| minSelections | The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is `1`. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness. | Integer | 
-| maxSelections | The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.As an example of a menu option group with a maximum greater than one, assume this configuration:
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>entityType</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu option group object is `MenuOptionGroup`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>A descriptive identifier for the menu option group. For example, `Substitutions` or `Extras`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>guid</td>
+      <td>The unique identifier for the menu option group, assigned by the Toast POS.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>minSelections</td>
+      <td>The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is `1`. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness.</td>
+      <td>Integer</td>
+    </tr>
+    <tr>
+      <td>maxSelections</td>
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`.<br/>As an example of a menu option group with a maximum greater than one, assume this configuration:
 ```
 Group: Cheese
 Items: ( Cheddar, American, Swiss )
@@ -754,48 +1020,69 @@ maxSelections: 2
 minSelections: 1
 ```
 
-This means:- You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).
-- You must select AT LEAST one cheese from this group to apply on the item (the `minSelections`value).
-
- | Integer or null | 
-| pricingMode | Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:- `ADJUSTS_PRICE` - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.
-- `FIXED_PRICE` - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.
-- `INCLUDED` - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).
-
- | String | 
-| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
-- `BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.
-- `SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.
-- `UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.
-
- | String | 
-| pricingStrategyRules | An [object](apiDevGuide-apiDeprecatedApiFunctions#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
-| defaultOptionsChargePrice | Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:- `NO` - The option price is ignored. No change is made to the cost of the menu item.
-- `YES` - The option price is added to the cost of the menu item.
-
- | String | 
-| defaultOptionsSubstitutionPricing | Indicates whether substitution pricing is enabled for the menu options group. Values are:- `NO` - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.
-- `YES` - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).
-
-There are two scenarios that can occur with substitution pricing:- If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.
-- If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).
-
- | String | 
-| items | An array of the objects that represent the options in the menu option group. | JSON array | 
-| idString | This field is for Toast internal use only. | String | 
-| visibility | Indicates where the menu option group is displayed and who can see it. Values are:- `ALL` - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.
-- `POS_ONLY` - The menu option group is visible only on Toast POS devices (including kiosks).
-- `NONE` - The menu option group is hidden from everyone.
-
- | String | 
+<br/>This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the `minSelections`value).</li></ul></td>
+      <td>Integer or null</td>
+    </tr>
+    <tr>
+      <td>pricingMode</td>
+      <td>Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:<ul><li>`ADJUSTS_PRICE` - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.</li><li>`FIXED_PRICE` - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.</li><li>`INCLUDED` - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).</li></ul></td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>pricingStrategy</td>
+      <td>Indicates the way prices are set for the options in this menu option group. Values are:<ul><li>`NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).</li><li>`BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li>`SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li>`UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>pricingStrategyRules</td>
+      <td>An [object](apiDevGuide-apiDeprecatedApiFunctions#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`.</td>
+      <td>JSON object</td>
+    </tr>
+    <tr>
+      <td>defaultOptionsChargePrice</td>
+      <td>Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:<ul><li>`NO` - The option price is ignored. No change is made to the cost of the menu item.</li><li>`YES` - The option price is added to the cost of the menu item.</li></ul></td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>defaultOptionsSubstitutionPricing</td>
+      <td>Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul><li>`NO` - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li>`YES` - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul><br/>There are two scenarios that can occur with substitution pricing:<ul><li>If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li>If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>items</td>
+      <td>An array of the objects that represent the options in the menu option group.</td>
+      <td>JSON array</td>
+    </tr>
+    <tr>
+      <td>idString</td>
+      <td>This field is for Toast internal use only.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>visibility</td>
+      <td>Indicates where the menu option group is displayed and who can see it. Values are:<ul><li>`ALL` - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu option group is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu option group is hidden from everyone.</li></ul></td>
+      <td>String</td>
+    </tr>
+  </tbody>
+</table>
 
 #### PricingStrategyRules
 
 The following table shows the information about the pricing strategy for the modifier groups at your restaurant from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| basePrice | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>basePrice</td>
+      <td>Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
 ```
 "optionGroups": [ 
 {
@@ -810,9 +1097,17 @@ The following table shows the information about the pricing strategy for the mod
 }
 ```
 
- | Number | 
-| numberOfLevels | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices)array. | Number | 
-| sequencePrices | Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:
+</td>
+      <td>Number</td>
+    </tr>
+    <tr>
+      <td>numberOfLevels</td>
+      <td>Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices)array.</td>
+      <td>Number</td>
+    </tr>
+    <tr>
+      <td>sequencePrices</td>
+      <td>Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:
 ```
 "optionGroups": [ 
 {
@@ -832,7 +1127,11 @@ The following table shows the information about the pricing strategy for the mod
 }
 ```
 
- | JSON array | 
+</td>
+      <td>JSON array</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Premodifiers and postmodifiers
 
@@ -849,31 +1148,85 @@ This section describes:
 
 The following table shows the information about the premodifier groups at your restaurant from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| name | A descriptive identifier for a `premodifierGroup` object. | String | 
-| guid | The unique identifier for the premodifier group, assigned by the Toast POS. | String | 
-| isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| premodifiers | An array of [premodifiers](apiDevGuide-apiDeprecatedApiFunctions#menuExportPremodifier) objects. | JSON array | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td>A descriptive identifier for a `premodifierGroup` object.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>guid</td>
+      <td>The unique identifier for the premodifier group, assigned by the Toast POS.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>isDefault</td>
+      <td>Whether or not the item is selected unless a customer chooses to decline it.</td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>premodifiers</td>
+      <td>An array of [premodifiers](apiDevGuide-apiDeprecatedApiFunctions#menuExportPremodifier) objects.</td>
+      <td>JSON array</td>
+    </tr>
+  </tbody>
+</table>
 
 #### premodifiers
 
 The following table shows the information about the premodifiers or postmodifiers at your restaurant from the menu data export.
 
-| Field | Description | Data Type | 
-| --- | --- | --- |
-| name | A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON SIDE`. | String | 
-| guid | The unique identifier for the premodifier or postmodifier, assigned by the Toast POS. | String | 
-| basePrice | If `scalePrice` is `false`, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price). | Currency | 
-| scalePrice | Determines how the price is scaled. Values are:- `true` - multiplies the price by the `scaleFactor` value.
-- `false` - does not multiply the price but instead adds the `basePrice` value to the item.
 
- | Boolean | 
-| scaleFactor | If `scalePrice` is `true`, the item price is multiplied by this factor. | Number | 
-| displayMode | Determines the modifier type. Values are:- `PREFIX` - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named `Bacon` and the premodifer is named `ADD`, the full display will be `ADD Bacon`.
-- `SUFFIX` - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named `Bacon` and the postmodifer is named `ON SIDE`, the full display will be `Bacon ON SIDE`.
-
- | String | 
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Data Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>name</td>
+      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON SIDE`.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>guid</td>
+      <td>The unique identifier for the premodifier or postmodifier, assigned by the Toast POS.</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>basePrice</td>
+      <td>If `scalePrice` is `false`, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price).</td>
+      <td>Currency</td>
+    </tr>
+    <tr>
+      <td>scalePrice</td>
+      <td>Determines how the price is scaled. Values are:<ul><li>`true` - multiplies the price by the `scaleFactor` value.</li><li>`false` - does not multiply the price but instead adds the `basePrice` value to the item.</li></ul></td>
+      <td>Boolean</td>
+    </tr>
+    <tr>
+      <td>scaleFactor</td>
+      <td>If `scalePrice` is `true`, the item price is multiplied by this factor.</td>
+      <td>Number</td>
+    </tr>
+    <tr>
+      <td>displayMode</td>
+      <td>Determines the modifier type. Values are:<ul><li>`PREFIX` - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named `Bacon` and the premodifer is named `ADD`, the full display will be `ADD Bacon`.</li><li>`SUFFIX` - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named `Bacon` and the postmodifer is named `ON SIDE`, the full display will be `Bacon ON SIDE`.</li></ul></td>
+      <td>String</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Finding the default modifiers for a menu item
 
@@ -938,16 +1291,26 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
 
 
-(1) The GUID of a menu item.
-
-(2) The optionGroups value contains information about the groups of items that you can apply as modifiers.
-
-(3) The GUID of one group of modifier menu items.
-
-(4) This item is not a default modifier for the menu item.
-
-(5) This item is a default modifier for the menu item.
-
+    <tr>
+      <td>[(1)](#co-d1e465A2FDFF6-1785-406C-970F-4C5331B7DDF8)</td>
+      <td>The GUID of a menu item.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e485A2FDFF6-1785-406C-970F-4C5331B7DDF8)</td>
+      <td>The `optionGroups` value contains information about the groups of items that you can apply as modifiers.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e505A2FDFF6-1785-406C-970F-4C5331B7DDF8)</td>
+      <td>The GUID of one group of modifier menu items.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e525A2FDFF6-1785-406C-970F-4C5331B7DDF8)</td>
+      <td>This item is not a default modifier for the menu item.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e545A2FDFF6-1785-406C-970F-4C5331B7DDF8)</td>
+      <td>This item is a default modifier for the menu item.</td>
+    </tr>
   
 The following example shell script uses a **jq**command to select the default modifiers for a menu item from the menu data export file for a restaurant. For more information about the **jq** utility, see the [jq web site](https://stedolan.github.io/jq/).
 
@@ -974,18 +1337,30 @@ ${MENU_EXPORT_FILE}
 
 
 
-(1) The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see Getting menu information from the menu data export (deprecated).
-
-(2) To find the default modifiers for a menu item, you locate the item in the menu and menu group that contain that contain it. This variable stores the GUID of the menu that contains the item.
-
-(3) This variable stores the GUID of the menu group that contains the item.
-
-(4) This variable stores the GUID of the menu item that this example script finds the default modifiers for.
-
-(5) This jq command filters the JSON contents of the menu data export file. For more information about the jq utility command syntax, see the jq web site.
-
-(6) These jq command filters select one menu item from its menu and menu group. It then selects each menu item in the optionGroup array for that menu item if the isDefault value for the optionGroup is true.
-
+    <tr>
+      <td>[(1)](#co-d1e31A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
+      <td>The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see [Getting menu information from the menu data export (deprecated)](apiDevGuide-apiDeprecatedApiFunctions#apiMenuInformationMenuDataExport).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e33A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
+      <td>To find the default modifiers for a menu item, you locate the item in the menu and menu group that contain that contain it. This variable stores the GUID of the menu that contains the item.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e35A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
+      <td>This variable stores the GUID of the menu group that contains the item.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e37A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
+      <td>This variable stores the GUID of the menu item that this example script finds the default modifiers for.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
+      <td>This **jq** command filters the JSON contents of the menu data export file. For more information about the **jq** utility command syntax, see the [jq web site](https://stedolan.github.io/jq/).</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
+      <td>These **jq** command filters select one menu item from its menu and menu group. It then selects each menu item in the `optionGroup` array for that menu item if the `isDefault` value for the `optionGroup` is `true`.</td>
+    </tr>
   
 The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](apiDevGuide-apiDeprecatedApiFunctions#apiUsingJqToFindDefaultModifiers).
 
@@ -1155,12 +1530,38 @@ As stated earlier, the menu visibility enhancements combine the original visibil
 
 These configuration options have a one-to-one relationship with an enum in the `visibility` array that the menus API returns for each menu entity. The table below describes the behavior of each option and defines the enum used to represent it in the `visibility`array:
 
-| Configuration option | Menus API Visibility Array Enum | Description | 
-| --- | --- | --- |
-| In-store orders: POS | `POS` | The menu entity is visible on a Toast POS device. | 
-| In-store orders: Kiosk | `KIOSK` | The menu entity is visible on a Toast Kiosk device. | 
-| Online orders: Toast | `TOAST_ONLINE_ORDERING` | The menu entity is visible on a restaurant's Toast online ordering site. | 
-| Online orders: Ordering partners | `ORDERING_PARTNERS` | The restaurant wants the menu entity to be visible on online ordering sites that integrate with the Toast POS system using the orders API. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Configuration option</th>
+      <th>Menus API Visibility Array Enum</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>In-store orders: POS</td>
+      <td>`POS`</td>
+      <td>The menu entity is visible on a Toast POS device.</td>
+    </tr>
+    <tr>
+      <td>In-store orders: Kiosk</td>
+      <td>`KIOSK`</td>
+      <td>The menu entity is visible on a Toast Kiosk device.</td>
+    </tr>
+    <tr>
+      <td>Online orders: Toast</td>
+      <td>`TOAST_ONLINE_ORDERING`</td>
+      <td>The menu entity is visible on a restaurant's Toast online ordering site.</td>
+    </tr>
+    <tr>
+      <td>Online orders: Ordering partners</td>
+      <td>`ORDERING_PARTNERS`</td>
+      <td>The restaurant wants the menu entity to be visible on online ordering sites that integrate with the Toast POS system using the orders API.</td>
+    </tr>
+  </tbody>
+</table>
 
 To sum up, the effect of these changes for online ordering partners are as follows:
 

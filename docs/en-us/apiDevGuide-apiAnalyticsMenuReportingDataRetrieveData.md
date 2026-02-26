@@ -30,12 +30,18 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 
 
-(1) Send a GET request to the /era/v1/menu endpoint of the analytics API.
-
-(2) Include the GUID for the menu reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e6065F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td>Send a `GET` request to the `/era/v1/menu` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e6067F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td>Include the GUID for the menu reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e6069F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ## Response to the retrieval request for menu reporting data
 
 The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.

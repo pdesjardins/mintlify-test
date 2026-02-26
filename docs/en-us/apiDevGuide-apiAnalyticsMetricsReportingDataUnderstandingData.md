@@ -21,28 +21,103 @@ The restaurants included in the aggregated sales reporting data can be limited b
 
 The following table specifies the returned set of values in the aggregated sales reporting data. The values are listed in the order that they appear.
 
-| Value name | Definition | 
-| --- | --- |
-| `restaurantGuid` | The unique identifier assigned to the restaurant by the Toast platform. | 
-| `businessDate` | The calendar date of the associated order data, in `YYYYMMDD` format. | 
-| `guestCount` | The total number of guests recorded across all orders. | 
-| `voidOrdersCount` | The total number of orders with at least one voided item. | 
-| `discountOrderCount` | The total number of orders that used a discount. | 
-| `ordersCount` | The total number of orders, excluding voided orders. | 
-| `openOrdersCount` | The total number of open orders. | 
-| `closedOrdersCount` | The total number of closed orders. | 
-| `netSalesAmount` | The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts. | 
-| `grossSalesAmount` | The total sales, including applied discounts and refunds. | 
-| `discountAmount` | The total amount of discounts for orders. | 
-| `voidOrdersAmount` | The total amount of voided orders. | 
-| `refundAmount` | The total amount of refunded sales. | 
-| `avgOrderValue` | The average amount for an order. | 
-| `revenueCenter` | The revenue center for the order data. This appears when the `POST` request message body includes `groupBy` with `REVENUE_CENTER`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy). | 
-| `diningOption` | The dining option for the order data. This appears when the `POST` request message body includes `groupBy` with `DINING_OPTION`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy). | 
-| `orderSource` | The method used to place an order, also known as the order source. This appears when the `POST` request message body includes `groupBy` with `ORDER_SOURCE`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy). | 
-| `businessHour` | The hour the data represents. This appears when the `aggregateBy` query parameter is set to `HOUR` in the `/era/v1/metrics/day`request. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy). | 
-| `hourlyJobTotalHours` | The total hours worked by employees with hourly jobs. This does not include breaks. | 
-| `hourlyJobTotalPay` | The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips. | 
-| `hourlyJobSalesPerLaborHour` | The average net sales per each hour worked by employees with hourly jobs.  | 
-| `restaurantName` | The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET`request. | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value name</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+    </tr>
+    <tr>
+      <td>`businessDate`</td>
+      <td>The calendar date of the associated order data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>`guestCount`</td>
+      <td>The total number of guests recorded across all orders.</td>
+    </tr>
+    <tr>
+      <td>`voidOrdersCount`</td>
+      <td>The total number of orders with at least one voided item.</td>
+    </tr>
+    <tr>
+      <td>`discountOrderCount`</td>
+      <td>The total number of orders that used a discount.</td>
+    </tr>
+    <tr>
+      <td>`ordersCount`</td>
+      <td>The total number of orders, excluding voided orders.</td>
+    </tr>
+    <tr>
+      <td>`openOrdersCount`</td>
+      <td>The total number of open orders.</td>
+    </tr>
+    <tr>
+      <td>`closedOrdersCount`</td>
+      <td>The total number of closed orders.</td>
+    </tr>
+    <tr>
+      <td>`netSalesAmount`</td>
+      <td>The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts.</td>
+    </tr>
+    <tr>
+      <td>`grossSalesAmount`</td>
+      <td>The total sales, including applied discounts and refunds.</td>
+    </tr>
+    <tr>
+      <td>`discountAmount`</td>
+      <td>The total amount of discounts for orders.</td>
+    </tr>
+    <tr>
+      <td>`voidOrdersAmount`</td>
+      <td>The total amount of voided orders.</td>
+    </tr>
+    <tr>
+      <td>`refundAmount`</td>
+      <td>The total amount of refunded sales.</td>
+    </tr>
+    <tr>
+      <td>`avgOrderValue`</td>
+      <td>The average amount for an order.</td>
+    </tr>
+    <tr>
+      <td>`revenueCenter`</td>
+      <td>The revenue center for the order data. This appears when the `POST` request message body includes `groupBy` with `REVENUE_CENTER`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).</td>
+    </tr>
+    <tr>
+      <td>`diningOption`</td>
+      <td>The dining option for the order data. This appears when the `POST` request message body includes `groupBy` with `DINING_OPTION`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).</td>
+    </tr>
+    <tr>
+      <td>`orderSource`</td>
+      <td>The method used to place an order, also known as the order source. This appears when the `POST` request message body includes `groupBy` with `ORDER_SOURCE`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).</td>
+    </tr>
+    <tr>
+      <td>`businessHour`</td>
+      <td>The hour the data represents. This appears when the `aggregateBy` query parameter is set to `HOUR` in the `/era/v1/metrics/day`request. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy).</td>
+    </tr>
+    <tr>
+      <td>`hourlyJobTotalHours`</td>
+      <td>The total hours worked by employees with hourly jobs. This does not include breaks.</td>
+    </tr>
+    <tr>
+      <td>`hourlyJobTotalPay`</td>
+      <td>The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips.</td>
+    </tr>
+    <tr>
+      <td>`hourlyJobSalesPerLaborHour`</td>
+      <td>The average net sales per each hour worked by employees with hourly jobs. </td>
+    </tr>
+    <tr>
+      <td>`restaurantName`</td>
+      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET`request.</td>
+    </tr>
+  </tbody>
+</table>
 

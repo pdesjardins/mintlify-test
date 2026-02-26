@@ -25,12 +25,33 @@ The Menu details section of a menu page displays the target, owner, number (also
 
 The following table provides descriptions for target, owner, number, and GUID:
 
-| Property | Description | 
-| --- | --- |
-| Target | Specifies which locations use the menu or menu item. For more information, see [Targets](adminGuide-targets). | 
-| Owner | Specifies who can edit the menu or menu item. For more information, see [Owners and permissions](adminGuide-ownersAndPermissions). | 
-| Number | Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers). | 
-| GUID | Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers). | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Target</td>
+      <td>Specifies which locations use the menu or menu item. For more information, see [Targets](adminGuide-targets).</td>
+    </tr>
+    <tr>
+      <td>Owner</td>
+      <td>Specifies who can edit the menu or menu item. For more information, see [Owners and permissions](adminGuide-ownersAndPermissions).</td>
+    </tr>
+    <tr>
+      <td>Number</td>
+      <td>Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).</td>
+    </tr>
+    <tr>
+      <td>GUID</td>
+      <td>Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Menu group versions (menu page only)
 

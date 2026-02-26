@@ -58,14 +58,22 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 
 
 
-(1) The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery.For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.
-
-(2) The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."
-
-(3) The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."
-
-(4) The quantity of the menu item selection. For example, to order three lemonades, a check includes a "lemonade" menu item selection with a quantity of three.
-
+    <tr>
+      <td>[(1)](#co-d1e193C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery.<br/>For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e195C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e197C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e199C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The quantity of the menu item selection. For example, to order three lemonades, a check includes a "lemonade" menu item selection with a quantity of three.</td>
+    </tr>
 ### Response data from the /prices endpoint
 
 The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiDevGuide-apiOrdersOrderObjectSummary#apiOrderObjectAmounts).
@@ -187,18 +195,30 @@ The following example shows the response data returned by the `/prices` endpoint
 
 
 
-(1) The price of the check after discounts, not including tax.
-
-(2) The price of the check after discounts, including tax.
-
-(3) The price of the menu item selection, before discounts.
-
-(4) The tax amount applied to the menu item selection.
-
-(5) The menu item selection, including discounts, quantity adjustments, and modifiers.
-
-(6) The tax amount applied to the menu item selection.
-
+    <tr>
+      <td>[(1)](#co-d1e217C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The price of the check after discounts, not including tax.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e219C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The price of the check after discounts, including tax.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e221C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The price of the menu item selection, before discounts.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e223C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The tax amount applied to the menu item selection.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e225C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The menu item selection, including discounts, quantity adjustments, and modifiers.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e228C93B886C-2601-45C3-B008-CB13B0107A92)</td>
+      <td>The tax amount applied to the menu item selection.</td>
+    </tr>
 ## Including open price menu items in an order
 
 You can create orders that include open price menu items. When you create the order, you specify the price of the menu item.
@@ -277,14 +297,22 @@ The following example shows a JSON `Order` object that contains a check with a s
 
 
 
-(1) The GUID of the menu group for the selected open price menu item.
-
-(2) The GUID of the selected open price menu item.
-
-(3) The quantity for the menu item selection.
-
-(4) A currency amount that sets the price for the open price menu item. The amount reflects the price before the quantity, taxes, discounts, and modifier adjustments are applied.
-
+    <tr>
+      <td>[(1)](#co-d1e18994C2B4C02-01BB-46CE-B543-1A815822BD0D)</td>
+      <td>The GUID of the menu group for the selected open price menu item.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e19014C2B4C02-01BB-46CE-B543-1A815822BD0D)</td>
+      <td>The GUID of the selected open price menu item.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e19034C2B4C02-01BB-46CE-B543-1A815822BD0D)</td>
+      <td>The quantity for the menu item selection.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e19054C2B4C02-01BB-46CE-B543-1A815822BD0D)</td>
+      <td>A currency amount that sets the price for the open price menu item. The amount reflects the price before the quantity, taxes, discounts, and modifier adjustments are applied.</td>
+    </tr>
 ### Open price values in orders API responses
 
 Only include the `openPriceAmount` when you add an open price menu item to an order. `openPriceAmount` is not returned in orders API responses.
@@ -385,8 +413,10 @@ The following example shows an `appliedServiceCharges`value that applies an open
 
 
 
- You include chargeAmount for OPENservice charges. Do not include chargeAmount for FIXED or PERCENT service charges.
-
+    <tr>
+      <td>[(1)](#apiServiceChargeAmount)</td>
+      <td>You include `chargeAmount` for `OPEN`service charges. Do not include `chargeAmount` for `FIXED` or `PERCENT` service charges.</td>
+    </tr>
 ### Identifying service charge types
 
 The `AppliedServiceCharge` object includes a `serviceChargeCategory` field that identifies the type of service charge. This value is response-only and helps you filter or categorize service charges in your reporting integrations.

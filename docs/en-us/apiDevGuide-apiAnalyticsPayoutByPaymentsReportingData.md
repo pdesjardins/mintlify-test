@@ -75,14 +75,22 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
 
 
 
-(1) Send a POST request to the /era/v1/payout/payments/day endpoint of the analytics API.
-
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(3) Set the data type of the message body to application/json.
-
-(4) Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this curl command example.
-
+    <tr>
+      <td>[(1)](#co-d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Send a `POST` request to the `/era/v1/payout/payments/day` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e7577E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e7579E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this **curl** command example.</td>
+    </tr>
 ### Message body for payout reporting data by payments
 
 The following example shows the message body for creating a payout reporting data by payments request.
@@ -99,14 +107,22 @@ The following example shows the message body for creating a payout reporting dat
 
 
 
-(1) The start date of the time range for the payout reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the payout reporting data, in YYYYMMDD format. This is the same value as the start date.
-
-(3) The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the restaurantIds value, so all other restaurants are excluded automatically.
-
+    <tr>
+      <td>[(1)](#co-d1e7623E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The start date of the time range for the payout reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e7625E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The end date of the time range for the payout reporting data, in `YYYYMMDD` format. This is the same value as the start date.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e7627E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e7629E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+    </tr>
 ### Response to request for payout reporting data by payments
 
 The following example shows the response from the `/era/v1/payout/payments/day` endpoint.
@@ -118,8 +134,10 @@ The following example shows the response from the `/era/v1/payout/payments/day` 
 
 
 
-(1) The GUID for the payout reporting data by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>The GUID for the payout reporting data by payments request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
 ## Retrieving the payout reporting data by payments
@@ -139,12 +157,18 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 
 
-(1) Send a GET request to the /era/v1/payout/payments endpoint of the analytics API.
-
-(2) Include the GUID for the payout reporting data organized by payments request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Send a `GET` request to the `/era/v1/payout/payments` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e7733E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include the GUID for the payout reporting data organized by payments request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e7735E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ### Response to retrieval request for payout reporting data by payments
 
 The following example shows the response from the `/era/v1/payout/payments/{reportRequestGuid}`endpoint.
@@ -217,26 +241,79 @@ The restaurants included in the payout reporting data organized by payments can 
 
 The following table specifies the returned set of values in the payout reporting data organized by payments. The values are listed in the order they appear in the response.
 
-| Value name | Definition | 
-| --- | --- |
-| `restaurantGuid` | The unique identifier assigned to the restaurant by the Toast platform. | 
-| `restaurantName` | The restaurant’s name. | 
-| `restaurantLocationName` | The restaurant’s location name. | 
-| `restaurantLocationCode` | The restaurant’s location code. | 
-| `orderGuid` | The identifier assigned by the Toast platform used to identify an order. This is the order associated with the payment. | 
-| `checkGuid` | The identifier assigned by the Toast platform used to identify a check. This is the check associated with the payment. | 
-| `paymentGuid` | The identifier assigned by the Toast platform used to identify the payment. | 
-| `settledDate` | The date when the payouts associated with the payment were either processed or settled. | 
-| `orderOpenDateTime` | The date and time when the order associated with the payment was opened. | 
-| `paidDateTime` | The date and time when the order associated with the payment was paid. | 
-| `paymentCardBrand` | The brand or card provider of the card used to complete the payment.  | 
-| `paymentCardType` | The payment type used by the card completing the payment. The type can be one of the following values:- `Credit`: A credit card was used to complete the payment.
-- `Debit`: A debit card was used to complete the payment.
-- `UNSPECIFIED CARD`: The card type is neither credit or debit, or cannot be identified.
 
- | 
-| `tipAmount` | The tip amount added to the payment. | 
-| `gratuityAmount` | The gratuity amount added to the payment. | 
-| `paymentSubtotal` | The total payment amount before tip and gratuity. | 
-| `paymentTotal` | The total payment amount, including tip, and gratuity. | 
+<table>
+  <thead>
+    <tr>
+      <th>Value name</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`restaurantGuid`</td>
+      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+    </tr>
+    <tr>
+      <td>`restaurantName`</td>
+      <td>The restaurant’s name.</td>
+    </tr>
+    <tr>
+      <td>`restaurantLocationName`</td>
+      <td>The restaurant’s location name.</td>
+    </tr>
+    <tr>
+      <td>`restaurantLocationCode`</td>
+      <td>The restaurant’s location code.</td>
+    </tr>
+    <tr>
+      <td>`orderGuid`</td>
+      <td>The identifier assigned by the Toast platform used to identify an order. This is the order associated with the payment.</td>
+    </tr>
+    <tr>
+      <td>`checkGuid`</td>
+      <td>The identifier assigned by the Toast platform used to identify a check. This is the check associated with the payment.</td>
+    </tr>
+    <tr>
+      <td>`paymentGuid`</td>
+      <td>The identifier assigned by the Toast platform used to identify the payment.</td>
+    </tr>
+    <tr>
+      <td>`settledDate`</td>
+      <td>The date when the payouts associated with the payment were either processed or settled.</td>
+    </tr>
+    <tr>
+      <td>`orderOpenDateTime`</td>
+      <td>The date and time when the order associated with the payment was opened.</td>
+    </tr>
+    <tr>
+      <td>`paidDateTime`</td>
+      <td>The date and time when the order associated with the payment was paid.</td>
+    </tr>
+    <tr>
+      <td>`paymentCardBrand`</td>
+      <td>The brand or card provider of the card used to complete the payment. </td>
+    </tr>
+    <tr>
+      <td>`paymentCardType`</td>
+      <td>The payment type used by the card completing the payment. The type can be one of the following values:<ul><li>`Credit`: A credit card was used to complete the payment.</li><li>`Debit`: A debit card was used to complete the payment.</li><li>`UNSPECIFIED CARD`: The card type is neither credit or debit, or cannot be identified.</li></ul></td>
+    </tr>
+    <tr>
+      <td>`tipAmount`</td>
+      <td>The tip amount added to the payment.</td>
+    </tr>
+    <tr>
+      <td>`gratuityAmount`</td>
+      <td>The gratuity amount added to the payment.</td>
+    </tr>
+    <tr>
+      <td>`paymentSubtotal`</td>
+      <td>The total payment amount before tip and gratuity.</td>
+    </tr>
+    <tr>
+      <td>`paymentTotal`</td>
+      <td>The total payment amount, including tip, and gratuity.</td>
+    </tr>
+  </tbody>
+</table>
 

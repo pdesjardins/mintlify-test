@@ -44,10 +44,31 @@ Use the following values returned by the menus API to ensure that you submit ord
 
 You should also be aware that the orders API and the menus API use slightly different names for the values that make up an order, as shown in the table below.
 
-| Value name in orders API | Value name in menus API | 
-| --- | --- |
-| itemGroup | menuGroups | 
-| item | menuItem | 
-| optionGroup | modifierGroup | 
-| item | modifierOption | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Value name in orders API</th>
+      <th>Value name in menus API</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>itemGroup</td>
+      <td>menuGroups</td>
+    </tr>
+    <tr>
+      <td>item</td>
+      <td>menuItem</td>
+    </tr>
+    <tr>
+      <td>optionGroup</td>
+      <td>modifierGroup</td>
+    </tr>
+    <tr>
+      <td>item</td>
+      <td>modifierOption</td>
+    </tr>
+  </tbody>
+</table>
 

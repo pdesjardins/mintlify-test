@@ -71,28 +71,50 @@ The following example shows an `Order` object that contains one check with a sin
 
 
 
-(1) The GUID of the dining option for the order.
-
-(2) The GUID of the menu group for the menu item selected for this check. For example, a menu might include a menu group named "appetizers" or "drinks."
-
-(3) The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."
-
-(4) The number of the menu items selected for this check. For example, a check might include a "lemonade" menu item selection and a quantity of three, for a party of three customers.
-
- You do not need to include payment information to create an order. This example includes payment information when it creates the order. The price information for the payment is available from the /prices endpoint of the orders API. For more information, see Getting check prices before you submit an order.
-
-(6) The date and time that the customer presented payment for the check.
-
-(7) One of the enumerated payment categories used by the Toast platform. The OTHER payment category includes payments processed outside of the Toast platform, for example by third-party services.
-
-(8) The currency value of the payment, excluding tips.
-
-(9) The GUID of the specific alternate payment type configured for the restaurant. For example, a restaurant might configure a specific third-party service as one alternate payment type in the OTHER payment category. Use alternative payment types if you process your payments outside of The Toast credit cards API.
-
-(10) The currency value of the gratuity included with the payment.
-
-(11) The currency value presented by the customer to provide the payment. Do not include the tip in the amountTenderedvalue.
-
+    <tr>
+      <td>[(1)](#co-d1e3609EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The GUID of the dining option for the order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3629EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The GUID of the menu group for the menu item selected for this check. For example, a menu might include a menu group named "appetizers" or "drinks."</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e3649EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e3669EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The number of the menu items selected for this check. For example, a check might include a "lemonade" menu item selection and a quantity of three, for a party of three customers.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#apiCreateOrderExampleOptionalPayment-co)</td>
+      <td>You do not need to include payment information to create an order. This example includes payment information when it creates the order. The price information for the payment is available from the `/prices` endpoint of the orders API. For more information, see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e3689EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that the customer presented payment for the check.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e3719EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>One of the enumerated payment categories used by the Toast platform. The `OTHER` payment category includes payments processed outside of the Toast platform, for example by third-party services.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e3739EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The currency value of the payment, excluding tips.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e3759EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The GUID of the specific alternate payment type configured for the restaurant. For example, a restaurant might configure a specific third-party service as one alternate payment type in the `OTHER` payment category. Use alternative payment types if you process your payments outside of The Toast credit cards API.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e3779EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The currency value of the gratuity included with the payment.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e3799EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The currency value presented by the customer to provide the payment. Do not include the tip in the `amountTendered`value.</td>
+    </tr>
   
 ## Example response from the orders API
 
@@ -241,26 +263,48 @@ The following example shows the response returned by the `/orders` endpoint of t
 
 
 
-(1) The unique identifier that the Toast platform assigns to the order.
-
-(2) The date and time that the order was created.
-
- The restaurant business date on which the order was fulfilled. The restaurant business date can be different than the calendar dates when the order is created, paid, and closed. For example, if a restaurant business day extends after midnight, an order that is created after midnight might have a businessDate value that is one day earlier than the calendar date when the order was created.
-
-(4) Information about payments made for this check.
-
-(5) The date and time that the check was added to the order.
-
-(6) The date and time that the customer made a payment for the check.
-
-(7) The date and time that the check was completely fulfilled and paid.
-
-(8) The date and time that information about the check was changed most recently.
-
-(9) The date and time that all checks in the order were completely paid.
-
-(10) The date and time that all checks in the order were completely fulfilled and paid.
-
-(11) The date and time that information about the order was changed most recently.
-
+    <tr>
+      <td>[(1)](#co-d1e3979EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3999EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that the order was created.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#apiExampleOrderCreateResponseBusinessDate-co)</td>
+      <td>The restaurant business date on which the order was fulfilled. The restaurant business date can be different than the calendar dates when the order is created, paid, and closed. For example, if a restaurant business day extends after midnight, an order that is created after midnight might have a `businessDate` value that is one day earlier than the calendar date when the order was created.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e4019EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>Information about payments made for this check.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e4039EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that the check was added to the order.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e4059EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that the customer made a payment for the check.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e4089EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that the check was completely fulfilled and paid.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e4109EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that information about the check was changed most recently.</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e4129EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that *all* checks in the order were completely paid.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e4149EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that *all* checks in the order were completely fulfilled and paid.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e4169EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
+      <td>The date and time that information about the order was changed most recently.</td>
+    </tr>
   

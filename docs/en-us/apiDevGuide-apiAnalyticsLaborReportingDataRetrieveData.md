@@ -32,12 +32,18 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
 
-(1) Send a GET request to the /era/v1/labor endpoint of the analytics API.
-
-(2) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Send a `GET` request to the `/era/v1/labor` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e4576134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e4578134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ## Response to the retrieval request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.

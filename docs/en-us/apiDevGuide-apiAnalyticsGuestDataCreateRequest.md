@@ -55,14 +55,22 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 
 
 
-(1) Send a POST request to the /era/v1/guest/payments/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
-
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(3) Set the data type of the message body to application/json.
-
-(4) Include details about the requested guest reporting data in the message body. The following example is the message body for this curl command example.
-
+    <tr>
+      <td>[(1)](#co-d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `week`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e9265AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>Include details about the requested guest reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+    </tr>
 ## Message body for guest reporting data
 
 The following example shows the message body for creating a guest reporting data request for a specific time range. This example is for the `week` time range.
@@ -83,14 +91,22 @@ The following example shows the message body for creating a guest reporting data
 
 
 
-(1) The list of restaurant GUIDs from the management group to include in the guest reporting data. Restaurant GUIDs not listed are excluded.
-
-(2) The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the restaurantIdsvalue, so all other restaurants are excluded automatically.
-
-(3) The start date of the time range for the guest reporting data, in YYYYMMDD format.
-
-(4) The end date of the time range for the guest reporting data, in YYYYMMDD format.
-
+    <tr>
+      <td>[(1)](#co-d1e9279AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the guest reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the `restaurantIds`value, so all other restaurants are excluded automatically.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>The start date of the time range for the guest reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e9285AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>The end date of the time range for the guest reporting data, in `YYYYMMDD` format.</td>
+    </tr>
 ## Response to request for guest reporting data
 
 The following example shows the response from the `/era/v1/guest/payments/{timeRange}` endpoint.
@@ -102,7 +118,9 @@ The following example shows the response from the `/era/v1/guest/payments/{timeR
 
 
 
-(1) The GUID for the guest reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e9298AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td>The GUID for the guest reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 For an example about how to retrieve the guest reporting data, see [Retrieving the guest reporting data](apiDevGuide-apiAnalyticsGuestDataRetrieveData).
 

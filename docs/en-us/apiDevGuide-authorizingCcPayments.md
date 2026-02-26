@@ -156,42 +156,85 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
 
 
 
-(1) Identifying credit card information, including the account number. You must encrypt this information and encode it in base64 format. For more information, see Encrypting credit card information.
+    <tr>
+      <td>[(1)](#co-d1e111F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
+      <td>Identifying credit card information, including the account number. You must encrypt this information and encode it in base64 format. For more information, see [Encrypting credit card information](apiDevGuide-authorizingCcPayments#apiEncryptingCreditCardInformation).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e113F291C744-5561-42C1-BD4E-F18BB8532ABC)</td>
+      <td>The encryption key identifier that you receive from from Toast integration support. The identifier string indicates the algorithm and the specific encryption key used to encrypt the credit card data for the request. For information about encryption algorithms and key identifiers, see [Encryption algorithms](apiDevGuide-authorizingCcPayments#apiCreditCardInformationEncryptionAlgorithms) and [Encryption keys and key identifiers](apiDevGuide-authorizingCcPayments#apiEncryptionKeysAndKeyIdentifiers).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e113F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
+      <td>The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e115F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
+      <td>The amount of the gratuity that the guest applied to the check.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#willSaveCard)</td>
+      <td>The `willSaveCard` value indicates whether organizations store restaurant guests' credit card information for future use. `true` indicates that your organization stores credit card information used in a credit card authorization. `false` indicates that your organization does not store the credit card information used in a credit card authorization.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#cardNumberOrigin)</td>
+      <td>The `cardNumberOrigin` value is used for "card on file" reporting. If your organization uses stored credit card information for a credit card authorization, you must set the value of `cardNumberOrigin` to `PARTNER_VAULT`. The default value for `cardNumberOrigin` is `END_USER`. For more information, see [Using card number origin values](apiDevGuide-authorizingCcPayments#apiCardNumberOriginForFraudDetection).</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e117F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
+      <td>The date and time when the guest presents their credit card, in [ISO 8601 format](apiDevGuide-api_dates_and_timestamps). The `localTransactionDate` must be set to the current date and time, and cannot be a future date.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e119F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
+      <td>The IP address of the device that the guest used to enter the credit card payment. For example, for an online order, this is the IP address of the computer that the guest used to submit the order.
 
-(2) The encryption key identifier that you receive from from Toast integration support. The identifier string indicates the algorithm and the specific encryption key used to encrypt the credit card data for the request. For information about encryption algorithms and key identifiers, see Encryption algorithms and Encryption keys and key identifiers.
+> **Important**
+> 
+> The origin IP address is essential for detecting and preventing fraud attempts in credit card authorization requests. To prevent disruption to your transaction workflow, ensure the correct origin IP address is used.
 
-(3) The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see Getting check prices before you submit an order.
 
-(4) The amount of the gratuity that the guest applied to the check.
-
- The willSaveCard value indicates whether organizations store restaurant guests' credit card information for future use. true indicates that your organization stores credit card information used in a credit card authorization. false indicates that your organization does not store the credit card information used in a credit card authorization.
-
- The cardNumberOrigin value is used for "card on file" reporting. If your organization uses stored credit card information for a credit card authorization, you must set the value of cardNumberOrigin to PARTNER_VAULT. The default value for cardNumberOrigin is END_USER. For more information, see Using card number origin values.
-
-(7) The date and time when the guest presents their credit card, in ISO 8601 format. The localTransactionDate must be set to the current date and time, and cannot be a future date.
-
-(8) The IP address of the device that the guest used to enter the credit card payment. For example, for an online order, this is the IP address of the computer that the guest used to submit the order.ImportantThe origin IP address is essential for detecting and preventing fraud attempts in credit card authorization requests. To prevent disruption to your transaction workflow, ensure the correct origin IP address is used.
-
-(9) An identifier for the server or process that operates as an API client to process the credit card authorization. For example, this might be the identifier of a client software process that appears in log information.
-
- The first six digits of the credit card number. The first six digits are the bank identification number (BIN) for the card. The value must match exactly the information provided in the encrypted card data. This value is required when cardNumberOriginis END_USER.
-
- The last four digits of the credit card number. The value must match exactly the information provided in the encrypted card data. This value is required when cardNumberOrigin is END_USER.
-
- The billing address associated with the credit card. When cardNumberOrigin is END_USER, billingAddress is required and must include at least a postalCode and country.
-
- A delivery address for the order.
-
- An identifier for the guest making the payment, such as an email address or phone number. This value is required when cardNumberOrigin is END_USER. For more information, see Using guestIdentifier values.
-
- The email address of the guest placing the payment. If you include an email address in the guestIdentifier value, the email address in the guestEmail value should match the guestIdentifier. This can help prevent fraudulent transactions. This field is optional.
-
- For payments taken through a web browser, the browser's user agent string.
-
- A company-specific name for the mobile app (if any) the payment is made through. For example, use 'MyCompany Android App' instead of 'Android App'.
-
- The version of the mobile app (if any) that the payment is made through. You can use any string to represent the app version. There are no format or content requirements.
-
+</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e122F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
+      <td>An identifier for the server or process that operates as an API client to process the credit card authorization. For example, this might be the identifier of a client software process that appears in log information.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#first6)</td>
+      <td>The first six digits of the credit card number. The first six digits are the bank identification number (BIN) for the card. The value must match exactly the information provided in the encrypted card data. This value is required when `cardNumberOrigin`is `END_USER`.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#last4)</td>
+      <td>The last four digits of the credit card number. The value must match exactly the information provided in the encrypted card data. This value is required when `cardNumberOrigin` is `END_USER`.</td>
+    </tr>
+    <tr>
+      <td>[(12)](#billingAddress)</td>
+      <td>The billing address associated with the credit card. When `cardNumberOrigin` is `END_USER`, `billingAddress` is required and must include at least a `postalCode` and `country`.</td>
+    </tr>
+    <tr>
+      <td>[(13)](#deliveryAddress)</td>
+      <td>A delivery address for the order.</td>
+    </tr>
+    <tr>
+      <td>[(14)](#guestID)</td>
+      <td>An identifier for the guest making the payment, such as an email address or phone number. This value is required when `cardNumberOrigin` is `END_USER`. For more information, see [Using guestIdentifier values](apiDevGuide-authorizingCcPayments#apiUsingGuestIdentifierValues).</td>
+    </tr>
+    <tr>
+      <td>[(15)](#guestEmail)</td>
+      <td>The email address of the guest placing the payment. If you include an email address in the `guestIdentifier` value, the email address in the `guestEmail` value should match the `guestIdentifier`. This can help prevent fraudulent transactions. This field is optional.</td>
+    </tr>
+    <tr>
+      <td>[(16)](#userAgent)</td>
+      <td>For payments taken through a web browser, the browser's user agent string.</td>
+    </tr>
+    <tr>
+      <td>[(17)](#appName)</td>
+      <td>A company-specific name for the mobile app (if any) the payment is made through. For example, use 'MyCompany Android App' instead of 'Android App'.</td>
+    </tr>
+    <tr>
+      <td>[(18)](#appVersion)</td>
+      <td>The version of the mobile app (if any) that the payment is made through. You can use any string to represent the app version. There are no format or content requirements.</td>
+    </tr>
   
 ## Optimizing fraud detection
 
@@ -262,22 +305,25 @@ To ensure that your guests' transactions receive adequate fraud protection, your
 
 The following table provides more information about the values you include in the `cardNumberOrigin` value in a `PaymentAuthorization` object in the message body parameter of a credit card authorization request.
 
-| Value | Explanation | 
-| --- | --- |
-| `END_USER` | The guest provided the credit card information directly.The `PaymentRequestMetadata`object in the `requestMetadata` value *must* include: - `cardFirst6`
-- `cardLast4`
-- `billingAddress`
-- `guestIdentifier`
-- `originIPAddr`
 
- | 
-| `PARTNER_VAULT` | Your integration retrieved the credit card information from secure storage.The `PaymentRequestMetadata` object in the `requestMetadata` value *must*include:- `cardFirst6`
-- `cardLast4`
-- `billingAddress`
-- `guestIdentifier`
-- `originIPAddr`
-
- | 
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`END_USER`</td>
+      <td>The guest provided the credit card information directly.<br/>The `PaymentRequestMetadata`object in the `requestMetadata` value *must* include: <ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
+    </tr>
+    <tr>
+      <td>`PARTNER_VAULT`</td>
+      <td>Your integration retrieved the credit card information from secure storage.<br/>The `PaymentRequestMetadata` object in the `requestMetadata` value *must*include:<ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -339,16 +385,26 @@ The following example shows the JSON message body data that applies an authorize
 
 
 
-(1) The payment UUID that you assign to the payment when you authorize it in the credit cards API. You supply this UUID in the paymentUuid path parameter for the PUT request to authorize the payment. For more information, see Authorizing a credit card payment.
-
-(2) The date and time when Toast processes the credit card payment, presented in ISO 8601 format. Credit card authorizations expire within seven days, therefore the paidDate cannot be more than seven days after the localTransactionDate. The paidDate is available in reporting data.
-
-(3) The type of payment. For credit card payments, this value is CREDIT.
-
-(4) The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see Getting check prices before you submit an order.
-
-(5) The amount of the gratuity that the guest applied to the check.
-
+    <tr>
+      <td>[(1)](#co-d1e195A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
+      <td>The payment UUID that you assign to the payment when you authorize it in the credit cards API. You supply this UUID in the *`paymentUuid`* path parameter for the `PUT` request to authorize the payment. For more information, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e197A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
+      <td>The date and time when Toast processes the credit card payment, presented in ISO 8601 format. Credit card authorizations expire within seven days, therefore the `paidDate` cannot be more than seven days after the `localTransactionDate`. The `paidDate` is available in reporting data.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e199A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
+      <td>The type of payment. For credit card payments, this value is `CREDIT`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e201A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
+      <td>The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e203A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
+      <td>The amount of the gratuity that the guest applied to the check.</td>
+    </tr>
   
 ## Encrypting credit card information
 
@@ -383,18 +439,30 @@ The following example shows credit card information that you encrypt and base64 
 
 
 
-(1) The primary account number (PAN) of the card, which the API validates using the ISO-standard Luhn algorithm.
-
-(2) The ZIP or postal code of the card holder's billing address. This value is required, must be numeric, and must not be an empty string. Do not include hyphens (-) in the string.
-
-(3) The three- or four-digit card verification value (CVV) of the card. When cardNumberOrigin is PARTNER_VAULT in the credit card authorization request, the CVV is not required, but it is validated for correctness if it is submitted. If you do not submit a CVV on a credit card authorization request, you can either omit the cvvvalue on your authorization, or submit a cvv value of null. The cvv value you submit should not be an empty string ("").
-
-(4) The two-digit month of the expiration date for the card.
-
-(5) The two-digit year of the expiration date for the card.
-
-(6) The country of the card holder's billing address, in ISO 3166-1 alpha-3 format.
-
+    <tr>
+      <td>[(1)](#co-d1e5385CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
+      <td>The primary account number (PAN) of the card, which the API validates using the ISO-standard Luhn algorithm.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e5585CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
+      <td>The ZIP or postal code of the card holder's billing address. This value is required, must be numeric, and must not be an empty string. Do not include hyphens (`-`) in the string.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e5785CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
+      <td>The three- or four-digit card verification value (CVV) of the card. When `cardNumberOrigin` is `PARTNER_VAULT` in the credit card authorization request, the CVV is not required, but it is validated for correctness if it is submitted. If you do not submit a CVV on a credit card authorization request, you can either omit the `cvv`value on your authorization, or submit a `cvv` value of `null`. The `cvv` value you submit should not be an empty string (`""`).</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e5985CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
+      <td>The two-digit month of the expiration date for the card.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e6185CE9715-52F9-43FB-AB1A-9F382E163FBA)</td>
+      <td>The two-digit year of the expiration date for the card.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-apiCcEncryptedInfoCountry)</td>
+      <td>The country of the card holder's billing address, in ISO 3166-1 alpha-3 format.</td>
+    </tr>
   
 The following example shows the base64-encoded and encrypted credit card information in the `encryptedCardData` value.
 
@@ -479,10 +547,25 @@ RSA-OAEP-SHA256::a253759c-1c91-4f22-9db9-71ba24738f8d_MyRestaurantService
 
 The following table includes the identification strings for the encryption algorithms that you can use in credit cards API authorization requests.
 
-| Algorithm | Identification string | 
-| --- | --- |
-| RSA-OAEP with SHA256 hashing | RSA-OAEP-SHA256 | 
-| RSA-OAEP with SHA1 hashing, deprecated | RSA-OAEP-SHA1 | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Algorithm</th>
+      <th>Identification string</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RSA-OAEP with SHA256 hashing</td>
+      <td>RSA-OAEP-SHA256</td>
+    </tr>
+    <tr>
+      <td>RSA-OAEP with SHA1 hashing, deprecated</td>
+      <td>RSA-OAEP-SHA1</td>
+    </tr>
+  </tbody>
+</table>
 
 For more information about making an authorization request, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).
 
@@ -511,18 +594,30 @@ openssl pkeyutl \
 
 
 
-(1) The pkeyutl command for the openssl utility can encrypt values. For more information, see the openssl utility documentation.
-
-(2) The -in argument provides the path to a file holding the JSON credit card information. See Example 3.9, “Example credit card information for an encryptedCardData value”.
-
-(3) The -inkey argument provides the path to a file holding the RSA public key that corresponds with your Toast API client identifier.
-
-(4) These arguments set openssl utility options to use the RSA-OAEP with SHA256 hashing encryption algorithm.
-
-(5) The base64 command for the openssl utility encodes binary data in base64 format.
-
-(6) This tr command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON encryptedCardDatavalue for a credit cards API authorization request.
-
+    <tr>
+      <td>[(1)](#co-d1e63595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
+      <td>The **pkeyutl** command for the **openssl** utility can encrypt values. For more information, see the **openssl** utility [documentation](https://www.openssl.org/docs/man1.1.1/man1/openssl-pkeyutl.html).</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
+      <td>The *`-in`* argument provides the path to a file holding the JSON credit card information. See [Example 3.9, “Example credit card information for an encryptedCardData value”](apiDevGuide-authorizingCcPayments#apiExampleJsonCreditCardInformation).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
+      <td>The *`-inkey`* argument provides the path to a file holding the RSA public key that corresponds with your Toast API client identifier.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e64895B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
+      <td>These arguments set openssl utility options to use the RSA-OAEP with SHA256 hashing encryption algorithm.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e65095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
+      <td>The **base64** command for the **openssl** utility encodes binary data in base64 format.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
+      <td>This **tr** command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON `encryptedCardData`value for a credit cards API authorization request.</td>
+    </tr>
   
 ### Encryption keys and key identifiers
 

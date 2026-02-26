@@ -55,12 +55,18 @@ https://`[toast-api-hostname]`/labor/v1/employees
 
 
 
-(1) Specify the GUID of the restaurant that you want to add an employee to. This must be an individual restaurant, not the GUID for a restaurant group.
-
-(2) Specify the data type of the message body in the Content-Type header field. The value must be application/json.
-
-(3) Include information about the new employee in the message body of the POST request. This example curl command sends message body data from the contents of a file.
-
+    <tr>
+      <td>[(1)](#co-d1e17121EC7EA2-706D-4B5B-B210-636982B89D94)</td>
+      <td>Specify the GUID of the restaurant that you want to add an employee to. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e17321EC7EA2-706D-4B5B-B210-636982B89D94)</td>
+      <td>Specify the data type of the message body in the Content-Type header field. The value must be `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e17521EC7EA2-706D-4B5B-B210-636982B89D94)</td>
+      <td>Include information about the new employee in the message body of the `POST` request. This example **curl** command sends message body data from the contents of a file.</td>
+    </tr>
   
 ## Example employee details for the request to add an employee
 
@@ -90,20 +96,34 @@ The following example shows the message body data that provides information abou
 
 
 
-(1) Specify the data type of the Toast platform input object. The value must be RestaurantUser.
-
-(2) Specify an email address for the employee. Email addresses for employees must be unique. If you specify an email address that is in use by an employee, the request fails with an HTTP 400 (bad request) response.
-
-(3) Specify the first name of the employee.
-
-(4) Specify the last name of the employee.
-
-(5) External identifier string that is prefixed by the naming authority. The externalId must be unique. If you specify an externalId that is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see External identifiers.
-
-(6) You can specify the initial Toast platform passcode number for the employee. This value is optional.
-
-(7) You can specify the job for the new employee. This value is optional. To assign a job, you need the Toast platform GUID or the external identifier for the job.
-
+    <tr>
+      <td>[(1)](#co-d1e900FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>Specify the data type of the Toast platform input object. The value must be `RestaurantUser`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e902FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>Specify an email address for the employee. Email addresses for employees must be unique. If you specify an email address that is in use by an employee, the request fails with an HTTP 400 (bad request) response.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e904FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>Specify the first name of the employee.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e906FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>Specify the last name of the employee.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e908FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>External identifier string that is prefixed by the naming authority. The `externalId` must be unique. If you specify an `externalId` that is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see [External identifiers](apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers).</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e911FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>You can specify the initial Toast platform passcode number for the employee. This value is optional.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e913FBC60BD6-1C8B-4652-A8F4-6C93856B0D67)</td>
+      <td>You can specify the job for the new employee. This value is optional. To assign a job, you need the Toast platform GUID or the external identifier for the job.</td>
+    </tr>
   
 ## Example response
 
@@ -141,10 +161,16 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 
 
-(1) The guid value contains the GUID value that the Toast platform assigns to the new employee.
-
-(2) If you assign a job to the new employee, the response will return the job. This is optional.
-
-(3) If you assign an initial pass code to the new employee, the employee is able to log in to the Toast platform. This is optional.
-
+    <tr>
+      <td>[(1)](#co-d1e21821EC7EA2-706D-4B5B-B210-636982B89D94)</td>
+      <td>The `guid` value contains the GUID value that the Toast platform assigns to the new employee.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-add-employee-job)</td>
+      <td>If you assign a job to the new employee, the response will return the job. This is optional.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e22021EC7EA2-706D-4B5B-B210-636982B89D94)</td>
+      <td>If you assign an initial pass code to the new employee, the employee is able to log in to the Toast platform. This is optional.</td>
+    </tr>
   

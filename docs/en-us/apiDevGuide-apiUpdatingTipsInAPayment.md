@@ -79,8 +79,10 @@ The following example shows a `Payment` object that updates the tip amount for a
 
 
 
-(1) The updated tip amount. The tip amount for the payment is completely replaced by the tipAmount value that you include in the message body of the PATCHrequest.
-
+    <tr>
+      <td>[(1)](#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td>The updated tip amount. The tip amount for the payment is completely replaced by the `tipAmount` value that you include in the message body of the `PATCH`request.</td>
+    </tr>
 ## Example response when you update a tip in an existing payment
 
 The following example shows a response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments/<em>{paymentGuid}</em>`endpoint of the orders API.
@@ -145,13 +147,23 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
 
 
 
-(1) The Toast platform GUID of the order that you updated a tip amount in.
-
-(2) The Toast platform GUID of the check that you updated a tip amount in.
-
-(3) The Toast platform GUID of the payment that you updated a tip amount in.
-
-(4) The updated tip amount. The tipAmount value that you provide in the PATCH request completely replaces the existing tip amount for the payment.
-
-(5) When you update a tip amount, the paymentStatusvalue must be AUTHORIZED.
-
+    <tr>
+      <td>[(1)](#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td>The Toast platform GUID of the order that you updated a tip amount in.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td>The Toast platform GUID of the check that you updated a tip amount in.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td>The Toast platform GUID of the payment that you updated a tip amount in.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td>The updated tip amount. The `tipAmount` value that you provide in the `PATCH` request completely replaces the existing tip amount for the payment.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-paymentStatus)</td>
+      <td>When you update a tip amount, the `paymentStatus`value must be `AUTHORIZED`.</td>
+    </tr>

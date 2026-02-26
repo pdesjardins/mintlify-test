@@ -634,7 +634,19 @@ Grid view for KDS devices does not support the text size feature available with 
 
 The following table provides information on device settings that ignore the current selection and instead use specific options.
 
-| Setting | Behavior | 
-| --- | --- |
-| Text Size | For grid view, the text size is associated with the ticket size. For more information, see [Procedure 10.30, “To configure the ticket size”](adminGuide-platformKDSOverview#platformGridKDSToConfigureSize). | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Behavior</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Text Size</td>
+      <td>For grid view, the text size is associated with the ticket size. For more information, see [Procedure 10.30, “To configure the ticket size”](adminGuide-platformKDSOverview#platformGridKDSToConfigureSize).</td>
+    </tr>
+  </tbody>
+</table>
 

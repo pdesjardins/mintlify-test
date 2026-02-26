@@ -69,64 +69,44 @@ Before beginning development, decide how you will report on the data retrieved. 
 
 The following table provides suggested information that you can use when displaying order data alongside video footage or in reports. 
 
-| Report type | Object | Values | 
-| --- | --- | --- |
-| Order data | Orders | Consider displaying the following reporting information for orders:- Dining option name
-- Dining option behavior
-- Server name
-- Created and modified device
-- Order source
-- Opened date
-- Modified date
-- Paid date
-- Closed date
-- Voided status
 
- | 
-| Checks | Consider displaying the following reporting information for checks:- Display number
-- Tab name
-- Total amount
-- Tax amount
-- Refunded amount
-- Applied discount names
-- Applied discount amounts
-- Applied service charge names
-- Applied service charge amounts
-
- | 
-| Menu item selections | Consider displaying the following reporting information for menu item selections:- Menu item name - Use the `displayName`value within the `Selection` object
-- Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item
-- Price
-- Applied tax rate names
-- Applied tax values
-- Applied discount names
-- Applied discount amounts
-
- | 
-| Payments | Consider displaying the following reporting information for payments:- Amount
-- Tip amount
-- Refund information
-- Type
-
- | 
-| Cash transactions | Cash entries | Consider displaying the following reporting information for cash entries:- Cash entry type
-- Cash entry date
-- Amount
-- Reason
-- Cash drawer name
-- Payout reason name
-- No sale reason name
-- Employee 1 name
-- Employee 2 name
-- Reversed cash transaction
-
- | 
-| Deposits | Consider displaying the following reporting information for cash deposits:- Cash entry date
-- Amount
-- Employee name
-- Reversed cash transaction
-
- | 
+<table>
+  <thead>
+    <tr>
+      <th>Report type</th>
+      <th>Object</th>
+      <th>Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Order data</td>
+      <td>Orders</td>
+      <td>Consider displaying the following reporting information for orders:<ul><li>Dining option name</li><li>Dining option behavior</li><li>Server name</li><li>Created and modified device</li><li>Order source</li><li>Opened date</li><li>Modified date</li><li>Paid date</li><li>Closed date</li><li>Voided status</li></ul></td>
+    </tr>
+    <tr>
+      <td>Checks</td>
+      <td>Consider displaying the following reporting information for checks:<ul><li>Display number</li><li>Tab name</li><li>Total amount</li><li>Tax amount</li><li>Refunded amount</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Applied service charge names</li><li>Applied service charge amounts</li></ul></td>
+    </tr>
+    <tr>
+      <td>Menu item selections</td>
+      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the `displayName`value within the `Selection` object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li></ul></td>
+    </tr>
+    <tr>
+      <td>Payments</td>
+      <td>Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Tip amount</li><li>Refund information</li><li>Type</li></ul></td>
+    </tr>
+    <tr>
+      <td>Cash transactions</td>
+      <td>Cash entries</td>
+      <td>Consider displaying the following reporting information for cash entries:<ul><li>Cash entry type</li><li>Cash entry date</li><li>Amount</li><li>Reason</li><li>Cash drawer name</li><li>Payout reason name</li><li>No sale reason name</li><li>Employee 1 name</li><li>Employee 2 name</li><li>Reversed cash transaction</li></ul></td>
+    </tr>
+    <tr>
+      <td>Deposits</td>
+      <td>Consider displaying the following reporting information for cash deposits:<ul><li>Cash entry date</li><li>Amount</li><li>Employee name</li><li>Reversed cash transaction</li></ul></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Retrieve restaurant configuration information
 
@@ -180,29 +160,33 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 
 
-| Information type | Configuration | 
-| --- | --- |
-| Order configuration | These pieces of configuration are often associated with orders. They describe how the order was placed and how its price was calculated.- Alternate payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)
-- Dining options from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/)
-- Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)
-- Service charges from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)
-- Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/)
-- Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)
 
- | 
-| Menu information | The menus API returns menu item names and other menu-related information you may want to display in your platform.- Menu information, such as menu group names, menu item names, and item tags from the menus API. [More information](https://doc.toasttab.com/doc/devguide/apiGettingMenuInformationFromTheMenusAPI.html)
-
- | 
-| Cash configuration | Cash configuration allows you to display metadata about the cash transactions at a restaurant. For more information about working with cash entries, see [Cash management overview](apiDevGuide-apiWorkingWithCashEntriesAndDeposits). - Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)
-- No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/)
-- Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/)
-- Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)
-
- | 
-| Labor configuration | This labor information allows you to acquire information about restaurant employees and the jobs they do. - Employees from the labor API. [More information](https://doc.toasttab.com/doc/devguide/api_get_all_employees.html)
-- Jobs from the labor API. [More information](https://doc.toasttab.com/doc/devguide/https://doc.toasttab.com/openapi/labor/operation/jobsGet/)
-
- | 
+<table>
+  <thead>
+    <tr>
+      <th>Information type</th>
+      <th>Configuration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Order configuration</td>
+      <td>These pieces of configuration are often associated with orders. They describe how the order was placed and how its price was calculated.<ul><li>Alternate payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/)</li><li>Dining options from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/)</li><li>Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/)</li><li>Service charges from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)</li><li>Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/)</li><li>Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)</li></ul></td>
+    </tr>
+    <tr>
+      <td>Menu information</td>
+      <td>The menus API returns menu item names and other menu-related information you may want to display in your platform.<ul><li>Menu information, such as menu group names, menu item names, and item tags from the menus API. [More information](https://doc.toasttab.com/doc/devguide/apiGettingMenuInformationFromTheMenusAPI.html)</li></ul></td>
+    </tr>
+    <tr>
+      <td>Cash configuration</td>
+      <td>Cash configuration allows you to display metadata about the cash transactions at a restaurant. For more information about working with cash entries, see [Cash management overview](apiDevGuide-apiWorkingWithCashEntriesAndDeposits). <ul><li>Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/)</li><li>No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/)</li><li>Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/)</li><li>Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)</li></ul></td>
+    </tr>
+    <tr>
+      <td>Labor configuration</td>
+      <td>This labor information allows you to acquire information about restaurant employees and the jobs they do. <ul><li>Employees from the labor API. [More information](https://doc.toasttab.com/doc/devguide/api_get_all_employees.html)</li><li>Jobs from the labor API. [More information](https://doc.toasttab.com/doc/devguide/https://doc.toasttab.com/openapi/labor/operation/jobsGet/)</li></ul></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Set up recurring order retrieval of transactional information
 

@@ -154,118 +154,315 @@ The sections included in your shift review report reflect your selections in the
 
 The following table lists the shift review report row, a description of the row, and any permissions or settings required to display the row.
 
-| Shift review report row | Description | Required permissions and settings | 
-| --- | --- | --- |
-| Employee Account heading | 
-| Cash in hand (collected cash sales)  | Total amount of cash payments taken by an employee that is kept separately in their own cash bank.  | Apply Cash Paymentspermission. | 
-| Cash in drawer | Total amount of cash payments taken by an employee and placed into a cash drawer.  | Shift Review Sales Datapermission. **In the Toast POS app **- Setup &gt; Device Setup &gt; Open Cash Drawer &gt; Yes
-- Setup &gt; Device Setup &gt; Receipt Printer 
 
- | 
-| Driver bank  | Starting cash balance for drivers to use during their shift.  | **In Toast Web **- Takeout & delivery &gt; Availability &gt; Takeout / delivery &gt; Driver cash management &gt; Assign driver bank &gt; Yes, assign driver bank for reporting
-
- | 
-| Total gratuity and fees  | Total gratuity and fees to be paid out to the employee.  | **In Toast Web **- Employees &gt; Shift review &gt; Payout options 
-
- | 
-| Non-cash tips (%)  | Total amount of non-cash tips to be paid out to the employee.  | **In Toast Web **- Employees &gt; Shift review &gt; Payout options 
-
- | 
-| Tips withheld (%)  | Total amount of tips withheld by the restaurant to cover the cost of credit card processing fees.  | **In Toast Web **- Employees &gt; Shift review &gt; Payout options 
-- Employees &gt; Payroll management &gt; Tip withholding &gt; Enable house tip withholding
-
- | 
-| Driver reimbursement  | Total amount a driver is reimbursed for wear and tear of their personal vehicle used for delivery.  | Requires a Driver job. **In Toast Web **- Takeout & delivery &gt; Availability &gt; Takeout / delivery &gt; Driver reimbursement &gt; Reimburse drivers &gt; Yes, reimburse drivers for each delivery order completed
-
- | 
-| Employee owes restaurant or restaurant owes Employee | Total amount that the employee owes the restaurant or is owed by the restaurant to the employee.  |  | 
-| Tips & Fees Earned heading | 
-| Cash tips (declared)(%)  | Total cash tips. | Requires a Tipped job. **In Toast Web **- Employees &gt; Shift review &gt; Shift review setup &gt; Declare cash tips 
-
- | 
-| Total tips & fees | Total tips and fees are calculated as: Non-cash tips (ex: credit card payment tips) +Non-cash gratuity and cash automatic gratuity (ex: service charges) +Total driver reimbursements+Declared cash tips (ex: cash tips declared during shift review) -House tip share (ex: tip withholding reclaims a portion of employee credit card tips to cover processing fees) |   | 
-| My Guest Report heading | 
-| Total guests served  | Total guests served.  |  | 
-| Average spend per guest  | Average spend per guest.  |  | 
-| Credit Tip Audit heading | 
-| Credit tip audit  | Displays total credit card tips amount. Fields include: - Check number
-- Last four digits of the credit card
-- Subtotal
-- Tip (if applicable)
-- Order total
-
- |  | 
-| Tip Sharing heading | 
-| Sales category (%)  | Total tip amount per sales category.  | **In Toast Web **- Employees &gt; Shift review &gt; Shift review report &gt; Tip sharing
-
- | 
-| Total  | Total tip sharing amount.  |   | 
-| Delivery heading | 
-| Fees to the driver  | Delivery driver fees.  | **In Toast Web **- A service charge must be configured.
-- Payments &gt; Checks & receipt setup &gt; Service charges 
-
- | 
-| Fees  | Applicable driver fee per check. Includes check number and gross sales.  |  | 
-| Reimbursement  | Applicable driver reimbursement per check. Includes check number and gross sales.  |  | 
-| Sales & Tax Summary heading | 
-| Sales category  | Total number of items and net sales per sales category.  | **In Toast Web **- A sales category must be configured.
-- Menus &gt; Settings &gt; Sales categories
-
- | 
-| Non-grat svc charges  | Total non-gratuity collected by the restaurant and added to the restaurant’s net sales amount. | **In Toast Web **- A service charge must be configured.
-- Payments &gt; Checks & receipt setup &gt; Service charges 
-
- | 
-| Deferred amount  | Total amount that is excluded from the restaurant’s net sales. | **In Toast Web **- Menus &gt; Bulk management &gt; Advanced properties &gt; Select your item &gt; Reporting &gt; Defer Revenue &gt; Yes
-
- | 
-| Total net sales  | Total paid by guests for menu item selections and services charges. |  | 
-| Tax  | Applicable tax amount.  |  | 
-| Gross sales  | Total amount of (non-gratuity) services and items sold before deductions are taken. |  | 
-| Total amount  | Total amount of Gross sales + Total gratuity and fees + Non-cash tips.  |  | 
-| Paid in total  | Total amount of payments for future orders completed within the date range. |  | 
-| Cash/Credit Per Sales Category heading | 
-| Cash sales by sales category | Total number of items and cash sales per sales category.  |  | 
-| Non-cash sales by sales category | Total number items and non-cash sales per sales category.  |  | 
-| Revenue Centers heading | 
-| Revenue center  | Total amount of revenue center sales. The total amount does not include taxes.  | **In Toast Web **- A revenue center must be configured.
-- Front of house &gt; Tables & sections &gt; Revenue centers 
-
- | 
-| Total Voids heading | 
-| Void amount  | Total void amount.  |  | 
-| Void order count  | Total number of voided orders. |  | 
-| Void item count  | Total number of voided items.  |  | 
-| Void percent  | Percentage of total orders voided.  |  | 
-| Total Removals heading | 
-| Removal amount  | Total amount removed from checks.  | **In Toast Web **- Employees &gt; Shift review &gt; Shift review report &gt; Total removals 
-
- | 
-| Removed item count  | Total number of items removed from checks. | **In Toast Web **- Employees &gt; Shift review &gt; Shift review report &gt; Total removals 
-
- | 
-| Total Discounts heading | 
-| Discount name  | Total number of discounts applied and discount amount.  | **In Toast Web **- A discount must be configured.
-- Payments &gt; Comps and promos &gt; Discounts and promo codes 
-
- | 
-| Total Payments heading | 
-| Amount (number of checks)  | Total number of checks and credit and cash payments.  |  | 
-| Tips (%)  | Total percentage and amount of credit and cash tips.  |  | 
-| Gratuity  | Total amount of credit and cash gratuities.  |  | 
-| Total  | Total amount of payments, tips, and gratuities.  |  | 
-| Deposit sales collected  | Total amount of payments for future orders completed within the date range. |  | 
-| Credit Card Breakdown heading: A section is created for each credit card type used during shift review | 
-| Credit card name  | Amount paid with that credit card type.  |  | 
-| Other Breakdown heading: A section is created for each alternate payment type used during shift review | 
-| Alternate payment name  | Amount paid with that alternate payment type.  |  | 
-| Pay Outs heading | 
-| Name of pay out  | Total cash amount removed from a cash drawer per pay out. |  | 
-| Total pay outs | Total pay out amount.  |  | 
-| Employee Account heading | 
-| Total guests served  | Total number of guests served during your shift.  |  | 
-| Average spend per guest | Total average spend per guest per check.  |  | 
-| Employee Signature heading | 
-| Employee x  | Employee signature line.  |  | 
-| Cash received by | Employee receiving cash deposits signature line.  |  | 
+<table>
+  <thead>
+    <tr>
+      <th>Shift review report row</th>
+      <th>Description</th>
+      <th>Required permissions and settings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Employee Account heading</td>
+    </tr>
+    <tr>
+      <td>Cash in hand (collected cash sales) </td>
+      <td>Total amount of cash payments taken by an employee that is kept separately in their own cash bank. </td>
+      <td>Apply Cash Paymentspermission.</td>
+    </tr>
+    <tr>
+      <td>Cash in drawer</td>
+      <td>Total amount of cash payments taken by an employee and placed into a cash drawer. </td>
+      <td>Shift Review Sales Datapermission. <br/>**In the Toast POS app **<ul><li>Setup &gt; Device Setup &gt; Open Cash Drawer &gt; Yes</li><li>Setup &gt; Device Setup &gt; Receipt Printer </li></ul></td>
+    </tr>
+    <tr>
+      <td>Driver bank </td>
+      <td>Starting cash balance for drivers to use during their shift. </td>
+      <td>**In Toast Web **<ul><li>Takeout & delivery &gt; Availability &gt; Takeout / delivery &gt; Driver cash management &gt; Assign driver bank &gt; Yes, assign driver bank for reporting</li></ul></td>
+    </tr>
+    <tr>
+      <td>Total gratuity and fees </td>
+      <td>Total gratuity and fees to be paid out to the employee. </td>
+      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Payout options </li></ul></td>
+    </tr>
+    <tr>
+      <td>Non-cash tips (%) </td>
+      <td>Total amount of non-cash tips to be paid out to the employee. </td>
+      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Payout options </li></ul></td>
+    </tr>
+    <tr>
+      <td>Tips withheld (%) </td>
+      <td>Total amount of tips withheld by the restaurant to cover the cost of credit card processing fees. </td>
+      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Payout options </li><li>Employees &gt; Payroll management &gt; Tip withholding &gt; Enable house tip withholding</li></ul></td>
+    </tr>
+    <tr>
+      <td>Driver reimbursement </td>
+      <td>Total amount a driver is reimbursed for wear and tear of their personal vehicle used for delivery. </td>
+      <td>Requires a Driver job. <br/>**In Toast Web **<ul><li>Takeout & delivery &gt; Availability &gt; Takeout / delivery &gt; Driver reimbursement &gt; Reimburse drivers &gt; Yes, reimburse drivers for each delivery order completed</li></ul></td>
+    </tr>
+    <tr>
+      <td>Employee owes restaurant or restaurant owes Employee</td>
+      <td>Total amount that the employee owes the restaurant or is owed by the restaurant to the employee. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tips & Fees Earned heading</td>
+    </tr>
+    <tr>
+      <td>Cash tips (declared)(%) </td>
+      <td>Total cash tips.</td>
+      <td>Requires a Tipped job. <br/>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review setup &gt; Declare cash tips </li></ul></td>
+    </tr>
+    <tr>
+      <td>Total tips & fees</td>
+      <td>Total tips and fees are calculated as: <br/>Non-cash tips (ex: credit card payment tips) +<br/>Non-cash gratuity and cash automatic gratuity (ex: service charges) +<br/>Total driver reimbursements+<br/>Declared cash tips (ex: cash tips declared during shift review) -<br/>House tip share (ex: tip withholding reclaims a portion of employee credit card tips to cover processing fees)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>My Guest Report heading</td>
+    </tr>
+    <tr>
+      <td>Total guests served </td>
+      <td>Total guests served. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Average spend per guest </td>
+      <td>Average spend per guest. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Credit Tip Audit heading</td>
+    </tr>
+    <tr>
+      <td>Credit tip audit </td>
+      <td>Displays total credit card tips amount. Fields include: <ul><li>Check number</li><li>Last four digits of the credit card</li><li>Subtotal</li><li>Tip (if applicable)</li><li>Order total</li></ul></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tip Sharing heading</td>
+    </tr>
+    <tr>
+      <td>Sales category (%) </td>
+      <td>Total tip amount per sales category. </td>
+      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review report &gt; Tip sharing</li></ul></td>
+    </tr>
+    <tr>
+      <td>Total </td>
+      <td>Total tip sharing amount. </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Delivery heading</td>
+    </tr>
+    <tr>
+      <td>Fees to the driver </td>
+      <td>Delivery driver fees. </td>
+      <td>**In Toast Web **<ul><li>A service charge must be configured.</li><li>Payments &gt; Checks & receipt setup &gt; Service charges </li></ul></td>
+    </tr>
+    <tr>
+      <td>Fees </td>
+      <td>Applicable driver fee per check. Includes check number and gross sales. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Reimbursement </td>
+      <td>Applicable driver reimbursement per check. Includes check number and gross sales. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sales & Tax Summary heading</td>
+    </tr>
+    <tr>
+      <td>Sales category </td>
+      <td>Total number of items and net sales per sales category. </td>
+      <td>**In Toast Web **<ul><li>A sales category must be configured.</li><li>Menus &gt; Settings &gt; Sales categories</li></ul></td>
+    </tr>
+    <tr>
+      <td>Non-grat svc charges </td>
+      <td>Total non-gratuity collected by the restaurant and added to the restaurant’s net sales amount.</td>
+      <td>**In Toast Web **<ul><li>A service charge must be configured.</li><li>Payments &gt; Checks & receipt setup &gt; Service charges </li></ul></td>
+    </tr>
+    <tr>
+      <td>Deferred amount </td>
+      <td>Total amount that is excluded from the restaurant’s net sales.</td>
+      <td>**In Toast Web **<ul><li>Menus &gt; Bulk management &gt; Advanced properties &gt; Select your item &gt; Reporting &gt; Defer Revenue &gt; Yes</li></ul></td>
+    </tr>
+    <tr>
+      <td>Total net sales </td>
+      <td>Total paid by guests for menu item selections and services charges.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tax </td>
+      <td>Applicable tax amount. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gross sales </td>
+      <td>Total amount of (non-gratuity) services and items sold before deductions are taken.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Total amount </td>
+      <td>Total amount of Gross sales + Total gratuity and fees + Non-cash tips. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Paid in total </td>
+      <td>Total amount of payments for future orders completed within the date range.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cash/Credit Per Sales Category heading</td>
+    </tr>
+    <tr>
+      <td>Cash sales by sales category</td>
+      <td>Total number of items and cash sales per sales category. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Non-cash sales by sales category</td>
+      <td>Total number items and non-cash sales per sales category. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Revenue Centers heading</td>
+    </tr>
+    <tr>
+      <td>Revenue center </td>
+      <td>Total amount of revenue center sales. The total amount does not include taxes. </td>
+      <td>**In Toast Web **<ul><li>A revenue center must be configured.</li><li>Front of house &gt; Tables & sections &gt; Revenue centers </li></ul></td>
+    </tr>
+    <tr>
+      <td>Total Voids heading</td>
+    </tr>
+    <tr>
+      <td>Void amount </td>
+      <td>Total void amount. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Void order count </td>
+      <td>Total number of voided orders.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Void item count </td>
+      <td>Total number of voided items. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Void percent </td>
+      <td>Percentage of total orders voided. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Total Removals heading</td>
+    </tr>
+    <tr>
+      <td>Removal amount </td>
+      <td>Total amount removed from checks. </td>
+      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review report &gt; Total removals </li></ul></td>
+    </tr>
+    <tr>
+      <td>Removed item count </td>
+      <td>Total number of items removed from checks.</td>
+      <td>**In Toast Web **<ul><li>Employees &gt; Shift review &gt; Shift review report &gt; Total removals </li></ul></td>
+    </tr>
+    <tr>
+      <td>Total Discounts heading</td>
+    </tr>
+    <tr>
+      <td>Discount name </td>
+      <td>Total number of discounts applied and discount amount. </td>
+      <td>**In Toast Web **<ul><li>A discount must be configured.</li><li>Payments &gt; Comps and promos &gt; Discounts and promo codes </li></ul></td>
+    </tr>
+    <tr>
+      <td>Total Payments heading</td>
+    </tr>
+    <tr>
+      <td>Amount (number of checks) </td>
+      <td>Total number of checks and credit and cash payments. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tips (%) </td>
+      <td>Total percentage and amount of credit and cash tips. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Gratuity </td>
+      <td>Total amount of credit and cash gratuities. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Total </td>
+      <td>Total amount of payments, tips, and gratuities. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Deposit sales collected </td>
+      <td>Total amount of payments for future orders completed within the date range.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Credit Card Breakdown heading: A section is created for each credit card type used during shift review</td>
+    </tr>
+    <tr>
+      <td>Credit card name </td>
+      <td>Amount paid with that credit card type. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Other Breakdown heading: A section is created for each alternate payment type used during shift review</td>
+    </tr>
+    <tr>
+      <td>Alternate payment name </td>
+      <td>Amount paid with that alternate payment type. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pay Outs heading</td>
+    </tr>
+    <tr>
+      <td>Name of pay out </td>
+      <td>Total cash amount removed from a cash drawer per pay out.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Total pay outs</td>
+      <td>Total pay out amount. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Employee Account heading</td>
+    </tr>
+    <tr>
+      <td>Total guests served </td>
+      <td>Total number of guests served during your shift. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Average spend per guest</td>
+      <td>Total average spend per guest per check. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Employee Signature heading</td>
+    </tr>
+    <tr>
+      <td>Employee x </td>
+      <td>Employee signature line. </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cash received by</td>
+      <td>Employee receiving cash deposits signature line. </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 

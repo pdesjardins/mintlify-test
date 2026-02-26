@@ -171,12 +171,38 @@ Each order entry in the Scheduled tab displays the following information:
 
 The scheduled firing time displayed is dynamic, meaning it changes as the order gets closer to the firing time. For example, the text description on an order entry will change from “Firing 4/6, 2:00 PM” to “Firing in 52 minutes”.
 
-| Scheduled firing time | Text color | Example text description | 
-| --- | --- | --- |
-| Scheduled to fire in more than one hour  | Gray | Firing 4/6, 4:38 PM  | 
-| Scheduled to fire in one hour or less  | Green  | Firing in 58 min  | 
-| Scheduled to fire in less than one minute  | Green | Firing any second  | 
-| Scheduled fire time has passed  | Red | Firing in - 4 minutes  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Scheduled firing time</th>
+      <th>Text color</th>
+      <th>Example text description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Scheduled to fire in more than one hour </td>
+      <td>Gray</td>
+      <td>Firing 4/6, 4:38 PM </td>
+    </tr>
+    <tr>
+      <td>Scheduled to fire in one hour or less </td>
+      <td>Green </td>
+      <td>Firing in 58 min </td>
+    </tr>
+    <tr>
+      <td>Scheduled to fire in less than one minute </td>
+      <td>Green</td>
+      <td>Firing any second </td>
+    </tr>
+    <tr>
+      <td>Scheduled fire time has passed </td>
+      <td>Red</td>
+      <td>Firing in - 4 minutes </td>
+    </tr>
+  </tbody>
+</table>
 
 
 - Dining option. For example, Delivery or Pickup.

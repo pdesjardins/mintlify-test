@@ -205,18 +205,30 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The table value provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.
-
-(2) The server value provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.
-
-(3) To create an order at a table, the behavior of the selected dining option must be DINE_IN.
-
- You can specify the revenue center associated with the order. Specifying a revenue center is optional.
-
-(5) You must include a checks value with at least one Check object. The check does not need to include any menu item selections. You can optionally include a customervalue with information about the restaurant guest.
-
- In a Customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
-
+    <tr>
+      <td>[(1)](#co-d1e1112EA92E6F1-6650-4630-A55E-D199990EEAD8)</td>
+      <td>The `table` value provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-exampleServerValueInTableOrder)</td>
+      <td>The `server` value provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1114EA92E6F1-6650-4630-A55E-D199990EEAD8)</td>
+      <td>To create an order at a table, the behavior of the selected dining option must be `DINE_IN`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#RevenueCenterCO)</td>
+      <td>You can specify the revenue center associated with the order. Specifying a revenue center is optional.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8)</td>
+      <td>You must include a `checks` value with at least one `Check` object. The check does not need to include any menu item selections. You can optionally include a `customer`value with information about the restaurant guest.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#dineInEmail)</td>
+      <td>In a `Customer` object, the `email` value is the unique identifier for a guest. `email` must be unique for each individual guest.</td>
+    </tr>
 ## Creating a takeout order
 
 A takeout order uses a dining option where `behavior` is `TAKE_OUT`.
@@ -273,14 +285,22 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The GUID of the dining option for the order. The dining option must have a behavior of TAKE_OUT.
-
-(2) The selections object contains the menu item selections for the order.
-
-(3) The customer object contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The firstName, lastName, phone, and email fields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.
-
- In a customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
-
+    <tr>
+      <td>[(1)](#co-d1e10237C48B789-81C4-4370-AA2B-3D1717E80367)</td>
+      <td>The GUID of the dining option for the order. The dining option must have a `behavior` of `TAKE_OUT`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e10257C48B789-81C4-4370-AA2B-3D1717E80367)</td>
+      <td>The `selections` object contains the menu item selections for the order.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e10277C48B789-81C4-4370-AA2B-3D1717E80367)</td>
+      <td>The `customer` object contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The `firstName`, `lastName`, `phone`, and `email` fields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#toEmailUnique)</td>
+      <td>In a `customer` object, the `email` value is the unique identifier for a guest. `email` must be unique for each individual guest.</td>
+    </tr>
 ### Example response to a takeout order POST request
 
 The following example shows the response from the `/orders` endpoint for a takeout order.
@@ -417,16 +437,26 @@ The following example shows the response from the `/orders` endpoint for a takeo
 
 
 
-(1) The unique identifier that the Toast platform assigns to the order.
-
-(2) The payment information is empty because the order request was made without a payments value. This means that the guest did not make any payments for this check.
-
-(3) The total amount (including tax) of this check.
-
-(4) The date and time are null because the guest did not make a payment for the check.
-
-(5) Information about the guest who will pick up the order.
-
+    <tr>
+      <td>[(1)](#co-d1e106115FD65F4-5F6E-4E67-B244-1E63F8455F38)</td>
+      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e106315FD65F4-5F6E-4E67-B244-1E63F8455F38)</td>
+      <td>The payment information is empty because the order request was made without a `payments` value. This means that the guest did not make any payments for this check.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e106515FD65F4-5F6E-4E67-B244-1E63F8455F38)</td>
+      <td>The total amount (including tax) of this check.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e106715FD65F4-5F6E-4E67-B244-1E63F8455F38)</td>
+      <td>The date and time are null because the guest did not make a payment for the check.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e107215FD65F4-5F6E-4E67-B244-1E63F8455F38)</td>
+      <td>Information about the guest who will pick up the order.</td>
+    </tr>
 ## Creating a curbside pickup order
 
 A curbside pickup order is a variation of a takeout order. Instead of the guest entering the restaurant to pick up the order, a restaurant employee brings the order out to the guest's vehicle.
@@ -510,16 +540,26 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The GUID of the dining option for the order. For a curbside pickup dining option, behavior is TAKE_OUTand curbside is true.
-
-(2) The curbsidePickupInfo object contains information about the guest's mode of transportation. The restaurant uses the information in the transportDescription, transportColor, and notes fields to identify the guest when they arrive to pick up the order. transportDescription is required for curbside pickup orders.
-
-(3) The selections object contains menu item selections for the order.
-
-(4) The customer object contains information about the guest who will pick up the order. customer is mandatory for curbside pickup orders. firstName, lastName, phone, and email are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.
-
-(5) In a customer object, the email value is the unique identifier for a guest. email must be unique for each individual guest.
-
+    <tr>
+      <td>[(1)](#co-d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
+      <td>The GUID of the dining option for the order. For a curbside pickup dining option, `behavior` is `TAKE_OUT`and `curbside` is `true`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
+      <td>The `curbsidePickupInfo` object contains information about the guest's mode of transportation. The restaurant uses the information in the `transportDescription`, `transportColor`, and `notes` fields to identify the guest when they arrive to pick up the order. `transportDescription` is required for curbside pickup orders.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e13050678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
+      <td>The `selections` object contains menu item selections for the order.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e13250678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
+      <td>The `customer` object contains information about the guest who will pick up the order. `customer` is mandatory for curbside pickup orders. `firstName`, `lastName`, `phone`, and `email` are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e13450678CC9-5BB1-4B52-94B4-AD4E0A359130)</td>
+      <td>In a `customer` object, the `email` value is the unique identifier for a guest. `email` must be unique for each individual guest.</td>
+    </tr>
 ### Example response to a curbside pickup order POST request
 
 The following example shows the response from the `/orders` endpoint to a curbside pickup order request.
@@ -613,18 +653,30 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
 
 
-(1) The unique identifier that the Toast platform assigns to the order.
-
-(2) Information about the mode of transportation that the guest will use when they arrive to pick up their order.
-
-(3) The payment information is empty because the order request was made without a payments value. This means that the guest did not make any payments for this check.
-
-(4) The date and time are null because the guest did not make a payment for the check.
-
-(5) The total amount (including tax) of this check.
-
-(6) Information about the guest who will pick up the order.
-
+    <tr>
+      <td>[(1)](#co-d1e2266E27FB7C-6DE5-4877-99EB-55403F2FA4EF)</td>
+      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e2286E27FB7C-6DE5-4877-99EB-55403F2FA4EF)</td>
+      <td>Information about the mode of transportation that the guest will use when they arrive to pick up their order.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e2306E27FB7C-6DE5-4877-99EB-55403F2FA4EF)</td>
+      <td>The payment information is empty because the order request was made without a `payments` value. This means that the guest did not make any payments for this check.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e2326E27FB7C-6DE5-4877-99EB-55403F2FA4EF)</td>
+      <td>The date and time are null because the guest did not make a payment for the check.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e2346E27FB7C-6DE5-4877-99EB-55403F2FA4EF)</td>
+      <td>The total amount (including tax) of this check.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e2376E27FB7C-6DE5-4877-99EB-55403F2FA4EF)</td>
+      <td>Information about the guest who will pick up the order.</td>
+    </tr>
 ## Creating a delivery order
 
 A delivery order uses a dining option where behavior is `DELIVERY`.
@@ -697,14 +749,22 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-(1) The GUID of the dining option for the order. For a delivery dining option, behavior must be DELIVERY.
-
-(2) The deliveryInfo object contains information about the address to deliver the order to. This information is required for delivery orders. The address1, city, state, and zipCode fields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".
-
-(3) The customer object contains information about the guest who will receive the order. The customer object is required for delivery orders. The firstName, lastName, phone, and emailvalues are required. The data must be formatted correctly.
-
- In a customer object, the email value is the unique identifier for the guest. The email value must be unique for each individual guest.
-
+    <tr>
+      <td>[(1)](#co-d1e11712BEEE554-052B-4000-8FFB-C21234C82F0B)</td>
+      <td>The GUID of the dining option for the order. For a delivery dining option, `behavior` must be `DELIVERY`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e11732BEEE554-052B-4000-8FFB-C21234C82F0B)</td>
+      <td>The `deliveryInfo` object contains information about the address to deliver the order to. This information is required for delivery orders. The `address1`, `city`, `state`, and `zipCode` fields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B)</td>
+      <td>The `customer` object contains information about the guest who will receive the order. The `customer` object is required for delivery orders. The `firstName`, `lastName`, `phone`, and `email`values are required. The data must be formatted correctly.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#delivEmailUnique)</td>
+      <td>In a `customer` object, the `email` value is the unique identifier for the guest. The `email` value must be unique for each individual guest.</td>
+    </tr>
 ### Example response to a delivery order POST request
 
 When you use the orders API to create a delivery order, the response includes information about the order preparation and delivery.
@@ -855,23 +915,43 @@ The following example shows the message body for an endpoint response to a deliv
 
 
 
-(1) The unique identifier that the Toast platform assigns to the order.
-
-(2) Information about the address to which the order will be delivered.
-
-(3) The date and time that the delivery employee indicated that the order was delivered. The value is null because the order is not yet delivered.
-
-(4) The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is null because the order is not yet available for delivery.
-
-(5) The Toast GUID or external identifier of the delivery employee. The value is null because a delivery employee is not yet assigned to this order.
-
-(6) The date and time that the order was created.
-
-(7) A status indicating where the selection currently is in the preparation workflow. A status of NEW means that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.
-
-(8) Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see Service charges for checks.
-
-(9) Information about the guest to whom the order will be delivered.
-
-(10) The date and time that the order is expected to be ready to be delivered.
-
+    <tr>
+      <td>[(1)](#co-d1e1232192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1234192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>Information about the address to which the order will be delivered.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1236192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>The date and time that the delivery employee indicated that the order was delivered. The value is `null` because the order is not yet delivered.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1238192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is `null` because the order is not yet available for delivery.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e1240192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>The Toast GUID or external identifier of the delivery employee. The value is `null` because a delivery employee is not yet assigned to this order.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e1243192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>The date and time that the order was created.</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e1245192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>A status indicating where the selection currently is in the preparation workflow. A status of `NEW` means that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e1247192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see [Service charges for checks](apiDevGuide-apiOrderPrices#apiServiceCharges).</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e1249192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>Information about the guest to whom the order will be delivered.</td>
+    </tr>
+    <tr>
+      <td>[(10)](#co-d1e1251192143FD-70F4-4988-8B22-E8F1BCABE104)</td>
+      <td>The date and time that the order is expected to be ready to be delivered.</td>
+    </tr>

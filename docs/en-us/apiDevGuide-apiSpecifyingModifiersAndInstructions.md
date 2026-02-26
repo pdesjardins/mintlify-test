@@ -122,18 +122,30 @@ The following example message body for an order shows a modifier and a pre-modif
 
 
 
-(1) The GUID of the menu group for this menu item selection. For example, this menu group might contain salads.
-
-(2) The GUID of the menu item for this menu item selection. For example, this menu item might be a garden salad.
-
-(3) The GUID of the modifier group for this item selection. For example, this modifier group might contain salad dressings.
-
-(4) The GUID of the modifier for this item selection. For example, this modifier might be the balsamic vinaigrette dressing.
-
-(5) To specify a pre-modifier for a modifier, add the preModifier value to the modifier.
-
-(6) The GUID of the pre-modifier for this modifier. For example, the pre-modifier might be NO or EXTRA.
-
+    <tr>
+      <td>[(1)](#co-d1e7033FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7)</td>
+      <td>The GUID of the menu group for this menu item selection. For example, this menu group might contain salads.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e7053FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7)</td>
+      <td>The GUID of the menu item for this menu item selection. For example, this menu item might be a garden salad.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e7073FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7)</td>
+      <td>The GUID of the modifier group for this item selection. For example, this modifier group might contain salad dressings.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e7093FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7)</td>
+      <td>The GUID of the modifier for this item selection. For example, this modifier might be the balsamic vinaigrette dressing.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e7113FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7)</td>
+      <td>To specify a pre-modifier for a modifier, add the `preModifier` value to the modifier.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e7143FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7)</td>
+      <td>The GUID of the pre-modifier for this modifier. For example, the pre-modifier might be `NO` or `EXTRA`.</td>
+    </tr>
 ### Requirements for modifier quantities
 
 The orders API requires that the quantity of a modifier is equal to the quantity of the menu item selection.
@@ -199,14 +211,22 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
 
 
 
- GUID of the menu item. For example, the menu item Key Lime Pie.
-
- Quantity of the menu item. For example, five Key Lime Pies.
-
- Modifier, specified in the modifiers array. For example, Whipped Cream.
-
- Quantity of the modifier. For example, five Whipped Creams (one whipped cream per pie).
-
+    <tr>
+      <td>[(1)](#nested_modifier_example2-1-co)</td>
+      <td>GUID of the menu item. For example, the menu item Key Lime Pie.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#nested_modifier_example2-2-co)</td>
+      <td>Quantity of the menu item. For example, five Key Lime Pies.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#nested_modifier_example2-3-co)</td>
+      <td>Modifier, specified in the `modifiers` array. For example, Whipped Cream.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#nested_modifier_example2-4-co)</td>
+      <td>Quantity of the modifier. For example, five Whipped Creams (one whipped cream per pie).</td>
+    </tr>
 ### Using nested modifier groups sourced from menu groups
 
 You must include specific identifiers when a modifier meets the following conditions: 
@@ -310,14 +330,22 @@ The example below shows the correct modifier structure for an orders API POST re
 
 
 
-(1) The GUID for the specific modifier group that controls the rules, choices, and pricing for the modifier being selected.
-
-(2) The GUID for the menu group that contains the modifier item being selected. This identifies the group of options for example, Sauces, or Sides, that the modifier item belongs to.
-
-(3) The GUID for the specific menu item selection that is chosen as the parent-level modifier. This identifies the modifier choice itself for example, Add Extra Cheese.
-
-(4) The GUID for the specific menu item selection chosen as a nested modifier. This is used when a modifier item itself has additional, secondary options applied to it for example, specifying well done for a side steak's temperature modifier.
-
+    <tr>
+      <td>[(1)](#co-nested-mod-optionGroup-guid)</td>
+      <td>The GUID for the specific modifier group that controls the rules, choices, and pricing for the modifier being selected.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-nested-mod-itemgroup-guid)</td>
+      <td>The GUID for the menu group that contains the modifier item being selected. This identifies the group of options for example, Sauces, or Sides, that the modifier item belongs to.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-nested-mod-parent-item)</td>
+      <td>The GUID for the specific menu item selection that is chosen as the parent-level modifier. This identifies the modifier choice itself for example, Add Extra Cheese.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-nested-mod-child-item)</td>
+      <td>The GUID for the specific menu item selection chosen as a nested modifier. This is used when a modifier item itself has additional, secondary options applied to it for example, specifying well done for a side steak's temperature modifier.</td>
+    </tr>
 ### Adding the same modifier multiple times to a menu item selection
 
 You can add the same modifier to a menu item selection multiple times, as long as each instance of the modifier has the same quantity as the menu item selection. This tells the restaurant to add the modifier to the item more than once. For example, if a guest wants double the cheese on a pizza, you can add the cheese modifier twice.
@@ -387,16 +415,26 @@ The following JSON body example adds whipped cream twice to a slice of cherry pi
 
 
 
- GUID of the menu item. For example, Cherry Pie.
-
- Quantity of the menu item. For example, one Cherry Pie.
-
- First modifier, specified in the modifiers array. For example, the first Whipped Cream.
-
- Quantity of the modifier. For example, one Whipped Cream.
-
- Another modifier with a quantity of one, specified in the modifiers array. For example, the second Whipped Cream.
-
+    <tr>
+      <td>[(1)](#modifier_quantity_example1-1-co)</td>
+      <td>GUID of the menu item. For example, Cherry Pie.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#modifier_quantity_example1-2-co)</td>
+      <td>Quantity of the menu item. For example, one Cherry Pie.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#modifier_quantity_example1-3-co)</td>
+      <td>First modifier, specified in the `modifiers` array. For example, the first Whipped Cream.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#modifier_quantity_example1-4-co)</td>
+      <td>Quantity of the modifier. For example, one Whipped Cream.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#modifier_quantity_example1-5-co)</td>
+      <td>Another modifier with a quantity of one, specified in the `modifiers` array. For example, the second Whipped Cream.</td>
+    </tr>
 ### Including default modifiers
 
 A menu item can be configured with default modifiers. For example, a turkey sandwich menu item by default has lettuce and tomato modifiers.
@@ -495,28 +533,50 @@ The following example order JSON applies modifiers to portions of a menu item se
 
 
 
-(1) The GUID of the menu group for this item selection. For example, this menu group might be "pizzas."
-
-(2) The GUID of the menu item for this item selection. For example, this menu item might be "cheese pizza."
-
-(3) Apply portions to the menu item selection in the modifiers value for that item.
-
-(4) The GUID of one of the portions configured for this menu item. For example, this portion might be "half1."
-
- Include a selectionType value and include the value PORTION.
-
-(6) Apply modifiers to a portion in the modifiers value for that portion.
-
-(8) The GUID of the modifier group for this item selection. For example, this modifier group might be "pizza toppings."
-
-(7) The GUID of the modifier for this item selection. For example, this modifier might be "mushrooms."
-
-(9) The GUID of another portion configured for this menu item. For example, this portion might be "half2."
-
- Include a selectionType value and include the value PORTION.
-
-(11) Apply modifiers to a portion in the modifiers value for that portion.
-
+    <tr>
+      <td>[(1)](#co-d1e1109D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>The GUID of the menu group for this item selection. For example, this menu group might be "pizzas."</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e1111D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>The GUID of the menu item for this item selection. For example, this menu item might be "cheese pizza."</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e1113D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>Apply portions to the menu item selection in the `modifiers` value for that item.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e1115D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>The GUID of one of the portions configured for this menu item. For example, this portion might be "half1."</td>
+    </tr>
+    <tr>
+      <td>[(5)](#coSelectionTypePortion)</td>
+      <td>Include a `selectionType` value and include the value `PORTION`.</td>
+    </tr>
+    <tr>
+      <td>[(6)](#co-d1e1117D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>Apply modifiers to a portion in the `modifiers` value for that portion.</td>
+    </tr>
+    <tr>
+      <td>[(8)](#co-d1e1120D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>The GUID of the modifier group for this item selection. For example, this modifier group might be "pizza toppings."</td>
+    </tr>
+    <tr>
+      <td>[(7)](#co-d1e1122D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>The GUID of the modifier for this item selection. For example, this modifier might be "mushrooms."</td>
+    </tr>
+    <tr>
+      <td>[(9)](#co-d1e1124D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>The GUID of another portion configured for this menu item. For example, this portion might be "half2."</td>
+    </tr>
+    <tr>
+      <td>[(10)](#coSelectionTypePortion2)</td>
+      <td>Include a `selectionType` value and include the value `PORTION`.</td>
+    </tr>
+    <tr>
+      <td>[(11)](#co-d1e1126D6B515F8-3D74-448A-9642-BF572CBAA71C)</td>
+      <td>Apply modifiers to a portion in the `modifiers` value for that portion.</td>
+    </tr>
 ## Special requests and instructions
 
 When you create an order in the orders API, you can specify special requests and instructions for the menu item selections. For example, when they order a salad, a guest might request that salad dressing is packaged on the side, instead of mixed in.
@@ -576,9 +636,15 @@ The following example JSON message body for a `POST` request to the orders API i
 
 
 
-(1) Include special requests in the array of modifiers for a menu item selection.
-
-(2) Set the selectionType value to SPECIAL_REQUEST.
-
-(3) In the displayName value, enter the request message.
-
+    <tr>
+      <td>[(1)](#co-d1e121793B42929-C18C-4AE5-98EB-4E7D465F2377)</td>
+      <td>Include special requests in the array of modifiers for a menu item selection.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e122193B42929-C18C-4AE5-98EB-4E7D465F2377)</td>
+      <td>Set the `selectionType` value to `SPECIAL_REQUEST`.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e121993B42929-C18C-4AE5-98EB-4E7D465F2377)</td>
+      <td>In the `displayName` value, enter the request message.</td>
+    </tr>

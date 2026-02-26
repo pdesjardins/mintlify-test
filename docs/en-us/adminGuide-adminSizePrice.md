@@ -133,30 +133,93 @@ For modifiers, size pricing can be configured at either the modifier group level
 
 For scenarios where the price of a modifier is determined by the size of the menu item it is applied to, you must specify sizes on the individual menu items and then create corresponding sizes for the modifiers themselves. The sizes on the menu items and modifiers must match exactly, both in the number of sizes and the text used for the size names. For example, this configuration is acceptable:
 
-| Menu Item Sizes | Modifier Sizes | 
-| --- | --- |
-| Small | Small | 
-| Medium | Medium | 
-| Large | Large | 
-| XLarge | XLarge | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Menu Item Sizes</th>
+      <th>Modifier Sizes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Small</td>
+      <td>Small</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td>Large</td>
+    </tr>
+    <tr>
+      <td>XLarge</td>
+      <td>XLarge</td>
+    </tr>
+  </tbody>
+</table>
 
 This configuration *is not acceptable*because the size names not match:
 
-| Menu Item Sizes | Modifier Sizes | 
-| --- | --- |
-| Small | Sm | 
-| Medium | Med | 
-| Large | Lg | 
-| XLarge | XLg | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Menu Item Sizes</th>
+      <th>Modifier Sizes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Small</td>
+      <td>Sm</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td>Med</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td>Lg</td>
+    </tr>
+    <tr>
+      <td>XLarge</td>
+      <td>XLg</td>
+    </tr>
+  </tbody>
+</table>
 
 This configuration *is not acceptable*because XLarge is missing from the modifier sizes:
 
-| Menu Item Sizes | Modifier Sizes | 
-| --- | --- |
-| Small | Small | 
-| Medium | Medium | 
-| Large | Large | 
-| XLarge |  | 
+
+<table>
+  <thead>
+    <tr>
+      <th>Menu Item Sizes</th>
+      <th>Modifier Sizes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Small</td>
+      <td>Small</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td>Large</td>
+    </tr>
+    <tr>
+      <td>XLarge</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Size pricing for modifier groups
 

@@ -39,14 +39,22 @@ The following example shows the message body for a `/era/v1/labor/week` request 
 
 
 
-(1) The start date of the time range for the labor reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the labor reporting data, in YYYYMMDD format.
-
-(3) The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) This request is for labor reporting data grouped by employee.
-
+    <tr>
+      <td>[(1)](#co-d1e3346134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The start date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3348134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The end date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e3350134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e3352134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>This request is for labor reporting data grouped by employee.</td>
+    </tr>
 When you use `EMPLOYEE`, the data is split into subsections by restaurant, then by day for the restaurant, and then by employee for the day at that restaurant. For example, the following list shows the structure of labor reporting data for two example restaurants, covering two days and four employees.
 
 - Restaurant 1, Day 1, Employee 1
@@ -133,14 +141,22 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
 
 
-(1) Send a POST request to the /era/v1/labor/{timeRange} endpoint of the analytics API. The {timeRange} in this example is week.
-
-(2) Include an authentication token. For more information, see Authentication and restaurant access.
-
-(3) Set the data type of the message body to application/json.
-
-(4) Include details about the requested labor reporting data in the message body. The following example is the message body for this curl command example.
-
+    <tr>
+      <td>[(1)](#co-d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Send a `POST` request to the `/era/v1/labor/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `week`.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e3549134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Set the data type of the message body to `application/json`.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include details about the requested labor reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+    </tr>
 ### Message body for the labor reporting data request
 
 The following example shows the message body for the `/era/v1/labor/week` request that uses the `groupBy` value with `EMPLOYEE`.
@@ -159,16 +175,26 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 
 
 
-(1) The start date of the time range for the labor reporting data, in YYYYMMDD format.
-
-(2) The end date of the time range for the labor reporting data, in YYYYMMDD format. The endBusinessDate value is optional for requests using the day time range.
-
-(3) The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.
-
-(4) The list of restaurant GUIDs from the management group to exclude from the labor reporting data. For this example, no restaurants are listed, so all other restaurants are included.
-
-(5) This request is for labor reporting data grouped by employee.
-
+    <tr>
+      <td>[(1)](#co-d1e3611134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The start date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3613134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The end date of the time range for the labor reporting data, in `YYYYMMDD` format. The `endBusinessDate` value is optional for requests using the `day` time range.</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e3615134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
+    </tr>
+    <tr>
+      <td>[(4)](#co-d1e3617134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the labor reporting data. For this example, no restaurants are listed, so all other restaurants are included.</td>
+    </tr>
+    <tr>
+      <td>[(5)](#co-d1e3619134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>This request is for labor reporting data grouped by employee.</td>
+    </tr>
 
 
 > **Important**
@@ -187,8 +213,10 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 
 
-(1) The GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
+    <tr>
+      <td>[(1)](#co-d1e3693134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>The GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
 ### Request to retrieve the labor reporting data
 
 The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
@@ -202,12 +230,18 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
 
-(1) Send a GET request to the /era/v1/labor endpoint of the analytics API.
-
-(2) Include the GUID for the labor reporting data request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
-
-(3) Include an authentication token. For more information, see Authentication and restaurant access.
-
+    <tr>
+      <td>[(1)](#co-d1e3730134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Send a `GET` request to the `/era/v1/labor` endpoint of the analytics API.</td>
+    </tr>
+    <tr>
+      <td>[(2)](#co-d1e3732134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include the GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+    </tr>
+    <tr>
+      <td>[(3)](#co-d1e3734134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+    </tr>
 ### Response to the retrieval request for labor reporting data
 
 The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
