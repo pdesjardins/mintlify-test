@@ -41,12 +41,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
     </tr>
     <tr>
       <td><code>POST</code><code>/era/v1/metrics/&#123;timeRange&#125;</code></td>
-      <td>If <code>&#123;timeRange</code>&#125; is:
-<ul>
-<li><code>month</code> or <code>year</code>: 10 requests per hour</li>
-<li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li>
-</ul>
-</td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code> or <code>year</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
@@ -66,12 +61,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
     </tr>
     <tr>
       <td><code>POST</code><code>/era/v1/labor/&#123;timeRange&#125;</code></td>
-      <td>If <code>&#123;timeRange</code>&#125; is:
-<ul>
-<li><code>month</code>: 10 requests per hour</li>
-<li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li>
-</ul>
-</td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
@@ -86,12 +76,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
     </tr>
     <tr>
       <td><code>POST</code><code>/era/v1/menu/&#123;timeRange&#125;</code></td>
-      <td>If <code>&#123;timeRange</code>&#125; is:
-<ul>
-<li><code>month</code> or <code>year</code>: 10 requests per hour</li>
-<li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li>
-</ul>
-</td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code> or <code>year</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
@@ -101,12 +86,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
     </tr>
     <tr>
       <td><code>POST</code><code>/era/v1/payout/&#123;timeRange&#125;</code></td>
-      <td>If <code>&#123;timeRange</code>&#125; is:
-<ul>
-<li><code>month</code>: 10 requests per hour</li>
-<li><code>day</code> or <code>week</code>: 10 requests per minute and 60 requests per hour</li>
-</ul>
-</td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute and 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
@@ -126,12 +106,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
     </tr>
     <tr>
       <td><code>POST</code><code>/era/v1/payout/sales-date/&#123;timeRange&#125;</code></td>
-      <td>If <code>&#123;timeRange</code>&#125; is:
-<ul>
-<li><code>month</code>: 10 requests per hour</li>
-<li><code>day</code> or <code>week</code>: 10 requests per minute and 60 requests per hour</li>
-</ul>
-</td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute and 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>

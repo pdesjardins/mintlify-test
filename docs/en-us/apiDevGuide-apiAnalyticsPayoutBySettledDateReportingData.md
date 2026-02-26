@@ -257,13 +257,7 @@ The following table specifies the returned set of values in the payout reporting
     </tr>
     <tr>
       <td><code>payoutStatus</code></td>
-      <td>The status of the payout. The status can be:
-<ul>
-<li><code>CAPTURED</code>: Toast collected the guest card payments included in the <code>payoutAmount</code> successfully.</li>
-<li><code>SENT</code>: Toast sent the <code>payoutAmount</code> to the bank. It may take some time to appear in the account.</li>
-<li><code>NONE</code>: The payout failed, or the payout was made prior to January 10, 2024 and is unavailable.</li>
-</ul>
-</td>
+      <td>The status of the payout. The status can be:<ul><li><code>CAPTURED</code>: Toast collected the guest card payments included in the <code>payoutAmount</code> successfully.</li><li><code>SENT</code>: Toast sent the <code>payoutAmount</code> to the bank. It may take some time to appear in the account.</li><li><code>NONE</code>: The payout failed, or the payout was made prior to January 10, 2024 and is unavailable.</li></ul></td>
     </tr>
   </tbody>
 </table>

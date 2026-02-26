@@ -36,12 +36,7 @@ The Toast platform uses the following criteria to determine whether a service ch
     </tr>
     <tr>
       <td><strong>Delivery dining option</strong> </td>
-      <td>For delivery orders, a delivery service charge is applied automatically to a check when the Dining Option is set to Delivery and the service charge meets its configured thresholds. <br/> Delivery service charges have the following additional configuration options:
-<ul>
-<li>The Waive Fee Threshold setting waives the service charge if the pre-discount amount of the check is greater than or equal to a configured amount. For example, you might waive the delivery fee for orders greater than $50.00. <br/> The Waive Fee Threshold and Apply After Amount Threshold settings are mutually exclusive. If you set one, you cannot set the other. <br/> If you configured Apply After Amount Threshold for the service charge, then you cannot configure Waive Fee Threshold for that service charge.</li>
-<li>The Delivery Distance Threshold setting allows you to apply a service charge if the delivery distance is equal to or greater than a specified length.</li>
-</ul>
-</td>
+      <td>For delivery orders, a delivery service charge is applied automatically to a check when the Dining Option is set to Delivery and the service charge meets its configured thresholds. <br/> Delivery service charges have the following additional configuration options:<ul><li>The Waive Fee Threshold setting waives the service charge if the pre-discount amount of the check is greater than or equal to a configured amount. For example, you might waive the delivery fee for orders greater than $50.00. <br/> The Waive Fee Threshold and Apply After Amount Threshold settings are mutually exclusive. If you set one, you cannot set the other. <br/> If you configured Apply After Amount Threshold for the service charge, then you cannot configure Waive Fee Threshold for that service charge.</li><li>The Delivery Distance Threshold setting allows you to apply a service charge if the delivery distance is equal to or greater than a specified length.</li></ul></td>
     </tr>
     <tr>
       <td><strong>Take Out dining option</strong> </td>
@@ -53,14 +48,7 @@ The Toast platform uses the following criteria to determine whether a service ch
     </tr>
     <tr>
       <td><strong>Service area</strong> </td>
-      <td>If you have service areas, then you can assign a gratuity service charge to be applied automatically to orders that are taken in a specific service area. <br/> The gratuity service charge is applied when the restaurant employee sets Auto-apply gratuity to Yes. <br/> You configure the service charge for a service area from the Service areas page. The configuration includes the service charge to apply, and whether to apply the charge based on a minimum party size. For example, you might only apply the service charge for parties of six or larger. <br/> To configure a service charge for a service area:
-<ol>
-<li>Choose Front of house > Tables & sections > Service areas.</li>
-<li>Click the name of the service area that you want to edit.</li>
-<li>To choose the service charge to use, click Select Service Charge.</li>
-<li>From the Minimum Party Size dropdown, select the minimum party size for which to apply the service charge.</li>
-</ol>
-</td>
+      <td>If you have service areas, then you can assign a gratuity service charge to be applied automatically to orders that are taken in a specific service area. <br/> The gratuity service charge is applied when the restaurant employee sets Auto-apply gratuity to Yes. <br/> You configure the service charge for a service area from the Service areas page. The configuration includes the service charge to apply, and whether to apply the charge based on a minimum party size. For example, you might only apply the service charge for parties of six or larger. <br/> To configure a service charge for a service area:<ol><li>Choose Front of house > Tables & sections > Service areas.</li><li>Click the name of the service area that you want to edit.</li><li>To choose the service charge to use, click Select Service Charge.</li><li>From the Minimum Party Size dropdown, select the minimum party size for which to apply the service charge.</li></ol></td>
     </tr>
   </tbody>
 </table>

@@ -111,93 +111,43 @@ For information on configuring required items for discounts, see [Choosing the r
       <td>Check-level discount</td>
       <td>None</td>
       <td>Nonexclusive</td>
-      <td>
-<ul>
-<li>Combines with nonexclusive discounts (check-level or BOGO). Order of application does not matter.</li>
-<li>Combines with exclusive discounts (check-level, item-level, BOGO, or combo). Order of application does not matter.</li>
-</ul>
-</td>
+      <td><ul><li>Combines with nonexclusive discounts (check-level or BOGO). Order of application does not matter.</li><li>Combines with exclusive discounts (check-level, item-level, BOGO, or combo). Order of application does not matter.</li></ul></td>
     </tr>
     <tr>
       <td>Check-level discount</td>
       <td>One required item</td>
       <td>Nonexclusive</td>
-      <td>
-<ul>
-<li>Combines with nonexclusive discounts (check-level or BOGO) if applied first.</li>
-<li>If another nonexclusive discount (check-level or BOGO) is applied first, the second nonexclusive discount combines with the first one only if the first discount does not use up the required item required by the second nonexclusive discount.</li>
-<li>Combines with an exclusive discount (of any type) if the nonexclusive discount is applied first and does not use up items required by the exclusive discount.</li>
-<li>If an exclusive discount is applied first, the nonexclusive discount combines with the exclusive discount only if the exclusive discount does not use up the required item needed by the nonexclusive discount.</li>
-</ul>
-</td>
+      <td><ul><li>Combines with nonexclusive discounts (check-level or BOGO) if applied first.</li><li>If another nonexclusive discount (check-level or BOGO) is applied first, the second nonexclusive discount combines with the first one only if the first discount does not use up the required item required by the second nonexclusive discount.</li><li>Combines with an exclusive discount (of any type) if the nonexclusive discount is applied first and does not use up items required by the exclusive discount.</li><li>If an exclusive discount is applied first, the nonexclusive discount combines with the exclusive discount only if the exclusive discount does not use up the required item needed by the nonexclusive discount.</li></ul></td>
     </tr>
     <tr>
       <td>Check-level discount</td>
       <td>Either none or one required item</td>
       <td>Exclusive</td>
-      <td>
-<ul>
-<li>Combines with a nonexclusive check-level discount that does not use a required item. Order of application does not matter.</li>
-<li>Combines with nonexclusive discounts (check-level or BOGO) that have required items if the nonexclusive discount is applied first.</li>
-<li>If applied first, combines with a nonexclusive check-level discount that has a required item as long as the nonexclusive discount does not have a required item that was used by the exclusive BOGO discount.</li>
-<li>Cannot combine with other exclusive discounts (of any type). For example, an exclusive check-level discount cannot combine with an item-level discount.</li>
-</ul>
-</td>
+      <td><ul><li>Combines with a nonexclusive check-level discount that does not use a required item. Order of application does not matter.</li><li>Combines with nonexclusive discounts (check-level or BOGO) that have required items if the nonexclusive discount is applied first.</li><li>If applied first, combines with a nonexclusive check-level discount that has a required item as long as the nonexclusive discount does not have a required item that was used by the exclusive BOGO discount.</li><li>Cannot combine with other exclusive discounts (of any type). For example, an exclusive check-level discount cannot combine with an item-level discount.</li></ul></td>
     </tr>
     <tr>
       <td>BOGO discount</td>
       <td>Buy and get items</td>
       <td>Nonexclusive</td>
-      <td>
-<ul>
-<li>Combines with nonexclusive check-level discounts if the BOGO discount is applied first and if the check-level discount does not use up an item required by the BOGO discount.</li>
-<li>Combines with other nonexclusive BOGO discounts only if the second BOGO discount's buy item is not used up.</li>
-<li>Cannot combine with exclusive check-level discounts.</li>
-<li>Combines with an item-level discount as long as the item-level discount does not use up the BOGO discount's buy and get items.</li>
-</ul>
-</td>
+      <td><ul><li>Combines with nonexclusive check-level discounts if the BOGO discount is applied first and if the check-level discount does not use up an item required by the BOGO discount.</li><li>Combines with other nonexclusive BOGO discounts only if the second BOGO discount's buy item is not used up.</li><li>Cannot combine with exclusive check-level discounts.</li><li>Combines with an item-level discount as long as the item-level discount does not use up the BOGO discount's buy and get items.</li></ul></td>
     </tr>
     <tr>
       <td>BOGO discount</td>
       <td>Buy and get items</td>
       <td>Exclusive</td>
-      <td>
-<ul>
-<li>Combines with nonexclusive check-level discounts that have no required items. Order of application does not matter.</li>
-<li>Combines with nonexclusive check-level discounts that have required items if the nonexclusive discount is applied first.</li>
-<li>If applied first, combines with a nonexclusive check-level discount that has a required item as long as the nonexclusive discount does not have a required item that was used by the exclusive BOGO discount. For example, an exclusive BOGO discount can combine with a nonexclusive check-level discount as long as the buy and get items are not required by the nonexclusive check-level discount.</li>
-<li>Combines with an item-level discount as long as the item-level discount does not use up the BOGO discount's buy and get items.</li>
-<li>Cannot combine with an exclusive check-level discount.</li>
-</ul>
-</td>
+      <td><ul><li>Combines with nonexclusive check-level discounts that have no required items. Order of application does not matter.</li><li>Combines with nonexclusive check-level discounts that have required items if the nonexclusive discount is applied first.</li><li>If applied first, combines with a nonexclusive check-level discount that has a required item as long as the nonexclusive discount does not have a required item that was used by the exclusive BOGO discount. For example, an exclusive BOGO discount can combine with a nonexclusive check-level discount as long as the buy and get items are not required by the nonexclusive check-level discount.</li><li>Combines with an item-level discount as long as the item-level discount does not use up the BOGO discount's buy and get items.</li><li>Cannot combine with an exclusive check-level discount.</li></ul></td>
     </tr>
     <tr>
       <td>Item-level discount</td>
       <td>One required item</td>
       <td>Exclusive - All item-level discounts are exclusive</td>
-      <td>
-<ul>
-<li>Can apply a maximum of one item-level discount per item. If an item-level discount is already applied to an item, the item-level discount is removed when another item-level discount is subsequently applied to the same item.</li>
-<li>Combines with nonexclusive discounts (check-level or BOGO) as long as the nonexclusive discount does not have required items that have been used by the item-level discount.</li>
-<li>Cannot combine with exclusive check-level discounts. If an item-level discount is already applied to an item, the item-level discount is removed when an exclusive check-level discount is subsequently applied to the check.</li>
-<li>Combines with BOGO discounts as long as the item-level discount does not use up the BOGO discount's buy and get items.</li>
-</ul>
-</td>
+      <td><ul><li>Can apply a maximum of one item-level discount per item. If an item-level discount is already applied to an item, the item-level discount is removed when another item-level discount is subsequently applied to the same item.</li><li>Combines with nonexclusive discounts (check-level or BOGO) as long as the nonexclusive discount does not have required items that have been used by the item-level discount.</li><li>Cannot combine with exclusive check-level discounts. If an item-level discount is already applied to an item, the item-level discount is removed when an exclusive check-level discount is subsequently applied to the check.</li><li>Combines with BOGO discounts as long as the item-level discount does not use up the BOGO discount's buy and get items.</li></ul></td>
     </tr>
     <tr>
       <td>Combo discount</td>
       <td>Combo items</td>
       <td>Exclusive - All combo discounts are exclusive</td>
-      <td>
-<ul>
-<li>Combines with a nonexclusive check-level discount that has no required item. Order of application does not matter.</li>
-<li>Combines with nonexclusive discounts (check-level or BOGO) that have required items if the nonexclusive discount is applied first.</li>
-<li>If applied first, combines with nonexclusive check-level discounts that have required items as long as the nonexclusive discount does not have required items that have been used by the combo discount.</li>
-<li>If applied first, combines with a nonexclusive BOGO discount as long as the BOGO discount does not have buy and get items items that have been used by the combo discount.</li>
-<li>Combines with an item-level discount if that item is not required by the combo discount.</li>
-<li>Cannot combine with exclusive check-level or BOGO discounts.</li>
-</ul>
-</td>
+      <td><ul><li>Combines with a nonexclusive check-level discount that has no required item. Order of application does not matter.</li><li>Combines with nonexclusive discounts (check-level or BOGO) that have required items if the nonexclusive discount is applied first.</li><li>If applied first, combines with nonexclusive check-level discounts that have required items as long as the nonexclusive discount does not have required items that have been used by the combo discount.</li><li>If applied first, combines with a nonexclusive BOGO discount as long as the BOGO discount does not have buy and get items items that have been used by the combo discount.</li><li>Combines with an item-level discount if that item is not required by the combo discount.</li><li>Cannot combine with exclusive check-level or BOGO discounts.</li></ul></td>
     </tr>
   </tbody>
 </table>

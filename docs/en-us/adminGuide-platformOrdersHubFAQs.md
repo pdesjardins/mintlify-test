@@ -25,12 +25,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td><strong>A:</strong> </td>
-      <td>The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:
-<ul>
-<li>You have selected Delivery as a dining option in the Takeout/delivery page in Toast Web. From Toast Web, choose Takeout & delivery > Takeout/delivery to open the Takeout/delivery page.</li>
-<li>You have turned on the Delivery or Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.</li>
-</ul>
-</td>
+      <td>The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:<ul><li>You have selected Delivery as a dining option in the Takeout/delivery page in Toast Web. From Toast Web, choose Takeout & delivery > Takeout/delivery to open the Takeout/delivery page.</li><li>You have turned on the Delivery or Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -86,13 +81,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td><strong>A:</strong> </td>
-      <td>Orders Hub can only be used with an Autofire device. The recommendation is to enable Autofire on only one device per restaurant; however, there are instances where none or more than one Autofire device may be used in a restaurant.
-<ul>
-<li>If a restaurant has one Autofire device and one non-Autofire device: Scheduled orders will appear on both devices, however the Fire Now button will only be available on the Autofire enabled device. When the order is ready to be prepped, the order moves to the Active tab on both devices. The kitchen/prep station printer automatically prints the ticket on the Autofire enabled device.</li>
-<li>If a restaurant has two Autofire devices: Scheduled orders will appear on both devices and both devices can "Fire Now". When the order is ready to be prepped, it moves to the Active tab on both devices. The kitchen/prep station printer automatically prints on one of the devices. It is strongly recommended that only one device should be configured to Autofire as there is a <a href="https://central.toasttab.com/s/article/Double-Printing?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web">risk of double printing</a> as you do not have the ability to determine which device prints the ticket.</li>
-<li>If a restaurant does not have an Autofire device: Scheduled orders appear on the device, however the Fire Now button is inactive. When the order is ready to be prepped, the order remains in the Scheduled tab. The order cannot be moved to the Completed tab. The kitchen/prep station printer does not automatically print the ticket. If the restaurant enables a device to Autofire, the scheduled order moves to the Active tab and the kitchen/prep station printer prints the ticket.</li>
-</ul>
-</td>
+      <td>Orders Hub can only be used with an Autofire device. The recommendation is to enable Autofire on only one device per restaurant; however, there are instances where none or more than one Autofire device may be used in a restaurant.<ul><li>If a restaurant has one Autofire device and one non-Autofire device: Scheduled orders will appear on both devices, however the Fire Now button will only be available on the Autofire enabled device. When the order is ready to be prepped, the order moves to the Active tab on both devices. The kitchen/prep station printer automatically prints the ticket on the Autofire enabled device.</li><li>If a restaurant has two Autofire devices: Scheduled orders will appear on both devices and both devices can "Fire Now". When the order is ready to be prepped, it moves to the Active tab on both devices. The kitchen/prep station printer automatically prints on one of the devices. It is strongly recommended that only one device should be configured to Autofire as there is a <a href="https://central.toasttab.com/s/article/Double-Printing?utm_campaign=toast-community&utm_medium=toastweb&utm_source=web">risk of double printing</a> as you do not have the ability to determine which device prints the ticket.</li><li>If a restaurant does not have an Autofire device: Scheduled orders appear on the device, however the Fire Now button is inactive. When the order is ready to be prepped, the order remains in the Scheduled tab. The order cannot be moved to the Completed tab. The kitchen/prep station printer does not automatically print the ticket. If the restaurant enables a device to Autofire, the scheduled order moves to the Active tab and the kitchen/prep station printer prints the ticket.</li></ul></td>
     </tr>
   </tbody>
 </table>

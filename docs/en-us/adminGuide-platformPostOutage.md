@@ -82,21 +82,11 @@ The below table contains the possible payment tags and their descriptions.
     </tr>
     <tr>
       <td>Yellow pending</td>
-      <td>A yellow pending tag indicates the payment is queued for payment processing. While payments are pending, do not: 
-<ul>
-<li>Delete your Toast POS device's memory.</li>
-<li>Uninstall the Toast POS app.</li>
-</ul>
- <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. </td>
+      <td>A yellow pending tag indicates the payment is queued for payment processing. While payments are pending, do not: <ul><li>Delete your Toast POS device's memory.</li><li>Uninstall the Toast POS app.</li></ul> <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. </td>
     </tr>
     <tr>
       <td>Red pending</td>
-      <td>A red pending tag indicates the payment was queued for processing, but payments are now paused. To resolve, refer to the red banner at the top of the Toast POS device, as shown in the image below. Paused card payments must be resolved before continuing to process a pending payment. While payments are pending, do not: 
-<ul>
-<li>Delete your Toast POS device's memory.</li>
-<li>Uninstall the Toast POS app.</li>
-</ul>
- <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. ![Pending red banner.](https://doc.toasttab.com/doc/media/pwfVoidsRedPendingBanner.png)</td>
+      <td>A red pending tag indicates the payment was queued for processing, but payments are now paused. To resolve, refer to the red banner at the top of the Toast POS device, as shown in the image below. Paused card payments must be resolved before continuing to process a pending payment. While payments are pending, do not: <ul><li>Delete your Toast POS device's memory.</li><li>Uninstall the Toast POS app.</li></ul> <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. ![Pending red banner.](https://doc.toasttab.com/doc/media/pwfVoidsRedPendingBanner.png)</td>
     </tr>
   </tbody>
 </table>

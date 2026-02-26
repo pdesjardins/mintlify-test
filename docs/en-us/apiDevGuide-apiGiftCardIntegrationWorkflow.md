@@ -157,13 +157,7 @@ The following table describes the response status types that your gift card prov
     </tr>
     <tr>
       <td><code>ERROR_TRANSACTION_CANNOT_BE_REVERSED</code></td>
-      <td>The transaction specified by a <code>GIFTCARD_REVERSE</code> type request cannot be reversed. The following transaction types cannot be reversed:
-<ul>
-<li><code>GIFTCARD_GET_BALANCE</code></li>
-<li><code>GIFTCARD_REVERSE</code></li>
-<li>Transactions that have already been reversed</li>
-</ul>
-</td>
+      <td>The transaction specified by a <code>GIFTCARD_REVERSE</code> type request cannot be reversed. The following transaction types cannot be reversed:<ul><li><code>GIFTCARD_GET_BALANCE</code></li><li><code>GIFTCARD_REVERSE</code></li><li>Transactions that have already been reversed</li></ul></td>
     </tr>
     <tr>
       <td><code>ERROR_INVALID_RESTAURANT</code></td>

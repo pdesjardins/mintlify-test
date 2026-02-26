@@ -309,27 +309,11 @@ The following table provides more information about the values you include in th
   <tbody>
     <tr>
       <td><code>END_USER</code></td>
-      <td>The guest provided the credit card information directly. <br/> The <code>PaymentRequestMetadata</code> object in the <code>requestMetadata</code> value <em>must</em>  include: 
-<ul>
-<li><code>cardFirst6</code></li>
-<li><code>cardLast4</code></li>
-<li><code>billingAddress</code></li>
-<li><code>guestIdentifier</code></li>
-<li><code>originIPAddr</code></li>
-</ul>
-</td>
+      <td>The guest provided the credit card information directly. <br/> The <code>PaymentRequestMetadata</code> object in the <code>requestMetadata</code> value <em>must</em>  include: <ul><li><code>cardFirst6</code></li><li><code>cardLast4</code></li><li><code>billingAddress</code></li><li><code>guestIdentifier</code></li><li><code>originIPAddr</code></li></ul></td>
     </tr>
     <tr>
       <td><code>PARTNER_VAULT</code></td>
-      <td>Your integration retrieved the credit card information from secure storage. <br/> The <code>PaymentRequestMetadata</code> object in the <code>requestMetadata</code> value <em>must</em>  include:
-<ul>
-<li><code>cardFirst6</code></li>
-<li><code>cardLast4</code></li>
-<li><code>billingAddress</code></li>
-<li><code>guestIdentifier</code></li>
-<li><code>originIPAddr</code></li>
-</ul>
-</td>
+      <td>Your integration retrieved the credit card information from secure storage. <br/> The <code>PaymentRequestMetadata</code> object in the <code>requestMetadata</code> value <em>must</em>  include:<ul><li><code>cardFirst6</code></li><li><code>cardLast4</code></li><li><code>billingAddress</code></li><li><code>guestIdentifier</code></li><li><code>originIPAddr</code></li></ul></td>
     </tr>
   </tbody>
 </table>

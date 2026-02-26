@@ -99,54 +99,19 @@ The following table provides suggested information that you can display in diffe
   <tbody>
     <tr>
       <td>Orders</td>
-      <td>Consider displaying the following reporting information for orders:
-<ul>
-<li>Order source</li>
-<li>Opened date</li>
-<li>Paid date</li>
-<li>Closed date</li>
-<li>Voided status</li>
-</ul>
-</td>
+      <td>Consider displaying the following reporting information for orders:<ul><li>Order source</li><li>Opened date</li><li>Paid date</li><li>Closed date</li><li>Voided status</li></ul></td>
     </tr>
     <tr>
       <td>Checks</td>
-      <td>Consider displaying the following reporting information for checks:
-<ul>
-<li>Display number</li>
-<li>Tab name</li>
-<li>Total amount</li>
-<li>Refunded amount</li>
-<li>Applied discount names</li>
-<li>Applied discount amounts</li>
-</ul>
-</td>
+      <td>Consider displaying the following reporting information for checks:<ul><li>Display number</li><li>Tab name</li><li>Total amount</li><li>Refunded amount</li><li>Applied discount names</li><li>Applied discount amounts</li></ul></td>
     </tr>
     <tr>
       <td>Menu item selections</td>
-      <td>Consider displaying the following reporting information for item selections:
-<ul>
-<li>Menu item name - Use <code>displayName</code> value on <code>Selection</code> object</li>
-<li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li>
-<li>Price</li>
-<li>Applied discount names</li>
-<li>Applied discount amounts</li>
-<li>Sales category name</li>
-<li>Menu item tags</li>
-<li>Menu item SKU</li>
-</ul>
-</td>
+      <td>Consider displaying the following reporting information for item selections:<ul><li>Menu item name - Use <code>displayName</code> value on <code>Selection</code> object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Menu item tags</li><li>Menu item SKU</li></ul></td>
     </tr>
     <tr>
       <td>Payments</td>
-      <td>By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items. <br/> Consider displaying the following reporting information for payments:
-<ul>
-<li>Amount</li>
-<li>Refund information</li>
-<li>Type</li>
-<li>Payment status</li>
-</ul>
-</td>
+      <td>By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items. <br/> Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Refund information</li><li>Type</li><li>Payment status</li></ul></td>
     </tr>
   </tbody>
 </table>

@@ -251,24 +251,13 @@ You can change how order information appears on tickets by setting the options d
     </tr>
     <tr>
       <td>See identical items consolidated into a single ticket with the quantity number when using separate kitchen tickets for each item</td>
-      <td>You need to change the following settings:
-<ol>
-<li>Front of house > Order screen setup > UI options > <a href="adminGuide-adminUiOptionsReference#configCombineItems">Consolidate menu items</a>: On</li>
-<li>Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > <a href="adminGuide-adminKitchenDiningRoomReference#configIndividualTickets">Individual Item Tickets Order</a> > KDS Settings: Display each item on individual tickets...</li>
-<li>Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > <a href="adminGuide-adminKitchenDiningRoomReference#configConsolidateItemsWithMultipleQuantities">Consolidate Items with Multiple Quantities</a>: Yes</li>
-</ol>
-</td>
+      <td>You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > <a href="adminGuide-adminUiOptionsReference#configCombineItems">Consolidate menu items</a>: On</li><li>Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > <a href="adminGuide-adminKitchenDiningRoomReference#configIndividualTickets">Individual Item Tickets Order</a> > KDS Settings: Display each item on individual tickets...</li><li>Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > <a href="adminGuide-adminKitchenDiningRoomReference#configConsolidateItemsWithMultipleQuantities">Consolidate Items with Multiple Quantities</a>: Yes</li></ol></td>
       <td> </td>
       <td>Web Setup > Restaurant Operations Setup <br/> Web Setup > Kitchen / Dining Room Setup</td>
     </tr>
     <tr>
       <td>Have a separate ticket for each item (example: tapas-style delivery)</td>
-      <td>You need to change the following settings:
-<ol>
-<li>Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > <a href="adminGuide-adminKitchenDiningRoomReference#configIndividualTickets">Individual Item Tickets</a> > KDS Settings: Display each item on individual tickets...</li>
-<li>Kitchen > Pacing > Meal pacing > Course Pacing: Enable course pacing > Sending Courses: Send all courses individually ><a href="adminGuide-adminKitchenDiningRoomReference#configPreviousCourseStatus">Previous Course Status</a>: unchecked</li>
-</ol>
-</td>
+      <td>You need to change the following settings:<ol><li>Kitchen > Printers, tickets, & KDS devices > Kitchen and ticket setup > <a href="adminGuide-adminKitchenDiningRoomReference#configIndividualTickets">Individual Item Tickets</a> > KDS Settings: Display each item on individual tickets...</li><li>Kitchen > Pacing > Meal pacing > Course Pacing: Enable course pacing > Sending Courses: Send all courses individually ><a href="adminGuide-adminKitchenDiningRoomReference#configPreviousCourseStatus">Previous Course Status</a>: unchecked</li></ol></td>
       <td> </td>
       <td>Web Setup > 6.2 Kitchen / Dining Room Setup</td>
     </tr>
@@ -292,23 +281,13 @@ You can change how order information appears on tickets by setting the options d
     </tr>
     <tr>
       <td>See modifiers listed by sort order</td>
-      <td> <blockquote><strong>Note</strong> Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release.</blockquote> You need to change the following settings:
-<ol>
-<li>Front of house > Order screen setup > UI options > <a href="adminGuide-adminUiOptionsReference#configModifierDisplayMode">Modifier display mode</a>: Vertical or Horizontal</li>
-<li>On the modifier's details page, a Sort Order is assigned. This can also be done on the Menus > Bulk Management > Advanced properties page and using the Show/Hide dropdown menu to choose Sort Order. <blockquote><strong>Note</strong> The assigned Sort Order overrides the Modifier group sorting, Modifier display order, and Display Order Priority settings for kitchen tickets.</blockquote> </li>
-</ol>
-</td>
+      <td> <blockquote><strong>Note</strong> Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release.</blockquote> You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > <a href="adminGuide-adminUiOptionsReference#configModifierDisplayMode">Modifier display mode</a>: Vertical or Horizontal</li><li>On the modifier's details page, a Sort Order is assigned. This can also be done on the Menus > Bulk Management > Advanced properties page and using the Show/Hide dropdown menu to choose Sort Order. <blockquote><strong>Note</strong> The assigned Sort Order overrides the Modifier group sorting, Modifier display order, and Display Order Priority settings for kitchen tickets.</blockquote> </li></ol></td>
       <td> </td>
       <td>Web Setup > 6.6 Restaurant Operations Setup</td>
     </tr>
     <tr>
       <td>See modifiers listed by modifier group display ordering priority in a comma-separated list in sequence selected</td>
-      <td>You need to change the following settings:
-<ol>
-<li>Front of house > Order screen setup > UI options > <a href="adminGuide-adminUiOptionsReference#configModifierOrderingPriority">Modifier ordering priority</a>: On <blockquote><strong>Note</strong> For KDS devices using legacy dynamic view and printed kitchen tickets, this setting is always treated as if set to On.</blockquote> </li>
-<li>On the modifier group's details page, the Display Ordering Priority setting is assigned. For more information, see <a href="adminGuide-adminUnderstandingModifierGroupDisplay">Understanding modifier group display order</a>.</li>
-</ol>
-</td>
+      <td>You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > <a href="adminGuide-adminUiOptionsReference#configModifierOrderingPriority">Modifier ordering priority</a>: On <blockquote><strong>Note</strong> For KDS devices using legacy dynamic view and printed kitchen tickets, this setting is always treated as if set to On.</blockquote> </li><li>On the modifier group's details page, the Display Ordering Priority setting is assigned. For more information, see <a href="adminGuide-adminUnderstandingModifierGroupDisplay">Understanding modifier group display order</a>.</li></ol></td>
       <td> </td>
       <td>Web Setup > 6.6 Restaurant Operations Setup</td>
     </tr>
@@ -400,23 +379,13 @@ Your kitchen can include one or more printers along with your kitchen display sy
     </tr>
     <tr>
       <td>Print expediter tickets automatically when offline</td>
-      <td>You need to change the following settings:
-<ol>
-<li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configPrintingMode">Printing Mode</a>: Only print ... when Toast is in offline mode</li>
-<li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configExpediterPrinters">Expediter Printer(s)</a></li>
-</ol>
-</td>
+      <td>You need to change the following settings:<ol><li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configPrintingMode">Printing Mode</a>: Only print ... when Toast is in offline mode</li><li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configExpediterPrinters">Expediter Printer(s)</a></li></ol></td>
       <td> </td>
       <td>Web Setup > 6.2 Kitchen / Dining Room Setup</td>
     </tr>
     <tr>
       <td>Print all expediter tickets automatically</td>
-      <td>You need to change the following settings:
-<ol>
-<li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configPrintingMode">Printing Mode</a>: Always print expediter tickets</li>
-<li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configExpediterPrinters">Expediter Printer(s)</a></li>
-</ol>
-</td>
+      <td>You need to change the following settings:<ol><li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configPrintingMode">Printing Mode</a>: Always print expediter tickets</li><li>Kitchen > Printers, screens, & KDS devices > Kitchen > <a href="adminGuide-adminKitchenDiningRoomReference#configExpediterPrinters">Expediter Printer(s)</a></li></ol></td>
       <td> </td>
       <td>Web Setup > 6.2 Kitchen / Dining Room Setup</td>
     </tr>

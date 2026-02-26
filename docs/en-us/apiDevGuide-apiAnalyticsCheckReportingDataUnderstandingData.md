@@ -64,13 +64,7 @@ The following table specifies the set of values returned in the check reporting 
     </tr>
     <tr>
       <td><code>checkStatus </code></td>
-      <td>The payment state of the check. The state can be one of the following values: 
-<ul>
-<li><code>OPEN</code> : The check is open and unpaid.</li>
-<li><code>PAID</code> : The check is paid, but the payment is not finalized.</li>
-<li><code>CLOSED</code> : The check payment is finalized.</li>
-</ul>
-</td>
+      <td>The payment state of the check. The state can be one of the following values: <ul><li><code>OPEN</code> : The check is open and unpaid.</li><li><code>PAID</code> : The check is paid, but the payment is not finalized.</li><li><code>CLOSED</code> : The check payment is finalized.</li></ul></td>
     </tr>
     <tr>
       <td><code>checkVoidedStatus</code></td>

@@ -44,27 +44,11 @@ The following table includes information about the POS Access permissions relate
   <tbody>
     <tr>
       <td>Table Service Mode</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>The Table Service screen, with Previous Checks and Lookup options for the employee's own checks.</li>
-<li>On the Toast POS home screen, gives access to My Account > Shift Review.</li>
-<li>Setup > Device Setup > Credit Card Pre-Authorization</li>
-<li>Setup > Device Setup > EMV Enabled</li>
-<li>Setup > Device Setup > Add New Card Reader</li>
-</ul>
-<strong>Assign to </strong> employees who take orders and need comprehensive access to menu items and modifiers.</td>
+      <td><strong>Gives access to</strong> <ul><li>The Table Service screen, with Previous Checks and Lookup options for the employee's own checks.</li><li>On the Toast POS home screen, gives access to My Account > Shift Review.</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled</li><li>Setup > Device Setup > Add New Card Reader</li></ul><strong>Assign to </strong> employees who take orders and need comprehensive access to menu items and modifiers.</td>
     </tr>
     <tr>
       <td>Quick Order Mode</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>The Quick Order screen, with Previous Checks and Lookup options for the employee's own checks.</li>
-<li>On the Toast POS home screen, gives access to My Account > Shift Review.</li>
-<li>Setup > Device Setup > Credit Card Pre-Authorization</li>
-<li>Setup > Device Setup > EMV Enabled</li>
-<li>Setup > Device Setup > Add New Card Reader</li>
-</ul>
-<strong>Assign to </strong> employees who take orders and need a streamlined interface.</td>
+      <td><strong>Gives access to</strong> <ul><li>The Quick Order screen, with Previous Checks and Lookup options for the employee's own checks.</li><li>On the Toast POS home screen, gives access to My Account > Shift Review.</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled</li><li>Setup > Device Setup > Add New Card Reader</li></ul><strong>Assign to </strong> employees who take orders and need a streamlined interface.</td>
     </tr>
     <tr>
       <td>Kitchen Display System Mode</td>
@@ -72,27 +56,11 @@ The following table includes information about the POS Access permissions relate
     </tr>
     <tr>
       <td>Payment Terminal Mode</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>The Payment Terminal screen. Often assigned with Cash Drawer Access.</li>
-<li>On the Toast POS home screen, gives access to My Account > Shift Review.</li>
-<li>Setup > Device Setup > Credit Card Pre-Authorization</li>
-<li>Setup > Device Setup > EMV Enabled</li>
-<li>Setup > Device Setup > Add New Card Reader</li>
-</ul>
-<strong>Assign to </strong> employees who complete transactions with credit card, cash, or other payment methods.</td>
+      <td><strong>Gives access to</strong> <ul><li>The Payment Terminal screen. Often assigned with Cash Drawer Access.</li><li>On the Toast POS home screen, gives access to My Account > Shift Review.</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled</li><li>Setup > Device Setup > Add New Card Reader</li></ul><strong>Assign to </strong> employees who complete transactions with credit card, cash, or other payment methods.</td>
     </tr>
     <tr>
       <td>Pending Orders Mode / Orders Hub Mode</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>The Pending Orders screen.</li>
-<li>The Orders Hub screen.</li>
-<li>Setup > Device Setup > Credit Card Pre-Authorization</li>
-<li>Setup > Device Setup > EMV Enabled</li>
-<li>Setup > Device Setup > Add New Card Reader</li>
-</ul>
-When assigned with the <a href="adminGuide-adminPermissions#permissionManager">Manager</a> access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> <strong>Assign to </strong> managers and employees who take, review, approve, and reschedule orders for future fulfillment.</td>
+      <td><strong>Gives access to</strong> <ul><li>The Pending Orders screen.</li><li>The Orders Hub screen.</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled</li><li>Setup > Device Setup > Add New Card Reader</li></ul>When assigned with the <a href="adminGuide-adminPermissions#permissionManager">Manager</a> access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> <strong>Assign to </strong> managers and employees who take, review, approve, and reschedule orders for future fulfillment.</td>
     </tr>
   </tbody>
 </table>
@@ -122,57 +90,23 @@ Employees who have a mode permission can access the corresponding function from 
   <tbody>
     <tr>
       <td>Device Setup</td>
-      <td>
-<ul>
-<li>Receipt Printer</li>
-<li>Always Print Receipt: Available on certain device types if Digital Receipts is set to Yes.</li>
-<li>Guest Feedback: Available on certain device types if Digital Receipts is set to Yes and Always Print Receipts is set to No.</li>
-<li>Order Auto-Firing</li>
-<li>Primary Service Area</li>
-<li>Device Default Dining Option</li>
-<li>Override Blank Tab Name Prompt: Available if Prompt for tab name? (Quick Order only) is set to On.</li>
-<li>Device Group</li>
-<li>Order Purge Threshold</li>
-<li>Bluetooth easy pairing</li>
-<li>Force mirroring of device on second screen</li>
-</ul>
-</td>
+      <td><ul><li>Receipt Printer</li><li>Always Print Receipt: Available on certain device types if Digital Receipts is set to Yes.</li><li>Guest Feedback: Available on certain device types if Digital Receipts is set to Yes and Always Print Receipts is set to No.</li><li>Order Auto-Firing</li><li>Primary Service Area</li><li>Device Default Dining Option</li><li>Override Blank Tab Name Prompt: Available if Prompt for tab name? (Quick Order only) is set to On.</li><li>Device Group</li><li>Order Purge Threshold</li><li>Bluetooth easy pairing</li><li>Force mirroring of device on second screen</li></ul></td>
     </tr>
     <tr>
       <td>Payment Processing</td>
-      <td>
-<ul>
-<li>Credit Card Pre-Authorization</li>
-<li>EMV Enabled: Requires an EMV reader.</li>
-</ul>
-</td>
+      <td><ul><li>Credit Card Pre-Authorization</li><li>EMV Enabled: Requires an EMV reader.</li></ul></td>
     </tr>
     <tr>
       <td>Card Readers</td>
-      <td>
-<ul>
-<li>Add New Card Reader</li>
-</ul>
-</td>
+      <td><ul><li>Add New Card Reader</li></ul></td>
     </tr>
     <tr>
       <td>Order Screen</td>
-      <td>
-<ul>
-<li>Default Item Selection Mode</li>
-<li>Enable SKUs</li>
-<li>Enable quote time</li>
-<li>Menu Grid Dimensions</li>
-</ul>
-</td>
+      <td><ul><li>Default Item Selection Mode</li><li>Enable SKUs</li><li>Enable quote time</li><li>Menu Grid Dimensions</li></ul></td>
     </tr>
     <tr>
       <td>Scale Certification</td>
-      <td>
-<ul>
-<li>Model: Toast, Version:</li>
-</ul>
-</td>
+      <td><ul><li>Model: Toast, Version:</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -687,83 +621,27 @@ The following table includes information about the Web Setup access permissions 
   <tbody>
     <tr>
       <td>Discounts Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Payments > Comps and promos > Discounts and promo codes</li>
-<li>Payments > Comps and promos > Discount reasons</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Payments > Comps and promos > Discounts and promo codes</li><li>Payments > Comps and promos > Discount reasons</li></ul></td>
     </tr>
     <tr>
       <td>Kitchen / Dining Room Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Kitchen > Printers, tickets, & KDS devices > Kitchen</li>
-<li>Front of house > Tables & sections > Service areas</li>
-<li>Kitchen > Pacing > Courses</li>
-<li>Kitchen > Kitchen stations > Prep stations</li>
-<li>Kitchen > Kitchen stations > Production items</li>
-<li>Kitchen > Dining options > Dining options</li>
-<li>Kitchen > Kitchen stations > Item routing</li>
-<li>Kitchen > Pacing > Meal pacing</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Kitchen > Printers, tickets, & KDS devices > Kitchen</li><li>Front of house > Tables & sections > Service areas</li><li>Kitchen > Pacing > Courses</li><li>Kitchen > Kitchen stations > Prep stations</li><li>Kitchen > Kitchen stations > Production items</li><li>Kitchen > Dining options > Dining options</li><li>Kitchen > Kitchen stations > Item routing</li><li>Kitchen > Pacing > Meal pacing</li></ul></td>
     </tr>
     <tr>
       <td>Payments Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Payments > Payment methods > Payment options</li>
-<li>Payments > Payment methods > Other payment options</li>
-<li>Payments > Transactions & refunds > Void reasons</li>
-<li>Payments > Transactions & refunds > No sale reasons</li>
-<li>Payments > Checks & receipt setup > Service charges</li>
-<li>Payments > Gift cards > Gift card setup</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Payments > Payment methods > Payment options</li><li>Payments > Payment methods > Other payment options</li><li>Payments > Transactions & refunds > Void reasons</li><li>Payments > Transactions & refunds > No sale reasons</li><li>Payments > Checks & receipt setup > Service charges</li><li>Payments > Gift cards > Gift card setup</li></ul></td>
     </tr>
     <tr>
       <td>Publishing</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Toast account > Publishing > Publish Config</li>
-<li>Toast account > Publishing > Publish Config V2</li>
-<li>Toast account > Publishing > Publishing Center (read-only access) <br/> Employees that have the Publishing permission to the <a href="adminGuide-sessionRestaurant">session restaurant</a> have read-only access to the Publishing center page. This means they can view change sets and add changes to <em>existing change sets</em>  but they cannot create change sets, delete change sets, or modify the names and schedules of change sets. For more information, see <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets">Understanding scheduled publishing and change sets</a>, <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformScheduledPublishingPermissions">Scheduled publishing permissions</a>, and <a href="adminGuide-platformMenuManagerPermissions">Menu manager permissions</a>.</li>
-<li>Other Setup > Publish Changes on a Toast POS device</li>
-</ul>
- <blockquote><strong>Note</strong> Employees need this permission to publish configuration changes <em>even if</em>  they have permissions that allow them to alter configuration settings that can be published.</blockquote> </td>
+      <td><strong>Gives access to</strong> <ul><li>Toast account > Publishing > Publish Config</li><li>Toast account > Publishing > Publish Config V2</li><li>Toast account > Publishing > Publishing Center (read-only access) <br/> Employees that have the Publishing permission to the <a href="adminGuide-sessionRestaurant">session restaurant</a> have read-only access to the Publishing center page. This means they can view change sets and add changes to <em>existing change sets</em>  but they cannot create change sets, delete change sets, or modify the names and schedules of change sets. For more information, see <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets">Understanding scheduled publishing and change sets</a>, <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformScheduledPublishingPermissions">Scheduled publishing permissions</a>, and <a href="adminGuide-platformMenuManagerPermissions">Menu manager permissions</a>.</li><li>Other Setup > Publish Changes on a Toast POS device</li></ul> <blockquote><strong>Note</strong> Employees need this permission to publish configuration changes <em>even if</em>  they have permissions that allow them to alter configuration settings that can be published.</blockquote> </td>
     </tr>
     <tr>
       <td>Restaurant Groups Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Toast account > Groups > Restaurant groups</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Toast account > Groups > Restaurant groups</li></ul></td>
     </tr>
     <tr>
       <td>Restaurant Operations Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Employees > Timesheet management > Break types</li>
-<li>Guest engagement > Guest feedback > Guest feedback setup</li>
-<li>Front of house > Order screen setup > UI options</li>
-<li>Front of house > Tables & sections > Revenue centers</li>
-<li>Toast account > Groups > Device groups</li>
-<li>Payments > Transactions & refunds > Pay out reasons</li>
-<li>Takeout & delivery > Availability > Takeout/delivery</li>
-<li>Takeout & delivery > Availability > Prep/delivery times</li>
-<li>Takeout & delivery > Availability > Online ordering</li>
-<li>Takeout & delivery > Availability > Online ordering schedule</li>
-<li>Takeout & delivery > Orders Hub > Order ready messages</li>
-<li>Takeout & delivery > Order ready board > Order ready board settings </li>
-<li>Takeout & delivery > Third party ordering</li>
-<li>Other Setup > Online Ordering audit</li>
-<li>Front of house > POS notifications > Notification setup</li>
-<li>Menus > Settings > Barcode config</li>
-<li>Payments > Checks & receipt setup > Guest display</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Employees > Timesheet management > Break types</li><li>Guest engagement > Guest feedback > Guest feedback setup</li><li>Front of house > Order screen setup > UI options</li><li>Front of house > Tables & sections > Revenue centers</li><li>Toast account > Groups > Device groups</li><li>Payments > Transactions & refunds > Pay out reasons</li><li>Takeout & delivery > Availability > Takeout/delivery</li><li>Takeout & delivery > Availability > Prep/delivery times</li><li>Takeout & delivery > Availability > Online ordering</li><li>Takeout & delivery > Availability > Online ordering schedule</li><li>Takeout & delivery > Orders Hub > Order ready messages</li><li>Takeout & delivery > Order ready board > Order ready board settings </li><li>Takeout & delivery > Third party ordering</li><li>Other Setup > Online Ordering audit</li><li>Front of house > POS notifications > Notification setup</li><li>Menus > Settings > Barcode config</li><li>Payments > Checks & receipt setup > Guest display</li></ul></td>
     </tr>
     <tr>
       <td>Change sets</td>
@@ -771,11 +649,7 @@ The following table includes information about the Web Setup access permissions 
     </tr>
     <tr>
       <td>Tax Rates Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Menus > Settings > Manage tax rates</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Menus > Settings > Manage tax rates</li></ul></td>
     </tr>
     <tr>
       <td>Websites Setup</td>
@@ -783,29 +657,15 @@ The following table includes information about the Web Setup access permissions 
     </tr>
     <tr>
       <td>Printer and Cash Drawer Setup </td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Payments > Checks & receipt setup > Printers and cash drawers </li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Payments > Checks & receipt setup > Printers and cash drawers </li></ul></td>
     </tr>
     <tr>
       <td>Data Extension View</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Integrations > Data Extensions > Manage data extensions </li>
-<li>The Data Extension View permission allows employees to view saved, published, and resolved data extension sets.</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Integrations > Data Extensions > Manage data extensions </li><li>The Data Extension View permission allows employees to view saved, published, and resolved data extension sets.</li></ul></td>
     </tr>
     <tr>
       <td>Data Extension Edit </td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Integrations > Data Extensions > Manage data extensions </li>
-<li>The Data Extension Edit permission allows employees to view saved, published, and resolved data extension sets as well as create and update data extension sets.</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Integrations > Data Extensions > Manage data extensions </li><li>The Data Extension Edit permission allows employees to view saved, published, and resolved data extension sets as well as create and update data extension sets.</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -834,55 +694,19 @@ The following table includes information about the Device Setup access permissio
   <tbody>
     <tr>
       <td>Terminal Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Setup > Device Setup > Device Name</li>
-<li>Setup > Device Setup > Primary Mode</li>
-<li>Setup > Device Setup > Screen Timeout</li>
-<li>Setup > Device Setup > Open Cash Drawer</li>
-<li>Setup > Device Setup > Re-enabled Hidden Menus</li>
-<li>Setup > Device Setup > Credit Card Pre-Authorization</li>
-<li>Setup > Device Setup > EMV Enabled - Requires an EMV reader</li>
-<li>Setup > Device Setup > Add New Card Reader</li>
-</ul>
- <blockquote><strong>Note</strong> Credit Card Pre-Authorization, EMV Enabled, and Add New Card Reader options are also accessible if you have one of the <a href="adminGuide-adminPermissions#adminModePermissions">POS access permissions</a>.</blockquote> </td>
+      <td><strong>Gives access to</strong> <ul><li>Setup > Device Setup > Device Name</li><li>Setup > Device Setup > Primary Mode</li><li>Setup > Device Setup > Screen Timeout</li><li>Setup > Device Setup > Open Cash Drawer</li><li>Setup > Device Setup > Re-enabled Hidden Menus</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled - Requires an EMV reader</li><li>Setup > Device Setup > Add New Card Reader</li></ul> <blockquote><strong>Note</strong> Credit Card Pre-Authorization, EMV Enabled, and Add New Card Reader options are also accessible if you have one of the <a href="adminGuide-adminPermissions#adminModePermissions">POS access permissions</a>.</blockquote> </td>
     </tr>
     <tr>
       <td>Advanced Terminal Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Setup > Device Setup > Digital Receipts</li>
-<li>Setup > Device Setup > Allow Cash Payments</li>
-<li>Setup > Device Setup > Cash Receipt Options</li>
-<li>Setup > Device Setup > Revenue Center</li>
-<li>Setup > Enable Test Mode</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Setup > Device Setup > Digital Receipts</li><li>Setup > Device Setup > Allow Cash Payments</li><li>Setup > Device Setup > Cash Receipt Options</li><li>Setup > Device Setup > Revenue Center</li><li>Setup > Enable Test Mode</li></ul></td>
     </tr>
     <tr>
       <td>KDS and Order Screen Setup</td>
-      <td><strong>Gives access to</strong> 
-<ul>
-<li>Setup > Device Setup > New Ticket Sound</li>
-<li>Setup > Device Setup > Default Page</li>
-<li>Setup > Device Setup > Kitchen Expediter</li>
-<li>Setup > Device Setup > Two-Level Fulfillment</li>
-<li>Setup > Device Setup > Prep Stations</li>
-<li>Setup > Device Setup > Production Items</li>
-<li>Setup > Device Setup > Ticket Display Options</li>
-<li>Setup > Device Setup > Non-Printing Prep Stations</li>
-<li>Setup > Device Setup > Auto-print Fulfilled Tickets</li>
-<li>Setup > Device Setup > Double Tap to Fulfill, Unfulfill</li>
-</ul>
-</td>
+      <td><strong>Gives access to</strong> <ul><li>Setup > Device Setup > New Ticket Sound</li><li>Setup > Device Setup > Default Page</li><li>Setup > Device Setup > Kitchen Expediter</li><li>Setup > Device Setup > Two-Level Fulfillment</li><li>Setup > Device Setup > Prep Stations</li><li>Setup > Device Setup > Production Items</li><li>Setup > Device Setup > Ticket Display Options</li><li>Setup > Device Setup > Non-Printing Prep Stations</li><li>Setup > Device Setup > Auto-print Fulfilled Tickets</li><li>Setup > Device Setup > Double Tap to Fulfill, Unfulfill</li></ul></td>
     </tr>
     <tr>
       <td>Order Ready Board Access</td>
-      <td> <blockquote><strong>Note</strong> This permission does not control access to the Setup > Device Setup configuration options available from a Toast POS device.</blockquote> <strong>Gives access to</strong> 
-<ul>
-<li>Order Ready Board</li>
-</ul>
-</td>
+      <td> <blockquote><strong>Note</strong> This permission does not control access to the Setup > Device Setup configuration options available from a Toast POS device.</blockquote> <strong>Gives access to</strong> <ul><li>Order Ready Board</li></ul></td>
     </tr>
   </tbody>
 </table>

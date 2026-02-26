@@ -28,23 +28,7 @@ It is important to note that not all advanced pricing features are supported on 
   <tbody>
     <tr>
       <td><a href="adminGuide-adminSizePrice">Size Price</a> pricing strategy</td>
-      <td>For menu items and menu groups, size-specific prices are supported on:
-<ul>
-<li>Toast POS app</li>
-<li>Toast Online Ordering</li>
-<li>Toast Takeout (Local by Toast) app</li>
-<li>Toast Kiosk</li>
-<li>Toast Order and Pay</li>
-<li>Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li>
-</ul>
- <br/> For modifier groups and modifiers, size-specific prices are supported on:
-<ul>
-<li>Toast POS app</li>
-<li>Toast Online Ordering</li>
-<li>Toast Kiosk</li>
-<li>Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li>
-</ul>
-</td>
+      <td>For menu items and menu groups, size-specific prices are supported on:<ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li></ul> <br/> For modifier groups and modifiers, size-specific prices are supported on:<ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Kiosk</li><li>Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li></ul></td>
     </tr>
     <tr>
       <td><a href="adminGuide-adminMenuSpecificPrice">Menu Specific Price</a> pricing strategy</td>

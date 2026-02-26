@@ -87,19 +87,7 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
     </tr>
     <tr>
       <td><code>guestOrderStatus</code></td>
-      <td>The current status of a guest's order in the restaurant fulfillment process. 
-<ul>
-<li><code>IN_PREPARATION</code>: The order is being actively worked on.</li>
-<li><code>READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li>
-<li><code>CLOSED</code>: The order is paid for and marked as completed.</li>
-<li><code>VOIDED</code>:
-<ul>
-<li>If the order is open, the order will be voided and not be fulfilled.</li>
-<li>If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li>
-</ul>
-</li>
-</ul>
- <br/> data type: string</td>
+      <td>The current status of a guest's order in the restaurant fulfillment process. <ul><li><code>IN_PREPARATION</code>: The order is being actively worked on.</li><li><code>READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li><li><code>CLOSED</code>: The order is paid for and marked as completed.</li><li><code>VOIDED</code>:<ul><li>If the order is open, the order will be voided and not be fulfilled.</li><li>If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</td>
     </tr>
     <tr>
       <td><code>lastUpdated</code></td>
