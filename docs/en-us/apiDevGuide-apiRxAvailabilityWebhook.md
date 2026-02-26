@@ -208,8 +208,7 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
     </tr>
     <tr>
       <td>`reason`</td>
-      <td>`Restaurant cannot accept online
-              orders` <br/> The human-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string </td>
+      <td>`Restaurant cannot accept online orders` <br/> The human-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -375,27 +374,22 @@ For a restaurant to be available to accept online orders, the online ordering ch
   </thead>
   <tbody>
     <tr>
-      <td>`toggle_availability_online
-            ` <br/> The online ordering channel toggle is on. </td>
-      <td>`availability_online
-            ` <br/> Restaurant health is online.</td>
+      <td>`toggle_availability_online ` <br/> The online ordering channel toggle is on. </td>
+      <td>`availability_online ` <br/> Restaurant health is online.</td>
       <td>The restaurant is online and available to accept online orders. </td>
     </tr>
     <tr>
-      <td>`toggle_availability_online
-            ` <br/> The online ordering channel toggle is on. </td>
+      <td>`toggle_availability_online ` <br/> The online ordering channel toggle is on. </td>
       <td>`availability_offline` <br/> Restaurant health is offline.</td>
       <td>The restaurant is offline and not available to accept online orders. </td>
     </tr>
     <tr>
-      <td>`toggle_availability_offline
-            ` <br/> The online ordering channel toggle is off. </td>
+      <td>`toggle_availability_offline ` <br/> The online ordering channel toggle is off. </td>
       <td>`availability_online` <br/> Restaurant health is online.</td>
       <td>The restaurant is offline and not available to accept online orders. </td>
     </tr>
     <tr>
-      <td>`toggle_availability_offline
-            ` <br/> The online ordering channel toggle is off. </td>
+      <td>`toggle_availability_offline ` <br/> The online ordering channel toggle is off. </td>
       <td>`availability_offline` <br/> Restaurant health is offline.</td>
       <td>The restaurant is offline and not available to accept online orders. </td>
     </tr>

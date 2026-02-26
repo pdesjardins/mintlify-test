@@ -117,8 +117,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td>**A:**</td>
-      <td>To use the Manage Online Orders button on the Orders Hub screen, you must have the 3.29 Throttle Online Orders permission. If you do not have the 3.29 Throttle Online Orders permission, you will encounter an error message when trying to access the Manage Online Orders button on the Orders Hub screen. The error message displays: `Manager
-            Passcode or Swipe Card Required`. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).</td>
+      <td>To use the Manage Online Orders button on the Orders Hub screen, you must have the 3.29 Throttle Online Orders permission. If you do not have the 3.29 Throttle Online Orders permission, you will encounter an error message when trying to access the Manage Online Orders button on the Orders Hub screen. The error message displays: `Manager Passcode or Swipe Card Required`. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).</td>
     </tr>
   </tbody>
 </table>

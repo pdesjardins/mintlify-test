@@ -56,8 +56,7 @@ The following table provides information about the settings of the Printed Ticke
     </tr>
     <tr>
       <td>Other Stations</td>
-      <td>Defines whether items prepared at more than one prep station display `ALSO AT:` followed by the prep station name(s) on the ticket.<ul><li>For each ticket, list other stations working on that ticket <br/> This option affects each item with more than one prep station assigned to it. For example, item Fries is assigned to both the Hot station and the Fry station. The ticket at the Hot station includes `ALSO AT:
-                      FRY`.</li><li>Do not list other stations working on each ticket</li></ul> <br/> For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent).</td>
+      <td>Defines whether items prepared at more than one prep station display `ALSO AT:` followed by the prep station name(s) on the ticket.<ul><li>For each ticket, list other stations working on that ticket <br/> This option affects each item with more than one prep station assigned to it. For example, item Fries is assigned to both the Hot station and the Fry station. The ticket at the Hot station includes `ALSO AT: FRY`.</li><li>Do not list other stations working on each ticket</li></ul> <br/> For more information about the effects of these options, see [KDS ticket contents](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefContent).</td>
     </tr>
     <tr>
       <td>Individual Item Tickets</td>

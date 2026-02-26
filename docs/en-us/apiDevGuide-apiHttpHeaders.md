@@ -96,8 +96,7 @@ In addition to the Toast-specific HTTP headers, webhook events include the stand
     </tr>
     <tr>
       <td>`User-Agent`</td>
-      <td>`Apache-HttpClient/4.5.10
-              (Java/1.8.0_212)`</td>
+      <td>`Apache-HttpClient/4.5.10 (Java/1.8.0_212)`</td>
     </tr>
   </tbody>
 </table>

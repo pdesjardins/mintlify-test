@@ -843,8 +843,7 @@ The following table shows the information about each menu group at your restaura
     </tr>
     <tr>
       <td>subgroups</td>
-      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the
-              Bottle`.</td>
+      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`.</td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1198,8 +1197,7 @@ The following table shows the information about the premodifiers or postmodifier
   <tbody>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON
-              SIDE`.</td>
+      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON SIDE`.</td>
       <td>String</td>
     </tr>
     <tr>

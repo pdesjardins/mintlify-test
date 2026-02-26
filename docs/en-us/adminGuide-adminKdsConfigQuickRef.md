@@ -159,29 +159,25 @@ You define what information appears on tickets by setting the options described 
     </tr>
     <tr>
       <td>[Color-code](adminGuide-platformKitchenConfiguringTickets#adminColorCodingKdsTickets) menu items</td>
-      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
-              group}`* > *`{menu item}`* > KDS Color</td>
+      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu group}`* > *`{menu item}`* > KDS Color</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>
     <tr>
       <td>[Color-code](adminGuide-platformKitchenConfiguringTickets#adminColorCodingKdsTickets) modifier options</td>
-      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
-              group}`* > *`{menu item}`* > *`{modifier group}`* > *`{modifier}`* > KDS Color</td>
+      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu group}`* > *`{menu item}`* > *`{modifier group}`* > *`{modifier}`* > KDS Color</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>
     <tr>
       <td>Customize names for menu items</td>
-      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
-              group}`* > *`{menu item}`* > Kitchen Name</td>
+      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu group}`* > *`{menu item}`* > Kitchen Name</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>
     <tr>
       <td>Customize names for modifiers</td>
-      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu
-              group}`* > *`{menu item}`* > *`{modifier group}`* > *`{modifier}`* > Kitchen Name</td>
+      <td>Menus > Bulk management > Advanced properties > *`{menu}`* > *`{menu group}`* > *`{menu item}`* > *`{modifier group}`* > *`{modifier}`* > Kitchen Name</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>

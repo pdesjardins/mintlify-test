@@ -778,8 +778,7 @@ The following table shows details on what the kitchen details data export contai
     </tr>
     <tr>
       <td>Check Opened</td>
-      <td>The time of day that the check was opened, in twelve-hour format. For example: `10/22/19 4:22
-          PM`.</td>
+      <td>The time of day that the check was opened, in twelve-hour format. For example: `10/22/19 4:22 PM`.</td>
       <td>Date (MM/DD/YY h:mm AM|PM)</td>
     </tr>
     <tr>
@@ -804,8 +803,7 @@ The following table shows details on what the kitchen details data export contai
     </tr>
     <tr>
       <td>Fulfillment Time</td>
-      <td>The amount of time it took for the ticket to be fulfilled. The duration is calculated by subtracting the Fired Date from the Fulfilled Date. For example: `2 weeks, 1 day, 22
-          hours, 1 minute and 6 seconds`.</td>
+      <td>The amount of time it took for the ticket to be fulfilled. The duration is calculated by subtracting the Fired Date from the Fulfilled Date. For example: `2 weeks, 1 day, 22 hours, 1 minute and 6 seconds`.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1178,8 +1176,7 @@ The following table shows the information about each menu group at your restaura
     </tr>
     <tr>
       <td>subgroups</td>
-      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the
-              Bottle`.</td>
+      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`.</td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1533,8 +1530,7 @@ The following table shows the information about the premodifiers or postmodifier
   <tbody>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON
-              SIDE`.</td>
+      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON SIDE`.</td>
       <td>String</td>
     </tr>
     <tr>

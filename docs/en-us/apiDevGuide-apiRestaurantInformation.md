@@ -299,8 +299,7 @@ The following example shows the JSON response data for a GET request to the `/re
     </tr>
     <tr>
       <td>[(2)](#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
-      <td>[General information](apiDevGuide-apiRestaurantInformation#restInfoGeneral) about the restaurant. The name of this sample restaurant is `Trattoria
-            Roma`.</td>
+      <td>[General information](apiDevGuide-apiRestaurantInformation#restInfoGeneral) about the restaurant. The name of this sample restaurant is `Trattoria Roma`.</td>
     </tr>
     <tr>
       <td>[(3)](#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F)</td>
