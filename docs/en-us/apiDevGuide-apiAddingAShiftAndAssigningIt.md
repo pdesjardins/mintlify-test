@@ -57,7 +57,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
     </tr>
     <tr>
       <td>[(3)](#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
-      <td>Include information about the new employee in the message body of the `POST` request. This example **curl** command sends message body data from the contents of a file.</td>
+      <td>Include information about the new employee in the message body of the `POST` request. This example <strong>curl</strong>  command sends message body data from the contents of a file.</td>
     </tr>
   
 ## Example shift details for the message body of the request to add a shift

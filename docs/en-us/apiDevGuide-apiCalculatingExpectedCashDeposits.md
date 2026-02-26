@@ -248,7 +248,7 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
     </tr>
     <tr>
       <td>[(4)](#co-d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
-      <td>Specify the business day of the payments in the *`paidBusinessDate`* query parameter.</td>
+      <td>Specify the business day of the payments in the <em>`paidBusinessDate`</em>  query parameter.</td>
     </tr>
     <tr>
       <td>[(5)](#co-d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
@@ -300,7 +300,7 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
     </tr>
     <tr>
       <td>[(17)](#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>
-      <td>Specify the business day of the cash entries in the *`businessDate`* query parameter.</td>
+      <td>Specify the business day of the cash entries in the <em>`businessDate`</em>  query parameter.</td>
     </tr>
     <tr>
       <td>[(18)](#co-d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065)</td>

@@ -64,7 +64,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory/update
     </tr>
     <tr>
       <td>[(3)](#co-d1e1551646327542)</td>
-      <td>Include the array of menu items to update in the message body of the `PUT` request. This example **curl** command sends message body data from the contents of the `my-item-inventory-data.json` file.</td>
+      <td>Include the array of menu items to update in the message body of the `PUT` request. This example <strong>curl</strong>  command sends message body data from the contents of the `my-item-inventory-data.json` file.</td>
     </tr>
   
 For each menu item to update, include a `MenuItemInventory`object in the message body with the following values:

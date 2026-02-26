@@ -59,7 +59,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
     </tr>
     <tr>
       <td>[(3)](#co-d1e13309EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
-      <td>Send a `GET` request to the `/orders/<em>&#123;guid&#125;</em>` endpoint of the orders API. Specify the GUID of the order as a path parameter.</td>
+      <td>Send a `GET` request to the `/orders/<em>&#123;guid&#125;</em> ` endpoint of the orders API. Specify the GUID of the order as a path parameter.</td>
     </tr>
 ## Example response data
 
@@ -269,7 +269,7 @@ The following example shows the response data from the `/orders/&#123;guid&#125;
 
     <tr>
       <td>[(1)](#co-d1e15009EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
-      <td>The `/orders/<em>&#123;guid&#125;</em>` endpoint returns an `Order` JSON object. For more information about the values in the `Order` object, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/).</td>
+      <td>The `/orders/<em>&#123;guid&#125;</em> ` endpoint returns an `Order` JSON object. For more information about the values in the `Order` object, see the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/).</td>
     </tr>
     <tr>
       <td>[(2)](#apiOrdersDeliveryInfo)</td>

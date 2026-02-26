@@ -65,7 +65,7 @@ https://`[toast-api-hostname]`/labor/v1/employees
     </tr>
     <tr>
       <td>[(3)](#co-d1e17521EC7EA2-706D-4B5B-B210-636982B89D94)</td>
-      <td>Include information about the new employee in the message body of the `POST` request. This example **curl** command sends message body data from the contents of a file.</td>
+      <td>Include information about the new employee in the message body of the `POST` request. This example <strong>curl</strong>  command sends message body data from the contents of a file.</td>
     </tr>
   
 ## Example employee details for the request to add an employee

@@ -55,7 +55,7 @@ The Toast platform offers a variety of pricing-related features that give you th
     </tr>
     <tr>
       <td>[Open Price](adminGuide-adminOpenPrice) pricing strategy</td>
-      <td>Allows you to manually specify a price for a menu item at the time that menu item is ordered on the Toast POS app. The Open Price strategy can be set on individual menu items or at the menu group level. <br/> See also **Open items** below for another pricing feature that handles menu items with open prices.</td>
+      <td>Allows you to manually specify a price for a menu item at the time that menu item is ordered on the Toast POS app. The Open Price strategy can be set on individual menu items or at the menu group level. <br/> See also <strong>Open items</strong>  below for another pricing feature that handles menu items with open prices.</td>
       <td>Menu groups <br/> Menu items</td>
     </tr>
     <tr>
@@ -85,7 +85,7 @@ The Toast platform offers a variety of pricing-related features that give you th
     </tr>
     <tr>
       <td>Open items</td>
-      <td>Open items allow you to create a special request for a menu item that does not exist on your regular menu. When you create an open item on the Toast POS app, you give the item a name and a price and add it to a guest's check. Open items are configured on the Menus > Settings > Open items page. For information about configuring and using open items, see this [Toast Central article](https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670). <br/> Also, see **Open Price pricing strategy** above for another pricing feature that handles menu items with open prices.</td>
+      <td>Open items allow you to create a special request for a menu item that does not exist on your regular menu. When you create an open item on the Toast POS app, you give the item a name and a price and add it to a guest's check. Open items are configured on the Menus > Settings > Open items page. For information about configuring and using open items, see this [Toast Central article](https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670). <br/> Also, see <strong>Open Price pricing strategy</strong>  above for another pricing feature that handles menu items with open prices.</td>
       <td>Menu groups <br/> Menu items</td>
     </tr>
   </tbody>

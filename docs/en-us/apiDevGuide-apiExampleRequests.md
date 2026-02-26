@@ -22,32 +22,32 @@ Toast provides a Postman™ API client collection of API requests to help you te
 <table>
   <tbody>
     <tr>
-      <td>**1.1.**</td>
-      <td>**What is Postman, and where can I learn more about it?**</td>
+      <td><strong>1.1.</strong> </td>
+      <td><strong>What is Postman, and where can I learn more about it?</strong> </td>
     </tr>
     <tr>
       <td></td>
       <td>Postman is a tool for making ad hoc API calls. To learn more about this tool and to download it, see [the Postman website](https://www.getpostman.com/).</td>
     </tr>
     <tr>
-      <td>**1.2.**</td>
-      <td>**Where can I get the Postman collection?**</td>
+      <td><strong>1.2.</strong> </td>
+      <td><strong>Where can I get the Postman collection?</strong> </td>
     </tr>
     <tr>
       <td></td>
       <td>The Postman API client collection for Toast APIs can be found [here](../media/Toast_Postman_Collection.zip).</td>
     </tr>
     <tr>
-      <td>**1.3.**</td>
-      <td>**What initial setup should I do?**</td>
+      <td><strong>1.3.</strong> </td>
+      <td><strong>What initial setup should I do?</strong> </td>
     </tr>
     <tr>
       <td></td>
       <td>Unzip the collection file in the link above. To import the collection, in Postman go to File > Import > Import from File. <br/> Select each file from the unzipped collection file to import them. <br/> For more information about using the Postman API client, see [the Postman documentation](https://learning.postman.com/). <br/> To set up your Postman collection:<ol><li>Click the eye icon at the top right of your Postman window, then select the Sandbox environment.![Image](https://doc.toasttab.com/doc/media/postman_environments.png)</li><li>In the Current Value column, add the environment hostname, your API client credentials, and the desired restaurant GUID. Do not add this information to the Initial Value column.![Image](https://doc.toasttab.com/doc/media/postman_setup.png)</li><li>Open a request from an API you will use in your integration.  <br/> New integration partners often use the configuration API to run their first API test.  <br/> Submit an API request to ensure you receive data in return. <br/> The pre-request script in each Postman collection automatically requests a new authentication token.</li></ol> <br/> To obtain hostnames and authentication credentials, contact Toast support. <br/> If you are using a [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts), the [partners endpoint](apiDevGuide-apiPartnersGettingAccessibleRestaurants) provides the list of restaurant GUIDs that you are able to poll.</td>
     </tr>
     <tr>
-      <td>**1.4.**</td>
-      <td>**How do I make an API call?**</td>
+      <td><strong>1.4.</strong> </td>
+      <td><strong>How do I make an API call?</strong> </td>
     </tr>
     <tr>
       <td></td>

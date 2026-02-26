@@ -155,7 +155,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Include details about the requested labor reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested labor reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the labor reporting data request
 

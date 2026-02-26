@@ -89,7 +89,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for payout reporting data by payments
 

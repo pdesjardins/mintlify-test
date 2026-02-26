@@ -391,7 +391,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory/search
     </tr>
     <tr>
       <td>[(3)](#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00)</td>
-      <td>Include the menu item list in the message body of the `POST` request. This example **curl** command sends message body data from the contents of the `my-item-search-data.json` file.</td>
+      <td>Include the menu item list in the message body of the `POST` request. This example <strong>curl</strong>  command sends message body data from the contents of the `my-item-search-data.json` file.</td>
     </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/inventory/search` resource.

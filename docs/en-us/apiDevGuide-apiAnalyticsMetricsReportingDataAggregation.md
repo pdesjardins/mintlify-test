@@ -322,7 +322,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/day?aggregateBy
     </tr>
     <tr>
       <td>[(5)](#co-d1e5846FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateByGroupByExampleCreateMessageBody) is the message body for this **curl** command example.</td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateByGroupByExampleCreateMessageBody) is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the aggregated sales reporting data request using `aggregateBy` and `groupBy`
 

@@ -79,23 +79,23 @@ The following table describes the transaction types that the Toast platform send
   <tbody>
     <tr>
       <td>`GIFTCARD_ACTIVATE`</td>
-      <td>Activates a new gift card.  <br/> For example, the Toast platform sends a `GIFTCARD_ACTIVATE` request when it handles a gift card sale transaction. <br/> **Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` response status.</td>
+      <td>Activates a new gift card.  <br/> For example, the Toast platform sends a `GIFTCARD_ACTIVATE` request when it handles a gift card sale transaction. <br/> <strong>Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` response status.</td>
     </tr>
     <tr>
       <td>`GIFTCARD_ADD_VALUE`</td>
-      <td>Increases the amount of money available on a gift card. <br/> For example, the Toast platform sends a GIFTCARD_ADD_VALUE request when it handles a gift card sale (initial balance) or when a restaurant guest purchases additional value to add to a gift card balance.  <br/> **Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` response status.</td>
+      <td>Increases the amount of money available on a gift card. <br/> For example, the Toast platform sends a GIFTCARD_ADD_VALUE request when it handles a gift card sale (initial balance) or when a restaurant guest purchases additional value to add to a gift card balance.  <br/> <strong>Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` response status.</td>
     </tr>
     <tr>
       <td>`GIFTCARD_GET_BALANCE`</td>
-      <td>Requests the amount of money that is available for purchases on a gift card. <br/> For example, the Toast platform sends a `GIFTCARD_GET_BALANCE` request when a restaurant guest asks a restaurant employee to check the amount of money that is available. <blockquote><strong>Note</strong> In some situations, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a card is not already active during a gift card sale.</blockquote>  <br/> **Required **Your gift card implementation must handle requests with this transaction type.</td>
+      <td>Requests the amount of money that is available for purchases on a gift card. <br/> For example, the Toast platform sends a `GIFTCARD_GET_BALANCE` request when a restaurant guest asks a restaurant employee to check the amount of money that is available. <blockquote><strong>Note</strong> In some situations, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a card is not already active during a gift card sale.</blockquote>  <br/> <strong>Required </strong> Your gift card implementation must handle requests with this transaction type.</td>
     </tr>
     <tr>
       <td>`GIFTCARD_REDEEM`</td>
-      <td>Decreases the amount of money available on a gift card. <br/> For example, the Toast platform sends a `GIFTCARD_REDEEM` request when a restaurant guest makes a purchase using a gift card as a form of payment. <br/> If the redeem request is for a cash-out transaction, the `isCashOut` value of the `TransactionInformationRedeem` object is `true`. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see [Cash out transactions](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardApiCashOutRedeem). <br/> **Optional **Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` response status.</td>
+      <td>Decreases the amount of money available on a gift card. <br/> For example, the Toast platform sends a `GIFTCARD_REDEEM` request when a restaurant guest makes a purchase using a gift card as a form of payment. <br/> If the redeem request is for a cash-out transaction, the `isCashOut` value of the `TransactionInformationRedeem` object is `true`. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see [Cash out transactions](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardApiCashOutRedeem). <br/> <strong>Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a `ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED` response status.</td>
     </tr>
     <tr>
       <td>`GIFTCARD_REVERSE`</td>
-      <td>Undoes a previous gift card transaction. <br/> For example, the Toast platform sends a `GIFTCARD_REVERSE` request when a restaurant employee voids a purchase made with a gift card. <br/> **Required **Your gift card implementation must handle requests with this transaction type.</td>
+      <td>Undoes a previous gift card transaction. <br/> For example, the Toast platform sends a `GIFTCARD_REVERSE` request when a restaurant employee voids a purchase made with a gift card. <br/> <strong>Required </strong> Your gift card implementation must handle requests with this transaction type.</td>
     </tr>
   </tbody>
 </table>
@@ -125,11 +125,11 @@ The following table describes the response status types that your gift card prov
     </tr>
     <tr>
       <td>`ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED`</td>
-      <td>Your implementation does not handle the optional transaction type that was supplied in the request. <br/> Return this response status type when the request transaction type *is one of the types defined* by the gift card integration API specification but you have decided not to support it.</td>
+      <td>Your implementation does not handle the optional transaction type that was supplied in the request. <br/> Return this response status type when the request transaction type <em>is one of the types defined</em>  by the gift card integration API specification but you have decided not to support it.</td>
     </tr>
     <tr>
       <td>`ERROR_INVALID_TOAST_TRANSACTION_TYPE`</td>
-      <td>The transaction type identifier supplied in the `Toast-Transaction-Type` header parameter of the request is not one of the recognized transaction types. <br/> Return this response status type when the request transaction type *is not one of the types defined* by the gift card integration API specification.</td>
+      <td>The transaction type identifier supplied in the `Toast-Transaction-Type` header parameter of the request is not one of the recognized transaction types. <br/> Return this response status type when the request transaction type <em>is not one of the types defined</em>  by the gift card integration API specification.</td>
     </tr>
     <tr>
       <td>`ERROR_CARD_ALREADY_ACTIVATED`</td>

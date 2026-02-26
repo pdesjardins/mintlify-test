@@ -47,7 +47,7 @@ The entries in the table below define errors you may encounter while using the o
       <td>Check the `startDate` and `endDate` values throughout your request and ensure that the `startDate` time stamps occur before the `endDate` time stamps.</td>
     </tr>
     <tr>
-      <td>Item (*`&#123;item GUID&#125;`*) does not belong to the group (*`&#123;item group GUID&#125;`*)</td>
+      <td>Item (<em>`&#123;item GUID&#125;`</em> ) does not belong to the group (<em>`&#123;item group GUID&#125;`</em> )</td>
       <td> A menu item in your request does not belong to the referenced menu group. Update the menu item's `menuGroups`. You can find `menuItems` and `menuGroups` values by submitting a `GET` request to the `/menus/v2/menus` endpoint.</td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@ The entries in the table below define errors you may encounter while using the o
       <td>Your request contains a menu item entry that is missing a GUID or a `multilocationId`. You can find The GUID and `multilocationId` values by submitting a `GET` request from the appropriate menu endpoint. For more information see [devGuide](apiDevGuide-apiComparingMenusAPIV2AndV3)</td>
     </tr>
     <tr>
-      <td> Restaurant(&#123;*`restaurant GUID`*&#125;) has been deleted</td>
+      <td> Restaurant(&#123;<em>`restaurant GUID`</em> &#125;) has been deleted</td>
       <td>The restaurant GUID that you are using in your order request refers to a restaurant that's been deleted. Stop all API requests to this restaurant. </td>
     </tr>
   </tbody>

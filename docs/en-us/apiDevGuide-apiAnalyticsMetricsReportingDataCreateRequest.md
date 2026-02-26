@@ -83,7 +83,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestCustomRangeExampleMessageBody) is the message body for this **curl** command example.</td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestCustomRangeExampleMessageBody) is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the custom time range aggregated sales reporting data request
 
@@ -199,7 +199,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestSpecificRangeExampleMessageBody) is the message body for this **curl** command example.</td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestSpecificRangeExampleMessageBody) is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the specific time range aggregated sales reporting data request
 

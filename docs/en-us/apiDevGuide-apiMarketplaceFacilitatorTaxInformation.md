@@ -225,7 +225,7 @@ The following example shows the orders API return data for a marketplace facilit
 
     <tr>
       <td>[(1)](#co-d1e31CC34B3B2-D5E8-41EC-A472-B380E595E5A4)</td>
-      <td>Any value *other than*`EXTERNAL` indicates that the marketplace facilitator used the prices and tax amounts calculated by the Toast platform for the order.</td>
+      <td>Any value <em>other than</em> `EXTERNAL` indicates that the marketplace facilitator used the prices and tax amounts calculated by the Toast platform for the order.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e33CC34B3B2-D5E8-41EC-A472-B380E595E5A4)</td>

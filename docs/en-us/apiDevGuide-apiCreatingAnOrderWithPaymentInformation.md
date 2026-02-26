@@ -297,11 +297,11 @@ The following example shows the response returned by the `/orders` endpoint of t
     </tr>
     <tr>
       <td>[(9)](#co-d1e4129EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
-      <td>The date and time that *all* checks in the order were completely paid.</td>
+      <td>The date and time that <em>all</em>  checks in the order were completely paid.</td>
     </tr>
     <tr>
       <td>[(10)](#co-d1e4149EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>
-      <td>The date and time that *all* checks in the order were completely fulfilled and paid.</td>
+      <td>The date and time that <em>all</em>  checks in the order were completely fulfilled and paid.</td>
     </tr>
     <tr>
       <td>[(11)](#co-d1e4169EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8)</td>

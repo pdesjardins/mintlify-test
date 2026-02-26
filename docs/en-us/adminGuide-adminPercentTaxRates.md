@@ -50,7 +50,7 @@ The following table describes the four Toast rounding options.
   <tbody>
     <tr>
       <td>Half Even Rounding</td>
-      <td>Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24. <br/> For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest **even** number. For example, $1.235 rounds to $1.24.</td>
+      <td>Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24. <br/> For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest <strong>even</strong>  number. For example, $1.235 rounds to $1.24.</td>
       <td>$0.112 -> $0.11 <br/> $0.115 -> $0.12 <br/> $0.125 -> $0.12 <br/> $0.135 -> $0.14</td>
     </tr>
     <tr>

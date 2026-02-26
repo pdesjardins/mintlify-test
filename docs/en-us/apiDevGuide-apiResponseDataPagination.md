@@ -237,15 +237,15 @@ The following table identifies the pagination functionality used by Toast API en
   <tbody>
     <tr>
       <td>Configuration API</td>
-      <td>All endpoints that return paginated response data use *page token pagination*. For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken). <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated *for configuration API endpoints*. As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </td>
+      <td>All endpoints that return paginated response data use <em>page token pagination</em> . For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken). <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated <em>for configuration API endpoints</em> . As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </td>
     </tr>
     <tr>
       <td>Kitchen API</td>
-      <td>All endpoints that return paginated response data use *page token pagination* for response data. <br/> For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).</td>
+      <td>All endpoints that return paginated response data use <em>page token pagination</em>  for response data. <br/> For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).</td>
     </tr>
     <tr>
       <td>Orders API `/ordersBulk` endpoint</td>
-      <td>The orders API `/ordersBulk` endpoint uses *fixed-size pagination*. <br/> For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize).</td>
+      <td>The orders API `/ordersBulk` endpoint uses <em>fixed-size pagination</em> . <br/> For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize).</td>
     </tr>
   </tbody>
 </table>

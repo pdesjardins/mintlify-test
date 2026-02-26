@@ -205,7 +205,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e5159F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the menu reporting data request
 

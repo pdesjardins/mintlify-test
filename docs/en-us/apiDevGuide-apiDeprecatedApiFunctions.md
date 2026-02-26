@@ -77,7 +77,7 @@ endDate=2019-02-27T09%3A59%3A00.000-0500"
     </tr>
     <tr>
       <td>[(4)](#co-d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A)</td>
-      <td>Specify a period of time up to one hour by including dates and times in the *`startDate`* and *`endDate`* query parameters.</td>
+      <td>Specify a period of time up to one hour by including dates and times in the <em>`startDate`</em>  and <em>`endDate`</em>  query parameters.</td>
     </tr>
   
 **Example 1.12. Request for orders created during one business day**
@@ -1335,11 +1335,11 @@ ${MENU_EXPORT_FILE}
     </tr>
     <tr>
       <td>[(5)](#co-d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
-      <td>This **jq** command filters the JSON contents of the menu data export file. For more information about the **jq** utility command syntax, see the [jq web site](https://stedolan.github.io/jq/).</td>
+      <td>This <strong>jq</strong>  command filters the JSON contents of the menu data export file. For more information about the <strong>jq</strong>  utility command syntax, see the [jq web site](https://stedolan.github.io/jq/).</td>
     </tr>
     <tr>
       <td>[(6)](#co-d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0)</td>
-      <td>These **jq** command filters select one menu item from its menu and menu group. It then selects each menu item in the `optionGroup` array for that menu item if the `isDefault` value for the `optionGroup` is `true`.</td>
+      <td>These <strong>jq</strong>  command filters select one menu item from its menu and menu group. It then selects each menu item in the `optionGroup` array for that menu item if the `isDefault` value for the `optionGroup` is `true`.</td>
     </tr>
   
 The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](apiDevGuide-apiDeprecatedApiFunctions#apiUsingJqToFindDefaultModifiers).

@@ -28,7 +28,7 @@ This section uses the following webhook terms and concepts:
   <tbody>
     <tr>
       <td>Webhook</td>
-      <td>A Web-based callback that allows the Toast platform to push updates (also known as *webhook events*) to webhook consumers, reducing or eliminating the need to poll a Toast API.</td>
+      <td>A Web-based callback that allows the Toast platform to push updates (also known as <em>webhook events</em> ) to webhook consumers, reducing or eliminating the need to poll a Toast API.</td>
     </tr>
     <tr>
       <td>Webhook URL</td>

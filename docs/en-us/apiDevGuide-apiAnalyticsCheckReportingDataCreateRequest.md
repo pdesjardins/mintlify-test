@@ -76,7 +76,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Include details about the requested check reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested check reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ## Message body for check reporting data
 

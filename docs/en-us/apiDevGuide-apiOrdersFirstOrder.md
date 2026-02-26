@@ -134,7 +134,7 @@ All requests to the Toast platform APIs require the following headers:
     </tr>
     <tr>
       <td>`Authorization`</td>
-      <td>The access token in the format *`Bearer &#123;accessToken&#125;`*.</td>
+      <td>The access token in the format <em>`Bearer &#123;accessToken&#125;`</em> .</td>
     </tr>
     <tr>
       <td>`Content-Type`</td>

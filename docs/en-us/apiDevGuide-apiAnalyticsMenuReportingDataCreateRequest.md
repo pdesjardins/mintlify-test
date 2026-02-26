@@ -71,7 +71,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e59592E67B5E6-4A8B-4FAD-9CA0-6A0903A99396)</td>
-      <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for a custom time range of menu reporting data
 
@@ -177,7 +177,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e5971F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for a specific time range of menu reporting data
 

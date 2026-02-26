@@ -309,11 +309,11 @@ The following table provides more information about the values you include in th
   <tbody>
     <tr>
       <td>`END_USER`</td>
-      <td>The guest provided the credit card information directly. <br/> The `PaymentRequestMetadata` object in the `requestMetadata` value *must* include: <ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
+      <td>The guest provided the credit card information directly. <br/> The `PaymentRequestMetadata` object in the `requestMetadata` value <em>must</em>  include: <ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
     </tr>
     <tr>
       <td>`PARTNER_VAULT`</td>
-      <td>Your integration retrieved the credit card information from secure storage. <br/> The `PaymentRequestMetadata` object in the `requestMetadata` value *must* include:<ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
+      <td>Your integration retrieved the credit card information from secure storage. <br/> The `PaymentRequestMetadata` object in the `requestMetadata` value <em>must</em>  include:<ul><li>`cardFirst6`</li><li>`cardLast4`</li><li>`billingAddress`</li><li>`guestIdentifier`</li><li>`originIPAddr`</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -380,7 +380,7 @@ The following example shows the JSON message body data that applies an authorize
 
     <tr>
       <td>[(1)](#co-d1e195A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
-      <td>The payment UUID that you assign to the payment when you authorize it in the credit cards API. You supply this UUID in the *`paymentUuid`* path parameter for the `PUT` request to authorize the payment. For more information, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).</td>
+      <td>The payment UUID that you assign to the payment when you authorize it in the credit cards API. You supply this UUID in the <em>`paymentUuid`</em>  path parameter for the `PUT` request to authorize the payment. For more information, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e197A18BC72A-4EBC-425E-BD6C-E5E3E35516D3)</td>
@@ -589,15 +589,15 @@ openssl pkeyutl \
 
     <tr>
       <td>[(1)](#co-d1e63595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
-      <td>The **pkeyutl** command for the **openssl** utility can encrypt values. For more information, see the **openssl** utility [documentation](https://www.openssl.org/docs/man1.1.1/man1/openssl-pkeyutl.html).</td>
+      <td>The <strong>pkeyutl</strong>  command for the <strong>openssl</strong>  utility can encrypt values. For more information, see the <strong>openssl</strong>  utility [documentation](https://www.openssl.org/docs/man1.1.1/man1/openssl-pkeyutl.html).</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
-      <td>The *`-in`* argument provides the path to a file holding the JSON credit card information. See [Example 3.9, “Example credit card information for an encryptedCardData value”](apiDevGuide-authorizingCcPayments#apiExampleJsonCreditCardInformation).</td>
+      <td>The <em>`-in`</em>  argument provides the path to a file holding the JSON credit card information. See [Example 3.9, “Example credit card information for an encryptedCardData value”](apiDevGuide-authorizingCcPayments#apiExampleJsonCreditCardInformation).</td>
     </tr>
     <tr>
       <td>[(3)](#co-d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
-      <td>The *`-inkey`* argument provides the path to a file holding the RSA public key that corresponds with your Toast API client identifier.</td>
+      <td>The <em>`-inkey`</em>  argument provides the path to a file holding the RSA public key that corresponds with your Toast API client identifier.</td>
     </tr>
     <tr>
       <td>[(4)](#co-d1e64895B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
@@ -605,11 +605,11 @@ openssl pkeyutl \
     </tr>
     <tr>
       <td>[(5)](#co-d1e65095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
-      <td>The **base64** command for the **openssl** utility encodes binary data in base64 format.</td>
+      <td>The <strong>base64</strong>  command for the <strong>openssl</strong>  utility encodes binary data in base64 format.</td>
     </tr>
     <tr>
       <td>[(6)](#co-d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387)</td>
-      <td>This **tr** command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON `encryptedCardData` value for a credit cards API authorization request.</td>
+      <td>This <strong>tr</strong>  command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON `encryptedCardData` value for a credit cards API authorization request.</td>
     </tr>
   
 ### Encryption keys and key identifiers

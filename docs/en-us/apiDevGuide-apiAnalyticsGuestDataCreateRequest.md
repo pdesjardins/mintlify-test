@@ -69,7 +69,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
     </tr>
     <tr>
       <td>[(4)](#co-d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Include details about the requested guest reporting data in the message body. The following example is the message body for this **curl** command example.</td>
+      <td>Include details about the requested guest reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ## Message body for guest reporting data
 

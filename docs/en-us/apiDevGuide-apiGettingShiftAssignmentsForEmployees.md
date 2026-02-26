@@ -174,10 +174,10 @@ my-shifts-get-request-response-data.json
 
     <tr>
       <td>[(1)](#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD)</td>
-      <td>This **jq** command syntax selects the JSON array members that have a specific employee GUID in the `employeeReference.guid` value for the shift.</td>
+      <td>This <strong>jq</strong>  command syntax selects the JSON array members that have a specific employee GUID in the `employeeReference.guid` value for the shift.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD)</td>
-      <td>In this example, the **jq** utility is reading JSON from the output file of the **curl** command that made the initial GET request to the shifts resource. See [Example 7.5, “Example request to GET all scheduled shifts for a restaurant”](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example).</td>
+      <td>In this example, the <strong>jq</strong>  utility is reading JSON from the output file of the <strong>curl</strong>  command that made the initial GET request to the shifts resource. See [Example 7.5, “Example request to GET all scheduled shifts for a restaurant”](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example).</td>
     </tr>
   

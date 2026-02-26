@@ -159,25 +159,25 @@ You define what information appears on tickets by setting the options described 
     </tr>
     <tr>
       <td>[Color-code](adminGuide-platformKitchenConfiguringTickets#adminColorCodingKdsTickets) menu items</td>
-      <td>Menus > Bulk management > Advanced properties > *`&#123;menu&#125;`* > *`&#123;menu group&#125;`* > *`&#123;menu item&#125;`* > KDS Color</td>
+      <td>Menus > Bulk management > Advanced properties > <em>`&#123;menu&#125;`</em>  > <em>`&#123;menu group&#125;`</em>  > <em>`&#123;menu item&#125;`</em>  > KDS Color</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>
     <tr>
       <td>[Color-code](adminGuide-platformKitchenConfiguringTickets#adminColorCodingKdsTickets) modifier options</td>
-      <td>Menus > Bulk management > Advanced properties > *`&#123;menu&#125;`* > *`&#123;menu group&#125;`* > *`&#123;menu item&#125;`* > *`&#123;modifier group&#125;`* > *`&#123;modifier&#125;`* > KDS Color</td>
+      <td>Menus > Bulk management > Advanced properties > <em>`&#123;menu&#125;`</em>  > <em>`&#123;menu group&#125;`</em>  > <em>`&#123;menu item&#125;`</em>  > <em>`&#123;modifier group&#125;`</em>  > <em>`&#123;modifier&#125;`</em>  > KDS Color</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>
     <tr>
       <td>Customize names for menu items</td>
-      <td>Menus > Bulk management > Advanced properties > *`&#123;menu&#125;`* > *`&#123;menu group&#125;`* > *`&#123;menu item&#125;`* > Kitchen Name</td>
+      <td>Menus > Bulk management > Advanced properties > <em>`&#123;menu&#125;`</em>  > <em>`&#123;menu group&#125;`</em>  > <em>`&#123;menu item&#125;`</em>  > Kitchen Name</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>
     <tr>
       <td>Customize names for modifiers</td>
-      <td>Menus > Bulk management > Advanced properties > *`&#123;menu&#125;`* > *`&#123;menu group&#125;`* > *`&#123;menu item&#125;`* > *`&#123;modifier group&#125;`* > *`&#123;modifier&#125;`* > Kitchen Name</td>
+      <td>Menus > Bulk management > Advanced properties > <em>`&#123;menu&#125;`</em>  > <em>`&#123;menu group&#125;`</em>  > <em>`&#123;menu item&#125;`</em>  > <em>`&#123;modifier group&#125;`</em>  > <em>`&#123;modifier&#125;`</em>  > Kitchen Name</td>
       <td> </td>
       <td>Restaurant Admin > 4.5 Edit Full Menu</td>
     </tr>

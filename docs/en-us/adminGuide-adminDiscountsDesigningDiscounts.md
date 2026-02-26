@@ -43,7 +43,7 @@ The following table shows discount types that are not complicated to configure. 
       <td>$3.00 off a large cheese pizza.</td>
     </tr>
     <tr>
-      <td>[Buy One Get One (BOGO) discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with *buy items* that are specific menu items and that apply a fixed or percent discount to the *get item*.</td>
+      <td>[Buy One Get One (BOGO) discounts](adminGuide-adminDiscountTypes#adminBogoDiscounts) with <em>buy items</em>  that are specific menu items and that apply a fixed or percent discount to the <em>get item</em> .</td>
       <td>Buy a large cheese pizza (a single menu item) and get a free (100% discount), two-liter bottled drink.</td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@ The following table shows discount types that are not complicated to configure. 
       <td>Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00.</td>
     </tr>
     <tr>
-      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts) that apply a combo price for any number of specific menu items and menu groups in which *all menu items have the same price and do not use size pricing*.</td>
+      <td>[Combo discounts](adminGuide-adminDiscountTypes#adminCombinationDiscounts) that apply a combo price for any number of specific menu items and menu groups in which <em>all menu items have the same price and do not use size pricing</em> .</td>
       <td>Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00.</td>
     </tr>
   </tbody>
