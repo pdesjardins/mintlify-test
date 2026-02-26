@@ -105,28 +105,7 @@ With the exception of the Price column, all of the columns are required when cre
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu entity's price. This is the only optional column in the basic template.<ul><li>For menu items: <br/> The Price column contains the base price for the menu item. (Menu items created using the basic template must use the <code>BASE</code> pricing strategy.)</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to <code>BASE</code>, the Price column contains the price that applies to <em>all modifiers</em>  in the modifier group. (The <code>BASE</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to <code>PRICED_BY_MODIFIERS</code>, you must leave the Price column empty. (The <code>PRICED_BY_MODIFIERS</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's <em>parent modifier group</em>  uses the <code>PRICED_BY_MODIFIERS</code> pricing method, the Price column in the <em>modifier's row</em>  specifies the individual base price of the modifier. (Modifiers created using the basic template must use base prices.)</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null
-""
-".12"
-"1"
-"10"
-"100"
-"100.00"
-".1"
-"100.0"
-"100."
-"-.1"
-"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"
-"$a" 
-"." 
-"€1" 
-"10.." 
-"..100" 
-"10.0." 
-"abc" 
-"100.0$0" 
-"$10a.00"
-"$"</code></pre> </td>
+      <td>A string representing the menu entity's price. This is the only optional column in the basic template.<ul><li>For menu items: <br/> The Price column contains the base price for the menu item. (Menu items created using the basic template must use the <code>BASE</code> pricing strategy.)</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to <code>BASE</code>, the Price column contains the price that applies to <em>all modifiers</em>  in the modifier group. (The <code>BASE</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to <code>PRICED_BY_MODIFIERS</code>, you must leave the Price column empty. (The <code>PRICED_BY_MODIFIERS</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's <em>parent modifier group</em>  uses the <code>PRICED_BY_MODIFIERS</code> pricing method, the Price column in the <em>modifier's row</em>  specifies the individual base price of the modifier. (Modifiers created using the basic template must use base prices.)</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null&#10;""&#10;".12"&#10;"1"&#10;"10"&#10;"100"&#10;"100.00"&#10;".1"&#10;"100.0"&#10;"100."&#10;"-.1"&#10;"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"&#10;"$a" &#10;"." &#10;"€1" &#10;"10.." &#10;"..100" &#10;"10.0." &#10;"abc" &#10;"100.0$0" &#10;"$10a.00"&#10;"$"</code></pre> </td>
     </tr>
   </tbody>
 </table>
@@ -182,28 +161,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu item's base price. Optional. <blockquote><strong>Note</strong> The item update template is limited to updating the prices of menu items that use the <code>BASE</code> pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.</blockquote>  <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null
-""
-".12"
-"1"
-"10"
-"100"
-"100.00"
-".1"
-"100.0"
-"100."
-"-.1"
-"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"
-"$a" 
-"." 
-"€1" 
-"10.." 
-"..100" 
-"10.0." 
-"abc" 
-"100.0$0" 
-"$10a.00"
-"$"</code></pre> </td>
+      <td>A string representing the menu item's base price. Optional. <blockquote><strong>Note</strong> The item update template is limited to updating the prices of menu items that use the <code>BASE</code> pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.</blockquote>  <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null&#10;""&#10;".12"&#10;"1"&#10;"10"&#10;"100"&#10;"100.00"&#10;".1"&#10;"100.0"&#10;"100."&#10;"-.1"&#10;"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"&#10;"$a" &#10;"." &#10;"€1" &#10;"10.." &#10;"..100" &#10;"10.0." &#10;"abc" &#10;"100.0$0" &#10;"$10a.00"&#10;"$"</code></pre> </td>
     </tr>
     <tr>
       <td>PLU</td>
@@ -309,28 +267,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu entity's price. Optional.<ul><li>For menu items: <br/> The Price column contains the price for the menu item. The menu item may use either the <code>BASE</code> pricing strategy or the <code>LOCATION_SPECIFIC</code> pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the menu item uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to <code>BASE</code>, the Price column contains the price that applies to <em>all modifiers</em>  in the modifier group. (The <code>BASE</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to <code>PRICED_BY_MODIFIERS</code>, you must leave the Price column empty. (The <code>PRICED_BY_MODIFIERS</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's <em>parent modifier group</em>  uses the <code>PRICED_BY_MODIFIERS</code> pricing method, the Price column in the <em>modifier's row</em>  specifies the individual price of the modifier. The modifier may use either the <code>BASE</code> pricing strategy or the <code>LOCATION_SPECIFIC</code> pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the modifier uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null
-""
-".12"
-"1"
-"10"
-"100"
-"100.00"
-".1"
-"100.0"
-"100."
-"-.1"
-"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"
-"$a" 
-"." 
-"€1" 
-"10.." 
-"..100" 
-"10.0." 
-"abc" 
-"100.0$0" 
-"$10a.00"
-"$"</code></pre> </td>
+      <td>A string representing the menu entity's price. Optional.<ul><li>For menu items: <br/> The Price column contains the price for the menu item. The menu item may use either the <code>BASE</code> pricing strategy or the <code>LOCATION_SPECIFIC</code> pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the menu item uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to <code>BASE</code>, the Price column contains the price that applies to <em>all modifiers</em>  in the modifier group. (The <code>BASE</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to <code>PRICED_BY_MODIFIERS</code>, you must leave the Price column empty. (The <code>PRICED_BY_MODIFIERS</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's <em>parent modifier group</em>  uses the <code>PRICED_BY_MODIFIERS</code> pricing method, the Price column in the <em>modifier's row</em>  specifies the individual price of the modifier. The modifier may use either the <code>BASE</code> pricing strategy or the <code>LOCATION_SPECIFIC</code> pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the modifier uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null&#10;""&#10;".12"&#10;"1"&#10;"10"&#10;"100"&#10;"100.00"&#10;".1"&#10;"100.0"&#10;"100."&#10;"-.1"&#10;"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"&#10;"$a" &#10;"." &#10;"€1" &#10;"10.." &#10;"..100" &#10;"10.0." &#10;"abc" &#10;"100.0$0" &#10;"$10a.00"&#10;"$"</code></pre> </td>
       <td>Used for: <br/> <code>CREATE</code> operations where Entity type is <code>MENU_ITEM</code>. <br/> <code>CREATE</code> operations where:<ul><li>The Entity type is <code>MODIFIER_GROUP</code></li><li>The modifier group's Pricing strategy or method is set to <code>BASE</code>, to indicate that it is using the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> pricing method.</li></ul> <br/> <code>CREATE</code> operations where:<ul><li>The Entity type is <code>MODIFIER</code></li><li>The Pricing strategy or method for the modifier's <em>parent modifier group</em>  is set to <code>PRICED_BY_MODIFIERS</code>, to indicate that the modifier's parent group is using the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> pricing method.</li></ul> <br/> <code>UPDATE</code> operations where the menu item's Pricing strategy or method is set to <code>BASE</code>. <br/> Empty for <code>ATTACH</code> operations</td>
     </tr>
     <tr>

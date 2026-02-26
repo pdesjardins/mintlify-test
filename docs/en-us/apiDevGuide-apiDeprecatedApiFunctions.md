@@ -780,13 +780,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>daysAvailableString</td>
-      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code>Sun</code> or <code>Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [
-   "Mon",
-   "Tues",
-   "Wed",
-   "Thurs",
-   "Fri"
-]</code></pre> </td>
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code>Sun</code> or <code>Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [&#10;   "Mon",&#10;   "Tues",&#10;   "Wed",&#10;   "Thurs",&#10;   "Fri"&#10;]</code></pre> </td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1007,10 +1001,7 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code>null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese
-Items: ( Cheddar, American, Swiss )
-maxSelections: 2
-minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the <code>maxSelections</code> value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the <code>minSelections</code> value).</li></ul></td>
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code>null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese&#10;Items: ( Cheddar, American, Swiss )&#10;maxSelections: 2&#10;minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the <code>maxSelections</code> value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the <code>minSelections</code> value).</li></ul></td>
       <td>Integer or null</td>
     </tr>
     <tr>
@@ -1072,17 +1063,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody>
     <tr>
       <td>basePrice</td>
-      <td>Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a> is set to <code>BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ 
-&#123;
-  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
-  "name": "Toppings",
-  ...
-  "pricingStrategy":"BASE_PRICE",
-  "pricingStategyRules": &#123;
-    "basePrice": 1.00
-    &#125;
-  ...
-&#125;</code></pre> </td>
+      <td>Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a> is set to <code>BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy":"BASE_PRICE",&#10;  "pricingStategyRules": &#123;&#10;    "basePrice": 1.00&#10;    &#125;&#10;  ...&#10;&#125;</code></pre> </td>
       <td>Number</td>
     </tr>
     <tr>
@@ -1092,22 +1073,7 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr>
       <td>sequencePrices</td>
-      <td>Sets the price for each level defined in the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels">numberOfLevels</a> value. For example: <pre><code>"optionGroups": [ 
-&#123;
-  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
-  "name": "Toppings",
-  ...
-  "pricingStrategy": "SEQUENCE_PRICE",
-  "pricingStrategyRules": &#123;
-    "numberOfLevels": 3,
-    "sequencePrices": [
-      0.50,
-      0.75,
-      1.00,
-    ]
-  &#125;
-  ...
-&#125;</code></pre> </td>
+      <td>Sets the price for each level defined in the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels">numberOfLevels</a> value. For example: <pre><code>"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy": "SEQUENCE_PRICE",&#10;  "pricingStrategyRules": &#123;&#10;    "numberOfLevels": 3,&#10;    "sequencePrices": [&#10;      0.50,&#10;      0.75,&#10;      1.00,&#10;    ]&#10;  &#125;&#10;  ...&#10;&#125;</code></pre> </td>
       <td>JSON array</td>
     </tr>
   </tbody>
