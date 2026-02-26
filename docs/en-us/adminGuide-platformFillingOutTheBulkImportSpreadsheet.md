@@ -89,14 +89,7 @@ With the exception of the Price column, all of the columns are required when cre
     </tr>
     <tr>
       <td>Name</td>
-      <td>The name of the menu entity to create. Must follow these rules:<ul><li>Any characters are allowed.</li><li>Maximum length is 255 characters</li></ul>
-
-> **Important**
-> 
-> The import process does not prevent you from creating menu entities that use the same name as existing entities.
-
-
-</td>
+      <td>The name of the menu entity to create. Must follow these rules:<ul><li>Any characters are allowed.</li><li>Maximum length is 255 characters</li></ul> <blockquote><strong>Important</strong> The import process does not prevent you from creating menu entities that use the same name as existing entities.</blockquote> </td>
     </tr>
     <tr>
       <td>Parent entity type</td>
@@ -183,14 +176,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr>
       <td>Name</td>
-      <td>The name of the menu item. Must follow these rules:<ul><li>Any characters are allowed.</li><li>Maximum length is 255 characters</li></ul>
-
-> **Note**
-> 
-> The import process does not prevent you from creating menu items that use the same name as existing items.
-
-
-</td>
+      <td>The name of the menu item. Must follow these rules:<ul><li>Any characters are allowed.</li><li>Maximum length is 255 characters</li></ul> <blockquote><strong>Note</strong> The import process does not prevent you from creating menu items that use the same name as existing items.</blockquote> </td>
     </tr>
     <tr>
       <td>POS name</td>
@@ -206,14 +192,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu item's base price. Optional.
-
-> **Note**
-> 
-> The item update template is limited to updating the prices of menu items that use the `BASE` pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.
-
-
- <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings:
+      <td>A string representing the menu item's base price. Optional. <blockquote><strong>Note</strong> The item update template is limited to updating the prices of menu items that use the `BASE` pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.</blockquote>  <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings:
 ```
 null
 ""
@@ -293,14 +272,7 @@ null
     </tr>
     <tr>
       <td>Guest count</td>
-      <td>Specifies the guest count associated with the menu item. For example, a small pizza could have a guest count of 1 while a large pizza has a guest count of 2. <br/> You can enter decimal values for Guest count but the Toast platform rounds any decimal values to two places.
-
-> **Note**
-> 
-> This feature is in [limited release](adminGuide-techReleaseNotesLimitedRelease).
-
-
-</td>
+      <td>Specifies the guest count associated with the menu item. For example, a small pizza could have a guest count of 1 while a large pizza has a guest count of 2. <br/> You can enter decimal values for Guest count but the Toast platform rounds any decimal values to two places. <blockquote><strong>Note</strong> This feature is in [limited release](adminGuide-techReleaseNotesLimitedRelease).</blockquote> </td>
     </tr>
   </tbody>
 </table>
@@ -342,14 +314,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr>
       <td>Name</td>
-      <td>The name of the menu entity. Must follow these rules:<ul><li>Any characters are allowed.</li><li>Maximum length is 255 characters</li></ul>
-
-> **Note**
-> 
-> The import process does not prevent you from creating menu entities that use the same name as existing entities.
-
-
-</td>
+      <td>The name of the menu entity. Must follow these rules:<ul><li>Any characters are allowed.</li><li>Maximum length is 255 characters</li></ul> <blockquote><strong>Note</strong> The import process does not prevent you from creating menu entities that use the same name as existing entities.</blockquote> </td>
       <td>Required for `CREATE` operations <br/> Used for `UPDATE` operations <br/> Empty for `ATTACH` operations</td>
     </tr>
     <tr>
@@ -384,21 +349,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr>
       <td>Pricing strategy or method</td>
-      <td>A drop-down menu where you can choose the pricing strategy or method for the menu entity being created. Values include:<ul><li>`BASE`</li><li>`LOCATION_SPECIFIC`</li><li>`PRICED_BY_MODIFIERS`</li></ul> <br/> The value you choose for the Pricing strategy or method column depends on the type of entity you are creating. <br/> For menu items:<ul><li>`BASE` sets the pricing strategy on the menu item to [Base price](adminGuide-adminBasePrice). <br/> While not required, you should also consider supplying the base price in the Price field of the menu item's `CREATE` row.</li><li>`LOCATION_SPECIFIC` sets the pricing strategy on the menu item to [Location Specific Price](adminGuide-adminLocationSpecificPrice). <br/> If you pick this pricing strategy, you must also provide the location-specific price in the Price field of the menu item's `CREATE` row.</li></ul> <br/> For modifier groups:<ul><li>`BASE` sets the pricing method for the modifier group to [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup). The additional charge is a fixed price charge. <br/> While not required, you should also consider supplying the fixed price charge in the Price field of the modifier group's `CREATE` row.</li><li>`PRICED_BY_MODIFIERS` sets the pricing method for the modifier group to [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup). <br/> While not required, you should also consider supplying prices in the Price fields of the `CREATE` rows for the *individual modifiers* contained in the modifier group.</li></ul>
-
-> **Note**
-> 
-> The bulk import tool does not support creating modifier groups that use the No additional charge option.
-
-
- <br/> For modifiers:<ul><li>`BASE` sets the pricing strategy on the modifier's item reference to [Base price](adminGuide-adminBasePrice). <br/> While not required, you should also consider supplying the base price in the Price field of the modifier's `CREATE` row.</li><li>`LOCATION_SPECIFIC` sets the pricing strategy on the modifier's item reference to [Location Specific Price](adminGuide-adminLocationSpecificPrice). <br/> If you pick this pricing strategy, you must also provide the location-specific price in the Price field of the modifier's `CREATE` row.</li></ul>
-
-> **Note**
-> 
-> Pricing strategies and prices set on individual modifiers are ignored if the parent modifier group's Pricing strategy or method field is empty or set to `BASE` ([Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup)).
-
-
-</td>
+      <td>A drop-down menu where you can choose the pricing strategy or method for the menu entity being created. Values include:<ul><li>`BASE`</li><li>`LOCATION_SPECIFIC`</li><li>`PRICED_BY_MODIFIERS`</li></ul> <br/> The value you choose for the Pricing strategy or method column depends on the type of entity you are creating. <br/> For menu items:<ul><li>`BASE` sets the pricing strategy on the menu item to [Base price](adminGuide-adminBasePrice). <br/> While not required, you should also consider supplying the base price in the Price field of the menu item's `CREATE` row.</li><li>`LOCATION_SPECIFIC` sets the pricing strategy on the menu item to [Location Specific Price](adminGuide-adminLocationSpecificPrice). <br/> If you pick this pricing strategy, you must also provide the location-specific price in the Price field of the menu item's `CREATE` row.</li></ul> <br/> For modifier groups:<ul><li>`BASE` sets the pricing method for the modifier group to [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup). The additional charge is a fixed price charge. <br/> While not required, you should also consider supplying the fixed price charge in the Price field of the modifier group's `CREATE` row.</li><li>`PRICED_BY_MODIFIERS` sets the pricing method for the modifier group to [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup). <br/> While not required, you should also consider supplying prices in the Price fields of the `CREATE` rows for the *individual modifiers* contained in the modifier group.</li></ul> <blockquote><strong>Note</strong> The bulk import tool does not support creating modifier groups that use the No additional charge option.</blockquote>  <br/> For modifiers:<ul><li>`BASE` sets the pricing strategy on the modifier's item reference to [Base price](adminGuide-adminBasePrice). <br/> While not required, you should also consider supplying the base price in the Price field of the modifier's `CREATE` row.</li><li>`LOCATION_SPECIFIC` sets the pricing strategy on the modifier's item reference to [Location Specific Price](adminGuide-adminLocationSpecificPrice). <br/> If you pick this pricing strategy, you must also provide the location-specific price in the Price field of the modifier's `CREATE` row.</li></ul> <blockquote><strong>Note</strong> Pricing strategies and prices set on individual modifiers are ignored if the parent modifier group's Pricing strategy or method field is empty or set to `BASE` ([Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup)).</blockquote> </td>
       <td>Required for `CREATE` operations <br/> Empty for `UPDATE` and `ATTACH` operations</td>
     </tr>
     <tr>
@@ -559,14 +510,7 @@ null
     </tr>
     <tr>
       <td>Guest count</td>
-      <td>Specifies the guest count associated with the menu item. For example, a small pizza could have a guest count of 1 while a large pizza has a guest count of 2. <br/> You can enter decimal values for Guest count but the Toast platform rounds any decimal values to two places.
-
-> **Note**
-> 
-> This feature is in [limited release](adminGuide-techReleaseNotesLimitedRelease).
-
-
-</td>
+      <td>Specifies the guest count associated with the menu item. For example, a small pizza could have a guest count of 1 while a large pizza has a guest count of 2. <br/> You can enter decimal values for Guest count but the Toast platform rounds any decimal values to two places. <blockquote><strong>Note</strong> This feature is in [limited release](adminGuide-techReleaseNotesLimitedRelease).</blockquote> </td>
       <td>Used for `CREATE` operations where Entity type is `MENU_ITEM` and for `UPDATE` operations <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
   </tbody>

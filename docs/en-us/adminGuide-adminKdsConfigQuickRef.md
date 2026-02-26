@@ -285,34 +285,13 @@ You can change how order information appears on tickets by setting the options d
     </tr>
     <tr>
       <td>See modifiers listed by sort order</td>
-      <td>
-
-> **Note**
-> 
-> Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release.
-
-
-You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode): Vertical or Horizontal</li><li>On the modifier's details page, a Sort Order is assigned. This can also be done on the Menus > Bulk Management > Advanced properties page and using the Show/Hide dropdown menu to choose Sort Order.
-
-> **Note**
-> 
-> The assigned Sort Order overrides the Modifier group sorting, Modifier display order, and Display Order Priority settings for kitchen tickets.
-
-
-</li></ol></td>
+      <td> <blockquote><strong>Note</strong> Using the Sort Order setting to sort modifiers on kitchen tickets is in limited release.</blockquote> You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > [Modifier display mode](adminGuide-adminUiOptionsReference#configModifierDisplayMode): Vertical or Horizontal</li><li>On the modifier's details page, a Sort Order is assigned. This can also be done on the Menus > Bulk Management > Advanced properties page and using the Show/Hide dropdown menu to choose Sort Order. <blockquote><strong>Note</strong> The assigned Sort Order overrides the Modifier group sorting, Modifier display order, and Display Order Priority settings for kitchen tickets.</blockquote> </li></ol></td>
       <td> </td>
       <td>Web Setup > 6.6 Restaurant Operations Setup</td>
     </tr>
     <tr>
       <td>See modifiers listed by modifier group display ordering priority in a comma-separated list in sequence selected</td>
-      <td>You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority): On
-
-> **Note**
-> 
-> For KDS devices using legacy dynamic view and printed kitchen tickets, this setting is always treated as if set to On.
-
-
-</li><li>On the modifier group's details page, the Display Ordering Priority setting is assigned. For more information, see [Understanding modifier group display order](adminGuide-adminUnderstandingModifierGroupDisplay).</li></ol></td>
+      <td>You need to change the following settings:<ol><li>Front of house > Order screen setup > UI options > [Modifier ordering priority](adminGuide-adminUiOptionsReference#configModifierOrderingPriority): On <blockquote><strong>Note</strong> For KDS devices using legacy dynamic view and printed kitchen tickets, this setting is always treated as if set to On.</blockquote> </li><li>On the modifier group's details page, the Display Ordering Priority setting is assigned. For more information, see [Understanding modifier group display order](adminGuide-adminUnderstandingModifierGroupDisplay).</li></ol></td>
       <td> </td>
       <td>Web Setup > 6.6 Restaurant Operations Setup</td>
     </tr>

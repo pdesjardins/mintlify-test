@@ -81,14 +81,7 @@ codeExamples: 0
     <tr>
       <td>**A:**</td>
       <td>You may see a 403 error message when making an API request for any of the following reasons:<ul><li>You made a `POST` request. Standard API access only supports `GET` requests.</li><li>You tried to access the `menus /v3` endpoints. Standard API access only supports `menus
-                  /v2` endpoints.</li><li>Your credentials do not include access to this restaurant. For information on how to edit which location(s) you have standard API access to, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials).</li><li>Your API client is missing the required scope for this endpoint. For information on how to edit the scopes configured for a client, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials).</li></ul>
-
-> **Note**
-> 
-> This list is not exhaustive. For more information about error codes, see [API responses and errors](apiDevGuide-apiResponsesAndErrors).
-
-
-</td>
+                  /v2` endpoints.</li><li>Your credentials do not include access to this restaurant. For information on how to edit which location(s) you have standard API access to, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials).</li><li>Your API client is missing the required scope for this endpoint. For information on how to edit the scopes configured for a client, see [Editing standard API access credentials](apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials).</li></ul> <blockquote><strong>Note</strong> This list is not exhaustive. For more information about error codes, see [API responses and errors](apiDevGuide-apiResponsesAndErrors).</blockquote> </td>
     </tr>
   </tbody>
 </table>

@@ -186,14 +186,7 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
     </tr>
     <tr>
       <td>[(8)](#co-d1e119F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>
-      <td>The IP address of the device that the guest used to enter the credit card payment. For example, for an online order, this is the IP address of the computer that the guest used to submit the order.
-
-> **Important**
-> 
-> The origin IP address is essential for detecting and preventing fraud attempts in credit card authorization requests. To prevent disruption to your transaction workflow, ensure the correct origin IP address is used.
-
-
-</td>
+      <td>The IP address of the device that the guest used to enter the credit card payment. For example, for an online order, this is the IP address of the computer that the guest used to submit the order. <blockquote><strong>Important</strong> The origin IP address is essential for detecting and preventing fraud attempts in credit card authorization requests. To prevent disruption to your transaction workflow, ensure the correct origin IP address is used.</blockquote> </td>
     </tr>
     <tr>
       <td>[(9)](#co-d1e122F291C744-5561-42C1-BD4E-F18BB8532F7A)</td>

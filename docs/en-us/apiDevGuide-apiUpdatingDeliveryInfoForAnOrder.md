@@ -52,14 +52,7 @@ You can use the orders API to modify the following delivery information:
     </tr>
     <tr>
       <td>`notes`</td>
-      <td>Delivery notes provided by the guest who placed the order. 
-
-> **Important**
-> 
-> Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.
-
-
-</td>
+      <td>Delivery notes provided by the guest who placed the order.  <blockquote><strong>Important</strong> Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.</blockquote> </td>
     </tr>
   </tbody>
 </table>

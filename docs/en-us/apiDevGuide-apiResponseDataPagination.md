@@ -237,15 +237,7 @@ The following table identifies the pagination functionality used by Toast API en
   <tbody>
     <tr>
       <td>Configuration API</td>
-      <td>All endpoints that return paginated response data use *page token pagination*. For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).
-
-> **Note**
-> 
-> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated *for configuration API endpoints*.
-> As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.
-
-
-</td>
+      <td>All endpoints that return paginated response data use *page token pagination*. For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken). <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated *for configuration API endpoints*. As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </td>
     </tr>
     <tr>
       <td>Kitchen API</td>

@@ -32,14 +32,7 @@ The Toast platform uses the following criteria to determine whether a service ch
   <tbody>
     <tr>
       <td>**Service charge threshold**</td>
-      <td>The Apply After Amount Threshold configuration option sets a threshold (as a currency amount) that determines whether the service charge is applied automatically to the check. <br/> If the pre-discount amount of a check is equal to or greater than this amount, then the service charge is applied automatically. <br/> For example, if the threshold is $10.00, the service charge is applied automatically if the check total is $10.00 or $25.00. It is not automatically applied if the check total is $8.00. <br/> If the threshold is 0.00 or blank, then the service charge is not applied automatically based on the amount of the check. You can configure the service charge to be applied automatically based on the type of order, or the service charge can be applied manually.
-
-> **Note**
-> 
-> The threshold is always compared against the pre-discount amount of the check, regardless of whether the service charge is configured as a pre-discount or post-discount service charge.
-
-
-</td>
+      <td>The Apply After Amount Threshold configuration option sets a threshold (as a currency amount) that determines whether the service charge is applied automatically to the check. <br/> If the pre-discount amount of a check is equal to or greater than this amount, then the service charge is applied automatically. <br/> For example, if the threshold is $10.00, the service charge is applied automatically if the check total is $10.00 or $25.00. It is not automatically applied if the check total is $8.00. <br/> If the threshold is 0.00 or blank, then the service charge is not applied automatically based on the amount of the check. You can configure the service charge to be applied automatically based on the type of order, or the service charge can be applied manually. <blockquote><strong>Note</strong> The threshold is always compared against the pre-discount amount of the check, regardless of whether the service charge is configured as a pre-discount or post-discount service charge.</blockquote> </td>
     </tr>
     <tr>
       <td>**Delivery dining option**</td>

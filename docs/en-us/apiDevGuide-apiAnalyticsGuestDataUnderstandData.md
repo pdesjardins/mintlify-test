@@ -60,14 +60,7 @@ The following table specifies the returned set of values in the guest reporting 
     </tr>
     <tr>
       <td>`cardFingerprint`</td>
-      <td>The unique identifier assigned to a guest's payment card by the Toast platform.
-
-> **Note**
-> 
-> `cardFingerprint` data is only available for payments processed starting in August 2024. `cardFingerprint` data is not supported for older payments.
-
-
-</td>
+      <td>The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> `cardFingerprint` data is only available for payments processed starting in August 2024. `cardFingerprint` data is not supported for older payments.</blockquote> </td>
     </tr>
   </tbody>
 </table>

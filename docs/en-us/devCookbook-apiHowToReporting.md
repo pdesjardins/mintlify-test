@@ -131,14 +131,7 @@ After you decide what to display in your reports, build a retrieval of transacti
   <tbody>
     <tr>
       <td>Orders</td>
-      <td>Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. <br/> [More information](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders)
-
-> **Note**
-> 
-> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. 
-
-
-</td>
+      <td>Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. <br/> [More information](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) <blockquote><strong>Note</strong> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. </blockquote> </td>
       <td>Use the `startDate` and `endDate` query parameters of the `/ordersBulk` endpoint to retrieve orders by their `modifiedDate` timestamp.</td>
     </tr>
     <tr>

@@ -87,14 +87,7 @@ The following table describes the transaction types that the Toast platform send
     </tr>
     <tr>
       <td>`GIFTCARD_GET_BALANCE`</td>
-      <td>Requests the amount of money that is available for purchases on a gift card. <br/> For example, the Toast platform sends a `GIFTCARD_GET_BALANCE` request when a restaurant guest asks a restaurant employee to check the amount of money that is available.
-
-> **Note**
-> 
-> In some situations, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a card is not already active during a gift card sale.
-
-
- <br/> **Required **Your gift card implementation must handle requests with this transaction type.</td>
+      <td>Requests the amount of money that is available for purchases on a gift card. <br/> For example, the Toast platform sends a `GIFTCARD_GET_BALANCE` request when a restaurant guest asks a restaurant employee to check the amount of money that is available. <blockquote><strong>Note</strong> In some situations, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a `GIFTCARD_GET_BALANCE` request to verify that a card is not already active during a gift card sale.</blockquote>  <br/> **Required **Your gift card implementation must handle requests with this transaction type.</td>
     </tr>
     <tr>
       <td>`GIFTCARD_REDEEM`</td>
@@ -144,14 +137,7 @@ The following table describes the response status types that your gift card prov
     </tr>
     <tr>
       <td>`ERROR_CARD_NOT_ACTIVATED`</td>
-      <td>The gift card is not active.
-
-> **Note**
-> 
-> In some situations, the Toast platform might make a transaction request to verify that a gift card is not already active. In this situation, the Toast platform expects to receive a `ERROR_CARD_NOT_ACTIVATED` transaction status. For more information, see [Multiple requests for a gift card transaction](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction).
-
-
-</td>
+      <td>The gift card is not active. <blockquote><strong>Note</strong> In some situations, the Toast platform might make a transaction request to verify that a gift card is not already active. In this situation, the Toast platform expects to receive a `ERROR_CARD_NOT_ACTIVATED` transaction status. For more information, see [Multiple requests for a gift card transaction](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction).</blockquote> </td>
     </tr>
     <tr>
       <td>`ERROR_CARD_INVALID`</td>

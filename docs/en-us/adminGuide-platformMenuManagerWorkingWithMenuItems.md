@@ -1236,14 +1236,7 @@ It is important to note that not all pricing strategies are supported on all Toa
     </tr>
     <tr>
       <td>Open price</td>
-      <td>With open pricing, you manually specify a price for a menu item when that menu item is ordered on the Toast POS app. For example, you may want to set the price of a menu item differently depending on the market price of that menu item on the day that it is ordered.
-
-> **Note**
-> 
-> For items that have a daily market price, Toast support recommends configuring the item with an open price and then using [Quick Edit](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.) mode on a Toast POS device to set a price for the item each day. This ensures that the price is accurate and employees don't have to enter a price every time the item is ordered.
-
-
-</td>
+      <td>With open pricing, you manually specify a price for a menu item when that menu item is ordered on the Toast POS app. For example, you may want to set the price of a menu item differently depending on the market price of that menu item on the day that it is ordered. <blockquote><strong>Note</strong> For items that have a daily market price, Toast support recommends configuring the item with an open price and then using [Quick Edit](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.) mode on a Toast POS device to set a price for the item each day. This ensures that the price is accurate and employees don't have to enter a price every time the item is ordered.</blockquote> </td>
       <td><ul><li>Toast POS app</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
       <td>Menu manager</td>
     </tr>

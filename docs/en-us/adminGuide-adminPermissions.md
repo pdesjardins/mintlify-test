@@ -278,14 +278,7 @@ The following table includes information about the Manager access permissions on
   <tbody>
     <tr>
       <td>Manager</td>
-      <td>**Gives access to **the ability to look up customers using personal information. <br/> On the Toast POS home screen, gives access to Manager Activities > Lookup Customer. In Toast locations that set Enable Next Day mode on POS to On, gives access to Setup > Toggle Next Day Mode. <br/> When assigned with the [Pending Orders Mode / Orders Hub Mode](adminGuide-adminPermissions#permissionPendingOrdersOrdersHubMode) access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> On the kitchen display system (KDS) device, gives the ability to override the requirement set by the [Sequenced KDS fulfillment](adminGuide-adminKitchenDiningRoomReference#configSequencedKDSFulfillment) setting requiring prep station fulfillment before expediter fulfillment.
-
-> **Note**
-> 
-> The Sequenced KDS fulfillment setting is in limited release.
-
-
- <br/> **Assign to **managers and others who need to complete these tasks. <br/> As a best practice, assign this permission to a job or employee only when you are assigning one or more of the other manager access permissions. If you disable all of the other manager access permissions, be sure to disable this permission also.</td>
+      <td>**Gives access to **the ability to look up customers using personal information. <br/> On the Toast POS home screen, gives access to Manager Activities > Lookup Customer. In Toast locations that set Enable Next Day mode on POS to On, gives access to Setup > Toggle Next Day Mode. <br/> When assigned with the [Pending Orders Mode / Orders Hub Mode](adminGuide-adminPermissions#permissionPendingOrdersOrdersHubMode) access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> On the kitchen display system (KDS) device, gives the ability to override the requirement set by the [Sequenced KDS fulfillment](adminGuide-adminKitchenDiningRoomReference#configSequencedKDSFulfillment) setting requiring prep station fulfillment before expediter fulfillment. <blockquote><strong>Note</strong> The Sequenced KDS fulfillment setting is in limited release.</blockquote>  <br/> **Assign to **managers and others who need to complete these tasks. <br/> As a best practice, assign this permission to a job or employee only when you are assigning one or more of the other manager access permissions. If you disable all of the other manager access permissions, be sure to disable this permission also.</td>
     </tr>
     <tr>
       <td>Discounts</td>
@@ -353,14 +346,7 @@ The following table includes information about the Manager access permissions on
     </tr>
     <tr>
       <td>Configure Auto-Close Orders End-of-Day</td>
-      <td>**Gives access to **view and configure end-of-day automation settings that automatically close or void open checks at the end of the business day. <br/> **Assign to **owners, managers, or other administrative roles responsible for end-of-day workflows and financial reconciliation. 
-
-> **Note**
-> 
-> If your organization includes multiple Toast POS locations, editing end-of-day automation settings requires that you give an employee this permission at all locations in the organization. If an employee has this permission for only some locations in the organization, the configuration can be viewed but not edited. If an employee does not have this permission at any store within the organization, the configuration settings will not be visible.
-
-
-</td>
+      <td>**Gives access to **view and configure end-of-day automation settings that automatically close or void open checks at the end of the business day. <br/> **Assign to **owners, managers, or other administrative roles responsible for end-of-day workflows and financial reconciliation.  <blockquote><strong>Note</strong> If your organization includes multiple Toast POS locations, editing end-of-day automation settings requires that you give an employee this permission at all locations in the organization. If an employee has this permission for only some locations in the organization, the configuration can be viewed but not edited. If an employee does not have this permission at any store within the organization, the configuration settings will not be visible.</blockquote> </td>
     </tr>
     <tr>
       <td>Cash Drawers (Blind)</td>
@@ -392,14 +378,7 @@ The following table includes information about the Manager access permissions on
     </tr>
     <tr>
       <td>Register Swipe Cards</td>
-      <td>**Gives access to **Manager Activities > Register Swipe Card on the Toast POS home screen. Allows the employee to create an association between a Toast POS user account and a card with a magnetic strip.
-
-> **Note**
-> 
-> When you register a card, the Toast platform identifies the type of card reader used. The card can then be used to sign in to devices with similar card readers. To sign in to devices that are paired with a different type of card reader the employee must enter their POS passcode.
-
-
- <br/> **Assign to **managers and employees who need to provide employees with an alternative to entering their POS passcode for accessing Toast POS devices.</td>
+      <td>**Gives access to **Manager Activities > Register Swipe Card on the Toast POS home screen. Allows the employee to create an association between a Toast POS user account and a card with a magnetic strip. <blockquote><strong>Note</strong> When you register a card, the Toast platform identifies the type of card reader used. The card can then be used to sign in to devices with similar card readers. To sign in to devices that are paired with a different type of card reader the employee must enter their POS passcode.</blockquote>  <br/> **Assign to **managers and employees who need to provide employees with an alternative to entering their POS passcode for accessing Toast POS devices.</td>
     </tr>
     <tr>
       <td>Open Items</td>
@@ -529,25 +508,11 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
     <tr>
       <td>Benchmarking Access</td>
-      <td>**Gives access to **the reports accessed by selecting Reports > Benchmarking in Toast Web.
-
-> **Note**
-> 
-> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Toast Restaurant Management Suite is required to access the full version. For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Toast-Benchmarking-Overview).
-
-
-</td>
+      <td>**Gives access to **the reports accessed by selecting Reports > Benchmarking in Toast Web. <blockquote><strong>Note</strong> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Toast Restaurant Management Suite is required to access the full version. For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Toast-Benchmarking-Overview).</blockquote> </td>
     </tr>
     <tr>
       <td>Benchmarking Restaurant Group Report Access</td>
-      <td>**Gives access to **the reports accessed by selecting Reports > Benchmarking > Group overview in Toast Web. The benchmarking group overview page gives insights across all locations in a restaurant group. The group overview page compares key metrics like sales, labor efficiency, and order volume, and how locations compare to the group average and similar restaurants in the industry.
-
-> **Note**
-> 
-> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Restaurant Management Suite Pro is required to access the full version. For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Toast-Benchmarking-Overview).
-
-
-</td>
+      <td>**Gives access to **the reports accessed by selecting Reports > Benchmarking > Group overview in Toast Web. The benchmarking group overview page gives insights across all locations in a restaurant group. The group overview page compares key metrics like sales, labor efficiency, and order volume, and how locations compare to the group average and similar restaurants in the industry. <blockquote><strong>Note</strong> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Restaurant Management Suite Pro is required to access the full version. For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Toast-Benchmarking-Overview).</blockquote> </td>
     </tr>
     <tr>
       <td>Menu Audit & Cleanup </td>
@@ -563,14 +528,7 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
     <tr>
       <td>Enable Job-Based Access</td>
-      <td>**Gives access to **enable the job-based access setting that allows you to configure an employee's permissions based on their clocked-in job. 
-
-> **Note**
-> 
-> All Toast locations in your management group must have this permission enabled to access and change the setting. If this permission is not enabled at every location, you can only view the setting in Toast Web. For more information, see [Managing job-based access](adminGuide-platformManageJobBasedAccess).
-
-
-</td>
+      <td>**Gives access to **enable the job-based access setting that allows you to configure an employee's permissions based on their clocked-in job.  <blockquote><strong>Note</strong> All Toast locations in your management group must have this permission enabled to access and change the setting. If this permission is not enabled at every location, you can only view the setting in Toast Web. For more information, see [Managing job-based access](adminGuide-platformManageJobBasedAccess).</blockquote> </td>
     </tr>
   </tbody>
 </table>
@@ -675,14 +633,7 @@ The following table includes information about the Web Setup access permissions 
     </tr>
     <tr>
       <td>Publishing</td>
-      <td>**Gives access to**<ul><li>Toast account > Publishing > Publish Config</li><li>Toast account > Publishing > Publish Config V2</li><li>Toast account > Publishing > Publishing Center (read-only access) <br/> Employees that have the Publishing permission to the [session restaurant](adminGuide-sessionRestaurant) have read-only access to the Publishing center page. This means they can view change sets and add changes to *existing change sets* but they cannot create change sets, delete change sets, or modify the names and schedules of change sets. For more information, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets), [Scheduled publishing permissions](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformScheduledPublishingPermissions), and [Menu manager permissions](adminGuide-platformMenuManagerPermissions).</li><li>Other Setup > Publish Changes on a Toast POS device</li></ul>
-
-> **Note**
-> 
-> Employees need this permission to publish configuration changes *even if* they have permissions that allow them to alter configuration settings that can be published.
-
-
-</td>
+      <td>**Gives access to**<ul><li>Toast account > Publishing > Publish Config</li><li>Toast account > Publishing > Publish Config V2</li><li>Toast account > Publishing > Publishing Center (read-only access) <br/> Employees that have the Publishing permission to the [session restaurant](adminGuide-sessionRestaurant) have read-only access to the Publishing center page. This means they can view change sets and add changes to *existing change sets* but they cannot create change sets, delete change sets, or modify the names and schedules of change sets. For more information, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets), [Scheduled publishing permissions](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformScheduledPublishingPermissions), and [Menu manager permissions](adminGuide-platformMenuManagerPermissions).</li><li>Other Setup > Publish Changes on a Toast POS device</li></ul> <blockquote><strong>Note</strong> Employees need this permission to publish configuration changes *even if* they have permissions that allow them to alter configuration settings that can be published.</blockquote> </td>
     </tr>
     <tr>
       <td>Restaurant Groups Setup</td>
@@ -743,14 +694,7 @@ The following table includes information about the Device Setup access permissio
   <tbody>
     <tr>
       <td>Terminal Setup</td>
-      <td>**Gives access to**<ul><li>Setup > Device Setup > Device Name</li><li>Setup > Device Setup > Primary Mode</li><li>Setup > Device Setup > Screen Timeout</li><li>Setup > Device Setup > Open Cash Drawer</li><li>Setup > Device Setup > Re-enabled Hidden Menus</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled - Requires an EMV reader</li><li>Setup > Device Setup > Add New Card Reader</li></ul>
-
-> **Note**
-> 
-> Credit Card Pre-Authorization, EMV Enabled, and Add New Card Reader options are also accessible if you have one of the [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
-
-
-</td>
+      <td>**Gives access to**<ul><li>Setup > Device Setup > Device Name</li><li>Setup > Device Setup > Primary Mode</li><li>Setup > Device Setup > Screen Timeout</li><li>Setup > Device Setup > Open Cash Drawer</li><li>Setup > Device Setup > Re-enabled Hidden Menus</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled - Requires an EMV reader</li><li>Setup > Device Setup > Add New Card Reader</li></ul> <blockquote><strong>Note</strong> Credit Card Pre-Authorization, EMV Enabled, and Add New Card Reader options are also accessible if you have one of the [POS access permissions](adminGuide-adminPermissions#adminModePermissions).</blockquote> </td>
     </tr>
     <tr>
       <td>Advanced Terminal Setup</td>
@@ -762,14 +706,7 @@ The following table includes information about the Device Setup access permissio
     </tr>
     <tr>
       <td>Order Ready Board Access</td>
-      <td>
-
-> **Note**
-> 
-> This permission does not control access to the Setup > Device Setup configuration options available from a Toast POS device.
-
-
-**Gives access to**<ul><li>Order Ready Board</li></ul></td>
+      <td> <blockquote><strong>Note</strong> This permission does not control access to the Setup > Device Setup configuration options available from a Toast POS device.</blockquote> **Gives access to**<ul><li>Order Ready Board</li></ul></td>
     </tr>
   </tbody>
 </table>

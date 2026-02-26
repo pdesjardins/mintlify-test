@@ -50,15 +50,7 @@ The Toast platform offers a variety of pricing-related features that give you th
     </tr>
     <tr>
       <td>[Size Price](adminGuide-adminSizePrice) pricing strategy</td>
-      <td>For example, a drink that costs $3 for the 12 ounce size and $4 for the 16 ounce size, or a pizza topping that costs $1 when it is added to a small pizza and $2 when its added to a large pizza.
-
-> **Note**
-> 
-> Size pricing for menu items is supported on all product channels.
-> Size pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).
-
-
-</td>
+      <td>For example, a drink that costs $3 for the 12 ounce size and $4 for the 16 ounce size, or a pizza topping that costs $1 when it is added to a small pizza and $2 when its added to a large pizza. <blockquote><strong>Note</strong> Size pricing for menu items is supported on all product channels. Size pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).</blockquote> </td>
       <td>Menu groups <br/> Menu items <br/> Modifier groups <br/> [Modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)</td>
     </tr>
     <tr>
@@ -73,26 +65,12 @@ The Toast platform offers a variety of pricing-related features that give you th
     </tr>
     <tr>
       <td>[Sequence Price](adminGuide-adminSequencePrice) pricing strategy</td>
-      <td>For example, the first modifier costs $3, the second costs $2, and the third costs $1.
-
-> **Note**
-> 
-> Sequence pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).
-
-
-</td>
+      <td>For example, the first modifier costs $3, the second costs $2, and the third costs $1. <blockquote><strong>Note</strong> Sequence pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).</blockquote> </td>
       <td>Modifier groups</td>
     </tr>
     <tr>
       <td>[Size/Sequence Price](adminGuide-adminSizeSequencePrice) pricing strategy</td>
-      <td>With size/sequence pricing, the cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1, while the first topping on a large pizza is $1.50 and additional toppings are $2.50
-
-> **Note**
-> 
-> Size/sequence pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).
-
-
-</td>
+      <td>With size/sequence pricing, the cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1, while the first topping on a large pizza is $1.50 and additional toppings are $2.50 <blockquote><strong>Note</strong> Size/sequence pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).</blockquote> </td>
       <td>Modifier groups</td>
     </tr>
     <tr>

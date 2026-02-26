@@ -37,14 +37,7 @@ Standard API access provides access to the following scopes:
       <td>configuration API</td>
     </tr>
     <tr>
-      <td>`delivery_info.address:read`
-
-> **Note**
-> 
-> This scope exposes additional information in the `DeliveryInfo` object of the orders API.
-
-
-</td>
+      <td>`delivery_info.address:read` <blockquote><strong>Note</strong> This scope exposes additional information in the `DeliveryInfo` object of the orders API.</blockquote> </td>
       <td>orders API</td>
     </tr>
     <tr>
@@ -52,14 +45,7 @@ Standard API access provides access to the following scopes:
       <td>order management configuration API</td>
     </tr>
     <tr>
-      <td>`guest.pi:read`
-
-> **Note**
-> 
-> This scope to exposes additional information in the `Customer` object of the orders API.
-
-
-</td>
+      <td>`guest.pi:read` <blockquote><strong>Note</strong> This scope to exposes additional information in the `Customer` object of the orders API.</blockquote> </td>
       <td>orders API</td>
     </tr>
     <tr>

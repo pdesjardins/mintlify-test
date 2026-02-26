@@ -112,21 +112,7 @@ The following table provides information about the settings of the Expediter sec
     </tr>
     <tr>
       <td>Sequenced KDS fulfillment</td>
-      <td>
-
-> **Note**
-> 
-> This setting is in limited release and will replace the Sequenced Expediter Fulfillment setting.
-
-
-Defines whether items must be fulfilled at the first-level expediter before the second-level expediter if using two-level fulfillment, at prep stations before expediters, or both.<ul><li>If using two-level fulfillment, require fulfillment at the first expediter level before fulfillment at the second expediter level. </li><li>Require fulfillment at all prep stations before fulfillment at any expediter level.
-
-> **Note**
-> 
-> If a prep station is configured to send to prep station, it must also be configured to send to expediter with this setting selected.
-
-
-</li></ul> <br/> This is only applicable to KDS devices. For more information, see [Sequencing fulfillment by station type and level](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel).</td>
+      <td> <blockquote><strong>Note</strong> This setting is in limited release and will replace the Sequenced Expediter Fulfillment setting.</blockquote> Defines whether items must be fulfilled at the first-level expediter before the second-level expediter if using two-level fulfillment, at prep stations before expediters, or both.<ul><li>If using two-level fulfillment, require fulfillment at the first expediter level before fulfillment at the second expediter level. </li><li>Require fulfillment at all prep stations before fulfillment at any expediter level. <blockquote><strong>Note</strong> If a prep station is configured to send to prep station, it must also be configured to send to expediter with this setting selected.</blockquote> </li></ul> <br/> This is only applicable to KDS devices. For more information, see [Sequencing fulfillment by station type and level](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel).</td>
     </tr>
     <tr>
       <td>Show Guest Name in Bold on Expediter Tickets</td>
@@ -220,35 +206,15 @@ The following table provides information about the settings of the Ticket Screen
     </tr>
     <tr>
       <td>Preview Tickets</td>
-      <td>This setting determines if your KDS devices display preview tickets. Preview tickets show a preview of the ticket as items are added to an order.
-
-> **Note**
-> 
-> Preview tickets are only available for grid view.
-
-
-<ul><li>Enable preview tickets</li><li>Disable preview tickets</li></ul> <br/> For more information about preview tickets, see [Preview tickets](adminGuide-platformKDSOverview#platformGridKDSPreviewTickets).</td>
+      <td>This setting determines if your KDS devices display preview tickets. Preview tickets show a preview of the ticket as items are added to an order. <blockquote><strong>Note</strong> Preview tickets are only available for grid view.</blockquote> <ul><li>Enable preview tickets</li><li>Disable preview tickets</li></ul> <br/> For more information about preview tickets, see [Preview tickets](adminGuide-platformKDSOverview#platformGridKDSPreviewTickets).</td>
     </tr>
     <tr>
       <td>Start Queue</td>
-      <td>
-
-> **Note**
-> 
-> This setting is in limited release.
-
-
-This setting determines if your KDS devices use start queue. Start queue divides prep station KDS screens into a section for cooking and a section for unstarted tickets to indicate whether or not a prep station is working on a ticket.<ul><li>Enable start queue</li><li>Disable start queue</li></ul> <br/> For more information about start queue, see [Start queue overview](adminGuide-platformKdsStartQueue#platformKdsStartQueueOverview).</td>
+      <td> <blockquote><strong>Note</strong> This setting is in limited release.</blockquote> This setting determines if your KDS devices use start queue. Start queue divides prep station KDS screens into a section for cooking and a section for unstarted tickets to indicate whether or not a prep station is working on a ticket.<ul><li>Enable start queue</li><li>Disable start queue</li></ul> <br/> For more information about start queue, see [Start queue overview](adminGuide-platformKdsStartQueue#platformKdsStartQueueOverview).</td>
     </tr>
     <tr>
       <td>Recently Fulfilled Timeframe</td>
-      <td>This setting defines how long, in minutes, a fulfilled ticket can be reviewed on a KDS device using the Show Recently Fulfilled option. Must be greater than 0.
-
-> **Note**
-> 
-<ul><li>For prep stations that use an [expediter workflow](adminGuide-adminUsingExpo), the system considers tickets to be fulfilled when the expediter marks them as fulfilled. If you use two expediters, the second expediter completes order fulfillment.</li><li>The option for this setting also affects the recall feature. You can use Recall to unfulfill the last fulfilled ticket, as long as it was fulfilled during this timeframe.</li><li>During high-volume periods, the system may use a shorter timeframe.</li></ul>
-
- <br/> For more information, see [Redisplaying tickets with recall and unfulfill](adminGuide-adminRedisplayingTickets).</td>
+      <td>This setting defines how long, in minutes, a fulfilled ticket can be reviewed on a KDS device using the Show Recently Fulfilled option. Must be greater than 0. <blockquote><strong>Note</strong> For prep stations that use an [expediter workflow](adminGuide-adminUsingExpo), the system considers tickets to be fulfilled when the expediter marks them as fulfilled. If you use two expediters, the second expediter completes order fulfillment. The option for this setting also affects the recall feature. You can use Recall to unfulfill the last fulfilled ticket, as long as it was fulfilled during this timeframe. During high-volume periods, the system may use a shorter timeframe.</blockquote>  <br/> For more information, see [Redisplaying tickets with recall and unfulfill](adminGuide-adminRedisplayingTickets).</td>
     </tr>
     <tr>
       <td>Warning Colors</td>
@@ -422,14 +388,7 @@ For information about adding and customizing prep station behavior, see [Adding 
     </tr>
     <tr>
       <td>Send to</td>
-      <td>
-
-> **Note**
-> 
-> This setting is in limited release and will replace the Send to Expediter setting.
-
-
-Defines whether items assigned to the prep station are sent to the prep station, the expediter, or both. <ul><li>Prep station and expediter <br/> Items assigned to this prep station are sent to the prep station and the expediter.</li><li>Expediter only <br/> Items assigned to this prep station are only sent to the expediter. Prep stations with this setting cannot be assigned to prep station KDS devices.</li><li>Prep station only <br/> Items assigned to this prep station are only sent to the prep station.</li></ul> <br/> This includes items on KDS or printed tickets. For more information, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).</td>
+      <td> <blockquote><strong>Note</strong> This setting is in limited release and will replace the Send to Expediter setting.</blockquote> Defines whether items assigned to the prep station are sent to the prep station, the expediter, or both. <ul><li>Prep station and expediter <br/> Items assigned to this prep station are sent to the prep station and the expediter.</li><li>Expediter only <br/> Items assigned to this prep station are only sent to the expediter. Prep stations with this setting cannot be assigned to prep station KDS devices.</li><li>Prep station only <br/> Items assigned to this prep station are only sent to the prep station.</li></ul> <br/> This includes items on KDS or printed tickets. For more information, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).</td>
     </tr>
     <tr>
       <td>Other Stations</td>
@@ -621,36 +580,15 @@ The following table provides information about the settings of the Course Pacing
     </tr>
     <tr>
       <td>Firing Courses</td>
-      <td>This setting determines how courses are fired to the kitchen. <br/> This setting is available when [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send all courses to kitchen immediately.<ul><li>Server fires courses individually <br/> This option sends all courses to the kitchen, with the selected ones fired. The unselected courses appear as held tickets. If in use, the "No course" course is fired immediately. <br/> For printed tickets, when a held course is fired, a new ticket prints with the status change and the course name. It does not include the menu item or modifier names.</li><li>Automate course firing <br/> This option sends all courses to the kitchen. The first course, and the "No course" if it's in use, are fired immediately. The remaining courses appear as held tickets and are fired when certain conditions are met, as defined in the [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) setting.
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers. For printed tickets, all courses print immediately, with the initial courses fired and the rest held. When the remaining courses fire, a new ticket *does not* print.
-
-
-</li><li>Expediter fires courses individually <br/> This option sends all courses to the kitchen as held tickets. The expediter can then fire or fulfill the course tickets individually. This includes the "No course" course. <br/> This option is designed for KDS devices. For printed tickets, all courses are printed with a held status. When a course is fired, the prep station printer prints a new ticket with the changed status and the menu items and modifiers included in that course.</li></ul></td>
+      <td>This setting determines how courses are fired to the kitchen. <br/> This setting is available when [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send all courses to kitchen immediately.<ul><li>Server fires courses individually <br/> This option sends all courses to the kitchen, with the selected ones fired. The unselected courses appear as held tickets. If in use, the "No course" course is fired immediately. <br/> For printed tickets, when a held course is fired, a new ticket prints with the status change and the course name. It does not include the menu item or modifier names.</li><li>Automate course firing <br/> This option sends all courses to the kitchen. The first course, and the "No course" if it's in use, are fired immediately. The remaining courses appear as held tickets and are fired when certain conditions are met, as defined in the [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) setting. <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers. For printed tickets, all courses print immediately, with the initial courses fired and the rest held. When the remaining courses fire, a new ticket *does not* print.</blockquote> </li><li>Expediter fires courses individually <br/> This option sends all courses to the kitchen as held tickets. The expediter can then fire or fulfill the course tickets individually. This includes the "No course" course. <br/> This option is designed for KDS devices. For printed tickets, all courses are printed with a held status. When a course is fired, the prep station printer prints a new ticket with the changed status and the menu items and modifiers included in that course.</li></ul></td>
     </tr>
     <tr>
       <td>Automated Firing</td>
-      <td>This setting determines what conditions need to be met for a course to fire automatically. <br/> This setting is available when [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses) is set to Automate course firing.
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers. For printed tickets, all courses print immediately, with the initial courses fired and the rest held. When the remaining courses fire, a new ticket *does not* print.
-
-
-<ul><li>When previous course is fulfilled by all prep stations <br/> This option fires the next course when all items in the previous course are fulfilled by their respective prep stations. The first course, and the "No course" course if it's in use, are fired immediately.</li><li>When previous course is fulfilled by the expediter <br/> This option fires the next course when all items in the previous course are fulfilled by the expediter. The first course, and the "No course" course if it's in use, are fired immediately.</li><li>On a timed schedule <br/> This option fires the next course after a specified number of seconds passes. This is configured for each Course Firing Schedule, and is set in the Fire Next Course After column. <br/> For example, the Appetizer course schedules the next course to fire after 300 seconds in the Fire Next Course After column. If the next course is Entrees, it is fired 300 seconds after the Appetizer course is fired. The first course, and the "No course" course if it's in use, are fired immediately.</li></ul></td>
+      <td>This setting determines what conditions need to be met for a course to fire automatically. <br/> This setting is available when [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses) is set to Automate course firing. <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers. For printed tickets, all courses print immediately, with the initial courses fired and the rest held. When the remaining courses fire, a new ticket *does not* print.</blockquote> <ul><li>When previous course is fulfilled by all prep stations <br/> This option fires the next course when all items in the previous course are fulfilled by their respective prep stations. The first course, and the "No course" course if it's in use, are fired immediately.</li><li>When previous course is fulfilled by the expediter <br/> This option fires the next course when all items in the previous course are fulfilled by the expediter. The first course, and the "No course" course if it's in use, are fired immediately.</li><li>On a timed schedule <br/> This option fires the next course after a specified number of seconds passes. This is configured for each Course Firing Schedule, and is set in the Fire Next Course After column. <br/> For example, the Appetizer course schedules the next course to fire after 300 seconds in the Fire Next Course After column. If the next course is Entrees, it is fired 300 seconds after the Appetizer course is fired. The first course, and the "No course" course if it's in use, are fired immediately.</li></ul></td>
     </tr>
     <tr>
       <td>Optional delay between courses</td>
-      <td>This setting adds a delay, in seconds, between when a course is fulfilled and when the next course is automatically fired to the KDS device. For example, if a course is configured to fire when the previous course is fulfilled, and it uses a 15 second delay between courses, once the first course is fulfilled, 15 seconds pass before the second course is fired.
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers.
-
-
- <br/> This option appears if [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) is set to either When previous course is fulfilled by all prep stations or When previous course is fulfilled by the expediter.</td>
+      <td>This setting adds a delay, in seconds, between when a course is fulfilled and when the next course is automatically fired to the KDS device. For example, if a course is configured to fire when the previous course is fulfilled, and it uses a 15 second delay between courses, once the first course is fulfilled, 15 seconds pass before the second course is fired. <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers.</blockquote>  <br/> This option appears if [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) is set to either When previous course is fulfilled by all prep stations or When previous course is fulfilled by the expediter.</td>
     </tr>
     <tr>
       <td>Course Firing Schedule</td>
@@ -662,36 +600,15 @@ The following table provides information about the settings of the Course Pacing
     </tr>
     <tr>
       <td>Held Tickets</td>
-      <td>This setting determines whether prep station screens show held courses. <br/> This option appears if [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send all courses to kitchen immediately.
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers. Printed tickets always show held items at both expediter and prep stations. For printed tickets, when the next course is fired, a new ticket prints with the updated status.
-
-
-<ul><li>Show at both expediter and prep stations <br/> This option shows held courses at both expediter and prep stations.</li><li>Show at expediter only <br/> This option shows held courses at the expediter only. The prep stations show fired courses only.</li></ul></td>
+      <td>This setting determines whether prep station screens show held courses. <br/> This option appears if [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send all courses to kitchen immediately. <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers. Printed tickets always show held items at both expediter and prep stations. For printed tickets, when the next course is fired, a new ticket prints with the updated status.</blockquote> <ul><li>Show at both expediter and prep stations <br/> This option shows held courses at both expediter and prep stations.</li><li>Show at expediter only <br/> This option shows held courses at the expediter only. The prep stations show fired courses only.</li></ul></td>
     </tr>
     <tr>
       <td>All day view with held items</td>
-      <td>This setting includes both held and fired tickets in the [all day view](adminGuide-adminKitchenDiningRoomReference#configAllDayDisplay) and [production items](adminGuide-adminAssignPrepStationKDS#adminConfigureProductionItem) counts. <br/> This option appears if [Held Tickets](adminGuide-adminKitchenDiningRoomReference#configHeldTickets) is set to Show at both expediter and prep stations.
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers.
-
-
- <br/> To include only fired tickets or items in the all day view and production items counts, clear the Include held items in all day view and production item counts option.</td>
+      <td>This setting includes both held and fired tickets in the [all day view](adminGuide-adminKitchenDiningRoomReference#configAllDayDisplay) and [production items](adminGuide-adminAssignPrepStationKDS#adminConfigureProductionItem) counts. <br/> This option appears if [Held Tickets](adminGuide-adminKitchenDiningRoomReference#configHeldTickets) is set to Show at both expediter and prep stations. <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers.</blockquote>  <br/> To include only fired tickets or items in the all day view and production items counts, clear the Include held items in all day view and production item counts option.</td>
     </tr>
     <tr>
       <td>Previous Course Status</td>
-      <td>This setting determines whether tickets include information about the status of the previous courses. All menu items and modifiers in a course must be fulfilled in order for the course to be marked as fulfilled. Select the Show the status of previous courses on kitchen tickets check box to enable this setting. <br/> This option appears if [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send courses individually.
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers.
-
-
- <br/> The status information is either Not Fulfilled, or Fulfilled accompanied by the time since the course was fulfilled.</td>
+      <td>This setting determines whether tickets include information about the status of the previous courses. All menu items and modifiers in a course must be fulfilled in order for the course to be marked as fulfilled. Select the Show the status of previous courses on kitchen tickets check box to enable this setting. <br/> This option appears if [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) is set to Send courses individually. <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers.</blockquote>  <br/> The status information is either Not Fulfilled, or Fulfilled accompanied by the time since the course was fulfilled.</td>
     </tr>
   </tbody>
 </table>
@@ -711,21 +628,7 @@ The following table provides information about the settings of the Item Pacing s
   <tbody>
     <tr>
       <td>Item Fire by Prep Time</td>
-      <td>This setting determines whether the Toast platform uses preparation times to schedule and fire items in an order or course ticket. For more information, see [Firing by item prep time](adminGuide-adminFireByPrepTime).
-
-> **Note**
-> 
-> This setting is only available for KDS devices and is not supported for use with kitchen printers.
-
-
- <br/> Menu items and modifiers are assigned a time it takes to prepare so that they are fulfilled at the same time. Select Enable item fire by prep time to enable this feature.
-
-> **Important**
-> 
-> This setting is ignored when [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) is set to either Display each item on individual tickets at both prep stations and expos or Display each item on individual tickets at prep stations only for KDS Settings.
-
-
-</td>
+      <td>This setting determines whether the Toast platform uses preparation times to schedule and fire items in an order or course ticket. For more information, see [Firing by item prep time](adminGuide-adminFireByPrepTime). <blockquote><strong>Note</strong> This setting is only available for KDS devices and is not supported for use with kitchen printers.</blockquote>  <br/> Menu items and modifiers are assigned a time it takes to prepare so that they are fulfilled at the same time. Select Enable item fire by prep time to enable this feature. <blockquote><strong>Important</strong> This setting is ignored when [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets) is set to either Display each item on individual tickets at both prep stations and expos or Display each item on individual tickets at prep stations only for KDS Settings.</blockquote> </td>
     </tr>
   </tbody>
 </table>

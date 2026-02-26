@@ -170,21 +170,7 @@ You can view a change set's status on the Toast account &gt; Publishing &gt; Pub
     </tr>
     <tr>
       <td>Partial publish</td>
-      <td>Some of the changes in the changes set were successfully saved and published but some failed. <br/> Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
-
-> **Note**
-> 
-> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
-
-
- <br/> To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully. <br/> See [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information.
-
-> **Note**
-> 
-> Until additional change set development is done, other causes of the partial publish status require Toast support to resolve.
-
-
-</td>
+      <td>Some of the changes in the changes set were successfully saved and published but some failed. <br/> Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time. <blockquote><strong>Note</strong> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).</blockquote>  <br/> To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully. <br/> See [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information. <blockquote><strong>Note</strong> Until additional change set development is done, other causes of the partial publish status require Toast support to resolve.</blockquote> </td>
     </tr>
     <tr>
       <td>Failed</td>
@@ -441,14 +427,7 @@ The table below describes the error codes that you may see in the `publishing_er
   <tbody>
     <tr>
       <td>`ErrorConfigNeverPublished`</td>
-      <td>The menu entity has never been published to the location listed in the `locationName` column. Most menu entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
-
-> **Note**
-> 
-> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
-
-
- <br/> To resolve the `ErrorConfigNeverPublished` error, [manually publish](adminGuide-platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully.</td>
+      <td>The menu entity has never been published to the location listed in the `locationName` column. Most menu entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of partial publishes. <br/> For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time. <blockquote><strong>Note</strong> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).</blockquote>  <br/> To resolve the `ErrorConfigNeverPublished` error, [manually publish](adminGuide-platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully.</td>
     </tr>
     <tr>
       <td>`ErrorInternalPublishing`</td>

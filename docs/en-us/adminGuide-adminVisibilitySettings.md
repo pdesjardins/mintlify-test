@@ -73,14 +73,7 @@ The following table describes the visibility settings in more detail.
     <tr>
       <td>Kiosk, Toast Order & Pay</td>
       <td>In-store orders: Kiosk and Digital Menus </td>
-      <td>The menu entity is visible on Toast Kiosk devices, on the Toast Mobile Order and Pay app, and on Toast digital menus (previously called Menu & Pay). <br/> This setting requires visibility on Toast POS devices, so if you select this option, the option for POS visibility is also automatically selected. <br/> Modifier groups have an additional requirement that this visibility setting must match the Toast Online Ordering visibility setting. If you enable or disable one of those settings for a modifier group, the other setting will be enabled or disabled to match. This requirement does not exist for menus, menu groups, or menu items. 
-
-> **Note**
-> 
-> If your restaurant does not use Toast kiosks, this option is labeled In-store orders: Digital Menus.
-
-
-</td>
+      <td>The menu entity is visible on Toast Kiosk devices, on the Toast Mobile Order and Pay app, and on Toast digital menus (previously called Menu & Pay). <br/> This setting requires visibility on Toast POS devices, so if you select this option, the option for POS visibility is also automatically selected. <br/> Modifier groups have an additional requirement that this visibility setting must match the Toast Online Ordering visibility setting. If you enable or disable one of those settings for a modifier group, the other setting will be enabled or disabled to match. This requirement does not exist for menus, menu groups, or menu items.  <blockquote><strong>Note</strong> If your restaurant does not use Toast kiosks, this option is labeled In-store orders: Digital Menus.</blockquote> </td>
     </tr>
     <tr>
       <td>Toast Online Ordering, Toast Takeout (Local by Toast) app </td>

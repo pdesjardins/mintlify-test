@@ -92,27 +92,13 @@ The following table describes the scopes that determine what actions your Toast 
       <td>Menus</td>
       <td>Read</td>
       <td>`menus.channel:read`</td>
-      <td>Allows reading from the [menus API V3](https://doc.toasttab.com/openapi/menusv3/overview/).
-
-> **Note**
-> 
-> Ordering partner integrations must use V3 of the menus API, which requires the `menus.channel:read` scope. Because V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the `menus:read` scope.
-
-
-</td>
+      <td>Allows reading from the [menus API V3](https://doc.toasttab.com/openapi/menusv3/overview/). <blockquote><strong>Note</strong> Ordering partner integrations must use V3 of the menus API, which requires the `menus.channel:read` scope. Because V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the `menus:read` scope.</blockquote> </td>
     </tr>
     <tr>
       <td>Menus</td>
       <td>Read</td>
       <td>`menus:read`</td>
-      <td>Allows reading from the [menus API V2](https://doc.toasttab.com/openapi/menus/overview/).
-
-> **Note**
-> 
-> Because menus API V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the `menus:read` scope.
-
-
-</td>
+      <td>Allows reading from the [menus API V2](https://doc.toasttab.com/openapi/menus/overview/). <blockquote><strong>Note</strong> Because menus API V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the `menus:read` scope.</blockquote> </td>
     </tr>
     <tr>
       <td>Order management configuration</td>
