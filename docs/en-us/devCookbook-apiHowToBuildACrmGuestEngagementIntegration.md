@@ -156,19 +156,76 @@ When creating your integration functionality, consider tracking the following in
   <tbody>
     <tr>
       <td>Orders</td>
-      <td>Consider displaying the following reporting information for orders:<ul><li>Dining option name</li><li>Dining option behavior</li><li>Revenue center name</li><li>Server name</li><li>Service area name</li><li>Table name</li><li>Number of guests</li><li>Order source</li><li>Restaurant service name</li><li>Opened date</li><li>Modified date</li><li>Paid date</li><li>Business Date</li><li>Voided status</li></ul></td>
+      <td>Consider displaying the following reporting information for orders:
+<ul>
+<li>Dining option name</li>
+<li>Dining option behavior</li>
+<li>Revenue center name</li>
+<li>Server name</li>
+<li>Service area name</li>
+<li>Table name</li>
+<li>Number of guests</li>
+<li>Order source</li>
+<li>Restaurant service name</li>
+<li>Opened date</li>
+<li>Modified date</li>
+<li>Paid date</li>
+<li>Business Date</li>
+<li>Voided status</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Checks</td>
-      <td>Consider displaying the following reporting information for checks:<ul><li>Display number</li><li>Delivery information</li><li>Customer information</li><li>Tab name</li><li>Total amount</li><li>Tax amount</li><li>Refunded amount</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Applied service charge names</li><li>Applied service charge amounts</li><li>Voided status</li></ul></td>
+      <td>Consider displaying the following reporting information for checks:
+<ul>
+<li>Display number</li>
+<li>Delivery information</li>
+<li>Customer information</li>
+<li>Tab name</li>
+<li>Total amount</li>
+<li>Tax amount</li>
+<li>Refunded amount</li>
+<li>Applied discount names</li>
+<li>Applied discount amounts</li>
+<li>Applied service charge names</li>
+<li>Applied service charge amounts</li>
+<li>Voided status</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Selections</td>
-      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - use the <code>displayName</code> value on <code>Selection</code> object</li><li>Item quantity</li><li>Item group</li><li>Applied modifier names- Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Item tags</li><li>Voided status</li></ul></td>
+      <td>Consider displaying the following reporting information for menu item selections:
+<ul>
+<li>Menu item name - use the <code>displayName</code> value on <code>Selection</code> object</li>
+<li>Item quantity</li>
+<li>Item group</li>
+<li>Applied modifier names- Modifiers may be nested arbitrarily deep on a menu item</li>
+<li>Price</li>
+<li>Applied tax values</li>
+<li>Applied discount names</li>
+<li>Applied discount amounts</li>
+<li>Sales category name</li>
+<li>Item tags</li>
+<li>Voided status</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Payments</td>
-      <td>Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Tip amount</li><li>Refund information</li><li>Payment type</li><li>Card type</li><li>Card entry mode</li><li>Payment status</li><li>Voided status</li></ul></td>
+      <td>Consider displaying the following reporting information for payments:
+<ul>
+<li>Amount</li>
+<li>Tip amount</li>
+<li>Refund information</li>
+<li>Payment type</li>
+<li>Card type</li>
+<li>Card entry mode</li>
+<li>Payment status</li>
+<li>Voided status</li>
+</ul>
+</td>
     </tr>
   </tbody>
 </table>

@@ -88,7 +88,13 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     <tr>
       <td>403</td>
       <td>Forbidden</td>
-      <td>You are not permitted to access the resource that you are attempting to access. <br/> This error often occurs when:<ul><li>You try to access a restaurant that is not <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants">connected to your integration</a> (if using a <a href="apiDevGuide-authentication#apiAuthenticationReturnDataPartner">partner API client</a>).</li><li>You try to access a restaurant that is not <a href="apiDevGuide-apiRestaurantsInGroup">within the management group you work with</a> (if using a <a href="apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant">restaurant management group client</a>).</li><li>Your API credentials do not have the proper authorization to use the API you are trying to use.</li></ul></td>
+      <td>You are not permitted to access the resource that you are attempting to access. <br/> This error often occurs when:
+<ul>
+<li>You try to access a restaurant that is not <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants">connected to your integration</a> (if using a <a href="apiDevGuide-authentication#apiAuthenticationReturnDataPartner">partner API client</a>).</li>
+<li>You try to access a restaurant that is not <a href="apiDevGuide-apiRestaurantsInGroup">within the management group you work with</a> (if using a <a href="apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant">restaurant management group client</a>).</li>
+<li>Your API credentials do not have the proper authorization to use the API you are trying to use.</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>404</td>

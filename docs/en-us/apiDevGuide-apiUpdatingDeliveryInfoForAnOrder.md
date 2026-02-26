@@ -44,7 +44,14 @@ You can use the orders API to modify the following delivery information:
     </tr>
     <tr>
       <td><code>deliveryState</code></td>
-      <td>The status of the delivery order. The available values for <code>deliveryState</code> are:<ul><li><code>PENDING</code>: The delivery order has not been dispatched. Corresponds to the Unassigned tab for deliveries on the Toast POS app.</li><li><code>PICKED_UP</code>: The delivery employee has picked up the order from the restaurant.</li><li><code>IN_PROGRESS</code>: The order is on its way to the destination. Corresponds to the En Route tab for deliveries on the Toast POS app.</li><li><code>DELIVERED</code>: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</li></ul></td>
+      <td>The status of the delivery order. The available values for <code>deliveryState</code> are:
+<ul>
+<li><code>PENDING</code>: The delivery order has not been dispatched. Corresponds to the Unassigned tab for deliveries on the Toast POS app.</li>
+<li><code>PICKED_UP</code>: The delivery employee has picked up the order from the restaurant.</li>
+<li><code>IN_PROGRESS</code>: The order is on its way to the destination. Corresponds to the En Route tab for deliveries on the Toast POS app.</li>
+<li><code>DELIVERED</code>: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td><code>deliveryEmployee</code></td>

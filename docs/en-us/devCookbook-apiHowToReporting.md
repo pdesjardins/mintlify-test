@@ -84,33 +84,119 @@ The following table provides suggested information that you can display in diffe
     <tr>
       <td>Order data</td>
       <td>Orders</td>
-      <td>Consider displaying the following reporting information for orders:<ul><li>Dining option name</li><li>Dining option behavior</li><li>Revenue center name</li><li>Server name</li><li>Service area name</li><li>Table name</li><li>Numbers of guests</li><li>Order source</li><li>Restaurant service name</li><li>Opened date</li><li>Modified date</li><li>Paid date</li><li>Closed date</li><li>Voided status</li></ul></td>
+      <td>Consider displaying the following reporting information for orders:
+<ul>
+<li>Dining option name</li>
+<li>Dining option behavior</li>
+<li>Revenue center name</li>
+<li>Server name</li>
+<li>Service area name</li>
+<li>Table name</li>
+<li>Numbers of guests</li>
+<li>Order source</li>
+<li>Restaurant service name</li>
+<li>Opened date</li>
+<li>Modified date</li>
+<li>Paid date</li>
+<li>Closed date</li>
+<li>Voided status</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Checks</td>
-      <td>Consider displaying the following reporting information for checks:<ul><li>Display number</li><li>Tab name</li><li>Total amount</li><li>Tax amount</li><li>Refunded amount</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Applied service charge names</li><li>Applied service charge amounts</li></ul></td>
+      <td>Consider displaying the following reporting information for checks:
+<ul>
+<li>Display number</li>
+<li>Tab name</li>
+<li>Total amount</li>
+<li>Tax amount</li>
+<li>Refunded amount</li>
+<li>Applied discount names</li>
+<li>Applied discount amounts</li>
+<li>Applied service charge names</li>
+<li>Applied service charge amounts</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Menu item selections</td>
-      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the <code>displayName</code> value on <code>Selection</code> object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Item tags - Retrieve from the menus API and cache this data</li></ul></td>
+      <td>Consider displaying the following reporting information for menu item selections:
+<ul>
+<li>Menu item name - Use the <code>displayName</code> value on <code>Selection</code> object</li>
+<li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li>
+<li>Price</li>
+<li>Applied tax rate names</li>
+<li>Applied tax values</li>
+<li>Applied discount names</li>
+<li>Applied discount amounts</li>
+<li>Sales category name</li>
+<li>Item tags - Retrieve from the menus API and cache this data</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Payments</td>
-      <td>Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Tip amount</li><li>Refund information</li><li>Type</li><li>Card entry mode</li><li>Payment status</li></ul></td>
+      <td>Consider displaying the following reporting information for payments:
+<ul>
+<li>Amount</li>
+<li>Tip amount</li>
+<li>Refund information</li>
+<li>Type</li>
+<li>Card entry mode</li>
+<li>Payment status</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Cash transactions</td>
       <td>Cash entries</td>
-      <td>Consider displaying the following reporting information for cash entries:<ul><li>Cash entry type</li><li>Cash entry date</li><li>Amount</li><li>Reason</li><li>Cash drawer name</li><li>Payout reason name</li><li>No sale reason name</li><li>Employee 1 name</li><li>Employee 2 name</li><li>Reversed cash transaction</li></ul></td>
+      <td>Consider displaying the following reporting information for cash entries:
+<ul>
+<li>Cash entry type</li>
+<li>Cash entry date</li>
+<li>Amount</li>
+<li>Reason</li>
+<li>Cash drawer name</li>
+<li>Payout reason name</li>
+<li>No sale reason name</li>
+<li>Employee 1 name</li>
+<li>Employee 2 name</li>
+<li>Reversed cash transaction</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Deposits</td>
-      <td>Consider displaying the following reporting information for cash deposits:<ul><li>Cash entry date</li><li>Amount</li><li>Employee name</li><li>Reversed cash transaction</li></ul></td>
+      <td>Consider displaying the following reporting information for cash deposits:
+<ul>
+<li>Cash entry date</li>
+<li>Amount</li>
+<li>Employee name</li>
+<li>Reversed cash transaction</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Labor data</td>
       <td>Time entries</td>
-      <td>Consider displaying the following reporting information for time entries:<ul><li>Employee name</li><li>Job name</li><li>In date</li><li>Out date</li><li>Regular hours</li><li>Overtime hours</li><li>Declared cash tips</li><li>Non-cash tips</li><li>Break information: break type name, paid, in time, out time, missed</li><li>Cash gratuity service charges</li><li>Tips withheld</li><li>Hourly wage</li><li>Deleted</li></ul></td>
+      <td>Consider displaying the following reporting information for time entries:
+<ul>
+<li>Employee name</li>
+<li>Job name</li>
+<li>In date</li>
+<li>Out date</li>
+<li>Regular hours</li>
+<li>Overtime hours</li>
+<li>Declared cash tips</li>
+<li>Non-cash tips</li>
+<li>Break information: break type name, paid, in time, out time, missed</li>
+<li>Cash gratuity service charges</li>
+<li>Tips withheld</li>
+<li>Hourly wage</li>
+<li>Deleted</li>
+</ul>
+</td>
     </tr>
   </tbody>
 </table>

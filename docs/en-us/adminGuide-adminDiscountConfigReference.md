@@ -52,7 +52,16 @@ At the top of the discount configuration page are the following fields, which ap
     </tr>
     <tr>
       <td>Discount type</td>
-      <td>Specifies the discount type:<ul><li>Fixed $ Off</li><li>Fixed % Off</li><li>Open $ Off</li><li>Open % Off</li><li>Buy One Get One</li><li>Combo</li></ul></td>
+      <td>Specifies the discount type:
+<ul>
+<li>Fixed $ Off</li>
+<li>Fixed % Off</li>
+<li>Open $ Off</li>
+<li>Open % Off</li>
+<li>Buy One Get One</li>
+<li>Combo</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Limit to Dining Options</td>
@@ -84,7 +93,13 @@ The following fields display when you set Discount Type to one of the fixed or o
     </tr>
     <tr>
       <td>Applies to</td>
-      <td>How to apply the discount to the check:<ul><li>Any item: The discount applies to any item on the check. No other required item configuration is needed.</li><li>Entire check: The discount applies to the entire check. Optionally, the discount can be configured so that the check must have one or more required items and/or groups before the discount can apply.</li><li>Specific item/group: The discount is applied to the specified menu items and/or groups before the discount applies.</li></ul></td>
+      <td>How to apply the discount to the check:
+<ul>
+<li>Any item: The discount applies to any item on the check. No other required item configuration is needed.</li>
+<li>Entire check: The discount applies to the entire check. Optionally, the discount can be configured so that the check must have one or more required items and/or groups before the discount can apply.</li>
+<li>Specific item/group: The discount is applied to the specified menu items and/or groups before the discount applies.</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Discount will apply to all items except the following items/groups</td>
@@ -118,15 +133,31 @@ There are also BOGO-specific fields in the [Advanced Settings section.](adminGui
   <tbody>
     <tr>
       <td>Buy Items - Applies to</td>
-      <td>The Applies to setting determines the buy item type:<ul><li>Any item: The discount applies to any menu item on the check. No other required item configuration is needed.</li><li>Specific item/group: The check must have one or more required items before the discount applies.</li></ul></td>
+      <td>The Applies to setting determines the buy item type:
+<ul>
+<li>Any item: The discount applies to any menu item on the check. No other required item configuration is needed.</li>
+<li>Specific item/group: The check must have one or more required items before the discount applies.</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Get Items - Applies to</td>
-      <td>The Applies to setting determines the get item type:<ul><li>Any item: The get item can be any menu item on the check. No other required item configuration is needed.</li><li>Specific item/group: The check must have one or more required items before the get item applies.</li></ul></td>
+      <td>The Applies to setting determines the get item type:
+<ul>
+<li>Any item: The get item can be any menu item on the check. No other required item configuration is needed.</li>
+<li>Specific item/group: The check must have one or more required items before the get item applies.</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Get Items - Discount</td>
-      <td>Configures the discount for the get item:<ul><li>The amount to discount.</li><li>Whether the discount amount is a Currency ($) amount or a Percentage (%) amount.</li><li>How to select which eligible get item to discount.</li></ul></td>
+      <td>Configures the discount for the get item:
+<ul>
+<li>The amount to discount.</li>
+<li>Whether the discount amount is a Currency ($) amount or a Percentage (%) amount.</li>
+<li>How to select which eligible get item to discount.</li>
+</ul>
+</td>
     </tr>
   </tbody>
 </table>

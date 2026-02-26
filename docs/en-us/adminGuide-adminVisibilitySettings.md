@@ -88,7 +88,13 @@ The following table describes the visibility settings in more detail.
     <tr>
       <td>Customer invoices, Catering & Events, Catering Online Ordering</td>
       <td>[Not available]</td>
-      <td>The menu entity is visible when:<ul><li>Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this <a href="https://central.toasttab.com/s/article/How-to-Send-an-Invoice">Toast Central article</a>.</li><li>Creating catering orders using Toast Catering & Events. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events">Toast Central article</a>.</li><li>Configuring the menus and menu groups that guests can see when placing online catering orders. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering">Toast Central article</a>.</li></ul> <br/> Note that this setting is always enabled for all menu entities and cannot be changed.</td>
+      <td>The menu entity is visible when:
+<ul>
+<li>Creating customer invoices for orders using the Payments > Payment methods > Customer invoices page. For information, see this <a href="https://central.toasttab.com/s/article/How-to-Send-an-Invoice">Toast Central article</a>.</li>
+<li>Creating catering orders using Toast Catering & Events. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events">Toast Central article</a>.</li>
+<li>Configuring the menus and menu groups that guests can see when placing online catering orders. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering">Toast Central article</a>.</li>
+</ul>
+ <br/> Note that this setting is always enabled for all menu entities and cannot be changed.</td>
     </tr>
     <tr>
       <td>Digital menu board</td>

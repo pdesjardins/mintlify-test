@@ -1231,37 +1231,81 @@ It is important to note that not all pricing strategies are supported on all Toa
     <tr>
       <td>Size price</td>
       <td>With size pricing, the price of a menu item changes based on the size chosen for the menu item. For example, a small pizza costs $12 and a large pizza costs $14.</td>
-      <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
+      <td>
+<ul>
+<li>Toast POS app</li>
+<li>Toast Online Ordering</li>
+<li>Toast Takeout (Local by Toast) app</li>
+<li>Toast Kiosk</li>
+<li>Toast Order and Pay</li>
+<li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li>
+</ul>
+</td>
       <td>Menu manager</td>
     </tr>
     <tr>
       <td>Open price</td>
       <td>With open pricing, you manually specify a price for a menu item when that menu item is ordered on the Toast POS app. For example, you may want to set the price of a menu item differently depending on the market price of that menu item on the day that it is ordered. <blockquote><strong>Note</strong> For items that have a daily market price, Toast support recommends configuring the item with an open price and then using <a href="https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.">Quick Edit</a> mode on a Toast POS device to set a price for the item each day. This ensures that the price is accurate and employees don't have to enter a price every time the item is ordered.</blockquote> </td>
-      <td><ul><li>Toast POS app</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
+      <td>
+<ul>
+<li>Toast POS app</li>
+<li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li>
+</ul>
+</td>
       <td>Menu manager</td>
     </tr>
     <tr>
       <td>Menu-specific price</td>
       <td>With menu-specific pricing, the price of a menu item changes based on the menu it was ordered from, for example, a menu item that costs $5 when it is ordered from the Lunch menu and $7 when it is ordered from the Dinner menu. <br/> Menu-specific prices require that the same menu item has been added to multiple menus. Currently, that type of configuration can only be created in the classic menu details pages in Toast Web. For instructions on how to add the same menu item to multiple menus, see this <a href="https://central.toasttab.com/s/article/Shallow-and-Deep-Copying-Menu-Items-and-Modifiers">Toast Central article</a>.</td>
-      <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
+      <td>
+<ul>
+<li>Toast POS app</li>
+<li>Toast Online Ordering</li>
+<li>Toast Takeout (Local by Toast) app</li>
+<li>Toast Kiosk</li>
+<li>Toast Order and Pay</li>
+<li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li>
+</ul>
+</td>
       <td>Classic menu item details page <br/> You can update existing menu-specific prices in the menu manager Items view <em>after</em>  you have defined them on the classic menu item details page.</td>
     </tr>
     <tr>
       <td>Location-specific price</td>
       <td>With location-specific pricing, the price of a menu item changes based on the location it was ordered from, for example, a menu item that costs $15 when it is ordered from the Boston location and $17 when it is ordered from the New York location.</td>
-      <td><ul><li>Toast POS app</li><li>Toast Kiosk</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
+      <td>
+<ul>
+<li>Toast POS app</li>
+<li>Toast Kiosk</li>
+<li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li>
+</ul>
+</td>
       <td>Classic menu item details page <br/> You can update existing location-specific prices in the menu manager Items view <em>after</em>  you have defined them on the classic menu item details page.</td>
     </tr>
     <tr>
       <td>Time price</td>
       <td>With time pricing, you define the price of a menu group or item during specific times of the day. For example, a menu item that costs $10 between noon and 2pm and $12 during the rest of the day. With time pricing, you also specify a base price that functions as a default price for times of day when a time price has not been defined.</td>
-      <td><ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
+      <td>
+<ul>
+<li>Toast POS app</li>
+<li>Toast Online Ordering</li>
+<li>Toast Takeout (Local by Toast) app</li>
+<li>Toast Kiosk</li>
+<li>Toast Order and Pay</li>
+<li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li>
+</ul>
+</td>
       <td>Classic menu item details page</td>
     </tr>
     <tr>
       <td>Price levels</td>
       <td>Price levels allow you to quickly price menu items that all share the same price. You create a price level, and then assign it to the menu items that will use it. For example, all bottled beers are $5 and all draft beers are $6. To change the price of the menu items that use a price level, you only need to change the price level itself. This eliminates the need to edit the price for each individual menu group or item.</td>
-      <td><ul><li>Toast POS app</li><li>Toast Kiosk</li><li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li></ul></td>
+      <td>
+<ul>
+<li>Toast POS app</li>
+<li>Toast Kiosk</li>
+<li>Online ordering partners (Support can vary by online ordering partner. Contact the partner to confirm.)</li>
+</ul>
+</td>
       <td>Classic menu item details page</td>
     </tr>
   </tbody>

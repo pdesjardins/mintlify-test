@@ -40,7 +40,12 @@ The following table includes information about the access types and their creden
     <tr>
       <td>Administrative</td>
       <td>Email address and password</td>
-      <td><ul><li>Toast Web</li><li>Toast POS devices</li></ul></td>
+      <td>
+<ul>
+<li>Toast Web</li>
+<li>Toast POS devices</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td>Non-administrative</td>

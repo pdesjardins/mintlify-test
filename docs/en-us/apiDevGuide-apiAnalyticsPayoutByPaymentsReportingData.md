@@ -296,7 +296,13 @@ The following table specifies the returned set of values in the payout reporting
     </tr>
     <tr>
       <td><code>paymentCardType</code></td>
-      <td>The payment type used by the card completing the payment. The type can be one of the following values:<ul><li><code>Credit</code>: A credit card was used to complete the payment.</li><li><code>Debit</code>: A debit card was used to complete the payment.</li><li><code>UNSPECIFIED CARD</code>: The card type is neither credit or debit, or cannot be identified.</li></ul></td>
+      <td>The payment type used by the card completing the payment. The type can be one of the following values:
+<ul>
+<li><code>Credit</code>: A credit card was used to complete the payment.</li>
+<li><code>Debit</code>: A debit card was used to complete the payment.</li>
+<li><code>UNSPECIFIED CARD</code>: The card type is neither credit or debit, or cannot be identified.</li>
+</ul>
+</td>
     </tr>
     <tr>
       <td><code>tipAmount</code></td>

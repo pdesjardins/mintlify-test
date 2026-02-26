@@ -80,7 +80,14 @@ codeExamples: 0
     </tr>
     <tr>
       <td><strong>A:</strong> </td>
-      <td>You may see a 403 error message when making an API request for any of the following reasons:<ul><li>You made a <code>POST</code> request. Standard API access only supports <code>GET</code> requests.</li><li>You tried to access the <code>menus /v3</code> endpoints. Standard API access only supports <code>menus /v2</code> endpoints.</li><li>Your credentials do not include access to this restaurant. For information on how to edit which location(s) you have standard API access to, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials">Editing standard API access credentials</a>.</li><li>Your API client is missing the required scope for this endpoint. For information on how to edit the scopes configured for a client, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials">Editing standard API access credentials</a>.</li></ul> <blockquote><strong>Note</strong> This list is not exhaustive. For more information about error codes, see <a href="apiDevGuide-apiResponsesAndErrors">API responses and errors</a>.</blockquote> </td>
+      <td>You may see a 403 error message when making an API request for any of the following reasons:
+<ul>
+<li>You made a <code>POST</code> request. Standard API access only supports <code>GET</code> requests.</li>
+<li>You tried to access the <code>menus /v3</code> endpoints. Standard API access only supports <code>menus /v2</code> endpoints.</li>
+<li>Your credentials do not include access to this restaurant. For information on how to edit which location(s) you have standard API access to, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials">Editing standard API access credentials</a>.</li>
+<li>Your API client is missing the required scope for this endpoint. For information on how to edit the scopes configured for a client, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials">Editing standard API access credentials</a>.</li>
+</ul>
+ <blockquote><strong>Note</strong> This list is not exhaustive. For more information about error codes, see <a href="apiDevGuide-apiResponsesAndErrors">API responses and errors</a>.</blockquote> </td>
     </tr>
   </tbody>
 </table>

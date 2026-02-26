@@ -61,7 +61,20 @@ Attributes in the `packaging_updated` event's payload include:
     </tr>
     <tr>
       <td><code>items</code></td>
-      <td>The list of available packaging items. The <code>items</code> array contains the following fields and values:<ul><li><code>id</code>: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi">orders API</a>.</li><li><code>itemTypes</code>: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different <code>itemTypes</code>. For example, an item named "to-go items” that has <code>itemTypes</code> of napkins and utensils.</li><li><code>guestDisplayName</code>: An alternative name the restaurant team can configure for a packaging item. For example, you may select <code>itemTypes</code> for <code>CONDIMENTS</code> but have your guests see the following message: “Ketchup and mustard.”</li><li><code>guestInclusionType</code>: Defines how the restaurant guest should interact with the packaging preference. The available values are: <ul><li><code>OPT_IN</code>: A guest must complete an action to include packaging preferences, such as selecting a checkbox.</li><li><code>OPT_OUT</code>: A guest must complete an action to opt out of packaging, such as de-selecting a checkbox.</li></ul></li><li><code>guestDescription</code>: Further describes the packaging item, in addition to the <code>guestDisplayName</code>. For example, if the <code>itemType</code> is <code>CONDIMENTS</code>, and the <code>guestDisplayName</code> is "Ketchup and mustard", the <code>guestDescription</code> could show "Includes ketchup and mustard only."</li></ul> <br/> data type: string </td>
+      <td>The list of available packaging items. The <code>items</code> array contains the following fields and values:
+<ul>
+<li><code>id</code>: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi">orders API</a>.</li>
+<li><code>itemTypes</code>: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different <code>itemTypes</code>. For example, an item named "to-go items” that has <code>itemTypes</code> of napkins and utensils.</li>
+<li><code>guestDisplayName</code>: An alternative name the restaurant team can configure for a packaging item. For example, you may select <code>itemTypes</code> for <code>CONDIMENTS</code> but have your guests see the following message: “Ketchup and mustard.”</li>
+<li><code>guestInclusionType</code>: Defines how the restaurant guest should interact with the packaging preference. The available values are: 
+<ul>
+<li><code>OPT_IN</code>: A guest must complete an action to include packaging preferences, such as selecting a checkbox.</li>
+<li><code>OPT_OUT</code>: A guest must complete an action to opt out of packaging, such as de-selecting a checkbox.</li>
+</ul>
+</li>
+<li><code>guestDescription</code>: Further describes the packaging item, in addition to the <code>guestDisplayName</code>. For example, if the <code>itemType</code> is <code>CONDIMENTS</code>, and the <code>guestDisplayName</code> is "Ketchup and mustard", the <code>guestDescription</code> could show "Includes ketchup and mustard only."</li>
+</ul>
+ <br/> data type: string </td>
     </tr>
     <tr>
       <td><code>guestMessage</code></td>
