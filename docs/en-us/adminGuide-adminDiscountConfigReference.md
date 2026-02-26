@@ -24,10 +24,10 @@ At the top of the discount configuration page are the following fields, which ap
 | Basic option | Settings and description | 
 | --- | --- |
 | Name of discount | Sets the name of the discount. The name is used on the discount button on the Toast POS app (unless overridden by the POS Namesetting) and on sales reports. | 
-| Number of discount | The identifier of the discount. The number is generated when you create the discount. It is not editable.Next to the discount number is the Copy option, which allows you to create a copy of the current discount. See [Copying discounts](adminGuide-adminCopyingDiscounts).For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations. You use the New Version option to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](adminGuide-creatingAVersionOfAConfigurationEntity). | 
-| Require manager permission for reward redemptions | This setting displays only if Permissions Level in Advanced Settings is set to Manager.Specifies whether a manager's permission is required to apply third-party (non-Toast) rewards that are linked to this discount.For details, see [Determining who can apply a discount](adminGuide-adminDiscountsRequireManager). | 
-| Target | Only displays for restaurants that use the multi-location module.Determines the restaurant or group that the discount applies to.For details, see [Discount configurations for multi-location restaurants](adminGuide-adminDiscountsTargetsAndOwners). | 
-| Owner | Only displays for restaurants that use the multi-location module.Determines the restaurant or group that can configure the discount.For details, see [Discount configurations for multi-location restaurants](adminGuide-adminDiscountsTargetsAndOwners). | 
+| Number of discount | The identifier of the discount. The number is generated when you create the discount. It is not editable.Next to the discount number is the Copy option, which allows you to create a copy of the current discount. See [Copying discounts](docs/en-us/adminGuide-adminCopyingDiscounts).For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations. You use the New Version option to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](docs/en-us/adminGuide-creatingAVersionOfAConfigurationEntity). | 
+| Require manager permission for reward redemptions | This setting displays only if Permissions Level in Advanced Settings is set to Manager.Specifies whether a manager's permission is required to apply third-party (non-Toast) rewards that are linked to this discount.For details, see [Determining who can apply a discount](docs/en-us/adminGuide-adminDiscountsRequireManager). | 
+| Target | Only displays for restaurants that use the multi-location module.Determines the restaurant or group that the discount applies to.For details, see [Discount configurations for multi-location restaurants](docs/en-us/adminGuide-adminDiscountsTargetsAndOwners). | 
+| Owner | Only displays for restaurants that use the multi-location module.Determines the restaurant or group that can configure the discount.For details, see [Discount configurations for multi-location restaurants](docs/en-us/adminGuide-adminDiscountsTargetsAndOwners). | 
 | Discount type | Specifies the discount type:- Fixed $ Off
 - Fixed % Off
 - Open $ Off
@@ -36,7 +36,7 @@ At the top of the discount configuration page are the following fields, which ap
 - Combo
 
  | 
-| Limit to Dining Options | Controls which dining options the discount is available in.The discount will be available in each dining option you specify. In any dining option you do not select, the discount is not available. If you do not specify a dining option, the discount is available in all dining options.For information about dining options, see [Dining options](adminGuide-adminDiningOptions). | 
+| Limit to Dining Options | Controls which dining options the discount is available in.The discount will be available in each dining option you specify. In any dining option you do not select, the discount is not available. If you do not specify a dining option, the discount is available in all dining options.For information about dining options, see [Dining options](docs/en-us/adminGuide-adminDiningOptions). | 
 
 ## Type-specific fields for discounts
 
@@ -44,7 +44,7 @@ When you select the discount type, type-specific fields are displayed below the 
 
 ### Fields for fixed and open amount and percent discounts
 
-The following fields display when you set Discount Type to one of the fixed or open amount or percent discount types. See [Configuring fixed or open amount or percent discounts](adminGuide-adminDiscountsConfigFixedOpenDiscounts).
+The following fields display when you set Discount Type to one of the fixed or open amount or percent discount types. See [Configuring fixed or open amount or percent discounts](docs/en-us/adminGuide-adminDiscountsConfigFixedOpenDiscounts).
 
 | Fixed discount setting | Options and description | 
 | --- | --- |
@@ -54,15 +54,15 @@ The following fields display when you set Discount Type to one of the fixed or o
 - Specific item/group: The discount is applied to the specified menu items and/or groups before the discount applies.
 
  | 
-| Discount will apply to all items except the following items/groups | For Applies to=Entire Check discounts that are not bulk discounts, when you select this check box, you can specify menu items, menu groups, or menus to exclude from the discount.See [Excluding items from a check-level discount](adminGuide-adminDiscountsConfigFixedOpenDiscounts#adminExclusionDiscounts). | 
+| Discount will apply to all items except the following items/groups | For Applies to=Entire Check discounts that are not bulk discounts, when you select this check box, you can specify menu items, menu groups, or menus to exclude from the discount.See [Excluding items from a check-level discount](docs/en-us/adminGuide-adminDiscountsConfigFixedOpenDiscounts#adminExclusionDiscounts). | 
 | Check must include one of the following items/groups | For Applies to=Entire Check discounts, when you select this check box, you can specify required items for the discount.The required items must be on the check in order for the discount to apply. | 
 | Items | For Applies to=Specific item/group discounts, this section allows you to specify the required items for the discount.The required items must be on the check in order for the discount to apply. | 
 
 ### BOGO discount fields
 
-The following fields are displayed when you select BOGO as the discount type. See [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo).
+The following fields are displayed when you select BOGO as the discount type. See [Configuring a BOGO discount](docs/en-us/adminGuide-adminDiscountsConfigureBogo).
 
-There are also BOGO-specific fields in the [Advanced Settings section.](adminGuide-adminDiscountConfigReference#discountConfigAdvanced)
+There are also BOGO-specific fields in the [Advanced Settings section.](docs/en-us/adminGuide-adminDiscountConfigReference#discountConfigAdvanced)
 
 | BOGO settings | Options and description | 
 | --- | --- |
@@ -82,9 +82,9 @@ There are also BOGO-specific fields in the [Advanced Settings section.](adminGui
 
 ### Combo discount fields
 
-The following fields display when you set Discount type to Combo. See [Configuring a combo discount](adminGuide-adminDiscountsConfigureCombo).
+The following fields display when you set Discount type to Combo. See [Configuring a combo discount](docs/en-us/adminGuide-adminDiscountsConfigureCombo).
 
-There are also a combo-specific field in the [Advanced Settings](adminGuide-adminDiscountConfigReference#discountConfigAdvanced) section.
+There are also a combo-specific field in the [Advanced Settings](docs/en-us/adminGuide-adminDiscountConfigReference#discountConfigAdvanced) section.
 
 | Combo setting | Options and description | 
 | --- | --- |
@@ -93,11 +93,11 @@ There are also a combo-specific field in the [Advanced Settings](adminGuide-admi
 
 ## Promo codes
 
-The Promo codes section contains the list of promo codes for the discount. For details, see [Requiring promo codes for discounts](adminGuide-adminDiscountPromoCodes).
+The Promo codes section contains the list of promo codes for the discount. For details, see [Requiring promo codes for discounts](docs/en-us/adminGuide-adminDiscountPromoCodes).
 
 ## Availability
 
-The Availability section allows you to configure the dates, days of the week, and times when a discount is available. For details, see [Setting the availability date range for a discount](adminGuide-adminDiscountAvailability).
+The Availability section allows you to configure the dates, days of the week, and times when a discount is available. For details, see [Setting the availability date range for a discount](docs/en-us/adminGuide-adminDiscountAvailability).
 
 | Availability settings | Options and description | 
 | --- | --- |
@@ -110,13 +110,13 @@ The Availability section allows you to configure the dates, days of the week, an
 | Advanced settings | Options and description | 
 | --- | --- |
 | POS Name | An alternate, shortened name of the discount, used as the text for the discount button on the Toast POS app. | 
-| Permissions Level | Specifies who can apply the discount on the Toast POS app.Either any user can apply the discount, or only a manager can apply the discount.For details, see [Determining who can apply a discount](adminGuide-adminDiscountsRequireManager). | 
-| Allow with other discounts | Allows a check-level or BOGO discount to apply with other discounts.For details, see [Exclusive and nonexclusive discounts](adminGuide-adminDiscountExclusivity). | 
-| Required Min/Max Check Amount | Sets minimum and maximum check thresholds. The discount is applied only if the pre-tax total on the check meets the thresholds.For details, see [Configuring required minimum and maximum check totals](adminGuide-adminDiscountsMinMax). | 
-| Auto apply discount | Only configurable for discounts that are eligible to be auto-applied.Configures the discount to automatically apply to a check.For details, see [Automatically applying discounts](adminGuide-adminAutoApplyDiscounts). | 
-| Discount Reasons | Used to allow restaurant employees to select a discount reason when they apply a discount.You first select the available discount reasons for the discount.You then choose whether to prompt for a discount reason. If you prompt for a discount reason, you can also require a discount reason and an additional comment.For details, see [Requiring a discount reason for a discount](adminGuide-adminDiscountReasons). | 
-| Total Quantity | Only displays for combo discounts that are not bulk discounts.The number of times that a combo discount can be applied to an order.For details, see [Configuring a combo discount](adminGuide-adminDiscountsConfigureCombo). | 
-| Required # of Buy Items | Only displays for BOGO discounts.The minimum number of buy items that the check must have before the bulk discount can apply.For details, see [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo). | 
-| Eligible # of Get Items | Only displays for BOGO discountsThe maximum number of get items that are included in the discount.For details, see [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo). | 
-| Bulk Discount | Only displays for discounts that are eligible to be bulk discounts.Configures the discount as a bulk discount. For a bulk discount, you also configure the minimum and maximum number of eligible items that the discount is applied to.For details, see [Bulk discounts](adminGuide-adminBulkDiscounts). | 
+| Permissions Level | Specifies who can apply the discount on the Toast POS app.Either any user can apply the discount, or only a manager can apply the discount.For details, see [Determining who can apply a discount](docs/en-us/adminGuide-adminDiscountsRequireManager). | 
+| Allow with other discounts | Allows a check-level or BOGO discount to apply with other discounts.For details, see [Exclusive and nonexclusive discounts](docs/en-us/adminGuide-adminDiscountExclusivity). | 
+| Required Min/Max Check Amount | Sets minimum and maximum check thresholds. The discount is applied only if the pre-tax total on the check meets the thresholds.For details, see [Configuring required minimum and maximum check totals](docs/en-us/adminGuide-adminDiscountsMinMax). | 
+| Auto apply discount | Only configurable for discounts that are eligible to be auto-applied.Configures the discount to automatically apply to a check.For details, see [Automatically applying discounts](docs/en-us/adminGuide-adminAutoApplyDiscounts). | 
+| Discount Reasons | Used to allow restaurant employees to select a discount reason when they apply a discount.You first select the available discount reasons for the discount.You then choose whether to prompt for a discount reason. If you prompt for a discount reason, you can also require a discount reason and an additional comment.For details, see [Requiring a discount reason for a discount](docs/en-us/adminGuide-adminDiscountReasons). | 
+| Total Quantity | Only displays for combo discounts that are not bulk discounts.The number of times that a combo discount can be applied to an order.For details, see [Configuring a combo discount](docs/en-us/adminGuide-adminDiscountsConfigureCombo). | 
+| Required # of Buy Items | Only displays for BOGO discounts.The minimum number of buy items that the check must have before the bulk discount can apply.For details, see [Configuring a BOGO discount](docs/en-us/adminGuide-adminDiscountsConfigureBogo). | 
+| Eligible # of Get Items | Only displays for BOGO discountsThe maximum number of get items that are included in the discount.For details, see [Configuring a BOGO discount](docs/en-us/adminGuide-adminDiscountsConfigureBogo). | 
+| Bulk Discount | Only displays for discounts that are eligible to be bulk discounts.Configures the discount as a bulk discount. For a bulk discount, you also configure the minimum and maximum number of eligible items that the discount is applied to.For details, see [Bulk discounts](docs/en-us/adminGuide-adminBulkDiscounts). | 
 

@@ -66,7 +66,7 @@ The following diagram shows a partner API client using a partner authentication 
 
 ![Diagram that shows the authentication process for a partner API client](https://doc.toasttab.com/doc/media/partner-api-client-authentication.png)
 
-For information about finding the restaurants that your partner API account has access to, see [Location access](apiDevGuide-apiPartnersGettingAccessibleRestaurants).
+For information about finding the restaurants that your partner API account has access to, see [Location access](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants).
 
 ### Restaurant management group API accounts
 

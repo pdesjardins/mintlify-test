@@ -57,7 +57,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 **Procedure 1.15. To update an employee’s locked access to full access**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. A Toast employee or restaurant operator with full-access goes to Employees &gt; Employee management &gt; Employeesto open the Employees page. 
@@ -78,7 +78,7 @@ If you want to update your locked or read-only credentials to full access, follo
 
 **Procedure 1.16. To update your read-only access to full access**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Integrations &gt; Toast API access &gt; Manage credentials to open the Manage credentials page. 
@@ -121,7 +121,7 @@ The following procedure describes how to create standard API access credentials 
 
 **Procedure 1.17. To create Standard API credentials**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Integrations &gt; Toast API access &gt; Manage credentials to open the Manage credentials page.
@@ -153,7 +153,7 @@ The following procedure describes how to create standard API access credentials 
 - Enter a credential name. Toast support recommends this be a name that you can easily reference.
 
 
-- Select the scopes for the actions you want your Toast API client to be allowed to perform. For more information, see [Standard API access scopes](apiDevGuide-devApiAccessScopes).
+- Select the scopes for the actions you want your Toast API client to be allowed to perform. For more information, see [Standard API access scopes](docs/en-us/apiDevGuide-devApiAccessScopes).
 
 
 - Select the location(s) that you want read-only API access to. You can choose to select all the locations in your management group or use the dropdown menu to select individual locations. Select the Apply button to select your location(s).
@@ -264,7 +264,7 @@ To edit your standard API access credentials, select the Edit credentials button
 
 ### Editing group or location IDs
 
-Group and location IDs are account numbers that you can use to map restaurants in your integration. After populating a group or location ID for the location, you can retrieve this value using the restaurants API. For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).
+Group and location IDs are account numbers that you can use to map restaurants in your integration. After populating a group or location ID for the location, you can retrieve this value using the restaurants API. For more information, see [Using location and group identifiers](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).
 
 ![Shows edit group or location ID dialog.](https://doc.toasttab.com/doc/media/dev-api-access-edit-ids.png)
 
@@ -299,7 +299,7 @@ Select the Copy icon to copy the information.
 > Active authentication tokens generated using your credentials will continue to be valid until they expire or are replaced with new authentication tokens.
 
 
-A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](apiDevGuide-authentication#apiAuthTokenStorage).
+A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](docs/en-us/apiDevGuide-authentication#apiAuthTokenStorage).
 
 
 
@@ -316,7 +316,7 @@ A client secret is a private string assigned by Toast to verify the identity of 
 2. In the Ready to rotate the client secret dialog, confirm you want the existing client secret to expire and want to create a new client secret. To confirm, type ROTATE SECRET in the text field.
 
 
-3. Select the Continue button. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](apiDevGuide-authentication#apiAuthTokenStorage).
+3. Select the Continue button. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](docs/en-us/apiDevGuide-authentication#apiAuthTokenStorage).
 
 
 4. Select the I have copied and saved the client secret checkbox to finish rotating your client secret. The Credentials page displays the date and time your new client secret was created.
@@ -338,5 +338,5 @@ To delete your standard API access credentials, select the Delete credentials bu
 
 ### Securely sharing credentials
 
-When sharing standard API access credentials with your development team, always use a password manager or secure secret management service. Never share credentials via email or messaging applications. Limit access to team members who need it, and rotate your client secret when team members change. For complete security requirements, see [Credential storage guidelines](apiDevGuide-authentication#apiAuthTokenStorage).
+When sharing standard API access credentials with your development team, always use a password manager or secure secret management service. Never share credentials via email or messaging applications. Limit access to team members who need it, and rotate your client secret when team members change. For complete security requirements, see [Credential storage guidelines](docs/en-us/apiDevGuide-authentication#apiAuthTokenStorage).
 

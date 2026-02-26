@@ -71,13 +71,13 @@ The `openedDate` and `promisedDate`should be set to the UTC equivalent of 7:00 P
 
 Certain configuration in the Toast platform is time-based. For example, a restaurant may use a time-based menu, time-based pricing, or a time-based discount to accommodate their happy hour.
 
-[Menu availability](https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/Availability/), [time-based prices](apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2#apiMenuItemWithATimeSpecificPrice_V2), and time-based discounts are all configured relative to a restaurant's local time.
+[Menu availability](https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/Availability/), [time-based prices](docs/en-us/apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2#apiMenuItemWithATimeSpecificPrice_V2), and time-based discounts are all configured relative to a restaurant's local time.
 
 When your integration uses this time-based configuration information, you must shift the times as needed when daylight savings time begins and ends.
 
 ### Using restaurant hours
 
-The `closeoutHour` JSON value and `schedules` object in the [restaurants API](apiDevGuide-apiRestaurantInformation) are both relative to the restaurant's local time.
+The `closeoutHour` JSON value and `schedules` object in the [restaurants API](docs/en-us/apiDevGuide-apiRestaurantInformation) are both relative to the restaurant's local time.
 
 When interacting with these hours, shift them as needed when daylight savings time begins and ends.
 

@@ -17,7 +17,7 @@ codeExamples: 0
 
 The order state reflects the payment status and whether the order is completed.
 
-A check has the same state values, since the check contains the price and payment information. In most cases, the check and order state are the same. However, the states sometimes can be different. For example, if you [reopen a check](adminGuide-platformOrdersReopening) on a closed order, only the check state changes.
+A check has the same state values, since the check contains the price and payment information. In most cases, the check and order state are the same. However, the states sometimes can be different. For example, if you [reopen a check](docs/en-us/adminGuide-platformOrdersReopening) on a closed order, only the check state changes.
 
 
 
@@ -34,7 +34,7 @@ A check has the same state values, since the check contains the price and paymen
 ****Closed****
 : The order or check is completed and fully paid for, including any tips, and the server has closed it.
 
-Closed orders can be cleared, or purged, from the Toast POS devices. You can still [view closed orders from Toast Web](adminGuide-platformOrdersDetailsReportsAbout), and if needed [reopen closed checks](adminGuide-platformOrdersReopening).
+Closed orders can be cleared, or purged, from the Toast POS devices. You can still [view closed orders from Toast Web](docs/en-us/adminGuide-platformOrdersDetailsReportsAbout), and if needed [reopen closed checks](docs/en-us/adminGuide-platformOrdersReopening).
 
 
 
@@ -48,5 +48,5 @@ For credit card orders, the state goes from open to paid to closed.
 
 ![Flowcharts showing the states for a credit card order.](https://doc.toasttab.com/doc/media/order-states-credit.png)
 
-After an order is closed for a specific period of time, it is also marked as restricted. See [Working with restricted orders](adminGuide-adminViewingRestrictedOrders).
+After an order is closed for a specific period of time, it is also marked as restricted. See [Working with restricted orders](docs/en-us/adminGuide-adminViewingRestrictedOrders).
 

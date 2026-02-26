@@ -26,13 +26,13 @@ The Toast platform has a number of settings and conditions that affect the order
 
 This section describes how the Toast platform determines modifier group display order. It contains the following sections:
 
-- The [Settings and conditions that affect modifier group display order](adminGuide-adminSettingsAndConditionsThatAffectModifierGroupDisplay)section describes the settings and conditions themselves.
+- The [Settings and conditions that affect modifier group display order](docs/en-us/adminGuide-adminSettingsAndConditionsThatAffectModifierGroupDisplay)section describes the settings and conditions themselves.
 
 
-- The [Understanding modifier group display order](adminGuide-adminUnderstandingModifierGroupDisplay) section describes how the Toast platform uses these settings and conditions to determine modifier group display order.
+- The [Understanding modifier group display order](docs/en-us/adminGuide-adminUnderstandingModifierGroupDisplay) section describes how the Toast platform uses these settings and conditions to determine modifier group display order.
 
 
-- The [Ensuring important modifier groups display first](adminGuide-adminEnsuringImportantModifierGroupsDisplayFirst) section describes Toast support recommendations for using the Display Ordering Priority setting to ensure important modifier groups are displayed first.
+- The [Ensuring important modifier groups display first](docs/en-us/adminGuide-adminEnsuringImportantModifierGroupsDisplayFirst) section describes Toast support recommendations for using the Display Ordering Priority setting to ensure important modifier groups are displayed first.
 
 
 

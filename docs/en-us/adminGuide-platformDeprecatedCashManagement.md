@@ -18,7 +18,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> This content will be deprecated. For the latest information about cash drawers, see [Cash drawers](adminGuide-adminCashDrawers).
+> This content will be deprecated. For the latest information about cash drawers, see [Cash drawers](docs/en-us/adminGuide-adminCashDrawers).
 
 
 ## Cash management overview
@@ -44,7 +44,7 @@ Note these two scenarios:
 
 The cash drawer name appears in Toast Web in areas of the Cash Activity Audit and the Cash Drawer History reports. In addition, all areas on the Toast POS device that reference cash drawers will display the cash drawer name, not the associated printer name.
 
-You can assign a cash drawer name when you [create or update a cash drawer](adminGuide-platformDeprecatedCashManagement#platformCashDrawerCreate) with the Payments &gt; Checks & receipt setup &gt; Printers and cash drawers page in Toast Web.
+You can assign a cash drawer name when you [create or update a cash drawer](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformCashDrawerCreate) with the Payments &gt; Checks & receipt setup &gt; Printers and cash drawers page in Toast Web.
 
 ### Creating cash drawers
 
@@ -54,7 +54,7 @@ You need the Web Setup &gt; 6.10 Printer and Cash Drawer Setup permission to con
 
 **Procedure 6.61. To configure a new cash drawer**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Payment methods &gt; Cash overview &gt; Cash drawers &gt; View cash drawers to open the Cash drawers page.
@@ -122,7 +122,7 @@ Restaurants typically use one of two modes for how employees (such as servers or
 
 Based on the needs of the restaurant (such as for job roles or revenue centers), a restaurant can use both modes. For example, bartenders could use the cash in drawer mode, while servers could use cash in hand.
 
-An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](adminGuide-adminPermissions#permissionApplyCashPayments) permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
+An employee handling cash payments (either cash in drawer or cash in hand) must have the [1.6 Apply Cash Payments](docs/en-us/adminGuide-adminPermissions#permissionApplyCashPayments) permission. In addition, the employee's Toast POS device must have the Allow Cash Payments device setting enabled, as described in the following procedure.
 
 **Procedure 6.62. To configure a Toast POS device for a cash drawer mode**
 
@@ -335,7 +335,7 @@ The active drawer screen contains the following information:
 
 
 
-At the bottom of the screen are buttons for cash drawer operations, such as making a Cash Drop entry and closing the cash drawer. These operations are described in [Cash drawer operations](adminGuide-platformDeprecatedCashManagement#platformCashDrawerOperations).
+At the bottom of the screen are buttons for cash drawer operations, such as making a Cash Drop entry and closing the cash drawer. These operations are described in [Cash drawer operations](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformCashDrawerOperations).
 
 ### Open drawers
 
@@ -351,7 +351,7 @@ Open drawers are listed in the OPEN tab of the Cash Drawers screen, as in this e
 
 ![The Toast POS device showing the open drawer tab.](https://doc.toasttab.com/doc/media/cm-open-drawer-tab.png)
 
-Tapping the name of the open drawer displays the open drawer screen, which is functionally similar to the active drawer screen. The buttons at the bottom of the screen provide the same cash drawer operations as with active drawers. For example, the During Shift buttons let you adjust the drawer's balance before closing it. These operations are described in [Cash drawer operations](adminGuide-platformDeprecatedCashManagement#platformCashDrawerOperations).
+Tapping the name of the open drawer displays the open drawer screen, which is functionally similar to the active drawer screen. The buttons at the bottom of the screen provide the same cash drawer operations as with active drawers. For example, the During Shift buttons let you adjust the drawer's balance before closing it. These operations are described in [Cash drawer operations](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformCashDrawerOperations).
 
 ### Closed drawers
 
@@ -379,7 +379,7 @@ The top panel shows three balance amounts for the closed drawer:
 
 
 
-As the example shows, the During Shiftbuttons are disabled. The End of Shift buttons are described in [End of Shift operations](adminGuide-platformDeprecatedCashManagement#platformEndOfShiftOperations) and the Adjust Start button is described in [Adjust Starting Balance operation](adminGuide-platformDeprecatedCashManagement#platformAdjustStartOperation).
+As the example shows, the During Shiftbuttons are disabled. The End of Shift buttons are described in [End of Shift operations](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformEndOfShiftOperations) and the Adjust Start button is described in [Adjust Starting Balance operation](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformAdjustStartOperation).
 
 ## Cash drawer operations
 
@@ -681,7 +681,7 @@ When an employee makes a No Sale entry, a Please select a no sale reason dialog 
 
 **Procedure 6.71. To configure No Sale reasons**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Transactions & refunds &gt; No sale reasons to open the No Sale Reasons page.
@@ -769,11 +769,11 @@ In Toast Web, you can optionally configure confirmation thresholds that are appl
 
 The two thresholds work independently of each other, so you can use either or both of them.
 
-After you close the drawer, it appears on the Closed tab of the Cash Drawers screen. For more information on closed drawers, see [Closed drawers](adminGuide-platformDeprecatedCashManagement#platformClosedCashDrawers).
+After you close the drawer, it appears on the Closed tab of the Cash Drawers screen. For more information on closed drawers, see [Closed drawers](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformClosedCashDrawers).
 
 **Procedure 6.73. To configure cash drawer closeout thresholds**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Payment methods &gt; Cash overview &gt; Cash drawers &gt; Cash drawer varianceto open the Cash drawer variancepage.
@@ -854,7 +854,7 @@ When the new active drawer is created, it must have a starting balance. This sta
 
 
 
-For more information of these configuration settings, see [Creating cash drawers](adminGuide-platformDeprecatedCashManagement#platformCashDrawerCreate).
+For more information of these configuration settings, see [Creating cash drawers](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformCashDrawerCreate).
 
 **Procedure 6.75. To replace the active drawer with a new drawer**
 
@@ -946,7 +946,7 @@ The Cash entries section of the Cash Drawer History report contains the Update E
 
 **Procedure 6.78. To access the cash drawer operations in Toast Web**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Payment methods &gt; Cash overview &gt; View related reports &gt; Cash drawer history report to open the Cash Drawer History report. You can also choose Reports &gt; Cash and loss management &gt; Drawer history to open the Cash Drawer History report.
@@ -978,7 +978,7 @@ The Update Entries menu lets you make these cash entries:
 
 
 
-These operations are functionally similar to those on the Toast POS device, which are described in [During Shift operations](adminGuide-platformDeprecatedCashManagement#platformDuringShiftOperations). Note that the user name displayed in the cash drawer for the action is the name of the employee who is logged into Toast Web.
+These operations are functionally similar to those on the Toast POS device, which are described in [During Shift operations](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformDuringShiftOperations). Note that the user name displayed in the cash drawer for the action is the name of the employee who is logged into Toast Web.
 
 **Procedure 6.79. To make a cash entry from Toast Web**
 
@@ -1006,7 +1006,7 @@ The cash entry is listed in the Cash entries section of the Cash Drawer History 
 
 #### Closing cash drawers from Toast Web
 
-You can close an active cash drawer from Toast Web. While similar to the [close drawer operation on the Toast POS device](adminGuide-platformDeprecatedCashManagement#platformCloseDrawerOperation), the Toast Web version has the following differences:
+You can close an active cash drawer from Toast Web. While similar to the [close drawer operation on the Toast POS device](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformCloseDrawerOperation), the Toast Web version has the following differences:
 
 - The Close Cash Drawer dialog box in the Toast Web version is named Close Out Balance in the Toast POS device version.
 
@@ -1020,7 +1020,7 @@ You can close an active cash drawer from Toast Web. While similar to the [close 
 
 **Procedure 6.80. To close an active drawer from Toast Web**
 
-1. If you need to count the money in the cash drawer, issue a [No Sale](adminGuide-platformDeprecatedCashManagement#platformNoSaleOperation) command from the Toast POS device.
+1. If you need to count the money in the cash drawer, issue a [No Sale](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformNoSaleOperation) command from the Toast POS device.
 
 
 2. In the Update Entries drop-down menu, select Close Cash Drawer.
@@ -1030,11 +1030,11 @@ You can close an active cash drawer from Toast Web. While similar to the [close 
 
 
 
-After you close the drawer, it appears on the Closed tab of the Cash Drawers screen (on the Toast POS device) and its status is changed to Closed on the Cash Drawer History report. For more information on closed drawers, see [Closed drawers](adminGuide-platformDeprecatedCashManagement#platformClosedCashDrawers).
+After you close the drawer, it appears on the Closed tab of the Cash Drawers screen (on the Toast POS device) and its status is changed to Closed on the Cash Drawer History report. For more information on closed drawers, see [Closed drawers](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformClosedCashDrawers).
 
 #### Adjusting starting balance from Toast Web
 
-You can adjust the starting balance for a cash drawer from the Toast Web. This operation is functionally the same as the version on the Toast POS device, described in [Adjust Starting Balance operation](adminGuide-platformDeprecatedCashManagement#platformAdjustStartOperation).
+You can adjust the starting balance for a cash drawer from the Toast Web. This operation is functionally the same as the version on the Toast POS device, described in [Adjust Starting Balance operation](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformAdjustStartOperation).
 
 **Procedure 6.81. To adjust a cash drawer's starting balance from Toast Web**
 
@@ -1106,11 +1106,11 @@ As a result, the cash drawer displays the undone cash entry and the Balance fiel
 
 #### Undoing cash entries from Toast Web
 
-When you undo cash entries from Toast Web, the operations do not open the physical cash drawer. Therefore, if you want to manually add or remove cash, you must issue a [No Sale](adminGuide-platformDeprecatedCashManagement#platformNoSaleOperation) command from the Toast POS device.
+When you undo cash entries from Toast Web, the operations do not open the physical cash drawer. Therefore, if you want to manually add or remove cash, you must issue a [No Sale](docs/en-us/adminGuide-platformDeprecatedCashManagement#platformNoSaleOperation) command from the Toast POS device.
 
 **Procedure 6.83. To undo a cash entry from Toast Web**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Payment methods &gt; Cash overview &gt; View related reports &gt; Cash drawer history report to open the Cash Drawer History report. You can also choose Reports &gt; Cash and loss management &gt; Drawer history to open the Cash Drawer History report.
@@ -1144,7 +1144,7 @@ Keep the following in mind when using the cash drawer lockdown feature:
 - The cash drawer lockdown feature does not physically lock the drawer. Instead, the feature prevents an employee from using the Toast cash drawer interface to make transactions in a cash drawer that is locked to another employee.
 
 
-- Cash drawer lockdown does not have any special permissions of its own. If employees have the permissions to access a cash drawer, they can lock down the drawer themselves. For more information about cash management permissions, see [User permissions for cash management](adminGuide-adminUserPermissionsCashMgmt).
+- Cash drawer lockdown does not have any special permissions of its own. If employees have the permissions to access a cash drawer, they can lock down the drawer themselves. For more information about cash management permissions, see [User permissions for cash management](docs/en-us/adminGuide-adminUserPermissionsCashMgmt).
 
 
 - A restaurant employee (typically a manager) who has the Manager &gt; 3.19 Cash Drawer Lockdown (Override) permission can override a locked down setting on a cash drawer. Use cases for managerial overrides include the manager having to make transactions in the cash drawer (such as a payout transaction to buy restaurant goods), adjusting the starting balance of the cash drawer, and closing the cash drawer.
@@ -1169,7 +1169,7 @@ To set up the cash drawer lockdown feature for restaurant employees, you should 
 
 **Procedure 6.84. To configure cash drawer lockdown**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Employees &gt; Shift review &gt; Shift review to open the Shift review setup page.

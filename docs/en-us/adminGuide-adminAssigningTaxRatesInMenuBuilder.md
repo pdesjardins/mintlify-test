@@ -28,17 +28,17 @@ You can override tax rates on individual menus, menu groups, subgroups, or menu 
 
 In addition to tax rates, Toast Web includes two tax behavior settings that allow you to specify that taxes are included in a menu item's price and takeout orders are exempt from taxes. You can set the tax behavior settings at the menu, menu group, subgroup, or menu item level and they follow the same rules of inheritance as tax rates. You can override these settings as needed on individual menu entities.
 
-For more information on menu inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
+For more information on menu inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
 
 The following sections provide instructions for setting tax rates and behavior. They also provide more information about the tax behavior settings.
 
-- [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior)
+- [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior)
 
 
-- [Understanding tax inclusion](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTaxInclusion)
+- [Understanding tax inclusion](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTaxInclusion)
 
 
-- [Understanding takeout tax exception](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTakeoutTaxException)
+- [Understanding takeout tax exception](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTakeoutTaxException)
 
 
 
@@ -58,7 +58,7 @@ To override the inherited tax rates for a menu item, go to the Tax settings sect
 
 To configure a menu item so that it inherits its tax rates, set the Inherit tax rates? setting to Yes. To inherit the Tax inclusion or Takeout tax exceptionsetting, set the Inherit tax inclusion? or Inherit takeout tax? setting to Yes.
 
-If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminGuide-adminTaxesOverview).
+If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](docs/en-us/adminGuide-adminTaxesOverview).
 
 ## Understanding tax inclusion
 
@@ -90,13 +90,13 @@ When tax is not included, the guest pays $10.70 ($10 for the item and $0.70 for 
 
 Your sales reports display the item price and tax amount that the Toast platform has calculated for any tax included items, so you can see the breakdown of revenue versus tax when tax is included.
 
-For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
+For information on enabling tax inclusion, see [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 
 ## Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 
-For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
+For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 
-For more information on dining options, see [Dining options](adminGuide-adminDiningOptions).
+For more information on dining options, see [Dining options](docs/en-us/adminGuide-adminDiningOptions).
 

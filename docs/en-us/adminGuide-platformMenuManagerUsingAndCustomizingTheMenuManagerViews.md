@@ -25,7 +25,7 @@ When you select the name of a menu entity from the menu hierarchy table in Full 
 
 > **Note**
 > 
-> For multi-location restaurants, if you do not have permission to edit a menu entity, the side panel still opens so you can see the entity's configuration, but a banner at the top of the panel indicates that the information is read-only. For more information, see [For multi-location restaurants](adminGuide-platformMenuManagerPermissions#platformMenuManagerMenuEditingPermissionsForMultiLocations).
+> For multi-location restaurants, if you do not have permission to edit a menu entity, the side panel still opens so you can see the entity's configuration, but a banner at the top of the panel indicates that the information is read-only. For more information, see [For multi-location restaurants](docs/en-us/adminGuide-platformMenuManagerPermissions#platformMenuManagerMenuEditingPermissionsForMultiLocations).
 
 
 ![Full menu view showing the menu hierarchy table and the optional side panel.](https://doc.toasttab.com/doc/media/menu-manager-slideout-menu-side-panel.png)
@@ -130,7 +130,7 @@ To remove the entity's name but leave the new row in place so you can re-enter a
 
 To assist you in quickly entering menu data, the Items, Modifiers, and Price levels views have the following keyboard shortcuts:
 
-- Use the Enter key to quickly move from one row to the next and Shift + Enter to move back to the previous row. You can use these keyboard shortcuts along with the [row expanding icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to view the rows you want to edit and move between them more efficiently.
+- Use the Enter key to quickly move from one row to the next and Shift + Enter to move back to the previous row. You can use these keyboard shortcuts along with the [row expanding icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to view the rows you want to edit and move between them more efficiently.
 
 
 - Use Ctrl + Z on Windows machines and command + Z on Macs to undo your changes.

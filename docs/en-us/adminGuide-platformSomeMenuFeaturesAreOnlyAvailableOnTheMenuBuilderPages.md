@@ -15,5 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-Some newer features, like [online ordering partner-specific visibility settings](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants), have only been built into the menu builder pages and do not appear in the classic pages. This means you must access the menu builder pages to use them. If a feature is only available on the menu builder pages, the instructions for using the feature tell you how to access the menu builder pages and navigate to the page section where the feature appears.
+Some newer features, like [online ordering partner-specific visibility settings](docs/en-us/adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformOrderingPartnerSpecificSettingsForMultiLocationRestaurants), have only been built into the menu builder pages and do not appear in the classic pages. This means you must access the menu builder pages to use them. If a feature is only available on the menu builder pages, the instructions for using the feature tell you how to access the menu builder pages and navigate to the page section where the feature appears.
 

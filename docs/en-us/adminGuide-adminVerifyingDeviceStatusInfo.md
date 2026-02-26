@@ -48,7 +48,7 @@ This information can help you investigate a network connection problem. For exam
 
 2. Select the Queues tab, and review the name of the printer that jobs are being sent to and the list of jobs in the queue.
 
-This information can help you investigate a printing problem. For example, printing errors can occur if the printer is offline, out of paper, or jammed. You can correct the problem at the printer, or [access Device Setup](adminGuide-adminConfigureDevice) to change the printer used.
+This information can help you investigate a printing problem. For example, printing errors can occur if the printer is offline, out of paper, or jammed. You can correct the problem at the printer, or [access Device Setup](docs/en-us/adminGuide-adminConfigureDevice) to change the printer used.
 
 
 

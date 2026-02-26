@@ -14,11 +14,11 @@ procedures: 0
 codeExamples: 0
 ---
 
-Your Toast outbound API integration can verify the authenticity of the REST API requests you receive from the Toast platform. When you implement [a Toast outbound API integration](apiDevGuide-apiUsingToastOutboundApis), the Toast platform sends REST requests to your server. To maintain security of your integration, you must verify that each request was sent from the Toast platform client.
+Your Toast outbound API integration can verify the authenticity of the REST API requests you receive from the Toast platform. When you implement [a Toast outbound API integration](docs/en-us/apiDevGuide-apiUsingToastOutboundApis), the Toast platform sends REST requests to your server. To maintain security of your integration, you must verify that each request was sent from the Toast platform client.
 
 ## About the outbound API authentication process
 
-When you implement an integration with a Toast outbound API, you supply a static API key string that the Toast API client will include in the HTTP `Authorization` header field with each request. You can define any static API key that meets the authentication requirements of your integration. You provide the key string to the Toast integrations support team when you configure your integration. For more information about static API keys, see [Using static API keys](apiDevGuide-apiAuthenticatingRequestsFromToastApiClients#apiUsingStaticApiKeys).
+When you implement an integration with a Toast outbound API, you supply a static API key string that the Toast API client will include in the HTTP `Authorization` header field with each request. You can define any static API key that meets the authentication requirements of your integration. You provide the key string to the Toast integrations support team when you configure your integration. For more information about static API keys, see [Using static API keys](docs/en-us/apiDevGuide-apiAuthenticatingRequestsFromToastApiClients#apiUsingStaticApiKeys).
 
 The following diagram shows a Toast platform API client presenting the static API key string that you supply in the HTTP `Authorization` header field for an API request.
 
@@ -48,7 +48,7 @@ The maximum length of a static API key is 255 characters.
 
 When you have the static API key string that your integration will use to authenticate Toast platform API client requests, you contact the Toast integrations team to securely transfer the key string.
 
-Your authentication implementation should use different static API keys for the product and sandbox environments of the Toast platform. Using different static API keys ensures that requests meant for integration testing in the sandbox environment cannot affect the live restaurant operations in the production environment. For more information, see [Environments](apiDevGuide-apiEnvironments).
+Your authentication implementation should use different static API keys for the product and sandbox environments of the Toast platform. Using different static API keys ensures that requests meant for integration testing in the sandbox environment cannot affect the live restaurant operations in the production environment. For more information, see [Environments](docs/en-us/apiDevGuide-apiEnvironments).
 
 ## Rotating static API keys
 

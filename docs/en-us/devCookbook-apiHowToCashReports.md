@@ -20,7 +20,7 @@ The integration allows you to provide customers with detailed information about 
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
 
 - `cashmgmt:read`
 
@@ -39,7 +39,7 @@ To follow these instructions, you must have the following [scopes](apiDevGuide-a
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ### Decide what information your reports will provide
 
@@ -91,18 +91,18 @@ To display additional information associated with cash transactions, query the f
 
 
 
-In addition, query the `/employees`[endpoint](apiDevGuide-api_get_all_employees) of the labor API at least once per day to retrieve information about the employees associated with cash transactions.
+In addition, query the `/employees`[endpoint](docs/en-us/apiDevGuide-api_get_all_employees) of the labor API at least once per day to retrieve information about the employees associated with cash transactions.
 
 ### Set up recurring retrieval of cash transactions
 
 To report on cash transactions, you need to retrieve cash entries and deposits once per day.
 
-- For cash entries, use the `businessDate` parameter of the `/entries`[endpoint](apiDevGuide-apiUsingCashManagementApi) of the cash management API.
+- For cash entries, use the `businessDate` parameter of the `/entries`[endpoint](docs/en-us/apiDevGuide-apiUsingCashManagementApi) of the cash management API.
 
 Toast support recommends that you retrieve cash entries for the previous business day every day.
 
 
-- For deposits, use the `businessDate` parameter of the `/deposits`[endpoint](apiDevGuide-apiGetCashDeposits) of the cash management API.
+- For deposits, use the `businessDate` parameter of the `/deposits`[endpoint](docs/en-us/apiDevGuide-apiGetCashDeposits) of the cash management API.
 
 Toast support recommends retrieving deposits for the previous business day every day.
 
@@ -118,11 +118,11 @@ Toast support recommends that you retrieve twelve weeks of historical cash trans
 
 ### Determine closeout hour
 
-The `closeoutHour` value in the `General`object returned by the [restaurants API](apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
+The `closeoutHour` value in the `General`object returned by the [restaurants API](docs/en-us/apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
 
 The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on cash transactions changes after the `closeoutHour`.
 
-Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](docs/en-us/apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ## Building report functionality
 
@@ -224,7 +224,7 @@ To display the name of the employee who deposited the cash, match the GUID of th
 
 ### Expected cash balance in cash drawer
 
-Follow [these instructions](apiDevGuide-apiCalculatingExpectedCashDeposits) to report on the expected cash balance in a cash drawer at the end of a business day.
+Follow [these instructions](docs/en-us/apiDevGuide-apiCalculatingExpectedCashDeposits) to report on the expected cash balance in a cash drawer at the end of a business day.
 
 ### Anomalous cash transactions
 
@@ -232,5 +232,5 @@ Consider flagging cash transactions that restaurants may consider noteworthy.
 
 For example, your service may allow restaurants to configure a dollar threshold that they consider to be a high-dollar cash transaction. Consider highlighting cash transactions whose value is greater than this threshold.
 
-You can use the `Schedules` object in the [restaurants API](apiDevGuide-apiRestaurantInformation) to determine a restaurant's hours. Consider highlighting cash transactions that occur after hours.
+You can use the `Schedules` object in the [restaurants API](docs/en-us/apiDevGuide-apiRestaurantInformation) to determine a restaurant's hours. Consider highlighting cash transactions that occur after hours.
 

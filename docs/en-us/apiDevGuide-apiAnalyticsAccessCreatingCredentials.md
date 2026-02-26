@@ -25,7 +25,7 @@ The following procedure describes how to create analytics API access credentials
 
 **Procedure 1.20. To create Analytics API credentials**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Integrations &gt; Toast API access &gt; Manage credentials to open the Manage credentials page.
@@ -106,7 +106,7 @@ On the Credentials page, you can:
 
 ## Viewing analytics API access credentials in JSON format
 
-You can choose to view your credentials in JSON format. JSON is short for JavaScript Object Notation. You can choose to copy your credentials and include them in the [request for an authentication token](apiDevGuide-authentication#apiAuthGetTokenRequest).
+You can choose to view your credentials in JSON format. JSON is short for JavaScript Object Notation. You can choose to copy your credentials and include them in the [request for an authentication token](docs/en-us/apiDevGuide-authentication#apiAuthGetTokenRequest).
 
 ![Shows credentials in JSON format.](https://doc.toasttab.com/doc/media/api-analytics-access-credentials-json.png)
 
@@ -119,7 +119,7 @@ You can choose to view your credentials in JSON format. JSON is short for JavaSc
 > Active authentication tokens generated using your credentials will continue to be valid until they expire or are replaced with new authentication tokens.
 
 
-A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](apiDevGuide-authentication#apiAuthTokenStorage).
+A client secret is a private string assigned by Toast to verify the identity of the partner application to the service API when the application makes requests to Toast services. It is good security practice to rotate your client secret to minimize the impact of potential breaches and to reduce the possibility of compromised credentials. For more information, see [Credential storage guidelines](docs/en-us/apiDevGuide-authentication#apiAuthTokenStorage).
 
 
 
@@ -142,7 +142,7 @@ A client secret is a private string assigned by Toast to verify the identity of 
 4. Select the Continue button. The View the client secret dialog opens.
 
 
-5. Select View secret. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](apiDevGuide-authentication#apiAuthTokenStorage).
+5. Select View secret. Your new client secret appears. Toast support recommends you copy and store your client secret in a secure location, such as a password manager. For more information, see [Credential storage guidelines](docs/en-us/apiDevGuide-authentication#apiAuthTokenStorage).
 
 
 6. Select the I have copied and saved the client secret checkbox.

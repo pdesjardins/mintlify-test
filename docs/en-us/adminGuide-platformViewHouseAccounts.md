@@ -41,7 +41,7 @@ On the Accounts page, you can complete the following actions:
 
 > **Note**
 > 
-> If a time range is selected, this populates the Total Spend column. The total spend is the total amount charged to a house account and the total amount invoiced to the account. For more information, see [Paying for orders with a house account](adminGuide-platformEnableHouseAccountsPaymentMethod#platformPayWithHouseAccounts).
+> If a time range is selected, this populates the Total Spend column. The total spend is the total amount charged to a house account and the total amount invoiced to the account. For more information, see [Paying for orders with a house account](docs/en-us/adminGuide-platformEnableHouseAccountsPaymentMethod#platformPayWithHouseAccounts).
 
 
 

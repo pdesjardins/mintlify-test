@@ -16,30 +16,30 @@ codeExamples: 0
 
 This section provides a reference for the Toast platform's webhook event categories. It includes:
 
-- [Guest order fulfillment status webhook](apiDevGuide-apiGuestOrderFulfillmentStatusWebhook)
+- [Guest order fulfillment status webhook](docs/en-us/apiDevGuide-apiGuestOrderFulfillmentStatusWebhook)
 
 
-- [Menus webhook](apiDevGuide-apiMenusWebhook)
+- [Menus webhook](docs/en-us/apiDevGuide-apiMenusWebhook)
 
 
-- [Orders webhook](apiDevGuide-devOrdersWebhookRef)
+- [Orders webhook](docs/en-us/apiDevGuide-devOrdersWebhookRef)
 
 
-- [Packaging preferences configuration webhook](apiDevGuide-apiPackagingPreferencesConfigWebhook)
+- [Packaging preferences configuration webhook](docs/en-us/apiDevGuide-apiPackagingPreferencesConfigWebhook)
 
 
-- [Partners webhook](apiDevGuide-apiPartnersWebhook)
+- [Partners webhook](docs/en-us/apiDevGuide-apiPartnersWebhook)
 
 
-- [Restaurant availability webhook](apiDevGuide-apiRxAvailabilityWebhook)
+- [Restaurant availability webhook](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook)
 
 
-- [Restaurant online ordering schedule webhook](apiDevGuide-apiRxOnlineOrderingScheduleWebhook)
+- [Restaurant online ordering schedule webhook](docs/en-us/apiDevGuide-apiRxOnlineOrderingScheduleWebhook)
 
 
-- [Stock webhook](apiDevGuide-apiStockWebhook)
+- [Stock webhook](docs/en-us/apiDevGuide-apiStockWebhook)
 
 
 
-For information on using Toast webhooks, see [Webhook basics](apiDevGuide-apiWebhookBasics).
+For information on using Toast webhooks, see [Webhook basics](docs/en-us/apiDevGuide-apiWebhookBasics).
 

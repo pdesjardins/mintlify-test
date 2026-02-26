@@ -25,7 +25,7 @@ The pages for the classic menu workflow are older and contain the full suite of 
 
 To create your menu, start with the menu manager. This tool has been specifically designed to make creating and editing menu entities quicker and more efficient. There are some pieces of menu configuration, however, that don't exist yet in the menu manager and must still be done using the classic menu pages. For example, advanced pricing features like price levels must be set using the classic menu pages. The sections in this chapter note when you must use the classic menu pages to provide advanced configuration.
 
-Conversely, some newer features, like [online ordering partner-specific visibility settings for menus](adminGuide-platformMenuManagerWorkingWithMenus#platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersMenuBuilderMenuManagerMenus), have only been built into the menu manager pages and do not appear in the classic pages.
+Conversely, some newer features, like [online ordering partner-specific visibility settings for menus](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenus#platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersMenuBuilderMenuManagerMenus), have only been built into the menu manager pages and do not appear in the classic pages.
 
 You can quickly move from the menu manager to the classic details pages by selecting a menu entity to see its side panel and then selecting the More settings link that appears at the top of the panel:
 

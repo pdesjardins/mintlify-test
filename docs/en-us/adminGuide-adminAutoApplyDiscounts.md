@@ -31,7 +31,7 @@ You can configure these discount types to be auto-apply discounts:
 - Combo discounts
 
 
-- Bulk discounts. These are fixed currency check-level discounts and fixed percent check-level discounts that are configured with at least one required item, and are configured as [bulk discounts](adminGuide-adminBulkDiscounts).
+- Bulk discounts. These are fixed currency check-level discounts and fixed percent check-level discounts that are configured with at least one required item, and are configured as [bulk discounts](docs/en-us/adminGuide-adminBulkDiscounts).
 
 
 - Fixed currency and fixed percent Item-level discounts. Open item-level open discounts cannot be auto-apply discounts.

@@ -47,7 +47,7 @@ After excluding specific job roles, you can then run these reports and obtain me
 
 **Procedure 4.23. To configure an hourly job to be excluded from the labor reports**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Open the Employees &gt; Employee management &gt; Jobs page.

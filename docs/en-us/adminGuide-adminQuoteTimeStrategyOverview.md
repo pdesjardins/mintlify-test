@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> To view and configure your restaurant's quote time strategy, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+> To view and configure your restaurant's quote time strategy, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions).
 
 
 Quote time is the amount of time it takes to prepare a guest's online order for takeout or delivery. The quote time is the prep time plus delivery time. The quote time is displayed on your restaurant's Toast Online Ordering website, the Local by Toast app, Orders Hub, and on the online ordering dashboard. For example, the quote time is displayed under Order now button on the Toast Online Ordering website and at the top of the Orders Hub screen. Quote times apply to orders placed via the Toast Online Ordering website, the Local by Toast app, or the Toast POS app. Quote times do not apply to orders from third-party online ordering channels.

@@ -58,7 +58,7 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 **Procedure 8.35. To set a size price in the menu builder**
 
-1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set size prices for, select Items.
+1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set size prices for, select Items.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
@@ -92,7 +92,7 @@ It is important to note that not all pricing strategies are supported on all Toa
 8. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-9. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
+9. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -105,7 +105,7 @@ It is important to note that not all pricing strategies are supported on all Toa
 > For items that have a daily market price, Toast support recommends configuring the item with an open price and then using [Quick Edit](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.) mode on a Toast POS device to set a price for the item each day. This ensures that the price is accurate and employees don't have to enter a price every time the item is ordered.
 
 
-1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an open price for, select Items.
+1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an open price for, select Items.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
@@ -120,13 +120,13 @@ It is important to note that not all pricing strategies are supported on all Toa
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.37. To set an advanced price using the classic menu item details page**
 
-1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an advanced price for, select Items.
+1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an advanced price for, select Items.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
@@ -142,10 +142,10 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 - In the Pricing Strategy section, choose the advanced pricing strategy and fill out its configuration details. Click a link below for specific instructions for each strategy type:
 
-- [Menu Specific Price](adminGuide-adminMenuSpecificPrice#adminToCreateMenuSpecificPricesForAMenuItem)
+- [Menu Specific Price](docs/en-us/adminGuide-adminMenuSpecificPrice#adminToCreateMenuSpecificPricesForAMenuItem)
 
 
-- [Time Specific Price](adminGuide-adminTimeSpecificPrice#adminToCreateTimeSpecificPricesForAMenuGroupOrMenuItem)
+- [Time Specific Price](docs/en-us/adminGuide-adminTimeSpecificPrice#adminToCreateTimeSpecificPricesForAMenuGroupOrMenuItem)
 
 
 
@@ -158,14 +158,14 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 > **Note**
 > 
-> Price levels must be created before you can assign them to your menu items. Currently, price level creation must be done in the classic menu details pages in Toast Web. For instructions on how to create price levels, see [Using price levels](adminGuide-adminUsingPriceLevels).
+> Price levels must be created before you can assign them to your menu items. Currently, price level creation must be done in the classic menu details pages in Toast Web. For instructions on how to create price levels, see [Using price levels](docs/en-us/adminGuide-adminUsingPriceLevels).
 
 
 
 6. At the top of the page, select Save.
 
 
-7. If you are ready for your guests to see these menu changes, select Publish Now in the green banner that appears (see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information). If not, skip to the next step.
+7. If you are ready for your guests to see these menu changes, select Publish Now in the green banner that appears (see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information). If not, skip to the next step.
 
 
 8. To return to the menu builder, select your browser's back button twice.
@@ -176,6 +176,6 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 > **Note**
 > 
-> The menu builder does not support pricing at the menu group level yet. You can still assign prices to your menu groups using the classic menu details pages but the group prices you create *will not be shown* in the menu builder. For information on pricing menu groups, see [Setting prices at the menu group level](adminGuide-adminPricingMenuItems#adminSettingPricesAtTheMenuGroupLevel).
+> The menu builder does not support pricing at the menu group level yet. You can still assign prices to your menu groups using the classic menu details pages but the group prices you create *will not be shown* in the menu builder. For information on pricing menu groups, see [Setting prices at the menu group level](docs/en-us/adminGuide-adminPricingMenuItems#adminSettingPricesAtTheMenuGroupLevel).
 
 

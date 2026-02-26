@@ -20,7 +20,7 @@ Your guests can use a house account as a payment method to pay for Toast orders.
 
 **Procedure 6.95. To enable house accounts as a payment method**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Payments &gt; Payment methods &gt; House accounts to open the Accountspage.
@@ -97,7 +97,7 @@ Guests who have a house account and the Take house account payments on a POS set
 
 
 
-On the Payment Terminal screen on the Toast POS device, checks that have been paid by a house account show the total check amount and the house account icon. For more information, see [House accounts](adminGuide-platformPwfTenders#platformPwfHouseAccountsInfo).
+On the Payment Terminal screen on the Toast POS device, checks that have been paid by a house account show the total check amount and the house account icon. For more information, see [House accounts](docs/en-us/adminGuide-platformPwfTenders#platformPwfHouseAccountsInfo).
 
 
 
@@ -133,7 +133,7 @@ You can move a check(s) that was accidentally closed to the wrong house account.
 
 **Procedure 6.97. To move a closed check to a different house account**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Reports &gt; Sales &gt; Orders to open the Orders report.
@@ -167,7 +167,7 @@ You can move a check(s) that was accidentally closed to the wrong house account.
 
 11. On the payment screen, select the House account button to select another house account to complete the payment.
 
-For more information, see [Reopening closed checks](adminGuide-platformOrdersReopening).
+For more information, see [Reopening closed checks](docs/en-us/adminGuide-platformOrdersReopening).
 
 
 

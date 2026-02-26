@@ -30,7 +30,7 @@ To delete location-specific prices, you must use the menu item's details page. W
 3. Click Save.
 
 
-4. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
+4. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

@@ -17,7 +17,7 @@ codeExamples: 0
 
 You can optionally add one or more promo codes to any type of discount that is not auto-applied. A promo code is a text string or a scannable barcode that is assigned to a discount.
 
-When the restaurant employee selects the discount on the order screen, the Toast POS app prompts them for a promo code. The discount is applied to the check only if the employee enters the correct promo code. A restaurant can also allow employees to [search for promo codes](adminGuide-adminDiscountPromoCodes#adminPromoCodeSearch) in order to apply the corresponding discount.
+When the restaurant employee selects the discount on the order screen, the Toast POS app prompts them for a promo code. The discount is applied to the check only if the employee enters the correct promo code. A restaurant can also allow employees to [search for promo codes](docs/en-us/adminGuide-adminDiscountPromoCodes#adminPromoCodeSearch) in order to apply the corresponding discount.
 
 Promo codes are especially useful when your restaurant is running specials or campaigns. Guests can inform the server about the promo code, and then the server uses it to add the discount to the check.
 
@@ -108,7 +108,7 @@ To edit an existing promo code, click the field that you want to edit.
 
 3. In the Code field, enter the text string for the promo code. You can also scan a barcode into this field.
 
-For more information about code values, see [Code value](adminGuide-adminDiscountPromoCodes#adminDiscountPromoCodeCode).
+For more information about code values, see [Code value](docs/en-us/adminGuide-adminDiscountPromoCodes#adminDiscountPromoCodeCode).
 
 
 4. In the Description field, optionally enter any descriptive information about the promo code.
@@ -116,7 +116,7 @@ For more information about code values, see [Code value](adminGuide-adminDiscoun
 
 5. To make a promo code single use, check the Single Use check box.
 
-For more information about single-use promo codes, see [Single use promo codes](adminGuide-adminDiscountPromoCodes#adminDiscountPromoCodeSingleUse).
+For more information about single-use promo codes, see [Single use promo codes](docs/en-us/adminGuide-adminDiscountPromoCodes#adminDiscountPromoCodeSingleUse).
 
 
 6. Optionally, set the date range during which the promo code is valid.
@@ -125,7 +125,7 @@ To set the Start Date or End Date, click the calendar icon, then use the date pi
 
 To clear the configured Start Dateand End Date, click Clear Date.
 
-For more information about the effective dates for promo codes, see [Promo code effective dates](adminGuide-adminDiscountPromoCodes#adminPromoCodeDates).
+For more information about the effective dates for promo codes, see [Promo code effective dates](docs/en-us/adminGuide-adminDiscountPromoCodes#adminPromoCodeDates).
 
 
 7. Save and publish your changes.
@@ -148,7 +148,7 @@ Before restaurant employees can use the promo code search, you must enable it.
 
 **Procedure 9.9. To enable promo code search for a restaurant**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Front of house &gt; Order screen setup &gt; UI options to open the UI Options page.

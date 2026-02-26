@@ -27,7 +27,7 @@ Text messages are sent for orders that meet these criteria.
 - The order must be entered on a Toast POS device in Table Service or Quick Order mode, on a Toast kiosk, or via the Toast Online Ordering website.
 
 
-- Recipients for the text messages must be [configured](adminGuide-platformKitchenTextMessaging#adminConfigureTextMessage) in the Toast Web.
+- Recipients for the text messages must be [configured](docs/en-us/adminGuide-platformKitchenTextMessaging#adminConfigureTextMessage) in the Toast Web.
 
 
 - The order must be fulfilled on an expediter KDS.
@@ -59,7 +59,7 @@ You can customize the default message text that is provided by the Toast POS to 
 
 
 
-If your kitchen workflow has [two expediters](adminGuide-adminUsingExpo), you also specify when to send text messages: only after fulfillment on the level 2 expediter KDS, or after fulfillment on either expediter KDS.
+If your kitchen workflow has [two expediters](docs/en-us/adminGuide-adminUsingExpo), you also specify when to send text messages: only after fulfillment on the level 2 expediter KDS, or after fulfillment on either expediter KDS.
 
 If your kitchen is configured to Enable individual item fulfillment, the text message is sent after all items are marked fulfilled.
 
@@ -69,7 +69,7 @@ In addition, this [Toast Central article](https://central.toasttab.com/s/article
 
 To configure text messaging, you must have the 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup access permission. Then, follow these steps.
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page. Scroll down to theOrder Ready Text Messaging section.

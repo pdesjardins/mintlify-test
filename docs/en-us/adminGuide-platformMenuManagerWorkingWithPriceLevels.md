@@ -17,10 +17,10 @@ codeExamples: 0
 
 This section provides information about working with price levels in the menu manager. It includes:
 
-- [Editing a price level's price](adminGuide-platformMenuManagerWorkingWithPriceLevels#platformMenuManagerEditingAPriceLevelsPrice)
+- [Editing a price level's price](docs/en-us/adminGuide-platformMenuManagerWorkingWithPriceLevels#platformMenuManagerEditingAPriceLevelsPrice)
 
 
-- [Viewing read-only price-level information](adminGuide-platformMenuManagerWorkingWithPriceLevels#platformMenuManagerViewingReadOnlyPriceLevelInformation)
+- [Viewing read-only price-level information](docs/en-us/adminGuide-platformMenuManagerWorkingWithPriceLevels#platformMenuManagerViewingReadOnlyPriceLevelInformation)
 
 
 
@@ -28,9 +28,9 @@ This section provides information about working with price levels in the menu ma
 
 Follow the procedure below to edit a price level's price.
 
-**Procedure 8.98. To edit a price level's price**
+**Procedure 8.99. To edit a price level's price**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -39,7 +39,7 @@ Follow the procedure below to edit a price level's price.
 3. From the Show section, choose Price levels.
 
 
-4. Use the [search field](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of price levels.
+4. Use the [search field](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of price levels.
 
 
 5. Enter your price edits in the Pricecolumn.
@@ -52,18 +52,18 @@ Follow the procedure below to edit a price level's price.
 
 
 
-6. Continue reading the [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to restaurant employees and guests.
+6. Continue reading the [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to restaurant employees and guests.
 
 
 
 > **Important**
 > 
-> The menu manager offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either*select Schedule to create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
+> The menu manager offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either*select Schedule to create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
 
 
 
 
 ## Viewing read-only price-level information
 
-The Price levels view of the menu manager provides additional read-only information about modifiers. For example, the Price strategy column displays the name of the price strategy that the price level uses. For more information, see [Price levels view](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerPriceLevelsColumns).
+The Price levels view of the menu manager provides additional read-only information about modifiers. For example, the Price strategy column displays the name of the price strategy that the price level uses. For more information, see [Price levels view](docs/en-us/adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerPriceLevelsColumns).
 

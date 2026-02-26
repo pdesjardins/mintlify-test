@@ -16,7 +16,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-After the orientation of the bump bar is chosen and placement of the bump bar in the kitchen is finalized, you can connect the bump bar to the KDS device. This process is different depending on whether you use a bump bar with a USB cable or a wireless bump bar. For information about how to set up a bump bar with a USB cable, see [Setting up a bump bar with a USB cable](adminGuide-platformKitchenBumpBarSetUp#platformKitchenBumpBarUSBSetup). For information about how to set up a wireless bump bar, see [Setting up a wireless bump bar](adminGuide-platformKitchenBumpBarSetUp#platformKitchenBumpBarWirelessSetup).
+After the orientation of the bump bar is chosen and placement of the bump bar in the kitchen is finalized, you can connect the bump bar to the KDS device. This process is different depending on whether you use a bump bar with a USB cable or a wireless bump bar. For information about how to set up a bump bar with a USB cable, see [Setting up a bump bar with a USB cable](docs/en-us/adminGuide-platformKitchenBumpBarSetUp#platformKitchenBumpBarUSBSetup). For information about how to set up a wireless bump bar, see [Setting up a wireless bump bar](docs/en-us/adminGuide-platformKitchenBumpBarSetUp#platformKitchenBumpBarWirelessSetup).
 
 ## Setting up a bump bar with a USB cable
 
@@ -29,7 +29,7 @@ Depending on your KDS device model, you need either a USB-B to USB-C cable or a 
 > You need to use the touchscreen functionality of the KDS device to complete the bump bar set up.
 
 
-**Procedure 10.38. To set up the bump bar with a USB cable**
+**Procedure 10.39. To set up the bump bar with a USB cable**
 
 1. Orient the bump bar to your choosing:
 
@@ -106,7 +106,7 @@ Once this bump bar is connected, these initial settings are saved if the bump ba
 
 ## Setting up a wireless bump bar
 
-To set up the wireless bump bar to work with your KDS device, you first need to connect the wireless bump bar, and then complete the set up process for the wireless bump bar on your KDS device. Before starting, verify that your [KDS device uses grid view](adminGuide-platformKDSOverview#platformGridKDSSetUp).
+To set up the wireless bump bar to work with your KDS device, you first need to connect the wireless bump bar, and then complete the set up process for the wireless bump bar on your KDS device. Before starting, verify that your [KDS device uses grid view](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSSetUp).
 
 
 
@@ -115,7 +115,7 @@ To set up the wireless bump bar to work with your KDS device, you first need to 
 > The wireless bump bar is in limited release.
 
 
-**Procedure 10.39. To set up the wireless bump bar for your KDS device**
+**Procedure 10.40. To set up the wireless bump bar for your KDS device**
 
 1. Orient the bump bar to your choosing:
 

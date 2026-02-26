@@ -24,7 +24,7 @@ Full menu view has the following limitations when used by multi-location restaur
 - You cannot add existing menu items in Full menu view. You must use the classic page for the parent menu group instead.
 
 
-- The side panel for menu groups shows a very shortened version of a menu group details page where you are limited to editing the name, POS name, and POS color. Selecting the full-screen icon in the menu group side panel takes you to the [classic menu group details page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages). The menu manager does not yet have a full screen version of the menu group details page.
+- The side panel for menu groups shows a very shortened version of a menu group details page where you are limited to editing the name, POS name, and POS color. Selecting the full-screen icon in the menu group side panel takes you to the [classic menu group details page](docs/en-us/adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages). The menu manager does not yet have a full screen version of the menu group details page.
 
 
 - The reordering icon in Full menu view that allows you to reorganize the order of your menus, menu groups, and menu items is not yet supported for multi-location restaurants.
@@ -36,7 +36,7 @@ Full menu view has the following limitations when used by multi-location restaur
 
 ## Versioned menu entities in menu manager
 
-When a restaurant uses the multi-location management module, its menu entities can be [versioned](adminGuide-versions) and those versions can be assigned to specific restaurant locations, or [groups of locations](adminGuide-restaurantGroupsAndSubgroups). For example, a restaurant could have two versions of an Egg Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all, of their data. For example, the Boston version of the Egg Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
+When a restaurant uses the multi-location management module, its menu entities can be [versioned](docs/en-us/adminGuide-versions) and those versions can be assigned to specific restaurant locations, or [groups of locations](docs/en-us/adminGuide-restaurantGroupsAndSubgroups). For example, a restaurant could have two versions of an Egg Sandwich menu item, one for a Boston location and another for a New York City location. Versioned entities share the majority of, but not all, of their data. For example, the Boston version of the Egg Sandwich has sausage, bacon, and cheese modifiers while the New York City version only has bacon and cheese modifiers.
 
 This section describes some key points when working with versioned menu entities in the menu manager.
 
@@ -59,7 +59,7 @@ The illustration below shows the same versioned menu item in Full menu view
 
 ![An example of the same versioned menu item in Full menu view.](https://doc.toasttab.com/doc/media/menu-manager-versioned-items-full-menu-view.png)
 
-For more information, see [Versions](adminGuide-versions).
+For more information, see [Versions](docs/en-us/adminGuide-versions).
 
 ### Defaults for targets and owners
 
@@ -92,7 +92,7 @@ Similarly, newly created modifier groups inherit the target and owner of the men
 
 Toast Web prevents you from setting a target and owner that you don't have permissions to.
 
-For more information, see [Targets](adminGuide-targets) and [Owners and permissions](adminGuide-ownersAndPermissions).
+For more information, see [Targets](docs/en-us/adminGuide-targets) and [Owners and permissions](docs/en-us/adminGuide-ownersAndPermissions).
 
 ## Available at (Target), Editable by (Owner), Number, and GUID properties
 
@@ -104,7 +104,7 @@ The following sections provide descriptions for these properties.
 
 ### Available at (Target) and Editable by (Owner)
 
-As described in [Versions](adminGuide-versions), menu entities can have versions. Versions share some, but not all, of their configuration settings. Each version of a menu entity has a target and an owner:
+As described in [Versions](docs/en-us/adminGuide-versions), menu entities can have versions. Versions share some, but not all, of their configuration settings. Each version of a menu entity has a target and an owner:
 
 - A version's target specifies which locations or location groups can use that version of the menu entity.
 
@@ -113,7 +113,7 @@ As described in [Versions](adminGuide-versions), menu entities can have versions
 
 
 
-A target must be the same as, or a descendant of, the menu entity's owner in the [location group hierarchy](adminGuide-restaurantGroupsAndSubgroups). The Toast platform prevents you from setting targets and owners that don't meet this requirement. If you:
+A target must be the same as, or a descendant of, the menu entity's owner in the [location group hierarchy](docs/en-us/adminGuide-restaurantGroupsAndSubgroups). The Toast platform prevents you from setting targets and owners that don't meet this requirement. If you:
 
 - Set a target that is not a descendant of the owner, the owner is automatically updated to match the target you set.
 
@@ -133,26 +133,26 @@ The Toast platform also prevents you from assigning the same target to more than
 
 You must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to a location or location group in order to see that location or location group in the target and owner pickers. If you do not have the Edit Full Menupermission to a location or location group, the Toast platform filters it out of the target and owner pickers so you cannot assign it to a version.
 
-For more information, see the following sections in the [Multiple restaurant locations](adminGuide-sharingMenusAndOtherInformationAmongRestaurants) chapter:
+For more information, see the following sections in the [Multiple restaurant locations](docs/en-us/adminGuide-sharingMenusAndOtherInformationAmongRestaurants) chapter:
 
-- [Versions](adminGuide-versions)
-
-
-- [Targets](adminGuide-targets)
+- [Versions](docs/en-us/adminGuide-versions)
 
 
-- [Owners and permissions](adminGuide-ownersAndPermissions)
+- [Targets](docs/en-us/adminGuide-targets)
 
 
-- [Restaurant groups and sub-groups](adminGuide-restaurantGroupsAndSubgroups)
+- [Owners and permissions](docs/en-us/adminGuide-ownersAndPermissions)
+
+
+- [Restaurant groups and sub-groups](docs/en-us/adminGuide-restaurantGroupsAndSubgroups)
 
 
 
 ### Number
 
-The Number field is used to identify related versions of a menu entity. Menu entity versions with the same Number are all versions of the same menu entity. This field is read only. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
+The Number field is used to identify related versions of a menu entity. Menu entity versions with the same Number are all versions of the same menu entity. This field is read only. For more information, see [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers).
 
 ### GUID
 
-The GUID field is used to identify a specific version of a menu entity. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. This field is read-only. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
+The GUID field is used to identify a specific version of a menu entity. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. This field is read-only. For more information, see [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers).
 

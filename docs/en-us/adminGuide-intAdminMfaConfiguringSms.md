@@ -15,7 +15,7 @@ procedures: 1
 codeExamples: 0
 ---
 
-You can choose to set up your multi-factor authentication using a QR code or short message system (SMS) text message. To learn how to set it up using a QR code, see [Configuring multi-factor authentication using an authenticator app](adminGuide-intAdminMfaConfiguringQrCode).
+You can choose to set up your multi-factor authentication using a QR code or short message system (SMS) text message. To learn how to set it up using a QR code, see [Configuring multi-factor authentication using an authenticator app](docs/en-us/adminGuide-intAdminMfaConfiguringQrCode).
 
 **Procedure 4.4. To use SMS for multi-factor authentication**
 

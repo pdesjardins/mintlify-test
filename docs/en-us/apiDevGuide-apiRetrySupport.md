@@ -17,7 +17,7 @@ codeExamples: 0
 
 The Toast platform attempts to resend updates to a webhook endpoint in the following circumstances:
 
-- There is a timeout when connecting to, sending to, or receiving from the webhook endpoint. See [Timeouts](apiDevGuide-apiTimeouts) for more information.
+- There is a timeout when connecting to, sending to, or receiving from the webhook endpoint. See [Timeouts](docs/en-us/apiDevGuide-apiTimeouts) for more information.
 
 
 - The endpoint returns an HTTP 404 (not found) response code.

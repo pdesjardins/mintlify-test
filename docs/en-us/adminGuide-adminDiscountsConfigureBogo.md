@@ -31,7 +31,7 @@ You use the Buy Items section of the discount configuration page to configure th
 
 Under Applies to, to allow any item to be eligible for the discount, select Any item.
 
-To select specific items and quantities as the buy items, select Specific item/group. You can set up one or more combinations of items. Each combination represents an available option to qualify for the discount. The check must include one of these combinations. For details on selecting required items, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
+To select specific items and quantities as the buy items, select Specific item/group. You can set up one or more combinations of items. Each combination represents an available option to qualify for the discount. The check must include one of these combinations. For details on selecting required items, see [Choosing the required items for a discount](docs/en-us/adminGuide-adminDiscountRequiredItemsAbout).
 
 ### Setting the required number of buy items
 
@@ -49,7 +49,7 @@ You use the Get Items section of the discount configuration page to select the e
 
 Under Applies to, to allow any item to be a get item, select Any item.
 
-To select specific items to be get items, select Specific items/group, then select the items. For get items, you select individual items or groups. When selecting individual items, you can specify which sizes are eligible for the discount. For more information on selecting required items, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
+To select specific items to be get items, select Specific items/group, then select the items. For get items, you select individual items or groups. When selecting individual items, you can specify which sizes are eligible for the discount. For more information on selecting required items, see [Choosing the required items for a discount](docs/en-us/adminGuide-adminDiscountRequiredItemsAbout).
 
 ### Setting the discount amount and eligible item priority
 

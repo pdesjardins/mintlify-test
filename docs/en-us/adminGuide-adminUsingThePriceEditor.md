@@ -26,7 +26,7 @@ The Price editor page displays prices for all of your menu groups and menu items
 
 ## Price editor overview
 
-To view the Price editor page, [access Toast Web](adminGuide-adminAccessToastAdminBackend) and then choose Menus &gt; Bulk management &gt; Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
+To view the Price editor page, [access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend) and then choose Menus &gt; Bulk management &gt; Price editor. Click the arrow next to a menu or menu group to expand it and see its children. Click a menu entity's name to view its details page.
 
 ### Understanding the Price column
 
@@ -36,38 +36,38 @@ Menu items that inherit their prices from a menu group are marked "inherited" in
 
 ![Example of how the price editor displays individually priced items and items that inherit their prices.](https://doc.toasttab.com/doc/media/pricing-price-editor-inherited-prices.png)
 
-Icons in the area to the left of the Pricecolumn indicate the pricing strategy used for a menu group or item when a strategy other than [Base Price](adminGuide-adminBasePrice) is used. In the example above, the Grilled Cheese Sandwich uses the Base Price strategy so it has no pricing strategy icon. The examples below show the icons used for the other pricing strategies.
+Icons in the area to the left of the Pricecolumn indicate the pricing strategy used for a menu group or item when a strategy other than [Base Price](docs/en-us/adminGuide-adminBasePrice) is used. In the example above, the Grilled Cheese Sandwich uses the Base Price strategy so it has no pricing strategy icon. The examples below show the icons used for the other pricing strategies.
 
 For menu groups and items that use the:
 
-- [Size Price](adminGuide-adminSizePrice) strategy, each size appears on a separate row. In the example below, the small (SM) size of the Fries menu item is $2 and the large (LG) size is $4.
+- [Size Price](docs/en-us/adminGuide-adminSizePrice) strategy, each size appears on a separate row. In the example below, the small (SM) size of the Fries menu item is $2 and the large (LG) size is $4.
 
 ![Example of how the price editor displays a menu item that uses size pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-size-prices.png)
 
 
-- [Time Specific Price](adminGuide-adminTimeSpecificPrice)strategy, the base price appears in the first row and the prices for other time periods appear in rows beneath the base price. In the example below, the Pasta Special is $9 between 12p.m. and 2p.m. and $10 during the rest of the day.
+- [Time Specific Price](docs/en-us/adminGuide-adminTimeSpecificPrice)strategy, the base price appears in the first row and the prices for other time periods appear in rows beneath the base price. In the example below, the Pasta Special is $9 between 12p.m. and 2p.m. and $10 during the rest of the day.
 
 ![Example of how the price editor displays a menu item that uses time-specific pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-time-prices.png)
 
 
-- [Menu Specific Price](adminGuide-adminMenuSpecificPrice)strategy, a menu icon appears next to the price and the price reflects the menu where that price is appearing. For example, in the illustration below, the Steak menu item costs $9 when it is ordered from the Breakfast menu.
+- [Menu Specific Price](docs/en-us/adminGuide-adminMenuSpecificPrice)strategy, a menu icon appears next to the price and the price reflects the menu where that price is appearing. For example, in the illustration below, the Steak menu item costs $9 when it is ordered from the Breakfast menu.
 
 If a menu group or item is configured to use a Menu Specific Price but a price has not been defined for it in a given menu, then the Price Editor shows the default base price that is defined as part of the Menu Specific Priceconfiguration. The base price is shown in gray, without the menu icon, and you cannot edit it. In the Lunch menu below, the Steak menu item is using the default base price from a Menu Specific Price configuration.
 
 ![Example of how the price editor displays a menu item that uses menu-specific pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-menu-prices.png)
 
 
-- [Location Specific Price](adminGuide-adminLocationSpecificPriceOverview) strategy, the location-specific prices appear on separate rows. The rows are ordered based on the restaurant hierarchy with the least specific location in the hierarchy first (Corporate in the example below) and the most specific location in the hierarchy last (NYC in the example).
+- [Location Specific Price](docs/en-us/adminGuide-adminLocationSpecificPriceOverview) strategy, the location-specific prices appear on separate rows. The rows are ordered based on the restaurant hierarchy with the least specific location in the hierarchy first (Corporate in the example below) and the most specific location in the hierarchy last (NYC in the example).
 
 ![Example of how the price editor displays a menu item that uses location-specific pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-location-price.png)
 
 
-- [Open Price](adminGuide-adminOpenPrice) strategy, the word "open" appears in the Price column. For example, the Breakfast Specials menu group below is configured to use open pricing.
+- [Open Price](docs/en-us/adminGuide-adminOpenPrice) strategy, the word "open" appears in the Price column. For example, the Breakfast Specials menu group below is configured to use open pricing.
 
 ![Example of how the price editor displays a menu item that uses open pricing.](https://doc.toasttab.com/doc/media/pricing-price-editor-open-price.png)
 
 
-- [Price Levels](adminGuide-adminUsingPriceLevels), the Price editor page shows a price levels icon and the name of the price level but it does not display the price. To see the price, you must click the price level name to view the price level's details page.
+- [Price Levels](docs/en-us/adminGuide-adminUsingPriceLevels), the Price editor page shows a price levels icon and the name of the price level but it does not display the price. To see the price, you must click the price level name to view the price level's details page.
 
 ![Example of how the price editor displays a menu item that uses price levels.](https://doc.toasttab.com/doc/media/pricing-price-editor-price-levels.png)
 
@@ -91,9 +91,9 @@ If you used to the Set to option to update these time-specific prices to $12, th
 
 The prices continue to be time-specific prices but their values have all been changed to $12.
 
-**Procedure 8.115. To make bulk edits using the Price Editor**
+**Procedure 8.116. To make bulk edits using the Price Editor**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Bulk management &gt; Price editor to open the Price editorpage.
@@ -124,7 +124,7 @@ The prices continue to be time-specific prices but their values have all been ch
 7. Save your changes.
 
 
-8. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
+8. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -143,9 +143,9 @@ The Price editor page provides a quick option to convert a menu item that is ind
 > You cannot convert menu items that use the more complex pricing strategies such as Time Specific Priceor Location Specific Price. Also, you cannot convert menu items that inherit their pricing from a menu group.
 
 
-**Procedure 8.116. To convert a menu item to use a menu-specific price**
+**Procedure 8.117. To convert a menu item to use a menu-specific price**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Bulk management &gt; Price editor to open the Price editorpage.
@@ -159,7 +159,7 @@ The Price editor page provides a quick option to convert a menu item that is ind
 
 5. Click the Update menu and choose Convert to Menu-Specific Price.
 
-"Menu-specific price" appears to the left of the Price column to indicate that the pricing strategy of the menu item has changed. The Base Price that was defined for the menu item becomes the [default base price](adminGuide-adminMenuSpecificPrice#adminDefaultBasePriceForMenuSpecificPrice) of the Menu Specific Pricepricing strategy.
+"Menu-specific price" appears to the left of the Price column to indicate that the pricing strategy of the menu item has changed. The Base Price that was defined for the menu item becomes the [default base price](docs/en-us/adminGuide-adminMenuSpecificPrice#adminDefaultBasePriceForMenuSpecificPrice) of the Menu Specific Pricepricing strategy.
 
 
 6. Click Save to save the pricing strategy change, after which you can set the individual menu-specific prices.
@@ -175,7 +175,7 @@ The Price editor page provides a quick option to convert a menu item that is ind
 
 
 
-8. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
+8. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -190,9 +190,9 @@ For customers that use the enterprise module, the Price Editor page provides a q
 > You cannot convert menu items that use the more complex pricing strategies such as Time Specific Priceor Location Specific Price. Also, you cannot convert menu items that inherit their pricing from a menu group.
 
 
-**Procedure 8.117. To convert a menu item to use a location-specific price**
+**Procedure 8.118. To convert a menu item to use a location-specific price**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Bulk management &gt; Price editor to open the Price editorpage.
@@ -207,10 +207,10 @@ For customers that use the enterprise module, the Price Editor page provides a q
 5. Click the Update menu and choose Convert to Location-Specific Price.
 
 
-6. Click Save and *refresh the page*. This enables the location-specific price settings for the menu item, where you can add more location-specific prices. For more information about using these settings, see [Procedure 5.7, “To set location-specific prices for a menu item using the Price Editor”](adminGuide-adminEnablingAndSettingLocationSpecificPrices#adminToSetLocationSpecificPricesOnAMenuItem).
+6. Click Save and *refresh the page*. This enables the location-specific price settings for the menu item, where you can add more location-specific prices. For more information about using these settings, see [Procedure 5.7, “To set location-specific prices for a menu item using the Price Editor”](docs/en-us/adminGuide-adminEnablingAndSettingLocationSpecificPrices#adminToSetLocationSpecificPricesOnAMenuItem).
 
 
-7. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
+7. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
 
 
 

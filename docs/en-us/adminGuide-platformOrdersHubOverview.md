@@ -34,7 +34,7 @@ The Orders Hub screen in the Toast POS app displays all off-premise orders. An o
 
 ## Permissions
 
-To use the Orders Hub screen, you must have the 1.5 Pending Orders Mode/Orders Hub Mode permission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+To use the Orders Hub screen, you must have the 1.5 Pending Orders Mode/Orders Hub Mode permission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions).
 
 ## Takeout and delivery quote times
 
@@ -53,7 +53,7 @@ Current takeout and delivery quote times are displayed at the top of the Orders 
 
 > **Note**
 > 
-> To use the Manage Online Orders button, you must have the 3.29 Throttle Online Orderspermission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+> To use the Manage Online Orders button, you must have the 3.29 Throttle Online Orderspermission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions).
 
 
 The Manage Online Orders button on the Orders Hub screen opens a dialog box where you can manage online orders. From the the Manage Online Orders dialog box, you can: 
@@ -64,7 +64,7 @@ The Manage Online Orders button on the Orders Hub screen opens a dialog box wher
 - Adjust takeout and delivery delays
 
 
-- [Turn on, off, or pause third-party online ordering channels ](adminGuide-platformManagingThirdPartyOnlineOrderingChannels)
+- [Turn on, off, or pause third-party online ordering channels ](docs/en-us/adminGuide-platformManagingThirdPartyOnlineOrderingChannels)
 
 
 
@@ -72,7 +72,7 @@ The Manage Online Orders button on the Orders Hub screen opens a dialog box wher
 
 > **Note**
 > 
-> Changes you make in the Manage Online Orders dialog appear in the [online ordering dashboard](adminGuide-adminOnlineOrderingDashboard) in Toast Web and vice versa.
+> Changes you make in the Manage Online Orders dialog appear in the [online ordering dashboard](docs/en-us/adminGuide-adminOnlineOrderingDashboard) in Toast Web and vice versa.
 
 
 **Procedure 3.1. To manage Toast online orders**
@@ -109,7 +109,7 @@ The Manage Online Orders button on the Orders Hub screen opens a dialog box wher
 
 > **Note**
 > 
-> For more information, see [Managing orders from third-party online ordering channels](adminGuide-platformManagingThirdPartyOnlineOrderingChannels).
+> For more information, see [Managing orders from third-party online ordering channels](docs/en-us/adminGuide-platformManagingThirdPartyOnlineOrderingChannels).
 
 
 ## Creating a new order
@@ -118,7 +118,7 @@ The Manage Online Orders button on the Orders Hub screen opens a dialog box wher
 
 > **Note**
 > 
-> To use the New Order button, you must have the 1.2 Quick Order Mode permission. If you do not have 1.2 Quick Order Mode permission, an error appears notifying you that you do not have permission to add new orders. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+> To use the New Order button, you must have the 1.2 Quick Order Mode permission. If you do not have 1.2 Quick Order Mode permission, an error appears notifying you that you do not have permission to add new orders. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions).
 
 
 The New Order button at the top right opens the Quick Order screen. On this screen, you can manually enter an off-premise dining order. On the Quick Order screen, select the Dining optionbutton and select an off-premise dining option.

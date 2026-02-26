@@ -19,7 +19,7 @@ Order price information includes menu item prices, service charges, and taxes.
 
 ## Getting check prices before you submit an order
 
-Before you can `POST` an order to the `/orders`endpoint, you must first obtain the order price information for the order. For an overview of the order creation process, including the step to obtain the order prices, see [Order creation process for the orders API](apiDevGuide-apiCreatingOrders#apiOrdersCreationProcess).
+Before you can `POST` an order to the `/orders`endpoint, you must first obtain the order price information for the order. For an overview of the order creation process, including the step to obtain the order prices, see [Order creation process for the orders API](docs/en-us/apiDevGuide-apiCreatingOrders#apiOrdersCreationProcess).
 
 To get the price information, you send a `POST` request to the `/prices` endpoint of the orders API. The request contains an `Order` object with the information about the order.
 
@@ -68,7 +68,7 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 
 ### Response data from the /prices endpoint
 
-The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](apiDevGuide-apiOrdersOrderObjectSummary#apiOrderObjectAmounts).
+The response from the `/prices` endpoint fills in the amounts, including prices and taxes, for the menu item selections and checks. For a description of the amount fields in the `Order`object, see [Order amounts](docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary#apiOrderObjectAmounts).
 
 The following example shows the response data returned by the `/prices` endpoint of the orders API.
 
@@ -241,7 +241,7 @@ To set the price for an open price item, in the `Selection` object for the open 
 
 If you do not provide an `openPriceAmount` value for an open price menu item, the orders API sets the price to 0.00.
 
-Include the open price items in the request body that you send to the `/prices` endpoint to [get the check prices](apiDevGuide-apiOrderPrices#apiGettingCheckPrices). For open price items, the call to the `/prices` endpoint returns the calculated tax for the item. The orders API calculates the tax based on the value of `openPriceAmount`.
+Include the open price items in the request body that you send to the `/prices` endpoint to [get the check prices](docs/en-us/apiDevGuide-apiOrderPrices#apiGettingCheckPrices). For open price items, the call to the `/prices` endpoint returns the calculated tax for the item. The orders API calculates the tax based on the value of `openPriceAmount`.
 
 ### Example Order object with an open price item
 
@@ -297,7 +297,7 @@ You can apply general upcharges, or service charges, to checks when you create a
 
 Before you can apply a service charge, restaurants must configure the service charge in Toast Web. You then use the service charge GUID to add the service charge to the check. To retrieve the service charge GUID, you can use the configuration API.
 
-For more information about service charges and how restaurants configure them, see [Service charge overview](adminGuide-adminServiceChargeOverview) in the *Toast Platform Guide*.
+For more information about service charges and how restaurants configure them, see [Service charge overview](docs/en-us/adminGuide-adminServiceChargeOverview) in the *Toast Platform Guide*.
 
 ### Getting the available service charges
 
@@ -408,7 +408,7 @@ The `serviceChargeCategory` field can have the following values:
 **`FUNDRAISING_CAMPAIGN`**
 : A service charge associated with fundraising. When guests make donations through the Toast fundraising feature, the donation amount appears as a service charge with this category.
 
-When building sales reports or calculating service charge totals, you may want to exclude service charges where `serviceChargeCategory` is `FUNDRAISING_CAMPAIGN` from your calculations. For more information about filtering fundraising transactions, see [Building a sales report](devCookbook-apiIntegrationChecklistAccounting).
+When building sales reports or calculating service charge totals, you may want to exclude service charges where `serviceChargeCategory` is `FUNDRAISING_CAMPAIGN` from your calculations. For more information about filtering fundraising transactions, see [Building a sales report](docs/en-us/devCookbook-apiIntegrationChecklistAccounting).
 
 
 
@@ -438,7 +438,7 @@ When it calculates taxes and check prices, the orders API uses the following rou
 
 - When the orders API applies a percent tax rate, it uses the rounding algorithm that is configured for that percent tax rate.
 
-For example, depending on the configured rounding option, the orders API rounds a tax amount of $1.235 down to $1.23 or up to $1.24. For more information, see [Rounding options](adminGuide-adminPercentTaxRates#roundingOptions) in the *Toast Platform Guide*.
+For example, depending on the configured rounding option, the orders API rounds a tax amount of $1.235 down to $1.23 or up to $1.24. For more information, see [Rounding options](docs/en-us/adminGuide-adminPercentTaxRates#roundingOptions) in the *Toast Platform Guide*.
 
 
 - To calculate a check price, the orders API first rounds the item prices, including the tax amounts. It then sums the rounded item prices.
@@ -450,7 +450,7 @@ For example, depending on the configured rounding option, the orders API rounds 
 > **Important**
 > 
 > This description of the orders API rounding method does not guarantee that orders API client software can accurately calculate check prices. The price of a check includes several factors in addition to the item prices and rounded tax amounts.
-> The `/prices` endpoint is the only reliable and supported way to determine the payment amount for a check. See [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
+> The `/prices` endpoint is the only reliable and supported way to determine the payment amount for a check. See [Getting check prices before you submit an order](docs/en-us/apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 > If you `POST` an order with a payment amount that does not match the results from the `/prices`endpoint, then restaurant employees must manually handle the underpayment or overpayment during order fulfillment.
 
 

@@ -18,7 +18,7 @@ On each of your KDS devices, you can limit the tickets that display to specific 
 
 For example, you want appetizers to be fulfilled within 8 minutes, and main courses to be fulfilled within 15 minutes. To organize tickets in the kitchen so that appetizer tickets are automatically displayed separately from main course tickets, you place two KDS devices at each of your prep stations, and configure one to show tickets for appetizer orders only and the other to show tickets for main course orders only. Selectively filtering tickets based on course in this way helps your employees work more effectively to meet your target timeframes.
 
-**Procedure 10.36. To selectively filter kitchen tickets:**
+**Procedure 10.37. To selectively filter kitchen tickets:**
 
 1. On the device, tap the Toast logo (or left arrow) in the top corner until the Toast POS home screen appears.
 
@@ -40,5 +40,5 @@ If all of the check boxes or none of the check boxes are checked, all tickets ap
 
 
 
-The Toast platform also offers a way for kitchens that use printers (or a combination of printers and KDS devices) to change the way that items are routed for fulfillment based on the dining option specified. For more information, see [Rerouting based on dining option](adminGuide-adminAboutItemRoutingRules#adminReroutingOrdersBasedOnDiningOption).
+The Toast platform also offers a way for kitchens that use printers (or a combination of printers and KDS devices) to change the way that items are routed for fulfillment based on the dining option specified. For more information, see [Rerouting based on dining option](docs/en-us/adminGuide-adminAboutItemRoutingRules#adminReroutingOrdersBasedOnDiningOption).
 

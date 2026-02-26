@@ -17,16 +17,16 @@ codeExamples: 0
 
 When pricing the menu items in a menu group, you can choose to either:
 
-- [Set a price on the menu group and then configure the group's menu items to inherit that price.](adminGuide-adminPricingMenuItems#adminSettingPricesAtTheMenuGroupLevel)
+- [Set a price on the menu group and then configure the group's menu items to inherit that price.](docs/en-us/adminGuide-adminPricingMenuItems#adminSettingPricesAtTheMenuGroupLevel)
 
 
-- [Price the menu items in the group individually.](adminGuide-adminPricingMenuItems#adminSettingPricesOnIndividualMenuItems)
+- [Price the menu items in the group individually.](docs/en-us/adminGuide-adminPricingMenuItems#adminSettingPricesOnIndividualMenuItems)
 
 
 
 If you choose the first approach, where menu items inherit their prices from their parent menu groups, you can also choose to override the menu group price and set a different price for specific menu items in the group. For example, you can have a Sandwiches menu group where all sandwiches are $7 with the exception of a Daily Specials Sandwich that is $6.
 
-For both approaches, you can choose to use either a [pricing strategy](adminGuide-adminPricingStrategies), such as base price, menu-specific price or time-specific price, or you can use a [price level](adminGuide-adminUsingPriceLevels) to set your prices.
+For both approaches, you can choose to use either a [pricing strategy](docs/en-us/adminGuide-adminPricingStrategies), such as base price, menu-specific price or time-specific price, or you can use a [price level](docs/en-us/adminGuide-adminUsingPriceLevels) to set your prices.
 
 When pricing menu items that belong to multiple menu groups, there are some requirements to keep in mind:
 
@@ -45,9 +45,9 @@ The Items section on a menu group details page displays the menu items contained
 
 ![Example of the banner displayed for items that do not inherit their prices from a menu group.](https://doc.toasttab.com/doc/media/pricing-showing-price-inheritance.png)
 
-**Procedure 8.111. To set a menu group-level price**
+**Procedure 8.112. To set a menu group-level price**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Bulk management &gt; Advanced properties to open the Advanced properties page.
@@ -69,7 +69,7 @@ The Items section on a menu group details page displays the menu items contained
 
 
 
-6. Set the pricing for the menu group. You can choose a pricing strategy ([Base Price](adminGuide-adminBasePrice), [Size Price](adminGuide-adminSizePrice), [Time Specific Price](adminGuide-adminTimeSpecificPrice), [Open Price](adminGuide-adminOpenPrice)) or use [price levels](adminGuide-adminUsingPriceLevels).
+6. Set the pricing for the menu group. You can choose a pricing strategy ([Base Price](docs/en-us/adminGuide-adminBasePrice), [Size Price](docs/en-us/adminGuide-adminSizePrice), [Time Specific Price](docs/en-us/adminGuide-adminTimeSpecificPrice), [Open Price](docs/en-us/adminGuide-adminOpenPrice)) or use [price levels](docs/en-us/adminGuide-adminUsingPriceLevels).
 
 
 7. Save your changes.
@@ -108,7 +108,7 @@ Next, configure each of the group's menu items to either inherit their price fro
 - In the Pricing section, set Pricing Provider to Specify pricing on this item.
 
 
-- Set the price for the menu item. You can choose a pricing strategy ([Base Price](adminGuide-adminBasePrice), [Size Price](adminGuide-adminSizePrice), [Menu Specific Price](adminGuide-adminMenuSpecificPrice), [Time Specific Price](adminGuide-adminTimeSpecificPrice), [Open Price](adminGuide-adminOpenPrice), [Location Specific Price](adminGuide-adminLocationSpecificPrice)) or use [price levels](adminGuide-adminUsingPriceLevels).
+- Set the price for the menu item. You can choose a pricing strategy ([Base Price](docs/en-us/adminGuide-adminBasePrice), [Size Price](docs/en-us/adminGuide-adminSizePrice), [Menu Specific Price](docs/en-us/adminGuide-adminMenuSpecificPrice), [Time Specific Price](docs/en-us/adminGuide-adminTimeSpecificPrice), [Open Price](docs/en-us/adminGuide-adminOpenPrice), [Location Specific Price](docs/en-us/adminGuide-adminLocationSpecificPrice)) or use [price levels](docs/en-us/adminGuide-adminUsingPriceLevels).
 
 
 
@@ -126,7 +126,7 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 
 
-10. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
+10. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -134,9 +134,9 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 If all of the menu items in a menu group have a different price, as a best practice you should specify prices on the individual menu items.
 
-**Procedure 8.112. To set prices on individual menu items**
+**Procedure 8.113. To set prices on individual menu items**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Bulk management &gt; Advanced properties to open the Advanced properties page.
@@ -166,7 +166,7 @@ Next, you set the prices on each of the menu items contained in the group.
 
 
 
-8. Set the price for the menu item. You can choose a pricing strategy ([Base Price](adminGuide-adminBasePrice), [Size Price](adminGuide-adminSizePrice), [Menu Specific Price](adminGuide-adminMenuSpecificPrice), [Time Specific Price](adminGuide-adminTimeSpecificPrice), [Open Price](adminGuide-adminOpenPrice), [Location Specific Price](adminGuide-adminLocationSpecificPrice)) or use [price levels](adminGuide-adminUsingPriceLevels).
+8. Set the price for the menu item. You can choose a pricing strategy ([Base Price](docs/en-us/adminGuide-adminBasePrice), [Size Price](docs/en-us/adminGuide-adminSizePrice), [Menu Specific Price](docs/en-us/adminGuide-adminMenuSpecificPrice), [Time Specific Price](docs/en-us/adminGuide-adminTimeSpecificPrice), [Open Price](docs/en-us/adminGuide-adminOpenPrice), [Location Specific Price](docs/en-us/adminGuide-adminLocationSpecificPrice)) or use [price levels](docs/en-us/adminGuide-adminUsingPriceLevels).
 
 
 9. Save your changes.
@@ -175,7 +175,7 @@ Next, you set the prices on each of the menu items contained in the group.
 10. Repeat these steps for the other menu items in the menu group.
 
 
-11. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
+11. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
 
 
 

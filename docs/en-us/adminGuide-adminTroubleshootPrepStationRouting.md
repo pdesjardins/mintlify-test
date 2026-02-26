@@ -19,7 +19,7 @@ For efficient kitchen operation, orders for menu items and modifiers must go to 
 
 To review and update menu item assignments to prep stations you must have the Restaurant Admin &gt; Edit Full Menu access permission. Then, follow these steps.
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Advanced properties. An interactive grid with rows for each restaurant menu appears.
@@ -40,10 +40,10 @@ To review and update menu item assignments to prep stations you must have the Re
 
 **Next steps**
 
-- [Verify device setup](adminGuide-adminVerifyDeviceSetup)
+- [Verify device setup](docs/en-us/adminGuide-adminVerifyDeviceSetup)
 
 
-- [Verify order routing to an expediter](adminGuide-adminTroubleshootExpoRouting)
+- [Verify order routing to an expediter](docs/en-us/adminGuide-adminTroubleshootExpoRouting)
 
 
 

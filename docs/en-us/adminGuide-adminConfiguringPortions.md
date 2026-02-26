@@ -36,7 +36,7 @@ To configure portions, you must:
 
 Detailed instructions for each of these configurations is provided below.
 
-**Procedure 8.138. To create the portions**
+**Procedure 8.139. To create the portions**
 
 1. Log in to Toast Web.
 
@@ -69,7 +69,7 @@ Detailed instructions for each of these configurations is provided below.
 
 
 
-**Procedure 8.139. To enable portions on a menu item**
+**Procedure 8.140. To enable portions on a menu item**
 
 1. Log in to Toast Web.
 
@@ -93,7 +93,7 @@ Detailed instructions for each of these configurations is provided below.
 
 
 
-**Procedure 8.140. To enable portions on a modifier group**
+**Procedure 8.141. To enable portions on a modifier group**
 
 1. Log in to Toast Web.
 

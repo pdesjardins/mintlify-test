@@ -23,7 +23,7 @@ Depending on your browser and its settings, the browser may save the file to its
 
 ![The location of the export icon on the Items database page](https://doc.toasttab.com/doc/media/items-database-export-icon.png)
 
-If your menu entities have names that begin with any of the following special characters, see [Special characters in items database export](adminGuide-platformItemsDatabaseExport#platformSpecialCharactersInItemsDatabaseExport) for additional important information:
+If your menu entities have names that begin with any of the following special characters, see [Special characters in items database export](docs/en-us/adminGuide-platformItemsDatabaseExport#platformSpecialCharactersInItemsDatabaseExport) for additional important information:
 
 
 ```

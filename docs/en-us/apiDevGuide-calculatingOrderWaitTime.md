@@ -180,7 +180,7 @@ Restaurants that use Toast Online Ordering can configure when they accept online
 
 To see the current hours for online delivery and takeout orders, send a `GET` request to the `/orderingSchedule`endpoint of the order management configuration API.
 
-For more information, see [Getting online ordering schedules](apiDevGuide-apiGettingOnlineOrderingSchedules).
+For more information, see [Getting online ordering schedules](docs/en-us/apiDevGuide-apiGettingOnlineOrderingSchedules).
 
 ## Estimating takeout order wait time
 

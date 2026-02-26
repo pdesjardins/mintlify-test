@@ -29,7 +29,7 @@ When you add a prep station, you have the option of choosing whether items are a
 
 If you choose to require fulfillment at prep station KDS devices before expediter KDS devices using the Sequenced KDS fulfillment setting, items assigned a prep station with the Send to setting set to Expediter only do not require fulfillment at prep stations, because they are not sent to the prep station at all.
 
-They also do not appear as an option when assigning prep stations to a KDS device. For more information, see [Assigning a KDS device to a prep station](adminGuide-adminAssignPrepStationKDS).
+They also do not appear as an option when assigning prep stations to a KDS device. For more information, see [Assigning a KDS device to a prep station](docs/en-us/adminGuide-adminAssignPrepStationKDS).
 
 
 - Prep station only: Items are only sent to the prep station. Items are not sent to the expediters.
@@ -51,7 +51,7 @@ To add a prep station, you must have the 6. Web Setup &gt; 6.2 Kitchen / Dining 
 
 **Procedure 10.1. To add a prep station**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Kitchen stations &gt; Prep stations.
@@ -65,7 +65,7 @@ To add a prep station, you must have the 6. Web Setup &gt; 6.2 Kitchen / Dining 
 
 5. To print or display the prep station's tickets at an expediter printer or KDS, check Send to Expediter.
 
-For example, your expediter needs the tickets for your Hot and Cold stations, but not for your Bar station. You check Send to Expediter for the Hot and Cold prep stations, but not for the Bar. For more information, see [Configure the expediter workflow](adminGuide-adminUsingExpo#adminConfigureExpediter).
+For example, your expediter needs the tickets for your Hot and Cold stations, but not for your Bar station. You check Send to Expediter for the Hot and Cold prep stations, but not for the Bar. For more information, see [Configure the expediter workflow](docs/en-us/adminGuide-adminUsingExpo#adminConfigureExpediter).
 
 
 
@@ -75,15 +75,15 @@ For example, your expediter needs the tickets for your Hot and Cold stations, bu
 
 
 
-6. To monitor items sent to another station or stations by printing them on kitchen tickets, select the Other Stations. This option affects printed kitchen tickets only. For more information, see [Monitoring items at other prep stations](adminGuide-adminMonitoringTicketsOtherPrepStations).
+6. To monitor items sent to another station or stations by printing them on kitchen tickets, select the Other Stations. This option affects printed kitchen tickets only. For more information, see [Monitoring items at other prep stations](docs/en-us/adminGuide-adminMonitoringTicketsOtherPrepStations).
 
 
 7. Select the kitchen printer that you want to print this prep station's tickets.
 
-- If the prep station uses a [KDS](adminGuide-adminRoutingOrdersKitchen), assign the backup printer.
+- If the prep station uses a [KDS](docs/en-us/adminGuide-adminRoutingOrdersKitchen), assign the backup printer.
 
 
-- If the prep station is a [virtual or "no print" prep station](adminGuide-adminPreventingTicketsFromPrinting#adminNoPrintPrepStation), do not select a printer.
+- If the prep station is a [virtual or "no print" prep station](docs/en-us/adminGuide-adminPreventingTicketsFromPrinting#adminNoPrintPrepStation), do not select a printer.
 
 
 
@@ -99,5 +99,5 @@ If the prep station uses a KDS, clear Always Print Tickets. Tickets print only w
 
 Repeat these steps to add your other prep stations.
 
-After you set up your prep stations, you can [assign KDS devices](adminGuide-adminAssignPrepStationKDS) to them (if applicable) and [add them to your menus](adminGuide-adminRoutingToPrepStations#adminAssignPrepStationMenu).
+After you set up your prep stations, you can [assign KDS devices](docs/en-us/adminGuide-adminAssignPrepStationKDS) to them (if applicable) and [add them to your menus](docs/en-us/adminGuide-adminRoutingToPrepStations#adminAssignPrepStationMenu).
 

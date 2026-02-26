@@ -31,7 +31,7 @@ Toast provides a Postman™ API client collection of API requests to help you te
 
 3. Open a request from an API you will use in your integration. New integration partners often use the configuration API to run their first API test. Submit an API request to ensure you receive data in return.The pre-request script in each Postman collection automatically requests a new authentication token.
 
-To obtain hostnames and authentication credentials, contact Toast support.If you are using a [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts), the [partners endpoint](apiDevGuide-apiPartnersGettingAccessibleRestaurants) provides the list of restaurant GUIDs that you are able to poll. | 
+To obtain hostnames and authentication credentials, contact Toast support.If you are using a [partner API account](docs/en-us/apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts), the [partners endpoint](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants) provides the list of restaurant GUIDs that you are able to poll. | 
 | **1.4.** | **How do I make an API call?** | 
 |  | After doing the initial collection setup above, open the desired API call on the left sidebar.Verify that variables such as parameters and JSON bodies are correct.To submit your API call and see the results, click send. | 
 

@@ -16,7 +16,7 @@ codeExamples: 0
 
 When you use a KDS device to keep track of orders, mistakes or changes sometimes happen. You might mark a ticket as fulfilled that is really still in progress, a recently fulfilled item (or entire order) might need to be prepared again, or an item was changed by a guest after it was fulfilled by the kitchen. KDS devices offer the following features to recover a ticket that was marked as fulfilled and redisplay it on the KDS device.
 
-To recover a ticket, you have the option to either recall or unfulfill a ticket. Recall brings back the ticket you most recently fulfilled on that KDS device. Unfulfill brings back a specific ticket that you choose which was fulfilled within the configured [recently fulfilled timeframe](adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled).
+To recover a ticket, you have the option to either recall or unfulfill a ticket. Recall brings back the ticket you most recently fulfilled on that KDS device. Unfulfill brings back a specific ticket that you choose which was fulfilled within the configured [recently fulfilled timeframe](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled).
 
 When you use either recall or unfulfill, note the following:
 
@@ -37,7 +37,7 @@ When you use either recall or unfulfill, note the following:
 
 > **Note**
 > 
-> The assembly lines feature is only available for KDS devices using grid view. For more information, see [Assembly lines](adminGuide-platformKDSOverview#platformGridKDSAssemblyLines).
+> The assembly lines feature is only available for KDS devices using grid view. For more information, see [Assembly lines](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSAssemblyLines).
 
 
 When you change an item after the corresponding ticket was fulfilled in the kitchen, the KDS device unfulfills the item and marks the ticket as recalled. For items that use assembly lines, this recalls the item back to the first prep station KDS device in the sequence that applies to the item.
@@ -60,7 +60,7 @@ You can select Recall more than once. Each time, the KDS device unfulfills and r
 
 > **Note**
 > 
-> You can recall a ticket for the length of time defined by the [Recently Fulfilled Timeframe](adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled) setting. You cannot recall tickets fulfilled prior to this timeframe (for example, more than 30 minutes ago).
+> You can recall a ticket for the length of time defined by the [Recently Fulfilled Timeframe](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled) setting. You cannot recall tickets fulfilled prior to this timeframe (for example, more than 30 minutes ago).
 
 
 ### Recalling items that use assembly lines
@@ -85,10 +85,10 @@ Ticket behavior after you select Recall is slightly different when recalling an 
 
 > **Note**
 > 
-> The assembly lines feature is only available for KDS devices using grid view. For more information, see [Assembly lines](adminGuide-platformKDSOverview#platformGridKDSAssemblyLines).
+> The assembly lines feature is only available for KDS devices using grid view. For more information, see [Assembly lines](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSAssemblyLines).
 
 
-For more information about how routing works with assembly lines, see [Routing using assembly lines](adminGuide-platformKDSRoutingUsingAssemblyLines). For more information about partial fulfillment indicators, see [Partial fulfillment indicator](adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator).
+For more information about how routing works with assembly lines, see [Routing using assembly lines](docs/en-us/adminGuide-platformKDSRoutingUsingAssemblyLines). For more information about partial fulfillment indicators, see [Partial fulfillment indicator](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator).
 
 ## Unfulfill an item or ticket
 
@@ -96,11 +96,11 @@ To review fulfilled tickets and then choose which one you want to unfulfill, sel
 
 ![The KDS device with the Show Recently Fulfilled option circled.](https://doc.toasttab.com/doc/media/KDS_show_recently_fulfilled.png)
 
-The KDS device changes to show fulfilled tickets *in addition to* tickets that are in progress or waiting for fulfillment. The fulfilled tickets that appear are limited to tickets fulfilled within the period of time set by the [Recently Fulfilled Timeframe](adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled) setting. During high-volume periods, the Toast platform may use a shorter timeframe. Show recently fulfilled changes to Hide recently fulfilled so that you can view just the tickets that still need to be fulfilled.
+The KDS device changes to show fulfilled tickets *in addition to* tickets that are in progress or waiting for fulfillment. The fulfilled tickets that appear are limited to tickets fulfilled within the period of time set by the [Recently Fulfilled Timeframe](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled) setting. During high-volume periods, the Toast platform may use a shorter timeframe. Show recently fulfilled changes to Hide recently fulfilled so that you can view just the tickets that still need to be fulfilled.
 
 The unfulfill feature allows you to selectively find and re-send a ticket. After you unfulfill a ticket, the Toast platform redisplays it with the label RECALLED to help communicate why the ticket reappears KDS devices.
 
-Depending on your [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting, you either unfulfill entire tickets, or unfulfill either the ticket or specific items on a ticket. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page with the Fulfill Items setting.
+Depending on your [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting, you either unfulfill entire tickets, or unfulfill either the ticket or specific items on a ticket. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page with the Fulfill Items setting.
 
 To unfulfill a ticket, you can either:
 
@@ -115,13 +115,13 @@ After a ticket is unfulfilled, the background of the ticket changes from shaded 
 
 ![The KDS device with a fulfilled ticket on the left and an unfulfilled ticket on the right, emphasizing that the option available is Hide recently fulfilled because it's currently showing recently fulfilled.](https://doc.toasttab.com/doc/media/KDS_unfulfilled_and_fulfilled_tickets.png)
 
-**Procedure 10.35. To unfulfill an item**
+**Procedure 10.36. To unfulfill an item**
 
 
 
 > **Note**
 > 
-> To unfulfill an item, the [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting must be set to Enable individual item fulfillment.
+> To unfulfill an item, the [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting must be set to Enable individual item fulfillment.
 
 
 1. On the KDS device, select a ticket. The ticket dialog opens.
@@ -136,7 +136,7 @@ After a ticket is unfulfilled, the background of the ticket changes from shaded 
 
 
 
-The behavior to unfulfill tickets differs slightly if you are using [dynamic legacy view](adminGuide-platformKDSOverview#platformGridKDSOverview) on a KDS device.
+The behavior to unfulfill tickets differs slightly if you are using [dynamic legacy view](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSOverview) on a KDS device.
 
 - If the Fulfill Items setting is set to Disable individual item fulfillment, you select the ticket and then tap Unfulfill to unfulfill the entire ticket. On a device that has Double-tap to Fulfill, Unfulfill set to Enable double-tap to unfulfill tickets, you can also double-tap to unfulfill the ticket.
 
@@ -175,10 +175,10 @@ Ticket behavior after you unfulfill a ticket is slightly different for unfulfill
 
 > **Note**
 > 
-> The assembly lines feature is only available for KDS devices using grid view. For more information, see [Assembly lines](adminGuide-platformKDSOverview#platformGridKDSAssemblyLines).
+> The assembly lines feature is only available for KDS devices using grid view. For more information, see [Assembly lines](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSAssemblyLines).
 
 
-For more information about how routing works with assembly lines, see [Routing using assembly lines](adminGuide-platformKDSRoutingUsingAssemblyLines). For more information about partial fulfillment indicators, see [Partial fulfillment indicator](adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator).
+For more information about how routing works with assembly lines, see [Routing using assembly lines](docs/en-us/adminGuide-platformKDSRoutingUsingAssemblyLines). For more information about partial fulfillment indicators, see [Partial fulfillment indicator](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator).
 
 ## Modified fulfilled items are marked as recalled and unfulfilled
 
@@ -200,7 +200,7 @@ Specific items that are modified are marked as CHANGED on the KDS device. The fo
 - Adding a special request
 
 
-- Splitting the item differently using the Split[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups)
+- Splitting the item differently using the Split[additional modifier group](docs/en-us/adminGuide-adminUiOptionsReference#configAdditionalModifierGroups)
 
 
 - Changing the dining option for an item

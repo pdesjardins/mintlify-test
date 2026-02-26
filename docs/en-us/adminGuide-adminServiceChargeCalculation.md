@@ -17,16 +17,16 @@ codeExamples: 0
 
 Before a service charge can be automatically applied to a check, the Toast platform has to make a variety of calculations, including the following:
 
-- Calculate whether the service charge is eligible to be automatically applied to a check. See [Service charge eligibility](adminGuide-adminServiceChargeEligibility). Keep in mind that you can manually apply a service charge to a check.
+- Calculate whether the service charge is eligible to be automatically applied to a check. See [Service charge eligibility](docs/en-us/adminGuide-adminServiceChargeEligibility). Keep in mind that you can manually apply a service charge to a check.
 
 
-- Calculate how the application of discounts affects the service charge fee. See [Post-discount and pre-discount calculations](adminGuide-adminServiceChargeCalculation#adminPostDiscount).
+- Calculate how the application of discounts affects the service charge fee. See [Post-discount and pre-discount calculations](docs/en-us/adminGuide-adminServiceChargeCalculation#adminPostDiscount).
 
 
 - For fixed percent service charges, calculate the monetary amount of the service charge fee by multiplying the check amount by the Charge Percent field of the service charge.
 
 
-- Calculate the tax on the service charge (if it is configured for taxation). See [Service charge taxes](adminGuide-adminServiceChargeCalculation#adminServiceChargeTaxes).
+- Calculate the tax on the service charge (if it is configured for taxation). See [Service charge taxes](docs/en-us/adminGuide-adminServiceChargeCalculation#adminServiceChargeTaxes).
 
 
 
@@ -127,5 +127,5 @@ Local tax rate: 1.00%
 
 For **fixed amount** and **open amount** service charges, the service charge amount is known before the tax is calculated. Therefore, the tax calculation is straightforward: calculate the service charge amount and then include it in the Tax field on the payment screen.
 
-For **fixed percent** service charges, the Tip / Tax option (in the [Tipping](adminGuide-adminUiOptionsReference#adminTippingRef)section of the Front of house &gt; Order screen setup &gt; UI options page) affects how fixed percent service charges are taxed. The option lets you specify whether a fixed percent service charge is calculated on a pre-tax basis (that is, first calculate the service charge on the net amount and then add the tax afterwards) or on a post-tax basis (that is, first add the tax to the net amount and then calculate the service charge on that amount). The calculated tax is then included in the Tax field on the payment screen.
+For **fixed percent** service charges, the Tip / Tax option (in the [Tipping](docs/en-us/adminGuide-adminUiOptionsReference#adminTippingRef)section of the Front of house &gt; Order screen setup &gt; UI options page) affects how fixed percent service charges are taxed. The option lets you specify whether a fixed percent service charge is calculated on a pre-tax basis (that is, first calculate the service charge on the net amount and then add the tax afterwards) or on a post-tax basis (that is, first add the tax to the net amount and then calculate the service charge on that amount). The calculated tax is then included in the Tax field on the payment screen.
 

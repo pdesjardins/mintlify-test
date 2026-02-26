@@ -21,7 +21,7 @@ This integration provides restaurants with useful information to run their busin
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
 
 - `config:read`
 
@@ -40,7 +40,7 @@ To follow these instructions, you must have the following [scopes](apiDevGuide-a
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ### Decide what information your reports will provide
 
@@ -63,7 +63,7 @@ This guide describes how to report on the following sales information:
 
 > **Note**
 > 
-> You can also report on marketplace facilitator tax payments. For more information see, [Marketplace facilitator tax payments](adminGuide-adminMarketplaceFacilitatorTaxPayments).
+> You can also report on marketplace facilitator tax payments. For more information see, [Marketplace facilitator tax payments](docs/en-us/adminGuide-adminMarketplaceFacilitatorTaxPayments).
 
 
 
@@ -139,17 +139,17 @@ This guide describes how to report on the following sales information:
 
 Reporting on sales depends on restaurants' usage of menu items and the overall structure of orders.
 
-To understand Toast menu concepts before you begin development, review [menu hierarchy information](adminGuide-adminMenuHierarchy).
+To understand Toast menu concepts before you begin development, review [menu hierarchy information](docs/en-us/adminGuide-adminMenuHierarchy).
 
-To review order structure, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
+To review order structure, see [Orders API overview](docs/en-us/apiDevGuide-portalOrdersApiOverview).
 
 ## Retrieving restaurant information
 
 ### Set up recurring retrieval of menu and configuration information
 
-Use the [menus webhook](apiDevGuide-apiMenusWebhook) or query the `/metadata` endpoint of the menus API throughout the day.
+Use the [menus webhook](docs/en-us/apiDevGuide-apiMenusWebhook) or query the `/metadata` endpoint of the menus API throughout the day.
 
-Retrieve a new menu when you determine that [your existing menu is outdated](apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2).
+Retrieve a new menu when you determine that [your existing menu is outdated](docs/en-us/apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2).
 
 In addition, query the following configuration API endpoints at least once a day:
 
@@ -192,10 +192,10 @@ To report on order information, you need to retrieve orders at least once per da
 
 > **Note**
 > 
-> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk`endpoint.
+> Toast support recommends using the [orders updated webhook](docs/en-us/apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk`endpoint.
 
 
-See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+See [Getting detailed information about multiple orders](docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
 ### Consider historical backfill
 
@@ -207,11 +207,11 @@ Toast support recommends retrieving twelve weeks of historical orders when a res
 
 ### Determine closeout hour
 
-The `closeoutHour` value in the `General`object returned by the [restaurants API](apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
+The `closeoutHour` value in the `General`object returned by the [restaurants API](docs/en-us/apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
 
 The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on order entities changes after the `closeoutHour`.
 
-Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](docs/en-us/apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ## Building report functionality
 
@@ -221,7 +221,7 @@ Guests may place orders for future fulfillment. For example, a guest may place a
 
 An order is a future order if its `promisedDate` is in the future. In all order sales summaries, consider separating future orders from past orders so that restaurants have an accurate picture of how many orders they *fulfilled* on each day in the past.
 
-For more information about how integration partners submit future orders, see [Scheduling future orders](apiDevGuide-orders_api_future_orders).
+For more information about how integration partners submit future orders, see [Scheduling future orders](docs/en-us/apiDevGuide-orders_api_future_orders).
 
 ### Suppress voided entities by default
 
@@ -253,13 +253,13 @@ To filter fundraising contributions from your calculations:
 - Sum the `amount` values on each check, then subtract the sum of `chargeAmount` values from service charges where `serviceChargeCategory` is `FUNDRAISING_CAMPAIGN`.
 
 
-- Use the net sales calculation method described in [Calculating net sales using the orders API](apiDevGuide-apiOrdersNetSalesCalculation), which builds the net order amount from components and excludes fundraising contributions when adding service charges.
+- Use the net sales calculation method described in [Calculating net sales using the orders API](docs/en-us/apiDevGuide-apiOrdersNetSalesCalculation), which builds the net order amount from components and excludes fundraising contributions when adding service charges.
 
 
 
 
 
-For more information about the `serviceChargeCategory`field and other service charge types, see [Service charges for checks](apiDevGuide-apiOrderPrices#apiServiceCharges).
+For more information about the `serviceChargeCategory`field and other service charge types, see [Service charges for checks](docs/en-us/apiDevGuide-apiOrderPrices#apiServiceCharges).
 
 ### Reporting on total sales
 
@@ -277,7 +277,7 @@ All ideas require polling the `/ordersBulk` endpoint of the orders API for the d
 ****Order amount charged****
 : To calculate the gross order amount charged (including fundraising contributions), sum the `amount` values on each check.
 
-To calculate the net order amount charged (excluding fundraising contributions), see [Filter fundraising contributions from sales reporting](devCookbook-apiIntegrationChecklistAccounting#salesReportBuildFuncSuppressFundraising).
+To calculate the net order amount charged (excluding fundraising contributions), see [Filter fundraising contributions from sales reporting](docs/en-us/devCookbook-apiIntegrationChecklistAccounting#salesReportBuildFuncSuppressFundraising).
 
 
 

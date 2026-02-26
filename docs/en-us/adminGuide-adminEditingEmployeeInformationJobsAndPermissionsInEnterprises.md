@@ -23,17 +23,17 @@ Toast support recommends that enterprises have at least one *super user* at the 
 
 The permissions granted to the managers at individual locations are at the discretion of the super user and the super user may choose not to give certain Account Admin permissions that are related to financial data such as Financial Accounts to individual managers. However, at a minimum, individual managers should have the following permissions:
 
-- Restaurant Admin &gt; Employee Info: Allows to the manager to edit basic employee information including first and last name, phone number, and passcode. See [Editing an employee's basic information](adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesBasicInformation).
+- Restaurant Admin &gt; Employee Info: Allows to the manager to edit basic employee information including first and last name, phone number, and passcode. See [Editing an employee's basic information](docs/en-us/adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesBasicInformation).
 
 
-- Restaurant Admin &gt; Employee Jobs & Wages: Allows the manager to assign jobs to an employee, remove jobs from an employee, and override the wages associated with an employee's assigned jobs. See [Editing an employee's jobs](adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesJobs).
+- Restaurant Admin &gt; Employee Jobs & Wages: Allows the manager to assign jobs to an employee, remove jobs from an employee, and override the wages associated with an employee's assigned jobs. See [Editing an employee's jobs](docs/en-us/adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesJobs).
 
 
-- Account Admin &gt; User Permissions: Allows the manager to override the permissions an employee has inherited from any assigned jobs. This gives the manager the ability to directly add permissions to or remove permissions from a specific employee. See [Editing an employee's permissions](adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesPermissions).
+- Account Admin &gt; User Permissions: Allows the manager to override the permissions an employee has inherited from any assigned jobs. This gives the manager the ability to directly add permissions to or remove permissions from a specific employee. See [Editing an employee's permissions](docs/en-us/adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesPermissions).
 
 
 
-Additionally, managers can modify an employee's credentials (email and passcode) if they have a superset of the employee's permissions at all of the locations the employee works at. See [Editing an employee's basic information](adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesBasicInformation) for more details.
+Additionally, managers can modify an employee's credentials (email and passcode) if they have a superset of the employee's permissions at all of the locations the employee works at. See [Editing an employee's basic information](docs/en-us/adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesBasicInformation) for more details.
 
 ## Editing an employee's basic information
 
@@ -84,7 +84,7 @@ The same is true for removing a job from an employee.
 
 ## Editing your own permissions
 
-You cannot give yourself a permission in the Toast platform. Another user who has proper access permissions, according to the rules set out in the [Editing an employee's permissions](adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesPermissions) section, must give it to you.
+You cannot give yourself a permission in the Toast platform. Another user who has proper access permissions, according to the rules set out in the [Editing an employee's permissions](docs/en-us/adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesPermissions) section, must give it to you.
 
 ## Understanding how job permissions conflicts are resolved
 

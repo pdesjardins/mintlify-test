@@ -17,7 +17,7 @@ codeExamples: 0
 
 To unarchive an employee, send a `PUT`request to the `/labor/v1/employees/{employeeGuid}/unarchive`endpoint of the labor API. Include the Toast platform identifier of the employee as a path parameter in the request.
 
-When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the [jobs assigned](adminGuide-platformEmployeeJobs) to them before they were archived.
+When you unarchive an employee, that employee can sign into the Toast POS and also sign into Toast Web. The employee will have all the [jobs assigned](docs/en-us/adminGuide-platformEmployeeJobs) to them before they were archived.
 
 If an employee had a swipe card for signing into the Toast POS, the swipe card *is not* re-associated with the employee when you unarchive them.
 

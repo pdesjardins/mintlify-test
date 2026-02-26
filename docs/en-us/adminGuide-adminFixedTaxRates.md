@@ -21,7 +21,7 @@ Note that comping an order that has items with a fixed rate leaves the tax amoun
 
 **Procedure 6.120. To configure a fixed rate**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Settings &gt; Manage tax rates  to open the Tax rates page.
@@ -35,10 +35,10 @@ Note that comping an order that has items with a fixed rate leaves the tax amoun
 - Name: Enter a name for the tax rate, such as `Fixed Rate` or `Bottle Deposit`.
 
 
-- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
+- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](docs/en-us/adminGuide-targets).
 
 
-- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
+- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](docs/en-us/adminGuide-ownersAndPermissions).
 
 
 - Import ID: Leave this field blank. It is for internal use only.

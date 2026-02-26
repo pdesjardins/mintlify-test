@@ -22,7 +22,7 @@ You can use the global price editor in the upper left corner of the Price editor
 1. Choose Menus &gt; Bulk management &gt; Price editor to open the Price editorpage.
 
 
-2. Use the You are viewing menu to filter the page so that you see the menu you want to edit. See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
+2. Use the You are viewing menu to filter the page so that you see the menu you want to edit. See [Filtering pages](docs/en-us/adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
 
 
 3. Expand the menu and menu groups as needed to locate the menu item you enabled location-specific pricing for.
@@ -39,7 +39,7 @@ You can use the global price editor in the upper left corner of the Price editor
 6. Click Save.
 
 
-7. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
+7. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

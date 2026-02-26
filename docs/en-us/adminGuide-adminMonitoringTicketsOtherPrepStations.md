@@ -17,7 +17,7 @@ codeExamples: 0
 
 In some restaurants, employees at one prep station need to be aware when other prep stations are involved in fulfilling items in the same order. For example, a kitchen that does not have an [*expediter*](adminGuide-adminGlossary.html#glossExpediter) relies on employees at a particular prep station to coordinate order fulfillment or on close communication among employees to synchronize order fulfillment. Including information about other involved prep stations on the ticket can help ensure effective cooperation.
 
-The Toast platform allows you to configure kitchen tickets to display other prep stations working on an item or order on both KDS and printed tickets. For KDS tickets, all prep stations monitor each other automatically. For printed tickets, you [must specify which other prep stations a prep station will monitor](adminGuide-adminMonitoringTicketsOtherPrepStations#adminKitchenMonitorPrintedTickets).
+The Toast platform allows you to configure kitchen tickets to display other prep stations working on an item or order on both KDS and printed tickets. For KDS tickets, all prep stations monitor each other automatically. For printed tickets, you [must specify which other prep stations a prep station will monitor](docs/en-us/adminGuide-adminMonitoringTicketsOtherPrepStations#adminKitchenMonitorPrintedTickets).
 
 
 
@@ -33,7 +33,7 @@ Some things to keep in mind when using this feature:
 For example, an item sent to a single prep station will not show other prep stations. If an item is sent to multiple prep stations, those prep stations are indicated on the KDS or printed ticket.
 
 
-- Prep station monitoring only applies to items within the same course. For example, you have items in an *Appetizers* course, and items in an *Entrees* course. Prep stations assigned to the *Entrees* course items will not show on the *Appetizers* course ticket and vice versa: they only show for the items in the course. For more information about courses, see [Assigning courses](adminGuide-adminAssigningCourses).
+- Prep station monitoring only applies to items within the same course. For example, you have items in an *Appetizers* course, and items in an *Entrees* course. Prep stations assigned to the *Entrees* course items will not show on the *Appetizers* course ticket and vice versa: they only show for the items in the course. For more information about courses, see [Assigning courses](docs/en-us/adminGuide-adminAssigningCourses).
 
 
 - If items in an order only go to a single prep station, they are not shown or printed at other prep stations.
@@ -51,7 +51,7 @@ For example, if all items in an order go to one prep station, there is no need t
 > This setting must be configured to enable other station monitoring for both KDS and printed kitchen tickets.
 
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup.
@@ -86,7 +86,7 @@ The ticket for the Cold prep station shows the Cold prep station item (Cobb Sala
 
 ## Monitoring printed kitchen tickets
 
-For printed kitchen tickets, you specify which other prep station(s) you want to monitor at a given prep station. When an order includes items that are routed to both prep stations, kitchen tickets print the name of the monitored prep station and a list of menu items routed to that prep station at the end of the ticket. For more information about configuring other stations for printed tickets, see [Procedure 10.18, “To configure a prep station to monitor another prep station”](adminGuide-adminMonitoringTicketsOtherPrepStations#adminConfigurePrintOtherStationsItems).
+For printed kitchen tickets, you specify which other prep station(s) you want to monitor at a given prep station. When an order includes items that are routed to both prep stations, kitchen tickets print the name of the monitored prep station and a list of menu items routed to that prep station at the end of the ticket. For more information about configuring other stations for printed tickets, see [Procedure 10.18, “To configure a prep station to monitor another prep station”](docs/en-us/adminGuide-adminMonitoringTicketsOtherPrepStations#adminConfigurePrintOtherStationsItems).
 
 In the following example, employees at the Cold prep station need to know when an order includes menu items routed to the Hot prep station. The employees at the Hot prep station do not need information about menu items at other stations, so they see only the menu items they are responsible for fulfilling. The Cold prep station is configured to have “Hot” as the Other station.
 
@@ -115,7 +115,7 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 **Procedure 10.18. To configure a prep station to monitor another prep station**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Kitchen stations &gt; Prep stations.
@@ -140,5 +140,5 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 
 
-For more information about working with prep stations, see [Adding a prep station](adminGuide-adminAddPrepStation).
+For more information about working with prep stations, see [Adding a prep station](docs/en-us/adminGuide-adminAddPrepStation).
 

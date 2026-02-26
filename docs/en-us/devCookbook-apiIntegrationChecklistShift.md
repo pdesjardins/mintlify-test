@@ -17,11 +17,11 @@ codeExamples: 0
 
 Follow the steps below to build a shift scheduling integration with the Toast platform.
 
-This type of integration allows restaurants to use [clock-in enforcement](https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961) functionality to ensure adequate staffing each day. If you want to build additional labor reporting functionality, see [Building labor reports](devCookbook-apiIntegrationChecklistPayroll).
+This type of integration allows restaurants to use [clock-in enforcement](https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961) functionality to ensure adequate staffing each day. If you want to build additional labor reporting functionality, see [Building labor reports](docs/en-us/devCookbook-apiIntegrationChecklistPayroll).
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
 
 - `labor.employees:read`
 
@@ -40,7 +40,7 @@ To follow these instructions, you must have the following [scopes](apiDevGuide-a
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ## Restaurant information management
 
@@ -48,13 +48,13 @@ Review and implement the instructions in [How to build a Toast integration](devC
 
 Employees have permissions based on their assigned job(s). Scheduled shifts must specify an employee and a job. See [this Toast Central article](https://central.toasttab.com/s/article/Adding-and-Editing-Employees-and-Wages) for more information about employee setup.
 
-If you plan to maintain employee information in your platform and submit this information to Toast, see [Building an employee management integration](devCookbook-apiIntegrationChecklistEmployee).
+If you plan to maintain employee information in your platform and submit this information to Toast, see [Building an employee management integration](docs/en-us/devCookbook-apiIntegrationChecklistEmployee).
 
 ### Build initial employee and job load
 
 If a restaurant begins using your integration after they are already live on the Toast platform, you will need to map the existing employees and jobs in the Toast platform to employees and jobs in your service.
 
-Consider doing an [initial employee load](apiDevGuide-api_get_all_employees) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field for mapping employees in the Toast platform to employees in your service.
+Consider doing an [initial employee load](docs/en-us/apiDevGuide-api_get_all_employees) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field for mapping employees in the Toast platform to employees in your service.
 
 Use the `/jobs` endpoint of the labor API to load initial job information. See [the Labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification.
 
@@ -66,7 +66,7 @@ It is critical that you retrieve employee and shift information from the Toast p
 
 ### Retrieve restaurant hours
 
-Use the `Schedule` object in the [restaurants API](apiDevGuide-apiRestaurantInformation) to retrieve a restaurant location's opening and closing hours. Use these hours when determining when a day's shifts should begin and end.
+Use the `Schedule` object in the [restaurants API](docs/en-us/apiDevGuide-apiRestaurantInformation) to retrieve a restaurant location's opening and closing hours. Use these hours when determining when a day's shifts should begin and end.
 
 Consider adding configuration in your service that allows restaurant administrators to decide how long before opening the first shift must begin and how long after close the last shift must end.
 
@@ -76,7 +76,7 @@ Consider adding configuration in your service that allows restaurant administrat
 
 Build functionality that lets restaurant administrators create a scheduled shift in your service and submit this shift to the Toast platform.
 
-See [Adding a shift and assigning it to an employee](apiDevGuide-apiAddingAShiftAndAssigningIt) for more information.
+See [Adding a shift and assigning it to an employee](docs/en-us/apiDevGuide-apiAddingAShiftAndAssigningIt) for more information.
 
 ### Build shift update and cancellation functionality
 
@@ -102,7 +102,7 @@ Your service should track the shifts you have already created so you do not rece
 
 If an employee is clocked into a shift, you will receive a 400 HTTP response status code if you attempt to delete the shift.
 
-To evaluate whether an employee has clocked into their shift, retrieve [time entries](apiDevGuide-apiGettingTimeEntriesForEmployees) at this location and look for the shift's GUID in the `shiftReference` value. If there is a time entry that contains this shift in the `shiftReference`, the employee has clocked in.
+To evaluate whether an employee has clocked into their shift, retrieve [time entries](docs/en-us/apiDevGuide-apiGettingTimeEntriesForEmployees) at this location and look for the shift's GUID in the `shiftReference` value. If there is a time entry that contains this shift in the `shiftReference`, the employee has clocked in.
 
 Your integration should prevent users from attempting to delete shifts that employees have clocked into or display a user-friendly error message when somebody makes this shift deletion attempt.
 

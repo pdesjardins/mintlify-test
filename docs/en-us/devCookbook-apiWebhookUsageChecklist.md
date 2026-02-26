@@ -27,7 +27,7 @@ Before you write any code, think about how webhook events should trigger updates
 
 All Toast webhooks have a fallback API. Your integration should periodically query the fallback API in case you miss a webhook.
 
-Before you build your webhook implementation, decide how often you will poll the corresponding fallback API. For example, the [partners API](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiUsingPartnersApiToGetRestaurantInfo)corresponds to the [partners webhook](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGettingRestaurantAccessUpdatesFromPartnersWebhook).
+Before you build your webhook implementation, decide how often you will poll the corresponding fallback API. For example, the [partners API](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiUsingPartnersApiToGetRestaurantInfo)corresponds to the [partners webhook](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGettingRestaurantAccessUpdatesFromPartnersWebhook).
 
 Toast support recommends that you poll the partners API periodically (such as once per hour) to ensure that you receive all information in the partners domain, even if you miss a webhook.
 
@@ -45,7 +45,7 @@ When you submit your URL, also include the email address that should receive not
 
 ### Test a webhook event
 
-To view the structure of a webhook, open the Toast POS app or Toast Web and perform the action that triggers the webhook event. The [webhook reference documentation](apiDevGuide-apiWebhooksReference) describes how to trigger each webhook.
+To view the structure of a webhook, open the Toast POS app or Toast Web and perform the action that triggers the webhook event. The [webhook reference documentation](docs/en-us/apiDevGuide-apiWebhooksReference) describes how to trigger each webhook.
 
 After you trigger the webhook event, review the JSON your endpoint receives so that you understand the structure and content of the webhook.
 
@@ -65,23 +65,23 @@ If your endpoint is unable to receive a webhook event, the Toast platform may tr
 
 To avoid this problem, use the event GUID to ensure idempotence. If two webhooks have the same event GUID, you must treat them as the same webhook event.
 
-For more information about webhook retries, see [Retry support](apiDevGuide-apiRetrySupport).
+For more information about webhook retries, see [Retry support](docs/en-us/apiDevGuide-apiRetrySupport).
 
 ### Validate that you send timely responses
 
-Your endpoint should adhere to Toast webhook [timeout requirements](apiDevGuide-apiTimeouts) for the Toast platform to correctly understand whether or not you received the webhook.
+Your endpoint should adhere to Toast webhook [timeout requirements](docs/en-us/apiDevGuide-apiTimeouts) for the Toast platform to correctly understand whether or not you received the webhook.
 
 If your webhook does not adhere to timeout requirements, you may receive unnecessary duplicate webhook events, and your subscription may become paused or stopped.
 
 ### Review endpoint requirements
 
-Review [this list of endpoint requirements](apiDevGuide-apiEndpointRequirements) to ensure that you meet all requirements before you go live in production with your webhook functionality.
+Review [this list of endpoint requirements](docs/en-us/apiDevGuide-apiEndpointRequirements) to ensure that you meet all requirements before you go live in production with your webhook functionality.
 
 ### Implement message signing
 
 Using message signing to ensure that you only take action on webhooks that were sent by the Toast platform. Message signing provides an extra layer of security against acting upon webhooks from unknown sources.
 
-For more information, see [Message signing](apiDevGuide-apiMessageSigning).
+For more information, see [Message signing](docs/en-us/apiDevGuide-apiMessageSigning).
 
 ## Going live
 
@@ -89,7 +89,7 @@ For more information, see [Message signing](apiDevGuide-apiMessageSigning).
 
 When you are ready to take your new webhook subscription live in production, submit your production URL to your Toast contact.
 
-Toast support recommends following [these deployment practices](apiDevGuide-apiDeployment) as you roll out your webhook usage, though you should still return a 200 response to all correctly-structured webhooks that you receive from Toast.
+Toast support recommends following [these deployment practices](docs/en-us/apiDevGuide-apiDeployment) as you roll out your webhook usage, though you should still return a 200 response to all correctly-structured webhooks that you receive from Toast.
 
 In addition to your production URL, send the following information to Toast support:
 

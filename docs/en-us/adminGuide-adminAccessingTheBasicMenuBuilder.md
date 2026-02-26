@@ -19,7 +19,7 @@ Follow the instructions below to access the menu builder.
 
 **Procedure 8.1. To access the menu builder**
 
-1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. If you have multiple locations, switch to the restaurant whose menu you want to view using the location menu at the top of the page.

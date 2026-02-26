@@ -42,16 +42,16 @@ The Items, Modifiers, and Price levels views have a search field. As you enter s
 
 In addition to the search field, the menu manager page includes a set of filtering controls. The following sections describe how these controls behave:
 
-- [Filtering by location (multi-location only)](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation)
+- [Filtering by location (multi-location only)](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation)
 
 
-- [Filtering menu items and modifiers](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFiteringMenuItemsAndModifiers)
+- [Filtering menu items and modifiers](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFiteringMenuItemsAndModifiers)
 
 
-- [Filtering price levels](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringPriceLevels)
+- [Filtering price levels](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringPriceLevels)
 
 
-- [Resetting the filters](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerResettingTheFilters)
+- [Resetting the filters](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerResettingTheFilters)
 
 
 
@@ -61,7 +61,7 @@ For multi-location restaurants, filtering begins with selecting the locations wh
 
 ![An example of the locations filtering control on Full menu view.](https://doc.toasttab.com/doc/media/menu-manager-searching-and-filtering-fields-full-menu-view.png)
 
-By default, the locations control is set to the location you are currently logged into (also known as the [session restaurant](adminGuide-sessionRestaurant)). The locations you have selected remain in place as you navigate between the Items, Modifiers, and Price levels views. Currently, when you go to Full menu view, the locations control is reset to the session restaurant.
+By default, the locations control is set to the location you are currently logged into (also known as the [session restaurant](docs/en-us/adminGuide-sessionRestaurant)). The locations you have selected remain in place as you navigate between the Items, Modifiers, and Price levels views. Currently, when you go to Full menu view, the locations control is reset to the session restaurant.
 
 **Procedure 8.43. To filter by location**
 

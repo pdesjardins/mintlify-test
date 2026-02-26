@@ -19,9 +19,9 @@ The Toast platform can track the time it takes for prep stations and expediter K
 
 On a prep station KDS device, the average fulfillment timers are included for the prep stations assigned to that device.
 
-On an expediter KDS device, the average fulfillment timers are for all prep stations that [send tickets to the expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter), and levels of expediter KDS devices. You can use the Collapse/Expand Timers button to hide or show the prep station average fulfillment timers as needed. The expediter fulfillment timers are always visible.
+On an expediter KDS device, the average fulfillment timers are for all prep stations that [send tickets to the expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter), and levels of expediter KDS devices. You can use the Collapse/Expand Timers button to hide or show the prep station average fulfillment timers as needed. The expediter fulfillment timers are always visible.
 
-If using [Two-Level Fulfillment](adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment), there are separate average fulfillment timers for level one and level two, which show on both level one and level two expediter KDS devices.
+If using [Two-Level Fulfillment](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment), there are separate average fulfillment timers for level one and level two, which show on both level one and level two expediter KDS devices.
 
 
 
@@ -48,9 +48,9 @@ Below is an example of the average fulfillment timer on an expediter KDS device 
 
 ![An example of the average fulfillment timer on the top left of an expediter KDS device using dynamic view.](https://doc.toasttab.com/doc/media/kitchen-kds-dynamic-avg-fulfill-timer-expo.png)
 
-The fulfillment time is determined by when the item is sent to the kitchen and fulfilled (either by ticket or by item using [individual item fulfillment](adminGuide-adminKitchenDiningRoomReference#configFulfillItems)) at different stages throughout the kitchen workflow. Fulfillment times are calculated differently for prep stations and expediters.
+The fulfillment time is determined by when the item is sent to the kitchen and fulfilled (either by ticket or by item using [individual item fulfillment](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems)) at different stages throughout the kitchen workflow. Fulfillment times are calculated differently for prep stations and expediters.
 
-- The prep station fulfillment time is determined by the time between when an item is fired to the kitchen, and when the item or ticket is fulfilled at the prep station KDS device assigned that prep station. The item is considered fired either when the ticket appears on the screen (ticket time), or later if you want the kitchen to start working on items at different times (fire time). For more information about ticket and fire times, see [Interpreting ticket times and fire times](adminGuide-adminInterpretingTicketTimes).
+- The prep station fulfillment time is determined by the time between when an item is fired to the kitchen, and when the item or ticket is fulfilled at the prep station KDS device assigned that prep station. The item is considered fired either when the ticket appears on the screen (ticket time), or later if you want the kitchen to start working on items at different times (fire time). For more information about ticket and fire times, see [Interpreting ticket times and fire times](docs/en-us/adminGuide-adminInterpretingTicketTimes).
 
 The item is considered fulfilled at the prep station when the item or ticket is fulfilled at the prep station or an expediter KDS device. If fulfilled at an expediter KDS device, the end time is when the expediter ticket is fulfilled.
 
@@ -71,16 +71,16 @@ The item is considered fulfilled at the prep station when the item or ticket is 
 
 > **Note**
 > 
-> To require fulfillment at the first expediter before the second expediter can fulfill, use the [Sequenced Expediter Fulfillment](adminGuide-adminKitchenDiningRoomReference#configSequencedExpediterFulfillment) setting.
+> To require fulfillment at the first expediter before the second expediter can fulfill, use the [Sequenced Expediter Fulfillment](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSequencedExpediterFulfillment) setting.
 
 
 
 
-The average fulfillment timer only uses fulfillment times from the last 120 minutes. You can shorten this time range using the [Recently Fulfilled Timeframe](adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled) setting. Times outside the range are excluded from the average.
+The average fulfillment timer only uses fulfillment times from the last 120 minutes. You can shorten this time range using the [Recently Fulfilled Timeframe](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configViewRecentlyFulfilled) setting. Times outside the range are excluded from the average.
 
 **Procedure 10.27. To enable average fulfillment timers for your KDS device**
 
-1. [Access the Device Setup screen](adminGuide-adminConfigureDevice).
+1. [Access the Device Setup screen](docs/en-us/adminGuide-adminConfigureDevice).
 
 
 

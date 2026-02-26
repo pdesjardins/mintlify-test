@@ -15,13 +15,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-Toast introduced the [menu builder as a replacement for the classic menu pages](adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages) to provide an easier, more efficient tool for creating your menus. Toast is adding support to the menu builder for restaurants that use the multi-location module. Multi-location restaurants can now use the menu builder to edit menus and menu items used by multiple locations.
+Toast introduced the [menu builder as a replacement for the classic menu pages](docs/en-us/adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages) to provide an easier, more efficient tool for creating your menus. Toast is adding support to the menu builder for restaurants that use the multi-location module. Multi-location restaurants can now use the menu builder to edit menus and menu items used by multiple locations.
 
 
 
 > **Important**
 > 
-> While the menu builder supports editing menus and menu items for multi-location restaurants, it does not yet support creating those entities. You must create them first in the [classic menus experience](adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages) before you can edit them in the menu builder.
+> While the menu builder supports editing menus and menu items for multi-location restaurants, it does not yet support creating those entities. You must create them first in the [classic menus experience](docs/en-us/adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages) before you can edit them in the menu builder.
 > Also, the menu builder does not yet support creating or editing menu groups, modifier groups, or modifiers for multi-location restaurants.
 
 

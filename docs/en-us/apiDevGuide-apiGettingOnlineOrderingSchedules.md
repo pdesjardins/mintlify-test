@@ -22,7 +22,7 @@ To retrieve a restaurant location's online ordering schedule, send a `GET` reque
 
 > **Important**
 > 
-> Retrieve a restaurant's online ordering schedule at least once per day at the end of the business day. This ensures that you have up-to-date information about when online ordering hours begin and end on the next business day. [Future orders](apiDevGuide-orders_api_future_orders) must fall within a restaurant's ordering hours. You are responsible for respecting the restaurant’s hours. The orders API will not validate against these hours.
+> Retrieve a restaurant's online ordering schedule at least once per day at the end of the business day. This ensures that you have up-to-date information about when online ordering hours begin and end on the next business day. [Future orders](docs/en-us/apiDevGuide-orders_api_future_orders) must fall within a restaurant's ordering hours. You are responsible for respecting the restaurant’s hours. The orders API will not validate against these hours.
 
 
 **Example 6.6. Request for a restaurant's online ordering schedule**
@@ -57,13 +57,13 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
   
 **Example 6.7. Response containing a restaurant's online ordering schedule**
 
-The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the [Online ordering hours](adminGuide-adminConfigureOnlineOrderingHoursOverview) section on the Takeout & delivery page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
+The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the [Online ordering hours](docs/en-us/adminGuide-adminConfigureOnlineOrderingHoursOverview) section on the Takeout & delivery page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
 
 
 
 > **Note**
 > 
-> Online ordering hours can extend past midnight as long as they are before the [closeout hour](apiDevGuide-apiRestaurantInformation). The closeout hour is the business day cutoff, which is the hour of the day that ends the current business day and starts the next. Allow at least 15 minutes between the end of the online ordering hour and the closeout hour. To configure your closeout hours, contact Toast support.
+> Online ordering hours can extend past midnight as long as they are before the [closeout hour](docs/en-us/apiDevGuide-apiRestaurantInformation). The closeout hour is the business day cutoff, which is the hour of the day that ends the current business day and starts the next. Allow at least 15 minutes between the end of the online ordering hour and the closeout hour. To configure your closeout hours, contact Toast support.
 
 
 

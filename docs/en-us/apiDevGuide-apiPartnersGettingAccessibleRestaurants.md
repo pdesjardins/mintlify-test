@@ -19,13 +19,13 @@ The partners webhook and partners API both provide information about the restaur
 
 If you need to retrieve information about the restaurants you can access independently of an event that triggers a webhook update, you can use the `/restaurants` endpoint of the partners API.
 
-The payload returned by both the partners webhook and the partners API includes location and group identifiers. You can use these identifiers to map restaurants in your system to Toast's restaurants and GUIDs. For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).
+The payload returned by both the partners webhook and the partners API includes location and group identifiers. You can use these identifiers to map restaurants in your system to Toast's restaurants and GUIDs. For more information, see [Using location and group identifiers](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).
 
-This information only applies if you use a [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts). Integrations that use [restaurant management group API accounts](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant) cannot use the partners webhook or partners API.
+This information only applies if you use a [partner API account](docs/en-us/apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts). Integrations that use [restaurant management group API accounts](docs/en-us/apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant) cannot use the partners webhook or partners API.
 
 ## Getting the restaurants you can access
 
-Restaurant employees who have the Account Admin &gt; Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](adminGuide-adminPermissions).
+Restaurant employees who have the Account Admin &gt; Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](docs/en-us/adminGuide-adminPermissions).
 
 When a restaurant employee selects your partner integration and gives you access to integrate with that restaurant:
 
@@ -41,7 +41,7 @@ When a restaurant employee selects your partner integration and gives you access
 
 When a restaurant adds your integration in Toast Partner Integrations, the Toast platform does not directly connect the restaurant to *your customer* account for that restaurant. This action authorizes and grants your partner API account access to the restaurant's data via API. As an integration partner, you are responsible for mapping your own customer accounts to Toast location GUIDs.
 
-For more information about how restaurant employees select integration partners and enable integration access, see [Managing and using integrations and Toast Partner Integrations](adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
+For more information about how restaurant employees select integration partners and enable integration access, see [Managing and using integrations and Toast Partner Integrations](docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
 
 ### Getting restaurant access updates from the partners webhook
 
@@ -49,21 +49,21 @@ To use the partners webhook, you must create a *webhook endpoint*. This is the U
 
 Once you have a webhook endpoint, Toast support can create a webhook subscription for your integration that associates your webhook endpoint with the webhook updates that are triggered by restaurants adding, removing, or reconfiguring your integration.
 
-For general information on setting up and using Toast webhooks, see [Webhook basics](apiDevGuide-apiWebhookBasics).
+For general information on setting up and using Toast webhooks, see [Webhook basics](docs/en-us/apiDevGuide-apiWebhookBasics).
 
-For detailed information on the specific updates provided by the partners webhook, including example payloads, see [Partners webhook](apiDevGuide-apiPartnersWebhook).
+For detailed information on the specific updates provided by the partners webhook, including example payloads, see [Partners webhook](docs/en-us/apiDevGuide-apiPartnersWebhook).
 
 ### Using the partners API to get restaurant information
 
 To get information about the Toast platform restaurants that your partner API client account can access, you can use the `/restaurants` or `/connectedRestaurants` endpoint of the Toast partners API.
 
-Only partner API accounts can use the `/restaurants`and `/connectedRestaurants` endpoint. If you have a restaurant management group API account, you can use the restaurants API to get information about the restaurants in your group. For more information about account types, see [Toast API accounts](apiDevGuide-apiClientAccounts). For more information about the restaurants API, see the [restaurants API reference documentation](https://doc.toasttab.com/openapi/restaurants/overview/).
+Only partner API accounts can use the `/restaurants`and `/connectedRestaurants` endpoint. If you have a restaurant management group API account, you can use the restaurants API to get information about the restaurants in your group. For more information about account types, see [Toast API accounts](docs/en-us/apiDevGuide-apiClientAccounts). For more information about the restaurants API, see the [restaurants API reference documentation](https://doc.toasttab.com/openapi/restaurants/overview/).
 
 The `/restaurants` endpoint returns an array of JSON objects containing information about each restaurant that you have access to. For more information, see the [partners API reference documentation](https://doc.toasttab.com/openapi/partners/overview/).
 
 The `/connectedRestaurants` endpoint returns the same array of restaurant JSON objects as the `/restaurants`endpoint. Using the `/connectedRestaurants` endpoint allows you to navigate the response easier, especially if you are connected to many restaurants.
 
-The `/connectedRestaurants` endpoint uses pagination and allows for additional query parameters. Each response page is also tokenized using page tokens should you need to refer back to a specific data snapshot. For more information on pagination see [Paginating response data](apiDevGuide-apiResponseDataPagination). For more information on using the `/connectedRestaurants`endpoint see [Get connected restaurants](https://doc.toasttab.com/openapi/partners/operation/connectedRestaurantsGet/).
+The `/connectedRestaurants` endpoint uses pagination and allows for additional query parameters. Each response page is also tokenized using page tokens should you need to refer back to a specific data snapshot. For more information on pagination see [Paginating response data](docs/en-us/apiDevGuide-apiResponseDataPagination). For more information on using the `/connectedRestaurants`endpoint see [Get connected restaurants](https://doc.toasttab.com/openapi/partners/operation/connectedRestaurantsGet/).
 
 
 
@@ -88,12 +88,12 @@ https://`[toast-api-hostname]`/partners/v1/restaurants
 
 > **Note**
 > 
-> The `/restaurants` endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](apiDevGuide-apiRateLimiting).
+> The `/restaurants` endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](docs/en-us/apiDevGuide-apiRateLimiting).
 
 
 **Procedure 1.1. To get information about the restaurants you have access to**
 
-1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).
+1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](docs/en-us/apiDevGuide-authentication).
 
 
 2. Send a `GET` request to the `/restaurants` endpoint of the partners API.
@@ -120,8 +120,8 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
 | `restaurantName` | The human-readable name of the restaurant location. | 
 | `locationName` | The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.For example, a restaurant group might assign a location code such as `#1234` to a specific location. | 
 | `createdByEmailAddress` | The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details. | 
-| `externalGroupRef` | An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs). | 
-| `externalRestaurantRef` | An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs). | 
+| `externalGroupRef` | An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs). | 
+| `externalRestaurantRef` | An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint.This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.For more information, see [Using location and group identifiers](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs). | 
 | `isoCreatedDate` | The date and time that the partner connection was created, expressed in ISO 8601 format. | 
 | `isoModifiedDate` | The most recent date and time that the partner connection was edited, expressed in ISO 8601 format. | 
 | `createdDate` | The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC. | 
@@ -192,12 +192,12 @@ https://`{toast-api-hostname}`/partners/v1/connectedRestaurants
 
 > **Note**
 > 
-> The `/connectedRestaurants` endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](apiDevGuide-apiRateLimiting).
+> The `/connectedRestaurants` endpoint uses the same rate limiting functionality as other Toast API endpoints. For more information, see [Rate limiting](docs/en-us/apiDevGuide-apiRateLimiting).
 
 
 **Procedure 1.2. To get information about the restaurants you are connected to**
 
-1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).
+1. Authenticate with the Toast user management service using a partner API account. For more information, see [Authentication and restaurant access](docs/en-us/apiDevGuide-authentication).
 
 
 2. Send a `GET` request to the `/connectedRestaurants` endpoint of the partners API.
@@ -222,7 +222,7 @@ You can query your response by adding the following parameters:
 
 #### Information in the /connectedRestaurants response data
 
-For each restaurant, the `/connectedRestaurants` JSON response data contains the same values seen from the [`/restaurants`response data](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGetRestaurantsReturnFieldList), as well as the following values:
+For each restaurant, the `/connectedRestaurants` JSON response data contains the same values seen from the [`/restaurants`response data](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGetRestaurantsReturnFieldList), as well as the following values:
 
 | Value | Description | 
 | --- | --- |
@@ -329,7 +329,7 @@ Location ID and group ID values are available in the partners API in the `extern
 ]
 ```
 
-If you use a [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts), Toast support recommends that you include information in your onboarding documentation instructing users on how to fill out these fields.
+If you use a [partner API account](docs/en-us/apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts), Toast support recommends that you include information in your onboarding documentation instructing users on how to fill out these fields.
 
-Integrations that use [restaurant management group API accounts](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant) cannot use these fields.
+Integrations that use [restaurant management group API accounts](docs/en-us/apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant) cannot use these fields.
 

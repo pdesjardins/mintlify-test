@@ -26,7 +26,7 @@ The settings for restaurants with the multi-location module are the following:
 **New Version**
 : For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations.
 
-You use the New Version button to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](adminGuide-creatingAVersionOfAConfigurationEntity).
+You use the New Version button to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](docs/en-us/adminGuide-creatingAVersionOfAConfigurationEntity).
 
 
 
@@ -40,7 +40,7 @@ If you choose a restaurant group, the discount is also available at any of that 
 **Owner**
 : Controls which restaurant employees can edit the discount.
 
-Employees of the selected restaurant or group who have the 6. Web Setup &gt; 6.1 Discounts Setup[permission](adminGuide-adminPermissions#adminWebSetupAccessPermissionsReferenceTable)can edit the discount.
+Employees of the selected restaurant or group who have the 6. Web Setup &gt; 6.1 Discounts Setup[permission](docs/en-us/adminGuide-adminPermissions#adminWebSetupAccessPermissionsReferenceTable)can edit the discount.
 
 
 

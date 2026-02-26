@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> For completeness, this section covers the use of default tax rates and inheritance to assign applicable taxes. However, the automated nature of defaults and inheritance makes it harder to understand what taxes are being applied. For this reason, Toast support typically recommends that you manually set applicable taxes on your menus instead, as described in [Manually assigning applicable taxes](adminGuide-manuallyAssigningApplicableTaxes). If you choose to use the defaults and inheritance technique, this section provides the information you need to know and the issues you can encounter.
+> For completeness, this section covers the use of default tax rates and inheritance to assign applicable taxes. However, the automated nature of defaults and inheritance makes it harder to understand what taxes are being applied. For this reason, Toast support typically recommends that you manually set applicable taxes on your menus instead, as described in [Manually assigning applicable taxes](docs/en-us/adminGuide-manuallyAssigningApplicableTaxes). If you choose to use the defaults and inheritance technique, this section provides the information you need to know and the issues you can encounter.
 
 
 Taxes that are marked as default are indicated by a check mark in the Default column on the Tax rates page. When a menu is configured to inherit taxes, the Toast platform ignores any tax rates that are not marked as default. For example, in the following illustration, the Boston versions of the state tax and local tax rates are marked as default:
@@ -42,7 +42,7 @@ With this configuration, the state tax and local tax for Boston are applied to t
 ![Image](https://doc.toasttab.com/doc/media/tax_rates_inherited_adv_props_page.PNG)
 
 
-- Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
+- Publish your changes using the Publish config page. See [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

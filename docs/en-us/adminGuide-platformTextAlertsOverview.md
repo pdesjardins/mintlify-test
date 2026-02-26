@@ -26,5 +26,5 @@ The text alert feature allows restaurant employees to request immediate assistan
 
 Recipients can receive text alerts on their mobile phones or on WiFi-enabled personal devices like tablets using a VoIP phone number.
 
-You must have the [Manager &gt; Send Notifications](adminGuide-adminPermissions#adminManagerAccessPermissions) access permission to enable and manage text alerts for your restaurant.
+You must have the [Manager &gt; Send Notifications](docs/en-us/adminGuide-adminPermissions#adminManagerAccessPermissions) access permission to enable and manage text alerts for your restaurant.
 

@@ -44,5 +44,5 @@ If your Toast API client does not have the `guest.pi:read` scope, then the respo
 
 
 
-For more information about scopes and how they work, see [Scopes](apiDevGuide-apiScopes).
+For more information about scopes and how they work, see [Scopes](docs/en-us/apiDevGuide-apiScopes).
 

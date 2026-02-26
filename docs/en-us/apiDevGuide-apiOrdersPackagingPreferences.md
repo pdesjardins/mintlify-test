@@ -20,7 +20,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> Required scope. To read packaging preferences, you need the `packaging:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).
+> Required scope. To read packaging preferences, you need the `packaging:read` scope. For more information about scopes, see [Scopes](docs/en-us/apiDevGuide-apiScopes).
 
 
 Packaging preferences indicate how a guest would like their order packaged. Preferences could be adding items like utensils, napkins, or straws to include with their takeout or delivery order. Restaurants choose the packaging options that they offer to guests using configuration options in Toast Web.
@@ -31,7 +31,7 @@ The following procedure describes the process you use to include packaging prefe
 
 1. Retrieve the packaging preference configuration for a restaurant using the `packaging configuration API`. A packaging preference configuration describes options for meal packaging items such as utensils or napkins.
 
-For more information, see [Getting packaging preference configuration options](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesGetGuid).
+For more information, see [Getting packaging preference configuration options](docs/en-us/apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesGetGuid).
 
 
 2. In your ordering interface, ask guests to select their packaging preferences during the ordering process. The packaging preference questions you include are based on the packaging options that the restaurant configured.
@@ -39,7 +39,7 @@ For more information, see [Getting packaging preference configuration options](a
 
 3. Submit the packaging preferences that a guest chooses for an order using the orders API.
 
-For more information, see [Creating an order with packaging preferences](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi).
+For more information, see [Creating an order with packaging preferences](docs/en-us/apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi).
 
 
 
@@ -59,7 +59,7 @@ The following procedure describes how to retrieve packaging preference informati
 
 1. Send a `GET` request to the `published/packagingConfig` endpoint of the packaging configuration API. A successful response returns packaging preference configuration GUIDs. The package preference configuration GUIDs are found in the `id` field of the response.
 
-See the response data from the `published/packagingConfig` endpoint for a restaurant with multiple packaging preferences configured in [Example 2.2, “Example response data from the `published/packagingConfig` endpoint”](apiDevGuide-apiOrdersPackagingPreferences#apiExamplePackagingConfigResponseData).
+See the response data from the `published/packagingConfig` endpoint for a restaurant with multiple packaging preferences configured in [Example 2.2, “Example response data from the `published/packagingConfig` endpoint”](docs/en-us/apiDevGuide-apiOrdersPackagingPreferences#apiExamplePackagingConfigResponseData).
 
 
 2. Get the identifier GUIDs for each packaging option from the `id` value to use when you create an order.
@@ -132,7 +132,7 @@ After you retrieve the packaging preference configuration information for a rest
 > The `AppliedPackagingInfo` object is optional. Orders that are submitted without this object are still accepted by the orders API.
 
 
-The procedure below describes how to apply packaging preferences to an order. For more information about the orders API, see the [orders API overview](apiDevGuide-portalOrdersApiOverview).
+The procedure below describes how to apply packaging preferences to an order. For more information about the orders API, see the [orders API overview](docs/en-us/apiDevGuide-portalOrdersApiOverview).
 
 **Procedure 2.4. To apply packaging preferences to an order**
 
@@ -211,5 +211,5 @@ The example below shows the response data for a request to create an order that 
   
 ## Request an order with packaging preferences
 
-You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
+You can retrieve a single order, or multiple orders in bulk, using the orders API. For information about how to retrieve an order, see the [orders API developer documentation](docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 

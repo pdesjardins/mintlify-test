@@ -19,7 +19,7 @@ The orders API allows you to create orders, update existing orders, and retrieve
 
 ## Components of an order
 
-Here is a high-level overview of the information contained in an order. For the full list of values in the `Order` object, see the [Orders section of the API reference](https://doc.toasttab.com/openapi/orders/overview/). For a summary of the `Order`object, including descriptions of the status, date-time, and amount fields associated with an order, see [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary).
+Here is a high-level overview of the information contained in an order. For the full list of values in the `Order` object, see the [Orders section of the API reference](https://doc.toasttab.com/openapi/orders/overview/). For a summary of the `Order`object, including descriptions of the status, date-time, and amount fields associated with an order, see [Order object summary](docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary).
 
 Each `Order` object in the orders API provides information about the order and its processing.
 
@@ -38,7 +38,7 @@ The order dining option determines whether the order is dine-in, takeout, curbsi
 
 
 
-For more information about order values for dining options, see [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails).
+For more information about order values for dining options, see [Order details based on the order dining option](docs/en-us/apiDevGuide-apiOrderTypeDetails).
 
 Each order contains one or more checks. The order checks contain the majority of the order information. Orders often contain only one check. When guests split an order so that they can pay separately, then the order contains multiple checks.
 
@@ -51,7 +51,7 @@ An order check contains:
 
 Each `Selection` object refers to a single menu item.
 
-Each menu item can have modifiers that provide additional details and modifications. See [Applying modifiers and pre-modifiers](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
+Each menu item can have modifiers that provide additional details and modifications. See [Applying modifiers and pre-modifiers](docs/en-us/apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
 
 
 
@@ -67,7 +67,7 @@ The `receiptLinePrice` value is the original price of a menu item selection befo
 The `amount` value is the actual amount that the guest is charged. It includes any discounts and service charges.
 
 
-- Applied discounts. A discount can be applied to the entire check or to an individual menu item selection. See [Working with order discounts](apiDevGuide-apiDiscountingOrders).
+- Applied discounts. A discount can be applied to the entire check or to an individual menu item selection. See [Working with order discounts](docs/en-us/apiDevGuide-apiDiscountingOrders).
 
 
 - Applied service charges.
@@ -77,7 +77,7 @@ The `amount` value is the actual amount that the guest is charged. It includes a
 
 
 
-For more information about order price information, see [Order prices](apiDevGuide-apiOrderPrices).
+For more information about order price information, see [Order prices](docs/en-us/apiDevGuide-apiOrderPrices).
 
 
 
@@ -122,45 +122,45 @@ You can use the orders API to perform the following tasks:
 
 
 ****Create an order****
-: For an overview of the order creation process, see [Creating orders](apiDevGuide-apiCreatingOrders).
+: For an overview of the order creation process, see [Creating orders](docs/en-us/apiDevGuide-apiCreatingOrders).
 
-The order creation process includes retrieving price information for the order checks. See [Getting check prices before you submit an order](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
+The order creation process includes retrieving price information for the order checks. See [Getting check prices before you submit an order](docs/en-us/apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
-You can provide the revenue center for an order. See [Providing revenue center information for an order](apiDevGuide-apiOrdersRevenueCenters).
+You can provide the revenue center for an order. See [Providing revenue center information for an order](docs/en-us/apiDevGuide-apiOrdersRevenueCenters).
 
-For information about dining options and the required information for types of dining options, see [Order details based on the order dining option](apiDevGuide-apiOrderTypeDetails).
+For information about dining options and the required information for types of dining options, see [Order details based on the order dining option](docs/en-us/apiDevGuide-apiOrderTypeDetails).
 
 
 
 ****Update an order****
 : You can use the orders API to update an existing order. Examples of order updates include:
 
-- [Adding items to an order check](apiDevGuide-apiAddingItemsToACheck)
+- [Adding items to an order check](docs/en-us/apiDevGuide-apiAddingItemsToACheck)
 
 
-- [Adding discounts to an order check](apiDevGuide-apiDiscountingOrders#apiAddingDiscountsToChecks)
+- [Adding discounts to an order check](docs/en-us/apiDevGuide-apiDiscountingOrders#apiAddingDiscountsToChecks)
 
 
-- [Updating the tip information for a payment](apiDevGuide-apiUpdatingTipsInAPayment)
+- [Updating the tip information for a payment](docs/en-us/apiDevGuide-apiUpdatingTipsInAPayment)
 
 
-- [Adding a credit card payment to an order check](apiDevGuide-apiAddingPaymentsToACheck).
+- [Adding a credit card payment to an order check](docs/en-us/apiDevGuide-apiAddingPaymentsToACheck).
 
 
-- [Changing the delivery information for an order](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder)
+- [Changing the delivery information for an order](docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder)
 
 
 
 
 
 ****Retrieve information about orders****
-: You can use an order GUID to retrieve the details for that order. See [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
+: You can use an order GUID to retrieve the details for that order. See [Getting detailed information about one order](docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 
-You can retrieve details about orders that were either modified during a specific date range, or that were created on a specific business date. See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders).
+You can retrieve details about orders that were either modified during a specific date range, or that were created on a specific business date. See [Getting detailed information about multiple orders](docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders).
 
 You can only retrieve order details for orders that were created after December 1, 2015 (2015-12-01).
 
-If your integration submits orders to the Toast platform, your integration is an ordering channel integration. In that case, your API client has both the `orders:read` and the `orders.channel:read`[scopes](apiDevGuide-apiScopes), and can only retreive orders from the Toast platform if your integration submitted them.
+If your integration submits orders to the Toast platform, your integration is an ordering channel integration. In that case, your API client has both the `orders:read` and the `orders.channel:read`[scopes](docs/en-us/apiDevGuide-apiScopes), and can only retreive orders from the Toast platform if your integration submitted them.
 
 
 
@@ -174,9 +174,9 @@ When using the orders API to create an order, be aware of the following limitati
 
 By default, the orders API creates an order that is to be fulfilled as soon as possible. It does not verify the restaurant service hours.
 
-You are responsible for submitting orders while the restaurant is open. For more information, see [Getting information about a specific restaurant](apiDevGuide-apiRestaurantInformation).
+You are responsible for submitting orders while the restaurant is open. For more information, see [Getting information about a specific restaurant](docs/en-us/apiDevGuide-apiRestaurantInformation).
 
-You also can create an order to be fulfilled at a specific time. For example, you can create an order when the restaurant is closed, but indicate to fulfill the order when the restaurant is open. See [Scheduling future orders](apiDevGuide-orders_api_future_orders).
+You also can create an order to be fulfilled at a specific time. For example, you can create an order when the restaurant is closed, but indicate to fulfill the order when the restaurant is open. See [Scheduling future orders](docs/en-us/apiDevGuide-orders_api_future_orders).
 
 ### Order menu selection items
 
@@ -205,7 +205,7 @@ The orders API does not allow you to create cash orders or orders that use Toast
 
 You cannot use Toast loyalty functionality with orders that are created using the orders API.
 
-You can use the orders API to apply a third-party loyalty program that is integrated with Toast. For details, see [Working with loyalty programs](apiDevGuide-apiDiscountingOrders#orders-api-loyalty-programs).
+You can use the orders API to apply a third-party loyalty program that is integrated with Toast. For details, see [Working with loyalty programs](docs/en-us/apiDevGuide-apiDiscountingOrders#orders-api-loyalty-programs).
 
 ### Gift card programs
 
@@ -219,7 +219,7 @@ The order is not subject to approval rules or manual approval.
 
 ### Order text messages
 
-Orders that are entered using the orders API do not [initiate SMS text messages](adminGuide-platformKitchenTextMessaging#adminSendTextMessage). Guests or servers only receive text messages when an order is entered in the Toast platform, for example, from a Toast POS device.
+Orders that are entered using the orders API do not [initiate SMS text messages](docs/en-us/adminGuide-platformKitchenTextMessaging#adminSendTextMessage). Guests or servers only receive text messages when an order is entered in the Toast platform, for example, from a Toast POS device.
 
 When building the functionality to send an order fulfillment text message from your platform, your code should inspect the `fulfillmentStatus` value of an order and ensure it is set to `READY` before it sends any messages. The `fulfillmentStatus` value is in the `selections`object which is a part of the `checks` object.
 

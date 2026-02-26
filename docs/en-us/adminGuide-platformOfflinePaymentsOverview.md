@@ -20,7 +20,7 @@ codeExamples: 0
 
 ![Image](https://doc.toasttab.com/doc/media/payment_offline.png)
 
-During offline mode, if you attempt to use an unavailable payment type, a dialog displays stating Payment method unavailable while offline. While in offline mode, cash and card payments can still be processed. Gift cards, loyalty redemptions, Tender API payments, text to pay, customer credits, comp cards and house accounts cannot be used offline. For more information about offline credit card payments, see [Offline card payments](adminGuide-adminOfflineCCPayments).
+During offline mode, if you attempt to use an unavailable payment type, a dialog displays stating Payment method unavailable while offline. While in offline mode, cash and card payments can still be processed. Gift cards, loyalty redemptions, Tender API payments, text to pay, customer credits, comp cards and house accounts cannot be used offline. For more information about offline credit card payments, see [Offline card payments](docs/en-us/adminGuide-adminOfflineCCPayments).
 
 ## Offline mode best practices
 
@@ -45,5 +45,5 @@ Because your devices cannot sync with each other in offline mode, orders taken o
 
 
 
-For more information on available actions during offline mode, see [Offline mode](adminGuide-platformOfflineMode) and for more on preventing network disruptions, see [Preventing a Network Disruption](https://central.toasttab.com/s/article/Preventing-a-Network-Disruption).
+For more information on available actions during offline mode, see [Offline mode](docs/en-us/adminGuide-platformOfflineMode) and for more on preventing network disruptions, see [Preventing a Network Disruption](https://central.toasttab.com/s/article/Preventing-a-Network-Disruption).
 

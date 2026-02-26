@@ -60,9 +60,9 @@ If you don't provide a prep station ID when you create a menu item or modifier, 
 
 To see identifiers for locations and location groups (formerly called *restaurant groups*), Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, the Toast account &gt; Business and location management &gt; Location groups (Restaurant groups) page becomes available in Toast Web. You can retrieve a location or a location group's identifier from this page, using the instructions below.
 
-**Procedure 8.141. To retrieve a location group's identifier**
+**Procedure 8.142. To retrieve a location group's identifier**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Toast account &gt; Business and location management &gt; Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
@@ -82,9 +82,9 @@ To see identifiers for locations and location groups (formerly called *restauran
 
 
 
-**Procedure 8.142. To retrieve a single location's identifier**
+**Procedure 8.143. To retrieve a single location's identifier**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Toast account &gt; Business and location management &gt; Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.

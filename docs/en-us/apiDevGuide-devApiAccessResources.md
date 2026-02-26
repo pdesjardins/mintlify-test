@@ -17,19 +17,19 @@ codeExamples: 0
 
 For more information on using Toast APIs, see:
 
-- [API status and updates](apiDevGuide-apiUpdatesEmailDistributionList)
+- [API status and updates](docs/en-us/apiDevGuide-apiUpdatesEmailDistributionList)
 
 
-- [Authentication return data for a restaurant management group API client](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)
+- [Authentication return data for a restaurant management group API client](docs/en-us/apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)
 
 
-- [Example API requests](apiDevGuide-apiExampleRequests)
+- [Example API requests](docs/en-us/apiDevGuide-apiExampleRequests)
 
 
-- [How to build a Toast integration](apiDevGuide-portalHowToBuildAToastIntegration)
+- [How to build a Toast integration](docs/en-us/apiDevGuide-portalHowToBuildAToastIntegration)
 
 
-- [Rate limiting](apiDevGuide-apiRateLimiting)
+- [Rate limiting](docs/en-us/apiDevGuide-apiRateLimiting)
 
 
 - [Toast Integrations Community Forum](https://toastintegrations.zendesk.com/auth/v2/login/signin?return_to=https%3A%2F%2Fdevelopers.toasttab.com%2Fhc%2Fen-us%2Fcommunity%2Ftopics&theme=hc&locale=en-us&brand_id=360004937871&auth_origin=360004937871%2Ctrue%2Ctrue)

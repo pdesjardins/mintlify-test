@@ -20,7 +20,7 @@ If you are using the menus API data to construct an ordering application, those 
 
 Use the following values returned by the menus API to ensure that you submit orders correctly to the orders API:
 
-- The `availability` value of the [Menu](https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/Menu/)object. The orders API *does not validate*against the availability settings of a menu, meaning it is possible to submit an order for an item on a menu that is not currently available (see [Orders API limitations](apiDevGuide-portalOrdersApiOverview#ordersAPILimitations) for more information). For this reason, it is particularly important that you use the menus API to confirm the availability of a menu before you place an order from it.
+- The `availability` value of the [Menu](https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/Menu/)object. The orders API *does not validate*against the availability settings of a menu, meaning it is possible to submit an order for an item on a menu that is not currently available (see [Orders API limitations](docs/en-us/apiDevGuide-portalOrdersApiOverview#ordersAPILimitations) for more information). For this reason, it is particularly important that you use the menus API to confirm the availability of a menu before you place an order from it.
 
 
 - The `minSelections` and `maxSelections`values of the [ModifierGroup](https://doc.toasttab.com/openapi/menusv3/tag/Data-definitions/schema/ModifierGroup/)object. The orders API rejects an order if at least one menu item selection has a modifier group with minimum or maximum selection requirements and those requirements have not been met for that menu item.

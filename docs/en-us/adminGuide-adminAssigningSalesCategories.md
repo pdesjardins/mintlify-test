@@ -36,7 +36,7 @@ For information about the reports that use sales categories, see these Toast Cen
 
 
 
-You can set sales categories at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their sales category from their parent menus. Menu items and subgroups inherit their sales category from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
+You can set sales categories at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their sales category from their parent menus. Menu items and subgroups inherit their sales category from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
 
 To set the sales category for a menu, go to the Reporting section of the menu's details page and select the category from the Sales category dropdown list.
 
@@ -54,7 +54,7 @@ To override the inherited sales category for a menu item, go to the Reporting se
 
 To configure a menu item so that it inherits its sales category, set the Inherit sales category? setting to Yes.
 
-If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminGuide-adminAssigningSalesCategories#platformCreatingSalesCategoriesMenuBuilder).
+If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](docs/en-us/adminGuide-adminAssigningSalesCategories#platformCreatingSalesCategoriesMenuBuilder).
 
 ## Creating sales categories
 
@@ -68,7 +68,7 @@ On the details page for a menu, menu group, or menu item, select Reporting. In t
 
 Alternatively, you can:
 
-- [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
+- [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 - Switch to the restaurant you want to create courses for.

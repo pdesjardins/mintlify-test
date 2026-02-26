@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}` endpoint to retrieve guest reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}` endpoint to retrieve guest reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](docs/en-us/apiDevGuide-apiAnalyticsRateLimiting).
 
 To request the guest reporting data, you must include the guest reporting data request GUID, or `reportRequestGuid`, as a path parameter.
 
@@ -171,5 +171,5 @@ The following example shows the response from the `/era/v1/guest/payments/{repor
 ]
 ```
 
-For more information about the values in the response, see [Understanding the guest reporting data](apiDevGuide-apiAnalyticsGuestDataUnderstandData).
+For more information about the values in the response, see [Understanding the guest reporting data](docs/en-us/apiDevGuide-apiAnalyticsGuestDataUnderstandData).
 

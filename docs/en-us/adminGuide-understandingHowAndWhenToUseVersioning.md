@@ -25,7 +25,7 @@ Configuration entities that typically benefit from this approach include:
 
 - Menu-related entities
 
-- Menu items, modifiers (see [Versioning menu items](adminGuide-versioningOfMenuItems) for more information)
+- Menu items, modifiers (see [Versioning menu items](docs/en-us/adminGuide-versioningOfMenuItems) for more information)
 
 
 - Open items
@@ -97,10 +97,10 @@ Each master version and its related location-specific versions are represented b
 
 Configuration entities that should use this approach include:
 
-- [Taxes](adminGuide-adminCreatingMasterTaxRates)
+- [Taxes](docs/en-us/adminGuide-adminCreatingMasterTaxRates)
 
 
-- [Prep Stations](adminGuide-managingPrepStationsAndPrintersForEnterprises)
+- [Prep Stations](docs/en-us/adminGuide-managingPrepStationsAndPrintersForEnterprises)
 
 
 
@@ -110,7 +110,7 @@ Some configuration entities, such as price levels or courses, may be used by mos
 
 Configuration entities that typically benefit from this approach include:
 
-- Menus, menu groups, and modifier groups (see [Versioning at the menu group and modifier group level](adminGuide-versioningAtTheMenuGroupAndModifierGroupLevel) for more information)
+- Menus, menu groups, and modifier groups (see [Versioning at the menu group and modifier group level](docs/en-us/adminGuide-versioningAtTheMenuGroupAndModifierGroupLevel) for more information)
 
 
 - Price levels
@@ -134,7 +134,7 @@ Configuration entities that typically benefit from this approach include:
 
 The details for some configuration entities are almost entirely location-specific. As such, these entities do not benefit from versioning because very little information can be shared among locations. This is the case for Printers and Receipt Setup. For this type of configuration entity, there is no reason to create a master version with location-specific versions based off the master. Instead, you can add an individual configuration entity for each location and set its Target and Owner fields to that location.
 
-For more information on printer set up, see [Prep stations and printers for enterprises](adminGuide-managingPrepStationsAndPrintersForEnterprises).
+For more information on printer set up, see [Prep stations and printers for enterprises](docs/en-us/adminGuide-managingPrepStationsAndPrintersForEnterprises).
 
 Receipt Setup is similar to Tax Rates in that the Toast platform automatically creates a receipt set up for each location in your enterprise. However, unlike tax rates, Toast support recommends that you use these auto-created entities to configure receipt setup for each of your locations.
 

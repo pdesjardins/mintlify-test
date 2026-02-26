@@ -41,7 +41,7 @@ An offline state is triggered by the following:
 > Keep in mind that one device can be offline while other devices are online. For example, if you take a handheld device with you to deliver an order, the device is offline and will use offline mode when you are out of Wi-Fi range, but the device returns online when it is within the restaurant's Wi-Fi coverage area again. In this scenario, offline limitations apply only to that device, and not to the other online devices at the restaurant.
 
 
-Depending on which [type of disruption](adminGuide-adminOfflineModeOverview#platformOfflineDisruptionTypes) you are experiencing, what [data synchronization method](adminGuide-adminOfflineModeOverview#platformOfflineDataSyncMethods) is in use, and how many devices are affected, how offline mode works for your restaurant can differ.
+Depending on which [type of disruption](docs/en-us/adminGuide-adminOfflineModeOverview#platformOfflineDisruptionTypes) you are experiencing, what [data synchronization method](docs/en-us/adminGuide-adminOfflineModeOverview#platformOfflineDataSyncMethods) is in use, and how many devices are affected, how offline mode works for your restaurant can differ.
 
 ## Disruption types
 
@@ -77,10 +77,10 @@ If your restaurant is offline, the disruption can be:
 
 > **Important**
 > 
-> Online orders rely on the Toast platform cloud-based service to send and receive API requests. When a restaurant experiences any type of outage, the restaurant can no longer send and receive API requests through this service. Once connection is restored, the restaurant receives all online orders sent during the outage. Toast support recommends that integrations use the [restaurant availability webhook](apiDevGuide-apiRxAvailabilityWebhook) to avoid creating online orders while the restaurant offline. Placing orders while offline can contribute to the kitchen being overwhelmed with orders once the connection is restored.
+> Online orders rely on the Toast platform cloud-based service to send and receive API requests. When a restaurant experiences any type of outage, the restaurant can no longer send and receive API requests through this service. Once connection is restored, the restaurant receives all online orders sent during the outage. Toast support recommends that integrations use the [restaurant availability webhook](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook) to avoid creating online orders while the restaurant offline. Placing orders while offline can contribute to the kitchen being overwhelmed with orders once the connection is restored.
 
 
-For more information on what you can do while using offline mode depending on the disruption type, see [Data synchronization methods for offline mode](adminGuide-adminOfflineModeOverview#platformOfflineDataSyncMethods) and choose the data synchronization method.
+For more information on what you can do while using offline mode depending on the disruption type, see [Data synchronization methods for offline mode](docs/en-us/adminGuide-adminOfflineModeOverview#platformOfflineDataSyncMethods) and choose the data synchronization method.
 
 ### Local network disruption
 
@@ -116,7 +116,7 @@ When you experience a local network connection disruption, try the following:
 
 > **Caution**
 > 
-> If using [offline mode](adminGuide-platformOfflineMode), this step can prevent backup printing and should be done last.
+> If using [offline mode](docs/en-us/adminGuide-platformOfflineMode), this step can prevent backup printing and should be done last.
 
 
 
@@ -164,7 +164,7 @@ Toast is migrating from the current data synchronization method to one that impl
 
 Depending on which data synchronization method is in use, the Toast platform behaves in two ways when offline:
 
-- [Offline mode](adminGuide-platformOfflineMode)
+- [Offline mode](docs/en-us/adminGuide-platformOfflineMode)
 
 
 
@@ -174,7 +174,7 @@ Depending on which data synchronization method is in use, the Toast platform beh
 
 
 
-- [Offline mode with local sync](adminGuide-platformOfflineModeLocalSync)
+- [Offline mode with local sync](docs/en-us/adminGuide-platformOfflineModeLocalSync)
 
 
 

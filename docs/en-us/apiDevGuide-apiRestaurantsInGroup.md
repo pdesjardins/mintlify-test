@@ -19,10 +19,10 @@ Send a `GET` request to the `/restaurants/v1/groups/{managementGroupGUID}/restau
 
 You can get a restaurant management group's GUID from either of these resources:
 
-- The `/restaurants/v1/restaurants/{restaurantGUID}`endpoint of the restaurants API. See [Getting information about a specific restaurant](apiDevGuide-apiRestaurantInformation).
+- The `/restaurants/v1/restaurants/{restaurantGUID}`endpoint of the restaurants API. See [Getting information about a specific restaurant](docs/en-us/apiDevGuide-apiRestaurantInformation).
 
 
-- The `/partners/v1/restaurants` endpoint of the partners API (if you have partner-level credentials). See [Location access](apiDevGuide-apiPartnersGettingAccessibleRestaurants).
+- The `/partners/v1/restaurants` endpoint of the partners API (if you have partner-level credentials). See [Location access](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants).
 
 
 

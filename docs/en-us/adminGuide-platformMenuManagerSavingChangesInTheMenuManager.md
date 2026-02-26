@@ -23,13 +23,13 @@ Full menu view consists of a table that shows your menu hierarchy and an optiona
 
 ![Full menu view showing the menu hierarchy table and the optional side panel.](https://doc.toasttab.com/doc/media/menu-manager-slideout-menu-save-button.png)
 
-Changes made in Full menu view must be manually published when you're ready for your employees and guests to see them. For more information, see [Saving changes and manually publishing them](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+Changes made in Full menu view must be manually published when you're ready for your employees and guests to see them. For more information, see [Saving changes and manually publishing them](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 
 > **Note**
 > 
-> The [scheduled publishing](adminGuide-platformPublishingMenuManagerChanges) feature that allows you to save and publish your changes at a future date and time is not yet supported for Full menu view updates.
+> The [scheduled publishing](docs/en-us/adminGuide-platformPublishingMenuManagerChanges) feature that allows you to save and publish your changes at a future date and time is not yet supported for Full menu view updates.
 
 
 ## Saving changes in Items, Modifiers, or Price levels view
@@ -51,6 +51,6 @@ Note that if you make a change to an entity and then re-filter the menu manager 
 
 > **Important**
 > 
-> If you want to schedule your changes to be saved and published at a later date and time, do not use the Save [X] changes button. Use the Schedulebutton instead. For more information about scheduled publishing, see [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
+> If you want to schedule your changes to be saved and published at a later date and time, do not use the Save [X] changes button. Use the Schedulebutton instead. For more information about scheduled publishing, see [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
 
 

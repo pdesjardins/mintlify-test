@@ -46,13 +46,13 @@ The illustration below shows the Items view for a multi-location restaurant.
 
 ![An example of the Items view for a multi-location restaurant.](https://doc.toasttab.com/doc/media/menu-manager.png)
 
-You can use the menu manager with the scheduled publishing feature to make menu updates that are published at a future date and time. To schedule future menu updates, make the updates on the Menu manager page and then store them in change sets. You assign a publishing date and time to each change set to specify when the updates are made available to your restaurant's employees and guests. This chapter assumes you are familiar with change sets. For more information, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
+You can use the menu manager with the scheduled publishing feature to make menu updates that are published at a future date and time. To schedule future menu updates, make the updates on the Menu manager page and then store them in change sets. You assign a publishing date and time to each change set to specify when the updates are made available to your restaurant's employees and guests. This chapter assumes you are familiar with change sets. For more information, see [Understanding scheduled publishing and change sets](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
 
 
 
 > **Note**
 > 
-> Scheduled publishing is limited to changes you make on the Items, Modifiers, or Price levels views. You cannot use the scheduled publishing feature with Full menu view updates. Updates made in the Full menu view must be [published manually](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> Scheduled publishing is limited to changes you make on the Items, Modifiers, or Price levels views. You cannot use the scheduled publishing feature with Full menu view updates. Updates made in the Full menu view must be [published manually](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 The illustrations in this section show the multi-location version of the menu manager page except where noted.

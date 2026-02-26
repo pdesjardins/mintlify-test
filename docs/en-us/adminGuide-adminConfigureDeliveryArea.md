@@ -26,7 +26,7 @@ For first-party delivery, you can configure your delivery area on the Takeout/de
 
 **Procedure 3.33. To configure your delivery area**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.

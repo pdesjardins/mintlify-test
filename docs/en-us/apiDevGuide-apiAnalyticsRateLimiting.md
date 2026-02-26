@@ -21,7 +21,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
 
 > **Note**
 > 
-> As a Toast API, the analytics API adheres to the global rate limits. For more information, see [Rate limiting](apiDevGuide-apiRateLimiting).
+> As a Toast API, the analytics API adheres to the global rate limits. For more information, see [Rate limiting](docs/en-us/apiDevGuide-apiRateLimiting).
 
 
 | Method and endpoint | Rate limits | Notes | 

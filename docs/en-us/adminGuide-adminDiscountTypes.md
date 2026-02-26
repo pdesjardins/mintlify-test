@@ -39,7 +39,7 @@ The Toast platform supports the following types of discounts.
 
 
 
-For information about configuring fixed and open discounts, see [Configuring fixed or open amount or percent discounts](adminGuide-adminDiscountsConfigFixedOpenDiscounts).
+For information about configuring fixed and open discounts, see [Configuring fixed or open amount or percent discounts](docs/en-us/adminGuide-adminDiscountsConfigFixedOpenDiscounts).
 
 
 
@@ -52,7 +52,7 @@ A BOGO discount includes one or a combination of required items (also referred t
 
 ![Diagram that shows buy items and get items for a BOGO discount.](https://doc.toasttab.com/doc/media/bogo-discount-concept-diagram.png)
 
-For more information on configuring BOGO discounts, see [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo).
+For more information on configuring BOGO discounts, see [Configuring a BOGO discount](docs/en-us/adminGuide-adminDiscountsConfigureBogo).
 
 
 
@@ -61,7 +61,7 @@ For more information on configuring BOGO discounts, see [Configuring a BOGO disc
 
 For example, you might configure a discount that applies to the combination of a lunch salad and a fountain drink. That combo discount might reduce the price of both items to a total of $7.00.
 
-For more information on configuring combo discounts, see [Configuring a combo discount](adminGuide-adminDiscountsConfigureCombo).
+For more information on configuring combo discounts, see [Configuring a combo discount](docs/en-us/adminGuide-adminDiscountsConfigureCombo).
 
 
 

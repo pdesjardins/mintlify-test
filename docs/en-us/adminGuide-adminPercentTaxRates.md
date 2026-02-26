@@ -21,7 +21,7 @@ For example, suppose a state has a sales tax of 5% on meals sold by restaurants.
 
 You can configure multiple percent tax rates for your restaurant. For example, you could configure a tax rate of 6% for food items and a tax rate of 9% for alcoholic beverages. You would then configure the food items on a menu to use the 6% tax rate, and the beverage items to use the 9% tax rate.
 
-In addition to the basic (primary) percent tax rate, you can optionally configure a secondary [takeout tax rate](adminGuide-adminPercentTaxRates#takeoutTaxRate) for takeout orders.
+In addition to the basic (primary) percent tax rate, you can optionally configure a secondary [takeout tax rate](docs/en-us/adminGuide-adminPercentTaxRates#takeoutTaxRate) for takeout orders.
 
 ## Rounding options
 
@@ -67,7 +67,7 @@ Keep the following in mind when you create a takeout tax rate:
 
 ![Dining Options page with a Take Out behavior example.](https://doc.toasttab.com/doc/media/tax-dining-options.png)
 
-If your restaurant does not have a dining option with the Take Out behavior, you cannot configure a takeout tax rate because the Take Out Taxsection of the [percent tax rate configuration page](adminGuide-adminPercentTaxRates#configurePercentTaxRate) will be unavailable.
+If your restaurant does not have a dining option with the Take Out behavior, you cannot configure a takeout tax rate because the Take Out Taxsection of the [percent tax rate configuration page](docs/en-us/adminGuide-adminPercentTaxRates#configurePercentTaxRate) will be unavailable.
 
 
 - Menus that can be used for takeout orders must have the Dining Option Tax setting configured as No Effect on the Menus &gt; Bulk management &gt; Advanced properties page, as in this example:
@@ -82,7 +82,7 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 
 ## Configuring percent rates
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Settings &gt; Manage tax rates to open the Tax rates page.
@@ -96,10 +96,10 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 - Name: Enter a name for the tax rate, such as `State Tax`.
 
 
-- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
+- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](docs/en-us/adminGuide-targets).
 
 
-- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
+- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](docs/en-us/adminGuide-ownersAndPermissions).
 
 
 - Import ID: Leave this field blank. It is for internal use only.
@@ -126,7 +126,7 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 
 
 
-6. In the Advanced Settings section, select one of the four [rounding options](adminGuide-adminPercentTaxRates#roundingOptions) for this tax rate.
+6. In the Advanced Settings section, select one of the four [rounding options](docs/en-us/adminGuide-adminPercentTaxRates#roundingOptions) for this tax rate.
 
 
 7. You can test the percent tax rate with the Calculate Your Tax calculator. Enter any dollar amount in the Menu Item Price field and click Calculate. The system uses your configured percent tax rate to calculate the sales tax that is shown in the Tax Applied field, as shown in the following example. (Note that the calculator does not work with takeout tax rates).

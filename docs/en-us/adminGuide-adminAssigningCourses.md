@@ -18,7 +18,7 @@ codeExamples: 0
 
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
-You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
+You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
 
 To set the course for a menu, go to the Kitchen prep section of the menu's details page and select the course.
 
@@ -36,7 +36,7 @@ To override the inherited course for a menu item, go to the Kitchen section on i
 
 To configure a menu item so that it inherits its course, set the Inherit course? setting to Yes.
 
-If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminGuide-adminAssigningCourses#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
+If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](docs/en-us/adminGuide-adminAssigningCourses#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
 ## Creating courses
 
@@ -50,7 +50,7 @@ If you are viewing a menu item in the menu builder, select Kitchen. If you are v
 
 Alternatively, you can do the following:
 
-- [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
+- [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 - Switch to the restaurant you want to create courses for.

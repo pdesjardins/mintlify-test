@@ -46,12 +46,12 @@ You can adjust menu visibility for an online ordering channel from the Third par
 
 > **Note**
 > 
-> Menus that are available on the Third party ordering page must have the Online ordering partners visibility setting enabled. This allows the menu to be visible to third-party online ordering channels. For more information on configuring your menu visibility, see [Complementary visibility settings on Third party ordering page](adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformComplementarySettingsOnTheThirdPartyOrderingPageLegacy).
+> Menus that are available on the Third party ordering page must have the Online ordering partners visibility setting enabled. This allows the menu to be visible to third-party online ordering channels. For more information on configuring your menu visibility, see [Complementary visibility settings on Third party ordering page](docs/en-us/adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy#platformComplementarySettingsOnTheThirdPartyOrderingPageLegacy).
 
 
 **Procedure 3.23. To add a menu to a third-party online ordering channel**
 
-1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Third party ordering. This displays all your third-party online ordering channels and their online ordering settings.

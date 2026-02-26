@@ -34,7 +34,7 @@ You use the configuration API to retrieve the available dining option GUIDs.
 
 ## Types of dining options
 
-The restaurant defines the available dining options. For more information about dining options and how to configure them, see [Dining options](adminGuide-adminDiningOptions) in the *Platform Guide*.
+The restaurant defines the available dining options. For more information about dining options and how to configure them, see [Dining options](docs/en-us/adminGuide-adminDiningOptions) in the *Platform Guide*.
 
 Each dining option includes a `behavior` field that indicates the type of dining option.
 

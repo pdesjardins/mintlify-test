@@ -21,7 +21,7 @@ This integration allows you to provide restaurants with detailed information abo
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
 
 - `config:read`
 
@@ -45,13 +45,13 @@ To follow these instructions, you must have the following [scopes](apiDevGuide-a
 
 
 
-You can retrieve a list of your current scopes through your [Toast developer portal](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
+You can retrieve a list of your current scopes through your [Toast developer portal](docs/en-us/apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](docs/en-us/apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
 
 ## Setup and planning
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ### Retrieve configuration information
 

@@ -35,10 +35,10 @@ The Add a Discount page opens with a new (unsaved) discount. The new discount ha
 
 2. Optionally, you can edit any configuration property of the new discount. You can save the new discount without making any changes.
 
-For a detailed list of discount configuration settings, see the [Discount configuration reference](adminGuide-adminDiscountConfigReference).
+For a detailed list of discount configuration settings, see the [Discount configuration reference](docs/en-us/adminGuide-adminDiscountConfigReference).
 
 
-3. Click Save to save the discount, then [publish the changes](adminGuide-platformPublishingOverview).
+3. Click Save to save the discount, then [publish the changes](docs/en-us/adminGuide-platformPublishingOverview).
 
 
 

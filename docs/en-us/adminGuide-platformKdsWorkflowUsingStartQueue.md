@@ -22,17 +22,17 @@ codeExamples: 0
 > The start queue feature is in limited release and will only be available for KDS devices using the new KDS, otherwise known as grid view.
 
 
-The restaurant in this example uses KDS devices using start queue. For more information about start queue, see [Start queue overview](adminGuide-platformKdsStartQueue#platformKdsStartQueueOverview).
+The restaurant in this example uses KDS devices using start queue. For more information about start queue, see [Start queue overview](docs/en-us/adminGuide-platformKdsStartQueue#platformKdsStartQueueOverview).
 
 This example restaurant configuration:
 
-- Uses [individual item fulfillment](adminGuide-adminKitchenDiningRoomReference#configFulfillItems).
+- Uses [individual item fulfillment](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems).
 
 
 - Sends prep station items to prep station and expediter KDS devices.
 
 
-- Uses [independent prep station fulfillment](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKitchenKDSFulfillAtEachStationIndependently).
+- Uses [independent prep station fulfillment](docs/en-us/adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKitchenKDSFulfillAtEachStationIndependently).
 
 
 

@@ -139,7 +139,7 @@ Three guests place online orders for future fulfillment and choose the same avai
   
 
 
-You can use the Kitchen capacity quote time strategy with an [Order price rule](adminGuide-adminQuoteTimeStrategies#adminOrderPriceStrategy).
+You can use the Kitchen capacity quote time strategy with an [Order price rule](docs/en-us/adminGuide-adminQuoteTimeStrategies#adminOrderPriceStrategy).
 
 **Example 3.7. Example: Estimated immediate fulfillment time increases when kitchen capacity is reached or the order pricing condition is met**
 

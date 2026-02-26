@@ -24,9 +24,9 @@ codeExamples: 0
 
 The restaurant in this example only uses one expediter KDS device. The restaurant assigns items in an order to individual seats and keeps printed prep station tickets with the item in order for the food runner to deliver the items to the appropriate seat.
 
-This example restaurant is configured to have a separate ticket for every menu item in an order. This allows a food runner to bring orders to the table as they are fulfilled. For more information about the configuration setting that determines how items appear on printed and screen tickets, see [Individual Item Tickets](adminGuide-adminKitchenDiningRoomReference#configIndividualTickets).
+This example restaurant is configured to have a separate ticket for every menu item in an order. This allows a food runner to bring orders to the table as they are fulfilled. For more information about the configuration setting that determines how items appear on printed and screen tickets, see [Individual Item Tickets](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configIndividualTickets).
 
-This example restaurant also uses individual item fulfillment and sends prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
+This example restaurant also uses individual item fulfillment and sends prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
 
 
 

@@ -25,7 +25,7 @@ The `restaurant_availability` webhook allows you to receive real-time informatio
 
 
 
-Restaurant availability webhook messages follow the [standard message data schema](apiDevGuide-apiMessageDataSchema). The `restaurant_availability` webhook has two event categories:
+Restaurant availability webhook messages follow the [standard message data schema](docs/en-us/apiDevGuide-apiMessageDataSchema). The `restaurant_availability` webhook has two event categories:
 
 - `restaurant_availability`
 
@@ -36,19 +36,19 @@ Restaurant availability webhook messages follow the [standard message data schem
 
 When you receive a webhook event for the `restaurant_availability` event category, the `eventCategory` value is set to `restaurant_availability` and the `eventType` is set to one of the following:
 
-- [availability_online](apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOnline)
+- [availability_online](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOnline)
 
 
-- [availability_offline](apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOffline)
+- [availability_offline](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOffline)
 
 
 
 When you receive a webhook event for the `restaurant_availability_toggle` event category, the `eventCategory` value is set to `restaurant_availability_toggle` and the `eventType`is set to one of the following:
 
-- [toggle_availability_online](apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOnlineToggle)
+- [toggle_availability_online](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOnlineToggle)
 
 
-- [toggle_availability_offline](apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOfflineToggle)
+- [toggle_availability_offline](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook#apiRxAvailabilityOfflineToggle)
 
 
 
@@ -59,7 +59,7 @@ When you receive a webhook event for the `restaurant_availability_toggle` event 
 > Multiple webhook messages can be sent from Toast depending on the scenario.
 
 
-For more information about webhooks, see [Webhook basics](apiDevGuide-apiWebhookBasics) and [Message data schema](apiDevGuide-apiMessageDataSchema).
+For more information about webhooks, see [Webhook basics](docs/en-us/apiDevGuide-apiWebhookBasics) and [Message data schema](docs/en-us/apiDevGuide-apiMessageDataSchema).
 
 ## Restaurant availability status overview
 
@@ -121,7 +121,7 @@ The `restaurant_availability` webhook sends updates when a restaurant's autofire
 > If you do not receive any `restaurant_availability`webhook events, the restaurant should be considered `ONLINE`. This assumes you are respecting the restaurant’s available operating hours for both ASAP and scheduled orders placed for future fulfillment.
 
 
-Restaurants using Toast Online Ordering with [Manual Approval or Approval Rules](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode) configured do not trigger webhook events with the AVAILABILITY_OFFLINE `reasonKey`. Only restaurants that choose to “Send orders directly to the kitchen” are included in the `ONLINE` and `OFFLINE` webhook alerts for this scenario. Restaurants can configure their approval options in Toast Web. These settings do not apply to online ordering integration channels. Orders sent via the orders API are immediately autofired to the kitchen. For more information, see [Orders API limitations](apiDevGuide-portalOrdersApiOverview#ordersAPILimitations).
+Restaurants using Toast Online Ordering with [Manual Approval or Approval Rules](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#approvalmode) configured do not trigger webhook events with the AVAILABILITY_OFFLINE `reasonKey`. Only restaurants that choose to “Send orders directly to the kitchen” are included in the `ONLINE` and `OFFLINE` webhook alerts for this scenario. Restaurants can configure their approval options in Toast Web. These settings do not apply to online ordering integration channels. Orders sent via the orders API are immediately autofired to the kitchen. For more information, see [Orders API limitations](docs/en-us/apiDevGuide-portalOrdersApiOverview#ordersAPILimitations).
 
 
 
@@ -192,7 +192,7 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
   
 ## Third-party online ordering channel has been manually turned on or off
 
-A third-party online ordering channel is any online ordering channel such as Uber Eats, DoorDash, or Grubhub. Restaurants can turn a third-party online ordering channel on or off in Toast Web. The default setting for an online ordering channel is `ONLINE`. For more information about turning on or off a third-party online ordering channel, see [Managing orders from third-party online ordering channels](adminGuide-platformManagingThirdPartyOnlineOrderingChannels).
+A third-party online ordering channel is any online ordering channel such as Uber Eats, DoorDash, or Grubhub. Restaurants can turn a third-party online ordering channel on or off in Toast Web. The default setting for an online ordering channel is `ONLINE`. For more information about turning on or off a third-party online ordering channel, see [Managing orders from third-party online ordering channels](docs/en-us/adminGuide-platformManagingThirdPartyOnlineOrderingChannels).
 
 
 
@@ -306,7 +306,7 @@ The following procedures describe how to trigger `OFFLINE` and `ONLINE` webhook 
 1. Ensure that your Toast POS device is online and you have configured an autofire device.
 
 
-2. Submit a test order using the orders API. For more information, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
+2. Submit a test order using the orders API. For more information, see [Orders API overview](docs/en-us/apiDevGuide-portalOrdersApiOverview).
 
 
 3. Disable the autofire device. For more information on how to disable your autofire device, see [Set up Order Auto-firing](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407#Enabling_Order_Auto-Firing_In_Toasts_Back-end).

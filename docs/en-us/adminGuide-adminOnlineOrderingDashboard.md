@@ -30,7 +30,7 @@ On the online ordering dashboard, you can quickly access settings to control you
 
 **Procedure 3.16. To access your restaurant's online ordering dashboard**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Toast online ordering.
@@ -75,7 +75,7 @@ Click the drop-down menu to the right of the dashboard. From the menu, make your
 > Depending on your selection, certain options are automatically enabled or disabled. For example, if you choose to snooze online ordering for 20 minutes, this automatically disables the Delivery option.
 
 
-After you make your selection, a colored label is added to the top of the dashboard. The label shows what selection was applied. For example, if you choose to snooze for 20 minutes at 10:00 AM, the label will show that online ordering is snoozed until 10:20 AM. If online ordering is enabled, the label displays your online ordering availability based on your configured [online ordering hours](adminGuide-adminConfigureOnlineOrderingHoursOverview). Your changes are automatically saved and published.
+After you make your selection, a colored label is added to the top of the dashboard. The label shows what selection was applied. For example, if you choose to snooze for 20 minutes at 10:00 AM, the label will show that online ordering is snoozed until 10:20 AM. If online ordering is enabled, the label displays your online ordering availability based on your configured [online ordering hours](docs/en-us/adminGuide-adminConfigureOnlineOrderingHoursOverview). Your changes are automatically saved and published.
 
 ## Throttling delays for takeout orders
 

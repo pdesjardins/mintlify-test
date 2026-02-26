@@ -49,7 +49,7 @@ You use the `CREATE` operation to:
 
 The `CREATE` operation has the following caveats:
 
-- During a `CREATE` operation, you must attach each newly created menu entity to a parent menu entity, using the Parent entity type and Parent version ID or operation ID columns in the `CREATE`row, to ensure that you don't create orphaned menu entities. Orphaned menu entities do not appear in the menus that restaurant guests and employees see. For more information about the Toast menu hierarchy, see [Menu hierarchy](adminGuide-adminMenuHierarchy).
+- During a `CREATE` operation, you must attach each newly created menu entity to a parent menu entity, using the Parent entity type and Parent version ID or operation ID columns in the `CREATE`row, to ensure that you don't create orphaned menu entities. Orphaned menu entities do not appear in the menus that restaurant guests and employees see. For more information about the Toast menu hierarchy, see [Menu hierarchy](docs/en-us/adminGuide-adminMenuHierarchy).
 
 
 - The `CREATE` operation for modifier groups has the limitation that you can attach the new modifier group to a menu item in the `CREATE` row but not to a menu group. However, in an `ATTACH` row, you can attach a modifier group to either a menu item or a menu group.
@@ -61,7 +61,7 @@ The `CREATE` operation has the following caveats:
 
 > **Note**
 > 
-> The rule above does not apply to the fix and re-import workflow. A re-import is necessary when you have imported a file and some of the operations succeeded but some failed. In this situation, you must fix the problems in the original import file and re-import it. The bulk menu tool processes any import operations that previously failed and ignores operations that succeeded during the first import. For more information, see [Fixing import failures](adminGuide-platformFixingImportFailures).
+> The rule above does not apply to the fix and re-import workflow. A re-import is necessary when you have imported a file and some of the operations succeeded but some failed. In this situation, you must fix the problems in the original import file and re-import it. The bulk menu tool processes any import operations that previously failed and ignores operations that succeeded during the first import. For more information, see [Fixing import failures](docs/en-us/adminGuide-platformFixingImportFailures).
 
 
 

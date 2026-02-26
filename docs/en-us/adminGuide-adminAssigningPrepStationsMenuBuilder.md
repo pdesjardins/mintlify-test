@@ -24,7 +24,7 @@ You use prep stations to route menu items to the appropriate stations in the kit
 > If a menu item does not have any prep stations assigned to it, the Toast platform automatically routes that menu item to all prep stations.
 
 
-You can set prep stations at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit prep stations from their parent menus. Menu items and subgroups inherit prep stations from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
+You can set prep stations at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit prep stations from their parent menus. Menu items and subgroups inherit prep stations from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
 
 To set prep stations for a menu, go to the Kitchen prep section of the menu's details page and select the prep stations to which items ordered from the menu should be routed.
 
@@ -42,5 +42,5 @@ To override the inherited prep stations for a menu item, go to the Kitchen secti
 
 To configure a menu item to inherit its prep stations, set the Inherit prep stations? setting to Yes.
 
-If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminGuide-adminAddPrepStation) and [Routing with prep stations](adminGuide-adminRoutingToPrepStations).
+If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](docs/en-us/adminGuide-adminAddPrepStation) and [Routing with prep stations](docs/en-us/adminGuide-adminRoutingToPrepStations).
 

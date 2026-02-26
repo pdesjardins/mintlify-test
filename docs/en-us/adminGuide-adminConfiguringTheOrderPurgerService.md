@@ -26,7 +26,7 @@ The order purger service runs every five minutes and counts the total number of 
 
 **Procedure 2.4. To set the order purger threshold**
 
-1. Access [Device Setup](adminGuide-adminConfigureDevice).
+1. Access [Device Setup](docs/en-us/adminGuide-adminConfigureDevice).
 
 
 2. Tap Order Purge Threshold.

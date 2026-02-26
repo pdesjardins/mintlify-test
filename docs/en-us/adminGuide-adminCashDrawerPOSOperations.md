@@ -365,7 +365,7 @@ You can configure no sale reasons in Toast Web.
 
 **Procedure 6.39. To configure a no sale reason**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Transactions & refunds &gt; No sale reasons to open the No sale reasons page. You can also configure no sale reasons from Payments &gt; Payment methods &gt; Cash overview &gt; Payout and no sale reasons page.
@@ -432,7 +432,7 @@ The Close action closes an open or paused cash drawer. To close a cash drawer, y
 
 - Select the Close drawer button to close the drawer. A *CLOSED [TIME]*label appears at the top of the screen. The closed drawer now appears under the Closed tab on the Cash drawers screen.
 
-You can now choose to create a deposit for the cash in the cash drawer. For more information, see [Cash deposits](adminGuide-adminCashDeposits).
+You can now choose to create a deposit for the cash in the cash drawer. For more information, see [Cash deposits](docs/en-us/adminGuide-adminCashDeposits).
 
 ![Closed cash drawers showing the Create Deposit button.](https://doc.toasttab.com/doc/media/cash-mgt-cash-drawers-create-deposit.png)
 
@@ -468,13 +468,13 @@ You can now choose to create a deposit for the cash in the cash drawer. For more
 2. On the Cash drawer activity screen, select the Close drawer button.
 
 
-3. Complete the close drawer workflow. For more information, see the section on how to [close an open cash drawer](adminGuide-adminCashDrawerPOSOperations#adminCashDrawerClose).
+3. Complete the close drawer workflow. For more information, see the section on how to [close an open cash drawer](docs/en-us/adminGuide-adminCashDrawerPOSOperations#adminCashDrawerClose).
 
 
 
 #### Adding a comment for a closed drawer
 
-You can add an optional comment when closing a cash drawer. You can choose to enter a custom comment or a comment will be entered on the cash drawer activity panel depending if there was a variance with the closeout amount and the expected amount. For more information, see [Managing cash drawer variance](adminGuide-adminCashDrawerToastWebOperations#adminCashDrawerManageCloseDrawerVariance).
+You can add an optional comment when closing a cash drawer. You can choose to enter a custom comment or a comment will be entered on the cash drawer activity panel depending if there was a variance with the closeout amount and the expected amount. For more information, see [Managing cash drawer variance](docs/en-us/adminGuide-adminCashDrawerToastWebOperations#adminCashDrawerManageCloseDrawerVariance).
 
 If no comment is provided, the following default comments are entered depending on if there was a cash drawer variance:
 
@@ -513,7 +513,7 @@ To view and set the starting balance or reset balance type for individual cash d
 
 **Procedure 6.42. To configure a new starting balance for all cash drawers**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Payment methods &gt; Cash overview &gt; View cash drawers to open the Cash drawers page.

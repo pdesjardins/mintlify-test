@@ -45,7 +45,7 @@ In general, this procedure follows this flow:
 
 **Procedure 5.12. To configure each version of a menu to have its own menu-specific prices for a menu item**
 
-1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Select Menus from the left-hand navigation bar.
@@ -62,7 +62,7 @@ In general, this procedure follows this flow:
 
 6. In the Pricing section, set the Pricing Strategy to Location Specific Price.
 
-The Location Prices table appears with a row for the top-level restaurant group in your [restaurant group hierarchy](adminGuide-restaurantGroupsAndSubgroups).
+The Location Prices table appears with a row for the top-level restaurant group in your [restaurant group hierarchy](docs/en-us/adminGuide-restaurantGroupsAndSubgroups).
 
 The Toast platform requires that you specify a location-specific price for the top-level restaurant group so that any given location will have at least the corporate price to draw from in the event that a more specific price is not specified.
 
@@ -127,7 +127,7 @@ The Toast platform requires that you specify a location-specific price for the t
 
 > **Note**
 > 
-> If you are unsure about which locations are affected by your changes and require publishing, see [About the Number column](adminGuide-platformAboutTheNumberColumn) for information on using the Number column to determine which locations require publishing.
+> If you are unsure about which locations are affected by your changes and require publishing, see [About the Number column](docs/en-us/adminGuide-platformAboutTheNumberColumn) for information on using the Number column to determine which locations require publishing.
 
 
 
@@ -139,7 +139,7 @@ The Toast platform requires that you specify a location-specific price for the t
 
 > **Note**
 > 
-> For more info on the Publish Config page, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
+> For more info on the Publish Config page, see [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations).
 
 
 

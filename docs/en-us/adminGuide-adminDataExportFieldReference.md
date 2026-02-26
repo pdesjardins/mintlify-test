@@ -206,7 +206,7 @@ The following table shows details on what the kitchen details data export contai
 | Table | The number of the table, if available. | Integer | 
 | Check Opened | The time of day that the check was opened, in twelve-hour format. For example: `10/22/19 4:22 PM`. | Date (MM/DD/YY h:mm AM|PM) | 
 | Station | The prep station that received the ticket. In the Toast POS system, a prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment. | String | 
-| Expediter Level | The [Two-Level Fulfillment](adminGuide-adminUsingExpo#adminConfigureExpediter)setting for the expediter: `1` for single level or `2` for two levels. | Integer | 
+| Expediter Level | The [Two-Level Fulfillment](docs/en-us/adminGuide-adminUsingExpo#adminConfigureExpediter)setting for the expediter: `1` for single level or `2` for two levels. | Integer | 
 | Fired Date | The time of day that the ticket was fired, in twelve-hour format. | Date (MM/DD/YY h:mm AM|PM) | 
 | Fulfilled Date | The time of day that the ticket was fulfilled, in twelve-hour format. | Date (MM/DD/YY h:mm AM|PM) | 
 | Fulfillment Time | The amount of time it took for the ticket to be fulfilled. The duration is calculated by subtracting the Fired Date from the Fulfilled Date. For example: `2 weeks, 1 day, 22 hours, 1 minute and 6 seconds`. | String | 
@@ -261,7 +261,7 @@ The menu data export includes two types of information:
 
 
 
-The file name of the menu data export is `MenuExport_<em>[export file identifier]</em>.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](adminGuide-downloading_data_export_files).
+The file name of the menu data export is `MenuExport_<em>[export file identifier]</em>.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](docs/en-us/adminGuide-downloading_data_export_files).
 
 
 
@@ -284,7 +284,7 @@ The following table shows the information about each menu at your restaurant fro
 | name | A descriptive identifier for the menu. For example, `Food` or `Drinks`. | String | 
 | guid | The unique identifier for the menu, assigned by the Toast POS. | String | 
 | description | A written description of the menu. | String | 
-| groups | A JSON array of [MenuGroup](adminGuide-adminDataExportFieldReference#menuExportMenugroup) objects. | JSON array | 
+| groups | A JSON array of [MenuGroup](docs/en-us/adminGuide-adminDataExportFieldReference#menuExportMenugroup) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | orderableOnline | Indicates whether the menu is available for online ordering. Valid values are `true` and `false`. This field is a Boolean version of the orderableOnlineStatus field. | Boolean | 
 | orderableOnlineStatus | Indicates whether the menu is available for online ordering. Valid values are `YES` and `NO`. This field is a string version of the orderableOnline field. | String | 
@@ -329,7 +329,7 @@ The following table shows the information about each menu group at your restaura
 | guid | The unique identifier for the menu group, assigned by the Toast POS. | String | 
 | description | A written description of the menu group. | String | 
 | subgroups | An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`. | JSON array | 
-| items | An array of [MenuItem](adminGuide-adminDataExportFieldReference#menuExportMenuitem) objects. | JSON array | 
+| items | An array of [MenuItem](docs/en-us/adminGuide-adminDataExportFieldReference#menuExportMenuitem) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
 | orderableOnline | Indicates whether the menu group is available for online ordering. | Boolean | 
@@ -351,11 +351,11 @@ The following table shows the information about each menu item at your restauran
 | description | A written description of the menu item. | String | 
 | sku | The stock keeping unit (SKU) identifier for the item. | String | 
 | plu | The price lookup (PLU) code for the item. | String | 
-| maxSelections | This value only applies to items in a [MenuOptionGroup](adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup)object. | Integer | 
+| maxSelections | This value only applies to items in a [MenuOptionGroup](docs/en-us/adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup)object. | Integer | 
 | price | The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency. | Currency | 
 | prices | An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu. | JSON array | 
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| optionGroups | An array of [MenuOptionGroup](adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup) objects. | JSON array | 
+| optionGroups | An array of [MenuOptionGroup](docs/en-us/adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | itemGroupGuid | The unique identifier of the menu group to which this menu item belongs. | String | 
 | calories | The caloric value for this menu item. The value can be any positive or negative integer, or zero. | Integer | 
@@ -394,13 +394,13 @@ This means:- You can select AT MOST two different cheeses from this group to app
 - `INCLUDED` - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).
 
  | String | 
-| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](adminGuide-adminDataExportFieldReference#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
+| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](docs/en-us/adminGuide-adminDataExportFieldReference#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
 - `BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.
 - `SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.
 - `UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.
 
  | String | 
-| pricingStrategyRules | An [object](adminGuide-adminDataExportFieldReference#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
+| pricingStrategyRules | An [object](docs/en-us/adminGuide-adminDataExportFieldReference#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](docs/en-us/adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
 | defaultOptionsChargePrice | Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:- `NO` - The option price is ignored. No change is made to the cost of the menu item.
 - `YES` - The option price is added to the cost of the menu item.
 
@@ -426,7 +426,7 @@ The following table shows the information about the pricing strategy for the mod
 
 | Field | Description | Data Type | 
 | --- | --- | --- |
-| basePrice | Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
+| basePrice | Used when the [pricingStrategy](docs/en-us/adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
 ```
 "optionGroups": [ 
 {
@@ -442,8 +442,8 @@ The following table shows the information about the pricing strategy for the mod
 ```
 
  | Number | 
-| numberOfLevels | Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](adminGuide-adminDataExportFieldReference#adminDataExportSequencePrices)array. | Number | 
-| sequencePrices | Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels)value. For example:
+| numberOfLevels | Used when the [pricingStrategy](docs/en-us/adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](docs/en-us/adminGuide-adminDataExportFieldReference#adminDataExportSequencePrices)array. | Number | 
+| sequencePrices | Sets the price for each level defined in the [numberOfLevels](docs/en-us/adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels)value. For example:
 ```
 "optionGroups": [ 
 {
@@ -485,7 +485,7 @@ The following table shows the information about the premodifier groups at your r
 | name | A descriptive identifier for a `premodifierGroup` object. | String | 
 | guid | The unique identifier for the premodifier group, assigned by the Toast POS. | String | 
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| premodifiers | An array of [premodifiers](adminGuide-adminDataExportFieldReference#menuExportPremodifier) objects. | JSON array | 
+| premodifiers | An array of [premodifiers](docs/en-us/adminGuide-adminDataExportFieldReference#menuExportPremodifier) objects. | JSON array | 
 
 #### premodifiers
 

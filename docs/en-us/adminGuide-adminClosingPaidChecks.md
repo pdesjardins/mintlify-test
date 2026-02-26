@@ -39,7 +39,7 @@ Closing paid checks involves the following permissions:
 
 
 ****Access mode permissions****
-: [Access "mode" permissions](adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the close check options are located.
+: [Access "mode" permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the close check options are located.
 
 For closing multiple checks, you must have **Table Service Mode**, **Quick Order Mode**, or **Payment Terminal Mode**.
 
@@ -48,14 +48,14 @@ For closing a single check, you must have **Table Service Mode** or **Quick Orde
 
 
 ****Bulk Close Paid Checks****
-: The [Bulk Close Paid Checks](adminGuide-adminPermissions#permissionBulkClosePaidChecks) permission allows you to close multiple checks in a single operation.
+: The [Bulk Close Paid Checks](docs/en-us/adminGuide-adminPermissions#permissionBulkClosePaidChecks) permission allows you to close multiple checks in a single operation.
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Edit Other Employees' Orders****
-: The [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
+: The [Edit Other Employees' Orders](docs/en-us/adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
 
 If you have this permission, then you can close checks that are assigned to a different employee.
 

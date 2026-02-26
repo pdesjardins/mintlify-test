@@ -40,7 +40,7 @@ Required modifier groups are shown first, followed by optional modifier groups t
 
 ![Example of the settings on a modifier group details page that affect modifier group display order.](https://doc.toasttab.com/doc/media/mod-group-ordering-required-and-display-ordering-priority.png)
 
-The [menu builder](adminGuide-adminMenuBuilderOverview) view has an equivalent group of settings to the classic view's Selecting a modifier from this group is setting. These settings appear in the Modifier group settings section of a modifier group details page and their names are Required, Optional, and Include a POS prompt (for more information on these settings, see [Adding modifier groups and modifiers](adminGuide-adminAddingModifierGroupsAndModifiers)in the menu builder documentation).
+The [menu builder](docs/en-us/adminGuide-adminMenuBuilderOverview) view has an equivalent group of settings to the classic view's Selecting a modifier from this group is setting. These settings appear in the Modifier group settings section of a modifier group details page and their names are Required, Optional, and Include a POS prompt (for more information on these settings, see [Adding modifier groups and modifiers](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers)in the menu builder documentation).
 
 ![Example of the settings on a modifier group details page in the menu builder that affect modifier group display order.](https://doc.toasttab.com/doc/media/mod-group-ordering-required-basic-menu-builder.png)
 
@@ -61,5 +61,5 @@ This option controls whether or not the Toast platform uses the Display Ordering
 
 
 
-Continue with the [Understanding modifier group display order](adminGuide-adminUnderstandingModifierGroupDisplay) section to learn how the Toast platform uses these settings and conditions to determine modifier group display order
+Continue with the [Understanding modifier group display order](docs/en-us/adminGuide-adminUnderstandingModifierGroupDisplay) section to learn how the Toast platform uses these settings and conditions to determine modifier group display order
 

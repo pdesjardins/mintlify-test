@@ -21,25 +21,25 @@ Follow the steps below to build a loyalty integration with the Toast platform, w
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ### Submit endpoint to Toast
 
-Your loyalty integration requires a [single endpoint](apiDevGuide-apiLoyaltyIntegrationOverview). Submit your test environment endpoint to Toast support so that they can set up the endpoint in the Toast sandbox environment.
+Your loyalty integration requires a [single endpoint](docs/en-us/apiDevGuide-apiLoyaltyIntegrationOverview). Submit your test environment endpoint to Toast support so that they can set up the endpoint in the Toast sandbox environment.
 
 ### Review initial information
 
-First, review the [loyalty integration overview](apiDevGuide-apiLoyaltyProgramIntegrationOverview) and [POS workflow](apiDevGuide-apiLoyaltyPosWorkflow) to understand the flow of information in a loyalty integration.
+First, review the [loyalty integration overview](docs/en-us/apiDevGuide-apiLoyaltyProgramIntegrationOverview) and [POS workflow](docs/en-us/apiDevGuide-apiLoyaltyPosWorkflow) to understand the flow of information in a loyalty integration.
 
 ### Decide discount types you will support
 
-Familiarize yourself with [reward processing information](apiDevGuide-apiLoyaltyDiscountProcessing).
+Familiarize yourself with [reward processing information](docs/en-us/apiDevGuide-apiLoyaltyDiscountProcessing).
 
 Decide whether you will support check-level discounts, item-level discounts, or both.
 
 ### Perform an initial test
 
-If your integration supports item-level discounts, you must use the [menus API](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)to save menu information so that restaurant administrators can map discounts from your service to menu items in the Toast platform.
+If your integration supports item-level discounts, you must use the [menus API](docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)to save menu information so that restaurant administrators can map discounts from your service to menu items in the Toast platform.
 
 ### Decide loyalty identifier structure
 
@@ -53,13 +53,13 @@ Loyalty identifiers cannot contain personal information such as email addresses 
 
 ### Develop success workflow
 
-Review all [loyalty transaction types](apiDevGuide-apiLoyaltyTransactionDescriptions).
+Review all [loyalty transaction types](docs/en-us/apiDevGuide-apiLoyaltyTransactionDescriptions).
 
 For all transaction types, develop successful responses that contain a 200 HTTP response status code and a `transactionStatus` of `ACCEPT`.
 
 ### Validate that you send timely responses
 
-Ensure that your endpoint adheres to Toast loyalty [latency requirements](apiDevGuide-apiLoyaltyLatencyRequirements). This allows the Toast platform to correctly understand how you processed the transaction in your system.
+Ensure that your endpoint adheres to Toast loyalty [latency requirements](docs/en-us/apiDevGuide-apiLoyaltyLatencyRequirements). This allows the Toast platform to correctly understand how you processed the transaction in your system.
 
 If your endpoint does not adhere to timeout requirements, guests will see an error message on the POS that instructs them to contact your support team.
 
@@ -75,7 +75,7 @@ Ensure that your endpoint is idempotent using the `Toast-Transaction-GUID` heade
 
 If two requests contain the same `Toast-Transaction-GUID`, they are the same request.
 
-See [Network failure and idempotence](apiDevGuide-apiLoyaltyIntegrationNetworkFailureAndIdempotence) for more information about transaction retries and idempotence.
+See [Network failure and idempotence](docs/en-us/apiDevGuide-apiLoyaltyIntegrationNetworkFailureAndIdempotence) for more information about transaction retries and idempotence.
 
 ## Failure responses
 
@@ -89,7 +89,7 @@ If the `Toast-Restaurant-External-ID` header in a loyalty transaction contains a
 
 Your endpoint must validate that loyalty transactions came from the Toast production environment.
 
-If your [loyalty authentication](apiDevGuide-apiLoyaltyIntegrationAuthentication) process determined that a transaction came from somewhere other than the Toast production environment, your endpoint must return a 400 HTTP response status code and a `transactionStatus` of `ERROR_INVALID_TOKEN`.
+If your [loyalty authentication](docs/en-us/apiDevGuide-apiLoyaltyIntegrationAuthentication) process determined that a transaction came from somewhere other than the Toast production environment, your endpoint must return a 400 HTTP response status code and a `transactionStatus` of `ERROR_INVALID_TOKEN`.
 
 ### Handle unknown loyalty accounts
 
@@ -112,7 +112,7 @@ If you receive unexpected information from the Toast platform, your endpoint mus
 
 
 
-See [Error handling](apiDevGuide-apiLoyaltyErrorHandling) for more information.
+See [Error handling](docs/en-us/apiDevGuide-apiLoyaltyErrorHandling) for more information.
 
 ### Handle unexpected errors in your system
 
@@ -124,7 +124,7 @@ If you send a `message` in your response, not return any guest personal informat
 
 ### Run through the test plan
 
-Use the [loyalty integration test plan](apiDevGuide-integrationTestPlans#apiIntegrationChecklistLoyalty) to validate that you correctly handle each test case.
+Use the [loyalty integration test plan](docs/en-us/apiDevGuide-integrationTestPlans#apiIntegrationChecklistLoyalty) to validate that you correctly handle each test case.
 
 ### Review functionality with Toast team
 

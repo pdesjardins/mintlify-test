@@ -19,27 +19,27 @@ codeExamples: 0
 
 > **Note**
 > 
-> You must have standard API access to create and manage webhook subscriptions. For more information, see [Standard API access overview](apiDevGuide-devApiAccessUserGuide).
+> You must have standard API access to create and manage webhook subscriptions. For more information, see [Standard API access overview](docs/en-us/apiDevGuide-devApiAccessUserGuide).
 
 
 Webhook subscription access allows you to create and manage webhook subscriptions in Toast Web. A webhook subscription allows you to receive information about Toast platform events as they happen. You can manage subscriptions for following webhooks:
 
-- [Menus](apiDevGuide-apiMenusWebhook)
+- [Menus](docs/en-us/apiDevGuide-apiMenusWebhook)
 
 
-- [Orders](apiDevGuide-devOrdersWebhookRef)
+- [Orders](docs/en-us/apiDevGuide-devOrdersWebhookRef)
 
 
-- [Packaging preferences configuration](apiDevGuide-apiPackagingPreferencesConfigWebhook)
+- [Packaging preferences configuration](docs/en-us/apiDevGuide-apiPackagingPreferencesConfigWebhook)
 
 
-- [Restaurant availability](apiDevGuide-apiRxAvailabilityWebhook)
+- [Restaurant availability](docs/en-us/apiDevGuide-apiRxAvailabilityWebhook)
 
 
-- [Restaurant online ordering schedule](apiDevGuide-apiRxOnlineOrderingScheduleWebhook)
+- [Restaurant online ordering schedule](docs/en-us/apiDevGuide-apiRxOnlineOrderingScheduleWebhook)
 
 
-- [Stock](apiDevGuide-apiStockWebhook)
+- [Stock](docs/en-us/apiDevGuide-apiStockWebhook)
 
 
 
@@ -49,10 +49,10 @@ Webhook subscription access allows you to create and manage webhook subscription
 
 > **Note**
 > 
-> You must have the 8.4 Manage Integrationspermission to create and manage webhook subscriptions. For more information, see [Access permissions reference](adminGuide-adminPermissions).
+> You must have the 8.4 Manage Integrationspermission to create and manage webhook subscriptions. For more information, see [Access permissions reference](docs/en-us/adminGuide-adminPermissions).
 
 
-As a standard API access user, the type of access you have to create and manage your webhook subscriptions depends if you created the credentials and if you have 8.4 Manage Integrationspermission enabled at all the locations associated with the credential. For more information, see [Standard API access credentials](apiDevGuide-devApiAccessCredentials). Webhook events are only generated for Toast locations linked to your standard API access credentials.
+As a standard API access user, the type of access you have to create and manage your webhook subscriptions depends if you created the credentials and if you have 8.4 Manage Integrationspermission enabled at all the locations associated with the credential. For more information, see [Standard API access credentials](docs/en-us/apiDevGuide-devApiAccessCredentials). Webhook events are only generated for Toast locations linked to your standard API access credentials.
 
 There are three levels of webhook subscription access:
 
@@ -77,7 +77,7 @@ There are three levels of webhook subscription access:
 
 **Procedure 1.19. To create a webhook subscription**
 
-1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Integrations &gt; Toast API access &gt; Manage credentials to open the Manage webhooks page.
@@ -98,10 +98,10 @@ There are three levels of webhook subscription access:
 
 
 
-- Select the webhook event category. You can only select one webhook event category per subscription. For more information, see [Webhooks reference](apiDevGuide-apiWebhooksReference).
+- Select the webhook event category. You can only select one webhook event category per subscription. For more information, see [Webhooks reference](docs/en-us/apiDevGuide-apiWebhooksReference).
 
 
-- Enter the webhook URL. This is the URL of the webhook consumer service that will receive the webhook events from the Toast platform. For more information, see [Webhook basics](apiDevGuide-apiWebhookBasics).
+- Enter the webhook URL. This is the URL of the webhook consumer service that will receive the webhook events from the Toast platform. For more information, see [Webhook basics](docs/en-us/apiDevGuide-apiWebhookBasics).
 
 
 - Enter a name for the webhook subscription.
@@ -175,7 +175,7 @@ To view webhook information, select the view icon on the Manage webhooks page. T
 - View the webhook URL
 
 
-- View and copy the [secret key](apiDevGuide-apiMessageSigning)
+- View and copy the [secret key](docs/en-us/apiDevGuide-apiMessageSigning)
 
 
 - View the webhook event category

@@ -17,11 +17,11 @@ codeExamples: 0
 
 Follow the steps below to build an employee management integration with the Toast platform.
 
-This integration allows employee information to flow seamlessly between your system and the Toast platform. If you want to build additional labor reporting functionality, see [Building labor reports](devCookbook-apiIntegrationChecklistPayroll).
+This integration allows employee information to flow seamlessly between your system and the Toast platform. If you want to build additional labor reporting functionality, see [Building labor reports](docs/en-us/devCookbook-apiIntegrationChecklistPayroll).
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
 
 - `labor.employees:read`
 
@@ -37,7 +37,7 @@ To follow these instructions, you must have the following [scopes](apiDevGuide-a
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ## Functionality planning
 
@@ -61,7 +61,7 @@ You should not use the `externalEmployeeId` field for sensitive information such
 
 If a restaurant begins to use your integration after they are already live on the Toast platform, you need to map the existing employees and jobs in the Toast platform to employees and jobs in your system.
 
-Consider loading [initial employee information](apiDevGuide-api_get_all_employees)when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field to map employees in the Toast platform to employees in your system.
+Consider loading [initial employee information](docs/en-us/apiDevGuide-api_get_all_employees)when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field to map employees in the Toast platform to employees in your system.
 
 Use the `/jobs` endpoint of the labor API to load initial job information. See [the labor API information](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification.
 
@@ -75,7 +75,7 @@ Before you build new functionality, consider the audit trail information you wil
 
 ### Build and test employee creation and updates
 
-Build functionality in which restaurant administrators can create an employee in your system and your integration submits this employee's information to Toast. See [Adding an employee](apiDevGuide-apiAddingAnEmployee) for more information. When applicable, assign jobs, wage overrides, and an `externalEmployeeId`.
+Build functionality in which restaurant administrators can create an employee in your system and your integration submits this employee's information to Toast. See [Adding an employee](docs/en-us/apiDevGuide-apiAddingAnEmployee) for more information. When applicable, assign jobs, wage overrides, and an `externalEmployeeId`.
 
 If the employee will log into a point-of-sale device, include a `passcode` on the `Employee` object. If you do not include a `passcode`, the employee can log into Toast Web, but cannot log into a Toast POS device unless an administrator updates their permissions in the Toast platform.
 

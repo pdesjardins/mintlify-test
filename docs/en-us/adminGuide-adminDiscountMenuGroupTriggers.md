@@ -29,7 +29,7 @@ Using menu groups as discount required items is convenient. However, the menu it
 
 If the menu items in a menu group are similar and similarly priced you can use that menu group as a discount required item without increasing the complexity of the discount configuration. If the menu group items use size pricing, have different base prices, or have other significant differences, you can configure an equivalent discount required item by explicitly including the menu items in that group using more complicated discount required item combinations.
 
-For more information about discount required item combinations, see [Configuring groups of required items](adminGuide-adminDiscountsCombiningTriggers).
+For more information about discount required item combinations, see [Configuring groups of required items](docs/en-us/adminGuide-adminDiscountsCombiningTriggers).
 
-For more information about configuring discounts for menu groups that have size pricing or different prices, see [Combination pricing and menu groups](adminGuide-adminCombinationPricingAndMenuGroups) and [Handling menu groups with varying prices](adminGuide-adminDiscountsMenuGroupsVaryingPrices).
+For more information about configuring discounts for menu groups that have size pricing or different prices, see [Combination pricing and menu groups](docs/en-us/adminGuide-adminCombinationPricingAndMenuGroups) and [Handling menu groups with varying prices](docs/en-us/adminGuide-adminDiscountsMenuGroupsVaryingPrices).
 

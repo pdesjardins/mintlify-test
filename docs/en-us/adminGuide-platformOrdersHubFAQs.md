@@ -44,7 +44,7 @@ codeExamples: 0
 | **A:** | Yes, Order Ready messages are sent once your Orders Hub device has come back online and is syncing orders. The Autofire device (can be the same as the Orders Hub device) must also be online and firing orders to the kitchen. | 
 
 | **Q:** | What permission do I need to have to use the Manage Online Orders button on the Orders Hub screen? | 
-| **A:** | To use the Manage Online Orders button on the Orders Hub screen, you must have the 3.29 Throttle Online Orders permission. If you do not have the 3.29 Throttle Online Orders permission, you will encounter an error message when trying to access the Manage Online Orders button on the Orders Hub screen. The error message displays: `Manager Passcode or Swipe Card Required`. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions). | 
+| **A:** | To use the Manage Online Orders button on the Orders Hub screen, you must have the 3.29 Throttle Online Orders permission. If you do not have the 3.29 Throttle Online Orders permission, you will encounter an error message when trying to access the Manage Online Orders button on the Orders Hub screen. The error message displays: `Manager Passcode or Swipe Card Required`. For more information about permissions, see [POS access permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions). | 
 
 | **Q:** | When do orders clear out of Orders Hub? | 
 | **A:** | Orders clear out of Orders Hub at 4:00 AM local device time. | 

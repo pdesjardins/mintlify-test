@@ -21,7 +21,7 @@ You are now ready to provide customers with detailed information related to labo
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
 
 - `config:read`
 
@@ -43,7 +43,7 @@ To follow these instructions, you must have the following [scopes](apiDevGuide-a
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
 
 ### Decide what information your reports will provide
 
@@ -79,9 +79,9 @@ The steps below describe how to extract the following labor data:
 
 If a restaurant begins to use your integration after they are already live on the Toast platform, you must map the existing employees and jobs in the Toast platform to employees and jobs in your service.
 
-Consider doing an [initial employee load](apiDevGuide-api_get_all_employees) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field to map employees in the Toast platform to employees in your service.
+Consider doing an [initial employee load](docs/en-us/apiDevGuide-api_get_all_employees) when a restaurant first connects to your platform. You can match employees based on identifying information such as names and email addresses. If you will use the `externalEmployeeId` field, you can also use this field to map employees in the Toast platform to employees in your service.
 
-Use the `/jobs` endpoint of the labor API to load initial job information. See [the labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification. If your integration allows restaurants to create employees in your platform and submit this information to the Toast platform, see [Building an employee management integration](devCookbook-apiIntegrationChecklistEmployee).
+Use the `/jobs` endpoint of the labor API to load initial job information. See [the labor API](https://doc.toasttab.com/openapi/labor/overview/) for the jobs endpoint specification. If your integration allows restaurants to create employees in your platform and submit this information to the Toast platform, see [Building an employee management integration](docs/en-us/devCookbook-apiIntegrationChecklistEmployee).
 
 ### Set up recurring retrieval of employees, jobs, and configuration information
 
@@ -103,23 +103,23 @@ To report on labor information, you need to retrieve transactional information f
 
 Use the following endpoints to retrieve transactional information:
 
-- If you report on hours worked or breaks taken, retrieve yesterday's time entries using the `modifiedStartDate`and `modifiedEndDate` parameters of the `/timeEntries` endpoint of the labor API. See [Getting time entries for employees](apiDevGuide-apiGettingTimeEntriesForEmployees) for more information.
+- If you report on hours worked or breaks taken, retrieve yesterday's time entries using the `modifiedStartDate`and `modifiedEndDate` parameters of the `/timeEntries` endpoint of the labor API. See [Getting time entries for employees](docs/en-us/apiDevGuide-apiGettingTimeEntriesForEmployees) for more information.
 
 
-- If you report on shift clock-in timeliness, retrieve yesterday's shifts using the `startDate` and `endDate` parameters of the `/shifts` endpoint of the labor API. See [Getting shift assignments for employees](apiDevGuide-apiGettingShiftAssignmentsForEmployees) for more information.
+- If you report on shift clock-in timeliness, retrieve yesterday's shifts using the `startDate` and `endDate` parameters of the `/shifts` endpoint of the labor API. See [Getting shift assignments for employees](docs/en-us/apiDevGuide-apiGettingShiftAssignmentsForEmployees) for more information.
 
 
-- If you report on sales or tips per employee, retrieve yesterday's orders using the `startDate` and `endDate` parameters of the `/ordersBulk`endpoint of the orders API. See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
+- If you report on sales or tips per employee, retrieve yesterday's orders using the `startDate` and `endDate` parameters of the `/ordersBulk`endpoint of the orders API. See [Getting detailed information about multiple orders](docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information.
 
 
 
 ### Determine closeout hour
 
-The `closeoutHour` value in the `General`object returned by the [restaurants API](apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
+The `closeoutHour` value in the `General`object returned by the [restaurants API](docs/en-us/apiDevGuide-apiRestaurantInformation) contains the restaurant's closeout hour.
 
 The default closeout hour is 4:00 a.m. local time unless a Toast employee changes this setting. The `businessDate` value on time entries changes after the `closeoutHour`.
 
-Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
+Consider [daylight savings time](docs/en-us/apiDevGuide-api_dates_and_timestamps#apiDaylightSavingsTime) when interacting with the closeout hour.
 
 ## Building report functionality
 

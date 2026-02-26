@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> To use the `/orders` endpoint to add payments, you need access to the `orders.payments:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiDevGuide-apiScopes).
+> To use the `/orders` endpoint to add payments, you need access to the `orders.payments:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](docs/en-us/apiDevGuide-apiScopes).
 
 
 You can use the orders API to add authorized credit card payments to a check in an existing order.
@@ -32,17 +32,17 @@ For more information, see [Post payments](https://doc.toasttab.com/openapi/order
 
 **Procedure 2.6. To add payments to a check in an existing order**
 
-1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](apiDevGuide-apiOrdersFindingAnOrderGuid).
+1. Find the Toast platform GUIDs of the order and the check that you are adding items to. For more information on locating these GUIDs, see [Finding an order or check guid](docs/en-us/apiDevGuide-apiOrdersFindingAnOrderGuid).
 
 
-2. Authorize the credit card payments that you are adding. For more information, see [Credit card payments](apiDevGuide-authorizingCcPayments).
+2. Authorize the credit card payments that you are adding. For more information, see [Credit card payments](docs/en-us/apiDevGuide-authorizingCcPayments).
 
 When you add payments to the check, you include the UUIDs of the authorized credit card payments.
 
 
 3. Create an array of JSON `Payment` objects that contain information about the payments you are adding. For each payment, you use the UUID as the value of `guid`.
 
-For information about the `Payment` object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/). For an example, see [Example array of Payment objects to add payments to an existing check](apiDevGuide-apiAddingPaymentsToACheck#apiExamplePaymentObjectForAddingAPayment).
+For information about the `Payment` object, see the [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/). For an example, see [Example array of Payment objects to add payments to an existing check](docs/en-us/apiDevGuide-apiAddingPaymentsToACheck#apiExamplePaymentObjectForAddingAPayment).
 
 
 4. Send a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments`endpoint of the orders API.

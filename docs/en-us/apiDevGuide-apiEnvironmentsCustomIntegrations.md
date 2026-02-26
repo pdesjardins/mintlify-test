@@ -18,16 +18,16 @@ codeExamples: 0
 
 Toast maintains and provides continuous access to multiple, independent service environments for use by API integration clients during development, testing, and production. These environments are:
 
-- **Sandbox -** used for integration testing. For more information, see [Sandbox environment](apiDevGuide-apiEnvironments#apiSandboxEnvironment).
+- **Sandbox -** used for integration testing. For more information, see [Sandbox environment](docs/en-us/apiDevGuide-apiEnvironments#apiSandboxEnvironment).
 
 
-- **Production -** used for live transactions at active restaurants. For more information, see [Production environment](apiDevGuide-apiEnvironments#apiProductionEnvironment).
+- **Production -** used for live transactions at active restaurants. For more information, see [Production environment](docs/en-us/apiDevGuide-apiEnvironments#apiProductionEnvironment).
 
 
 
 The Toast integrations team periodically announces maintenance periods for which a service may be read only or unavailable.
 
-You must register a separate API client account for each environment. See [Toast API accounts](apiDevGuide-apiClientAccounts).
+You must register a separate API client account for each environment. See [Toast API accounts](docs/en-us/apiDevGuide-apiClientAccounts).
 
 ## Sandbox environment
 
@@ -52,12 +52,12 @@ Use the link below to download the Toast POS app installer. Use the installer ve
 
 > **Note**
 > 
-> Sandbox environment access is limited to partner and custom integrations. Standard API access and analytics API access are only available in the production environment. For more information, see [Integration types](apiDevGuide-apiIntegrationTypes).
+> Sandbox environment access is limited to partner and custom integrations. Standard API access and analytics API access are only available in the production environment. For more information, see [Integration types](docs/en-us/apiDevGuide-apiIntegrationTypes).
 
 
 ## Production environment
 
-The production environment is the live Toast platform environment. You can use the production environment after your integration testing is complete. Production environment API access is [rate limited](apiDevGuide-apiRateLimiting).
+The production environment is the live Toast platform environment. You can use the production environment after your integration testing is complete. Production environment API access is [rate limited](docs/en-us/apiDevGuide-apiRateLimiting).
 
 To send REST requests to production API services, you need the hostname of the production environment. You receive the hostname for the production environment when your integration is approved to go live.
 
