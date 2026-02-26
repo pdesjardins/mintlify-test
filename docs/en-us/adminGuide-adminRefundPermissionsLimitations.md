@@ -76,7 +76,7 @@ For each permission:
 
 You can issue refunds on checks that have credit card, cash, or Toast gift card payments on them.
 
-You cannot refund payments that were made using other payment types, house accounts, or third-party gift cards. For information on how to remove these payments, see [Removing other payments, house accounts, and third-party gift cards](docs/en-us/adminGuide-adminIssuingARefund#adminRemovingOtherPaymentsHouseAccountsAndThirdPartyGiftCards).
+You cannot refund payments that were made using other payment types, house accounts, or third-party gift cards. For information on how to remove these payments, see [Removing other payments, house accounts, and third-party gift cards](adminGuide-adminIssuingARefund#adminRemovingOtherPaymentsHouseAccountsAndThirdPartyGiftCards).
 
 ## Cash refunds
 

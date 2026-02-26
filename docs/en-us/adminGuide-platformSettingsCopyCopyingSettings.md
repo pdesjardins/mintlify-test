@@ -19,7 +19,7 @@ The settings you can copy using the settings copy feature are organized by the p
 
 Each page category includes a redirect icon to the right of the page name that redirects to the settings page in Toast Web. Under each page category is a list of settings that can be copied using the settings copy feature. Page categories, sections, and settings have tags to provide additional information. The tags include the following:
 
-- MLM: This tag indicates that a setting or settings are dependent on another setting that uses [versions](docs/en-us/adminGuide-versions). The setting tagged with MLM must be targeted towards (Copied to) a location that the dependent setting targets. If the setting is copied to a location not targeted by the dependent setting, no changes will occur.
+- MLM: This tag indicates that a setting or settings are dependent on another setting that uses [versions](adminGuide-versions). The setting tagged with MLM must be targeted towards (Copied to) a location that the dependent setting targets. If the setting is copied to a location not targeted by the dependent setting, no changes will occur.
 
 For example, the Kiosk void reason setting relies on the Void Reasons setting for its values. The Void Reasons setting uses versions, while Kiosk void reason setting uses the settings copy feature. The Kiosk void reason setting must be targeted towards (Copied to) a location within the location group hierarchy that the Void Reasons setting targets. The Void Reasons setting option “Server error” is targeted towards the Northeast location group. Therefore, the Kiosk void reason setting, when set to “Server error”, must also be targeted to the Northeast location group or a location in the Northeast location group.
 
@@ -36,16 +36,16 @@ Tags include the number of settings with that tag on that page or in that sectio
 
 > **Note**
 > 
-> Before you copy the settings, make sure copying does not disrupt any of the target locations. Copying settings using the settings copy feature requires publishing at each target location in order to take effect. For more information, see [How to publish changes](docs/en-us/adminGuide-platformHowToPublish).
+> Before you copy the settings, make sure copying does not disrupt any of the target locations. Copying settings using the settings copy feature requires publishing at each target location in order to take effect. For more information, see [How to publish changes](adminGuide-platformHowToPublish).
 
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 
 > **Note**
 > 
->  The [session restaurant](docs/en-us/adminGuide-sessionRestaurant) should be the location with the settings you want to apply to other locations.
+>  The [session restaurant](adminGuide-sessionRestaurant) should be the location with the settings you want to apply to other locations.
 
 
 
@@ -110,7 +110,7 @@ Tags include the number of settings with that tag on that page or in that sectio
 ![The Actitvity table showing past copies on the Settings copy page.](https://doc.toasttab.com/doc/media/mlx-settings-copy-activity-table.png)
 
 
-11. On the Toast account &gt; Publishing &gt; Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](docs/en-us/adminGuide-platformHowToPublish#platformPublishingPublishConfigPage).
+11. On the Toast account &gt; Publishing &gt; Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](adminGuide-platformHowToPublish#platformPublishingPublishConfigPage).
 
 
 

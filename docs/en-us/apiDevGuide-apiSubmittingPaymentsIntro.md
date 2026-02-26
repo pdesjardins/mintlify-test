@@ -16,7 +16,7 @@ codeExamples: 0
 
 To indicate that a guest paid for an order on your ordering application, the orders that you submit must contain payment information.
 
-If you use the Toast platform as your credit card payment processor, you [submit payments through Toast's credit card API](docs/en-us/apiDevGuide-authorizingCcPayments).
+If you use the Toast platform as your credit card payment processor, you [submit payments through Toast's credit card API](apiDevGuide-authorizingCcPayments).
 
-If you use a credit card payment processor outside of the Toast platform, or you submit payments that are not credit card payments, you [submit payments using alternative payment types](docs/en-us/apiDevGuide-apiCreatingAnOrderWithPaymentInformation). For example, you use an alternative payment type to submit cash payments.
+If you use a credit card payment processor outside of the Toast platform, or you submit payments that are not credit card payments, you [submit payments using alternative payment types](apiDevGuide-apiCreatingAnOrderWithPaymentInformation). For example, you use an alternative payment type to submit cash payments.
 

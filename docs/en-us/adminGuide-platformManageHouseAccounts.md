@@ -56,7 +56,7 @@ You can create an invoice(s) for house account(s) in Toast Web.
 
 **Procedure 6.103. To create a house account invoice**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Payments &gt; Payment methods &gt; House accounts to open the Accountspage.
@@ -172,7 +172,7 @@ You can create an invoice(s) for house account(s) in Toast Web.
 
 
 
-- Add a service charge to the invoice. To add a service charge, select the + Add service chargelink to open the Add a service chargedialog. In the Add a service chargedialog, select the service charge and then the Add service charges button to add the charge to the invoice. For more information, see [Configuring service charges](docs/en-us/adminGuide-adminServiceChargeCreate).
+- Add a service charge to the invoice. To add a service charge, select the + Add service chargelink to open the Add a service chargedialog. In the Add a service chargedialog, select the service charge and then the Add service charges button to add the charge to the invoice. For more information, see [Configuring service charges](adminGuide-adminServiceChargeCreate).
 
 ![Shows the Add a service charge dialog in Toast Web.](https://doc.toasttab.com/doc/media/platform-house-accounts-add-service-charge.png)
 
@@ -269,7 +269,7 @@ The newly created invoice is sent as an email, text message, or both to your gue
 
 You can send a previously saved draft invoice from the House account profile page. You can edit draft invoices before you send them.
 
-In the Invoices section, choose the invoice with a DRAFT status and select the invoice link to open the Invoice page. Complete the workflow from the [Creating a house account invoice](docs/en-us/adminGuide-platformManageHouseAccounts#platformCreateHouseAccountInvoice) section.
+In the Invoices section, choose the invoice with a DRAFT status and select the invoice link to open the Invoice page. Complete the workflow from the [Creating a house account invoice](adminGuide-platformManageHouseAccounts#platformCreateHouseAccountInvoice) section.
 
 ### Deleting a draft invoice
 
@@ -281,7 +281,7 @@ You can choose to create multiple invoices and bulk send them to guests to colle
 
 **Procedure 6.104. To create bulk invoices**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Payments &gt; Payment methods &gt; House accounts to open the House accounts page.

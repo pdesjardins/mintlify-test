@@ -48,7 +48,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 1. Turn on the smart tax feature in Toast Web:
 
-- [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+- [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 - Choose Front of house &gt; Order screen setup &gt; UI options to open the UI Optionspage.

@@ -16,7 +16,7 @@ procedures: 1
 codeExamples: 3
 ---
 
-The expected cash deposit for a restaurant is the currency amount of cash that should be available to be removed from a restaurant and deposited in a bank or other financial institution for a business day. You can calculate the expected deposit for a business day using information about cash transactions that you get from the orders API and information about cash collected and cash payments that you get from the cash management API. For more information about the orders API, see [Orders API overview](docs/en-us/apiDevGuide-portalOrdersApiOverview).
+The expected cash deposit for a restaurant is the currency amount of cash that should be available to be removed from a restaurant and deposited in a bank or other financial institution for a business day. You can calculate the expected deposit for a business day using information about cash transactions that you get from the orders API and information about cash collected and cash payments that you get from the cash management API. For more information about the orders API, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 The following lists describe the components of the expected cash deposit for a Toast POS restaurant.
 
@@ -105,7 +105,7 @@ The following procedure explains how to calculate the expected deposit for one r
 
 
 
-6. Calculate the sum of the total cash payments (see [Step 3](docs/en-us/apiDevGuide-apiCalculatingExpectedCashDeposits#apiProcCalculateTotalCashPayments)) and the total non-payment cash entries (see [Step 5](docs/en-us/apiDevGuide-apiCalculatingExpectedCashDeposits#apiProcCalculateTotalCashEntries)). The result is the expected cash deposit for the business day.
+6. Calculate the sum of the total cash payments (see [Step 3](apiDevGuide-apiCalculatingExpectedCashDeposits#apiProcCalculateTotalCashPayments)) and the total non-payment cash entries (see [Step 5](apiDevGuide-apiCalculatingExpectedCashDeposits#apiProcCalculateTotalCashEntries)). The result is the expected cash deposit for the business day.
 
 
 

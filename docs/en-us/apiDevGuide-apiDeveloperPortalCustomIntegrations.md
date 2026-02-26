@@ -29,7 +29,7 @@ To use the developer portal, you need:
 
 > **Note**
 > 
-> Your developer portal account is created by the Toast Developer Relations team during onboarding, once you are approved as a Toast integration partner. For more information, see [Integration partnership process](docs/en-us/apiDevGuide-integrationDevProcess).
+> Your developer portal account is created by the Toast Developer Relations team during onboarding, once you are approved as a Toast integration partner. For more information, see [Integration partnership process](apiDevGuide-integrationDevProcess).
 > For developer portal account assistance, visit the [Toast Integrations Community Forum](https://developers.toasttab.com/hc/en-us/community/topics) and open a support request with the Toast Developer Relations team. 
 
 
@@ -111,10 +111,10 @@ On the developer portal home page, you can:
 
 > **Note**
 > 
-> To get access to the environment selector, open a support request with the Toast Developer Relations team. For more information, see [Getting help with your integration](docs/en-us/apiDevGuide-apiDeveloperPortal#apiDeveloperPortalMarketplaceListingHelpLinks).
+> To get access to the environment selector, open a support request with the Toast Developer Relations team. For more information, see [Getting help with your integration](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalMarketplaceListingHelpLinks).
 
 
-The environment selector allows you to manage environment-specific data. You can switch between sandbox and production [environments](docs/en-us/apiDevGuide-apiEnvironments) using the environment selector dropdown menu. You can manage and view environment-specific data on the following pages:
+The environment selector allows you to manage environment-specific data. You can switch between sandbox and production [environments](apiDevGuide-apiEnvironments) using the environment selector dropdown menu. You can manage and view environment-specific data on the following pages:
 
 - Credentials
 
@@ -139,7 +139,7 @@ The API status button on the top navigation bar opens the [Toast APIs status](ht
 
 #### Documentation
 
-The Documentation button on the top navigation bar opens the [Technical Documentation site](docs/en-us/apiDevGuide-index). The site has links to various documentation resources useful for integration developers.
+The Documentation button on the top navigation bar opens the [Technical Documentation site](apiDevGuide-index). The site has links to various documentation resources useful for integration developers.
 
 #### Community
 
@@ -147,7 +147,7 @@ The Community button on the top navigation bar opens the [Toast Integrations Com
 
 ### Credentials
 
-The Credentials page contains your API credentials. Your API credentials grant you access to Toast resources and allow you to securely send API requests. For more information about credentials, see [Authentication and restaurant access](docs/en-us/apiDevGuide-authentication).
+The Credentials page contains your API credentials. Your API credentials grant you access to Toast resources and allow you to securely send API requests. For more information about credentials, see [Authentication and restaurant access](apiDevGuide-authentication).
 
 The Credentials page contains your Client name, Client ID, and Client secret.
 
@@ -166,13 +166,13 @@ To copy your Client name or Client ID, select the Copy button to copy the inform
 
 #### Scopes
 
-The Scopes page contains the API scopes associated with your developer portal account. Access to Toast APIs, specific endpoints, and specific API endpoint operations is controlled by the scopes that are associated with your client credentials. For more information, select the [Scope Descriptions](docs/en-us/apiDevGuide-apiScopes) link.
+The Scopes page contains the API scopes associated with your developer portal account. Access to Toast APIs, specific endpoints, and specific API endpoint operations is controlled by the scopes that are associated with your client credentials. For more information, select the [Scope Descriptions](apiDevGuide-apiScopes) link.
 
 ![Toast developer portal Scopes page.](https://doc.toasttab.com/doc/media/developer-portal-scopes-page.png)
 
 #### API access endpoint
 
-The API access endpoint page displays the endpoint you can use to access Toast's production environment. For more information, see [Environments](docs/en-us/apiDevGuide-apiEnvironments).
+The API access endpoint page displays the endpoint you can use to access Toast's production environment. For more information, see [Environments](apiDevGuide-apiEnvironments).
 
 ![Toast developer portal API access point page.](https://doc.toasttab.com/doc/media/developer-portal-access-point-page.png)
 
@@ -192,7 +192,7 @@ You can also export a report of your connected restaurants by selecting the Expo
 
 The Toast Partner Integrations marketplace listing page is where you can manage the details of your Toast Partner Integrations listing. Your marketplace listing provides information about your integration, such as a description, logo, and support details. Toast Partner Integrations is Toast's integration management portal. For more information about Toast Partner Integrations, see [Set Up Toast Partner Integrations](https://central.toasttab.com/s/article/Toast-Partner-Connect-Setting-Up-Integrations-with-Toast).
 
-You can edit your integration’s sandbox or production marketplace listing using the [environment selector](docs/en-us/apiDevGuide-apiDeveloperPortal#apiDeveloperPortalEnvironmentSelector). Select the environment to edit that environment’s integration marketplace listing details and appearance.
+You can edit your integration’s sandbox or production marketplace listing using the [environment selector](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalEnvironmentSelector). Select the environment to edit that environment’s integration marketplace listing details and appearance.
 
 ![Toast developer portal Partner Integrations marketplace page.](https://doc.toasttab.com/doc/media/developer-portal-marketplace-listing.png)
 
@@ -275,10 +275,10 @@ On the Toast Partner Integrations marketplace listing page, you can edit and vie
 
 You can use the links to the right of the About your app section to learn more about integrations or to open a support request. Select the links to:
 
-- Learn more about what happens when a [restaurant adds your integration](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants) in Toast Partner Integrations.
+- Learn more about what happens when a [restaurant adds your integration](apiDevGuide-apiPartnersGettingAccessibleRestaurants) in Toast Partner Integrations.
 
 
-- Learn more about the [Partners webhook](docs/en-us/apiDevGuide-apiPartnersWebhook) and how to use it to be notified when a restaurant adds your integration.
+- Learn more about the [Partners webhook](apiDevGuide-apiPartnersWebhook) and how to use it to be notified when a restaurant adds your integration.
 
 
 - Visit the [Toast Integrations Community Forum](https://developers.toasttab.com/hc/en-us/community/topics) and open a support request with the Toast Developer Relations team.
@@ -333,7 +333,7 @@ Select the Update button to save your changes or select the Cancel button to clo
 
 ### Webhooks
 
-The Webhooks page displays all your webhook subscriptions and their statuses, webhook subscription GUIDs, webhook event categories, and additional information. For more information about webhooks, see [Webhooks reference](docs/en-us/apiDevGuide-apiWebhooksReference).
+The Webhooks page displays all your webhook subscriptions and their statuses, webhook subscription GUIDs, webhook event categories, and additional information. For more information about webhooks, see [Webhooks reference](apiDevGuide-apiWebhooksReference).
 
 ![Toast developer portal Webhooks page.](https://doc.toasttab.com/doc/media/developer-portal-webhooks-page.png)
 
@@ -350,7 +350,7 @@ Use the procedure below to add a new webhook subscription.
 
 2. On the Add webhook page, complete the following fields:
 
-- Event category: Select your event category from the drop-down menu. For more information, see [Webhooks reference](docs/en-us/apiDevGuide-apiWebhooksReference).
+- Event category: Select your event category from the drop-down menu. For more information, see [Webhooks reference](apiDevGuide-apiWebhooksReference).
 
 
 - Webhook URL: Enter the URL of the webhook consumer service that receives the webhook events.
@@ -389,7 +389,7 @@ On the Webhooks page, you can view details about your webhook subscription. To v
 - Event category
 
 
-- Secret key. For more information, see [Message signing](docs/en-us/apiDevGuide-apiMessageSigning).
+- Secret key. For more information, see [Message signing](apiDevGuide-apiMessageSigning).
 
 
 
@@ -428,7 +428,7 @@ To view additional details about a webhook event, select the webhook GUID link. 
 - Route key.
 
 
-- Signature. For more information, see [Message signing](docs/en-us/apiDevGuide-apiMessageSigning).
+- Signature. For more information, see [Message signing](apiDevGuide-apiMessageSigning).
 
 
 - Webhook request body.
@@ -480,7 +480,7 @@ Use the procedure below to filter events associated with your webhook subscripti
 - Date and time the webhook event was initially sent to the webhook URL.
 
 
-- Number of webhook attempts. For more information about retry attempts, see [Retry support](docs/en-us/apiDevGuide-apiRetrySupport).
+- Number of webhook attempts. For more information about retry attempts, see [Retry support](apiDevGuide-apiRetrySupport).
 
 
 - Webhook response code.
@@ -550,7 +550,7 @@ Use the procedure below to edit details about your webook subscription or delete
 > The Activity Log page does not track user actions taken in Toast Web.
 
 
-The Activity Log page displays a list of the instances when the client secret was rotated. You can rotate the client secret on the [Credentials](docs/en-us/apiDevGuide-apiDeveloperPortal#apiDeveloperPortalCredentials) page.
+The Activity Log page displays a list of the instances when the client secret was rotated. You can rotate the client secret on the [Credentials](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalCredentials) page.
 
 ![Toast developer portal Activity log page.](https://doc.toasttab.com/doc/media/developer-portal-activity-log-page.png)
 
@@ -562,5 +562,5 @@ You can find help and provide feedback on the Toast developer portal by selectin
 
 ### User guide
 
-You can view the Developer guide by selecting the User guide tab on the left navigation pane. The tab opens to the [Toast developer portal overview](docs/en-us/apiDevGuide-apiDeveloperPortal).
+You can view the Developer guide by selecting the User guide tab on the left navigation pane. The tab opens to the [Toast developer portal overview](apiDevGuide-apiDeveloperPortal).
 

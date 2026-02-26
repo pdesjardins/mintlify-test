@@ -28,28 +28,28 @@ The menus API has also restructured and combined some menu data to make it easie
 
 The following sections provide mappings that show the menu-related configuration options in Toast Web and the JSON values that represent those options in the Toast POS APIs and the menu data export.
 
-- [Restaurant mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiRestaurantMappings_V2)
+- [Restaurant mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiRestaurantMappings_V2)
 
 
-- [Menu mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiMenuMappings_V2)
+- [Menu mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiMenuMappings_V2)
 
 
-- [Menu group mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiMenuGroupMappings_V2)
+- [Menu group mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiMenuGroupMappings_V2)
 
 
-- [Menu item mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiMenuItemMappings_V2)
+- [Menu item mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiMenuItemMappings_V2)
 
 
-- [Modifier group mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiModifierGroupMappings_V2)
+- [Modifier group mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiModifierGroupMappings_V2)
 
 
-- [Modifier option mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiModifierOptionMappings_V2)
+- [Modifier option mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiModifierOptionMappings_V2)
 
 
-- [Premodifier group mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiPremodifierGroupMappings_V2)
+- [Premodifier group mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiPremodifierGroupMappings_V2)
 
 
-- [Premodifier mappings](docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiPremodifierMappings_V2)
+- [Premodifier mappings](apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2#apiPremodifierMappings_V2)
 
 
 

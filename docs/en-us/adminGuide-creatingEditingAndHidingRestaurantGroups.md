@@ -21,12 +21,12 @@ Follow the instructions below to create a restaurant group. Note that to create 
 
 > **Note**
 > 
-> For a description of what a restaurant group is, see [Restaurant groups and sub-groups](docs/en-us/adminGuide-restaurantGroupsAndSubgroups).
+> For a description of what a restaurant group is, see [Restaurant groups and sub-groups](adminGuide-restaurantGroupsAndSubgroups).
 
 
 **Procedure 5.2. To create a restaurant group**
 
-1. [Log in to Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Toast account &gt; Groups &gt; Restaurant groups to open the Restaurant groupspage. A table lists each existing restaurant group in your enterprise. The Members column displays the locations and sub-groups contained in each restaurant group. Sub-group names are marked with &lt; &gt; characters to distinguish them from locations. Click a sub-group's name to open the details page for that sub-group.
@@ -49,7 +49,7 @@ Follow the instructions below to create a restaurant group. Note that to create 
 
 **Procedure 5.3. To edit a restaurant group**
 
-1. [Log in to Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Toast account &gt; Groups &gt; Restaurant groups to open the Restaurant groupspage.
@@ -58,7 +58,7 @@ Follow the instructions below to create a restaurant group. Note that to create 
 3. Click the name of the group you want to edit, make any changes needed and click Save.
 
 
-4. If your edits to the restaurant group include adding or removing a location, you must also publish the changes using the Publish config page. For information about accessing and using the Publish config page, see [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations).
+4. If your edits to the restaurant group include adding or removing a location, you must also publish the changes using the Publish config page. For information about accessing and using the Publish config page, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
 
 
 

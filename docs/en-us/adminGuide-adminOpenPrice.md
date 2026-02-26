@@ -16,7 +16,7 @@ procedures: 2
 codeExamples: 0
 ---
 
-**Applies to:** Menu groups, menu items (*not* including [modifier item references](docs/en-us/adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference))
+**Applies to:** Menu groups, menu items (*not* including [modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference))
 
 The Toast platform provides two methods for working with menu items that require open prices, the Open Items feature and the Open Price pricing strategy.
 
@@ -39,7 +39,7 @@ The Open Price pricing strategy allows you to manually specify a price for a men
 2. Save your changes.
 
 
-3. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
+3. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 

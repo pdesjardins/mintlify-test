@@ -53,9 +53,9 @@ Toast platform dining options have behaviors that indicate the type of service. 
 
 You configure dining options for your restaurant on the Kitchen &gt;Dining options &gt;Dining options page in Toast Web.
 
-You must have the Web setup &gt; Kitchen / Dining Room Setup[access permission](docs/en-us/adminGuide-adminPermissions#adminWebSetupAccessPermissions) to view and configure dining options.
+You must have the Web setup &gt; Kitchen / Dining Room Setup[access permission](adminGuide-adminPermissions#adminWebSetupAccessPermissions) to view and configure dining options.
 
-For instructions on creating a new dining option, see [Configuring Custom Dining Options](https://central.toasttab.com/s/article/Dining-Options-1492794310377). For detailed information about each setting available on the Dining options page, see [Dining Options](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configDiningOptions) configuration settings.
+For instructions on creating a new dining option, see [Configuring Custom Dining Options](https://central.toasttab.com/s/article/Dining-Options-1492794310377). For detailed information about each setting available on the Dining options page, see [Dining Options](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) configuration settings.
 
-If your restaurant uses Toast Online Ordering, the dining options you configure on this page are displayed as configuration options for dining option settings on the Online ordering page. For more information, see [Dining options for Toast online orders](docs/en-us/adminGuide-adminDiningOptionsOnlineOrdering).
+If your restaurant uses Toast Online Ordering, the dining options you configure on this page are displayed as configuration options for dining option settings on the Online ordering page. For more information, see [Dining options for Toast online orders](adminGuide-adminDiningOptionsOnlineOrdering).
 

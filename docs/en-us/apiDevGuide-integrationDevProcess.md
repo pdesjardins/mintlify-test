@@ -70,13 +70,13 @@ The partner agreement defines the details and business terms of the partnership 
 
 ## Development kickoff
 
-If you have met the requirements listed above, you enter the development stage. In this stage, the Toast integrations team provides you with your [partner API account](docs/en-us/apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts)authentication credentials, which can be used for testing in the [sandbox environment](docs/en-us/apiDevGuide-apiEnvironments#apiSandboxEnvironment).
+If you have met the requirements listed above, you enter the development stage. In this stage, the Toast integrations team provides you with your [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts)authentication credentials, which can be used for testing in the [sandbox environment](apiDevGuide-apiEnvironments#apiSandboxEnvironment).
 
-Once sandbox credentials are provided, you can begin to write and test your code. As you build your integration, refer to our [integration development checklists](docs/en-us/apiDevGuide-apiIntegrationChecklists).
+Once sandbox credentials are provided, you can begin to write and test your code. As you build your integration, refer to our [integration development checklists](apiDevGuide-apiIntegrationChecklists).
 
 ## Certification
 
-When your integration is ready for live restaurants in the production environment, contact your Toast integrations representative to schedule a certification call. The goal of certifying your integration is to ensure that you and the Toast integrations team feel comfortable introducing your integration to pilot customers in the production environment during the [beta phase](docs/en-us/apiDevGuide-integrationDevProcess#apiIntegrationDeveloperProcessBetaPhase). If there are no issues, your integration is certified and enters the alpha phase.
+When your integration is ready for live restaurants in the production environment, contact your Toast integrations representative to schedule a certification call. The goal of certifying your integration is to ensure that you and the Toast integrations team feel comfortable introducing your integration to pilot customers in the production environment during the [beta phase](apiDevGuide-integrationDevProcess#apiIntegrationDeveloperProcessBetaPhase). If there are no issues, your integration is certified and enters the alpha phase.
 
 The certification call is a one-hour interactive demo-style review of your integration workflows. The demo is meant to reproduce your integration experience as accurately as possible in the production environment while checking the following workflows:
 
@@ -122,7 +122,7 @@ You'll work with the Toast integration partner marketing team to develop co-mark
 
 ## General availability
 
-If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
+If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
 
 
 

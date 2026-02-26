@@ -46,7 +46,7 @@ Your Toast POS loyalty integration interface implementation must return the foll
 - `ERROR_INVALID_RESTAURANT` - The restaurant specified by the `Toast-Restaurant-External-ID` is invalid.
 
 
-- `ERROR` - The request cannot be processed for a reason that is not described by any of the other error states. You can include a `message` value in the `LoyaltyTransactionResponse` object to display a custom error message string to the restaurant employee. For more information, see [Custom error messages](docs/en-us/apiDevGuide-apiLoyaltyErrorHandling#apiLoyaltyIntegrationCustomErrorMessages).
+- `ERROR` - The request cannot be processed for a reason that is not described by any of the other error states. You can include a `message` value in the `LoyaltyTransactionResponse` object to display a custom error message string to the restaurant employee. For more information, see [Custom error messages](apiDevGuide-apiLoyaltyErrorHandling#apiLoyaltyIntegrationCustomErrorMessages).
 
 
 

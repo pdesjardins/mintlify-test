@@ -21,12 +21,12 @@ codeExamples: 0
 
 > **Note**
 > 
-> Size/sequence pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](docs/en-us/adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).
+> Size/sequence pricing for modifiers is supported on the Toast POS app, Toast Online Ordering, and in the menu data returned to online ordering partners. It is not supported on the Toast Takeout (Local by Toast) app, Toast Order and Pay, and Toast Kiosk. For more information, see [Toast product channel support for advanced pricing features](adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures).
 
 
-Size/sequence pricing strategy expands on the [sequence pricing](docs/en-us/adminGuide-adminSequencePrice) strategy. With size/sequence pricing, the cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1 while the first topping on a large pizza is $1.50 and additional toppings are $2.50.
+Size/sequence pricing strategy expands on the [sequence pricing](adminGuide-adminSequencePrice) strategy. With size/sequence pricing, the cost of a modifier depends on the size of the menu item it is applied to and the order in which it is applied to the menu item. For example, the first topping on a small pizza is $0.50 and additional toppings are $1 while the first topping on a large pizza is $1.50 and additional toppings are $2.50.
 
-Size/sequence pricing is specified at the modifier group level and the size of the modifier is determined by the size of the menu item it is applied to. This means that the sizes you specify when defining size/sequence prices for a modifier must exactly match the sizes of the menu items that the modifier will apply to, as described in [Creating matching sizes for menu items and modifiers](docs/en-us/adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions).
+Size/sequence pricing is specified at the modifier group level and the size of the modifier is determined by the size of the menu item it is applied to. This means that the sizes you specify when defining size/sequence prices for a modifier must exactly match the sizes of the menu items that the modifier will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions).
 
 **Procedure 8.134. To enable size/sequence pricing on a modifier group**
 
@@ -56,7 +56,7 @@ Size/sequence pricing is specified at the modifier group level and the size of t
 
 
 
-5. Repeat this process to add additional sizes and their pricing details. The sizes you create *must exactly match*the sizes defined for the menu items these modifiers will apply to, as described in [Creating matching sizes for menu items and modifiers](docs/en-us/adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter pricing information for each size you create.
+5. Repeat this process to add additional sizes and their pricing details. The sizes you create *must exactly match*the sizes defined for the menu items these modifiers will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter pricing information for each size you create.
 
 
 6. To add additional size rows to the grid, click the Add Size button.
@@ -78,7 +78,7 @@ Size/sequence pricing is specified at the modifier group level and the size of t
 8. Save your changes.
 
 
-9. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
+9. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 
@@ -86,6 +86,6 @@ Size/sequence pricing is specified at the modifier group level and the size of t
 
 > **Note**
 > 
-> The [Price Editor](docs/en-us/adminGuide-adminUsingThePriceEditor) does not yet support editing modifier group or modifier prices, so size/sequence prices for a modifier group must be edited on the modifier group's details page.
+> The [Price Editor](adminGuide-adminUsingThePriceEditor) does not yet support editing modifier group or modifier prices, so size/sequence prices for a modifier group must be edited on the modifier group's details page.
 
 

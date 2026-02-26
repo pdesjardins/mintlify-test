@@ -28,10 +28,10 @@ To follow these instructions, you must have the following scopes:
 - `config:read`
 
 
-- `labor:read` (this is optional. For more information, see [Determine what optional functionality you will support](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
+- `labor:read` (this is optional. For more information, see [Determine what optional functionality you will support](devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
 
 
-- `labor.employees:read` (this is optional. For more information, see [Determine what optional functionality you will support](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
+- `labor.employees:read` (this is optional. For more information, see [Determine what optional functionality you will support](devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
 
 
 - `menus:read`
@@ -43,29 +43,29 @@ To follow these instructions, you must have the following scopes:
 - `orders:read`
 
 
-- `orders.orders:write` (for read-write integration only. For more information, see [Building a read-write reservation integration](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWrite))
+- `orders.orders:write` (for read-write integration only. For more information, see [Building a read-write reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegWrite))
 
 
 - `restaurants:read`
 
 
 
-You can retrieve a list of your current scopes through your [Toast developer portal](docs/en-us/apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](docs/en-us/apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
+You can retrieve a list of your current scopes through your [Toast developer portal](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
 
 ## Setup and planning
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ### Determine if you will pass reservation information to the Toast platform
 
 Reservation integrations can follow one of two methods:
 
-- [Read-only reservation integration](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegReadOnly): Manage reservations within your system without sharing details with the Toast platform.
+- [Read-only reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegReadOnly): Manage reservations within your system without sharing details with the Toast platform.
 
 
-- [Read-write reservation integration](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWrite): Your integration will pass reservation information to the Toast platform.
+- [Read-write reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegWrite): Your integration will pass reservation information to the Toast platform.
 
 
 
@@ -75,7 +75,7 @@ With either method, your system will be the source of truth for reservation requ
 
 Retrieve restaurant configurations using the following endpoints of [configuration API](https://doc.toasttab.com/openapi/configuration/overview/). To ensure you have the latest restaurant configuration, poll the configuration API once per restaurant location per day, and update configuration information in your system based on newly added, updated, or deleted information.
 
-- Alternative payment types (this is optional. For more information, see [Determine what optional functionality you will support](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
+- Alternative payment types (this is optional. For more information, see [Determine what optional functionality you will support](devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
 
 
 - Dining options
@@ -84,7 +84,7 @@ Retrieve restaurant configurations using the following endpoints of [configurati
 - Revenue centers
 
 
-- Service charges (this is optional. For more information, see [Determine what optional functionality you will support](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
+- Service charges (this is optional. For more information, see [Determine what optional functionality you will support](devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteOptional))
 
 
 - Tables
@@ -122,21 +122,21 @@ Use the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/
 
 ### Learn order structure concepts
 
-Familiarize yourself with the structure of an order by reading the [Orders API overview](docs/en-us/apiDevGuide-portalOrdersApiOverview) and [Order object summary](docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
+Familiarize yourself with the structure of an order by reading the [Orders API overview](apiDevGuide-portalOrdersApiOverview) and [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
 Poll the `[/ordersBulk](https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/)`endpoint of the orders API using the `startDate` and `endDate` query parameters to understand new and modified orders placed within the specified timeframe. Your polling frequency should align with your polling window. For example, if you poll for a window of five minutes, you should poll roughly once every five minutes.
 
-Ensure your integration adheres to the endpoint specific rate-limit for the `/ordersBulk` endpoint when retrieving order data. For more information about Toast rate limits, see [Rate limiting](docs/en-us/apiDevGuide-apiRateLimiting).
+Ensure your integration adheres to the endpoint specific rate-limit for the `/ordersBulk` endpoint when retrieving order data. For more information about Toast rate limits, see [Rate limiting](apiDevGuide-apiRateLimiting).
 
-To understand which order elements are relevant to your integration, see [Understanding reservation order data](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegData).
+To understand which order elements are relevant to your integration, see [Understanding reservation order data](devCookbook-apiIntegrationChecklistReservation#reservationIntegData).
 
 ## Building a read-only reservation integration
 
-Since your integration will handle reservations entirely within your system, you will rely on the response from the orders API to obtain the necessary order data for updating reservation information in your system. For more information, see [Understanding reservation order data](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegData).
+Since your integration will handle reservations entirely within your system, you will rely on the response from the orders API to obtain the necessary order data for updating reservation information in your system. For more information, see [Understanding reservation order data](devCookbook-apiIntegrationChecklistReservation#reservationIntegData).
 
 ## Building a read-write reservation integration
 
-If your integration is passing reservation information to the Toast platform, you will submit an order without menu item selections and include the required information listed below. Your integration will do this by sending a `POST` request to the [`/orders`](https://doc.toasttab.com/openapi/orders/operation/ordersPost/)endpoint of the orders API. For more information, see [Creating orders](docs/en-us/apiDevGuide-apiCreatingOrders).
+If your integration is passing reservation information to the Toast platform, you will submit an order without menu item selections and include the required information listed below. Your integration will do this by sending a `POST` request to the [`/orders`](https://doc.toasttab.com/openapi/orders/operation/ordersPost/)endpoint of the orders API. For more information, see [Creating orders](apiDevGuide-apiCreatingOrders).
 
 ### Understand required information
 
@@ -162,7 +162,7 @@ Include the `numberOfGuests` value in the order to identify guest count. This he
 
 Include a `tabName` value in the order to identify your integration and guest information. Use the naming convention: `{Partner name} - {Guest first name} {Guest last initial}`. Your integration should allow restaurants to customize tab naming conventions in your system's user interface based on restaurant requirements.
 
-For more information about where tab names appear in the Toast platform, see [Guest personal identifiable information](docs/en-us/adminGuide-platformOrdersPii).
+For more information about where tab names appear in the Toast platform, see [Guest personal identifiable information](adminGuide-platformOrdersPii).
 
 ### Determine what optional functionality you will support
 
@@ -172,7 +172,7 @@ When passing reservation information to the Toast platform, your integration may
 
 If your system collects deposits with reservations, you must communicate this information to the Toast platform when you submit the reservation so that the guest is not asked to repay their deposit amount. Deposits are processed through your system when the guest makes the reservation and is communicated to Toast when you submit the order. Deposits are not processed through Toast and use an alternative payment type in the reservation order submission. You are responsible for paying the restaurant for deposits made outside of the Toast platform.
 
-To retrieve your alternative payment type identifier, send a `GET` request to the `/alternativePaymentTypes`endpoint of the configuration API and submit this payment type in the `payments` object of your reservation order. For more information, see [Alternative payment types](docs/en-us/apiDevGuide-apiCreatingAnOrderWithPaymentInformation) to learn more about submitting payments using the orders API.
+To retrieve your alternative payment type identifier, send a `GET` request to the `/alternativePaymentTypes`endpoint of the configuration API and submit this payment type in the `payments` object of your reservation order. For more information, see [Alternative payment types](apiDevGuide-apiCreatingAnOrderWithPaymentInformation) to learn more about submitting payments using the orders API.
 
 If you support deposits, your onboarding process should include working with restaurants to create an alternative payment type specific to your integration. [This guide](https://central.toasttab.com/s/article/Setting-Up-Other-Payment-Options) outlines how to create alternative payment types in the Toast platform. Creating an alternative payment type cannot be done via API.
 
@@ -182,7 +182,7 @@ You can optionally allow restaurant operators to assign servers to reservations 
 
 #### Service charges
 
-You can optionally pass service charges with reservation orders. Including a service charge enables restaurants to add additional fees to reservation orders, such as gratuity. To retrieve service charge information, send a `GET` request to the `[/serviceCharges](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)`endpoint of the configuration API. Your integration should allow restaurants to choose which service charges they want your integration to use in your system's user interface. For more information, see [Service charge overview](docs/en-us/adminGuide-adminServiceChargeOverview)to learn more.
+You can optionally pass service charges with reservation orders. Including a service charge enables restaurants to add additional fees to reservation orders, such as gratuity. To retrieve service charge information, send a `GET` request to the `[/serviceCharges](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/)`endpoint of the configuration API. Your integration should allow restaurants to choose which service charges they want your integration to use in your system's user interface. For more information, see [Service charge overview](adminGuide-adminServiceChargeOverview)to learn more.
 
 ### Reservation creation workflow
 
@@ -198,7 +198,7 @@ The workflow below outlines how to create a reservation in your system and submi
 - Ensure guests cannot create reservations outside of the restaurant's hours of operation.
 
 
-- Collect the [reservation information](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteRequired) required by Toast for order submission.
+- Collect the [reservation information](devCookbook-apiIntegrationChecklistReservation#reservationIntegWriteRequired) required by Toast for order submission.
 
 
 
@@ -219,7 +219,7 @@ The workflow below outlines how to create a reservation in your system and submi
 
 
 
-3. Update the reservation in your system using the information outlined in [Understanding reservation order data](docs/en-us/devCookbook-apiIntegrationChecklistReservation#reservationIntegData).
+3. Update the reservation in your system using the information outlined in [Understanding reservation order data](devCookbook-apiIntegrationChecklistReservation#reservationIntegData).
 
 
 
@@ -322,5 +322,5 @@ The `/ordersBulk` endpoint response of the orders API response will allow you to
 
 Use the [menus API](https://doc.toasttab.com/openapi/menus/operation/menusGet/) to retrieve menu and item information to understand guest selections for reporting.
 
-See [Building a sales report](docs/en-us/devCookbook-apiIntegrationChecklistAccounting) for additional guidance on order reporting.
+See [Building a sales report](devCookbook-apiIntegrationChecklistAccounting) for additional guidance on order reporting.
 

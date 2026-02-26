@@ -17,7 +17,7 @@ codeExamples: 0
 
 While every enterprise has its own requirements for employee, job, and permission configuration, this section provides a detailed example of a common approach. It includes the following types of employees:
 
-- A *super user* that has full permissions at all locations in the restaurant group hierarchy. The super user can manage employees for the entire enterprise and edit their permissions. This user can also edit any entity in Toast Web, including menu entities [owned](docs/en-us/adminGuide-ownersAndPermissions) by the corporate restaurant group.
+- A *super user* that has full permissions at all locations in the restaurant group hierarchy. The super user can manage employees for the entire enterprise and edit their permissions. This user can also edit any entity in Toast Web, including menu entities [owned](adminGuide-ownersAndPermissions) by the corporate restaurant group.
 
 
 - A *franchise manager* can manage employees for their franchise and edit their permissions. They can also edit menu entities that are owned by the franchise, or a location in the franchise, and view reports for all the locations in the franchise.
@@ -76,7 +76,7 @@ The instructions below describe how to create the manager and server jobs for th
 
 **Procedure 5.22. To create the manager job**
 
-1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend) using your super user credentials.
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend) using your super user credentials.
 
 
 2. Choose Employees &gt; Employee management &gt; Jobs to open the Jobs page.
@@ -119,7 +119,7 @@ You can click a permission header row to quickly select all its child permission
 
 **Procedure 5.23. To create the server job**
 
-1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend) using your super user credentials.
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend) using your super user credentials.
 
 
 2. Choose Employees &gt; Employee management &gt; Jobs to open the Jobs page.
@@ -162,11 +162,11 @@ You can click a permission header row to quickly select all its child permission
 
 ### Adding employees to the enterprise example
 
-In this enterprise example, any type of manager can add a non-managerial employee, although franchise and location managers are restricted to adding employees to their own franchises or locations. To add a manager-level employee, you must be either a super user or an equivalent manager yourself. See [Understanding equivalent employees in the enterprise example](docs/en-us/adminGuide-adminExampleConfigurationForEnterprises#adminUnderstandingEquivalentEmployeesInTheEnterpriseExample)for details.
+In this enterprise example, any type of manager can add a non-managerial employee, although franchise and location managers are restricted to adding employees to their own franchises or locations. To add a manager-level employee, you must be either a super user or an equivalent manager yourself. See [Understanding equivalent employees in the enterprise example](adminGuide-adminExampleConfigurationForEnterprises#adminUnderstandingEquivalentEmployeesInTheEnterpriseExample)for details.
 
 **Procedure 5.24. To add a franchise or location manager**
 
-1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Switch to a location where the new manager should have access. If you are creating a franchise manager, go to one of the locations in the franchise. If you are creating a location manager, go to the location.
@@ -206,7 +206,7 @@ In this enterprise example, any type of manager can add a non-managerial employe
 11. Select the **`Manager`** job.
 
 
-12. At this point, the Access Permissionsarea contains entries for the locations you chose in step 9 and the manager inherits the permissions associated with their assigned job at each location. This means the manager can access the POS devices at these locations, edit any entities in Toast Web that are owned by these locations, and view reports for these locations. For a location manager, this configuration is sufficient. For a franchise manager, you must also add restaurant group-level permissions so that the manager can edit entities [owned](docs/en-us/adminGuide-ownersAndPermissions) by the franchise's restaurant group and view reports for the franchise group. To enable this ability for the manager, do the following:
+12. At this point, the Access Permissionsarea contains entries for the locations you chose in step 9 and the manager inherits the permissions associated with their assigned job at each location. This means the manager can access the POS devices at these locations, edit any entities in Toast Web that are owned by these locations, and view reports for these locations. For a location manager, this configuration is sufficient. For a franchise manager, you must also add restaurant group-level permissions so that the manager can edit entities [owned](adminGuide-ownersAndPermissions) by the franchise's restaurant group and view reports for the franchise group. To enable this ability for the manager, do the following:
 
 - Click the Add Group/Restaurant Permissions button. You see the Add Group Permissions modal.
 
@@ -222,7 +222,7 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 **Procedure 5.25. To add a server employee**
 
-1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Switch to a location where the new employee should have access.

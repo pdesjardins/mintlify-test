@@ -20,7 +20,7 @@ codeExamples: 0
 
 > **Important**
 > 
-> To use the `/deliveryInfo` endpoint, you'll need access to the `orders.delivery_info:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](docs/en-us/apiDevGuide-apiScopes).
+> To use the `/deliveryInfo` endpoint, you'll need access to the `orders.delivery_info:write` scope. For more information about API client scopes, and how to get access to them, see [Scopes](apiDevGuide-apiScopes).
 
 
 You can use the orders API to modify the following delivery information:
@@ -60,17 +60,17 @@ For more information about the endpoint used in this process, see the [/delivery
 
 **Procedure 2.8. To update the delivery information for an existing order**
 
-1. Locate the Toast platform GUID for the order you are updating. For more information on locating an order GUID see [Finding an order or check GUID](docs/en-us/apiDevGuide-apiOrdersFindingAnOrderGuid).
+1. Locate the Toast platform GUID for the order you are updating. For more information on locating an order GUID see [Finding an order or check GUID](apiDevGuide-apiOrdersFindingAnOrderGuid).
 
 
-2. If you plan to update an order's `deliveryEmployee`field, locate the Toast platform GUID of the employee to assign as the delivery driver. For information on retrieving employee details, see [Getting all employees of a restaurant](docs/en-us/apiDevGuide-api_get_all_employees).
+2. If you plan to update an order's `deliveryEmployee`field, locate the Toast platform GUID of the employee to assign as the delivery driver. For information on retrieving employee details, see [Getting all employees of a restaurant](apiDevGuide-api_get_all_employees).
 
 
-3. Create a JSON `DeliveryInfo` object that contains the delivery information you want to update. For the list of values you can modify see [Delivery values](docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).
+3. Create a JSON `DeliveryInfo` object that contains the delivery information you want to update. For the list of values you can modify see [Delivery values](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).
 
 The delivery location values (for example, street address and city) cannot be updated.
 
-For an example `DeliveryInfo` object, see [Example DeliveryInfo object](docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiExampleDeliveryInfoObject).
+For an example `DeliveryInfo` object, see [Example DeliveryInfo object](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiExampleDeliveryInfoObject).
 
 
 4. Send a `PATCH` request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
@@ -82,7 +82,7 @@ In the body of the request, include the `DeliveryInfo` object with the delivery 
 
 5. Examine the response data you receive from the orders API. Verify your request is processed successfully with a 200 HTTP code response.
 
-The response contains the full `Order` object. For an example, see [this response](docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiExampleResponseDataWhenUpdatingDeliveryInfoForAnOrder).
+The response contains the full `Order` object. For an example, see [this response](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiExampleResponseDataWhenUpdatingDeliveryInfoForAnOrder).
 
 
 
@@ -95,7 +95,7 @@ The response contains the full `Order` object. For an example, see [this respons
 
 ## Example DeliveryInfo object
 
-The following example shows the `DeliveryInfo` object for updating delivery information for an order. For definitions of the values below, see [Delivery values](docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).
+The following example shows the `DeliveryInfo` object for updating delivery information for an order. For definitions of the values below, see [Delivery values](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues).
 
 
 ```

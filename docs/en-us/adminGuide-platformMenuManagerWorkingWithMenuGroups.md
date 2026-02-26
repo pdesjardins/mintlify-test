@@ -53,7 +53,7 @@ This section provides information about creating menu groups.
 
 For multi-location restaurants:
 
-- Newly created menu groups inherit the target and owner of their parent menu or menu group by default. For more information, see [Defaults for targets and owners](docs/en-us/adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants#platformMenuManagerDefaultsForTargetsAndOwners).
+- Newly created menu groups inherit the target and owner of their parent menu or menu group by default. For more information, see [Defaults for targets and owners](adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants#platformMenuManagerDefaultsForTargetsAndOwners).
 
 
 - You must have the Edit Full Menupermission to the owner of a menu or menu group in order to create a new child menu group inside it.
@@ -62,7 +62,7 @@ For multi-location restaurants:
 
 **Procedure 8.52. To create a menu group**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -71,7 +71,7 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
 5. Expand the menu that will contain the new menu group. If the new menu group will be a subgroup of an existing menu group, expand the existing menu group.
@@ -82,7 +82,7 @@ For multi-location restaurants:
 ![The location of the Add menu group button.](https://doc.toasttab.com/doc/media/menu-manager-add-menu-group-button.png)
 
 
-7. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+7. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -92,7 +92,7 @@ Follow the procedure below to rename a menu group.
 
 **Procedure 8.53. To rename a menu group**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -101,7 +101,7 @@ Follow the procedure below to rename a menu group.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
 5. Select the menu group's name to open its side panel.
@@ -113,7 +113,7 @@ Follow the procedure below to rename a menu group.
 7. Select Save.
 
 
-8. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+8. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -139,7 +139,7 @@ Menu group reordering is limited to:
 
 **Procedure 8.54. To reorder a menu group**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -156,7 +156,7 @@ Menu group reordering is limited to:
 ![The location of the reorder icon for a menu group you want to move.](https://doc.toasttab.com/doc/media/menu-manager-menu-group-reorder-button.png)
 
 
-6. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+6. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -185,7 +185,7 @@ For multi-location restaurants:
 
 **Procedure 8.55. To remove a menu group**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -194,7 +194,7 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
 5. Expand the menu to locate the menu group you want to remove.
@@ -208,7 +208,7 @@ For multi-location restaurants:
 7. To confirm, select Remove in the Remove the menu group dialog.
 
 
-8. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+8. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -268,16 +268,16 @@ Menu Group A
 
   
 
-- If you have a multi-location restaurant, you cannot drag menu items to reorder them in Full menu view yet. This means that, after alphabetizing, to further reorder your items (for example, to move a popular item to the top of the list), you must use the [classic page](docs/en-us/adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) for the parent menu group instead.
+- If you have a multi-location restaurant, you cannot drag menu items to reorder them in Full menu view yet. This means that, after alphabetizing, to further reorder your items (for example, to move a popular item to the top of the list), you must use the [classic page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) for the parent menu group instead.
 
 
-- Using the [location picker](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation), it is possible to hide some of the menu items in a menu group. Hidden menu items are still alphabetized along with any visible items in the menu group and you will see their new sort order the next time you view them in Full menuview.
+- Using the [location picker](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation), it is possible to hide some of the menu items in a menu group. Hidden menu items are still alphabetized along with any visible items in the menu group and you will see their new sort order the next time you view them in Full menuview.
 
 
 
 **Procedure 8.56. To alphabetize the menu items in a menu group**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -286,7 +286,7 @@ Menu Group A
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
 5. Expand the menu to locate the menu group whose items you want to alphabetize.
@@ -307,7 +307,7 @@ Menu Group A
 7. To confirm, select Alphabetize.
 
 
-8. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+8. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -320,7 +320,7 @@ You can customize the names and colors of the buttons employees see in the Toast
 Enter a name in the POS name field. To specify a button color, select the Button coloroption and then select a color from the color palette.
 
 
-- For modifiers, go to [the Edit modifier dialog](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#platformEditingAModifiersDetails) for the modifier, select the POS button color option and then select a color from the color palette. Modifiers do not have a POS name. The Toast POS app displays the Modifier name.
+- For modifiers, go to [the Edit modifier dialog](adminGuide-adminAddingModifierGroupsAndModifiers#platformEditingAModifiersDetails) for the modifier, select the POS button color option and then select a color from the color palette. Modifiers do not have a POS name. The Toast POS app displays the Modifier name.
 
 
 
@@ -337,7 +337,7 @@ You use prep stations to route menu items to the appropriate stations in the kit
 > If a menu item does not have any prep stations assigned to it, the Toast platform automatically routes that menu item to all prep stations.
 
 
-You can set prep stations at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit prep stations from their parent menus. Menu items and subgroups inherit prep stations from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+You can set prep stations at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit prep stations from their parent menus. Menu items and subgroups inherit prep stations from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 To set prep stations for a menu, go to the Kitchen prep section of the menu's details page and select the prep stations to which items ordered from the menu should be routed.
 
@@ -355,13 +355,13 @@ To override the inherited prep stations for a menu item, go to the Kitchen secti
 
 To configure a menu item to inherit its prep stations, set the Inherit prep stations? setting to Yes.
 
-If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](docs/en-us/adminGuide-adminAddPrepStation) and [Routing with prep stations](docs/en-us/adminGuide-adminRoutingToPrepStations).
+If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminGuide-adminAddPrepStation) and [Routing with prep stations](adminGuide-adminRoutingToPrepStations).
 
 ## Assigning courses
 
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
-You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 To set the course for a menu, go to the Kitchen prep section of the menu's details page and select the course.
 
@@ -379,7 +379,7 @@ To override the inherited course for a menu item, go to the Kitchen section on i
 
 To configure a menu item so that it inherits its course, set the Inherit course? setting to Yes.
 
-If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](docs/en-us/adminGuide-adminAssigningCourses#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
+If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminGuide-adminAssigningCourses#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
 ### Creating courses
 
@@ -393,7 +393,7 @@ If you are viewing a menu item in the menu builder, select Kitchen. If you are v
 
 Alternatively, you can do the following:
 
-- [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -439,7 +439,7 @@ For information about the reports that use sales categories, see these Toast Cen
 
 
 
-You can set sales categories at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their sales category from their parent menus. Menu items and subgroups inherit their sales category from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+You can set sales categories at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their sales category from their parent menus. Menu items and subgroups inherit their sales category from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 To set the sales category for a menu, go to the Reporting section of the menu's details page and select the category from the Sales category dropdown list.
 
@@ -457,7 +457,7 @@ To override the inherited sales category for a menu item, go to the Reporting se
 
 To configure a menu item so that it inherits its sales category, set the Inherit sales category? setting to Yes.
 
-If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](docs/en-us/adminGuide-adminAssigningSalesCategories#platformCreatingSalesCategoriesMenuBuilder).
+If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminGuide-adminAssigningSalesCategories#platformCreatingSalesCategoriesMenuBuilder).
 
 ### Creating sales categories
 
@@ -471,7 +471,7 @@ On the details page for a menu, menu group, or menu item, select Reporting. In t
 
 Alternatively, you can:
 
-- [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -510,17 +510,17 @@ You can override tax rates on individual menus, menu groups, subgroups, or menu 
 
 In addition to tax rates, Toast Web includes two tax behavior settings that allow you to specify that taxes are included in a menu item's price and takeout orders are exempt from taxes. You can set the tax behavior settings at the menu, menu group, subgroup, or menu item level and they follow the same rules of inheritance as tax rates. You can override these settings as needed on individual menu entities.
 
-For more information on menu inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+For more information on menu inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 The following sections provide instructions for setting tax rates and behavior. They also provide more information about the tax behavior settings.
 
-- [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior)
+- [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior)
 
 
-- [Understanding tax inclusion](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTaxInclusion)
+- [Understanding tax inclusion](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTaxInclusion)
 
 
-- [Understanding takeout tax exception](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTakeoutTaxException)
+- [Understanding takeout tax exception](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTakeoutTaxException)
 
 
 
@@ -540,7 +540,7 @@ To override the inherited tax rates for a menu item, go to the Tax settings sect
 
 To configure a menu item so that it inherits its tax rates, set the Inherit tax rates? setting to Yes. To inherit the Tax inclusion or Takeout tax exceptionsetting, set the Inherit tax inclusion? or Inherit takeout tax? setting to Yes.
 
-If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](docs/en-us/adminGuide-adminTaxesOverview).
+If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminGuide-adminTaxesOverview).
 
 ### Understanding tax inclusion
 
@@ -572,15 +572,15 @@ When tax is not included, the guest pays $10.70 ($10 for the item and $0.70 for 
 
 Your sales reports display the item price and tax amount that the Toast platform has calculated for any tax included items, so you can see the breakdown of revenue versus tax when tax is included.
 
-For information on enabling tax inclusion, see [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
+For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 
 ### Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 
-For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
+For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 
-For more information on dining options, see [Dining options](docs/en-us/adminGuide-adminDiningOptions).
+For more information on dining options, see [Dining options](adminGuide-adminDiningOptions).
 
 ## Specifying ordering channel visibility for a menu group
 
@@ -631,7 +631,7 @@ The Menu groups section of a menu's details page shows the menu groups that the 
 
 > **Note**
 > 
-> To view a menu's details page, go to the Full menu view, select the menu to see its side panel, then select the [full screen icon](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformUsingTheFullMenuViewSidePanel) to open the details page.
+> To view a menu's details page, go to the Full menu view, select the menu to see its side panel, then select the [full screen icon](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformUsingTheFullMenuViewSidePanel) to open the details page.
 
 
 ![Example of the Menu groups section of a menu page with the location of the View versions link called out.](https://doc.toasttab.com/doc/media/menu-builder-mlm-view-versions.png)

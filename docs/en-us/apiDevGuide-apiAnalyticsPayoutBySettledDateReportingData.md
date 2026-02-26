@@ -17,18 +17,18 @@ codeExamples: 0
 
 Retrieving the payout reporting data by settled date is a two-step process. You must:
 
-1. Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint to create a request for payout reporting data organized by settled date for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API supports retrieving payout reporting data for the day, week, and month time ranges. For more information, see [Creating a request for payout reporting data by settled date](docs/en-us/apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataCreateRequest).
+1. Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint to create a request for payout reporting data organized by settled date for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API supports retrieving payout reporting data for the day, week, and month time ranges. For more information, see [Creating a request for payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/payout/{requestReportGuid}` endpoint to retrieve the payout reporting data organized by settled date. For more information, see [Retrieving the payout reporting data by settled date](docs/en-us/apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/payout/{requestReportGuid}` endpoint to retrieve the payout reporting data organized by settled date. For more information, see [Retrieving the payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
 
 
 
 ## Creating a request for payout reporting data by settled date
 
-Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint to request payout reporting data organized by settled date for that specific time range. The `timeRange` can be `day`, `week`, or `month`. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for `month` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](docs/en-us/apiDevGuide-apiAnalyticsRateLimiting).
+Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint to request payout reporting data organized by settled date for that specific time range. The `timeRange` can be `day`, `week`, or `month`. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for `month` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
-You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData).
+You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 To create a request for payout reporting data organized by settled date, include the following:
 
@@ -111,11 +111,11 @@ The following example shows the response from the `/era/v1/payout/day` endpoint.
 
 (1) The GUID for the payout reporting data by settled date request, also called the reportRequestGuid. For more information about how to retrieve data using the analytics API, see Understanding the analytics API process.
 
-For an example that shows how to retrieve the payout reporting data by settled date, see [Retrieving the payout reporting data by settled date](docs/en-us/apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
+For an example that shows how to retrieve the payout reporting data by settled date, see [Retrieving the payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
 
 ## Retrieving the payout reporting data by settled date
 
-Send a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint to retrieve payout reporting data organized by settled date. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](docs/en-us/apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint to retrieve payout reporting data organized by settled date. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 ### Request to retrieve payout reporting data by settled date
 
@@ -164,7 +164,7 @@ The following example shows the response from the `/era/v1/payout/{reportRequest
 
 ## Understanding the payout reporting data by settled date
 
-Payout reporting data by settled date contains objects that correspond to each available restaurant and settled payout date combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData).
+Payout reporting data by settled date contains objects that correspond to each available restaurant and settled payout date combination. You can also choose to retrieve data for currently inactive restaurants. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 The restaurants included in the payout reporting data organized by settled date can be limited using either the `restaurantIds` or `excludedRestaurantIds` value in the message body. You can include restaurant GUIDs for only one of these values. Any restaurants listed with the `restaurantIds` value are included in the payout reporting data, with any restaurants not listed excluded. Any restaurants listed with the `excludedRestaurantIds` value are excluded from the payout reporting data, with any restaurants not listed included. When both are left blank, all restaurants are included automatically.
 

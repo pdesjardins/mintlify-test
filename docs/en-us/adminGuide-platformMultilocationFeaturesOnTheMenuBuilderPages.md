@@ -27,10 +27,10 @@ The following table provides descriptions for target, owner, number, and GUID:
 
 | Property | Description | 
 | --- | --- |
-| Target | Specifies which locations use the menu or menu item. For more information, see [Targets](docs/en-us/adminGuide-targets). | 
-| Owner | Specifies who can edit the menu or menu item. For more information, see [Owners and permissions](docs/en-us/adminGuide-ownersAndPermissions). | 
-| Number | Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers). | 
-| GUID | Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers). | 
+| Target | Specifies which locations use the menu or menu item. For more information, see [Targets](adminGuide-targets). | 
+| Owner | Specifies who can edit the menu or menu item. For more information, see [Owners and permissions](adminGuide-ownersAndPermissions). | 
+| Number | Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers). | 
+| GUID | Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers). | 
 
 ## Menu group versions (menu page only)
 
@@ -42,5 +42,5 @@ Select the View versions link to open the Versions dialog where you can see all 
 
 ![Example of the Versions dialog for a Seafood menu group that has three versions, one targeted at Corporate, another targeted at Southeast, and a third targeted at Northeast.](https://doc.toasttab.com/doc/media/menu-builder-mlm-versions-dialog.png)
 
-The version shown on the menu group card is marked as `CURRENT` in the Versions dialog (see [How versioned configurations are displayed on the menu builder pages](docs/en-us/adminGuide-platformHowVersionedConfigurationsAreDisplayedOnTheMenuBuilderPages)for more details). To navigate to the details page for a menu group version, select its name in the Versions dialog. Because menu groups are not yet supported in the menu builder for multi-location restaurants, the classic details page for the menu group opens.
+The version shown on the menu group card is marked as `CURRENT` in the Versions dialog (see [How versioned configurations are displayed on the menu builder pages](adminGuide-platformHowVersionedConfigurationsAreDisplayedOnTheMenuBuilderPages)for more details). To navigate to the details page for a menu group version, select its name in the Versions dialog. Because menu groups are not yet supported in the menu builder for multi-location restaurants, the classic details page for the menu group opens.
 

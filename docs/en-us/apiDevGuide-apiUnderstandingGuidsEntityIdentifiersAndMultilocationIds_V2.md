@@ -17,13 +17,13 @@ codeExamples: 0
 
 All of the objects returned by the menus API have `guid` values. Menus, menu groups, menu items, modifier groups, and modifier options have `multiLocationId` values. Modifier groups, modifier options, and premodifier groups also have `referenceId` values. All three values contain IDs, however, they are used for different purposes. The sections below describe each ID type and what they are used for.
 
-- [guid values](docs/en-us/apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiGuidValues_V2)
+- [guid values](apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiGuidValues_V2)
 
 
-- [referenceId values and &lt;menu-entity&gt;references objects](docs/en-us/apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiReferenceIdValuesAndMenuEntityReferencesObjects_V2)
+- [referenceId values and &lt;menu-entity&gt;references objects](apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiReferenceIdValuesAndMenuEntityReferencesObjects_V2)
 
 
-- [multiLocationId values](docs/en-us/apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiMultilocationIdValues_V2)
+- [multiLocationId values](apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2#apiMultilocationIdValues_V2)
 
 
 
@@ -176,5 +176,5 @@ You use the `multiLocationId` to identify menu entities that are versions of eac
 
 The Toast platform ensures that once a `multiLocationId` value is assigned to a set of versions within a management group, that `multiLocationId` is not used for any other versioned menu entities in the same management group. It does not guarantee, however, that the `multiLocationId` is not used by another management group, to identify a set of versions within it.
 
-For detailed information on the enterprise module and versioning, see [Enterprise Restaurant Chains](docs/en-us/adminGuide-sharingMenusAndOtherInformationAmongRestaurants) in the Toast platform guide.
+For detailed information on the enterprise module and versioning, see [Enterprise Restaurant Chains](adminGuide-sharingMenusAndOtherInformationAmongRestaurants) in the Toast platform guide.
 

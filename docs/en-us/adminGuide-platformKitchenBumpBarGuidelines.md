@@ -38,7 +38,7 @@ When using the bump bar, consider the following limitations:
 - You need to use the touchscreen to access the overflow menu (the ⋮ icon) on the KDS device.
 
 
-- You need to use the touchscreen to access the average fulfillment timer feature on the KDS device. For more information, see [Average fulfillment timer](docs/en-us/adminGuide-platformKDSOverview#platformKDSGridAvgFulfillmentTimer).
+- You need to use the touchscreen to access the average fulfillment timer feature on the KDS device. For more information, see [Average fulfillment timer](adminGuide-platformKDSOverview#platformKDSGridAvgFulfillmentTimer).
 
 
 - You need to use the touchscreen to interact with some dialogs on the KDS device. These dialogs include:

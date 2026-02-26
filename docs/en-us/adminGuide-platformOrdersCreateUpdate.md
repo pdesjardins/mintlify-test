@@ -25,7 +25,7 @@ When an order is created on the Toast POS app, it is automatically replicated to
 - Online from a website.
 
 
-- [Using the orders API.](docs/en-us/apiDevGuide-apiCreatingOrders#apiOrdersCreationProcess)
+- [Using the orders API.](apiDevGuide-apiCreatingOrders#apiOrdersCreationProcess)
 
 
 

@@ -51,7 +51,7 @@ The check transfer options involve the following permissions:
 
 
 ****Access mode permissions****
-: [Access "mode" permissions](docs/en-us/adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the check transfer options are located.
+: [Access "mode" permissions](adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the check transfer options are located.
 
 For a bulk transfer, you must have Table Service Mode, Quick Order Mode, or Payment Terminal Mode.
 
@@ -60,21 +60,21 @@ For the single order or check transfer, you must have Table Service Mode or Quic
 
 
 ****Bulk Transfer Checks****
-: The [Bulk Transfer Checks](docs/en-us/adminGuide-adminPermissions#permissionBulkTransferChecks) permission allows you to [select and transfer multiple checks](docs/en-us/adminGuide-adminTransferringOrders#platformOrdersTransferMultiple).
+: The [Bulk Transfer Checks](adminGuide-adminPermissions#permissionBulkTransferChecks) permission allows you to [select and transfer multiple checks](adminGuide-adminTransferringOrders#platformOrdersTransferMultiple).
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Change Server****
-: The [Change Server](docs/en-us/adminGuide-adminPermissions#permissionChangeServer)permission allows you to [select and transfer a single check or order](docs/en-us/adminGuide-adminTransferringOrders#platformOrdersTransferSingle).
+: The [Change Server](adminGuide-adminPermissions#permissionChangeServer)permission allows you to [select and transfer a single check or order](adminGuide-adminTransferringOrders#platformOrdersTransferSingle).
 
 If you do not have this permission, you can ask another restaurant employee who does have this permission to enter their POS access code or swipe their access card.
 
 
 
 ****Edit Other Employees' Orders****
-: The [Edit Other Employees' Orders](docs/en-us/adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
+: The [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) permission allows you to update orders that are assigned to a different employee.
 
 If you have this permission, then you can transfer checks or orders that are assigned to a different employee.
 

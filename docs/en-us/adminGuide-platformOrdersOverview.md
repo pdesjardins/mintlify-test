@@ -42,16 +42,16 @@ Each check includes:
 - The menu item selections and prices.
 
 
-- Applicable taxes. See [Taxes](docs/en-us/adminGuide-adminTaxesOverview).
+- Applicable taxes. See [Taxes](adminGuide-adminTaxesOverview).
 
 
-- Discounts on the menu item selections and on the entire check. See [Discounts](docs/en-us/adminGuide-platformDiscountsOverview).
+- Discounts on the menu item selections and on the entire check. See [Discounts](adminGuide-platformDiscountsOverview).
 
 
-- Service charges on the check. See [Service charges](docs/en-us/adminGuide-adminServiceChargeOverview).
+- Service charges on the check. See [Service charges](adminGuide-adminServiceChargeOverview).
 
 
-- Information about the guest. See [Guests](docs/en-us/adminGuide-adminGuestDataOverview).
+- Information about the guest. See [Guests](adminGuide-adminGuestDataOverview).
 
 
 - Payments that the guest made on the order.
@@ -63,7 +63,7 @@ Each check includes:
 ****Other order information****
 : Outside of the checks, the order tracks how the guest receives the ordered items:
 
-- The selected [dining option](docs/en-us/adminGuide-adminDiningOptions). A dining option is associated with a specific dining behavior (in-person, takeout, curbside pickup, delivery).
+- The selected [dining option](adminGuide-adminDiningOptions). A dining option is associated with a specific dining behavior (in-person, takeout, curbside pickup, delivery).
 
 
 - The restaurant employee who is responsible for the order.

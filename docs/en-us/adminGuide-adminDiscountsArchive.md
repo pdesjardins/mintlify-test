@@ -27,5 +27,5 @@ To display the list of archived discounts, on the Discounts list, click Show Arc
 
 From the archived discounts list, to restore a discount to the Discounts list, click the ...icon for the discount, then select Unarchive.
 
-After you archive or restore a discount, click Save to save the change, then [publish the changes](docs/en-us/adminGuide-platformPublishingOverview).
+After you archive or restore a discount, click Save to save the change, then [publish the changes](adminGuide-platformPublishingOverview).
 

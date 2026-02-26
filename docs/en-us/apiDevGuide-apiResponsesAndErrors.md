@@ -18,7 +18,7 @@ codeExamples: 0
 
 For successful requests, the HTTP response code is usually 200. The response body contains an API-specific object in JSON format. In certain cases, other HTTP response codes might be used to indicate success.
 
-If a request cannot be processed successfully, a 4*`xx`* HTTP response code is usually returned. The response body is a serialized JSON `ErrorMessage` that contains information about the error. For more information, see [ErrorMessage information](docs/en-us/apiDevGuide-apiResponsesAndErrors#apiErrorMessage).
+If a request cannot be processed successfully, a 4*`xx`* HTTP response code is usually returned. The response body is a serialized JSON `ErrorMessage` that contains information about the error. For more information, see [ErrorMessage information](apiDevGuide-apiResponsesAndErrors#apiErrorMessage).
 
 Your Toast API integration client software must also be prepared to handle 5*`xx`* response codes, which indicate a potential problem in the Toast platform service.
 
@@ -49,17 +49,17 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
 
 | Status code | Name | Description | 
 | --- | --- | --- |
-| 400 | Bad Request | The API request triggered a known error.A 400 status code often occurs when the syntax of the request is incorrect or the body of a `POST` request is not structured correctly.You are responsible for evaluating the [error message](docs/en-us/apiDevGuide-apiResponsesAndErrors#apiErrorMessage) returned in the API error response in order for future API requests to avoid this error. | 
-| 401 | Unauthorized | The authentication token you submitted is not a recognized Toast API [authentication token](docs/en-us/apiDevGuide-authentication#getting-authentication-token).It is possible that you are submitting an authentication token that has expired and you need to request a new token. | 
-| 403 | Forbidden | You are not permitted to access the resource that you are attempting to access.This error often occurs when:- You try to access a restaurant that is not [connected to your integration](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants) (if using a [partner API client](docs/en-us/apiDevGuide-authentication#apiAuthenticationReturnDataPartner)).
-- You try to access a restaurant that is not [within the management group you work with](docs/en-us/apiDevGuide-apiRestaurantsInGroup) (if using a [restaurant management group client](docs/en-us/apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)).
+| 400 | Bad Request | The API request triggered a known error.A 400 status code often occurs when the syntax of the request is incorrect or the body of a `POST` request is not structured correctly.You are responsible for evaluating the [error message](apiDevGuide-apiResponsesAndErrors#apiErrorMessage) returned in the API error response in order for future API requests to avoid this error. | 
+| 401 | Unauthorized | The authentication token you submitted is not a recognized Toast API [authentication token](apiDevGuide-authentication#getting-authentication-token).It is possible that you are submitting an authentication token that has expired and you need to request a new token. | 
+| 403 | Forbidden | You are not permitted to access the resource that you are attempting to access.This error often occurs when:- You try to access a restaurant that is not [connected to your integration](apiDevGuide-apiPartnersGettingAccessibleRestaurants) (if using a [partner API client](apiDevGuide-authentication#apiAuthenticationReturnDataPartner)).
+- You try to access a restaurant that is not [within the management group you work with](apiDevGuide-apiRestaurantsInGroup) (if using a [restaurant management group client](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)).
 - Your API credentials do not have the proper authorization to use the API you are trying to use.
 
  | 
 | 404 | Not Found | You are attempting to access an unknown resource. This error often occurs if you send a request to an endpoint that does not exist. | 
-| 409 | Conflict | Your API request conflicts with the current state of Toast product data. For example, you might send a `PUT` request to update an employee's wage override for one of their jobs, but an earlier request removed the job from the employee.This error is also returned if a restaurant publishes changes to its configuration while you are retrieving paginated data from that restaurant. See [Managing 409 HTTP errors in paginated responses](docs/en-us/apiDevGuide-apiResponseDataPagination#apiPagination409HTTPErrors) for more information. | 
+| 409 | Conflict | Your API request conflicts with the current state of Toast product data. For example, you might send a `PUT` request to update an employee's wage override for one of their jobs, but an earlier request removed the job from the employee.This error is also returned if a restaurant publishes changes to its configuration while you are retrieving paginated data from that restaurant. See [Managing 409 HTTP errors in paginated responses](apiDevGuide-apiResponseDataPagination#apiPagination409HTTPErrors) for more information. | 
 | 422 | Unprocessable Entity | Your API request contains something that the Toast platform cannot process.A 422 HTTP response often occurs when an external partner tries to authorize a credit card transaction with `amount` and `tipAmount`values that are both $0. | 
-| 429 | Too Many Requests | You have exceeded your [rate limit](docs/en-us/apiDevGuide-apiRateLimiting) and must wait before sending more Toast API requests. | 
+| 429 | Too Many Requests | You have exceeded your [rate limit](apiDevGuide-apiRateLimiting) and must wait before sending more Toast API requests. | 
 | 499 | Client Closed Request | Your system closed the API request before the Toast platform was able to process the request. | 
 
 ### Server error

@@ -31,10 +31,10 @@ A single bump bar is designed to integrate with one KDS device. The bump bar inc
 
 In addition to the specific bump bar and overlay insert, your restaurant must use:
 
-- Grid view for KDS devices. For more information, see [Grid view for KDS](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSOverview).
+- Grid view for KDS devices. For more information, see [Grid view for KDS](adminGuide-platformKDSOverview#platformGridKDSOverview).
 
 
-- The local data synchronization method (otherwise known as offline mode with local sync). Local synchronization allows you to use KDS offline mode in the case of a connection outage. For more information, see [Offline mode with local sync](docs/en-us/adminGuide-platformOfflineModeLocalSync).
+- The local data synchronization method (otherwise known as offline mode with local sync). Local synchronization allows you to use KDS offline mode in the case of a connection outage. For more information, see [Offline mode with local sync](adminGuide-platformOfflineModeLocalSync).
 
 
 
@@ -119,7 +119,7 @@ When using the vertical layout with a wireless bump bar, the light indicator mus
 > The wireless bump bar is in limited release.
 
 
-For more information on how to set up the bump bar, see [Setting up the bump bar](docs/en-us/adminGuide-platformKitchenBumpBarSetUp).
+For more information on how to set up the bump bar, see [Setting up the bump bar](adminGuide-platformKitchenBumpBarSetUp).
 
 ## Understanding the button layout
 
@@ -147,7 +147,7 @@ The bump bar uses an overlay insert to label the bump bar buttons, with each but
 
 
 
-3. 1-10: The button selects the matching numbered ticket visible on the current page of the KDS device. Pressing the numbered button twice in quick succession fulfills the selected ticket. If fulfilled tickets are shown with the Show recently fulfilled view, the same action unfulfills the selected ticket. For more information about this setting, see [KDS interaction options](docs/en-us/adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefInteraction).
+3. 1-10: The button selects the matching numbered ticket visible on the current page of the KDS device. Pressing the numbered button twice in quick succession fulfills the selected ticket. If fulfilled tickets are shown with the Show recently fulfilled view, the same action unfulfills the selected ticket. For more information about this setting, see [KDS interaction options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefInteraction).
 
 - If a button does not have a corresponding ticket on the page, pressing the button has no effect.
 
@@ -191,10 +191,10 @@ The bump bar uses an overlay insert to label the bump bar buttons, with each but
 
 10. enter: This button's actions depend on your current configuration:
 
-- If [flashing for new tickets](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFlashChanges)is enabled and the ticket is flashing, selecting this button when the ticket is in focus acknowledges the ticket.
+- If [flashing for new tickets](adminGuide-adminKitchenDiningRoomReference#configFlashChanges)is enabled and the ticket is flashing, selecting this button when the ticket is in focus acknowledges the ticket.
 
 
-- If flashing for new tickets is not enabled or the ticket is not flashing, selecting this button opens the selected ticket to view individual items and ticket actions. If [individual item fulfillment](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems) is enabled, selecting enter again while an item is in focus selects the item so you can navigate to the Fulfill option to fulfill specific items.
+- If flashing for new tickets is not enabled or the ticket is not flashing, selecting this button opens the selected ticket to view individual items and ticket actions. If [individual item fulfillment](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) is enabled, selecting enter again while an item is in focus selects the item so you can navigate to the Fulfill option to fulfill specific items.
 
 
 

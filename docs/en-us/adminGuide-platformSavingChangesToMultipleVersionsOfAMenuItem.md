@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> This feature is in [limited release](docs/en-us/adminGuide-techReleaseNotesLimitedRelease).
+> This feature is in [limited release](adminGuide-techReleaseNotesLimitedRelease).
 
 
 The multi-location menu builder pages allow you to save changes to multiple versions of a menu item. For example, you can save pricing updates to one or more versions of a menu item, instead of viewing and updating each version separately.
@@ -41,7 +41,7 @@ When you select Save, the current and additional versions are updated according 
 
 **Procedure 8.39. To save changes to multiple versions of a menu item**
 
-1. Log in to [Toast Web](docs/en-us/adminGuide-adminToastPosAccessTypes).
+1. Log in to [Toast Web](adminGuide-adminToastPosAccessTypes).
 
 
 2. Go to Menus &gt; Bulk management &gt; Advanced Properties.
@@ -70,7 +70,7 @@ When you select Save, the current and additional versions are updated according 
 9. Select Save. You return to the menu item's page with a notification that your item has been updated across multiple versions.
 
 
-10. Publish your changes using the Toast account &gt; Publishing &gt; Publish config page. For more information, see [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations).
+10. Publish your changes using the Toast account &gt; Publishing &gt; Publish config page. For more information, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
 
 
 

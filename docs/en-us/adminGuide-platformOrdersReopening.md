@@ -17,7 +17,7 @@ codeExamples: 0
 
 You can reopen closed checks.
 
-For closed orders that are not yet restricted, the order details dialog in the Orders report displays a re-open check link next to each check. For more information, see [Working with restricted orders](docs/en-us/adminGuide-adminViewingRestrictedOrders).
+For closed orders that are not yet restricted, the order details dialog in the Orders report displays a re-open check link next to each check. For more information, see [Working with restricted orders](adminGuide-adminViewingRestrictedOrders).
 
 When you select re-open check, the Toast platform:
 

@@ -92,7 +92,7 @@ Alternatively to the up and down buttons, you can use the numbered buttons (1-10
 
 ![An example of tickets with bump bar numbers and the buttons they correspond to on the bump bar.](https://doc.toasttab.com/doc/media/kds-bump-bar-numbers.png)
 
-If there is no ticket number that corresponds to a numbered button, pressing that button has no effect. Depending on the [ticket size used for grid view](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSGridLayout), you can have a maximum of ten tickets per page.
+If there is no ticket number that corresponds to a numbered button, pressing that button has no effect. Depending on the [ticket size used for grid view](adminGuide-platformKDSOverview#platformGridKDSGridLayout), you can have a maximum of ten tickets per page.
 
 When viewing a ticket dialog, the up and down buttons rotate through the actions and items available. An option in focus is shaded differently while in focus. A selected item is shaded until the selection is removed. Here is an example of the ticket dialog with the Fulfilloption in focus and several items selected.
 
@@ -100,7 +100,7 @@ When viewing a ticket dialog, the up and down buttons rotate through the actions
 
 ## Acknowledging a flashing ticket
 
-If your restaurant configuration uses the [Flash Changes](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFlashChanges) setting, the ticket intermittently changes the color of the ticket header to indicate there are changes. You need to acknowledge a ticket to stop the flashing behavior.
+If your restaurant configuration uses the [Flash Changes](adminGuide-adminKitchenDiningRoomReference#configFlashChanges) setting, the ticket intermittently changes the color of the ticket header to indicate there are changes. You need to acknowledge a ticket to stop the flashing behavior.
 
 **Procedure 10.41. To acknowledge a flashing ticket**
 
@@ -164,13 +164,13 @@ The focus changes to the ticket you want to acknowledge.
 
 ## Printing a ticket using the bump bar
 
-If a kitchen printer is configured, you can choose to print specific tickets from your KDS device to your kitchen printer. For more information on configuring a kitchen printer, see [Adding a kitchen printer](docs/en-us/adminGuide-adminAddKitchenPrinter).
+If a kitchen printer is configured, you can choose to print specific tickets from your KDS device to your kitchen printer. For more information on configuring a kitchen printer, see [Adding a kitchen printer](adminGuide-adminAddKitchenPrinter).
 
 
 
 > **Note**
 > 
-> If every ticket needs to be printed, consider using the [Auto-print fulfilled tickets](docs/en-us/adminGuide-adminKdsConfigQuickRef#configKDSAutoPrintFulfilledTickets) setting.
+> If every ticket needs to be printed, consider using the [Auto-print fulfilled tickets](adminGuide-adminKdsConfigQuickRef#configKDSAutoPrintFulfilledTickets) setting.
 
 
 **Procedure 10.43. To print a ticket**
@@ -212,7 +212,7 @@ The focus changes to the ticket you want to acknowledge.
 
 ## Fulfilling a ticket using the bump bar
 
-You can fulfill a ticket, which marks all items on the ticket as fulfilled. For more information on what happens when fulfilling at a prep station, see [Understanding item fulfillment](docs/en-us/adminGuide-platformKitchenUnderstandingItemFulfillmentKDS).
+You can fulfill a ticket, which marks all items on the ticket as fulfilled. For more information on what happens when fulfilling at a prep station, see [Understanding item fulfillment](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS).
 
 There are two ways to fulfill a ticket:
 
@@ -225,7 +225,7 @@ There are two ways to fulfill a ticket:
 
 ## Fulfilling an item or items using the bump bar
 
-If your restaurant configuration enables the [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting, you can choose to fulfill individual items on a ticket instead of the entire ticket.
+If your restaurant configuration enables the [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting, you can choose to fulfill individual items on a ticket instead of the entire ticket.
 
 **Procedure 10.44. To fulfill an item or items**
 
@@ -355,5 +355,5 @@ The ticket dialog closes. The changes to the ticket depend on the fulfillment st
 
 ## Recall the most recently fulfilled ticket using the bump bar
 
-To recall the ticket most recently fulfilled on a device, press the RECALL LAST button. For more information about recall behavior, see [Redisplaying tickets with recall and unfulfill](docs/en-us/adminGuide-adminRedisplayingTickets).
+To recall the ticket most recently fulfilled on a device, press the RECALL LAST button. For more information about recall behavior, see [Redisplaying tickets with recall and unfulfill](adminGuide-adminRedisplayingTickets).
 

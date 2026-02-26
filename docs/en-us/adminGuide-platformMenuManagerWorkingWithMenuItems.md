@@ -26,12 +26,12 @@ Use the procedure below to add a new menu item.
 
 > **Note**
 > 
-> To reduce the number of menu items you have to manage, [add existing menu items](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerAddingAnExistingMenuItem) whenever possible instead of creating new ones.
+> To reduce the number of menu items you have to manage, [add existing menu items](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerAddingAnExistingMenuItem) whenever possible instead of creating new ones.
 
 
 For multi-location restaurants:
 
-- Newly created menu items inherit the target and owner of their parent menu group by default. For more information, see [Defaults for targets and owners](docs/en-us/adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants#platformMenuManagerDefaultsForTargetsAndOwners).
+- Newly created menu items inherit the target and owner of their parent menu group by default. For more information, see [Defaults for targets and owners](adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants#platformMenuManagerDefaultsForTargetsAndOwners).
 
 
 - You must have the Edit Full Menupermission to the owner of a menu group in order to add a new menu item to it.
@@ -40,7 +40,7 @@ For multi-location restaurants:
 
 **Procedure 8.59. To add a new menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -49,10 +49,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group you want to add an item to.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group you want to add an item to.
 
 
 6. Select + Add item and enter a name for the menu item. A dropdown list appears that has a Create new option followed by a list of any existing menu items that match the text you entered.
@@ -62,13 +62,13 @@ For multi-location restaurants:
 
 7. After you are done entering the item name, select the Create new option (alternatively, you can press the Enter key). A side panel opens for the menu item and you are automatically scrolled to the Pricing section for the new menu item where you can quickly enter a price for the new item.
 
-If you need to specify any other menu item configurations, scroll to the appropriate section of the side panel and make your changes. See the other sections in [Working with menu items](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems) for more details on additional configurations.
+If you need to specify any other menu item configurations, scroll to the appropriate section of the side panel and make your changes. See the other sections in [Working with menu items](adminGuide-platformMenuManagerWorkingWithMenuItems) for more details on additional configurations.
 
 
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -88,16 +88,16 @@ When reusing a menu item in multiple menu groups, keep in mind that:
 - When you edit the menu item, it is edited for all the menu groups that use it.
 
 
-- When you [remove the menu item](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerRemovingAMenuItemFromAMenuGroup) from one of the menu groups, the other menu groups continue to use it.
+- When you [remove the menu item](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerRemovingAMenuItemFromAMenuGroup) from one of the menu groups, the other menu groups continue to use it.
 
 
-- When you [archive a menu item](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerArchivingAMenuItem), it is removed from all menu groups that use it.
+- When you [archive a menu item](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerArchivingAMenuItem), it is removed from all menu groups that use it.
 
 
 
 **Procedure 8.60. To add an existing menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -106,7 +106,7 @@ When reusing a menu item in multiple menu groups, keep in mind that:
 3. From the Show section, choose Full menu.
 
 
-4. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group you want to add an existing item to.
+4. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate and expand the menu group you want to add an existing item to.
 
 
 5. Select + Add item and enter a name for the menu item. A dropdown list appears that has a Create new option followed by a list of any existing menu items that match the text you entered.
@@ -117,7 +117,7 @@ When reusing a menu item in multiple menu groups, keep in mind that:
 6. Select the existing item you want to add. Alternatively, use the down arrow to highlight the existing item and then press the Enter key. Your changes are automatically saved.
 
 
-7. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+7. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -127,7 +127,7 @@ Follow the procedure below to rename a menu item.
 
 **Procedure 8.61. To rename a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -136,10 +136,10 @@ Follow the procedure below to rename a menu item.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the menu item's name to open its side panel.
@@ -151,7 +151,7 @@ Follow the procedure below to rename a menu item.
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -170,7 +170,7 @@ You can reorder menu items within a single menu group. You cannot move a menu it
 
 **Procedure 8.62. To reorder a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -179,7 +179,7 @@ You can reorder menu items within a single menu group. You cannot move a menu it
 3. From the Show section, choose Full menu.
 
 
-4. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to reorder.
+4. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to reorder.
 
 
 5. Select the menu item's reorder icon and drag it to its new location. Your changes are automatically saved.
@@ -187,7 +187,7 @@ You can reorder menu items within a single menu group. You cannot move a menu it
 ![The location of the reorder icon for a menu item you want to move.](https://doc.toasttab.com/doc/media/menu-manager-menu-item-reorder-button.png)
 
 
-6. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+6. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -213,12 +213,12 @@ For multi-location restaurants:
 
 > **Note**
 > 
-> To remove a menu item from *all* menu groups that use it, you must archive it. For more information, see [Archiving a menu item](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerArchivingAMenuItem).
+> To remove a menu item from *all* menu groups that use it, you must archive it. For more information, see [Archiving a menu item](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerArchivingAMenuItem).
 
 
 **Procedure 8.63. To remove a menu item from a menu group**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -227,10 +227,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to remove.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to remove.
 
 
 6. Select the menu item's overflow menu (...) and choose Remove menu item. Your changes are automatically saved.
@@ -238,7 +238,7 @@ For multi-location restaurants:
 ![The location of the overflow menu for a menu item you want to remove.](https://doc.toasttab.com/doc/media/menu-manager-menu-item-overflow-button.png)
 
 
-7. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+7. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -271,7 +271,7 @@ For multi-location restaurants:
 
 **Procedure 8.64. To archive a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -280,10 +280,10 @@ For multi-location restaurants:
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to archive.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to archive.
 
 
 6. Select the menu item's overflow menu (...) and choose Archive menu item.
@@ -294,7 +294,7 @@ For multi-location restaurants:
 7. To confirm, select Archive in the Archive the item dialog. Your changes are automatically saved.
 
 
-8. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+8. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -306,7 +306,7 @@ A menu item must be saved at least once before you can update its stock status.
 
 **Procedure 8.65. To set stock status for a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -315,10 +315,10 @@ A menu item must be saved at least once before you can update its stock status.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel, then select the stock dropdown list.
@@ -356,23 +356,23 @@ You can edit menu items that are *priced individually* from either Full menu vie
 
 > **Note**
 > 
-> Items that inherit their prices from a parent menu group are not editable in the menu manager. You must edit these items in their [classic menu item details pages](docs/en-us/adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) instead.
+> Items that inherit their prices from a parent menu group are not editable in the menu manager. You must edit these items in their [classic menu item details pages](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages) instead.
 
 
 Full menu view and Itemsview have different pricing capabilities:
 
-- In Full menu view, you can edit items that use the Base, Size, or Open pricing strategy. You must [manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) pricing changes you make in Full menu view. Full menu view does not support scheduled publishing.
+- In Full menu view, you can edit items that use the Base, Size, or Open pricing strategy. You must [manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) pricing changes you make in Full menu view. Full menu view does not support scheduled publishing.
 
 
-- In Items view, you can edit items that use the Base, Size, Menu-specific or Location-specific pricing strategy. You can manually publish pricing changes you make in Items view or [schedule them for future publishing](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
+- In Items view, you can edit items that use the Base, Size, Menu-specific or Location-specific pricing strategy. You can manually publish pricing changes you make in Items view or [schedule them for future publishing](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
-Follow the procedure below for the view you want to use, [Full menu](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsPriceInFullMenuView) view or [Items](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsPriceInItemsView)view.
+Follow the procedure below for the view you want to use, [Full menu](adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsPriceInFullMenuView) view or [Items](adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsPriceInItemsView)view.
 
 **Procedure 8.66. To edit a menu item's price in Full menu view**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -381,10 +381,10 @@ Follow the procedure below for the view you want to use, [Full menu](docs/en-us/
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel, then scroll to the Pricing section.
@@ -412,20 +412,20 @@ Note that open prices are not supported for Toast Online Ordering, so you should
 
 > **Note**
 > 
-> You can use the classic menu item details page to set other advanced pricing strategies for a menu item, for example, time-specific prices. To create a menu item with one of these other advanced prices, you must first create the menu item with a base price, save it, and then edit it to add the advanced price. For more information, see [Using advanced pricing strategies for menu items](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#adminUsingAdvancedPricingStrategiesForMenuItemsMenuManager).
+> You can use the classic menu item details page to set other advanced pricing strategies for a menu item, for example, time-specific prices. To create a menu item with one of these other advanced prices, you must first create the menu item with a base price, save it, and then edit it to add the advanced price. For more information, see [Using advanced pricing strategies for menu items](adminGuide-platformMenuManagerWorkingWithMenuItems#adminUsingAdvancedPricingStrategiesForMenuItemsMenuManager).
 
 
 
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 **Procedure 8.67. To edit a menu item's price in Items view**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -434,7 +434,7 @@ Note that open prices are not supported for Toast Online Ordering, so you should
 3. From the Show section, choose Items.
 
 
-4. Use the [search field](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of menu items.
+4. Use the [search field](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of menu items.
 
 
 5. Make your price edits:
@@ -448,26 +448,26 @@ Note that open prices are not supported for Toast Online Ordering, so you should
 
 > **Note**
 > 
-> Items view only allows you to edit size prices that are already defined on a menu item's details page. If you need to add a price for another size, you must add the size's price on the details page first, before it is visible and available for editing in Items view. The same is true for menu-specific and location-specific prices. If you need to add a price for another menu or location, you must add the price on the details page first. For more information on adding size prices, see [Configuring size pricing on menu groups and menu items](docs/en-us/adminGuide-adminSizePrice#adminConfiguringSizePricingOnMenuGroupsAndMenuItems). For more information on adding menu-specific prices, see [Menu-specific price](docs/en-us/adminGuide-adminMenuSpecificPrice). For more information on adding location-specific prices, see [Enabling and setting location-specific prices](docs/en-us/adminGuide-adminEnablingAndSettingLocationSpecificPrices).
+> Items view only allows you to edit size prices that are already defined on a menu item's details page. If you need to add a price for another size, you must add the size's price on the details page first, before it is visible and available for editing in Items view. The same is true for menu-specific and location-specific prices. If you need to add a price for another menu or location, you must add the price on the details page first. For more information on adding size prices, see [Configuring size pricing on menu groups and menu items](adminGuide-adminSizePrice#adminConfiguringSizePricingOnMenuGroupsAndMenuItems). For more information on adding menu-specific prices, see [Menu-specific price](adminGuide-adminMenuSpecificPrice). For more information on adding location-specific prices, see [Enabling and setting location-specific prices](adminGuide-adminEnablingAndSettingLocationSpecificPrices).
 
 
 
 
 > **Note**
 > 
-> If a menu item is versioned, all of its versions that use location-specific pricing use the *same location-specific prices*. In this situation, the versioned menu item appears on multiple rows on the Items view, one row per version, and the location-specific prices associated with the versions are identical. If you edit the location-specific prices for one version, they are edited for all versions. For more information, see [Location-specific prices and versions](docs/en-us/adminGuide-adminLocationSpecificPricesAndVersions).
+> If a menu item is versioned, all of its versions that use location-specific pricing use the *same location-specific prices*. In this situation, the versioned menu item appears on multiple rows on the Items view, one row per version, and the location-specific prices associated with the versions are identical. If you edit the location-specific prices for one version, they are edited for all versions. For more information, see [Location-specific prices and versions](adminGuide-adminLocationSpecificPricesAndVersions).
 
 
 
 
 
-6. Continue reading the [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to employees and guests.
+6. Continue reading the [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to employees and guests.
 
 
 
 > **Important**
 > 
-> Items view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that publishes your changes at a later date and time. In Items view, you *either* select Scheduleto create a change set *or*Save to save your changes immediately. If you select Save, your changes are saved immediately and you will not be able to create a change set. Do not select Save in Itemsview until you fully understand the publishing workflows described in [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
+> Items view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that publishes your changes at a later date and time. In Items view, you *either* select Scheduleto create a change set *or*Save to save your changes immediately. If you select Save, your changes are saved immediately and you will not be able to create a change set. Do not select Save in Itemsview until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
@@ -478,7 +478,7 @@ Toast support recommends adding images to your menu items to make them more appe
 
 **Procedure 8.68. To specify an image for a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -487,10 +487,10 @@ Toast support recommends adding images to your menu items to make them more appe
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel.
@@ -505,7 +505,7 @@ Toast support recommends adding images to your menu items to make them more appe
 9. Select Save.
 
 
-10. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+10. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -515,7 +515,7 @@ Use the procedure below to add a description to a menu item.
 
 **Procedure 8.69. To add a menu item description**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -524,10 +524,10 @@ Use the procedure below to add a description to a menu item.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel.
@@ -539,7 +539,7 @@ Use the procedure below to add a description to a menu item.
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -552,7 +552,7 @@ You can customize the names and colors of the buttons employees see in the Toast
 Enter a name in the POS name field. To specify a button color, select the Button coloroption and then select a color from the color palette.
 
 
-- For modifiers, go to [the Edit modifier dialog](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#platformEditingAModifiersDetails) for the modifier, select the POS button color option and then select a color from the color palette. Modifiers do not have a POS name. The Toast POS app displays the Modifier name.
+- For modifiers, go to [the Edit modifier dialog](adminGuide-adminAddingModifierGroupsAndModifiers#platformEditingAModifiersDetails) for the modifier, select the POS button color option and then select a color from the color palette. Modifiers do not have a POS name. The Toast POS app displays the Modifier name.
 
 
 
@@ -564,7 +564,7 @@ Use the procedure below to specify the calorie count for a menu item.
 
 **Procedure 8.70. To specify calories for a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -573,10 +573,10 @@ Use the procedure below to specify the calorie count for a menu item.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel.
@@ -588,7 +588,7 @@ Use the procedure below to specify the calorie count for a menu item.
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -598,7 +598,7 @@ Use the procedure below to specify a PLU or SKU for a menu item.
 
 **Procedure 8.71. To add a PLU or SKU for a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -607,10 +607,10 @@ Use the procedure below to specify a PLU or SKU for a menu item.
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel.
@@ -622,7 +622,7 @@ Use the procedure below to specify a PLU or SKU for a menu item.
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -641,7 +641,7 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 
 **Procedure 8.72. To assign alcohol labeling to a menu item**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -650,10 +650,10 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel.
@@ -665,7 +665,7 @@ Identifying alcoholic items makes it easier for online ordering partners to comp
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -683,7 +683,7 @@ You can specify a kitchen name for a menu item. The kitchen name is used instead
 
 **Procedure 8.73. To specify a different name and color for KDS devices and kitchen tickets**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -692,10 +692,10 @@ You can specify a kitchen name for a menu item. The kitchen name is used instead
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. Select the item to see its details in the side panel, then scroll to the Kitchen section.
@@ -707,7 +707,7 @@ You can specify a kitchen name for a menu item. The kitchen name is used instead
 8. Select Save.
 
 
-9. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+9. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -729,11 +729,11 @@ You can add a recipe to a menu item that can then be viewed on KDS devices. Reci
 
 
 
-Toast support also recommends using a resolution that allows text to be readable on a standard screen and the image orientation be in portrait mode. For information about how to access the recipe on KDS devices, see [Viewing recipes](docs/en-us/adminGuide-platformKDSOverview#platformKitchenKDSViewRecipes).
+Toast support also recommends using a resolution that allows text to be readable on a standard screen and the image orientation be in portrait mode. For information about how to access the recipe on KDS devices, see [Viewing recipes](adminGuide-platformKDSOverview#platformKitchenKDSViewRecipes).
 
 **Procedure 8.74. To add a recipe to a menu item for viewing on KDS devices**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -742,7 +742,7 @@ Toast support also recommends using a resolution that allows text to be readable
 3. From the Show section, choose Full menu.
 
 
-4. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+4. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 5. Select the item to see its details in the side panel, then scroll to the Kitchen section.
@@ -780,7 +780,7 @@ Toast support also recommends using a resolution that allows text to be readable
 ![The Recipe View section of a menu item, with the recipe toggled to be active on KDS devices.](https://doc.toasttab.com/doc/media/menu-manager-recipe-view-active-toggle.png)
 
 
-13. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+13. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
@@ -795,7 +795,7 @@ You use prep stations to route menu items to the appropriate stations in the kit
 > If a menu item does not have any prep stations assigned to it, the Toast platform automatically routes that menu item to all prep stations.
 
 
-You can set prep stations at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit prep stations from their parent menus. Menu items and subgroups inherit prep stations from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+You can set prep stations at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit prep stations from their parent menus. Menu items and subgroups inherit prep stations from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 To set prep stations for a menu, go to the Kitchen prep section of the menu's details page and select the prep stations to which items ordered from the menu should be routed.
 
@@ -813,13 +813,13 @@ To override the inherited prep stations for a menu item, go to the Kitchen secti
 
 To configure a menu item to inherit its prep stations, set the Inherit prep stations? setting to Yes.
 
-If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](docs/en-us/adminGuide-adminAddPrepStation) and [Routing with prep stations](docs/en-us/adminGuide-adminRoutingToPrepStations).
+If you do not have any prep stations configured yet, use the Manage prep stations link to go to the Prep Stations page where you can create them. For more information on creating and using prep stations, see [Adding a prep station](adminGuide-adminAddPrepStation) and [Routing with prep stations](adminGuide-adminRoutingToPrepStations).
 
 ## Assigning courses
 
 You use courses to manage the firing of tickets to the kitchen for fulfillment.
 
-You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+You can set courses at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their course from their parent menus. Menu items and subgroups inherit their course from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 To set the course for a menu, go to the Kitchen prep section of the menu's details page and select the course.
 
@@ -837,7 +837,7 @@ To override the inherited course for a menu item, go to the Kitchen section on i
 
 To configure a menu item so that it inherits its course, set the Inherit course? setting to Yes.
 
-If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](docs/en-us/adminGuide-adminAssigningCourses#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
+If you do not have any courses configured yet, use the Manage courses link to go to the Courses page where you can create them. For more information on creating courses, see [Creating courses](adminGuide-adminAssigningCourses#platformGuideCreatingCoursesMenuBuilder). For more information on using courses, see this [Toast Central article](https://central.toasttab.com/s/article/Course-Firing-Options).
 
 ### Creating courses
 
@@ -851,7 +851,7 @@ If you are viewing a menu item in the menu builder, select Kitchen. If you are v
 
 Alternatively, you can do the following:
 
-- [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -897,7 +897,7 @@ For information about the reports that use sales categories, see these Toast Cen
 
 
 
-You can set sales categories at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their sales category from their parent menus. Menu items and subgroups inherit their sales category from their parent menu groups. For more information on inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+You can set sales categories at the menu, menu group, subgroup, or menu item level. By default, menu groups inherit their sales category from their parent menus. Menu items and subgroups inherit their sales category from their parent menu groups. For more information on inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 To set the sales category for a menu, go to the Reporting section of the menu's details page and select the category from the Sales category dropdown list.
 
@@ -915,7 +915,7 @@ To override the inherited sales category for a menu item, go to the Reporting se
 
 To configure a menu item so that it inherits its sales category, set the Inherit sales category? setting to Yes.
 
-If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](docs/en-us/adminGuide-adminAssigningSalesCategories#platformCreatingSalesCategoriesMenuBuilder).
+If you do not have any sales categories configured yet, use the Manage sales categories link to go to the Sales categories page where you can create them. For more information on creating sales categories, see [Creating sales categories](adminGuide-adminAssigningSalesCategories#platformCreatingSalesCategoriesMenuBuilder).
 
 ### Creating sales categories
 
@@ -929,7 +929,7 @@ On the details page for a menu, menu group, or menu item, select Reporting. In t
 
 Alternatively, you can:
 
-- [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+- [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 - Switch to the restaurant you want to create courses for.
@@ -968,17 +968,17 @@ You can override tax rates on individual menus, menu groups, subgroups, or menu 
 
 In addition to tax rates, Toast Web includes two tax behavior settings that allow you to specify that taxes are included in a menu item's price and takeout orders are exempt from taxes. You can set the tax behavior settings at the menu, menu group, subgroup, or menu item level and they follow the same rules of inheritance as tax rates. You can override these settings as needed on individual menu entities.
 
-For more information on menu inheritance, see [Understanding inheritance](docs/en-us/adminGuide-platformUnderstandingInheritance).
+For more information on menu inheritance, see [Understanding inheritance](adminGuide-platformUnderstandingInheritance).
 
 The following sections provide instructions for setting tax rates and behavior. They also provide more information about the tax behavior settings.
 
-- [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior)
+- [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior)
 
 
-- [Understanding tax inclusion](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTaxInclusion)
+- [Understanding tax inclusion](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTaxInclusion)
 
 
-- [Understanding takeout tax exception](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTakeoutTaxException)
+- [Understanding takeout tax exception](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformUnderstandingTakeoutTaxException)
 
 
 
@@ -998,7 +998,7 @@ To override the inherited tax rates for a menu item, go to the Tax settings sect
 
 To configure a menu item so that it inherits its tax rates, set the Inherit tax rates? setting to Yes. To inherit the Tax inclusion or Takeout tax exceptionsetting, set the Inherit tax inclusion? or Inherit takeout tax? setting to Yes.
 
-If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](docs/en-us/adminGuide-adminTaxesOverview).
+If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminGuide-adminTaxesOverview).
 
 ### Understanding tax inclusion
 
@@ -1030,15 +1030,15 @@ When tax is not included, the guest pays $10.70 ($10 for the item and $0.70 for 
 
 Your sales reports display the item price and tax amount that the Toast platform has calculated for any tax included items, so you can see the breakdown of revenue versus tax when tax is included.
 
-For information on enabling tax inclusion, see [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
+For information on enabling tax inclusion, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 
 ### Understanding takeout tax exception
 
 For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
 
-For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
+For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 
-For more information on dining options, see [Dining options](docs/en-us/adminGuide-adminDiningOptions).
+For more information on dining options, see [Dining options](adminGuide-adminDiningOptions).
 
 ## Setting time-based ordering rules for online orders
 
@@ -1133,26 +1133,26 @@ Unlike other settings such as tax rates and prep stations, the Channel visibilit
 
 You can edit a menu item's visibility from Full menu view or from Items view. You can set the same visibility options in the two views but the way you publish those changes is different:
 
-- You must [manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) visibility changes you make in Full menu view. Full menu view does not support scheduled publishing.
+- You must [manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) visibility changes you make in Full menu view. Full menu view does not support scheduled publishing.
 
 
-- You can manually publish visibility changes you make in Items view or [schedule them for future publishing](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
+- You can manually publish visibility changes you make in Items view or [schedule them for future publishing](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
-Follow the procedure below for the view you want to use, [Full menu](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsVisibilityInFullMenuView) view or [Items](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsVisibilityInItemsView)view.
+Follow the procedure below for the view you want to use, [Full menu](adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsVisibilityInFullMenuView) view or [Items](adminGuide-platformMenuManagerWorkingWithMenuItems#platformToEditAMenuItemsVisibilityInItemsView)view.
 
 
 
 > **Note**
 > 
 > Multi-location restaurants must use Itemsview to edit item visibility. They cannot edit visibility in Full menu view yet.
-> Also, the following procedures let you make visibility updates to individual menu items. Use the bulk editing feature to make the *same* visibility edits to multiple menu items at one time. For more information, see [Making bulk edits](docs/en-us/adminGuide-platformMenuManagerMakingBulkEdits).
+> Also, the following procedures let you make visibility updates to individual menu items. Use the bulk editing feature to make the *same* visibility edits to multiple menu items at one time. For more information, see [Making bulk edits](adminGuide-platformMenuManagerMakingBulkEdits).
 
 
 **Procedure 8.79. To edit a menu item's visibility in Full menu view**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -1173,13 +1173,13 @@ Follow the procedure below for the view you want to use, [Full menu](docs/en-us/
 7. Select Save.
 
 
-8. [Manually publish](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
+8. [Manually publish](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) your changes when you are ready for guests and employees to see them.
 
 
 
 **Procedure 8.80. To edit a menu item's visibility in Items view**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -1188,19 +1188,19 @@ Follow the procedure below for the view you want to use, [Full menu](docs/en-us/
 3. From the Show section, choose Items.
 
 
-4. Use the [search field](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of menu items.
+4. Use the [search field](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of menu items.
 
 
 5. Select a menu item's Visibility column and enable or disable the visibility settings as needed. Repeat this step with any other menu items that require visibility updates.
 
 
-6. Continue reading the [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to employees and guests.
+6. Continue reading the [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges) section to understand how to make your menu changes available to employees and guests.
 
 
 
 > **Important**
 > 
-> Items view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that publishes your changes at a later date and time. In Items view, you *either* select Scheduleto create a change set *or*Save to save your changes immediately. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in Itemsview until you fully understand the publishing workflows described in [Publishing menu manager changes](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
+> Items view offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that publishes your changes at a later date and time. In Items view, you *either* select Scheduleto create a change set *or*Save to save your changes immediately. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in Itemsview until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
@@ -1265,13 +1265,13 @@ It is important to note that not all pricing strategies are supported on all Toa
 
  | Classic menu item details page | 
 
-For detailed information about setting base, size, and open prices in the Full menu view of the menu manager, see [Editing a menu item's price](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerEditingAMenuItemsPrice). This same topic provides information about editing existing size, location-specific, and menu-specific prices in Items view.
+For detailed information about setting base, size, and open prices in the Full menu view of the menu manager, see [Editing a menu item's price](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerEditingAMenuItemsPrice). This same topic provides information about editing existing size, location-specific, and menu-specific prices in Items view.
 
 Follow the instructions below to access the classic details page for a menu item, where you can configure all advanced pricing strategies.
 
 **Procedure 8.81. To set an advanced price using the classic menu item details page**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
@@ -1280,10 +1280,10 @@ Follow the instructions below to access the classic details page for a menu item
 3. From the Show section, choose Full menu.
 
 
-4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
+4. (Multi-location only) Select the locations whose menu data you want to edit from the [locations control](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringByLocation).
 
 
-5. Use the [expand icons](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
+5. Use the [expand icons](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformMenuManagerExpandingAndCollapsingRows) to locate the item you want to edit.
 
 
 6. If you are a single-location restaurant, select the item to see its side panel, then select More settingsto open its classic details page.
@@ -1298,13 +1298,13 @@ If you are a multi-location restaurant, select the item's name to open its class
 
 - In the Pricing Strategy section, choose the advanced pricing strategy and fill out its configuration details. Click a link below for specific instructions for each strategy type:
 
-- [Menu Specific Price](docs/en-us/adminGuide-adminMenuSpecificPrice#adminToCreateMenuSpecificPricesForAMenuItem)
+- [Menu Specific Price](adminGuide-adminMenuSpecificPrice#adminToCreateMenuSpecificPricesForAMenuItem)
 
 
-- [Time Specific Price](docs/en-us/adminGuide-adminTimeSpecificPrice#adminToCreateTimeSpecificPricesForAMenuGroupOrMenuItem)
+- [Time Specific Price](adminGuide-adminTimeSpecificPrice#adminToCreateTimeSpecificPricesForAMenuGroupOrMenuItem)
 
 
-- [Location Specific Price](docs/en-us/adminGuide-adminEnablingAndSettingLocationSpecificPrices)
+- [Location Specific Price](adminGuide-adminEnablingAndSettingLocationSpecificPrices)
 
 
 
@@ -1317,7 +1317,7 @@ If you are a multi-location restaurant, select the item's name to open its class
 
 > **Note**
 > 
-> Price levels must be created before you can assign them to your menu items. Currently, price level creation must be done in the classic menu details pages in Toast Web. For instructions on how to create price levels, see [Using price levels](docs/en-us/adminGuide-adminUsingPriceLevels).
+> Price levels must be created before you can assign them to your menu items. Currently, price level creation must be done in the classic menu details pages in Toast Web. For instructions on how to create price levels, see [Using price levels](adminGuide-adminUsingPriceLevels).
 
 
 
@@ -1329,13 +1329,13 @@ If you are a multi-location restaurant, select the item's name to open its class
 - If you have a single location, select Publish now.
 
 
-- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account &gt; Publishing &gt; Publish Config page. Follow the instructions in [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
+- If you have multiple locations, select the Unpublished changes link at the top of the page to go to the Toast account &gt; Publishing &gt; Publish Config page. Follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
 
 
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](docs/en-us/adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit configuration pages in Toast Web publishes changes to the [session restaurant](adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 
@@ -1344,5 +1344,5 @@ If you are a multi-location restaurant, select the item's name to open its class
 
 ## Viewing read-only menu item information in Items view
 
-The Items view of the menu manager provides additional read-only information about menu items. For example, the Found in column displays information about where a menu item appears in the menu hierarchy. For more information, see [Items and modifiers view](docs/en-us/adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns).
+The Items view of the menu manager provides additional read-only information about menu items. For example, the Found in column displays information about where a menu item appears in the menu hierarchy. For more information, see [Items and modifiers view](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns).
 

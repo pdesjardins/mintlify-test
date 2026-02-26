@@ -54,7 +54,7 @@ For example, in the salad dressings modifier group, a modifier might be the bals
 **`quantity`**
 : The quantity for the modifier.
 
-The quantity must match the quantity of the menu item selection. See [Requirements for modifier quantities](docs/en-us/apiDevGuide-apiSpecifyingModifiersAndInstructions#requirementsforModifierQuantities).
+The quantity must match the quantity of the menu item selection. See [Requirements for modifier quantities](apiDevGuide-apiSpecifyingModifiersAndInstructions#requirementsforModifierQuantities).
 
 
 
@@ -214,7 +214,7 @@ You must include specific identifiers when a modifier meets the following condit
 - The modifier is nested (it exists inside a parent modifier's modifiers array).
 
 
-- The parent modifier's modifier options are sourced from a reused menu group. For example, the modifier options for a side salad modifier might be sourced from a Salads menu group. For more information about reusing menu groups, see [Adding modifier groups and modifiers](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers).
+- The parent modifier's modifier options are sourced from a reused menu group. For example, the modifier options for a side salad modifier might be sourced from a Salads menu group. For more information about reusing menu groups, see [Adding modifier groups and modifiers](adminGuide-adminAddingModifierGroupsAndModifiers).
 
 
 
@@ -409,7 +409,7 @@ For example, for a pineapple and jalapeno pizza menu item, the default modifiers
 
 ### Applying modifiers to menu item portions
 
-You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [Portions overview](docs/en-us/adminGuide-adminPortionsOverview).
+You can configure portions for menu items. For example, a pizza menu item might be divided into portions named "half one" and "half two." You can then apply different modifiers to each portion. For information on menu portions, see [Portions overview](adminGuide-adminPortionsOverview).
 
 When you create an order in the orders API, to add portions and modifiers for those portions:
 

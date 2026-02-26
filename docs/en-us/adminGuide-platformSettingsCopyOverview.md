@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-For settings that are not shared across locations (in other words, do not use [owners](docs/en-us/adminGuide-ownersAndPermissions) and [targets](docs/en-us/adminGuide-targets) to apply settings to multiple locations), you can use the settings copy feature to apply settings used at one location to another location or locations. Choose Toast account &gt; Business and location management &gt; Settings copy tool to open the Settings copy page.
+For settings that are not shared across locations (in other words, do not use [owners](adminGuide-ownersAndPermissions) and [targets](adminGuide-targets) to apply settings to multiple locations), you can use the settings copy feature to apply settings used at one location to another location or locations. Choose Toast account &gt; Business and location management &gt; Settings copy tool to open the Settings copy page.
 
 
 
@@ -37,5 +37,5 @@ If you own multiple locations, there are two methods you can use to apply settin
 
 Only one method is available for each setting.
 
-Unlike when targets and owners are used, once you copy settings using the settings copy tool, changing those settings does not affect other locations. Settings are copied from the [session restaurant](docs/en-us/adminGuide-sessionRestaurant).
+Unlike when targets and owners are used, once you copy settings using the settings copy tool, changing those settings does not affect other locations. Settings are copied from the [session restaurant](adminGuide-sessionRestaurant).
 

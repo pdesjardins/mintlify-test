@@ -17,13 +17,13 @@ codeExamples: 0
 
 The menu manager offers several workflows for saving and publishing your menu changes. With the menu manager, you can:
 
-- [Create a new change set](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager) from the Menu manager page that is saved and published at a later date and time.
+- [Create a new change set](adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager) from the Menu manager page that is saved and published at a later date and time.
 
 
-- [Add the menu manager changes to an existing change set](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformAddingChangesToAnExistingChangeSetMenuManager) that is published at a later date and time.
+- [Add the menu manager changes to an existing change set](adminGuide-platformPublishingMenuManagerChanges#platformAddingChangesToAnExistingChangeSetMenuManager) that is published at a later date and time.
 
 
-- [Save your changes and manually publish them](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) when you are ready to make them visible.
+- [Save your changes and manually publish them](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager) when you are ready to make them visible.
 
 
 
@@ -33,20 +33,20 @@ The sections below describe how to use these workflows.
 
 > **Note**
 > 
-> You cannot add changes made on the Full menuview to a change set. They must be saved and [manually published](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot add changes made on the Full menuview to a change set. They must be saved and [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 ## Creating a new change set
 
 A change set stores the configuration edits you make but it does not save and publish them until a date and time that you specify. When that date and time occurs, the Toast platform saves the changes in the change set and then immediately publishes them to all affected locations, making them available to restaurant employees and guests.
 
-When you create a new change set, you give it an identifying name and a publishing date and time (alternatively, you can just give the change set a name and defer setting a date and time until later). This workflow is called scheduled publishing. For more information, see [Understanding scheduled publishing and change sets](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
+When you create a new change set, you give it an identifying name and a publishing date and time (alternatively, you can just give the change set a name and defer setting a date and time until later). This workflow is called scheduled publishing. For more information, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
 
 
 
 > **Note**
 > 
-> You cannot add changes made on the Full menu view to a change set. They must be saved and [manually published](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot add changes made on the Full menu view to a change set. They must be saved and [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 **Procedure 8.101. To create a new change set for menu manager changes**
@@ -64,7 +64,7 @@ When you create a new change set, you give it an identifying name and a publishi
 
 The time zone is the current time zone from your browser. Be sure to take that into account when you select the publication time. For example, if you are in the Pacific time zone, but are scheduling a change set for locations in the Eastern time zone, then to publish the change set at 4:00 AM Eastern, set the scheduled publication for 1:00 AM Pacific.
 
-Alternatively, you can select I'll schedule this later and then [edit the change set later to set its date and time](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime).
+Alternatively, you can select I'll schedule this later and then [edit the change set later to set its date and time](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime).
 
 
 5. Select Create and add [X] changes.
@@ -73,19 +73,19 @@ A calendar icon is added next to each menu entity that has been updated. The cal
 
 ![The location of the calendar icon for a menu item.](https://doc.toasttab.com/doc/media/menu-manager-changeset-indicator.png)
 
-You can select the calendar icon to open a list of the change sets that the updated menu entity is included in. Select a change set from that list to view and [edit it](docs/en-us/adminGuide-platformWorkingWithMenuManagerChangeSets#platformEditingAMenuManagerChangeSet).
+You can select the calendar icon to open a list of the change sets that the updated menu entity is included in. Select a change set from that list to view and [edit it](adminGuide-platformWorkingWithMenuManagerChangeSets#platformEditingAMenuManagerChangeSet).
 
 
 
 ## Adding changes to an existing change set
 
-You can add edits made on the Menu managerpage to an existing change set that has not been published yet. As described in [Creating a new change set](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager), you can create a change set from the Menu manager page, but they can also be created from the publishing center page. See [Publishing center overview](docs/en-us/adminGuide-platformPublishingCenterOverview)for more information about the publishing center.
+You can add edits made on the Menu managerpage to an existing change set that has not been published yet. As described in [Creating a new change set](adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager), you can create a change set from the Menu manager page, but they can also be created from the publishing center page. See [Publishing center overview](adminGuide-platformPublishingCenterOverview)for more information about the publishing center.
 
 
 
 > **Note**
 > 
-> You cannot add changes made on the Full menu view to a change set. They must be [manually published](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot add changes made on the Full menu view to a change set. They must be [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 **Procedure 8.102. To add menu manager changes to an existing change set**
@@ -99,7 +99,7 @@ A calendar icon is added next to each menu entity that has been updated. The cal
 
 ![The location of the calendar icon for a menu item.](https://doc.toasttab.com/doc/media/menu-manager-changeset-indicator.png)
 
-You can select the calendar icon to open a list of the change sets that the updated menu entity is included in. Select a change set from that list to view and [edit it](docs/en-us/adminGuide-platformWorkingWithMenuManagerChangeSets#platformEditingAMenuManagerChangeSet).
+You can select the calendar icon to open a list of the change sets that the updated menu entity is included in. Select a change set from that list to view and [edit it](adminGuide-platformWorkingWithMenuManagerChangeSets#platformEditingAMenuManagerChangeSet).
 
 
 
@@ -129,7 +129,7 @@ To manually save and publish your changes, follow the procedure below for the vi
 
 > **Note**
 > 
-> For more information about the difference between saving and publishing, see [Understanding saving and publishing](docs/en-us/adminGuide-platformUnderstandingSavingAndPublishing).
+> For more information about the difference between saving and publishing, see [Understanding saving and publishing](adminGuide-platformUnderstandingSavingAndPublishing).
 
 
 **Procedure 8.103. To manually publish menu manager changes from Full menu view**
@@ -141,7 +141,7 @@ To manually save and publish your changes, follow the procedure below for the vi
 
 For single-location restaurants: Select Publish all changes.
 
-For multi-location restaurants: Select the Unpublished changes link at the top of the page to go to the Toast account &gt; Publishing &gt; Publish Config page and follow the instructions in [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
+For multi-location restaurants: Select the Unpublished changes link at the top of the page to go to the Toast account &gt; Publishing &gt; Publish Config page and follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
 
 
 
@@ -161,13 +161,13 @@ For multi-location restaurants: Select the Unpublished changes link at the top o
 - Single-location restaurants: Select Publish Changes.
 
 
-- Multi-location restaurants: Follow the instructions in [Publishing changes for multiple locations](docs/en-us/adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
+- Multi-location restaurants: Follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
 
 
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit other configuration pages in Toast Web (outside of the menu manager page) publishes changes to the [session restaurant](docs/en-us/adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The Publish now prompt that appears when you edit other configuration pages in Toast Web (outside of the menu manager page) publishes changes to the [session restaurant](adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
 
 
 

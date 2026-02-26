@@ -17,7 +17,7 @@ codeExamples: 0
 
 To manually create a guest record without placing an order or swiping a credit card, you can use the Lookup Customer function on a Toast POS device. After you search the database, you can add a record.
 
-To add a guest record you must have the [3. Manager](docs/en-us/adminGuide-adminPermissions#permissionManager)access permission. Then, follow these steps.
+To add a guest record you must have the [3. Manager](adminGuide-adminPermissions#permissionManager)access permission. Then, follow these steps.
 
 1. Log on to a Toast POS device.
 

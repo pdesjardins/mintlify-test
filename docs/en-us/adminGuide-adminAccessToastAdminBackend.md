@@ -26,5 +26,5 @@ To access Toast Web, you must have email address-password user credentials and o
 
 
 
-After you sign in, your assigned access permissions determine the set of options that appear. For more information, see the [Access Permission Reference](docs/en-us/adminGuide-adminPermissions).
+After you sign in, your assigned access permissions determine the set of options that appear. For more information, see the [Access Permission Reference](adminGuide-adminPermissions).
 

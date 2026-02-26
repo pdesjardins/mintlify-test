@@ -19,7 +19,7 @@ codeExamples: 0
 
 > **Note**
 > 
-> The start queue feature is in limited release. It is only available for KDS devices using the new KDS, currently known as [grid view](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSOverview).
+> The start queue feature is in limited release. It is only available for KDS devices using the new KDS, currently known as [grid view](adminGuide-platformKDSOverview#platformGridKDSOverview).
 
 
 The start queue feature for KDS devices is used to visually separate which tickets are actively being worked on in the kitchen and which ones remain to be fulfilled. A prep station KDS device screen is divided into two sections: one for tickets being actively worked on, and the other for unstarted tickets. The sections are marked as COOKINGand UNSTARTED. 
@@ -60,7 +60,7 @@ The appearance of KDS device tickets changes once a ticket is started. For exped
 - Before the prep station ticket is started, the items are shown in italicized text on the expediter KDS device ticket.
 
 
-- After the prep station ticket is started, the items on the expediter KDS device ticket change from italicized to regular text and the orange partial fulfillment indicator appears next to each item. For more information, see [Partial fulfillment indicator](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator).
+- After the prep station ticket is started, the items on the expediter KDS device ticket change from italicized to regular text and the orange partial fulfillment indicator appears next to each item. For more information, see [Partial fulfillment indicator](adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator).
 
 
 
@@ -83,7 +83,7 @@ To use start queue, you need to enable the Start Queue setting. The Start Queue 
 
 **Procedure 10.28. To use start queue on your KDS devices**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup.
@@ -108,11 +108,11 @@ To use start queue, you need to enable the Start Queue setting. The Start Queue 
 > You can only start and revert starting tickets on prep station KDS devices.
 
 
-To start a ticket, select the ticket on the UNSTARTED part of the prep station KDS device screen. The ticket moves from the UNSTARTED part to the COOKING part of the screen. If you use multiple prep stations and [independent prep station fulfillment](docs/en-us/adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKitchenKDSFulfillAtEachStationIndependently), including assembly lines, you need to start tickets at each assigned prep station.
+To start a ticket, select the ticket on the UNSTARTED part of the prep station KDS device screen. The ticket moves from the UNSTARTED part to the COOKING part of the screen. If you use multiple prep stations and [independent prep station fulfillment](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKitchenKDSFulfillAtEachStationIndependently), including assembly lines, you need to start tickets at each assigned prep station.
 
 
 
 If you recall or unfulfill a ticket, you need to repeat the process of starting and fulfilling the ticket again.
 
-For an example of how the start queue workflow works, see [KDS workflow using start queue](docs/en-us/adminGuide-platformKdsWorkflowUsingStartQueue).
+For an example of how the start queue workflow works, see [KDS workflow using start queue](adminGuide-platformKdsWorkflowUsingStartQueue).
 

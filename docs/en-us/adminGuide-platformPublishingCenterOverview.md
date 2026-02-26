@@ -27,7 +27,7 @@ To make the changes you specify in Toast Web available to restaurant employees a
 - Are saved but not published yet (the Publish now tab).
 
 
-- Are added to a [change set](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets) that is scheduled to be saved and published at a later date (the Publish later tab). You can also use the Publish later tab to get information about change sets that had issues during execution.
+- Are added to a [change set](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets) that is scheduled to be saved and published at a later date (the Publish later tab). You can also use the Publish later tab to get information about change sets that had issues during execution.
 
 
 - Were successfully published (the Publish history tab).
@@ -37,9 +37,9 @@ To make the changes you specify in Toast Web available to restaurant employees a
 
 
 
-In the current version, the Publish later tab is the only tab that is available. All of the other functionality will be added over time as the publishing center goes through the development process. The Publish later tab supports the [scheduled publishing](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets) feature, which allows you to queue up changes that will be published at a later date and time that you specify.
+In the current version, the Publish later tab is the only tab that is available. All of the other functionality will be added over time as the publishing center goes through the development process. The Publish later tab supports the [scheduled publishing](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets) feature, which allows you to queue up changes that will be published at a later date and time that you specify.
 
-The Publish now tab currently takes you to the existing Toast account &gt; Publishing &gt; Publish config page, where you can manually publish changes to multiple locations using the old workflow described in [Using the Publish Config page](docs/en-us/adminGuide-platformHowToPublish#platformPublishingPublishConfigPage). Eventually, this tab will allow you to manually publish changes from the publishing center.
+The Publish now tab currently takes you to the existing Toast account &gt; Publishing &gt; Publish config page, where you can manually publish changes to multiple locations using the old workflow described in [Using the Publish Config page](adminGuide-platformHowToPublish#platformPublishingPublishConfigPage). Eventually, this tab will allow you to manually publish changes from the publishing center.
 
 ![Example of the Publishing center page showing the Publish later tab.](https://doc.toasttab.com/doc/media/publish_later_tab.png)
 

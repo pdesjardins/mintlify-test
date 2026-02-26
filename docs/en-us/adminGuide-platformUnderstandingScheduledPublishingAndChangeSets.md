@@ -44,7 +44,7 @@ As you work with change sets, here are some additional points to keep in mind:
 - During the time period after a change set is created but before it is published, the configuration you see in Toast Web reflects your most recently saved changes, not the changes in the change set. For example, Menu Item A costs $10. You update Menu Item A's price to $12 and add it to Change Set B, which you schedule to publish a week from now. For the next week, when you view Menu Item A in Toast Web and on Toast devices and apps, its price is $10. After Change Set B is saved and published, Menu Item A's price is updated to $12 in Toast Web and on Toast devices and apps.
 
 
-- The data you see in preview pages is based on currently saved data, not currently published data. For example, consider a menu item whose published name is Macaroni & Cheese. If you update the name to Mac & Cheese and then save it but don't publish it, the name you see for the menu item in a preview page is Mac & Cheese, not Macaroni & Cheese. For more information on saved data versus published data, see [Understanding saving and publishing](docs/en-us/adminGuide-platformUnderstandingSavingAndPublishing).
+- The data you see in preview pages is based on currently saved data, not currently published data. For example, consider a menu item whose published name is Macaroni & Cheese. If you update the name to Mac & Cheese and then save it but don't publish it, the name you see for the menu item in a preview page is Mac & Cheese, not Macaroni & Cheese. For more information on saved data versus published data, see [Understanding saving and publishing](adminGuide-platformUnderstandingSavingAndPublishing).
 
 
 - It is possible for changes made in between when a change set is created and when it is executed to be overwritten when the change set executes. For example, you create a change set that updates Menu Item A's price from $10 to $12 and schedule it to publish in one week. Three days after you create the change set, you update Menu Item A's price to $11 and manually publish. When the change set is executed, the $11 price you manually published for Menu Item A is overwritten by the $12 price included in the change set.
@@ -53,9 +53,9 @@ As you work with change sets, here are some additional points to keep in mind:
 
 ## Scheduled publishing permissions
 
-Employees that have the 6. Web Setup &gt; 6.7 Change sets permission to the [session restaurant](docs/en-us/adminGuide-sessionRestaurant) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
+Employees that have the 6. Web Setup &gt; 6.7 Change sets permission to the [session restaurant](adminGuide-sessionRestaurant) they are logged into are allowed to use the publishing center and the scheduled publishing feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. This includes change sets that were created by any employee.
 
-The 6.7 Change sets permission only gives you permission to work with the change sets themselves. To work with the changes *stored* in a change set, you must have additional permissions specific to the changes you want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, you must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store your edits in a change set. For more information on menu manager permissions, see [Menu manager permissions](docs/en-us/adminGuide-platformMenuManagerPermissions).
+The 6.7 Change sets permission only gives you permission to work with the change sets themselves. To work with the changes *stored* in a change set, you must have additional permissions specific to the changes you want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, you must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store your edits in a change set. For more information on menu manager permissions, see [Menu manager permissions](adminGuide-platformMenuManagerPermissions).
 
 Employees that have the 6. Web Setup &gt; 6.4 Publishing permission to the session restaurant have read-only access to the publishing center. This means they can view change sets and add changes to *existing change sets*but they cannot create change sets, delete change sets, or modify the names and schedules of change sets.
 
@@ -120,7 +120,7 @@ Change set:
 Executed
 ```
 
-The user does a [manual publish](docs/en-us/adminGuide-platformManualAndScheduledPublishing). At this point, the updated name from the saved database is transferred to the published database.
+The user does a [manual publish](adminGuide-platformManualAndScheduledPublishing). At this point, the updated name from the saved database is transferred to the published database.
 
 
 ```
@@ -150,10 +150,10 @@ You can view a change set's status on the Toast account &gt; Publishing &gt; Pub
 
 > **Note**
 > 
-> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
+> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
 
 
-To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](docs/en-us/adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully.See [Resolving change set errors](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information.
+To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully.See [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information.
 
 > **Note**
 > 
@@ -161,7 +161,7 @@ To resolve this most common cause of partial publishes, make sure all of the ent
 
 
  | 
-| Failed | None of the changes in the change set were successfully saved and published. See [Resolving change set errors](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information. | 
+| Failed | None of the changes in the change set were successfully saved and published. See [Resolving change set errors](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformResolvingChangeSetErrors) for more information. | 
 
 ## Working with change sets in the publishing center
 
@@ -171,19 +171,19 @@ The Publish later tab of the Toast account &gt; Publishing &gt; Publishing cente
 
 From this page, you can:
 
-- [Create a new, empty change set](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformCreatingANewChangeSet) that you add changes to later.
+- [Create a new, empty change set](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformCreatingANewChangeSet) that you add changes to later.
 
 
-- [Edit the description, date, and time](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime) associated with a change set.
+- [Edit the description, date, and time](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime) associated with a change set.
 
 
-- [Navigate to the preview pages](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages) associated with a change set, where you can make edits to the changes included in the change set.
+- [Navigate to the preview pages](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages) associated with a change set, where you can make edits to the changes included in the change set.
 
 
-- [Delete a change set](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformDeletingAChangeSet).
+- [Delete a change set](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformDeletingAChangeSet).
 
 
-- [See a change set's status](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformChangeSetStatuses).
+- [See a change set's status](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformChangeSetStatuses).
 
 
 
@@ -191,11 +191,11 @@ Change sets on the publishing center page are sorted by publish date, newest to 
 
 ### Creating a new change set
 
-You can create a new, empty change set from the publishing center and then [add changes to it later](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages).
+You can create a new, empty change set from the publishing center and then [add changes to it later](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages).
 
 **Procedure 7.3. To create a new change set**
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Navigate to the Toast account &gt; Publishing &gt; Publishing center page.
@@ -213,7 +213,7 @@ You can create a new, empty change set from the publishing center and then [add 
 
 The time zone is the current time zone from your browser. Be sure to take that into account when you select the publication time. For example, if you are in the Pacific time zone, but are scheduling a change set for locations in the Eastern time zone, then to publish the change set at 4:00 AM Eastern, set the scheduled publication for 1:00 AM Pacific.
 
-Alternatively, you can select I'll schedule this later and then [edit the change set later to set its date and time](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime).
+Alternatively, you can select I'll schedule this later and then [edit the change set later to set its date and time](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime).
 
 
 6. Select Save.
@@ -221,7 +221,7 @@ Alternatively, you can select I'll schedule this later and then [edit the change
 
 7. Do one of the following:
 
-- To skip adding updates to the change set, select I'll do this later. In the future, you can [navigate to the change set's preview pages](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages) to add updates to it.
+- To skip adding updates to the change set, select I'll do this later. In the future, you can [navigate to the change set's preview pages](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages) to add updates to it.
 
 
 - To immediately add updates to the change set, select Continue to menu manager. (Currently, the menu manager is the only feature that has scheduled publishing enabled.)
@@ -240,7 +240,7 @@ In the Which change set would you like to add changes to dialog box, select the 
 
 > **Note**
 > 
-> It is also possible to [create a new change set from the menu manager](docs/en-us/adminGuide-platformPublishingMenuManagerChanges), the only area of Toast Web that currently includes the scheduled publishing feature.
+> It is also possible to [create a new change set from the menu manager](adminGuide-platformPublishingMenuManagerChanges), the only area of Toast Web that currently includes the scheduled publishing feature.
 
 
 ### Editing a change set's description, date, or time
@@ -318,7 +318,7 @@ When you delete a change set, the changes associated with it are not saved or pu
 
 ## Resolving change set errors
 
-The Publish later tab lists your change sets and their [statuses](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformChangeSetStatuses). For change sets that have a status of `FAILED` or `PARTIAL PUBLISH`, you can download error files that provide more information about the failures that occurred when the change set was executed. You can download these error files from two locations:
+The Publish later tab lists your change sets and their [statuses](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformChangeSetStatuses). For change sets that have a status of `FAILED` or `PARTIAL PUBLISH`, you can download error files that provide more information about the failures that occurred when the change set was executed. You can download these error files from two locations:
 
 - A banner appears at the top of the Publish later tab each time a publishing failure occurs and lists the most recent publishing failures. Use the Download details link for a change set to download its error files.
 
@@ -333,10 +333,10 @@ The download icons are always available at the end of the change set rows. If yo
 
 When you download the error files for a change set, one or more comma-separated value (CSV) files are downloaded to the default download location used by your browser. The name of the error file indicates the type of errors it contains:
 
-- `publishing_errors-[change-set-name].csv` contains errors that occurred when the Toast platform attempted to publish the changes contained in the change set. For more information, see [Publishing error codes](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformPublishingErrorCodes).
+- `publishing_errors-[change-set-name].csv` contains errors that occurred when the Toast platform attempted to publish the changes contained in the change set. For more information, see [Publishing error codes](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformPublishingErrorCodes).
 
 
-- `menu_update_errors-[change-set-name].csv` contains errors that occurred when the Toast platform attempted to execute the menu updates contained in the change set. For more information, see [Menu update error codes](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformMenuUpdateErrorCodes).
+- `menu_update_errors-[change-set-name].csv` contains errors that occurred when the Toast platform attempted to execute the menu updates contained in the change set. For more information, see [Menu update error codes](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformMenuUpdateErrorCodes).
 
 
 
@@ -346,15 +346,15 @@ The following table describes the columns in the error CSV files. Two of the col
 
 | Column | Description | 
 | --- | --- |
-| `errorCode` | A code for the error type. See [Publishing error codes](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformPublishingErrorCodes) and [Menu update error codes](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformMenuUpdateErrorCodes) for more information. | 
+| `errorCode` | A code for the error type. See [Publishing error codes](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformPublishingErrorCodes) and [Menu update error codes](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformMenuUpdateErrorCodes) for more information. | 
 | `errorMessage` | A descriptive message about the error. | 
 | `locationId` | This column only appears in the `publishing_errors-[change-set-name].csv`file.The unique identifier, or `GUID`, of the location where the publishing attempt failed. | 
 | `locationName` | This column only appears in the `publishing_errors-[change-set-name].csv`file.The name of the location where the publishing attempt failed. | 
 | `entityType` | The type of menu entity. Supported entity types are `MENU_ITEM` and `MODIFIER`. | 
-| `entityId` | The unique identifier, or `GUID`, that the Toast platform generates for the menu entity. See [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers)for more information on `GUID`s. | 
+| `entityId` | The unique identifier, or `GUID`, that the Toast platform generates for the menu entity. See [Toast identifiers](apiDevGuide-portalToastIdentifiers)for more information on `GUID`s. | 
 | `entityName` | The name of the menu entity. | 
-| `targetId` | The unique identifier, or `GUID`, of location or location group that the menu entity is [targeted at](docs/en-us/adminGuide-targets). See [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers) for more information on `GUID`s. | 
-| `targetName` | The name of the location or location group that the menu entity is [targeted at](docs/en-us/adminGuide-targets). | 
+| `targetId` | The unique identifier, or `GUID`, of location or location group that the menu entity is [targeted at](adminGuide-targets). See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information on `GUID`s. | 
+| `targetName` | The name of the location or location group that the menu entity is [targeted at](adminGuide-targets). | 
 
 ### Publishing errors for menu items targeted at multiple locations
 
@@ -370,12 +370,12 @@ The table below describes the error codes that you may see in the `publishing_er
 
 > **Note**
 > 
-> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
+> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
 
 
-To resolve the `ErrorConfigNeverPublished` error, [manually publish](docs/en-us/adminGuide-platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully. | 
-| `ErrorInternalPublishing` | An internal error has occurred while publishing changes. The `locationName` column lists the location where changes failed to publish. Try [manually publishing](docs/en-us/adminGuide-platformPublishingOverview) changes for this location or contact Toast support for further assistance.  | 
-| `ErrorInternalJobExecution` | An internal error has occurred while executing the scheduled change set. Changes may be reflected in saved data, but no restaurant will receive published changes. Try [manually publishing](docs/en-us/adminGuide-platformPublishingOverview) your changes or contact Toast support for further assistance.  | 
+To resolve the `ErrorConfigNeverPublished` error, [manually publish](adminGuide-platformPublishingOverview) the menu entity to the location listed in the `locationName` column. You may have to manually publish to multiple locations, if the menu entity is targeted at multiple locations and it has not been published to all of them. The CSV file will contain a row for each affected location. After manually publishing, the change set should execute fully. | 
+| `ErrorInternalPublishing` | An internal error has occurred while publishing changes. The `locationName` column lists the location where changes failed to publish. Try [manually publishing](adminGuide-platformPublishingOverview) changes for this location or contact Toast support for further assistance.  | 
+| `ErrorInternalJobExecution` | An internal error has occurred while executing the scheduled change set. Changes may be reflected in saved data, but no restaurant will receive published changes. Try [manually publishing](adminGuide-platformPublishingOverview) your changes or contact Toast support for further assistance.  | 
 
 ### Menu update error codes
 
@@ -384,7 +384,7 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
 | Error | Description | 
 | --- | --- |
 | `EntityNotFoundError` | The menu item in the change set was archived and edits cannot be made to it. | 
-| `You are not permitted to access this resource` | The [owner](docs/en-us/adminGuide-ownersAndPermissions) of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to the location or location group that now owns the menu item. | 
+| `You are not permitted to access this resource` | The [owner](adminGuide-ownersAndPermissions) of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to the location or location group that now owns the menu item. | 
 | `ParameterValidationError` | This error can be caused by either of the following:- The change set contains an edit to a price but that price has been deleted from the menu item. For example, the change set includes an edit to the location-specific price for the New York location, but the New York location-specific price has been removed from the menu item.
 - The pricing strategy of the menu item has changed to a strategy that is not compatible with the pricing edit in the change set. For example, Menu Item A uses the menu-specific pricing strategy. A user adds another menu-specific price to Menu Item A and saves it in a change set to be published in one week. Before the change set executes, another user changes Menu Item A's pricing strategy to location-specific pricing. At this point, the menu-specific price defined in the change set is no longer compatible with Menu Item A's location-specific pricing strategy.
 
@@ -405,7 +405,7 @@ This section discusses important notes and limitations of the scheduled publishi
 - The time you assign to a scheduled publish is the time the changes *start* getting published, not the time the changes will become available. The length of time a scheduled publish takes to finish depends on the number of changes you have made and the number of locations affected.
 
 
-- Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of [partial publishes](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformChangeSetStatuses).
+- Most configuration entities must have already been published at least once to all the locations that use them before you can schedule updates for them. Not publishing configuration entities at least once is the most common cause of [partial publishes](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformChangeSetStatuses).
 
 For example, you create Price Level A. You must publish Price Level A to all the locations that use Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
 
@@ -413,10 +413,10 @@ For example, you create Price Level A. You must publish Price Level A to all the
 
 > **Note**
 > 
-> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
+> The exception to this rule is menu items. You can schedule changes to be published for a menu item that has not previously been published. For more information, see [Scheduling changes for menu entities that have not been previously published](adminGuide-platformPublishingMenuManagerChanges#platformSchedulingChangesForMenuEntitiesThatHaveNotBeenPreviouslyPublished).
 
 
-To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](docs/en-us/adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully.
+To resolve this most common cause of partial publishes, make sure all of the entities included in the change set have been [published to all locations that use them](adminGuide-platformManualAndScheduledPublishing). After you do this, the change set should execute fully.
 
 
 - Currently, the scheduled publishing feature is available to users that have the 6. Web Setup &gt; 6.4 Publishing permission. Users with this permission can create, edit, and delete change sets, including change sets that were created by other users. The Toast platform does not yet validate whether the user creating a change set has permission to edit the entities included in the change set.
@@ -428,7 +428,7 @@ To resolve this most common cause of partial publishes, make sure all of the ent
 - The Toast platform does not require a particular length of time in between when change sets. This means it is possible for one change set to be in the process of saving and publishing when another change set is scheduled to start.
 
 
-- The menu manager preview page shows the currently saved data, not the currently published data, for the menu items included in the change set. For example, consider a menu item whose published name is Macaroni & Cheese. If you update the name to Mac & Cheese and then save it but don't publish it, the name you see in the menu manager preview page is Mac & Cheese. For more information, see [Navigating to a change set's preview pages](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages).
+- The menu manager preview page shows the currently saved data, not the currently published data, for the menu items included in the change set. For example, consider a menu item whose published name is Macaroni & Cheese. If you update the name to Mac & Cheese and then save it but don't publish it, the name you see in the menu manager preview page is Mac & Cheese. For more information, see [Navigating to a change set's preview pages](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformNavigatingToAChangeSetsPreviewPages).
 
 
 

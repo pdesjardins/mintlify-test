@@ -32,7 +32,7 @@ For Toast restaurants, a marketplace facilitator is a business that:
 
 For example, a restaurant ordering service like the Local by Toast app, Toast Local, Grubhub™, Uber Eats™, or DoorDash® that accepts orders for a large number of restaurants might take guest orders and payments and then submit the order to the Toast platform for fulfillment at a Toast restaurant. The ordering service receives the guest payment and then remits the applicable tax amounts.
 
-A marketplace facilitator might not remit all tax amounts for a Toast platform order. For example, a marketplace facilitator might remit all state tax amounts but not remit local tax amounts. You can determine whether a marketplace facilitator has remitted tax amounts for your restaurant's orders by checking the tax information in Toast platform reports. For more information, see [Tax payment reporting information](docs/en-us/adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfTaxPaymentReportingInformation). Marketplace facilitators might calculate tax amounts differently than the Toast platform does.
+A marketplace facilitator might not remit all tax amounts for a Toast platform order. For example, a marketplace facilitator might remit all state tax amounts but not remit local tax amounts. You can determine whether a marketplace facilitator has remitted tax amounts for your restaurant's orders by checking the tax information in Toast platform reports. For more information, see [Tax payment reporting information](adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfTaxPaymentReportingInformation). Marketplace facilitators might calculate tax amounts differently than the Toast platform does.
 
 
 
@@ -43,17 +43,17 @@ A marketplace facilitator might not remit all tax amounts for a Toast platform o
 
 The marketplace facilitator tax amount behavior described in this section only applies to orders that are *directly submitted* from the marketplace facilitator to the Toast platform. Your restaurant might receive orders that originated at a marketplace facilitator but then passed through another order handling service before being digitally submitted to the Toast platform. For example, if your Toast platform restaurant uses a direct integration with a marketplace facilitator ordering partner, the orders you receive through that integration are included in marketplace facilitator tax amount handling and reporting. Orders you receive *indirectly* from a marketplace facilitator, through a different ordering service, *are*included in reporting using tax rates configured in the Toast platform and *are not* included in marketplace facilitator reporting.
 
-If your restaurant uses a Toast API integration that gets information about orders, the order information that you get from Toast APIs includes information about tax amounts remitted on behalf of your restaurant. For more information, see [Marketplace facilitator tax information](docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation).
+If your restaurant uses a Toast API integration that gets information about orders, the order information that you get from Toast APIs includes information about tax amounts remitted on behalf of your restaurant. For more information, see [Marketplace facilitator tax information](apiDevGuide-apiMarketplaceFacilitatorTaxInformation).
 
 The following sections provide more information about marketplace facilitator tax payments:
 
-- [Tax payment reporting information](docs/en-us/adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfTaxPaymentReportingInformation)
+- [Tax payment reporting information](adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfTaxPaymentReportingInformation)
 
 
-- [Tax amounts are aggregated for all items and checks](docs/en-us/adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfTaxAmountsAggregated)
+- [Tax amounts are aggregated for all items and checks](adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfTaxAmountsAggregated)
 
 
-- [Marketplace facilitator orders are protected from changes](docs/en-us/adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfOrdersProtectedFromChanges)
+- [Marketplace facilitator orders are protected from changes](adminGuide-adminMarketplaceFacilitatorTaxPayments#adminMpfOrdersProtectedFromChanges)
 
 
 
@@ -115,9 +115,9 @@ The following diagram shows marketplace facilitator tax amounts in the Sales Sum
 
 ### Calculating tax amounts
 
-To calculate the amounts used for taxes, refer to the orders API `AppliedTaxRate` object. For more information about this object and how it applies to marketplace facilitators, see [Reviewing marketplace facilitator tax calculations](docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation#apiOrdersGetMarketplaceFacilitatorCalculateTax).
+To calculate the amounts used for taxes, refer to the orders API `AppliedTaxRate` object. For more information about this object and how it applies to marketplace facilitators, see [Reviewing marketplace facilitator tax calculations](apiDevGuide-apiMarketplaceFacilitatorTaxInformation#apiOrdersGetMarketplaceFacilitatorCalculateTax).
 
-For instructions on how to calculate the total marketplace facilitator tax paid for an order, see [Calculating total marketplace facilitator tax paid](docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation#apiOrdersGetMarketplaceFacilitatorCalculateTotalTaxPaid).
+For instructions on how to calculate the total marketplace facilitator tax paid for an order, see [Calculating total marketplace facilitator tax paid](apiDevGuide-apiMarketplaceFacilitatorTaxInformation#apiOrdersGetMarketplaceFacilitatorCalculateTotalTaxPaid).
 
 ## Tax amounts are aggregated for all items and checks
 

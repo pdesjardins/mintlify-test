@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-Guest reporting data includes payment details associated with a guest's payment card. For more information, see [Understanding the guest reporting data](docs/en-us/apiDevGuide-apiAnalyticsGuestDataUnderstandData). For more information about inactive restaurant data, see [Viewing inactive restaurant data](docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData).
+Guest reporting data includes payment details associated with a guest's payment card. For more information, see [Understanding the guest reporting data](apiDevGuide-apiAnalyticsGuestDataUnderstandData). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 
 
@@ -26,10 +26,10 @@ Guest reporting data includes payment details associated with a guest's payment 
 
 Retrieving the guest reporting data is a two-step process. You must:
 
-1. Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint to create a request for guest reporting data organized by payment for the restaurants in a management group. The response is the `reportRequestGuid`, which is the unique request identifier. The analytics API supports retrieving guest reporting data for the `day` and `week` time ranges. For more information, see [Creating a request for guest reporting data](docs/en-us/apiDevGuide-apiAnalyticsGuestDataCreateRequest).
+1. Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint to create a request for guest reporting data organized by payment for the restaurants in a management group. The response is the `reportRequestGuid`, which is the unique request identifier. The analytics API supports retrieving guest reporting data for the `day` and `week` time ranges. For more information, see [Creating a request for guest reporting data](apiDevGuide-apiAnalyticsGuestDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}` endpoint to retrieve the guest reporting data organized by payment. For more information, see [Retrieving the guest reporting data](docs/en-us/apiDevGuide-apiAnalyticsGuestDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/guest/payments/{reportRequestGuid}` endpoint to retrieve the guest reporting data organized by payment. For more information, see [Retrieving the guest reporting data](apiDevGuide-apiAnalyticsGuestDataRetrieveData).
 
 
 

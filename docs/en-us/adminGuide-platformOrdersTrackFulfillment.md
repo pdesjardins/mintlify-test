@@ -44,7 +44,7 @@ In the following cases, the order is not fired immediately:
 
 A scheduled order is fired when it is time to begin the order preparation.
 
-Online ordering can [allow for scheduled orders](docs/en-us/adminGuide-adminSettingsForScheduledOrders). You also can [use the orders API to create scheduled orders](docs/en-us/apiDevGuide-orders_api_future_orders).
+Online ordering can [allow for scheduled orders](adminGuide-adminSettingsForScheduledOrders). You also can [use the orders API to create scheduled orders](apiDevGuide-orders_api_future_orders).
 
 
 - Online orders that require approval.
@@ -65,7 +65,7 @@ For example, the restaurant might add an additional 10 minutes to the preparatio
 
 
 
-3. The kitchen staff prepares the order. For more information about order preparation, see [Kitchen operations and fulfillment](docs/en-us/adminGuide-adminAddPrepStation).
+3. The kitchen staff prepares the order. For more information about order preparation, see [Kitchen operations and fulfillment](adminGuide-adminAddPrepStation).
 
 
 4. The completed order is provided to the guest. Depending on the order dining option, this could mean:

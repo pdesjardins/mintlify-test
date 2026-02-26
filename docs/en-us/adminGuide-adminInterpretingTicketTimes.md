@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-To keep track of how long ordered items are taking to fulfill, the KDS device displays a *ticket time* on every ticket. When you [enable course pacing](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configCoursePacing) and choose to [send all courses to the kitchen immediately](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendingCourses), a *fire time* appears on every ticket. A *ticket time* is a timer that shows how long ago the order was *sent* to the kitchen. A *fire time*is a timer that shows how long ago the ticket was *fired* to the kitchen.
+To keep track of how long ordered items are taking to fulfill, the KDS device displays a *ticket time* on every ticket. When you [enable course pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) and choose to [send all courses to the kitchen immediately](adminGuide-adminKitchenDiningRoomReference#configSendingCourses), a *fire time* appears on every ticket. A *ticket time* is a timer that shows how long ago the order was *sent* to the kitchen. A *fire time*is a timer that shows how long ago the ticket was *fired* to the kitchen.
 
 
 
@@ -26,7 +26,7 @@ To keep track of how long ordered items are taking to fulfill, the KDS device di
 
 ## About ticket times
 
-Every kitchen ticket that appears on a KDS device includes the *ticket time*, which is a stopwatch-style digital clock, in the upper right corner. The ticket time starts counting at 0:00 when a server sends an order to the kitchen (using Send, Stay, or other order screen buttons as configured for your restaurant) or an online order comes in. The timer runs until the ticket is completely fulfilled, which depends on your configuration. Complete fulfillment includes prep station KDS devices and expediter KDS devices if the prep stations are configured to [send to expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). If you use two-level fulfillment, this includes fulfillment at the second-level expediter KDS device. For an example of two-level fulfillment, see [KDS workflow using two expediters](docs/en-us/adminGuide-platformKDSWorkflowUsingTwoExpo).
+Every kitchen ticket that appears on a KDS device includes the *ticket time*, which is a stopwatch-style digital clock, in the upper right corner. The ticket time starts counting at 0:00 when a server sends an order to the kitchen (using Send, Stay, or other order screen buttons as configured for your restaurant) or an online order comes in. The timer runs until the ticket is completely fulfilled, which depends on your configuration. Complete fulfillment includes prep station KDS devices and expediter KDS devices if the prep stations are configured to [send to expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). If you use two-level fulfillment, this includes fulfillment at the second-level expediter KDS device. For an example of two-level fulfillment, see [KDS workflow using two expediters](adminGuide-platformKDSWorkflowUsingTwoExpo).
 
 In this example, the ticket time is circled on a prep station KDS device ticket.
 
@@ -34,13 +34,13 @@ In this example, the ticket time is circled on a prep station KDS device ticket.
 
 ## Fire times on prep station tickets
 
-If you set the [Sending Courses](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendingCourses) setting to Send all courses to kitchen immediately, a *fire time* appears above the items on the prep station KDS device ticket. The fire time shows how long ago the Toast platform fired the course to the prep station KDS device with the intention to start working on that course. The fire time for a prep station KDS device ticket depends on your Firing Courses and Automated Firing settings on the Kitchen &gt; Pacing &gt; Meal pacing page.
+If you set the [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) setting to Send all courses to kitchen immediately, a *fire time* appears above the items on the prep station KDS device ticket. The fire time shows how long ago the Toast platform fired the course to the prep station KDS device with the intention to start working on that course. The fire time for a prep station KDS device ticket depends on your Firing Courses and Automated Firing settings on the Kitchen &gt; Pacing &gt; Meal pacing page.
 
 
 
 > **Note**
 > 
-> The [Course Pacing](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configCoursePacing) setting must have the Enable course pacing checkbox selected to access the [Sending Courses](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendingCourses), [Firing Courses](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFiringCourses), and [Automated Firing](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) settings.
+> The [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) setting must have the Enable course pacing checkbox selected to access the [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses), [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses), and [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) settings.
 
 
 - If the Firing Courses setting is set to Server fires courses individually, the course is fired from an order screen on the Toast POS device by the server.
@@ -63,7 +63,7 @@ If you set the [Sending Courses](docs/en-us/adminGuide-adminKitchenDiningRoomRef
 
 
 
-For information about how firing items by prep time appears on KDS devices, see [Firing by item prep time](docs/en-us/adminGuide-adminFireByPrepTime).
+For information about how firing items by prep time appears on KDS devices, see [Firing by item prep time](adminGuide-adminFireByPrepTime).
 
 The fire time starts counting at 0:00 when the course is fired. In this example, the fire time is boxed and the ticket time is circled.
 
@@ -89,7 +89,7 @@ In the following example, the prep station KDS device displays tickets for an or
 
 If you use prep times to automate item firing, a fire time appears above the item names on all expediter KDS device tickets. The fire time shows how long ago the ticket fired, and how long ago any held items in that order were fired. To determine the fire time for an expediter ticket, the Toast platform subtracts the held time from the ticket time.
 
-The following example shows the expediter tickets for an order with two drinks in a Drinks course, two appetizers in an Appetizers course, and two entrees in an Entrees course (the prep station tickets for this order are shown [above](docs/en-us/adminGuide-adminInterpretingTicketTimes#adminFireTimesPrepStationTickets)). An employee sent the Drinks course to the kitchen and held the Appetizers and Entrees courses. Later, the employee fired the Appetizers course. The ticket time and fire time for the Drinks course ticket are the same.
+The following example shows the expediter tickets for an order with two drinks in a Drinks course, two appetizers in an Appetizers course, and two entrees in an Entrees course (the prep station tickets for this order are shown [above](adminGuide-adminInterpretingTicketTimes#adminFireTimesPrepStationTickets)). An employee sent the Drinks course to the kitchen and held the Appetizers and Entrees courses. Later, the employee fired the Appetizers course. The ticket time and fire time for the Drinks course ticket are the same.
 
 ![A KDS device expediter screen with two tickets for an order.](https://doc.toasttab.com/doc/media/kitchen-kds-pacing-drinks-apps-courses-fired-expo.png)
 

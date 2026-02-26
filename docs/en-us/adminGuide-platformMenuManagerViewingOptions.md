@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-The Show controls in the menu manager let you customize how you view your menu data. You can either [view your entire menu](docs/en-us/adminGuide-platformMenuManagerViewingOptions#platformMenuManagerViewingYourFullMenu) or [view menu entities of a specific type](docs/en-us/adminGuide-platformMenuManagerViewingOptions#platformMenuManagerViewingIndividualEntityTypes), for example, menu items, modifiers, or price levels.
+The Show controls in the menu manager let you customize how you view your menu data. You can either [view your entire menu](adminGuide-platformMenuManagerViewingOptions#platformMenuManagerViewingYourFullMenu) or [view menu entities of a specific type](adminGuide-platformMenuManagerViewingOptions#platformMenuManagerViewingIndividualEntityTypes), for example, menu items, modifiers, or price levels.
 
 ## Viewing your full menu
 
@@ -38,13 +38,13 @@ Selecting the name of a menu, menu group, or item opens a side panel with detail
 
 To save changes you make in a side panel, use the Save button that appears at the bottom of the panel. Other changes you make in the Full menuview, outside of the side panel (for example, adding a menu or re-ordering menu groups), are automatically saved.
 
-For more information about using side panels, see [Using the Full menu view side panel](docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformUsingTheFullMenuViewSidePanel).
+For more information about using side panels, see [Using the Full menu view side panel](adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews#platformUsingTheFullMenuViewSidePanel).
 
 
 
 > **Important**
 > 
-> You cannot use the scheduled publishing feature with Full menu view updates. Updates made in the Full menu view must be [published manually](docs/en-us/adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot use the scheduled publishing feature with Full menu view updates. Updates made in the Full menu view must be [published manually](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 ## Viewing individual entity types

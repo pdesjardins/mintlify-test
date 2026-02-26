@@ -33,6 +33,6 @@ This configuration can create an infinite loop that prevents a menu from being r
 
 > **Note**
 > 
-> For information about modifier option item references, see [Understanding a modifier item reference](docs/en-us/adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
+> For information about modifier option item references, see [Understanding a modifier item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 

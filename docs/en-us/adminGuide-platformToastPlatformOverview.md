@@ -34,34 +34,34 @@ The following diagram shows the high-level, core components of the Toast platfor
 
 ![Diagram showing the components of the Toast platform. A restaurant location includes Toast POS devices for ordering and fulfillment. Configuration and reporting functions are in Toast Web.](https://doc.toasttab.com/doc/media/toast-platform-overview.png)
 
-- *Toast Web*: The configuration and reporting website that you use to control and monitor Toast products and services for your restaurant locations. Toast Web is one of the cloud-based services that make up the Toast platform. For information, see [Using Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+- *Toast Web*: The configuration and reporting website that you use to control and monitor Toast products and services for your restaurant locations. Toast Web is one of the cloud-based services that make up the Toast platform. For information, see [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-- *Menu configuration*: The menus, menu items, modifiers and other menu-related configuration that guests and employees use in restaurant orders. For information, see [Menu hierarchy](docs/en-us/adminGuide-adminMenuHierarchy).
+- *Menu configuration*: The menus, menu items, modifiers and other menu-related configuration that guests and employees use in restaurant orders. For information, see [Menu hierarchy](adminGuide-adminMenuHierarchy).
 
 
-- *Integrations*: Restaurant services that are compatible with the Toast platform use Toast APIs to integrate with restaurant groups and locations. For information, see [Managing and using integrations and Toast Partner Integrations](docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
+- *Integrations*: Restaurant services that are compatible with the Toast platform use Toast APIs to integrate with restaurant groups and locations. For information, see [Managing and using integrations and Toast Partner Integrations](adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
 
 
-- *Kitchen operations*: The prep stations, kitchen printers, kitchen display systems (KDS), and menu item routing that Toast restaurants use to fulfill orders. For information, see [Routing overview](docs/en-us/adminGuide-platformKitchenRoutingOverview).
+- *Kitchen operations*: The prep stations, kitchen printers, kitchen display systems (KDS), and menu item routing that Toast restaurants use to fulfill orders. For information, see [Routing overview](adminGuide-platformKitchenRoutingOverview).
 
 
-- *Toast POS hardware*: The Toast POS devices, Toast POS app, and other Toast hardware components that employees and guests use at restaurant locations. For information, see [Toast POS hardware components](docs/en-us/adminGuide-adminHardwareComponents).
+- *Toast POS hardware*: The Toast POS devices, Toast POS app, and other Toast hardware components that employees and guests use at restaurant locations. For information, see [Toast POS hardware components](adminGuide-adminHardwareComponents).
 
 
-- *Restaurant location configuration*: Information about a restaurant business that affects Toast platform operations. For example, you can configure dining options, revenue centers, jobs, and marketing details for a restaurant location. Restaurant groups with multiple locations can share some aspects of Toast platform configuration. For information, see [Enterprise module overview](docs/en-us/adminGuide-sharingMenusAndOtherInformationAmongRestaurants).
+- *Restaurant location configuration*: Information about a restaurant business that affects Toast platform operations. For example, you can configure dining options, revenue centers, jobs, and marketing details for a restaurant location. Restaurant groups with multiple locations can share some aspects of Toast platform configuration. For information, see [Enterprise module overview](adminGuide-sharingMenusAndOtherInformationAmongRestaurants).
 
 
-- *Employees*: The servers, bartenders, cooks, and other restaurant professionals who serve guests at Toast restaurants. You can configure the jobs and permissions of the employees at your restaurant locations. For information, see [Access permissions reference](docs/en-us/adminGuide-adminPermissions).
+- *Employees*: The servers, bartenders, cooks, and other restaurant professionals who serve guests at Toast restaurants. You can configure the jobs and permissions of the employees at your restaurant locations. For information, see [Access permissions reference](adminGuide-adminPermissions).
 
 
-- *Off-premise dining*: The Toast platform features and configuration that your restaurant locations use to provide takeout and delivery services. For information, see [Orders Hub overview](docs/en-us/adminGuide-platformOrdersHubOverview).
+- *Off-premise dining*: The Toast platform features and configuration that your restaurant locations use to provide takeout and delivery services. For information, see [Orders Hub overview](adminGuide-platformOrdersHubOverview).
 
 
-- *Payments*: The prices, service charges, taxes, cash operations, and credit card transactions that you process during Toast restaurant operations. For information, see [Service charge overview](docs/en-us/adminGuide-adminServiceChargeOverview).
+- *Payments*: The prices, service charges, taxes, cash operations, and credit card transactions that you process during Toast restaurant operations. For information, see [Service charge overview](adminGuide-adminServiceChargeOverview).
 
 
-- *Guests*: The people that your restaurant serves. Restaurant guests place orders, make payments, and participate in loyalty programs. For information, see [Guest data overview](docs/en-us/adminGuide-adminGuestDataOverview).
+- *Guests*: The people that your restaurant serves. Restaurant guests place orders, make payments, and participate in loyalty programs. For information, see [Guest data overview](adminGuide-adminGuestDataOverview).
 
 
 

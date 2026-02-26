@@ -15,5 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-The menus API returns modifier groups in the same order in which they are displayed on the Toast POS app. For more information on the logic the Toast platform uses to determine modifier group display order on the Toast POS app, see [Modifier group display order overview](docs/en-us/adminGuide-platformModifierGroupDisplayOrderOverview).
+The menus API returns modifier groups in the same order in which they are displayed on the Toast POS app. For more information on the logic the Toast platform uses to determine modifier group display order on the Toast POS app, see [Modifier group display order overview](adminGuide-platformModifierGroupDisplayOrderOverview).
 

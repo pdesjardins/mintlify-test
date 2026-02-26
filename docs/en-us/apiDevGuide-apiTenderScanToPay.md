@@ -26,7 +26,7 @@ You can use scan-to-pay in the following ways:
 
 
 
-Before you can use scan-to-pay, you must be a Toast integration partner or subscribe to an integration that supports the tender API scan-to-pay feature. To become an integration partner, see the [Integration partnership process](docs/en-us/apiDevGuide-integrationDevProcess).
+Before you can use scan-to-pay, you must be a Toast integration partner or subscribe to an integration that supports the tender API scan-to-pay feature. To become an integration partner, see the [Integration partnership process](apiDevGuide-integrationDevProcess).
 
 The following sections describe the Toast platform processes that take place during a scan-to-pay transaction, how to process a scan-to-pay transaction using a QR code, and how to process a scan-to-pay transaction with a guest's unique identifier.
 
@@ -50,9 +50,9 @@ The tender API scan-to-pay transactions use the same transactions as other tende
 
 
 
-For more information about the tender API transactions, see [Transaction descriptions](docs/en-us/apiDevGuide-apiTenderPmsIntegration#apiTenderTransactionDescriptionsPMS).
+For more information about the tender API transactions, see [Transaction descriptions](apiDevGuide-apiTenderPmsIntegration#apiTenderTransactionDescriptionsPMS).
 
-If you scan a QR code, or enter a guest's unique identifier, and the code is not recognized, you could receive an error. For information about how to respond to certain errors, see [Error handling](docs/en-us/apiDevGuide-apiTenderProviderIntegrationsOverview#apiTenderErrorHandling).
+If you scan a QR code, or enter a guest's unique identifier, and the code is not recognized, you could receive an error. For information about how to respond to certain errors, see [Error handling](apiDevGuide-apiTenderProviderIntegrationsOverview#apiTenderErrorHandling).
 
 ## POS workflow
 
@@ -77,13 +77,13 @@ The following procedure describes how to complete a scan-to-pay transaction usin
 3. After you select your scan-to-pay payment type, your device’s camera or QR scanner is activated. Position the guest’s QR code in the area to be scanned by the Toast POS camera or barcode scanner.
 
 
-4. After the QR code is scanned, the guest account has been identified and the payment workflow continues normally. For more information about payment workflows, see [Payment workflow overview](docs/en-us/adminGuide-platformPwfOverview).
+4. After the QR code is scanned, the guest account has been identified and the payment workflow continues normally. For more information about payment workflows, see [Payment workflow overview](adminGuide-platformPwfOverview).
 
 
 
 ### Using a unique guest identifier
 
-Guests can be given a unique identifier to use at the POS during checkout. You can find the guest's unique identifier in the API JSON payload for a tender API transaction as the `tenderIdentifier`. For examples of the tender API JSON payload, see [Transaction descriptions](docs/en-us/apiDevGuide-apiTenderPmsIntegration#apiTenderTransactionDescriptionsPMS).
+Guests can be given a unique identifier to use at the POS during checkout. You can find the guest's unique identifier in the API JSON payload for a tender API transaction as the `tenderIdentifier`. For examples of the tender API JSON payload, see [Transaction descriptions](apiDevGuide-apiTenderPmsIntegration#apiTenderTransactionDescriptionsPMS).
 
 The following procedure describes how to process a transaction using a guest’s unique identifier.
 
@@ -111,7 +111,7 @@ The following procedure describes how to process a transaction using a guest’s
 !["Enter code" dialog with "Use code" button emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_enterGuestId.png)
 
 
-4. After the guest's unique identifier is entered, the payment workflow continues normally. For more information about payment workflows, see [Payment workflow overview](docs/en-us/adminGuide-platformPwfOverview).
+4. After the guest's unique identifier is entered, the payment workflow continues normally. For more information about payment workflows, see [Payment workflow overview](adminGuide-platformPwfOverview).
 
 
 

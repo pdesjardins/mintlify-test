@@ -30,7 +30,7 @@ Using the secret key that is generated when your webhook subscription is created
 
 > **Note**
 > 
-> The secret key is unique for each webhook subscription within an environment. For example, a `stock` webhook subscription has a different secret key than a `partner` webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see [Webhook basics](docs/en-us/apiDevGuide-apiWebhookBasics). For more information about Toast API environments, see [Environments](docs/en-us/apiDevGuide-apiEnvironments).
+> The secret key is unique for each webhook subscription within an environment. For example, a `stock` webhook subscription has a different secret key than a `partner` webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see [Webhook basics](apiDevGuide-apiWebhookBasics). For more information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).
 
 
 To validate the message, you compute the signature on your side, using the same process that the Toast platform uses to compute the signature. If the signatures match, then the message is valid and trustworthy.

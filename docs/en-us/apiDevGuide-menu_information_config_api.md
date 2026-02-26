@@ -20,7 +20,7 @@ codeExamples: 2
 
 > **Important**
 > 
-> The menus API has replaced the configuration API as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval.
+> The menus API has replaced the configuration API as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval.
 
 
 This section explains how to use the Toast configuration API to get menu information for a restaurant.
@@ -215,7 +215,7 @@ There are two different logical representations of a menu. The configuration API
 
 In a resolved menu structure, inheritance information has been consulted, `MenuOptionGroup`s have been propagated down to each item to which they apply, and inheritance flags are withheld. This is a more usable structure, and will eventually be supported by our APIs. For now, best practice for partners is to derive this resolved structure from the raw configuration API results. If Toast provides you with a JSON `Menu` export for testing purposes, it will be in this format.
 
-The following example demonstrates a simple raw menu structure. If you need a JSON export of a restaurant menu for testing, contact Toast integration support. Note that these exports will include pricing information, which is not yet available through the API. Actual API responses will also include an additional `externalId` field, which is omitted here. For more information, see [External identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers).
+The following example demonstrates a simple raw menu structure. If you need a JSON export of a restaurant menu for testing, contact Toast integration support. Note that these exports will include pricing information, which is not yet available through the API. Actual API responses will also include an additional `externalId` field, which is omitted here. For more information, see [External identifiers](apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers).
 
 
 ```

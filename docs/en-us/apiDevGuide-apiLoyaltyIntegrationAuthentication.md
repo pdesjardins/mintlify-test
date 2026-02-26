@@ -20,14 +20,14 @@ codeExamples: 2
 
 > **Important**
 > 
-> The authentication method described in this section is deprecated. The preferred authentication method for the Toast loyalty API is static API key authentication. For information about using static API authentication, see [Authenticating outbound API requests](docs/en-us/apiDevGuide-apiAuthenticatingRequestsFromToastApiClients).
+> The authentication method described in this section is deprecated. The preferred authentication method for the Toast loyalty API is static API key authentication. For information about using static API authentication, see [Authenticating outbound API requests](apiDevGuide-apiAuthenticatingRequestsFromToastApiClients).
 
 
 You can verify that loyalty transaction requests are from the Toast platform by validating the JSON Web Token (JWT) in the header of every request. Each loyalty transaction request includes a JWT in the `Authorization` header field.
 
 You can validate the JWT for a request with a public key that you get from the Toast API user management service.
 
-You use the public key that matches the Toast environment that you are integrating with. For information about Toast API environments, see [Environments](docs/en-us/apiDevGuide-apiEnvironments).
+You use the public key that matches the Toast environment that you are integrating with. For information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).
 
 - For the production environment (real transactions) send a `GET` request to the following endpoint.
 

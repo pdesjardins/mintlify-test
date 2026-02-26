@@ -28,7 +28,7 @@ The Reports &gt; Employee performance &gt; Break entries report shows detailed i
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-break-entries-tab.PNG)
 
-If you have enabled missed break tracking, as described in [Enabling missed break tracking](docs/en-us/adminGuide-adminEnablingMissedBreakTracking), both missed and taken breaks appear in the report (if you have not enabled missed break tracking, only taken breaks appear in the report). The report includes the following information for each break:
+If you have enabled missed break tracking, as described in [Enabling missed break tracking](adminGuide-adminEnablingMissedBreakTracking), both missed and taken breaks appear in the report (if you have not enabled missed break tracking, only taken breaks appear in the report). The report includes the following information for each break:
 
 - The location and employee associated with the break.
 
@@ -39,10 +39,10 @@ If you have enabled missed break tracking, as described in [Enabling missed brea
 - For taken breaks, the start time, end time, duration, and whether or not the break was paid or unpaid. (To see if a break was paid or unpaid, click the Show/hide columnsbutton and add the Type column to the report.)
 
 
-- If you have enabled [missed break tracking](docs/en-us/adminGuide-adminEnablingMissedBreakTracking), whether the break was taken or missed.
+- If you have enabled [missed break tracking](adminGuide-adminEnablingMissedBreakTracking), whether the break was taken or missed.
 
 
-- If you have enabled [break acknowledgements](docs/en-us/adminGuide-adminEnablingEmployeeBreakAcknowledgement), the employees response when asked if their manager asked them to take the break.
+- If you have enabled [break acknowledgements](adminGuide-adminEnablingEmployeeBreakAcknowledgement), the employees response when asked if their manager asked them to take the break.
 
 
 

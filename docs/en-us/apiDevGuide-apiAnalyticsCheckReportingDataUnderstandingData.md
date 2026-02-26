@@ -15,9 +15,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-Check reporting data contains a constant set of values. These values appear for every check and are organized by active restaurant. Optionally, you can choose to include the restaurant name in the check reporting data. For more information, see [Retrieving the check reporting data](docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData). For more information about inactive restaurant data, see [Viewing inactive restaurant data](docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData).
+Check reporting data contains a constant set of values. These values appear for every check and are organized by active restaurant. Optionally, you can choose to include the restaurant name in the check reporting data. For more information, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData). For more information about inactive restaurant data, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
-The restaurants included in the check reporting data can be limited by adding the GUIDs of restaurants to either include only or exclude only. For more information about choosing specific restaurants, see [Creating a request for check reporting data](docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest).
+The restaurants included in the check reporting data can be limited by adding the GUIDs of restaurants to either include only or exclude only. For more information about choosing specific restaurants, see [Creating a request for check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest).
 
 The following table specifies the set of values returned in the check reporting data. The values are listed in the order that they appear.
 

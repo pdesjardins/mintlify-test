@@ -49,7 +49,7 @@ You can view your cash drawer history and complete cash drawer actions on the Ca
 
 **Procedure 6.45. To complete a cash drawer action in Toast Web**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Reports &gt; Sales &gt; Sales Summary &gt; Cash Summary and select the Cash drawer history link to open the Cash drawer history page. You can also choose Reports &gt; Cash and loss management &gt; Drawer history to open the Cash drawer history page.
@@ -258,7 +258,7 @@ In Toast Web, you can configure closed cash drawer confirmation thresholds. Thes
 
 **Procedure 6.52. To configure your cash drawer variance thresholds**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Payment methods &gt; Cash overview &gt; Cash drawers &gt; Cash drawer variance to open the Cash drawer variance page.

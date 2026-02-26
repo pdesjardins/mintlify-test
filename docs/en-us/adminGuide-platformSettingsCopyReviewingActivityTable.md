@@ -25,7 +25,7 @@ On the Settings copy page, there is an Activity table that lists historical data
 
 > **Note**
 > 
-> In instances where a setting must account for a dependent MLM setting, if the setting is copied to a location that is not in the [location hierarchy](docs/en-us/adminGuide-ownersAndPermissions) used by the dependent setting, the setting is not copied, but will have a COMPLETED status.
+> In instances where a setting must account for a dependent MLM setting, if the setting is copied to a location that is not in the [location hierarchy](adminGuide-ownersAndPermissions) used by the dependent setting, the setting is not copied, but will have a COMPLETED status.
 
 
 

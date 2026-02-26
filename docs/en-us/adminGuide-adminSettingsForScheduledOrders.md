@@ -28,7 +28,7 @@ In the Online Ordering Scheduling Settingssection on the Online ordering page, y
 
 **Procedure 3.14. To enable scheduled online orders**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Availability &gt; Online ordering to open the Online ordering page.

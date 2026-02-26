@@ -19,7 +19,7 @@ You can change the inventory status on the menu item details page in Toast Web.
 
 **Procedure 8.135. To change the menu item's inventory status from Toast Web**
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Menu &gt; Menu management &gt; Advanced properties to open the Advanced properties page.

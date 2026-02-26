@@ -19,7 +19,7 @@ If a kitchen printer is printing two sets of tickets for every order, two prep s
 
 To verify that your kitchen printers are assigned correctly, follow these steps.
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Kitchen stations &gt; Prep stations. An interactive grid with rows for each prep station appears.
@@ -46,10 +46,10 @@ To verify that your kitchen printers are assigned correctly, follow these steps.
 
 **Next steps**
 
-- [Routing with prep stations](docs/en-us/adminGuide-adminRoutingToPrepStations)
+- [Routing with prep stations](adminGuide-adminRoutingToPrepStations)
 
 
-- [Using a KDS expediter screen](docs/en-us/adminGuide-adminUsingExpo)
+- [Using a KDS expediter screen](adminGuide-adminUsingExpo)
 
 
 

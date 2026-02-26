@@ -20,7 +20,7 @@ You can use these test plans to validate your integrations.
 
 You can use this test plan while you build your gift card integration. Your integration should be able to successfully complete all cases in this plan before it goes live.
 
-You should also ensure that your integration successfully [authenticates](docs/en-us/apiDevGuide-apiGiftCardIntegrationAuthentication)the JSON objects you receive.
+You should also ensure that your integration successfully [authenticates](apiDevGuide-apiGiftCardIntegrationAuthentication)the JSON objects you receive.
 
 You can [download a CSV version of this test plan](toast-api-integration-checklist-giftcard.csv).
 
@@ -57,7 +57,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
 
 You can use this test plan while you build your gift card integration. Your integration should be able to successfully complete all cases in this plan before it goes live.
 
-You should also ensure that your integration successfully [authenticates](docs/en-us/apiDevGuide-apiLoyaltyIntegrationAuthentication)the JSON objects that you receive.
+You should also ensure that your integration successfully [authenticates](apiDevGuide-apiLoyaltyIntegrationAuthentication)the JSON objects that you receive.
 
 You can [download a CSV version of this test plan](toast-api-integration-checklist-loyalty.csv).
 

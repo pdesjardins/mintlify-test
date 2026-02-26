@@ -23,7 +23,7 @@ codeExamples: 0
 > Order payload sizes can reach over 600kbs. Ensure that all servers and content delivery networks (CDNs) can accommodate API payloads of this size.
 
 
-When a restaurant makes any update to an order, or creates a new order, the `orders` webhook sends an HTTP request to an endpoint you specify using the `order_updated` webhook event. For more information about the `order_updated` webhook event, see [order_updated details and message values](docs/en-us/apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated).
+When a restaurant makes any update to an order, or creates a new order, the `orders` webhook sends an HTTP request to an endpoint you specify using the `order_updated` webhook event. For more information about the `order_updated` webhook event, see [order_updated details and message values](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated).
 
 The HTTP request that you receive includes:
 
@@ -46,7 +46,7 @@ In an `orders` webhook message, the `eventCategory` and `eventType` are set to `
 
 ## order_updated details and message values
 
-The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/<em>{orderGuid}</em>` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](docs/en-us/apiDevGuide-devOrdersWebhookRef#devOrdersWebhookSampleJSON).
+The orders webhook event type is `order_updated` or `channel_order_updated`. A new order is also considered an update and uses this same event type. You receive the complete order, in the JSON format, when any change is made to an order. This webhook message response is similar to the response from an [authorized GET request](https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/) to the `/orders/v2/orders/<em>{orderGuid}</em>` API endpoint. The primary difference between these two responses is that the webhook message contains additional details relevant to the `order_updated` event such as the `timestamp` of when an order was updated or created. The `Order` object is in the `details` field of the webhook message body as shown in the [Orders webhook sample message](apiDevGuide-devOrdersWebhookRef#devOrdersWebhookSampleJSON).
 
 Attributes in the `orders_updated` payload include: 
 

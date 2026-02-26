@@ -86,12 +86,12 @@ Follow the steps below to complete shift review offline as an employee or manage
 
 
 
-When the restaurant is back online, the manager can use the Time Entries report to [adjust the time entry](docs/en-us/adminGuide-adminOfflineEmployees#adminOfflineTimeEntries) for the employee.
+When the restaurant is back online, the manager can use the Time Entries report to [adjust the time entry](adminGuide-adminOfflineEmployees#adminOfflineTimeEntries) for the employee.
 
 
 
 > **Note**
 > 
-> Depending on the setting of the [Auto Clock-out](docs/en-us/adminGuide-adminOfflineEmployees#adminOfflineAutoClock) restaurant option, clocked-in employees may be automatically clocked out at the end of the business day.
+> Depending on the setting of the [Auto Clock-out](adminGuide-adminOfflineEmployees#adminOfflineAutoClock) restaurant option, clocked-in employees may be automatically clocked out at the end of the business day.
 
 

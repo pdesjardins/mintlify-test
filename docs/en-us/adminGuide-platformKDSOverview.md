@@ -32,7 +32,7 @@ The following diagram shows how an order might be routed to different KDS device
 
 ![A diagram showing an example workflow of how an order and items can be routed at a restaurant using expediter and prep station KDS devices.](https://doc.toasttab.com/doc/media/kds-overview-expo-ps-workflow-ex.png)
 
-For this example, fired items are sent to both the expediter KDS device and the appropriate prep station KDS devices. When all items are marked as fulfilled at the prep station, the ticket turns green on the expediter KDS device, indicating that all items are ready. Once the items are physically at the expediter station, the ticket is marked as fulfilled. If you have notifications configured to appear when tickets are fulfilled, the Toast POS device that placed the order initially receives a notification. In this case, the prep stations are configured to [send items and tickets to the expediter once completed](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter), and the kitchen uses a [single-level expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment). You can also configure a prep station to not send fulfilled items and tickets to the expediter. For example, the Bar prep station is not in the kitchen, so it does not need to send fulfilled items to the expediter KDS device located in the kitchen.
+For this example, fired items are sent to both the expediter KDS device and the appropriate prep station KDS devices. When all items are marked as fulfilled at the prep station, the ticket turns green on the expediter KDS device, indicating that all items are ready. Once the items are physically at the expediter station, the ticket is marked as fulfilled. If you have notifications configured to appear when tickets are fulfilled, the Toast POS device that placed the order initially receives a notification. In this case, the prep stations are configured to [send items and tickets to the expediter once completed](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter), and the kitchen uses a [single-level expediter](adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment). You can also configure a prep station to not send fulfilled items and tickets to the expediter. For example, the Bar prep station is not in the kitchen, so it does not need to send fulfilled items to the expediter KDS device located in the kitchen.
 
 The following diagram shows how an order might be routed to different KDS devices for a restaurant that uses only expediter KDS devices.
 
@@ -46,9 +46,9 @@ The following diagram shows how an order might be routed to different KDS device
 
 ![A diagram showing an example workflow of how an order and items can be routed at a restaurant using only prep station KDS devices.](https://doc.toasttab.com/doc/media/kds-overview-ps-only-workflow-ex.png)
 
-For this example, fired items are sent to the appropriate prep station KDS devices. When individual items are marked as fulfilled on the prep station screen, a green check appears next to the item. Once all items on a ticket are marked as fulfilled, the ticket disappears. If the prep station is configured to [not send items and tickets to the expediter once completed](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter) and you have notifications configured to appear when tickets are fulfilled, the Toast POS device that placed the order initially receives a notification.
+For this example, fired items are sent to the appropriate prep station KDS devices. When individual items are marked as fulfilled on the prep station screen, a green check appears next to the item. Once all items on a ticket are marked as fulfilled, the ticket disappears. If the prep station is configured to [not send items and tickets to the expediter once completed](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter) and you have notifications configured to appear when tickets are fulfilled, the Toast POS device that placed the order initially receives a notification.
 
-You can also choose to send items to multiple prep stations. For more information, see [Multiple prep stations for an item](docs/en-us/adminGuide-adminRoutingToPrepStations#platformKitchenMultiplePrepStationAssignment).
+You can also choose to send items to multiple prep stations. For more information, see [Multiple prep stations for an item](adminGuide-adminRoutingToPrepStations#platformKitchenMultiplePrepStationAssignment).
 
 ## KDS device interface
 
@@ -65,7 +65,7 @@ Here is an example of the expediter KDS device interface, with multiple tickets.
 
 ![Example of an expediter KDS device with tickets.](https://doc.toasttab.com/doc/media/example-kds-device-screen.png)
 
-At the top-left of the screen, the arrow icon returns you to the Toast home page. On the top-right, there are options to show the [all day view](docs/en-us/adminGuide-adminReportingTotalsKDS#adminAllDayView), show [recently fulfilled tickets](docs/en-us/adminGuide-adminRedisplayingTickets), and [recalling the last fulfilled ticket](docs/en-us/adminGuide-adminRedisplayingTickets#adminRecallTicket). If there is not enough space at the top to display these options, they can appear in the overflow menu. The overflow menu, represented by three vertically stacked dots, provides additional actions and shortcuts.
+At the top-left of the screen, the arrow icon returns you to the Toast home page. On the top-right, there are options to show the [all day view](adminGuide-adminReportingTotalsKDS#adminAllDayView), show [recently fulfilled tickets](adminGuide-adminRedisplayingTickets), and [recalling the last fulfilled ticket](adminGuide-adminRedisplayingTickets#adminRecallTicket). If there is not enough space at the top to display these options, they can appear in the overflow menu. The overflow menu, represented by three vertically stacked dots, provides additional actions and shortcuts.
 
 - Language: This option opens a dialog that allows you to change the language of the KDS user interface.
 
@@ -80,7 +80,7 @@ At the top-left of the screen, the arrow icon returns you to the Toast home page
 
 
 
-- Change ticket size: This option changes the ticket size and layout used by grid view for KDS devices. For more information, see [Ticket sizing and layout](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSGridLayout).
+- Change ticket size: This option changes the ticket size and layout used by grid view for KDS devices. For more information, see [Ticket sizing and layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout).
 
 
 
@@ -102,7 +102,7 @@ At the top-left of the screen, the arrow icon returns you to the Toast home page
 
 The middle of the screen is the area where tickets display. Tickets appear at the top left and move downward and to the right. If a ticket is longer than the screen, the ticket continues to the next column. Ticket size is not standard, and changes to fit the number of items on the ticket. If the amount of tickets exceeds the screen size, you can swipe right and left on the screen to see tickets beyond the current view.
 
-At the bottom of the screen, there are production items, if configured. For more information about production items, see [About production items](docs/en-us/adminGuide-adminAssignPrepStationKDS#adminAboutProdItems).
+At the bottom of the screen, there are production items, if configured. For more information about production items, see [About production items](adminGuide-adminAssignPrepStationKDS#adminAboutProdItems).
 
 ## Grid view for KDS
 
@@ -112,28 +112,28 @@ Grid view is compatible with portrait orientation for Elo v2 and Elo v4 devices.
 
 Grid view has features that set it apart from dynamic view:
 
-- [Grid layout](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSGridLayout): Provides a grid layout for kitchen tickets with a maximum number of tickets on a screen.
+- [Grid layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout): Provides a grid layout for kitchen tickets with a maximum number of tickets on a screen.
 
 
-- [Preview tickets](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPreviewTickets): Provides kitchen employees a preview of upcoming tickets as items are added to an order.
+- [Preview tickets](adminGuide-platformKDSOverview#platformGridKDSPreviewTickets): Provides kitchen employees a preview of upcoming tickets as items are added to an order.
 
 
-- [Pagination](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPagination): Indicates how many pages of tickets exist and can be tapped to quickly move to a specific page.
+- [Pagination](adminGuide-platformKDSOverview#platformGridKDSPagination): Indicates how many pages of tickets exist and can be tapped to quickly move to a specific page.
 
 
-- [Payment status](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPaymentStatus): Displays whether the order was paid or unpaid.
+- [Payment status](adminGuide-platformKDSOverview#platformGridKDSPaymentStatus): Displays whether the order was paid or unpaid.
 
 
-- [Dark mode](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSDarkMode): A color scheme for the screen that is more optimal for low light or prolonged screen use.
+- [Dark mode](adminGuide-platformKDSOverview#platformGridKDSDarkMode): A color scheme for the screen that is more optimal for low light or prolonged screen use.
 
 
-- [Partial fulfillment indicator](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator): A yellow dot icon indicating that the item was fulfilled by at least one prep station.
+- [Partial fulfillment indicator](adminGuide-platformKDSOverview#platformGridKDSPartialFulfillmentIndicator): A yellow dot icon indicating that the item was fulfilled by at least one prep station.
 
 
-- [Food runner fulfillment](docs/en-us/adminGuide-platformKDSOverview#platformKitchenKDSFoodRunnerFulfillment): Individual items can be marked as fulfilled on expediter KDS devices. If already fulfilled at the previous level (prep station KDS devices for one expediter and the first level expediter for two-level fulfillment), fulfillment of an item on an expediter ticket uses a double check mark.
+- [Food runner fulfillment](adminGuide-platformKDSOverview#platformKitchenKDSFoodRunnerFulfillment): Individual items can be marked as fulfilled on expediter KDS devices. If already fulfilled at the previous level (prep station KDS devices for one expediter and the first level expediter for two-level fulfillment), fulfillment of an item on an expediter ticket uses a double check mark.
 
 
-- [Viewing recipes](docs/en-us/adminGuide-platformKDSOverview#platformKitchenKDSViewRecipes): Adds a recipe to a menu item that can be viewed on KDS devices.
+- [Viewing recipes](adminGuide-platformKDSOverview#platformKitchenKDSViewRecipes): Adds a recipe to a menu item that can be viewed on KDS devices.
 
 
 
@@ -148,21 +148,21 @@ Grid view has features that set it apart from dynamic view:
 
 > **Important**
 > 
-> Grid view is only compatible with the local data synchronization method. This local sync method allows for offline mode using local sync. For more information on how local sync works, see [Offline mode with local sync](docs/en-us/adminGuide-platformOfflineModeLocalSync).
+> Grid view is only compatible with the local data synchronization method. This local sync method allows for offline mode using local sync. For more information on how local sync works, see [Offline mode with local sync](adminGuide-platformOfflineModeLocalSync).
 
 
 Here is an example of grid view on an expediter KDS device:
 
 ![An example of grid view on an expediter KDS device with two fired tickets and one preview ticket, using the Medium Tickets size.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-expo-2-fired-1-preview-tickets.png)
 
-At the top-left of the screen, the arrow icon returns you to the Toast POS home screen. On the other side, there are options to show the [recently fulfilled](docs/en-us/adminGuide-adminRedisplayingTickets), and [recall the last fulfilled ticket](docs/en-us/adminGuide-adminRedisplayingTickets#adminRecallTicket).
+At the top-left of the screen, the arrow icon returns you to the Toast POS home screen. On the other side, there are options to show the [recently fulfilled](adminGuide-adminRedisplayingTickets), and [recall the last fulfilled ticket](adminGuide-adminRedisplayingTickets#adminRecallTicket).
 
 The overflow menu (the ⋮ icon) provides additional actions and shortcuts:
 
 - Device Status: Opens a dialog showing the device connection and service statuses.
 
 
-- Change ticket size: Opens the Change ticket size dialog. This dialog changes the size and maximum number of tickets shown on the screen for the [grid layout](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSGridLayout). This is specific to grid view.
+- Change ticket size: Opens the Change ticket size dialog. This dialog changes the size and maximum number of tickets shown on the screen for the [grid layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout). This is specific to grid view.
 
 
 - Device Setup: Opens the Device Setup page.
@@ -174,7 +174,7 @@ The overflow menu (the ⋮ icon) provides additional actions and shortcuts:
 
 The middle of the screen is the ticket area.
 
-The bottom of the screen is for navigation and page indicators. For more information, see [Pagination](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPagination).
+The bottom of the screen is for navigation and page indicators. For more information, see [Pagination](adminGuide-platformKDSOverview#platformGridKDSPagination).
 
 
 
@@ -285,7 +285,7 @@ You can also change the ticket size at any time.
 
 > **Note**
 > 
-> You must use grid view to configure ticket size. For more information on how to configure grid view, see [Setting up grid view](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSSetUp).
+> You must use grid view to configure ticket size. For more information on how to configure grid view, see [Setting up grid view](adminGuide-platformKDSOverview#platformGridKDSSetUp).
 
 
 1. From the Toast POS home screen, navigate to the Mode section and select Kitchen Display System.
@@ -359,7 +359,7 @@ If you exit or close the Toast POS app while an order is in progress, the previe
 
 **Procedure 10.31. To configure KDS devices to display preview tickets**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page.
@@ -379,7 +379,7 @@ If you exit or close the Toast POS app while an order is in progress, the previe
 
 
 
-For an example workflow of a KDS device using grid view with preview tickets enabled, see [KDS workflow using grid view](docs/en-us/adminGuide-platformGridKDSWorkflow).
+For an example workflow of a KDS device using grid view with preview tickets enabled, see [KDS workflow using grid view](adminGuide-platformGridKDSWorkflow).
 
 ### Pagination
 
@@ -418,14 +418,14 @@ Here is an example of grid view using dark mode.
 
 An assembly line is a sequence of prep stations that you can assign to menu entities that an item follows in the kitchen. Once an item is sent to the kitchen, it appears on the first prep station in the sequence, and once fulfilled at that prep station, it moves to the second prep station in the sequence. This continues until the sequence is completed.
 
-Assembly lines are ideal for kitchens with items that move in a standard path through kitchen prep stations. For example, a pizza restaurant has a menu for pizza items that all go to the **Dough**, **Sauce/Toppings**, and **Bake** prep stations in that order. Using an assembly line keeps other prep stations from seeing an item before it is fulfilled at the previous prep station in a sequence. For more information about how assembly lines work, see [Routing using assembly lines](docs/en-us/adminGuide-platformKDSRoutingUsingAssemblyLines). For information about how to create an assembly line, see [Creating an assembly line](docs/en-us/adminGuide-platformKDSCreatingAssemblyLines).
+Assembly lines are ideal for kitchens with items that move in a standard path through kitchen prep stations. For example, a pizza restaurant has a menu for pizza items that all go to the **Dough**, **Sauce/Toppings**, and **Bake** prep stations in that order. Using an assembly line keeps other prep stations from seeing an item before it is fulfilled at the previous prep station in a sequence. For more information about how assembly lines work, see [Routing using assembly lines](adminGuide-platformKDSRoutingUsingAssemblyLines). For information about how to create an assembly line, see [Creating an assembly line](adminGuide-platformKDSCreatingAssemblyLines).
 
 Before you start creating and assigning assembly lines, verify the following:
 
 - You created prep stations.
 
 
-- You set the [Fulfillment Method](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently.
+- You set the [Fulfillment Method](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently.
 
 
 - You verified that the menu entity and the assembly line you plan to assign to that menu entity use at least one of the same prep stations.
@@ -441,13 +441,13 @@ Before you start creating and assigning assembly lines, verify the following:
 > The partial fulfillment indicator is in limited release.
 
 
-If you set the [Fulfillment Method](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently, a partial fulfillment indicator appears on expediter KDS tickets for items that have been partially fulfilled.
+If you set the [Fulfillment Method](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently, a partial fulfillment indicator appears on expediter KDS tickets for items that have been partially fulfilled.
 
 
 
 > **Note**
 > 
-> The prep station assigned to an item must [send to expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter) in order to trigger the partial fulfillment on the expediter KDS device tickets.
+> The prep station assigned to an item must [send to expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter) in order to trigger the partial fulfillment on the expediter KDS device tickets.
 
 
 The partial fulfillment indicator appears as a yellow dot to the left of the item name. It indicates that an item was fulfilled by at least one prep station, but not all assigned prep stations. Once the item is fulfilled at all prep stations, the indicator changes to a green check mark, indicating that the item was fulfilled at all prep stations.
@@ -469,14 +469,14 @@ Here is an example of a ticket on an expediter KDS device using grid view with o
 
 > **Note**
 > 
-> To use food runner fulfillment, the [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting must be set to Enable individual item fulfillment.
+> To use food runner fulfillment, the [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting must be set to Enable individual item fulfillment.
 
 
 Grid view's food runner fulfillment feature allows employees to fulfill individual items on expediter KDS device tickets. Food runner fulfillment is useful in situations where items are given to the guest as soon as they are ready, giving a visual indication of the fulfillment status of an individual item for that KDS device and fulfillment level.
 
 If a ticket with multiple items contains an item that is fulfilled at a prep station KDS device, or at the previous station or stations for expediter KDS devices, it is marked with a green check mark. When an item on a ticket is fulfilled at the highest fulfillment level by an employee, the Toast platform marks the item with a green double check mark on that expediter KDS device.
 
-- If you use [two-level fulfillment](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment), the highest level of fulfillment is at the second-level expediter KDS device. The green double check mark appears when the item is fulfilled at the second-level expediter KDS device.
+- If you use [two-level fulfillment](adminGuide-adminKitchenDiningRoomReference#configTwoLevelFulfillment), the highest level of fulfillment is at the second-level expediter KDS device. The green double check mark appears when the item is fulfilled at the second-level expediter KDS device.
 
 
 - If you use single-level fulfillment, the highest level of fulfillment is at the expediter KDS device. The green double check mark appears when the item is fulfilled at the expediter KDS device.
@@ -498,9 +498,9 @@ Food runner fulfillment only works for expediter KDS device tickets with multipl
 > This feature is in limited release.
 
 
-If a menu item has a recipe associated with it and the [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting is set to Enable individual item fulfillment, you can view the recipe on a KDS device.
+If a menu item has a recipe associated with it and the [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting is set to Enable individual item fulfillment, you can view the recipe on a KDS device.
 
-For information about how to add a recipe to a menu item, see [Adding a recipe view](docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerAddingRecipeView).
+For information about how to add a recipe to a menu item, see [Adding a recipe view](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerAddingRecipeView).
 
 
 
@@ -569,7 +569,7 @@ Here is an example of a grid view device showing eight production items.
 
 ![An example of grid view with the maximum eight production items.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-production-items.png)
 
-For more information about production items, see [About production items](docs/en-us/adminGuide-adminAssignPrepStationKDS#adminAboutProdItems).
+For more information about production items, see [About production items](adminGuide-adminAssignPrepStationKDS#adminAboutProdItems).
 
 #### Ticket header
 
@@ -612,7 +612,7 @@ If there are more timers that do not fit on the expanded view, you can swipe up 
 
 Select + Collapse Timers to hide all timers except for the expediter timer on the expediter KDS device.
 
-For more information about average fulfillment timers, see [Understanding average fulfillment timers](docs/en-us/adminGuide-platformKitchenAvgFullfillmentTimer).
+For more information about average fulfillment timers, see [Understanding average fulfillment timers](adminGuide-platformKitchenAvgFullfillmentTimer).
 
 ### Grid view usage guidelines
 
@@ -621,7 +621,7 @@ When using the grid view feature, use the following guidelines:
 - Do not use grid view on portable devices. Grid view is not currently compatible with ToastGo1 and ToastGo2. Using grid view on these devices can result in cropped contents and poor formatting.
 
 
-- Do not disconnect your local hub device from your router. The local hub device is required for offline mode with local sync. For more information about the local hub device, see [Local hub devices](docs/en-us/adminGuide-platformOfflineModeLocalSync#platformOfflineModeLocalSyncLocalHubDevice).
+- Do not disconnect your local hub device from your router. The local hub device is required for offline mode with local sync. For more information about the local hub device, see [Local hub devices](adminGuide-platformOfflineModeLocalSync#platformOfflineModeLocalSyncLocalHubDevice).
 
 
 - Be aware that clearing the app data or uninstalling the Toast POS app on a KDS device that is using grid view reverts the ticket size to Medium Tickets. You then have to update the ticket size to change to the Dynamic Sizing, Large Tickets, or Small Tickets option.
@@ -636,5 +636,5 @@ The following table provides information on device settings that ignore the curr
 
 | Setting | Behavior | 
 | --- | --- |
-| Text Size | For grid view, the text size is associated with the ticket size. For more information, see [Procedure 10.30, “To configure the ticket size”](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSToConfigureSize). | 
+| Text Size | For grid view, the text size is associated with the ticket size. For more information, see [Procedure 10.30, “To configure the ticket size”](adminGuide-platformKDSOverview#platformGridKDSToConfigureSize). | 
 

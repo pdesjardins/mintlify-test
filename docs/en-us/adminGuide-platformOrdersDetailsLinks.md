@@ -17,10 +17,10 @@ codeExamples: 0
 
 The order details dialog on the Orders report provides links to additional information and order actions, including:
 
-- [Sending orders to devices](docs/en-us/adminGuide-platformOrdersSendToDevices)
+- [Sending orders to devices](adminGuide-platformOrdersSendToDevices)
 
 
-- [Reopening closed checks](docs/en-us/adminGuide-platformOrdersReopening)
+- [Reopening closed checks](adminGuide-platformOrdersReopening)
 
 
 

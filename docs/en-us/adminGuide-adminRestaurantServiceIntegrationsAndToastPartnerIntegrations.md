@@ -32,7 +32,7 @@ The Toast Restaurant Management Suite gives you access to a large number of inte
 > Some integrations allow you to integrate for free and without a Toast Restaurant Management Suite subscription. Other integrations require an additional fee regardless of whether or not you have a Toast Restaurant Management Suite subscription.
 
 
-Partners integrate with the Toast platform by using Toast APIs. Partners can get information about which restaurants they have access to through a Toast API. When you select an integration from the Browse & purchase integrations page, that integration partner is notified and receives information about your restaurant the next time they request information about the restaurants they have access to. For more information about the way partners determine which restaurants they have access to, see [Location access](docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants).
+Partners integrate with the Toast platform by using Toast APIs. Partners can get information about which restaurants they have access to through a Toast API. When you select an integration from the Browse & purchase integrations page, that integration partner is notified and receives information about your restaurant the next time they request information about the restaurants they have access to. For more information about the way partners determine which restaurants they have access to, see [Location access](apiDevGuide-apiPartnersGettingAccessibleRestaurants).
 
 
 
@@ -45,7 +45,7 @@ To select the integration partners that have access to your restaurant on the Br
 
 **Procedure 12.1. To add an integration**
 
-1. [Access Toast Web.](docs/en-us/adminGuide-adminAccessToastAdminBackend)
+1. [Access Toast Web.](adminGuide-adminAccessToastAdminBackend)
 
 
 2. Choose Integrations &gt; Integration management &gt; Browse & purchase integrations.

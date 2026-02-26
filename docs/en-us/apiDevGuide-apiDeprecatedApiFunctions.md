@@ -38,7 +38,7 @@ Toast support recommends that you use the `startDate` and `endDate` query parame
 
 **Example 1.11. Request for orders last modified during a time period**
 
-The following example shows the path for a `GET` request that will return orders last modified during a one-hour period. The values of the `startDate` and `endDate` query parameters must be URL encoded. For more information about date and time formats, see [Dates and timestamps](docs/en-us/apiDevGuide-api_dates_and_timestamps).
+The following example shows the path for a `GET` request that will return orders last modified during a one-hour period. The values of the `startDate` and `endDate` query parameters must be URL encoded. For more information about date and time formats, see [Dates and timestamps](apiDevGuide-api_dates_and_timestamps).
 
 
 ```
@@ -131,7 +131,7 @@ This section includes information about Toast API authentication functionality t
 
 > **Important**
 > 
-> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](docs/en-us/apiDevGuide-authentication).
+> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](apiDevGuide-authentication).
 
 
 You get an authentication token by sending a `POST` request to the `/usermgmt/v1/oauth/token` resource of the Toast user management API. The following example shows the URL of the user management token endpoint.
@@ -141,7 +141,7 @@ You get an authentication token by sending a `POST` request to the `/usermgmt/v1
 https://`[toast-api-hostname]`/usermgmt/v1/oauth/token
 ```
 
-You must include your client identifier and client secret string in the message body of a `POST` request for an authentication token. When the user management API determines that the client identifier and client secret string are valid, it returns an authentication token along with a set of data describing the way you can use it. You receive a client identifier (*`client_id`*) and client secret string (*`client_secret`*) when you register to use Toast APIs. For more information, see [Toast API accounts](docs/en-us/apiDevGuide-apiClientAccounts).
+You must include your client identifier and client secret string in the message body of a `POST` request for an authentication token. When the user management API determines that the client identifier and client secret string are valid, it returns an authentication token along with a set of data describing the way you can use it. You receive a client identifier (*`client_id`*) and client secret string (*`client_secret`*) when you register to use Toast APIs. For more information, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 To create the message body of an authentication request, concatenate your client identifier, client secret string, and the grant type (which is always *`grant_type=client_credentials`*) using the syntax for a set of query parameters:
 
@@ -187,14 +187,14 @@ https://`[toast-api-hostname]`/usermgmt/v1/oauth/token
 
 ```
 
-The return data that you receive depends on the type of Toast API client you are using. Toast APIs support partner clients and restaurant management group clients. For more information about the types of Toast API clients, see [Toast API accounts](docs/en-us/apiDevGuide-apiClientAccounts).
+The return data that you receive depends on the type of Toast API client you are using. Toast APIs support partner clients and restaurant management group clients. For more information about the types of Toast API clients, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 The following sections provide information about the return data provided for authentication requests for different Toast API client types.
 
-- [Authentication return data for a partner API client](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiAuthenticationReturnDataPartnerLegacy)
+- [Authentication return data for a partner API client](apiDevGuide-apiDeprecatedApiFunctions#apiAuthenticationReturnDataPartnerLegacy)
 
 
-- [Authentication return data for a restaurant management group API client](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiAuthenticationReturnDataRestaurantLegacy)
+- [Authentication return data for a restaurant management group API client](apiDevGuide-apiDeprecatedApiFunctions#apiAuthenticationReturnDataRestaurantLegacy)
 
 
 
@@ -204,10 +204,10 @@ The following sections provide information about the return data provided for au
 
 > **Important**
 > 
-> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](docs/en-us/apiDevGuide-authentication).
+> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](apiDevGuide-authentication).
 
 
-The user management API returns the following information for a successful authentication request using a partner API client. For more information about partner API accounts, see [Toast API accounts](docs/en-us/apiDevGuide-apiClientAccounts).
+The user management API returns the following information for a successful authentication request using a partner API client. For more information about partner API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 - access_token - an encoded string that contains an authentication token. You must present this string when you make requests to other, secure Toast API resources.
 
@@ -268,10 +268,10 @@ iNTlbPVwAvrFTbEWcmys0",
 
 > **Important**
 > 
-> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](docs/en-us/apiDevGuide-authentication).
+> The API authentication endpoint and procedure described in this section is deprecated. Implement authentication for your Toast API integration using the endpoint and procedure described in [Authentication and restaurant access](apiDevGuide-authentication).
 
 
-The user management API returns the following information for a successful authentication request using a restaurant management group API client. For more information about restaurant management group API accounts, see [Toast API accounts](docs/en-us/apiDevGuide-apiClientAccounts).
+The user management API returns the following information for a successful authentication request using a restaurant management group API client. For more information about restaurant management group API accounts, see [Toast API accounts](apiDevGuide-apiClientAccounts).
 
 - access_token - an encoded string that contains an authentication token. You can present this string when you make requests to other, secure Toast API resources.
 
@@ -342,7 +342,7 @@ This section provides information about working with restaurant guest records in
 > The CRM API is deprecated and will be replaced by future Toast API functionality. Before beginning development work using the CRM API, contact the Toast technical partnership team to make sure your integration plans are coordinated with upcoming API changes.
 
 
-For general information about the way the Toast POS handles guest records, see [Guest data overview](docs/en-us/adminGuide-adminGuestDataOverview).
+For general information about the way the Toast POS handles guest records, see [Guest data overview](adminGuide-adminGuestDataOverview).
 
 The Toast POS creates customer records when:
 
@@ -361,13 +361,13 @@ The Toast POS creates customer records when:
 
 The following sections provide more information about working with customers.
 
-- [Searching for guest records](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiSearchingForCustomerRecords)
+- [Searching for guest records](apiDevGuide-apiDeprecatedApiFunctions#apiSearchingForCustomerRecords)
 
 
-- [Adding a guest record](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiAddingCustomerRecords)
+- [Adding a guest record](apiDevGuide-apiDeprecatedApiFunctions#apiAddingCustomerRecords)
 
 
-- [Adding guest credits](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiAddingCustomerCredits)
+- [Adding guest credits](apiDevGuide-apiDeprecatedApiFunctions#apiAddingCustomerCredits)
 
 
 
@@ -399,7 +399,7 @@ Before you add a customer record, you must make sure that the Toast POS does not
 
 **Before creating a new guest record**
 
-1. Search for an existing customer record for the restaurant customer. For more information, see [Searching for guest records](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiSearchingForCustomerRecords).
+1. Search for an existing customer record for the restaurant customer. For more information, see [Searching for guest records](apiDevGuide-apiDeprecatedApiFunctions#apiSearchingForCustomerRecords).
 
 
 2. If one or more customer records match your search criteria, add customer credit or perform other customer-related operations on the existing customer record.
@@ -525,7 +525,7 @@ This section includes information about Toast API menu functionality that is ava
 
 > **Important**
 > 
-> The menus API has replaced the the menu data export as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval, however, the export functionality will be deprecated at some point in the future and this section will be removed.
+> The menus API has replaced the the menu data export as the preferred mechanism for retrieving menu data for a restaurant. It is described in the [Menus API overview](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) section. This section remains for customers who have not yet transitioned to using the menus API for menu data retrieval, however, the export functionality will be deprecated at some point in the future and this section will be removed.
 
 
 You can get detailed information about the menus configured for your restaurant from the menu data export file. The Toast POS system generates data export files once a day and makes them available for downloading. This section provides information about downloading data export files and understanding the values in menu data export files.
@@ -537,7 +537,7 @@ The Toast platform stores data export files for seven days, and then they are de
 - SFTP User name: This is provided by Toast support.
 
 
-- SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](docs/en-us/adminGuide-adminSshKeys).
+- SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminGuide-adminSshKeys).
 
 
 - Server URL: To locate the appropriate Server URL, navigate to Reports &gt; Settings &gt; SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
@@ -550,7 +550,7 @@ Export IDs can also be obtained from Toast Web. Navigate to Reports &gt; Setting
 
 
 
-Prior to downloading data export files, ensure that you have [added an SSH key](docs/en-us/adminGuide-adminSshKeys) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
+Prior to downloading data export files, ensure that you have [added an SSH key](adminGuide-adminSshKeys) to Toast Web. The following examples describe how to connect to your SFTP directory for use with the macOS™ terminal and Windows™ command prompt. For information about how to export files using a third party FTP solution see this [Toast Central article.](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691)
 
 #### Accessing your SFTP directory using macOS terminal
 
@@ -630,7 +630,7 @@ The menu data export includes two types of information:
 
 
 
-The file name of the menu data export is `MenuExport_<em>[export file identifier]</em>.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#downloading-data-export-files).
+The file name of the menu data export is `MenuExport_<em>[export file identifier]</em>.json`. The menu data export is in JavaScript Object Notation (JSON) format. For information about downloading data export files, see [Downloading data export files](apiDevGuide-apiDeprecatedApiFunctions#downloading-data-export-files).
 
 
 
@@ -653,7 +653,7 @@ The following table shows the information about each menu at your restaurant fro
 | name | A descriptive identifier for the menu. For example, `Food` or `Drinks`. | String | 
 | guid | The unique identifier for the menu, assigned by the Toast POS. | String | 
 | description | A written description of the menu. | String | 
-| groups | A JSON array of [MenuGroup](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#menuExportMenugroup) objects. | JSON array | 
+| groups | A JSON array of [MenuGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenugroup) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | orderableOnline | Indicates whether the menu is available for online ordering. Valid values are `true` and `false`. This field is a Boolean version of the orderableOnlineStatus field. | Boolean | 
 | orderableOnlineStatus | Indicates whether the menu is available for online ordering. Valid values are `YES` and `NO`. This field is a string version of the orderableOnline field. | String | 
@@ -698,7 +698,7 @@ The following table shows the information about each menu group at your restaura
 | guid | The unique identifier for the menu group, assigned by the Toast POS. | String | 
 | description | A written description of the menu group. | String | 
 | subgroups | An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`. | JSON array | 
-| items | An array of [MenuItem](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuitem) objects. | JSON array | 
+| items | An array of [MenuItem](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuitem) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | imageLink | A URL to an image located on Amazon S3. For example:https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg | String | 
 | orderableOnline | Indicates whether the menu group is available for online ordering. | Boolean | 
@@ -720,11 +720,11 @@ The following table shows the information about each menu item at your restauran
 | description | A written description of the menu item. | String | 
 | sku | The stock keeping unit (SKU) identifier for the item. | String | 
 | plu | The price lookup (PLU) code for the item. | String | 
-| maxSelections | This value only applies to items in a [MenuOptionGroup](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup)object. | Integer | 
+| maxSelections | This value only applies to items in a [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup)object. | Integer | 
 | price | The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency. | Currency | 
 | prices | An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu. | JSON array | 
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| optionGroups | An array of [MenuOptionGroup](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup) objects. | JSON array | 
+| optionGroups | An array of [MenuOptionGroup](apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup) objects. | JSON array | 
 | idString | This field is for Toast internal use only. | String | 
 | itemGroupGuid | The unique identifier of the menu group to which this menu item belongs. | String | 
 | calories | The caloric value for this menu item. The value can be any positive or negative integer, or zero. | Integer | 
@@ -763,13 +763,13 @@ This means:- You can select AT MOST two different cheeses from this group to app
 - `INCLUDED` - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).
 
  | String | 
-| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
+| pricingStrategy | Indicates the way prices are set for the options in this menu option group. Values are:- `NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE`if the [pricingMode](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup)is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED`(no additional cost is charged for the options in the menu option group).
 - `BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.
 - `SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.
 - `UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.
 
  | String | 
-| pricingStrategyRules | An [object](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
+| pricingStrategyRules | An [object](apiDevGuide-apiDeprecatedApiFunctions#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`. | JSON object | 
 | defaultOptionsChargePrice | Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:- `NO` - The option price is ignored. No change is made to the cost of the menu item.
 - `YES` - The option price is added to the cost of the menu item.
 
@@ -795,7 +795,7 @@ The following table shows the information about the pricing strategy for the mod
 
 | Field | Description | Data Type | 
 | --- | --- | --- |
-| basePrice | Used when the [pricingStrategy](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
+| basePrice | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
 ```
 "optionGroups": [ 
 {
@@ -811,8 +811,8 @@ The following table shows the information about the pricing strategy for the mod
 ```
 
  | Number | 
-| numberOfLevels | Used when the [pricingStrategy](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices)array. | Number | 
-| sequencePrices | Sets the price for each level defined in the [numberOfLevels](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:
+| numberOfLevels | Used when the [pricingStrategy](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup)is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices)array. | Number | 
+| sequencePrices | Sets the price for each level defined in the [numberOfLevels](apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels)value. For example:
 ```
 "optionGroups": [ 
 {
@@ -854,7 +854,7 @@ The following table shows the information about the premodifier groups at your r
 | name | A descriptive identifier for a `premodifierGroup` object. | String | 
 | guid | The unique identifier for the premodifier group, assigned by the Toast POS. | String | 
 | isDefault | Whether or not the item is selected unless a customer chooses to decline it. | Boolean | 
-| premodifiers | An array of [premodifiers](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#menuExportPremodifier) objects. | JSON array | 
+| premodifiers | An array of [premodifiers](apiDevGuide-apiDeprecatedApiFunctions#menuExportPremodifier) objects. | JSON array | 
 
 #### premodifiers
 
@@ -877,7 +877,7 @@ The following table shows the information about the premodifiers or postmodifier
 
 #### Finding the default modifiers for a menu item
 
-When you create an order using the orders API, you must include all of the default modifiers for each menu item selection. If you omit a default modifier, the orders API will not apply it to the menu item. You can find the default modifiers for a menu item in the menu data export file for your restaurant. For general information about the menu data export file, see [Getting menu information from the menu data export (deprecated)](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiMenuInformationMenuDataExport).
+When you create an order using the orders API, you must include all of the default modifiers for each menu item selection. If you omit a default modifier, the orders API will not apply it to the menu item. You can find the default modifiers for a menu item in the menu data export file for your restaurant. For general information about the menu data export file, see [Getting menu information from the menu data export (deprecated)](apiDevGuide-apiDeprecatedApiFunctions#apiMenuInformationMenuDataExport).
 
 The menu data export file contains a JSON representation of the menus configured for your restaurant. The nested hierarchical structure of the JSON matches the structure of your menus. For example, a menu JSON object contains menu group objects, which contain menu item objects. The `optionGroups` value for a menu item includes `MenuOptionGroup` objects for the types of modifier that you can apply to the item. The `MenuItem` objects in the items value of the `MenuOptionGroup` object are the modifier menu items that you can apply. For example, a salad menu item might have a toppings menu option group that contains menu items such as tomatoes or onions that you can apply as modifiers. The `MenuItem` objects in a `MenuOptionGroup` include an `isDefault` value to indicate whether or not the modifier item is a default modifier for the menu item.
 
@@ -987,7 +987,7 @@ ${MENU_EXPORT_FILE}
 (6) These jq command filters select one menu item from its menu and menu group. It then selects each menu item in the optionGroup array for that menu item if the isDefault value for the optionGroup is true.
 
   
-The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiUsingJqToFindDefaultModifiers).
+The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](apiDevGuide-apiDeprecatedApiFunctions#apiUsingJqToFindDefaultModifiers).
 
 **Example 1.23. Default modifiers for a menu item**
 
@@ -1077,11 +1077,11 @@ Previously, a menu entity's visibility was controlled by several, separate setti
 
 
 
-To support the new visibility functionality, user interface changes have been made to the menu entity details pages in Toast Web and a set of corresponding changes have been made to the menus and configuration APIs. More information is provided about these UI and API changes in the [Understanding the new visibility behavior](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheNewVisibilityBehavior) section.
+To support the new visibility functionality, user interface changes have been made to the menu entity details pages in Toast Web and a set of corresponding changes have been made to the menus and configuration APIs. More information is provided about these UI and API changes in the [Understanding the new visibility behavior](apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheNewVisibilityBehavior) section.
 
 If you are an online ordering partner, the visibility changes require that you:
 
-- Use the `visibility` array available in the menus API for each menu entity to determine if the menu entity should be visible on your ordering web site. See [Understanding the new visibility behavior](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheNewVisibilityBehavior) for details.
+- Use the `visibility` array available in the menus API for each menu entity to determine if the menu entity should be visible on your ordering web site. See [Understanding the new visibility behavior](apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheNewVisibilityBehavior) for details.
 
 
 - Stop using the `visibility` and `orderableOnline` values on the `Menu`, `MenuGroup`, and `MenuItem` objects in the configuration API. While these values will continue to exist for a short period so that integrations do not break, they will be populated differently after 2020-05-25 and integrations that use them will potentially see unexpected behavior after this date.
@@ -1097,10 +1097,10 @@ To allow you to develop against the new `visibility` array, the sandbox environm
 > To conserve the use of system resources, the menus API service only generates the JSON that it returns when a menu-related change has been made and published. This means that, when a restaurant makes changes to its menu visibility settings in Toast Web after 2020-05-25, they will have to publish those changes before the menus API can return them to your integration.
 
 
-- [Understanding the new visibility behavior](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheNewVisibilityBehavior)
+- [Understanding the new visibility behavior](apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheNewVisibilityBehavior)
 
 
-- [Understanding the Grubhub enumeration](docs/en-us/apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheGrubhubEnumeration)
+- [Understanding the Grubhub enumeration](apiDevGuide-apiDeprecatedApiFunctions#apiUnderstandingTheGrubhubEnumeration)
 
 
 

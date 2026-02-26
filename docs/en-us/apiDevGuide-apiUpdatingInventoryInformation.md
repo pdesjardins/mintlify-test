@@ -22,7 +22,7 @@ You can use the [stock API](https://doc.toasttab.com/openapi/stock/overview/) to
 
 > **Note**
 > 
-> For information on getting inventory information, see [Getting stock using the stock webhook](docs/en-us/apiDevGuide-apiUsingTheStockWebhook) and [Getting stock information using the stock API](docs/en-us/apiDevGuide-apiUsingTheStockApi).
+> For information on getting inventory information, see [Getting stock using the stock webhook](apiDevGuide-apiUsingTheStockWebhook) and [Getting stock information using the stock API](apiDevGuide-apiUsingTheStockApi).
 
 
 To update inventory information for menu items, submit a `PUT` request to the stock API's `/inventory/update`endpoint. The message body of the `PUT` request must contain an array of objects that provide information about the menu items to update.
@@ -67,7 +67,7 @@ For each menu item to update, include a `MenuItemInventory`object in the message
 
 If you use a `multiLocationId`, then the Toast platform will use that ID along with the restaurant GUID in the request header to resolve which menu item version is affected by the update.
 
-See [Toast identifiers](docs/en-us/apiDevGuide-portalToastIdentifiers) for more information on these two identifier types.
+See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information on these two identifier types.
 
 
 - The status for the menu item, which must be one of the following:
@@ -121,13 +121,13 @@ The following example shows a JSON message body data that provides information a
 (3) This object uses a guid to identify the menu item to update and sets the menu item's stock status to OUT_OF_STOCK.
 
   
-The response for an update request includes a [`MenuItemInventory`object](docs/en-us/apiDevGuide-apiUsingTheStockApi#portalMenuItemInventoryObject) with the inventory information for each menu item identifier you submitted in the request. The stock API sets the `itemGuidValidity` value of each `MenuItemInventory`object to indicate whether it found a matching menu item and made the update. `VALID` indicates a matching item was found and its stock status was updated. `INVALID` indicates no matching item was found and no action was taken for that identifier. If a menu item's status is `INVALID`, your integration should update the list of menu items it associates with the restaurant location.
+The response for an update request includes a [`MenuItemInventory`object](apiDevGuide-apiUsingTheStockApi#portalMenuItemInventoryObject) with the inventory information for each menu item identifier you submitted in the request. The stock API sets the `itemGuidValidity` value of each `MenuItemInventory`object to indicate whether it found a matching menu item and made the update. `VALID` indicates a matching item was found and its stock status was updated. `INVALID` indicates no matching item was found and no action was taken for that identifier. If a menu item's status is `INVALID`, your integration should update the list of menu items it associates with the restaurant location.
 
 
 
 > **Note**
 > 
-> You can use the [menus API](docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) to retrieve a fully resolved set of menus for each restaurant location, including identifiers for all of the location's menu items.
+> You can use the [menus API](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI) to retrieve a fully resolved set of menus for each restaurant location, including identifiers for all of the location's menu items.
 
 
 The following example shows the JSON response data for a PUT request to the `/inventory/update` endpoint.
@@ -193,5 +193,5 @@ The following example shows the JSON response data for a PUT request to the `/in
 (5) Return data for a menu item multiLocationId that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.
 
   
-Note that, if your integration also uses the [stock webhook](docs/en-us/apiDevGuide-apiStockWebhook), your webhook endpoint receives a message indicating that an inventory update has occurred whenever updates are made using the stock API.
+Note that, if your integration also uses the [stock webhook](apiDevGuide-apiStockWebhook), your webhook endpoint receives a message indicating that an inventory update has occurred whenever updates are made using the stock API.
 

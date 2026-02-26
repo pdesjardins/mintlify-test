@@ -38,7 +38,7 @@ As an employee, you can reopen your shift during shift review. Some instances of
 
 **Procedure 6.116. To reopen your shift**
 
-1. On the Toast POS device, navigate to the Shift Review screen. For information on how to access your shift review, see [Accessing shift review](docs/en-us/adminGuide-platformAccessingShiftReview).
+1. On the Toast POS device, navigate to the Shift Review screen. For information on how to access your shift review, see [Accessing shift review](adminGuide-platformAccessingShiftReview).
 
 
 2. In the Cash reimbursement step, select the Edit button. This opens the Edit cash and non-cash tip reconciliationdialog box. The dialog box displays the total cash and non-cash tips taken during your shift.
@@ -94,7 +94,7 @@ As a manager, you can reopen an employee’s shift. Some instances of when you m
 
 
 
-For more information on employee shift statuses, see [Reviewing employee shifts](docs/en-us/adminGuide-platformReviewingEmployeeShifts).
+For more information on employee shift statuses, see [Reviewing employee shifts](adminGuide-platformReviewingEmployeeShifts).
 
 
 3. On the Shift Review screen, select the Edit button in the Cash reimbursement step. This opens the Edit cash and non-cash tip reconciliation dialog box. The dialog box displays the total cash and non-cash tips taken during the shift.

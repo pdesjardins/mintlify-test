@@ -25,7 +25,7 @@ codeExamples: 0
 
 **Procedure 3.25. To configure an Autofire device in Toast Web**
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Availability &gt; Online ordering to open the Online ordering page.
@@ -53,7 +53,7 @@ codeExamples: 0
 
 **Procedure 3.26. To change your Autofire device in Toast Web**
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Availability &gt; Online ordering to open the Online ordering page.

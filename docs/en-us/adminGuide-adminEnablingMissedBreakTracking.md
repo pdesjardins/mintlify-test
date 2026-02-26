@@ -33,11 +33,11 @@ To be in full compliance, the employee must take two rest breaks, for example, a
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-break-interval-1-taken-interval-2-taken.png)
 
-Missed breaks are logged in the Break entriesreport, described in [Viewing employee breaks in labor reports](docs/en-us/adminGuide-adminViewingBreaksInLaborReports).
+Missed breaks are logged in the Break entriesreport, described in [Viewing employee breaks in labor reports](adminGuide-adminViewingBreaksInLaborReports).
 
 **Procedure 4.21. To enable missed break tracking**
 
-1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Switch to the restaurant you want to configure.

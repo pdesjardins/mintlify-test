@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 2
 ---
 
-Multi-location restaurants can have multiple [versions](docs/en-us/adminGuide-versions) of a menu, for example, a Dinner menu that has a version for a Boston location and another version for a Portland location. There are two approaches you can take if you want to use menu-specific prices with versioned menus:
+Multi-location restaurants can have multiple [versions](adminGuide-versions) of a menu, for example, a Dinner menu that has a version for a Boston location and another version for a Portland location. There are two approaches you can take if you want to use menu-specific prices with versioned menus:
 
 - All versions of the menu use the same menu-specific prices, for example:
 
@@ -34,7 +34,7 @@ In the example above, the Boston and Portland locations have their own versions 
 
 When guests visit either the Boston or Portland location and order Crab Cakes from the Lunch menu, the price is $10. When they order Crab Cakes from the Dinner menu, the price is $14.
 
-To use this pricing configuration, you set the pricing strategy for the Crab Cakes menu item to Menu Specific Price and then specify prices for the Lunch menu and Dinner menu. For more information, see [All versions of a menu use the same menu-specific prices](docs/en-us/adminGuide-platformAllVersionsOfAMenuUseTheSameMenuSpecificPrices).
+To use this pricing configuration, you set the pricing strategy for the Crab Cakes menu item to Menu Specific Price and then specify prices for the Lunch menu and Dinner menu. For more information, see [All versions of a menu use the same menu-specific prices](adminGuide-platformAllVersionsOfAMenuUseTheSameMenuSpecificPrices).
 
 
 - Each version of the menu has its own menu-specific prices, for example:
@@ -71,7 +71,7 @@ To use this pricing configuration, you:
 
 
 
-For detailed instructions on using this pricing configuration, see [Each version of a menu has its own menu-specific prices](docs/en-us/adminGuide-platformEachVersionOfAMenuHasItsOwnMenuSpecificPrices).
+For detailed instructions on using this pricing configuration, see [Each version of a menu has its own menu-specific prices](adminGuide-platformEachVersionOfAMenuHasItsOwnMenuSpecificPrices).
 
 
 

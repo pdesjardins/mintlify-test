@@ -22,7 +22,7 @@ You can customize the names and colors of the buttons employees see in the Toast
 Enter a name in the POS name field. To specify a button color, select the Button coloroption and then select a color from the color palette.
 
 
-- For modifiers, go to [the Edit modifier dialog](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#platformEditingAModifiersDetails) for the modifier, select the POS button color option and then select a color from the color palette. Modifiers do not have a POS name. The Toast POS app displays the Modifier name.
+- For modifiers, go to [the Edit modifier dialog](adminGuide-adminAddingModifierGroupsAndModifiers#platformEditingAModifiersDetails) for the modifier, select the POS button color option and then select a color from the color palette. Modifiers do not have a POS name. The Toast POS app displays the Modifier name.
 
 
 

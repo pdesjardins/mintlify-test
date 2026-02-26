@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-When you configure a modifier group to require guests and servers to choose a minimum number of modifiers from that group, you must also pay careful attention to the [ordering channel visibility](docs/en-us/adminGuide-adminVisibilitySettings)settings for the modifiers in that group. Specifically, you must ensure that the number of modifiers that are visible in any given ordering channel meet or exceed the minimum number of modifiers a guest or server must select from the modifier group.
+When you configure a modifier group to require guests and servers to choose a minimum number of modifiers from that group, you must also pay careful attention to the [ordering channel visibility](adminGuide-adminVisibilitySettings)settings for the modifiers in that group. Specifically, you must ensure that the number of modifiers that are visible in any given ordering channel meet or exceed the minimum number of modifiers a guest or server must select from the modifier group.
 
 For example, consider a Lunch Sides modifier group that requires guests and servers to pick a minimum of 2 modifiers from it. This Lunch Sides group has the following modifiers:
 

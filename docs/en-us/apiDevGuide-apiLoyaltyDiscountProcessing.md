@@ -40,7 +40,7 @@ Minimal validation occurs in the POS when an item-level reward offer is selected
 
 The array of rewards returned to the POS is in a `ResponseCheck` object. Each item-level offer contains a `selectionIdentifier` value. This is a Toast POS-defined GUID and is the way your loyalty program integration can specify which item an offer may apply to.
 
-1. Your loyalty program integration must retrieve menu information from Toast. The recommended approach is to use the menus API to retrieve a list of all menu items. See [Menus API overview](docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI).
+1. Your loyalty program integration must retrieve menu information from Toast. The recommended approach is to use the menus API to retrieve a list of all menu items. See [Menus API overview](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI).
 
 
 2. Specific top level items which offers apply to is optionally returned in the loyalty API response to an inquire request:
@@ -61,5 +61,5 @@ The Toast platform does not apply discounts directly to modifiers. You can apply
 
 The `MULTI_ITEM` discount type applies to multiple different items or to two instances of the same item in separate `Selection` objects within a `Check`. For the discount to work, each item must be in an individual `Selection` object with a `quantity` of 1. A single `Selection` object with a `quantity` of 2 or more of the same item will not qualify for a `MULTI_ITEM`discount.
 
-For more information about Toast platform discount functionality, see [Discounts overview](docs/en-us/adminGuide-platformDiscountsOverview).
+For more information about Toast platform discount functionality, see [Discounts overview](adminGuide-platformDiscountsOverview).
 

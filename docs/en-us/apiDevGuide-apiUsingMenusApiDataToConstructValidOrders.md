@@ -15,5 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-If you are using the menus API data to construct an ordering application, those orders will ultimately be injected into the Toast platform using the orders API. It is important that orders injected into the orders API are properly formed and valid. The menus API provides information that you can use to ensure that orders you pass to the orders API are valid. See [Using menus API data to submit properly formed orders](docs/en-us/apiDevGuide-apiUsingMenusApiDataToSubmitProperlyFormedOrders_V2) for more information.
+If you are using the menus API data to construct an ordering application, those orders will ultimately be injected into the Toast platform using the orders API. It is important that orders injected into the orders API are properly formed and valid. The menus API provides information that you can use to ensure that orders you pass to the orders API are valid. See [Using menus API data to submit properly formed orders](apiDevGuide-apiUsingMenusApiDataToSubmitProperlyFormedOrders_V2) for more information.
 

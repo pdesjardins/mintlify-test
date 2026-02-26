@@ -26,7 +26,7 @@ You can archive a house account in Toast Web. You can archive a house account wi
 
 **Procedure 6.94. To archive a house account**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Go to Payments &gt; Payment methods &gt; House accounts to open the Accountspage.

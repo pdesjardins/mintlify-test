@@ -17,13 +17,13 @@ codeExamples: 0
 
 The menu manager is controlled by three permissions:
 
-- [4. Restaurant Admin &gt; 4.5 Edit Full Menu](docs/en-us/adminGuide-platformMenuManagerPermissions#platformMenuManagerMenuEditingPermissions)
+- [4. Restaurant Admin &gt; 4.5 Edit Full Menu](adminGuide-platformMenuManagerPermissions#platformMenuManagerMenuEditingPermissions)
 
 
-- [6. Web Setup &gt; 6.4 Publishing](docs/en-us/adminGuide-platformMenuManagerPermissions#platformMenuManagerPublishingAndChangeSetsPermissions)
+- [6. Web Setup &gt; 6.4 Publishing](adminGuide-platformMenuManagerPermissions#platformMenuManagerPublishingAndChangeSetsPermissions)
 
 
-- [6. Web Setup &gt; 6.7 Change sets](docs/en-us/adminGuide-platformMenuManagerPermissions#platformMenuManagerPublishingAndChangeSetsPermissions)
+- [6. Web Setup &gt; 6.7 Change sets](adminGuide-platformMenuManagerPermissions#platformMenuManagerPublishingAndChangeSetsPermissions)
 
 
 
@@ -39,9 +39,9 @@ You must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to the 
 
 ### For multi-location restaurants
 
-To access the menu manager itself, you must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menupermission at the location you have logged into (also known as the [session restaurant](docs/en-us/adminGuide-index)). If you do not have this permission, the menu manager does not appear in Toast Web.
+To access the menu manager itself, you must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menupermission at the location you have logged into (also known as the [session restaurant](adminGuide-index)). If you do not have this permission, the menu manager does not appear in Toast Web.
 
-To edit a menu entity from within the menu manager, you must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to that menu entity's [owner](docs/en-us/adminGuide-ownersAndPermissions), or to one of the owner's parents in the location group hierarchy.
+To edit a menu entity from within the menu manager, you must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to that menu entity's [owner](adminGuide-ownersAndPermissions), or to one of the owner's parents in the location group hierarchy.
 
 For example, consider the following location group hierarchy:
 
@@ -93,21 +93,21 @@ For menu entities you do not have permission to edit, the menu manager does the 
 
 
 
-For more information, see [Owners and permissions](docs/en-us/adminGuide-ownersAndPermissions).
+For more information, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 ## Publishing and change set permissions
 
-The scheduled publishing feature, which is available on the Items, Modifiers, and Price levels views, lets you make changes to your Toast configuration that are then saved and published at a later date and time. When you use this feature, you create change sets. A change set records updates you want to make to your Toast platform configuration. At a date and time that you specify, the updates in the change set are saved to the [saved database](docs/en-us/adminGuide-platformUnderstandingSavingAndPublishing) and then immediately published to the [published database](docs/en-us/adminGuide-platformUnderstandingSavingAndPublishing), making them available to employees and guests.
+The scheduled publishing feature, which is available on the Items, Modifiers, and Price levels views, lets you make changes to your Toast configuration that are then saved and published at a later date and time. When you use this feature, you create change sets. A change set records updates you want to make to your Toast platform configuration. At a date and time that you specify, the updates in the change set are saved to the [saved database](adminGuide-platformUnderstandingSavingAndPublishing) and then immediately published to the [published database](adminGuide-platformUnderstandingSavingAndPublishing), making them available to employees and guests.
 
-The 6. Web Setup &gt; 6.7 Change setspermission controls the ability to work with change sets. Employees that have the 6.7 Change sets permission to the [session restaurant](docs/en-us/adminGuide-index) they are logged into are allowed to create new change sets, delete change sets, and edit the schedules and names for change sets. This includes change sets they have created and change sets created by other employees.
+The 6. Web Setup &gt; 6.7 Change setspermission controls the ability to work with change sets. Employees that have the 6.7 Change sets permission to the [session restaurant](adminGuide-index) they are logged into are allowed to create new change sets, delete change sets, and edit the schedules and names for change sets. This includes change sets they have created and change sets created by other employees.
 
-The 6. Web Setup &gt; 6.4 Publishingpermission lets an employee add updates to an *existing change set*. Employees with this permission can also view information about existing change sets. This means they can see and select the [change set calendar icons](docs/en-us/adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns_ChangeSetIndicator) in the Items, Modifiers, or Price levelsviews to find out which change sets a menu entity is included in. It also means they can view (but not edit the name or schedule for) change sets in the [publishing center](docs/en-us/adminGuide-platformPublishingCenterOverview).
+The 6. Web Setup &gt; 6.4 Publishingpermission lets an employee add updates to an *existing change set*. Employees with this permission can also view information about existing change sets. This means they can see and select the [change set calendar icons](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerItemAndModifierColumns_ChangeSetIndicator) in the Items, Modifiers, or Price levelsviews to find out which change sets a menu entity is included in. It also means they can view (but not edit the name or schedule for) change sets in the [publishing center](adminGuide-platformPublishingCenterOverview).
 
 For multi-location restaurants, the Publishing permission also controls the Schedule button you use to create a change set. An employee must have the Publishing permission to all the owners of all the fields they changed for the Schedule button to be active.
 
-Finally, if an employee doesn't have the Publishing permission, they can still save their changes but they cannot publish them, either [manually or using scheduled publishing](docs/en-us/adminGuide-platformPublishingMenuManagerChanges).
+Finally, if an employee doesn't have the Publishing permission, they can still save their changes but they cannot publish them, either [manually or using scheduled publishing](adminGuide-platformPublishingMenuManagerChanges).
 
-It is important to note that the 6.7 Change sets and 6.4 Publishing permissions only give an employee permission to work with the change sets themselves. To work with the changes *stored* in a change set, an employee must have additional permissions specific to the type of changes they want to store. In the case of menu manager, they must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menupermission as described in [Menu editing permissions](docs/en-us/adminGuide-platformMenuManagerPermissions#platformMenuManagerMenuEditingPermissions).
+It is important to note that the 6.7 Change sets and 6.4 Publishing permissions only give an employee permission to work with the change sets themselves. To work with the changes *stored* in a change set, an employee must have additional permissions specific to the type of changes they want to store. In the case of menu manager, they must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menupermission as described in [Menu editing permissions](adminGuide-platformMenuManagerPermissions#platformMenuManagerMenuEditingPermissions).
 
-For more information about saving and publishing, including the difference between them, see [Understanding saving and publishing](docs/en-us/adminGuide-platformUnderstandingSavingAndPublishing). For more information about change sets, see [Understanding scheduled publishing and change sets](docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
+For more information about saving and publishing, including the difference between them, see [Understanding saving and publishing](adminGuide-platformUnderstandingSavingAndPublishing). For more information about change sets, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets).
 

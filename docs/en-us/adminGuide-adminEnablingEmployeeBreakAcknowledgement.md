@@ -16,7 +16,7 @@ procedures: 1
 codeExamples: 0
 ---
 
-When you have configured [missed break tracking](docs/en-us/adminGuide-adminEnablingMissedBreakTracking)for a custom break, the Toast platform tracks when the employee took or missed breaks of that type during their shift. The break acknowledgement feature expands on that functionality by asking the employee, both for taken and missed breaks of that type, whether they were asked to take the break by their manager. An employee is asked for break acknowledgement when:
+When you have configured [missed break tracking](adminGuide-adminEnablingMissedBreakTracking)for a custom break, the Toast platform tracks when the employee took or missed breaks of that type during their shift. The break acknowledgement feature expands on that functionality by asking the employee, both for taken and missed breaks of that type, whether they were asked to take the break by their manager. An employee is asked for break acknowledgement when:
 
 - The employee clocks back in at the end of a break, using the End Break button on the Time Clock screen.
 
@@ -33,11 +33,11 @@ If the break was missed, the dialog box look like this:
 
 ![Image](https://doc.toasttab.com/doc/media/breaks-acknowledgement-missed.PNG)
 
-Once a break has been acknowledged, the Toast platform logs the employee's response and reports it in the Break entries report, described in [Viewing employee breaks in labor reports](docs/en-us/adminGuide-adminViewingBreaksInLaborReports). Note that, like missed break tracking, break acknowledgement is enabled on a per custom break basis, so you can request acknowledgement for some breaks and not others. Also note that once a break acknowledgement has been collected, you cannot edit it.
+Once a break has been acknowledged, the Toast platform logs the employee's response and reports it in the Break entries report, described in [Viewing employee breaks in labor reports](adminGuide-adminViewingBreaksInLaborReports). Note that, like missed break tracking, break acknowledgement is enabled on a per custom break basis, so you can request acknowledgement for some breaks and not others. Also note that once a break acknowledgement has been collected, you cannot edit it.
 
 **Procedure 4.22. To enable break acknowledgements**
 
-1. [Log in to Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Switch to the restaurant you want to configure.
@@ -67,6 +67,6 @@ Once a break has been acknowledged, the Toast platform logs the employee's respo
 
 > **Note**
 > 
-> Employees who have the Manager &gt; End Breaks Early permission are presented with the break acknowledgement dialog box even when they end a break early. Employees who do not have the End Breaks Early permission are presented first with the Manager Required: Ending Break Earlydialog box and then with the Break Acknowledgementdialog box. For more information on the End Breaks Early permission, see [Manager access permissions](docs/en-us/adminGuide-adminPermissions#adminManagerAccessPermissions).
+> Employees who have the Manager &gt; End Breaks Early permission are presented with the break acknowledgement dialog box even when they end a break early. Employees who do not have the End Breaks Early permission are presented first with the Manager Required: Ending Break Earlydialog box and then with the Break Acknowledgementdialog box. For more information on the End Breaks Early permission, see [Manager access permissions](adminGuide-adminPermissions#adminManagerAccessPermissions).
 
 

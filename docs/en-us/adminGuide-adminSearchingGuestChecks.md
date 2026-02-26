@@ -33,7 +33,7 @@ You can search for a current check directly on a Toast POS device using differen
 
 
 
-For more information, see [Procedure 13.1, “Search using guest or tab name, table or check number”](docs/en-us/adminGuide-adminSearchingGuestChecks#adminSearchName) or [Procedure 13.2, “Search by reswiping a credit card or by check number”](docs/en-us/adminGuide-adminSearchingGuestChecks#adminSearchNumber).
+For more information, see [Procedure 13.1, “Search using guest or tab name, table or check number”](adminGuide-adminSearchingGuestChecks#adminSearchName) or [Procedure 13.2, “Search by reswiping a credit card or by check number”](adminGuide-adminSearchingGuestChecks#adminSearchNumber).
 
 Additionally, more advanced options for searching are also available from either a Toast POS device or Toast Web. These options can be helpful when you need to find checks:
 
@@ -53,11 +53,11 @@ Additionally, more advanced options for searching are also available from either
 
 
 
-For more information, see [Procedure 13.3, “Search using other information”](docs/en-us/adminGuide-adminSearchingGuestChecks#adminAdvancedSearch).
+For more information, see [Procedure 13.3, “Search using other information”](adminGuide-adminSearchingGuestChecks#adminAdvancedSearch).
 
 **Procedure 13.1. Search using guest or tab name, table or check number**
 
-This search option helps you find a check quickly using the guest's first or last name, tab name, or table or check number. To find a check with this feature you must have the 1.1 Table Service Mode, 1.2 Quick Order Mode, or 1.4 Payment Terminal Mode[access permission](docs/en-us/adminGuide-adminPermissions#adminModePermissions).
+This search option helps you find a check quickly using the guest's first or last name, tab name, or table or check number. To find a check with this feature you must have the 1.1 Table Service Mode, 1.2 Quick Order Mode, or 1.4 Payment Terminal Mode[access permission](adminGuide-adminPermissions#adminModePermissions).
 
 1. On a Toast POS device, open the Payment Terminal screen and select the magnifying glass icon to open the search function, or from the Quick Orderor Table Service screen, select the All checks button to begin searching.
 
@@ -73,7 +73,7 @@ This search option helps you find a check quickly using the guest's first or las
 
 For example, you enter the number 4. The list of open checks updates to show only checks with a table number or check number that begin with a 4.
 
-Similarly, when you type a letter, the list of open checks updates to show only checks with a first name, last name, or [tab name](docs/en-us/adminGuide-adminUiOptionsReference#configPromptTabName) that starts with that letter.
+Similarly, when you type a letter, the list of open checks updates to show only checks with a first name, last name, or [tab name](adminGuide-adminUiOptionsReference#configPromptTabName) that starts with that letter.
 
 
 4. To view the order's details, select the order entry. The order's details appear to the left of the screen.
@@ -85,7 +85,7 @@ Similarly, when you type a letter, the list of open checks updates to show only 
 - To search paid or closed checks instead of open checks, select Paid or Closed before you tap the magnifying glass icon.
 
 
-- If you have the [1.9 Edit Other Employees' Orders](docs/en-us/adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) access permission, you can also search for checks opened by other employees: tap the Overflow menu (the ⋮ icon) and select Show all checks.
+- If you have the [1.9 Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders) access permission, you can also search for checks opened by other employees: tap the Overflow menu (the ⋮ icon) and select Show all checks.
 
 
 
@@ -113,7 +113,7 @@ The Lookup dialog opens.
 
 If you need to find a check that was opened in the past, review the complete transaction history for a credit card or guest, or you have other types of information to use for the search, you can use the advanced search feature. When you find a closed check using advanced search, you can optionally take different actions on it, including reviewing or sending the receipt and adjusting the payment amount or voiding the check.
 
-To use this feature to search for checks you must have the [3.23 Find Checks](docs/en-us/adminGuide-adminPermissions#permissionFindChecks) access permission.
+To use this feature to search for checks you must have the [3.23 Find Checks](adminGuide-adminPermissions#permissionFindChecks) access permission.
 
 1. Use either a Toast POS device or Toast Web to open Advanced check search.
 
@@ -132,7 +132,7 @@ To use this feature to search for checks you must have the [3.23 Find Checks](do
 If you find a check on a Toast POS device you can open its order screen to make updates if needed.
 
 
-- [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend)and then select Payments &gt; Transactions & refunds &gt; Find checks & issue refund.
+- [Access Toast Web](adminGuide-adminAccessToastAdminBackend)and then select Payments &gt; Transactions & refunds &gt; Find checks & issue refund.
 
 
 

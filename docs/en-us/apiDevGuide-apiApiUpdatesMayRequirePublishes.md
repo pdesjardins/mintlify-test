@@ -20,5 +20,5 @@ The menus API has the additional requirement that the restaurant must make a *me
 
 The release note for an API update will inform you if a publish, or a menu-related change and publish, is required for the updated data to be available.
 
-For information about how to publish configuration changes, see [Publishing updates to restaurant configuration](docs/en-us/adminGuide-platformPublishingOverview).
+For information about how to publish configuration changes, see [Publishing updates to restaurant configuration](adminGuide-platformPublishingOverview).
 

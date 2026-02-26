@@ -20,10 +20,10 @@ Every restaurant that uses the Toast platform has at least one kitchen printer.
 - In a restaurant that primarily uses kitchen printers, there are usually at least two printers. Each printer acts as the backup for the other.
 
 
-- In a restaurant that primarily uses KDS devices, you add a kitchen printer to act as the backup when the system is in *offline mode*. For more information about KDS devices in offline mode, see [KDS devices](docs/en-us/adminGuide-platformOfflineKDSDevices).
+- In a restaurant that primarily uses KDS devices, you add a kitchen printer to act as the backup when the system is in *offline mode*. For more information about KDS devices in offline mode, see [KDS devices](adminGuide-platformOfflineKDSDevices).
 
 
-- You can route items that do not require tickets for fulfillment to a ["no print" prep station](docs/en-us/adminGuide-adminPreventingTicketsFromPrinting#adminNoPrintPrepStation)that does not have an associated printer.
+- You can route items that do not require tickets for fulfillment to a ["no print" prep station](adminGuide-adminPreventingTicketsFromPrinting#adminNoPrintPrepStation)that does not have an associated printer.
 
 
 - In a restaurant that adds labels to items for off-premise dining, you can add an Epson L90 or TLP400 printer to print item labels.
@@ -54,7 +54,7 @@ Repeat these steps to add other kitchen printers, or to update the information f
 
 > **Note**
 > 
-> If this is the first printer added to your restaurant, move to [step 5](docs/en-us/adminGuide-adminAddKitchenPrinter#AddPrinterOnPOSAppStep).
+> If this is the first printer added to your restaurant, move to [step 5](adminGuide-adminAddKitchenPrinter#AddPrinterOnPOSAppStep).
 
 
 
@@ -156,7 +156,7 @@ For example, "Cold Station KP (171)" or "Backup KP (170)".
 
 ## To add a printer on Toast Web
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Payments &gt; Checks & receipt setup &gt; Printers and cash drawers.

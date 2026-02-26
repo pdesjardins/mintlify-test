@@ -26,9 +26,9 @@ Try to request no more than one or two authentication tokens per day.
 > **Note**
 > 
 > Your Toast API client software *must* be prepared to reuse authentication tokens and conform to the authentication rate limit.
-> The current Toast authentication API enforces the [Toast global rate limit](docs/en-us/apiDevGuide-apiRateLimiting#apiToastRateLimits) by IP address on requests for authentication tokens. Future versions of the authentication API may enforce the limit on the number of requests.
+> The current Toast authentication API enforces the [Toast global rate limit](apiDevGuide-apiRateLimiting#apiToastRateLimits) by IP address on requests for authentication tokens. Future versions of the authentication API may enforce the limit on the number of requests.
 > If the Toast team determines that you are requesting an unreasonably high number of authentication tokens per hour, the Toast integrations team reserves the right to terminate API access until you can decrease your volume of requests for authentication tokens.
 
 
-The length of time that an authentication token is valid depends on the Toast API environment you are using. The `expires_in` value in the JSON return data from the user management API indicates the length of time, in seconds, that the token is valid. For example, if the return data for an authentication token request includes the value `"expires_in": 3599` you can reuse the authentication token for approximately one hour. For more information about the return data from the user management system, see [Getting an authentication token](docs/en-us/apiDevGuide-authentication#getting-authentication-token).
+The length of time that an authentication token is valid depends on the Toast API environment you are using. The `expires_in` value in the JSON return data from the user management API indicates the length of time, in seconds, that the token is valid. For example, if the return data for an authentication token request includes the value `"expires_in": 3599` you can reuse the authentication token for approximately one hour. For more information about the return data from the user management system, see [Getting an authentication token](apiDevGuide-authentication#getting-authentication-token).
 

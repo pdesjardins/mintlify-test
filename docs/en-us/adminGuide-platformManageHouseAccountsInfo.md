@@ -53,16 +53,16 @@ You can view the details of a house account on the House account profile page in
 
 The House account profile page has four tabs on the left navigation. You can select a tab to quickly navigate to the section.
 
-- [Overview](docs/en-us/adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsProfileOverview)
+- [Overview](adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsProfileOverview)
 
 
-- [Activity](docs/en-us/adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsActivity)
+- [Activity](adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsActivity)
 
 
-- [Invoices](docs/en-us/adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsInvoices)
+- [Invoices](adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsInvoices)
 
 
-- [Contact](docs/en-us/adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsContact)
+- [Contact](adminGuide-platformManageHouseAccountsInfo#platformHouseAccountsContact)
 
 
 

@@ -24,5 +24,5 @@ On the Toast platform, you have two options for publishing your changes. You can
 > Your restaurant must have the Restaurant Management Essentials, Restaurant Management Pro, or Restaurant Management Enterprise package, or the multi-location module, to access the scheduled publishing feature.
 
 
-Both manual publishes and scheduled publishes will eventually be incorporated into the publishing center. In this current version, however, only scheduled publishes are supported. Until manual publishing is added to the publishing center, you must continue to use the existing workflows described in [Publishing updates to restaurant configuration](docs/en-us/adminGuide-platformPublishingOverview) for manual publishes.
+Both manual publishes and scheduled publishes will eventually be incorporated into the publishing center. In this current version, however, only scheduled publishes are supported. Until manual publishing is added to the publishing center, you must continue to use the existing workflows described in [Publishing updates to restaurant configuration](adminGuide-platformPublishingOverview) for manual publishes.
 

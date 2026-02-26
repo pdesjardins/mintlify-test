@@ -33,11 +33,11 @@ Prep stations with the Send to setting set to Expediter only do not print or sho
 > If a prep station uses the Send to setting set to Expediter only, the prep station cannot be assigned to a KDS device. Items sent to this prep station appear on the expediter KDS device and do not require fulfillment at prep stations first.
 
 
-For more information about the Send to setting, see [Sequencing fulfillment by station type and level](docs/en-us/adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel). For more information about the Sequenced KDS fulfillmentsetting, see [Sending items to prep stations, expediters, or both](docs/en-us/adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
+For more information about the Send to setting, see [Sequencing fulfillment by station type and level](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel). For more information about the Sequenced KDS fulfillmentsetting, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
 
 **Procedure 10.4. To assign a prep station to a KDS device**
 
-1. [Access the Toast POS Device Setup screen](docs/en-us/adminGuide-adminConfigureDevice).
+1. [Access the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
 
 
 2. In the Kitchen Setup section, select Prep Stations.
@@ -54,7 +54,7 @@ Repeat these steps for each of your prep station KDS devices.
 
 ## About production items
 
-When you [configure production items](docs/en-us/adminGuide-adminAssignPrepStationKDS#adminConfigureProductionItem) for your restaurant, you create a customized system for tracking your most critical ingredients. The KDS reports a continuously updated total across fired orders for each production item below the individual tickets, including when the count is zero (0). You specify which production items you want to track on each of your KDS devices.
+When you [configure production items](adminGuide-adminAssignPrepStationKDS#adminConfigureProductionItem) for your restaurant, you create a customized system for tracking your most critical ingredients. The KDS reports a continuously updated total across fired orders for each production item below the individual tickets, including when the count is zero (0). You specify which production items you want to track on each of your KDS devices.
 
 For example, the manager at a sports bar sets up production items to track their specialties, chicken tenders and chicken wings. They identify each menu item and modifier that uses chicken tenders, chicken wings, or both, and update the Toast platform to indicate how many tenders or wings each one requires.
 
@@ -111,13 +111,13 @@ To configure a production item, you must have the following access permissions.
 
 Then, you complete this series of tasks.
 
-1. [Create a production item](docs/en-us/adminGuide-adminAssignPrepStationKDS#adminCreateProdItem) for each ingredient that you want to track on the KDS.
+1. [Create a production item](adminGuide-adminAssignPrepStationKDS#adminCreateProdItem) for each ingredient that you want to track on the KDS.
 
 
-2. [Assign the production item](docs/en-us/adminGuide-adminAssignPrepStationKDS#adminAssignProdItemQuantity) and its quantity to a menu item or modifier.
+2. [Assign the production item](adminGuide-adminAssignPrepStationKDS#adminAssignProdItemQuantity) and its quantity to a menu item or modifier.
 
 
-3. [Specify the production items](docs/en-us/adminGuide-adminAssignPrepStationKDS#adminSpecifyProdItemDevice) that you want to see totaled on your KDS device.
+3. [Specify the production items](adminGuide-adminAssignPrepStationKDS#adminSpecifyProdItemDevice) that you want to see totaled on your KDS device.
 
 
 
@@ -128,7 +128,7 @@ Follow these procedures to complete the configuration of a production item.
 1. Identify an ingredient that you want your kitchen employees to track on KDS devices.
 
 
-2. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 3. Choose Kitchen &gt; Kitchen stations &gt; Production items to open the Production itemspage.
@@ -160,7 +160,7 @@ After you create one or more production items, you can assign them to menu items
 1. Identify a menu item or modifier that uses one of your production items and the quantity that it uses.
 
 
-2. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend)and then choose Menus &gt; Bulk management &gt; Advanced properties.
+2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)and then choose Menus &gt; Bulk management &gt; Advanced properties.
 
 
 3. (Multi-location restaurants only) Choose the locations you want to view from the You are viewing dropdown menu.
@@ -176,7 +176,7 @@ After you create one or more production items, you can assign them to menu items
 
 
 
-5. If you are editing a menu item, select its name to see its classic details page. If you are editing a modifier option, select its name, then select Edit Item to see the classic details page for the modifier's [item reference](docs/en-us/adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
+5. If you are editing a menu item, select its name to see its classic details page. If you are editing a modifier option, select its name, then select Edit Item to see the classic details page for the modifier's [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 
 6. Scroll down to the Preparation section of the page.

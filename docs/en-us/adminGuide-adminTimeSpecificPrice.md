@@ -15,11 +15,11 @@ procedures: 1
 codeExamples: 0
 ---
 
-**Applies to:** Menu groups, menu items (including [modifier item references](docs/en-us/adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference))
+**Applies to:** Menu groups, menu items (including [modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference))
 
 With time-specific pricing, you define the price of a menu group or item during specific times of the day. For example, a menu item that costs $10 between noon and 2pm and $12 during the rest of the day. With time-specific pricing, you also specify a base price that functions as a default price for times of day when a time-specific price has not been defined.
 
-You create time-specific prices for a menu group or menu item on the group or item's details page. After you have created time-specific prices for menu items, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the time-specific prices are not editable from the Items grid. To edit a time-specific price, you can either return to the menu group or item's details page and edit it there, or edit it on the [Price editor](docs/en-us/adminGuide-adminUsingThePriceEditor) page.
+You create time-specific prices for a menu group or menu item on the group or item's details page. After you have created time-specific prices for menu items, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the time-specific prices are not editable from the Items grid. To edit a time-specific price, you can either return to the menu group or item's details page and edit it there, or edit it on the [Price editor](adminGuide-adminUsingThePriceEditor) page.
 
 For multi-location restaurants, the time-specific price is in each location's local time.
 
@@ -43,7 +43,7 @@ For multi-location restaurants, the time-specific price is in each location's lo
 6. Save your changes.
 
 
-7. [If you are done editing prices for your menus, publish your changes.](docs/en-us/adminGuide-adminNoteAboutPublishingPrices)
+7. [If you are done editing prices for your menus, publish your changes.](adminGuide-adminNoteAboutPublishingPrices)
 
 
 

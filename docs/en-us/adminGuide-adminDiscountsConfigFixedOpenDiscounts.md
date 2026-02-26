@@ -51,14 +51,14 @@ The available values for Applies toare:
 
 ![Discount configured to apply to an entire check.](https://doc.toasttab.com/doc/media/discount-applies-to-entire-check.png)
 
-To configure excluded items for the discount, select Discount will apply to all items except the following items/groups, then add the excluded items. For information about excluding items from a discount, see [Excluding items from a check-level discount](docs/en-us/adminGuide-adminDiscountsConfigFixedOpenDiscounts#adminExclusionDiscounts).
+To configure excluded items for the discount, select Discount will apply to all items except the following items/groups, then add the excluded items. For information about excluding items from a discount, see [Excluding items from a check-level discount](adminGuide-adminDiscountsConfigFixedOpenDiscounts#adminExclusionDiscounts).
 
-To configure required items for the discount, select Check must include one of the following items/groups, then choose the required items. The discount applies to the check only if the check has at least one of the required items. For information about selecting required items, see [Choosing the required items for a discount](docs/en-us/adminGuide-adminDiscountRequiredItemsAbout).
+To configure required items for the discount, select Check must include one of the following items/groups, then choose the required items. The discount applies to the check only if the check has at least one of the required items. For information about selecting required items, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
 
 
 
 **Specific item/group**
-: Creates an item-level discount that applies to the required items that you configure for the discount. The discount can only be applied if at least one of the required items is on the check. For information about selecting required items, see [Choosing the required items for a discount](docs/en-us/adminGuide-adminDiscountRequiredItemsAbout).
+: Creates an item-level discount that applies to the required items that you configure for the discount. The discount can only be applied if at least one of the required items is on the check. For information about selecting required items, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
 
 ![Discount configured to apply to a specific item.](https://doc.toasttab.com/doc/media/discount-applies-to-specific-item.png)
 

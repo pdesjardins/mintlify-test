@@ -22,7 +22,7 @@ codeExamples: 0
 > This workflow example uses dynamic view for KDS devices.
 
 
-The restaurant in this example uses multiple prep station KDS devices and a single expediter KDS device. This example restaurant configuration also uses individual item fulfillment and sends all prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
+The restaurant in this example uses multiple prep station KDS devices and a single expediter KDS device. This example restaurant configuration also uses individual item fulfillment and sends all prep station tickets to the expediter. For more information on the individual item fulfillment setting, see [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter).
 
 1. The order is placed or received by a Toast POS device.
 
@@ -51,7 +51,7 @@ Here is the Green Tea item ticket on the Drinks prep station KDS device.
 
 > **Note**
 > 
-> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep station working on the order. For more information on this setting, see [Other Stations](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
+> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep station working on the order. For more information on this setting, see [Other Stations](adminGuide-adminKitchenDiningRoomReference#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
 
 
 Here is the Curry Bread and Ramen items ticket on the Food prep station KDS device.

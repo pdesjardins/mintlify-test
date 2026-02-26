@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-To issue a refund, you [locate the check](docs/en-us/adminGuide-adminIssuingARefund#adminLocatingACheckToRefund) that requires a refund and then choose a refund type from the Refund menu.
+To issue a refund, you [locate the check](adminGuide-adminIssuingARefund#adminLocatingACheckToRefund) that requires a refund and then choose a refund type from the Refund menu.
 
 You can choose to refund specific items, the entire check, tip only, tax only, or a custom amount. When you refund specific items or the entire check, you can specify the quantity to refund for each item.
 
@@ -59,7 +59,7 @@ Alternatively, from the Payment Terminal screen:
 - By check number: Select Find by Check Number, enter the check's number, select a date in the calendar and select Search.
 
 
-- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](docs/en-us/adminGuide-platformOrdersDetailsReportsAbout).
+- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](adminGuide-platformOrdersDetailsReportsAbout).
 
 
 - By customer info: Select Find by Customer Info, enter the customer's phone number, first name, last name, or tab name, and select Search.
@@ -86,7 +86,7 @@ To locate a check in Toast Web:
 - By check number: Select Find by Check Number, enter the check's number, select a date in the calendar and select Search.
 
 
-- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](docs/en-us/adminGuide-platformOrdersDetailsReportsAbout).
+- By ID: Select Find by ID, enter a check ID, order ID, check GUID, or order GUID and select Search. IDs and GUIDs for checks and orders can be found on the [Order Details page](adminGuide-platformOrdersDetailsReportsAbout).
 
 
 - By customer info: Select Find by Customer Info, enter the customer's phone number, first name, last name, or tab name, and select Search.
@@ -106,12 +106,12 @@ As you select items to refund, the Refund Total at the bottom of each screen is 
 
 **Procedure 6.23. To issue a refund on a specific item or service charge:**
 
-1. After you [locate the check to refund](docs/en-us/adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select By Item(s).
+1. After you [locate the check to refund](adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select By Item(s).
 
 ![Refund drop-down menu to select the type of refund.](https://doc.toasttab.com/doc/media/refunds-refund-menu.png)
 
 
-2. The next page displays the items and service charges for the selected order. This list includes both [gratuity and non-gratuity service charges](docs/en-us/adminGuide-adminServiceChargeType).
+2. The next page displays the items and service charges for the selected order. This list includes both [gratuity and non-gratuity service charges](adminGuide-adminServiceChargeType).
 
 ![Screen to select the items and service charges to refund.](https://doc.toasttab.com/doc/media/refunds-on-items-and-service-chgs-2.png)
 
@@ -149,11 +149,11 @@ The quantity to refund must be less than or equal to the quantity ordered.
   3. After you choose the items and quantities to refund, select Next.
 
 
-3. The next page displays the payment method with the current amount to refund based on your selections. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](docs/en-us/adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
+3. The next page displays the payment method with the current amount to refund based on your selections. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
 
 From this page, you can optionally refund some or all of the original tip.
 
-In the Tip field, enter the amount of the tip to refund. Note that the Original Amountvalue for the tip does not include [gratuity service charges](docs/en-us/adminGuide-adminServiceChargeType). These charges are listed on the previous screen.
+In the Tip field, enter the amount of the tip to refund. Note that the Original Amountvalue for the tip does not include [gratuity service charges](adminGuide-adminServiceChargeType). These charges are listed on the previous screen.
 
 ![Screen to optionally refund some or all of the tip in addition to the selected items and service charges.](https://doc.toasttab.com/doc/media/refunds-on-items-and-service-chgs-3.png)
 
@@ -201,7 +201,7 @@ As you select items to refund, the Refund Total at the bottom of each screen is 
 
 **Procedure 6.24. To issue a refund on an entire check:**
 
-1. After you [locate the check to refund](docs/en-us/adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Entire Check.
+1. After you [locate the check to refund](adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Entire Check.
 
 
 2. The next page displays the items and service charges for the selected order. This list includes both gratuity and non-gratuity service charges.
@@ -246,11 +246,11 @@ The quantity to refund must be less than or equal to the quantity ordered.
   3. After you confirm the selected items and quantities to refund, select Next.
 
 
-3. The next page displays the payment method with the current amount to refund based on your selections. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](docs/en-us/adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
+3. The next page displays the payment method with the current amount to refund based on your selections. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
 
 From this page, you can optionally refund some or all of the original tip.
 
-In the Tip field, enter the amount of the tip to refund. Note that the Original Amountvalue for the tip does not include [gratuity service charges](docs/en-us/adminGuide-adminServiceChargeType). These charges are listed on the previous screen.
+In the Tip field, enter the amount of the tip to refund. Note that the Original Amountvalue for the tip does not include [gratuity service charges](adminGuide-adminServiceChargeType). These charges are listed on the previous screen.
 
 ![Screen to optionally refund some or all of the tip in addition to the selected items and service charges.](https://doc.toasttab.com/doc/media/refunds-on-entire-ck-3.png)
 
@@ -292,12 +292,12 @@ You cannot use the Tip only option to refund a gratuity service charge. To refun
 
 **Procedure 6.25. To refund only the tip:**
 
-1. After you [locate the check to refund](docs/en-us/adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Tip only.
+1. After you [locate the check to refund](adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Tip only.
 
 
 2. On the next page, in the Tip field, enter the amount of the tip to refund.
 
-For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](docs/en-us/adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
+For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
 
 ![Screen to enter the amount of the tip to refund.](https://doc.toasttab.com/doc/media/refunds-tip-only-2.png)
 
@@ -337,7 +337,7 @@ The Tax only option allows you to refund only the tax for an order. You can also
 
 **Procedure 6.26. To refund the tax on an order:**
 
-1. After you [locate the check to refund](docs/en-us/adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Tax only.
+1. After you [locate the check to refund](adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Tax only.
 
 
 2. On the next page, the Refund Tax field displays the amount of the tax to refund.
@@ -349,7 +349,7 @@ In the Tax Exemption field, you can optionally provide a tax exemption number.
 To continue, select Next.
 
 
-3. The next page displays the payment method with the tax amount to refund. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](docs/en-us/adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
+3. The next page displays the payment method with the tax amount to refund. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
 
 From this page, you can optionally refund some or all of the original tip.
 
@@ -391,14 +391,14 @@ To close the message, Select Ok.
 
 The Custom amount option allows you to specify a specific amount to refund, instead of selecting specific items or charges. When you refund a custom amount, you can also choose to refund some or all of the tip.
 
-Custom amount refunds impact financial reporting differently from other refund types. For details, see [Custom amount refunds](docs/en-us/adminGuide-adminViewingRefundsInToastReports#adminCustomAmountRefunds).
+Custom amount refunds impact financial reporting differently from other refund types. For details, see [Custom amount refunds](adminGuide-adminViewingRefundsInToastReports#adminCustomAmountRefunds).
 
 **Procedure 6.27. To refund a custom amount on an order:**
 
-1. After you [locate the check to refund](docs/en-us/adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Custom amount.
+1. After you [locate the check to refund](adminGuide-adminIssuingARefund#adminLocatingACheckToRefund), select the Refund button, then select Custom amount.
 
 
-2. The next page displays the payment method, with fields to specify the custom amount and tip amount to refund. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](docs/en-us/adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
+2. The next page displays the payment method, with fields to specify the custom amount and tip amount to refund. For information about refunds for orders that have multiple payments, see [Refunding a check that has multiple payments](adminGuide-adminIssuingARefund#adminRefundingACheckWithMultiplePayments).
 
 ![Screen to enter the custom amount and tip amount to refund.](https://doc.toasttab.com/doc/media/refunds-on-custom-amt-2.png)
 
@@ -480,7 +480,7 @@ The screen does not display payment types that are not eligible for refunds:
 
 - The payment list can only include cash, credit card, and Toast gift card payments.
 
-The payment list never includes other payment types, house accounts, and third-party gift cards. For information on how to remove those payments, see [Removing other payments, house accounts, and third-party gift cards](docs/en-us/adminGuide-adminIssuingARefund#adminRemovingOtherPaymentsHouseAccountsAndThirdPartyGiftCards).
+The payment list never includes other payment types, house accounts, and third-party gift cards. For information on how to remove those payments, see [Removing other payments, house accounts, and third-party gift cards](adminGuide-adminIssuingARefund#adminRemovingOtherPaymentsHouseAccountsAndThirdPartyGiftCards).
 
 
 
@@ -512,7 +512,7 @@ To reverse payments made using house accounts, third-party gift cards or other p
 
 Payment removals are not considered refunds. They do not appear as refunds in Toast reporting.
 
-You can remove these payments at any time, unless they are on a [restricted check](docs/en-us/adminGuide-index).
+You can remove these payments at any time, unless they are on a [restricted check](adminGuide-index).
 
 Restricted checks are checks that have reached a certain age, by default 90 days. Restricted checks cannot be pulled back to the Toast POS app and edited. So after a check passes 90 days, you cannot reverse payments on it.
 

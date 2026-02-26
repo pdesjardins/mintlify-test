@@ -15,5 +15,5 @@ procedures: 0
 codeExamples: 0
 ---
 
-When pricing your menu entities, you can choose from a variety of pricing strategies. The [Pricing strategies overview](docs/en-us/adminGuide-adminPricingStrategiesOverview) section describes those pricing strategies and tells you how to configure them. Each pricing strategy description begins with a list of the menu entity types to which the pricing strategy can be applied. For example, sequence pricing can be applied to modifier groups while time-specific prices can be applied to menu groups and menu items (including [modifier item references](docs/en-us/adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)).
+When pricing your menu entities, you can choose from a variety of pricing strategies. The [Pricing strategies overview](adminGuide-adminPricingStrategiesOverview) section describes those pricing strategies and tells you how to configure them. Each pricing strategy description begins with a list of the menu entity types to which the pricing strategy can be applied. For example, sequence pricing can be applied to modifier groups while time-specific prices can be applied to menu groups and menu items (including [modifier item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)).
 

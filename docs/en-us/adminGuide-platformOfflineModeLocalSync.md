@@ -91,7 +91,7 @@ Select Done to close the dialog.
 
 To open this dialog again, select What to doon the offline banner.
 
-To recover, first check that your network cable is securely connected or Wi-Fi is enabled on the device. For more information, see [Local network disruption](docs/en-us/adminGuide-adminOfflineModeOverview#platformOfflineNetworkDisruptionType).
+To recover, first check that your network cable is securely connected or Wi-Fi is enabled on the device. For more information, see [Local network disruption](adminGuide-adminOfflineModeOverview#platformOfflineNetworkDisruptionType).
 
 After the issue is resolved and the connection is restored, the offline banner disappears.
 
@@ -117,7 +117,7 @@ Select Done to close the dialog.
 
 To open this dialog again, select What to doon the offline banner.
 
-To resolve this issue, contact your ISP (internet service provider). For more information, see [Internet service provider disruption](docs/en-us/adminGuide-adminOfflineModeOverview#platformOfflineInternetDisruptionType).
+To resolve this issue, contact your ISP (internet service provider). For more information, see [Internet service provider disruption](adminGuide-adminOfflineModeOverview#platformOfflineInternetDisruptionType).
 
 Once the issue is resolved for the device and the connection is restored, the offline banner disappears.
 
@@ -172,7 +172,7 @@ This section provides some best practices for offline Toast POS devices using of
 - **Do not** log in or out of the Toast POS app. You will not be able to log back in until the connection is restored.
 
 
-- **Do not** turn your network router off and on while offline. Tickets from POS devices will not appear on the KDS device until the local network connection is restored. For more information, see [KDS devices](docs/en-us/adminGuide-platformOfflineKDSDevices).
+- **Do not** turn your network router off and on while offline. Tickets from POS devices will not appear on the KDS device until the local network connection is restored. For more information, see [KDS devices](adminGuide-platformOfflineKDSDevices).
 
 
 - **Do not** disconnect a Toast POS device from the local network. This includes leaving wireless range, using airplane mode, or connecting to a different network. The device cannot share data between devices until it reconnects to the local network.
@@ -190,19 +190,19 @@ This section provides some best practices for offline Toast POS devices using of
 - Consider installing a cellular network backup stick to help prevent triggering offline mode.
 
 
-- Contact Toast support to [temporarily disable the auto-capture process](docs/en-us/adminGuide-adminOfflineCCPayments#adminOfflineAutoCapture) if your system does not re-establish connectivity by the end of the business day. This gives you time to make adjustments to credit card payments before they are captured. Once the payments are captured, you cannot make updates.
+- Contact Toast support to [temporarily disable the auto-capture process](adminGuide-adminOfflineCCPayments#adminOfflineAutoCapture) if your system does not re-establish connectivity by the end of the business day. This gives you time to make adjustments to credit card payments before they are captured. Once the payments are captured, you cannot make updates.
 
 
 
 **Operations available in offline mode with local sync**
 
-- Display POS and Kiosk orders on KDS devices on the same local network (if configured). If you do not use KDS devices, tickets print at kitchen printers (if configured). For more information, see [KDS devices](docs/en-us/adminGuide-platformOfflineKDSDevices) and [Kitchen printers](docs/en-us/adminGuide-platformKitchenPrintersOffline).
+- Display POS and Kiosk orders on KDS devices on the same local network (if configured). If you do not use KDS devices, tickets print at kitchen printers (if configured). For more information, see [KDS devices](adminGuide-platformOfflineKDSDevices) and [Kitchen printers](adminGuide-platformKitchenPrintersOffline).
 
 
 - Use scales for weighted menu items.
 
 
-- Process credit cards as offline payments. For more information, see [Offline card payments](docs/en-us/adminGuide-adminOfflineCCPayments).
+- Process credit cards as offline payments. For more information, see [Offline card payments](adminGuide-adminOfflineCCPayments).
 
 
 - Add credit card or non-cash tips onto payments.
@@ -255,7 +255,7 @@ Select Learn More in the offline banner to see the supported operations and whet
 - Redeem customer credits as a payment method.
 
 
-- Look up guest information for takeout or delivery orders. For details, see [Takeout and delivery orders](docs/en-us/adminGuide-adminOfflineDelivery).
+- Look up guest information for takeout or delivery orders. For details, see [Takeout and delivery orders](adminGuide-adminOfflineDelivery).
 
 
 - Resync orders and resync all data. The Resync Orders and the Resync ALL Dataoperations on devices are disabled during offline mode. This prevents the erasure of stored information on the device, which means you would lose all sales data and payments without the ability to retrieve them.

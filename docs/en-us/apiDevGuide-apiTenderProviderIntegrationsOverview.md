@@ -16,7 +16,7 @@ procedures: 0
 codeExamples: 1
 ---
 
-You can use the Toast tender API to integrate your tender provider with the Toast platform. The tender API supports the [Hotel property management system integration](docs/en-us/apiDevGuide-apiTenderPmsIntegration) and enables a hotel restaurant to directly bill a guest at the hotel, for example, by using their room number or name.
+You can use the Toast tender API to integrate your tender provider with the Toast platform. The tender API supports the [Hotel property management system integration](apiDevGuide-apiTenderPmsIntegration) and enables a hotel restaurant to directly bill a guest at the hotel, for example, by using their room number or name.
 
 In addition, the tender API allows you to apply discounts from a third-party system and refund payments and discounts on a check.
 
@@ -54,7 +54,7 @@ Each `POST` request to the endpoint includes:
 
 
 
-For more information about the transaction descriptions, workflows and examples, see [Transaction descriptions](docs/en-us/apiDevGuide-apiTenderPmsIntegration#apiTenderTransactionDescriptionsPMS).
+For more information about the transaction descriptions, workflows and examples, see [Transaction descriptions](apiDevGuide-apiTenderPmsIntegration#apiTenderTransactionDescriptionsPMS).
 
 ## Error handling
 
@@ -89,7 +89,7 @@ Your tender interface implementation must return the following HTTPS responses t
 - `ERROR_INVALID_TOAST_TRANSACTION_TYPE`: Your implementation does not handle the transaction type supplied in the request. Return this response when the requested transaction type is defined by the tender API but you decided not to support it.
 
 
-- `ERROR_INVALID_TOKEN`: The authentication token supplied in the `Authorization` header parameter is invalid or cannot be validated. For information about request authentication, see [Authenticating outbound API requests](docs/en-us/apiDevGuide-apiAuthenticatingRequestsFromToastApiClients).
+- `ERROR_INVALID_TOKEN`: The authentication token supplied in the `Authorization` header parameter is invalid or cannot be validated. For information about request authentication, see [Authenticating outbound API requests](apiDevGuide-apiAuthenticatingRequestsFromToastApiClients).
 
 
 - `ERROR_TRANSACTION_CANNOT_BE_REVERSED`: The transaction specified by a `TENDER_REVERSE` request cannot be reversed.

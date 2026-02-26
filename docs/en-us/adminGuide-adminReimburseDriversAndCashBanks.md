@@ -27,7 +27,7 @@ You can choose to reimburse delivery drivers for the wear and tear of their pers
 
 **Procedure 3.31. To reimburse delivery drivers**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.
@@ -47,7 +47,7 @@ You can also choose to configure a starting cash balance for a delivery driver. 
 
 **Procedure 3.32. To configure a driver cash bank**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.

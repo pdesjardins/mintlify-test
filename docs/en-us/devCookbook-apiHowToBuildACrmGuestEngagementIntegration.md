@@ -21,7 +21,7 @@ This integration allows you to provide a CRM solution using order history.
 
 ## Required scopes
 
-To follow these instructions, you must have the following [scopes](docs/en-us/apiDevGuide-apiScopes):
+To follow these instructions, you must have the following [scopes](apiDevGuide-apiScopes):
 
 - `config:read`
 
@@ -48,23 +48,23 @@ To follow these instructions, you must have the following [scopes](docs/en-us/ap
 
 
 
-You can retrieve a list of your current scopes through your [Toast developer portal](docs/en-us/apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](docs/en-us/apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
+You can retrieve a list of your current scopes through your [Toast developer portal](apiDevGuide-apiDeveloperPortal#apiDeveloperPortalScopes) account. If you lack the required scopes, refer to the [Integration partnership process](apiDevGuide-integrationDevProcess)guide for instructions on requesting access.
 
 ## Setup and planning
 
 ### Complete initial integration setup
 
-Review and implement the instructions in [How to build a Toast integration](docs/en-us/devCookbook-apiIntegrationChecklistGeneral).
+Review and implement the instructions in [How to build a Toast integration](devCookbook-apiIntegrationChecklistGeneral).
 
 ### Learn order structure concepts
 
-To familiarize yourself with the structure of an order, read the [Orders API overview](docs/en-us/apiDevGuide-portalOrdersApiOverview) and the [Order object summary](docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
+To familiarize yourself with the structure of an order, read the [Orders API overview](apiDevGuide-portalOrdersApiOverview) and the [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary). For more information about the orders API, see the [reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
 The guest's first and last name, email address, and phone number are found in the `Customer` object of the orders API.
 
 ### Learn menu hierarchy concepts
 
-To familiarize yourself with menu structure, read the [menu hierarchy documentation](docs/en-us/adminGuide-adminMenuHierarchy).
+To familiarize yourself with menu structure, read the [menu hierarchy documentation](adminGuide-adminMenuHierarchy).
 
 Use the [menus API](https://doc.toasttab.com/openapi/menus/overview/) to retrieve a full menu from a Toast POS location so that you understand the menu structure.
 
@@ -87,7 +87,7 @@ Use the [configuration API](https://doc.toasttab.com/openapi/configuration/overv
 
 ### Understanding available customer data
 
-All Toast orders contain a [dining option](docs/en-us/adminGuide-adminDiningOptions) with defined behavior. When polling for Toast orders, the `Customer`object will only appear in orders where the `diningOption`behavior is `TAKE_OUT` or `DELIVERY`. You can understand `diningOption` behavior by polling the `/diningOptions` endpoint of the configuration API. Your integration should consume orders where the diningOption behavior is either `TAKE_OUT` or `DELIVERY`.
+All Toast orders contain a [dining option](adminGuide-adminDiningOptions) with defined behavior. When polling for Toast orders, the `Customer`object will only appear in orders where the `diningOption`behavior is `TAKE_OUT` or `DELIVERY`. You can understand `diningOption` behavior by polling the `/diningOptions` endpoint of the configuration API. Your integration should consume orders where the diningOption behavior is either `TAKE_OUT` or `DELIVERY`.
 
 For more information about the `/diningOptions`endpoint of the configuration API, see the [reference documentation](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/).
 
@@ -109,7 +109,7 @@ Toast support recommends that you retrieve twelve weeks of historical data when 
 
 ### Retrieving orders from the orders API
 
-To report on order information, use the [orders updated webhook](docs/en-us/apiDevGuide-devOrdersWebhookRef) to receive order updates as they occur.
+To report on order information, use the [orders updated webhook](apiDevGuide-devOrdersWebhookRef) to receive order updates as they occur.
 
 
 

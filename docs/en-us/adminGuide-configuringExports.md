@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can use the Data Exports page in Toast Web to configure the Toast platform to write data export files containing information about your restaurant operations. To open the Data Exports page, choose Reports &gt; Settings &gt; Data Exports from [Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+You can use the Data Exports page in Toast Web to configure the Toast platform to write data export files containing information about your restaurant operations. To open the Data Exports page, choose Reports &gt; Settings &gt; Data Exports from [Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 To use the Data Exports page to [modify the data export](https://central.toasttab.com/s/article/Automated-Nightly-Data-Export-1492723819691) setup for your restaurant or restaurant group, you must have the 8.3 Data Export Config permission. This permission gives you access to the Data Exports page in Toast Web. If the restaurant you are currently viewing is part of a restaurant group, the export configurations you define on this page apply to all restaurants in that group.
 

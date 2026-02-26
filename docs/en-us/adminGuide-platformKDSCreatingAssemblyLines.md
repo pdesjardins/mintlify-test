@@ -17,25 +17,25 @@ codeExamples: 0
 
 An assembly line is created using prep stations that are then moved into the correct sequence. Before you create an assembly line, make sure that:
 
-- You [created prep stations](docs/en-us/adminGuide-adminAddPrepStation).
+- You [created prep stations](adminGuide-adminAddPrepStation).
 
 
-- You set the [Fulfillment Method](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently.
+- You set the [Fulfillment Method](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently.
 
 
 - You verified that the menu entity and the assembly line you plan to assign to that menu entity use at least one of the same prep stations.
 
 
 
-After you verify that these prerequisites are complete, you can create the assembly line and then assign the [assembly line to the relevant menus, menu groups, and menu items](docs/en-us/adminGuide-platformKDSRoutingUsingAssemblyLines#platformKDSAssignAssemblyLinesToMenuEntities).
+After you verify that these prerequisites are complete, you can create the assembly line and then assign the [assembly line to the relevant menus, menu groups, and menu items](adminGuide-platformKDSRoutingUsingAssemblyLines#platformKDSAssignAssemblyLinesToMenuEntities).
 
 There is no maximum number of prep stations that you can use in an assembly line, but you can only use a prep station once in an assembly line.
 
-The following procedure is for creating an assembly line for a single-restaurant location. For information about how to create assembly lines for multi-location restaurants, see [Assembly lines for multi-location restaurants](docs/en-us/adminGuide-platformKDSCreatingAssemblyLines#platformKDSCreatingAssemblyLinesMultiLocation).
+The following procedure is for creating an assembly line for a single-restaurant location. For information about how to create assembly lines for multi-location restaurants, see [Assembly lines for multi-location restaurants](adminGuide-platformKDSCreatingAssemblyLines#platformKDSCreatingAssemblyLinesMultiLocation).
 
 **Procedure 10.2. To create an assembly line**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Kitchen stations &gt; Assembly lines. The Assembly Lines page opens.
@@ -62,11 +62,11 @@ The following procedure is for creating an assembly line for a single-restaurant
 
 ## Assembly lines for multi-location restaurants
 
-Assembly lines use versioning and targets for multi-location restaurants. The following procedure is for creating an assembly line for a multi-location restaurant. For information about versions, see [Versions](docs/en-us/adminGuide-versions). For information about targets, see [Targets](docs/en-us/adminGuide-targets).
+Assembly lines use versioning and targets for multi-location restaurants. The following procedure is for creating an assembly line for a multi-location restaurant. For information about versions, see [Versions](adminGuide-versions). For information about targets, see [Targets](adminGuide-targets).
 
 **Procedure 10.3. To create an assembly line for multi-location restaurants**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Kitchen &gt; Kitchen stations &gt; Assembly lines. The Assembly Lines page opens.

@@ -62,7 +62,7 @@ To see identifiers for locations and location groups (formerly called *restauran
 
 **Procedure 8.142. To retrieve a location group's identifier**
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Toast account &gt; Business and location management &gt; Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
@@ -84,7 +84,7 @@ To see identifiers for locations and location groups (formerly called *restauran
 
 **Procedure 8.143. To retrieve a single location's identifier**
 
-1. [Access Toast Web ](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Toast account &gt; Business and location management &gt; Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.

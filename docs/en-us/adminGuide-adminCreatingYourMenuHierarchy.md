@@ -22,22 +22,22 @@ This section provides procedures and information about creating your menu hierar
 
 The sections below describe how to:
 
-- [Create a new menu](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToCreateAMenu).
+- [Create a new menu](adminGuide-adminCreatingYourMenuHierarchy#adminToCreateAMenu).
 
 
-- [Set the order in which your menus appear in your ordering channels](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToSetMenuDisplayOrder).
+- [Set the order in which your menus appear in your ordering channels](adminGuide-adminCreatingYourMenuHierarchy#adminToSetMenuDisplayOrder).
 
 
-- [Edit an existing menu](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenu).
+- [Edit an existing menu](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenu).
 
 
-- [Remove a menu](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveAMenu). Removing a menu removes any menu groups and menu items that the menu contains.
+- [Remove a menu](adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveAMenu). Removing a menu removes any menu groups and menu items that the menu contains.
 
 
 
 **Procedure 8.2. To create a menu**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select + Create Menu. You see the Create menu page.
@@ -49,24 +49,24 @@ The sections below describe how to:
 4. If you use Toast POS devices, you can customize the button restaurant employees see in the Toast POS app by entering a POS nickname and setting the button color. To specify a button color, select the POS button color option, and then select a color from the color palette.
 
 
-5. In the Pricing and taxes section, [set the tax rates and other tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder) for this menu.
+5. In the Pricing and taxes section, [set the tax rates and other tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder) for this menu.
 
 
-6. In the Kitchen prep section, use the Prep stations settings to [assign the prep stations](docs/en-us/adminGuide-adminAssigningPrepStationsMenuBuilder) for this menu.
+6. In the Kitchen prep section, use the Prep stations settings to [assign the prep stations](adminGuide-adminAssigningPrepStationsMenuBuilder) for this menu.
 
 
-7. In the Kitchen prep section, use the Course setting to [specify the course](docs/en-us/adminGuide-adminAssigningCourses) for this menu.
+7. In the Kitchen prep section, use the Course setting to [specify the course](adminGuide-adminAssigningCourses) for this menu.
 
 
-8. In the Reporting section, [select a sales category](docs/en-us/adminGuide-adminAssigningSalesCategories) for this menu from the Sales category menu.
+8. In the Reporting section, [select a sales category](adminGuide-adminAssigningSalesCategories) for this menu from the Sales category menu.
 
 
-9. In the Availability section, specify the days and times that this menu is available for ordering. By default, Always is selected, meaning the menu is available during all hours that the restaurant is open. Use the Specific days and time setting to [set a custom schedule for when the menu is available](docs/en-us/adminGuide-adminSpecifyingACustomScheduleForAMenu).
+9. In the Availability section, specify the days and times that this menu is available for ordering. By default, Always is selected, meaning the menu is available during all hours that the restaurant is open. Use the Specific days and time setting to [set a custom schedule for when the menu is available](adminGuide-adminSpecifyingACustomScheduleForAMenu).
 
 For multi-location restaurants, the time period you specify is in each location's local time.
 
 
-10. In the Channel visibility section, [select the ordering channels where this menu is visible](docs/en-us/adminGuide-adminSpecifyingOrderingChannelVisibility). A menu is available for ordering on the channels where it is visible.
+10. In the Channel visibility section, [select the ordering channels where this menu is visible](adminGuide-adminSpecifyingOrderingChannelVisibility). A menu is available for ordering on the channels where it is visible.
 
 
 11. Select Save.
@@ -75,13 +75,13 @@ For multi-location restaurants, the time period you specify is in each location'
 12. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-13. [Add menu groups and subgroups to your menu](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminWorkingWithMenuGroups).
+13. [Add menu groups and subgroups to your menu](adminGuide-adminCreatingYourMenuHierarchy#adminWorkingWithMenuGroups).
 
 
 
 **Procedure 8.3. To set menu display order**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select Set menu display order. You see the Set menu display order dialog.
@@ -93,13 +93,13 @@ For multi-location restaurants, the time period you specify is in each location'
 4. Select Save.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
 
 
 
 **Procedure 8.4. To edit a menu**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select the menu you want to edit.
@@ -114,13 +114,13 @@ For multi-location restaurants, the time period you specify is in each location'
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
 
 
 
 **Procedure 8.5. To remove a menu**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select the menu you want to remove.
@@ -132,7 +132,7 @@ For multi-location restaurants, the time period you specify is in each location'
 4. Select Remove in the confirmation dialog.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
 
 
 
@@ -159,7 +159,7 @@ To access a menu group, you use the left-hand navigation pane on the menu builde
 
 ![The menu builder landing page with a menu expanded to show its menu groups.](https://doc.toasttab.com/doc/media/menu-builder-top-level-menu-groups.png)
 
-You can also access a menu group from a menu's details page. To do so, [navigate to the details page for the menu](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenu), select Menu groups from the left-hand pane, and then select the menu group's name.
+You can also access a menu group from a menu's details page. To do so, [navigate to the details page for the menu](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenu), select Menu groups from the left-hand pane, and then select the menu group's name.
 
 ![The location of the edit icon for a menu group on a menu details page.](https://doc.toasttab.com/doc/media/menu-builder-menu-groups-on-menu-details-page.png)
 
@@ -177,31 +177,31 @@ Because subgroups are not visible on the menu builder home page, you cannot mana
 
 The sections below describe how to:
 
-- [Create a menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToCreateAMenuGroup)
+- [Create a menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToCreateAMenuGroup)
 
 
-- [Create a subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToCreateASubgroup)
+- [Create a subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToCreateASubgroup)
 
 
-- [Configure a menu group or subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToConfigureAMenuGroupOrSubgroup)
+- [Configure a menu group or subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToConfigureAMenuGroupOrSubgroup)
 
 
-- [Edit a menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup)
+- [Edit a menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup)
 
 
-- [Edit a subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup)
+- [Edit a subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup)
 
 
-- [Remove a menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveAMenuGroup)
+- [Remove a menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveAMenuGroup)
 
 
-- [Remove a subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveASubgroup)
+- [Remove a subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveASubgroup)
 
 
 
 **Procedure 8.6. To create a menu group**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select the menu you want to add a menu group to.
@@ -210,7 +210,7 @@ The sections below describe how to:
 3. Select + Add Group. You see the Create menu group page.
 
 
-4. [Configure the menu group as needed](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToConfigureAMenuGroupOrSubgroup).
+4. [Configure the menu group as needed](adminGuide-adminCreatingYourMenuHierarchy#adminToConfigureAMenuGroupOrSubgroup).
 
 
 5. Select Save.
@@ -219,7 +219,7 @@ The sections below describe how to:
 6. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-7. If you are ready for guests and employees to see these menu changes, select Publish all changes. Select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
+7. If you are ready for guests and employees to see these menu changes, select Publish all changes. Select Publish again in the Confirm Publish dialog. See [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information.
 
 
 
@@ -231,7 +231,7 @@ The sections below describe how to:
 2. In the Subgroups section, select Add new. You see the Create subgroup page.
 
 
-3. [Configure the subgroup as needed](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToConfigureAMenuGroupOrSubgroup).
+3. [Configure the subgroup as needed](adminGuide-adminCreatingYourMenuHierarchy#adminToConfigureAMenuGroupOrSubgroup).
 
 
 4. Select Save.
@@ -240,7 +240,7 @@ The sections below describe how to:
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes. Select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes. Select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -252,28 +252,28 @@ The sections below describe how to:
 2. If you use Toast POS devices, you can customize the button restaurant employees see in the Toast POS app by entering a POS name and setting the button color. To specify a button color, select the Button color option and then select a color from the color palette.
 
 
-3. In the Subgroups section, you can [add subgroups](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToCreateASubgroup) to further organize the items in this menu group.
+3. In the Subgroups section, you can [add subgroups](adminGuide-adminCreatingYourMenuHierarchy#adminToCreateASubgroup) to further organize the items in this menu group.
 
 
-4. In the Items section, use the Add new and Add existingbuttons to add [new](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToQuicklyCreateNewMenuItemsUsingTheItemsTable)or [existing](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToAddAnExistingMenuItem) items to this menu group.
+4. In the Items section, use the Add new and Add existingbuttons to add [new](adminGuide-adminCreatingYourMenuHierarchy#adminToQuicklyCreateNewMenuItemsUsingTheItemsTable)or [existing](adminGuide-adminCreatingYourMenuHierarchy#adminToAddAnExistingMenuItem) items to this menu group.
 
 
-5. In the Modifier groups section, use the Add new and Add existingbuttons to add [new](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#adminCreatingANewModifierGroup) or [existing](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingAnExistingModifierGroupToAMenuGroupOrItem)modifier groups to this menu group.
+5. In the Modifier groups section, use the Add new and Add existingbuttons to add [new](adminGuide-adminAddingModifierGroupsAndModifiers#adminCreatingANewModifierGroup) or [existing](adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingAnExistingModifierGroupToAMenuGroupOrItem)modifier groups to this menu group.
 
 
-6. In the Kitchen prep section, use the Prep stations settings to [assign the prep stations](docs/en-us/adminGuide-adminAssigningPrepStationsMenuBuilder) for this menu group.
+6. In the Kitchen prep section, use the Prep stations settings to [assign the prep stations](adminGuide-adminAssigningPrepStationsMenuBuilder) for this menu group.
 
 
-7. In the Kitchen prep section, use the Course setting to [specify the course](docs/en-us/adminGuide-adminAssigningCourses) for this menu group.
+7. In the Kitchen prep section, use the Course setting to [specify the course](adminGuide-adminAssigningCourses) for this menu group.
 
 
-8. In the Reporting section, [select a sales category](docs/en-us/adminGuide-adminAssigningSalesCategories) for this menu group from the Sales category menu.
+8. In the Reporting section, [select a sales category](adminGuide-adminAssigningSalesCategories) for this menu group from the Sales category menu.
 
 
-9. In the Taxes section, [set the tax rates and other tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder) for this menu group.
+9. In the Taxes section, [set the tax rates and other tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder) for this menu group.
 
 
-10. In the Channel visibility section, [select the ordering channels where this menu group is visible](docs/en-us/adminGuide-adminSpecifyingOrderingChannelVisibility). A menu group is available for ordering on the channels where it is visible.
+10. In the Channel visibility section, [select the ordering channels where this menu group is visible](adminGuide-adminSpecifyingOrderingChannelVisibility). A menu group is available for ordering on the channels where it is visible.
 
 
 11. Select Save.
@@ -282,13 +282,13 @@ The sections below describe how to:
 12. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-13. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+13. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.9. To edit a menu group**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select the menu that contains the menu group you want to edit, then select the menu group.
@@ -310,7 +310,7 @@ The sections below describe how to:
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -330,13 +330,13 @@ The sections below describe how to:
 4. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.11. To remove a menu group**
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Select the menu you want to remove a menu group from and then select the menu group.
@@ -348,7 +348,7 @@ The sections below describe how to:
 4. Select Remove in the confirmation dialog.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -371,7 +371,7 @@ The sections below describe how to:
 5. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -391,28 +391,28 @@ Use the Alphabetize link to sort the items in the Items table alphabetically to 
 
 The sections below describe how to:
 
-- [Create menu items using the Itemstable](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToQuicklyCreateNewMenuItemsUsingTheItemsTable).
+- [Create menu items using the Itemstable](adminGuide-adminCreatingYourMenuHierarchy#adminToQuicklyCreateNewMenuItemsUsingTheItemsTable).
 
 
-- [Access a menu item's details page where you can specify all of a menu item's configuration settings](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToAccessAMenuItemsDetailsPageAndProvideAdditionalMenuItemConfiguration).
+- [Access a menu item's details page where you can specify all of a menu item's configuration settings](adminGuide-adminCreatingYourMenuHierarchy#adminToAccessAMenuItemsDetailsPageAndProvideAdditionalMenuItemConfiguration).
 
 
-- [Add an existing menu item](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToAddAnExistingMenuItem).
+- [Add an existing menu item](adminGuide-adminCreatingYourMenuHierarchy#adminToAddAnExistingMenuItem).
 
 
-- [Edit a menu item](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem).
+- [Edit a menu item](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuItem).
 
 
-- [Move a menu item to a different menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToMoveAMenuItemToADifferentMenuGroup).
+- [Move a menu item to a different menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToMoveAMenuItemToADifferentMenuGroup).
 
 
-- [Remove a menu item](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveAMenuItem). Note that removing a menu item also removes any modifier groups assigned to that menu item.
+- [Remove a menu item](adminGuide-adminCreatingYourMenuHierarchy#adminToRemoveAMenuItem). Note that removing a menu item also removes any modifier groups assigned to that menu item.
 
 
 
 **Procedure 8.13. To create new menu items using the Items table**
 
-1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) you want to add items to, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) you want to add items to, select Items.
 
 
 2. Do one of the following:
@@ -440,20 +440,20 @@ The sections below describe how to:
 
 > **Note**
 > 
-> All menu items in the table must have a name and a base price in order to save the table. If you have incomplete rows, delete them before saving. Also, if you want to provide additional configuration for the menu item beyond a name and base price, you must save it before you can [access its details page](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToAccessAMenuItemsDetailsPageAndProvideAdditionalMenuItemConfiguration).
+> All menu items in the table must have a name and a base price in order to save the table. If you have incomplete rows, delete them before saving. Also, if you want to provide additional configuration for the menu item beyond a name and base price, you must save it before you can [access its details page](adminGuide-adminCreatingYourMenuHierarchy#adminToAccessAMenuItemsDetailsPageAndProvideAdditionalMenuItemConfiguration).
 
 
 
 7. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-8. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+8. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.14. To access a menu item's details page and provide additional menu item configuration**
 
-1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu items you want to edit, select Items to view the Items table.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu items you want to edit, select Items to view the Items table.
 
 
 2. Select the edit icon (pencil) for the item you want to edit to open the menu item details page.
@@ -479,7 +479,7 @@ The sections below describe how to:
 
 
 
-- [Add an image](docs/en-us/adminGuide-adminAddingImagesToMenuItems) to the menu item.
+- [Add an image](adminGuide-adminAddingImagesToMenuItems) to the menu item.
 
 
 - Enter a description for the menu item in the Description field.
@@ -488,12 +488,12 @@ The sections below describe how to:
 - Optionally, enter PLU and SKU codes for the menu item in the PLU and SKUfields.
 
 
-- If the menu item contains alcohol and requires additional handling after it is ordered (for example, an ID check or the prevention of loyalty point accruals), select Yes from the Does this item contain alcohol? menu. For more information on alcohol labeling, see [Assigning alcohol labeling to menu items](docs/en-us/adminGuide-adminAssigningAlcoholLabelingToMenuItemsMenuBuilder).
+- If the menu item contains alcohol and requires additional handling after it is ordered (for example, an ID check or the prevention of loyalty point accruals), select Yes from the Does this item contain alcohol? menu. For more information on alcohol labeling, see [Assigning alcohol labeling to menu items](adminGuide-adminAssigningAlcoholLabelingToMenuItemsMenuBuilder).
 
 
 
 
-4. Select the stock dropdown list, next to the menu item's name, to open the item's stock settings, where you can [specify the item's stock status and count](docs/en-us/adminGuide-adminSettingInventoryStatusForMenuItems).
+4. Select the stock dropdown list, next to the menu item's name, to open the item's stock settings, where you can [specify the item's stock status and count](adminGuide-adminSettingInventoryStatusForMenuItems).
 
 
 
@@ -514,7 +514,7 @@ The sections below describe how to:
 
 Optionally, you can modify the names of the sizes and the number of sizes the item has.
 
-You cannot save a menu item if it has empty size price rows, so delete any empty rows after you are done entering your prices. For detailed instructions, see [Using advanced pricing strategies for menu items](docs/en-us/adminGuide-adminUsingAdvancedPricingStrategiesForMenuItemsMenuBuilder).
+You cannot save a menu item if it has empty size price rows, so delete any empty rows after you are done entering your prices. For detailed instructions, see [Using advanced pricing strategies for menu items](adminGuide-adminUsingAdvancedPricingStrategiesForMenuItemsMenuBuilder).
 
 
 - To use an open price, choose the Openpricing strategy. For items that have a daily market price, Toast support recommends configuring the item with an open price and then using [Quick Edit](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.) mode on a Toast POS device to set a price for the item each day. This ensures that the price is accurate and employees don't have to enter a price every time the item is ordered. Note that open prices are not supported for Toast Online Ordering, so you should not use an open price for a menu item that will appear on your Toast Online Ordering website.
@@ -525,16 +525,16 @@ You cannot save a menu item if it has empty size price rows, so delete any empty
 
 > **Note**
 > 
-> You can use the classic menu item details page to set other advanced pricing strategies for a menu item, for example, time-specific and menu-specific prices. To create a menu item with one of these other advanced prices, you must first create the menu item with a base price, save it, and then edit it to add the advanced price. For more information, see [Using advanced pricing strategies for menu items](docs/en-us/adminGuide-adminUsingAdvancedPricingStrategiesForMenuItemsMenuBuilder).
+> You can use the classic menu item details page to set other advanced pricing strategies for a menu item, for example, time-specific and menu-specific prices. To create a menu item with one of these other advanced prices, you must first create the menu item with a base price, save it, and then edit it to add the advanced price. For more information, see [Using advanced pricing strategies for menu items](adminGuide-adminUsingAdvancedPricingStrategiesForMenuItemsMenuBuilder).
 
 
 
 6. In the Found in section, you can see which menus a menu item is included in and the path within each menu that an employee or guest must follow to get to the menu item. To quickly go to the details page for a menu or menu group in a menu path, select its name.
 
 
-7. In the Modifier groups section, you can add [new](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#adminCreatingANewModifierGroup) or [existing](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingAnExistingModifierGroupToAMenuGroupOrItem)modifier groups directly to this menu item.
+7. In the Modifier groups section, you can add [new](adminGuide-adminAddingModifierGroupsAndModifiers#adminCreatingANewModifierGroup) or [existing](adminGuide-adminAddingModifierGroupsAndModifiers#adminAddingAnExistingModifierGroupToAMenuGroupOrItem)modifier groups directly to this menu item.
 
-You can also specify that the menu item [inherits modifier groups](docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers#adminInheritingMenuGroupsFromParentMenuGroup) that are assigned to its parent menu groups.
+You can also specify that the menu item [inherits modifier groups](adminGuide-adminAddingModifierGroupsAndModifiers#adminInheritingMenuGroupsFromParentMenuGroup) that are assigned to its parent menu groups.
 
 
 8. In the Kitchen section:
@@ -551,28 +551,28 @@ You can also specify that the menu item [inherits modifier groups](docs/en-us/ad
 
 You can choose to disable inheritance and specify prep stations specifically for this menu item.
 
-For more information, see [Assigning prep stations](docs/en-us/adminGuide-adminAssigningPrepStationsMenuBuilder).
+For more information, see [Assigning prep stations](adminGuide-adminAssigningPrepStationsMenuBuilder).
 
 
 10. In the Kitchen &gt; Courses section, you specify the courses assigned to this menu item. By default, a menu item inherits its course from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
 
 You can choose to disable inheritance and specify courses specifically for this menu item.
 
-For more information, see [Assigning courses](docs/en-us/adminGuide-adminAssigningCourses).
+For more information, see [Assigning courses](adminGuide-adminAssigningCourses).
 
 
 11. In the Reporting &gt; Sales categorysection, you specify the sales category assigned to this menu item. By default, a menu item inherits its sales category from a parent menu entity. A parent menu entity can be a menu, menu group, or subgroup.
 
 You can choose to disable inheritance and specify a sales category specifically for this menu item.
 
-For more information, see [Assigning sales categories](docs/en-us/adminGuide-adminAssigningSalesCategories).
+For more information, see [Assigning sales categories](adminGuide-adminAssigningSalesCategories).
 
 
 12. In the Tax settings section, you set the tax rates and other tax behavior for this menu item. By default, a menu item inherits its tax rates and tax behavior from a parent menu entity. A parent menu entity can be a restaurant, menu, menu group, or subgroup.
 
 You can choose to disable inheritance and specify tax rates and tax behavior specifically for this menu item.
 
-For more information, see [Assigning tax rates and tax behavior](docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder).
+For more information, see [Assigning tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder).
 
 
 13. In the Time-based ordering rules section, you can specify rules for your online orders:
@@ -586,10 +586,10 @@ For more information, see [Assigning tax rates and tax behavior](docs/en-us/admi
 
 These rules are only available to restaurants that use Toast Online Ordering Pro and they only apply to online orders.
 
-For more information, see [Setting time-based ordering rules for online orders](docs/en-us/adminGuide-platformSettingTimeBasedOrderingRulesForOnlineOrders).
+For more information, see [Setting time-based ordering rules for online orders](adminGuide-platformSettingTimeBasedOrderingRulesForOnlineOrders).
 
 
-14. In the Channel visibility section, [select where this menu item is visible](docs/en-us/adminGuide-adminSpecifyingOrderingChannelVisibility). A menu item is available for ordering on the channels where it is visible.
+14. In the Channel visibility section, [select where this menu item is visible](adminGuide-adminSpecifyingOrderingChannelVisibility). A menu item is available for ordering on the channels where it is visible.
 
 
 15. Select Save.
@@ -598,13 +598,13 @@ For more information, see [Setting time-based ordering rules for online orders](
 16. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-17. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+17. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.15. To add an existing menu item**
 
-1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) you want to add an existing item to, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) you want to add an existing item to, select Items.
 
 
 2. Do one of the following:
@@ -666,13 +666,13 @@ If there are more than 25 search results, scroll to the end of the list and sele
 10. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-11. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+11. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.16. To edit a menu item**
 
-1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to edit, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to edit, select Items.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
@@ -684,7 +684,7 @@ If there are more than 25 search results, scroll to the end of the list and sele
 4. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -697,7 +697,7 @@ If there are more than 25 search results, scroll to the end of the list and sele
 > Currently, you can only move menu items between menu groups. You cannot move menu items between subgroups, or between a menu group and a subgroup.
 
 
-1. [Access the menu builder](docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder).
+1. [Access the menu builder](adminGuide-adminAccessingTheBasicMenuBuilder).
 
 
 2. Expand the menu that contains the menu item you want to move, then select the menu group that contains the item. You see the menu group's items in the right pane.
@@ -712,13 +712,13 @@ If there are more than 25 search results, scroll to the end of the list and sele
 5. Select Move Item.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.18. To remove a menu item**
 
-1. On the details page for the [menu group](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](docs/en-us/adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to remove, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to remove, select Items.
 
 
 2. Select the remove icon for the menu item you want to edit.
@@ -732,7 +732,7 @@ If there are more than 25 search results, scroll to the end of the list and sele
 4. Select the X icon in the upper-left corner to return to the menu builder home page.
 
 
-5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu).
+5. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 

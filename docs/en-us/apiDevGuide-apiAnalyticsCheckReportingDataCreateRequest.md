@@ -15,9 +15,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `POST` request to the `/era/v1/check/day` endpoint to request check reporting data for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](docs/en-us/apiDevGuide-apiAnalyticsRateLimiting). 
+Send a `POST` request to the `/era/v1/check/day` endpoint to request check reporting data for a single day. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting). 
 
-You can optionally include only the data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData).
+You can optionally include only the data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
 To create a request for check data, include the following:
 
@@ -110,5 +110,5 @@ The following example shows the response from the `/era/v1/check/day` endpoint.
 
 (1) The GUID for the check reporting data request, also called the reportRequestGuid. For more information about the analytics API process, see Understanding the analytics API process.
 
-For an example that shows how to retrieve the check reporting data, see [Retrieving the check reporting data](docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).
+For an example that shows how to retrieve the check reporting data, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).
 

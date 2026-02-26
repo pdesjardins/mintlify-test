@@ -15,9 +15,9 @@ procedures: 1
 codeExamples: 0
 ---
 
-The restaurant in this example uses a KDS device using grid view with preview tickets enabled in the kitchen to receive orders from a drive-through window. Grid view does not use certain dynamic view features. For more information on these limitations, see [Features unavailable with grid view](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSUnavailableFeatures). For more information about preview tickets, see [Preview tickets](docs/en-us/adminGuide-platformKDSOverview#platformGridKDSPreviewTickets).
+The restaurant in this example uses a KDS device using grid view with preview tickets enabled in the kitchen to receive orders from a drive-through window. Grid view does not use certain dynamic view features. For more information on these limitations, see [Features unavailable with grid view](adminGuide-platformKDSOverview#platformGridKDSUnavailableFeatures). For more information about preview tickets, see [Preview tickets](adminGuide-platformKDSOverview#platformGridKDSPreviewTickets).
 
-This example restaurant configuration uses the individual item fulfillment configuration and sends all prep station tickets to the expediter. For more information about the individual item fulfillment setting, see [Fulfill Items](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](docs/en-us/adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). This example restaurant uses one expediter KDS device and two prep station KDS devices for the Drinks and Food prep stations.
+This example restaurant configuration uses the individual item fulfillment configuration and sends all prep station tickets to the expediter. For more information about the individual item fulfillment setting, see [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems). For more information about the configuration setting that sends prep station tickets to the expediter, see [Send to Expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). This example restaurant uses one expediter KDS device and two prep station KDS devices for the Drinks and Food prep stations.
 
 1. On a Toast POS device, the first item, Green Tea, is added to the order.
 

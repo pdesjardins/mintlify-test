@@ -35,7 +35,7 @@ From the Online ordering hours section, you can open or close your restaurant to
 
 **Procedure 3.8. To open your restaurant for online ordering**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Online ordering hours.
@@ -83,7 +83,7 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 
 **Procedure 3.9. To close your restaurant for online ordering**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Online ordering hours.
@@ -101,7 +101,7 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 
 **Procedure 3.10. To edit your online ordering hours**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Online ordering hours.
@@ -172,7 +172,7 @@ From the Online ordering hours section you can also add, edit, or remove an over
 
 **Procedure 3.11. To add an override**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Online ordering hours.
@@ -213,7 +213,7 @@ From the Online ordering hours section you can also add, edit, or remove an over
 
 **Procedure 3.12. To edit an override**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Online ordering hours.
@@ -234,7 +234,7 @@ From the Online ordering hours section you can also add, edit, or remove an over
 
 **Procedure 3.13. To delete an override**
 
-1. [Access Toast Web](docs/en-us/adminGuide-adminAccessToastAdminBackend).
+1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 2. Choose Takeout & delivery &gt; Online ordering hours.

@@ -25,5 +25,5 @@ To deactivate a discount, slide the Activetoggle switch to the left.
 
 To activate a discount, slide the Activetoggle switch to the right.
 
-After you make a discount active or inactive, click Save to save the status change, then [publish the changes](docs/en-us/adminGuide-platformPublishingOverview).
+After you make a discount active or inactive, click Save to save the status change, then [publish the changes](adminGuide-platformPublishingOverview).
 

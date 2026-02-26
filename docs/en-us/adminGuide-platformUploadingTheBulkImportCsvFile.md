@@ -17,7 +17,7 @@ codeExamples: 0
 
 Once you have filled out your copy of a bulk import spreadsheet and downloaded it as a CSV file, you can upload the CSV file into the Toast platform. This section provides instructions for uploading the CSV file. *It is important to note that changes made using the bulk menu import tool are not reversible*.
 
-It is possible that some rows in a bulk menu import file have validation issues and cannot be imported. This does not cause the entire import process to fail. Instead, the Toast platform imports rows that have no validation issues and notifies you of rows that need to be fixed. For more information, see [Fixing import failures](docs/en-us/adminGuide-platformFixingImportFailures).
+It is possible that some rows in a bulk menu import file have validation issues and cannot be imported. This does not cause the entire import process to fail. Instead, the Toast platform imports rows that have no validation issues and notifies you of rows that need to be fixed. For more information, see [Fixing import failures](adminGuide-platformFixingImportFailures).
 
 **Procedure 8.145. To upload a bulk menu import .csv file**
 
@@ -44,7 +44,7 @@ If you see the Errors found in import filepage instead of the Import history tab
 
 If you see the Incomplete import page instead, it means that some of the rows in the import file were imported successfully but other rows had import operation failures.
 
-For more information about resolving data validation and import operation failures, see [Fixing import failures](docs/en-us/adminGuide-platformFixingImportFailures).
+For more information about resolving data validation and import operation failures, see [Fixing import failures](adminGuide-platformFixingImportFailures).
 
 
 
