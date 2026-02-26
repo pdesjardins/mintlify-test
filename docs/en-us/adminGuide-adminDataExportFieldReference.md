@@ -1113,18 +1113,13 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>daysAvailableString</td>
-      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`. <br/> In this example, the menu is available on all days except for Sunday and Saturday:
-```
-"daysAvailableString": [
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [
    "Mon",
    "Tues",
    "Wed",
    "Thurs",
    "Fri"
-]
-```
-
-</td>
+]</code></pre> </td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1345,15 +1340,10 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration:
-```
-Group: Cheese
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese
 Items: ( Cheddar, American, Swiss )
 maxSelections: 2
-minSelections: 1
-```
-
- <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the `minSelections` value).</li></ul></td>
+minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the `minSelections` value).</li></ul></td>
       <td>Integer or null</td>
     </tr>
     <tr>
@@ -1415,9 +1405,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody>
     <tr>
       <td>basePrice</td>
-      <td>Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup) is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example:
-```
-"optionGroups": [ 
+      <td>Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup) is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ 
 {
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
@@ -1427,10 +1415,7 @@ The following table shows the information about the pricing strategy for the mod
     "basePrice": 1.00
     }
   ...
-}
-```
-
-</td>
+}</code></pre> </td>
       <td>Number</td>
     </tr>
     <tr>
@@ -1440,9 +1425,7 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr>
       <td>sequencePrices</td>
-      <td>Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels) value. For example:
-```
-"optionGroups": [ 
+      <td>Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels) value. For example: <pre><code>"optionGroups": [ 
 {
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
@@ -1457,10 +1440,7 @@ The following table shows the information about the pricing strategy for the mod
     ]
   }
   ...
-}
-```
-
-</td>
+}</code></pre> </td>
       <td>JSON array</td>
     </tr>
   </tbody>

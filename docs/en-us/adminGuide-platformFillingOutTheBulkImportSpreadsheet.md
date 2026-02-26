@@ -105,9 +105,7 @@ With the exception of the Price column, all of the columns are required when cre
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu entity's price. This is the only optional column in the basic template.<ul><li>For menu items: <br/> The Price column contains the base price for the menu item. (Menu items created using the basic template must use the `BASE` pricing strategy.)</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to `BASE`, the Price column contains the price that applies to *all modifiers* in the modifier group. (The `BASE` pricing method corresponds to the [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to `PRICED_BY_MODIFIERS`, you must leave the Price column empty. (The `PRICED_BY_MODIFIERS` pricing method corresponds to the [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's *parent modifier group* uses the `PRICED_BY_MODIFIERS` pricing method, the Price column in the *modifier's row* specifies the individual base price of the modifier. (Modifiers created using the basic template must use base prices.)</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings:
-```
-null
+      <td>A string representing the menu entity's price. This is the only optional column in the basic template.<ul><li>For menu items: <br/> The Price column contains the base price for the menu item. (Menu items created using the basic template must use the `BASE` pricing strategy.)</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to `BASE`, the Price column contains the price that applies to *all modifiers* in the modifier group. (The `BASE` pricing method corresponds to the [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to `PRICED_BY_MODIFIERS`, you must leave the Price column empty. (The `PRICED_BY_MODIFIERS` pricing method corresponds to the [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's *parent modifier group* uses the `PRICED_BY_MODIFIERS` pricing method, the Price column in the *modifier's row* specifies the individual base price of the modifier. (Modifiers created using the basic template must use base prices.)</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null
 ""
 ".12"
 "1"
@@ -118,12 +116,7 @@ null
 "100.0"
 "100."
 "-.1"
-"(100.0)"
-```
-
- <br/> Examples of invalid price strings:
-```
-"$100"
+"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"
 "$a" 
 "." 
 "€1" 
@@ -133,10 +126,7 @@ null
 "abc" 
 "100.0$0" 
 "$10a.00"
-"$"
-```
-
-</td>
+"$"</code></pre> </td>
     </tr>
   </tbody>
 </table>
@@ -192,9 +182,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu item's base price. Optional. <blockquote><strong>Note</strong> The item update template is limited to updating the prices of menu items that use the `BASE` pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.</blockquote>  <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings:
-```
-null
+      <td>A string representing the menu item's base price. Optional. <blockquote><strong>Note</strong> The item update template is limited to updating the prices of menu items that use the `BASE` pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.</blockquote>  <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null
 ""
 ".12"
 "1"
@@ -205,12 +193,7 @@ null
 "100.0"
 "100."
 "-.1"
-"(100.0)"
-```
-
- <br/> Examples of invalid price strings:
-```
-"$100"
+"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"
 "$a" 
 "." 
 "€1" 
@@ -220,10 +203,7 @@ null
 "abc" 
 "100.0$0" 
 "$10a.00"
-"$"
-```
-
-</td>
+"$"</code></pre> </td>
     </tr>
     <tr>
       <td>PLU</td>
@@ -235,40 +215,15 @@ null
     </tr>
     <tr>
       <td>Sales category multiLocation ID</td>
-      <td>The multilocation ID for the sales category that applies to this menu item. <br/> If you update the sales category ID for a menu item, and the item had previously been set to inherit its sales category ID from a parent menu group, the item is reconfigured so that it no longer inherits its sales category from a parent menu group. The menu item now has its own sales category. <br/> Example of a sales category ID:
-```
-500000000032822323
-```
-
- <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
+      <td>The multilocation ID for the sales category that applies to this menu item. <br/> If you update the sales category ID for a menu item, and the item had previously been set to inherit its sales category ID from a parent menu group, the item is reconfigured so that it no longer inherits its sales category from a parent menu group. The menu item now has its own sales category. <br/> Example of a sales category ID: <pre><code>500000000032822323</code></pre>  <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
     </tr>
     <tr>
       <td>Prep station multiLocation IDs</td>
-      <td>The multilocation IDs for the prep stations that this menu item should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID. <br/> If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> Example of a single prep station ID:
-```
-500000000032885671
-```
-
- <br/> Example of multiple prep stations IDs:
-```
-"500000000032885671,500000000094945671"
-```
-
- <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
+      <td>The multilocation IDs for the prep stations that this menu item should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID. <br/> If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> Example of a single prep station ID: <pre><code>500000000032885671</code></pre>  <br/> Example of multiple prep stations IDs: <pre><code>"500000000032885671,500000000094945671"</code></pre>  <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
     </tr>
     <tr>
       <td>Tax rate multiLocation IDs</td>
-      <td>The multilocation IDs for the tax rates that apply to this menu item. If you specify a single tax rate, you can just provide the ID. <br/> If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> Example of a single tax rate ID:
-```
-500000000139746504
-```
-
- <br/> Example of multiple tax rates IDs:
-```
-"500000000139746504,500000000959646504"
-```
-
- <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
+      <td>The multilocation IDs for the tax rates that apply to this menu item. If you specify a single tax rate, you can just provide the ID. <br/> If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> Example of a single tax rate ID: <pre><code>500000000139746504</code></pre>  <br/> Example of multiple tax rates IDs: <pre><code>"500000000139746504,500000000959646504"</code></pre>  <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
     </tr>
     <tr>
       <td>Guest count</td>
@@ -354,9 +309,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr>
       <td>Price</td>
-      <td>A string representing the menu entity's price. Optional.<ul><li>For menu items: <br/> The Price column contains the price for the menu item. The menu item may use either the `BASE` pricing strategy or the `LOCATION_SPECIFIC` pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the menu item uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to `BASE`, the Price column contains the price that applies to *all modifiers* in the modifier group. (The `BASE` pricing method corresponds to the [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to `PRICED_BY_MODIFIERS`, you must leave the Price column empty. (The `PRICED_BY_MODIFIERS` pricing method corresponds to the [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's *parent modifier group* uses the `PRICED_BY_MODIFIERS` pricing method, the Price column in the *modifier's row* specifies the individual price of the modifier. The modifier may use either the `BASE` pricing strategy or the `LOCATION_SPECIFIC` pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the modifier uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings:
-```
-null
+      <td>A string representing the menu entity's price. Optional.<ul><li>For menu items: <br/> The Price column contains the price for the menu item. The menu item may use either the `BASE` pricing strategy or the `LOCATION_SPECIFIC` pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the menu item uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to `BASE`, the Price column contains the price that applies to *all modifiers* in the modifier group. (The `BASE` pricing method corresponds to the [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to `PRICED_BY_MODIFIERS`, you must leave the Price column empty. (The `PRICED_BY_MODIFIERS` pricing method corresponds to the [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's *parent modifier group* uses the `PRICED_BY_MODIFIERS` pricing method, the Price column in the *modifier's row* specifies the individual price of the modifier. The modifier may use either the `BASE` pricing strategy or the `LOCATION_SPECIFIC` pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the modifier uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, `-1.00`, or parentheses, `(1.00)`, to indicate a reduction in price.</li><li>Cents are optional. For example, both `10.00` and `10` are acceptable.</li><li>Commas that separate thousands are optional. For example, both `1000` and `1,000` are acceptable.</li><li>`null` is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, `$100` is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null
 ""
 ".12"
 "1"
@@ -367,12 +320,7 @@ null
 "100.0"
 "100."
 "-.1"
-"(100.0)"
-```
-
- <br/> Examples of invalid price strings:
-```
-"$100"
+"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"
 "$a" 
 "." 
 "€1" 
@@ -382,10 +330,7 @@ null
 "abc" 
 "100.0$0" 
 "$10a.00"
-"$"
-```
-
-</td>
+"$"</code></pre> </td>
       <td>Used for: <br/> `CREATE` operations where Entity type is `MENU_ITEM`. <br/> `CREATE` operations where:<ul><li>The Entity type is `MODIFIER_GROUP`</li><li>The modifier group's Pricing strategy or method is set to `BASE`, to indicate that it is using the [Additional charge - price set by modifier group](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) pricing method.</li></ul> <br/> `CREATE` operations where:<ul><li>The Entity type is `MODIFIER`</li><li>The Pricing strategy or method for the modifier's *parent modifier group* is set to `PRICED_BY_MODIFIERS`, to indicate that the modifier's parent group is using the [Additional charge - price set on individual modifiers](adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup) pricing method.</li></ul> <br/> `UPDATE` operations where the menu item's Pricing strategy or method is set to `BASE`. <br/> Empty for `ATTACH` operations</td>
     </tr>
     <tr>
@@ -405,42 +350,17 @@ null
     </tr>
     <tr>
       <td>Prep station multiLocation IDs</td>
-      <td>The multilocation IDs for the prep stations that this menu item or modifier should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID. <br/> If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> If you don't provide a prep station ID when you create a menu item or modifier, the menu item or modifier inherits the prep station assigned to its parent menu entity. <br/> Example of a single prep station ID:
-```
-500000000032885671
-```
-
- <br/> Example of multiple prep stations IDs:
-```
-"500000000032885671,500000000094945671"
-```
-
- <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
+      <td>The multilocation IDs for the prep stations that this menu item or modifier should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID. <br/> If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> If you don't provide a prep station ID when you create a menu item or modifier, the menu item or modifier inherits the prep station assigned to its parent menu entity. <br/> Example of a single prep station ID: <pre><code>500000000032885671</code></pre>  <br/> Example of multiple prep stations IDs: <pre><code>"500000000032885671,500000000094945671"</code></pre>  <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
       <td>Used for `CREATE` operations where Entity type is `MENU_ITEM` or `MODIFIER` and for `UPDATE` operations <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
     <tr>
       <td>Tax rate multiLocation IDs</td>
-      <td>The multilocation IDs for the tax rates that apply to this menu item or modifier. If you specify a single tax rate, you can just provide the ID. <br/> If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> If you don't provide a tax rate ID when you create a menu item or modifier, the menu item or modifier inherits the tax rates assigned to its parent menu entity. <br/> Example of a single tax rate ID:
-```
-500000000139746504
-```
-
- <br/> Example of multiple tax rates IDs:
-```
-"500000000139746504,500000000959646504"
-```
-
- <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
+      <td>The multilocation IDs for the tax rates that apply to this menu item or modifier. If you specify a single tax rate, you can just provide the ID. <br/> If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> If you don't provide a tax rate ID when you create a menu item or modifier, the menu item or modifier inherits the tax rates assigned to its parent menu entity. <br/> Example of a single tax rate ID: <pre><code>500000000139746504</code></pre>  <br/> Example of multiple tax rates IDs: <pre><code>"500000000139746504,500000000959646504"</code></pre>  <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
       <td>Used for `CREATE` operations where Entity type is `MENU_ITEM` or `MODIFIER` and for `UPDATE` operations <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
     <tr>
       <td>Sales category multiLocation ID</td>
-      <td>The multilocation ID for the sales category that applies to this menu item or modifier. <br/> If you don't provide a sales category ID when you create a menu item or modifier, the menu item or modifier inherits the sales category assigned to its parent menu entity. <br/> Example of a sales category ID:
-```
-500000000032822323
-```
-
- <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
+      <td>The multilocation ID for the sales category that applies to this menu item or modifier. <br/> If you don't provide a sales category ID when you create a menu item or modifier, the menu item or modifier inherits the sales category assigned to its parent menu entity. <br/> Example of a sales category ID: <pre><code>500000000032822323</code></pre>  <br/> For more information, see [Specifying Toast identifiers](adminGuide-platformSpecifyingToastIdentifiers).</td>
       <td>Used for `CREATE` operations where Entity type is `MENU_ITEM` or `MODIFIER` <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
     <tr>
