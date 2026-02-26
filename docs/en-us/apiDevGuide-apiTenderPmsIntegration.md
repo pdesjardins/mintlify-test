@@ -99,7 +99,7 @@ The following example shows the search terms configured as room number, name, re
 
 **Example 10.18. Configure search request**
 
-The `TENDER_SEARCH_CONFIG` transaction is a `POST` request to your tender API endpoint `https://<em>{your endpoint}</em>` with the following header parameters:
+The `TENDER_SEARCH_CONFIG` transaction is a `POST` request to your tender API endpoint `https://<em>&#123;your endpoint&#125;</em>` with the following header parameters:
 
 - `Toast-Transaction-Type`
 

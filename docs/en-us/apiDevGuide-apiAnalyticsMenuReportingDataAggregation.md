@@ -193,7 +193,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 
     <tr>
       <td>[(1)](#co-d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Send a `POST` request to the `/era/v1/menu/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `week`.</td>
+      <td>Send a `POST` request to the `/era/v1/menu/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e5155F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
@@ -262,7 +262,7 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
     </tr>
 ### Request to retrieve the menu reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/menu/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```
@@ -287,7 +287,7 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
     </tr>
 ### Response to the retrieval request for menu reporting data
 
-The following example shows the response from the `/era/v1/menu/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/menu/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```

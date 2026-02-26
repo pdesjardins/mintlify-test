@@ -48,13 +48,13 @@ sftp \
       -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com:`{export_id}`/`{YYYYMMDD}`/*
 ```
 
-Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the details you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days and the *`{SSH_key_filepath}`* to the location of your SSH key on your machine.
+Replace the *`&#123;sftp_username&#125;`* and *`&#123;export_id&#125;`* placeholders with the details you received from Toast support. Change *`&#123;YYYYMMDD&#125;`* to the business date of the desired export within the last seven days and the *`&#123;SSH_key_filepath&#125;`* to the location of your SSH key on your machine.
 
 
 
 > **Note**
 > 
-> The *`{filepath}`* used will be the export directory for your restaurant files.
+> The *`&#123;filepath&#125;`* used will be the export directory for your restaurant files.
 
 
 
@@ -62,7 +62,7 @@ Replace the *`{sftp_username}`* and *`{export_id}`* placeholders with the detail
 
 Once you are connected to the SFTP directory use the **ls** command and press Return to display all files.
 
-Export all files using the **get *** command or use **get *`{fileName}`*** to export a specific file.
+Export all files using the **get *** command or use **get *`&#123;fileName&#125;`*** to export a specific file.
 
 
 
@@ -77,7 +77,7 @@ To access your restaurant's SFTP directory using command prompt use the followin
 sftp -i `{SSH_key_filepath}` -r `{sftp_username}`@s-9b0f88558b264dfda.server.transfer.us-east-1.amazonaws.com
 ```
 
-Replace *`{SSH_key_filepath}`* with the location of your SSH key on your machine. Replace *`{export_username}`* with the export user name you received from Toast support.
+Replace *`&#123;SSH_key_filepath&#125;`* with the location of your SSH key on your machine. Replace *`&#123;export_username&#125;`* with the export user name you received from Toast support.
 
 
 2. **Exporting files using command prompt**
@@ -91,7 +91,7 @@ To export a file for a specific location and date, use the following command:
 get /`{export_id}`/`{YYYYMMDD}` `{download_location}`
 ```
 
-Replace *`{export_id}`* with the export ID you received from Toast support. Change *`{YYYYMMDD}`* to the business date of the desired export within the last seven days. Replace *`{download_location}`* with the location on the local file system where you want the downloaded files to be stored.
+Replace *`&#123;export_id&#125;`* with the export ID you received from Toast support. Change *`&#123;YYYYMMDD&#125;`* to the business date of the desired export within the last seven days. Replace *`&#123;download_location&#125;`* with the location on the local file system where you want the downloaded files to be stored.
 
 To export all files, use the following command:
 

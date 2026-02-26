@@ -69,7 +69,7 @@ You can adjust menu visibility for an online ordering channel from the Third par
 6. To add a menu, navigate to the Add Menudrop-down to select and add a menu.
 
 
-7. Select the Add button. A `(Menu name) has been added`notification appears.
+7. Select the Add button. A `(Menu name) has been added `notification appears.
 
 
 8. Select the Publish all changes button to save your changes. The Confirm Publish dialog box appears.

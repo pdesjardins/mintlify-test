@@ -146,7 +146,7 @@ For an example that shows how to retrieve the aggregated sales reporting data, s
 
 ## Creating an aggregated sales reporting data request for a specific time range
 
-Send a `POST` request to `/era/v1/metrics/{timeRange}` endpoint to request aggregated sales reporting data for a specific time range. The time range you specify can be a day, week, month, or year. Accordingly, the options for the `{timeRange}` path parameter are:
+Send a `POST` request to `/era/v1/metrics/&#123;timeRange&#125;` endpoint to request aggregated sales reporting data for a specific time range. The time range you specify can be a day, week, month, or year. Accordingly, the options for the `&#123;timeRange&#125;` path parameter are:
 
 - `day`: This requests data for one day, with the date specified by `startBusinessDate` in the message body. Providing an `endBusinessDate` is optional. If you choose to include the `endBusinessDate`, it must be the same date as the `startBusinessDate`.
 
@@ -172,7 +172,7 @@ If you choose the `day` time range, you can choose to group the aggregated sales
 
 ### Request for specific time range aggregated sales reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint. This example uses the `week` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/metrics/&#123;timeRange&#125;` endpoint. This example uses the `week` time range.
 
 
 ```
@@ -187,7 +187,7 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 
     <tr>
       <td>[(1)](#co-d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Send a `POST` request to the `/era/v1/metrics/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `week`.</td>
+      <td>Send a `POST` request to the `/era/v1/metrics/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
@@ -244,7 +244,7 @@ The following example shows the message body for creating an aggregated sales re
     </tr>
 ### Response to the request for specific time range aggregated sales reporting data
 
-The following example shows the response from the `/era/v1/metrics/{timeRange}` endpoint.
+The following example shows the response from the `/era/v1/metrics/&#123;timeRange&#125;` endpoint.
 
 
 ```

@@ -108,7 +108,7 @@ Modifier Option 2 is configured to use its own unique tax rate. Its `taxRateGuid
 ```
 
   
-Modifier Option 3 is configured so that its tax rate overrides the parent menu item's tax rate. Its `taxRateGuids` value contains the tax rate GUID from its underlying modifier option item reference (`3c4d)`and its `overrideItemTaxRates`value is set to `true`. When Modifier Option 3 is applied to Cheese Pizza in an order, the `taxInfo` value in the `MenuItem` object for Cheese Pizza (`1a2b`) should be overridden by the `taxRateGuids` value in the `ModifierOptionTaxInfo` object for Modifier Option 3 (`3c4d`). This means your integration should use the `3c4d` tax rate for both Cheese Pizza and Modifier Option 3.
+Modifier Option 3 is configured so that its tax rate overrides the parent menu item's tax rate. Its `taxRateGuids` value contains the tax rate GUID from its underlying modifier option item reference (`3c4d) `and its `overrideItemTaxRates`value is set to `true`. When Modifier Option 3 is applied to Cheese Pizza in an order, the `taxInfo` value in the `MenuItem` object for Cheese Pizza (`1a2b`) should be overridden by the `taxRateGuids` value in the `ModifierOptionTaxInfo` object for Modifier Option 3 (`3c4d`). This means your integration should use the `3c4d` tax rate for both Cheese Pizza and Modifier Option 3.
 
 **Example 4.11. Modifier Option 3's tax rate overrides the parent menu item's tax rate**
 

@@ -134,7 +134,7 @@ All requests to the Toast platform APIs require the following headers:
     </tr>
     <tr>
       <td>`Authorization`</td>
-      <td>The access token in the format *`Bearer {accessToken}`*.</td>
+      <td>The access token in the format *`Bearer &#123;accessToken&#125;`*.</td>
     </tr>
     <tr>
       <td>`Content-Type`</td>
@@ -567,7 +567,7 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 Many menu items have associated modifiers, such as toppings or preparation options. To add modifiers to a menu item selection, include a `modifiers` array within the selection.
 
-First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/<em>{guid}</em>`endpoint.
+First, retrieve the modifier options for a menu item by sending a `GET` request to the `/config/v2/menuOptionGroups/<em>&#123;guid&#125;</em>`endpoint.
 
 The following example shows a selection with a modifier:
 

@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/check/&#123;reportRequestGuid&#125;` endpoint to retrieve check reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 To request the check reporting data, you must include the check reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
@@ -23,7 +23,7 @@ Optionally, you can choose to include a `fetchRestaurantNames` query parameter. 
 
 ## Request to retrieve check reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/check/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/check/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```
@@ -53,7 +53,7 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
     </tr>
 ## Response to the retrieval request for check reporting data
 
-The following example shows the response from the `/era/v1/check/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/check/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```

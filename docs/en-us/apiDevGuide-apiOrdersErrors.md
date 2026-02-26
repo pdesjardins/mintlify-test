@@ -47,7 +47,7 @@ The entries in the table below define errors you may encounter while using the o
       <td>Check the `startDate` and `endDate` values throughout your request and ensure that the `startDate` time stamps occur before the `endDate` time stamps.</td>
     </tr>
     <tr>
-      <td>Item (*`{item GUID}`*) does not belong to the group (*`{item group GUID}`*)</td>
+      <td>Item (*`&#123;item GUID&#125;`*) does not belong to the group (*`&#123;item group GUID&#125;`*)</td>
       <td> A menu item in your request does not belong to the referenced menu group. Update the menu item's `menuGroups`. You can find `menuItems` and `menuGroups` values by submitting a `GET` request to the `/menus/v2/menus` endpoint.</td>
     </tr>
     <tr>

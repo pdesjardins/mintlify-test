@@ -15,13 +15,13 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/labor/&#123;reportRequestGuid&#125;` endpoint to retrieve labor reporting data. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 To request the labor reporting data, you must include the labor reporting data request GUID, or `reportRequestGuid`, as a path variable.
 
 ## Request to retrieve labor reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/labor/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```
@@ -46,7 +46,7 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
     </tr>
 ## Response to the retrieval request for labor reporting data
 
-The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/labor/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```

@@ -59,7 +59,7 @@ From the Online ordering hours section, you can open or close your restaurant to
 
 > **Note**
 > 
-> If the Toast platform encounters a network problem or too many toggles are applied at once, an error message appears. The error message displays: `Error: could not close current day.`The last toggle applied will revert back to its previous position, allowing you to toggle it again. For example, if the error appeared when you toggled the setting from Opento Closed, the toggle would revert back to Open.
+> If the Toast platform encounters a network problem or too many toggles are applied at once, an error message appears. The error message displays: `Error: could not close current day. `The last toggle applied will revert back to its previous position, allowing you to toggle it again. For example, if the error appeared when you toggled the setting from Opento Closed, the toggle would revert back to Open.
 
 
 

@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 2
 ---
 
-Send a `GET` request to the `/restaurants/v1/restaurants/{restaurantGUID}` endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a `RestaurantInfo` object that contains the following objects and their information:
+Send a `GET` request to the `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;` endpoint of the restaurants API to obtain configuration information for a specific restaurant. The endpoint returns a `RestaurantInfo` object that contains the following objects and their information:
 
 - `General` object: general information about the restaurant:
 
@@ -123,7 +123,7 @@ Note that the `name`, `timeZone`, and `closeoutHour` values are always populated
 
 
 
-The following example **curl** command sends a `GET` request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
+The following example **curl** command sends a `GET` request to the `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;`endpoint.
 
 **Example 6.3. Get configuration of a specific restaurant**
 
@@ -154,10 +154,10 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
     </tr>
     <tr>
       <td>[(2)](#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D)</td>
-      <td>Use the same restaurant GUID in the `/restaurants/v1/restaurants/{restaurantGUID}` endpoint.</td>
+      <td>Use the same restaurant GUID in the `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;` endpoint.</td>
     </tr>
   
-The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/{restaurantGUID}`endpoint.
+The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;`endpoint.
 
 **Example 6.4. Get restaurant configuration return data**
 

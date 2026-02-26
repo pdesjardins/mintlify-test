@@ -30,7 +30,7 @@ The added items ignore meal pacing.
 
 ## How to add the items to the check
 
-To add items to an existing check, you send a `POST`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint. To identify the items to add, you provide a JSON array of `Selection` objects.
+To add items to an existing check, you send a `POST`request to the `/orders/<em>&#123;orderGuid&#125;</em>/checks/<em>&#123;checkGuid&#125;</em>/selections`endpoint. To identify the items to add, you provide a JSON array of `Selection` objects.
 
 **Procedure 2.5. To add items to an existing check**
 
@@ -47,7 +47,7 @@ To add items to an existing check, you send a `POST`request to the `/orders/<em>
 
 
 
-3. Send a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint of the Orders API. 
+3. Send a `POST` request to the `/orders/<em>&#123;orderGuid&#125;</em>/checks/<em>&#123;checkGuid&#125;</em>/selections`endpoint of the Orders API. 
 
 In the `POST` request path parameters, include the Toast platform GUIDs of the order and the check. 
 
@@ -107,7 +107,7 @@ The following example shows an array that contains a `Selection` object to ad a 
     </tr>
 ## Example response after adding items to an existing check
 
-The following example shows the response for a `POST` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/selections`endpoint of the orders API.
+The following example shows the response for a `POST` request to the `/orders/<em>&#123;orderGuid&#125;</em>/checks/<em>&#123;checkGuid&#125;</em>/selections`endpoint of the orders API.
 
 
 ```

@@ -36,7 +36,7 @@ Open a terminal window and use the below command to create a new SSH key.
 ssh-keygen -t rsa -f ~/.ssh/`{filename}`
 ```
 
-Replace *`{filename}`* with the desired name of your SSH key file.
+Replace *`&#123;filename&#125;`* with the desired name of your SSH key file.
 
 
 
@@ -58,10 +58,10 @@ ssh-keygen -t rsa -f "C:\Users\`{user}`\.ssh\`{filename}"`
 
 Replace the following from the above command:
 
-- `{user}`: Your desktop user name
+- `&#123;user&#125;`: Your desktop user name
 
 
-- `{filename}`: The desired name of your SSH key file.
+- `&#123;filename&#125;`: The desired name of your SSH key file.
 
 
 

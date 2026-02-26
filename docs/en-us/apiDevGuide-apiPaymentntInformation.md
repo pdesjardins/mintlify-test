@@ -16,9 +16,9 @@ procedures: 0
 codeExamples: 2
 ---
 
-Send a `GET` request to the `/payments/<em>{guid}</em>` endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment` object that contains information about the payment. For information about the values of the `Payment` object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
+Send a `GET` request to the `/payments/<em>&#123;guid&#125;</em>` endpoint of the orders API to obtain detailed information about a specific payment. The endpoint returns a `Payment` object that contains information about the payment. For information about the values of the `Payment` object, see [reference documentation for the orders API](https://doc.toasttab.com/openapi/orders/overview/).
 
-The following example **curl** command sends a `GET` request to the `/payments/<em>{guid}</em>` endpoint for a specific payment.
+The following example **curl** command sends a `GET` request to the `/payments/<em>&#123;guid&#125;</em>` endpoint for a specific payment.
 
 **Example 3.3. Get information of a specific payment**
 
@@ -52,7 +52,7 @@ curl -X GET \ -H "Authorization: Bearer
       <td>Specify the payment GUID, which you can get from the `/payments` endpoint of the orders API.</td>
     </tr>
   
-The following example shows the JSON response data for a GET request to the `/payments/<em>{guid}</em>`endpoint. The payment method for this sample payment was a credit card.
+The following example shows the JSON response data for a GET request to the `/payments/<em>&#123;guid&#125;</em>`endpoint. The payment method for this sample payment was a credit card.
 
 **Example 3.4. Get payment return data**
 
@@ -149,7 +149,7 @@ The following sections provide information about voided and refunded payments.
 
 ## Voided payments
 
-The `/payments/<em>{guid}</em>`endpoint can return data for voided payments. A void is a payment that has been fully or partially voided. Voids can be issued on the entire check or on one or more specific items.
+The `/payments/<em>&#123;guid&#125;</em>`endpoint can return data for voided payments. A void is a payment that has been fully or partially voided. Voids can be issued on the entire check or on one or more specific items.
 
 With one exception, any payment can be voided. The exception is a credit card payment that has been captured (the payment cannot be voided but can be refunded).
 
@@ -247,7 +247,7 @@ The following example shows the JSON response data for a voided cash payment.
   
 ## Refunded payments
 
-The `/payments/<em>{guid}</em>`endpoint can return data for refunded payments. A refund is a credit card payment that has been fully reversed after it was captured. Refunds cannot be issued on specific items, but instead can only be issued on the entire check.
+The `/payments/<em>&#123;guid&#125;</em>`endpoint can return data for refunded payments. A refund is a credit card payment that has been fully reversed after it was captured. Refunds cannot be issued on specific items, but instead can only be issued on the entire check.
 
 In the return data for a refunded payment, the `Payment` object includes a `Refund` object with details of the refund operation.
 

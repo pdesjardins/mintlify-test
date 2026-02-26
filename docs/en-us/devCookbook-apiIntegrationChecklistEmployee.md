@@ -125,7 +125,7 @@ If you attempt to create or update an employee with the same passcode as another
 
 ### Employee names
 
-Employee names and external identifiers cannot contain any of the following special characters: `({}\<\>$=\;%)`.
+Employee names and external identifiers cannot contain any of the following special characters: `(&#123;&#125;<>$=\;%)`.
 
 Ensure that your platform does not allow employee names to contain any of these characters, so that you do not submit these characters in the `firstName`, `lastName`, or `externalEmployeeId` values.
 

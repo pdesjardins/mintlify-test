@@ -32,13 +32,13 @@ The menu resources available from the configuration API provide JSON representat
 - `/menus`
 
 
-- `/menus/{guid}`
+- `/menus/&#123;guid&#125;`
 
 
 - `/menuGroups`
 
 
-- `/menuGroups/{guid}`
+- `/menuGroups/&#123;guid&#125;`
 
 
 - `/menuItems`
@@ -47,19 +47,19 @@ The menu resources available from the configuration API provide JSON representat
 - `/menuOptionGroups`
 
 
-- `/menuOptionGroups/{guid}`
+- `/menuOptionGroups/&#123;guid&#125;`
 
 
 - `/preModifiers`
 
 
-- `/preModifiers/{guid}`
+- `/preModifiers/&#123;guid&#125;`
 
 
 - `/preModifierGroups`
 
 
-- `/preModifierGroups/{guid}`
+- `/preModifierGroups/&#123;guid&#125;`
 
 
 
@@ -347,7 +347,7 @@ GET /menuOptionGroups/f63f8bd3-9764-4b1b-b3c9-40c8c104b42b
 }
 ```
 
-In this case we can see that there are two options in the "Size" `MenuOptionGroup`. These options themselves can of course be retrieved as above with `GET``/menuItems/<em>\<guid\></em>`.
+In this case we can see that there are two options in the "Size" `MenuOptionGroup`. These options themselves can of course be retrieved as above with `GET``/menuItems/<em><guid></em>`.
 
 Going back up to the "A Twist On Fries" group, make the calls for the listed `MenuItem`s:
 

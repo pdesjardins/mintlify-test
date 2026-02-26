@@ -15,18 +15,18 @@ procedures: 0
 codeExamples: 2
 ---
 
-Send a `GET` request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint of the restaurants API to get a list of the restaurants in a restaurant management group. The endpoint returns a JSON array of `Restaurant` objects. Each `Restaurant` object contains the GUID of a restaurant in the restaurant management group.
+Send a `GET` request to the `/restaurants/v1/groups/&#123;managementGroupGUID&#125;/restaurants`endpoint of the restaurants API to get a list of the restaurants in a restaurant management group. The endpoint returns a JSON array of `Restaurant` objects. Each `Restaurant` object contains the GUID of a restaurant in the restaurant management group.
 
 You can get a restaurant management group's GUID from either of these resources:
 
-- The `/restaurants/v1/restaurants/{restaurantGUID}`endpoint of the restaurants API. See [Getting information about a specific restaurant](apiDevGuide-apiRestaurantInformation).
+- The `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;`endpoint of the restaurants API. See [Getting information about a specific restaurant](apiDevGuide-apiRestaurantInformation).
 
 
 - The `/partners/v1/restaurants` endpoint of the partners API (if you have partner-level credentials). See [Location access](apiDevGuide-apiPartnersGettingAccessibleRestaurants).
 
 
 
-The following example **curl** command sends a `GET` request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint.
+The following example **curl** command sends a `GET` request to the `/restaurants/v1/groups/&#123;managementGroupGUID&#125;/restaurants`endpoint.
 
 **Example 6.1. Get all restaurants of a management group**
 
@@ -60,7 +60,7 @@ https://`[toast-api-hostname]`/restaurants/v1/groups/ae6c32fe-f4d2-4dcc-aa82-f30
       <td>Specify the GUID of the restaurant management group from which to retrieve its restaurant locations.</td>
     </tr>
   
-The following example shows the JSON response data for a GET request to the `/restaurants/v1/groups/{managementGroupGUID}/restaurants`endpoint.
+The following example shows the JSON response data for a GET request to the `/restaurants/v1/groups/&#123;managementGroupGUID&#125;/restaurants`endpoint.
 
 **Example 6.2. Get all restaurants return data**
 

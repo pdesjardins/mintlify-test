@@ -67,11 +67,11 @@ For example, a restaurant is open from 11:00 AM to 9:00 PM. However, they only t
 
 ## Retrieving the configured preparation time and hours of operation
 
-To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
+To retrieve information about the restaurant configuration, including the quote times, throttling times, and the restaurant hours of operation, send a `GET` request to the `/restaurants/&#123;restaurantGUID&#125;` endpoint of the restaurants API.
 
 ### Takeout and delivery quote and throttling times
 
-In the response to the `GET` request to the `/restaurants/{restaurantGUID}/` endpoint, the `prepTimes` object contains the current quote time and throttling time configurations.
+In the response to the `GET` request to the `/restaurants/&#123;restaurantGUID&#125;/` endpoint, the `prepTimes` object contains the current quote time and throttling time configurations.
 
 - The `deliveryPrepTime` and `takeoutPrepTime` values contain the delivery and takeout quote times.
 
@@ -80,7 +80,7 @@ In the response to the `GET` request to the `/restaurants/{restaurantGUID}/` end
 
 
 
-The following example shows the `prepTimes` object from the response from a `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API.
+The following example shows the `prepTimes` object from the response from a `GET` request to the `/restaurants/&#123;restaurantGUID&#125;` endpoint of the restaurants API.
 
 **Example 2.5. Example takeout and delivery preparation and throttling time configuration from the restaurants API**
 
@@ -123,7 +123,7 @@ The following example shows the `prepTimes` object from the response from a `GET
   
 ### Restaurant opening and closing times
 
-In the response to the `GET` request to the `/restaurants/{restaurantGUID}` endpoint of the restaurants API, the `schedules` value contains information about when the restaurant is open for business.
+In the response to the `GET` request to the `/restaurants/&#123;restaurantGUID&#125;` endpoint of the restaurants API, the `schedules` value contains information about when the restaurant is open for business.
 
 The following example shows the `schedules` value with the opening and closing time values.
 

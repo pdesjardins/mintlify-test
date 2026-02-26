@@ -96,7 +96,7 @@ Breakfast Menu [menu]
             3-egg Omelet [menu  item]
 ```
 
-For the 3-egg Omelet menu item, the Found in column displays `Breakfast Menu \> Egg Dishes`.
+For the 3-egg Omelet menu item, the Found in column displays `Breakfast Menu > Egg Dishes`.
 
 For modifiers, the Found in column lists the item or menu group that the modifier applies to along with the modifier's immediate parent modifier group. For example, consider the following menu hierarchy:
 
@@ -110,7 +110,7 @@ Breakfast Menu [menu]
                     Cheddar [modifier]
 ```
 
-For the Cheddar modifier, the Found incolumn displays `3-egg Omelet \> Cheese`.
+For the Cheddar modifier, the Found incolumn displays `3-egg Omelet > Cheese`.
 
 If an item or a modifier is found in more than one location in the menu hierarchy, you see the first location in the Found in column and + [x] other(s) to indicate there are other locations. Hover your cursor over the item or modifier's Found in column to see a pop-up with the other locations.
 

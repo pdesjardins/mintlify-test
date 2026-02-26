@@ -160,7 +160,7 @@ Include the `numberOfGuests` value in the order to identify guest count. This he
 
 #### Tab name
 
-Include a `tabName` value in the order to identify your integration and guest information. Use the naming convention: `{Partner name} - {Guest first name} {Guest last initial}`. Your integration should allow restaurants to customize tab naming conventions in your system's user interface based on restaurant requirements.
+Include a `tabName` value in the order to identify your integration and guest information. Use the naming convention: `&#123;Partner name} - &#123;Guest first name} &#123;Guest last initial&#125;`. Your integration should allow restaurants to customize tab naming conventions in your system's user interface based on restaurant requirements.
 
 For more information about where tab names appear in the Toast platform, see [Guest personal identifiable information](adminGuide-platformOrdersPii).
 

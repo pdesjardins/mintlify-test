@@ -30,7 +30,7 @@ Optionally, you can use the `restaurantIds` in the message body to list the GUID
 
 You can optionally include only data from currently inactive restaurants using `onlyInactiveRestaurants` as a query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
-Send a `POST` request to the `/era/v1/labor/{timeRange}` endpoint to request labor reporting data for a specific time range. The time range you specify can be `day`, `week`, or `month`.
+Send a `POST` request to the `/era/v1/labor/&#123;timeRange&#125;` endpoint to request labor reporting data for a specific time range. The time range you specify can be `day`, `week`, or `month`.
 
 To create a request for labor data, you must include:
 
@@ -56,7 +56,7 @@ To create a request for labor data, you must include:
 
 ## Request for labor reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/labor/{timeRange}` endpoint. This example uses the `day` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/labor/&#123;timeRange&#125;` endpoint. This example uses the `day` time range.
 
 
 ```
@@ -70,7 +70,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
 
     <tr>
       <td>[(1)](#co-d1e4384134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Send a `POST` request to the `/era/v1/labor/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `day`.</td>
+      <td>Send a `POST` request to the `/era/v1/labor/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `day`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e4386134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>

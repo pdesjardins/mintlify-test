@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `POST` request to the `/era/v1/guest/payments/&#123;timeRange&#125;` endpoint to request guest reporting data organized by payment for a specific time range of `day` or `week`. The rate limit for this endpoint and method type is five requests per minute and 60 requests per day. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
@@ -43,7 +43,7 @@ To create a request for guest reporting data organized by payment, include the f
 
 ## Request for guest reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint. This example uses the `week` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/guest/payments/&#123;timeRange&#125;` endpoint. This example uses the `week` time range.
 
 
 ```
@@ -57,7 +57,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 
     <tr>
       <td>[(1)](#co-d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Send a `POST` request to the `/era/v1/guest/payments/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `week`.</td>
+      <td>Send a `POST` request to the `/era/v1/guest/payments/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
@@ -109,7 +109,7 @@ The following example shows the message body for creating a guest reporting data
     </tr>
 ## Response to request for guest reporting data
 
-The following example shows the response from the `/era/v1/guest/payments/{timeRange}` endpoint.
+The following example shows the response from the `/era/v1/guest/payments/&#123;timeRange&#125;` endpoint.
 
 
 ```

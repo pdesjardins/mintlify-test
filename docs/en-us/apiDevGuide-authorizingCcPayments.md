@@ -46,14 +46,14 @@ The following procedure provides an overview of the process to authorize and app
 
 2. Generate a UUID unique identifier for the credit card payment.
 
-The payment UUID is a path parameter for a `PUT` request to the `/merchants/{merchantUuid}/payments/{paymentUuid}`resource.
+The payment UUID is a path parameter for a `PUT` request to the `/merchants/&#123;merchantUuid}/payments/&#123;paymentUuid&#125;`resource.
 
 You use the payment UUID to apply the authorized credit card payment to an order.
 
 To generate the payment UUID, you must use the algorithm described in [version four of the UUID standard](https://tools.ietf.org/html/rfc4122#section-4.4).
 
 
-3. Submit a `PUT` request to the `/merchants/{merchantUuid}/payments/{paymentUuid}` resource of the credit cards API.
+3. Submit a `PUT` request to the `/merchants/&#123;merchantUuid}/payments/&#123;paymentUuid&#125;` resource of the credit cards API.
 
 In the message body of the request, include the total price for all checks and encrypted credit card information. For more information, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).
 
@@ -72,7 +72,7 @@ For a list of common reasons for card denial, see [Card declined message referen
 
 ## Authorizing a credit card payment
 
-To authorize a credit card payment for a check, you send a `PUT` request to the `/merchants/{merchantUuid}/payments/{paymentUuid}` resource of the credit cards API.
+To authorize a credit card payment for a check, you send a `PUT` request to the `/merchants/&#123;merchantUuid}/payments/&#123;paymentUuid&#125;` resource of the credit cards API.
 
 The credit cards API verifies that the credit card account has sufficient funds available and places a hold on the account for the amount of the payment.
 

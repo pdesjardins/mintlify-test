@@ -31,7 +31,7 @@ The `paymentStatus` for credit card payments must be `AUTHORIZED`. Capturing a p
 
 ## How to update the tip amount
 
-To update a tip amount, you send a `PATCH`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments/<em>{paymentGuid}</em>`endpoint of the Toast orders API. You include a `Payment` JSON object with an updated `tipAmount` value. The `type`of the updated payment must be `CREDIT` or `OTHER`. For credit card payments, the `paymentStatus` on the updated payment must be `AUTHORIZED.`
+To update a tip amount, you send a `PATCH`request to the `/orders/<em>&#123;orderGuid&#125;</em>/checks/<em>&#123;checkGuid&#125;</em>/payments/<em>&#123;paymentGuid&#125;</em>`endpoint of the Toast orders API. You include a `Payment` JSON object with an updated `tipAmount` value. The `type`of the updated payment must be `CREDIT` or `OTHER`. For credit card payments, the `paymentStatus` on the updated payment must be `AUTHORIZED.`
 
 For more information, see [Update a tip amount](https://doc.toasttab.com/openapi/orders/operation/ordersOrderGuidChecksCheckGuidPaymentsPaymentGuidPatch/) in the API reference.
 
@@ -55,7 +55,7 @@ For more information, see [Update a tip amount](https://doc.toasttab.com/openapi
 For this type of request, you can only include the `tipAmount` value. The provided `tipAmount`value completely replaces any previous tip amount on the payment.
 
 
-3. Send a `PATCH` request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments/<em>{paymentGuid}</em>`endpoint of the orders API.
+3. Send a `PATCH` request to the `/orders/<em>&#123;orderGuid&#125;</em>/checks/<em>&#123;checkGuid&#125;</em>/payments/<em>&#123;paymentGuid&#125;</em>`endpoint of the orders API.
 
 In the REST request path parameters, include the Toast platform GUID of the order, the check, and the payment.
 
@@ -85,7 +85,7 @@ The following example shows a `Payment` object that updates the tip amount for a
     </tr>
 ## Example response when you update a tip in an existing payment
 
-The following example shows a response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/checks/<em>{checkGuid}</em>/payments/<em>{paymentGuid}</em>`endpoint of the orders API.
+The following example shows a response for a `PATCH`request to the `/orders/<em>&#123;orderGuid&#125;</em>/checks/<em>&#123;checkGuid&#125;</em>/payments/<em>&#123;paymentGuid&#125;</em>`endpoint of the orders API.
 
 
 ```

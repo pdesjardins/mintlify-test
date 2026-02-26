@@ -127,7 +127,7 @@ For an example about how to retrieve the menu reporting data, see [Retrieving th
 
 ## Creating a menu reporting data request for a specific time range
 
-Send a `POST` request to `/era/v1/menu/{timeRange}` endpoint to request menu reporting data for a specific time range. The time range you specify can be a day, week, month, or year, as represented by these options for the `{timeRange}` path parameter:
+Send a `POST` request to `/era/v1/menu/&#123;timeRange&#125;` endpoint to request menu reporting data for a specific time range. The time range you specify can be a day, week, month, or year, as represented by these options for the `&#123;timeRange&#125;` path parameter:
 
 - `day`: This requests data for one day, with the date specified by `startBusinessDate` in the message body. Providing an `endBusinessDate` is optional. If you choose to include the `endBusinessDate`, it must be the same date as the `startBusinessDate`.
 
@@ -151,7 +151,7 @@ Send a `POST` request to `/era/v1/menu/{timeRange}` endpoint to request menu rep
 
 ### Request for a specific time range of menu reporting data
 
-The following example **curl** command sends a `POST` request to the `/era/v1/menu/{timeRange}` endpoint. This example uses the `day` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/menu/&#123;timeRange&#125;` endpoint. This example uses the `day` time range.
 
 
 ```
@@ -165,7 +165,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/day' \
 
     <tr>
       <td>[(1)](#co-d1e5965F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Send a `POST` request to the `/era/v1/menu/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `day`.</td>
+      <td>Send a `POST` request to the `/era/v1/menu/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `day`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e5967F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
@@ -221,7 +221,7 @@ The following example shows the message body for creating a menu reporting data 
     </tr>
 ### Response to request for a specific time range of menu reporting data
 
-The following example shows the response from the `/era/v1/menu/{timeRange}` endpoint.
+The following example shows the response from the `/era/v1/menu/&#123;timeRange&#125;` endpoint.
 
 
 ```

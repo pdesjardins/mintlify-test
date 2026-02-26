@@ -17,16 +17,16 @@ codeExamples: 0
 
 Retrieving the payout reporting data by settled date is a two-step process. You must:
 
-1. Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint to create a request for payout reporting data organized by settled date for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API supports retrieving payout reporting data for the day, week, and month time ranges. For more information, see [Creating a request for payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataCreateRequest).
+1. Send a `POST` request to the `/era/v1/payout/&#123;timeRange&#125;` endpoint to create a request for payout reporting data organized by settled date for the restaurants in a management group. The response is the `reportRequestGuid`, the unique request identifier. The analytics API supports retrieving payout reporting data for the day, week, and month time ranges. For more information, see [Creating a request for payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataCreateRequest).
 
 
-2. Send a `GET` request to the `/era/v1/payout/{requestReportGuid}` endpoint to retrieve the payout reporting data organized by settled date. For more information, see [Retrieving the payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
+2. Send a `GET` request to the `/era/v1/payout/&#123;requestReportGuid&#125;` endpoint to retrieve the payout reporting data organized by settled date. For more information, see [Retrieving the payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
 
 
 
 ## Creating a request for payout reporting data by settled date
 
-Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint to request payout reporting data organized by settled date for that specific time range. The `timeRange` can be `day`, `week`, or `month`. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for `month` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `POST` request to the `/era/v1/payout/&#123;timeRange&#125;` endpoint to request payout reporting data organized by settled date for that specific time range. The `timeRange` can be `day`, `week`, or `month`. The type of time range you use determines the rate limit for this endpoint and method type. The rate limit for `month` time ranges is 10 requests per hour. The rate limit for `day` and `week` time ranges is 10 requests per minute and 60 requests per hour. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 You can limit the reporting data to inactive restaurants only using the `onlyInactiveRestaurants` query parameter. For more information, see [Viewing inactive restaurant data](apiDevGuide-apiAnalyticsInactiveRestaurantData).
 
@@ -54,7 +54,7 @@ To create a request for payout reporting data organized by settled date, include
 
 ### Request for payout reporting data by settled date
 
-The following example **curl** command sends a `POST` request to the `/era/v1/payout/{timeRange}` endpoint. This example uses the `day` time range.
+The following example **curl** command sends a `POST` request to the `/era/v1/payout/&#123;timeRange&#125;` endpoint. This example uses the `day` time range.
 
 
 ```
@@ -68,7 +68,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \
 
     <tr>
       <td>[(1)](#co-d1e6955E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Send a `POST` request to the `/era/v1/payout/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `day`.</td>
+      <td>Send a `POST` request to the `/era/v1/payout/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `day`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e6957E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
@@ -133,11 +133,11 @@ For an example that shows how to retrieve the payout reporting data by settled d
 
 ## Retrieving the payout reporting data by settled date
 
-Send a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint to retrieve payout reporting data organized by settled date. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
+Send a `GET` request to the `/era/v1/payout/&#123;reportRequestGuid&#125;` endpoint to retrieve payout reporting data organized by settled date. The rate limit for this endpoint and method type is five requests per second and 30 requests per minute. For more information about API rate limits for the analytics API, see [Analytics API rate limits](apiDevGuide-apiAnalyticsRateLimiting).
 
 ### Request to retrieve payout reporting data by settled date
 
-The following example **curl** command sends a `GET` request to the `/era/v1/payout/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/payout/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```
@@ -162,7 +162,7 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
     </tr>
 ### Response to retrieval request for payout reporting data by settled date
 
-The following example shows the response from the `/era/v1/payout/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/payout/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```

@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 1
 ---
 
-The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the `groupBy` value in the message body of the `/era/v1/labor/{timeRange}` request to create these subsections. Use `EMPLOYEE` to group the labor reporting data by employee and `JOB` to group by job.
+The default way to view the labor reporting data is by day for each location. You can choose to aggregate the data into subsections by either employee or job. Use the `groupBy` value in the message body of the `/era/v1/labor/&#123;timeRange&#125;` request to create these subsections. Use `EMPLOYEE` to group the labor reporting data by employee and `JOB` to group by job.
 
 
 
@@ -143,7 +143,7 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
     <tr>
       <td>[(1)](#co-d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Send a `POST` request to the `/era/v1/labor/{timeRange}` endpoint of the analytics API. The `{timeRange}` in this example is `week`.</td>
+      <td>Send a `POST` request to the `/era/v1/labor/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
     </tr>
     <tr>
       <td>[(2)](#co-d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
@@ -219,7 +219,7 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
     </tr>
 ### Request to retrieve the labor reporting data
 
-The following example **curl** command sends a `GET` request to the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example **curl** command sends a `GET` request to the `/era/v1/labor/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```
@@ -244,7 +244,7 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
     </tr>
 ### Response to the retrieval request for labor reporting data
 
-The following example shows the response from the `/era/v1/labor/{reportRequestGuid}` endpoint.
+The following example shows the response from the `/era/v1/labor/&#123;reportRequestGuid&#125;` endpoint.
 
 
 ```

@@ -1406,16 +1406,16 @@ The following table shows the information about the pricing strategy for the mod
     <tr>
       <td>basePrice</td>
       <td>Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup) is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ 
-{
+&#123;
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
   ...
   "pricingStrategy":"BASE_PRICE",
-  "pricingStategyRules": {
+  "pricingStategyRules": &#123;
     "basePrice": 1.00
-    }
+    &#125;
   ...
-}</code></pre> </td>
+&#125;</code></pre> </td>
       <td>Number</td>
     </tr>
     <tr>
@@ -1426,21 +1426,21 @@ The following table shows the information about the pricing strategy for the mod
     <tr>
       <td>sequencePrices</td>
       <td>Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels) value. For example: <pre><code>"optionGroups": [ 
-{
+&#123;
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
   ...
   "pricingStrategy": "SEQUENCE_PRICE",
-  "pricingStrategyRules": {
+  "pricingStrategyRules": &#123;
     "numberOfLevels": 3,
     "sequencePrices": [
       0.50,
       0.75,
       1.00,
     ]
-  }
+  &#125;
   ...
-}</code></pre> </td>
+&#125;</code></pre> </td>
       <td>JSON array</td>
     </tr>
   </tbody>

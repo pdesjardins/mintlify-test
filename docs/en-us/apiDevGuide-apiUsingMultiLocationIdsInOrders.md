@@ -115,7 +115,7 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
     </tr>
 ## Example Order object with both identifiers in an orders API response
 
-Responses to requests sent to the `/orders/{GUID}` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
+Responses to requests sent to the `/orders/&#123;GUID&#125;` and `/ordersBulk` endpoints contain both the `multiLocationId` and `guid` for all `item`, `itemGroup`, and `optionGroup`objects in an order.
 
 The following example response shows how both identifiers are provided for each menu entity.
 

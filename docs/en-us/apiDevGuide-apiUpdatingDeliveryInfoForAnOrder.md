@@ -66,7 +66,7 @@ You can use the orders API to modify the following delivery information:
 
 ## How to update the delivery information
 
-To update delivery information, you send a `PATCH` request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo` object that provides the updated values.
+To update delivery information, you send a `PATCH` request to the `/orders/<em>&#123;orderGuid&#125;</em>/deliveryInfo`endpoint of the orders API. The request must include a JSON `DeliveryInfo` object that provides the updated values.
 
 For more information about the endpoint used in this process, see the [/deliveryInfo reference guide.](https://doc.toasttab.com/openapi/orders/operation/ordersOrderGuidDeliveryInfoPatch/)
 
@@ -85,7 +85,7 @@ The delivery location values (for example, street address and city) cannot be up
 For an example `DeliveryInfo` object, see [Example DeliveryInfo object](apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiExampleDeliveryInfoObject).
 
 
-4. Send a `PATCH` request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
+4. Send a `PATCH` request to the `/orders/<em>&#123;orderGuid&#125;</em>/deliveryInfo`endpoint of the orders API.
 
 In the `PATCH` path, include the Toast platform GUID of the order.
 
@@ -147,7 +147,7 @@ The following example shows the `DeliveryInfo` object for updating delivery info
     </tr>
 ## Example response when updating delivery information
 
-The following example shows the response for a `PATCH`request to the `/orders/<em>{orderGuid}</em>/deliveryInfo`endpoint of the orders API.
+The following example shows the response for a `PATCH`request to the `/orders/<em>&#123;orderGuid&#125;</em>/deliveryInfo`endpoint of the orders API.
 
 
 ```
