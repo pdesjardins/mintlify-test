@@ -92,7 +92,7 @@ The following table provides suggested information that you can display in diffe
     </tr>
     <tr>
       <td>Menu item selections</td>
-      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the `displayName` value on `Selection` object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Item tags - Retrieve from the menus API and cache this data</li></ul></td>
+      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the <code>displayName</code> value on <code>Selection</code> object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Item tags - Retrieve from the menus API and cache this data</li></ul></td>
     </tr>
     <tr>
       <td>Payments</td>
@@ -131,22 +131,22 @@ After you decide what to display in your reports, build a retrieval of transacti
   <tbody>
     <tr>
       <td>Orders</td>
-      <td>Retrieve all orders from the previous day using the `/ordersBulk` endpoint of the orders API. <br/> [More information](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) <blockquote><strong>Note</strong> Toast support recommends using the [orders updated webhook](apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated) to receive order updates as they occur instead of pulling order updates with the `/ordersBulk` endpoint. </blockquote> </td>
-      <td>Use the `startDate` and `endDate` query parameters of the `/ordersBulk` endpoint to retrieve orders by their `modifiedDate` timestamp.</td>
+      <td>Retrieve all orders from the previous day using the <code>/ordersBulk</code> endpoint of the orders API. <br/> <a href="apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders">More information</a> <blockquote><strong>Note</strong> Toast support recommends using the <a href="apiDevGuide-devOrdersWebhookRef#apiOrdersWebhookOrderUpdated">orders updated webhook</a> to receive order updates as they occur instead of pulling order updates with the <code>/ordersBulk</code> endpoint. </blockquote> </td>
+      <td>Use the <code>startDate</code> and <code>endDate</code> query parameters of the <code>/ordersBulk</code> endpoint to retrieve orders by their <code>modifiedDate</code> timestamp.</td>
     </tr>
     <tr>
       <td>Payments</td>
-      <td>Retrieve all payments from the previous day using the `/payments` endpoint of the orders API. <br/> [More information](apiDevGuide-apiAllPaymentsInRestaurants)</td>
-      <td>Use the `paidBusinessDate`, `voidBusinessDate`, and `refundBusinessDate` query parameters to retrieve all payment transactions from the previous business date. <br/> Retrieve payments at least six hours after the restaurant's `closeoutHour` in order to retrieve all credit card payments and fees from the previous day.</td>
+      <td>Retrieve all payments from the previous day using the <code>/payments</code> endpoint of the orders API. <br/> <a href="apiDevGuide-apiAllPaymentsInRestaurants">More information</a></td>
+      <td>Use the <code>paidBusinessDate</code>, <code>voidBusinessDate</code>, and <code>refundBusinessDate</code> query parameters to retrieve all payment transactions from the previous business date. <br/> Retrieve payments at least six hours after the restaurant's <code>closeoutHour</code> in order to retrieve all credit card payments and fees from the previous day.</td>
     </tr>
     <tr>
       <td>Time entries</td>
-      <td>Retrieve all time entries from the previous day using the `/timeEntries` endpoint of the labor API. <br/> [More information](apiDevGuide-apiGettingTimeEntriesForEmployees)</td>
-      <td>Use the `modifiedStartDate` and `modifiedEndDate` query parameters of the `/timeEntries` endpoint to retrieve all time entries created or updated during the previous business day.</td>
+      <td>Retrieve all time entries from the previous day using the <code>/timeEntries</code> endpoint of the labor API. <br/> <a href="apiDevGuide-apiGettingTimeEntriesForEmployees">More information</a></td>
+      <td>Use the <code>modifiedStartDate</code> and <code>modifiedEndDate</code> query parameters of the <code>/timeEntries</code> endpoint to retrieve all time entries created or updated during the previous business day.</td>
     </tr>
     <tr>
       <td>Cash transactions</td>
-      <td>Retrieve all cash transactions from the previous business day using the `/deposits` and `/entries` endpoints of the cash management API. <br/> [More information](apiDevGuide-apiWorkingWithCashEntriesAndDeposits)</td>
+      <td>Retrieve all cash transactions from the previous business day using the <code>/deposits</code> and <code>/entries</code> endpoints of the cash management API. <br/> <a href="apiDevGuide-apiWorkingWithCashEntriesAndDeposits">More information</a></td>
       <td>Use the cash management API to retrieve all cash transactions from the previous business day, such as when employees open the cash drawer, add cash to the cash drawer, and retrieve their day's tips in cash.</td>
     </tr>
   </tbody>
@@ -185,32 +185,32 @@ Consider including the following configuration in your analytics integration.
   <tbody>
     <tr>
       <td>Reporting categories</td>
-      <td>Revenue centers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/revenueCentersGet/) <br/> Sales categories from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/)</td>
-      <td>See Toast Central for more information about [revenue centers](https://central.toasttab.com/s/article/Creating-and-Assigning-Revenue-Centers) and [sales categories](https://central.toasttab.com/s/article/Sales-Categories-1492812477858).</td>
+      <td>Revenue centers from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/revenueCentersGet/">More information</a> <br/> Sales categories from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/">More information</a></td>
+      <td>See Toast Central for more information about <a href="https://central.toasttab.com/s/article/Creating-and-Assigning-Revenue-Centers">revenue centers</a> and <a href="https://central.toasttab.com/s/article/Sales-Categories-1492812477858">sales categories</a>.</td>
     </tr>
     <tr>
       <td>Order configuration</td>
-      <td>Alternative payment types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/) <br/> Dining options from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/) <br/> Discounts from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/discountsGet/) <br/> Service charges from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/) <br/> Tax rates from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/)</td>
+      <td>Alternative payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/">More information</a> <br/> Dining options from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/">More information</a> <br/> Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/">More information</a> <br/> Service charges from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/">More information</a> <br/> Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/">More information</a></td>
       <td>These pieces of configuration are often associated with orders. <br/> They describe how the order was placed and how its price was calculated.</td>
     </tr>
     <tr>
       <td>Menu information</td>
-      <td>Menu information, such as menu group names, menu item names, and item tags from the menus API.  <br/> [More information](apiDevGuide-apiGettingMenuInformationFromTheMenusAPI)</td>
+      <td>Menu information, such as menu group names, menu item names, and item tags from the menus API.  <br/> <a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI">More information</a></td>
       <td>The menus API returns menu item names and other menu-related information you may want to display in your reporting platform.</td>
     </tr>
     <tr>
       <td>Restaurant information</td>
-      <td>Restaurant services from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/) <br/> Service areas from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/serviceAreasGet/) <br/> Tables from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/tablesGet/)</td>
-      <td>This restaurant information allows your integration to report on when and where orders were placed in your restaurant. <br/> See Toast Central for more information about [hours and services](https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services) and [service areas and tables](https://central.toasttab.com/s/article/Creating-Service-Areas-and-Table-Setup-1493049150430).</td>
+      <td>Restaurant services from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/">More information</a> <br/> Service areas from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/serviceAreasGet/">More information</a> <br/> Tables from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/tablesGet/">More information</a></td>
+      <td>This restaurant information allows your integration to report on when and where orders were placed in your restaurant. <br/> See Toast Central for more information about <a href="https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services">hours and services</a> and <a href="https://central.toasttab.com/s/article/Creating-Service-Areas-and-Table-Setup-1493049150430">service areas and tables</a>.</td>
     </tr>
     <tr>
       <td>Cash configuration</td>
-      <td>Cash drawers from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/) <br/> No sale reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/) <br/> Payout reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/) <br/> Void reasons from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/)</td>
-      <td>Cash configuration allows you to display metadata about the cash transactions at a restaurant. <br/> For more information about working with cash entries, see [Cash management overview](apiDevGuide-apiWorkingWithCashEntriesAndDeposits).</td>
+      <td>Cash drawers from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/">More information</a> <br/> No sale reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/">More information</a> <br/> Payout reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/">More information</a> <br/> Void reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/">More information</a></td>
+      <td>Cash configuration allows you to display metadata about the cash transactions at a restaurant. <br/> For more information about working with cash entries, see <a href="apiDevGuide-apiWorkingWithCashEntriesAndDeposits">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Labor configuration</td>
-      <td>Break types from the configuration API. [More information](https://doc.toasttab.com/openapi/configuration/operation/breakTypesGet/) <br/> Employees from the labor API. [More information](apiDevGuide-api_get_all_employees) <br/> Jobs from the labor API. [More information](https://doc.toasttab.com/openapi/labor/operation/jobsGet/)</td>
+      <td>Break types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/breakTypesGet/">More information</a> <br/> Employees from the labor API. <a href="apiDevGuide-api_get_all_employees">More information</a> <br/> Jobs from the labor API. <a href="https://doc.toasttab.com/openapi/labor/operation/jobsGet/">More information</a></td>
       <td>This labor information allows you to display information about restaurant employees, the jobs they do, and the breaks they take.</td>
     </tr>
   </tbody>

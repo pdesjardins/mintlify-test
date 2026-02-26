@@ -778,7 +778,7 @@ The following table shows details on what the kitchen details data export contai
     </tr>
     <tr>
       <td>Check Opened</td>
-      <td>The time of day that the check was opened, in twelve-hour format. For example: `10/22/19 4:22 PM`.</td>
+      <td>The time of day that the check was opened, in twelve-hour format. For example: <code>10/22/19 4:22 PM</code>.</td>
       <td>Date (MM/DD/YY h:mm AM|PM)</td>
     </tr>
     <tr>
@@ -788,7 +788,7 @@ The following table shows details on what the kitchen details data export contai
     </tr>
     <tr>
       <td>Expediter Level</td>
-      <td>The [Two-Level Fulfillment](adminGuide-adminUsingExpo#adminConfigureExpediter) setting for the expediter: `1` for single level or `2` for two levels.</td>
+      <td>The <a href="adminGuide-adminUsingExpo#adminConfigureExpediter">Two-Level Fulfillment</a> setting for the expediter: <code>1</code> for single level or <code>2</code> for two levels.</td>
       <td>Integer</td>
     </tr>
     <tr>
@@ -803,7 +803,7 @@ The following table shows details on what the kitchen details data export contai
     </tr>
     <tr>
       <td>Fulfillment Time</td>
-      <td>The amount of time it took for the ticket to be fulfilled. The duration is calculated by subtracting the Fired Date from the Fulfilled Date. For example: `2 weeks, 1 day, 22 hours, 1 minute and 6 seconds`.</td>
+      <td>The amount of time it took for the ticket to be fulfilled. The duration is calculated by subtracting the Fired Date from the Fulfilled Date. For example: <code>2 weeks, 1 day, 22 hours, 1 minute and 6 seconds</code>.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -887,17 +887,17 @@ The following table shows details on what the labor data export contains.
     </tr>
     <tr>
       <td>Job Title</td>
-      <td>Job title name (specified by restaurant). For example, `Cook` or `Server`.</td>
+      <td>Job title name (specified by restaurant). For example, <code>Cook</code> or <code>Server</code>.</td>
       <td>String</td>
     </tr>
     <tr>
       <td>In Date</td>
-      <td>A timestamp indicating when an employee clocked in. For example: `9/20/17 10:44 AM`</td>
+      <td>A timestamp indicating when an employee clocked in. For example: <code>9/20/17 10:44 AM</code></td>
       <td>Date (M/D/YY HH:mm AM|PM)</td>
     </tr>
     <tr>
       <td>Out Date</td>
-      <td>A timestamp indicating when an employee clocked out. For example: `9/20/17 10:15 PM`</td>
+      <td>A timestamp indicating when an employee clocked out. For example: <code>9/20/17 10:15 PM</code></td>
       <td>Date (M/D/YY HH:mm AM|PM)</td>
     </tr>
     <tr>
@@ -917,7 +917,7 @@ The following table shows details on what the labor data export contains.
     </tr>
     <tr>
       <td>Payable Hours</td>
-      <td>Hours calculated (`Total Hours` less `Unpaid Break Time`).</td>
+      <td>Hours calculated (<code>Total Hours</code> less <code>Unpaid Break Time</code>).</td>
       <td>Number (2 digits)</td>
     </tr>
     <tr>
@@ -937,7 +937,7 @@ The following table shows details on what the labor data export contains.
     </tr>
     <tr>
       <td>Total Tips</td>
-      <td>Total tips calculated (`Cash Tips Declared` plus `Non Cash Tips`).</td>
+      <td>Total tips calculated (<code>Cash Tips Declared</code> plus <code>Non Cash Tips</code>).</td>
       <td>Number (2 digits)</td>
     </tr>
     <tr>
@@ -1018,12 +1018,12 @@ The following table shows the information about each menu at your restaurant fro
   <tbody>
     <tr>
       <td>entityType</td>
-      <td>The type of the menu component described by this JSON object. The value for a menu object is `Menu`.</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu object is <code>Menu</code>.</td>
       <td>String</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for the menu. For example, `Food` or `Drinks`.</td>
+      <td>A descriptive identifier for the menu. For example, <code>Food</code> or <code>Drinks</code>.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1038,7 +1038,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>groups</td>
-      <td>A JSON array of [MenuGroup](adminGuide-adminDataExportFieldReference#menuExportMenugroup) objects.</td>
+      <td>A JSON array of <a href="adminGuide-adminDataExportFieldReference#menuExportMenugroup">MenuGroup</a> objects.</td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1048,62 +1048,62 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>orderableOnline</td>
-      <td>Indicates whether the menu is available for online ordering. Valid values are `true` and `false`. This field is a Boolean version of the orderableOnlineStatus field.</td>
+      <td>Indicates whether the menu is available for online ordering. Valid values are <code>true</code> and <code>false</code>. This field is a Boolean version of the orderableOnlineStatus field.</td>
       <td>Boolean</td>
     </tr>
     <tr>
       <td>orderableOnlineStatus</td>
-      <td>Indicates whether the menu is available for online ordering. Valid values are `YES` and `NO`. This field is a string version of the orderableOnline field.</td>
+      <td>Indicates whether the menu is available for online ordering. Valid values are <code>YES</code> and <code>NO</code>. This field is a string version of the orderableOnline field.</td>
       <td>String</td>
     </tr>
     <tr>
       <td>visibility</td>
-      <td>Indicates where the menu is displayed and who can see it. Values are:<ul><li>`ALL` - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu is hidden from everyone.</li></ul></td>
+      <td>Indicates where the menu is displayed and who can see it. Values are:<ul><li><code>ALL</code> - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li><code>POS_ONLY</code> - The menu is visible only on Toast POS devices (including kiosks).</li><li><code>NONE</code> - The menu is hidden from everyone.</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
       <td>startTime</td>
-      <td>The time of day when a time-based menu becomes available. The value is in milliseconds (for example, `41400000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
+      <td>The time of day when a time-based menu becomes available. The value is in milliseconds (for example, <code>41400000</code>) since the start of the restaurant's day (the day starts at <code>0</code>). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
       <td>Int</td>
     </tr>
     <tr>
       <td>endTime</td>
-      <td>The time of day when a time-based menu stops being available. The value is in milliseconds (for example, `57600000`) since the start of the restaurant's day (the day starts at `0`). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field.</td>
+      <td>The time of day when a time-based menu stops being available. The value is in milliseconds (for example, <code>57600000</code>) since the start of the restaurant's day (the day starts at <code>0</code>). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field.</td>
       <td>Int</td>
     </tr>
     <tr>
       <td>startTimeHHmm</td>
-      <td>The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, <code>15:45</code>). This value is a conversion of the startTime field to a more readable format (the day starts at <code>00:00</code>).</td>
       <td>String</td>
     </tr>
     <tr>
       <td>endTimeHHmm</td>
-      <td>The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, <code>19:35</code>). This value is a conversion of the endTime field to a more readable format (the day starts at <code>00:00</code>).</td>
       <td>String</td>
     </tr>
     <tr>
       <td>startTimeLocalStandardTime</td>
-      <td>The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `23400000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
+      <td>The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at <code>0</code>). The value adds the restaurant timezone's offset (for example, -5 hours in a <code>23400000</code> value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
       <td>Int</td>
     </tr>
     <tr>
       <td>endTimeLocalStandardTime</td>
-      <td>The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at `0`). The value adds the restaurant timezone's offset (for example, -5 hours in a `36900000` value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field.</td>
+      <td>The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at <code>0</code>). The value adds the restaurant timezone's offset (for example, -5 hours in a <code>36900000</code> value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field.</td>
       <td>Int</td>
     </tr>
     <tr>
       <td>startTimeHHmmLocalStandardTime</td>
-      <td>The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, `15:45`). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, <code>15:45</code>). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at <code>00:00</code>).</td>
       <td>String</td>
     </tr>
     <tr>
       <td>endTimeHHmmLocalStandardTime</td>
-      <td>The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, `19:35`). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at `00:00`).</td>
+      <td>The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, <code>19:35</code>). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at <code>00:00</code>).</td>
       <td>String</td>
     </tr>
     <tr>
       <td>availableAllTimes</td>
-      <td>Indicates whether the menu is available at all times of the day. If the value is `false`, then the startTime* fields and the endTime* fields list when this time-based menu is available.</td>
+      <td>Indicates whether the menu is available at all times of the day. If the value is <code>false</code>, then the startTime* fields and the endTime* fields list when this time-based menu is available.</td>
       <td>Boolean</td>
     </tr>
     <tr>
@@ -1113,7 +1113,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>daysAvailableString</td>
-      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as `Sun` or `Thurs`. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code>Sun</code> or <code>Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [
    "Mon",
    "Tues",
    "Wed",
@@ -1151,12 +1151,12 @@ The following table shows the information about each menu group at your restaura
   <tbody>
     <tr>
       <td>entityType</td>
-      <td>The type of the menu component described by this JSON object. The value for a menu object is `MenuGroup`.</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu object is <code>MenuGroup</code>.</td>
       <td>String</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for the menu group. For example, `Appetizers` or `Entrees`.</td>
+      <td>A descriptive identifier for the menu group. For example, <code>Appetizers</code> or <code>Entrees</code>.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1171,12 +1171,12 @@ The following table shows the information about each menu group at your restaura
     </tr>
     <tr>
       <td>subgroups</td>
-      <td>An array of other `MenuGroup` objects. For example, `Red Wine` is the menu group and it has the subgroups `By the Glass` and `By the Bottle`.</td>
+      <td>An array of other <code>MenuGroup</code> objects. For example, <code>Red Wine</code> is the menu group and it has the subgroups <code>By the Glass</code> and <code>By the Bottle</code>.</td>
       <td>JSON array</td>
     </tr>
     <tr>
       <td>items</td>
-      <td>An array of [MenuItem](adminGuide-adminDataExportFieldReference#menuExportMenuitem) objects.</td>
+      <td>An array of <a href="adminGuide-adminDataExportFieldReference#menuExportMenuitem">MenuItem</a> objects.</td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1196,7 +1196,7 @@ The following table shows the information about each menu group at your restaura
     </tr>
     <tr>
       <td>visibility</td>
-      <td>Indicates where the menu group is displayed and who can see it. Values are:<ul><li>`ALL` - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu group is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu group is hidden from everyone.</li></ul></td>
+      <td>Indicates where the menu group is displayed and who can see it. Values are:<ul><li><code>ALL</code> - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li><code>POS_ONLY</code> - The menu group is visible only on Toast POS devices (including kiosks).</li><li><code>NONE</code> - The menu group is hidden from everyone.</li></ul></td>
       <td>String</td>
     </tr>
   </tbody>
@@ -1218,12 +1218,12 @@ The following table shows the information about each menu item at your restauran
   <tbody>
     <tr>
       <td>entityType</td>
-      <td>The type of the menu component described by this JSON object. The value for a menu item object is `MenuItem`.</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu item object is <code>MenuItem</code>.</td>
       <td>String</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for the menu item. For example, `Caesar Salad` or `Lemonade`.</td>
+      <td>A descriptive identifier for the menu item. For example, <code>Caesar Salad</code> or <code>Lemonade</code>.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1248,7 +1248,7 @@ The following table shows the information about each menu item at your restauran
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>This value only applies to items in a [MenuOptionGroup](adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup) object.</td>
+      <td>This value only applies to items in a <a href="adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup">MenuOptionGroup</a> object.</td>
       <td>Integer</td>
     </tr>
     <tr>
@@ -1268,7 +1268,7 @@ The following table shows the information about each menu item at your restauran
     </tr>
     <tr>
       <td>optionGroups</td>
-      <td>An array of [MenuOptionGroup](adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup) objects.</td>
+      <td>An array of <a href="adminGuide-adminDataExportFieldReference#menuExportMenuoptiongroup">MenuOptionGroup</a> objects.</td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1298,7 +1298,7 @@ The following table shows the information about each menu item at your restauran
     </tr>
     <tr>
       <td>visibility</td>
-      <td>Indicates where the menu item is displayed and who can see it. Values are:<ul><li>`ALL` - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu item is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu item is hidden from everyone.</li></ul></td>
+      <td>Indicates where the menu item is displayed and who can see it. Values are:<ul><li><code>ALL</code> - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li><code>POS_ONLY</code> - The menu item is visible only on Toast POS devices (including kiosks).</li><li><code>NONE</code> - The menu item is hidden from everyone.</li></ul></td>
       <td>String</td>
     </tr>
   </tbody>
@@ -1320,12 +1320,12 @@ The following table shows the information about each menu option group, or modif
   <tbody>
     <tr>
       <td>entityType</td>
-      <td>The type of the menu component described by this JSON object. The value for a menu option group object is `MenuOptionGroup`.</td>
+      <td>The type of the menu component described by this JSON object. The value for a menu option group object is <code>MenuOptionGroup</code>.</td>
       <td>String</td>
     </tr>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for the menu option group. For example, `Substitutions` or `Extras`.</td>
+      <td>A descriptive identifier for the menu option group. For example, <code>Substitutions</code> or <code>Extras</code>.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1335,40 +1335,40 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr>
       <td>minSelections</td>
-      <td>The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is `1`. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness.</td>
+      <td>The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is <code>1</code>. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness.</td>
       <td>Integer</td>
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is `null`. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code>null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese
 Items: ( Cheddar, American, Swiss )
 maxSelections: 2
-minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the `maxSelections` value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the `minSelections` value).</li></ul></td>
+minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the <code>maxSelections</code> value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the <code>minSelections</code> value).</li></ul></td>
       <td>Integer or null</td>
     </tr>
     <tr>
       <td>pricingMode</td>
-      <td>Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:<ul><li>`ADJUSTS_PRICE` - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.</li><li>`FIXED_PRICE` - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.</li><li>`INCLUDED` - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).</li></ul></td>
+      <td>Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:<ul><li><code>ADJUSTS_PRICE</code> - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.</li><li><code>FIXED_PRICE</code> - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.</li><li><code>INCLUDED</code> - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
       <td>pricingStrategy</td>
-      <td>Indicates the way prices are set for the options in this menu option group. Values are:<ul><li>`NONE` - Indicates that no pricing strategy is defined for this menu option group. `pricingStrategy` is set to `NONE` if the [pricingMode](adminGuide-adminDataExportFieldReference#adminDataExportPricingModeModifierGroup) is set to `ADJUSTS_PRICE` (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or `INCLUDED` (no additional cost is charged for the options in the menu option group).</li><li>`BASE_PRICE` - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li>`SEQUENCE_PRICE` - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li>`UNSUPPORTED_STRATEGY` - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></td>
+      <td>Indicates the way prices are set for the options in this menu option group. Values are:<ul><li><code>NONE</code> - Indicates that no pricing strategy is defined for this menu option group. <code>pricingStrategy</code> is set to <code>NONE</code> if the <a href="adminGuide-adminDataExportFieldReference#adminDataExportPricingModeModifierGroup">pricingMode</a> is set to <code>ADJUSTS_PRICE</code> (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or <code>INCLUDED</code> (no additional cost is charged for the options in the menu option group).</li><li><code>BASE_PRICE</code> - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li><code>SEQUENCE_PRICE</code> - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li><code>UNSUPPORTED_STRATEGY</code> - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
       <td>pricingStrategyRules</td>
-      <td>An [object](adminGuide-adminDataExportFieldReference#menuExportPricingStrategyRules) that contains the pricing rules for the chosen [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup). If the pricing strategy is `NONE` or `UNSUPPORTED_STRATEGY`, this object is set to `NONE`.</td>
+      <td>An <a href="adminGuide-adminDataExportFieldReference#menuExportPricingStrategyRules">object</a> that contains the pricing rules for the chosen <a href="adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a>. If the pricing strategy is <code>NONE</code> or <code>UNSUPPORTED_STRATEGY</code>, this object is set to <code>NONE</code>.</td>
       <td>JSON object</td>
     </tr>
     <tr>
       <td>defaultOptionsChargePrice</td>
-      <td>Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:<ul><li>`NO` - The option price is ignored. No change is made to the cost of the menu item.</li><li>`YES` - The option price is added to the cost of the menu item.</li></ul></td>
+      <td>Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:<ul><li><code>NO</code> - The option price is ignored. No change is made to the cost of the menu item.</li><li><code>YES</code> - The option price is added to the cost of the menu item.</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
       <td>defaultOptionsSubstitutionPricing</td>
-      <td>Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul><li>`NO` - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li>`YES` - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul> <br/> There are two scenarios that can occur with substitution pricing:<ul><li>If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li>If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></td>
+      <td>Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul><li><code>NO</code> - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li><code>YES</code> - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul> <br/> There are two scenarios that can occur with substitution pricing:<ul><li>If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li>If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></td>
       <td>String</td>
     </tr>
     <tr>
@@ -1383,7 +1383,7 @@ minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST t
     </tr>
     <tr>
       <td>visibility</td>
-      <td>Indicates where the menu option group is displayed and who can see it. Values are:<ul><li>`ALL` - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li>`POS_ONLY` - The menu option group is visible only on Toast POS devices (including kiosks).</li><li>`NONE` - The menu option group is hidden from everyone.</li></ul></td>
+      <td>Indicates where the menu option group is displayed and who can see it. Values are:<ul><li><code>ALL</code> - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li><code>POS_ONLY</code> - The menu option group is visible only on Toast POS devices (including kiosks).</li><li><code>NONE</code> - The menu option group is hidden from everyone.</li></ul></td>
       <td>String</td>
     </tr>
   </tbody>
@@ -1405,7 +1405,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody>
     <tr>
       <td>basePrice</td>
-      <td>Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup) is set to `BASE_PRICE`. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ 
+      <td>Used when the <a href="adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a> is set to <code>BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ 
 &#123;
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
@@ -1420,12 +1420,12 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr>
       <td>numberOfLevels</td>
-      <td>Used when the [pricingStrategy](adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup) is set to `SEQUENCE_PRICE`. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the [sequencePrices](adminGuide-adminDataExportFieldReference#adminDataExportSequencePrices) array.</td>
+      <td>Used when the <a href="adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a> is set to <code>SEQUENCE_PRICE</code>. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the <a href="adminGuide-adminDataExportFieldReference#adminDataExportSequencePrices">sequencePrices</a> array.</td>
       <td>Number</td>
     </tr>
     <tr>
       <td>sequencePrices</td>
-      <td>Sets the price for each level defined in the [numberOfLevels](adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels) value. For example: <pre><code>"optionGroups": [ 
+      <td>Sets the price for each level defined in the <a href="adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels">numberOfLevels</a> value. For example: <pre><code>"optionGroups": [ 
 &#123;
   "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",
   "name": "Toppings",
@@ -1473,7 +1473,7 @@ The following table shows the information about the premodifier groups at your r
   <tbody>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for a `premodifierGroup` object.</td>
+      <td>A descriptive identifier for a <code>premodifierGroup</code> object.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1488,7 +1488,7 @@ The following table shows the information about the premodifier groups at your r
     </tr>
     <tr>
       <td>premodifiers</td>
-      <td>An array of [premodifiers](adminGuide-adminDataExportFieldReference#menuExportPremodifier) objects.</td>
+      <td>An array of <a href="adminGuide-adminDataExportFieldReference#menuExportPremodifier">premodifiers</a> objects.</td>
       <td>JSON array</td>
     </tr>
   </tbody>
@@ -1510,7 +1510,7 @@ The following table shows the information about the premodifiers or postmodifier
   <tbody>
     <tr>
       <td>name</td>
-      <td>A descriptive identifier for a specific premodifier or postmodifier in a `premodifiers` object. For example, `ADD` or `ON SIDE`.</td>
+      <td>A descriptive identifier for a specific premodifier or postmodifier in a <code>premodifiers</code> object. For example, <code>ADD</code> or <code>ON SIDE</code>.</td>
       <td>String</td>
     </tr>
     <tr>
@@ -1520,22 +1520,22 @@ The following table shows the information about the premodifiers or postmodifier
     </tr>
     <tr>
       <td>basePrice</td>
-      <td>If `scalePrice` is `false`, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price).</td>
+      <td>If <code>scalePrice</code> is <code>false</code>, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price).</td>
       <td>Currency</td>
     </tr>
     <tr>
       <td>scalePrice</td>
-      <td>Determines how the price is scaled. Values are:<ul><li>`true` - multiplies the price by the `scaleFactor` value.</li><li>`false` - does not multiply the price but instead adds the `basePrice` value to the item.</li></ul></td>
+      <td>Determines how the price is scaled. Values are:<ul><li><code>true</code> - multiplies the price by the <code>scaleFactor</code> value.</li><li><code>false</code> - does not multiply the price but instead adds the <code>basePrice</code> value to the item.</li></ul></td>
       <td>Boolean</td>
     </tr>
     <tr>
       <td>scaleFactor</td>
-      <td>If `scalePrice` is `true`, the item price is multiplied by this factor.</td>
+      <td>If <code>scalePrice</code> is <code>true</code>, the item price is multiplied by this factor.</td>
       <td>Number</td>
     </tr>
     <tr>
       <td>displayMode</td>
-      <td>Determines the modifier type. Values are:<ul><li>`PREFIX` - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named `Bacon` and the premodifer is named `ADD`, the full display will be `ADD Bacon`.</li><li>`SUFFIX` - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named `Bacon` and the postmodifer is named `ON SIDE`, the full display will be `Bacon ON SIDE`.</li></ul></td>
+      <td>Determines the modifier type. Values are:<ul><li><code>PREFIX</code> - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named <code>Bacon</code> and the premodifer is named <code>ADD</code>, the full display will be <code>ADD Bacon</code>.</li><li><code>SUFFIX</code> - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named <code>Bacon</code> and the postmodifer is named <code>ON SIDE</code>, the full display will be <code>Bacon ON SIDE</code>.</li></ul></td>
       <td>String</td>
     </tr>
   </tbody>

@@ -36,20 +36,20 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 
 
     <tr>
-      <td>[(1)](#co-d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Send a `GET` request to the `/era/v1/check` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/check</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2949DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>The GUID for the check reporting data request, also called the `reportRequestGuid`. For more information about the analytics API process, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e2949DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(2)</a></td>
+      <td>The GUID for the check reporting data request, also called the <code>reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2951DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Set the `fetchRestaurantNames` query parameter to `true` to include the restaurant name in the response.</td>
+      <td><a href="#co-d1e2951DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(3)</a></td>
+      <td>Set the <code>fetchRestaurantNames</code> query parameter to <code>true</code> to include the restaurant name in the response.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2953DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e2953DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(4)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ## Response to the retrieval request for check reporting data
 
@@ -110,8 +110,8 @@ The following example shows the response from the `/era/v1/check/&#123;reportReq
 
 
     <tr>
-      <td>[(1)](#co-d1e3178EFD2B73E-74F6-4B53-908A-CFB01123F156)</td>
-      <td>The `restaurantName` value appears because the `fetchRestaurantName` query parameter was set to `true` in the request.</td>
+      <td><a href="#co-d1e3178EFD2B73E-74F6-4B53-908A-CFB01123F156">(1)</a></td>
+      <td>The <code>restaurantName</code> value appears because the <code>fetchRestaurantName</code> query parameter was set to <code>true</code> in the request.</td>
     </tr>
 For more information about the values in the response, see [Understanding the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData).
 

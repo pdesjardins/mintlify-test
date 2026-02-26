@@ -49,12 +49,12 @@ curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \
 
 
     <tr>
-      <td>[(1)](#co-d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Send a `GET` request to the `/era/v1/restaurants-information` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/restaurants-information</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ## Response to the request for restaurant information
 
@@ -98,22 +98,22 @@ The following example shows the response from the `/era/v1/restaurants-informati
 
 
     <tr>
-      <td>[(1)](#co-d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC)</td>
+      <td><a href="#co-d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC">(1)</a></td>
       <td>The unique GUID assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC)</td>
+      <td><a href="#co-d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC">(2)</a></td>
       <td>The restaurant’s name.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC)</td>
+      <td><a href="#co-d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC">(3)</a></td>
       <td>Indicates whether or not the restaurant is activated. For this example, the restaurant is activated.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC)</td>
+      <td><a href="#co-d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC">(4)</a></td>
       <td>Indicates whether or not the restaurant is in test mode. For this example, the restaurant is not in test mode.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC)</td>
+      <td><a href="#co-d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC">(5)</a></td>
       <td>Indicates whether or not the restaurant is archived. For this example, the restaurant is not archived.</td>
     </tr>

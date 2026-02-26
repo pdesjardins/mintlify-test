@@ -40,19 +40,19 @@ The following example shows the message body for a `/era/v1/labor/week` request 
 
 
     <tr>
-      <td>[(1)](#co-d1e3346134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The start date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e3346134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
+      <td>The start date of the time range for the labor reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e3348134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The end date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e3348134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
+      <td>The end date of the time range for the labor reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e3350134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td><a href="#co-d1e3350134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e3352134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td><a href="#co-d1e3352134B67F3-A975-4412-A030-B6DDC7E2BD35">(4)</a></td>
       <td>This request is for labor reporting data grouped by employee.</td>
     </tr>
 When you use `EMPLOYEE`, the data is split into subsections by restaurant, then by day for the restaurant, and then by employee for the day at that restaurant. For example, the following list shows the structure of labor reporting data for two example restaurants, covering two days and four employees.
@@ -142,19 +142,19 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
 
     <tr>
-      <td>[(1)](#co-d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Send a `POST` request to the `/era/v1/labor/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
+      <td><a href="#co-d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/labor/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code>&#123;timeRange&#125;</code> in this example is <code>week</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e3549134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e3549134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td><a href="#co-d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35">(4)</a></td>
       <td>Include details about the requested labor reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the labor reporting data request
@@ -176,23 +176,23 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 
 
     <tr>
-      <td>[(1)](#co-d1e3611134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The start date of the time range for the labor reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e3611134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
+      <td>The start date of the time range for the labor reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e3613134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The end date of the time range for the labor reporting data, in `YYYYMMDD` format. The `endBusinessDate` value is optional for requests using the `day` time range.</td>
+      <td><a href="#co-d1e3613134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
+      <td>The end date of the time range for the labor reporting data, in <code>YYYYMMDD</code> format. The <code>endBusinessDate</code> value is optional for requests using the <code>day</code> time range.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e3615134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td><a href="#co-d1e3615134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e3617134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td><a href="#co-d1e3617134B67F3-A975-4412-A030-B6DDC7E2BD35">(4)</a></td>
       <td>The list of restaurant GUIDs from the management group to exclude from the labor reporting data. For this example, no restaurants are listed, so all other restaurants are included.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e3619134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
+      <td><a href="#co-d1e3619134B67F3-A975-4412-A030-B6DDC7E2BD35">(5)</a></td>
       <td>This request is for labor reporting data grouped by employee.</td>
     </tr>
 
@@ -214,8 +214,8 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 
     <tr>
-      <td>[(1)](#co-d1e3693134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e3693134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
+      <td>The GUID for the labor reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 ### Request to retrieve the labor reporting data
 
@@ -231,16 +231,16 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
     <tr>
-      <td>[(1)](#co-d1e3730134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Send a `GET` request to the `/era/v1/labor` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e3730134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/labor</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e3732134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Include the GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e3732134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
+      <td>Include the GUID for the labor reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e3734134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e3734134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ### Response to the retrieval request for labor reporting data
 

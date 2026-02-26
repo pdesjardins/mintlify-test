@@ -77,16 +77,16 @@ Qc99xVQ8wlfrh4tp56yjRnub\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
 
 
     <tr>
-      <td>[(1)](#co-d1e581CC3353FE-F616-4AA1-97F1-00D3437AB330)</td>
-      <td>The `/oauth/token_key` endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.</td>
+      <td><a href="#co-d1e581CC3353FE-F616-4AA1-97F1-00D3437AB330">(1)</a></td>
+      <td>The <code>/oauth/token_key</code> endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e583CC3353FE-F616-4AA1-97F1-00D3437AB330)</td>
-      <td>The `alg` value indicates the encryption algorithm used for the public key.</td>
+      <td><a href="#co-d1e583CC3353FE-F616-4AA1-97F1-00D3437AB330">(2)</a></td>
+      <td>The <code>alg</code> value indicates the encryption algorithm used for the public key.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e585CC3353FE-F616-4AA1-97F1-00D3437AB330)</td>
-      <td>The `value` value includes the public key string. You can use the string supplied in the `value` value to validate the authentication tokens in a Toast platform gift card transaction request.</td>
+      <td><a href="#co-d1e585CC3353FE-F616-4AA1-97F1-00D3437AB330">(3)</a></td>
+      <td>The <code>value</code> value includes the public key string. You can use the string supplied in the <code>value</code> value to validate the authentication tokens in a Toast platform gift card transaction request.</td>
     </tr>
   
 ## Using the public key to validate JWTs

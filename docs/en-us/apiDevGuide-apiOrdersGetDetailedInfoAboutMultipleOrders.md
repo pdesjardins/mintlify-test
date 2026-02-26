@@ -110,24 +110,24 @@ pageSize=10&page=2"
 
 
     <tr>
-      <td>[(1)](#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320">(1)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
+      <td><a href="#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320">(2)</a></td>
       <td>Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
-      <td>Send a `GET` request to the `/ordersBulk` endpoint of the orders API.</td>
+      <td><a href="#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320">(3)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/ordersBulk</code> endpoint of the orders API.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
-      <td>To specify a period of time to return orders for, use the <em>`startDate`</em>  and <em>`endDate`</em>  query parameters.</td>
+      <td><a href="#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320">(4)</a></td>
+      <td>To specify a period of time to return orders for, use the <em><code>startDate</code></em>  and <em><code>endDate</code></em>  query parameters.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320)</td>
-      <td>In the `pageSize` query parameter, specify the maximum number of objects to include in the response. In the `page` query parameter, specify the sequence number of the set of objects to return. For more information, see [Paginating response data](apiDevGuide-apiResponseDataPagination).</td>
+      <td><a href="#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320">(5)</a></td>
+      <td>In the <code>pageSize</code> query parameter, specify the maximum number of objects to include in the response. In the <code>page</code> query parameter, specify the sequence number of the set of objects to return. For more information, see <a href="apiDevGuide-apiResponseDataPagination">Paginating response data</a>.</td>
     </tr>
 ## Example response data containing multiple orders
 
@@ -306,24 +306,24 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 
     <tr>
-      <td>[(1)](#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E)</td>
-      <td>The first `Order` object in the array provides detailed information about a single order.</td>
+      <td><a href="#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E">(1)</a></td>
+      <td>The first <code>Order</code> object in the array provides detailed information about a single order.</td>
     </tr>
     <tr>
-      <td>[(2)](#apiOrdersBulkDeliveryInfo)</td>
-      <td>The `deliveryInfo` JSON value is only populated if your Toast API client has the `delivery_info.address:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+      <td><a href="#apiOrdersBulkDeliveryInfo">(2)</a></td>
+      <td>The <code>deliveryInfo</code> JSON value is only populated if your Toast API client has the <code>delivery_info.address:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes">Scopes</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#apiOrdersBulkCurbsideInfo)</td>
-      <td>The `curbsidePickupInfo` JSON value is only populated if your Toast API client has the `guest.pi:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+      <td><a href="#apiOrdersBulkCurbsideInfo">(3)</a></td>
+      <td>The <code>curbsidePickupInfo</code> JSON value is only populated if your Toast API client has the <code>guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes">Scopes</a>.</td>
     </tr>
     <tr>
-      <td>[(4)](#apiOrdersBulkCustomer)</td>
-      <td>The `customer` JSON value is only populated if your Toast API client has the `guest.pi:read` scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).</td>
+      <td><a href="#apiOrdersBulkCustomer">(4)</a></td>
+      <td>The <code>customer</code> JSON value is only populated if your Toast API client has the <code>guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes">Scopes</a>.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E)</td>
-      <td>Each subsequent `Order` object in the array provides detailed information about a different order.</td>
+      <td><a href="#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E">(5)</a></td>
+      <td>Each subsequent <code>Order</code> object in the array provides detailed information about a different order.</td>
     </tr>
 ## Example response data pagination header fields
 

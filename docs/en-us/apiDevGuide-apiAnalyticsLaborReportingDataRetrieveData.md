@@ -33,16 +33,16 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
     <tr>
-      <td>[(1)](#co-d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Send a `GET` request to the `/era/v1/labor` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/labor</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e4576134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>The GUID for the labor reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e4576134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
+      <td>The GUID for the labor reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e4578134B67F3-A975-4412-A030-B6DDC7E2BD35)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e4578134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ## Response to the retrieval request for labor reporting data
 

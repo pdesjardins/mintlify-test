@@ -109,28 +109,28 @@ Some local regulations require third-party ordering platforms to clearly state t
 
 
     <tr>
-      <td>[(1)](#co-d1e96B3470A82-36E3-425F-9B05-911ECB33DF15)</td>
-      <td>The `enabled` value indicates whether the restaurant is currently using the packaging preferences in this object. If `TRUE`, you display the packaging options to guests in your ordering interface. If `FALSE`, do not display the options.</td>
+      <td><a href="#co-d1e96B3470A82-36E3-425F-9B05-911ECB33DF15">(1)</a></td>
+      <td>The <code>enabled</code> value indicates whether the restaurant is currently using the packaging preferences in this object. If <code>TRUE</code>, you display the packaging options to guests in your ordering interface. If <code>FALSE</code>, do not display the options.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e98B3470A82-36E3-425F-9B05-911ECB33DF15)</td>
-      <td>The `id` value holds the packaging preference GUID needed when submitting your order `POST` request. Multiple packaging preferences can be mapped to a single `id`.</td>
+      <td><a href="#co-d1e98B3470A82-36E3-425F-9B05-911ECB33DF15">(2)</a></td>
+      <td>The <code>id</code> value holds the packaging preference GUID needed when submitting your order <code>POST</code> request. Multiple packaging preferences can be mapped to a single <code>id</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e100B3470A82-36E3-425F-9B05-911ECB33DF15)</td>
-      <td>The `guestDisplayName` value is the packaging preferences question that the restaurant intends to show to a guest in your ordering interface. This value should display different packaging preference types appropriately and is defined by your restaurant team.</td>
+      <td><a href="#co-d1e100B3470A82-36E3-425F-9B05-911ECB33DF15">(3)</a></td>
+      <td>The <code>guestDisplayName</code> value is the packaging preferences question that the restaurant intends to show to a guest in your ordering interface. This value should display different packaging preference types appropriately and is defined by your restaurant team.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e102B3470A82-36E3-425F-9B05-911ECB33DF15)</td>
-      <td>The `guestInclusionType` value defines how the guest should interact with the packaging preference. Possible options are `OPT_IN` and `OPT_OUT`. `OPT_IN` means that a guest will have to complete an action to include packaging preferences such as selecting a checkbox. `OPT_OUT` means that a guest has complete an action to opt out of packaging such as de-selecting a checkbox.</td>
+      <td><a href="#co-d1e102B3470A82-36E3-425F-9B05-911ECB33DF15">(4)</a></td>
+      <td>The <code>guestInclusionType</code> value defines how the guest should interact with the packaging preference. Possible options are <code>OPT_IN</code> and <code>OPT_OUT</code>. <code>OPT_IN</code> means that a guest will have to complete an action to include packaging preferences such as selecting a checkbox. <code>OPT_OUT</code> means that a guest has complete an action to opt out of packaging such as de-selecting a checkbox.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e104B3470A82-36E3-425F-9B05-911ECB33DF15)</td>
-      <td>Use the `guestDescription` value to further describe the packaging option, in addition to the `guestDisplayName`.</td>
+      <td><a href="#co-d1e104B3470A82-36E3-425F-9B05-911ECB33DF15">(5)</a></td>
+      <td>Use the <code>guestDescription</code> value to further describe the packaging option, in addition to the <code>guestDisplayName</code>.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e107B3470A82-36E3-425F-9B05-911ECB33DF15)</td>
-      <td>The `guestMessage` value includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.</td>
+      <td><a href="#co-d1e107B3470A82-36E3-425F-9B05-911ECB33DF15">(6)</a></td>
+      <td>The <code>guestMessage</code> value includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.</td>
     </tr>
   
 ### Creating an order with packaging preferences
@@ -188,12 +188,12 @@ The examples below show an order request and response that includes multiple pac
 
 
     <tr>
-      <td>[(1)](#co-d1e28718E59E64-BD98-4F97-BC84-B44ABBF569B3)</td>
-      <td>The identifier GUID of the packaging preference option. You get the identifiers for a restaurant's packaging options from the packaging configuration API. For more information, see [Getting packaging preference configuration options](apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesGetGuid).</td>
+      <td><a href="#co-d1e28718E59E64-BD98-4F97-BC84-B44ABBF569B3">(1)</a></td>
+      <td>The identifier GUID of the packaging preference option. You get the identifiers for a restaurant's packaging options from the packaging configuration API. For more information, see <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesGetGuid">Getting packaging preference configuration options</a>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e28918E59E64-BD98-4F97-BC84-B44ABBF569B3)</td>
-      <td>The packaging preference choice that the guest selected in your ordering interface. The value `YES` indicates that the guest wants the restaurant to include the packaging option for the order.</td>
+      <td><a href="#co-d1e28918E59E64-BD98-4F97-BC84-B44ABBF569B3">(2)</a></td>
+      <td>The packaging preference choice that the guest selected in your ordering interface. The value <code>YES</code> indicates that the guest wants the restaurant to include the packaging option for the order.</td>
     </tr>
   
 The example below shows the response data for a request to create an order that includes packaging preferences.

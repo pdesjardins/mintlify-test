@@ -63,19 +63,19 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 
 
     <tr>
-      <td>[(1)](#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Send a `POST` request to the `/era/v1/check/day` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/check/day</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td><a href="#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(4)</a></td>
       <td>Include details about the requested check reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ## Message body for check reporting data
@@ -98,20 +98,20 @@ The following example shows the message body for creating a check reporting data
 
 
     <tr>
-      <td>[(1)](#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>The start date of the time range for the check reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
+      <td>The start date of the time range for the check reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>The end date of the time range for the check reporting data, in `YYYYMMDD` format. This is the same value as the start date.</td>
+      <td><a href="#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(2)</a></td>
+      <td>The end date of the time range for the check reporting data, in <code>YYYYMMDD</code> format. This is the same value as the start date.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
+      <td><a href="#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the check reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+      <td><a href="#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(4)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
 ## Response to request for check reporting data
 
@@ -125,8 +125,8 @@ The following example shows the response from the `/era/v1/check/day` endpoint.
 
 
     <tr>
-      <td>[(1)](#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5)</td>
-      <td>The GUID for the check reporting data request, also called the `reportRequestGuid`. For more information about the analytics API process, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
+      <td>The GUID for the check reporting data request, also called the <code>reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 For an example that shows how to retrieve the check reporting data, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).
 

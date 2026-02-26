@@ -62,19 +62,19 @@ The following example shows the message body for a `/era/v1/menu/day` request th
 
 
     <tr>
-      <td>[(1)](#co-d1e4831F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The start date of the time range for the menu reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e4831F987D2F6-E937-4A8F-AC23-BD439B5BF371">(1)</a></td>
+      <td>The start date of the time range for the menu reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e4833F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The end date of the time range for the menu reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e4833F987D2F6-E937-4A8F-AC23-BD439B5BF371">(2)</a></td>
+      <td>The end date of the time range for the menu reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e4835F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td><a href="#co-d1e4835F987D2F6-E937-4A8F-AC23-BD439B5BF371">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the menu reporting data. If any restaurants are listed, the restaurant GUIDs not listed are excluded. When left blank, all restaurants are included by default.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e4837F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td><a href="#co-d1e4837F987D2F6-E937-4A8F-AC23-BD439B5BF371">(4)</a></td>
       <td>This request is for menu reporting data grouped by menu.</td>
     </tr>
 When you use `MENU`, the menu reporting data includes objects with information related to a menu for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and two menus. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
@@ -192,19 +192,19 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 
 
     <tr>
-      <td>[(1)](#co-d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Send a `POST` request to the `/era/v1/menu/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
+      <td><a href="#co-d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/menu/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code>&#123;timeRange&#125;</code> in this example is <code>week</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e5155F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e5155F987D2F6-E937-4A8F-AC23-BD439B5BF371">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e5157F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e5157F987D2F6-E937-4A8F-AC23-BD439B5BF371">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e5159F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td><a href="#co-d1e5159F987D2F6-E937-4A8F-AC23-BD439B5BF371">(4)</a></td>
       <td>Include details about the requested menu reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the menu reporting data request
@@ -226,23 +226,23 @@ The following example shows the message body of the `/era/v1/menu/week` request 
 
 
     <tr>
-      <td>[(1)](#co-d1e5183F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td><a href="#co-d1e5183F987D2F6-E937-4A8F-AC23-BD439B5BF371">(1)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the menu reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e5185F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, `excludedRestaurantIds` must be empty because restaurant GUIDs are already included with the `restaurantIds` value.</td>
+      <td><a href="#co-d1e5185F987D2F6-E937-4A8F-AC23-BD439B5BF371">(2)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, <code>excludedRestaurantIds</code> must be empty because restaurant GUIDs are already included with the <code>restaurantIds</code> value.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e5187F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The start date of the time range for the menu reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e5187F987D2F6-E937-4A8F-AC23-BD439B5BF371">(3)</a></td>
+      <td>The start date of the time range for the menu reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e5189F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The end date of the time range for the menu reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e5189F987D2F6-E937-4A8F-AC23-BD439B5BF371">(4)</a></td>
+      <td>The end date of the time range for the menu reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e5191F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
+      <td><a href="#co-d1e5191F987D2F6-E937-4A8F-AC23-BD439B5BF371">(5)</a></td>
       <td>This request is for menu reporting data grouped by menu item.</td>
     </tr>
 ### Response to the menu reporting data request
@@ -257,8 +257,8 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
 
 
     <tr>
-      <td>[(1)](#co-d1e5210F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>The GUID for the menu reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e5210F987D2F6-E937-4A8F-AC23-BD439B5BF371">(1)</a></td>
+      <td>The GUID for the menu reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 ### Request to retrieve the menu reporting data
 
@@ -274,16 +274,16 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
 
 
     <tr>
-      <td>[(1)](#co-d1e5235F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Send a `GET` request to the `/era/v1/menu` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e5235F987D2F6-E937-4A8F-AC23-BD439B5BF371">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/menu</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e5237F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Include the GUID for the menu reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e5237F987D2F6-E937-4A8F-AC23-BD439B5BF371">(2)</a></td>
+      <td>Include the GUID for the menu reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e5239F987D2F6-E937-4A8F-AC23-BD439B5BF371)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e5239F987D2F6-E937-4A8F-AC23-BD439B5BF371">(3)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ### Response to the retrieval request for menu reporting data
 

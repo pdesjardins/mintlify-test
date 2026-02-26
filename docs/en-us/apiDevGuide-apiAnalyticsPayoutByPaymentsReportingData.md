@@ -76,19 +76,19 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
 
 
     <tr>
-      <td>[(1)](#co-d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Send a `POST` request to the `/era/v1/payout/payments/day` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/payout/payments/day</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7577E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e7577E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7579E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e7579E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td><a href="#co-d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(4)</a></td>
       <td>Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for payout reporting data by payments
@@ -108,20 +108,20 @@ The following example shows the message body for creating a payout reporting dat
 
 
     <tr>
-      <td>[(1)](#co-d1e7623E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The start date of the time range for the payout reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e7623E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>The start date of the time range for the payout reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7625E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The end date of the time range for the payout reporting data, in `YYYYMMDD` format. This is the same value as the start date.</td>
+      <td><a href="#co-d1e7625E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(2)</a></td>
+      <td>The end date of the time range for the payout reporting data, in <code>YYYYMMDD</code> format. This is the same value as the start date.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7627E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td><a href="#co-d1e7627E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e7629E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+      <td><a href="#co-d1e7629E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(4)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
 ### Response to request for payout reporting data by payments
 
@@ -135,8 +135,8 @@ The following example shows the response from the `/era/v1/payout/payments/day` 
 
 
     <tr>
-      <td>[(1)](#co-d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The GUID for the payout reporting data by payments request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>The GUID for the payout reporting data by payments request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
@@ -158,16 +158,16 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 
     <tr>
-      <td>[(1)](#co-d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Send a `GET` request to the `/era/v1/payout/payments` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/payout/payments</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7733E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include the GUID for the payout reporting data organized by payments request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e7733E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(2)</a></td>
+      <td>Include the GUID for the payout reporting data organized by payments request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7735E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e7735E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(3)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ### Response to retrieval request for payout reporting data by payments
 
@@ -251,67 +251,67 @@ The following table specifies the returned set of values in the payout reporting
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
+      <td><code>restaurantName</code></td>
       <td>The restaurant’s name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationName`</td>
+      <td><code>restaurantLocationName</code></td>
       <td>The restaurant’s location name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationCode`</td>
+      <td><code>restaurantLocationCode</code></td>
       <td>The restaurant’s location code.</td>
     </tr>
     <tr>
-      <td>`orderGuid`</td>
+      <td><code>orderGuid</code></td>
       <td>The identifier assigned by the Toast platform used to identify an order. This is the order associated with the payment.</td>
     </tr>
     <tr>
-      <td>`checkGuid`</td>
+      <td><code>checkGuid</code></td>
       <td>The identifier assigned by the Toast platform used to identify a check. This is the check associated with the payment.</td>
     </tr>
     <tr>
-      <td>`paymentGuid`</td>
+      <td><code>paymentGuid</code></td>
       <td>The identifier assigned by the Toast platform used to identify the payment.</td>
     </tr>
     <tr>
-      <td>`settledDate`</td>
+      <td><code>settledDate</code></td>
       <td>The date when the payouts associated with the payment were either processed or settled.</td>
     </tr>
     <tr>
-      <td>`orderOpenDateTime`</td>
+      <td><code>orderOpenDateTime</code></td>
       <td>The date and time when the order associated with the payment was opened.</td>
     </tr>
     <tr>
-      <td>`paidDateTime`</td>
+      <td><code>paidDateTime</code></td>
       <td>The date and time when the order associated with the payment was paid.</td>
     </tr>
     <tr>
-      <td>`paymentCardBrand`</td>
+      <td><code>paymentCardBrand</code></td>
       <td>The brand or card provider of the card used to complete the payment. </td>
     </tr>
     <tr>
-      <td>`paymentCardType`</td>
-      <td>The payment type used by the card completing the payment. The type can be one of the following values:<ul><li>`Credit`: A credit card was used to complete the payment.</li><li>`Debit`: A debit card was used to complete the payment.</li><li>`UNSPECIFIED CARD`: The card type is neither credit or debit, or cannot be identified.</li></ul></td>
+      <td><code>paymentCardType</code></td>
+      <td>The payment type used by the card completing the payment. The type can be one of the following values:<ul><li><code>Credit</code>: A credit card was used to complete the payment.</li><li><code>Debit</code>: A debit card was used to complete the payment.</li><li><code>UNSPECIFIED CARD</code>: The card type is neither credit or debit, or cannot be identified.</li></ul></td>
     </tr>
     <tr>
-      <td>`tipAmount`</td>
+      <td><code>tipAmount</code></td>
       <td>The tip amount added to the payment.</td>
     </tr>
     <tr>
-      <td>`gratuityAmount`</td>
+      <td><code>gratuityAmount</code></td>
       <td>The gratuity amount added to the payment.</td>
     </tr>
     <tr>
-      <td>`paymentSubtotal`</td>
+      <td><code>paymentSubtotal</code></td>
       <td>The total payment amount before tip and gratuity.</td>
     </tr>
     <tr>
-      <td>`paymentTotal`</td>
+      <td><code>paymentTotal</code></td>
       <td>The total payment amount, including tip, and gratuity.</td>
     </tr>
   </tbody>

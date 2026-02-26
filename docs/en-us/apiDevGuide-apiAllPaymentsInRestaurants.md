@@ -55,12 +55,12 @@ curl -X GET \ -H "Authorization: Bearer
 
 
     <tr>
-      <td>[(1)](#co-d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD)</td>
-      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant for which payments will be returned.</td>
+      <td><a href="#co-d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD">(1)</a></td>
+      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant for which payments will be returned.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD)</td>
-      <td>Specify the business date for order payments in the `paidBusinessDate` query parameter. Alternatively, you could query for refunds with the `refundBusinessDate` query parameter or for voids with the `voidBusinessDate` query parameter.</td>
+      <td><a href="#co-d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD">(2)</a></td>
+      <td>Specify the business date for order payments in the <code>paidBusinessDate</code> query parameter. Alternatively, you could query for refunds with the <code>refundBusinessDate</code> query parameter or for voids with the <code>voidBusinessDate</code> query parameter.</td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/payments` endpoint.
@@ -79,7 +79,7 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
     <tr>
-      <td>[(1)](#co-d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD)</td>
-      <td>The `/payments` endpoint returns a JSON array of payment GUIDs. In this example, the query returns three payments.</td>
+      <td><a href="#co-d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD">(1)</a></td>
+      <td>The <code>/payments</code> endpoint returns a JSON array of payment GUIDs. In this example, the query returns three payments.</td>
     </tr>
   

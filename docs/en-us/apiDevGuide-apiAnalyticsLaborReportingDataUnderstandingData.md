@@ -31,99 +31,99 @@ The following table specifies the returned set of values in the labor reporting 
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`businessDate`</td>
-      <td>The calendar date of the associated order data, in `YYYYMMDD` format.</td>
+      <td><code>businessDate</code></td>
+      <td>The calendar date of the associated order data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>`regularHours`</td>
+      <td><code>regularHours</code></td>
       <td>The total regular hours logged between clock-in and clock-out for employees with hourly jobs. This does not include overtime hours.</td>
     </tr>
     <tr>
-      <td>`overtimeHours`</td>
+      <td><code>overtimeHours</code></td>
       <td>The total overtime hours logged between clock-in and clock-out for employees with hourly jobs. This only includes overtime hours.</td>
     </tr>
     <tr>
-      <td>`totalHours`</td>
+      <td><code>totalHours</code></td>
       <td>The total hours logged between clock-in and clock-out for employees with hourly jobs. This includes regular and overtime hours.</td>
     </tr>
     <tr>
-      <td>`regularCost`</td>
+      <td><code>regularCost</code></td>
       <td>The operation costs related to employees with hourly jobs from all regular hours, including all shifts.</td>
     </tr>
     <tr>
-      <td>`overtimeCost`</td>
+      <td><code>overtimeCost</code></td>
       <td>The operation costs related to employees with hourly jobs from all overtime hours, including all shifts.</td>
     </tr>
     <tr>
-      <td>`totalCost`</td>
+      <td><code>totalCost</code></td>
       <td>The operation costs related to employees with hourly jobs from all work hours, including all shifts.</td>
     </tr>
     <tr>
-      <td>`netSalesAmount`</td>
-      <td>The total sales, excluding tax, gratuity, tips, discounts, refunds, and deferred amounts. This property is only included when no `groupBy` value is specified.</td>
+      <td><code>netSalesAmount</code></td>
+      <td>The total sales, excluding tax, gratuity, tips, discounts, refunds, and deferred amounts. This property is only included when no <code>groupBy</code> value is specified.</td>
     </tr>
     <tr>
-      <td>`grossSalesAmount`</td>
-      <td>The total sales, including discounts and refunds. This property is only included when no `groupBy` value is specified.</td>
+      <td><code>grossSalesAmount</code></td>
+      <td>The total sales, including discounts and refunds. This property is only included when no <code>groupBy</code> value is specified.</td>
     </tr>
     <tr>
-      <td>`netSalesPerEmployeeHour`</td>
-      <td>The average of the location's total net sales for each hour clocked by an employee. This property is only included when no `groupBy` value is specified.</td>
+      <td><code>netSalesPerEmployeeHour</code></td>
+      <td>The average of the location's total net sales for each hour clocked by an employee. This property is only included when no <code>groupBy</code> value is specified.</td>
     </tr>
     <tr>
-      <td>`grossSalesPerEmployeeHour`</td>
-      <td>The average of the location's total gross sales for each hour clocked by an employee. This property is only included when no `groupBy` value is specified.</td>
+      <td><code>grossSalesPerEmployeeHour</code></td>
+      <td>The average of the location's total gross sales for each hour clocked by an employee. This property is only included when no <code>groupBy</code> value is specified.</td>
     </tr>
     <tr>
-      <td>`totalCostPerNetSales`</td>
+      <td><code>totalCostPerNetSales</code></td>
       <td>The ratio of employee operational costs compared to total net sales, expressed as a percentage.</td>
     </tr>
     <tr>
-      <td>`totalCostPerGrossSales`</td>
+      <td><code>totalCostPerGrossSales</code></td>
       <td>The ratio of employee operational costs compared to gross sales, expressed as a percentage.</td>
     </tr>
     <tr>
-      <td>`jobGuid`</td>
-      <td>The identifier assigned by the Toast platform used to identify a job. This property is only included when the `groupBy` property uses the `JOB` value. If not aggregated by `JOB`, the value is `null`.</td>
+      <td><code>jobGuid</code></td>
+      <td>The identifier assigned by the Toast platform used to identify a job. This property is only included when the <code>groupBy</code> property uses the <code>JOB</code> value. If not aggregated by <code>JOB</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`jobTitle`</td>
-      <td>The job name. This property only appears when the request for labor data includes the `groupBy` property with value `JOB`. If not aggregated by `JOB`, the value is `null`.</td>
+      <td><code>jobTitle</code></td>
+      <td>The job name. This property only appears when the request for labor data includes the <code>groupBy</code> property with value <code>JOB</code>. If not aggregated by <code>JOB</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`jobCode`</td>
-      <td>A reference identifier for the job. This is an optional field entered when the job is created. For example, it can be used to match Toast platform jobs to jobs configured in external labor management systems. This property only appears when the request for labor data includes the `groupBy` property with value `JOB`. If not aggregated by `JOB`, the value is `null`.</td>
+      <td><code>jobCode</code></td>
+      <td>A reference identifier for the job. This is an optional field entered when the job is created. For example, it can be used to match Toast platform jobs to jobs configured in external labor management systems. This property only appears when the request for labor data includes the <code>groupBy</code> property with value <code>JOB</code>. If not aggregated by <code>JOB</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`employeeGuid`</td>
-      <td>The identifier assigned by the Toast platform used to identify an employee. This property only appears when the request for labor data includes the `groupBy` property with value `EMPLOYEE`. If not aggregated by `EMPLOYEE`, the value is `null`.</td>
+      <td><code>employeeGuid</code></td>
+      <td>The identifier assigned by the Toast platform used to identify an employee. This property only appears when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`employeeFirstName`</td>
-      <td>The employee's first name. This property is populated when the request for labor data includes the `groupBy` property with value `EMPLOYEE`. If not aggregated by `EMPLOYEE`, the value is `null`.</td>
+      <td><code>employeeFirstName</code></td>
+      <td>The employee's first name. This property is populated when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`employeeLastName`</td>
-      <td>The employee's last name. This property is populated when the request for labor data includes the `groupBy` property with value `EMPLOYEE`. If not aggregated by `EMPLOYEE`, the value is `null`.</td>
+      <td><code>employeeLastName</code></td>
+      <td>The employee's last name. This property is populated when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`employeeChosenName`</td>
-      <td>The employee's chosen name. This property is populated when the request for labor data includes the `groupBy` property with value `EMPLOYEE`. If not aggregated by `EMPLOYEE`, the value is `null`.</td>
+      <td><code>employeeChosenName</code></td>
+      <td>The employee's chosen name. This property is populated when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
+      <td><code>restaurantName</code></td>
       <td>The restaurant’s name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationName`</td>
+      <td><code>restaurantLocationName</code></td>
       <td>The restaurant’s location name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationCode`</td>
+      <td><code>restaurantLocationCode</code></td>
       <td>The restaurant’s location code.</td>
     </tr>
   </tbody>

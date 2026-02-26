@@ -164,7 +164,7 @@ When creating your integration functionality, consider tracking the following in
     </tr>
     <tr>
       <td>Selections</td>
-      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - use the `displayName` value on `Selection` object</li><li>Item quantity</li><li>Item group</li><li>Applied modifier names- Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Item tags</li><li>Voided status</li></ul></td>
+      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - use the <code>displayName</code> value on <code>Selection</code> object</li><li>Item quantity</li><li>Item group</li><li>Applied modifier names- Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Sales category name</li><li>Item tags</li><li>Voided status</li></ul></td>
     </tr>
     <tr>
       <td>Payments</td>

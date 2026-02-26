@@ -78,17 +78,17 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     <tr>
       <td>400</td>
       <td>Bad Request</td>
-      <td>The API request triggered a known error. <br/> A 400 status code often occurs when the syntax of the request is incorrect or the body of a `POST` request is not structured correctly. <br/> You are responsible for evaluating the [error message](apiDevGuide-apiResponsesAndErrors#apiErrorMessage) returned in the API error response in order for future API requests to avoid this error.</td>
+      <td>The API request triggered a known error. <br/> A 400 status code often occurs when the syntax of the request is incorrect or the body of a <code>POST</code> request is not structured correctly. <br/> You are responsible for evaluating the <a href="apiDevGuide-apiResponsesAndErrors#apiErrorMessage">error message</a> returned in the API error response in order for future API requests to avoid this error.</td>
     </tr>
     <tr>
       <td>401</td>
       <td>Unauthorized</td>
-      <td>The authentication token you submitted is not a recognized Toast API [authentication token](apiDevGuide-authentication#getting-authentication-token). <br/> It is possible that you are submitting an authentication token that has expired and you need to request a new token.</td>
+      <td>The authentication token you submitted is not a recognized Toast API <a href="apiDevGuide-authentication#getting-authentication-token">authentication token</a>. <br/> It is possible that you are submitting an authentication token that has expired and you need to request a new token.</td>
     </tr>
     <tr>
       <td>403</td>
       <td>Forbidden</td>
-      <td>You are not permitted to access the resource that you are attempting to access. <br/> This error often occurs when:<ul><li>You try to access a restaurant that is not [connected to your integration](apiDevGuide-apiPartnersGettingAccessibleRestaurants) (if using a [partner API client](apiDevGuide-authentication#apiAuthenticationReturnDataPartner)).</li><li>You try to access a restaurant that is not [within the management group you work with](apiDevGuide-apiRestaurantsInGroup) (if using a [restaurant management group client](apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant)).</li><li>Your API credentials do not have the proper authorization to use the API you are trying to use.</li></ul></td>
+      <td>You are not permitted to access the resource that you are attempting to access. <br/> This error often occurs when:<ul><li>You try to access a restaurant that is not <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants">connected to your integration</a> (if using a <a href="apiDevGuide-authentication#apiAuthenticationReturnDataPartner">partner API client</a>).</li><li>You try to access a restaurant that is not <a href="apiDevGuide-apiRestaurantsInGroup">within the management group you work with</a> (if using a <a href="apiDevGuide-authentication#apiAuthenticationReturnDataRestaurant">restaurant management group client</a>).</li><li>Your API credentials do not have the proper authorization to use the API you are trying to use.</li></ul></td>
     </tr>
     <tr>
       <td>404</td>
@@ -98,17 +98,17 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     <tr>
       <td>409</td>
       <td>Conflict</td>
-      <td>Your API request conflicts with the current state of Toast product data. For example, you might send a `PUT` request to update an employee's wage override for one of their jobs, but an earlier request removed the job from the employee. <br/> This error is also returned if a restaurant publishes changes to its configuration while you are retrieving paginated data from that restaurant. See [Managing 409 HTTP errors in paginated responses](apiDevGuide-apiResponseDataPagination#apiPagination409HTTPErrors) for more information.</td>
+      <td>Your API request conflicts with the current state of Toast product data. For example, you might send a <code>PUT</code> request to update an employee's wage override for one of their jobs, but an earlier request removed the job from the employee. <br/> This error is also returned if a restaurant publishes changes to its configuration while you are retrieving paginated data from that restaurant. See <a href="apiDevGuide-apiResponseDataPagination#apiPagination409HTTPErrors">Managing 409 HTTP errors in paginated responses</a> for more information.</td>
     </tr>
     <tr>
       <td>422</td>
       <td>Unprocessable Entity</td>
-      <td>Your API request contains something that the Toast platform cannot process. <br/> A 422 HTTP response often occurs when an external partner tries to authorize a credit card transaction with `amount` and `tipAmount` values that are both $0.</td>
+      <td>Your API request contains something that the Toast platform cannot process. <br/> A 422 HTTP response often occurs when an external partner tries to authorize a credit card transaction with <code>amount</code> and <code>tipAmount</code> values that are both $0.</td>
     </tr>
     <tr>
       <td>429</td>
       <td>Too Many Requests</td>
-      <td>You have exceeded your [rate limit](apiDevGuide-apiRateLimiting) and must wait before sending more Toast API requests.</td>
+      <td>You have exceeded your <a href="apiDevGuide-apiRateLimiting">rate limit</a> and must wait before sending more Toast API requests.</td>
     </tr>
     <tr>
       <td>499</td>
@@ -241,23 +241,23 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
   </thead>
   <tbody>
     <tr>
-      <td>`ReadOnlyResource`</td>
+      <td><code>ReadOnlyResource</code></td>
       <td>The resource is currently marked READ-ONLY and cannot be updated. </td>
     </tr>
     <tr>
-      <td>`InvalidRestaurant`</td>
+      <td><code>InvalidRestaurant</code></td>
       <td>The specified restaurant is unknown or invalid. </td>
     </tr>
     <tr>
-      <td>`InvalidExternalIdentifier`</td>
+      <td><code>InvalidExternalIdentifier</code></td>
       <td>The specified shift external identifier is invalid for this restaurant. For example, it has an incorrect format, length, or other issue. </td>
     </tr>
     <tr>
-      <td>`UnauthorizedOperation`</td>
+      <td><code>UnauthorizedOperation</code></td>
       <td>The client is not authorized to perform this operation. </td>
     </tr>
     <tr>
-      <td>`VersionMismatch`</td>
+      <td><code>VersionMismatch</code></td>
       <td>The client has attempted to use stale versions to update one or more domain objects.</td>
     </tr>
   </tbody>

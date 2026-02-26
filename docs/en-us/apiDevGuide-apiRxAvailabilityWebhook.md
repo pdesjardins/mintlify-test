@@ -144,20 +144,20 @@ The restaurant is online and can accept orders. Attributes in the `availability_
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
-      <td>`status`</td>
-      <td>`ONLINE` <br/> data type: string</td>
+      <td><code>status</code></td>
+      <td><code>ONLINE</code> <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reasonKey`</td>
-      <td>`AVAILABILITY_ONLINE ` <br/> The machine-readable reason why the restaurant is available to accept online orders.  <br/> data type: string</td>
+      <td><code>reasonKey</code></td>
+      <td><code>AVAILABILITY_ONLINE </code> <br/> The machine-readable reason why the restaurant is available to accept online orders.  <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reason`</td>
-      <td>`Restaurant is approving online orders` <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
+      <td><code>reason</code></td>
+      <td><code>Restaurant is approving online orders</code> <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -195,20 +195,20 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
-      <td>`status`</td>
-      <td>`OFFLINE` <br/> data type: string </td>
+      <td><code>status</code></td>
+      <td><code>OFFLINE</code> <br/> data type: string </td>
     </tr>
     <tr>
-      <td>`reasonKey`</td>
-      <td>`AVAILABILITY_OFFLINE` <br/> The machine-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string</td>
+      <td><code>reasonKey</code></td>
+      <td><code>AVAILABILITY_OFFLINE</code> <br/> The machine-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reason`</td>
-      <td>`Restaurant cannot accept online orders` <br/> The human-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string </td>
+      <td><code>reason</code></td>
+      <td><code>Restaurant cannot accept online orders</code> <br/> The human-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -271,20 +271,20 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
-      <td>`status`</td>
-      <td>`ONLINE` <br/> data type: string</td>
+      <td><code>status</code></td>
+      <td><code>ONLINE</code> <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reasonKey`</td>
-      <td>`TOGGLE_ENABLED` <br/> The machine-readable reason why the restaurant is available to accept online orders. <br/> data type: string</td>
+      <td><code>reasonKey</code></td>
+      <td><code>TOGGLE_ENABLED</code> <br/> The machine-readable reason why the restaurant is available to accept online orders. <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reason`</td>
-      <td>`User enabled integration` <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
+      <td><code>reason</code></td>
+      <td><code>User enabled integration</code> <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -322,20 +322,20 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
     <tr>
-      <td>`status`</td>
-      <td>`OFFLINE` <br/> data type: string</td>
+      <td><code>status</code></td>
+      <td><code>OFFLINE</code> <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reasonKey`</td>
-      <td>`TOGGLE_DISABLED` <br/> The machine-readable reason why the restaurant is unavailable to accept online orders. <br/> data type: string</td>
+      <td><code>reasonKey</code></td>
+      <td><code>TOGGLE_DISABLED</code> <br/> The machine-readable reason why the restaurant is unavailable to accept online orders. <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`reason`</td>
-      <td>`User disabled integration` <br/> The human-readable reason why the restaurant is unavailable to accept orders.  <br/> data type: string </td>
+      <td><code>reason</code></td>
+      <td><code>User disabled integration</code> <br/> The human-readable reason why the restaurant is unavailable to accept orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -374,23 +374,23 @@ For a restaurant to be available to accept online orders, the online ordering ch
   </thead>
   <tbody>
     <tr>
-      <td>`toggle_availability_online ` <br/> The online ordering channel toggle is on. </td>
-      <td>`availability_online ` <br/> Restaurant health is online.</td>
+      <td><code>toggle_availability_online </code> <br/> The online ordering channel toggle is on. </td>
+      <td><code>availability_online </code> <br/> Restaurant health is online.</td>
       <td>The restaurant is online and available to accept online orders. </td>
     </tr>
     <tr>
-      <td>`toggle_availability_online ` <br/> The online ordering channel toggle is on. </td>
-      <td>`availability_offline` <br/> Restaurant health is offline.</td>
+      <td><code>toggle_availability_online </code> <br/> The online ordering channel toggle is on. </td>
+      <td><code>availability_offline</code> <br/> Restaurant health is offline.</td>
       <td>The restaurant is offline and not available to accept online orders. </td>
     </tr>
     <tr>
-      <td>`toggle_availability_offline ` <br/> The online ordering channel toggle is off. </td>
-      <td>`availability_online` <br/> Restaurant health is online.</td>
+      <td><code>toggle_availability_offline </code> <br/> The online ordering channel toggle is off. </td>
+      <td><code>availability_online</code> <br/> Restaurant health is online.</td>
       <td>The restaurant is offline and not available to accept online orders. </td>
     </tr>
     <tr>
-      <td>`toggle_availability_offline ` <br/> The online ordering channel toggle is off. </td>
-      <td>`availability_offline` <br/> Restaurant health is offline.</td>
+      <td><code>toggle_availability_offline </code> <br/> The online ordering channel toggle is off. </td>
+      <td><code>availability_offline</code> <br/> Restaurant health is offline.</td>
       <td>The restaurant is offline and not available to accept online orders. </td>
     </tr>
   </tbody>

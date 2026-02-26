@@ -37,7 +37,7 @@ The following table lists the permissions that are required for specific cash ma
       <td>POS Access > Apply Cash Payments</td>
     </tr>
     <tr>
-      <td>[Undo cash entries](adminGuide-adminUndoingOperations) in a cash drawer. Also allows the No Sale button to be displayed on the Order screen while in Quick Order mode. Use the No Sale button to open the cash drawer without having to complete a transaction. This permission also allows employees to do their own shift reviews.</td>
+      <td><a href="adminGuide-adminUndoingOperations">Undo cash entries</a> in a cash drawer. Also allows the No Sale button to be displayed on the Order screen while in Quick Order mode. Use the No Sale button to open the cash drawer without having to complete a transaction. This permission also allows employees to do their own shift reviews.</td>
       <td>POS Access > No Sale</td>
     </tr>
     <tr>

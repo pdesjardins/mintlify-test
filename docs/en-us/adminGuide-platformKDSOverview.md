@@ -645,7 +645,7 @@ The following table provides information on device settings that ignore the curr
   <tbody>
     <tr>
       <td>Text Size</td>
-      <td>For grid view, the text size is associated with the ticket size. For more information, see [Procedure 10.30, “To configure the ticket size”](adminGuide-platformKDSOverview#platformGridKDSToConfigureSize).</td>
+      <td>For grid view, the text size is associated with the ticket size. For more information, see <a href="adminGuide-platformKDSOverview#platformGridKDSToConfigureSize">Procedure 10.30, “To configure the ticket size”</a>.</td>
     </tr>
   </tbody>
 </table>

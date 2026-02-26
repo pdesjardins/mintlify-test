@@ -67,7 +67,7 @@ https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec73
 
 
     <tr>
-      <td>[(1)](#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400)</td>
+      <td><a href="#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400">(1)</a></td>
       <td>Include the Toast platform identifier for the employee in the path parameter of the request.</td>
     </tr>
   
@@ -103,11 +103,11 @@ The following example shows the response for a `DELETE` request to archive an em
 
 
     <tr>
-      <td>[(1)](#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
-      <td>When you archive an employee, the `deleted` value is set to `true`.</td>
+      <td><a href="#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9">(1)</a></td>
+      <td>When you archive an employee, the <code>deleted</code> value is set to <code>true</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
-      <td>The `deletedDate` value indicates the date and time you archived the employee.</td>
+      <td><a href="#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9">(2)</a></td>
+      <td>The <code>deletedDate</code> value indicates the date and time you archived the employee.</td>
     </tr>
   

@@ -31,92 +31,92 @@ The following table specifies the returned set of values in the aggregated sales
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`businessDate`</td>
-      <td>The calendar date of the associated order data, in `YYYYMMDD` format.</td>
+      <td><code>businessDate</code></td>
+      <td>The calendar date of the associated order data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>`guestCount`</td>
+      <td><code>guestCount</code></td>
       <td>The total number of guests recorded across all orders.</td>
     </tr>
     <tr>
-      <td>`voidOrdersCount`</td>
+      <td><code>voidOrdersCount</code></td>
       <td>The total number of orders with at least one voided item.</td>
     </tr>
     <tr>
-      <td>`discountOrderCount`</td>
+      <td><code>discountOrderCount</code></td>
       <td>The total number of orders that used a discount.</td>
     </tr>
     <tr>
-      <td>`ordersCount`</td>
+      <td><code>ordersCount</code></td>
       <td>The total number of orders, excluding voided orders.</td>
     </tr>
     <tr>
-      <td>`openOrdersCount`</td>
+      <td><code>openOrdersCount</code></td>
       <td>The total number of open orders.</td>
     </tr>
     <tr>
-      <td>`closedOrdersCount`</td>
+      <td><code>closedOrdersCount</code></td>
       <td>The total number of closed orders.</td>
     </tr>
     <tr>
-      <td>`netSalesAmount`</td>
+      <td><code>netSalesAmount</code></td>
       <td>The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts.</td>
     </tr>
     <tr>
-      <td>`grossSalesAmount`</td>
+      <td><code>grossSalesAmount</code></td>
       <td>The total sales, including applied discounts and refunds.</td>
     </tr>
     <tr>
-      <td>`discountAmount`</td>
+      <td><code>discountAmount</code></td>
       <td>The total amount of discounts for orders.</td>
     </tr>
     <tr>
-      <td>`voidOrdersAmount`</td>
+      <td><code>voidOrdersAmount</code></td>
       <td>The total amount of voided orders.</td>
     </tr>
     <tr>
-      <td>`refundAmount`</td>
+      <td><code>refundAmount</code></td>
       <td>The total amount of refunded sales.</td>
     </tr>
     <tr>
-      <td>`avgOrderValue`</td>
+      <td><code>avgOrderValue</code></td>
       <td>The average amount for an order.</td>
     </tr>
     <tr>
-      <td>`revenueCenter`</td>
-      <td>The revenue center for the order data. This appears when the `POST` request message body includes `groupBy` with `REVENUE_CENTER`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).</td>
+      <td><code>revenueCenter</code></td>
+      <td>The revenue center for the order data. This appears when the <code>POST</code> request message body includes <code>groupBy</code> with <code>REVENUE_CENTER</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy">Using the <code>groupBy</code> value</a>.</td>
     </tr>
     <tr>
-      <td>`diningOption`</td>
-      <td>The dining option for the order data. This appears when the `POST` request message body includes `groupBy` with `DINING_OPTION`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).</td>
+      <td><code>diningOption</code></td>
+      <td>The dining option for the order data. This appears when the <code>POST</code> request message body includes <code>groupBy</code> with <code>DINING_OPTION</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy">Using the <code>groupBy</code> value</a>.</td>
     </tr>
     <tr>
-      <td>`orderSource`</td>
-      <td>The method used to place an order, also known as the order source. This appears when the `POST` request message body includes `groupBy` with `ORDER_SOURCE`. For more information, see [Using the `groupBy` value](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy).</td>
+      <td><code>orderSource</code></td>
+      <td>The method used to place an order, also known as the order source. This appears when the <code>POST</code> request message body includes <code>groupBy</code> with <code>ORDER_SOURCE</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy">Using the <code>groupBy</code> value</a>.</td>
     </tr>
     <tr>
-      <td>`businessHour`</td>
-      <td>The hour the data represents. This appears when the `aggregateBy` query parameter is set to `HOUR` in the `/era/v1/metrics/day` request. For more information, see [Using the `aggregateBy` query parameter](apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy).</td>
+      <td><code>businessHour</code></td>
+      <td>The hour the data represents. This appears when the <code>aggregateBy</code> query parameter is set to <code>HOUR</code> in the <code>/era/v1/metrics/day</code> request. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy">Using the <code>aggregateBy</code> query parameter</a>.</td>
     </tr>
     <tr>
-      <td>`hourlyJobTotalHours`</td>
+      <td><code>hourlyJobTotalHours</code></td>
       <td>The total hours worked by employees with hourly jobs. This does not include breaks.</td>
     </tr>
     <tr>
-      <td>`hourlyJobTotalPay`</td>
+      <td><code>hourlyJobTotalPay</code></td>
       <td>The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips.</td>
     </tr>
     <tr>
-      <td>`hourlyJobSalesPerLaborHour`</td>
+      <td><code>hourlyJobSalesPerLaborHour</code></td>
       <td>The average net sales per each hour worked by employees with hourly jobs. </td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
-      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET` request.</td>
+      <td><code>restaurantName</code></td>
+      <td>The restaurant’s name. This is included when you set the <code>fetchRestaurantNames</code> parameter to <code>true</code> in the <code>GET</code> request.</td>
     </tr>
   </tbody>
 </table>

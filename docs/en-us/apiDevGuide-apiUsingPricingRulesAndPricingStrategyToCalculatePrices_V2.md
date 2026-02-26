@@ -136,27 +136,27 @@ In this use case, the `pricingRules` value also contains the `sizeSpecificPricin
 
 
     <tr>
-      <td>[(1)](#co-d1e5741578678687)</td>
-      <td>The price of the Cheese Pizza menu item during the time period defined by the `schedule` value ($8).</td>
+      <td><a href="#co-d1e5741578678687">(1)</a></td>
+      <td>The price of the Cheese Pizza menu item during the time period defined by the <code>schedule</code> value ($8).</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e5761578678687)</td>
+      <td><a href="#co-d1e5761578678687">(2)</a></td>
       <td>The base price of the Cheese Pizza menu item ($10), used for time periods when a time-specific price has not been defined.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e5781578678687)</td>
+      <td><a href="#co-d1e5781578678687">(3)</a></td>
       <td>The schedule for this time specific price, which defines the days and times the price applies.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e5801578678687)</td>
+      <td><a href="#co-d1e5801578678687">(4)</a></td>
       <td>The days this time-specific price applies (Monday through Friday).</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e5821578678687)</td>
+      <td><a href="#co-d1e5821578678687">(5)</a></td>
       <td>The times this time-specific price applies (noon to 2pm), in the restaurant's local time.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e5851578678687)</td>
+      <td><a href="#co-d1e5851578678687">(6)</a></td>
       <td>The configuration for another time-specific price for Saturday and Sunday.</td>
     </tr>
   
@@ -260,43 +260,43 @@ In this use case, the `timeSpecificPricingRules`array contained in the `pricingR
 
 
     <tr>
-      <td>[(1)](#co-d1e6741578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+      <td><a href="#co-d1e6741578678687">(1)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>2</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e6761578678687)</td>
-      <td>A reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e6761578678687">(2)</a></td>
+      <td>A reference to the Size modifier group in the <code>modifierGroupReferences</code> map. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e6781578678687)</td>
+      <td><a href="#co-d1e6781578678687">(3)</a></td>
       <td>References to other, non-size related, modifier groups that modify the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e6801578678687)</td>
+      <td><a href="#co-d1e6801578678687">(4)</a></td>
       <td>The Size modifier group for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e6821578678687)</td>
+      <td><a href="#co-d1e6821578678687">(5)</a></td>
       <td>References to the modifier options in the Size modifier group where the individual sizes and prices are defined.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e6851578678687)</td>
+      <td><a href="#co-d1e6851578678687">(6)</a></td>
       <td>The Small modifier option, which defines the price of the Small size of the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e6871578678687)</td>
-      <td>The price ($8) of the Small size of the Cheese Pizza menu item. This price is inherited from the Small modifier option's underlying [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).</td>
+      <td><a href="#co-d1e6871578678687">(7)</a></td>
+      <td>The price ($8) of the Small size of the Cheese Pizza menu item. This price is inherited from the Small modifier option's underlying <a href="adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference">item reference</a>.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e6891578678687)</td>
-      <td>The `pricingStrategy` for the Small modifier option, inherited from the underlying item reference.</td>
+      <td><a href="#co-d1e6891578678687">(8)</a></td>
+      <td>The <code>pricingStrategy</code> for the Small modifier option, inherited from the underlying item reference.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e6911578678687)</td>
-      <td>The `pricingRules` for the Small modifier option, inherited from the underlying item reference.</td>
+      <td><a href="#co-d1e6911578678687">(9)</a></td>
+      <td>The <code>pricingRules</code> for the Small modifier option, inherited from the underlying item reference.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e6931578678687)</td>
+      <td><a href="#co-d1e6931578678687">(10)</a></td>
       <td>The Large modifier option, which defines the price of the Large size of the Cheese Pizza menu item.</td>
     </tr>
   
@@ -463,103 +463,103 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
 
 
     <tr>
-      <td>[(1)](#co-d1e8361578678687)</td>
-      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e8361578678687">(1)</a></td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e8381578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+      <td><a href="#co-d1e8381578678687">(2)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>2</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e8401578678687)</td>
-      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e8401578678687">(3)</a></td>
+      <td>Reference to the Size modifier group in the <code>modifierGroupReferences</code> map. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e8421578678687)</td>
+      <td><a href="#co-d1e8421578678687">(4)</a></td>
       <td>Reference to the Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e8441578678687)</td>
+      <td><a href="#co-d1e8441578678687">(5)</a></td>
       <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e8471578678687)</td>
-      <td>Prices are defined on the Small and Large modifier options themselves, so the `pricingStrategy` for the Size modifier group is `NONE` and `pricingRules` is `null`.</td>
+      <td><a href="#co-d1e8471578678687">(6)</a></td>
+      <td>Prices are defined on the Small and Large modifier options themselves, so the <code>pricingStrategy</code> for the Size modifier group is <code>NONE</code> and <code>pricingRules</code> is <code>null</code>.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e8491578678687)</td>
+      <td><a href="#co-d1e8491578678687">(7)</a></td>
       <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e8511578678687)</td>
+      <td><a href="#co-d1e8511578678687">(8)</a></td>
       <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e8531578678687)</td>
+      <td><a href="#co-d1e8531578678687">(9)</a></td>
       <td>The Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e8551578678687)</td>
-      <td>Indicates that the pricing strategy for the Toppings modifier group is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e8551578678687">(10)</a></td>
+      <td>Indicates that the pricing strategy for the Toppings modifier group is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e8571578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+      <td><a href="#co-d1e8571578678687">(11)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e8601578678687)</td>
+      <td><a href="#co-d1e8601578678687">(12)</a></td>
       <td>An object that defines the price of toppings added to a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e8621578678687)</td>
-      <td>The `GUID` of the modifier option that defines the matching Small size of the Cheese Pizza menu item.</td>
+      <td><a href="#co-d1e8621578678687">(13)</a></td>
+      <td>The <code>GUID</code> of the modifier option that defines the matching Small size of the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e8641578678687)</td>
-      <td>The sequence value is always 1 for the `SIZE_PRICE` pricing strategy because there is only one price for each size of the modifier option. (Other pricing strategies use the sequence value to assign a price to a modifier option based on the sequence in which it was ordered.)</td>
+      <td><a href="#co-d1e8641578678687">(14)</a></td>
+      <td>The sequence value is always 1 for the <code>SIZE_PRICE</code> pricing strategy because there is only one price for each size of the modifier option. (Other pricing strategies use the sequence value to assign a price to a modifier option based on the sequence in which it was ordered.)</td>
     </tr>
     <tr>
-      <td>[(15)](#co-d1e8661578678687)</td>
+      <td><a href="#co-d1e8661578678687">(15)</a></td>
       <td>The price for a Small size of a topping ($2).</td>
     </tr>
     <tr>
-      <td>[(16)](#co-d1e8681578678687)</td>
+      <td><a href="#co-d1e8681578678687">(16)</a></td>
       <td>An object that defines the price of toppings added to a Large cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(17)](#co-d1e8701578678687)</td>
-      <td>The `GUID` of the modifier option that defines the matching Large size of the Cheese Pizza menu item.</td>
+      <td><a href="#co-d1e8701578678687">(17)</a></td>
+      <td>The <code>GUID</code> of the modifier option that defines the matching Large size of the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(18)](#co-d1e8731578678687)</td>
+      <td><a href="#co-d1e8731578678687">(18)</a></td>
       <td>The price for a Large size of a topping ($4).</td>
     </tr>
     <tr>
-      <td>[(19)](#co-d1e8751578678687)</td>
+      <td><a href="#co-d1e8751578678687">(19)</a></td>
       <td>Reference to the Mushrooms modifier option.</td>
     </tr>
     <tr>
-      <td>[(20)](#co-d1e8771578678687)</td>
+      <td><a href="#co-d1e8771578678687">(20)</a></td>
       <td>Reference to the Onions modifier option.</td>
     </tr>
     <tr>
-      <td>[(21)](#co-d1e8791578678687)</td>
-      <td>`GROUP_PRICE` indicates that the Mushrooms modifier option inherits its price from its parent modifier group.</td>
+      <td><a href="#co-d1e8791578678687">(21)</a></td>
+      <td><code>GROUP_PRICE</code> indicates that the Mushrooms modifier option inherits its price from its parent modifier group.</td>
     </tr>
     <tr>
-      <td>[(22)](#co-d1e8811578678687)</td>
+      <td><a href="#co-d1e8811578678687">(22)</a></td>
       <td>The modifier option that defines the price of a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(23)](#co-d1e8831578678687)</td>
+      <td><a href="#co-d1e8831578678687">(23)</a></td>
       <td>The price of a Small cheese pizza ($8).</td>
     </tr>
     <tr>
-      <td>[(24)](#co-d1e8861578678687)</td>
+      <td><a href="#co-d1e8861578678687">(24)</a></td>
       <td>The modifier option that defines the price of a Large cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(25)](#co-d1e8881578678687)</td>
+      <td><a href="#co-d1e8881578678687">(25)</a></td>
       <td>The price of a Large cheese pizza ($10).</td>
     </tr>
   
@@ -719,71 +719,71 @@ Unlike the Size Price and Size/Sequence Price pricing strategies, the Sequence P
 
 
     <tr>
-      <td>[(1)](#co-d1e10441578678687)</td>
-      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e10441578678687">(1)</a></td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e10461578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+      <td><a href="#co-d1e10461578678687">(2)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>2</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e10481578678687)</td>
-      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e10481578678687">(3)</a></td>
+      <td>Reference to the Size modifier group in the <code>modifierGroupReferences</code> map. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e10501578678687)</td>
+      <td><a href="#co-d1e10501578678687">(4)</a></td>
       <td>Reference to the Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e10521578678687)</td>
+      <td><a href="#co-d1e10521578678687">(5)</a></td>
       <td>The Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e10551578678687)</td>
-      <td>Indicates that the pricing strategy for the Toppings modifier group is `SEQUENCE_PRICE`.</td>
+      <td><a href="#co-d1e10551578678687">(6)</a></td>
+      <td>Indicates that the pricing strategy for the Toppings modifier group is <code>SEQUENCE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e10571578678687)</td>
+      <td><a href="#co-d1e10571578678687">(7)</a></td>
       <td>The price of the first topping added to the Cheese Pizza menu item ($1).</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e10591578678687)</td>
+      <td><a href="#co-d1e10591578678687">(8)</a></td>
       <td>The price of the second topping added to the Cheese Pizza menu item ($2).</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e10611578678687)</td>
+      <td><a href="#co-d1e10611578678687">(9)</a></td>
       <td>The price of the third topping added to the Cheese Pizza menu item ($2.50). Because this is the last price in the sequence, it is also the price of any toppings added beyond the third.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e10631578678687)</td>
+      <td><a href="#co-d1e10631578678687">(10)</a></td>
       <td>Reference to the Pepperoni modifier option.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e10651578678687)</td>
+      <td><a href="#co-d1e10651578678687">(11)</a></td>
       <td>Reference to the Sausage modifier option.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e10681578678687)</td>
+      <td><a href="#co-d1e10681578678687">(12)</a></td>
       <td>The Size modifier group that defines sizes for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e10701578678687)</td>
+      <td><a href="#co-d1e10701578678687">(13)</a></td>
       <td>Reference to the Small modifier option.</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e10721578678687)</td>
+      <td><a href="#co-d1e10721578678687">(14)</a></td>
       <td>Reference to the Large modifier option.</td>
     </tr>
     <tr>
-      <td>[(15)](#co-d1e10741578678687)</td>
-      <td>`GROUP_PRICE` indicates that the Pepperoni modifier option inherits its price from its parent modifier group.</td>
+      <td><a href="#co-d1e10741578678687">(15)</a></td>
+      <td><code>GROUP_PRICE</code> indicates that the Pepperoni modifier option inherits its price from its parent modifier group.</td>
     </tr>
     <tr>
-      <td>[(16)](#co-d1e10761578678687)</td>
+      <td><a href="#co-d1e10761578678687">(16)</a></td>
       <td>A Small cheese pizza costs $8.</td>
     </tr>
     <tr>
-      <td>[(17)](#co-d1e10781578678687)</td>
+      <td><a href="#co-d1e10781578678687">(17)</a></td>
       <td>A Large cheese pizza costs $10.</td>
     </tr>
   
@@ -953,83 +953,83 @@ In the example below, the Cheese Pizza menu item's `pricingStrategy` is `SIZE_PR
 
 
     <tr>
-      <td>[(1)](#co-d1e11991578678687)</td>
-      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e11991578678687">(1)</a></td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e12011578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+      <td><a href="#co-d1e12011578678687">(2)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>2</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e12031578678687)</td>
-      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e12031578678687">(3)</a></td>
+      <td>Reference to the Size modifier group in the <code>modifierGroupReferences</code> map. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e12051578678687)</td>
+      <td><a href="#co-d1e12051578678687">(4)</a></td>
       <td>Reference to the Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e12071578678687)</td>
+      <td><a href="#co-d1e12071578678687">(5)</a></td>
       <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e12101578678687)</td>
-      <td>Prices are defined on the Small and Large modifier options themselves, so the `pricingStrategy` for the Size modifier group is `NONE` and `pricingRules` is null.</td>
+      <td><a href="#co-d1e12101578678687">(6)</a></td>
+      <td>Prices are defined on the Small and Large modifier options themselves, so the <code>pricingStrategy</code> for the Size modifier group is <code>NONE</code> and <code>pricingRules</code> is null.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e12121578678687)</td>
+      <td><a href="#co-d1e12121578678687">(7)</a></td>
       <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e12141578678687)</td>
+      <td><a href="#co-d1e12141578678687">(8)</a></td>
       <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e12161578678687)</td>
+      <td><a href="#co-d1e12161578678687">(9)</a></td>
       <td>The Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e12181578678687)</td>
-      <td>Indicates that the pricing strategy for the Toppings modifier group is `SIZE_SEQUENCE_PRICE`.</td>
+      <td><a href="#co-d1e12181578678687">(10)</a></td>
+      <td>Indicates that the pricing strategy for the Toppings modifier group is <code>SIZE_SEQUENCE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e12201578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
+      <td><a href="#co-d1e12201578678687">(11)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e12231578678687)</td>
+      <td><a href="#co-d1e12231578678687">(12)</a></td>
       <td>An object that defines the price of toppings added to a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e12251578678687)</td>
-      <td>The `GUID` of the modifier option that defines the matching Small size of the Cheese Pizza menu item.</td>
+      <td><a href="#co-d1e12251578678687">(13)</a></td>
+      <td>The <code>GUID</code> of the modifier option that defines the matching Small size of the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e12271578678687)</td>
+      <td><a href="#co-d1e12271578678687">(14)</a></td>
       <td>The price of the first topping added to a Small cheese pizza ($1).</td>
     </tr>
     <tr>
-      <td>[(15)](#co-d1e12291578678687)</td>
+      <td><a href="#co-d1e12291578678687">(15)</a></td>
       <td>The price of the second topping added to a Small cheese pizza ($2). Because this is the last price in the sequence, it is also the price of any toppings added beyond the second.</td>
     </tr>
     <tr>
-      <td>[(16)](#co-d1e12311578678687)</td>
+      <td><a href="#co-d1e12311578678687">(16)</a></td>
       <td>Reference to the Olives modifier option.</td>
     </tr>
     <tr>
-      <td>[(17)](#co-d1e12331578678687)</td>
+      <td><a href="#co-d1e12331578678687">(17)</a></td>
       <td>Reference to the Peppers modifier option.</td>
     </tr>
     <tr>
-      <td>[(18)](#co-d1e12361578678687)</td>
-      <td>`GROUP_PRICE` indicates that the Olives modifier option inherits its price from its parent modifier group.</td>
+      <td><a href="#co-d1e12361578678687">(18)</a></td>
+      <td><code>GROUP_PRICE</code> indicates that the Olives modifier option inherits its price from its parent modifier group.</td>
     </tr>
     <tr>
-      <td>[(19)](#co-d1e12381578678687)</td>
+      <td><a href="#co-d1e12381578678687">(19)</a></td>
       <td>The modifier option that defines the price of a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(20)](#co-d1e12401578678687)</td>
+      <td><a href="#co-d1e12401578678687">(20)</a></td>
       <td>The price of a Small cheese pizza ($8).</td>
     </tr>
   
@@ -1181,79 +1181,79 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 
 
     <tr>
-      <td>[(1)](#co-d1e13871578678687)</td>
-      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e13871578678687">(1)</a></td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e13891578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+      <td><a href="#co-d1e13891578678687">(2)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>2</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e13911578678687)</td>
-      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e13911578678687">(3)</a></td>
+      <td>Reference to the Size modifier group in the <code>modifierGroupReferences</code> map. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e13931578678687)</td>
+      <td><a href="#co-d1e13931578678687">(4)</a></td>
       <td>Reference to the Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e13951578678687)</td>
+      <td><a href="#co-d1e13951578678687">(5)</a></td>
       <td>The Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e13981578678687)</td>
-      <td>A price is defined on the Goat Cheese modifier option itself, so the `pricingStrategy` for the Toppings modifier group is `NONE` and `pricingRules` is null.</td>
+      <td><a href="#co-d1e13981578678687">(6)</a></td>
+      <td>A price is defined on the Goat Cheese modifier option itself, so the <code>pricingStrategy</code> for the Toppings modifier group is <code>NONE</code> and <code>pricingRules</code> is null.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e14001578678687)</td>
+      <td><a href="#co-d1e14001578678687">(7)</a></td>
       <td>Reference to the Goat Cheese modifier option.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e14021578678687)</td>
+      <td><a href="#co-d1e14021578678687">(8)</a></td>
       <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e14041578678687)</td>
-      <td>Prices are defined on the Small and Large modifier options themselves, so the `pricingStrategy` for the Size modifier group is `NONE` and `pricingRules` is null.</td>
+      <td><a href="#co-d1e14041578678687">(9)</a></td>
+      <td>Prices are defined on the Small and Large modifier options themselves, so the <code>pricingStrategy</code> for the Size modifier group is <code>NONE</code> and <code>pricingRules</code> is null.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e14061578678687)</td>
+      <td><a href="#co-d1e14061578678687">(10)</a></td>
       <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e14081578678687)</td>
+      <td><a href="#co-d1e14081578678687">(11)</a></td>
       <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e14111578678687)</td>
-      <td>Indicates that the pricing strategy for the Goat Cheese modifier option is `TIME_SPECIFIC_PRICE`.</td>
+      <td><a href="#co-d1e14111578678687">(12)</a></td>
+      <td>Indicates that the pricing strategy for the Goat Cheese modifier option is <code>TIME_SPECIFIC_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e14131578678687)</td>
+      <td><a href="#co-d1e14131578678687">(13)</a></td>
       <td>The price of the Goat Cheese modifier option during the time period defined by the schedule value ($1).</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e14151578678687)</td>
+      <td><a href="#co-d1e14151578678687">(14)</a></td>
       <td>The base price of the Goat Cheese modifier option ($2), used for time periods when a time-specific price has not been defined.</td>
     </tr>
     <tr>
-      <td>[(15)](#co-d1e14171578678687)</td>
+      <td><a href="#co-d1e14171578678687">(15)</a></td>
       <td>The schedule for this time-specific price, which defines the days and times the price applies.</td>
     </tr>
     <tr>
-      <td>[(16)](#co-d1e14191578678687)</td>
+      <td><a href="#co-d1e14191578678687">(16)</a></td>
       <td>The days this time-specific price applies (Monday through Sunday).</td>
     </tr>
     <tr>
-      <td>[(17)](#co-d1e14211578678687)</td>
+      <td><a href="#co-d1e14211578678687">(17)</a></td>
       <td>The times this time-specific price applies (noon to 2pm), in the restaurant's local time.</td>
     </tr>
     <tr>
-      <td>[(18)](#co-d1e14241578678687)</td>
+      <td><a href="#co-d1e14241578678687">(18)</a></td>
       <td>The modifier option that defines the price of a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(19)](#co-d1e14261578678687)</td>
+      <td><a href="#co-d1e14261578678687">(19)</a></td>
       <td>The price of a Small cheese pizza ($8).</td>
     </tr>
   
@@ -1415,83 +1415,83 @@ The example below shows a modifier group, Toppings, whose modifier options are i
 
 
     <tr>
-      <td>[(1)](#co-d1e15511578678687)</td>
-      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e15511578678687">(1)</a></td>
+      <td>Indicates that the pricing strategy for the Cheese Pizza menu item is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e15531578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `2`.</td>
+      <td><a href="#co-d1e15531578678687">(2)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines the sizes and prices for Cheese Pizza menu item. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>2</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e15551578678687)</td>
-      <td>Reference to the Size modifier group in the `modifierGroupReferences` map. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e15551578678687">(3)</a></td>
+      <td>Reference to the Size modifier group in the <code>modifierGroupReferences</code> map. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e15571578678687)</td>
+      <td><a href="#co-d1e15571578678687">(4)</a></td>
       <td>Reference to the Toppings modifier group.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e15591578678687)</td>
+      <td><a href="#co-d1e15591578678687">(5)</a></td>
       <td>The Size modifier group that defines sizes and prices for the Tomatoes modifier option.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e15621578678687)</td>
+      <td><a href="#co-d1e15621578678687">(6)</a></td>
       <td>Reference to the Small modifier option for the Tomatoes modifier option.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e15641578678687)</td>
+      <td><a href="#co-d1e15641578678687">(7)</a></td>
       <td>Reference to the Large modifier option for the Tomatoes modifier option.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e15661578678687)</td>
-      <td>Prices are defined on the modifier options themselves, so the `pricingStrategy` is `NONE` and `pricingRules` is null.</td>
+      <td><a href="#co-d1e15661578678687">(8)</a></td>
+      <td>Prices are defined on the modifier options themselves, so the <code>pricingStrategy</code> is <code>NONE</code> and <code>pricingRules</code> is null.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e15681578678687)</td>
+      <td><a href="#co-d1e15681578678687">(9)</a></td>
       <td>Reference to the Tomatoes modifier option.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e15701578678687)</td>
+      <td><a href="#co-d1e15701578678687">(10)</a></td>
       <td>The Size modifier group that defines sizes and prices for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e15721578678687)</td>
+      <td><a href="#co-d1e15721578678687">(11)</a></td>
       <td>Reference to the Small modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e15751578678687)</td>
+      <td><a href="#co-d1e15751578678687">(12)</a></td>
       <td>Reference to the Large modifier option for the Cheese Pizza menu item.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e15771578678687)</td>
+      <td><a href="#co-d1e15771578678687">(13)</a></td>
       <td>The Tomatoes modifier option.</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e15791578678687)</td>
-      <td>Indicates that the pricing strategy for the Tomatoes modifier option is `SIZE_PRICE`.</td>
+      <td><a href="#co-d1e15791578678687">(14)</a></td>
+      <td>Indicates that the pricing strategy for the Tomatoes modifier option is <code>SIZE_PRICE</code>.</td>
     </tr>
     <tr>
-      <td>[(15)](#co-d1e15811578678687)</td>
-      <td>The `GUID` of the Size modifier group that defines sizes and prices for the Tomatoes modifier option. Note that this is the same modifier group that is referenced in the `modifierGroupReferences` map using the ID `7`.</td>
+      <td><a href="#co-d1e15811578678687">(15)</a></td>
+      <td>The <code>GUID</code> of the Size modifier group that defines sizes and prices for the Tomatoes modifier option. Note that this is the same modifier group that is referenced in the <code>modifierGroupReferences</code> map using the ID <code>7</code>.</td>
     </tr>
     <tr>
-      <td>[(16)](#co-d1e15831578678687)</td>
-      <td>Reference to the Size modifier group that defines sizes and prices for the Tomatoes modifier option. This is the same modifier group whose `GUID` is specified in the `sizeSpecificPricingGuid` value.</td>
+      <td><a href="#co-d1e15831578678687">(16)</a></td>
+      <td>Reference to the Size modifier group that defines sizes and prices for the Tomatoes modifier option. This is the same modifier group whose <code>GUID</code> is specified in the <code>sizeSpecificPricingGuid</code> value.</td>
     </tr>
     <tr>
-      <td>[(17)](#co-d1e15851578678687)</td>
+      <td><a href="#co-d1e15851578678687">(17)</a></td>
       <td>The modifier option that defines the price of the Tomatoes modifier option when it is applied to a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(18)](#co-d1e15881578678687)</td>
+      <td><a href="#co-d1e15881578678687">(18)</a></td>
       <td>The modifier option that defines the price of the Tomatoes modifier option when it is applied to a Large cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(19)](#co-d1e15901578678687)</td>
+      <td><a href="#co-d1e15901578678687">(19)</a></td>
       <td>The modifier option that defines the price of a Small cheese pizza.</td>
     </tr>
     <tr>
-      <td>[(20)](#co-d1e15921578678687)</td>
+      <td><a href="#co-d1e15921578678687">(20)</a></td>
       <td>The modifier option that defines the price of a Large cheese pizza.</td>
     </tr>
   

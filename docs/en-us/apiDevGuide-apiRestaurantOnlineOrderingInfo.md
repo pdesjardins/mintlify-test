@@ -48,51 +48,51 @@ The following example shows the online ordering configuration values in the retu
 
 
     <tr>
-      <td>[(1)](#co-d1e709B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e709B5CC56A8-7562-434E-9596-72D2B0334CE4">(1)</a></td>
       <td>Indicates whether the restaurant accepts online orders from the Toast Online Ordering service.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e711B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
-      <td>A value of `true` means that guests can schedule orders to be fulfilled in the future, while a value of `false` means that scheduled orders cannot be placed and instead are fulfilled as soon as possible. If `true`, the restaurant can configure the maximum number of days in the future that scheduled orders can be placed.</td>
+      <td><a href="#co-d1e711B5CC56A8-7562-434E-9596-72D2B0334CE4">(2)</a></td>
+      <td>A value of <code>true</code> means that guests can schedule orders to be fulfilled in the future, while a value of <code>false</code> means that scheduled orders cannot be placed and instead are fulfilled as soon as possible. If <code>true</code>, the restaurant can configure the maximum number of days in the future that scheduled orders can be placed.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e713B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e713B5CC56A8-7562-434E-9596-72D2B0334CE4">(3)</a></td>
       <td>Whether guests can add instructions to their online orders.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e715B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
-      <td>If `specialRequests` is `true`, provides a message to guests in the special requests dialog box where guests add their instructions. For example, the message might list order limitations for guest requests.</td>
+      <td><a href="#co-d1e715B5CC56A8-7562-434E-9596-72D2B0334CE4">(4)</a></td>
+      <td>If <code>specialRequests</code> is <code>true</code>, provides a message to guests in the special requests dialog box where guests add their instructions. For example, the message might list order limitations for guest requests.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e717B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e717B5CC56A8-7562-434E-9596-72D2B0334CE4">(5)</a></td>
       <td>Information on the forms of payments that the restaurant accepts for delivery and takeout online orders.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e720B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e720B5CC56A8-7562-434E-9596-72D2B0334CE4">(6)</a></td>
       <td>Information on the forms of payments that the restaurant accepts for online delivery orders.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e722B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e722B5CC56A8-7562-434E-9596-72D2B0334CE4">(7)</a></td>
       <td>Whether cash is accepted as payment for the order.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e724B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e724B5CC56A8-7562-434E-9596-72D2B0334CE4">(8)</a></td>
       <td>Whether the restaurant accepts online credit card payment for orders that are delivered on the same day.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e726B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e726B5CC56A8-7562-434E-9596-72D2B0334CE4">(9)</a></td>
       <td>Whether the restaurant accepts online credit card payment for scheduled (future) orders.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e728B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
-      <td>Information on the forms of payments that the restaurant accepts for online takeout orders. The `cash`, `ccSameDay`, and `ccFuture` values have the same meaning as the `delivery` versions.</td>
+      <td><a href="#co-d1e728B5CC56A8-7562-434E-9596-72D2B0334CE4">(10)</a></td>
+      <td>Information on the forms of payments that the restaurant accepts for online takeout orders. The <code>cash</code>, <code>ccSameDay</code>, and <code>ccFuture</code> values have the same meaning as the <code>delivery</code> versions.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e730B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
-      <td>Whether the restaurant accepts credit card payment when the guest picks up the takeout order in the restaurant. If `false`, the guest must pay online.</td>
+      <td><a href="#co-d1e730B5CC56A8-7562-434E-9596-72D2B0334CE4">(11)</a></td>
+      <td>Whether the restaurant accepts credit card payment when the guest picks up the takeout order in the restaurant. If <code>false</code>, the guest must pay online.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e733B5CC56A8-7562-434E-9596-72D2B0334CE4)</td>
+      <td><a href="#co-d1e733B5CC56A8-7562-434E-9596-72D2B0334CE4">(12)</a></td>
       <td>Whether guest who order online are allowed to add tips to the order when paying by credit card.</td>
     </tr>
   

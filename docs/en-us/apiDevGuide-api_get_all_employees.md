@@ -47,8 +47,8 @@ https://`[toast-api-hostname]`/labor/v1/employees
 
 
     <tr>
-      <td>[(1)](#get-employees-co)</td>
-      <td>Specify the GUID of the restaurant that you want to `GET` employees for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+      <td><a href="#get-employees-co">(1)</a></td>
+      <td>Specify the GUID of the restaurant that you want to <code>GET</code> employees for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
     </tr>
   
 ## Example response
@@ -113,15 +113,15 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
 
 
     <tr>
-      <td>[(1)](#co-d1e68BDD1A7D6-D479-4A5F-A4A1-975B60C265DD)</td>
-      <td>The `GET` request returns an array of employee objects. Each object contains information about an employee.</td>
+      <td><a href="#co-d1e68BDD1A7D6-D479-4A5F-A4A1-975B60C265DD">(1)</a></td>
+      <td>The <code>GET</code> request returns an array of employee objects. Each object contains information about an employee.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e70BDD1A7D6-D479-4A5F-A4A1-975B60C265DD)</td>
-      <td>The `guid` value contains the unique Toast platform identifier for the employee.</td>
+      <td><a href="#co-d1e70BDD1A7D6-D479-4A5F-A4A1-975B60C265DD">(2)</a></td>
+      <td>The <code>guid</code> value contains the unique Toast platform identifier for the employee.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e72BDD1A7D6-D479-4A5F-A4A1-975B60C265DD)</td>
+      <td><a href="#co-d1e72BDD1A7D6-D479-4A5F-A4A1-975B60C265DD">(3)</a></td>
       <td>Each object contains information for a different employee.</td>
     </tr>
   

@@ -123,47 +123,47 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique Toast platform identifier for the restaurant.</td>
     </tr>
     <tr>
-      <td>`managementGroupGuid`</td>
+      <td><code>managementGroupGuid</code></td>
       <td>The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group. <br/> If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
+      <td><code>restaurantName</code></td>
       <td>The human-readable name of the restaurant location.</td>
     </tr>
     <tr>
-      <td>`locationName`</td>
-      <td>The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web. <br/> For example, a restaurant group might assign a location code such as `#1234` to a specific location.</td>
+      <td><code>locationName</code></td>
+      <td>The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web. <br/> For example, a restaurant group might assign a location code such as <code>#1234</code> to a specific location.</td>
     </tr>
     <tr>
-      <td>`createdByEmailAddress`</td>
+      <td><code>createdByEmailAddress</code></td>
       <td>The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details.</td>
     </tr>
     <tr>
-      <td>`externalGroupRef`</td>
-      <td>An identifier for the restaurant group that is recognized by the partner that made the request to the `/restaurants` endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
+      <td><code>externalGroupRef</code></td>
+      <td>An identifier for the restaurant group that is recognized by the partner that made the request to the <code>/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs">Using location and group identifiers</a>.</td>
     </tr>
     <tr>
-      <td>`externalRestaurantRef`</td>
-      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the `/restaurants` endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see [Using location and group identifiers](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs).</td>
+      <td><code>externalRestaurantRef</code></td>
+      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the <code>/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs">Using location and group identifiers</a>.</td>
     </tr>
     <tr>
-      <td>`isoCreatedDate`</td>
+      <td><code>isoCreatedDate</code></td>
       <td>The date and time that the partner connection was created, expressed in ISO 8601 format.</td>
     </tr>
     <tr>
-      <td>`isoModifiedDate`</td>
+      <td><code>isoModifiedDate</code></td>
       <td>The most recent date and time that the partner connection was edited, expressed in ISO 8601 format.</td>
     </tr>
     <tr>
-      <td>`createdDate`</td>
+      <td><code>createdDate</code></td>
       <td>The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
     </tr>
     <tr>
-      <td>`modifiedDate`</td>
+      <td><code>modifiedDate</code></td>
       <td>The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
     </tr>
   </tbody>
@@ -276,40 +276,40 @@ For each restaurant, the `/connectedRestaurants` JSON response data contains the
   </thead>
   <tbody>
     <tr>
-      <td>`currentPageNum`</td>
+      <td><code>currentPageNum</code></td>
       <td>The active page number from the return response.</td>
     </tr>
     <tr>
-      <td>`totalResultCount`</td>
-      <td>The total number of results in the response. This number matches `totalCount`.</td>
+      <td><code>totalResultCount</code></td>
+      <td>The total number of results in the response. This number matches <code>totalCount</code>.</td>
     </tr>
     <tr>
-      <td>`pageSize`</td>
-      <td>The active page size used when viewing the response data. This can be modified using the `pageSize` query parameter.</td>
+      <td><code>pageSize</code></td>
+      <td>The active page size used when viewing the response data. This can be modified using the <code>pageSize</code> query parameter.</td>
     </tr>
     <tr>
-      <td>`currentPageToken`</td>
+      <td><code>currentPageToken</code></td>
       <td>The token for the current page information snapshot. Refer to this if you need to return to this exact dataset.</td>
     </tr>
     <tr>
-      <td>`nextPageToken`</td>
+      <td><code>nextPageToken</code></td>
       <td>The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset.</td>
     </tr>
     <tr>
-      <td>`totalCount`</td>
-      <td>The total number of results in the response. This number matches `totalResultCount`.</td>
+      <td><code>totalCount</code></td>
+      <td>The total number of results in the response. This number matches <code>totalResultCount</code>.</td>
     </tr>
     <tr>
-      <td>`nextPageNum`</td>
-      <td>The next available page in the response. `Null` if you have come to the end of available pages.</td>
+      <td><code>nextPageNum</code></td>
+      <td>The next available page in the response. <code>Null</code> if you have come to the end of available pages.</td>
     </tr>
     <tr>
-      <td>`lastPageNumber`</td>
+      <td><code>lastPageNumber</code></td>
       <td>The last available page in the response.</td>
     </tr>
     <tr>
-      <td>`previousPageNum`</td>
-      <td>The page number for the previous page in the response. `Null` when you are on the first page of the response.</td>
+      <td><code>previousPageNum</code></td>
+      <td>The page number for the previous page in the response. <code>Null</code> when you are on the first page of the response.</td>
     </tr>
   </tbody>
 </table>

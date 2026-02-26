@@ -33,16 +33,16 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 
     <tr>
-      <td>[(1)](#co-d1e9348AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Send a `GET` request to the `/era/v1/guest/payments` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e9348AAAFB51B-562D-4033-B77B-6C18243DEDD8">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/guest/payments</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e9350AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Include the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e9350AAAFB51B-562D-4033-B77B-6C18243DEDD8">(2)</a></td>
+      <td>Include the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e9352AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e9352AAAFB51B-562D-4033-B77B-6C18243DEDD8">(3)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ## Response to the retrieval request for guest reporting data
 

@@ -61,7 +61,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>4</td>
       <td>Non-Existent Card</td>
       <td>Sell Card</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Sell Card. <br/> Enter any value, and click `Next`. <br/> Swipe or enter a number not associated with a gift card at the restaurant.</td>
+      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Sell Card. <br/> Enter any value, and click <code>Next</code>. <br/> Swipe or enter a number not associated with a gift card at the restaurant.</td>
       <td>Gift card cannot be found error message appears.</td>
     </tr>
     <tr>

@@ -52,7 +52,7 @@ The following table includes information about the POS Access permissions relate
     </tr>
     <tr>
       <td>Kitchen Display System Mode</td>
-      <td><strong>Gives access to </strong> the Kitchen Display System mode, with the Text Size option and, if enabled through Device Setup, the Show/Hide All Day View or Show/Hide Recently Fulfilled options. <br/> <strong>Assign to </strong> cooks and expediters who use a KDS device to receive and fulfill orders. <br/> For more information, see [Using a KDS expediter screen](adminGuide-adminUsingExpo).</td>
+      <td><strong>Gives access to </strong> the Kitchen Display System mode, with the Text Size option and, if enabled through Device Setup, the Show/Hide All Day View or Show/Hide Recently Fulfilled options. <br/> <strong>Assign to </strong> cooks and expediters who use a KDS device to receive and fulfill orders. <br/> For more information, see <a href="adminGuide-adminUsingExpo">Using a KDS expediter screen</a>.</td>
     </tr>
     <tr>
       <td>Payment Terminal Mode</td>
@@ -60,7 +60,7 @@ The following table includes information about the POS Access permissions relate
     </tr>
     <tr>
       <td>Pending Orders Mode / Orders Hub Mode</td>
-      <td><strong>Gives access to</strong> <ul><li>The Pending Orders screen.</li><li>The Orders Hub screen.</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled</li><li>Setup > Device Setup > Add New Card Reader</li></ul>When assigned with the [Manager](adminGuide-adminPermissions#permissionManager) access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> <strong>Assign to </strong> managers and employees who take, review, approve, and reschedule orders for future fulfillment.</td>
+      <td><strong>Gives access to</strong> <ul><li>The Pending Orders screen.</li><li>The Orders Hub screen.</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled</li><li>Setup > Device Setup > Add New Card Reader</li></ul>When assigned with the <a href="adminGuide-adminPermissions#permissionManager">Manager</a> access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> <strong>Assign to </strong> managers and employees who take, review, approve, and reschedule orders for future fulfillment.</td>
     </tr>
   </tbody>
 </table>
@@ -158,11 +158,11 @@ The following table includes information about the POS Access permissions relate
   <tbody>
     <tr>
       <td>Apply Cash Payments</td>
-      <td><strong>Gives access to </strong> apply a cash payment against a check with an open balance due. In addition to this permission, the employee's Toast POS device must have the Allow Cash Payments device setting enabled. Often assigned with Table Service Mode, Quick Order Mode, Payment Terminal Mode, or Cash Drawer Access. <br/> Employees who have this permission may apply cash payments provided the device they are using is configured to allow cash payments. If the employee does not have this permission or if the device is configured to not allow cash payments, then the cash payment buttons (including the Fast Cash button) are disabled on the device. <br/> <strong>Assign to </strong> employees who need to apply cash payments against a check's balance due. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> apply a cash payment against a check with an open balance due. In addition to this permission, the employee's Toast POS device must have the Allow Cash Payments device setting enabled. Often assigned with Table Service Mode, Quick Order Mode, Payment Terminal Mode, or Cash Drawer Access. <br/> Employees who have this permission may apply cash payments provided the device they are using is configured to allow cash payments. If the employee does not have this permission or if the device is configured to not allow cash payments, then the cash payment buttons (including the Fast Cash button) are disabled on the device. <br/> <strong>Assign to </strong> employees who need to apply cash payments against a check's balance due. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Cash Drawer Access</td>
-      <td><strong>Gives access to </strong> cash drawers to complete cash payments. Often assigned with Table Service Mode, Quick Order Mode, or Payment Terminal Mode. <br/> <strong>Assign to </strong> employees who report cash in drawer during shift review. Employees who do not have this permission report cash in hand during shift review. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> cash drawers to complete cash payments. Often assigned with Table Service Mode, Quick Order Mode, or Payment Terminal Mode. <br/> <strong>Assign to </strong> employees who report cash in drawer during shift review. Employees who do not have this permission report cash in hand during shift review. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>View Other Employees' Orders</td>
@@ -182,11 +182,11 @@ The following table includes information about the POS Access permissions relate
     </tr>
     <tr>
       <td>Shift Review Sales Data</td>
-      <td><strong>Gives access to </strong> detailed sales and payment data for shift review. Often assigned with the [manager-level](adminGuide-adminPermissions#adminManagerAccessPermissions)Shift Review permission, which provides access to Toast location-wide shift review. <br/> <strong>Assign to </strong> managers and employees who need to review detailed sales data in their own shift reviews or in the Toast location-wide shift review.</td>
+      <td><strong>Gives access to </strong> detailed sales and payment data for shift review. Often assigned with the <a href="adminGuide-adminPermissions#adminManagerAccessPermissions">manager-level</a>Shift Review permission, which provides access to Toast location-wide shift review. <br/> <strong>Assign to </strong> managers and employees who need to review detailed sales data in their own shift reviews or in the Toast location-wide shift review.</td>
     </tr>
     <tr>
       <td>No Sale</td>
-      <td><strong>Gives access to </strong> cash drawers at any time. Allows employees to [undo cash entries](adminGuide-adminUndoingOperations) in a cash drawer. Must be assigned along with Quick Order Mode. <br/> On the Quick Order screen, employees with this permission can complete a No Sale action without asking for a manager's help. <br/> <strong>Assign to </strong> employees who need to be able to open the cash drawer when they do not have a payment to complete. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> cash drawers at any time. Allows employees to <a href="adminGuide-adminUndoingOperations">undo cash entries</a> in a cash drawer. Must be assigned along with Quick Order Mode. <br/> On the Quick Order screen, employees with this permission can complete a No Sale action without asking for a manager's help. <br/> <strong>Assign to </strong> employees who need to be able to open the cash drawer when they do not have a payment to complete. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Key in Credit Cards</td>
@@ -194,7 +194,7 @@ The following table includes information about the POS Access permissions relate
     </tr>
     <tr>
       <td>Offline / Background Credit Card Processing</td>
-      <td><strong>Gives access to </strong> credit card payment functionality when the Toast platform is offline. Employees with this permission can take credit card payments over the Transaction Limit when Offline threshold limit. <br/> Often assigned with Table Service Mode, Quick Order Mode, or Payment Terminal Mode. <br/> <strong>Assign to </strong> managers and employees who need to accept credit card payments when the Toast platform is in offline mode and authorization is not guaranteed until the internet connection is restored. <br/> For more information, see [Card authorizations and payment disruptions](adminGuide-adminOfflineCCPayments#adminOfflineCCProcessing).</td>
+      <td><strong>Gives access to </strong> credit card payment functionality when the Toast platform is offline. Employees with this permission can take credit card payments over the Transaction Limit when Offline threshold limit. <br/> Often assigned with Table Service Mode, Quick Order Mode, or Payment Terminal Mode. <br/> <strong>Assign to </strong> managers and employees who need to accept credit card payments when the Toast platform is in offline mode and authorization is not guaranteed until the internet connection is restored. <br/> For more information, see <a href="adminGuide-adminOfflineCCPayments#adminOfflineCCProcessing">Card authorizations and payment disruptions</a>.</td>
     </tr>
     <tr>
       <td>Change Table</td>
@@ -202,15 +202,15 @@ The following table includes information about the POS Access permissions relate
     </tr>
     <tr>
       <td>Change Server</td>
-      <td><strong>Gives access to </strong> the change server feature. Must be assigned along with either Table Service Mode or Quick Order Mode. <br/> On the order screen, employees with this permission who select the Overflow menu (the ⋮ icon) and then Change Server can proceed without asking for a manager's help. When assigned along with [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders), employees can select and transfer other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to update dine-in orders to reflect a service staffing change after the order was placed. <br/> For more information, see [Procedure 2.3, “To change the server for a single order or check”](adminGuide-adminTransferringOrders#adminChangeServer).</td>
+      <td><strong>Gives access to </strong> the change server feature. Must be assigned along with either Table Service Mode or Quick Order Mode. <br/> On the order screen, employees with this permission who select the Overflow menu (the ⋮ icon) and then Change Server can proceed without asking for a manager's help. When assigned along with <a href="adminGuide-adminPermissions#permissionEditOtherEmployeesOrders">Edit Other Employees' Orders</a>, employees can select and transfer other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to update dine-in orders to reflect a service staffing change after the order was placed. <br/> For more information, see <a href="adminGuide-adminTransferringOrders#adminChangeServer">Procedure 2.3, “To change the server for a single order or check”</a>.</td>
     </tr>
     <tr>
       <td>Log Into Toast Tables App (Waitlist & Reservations)</td>
-      <td><strong>Gives access to </strong> the Toast Tables app for waitlists and reservations. <br/> <strong>Assign to </strong> managers and employees that need access to manage your Toast location's waitlist. For more information, see this [Toast Central article.](https://central.toasttab.com/s/article/Getting-Started-Toast-Waitlist)</td>
+      <td><strong>Gives access to </strong> the Toast Tables app for waitlists and reservations. <br/> <strong>Assign to </strong> managers and employees that need access to manage your Toast location's waitlist. For more information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-Toast-Waitlist">Toast Central article.</a></td>
     </tr>
     <tr>
       <td>Record Excess Food Menu Items</td>
-      <td><strong>Gives access to </strong> the Waste Tracking screen on the Toast POS device. <br/> <strong>Assign to </strong> managers and employees that need access to record excess food items and waste throughout the day. For more information, see [this Toast Central article](https://central.toasttab.com/s/article/Get-Started-with-Food-Waste-Reduction).</td>
+      <td><strong>Gives access to </strong> the Waste Tracking screen on the Toast POS device. <br/> <strong>Assign to </strong> managers and employees that need access to record excess food items and waste throughout the day. For more information, see <a href="https://central.toasttab.com/s/article/Get-Started-with-Food-Waste-Reduction">this Toast Central article</a>.</td>
     </tr>
     <tr>
       <td>Split Checks</td>
@@ -236,7 +236,7 @@ The following table includes information about the Delivery Access permissions o
   <tbody>
     <tr>
       <td>Delivery Mode</td>
-      <td><strong>Gives access to </strong> all options for delivery orders. Often assigned with the [additional POS](adminGuide-adminPermissions#adminAddlPosAccessPermissions)Cash Drawer Access permission. <br/> On the Toast POS home screen, provides access to My Account > Shift Review and other options as described for the [POS access permissions](adminGuide-adminPermissions#adminModePermissions). <br/> <strong>Assign to </strong> employees who are responsible for completing delivery orders, including taking orders, dispatching drivers, and managing unassigned, en route, and delivered orders.</td>
+      <td><strong>Gives access to </strong> all options for delivery orders. Often assigned with the <a href="adminGuide-adminPermissions#adminAddlPosAccessPermissions">additional POS</a>Cash Drawer Access permission. <br/> On the Toast POS home screen, provides access to My Account > Shift Review and other options as described for the <a href="adminGuide-adminPermissions#adminModePermissions">POS access permissions</a>. <br/> <strong>Assign to </strong> employees who are responsible for completing delivery orders, including taking orders, dispatching drivers, and managing unassigned, en route, and delivered orders.</td>
     </tr>
     <tr>
       <td>Update All Delivery Orders</td>
@@ -278,7 +278,7 @@ The following table includes information about the Manager access permissions on
   <tbody>
     <tr>
       <td>Manager</td>
-      <td><strong>Gives access to </strong> the ability to look up customers using personal information. <br/> On the Toast POS home screen, gives access to Manager Activities > Lookup Customer. In Toast locations that set Enable Next Day mode on POS to On, gives access to Setup > Toggle Next Day Mode. <br/> When assigned with the [Pending Orders Mode / Orders Hub Mode](adminGuide-adminPermissions#permissionPendingOrdersOrdersHubMode) access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> On the kitchen display system (KDS) device, gives the ability to override the requirement set by the [Sequenced KDS fulfillment](adminGuide-adminKitchenDiningRoomReference#configSequencedKDSFulfillment) setting requiring prep station fulfillment before expediter fulfillment. <blockquote><strong>Note</strong> The Sequenced KDS fulfillment setting is in limited release.</blockquote>  <br/> <strong>Assign to </strong> managers and others who need to complete these tasks. <br/> As a best practice, assign this permission to a job or employee only when you are assigning one or more of the other manager access permissions. If you disable all of the other manager access permissions, be sure to disable this permission also.</td>
+      <td><strong>Gives access to </strong> the ability to look up customers using personal information. <br/> On the Toast POS home screen, gives access to Manager Activities > Lookup Customer. In Toast locations that set Enable Next Day mode on POS to On, gives access to Setup > Toggle Next Day Mode. <br/> When assigned with the <a href="adminGuide-adminPermissions#permissionPendingOrdersOrdersHubMode">Pending Orders Mode / Orders Hub Mode</a> access permission, gives access to the Device Setup > Enable quote time option which displays estimated takeout and delivery times in the action bar of the Table Service and Quick Order screens. <br/> On the kitchen display system (KDS) device, gives the ability to override the requirement set by the <a href="adminGuide-adminKitchenDiningRoomReference#configSequencedKDSFulfillment">Sequenced KDS fulfillment</a> setting requiring prep station fulfillment before expediter fulfillment. <blockquote><strong>Note</strong> The Sequenced KDS fulfillment setting is in limited release.</blockquote>  <br/> <strong>Assign to </strong> managers and others who need to complete these tasks. <br/> As a best practice, assign this permission to a job or employee only when you are assigning one or more of the other manager access permissions. If you disable all of the other manager access permissions, be sure to disable this permission also.</td>
     </tr>
     <tr>
       <td>Discounts</td>
@@ -294,19 +294,19 @@ The following table includes information about the Manager access permissions on
     </tr>
     <tr>
       <td>Bulk Transfer Checks</td>
-      <td><strong>Gives access to </strong> one or more open or paid checks so that the employee can be changed. Typically assigned with Quick Order Mode or Table Service Mode. <br/> Employees with this permission can select one or more of their own checks on the previous checks or Payment Terminal screen and then select Transfer Checks without asking for help. When assigned along with [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders), employees can select and transfer other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to update checks, either singly or in bulk, to reflect a service staffing change. <br/> For more information, see [Procedure 2.2, “To select and transfer multiple checks”](adminGuide-adminTransferringOrders#adminBulkTransferChecks).</td>
+      <td><strong>Gives access to </strong> one or more open or paid checks so that the employee can be changed. Typically assigned with Quick Order Mode or Table Service Mode. <br/> Employees with this permission can select one or more of their own checks on the previous checks or Payment Terminal screen and then select Transfer Checks without asking for help. When assigned along with <a href="adminGuide-adminPermissions#permissionEditOtherEmployeesOrders">Edit Other Employees' Orders</a>, employees can select and transfer other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to update checks, either singly or in bulk, to reflect a service staffing change. <br/> For more information, see <a href="adminGuide-adminTransferringOrders#adminBulkTransferChecks">Procedure 2.2, “To select and transfer multiple checks”</a>.</td>
     </tr>
     <tr>
       <td>Bulk Void Open Checks</td>
-      <td><strong>Gives access to </strong> one or more open checks so that they can be cancelled. Often assigned with Payment Terminal Mode. <br/> Employees with this permission can select one or more of their own checks on the previous checks screen and then select Void without asking for help. When assigned along with [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders), employees can select and transfer other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to cancel open checks, either singly or in bulk. <br/> For more information, see [Procedure 6.90, “To void one or more open checks”](adminGuide-adminVoidingOrders#adminBulkVoidOpenChecks).</td>
+      <td><strong>Gives access to </strong> one or more open checks so that they can be cancelled. Often assigned with Payment Terminal Mode. <br/> Employees with this permission can select one or more of their own checks on the previous checks screen and then select Void without asking for help. When assigned along with <a href="adminGuide-adminPermissions#permissionEditOtherEmployeesOrders">Edit Other Employees' Orders</a>, employees can select and transfer other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to cancel open checks, either singly or in bulk. <br/> For more information, see <a href="adminGuide-adminVoidingOrders#adminBulkVoidOpenChecks">Procedure 6.90, “To void one or more open checks”</a>.</td>
     </tr>
     <tr>
       <td>Bulk Close Paid Checks</td>
-      <td><strong>Gives access to </strong> one or more paid checks so that they can be closed. Often assigned with Payment Terminal Mode. <br/> Employees with this permission can select one or more of their own paid checks on the previous checks screen or Payment Terminal screen and then select Close. When assigned along with [Edit Other Employees' Orders](adminGuide-adminPermissions#permissionEditOtherEmployeesOrders), employees can select and close other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to close paid checks either singly or in bulk. <br/> For more information, see [Procedure 6.87, “To close one or more paid checks”](adminGuide-adminClosingPaidChecks#adminBulkClosePaidChecks).</td>
+      <td><strong>Gives access to </strong> one or more paid checks so that they can be closed. Often assigned with Payment Terminal Mode. <br/> Employees with this permission can select one or more of their own paid checks on the previous checks screen or Payment Terminal screen and then select Close. When assigned along with <a href="adminGuide-adminPermissions#permissionEditOtherEmployeesOrders">Edit Other Employees' Orders</a>, employees can select and close other employees' checks in addition to their own. <br/> <strong>Assign to </strong> managers and employees who need to close paid checks either singly or in bulk. <br/> For more information, see <a href="adminGuide-adminClosingPaidChecks#adminBulkClosePaidChecks">Procedure 6.87, “To close one or more paid checks”</a>.</td>
     </tr>
     <tr>
       <td>Void Items / Orders</td>
-      <td><strong>Gives access to </strong> orders that have been sent to the kitchen so that items or entire orders can be cancelled. Must be assigned along with either Table Service Mode or Quick Order Mode. <br/> On the order screen, employees with this permission can select a sent item and then select Void without asking for a manager's help.  <br/> On the order or payment screens, employees with this permission who select the Overflow menu (the ⋮ icon) and then Void Order can proceed without asking for a manager's help. <br/> <em>VOIDED</em>  appears on corresponding KDS tickets with lines through the voided items, or prints on a new ticket as configured by [Print Ticket Changes](adminGuide-adminKitchenDiningRoomReference#configPrintTicketChanges).  <br/> <strong>Assign to </strong> managers and employees who need to cancel items and orders after they are sent to the kitchen. <br/> For more information, see [Voiding checks](adminGuide-adminVoidingOrders).</td>
+      <td><strong>Gives access to </strong> orders that have been sent to the kitchen so that items or entire orders can be cancelled. Must be assigned along with either Table Service Mode or Quick Order Mode. <br/> On the order screen, employees with this permission can select a sent item and then select Void without asking for a manager's help.  <br/> On the order or payment screens, employees with this permission who select the Overflow menu (the ⋮ icon) and then Void Order can proceed without asking for a manager's help. <br/> <em>VOIDED</em>  appears on corresponding KDS tickets with lines through the voided items, or prints on a new ticket as configured by <a href="adminGuide-adminKitchenDiningRoomReference#configPrintTicketChanges">Print Ticket Changes</a>.  <br/> <strong>Assign to </strong> managers and employees who need to cancel items and orders after they are sent to the kitchen. <br/> For more information, see <a href="adminGuide-adminVoidingOrders">Voiding checks</a>.</td>
     </tr>
     <tr>
       <td>Void / Refund Payments</td>
@@ -350,27 +350,27 @@ The following table includes information about the Manager access permissions on
     </tr>
     <tr>
       <td>Cash Drawers (Blind)</td>
-      <td><strong>Gives access to </strong> Manager Activities > Cash Drawers on the Toast POS home screen without reporting the expected cash amount. Must be assigned with Cash Drawer Access. <br/> <strong>Assign to </strong> employees who need to close out and replace cash drawers at the end of a shift. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> Manager Activities > Cash Drawers on the Toast POS home screen without reporting the expected cash amount. Must be assigned with Cash Drawer Access. <br/> <strong>Assign to </strong> employees who need to close out and replace cash drawers at the end of a shift. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Cash Drawers (Full)</td>
-      <td><strong>Gives access to </strong> Manager Activities > Cash Drawers on the Toast POS home screen including the starting balance and expected cash amounts. Must be assigned with Cash Drawer Access. <br/> For managers who need to add deposits for past dates in Toast Web, Edit Historical Data is also required. When assigned with Sales Reports, also gives access to the Reports > Cash and loss management reports in Toast Web.  <br/> <strong>Assign to </strong> managers and employees who need to close out and replace cash drawers at the end of a shift. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> Manager Activities > Cash Drawers on the Toast POS home screen including the starting balance and expected cash amounts. Must be assigned with Cash Drawer Access. <br/> For managers who need to add deposits for past dates in Toast Web, Edit Historical Data is also required. When assigned with Sales Reports, also gives access to the Reports > Cash and loss management reports in Toast Web.  <br/> <strong>Assign to </strong> managers and employees who need to close out and replace cash drawers at the end of a shift. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Cash Drawer Lockdown (Override)</td>
-      <td><strong>Gives access to </strong> cash drawers that are locked to other employees to take payments and make cash entries. <br/> This permission also allows the employee to close any cash drawer and (if they also have the Pay Out permission) to authorize pay out transactions from any cash drawer. <br/> <strong>Assign to </strong> managers and employees who need to access a cash drawer that is locked to another employee. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> cash drawers that are locked to other employees to take payments and make cash entries. <br/> This permission also allows the employee to close any cash drawer and (if they also have the Pay Out permission) to authorize pay out transactions from any cash drawer. <br/> <strong>Assign to </strong> managers and employees who need to access a cash drawer that is locked to another employee. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Large Cash Over / Under</td>
-      <td><strong>Gives access to </strong> close a cash drawer with a cash variance (either overage or shortage) that is larger than a configured amount. The threshold for this amount is set in the Closeout Over/Short Max field on the Payments > Payment methods > Cash overview > Cash drawer variance page. <br/> <strong>Assign to </strong> employees who need to close drawers without manager override for cash variances that exceed a configured threshold. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> close a cash drawer with a cash variance (either overage or shortage) that is larger than a configured amount. The threshold for this amount is set in the Closeout Over/Short Max field on the Payments > Payment methods > Cash overview > Cash drawer variance page. <br/> <strong>Assign to </strong> employees who need to close drawers without manager override for cash variances that exceed a configured threshold. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Adjust Cash Drawer Start Balance</td>
-      <td><strong>Gives access to </strong> increase or decrease the beginning amount of cash of a cash drawer. <br/> <strong>Assign to </strong> managers and employees who need to adjust discrepancies in cash drawer balances. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> increase or decrease the beginning amount of cash of a cash drawer. <br/> <strong>Assign to </strong> managers and employees who need to adjust discrepancies in cash drawer balances. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Pay Out</td>
-      <td><strong>Gives access to </strong> take a cash payout from the Toast location (house) or any cash drawer that is not locked to a different employee. <br/> <strong>Assign to </strong> managers and employees who need to remove cash to pay for goods or services. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> take a cash payout from the Toast location (house) or any cash drawer that is not locked to a different employee. <br/> <strong>Assign to </strong> managers and employees who need to remove cash to pay for goods or services. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Find Checks</td>
@@ -402,7 +402,7 @@ The following table includes information about the Manager access permissions on
     </tr>
     <tr>
       <td>Team Chat Advanced Controls</td>
-      <td><strong>Gives access to </strong> administrator tasks for the Chat tab in the MyToast app. The MyToast app is a hub for employees of Toast locations where they can do things like find pay stubs and manage their Toast Pay Cards. The Chat tab of the MyToast app lets staff communicate with each other using their existing Toast logins. For more information about the Chat tab, see this [Toast Central article](https://central.toasttab.com/s/article/The-MyToast-App-Chat). <br/> <strong>Assign to </strong> managers and employees that need to enable or disable Team Chat for their location. Users with this permission can also restrict who can create new chats and modify chats created by other employees. Modifying chats includes adding or removing members from a chat, changing the name of a chat, or deleting a chat.</td>
+      <td><strong>Gives access to </strong> administrator tasks for the Chat tab in the MyToast app. The MyToast app is a hub for employees of Toast locations where they can do things like find pay stubs and manage their Toast Pay Cards. The Chat tab of the MyToast app lets staff communicate with each other using their existing Toast logins. For more information about the Chat tab, see this <a href="https://central.toasttab.com/s/article/The-MyToast-App-Chat">Toast Central article</a>. <br/> <strong>Assign to </strong> managers and employees that need to enable or disable Team Chat for their location. Users with this permission can also restrict who can create new chats and modify chats created by other employees. Modifying chats includes adding or removing members from a chat, changing the name of a chat, or deleting a chat.</td>
     </tr>
     <tr>
       <td>Void / Refund Payments (Limited to Same Day Only)</td>
@@ -432,7 +432,7 @@ The following table includes information about the Restaurant Admin access permi
   <tbody>
     <tr>
       <td>Sales Reports</td>
-      <td><strong>Gives access to </strong> the reports accessed by selecting Reports and then Sales, Locations, Cash, Finance, Accounting, and Kitchen in Toast Web, as well as the Reports > Guest engagement > Guest feedback report. <br/> When assigned with Cash Drawer (Full), also gives access to the Reports > Cash and loss management reports. When assigned with House Accounts, also gives access to the Reports > Accounts > House Accounts report. <br/> On the Toast POS home screen, gives access to Reports > Sales Reports. When assigned with Close Out Day, employees who access the Z report can use the Full Sales Report option. <br/> For more information, see [Cash management overview](adminGuide-adminCashManagementOverview).</td>
+      <td><strong>Gives access to </strong> the reports accessed by selecting Reports and then Sales, Locations, Cash, Finance, Accounting, and Kitchen in Toast Web, as well as the Reports > Guest engagement > Guest feedback report. <br/> When assigned with Cash Drawer (Full), also gives access to the Reports > Cash and loss management reports. When assigned with House Accounts, also gives access to the Reports > Accounts > House Accounts report. <br/> On the Toast POS home screen, gives access to Reports > Sales Reports. When assigned with Close Out Day, employees who access the Z report can use the Full Sales Report option. <br/> For more information, see <a href="adminGuide-adminCashManagementOverview">Cash management overview</a>.</td>
     </tr>
     <tr>
       <td>Menu Reports (+ Inventory / Menusphere Reporting)</td>
@@ -460,7 +460,7 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
     <tr>
       <td>Marketing Info</td>
-      <td><strong>Gives access to </strong> Takeout & delivery > Toast online ordering > Restaurant info, Payments > Checks & receipt setup > Guest receipt setup, and Reports > Settings > Hours/services in Toast Web. This permission also gives access to Marketing > Email Marketing if your Toast location uses Toast marketing. <br/> On the Toast POS home screen, gives access to Setup > Other Setup. <br/> <strong>Assign to </strong> owners and employees who need to define or update public-facing Toast location information, including the name and location and URLs for the Toast location's `https://toasttab.com` website and Facebook™ and X™ accounts.</td>
+      <td><strong>Gives access to </strong> Takeout & delivery > Toast online ordering > Restaurant info, Payments > Checks & receipt setup > Guest receipt setup, and Reports > Settings > Hours/services in Toast Web. This permission also gives access to Marketing > Email Marketing if your Toast location uses Toast marketing. <br/> On the Toast POS home screen, gives access to Setup > Other Setup. <br/> <strong>Assign to </strong> owners and employees who need to define or update public-facing Toast location information, including the name and location and URLs for the Toast location's <code>https://toasttab.com</code> website and Facebook™ and X™ accounts.</td>
     </tr>
     <tr>
       <td>Employee Info</td>
@@ -480,11 +480,11 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
     <tr>
       <td>Customer Credits & Reports</td>
-      <td><strong>Gives access to </strong> guest-related data including names, contact information, number of visits, and gross amount. <br/> Employees who use Manager Activities > Lookup Customer on a Toast POS device can add a credit to a customer account without asking for a manager's help. <br/> In Toast Web, gives access to the following reports when you select Reports > Guest engagement: Guest credits and Guest information.  <br/> <strong>Assign to </strong> owners and employees who need to review and manage guest loyalty programs. <br/> For more information, see [Configuring permissions for working with credits](adminGuide-adminConfigurePermissionsCustomerCredits).</td>
+      <td><strong>Gives access to </strong> guest-related data including names, contact information, number of visits, and gross amount. <br/> Employees who use Manager Activities > Lookup Customer on a Toast POS device can add a credit to a customer account without asking for a manager's help. <br/> In Toast Web, gives access to the following reports when you select Reports > Guest engagement: Guest credits and Guest information.  <br/> <strong>Assign to </strong> owners and employees who need to review and manage guest loyalty programs. <br/> For more information, see <a href="adminGuide-adminConfigurePermissionsCustomerCredits">Configuring permissions for working with credits</a>.</td>
     </tr>
     <tr>
       <td>Local Menu Edit</td>
-      <td><strong>Gives access to </strong> a limited set of options for updating menu items and modifiers. <br/> <strong>Assign to </strong> employees of a Toast location in a management group who need to make changes to their own entity's menu only. <br/> For more information, see [Understanding menu editing permissions for enterprises](adminGuide-adminUnderstandingMenuEditingPermissionsForEnterprises).</td>
+      <td><strong>Gives access to </strong> a limited set of options for updating menu items and modifiers. <br/> <strong>Assign to </strong> employees of a Toast location in a management group who need to make changes to their own entity's menu only. <br/> For more information, see <a href="adminGuide-adminUnderstandingMenuEditingPermissionsForEnterprises">Understanding menu editing permissions for enterprises</a>.</td>
     </tr>
     <tr>
       <td>New POS Experience Toggle Access</td>
@@ -504,15 +504,15 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
     <tr>
       <td>Settings Copy Tool </td>
-      <td><strong>Gives access to </strong> Toast account > Business and location management > Settings copy tool in Toast Web. <br/> <strong>Assign to </strong> owners and employees who need to copy settings from one location to another. Employees with this permission need it for both the location they are copying and the location they are copying to. For more information, see [Settings copy overview](adminGuide-platformSettingsCopyOverview).</td>
+      <td><strong>Gives access to </strong> Toast account > Business and location management > Settings copy tool in Toast Web. <br/> <strong>Assign to </strong> owners and employees who need to copy settings from one location to another. Employees with this permission need it for both the location they are copying and the location they are copying to. For more information, see <a href="adminGuide-platformSettingsCopyOverview">Settings copy overview</a>.</td>
     </tr>
     <tr>
       <td>Benchmarking Access</td>
-      <td><strong>Gives access to </strong> the reports accessed by selecting Reports > Benchmarking in Toast Web. <blockquote><strong>Note</strong> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Toast Restaurant Management Suite is required to access the full version. For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Toast-Benchmarking-Overview).</blockquote> </td>
+      <td><strong>Gives access to </strong> the reports accessed by selecting Reports > Benchmarking in Toast Web. <blockquote><strong>Note</strong> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Toast Restaurant Management Suite is required to access the full version. For more information, see this <a href="https://central.toasttab.com/s/article/Toast-Benchmarking-Overview">Toast Central article</a>.</blockquote> </td>
     </tr>
     <tr>
       <td>Benchmarking Restaurant Group Report Access</td>
-      <td><strong>Gives access to </strong> the reports accessed by selecting Reports > Benchmarking > Group overview in Toast Web. The benchmarking group overview page gives insights across all locations in a restaurant group. The group overview page compares key metrics like sales, labor efficiency, and order volume, and how locations compare to the group average and similar restaurants in the industry. <blockquote><strong>Note</strong> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Restaurant Management Suite Pro is required to access the full version. For more information, see this [Toast Central article](https://central.toasttab.com/s/article/Toast-Benchmarking-Overview).</blockquote> </td>
+      <td><strong>Gives access to </strong> the reports accessed by selecting Reports > Benchmarking > Group overview in Toast Web. The benchmarking group overview page gives insights across all locations in a restaurant group. The group overview page compares key metrics like sales, labor efficiency, and order volume, and how locations compare to the group average and similar restaurants in the industry. <blockquote><strong>Note</strong> All Toast locations have access to the basic version of Toast Benchmarking. A subscription to the Restaurant Management Suite Pro is required to access the full version. For more information, see this <a href="https://central.toasttab.com/s/article/Toast-Benchmarking-Overview">Toast Central article</a>.</blockquote> </td>
     </tr>
     <tr>
       <td>Menu Audit & Cleanup </td>
@@ -528,7 +528,7 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
     <tr>
       <td>Enable Job-Based Access</td>
-      <td><strong>Gives access to </strong> enable the job-based access setting that allows you to configure an employee's permissions based on their clocked-in job.  <blockquote><strong>Note</strong> All Toast locations in your management group must have this permission enabled to access and change the setting. If this permission is not enabled at every location, you can only view the setting in Toast Web. For more information, see [Managing job-based access](adminGuide-platformManageJobBasedAccess).</blockquote> </td>
+      <td><strong>Gives access to </strong> enable the job-based access setting that allows you to configure an employee's permissions based on their clocked-in job.  <blockquote><strong>Note</strong> All Toast locations in your management group must have this permission enabled to access and change the setting. If this permission is not enabled at every location, you can only view the setting in Toast Web. For more information, see <a href="adminGuide-platformManageJobBasedAccess">Managing job-based access</a>.</blockquote> </td>
     </tr>
   </tbody>
 </table>
@@ -579,7 +579,7 @@ The following table includes information about the Quick Edit Access permissions
     </tr>
     <tr>
       <td>SKU</td>
-      <td><strong>Gives access to </strong> quick edit mode on the Toast POS app where the employee can change the [SKU](adminGuide-adminGlossary#glossSku) for a menu entity. <br/> <strong>Assign to </strong> managers and employees who need to make menu adjustments directly on a Toast POS device.</td>
+      <td><strong>Gives access to </strong> quick edit mode on the Toast POS app where the employee can change the <a href="adminGuide-adminGlossary#glossSku">SKU</a> for a menu entity. <br/> <strong>Assign to </strong> managers and employees who need to make menu adjustments directly on a Toast POS device.</td>
     </tr>
     <tr>
       <td>Price</td>
@@ -633,7 +633,7 @@ The following table includes information about the Web Setup access permissions 
     </tr>
     <tr>
       <td>Publishing</td>
-      <td><strong>Gives access to</strong> <ul><li>Toast account > Publishing > Publish Config</li><li>Toast account > Publishing > Publish Config V2</li><li>Toast account > Publishing > Publishing Center (read-only access) <br/> Employees that have the Publishing permission to the [session restaurant](adminGuide-sessionRestaurant) have read-only access to the Publishing center page. This means they can view change sets and add changes to <em>existing change sets</em>  but they cannot create change sets, delete change sets, or modify the names and schedules of change sets. For more information, see [Understanding scheduled publishing and change sets](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets), [Scheduled publishing permissions](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformScheduledPublishingPermissions), and [Menu manager permissions](adminGuide-platformMenuManagerPermissions).</li><li>Other Setup > Publish Changes on a Toast POS device</li></ul> <blockquote><strong>Note</strong> Employees need this permission to publish configuration changes <em>even if</em>  they have permissions that allow them to alter configuration settings that can be published.</blockquote> </td>
+      <td><strong>Gives access to</strong> <ul><li>Toast account > Publishing > Publish Config</li><li>Toast account > Publishing > Publish Config V2</li><li>Toast account > Publishing > Publishing Center (read-only access) <br/> Employees that have the Publishing permission to the <a href="adminGuide-sessionRestaurant">session restaurant</a> have read-only access to the Publishing center page. This means they can view change sets and add changes to <em>existing change sets</em>  but they cannot create change sets, delete change sets, or modify the names and schedules of change sets. For more information, see <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets">Understanding scheduled publishing and change sets</a>, <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformScheduledPublishingPermissions">Scheduled publishing permissions</a>, and <a href="adminGuide-platformMenuManagerPermissions">Menu manager permissions</a>.</li><li>Other Setup > Publish Changes on a Toast POS device</li></ul> <blockquote><strong>Note</strong> Employees need this permission to publish configuration changes <em>even if</em>  they have permissions that allow them to alter configuration settings that can be published.</blockquote> </td>
     </tr>
     <tr>
       <td>Restaurant Groups Setup</td>
@@ -645,7 +645,7 @@ The following table includes information about the Web Setup access permissions 
     </tr>
     <tr>
       <td>Change sets</td>
-      <td>Employees that have the Change sets permission to the [session restaurant](adminGuide-sessionRestaurant) they are logged into are allowed to use the [publishing center](adminGuide-platformPublishingCenterOverview) and the [scheduled publishing](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets) feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. Currently, this includes change sets that were created by any employee. <br/> The Change sets permission only gives an employee permission to work with the change sets themselves. To work with the changes <em>stored</em>  in a change set, an employee must have additional permissions specific to the changes they want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, an employee must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store the edits in a change set. For more information on menu manager permissions, see [Menu manager permissions](adminGuide-platformMenuManagerPermissions).</td>
+      <td>Employees that have the Change sets permission to the <a href="adminGuide-sessionRestaurant">session restaurant</a> they are logged into are allowed to use the <a href="adminGuide-platformPublishingCenterOverview">publishing center</a> and the <a href="adminGuide-platformUnderstandingScheduledPublishingAndChangeSets">scheduled publishing</a> feature. Employees with this permission can create, delete, and edit the name and schedule for change sets. Currently, this includes change sets that were created by any employee. <br/> The Change sets permission only gives an employee permission to work with the change sets themselves. To work with the changes <em>stored</em>  in a change set, an employee must have additional permissions specific to the changes they want to store. For example, to make changes to prices on the menu manager page and then store those changes in a change set, an employee must have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to edit the menu items and the 6.7 Change sets permission to store the edits in a change set. For more information on menu manager permissions, see <a href="adminGuide-platformMenuManagerPermissions">Menu manager permissions</a>.</td>
     </tr>
     <tr>
       <td>Tax Rates Setup</td>
@@ -694,7 +694,7 @@ The following table includes information about the Device Setup access permissio
   <tbody>
     <tr>
       <td>Terminal Setup</td>
-      <td><strong>Gives access to</strong> <ul><li>Setup > Device Setup > Device Name</li><li>Setup > Device Setup > Primary Mode</li><li>Setup > Device Setup > Screen Timeout</li><li>Setup > Device Setup > Open Cash Drawer</li><li>Setup > Device Setup > Re-enabled Hidden Menus</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled - Requires an EMV reader</li><li>Setup > Device Setup > Add New Card Reader</li></ul> <blockquote><strong>Note</strong> Credit Card Pre-Authorization, EMV Enabled, and Add New Card Reader options are also accessible if you have one of the [POS access permissions](adminGuide-adminPermissions#adminModePermissions).</blockquote> </td>
+      <td><strong>Gives access to</strong> <ul><li>Setup > Device Setup > Device Name</li><li>Setup > Device Setup > Primary Mode</li><li>Setup > Device Setup > Screen Timeout</li><li>Setup > Device Setup > Open Cash Drawer</li><li>Setup > Device Setup > Re-enabled Hidden Menus</li><li>Setup > Device Setup > Credit Card Pre-Authorization</li><li>Setup > Device Setup > EMV Enabled - Requires an EMV reader</li><li>Setup > Device Setup > Add New Card Reader</li></ul> <blockquote><strong>Note</strong> Credit Card Pre-Authorization, EMV Enabled, and Add New Card Reader options are also accessible if you have one of the <a href="adminGuide-adminPermissions#adminModePermissions">POS access permissions</a>.</blockquote> </td>
     </tr>
     <tr>
       <td>Advanced Terminal Setup</td>
@@ -736,11 +736,11 @@ The following table includes information about the Account Admin access permissi
     </tr>
     <tr>
       <td>Data Export Config</td>
-      <td><strong>Gives access to </strong> configuration settings for data export files. Initial setup of this information is completed by the Toast support team. <br/> <strong>Assign to </strong> managers and employees who need to specify which data fields to include in export files and their sequence. <br/> For more information, see [Configuring exports](adminGuide-configuringExports).</td>
+      <td><strong>Gives access to </strong> configuration settings for data export files. Initial setup of this information is completed by the Toast support team. <br/> <strong>Assign to </strong> managers and employees who need to specify which data fields to include in export files and their sequence. <br/> For more information, see <a href="adminGuide-configuringExports">Configuring exports</a>.</td>
     </tr>
     <tr>
       <td>Manage Integrations</td>
-      <td><strong>Gives access to </strong> configuration options for the integration partner services used by a restaurant group. <br/> <strong>Assign to </strong> IT team members who work with integration partners to configure access to a restaurant group or location. <br/> For more information, see [Managing and using integrations and Toast Partner Integrations](adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).</td>
+      <td><strong>Gives access to </strong> configuration options for the integration partner services used by a restaurant group. <br/> <strong>Assign to </strong> IT team members who work with integration partners to configure access to a restaurant group or location. <br/> For more information, see <a href="adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations">Managing and using integrations and Toast Partner Integrations</a>.</td>
     </tr>
     <tr>
       <td>Toast Shop Purchases</td>

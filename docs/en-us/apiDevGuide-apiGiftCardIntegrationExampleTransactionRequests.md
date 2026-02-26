@@ -42,39 +42,39 @@ The following example shows an example gift card integration API request.
 
 
     <tr>
-      <td>[(1)](#co-d1e7809F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
+      <td><a href="#co-d1e7809F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(1)</a></td>
       <td>This header parameter indicates the MIME type of the message body data.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7829F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>This header parameter indicates the type of gift card transaction. For more information, see [Gift card transaction types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes).</td>
+      <td><a href="#co-d1e7829F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(2)</a></td>
+      <td>This header parameter indicates the type of gift card transaction. For more information, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes">Gift card transaction types</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7849F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
+      <td><a href="#co-d1e7849F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(3)</a></td>
       <td>This header parameter supplies the identifier of the restaurant that processed the gift card transaction. The identifier is defined by the Toast platform. You receive the identifiers for Toast platform restaurants from the Toast integrations team when you implement your gift card integration.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e7869F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>This header parameter supplies an identifier for the specific transaction request. You must keep this identifier in your integration implementation. The Toast platform may refer to the transaction identifier in a future `GIFTCARD_REVERSE` transaction. For more information, see [Gift card transaction types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes).</td>
+      <td><a href="#co-d1e7869F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(4)</a></td>
+      <td>This header parameter supplies an identifier for the specific transaction request. You must keep this identifier in your integration implementation. The Toast platform may refer to the transaction identifier in a future <code>GIFTCARD_REVERSE</code> transaction. For more information, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationTransactionTypes">Gift card transaction types</a>.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e7889F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>This header parameter supplies the JWT authentication token that you can use to verify that the request is from the Toast platform and that the request has not been altered. For more information, see [Gift card integration authentication](apiDevGuide-apiGiftCardIntegrationAuthentication).</td>
+      <td><a href="#co-d1e7889F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(5)</a></td>
+      <td>This header parameter supplies the JWT authentication token that you can use to verify that the request is from the Toast platform and that the request has not been altered. For more information, see <a href="apiDevGuide-apiGiftCardIntegrationAuthentication">Gift card integration authentication</a>.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e7919F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>The message body of a gift card transaction request includes a JSON `GiftCardTransaction` object. For information about the values in a `GiftCardTransaction` object, see the [gift card integration API reference documentation](https://doc.toasttab.com/openapi/giftcards/overview/).</td>
+      <td><a href="#co-d1e7919F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(6)</a></td>
+      <td>The message body of a gift card transaction request includes a JSON <code>GiftCardTransaction</code> object. For information about the values in a <code>GiftCardTransaction</code> object, see the <a href="https://doc.toasttab.com/openapi/giftcards/overview/">gift card integration API reference documentation</a>.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e7939F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>Because this gift card transaction type is `GIFTCARD_REDEEM`, the `GiftCardTransaction` object includes a `redeemTransactionInformation` value.</td>
+      <td><a href="#co-d1e7939F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(7)</a></td>
+      <td>Because this gift card transaction type is <code>GIFTCARD_REDEEM</code>, the <code>GiftCardTransaction</code> object includes a <code>redeemTransactionInformation</code> value.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e7959F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
+      <td><a href="#co-d1e7959F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(8)</a></td>
       <td>Indicates the amount of money that the restaurant guest redeemed from the the gift card balance. For example, the restaurant guest might have used the gift card as a form of payment for a restaurant purchase.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e7979F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
+      <td><a href="#co-d1e7979F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(9)</a></td>
       <td>Indicates the identifier of the specific gift card account.</td>
     </tr>
   
@@ -96,23 +96,23 @@ The following example shows an example gift card integration API response.
 
 
     <tr>
-      <td>[(1)](#co-d1e8119F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>Your gift card integration API implementation returns a JSON `GiftCardTransactionResponse` object in the HTTP response to a gift card transaction request from the Toast platform. For information about the values in a `GiftCardTransactionResponse` object, see the [gift card integration API reference documentation](https://doc.toasttab.com/openapi/giftcards/overview/).</td>
+      <td><a href="#co-d1e8119F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(1)</a></td>
+      <td>Your gift card integration API implementation returns a JSON <code>GiftCardTransactionResponse</code> object in the HTTP response to a gift card transaction request from the Toast platform. For information about the values in a <code>GiftCardTransactionResponse</code> object, see the <a href="https://doc.toasttab.com/openapi/giftcards/overview/">gift card integration API reference documentation</a>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e8139F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>Indicates the result of your attempt to process the transaction. For more information about the `transactionStatus` value, see [Response status types](apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationResponseTypes).</td>
+      <td><a href="#co-d1e8139F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(2)</a></td>
+      <td>Indicates the result of your attempt to process the transaction. For more information about the <code>transactionStatus</code> value, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationResponseTypes">Response status types</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e8159F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
-      <td>Because this gift card transaction type is `GIFTCARD_REDEEM`, the `GiftCardTransaction`Response object includes a `redeemResponse` value.</td>
+      <td><a href="#co-d1e8159F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(3)</a></td>
+      <td>Because this gift card transaction type is <code>GIFTCARD_REDEEM</code>, the <code>GiftCardTransaction</code>Response object includes a <code>redeemResponse</code> value.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e8179F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
+      <td><a href="#co-d1e8179F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(4)</a></td>
       <td>Indicates the amount of money available on the gift card after the transaction.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e8199F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F)</td>
+      <td><a href="#co-d1e8199F9FF995-7EA4-424B-B7ED-3C6FDAD1DB2F">(5)</a></td>
       <td>Indicates the amount of money that the transaction deducted from the gift card balance.</td>
     </tr>
   

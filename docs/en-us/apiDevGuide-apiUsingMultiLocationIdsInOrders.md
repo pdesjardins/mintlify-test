@@ -90,27 +90,27 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
 
 
     <tr>
-      <td>[(1)](#co-d1e1951635951163)</td>
-      <td>The `Order` object that defines the order being submitted.</td>
+      <td><a href="#co-d1e1951635951163">(1)</a></td>
+      <td>The <code>Order</code> object that defines the order being submitted.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e1971635951163)</td>
+      <td><a href="#co-d1e1971635951163">(2)</a></td>
       <td>The parent menu group for a menu item to submit in this order. For example, Salads.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e1991635951163)</td>
+      <td><a href="#co-d1e1991635951163">(3)</a></td>
       <td>The menu item included in this order. For example, Dinner Salad.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2011635951163)</td>
+      <td><a href="#co-d1e2011635951163">(4)</a></td>
       <td>A modifier group for the Dinner Salad menu item. For example, Salad Dressing.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e2031635951163)</td>
+      <td><a href="#co-d1e2031635951163">(5)</a></td>
       <td>A modifier for the Dinner Salad menu item. For example, Balsamic Vinaigrette.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e2061635951163)</td>
+      <td><a href="#co-d1e2061635951163">(6)</a></td>
       <td>The guest who is placing the order.</td>
     </tr>
 ## Example Order object with both identifiers in an orders API response
@@ -204,18 +204,18 @@ The following example response shows how both identifiers are provided for each 
 
 
     <tr>
-      <td>[(1)](#co-d1e2731635951163)</td>
-      <td>The `multiLocationId` for the modifier group. For example, Salad Dressing.</td>
+      <td><a href="#co-d1e2731635951163">(1)</a></td>
+      <td>The <code>multiLocationId</code> for the modifier group. For example, Salad Dressing.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2791635951163)</td>
-      <td>The `multiLocationId` for the modifier. For example, Balsamic Vinaigrette.</td>
+      <td><a href="#co-d1e2791635951163">(2)</a></td>
+      <td>The <code>multiLocationId</code> for the modifier. For example, Balsamic Vinaigrette.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2871635951163)</td>
-      <td>The `multiLocationId` for the menu group. For example, Salads.</td>
+      <td><a href="#co-d1e2871635951163">(3)</a></td>
+      <td>The <code>multiLocationId</code> for the menu group. For example, Salads.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2891635951163)</td>
-      <td>The `multiLocationId` for the menu item. For example, Dinner Salad.</td>
+      <td><a href="#co-d1e2891635951163">(4)</a></td>
+      <td>The <code>multiLocationId</code> for the menu item. For example, Dinner Salad.</td>
     </tr>

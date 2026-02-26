@@ -164,7 +164,7 @@ From the Online ordering hours section you can choose to allow guests to place o
   <tbody>
     <tr>
       <td>Closing time</td>
-      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 10:00 PM.</li></ul> <br/> A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM.  <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see [Online Ordering: Advanced Settings](https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime).</blockquote> </td>
+      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 10:00 PM.</li></ul> <br/> A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM.  <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see <a href="https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime">Online Ordering: Advanced Settings</a>.</blockquote> </td>
     </tr>
     <tr>
       <td>Closing time minus quote time</td>

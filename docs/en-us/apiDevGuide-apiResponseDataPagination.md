@@ -202,23 +202,23 @@ Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel
 
 
     <tr>
-      <td>[(1)](#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td><a href="#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9">(1)</a></td>
       <td>The URL and query parameters that will return the first set of objects available from the API endpoint.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td><a href="#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9">(2)</a></td>
       <td>The URL and query parameters that will return the current set of objects from the API endpoint.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td><a href="#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9">(3)</a></td>
       <td>The URL and query parameters that will return the set of objects immediately preceding the current set from the API endpoint.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td><a href="#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9">(4)</a></td>
       <td>The URL and query parameters that will return the first set of objects immediately after the current set from the API endpoint.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9)</td>
+      <td><a href="#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9">(5)</a></td>
       <td>The URL and query parameters that will return the last set of objects available from the API endpoint.</td>
     </tr>
   
@@ -237,15 +237,15 @@ The following table identifies the pagination functionality used by Toast API en
   <tbody>
     <tr>
       <td>Configuration API</td>
-      <td>All endpoints that return paginated response data use <em>page token pagination</em> . For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken). <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated <em>for configuration API endpoints</em> . As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </td>
+      <td>All endpoints that return paginated response data use <em>page token pagination</em> . For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiPaginationPageToken">Page token pagination</a>. <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated <em>for configuration API endpoints</em> . As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </td>
     </tr>
     <tr>
       <td>Kitchen API</td>
-      <td>All endpoints that return paginated response data use <em>page token pagination</em>  for response data. <br/> For more information, see [Page token pagination](apiDevGuide-apiResponseDataPagination#apiPaginationPageToken).</td>
+      <td>All endpoints that return paginated response data use <em>page token pagination</em>  for response data. <br/> For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiPaginationPageToken">Page token pagination</a>.</td>
     </tr>
     <tr>
-      <td>Orders API `/ordersBulk` endpoint</td>
-      <td>The orders API `/ordersBulk` endpoint uses <em>fixed-size pagination</em> . <br/> For more information, see [Fixed-size paginated responses](apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize).</td>
+      <td>Orders API <code>/ordersBulk</code> endpoint</td>
+      <td>The orders API <code>/ordersBulk</code> endpoint uses <em>fixed-size pagination</em> . <br/> For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize">Fixed-size paginated responses</a>.</td>
     </tr>
   </tbody>
 </table>

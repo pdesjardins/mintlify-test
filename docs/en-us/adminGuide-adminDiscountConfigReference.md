@@ -36,19 +36,19 @@ At the top of the discount configuration page are the following fields, which ap
     </tr>
     <tr>
       <td>Number of discount</td>
-      <td>The identifier of the discount. The number is generated when you create the discount. It is not editable. <br/> Next to the discount number is the Copy option, which allows you to create a copy of the current discount. See [Copying discounts](adminGuide-adminCopyingDiscounts). <br/> For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations. You use the New Version option to create a new version of the discount. For details about managing versions, see [Creating a version of a configuration entity](adminGuide-creatingAVersionOfAConfigurationEntity).</td>
+      <td>The identifier of the discount. The number is generated when you create the discount. It is not editable. <br/> Next to the discount number is the Copy option, which allows you to create a copy of the current discount. See <a href="adminGuide-adminCopyingDiscounts">Copying discounts</a>. <br/> For restaurants that use the multi-location module, the discount number is a multi-location ID that the Toast platform uses to determine versions for all of the restaurant locations. You use the New Version option to create a new version of the discount. For details about managing versions, see <a href="adminGuide-creatingAVersionOfAConfigurationEntity">Creating a version of a configuration entity</a>.</td>
     </tr>
     <tr>
       <td>Require manager permission for reward redemptions</td>
-      <td>This setting displays only if Permissions Level in Advanced Settings is set to Manager. <br/> Specifies whether a manager's permission is required to apply third-party (non-Toast) rewards that are linked to this discount. <br/> For details, see [Determining who can apply a discount](adminGuide-adminDiscountsRequireManager).</td>
+      <td>This setting displays only if Permissions Level in Advanced Settings is set to Manager. <br/> Specifies whether a manager's permission is required to apply third-party (non-Toast) rewards that are linked to this discount. <br/> For details, see <a href="adminGuide-adminDiscountsRequireManager">Determining who can apply a discount</a>.</td>
     </tr>
     <tr>
       <td>Target</td>
-      <td>Only displays for restaurants that use the multi-location module. <br/> Determines the restaurant or group that the discount applies to. <br/> For details, see [Discount configurations for multi-location restaurants](adminGuide-adminDiscountsTargetsAndOwners).</td>
+      <td>Only displays for restaurants that use the multi-location module. <br/> Determines the restaurant or group that the discount applies to. <br/> For details, see <a href="adminGuide-adminDiscountsTargetsAndOwners">Discount configurations for multi-location restaurants</a>.</td>
     </tr>
     <tr>
       <td>Owner</td>
-      <td>Only displays for restaurants that use the multi-location module. <br/> Determines the restaurant or group that can configure the discount. <br/> For details, see [Discount configurations for multi-location restaurants](adminGuide-adminDiscountsTargetsAndOwners).</td>
+      <td>Only displays for restaurants that use the multi-location module. <br/> Determines the restaurant or group that can configure the discount. <br/> For details, see <a href="adminGuide-adminDiscountsTargetsAndOwners">Discount configurations for multi-location restaurants</a>.</td>
     </tr>
     <tr>
       <td>Discount type</td>
@@ -56,7 +56,7 @@ At the top of the discount configuration page are the following fields, which ap
     </tr>
     <tr>
       <td>Limit to Dining Options</td>
-      <td>Controls which dining options the discount is available in. <br/> The discount will be available in each dining option you specify. In any dining option you do not select, the discount is not available. If you do not specify a dining option, the discount is available in all dining options. <br/> For information about dining options, see [Dining options](adminGuide-adminDiningOptions).</td>
+      <td>Controls which dining options the discount is available in. <br/> The discount will be available in each dining option you specify. In any dining option you do not select, the discount is not available. If you do not specify a dining option, the discount is available in all dining options. <br/> For information about dining options, see <a href="adminGuide-adminDiningOptions">Dining options</a>.</td>
     </tr>
   </tbody>
 </table>
@@ -88,7 +88,7 @@ The following fields display when you set Discount Type to one of the fixed or o
     </tr>
     <tr>
       <td>Discount will apply to all items except the following items/groups</td>
-      <td>For Applies to=Entire Check discounts that are not bulk discounts, when you select this check box, you can specify menu items, menu groups, or menus to exclude from the discount. <br/> See [Excluding items from a check-level discount](adminGuide-adminDiscountsConfigFixedOpenDiscounts#adminExclusionDiscounts).</td>
+      <td>For Applies to=Entire Check discounts that are not bulk discounts, when you select this check box, you can specify menu items, menu groups, or menus to exclude from the discount. <br/> See <a href="adminGuide-adminDiscountsConfigFixedOpenDiscounts#adminExclusionDiscounts">Excluding items from a check-level discount</a>.</td>
     </tr>
     <tr>
       <td>Check must include one of the following items/groups</td>
@@ -206,39 +206,39 @@ The Availability section allows you to configure the dates, days of the week, an
     </tr>
     <tr>
       <td>Permissions Level</td>
-      <td>Specifies who can apply the discount on the Toast POS app. <br/> Either any user can apply the discount, or only a manager can apply the discount. <br/> For details, see [Determining who can apply a discount](adminGuide-adminDiscountsRequireManager).</td>
+      <td>Specifies who can apply the discount on the Toast POS app. <br/> Either any user can apply the discount, or only a manager can apply the discount. <br/> For details, see <a href="adminGuide-adminDiscountsRequireManager">Determining who can apply a discount</a>.</td>
     </tr>
     <tr>
       <td>Allow with other discounts</td>
-      <td>Allows a check-level or BOGO discount to apply with other discounts. <br/> For details, see [Exclusive and nonexclusive discounts](adminGuide-adminDiscountExclusivity).</td>
+      <td>Allows a check-level or BOGO discount to apply with other discounts. <br/> For details, see <a href="adminGuide-adminDiscountExclusivity">Exclusive and nonexclusive discounts</a>.</td>
     </tr>
     <tr>
       <td>Required Min/Max Check Amount</td>
-      <td>Sets minimum and maximum check thresholds. The discount is applied only if the pre-tax total on the check meets the thresholds. <br/> For details, see [Configuring required minimum and maximum check totals](adminGuide-adminDiscountsMinMax).</td>
+      <td>Sets minimum and maximum check thresholds. The discount is applied only if the pre-tax total on the check meets the thresholds. <br/> For details, see <a href="adminGuide-adminDiscountsMinMax">Configuring required minimum and maximum check totals</a>.</td>
     </tr>
     <tr>
       <td>Auto apply discount</td>
-      <td>Only configurable for discounts that are eligible to be auto-applied. <br/> Configures the discount to automatically apply to a check. <br/> For details, see [Automatically applying discounts](adminGuide-adminAutoApplyDiscounts).</td>
+      <td>Only configurable for discounts that are eligible to be auto-applied. <br/> Configures the discount to automatically apply to a check. <br/> For details, see <a href="adminGuide-adminAutoApplyDiscounts">Automatically applying discounts</a>.</td>
     </tr>
     <tr>
       <td>Discount Reasons</td>
-      <td>Used to allow restaurant employees to select a discount reason when they apply a discount. <br/> You first select the available discount reasons for the discount. <br/> You then choose whether to prompt for a discount reason. If you prompt for a discount reason, you can also require a discount reason and an additional comment. <br/> For details, see [Requiring a discount reason for a discount](adminGuide-adminDiscountReasons).</td>
+      <td>Used to allow restaurant employees to select a discount reason when they apply a discount. <br/> You first select the available discount reasons for the discount. <br/> You then choose whether to prompt for a discount reason. If you prompt for a discount reason, you can also require a discount reason and an additional comment. <br/> For details, see <a href="adminGuide-adminDiscountReasons">Requiring a discount reason for a discount</a>.</td>
     </tr>
     <tr>
       <td>Total Quantity</td>
-      <td>Only displays for combo discounts that are not bulk discounts. <br/> The number of times that a combo discount can be applied to an order. <br/> For details, see [Configuring a combo discount](adminGuide-adminDiscountsConfigureCombo).</td>
+      <td>Only displays for combo discounts that are not bulk discounts. <br/> The number of times that a combo discount can be applied to an order. <br/> For details, see <a href="adminGuide-adminDiscountsConfigureCombo">Configuring a combo discount</a>.</td>
     </tr>
     <tr>
       <td>Required # of Buy Items</td>
-      <td>Only displays for BOGO discounts. <br/> The minimum number of buy items that the check must have before the bulk discount can apply. <br/> For details, see [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo).</td>
+      <td>Only displays for BOGO discounts. <br/> The minimum number of buy items that the check must have before the bulk discount can apply. <br/> For details, see <a href="adminGuide-adminDiscountsConfigureBogo">Configuring a BOGO discount</a>.</td>
     </tr>
     <tr>
       <td>Eligible # of Get Items</td>
-      <td>Only displays for BOGO discounts <br/> The maximum number of get items that are included in the discount. <br/> For details, see [Configuring a BOGO discount](adminGuide-adminDiscountsConfigureBogo).</td>
+      <td>Only displays for BOGO discounts <br/> The maximum number of get items that are included in the discount. <br/> For details, see <a href="adminGuide-adminDiscountsConfigureBogo">Configuring a BOGO discount</a>.</td>
     </tr>
     <tr>
       <td>Bulk Discount</td>
-      <td>Only displays for discounts that are eligible to be bulk discounts. <br/> Configures the discount as a bulk discount. For a bulk discount, you also configure the minimum and maximum number of eligible items that the discount is applied to. <br/> For details, see [Bulk discounts](adminGuide-adminBulkDiscounts).</td>
+      <td>Only displays for discounts that are eligible to be bulk discounts. <br/> Configures the discount as a bulk discount. For a bulk discount, you also configure the minimum and maximum number of eligible items that the discount is applied to. <br/> For details, see <a href="adminGuide-adminBulkDiscounts">Bulk discounts</a>.</td>
     </tr>
   </tbody>
 </table>

@@ -36,19 +36,19 @@ The following table provides descriptions for target, owner, number, and GUID:
   <tbody>
     <tr>
       <td>Target</td>
-      <td>Specifies which locations use the menu or menu item. For more information, see [Targets](adminGuide-targets).</td>
+      <td>Specifies which locations use the menu or menu item. For more information, see <a href="adminGuide-targets">Targets</a>.</td>
     </tr>
     <tr>
       <td>Owner</td>
-      <td>Specifies who can edit the menu or menu item. For more information, see [Owners and permissions](adminGuide-ownersAndPermissions).</td>
+      <td>Specifies who can edit the menu or menu item. For more information, see <a href="adminGuide-ownersAndPermissions">Owners and permissions</a>.</td>
     </tr>
     <tr>
       <td>Number</td>
-      <td>Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).</td>
+      <td>Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a>.</td>
     </tr>
     <tr>
       <td>GUID</td>
-      <td>Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).</td>
+      <td>Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a>.</td>
     </tr>
   </tbody>
 </table>

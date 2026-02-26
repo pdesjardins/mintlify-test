@@ -29,55 +29,55 @@ Standard API access provides access to the following scopes:
   </thead>
   <tbody>
     <tr>
-      <td>`cashmgmt:read`</td>
+      <td><code>cashmgmt:read</code></td>
       <td>cash management API</td>
     </tr>
     <tr>
-      <td>`config:read`</td>
+      <td><code>config:read</code></td>
       <td>configuration API</td>
     </tr>
     <tr>
-      <td>`delivery_info.address:read` <blockquote><strong>Note</strong> This scope exposes additional information in the `DeliveryInfo` object of the orders API.</blockquote> </td>
+      <td><code>delivery_info.address:read</code> <blockquote><strong>Note</strong> This scope exposes additional information in the <code>DeliveryInfo</code> object of the orders API.</blockquote> </td>
       <td>orders API</td>
     </tr>
     <tr>
-      <td>`digital_schedule:read`</td>
+      <td><code>digital_schedule:read</code></td>
       <td>order management configuration API</td>
     </tr>
     <tr>
-      <td>`guest.pi:read` <blockquote><strong>Note</strong> This scope to exposes additional information in the `Customer` object of the orders API.</blockquote> </td>
+      <td><code>guest.pi:read</code> <blockquote><strong>Note</strong> This scope to exposes additional information in the <code>Customer</code> object of the orders API.</blockquote> </td>
       <td>orders API</td>
     </tr>
     <tr>
-      <td>`kitchen:read`</td>
+      <td><code>kitchen:read</code></td>
       <td>kitchen API</td>
     </tr>
     <tr>
-      <td>`labor.employees:read`</td>
+      <td><code>labor.employees:read</code></td>
       <td>labor API</td>
     </tr>
     <tr>
-      <td>`labor:read`</td>
+      <td><code>labor:read</code></td>
       <td>labor API</td>
     </tr>
     <tr>
-      <td>`menus:read`</td>
+      <td><code>menus:read</code></td>
       <td>menus v2 API</td>
     </tr>
     <tr>
-      <td>`orders:read`</td>
+      <td><code>orders:read</code></td>
       <td>orders API</td>
     </tr>
     <tr>
-      <td>`packaging:read`</td>
+      <td><code>packaging:read</code></td>
       <td>packaging configuration API</td>
     </tr>
     <tr>
-      <td>`restaurants:read`</td>
+      <td><code>restaurants:read</code></td>
       <td>restaurant availability API, restaurants API</td>
     </tr>
     <tr>
-      <td>`stock:read`</td>
+      <td><code>stock:read</code></td>
       <td>stock API</td>
     </tr>
   </tbody>

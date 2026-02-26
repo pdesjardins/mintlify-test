@@ -56,7 +56,7 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr>
-      <td>[(1)](#co-d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3)</td>
+      <td><a href="#co-d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3">(1)</a></td>
       <td>Include the Toast platform identifier for the employee in the path parameter of the request.</td>
     </tr>
   
@@ -92,11 +92,11 @@ The following example shows the response for a `PUT` request to unarchive an emp
 
 
     <tr>
-      <td>[(1)](#co-d1e1426B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
-      <td>When you unarchive an employee, the `deleted` value is set to `false`.</td>
+      <td><a href="#co-d1e1426B9ABC104-B7F3-4146-920F-E773D7BDABD9">(1)</a></td>
+      <td>When you unarchive an employee, the <code>deleted</code> value is set to <code>false</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9)</td>
-      <td>When you unarchive an employee, the `deletedDate` value is set to `null`.</td>
+      <td><a href="#co-d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9">(2)</a></td>
+      <td>When you unarchive an employee, the <code>deletedDate</code> value is set to <code>null</code>.</td>
     </tr>
   

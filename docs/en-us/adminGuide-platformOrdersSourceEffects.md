@@ -76,7 +76,7 @@ The following table summarizes the differences in order processing among the ord
       <td>Payment options</td>
       <td>Can use any active payment option.</td>
       <td>Can configure available payment options for takeout and delivery orders.</td>
-      <td>Can create orders using either a credit card or an `OTHER` payment type. <br/> Can only add credit card payments to an existing order.</td>
+      <td>Can create orders using either a credit card or an <code>OTHER</code> payment type. <br/> Can only add credit card payments to an existing order.</td>
     </tr>
     <tr>
       <td>Text messages</td>

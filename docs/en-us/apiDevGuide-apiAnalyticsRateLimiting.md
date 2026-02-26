@@ -35,97 +35,97 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
   </thead>
   <tbody>
     <tr>
-      <td>`POST``/era/v1/metrics`</td>
+      <td><code>POST</code><code>/era/v1/metrics</code></td>
       <td>10 requests per hour</td>
       <td>This endpoint uses a custom time range.</td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/metrics/&#123;timeRange&#125;`</td>
-      <td>If `&#123;timeRange`&#125; is:<ul><li>`month` or `year`: 10 requests per hour</li><li>`day` or `week`: 10 requests per minute, 60 requests per hour</li></ul></td>
+      <td><code>POST</code><code>/era/v1/metrics/&#123;timeRange&#125;</code></td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code> or <code>year</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/metrics/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/metrics/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td> </td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/check/&#123;timeRange&#125;`</td>
+      <td><code>POST</code><code>/era/v1/check/&#123;timeRange&#125;</code></td>
       <td>5 requests per minute <br/> 60 requests per day</td>
-      <td>This endpoint uses `day` as the `&#123;timeRange&#125;`.</td>
+      <td>This endpoint uses <code>day</code> as the <code>&#123;timeRange&#125;</code>.</td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/check/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/check/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/labor/&#123;timeRange&#125;`</td>
-      <td>If `&#123;timeRange`&#125; is:<ul><li>`month`: 10 requests per hour</li><li>`day` or `week`: 10 requests per minute, 60 requests per hour</li></ul></td>
+      <td><code>POST</code><code>/era/v1/labor/&#123;timeRange&#125;</code></td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/labor/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/labor/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/menu`</td>
+      <td><code>POST</code><code>/era/v1/menu</code></td>
       <td>10 requests per hour</td>
       <td>This endpoint uses a custom time range.</td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/menu/&#123;timeRange&#125;`</td>
-      <td>If `&#123;timeRange`&#125; is:<ul><li>`month` or `year`: 10 requests per hour</li><li>`day` or `week`: 10 requests per minute, 60 requests per hour</li></ul></td>
+      <td><code>POST</code><code>/era/v1/menu/&#123;timeRange&#125;</code></td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code> or <code>year</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/menu/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/menu/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/payout/&#123;timeRange&#125;`</td>
-      <td>If `&#123;timeRange`&#125; is:<ul><li>`month`: 10 requests per hour</li><li>`day` or `week`: 10 requests per minute and 60 requests per hour</li></ul></td>
+      <td><code>POST</code><code>/era/v1/payout/&#123;timeRange&#125;</code></td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute and 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/payout/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/payout/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/payout/payments/&#123;timeRange&#125;`</td>
+      <td><code>POST</code><code>/era/v1/payout/payments/&#123;timeRange&#125;</code></td>
       <td>5 requests per minute <br/> 60 requests per day</td>
-      <td>This endpoint uses `day` as the `&#123;timeRange&#125;`.</td>
+      <td>This endpoint uses <code>day</code> as the <code>&#123;timeRange&#125;</code>.</td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/payout/payments/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/payout/payments/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/payout/sales-date/&#123;timeRange&#125;`</td>
-      <td>If `&#123;timeRange`&#125; is:<ul><li>`month`: 10 requests per hour</li><li>`day` or `week`: 10 requests per minute and 60 requests per hour</li></ul></td>
+      <td><code>POST</code><code>/era/v1/payout/sales-date/&#123;timeRange&#125;</code></td>
+      <td>If <code>&#123;timeRange</code>&#125; is:<ul><li><code>month</code>: 10 requests per hour</li><li><code>day</code> or <code>week</code>: 10 requests per minute and 60 requests per hour</li></ul></td>
       <td></td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/payout/sales-date/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/payout/sales-date/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>
     <tr>
-      <td>`POST``/era/v1/guest/payments/&#123;timeRange&#125;`</td>
+      <td><code>POST</code><code>/era/v1/guest/payments/&#123;timeRange&#125;</code></td>
       <td>5 requests per second <br/> 60 requests per minute</td>
-      <td>This endpoint uses `day` or `week` as the `&#123;timeRange&#125;`.</td>
+      <td>This endpoint uses <code>day</code> or <code>week</code> as the <code>&#123;timeRange&#125;</code>.</td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/guest/payments/&#123;reportRequestGuid&#125;`</td>
+      <td><code>GET</code><code>/era/v1/guest/payments/&#123;reportRequestGuid&#125;</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td> </td>
     </tr>
     <tr>
-      <td>`GET``/era/v1/restaurant-info`</td>
+      <td><code>GET</code><code>/era/v1/restaurant-info</code></td>
       <td>5 requests per second <br/> 30 requests per minute</td>
       <td></td>
     </tr>

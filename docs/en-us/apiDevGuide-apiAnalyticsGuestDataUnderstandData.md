@@ -31,36 +31,36 @@ The following table specifies the returned set of values in the guest reporting 
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
+      <td><code>restaurantName</code></td>
       <td>The restaurant’s name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationName`</td>
+      <td><code>restaurantLocationName</code></td>
       <td>The restaurant’s location name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationCode`</td>
+      <td><code>restaurantLocationCode</code></td>
       <td>The restaurant’s location code.</td>
     </tr>
     <tr>
-      <td>`paymentDate`</td>
-      <td>The date when the payment was processed, in `YYYYMMDD` format.</td>
+      <td><code>paymentDate</code></td>
+      <td>The date when the payment was processed, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>`orderGuid`</td>
+      <td><code>orderGuid</code></td>
       <td>The unique identifier assigned to the order by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`paymentGuid`</td>
+      <td><code>paymentGuid</code></td>
       <td>The unique identifier assigned to the payment by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`cardFingerprint`</td>
-      <td>The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> `cardFingerprint` data is only available for payments processed starting in August 2024. `cardFingerprint` data is not supported for older payments.</blockquote> </td>
+      <td><code>cardFingerprint</code></td>
+      <td>The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> <code>cardFingerprint</code> data is only available for payments processed starting in August 2024. <code>cardFingerprint</code> data is not supported for older payments.</blockquote> </td>
     </tr>
   </tbody>
 </table>

@@ -49,16 +49,16 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr>
-      <td>[(1)](#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
-      <td>Specify the GUID of the restaurant that you want to `get` shifts for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+      <td><a href="#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878">(1)</a></td>
+      <td>Specify the GUID of the restaurant that you want to <code>get</code> shifts for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td><a href="#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878">(2)</a></td>
       <td>This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
-      <td>Specify the start and end dates of the time period you want to `GET` shifts for. You can select up to 30 days.</td>
+      <td><a href="#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878">(3)</a></td>
+      <td>Specify the start and end dates of the time period you want to <code>GET</code> shifts for. You can select up to 30 days.</td>
     </tr>
   
 ## Example response
@@ -139,19 +139,19 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 
     <tr>
-      <td>[(1)](#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
-      <td>The `GET` request returns an array of shift objects. Each object contains information about a shift.</td>
+      <td><a href="#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878">(1)</a></td>
+      <td>The <code>GET</code> request returns an array of shift objects. Each object contains information about a shift.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
-      <td>The `employeeReference` value identifies the employee who is assigned to the shift.</td>
+      <td><a href="#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878">(2)</a></td>
+      <td>The <code>employeeReference</code> value identifies the employee who is assigned to the shift.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td><a href="#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878">(3)</a></td>
       <td>This shift is assigned to the same employee as the first shift in the array.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878)</td>
+      <td><a href="#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878">(4)</a></td>
       <td>This shift is assigned to a different employee.</td>
     </tr>
   
@@ -173,11 +173,11 @@ my-shifts-get-request-response-data.json
 
 
     <tr>
-      <td>[(1)](#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD)</td>
-      <td>This <strong>jq</strong>  command syntax selects the JSON array members that have a specific employee GUID in the `employeeReference.guid` value for the shift.</td>
+      <td><a href="#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD">(1)</a></td>
+      <td>This <strong>jq</strong>  command syntax selects the JSON array members that have a specific employee GUID in the <code>employeeReference.guid</code> value for the shift.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD)</td>
-      <td>In this example, the <strong>jq</strong>  utility is reading JSON from the output file of the <strong>curl</strong>  command that made the initial GET request to the shifts resource. See [Example 7.5, “Example request to GET all scheduled shifts for a restaurant”](apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example).</td>
+      <td><a href="#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD">(2)</a></td>
+      <td>In this example, the <strong>jq</strong>  utility is reading JSON from the output file of the <strong>curl</strong>  command that made the initial GET request to the shifts resource. See <a href="apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example">Example 7.5, “Example request to GET all scheduled shifts for a restaurant”</a>.</td>
     </tr>
   

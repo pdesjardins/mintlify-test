@@ -73,19 +73,19 @@ The `value` must be one of the following:
   </thead>
   <tbody>
     <tr>
-      <td>`NUMBER`</td>
+      <td><code>NUMBER</code></td>
       <td>A numeric value such as room number, or reservation number.</td>
     </tr>
     <tr>
-      <td>`TEXT`</td>
+      <td><code>TEXT</code></td>
       <td>An alphanumeric value such as a guest's name or their company's name.</td>
     </tr>
     <tr>
-      <td>`EMAIL`</td>
+      <td><code>EMAIL</code></td>
       <td>The guest's email address.</td>
     </tr>
     <tr>
-      <td>`PHONE_NUMBER`</td>
+      <td><code>PHONE_NUMBER</code></td>
       <td>A numeric-only value for the guest's phone number. </td>
     </tr>
   </tbody>
@@ -164,12 +164,12 @@ The following is an example of a successful configure search response.
 
 
     <tr>
-      <td>[(1)](#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA)</td>
-      <td>The `value` attribute must be `TEXT` if your integration supports alpha-numeric room numbers.</td>
+      <td><a href="#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA">(1)</a></td>
+      <td>The <code>value</code> attribute must be <code>TEXT</code> if your integration supports alpha-numeric room numbers.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283)</td>
-      <td>The `tenderProperType` attribute must be associated with `ROOM_ID` for the key-value pair that defines Room Number in the configure search response and on each [search response](apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS).</td>
+      <td><a href="#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283">(2)</a></td>
+      <td>The <code>tenderProperType</code> attribute must be associated with <code>ROOM_ID</code> for the key-value pair that defines Room Number in the configure search response and on each <a href="apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS">search response</a>.</td>
     </tr>
   
 ### Guest search
@@ -901,16 +901,16 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 
     <tr>
-      <td>[(1)](#co-e356efd8-0dac-4a34-8fae-c13421f2bd47)</td>
+      <td><a href="#co-e356efd8-0dac-4a34-8fae-c13421f2bd47">(1)</a></td>
       <td>Gratuity added to the check during the gratuity transaction.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E)</td>
+      <td><a href="#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E">(2)</a></td>
       <td>The unique order identifier.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E)</td>
-      <td>A `Check` object that contains the order's complete transaction details.</td>
+      <td><a href="#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E">(3)</a></td>
+      <td>A <code>Check</code> object that contains the order's complete transaction details.</td>
     </tr>
   
 **Example 10.29. Successful gratuity response body**

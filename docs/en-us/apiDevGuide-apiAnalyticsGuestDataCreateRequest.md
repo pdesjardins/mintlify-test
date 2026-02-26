@@ -56,19 +56,19 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 
 
     <tr>
-      <td>[(1)](#co-d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Send a `POST` request to the `/era/v1/guest/payments/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
+      <td><a href="#co-d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/guest/payments/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code>&#123;timeRange&#125;</code> in this example is <code>week</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e9265AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e9265AAAFB51B-562D-4033-B77B-6C18243DEDD8">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td><a href="#co-d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8">(4)</a></td>
       <td>Include details about the requested guest reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ## Message body for guest reporting data
@@ -92,20 +92,20 @@ The following example shows the message body for creating a guest reporting data
 
 
     <tr>
-      <td>[(1)](#co-d1e9279AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
+      <td><a href="#co-d1e9279AAAFB51B-562D-4033-B77B-6C18243DEDD8">(1)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the guest reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+      <td><a href="#co-d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8">(2)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>The start date of the time range for the guest reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8">(3)</a></td>
+      <td>The start date of the time range for the guest reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e9285AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>The end date of the time range for the guest reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e9285AAAFB51B-562D-4033-B77B-6C18243DEDD8">(4)</a></td>
+      <td>The end date of the time range for the guest reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
 ## Response to request for guest reporting data
 
@@ -119,8 +119,8 @@ The following example shows the response from the `/era/v1/guest/payments/&#123;
 
 
     <tr>
-      <td>[(1)](#co-d1e9298AAAFB51B-562D-4033-B77B-6C18243DEDD8)</td>
-      <td>The GUID for the guest reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e9298AAAFB51B-562D-4033-B77B-6C18243DEDD8">(1)</a></td>
+      <td>The GUID for the guest reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 For an example about how to retrieve the guest reporting data, see [Retrieving the guest reporting data](apiDevGuide-apiAnalyticsGuestDataRetrieveData).
 

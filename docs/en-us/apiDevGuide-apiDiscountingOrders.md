@@ -151,44 +151,44 @@ The following example shows the JSON return data for a `GET` request to the `/di
 
 
     <tr>
-      <td>[(1)](#co-d1e2299734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `/discounts` endpoint returns an array of `Discount` objects. You can use the `guid` value to apply the discount to an order.</td>
+      <td><a href="#co-d1e2299734545DE-34ED-4C72-91FC-F7D438E64472">(1)</a></td>
+      <td>The <code>/discounts</code> endpoint returns an array of <code>Discount</code> objects. You can use the <code>guid</code> value to apply the discount to an order.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2301734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `selectionType` value indicates whether you can apply the discount to an item or to an entire check. This discount applies to an entire check.</td>
+      <td><a href="#co-d1e2301734545DE-34ED-4C72-91FC-F7D438E64472">(2)</a></td>
+      <td>The <code>selectionType</code> value indicates whether you can apply the discount to an item or to an entire check. This discount applies to an entire check.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2303734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `nonExclusive` value indicates the [discount exclusivity](adminGuide-adminDiscountExclusivity) of this discount. If `true`, then the discount is nonexclusive and can be combined with discounts. If `false`, the discount is exclusive and cannot be combined with other discounts.</td>
+      <td><a href="#co-d1e2303734545DE-34ED-4C72-91FC-F7D438E64472">(3)</a></td>
+      <td>The <code>nonExclusive</code> value indicates the <a href="adminGuide-adminDiscountExclusivity">discount exclusivity</a> of this discount. If <code>true</code>, then the discount is nonexclusive and can be combined with discounts. If <code>false</code>, the discount is exclusive and cannot be combined with other discounts.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2305734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `type` value `FIXED` indicates that this discount reduces the check price by the fixed currency `amount` value.</td>
+      <td><a href="#co-d1e2305734545DE-34ED-4C72-91FC-F7D438E64472">(4)</a></td>
+      <td>The <code>type</code> value <code>FIXED</code> indicates that this discount reduces the check price by the fixed currency <code>amount</code> value.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e2307734545DE-34ED-4C72-91FC-F7D438E64472)</td>
+      <td><a href="#co-d1e2307734545DE-34ED-4C72-91FC-F7D438E64472">(5)</a></td>
       <td>Because it is a BOGO discount, the Toast platform applies the discount to items that match the item specification for the discount. In this case, it applies the discount to one of each set of two apples that are included as menu item selections in the check.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e2310734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>For BOGO discounts, the `itemPickingPriority` value indicates the setting of the [item picking priority option](adminGuide-adminDiscountsConfigureBogo#adminDiscountsBogoGetItemDiscount). For example, a value of `LEAST_EXPENSIVE` means that the least expensive "get" item is discounted.</td>
+      <td><a href="#co-d1e2310734545DE-34ED-4C72-91FC-F7D438E64472">(6)</a></td>
+      <td>For BOGO discounts, the <code>itemPickingPriority</code> value indicates the setting of the <a href="adminGuide-adminDiscountsConfigureBogo#adminDiscountsBogoGetItemDiscount">item picking priority option</a>. For example, a value of <code>LEAST_EXPENSIVE</code> means that the least expensive "get" item is discounted.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e2312734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `type` value `BOGO` indicates that this discount matches item selections based on the criteria that you configure for the discount.</td>
+      <td><a href="#co-d1e2312734545DE-34ED-4C72-91FC-F7D438E64472">(7)</a></td>
+      <td>The <code>type</code> value <code>BOGO</code> indicates that this discount matches item selections based on the criteria that you configure for the discount.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e2314734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The type value `PERCENT` indicates that this discount reduces the price of an item by the `percentage` value.</td>
+      <td><a href="#co-d1e2314734545DE-34ED-4C72-91FC-F7D438E64472">(8)</a></td>
+      <td>The type value <code>PERCENT</code> indicates that this discount reduces the price of an item by the <code>percentage</code> value.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e2316734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `type` value `FIXED_TOTAL` indicates this is a combo discount that reduces the price of all the eligible items to a set currency amount.</td>
+      <td><a href="#co-d1e2316734545DE-34ED-4C72-91FC-F7D438E64472">(9)</a></td>
+      <td>The <code>type</code> value <code>FIXED_TOTAL</code> indicates this is a combo discount that reduces the price of all the eligible items to a set currency amount.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e2318734545DE-34ED-4C72-91FC-F7D438E64472)</td>
-      <td>The `fixedTotal` value indicates the total price of items discounted by this combo discount. The `fixedTotal` value is `null` for discounts that are not combo discounts.</td>
+      <td><a href="#co-d1e2318734545DE-34ED-4C72-91FC-F7D438E64472">(10)</a></td>
+      <td>The <code>fixedTotal</code> value indicates the total price of items discounted by this combo discount. The <code>fixedTotal</code> value is <code>null</code> for discounts that are not combo discounts.</td>
     </tr>
 ### Getting the list of applicable discounts for an order
 
@@ -237,24 +237,24 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
 
 
     <tr>
-      <td>[(1)](#availableDiscountGuidCo)</td>
+      <td><a href="#availableDiscountGuidCo">(1)</a></td>
       <td>The GUID of the applicable discount.</td>
     </tr>
     <tr>
-      <td>[(2)](#availableDiscountsEmptyChecksCo)</td>
-      <td>Because this is an item-level discount, the `checks` value is empty.</td>
+      <td><a href="#availableDiscountsEmptyChecksCo">(2)</a></td>
+      <td>Because this is an item-level discount, the <code>checks</code> value is empty.</td>
     </tr>
     <tr>
-      <td>[(3)](#availableDiscountsItemGuidCo)</td>
+      <td><a href="#availableDiscountsItemGuidCo">(3)</a></td>
       <td>This is the GUID of a menu item selection that is eligible for the discount.</td>
     </tr>
     <tr>
-      <td>[(4)](#availableDiscountsChecksCo)</td>
-      <td>For a check-level discount, the `applicableChecks` value is populated.</td>
+      <td><a href="#availableDiscountsChecksCo">(4)</a></td>
+      <td>For a check-level discount, the <code>applicableChecks</code> value is populated.</td>
     </tr>
     <tr>
-      <td>[(5)](#availableDiscountsEmptySelectionsCo)</td>
-      <td>For a check-level discount, the `applicableSelections` value is empty.</td>
+      <td><a href="#availableDiscountsEmptySelectionsCo">(5)</a></td>
+      <td>For a check-level discount, the <code>applicableSelections</code> value is empty.</td>
     </tr>
 ## Applying discounts to a new order
 
@@ -344,12 +344,12 @@ The following example shows a discount applied to a menu item selection.
 
 
     <tr>
-      <td>[(1)](#co-d1e348F363EEC9-2046-412B-BBF1-890075ECA926)</td>
-      <td>This `AppliedDiscounts` object applies to the `MenuItemSelection` object that contains it.</td>
+      <td><a href="#co-d1e348F363EEC9-2046-412B-BBF1-890075ECA926">(1)</a></td>
+      <td>This <code>AppliedDiscounts</code> object applies to the <code>MenuItemSelection</code> object that contains it.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e350F363EEC9-2046-412B-BBF1-890075ECA926)</td>
-      <td>The `guid` value identifies a discount that is configured for your restaurant. For information about getting available discounts, see [Retrieving available discounts](apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving).</td>
+      <td><a href="#co-d1e350F363EEC9-2046-412B-BBF1-890075ECA926">(2)</a></td>
+      <td>The <code>guid</code> value identifies a discount that is configured for your restaurant. For information about getting available discounts, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving">Retrieving available discounts</a>.</td>
     </tr>
 ### Applying discounts to an entire check
 
@@ -415,12 +415,12 @@ The following example shows a discount applied to a check.
 
 
     <tr>
-      <td>[(1)](#co-d1e379F363EEC9-2046-412B-BBF1-890075ECA926)</td>
-      <td>The `appliedDiscounts` value in the `Check` object contains `AppliedDiscount` objects for each discount that you apply to the check. Specify the GUID for each discount. For information about getting the GUID for a discount, see [Retrieving available discounts](apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving).</td>
+      <td><a href="#co-d1e379F363EEC9-2046-412B-BBF1-890075ECA926">(1)</a></td>
+      <td>The <code>appliedDiscounts</code> value in the <code>Check</code> object contains <code>AppliedDiscount</code> objects for each discount that you apply to the check. Specify the GUID for each discount. For information about getting the GUID for a discount, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving">Retrieving available discounts</a>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e381F363EEC9-2046-412B-BBF1-890075ECA926)</td>
-      <td>The `guid` value identifies a discount that is configured for your restaurant. For information about getting GUIDs for discounts, see [Retrieving available discounts](apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving).</td>
+      <td><a href="#co-d1e381F363EEC9-2046-412B-BBF1-890075ECA926">(2)</a></td>
+      <td>The <code>guid</code> value identifies a discount that is configured for your restaurant. For information about getting GUIDs for discounts, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving">Retrieving available discounts</a>.</td>
     </tr>
 ## Applying promotional codes
 
@@ -487,20 +487,20 @@ The following example shows promotional codes applied to check and menu item sel
 
 
     <tr>
-      <td>[(1)](#co-d1e1506DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651)</td>
+      <td><a href="#co-d1e1506DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651">(1)</a></td>
       <td>The GUID of a menu item selection discount.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e1508DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651)</td>
-      <td>The `appliedPromoCode` value identifies a promotion that is associated with the menu item selection discount.</td>
+      <td><a href="#co-d1e1508DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651">(2)</a></td>
+      <td>The <code>appliedPromoCode</code> value identifies a promotion that is associated with the menu item selection discount.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e1510DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651)</td>
+      <td><a href="#co-d1e1510DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651">(3)</a></td>
       <td>The GUID of a check discount.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e1512DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651)</td>
-      <td>The `appliedPromoCode` value identifies a promotion that is associated with the check discount.</td>
+      <td><a href="#co-d1e1512DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651">(4)</a></td>
+      <td>The <code>appliedPromoCode</code> value identifies a promotion that is associated with the check discount.</td>
     </tr>
 ## Applying discounts to an existing order
 
@@ -546,15 +546,15 @@ For example:
 
 
     <tr>
-      <td>[(1)](#co-d1e166052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e166052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(1)</a></td>
       <td>You can include multiple discounts in the JSON array.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e168052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e168052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(2)</a></td>
       <td>The Toast platform identifier of one of the discounts that is being added to a check or menu item selection.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e170052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e170052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(3)</a></td>
       <td>The identifier of another discount that is being added.</td>
     </tr>
 ### POSTing the discounts to the check or menu item selection
@@ -651,15 +651,15 @@ Here is an example of a response to a request to add discounts to a check:
 
 
     <tr>
-      <td>[(1)](#co-d1e196052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e196052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(1)</a></td>
       <td>The Toast platform GUID of the order you added a discount in.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e198052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e198052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(2)</a></td>
       <td>The Toast platform GUID of the check you added a discount to.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e200052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e200052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(3)</a></td>
       <td>The Toast platform GUID of the discount you added.</td>
     </tr>
 Here is an example of a response to a request to add a discount to a menu item selection:
@@ -735,19 +735,19 @@ Here is an example of a response to a request to add a discount to a menu item s
 
 
     <tr>
-      <td>[(1)](#co-d1e233052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e233052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(1)</a></td>
       <td>The Toast platform GUID of the order you added a discount in.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e235052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e235052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(2)</a></td>
       <td>The Toast platform GUID of the check you added a discount in.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e237052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e237052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(3)</a></td>
       <td>The Toast platform GUID of the menu item selection you added a discount to.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e239052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE)</td>
+      <td><a href="#co-d1e239052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE">(4)</a></td>
       <td>The Toast platform GUID of the discount you added.</td>
     </tr>
 ## Verifying eligibility for discounts
@@ -891,16 +891,16 @@ For example, the following order contains a single menu item selection for three
 
 
     <tr>
-      <td>[(1)](#co-d1e23132AAD0504-D23B-47FA-B191-CCDA17A4B028)</td>
+      <td><a href="#co-d1e23132AAD0504-D23B-47FA-B191-CCDA17A4B028">(1)</a></td>
       <td>The GUID of the menu item selection for the check. To trigger the orders API to apply the discount, the specific menu items must match the configuration of the BOGO discount.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e23152AAD0504-D23B-47FA-B191-CCDA17A4B028)</td>
+      <td><a href="#co-d1e23152AAD0504-D23B-47FA-B191-CCDA17A4B028">(2)</a></td>
       <td>The number of menu items in the check. To trigger the orders API to apply the discount, the number of menu items must match the configuration of the BOGO discount.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e23172AAD0504-D23B-47FA-B191-CCDA17A4B028)</td>
-      <td>The GUID for a BOGO discount that is configured for your restaurant. You apply BOGO discounts in the `appliedDiscounts` value for the `Check` object.</td>
+      <td><a href="#co-d1e23172AAD0504-D23B-47FA-B191-CCDA17A4B028">(3)</a></td>
+      <td>The GUID for a BOGO discount that is configured for your restaurant. You apply BOGO discounts in the <code>appliedDiscounts</code> value for the <code>Check</code> object.</td>
     </tr>
 In the returned order information, there are two `MenuItemSelection` objects.
 
@@ -1008,59 +1008,59 @@ The following example shows the return data for an order that includes a BOGO di
 
 
     <tr>
-      <td>[(1)](#co-d1e2359FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The BOGO discount is not applied to the `Check` in this `Order`. The BOGO discount is applied to the "get" menu item selections.</td>
+      <td><a href="#co-d1e2359FB6A5D14-9F96-466C-8541-5687523E637B">(1)</a></td>
+      <td>The BOGO discount is not applied to the <code>Check</code> in this <code>Order</code>. The BOGO discount is applied to the "get" menu item selections.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The GUID that the Toast POS system assigns to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount. <br/> In this example, the first `MenuItemSelection` object includes the items that triggered the BOGO discount. The items that trigger a BOGO discount are the "buy" items.</td>
+      <td><a href="#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B">(2)</a></td>
+      <td>The GUID that the Toast POS system assigns to a menu item selection in a check. You can use this GUID to determine which <code>MenuItemSelection</code> triggered a discount. <br/> In this example, the first <code>MenuItemSelection</code> object includes the items that triggered the BOGO discount. The items that trigger a BOGO discount are the "buy" items.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2363FB6A5D14-9F96-466C-8541-5687523E637B)</td>
+      <td><a href="#co-d1e2363FB6A5D14-9F96-466C-8541-5687523E637B">(3)</a></td>
       <td>The GUID of the specific menu item. This matches the menu item configured as the "buy" item for the BOGO discount.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2365FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object. This object includes the "buy" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `2` in this `MenuItemSelection` object includes the "buy" item and another item that is not affected by the BOGO discount at all.</td>
+      <td><a href="#co-d1e2365FB6A5D14-9F96-466C-8541-5687523E637B">(4)</a></td>
+      <td>The quantity of the menu items in this <code>MenuItemSelection</code> object. This object includes the "buy" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original <code>MenuItemSelection</code> into two groups. The <code>quantity</code> of <code>2</code> in this <code>MenuItemSelection</code> object includes the "buy" item and another item that is not affected by the BOGO discount at all.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e2367FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>No discounts are applied to the `MenuItemSelection` for the "buy" item in the BOGO discount.</td>
+      <td><a href="#co-d1e2367FB6A5D14-9F96-466C-8541-5687523E637B">(5)</a></td>
+      <td>No discounts are applied to the <code>MenuItemSelection</code> for the "buy" item in the BOGO discount.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e2370FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The GUID that the Toast platform assigns to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount. <br/> In this example, the second `MenuItemSelection` object includes the items that the BOGO discount applies to. The items that are reduced in price by a BOGO discount are the "get" items.</td>
+      <td><a href="#co-d1e2370FB6A5D14-9F96-466C-8541-5687523E637B">(6)</a></td>
+      <td>The GUID that the Toast platform assigns to a menu item selection in a check. You can use this GUID to determine which <code>MenuItemSelection</code> triggered a discount. <br/> In this example, the second <code>MenuItemSelection</code> object includes the items that the BOGO discount applies to. The items that are reduced in price by a BOGO discount are the "get" items.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e2372FB6A5D14-9F96-466C-8541-5687523E637B)</td>
+      <td><a href="#co-d1e2372FB6A5D14-9F96-466C-8541-5687523E637B">(7)</a></td>
       <td>The GUID of the specific menu item. This matches the menu item configured as the "get" item for the BOGO discount. In this example, the specific menu item for the "buy" and "get" items are the same item, a cup of soup.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e2374FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object. This object includes the "get" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `1` in this `MenuItemSelection` object includes the "get" item.</td>
+      <td><a href="#co-d1e2374FB6A5D14-9F96-466C-8541-5687523E637B">(8)</a></td>
+      <td>The quantity of the menu items in this <code>MenuItemSelection</code> object. This object includes the "get" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original <code>MenuItemSelection</code> into two groups. The <code>quantity</code> of <code>1</code> in this <code>MenuItemSelection</code> object includes the "get" item.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e2376FB6A5D14-9F96-466C-8541-5687523E637B)</td>
+      <td><a href="#co-d1e2376FB6A5D14-9F96-466C-8541-5687523E637B">(9)</a></td>
       <td>The price of the "get" item before the BOGO discount is applied.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e2378FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The BOGO discount is applied to the `MenuItemSelection` that includes the "get" item for the discount. The `AppliedCustomDiscount` object includes information about the BOGO discount.</td>
+      <td><a href="#co-d1e2378FB6A5D14-9F96-466C-8541-5687523E637B">(10)</a></td>
+      <td>The BOGO discount is applied to the <code>MenuItemSelection</code> that includes the "get" item for the discount. The <code>AppliedCustomDiscount</code> object includes information about the BOGO discount.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e2380FB6A5D14-9F96-466C-8541-5687523E637B)</td>
+      <td><a href="#co-d1e2380FB6A5D14-9F96-466C-8541-5687523E637B">(11)</a></td>
       <td>In this example, the BOGO discount applies a 100% price reduction to the "get" item.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e2383FB6A5D14-9F96-466C-8541-5687523E637B)</td>
-      <td>The `triggers` value indicates which `MenuItemSelection` object in the check qualified the current menu item for the discount. The `guid` value matches the GUID that the Toast platform assigned to the `MenuItemSelection` that triggered the discount. In this example, see [the matching GUID](apiDevGuide-apiDiscountingOrders#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B).</td>
+      <td><a href="#co-d1e2383FB6A5D14-9F96-466C-8541-5687523E637B">(12)</a></td>
+      <td>The <code>triggers</code> value indicates which <code>MenuItemSelection</code> object in the check qualified the current menu item for the discount. The <code>guid</code> value matches the GUID that the Toast platform assigned to the <code>MenuItemSelection</code> that triggered the discount. In this example, see <a href="apiDevGuide-apiDiscountingOrders#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B">the matching GUID</a>.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e2385FB6A5D14-9F96-466C-8541-5687523E637B)</td>
+      <td><a href="#co-d1e2385FB6A5D14-9F96-466C-8541-5687523E637B">(13)</a></td>
       <td>In this example, the BOGO discount applies to one "get" item.</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e2387FB6A5D14-9F96-466C-8541-5687523E637B)</td>
+      <td><a href="#co-d1e2387FB6A5D14-9F96-466C-8541-5687523E637B">(14)</a></td>
       <td>The price of the "get" item is reduced by the BOGO discount. In this example, the BOGO discount reduces the price of the "get" item by 100%.</td>
     </tr>
 ### Applying a combo discount
@@ -1110,16 +1110,16 @@ For example, the following order contains a single menu item selection for three
 
 
     <tr>
-      <td>[(1)](#co-d1e2684531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2684531BD268-895B-4950-9F99-86F6459D75C7">(1)</a></td>
       <td>The GUID of the menu item selection for the check. The specific menu items must match the configuration of the combo discount to trigger the orders API to apply that discount.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2686531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2686531BD268-895B-4950-9F99-86F6459D75C7">(2)</a></td>
       <td>The number of menu items in the check. The number of menu items must match the configuration of the combo discount to trigger the orders API to apply that discount.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2688531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The GUID for a combo discount that is configured for your restaurant. You apply combo discounts in the `appliedDiscounts` value for the check object.</td>
+      <td><a href="#co-d1e2688531BD268-895B-4950-9F99-86F6459D75C7">(3)</a></td>
+      <td>The GUID for a combo discount that is configured for your restaurant. You apply combo discounts in the <code>appliedDiscounts</code> value for the check object.</td>
     </tr>
 In the returned order information, there are two `MenuItemSelection` objects.
 
@@ -1234,59 +1234,59 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
 
 
     <tr>
-      <td>[(1)](#co-d1e2717531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>You apply a combo discount in the `appliedDiscounts` value of the `Check` object in an order. The response data for a check with a combo discount includes the discount information in the `appliedDiscounts` value for the `Check`.</td>
+      <td><a href="#co-d1e2717531BD268-895B-4950-9F99-86F6459D75C7">(1)</a></td>
+      <td>You apply a combo discount in the <code>appliedDiscounts</code> value of the <code>Check</code> object in an order. The response data for a check with a combo discount includes the discount information in the <code>appliedDiscounts</code> value for the <code>Check</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e2719531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The GUID of the `MenuItemSelection` that the combo discount is applied to.</td>
+      <td><a href="#co-d1e2719531BD268-895B-4950-9F99-86F6459D75C7">(2)</a></td>
+      <td>The GUID of the <code>MenuItemSelection</code> that the combo discount is applied to.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e2721531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2721531BD268-895B-4950-9F99-86F6459D75C7">(3)</a></td>
       <td>The GUID of the combo discount.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e2723531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The GUID of the `MenuItemSelection` that contains the menu items that qualify for the combo discount.</td>
+      <td><a href="#co-d1e2723531BD268-895B-4950-9F99-86F6459D75C7">(4)</a></td>
+      <td>The GUID of the <code>MenuItemSelection</code> that contains the menu items that qualify for the combo discount.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e2725531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2725531BD268-895B-4950-9F99-86F6459D75C7">(5)</a></td>
       <td>The number of menu items that qualify for the combo discount. For example, the combo discount in this example applies to two cups of soup.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e2728531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The GUID that the Toast platform assigned to a menu item selection in a check. You can use this GUID to determine which `MenuItemSelection` triggered a discount.</td>
+      <td><a href="#co-d1e2728531BD268-895B-4950-9F99-86F6459D75C7">(6)</a></td>
+      <td>The GUID that the Toast platform assigned to a menu item selection in a check. You can use this GUID to determine which <code>MenuItemSelection</code> triggered a discount.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e2730531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2730531BD268-895B-4950-9F99-86F6459D75C7">(7)</a></td>
       <td>The GUID of the specific menu item for this selection.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e2732531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `1` in this `MenuItemSelection` object is not included in the combo discount.</td>
+      <td><a href="#co-d1e2732531BD268-895B-4950-9F99-86F6459D75C7">(8)</a></td>
+      <td>The quantity of the menu items in this <code>MenuItemSelection</code> object. <br/> The number of items in the input data for this order was three. This example response data splits the original <code>MenuItemSelection</code> into two groups. The <code>quantity</code> of <code>1</code> in this <code>MenuItemSelection</code> object is not included in the combo discount.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e2734531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The orders API reports combo discount information in the `appliedDiscounts` value for the `Check`. The `appliedDiscounts` value for the menu item selection is empty.</td>
+      <td><a href="#co-d1e2734531BD268-895B-4950-9F99-86F6459D75C7">(9)</a></td>
+      <td>The orders API reports combo discount information in the <code>appliedDiscounts</code> value for the <code>Check</code>. The <code>appliedDiscounts</code> value for the menu item selection is empty.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e2736531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2736531BD268-895B-4950-9F99-86F6459D75C7">(10)</a></td>
       <td>The GUID of the specific menu item for this selection. This matches the menu item configured in the combo discount. In this example, the specific menu item is a cup of soup.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e2738531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The quantity of the menu items in this `MenuItemSelection` object. <br/> The number of items in the input data for this order was three. This example response data splits the original `MenuItemSelection` into two groups. The `quantity` of `2` in this `MenuItemSelection` object includes the two cups of soup that are configured in the example combo discount.</td>
+      <td><a href="#co-d1e2738531BD268-895B-4950-9F99-86F6459D75C7">(11)</a></td>
+      <td>The quantity of the menu items in this <code>MenuItemSelection</code> object. <br/> The number of items in the input data for this order was three. This example response data splits the original <code>MenuItemSelection</code> into two groups. The <code>quantity</code> of <code>2</code> in this <code>MenuItemSelection</code> object includes the two cups of soup that are configured in the example combo discount.</td>
     </tr>
     <tr>
-      <td>[(12)](#co-d1e2741531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2741531BD268-895B-4950-9F99-86F6459D75C7">(12)</a></td>
       <td>The price of the two menu items before the combo discount is applied.</td>
     </tr>
     <tr>
-      <td>[(13)](#co-d1e2743531BD268-895B-4950-9F99-86F6459D75C7)</td>
-      <td>The orders API reports combo discount information in the `appliedDiscounts` value for the `Check`. The `appliedDiscounts` value for the menu item is empty.</td>
+      <td><a href="#co-d1e2743531BD268-895B-4950-9F99-86F6459D75C7">(13)</a></td>
+      <td>The orders API reports combo discount information in the <code>appliedDiscounts</code> value for the <code>Check</code>. The <code>appliedDiscounts</code> value for the menu item is empty.</td>
     </tr>
     <tr>
-      <td>[(14)](#co-d1e2745531BD268-895B-4950-9F99-86F6459D75C7)</td>
+      <td><a href="#co-d1e2745531BD268-895B-4950-9F99-86F6459D75C7">(14)</a></td>
       <td>The price of the two menu items after the combo discount is applied.</td>
     </tr>
 ## Working with loyalty programs
@@ -1379,16 +1379,16 @@ The following example shows a check being applied to a loyalty program account.
 
 
     <tr>
-      <td>[(1)](#co-d1e29207557168-3DB0-4F1C-BC76-F4C42119A6B2)</td>
-      <td>The `appliedLoyaltyInfo` value holds an `AppliedLoyaltyInfo` object that associates a check with a specific loyalty account.</td>
+      <td><a href="#co-d1e29207557168-3DB0-4F1C-BC76-F4C42119A6B2">(1)</a></td>
+      <td>The <code>appliedLoyaltyInfo</code> value holds an <code>AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e29407557168-3DB0-4F1C-BC76-F4C42119A6B2)</td>
-      <td>The `loyaltyIdentifier` value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</td>
+      <td><a href="#co-d1e29407557168-3DB0-4F1C-BC76-F4C42119A6B2">(2)</a></td>
+      <td>The <code>loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2)</td>
-      <td>The `vendor` value specifies the loyalty program service provider. The value is one of the enumerated service provider names that are supported by the Toast POS system. The value is usually `INTEGRATION`.</td>
+      <td><a href="#co-d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2">(3)</a></td>
+      <td>The <code>vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that are supported by the Toast POS system. The value is usually <code>INTEGRATION</code>.</td>
     </tr>
 ### Applying loyalty program discounts to an order
 
@@ -1475,28 +1475,28 @@ The following example shows the JSON message body to `POST` an order with a chec
 
 
     <tr>
-      <td>[(1)](#co-d1e266B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `appliedLoyaltyInfo` value holds an `AppliedLoyaltyInfo` object that associates a check with a specific loyalty account.</td>
+      <td><a href="#co-d1e266B5FD597B-A42F-4C83-8CA0-E173E36FE922">(1)</a></td>
+      <td>The <code>appliedLoyaltyInfo</code> value holds an <code>AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e268B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `loyaltyIdentifier` value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</td>
+      <td><a href="#co-d1e268B5FD597B-A42F-4C83-8CA0-E173E36FE922">(2)</a></td>
+      <td>The <code>loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e270B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `vendor` value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast POS system supports. The value is usually `INTEGRATION`.</td>
+      <td><a href="#co-d1e270B5FD597B-A42F-4C83-8CA0-E173E36FE922">(3)</a></td>
+      <td>The <code>vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast POS system supports. The value is usually <code>INTEGRATION</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e272B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `appliedDiscounts` value holds an `AppliedDiscount` object that specifies the loyalty program discount or discounts to apply to the check.</td>
+      <td><a href="#co-d1e272B5FD597B-A42F-4C83-8CA0-E173E36FE922">(4)</a></td>
+      <td>The <code>appliedDiscounts</code> value holds an <code>AppliedDiscount</code> object that specifies the loyalty program discount or discounts to apply to the check.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e274B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `vendor` value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually `INTEGRATION`. If `vendor` is `INTEGRATION`, then you do not provide a discount GUID or amount.</td>
+      <td><a href="#co-d1e274B5FD597B-A42F-4C83-8CA0-E173E36FE922">(5)</a></td>
+      <td>The <code>vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code>INTEGRATION</code>. If <code>vendor</code> is <code>INTEGRATION</code>, then you do not provide a discount GUID or amount.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e277B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `referenceId` value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</td>
+      <td><a href="#co-d1e277B5FD597B-A42F-4C83-8CA0-E173E36FE922">(6)</a></td>
+      <td>The <code>referenceId</code> value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</td>
     </tr>
 This example shows the JSON message body to `POST` an order with an item-level loyalty program discount.
 
@@ -1552,28 +1552,28 @@ This example shows the JSON message body to `POST` an order with an item-level l
 
 
     <tr>
-      <td>[(1)](#co-d1e290B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `appliedLoyaltyInfo` value holds an `AppliedLoyaltyInfo` object that associates a check with a specific loyalty account.</td>
+      <td><a href="#co-d1e290B5FD597B-A42F-4C83-8CA0-E173E36FE922">(1)</a></td>
+      <td>The <code>appliedLoyaltyInfo</code> value holds an <code>AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e292B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `loyaltyIdentifier` value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this may be the loyalty card number for a program member.</td>
+      <td><a href="#co-d1e292B5FD597B-A42F-4C83-8CA0-E173E36FE922">(2)</a></td>
+      <td>The <code>loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this may be the loyalty card number for a program member.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e294B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `vendor` value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually `INTEGRATION`.</td>
+      <td><a href="#co-d1e294B5FD597B-A42F-4C83-8CA0-E173E36FE922">(3)</a></td>
+      <td>The <code>vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code>INTEGRATION</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e296B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `appliedDiscounts` value holds an `AppliedDiscount` object that specifies the loyalty program discount or discounts being applied to the item.</td>
+      <td><a href="#co-d1e296B5FD597B-A42F-4C83-8CA0-E173E36FE922">(4)</a></td>
+      <td>The <code>appliedDiscounts</code> value holds an <code>AppliedDiscount</code> object that specifies the loyalty program discount or discounts being applied to the item.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e298B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `vendor` value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually `INTEGRATION`. If vendor is `INTEGRATION`, then you do not provide a discount GUID or discount amount.</td>
+      <td><a href="#co-d1e298B5FD597B-A42F-4C83-8CA0-E173E36FE922">(5)</a></td>
+      <td>The <code>vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code>INTEGRATION</code>. If vendor is <code>INTEGRATION</code>, then you do not provide a discount GUID or discount amount.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e301B5FD597B-A42F-4C83-8CA0-E173E36FE922)</td>
-      <td>The `referenceId` value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</td>
+      <td><a href="#co-d1e301B5FD597B-A42F-4C83-8CA0-E173E36FE922">(6)</a></td>
+      <td>The <code>referenceId</code> value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</td>
     </tr>
 ### Validating loyalty program account and discount eligibility
 

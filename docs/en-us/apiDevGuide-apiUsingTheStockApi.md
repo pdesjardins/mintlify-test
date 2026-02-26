@@ -140,8 +140,8 @@ https://`[toast-api-hostname]`/stock/v1/inventory
 
 
     <tr>
-      <td>[(1)](#co-d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9)</td>
-      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant from which to retrieve menu item inventories. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+      <td><a href="#co-d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9">(1)</a></td>
+      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve menu item inventories. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/inventory` endpoint.
@@ -178,24 +178,24 @@ The following example shows the JSON response data for a GET request to the `/in
 
 
     <tr>
-      <td>[(1)](#co-d1e4531646253216)</td>
-      <td>The `GET` request returns a JSON array of menu item inventory objects containing information on menu items with a status of `QUANTITY` or `OUT_OF_STOCK`.</td>
+      <td><a href="#co-d1e4531646253216">(1)</a></td>
+      <td>The <code>GET</code> request returns a JSON array of menu item inventory objects containing information on menu items with a status of <code>QUANTITY</code> or <code>OUT_OF_STOCK</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e4551646253216)</td>
-      <td>The `guid` value contains the unique Toast platform identifier for the menu item.</td>
+      <td><a href="#co-d1e4551646253216">(2)</a></td>
+      <td>The <code>guid</code> value contains the unique Toast platform identifier for the menu item.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e4571646253216)</td>
-      <td>The `status` value is `QUANTITY` or `OUT_OF_STOCK`. The `/inventory` endpoint only returns information for menu items that have a stock status of `QUANTITY` or `OUT_OF_STOCK`. The endpoint does not return information for menu items that have an `IN_STOCK` status.</td>
+      <td><a href="#co-d1e4571646253216">(3)</a></td>
+      <td>The <code>status</code> value is <code>QUANTITY</code> or <code>OUT_OF_STOCK</code>. The <code>/inventory</code> endpoint only returns information for menu items that have a stock status of <code>QUANTITY</code> or <code>OUT_OF_STOCK</code>. The endpoint does not return information for menu items that have an <code>IN_STOCK</code> status.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e4591646253216)</td>
-      <td>The `multiLocationId` value for the menu item. <br/> Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
+      <td><a href="#co-d1e4591646253216">(4)</a></td>
+      <td>The <code>multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code>multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code>guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a> for more information.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e4611646253216)</td>
-      <td>The `quantity` value indicates the amount of stock remaining for menu items with an inventory status of `QUANTITY`. The `quantity` value is `null` for menu items with an `OUT_OF_STOCK` inventory status.</td>
+      <td><a href="#co-d1e4611646253216">(5)</a></td>
+      <td>The <code>quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code>QUANTITY</code>. The <code>quantity</code> value is <code>null</code> for menu items with an <code>OUT_OF_STOCK</code> inventory status.</td>
     </tr>
   
 ## Getting inventory by status
@@ -247,12 +247,12 @@ https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
 
 
     <tr>
-      <td>[(1)](#co-d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3)</td>
-      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+      <td><a href="#co-d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3">(1)</a></td>
+      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3)</td>
-      <td>Specify `status=OUT_OF_STOCK` to retrieve menu items that are not in stock.</td>
+      <td><a href="#co-d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3">(2)</a></td>
+      <td>Specify <code>status=OUT_OF_STOCK</code> to retrieve menu items that are not in stock.</td>
     </tr>
   
 The following example shows the JSON response for the `GET` request.
@@ -282,24 +282,24 @@ The following example shows the JSON response for the `GET` request.
 
 
     <tr>
-      <td>[(1)](#co-d1e7091646253216)</td>
-      <td>This `GET` request returns a JSON array of menu item inventory objects for menu items with a status of `OUT_OF_STOCK`.</td>
+      <td><a href="#co-d1e7091646253216">(1)</a></td>
+      <td>This <code>GET</code> request returns a JSON array of menu item inventory objects for menu items with a status of <code>OUT_OF_STOCK</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7111646253216)</td>
-      <td>The `guid` value contains the unique Toast platform identifier for the menu item.</td>
+      <td><a href="#co-d1e7111646253216">(2)</a></td>
+      <td>The <code>guid</code> value contains the unique Toast platform identifier for the menu item.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7131646253216)</td>
-      <td>The `status` value is `OUT_OF_STOCK` for the menu item. The `status` value would be `QUANTITY` if you had specified `status=QUANTITY` as the request parameter.</td>
+      <td><a href="#co-d1e7131646253216">(3)</a></td>
+      <td>The <code>status</code> value is <code>OUT_OF_STOCK</code> for the menu item. The <code>status</code> value would be <code>QUANTITY</code> if you had specified <code>status=QUANTITY</code> as the request parameter.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e7151646253216)</td>
-      <td>The `quantity` value indicates the amount of stock remaining for menu items with an inventory status of `QUANTITY`, and is `null` for menu items with an `OUT_OF_STOCK` inventory status.</td>
+      <td><a href="#co-d1e7151646253216">(4)</a></td>
+      <td>The <code>quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code>QUANTITY</code>, and is <code>null</code> for menu items with an <code>OUT_OF_STOCK</code> inventory status.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e7171646253216)</td>
-      <td>The `multiLocationId` value for the menu item. <br/> Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
+      <td><a href="#co-d1e7171646253216">(5)</a></td>
+      <td>The <code>multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code>multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code>guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a> for more information.</td>
     </tr>
   
 ## Searching inventory for specific menu items
@@ -382,16 +382,16 @@ https://`[toast-api-hostname]`/stock/v1/inventory/search
 
 
     <tr>
-      <td>[(1)](#co-d1e41779DA0981-6707-46FB-8E99-12EF303F8E00)</td>
-      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
+      <td><a href="#co-d1e41779DA0981-6707-46FB-8E99-12EF303F8E00">(1)</a></td>
+      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e41979DA0981-6707-46FB-8E99-12EF303F8E00)</td>
-      <td>Specify the data type of the message body in the Content-Type header field. The value must be `application/json`.</td>
+      <td><a href="#co-d1e41979DA0981-6707-46FB-8E99-12EF303F8E00">(2)</a></td>
+      <td>Specify the data type of the message body in the Content-Type header field. The value must be <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00)</td>
-      <td>Include the menu item list in the message body of the `POST` request. This example <strong>curl</strong>  command sends message body data from the contents of the `my-item-search-data.json` file.</td>
+      <td><a href="#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00">(3)</a></td>
+      <td>Include the menu item list in the message body of the <code>POST</code> request. This example <strong>curl</strong>  command sends message body data from the contents of the <code>my-item-search-data.json</code> file.</td>
     </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/inventory/search` resource.
@@ -439,31 +439,31 @@ The following example shows the JSON response data for a `POST` request to the `
 
 
     <tr>
-      <td>[(1)](#co-d1e11941724334625)</td>
-      <td>The `GET` request returns a JSON array of menu item inventory objects for the requested menu items.</td>
+      <td><a href="#co-d1e11941724334625">(1)</a></td>
+      <td>The <code>GET</code> request returns a JSON array of menu item inventory objects for the requested menu items.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e11961724334625)</td>
-      <td>The `guid` value contains the unique Toast platform identifier for the menu item.</td>
+      <td><a href="#co-d1e11961724334625">(2)</a></td>
+      <td>The <code>guid</code> value contains the unique Toast platform identifier for the menu item.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e11981724334625)</td>
-      <td>The `status` value is one of `QUANTITY`, `OUT_OF_STOCK`, or `IN_STOCK`.</td>
+      <td><a href="#co-d1e11981724334625">(3)</a></td>
+      <td>The <code>status</code> value is one of <code>QUANTITY</code>, <code>OUT_OF_STOCK</code>, or <code>IN_STOCK</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e12001724334625)</td>
-      <td>The `multiLocationId` value for the menu item. <br/> Toast support recommends using a combination of a menu item's `multiLocationId` and a restaurant location's GUID, instead of the menu item's `guid`, to identify menu items in subsequent requests. See [Toast identifiers](apiDevGuide-portalToastIdentifiers) for more information.</td>
+      <td><a href="#co-d1e12001724334625">(4)</a></td>
+      <td>The <code>multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code>multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code>guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a> for more information.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e12021724334625)</td>
-      <td>The `quantity` value indicates the amount of stock remaining for menu items with an inventory status of `QUANTITY`, and is `null` for `OUT_OF_STOCK` and `IN_STOCK` menu items.</td>
+      <td><a href="#co-d1e12021724334625">(5)</a></td>
+      <td>The <code>quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code>QUANTITY</code>, and is <code>null</code> for <code>OUT_OF_STOCK</code> and <code>IN_STOCK</code> menu items.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e12051724334625)</td>
-      <td>An example of a `guid` search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+      <td><a href="#co-d1e12051724334625">(6)</a></td>
+      <td>An example of a <code>guid</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e12071724334625)</td>
-      <td>An example of a `multiLocationId` search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+      <td><a href="#co-d1e12071724334625">(7)</a></td>
+      <td>An example of a <code>multiLocationId</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
     </tr>
   

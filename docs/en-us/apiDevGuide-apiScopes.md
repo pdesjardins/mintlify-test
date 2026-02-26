@@ -37,158 +37,158 @@ The following table describes the scopes that determine what actions your Toast 
     <tr>
       <td>Cash management</td>
       <td>Read</td>
-      <td>`cashmgmt:read`</td>
-      <td>Allows reading from the [cash management API](https://doc.toasttab.com/openapi/cashmanagement/overview/).</td>
+      <td><code>cashmgmt:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/cashmanagement/overview/">cash management API</a>.</td>
     </tr>
     <tr>
       <td>Configuration</td>
       <td>Read</td>
-      <td>`config:read`</td>
-      <td>Allows reading from the [configuration API](https://doc.toasttab.com/openapi/configuration/overview/).</td>
+      <td><code>config:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/configuration/overview/">configuration API</a>.</td>
     </tr>
     <tr>
       <td>Credit cards</td>
       <td>Write</td>
-      <td>`credit_cards.authorization:write`</td>
-      <td>Allows authorization of payments through the [credit cards API](https://doc.toasttab.com/openapi/creditcards/overview/).</td>
+      <td><code>credit_cards.authorization:write</code></td>
+      <td>Allows authorization of payments through the <a href="https://doc.toasttab.com/openapi/creditcards/overview/">credit cards API</a>.</td>
     </tr>
     <tr>
       <td>Kitchen</td>
       <td>Read</td>
-      <td>`kitchen:read`</td>
-      <td>Allows reading from the[ kitchen API](https://doc.toasttab.com/openapi/kitchen/overview/).</td>
+      <td><code>kitchen:read</code></td>
+      <td>Allows reading from the<a href="https://doc.toasttab.com/openapi/kitchen/overview/"> kitchen API</a>.</td>
     </tr>
     <tr>
       <td>Labor</td>
       <td>Read</td>
-      <td>`labor:read`</td>
-      <td>Allows reading all data except employees from the [labor API](https://doc.toasttab.com/openapi/labor/overview/).</td>
+      <td><code>labor:read</code></td>
+      <td>Allows reading all data except employees from the <a href="https://doc.toasttab.com/openapi/labor/overview/">labor API</a>.</td>
     </tr>
     <tr>
       <td>Labor</td>
       <td>Read</td>
-      <td>`labor.employees:read`</td>
-      <td>Allows reading employee information from the [labor API](https://doc.toasttab.com/openapi/labor/overview/).</td>
+      <td><code>labor.employees:read</code></td>
+      <td>Allows reading employee information from the <a href="https://doc.toasttab.com/openapi/labor/overview/">labor API</a>.</td>
     </tr>
     <tr>
       <td>Labor</td>
       <td>Write</td>
-      <td>`labor.employees:write`</td>
-      <td>Allows updating employee information in the [labor API](https://doc.toasttab.com/openapi/labor/overview/).</td>
+      <td><code>labor.employees:write</code></td>
+      <td>Allows updating employee information in the <a href="https://doc.toasttab.com/openapi/labor/overview/">labor API</a>.</td>
     </tr>
     <tr>
       <td>Labor</td>
       <td>Write</td>
-      <td>`labor.jobs:write`</td>
-      <td>Allows updating job information in the [labor API](https://doc.toasttab.com/openapi/labor/overview/).</td>
+      <td><code>labor.jobs:write</code></td>
+      <td>Allows updating job information in the <a href="https://doc.toasttab.com/openapi/labor/overview/">labor API</a>.</td>
     </tr>
     <tr>
       <td>Labor</td>
       <td>Write</td>
-      <td>`labor.shifts:write`</td>
-      <td>Allows updating shift information in the [labor API](https://doc.toasttab.com/openapi/labor/overview/).</td>
+      <td><code>labor.shifts:write</code></td>
+      <td>Allows updating shift information in the <a href="https://doc.toasttab.com/openapi/labor/overview/">labor API</a>.</td>
     </tr>
     <tr>
       <td>Menus</td>
       <td>Read</td>
-      <td>`menus.channel:read`</td>
-      <td>Allows reading from the [menus API V3](https://doc.toasttab.com/openapi/menusv3/overview/). <blockquote><strong>Note</strong> Ordering partner integrations must use V3 of the menus API, which requires the `menus.channel:read` scope. Because V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the `menus:read` scope.</blockquote> </td>
+      <td><code>menus.channel:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/menusv3/overview/">menus API V3</a>. <blockquote><strong>Note</strong> Ordering partner integrations must use V3 of the menus API, which requires the <code>menus.channel:read</code> scope. Because V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the <code>menus:read</code> scope.</blockquote> </td>
     </tr>
     <tr>
       <td>Menus</td>
       <td>Read</td>
-      <td>`menus:read`</td>
-      <td>Allows reading from the [menus API V2](https://doc.toasttab.com/openapi/menus/overview/). <blockquote><strong>Note</strong> Because menus API V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the `menus:read` scope.</blockquote> </td>
+      <td><code>menus:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/menus/overview/">menus API V2</a>. <blockquote><strong>Note</strong> Because menus API V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the <code>menus:read</code> scope.</blockquote> </td>
     </tr>
     <tr>
       <td>Order management configuration</td>
       <td>Read</td>
-      <td>`digital_schedule:read`</td>
-      <td>Allows reading from the [order management configuration API](https://doc.toasttab.com/openapi/ordermgmt.configuration/overview/).</td>
+      <td><code>digital_schedule:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/ordermgmt.configuration/overview/">order management configuration API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Read</td>
-      <td>`orders:read`</td>
-      <td>Allows reading from the [orders API](https://doc.toasttab.com/openapi/orders/overview/) with the exception of guest information. <br/> If your API client creates orders, then to read orders, it must have both the `orders:read` scope and the `orders.channel:read` scope.</td>
+      <td><code>orders:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a> with the exception of guest information. <br/> If your API client creates orders, then to read orders, it must have both the <code>orders:read</code> scope and the <code>orders.channel:read</code> scope.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Read</td>
-      <td>`orders.channel:read`</td>
-      <td>Allows API clients that submit orders to the Toast platform to read from the [orders API](https://doc.toasttab.com/openapi/orders/overview/). <br/> To read orders, the API client must have both the `orders:read` scope and the `orders.channel:read` scope. <br/> API clients that have the `orders.channel:read` scope can only read the orders that they submitted. They cannot read orders from any other source.</td>
+      <td><code>orders.channel:read</code></td>
+      <td>Allows API clients that submit orders to the Toast platform to read from the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>. <br/> To read orders, the API client must have both the <code>orders:read</code> scope and the <code>orders.channel:read</code> scope. <br/> API clients that have the <code>orders.channel:read</code> scope can only read the orders that they submitted. They cannot read orders from any other source.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Read</td>
-      <td>`delivery_info.address:read`</td>
-      <td>Allows reading guest delivery address information from the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>delivery_info.address:read</code></td>
+      <td>Allows reading guest delivery address information from the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Read</td>
-      <td>`guest.pi:read`</td>
-      <td>Allows reading guest and curbside pickup information from the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>guest.pi:read</code></td>
+      <td>Allows reading guest and curbside pickup information from the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Write</td>
-      <td>`orders.delivery_info:write`</td>
-      <td>Allows updating delivery information from the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>orders.delivery_info:write</code></td>
+      <td>Allows updating delivery information from the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Write</td>
-      <td>`orders.discounts:write`</td>
-      <td>Allows adding discounts to orders using the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>orders.discounts:write</code></td>
+      <td>Allows adding discounts to orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Write</td>
-      <td>`orders.items:write`</td>
-      <td>Allows adding items to orders using the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>orders.items:write</code></td>
+      <td>Allows adding items to orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Write</td>
-      <td>`orders.orders:write`</td>
-      <td>Allows posting orders orders using the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>orders.orders:write</code></td>
+      <td>Allows posting orders orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Write</td>
-      <td>`orders.payments:write`</td>
-      <td>Allows adding payments and tips to existing orders using the [orders API](https://doc.toasttab.com/openapi/orders/overview/). </td>
+      <td><code>orders.payments:write</code></td>
+      <td>Allows adding payments and tips to existing orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>. </td>
     </tr>
     <tr>
       <td>Orders</td>
       <td>Void</td>
-      <td>`orders.channel:void`</td>
-      <td>Allows voiding an order using the [orders API](https://doc.toasttab.com/openapi/orders/overview/).</td>
+      <td><code>orders.channel:void</code></td>
+      <td>Allows voiding an order using the <a href="https://doc.toasttab.com/openapi/orders/overview/">orders API</a>.</td>
     </tr>
     <tr>
       <td>Packaging preferences</td>
       <td>Read</td>
-      <td>`packaging:read`</td>
-      <td>Allows reading a restaurant's packaging preferences configuration using the [packaging configuration API](https://doc.toasttab.com/openapi/packaging/overview/). </td>
+      <td><code>packaging:read</code></td>
+      <td>Allows reading a restaurant's packaging preferences configuration using the <a href="https://doc.toasttab.com/openapi/packaging/overview/">packaging configuration API</a>. </td>
     </tr>
     <tr>
       <td>Restaurant availability <br/> Restaurants</td>
       <td>Read</td>
-      <td>`restaurants:read`</td>
-      <td>Allows reading from the [restaurant availability API](https://doc.toasttab.com/openapi/rx.availability.service/overview/). <br/> Allows reading from the [restaurants API](https://doc.toasttab.com/openapi/restaurants/overview/).</td>
+      <td><code>restaurants:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/rx.availability.service/overview/">restaurant availability API</a>. <br/> Allows reading from the <a href="https://doc.toasttab.com/openapi/restaurants/overview/">restaurants API</a>.</td>
     </tr>
     <tr>
       <td>Stock</td>
       <td>Read</td>
-      <td>`stock:read`</td>
-      <td>Allows reading from the [stock API](https://doc.toasttab.com/openapi/stock/overview/).</td>
+      <td><code>stock:read</code></td>
+      <td>Allows reading from the <a href="https://doc.toasttab.com/openapi/stock/overview/">stock API</a>.</td>
     </tr>
     <tr>
       <td>Stock</td>
       <td>Write</td>
-      <td>`stock:write`</td>
-      <td>Allows updating stock status for menu items (and modifier option [item references](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference)) using the [stock API](https://doc.toasttab.com/openapi/stock/overview/).</td>
+      <td><code>stock:write</code></td>
+      <td>Allows updating stock status for menu items (and modifier option <a href="adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference">item references</a>) using the <a href="https://doc.toasttab.com/openapi/stock/overview/">stock API</a>.</td>
     </tr>
   </tbody>
 </table>

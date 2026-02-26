@@ -36,11 +36,11 @@ This section uses the following webhook terms and concepts:
     </tr>
     <tr>
       <td>Event category</td>
-      <td>A Toast-defined classification for the type of events a webhook sends. For example, the `partners` event category sends webhook events related to the addition or removal of partner integrations to a restaurant location.</td>
+      <td>A Toast-defined classification for the type of events a webhook sends. For example, the <code>partners</code> event category sends webhook events related to the addition or removal of partner integrations to a restaurant location.</td>
     </tr>
     <tr>
       <td>Event type</td>
-      <td>A Toast-defined name for a specific type of webhook event, for example, a `partner_added` or `partner_removed` event.</td>
+      <td>A Toast-defined name for a specific type of webhook event, for example, a <code>partner_added</code> or <code>partner_removed</code> event.</td>
     </tr>
     <tr>
       <td>Event GUID</td>
@@ -52,7 +52,7 @@ This section uses the following webhook terms and concepts:
     </tr>
     <tr>
       <td>Webhook secret</td>
-      <td>A secret passphrase generated when a webhook subscription is created. The passphrase is used to sign the contents of a message posted to the endpoint associated with the webhook subscription. See [Message signing](apiDevGuide-apiMessageSigning). <br/> The secret key is unique for each webhook subscription within an environment. For example, a `stock` webhook subscription has a different secret key than a `partner` webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see [Webhook basics](apiDevGuide-apiWebhookBasics). For more information about Toast API environments, see [Environments](apiDevGuide-apiEnvironments).</td>
+      <td>A secret passphrase generated when a webhook subscription is created. The passphrase is used to sign the contents of a message posted to the endpoint associated with the webhook subscription. See <a href="apiDevGuide-apiMessageSigning">Message signing</a>. <br/> The secret key is unique for each webhook subscription within an environment. For example, a <code>stock</code> webhook subscription has a different secret key than a <code>partner</code> webhook subscription for the same integration partner and within the same environment. For more information about webhook subscriptions, see <a href="apiDevGuide-apiWebhookBasics">Webhook basics</a>. For more information about Toast API environments, see <a href="apiDevGuide-apiEnvironments">Environments</a>.</td>
     </tr>
   </tbody>
 </table>

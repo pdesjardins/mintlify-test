@@ -44,12 +44,12 @@ curl -X GET \ -H "Authorization: Bearer
 
 
     <tr>
-      <td>[(1)](#co-d1e8108E4737FC-3875-4918-866A-092F630A0814)</td>
-      <td>Use the `Toast-Restaurant-External-ID` request parameter to specify the GUID of the restaurant in which the payment was made.</td>
+      <td><a href="#co-d1e8108E4737FC-3875-4918-866A-092F630A0814">(1)</a></td>
+      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant in which the payment was made.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e8158E4737FC-3875-4918-866A-092F630A0814)</td>
-      <td>Specify the payment GUID, which you can get from the `/payments` endpoint of the orders API.</td>
+      <td><a href="#co-d1e8158E4737FC-3875-4918-866A-092F630A0814">(2)</a></td>
+      <td>Specify the payment GUID, which you can get from the <code>/payments</code> endpoint of the orders API.</td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/payments/<em>&#123;guid&#125;</em>`endpoint. The payment method for this sample payment was a credit card.
@@ -94,48 +94,48 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
     <tr>
-      <td>[(1)](#co-d1e8554F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>The `guid` value contains the unique Toast POS identifier of the payment.</td>
+      <td><a href="#co-d1e8554F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(1)</a></td>
+      <td>The <code>guid</code> value contains the unique Toast POS identifier of the payment.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e8574F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td><a href="#co-d1e8574F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(2)</a></td>
       <td>The amount of the payment, including taxes and service charges but excluding tips.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e8594F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td><a href="#co-d1e8594F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(3)</a></td>
       <td>The amount tipped on this payment.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e8614F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is `null` if a house account was not used for payment.</td>
+      <td><a href="#co-d1e8614F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(4)</a></td>
+      <td>If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is <code>null</code> if a house account was not used for payment.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e8634F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>The payment method, such as `CREDIT` for a credit card.</td>
+      <td><a href="#co-d1e8634F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(5)</a></td>
+      <td>The payment method, such as <code>CREDIT</code> for a credit card.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e8664F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>If the payment was voided, this value contains a `VoidInformation` object with information about the void. For details, see [Voided payments](apiDevGuide-apiPaymentntInformation#apiVoidedPayments). The value is `null` if the payment has not been voided.</td>
+      <td><a href="#co-d1e8664F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(6)</a></td>
+      <td>If the payment was voided, this value contains a <code>VoidInformation</code> object with information about the void. For details, see <a href="apiDevGuide-apiPaymentntInformation#apiVoidedPayments">Voided payments</a>. The value is <code>null</code> if the payment has not been voided.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e8684F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>Reference information (such as the GUID) of an other payment option used to pay the check. The value is `null` if an other payment option was not used for payment.</td>
+      <td><a href="#co-d1e8684F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(7)</a></td>
+      <td>Reference information (such as the GUID) of an other payment option used to pay the check. The value is <code>null</code> if an other payment option was not used for payment.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e8704F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td><a href="#co-d1e8704F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(8)</a></td>
       <td>The date and time when the payment was made.</td>
     </tr>
     <tr>
-      <td>[(9)](#co-d1e8724F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>For credit card payments, specifies how the credit card data was obtained. The value is `null` if a credit card was not used for payment.</td>
+      <td><a href="#co-d1e8724F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(9)</a></td>
+      <td>For credit card payments, specifies how the credit card data was obtained. The value is <code>null</code> if a credit card was not used for payment.</td>
     </tr>
     <tr>
-      <td>[(10)](#co-d1e8744F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
+      <td><a href="#co-d1e8744F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(10)</a></td>
       <td>The status of the payment. In this example, the payment has been captured.</td>
     </tr>
     <tr>
-      <td>[(11)](#co-d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49)</td>
-      <td>If the payment has been refunded, this value contains a `Refund` object with information about the refund. For details, see [Refunded payments](apiDevGuide-apiPaymentntInformation#apiRefundedPayments). The value is `null` if the payment has not been refunded.</td>
+      <td><a href="#co-d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49">(11)</a></td>
+      <td>If the payment has been refunded, this value contains a <code>Refund</code> object with information about the refund. For details, see <a href="apiDevGuide-apiPaymentntInformation#apiRefundedPayments">Refunded payments</a>. The value is <code>null</code> if the payment has not been refunded.</td>
     </tr>
   
 The following sections provide information about voided and refunded payments.
@@ -213,36 +213,36 @@ The following example shows the JSON response data for a voided cash payment.
 
 
     <tr>
-      <td>[(1)](#co-d1e8873DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
-      <td>The `VoidInformation` object with details of the void.</td>
+      <td><a href="#co-d1e8873DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(1)</a></td>
+      <td>The <code>VoidInformation</code> object with details of the void.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e8893DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
-      <td>The restaurant employee who voided the check or the item. The `guid` value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see [Getting all employees of a restaurant](apiDevGuide-api_get_all_employees).</td>
+      <td><a href="#co-d1e8893DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(2)</a></td>
+      <td>The restaurant employee who voided the check or the item. The <code>guid</code> value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see <a href="apiDevGuide-api_get_all_employees">Getting all employees of a restaurant</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e8913DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td><a href="#co-d1e8913DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(3)</a></td>
       <td>The restaurant employee who approved the void. The employee approving the void may be the same person who voided the payment.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e8933DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td><a href="#co-d1e8933DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(4)</a></td>
       <td>The date and time when the payment was voided.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e8953DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td><a href="#co-d1e8953DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(5)</a></td>
       <td>The business date when the payment was voided.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e8983DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
-      <td>The pre-configured void reason that was specified for the void. The value is `null` if a void reason was not specified.</td>
+      <td><a href="#co-d1e8983DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(6)</a></td>
+      <td>The pre-configured void reason that was specified for the void. The value is <code>null</code> if a void reason was not specified.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e9003DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
+      <td><a href="#co-d1e9003DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(7)</a></td>
       <td>The date and time when the original (pre-void) payment was made.</td>
     </tr>
     <tr>
-      <td>[(8)](#co-d1e9023DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF)</td>
-      <td>The current status of the payment, which is `VOIDED` for voided payments.</td>
+      <td><a href="#co-d1e9023DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF">(8)</a></td>
+      <td>The current status of the payment, which is <code>VOIDED</code> for voided payments.</td>
     </tr>
   
 ## Refunded payments
@@ -296,31 +296,31 @@ The following example shows the JSON response data for a refunded credit card pa
 
 
     <tr>
-      <td>[(1)](#co-d1e11385397DA82-3E87-45E1-9461-6911EBC8A028)</td>
-      <td>The status of the refund. A `FULL` status means that a full refund was made on this payment.</td>
+      <td><a href="#co-d1e11385397DA82-3E87-45E1-9461-6911EBC8A028">(1)</a></td>
+      <td>The status of the refund. A <code>FULL</code> status means that a full refund was made on this payment.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e11405397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td><a href="#co-d1e11405397DA82-3E87-45E1-9461-6911EBC8A028">(2)</a></td>
       <td>The date and time when the original (pre-refund) payment was made.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e11425397DA82-3E87-45E1-9461-6911EBC8A028)</td>
-      <td>The `Refund` object with details of the refund.</td>
+      <td><a href="#co-d1e11425397DA82-3E87-45E1-9461-6911EBC8A028">(3)</a></td>
+      <td>The <code>Refund</code> object with details of the refund.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e11445397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td><a href="#co-d1e11445397DA82-3E87-45E1-9461-6911EBC8A028">(4)</a></td>
       <td>The amount of the refund, excluding the tip.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e11465397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td><a href="#co-d1e11465397DA82-3E87-45E1-9461-6911EBC8A028">(5)</a></td>
       <td>The amount of the tip refund.</td>
     </tr>
     <tr>
-      <td>[(6)](#co-d1e11495397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td><a href="#co-d1e11495397DA82-3E87-45E1-9461-6911EBC8A028">(6)</a></td>
       <td>The date and time when the payment was refunded.</td>
     </tr>
     <tr>
-      <td>[(7)](#co-d1e11515397DA82-3E87-45E1-9461-6911EBC8A028)</td>
+      <td><a href="#co-d1e11515397DA82-3E87-45E1-9461-6911EBC8A028">(7)</a></td>
       <td>The business date when the payment was refunded.</td>
     </tr>
   

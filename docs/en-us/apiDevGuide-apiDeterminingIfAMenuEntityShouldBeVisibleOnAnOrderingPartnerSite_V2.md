@@ -40,25 +40,25 @@ The channel visibility settings reside on a menu entity's details page in Toast 
     <tr>
       <td>In-store orders: POS</td>
       <td>POS</td>
-      <td>`POS`</td>
+      <td><code>POS</code></td>
       <td>The menu entity is visible on a Toast POS device.</td>
     </tr>
     <tr>
       <td>In-store orders: Kiosk</td>
       <td>Kiosk, Toast Order and Pay</td>
-      <td>`KIOSK`</td>
+      <td><code>KIOSK</code></td>
       <td>The menu entity is visible on a Toast Kiosk.</td>
     </tr>
     <tr>
       <td>Online orders: Toast</td>
       <td>Toast Online Ordering, Toast Takeout (Local by Toast) app</td>
-      <td>`TOAST_ONLINE_ORDERING`</td>
+      <td><code>TOAST_ONLINE_ORDERING</code></td>
       <td>The menu entity is visible on a restaurant's Toast online ordering site.</td>
     </tr>
     <tr>
       <td>Online orders: Ordering partners</td>
       <td>Online ordering partners</td>
-      <td>`ORDERING_PARTNERS`</td>
+      <td><code>ORDERING_PARTNERS</code></td>
       <td>The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</td>
     </tr>
   </tbody>

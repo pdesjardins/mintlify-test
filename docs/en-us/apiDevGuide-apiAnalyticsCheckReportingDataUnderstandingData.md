@@ -31,84 +31,84 @@ The following table specifies the set of values returned in the check reporting 
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`orderNumber`</td>
+      <td><code>orderNumber</code></td>
       <td>The number of the order.</td>
     </tr>
     <tr>
-      <td>`orderGuid`</td>
+      <td><code>orderGuid</code></td>
       <td>The unique identifier assigned to the order by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`checkNumber`</td>
+      <td><code>checkNumber</code></td>
       <td>The number of the check.</td>
     </tr>
     <tr>
-      <td>`checkGuid`</td>
+      <td><code>checkGuid</code></td>
       <td>The unique identifier assigned to the check by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`orderOpenedDate`</td>
+      <td><code>orderOpenedDate</code></td>
       <td>The business date for when the order is initially expected to be fulfilled. This date determines whether a check is within the requested time range or not.</td>
     </tr>
     <tr>
-      <td>`checkPaidDateTime`</td>
+      <td><code>checkPaidDateTime</code></td>
       <td>The most recent date the check received payment.</td>
     </tr>
     <tr>
-      <td>`checkModifiedDateTime`</td>
+      <td><code>checkModifiedDateTime</code></td>
       <td>The most recent date that the check was modified.</td>
     </tr>
     <tr>
-      <td>`checkStatus `</td>
-      <td>The payment state of the check. The state can be one of the following values: <ul><li>`OPEN` : The check is open and unpaid.</li><li>`PAID` : The check is paid, but the payment is not finalized.</li><li>`CLOSED` : The check payment is finalized.</li></ul></td>
+      <td><code>checkStatus </code></td>
+      <td>The payment state of the check. The state can be one of the following values: <ul><li><code>OPEN</code> : The check is open and unpaid.</li><li><code>PAID</code> : The check is paid, but the payment is not finalized.</li><li><code>CLOSED</code> : The check payment is finalized.</li></ul></td>
     </tr>
     <tr>
-      <td>`checkVoidedStatus`</td>
-      <td>Indicates whether the check was voided or not. A `true` value indicates the check was voided, while a `false` value indicates the check was not voided.</td>
+      <td><code>checkVoidedStatus</code></td>
+      <td>Indicates whether the check was voided or not. A <code>true</code> value indicates the check was voided, while a <code>false</code> value indicates the check was not voided.</td>
     </tr>
     <tr>
-      <td>`diningOption`</td>
+      <td><code>diningOption</code></td>
       <td>The dining option for the check data.</td>
     </tr>
     <tr>
-      <td>`revenueCenter`</td>
+      <td><code>revenueCenter</code></td>
       <td>The revenue center for the check data.</td>
     </tr>
     <tr>
-      <td>`serverName`</td>
+      <td><code>serverName</code></td>
       <td>The first and last name of the employee who created the order.</td>
     </tr>
     <tr>
-      <td>`checkTotalAmount`</td>
+      <td><code>checkTotalAmount</code></td>
       <td>The total amount of the check.</td>
     </tr>
     <tr>
-      <td>`checkDiscountAmount`</td>
+      <td><code>checkDiscountAmount</code></td>
       <td>The total discounted amount of the check.</td>
     </tr>
     <tr>
-      <td>`checkTaxAmount`</td>
+      <td><code>checkTaxAmount</code></td>
       <td>The total tax amount of the check.</td>
     </tr>
     <tr>
-      <td>`checkTipAmount`</td>
+      <td><code>checkTipAmount</code></td>
       <td>The total tip amount of the check.</td>
     </tr>
     <tr>
-      <td>`checkGratuityAmount`</td>
+      <td><code>checkGratuityAmount</code></td>
       <td>The total gratuity amount of the check.</td>
     </tr>
     <tr>
-      <td>`checkRefundAmount`</td>
+      <td><code>checkRefundAmount</code></td>
       <td>The total refund amount of the check.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
-      <td>The restaurant’s name. This is included when you set the `fetchRestaurantNames` parameter to `true` in the `GET` request.</td>
+      <td><code>restaurantName</code></td>
+      <td>The restaurant’s name. This is included when you set the <code>fetchRestaurantNames</code> parameter to <code>true</code> in the <code>GET</code> request.</td>
     </tr>
   </tbody>
 </table>

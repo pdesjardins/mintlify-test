@@ -48,16 +48,16 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr>
-      <td>[(1)](#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
+      <td><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD">(1)</a></td>
       <td>Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
-      <td>Specify the data type of the message body in the Content-Type header field. The value must be `application/json`.</td>
+      <td><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD">(2)</a></td>
+      <td>Specify the data type of the message body in the Content-Type header field. The value must be <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
-      <td>Include information about the new employee in the message body of the `POST` request. This example <strong>curl</strong>  command sends message body data from the contents of a file.</td>
+      <td><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD">(3)</a></td>
+      <td>Include information about the new employee in the message body of the <code>POST</code> request. This example <strong>curl</strong>  command sends message body data from the contents of a file.</td>
     </tr>
   
 ## Example shift details for the message body of the request to add a shift
@@ -86,23 +86,23 @@ The following example shows the message body data that provides information abou
 
 
     <tr>
-      <td>[(1)](#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
+      <td><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD">(1)</a></td>
       <td>Specify the GUID of the employee who will work the shift.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
-      <td>Specify the data type of the Toast platform input object. The value must be `Shift`.</td>
+      <td><a href="#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD">(2)</a></td>
+      <td>Specify the data type of the Toast platform input object. The value must be <code>Shift</code>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
+      <td><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD">(3)</a></td>
       <td>Specify the date and time that the shift begins.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
-      <td>Specify the job for the shift in the `jobReference` value.</td>
+      <td><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD">(4)</a></td>
+      <td>Specify the job for the shift in the <code>jobReference</code> value.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
+      <td><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD">(5)</a></td>
       <td>Specify the date and time that the shift ends.</td>
     </tr>
   
@@ -140,7 +140,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 
     <tr>
-      <td>[(1)](#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD)</td>
-      <td>The `guid` value contains the GUID that the Toast platform assigns to the shift.</td>
+      <td><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD">(1)</a></td>
+      <td>The <code>guid</code> value contains the GUID that the Toast platform assigns to the shift.</td>
     </tr>
   

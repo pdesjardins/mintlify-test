@@ -224,11 +224,11 @@ The following example shows the orders API return data for a marketplace facilit
 
 
     <tr>
-      <td>[(1)](#co-d1e31CC34B3B2-D5E8-41EC-A472-B380E595E5A4)</td>
-      <td>Any value <em>other than</em> `EXTERNAL` indicates that the marketplace facilitator used the prices and tax amounts calculated by the Toast platform for the order.</td>
+      <td><a href="#co-d1e31CC34B3B2-D5E8-41EC-A472-B380E595E5A4">(1)</a></td>
+      <td>Any value <em>other than</em> <code>EXTERNAL</code> indicates that the marketplace facilitator used the prices and tax amounts calculated by the Toast platform for the order.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e33CC34B3B2-D5E8-41EC-A472-B380E595E5A4)</td>
+      <td><a href="#co-d1e33CC34B3B2-D5E8-41EC-A472-B380E595E5A4">(2)</a></td>
       <td>Indicates that the marketplace facilitator remitted tax amounts on behalf of the restaurant location.</td>
     </tr>
 ## Example return data with specified prices and tax amounts
@@ -311,10 +311,10 @@ The marketplace facilitator submits those prices and tax amounts to the Toast pl
 
 
     <tr>
-      <td>[(1)](#co-d1e47CC34B3B2-D5E8-41EC-A472-B380E595E5A4)</td>
-      <td>The value `EXTERNAL` indicates that the marketplace facilitator specified the prices and tax amounts for the order.</td>
+      <td><a href="#co-d1e47CC34B3B2-D5E8-41EC-A472-B380E595E5A4">(1)</a></td>
+      <td>The value <code>EXTERNAL</code> indicates that the marketplace facilitator specified the prices and tax amounts for the order.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e49CC34B3B2-D5E8-41EC-A472-B380E595E5A4)</td>
+      <td><a href="#co-d1e49CC34B3B2-D5E8-41EC-A472-B380E595E5A4">(2)</a></td>
       <td>Indicates that the marketplace facilitator remitted tax amounts on behalf of the restaurant location.</td>
     </tr>

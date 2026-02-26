@@ -70,20 +70,20 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
 
 
     <tr>
-      <td>[(1)](#co-d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Send a `POST` request to the `/era/v1/metrics` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/metrics</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e11336FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e11336FAD0EEB-57EF-441A-9E58-614F985F6270">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestCustomRangeExampleMessageBody) is the message body for this <strong>curl</strong>  command example.</td>
+      <td><a href="#co-d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270">(4)</a></td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. The <a href="apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestCustomRangeExampleMessageBody">following example</a> is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the custom time range aggregated sales reporting data request
 
@@ -108,23 +108,23 @@ The following example shows the message body for creating an aggregated sales re
 
 
     <tr>
-      <td>[(1)](#co-d1e11956FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The start date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e11956FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>The start date of the time range for the aggregated sales reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e11976FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The end date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e11976FAD0EEB-57EF-441A-9E58-614F985F6270">(2)</a></td>
+      <td>The end date of the time range for the aggregated sales reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e11996FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td><a href="#co-d1e11996FAD0EEB-57EF-441A-9E58-614F985F6270">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e12016FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+      <td><a href="#co-d1e12016FAD0EEB-57EF-441A-9E58-614F985F6270">(4)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e12036FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td><a href="#co-d1e12036FAD0EEB-57EF-441A-9E58-614F985F6270">(5)</a></td>
       <td>This request is for aggregated sales reporting data grouped by revenue center.</td>
     </tr>
 ### Response to the request for custom time range aggregated sales reporting data
@@ -139,8 +139,8 @@ The following example shows the response from the `/era/v1/metrics` endpoint.
 
 
     <tr>
-      <td>[(1)](#co-d1e12656FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The GUID for the aggregated sales reporting data request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e12656FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>The GUID for the aggregated sales reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 For an example that shows how to retrieve the aggregated sales reporting data, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
 
@@ -186,20 +186,20 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 
 
     <tr>
-      <td>[(1)](#co-d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Send a `POST` request to the `/era/v1/metrics/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `week`.</td>
+      <td><a href="#co-d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/metrics/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code>&#123;timeRange&#125;</code> in this example is <code>week</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e14236FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e14236FAD0EEB-57EF-441A-9E58-614F985F6270">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>Include details about the requested aggregated sales reporting data in the message body. The [following example](apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestSpecificRangeExampleMessageBody) is the message body for this <strong>curl</strong>  command example.</td>
+      <td><a href="#co-d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270">(4)</a></td>
+      <td>Include details about the requested aggregated sales reporting data in the message body. The <a href="apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestSpecificRangeExampleMessageBody">following example</a> is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for the specific time range aggregated sales reporting data request
 
@@ -223,23 +223,23 @@ The following example shows the message body for creating an aggregated sales re
 
 
     <tr>
-      <td>[(1)](#co-d1e15026FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The start date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e15026FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>The start date of the time range for the aggregated sales reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e15036FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The end date of the time range for the aggregated sales reporting data, in `YYYYMMDD` format. The number of days in the time range must be seven or fewer because the request is for a `week` time range.</td>
+      <td><a href="#co-d1e15036FAD0EEB-57EF-441A-9E58-614F985F6270">(2)</a></td>
+      <td>The end date of the time range for the aggregated sales reporting data, in <code>YYYYMMDD</code> format. The number of days in the time range must be seven or fewer because the request is for a <code>week</code> time range.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e15056FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td><a href="#co-d1e15056FAD0EEB-57EF-441A-9E58-614F985F6270">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e15076FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+      <td><a href="#co-d1e15076FAD0EEB-57EF-441A-9E58-614F985F6270">(4)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-d1e15096FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
+      <td><a href="#co-d1e15096FAD0EEB-57EF-441A-9E58-614F985F6270">(5)</a></td>
       <td>This request for aggregated sales reporting data is not grouped by dining option, order source, or revenue center.</td>
     </tr>
 ### Response to the request for specific time range aggregated sales reporting data
@@ -254,8 +254,8 @@ The following example shows the response from the `/era/v1/metrics/&#123;timeRan
 
 
     <tr>
-      <td>[(1)](#co-d1e15686FAD0EEB-57EF-441A-9E58-614F985F6270)</td>
-      <td>The GUID for the aggregated sales reporting data, or the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e15686FAD0EEB-57EF-441A-9E58-614F985F6270">(1)</a></td>
+      <td>The GUID for the aggregated sales reporting data, or the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 For the example about how to retrieve the aggregated sales reporting data for this request, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
 

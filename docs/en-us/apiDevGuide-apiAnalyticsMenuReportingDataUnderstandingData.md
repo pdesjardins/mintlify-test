@@ -31,92 +31,92 @@ The following table specifies the returned set of values in the menu reporting d
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
+      <td><code>restaurantName</code></td>
       <td>The restaurant’s name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationName`</td>
+      <td><code>restaurantLocationName</code></td>
       <td>The restaurant’s location name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationCode`</td>
+      <td><code>restaurantLocationCode</code></td>
       <td>The restaurant’s location code.</td>
     </tr>
     <tr>
-      <td>`businessDate`</td>
-      <td>The calendar date of the associated order data, in `YYYYMMDD` format.</td>
+      <td><code>businessDate</code></td>
+      <td>The calendar date of the associated order data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>`netSalesAmount`</td>
-      <td>The total sales, excluding tax, gratuity, tips, discounts, refunds, and deferred amounts. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the net sales for the associated menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the net sales for the modifier. </td>
+      <td><code>netSalesAmount</code></td>
+      <td>The total sales, excluding tax, gratuity, tips, discounts, refunds, and deferred amounts. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the net sales for the associated menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the net sales for the modifier. </td>
     </tr>
     <tr>
-      <td>`grossSalesAmount`</td>
-      <td>The total sales, including discounts and refunds. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the gross sales for the associated menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the gross sales for the modifier. </td>
+      <td><code>grossSalesAmount</code></td>
+      <td>The total sales, including discounts and refunds. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the gross sales for the associated menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the gross sales for the modifier. </td>
     </tr>
     <tr>
-      <td>`discountAmount`</td>
-      <td>The total amount of discounts. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the discount amount for the associated menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the discount amount for the modifier. </td>
+      <td><code>discountAmount</code></td>
+      <td>The total amount of discounts. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the discount amount for the associated menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the discount amount for the modifier. </td>
     </tr>
     <tr>
-      <td>`refundAmount`</td>
-      <td>The total amount of refunded sales. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the refund amount for the associated menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the refund amount for the modifier. </td>
+      <td><code>refundAmount</code></td>
+      <td>The total amount of refunded sales. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the refund amount for the associated menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the refund amount for the modifier. </td>
     </tr>
     <tr>
-      <td>`voidAmount`</td>
-      <td>The total amount of voided sales. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the void amount for the associated menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the void amount for the modifier. </td>
+      <td><code>voidAmount</code></td>
+      <td>The total amount of voided sales. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the void amount for the associated menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the void amount for the modifier. </td>
     </tr>
     <tr>
-      <td>`quantitySold`</td>
-      <td>The number of menu entities sold. This number includes items that were made but later refunded. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the count of the associated menu item or items and does not count modifiers separately. When grouping by `MODIFIER`, this is the count of the modifier.</td>
+      <td><code>quantitySold</code></td>
+      <td>The number of menu entities sold. This number includes items that were made but later refunded. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the count of the associated menu item or items and does not count modifiers separately. When grouping by <code>MODIFIER</code>, this is the count of the modifier.</td>
     </tr>
     <tr>
-      <td>`averagePrice`</td>
-      <td>The average price of the menu entity. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the average price for the associated menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the average price for the modifier. </td>
+      <td><code>averagePrice</code></td>
+      <td>The average price of the menu entity. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the average price for the associated menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the average price for the modifier. </td>
     </tr>
     <tr>
-      <td>`wasteCount`</td>
-      <td>The number of menu entities tracked as food waste. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the count of the associated menu item or items and does not count modifiers separately. When grouping by `MODIFIER`, this is the count of the modifier.</td>
+      <td><code>wasteCount</code></td>
+      <td>The number of menu entities tracked as food waste. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the count of the associated menu item or items and does not count modifiers separately. When grouping by <code>MODIFIER</code>, this is the count of the modifier.</td>
     </tr>
     <tr>
-      <td>`wasteAmount`</td>
-      <td>The total amount tracked as food waste. When grouping by `MENU`, `MENU_GROUP`, or `MENU_ITEM`, this is the total price for the menu item or items, including any modifiers. When grouping by `MODIFIER`, this is the total price for the modifier. </td>
+      <td><code>wasteAmount</code></td>
+      <td>The total amount tracked as food waste. When grouping by <code>MENU</code>, <code>MENU_GROUP</code>, or <code>MENU_ITEM</code>, this is the total price for the menu item or items, including any modifiers. When grouping by <code>MODIFIER</code>, this is the total price for the modifier. </td>
     </tr>
     <tr>
-      <td>`menuGuid`</td>
-      <td>The identifier for the menu, assigned by the Toast platform. This property appears when the request for menu data includes the `groupBy` property with value `MENU`.</td>
+      <td><code>menuGuid</code></td>
+      <td>The identifier for the menu, assigned by the Toast platform. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MENU</code>.</td>
     </tr>
     <tr>
-      <td>`menuName`</td>
-      <td>The name of the menu. This property appears when the request for menu data includes the `groupBy` property with value `MENU`.</td>
+      <td><code>menuName</code></td>
+      <td>The name of the menu. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MENU</code>.</td>
     </tr>
     <tr>
-      <td>`menuGroupGuid`</td>
-      <td>The identifier for the menu group, assigned by the Toast platform. This property appears when the request for menu data includes the `groupBy` property with value `MENU_GROUP`.</td>
+      <td><code>menuGroupGuid</code></td>
+      <td>The identifier for the menu group, assigned by the Toast platform. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MENU_GROUP</code>.</td>
     </tr>
     <tr>
-      <td>`menuGroupName`</td>
-      <td>The name of the menu group. This property appears when the request for menu data includes the `groupBy` property with value `MENU_GROUP`.</td>
+      <td><code>menuGroupName</code></td>
+      <td>The name of the menu group. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MENU_GROUP</code>.</td>
     </tr>
     <tr>
-      <td>`menuItemGuid`</td>
-      <td>The identifier for the menu item, assigned by the Toast platform. This property appears when the request for menu data includes the `groupBy` property with value `MENU_ITEM`.</td>
+      <td><code>menuItemGuid</code></td>
+      <td>The identifier for the menu item, assigned by the Toast platform. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MENU_ITEM</code>.</td>
     </tr>
     <tr>
-      <td>`menuItemName`</td>
-      <td>The name of the menu item. This property appears when the request for menu data includes the `groupBy` property with value `MENU_ITEM`.</td>
+      <td><code>menuItemName</code></td>
+      <td>The name of the menu item. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MENU_ITEM</code>.</td>
     </tr>
     <tr>
-      <td>`modifierGuid`</td>
-      <td>The identifier for the modifier, assigned by the Toast platform. This property appears when the request for menu data includes the `groupBy` property with value `MODIFIER`.</td>
+      <td><code>modifierGuid</code></td>
+      <td>The identifier for the modifier, assigned by the Toast platform. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MODIFIER</code>.</td>
     </tr>
     <tr>
-      <td>`modifierName`</td>
-      <td>The name of the modifier. This property appears when the request for menu data includes the `groupBy` property with value `MODIFIER`.</td>
+      <td><code>modifierName</code></td>
+      <td>The name of the modifier. This property appears when the request for menu data includes the <code>groupBy</code> property with value <code>MODIFIER</code>.</td>
     </tr>
   </tbody>
 </table>

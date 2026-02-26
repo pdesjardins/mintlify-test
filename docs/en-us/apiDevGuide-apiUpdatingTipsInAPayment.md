@@ -80,8 +80,8 @@ The following example shows a `Payment` object that updates the tip amount for a
 
 
     <tr>
-      <td>[(1)](#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
-      <td>The updated tip amount. The tip amount for the payment is completely replaced by the `tipAmount` value that you include in the message body of the `PATCH` request.</td>
+      <td><a href="#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(1)</a></td>
+      <td>The updated tip amount. The tip amount for the payment is completely replaced by the <code>tipAmount</code> value that you include in the message body of the <code>PATCH</code> request.</td>
     </tr>
 ## Example response when you update a tip in an existing payment
 
@@ -148,22 +148,22 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
 
 
     <tr>
-      <td>[(1)](#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td><a href="#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(1)</a></td>
       <td>The Toast platform GUID of the order that you updated a tip amount in.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td><a href="#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(2)</a></td>
       <td>The Toast platform GUID of the check that you updated a tip amount in.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
+      <td><a href="#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(3)</a></td>
       <td>The Toast platform GUID of the payment that you updated a tip amount in.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5)</td>
-      <td>The updated tip amount. The `tipAmount` value that you provide in the `PATCH` request completely replaces the existing tip amount for the payment.</td>
+      <td><a href="#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(4)</a></td>
+      <td>The updated tip amount. The <code>tipAmount</code> value that you provide in the <code>PATCH</code> request completely replaces the existing tip amount for the payment.</td>
     </tr>
     <tr>
-      <td>[(5)](#co-paymentStatus)</td>
-      <td>When you update a tip amount, the `paymentStatus` value must be `AUTHORIZED`.</td>
+      <td><a href="#co-paymentStatus">(5)</a></td>
+      <td>When you update a tip amount, the <code>paymentStatus</code> value must be <code>AUTHORIZED</code>.</td>
     </tr>

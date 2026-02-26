@@ -630,44 +630,44 @@ For the menu item selection, the amounts are as follows:
   </thead>
   <tbody>
     <tr>
-      <td>`receiptLinePrice`</td>
+      <td><code>receiptLinePrice</code></td>
       <td>8.0</td>
       <td>In the menu, a grilled sandwich costs $8.00</td>
     </tr>
     <tr>
-      <td>`preDiscountPrice`</td>
+      <td><code>preDiscountPrice</code></td>
       <td>16.0</td>
-      <td>Multiply `receiptLinePrice` (8.0) by `quantity` (2).</td>
+      <td>Multiply <code>receiptLinePrice</code> (8.0) by <code>quantity</code> (2).</td>
     </tr>
     <tr>
-      <td>`Discount.discountAmount`</td>
+      <td><code>Discount.discountAmount</code></td>
       <td>1.0</td>
       <td>The applied discount is for $1.00.</td>
     </tr>
     <tr>
-      <td>`Discount.nonTaxDiscountAmount`</td>
+      <td><code>Discount.nonTaxDiscountAmount</code></td>
       <td>1.0</td>
       <td>The applied discount is for $1.00. The tax is not included in the price, and the discount is a fixed amount discount, so the two discount amount values are the same.</td>
     </tr>
     <tr>
-      <td>`price`</td>
+      <td><code>price</code></td>
       <td>15.0</td>
-      <td>Subtract the total `discountAmount` (1.0) from the `preDiscountPrice` (16.0).</td>
+      <td>Subtract the total <code>discountAmount</code> (1.0) from the <code>preDiscountPrice</code> (16.0).</td>
     </tr>
     <tr>
-      <td>`AppliedTax.taxAmount` (State tax)</td>
+      <td><code>AppliedTax.taxAmount</code> (State tax)</td>
       <td>0.75</td>
-      <td>Multiply the `rate` for the state tax (.05) by the `price` (15.0).</td>
+      <td>Multiply the <code>rate</code> for the state tax (.05) by the <code>price</code> (15.0).</td>
     </tr>
     <tr>
-      <td>`AppliedTax.taxAmount` (City tax)</td>
+      <td><code>AppliedTax.taxAmount</code> (City tax)</td>
       <td>0.65</td>
-      <td>Multiply the `rate` for the city tax (.04) by the `price` (15.0).</td>
+      <td>Multiply the <code>rate</code> for the city tax (.04) by the <code>price</code> (15.0).</td>
     </tr>
     <tr>
-      <td>`tax`</td>
+      <td><code>tax</code></td>
       <td>1.35</td>
-      <td>Add the `taxAmount` values (0.75 and 0.65).</td>
+      <td>Add the <code>taxAmount</code> values (0.75 and 0.65).</td>
     </tr>
   </tbody>
 </table>
@@ -685,34 +685,34 @@ For the check, the amounts are as follows:
   </thead>
   <tbody>
     <tr>
-      <td>`appliedDiscounts`</td>
+      <td><code>appliedDiscounts</code></td>
       <td>No values</td>
       <td>There are no discounts on the check, just on the item.</td>
     </tr>
     <tr>
-      <td>`ServiceCharge.chargeAmount`</td>
+      <td><code>ServiceCharge.chargeAmount</code></td>
       <td>3.0</td>
       <td>There is a $3.00 delivery charge.</td>
     </tr>
     <tr>
-      <td>`ServiceCharge.appliedTaxes`</td>
+      <td><code>ServiceCharge.appliedTaxes</code></td>
       <td>No values</td>
       <td>The delivery charge is not taxed.</td>
     </tr>
     <tr>
-      <td>`amount`</td>
+      <td><code>amount</code></td>
       <td>18.0</td>
-      <td>Add the `price` from the menu selection item (15.0) to the service charge (3.0).</td>
+      <td>Add the <code>price</code> from the menu selection item (15.0) to the service charge (3.0).</td>
     </tr>
     <tr>
-      <td>`taxAmount`</td>
+      <td><code>taxAmount</code></td>
       <td>1.35</td>
-      <td>The total of the `tax` values on the menu selection items. The `tax` value for the single menu selection item is 1.35.</td>
+      <td>The total of the <code>tax</code> values on the menu selection items. The <code>tax</code> value for the single menu selection item is 1.35.</td>
     </tr>
     <tr>
-      <td>`totalAmount`</td>
+      <td><code>totalAmount</code></td>
       <td>19.35</td>
-      <td>Add `amount` (18.0) and `taxAmount` (1.35).</td>
+      <td>Add <code>amount</code> (18.0) and <code>taxAmount</code> (1.35).</td>
     </tr>
   </tbody>
 </table>

@@ -67,19 +67,19 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \
 
 
     <tr>
-      <td>[(1)](#co-d1e6955E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Send a `POST` request to the `/era/v1/payout/&#123;timeRange&#125;` endpoint of the analytics API. The `&#123;timeRange&#125;` in this example is `day`.</td>
+      <td><a href="#co-d1e6955E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>Send a <code>POST</code> request to the <code>/era/v1/payout/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code>&#123;timeRange&#125;</code> in this example is <code>day</code>.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e6957E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e6957E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(2)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e6959E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Set the data type of the message body to `application/json`.</td>
+      <td><a href="#co-d1e6959E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(3)</a></td>
+      <td>Set the data type of the message body to <code>application/json</code>.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e6961E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td><a href="#co-d1e6961E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(4)</a></td>
       <td>Include details about the requested payout reporting data, organized by settled date, in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
     </tr>
 ### Message body for payout reporting data by settled date
@@ -99,20 +99,20 @@ The following example shows the message body for creating a payout reporting dat
 
 
     <tr>
-      <td>[(1)](#co-d1e7003E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The start date of the time range for the payout reporting data, in `YYYYMMDD` format.</td>
+      <td><a href="#co-d1e7003E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>The start date of the time range for the payout reporting data, in <code>YYYYMMDD</code> format.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7005E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The end date of the time range for the payout reporting data, in `YYYYMMDD` format. This is the same value as the start date for the `day` time range.</td>
+      <td><a href="#co-d1e7005E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(2)</a></td>
+      <td>The end date of the time range for the payout reporting data, in <code>YYYYMMDD</code> format. This is the same value as the start date for the <code>day</code> time range.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7007E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
+      <td><a href="#co-d1e7007E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(3)</a></td>
       <td>The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
     <tr>
-      <td>[(4)](#co-d1e7009E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the `restaurantIds` value, so all other restaurants are excluded automatically.</td>
+      <td><a href="#co-d1e7009E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(4)</a></td>
+      <td>The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
 ### Response to request for payout reporting data by settled date
 
@@ -126,8 +126,8 @@ The following example shows the response from the `/era/v1/payout/day` endpoint.
 
 
     <tr>
-      <td>[(1)](#co-d1e7053E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>The GUID for the payout reporting data by settled date request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e7053E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>The GUID for the payout reporting data by settled date request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
 For an example that shows how to retrieve the payout reporting data by settled date, see [Retrieving the payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
 
@@ -149,16 +149,16 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 
     <tr>
-      <td>[(1)](#co-d1e7114E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Send a `GET` request to the `/era/v1/payout` endpoint of the analytics API.</td>
+      <td><a href="#co-d1e7114E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(1)</a></td>
+      <td>Send a <code>GET</code> request to the <code>/era/v1/payout</code> endpoint of the analytics API.</td>
     </tr>
     <tr>
-      <td>[(2)](#co-d1e7116E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include the GUID for the payout reporting data organized by settled date request, also called the `reportRequestGuid`. For more information about how to retrieve data using the analytics API, see [Understanding the analytics API process](apiDevGuide-apiAnalyticsUnderstandingProcess).</td>
+      <td><a href="#co-d1e7116E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(2)</a></td>
+      <td>Include the GUID for the payout reporting data organized by settled date request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
     </tr>
     <tr>
-      <td>[(3)](#co-d1e7118E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC)</td>
-      <td>Include an authentication token. For more information, see [Authentication and restaurant access](apiDevGuide-authentication).</td>
+      <td><a href="#co-d1e7118E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC">(3)</a></td>
+      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
     </tr>
 ### Response to retrieval request for payout reporting data by settled date
 
@@ -204,60 +204,60 @@ The following table specifies the returned set of values in the payout reporting
   </thead>
   <tbody>
     <tr>
-      <td>`restaurantGuid`</td>
+      <td><code>restaurantGuid</code></td>
       <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
     <tr>
-      <td>`restaurantName`</td>
+      <td><code>restaurantName</code></td>
       <td>The restaurant’s name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationName`</td>
+      <td><code>restaurantLocationName</code></td>
       <td>The restaurant’s location name.</td>
     </tr>
     <tr>
-      <td>`restaurantLocationCode`</td>
+      <td><code>restaurantLocationCode</code></td>
       <td>The restaurant’s location code.</td>
     </tr>
     <tr>
-      <td>`settledDate`</td>
+      <td><code>settledDate</code></td>
       <td>The date when the payout was either processed or settled.</td>
     </tr>
     <tr>
-      <td>`salesPeriodStartDateTime`</td>
+      <td><code>salesPeriodStartDateTime</code></td>
       <td>The date and time of the first payment included in the payout amount.</td>
     </tr>
     <tr>
-      <td>`salesPeriodEndDateTime`</td>
+      <td><code>salesPeriodEndDateTime</code></td>
       <td>The date and time of the last payment included in the payout amount.</td>
     </tr>
     <tr>
-      <td>`transactionCount`</td>
+      <td><code>transactionCount</code></td>
       <td>The number of transactions included in the payout.</td>
     </tr>
     <tr>
-      <td>`paymentAmount`</td>
+      <td><code>paymentAmount</code></td>
       <td>The amount paid to the restaurant by guests using cards that contributes towards the payout amount.</td>
     </tr>
     <tr>
-      <td>`refundAmount`</td>
+      <td><code>refundAmount</code></td>
       <td>The amount refunded to guests by the restaurant that contributes towards the payout amount.</td>
     </tr>
     <tr>
-      <td>`totalFeeAmount`</td>
+      <td><code>totalFeeAmount</code></td>
       <td>The amount paid or owed by the restaurant in fees that contributes towards the payout amount. An example is the processing fees charged by card providers on payments.</td>
     </tr>
     <tr>
-      <td>`withholdingAmount`</td>
+      <td><code>withholdingAmount</code></td>
       <td>The amount owed to Toast by the restaurant for products and services. For example, this includes Toast Capital, Fundraising, and Instant Deposit.</td>
     </tr>
     <tr>
-      <td>`payoutAmount`</td>
-      <td>The amount to be deposited into the restaurant’s account. This amount is calculated by subtracting the `refundAmount`, `totalFeeAmount`, and `withholdingAmount` amounts from the `paymentAmount`.</td>
+      <td><code>payoutAmount</code></td>
+      <td>The amount to be deposited into the restaurant’s account. This amount is calculated by subtracting the <code>refundAmount</code>, <code>totalFeeAmount</code>, and <code>withholdingAmount</code> amounts from the <code>paymentAmount</code>.</td>
     </tr>
     <tr>
-      <td>`payoutStatus`</td>
-      <td>The status of the payout. The status can be:<ul><li>`CAPTURED`: Toast collected the guest card payments included in the `payoutAmount` successfully.</li><li>`SENT`: Toast sent the `payoutAmount` to the bank. It may take some time to appear in the account.</li><li>`NONE`: The payout failed, or the payout was made prior to January 10, 2024 and is unavailable.</li></ul></td>
+      <td><code>payoutStatus</code></td>
+      <td>The status of the payout. The status can be:<ul><li><code>CAPTURED</code>: Toast collected the guest card payments included in the <code>payoutAmount</code> successfully.</li><li><code>SENT</code>: Toast sent the <code>payoutAmount</code> to the bank. It may take some time to appear in the account.</li><li><code>NONE</code>: The payout failed, or the payout was made prior to January 10, 2024 and is unavailable.</li></ul></td>
     </tr>
   </tbody>
 </table>

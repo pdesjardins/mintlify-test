@@ -60,24 +60,24 @@ Attributes in the `orders_updated` payload include:
   </thead>
   <tbody>
     <tr>
-      <td>`timestamp`</td>
+      <td><code>timestamp</code></td>
       <td>The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz. <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`eventCategory`</td>
-      <td>`order_updated` or `channel_order_updated`. <br/> data type: string</td>
+      <td><code>eventCategory</code></td>
+      <td><code>order_updated</code> or <code>channel_order_updated</code>. <br/> data type: string</td>
     </tr>
     <tr>
-      <td>`eventType`</td>
-      <td>`order_updated` or `channel_order_updated`. <br/>  data type: string </td>
+      <td><code>eventType</code></td>
+      <td><code>order_updated</code> or <code>channel_order_updated</code>. <br/>  data type: string </td>
     </tr>
     <tr>
-      <td>`guid`</td>
+      <td><code>guid</code></td>
       <td>A unique Toast platform identifier for the webhook event. <br/> data type: string <br/> format: UUID</td>
     </tr>
     <tr>
-      <td>`details`</td>
-      <td>A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the `appliedPackagingInfo` object which describes any order packaging preferences.</td>
+      <td><code>details</code></td>
+      <td>A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the <code>appliedPackagingInfo</code> object which describes any order packaging preferences.</td>
     </tr>
   </tbody>
 </table>
