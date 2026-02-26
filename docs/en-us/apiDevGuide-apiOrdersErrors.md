@@ -59,7 +59,7 @@ The entries in the table below define errors you may encounter while using the o
       <td>Your request contains a menu item entry that is missing a GUID or a `multilocationId`. You can find The GUID and `multilocationId` values by submitting a `GET` request from the appropriate menu endpoint. For more information see [devGuide](apiDevGuide-apiComparingMenusAPIV2AndV3)</td>
     </tr>
     <tr>
-      <td> Restaurant({*`restaurant GUID`*}) has been deleted</td>
+      <td> Restaurant(&#123;*`restaurant GUID`*&#125;) has been deleted</td>
       <td>The restaurant GUID that you are using in your order request refers to a restaurant that's been deleted. Stop all API requests to this restaurant. </td>
     </tr>
   </tbody>
