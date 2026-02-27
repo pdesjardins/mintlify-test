@@ -85,7 +85,7 @@ The Toast platform offers a variety of pricing-related features that give you th
     </tr>
     <tr>
       <td>Open items</td>
-      <td>Open items allow you to create a special request for a menu item that does not exist on your regular menu. When you create an open item on the Toast POS app, you give the item a name and a price and add it to a guest's check. Open items are configured on the Menus > Settings > Open items page. For information about configuring and using open items, see this <a href="https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670">Toast Central article</a>. <br/> Also, see <strong>Open Price pricing strategy</strong>  above for another pricing feature that handles menu items with open prices.</td>
+      <td>Open items allow you to create a special request for a menu item that does not exist on your regular menu. When you create an open item on the Toast POS app, you give the item a name and a price and add it to a guest's check. Open items are configured on the Menus &gt; Settings &gt; Open items page. For information about configuring and using open items, see this <a href="https://central.toasttab.com/s/article/Creating-an-Open-Item-or-Open-Priced-Menu-Item-1492811097670">Toast Central article</a>. <br/> Also, see <strong>Open Price pricing strategy</strong>  above for another pricing feature that handles menu items with open prices.</td>
       <td>Menu groups <br/> Menu items</td>
     </tr>
   </tbody>

@@ -459,7 +459,7 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
     </tr>
     <tr>
       <td><code>You are not permitted to access this resource</code></td>
-      <td>The <a href="adminGuide-ownersAndPermissions">owner</a> of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin > 4.5 Edit Full Menu permission to the location or location group that now owns the menu item.</td>
+      <td>The <a href="adminGuide-ownersAndPermissions">owner</a> of the menu item was changed and the employee who created the change set does not have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to the location or location group that now owns the menu item.</td>
     </tr>
     <tr>
       <td><code>ParameterValidationError</code></td>

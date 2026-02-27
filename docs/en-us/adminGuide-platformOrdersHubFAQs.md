@@ -25,7 +25,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td><strong>A:</strong> </td>
-      <td>The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:<ul><li>You have selected Delivery as a dining option in the Takeout/delivery page in Toast Web. From Toast Web, choose Takeout & delivery > Takeout/delivery to open the Takeout/delivery page.</li><li>You have turned on the Delivery or Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.</li></ul></td>
+      <td>The quote time for a specific dining option is displayed on the Orders Hub screen only if both of the following conditions are satisfied:<ul><li>You have selected Delivery as a dining option in the Takeout/delivery page in Toast Web. From Toast Web, choose Takeout & delivery &gt; Takeout/delivery to open the Takeout/delivery page.</li><li>You have turned on the Delivery or Takeout toggle in the Toast Online Ordering section on the Takeout & delivery page.</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -39,7 +39,7 @@ codeExamples: 0
     </tr>
     <tr>
       <td><strong>A:</strong> </td>
-      <td>Yes, you can use the Orders Hub screen in dark mode. To enable dark mode on your device, navigate to the Setup screen. Tap on Device Setup > POS Display Theme. Select Dark mode and then tap the Save button.</td>
+      <td>Yes, you can use the Orders Hub screen in dark mode. To enable dark mode on your device, navigate to the Setup screen. Tap on Device Setup &gt; POS Display Theme. Select Dark mode and then tap the Save button.</td>
     </tr>
   </tbody>
 </table>

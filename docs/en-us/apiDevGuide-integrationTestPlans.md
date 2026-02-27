@@ -40,56 +40,56 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>1</td>
       <td>Non-Existent Card</td>
       <td>Add Value</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Add Value ($). <br/> Enter any value, and click Next. <br/> Swipe or enter a number not associated with a gift card at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Add Value ($). <br/> Enter any value, and click Next. <br/> Swipe or enter a number not associated with a gift card at that restaurant.</td>
       <td>Gift card cannot be found error message appears.</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Non-Existent Card</td>
       <td>Balance Inquiry</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Balance Inquiry. <br/> Swipe or enter a number not associated with a gift card at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Balance Inquiry. <br/> Swipe or enter a number not associated with a gift card at that restaurant.</td>
       <td>Gift card cannot be found error message appears.</td>
     </tr>
     <tr>
       <td>3</td>
       <td>Non-Existent Card</td>
       <td>Redeem</td>
-      <td>From the Toast POS app > New Order. <br/> Add items to your order. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe or enter a number not associated with a gift card at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Add items to your order. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe or enter a number not associated with a gift card at that restaurant.</td>
       <td>Gift card cannot be found error message appears.</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Non-Existent Card</td>
       <td>Sell Card</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Sell Card. <br/> Enter any value, and click <code>Next</code>. <br/> Swipe or enter a number not associated with a gift card at the restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Sell Card. <br/> Enter any value, and click <code>Next</code>. <br/> Swipe or enter a number not associated with a gift card at the restaurant.</td>
       <td>Gift card cannot be found error message appears.</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Inactive Card</td>
       <td>Add Value</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Add Value ($). <br/> Enter any value, and click Next. <br/> Swipe an inactive gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Add Value ($). <br/> Enter any value, and click Next. <br/> Swipe an inactive gift card.</td>
       <td>The gift card is inactive error message appears.</td>
     </tr>
     <tr>
       <td>6</td>
       <td>Inactive Card</td>
       <td>Balance Inquiry</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Balance Inquiry. <br/> Swipe an inactive gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Balance Inquiry. <br/> Swipe an inactive gift card.</td>
       <td>The gift card is inactive error message appears.</td>
     </tr>
     <tr>
       <td>7</td>
       <td>Inactive Card</td>
       <td>Redeem</td>
-      <td>From the Toast POS app > New Order. <br/> Add items to your order. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe an inactive gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Add items to your order. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe an inactive gift card.</td>
       <td>The gift card is inactive error message appears.</td>
     </tr>
     <tr>
       <td>8</td>
       <td>Inactive Card</td>
       <td>Sell Card</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Sell Card. <br/> Enter any value, and click Next. <br/> Swipe inactive gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Sell Card. <br/> Enter any value, and click Next. <br/> Swipe inactive gift card.</td>
       <td>The gift card should display as an item selection on the check, for the amount for which you sold it.</td>
     </tr>
     <tr>
@@ -103,7 +103,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>10</td>
       <td>Inactive Card</td>
       <td>Sell Card</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Balance Inquiry. <br/> Swipe the gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Balance Inquiry. <br/> Swipe the gift card.</td>
       <td>The gift card's balance should be the amount for which you sold it.</td>
     </tr>
     <tr>
@@ -117,14 +117,14 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>12</td>
       <td>Active Card</td>
       <td>Balance Inquiry</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Balance Inquiry. <br/> Swipe active gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Balance Inquiry. <br/> Swipe active gift card.</td>
       <td>The balance should be the correct and expected balance on the card.</td>
     </tr>
     <tr>
       <td>13</td>
       <td>Active Card</td>
       <td>Redeem Full Order</td>
-      <td>From the Toast POS app > New Order. <br/> Add items to your order. <br/> Ensure that the total amount due is less than the amount on the gift card. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe an active gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Add items to your order. <br/> Ensure that the total amount due is less than the amount on the gift card. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe an active gift card.</td>
       <td>The order should go to the Paid Checks tab on the POS, and it should have a gift card payment for the full order amount.</td>
     </tr>
     <tr>
@@ -138,7 +138,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>15</td>
       <td>Active Card</td>
       <td>Redeem Partial Order</td>
-      <td>From the Toast POS app > New Order. <br/> Add items to your order. <br/> Ensure the total amount due is more than the amount on the gift card. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe an active gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Add items to your order. <br/> Ensure the total amount due is more than the amount on the gift card. <br/> Click Pay. <br/> Click Gift Card. <br/> Swipe an active gift card.</td>
       <td>The Payments screen will open. <br/> Verify that there is a gift card payment for the full amount of the gift card in the payments list. <br/> Verify that there is a balance due.</td>
     </tr>
     <tr>
@@ -194,7 +194,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>23</td>
       <td>Active Card</td>
       <td>Add Value</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Gift Cards > Add Value ($). <br/> Enter any value, and click Next. <br/> Swipe an active gift card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Gift Cards &gt; Add Value ($). <br/> Enter any value, and click Next. <br/> Swipe an active gift card.</td>
       <td>Verify that Add Value ($) is added to the check for the correct amount.</td>
     </tr>
     <tr>
@@ -245,98 +245,98 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>1</td>
       <td>Account Lookup</td>
       <td>Card swipe</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Swipe a card associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Swipe a card associated with a loyalty account at that restaurant.</td>
       <td>The expected loyalty account should appear.</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Account Lookup</td>
       <td>Card swipe</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Swipe a card NOT associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Swipe a card NOT associated with a loyalty account at that restaurant.</td>
       <td>The Invalid Account error message should appear.</td>
     </tr>
     <tr>
       <td>3</td>
       <td>Account Lookup</td>
       <td>Card swipe</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Swipe a card that is NOT a loyalty account card.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Swipe a card that is NOT a loyalty account card.</td>
       <td>The Card swiped is not a rewards card error message should appear.</td>
     </tr>
     <tr>
       <td>4</td>
       <td>Account Lookup</td>
       <td>Keying in number</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Key in a card number associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Key in a card number associated with a loyalty account at that restaurant.</td>
       <td>The expected loyalty account should appear.</td>
     </tr>
     <tr>
       <td>5</td>
       <td>Account Lookup</td>
       <td>Scanning QR code</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer > Scan. <br/> Scan a QR code associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer &gt; Scan. <br/> Scan a QR code associated with a loyalty account at that restaurant.</td>
       <td>The expected loyalty account should appear.</td>
     </tr>
     <tr>
       <td>6</td>
       <td>Account Lookup</td>
       <td>Scanning QR code</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer > Scan. <br/> Scan a QR code NOT associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer &gt; Scan. <br/> Scan a QR code NOT associated with a loyalty account at that restaurant.</td>
       <td>The Invalid Account error message should appear.</td>
     </tr>
     <tr>
       <td>7</td>
       <td>Account Lookup</td>
       <td>By email</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer > Lookup. <br/> Key in an email address associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer &gt; Lookup. <br/> Key in an email address associated with a loyalty account at that restaurant.</td>
       <td>The expected loyalty account should appear.</td>
     </tr>
     <tr>
       <td>8</td>
       <td>Account Lookup</td>
       <td>By phone number</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer > Lookup. <br/> Key in a phone number associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer &gt; Lookup. <br/> Key in a phone number associated with a loyalty account at that restaurant.</td>
       <td>The expected loyalty account should appear.</td>
     </tr>
     <tr>
       <td>9</td>
       <td>Account Lookup</td>
       <td>By name</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer > Lookup. <br/> Key in a name associated with a loyalty account at that restaurant.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer &gt; Lookup. <br/> Key in a name associated with a loyalty account at that restaurant.</td>
       <td>The expected loyalty account should appear.</td>
     </tr>
     <tr>
       <td>10</td>
       <td>Account Inquiry</td>
       <td>Unavailable rewards</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards.</td>
       <td>The expected rewards value should display, but because the awards are unavailable for redemption, you should not be able to apply them to a check.</td>
     </tr>
     <tr>
       <td>11</td>
       <td>Account Inquiry</td>
       <td>Available rewards</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer.</td>
       <td>The expected rewards should be available redemption. <br/> A Redeem button should be present.</td>
     </tr>
     <tr>
       <td>12</td>
       <td>Account Inquiry</td>
       <td>Rewards points</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards.</td>
       <td>The expected rewards value should display on the dialog.</td>
     </tr>
     <tr>
       <td>13</td>
       <td>Account Inquiry</td>
       <td>Invalidated rewards</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer. <br/> Remove the items from your check. <br/> Tap Rewards > Look Up Customer.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer. <br/> Remove the items from your check. <br/> Tap Rewards &gt; Look Up Customer.</td>
       <td>The reward should be removed from the check. <br/> The error message Changes to the check have voided applied rewards. Discounts that are no longer applicable have been removed should display.</td>
     </tr>
     <tr>
       <td>14</td>
       <td>Redemption</td>
       <td>Item-level discount</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer. <br/> Tap Redeem to add a reward to the check.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer. <br/> Tap Redeem to add a reward to the check.</td>
       <td>The reward should apply to the target item on the check. <br/> The amount discounted should be correct.</td>
     </tr>
     <tr>
@@ -357,7 +357,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>17</td>
       <td>Redemption</td>
       <td>Check-level discount</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer. <br/> Tap Redeem to add a reward to the check.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer. <br/> Tap Redeem to add a reward to the check.</td>
       <td>The reward should apply to the check. <br/> The amount discounted should be correct.</td>
     </tr>
     <tr>
@@ -378,14 +378,14 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>20</td>
       <td>Redemption</td>
       <td>Buy one get one discount</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer.</td>
       <td>The expected reward should display, but should be unavailable for redemption.</td>
     </tr>
     <tr>
       <td>21</td>
       <td>Redemption</td>
       <td>Buy one get one discount</td>
-      <td>Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer.</td>
+      <td>Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer.</td>
       <td>The expected rewards should be available redemption. <br/> A Redeem button should be present.</td>
     </tr>
     <tr>
@@ -413,7 +413,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>25</td>
       <td>Accrual and Reversal</td>
       <td>Without reward applied to check</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items to the check. <br/> Tap Pay($).</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items to the check. <br/> Tap Pay($).</td>
       <td>The payment should process successfully. <br/> You should see the expected accrual message.</td>
     </tr>
     <tr>
@@ -427,7 +427,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>27</td>
       <td>Accrual and Reversal</td>
       <td>With reward applied to check</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer. <br/> Tap Redeem to add a reward to the check. <br/> Tap Pay. <br/> Complete payment on the check.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer. <br/> Tap Redeem to add a reward to the check. <br/> Tap Pay. <br/> Complete payment on the check.</td>
       <td>The payment should process successfully. <br/> You should see the expected accrual and redeem messages.</td>
     </tr>
     <tr>
@@ -441,7 +441,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
       <td>29</td>
       <td>Accrual and Reversal</td>
       <td>With multiple rewards applied to check</td>
-      <td>From the Toast POS app > New Order. <br/> Tap Rewards > Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards > Look Up Customer. <br/> Tap Redeem to add a reward to the check. <br/> Repeat at least once in order to apply multiple rewards to the check. <br/> Tap Pay. <br/> Complete payment on the check.</td>
+      <td>From the Toast POS app &gt; New Order. <br/> Tap Rewards &gt; Look Up Customer. <br/> Look up a loyalty account that has associated rewards. <br/> Add items that would trigger rewards to the check. <br/> Tap Rewards &gt; Look Up Customer. <br/> Tap Redeem to add a reward to the check. <br/> Repeat at least once in order to apply multiple rewards to the check. <br/> Tap Pay. <br/> Complete payment on the check.</td>
       <td>The payment should process successfully. <br/> You should see the expected accrual and redeem messages.</td>
     </tr>
     <tr>
