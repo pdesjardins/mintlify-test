@@ -8,7 +8,20 @@
         "dark": "#DD3B11"
     },
     "favicon": "/favicon.png",
+    "topbarLinks": [
+        {
+            "name": "Toast Central",
+            "url": "https://central.toasttab.com"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Developer Community",
+        "url": "https://community.toasttab.com"
+    },
     "navigation": {
+        "pages": [
+            "introduction"
+        ],
         "tabs": [
             {
                 "tab": "Integration how-to guides",
