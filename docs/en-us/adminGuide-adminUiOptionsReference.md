@@ -46,7 +46,7 @@ The following table provides information about the settings of the Login screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Additional text</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -71,23 +71,23 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Additional Modifier Groups</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Special request price entry</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Show Send, Stay, and Hold buttons</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Valid SSIDs</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Orders send only after check is paid</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Prompt for tab name? (Quick Order only)</div></td>
@@ -95,7 +95,7 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Prompt for dining option? (Quick Order only)</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Show item sent time</div></td>
@@ -103,7 +103,7 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Modifier display mode</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Show default modifiers?</div></td>
@@ -111,7 +111,7 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Consolidate menu items</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Consolidate discounts</div></td>
@@ -123,15 +123,15 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Add modifier charges to item price</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Modifier group sorting</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Modifier ordering priority</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Show fast cash button? (Quick Order only)</div></td>
@@ -143,7 +143,7 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Auto switch user</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Edit other employees' checks confirmation</div></td>
@@ -159,7 +159,7 @@ The following table provides information about the settings of the Order screen 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Menu item search</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -233,11 +233,11 @@ The following table provides information about the settings of the Tipping secti
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Tip / Tax</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Tip & signature flow</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Tip options</div></td>
@@ -249,7 +249,7 @@ The following table provides information about the settings of the Tipping secti
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Tip amounts</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Default amount</div></td>
@@ -257,7 +257,7 @@ The following table provides information about the settings of the Tipping secti
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Tip percentages</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Default percentage</div></td>
@@ -302,7 +302,7 @@ The following table provides information about the Advanced shift review setup p
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Require shift review</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Non-cash tips</div></td>
@@ -517,7 +517,7 @@ The following table provides information about the settings of the Time clock se
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4">Time entry rounding scheme</div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
   </tbody>
 </table>

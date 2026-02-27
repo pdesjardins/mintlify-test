@@ -288,13 +288,13 @@ You can change how order information appears on tickets by setting the options d
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">See modifiers listed by sort order</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"> </div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Web Setup &gt; 6.6 Restaurant Operations Setup</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">See modifiers listed by modifier group display ordering priority in a comma-separated list in sequence selected</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"> </div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Web Setup &gt; 6.6 Restaurant Operations Setup</p></div></td>
     </tr>

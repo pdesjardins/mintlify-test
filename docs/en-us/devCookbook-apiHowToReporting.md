@@ -134,7 +134,7 @@ After you decide what to display in your reports, build a retrieval of transacti
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/doc/platformguide/index.html" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">startDate</code> and <code className="font-mono text-sm">endDate</code> query parameters of the <code className="font-mono text-sm">/ordersBulk</code> endpoint to retrieve orders by their <code className="font-mono text-sm">modifiedDate</code> timestamp.</p></div></td>
     </tr>
     <tr className="">
