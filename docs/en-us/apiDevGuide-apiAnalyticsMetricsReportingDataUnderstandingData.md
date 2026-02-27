@@ -22,6 +22,7 @@ The restaurants included in the aggregated sales reporting data can be limited b
 The following table specifies the returned set of values in the aggregated sales reporting data. The values are listed in the order that they appear.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -120,4 +121,5 @@ The following table specifies the returned set of values in the aggregated sales
     </tr>
   </tbody>
 </table>
+</div>
 

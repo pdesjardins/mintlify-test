@@ -77,6 +77,7 @@ The following example illustrates the effect of refunds on financial data.
 A dine-in check from Lunch in the Main Dining Room on December 14 contains the following items, service charges, and tip.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -103,12 +104,14 @@ A dine-in check from Lunch in the Main Dining Room on December 14 contains the f
     </tr>
   </tbody>
 </table>
+</div>
 
 These were all refunded on December 15.
 
 On December 15, the following figures decrease:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -165,6 +168,7 @@ On December 15, the following figures decrease:
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Reports
 

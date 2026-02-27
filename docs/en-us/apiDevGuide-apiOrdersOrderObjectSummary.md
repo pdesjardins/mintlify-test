@@ -620,6 +620,7 @@ The check has a $3.00 delivery service charge that is not taxed.
 For the menu item selection, the amounts are as follows:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -671,10 +672,12 @@ For the menu item selection, the amounts are as follows:
     </tr>
   </tbody>
 </table>
+</div>
 
 For the check, the amounts are as follows:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -716,4 +719,5 @@ For the check, the amounts are as follows:
     </tr>
   </tbody>
 </table>
+</div>
 

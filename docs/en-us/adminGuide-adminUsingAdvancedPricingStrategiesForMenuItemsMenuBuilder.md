@@ -21,6 +21,7 @@ Currently, the menu builder supports setting base prices, size prices, and open 
 It is important to note that not all pricing strategies are supported on all Toast ordering channels. For example, Toast Online Ordering does not support time or open prices so you should not use those pricing strategies for menu items that will be displayed on your Toast Online Ordering website. Before using an advanced pricing strategy, check the table below to ensure that the strategy you want to use is supported by the Toast ordering channels where those menu items will be visible. This table also includes a description of each pricing strategy and the location where you configure it (in the menu builder or in the classic menu item details page). The sections that follow the table describe how to configure each of these pricing strategies.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -63,6 +64,7 @@ It is important to note that not all pricing strategies are supported on all Toa
     </tr>
   </tbody>
 </table>
+</div>
 
 **Procedure 8.35. To set a size price in the menu builder**
 

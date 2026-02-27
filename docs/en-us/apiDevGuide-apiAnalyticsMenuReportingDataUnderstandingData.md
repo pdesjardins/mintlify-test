@@ -22,6 +22,7 @@ The restaurants included in the menu reporting data can be limited using either 
 The following table specifies the returned set of values in the menu reporting data. The values are listed in the order they appear.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -120,4 +121,5 @@ The following table specifies the returned set of values in the menu reporting d
     </tr>
   </tbody>
 </table>
+</div>
 

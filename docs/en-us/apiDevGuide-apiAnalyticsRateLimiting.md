@@ -25,6 +25,7 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -131,4 +132,5 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
     </tr>
   </tbody>
 </table>
+</div>
 

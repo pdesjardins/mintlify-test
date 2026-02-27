@@ -75,6 +75,7 @@ Optionally, you can configure the service charge to be [taxed](adminGuide-adminS
 For gratuity service charges, be aware of the following:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -93,4 +94,5 @@ For gratuity service charges, be aware of the following:
     </tr>
   </tbody>
 </table>
+</div>
 

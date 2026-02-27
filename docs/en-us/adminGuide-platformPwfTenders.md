@@ -176,6 +176,7 @@ If a check does not contain the green Pre-Authorized indicator, then that check 
 When you pre-authorize a card, you either authorize the current check total, or a configured minimum pre-authorization amount. You can set the minimum pre-authorization amount in Toast Web. The following table explains each pre-authorization use case.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -198,6 +199,7 @@ When you pre-authorize a card, you either authorize the current check total, or 
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Using a saved card
 

@@ -172,6 +172,7 @@ Each order entry in the Scheduled tab displays the following information:
 The scheduled firing time displayed is dynamic, meaning it changes as the order gets closer to the firing time. For example, the text description on an order entry will change from “Firing 4/6, 2:00 PM” to “Firing in 52 minutes”.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -203,6 +204,7 @@ The scheduled firing time displayed is dynamic, meaning it changes as the order 
     </tr>
   </tbody>
 </table>
+</div>
 
 
 - Dining option. For example, Delivery or Pickup.

@@ -26,6 +26,7 @@ This section provides a checklist you can use to build a reservation integration
 You can [download a CSV version of the checklist](toast-api-integration-checklist-reservation.csv).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -77,4 +78,5 @@ You can [download a CSV version of the checklist](toast-api-integration-checklis
     </tr>
   </tbody>
 </table>
+</div>
 

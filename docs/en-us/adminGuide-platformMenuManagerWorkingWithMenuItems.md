@@ -1218,6 +1218,7 @@ If you configure a menu item to inherit its price from a menu group, the Price o
 It is important to note that not all pricing strategies are supported on all Toast ordering channels. For example, Toast Online Ordering does not support time or open prices so you should not use those pricing strategies for menu items that will be displayed on your Toast Online Ordering website. Before using an advanced pricing strategy, check the table below to ensure that the strategy you want to use is supported by the Toast ordering channels where those menu items will be visible. This table also includes a description of each pricing strategy and the location where you configure it (in the menu manager or in the classic menu item details page). The sections that follow the table describe how to configure each of these pricing strategies.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1266,6 +1267,7 @@ It is important to note that not all pricing strategies are supported on all Toa
     </tr>
   </tbody>
 </table>
+</div>
 
 For detailed information about setting base, size, and open prices in the Full menu view of the menu manager, see [Editing a menu item's price](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerEditingAMenuItemsPrice). This same topic provides information about editing existing size, location-specific, and menu-specific prices in Items view.
 

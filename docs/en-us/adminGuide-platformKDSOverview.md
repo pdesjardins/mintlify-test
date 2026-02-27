@@ -635,6 +635,7 @@ Grid view for KDS devices does not support the text size feature available with 
 The following table provides information on device settings that ignore the current selection and instead use specific options.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -649,4 +650,5 @@ The following table provides information on device settings that ignore the curr
     </tr>
   </tbody>
 </table>
+</div>
 

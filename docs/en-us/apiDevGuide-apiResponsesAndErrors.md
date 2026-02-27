@@ -41,6 +41,7 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
 ### Success
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -62,10 +63,12 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Client error
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -117,10 +120,12 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Server error
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -147,6 +152,7 @@ Almost all APIs support the HTTP codes below and no additional HTTP codes. If an
     </tr>
   </tbody>
 </table>
+</div>
 
 ## ErrorMessage information
 
@@ -232,6 +238,7 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
 ## Common errors
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -262,4 +269,5 @@ The following example shows the `ErrorMessage` object for an unsuccessful Toast 
     </tr>
   </tbody>
 </table>
+</div>
 

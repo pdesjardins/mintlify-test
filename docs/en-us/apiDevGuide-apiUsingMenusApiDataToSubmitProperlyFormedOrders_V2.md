@@ -45,6 +45,7 @@ Use the following values returned by the menus API to ensure that you submit ord
 You should also be aware that the orders API and the menus API use slightly different names for the values that make up an order, as shown in the table below.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -71,4 +72,5 @@ You should also be aware that the orders API and the menus API use slightly diff
     </tr>
   </tbody>
 </table>
+</div>
 

@@ -20,6 +20,7 @@ Certain permissions can affect shift review. To view and edit permissions from T
 Below is a list of permissions required to complete shift review or review your employees' shifts.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -54,10 +55,12 @@ Below is a list of permissions required to complete shift review or review your 
     </tr>
   </tbody>
 </table>
+</div>
 
 Below is a list of some commonly enabled permissions that can affect how your shift review behaves:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -84,4 +87,5 @@ Below is a list of some commonly enabled permissions that can affect how your sh
     </tr>
   </tbody>
 </table>
+</div>
 

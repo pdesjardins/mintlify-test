@@ -22,6 +22,7 @@ The restaurants included in the guest reporting data can be limited using either
 The following table specifies the returned set of values in the guest reporting data. The values are listed in the order they appear.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -64,4 +65,5 @@ The following table specifies the returned set of values in the guest reporting 
     </tr>
   </tbody>
 </table>
+</div>
 

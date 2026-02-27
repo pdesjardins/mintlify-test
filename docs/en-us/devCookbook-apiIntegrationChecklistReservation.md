@@ -315,6 +315,7 @@ The workflow below outlines how to create a reservation in your system and submi
 Use the following information from the orders API response to update the reservation in your system in real-time.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -346,6 +347,7 @@ Use the following information from the orders API response to update the reserva
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Reporting
 

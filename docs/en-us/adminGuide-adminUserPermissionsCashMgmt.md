@@ -20,6 +20,7 @@ When assigning permissions, the best practice is to use job-based permissions in
 The following table lists the permissions that are required for specific cash management tasks.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -70,4 +71,5 @@ The following table lists the permissions that are required for specific cash ma
     </tr>
   </tbody>
 </table>
+</div>
 

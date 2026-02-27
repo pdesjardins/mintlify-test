@@ -19,6 +19,7 @@ codeExamples: 0
 The Toast platform offers a variety of pricing-related features that give you the flexibility to choose the pricing approaches that work best for your menu entities. The table below gives a brief overview of each pricing feature and the types of menu entities you can use them for.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -90,4 +91,5 @@ The Toast platform offers a variety of pricing-related features that give you th
     </tr>
   </tbody>
 </table>
+</div>
 

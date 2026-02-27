@@ -21,6 +21,7 @@ Digital receipts allow your guests to receive a text or email receipt. You can s
 The following table describes the functionality differences when you enable or disable the digital receipts configuration option.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -39,6 +40,7 @@ The following table describes the functionality differences when you enable or d
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about how to enable and configure Digital Receipts, see [this Toast Central article](https://central.toasttab.com/s/article/Basic-Digital-Receipt-Configuration).
 

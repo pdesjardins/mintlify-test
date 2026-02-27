@@ -140,6 +140,7 @@ This example demonstrates that change sets only update configuration entities wi
 You can view a change set's status on the Toast account &gt; Publishing &gt; Publishing center page. The following table describes change set status types:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -178,6 +179,7 @@ You can view a change set's status on the Toast account &gt; Publishing &gt; Pub
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Working with change sets in the publishing center
 
@@ -361,6 +363,7 @@ When you download the error files for a change set, one or more comma-separated 
 The following table describes the columns in the error CSV files. Two of the columns, `locationId` and `locationName`, only appear in the `publishing_errors-[change-set-name].csv` file.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -407,6 +410,7 @@ The following table describes the columns in the error CSV files. Two of the col
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Publishing errors for menu items targeted at multiple locations
 
@@ -417,6 +421,7 @@ For menu items that are targeted at multiple locations, the `publishing_errors-[
 The table below describes the error codes that you may see in the `publishing_errors-[change-set-name].csv` file.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -439,12 +444,14 @@ The table below describes the error codes that you may see in the `publishing_er
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Menu update error codes
 
 Menu update errors can occur if edits are made to a menu entity *after* a change set that includes the menu entity was created but *before* the change set executes. The following table provides more information about the changes that can cause these problems and the error codes associated with them.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -471,6 +478,7 @@ Menu update errors can occur if edits are made to a menu entity *after* a change
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Locating menu items that have errors using their GUID
 

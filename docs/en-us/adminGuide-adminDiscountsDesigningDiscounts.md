@@ -26,6 +26,7 @@ The following sections provide information about the types of promotional discou
 The following table shows discount types that are not complicated to configure. These discount types are fully supported and easy to maintain as your menu configuration changes.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -60,6 +61,7 @@ The following table shows discount types that are not complicated to configure. 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Discount types that are supported with additional configuration
 
@@ -74,6 +76,7 @@ The following table shows discount types that you can configure, but that might 
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -96,4 +99,5 @@ The following table shows discount types that you can configure, but that might 
     </tr>
   </tbody>
 </table>
+</div>
 

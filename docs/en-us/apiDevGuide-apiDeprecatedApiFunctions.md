@@ -674,6 +674,7 @@ This section describes information about each menu entity at your restaurant.
 The following table shows the information about each menu at your restaurant from from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -780,7 +781,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>daysAvailableString</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code>Sun</code> or <code>Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [&#10;   "Mon",&#10;   "Tues",&#10;   "Wed",&#10;   "Thurs",&#10;   "Fri"&#10;]</code></pre> </td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -795,12 +796,14 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
   </tbody>
 </table>
+</div>
 
 #### MenuGroup
 
 The following table shows the information about each menu group at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -862,12 +865,14 @@ The following table shows the information about each menu group at your restaura
     </tr>
   </tbody>
 </table>
+</div>
 
 #### MenuItem
 
 The following table shows the information about each menu item at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -964,12 +969,14 @@ The following table shows the information about each menu item at your restauran
     </tr>
   </tbody>
 </table>
+</div>
 
 #### MenuOptionGroup
 
 The following table shows the information about each menu option group, or modifier group, at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1001,7 +1008,7 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code>null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese&#10;Items: ( Cheddar, American, Swiss )&#10;maxSelections: 2&#10;minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the <code>maxSelections</code> value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the <code>minSelections</code> value).</li></ul></td>
       <td>Integer or null</td>
     </tr>
     <tr>
@@ -1046,12 +1053,14 @@ The following table shows the information about each menu option group, or modif
     </tr>
   </tbody>
 </table>
+</div>
 
 #### PricingStrategyRules
 
 The following table shows the information about the pricing strategy for the modifier groups at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1063,7 +1072,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody>
     <tr>
       <td>basePrice</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a> is set to <code>BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy":"BASE_PRICE",&#10;  "pricingStategyRules": &#123;&#10;    "basePrice": 1.00&#10;    &#125;&#10;  ...&#10;&#125;</code></pre> </td>
       <td>Number</td>
     </tr>
     <tr>
@@ -1073,11 +1082,12 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr>
       <td>sequencePrices</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>Sets the price for each level defined in the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels">numberOfLevels</a> value. For example: <pre><code>"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy": "SEQUENCE_PRICE",&#10;  "pricingStrategyRules": &#123;&#10;    "numberOfLevels": 3,&#10;    "sequencePrices": [&#10;      0.50,&#10;      0.75,&#10;      1.00,&#10;    ]&#10;  &#125;&#10;  ...&#10;&#125;</code></pre> </td>
       <td>JSON array</td>
     </tr>
   </tbody>
 </table>
+</div>
 
 #### Premodifiers and postmodifiers
 
@@ -1095,6 +1105,7 @@ This section describes:
 The following table shows the information about the premodifier groups at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1126,12 +1137,14 @@ The following table shows the information about the premodifier groups at your r
     </tr>
   </tbody>
 </table>
+</div>
 
 #### premodifiers
 
 The following table shows the information about the premodifiers or postmodifiers at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1173,6 +1186,7 @@ The following table shows the information about the premodifiers or postmodifier
     </tr>
   </tbody>
 </table>
+</div>
 
 #### Finding the default modifiers for a menu item
 
@@ -1477,6 +1491,7 @@ As stated earlier, the menu visibility enhancements combine the original visibil
 These configuration options have a one-to-one relationship with an enum in the `visibility` array that the menus API returns for each menu entity. The table below describes the behavior of each option and defines the enum used to represent it in the `visibility`array:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1508,6 +1523,7 @@ These configuration options have a one-to-one relationship with an enum in the `
     </tr>
   </tbody>
 </table>
+</div>
 
 To sum up, the effect of these changes for online ordering partners are as follows:
 

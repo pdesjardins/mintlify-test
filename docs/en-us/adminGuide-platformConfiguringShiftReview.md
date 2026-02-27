@@ -155,6 +155,7 @@ The sections included in your shift review report reflect your selections in the
 The following table lists the shift review report row, a description of the row, and any permissions or settings required to display the row.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -465,4 +466,5 @@ The following table lists the shift review report row, a description of the row,
     </tr>
   </tbody>
 </table>
+</div>
 

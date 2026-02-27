@@ -18,6 +18,7 @@ codeExamples: 0
 This section uses the following webhook terms and concepts:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -56,4 +57,5 @@ This section uses the following webhook terms and concepts:
     </tr>
   </tbody>
 </table>
+</div>
 

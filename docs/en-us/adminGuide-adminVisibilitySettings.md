@@ -56,6 +56,7 @@ When you edit visibility in one place, the others are also updated. After editin
 The following table describes the visibility settings in more detail.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -102,6 +103,7 @@ The following table describes the visibility settings in more detail.
     </tr>
   </tbody>
 </table>
+</div>
 
 In addition to the visibility settings described above, the Third party ordering page allows you to specify the menus that are visible to an online ordering partner while you configure other aspects of how your restaurant interacts with that partner. In the illustration below, the DRINKS, DINNER, and HAPPY HOUR menus are visible to DoorDash.
 

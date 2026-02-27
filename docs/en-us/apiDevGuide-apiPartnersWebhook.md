@@ -49,6 +49,7 @@ Your integration has been added to a new restaurant location.
 Attributes in the `partner_added` event's payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -155,6 +156,7 @@ Attributes in the `partner_added` event's payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.5. Payload example for the partner_added event**
 

@@ -48,6 +48,7 @@ Once your Toast POS device is online:
 The below table contains the possible payment tags and their descriptions.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -90,4 +91,5 @@ The below table contains the possible payment tags and their descriptions.
     </tr>
   </tbody>
 </table>
+</div>
 

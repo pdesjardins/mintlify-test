@@ -23,6 +23,7 @@ The accounting data export includes the revenue amounts for each general ledger 
 The following table shows details on what the accounting data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -64,6 +65,7 @@ The following table shows details on what the accounting data export contains.
     </tr>
   </tbody>
 </table>
+</div>
 
 ## All items data export
 
@@ -72,6 +74,7 @@ The all items data export includes information about all of the items in the men
 The following table shows details on what the all items data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -213,6 +216,7 @@ The following table shows details on what the all items data export contains.
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Cash management data export
 
@@ -221,6 +225,7 @@ The cash management data export includes information about cash payments made at
 The following table shows details on what the cash management data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -287,6 +292,7 @@ The following table shows details on what the cash management data export contai
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Check details data export
 
@@ -295,6 +301,7 @@ The check details data export includes information about about the checks in the
 The following table shows details on what the check details data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -401,6 +408,7 @@ The following table shows details on what the check details data export contains
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Item modifier selection data export
 
@@ -409,6 +417,7 @@ The item modifier data export includes information about the modifiers applied t
 The following table shows details on what the item modifier data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -560,6 +569,7 @@ The following table shows details on what the item modifier data export contains
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Item selection data export
 
@@ -568,6 +578,7 @@ The item selection data export includes information about the items ordered at y
 The following table shows details on what the item selection data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -734,6 +745,7 @@ The following table shows details on what the item selection data export contain
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Kitchen details data export
 
@@ -742,6 +754,7 @@ The kitchen details data export includes information about the kitchen tickets a
 The following table shows details on what the kitchen details data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -813,6 +826,7 @@ The following table shows details on what the kitchen details data export contai
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Labor data export
 
@@ -821,6 +835,7 @@ The labor data export includes information about the shifts worked by employees 
 The following table shows details on what the labor data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -977,6 +992,7 @@ The following table shows details on what the labor data export contains.
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Menu data export
 
@@ -1007,6 +1023,7 @@ This section describes information about each menu entity at your restaurant.
 The following table shows the information about each menu at your restaurant from from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1113,7 +1130,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr>
       <td>daysAvailableString</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code>Sun</code> or <code>Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre><code>"daysAvailableString": [&#10;   "Mon",&#10;   "Tues",&#10;   "Wed",&#10;   "Thurs",&#10;   "Fri"&#10;]</code></pre> </td>
       <td>JSON array</td>
     </tr>
     <tr>
@@ -1128,12 +1145,14 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
   </tbody>
 </table>
+</div>
 
 #### MenuGroup
 
 The following table shows the information about each menu group at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1195,12 +1214,14 @@ The following table shows the information about each menu group at your restaura
     </tr>
   </tbody>
 </table>
+</div>
 
 #### MenuItem
 
 The following table shows the information about each menu item at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1297,12 +1318,14 @@ The following table shows the information about each menu item at your restauran
     </tr>
   </tbody>
 </table>
+</div>
 
 #### MenuOptionGroup
 
 The following table shows the information about each menu option group, or modifier group, at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1334,7 +1357,7 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr>
       <td>maxSelections</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code>null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre><code>Group: Cheese&#10;Items: ( Cheddar, American, Swiss )&#10;maxSelections: 2&#10;minSelections: 1</code></pre>  <br/> This means:<ul><li>You can select AT MOST two different cheeses from this group to apply on the item (the <code>maxSelections</code> value).</li><li>You must select AT LEAST one cheese from this group to apply on the item (the <code>minSelections</code> value).</li></ul></td>
       <td>Integer or null</td>
     </tr>
     <tr>
@@ -1379,12 +1402,14 @@ The following table shows the information about each menu option group, or modif
     </tr>
   </tbody>
 </table>
+</div>
 
 #### PricingStrategyRules
 
 The following table shows the information about the pricing strategy for the modifier groups at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1396,7 +1421,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody>
     <tr>
       <td>basePrice</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>Used when the <a href="adminGuide-adminDataExportFieldReference#adminDataExportPricingStrategyModOptionGroup">pricingStrategy</a> is set to <code>BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre><code>"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy":"BASE_PRICE",&#10;  "pricingStategyRules": &#123;&#10;    "basePrice": 1.00&#10;    &#125;&#10;  ...&#10;&#125;</code></pre> </td>
       <td>Number</td>
     </tr>
     <tr>
@@ -1406,11 +1431,12 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr>
       <td>sequencePrices</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>Sets the price for each level defined in the <a href="adminGuide-adminDataExportFieldReference#adminDataExportNumberOfLevels">numberOfLevels</a> value. For example: <pre><code>"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy": "SEQUENCE_PRICE",&#10;  "pricingStrategyRules": &#123;&#10;    "numberOfLevels": 3,&#10;    "sequencePrices": [&#10;      0.50,&#10;      0.75,&#10;      1.00,&#10;    ]&#10;  &#125;&#10;  ...&#10;&#125;</code></pre> </td>
       <td>JSON array</td>
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Premodifiers and postmodifiers
 
@@ -1428,6 +1454,7 @@ This section describes:
 The following table shows the information about the premodifier groups at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1459,12 +1486,14 @@ The following table shows the information about the premodifier groups at your r
     </tr>
   </tbody>
 </table>
+</div>
 
 #### premodifiers
 
 The following table shows the information about the premodifiers or postmodifiers at your restaurant from the menu data export.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1506,6 +1535,7 @@ The following table shows the information about the premodifiers or postmodifier
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Orders data export
 
@@ -1514,6 +1544,7 @@ The orders report includes information about the orders placed at your restauran
 The following table shows details on what the orders data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1645,6 +1676,7 @@ The following table shows details on what the orders data export contains.
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Payments data export
 
@@ -1653,6 +1685,7 @@ The payments data export includes information about the payments applied to chec
 The following table shows details on what the payment data export contains.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -1859,4 +1892,5 @@ The following table shows details on what the payment data export contains.
     </tr>
   </tbody>
 </table>
+</div>
 

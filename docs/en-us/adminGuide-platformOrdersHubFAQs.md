@@ -17,6 +17,7 @@ codeExamples: 0
 ---
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -29,8 +30,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -43,8 +46,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -57,8 +62,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -71,8 +78,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -85,8 +94,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -107,8 +118,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -121,8 +134,10 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -135,4 +150,5 @@ codeExamples: 0
     </tr>
   </tbody>
 </table>
+</div>
 

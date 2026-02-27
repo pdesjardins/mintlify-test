@@ -89,6 +89,7 @@ Consider [daylight savings time](apiDevGuide-api_dates_and_timestamps#apiDayligh
 The following table provides suggested information that you can display in different types of inventory reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -115,6 +116,7 @@ The following table provides suggested information that you can display in diffe
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Set up a recurring order retrieval
 
@@ -151,6 +153,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -182,6 +185,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Add additional business logic
 

@@ -22,6 +22,7 @@ Service charges can be applied automatically based on eligibility criteria. Serv
 The Toast platform uses the following criteria to determine whether a service charge can be automatically applied to a check.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -52,6 +53,7 @@ The Toast platform uses the following criteria to determine whether a service ch
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Manually adding and removing service charges
 

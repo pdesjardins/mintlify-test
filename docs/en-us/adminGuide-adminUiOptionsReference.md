@@ -28,6 +28,7 @@ For settings where you can select more than one option or uses a custom field, y
 The following table provides information about the settings of the Login screen section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -49,12 +50,14 @@ The following table provides information about the settings of the Login screen 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Order screen
 
 The following table provides information about the settings of the Order screen section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -160,12 +163,14 @@ The following table provides information about the settings of the Order screen 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## POS Scheduling Settings
 
 The following table provides information about the settings of the POS Scheduling Settings section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -188,12 +193,14 @@ The following table provides information about the settings of the POS Schedulin
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Service Areas Screen
 
 The following table provides information about the settings of the Service Areas Screen section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -208,12 +215,14 @@ The following table provides information about the settings of the Service Areas
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Tipping
 
 The following table provides information about the settings of the Tipping section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -224,7 +233,7 @@ The following table provides information about the settings of the Tipping secti
   <tbody>
     <tr>
       <td>Tip / Tax</td>
-      <td>[Complex content with multiple lists omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>This setting determines the sequence in which the Toast platform calculates suggested <a href="adminGuide-adminGlossary.html#glossTip"><em>tip</em> </a> amounts and fixed percent <a href="adminGuide-adminGlossary.html#glossServiceCharge"><em>service charges</em> </a>.<ul><li>Calculate tip before tax <br/> Select this option to calculate suggested tip or service charge amounts first, and then calculate taxes.</li><li>Calculate tip after tax <br/> Select this option to calculate charges for taxes first, and then calculate suggested tip or service charge amounts.</li></ul> <br/> Examples of how the Toast platform calculates suggested tips and service charges follow. <br/> <strong>Suggested tip</strong> : For items totalling $50, a tax rate of 7.5%, and suggested tip percentages of 15%, 18%, and 20%, the system:<ul><li>Calculates tip before tax: Calculates suggested tip amounts of $7.50, $9.00, and $10. Then uses the $50 item total to calculate the taxes, <code>$50 * .075 = $4.50</code>, for a total check amount of $54.50.</li><li>Calculates tip after tax: Calculates the taxes, <code>$50 * .075 = $4.50</code>, for a total check amount of $54.50. Then uses the $54.50 total to calculate suggested tip amounts of $8.06, $9.68, and $10.75.</li></ul> <br/> Note that the total on the check, which is paid to the restaurant, is the same in both cases. The actual tip amount paid directly to the employee is at the guest's discretion. <br/> <strong>Service charge</strong> : For items totalling $1000, a tax rate of 6.25%, and a service charge of 20% (taxed at the same rate), the system either:<ul><li>Calculates tip before tax: Calculates the service charge as <code>$1000 * .20 = $200</code>, for a new subtotal of $1200. Then uses the new subtotal to calculate the tax, <code>$1200 * .0625 = $75</code>, for a total check amount of <code>$1200 + $75 = $1275</code>.</li><li>Calculates tip after tax: Calculates the taxes, <code>$1000 * .0625 = $62.50</code>, for a new subtotal of $1062.50. Then uses the new subtotal to calculate the service charge, <code>$1062.50 * .20 = $212.50</code>. Because this service charge is taxable, the system also calculates the tax on the service charge, <code>$212.50 * .0625 = $13.28</code>. Then adds the service charge and its tax to the subtotal, for a total check amount of <code>$1062.50 + $212.50 + $13.28 = $1288.28</code>.</li></ul> <br/> Note that service charges, unlike tips, are included in the check total and collected by the restaurant. As a result, the setting that you choose for this option can affect the total check amount. <br/> Appropriate variations on these computations apply to service charges that have different tax rates or that are not taxed. <br/> For more information about service charges, see <a href="adminGuide-adminServiceChargeOverview">Service charge overview</a>.</td>
     </tr>
     <tr>
       <td>Tip & signature flow</td>
@@ -268,6 +277,7 @@ The following table provides information about the settings of the Tipping secti
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Shift review / closeout
 
@@ -281,6 +291,7 @@ The following table provides information about the Advanced shift review setup p
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -327,6 +338,7 @@ The following table provides information about the Advanced shift review setup p
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Report configurations
 
@@ -456,6 +468,7 @@ You also have the option to change the sequence in which these sections appear. 
 The following table provides information about the settings of the Closed Drawer Report page. To navigate to the Closed Drawer Report page, select Payments &gt; Payment methods &gt; Cash overview &gt; POS report configurations &gt; Cash drawer report. For more information about the sections you can include in your closed drawer report, see [this Toast Central article](https://central.toasttab.com/s/article/Closed-Drawer-Report-1492723816056).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -474,12 +487,14 @@ The following table provides information about the settings of the Closed Drawer
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Time clock
 
 The following table provides information about the settings of the Time clock section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -506,12 +521,14 @@ The following table provides information about the settings of the Time clock se
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Tax options
 
 The following table provides information about the settings of the Tax options section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -534,12 +551,14 @@ The following table provides information about the settings of the Tax options s
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Order management
 
 The following table provides information about the settings of the Order management section on the Front of house &gt; Order screen setup &gt; UI options page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -554,4 +573,5 @@ The following table provides information about the settings of the Order managem
     </tr>
   </tbody>
 </table>
+</div>
 

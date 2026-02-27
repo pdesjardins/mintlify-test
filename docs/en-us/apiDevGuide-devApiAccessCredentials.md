@@ -37,6 +37,7 @@ There are three levels of access:
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -62,6 +63,7 @@ There are three levels of access:
     </tr>
   </tbody>
 </table>
+</div>
 
 On the Manage credentials page, a warning icon next to a credential’s name indicates you have read-only access, a lock icon indicates that you cannot edit or view the credential, and no icon indicates you have full access to the credential.
 

@@ -32,6 +32,7 @@ Access to the APIs is further classified by the integration type. To determine w
 Toast provides the following APIs:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -128,4 +129,5 @@ Toast provides the following APIs:
     </tr>
   </tbody>
 </table>
+</div>
 

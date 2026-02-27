@@ -442,6 +442,7 @@ Set the Allow guests to select more than one modifier setting to On if you want 
 The table below provides some examples to help you better understand how to use the minimum and maximum settings:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -483,6 +484,7 @@ The table below provides some examples to help you better understand how to use 
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Selecting a single modifier more than once
 

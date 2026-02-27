@@ -23,6 +23,7 @@ This section presents a quick reference guide to the changes you can make to bet
 You can signal new and changed orders to back of house employees in different ways by setting the options described in the following table.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -59,6 +60,7 @@ You can signal new and changed orders to back of house employees in different wa
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminGuide-adminConfigureDevice) or [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
@@ -67,6 +69,7 @@ For more information about how to change configuration settings, see [Accessing 
 You define how back of house employees interact with the KDS device to fulfill tickets and view consolidated ([*All Day*](adminGuide-adminGlossary.html#glossAllDay)) totals by setting the options described in the following table.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -127,6 +130,7 @@ You define how back of house employees interact with the KDS device to fulfill t
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminGuide-adminConfigureDevice) or [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
@@ -135,6 +139,7 @@ For more information about how to change configuration settings, see [Accessing 
 You define what information appears on tickets by setting the options described in the following table.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -207,6 +212,7 @@ You define what information appears on tickets by setting the options described 
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about how to change configuration settings, see [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
@@ -215,6 +221,7 @@ For more information about how to change configuration settings, see [Using Toas
 You can change how order information appears on tickets by setting the options described in the following table.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -317,6 +324,7 @@ You can change how order information appears on tickets by setting the options d
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about how to change configuration settings, see [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
@@ -349,6 +357,7 @@ Your kitchen can include one or more printers along with your kitchen display sy
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -391,6 +400,7 @@ Your kitchen can include one or more printers along with your kitchen display sy
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about how to change configuration settings, see [Accessing the Toast POS Device Setup screen](adminGuide-adminConfigureDevice) or [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 

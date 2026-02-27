@@ -20,6 +20,7 @@ To add and redeem guest credits, you must have specific Toast platform privilege
 The following table describes the Toast platform permissions that you need in order to perform guest credit transactions.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -42,6 +43,7 @@ The following table describes the Toast platform permissions that you need in or
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information, see the [Access Permission Reference](adminGuide-adminPermissions).
 

@@ -67,6 +67,7 @@ Menu items and modifiers created with the basic template must use the `BASE` pri
 With the exception of the Price column, all of the columns are required when creating new menu entities using the basic template.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -105,10 +106,11 @@ With the exception of the Price column, all of the columns are required when cre
     </tr>
     <tr>
       <td>Price</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>A string representing the menu entity's price. This is the only optional column in the basic template.<ul><li>For menu items: <br/> The Price column contains the base price for the menu item. (Menu items created using the basic template must use the <code>BASE</code> pricing strategy.)</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to <code>BASE</code>, the Price column contains the price that applies to <em>all modifiers</em>  in the modifier group. (The <code>BASE</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to <code>PRICED_BY_MODIFIERS</code>, you must leave the Price column empty. (The <code>PRICED_BY_MODIFIERS</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's <em>parent modifier group</em>  uses the <code>PRICED_BY_MODIFIERS</code> pricing method, the Price column in the <em>modifier's row</em>  specifies the individual base price of the modifier. (Modifiers created using the basic template must use base prices.)</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null&#10;""&#10;".12"&#10;"1"&#10;"10"&#10;"100"&#10;"100.00"&#10;".1"&#10;"100.0"&#10;"100."&#10;"-.1"&#10;"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"&#10;"$a" &#10;"." &#10;"€1" &#10;"10.." &#10;"..100" &#10;"10.0." &#10;"abc" &#10;"100.0$0" &#10;"$10a.00"&#10;"$"</code></pre> </td>
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Item update template
 
@@ -119,6 +121,7 @@ To update the price of an existing menu item using the item update template, it 
 For `UPDATE` operations, the bulk import tool does not support applying a blank or empty value to an existing value. This means that if an `UPDATE` row for a menu item contains a blank value or empty spaces for a field, that field will not be updated and it will retain its original value.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -161,7 +164,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr>
       <td>Price</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>A string representing the menu item's base price. Optional. <blockquote><strong>Note</strong> The item update template is limited to updating the prices of menu items that use the <code>BASE</code> pricing strategy. You cannot use it to update prices for menu items that use any of the other pricing strategies.</blockquote>  <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null&#10;""&#10;".12"&#10;"1"&#10;"10"&#10;"100"&#10;"100.00"&#10;".1"&#10;"100.0"&#10;"100."&#10;"-.1"&#10;"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"&#10;"$a" &#10;"." &#10;"€1" &#10;"10.." &#10;"..100" &#10;"10.0." &#10;"abc" &#10;"100.0$0" &#10;"$10a.00"&#10;"$"</code></pre> </td>
     </tr>
     <tr>
       <td>PLU</td>
@@ -173,15 +176,15 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr>
       <td>Sales category multiLocation ID</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The multilocation ID for the sales category that applies to this menu item. <br/> If you update the sales category ID for a menu item, and the item had previously been set to inherit its sales category ID from a parent menu group, the item is reconfigured so that it no longer inherits its sales category from a parent menu group. The menu item now has its own sales category. <br/> Example of a sales category ID: <pre><code>500000000032822323</code></pre>  <br/> For more information, see <a href="adminGuide-platformSpecifyingToastIdentifiers">Specifying Toast identifiers</a>.</td>
     </tr>
     <tr>
       <td>Prep station multiLocation IDs</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The multilocation IDs for the prep stations that this menu item should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID. <br/> If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> Example of a single prep station ID: <pre><code>500000000032885671</code></pre>  <br/> Example of multiple prep stations IDs: <pre><code>"500000000032885671,500000000094945671"</code></pre>  <br/> For more information, see <a href="adminGuide-platformSpecifyingToastIdentifiers">Specifying Toast identifiers</a>.</td>
     </tr>
     <tr>
       <td>Tax rate multiLocation IDs</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The multilocation IDs for the tax rates that apply to this menu item. If you specify a single tax rate, you can just provide the ID. <br/> If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> Example of a single tax rate ID: <pre><code>500000000139746504</code></pre>  <br/> Example of multiple tax rates IDs: <pre><code>"500000000139746504,500000000959646504"</code></pre>  <br/> For more information, see <a href="adminGuide-platformSpecifyingToastIdentifiers">Specifying Toast identifiers</a>.</td>
     </tr>
     <tr>
       <td>Guest count</td>
@@ -189,6 +192,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Advanced template
 
@@ -206,6 +210,7 @@ Use the information in the table below to fill out your copy of the advanced tem
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -262,12 +267,12 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr>
       <td>Pricing strategy or method</td>
-      <td>[Complex content with multiple lists omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>A drop-down menu where you can choose the pricing strategy or method for the menu entity being created. Values include:<ul><li><code>BASE</code></li><li><code>LOCATION_SPECIFIC</code></li><li><code>PRICED_BY_MODIFIERS</code></li></ul> <br/> The value you choose for the Pricing strategy or method column depends on the type of entity you are creating. <br/> For menu items:<ul><li><code>BASE</code> sets the pricing strategy on the menu item to <a href="adminGuide-adminBasePrice">Base price</a>. <br/> While not required, you should also consider supplying the base price in the Price field of the menu item's <code>CREATE</code> row.</li><li><code>LOCATION_SPECIFIC</code> sets the pricing strategy on the menu item to <a href="adminGuide-adminLocationSpecificPrice">Location Specific Price</a>. <br/> If you pick this pricing strategy, you must also provide the location-specific price in the Price field of the menu item's <code>CREATE</code> row.</li></ul> <br/> For modifier groups:<ul><li><code>BASE</code> sets the pricing method for the modifier group to <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a>. The additional charge is a fixed price charge. <br/> While not required, you should also consider supplying the fixed price charge in the Price field of the modifier group's <code>CREATE</code> row.</li><li><code>PRICED_BY_MODIFIERS</code> sets the pricing method for the modifier group to <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a>. <br/> While not required, you should also consider supplying prices in the Price fields of the <code>CREATE</code> rows for the <em>individual modifiers</em>  contained in the modifier group.</li></ul> <blockquote><strong>Note</strong> The bulk import tool does not support creating modifier groups that use the No additional charge option.</blockquote>  <br/> For modifiers:<ul><li><code>BASE</code> sets the pricing strategy on the modifier's item reference to <a href="adminGuide-adminBasePrice">Base price</a>. <br/> While not required, you should also consider supplying the base price in the Price field of the modifier's <code>CREATE</code> row.</li><li><code>LOCATION_SPECIFIC</code> sets the pricing strategy on the modifier's item reference to <a href="adminGuide-adminLocationSpecificPrice">Location Specific Price</a>. <br/> If you pick this pricing strategy, you must also provide the location-specific price in the Price field of the modifier's <code>CREATE</code> row.</li></ul> <blockquote><strong>Note</strong> Pricing strategies and prices set on individual modifiers are ignored if the parent modifier group's Pricing strategy or method field is empty or set to <code>BASE</code> (<a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a>).</blockquote> </td>
       <td>Required for <code>CREATE</code> operations <br/> Empty for <code>UPDATE</code> and <code>ATTACH</code> operations</td>
     </tr>
     <tr>
       <td>Price</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>A string representing the menu entity's price. Optional.<ul><li>For menu items: <br/> The Price column contains the price for the menu item. The menu item may use either the <code>BASE</code> pricing strategy or the <code>LOCATION_SPECIFIC</code> pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the menu item uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li><li>For modifier groups: <br/> When the modifier group's Pricing strategy or method is set to <code>BASE</code>, the Price column contains the price that applies to <em>all modifiers</em>  in the modifier group. (The <code>BASE</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> setting in Toast Web.) <br/> When the modifier group's Pricing strategy or method is set to <code>PRICED_BY_MODIFIERS</code>, you must leave the Price column empty. (The <code>PRICED_BY_MODIFIERS</code> pricing method corresponds to the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> setting in Toast Web.)</li><li>For modifiers: <br/> When a modifier's <em>parent modifier group</em>  uses the <code>PRICED_BY_MODIFIERS</code> pricing method, the Price column in the <em>modifier's row</em>  specifies the individual price of the modifier. The modifier may use either the <code>BASE</code> pricing strategy or the <code>LOCATION_SPECIFIC</code> pricing strategy, and the Price column will contain either a base price or a location-specific price, respectively. <br/> If the modifier uses a location-specific price, the Location-specific price target ID column identifies the location the price applies to.</li></ul> <br/> Price strings must follow these rules:<ul><li>The string can use a minus sign, <code>-1.00</code>, or parentheses, <code>(1.00)</code>, to indicate a reduction in price.</li><li>Cents are optional. For example, both <code>10.00</code> and <code>10</code> are acceptable.</li><li>Commas that separate thousands are optional. For example, both <code>1000</code> and <code>1,000</code> are acceptable.</li><li><code>null</code> is an acceptable value for the price.</li><li>A price string cannot exceed 25 characters.</li><li>A price string cannot include a currency symbol. For example, <code>$100</code> is not acceptable.</li></ul> <br/> Examples of valid price strings: <pre><code>null&#10;""&#10;".12"&#10;"1"&#10;"10"&#10;"100"&#10;"100.00"&#10;".1"&#10;"100.0"&#10;"100."&#10;"-.1"&#10;"(100.0)"</code></pre>  <br/> Examples of invalid price strings: <pre><code>"$100"&#10;"$a" &#10;"." &#10;"€1" &#10;"10.." &#10;"..100" &#10;"10.0." &#10;"abc" &#10;"100.0$0" &#10;"$10a.00"&#10;"$"</code></pre> </td>
       <td>Used for: <br/> <code>CREATE</code> operations where Entity type is <code>MENU_ITEM</code>. <br/> <code>CREATE</code> operations where:<ul><li>The Entity type is <code>MODIFIER_GROUP</code></li><li>The modifier group's Pricing strategy or method is set to <code>BASE</code>, to indicate that it is using the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set by modifier group</a> pricing method.</li></ul> <br/> <code>CREATE</code> operations where:<ul><li>The Entity type is <code>MODIFIER</code></li><li>The Pricing strategy or method for the modifier's <em>parent modifier group</em>  is set to <code>PRICED_BY_MODIFIERS</code>, to indicate that the modifier's parent group is using the <a href="adminGuide-adminPricingModifierOptions#adminSettingTheModifierPricingMethodForAModifierGroup">Additional charge - price set on individual modifiers</a> pricing method.</li></ul> <br/> <code>UPDATE</code> operations where the menu item's Pricing strategy or method is set to <code>BASE</code>. <br/> Empty for <code>ATTACH</code> operations</td>
     </tr>
     <tr>
@@ -287,17 +292,17 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr>
       <td>Prep station multiLocation IDs</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The multilocation IDs for the prep stations that this menu item or modifier should be sent to when it is ordered. If you need to specify a single prep station, you can just provide the ID. <br/> If you need to specify multiple prep stations, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> If you don't provide a prep station ID when you create a menu item or modifier, the menu item or modifier inherits the prep station assigned to its parent menu entity. <br/> Example of a single prep station ID: <pre><code>500000000032885671</code></pre>  <br/> Example of multiple prep stations IDs: <pre><code>"500000000032885671,500000000094945671"</code></pre>  <br/> For more information, see <a href="adminGuide-platformSpecifyingToastIdentifiers">Specifying Toast identifiers</a>.</td>
       <td>Used for <code>CREATE</code> operations where Entity type is <code>MENU_ITEM</code> or <code>MODIFIER</code> and for <code>UPDATE</code> operations <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
     <tr>
       <td>Tax rate multiLocation IDs</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The multilocation IDs for the tax rates that apply to this menu item or modifier. If you specify a single tax rate, you can just provide the ID. <br/> If you need to specify multiple tax rates, separate their multilocation IDs with commas and encapsulate the entire string in double quotes. <br/> If you don't provide a tax rate ID when you create a menu item or modifier, the menu item or modifier inherits the tax rates assigned to its parent menu entity. <br/> Example of a single tax rate ID: <pre><code>500000000139746504</code></pre>  <br/> Example of multiple tax rates IDs: <pre><code>"500000000139746504,500000000959646504"</code></pre>  <br/> For more information, see <a href="adminGuide-platformSpecifyingToastIdentifiers">Specifying Toast identifiers</a>.</td>
       <td>Used for <code>CREATE</code> operations where Entity type is <code>MENU_ITEM</code> or <code>MODIFIER</code> and for <code>UPDATE</code> operations <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
     <tr>
       <td>Sales category multiLocation ID</td>
-      <td>[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/">current documentation</a>]</td>
+      <td>The multilocation ID for the sales category that applies to this menu item or modifier. <br/> If you don't provide a sales category ID when you create a menu item or modifier, the menu item or modifier inherits the sales category assigned to its parent menu entity. <br/> Example of a sales category ID: <pre><code>500000000032822323</code></pre>  <br/> For more information, see <a href="adminGuide-platformSpecifyingToastIdentifiers">Specifying Toast identifiers</a>.</td>
       <td>Used for <code>CREATE</code> operations where Entity type is <code>MENU_ITEM</code> or <code>MODIFIER</code> <br/> Empty for all other operations <br/> Column can be omitted from spreadsheet if empty for all rows</td>
     </tr>
     <tr>
@@ -372,4 +377,5 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
   </tbody>
 </table>
+</div>
 

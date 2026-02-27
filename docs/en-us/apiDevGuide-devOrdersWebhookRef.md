@@ -51,6 +51,7 @@ The orders webhook event type is `order_updated` or `channel_order_updated`. A n
 Attributes in the `orders_updated` payload include: 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -81,6 +82,7 @@ Attributes in the `orders_updated` payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Omitted values
 

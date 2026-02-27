@@ -27,6 +27,7 @@ In Toast Web, there are channel visibility settings that restaurants use to cont
 The channel visibility settings reside on a menu entity's details page in Toast Web. The names of the settings are slightly different depending on whether the restaurant is using the [classic menu details pages or the newer menu builder tool](adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages) to edit the menu. The table below describes the behavior of the channel visibility settings and how they are represented in the `visibility`array that appears in the menus API for each menu entity:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -63,6 +64,7 @@ The channel visibility settings reside on a menu entity's details page in Toast 
     </tr>
   </tbody>
 </table>
+</div>
 
 Partner integrations should inspect a menu entity's `visibility` array to determine whether an entity should be included in their integration or not.
 

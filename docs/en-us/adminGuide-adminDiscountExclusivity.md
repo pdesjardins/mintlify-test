@@ -97,6 +97,7 @@ The following table summarizes how different combinations of exclusive and nonex
 For information on configuring required items for discounts, see [Choosing the required items for a discount](adminGuide-adminDiscountRequiredItemsAbout).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -151,4 +152,5 @@ For information on configuring required items for discounts, see [Choosing the r
     </tr>
   </tbody>
 </table>
+</div>
 

@@ -70,6 +70,7 @@ Before beginning development, decide how you will report on the data retrieved. 
 The following table provides suggested information that you can use when displaying order data alongside video footage or in reports. 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -107,6 +108,7 @@ The following table provides suggested information that you can use when display
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Retrieve restaurant configuration information
 
@@ -161,6 +163,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -187,6 +190,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Set up recurring order retrieval of transactional information
 

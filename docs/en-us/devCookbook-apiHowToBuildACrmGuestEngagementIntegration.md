@@ -146,6 +146,7 @@ To get information about the employee associated with an order, you will need to
 When creating your integration functionality, consider tracking the following information as it relates to the customer.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -172,4 +173,5 @@ When creating your integration functionality, consider tracking the following in
     </tr>
   </tbody>
 </table>
+</div>
 

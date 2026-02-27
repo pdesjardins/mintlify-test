@@ -30,6 +30,7 @@ Webhook updates include a set of HTTP headers, some of which are standard HTTP h
 The following table describes the Toast-specific HTTP headers included with webhook events.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -60,12 +61,14 @@ The following table describes the Toast-specific HTTP headers included with webh
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Standard HTTP headers
 
 In addition to the Toast-specific HTTP headers, webhook events include the standard HTTP headers shown in the table below. For more detailed information on these headers, see [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers):
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -100,4 +103,5 @@ In addition to the Toast-specific HTTP headers, webhook events include the stand
     </tr>
   </tbody>
 </table>
+</div>
 

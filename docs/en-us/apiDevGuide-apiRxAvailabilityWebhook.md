@@ -135,6 +135,7 @@ Restaurants using Toast Online Ordering with [Manual Approval or Approval Rules]
 The restaurant is online and can accept orders. Attributes in the `availability_online` event’s payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -161,6 +162,7 @@ The restaurant is online and can accept orders. Attributes in the `availability_
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.8. Payload for an availability_online event when a restaurant is online and approving orders**
 
@@ -186,6 +188,7 @@ The restaurant is online and can accept orders. Attributes in the `availability_
 The restaurant is offline and should not receive orders. Attributes in the `availability_offline` event’s payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -212,6 +215,7 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.9. Payload for an availability_offline event when a restaurant is offline and not approving orders**
 
@@ -262,6 +266,7 @@ A third-party online ordering channel is any online ordering channel such as Ube
 The restaurant has turned on online ordering for that ordering channel. Attributes in the `toggle_availability_online`event’s payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -288,6 +293,7 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.10. Payload for a toggle_availability_online event when a restaurant is online and has turned on online ordering**
 
@@ -313,6 +319,7 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
 The restaurant has turned off online ordering for that ordering channel. Attributes in the `toggle_availability_offline`event’s payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -339,6 +346,7 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.11. Payload for a toggle_availability_offline event when a restaurant is offline and has turned off online ordering**
 
@@ -364,6 +372,7 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
 For a restaurant to be available to accept online orders, the online ordering channel toggle and the autofire device must be on (indicating the restaurant's health as being online). Any combination where the online ordering channel toggle and the autofire device are not both on results in the restaurant being offline and unable to accept online orders. The table below outlines the combination of online ordering toggle availability with the autofire device status and the resulting restaurant status.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -395,6 +404,7 @@ For a restaurant to be available to accept online orders, the online ordering ch
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Testing the restaurant availability webhook
 

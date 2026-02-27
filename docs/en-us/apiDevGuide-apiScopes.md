@@ -24,6 +24,7 @@ To see the scopes associated with your API client, you must decrypt the authenti
 The following table describes the scopes that determine what actions your Toast API client has permission to perform.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -192,6 +193,7 @@ The following table describes the scopes that determine what actions your Toast 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Getting API client scopes
 

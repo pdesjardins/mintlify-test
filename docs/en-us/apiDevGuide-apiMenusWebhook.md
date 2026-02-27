@@ -29,6 +29,7 @@ A restaurant that uses your integration has published a change to its menus.
 Attributes in the `menus_updated` event's payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -47,6 +48,7 @@ Attributes in the `menus_updated` event's payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.2. Payload example for the menus_updated event**
 

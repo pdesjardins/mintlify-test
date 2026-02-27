@@ -22,6 +22,7 @@ The following tables describe the fields that are displayed on the discount conf
 At the top of the discount configuration page are the following fields, which apply to all discounts.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -60,6 +61,7 @@ At the top of the discount configuration page are the following fields, which ap
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Type-specific fields for discounts
 
@@ -70,6 +72,7 @@ When you select the discount type, type-specific fields are displayed below the 
 The following fields display when you set Discount Type to one of the fixed or open amount or percent discount types. See [Configuring fixed or open amount or percent discounts](adminGuide-adminDiscountsConfigFixedOpenDiscounts).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -100,6 +103,7 @@ The following fields display when you set Discount Type to one of the fixed or o
     </tr>
   </tbody>
 </table>
+</div>
 
 ### BOGO discount fields
 
@@ -108,6 +112,7 @@ The following fields are displayed when you select BOGO as the discount type. Se
 There are also BOGO-specific fields in the [Advanced Settings section.](adminGuide-adminDiscountConfigReference#discountConfigAdvanced)
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -130,6 +135,7 @@ There are also BOGO-specific fields in the [Advanced Settings section.](adminGui
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Combo discount fields
 
@@ -138,6 +144,7 @@ The following fields display when you set Discount type to Combo. See [Configuri
 There are also a combo-specific field in the [Advanced Settings](adminGuide-adminDiscountConfigReference#discountConfigAdvanced) section.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -156,6 +163,7 @@ There are also a combo-specific field in the [Advanced Settings](adminGuide-admi
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Promo codes
 
@@ -166,6 +174,7 @@ The Promo codes section contains the list of promo codes for the discount. For d
 The Availability section allows you to configure the dates, days of the week, and times when a discount is available. For details, see [Setting the availability date range for a discount](adminGuide-adminDiscountAvailability).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -188,10 +197,12 @@ The Availability section allows you to configure the dates, days of the week, an
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Advanced settings
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -242,4 +253,5 @@ The Availability section allows you to configure the dates, days of the week, an
     </tr>
   </tbody>
 </table>
+</div>
 

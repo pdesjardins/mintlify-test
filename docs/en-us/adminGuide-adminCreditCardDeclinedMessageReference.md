@@ -24,6 +24,7 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -146,4 +147,5 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
     </tr>
   </tbody>
 </table>
+</div>
 

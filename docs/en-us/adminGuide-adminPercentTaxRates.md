@@ -39,6 +39,7 @@ For example, a tax rate of 6.25%, when applied to a $50.75 check, results in a t
 The following table describes the four Toast rounding options.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -70,6 +71,7 @@ The following table describes the four Toast rounding options.
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Takeout tax rates
 

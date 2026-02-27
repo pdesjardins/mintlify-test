@@ -242,6 +242,7 @@ The restaurants included in the payout reporting data organized by payments can 
 The following table specifies the returned set of values in the payout reporting data organized by payments. The values are listed in the order they appear in the response.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -316,4 +317,5 @@ The following table specifies the returned set of values in the payout reporting
     </tr>
   </tbody>
 </table>
+</div>
 

@@ -60,6 +60,7 @@ The menu item has been manually marked as in stock or its quantity has been set 
 Attributes in the `in_stock` event's payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -94,6 +95,7 @@ Attributes in the `in_stock` event's payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.13. Payload for an in_stock event when a menu item is manually marked as In Stock**
 
@@ -143,6 +145,7 @@ The menu item's quantity has reached 0 or it has been manually marked as out of 
 Attributes in the `out_of_stock` event's payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -173,6 +176,7 @@ Attributes in the `out_of_stock` event's payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.15. Payload example for the out_of_stock event**
 
@@ -212,6 +216,7 @@ If your integration has the requirement that anytime the quantity of an item is 
 Attributes in the `low_quantity` event's payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -246,6 +251,7 @@ Attributes in the `low_quantity` event's payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.16. Payload example for the low_quantity event**
 

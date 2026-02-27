@@ -34,6 +34,7 @@ The POS access permissions give employees the ability to use the main modes, or 
 The following table includes information about the POS Access permissions related to mode on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -64,6 +65,7 @@ The following table includes information about the POS Access permissions relate
     </tr>
   </tbody>
 </table>
+</div>
 
 
 
@@ -80,6 +82,7 @@ Employees who have a mode permission can access the corresponding function from 
 - The following Setup &gt; Device Setupoptions:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -110,6 +113,7 @@ Employees who have a mode permission can access the corresponding function from 
     </tr>
   </tbody>
 </table>
+</div>
 
 Note that access to Credit Card Pre-Authorization, EMV Enabled and Add New Card Reader options are also granted if you have the Terminal Setup permissions. For more information, see [Device setup access permissions](adminGuide-adminPermissions#adminDeviceSetupAccessPermissions).
 
@@ -148,6 +152,7 @@ To provide access to more of the options and features available on Toast POS dev
 The following table includes information about the POS Access permissions related to options and features on Toast POS devices on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -218,6 +223,7 @@ The following table includes information about the POS Access permissions relate
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Delivery access permissions
 
@@ -226,6 +232,7 @@ The access permissions described in this section give employees access to featur
 The following table includes information about the Delivery Access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -260,6 +267,7 @@ The following table includes information about the Delivery Access permissions o
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Manager access permissions
 
@@ -268,6 +276,7 @@ To provide access to options and features on Toast POS devices that entail great
 The following table includes information about the Manager access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -414,6 +423,7 @@ The following table includes information about the Manager access permissions on
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Restaurant admin access permissions
 
@@ -422,6 +432,7 @@ To provide access to restaurant-wide reporting and configuration options for you
 The following table includes information about the Restaurant Admin access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -532,6 +543,7 @@ The following table includes information about the Restaurant Admin access permi
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Quick edit access permissions
 
@@ -549,6 +561,7 @@ To use the quick edit feature on the Toast POS app, you open the order screen an
 The following table includes information about the Quick Edit Access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -603,6 +616,7 @@ The following table includes information about the Quick Edit Access permissions
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Web setup access permissions
 
@@ -611,6 +625,7 @@ Permissions in the Web Setup section control access to configuration options in 
 The following table includes information about the Web Setup access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -669,6 +684,7 @@ The following table includes information about the Web Setup access permissions 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Device setup access permissions
 
@@ -684,6 +700,7 @@ Permissions in the Device Setup section control access to Setup &gt; Device Setu
 The following table includes information about the Device Setup access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -710,6 +727,7 @@ The following table includes information about the Device Setup access permissio
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Account admin access permissions
 
@@ -718,6 +736,7 @@ To provide access to sensitive or specialized information for your Toast platfor
 The following table includes information about the Account Admin access permissions on the job details page. To open the job details page, select Employees &gt; Employee management &gt; Jobs, and then select the job title.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -768,6 +787,7 @@ The following table includes information about the Account Admin access permissi
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Permissions for accessing device setup options
 

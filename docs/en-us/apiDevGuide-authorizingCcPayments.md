@@ -299,6 +299,7 @@ To ensure that your guests' transactions receive adequate fraud protection, your
 The following table provides more information about the values you include in the `cardNumberOrigin` value in a `PaymentAuthorization` object in the message body parameter of a credit card authorization request.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -317,6 +318,7 @@ The following table provides more information about the values you include in th
     </tr>
   </tbody>
 </table>
+</div>
 
 
 
@@ -541,6 +543,7 @@ RSA-OAEP-SHA256::a253759c-1c91-4f22-9db9-71ba24738f8d_MyRestaurantService
 The following table includes the identification strings for the encryption algorithms that you can use in credit cards API authorization requests.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -559,6 +562,7 @@ The following table includes the identification strings for the encryption algor
     </tr>
   </tbody>
 </table>
+</div>
 
 For more information about making an authorization request, see [Authorizing a credit card payment](apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment).
 

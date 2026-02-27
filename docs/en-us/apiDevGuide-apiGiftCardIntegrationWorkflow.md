@@ -69,6 +69,7 @@ Your gift card API implementation must use HTTPS for all REST requests and respo
 The following table describes the transaction types that the Toast platform sends to your gift card provider service. The Toast platform includes the transaction type identifier in the `Toast-Transaction-Type` header parameter for each gift card transaction API request.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -99,6 +100,7 @@ The following table describes the transaction types that the Toast platform send
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Verification Codes (PINs)
 
@@ -111,6 +113,7 @@ If a user enters a verification code, the Toast platform sends it as part of any
 The following table describes the response status types that your gift card provider service can send to the Toast platform. Your gift card integration API implementation returns a transaction status identifier in the `transactionStatus` value of the GiftCardTransactionResponse object.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -177,6 +180,7 @@ The following table describes the response status types that your gift card prov
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Multiple requests for a gift card transaction
 

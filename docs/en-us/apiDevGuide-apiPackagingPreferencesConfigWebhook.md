@@ -43,6 +43,7 @@ The packaging preferences configuration webhook `eventType` is `packaging_update
 Attributes in the `packaging_updated` event's payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -69,6 +70,7 @@ Attributes in the `packaging_updated` event's payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.4. Payload example for the menus_updated event**
 

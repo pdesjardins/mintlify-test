@@ -21,6 +21,7 @@ The Online ordering hours section displays the online ordering hours for Takeout
 The following table describes which online ordering hours configuration to use for each ordering channel.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -39,6 +40,7 @@ The following table describes which online ordering hours configuration to use f
     </tr>
   </tbody>
 </table>
+</div>
 
 From the Online ordering hours section, you can open or close your restaurant to online ordering, edit your online ordering hours, and choose to accept orders until closing time.
 
@@ -154,6 +156,7 @@ From the Online ordering hours section you can choose to allow guests to place o
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -172,6 +175,7 @@ From the Online ordering hours section you can choose to allow guests to place o
     </tr>
   </tbody>
 </table>
+</div>
 
 Select the Publish all changes button to save and publish your changes. The Confirm Publishdialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
 

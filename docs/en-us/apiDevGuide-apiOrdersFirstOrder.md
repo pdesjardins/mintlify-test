@@ -71,6 +71,7 @@ Every order requires, at minimum, a dining option and a check with menu item sel
 The following table describes the required fields:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -112,6 +113,7 @@ The following table describes the required fields:
     </tr>
   </tbody>
 </table>
+</div>
 
 For detailed information about all values in an `Order`object, see [Order object summary](apiDevGuide-apiOrdersOrderObjectSummary) and the [orders API reference documentation](https://doc.toasttab.com/openapi/orders/overview/).
 
@@ -120,6 +122,7 @@ For detailed information about all values in an `Order`object, see [Order object
 All requests to the Toast platform APIs require the following headers:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -142,6 +145,7 @@ All requests to the Toast platform APIs require the following headers:
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Submitting your first order
 
@@ -622,6 +626,7 @@ For more information, see [Applying modifiers to orders](apiDevGuide-apiSpecifyi
 When submitting orders, you may encounter the following HTTP status codes:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -673,12 +678,14 @@ When submitting orders, you may encounter the following HTTP status codes:
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Common error messages
 
 The following table describes common error messages and their resolutions:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -705,6 +712,7 @@ The following table describes common error messages and their resolutions:
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Next steps
 

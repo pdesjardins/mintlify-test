@@ -24,6 +24,7 @@ The default color pairing is `WHITE`. In the `WHITE` color pairing, `posButtonCo
 The following table shows the color pairing names and the color hex codes for light and dark mode associated with each pairing.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -180,4 +181,5 @@ The following table shows the color pairing names and the color hex codes for li
     </tr>
   </tbody>
 </table>
+</div>
 

@@ -32,6 +32,7 @@ The origin of the order can have an affect on how the order is processed. For ex
 The following table summarizes the differences in order processing among the order sources.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -86,4 +87,5 @@ The following table summarizes the differences in order processing among the ord
     </tr>
   </tbody>
 </table>
+</div>
 

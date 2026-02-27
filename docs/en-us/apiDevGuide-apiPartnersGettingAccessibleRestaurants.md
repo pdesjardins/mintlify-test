@@ -114,6 +114,7 @@ The GUID for a restaurant is in the `restaurantGuid` value of the return data. T
 For each restaurant, the `/restaurants` endpoint the JSON response contains the following values:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -168,6 +169,7 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
     </tr>
   </tbody>
 </table>
+</div>
 
 #### Example /restaurants response
 
@@ -267,6 +269,7 @@ You can query your response by adding the following parameters:
 For each restaurant, the `/connectedRestaurants` JSON response data contains the same values seen from the [`/restaurants`response data](apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiGetRestaurantsReturnFieldList), as well as the following values:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -313,6 +316,7 @@ For each restaurant, the `/connectedRestaurants` JSON response data contains the
     </tr>
   </tbody>
 </table>
+</div>
 
 #### /connectedRestaurants example return data
 

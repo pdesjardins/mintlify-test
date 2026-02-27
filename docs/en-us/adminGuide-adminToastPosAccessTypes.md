@@ -28,6 +28,7 @@ Depending on their access type, employees use different credentials to access th
 The following table includes information about the access types and their credential type and uses.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -49,6 +50,7 @@ The following table includes information about the access types and their creden
     </tr>
   </tbody>
 </table>
+</div>
 
 
 

@@ -57,6 +57,7 @@ You can have a combo discount in which one item is taxed and another is tax-exem
 For example, assume this combo discount:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -79,6 +80,7 @@ For example, assume this combo discount:
     </tr>
   </tbody>
 </table>
+</div>
 
 Based on the weighing, the new price of the Taxed item is calculated as $8.00 and the NonTaxed item as $4.00, which adds up to the $12.00 price of the discount.
 
@@ -169,6 +171,7 @@ In this example:
 The discount in the example is applied as follows, depending on the configuration setting:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -187,4 +190,5 @@ The discount in the example is applied as follows, depending on the configuratio
     </tr>
   </tbody>
 </table>
+</div>
 

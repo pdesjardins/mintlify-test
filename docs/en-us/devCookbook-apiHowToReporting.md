@@ -72,6 +72,7 @@ To review order structure, see [Orders API overview](apiDevGuide-portalOrdersApi
 The following table provides suggested information that you can display in different types of reports. For more information about the difference between orders, checks, menu item selections, and payments, see [Orders API overview](apiDevGuide-portalOrdersApiOverview).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -114,12 +115,14 @@ The following table provides suggested information that you can display in diffe
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Set up a recurring retrieval of transactional information
 
 After you decide what to display in your reports, build a retrieval of transactional information. Below are recommendations for how to retrieve transactional data.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -151,6 +154,7 @@ After you decide what to display in your reports, build a retrieval of transacti
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Consider a one-time historical information backfill per location
 
@@ -174,6 +178,7 @@ To reduce the amount of data that you receive when you poll the configuration AP
 Consider including the following configuration in your analytics integration.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -215,6 +220,7 @@ Consider including the following configuration in your analytics integration.
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Add additional business logic
 

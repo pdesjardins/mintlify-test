@@ -20,6 +20,7 @@ Scopes determine the actions that your Toast API client has permission to perfor
 Standard API access provides access to the following scopes:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -82,4 +83,5 @@ Standard API access provides access to the following scopes:
     </tr>
   </tbody>
 </table>
+</div>
 

@@ -25,6 +25,7 @@ The following table provides information about the quote time strategies availab
 
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -51,4 +52,5 @@ The following table provides information about the quote time strategies availab
     </tr>
   </tbody>
 </table>
+</div>
 

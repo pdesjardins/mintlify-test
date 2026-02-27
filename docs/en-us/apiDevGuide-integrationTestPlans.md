@@ -25,6 +25,7 @@ You should also ensure that your integration successfully [authenticates](apiDev
 You can [download a CSV version of this test plan](toast-api-integration-checklist-giftcard.csv).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -220,6 +221,7 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Loyalty integration test plan
 
@@ -230,6 +232,7 @@ You should also ensure that your integration successfully [authenticates](apiDev
 You can [download a CSV version of this test plan](toast-api-integration-checklist-loyalty.csv).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -453,4 +456,5 @@ You can [download a CSV version of this test plan](toast-api-integration-checkli
     </tr>
   </tbody>
 </table>
+</div>
 

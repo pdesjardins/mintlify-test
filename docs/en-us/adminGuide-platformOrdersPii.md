@@ -42,6 +42,7 @@ You can also create a tab name using the `tabName`field in the `checks` object o
 When an employee creates a tab name for an order, it is displayed in the areas described below, in addition to being displayed on the POS device.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -64,4 +65,5 @@ When an employee creates a tab name for an order, it is displayed in the areas d
     </tr>
   </tbody>
 </table>
+</div>
 

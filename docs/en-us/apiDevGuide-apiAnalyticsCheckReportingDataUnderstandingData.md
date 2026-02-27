@@ -22,6 +22,7 @@ The restaurants included in the check reporting data can be limited by adding th
 The following table specifies the set of values returned in the check reporting data. The values are listed in the order that they appear.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -112,4 +113,5 @@ The following table specifies the set of values returned in the check reporting 
     </tr>
   </tbody>
 </table>
+</div>
 

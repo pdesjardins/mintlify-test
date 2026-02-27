@@ -65,6 +65,7 @@ When an order is marked as Order Ready in Orders Hub or is fulfilled by the Kitc
 The attributes in the `guestOrderStatusUpdated` event’s payload include:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -99,6 +100,7 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
     </tr>
   </tbody>
 </table>
+</div>
 
 **Example 9.1. Payload example for a guestOrderStatusUpdated event**
 

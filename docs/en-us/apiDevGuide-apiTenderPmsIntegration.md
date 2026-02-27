@@ -64,6 +64,7 @@ Configuring the search is the first transaction that occurs when an employee ini
 The `value` must be one of the following:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -90,6 +91,7 @@ The `value` must be one of the following:
     </tr>
   </tbody>
 </table>
+</div>
 
 The first four search terms are displayed on the guest lookup screen on the Toast POS device. The `value` also determines the type of virtual keyboard that is displayed for the search term. For example, `TEXT` does not allow a number pad to be used.
 

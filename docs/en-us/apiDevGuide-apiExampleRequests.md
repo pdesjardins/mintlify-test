@@ -19,6 +19,7 @@ codeExamples: 0
 Toast provides a Postman™ API client collection of API requests to help you test the APIs without writing any code.
 
 
+<div className="table-wrapper">
 <table>
   <tbody>
     <tr>
@@ -55,4 +56,5 @@ Toast provides a Postman™ API client collection of API requests to help you te
     </tr>
   </tbody>
 </table>
+</div>
 

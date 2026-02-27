@@ -18,6 +18,7 @@ codeExamples: 0
 The entries in the table below define errors you may encounter while using the orders API. These entries are ordered alphabetically by error message.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -64,4 +65,5 @@ The entries in the table below define errors you may encounter while using the o
     </tr>
   </tbody>
 </table>
+</div>
 

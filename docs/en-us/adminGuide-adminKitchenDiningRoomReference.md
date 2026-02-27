@@ -39,6 +39,7 @@ For more information, see [How orders are routed to KDS devices](adminGuide-admi
 The following table provides information about the settings of the Printed Tickets and Ticket Screens section on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -76,12 +77,14 @@ The following table provides information about the settings of the Printed Ticke
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Expediter
 
 The following table provides information about the settings of the Expediter section on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -123,12 +126,14 @@ The following table provides information about the settings of the Expediter sec
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Printed Tickets
 
 The following table provides information about the settings of the Printed Tickets section on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -178,12 +183,14 @@ The following table provides information about the settings of the Printed Ticke
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Tickets Screens
 
 The following table provides information about the settings of the Ticket Screens section on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -257,12 +264,14 @@ The following table provides information about the settings of the Ticket Screen
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Order ready text messaging
 
 The following table provides information about the settings of the Order ready text messaging section on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -284,12 +293,14 @@ The following table provides information about the settings of the Order ready t
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Kitchen Names
 
 The following table provides information about the settings of the Kitchen Names section on the Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -307,6 +318,7 @@ The following table provides information about the settings of the Kitchen Names
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Courses
 
@@ -319,6 +331,7 @@ You can also give employees the option to specify the course for each item in an
 The following table provides information about the settings of the Kitchen &gt; Pacing &gt; Courses page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -345,6 +358,7 @@ The following table provides information about the settings of the Kitchen &gt; 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Prep stations
 
@@ -353,6 +367,7 @@ To review and change settings on the Kitchen &gt; Kitchen stations &gt; Prep sta
 For information about adding and customizing prep station behavior, see [Adding a prep station](adminGuide-adminAddPrepStation) and [Procedure 10.18, “To configure a prep station to monitor another prep station”](adminGuide-adminMonitoringTicketsOtherPrepStations#adminConfigurePrintOtherStationsItems).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -399,6 +414,7 @@ For information about adding and customizing prep station behavior, see [Adding 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Advanced item routing
 
@@ -409,6 +425,7 @@ For information about setting up menu item routing to prep stations, see [Assign
 The following table provides information about the settings of the Kitchen &gt; Kitchen stations &gt; Item routingpage.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -451,6 +468,7 @@ The following table provides information about the settings of the Kitchen &gt; 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Production Items
 
@@ -461,6 +479,7 @@ For more information about production items, see [About production items](adminG
 The following table provides information about the settings of the Kitchen &gt; Kitchen stations &gt; Production itemspage.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -487,6 +506,7 @@ The following table provides information about the settings of the Kitchen &gt; 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Dining Options
 
@@ -499,6 +519,7 @@ Dining options can apply to a complete order or to an item within an order by us
 The following table provides information about the settings of the Kitchen &gt; Dining options &gt; Dining optionspage.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -537,6 +558,7 @@ The following table provides information about the settings of the Kitchen &gt; 
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Meal Pacing
 
@@ -549,6 +571,7 @@ You add [courses](adminGuide-adminKitchenDiningRoomReference#configCoursesSectio
 The following table provides information about the settings of the Course Pacing section on the Kitchen &gt; Pacing &gt; Meal pacing page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -603,12 +626,14 @@ The following table provides information about the settings of the Course Pacing
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Item Pacing
 
 The following table provides information about the settings of the Item Pacing section on the Kitchen &gt; Pacing &gt; Meal pacing page.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -623,4 +648,5 @@ The following table provides information about the settings of the Item Pacing s
     </tr>
   </tbody>
 </table>
+</div>
 

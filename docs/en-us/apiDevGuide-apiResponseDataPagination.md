@@ -227,6 +227,7 @@ Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel
 The following table identifies the pagination functionality used by Toast API endpoints.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -249,4 +250,5 @@ The following table identifies the pagination functionality used by Toast API en
     </tr>
   </tbody>
 </table>
+</div>
 

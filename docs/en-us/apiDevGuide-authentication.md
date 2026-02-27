@@ -35,6 +35,7 @@ Authentication tokens are valid for a limited period of time. The length of time
 Before you can authenticate, you need API credentials. The way you get credentials depends on your integration access type. Credentials include a `clientId` and `clientSecret`. The table below shows how credentials are issued for each integration type. For more information, see [Integration types](apiDevGuide-apiIntegrationTypes).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -61,6 +62,7 @@ Before you can authenticate, you need API credentials. The way you get credentia
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Credential storage guidelines
 

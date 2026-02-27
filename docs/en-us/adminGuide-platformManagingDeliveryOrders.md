@@ -58,6 +58,7 @@ After you dispatch a driver, the order moves to the EN ROUTE tab on the Delivery
 When your restaurant fulfills a guest delivery order using Toast Delivery Services (TDS), the Orders Hub screen displays one of the following blue status indicators to show fulfillment progress:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -100,4 +101,5 @@ When your restaurant fulfills a guest delivery order using Toast Delivery Servic
     </tr>
   </tbody>
 </table>
+</div>
 

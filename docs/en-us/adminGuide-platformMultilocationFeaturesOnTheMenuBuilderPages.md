@@ -26,6 +26,7 @@ The Menu details section of a menu page displays the target, owner, number (also
 The following table provides descriptions for target, owner, number, and GUID:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -52,6 +53,7 @@ The following table provides descriptions for target, owner, number, and GUID:
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Menu group versions (menu page only)
 

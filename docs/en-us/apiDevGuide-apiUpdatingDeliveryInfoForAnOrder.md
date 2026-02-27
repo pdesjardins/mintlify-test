@@ -26,6 +26,7 @@ codeExamples: 0
 You can use the orders API to modify the following delivery information:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -56,6 +57,7 @@ You can use the orders API to modify the following delivery information:
     </tr>
   </tbody>
 </table>
+</div>
 
 
 

@@ -134,6 +134,7 @@ For modifiers, size pricing can be configured at either the modifier group level
 For scenarios where the price of a modifier is determined by the size of the menu item it is applied to, you must specify sizes on the individual menu items and then create corresponding sizes for the modifiers themselves. The sizes on the menu items and modifiers must match exactly, both in the number of sizes and the text used for the size names. For example, this configuration is acceptable:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -160,10 +161,12 @@ For scenarios where the price of a modifier is determined by the size of the men
     </tr>
   </tbody>
 </table>
+</div>
 
 This configuration *is not acceptable*because the size names not match:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -190,10 +193,12 @@ This configuration *is not acceptable*because the size names not match:
     </tr>
   </tbody>
 </table>
+</div>
 
 This configuration *is not acceptable*because XLarge is missing from the modifier sizes:
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -220,6 +225,7 @@ This configuration *is not acceptable*because XLarge is missing from the modifie
     </tr>
   </tbody>
 </table>
+</div>
 
 ### Size pricing for modifier groups
 

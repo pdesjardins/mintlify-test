@@ -58,6 +58,7 @@ The following sections provide mappings that show the menu-related configuration
 The menus API returns metadata about a restaurant in its `Restaurant` object. The restaurants API returns comparable data for some of these metadata values, as shown in the table below.
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -89,12 +90,14 @@ The menus API returns metadata about a restaurant in its `Restaurant` object. Th
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Menu mappings
 
 This section provides a mapping that shows the configuration options for menus in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -209,12 +212,14 @@ This section provides a mapping that shows the configuration options for menus i
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Menu group mappings
 
 This section provides a mapping that shows the configuration options for menu groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -335,12 +340,14 @@ This section provides a mapping that shows the configuration options for menu gr
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Menu item mappings
 
 This section provides a mapping that shows the configuration options for menu items in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -527,12 +534,14 @@ This section provides a mapping that shows the configuration options for menu it
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Modifier group mappings
 
 This section provides a mapping that shows the configuration options for modifier groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -671,6 +680,7 @@ This section provides a mapping that shows the configuration options for modifie
     </tr>
   </tbody>
 </table>
+</div>
 
 
 
@@ -684,6 +694,7 @@ This section provides a mapping that shows the configuration options for modifie
 This section provides a mapping that shows the configuration options for modifier options in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -834,12 +845,14 @@ This section provides a mapping that shows the configuration options for modifie
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Premodifier group mappings
 
 This section provides a mapping that shows the configuration options for premodifier groups in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -876,12 +889,14 @@ This section provides a mapping that shows the configuration options for premodi
     </tr>
   </tbody>
 </table>
+</div>
 
 ## Premodifier mappings
 
 This section provides a mapping that shows the configuration options for premodifiers in Toast Web and the JSON values that represent those configuration options in the menu data export, the menus API, and the configuration API. If a configuration option is not represented in the data returned by an API or in the data export, it is marked with a dash (-).
 
 
+<div className="table-wrapper">
 <table>
   <thead>
     <tr>
@@ -936,4 +951,5 @@ This section provides a mapping that shows the configuration options for premodi
     </tr>
   </tbody>
 </table>
+</div>
 
