@@ -781,7 +781,7 @@ The following table shows the information about each menu at your restaurant fro
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">daysAvailableString</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code className="font-mono text-sm">Sun</code> or <code className="font-mono text-sm">Thurs</code>.</p> <p className="text-base leading-relaxed">In this example, the menu is available on all days except for Sunday and Saturday:</p> <pre className=""><code className="">"daysAvailableString": [&#10;   "Mon",&#10;   "Tues",&#10;   "Wed",&#10;   "Thurs",&#10;   "Fri"&#10;]</code></pre> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">JSON array</p></div></td>
     </tr>
     <tr className="">
@@ -1008,7 +1008,7 @@ The following table shows the information about each menu option group, or modif
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">maxSelections</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code className="font-mono text-sm">null</code>.</p> <p className="text-base leading-relaxed">As an example of a menu option group with a maximum greater than one, assume this configuration:</p> <pre className=""><code className="">Group: Cheese&#10;Items: ( Cheddar, American, Swiss )&#10;maxSelections: 2&#10;minSelections: 1</code></pre>  <p className="text-base leading-relaxed">This means:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">You can select AT MOST two different cheeses from this group to apply on the item (the <code className="font-mono text-sm">maxSelections</code> value).</p></li><li className=""><p className="text-base leading-relaxed">You must select AT LEAST one cheese from this group to apply on the item (the <code className="font-mono text-sm">minSelections</code> value).</p></li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Integer or null</p></div></td>
     </tr>
     <tr className="">
@@ -1072,7 +1072,7 @@ The following table shows the information about the pricing strategy for the mod
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">basePrice</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a> is set to <code className="font-mono text-sm">BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example:</p> <pre className=""><code className="">"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy":"BASE_PRICE",&#10;  "pricingStategyRules": &#123;&#10;    "basePrice": 1.00&#10;    &#125;&#10;  ...&#10;&#125;</code></pre> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
     </tr>
     <tr className="">
@@ -1082,7 +1082,7 @@ The following table shows the information about the pricing strategy for the mod
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">sequencePrices</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Sets the price for each level defined in the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels" className="">numberOfLevels</a> value. For example:</p> <pre className=""><code className="">"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy": "SEQUENCE_PRICE",&#10;  "pricingStrategyRules": &#123;&#10;    "numberOfLevels": 3,&#10;    "sequencePrices": [&#10;      0.50,&#10;      0.75,&#10;      1.00,&#10;    ]&#10;  &#125;&#10;  ...&#10;&#125;</code></pre> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with code examples omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">JSON array</p></div></td>
     </tr>
   </tbody>
