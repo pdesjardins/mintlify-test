@@ -88,7 +88,7 @@ The following table describes the transaction types that the Toast platform send
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Requests the amount of money that is available for purchases on a gift card.</p> <p className="text-base leading-relaxed">For example, the Toast platform sends a <code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code> request when a restaurant guest asks a restaurant employee to check the amount of money that is available.</p> <blockquote><strong>Note</strong> In some situations, the Toast platform might send a <code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code> request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a <code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code> request to verify that a card is not already active during a gift card sale.</blockquote>  <p className="text-base leading-relaxed"><strong className="font-semibold">Required </strong> Your gift card implementation must handle requests with this transaction type.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_REDEEM</code></p></div></td>
@@ -140,7 +140,7 @@ The following table describes the response status types that your gift card prov
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_CARD_NOT_ACTIVATED</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The gift card is not active.</p> <blockquote><strong>Note</strong> In some situations, the Toast platform might make a transaction request to verify that a gift card is not already active. In this situation, the Toast platform expects to receive a <code className="font-mono text-sm">ERROR_CARD_NOT_ACTIVATED</code> transaction status. For more information, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction" className="">Multiple requests for a gift card transaction</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_CARD_INVALID</code></p></div></td>

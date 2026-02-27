@@ -167,7 +167,7 @@ From the Online ordering hours section you can choose to allow guests to place o
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Closing time</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example: </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Your restaurant closes at 10:00 PM.</p></li><li className=""><p className="text-base leading-relaxed">Your quote time is 30 minutes.</p></li><li className=""><p className="text-base leading-relaxed">Guests can place orders up to 10:00 PM.</p></li></ul> <p className="text-base leading-relaxed">A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM. </p> <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see <a href="https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime" className="">Online Ordering: Advanced Settings</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Closing time minus quote time</p></div></td>

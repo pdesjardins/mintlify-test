@@ -82,7 +82,7 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">scheduledOrderMaxDays</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number of days an online order can be placed into the future.</p> <p className="text-base leading-relaxed">data type: integer</p> <blockquote><strong>Note</strong> The restaurant online ordering schedule webhook does not send a message when there is a change to the maximum number of days scheduled orders can be placed into the future. For more information, see this <a href="https://central.toasttab.com/s/article/Scheduling-Future-Orders" className="">Toast Central article</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">lastOrderConfiguration</code></p></div></td>

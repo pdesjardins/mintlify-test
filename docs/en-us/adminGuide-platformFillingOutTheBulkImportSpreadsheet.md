@@ -90,7 +90,7 @@ With the exception of the Price column, all of the columns are required when cre
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The name of the menu entity to create. Must follow these rules:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Any characters are allowed.</p></li><li className=""><p className="text-base leading-relaxed">Maximum length is 255 characters</p></li></ul> <blockquote><strong>Important</strong> The import process does not prevent you from creating menu entities that use the same name as existing entities.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Parent entity type</p></div></td>
@@ -148,7 +148,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The name of the menu item. Must follow these rules:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Any characters are allowed.</p></li><li className=""><p className="text-base leading-relaxed">Maximum length is 255 characters</p></li></ul> <blockquote><strong>Note</strong> The import process does not prevent you from creating menu items that use the same name as existing items.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">POS name</p></div></td>
@@ -188,7 +188,7 @@ For `UPDATE` operations, the bulk import tool does not support applying a blank 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Guest count</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specifies the guest count associated with the menu item. For example, a small pizza could have a guest count of 1 while a large pizza has a guest count of 2.</p> <p className="text-base leading-relaxed">You can enter decimal values for Guest count but the Toast platform rounds any decimal values to two places.</p> <blockquote><strong>Note</strong> This feature is in <a href="adminGuide-techReleaseNotesLimitedRelease" className="">limited release</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -232,7 +232,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The name of the menu entity. Must follow these rules:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Any characters are allowed.</p></li><li className=""><p className="text-base leading-relaxed">Maximum length is 255 characters</p></li></ul> <blockquote><strong>Note</strong> The import process does not prevent you from creating menu entities that use the same name as existing entities.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Required for <code className="font-mono text-sm">CREATE</code> operations</p> <p className="text-base leading-relaxed">Used for <code className="font-mono text-sm">UPDATE</code> operations</p> <p className="text-base leading-relaxed">Empty for <code className="font-mono text-sm">ATTACH</code> operations</p></div></td>
     </tr>
     <tr className="">
@@ -267,7 +267,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Pricing strategy or method</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with multiple sections omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Required for <code className="font-mono text-sm">CREATE</code> operations</p> <p className="text-base leading-relaxed">Empty for <code className="font-mono text-sm">UPDATE</code> and <code className="font-mono text-sm">ATTACH</code> operations</p></div></td>
     </tr>
     <tr className="">
@@ -372,7 +372,7 @@ Use the information in the table below to fill out your copy of the advanced tem
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Guest count</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specifies the guest count associated with the menu item. For example, a small pizza could have a guest count of 1 while a large pizza has a guest count of 2.</p> <p className="text-base leading-relaxed">You can enter decimal values for Guest count but the Toast platform rounds any decimal values to two places.</p> <blockquote><strong>Note</strong> This feature is in <a href="adminGuide-techReleaseNotesLimitedRelease" className="">limited release</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Used for <code className="font-mono text-sm">CREATE</code> operations where Entity type is <code className="font-mono text-sm">MENU_ITEM</code> and for <code className="font-mono text-sm">UPDATE</code> operations</p> <p className="text-base leading-relaxed">Empty for all other operations</p> <p className="text-base leading-relaxed">Column can be omitted from spreadsheet if empty for all rows</p></div></td>
     </tr>
   </tbody>

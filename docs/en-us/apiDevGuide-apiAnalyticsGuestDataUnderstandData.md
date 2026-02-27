@@ -61,7 +61,7 @@ The following table specifies the returned set of values in the guest reporting 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">cardFingerprint</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to a guest's payment card by the Toast platform.</p> <blockquote><strong>Note</strong> <code className="font-mono text-sm">cardFingerprint</code> data is only available for payments processed starting in August 2024. <code className="font-mono text-sm">cardFingerprint</code> data is not supported for older payments.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
     </tr>
   </tbody>
 </table>

@@ -38,7 +38,7 @@ Standard API access provides access to the following scopes:
       <td className="px-4 py-4"><div className="space-y-4">configuration API</div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">delivery_info.address:read</code></p> <blockquote><strong>Note</strong> This scope exposes additional information in the <code className="font-mono text-sm">DeliveryInfo</code> object of the orders API.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4">orders API</div></td>
     </tr>
     <tr className="">
@@ -46,7 +46,7 @@ Standard API access provides access to the following scopes:
       <td className="px-4 py-4"><div className="space-y-4">order management configuration API</div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guest.pi:read</code></p> <blockquote><strong>Note</strong> This scope to exposes additional information in the <code className="font-mono text-sm">Customer</code> object of the orders API.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content with notes omitted - see <a href="https://doc.toasttab.com/platformguide/" className="underline">current documentation</a>]</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4">orders API</div></td>
     </tr>
     <tr className="">
