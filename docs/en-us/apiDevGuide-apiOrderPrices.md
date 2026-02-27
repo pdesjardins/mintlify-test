@@ -58,21 +58,21 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 
 
 
-    <tr>
-      <td><a href="#co-d1e193C93B886C-2601-45C3-B008-CB13B0107A92">(1)</a></td>
-      <td>The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery. <br/> For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e193C93B886C-2601-45C3-B008-CB13B0107A92" className="">(1)</a></td>
+      <td className="">The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery. <br/> For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e195C93B886C-2601-45C3-B008-CB13B0107A92">(2)</a></td>
-      <td>The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e195C93B886C-2601-45C3-B008-CB13B0107A92" className="">(2)</a></td>
+      <td className="">The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e197C93B886C-2601-45C3-B008-CB13B0107A92">(3)</a></td>
-      <td>The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e197C93B886C-2601-45C3-B008-CB13B0107A92" className="">(3)</a></td>
+      <td className="">The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e199C93B886C-2601-45C3-B008-CB13B0107A92">(4)</a></td>
-      <td>The quantity of the menu item selection. For example, to order three lemonades, a check includes a "lemonade" menu item selection with a quantity of three.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e199C93B886C-2601-45C3-B008-CB13B0107A92" className="">(4)</a></td>
+      <td className="">The quantity of the menu item selection. For example, to order three lemonades, a check includes a "lemonade" menu item selection with a quantity of three.</td>
     </tr>
 ### Response data from the /prices endpoint
 
@@ -195,29 +195,29 @@ The following example shows the response data returned by the `/prices` endpoint
 
 
 
-    <tr>
-      <td><a href="#co-d1e217C93B886C-2601-45C3-B008-CB13B0107A92">(1)</a></td>
-      <td>The price of the check after discounts, not including tax.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e217C93B886C-2601-45C3-B008-CB13B0107A92" className="">(1)</a></td>
+      <td className="">The price of the check after discounts, not including tax.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e219C93B886C-2601-45C3-B008-CB13B0107A92">(2)</a></td>
-      <td>The price of the check after discounts, including tax.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e219C93B886C-2601-45C3-B008-CB13B0107A92" className="">(2)</a></td>
+      <td className="">The price of the check after discounts, including tax.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e221C93B886C-2601-45C3-B008-CB13B0107A92">(3)</a></td>
-      <td>The price of the menu item selection, before discounts.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e221C93B886C-2601-45C3-B008-CB13B0107A92" className="">(3)</a></td>
+      <td className="">The price of the menu item selection, before discounts.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e223C93B886C-2601-45C3-B008-CB13B0107A92">(4)</a></td>
-      <td>The tax amount applied to the menu item selection.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e223C93B886C-2601-45C3-B008-CB13B0107A92" className="">(4)</a></td>
+      <td className="">The tax amount applied to the menu item selection.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e225C93B886C-2601-45C3-B008-CB13B0107A92">(5)</a></td>
-      <td>The menu item selection, including discounts, quantity adjustments, and modifiers.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e225C93B886C-2601-45C3-B008-CB13B0107A92" className="">(5)</a></td>
+      <td className="">The menu item selection, including discounts, quantity adjustments, and modifiers.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e228C93B886C-2601-45C3-B008-CB13B0107A92">(6)</a></td>
-      <td>The tax amount applied to the menu item selection.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e228C93B886C-2601-45C3-B008-CB13B0107A92" className="">(6)</a></td>
+      <td className="">The tax amount applied to the menu item selection.</td>
     </tr>
 ## Including open price menu items in an order
 
@@ -297,21 +297,21 @@ The following example shows a JSON `Order` object that contains a check with a s
 
 
 
-    <tr>
-      <td><a href="#co-d1e18994C2B4C02-01BB-46CE-B543-1A815822BD0D">(1)</a></td>
-      <td>The GUID of the menu group for the selected open price menu item.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e18994C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(1)</a></td>
+      <td className="">The GUID of the menu group for the selected open price menu item.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e19014C2B4C02-01BB-46CE-B543-1A815822BD0D">(2)</a></td>
-      <td>The GUID of the selected open price menu item.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e19014C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(2)</a></td>
+      <td className="">The GUID of the selected open price menu item.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e19034C2B4C02-01BB-46CE-B543-1A815822BD0D">(3)</a></td>
-      <td>The quantity for the menu item selection.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e19034C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(3)</a></td>
+      <td className="">The quantity for the menu item selection.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e19054C2B4C02-01BB-46CE-B543-1A815822BD0D">(4)</a></td>
-      <td>A currency amount that sets the price for the open price menu item. The amount reflects the price before the quantity, taxes, discounts, and modifier adjustments are applied.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e19054C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(4)</a></td>
+      <td className="">A currency amount that sets the price for the open price menu item. The amount reflects the price before the quantity, taxes, discounts, and modifier adjustments are applied.</td>
     </tr>
 ### Open price values in orders API responses
 
@@ -413,9 +413,9 @@ The following example shows an `appliedServiceCharges`value that applies an open
 
 
 
-    <tr>
-      <td><a href="#apiServiceChargeAmount">(1)</a></td>
-      <td>You include <code>chargeAmount</code> for <code>OPEN</code> service charges. Do not include <code>chargeAmount</code> for <code>FIXED</code> or <code>PERCENT</code> service charges.</td>
+    <tr className="">
+      <td className=""><a href="#apiServiceChargeAmount" className="">(1)</a></td>
+      <td className="">You include <code className="">chargeAmount</code> for <code className="">OPEN</code> service charges. Do not include <code className="">chargeAmount</code> for <code className="">FIXED</code> or <code className="">PERCENT</code> service charges.</td>
     </tr>
 ### Identifying service charge types
 

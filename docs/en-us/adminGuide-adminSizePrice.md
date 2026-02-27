@@ -135,29 +135,29 @@ For scenarios where the price of a modifier is determined by the size of the men
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Menu Item Sizes</th>
-      <th>Modifier Sizes</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Menu Item Sizes</th>
+      <th className="">Modifier Sizes</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Small</td>
-      <td>Small</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Small</td>
+      <td className="">Small</td>
     </tr>
-    <tr>
-      <td>Medium</td>
-      <td>Medium</td>
+    <tr className="">
+      <td className="">Medium</td>
+      <td className="">Medium</td>
     </tr>
-    <tr>
-      <td>Large</td>
-      <td>Large</td>
+    <tr className="">
+      <td className="">Large</td>
+      <td className="">Large</td>
     </tr>
-    <tr>
-      <td>XLarge</td>
-      <td>XLarge</td>
+    <tr className="">
+      <td className="">XLarge</td>
+      <td className="">XLarge</td>
     </tr>
   </tbody>
 </table>
@@ -167,29 +167,29 @@ This configuration *is not acceptable*because the size names not match:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Menu Item Sizes</th>
-      <th>Modifier Sizes</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Menu Item Sizes</th>
+      <th className="">Modifier Sizes</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Small</td>
-      <td>Sm</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Small</td>
+      <td className="">Sm</td>
     </tr>
-    <tr>
-      <td>Medium</td>
-      <td>Med</td>
+    <tr className="">
+      <td className="">Medium</td>
+      <td className="">Med</td>
     </tr>
-    <tr>
-      <td>Large</td>
-      <td>Lg</td>
+    <tr className="">
+      <td className="">Large</td>
+      <td className="">Lg</td>
     </tr>
-    <tr>
-      <td>XLarge</td>
-      <td>XLg</td>
+    <tr className="">
+      <td className="">XLarge</td>
+      <td className="">XLg</td>
     </tr>
   </tbody>
 </table>
@@ -199,29 +199,29 @@ This configuration *is not acceptable*because XLarge is missing from the modifie
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Menu Item Sizes</th>
-      <th>Modifier Sizes</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Menu Item Sizes</th>
+      <th className="">Modifier Sizes</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Small</td>
-      <td>Small</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Small</td>
+      <td className="">Small</td>
     </tr>
-    <tr>
-      <td>Medium</td>
-      <td>Medium</td>
+    <tr className="">
+      <td className="">Medium</td>
+      <td className="">Medium</td>
     </tr>
-    <tr>
-      <td>Large</td>
-      <td>Large</td>
+    <tr className="">
+      <td className="">Large</td>
+      <td className="">Large</td>
     </tr>
-    <tr>
-      <td>XLarge</td>
-      <td></td>
+    <tr className="">
+      <td className="">XLarge</td>
+      <td className=""></td>
     </tr>
   </tbody>
 </table>

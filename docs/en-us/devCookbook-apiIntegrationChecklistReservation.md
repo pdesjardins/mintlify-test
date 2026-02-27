@@ -273,41 +273,41 @@ The workflow below outlines how to create a reservation in your system and submi
 
 
 
-    <tr>
-      <td><a href="#co-res-diningOption">(1)</a></td>
-      <td>The <code>diningOption</code> used by restaurants for orders with a dining behavior of <code>DINE_IN</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-diningOption" className="">(1)</a></td>
+      <td className="">The <code className="">diningOption</code> used by restaurants for orders with a dining behavior of <code className="">DINE_IN</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-revenueCenter">(2)</a></td>
-      <td>The <code>revenueCenter</code> used by the restaurant for reservation orders.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-revenueCenter" className="">(2)</a></td>
+      <td className="">The <code className="">revenueCenter</code> used by the restaurant for reservation orders.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-table">(3)</a></td>
-      <td>The <code>table</code> the guest has been assigned to.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-table" className="">(3)</a></td>
+      <td className="">The <code className="">table</code> the guest has been assigned to.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-numberOfGuests">(4)</a></td>
-      <td>The number of guests for the reservation.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-numberOfGuests" className="">(4)</a></td>
+      <td className="">The number of guests for the reservation.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-server">(5)</a></td>
-      <td>The employee guid of the <code>server</code> assigned to the reservation.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-server" className="">(5)</a></td>
+      <td className="">The employee guid of the <code className="">server</code> assigned to the reservation.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-tabName">(6)</a></td>
-      <td>The <code>tabName</code> for the order to identify your reservation and guest information.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-tabName" className="">(6)</a></td>
+      <td className="">The <code className="">tabName</code> for the order to identify your reservation and guest information.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-serviceCharge">(7)</a></td>
-      <td>The <code>serviceCharge</code> used by the restaurant for reservation orders.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-serviceCharge" className="">(7)</a></td>
+      <td className="">The <code className="">serviceCharge</code> used by the restaurant for reservation orders.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-deposit">(8)</a></td>
-      <td>The deposit amount.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-deposit" className="">(8)</a></td>
+      <td className="">The deposit amount.</td>
     </tr>
-    <tr>
-      <td><a href="#co-res-otherPayment">(9)</a></td>
-      <td>The guid used to identify the <code>alternativePaymentType</code> used for reservation deposits.</td>
+    <tr className="">
+      <td className=""><a href="#co-res-otherPayment" className="">(9)</a></td>
+      <td className="">The guid used to identify the <code className="">alternativePaymentType</code> used for reservation deposits.</td>
     </tr>
   
 ## Understanding reservation order data
@@ -316,34 +316,34 @@ Use the following information from the orders API response to update the reserva
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Information type</th>
-      <th>Transactional information</th>
-      <th>Additional information</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Information type</th>
+      <th className="">Transactional information</th>
+      <th className="">Additional information</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Dining option</td>
-      <td><code>order.diningOption.guid</code></td>
-      <td>Review the <code>guid</code> value associated with the <code>diningOption</code> assigned to the order to understand dining behavior.  <br/> Orders associated with reservations will have a <code>diningOption</code> with a <code>DINE_IN</code> dining behavior.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response"><code>diningOption</code></a> object.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Dining option</td>
+      <td className=""><code className="">order.diningOption.guid</code></td>
+      <td className="">Review the <code className="">guid</code> value associated with the <code className="">diningOption</code> assigned to the order to understand dining behavior.  <br/> Orders associated with reservations will have a <code className="">diningOption</code> with a <code className="">DINE_IN</code> dining behavior.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response" className=""><code className="">diningOption</code></a> object.</td>
     </tr>
-    <tr>
-      <td>Guest count</td>
-      <td><code>order.numberOfGuests</code></td>
-      <td>Review the value associated with the <code>numberOfGuests</code> assigned to the order to understand guest count.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response"><code>numberOfGuests</code></a> key.</td>
+    <tr className="">
+      <td className="">Guest count</td>
+      <td className=""><code className="">order.numberOfGuests</code></td>
+      <td className="">Review the value associated with the <code className="">numberOfGuests</code> assigned to the order to understand guest count.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response" className=""><code className="">numberOfGuests</code></a> key.</td>
     </tr>
-    <tr>
-      <td>Order status</td>
-      <td><code>order.closedDate</code></td>
-      <td>Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response"><code>closedDate</code></a>.</td>
+    <tr className="">
+      <td className="">Order status</td>
+      <td className=""><code className="">order.closedDate</code></td>
+      <td className="">Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response" className=""><code className="">closedDate</code></a>.</td>
     </tr>
-    <tr>
-      <td>Table</td>
-      <td><code>order.table.guid</code></td>
-      <td>Review the <code>guid</code> value associated with the <code>table</code> assigned to the order to understand <code>table</code> assignment.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response"><code>table</code></a> object.  <br/> To understand the <code>table guid</code> values, send a <code>GET</code> request to the <a href="https://doc.toasttab.com/openapi/configuration/operation/tablesGet/"><code>/tables</code></a> endpoint of the configuration API to retrieve the restaurant's tables.</td>
+    <tr className="">
+      <td className="">Table</td>
+      <td className=""><code className="">order.table.guid</code></td>
+      <td className="">Review the <code className="">guid</code> value associated with the <code className="">table</code> assigned to the order to understand <code className="">table</code> assignment.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response" className=""><code className="">table</code></a> object.  <br/> To understand the <code className="">table guid</code> values, send a <code className="">GET</code> request to the <a href="https://doc.toasttab.com/openapi/configuration/operation/tablesGet/" className=""><code className="">/tables</code></a> endpoint of the configuration API to retrieve the restaurant's tables.</td>
     </tr>
   </tbody>
 </table>

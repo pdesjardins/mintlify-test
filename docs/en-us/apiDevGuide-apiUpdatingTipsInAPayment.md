@@ -79,9 +79,9 @@ The following example shows a `Payment` object that updates the tip amount for a
 
 
 
-    <tr>
-      <td><a href="#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(1)</a></td>
-      <td>The updated tip amount. The tip amount for the payment is completely replaced by the <code>tipAmount</code> value that you include in the message body of the <code>PATCH</code> request.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(1)</a></td>
+      <td className="">The updated tip amount. The tip amount for the payment is completely replaced by the <code className="">tipAmount</code> value that you include in the message body of the <code className="">PATCH</code> request.</td>
     </tr>
 ## Example response when you update a tip in an existing payment
 
@@ -147,23 +147,23 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
 
 
 
-    <tr>
-      <td><a href="#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(1)</a></td>
-      <td>The Toast platform GUID of the order that you updated a tip amount in.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(1)</a></td>
+      <td className="">The Toast platform GUID of the order that you updated a tip amount in.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(2)</a></td>
-      <td>The Toast platform GUID of the check that you updated a tip amount in.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(2)</a></td>
+      <td className="">The Toast platform GUID of the check that you updated a tip amount in.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(3)</a></td>
-      <td>The Toast platform GUID of the payment that you updated a tip amount in.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(3)</a></td>
+      <td className="">The Toast platform GUID of the payment that you updated a tip amount in.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5">(4)</a></td>
-      <td>The updated tip amount. The <code>tipAmount</code> value that you provide in the <code>PATCH</code> request completely replaces the existing tip amount for the payment.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(4)</a></td>
+      <td className="">The updated tip amount. The <code className="">tipAmount</code> value that you provide in the <code className="">PATCH</code> request completely replaces the existing tip amount for the payment.</td>
     </tr>
-    <tr>
-      <td><a href="#co-paymentStatus">(5)</a></td>
-      <td>When you update a tip amount, the <code>paymentStatus</code> value must be <code>AUTHORIZED</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-paymentStatus" className="">(5)</a></td>
+      <td className="">When you update a tip amount, the <code className="">paymentStatus</code> value must be <code className="">AUTHORIZED</code>.</td>
     </tr>

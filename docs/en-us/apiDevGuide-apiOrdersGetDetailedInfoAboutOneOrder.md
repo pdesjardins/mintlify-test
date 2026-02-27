@@ -49,17 +49,17 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-    <tr>
-      <td><a href="#co-d1e12909EC9F64-B75D-413A-803D-C8F76FF3D18A">(1)</a></td>
-      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e12909EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></td>
+      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e13109EC9F64-B75D-413A-803D-C8F76FF3D18A">(2)</a></td>
-      <td>Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e13109EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(2)</a></td>
+      <td className="">Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e13309EC9F64-B75D-413A-803D-C8F76FF3D18A">(3)</a></td>
-      <td>Send a <code>GET</code> request to the <code>/orders/<em><code>&#123;guid&#125;</code></em> </code> endpoint of the orders API. Specify the GUID of the order as a path parameter.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e13309EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(3)</a></td>
+      <td className="">Send a <code className="">GET</code> request to the <code className="">/orders/<em className=""><code className="">&#123;guid&#125;</code></em> </code> endpoint of the orders API. Specify the GUID of the order as a path parameter.</td>
     </tr>
 ## Example response data
 
@@ -267,27 +267,27 @@ The following example shows the response data from the `/orders/&#123;guid&#125;
 
 
 
-    <tr>
-      <td><a href="#co-d1e15009EC9F64-B75D-413A-803D-C8F76FF3D18A">(1)</a></td>
-      <td>The <code>/orders/<em><code>&#123;guid&#125;</code></em> </code> endpoint returns an <code>Order</code> JSON object. For more information about the values in the <code>Order</code> object, see the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/">orders API reference documentation</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e15009EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></td>
+      <td className="">The <code className="">/orders/<em className=""><code className="">&#123;guid&#125;</code></em> </code> endpoint returns an <code className="">Order</code> JSON object. For more information about the values in the <code className="">Order</code> object, see the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersGuidGet/" className="">orders API reference documentation</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#apiOrdersDeliveryInfo">(2)</a></td>
-      <td>The <code>deliveryInfo</code> JSON value is only populated if your Toast API client has the <code>delivery_info.address:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes">Scopes</a>.</td>
+    <tr className="">
+      <td className=""><a href="#apiOrdersDeliveryInfo" className="">(2)</a></td>
+      <td className="">The <code className="">deliveryInfo</code> JSON value is only populated if your Toast API client has the <code className="">delivery_info.address:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#apiOrdersCurbsideInfo">(3)</a></td>
-      <td>The <code>curbsidePickupInfo</code> JSON value is only populated if your Toast API client has the <code>guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes">Scopes</a>.</td>
+    <tr className="">
+      <td className=""><a href="#apiOrdersCurbsideInfo" className="">(3)</a></td>
+      <td className="">The <code className="">curbsidePickupInfo</code> JSON value is only populated if your Toast API client has the <code className="">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#receiptLinePrice-co">(4)</a></td>
-      <td>The <code>receiptLinePrice</code> JSON value is the base price of a menu item without modifiers or quantity applied.</td>
+    <tr className="">
+      <td className=""><a href="#receiptLinePrice-co" className="">(4)</a></td>
+      <td className="">The <code className="">receiptLinePrice</code> JSON value is the base price of a menu item without modifiers or quantity applied.</td>
     </tr>
-    <tr>
-      <td><a href="#SeatNumberCO">(5)</a></td>
-      <td>When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the <code>seatNumber</code> value on a <code>Selection</code> object represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then <code>seatNumber</code> is <code>0</code>. If no seat number is associated with the menu item selection, then <code>seatNumber</code> is <code>-1</code>.</td>
+    <tr className="">
+      <td className=""><a href="#SeatNumberCO" className="">(5)</a></td>
+      <td className="">When creating orders, restaurant employees can select the physical seat in which a guest sits. If a seat number is specified, then the <code className="">seatNumber</code> value on a <code className="">Selection</code> object represents the seat number associated with the menu item selection. If the menu item selection is shared among multiple seats, then <code className="">seatNumber</code> is <code className="">0</code>. If no seat number is associated with the menu item selection, then <code className="">seatNumber</code> is <code className="">-1</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#apiOrdersCustomer">(6)</a></td>
-      <td>The <code>customer</code> JSON value is only populated if your Toast API client has the <code>guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes">Scopes</a>.</td>
+    <tr className="">
+      <td className=""><a href="#apiOrdersCustomer" className="">(6)</a></td>
+      <td className="">The <code className="">customer</code> JSON value is only populated if your Toast API client has the <code className="">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</td>
     </tr>

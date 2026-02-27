@@ -28,39 +28,39 @@ The channel visibility settings reside on a menu entity's details page in Toast 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Classic menus setting</th>
-      <th>Menu builder setting</th>
-      <th>Menus API visibility array enum</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Classic menus setting</th>
+      <th className="">Menu builder setting</th>
+      <th className="">Menus API visibility array enum</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>In-store orders: POS</td>
-      <td>POS</td>
-      <td><code>POS</code></td>
-      <td>The menu entity is visible on a Toast POS device.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">In-store orders: POS</td>
+      <td className="">POS</td>
+      <td className=""><code className="">POS</code></td>
+      <td className="">The menu entity is visible on a Toast POS device.</td>
     </tr>
-    <tr>
-      <td>In-store orders: Kiosk</td>
-      <td>Kiosk, Toast Order and Pay</td>
-      <td><code>KIOSK</code></td>
-      <td>The menu entity is visible on a Toast Kiosk.</td>
+    <tr className="">
+      <td className="">In-store orders: Kiosk</td>
+      <td className="">Kiosk, Toast Order and Pay</td>
+      <td className=""><code className="">KIOSK</code></td>
+      <td className="">The menu entity is visible on a Toast Kiosk.</td>
     </tr>
-    <tr>
-      <td>Online orders: Toast</td>
-      <td>Toast Online Ordering, Toast Takeout (Local by Toast) app</td>
-      <td><code>TOAST_ONLINE_ORDERING</code></td>
-      <td>The menu entity is visible on a restaurant's Toast online ordering site.</td>
+    <tr className="">
+      <td className="">Online orders: Toast</td>
+      <td className="">Toast Online Ordering, Toast Takeout (Local by Toast) app</td>
+      <td className=""><code className="">TOAST_ONLINE_ORDERING</code></td>
+      <td className="">The menu entity is visible on a restaurant's Toast online ordering site.</td>
     </tr>
-    <tr>
-      <td>Online orders: Ordering partners</td>
-      <td>Online ordering partners</td>
-      <td><code>ORDERING_PARTNERS</code></td>
-      <td>The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</td>
+    <tr className="">
+      <td className="">Online orders: Ordering partners</td>
+      <td className="">Online ordering partners</td>
+      <td className=""><code className="">ORDERING_PARTNERS</code></td>
+      <td className="">The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</td>
     </tr>
   </tbody>
 </table>

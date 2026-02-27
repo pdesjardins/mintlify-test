@@ -51,17 +51,17 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-    <tr>
-      <td><a href="#co-d1e15283A590EF-007A-48DE-8B8A-FE6BF2FE2ADA">(1)</a></td>
-      <td>Specify the GUID of the restaurant that you want to <code>GET</code> time entries for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e15283A590EF-007A-48DE-8B8A-FE6BF2FE2ADA" className="">(1)</a></td>
+      <td className="">Specify the GUID of the restaurant that you want to <code className="">GET</code> time entries for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA">(2)</a></td>
-      <td>Specify the start and end dates of the time period you want to <code>GET</code> time entries for. You can select a period of up to 30 days.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e15783A590EF-007A-48DE-8B8A-FE6BF2FE2ADA" className="">(2)</a></td>
+      <td className="">Specify the start and end dates of the time period you want to <code className="">GET</code> time entries for. You can select a period of up to 30 days.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e15983A590EF-007A-48DE-8B8A-FE6BF2FE2ADA">(3)</a></td>
-      <td>The <code>timeEntries</code> endpoint accepts the <code>includeMissedBreaks</code> query parameter. If you set the value of <code>includeMissedBreaks</code> to <code>true</code>, the <code>timeEntries</code> endpoint returns <code>TimeEntryBreak</code> objects for scheduled break periods even if an employee did not take them. The <code>includeMissedBreaks</code> parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e15983A590EF-007A-48DE-8B8A-FE6BF2FE2ADA" className="">(3)</a></td>
+      <td className="">The <code className="">timeEntries</code> endpoint accepts the <code className="">includeMissedBreaks</code> query parameter. If you set the value of <code className="">includeMissedBreaks</code> to <code className="">true</code>, the <code className="">timeEntries</code> endpoint returns <code className="">TimeEntryBreak</code> objects for scheduled break periods even if an employee did not take them. The <code className="">includeMissedBreaks</code> parameter is optional. If you do not include the parameter, the endpoint returns only breaks that were taken, not breaks that were missed.</td>
     </tr>
   
 ## Example response
@@ -135,56 +135,56 @@ The following example shows a time entry for an employee.
 
 
 
-    <tr>
-      <td><a href="#co-d1e21739786C5B-846E-4DDA-823C-AF858E53331A">(1)</a></td>
-      <td>The <code>GET</code> request returns an array of time entry objects. Each object contains information about an employee's shift.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e21739786C5B-846E-4DDA-823C-AF858E53331A" className="">(1)</a></td>
+      <td className="">The <code className="">GET</code> request returns an array of time entry objects. Each object contains information about an employee's shift.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e21939786C5B-846E-4DDA-823C-AF858E53331A">(2)</a></td>
-      <td>The <code>nonCashSales</code> value shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts. <br/> For example, <code>nonCashSales</code> includes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web. <br/> If the <code>outDate</code> value for the time entry is <code>null</code>, then the time entry period is not complete, and the sales totals are <code>0</code>. If the <code>outDate</code> value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e21939786C5B-846E-4DDA-823C-AF858E53331A" className="">(2)</a></td>
+      <td className="">The <code className="">nonCashSales</code> value shows the total non-cash sales in the orders opened by the employee during the time entry period. The value includes tax amounts, but does not include tip or gratuity amounts. <br/> For example, <code className="">nonCashSales</code> includes credit card payments, gift card payments, and payments using options that you configure in the Other Payment Options screen of Toast Web. <br/> If the <code className="">outDate</code> value for the time entry is <code className="">null</code>, then the time entry period is not complete, and the sales totals are <code className="">0</code>. If the <code className="">outDate</code> value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e22139786C5B-846E-4DDA-823C-AF858E53331A">(3)</a></td>
-      <td>The time entry object contains information about the shift worked. For example, this <code>outDate</code> value specifies the date and time that the employee clocked out (the value is <code>null</code> if the employee has not clocked out).</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e22139786C5B-846E-4DDA-823C-AF858E53331A" className="">(3)</a></td>
+      <td className="">The time entry object contains information about the shift worked. For example, this <code className="">outDate</code> value specifies the date and time that the employee clocked out (the value is <code className="">null</code> if the employee has not clocked out).</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e22339786C5B-846E-4DDA-823C-AF858E53331A">(4)</a></td>
-      <td>The <code>breaks</code> array contains break type objects that contain information about breaks taken by the employee:<ul><li><code>breakType</code> is the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant.</li><li><code>inDate</code> specifies when the employee started the break and <code>outDate</code> is when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated).</li><li><code>paid</code> is a Boolean value that indicates whether the employee was paid for the break. If the value is <code>true</code>, the employee was paid for the break. If the value is <code>false</code>, the employee was not paid for the break.</li><li><code>missed</code> is a Boolean value that indicates whether the employee took the break. If the value is <code>true</code>, the employee did not take the break. If the value is <code>false</code>, the employee did take the break.</li><li><code>auditResponse</code> is a Boolean value that indicates whether the employee was asked to take the break. If the value is <code>true</code>, the employee was asked to take the break. If the value is <code>false</code>, the employee was not asked to take the break. If the value is <code>null</code>, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device. <br/> For information on configuring missed breaks and break acknowledgements, see <a href="adminGuide-portalEmployeeBreaksOverview">Tracking missed breaks and acknowledging breaks</a> in the <em>Toast Platform Guide</em> .</li></ul></td>
+    <tr className="">
+      <td className=""><a href="#co-d1e22339786C5B-846E-4DDA-823C-AF858E53331A" className="">(4)</a></td>
+      <td className="">The <code className="">breaks</code> array contains break type objects that contain information about breaks taken by the employee:<ul className=""><li className=""><code className="">breakType</code> is the Toast platform GUID of the type of employee break period. You configure types of employee break periods for your restaurant.</li><li className=""><code className="">inDate</code> specifies when the employee started the break and <code className="">outDate</code> is when the employee ended the break. The datetime values are in UTC (Universal Time Coordinated).</li><li className=""><code className="">paid</code> is a Boolean value that indicates whether the employee was paid for the break. If the value is <code className="">true</code>, the employee was paid for the break. If the value is <code className="">false</code>, the employee was not paid for the break.</li><li className=""><code className="">missed</code> is a Boolean value that indicates whether the employee took the break. If the value is <code className="">true</code>, the employee did not take the break. If the value is <code className="">false</code>, the employee did take the break.</li><li className=""><code className="">auditResponse</code> is a Boolean value that indicates whether the employee was asked to take the break. If the value is <code className="">true</code>, the employee was asked to take the break. If the value is <code className="">false</code>, the employee was not asked to take the break. If the value is <code className="">null</code>, either the break type is not configured to use break acknowledgement, or the employee did not respond to the break acknowledgement prompt on the Toast POS device. <br/> For information on configuring missed breaks and break acknowledgements, see <a href="adminGuide-portalEmployeeBreaksOverview" className="">Tracking missed breaks and acknowledging breaks</a> in the <em className="">Toast Platform Guide</em> .</li></ul></td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e22539786C5B-846E-4DDA-823C-AF858E53331A">(5)</a></td>
-      <td>The <code>employeeReference</code> value specifies the employee who worked the shift.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e22539786C5B-846E-4DDA-823C-AF858E53331A" className="">(5)</a></td>
+      <td className="">The <code className="">employeeReference</code> value specifies the employee who worked the shift.</td>
     </tr>
-    <tr>
-      <td><a href="#shiftReference">(6)</a></td>
-      <td>The GUID of the <code>Shift</code> object associated with this time entry. The <code>shiftReference</code> value on a <code>TimeEntry</code> object is only populated if the restaurant uses Toast's <a href="https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961">clock-in enforcement feature</a>, and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the <code>shiftReference</code> value is null.</td>
+    <tr className="">
+      <td className=""><a href="#shiftReference" className="">(6)</a></td>
+      <td className="">The GUID of the <code className="">Shift</code> object associated with this time entry. The <code className="">shiftReference</code> value on a <code className="">TimeEntry</code> object is only populated if the restaurant uses Toast's <a href="https://central.toasttab.com/s/article/Enforcing-Scheduling-Time-Clock-Rules-with-Integration-Partners-1492745815961" className="">clock-in enforcement feature</a>, and the employee clocked into their shift within the restaurant's allowed window. Otherwise, the <code className="">shiftReference</code> value is null.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e22839786C5B-846E-4DDA-823C-AF858E53331A">(7)</a></td>
-      <td>The <code>nonCashGratuityServiceCharges</code> value is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e22839786C5B-846E-4DDA-823C-AF858E53331A" className="">(7)</a></td>
+      <td className="">The <code className="">nonCashGratuityServiceCharges</code> value is the amount of gratuity service charges paid to the employee in non-cash tender (such as credit cards).</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e23039786C5B-846E-4DDA-823C-AF858E53331A">(8)</a></td>
-      <td>The <code>jobReference</code> value specifies the job that the employee performed.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e23039786C5B-846E-4DDA-823C-AF858E53331A" className="">(8)</a></td>
+      <td className="">The <code className="">jobReference</code> value specifies the job that the employee performed.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e23239786C5B-846E-4DDA-823C-AF858E53331A">(9)</a></td>
-      <td>The <code>tipsWithheld</code> value specifies the amount withheld from the employee's credit card tips.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e23239786C5B-846E-4DDA-823C-AF858E53331A" className="">(9)</a></td>
+      <td className="">The <code className="">tipsWithheld</code> value specifies the amount withheld from the employee's credit card tips.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e23439786C5B-846E-4DDA-823C-AF858E53331A">(10)</a></td>
-      <td>The <code>cashGratuityServiceCharges</code> value is the amount of gratuity service charges paid in cash to the employee.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e23439786C5B-846E-4DDA-823C-AF858E53331A" className="">(10)</a></td>
+      <td className="">The <code className="">cashGratuityServiceCharges</code> value is the amount of gratuity service charges paid in cash to the employee.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e23639786C5B-846E-4DDA-823C-AF858E53331A">(11)</a></td>
-      <td>The <code>cashSales</code> value shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts. <br/> If the <code>outDate</code> value for the time entry is <code>null</code> (the time entry period is not complete), the sales totals are <code>0</code>. If the <code>outDate</code> value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e23639786C5B-846E-4DDA-823C-AF858E53331A" className="">(11)</a></td>
+      <td className="">The <code className="">cashSales</code> value shows the total cash sales in the orders opened by the employee during the time entry period. The cash sales amount includes tax amounts, but does not include tip or gratuity amounts. <br/> If the <code className="">outDate</code> value for the time entry is <code className="">null</code> (the time entry period is not complete), the sales totals are <code className="">0</code>. If the <code className="">outDate</code> value for the time entry is set, the sales totals are final and will not change. If you make changes to an order after the time entry is complete, the sales totals for the time entry do not change.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e23839786C5B-846E-4DDA-823C-AF858E53331A">(12)</a></td>
-      <td>The <code>nonCashTips</code> value lists the total amount of tips paid to the employee in non-cash tender.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e23839786C5B-846E-4DDA-823C-AF858E53331A" className="">(12)</a></td>
+      <td className="">The <code className="">nonCashTips</code> value lists the total amount of tips paid to the employee in non-cash tender.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e24139786C5B-846E-4DDA-823C-AF858E53331A">(13)</a></td>
-      <td>The <code>declaredCashTips</code> value is the amount of tips paid to the employee in cash.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e24139786C5B-846E-4DDA-823C-AF858E53331A" className="">(13)</a></td>
+      <td className="">The <code className="">declaredCashTips</code> value is the amount of tips paid to the employee in cash.</td>
     </tr>
   

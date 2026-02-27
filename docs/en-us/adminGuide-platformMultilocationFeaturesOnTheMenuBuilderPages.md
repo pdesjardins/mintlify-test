@@ -27,29 +27,29 @@ The following table provides descriptions for target, owner, number, and GUID:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Property</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Property</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Target</td>
-      <td>Specifies which locations use the menu or menu item. For more information, see <a href="adminGuide-targets">Targets</a>.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Target</td>
+      <td className="">Specifies which locations use the menu or menu item. For more information, see <a href="adminGuide-targets" className="">Targets</a>.</td>
     </tr>
-    <tr>
-      <td>Owner</td>
-      <td>Specifies who can edit the menu or menu item. For more information, see <a href="adminGuide-ownersAndPermissions">Owners and permissions</a>.</td>
+    <tr className="">
+      <td className="">Owner</td>
+      <td className="">Specifies who can edit the menu or menu item. For more information, see <a href="adminGuide-ownersAndPermissions" className="">Owners and permissions</a>.</td>
     </tr>
-    <tr>
-      <td>Number</td>
-      <td>Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a>.</td>
+    <tr className="">
+      <td className="">Number</td>
+      <td className="">Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a>.</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a>.</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">Used to identify a specific version of a menu or menu item. For example, a menu version targeted at the Boston location has a different GUID than a version of the same menu targeted at the New York location. For more information, see <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a>.</td>
     </tr>
   </tbody>
 </table>

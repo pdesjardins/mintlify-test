@@ -68,21 +68,21 @@ curl -i -X POST \ 'https://[toast-api-hostname]/labor/day' \
 
 
 
-    <tr>
-      <td><a href="#co-d1e4384134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
-      <td>Send a <code>POST</code> request to the <code>/era/v1/labor/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code>&#123;timeRange&#125;</code> in this example is <code>day</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4384134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
+      <td className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/labor/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">day</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4386134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
-      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4386134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
+      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4388134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
-      <td>Set the data type of the message body to <code>application/json</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4388134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
+      <td className="">Set the data type of the message body to <code className="">application/json</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4390134B67F3-A975-4412-A030-B6DDC7E2BD35">(4)</a></td>
-      <td>Include details about the requested labor reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4390134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></td>
+      <td className="">Include details about the requested labor reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</td>
     </tr>
 ## Message body for labor reporting data
 
@@ -102,25 +102,25 @@ The following example shows the message body for creating a labor reporting data
 
 
 
-    <tr>
-      <td><a href="#co-d1e4444134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
-      <td>The start date of the time range for the labor reporting data, in <code>YYYYMMDD</code> format.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4444134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
+      <td className="">The start date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4446134B67F3-A975-4412-A030-B6DDC7E2BD35">(2)</a></td>
-      <td>The end date of the time range for the labor reporting data, in <code>YYYYMMDD</code> format. This is the same value as the start date.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4446134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
+      <td className="">The end date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format. This is the same value as the start date.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4448134B67F3-A975-4412-A030-B6DDC7E2BD35">(3)</a></td>
-      <td>The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4448134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
+      <td className="">The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4450134B67F3-A975-4412-A030-B6DDC7E2BD35">(4)</a></td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the labor reporting data. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4450134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></td>
+      <td className="">The list of restaurant GUIDs from the management group to exclude from the labor reporting data. In this example, restaurants are included with the <code className="">restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4452134B67F3-A975-4412-A030-B6DDC7E2BD35">(5)</a></td>
-      <td>This request for labor reporting data is grouped by job.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4452134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(5)</a></td>
+      <td className="">This request for labor reporting data is grouped by job.</td>
     </tr>
 ## Response to request for labor reporting data
 
@@ -133,9 +133,9 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 
 
-    <tr>
-      <td><a href="#co-d1e4509134B67F3-A975-4412-A030-B6DDC7E2BD35">(1)</a></td>
-      <td>The GUID for the labor reporting data request, also called the <code>reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4509134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
+      <td className="">The GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
     </tr>
 For an example that shows how to retrieve the labor reporting data, see [Retrieving the labor reporting data](apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData).
 

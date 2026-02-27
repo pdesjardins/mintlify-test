@@ -148,13 +148,13 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
 
 
 
-    <tr>
-      <td><a href="#co-d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D">(1)</a></td>
-      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve configuration information.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D" className="">(1)</a></td>
+      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve configuration information.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D">(2)</a></td>
-      <td>Use the same restaurant GUID in the <code>/restaurants/v1/restaurants/&#123;restaurantGUID&#125;</code> endpoint.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D" className="">(2)</a></td>
+      <td className="">Use the same restaurant GUID in the <code className="">/restaurants/v1/restaurants/&#123;restaurantGUID&#125;</code> endpoint.</td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;`endpoint.
@@ -293,40 +293,40 @@ The following example shows the JSON response data for a GET request to the `/re
 
 
 
-    <tr>
-      <td><a href="#co-d1e566EA079BAD-EBC7-4074-A78B-E75704C9760F">(1)</a></td>
-      <td>The GUID of the restaurant from which configuration information is retrieved.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e566EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(1)</a></td>
+      <td className="">The GUID of the restaurant from which configuration information is retrieved.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F">(2)</a></td>
-      <td><a href="apiDevGuide-apiRestaurantInformation#restInfoGeneral">General information</a> about the restaurant. The name of this sample restaurant is <code>Trattoria Roma</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(2)</a></td>
+      <td className=""><a href="apiDevGuide-apiRestaurantInformation#restInfoGeneral" className="">General information</a> about the restaurant. The name of this sample restaurant is <code className="">Trattoria Roma</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F">(3)</a></td>
-      <td>The <a href="apiDevGuide-apiRestaurantInformation#restInfoURLs">web addresses</a> for the restaurant.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(3)</a></td>
+      <td className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoURLs" className="">web addresses</a> for the restaurant.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e572EA079BAD-EBC7-4074-A78B-E75704C9760F">(4)</a></td>
-      <td>The <a href="apiDevGuide-apiRestaurantInformation#restInfoLocation">physical location</a> of the restaurant.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e572EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(4)</a></td>
+      <td className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoLocation" className="">physical location</a> of the restaurant.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F">(5)</a></td>
-      <td>The <a href="apiDevGuide-apiRestaurantInformation#restInfoSchedules">schedules and services</a> provided by the restaurant. This sample restaurant has two day schedules, named <code>Weekdays</code> and <code>Weekends</code>. Each day schedule has an <code>openTime</code> value that designates when the first service of the day begins and a <code>closeTime</code> value for when the last service of the day ends.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(5)</a></td>
+      <td className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoSchedules" className="">schedules and services</a> provided by the restaurant. This sample restaurant has two day schedules, named <code className="">Weekdays</code> and <code className="">Weekends</code>. Each day schedule has an <code className="">openTime</code> value that designates when the first service of the day begins and a <code className="">closeTime</code> value for when the last service of the day ends.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F">(6)</a></td>
-      <td>The <a href="apiDevGuide-apiRestaurantInformation#restInfoDelivery">delivery service</a> of the restaurant. In this sample restaurant, a delivery service is available.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(6)</a></td>
+      <td className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoDelivery" className="">delivery service</a> of the restaurant. In this sample restaurant, a delivery service is available.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F">(7)</a></td>
-      <td>The <a href="apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering">online ordering service</a> provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(7)</a></td>
+      <td className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering" className="">online ordering service</a> provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</td>
     </tr>
-    <tr>
-      <td><a href="#apiRestaurantEnabled">(8)</a></td>
-      <td>The <code>enabled</code> value in the <code>OnlineOrdering</code> object will always be <code>true</code> after the restaurant does their initial setup for Toast Online Ordering.</td>
+    <tr className="">
+      <td className=""><a href="#apiRestaurantEnabled" className="">(8)</a></td>
+      <td className="">The <code className="">enabled</code> value in the <code className="">OnlineOrdering</code> object will always be <code className="">true</code> after the restaurant does their initial setup for Toast Online Ordering.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e581EA079BAD-EBC7-4074-A78B-E75704C9760F">(9)</a></td>
-      <td>The <a href="apiDevGuide-apiRestaurantInformation#restInfoPrepTimes">scheduled availability of the dining options</a> provided by the restaurant.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e581EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(9)</a></td>
+      <td className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoPrepTimes" className="">scheduled availability of the dining options</a> provided by the restaurant.</td>
     </tr>
   

@@ -205,29 +205,29 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-    <tr>
-      <td><a href="#co-d1e1112EA92E6F1-6650-4630-A55E-D199990EEAD8">(1)</a></td>
-      <td>The <code>table</code> value provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1112EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(1)</a></td>
+      <td className="">The <code className="">table</code> value provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.</td>
     </tr>
-    <tr>
-      <td><a href="#co-exampleServerValueInTableOrder">(2)</a></td>
-      <td>The <code>server</code> value provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.</td>
+    <tr className="">
+      <td className=""><a href="#co-exampleServerValueInTableOrder" className="">(2)</a></td>
+      <td className="">The <code className="">server</code> value provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1114EA92E6F1-6650-4630-A55E-D199990EEAD8">(3)</a></td>
-      <td>To create an order at a table, the behavior of the selected dining option must be <code>DINE_IN</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1114EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(3)</a></td>
+      <td className="">To create an order at a table, the behavior of the selected dining option must be <code className="">DINE_IN</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#RevenueCenterCO">(4)</a></td>
-      <td>You can specify the revenue center associated with the order. Specifying a revenue center is optional.</td>
+    <tr className="">
+      <td className=""><a href="#RevenueCenterCO" className="">(4)</a></td>
+      <td className="">You can specify the revenue center associated with the order. Specifying a revenue center is optional.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8">(5)</a></td>
-      <td>You must include a <code>checks</code> value with at least one <code>Check</code> object. The check does not need to include any menu item selections. You can optionally include a <code>customer</code> value with information about the restaurant guest.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(5)</a></td>
+      <td className="">You must include a <code className="">checks</code> value with at least one <code className="">Check</code> object. The check does not need to include any menu item selections. You can optionally include a <code className="">customer</code> value with information about the restaurant guest.</td>
     </tr>
-    <tr>
-      <td><a href="#dineInEmail">(6)</a></td>
-      <td>In a <code>Customer</code> object, the <code>email</code> value is the unique identifier for a guest. <code>email</code> must be unique for each individual guest.</td>
+    <tr className="">
+      <td className=""><a href="#dineInEmail" className="">(6)</a></td>
+      <td className="">In a <code className="">Customer</code> object, the <code className="">email</code> value is the unique identifier for a guest. <code className="">email</code> must be unique for each individual guest.</td>
     </tr>
 ## Creating a takeout order
 
@@ -285,21 +285,21 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-    <tr>
-      <td><a href="#co-d1e10237C48B789-81C4-4370-AA2B-3D1717E80367">(1)</a></td>
-      <td>The GUID of the dining option for the order. The dining option must have a <code>behavior</code> of <code>TAKE_OUT</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e10237C48B789-81C4-4370-AA2B-3D1717E80367" className="">(1)</a></td>
+      <td className="">The GUID of the dining option for the order. The dining option must have a <code className="">behavior</code> of <code className="">TAKE_OUT</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e10257C48B789-81C4-4370-AA2B-3D1717E80367">(2)</a></td>
-      <td>The <code>selections</code> object contains the menu item selections for the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e10257C48B789-81C4-4370-AA2B-3D1717E80367" className="">(2)</a></td>
+      <td className="">The <code className="">selections</code> object contains the menu item selections for the order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e10277C48B789-81C4-4370-AA2B-3D1717E80367">(3)</a></td>
-      <td>The <code>customer</code> object contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The <code>firstName</code>, <code>lastName</code>, <code>phone</code>, and <code>email</code> fields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e10277C48B789-81C4-4370-AA2B-3D1717E80367" className="">(3)</a></td>
+      <td className="">The <code className="">customer</code> object contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The <code className="">firstName</code>, <code className="">lastName</code>, <code className="">phone</code>, and <code className="">email</code> fields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</td>
     </tr>
-    <tr>
-      <td><a href="#toEmailUnique">(4)</a></td>
-      <td>In a <code>customer</code> object, the <code>email</code> value is the unique identifier for a guest. <code>email</code> must be unique for each individual guest.</td>
+    <tr className="">
+      <td className=""><a href="#toEmailUnique" className="">(4)</a></td>
+      <td className="">In a <code className="">customer</code> object, the <code className="">email</code> value is the unique identifier for a guest. <code className="">email</code> must be unique for each individual guest.</td>
     </tr>
 ### Example response to a takeout order POST request
 
@@ -437,25 +437,25 @@ The following example shows the response from the `/orders` endpoint for a takeo
 
 
 
-    <tr>
-      <td><a href="#co-d1e106115FD65F4-5F6E-4E67-B244-1E63F8455F38">(1)</a></td>
-      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e106115FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(1)</a></td>
+      <td className="">The unique identifier that the Toast platform assigns to the order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e106315FD65F4-5F6E-4E67-B244-1E63F8455F38">(2)</a></td>
-      <td>The payment information is empty because the order request was made without a <code>payments</code> value. This means that the guest did not make any payments for this check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e106315FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(2)</a></td>
+      <td className="">The payment information is empty because the order request was made without a <code className="">payments</code> value. This means that the guest did not make any payments for this check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e106515FD65F4-5F6E-4E67-B244-1E63F8455F38">(3)</a></td>
-      <td>The total amount (including tax) of this check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e106515FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(3)</a></td>
+      <td className="">The total amount (including tax) of this check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e106715FD65F4-5F6E-4E67-B244-1E63F8455F38">(4)</a></td>
-      <td>The date and time are null because the guest did not make a payment for the check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e106715FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(4)</a></td>
+      <td className="">The date and time are null because the guest did not make a payment for the check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e107215FD65F4-5F6E-4E67-B244-1E63F8455F38">(5)</a></td>
-      <td>Information about the guest who will pick up the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e107215FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(5)</a></td>
+      <td className="">Information about the guest who will pick up the order.</td>
     </tr>
 ## Creating a curbside pickup order
 
@@ -540,25 +540,25 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-    <tr>
-      <td><a href="#co-d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130">(1)</a></td>
-      <td>The GUID of the dining option for the order. For a curbside pickup dining option, <code>behavior</code> is <code>TAKE_OUT</code> and <code>curbside</code> is <code>true</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(1)</a></td>
+      <td className="">The GUID of the dining option for the order. For a curbside pickup dining option, <code className="">behavior</code> is <code className="">TAKE_OUT</code> and <code className="">curbside</code> is <code className="">true</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130">(2)</a></td>
-      <td>The <code>curbsidePickupInfo</code> object contains information about the guest's mode of transportation. The restaurant uses the information in the <code>transportDescription</code>, <code>transportColor</code>, and <code>notes</code> fields to identify the guest when they arrive to pick up the order. <code>transportDescription</code> is required for curbside pickup orders.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(2)</a></td>
+      <td className="">The <code className="">curbsidePickupInfo</code> object contains information about the guest's mode of transportation. The restaurant uses the information in the <code className="">transportDescription</code>, <code className="">transportColor</code>, and <code className="">notes</code> fields to identify the guest when they arrive to pick up the order. <code className="">transportDescription</code> is required for curbside pickup orders.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e13050678CC9-5BB1-4B52-94B4-AD4E0A359130">(3)</a></td>
-      <td>The <code>selections</code> object contains menu item selections for the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e13050678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(3)</a></td>
+      <td className="">The <code className="">selections</code> object contains menu item selections for the order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e13250678CC9-5BB1-4B52-94B4-AD4E0A359130">(4)</a></td>
-      <td>The <code>customer</code> object contains information about the guest who will pick up the order. <code>customer</code> is mandatory for curbside pickup orders. <code>firstName</code>, <code>lastName</code>, <code>phone</code>, and <code>email</code> are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e13250678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(4)</a></td>
+      <td className="">The <code className="">customer</code> object contains information about the guest who will pick up the order. <code className="">customer</code> is mandatory for curbside pickup orders. <code className="">firstName</code>, <code className="">lastName</code>, <code className="">phone</code>, and <code className="">email</code> are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e13450678CC9-5BB1-4B52-94B4-AD4E0A359130">(5)</a></td>
-      <td>In a <code>customer</code> object, the <code>email</code> value is the unique identifier for a guest. <code>email</code> must be unique for each individual guest.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e13450678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(5)</a></td>
+      <td className="">In a <code className="">customer</code> object, the <code className="">email</code> value is the unique identifier for a guest. <code className="">email</code> must be unique for each individual guest.</td>
     </tr>
 ### Example response to a curbside pickup order POST request
 
@@ -653,29 +653,29 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
 
 
-    <tr>
-      <td><a href="#co-d1e2266E27FB7C-6DE5-4877-99EB-55403F2FA4EF">(1)</a></td>
-      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2266E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(1)</a></td>
+      <td className="">The unique identifier that the Toast platform assigns to the order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2286E27FB7C-6DE5-4877-99EB-55403F2FA4EF">(2)</a></td>
-      <td>Information about the mode of transportation that the guest will use when they arrive to pick up their order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2286E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(2)</a></td>
+      <td className="">Information about the mode of transportation that the guest will use when they arrive to pick up their order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2306E27FB7C-6DE5-4877-99EB-55403F2FA4EF">(3)</a></td>
-      <td>The payment information is empty because the order request was made without a <code>payments</code> value. This means that the guest did not make any payments for this check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2306E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(3)</a></td>
+      <td className="">The payment information is empty because the order request was made without a <code className="">payments</code> value. This means that the guest did not make any payments for this check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2326E27FB7C-6DE5-4877-99EB-55403F2FA4EF">(4)</a></td>
-      <td>The date and time are null because the guest did not make a payment for the check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2326E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(4)</a></td>
+      <td className="">The date and time are null because the guest did not make a payment for the check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2346E27FB7C-6DE5-4877-99EB-55403F2FA4EF">(5)</a></td>
-      <td>The total amount (including tax) of this check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2346E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(5)</a></td>
+      <td className="">The total amount (including tax) of this check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2376E27FB7C-6DE5-4877-99EB-55403F2FA4EF">(6)</a></td>
-      <td>Information about the guest who will pick up the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2376E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(6)</a></td>
+      <td className="">Information about the guest who will pick up the order.</td>
     </tr>
 ## Creating a delivery order
 
@@ -749,21 +749,21 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
 
-    <tr>
-      <td><a href="#co-d1e11712BEEE554-052B-4000-8FFB-C21234C82F0B">(1)</a></td>
-      <td>The GUID of the dining option for the order. For a delivery dining option, <code>behavior</code> must be <code>DELIVERY</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e11712BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(1)</a></td>
+      <td className="">The GUID of the dining option for the order. For a delivery dining option, <code className="">behavior</code> must be <code className="">DELIVERY</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e11732BEEE554-052B-4000-8FFB-C21234C82F0B">(2)</a></td>
-      <td>The <code>deliveryInfo</code> object contains information about the address to deliver the order to. This information is required for delivery orders. The <code>address1</code>, <code>city</code>, <code>state</code>, and <code>zipCode</code> fields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e11732BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(2)</a></td>
+      <td className="">The <code className="">deliveryInfo</code> object contains information about the address to deliver the order to. This information is required for delivery orders. The <code className="">address1</code>, <code className="">city</code>, <code className="">state</code>, and <code className="">zipCode</code> fields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B">(3)</a></td>
-      <td>The <code>customer</code> object contains information about the guest who will receive the order. The <code>customer</code> object is required for delivery orders. The <code>firstName</code>, <code>lastName</code>, <code>phone</code>, and <code>email</code> values are required. The data must be formatted correctly.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(3)</a></td>
+      <td className="">The <code className="">customer</code> object contains information about the guest who will receive the order. The <code className="">customer</code> object is required for delivery orders. The <code className="">firstName</code>, <code className="">lastName</code>, <code className="">phone</code>, and <code className="">email</code> values are required. The data must be formatted correctly.</td>
     </tr>
-    <tr>
-      <td><a href="#delivEmailUnique">(4)</a></td>
-      <td>In a <code>customer</code> object, the <code>email</code> value is the unique identifier for the guest. The <code>email</code> value must be unique for each individual guest.</td>
+    <tr className="">
+      <td className=""><a href="#delivEmailUnique" className="">(4)</a></td>
+      <td className="">In a <code className="">customer</code> object, the <code className="">email</code> value is the unique identifier for the guest. The <code className="">email</code> value must be unique for each individual guest.</td>
     </tr>
 ### Example response to a delivery order POST request
 
@@ -915,43 +915,43 @@ The following example shows the message body for an endpoint response to a deliv
 
 
 
-    <tr>
-      <td><a href="#co-d1e1232192143FD-70F4-4988-8B22-E8F1BCABE104">(1)</a></td>
-      <td>The unique identifier that the Toast platform assigns to the order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1232192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(1)</a></td>
+      <td className="">The unique identifier that the Toast platform assigns to the order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1234192143FD-70F4-4988-8B22-E8F1BCABE104">(2)</a></td>
-      <td>Information about the address to which the order will be delivered.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1234192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(2)</a></td>
+      <td className="">Information about the address to which the order will be delivered.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1236192143FD-70F4-4988-8B22-E8F1BCABE104">(3)</a></td>
-      <td>The date and time that the delivery employee indicated that the order was delivered. The value is <code>null</code> because the order is not yet delivered.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1236192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(3)</a></td>
+      <td className="">The date and time that the delivery employee indicated that the order was delivered. The value is <code className="">null</code> because the order is not yet delivered.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1238192143FD-70F4-4988-8B22-E8F1BCABE104">(4)</a></td>
-      <td>The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is <code>null</code> because the order is not yet available for delivery.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1238192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(4)</a></td>
+      <td className="">The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is <code className="">null</code> because the order is not yet available for delivery.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1240192143FD-70F4-4988-8B22-E8F1BCABE104">(5)</a></td>
-      <td>The Toast GUID or external identifier of the delivery employee. The value is <code>null</code> because a delivery employee is not yet assigned to this order.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1240192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(5)</a></td>
+      <td className="">The Toast GUID or external identifier of the delivery employee. The value is <code className="">null</code> because a delivery employee is not yet assigned to this order.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1243192143FD-70F4-4988-8B22-E8F1BCABE104">(6)</a></td>
-      <td>The date and time that the order was created.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1243192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(6)</a></td>
+      <td className="">The date and time that the order was created.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1245192143FD-70F4-4988-8B22-E8F1BCABE104">(7)</a></td>
-      <td>A status indicating where the selection currently is in the preparation workflow. A status of <code>NEW</code> means that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1245192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(7)</a></td>
+      <td className="">A status indicating where the selection currently is in the preparation workflow. A status of <code className="">NEW</code> means that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1247192143FD-70F4-4988-8B22-E8F1BCABE104">(8)</a></td>
-      <td>Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see <a href="apiDevGuide-apiOrderPrices#apiServiceCharges">Service charges for checks</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1247192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(8)</a></td>
+      <td className="">Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see <a href="apiDevGuide-apiOrderPrices#apiServiceCharges" className="">Service charges for checks</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1249192143FD-70F4-4988-8B22-E8F1BCABE104">(9)</a></td>
-      <td>Information about the guest to whom the order will be delivered.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1249192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(9)</a></td>
+      <td className="">Information about the guest to whom the order will be delivered.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1251192143FD-70F4-4988-8B22-E8F1BCABE104">(10)</a></td>
-      <td>The date and time that the order is expected to be ready to be delivered.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1251192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(10)</a></td>
+      <td className="">The date and time that the order is expected to be ready to be delivered.</td>
     </tr>

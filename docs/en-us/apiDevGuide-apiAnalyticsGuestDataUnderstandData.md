@@ -23,45 +23,45 @@ The following table specifies the returned set of values in the guest reporting 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value name</th>
-      <th>Definition</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value name</th>
+      <th className="">Definition</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>restaurantName</code></td>
-      <td>The restaurant’s name.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantName</code></td>
+      <td className="">The restaurant’s name.</td>
     </tr>
-    <tr>
-      <td><code>restaurantLocationName</code></td>
-      <td>The restaurant’s location name.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantLocationName</code></td>
+      <td className="">The restaurant’s location name.</td>
     </tr>
-    <tr>
-      <td><code>restaurantLocationCode</code></td>
-      <td>The restaurant’s location code.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantLocationCode</code></td>
+      <td className="">The restaurant’s location code.</td>
     </tr>
-    <tr>
-      <td><code>paymentDate</code></td>
-      <td>The date when the payment was processed, in <code>YYYYMMDD</code> format.</td>
+    <tr className="">
+      <td className=""><code className="">paymentDate</code></td>
+      <td className="">The date when the payment was processed, in <code className="">YYYYMMDD</code> format.</td>
     </tr>
-    <tr>
-      <td><code>orderGuid</code></td>
-      <td>The unique identifier assigned to the order by the Toast platform.</td>
+    <tr className="">
+      <td className=""><code className="">orderGuid</code></td>
+      <td className="">The unique identifier assigned to the order by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>paymentGuid</code></td>
-      <td>The unique identifier assigned to the payment by the Toast platform.</td>
+    <tr className="">
+      <td className=""><code className="">paymentGuid</code></td>
+      <td className="">The unique identifier assigned to the payment by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>cardFingerprint</code></td>
-      <td>The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> <code>cardFingerprint</code> data is only available for payments processed starting in August 2024. <code>cardFingerprint</code> data is not supported for older payments.</blockquote> </td>
+    <tr className="">
+      <td className=""><code className="">cardFingerprint</code></td>
+      <td className="">The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> <code className="">cardFingerprint</code> data is only available for payments processed starting in August 2024. <code className="">cardFingerprint</code> data is not supported for older payments.</blockquote> </td>
     </tr>
   </tbody>
 </table>

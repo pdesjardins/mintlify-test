@@ -19,49 +19,49 @@ It is important to note that not all advanced pricing features are supported on 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Pricing Feature</th>
-      <th>Supported Product Channels</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Pricing Feature</th>
+      <th className="">Supported Product Channels</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><a href="adminGuide-adminSizePrice">Size Price</a> pricing strategy</td>
-      <td>For menu items and menu groups, size-specific prices are supported on:<ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Takeout (Local by Toast) app</li><li>Toast Kiosk</li><li>Toast Order and Pay</li><li>Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li></ul> <br/> For modifier groups and modifiers, size-specific prices are supported on:<ul><li>Toast POS app</li><li>Toast Online Ordering</li><li>Toast Kiosk</li><li>Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li></ul></td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><a href="adminGuide-adminSizePrice" className="">Size Price</a> pricing strategy</td>
+      <td className="">For menu items and menu groups, size-specific prices are supported on:<ul className=""><li className="">Toast POS app</li><li className="">Toast Online Ordering</li><li className="">Toast Takeout (Local by Toast) app</li><li className="">Toast Kiosk</li><li className="">Toast Order and Pay</li><li className="">Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li></ul> <br/> For modifier groups and modifiers, size-specific prices are supported on:<ul className=""><li className="">Toast POS app</li><li className="">Toast Online Ordering</li><li className="">Toast Kiosk</li><li className="">Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</li></ul></td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminMenuSpecificPrice">Menu Specific Price</a> pricing strategy</td>
-      <td>Toast POS app <br/> Toast Online Ordering <br/> Toast Takeout (Local by Toast) app <br/> Toast Kiosk <br/> Toast Order and Pay <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminMenuSpecificPrice" className="">Menu Specific Price</a> pricing strategy</td>
+      <td className="">Toast POS app <br/> Toast Online Ordering <br/> Toast Takeout (Local by Toast) app <br/> Toast Kiosk <br/> Toast Order and Pay <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminTimeSpecificPrice">Time Specific Price</a> pricing strategy</td>
-      <td>Toast POS app <br/> Toast Online Ordering <br/> Toast Takeout (Local by Toast) app <br/> Toast Kiosk <br/> Toast Order and Pay <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminTimeSpecificPrice" className="">Time Specific Price</a> pricing strategy</td>
+      <td className="">Toast POS app <br/> Toast Online Ordering <br/> Toast Takeout (Local by Toast) app <br/> Toast Kiosk <br/> Toast Order and Pay <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminLocationSpecificPrice">Location Specific Price</a> pricing strategy</td>
-      <td>Toast POS app <br/> Toast Kiosk <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminLocationSpecificPrice" className="">Location Specific Price</a> pricing strategy</td>
+      <td className="">Toast POS app <br/> Toast Kiosk <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminOpenPrice">Open Price</a> pricing strategy</td>
-      <td>Toast POS app <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminOpenPrice" className="">Open Price</a> pricing strategy</td>
+      <td className="">Toast POS app <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminSequencePrice">Sequence Price</a> pricing strategy</td>
-      <td>Toast POS app <br/> Toast Online Ordering <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminSequencePrice" className="">Sequence Price</a> pricing strategy</td>
+      <td className="">Toast POS app <br/> Toast Online Ordering <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminSizeSequencePrice">Size/Sequence Price</a> pricing strategy</td>
-      <td>Toast POS app <br/> Toast Online Ordering <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminSizeSequencePrice" className="">Size/Sequence Price</a> pricing strategy</td>
+      <td className="">Toast POS app <br/> Toast Online Ordering <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminPricingModifierOptions#adminUsingSubstitutionPricingForDefaultModifierOptions">Substitution pricing</a></td>
-      <td>Toast POS app <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminPricingModifierOptions#adminUsingSubstitutionPricingForDefaultModifierOptions" className="">Substitution pricing</a></td>
+      <td className="">Toast POS app <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
-    <tr>
-      <td><a href="adminGuide-adminUsingPriceLevels">Price levels</a></td>
-      <td>Toast POS app <br/> Toast Kiosk <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
+    <tr className="">
+      <td className=""><a href="adminGuide-adminUsingPriceLevels" className="">Price levels</a></td>
+      <td className="">Toast POS app <br/> Toast Kiosk <br/> Online ordering partners (Support can vary by online ordering partner, contact partner to confirm.)</td>
     </tr>
   </tbody>
 </table>

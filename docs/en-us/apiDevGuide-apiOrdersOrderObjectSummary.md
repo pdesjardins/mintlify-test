@@ -621,54 +621,54 @@ For the menu item selection, the amounts are as follows:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Amount</th>
-      <th>Value</th>
-      <th>Calculation</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Amount</th>
+      <th className="">Value</th>
+      <th className="">Calculation</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>receiptLinePrice</code></td>
-      <td>8.0</td>
-      <td>In the menu, a grilled sandwich costs $8.00</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">receiptLinePrice</code></td>
+      <td className="">8.0</td>
+      <td className="">In the menu, a grilled sandwich costs $8.00</td>
     </tr>
-    <tr>
-      <td><code>preDiscountPrice</code></td>
-      <td>16.0</td>
-      <td>Multiply <code>receiptLinePrice</code> (8.0) by <code>quantity</code> (2).</td>
+    <tr className="">
+      <td className=""><code className="">preDiscountPrice</code></td>
+      <td className="">16.0</td>
+      <td className="">Multiply <code className="">receiptLinePrice</code> (8.0) by <code className="">quantity</code> (2).</td>
     </tr>
-    <tr>
-      <td><code>Discount.discountAmount</code></td>
-      <td>1.0</td>
-      <td>The applied discount is for $1.00.</td>
+    <tr className="">
+      <td className=""><code className="">Discount.discountAmount</code></td>
+      <td className="">1.0</td>
+      <td className="">The applied discount is for $1.00.</td>
     </tr>
-    <tr>
-      <td><code>Discount.nonTaxDiscountAmount</code></td>
-      <td>1.0</td>
-      <td>The applied discount is for $1.00. The tax is not included in the price, and the discount is a fixed amount discount, so the two discount amount values are the same.</td>
+    <tr className="">
+      <td className=""><code className="">Discount.nonTaxDiscountAmount</code></td>
+      <td className="">1.0</td>
+      <td className="">The applied discount is for $1.00. The tax is not included in the price, and the discount is a fixed amount discount, so the two discount amount values are the same.</td>
     </tr>
-    <tr>
-      <td><code>price</code></td>
-      <td>15.0</td>
-      <td>Subtract the total <code>discountAmount</code> (1.0) from the <code>preDiscountPrice</code> (16.0).</td>
+    <tr className="">
+      <td className=""><code className="">price</code></td>
+      <td className="">15.0</td>
+      <td className="">Subtract the total <code className="">discountAmount</code> (1.0) from the <code className="">preDiscountPrice</code> (16.0).</td>
     </tr>
-    <tr>
-      <td><code>AppliedTax.taxAmount</code> (State tax)</td>
-      <td>0.75</td>
-      <td>Multiply the <code>rate</code> for the state tax (.05) by the <code>price</code> (15.0).</td>
+    <tr className="">
+      <td className=""><code className="">AppliedTax.taxAmount</code> (State tax)</td>
+      <td className="">0.75</td>
+      <td className="">Multiply the <code className="">rate</code> for the state tax (.05) by the <code className="">price</code> (15.0).</td>
     </tr>
-    <tr>
-      <td><code>AppliedTax.taxAmount</code> (City tax)</td>
-      <td>0.65</td>
-      <td>Multiply the <code>rate</code> for the city tax (.04) by the <code>price</code> (15.0).</td>
+    <tr className="">
+      <td className=""><code className="">AppliedTax.taxAmount</code> (City tax)</td>
+      <td className="">0.65</td>
+      <td className="">Multiply the <code className="">rate</code> for the city tax (.04) by the <code className="">price</code> (15.0).</td>
     </tr>
-    <tr>
-      <td><code>tax</code></td>
-      <td>1.35</td>
-      <td>Add the <code>taxAmount</code> values (0.75 and 0.65).</td>
+    <tr className="">
+      <td className=""><code className="">tax</code></td>
+      <td className="">1.35</td>
+      <td className="">Add the <code className="">taxAmount</code> values (0.75 and 0.65).</td>
     </tr>
   </tbody>
 </table>
@@ -678,44 +678,44 @@ For the check, the amounts are as follows:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Amount</th>
-      <th>Value</th>
-      <th>Calculation</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Amount</th>
+      <th className="">Value</th>
+      <th className="">Calculation</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>appliedDiscounts</code></td>
-      <td>No values</td>
-      <td>There are no discounts on the check, just on the item.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">appliedDiscounts</code></td>
+      <td className="">No values</td>
+      <td className="">There are no discounts on the check, just on the item.</td>
     </tr>
-    <tr>
-      <td><code>ServiceCharge.chargeAmount</code></td>
-      <td>3.0</td>
-      <td>There is a $3.00 delivery charge.</td>
+    <tr className="">
+      <td className=""><code className="">ServiceCharge.chargeAmount</code></td>
+      <td className="">3.0</td>
+      <td className="">There is a $3.00 delivery charge.</td>
     </tr>
-    <tr>
-      <td><code>ServiceCharge.appliedTaxes</code></td>
-      <td>No values</td>
-      <td>The delivery charge is not taxed.</td>
+    <tr className="">
+      <td className=""><code className="">ServiceCharge.appliedTaxes</code></td>
+      <td className="">No values</td>
+      <td className="">The delivery charge is not taxed.</td>
     </tr>
-    <tr>
-      <td><code>amount</code></td>
-      <td>18.0</td>
-      <td>Add the <code>price</code> from the menu selection item (15.0) to the service charge (3.0).</td>
+    <tr className="">
+      <td className=""><code className="">amount</code></td>
+      <td className="">18.0</td>
+      <td className="">Add the <code className="">price</code> from the menu selection item (15.0) to the service charge (3.0).</td>
     </tr>
-    <tr>
-      <td><code>taxAmount</code></td>
-      <td>1.35</td>
-      <td>The total of the <code>tax</code> values on the menu selection items. The <code>tax</code> value for the single menu selection item is 1.35.</td>
+    <tr className="">
+      <td className=""><code className="">taxAmount</code></td>
+      <td className="">1.35</td>
+      <td className="">The total of the <code className="">tax</code> values on the menu selection items. The <code className="">tax</code> value for the single menu selection item is 1.35.</td>
     </tr>
-    <tr>
-      <td><code>totalAmount</code></td>
-      <td>19.35</td>
-      <td>Add <code>amount</code> (18.0) and <code>taxAmount</code> (1.35).</td>
+    <tr className="">
+      <td className=""><code className="">totalAmount</code></td>
+      <td className="">19.35</td>
+      <td className="">Add <code className="">amount</code> (18.0) and <code className="">taxAmount</code> (1.35).</td>
     </tr>
   </tbody>
 </table>

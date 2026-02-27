@@ -66,37 +66,37 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>eventGuid</code></td>
-      <td>The unique Toast platform identifier for the webhook event.  <br/> data type: string</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">eventGuid</code></td>
+      <td className="">The unique Toast platform identifier for the webhook event.  <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>orderGuid</code></td>
-      <td>The unique Toast platform identifier for the order.  <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">orderGuid</code></td>
+      <td className="">The unique Toast platform identifier for the order.  <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>guestOrderStatus</code></td>
-      <td>The current status of a guest's order in the restaurant fulfillment process. <ul><li><code>IN_PREPARATION</code>: The order is being actively worked on.</li><li><code>READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li><li><code>CLOSED</code>: The order is paid for and marked as completed.</li><li><code>VOIDED</code>:<ul><li>If the order is open, the order will be voided and not be fulfilled.</li><li>If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">guestOrderStatus</code></td>
+      <td className="">The current status of a guest's order in the restaurant fulfillment process. <ul className=""><li className=""><code className="">IN_PREPARATION</code>: The order is being actively worked on.</li><li className=""><code className="">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li><li className=""><code className="">CLOSED</code>: The order is paid for and marked as completed.</li><li className=""><code className="">VOIDED</code>:<ul className=""><li className="">If the order is open, the order will be voided and not be fulfilled.</li><li className="">If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>lastUpdated</code></td>
-      <td>The date and time the order’s <code>guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format.  <br/> data type: string <br/> format: date-time</td>
+    <tr className="">
+      <td className=""><code className="">lastUpdated</code></td>
+      <td className="">The date and time the order’s <code className="">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format.  <br/> data type: string <br/> format: date-time</td>
     </tr>
-    <tr>
-      <td><code>version</code></td>
-      <td>This value is null.</td>
+    <tr className="">
+      <td className=""><code className="">version</code></td>
+      <td className="">This value is null.</td>
     </tr>
   </tbody>
 </table>

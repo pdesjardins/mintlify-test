@@ -31,33 +31,33 @@ The following table describes the Toast-specific HTTP headers included with webh
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Header</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Header</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>Toast-Attempt-Number</code></td>
-      <td>Indicates how many times the Toast platform has sent the webhook message. <br/> The first time the Toast platform sends a webhook message, the <code>Toast-Attempt-Number</code> is <code>1</code>. If the Toast platform retries sending the message, it increments the number. For information about retrying webhook messages, see <a href="apiDevGuide-apiRetrySupport">Retry support</a>.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">Toast-Attempt-Number</code></td>
+      <td className="">Indicates how many times the Toast platform has sent the webhook message. <br/> The first time the Toast platform sends a webhook message, the <code className="">Toast-Attempt-Number</code> is <code className="">1</code>. If the Toast platform retries sending the message, it increments the number. For information about retrying webhook messages, see <a href="apiDevGuide-apiRetrySupport" className="">Retry support</a>.</td>
     </tr>
-    <tr>
-      <td><code>Toast-Signature</code></td>
-      <td>As a security measure, all webhook messages contain a signature in the <code>Toast-Signature</code> HTTP header. A webhook endpoint uses the <code>Toast-Signature</code> header to confirm that a webhook update message is coming from a known, secure source. See <a href="apiDevGuide-apiMessageSigning">Message signing</a> for more details.</td>
+    <tr className="">
+      <td className=""><code className="">Toast-Signature</code></td>
+      <td className="">As a security measure, all webhook messages contain a signature in the <code className="">Toast-Signature</code> HTTP header. A webhook endpoint uses the <code className="">Toast-Signature</code> header to confirm that a webhook update message is coming from a known, secure source. See <a href="apiDevGuide-apiMessageSigning" className="">Message signing</a> for more details.</td>
     </tr>
-    <tr>
-      <td><code>Toast-Event-Type</code></td>
-      <td>The type of event that has occurred, for example, a <code>partner_added</code> event for the <code>partners</code> webhook or a <code>low_quantity</code> event for the <code>stock</code> webhook.</td>
+    <tr className="">
+      <td className=""><code className="">Toast-Event-Type</code></td>
+      <td className="">The type of event that has occurred, for example, a <code className="">partner_added</code> event for the <code className="">partners</code> webhook or a <code className="">low_quantity</code> event for the <code className="">stock</code> webhook.</td>
     </tr>
-    <tr>
-      <td><code>Toast-Restaurant-External-ID</code></td>
-      <td>If the triggering event has occurred at a restaurant, the GUID of that restaurant is included in the <code>Toast-Restaurant-External-ID</code> HTTP header, for example, if the webhook update is for a <code>low_quantity</code> event, this header identifies the restaurant where the inventory quantity is low. This header is omitted if the triggering event has not occurred at a restaurant, for example, the header is omitted for the Partners webhook event types because those events are triggered by changes to a partner's status, not changes to a restaurant's status.</td>
+    <tr className="">
+      <td className=""><code className="">Toast-Restaurant-External-ID</code></td>
+      <td className="">If the triggering event has occurred at a restaurant, the GUID of that restaurant is included in the <code className="">Toast-Restaurant-External-ID</code> HTTP header, for example, if the webhook update is for a <code className="">low_quantity</code> event, this header identifies the restaurant where the inventory quantity is low. This header is omitted if the triggering event has not occurred at a restaurant, for example, the header is omitted for the Partners webhook event types because those events are triggered by changes to a partner's status, not changes to a restaurant's status.</td>
     </tr>
-    <tr>
-      <td><code>Toast-Event-Category</code></td>
-      <td>The event category, for example, <code>partners</code> or <code>stock</code>. </td>
+    <tr className="">
+      <td className=""><code className="">Toast-Event-Category</code></td>
+      <td className="">The event category, for example, <code className="">partners</code> or <code className="">stock</code>. </td>
     </tr>
   </tbody>
 </table>
@@ -69,37 +69,37 @@ In addition to the Toast-specific HTTP headers, webhook events include the stand
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Header</th>
-      <th>Value</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Header</th>
+      <th className="">Value</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>Accept-Encoding</code></td>
-      <td><code>gzip,deflate</code></td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">Accept-Encoding</code></td>
+      <td className=""><code className="">gzip,deflate</code></td>
     </tr>
-    <tr>
-      <td><code>Connection</code></td>
-      <td><code>close</code></td>
+    <tr className="">
+      <td className=""><code className="">Connection</code></td>
+      <td className=""><code className="">close</code></td>
     </tr>
-    <tr>
-      <td><code>Content-Length</code></td>
-      <td>The size of the message body, in bytes.</td>
+    <tr className="">
+      <td className=""><code className="">Content-Length</code></td>
+      <td className="">The size of the message body, in bytes.</td>
     </tr>
-    <tr>
-      <td><code>Content-Type</code></td>
-      <td><code>application/json</code></td>
+    <tr className="">
+      <td className=""><code className="">Content-Type</code></td>
+      <td className=""><code className="">application/json</code></td>
     </tr>
-    <tr>
-      <td><code>Host</code></td>
-      <td>The domain name and port of the server that is listening for webhook events. Generated from the partner URI that is specified when a webhook subscription is created.</td>
+    <tr className="">
+      <td className=""><code className="">Host</code></td>
+      <td className="">The domain name and port of the server that is listening for webhook events. Generated from the partner URI that is specified when a webhook subscription is created.</td>
     </tr>
-    <tr>
-      <td><code>User-Agent</code></td>
-      <td><code>Apache-HttpClient/4.5.10 (Java/1.8.0_212)</code></td>
+    <tr className="">
+      <td className=""><code className="">User-Agent</code></td>
+      <td className=""><code className="">Apache-HttpClient/4.5.10 (Java/1.8.0_212)</code></td>
     </tr>
   </tbody>
 </table>

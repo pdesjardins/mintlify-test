@@ -56,37 +56,37 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>orderingSchedule</code></td>
-      <td>The parent object that holds information about the days and times when the restaurant location accepts online orders. </td>
+    <tr className="">
+      <td className=""><code className="">orderingSchedule</code></td>
+      <td className="">The parent object that holds information about the days and times when the restaurant location accepts online orders. </td>
     </tr>
-    <tr>
-      <td><code>servicePeriods</code></td>
-      <td>An object that contains information about the restaurant's online ordering schedule.  <br/> The <code>servicePeriods</code> array contains the following fields and values:<ul><li><code>diningOptionBehavior</code> <br/> <code>TAKE_OUT</code> or <code>DELIVERY</code> <br/> The dining behavior. <br/> data type: string</li><li><code>dayPeriods</code> <br/> Object that contains information about the specific day and time range when the restaurant location accepts online orders. <br/> data type: object<ul><li><code>day</code> <br/> The day the online ordering schedule is returned for. <br/> data type: string</li><li><code>timeRanges</code> <br/> Key-value pair detailing the start and end time for online ordering in HH:MM format. <br/> data type: object<ul><li><code>start</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours start. <br/> data type: string</li><li><code>end</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours end. <br/> data type: string</li></ul></li></ul></li></ul></td>
+    <tr className="">
+      <td className=""><code className="">servicePeriods</code></td>
+      <td className="">An object that contains information about the restaurant's online ordering schedule.  <br/> The <code className="">servicePeriods</code> array contains the following fields and values:<ul className=""><li className=""><code className="">diningOptionBehavior</code> <br/> <code className="">TAKE_OUT</code> or <code className="">DELIVERY</code> <br/> The dining behavior. <br/> data type: string</li><li className=""><code className="">dayPeriods</code> <br/> Object that contains information about the specific day and time range when the restaurant location accepts online orders. <br/> data type: object<ul className=""><li className=""><code className="">day</code> <br/> The day the online ordering schedule is returned for. <br/> data type: string</li><li className=""><code className="">timeRanges</code> <br/> Key-value pair detailing the start and end time for online ordering in HH:MM format. <br/> data type: object<ul className=""><li className=""><code className="">start</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours start. <br/> data type: string</li><li className=""><code className="">end</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours end. <br/> data type: string</li></ul></li></ul></li></ul></td>
     </tr>
-    <tr>
-      <td><code>overrides</code></td>
-      <td>An object that contains information about planned overrides. Overrides only affect Toast Online Ordering and third-party orders. For more information, see <a href="adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours">Configuring overrides</a>.  <br/> The overrides array contains the following fields and values: <ul><li><code>description</code> <br/> The description of the override. <br/> data type: string</li><li><code>diningOptionBehavior</code> <br/> <code>TAKE_OUT</code> or <code>DELIVERY</code> <br/> The dining behavior. <br/> data type: string</li><li><code>businessDate</code> <br/> The day the override applies to in YYYYMMDD format.  <br/> data type: integer<ul><li><code>timeRanges</code> <br/> Key-value pair detailing the start and end time for online ordering in HH:MM format. <br/> data type: object<ul><li><code>start</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours start. <br/> data type: string</li><li><code>end</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours end. <br/> data type: string</li></ul></li></ul></li></ul></td>
+    <tr className="">
+      <td className=""><code className="">overrides</code></td>
+      <td className="">An object that contains information about planned overrides. Overrides only affect Toast Online Ordering and third-party orders. For more information, see <a href="adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours" className="">Configuring overrides</a>.  <br/> The overrides array contains the following fields and values: <ul className=""><li className=""><code className="">description</code> <br/> The description of the override. <br/> data type: string</li><li className=""><code className="">diningOptionBehavior</code> <br/> <code className="">TAKE_OUT</code> or <code className="">DELIVERY</code> <br/> The dining behavior. <br/> data type: string</li><li className=""><code className="">businessDate</code> <br/> The day the override applies to in YYYYMMDD format.  <br/> data type: integer<ul className=""><li className=""><code className="">timeRanges</code> <br/> Key-value pair detailing the start and end time for online ordering in HH:MM format. <br/> data type: object<ul className=""><li className=""><code className="">start</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours start. <br/> data type: string</li><li className=""><code className="">end</code> <br/> The local time in HH:MM format when the restaurant’s online ordering hours end. <br/> data type: string</li></ul></li></ul></li></ul></td>
     </tr>
-    <tr>
-      <td><code>scheduledOrderMaxDays</code></td>
-      <td>Number of days an online order can be placed into the future. <br/> data type: integer <blockquote><strong>Note</strong> The restaurant online ordering schedule webhook does not send a message when there is a change to the maximum number of days scheduled orders can be placed into the future. For more information, see this <a href="https://central.toasttab.com/s/article/Scheduling-Future-Orders">Toast Central article</a>.</blockquote> </td>
+    <tr className="">
+      <td className=""><code className="">scheduledOrderMaxDays</code></td>
+      <td className="">Number of days an online order can be placed into the future. <br/> data type: integer <blockquote><strong>Note</strong> The restaurant online ordering schedule webhook does not send a message when there is a change to the maximum number of days scheduled orders can be placed into the future. For more information, see this <a href="https://central.toasttab.com/s/article/Scheduling-Future-Orders" className="">Toast Central article</a>.</blockquote> </td>
     </tr>
-    <tr>
-      <td><code>lastOrderConfiguration</code></td>
-      <td><code>UNTIL_CLOSING_TIME</code> or <code>UNTIL_PREPTIME_CUTOFF</code> <br/> Indicates when the restaurant will stop accepting online orders.  <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">lastOrderConfiguration</code></td>
+      <td className=""><code className="">UNTIL_CLOSING_TIME</code> or <code className="">UNTIL_PREPTIME_CUTOFF</code> <br/> Indicates when the restaurant will stop accepting online orders.  <br/> data type: string</td>
     </tr>
   </tbody>
 </table>

@@ -76,13 +76,13 @@ https://`[toast-api-hostname]`/cashmgmt/v1/entries?businessDate=20190917
 
 
 
-    <tr>
-      <td><a href="#co-d1e195A5E2A1B1-DA0E-4054-99B6-F867706167E9">(1)</a></td>
-      <td>Use the <code>Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve cash entries. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e195A5E2A1B1-DA0E-4054-99B6-F867706167E9" className="">(1)</a></td>
+      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve cash entries. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e200A5E2A1B1-DA0E-4054-99B6-F867706167E9">(2)</a></td>
-      <td>Use the <code>businessDate</code> request parameter to specify the date (in <code>yyyyMMdd</code> format) on which the cash entries were created.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e200A5E2A1B1-DA0E-4054-99B6-F867706167E9" className="">(2)</a></td>
+      <td className="">Use the <code className="">businessDate</code> request parameter to specify the date (in <code className="">yyyyMMdd</code> format) on which the cash entries were created.</td>
     </tr>
   
 The following example shows a `CashEntry` object in the response data from the `entries` endpoint.
@@ -121,49 +121,49 @@ The following example shows a `CashEntry` object in the response data from the `
 
 
 
-    <tr>
-      <td><a href="#co-d1e24433B240E1-39A5-4C20-8325-985CCE09250C">(1)</a></td>
-      <td>The GUID of this <code>CashEntry</code> object.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e24433B240E1-39A5-4C20-8325-985CCE09250C" className="">(1)</a></td>
+      <td className="">The GUID of this <code className="">CashEntry</code> object.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e24633B240E1-39A5-4C20-8325-985CCE09250C">(2)</a></td>
-      <td>The date and time when the cash entry was made.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e24633B240E1-39A5-4C20-8325-985CCE09250C" className="">(2)</a></td>
+      <td className="">The date and time when the cash entry was made.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e24833B240E1-39A5-4C20-8325-985CCE09250C">(3)</a></td>
-      <td>A descriptive comment entered by the restaurant employee when the cash entry was made. For undone cash entries, a hard-coded reason (such as <code>Undo Pay Out</code>) is provided by the system.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e24833B240E1-39A5-4C20-8325-985CCE09250C" className="">(3)</a></td>
+      <td className="">A descriptive comment entered by the restaurant employee when the cash entry was made. For undone cash entries, a hard-coded reason (such as <code className="">Undo Pay Out</code>) is provided by the system.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e25033B240E1-39A5-4C20-8325-985CCE09250C">(4)</a></td>
-      <td>The US currency amount that the restaurant employee removed from (for negative amounts) or added to (for positive amounts) the cash drawer.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e25033B240E1-39A5-4C20-8325-985CCE09250C" className="">(4)</a></td>
+      <td className="">The US currency amount that the restaurant employee removed from (for negative amounts) or added to (for positive amounts) the cash drawer.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e25233B240E1-39A5-4C20-8325-985CCE09250C">(5)</a></td>
-      <td>The GUID of the pre-configured pay out reason for this <code>PAY_OUT</code> cash entry. The value is <code>null</code> if the cash entry is any type other than <code>PAY_OUT</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e25233B240E1-39A5-4C20-8325-985CCE09250C" className="">(5)</a></td>
+      <td className="">The GUID of the pre-configured pay out reason for this <code className="">PAY_OUT</code> cash entry. The value is <code className="">null</code> if the cash entry is any type other than <code className="">PAY_OUT</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e25533B240E1-39A5-4C20-8325-985CCE09250C">(6)</a></td>
-      <td>The GUID of the cash drawer in which the cash entry was made.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e25533B240E1-39A5-4C20-8325-985CCE09250C" className="">(6)</a></td>
+      <td className="">The GUID of the cash drawer in which the cash entry was made.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e25733B240E1-39A5-4C20-8325-985CCE09250C">(7)</a></td>
-      <td>The GUID of the cash entry that was undone. The value is <code>null</code> if this cash entry does not undo a previous cash entry.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e25733B240E1-39A5-4C20-8325-985CCE09250C" className="">(7)</a></td>
+      <td className="">The GUID of the cash entry that was undone. The value is <code className="">null</code> if this cash entry does not undo a previous cash entry.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e25933B240E1-39A5-4C20-8325-985CCE09250C">(8)</a></td>
-      <td>The GUID of the pre-configured no sale reason for a <code>NO_SALE</code> cash entry. The value is <code>null</code> if the cash entry is any type other than <code>NO_SALE</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e25933B240E1-39A5-4C20-8325-985CCE09250C" className="">(8)</a></td>
+      <td className="">The GUID of the pre-configured no sale reason for a <code className="">NO_SALE</code> cash entry. The value is <code className="">null</code> if the cash entry is any type other than <code className="">NO_SALE</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e26133B240E1-39A5-4C20-8325-985CCE09250C">(9)</a></td>
-      <td>The GUID or external identifier of the restaurant employee who made the cash entry.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e26133B240E1-39A5-4C20-8325-985CCE09250C" className="">(9)</a></td>
+      <td className="">The GUID or external identifier of the restaurant employee who made the cash entry.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e26333B240E1-39A5-4C20-8325-985CCE09250C">(10)</a></td>
-      <td>The cash entry type for this transaction.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e26333B240E1-39A5-4C20-8325-985CCE09250C" className="">(10)</a></td>
+      <td className="">The cash entry type for this transaction.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e26533B240E1-39A5-4C20-8325-985CCE09250C">(11)</a></td>
-      <td>The GUID of the restaurant employee who approved this transaction. The value is <code>null</code> if approval was not needed.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e26533B240E1-39A5-4C20-8325-985CCE09250C" className="">(11)</a></td>
+      <td className="">The GUID of the restaurant employee who approved this transaction. The value is <code className="">null</code> if approval was not needed.</td>
     </tr>
 **Undone Cash Entries**
 

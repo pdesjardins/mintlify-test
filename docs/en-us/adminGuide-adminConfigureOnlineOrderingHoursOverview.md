@@ -22,21 +22,21 @@ The following table describes which online ordering hours configuration to use f
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Online ordering hours</th>
-      <th>Used for</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Online ordering hours</th>
+      <th className="">Used for</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Takeout & Third-party delivery </td>
-      <td><ul><li>Toast Online Ordering</li><li>Toast Delivery Services (TDS)</li><li>Third-party online ordering channels (for example, Grubhub, DoorDash, and Uber Eats)</li></ul></td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Takeout & Third-party delivery </td>
+      <td className=""><ul className=""><li className="">Toast Online Ordering</li><li className="">Toast Delivery Services (TDS)</li><li className="">Third-party online ordering channels (for example, Grubhub, DoorDash, and Uber Eats)</li></ul></td>
     </tr>
-    <tr>
-      <td>First-party delivery </td>
-      <td><ul><li>First-party deliveries</li></ul></td>
+    <tr className="">
+      <td className="">First-party delivery </td>
+      <td className=""><ul className=""><li className="">First-party deliveries</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -157,21 +157,21 @@ From the Online ordering hours section you can choose to allow guests to place o
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Accept orders until</th>
-      <th>Example</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Accept orders until</th>
+      <th className="">Example</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Closing time</td>
-      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 10:00 PM.</li></ul> <br/> A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM.  <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see <a href="https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime">Online Ordering: Advanced Settings</a>.</blockquote> </td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Closing time</td>
+      <td className="">In this example: <ul className=""><li className="">Your restaurant closes at 10:00 PM.</li><li className="">Your quote time is 30 minutes.</li><li className="">Guests can place orders up to 10:00 PM.</li></ul> <br/> A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM.  <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see <a href="https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime" className="">Online Ordering: Advanced Settings</a>.</blockquote> </td>
     </tr>
-    <tr>
-      <td>Closing time minus quote time</td>
-      <td>In this example: <ul><li>Your restaurant closes at 10:00 PM.</li><li>Your quote time is 30 minutes.</li><li>Guests can place orders up to 9:30 PM.</li></ul> <br/> A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM.  <br/> For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</td>
+    <tr className="">
+      <td className="">Closing time minus quote time</td>
+      <td className="">In this example: <ul className=""><li className="">Your restaurant closes at 10:00 PM.</li><li className="">Your quote time is 30 minutes.</li><li className="">Guests can place orders up to 9:30 PM.</li></ul> <br/> A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM.  <br/> For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</td>
     </tr>
   </tbody>
 </table>

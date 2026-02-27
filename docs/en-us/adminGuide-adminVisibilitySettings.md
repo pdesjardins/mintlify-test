@@ -57,49 +57,49 @@ The following table describes the visibility settings in more detail.
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Visibility settings on classic and menu manager pages</th>
-      <th>Visible To column on Advanced Properties page</th>
-      <th>Visibility behavior</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Visibility settings on classic and menu manager pages</th>
+      <th className="">Visible To column on Advanced Properties page</th>
+      <th className="">Visibility behavior</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>POS</td>
-      <td>In-store orders: POS</td>
-      <td>The menu entity is visible on Toast POS devices.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">POS</td>
+      <td className="">In-store orders: POS</td>
+      <td className="">The menu entity is visible on Toast POS devices.</td>
     </tr>
-    <tr>
-      <td>Kiosk, Toast Order & Pay</td>
-      <td>In-store orders: Kiosk and Digital Menus </td>
-      <td>The menu entity is visible on Toast Kiosk devices, on the Toast Mobile Order and Pay app, and on Toast digital menus (previously called Menu & Pay). <br/> This setting requires visibility on Toast POS devices, so if you select this option, the option for POS visibility is also automatically selected. <br/> Modifier groups have an additional requirement that this visibility setting must match the Toast Online Ordering visibility setting. If you enable or disable one of those settings for a modifier group, the other setting will be enabled or disabled to match. This requirement does not exist for menus, menu groups, or menu items.  <blockquote><strong>Note</strong> If your restaurant does not use Toast kiosks, this option is labeled In-store orders: Digital Menus.</blockquote> </td>
+    <tr className="">
+      <td className="">Kiosk, Toast Order & Pay</td>
+      <td className="">In-store orders: Kiosk and Digital Menus </td>
+      <td className="">The menu entity is visible on Toast Kiosk devices, on the Toast Mobile Order and Pay app, and on Toast digital menus (previously called Menu & Pay). <br/> This setting requires visibility on Toast POS devices, so if you select this option, the option for POS visibility is also automatically selected. <br/> Modifier groups have an additional requirement that this visibility setting must match the Toast Online Ordering visibility setting. If you enable or disable one of those settings for a modifier group, the other setting will be enabled or disabled to match. This requirement does not exist for menus, menu groups, or menu items.  <blockquote><strong>Note</strong> If your restaurant does not use Toast kiosks, this option is labeled In-store orders: Digital Menus.</blockquote> </td>
     </tr>
-    <tr>
-      <td>Toast Online Ordering, Toast Takeout (Local by Toast) app </td>
-      <td>Online orders: Toast</td>
-      <td>The menu entity is visible on a restaurant's Toast Online Ordering site and on the Toast Takeout (Local by Toast) app.</td>
+    <tr className="">
+      <td className="">Toast Online Ordering, Toast Takeout (Local by Toast) app </td>
+      <td className="">Online orders: Toast</td>
+      <td className="">The menu entity is visible on a restaurant's Toast Online Ordering site and on the Toast Takeout (Local by Toast) app.</td>
     </tr>
-    <tr>
-      <td>Online ordering partners</td>
-      <td>Online orders: Partners</td>
-      <td>The menu entity is visible to all of the online ordering partners you have allowed to integrate with your Toast restaurant (for example, DoorDash, Uber Eats, or Grubhub). <br/> <em>For menus only, on the classic menu details page</em> : Two blue banners appear, one at the top of the page and a second above the visibility settings. These banners provide links to the menu's details page in the menu manager tool and to the Third party ordering page, respectively. Both of these pages provide additional settings that let you control which specific online ordering partners the menu is visible to. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash. The online ordering partner-specific settings are only available on menus. For more information, see <a href="adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy">Restricting menu visibility to specific online ordering partners</a>. <br/> <em>For menus only, in the menu manager</em> : After you enable the Online ordering partners setting, you see additional settings that let you configure a menu to be visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and DoorDash, but not Grubhub. For more information, see <a href="adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy">Restricting menu visibility to specific online ordering partners</a>.</td>
+    <tr className="">
+      <td className="">Online ordering partners</td>
+      <td className="">Online orders: Partners</td>
+      <td className="">The menu entity is visible to all of the online ordering partners you have allowed to integrate with your Toast restaurant (for example, DoorDash, Uber Eats, or Grubhub). <br/> <em className="">For menus only, on the classic menu details page</em> : Two blue banners appear, one at the top of the page and a second above the visibility settings. These banners provide links to the menu's details page in the menu manager tool and to the Third party ordering page, respectively. Both of these pages provide additional settings that let you control which specific online ordering partners the menu is visible to. For example, you can configure a menu to be visible to Uber Eats and Grubhub but not DoorDash. The online ordering partner-specific settings are only available on menus. For more information, see <a href="adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy" className="">Restricting menu visibility to specific online ordering partners</a>. <br/> <em className="">For menus only, in the menu manager</em> : After you enable the Online ordering partners setting, you see additional settings that let you configure a menu to be visible to specific online ordering partners. For example, you can configure a menu to be visible to Uber Eats and DoorDash, but not Grubhub. For more information, see <a href="adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy" className="">Restricting menu visibility to specific online ordering partners</a>.</td>
     </tr>
-    <tr>
-      <td>Customer invoices, Catering & Events, Catering Online Ordering</td>
-      <td>[Not available]</td>
-      <td>The menu entity is visible when:<ul><li>Creating customer invoices for orders using the Payments &gt; Payment methods &gt; Customer invoices page. For information, see this <a href="https://central.toasttab.com/s/article/How-to-Send-an-Invoice">Toast Central article</a>.</li><li>Creating catering orders using Toast Catering & Events. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events">Toast Central article</a>.</li><li>Configuring the menus and menu groups that guests can see when placing online catering orders. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering">Toast Central article</a>.</li></ul> <br/> Note that this setting is always enabled for all menu entities and cannot be changed.</td>
+    <tr className="">
+      <td className="">Customer invoices, Catering & Events, Catering Online Ordering</td>
+      <td className="">[Not available]</td>
+      <td className="">The menu entity is visible when:<ul className=""><li className="">Creating customer invoices for orders using the Payments &gt; Payment methods &gt; Customer invoices page. For information, see this <a href="https://central.toasttab.com/s/article/How-to-Send-an-Invoice" className="">Toast Central article</a>.</li><li className="">Creating catering orders using Toast Catering & Events. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events" className="">Toast Central article</a>.</li><li className="">Configuring the menus and menu groups that guests can see when placing online catering orders. For information, see this <a href="https://central.toasttab.com/s/article/Getting-Started-with-Catering-Online-Ordering" className="">Toast Central article</a>.</li></ul> <br/> Note that this setting is always enabled for all menu entities and cannot be changed.</td>
     </tr>
-    <tr>
-      <td>Digital menu board</td>
-      <td>[Not available]</td>
-      <td>Available for menus only. The menu is visible on a Delphi digital menu board. Defaults to Off. <br/> This setting only appears for restaurants that have a Delphi digital menu board. For more information, see <a href="adminGuide-platformCreatingAMenuForADigitalMenuBoard">Creating a menu for a Delphi digital menu board</a>.</td>
+    <tr className="">
+      <td className="">Digital menu board</td>
+      <td className="">[Not available]</td>
+      <td className="">Available for menus only. The menu is visible on a Delphi digital menu board. Defaults to Off. <br/> This setting only appears for restaurants that have a Delphi digital menu board. For more information, see <a href="adminGuide-platformCreatingAMenuForADigitalMenuBoard" className="">Creating a menu for a Delphi digital menu board</a>.</td>
     </tr>
-    <tr>
-      <td>Websites View-Only</td>
-      <td>[Not available]</td>
-      <td>Available for menus only. A read-only version of the menu is visible on your Toast website. Defaults to Off. <br/> This setting only appears for restaurants that have Digital Storefront Pro.</td>
+    <tr className="">
+      <td className="">Websites View-Only</td>
+      <td className="">[Not available]</td>
+      <td className="">Available for menus only. A read-only version of the menu is visible on your Toast website. Defaults to Off. <br/> This setting only appears for restaurants that have Digital Storefront Pro.</td>
     </tr>
   </tbody>
 </table>

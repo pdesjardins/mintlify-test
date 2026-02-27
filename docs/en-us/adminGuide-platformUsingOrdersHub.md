@@ -173,34 +173,34 @@ The scheduled firing time displayed is dynamic, meaning it changes as the order 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Scheduled firing time</th>
-      <th>Text color</th>
-      <th>Example text description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Scheduled firing time</th>
+      <th className="">Text color</th>
+      <th className="">Example text description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Scheduled to fire in more than one hour </td>
-      <td>Gray</td>
-      <td>Firing 4/6, 4:38 PM </td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Scheduled to fire in more than one hour </td>
+      <td className="">Gray</td>
+      <td className="">Firing 4/6, 4:38 PM </td>
     </tr>
-    <tr>
-      <td>Scheduled to fire in one hour or less </td>
-      <td>Green </td>
-      <td>Firing in 58 min </td>
+    <tr className="">
+      <td className="">Scheduled to fire in one hour or less </td>
+      <td className="">Green </td>
+      <td className="">Firing in 58 min </td>
     </tr>
-    <tr>
-      <td>Scheduled to fire in less than one minute </td>
-      <td>Green</td>
-      <td>Firing any second </td>
+    <tr className="">
+      <td className="">Scheduled to fire in less than one minute </td>
+      <td className="">Green</td>
+      <td className="">Firing any second </td>
     </tr>
-    <tr>
-      <td>Scheduled fire time has passed </td>
-      <td>Red</td>
-      <td>Firing in - 4 minutes </td>
+    <tr className="">
+      <td className="">Scheduled fire time has passed </td>
+      <td className="">Red</td>
+      <td className="">Firing in - 4 minutes </td>
     </tr>
   </tbody>
 </table>

@@ -47,17 +47,17 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
 
-    <tr>
-      <td><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD">(1)</a></td>
-      <td>Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></td>
+      <td className="">Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD">(2)</a></td>
-      <td>Specify the data type of the message body in the Content-Type header field. The value must be <code>application/json</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></td>
+      <td className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD">(3)</a></td>
-      <td>Include information about the new employee in the message body of the <code>POST</code> request. This example <strong>curl</strong>  command sends message body data from the contents of a file.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></td>
+      <td className="">Include information about the new employee in the message body of the <code className="">POST</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of a file.</td>
     </tr>
   
 ## Example shift details for the message body of the request to add a shift
@@ -85,25 +85,25 @@ The following example shows the message body data that provides information abou
 
 
 
-    <tr>
-      <td><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD">(1)</a></td>
-      <td>Specify the GUID of the employee who will work the shift.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></td>
+      <td className="">Specify the GUID of the employee who will work the shift.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD">(2)</a></td>
-      <td>Specify the data type of the Toast platform input object. The value must be <code>Shift</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></td>
+      <td className="">Specify the data type of the Toast platform input object. The value must be <code className="">Shift</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD">(3)</a></td>
-      <td>Specify the date and time that the shift begins.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></td>
+      <td className="">Specify the date and time that the shift begins.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD">(4)</a></td>
-      <td>Specify the job for the shift in the <code>jobReference</code> value.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(4)</a></td>
+      <td className="">Specify the job for the shift in the <code className="">jobReference</code> value.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD">(5)</a></td>
-      <td>Specify the date and time that the shift ends.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(5)</a></td>
+      <td className="">Specify the date and time that the shift ends.</td>
     </tr>
   
 ## Example response
@@ -139,8 +139,8 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 
 
-    <tr>
-      <td><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD">(1)</a></td>
-      <td>The <code>guid</code> value contains the GUID that the Toast platform assigns to the shift.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></td>
+      <td className="">The <code className="">guid</code> value contains the GUID that the Toast platform assigns to the shift.</td>
     </tr>
   

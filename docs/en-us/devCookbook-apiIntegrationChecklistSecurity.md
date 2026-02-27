@@ -71,40 +71,40 @@ The following table provides suggested information that you can use when display
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Report type</th>
-      <th>Object</th>
-      <th>Values</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Report type</th>
+      <th className="">Object</th>
+      <th className="">Values</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Order data</td>
-      <td>Orders</td>
-      <td>Consider displaying the following reporting information for orders:<ul><li>Dining option name</li><li>Dining option behavior</li><li>Server name</li><li>Created and modified device</li><li>Order source</li><li>Opened date</li><li>Modified date</li><li>Paid date</li><li>Closed date</li><li>Voided status</li></ul></td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Order data</td>
+      <td className="">Orders</td>
+      <td className="">Consider displaying the following reporting information for orders:<ul className=""><li className="">Dining option name</li><li className="">Dining option behavior</li><li className="">Server name</li><li className="">Created and modified device</li><li className="">Order source</li><li className="">Opened date</li><li className="">Modified date</li><li className="">Paid date</li><li className="">Closed date</li><li className="">Voided status</li></ul></td>
     </tr>
-    <tr>
-      <td>Checks</td>
-      <td>Consider displaying the following reporting information for checks:<ul><li>Display number</li><li>Tab name</li><li>Total amount</li><li>Tax amount</li><li>Refunded amount</li><li>Applied discount names</li><li>Applied discount amounts</li><li>Applied service charge names</li><li>Applied service charge amounts</li></ul></td>
+    <tr className="">
+      <td className="">Checks</td>
+      <td className="">Consider displaying the following reporting information for checks:<ul className=""><li className="">Display number</li><li className="">Tab name</li><li className="">Total amount</li><li className="">Tax amount</li><li className="">Refunded amount</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Applied service charge names</li><li className="">Applied service charge amounts</li></ul></td>
     </tr>
-    <tr>
-      <td>Menu item selections</td>
-      <td>Consider displaying the following reporting information for menu item selections:<ul><li>Menu item name - Use the <code>displayName</code> value within the <code>Selection</code> object</li><li>Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li>Price</li><li>Applied tax rate names</li><li>Applied tax values</li><li>Applied discount names</li><li>Applied discount amounts</li></ul></td>
+    <tr className="">
+      <td className="">Menu item selections</td>
+      <td className="">Consider displaying the following reporting information for menu item selections:<ul className=""><li className="">Menu item name - Use the <code className="">displayName</code> value within the <code className="">Selection</code> object</li><li className="">Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li className="">Price</li><li className="">Applied tax rate names</li><li className="">Applied tax values</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li></ul></td>
     </tr>
-    <tr>
-      <td>Payments</td>
-      <td>Consider displaying the following reporting information for payments:<ul><li>Amount</li><li>Tip amount</li><li>Refund information</li><li>Type</li></ul></td>
+    <tr className="">
+      <td className="">Payments</td>
+      <td className="">Consider displaying the following reporting information for payments:<ul className=""><li className="">Amount</li><li className="">Tip amount</li><li className="">Refund information</li><li className="">Type</li></ul></td>
     </tr>
-    <tr>
-      <td>Cash transactions</td>
-      <td>Cash entries</td>
-      <td>Consider displaying the following reporting information for cash entries:<ul><li>Cash entry type</li><li>Cash entry date</li><li>Amount</li><li>Reason</li><li>Cash drawer name</li><li>Payout reason name</li><li>No sale reason name</li><li>Employee 1 name</li><li>Employee 2 name</li><li>Reversed cash transaction</li></ul></td>
+    <tr className="">
+      <td className="">Cash transactions</td>
+      <td className="">Cash entries</td>
+      <td className="">Consider displaying the following reporting information for cash entries:<ul className=""><li className="">Cash entry type</li><li className="">Cash entry date</li><li className="">Amount</li><li className="">Reason</li><li className="">Cash drawer name</li><li className="">Payout reason name</li><li className="">No sale reason name</li><li className="">Employee 1 name</li><li className="">Employee 2 name</li><li className="">Reversed cash transaction</li></ul></td>
     </tr>
-    <tr>
-      <td>Deposits</td>
-      <td>Consider displaying the following reporting information for cash deposits:<ul><li>Cash entry date</li><li>Amount</li><li>Employee name</li><li>Reversed cash transaction</li></ul></td>
+    <tr className="">
+      <td className="">Deposits</td>
+      <td className="">Consider displaying the following reporting information for cash deposits:<ul className=""><li className="">Cash entry date</li><li className="">Amount</li><li className="">Employee name</li><li className="">Reversed cash transaction</li></ul></td>
     </tr>
   </tbody>
 </table>
@@ -164,29 +164,29 @@ To reduce the amount of data that you receive when you poll the configuration AP
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Information type</th>
-      <th>Configuration</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Information type</th>
+      <th className="">Configuration</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Order configuration</td>
-      <td>These pieces of configuration are often associated with orders. They describe how the order was placed and how its price was calculated.<ul><li>Alternate payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/">More information</a></li><li>Dining options from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/">More information</a></li><li>Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/">More information</a></li><li>Service charges from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/">More information</a></li><li>Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/">More information</a></li><li>Void reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/">More information</a></li></ul></td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Order configuration</td>
+      <td className="">These pieces of configuration are often associated with orders. They describe how the order was placed and how its price was calculated.<ul className=""><li className="">Alternate payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/" className="">More information</a></li><li className="">Dining options from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/" className="">More information</a></li><li className="">Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/" className="">More information</a></li><li className="">Service charges from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/serviceChargesGet/" className="">More information</a></li><li className="">Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/" className="">More information</a></li><li className="">Void reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/" className="">More information</a></li></ul></td>
     </tr>
-    <tr>
-      <td>Menu information</td>
-      <td>The menus API returns menu item names and other menu-related information you may want to display in your platform.<ul><li>Menu information, such as menu group names, menu item names, and item tags from the menus API. <a href="https://doc.toasttab.com/doc/devguide/apiGettingMenuInformationFromTheMenusAPI.html">More information</a></li></ul></td>
+    <tr className="">
+      <td className="">Menu information</td>
+      <td className="">The menus API returns menu item names and other menu-related information you may want to display in your platform.<ul className=""><li className="">Menu information, such as menu group names, menu item names, and item tags from the menus API. <a href="https://doc.toasttab.com/doc/devguide/apiGettingMenuInformationFromTheMenusAPI.html" className="">More information</a></li></ul></td>
     </tr>
-    <tr>
-      <td>Cash configuration</td>
-      <td>Cash configuration allows you to display metadata about the cash transactions at a restaurant. For more information about working with cash entries, see <a href="apiDevGuide-apiWorkingWithCashEntriesAndDeposits">Cash management overview</a>. <ul><li>Cash drawers from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/">More information</a></li><li>No sale reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/">More information</a></li><li>Payout reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/">More information</a></li><li>Void reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/">More information</a></li></ul></td>
+    <tr className="">
+      <td className="">Cash configuration</td>
+      <td className="">Cash configuration allows you to display metadata about the cash transactions at a restaurant. For more information about working with cash entries, see <a href="apiDevGuide-apiWorkingWithCashEntriesAndDeposits" className="">Cash management overview</a>. <ul className=""><li className="">Cash drawers from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/cashDrawersGet/" className="">More information</a></li><li className="">No sale reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/noSaleReasonsGet/" className="">More information</a></li><li className="">Payout reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/payoutReasonsGet/" className="">More information</a></li><li className="">Void reasons from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/voidReasonsGet/" className="">More information</a></li></ul></td>
     </tr>
-    <tr>
-      <td>Labor configuration</td>
-      <td>This labor information allows you to acquire information about restaurant employees and the jobs they do. <ul><li>Employees from the labor API. <a href="https://doc.toasttab.com/doc/devguide/api_get_all_employees.html">More information</a></li><li>Jobs from the labor API. <a href="https://doc.toasttab.com/doc/devguide/https://doc.toasttab.com/openapi/labor/operation/jobsGet/">More information</a></li></ul></td>
+    <tr className="">
+      <td className="">Labor configuration</td>
+      <td className="">This labor information allows you to acquire information about restaurant employees and the jobs they do. <ul className=""><li className="">Employees from the labor API. <a href="https://doc.toasttab.com/doc/devguide/api_get_all_employees.html" className="">More information</a></li><li className="">Jobs from the labor API. <a href="https://doc.toasttab.com/doc/devguide/https://doc.toasttab.com/openapi/labor/operation/jobsGet/" className="">More information</a></li></ul></td>
     </tr>
   </tbody>
 </table>

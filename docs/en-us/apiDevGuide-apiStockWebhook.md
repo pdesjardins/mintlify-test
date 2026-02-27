@@ -61,37 +61,37 @@ Attributes in the `in_stock` event's payload include:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>itemGuid</code></td>
-      <td>A unique identifier for the menu item, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">itemGuid</code></td>
+      <td className="">A unique identifier for the menu item, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>multiLocationId</code></td>
-      <td>A consistent identifier that applies to all versions of a menu item that is shared across locations. <br/> Requests sent to Toast APIs can use a combination of the <code>multiLocationId</code> and <code>restaurantGuid</code> values, instead of the <code>itemGuid</code> value, to identify a menu item. Integration clients can extract the <code>multiLocationId</code> and <code>restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a> for more information. <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">multiLocationId</code></td>
+      <td className="">A consistent identifier that applies to all versions of a menu item that is shared across locations. <br/> Requests sent to Toast APIs can use a combination of the <code className="">multiLocationId</code> and <code className="">restaurantGuid</code> values, instead of the <code className="">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="">multiLocationId</code> and <code className="">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique identifier for the restaurant, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique identifier for the restaurant, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>quantity</code></td>
-      <td>Indicates the quantity of this menu item that is available. This value is included if the <code>status</code> attribute is set to <code>QUANTITY</code> and omitted if the status attribute is set to <code>IN_STOCK</code>. <br/> data type: number <br/> format: double</td>
+    <tr className="">
+      <td className=""><code className="">quantity</code></td>
+      <td className="">Indicates the quantity of this menu item that is available. This value is included if the <code className="">status</code> attribute is set to <code className="">QUANTITY</code> and omitted if the status attribute is set to <code className="">IN_STOCK</code>. <br/> data type: number <br/> format: double</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>IN_STOCK</code> or <code>QUANTITY</code> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">IN_STOCK</code> or <code className="">QUANTITY</code> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>versionId</code></td>
-      <td>Reserved for future use.</td>
+    <tr className="">
+      <td className=""><code className="">versionId</code></td>
+      <td className="">Reserved for future use.</td>
     </tr>
   </tbody>
 </table>
@@ -146,33 +146,33 @@ Attributes in the `out_of_stock` event's payload include:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>itemGuid</code></td>
-      <td>A unique identifier for the menu item, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">itemGuid</code></td>
+      <td className="">A unique identifier for the menu item, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>multiLocationId</code></td>
-      <td>A consistent identifier that applies to all versions of a menu item that is shared across locations. <br/> Requests sent to Toast APIs can use a combination of the <code>multiLocationId</code> and <code>restaurantGuid</code> values, instead of the <code>itemGuid</code> value, to identify a menu item. Integration clients can extract the <code>multiLocationId</code> and <code>restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a> for more information. <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">multiLocationId</code></td>
+      <td className="">A consistent identifier that applies to all versions of a menu item that is shared across locations. <br/> Requests sent to Toast APIs can use a combination of the <code className="">multiLocationId</code> and <code className="">restaurantGuid</code> values, instead of the <code className="">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="">multiLocationId</code> and <code className="">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique identifier for the restaurant, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique identifier for the restaurant, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>OUT_OF_STOCK</code> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">OUT_OF_STOCK</code> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>versionId</code></td>
-      <td>Reserved for future use.</td>
+    <tr className="">
+      <td className=""><code className="">versionId</code></td>
+      <td className="">Reserved for future use.</td>
     </tr>
   </tbody>
 </table>
@@ -217,37 +217,37 @@ Attributes in the `low_quantity` event's payload include:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>itemGuid</code></td>
-      <td>A unique identifier for the menu item, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">itemGuid</code></td>
+      <td className="">A unique identifier for the menu item, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>multiLocationId</code></td>
-      <td>A consistent identifier that applies to all versions of a menu item that is shared across locations. <br/> Requests sent to Toast APIs can use a combination of the <code>multiLocationId</code> and <code>restaurantGuid</code> values, instead of the <code>itemGuid</code> value, to identify a menu item. Integration clients can extract the <code>multiLocationId</code> and <code>restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers">Toast identifiers</a> for more information. <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">multiLocationId</code></td>
+      <td className="">A consistent identifier that applies to all versions of a menu item that is shared across locations. <br/> Requests sent to Toast APIs can use a combination of the <code className="">multiLocationId</code> and <code className="">restaurantGuid</code> values, instead of the <code className="">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="">multiLocationId</code> and <code className="">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>quantity</code></td>
-      <td>Indicates the quantity of this menu item that is available. <br/> data type: number <br/> format: double</td>
+    <tr className="">
+      <td className=""><code className="">quantity</code></td>
+      <td className="">Indicates the quantity of this menu item that is available. <br/> data type: number <br/> format: double</td>
     </tr>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique identifier for the restaurant, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique identifier for the restaurant, assigned by the Toast platform. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>QUANTITY</code> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">QUANTITY</code> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>versionId</code></td>
-      <td>Reserved for future use.</td>
+    <tr className="">
+      <td className=""><code className="">versionId</code></td>
+      <td className="">Reserved for future use.</td>
     </tr>
   </tbody>
 </table>

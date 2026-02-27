@@ -62,21 +62,21 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 
 
 
-    <tr>
-      <td><a href="#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
-      <td>Send a <code>POST</code> request to the <code>/era/v1/check/day</code> endpoint of the analytics API.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></td>
+      <td className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/check/day</code> endpoint of the analytics API.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(2)</a></td>
-      <td>Include an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a></td>
+      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(3)</a></td>
-      <td>Set the data type of the message body to <code>application/json</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a></td>
+      <td className="">Set the data type of the message body to <code className="">application/json</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(4)</a></td>
-      <td>Include details about the requested check reporting data in the message body. The following example is the message body for this <strong>curl</strong>  command example.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a></td>
+      <td className="">Include details about the requested check reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</td>
     </tr>
 ## Message body for check reporting data
 
@@ -97,21 +97,21 @@ The following example shows the message body for creating a check reporting data
 
 
 
-    <tr>
-      <td><a href="#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
-      <td>The start date of the time range for the check reporting data, in <code>YYYYMMDD</code> format.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></td>
+      <td className="">The start date of the time range for the check reporting data, in <code className="">YYYYMMDD</code> format.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(2)</a></td>
-      <td>The end date of the time range for the check reporting data, in <code>YYYYMMDD</code> format. This is the same value as the start date.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a></td>
+      <td className="">The end date of the time range for the check reporting data, in <code className="">YYYYMMDD</code> format. This is the same value as the start date.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(3)</a></td>
-      <td>The list of restaurant GUIDs from the management group to include in the check reporting data. Restaurant GUIDs not listed are excluded.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a></td>
+      <td className="">The list of restaurant GUIDs from the management group to include in the check reporting data. Restaurant GUIDs not listed are excluded.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(4)</a></td>
-      <td>The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the <code>restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a></td>
+      <td className="">The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the <code className="">restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
     </tr>
 ## Response to request for check reporting data
 
@@ -124,9 +124,9 @@ The following example shows the response from the `/era/v1/check/day` endpoint.
 
 
 
-    <tr>
-      <td><a href="#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5">(1)</a></td>
-      <td>The GUID for the check reporting data request, also called the <code>reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess">Understanding the analytics API process</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></td>
+      <td className="">The GUID for the check reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
     </tr>
 For an example that shows how to retrieve the check reporting data, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).
 

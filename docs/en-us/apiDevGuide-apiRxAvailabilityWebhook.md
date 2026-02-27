@@ -136,29 +136,29 @@ The restaurant is online and can accept orders. Attributes in the `availability_
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>ONLINE</code> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">ONLINE</code> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reasonKey</code></td>
-      <td><code>AVAILABILITY_ONLINE </code> <br/> The machine-readable reason why the restaurant is available to accept online orders.  <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">reasonKey</code></td>
+      <td className=""><code className="">AVAILABILITY_ONLINE </code> <br/> The machine-readable reason why the restaurant is available to accept online orders.  <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reason</code></td>
-      <td><code>Restaurant is approving online orders</code> <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
+    <tr className="">
+      <td className=""><code className="">reason</code></td>
+      <td className=""><code className="">Restaurant is approving online orders</code> <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -189,29 +189,29 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>OFFLINE</code> <br/> data type: string </td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">OFFLINE</code> <br/> data type: string </td>
     </tr>
-    <tr>
-      <td><code>reasonKey</code></td>
-      <td><code>AVAILABILITY_OFFLINE</code> <br/> The machine-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">reasonKey</code></td>
+      <td className=""><code className="">AVAILABILITY_OFFLINE</code> <br/> The machine-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reason</code></td>
-      <td><code>Restaurant cannot accept online orders</code> <br/> The human-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string </td>
+    <tr className="">
+      <td className=""><code className="">reason</code></td>
+      <td className=""><code className="">Restaurant cannot accept online orders</code> <br/> The human-readable reason why the restaurant is unavailable to accept online orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -267,29 +267,29 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>ONLINE</code> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">ONLINE</code> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reasonKey</code></td>
-      <td><code>TOGGLE_ENABLED</code> <br/> The machine-readable reason why the restaurant is available to accept online orders. <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">reasonKey</code></td>
+      <td className=""><code className="">TOGGLE_ENABLED</code> <br/> The machine-readable reason why the restaurant is available to accept online orders. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reason</code></td>
-      <td><code>User enabled integration</code> <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
+    <tr className="">
+      <td className=""><code className="">reason</code></td>
+      <td className=""><code className="">User enabled integration</code> <br/> The human-readable reason why the restaurant is available to accept orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -320,29 +320,29 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
     </tr>
-    <tr>
-      <td><code>status</code></td>
-      <td><code>OFFLINE</code> <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">status</code></td>
+      <td className=""><code className="">OFFLINE</code> <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reasonKey</code></td>
-      <td><code>TOGGLE_DISABLED</code> <br/> The machine-readable reason why the restaurant is unavailable to accept online orders. <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">reasonKey</code></td>
+      <td className=""><code className="">TOGGLE_DISABLED</code> <br/> The machine-readable reason why the restaurant is unavailable to accept online orders. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>reason</code></td>
-      <td><code>User disabled integration</code> <br/> The human-readable reason why the restaurant is unavailable to accept orders.  <br/> data type: string </td>
+    <tr className="">
+      <td className=""><code className="">reason</code></td>
+      <td className=""><code className="">User disabled integration</code> <br/> The human-readable reason why the restaurant is unavailable to accept orders.  <br/> data type: string </td>
     </tr>
   </tbody>
 </table>
@@ -373,34 +373,34 @@ For a restaurant to be available to accept online orders, the online ordering ch
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Online ordering channel toggle availability</th>
-      <th>Autofire device status</th>
-      <th>Restaurant availability status</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Online ordering channel toggle availability</th>
+      <th className="">Autofire device status</th>
+      <th className="">Restaurant availability status</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>toggle_availability_online </code> <br/> The online ordering channel toggle is on. </td>
-      <td><code>availability_online </code> <br/> Restaurant health is online.</td>
-      <td>The restaurant is online and available to accept online orders. </td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">toggle_availability_online </code> <br/> The online ordering channel toggle is on. </td>
+      <td className=""><code className="">availability_online </code> <br/> Restaurant health is online.</td>
+      <td className="">The restaurant is online and available to accept online orders. </td>
     </tr>
-    <tr>
-      <td><code>toggle_availability_online </code> <br/> The online ordering channel toggle is on. </td>
-      <td><code>availability_offline</code> <br/> Restaurant health is offline.</td>
-      <td>The restaurant is offline and not available to accept online orders. </td>
+    <tr className="">
+      <td className=""><code className="">toggle_availability_online </code> <br/> The online ordering channel toggle is on. </td>
+      <td className=""><code className="">availability_offline</code> <br/> Restaurant health is offline.</td>
+      <td className="">The restaurant is offline and not available to accept online orders. </td>
     </tr>
-    <tr>
-      <td><code>toggle_availability_offline </code> <br/> The online ordering channel toggle is off. </td>
-      <td><code>availability_online</code> <br/> Restaurant health is online.</td>
-      <td>The restaurant is offline and not available to accept online orders. </td>
+    <tr className="">
+      <td className=""><code className="">toggle_availability_offline </code> <br/> The online ordering channel toggle is off. </td>
+      <td className=""><code className="">availability_online</code> <br/> Restaurant health is online.</td>
+      <td className="">The restaurant is offline and not available to accept online orders. </td>
     </tr>
-    <tr>
-      <td><code>toggle_availability_offline </code> <br/> The online ordering channel toggle is off. </td>
-      <td><code>availability_offline</code> <br/> Restaurant health is offline.</td>
-      <td>The restaurant is offline and not available to accept online orders. </td>
+    <tr className="">
+      <td className=""><code className="">toggle_availability_offline </code> <br/> The online ordering channel toggle is off. </td>
+      <td className=""><code className="">availability_offline</code> <br/> Restaurant health is offline.</td>
+      <td className="">The restaurant is offline and not available to accept online orders. </td>
     </tr>
   </tbody>
 </table>

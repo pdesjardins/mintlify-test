@@ -46,29 +46,29 @@ You should also be aware that the orders API and the menus API use slightly diff
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value name in orders API</th>
-      <th>Value name in menus API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value name in orders API</th>
+      <th className="">Value name in menus API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>itemGroup</td>
-      <td>menuGroups</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">itemGroup</td>
+      <td className="">menuGroups</td>
     </tr>
-    <tr>
-      <td>item</td>
-      <td>menuItem</td>
+    <tr className="">
+      <td className="">item</td>
+      <td className="">menuItem</td>
     </tr>
-    <tr>
-      <td>optionGroup</td>
-      <td>modifierGroup</td>
+    <tr className="">
+      <td className="">optionGroup</td>
+      <td className="">modifierGroup</td>
     </tr>
-    <tr>
-      <td>item</td>
-      <td>modifierOption</td>
+    <tr className="">
+      <td className="">item</td>
+      <td className="">modifierOption</td>
     </tr>
   </tbody>
 </table>

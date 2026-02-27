@@ -25,159 +25,159 @@ The following table shows the color pairing names and the color hex codes for li
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Color pairing name</th>
-      <th>Light hex code</th>
-      <th>Dark hex code</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Color pairing name</th>
+      <th className="">Light hex code</th>
+      <th className="">Dark hex code</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>WHITE</td>
-      <td>#f7f7f7</td>
-      <td>#1a1c23</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">WHITE</td>
+      <td className="">#f7f7f7</td>
+      <td className="">#1a1c23</td>
     </tr>
-    <tr>
-      <td>TERRACOTTA_1</td>
-      <td>#ffe6e9</td>
-      <td>#7e635d</td>
+    <tr className="">
+      <td className="">TERRACOTTA_1</td>
+      <td className="">#ffe6e9</td>
+      <td className="">#7e635d</td>
     </tr>
-    <tr>
-      <td>TERRACOTTA_2</td>
-      <td>#efa49f</td>
-      <td>#74504D</td>
+    <tr className="">
+      <td className="">TERRACOTTA_2</td>
+      <td className="">#efa49f</td>
+      <td className="">#74504D</td>
     </tr>
-    <tr>
-      <td>TERRACOTTA_3</td>
-      <td>#f07166</td>
-      <td>#722e25</td>
+    <tr className="">
+      <td className="">TERRACOTTA_3</td>
+      <td className="">#f07166</td>
+      <td className="">#722e25</td>
     </tr>
-    <tr>
-      <td>TERRACOTTA_4</td>
-      <td>#e45a4e</td>
-      <td>#561408</td>
+    <tr className="">
+      <td className="">TERRACOTTA_4</td>
+      <td className="">#e45a4e</td>
+      <td className="">#561408</td>
     </tr>
-    <tr>
-      <td>ORANGE_1</td>
-      <td>#fbd9b6</td>
-      <td>#8f5f3d</td>
+    <tr className="">
+      <td className="">ORANGE_1</td>
+      <td className="">#fbd9b6</td>
+      <td className="">#8f5f3d</td>
     </tr>
-    <tr>
-      <td>ORANGE_2</td>
-      <td>#f7be6e</td>
-      <td>#7e4116</td>
+    <tr className="">
+      <td className="">ORANGE_2</td>
+      <td className="">#f7be6e</td>
+      <td className="">#7e4116</td>
     </tr>
-    <tr>
-      <td>ORANGE_3</td>
-      <td>#f98c1f</td>
-      <td>#803500</td>
+    <tr className="">
+      <td className="">ORANGE_3</td>
+      <td className="">#f98c1f</td>
+      <td className="">#803500</td>
     </tr>
-    <tr>
-      <td>ORANGE_4</td>
-      <td>#e56f1a</td>
-      <td>#682d03</td>
+    <tr className="">
+      <td className="">ORANGE_4</td>
+      <td className="">#e56f1a</td>
+      <td className="">#682d03</td>
     </tr>
-    <tr>
-      <td>YELLOW_1</td>
-      <td>#fbf5b6</td>
-      <td>#7e6b44</td>
+    <tr className="">
+      <td className="">YELLOW_1</td>
+      <td className="">#fbf5b6</td>
+      <td className="">#7e6b44</td>
     </tr>
-    <tr>
-      <td>YELLOW_2</td>
-      <td>#fed850</td>
-      <td>#7b5f27</td>
+    <tr className="">
+      <td className="">YELLOW_2</td>
+      <td className="">#fed850</td>
+      <td className="">#7b5f27</td>
     </tr>
-    <tr>
-      <td>YELLOW_3</td>
-      <td>#e9b10c</td>
-      <td>#7c5000</td>
+    <tr className="">
+      <td className="">YELLOW_3</td>
+      <td className="">#e9b10c</td>
+      <td className="">#7c5000</td>
     </tr>
-    <tr>
-      <td>YELLOW_4</td>
-      <td>#c78605</td>
-      <td>#633d09</td>
+    <tr className="">
+      <td className="">YELLOW_4</td>
+      <td className="">#c78605</td>
+      <td className="">#633d09</td>
     </tr>
-    <tr>
-      <td>GRASS_1</td>
-      <td>#e8f7d4</td>
-      <td>#657552</td>
+    <tr className="">
+      <td className="">GRASS_1</td>
+      <td className="">#e8f7d4</td>
+      <td className="">#657552</td>
     </tr>
-    <tr>
-      <td>GRASS_2</td>
-      <td>#afe26c</td>
-      <td>#556e34</td>
+    <tr className="">
+      <td className="">GRASS_2</td>
+      <td className="">#afe26c</td>
+      <td className="">#556e34</td>
     </tr>
-    <tr>
-      <td>GRASS_3</td>
-      <td>#71b314</td>
-      <td>#37570a</td>
+    <tr className="">
+      <td className="">GRASS_3</td>
+      <td className="">#71b314</td>
+      <td className="">#37570a</td>
     </tr>
-    <tr>
-      <td>GRASS_4</td>
-      <td>#32a206</td>
-      <td>#113a00</td>
+    <tr className="">
+      <td className="">GRASS_4</td>
+      <td className="">#32a206</td>
+      <td className="">#113a00</td>
     </tr>
-    <tr>
-      <td>SKY_1</td>
-      <td>#e3f0fb</td>
-      <td>#637486</td>
+    <tr className="">
+      <td className="">SKY_1</td>
+      <td className="">#e3f0fb</td>
+      <td className="">#637486</td>
     </tr>
-    <tr>
-      <td>SKY_2</td>
-      <td>#9fc5f0</td>
-      <td>#4d6074</td>
+    <tr className="">
+      <td className="">SKY_2</td>
+      <td className="">#9fc5f0</td>
+      <td className="">#4d6074</td>
     </tr>
-    <tr>
-      <td>SKY_3</td>
-      <td>#77a5e4</td>
-      <td>#2a456b</td>
+    <tr className="">
+      <td className="">SKY_3</td>
+      <td className="">#77a5e4</td>
+      <td className="">#2a456b</td>
     </tr>
-    <tr>
-      <td>SKY_4</td>
-      <td>#558edd</td>
-      <td>#213554</td>
+    <tr className="">
+      <td className="">SKY_4</td>
+      <td className="">#558edd</td>
+      <td className="">#213554</td>
     </tr>
-    <tr>
-      <td>LAVENDER_1</td>
-      <td>#f1e3fd</td>
-      <td>#78668a</td>
+    <tr className="">
+      <td className="">LAVENDER_1</td>
+      <td className="">#f1e3fd</td>
+      <td className="">#78668a</td>
     </tr>
-    <tr>
-      <td>LAVENDER_2</td>
-      <td>#dab2f7</td>
-      <td>#5e4776</td>
+    <tr className="">
+      <td className="">LAVENDER_2</td>
+      <td className="">#dab2f7</td>
+      <td className="">#5e4776</td>
     </tr>
-    <tr>
-      <td>LAVENDER_3</td>
-      <td>#b26ee2</td>
-      <td>#402960</td>
+    <tr className="">
+      <td className="">LAVENDER_3</td>
+      <td className="">#b26ee2</td>
+      <td className="">#402960</td>
     </tr>
-    <tr>
-      <td>LAVENDER_4</td>
-      <td>#a270db</td>
-      <td>#25174f</td>
+    <tr className="">
+      <td className="">LAVENDER_4</td>
+      <td className="">#a270db</td>
+      <td className="">#25174f</td>
     </tr>
-    <tr>
-      <td>GRAY_1</td>
-      <td>#d0d0d0</td>
-      <td>#6c6c6c</td>
+    <tr className="">
+      <td className="">GRAY_1</td>
+      <td className="">#d0d0d0</td>
+      <td className="">#6c6c6c</td>
     </tr>
-    <tr>
-      <td>GRAY_2</td>
-      <td>#c3c3c3</td>
-      <td>#5f5f5f</td>
+    <tr className="">
+      <td className="">GRAY_2</td>
+      <td className="">#c3c3c3</td>
+      <td className="">#5f5f5f</td>
     </tr>
-    <tr>
-      <td>GRAY_3</td>
-      <td>#b1b1b1</td>
-      <td>#474747</td>
+    <tr className="">
+      <td className="">GRAY_3</td>
+      <td className="">#b1b1b1</td>
+      <td className="">#474747</td>
     </tr>
-    <tr>
-      <td>GRAY_4</td>
-      <td>#989898</td>
-      <td>#404040</td>
+    <tr className="">
+      <td className="">GRAY_4</td>
+      <td className="">#989898</td>
+      <td className="">#404040</td>
     </tr>
   </tbody>
 </table>

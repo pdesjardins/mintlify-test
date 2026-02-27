@@ -38,28 +38,28 @@ There are three levels of access:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Permission</th>
-      <th>Ownership</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Permission</th>
+      <th className="">Ownership</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>8.4 Manage Integrations permission</td>
-      <td>You created the credentials.</td>
-      <td>You did not create the credentials.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">8.4 Manage Integrations permission</td>
+      <td className="">You created the credentials.</td>
+      <td className="">You did not create the credentials.</td>
     </tr>
-    <tr>
-      <td>You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
-      <td>Full access  <br/> Allows for editing and reading of credentials.</td>
-      <td>Full access <br/> Allows for editing and reading of credentials.</td>
+    <tr className="">
+      <td className="">You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
+      <td className="">Full access  <br/> Allows for editing and reading of credentials.</td>
+      <td className="">Full access <br/> Allows for editing and reading of credentials.</td>
     </tr>
-    <tr>
-      <td>You do <em>not</em>  have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
-      <td>Read-only <br/> Allows for reading of credentials.</td>
-      <td>Locked <br/> Does not allow for editing or reading of credentials.</td>
+    <tr className="">
+      <td className="">You do <em className="">not</em>  have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
+      <td className="">Read-only <br/> Allows for reading of credentials.</td>
+      <td className="">Locked <br/> Does not allow for editing or reading of credentials.</td>
     </tr>
   </tbody>
 </table>

@@ -59,34 +59,34 @@ The menus API returns metadata about a restaurant in its `Restaurant` object. Th
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Restaurants API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Restaurants API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Restaurant GUID</td>
-      <td>restaurantGuid</td>
-      <td>guid (in the Restaurant object)</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Restaurant GUID</td>
+      <td className="">restaurantGuid</td>
+      <td className="">guid (in the Restaurant object)</td>
     </tr>
-    <tr>
-      <td>Publication Date</td>
-      <td>lastUpdated</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Publication Date</td>
+      <td className="">lastUpdated</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Time Zone</td>
-      <td>restaurantTimeZone</td>
-      <td>timeZone</td>
+    <tr className="">
+      <td className="">Time Zone</td>
+      <td className="">restaurantTimeZone</td>
+      <td className="">timeZone</td>
     </tr>
-    <tr>
-      <td>Menus</td>
-      <td>menus</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Menus</td>
+      <td className="">menus</td>
+      <td className="">-</td>
     </tr>
   </tbody>
 </table>
@@ -98,117 +98,117 @@ This section provides a mapping that shows the configuration options for menus i
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>entityType</td>
-      <td>-</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">entityType</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>name</td>
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">name</td>
     </tr>
-    <tr>
-      <td>Menu GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Menu GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Number</td>
-      <td>multilocationId</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Number</td>
+      <td className="">multilocationId</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Groups</td>
-      <td>menuGroups</td>
-      <td>groups</td>
-      <td>groups</td>
+    <tr className="">
+      <td className="">Groups</td>
+      <td className="">menuGroups</td>
+      <td className="">groups</td>
+      <td className="">groups</td>
     </tr>
-    <tr>
-      <td>Available at all times of the day</td>
-      <td>availability</td>
-      <td>availableAllTimes</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Available at all times of the day</td>
+      <td className="">availability</td>
+      <td className="">availableAllTimes</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Times available</td>
-      <td>availability</td>
-      <td>startTime <br/> endTime <br/> startTimeHHmm <br/> endTimeHHmm <br/> startTimeLocalStandardTime <br/> endTimeLocalStandardTime <br/> startTimeHHmmLocalStandardTime <br/> endTimeHHmmLocalStandardTime</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Times available</td>
+      <td className="">availability</td>
+      <td className="">startTime <br/> endTime <br/> startTimeHHmm <br/> endTimeHHmm <br/> startTimeLocalStandardTime <br/> endTimeLocalStandardTime <br/> startTimeHHmmLocalStandardTime <br/> endTimeHHmmLocalStandardTime</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Available every day</td>
-      <td>availability</td>
-      <td>availableAllDays</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Available every day</td>
+      <td className="">availability</td>
+      <td className="">availableAllDays</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Days available</td>
-      <td>availability</td>
-      <td>daysAvailableBits <br/> daysAvailableString</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Days available</td>
+      <td className="">availability</td>
+      <td className="">daysAvailableBits <br/> daysAvailableString</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Description</td>
-      <td>description</td>
-      <td>description</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Description</td>
+      <td className="">description</td>
+      <td className="">description</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Image</td>
-      <td>image</td>
-      <td>imageLink</td>
-      <td>images</td>
+    <tr className="">
+      <td className="">Image</td>
+      <td className="">image</td>
+      <td className="">imageLink</td>
+      <td className="">images</td>
     </tr>
-    <tr>
-      <td>High Res Image</td>
-      <td>highResImage</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">High Res Image</td>
+      <td className="">highResImage</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
+    <tr className="">
+      <td className="">Visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
     </tr>
-    <tr>
-      <td>Orderable Online</td>
-      <td>visibility</td>
-      <td>orderableOnline</td>
-      <td>orderableOnline</td>
+    <tr className="">
+      <td className="">Orderable Online</td>
+      <td className="">visibility</td>
+      <td className="">orderableOnline</td>
+      <td className="">orderableOnline</td>
     </tr>
-    <tr>
-      <td>Grubhub</td>
-      <td>visibility</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Grubhub</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>idString</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">idString</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>orderableOnlineStatus</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">orderableOnlineStatus</td>
+      <td className="">-</td>
     </tr>
   </tbody>
 </table>
@@ -220,123 +220,123 @@ This section provides a mapping that shows the configuration options for menu gr
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>entityType</td>
-      <td>-</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">entityType</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>name</td>
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">name</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Number</td>
-      <td>multilocationId</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Number</td>
+      <td className="">multilocationId</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Items</td>
-      <td>menuItems</td>
-      <td>items</td>
-      <td>items</td>
+    <tr className="">
+      <td className="">Items</td>
+      <td className="">menuItems</td>
+      <td className="">items</td>
+      <td className="">items</td>
     </tr>
-    <tr>
-      <td>Modifier Groups</td>
-      <td>-</td>
-      <td>-</td>
-      <td>optionGroups</td>
+    <tr className="">
+      <td className="">Modifier Groups</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">optionGroups</td>
     </tr>
-    <tr>
-      <td>Subgroups</td>
-      <td>menuGroups</td>
-      <td>subgroups</td>
-      <td>subgroups</td>
+    <tr className="">
+      <td className="">Subgroups</td>
+      <td className="">menuGroups</td>
+      <td className="">subgroups</td>
+      <td className="">subgroups</td>
     </tr>
-    <tr>
-      <td>Description</td>
-      <td>description</td>
-      <td>description</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Description</td>
+      <td className="">description</td>
+      <td className="">description</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Image</td>
-      <td>image</td>
-      <td>imageLink</td>
-      <td>images</td>
+    <tr className="">
+      <td className="">Image</td>
+      <td className="">image</td>
+      <td className="">imageLink</td>
+      <td className="">images</td>
     </tr>
-    <tr>
-      <td>Visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
+    <tr className="">
+      <td className="">Visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
     </tr>
-    <tr>
-      <td>Orderable Online</td>
-      <td>visibility</td>
-      <td>orderableOnline</td>
-      <td>orderableOnline</td>
+    <tr className="">
+      <td className="">Orderable Online</td>
+      <td className="">visibility</td>
+      <td className="">orderableOnline</td>
+      <td className="">orderableOnline</td>
     </tr>
-    <tr>
-      <td>Grubhub</td>
-      <td>visibility</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Grubhub</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>idString</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">idString</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>menu</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">menu</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>parent</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">parent</td>
     </tr>
-    <tr>
-      <td>inheritOptionGroups</td>
-      <td>-</td>
-      <td>-</td>
-      <td>inheritOptionGroups</td>
+    <tr className="">
+      <td className="">inheritOptionGroups</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">inheritOptionGroups</td>
     </tr>
-    <tr>
-      <td>Unit of Measure</td>
-      <td>-</td>
-      <td>-</td>
-      <td>unitOfMeasure</td>
+    <tr className="">
+      <td className="">Unit of Measure</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">unitOfMeasure</td>
     </tr>
-    <tr>
-      <td>Inherit Unit of Measure</td>
-      <td>-</td>
-      <td>-</td>
-      <td>inheritUnitOfMeasure</td>
+    <tr className="">
+      <td className="">Inherit Unit of Measure</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">inheritUnitOfMeasure</td>
     </tr>
   </tbody>
 </table>
@@ -348,189 +348,189 @@ This section provides a mapping that shows the configuration options for menu it
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>entityType</td>
-      <td>-</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">entityType</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>name</td>
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">name</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Number</td>
-      <td>multilocationId</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Number</td>
+      <td className="">multilocationId</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Price Level</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Price Level</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Pricing Strategy</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Pricing Strategy</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Base Price</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Base Price</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Size Prices</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Size Prices</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Menu Prices</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Menu Prices</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Time Prices</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Time Prices</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Location Prices</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Location Prices</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Portions</td>
-      <td>portions</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Portions</td>
+      <td className="">portions</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Modifier Groups</td>
-      <td>modifierGroupReferences</td>
-      <td>optionGroups</td>
-      <td>optionGroups</td>
+    <tr className="">
+      <td className="">Modifier Groups</td>
+      <td className="">modifierGroupReferences</td>
+      <td className="">optionGroups</td>
+      <td className="">optionGroups</td>
     </tr>
-    <tr>
-      <td>Inherited Modifier Groups</td>
-      <td>-</td>
-      <td>-</td>
-      <td>inheritOptionGroups</td>
+    <tr className="">
+      <td className="">Inherited Modifier Groups</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">inheritOptionGroups</td>
     </tr>
-    <tr>
-      <td>Description</td>
-      <td>description</td>
-      <td>description</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Description</td>
+      <td className="">description</td>
+      <td className="">description</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Calories</td>
-      <td>calories</td>
-      <td>calories</td>
-      <td>calories</td>
+    <tr className="">
+      <td className="">Calories</td>
+      <td className="">calories</td>
+      <td className="">calories</td>
+      <td className="">calories</td>
     </tr>
-    <tr>
-      <td>Image</td>
-      <td>image</td>
-      <td>imageLink</td>
-      <td>images</td>
+    <tr className="">
+      <td className="">Image</td>
+      <td className="">image</td>
+      <td className="">imageLink</td>
+      <td className="">images</td>
     </tr>
-    <tr>
-      <td>Tags</td>
-      <td>itemTags</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Tags</td>
+      <td className="">itemTags</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
+    <tr className="">
+      <td className="">Visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
     </tr>
-    <tr>
-      <td>Orderable Online</td>
-      <td>visibility</td>
-      <td>orderableOnline</td>
-      <td>orderableOnline</td>
+    <tr className="">
+      <td className="">Orderable Online</td>
+      <td className="">visibility</td>
+      <td className="">orderableOnline</td>
+      <td className="">orderableOnline</td>
     </tr>
-    <tr>
-      <td>Grubhub Orderable</td>
-      <td>visibility</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Grubhub Orderable</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>SKU</td>
-      <td>sku</td>
-      <td>-</td>
-      <td>sku</td>
+    <tr className="">
+      <td className="">SKU</td>
+      <td className="">sku</td>
+      <td className="">-</td>
+      <td className="">sku</td>
     </tr>
-    <tr>
-      <td>PLU</td>
-      <td>plu</td>
-      <td>-</td>
-      <td>plu</td>
+    <tr className="">
+      <td className="">PLU</td>
+      <td className="">plu</td>
+      <td className="">-</td>
+      <td className="">plu</td>
     </tr>
-    <tr>
-      <td>Sales Category</td>
-      <td>salesCategory</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Sales Category</td>
+      <td className="">salesCategory</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Can be discounted</td>
-      <td>isDiscountable</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Can be discounted</td>
+      <td className="">isDiscountable</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Applicable taxes</td>
-      <td>taxInfo</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Applicable taxes</td>
+      <td className="">taxInfo</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Unit of Measure</td>
-      <td>-</td>
-      <td>unitOfMeasure</td>
-      <td>unitOfMeasure</td>
+    <tr className="">
+      <td className="">Unit of Measure</td>
+      <td className="">-</td>
+      <td className="">unitOfMeasure</td>
+      <td className="">unitOfMeasure</td>
     </tr>
-    <tr>
-      <td>Inherit Unit of Measure</td>
-      <td>-</td>
-      <td>-</td>
-      <td>inheritUnitOfMeasure</td>
+    <tr className="">
+      <td className="">Inherit Unit of Measure</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">inheritUnitOfMeasure</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-      <td>type</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">type</td>
     </tr>
   </tbody>
 </table>
@@ -542,141 +542,141 @@ This section provides a mapping that shows the configuration options for modifie
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>entityType</td>
-      <td>-</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">entityType</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>name</td>
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">name</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Number</td>
-      <td>multilocationId</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Number</td>
+      <td className="">multilocationId</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Required</td>
-      <td>requiredMode</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Required</td>
+      <td className="">requiredMode</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Multi-select</td>
-      <td>isMultiSelect</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Multi-select</td>
+      <td className="">isMultiSelect</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Min # selections</td>
-      <td>minSelections</td>
-      <td>minSelections</td>
-      <td>minSelections</td>
+    <tr className="">
+      <td className="">Min # selections</td>
+      <td className="">minSelections</td>
+      <td className="">minSelections</td>
+      <td className="">minSelections</td>
     </tr>
-    <tr>
-      <td>Max # selections</td>
-      <td>maxSelections</td>
-      <td>maxSelections</td>
-      <td>maxSelections</td>
+    <tr className="">
+      <td className="">Max # selections</td>
+      <td className="">maxSelections</td>
+      <td className="">maxSelections</td>
+      <td className="">maxSelections</td>
     </tr>
-    <tr>
-      <td>Pre-Modifier Group</td>
-      <td>premodifierGroupReferences</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Pre-Modifier Group</td>
+      <td className="">premodifierGroupReferences</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Select where pricing is set</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>pricingMode</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Select where pricing is set</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">pricingMode</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Allow default modifiers to charge their configured price</td>
-      <td>defaultOptionsChargePrice</td>
-      <td>defaultOptionsChargePrice</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Allow default modifiers to charge their configured price</td>
+      <td className="">defaultOptionsChargePrice</td>
+      <td className="">defaultOptionsChargePrice</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Enable Substitution Pricing</td>
-      <td>defaultOptionsSubstitutionPricing</td>
-      <td>defaultOptionsSubstitutionPricing</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Enable Substitution Pricing</td>
+      <td className="">defaultOptionsSubstitutionPricing</td>
+      <td className="">defaultOptionsSubstitutionPricing</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Select pricing for all modifiers</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Select pricing for all modifiers</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Fixed Modifier Price</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Fixed Modifier Price</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Sequence Price</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>pricingStrategy <br/> pricingStrategyRules</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Sequence Price</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">pricingStrategy <br/> pricingStrategyRules</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Size Price</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>pricingStrategy <br/> pricingStrategyRules</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Size Price</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">pricingStrategy <br/> pricingStrategyRules</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Size/Sequence Price</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>pricingStrategy <br/> pricingStrategyRules</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Size/Sequence Price</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">pricingStrategy <br/> pricingStrategyRules</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Modifiers</td>
-      <td>modifierOptionReferences</td>
-      <td>items</td>
-      <td>options</td>
+    <tr className="">
+      <td className="">Modifiers</td>
+      <td className="">modifierOptionReferences</td>
+      <td className="">items</td>
+      <td className="">options</td>
     </tr>
-    <tr>
-      <td>Visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Grubhub</td>
-      <td>visibility</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Grubhub</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>ID string</td>
-      <td>-</td>
-      <td>idString</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">ID string</td>
+      <td className="">-</td>
+      <td className="">idString</td>
+      <td className="">-</td>
     </tr>
   </tbody>
 </table>
@@ -695,153 +695,153 @@ This section provides a mapping that shows the configuration options for modifie
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>entityType</td>
-      <td>-</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">entityType</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Number</td>
-      <td>multilocationId</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Number</td>
+      <td className="">multilocationId</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Enable duplicates of this modifier</td>
-      <td>allowsDuplicates</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Enable duplicates of this modifier</td>
+      <td className="">allowsDuplicates</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Default</td>
-      <td>isDefault</td>
-      <td>isDefaultMod</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Default</td>
+      <td className="">isDefault</td>
+      <td className="">isDefaultMod</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Visibility</td>
-      <td>visibility</td>
-      <td>visibility</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Visibility</td>
+      <td className="">visibility</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Orderable Online</td>
-      <td>visibility</td>
-      <td>orderableOnline</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Orderable Online</td>
+      <td className="">visibility</td>
+      <td className="">orderableOnline</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Grubhub Orderable</td>
-      <td>visibility</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Grubhub Orderable</td>
+      <td className="">visibility</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Tax info</td>
-      <td>taxInfo</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Tax info</td>
+      <td className="">taxInfo</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Sales Category</td>
-      <td>salesCategory</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Sales Category</td>
+      <td className="">salesCategory</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Calories</td>
-      <td>calories</td>
-      <td>calories</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Calories</td>
+      <td className="">calories</td>
+      <td className="">calories</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>SKU</td>
-      <td>sku</td>
-      <td>sku</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">SKU</td>
+      <td className="">sku</td>
+      <td className="">sku</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>PLU</td>
-      <td>plu</td>
-      <td>plu</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">PLU</td>
+      <td className="">plu</td>
+      <td className="">plu</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>GUID (on the menu item details page)</td>
-      <td>-</td>
-      <td>itemGroupGuid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID (on the menu item details page)</td>
+      <td className="">-</td>
+      <td className="">itemGroupGuid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Option Groups</td>
-      <td>modifierGroupReferences</td>
-      <td>optionGroups</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Option Groups</td>
+      <td className="">modifierGroupReferences</td>
+      <td className="">optionGroups</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Price</td>
-      <td>pricingStrategy <br/> pricingRules</td>
-      <td>price</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Price</td>
+      <td className="">pricingStrategy <br/> pricingRules</td>
+      <td className="">price</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Description</td>
-      <td>description</td>
-      <td>description</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Description</td>
+      <td className="">description</td>
+      <td className="">description</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Item Tags</td>
-      <td>itemTags</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Item Tags</td>
+      <td className="">itemTags</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>-</td>
-      <td>maxSelections</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">maxSelections</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>-</td>
-      <td>jsonIdentifier</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">-</td>
+      <td className="">jsonIdentifier</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Portions</td>
-      <td>portions</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Portions</td>
+      <td className="">portions</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Image</td>
-      <td>image</td>
-      <td>-</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">Image</td>
+      <td className="">image</td>
+      <td className="">-</td>
+      <td className="">-</td>
     </tr>
   </tbody>
 </table>
@@ -853,39 +853,39 @@ This section provides a mapping that shows the configuration options for premodi
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>name</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">name</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Default</td>
-      <td>-</td>
-      <td>isDefault</td>
-      <td>isDefault</td>
+    <tr className="">
+      <td className="">Default</td>
+      <td className="">-</td>
+      <td className="">isDefault</td>
+      <td className="">isDefault</td>
     </tr>
-    <tr>
-      <td>Members</td>
-      <td>premodifiers</td>
-      <td>premodifiers</td>
-      <td></td>
+    <tr className="">
+      <td className="">Members</td>
+      <td className="">premodifiers</td>
+      <td className="">premodifiers</td>
+      <td className=""></td>
     </tr>
   </tbody>
 </table>
@@ -897,57 +897,57 @@ This section provides a mapping that shows the configuration options for premodi
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Toast Web</th>
-      <th>Menus API</th>
-      <th>Menu data export</th>
-      <th>Configuration API</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Toast Web</th>
+      <th className="">Menus API</th>
+      <th className="">Menu data export</th>
+      <th className="">Configuration API</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Name</td>
-      <td>name</td>
-      <td>name</td>
-      <td>name</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Name</td>
+      <td className="">name</td>
+      <td className="">name</td>
+      <td className="">name</td>
     </tr>
-    <tr>
-      <td>GUID</td>
-      <td>guid</td>
-      <td>guid</td>
-      <td>-</td>
+    <tr className="">
+      <td className="">GUID</td>
+      <td className="">guid</td>
+      <td className="">guid</td>
+      <td className="">-</td>
     </tr>
-    <tr>
-      <td>Base Price</td>
-      <td>fixedPrice</td>
-      <td>basePrice</td>
-      <td>basePrice</td>
+    <tr className="">
+      <td className="">Base Price</td>
+      <td className="">fixedPrice</td>
+      <td className="">basePrice</td>
+      <td className="">basePrice</td>
     </tr>
-    <tr>
-      <td>Scale Price</td>
-      <td>-</td>
-      <td>scalePrice</td>
-      <td>scalePrice</td>
+    <tr className="">
+      <td className="">Scale Price</td>
+      <td className="">-</td>
+      <td className="">scalePrice</td>
+      <td className="">scalePrice</td>
     </tr>
-    <tr>
-      <td>Scale Factor</td>
-      <td>multiplicationFactor</td>
-      <td>scaleFactor</td>
-      <td>scaleFactor</td>
+    <tr className="">
+      <td className="">Scale Factor</td>
+      <td className="">multiplicationFactor</td>
+      <td className="">scaleFactor</td>
+      <td className="">scaleFactor</td>
     </tr>
-    <tr>
-      <td>Display Mode</td>
-      <td>displayMode</td>
-      <td>displayMode</td>
-      <td>displayMode</td>
+    <tr className="">
+      <td className="">Display Mode</td>
+      <td className="">displayMode</td>
+      <td className="">displayMode</td>
+      <td className="">displayMode</td>
     </tr>
-    <tr>
-      <td>Parent</td>
-      <td>-</td>
-      <td>-</td>
-      <td>parent</td>
+    <tr className="">
+      <td className="">Parent</td>
+      <td className="">-</td>
+      <td className="">-</td>
+      <td className="">parent</td>
     </tr>
   </tbody>
 </table>

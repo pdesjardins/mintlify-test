@@ -85,25 +85,25 @@ The following example shows an array that contains a `Selection` object to ad a 
 
 
 
-    <tr>
-      <td><a href="#co-d1e1350721E73C-4691-4104-AC0D-A8BEDFE8A31B">(1)</a></td>
-      <td>You can include multiple menu item selections in the JSON array. This example contains a single item.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1350721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(1)</a></td>
+      <td className="">You can include multiple menu item selections in the JSON array. This example contains a single item.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1370721E73C-4691-4104-AC0D-A8BEDFE8A31B">(2)</a></td>
-      <td>The Toast platform GUID of the menu group for the menu item to add to the check. For more information, see <a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI">Menus API overview</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1370721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(2)</a></td>
+      <td className="">The Toast platform GUID of the menu group for the menu item to add to the check. For more information, see <a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI" className="">Menus API overview</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1390721E73C-4691-4104-AC0D-A8BEDFE8A31B">(3)</a></td>
-      <td>The Toast platform GUID of the menu item to add to the check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1390721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(3)</a></td>
+      <td className="">The Toast platform GUID of the menu item to add to the check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1410721E73C-4691-4104-AC0D-A8BEDFE8A31B">(4)</a></td>
-      <td>The quantity of the menu item to add to the check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1410721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(4)</a></td>
+      <td className="">The quantity of the menu item to add to the check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1430721E73C-4691-4104-AC0D-A8BEDFE8A31B">(5)</a></td>
-      <td>If applicable, the modifiers for the added item. For more information about adding modifiers, see <a href="apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers">Applying modifiers and pre-modifiers</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1430721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(5)</a></td>
+      <td className="">If applicable, the modifiers for the added item. For more information about adding modifiers, see <a href="apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers" className="">Applying modifiers and pre-modifiers</a>.</td>
     </tr>
 ## Example response after adding items to an existing check
 
@@ -153,21 +153,21 @@ The following example shows the response for a `POST` request to the `/orders/<e
 
 
 
-    <tr>
-      <td><a href="#co-d1e1700721E73C-4691-4104-AC0D-A8BEDFE8A31B">(1)</a></td>
-      <td>The Toast platform GUID of the order that contains the check that you added menu items to.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1700721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(1)</a></td>
+      <td className="">The Toast platform GUID of the order that contains the check that you added menu items to.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1720721E73C-4691-4104-AC0D-A8BEDFE8A31B">(2)</a></td>
-      <td>The Toast platform GUID of the check that you added menu items to.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1720721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(2)</a></td>
+      <td className="">The Toast platform GUID of the check that you added menu items to.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1740721E73C-4691-4104-AC0D-A8BEDFE8A31B">(3)</a></td>
-      <td>The Toast platform GUID of a menu item selection from the original check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1740721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(3)</a></td>
+      <td className="">The Toast platform GUID of a menu item selection from the original check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e1760721E73C-4691-4104-AC0D-A8BEDFE8A31B">(4)</a></td>
-      <td>The Toast platform system GUID of the menu item selection that was added to the existing check.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e1760721E73C-4691-4104-AC0D-A8BEDFE8A31B" className="">(4)</a></td>
+      <td className="">The Toast platform system GUID of the menu item selection that was added to the existing check.</td>
     </tr>
 ## How added items are sent to the kitchen
 

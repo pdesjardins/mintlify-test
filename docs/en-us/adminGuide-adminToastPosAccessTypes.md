@@ -29,24 +29,24 @@ The following table includes information about the access types and their creden
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Access type</th>
-      <th>Credential type</th>
-      <th>Used for signing into</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Access type</th>
+      <th className="">Credential type</th>
+      <th className="">Used for signing into</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Administrative</td>
-      <td>Email address and password</td>
-      <td><ul><li>Toast Web</li><li>Toast POS devices</li></ul></td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Administrative</td>
+      <td className="">Email address and password</td>
+      <td className=""><ul className=""><li className="">Toast Web</li><li className="">Toast POS devices</li></ul></td>
     </tr>
-    <tr>
-      <td>Non-administrative</td>
-      <td>4+ digit POS access code</td>
-      <td>Toast POS devices</td>
+    <tr className="">
+      <td className="">Non-administrative</td>
+      <td className="">4+ digit POS access code</td>
+      <td className="">Toast POS devices</td>
     </tr>
   </tbody>
 </table>

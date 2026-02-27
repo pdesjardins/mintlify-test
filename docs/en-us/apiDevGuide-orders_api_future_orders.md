@@ -100,15 +100,15 @@ The `Order` object in the following example creates an order that is scheduled f
 
 
 
-    <tr>
-      <td><a href="#orderPaidDate">(1)</a></td>
-      <td>If you submit a payment with the order, the <code>paidDate</code> for the payment should be the timestamp when the payment is placed.</td>
+    <tr className="">
+      <td className=""><a href="#orderPaidDate" className="">(1)</a></td>
+      <td className="">If you submit a payment with the order, the <code className="">paidDate</code> for the payment should be the timestamp when the payment is placed.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e23837FED323-B0BC-404F-B11C-A782AC1FBA48">(2)</a></td>
-      <td>The <code>promisedDate</code> value specifies the date and time when the order will be fulfilled.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e23837FED323-B0BC-404F-B11C-A782AC1FBA48" className="">(2)</a></td>
+      <td className="">The <code className="">promisedDate</code> value specifies the date and time when the order will be fulfilled.</td>
     </tr>
-    <tr>
-      <td><a href="#apiFutureOrderExampleOpenedDate-co">(3)</a></td>
-      <td>The <code>openedDate</code> value specifies the business date of the order. If you do not include an <code>openedDate</code> value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This <code>openedDate</code> value matches the <code>promisedDate</code> value.</td>
+    <tr className="">
+      <td className=""><a href="#apiFutureOrderExampleOpenedDate-co" className="">(3)</a></td>
+      <td className="">The <code className="">openedDate</code> value specifies the business date of the order. If you do not include an <code className="">openedDate</code> value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This <code className="">openedDate</code> value matches the <code className="">promisedDate</code> value.</td>
     </tr>

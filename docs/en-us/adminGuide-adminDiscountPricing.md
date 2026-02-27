@@ -58,25 +58,25 @@ For example, assume this combo discount:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Discount component</th>
-      <th>Amount</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Discount component</th>
+      <th className="">Amount</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>NonTaxed item</td>
-      <td>$5.00</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">NonTaxed item</td>
+      <td className="">$5.00</td>
     </tr>
-    <tr>
-      <td>Taxed item</td>
-      <td>$10.00 and taxed at 10%</td>
+    <tr className="">
+      <td className="">Taxed item</td>
+      <td className="">$10.00 and taxed at 10%</td>
     </tr>
-    <tr>
-      <td>Combo price for both items</td>
-      <td>$12.00</td>
+    <tr className="">
+      <td className="">Combo price for both items</td>
+      <td className="">$12.00</td>
     </tr>
   </tbody>
 </table>
@@ -172,21 +172,21 @@ The discount in the example is applied as follows, depending on the configuratio
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Configuration setting</th>
-      <th>Effect</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Configuration setting</th>
+      <th className="">Effect</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Consolidate discounts: Off</td>
-      <td>The fixed currency discount is applied to the total of all items: <br/> 2 Sodas, $10 - $2 Discount = $8</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Consolidate discounts: Off</td>
+      <td className="">The fixed currency discount is applied to the total of all items: <br/> 2 Sodas, $10 - $2 Discount = $8</td>
     </tr>
-    <tr>
-      <td>Consolidate discounts: On</td>
-      <td>The fixed currency discount is applied to each quantity of one item: <br/> 2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</td>
+    <tr className="">
+      <td className="">Consolidate discounts: On</td>
+      <td className="">The fixed currency discount is applied to each quantity of one item: <br/> 2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</td>
     </tr>
   </tbody>
 </table>

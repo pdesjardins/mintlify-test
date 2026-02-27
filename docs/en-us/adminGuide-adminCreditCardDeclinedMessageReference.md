@@ -25,125 +25,125 @@ When a card payment cannot be processed, the Toast POS device shows a message fr
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Response Message</th>
-      <th>Descriptions</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Response Message</th>
+      <th className="">Descriptions</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>*REQUEST DENIED*</td>
-      <td>Do not honor</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">*REQUEST DENIED*</td>
+      <td className="">Do not honor</td>
     </tr>
-    <tr>
-      <td>AUTH DECLINED</td>
-      <td>Do not honor <br/> Transaction not permitted to issuer/cardholder <br/> Exceeds withdrawal limit <br/> Domain Restriction Controls Fail <br/> Declined-transaction in violation of law <br/> Declined PIN attempts</td>
+    <tr className="">
+      <td className="">AUTH DECLINED</td>
+      <td className="">Do not honor <br/> Transaction not permitted to issuer/cardholder <br/> Exceeds withdrawal limit <br/> Domain Restriction Controls Fail <br/> Declined-transaction in violation of law <br/> Declined PIN attempts</td>
     </tr>
-    <tr>
-      <td>AUTH TRN NO AL'W</td>
-      <td>Auth transaction not allowed for this payment</td>
+    <tr className="">
+      <td className="">AUTH TRN NO AL'W</td>
+      <td className="">Auth transaction not allowed for this payment</td>
     </tr>
-    <tr>
-      <td>CALL OPER</td>
-      <td>Refer to card issuer <br/> Refer to call center</td>
+    <tr className="">
+      <td className="">CALL OPER</td>
+      <td className="">Refer to card issuer <br/> Refer to call center</td>
     </tr>
-    <tr>
-      <td>CALL VOICE OPER</td>
-      <td>Refer to card issuer <br/> Re-enter transaction</td>
+    <tr className="">
+      <td className="">CALL VOICE OPER</td>
+      <td className="">Refer to card issuer <br/> Re-enter transaction</td>
     </tr>
-    <tr>
-      <td>CARD EXPIRED</td>
-      <td>Expiration date check failed <br/> Expired card <br/> Card expiry date less than current date</td>
+    <tr className="">
+      <td className="">CARD EXPIRED</td>
+      <td className="">Expiration date check failed <br/> Expired card <br/> Card expiry date less than current date</td>
     </tr>
-    <tr>
-      <td>CARDHLDR DECLINE</td>
-      <td>Declined per cardholder request</td>
+    <tr className="">
+      <td className="">CARDHLDR DECLINE</td>
+      <td className="">Declined per cardholder request</td>
     </tr>
-    <tr>
-      <td>CVD ERROR</td>
-      <td>Do not honor</td>
+    <tr className="">
+      <td className="">CVD ERROR</td>
+      <td className="">Do not honor</td>
     </tr>
-    <tr>
-      <td>DECLINED</td>
-      <td>Declined by user <br/> Invalid effective date on card</td>
+    <tr className="">
+      <td className="">DECLINED</td>
+      <td className="">Declined by user <br/> Invalid effective date on card</td>
     </tr>
-    <tr>
-      <td>ERR PROC FIELD</td>
-      <td>Format error, invalid value in message</td>
+    <tr className="">
+      <td className="">ERR PROC FIELD</td>
+      <td className="">Format error, invalid value in message</td>
     </tr>
-    <tr>
-      <td>HOLD - CALL</td>
-      <td>Pick up</td>
+    <tr className="">
+      <td className="">HOLD - CALL</td>
+      <td className="">Pick up</td>
     </tr>
-    <tr>
-      <td>INV CARD NUMBER</td>
-      <td>Invalid cardholder account <br/> Account number not found in BIN table</td>
+    <tr className="">
+      <td className="">INV CARD NUMBER</td>
+      <td className="">Invalid cardholder account <br/> Account number not found in BIN table</td>
     </tr>
-    <tr>
-      <td>INVALID AMOUNT</td>
-      <td>Invalid amount</td>
+    <tr className="">
+      <td className="">INVALID AMOUNT</td>
+      <td className="">Invalid amount</td>
     </tr>
-    <tr>
-      <td>INVALID CARD</td>
-      <td>Invalid card number</td>
+    <tr className="">
+      <td className="">INVALID CARD</td>
+      <td className="">Invalid card number</td>
     </tr>
-    <tr>
-      <td>INVALID CARD NO</td>
-      <td>Invalid card number</td>
+    <tr className="">
+      <td className="">INVALID CARD NO</td>
+      <td className="">Invalid card number</td>
     </tr>
-    <tr>
-      <td>INVALID EXP DATE</td>
-      <td>Invalid expiry date</td>
+    <tr className="">
+      <td className="">INVALID EXP DATE</td>
+      <td className="">Invalid expiry date</td>
     </tr>
-    <tr>
-      <td>INVALID FUNCTION </td>
-      <td>Transaction not permitted to terminal </td>
+    <tr className="">
+      <td className="">INVALID FUNCTION </td>
+      <td className="">Transaction not permitted to terminal </td>
     </tr>
-    <tr>
-      <td>INVALID MERC NO </td>
-      <td>Invalid merchant or terminal </td>
+    <tr className="">
+      <td className="">INVALID MERC NO </td>
+      <td className="">Invalid merchant or terminal </td>
     </tr>
-    <tr>
-      <td>INVALID PIN </td>
-      <td>Invalid pin </td>
+    <tr className="">
+      <td className="">INVALID PIN </td>
+      <td className="">Invalid pin </td>
     </tr>
-    <tr>
-      <td>LOST/STOLEN CARD</td>
-      <td>Lost or stolen card</td>
+    <tr className="">
+      <td className="">LOST/STOLEN CARD</td>
+      <td className="">Lost or stolen card</td>
     </tr>
-    <tr>
-      <td>NO CHECKING ACCT</td>
-      <td>Error</td>
+    <tr className="">
+      <td className="">NO CHECKING ACCT</td>
+      <td className="">Error</td>
     </tr>
-    <tr>
-      <td>PICK UP CARD </td>
-      <td>Pick up card  <br/> Decline - pick up card <br/> Pick up card - No Fraud <br/> Pick up card (Special Condition) <br/> Pick up card (Special Condition)(Fraud Account) <br/> Lost card - pick up <br/> Stolen card - pick up</td>
+    <tr className="">
+      <td className="">PICK UP CARD </td>
+      <td className="">Pick up card  <br/> Decline - pick up card <br/> Pick up card - No Fraud <br/> Pick up card (Special Condition) <br/> Pick up card (Special Condition)(Fraud Account) <br/> Lost card - pick up <br/> Stolen card - pick up</td>
     </tr>
-    <tr>
-      <td>PIN TRIES EXCEED</td>
-      <td>Re-enter transaction</td>
+    <tr className="">
+      <td className="">PIN TRIES EXCEED</td>
+      <td className="">Re-enter transaction</td>
     </tr>
-    <tr>
-      <td>PROC ERROR 13</td>
-      <td>System error</td>
+    <tr className="">
+      <td className="">PROC ERROR 13</td>
+      <td className="">System error</td>
     </tr>
-    <tr>
-      <td>SECURITY VIOLATION</td>
-      <td>Security violation</td>
+    <tr className="">
+      <td className="">SECURITY VIOLATION</td>
+      <td className="">Security violation</td>
     </tr>
-    <tr>
-      <td>TRAN NOT ALLOWED</td>
-      <td>Transaction not permitted to terminal</td>
+    <tr className="">
+      <td className="">TRAN NOT ALLOWED</td>
+      <td className="">Transaction not permitted to terminal</td>
     </tr>
-    <tr>
-      <td>TRANS DENIED</td>
-      <td>Do not honor <br/> Invalid cardholder account <br/> Unable to locate record <br/> Insufficient funds <br/> Restricted card <br/> Security violation <br/> Account activity limit exceeded <br/> Allowable number of PIN entry tries exceeded <br/> One or more errors in message <br/> File is unavailable <br/> No credit account <br/> Fraudulent activity detected</td>
+    <tr className="">
+      <td className="">TRANS DENIED</td>
+      <td className="">Do not honor <br/> Invalid cardholder account <br/> Unable to locate record <br/> Insufficient funds <br/> Restricted card <br/> Security violation <br/> Account activity limit exceeded <br/> Allowable number of PIN entry tries exceeded <br/> One or more errors in message <br/> File is unavailable <br/> No credit account <br/> Fraudulent activity detected</td>
     </tr>
-    <tr>
-      <td>TRANS NOT ALLOW</td>
-      <td>Transactions not allowed to cardholder <br/> Transactions not allowed to terminal <br/> Illegal transaction - violation of law <br/> Capture transactions not allowed for this payment type <br/> Capture transaction on authorization only terminal <br/> Private label transaction not allowed for terminal <br/> Store reporting transactions not allowed</td>
+    <tr className="">
+      <td className="">TRANS NOT ALLOW</td>
+      <td className="">Transactions not allowed to cardholder <br/> Transactions not allowed to terminal <br/> Illegal transaction - violation of law <br/> Capture transactions not allowed for this payment type <br/> Capture transaction on authorization only terminal <br/> Private label transaction not allowed for terminal <br/> Store reporting transactions not allowed</td>
     </tr>
   </tbody>
 </table>

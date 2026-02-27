@@ -72,44 +72,44 @@ The following table describes the required fields:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Field</th>
-      <th>Type</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Field</th>
+      <th className="">Type</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>diningOption</code></td>
-      <td>Object</td>
-      <td>Specifies the dining option for the order. Must contain a <code>guid</code> that references a valid dining option configured for the location.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">diningOption</code></td>
+      <td className="">Object</td>
+      <td className="">Specifies the dining option for the order. Must contain a <code className="">guid</code> that references a valid dining option configured for the location.</td>
     </tr>
-    <tr>
-      <td><code>checks</code></td>
-      <td>Array</td>
-      <td>An array of <code>Check</code> objects. Most orders have one check. Each check must contain at least one menu item selection.</td>
+    <tr className="">
+      <td className=""><code className="">checks</code></td>
+      <td className="">Array</td>
+      <td className="">An array of <code className="">Check</code> objects. Most orders have one check. Each check must contain at least one menu item selection.</td>
     </tr>
-    <tr>
-      <td><code>checks.selections</code></td>
-      <td>Array</td>
-      <td>An array of <code>Selection</code> objects representing the menu items being ordered.</td>
+    <tr className="">
+      <td className=""><code className="">checks.selections</code></td>
+      <td className="">Array</td>
+      <td className="">An array of <code className="">Selection</code> objects representing the menu items being ordered.</td>
     </tr>
-    <tr>
-      <td><code>checks.selections.item</code></td>
-      <td>Object</td>
-      <td>A reference to the menu item being ordered. Must contain the <code>guid</code> of a valid menu item.</td>
+    <tr className="">
+      <td className=""><code className="">checks.selections.item</code></td>
+      <td className="">Object</td>
+      <td className="">A reference to the menu item being ordered. Must contain the <code className="">guid</code> of a valid menu item.</td>
     </tr>
-    <tr>
-      <td><code>checks.selections.itemGroup</code></td>
-      <td>Object</td>
-      <td>A reference to the menu group that contains the menu item. Must contain the <code>guid</code> of the parent menu group.</td>
+    <tr className="">
+      <td className=""><code className="">checks.selections.itemGroup</code></td>
+      <td className="">Object</td>
+      <td className="">A reference to the menu group that contains the menu item. Must contain the <code className="">guid</code> of the parent menu group.</td>
     </tr>
-    <tr>
-      <td><code>checks.selections.quantity</code></td>
-      <td>Number</td>
-      <td>The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</td>
+    <tr className="">
+      <td className=""><code className="">checks.selections.quantity</code></td>
+      <td className="">Number</td>
+      <td className="">The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</td>
     </tr>
   </tbody>
 </table>
@@ -123,25 +123,25 @@ All requests to the Toast platform APIs require the following headers:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Header</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Header</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>Toast-Restaurant-External-ID</code></td>
-      <td>The GUID of the Toast location for the request.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">Toast-Restaurant-External-ID</code></td>
+      <td className="">The GUID of the Toast location for the request.</td>
     </tr>
-    <tr>
-      <td><code>Authorization</code></td>
-      <td>The access token in the format <em><code>Bearer &#123;accessToken&#125;</code></em> .</td>
+    <tr className="">
+      <td className=""><code className="">Authorization</code></td>
+      <td className="">The access token in the format <em className=""><code className="">Bearer &#123;accessToken&#125;</code></em> .</td>
     </tr>
-    <tr>
-      <td><code>Content-Type</code></td>
-      <td>Required for <code>POST</code> requests. Must be set to <code>application/json</code>.</td>
+    <tr className="">
+      <td className=""><code className="">Content-Type</code></td>
+      <td className="">Required for <code className="">POST</code> requests. Must be set to <code className="">application/json</code>.</td>
     </tr>
   </tbody>
 </table>
@@ -185,13 +185,13 @@ The response includes an access token to use in the `Authorization` header for s
 
 
 
-    <tr>
-      <td><a href="#co-authResponseScope">(1)</a></td>
-      <td>The list of scopes assigned to your API client.</td>
+    <tr className="">
+      <td className=""><a href="#co-authResponseScope" className="">(1)</a></td>
+      <td className="">The list of scopes assigned to your API client.</td>
     </tr>
-    <tr>
-      <td><a href="#co-authResponseAccessToken">(2)</a></td>
-      <td>The authentication bearer token needed to place API calls.</td>
+    <tr className="">
+      <td className=""><a href="#co-authResponseAccessToken" className="">(2)</a></td>
+      <td className="">The authentication bearer token needed to place API calls.</td>
     </tr>
 Store the `accessToken` value for use in the following steps.
 
@@ -387,29 +387,29 @@ Using the GUIDs you collected, build your order JSON. The following example show
 
 
 
-    <tr>
-      <td><a href="#co-firstOrderDiningOption">(1)</a></td>
-      <td>The <code>diningOption</code> object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderDiningOption" className="">(1)</a></td>
+      <td className="">The <code className="">diningOption</code> object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderChecks">(2)</a></td>
-      <td>The <code>checks</code> array contains one or more <code>Check</code> objects. Most orders have a single check.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderChecks" className="">(2)</a></td>
+      <td className="">The <code className="">checks</code> array contains one or more <code className="">Check</code> objects. Most orders have a single check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderSelections">(3)</a></td>
-      <td>The <code>selections</code> array contains the menu items being ordered.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderSelections" className="">(3)</a></td>
+      <td className="">The <code className="">selections</code> array contains the menu items being ordered.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderItemGuid">(4)</a></td>
-      <td>The GUID of the menu item. Retrieve this from the <a href="https://doc.toasttab.com/openapi/configuration/overview/">configuration API</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderItemGuid" className="">(4)</a></td>
+      <td className="">The GUID of the menu item. Retrieve this from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderItemGroup">(5)</a></td>
-      <td>The GUID of the menu group that contains this item. The item must belong to this group.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderItemGroup" className="">(5)</a></td>
+      <td className="">The GUID of the menu group that contains this item. The item must belong to this group.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderQuantity">(6)</a></td>
-      <td>The quantity of this item being ordered.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderQuantity" className="">(6)</a></td>
+      <td className="">The quantity of this item being ordered.</td>
     </tr>
 
 6. **Get the order price (optional but recommended)**
@@ -475,21 +475,21 @@ The response returns the order with calculated prices, taxes, and totals. This s
 
 
 
-    <tr>
-      <td><a href="#co-pricesResponseAmount">(1)</a></td>
-      <td>The subtotal of the check before taxes.</td>
+    <tr className="">
+      <td className=""><a href="#co-pricesResponseAmount" className="">(1)</a></td>
+      <td className="">The subtotal of the check before taxes.</td>
     </tr>
-    <tr>
-      <td><a href="#co-pricesResponseTax">(2)</a></td>
-      <td>The total tax amount for the check.</td>
+    <tr className="">
+      <td className=""><a href="#co-pricesResponseTax" className="">(2)</a></td>
+      <td className="">The total tax amount for the check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-pricesResponseTotal">(3)</a></td>
-      <td>The total amount due including taxes.</td>
+    <tr className="">
+      <td className=""><a href="#co-pricesResponseTotal" className="">(3)</a></td>
+      <td className="">The total amount due including taxes.</td>
     </tr>
-    <tr>
-      <td><a href="#co-pricesResponseItemPrice">(4)</a></td>
-      <td>The calculated price for each menu item selection.</td>
+    <tr className="">
+      <td className=""><a href="#co-pricesResponseItemPrice" className="">(4)</a></td>
+      <td className="">The calculated price for each menu item selection.</td>
     </tr>
 For more information, see [Getting check prices](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
@@ -545,25 +545,25 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 
 
-    <tr>
-      <td><a href="#co-firstOrderResponseGuid">(1)</a></td>
-      <td>The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderResponseGuid" className="">(1)</a></td>
+      <td className="">The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderResponseSource">(2)</a></td>
-      <td>The orders API sets the <code>source</code> value to <code>API</code> for orders you submit.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderResponseSource" className="">(2)</a></td>
+      <td className="">The orders API sets the <code className="">source</code> value to <code className="">API</code> for orders you submit.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderResponseStatus">(3)</a></td>
-      <td>The <code>approvalStatus</code> indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderResponseStatus" className="">(3)</a></td>
+      <td className="">The <code className="">approvalStatus</code> indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderResponseCheckGuid">(4)</a></td>
-      <td>Each check receives a unique GUID. Use this to add items or payments to the check.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderResponseCheckGuid" className="">(4)</a></td>
+      <td className="">Each check receives a unique GUID. Use this to add items or payments to the check.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderResponseAmount">(5)</a></td>
-      <td>The <code>amount</code>, <code>taxAmount</code>, and <code>totalAmount</code> values show the calculated check totals.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderResponseAmount" className="">(5)</a></td>
+      <td className="">The <code className="">amount</code>, <code className="">taxAmount</code>, and <code className="">totalAmount</code> values show the calculated check totals.</td>
     </tr>
 
 
@@ -607,17 +607,17 @@ The following example shows a selection with a modifier:
 
 
 
-    <tr>
-      <td><a href="#co-firstOrderModifiers">(1)</a></td>
-      <td>The <code>modifiers</code> array contains modifier selections that apply to the parent menu item.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderModifiers" className="">(1)</a></td>
+      <td className="">The <code className="">modifiers</code> array contains modifier selections that apply to the parent menu item.</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderModifierItem">(2)</a></td>
-      <td>The GUID of the modifier item (for example, a topping or add-on option).</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderModifierItem" className="">(2)</a></td>
+      <td className="">The GUID of the modifier item (for example, a topping or add-on option).</td>
     </tr>
-    <tr>
-      <td><a href="#co-firstOrderOptionGroup">(3)</a></td>
-      <td>The GUID of the option group that contains the modifier. This is required for modifier selections.</td>
+    <tr className="">
+      <td className=""><a href="#co-firstOrderOptionGroup" className="">(3)</a></td>
+      <td className="">The GUID of the option group that contains the modifier. This is required for modifier selections.</td>
     </tr>
 For more information, see [Applying modifiers to orders](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
 
@@ -627,54 +627,54 @@ When submitting orders, you may encounter the following HTTP status codes:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Status Code</th>
-      <th>Description</th>
-      <th>Resolution</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Status Code</th>
+      <th className="">Description</th>
+      <th className="">Resolution</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>200</td>
-      <td>Success</td>
-      <td>The API created the order successfully. The response body contains the complete order details.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">200</td>
+      <td className="">Success</td>
+      <td className="">The API created the order successfully. The response body contains the complete order details.</td>
     </tr>
-    <tr>
-      <td>400</td>
-      <td>Bad Request</td>
-      <td>The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</td>
+    <tr className="">
+      <td className="">400</td>
+      <td className="">Bad Request</td>
+      <td className="">The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</td>
     </tr>
-    <tr>
-      <td>401</td>
-      <td>Unauthorized</td>
-      <td>The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</td>
+    <tr className="">
+      <td className="">401</td>
+      <td className="">Unauthorized</td>
+      <td className="">The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</td>
     </tr>
-    <tr>
-      <td>403</td>
-      <td>Forbidden</td>
-      <td>The API client does not have access to the location or does not have the required scope (<code>orders.orders:write</code>).</td>
+    <tr className="">
+      <td className="">403</td>
+      <td className="">Forbidden</td>
+      <td className="">The API client does not have access to the location or does not have the required scope (<code className="">orders.orders:write</code>).</td>
     </tr>
-    <tr>
-      <td>404</td>
-      <td>Not Found</td>
-      <td>A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</td>
+    <tr className="">
+      <td className="">404</td>
+      <td className="">Not Found</td>
+      <td className="">A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</td>
     </tr>
-    <tr>
-      <td>413</td>
-      <td>Payload Too Large</td>
-      <td>The number of checks in the order exceeds the allowed limit.</td>
+    <tr className="">
+      <td className="">413</td>
+      <td className="">Payload Too Large</td>
+      <td className="">The number of checks in the order exceeds the allowed limit.</td>
     </tr>
-    <tr>
-      <td>415</td>
-      <td>Unsupported Media Type</td>
-      <td>The request does not include the <code>Content-Type: application/json</code> header.</td>
+    <tr className="">
+      <td className="">415</td>
+      <td className="">Unsupported Media Type</td>
+      <td className="">The request does not include the <code className="">Content-Type: application/json</code> header.</td>
     </tr>
-    <tr>
-      <td>500</td>
-      <td>Internal Server Error</td>
-      <td>An unexpected error occurred. Note the <code>requestId</code> from the error response and contact Toast support if the issue persists.</td>
+    <tr className="">
+      <td className="">500</td>
+      <td className="">Internal Server Error</td>
+      <td className="">An unexpected error occurred. Note the <code className="">requestId</code> from the error response and contact Toast support if the issue persists.</td>
     </tr>
   </tbody>
 </table>
@@ -686,29 +686,29 @@ The following table describes common error messages and their resolutions:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Error Message</th>
-      <th>Resolution</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Error Message</th>
+      <th className="">Resolution</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>Could not parse as Order object</code></td>
-      <td>Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">Could not parse as Order object</code></td>
+      <td className="">Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</td>
     </tr>
-    <tr>
-      <td>Item (<code>item GUID</code>) does not belong to the group (<code>item group GUID</code>)</td>
-      <td>The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the <code>menuGroups</code> array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the <code>menuGroups</code> array.</td>
+    <tr className="">
+      <td className="">Item (<code className="">item GUID</code>) does not belong to the group (<code className="">item group GUID</code>)</td>
+      <td className="">The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the <code className="">menuGroups</code> array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the <code className="">menuGroups</code> array.</td>
     </tr>
-    <tr>
-      <td><code>Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId</code></td>
-      <td>A menu item in your request is missing its GUID. Ensure every <code>item</code> object contains a valid <code>guid</code> value.</td>
+    <tr className="">
+      <td className=""><code className="">Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId</code></td>
+      <td className="">A menu item in your request is missing its GUID. Ensure every <code className="">item</code> object contains a valid <code className="">guid</code> value.</td>
     </tr>
-    <tr>
-      <td><code>Referenced entity (type=DiningOption) must contain a GUID</code></td>
-      <td>The <code>diningOption</code> object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</td>
+    <tr className="">
+      <td className=""><code className="">Referenced entity (type=DiningOption) must contain a GUID</code></td>
+      <td className="">The <code className="">diningOption</code> object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</td>
     </tr>
   </tbody>
 </table>

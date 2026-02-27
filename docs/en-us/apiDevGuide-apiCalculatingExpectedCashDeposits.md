@@ -234,96 +234,96 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
 
 
 
-    <tr>
-      <td><a href="#co-d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065">(1)</a></td>
-      <td>These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(1)</a></td>
+      <td className="">These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e19959B7A05A-725E-4C5D-88B1-B5D63CCD0065">(2)</a></td>
-      <td>Send a GET request to the user management API to get an authentication token. For more information, see <a href="apiDevGuide-authentication">Authentication and restaurant access</a>. Store the authentication token string in a script variable so that other example functions can use it.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e19959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(2)</a></td>
+      <td className="">Send a GET request to the user management API to get an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>. Store the authentication token string in a script variable so that other example functions can use it.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e20159B7A05A-725E-4C5D-88B1-B5D63CCD0065">(3)</a></td>
-      <td>Send a GET request to the orders API to get a list of the GUIDs of each payment made during a business day. For each payment GUID, run another example shell script function to get detailed information about the payment.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e20159B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(3)</a></td>
+      <td className="">Send a GET request to the orders API to get a list of the GUIDs of each payment made during a business day. For each payment GUID, run another example shell script function to get detailed information about the payment.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065">(4)</a></td>
-      <td>Specify the business day of the payments in the <em><code>paidBusinessDate</code></em>  query parameter.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(4)</a></td>
+      <td className="">Specify the business day of the payments in the <em className=""><code className="">paidBusinessDate</code></em>  query parameter.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065">(5)</a></td>
-      <td>Count the number of payment GUIDs for the business day.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(5)</a></td>
+      <td className="">Count the number of payment GUIDs for the business day.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e20759B7A05A-725E-4C5D-88B1-B5D63CCD0065">(6)</a></td>
-      <td>Run a separate function to get detailed payment information for each of the payment GUIDs for the business day.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e20759B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(6)</a></td>
+      <td className="">Run a separate function to get detailed payment information for each of the payment GUIDs for the business day.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e20959B7A05A-725E-4C5D-88B1-B5D63CCD0065">(7)</a></td>
-      <td>Get one GUID from the list.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e20959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(7)</a></td>
+      <td className="">Get one GUID from the list.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e21259B7A05A-725E-4C5D-88B1-B5D63CCD0065">(8)</a></td>
-      <td>Run the example <code>get_payment</code> function and pass the payment GUID as an argument.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e21259B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(8)</a></td>
+      <td className="">Run the example <code className="">get_payment</code> function and pass the payment GUID as an argument.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e21459B7A05A-725E-4C5D-88B1-B5D63CCD0065">(9)</a></td>
-      <td>Increment a counter variable to move on to the next payment GUID.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e21459B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(9)</a></td>
+      <td className="">Increment a counter variable to move on to the next payment GUID.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e21659B7A05A-725E-4C5D-88B1-B5D63CCD0065">(10)</a></td>
-      <td>Send a <code>GET</code> request to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is <code>CASH</code>, add the payment amount to the total of cash payments for the business day.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e21659B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(10)</a></td>
+      <td className="">Send a <code className="">GET</code> request to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is <code className="">CASH</code>, add the payment amount to the total of cash payments for the business day.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e21859B7A05A-725E-4C5D-88B1-B5D63CCD0065">(11)</a></td>
-      <td>The <code>get_payments</code> function passes a payment GUID as an argument to this function.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e21859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(11)</a></td>
+      <td className="">The <code className="">get_payments</code> function passes a payment GUID as an argument to this function.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e22059B7A05A-725E-4C5D-88B1-B5D63CCD0065">(12)</a></td>
-      <td>Get the type value for the payment.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e22059B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(12)</a></td>
+      <td className="">Get the type value for the payment.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d1e22259B7A05A-725E-4C5D-88B1-B5D63CCD0065">(13)</a></td>
-      <td>Only include <code>CASH</code> payments in the total. Exclude voided payments.</td>
+    <tr className="">
+      <td className=""><a href="#co-d1e22259B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(13)</a></td>
+      <td className="">Only include <code className="">CASH</code> payments in the total. Exclude voided payments.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d2e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065">(14)</a></td>
-      <td>Get the currency amount of the payment.</td>
+    <tr className="">
+      <td className=""><a href="#co-d2e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(14)</a></td>
+      <td className="">Get the currency amount of the payment.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d3e22759B7A05A-725E-4C5D-88B1-B5D63CCD0065">(15)</a></td>
-      <td>Add the amount of the payment to the total amount of the cash payments for the business day.</td>
+    <tr className="">
+      <td className=""><a href="#co-d3e22759B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(15)</a></td>
+      <td className="">Add the amount of the payment to the total amount of the cash payments for the business day.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065">(16)</a></td>
-      <td>Send a <code>GET</code> request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the <code>type</code> value <code>CASH_COLLECTED</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(16)</a></td>
+      <td className="">Send a <code className="">GET</code> request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the <code className="">type</code> value <code className="">CASH_COLLECTED</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065">(17)</a></td>
-      <td>Specify the business day of the cash entries in the <em><code>businessDate</code></em>  query parameter.</td>
+    <tr className="">
+      <td className=""><a href="#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(17)</a></td>
+      <td className="">Specify the business day of the cash entries in the <em className=""><code className="">businessDate</code></em>  query parameter.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065">(18)</a></td>
-      <td>Get a list of the amounts of the entries that do not have the <code>type</code><code>CASH_COLLECTED</code>.</td>
+    <tr className="">
+      <td className=""><a href="#co-d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(18)</a></td>
+      <td className="">Get a list of the amounts of the entries that do not have the <code className="">type</code><code className="">CASH_COLLECTED</code>.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d7e23559B7A05A-725E-4C5D-88B1-B5D63CCD0065">(19)</a></td>
-      <td>Add each amount to the total cash entries for the business day. The amount values are negative or positive depending on whether the cash entry removes or adds cash to a restaurant cash drawer.</td>
+    <tr className="">
+      <td className=""><a href="#co-d7e23559B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(19)</a></td>
+      <td className="">Add each amount to the total cash entries for the business day. The amount values are negative or positive depending on whether the cash entry removes or adds cash to a restaurant cash drawer.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d8e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065">(20)</a></td>
-      <td>Set the total of cash payments to zero and run the function that gets payments for the business day.</td>
+    <tr className="">
+      <td className=""><a href="#co-d8e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(20)</a></td>
+      <td className="">Set the total of cash payments to zero and run the function that gets payments for the business day.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d9e24059B7A05A-725E-4C5D-88B1-B5D63CCD0065">(21)</a></td>
-      <td>Set the total of cash entries to zero and run the function that gets cash entries for the business day.</td>
+    <tr className="">
+      <td className=""><a href="#co-d9e24059B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(21)</a></td>
+      <td className="">Set the total of cash entries to zero and run the function that gets cash entries for the business day.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d0e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065">(22)</a></td>
-      <td>Calculate the sum of total cash payments and total cash entries for the business day to get the expected cash deposit.</td>
+    <tr className="">
+      <td className=""><a href="#co-d0e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(22)</a></td>
+      <td className="">Calculate the sum of total cash payments and total cash entries for the business day to get the expected cash deposit.</td>
     </tr>
-    <tr>
-      <td><a href="#co-d2e88859B7A05A-725E-4C5D-88B1-B5D63CCD0065">(23)</a></td>
-      <td>Number of non-voided cash transactions.</td>
+    <tr className="">
+      <td className=""><a href="#co-d2e88859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(23)</a></td>
+      <td className="">Number of non-voided cash transactions.</td>
     </tr>
   

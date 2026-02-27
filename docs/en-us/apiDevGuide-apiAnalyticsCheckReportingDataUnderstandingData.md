@@ -23,93 +23,93 @@ The following table specifies the set of values returned in the check reporting 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value name</th>
-      <th>Definition</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value name</th>
+      <th className="">Definition</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>orderNumber</code></td>
-      <td>The number of the order.</td>
+    <tr className="">
+      <td className=""><code className="">orderNumber</code></td>
+      <td className="">The number of the order.</td>
     </tr>
-    <tr>
-      <td><code>orderGuid</code></td>
-      <td>The unique identifier assigned to the order by the Toast platform.</td>
+    <tr className="">
+      <td className=""><code className="">orderGuid</code></td>
+      <td className="">The unique identifier assigned to the order by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>checkNumber</code></td>
-      <td>The number of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkNumber</code></td>
+      <td className="">The number of the check.</td>
     </tr>
-    <tr>
-      <td><code>checkGuid</code></td>
-      <td>The unique identifier assigned to the check by the Toast platform.</td>
+    <tr className="">
+      <td className=""><code className="">checkGuid</code></td>
+      <td className="">The unique identifier assigned to the check by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>orderOpenedDate</code></td>
-      <td>The business date for when the order is initially expected to be fulfilled. This date determines whether a check is within the requested time range or not.</td>
+    <tr className="">
+      <td className=""><code className="">orderOpenedDate</code></td>
+      <td className="">The business date for when the order is initially expected to be fulfilled. This date determines whether a check is within the requested time range or not.</td>
     </tr>
-    <tr>
-      <td><code>checkPaidDateTime</code></td>
-      <td>The most recent date the check received payment.</td>
+    <tr className="">
+      <td className=""><code className="">checkPaidDateTime</code></td>
+      <td className="">The most recent date the check received payment.</td>
     </tr>
-    <tr>
-      <td><code>checkModifiedDateTime</code></td>
-      <td>The most recent date that the check was modified.</td>
+    <tr className="">
+      <td className=""><code className="">checkModifiedDateTime</code></td>
+      <td className="">The most recent date that the check was modified.</td>
     </tr>
-    <tr>
-      <td><code>checkStatus </code></td>
-      <td>The payment state of the check. The state can be one of the following values: <ul><li><code>OPEN</code> : The check is open and unpaid.</li><li><code>PAID</code> : The check is paid, but the payment is not finalized.</li><li><code>CLOSED</code> : The check payment is finalized.</li></ul></td>
+    <tr className="">
+      <td className=""><code className="">checkStatus </code></td>
+      <td className="">The payment state of the check. The state can be one of the following values: <ul className=""><li className=""><code className="">OPEN</code> : The check is open and unpaid.</li><li className=""><code className="">PAID</code> : The check is paid, but the payment is not finalized.</li><li className=""><code className="">CLOSED</code> : The check payment is finalized.</li></ul></td>
     </tr>
-    <tr>
-      <td><code>checkVoidedStatus</code></td>
-      <td>Indicates whether the check was voided or not. A <code>true</code> value indicates the check was voided, while a <code>false</code> value indicates the check was not voided.</td>
+    <tr className="">
+      <td className=""><code className="">checkVoidedStatus</code></td>
+      <td className="">Indicates whether the check was voided or not. A <code className="">true</code> value indicates the check was voided, while a <code className="">false</code> value indicates the check was not voided.</td>
     </tr>
-    <tr>
-      <td><code>diningOption</code></td>
-      <td>The dining option for the check data.</td>
+    <tr className="">
+      <td className=""><code className="">diningOption</code></td>
+      <td className="">The dining option for the check data.</td>
     </tr>
-    <tr>
-      <td><code>revenueCenter</code></td>
-      <td>The revenue center for the check data.</td>
+    <tr className="">
+      <td className=""><code className="">revenueCenter</code></td>
+      <td className="">The revenue center for the check data.</td>
     </tr>
-    <tr>
-      <td><code>serverName</code></td>
-      <td>The first and last name of the employee who created the order.</td>
+    <tr className="">
+      <td className=""><code className="">serverName</code></td>
+      <td className="">The first and last name of the employee who created the order.</td>
     </tr>
-    <tr>
-      <td><code>checkTotalAmount</code></td>
-      <td>The total amount of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkTotalAmount</code></td>
+      <td className="">The total amount of the check.</td>
     </tr>
-    <tr>
-      <td><code>checkDiscountAmount</code></td>
-      <td>The total discounted amount of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkDiscountAmount</code></td>
+      <td className="">The total discounted amount of the check.</td>
     </tr>
-    <tr>
-      <td><code>checkTaxAmount</code></td>
-      <td>The total tax amount of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkTaxAmount</code></td>
+      <td className="">The total tax amount of the check.</td>
     </tr>
-    <tr>
-      <td><code>checkTipAmount</code></td>
-      <td>The total tip amount of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkTipAmount</code></td>
+      <td className="">The total tip amount of the check.</td>
     </tr>
-    <tr>
-      <td><code>checkGratuityAmount</code></td>
-      <td>The total gratuity amount of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkGratuityAmount</code></td>
+      <td className="">The total gratuity amount of the check.</td>
     </tr>
-    <tr>
-      <td><code>checkRefundAmount</code></td>
-      <td>The total refund amount of the check.</td>
+    <tr className="">
+      <td className=""><code className="">checkRefundAmount</code></td>
+      <td className="">The total refund amount of the check.</td>
     </tr>
-    <tr>
-      <td><code>restaurantName</code></td>
-      <td>The restaurant’s name. This is included when you set the <code>fetchRestaurantNames</code> parameter to <code>true</code> in the <code>GET</code> request.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantName</code></td>
+      <td className="">The restaurant’s name. This is included when you set the <code className="">fetchRestaurantNames</code> parameter to <code className="">true</code> in the <code className="">GET</code> request.</td>
     </tr>
   </tbody>
 </table>

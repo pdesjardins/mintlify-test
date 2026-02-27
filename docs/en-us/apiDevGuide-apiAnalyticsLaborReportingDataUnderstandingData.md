@@ -23,109 +23,109 @@ The following table specifies the returned set of values in the labor reporting 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value name</th>
-      <th>Definition</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value name</th>
+      <th className="">Definition</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>The unique identifier assigned to the restaurant by the Toast platform.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">The unique identifier assigned to the restaurant by the Toast platform.</td>
     </tr>
-    <tr>
-      <td><code>businessDate</code></td>
-      <td>The calendar date of the associated order data, in <code>YYYYMMDD</code> format.</td>
+    <tr className="">
+      <td className=""><code className="">businessDate</code></td>
+      <td className="">The calendar date of the associated order data, in <code className="">YYYYMMDD</code> format.</td>
     </tr>
-    <tr>
-      <td><code>regularHours</code></td>
-      <td>The total regular hours logged between clock-in and clock-out for employees with hourly jobs. This does not include overtime hours.</td>
+    <tr className="">
+      <td className=""><code className="">regularHours</code></td>
+      <td className="">The total regular hours logged between clock-in and clock-out for employees with hourly jobs. This does not include overtime hours.</td>
     </tr>
-    <tr>
-      <td><code>overtimeHours</code></td>
-      <td>The total overtime hours logged between clock-in and clock-out for employees with hourly jobs. This only includes overtime hours.</td>
+    <tr className="">
+      <td className=""><code className="">overtimeHours</code></td>
+      <td className="">The total overtime hours logged between clock-in and clock-out for employees with hourly jobs. This only includes overtime hours.</td>
     </tr>
-    <tr>
-      <td><code>totalHours</code></td>
-      <td>The total hours logged between clock-in and clock-out for employees with hourly jobs. This includes regular and overtime hours.</td>
+    <tr className="">
+      <td className=""><code className="">totalHours</code></td>
+      <td className="">The total hours logged between clock-in and clock-out for employees with hourly jobs. This includes regular and overtime hours.</td>
     </tr>
-    <tr>
-      <td><code>regularCost</code></td>
-      <td>The operation costs related to employees with hourly jobs from all regular hours, including all shifts.</td>
+    <tr className="">
+      <td className=""><code className="">regularCost</code></td>
+      <td className="">The operation costs related to employees with hourly jobs from all regular hours, including all shifts.</td>
     </tr>
-    <tr>
-      <td><code>overtimeCost</code></td>
-      <td>The operation costs related to employees with hourly jobs from all overtime hours, including all shifts.</td>
+    <tr className="">
+      <td className=""><code className="">overtimeCost</code></td>
+      <td className="">The operation costs related to employees with hourly jobs from all overtime hours, including all shifts.</td>
     </tr>
-    <tr>
-      <td><code>totalCost</code></td>
-      <td>The operation costs related to employees with hourly jobs from all work hours, including all shifts.</td>
+    <tr className="">
+      <td className=""><code className="">totalCost</code></td>
+      <td className="">The operation costs related to employees with hourly jobs from all work hours, including all shifts.</td>
     </tr>
-    <tr>
-      <td><code>netSalesAmount</code></td>
-      <td>The total sales, excluding tax, gratuity, tips, discounts, refunds, and deferred amounts. This property is only included when no <code>groupBy</code> value is specified.</td>
+    <tr className="">
+      <td className=""><code className="">netSalesAmount</code></td>
+      <td className="">The total sales, excluding tax, gratuity, tips, discounts, refunds, and deferred amounts. This property is only included when no <code className="">groupBy</code> value is specified.</td>
     </tr>
-    <tr>
-      <td><code>grossSalesAmount</code></td>
-      <td>The total sales, including discounts and refunds. This property is only included when no <code>groupBy</code> value is specified.</td>
+    <tr className="">
+      <td className=""><code className="">grossSalesAmount</code></td>
+      <td className="">The total sales, including discounts and refunds. This property is only included when no <code className="">groupBy</code> value is specified.</td>
     </tr>
-    <tr>
-      <td><code>netSalesPerEmployeeHour</code></td>
-      <td>The average of the location's total net sales for each hour clocked by an employee. This property is only included when no <code>groupBy</code> value is specified.</td>
+    <tr className="">
+      <td className=""><code className="">netSalesPerEmployeeHour</code></td>
+      <td className="">The average of the location's total net sales for each hour clocked by an employee. This property is only included when no <code className="">groupBy</code> value is specified.</td>
     </tr>
-    <tr>
-      <td><code>grossSalesPerEmployeeHour</code></td>
-      <td>The average of the location's total gross sales for each hour clocked by an employee. This property is only included when no <code>groupBy</code> value is specified.</td>
+    <tr className="">
+      <td className=""><code className="">grossSalesPerEmployeeHour</code></td>
+      <td className="">The average of the location's total gross sales for each hour clocked by an employee. This property is only included when no <code className="">groupBy</code> value is specified.</td>
     </tr>
-    <tr>
-      <td><code>totalCostPerNetSales</code></td>
-      <td>The ratio of employee operational costs compared to total net sales, expressed as a percentage.</td>
+    <tr className="">
+      <td className=""><code className="">totalCostPerNetSales</code></td>
+      <td className="">The ratio of employee operational costs compared to total net sales, expressed as a percentage.</td>
     </tr>
-    <tr>
-      <td><code>totalCostPerGrossSales</code></td>
-      <td>The ratio of employee operational costs compared to gross sales, expressed as a percentage.</td>
+    <tr className="">
+      <td className=""><code className="">totalCostPerGrossSales</code></td>
+      <td className="">The ratio of employee operational costs compared to gross sales, expressed as a percentage.</td>
     </tr>
-    <tr>
-      <td><code>jobGuid</code></td>
-      <td>The identifier assigned by the Toast platform used to identify a job. This property is only included when the <code>groupBy</code> property uses the <code>JOB</code> value. If not aggregated by <code>JOB</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">jobGuid</code></td>
+      <td className="">The identifier assigned by the Toast platform used to identify a job. This property is only included when the <code className="">groupBy</code> property uses the <code className="">JOB</code> value. If not aggregated by <code className="">JOB</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>jobTitle</code></td>
-      <td>The job name. This property only appears when the request for labor data includes the <code>groupBy</code> property with value <code>JOB</code>. If not aggregated by <code>JOB</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">jobTitle</code></td>
+      <td className="">The job name. This property only appears when the request for labor data includes the <code className="">groupBy</code> property with value <code className="">JOB</code>. If not aggregated by <code className="">JOB</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>jobCode</code></td>
-      <td>A reference identifier for the job. This is an optional field entered when the job is created. For example, it can be used to match Toast platform jobs to jobs configured in external labor management systems. This property only appears when the request for labor data includes the <code>groupBy</code> property with value <code>JOB</code>. If not aggregated by <code>JOB</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">jobCode</code></td>
+      <td className="">A reference identifier for the job. This is an optional field entered when the job is created. For example, it can be used to match Toast platform jobs to jobs configured in external labor management systems. This property only appears when the request for labor data includes the <code className="">groupBy</code> property with value <code className="">JOB</code>. If not aggregated by <code className="">JOB</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>employeeGuid</code></td>
-      <td>The identifier assigned by the Toast platform used to identify an employee. This property only appears when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">employeeGuid</code></td>
+      <td className="">The identifier assigned by the Toast platform used to identify an employee. This property only appears when the request for labor data includes the <code className="">groupBy</code> property with value <code className="">EMPLOYEE</code>. If not aggregated by <code className="">EMPLOYEE</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>employeeFirstName</code></td>
-      <td>The employee's first name. This property is populated when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">employeeFirstName</code></td>
+      <td className="">The employee's first name. This property is populated when the request for labor data includes the <code className="">groupBy</code> property with value <code className="">EMPLOYEE</code>. If not aggregated by <code className="">EMPLOYEE</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>employeeLastName</code></td>
-      <td>The employee's last name. This property is populated when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">employeeLastName</code></td>
+      <td className="">The employee's last name. This property is populated when the request for labor data includes the <code className="">groupBy</code> property with value <code className="">EMPLOYEE</code>. If not aggregated by <code className="">EMPLOYEE</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>employeeChosenName</code></td>
-      <td>The employee's chosen name. This property is populated when the request for labor data includes the <code>groupBy</code> property with value <code>EMPLOYEE</code>. If not aggregated by <code>EMPLOYEE</code>, the value is <code>null</code>.</td>
+    <tr className="">
+      <td className=""><code className="">employeeChosenName</code></td>
+      <td className="">The employee's chosen name. This property is populated when the request for labor data includes the <code className="">groupBy</code> property with value <code className="">EMPLOYEE</code>. If not aggregated by <code className="">EMPLOYEE</code>, the value is <code className="">null</code>.</td>
     </tr>
-    <tr>
-      <td><code>restaurantName</code></td>
-      <td>The restaurant’s name.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantName</code></td>
+      <td className="">The restaurant’s name.</td>
     </tr>
-    <tr>
-      <td><code>restaurantLocationName</code></td>
-      <td>The restaurant’s location name.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantLocationName</code></td>
+      <td className="">The restaurant’s location name.</td>
     </tr>
-    <tr>
-      <td><code>restaurantLocationCode</code></td>
-      <td>The restaurant’s location code.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantLocationCode</code></td>
+      <td className="">The restaurant’s location code.</td>
     </tr>
   </tbody>
 </table>

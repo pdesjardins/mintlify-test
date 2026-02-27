@@ -21,25 +21,25 @@ The following table describes the Toast platform permissions that you need in or
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Guest Credit Action</th>
-      <th>Required Permission</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Guest Credit Action</th>
+      <th className="">Required Permission</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>Redeem guest credit during check payment.</td>
-      <td>Any POS Access permission that allows an employee to accept payment for checks. For example, employees who have the Quick Order permission can redeem guest credits.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">Redeem guest credit during check payment.</td>
+      <td className="">Any POS Access permission that allows an employee to accept payment for checks. For example, employees who have the Quick Order permission can redeem guest credits.</td>
     </tr>
-    <tr>
-      <td>Look up guest and add a guest if the POS does not find an existing guest record.</td>
-      <td>Any Manager permission that allows an employee to accept payment for checks. For example, employees who have the Cash Drawers (Blind) permission can look up and add guest records. <br/> If you need to give an employee access to look up and add guest records but you cannot give any of the individual manager permissions to that employee, you can configure the employee's job with the Manager permission group and remove each of its individual permissions. To do this, select one manager permission for the job and then deselect it. Leave the Manager permission group selected.</td>
+    <tr className="">
+      <td className="">Look up guest and add a guest if the POS does not find an existing guest record.</td>
+      <td className="">Any Manager permission that allows an employee to accept payment for checks. For example, employees who have the Cash Drawers (Blind) permission can look up and add guest records. <br/> If you need to give an employee access to look up and add guest records but you cannot give any of the individual manager permissions to that employee, you can configure the employee's job with the Manager permission group and remove each of its individual permissions. To do this, select one manager permission for the job and then deselect it. Leave the Manager permission group selected.</td>
     </tr>
-    <tr>
-      <td>Add credit value to a guest record or approve a transaction that adds guest credit value started by another employee. For more information, see <a href="adminGuide-adminAddingCustomerCreditValue">Adding credit value</a>.</td>
-      <td>Customer Credits & Reports</td>
+    <tr className="">
+      <td className="">Add credit value to a guest record or approve a transaction that adds guest credit value started by another employee. For more information, see <a href="adminGuide-adminAddingCustomerCreditValue" className="">Adding credit value</a>.</td>
+      <td className="">Customer Credits & Reports</td>
     </tr>
   </tbody>
 </table>

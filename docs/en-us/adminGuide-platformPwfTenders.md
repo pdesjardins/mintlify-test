@@ -177,25 +177,25 @@ When you pre-authorize a card, you either authorize the current check total, or 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Pre-authorization use</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Pre-authorization use</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>No menu items on check</td>
-      <td>The guest's account is pre-authorized for the Minimum Pre-Authorization Amount found in Toast Web at Payments &gt; Payment methods &gt; Payment options.</td>
+  <tbody className="">
+    <tr className="">
+      <td className="">No menu items on check</td>
+      <td className="">The guest's account is pre-authorized for the Minimum Pre-Authorization Amount found in Toast Web at Payments &gt; Payment methods &gt; Payment options.</td>
     </tr>
-    <tr>
-      <td>Menu items on check</td>
-      <td>The guest's account is pre-authorized in the amount of the current transaction subtotal.</td>
+    <tr className="">
+      <td className="">Menu items on check</td>
+      <td className="">The guest's account is pre-authorized in the amount of the current transaction subtotal.</td>
     </tr>
-    <tr>
-      <td>Menu items on check, but the check subtotal is not equal to or greater than the Minimum Pre-Authorization Amount</td>
-      <td>The guest's account is authorized for the Minimum Pre-authorization Amount.</td>
+    <tr className="">
+      <td className="">Menu items on check, but the check subtotal is not equal to or greater than the Minimum Pre-Authorization Amount</td>
+      <td className="">The guest's account is authorized for the Minimum Pre-authorization Amount.</td>
     </tr>
   </tbody>
 </table>

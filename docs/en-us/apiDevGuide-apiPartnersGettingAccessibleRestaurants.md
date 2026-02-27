@@ -115,57 +115,57 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>restaurantGuid</code></td>
-      <td>The unique Toast platform identifier for the restaurant.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">restaurantGuid</code></td>
+      <td className="">The unique Toast platform identifier for the restaurant.</td>
     </tr>
-    <tr>
-      <td><code>managementGroupGuid</code></td>
-      <td>The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group. <br/> If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</td>
+    <tr className="">
+      <td className=""><code className="">managementGroupGuid</code></td>
+      <td className="">The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group. <br/> If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</td>
     </tr>
-    <tr>
-      <td><code>restaurantName</code></td>
-      <td>The human-readable name of the restaurant location.</td>
+    <tr className="">
+      <td className=""><code className="">restaurantName</code></td>
+      <td className="">The human-readable name of the restaurant location.</td>
     </tr>
-    <tr>
-      <td><code>locationName</code></td>
-      <td>The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web. <br/> For example, a restaurant group might assign a location code such as <code>#1234</code> to a specific location.</td>
+    <tr className="">
+      <td className=""><code className="">locationName</code></td>
+      <td className="">The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web. <br/> For example, a restaurant group might assign a location code such as <code className="">#1234</code> to a specific location.</td>
     </tr>
-    <tr>
-      <td><code>createdByEmailAddress</code></td>
-      <td>The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details.</td>
+    <tr className="">
+      <td className=""><code className="">createdByEmailAddress</code></td>
+      <td className="">The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details.</td>
     </tr>
-    <tr>
-      <td><code>externalGroupRef</code></td>
-      <td>An identifier for the restaurant group that is recognized by the partner that made the request to the <code>/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs">Using location and group identifiers</a>.</td>
+    <tr className="">
+      <td className=""><code className="">externalGroupRef</code></td>
+      <td className="">An identifier for the restaurant group that is recognized by the partner that made the request to the <code className="">/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs" className="">Using location and group identifiers</a>.</td>
     </tr>
-    <tr>
-      <td><code>externalRestaurantRef</code></td>
-      <td>An identifier for the restaurant location that is recognized by the partner that made the request to the <code>/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs">Using location and group identifiers</a>.</td>
+    <tr className="">
+      <td className=""><code className="">externalRestaurantRef</code></td>
+      <td className="">An identifier for the restaurant location that is recognized by the partner that made the request to the <code className="">/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs" className="">Using location and group identifiers</a>.</td>
     </tr>
-    <tr>
-      <td><code>isoCreatedDate</code></td>
-      <td>The date and time that the partner connection was created, expressed in ISO 8601 format.</td>
+    <tr className="">
+      <td className=""><code className="">isoCreatedDate</code></td>
+      <td className="">The date and time that the partner connection was created, expressed in ISO 8601 format.</td>
     </tr>
-    <tr>
-      <td><code>isoModifiedDate</code></td>
-      <td>The most recent date and time that the partner connection was edited, expressed in ISO 8601 format.</td>
+    <tr className="">
+      <td className=""><code className="">isoModifiedDate</code></td>
+      <td className="">The most recent date and time that the partner connection was edited, expressed in ISO 8601 format.</td>
     </tr>
-    <tr>
-      <td><code>createdDate</code></td>
-      <td>The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
+    <tr className="">
+      <td className=""><code className="">createdDate</code></td>
+      <td className="">The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
     </tr>
-    <tr>
-      <td><code>modifiedDate</code></td>
-      <td>The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
+    <tr className="">
+      <td className=""><code className="">modifiedDate</code></td>
+      <td className="">The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</td>
     </tr>
   </tbody>
 </table>
@@ -270,49 +270,49 @@ For each restaurant, the `/connectedRestaurants` JSON response data contains the
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>currentPageNum</code></td>
-      <td>The active page number from the return response.</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">currentPageNum</code></td>
+      <td className="">The active page number from the return response.</td>
     </tr>
-    <tr>
-      <td><code>totalResultCount</code></td>
-      <td>The total number of results in the response. This number matches <code>totalCount</code>.</td>
+    <tr className="">
+      <td className=""><code className="">totalResultCount</code></td>
+      <td className="">The total number of results in the response. This number matches <code className="">totalCount</code>.</td>
     </tr>
-    <tr>
-      <td><code>pageSize</code></td>
-      <td>The active page size used when viewing the response data. This can be modified using the <code>pageSize</code> query parameter.</td>
+    <tr className="">
+      <td className=""><code className="">pageSize</code></td>
+      <td className="">The active page size used when viewing the response data. This can be modified using the <code className="">pageSize</code> query parameter.</td>
     </tr>
-    <tr>
-      <td><code>currentPageToken</code></td>
-      <td>The token for the current page information snapshot. Refer to this if you need to return to this exact dataset.</td>
+    <tr className="">
+      <td className=""><code className="">currentPageToken</code></td>
+      <td className="">The token for the current page information snapshot. Refer to this if you need to return to this exact dataset.</td>
     </tr>
-    <tr>
-      <td><code>nextPageToken</code></td>
-      <td>The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset.</td>
+    <tr className="">
+      <td className=""><code className="">nextPageToken</code></td>
+      <td className="">The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset.</td>
     </tr>
-    <tr>
-      <td><code>totalCount</code></td>
-      <td>The total number of results in the response. This number matches <code>totalResultCount</code>.</td>
+    <tr className="">
+      <td className=""><code className="">totalCount</code></td>
+      <td className="">The total number of results in the response. This number matches <code className="">totalResultCount</code>.</td>
     </tr>
-    <tr>
-      <td><code>nextPageNum</code></td>
-      <td>The next available page in the response. <code>Null</code> if you have come to the end of available pages.</td>
+    <tr className="">
+      <td className=""><code className="">nextPageNum</code></td>
+      <td className="">The next available page in the response. <code className="">Null</code> if you have come to the end of available pages.</td>
     </tr>
-    <tr>
-      <td><code>lastPageNumber</code></td>
-      <td>The last available page in the response.</td>
+    <tr className="">
+      <td className=""><code className="">lastPageNumber</code></td>
+      <td className="">The last available page in the response.</td>
     </tr>
-    <tr>
-      <td><code>previousPageNum</code></td>
-      <td>The page number for the previous page in the response. <code>Null</code> when you are on the first page of the response.</td>
+    <tr className="">
+      <td className=""><code className="">previousPageNum</code></td>
+      <td className="">The page number for the previous page in the response. <code className="">Null</code> when you are on the first page of the response.</td>
     </tr>
   </tbody>
 </table>

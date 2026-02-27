@@ -52,33 +52,33 @@ Attributes in the `orders_updated` payload include:
 
 
 <div className="table-wrapper">
-<table>
-  <thead>
-    <tr>
-      <th>Value</th>
-      <th>Description</th>
+<table className="">
+  <thead className="">
+    <tr className="">
+      <th className="">Value</th>
+      <th className="">Description</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><code>timestamp</code></td>
-      <td>The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz. <br/> data type: string</td>
+  <tbody className="">
+    <tr className="">
+      <td className=""><code className="">timestamp</code></td>
+      <td className="">The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>eventCategory</code></td>
-      <td><code>order_updated</code> or <code>channel_order_updated</code>. <br/> data type: string</td>
+    <tr className="">
+      <td className=""><code className="">eventCategory</code></td>
+      <td className=""><code className="">order_updated</code> or <code className="">channel_order_updated</code>. <br/> data type: string</td>
     </tr>
-    <tr>
-      <td><code>eventType</code></td>
-      <td><code>order_updated</code> or <code>channel_order_updated</code>. <br/>  data type: string </td>
+    <tr className="">
+      <td className=""><code className="">eventType</code></td>
+      <td className=""><code className="">order_updated</code> or <code className="">channel_order_updated</code>. <br/>  data type: string </td>
     </tr>
-    <tr>
-      <td><code>guid</code></td>
-      <td>A unique Toast platform identifier for the webhook event. <br/> data type: string <br/> format: UUID</td>
+    <tr className="">
+      <td className=""><code className="">guid</code></td>
+      <td className="">A unique Toast platform identifier for the webhook event. <br/> data type: string <br/> format: UUID</td>
     </tr>
-    <tr>
-      <td><code>details</code></td>
-      <td>A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the <code>appliedPackagingInfo</code> object which describes any order packaging preferences.</td>
+    <tr className="">
+      <td className=""><code className="">details</code></td>
+      <td className="">A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the <code className="">appliedPackagingInfo</code> object which describes any order packaging preferences.</td>
     </tr>
   </tbody>
 </table>
