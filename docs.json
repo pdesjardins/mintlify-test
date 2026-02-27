@@ -1,122 +1,1434 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Mint Starter Kit",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.png",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Platform guide",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "docs/en-us/adminGuide-platformToastPlatformOverview",
+                            {
+                                "group": "Toast platform concepts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminAccessToastAdminBackend",
+                                    "docs/en-us/adminGuide-adminToastPosAccessTypes",
+                                    "docs/en-us/adminGuide-adminSoftwareComponents",
+                                    "docs/en-us/adminGuide-adminHardwareComponents",
+                                    "docs/en-us/adminGuide-adminDiningOptions",
+                                    "docs/en-us/adminGuide-adminConfigureDevice",
+                                    "docs/en-us/adminGuide-adminVerifyingDeviceStatusInfo",
+                                    "docs/en-us/adminGuide-techReleaseNotesLimitedRelease"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Orders",
+                        "pages": [
+                            {
+                                "group": "Orders overview",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformOrdersOverview",
+                                    "docs/en-us/adminGuide-platformOrdersPii"
+                                ]
+                            },
+                            {
+                                "group": "Order workflows and processing",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformOrdersCreateUpdate",
+                                    "docs/en-us/adminGuide-adminOrderStates",
+                                    "docs/en-us/adminGuide-platformOrdersTrackFulfillment",
+                                    "docs/en-us/adminGuide-platformOrdersSourceEffects"
+                                ]
+                            },
+                            {
+                                "group": "Viewing order details",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformOrdersDetailsReportsAbout",
+                                    "docs/en-us/adminGuide-platformOrdersDetailsDisplayFilter",
+                                    "docs/en-us/adminGuide-platformOrdersDetailsContentOverview",
+                                    "docs/en-us/adminGuide-platformOrdersDetailsLinks"
+                                ]
+                            },
+                            {
+                                "group": "Managing checks and orders",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminTransferringOrders",
+                                    "docs/en-us/adminGuide-platformOrdersSendToDevices",
+                                    "docs/en-us/adminGuide-adminViewingRestrictedOrders"
+                                ]
+                            },
+                            {
+                                "group": "Purging closed orders",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformPurgingOrdersOverview",
+                                    "docs/en-us/adminGuide-understandingHowOrdersAreSharedAndStored",
+                                    "docs/en-us/adminGuide-closingOrdersAsSoonAsPossible",
+                                    "docs/en-us/adminGuide-adminConfiguringTheOrderPurgerService",
+                                    "docs/en-us/adminGuide-adminManuallyPurgingClosedOrders"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Off-premise dining",
+                        "pages": [
+                            {
+                                "group": "Orders Hub",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformOrdersHubOverview",
+                                    "docs/en-us/adminGuide-platformUsingOrdersHub",
+                                    "docs/en-us/adminGuide-platformManagingDeliveryOrders",
+                                    "docs/en-us/adminGuide-platformOrdersHubFAQs"
+                                ]
+                            },
+                            {
+                                "group": "Online ordering hours",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminOnlineOrderingScheduleOverview",
+                                    "docs/en-us/adminGuide-adminConfigureOnlineOrderingHoursOverview",
+                                    "docs/en-us/adminGuide-adminSettingsForScheduledOrders",
+                                    "docs/en-us/adminGuide-adminMinimumLeadTimes",
+                                    "docs/en-us/adminGuide-adminManageOrderTimeSlots"
+                                ]
+                            },
+                            {
+                                "group": "Quote time strategy",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminQuoteTimeStrategyOverview",
+                                    "docs/en-us/adminGuide-adminQuoteTimeStrategies",
+                                    "docs/en-us/adminGuide-adminQuoteTimeStrategySettings",
+                                    "docs/en-us/adminGuide-adminUsingQuoteTimeStrategiesOffline"
+                                ]
+                            },
+                            {
+                                "group": "Toast Online Ordering",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminToastOnlineOrderingOverview",
+                                    "docs/en-us/adminGuide-adminViewingOnlineOrderingSettings",
+                                    "docs/en-us/adminGuide-adminOnlineOrderingDashboard",
+                                    "docs/en-us/adminGuide-adminFiringToastOnlineOrders",
+                                    "docs/en-us/adminGuide-adminDiningOptionsOnlineOrdering"
+                                ]
+                            },
+                            {
+                                "group": "Third-party online ordering channels",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformManagingThirdPartyOnlineOrderingChannels",
+                                    "docs/en-us/adminGuide-platformThirdPartyOnlineOrderingMenuVisibility"
+                                ]
+                            },
+                            {
+                                "group": "Autofiring",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformAutoFireDeviceOverview",
+                                    "docs/en-us/adminGuide-platformConfiguringAutoFireDevice",
+                                    "docs/en-us/adminGuide-platformReassigningAnAutoFireDevice"
+                                ]
+                            },
+                            {
+                                "group": "First-party delivery and Toast Delivery Services",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDeliveryOverview",
+                                    "docs/en-us/adminGuide-adminConfigureDelivery",
+                                    "docs/en-us/adminGuide-adminSetDeliveryMinimum",
+                                    "docs/en-us/adminGuide-adminConfigureDeliveryServiceCharge",
+                                    "docs/en-us/adminGuide-adminReimburseDriversAndCashBanks",
+                                    "docs/en-us/adminGuide-adminConfigureDeliveryArea",
+                                    "docs/en-us/adminGuide-adminConfigureDeliveryOnOnlineOrderingDashboard",
+                                    "docs/en-us/adminGuide-adminTDSNotificationsAndStatuses"
+                                ]
+                            },
+                            {
+                                "group": "Offline support",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminOfflineDelivery",
+                                    "docs/en-us/adminGuide-adminOfflineOnlineOrdering",
+                                    "docs/en-us/adminGuide-platformOfflineAutofireDevices",
+                                    "docs/en-us/adminGuide-platformOfflinePaymentProcessingForDigitalOrders"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Employees",
+                        "pages": [
+                            {
+                                "group": "Permissions",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminPermissions",
+                                    "docs/en-us/adminGuide-platformEmployeeJobs"
+                                ]
+                            },
+                            {
+                                "group": "Multi-factor authentication",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformMultiFactorAuthenticationOverview",
+                                    "docs/en-us/adminGuide-intAdminMfaEnablingAndDisabling",
+                                    "docs/en-us/adminGuide-intAdminMfaConfiguringQrCode",
+                                    "docs/en-us/adminGuide-intAdminMfaConfiguringSms",
+                                    "docs/en-us/adminGuide-adminResettingMultiFactorAuthentication"
+                                ]
+                            },
+                            {
+                                "group": "Job-based access",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformJobBasedAccessOverview",
+                                    "docs/en-us/adminGuide-platformManageJobBasedAccess",
+                                    "docs/en-us/adminGuide-platformJobBasedAccessOnPOS"
+                                ]
+                            },
+                            {
+                                "group": "Pre-shift notes",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformPreShiftNotes",
+                                    "docs/en-us/adminGuide-platformPreShiftNotesManageStaffNotes",
+                                    "docs/en-us/adminGuide-platformPreShiftNotesViewMenuItemStockStatuses"
+                                ]
+                            },
+                            {
+                                "group": "Text alerts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformTextAlertsOverview",
+                                    "docs/en-us/adminGuide-enablingAndConfiguringTextAlerts",
+                                    "docs/en-us/adminGuide-sendingAndReceivingTextAlerts"
+                                ]
+                            },
+                            {
+                                "group": "Tracking missed breaks and acknowledging breaks",
+                                "pages": [
+                                    "docs/en-us/adminGuide-portalEmployeeBreaksOverview",
+                                    "docs/en-us/adminGuide-adminEnablingMissedBreakTracking",
+                                    "docs/en-us/adminGuide-adminEnablingEmployeeBreakAcknowledgement",
+                                    "docs/en-us/adminGuide-adminViewingBreaksInLaborReports",
+                                    "docs/en-us/adminGuide-adminEffectOfAdjustingAnEmployeesTimeOrBreakEntries",
+                                    "docs/en-us/adminGuide-adminEffectOfAutoclockOutOnBreakEntries"
+                                ]
+                            },
+                            "docs/en-us/adminGuide-adminJobExclusion",
+                            {
+                                "group": "Offline support",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminOfflineEmployees"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Multiple restaurant locations",
+                        "pages": [
+                            "docs/en-us/adminGuide-sharingMenusAndOtherInformationAmongRestaurants",
+                            {
+                                "group": "Key enterprise concepts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-sessionRestaurant",
+                                    "docs/en-us/adminGuide-adminManagementGroup",
+                                    "docs/en-us/adminGuide-restaurantGroupsAndSubgroups",
+                                    "docs/en-us/adminGuide-versions",
+                                    "docs/en-us/adminGuide-targets",
+                                    "docs/en-us/adminGuide-ownersAndPermissions"
+                                ]
+                            },
+                            "docs/en-us/adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations",
+                            "docs/en-us/adminGuide-usingTheAdvancedPropertiesAndPriceEditorPages",
+                            "docs/en-us/adminGuide-publishingChangesForMultipleLocations",
+                            {
+                                "group": "Restaurant groups",
+                                "pages": [
+                                    "docs/en-us/adminGuide-creatingEditingAndHidingRestaurantGroups",
+                                    "docs/en-us/adminGuide-adminGroupRestaurantsConceptually",
+                                    "docs/en-us/adminGuide-understandingTheGiftRewardsCardProgramRestaurantGroup"
+                                ]
+                            },
+                            {
+                                "group": "Versions",
+                                "pages": [
+                                    "docs/en-us/adminGuide-creatingAVersionOfAConfigurationEntity",
+                                    "docs/en-us/adminGuide-viewingDifferentVersionsOfTheSameConfigurationEntity",
+                                    "docs/en-us/adminGuide-understandingHowAndWhenToUseVersioning",
+                                    "docs/en-us/adminGuide-versioningAtTheMenuGroupAndModifierGroupLevel",
+                                    "docs/en-us/adminGuide-versioningOfMenuItems",
+                                    "docs/en-us/adminGuide-versioningAConfigurationEntityDoesNotVersionItsChildren",
+                                    "docs/en-us/adminGuide-usingTheFewestVersionsPossible",
+                                    "docs/en-us/adminGuide-archivingAVersion",
+                                    "docs/en-us/adminGuide-versioningVersusCopying"
+                                ]
+                            },
+                            {
+                                "group": "Location-specific prices",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminLocationSpecificPriceOverview",
+                                    "docs/en-us/adminGuide-adminLocationSpecificPricesAndTheRestaurantGroupHierarchy",
+                                    "docs/en-us/adminGuide-adminLocationSpecificPricesAndVersions",
+                                    "docs/en-us/adminGuide-adminEnablingAndSettingLocationSpecificPrices",
+                                    "docs/en-us/adminGuide-adminDeletingLocationSpecificPrices",
+                                    "docs/en-us/adminGuide-adminUsingTheGlobalPriceEditorWithLocationSpecificPrices",
+                                    "docs/en-us/adminGuide-adminUsingPricingStrategiesWithLocationSpecificPrices"
+                                ]
+                            },
+                            {
+                                "group": "Menu-specific prices",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformMenuSpecificPricesForMultiLocationRestaurants",
+                                    "docs/en-us/adminGuide-platformAllVersionsOfAMenuUseTheSameMenuSpecificPrices",
+                                    "docs/en-us/adminGuide-platformEachVersionOfAMenuHasItsOwnMenuSpecificPrices",
+                                    "docs/en-us/adminGuide-platformAboutTheNumberColumn"
+                                ]
+                            },
+                            "docs/en-us/adminGuide-managingPrepStationsAndPrintersForEnterprises",
+                            {
+                                "group": "Tax rates for enterprises",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminCreatingMasterTaxRates",
+                                    "docs/en-us/adminGuide-manuallyAssigningApplicableTaxes",
+                                    "docs/en-us/adminGuide-usingDefaultTaxRatesAndInheritanceToAssignApplicableTaxes"
+                                ]
+                            },
+                            {
+                                "group": "Jobs and employees in enterprises",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminEnterpriseJobsAndEmployeesOverview",
+                                    "docs/en-us/adminGuide-adminApplyingJobsToTheRestaurantGroupHierarchy",
+                                    "docs/en-us/adminGuide-adminAssigningRestaurantAccess",
+                                    "docs/en-us/adminGuide-adminUnderstandingTheJobsAndPermissionsTabInEnterpriseEnvironments",
+                                    "docs/en-us/adminGuide-adminAssigningRestaurantGroupLevelPermissions",
+                                    "docs/en-us/adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises",
+                                    "docs/en-us/adminGuide-adminUnderstandingMenuEditingPermissionsForEnterprises",
+                                    "docs/en-us/adminGuide-adminExampleConfigurationForEnterprises"
+                                ]
+                            },
+                            {
+                                "group": "Reports for enterprises",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminEnterpriseReportsOverview",
+                                    "docs/en-us/adminGuide-adminUnderstandingDataAggregationEnterpriseReports",
+                                    "docs/en-us/adminGuide-adminUnderstandingVersionedEntitiesEnterpriseReports",
+                                    "docs/en-us/adminGuide-adminEnterpriseReportDetails",
+                                    "docs/en-us/adminGuide-adminExportingEnterpriseReports"
+                                ]
+                            },
+                            {
+                                "group": "Settings copy feature",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformSettingsCopyOverview",
+                                    "docs/en-us/adminGuide-platformSettingsCopyCopyingSettings",
+                                    "docs/en-us/adminGuide-platformSettingsCopyReviewingActivityTable"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Payments and money",
+                        "pages": [
+                            {
+                                "group": "Payment workflows",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformPwfOverview",
+                                    "docs/en-us/adminGuide-platformPwfDigitalReceipts",
+                                    "docs/en-us/adminGuide-platformPwfAdjustments",
+                                    "docs/en-us/adminGuide-platformPwfTenders"
+                                ]
+                            },
+                            {
+                                "group": "Credit card payments",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminCreditCardPayments",
+                                    "docs/en-us/adminGuide-adminCreditCardDeclinedMessageReference"
+                                ]
+                            },
+                            {
+                                "group": "Service charges",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminServiceChargeOverview",
+                                    "docs/en-us/adminGuide-adminServiceChargeType",
+                                    "docs/en-us/adminGuide-adminServiceChargeEligibility",
+                                    "docs/en-us/adminGuide-adminServiceChargeCalculation",
+                                    "docs/en-us/adminGuide-adminServiceChargeCreate",
+                                    "docs/en-us/adminGuide-adminServiceChargeViewing",
+                                    "docs/en-us/adminGuide-adminServiceChargeArchive"
+                                ]
+                            },
+                            {
+                                "group": "Refunds",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminRefundPermissionsLimitations",
+                                    "docs/en-us/adminGuide-adminRefundsAndVoids",
+                                    "docs/en-us/adminGuide-adminIssuingARefund",
+                                    "docs/en-us/adminGuide-adminRefundedItemsInTheKitchen",
+                                    "docs/en-us/adminGuide-adminViewingRefundsInToastReports"
+                                ]
+                            },
+                            {
+                                "group": "Cash management",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminCashManagementOverview",
+                                    "docs/en-us/adminGuide-adminCashDrawerSetup",
+                                    "docs/en-us/adminGuide-adminCashDrawers",
+                                    "docs/en-us/adminGuide-adminCashDrawerPOSOperations",
+                                    "docs/en-us/adminGuide-adminCashDrawerToastWebOperations",
+                                    "docs/en-us/adminGuide-adminUndoingOperations",
+                                    "docs/en-us/adminGuide-adminCashDrawerLockdown",
+                                    "docs/en-us/adminGuide-adminCashDeposits",
+                                    "docs/en-us/adminGuide-adminUserPermissionsCashMgmt",
+                                    "docs/en-us/adminGuide-platformDeprecatedCashManagement"
+                                ]
+                            },
+                            {
+                                "group": "Check management",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformCheckManagement",
+                                    "docs/en-us/adminGuide-adminClosingPaidChecks",
+                                    "docs/en-us/adminGuide-platformOrdersReopening",
+                                    "docs/en-us/adminGuide-adminVoidingOrders"
+                                ]
+                            },
+                            {
+                                "group": "House accounts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformHouseAccountsOverview",
+                                    "docs/en-us/adminGuide-platformViewHouseAccounts",
+                                    "docs/en-us/adminGuide-platformCreateNewHouseAccounts",
+                                    "docs/en-us/adminGuide-platformArchiveHouseAccount",
+                                    "docs/en-us/adminGuide-platformManageHouseAccountsInfo",
+                                    "docs/en-us/adminGuide-platformEnableHouseAccountsPaymentMethod",
+                                    "docs/en-us/adminGuide-platformPayHouseAccountBalance",
+                                    "docs/en-us/adminGuide-platformManageHouseAccounts",
+                                    "docs/en-us/adminGuide-platformViewHouseAccountsReporting"
+                                ]
+                            },
+                            {
+                                "group": "Shift review",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformShiftReviewOverview",
+                                    "docs/en-us/adminGuide-platformShiftReviewPermissions",
+                                    "docs/en-us/adminGuide-platformConfiguringShiftReview",
+                                    "docs/en-us/adminGuide-platformAccessingShiftReview",
+                                    "docs/en-us/adminGuide-platformCompletingShiftReview",
+                                    "docs/en-us/adminGuide-platformReopeningAShift",
+                                    "docs/en-us/adminGuide-platformReviewingEmployeeShifts",
+                                    "docs/en-us/adminGuide-performingShiftReviewWhenUsingDeviceGroups"
+                                ]
+                            },
+                            {
+                                "group": "Close out day",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformCloseOutDayOverview"
+                                ]
+                            },
+                            {
+                                "group": "Service report",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformServiceReport"
+                                ]
+                            },
+                            {
+                                "group": "Taxes",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminTaxesOverview",
+                                    "docs/en-us/adminGuide-adminPercentTaxRates",
+                                    "docs/en-us/adminGuide-adminFixedTaxRates",
+                                    "docs/en-us/adminGuide-adminTaxTableRates",
+                                    "docs/en-us/adminGuide-adminDisabledTaxRates",
+                                    "docs/en-us/adminGuide-adminTaxesOnModifiers",
+                                    "docs/en-us/adminGuide-adminSmartTax",
+                                    "docs/en-us/adminGuide-adminMarketplaceFacilitatorTaxPayments"
+                                ]
+                            },
+                            "docs/en-us/adminGuide-adminReceiptSetup",
+                            {
+                                "group": "Offline support",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformOfflinePaymentsOverview",
+                                    "docs/en-us/adminGuide-adminOfflineCCPayments",
+                                    "docs/en-us/adminGuide-adminCompletingShiftReviewOffline",
+                                    "docs/en-us/adminGuide-adminPendingTipsWhenOffline",
+                                    "docs/en-us/adminGuide-platformPostOutage"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Publishing",
+                        "pages": [
+                            "docs/en-us/adminGuide-platformPublishingOverview",
+                            "docs/en-us/adminGuide-platformChangesThatRequirePublishing",
+                            "docs/en-us/adminGuide-platformWhenToPublish",
+                            "docs/en-us/adminGuide-platformHowToPublish",
+                            {
+                                "group": "Publishing center",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformPublishingCenterOverview",
+                                    "docs/en-us/adminGuide-platformUnderstandingSavingAndPublishing",
+                                    "docs/en-us/adminGuide-platformManualAndScheduledPublishing",
+                                    "docs/en-us/adminGuide-platformUnderstandingScheduledPublishingAndChangeSets"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Menus",
+                        "pages": [
+                            "docs/en-us/adminGuide-adminMenuHierarchy",
+                            {
+                                "group": "Menu builder",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminMenuBuilderOverview",
+                                    "docs/en-us/adminGuide-adminBasicMenuBuilderAndTheLegacyMenuDetailsPages",
+                                    "docs/en-us/adminGuide-adminUnderstandingTheMenuHierarchy",
+                                    "docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenu",
+                                    "docs/en-us/adminGuide-adminAccessingTheBasicMenuBuilder",
+                                    "docs/en-us/adminGuide-adminCreatingYourMenuHierarchy",
+                                    "docs/en-us/adminGuide-adminAddingModifierGroupsAndModifiers",
+                                    "docs/en-us/adminGuide-adminSpecifyingACustomScheduleForAMenu",
+                                    "docs/en-us/adminGuide-platformDeterminingWhereAMenuItemIsUsed",
+                                    "docs/en-us/adminGuide-platformUnderstandingInheritance",
+                                    "docs/en-us/adminGuide-adminAddingImagesToMenuItems",
+                                    "docs/en-us/adminGuide-adminSettingInventoryStatusForMenuItems",
+                                    "docs/en-us/adminGuide-adminAssigningPOSButtonNicknameColorinMenuBuilder",
+                                    "docs/en-us/adminGuide-adminAssigningAlcoholLabelingToMenuItemsMenuBuilder",
+                                    "docs/en-us/adminGuide-adminAssigningPrepStationsMenuBuilder",
+                                    "docs/en-us/adminGuide-adminAssigningCourses",
+                                    "docs/en-us/adminGuide-adminAssigningSalesCategories",
+                                    "docs/en-us/adminGuide-adminAssigningTaxRatesInMenuBuilder",
+                                    "docs/en-us/adminGuide-platformSettingTimeBasedOrderingRulesForOnlineOrders",
+                                    "docs/en-us/adminGuide-adminSpecifyingOrderingChannelVisibility",
+                                    "docs/en-us/adminGuide-adminUsingAdvancedPricingStrategiesForMenuItemsMenuBuilder"
+                                ]
+                            },
+                            {
+                                "group": "Menu builder for multi-location restaurants",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformMenuBuilderForMultiLocationRestaurants",
+                                    "docs/en-us/adminGuide-platformAccessingMenuBuilderPagesForMultiLocationRestaurants",
+                                    "docs/en-us/adminGuide-platformSomeMenuFeaturesAreOnlyAvailableOnTheMenuBuilderPages",
+                                    "docs/en-us/adminGuide-platformMultilocationFeaturesOnTheMenuBuilderPages",
+                                    "docs/en-us/adminGuide-platformSavingChangesToMultipleVersionsOfAMenuItem",
+                                    "docs/en-us/adminGuide-platformHowVersionedConfigurationsAreDisplayedOnTheMenuBuilderPages"
+                                ]
+                            },
+                            {
+                                "group": "POS layout view",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformPosLayoutViewOverview",
+                                    "docs/en-us/adminGuide-platformAccessingPosLayoutView"
+                                ]
+                            },
+                            {
+                                "group": "Menu manager",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformBulkMenuManagerOverview",
+                                    "docs/en-us/adminGuide-platformAccessingTheMenuManager",
+                                    "docs/en-us/adminGuide-platformUnderstandingMenuHierarchyMenuManager",
+                                    "docs/en-us/adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages",
+                                    "docs/en-us/adminGuide-platformMenuManagerPermissions",
+                                    "docs/en-us/adminGuide-platformMenuManagerMenuAndMultiLocationRestaurants",
+                                    "docs/en-us/adminGuide-platformMenuManagerViewingOptions",
+                                    "docs/en-us/adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities",
+                                    "docs/en-us/adminGuide-platformMenuManagerSavingChangesInTheMenuManager",
+                                    "docs/en-us/adminGuide-adminUnderstandingWhenToPublishYourMenuMenuManager",
+                                    "docs/en-us/adminGuide-platformMenuManagerUsingAndCustomizingTheMenuManagerViews",
+                                    "docs/en-us/adminGuide-platformUnderstandingInheritanceMenuManager",
+                                    "docs/en-us/adminGuide-platformMenuManagerWorkingWithMenus",
+                                    "docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuGroups",
+                                    "docs/en-us/adminGuide-platformMenuManagerWorkingWithMenuItems",
+                                    "docs/en-us/adminGuide-platformWorkingWithModifierGroupsMenuManager",
+                                    "docs/en-us/adminGuide-platformWorkingWithModifiersMenuManager",
+                                    "docs/en-us/adminGuide-platformMenuManagerWorkingWithPriceLevels",
+                                    "docs/en-us/adminGuide-platformMenuManagerMakingBulkEdits",
+                                    "docs/en-us/adminGuide-platformPublishingMenuManagerChanges",
+                                    "docs/en-us/adminGuide-platformWorkingWithMenuManagerChangeSets",
+                                    "docs/en-us/adminGuide-platformColumnsInTheMenuManagerViews",
+                                    "docs/en-us/adminGuide-platformMenuManagerLimitations"
+                                ]
+                            },
+                            {
+                                "group": "Menu visibility",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminMenuVisibilityOverview",
+                                    "docs/en-us/adminGuide-adminVisibilitySettings",
+                                    "docs/en-us/adminGuide-platformVisibilitySettingsAreNotInherited",
+                                    "docs/en-us/adminGuide-platformRestrictingMenuVisibilityToSpecificOnlineOrderingPartnersLegacy",
+                                    "docs/en-us/adminGuide-adminRequiredModifierGroupsAndVisibilitySettingsLegacy",
+                                    "docs/en-us/adminGuide-adminMinimumModifiersAndVisibilitySettingsLegacy"
+                                ]
+                            },
+                            {
+                                "group": "Menu pricing",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminToastPosPricingFeatures",
+                                    "docs/en-us/adminGuide-adminNoteAboutPublishingPrices",
+                                    "docs/en-us/adminGuide-adminPricingMenuItems",
+                                    "docs/en-us/adminGuide-adminPricingModifierOptions",
+                                    "docs/en-us/adminGuide-adminToastProductChannelSupportForAdvancedPricingFeatures",
+                                    "docs/en-us/adminGuide-adminPricingStrategies",
+                                    "docs/en-us/adminGuide-adminUsingThePriceEditor",
+                                    "docs/en-us/adminGuide-adminUsingPriceLevels",
+                                    "docs/en-us/adminGuide-adminDiscountsAndPricing"
+                                ]
+                            },
+                            {
+                                "group": "Pricing strategies",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminPricingStrategiesOverview",
+                                    "docs/en-us/adminGuide-adminBasePrice",
+                                    "docs/en-us/adminGuide-adminTimeSpecificPrice",
+                                    "docs/en-us/adminGuide-adminMenuSpecificPrice",
+                                    "docs/en-us/adminGuide-adminLocationSpecificPrice",
+                                    "docs/en-us/adminGuide-adminOpenPrice",
+                                    "docs/en-us/adminGuide-adminFixedPrice",
+                                    "docs/en-us/adminGuide-adminSequencePrice",
+                                    "docs/en-us/adminGuide-adminSizePrice",
+                                    "docs/en-us/adminGuide-adminSizeSequencePrice",
+                                    "docs/en-us/adminGuide-adminStackingPricingStrategies"
+                                ]
+                            },
+                            "docs/en-us/adminGuide-platformMenuAlcoholLabeling",
+                            {
+                                "group": "Menu item inventory",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminMenuItemInventoryOverview",
+                                    "docs/en-us/adminGuide-adminInventoryUpdateBackend",
+                                    "docs/en-us/adminGuide-adminInventoryUpdateQuickEdit",
+                                    "docs/en-us/adminGuide-adminMenuInventory86Report"
+                                ]
+                            },
+                            {
+                                "group": "Modifier group display order",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformModifierGroupDisplayOrderOverview",
+                                    "docs/en-us/adminGuide-adminSettingsAndConditionsThatAffectModifierGroupDisplay",
+                                    "docs/en-us/adminGuide-adminUnderstandingModifierGroupDisplay",
+                                    "docs/en-us/adminGuide-adminEnsuringImportantModifierGroupsDisplayFirst"
+                                ]
+                            },
+                            {
+                                "group": "Portions",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminPortionsOverview",
+                                    "docs/en-us/adminGuide-adminDefaultPricingOfModifiersAppliedToPortions",
+                                    "docs/en-us/adminGuide-platformAlteringThePriceOfAModifierAppliedToAPortion",
+                                    "docs/en-us/adminGuide-adminConfiguringPortions",
+                                    "docs/en-us/adminGuide-adminUsingPortionsInTheToastPosApp"
+                                ]
+                            },
+                            {
+                                "group": "Items database",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformItemsDatabaseOverview",
+                                    "docs/en-us/adminGuide-platformItemsDatabaseExport"
+                                ]
+                            },
+                            {
+                                "group": "Bulk menu imports",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformBulkImportToolOverview",
+                                    "docs/en-us/adminGuide-platformUnderstandingImportOperations",
+                                    "docs/en-us/adminGuide-platformCreatingModifierGroupsInABulkImport",
+                                    "docs/en-us/adminGuide-platformCreatingModifiersWithTheAdvancedTemplate",
+                                    "docs/en-us/adminGuide-platformUnderstandingTheOperationId",
+                                    "docs/en-us/adminGuide-platformSpecifyingToastIdentifiers",
+                                    "docs/en-us/adminGuide-platformFillingOutTheBulkImportSpreadsheet",
+                                    "docs/en-us/adminGuide-platformButtonColors",
+                                    "docs/en-us/adminGuide-platformUploadingTheBulkImportCsvFile",
+                                    "docs/en-us/adminGuide-platformFixingImportFailures",
+                                    "docs/en-us/adminGuide-platformAdvancedTemplateExamples",
+                                    "docs/en-us/adminGuide-platformBulkImportLimitations"
+                                ]
+                            },
+                            {
+                                "group": "Delphi digital menu boards",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformCreatingAMenuForADigitalMenuBoard"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Discounts",
+                        "pages": [
+                            "docs/en-us/adminGuide-platformDiscountsOverview",
+                            "docs/en-us/adminGuide-adminDiscountTypes",
+                            {
+                                "group": "Creating and updating discounts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDiscountsDesigningDiscounts",
+                                    "docs/en-us/adminGuide-adminAvailableDiscounts",
+                                    "docs/en-us/adminGuide-discountsAddingOrUpdatingToastDiscounts",
+                                    "docs/en-us/adminGuide-adminCopyingDiscounts",
+                                    "docs/en-us/adminGuide-adminDiscountConfigReference"
+                                ]
+                            },
+                            {
+                                "group": "Configuring type-specific settings for a discount",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDiscountsConfigFixedOpenDiscounts",
+                                    "docs/en-us/adminGuide-adminDiscountsConfigureBogo",
+                                    "docs/en-us/adminGuide-adminDiscountsConfigureCombo"
+                                ]
+                            },
+                            {
+                                "group": "Choosing the required items for a discount",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDiscountRequiredItemsAbout",
+                                    "docs/en-us/adminGuide-adminDiscountSingleItemTriggers",
+                                    "docs/en-us/adminGuide-adminDiscountMenuGroupTriggers",
+                                    "docs/en-us/adminGuide-adminDiscountsCombiningTriggers",
+                                    "docs/en-us/adminGuide-adminCombinationPricingAndMenuGroups",
+                                    "docs/en-us/adminGuide-adminDiscountsMenuGroupsVaryingPrices"
+                                ]
+                            },
+                            {
+                                "group": "Configuring discount availability and status",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDiscountAvailability",
+                                    "docs/en-us/adminGuide-adminDiscountsMinMax",
+                                    "docs/en-us/adminGuide-adminDiscountsActiveInactive",
+                                    "docs/en-us/adminGuide-adminDiscountsArchive"
+                                ]
+                            },
+                            {
+                                "group": "Managing how discounts are applied",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDiscountsPosDisplay",
+                                    "docs/en-us/adminGuide-adminDiscountsRequireManager",
+                                    "docs/en-us/adminGuide-adminDiscountPromoCodes",
+                                    "docs/en-us/adminGuide-adminDiscountReasons",
+                                    "docs/en-us/adminGuide-adminAutoApplyDiscounts"
+                                ]
+                            },
+                            {
+                                "group": "Effects of applied discounts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDiscountPricing",
+                                    "docs/en-us/adminGuide-adminDiscountExclusivity",
+                                    "docs/en-us/adminGuide-adminBulkDiscounts"
+                                ]
+                            },
+                            "docs/en-us/adminGuide-adminDiscountsTargetsAndOwners"
+                        ]
+                    },
+                    {
+                        "group": "Kitchen operations and fulfillment",
+                        "pages": [
+                            {
+                                "group": "Kitchen configuration",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminAddPrepStation",
+                                    "docs/en-us/adminGuide-platformKDSCreatingAssemblyLines",
+                                    "docs/en-us/adminGuide-adminAddKitchenPrinter",
+                                    "docs/en-us/adminGuide-adminAssignPrepStationKDS",
+                                    "docs/en-us/adminGuide-platformKitchenConfiguringTickets",
+                                    "docs/en-us/adminGuide-platformKitchenTextMessaging"
+                                ]
+                            },
+                            {
+                                "group": "Item and order routing",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformKitchenRoutingOverview",
+                                    "docs/en-us/adminGuide-adminRoutingToPrepStations",
+                                    "docs/en-us/adminGuide-platformKDSRoutingUsingAssemblyLines",
+                                    "docs/en-us/adminGuide-adminAboutItemRoutingRules",
+                                    "docs/en-us/adminGuide-adminMonitoringTicketsOtherPrepStations",
+                                    "docs/en-us/adminGuide-adminPreventingTicketsFromPrinting"
+                                ]
+                            },
+                            {
+                                "group": "Pacing and timing",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminInterpretingTicketTimes",
+                                    "docs/en-us/adminGuide-adminFireByPrepTime",
+                                    "docs/en-us/adminGuide-platformKitchenAvgFullfillmentTimer",
+                                    "docs/en-us/adminGuide-platformKDSCalculatePrepStationFulfillTime",
+                                    "docs/en-us/adminGuide-platformKdsStartQueue"
+                                ]
+                            },
+                            {
+                                "group": "Using the kitchen display system",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformKDSOverview",
+                                    "docs/en-us/adminGuide-adminRoutingOrdersKitchen",
+                                    "docs/en-us/adminGuide-adminUsingExpo",
+                                    "docs/en-us/adminGuide-adminUnderstandingOrderInfoAppearsKDSTickets",
+                                    "docs/en-us/adminGuide-platformKitchenUnderstandingItemFulfillmentKDS",
+                                    "docs/en-us/adminGuide-adminReportingTotalsKDS",
+                                    "docs/en-us/adminGuide-adminRedisplayingTickets",
+                                    "docs/en-us/adminGuide-adminKdsTicketDisplayOptions"
+                                ]
+                            },
+                            {
+                                "group": "KDS device bump bar integration",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformKitchenBumpBarIntegrationOverview",
+                                    "docs/en-us/adminGuide-platformKitchenBumpBarSetUp",
+                                    "docs/en-us/adminGuide-platformKitchenUsingBumpBars",
+                                    "docs/en-us/adminGuide-platformKitchenBumpBarGuidelines"
+                                ]
+                            },
+                            {
+                                "group": "Workflow examples",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformKDSWorkflowUsingSingleExpo",
+                                    "docs/en-us/adminGuide-platformKDSWorkflowUsingTwoExpo",
+                                    "docs/en-us/adminGuide-platformKDSWorkflowUsingCourses",
+                                    "docs/en-us/adminGuide-platformKDSWorkflowUsingCoursePacing",
+                                    "docs/en-us/adminGuide-platformKDSWorkflowWithRoutingRules",
+                                    "docs/en-us/adminGuide-platformKDSWorkflowWithSingleExpoAndPrepStationPrinters",
+                                    "docs/en-us/adminGuide-platformKdsWorkflowUsingStartQueue",
+                                    "docs/en-us/adminGuide-platformGridKDSWorkflow"
+                                ]
+                            },
+                            {
+                                "group": "Troubleshooting the preparation workflow",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminTroubleshootPrepStationRouting",
+                                    "docs/en-us/adminGuide-adminTroubleshootExpoRouting",
+                                    "docs/en-us/adminGuide-adminVerifyDeviceSetup",
+                                    "docs/en-us/adminGuide-adminVerifyPrinterAssignments",
+                                    "docs/en-us/adminGuide-adminVerifyAutomatedItemFiring"
+                                ]
+                            },
+                            {
+                                "group": "Kitchen configuration reference",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminKitchenDiningRoomReference",
+                                    "docs/en-us/adminGuide-adminKdsConfigQuickRef"
+                                ]
+                            },
+                            {
+                                "group": "Offline support",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformOfflineKDSDevices",
+                                    "docs/en-us/adminGuide-platformKitchenPrintersOffline"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Network connections",
+                        "pages": [
+                            {
+                                "group": "Offline support",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminOfflineModeOverview",
+                                    "docs/en-us/adminGuide-platformOfflineMode",
+                                    "docs/en-us/adminGuide-platformOfflineModeLocalSync"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Integrations",
+                        "pages": [
+                            "docs/en-us/adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations",
+                            {
+                                "group": "Data export files",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminDataExportOverview",
+                                    "docs/en-us/adminGuide-adminSshKeys",
+                                    "docs/en-us/adminGuide-configuringExports",
+                                    "docs/en-us/adminGuide-downloading_data_export_files",
+                                    "docs/en-us/adminGuide-adminDataExportSecurity",
+                                    "docs/en-us/adminGuide-adminDataExportFieldReference"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Guests",
+                        "pages": [
+                            {
+                                "group": "Guest checks and data",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminGuestDataOverview",
+                                    "docs/en-us/adminGuide-adminSearchingGuestChecks",
+                                    "docs/en-us/adminGuide-adminAddingCustomers",
+                                    "docs/en-us/adminGuide-adminChangeCustomerPhone",
+                                    "docs/en-us/adminGuide-adminUsingCustomerInformationScreen"
+                                ]
+                            },
+                            {
+                                "group": "Guest credit",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminGuestCreditOverview",
+                                    "docs/en-us/adminGuide-adminEnablingCustomerCredits",
+                                    "docs/en-us/adminGuide-adminConfigurePermissionsCustomerCredits",
+                                    "docs/en-us/adminGuide-adminAddingCustomerCreditValue",
+                                    "docs/en-us/adminGuide-adminRedeemCustomerCredit",
+                                    "docs/en-us/adminGuide-adminConfiguringCustomerCreditExpiration",
+                                    "docs/en-us/adminGuide-adminReportCustomerCredits"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "UI options",
+                        "pages": [
+                            {
+                                "group": "UI options",
+                                "pages": [
+                                    "docs/en-us/adminGuide-adminUiOptionsReference"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Developer guide",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            {
+                                "group": "Choose your integration type",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiIntegrationTypes"
+                                ]
+                            },
+                            {
+                                "group": "If you're an integration partner",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiPartnerIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-integrationDevProcess",
+                                    "docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants",
+                                    "docs/en-us/apiDevGuide-apiDeveloperPortal",
+                                    "docs/en-us/apiDevGuide-apiEnvironments"
+                                ]
+                            },
+                            {
+                                "group": "If you're a custom integration developer",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiCustomIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiDeveloperPortalCustomIntegrations",
+                                    "docs/en-us/apiDevGuide-apiEnvironmentsCustomIntegrations"
+                                ]
+                            },
+                            {
+                                "group": "If you're a standard API access developer",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-devApiAccessUserGuide",
+                                    "docs/en-us/apiDevGuide-devApiAccessRequirements",
+                                    "docs/en-us/apiDevGuide-devApiAccessScopes",
+                                    "docs/en-us/apiDevGuide-devApiAccessResources",
+                                    "docs/en-us/apiDevGuide-devApiAccessCredentials",
+                                    "docs/en-us/apiDevGuide-devApiAccessWebhookSubscriptions",
+                                    "docs/en-us/apiDevGuide-devApiAccessFAQs",
+                                    "docs/en-us/apiDevGuide-devApiAccessSupportStandardApiAccess"
+                                ]
+                            },
+                            {
+                                "group": "If you're an analytics API developer",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsAccessOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsAccessCreatingCredentials"
+                                ]
+                            },
+                            {
+                                "group": "API overview",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiOverview"
+                                ]
+                            },
+                            {
+                                "group": "Authentication",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-authentication",
+                                    "docs/en-us/apiDevGuide-apiAuthTokenRefresh",
+                                    "docs/en-us/apiDevGuide-apiAuthenticationRateLimit"
+                                ]
+                            },
+                            {
+                                "group": "General Toast API information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingRestApis",
+                                    "docs/en-us/apiDevGuide-portalHowToBuildAToastIntegration",
+                                    "docs/en-us/apiDevGuide-apiUpdatesEmailDistributionList",
+                                    "docs/en-us/apiDevGuide-apiClientAccounts",
+                                    "docs/en-us/apiDevGuide-apiRateLimiting",
+                                    "docs/en-us/apiDevGuide-portalToastIdentifiers",
+                                    "docs/en-us/apiDevGuide-api_dates_and_timestamps",
+                                    "docs/en-us/apiDevGuide-apiToastApisAndTheEnterpriseModule",
+                                    "docs/en-us/apiDevGuide-apiResponseDataPagination",
+                                    "docs/en-us/apiDevGuide-apiScopes",
+                                    "docs/en-us/apiDevGuide-apiResponsesAndErrors",
+                                    "docs/en-us/apiDevGuide-apiExampleRequests",
+                                    "docs/en-us/apiDevGuide-apiDeployment",
+                                    "docs/en-us/apiDevGuide-apiHandlingDowntimes",
+                                    "docs/en-us/apiDevGuide-apiApiUpdatesMayRequirePublishes",
+                                    "docs/en-us/apiDevGuide-apiDeprecatedApiFunctions"
+                                ]
+                            },
+                            {
+                                "group": "Checklists and test plans",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiIntegrationChecklists",
+                                    "docs/en-us/apiDevGuide-checklistsforSpecificIntegrationFunctionality",
+                                    "docs/en-us/apiDevGuide-integrationTestPlans"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Orders",
+                        "pages": [
+                            {
+                                "group": "About the orders API",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-portalOrdersApiOverview",
+                                    "docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary",
+                                    "docs/en-us/apiDevGuide-apiOrdersFirstOrder",
+                                    "docs/en-us/apiDevGuide-apiOrdersErrors"
+                                ]
+                            },
+                            {
+                                "group": "Getting order information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiOrdersGetScopes",
+                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder",
+                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersNetSalesCalculation",
+                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation",
+                                    "docs/en-us/apiDevGuide-apiOrdersFindingAnOrderGuid",
+                                    "docs/en-us/apiDevGuide-apiDailyOrderForTrackingExcessFood"
+                                ]
+                            },
+                            {
+                                "group": "Updating order information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiCreatingOrders",
+                                    "docs/en-us/apiDevGuide-apiVoidOrder",
+                                    "docs/en-us/apiDevGuide-apiUsingMultiLocationIdsInOrders",
+                                    "docs/en-us/apiDevGuide-apiOrderTypeDetails",
+                                    "docs/en-us/apiDevGuide-apiSpecifyingModifiersAndInstructions",
+                                    "docs/en-us/apiDevGuide-apiOrdersPackagingPreferences",
+                                    "docs/en-us/apiDevGuide-apiOrderPrices",
+                                    "docs/en-us/apiDevGuide-apiDiscountingOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersRevenueCenters",
+                                    "docs/en-us/apiDevGuide-orders_api_future_orders",
+                                    "docs/en-us/apiDevGuide-calculatingOrderWaitTime",
+                                    "docs/en-us/apiDevGuide-apiAddingItemsToACheck",
+                                    "docs/en-us/apiDevGuide-apiAddingPaymentsToACheck",
+                                    "docs/en-us/apiDevGuide-apiUpdatingTipsInAPayment",
+                                    "docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder",
+                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersDeferredMenuItems"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Payments",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-portalApiPaymentsOverview",
+                            {
+                                "group": "Getting payment information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAllPaymentsInRestaurants",
+                                    "docs/en-us/apiDevGuide-apiPaymentntInformation"
+                                ]
+                            },
+                            {
+                                "group": "Updating payment information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiSubmittingPaymentsIntro",
+                                    "docs/en-us/apiDevGuide-authorizingCcPayments",
+                                    "docs/en-us/apiDevGuide-apiCreatingAnOrderWithPaymentInformation"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Menus",
+                        "pages": [
+                            {
+                                "group": "About the menus API",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI",
+                                    "docs/en-us/apiDevGuide-apiComparingMenusAPIV2AndV3",
+                                    "docs/en-us/apiDevGuide-apiMenusApiStructureMirrorsToastAdministrationBackEndStructure",
+                                    "docs/en-us/apiDevGuide-apiUsingMenusApiDataToConstructValidOrders",
+                                    "docs/en-us/apiDevGuide-apiMenusApiSupportsDataRetrievalOnly",
+                                    "docs/en-us/apiDevGuide-apiMenusApiReturnsPublishedDataOnly",
+                                    "docs/en-us/apiDevGuide-apiEnsuringYourMenuDataIsUpToDate",
+                                    "docs/en-us/apiDevGuide-apiUnderstandingTheOrderInWhichModifierGroupsAreReturned",
+                                    "docs/en-us/apiDevGuide-apiMenusApiSupersedesConfigApiAndMenuDataExport"
+                                ]
+                            },
+                            {
+                                "group": "Getting menu information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2",
+                                    "docs/en-us/apiDevGuide-apiMenusApiRateLimit_V2",
+                                    "docs/en-us/apiDevGuide-apiMenusApiReturnsFullyResolvedJson_V2",
+                                    "docs/en-us/apiDevGuide-apiDetectingAndAvoidingInfiniteLoopsInTheMenusApiJson",
+                                    "docs/en-us/apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2",
+                                    "docs/en-us/apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2",
+                                    "docs/en-us/apiDevGuide-apiUsingTaxInfoAndModifierOptionTaxInfoToCalculateTaxesForMenuItemsAndModOptions",
+                                    "docs/en-us/apiDevGuide-apiUsingMenusApiDataToSubmitProperlyFormedOrders_V2",
+                                    "docs/en-us/apiDevGuide-apiDeterminingIfMenuItemsOrModifiersContainAlcohol",
+                                    "docs/en-us/apiDevGuide-apiDeterminingIfAMenuEntityShouldBeVisibleOnAnOrderingPartnerSite_V2",
+                                    "docs/en-us/apiDevGuide-apiPosButtonColorHexCodesForLightAndDarkMode",
+                                    "docs/en-us/apiDevGuide-apiComparingTheMenusApiWithTheConfigurationApiAndMenuJsonExport_V2",
+                                    "docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2",
+                                    "docs/en-us/apiDevGuide-apiMenusApiTroubleshooting_V2",
+                                    "docs/en-us/apiDevGuide-menu_information_config_api"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Stock",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-apiStock",
+                            {
+                                "group": "Getting stock information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingTheStockWebhook",
+                                    "docs/en-us/apiDevGuide-apiUsingTheStockApi"
+                                ]
+                            },
+                            {
+                                "group": "Updating stock information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUpdatingInventoryInformation"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Restaurant info",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-apiRestaurantInfo",
+                            "docs/en-us/apiDevGuide-apiRestaurantBusinessDate",
+                            {
+                                "group": "Getting restaurant info",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiRestaurantsInGroup",
+                                    "docs/en-us/apiDevGuide-apiRestaurantInformation",
+                                    "docs/en-us/apiDevGuide-apiRestaurantOnlineOrderingInfo",
+                                    "docs/en-us/apiDevGuide-apiGettingOnlineOrderingSchedules",
+                                    "docs/en-us/apiDevGuide-apiGettingRxOnlineOrderingAvailability"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Employees",
+                        "pages": [
+                            {
+                                "group": "Getting employee information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-api_get_all_employees",
+                                    "docs/en-us/apiDevGuide-apiGettingTimeEntriesForEmployees",
+                                    "docs/en-us/apiDevGuide-apiGettingShiftAssignmentsForEmployees"
+                                ]
+                            },
+                            {
+                                "group": "Updating employee information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAddingAnEmployee",
+                                    "docs/en-us/apiDevGuide-apiAddingAShiftAndAssigningIt",
+                                    "docs/en-us/apiDevGuide-apiArchivingAnEmployee",
+                                    "docs/en-us/apiDevGuide-apiUnarchivingAnEmployee"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Cash management",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
+                            {
+                                "group": "Getting cash management information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingCashManagementApi",
+                                    "docs/en-us/apiDevGuide-apiGetCashDeposits",
+                                    "docs/en-us/apiDevGuide-apiCalculatingExpectedCashDeposits"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Webhooks",
+                        "pages": [
+                            {
+                                "group": "Using webhooks",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiWebhookBasics",
+                                    "docs/en-us/apiDevGuide-apiEndpointRequirements",
+                                    "docs/en-us/apiDevGuide-apiSubscriptions",
+                                    "docs/en-us/apiDevGuide-apiMessageDataSchema",
+                                    "docs/en-us/apiDevGuide-apiHttpHeaders",
+                                    "docs/en-us/apiDevGuide-apiTimeouts",
+                                    "docs/en-us/apiDevGuide-apiRetrySupport",
+                                    "docs/en-us/apiDevGuide-apiMessageSigning"
+                                ]
+                            },
+                            {
+                                "group": "Webhooks reference",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiWebhooksReference",
+                                    "docs/en-us/apiDevGuide-apiGuestOrderFulfillmentStatusWebhook",
+                                    "docs/en-us/apiDevGuide-apiMenusWebhook",
+                                    "docs/en-us/apiDevGuide-devOrdersWebhookRef",
+                                    "docs/en-us/apiDevGuide-apiPackagingPreferencesConfigWebhook",
+                                    "docs/en-us/apiDevGuide-apiPartnersWebhook",
+                                    "docs/en-us/apiDevGuide-apiRxAvailabilityWebhook",
+                                    "docs/en-us/apiDevGuide-apiRxOnlineOrderingScheduleWebhook",
+                                    "docs/en-us/apiDevGuide-apiStockWebhook"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Outbound integrations",
+                        "pages": [
+                            {
+                                "group": "Outbound API overview",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingToastOutboundApis",
+                                    "docs/en-us/apiDevGuide-apiAuthenticatingRequestsFromToastApiClients"
+                                ]
+                            },
+                            {
+                                "group": "Gift Card Integrations",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationWorkflow",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationAuthentication",
+                                    "docs/en-us/apiDevGuide-apiPhysicalGiftCardRequirements",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationReferenceApiImplementation"
+                                ]
+                            },
+                            {
+                                "group": "Loyalty program integrations",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiLoyaltyProgramIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyTransactionDescriptions",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyPosWorkflow",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyKioskWorkflow",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyDiscountProcessing",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyErrorHandling",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyLatencyRequirements",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationNetworkFailureAndIdempotence",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationAuthentication"
+                                ]
+                            },
+                            {
+                                "group": "Tender provider integrations",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiTenderProviderIntegrationsOverview",
+                                    "docs/en-us/apiDevGuide-apiTenderPmsIntegration",
+                                    "docs/en-us/apiDevGuide-apiTenderScanToPay"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Analytics",
+                        "pages": [
+                            {
+                                "group": "About the analytics API",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsUnderstandingProcess",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsScope",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsRateLimiting",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsDataDiscrepancies",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData"
+                                ]
+                            },
+                            {
+                                "group": "Aggregated sales reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataAggregation",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Check reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Labor reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataAggregation",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Menu reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataAggregation",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Payout reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData"
+                                ]
+                            },
+                            {
+                                "group": "Guest reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataUnderstandData"
+                                ]
+                            },
+                            {
+                                "group": "Restaurant information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Integration how-to guides",
+                "groups": [
+                    {
+                        "group": "Recipes",
+                        "pages": [
+                            {
+                                "group": "Building integrations",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistGeneral"
+                                ]
+                            },
+                            {
+                                "group": "Employees",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistEmployee",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistShift"
+                                ]
+                            },
+                            {
+                                "group": "Gift cards",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiHowToGiftCard"
+                                ]
+                            },
+                            {
+                                "group": "Loyalty",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiHowToLoyalty"
+                                ]
+                            },
+                            {
+                                "group": "Ordering",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistOrdering",
+                                    "docs/en-us/devCookbook-apiBuildingDigitalSignage",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistDelivery"
+                                ]
+                            },
+                            {
+                                "group": "Reports",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistTemplate",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistPayroll",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistAccounting",
+                                    "docs/en-us/devCookbook-apiHowToCashReports",
+                                    "docs/en-us/devCookbook-apiHowToReporting",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistInventory",
+                                    "docs/en-us/devCookbook-apiHowToBuildACrmGuestEngagementIntegration"
+                                ]
+                            },
+                            {
+                                "group": "Reservations",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistReservation"
+                                ]
+                            },
+                            {
+                                "group": "Security",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistSecurity"
+                                ]
+                            },
+                            {
+                                "group": "Webhooks",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiWebhookUsageChecklist"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API reference",
+                "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-payment-nexus-api.yaml"
+            }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+    },
+    "logo": {
+        "light": "/logo/toast-logo_color.svg",
+        "dark": "/logo/toast-logo_white.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
         }
-      ]
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "linkedin": "https://www.linkedin.com/company/toast-inc/"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
