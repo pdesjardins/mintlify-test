@@ -49,12 +49,12 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e672109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(1)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e672109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(1)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e692109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(2)</a></td>
-      <td className="">Specify the location GUID of the restaurant whose online ordering availability you want to retrieve.</td>
+      <td className=""><div className=""><a href="#co-d1e692109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the location GUID of the restaurant whose online ordering availability you want to retrieve.</div></td>
     </tr>
   
 **Example 6.10. Ordering availability response for an online restaurant**

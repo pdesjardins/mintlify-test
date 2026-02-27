@@ -67,20 +67,20 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/day' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e6955E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></td>
-      <td className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/payout/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">day</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e6955E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/payout/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">day</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e6957E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e6957E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e6959E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></td>
-      <td className="">Set the data type of the message body to <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e6959E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></div></td>
+      <td className=""><div className="">Set the data type of the message body to <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e6961E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></td>
-      <td className="">Include details about the requested payout reporting data, organized by settled date, in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</td>
+      <td className=""><div className=""><a href="#co-d1e6961E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></div></td>
+      <td className=""><div className="">Include details about the requested payout reporting data, organized by settled date, in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</div></td>
     </tr>
 ### Message body for payout reporting data by settled date
 
@@ -99,20 +99,20 @@ The following example shows the message body for creating a payout reporting dat
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e7003E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></td>
-      <td className="">The start date of the time range for the payout reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e7003E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
+      <td className=""><div className="">The start date of the time range for the payout reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7005E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></td>
-      <td className="">The end date of the time range for the payout reporting data, in <code className="">YYYYMMDD</code> format. This is the same value as the start date for the <code className="">day</code> time range.</td>
+      <td className=""><div className=""><a href="#co-d1e7005E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></div></td>
+      <td className=""><div className="">The end date of the time range for the payout reporting data, in <code className="">YYYYMMDD</code> format. This is the same value as the start date for the <code className="">day</code> time range.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7007E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</td>
+      <td className=""><div className=""><a href="#co-d1e7007E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7009E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the <code className="">restaurantIds</code> value, so all other restaurants are excluded automatically.</td>
+      <td className=""><div className=""><a href="#co-d1e7009E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the <code className="">restaurantIds</code> value, so all other restaurants are excluded automatically.</div></td>
     </tr>
 ### Response to request for payout reporting data by settled date
 
@@ -126,8 +126,8 @@ The following example shows the response from the `/era/v1/payout/day` endpoint.
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e7053E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></td>
-      <td className="">The GUID for the payout reporting data by settled date request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e7053E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID for the payout reporting data by settled date request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
 For an example that shows how to retrieve the payout reporting data by settled date, see [Retrieving the payout reporting data by settled date](apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData#apiAnalyticsPayoutBySettledDateReportingDataRetrieveData).
 
@@ -149,16 +149,16 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e7114E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/payout</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e7114E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/payout</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7116E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></td>
-      <td className="">Include the GUID for the payout reporting data organized by settled date request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e7116E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></div></td>
+      <td className=""><div className="">Include the GUID for the payout reporting data organized by settled date request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7118E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e7118E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ### Response to retrieval request for payout reporting data by settled date
 
@@ -199,66 +199,66 @@ The following table specifies the returned set of values in the payout reporting
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value name</th>
-      <th className="">Definition</th>
+      <th className=""><div className="">Value name</div></th>
+      <th className=""><div className="">Definition</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">restaurantGuid</code></td>
-      <td className="">The unique identifier assigned to the restaurant by the Toast platform.</td>
+      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
+      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantName</code></td>
-      <td className="">The restaurant’s name.</td>
+      <td className=""><div className=""><code className="">restaurantName</code></div></td>
+      <td className=""><div className="">The restaurant’s name.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantLocationName</code></td>
-      <td className="">The restaurant’s location name.</td>
+      <td className=""><div className=""><code className="">restaurantLocationName</code></div></td>
+      <td className=""><div className="">The restaurant’s location name.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantLocationCode</code></td>
-      <td className="">The restaurant’s location code.</td>
+      <td className=""><div className=""><code className="">restaurantLocationCode</code></div></td>
+      <td className=""><div className="">The restaurant’s location code.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">settledDate</code></td>
-      <td className="">The date when the payout was either processed or settled.</td>
+      <td className=""><div className=""><code className="">settledDate</code></div></td>
+      <td className=""><div className="">The date when the payout was either processed or settled.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">salesPeriodStartDateTime</code></td>
-      <td className="">The date and time of the first payment included in the payout amount.</td>
+      <td className=""><div className=""><code className="">salesPeriodStartDateTime</code></div></td>
+      <td className=""><div className="">The date and time of the first payment included in the payout amount.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">salesPeriodEndDateTime</code></td>
-      <td className="">The date and time of the last payment included in the payout amount.</td>
+      <td className=""><div className=""><code className="">salesPeriodEndDateTime</code></div></td>
+      <td className=""><div className="">The date and time of the last payment included in the payout amount.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">transactionCount</code></td>
-      <td className="">The number of transactions included in the payout.</td>
+      <td className=""><div className=""><code className="">transactionCount</code></div></td>
+      <td className=""><div className="">The number of transactions included in the payout.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">paymentAmount</code></td>
-      <td className="">The amount paid to the restaurant by guests using cards that contributes towards the payout amount.</td>
+      <td className=""><div className=""><code className="">paymentAmount</code></div></td>
+      <td className=""><div className="">The amount paid to the restaurant by guests using cards that contributes towards the payout amount.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">refundAmount</code></td>
-      <td className="">The amount refunded to guests by the restaurant that contributes towards the payout amount.</td>
+      <td className=""><div className=""><code className="">refundAmount</code></div></td>
+      <td className=""><div className="">The amount refunded to guests by the restaurant that contributes towards the payout amount.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">totalFeeAmount</code></td>
-      <td className="">The amount paid or owed by the restaurant in fees that contributes towards the payout amount. An example is the processing fees charged by card providers on payments.</td>
+      <td className=""><div className=""><code className="">totalFeeAmount</code></div></td>
+      <td className=""><div className="">The amount paid or owed by the restaurant in fees that contributes towards the payout amount. An example is the processing fees charged by card providers on payments.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">withholdingAmount</code></td>
-      <td className="">The amount owed to Toast by the restaurant for products and services. For example, this includes Toast Capital, Fundraising, and Instant Deposit.</td>
+      <td className=""><div className=""><code className="">withholdingAmount</code></div></td>
+      <td className=""><div className="">The amount owed to Toast by the restaurant for products and services. For example, this includes Toast Capital, Fundraising, and Instant Deposit.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">payoutAmount</code></td>
-      <td className="">The amount to be deposited into the restaurant’s account. This amount is calculated by subtracting the <code className="">refundAmount</code>, <code className="">totalFeeAmount</code>, and <code className="">withholdingAmount</code> amounts from the <code className="">paymentAmount</code>.</td>
+      <td className=""><div className=""><code className="">payoutAmount</code></div></td>
+      <td className=""><div className="">The amount to be deposited into the restaurant’s account. This amount is calculated by subtracting the <code className="">refundAmount</code>, <code className="">totalFeeAmount</code>, and <code className="">withholdingAmount</code> amounts from the <code className="">paymentAmount</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">payoutStatus</code></td>
-      <td className="">The status of the payout. The status can be:<ul className=""><li className=""><code className="">CAPTURED</code>: Toast collected the guest card payments included in the <code className="">payoutAmount</code> successfully.</li><li className=""><code className="">SENT</code>: Toast sent the <code className="">payoutAmount</code> to the bank. It may take some time to appear in the account.</li><li className=""><code className="">NONE</code>: The payout failed, or the payout was made prior to January 10, 2024 and is unavailable.</li></ul></td>
+      <td className=""><div className=""><code className="">payoutStatus</code></div></td>
+      <td className=""><div className="">The status of the payout. The status can be:<ul className=""><li className=""><code className="">CAPTURED</code>: Toast collected the guest card payments included in the <code className="">payoutAmount</code> successfully.</li><li className=""><code className="">SENT</code>: Toast sent the <code className="">payoutAmount</code> to the bank. It may take some time to appear in the account.</li><li className=""><code className="">NONE</code>: The payout failed, or the payout was made prior to January 10, 2024 and is unavailable.</li></ul></div></td>
     </tr>
   </tbody>
 </table>

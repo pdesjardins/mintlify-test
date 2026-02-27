@@ -29,106 +29,106 @@ The rate limit used by an endpoint depends on the endpoint and its time range. T
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Method and endpoint</th>
-      <th className="">Rate limits</th>
-      <th className="">Notes</th>
+      <th className=""><div className="">Method and endpoint</div></th>
+      <th className=""><div className="">Rate limits</div></th>
+      <th className=""><div className="">Notes</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/metrics</code></td>
-      <td className="">10 requests per hour</td>
-      <td className="">This endpoint uses a custom time range.</td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/metrics</code></div></td>
+      <td className=""><div className="">10 requests per hour</div></td>
+      <td className=""><div className="">This endpoint uses a custom time range.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/metrics/&#123;timeRange&#125;</code></td>
-      <td className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code> or <code className="">year</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/metrics/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code> or <code className="">year</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute, 60 requests per hour</li></ul></div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/metrics/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""> </td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/metrics/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""> </div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/check/&#123;timeRange&#125;</code></td>
-      <td className="">5 requests per minute <br/> 60 requests per day</td>
-      <td className="">This endpoint uses <code className="">day</code> as the <code className="">&#123;timeRange&#125;</code>.</td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/check/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">5 requests per minute <br/> 60 requests per day</div></td>
+      <td className=""><div className="">This endpoint uses <code className="">day</code> as the <code className="">&#123;timeRange&#125;</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/check/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/check/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/labor/&#123;timeRange&#125;</code></td>
-      <td className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/labor/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute, 60 requests per hour</li></ul></div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/labor/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/labor/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/menu</code></td>
-      <td className="">10 requests per hour</td>
-      <td className="">This endpoint uses a custom time range.</td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/menu</code></div></td>
+      <td className=""><div className="">10 requests per hour</div></td>
+      <td className=""><div className="">This endpoint uses a custom time range.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/menu/&#123;timeRange&#125;</code></td>
-      <td className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code> or <code className="">year</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute, 60 requests per hour</li></ul></td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/menu/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code> or <code className="">year</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute, 60 requests per hour</li></ul></div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/menu/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/menu/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/payout/&#123;timeRange&#125;</code></td>
-      <td className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute and 60 requests per hour</li></ul></td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/payout/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute and 60 requests per hour</li></ul></div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/payout/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/payout/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/payout/payments/&#123;timeRange&#125;</code></td>
-      <td className="">5 requests per minute <br/> 60 requests per day</td>
-      <td className="">This endpoint uses <code className="">day</code> as the <code className="">&#123;timeRange&#125;</code>.</td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/payout/payments/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">5 requests per minute <br/> 60 requests per day</div></td>
+      <td className=""><div className="">This endpoint uses <code className="">day</code> as the <code className="">&#123;timeRange&#125;</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/payout/payments/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/payout/payments/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/payout/sales-date/&#123;timeRange&#125;</code></td>
-      <td className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute and 60 requests per hour</li></ul></td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/payout/sales-date/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">If <code className="">&#123;timeRange</code>&#125; is:<ul className=""><li className=""><code className="">month</code>: 10 requests per hour</li><li className=""><code className="">day</code> or <code className="">week</code>: 10 requests per minute and 60 requests per hour</li></ul></div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/payout/sales-date/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/payout/sales-date/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">POST</code><code className="">/era/v1/guest/payments/&#123;timeRange&#125;</code></td>
-      <td className="">5 requests per second <br/> 60 requests per minute</td>
-      <td className="">This endpoint uses <code className="">day</code> or <code className="">week</code> as the <code className="">&#123;timeRange&#125;</code>.</td>
+      <td className=""><div className=""><code className="">POST</code><code className="">/era/v1/guest/payments/&#123;timeRange&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 60 requests per minute</div></td>
+      <td className=""><div className="">This endpoint uses <code className="">day</code> or <code className="">week</code> as the <code className="">&#123;timeRange&#125;</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/guest/payments/&#123;reportRequestGuid&#125;</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""> </td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/guest/payments/&#123;reportRequestGuid&#125;</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""> </div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">GET</code><code className="">/era/v1/restaurant-info</code></td>
-      <td className="">5 requests per second <br/> 30 requests per minute</td>
-      <td className=""></td>
+      <td className=""><div className=""><code className="">GET</code><code className="">/era/v1/restaurant-info</code></div></td>
+      <td className=""><div className="">5 requests per second <br/> 30 requests per minute</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
   </tbody>
 </table>

@@ -33,18 +33,18 @@ Attributes in the `menus_updated` event's payload include:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Value</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">restaurantGuid</code></td>
-      <td className="">A unique Toast POS identifier for the restaurant whose menu has changed. <br/> data type: string <br/> format: uuid</td>
+      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
+      <td className=""><div className="">A unique Toast POS identifier for the restaurant whose menu has changed. <br/> data type: string <br/> format: uuid</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">publishedDate</code></td>
-      <td className="">The most recent date and time that the menus for this restaurant were published. This timestamp is in the UTC time zone (not the restaurant's local timezone). The date and time are expressed in ISO 8601 format. <br/> data type: string</td>
+      <td className=""><div className=""><code className="">publishedDate</code></div></td>
+      <td className=""><div className="">The most recent date and time that the menus for this restaurant were published. This timestamp is in the UTC time zone (not the restaurant's local timezone). The date and time are expressed in ISO 8601 format. <br/> data type: string</div></td>
     </tr>
   </tbody>
 </table>

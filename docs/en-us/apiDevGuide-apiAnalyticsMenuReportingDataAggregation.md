@@ -62,20 +62,20 @@ The following example shows the message body for a `/era/v1/menu/day` request th
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e4831F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></td>
-      <td className="">The start date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e4831F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
+      <td className=""><div className="">The start date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4833F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></td>
-      <td className="">The end date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e4833F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></div></td>
+      <td className=""><div className="">The end date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4835F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to include in the menu reporting data. If any restaurants are listed, the restaurant GUIDs not listed are excluded. When left blank, all restaurants are included by default.</td>
+      <td className=""><div className=""><a href="#co-d1e4835F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the menu reporting data. If any restaurants are listed, the restaurant GUIDs not listed are excluded. When left blank, all restaurants are included by default.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4837F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(4)</a></td>
-      <td className="">This request is for menu reporting data grouped by menu.</td>
+      <td className=""><div className=""><a href="#co-d1e4837F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(4)</a></div></td>
+      <td className=""><div className="">This request is for menu reporting data grouped by menu.</div></td>
     </tr>
 When you use `MENU`, the menu reporting data includes objects with information related to a menu for a specific restaurant and day. If there is no information correlated to a combination of data, then there is no object. The following list shows possible objects in the menu reporting data for two restaurants, covering two days and two menus. The objects can appear in any order in the menu reporting data. They are not organized chronologically or alphabetically.
 
@@ -192,20 +192,20 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/menu/week' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></td>
-      <td className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/menu/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">week</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e5153F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/menu/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">week</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5155F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e5155F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5157F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></td>
-      <td className="">Set the data type of the message body to <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e5157F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></div></td>
+      <td className=""><div className="">Set the data type of the message body to <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5159F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(4)</a></td>
-      <td className="">Include details about the requested menu reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</td>
+      <td className=""><div className=""><a href="#co-d1e5159F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(4)</a></div></td>
+      <td className=""><div className="">Include details about the requested menu reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</div></td>
     </tr>
 ### Message body for the menu reporting data request
 
@@ -226,24 +226,24 @@ The following example shows the message body of the `/era/v1/menu/week` request 
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5183F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to include in the menu reporting data. Restaurant GUIDs not listed are excluded.</td>
+      <td className=""><div className=""><a href="#co-d1e5183F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the menu reporting data. Restaurant GUIDs not listed are excluded.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5185F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, <code className="">excludedRestaurantIds</code> must be empty because restaurant GUIDs are already included with the <code className="">restaurantIds</code> value.</td>
+      <td className=""><div className=""><a href="#co-d1e5185F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to exclude from the menu reporting data. For this example, <code className="">excludedRestaurantIds</code> must be empty because restaurant GUIDs are already included with the <code className="">restaurantIds</code> value.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5187F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></td>
-      <td className="">The start date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e5187F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></div></td>
+      <td className=""><div className="">The start date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5189F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(4)</a></td>
-      <td className="">The end date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e5189F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(4)</a></div></td>
+      <td className=""><div className="">The end date of the time range for the menu reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5191F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(5)</a></td>
-      <td className="">This request is for menu reporting data grouped by menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e5191F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(5)</a></div></td>
+      <td className=""><div className="">This request is for menu reporting data grouped by menu item.</div></td>
     </tr>
 ### Response to the menu reporting data request
 
@@ -257,8 +257,8 @@ The following example shows the response from the `/era/v1/menu/week` endpoint.
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5210F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></td>
-      <td className="">The GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e5210F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
 ### Request to retrieve the menu reporting data
 
@@ -274,16 +274,16 @@ bd9fb800-7c1e-40b8-9e5d-1010430a6a09/' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5235F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/menu</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e5235F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/menu</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5237F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></td>
-      <td className="">Include the GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e5237F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></div></td>
+      <td className=""><div className="">Include the GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5239F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e5239F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ### Response to the retrieval request for menu reporting data
 

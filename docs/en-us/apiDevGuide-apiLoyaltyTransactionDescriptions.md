@@ -104,8 +104,8 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 
 
     <tr className="">
-      <td className=""><a href="#loyaltySearchPoints" className="">(1)</a></td>
-      <td className="">You may return a <code className="">pointsBalance</code> in your response to a <code className="">LOYALTY_SEARCH</code> request, but this balance will not display on the POS. The points balance only displays on the POS in response to <code className="">LOYALTY_INQUIRE</code> requests.</td>
+      <td className=""><div className=""><a href="#loyaltySearchPoints" className="">(1)</a></div></td>
+      <td className=""><div className="">You may return a <code className="">pointsBalance</code> in your response to a <code className="">LOYALTY_SEARCH</code> request, but this balance will not display on the POS. The points balance only displays on the POS in response to <code className="">LOYALTY_INQUIRE</code> requests.</div></td>
     </tr>
 **Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
 
@@ -612,20 +612,20 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(1)</a></td>
-      <td className="">The <code className="">rejectedRedemptions</code> array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a <code className="">RejectedRedemption</code> object in this array. For more information, see <a href="apiDevGuide-apiLoyaltyTransactionDescriptions#apiLoyaltyIntegrationHandlingRedeemOfferNotValid" className="">Handling redeemed offers that are not valid</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">rejectedRedemptions</code> array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a <code className="">RejectedRedemption</code> object in this array. For more information, see <a href="apiDevGuide-apiLoyaltyTransactionDescriptions#apiLoyaltyIntegrationHandlingRedeemOfferNotValid" className="">Handling redeemed offers that are not valid</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(2)</a></td>
-      <td className="">The <code className="">appliedRedemptions</code> array includes a <code className="">Redemption</code> object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.</td>
+      <td className=""><div className=""><a href="#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">appliedRedemptions</code> array includes a <code className="">Redemption</code> object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#apiLoyaltyQuantity" className="">(3)</a></td>
-      <td className="">In this example, since the <code className="">quantity</code> of the applied redemption is 2 and the <code className="">amount</code> is 5, the total amount discounted will be 10.</td>
+      <td className=""><div className=""><a href="#apiLoyaltyQuantity" className="">(3)</a></div></td>
+      <td className=""><div className="">In this example, since the <code className="">quantity</code> of the applied redemption is 2 and the <code className="">amount</code> is 5, the total amount discounted will be 10.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(4)</a></td>
-      <td className="">Set the <code className="">transactionStatus</code> to <code className="">ACCEPT</code> to indicate that your service has successfully processed the request. The status is <code className="">ACCEPT</code> even when you determine that some redeemed rewards offers are not valid.</td>
+      <td className=""><div className=""><a href="#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(4)</a></div></td>
+      <td className=""><div className="">Set the <code className="">transactionStatus</code> to <code className="">ACCEPT</code> to indicate that your service has successfully processed the request. The status is <code className="">ACCEPT</code> even when you determine that some redeemed rewards offers are not valid.</div></td>
     </tr>
   
 ### Handling redeemed offers that are not valid

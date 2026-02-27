@@ -67,8 +67,8 @@ https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec73
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400" className="">(1)</a></td>
-      <td className="">Include the Toast platform identifier for the employee in the path parameter of the request.</td>
+      <td className=""><div className=""><a href="#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400" className="">(1)</a></div></td>
+      <td className=""><div className="">Include the Toast platform identifier for the employee in the path parameter of the request.</div></td>
     </tr>
   
 ## Example response to archiving an employee
@@ -103,11 +103,11 @@ The following example shows the response for a `DELETE` request to archive an em
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(1)</a></td>
-      <td className="">When you archive an employee, the <code className="">deleted</code> value is set to <code className="">true</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(1)</a></div></td>
+      <td className=""><div className="">When you archive an employee, the <code className="">deleted</code> value is set to <code className="">true</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(2)</a></td>
-      <td className="">The <code className="">deletedDate</code> value indicates the date and time you archived the employee.</td>
+      <td className=""><div className=""><a href="#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">deletedDate</code> value indicates the date and time you archived the employee.</div></td>
     </tr>
   

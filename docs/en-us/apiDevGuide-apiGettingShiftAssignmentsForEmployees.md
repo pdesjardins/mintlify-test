@@ -49,16 +49,16 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a></td>
-      <td className="">Specify the GUID of the restaurant that you want to <code className="">get</code> shifts for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+      <td className=""><div className=""><a href="#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a></div></td>
+      <td className=""><div className="">Specify the GUID of the restaurant that you want to <code className="">get</code> shifts for. This must be an individual restaurant, not the GUID for a restaurant group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a></td>
-      <td className="">This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.</td>
+      <td className=""><div className=""><a href="#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a></div></td>
+      <td className=""><div className="">This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a></td>
-      <td className="">Specify the start and end dates of the time period you want to <code className="">GET</code> shifts for. You can select up to 30 days.</td>
+      <td className=""><div className=""><a href="#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a></div></td>
+      <td className=""><div className="">Specify the start and end dates of the time period you want to <code className="">GET</code> shifts for. You can select up to 30 days.</div></td>
     </tr>
   
 ## Example response
@@ -139,20 +139,20 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a></td>
-      <td className="">The <code className="">GET</code> request returns an array of shift objects. Each object contains information about a shift.</td>
+      <td className=""><div className=""><a href="#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">GET</code> request returns an array of shift objects. Each object contains information about a shift.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a></td>
-      <td className="">The <code className="">employeeReference</code> value identifies the employee who is assigned to the shift.</td>
+      <td className=""><div className=""><a href="#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">employeeReference</code> value identifies the employee who is assigned to the shift.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a></td>
-      <td className="">This shift is assigned to the same employee as the first shift in the array.</td>
+      <td className=""><div className=""><a href="#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a></div></td>
+      <td className=""><div className="">This shift is assigned to the same employee as the first shift in the array.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(4)</a></td>
-      <td className="">This shift is assigned to a different employee.</td>
+      <td className=""><div className=""><a href="#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(4)</a></div></td>
+      <td className=""><div className="">This shift is assigned to a different employee.</div></td>
     </tr>
   
 ## Example jq utility command to select shifts for a specific employee
@@ -173,11 +173,11 @@ my-shifts-get-request-response-data.json
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(1)</a></td>
-      <td className="">This <strong className="">jq</strong>  command syntax selects the JSON array members that have a specific employee GUID in the <code className="">employeeReference.guid</code> value for the shift.</td>
+      <td className=""><div className=""><a href="#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(1)</a></div></td>
+      <td className=""><div className="">This <strong className="">jq</strong>  command syntax selects the JSON array members that have a specific employee GUID in the <code className="">employeeReference.guid</code> value for the shift.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(2)</a></td>
-      <td className="">In this example, the <strong className="">jq</strong>  utility is reading JSON from the output file of the <strong className="">curl</strong>  command that made the initial GET request to the shifts resource. See <a href="apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example" className="">Example 7.5, “Example request to GET all scheduled shifts for a restaurant”</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(2)</a></div></td>
+      <td className=""><div className="">In this example, the <strong className="">jq</strong>  utility is reading JSON from the output file of the <strong className="">curl</strong>  command that made the initial GET request to the shifts resource. See <a href="apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example" className="">Example 7.5, “Example request to GET all scheduled shifts for a restaurant”</a>.</div></td>
     </tr>
   

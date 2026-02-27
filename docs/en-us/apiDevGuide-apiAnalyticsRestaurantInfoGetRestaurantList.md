@@ -49,12 +49,12 @@ curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/restaurants-information</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/restaurants-information</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ## Response to the request for restaurant information
 
@@ -98,22 +98,22 @@ The following example shows the response from the `/era/v1/restaurants-informati
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(1)</a></td>
-      <td className="">The unique GUID assigned to the restaurant by the Toast platform.</td>
+      <td className=""><div className=""><a href="#co-d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(1)</a></div></td>
+      <td className=""><div className="">The unique GUID assigned to the restaurant by the Toast platform.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(2)</a></td>
-      <td className="">The restaurant’s name.</td>
+      <td className=""><div className=""><a href="#co-d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(2)</a></div></td>
+      <td className=""><div className="">The restaurant’s name.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(3)</a></td>
-      <td className="">Indicates whether or not the restaurant is activated. For this example, the restaurant is activated.</td>
+      <td className=""><div className=""><a href="#co-d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(3)</a></div></td>
+      <td className=""><div className="">Indicates whether or not the restaurant is activated. For this example, the restaurant is activated.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(4)</a></td>
-      <td className="">Indicates whether or not the restaurant is in test mode. For this example, the restaurant is not in test mode.</td>
+      <td className=""><div className=""><a href="#co-d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(4)</a></div></td>
+      <td className=""><div className="">Indicates whether or not the restaurant is in test mode. For this example, the restaurant is not in test mode.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(5)</a></td>
-      <td className="">Indicates whether or not the restaurant is archived. For this example, the restaurant is not archived.</td>
+      <td className=""><div className=""><a href="#co-d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(5)</a></div></td>
+      <td className=""><div className="">Indicates whether or not the restaurant is archived. For this example, the restaurant is not archived.</div></td>
     </tr>

@@ -49,26 +49,26 @@ You should also be aware that the orders API and the menus API use slightly diff
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value name in orders API</th>
-      <th className="">Value name in menus API</th>
+      <th className=""><div className="">Value name in orders API</div></th>
+      <th className=""><div className="">Value name in menus API</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">itemGroup</td>
-      <td className="">menuGroups</td>
+      <td className=""><div className="">itemGroup</div></td>
+      <td className=""><div className="">menuGroups</div></td>
     </tr>
     <tr className="">
-      <td className="">item</td>
-      <td className="">menuItem</td>
+      <td className=""><div className="">item</div></td>
+      <td className=""><div className="">menuItem</div></td>
     </tr>
     <tr className="">
-      <td className="">optionGroup</td>
-      <td className="">modifierGroup</td>
+      <td className=""><div className="">optionGroup</div></td>
+      <td className=""><div className="">modifierGroup</div></td>
     </tr>
     <tr className="">
-      <td className="">item</td>
-      <td className="">modifierOption</td>
+      <td className=""><div className="">item</div></td>
+      <td className=""><div className="">modifierOption</div></td>
     </tr>
   </tbody>
 </table>

@@ -44,12 +44,12 @@ curl -X GET \ -H "Authorization: Bearer
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e8108E4737FC-3875-4918-866A-092F630A0814" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant in which the payment was made.</td>
+      <td className=""><div className=""><a href="#co-d1e8108E4737FC-3875-4918-866A-092F630A0814" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant in which the payment was made.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8158E4737FC-3875-4918-866A-092F630A0814" className="">(2)</a></td>
-      <td className="">Specify the payment GUID, which you can get from the <code className="">/payments</code> endpoint of the orders API.</td>
+      <td className=""><div className=""><a href="#co-d1e8158E4737FC-3875-4918-866A-092F630A0814" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the payment GUID, which you can get from the <code className="">/payments</code> endpoint of the orders API.</div></td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/payments/<em>&#123;guid&#125;</em>`endpoint. The payment method for this sample payment was a credit card.
@@ -94,48 +94,48 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e8554F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(1)</a></td>
-      <td className="">The <code className="">guid</code> value contains the unique Toast POS identifier of the payment.</td>
+      <td className=""><div className=""><a href="#co-d1e8554F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the unique Toast POS identifier of the payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8574F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(2)</a></td>
-      <td className="">The amount of the payment, including taxes and service charges but excluding tips.</td>
+      <td className=""><div className=""><a href="#co-d1e8574F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(2)</a></div></td>
+      <td className=""><div className="">The amount of the payment, including taxes and service charges but excluding tips.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8594F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(3)</a></td>
-      <td className="">The amount tipped on this payment.</td>
+      <td className=""><div className=""><a href="#co-d1e8594F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(3)</a></div></td>
+      <td className=""><div className="">The amount tipped on this payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8614F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(4)</a></td>
-      <td className="">If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is <code className="">null</code> if a house account was not used for payment.</td>
+      <td className=""><div className=""><a href="#co-d1e8614F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(4)</a></div></td>
+      <td className=""><div className="">If a house account was used to pay the check, this value contains reference information (such as the GUID) of the house account. The value is <code className="">null</code> if a house account was not used for payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8634F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(5)</a></td>
-      <td className="">The payment method, such as <code className="">CREDIT</code> for a credit card.</td>
+      <td className=""><div className=""><a href="#co-d1e8634F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(5)</a></div></td>
+      <td className=""><div className="">The payment method, such as <code className="">CREDIT</code> for a credit card.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8664F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(6)</a></td>
-      <td className="">If the payment was voided, this value contains a <code className="">VoidInformation</code> object with information about the void. For details, see <a href="apiDevGuide-apiPaymentntInformation#apiVoidedPayments" className="">Voided payments</a>. The value is <code className="">null</code> if the payment has not been voided.</td>
+      <td className=""><div className=""><a href="#co-d1e8664F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(6)</a></div></td>
+      <td className=""><div className="">If the payment was voided, this value contains a <code className="">VoidInformation</code> object with information about the void. For details, see <a href="apiDevGuide-apiPaymentntInformation#apiVoidedPayments" className="">Voided payments</a>. The value is <code className="">null</code> if the payment has not been voided.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8684F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(7)</a></td>
-      <td className="">Reference information (such as the GUID) of an other payment option used to pay the check. The value is <code className="">null</code> if an other payment option was not used for payment.</td>
+      <td className=""><div className=""><a href="#co-d1e8684F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(7)</a></div></td>
+      <td className=""><div className="">Reference information (such as the GUID) of an other payment option used to pay the check. The value is <code className="">null</code> if an other payment option was not used for payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8704F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(8)</a></td>
-      <td className="">The date and time when the payment was made.</td>
+      <td className=""><div className=""><a href="#co-d1e8704F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(8)</a></div></td>
+      <td className=""><div className="">The date and time when the payment was made.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8724F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(9)</a></td>
-      <td className="">For credit card payments, specifies how the credit card data was obtained. The value is <code className="">null</code> if a credit card was not used for payment.</td>
+      <td className=""><div className=""><a href="#co-d1e8724F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(9)</a></div></td>
+      <td className=""><div className="">For credit card payments, specifies how the credit card data was obtained. The value is <code className="">null</code> if a credit card was not used for payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8744F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(10)</a></td>
-      <td className="">The status of the payment. In this example, the payment has been captured.</td>
+      <td className=""><div className=""><a href="#co-d1e8744F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(10)</a></div></td>
+      <td className=""><div className="">The status of the payment. In this example, the payment has been captured.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(11)</a></td>
-      <td className="">If the payment has been refunded, this value contains a <code className="">Refund</code> object with information about the refund. For details, see <a href="apiDevGuide-apiPaymentntInformation#apiRefundedPayments" className="">Refunded payments</a>. The value is <code className="">null</code> if the payment has not been refunded.</td>
+      <td className=""><div className=""><a href="#co-d1e8764F5CFC3E-3A32-4EF2-AB9F-D1CA606D8F49" className="">(11)</a></div></td>
+      <td className=""><div className="">If the payment has been refunded, this value contains a <code className="">Refund</code> object with information about the refund. For details, see <a href="apiDevGuide-apiPaymentntInformation#apiRefundedPayments" className="">Refunded payments</a>. The value is <code className="">null</code> if the payment has not been refunded.</div></td>
     </tr>
   
 The following sections provide information about voided and refunded payments.
@@ -213,36 +213,36 @@ The following example shows the JSON response data for a voided cash payment.
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e8873DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(1)</a></td>
-      <td className="">The <code className="">VoidInformation</code> object with details of the void.</td>
+      <td className=""><div className=""><a href="#co-d1e8873DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">VoidInformation</code> object with details of the void.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8893DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(2)</a></td>
-      <td className="">The restaurant employee who voided the check or the item. The <code className="">guid</code> value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see <a href="apiDevGuide-api_get_all_employees" className="">Getting all employees of a restaurant</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e8893DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(2)</a></div></td>
+      <td className=""><div className="">The restaurant employee who voided the check or the item. The <code className="">guid</code> value lists the unique Toast POS identifier of the employee. For details on retrieving information about employees, see <a href="apiDevGuide-api_get_all_employees" className="">Getting all employees of a restaurant</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8913DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(3)</a></td>
-      <td className="">The restaurant employee who approved the void. The employee approving the void may be the same person who voided the payment.</td>
+      <td className=""><div className=""><a href="#co-d1e8913DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(3)</a></div></td>
+      <td className=""><div className="">The restaurant employee who approved the void. The employee approving the void may be the same person who voided the payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8933DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(4)</a></td>
-      <td className="">The date and time when the payment was voided.</td>
+      <td className=""><div className=""><a href="#co-d1e8933DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(4)</a></div></td>
+      <td className=""><div className="">The date and time when the payment was voided.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8953DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(5)</a></td>
-      <td className="">The business date when the payment was voided.</td>
+      <td className=""><div className=""><a href="#co-d1e8953DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(5)</a></div></td>
+      <td className=""><div className="">The business date when the payment was voided.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e8983DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(6)</a></td>
-      <td className="">The pre-configured void reason that was specified for the void. The value is <code className="">null</code> if a void reason was not specified.</td>
+      <td className=""><div className=""><a href="#co-d1e8983DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(6)</a></div></td>
+      <td className=""><div className="">The pre-configured void reason that was specified for the void. The value is <code className="">null</code> if a void reason was not specified.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e9003DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(7)</a></td>
-      <td className="">The date and time when the original (pre-void) payment was made.</td>
+      <td className=""><div className=""><a href="#co-d1e9003DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(7)</a></div></td>
+      <td className=""><div className="">The date and time when the original (pre-void) payment was made.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e9023DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(8)</a></td>
-      <td className="">The current status of the payment, which is <code className="">VOIDED</code> for voided payments.</td>
+      <td className=""><div className=""><a href="#co-d1e9023DB65CBB-6A0B-4300-B1BB-FB6BFFD86ACF" className="">(8)</a></div></td>
+      <td className=""><div className="">The current status of the payment, which is <code className="">VOIDED</code> for voided payments.</div></td>
     </tr>
   
 ## Refunded payments
@@ -296,31 +296,31 @@ The following example shows the JSON response data for a refunded credit card pa
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e11385397DA82-3E87-45E1-9461-6911EBC8A028" className="">(1)</a></td>
-      <td className="">The status of the refund. A <code className="">FULL</code> status means that a full refund was made on this payment.</td>
+      <td className=""><div className=""><a href="#co-d1e11385397DA82-3E87-45E1-9461-6911EBC8A028" className="">(1)</a></div></td>
+      <td className=""><div className="">The status of the refund. A <code className="">FULL</code> status means that a full refund was made on this payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11405397DA82-3E87-45E1-9461-6911EBC8A028" className="">(2)</a></td>
-      <td className="">The date and time when the original (pre-refund) payment was made.</td>
+      <td className=""><div className=""><a href="#co-d1e11405397DA82-3E87-45E1-9461-6911EBC8A028" className="">(2)</a></div></td>
+      <td className=""><div className="">The date and time when the original (pre-refund) payment was made.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11425397DA82-3E87-45E1-9461-6911EBC8A028" className="">(3)</a></td>
-      <td className="">The <code className="">Refund</code> object with details of the refund.</td>
+      <td className=""><div className=""><a href="#co-d1e11425397DA82-3E87-45E1-9461-6911EBC8A028" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">Refund</code> object with details of the refund.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11445397DA82-3E87-45E1-9461-6911EBC8A028" className="">(4)</a></td>
-      <td className="">The amount of the refund, excluding the tip.</td>
+      <td className=""><div className=""><a href="#co-d1e11445397DA82-3E87-45E1-9461-6911EBC8A028" className="">(4)</a></div></td>
+      <td className=""><div className="">The amount of the refund, excluding the tip.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11465397DA82-3E87-45E1-9461-6911EBC8A028" className="">(5)</a></td>
-      <td className="">The amount of the tip refund.</td>
+      <td className=""><div className=""><a href="#co-d1e11465397DA82-3E87-45E1-9461-6911EBC8A028" className="">(5)</a></div></td>
+      <td className=""><div className="">The amount of the tip refund.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11495397DA82-3E87-45E1-9461-6911EBC8A028" className="">(6)</a></td>
-      <td className="">The date and time when the payment was refunded.</td>
+      <td className=""><div className=""><a href="#co-d1e11495397DA82-3E87-45E1-9461-6911EBC8A028" className="">(6)</a></div></td>
+      <td className=""><div className="">The date and time when the payment was refunded.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11515397DA82-3E87-45E1-9461-6911EBC8A028" className="">(7)</a></td>
-      <td className="">The business date when the payment was refunded.</td>
+      <td className=""><div className=""><a href="#co-d1e11515397DA82-3E87-45E1-9461-6911EBC8A028" className="">(7)</a></div></td>
+      <td className=""><div className="">The business date when the payment was refunded.</div></td>
     </tr>
   

@@ -52,42 +52,42 @@ The below table contains the possible payment tags and their descriptions.
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Tag</th>
-      <th className="">Descriptions</th>
+      <th className=""><div className="">Tag</div></th>
+      <th className=""><div className="">Descriptions</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Voiding </td>
-      <td className=""> A payment is actively being voided. This means the payment was authorized, but is being canceled prior to capture, and the cardholder will not be charged. </td>
+      <td className=""><div className="">Voiding </div></td>
+      <td className=""><div className=""> A payment is actively being voided. This means the payment was authorized, but is being canceled prior to capture, and the cardholder will not be charged. </div></td>
     </tr>
     <tr className="">
-      <td className="">Refunded</td>
-      <td className=""> A payment was authorized and captured successfully, then returned to the cardholder. </td>
+      <td className=""><div className="">Refunded</div></td>
+      <td className=""><div className=""> A payment was authorized and captured successfully, then returned to the cardholder. </div></td>
     </tr>
     <tr className="">
-      <td className="">Authorized</td>
-      <td className="">A payment was submitted and is expected to process when captured. No further action is needed.</td>
+      <td className=""><div className="">Authorized</div></td>
+      <td className=""><div className="">A payment was submitted and is expected to process when captured. No further action is needed.</div></td>
     </tr>
     <tr className="">
-      <td className="">Captured</td>
-      <td className=""> A payment has been successfully processed, and is expected to settle with the merchant. </td>
+      <td className=""><div className="">Captured</div></td>
+      <td className=""><div className=""> A payment has been successfully processed, and is expected to settle with the merchant. </div></td>
     </tr>
     <tr className="">
-      <td className="">Backgrounded</td>
-      <td className=""> A card payment was attempted while offline and the check was closed. However, when the Toast POS device reconnected to the network, the payment was declined. Checks with this tag are moved from closed status to open status once the device is back online.</td>
+      <td className=""><div className="">Backgrounded</div></td>
+      <td className=""><div className=""> A card payment was attempted while offline and the check was closed. However, when the Toast POS device reconnected to the network, the payment was declined. Checks with this tag are moved from closed status to open status once the device is back online.</div></td>
     </tr>
     <tr className="">
-      <td className="">Declined</td>
-      <td className="">The card payment used while offline was declined after your Toast POS device reconnected.</td>
+      <td className=""><div className="">Declined</div></td>
+      <td className=""><div className="">The card payment used while offline was declined after your Toast POS device reconnected.</div></td>
     </tr>
     <tr className="">
-      <td className="">Yellow pending</td>
-      <td className="">A yellow pending tag indicates the payment is queued for payment processing. While payments are pending, do not: <ul className=""><li className="">Delete your Toast POS device's memory.</li><li className="">Uninstall the Toast POS app.</li></ul> <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. </td>
+      <td className=""><div className="">Yellow pending</div></td>
+      <td className=""><div className="">A yellow pending tag indicates the payment is queued for payment processing. While payments are pending, do not: <ul className=""><li className="">Delete your Toast POS device's memory.</li><li className="">Uninstall the Toast POS app.</li></ul> <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. </div></td>
     </tr>
     <tr className="">
-      <td className="">Red pending</td>
-      <td className="">A red pending tag indicates the payment was queued for processing, but payments are now paused. To resolve, refer to the red banner at the top of the Toast POS device, as shown in the image below. Paused card payments must be resolved before continuing to process a pending payment. While payments are pending, do not: <ul className=""><li className="">Delete your Toast POS device's memory.</li><li className="">Uninstall the Toast POS app.</li></ul> <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. ![Pending red banner.](https://doc.toasttab.com/doc/media/pwfVoidsRedPendingBanner.png)</td>
+      <td className=""><div className="">Red pending</div></td>
+      <td className=""><div className="">A red pending tag indicates the payment was queued for processing, but payments are now paused. To resolve, refer to the red banner at the top of the Toast POS device, as shown in the image below. Paused card payments must be resolved before continuing to process a pending payment. While payments are pending, do not: <ul className=""><li className="">Delete your Toast POS device's memory.</li><li className="">Uninstall the Toast POS app.</li></ul> <br/>  Taking either of these actions can result in losing pending payments. Lost payments cannot be recovered. If your Toast POS device doesn't have Internet connectivity, attempt to reconnect your Toast POS device to your network as soon as possible. ![Pending red banner.](https://doc.toasttab.com/doc/media/pwfVoidsRedPendingBanner.png)</div></td>
     </tr>
   </tbody>
 </table>

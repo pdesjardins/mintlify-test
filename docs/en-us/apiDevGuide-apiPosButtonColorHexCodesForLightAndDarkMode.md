@@ -28,156 +28,156 @@ The following table shows the color pairing names and the color hex codes for li
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Color pairing name</th>
-      <th className="">Light hex code</th>
-      <th className="">Dark hex code</th>
+      <th className=""><div className="">Color pairing name</div></th>
+      <th className=""><div className="">Light hex code</div></th>
+      <th className=""><div className="">Dark hex code</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">WHITE</td>
-      <td className="">#f7f7f7</td>
-      <td className="">#1a1c23</td>
+      <td className=""><div className="">WHITE</div></td>
+      <td className=""><div className="">#f7f7f7</div></td>
+      <td className=""><div className="">#1a1c23</div></td>
     </tr>
     <tr className="">
-      <td className="">TERRACOTTA_1</td>
-      <td className="">#ffe6e9</td>
-      <td className="">#7e635d</td>
+      <td className=""><div className="">TERRACOTTA_1</div></td>
+      <td className=""><div className="">#ffe6e9</div></td>
+      <td className=""><div className="">#7e635d</div></td>
     </tr>
     <tr className="">
-      <td className="">TERRACOTTA_2</td>
-      <td className="">#efa49f</td>
-      <td className="">#74504D</td>
+      <td className=""><div className="">TERRACOTTA_2</div></td>
+      <td className=""><div className="">#efa49f</div></td>
+      <td className=""><div className="">#74504D</div></td>
     </tr>
     <tr className="">
-      <td className="">TERRACOTTA_3</td>
-      <td className="">#f07166</td>
-      <td className="">#722e25</td>
+      <td className=""><div className="">TERRACOTTA_3</div></td>
+      <td className=""><div className="">#f07166</div></td>
+      <td className=""><div className="">#722e25</div></td>
     </tr>
     <tr className="">
-      <td className="">TERRACOTTA_4</td>
-      <td className="">#e45a4e</td>
-      <td className="">#561408</td>
+      <td className=""><div className="">TERRACOTTA_4</div></td>
+      <td className=""><div className="">#e45a4e</div></td>
+      <td className=""><div className="">#561408</div></td>
     </tr>
     <tr className="">
-      <td className="">ORANGE_1</td>
-      <td className="">#fbd9b6</td>
-      <td className="">#8f5f3d</td>
+      <td className=""><div className="">ORANGE_1</div></td>
+      <td className=""><div className="">#fbd9b6</div></td>
+      <td className=""><div className="">#8f5f3d</div></td>
     </tr>
     <tr className="">
-      <td className="">ORANGE_2</td>
-      <td className="">#f7be6e</td>
-      <td className="">#7e4116</td>
+      <td className=""><div className="">ORANGE_2</div></td>
+      <td className=""><div className="">#f7be6e</div></td>
+      <td className=""><div className="">#7e4116</div></td>
     </tr>
     <tr className="">
-      <td className="">ORANGE_3</td>
-      <td className="">#f98c1f</td>
-      <td className="">#803500</td>
+      <td className=""><div className="">ORANGE_3</div></td>
+      <td className=""><div className="">#f98c1f</div></td>
+      <td className=""><div className="">#803500</div></td>
     </tr>
     <tr className="">
-      <td className="">ORANGE_4</td>
-      <td className="">#e56f1a</td>
-      <td className="">#682d03</td>
+      <td className=""><div className="">ORANGE_4</div></td>
+      <td className=""><div className="">#e56f1a</div></td>
+      <td className=""><div className="">#682d03</div></td>
     </tr>
     <tr className="">
-      <td className="">YELLOW_1</td>
-      <td className="">#fbf5b6</td>
-      <td className="">#7e6b44</td>
+      <td className=""><div className="">YELLOW_1</div></td>
+      <td className=""><div className="">#fbf5b6</div></td>
+      <td className=""><div className="">#7e6b44</div></td>
     </tr>
     <tr className="">
-      <td className="">YELLOW_2</td>
-      <td className="">#fed850</td>
-      <td className="">#7b5f27</td>
+      <td className=""><div className="">YELLOW_2</div></td>
+      <td className=""><div className="">#fed850</div></td>
+      <td className=""><div className="">#7b5f27</div></td>
     </tr>
     <tr className="">
-      <td className="">YELLOW_3</td>
-      <td className="">#e9b10c</td>
-      <td className="">#7c5000</td>
+      <td className=""><div className="">YELLOW_3</div></td>
+      <td className=""><div className="">#e9b10c</div></td>
+      <td className=""><div className="">#7c5000</div></td>
     </tr>
     <tr className="">
-      <td className="">YELLOW_4</td>
-      <td className="">#c78605</td>
-      <td className="">#633d09</td>
+      <td className=""><div className="">YELLOW_4</div></td>
+      <td className=""><div className="">#c78605</div></td>
+      <td className=""><div className="">#633d09</div></td>
     </tr>
     <tr className="">
-      <td className="">GRASS_1</td>
-      <td className="">#e8f7d4</td>
-      <td className="">#657552</td>
+      <td className=""><div className="">GRASS_1</div></td>
+      <td className=""><div className="">#e8f7d4</div></td>
+      <td className=""><div className="">#657552</div></td>
     </tr>
     <tr className="">
-      <td className="">GRASS_2</td>
-      <td className="">#afe26c</td>
-      <td className="">#556e34</td>
+      <td className=""><div className="">GRASS_2</div></td>
+      <td className=""><div className="">#afe26c</div></td>
+      <td className=""><div className="">#556e34</div></td>
     </tr>
     <tr className="">
-      <td className="">GRASS_3</td>
-      <td className="">#71b314</td>
-      <td className="">#37570a</td>
+      <td className=""><div className="">GRASS_3</div></td>
+      <td className=""><div className="">#71b314</div></td>
+      <td className=""><div className="">#37570a</div></td>
     </tr>
     <tr className="">
-      <td className="">GRASS_4</td>
-      <td className="">#32a206</td>
-      <td className="">#113a00</td>
+      <td className=""><div className="">GRASS_4</div></td>
+      <td className=""><div className="">#32a206</div></td>
+      <td className=""><div className="">#113a00</div></td>
     </tr>
     <tr className="">
-      <td className="">SKY_1</td>
-      <td className="">#e3f0fb</td>
-      <td className="">#637486</td>
+      <td className=""><div className="">SKY_1</div></td>
+      <td className=""><div className="">#e3f0fb</div></td>
+      <td className=""><div className="">#637486</div></td>
     </tr>
     <tr className="">
-      <td className="">SKY_2</td>
-      <td className="">#9fc5f0</td>
-      <td className="">#4d6074</td>
+      <td className=""><div className="">SKY_2</div></td>
+      <td className=""><div className="">#9fc5f0</div></td>
+      <td className=""><div className="">#4d6074</div></td>
     </tr>
     <tr className="">
-      <td className="">SKY_3</td>
-      <td className="">#77a5e4</td>
-      <td className="">#2a456b</td>
+      <td className=""><div className="">SKY_3</div></td>
+      <td className=""><div className="">#77a5e4</div></td>
+      <td className=""><div className="">#2a456b</div></td>
     </tr>
     <tr className="">
-      <td className="">SKY_4</td>
-      <td className="">#558edd</td>
-      <td className="">#213554</td>
+      <td className=""><div className="">SKY_4</div></td>
+      <td className=""><div className="">#558edd</div></td>
+      <td className=""><div className="">#213554</div></td>
     </tr>
     <tr className="">
-      <td className="">LAVENDER_1</td>
-      <td className="">#f1e3fd</td>
-      <td className="">#78668a</td>
+      <td className=""><div className="">LAVENDER_1</div></td>
+      <td className=""><div className="">#f1e3fd</div></td>
+      <td className=""><div className="">#78668a</div></td>
     </tr>
     <tr className="">
-      <td className="">LAVENDER_2</td>
-      <td className="">#dab2f7</td>
-      <td className="">#5e4776</td>
+      <td className=""><div className="">LAVENDER_2</div></td>
+      <td className=""><div className="">#dab2f7</div></td>
+      <td className=""><div className="">#5e4776</div></td>
     </tr>
     <tr className="">
-      <td className="">LAVENDER_3</td>
-      <td className="">#b26ee2</td>
-      <td className="">#402960</td>
+      <td className=""><div className="">LAVENDER_3</div></td>
+      <td className=""><div className="">#b26ee2</div></td>
+      <td className=""><div className="">#402960</div></td>
     </tr>
     <tr className="">
-      <td className="">LAVENDER_4</td>
-      <td className="">#a270db</td>
-      <td className="">#25174f</td>
+      <td className=""><div className="">LAVENDER_4</div></td>
+      <td className=""><div className="">#a270db</div></td>
+      <td className=""><div className="">#25174f</div></td>
     </tr>
     <tr className="">
-      <td className="">GRAY_1</td>
-      <td className="">#d0d0d0</td>
-      <td className="">#6c6c6c</td>
+      <td className=""><div className="">GRAY_1</div></td>
+      <td className=""><div className="">#d0d0d0</div></td>
+      <td className=""><div className="">#6c6c6c</div></td>
     </tr>
     <tr className="">
-      <td className="">GRAY_2</td>
-      <td className="">#c3c3c3</td>
-      <td className="">#5f5f5f</td>
+      <td className=""><div className="">GRAY_2</div></td>
+      <td className=""><div className="">#c3c3c3</div></td>
+      <td className=""><div className="">#5f5f5f</div></td>
     </tr>
     <tr className="">
-      <td className="">GRAY_3</td>
-      <td className="">#b1b1b1</td>
-      <td className="">#474747</td>
+      <td className=""><div className="">GRAY_3</div></td>
+      <td className=""><div className="">#b1b1b1</div></td>
+      <td className=""><div className="">#474747</div></td>
     </tr>
     <tr className="">
-      <td className="">GRAY_4</td>
-      <td className="">#989898</td>
-      <td className="">#404040</td>
+      <td className=""><div className="">GRAY_4</div></td>
+      <td className=""><div className="">#989898</div></td>
+      <td className=""><div className="">#404040</div></td>
     </tr>
   </tbody>
 </table>

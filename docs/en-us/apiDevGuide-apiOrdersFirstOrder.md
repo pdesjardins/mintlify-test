@@ -75,41 +75,41 @@ The following table describes the required fields:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Type</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Type</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">diningOption</code></td>
-      <td className="">Object</td>
-      <td className="">Specifies the dining option for the order. Must contain a <code className="">guid</code> that references a valid dining option configured for the location.</td>
+      <td className=""><div className=""><code className="">diningOption</code></div></td>
+      <td className=""><div className="">Object</div></td>
+      <td className=""><div className="">Specifies the dining option for the order. Must contain a <code className="">guid</code> that references a valid dining option configured for the location.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">checks</code></td>
-      <td className="">Array</td>
-      <td className="">An array of <code className="">Check</code> objects. Most orders have one check. Each check must contain at least one menu item selection.</td>
+      <td className=""><div className=""><code className="">checks</code></div></td>
+      <td className=""><div className="">Array</div></td>
+      <td className=""><div className="">An array of <code className="">Check</code> objects. Most orders have one check. Each check must contain at least one menu item selection.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">checks.selections</code></td>
-      <td className="">Array</td>
-      <td className="">An array of <code className="">Selection</code> objects representing the menu items being ordered.</td>
+      <td className=""><div className=""><code className="">checks.selections</code></div></td>
+      <td className=""><div className="">Array</div></td>
+      <td className=""><div className="">An array of <code className="">Selection</code> objects representing the menu items being ordered.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">checks.selections.item</code></td>
-      <td className="">Object</td>
-      <td className="">A reference to the menu item being ordered. Must contain the <code className="">guid</code> of a valid menu item.</td>
+      <td className=""><div className=""><code className="">checks.selections.item</code></div></td>
+      <td className=""><div className="">Object</div></td>
+      <td className=""><div className="">A reference to the menu item being ordered. Must contain the <code className="">guid</code> of a valid menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">checks.selections.itemGroup</code></td>
-      <td className="">Object</td>
-      <td className="">A reference to the menu group that contains the menu item. Must contain the <code className="">guid</code> of the parent menu group.</td>
+      <td className=""><div className=""><code className="">checks.selections.itemGroup</code></div></td>
+      <td className=""><div className="">Object</div></td>
+      <td className=""><div className="">A reference to the menu group that contains the menu item. Must contain the <code className="">guid</code> of the parent menu group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">checks.selections.quantity</code></td>
-      <td className="">Number</td>
-      <td className="">The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</td>
+      <td className=""><div className=""><code className="">checks.selections.quantity</code></div></td>
+      <td className=""><div className="">Number</div></td>
+      <td className=""><div className="">The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</div></td>
     </tr>
   </tbody>
 </table>
@@ -126,22 +126,22 @@ All requests to the Toast platform APIs require the following headers:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Header</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Header</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">Toast-Restaurant-External-ID</code></td>
-      <td className="">The GUID of the Toast location for the request.</td>
+      <td className=""><div className=""><code className="">Toast-Restaurant-External-ID</code></div></td>
+      <td className=""><div className="">The GUID of the Toast location for the request.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">Authorization</code></td>
-      <td className="">The access token in the format <em className=""><code className="">Bearer &#123;accessToken&#125;</code></em> .</td>
+      <td className=""><div className=""><code className="">Authorization</code></div></td>
+      <td className=""><div className="">The access token in the format <em className=""><code className="">Bearer &#123;accessToken&#125;</code></em> .</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">Content-Type</code></td>
-      <td className="">Required for <code className="">POST</code> requests. Must be set to <code className="">application/json</code>.</td>
+      <td className=""><div className=""><code className="">Content-Type</code></div></td>
+      <td className=""><div className="">Required for <code className="">POST</code> requests. Must be set to <code className="">application/json</code>.</div></td>
     </tr>
   </tbody>
 </table>
@@ -186,12 +186,12 @@ The response includes an access token to use in the `Authorization` header for s
 
 
     <tr className="">
-      <td className=""><a href="#co-authResponseScope" className="">(1)</a></td>
-      <td className="">The list of scopes assigned to your API client.</td>
+      <td className=""><div className=""><a href="#co-authResponseScope" className="">(1)</a></div></td>
+      <td className=""><div className="">The list of scopes assigned to your API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-authResponseAccessToken" className="">(2)</a></td>
-      <td className="">The authentication bearer token needed to place API calls.</td>
+      <td className=""><div className=""><a href="#co-authResponseAccessToken" className="">(2)</a></div></td>
+      <td className=""><div className="">The authentication bearer token needed to place API calls.</div></td>
     </tr>
 Store the `accessToken` value for use in the following steps.
 
@@ -388,28 +388,28 @@ Using the GUIDs you collected, build your order JSON. The following example show
 
 
     <tr className="">
-      <td className=""><a href="#co-firstOrderDiningOption" className="">(1)</a></td>
-      <td className="">The <code className="">diningOption</code> object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</td>
+      <td className=""><div className=""><a href="#co-firstOrderDiningOption" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">diningOption</code> object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderChecks" className="">(2)</a></td>
-      <td className="">The <code className="">checks</code> array contains one or more <code className="">Check</code> objects. Most orders have a single check.</td>
+      <td className=""><div className=""><a href="#co-firstOrderChecks" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">checks</code> array contains one or more <code className="">Check</code> objects. Most orders have a single check.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderSelections" className="">(3)</a></td>
-      <td className="">The <code className="">selections</code> array contains the menu items being ordered.</td>
+      <td className=""><div className=""><a href="#co-firstOrderSelections" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">selections</code> array contains the menu items being ordered.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderItemGuid" className="">(4)</a></td>
-      <td className="">The GUID of the menu item. Retrieve this from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</td>
+      <td className=""><div className=""><a href="#co-firstOrderItemGuid" className="">(4)</a></div></td>
+      <td className=""><div className="">The GUID of the menu item. Retrieve this from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderItemGroup" className="">(5)</a></td>
-      <td className="">The GUID of the menu group that contains this item. The item must belong to this group.</td>
+      <td className=""><div className=""><a href="#co-firstOrderItemGroup" className="">(5)</a></div></td>
+      <td className=""><div className="">The GUID of the menu group that contains this item. The item must belong to this group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderQuantity" className="">(6)</a></td>
-      <td className="">The quantity of this item being ordered.</td>
+      <td className=""><div className=""><a href="#co-firstOrderQuantity" className="">(6)</a></div></td>
+      <td className=""><div className="">The quantity of this item being ordered.</div></td>
     </tr>
 
 6. **Get the order price (optional but recommended)**
@@ -476,20 +476,20 @@ The response returns the order with calculated prices, taxes, and totals. This s
 
 
     <tr className="">
-      <td className=""><a href="#co-pricesResponseAmount" className="">(1)</a></td>
-      <td className="">The subtotal of the check before taxes.</td>
+      <td className=""><div className=""><a href="#co-pricesResponseAmount" className="">(1)</a></div></td>
+      <td className=""><div className="">The subtotal of the check before taxes.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-pricesResponseTax" className="">(2)</a></td>
-      <td className="">The total tax amount for the check.</td>
+      <td className=""><div className=""><a href="#co-pricesResponseTax" className="">(2)</a></div></td>
+      <td className=""><div className="">The total tax amount for the check.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-pricesResponseTotal" className="">(3)</a></td>
-      <td className="">The total amount due including taxes.</td>
+      <td className=""><div className=""><a href="#co-pricesResponseTotal" className="">(3)</a></div></td>
+      <td className=""><div className="">The total amount due including taxes.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-pricesResponseItemPrice" className="">(4)</a></td>
-      <td className="">The calculated price for each menu item selection.</td>
+      <td className=""><div className=""><a href="#co-pricesResponseItemPrice" className="">(4)</a></div></td>
+      <td className=""><div className="">The calculated price for each menu item selection.</div></td>
     </tr>
 For more information, see [Getting check prices](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
@@ -546,24 +546,24 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 
     <tr className="">
-      <td className=""><a href="#co-firstOrderResponseGuid" className="">(1)</a></td>
-      <td className="">The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</td>
+      <td className=""><div className=""><a href="#co-firstOrderResponseGuid" className="">(1)</a></div></td>
+      <td className=""><div className="">The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderResponseSource" className="">(2)</a></td>
-      <td className="">The orders API sets the <code className="">source</code> value to <code className="">API</code> for orders you submit.</td>
+      <td className=""><div className=""><a href="#co-firstOrderResponseSource" className="">(2)</a></div></td>
+      <td className=""><div className="">The orders API sets the <code className="">source</code> value to <code className="">API</code> for orders you submit.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderResponseStatus" className="">(3)</a></td>
-      <td className="">The <code className="">approvalStatus</code> indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</td>
+      <td className=""><div className=""><a href="#co-firstOrderResponseStatus" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">approvalStatus</code> indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderResponseCheckGuid" className="">(4)</a></td>
-      <td className="">Each check receives a unique GUID. Use this to add items or payments to the check.</td>
+      <td className=""><div className=""><a href="#co-firstOrderResponseCheckGuid" className="">(4)</a></div></td>
+      <td className=""><div className="">Each check receives a unique GUID. Use this to add items or payments to the check.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderResponseAmount" className="">(5)</a></td>
-      <td className="">The <code className="">amount</code>, <code className="">taxAmount</code>, and <code className="">totalAmount</code> values show the calculated check totals.</td>
+      <td className=""><div className=""><a href="#co-firstOrderResponseAmount" className="">(5)</a></div></td>
+      <td className=""><div className="">The <code className="">amount</code>, <code className="">taxAmount</code>, and <code className="">totalAmount</code> values show the calculated check totals.</div></td>
     </tr>
 
 
@@ -608,16 +608,16 @@ The following example shows a selection with a modifier:
 
 
     <tr className="">
-      <td className=""><a href="#co-firstOrderModifiers" className="">(1)</a></td>
-      <td className="">The <code className="">modifiers</code> array contains modifier selections that apply to the parent menu item.</td>
+      <td className=""><div className=""><a href="#co-firstOrderModifiers" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">modifiers</code> array contains modifier selections that apply to the parent menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderModifierItem" className="">(2)</a></td>
-      <td className="">The GUID of the modifier item (for example, a topping or add-on option).</td>
+      <td className=""><div className=""><a href="#co-firstOrderModifierItem" className="">(2)</a></div></td>
+      <td className=""><div className="">The GUID of the modifier item (for example, a topping or add-on option).</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-firstOrderOptionGroup" className="">(3)</a></td>
-      <td className="">The GUID of the option group that contains the modifier. This is required for modifier selections.</td>
+      <td className=""><div className=""><a href="#co-firstOrderOptionGroup" className="">(3)</a></div></td>
+      <td className=""><div className="">The GUID of the option group that contains the modifier. This is required for modifier selections.</div></td>
     </tr>
 For more information, see [Applying modifiers to orders](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
 
@@ -630,51 +630,51 @@ When submitting orders, you may encounter the following HTTP status codes:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Status Code</th>
-      <th className="">Description</th>
-      <th className="">Resolution</th>
+      <th className=""><div className="">Status Code</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Resolution</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">200</td>
-      <td className="">Success</td>
-      <td className="">The API created the order successfully. The response body contains the complete order details.</td>
+      <td className=""><div className="">200</div></td>
+      <td className=""><div className="">Success</div></td>
+      <td className=""><div className="">The API created the order successfully. The response body contains the complete order details.</div></td>
     </tr>
     <tr className="">
-      <td className="">400</td>
-      <td className="">Bad Request</td>
-      <td className="">The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</td>
+      <td className=""><div className="">400</div></td>
+      <td className=""><div className="">Bad Request</div></td>
+      <td className=""><div className="">The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</div></td>
     </tr>
     <tr className="">
-      <td className="">401</td>
-      <td className="">Unauthorized</td>
-      <td className="">The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</td>
+      <td className=""><div className="">401</div></td>
+      <td className=""><div className="">Unauthorized</div></td>
+      <td className=""><div className="">The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</div></td>
     </tr>
     <tr className="">
-      <td className="">403</td>
-      <td className="">Forbidden</td>
-      <td className="">The API client does not have access to the location or does not have the required scope (<code className="">orders.orders:write</code>).</td>
+      <td className=""><div className="">403</div></td>
+      <td className=""><div className="">Forbidden</div></td>
+      <td className=""><div className="">The API client does not have access to the location or does not have the required scope (<code className="">orders.orders:write</code>).</div></td>
     </tr>
     <tr className="">
-      <td className="">404</td>
-      <td className="">Not Found</td>
-      <td className="">A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</td>
+      <td className=""><div className="">404</div></td>
+      <td className=""><div className="">Not Found</div></td>
+      <td className=""><div className="">A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</div></td>
     </tr>
     <tr className="">
-      <td className="">413</td>
-      <td className="">Payload Too Large</td>
-      <td className="">The number of checks in the order exceeds the allowed limit.</td>
+      <td className=""><div className="">413</div></td>
+      <td className=""><div className="">Payload Too Large</div></td>
+      <td className=""><div className="">The number of checks in the order exceeds the allowed limit.</div></td>
     </tr>
     <tr className="">
-      <td className="">415</td>
-      <td className="">Unsupported Media Type</td>
-      <td className="">The request does not include the <code className="">Content-Type: application/json</code> header.</td>
+      <td className=""><div className="">415</div></td>
+      <td className=""><div className="">Unsupported Media Type</div></td>
+      <td className=""><div className="">The request does not include the <code className="">Content-Type: application/json</code> header.</div></td>
     </tr>
     <tr className="">
-      <td className="">500</td>
-      <td className="">Internal Server Error</td>
-      <td className="">An unexpected error occurred. Note the <code className="">requestId</code> from the error response and contact Toast support if the issue persists.</td>
+      <td className=""><div className="">500</div></td>
+      <td className=""><div className="">Internal Server Error</div></td>
+      <td className=""><div className="">An unexpected error occurred. Note the <code className="">requestId</code> from the error response and contact Toast support if the issue persists.</div></td>
     </tr>
   </tbody>
 </table>
@@ -689,26 +689,26 @@ The following table describes common error messages and their resolutions:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Error Message</th>
-      <th className="">Resolution</th>
+      <th className=""><div className="">Error Message</div></th>
+      <th className=""><div className="">Resolution</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">Could not parse as Order object</code></td>
-      <td className="">Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</td>
+      <td className=""><div className=""><code className="">Could not parse as Order object</code></div></td>
+      <td className=""><div className="">Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</div></td>
     </tr>
     <tr className="">
-      <td className="">Item (<code className="">item GUID</code>) does not belong to the group (<code className="">item group GUID</code>)</td>
-      <td className="">The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the <code className="">menuGroups</code> array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the <code className="">menuGroups</code> array.</td>
+      <td className=""><div className="">Item (<code className="">item GUID</code>) does not belong to the group (<code className="">item group GUID</code>)</div></td>
+      <td className=""><div className="">The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the <code className="">menuGroups</code> array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the <code className="">menuGroups</code> array.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId</code></td>
-      <td className="">A menu item in your request is missing its GUID. Ensure every <code className="">item</code> object contains a valid <code className="">guid</code> value.</td>
+      <td className=""><div className=""><code className="">Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId</code></div></td>
+      <td className=""><div className="">A menu item in your request is missing its GUID. Ensure every <code className="">item</code> object contains a valid <code className="">guid</code> value.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">Referenced entity (type=DiningOption) must contain a GUID</code></td>
-      <td className="">The <code className="">diningOption</code> object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</td>
+      <td className=""><div className=""><code className="">Referenced entity (type=DiningOption) must contain a GUID</code></div></td>
+      <td className=""><div className="">The <code className="">diningOption</code> object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</div></td>
     </tr>
   </tbody>
 </table>

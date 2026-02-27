@@ -69,34 +69,34 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Value</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">eventGuid</code></td>
-      <td className="">The unique Toast platform identifier for the webhook event.  <br/> data type: string</td>
+      <td className=""><div className=""><code className="">eventGuid</code></div></td>
+      <td className=""><div className="">The unique Toast platform identifier for the webhook event.  <br/> data type: string</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">orderGuid</code></td>
-      <td className="">The unique Toast platform identifier for the order.  <br/> data type: string</td>
+      <td className=""><div className=""><code className="">orderGuid</code></div></td>
+      <td className=""><div className="">The unique Toast platform identifier for the order.  <br/> data type: string</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantGuid</code></td>
-      <td className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</td>
+      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
+      <td className=""><div className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">guestOrderStatus</code></td>
-      <td className="">The current status of a guest's order in the restaurant fulfillment process. <ul className=""><li className=""><code className="">IN_PREPARATION</code>: The order is being actively worked on.</li><li className=""><code className="">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li><li className=""><code className="">CLOSED</code>: The order is paid for and marked as completed.</li><li className=""><code className="">VOIDED</code>:<ul className=""><li className="">If the order is open, the order will be voided and not be fulfilled.</li><li className="">If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</td>
+      <td className=""><div className=""><code className="">guestOrderStatus</code></div></td>
+      <td className=""><div className="">The current status of a guest's order in the restaurant fulfillment process. <ul className=""><li className=""><code className="">IN_PREPARATION</code>: The order is being actively worked on.</li><li className=""><code className="">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li><li className=""><code className="">CLOSED</code>: The order is paid for and marked as completed.</li><li className=""><code className="">VOIDED</code>:<ul className=""><li className="">If the order is open, the order will be voided and not be fulfilled.</li><li className="">If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">lastUpdated</code></td>
-      <td className="">The date and time the order’s <code className="">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format.  <br/> data type: string <br/> format: date-time</td>
+      <td className=""><div className=""><code className="">lastUpdated</code></div></td>
+      <td className=""><div className="">The date and time the order’s <code className="">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format.  <br/> data type: string <br/> format: date-time</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">version</code></td>
-      <td className="">This value is null.</td>
+      <td className=""><div className=""><code className="">version</code></div></td>
+      <td className=""><div className="">This value is null.</div></td>
     </tr>
   </tbody>
 </table>

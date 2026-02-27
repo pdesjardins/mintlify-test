@@ -446,41 +446,41 @@ The table below provides some examples to help you better understand how to use 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Requirements</th>
-      <th className="">Example</th>
-      <th className="">Settings</th>
+      <th className=""><div className="">Requirements</div></th>
+      <th className=""><div className="">Example</div></th>
+      <th className=""><div className="">Settings</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Guests can make zero or one selection from this modifier group.</td>
-      <td className="">A Protein modifier group that lets a guest optionally add chicken or salmon to a Salad entree.</td>
-      <td className="">Optional <br/> Minimum: 0 <br/> Maximum: 1</td>
+      <td className=""><div className="">Guests can make zero or one selection from this modifier group.</div></td>
+      <td className=""><div className="">A Protein modifier group that lets a guest optionally add chicken or salmon to a Salad entree.</div></td>
+      <td className=""><div className="">Optional <br/> Minimum: 0 <br/> Maximum: 1</div></td>
     </tr>
     <tr className="">
-      <td className="">Guests must make one, and only one, selection from this modifier group.</td>
-      <td className="">A Temperature modifier group that defines the cooking temperature for a Steak entree and has Rare, Medium, or Well Done modifiers.</td>
-      <td className="">Required <br/> Minimum: 1 <br/> Maximum: 1</td>
+      <td className=""><div className="">Guests must make one, and only one, selection from this modifier group.</div></td>
+      <td className=""><div className="">A Temperature modifier group that defines the cooking temperature for a Steak entree and has Rare, Medium, or Well Done modifiers.</div></td>
+      <td className=""><div className="">Required <br/> Minimum: 1 <br/> Maximum: 1</div></td>
     </tr>
     <tr className="">
-      <td className="">Guests must select a specific number of modifiers from this modifier group.</td>
-      <td className="">A pick-two lunch entree where the guest can pick two offerings from a group of lunch dishes, for example, soup and a sandwich, or soup and a salad, or salad and a sandwich.</td>
-      <td className="">Required <br/> Minimum: 2 <br/> Maximum: 2</td>
+      <td className=""><div className="">Guests must select a specific number of modifiers from this modifier group.</div></td>
+      <td className=""><div className="">A pick-two lunch entree where the guest can pick two offerings from a group of lunch dishes, for example, soup and a sandwich, or soup and a salad, or salad and a sandwich.</div></td>
+      <td className=""><div className="">Required <br/> Minimum: 2 <br/> Maximum: 2</div></td>
     </tr>
     <tr className="">
-      <td className="">Guests can select as few or as many modifiers from this modifier group as they want.</td>
-      <td className="">A Pizza Toppings modifier group for a make-your-own pizza where the guest can choose as few or as many toppings as they like.</td>
-      <td className="">Optional <br/> No minimum <br/> No maximum</td>
+      <td className=""><div className="">Guests can select as few or as many modifiers from this modifier group as they want.</div></td>
+      <td className=""><div className="">A Pizza Toppings modifier group for a make-your-own pizza where the guest can choose as few or as many toppings as they like.</div></td>
+      <td className=""><div className="">Optional <br/> No minimum <br/> No maximum</div></td>
     </tr>
     <tr className="">
-      <td className="">Guests must select at least one modifier from this modifier group but they can also pick as many modifiers from this group as they want.</td>
-      <td className="">A Cheese Choice modifier group where the guest must specify at least one type of cheese to add to a sandwich but they can optionally add as many types of cheese as they want.</td>
-      <td className="">Required <br/> Minimum: 1 <br/> No maximum</td>
+      <td className=""><div className="">Guests must select at least one modifier from this modifier group but they can also pick as many modifiers from this group as they want.</div></td>
+      <td className=""><div className="">A Cheese Choice modifier group where the guest must specify at least one type of cheese to add to a sandwich but they can optionally add as many types of cheese as they want.</div></td>
+      <td className=""><div className="">Required <br/> Minimum: 1 <br/> No maximum</div></td>
     </tr>
     <tr className="">
-      <td className="">Guests do not have to select any modifiers from this group but, if they do, they are limited to a specific number.</td>
-      <td className="">An Extra Sides modifier group where the guest does not have to pick a side dish but they can optionally add up to two side dishes.</td>
-      <td className="">Optional <br/> No minimum <br/> Maximum: 2</td>
+      <td className=""><div className="">Guests do not have to select any modifiers from this group but, if they do, they are limited to a specific number.</div></td>
+      <td className=""><div className="">An Extra Sides modifier group where the guest does not have to pick a side dish but they can optionally add up to two side dishes.</div></td>
+      <td className=""><div className="">Optional <br/> No minimum <br/> Maximum: 2</div></td>
     </tr>
   </tbody>
 </table>

@@ -639,14 +639,14 @@ The following table provides information on device settings that ignore the curr
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Setting</th>
-      <th className="">Behavior</th>
+      <th className=""><div className="">Setting</div></th>
+      <th className=""><div className="">Behavior</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Text Size</td>
-      <td className="">For grid view, the text size is associated with the ticket size. For more information, see <a href="adminGuide-platformKDSOverview#platformGridKDSToConfigureSize" className="">Procedure 10.30, “To configure the ticket size”</a>.</td>
+      <td className=""><div className="">Text Size</div></td>
+      <td className=""><div className="">For grid view, the text size is associated with the ticket size. For more information, see <a href="adminGuide-platformKDSOverview#platformGridKDSToConfigureSize" className="">Procedure 10.30, “To configure the ticket size”</a>.</div></td>
     </tr>
   </tbody>
 </table>

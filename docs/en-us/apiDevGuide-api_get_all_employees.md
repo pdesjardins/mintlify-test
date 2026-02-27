@@ -47,8 +47,8 @@ https://`[toast-api-hostname]`/labor/v1/employees
 
 
     <tr className="">
-      <td className=""><a href="#get-employees-co" className="">(1)</a></td>
-      <td className="">Specify the GUID of the restaurant that you want to <code className="">GET</code> employees for. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+      <td className=""><div className=""><a href="#get-employees-co" className="">(1)</a></div></td>
+      <td className=""><div className="">Specify the GUID of the restaurant that you want to <code className="">GET</code> employees for. This must be an individual restaurant, not the GUID for a restaurant group.</div></td>
     </tr>
   
 ## Example response
@@ -113,15 +113,15 @@ The following example shows the response for a `GET`request to the `/labor/v1/em
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e68BDD1A7D6-D479-4A5F-A4A1-975B60C265DD" className="">(1)</a></td>
-      <td className="">The <code className="">GET</code> request returns an array of employee objects. Each object contains information about an employee.</td>
+      <td className=""><div className=""><a href="#co-d1e68BDD1A7D6-D479-4A5F-A4A1-975B60C265DD" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">GET</code> request returns an array of employee objects. Each object contains information about an employee.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e70BDD1A7D6-D479-4A5F-A4A1-975B60C265DD" className="">(2)</a></td>
-      <td className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the employee.</td>
+      <td className=""><div className=""><a href="#co-d1e70BDD1A7D6-D479-4A5F-A4A1-975B60C265DD" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the employee.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e72BDD1A7D6-D479-4A5F-A4A1-975B60C265DD" className="">(3)</a></td>
-      <td className="">Each object contains information for a different employee.</td>
+      <td className=""><div className=""><a href="#co-d1e72BDD1A7D6-D479-4A5F-A4A1-975B60C265DD" className="">(3)</a></div></td>
+      <td className=""><div className="">Each object contains information for a different employee.</div></td>
     </tr>
   

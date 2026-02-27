@@ -56,8 +56,8 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3" className="">(1)</a></td>
-      <td className="">Include the Toast platform identifier for the employee in the path parameter of the request.</td>
+      <td className=""><div className=""><a href="#co-d1e141338BF6586-9DC9-4F2D-B959-8942F3A9B4B3" className="">(1)</a></div></td>
+      <td className=""><div className="">Include the Toast platform identifier for the employee in the path parameter of the request.</div></td>
     </tr>
   
 ## Example response
@@ -92,11 +92,11 @@ The following example shows the response for a `PUT` request to unarchive an emp
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1426B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(1)</a></td>
-      <td className="">When you unarchive an employee, the <code className="">deleted</code> value is set to <code className="">false</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e1426B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(1)</a></div></td>
+      <td className=""><div className="">When you unarchive an employee, the <code className="">deleted</code> value is set to <code className="">false</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(2)</a></td>
-      <td className="">When you unarchive an employee, the <code className="">deletedDate</code> value is set to <code className="">null</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e1428B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(2)</a></div></td>
+      <td className=""><div className="">When you unarchive an employee, the <code className="">deletedDate</code> value is set to <code className="">null</code>.</div></td>
     </tr>
   

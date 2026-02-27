@@ -26,42 +26,42 @@ The following table specifies the returned set of values in the guest reporting 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value name</th>
-      <th className="">Definition</th>
+      <th className=""><div className="">Value name</div></th>
+      <th className=""><div className="">Definition</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">restaurantGuid</code></td>
-      <td className="">The unique identifier assigned to the restaurant by the Toast platform.</td>
+      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
+      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantName</code></td>
-      <td className="">The restaurant’s name.</td>
+      <td className=""><div className=""><code className="">restaurantName</code></div></td>
+      <td className=""><div className="">The restaurant’s name.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantLocationName</code></td>
-      <td className="">The restaurant’s location name.</td>
+      <td className=""><div className=""><code className="">restaurantLocationName</code></div></td>
+      <td className=""><div className="">The restaurant’s location name.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantLocationCode</code></td>
-      <td className="">The restaurant’s location code.</td>
+      <td className=""><div className=""><code className="">restaurantLocationCode</code></div></td>
+      <td className=""><div className="">The restaurant’s location code.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">paymentDate</code></td>
-      <td className="">The date when the payment was processed, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><code className="">paymentDate</code></div></td>
+      <td className=""><div className="">The date when the payment was processed, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">orderGuid</code></td>
-      <td className="">The unique identifier assigned to the order by the Toast platform.</td>
+      <td className=""><div className=""><code className="">orderGuid</code></div></td>
+      <td className=""><div className="">The unique identifier assigned to the order by the Toast platform.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">paymentGuid</code></td>
-      <td className="">The unique identifier assigned to the payment by the Toast platform.</td>
+      <td className=""><div className=""><code className="">paymentGuid</code></div></td>
+      <td className=""><div className="">The unique identifier assigned to the payment by the Toast platform.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">cardFingerprint</code></td>
-      <td className="">The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> <code className="">cardFingerprint</code> data is only available for payments processed starting in August 2024. <code className="">cardFingerprint</code> data is not supported for older payments.</blockquote> </td>
+      <td className=""><div className=""><code className="">cardFingerprint</code></div></td>
+      <td className=""><div className="">The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> <code className="">cardFingerprint</code> data is only available for payments processed starting in August 2024. <code className="">cardFingerprint</code> data is not supported for older payments.</blockquote> </div></td>
     </tr>
   </tbody>
 </table>

@@ -157,76 +157,76 @@ Cu2dnrEDSllcU3wZSRLVPjuoXmyK28JO40Grzeq2ZKAKepnTDW9m84ag==",
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e111F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(1)</a></td>
-      <td className="">Identifying credit card information, including the account number. You must encrypt this information and encode it in base64 format. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiEncryptingCreditCardInformation" className="">Encrypting credit card information</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e111F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(1)</a></div></td>
+      <td className=""><div className="">Identifying credit card information, including the account number. You must encrypt this information and encode it in base64 format. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiEncryptingCreditCardInformation" className="">Encrypting credit card information</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e113F291C744-5561-42C1-BD4E-F18BB8532ABC" className="">(2)</a></td>
-      <td className="">The encryption key identifier that you receive from from Toast integration support. The identifier string indicates the algorithm and the specific encryption key used to encrypt the credit card data for the request. For information about encryption algorithms and key identifiers, see <a href="apiDevGuide-authorizingCcPayments#apiCreditCardInformationEncryptionAlgorithms" className="">Encryption algorithms</a> and <a href="apiDevGuide-authorizingCcPayments#apiEncryptionKeysAndKeyIdentifiers" className="">Encryption keys and key identifiers</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e113F291C744-5561-42C1-BD4E-F18BB8532ABC" className="">(2)</a></div></td>
+      <td className=""><div className="">The encryption key identifier that you receive from from Toast integration support. The identifier string indicates the algorithm and the specific encryption key used to encrypt the credit card data for the request. For information about encryption algorithms and key identifiers, see <a href="apiDevGuide-authorizingCcPayments#apiCreditCardInformationEncryptionAlgorithms" className="">Encryption algorithms</a> and <a href="apiDevGuide-authorizingCcPayments#apiEncryptionKeysAndKeyIdentifiers" className="">Encryption keys and key identifiers</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e113F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(3)</a></td>
-      <td className="">The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see <a href="apiDevGuide-apiOrderPrices#apiGettingCheckPrices" className="">Getting check prices before you submit an order</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e113F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(3)</a></div></td>
+      <td className=""><div className="">The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see <a href="apiDevGuide-apiOrderPrices#apiGettingCheckPrices" className="">Getting check prices before you submit an order</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e115F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(4)</a></td>
-      <td className="">The amount of the gratuity that the guest applied to the check.</td>
+      <td className=""><div className=""><a href="#co-d1e115F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(4)</a></div></td>
+      <td className=""><div className="">The amount of the gratuity that the guest applied to the check.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#willSaveCard" className="">(5)</a></td>
-      <td className="">The <code className="">willSaveCard</code> value indicates whether organizations store restaurant guests' credit card information for future use. <code className="">true</code> indicates that your organization stores credit card information used in a credit card authorization. <code className="">false</code> indicates that your organization does not store the credit card information used in a credit card authorization.</td>
+      <td className=""><div className=""><a href="#willSaveCard" className="">(5)</a></div></td>
+      <td className=""><div className="">The <code className="">willSaveCard</code> value indicates whether organizations store restaurant guests' credit card information for future use. <code className="">true</code> indicates that your organization stores credit card information used in a credit card authorization. <code className="">false</code> indicates that your organization does not store the credit card information used in a credit card authorization.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#cardNumberOrigin" className="">(6)</a></td>
-      <td className="">The <code className="">cardNumberOrigin</code> value is used for "card on file" reporting. If your organization uses stored credit card information for a credit card authorization, you must set the value of <code className="">cardNumberOrigin</code> to <code className="">PARTNER_VAULT</code>. The default value for <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiCardNumberOriginForFraudDetection" className="">Using card number origin values</a>.</td>
+      <td className=""><div className=""><a href="#cardNumberOrigin" className="">(6)</a></div></td>
+      <td className=""><div className="">The <code className="">cardNumberOrigin</code> value is used for "card on file" reporting. If your organization uses stored credit card information for a credit card authorization, you must set the value of <code className="">cardNumberOrigin</code> to <code className="">PARTNER_VAULT</code>. The default value for <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiCardNumberOriginForFraudDetection" className="">Using card number origin values</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e117F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(7)</a></td>
-      <td className="">The date and time when the guest presents their credit card, in <a href="apiDevGuide-api_dates_and_timestamps" className="">ISO 8601 format</a>. The <code className="">localTransactionDate</code> must be set to the current date and time, and cannot be a future date.</td>
+      <td className=""><div className=""><a href="#co-d1e117F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(7)</a></div></td>
+      <td className=""><div className="">The date and time when the guest presents their credit card, in <a href="apiDevGuide-api_dates_and_timestamps" className="">ISO 8601 format</a>. The <code className="">localTransactionDate</code> must be set to the current date and time, and cannot be a future date.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e119F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(8)</a></td>
-      <td className="">The IP address of the device that the guest used to enter the credit card payment. For example, for an online order, this is the IP address of the computer that the guest used to submit the order. <blockquote><strong>Important</strong> The origin IP address is essential for detecting and preventing fraud attempts in credit card authorization requests. To prevent disruption to your transaction workflow, ensure the correct origin IP address is used.</blockquote> </td>
+      <td className=""><div className=""><a href="#co-d1e119F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(8)</a></div></td>
+      <td className=""><div className="">The IP address of the device that the guest used to enter the credit card payment. For example, for an online order, this is the IP address of the computer that the guest used to submit the order. <blockquote><strong>Important</strong> The origin IP address is essential for detecting and preventing fraud attempts in credit card authorization requests. To prevent disruption to your transaction workflow, ensure the correct origin IP address is used.</blockquote> </div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e122F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(9)</a></td>
-      <td className="">An identifier for the server or process that operates as an API client to process the credit card authorization. For example, this might be the identifier of a client software process that appears in log information.</td>
+      <td className=""><div className=""><a href="#co-d1e122F291C744-5561-42C1-BD4E-F18BB8532F7A" className="">(9)</a></div></td>
+      <td className=""><div className="">An identifier for the server or process that operates as an API client to process the credit card authorization. For example, this might be the identifier of a client software process that appears in log information.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#first6" className="">(10)</a></td>
-      <td className="">The first six digits of the credit card number. The first six digits are the bank identification number (BIN) for the card. The value must match exactly the information provided in the encrypted card data. This value is required when <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>.</td>
+      <td className=""><div className=""><a href="#first6" className="">(10)</a></div></td>
+      <td className=""><div className="">The first six digits of the credit card number. The first six digits are the bank identification number (BIN) for the card. The value must match exactly the information provided in the encrypted card data. This value is required when <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#last4" className="">(11)</a></td>
-      <td className="">The last four digits of the credit card number. The value must match exactly the information provided in the encrypted card data. This value is required when <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>.</td>
+      <td className=""><div className=""><a href="#last4" className="">(11)</a></div></td>
+      <td className=""><div className="">The last four digits of the credit card number. The value must match exactly the information provided in the encrypted card data. This value is required when <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#billingAddress" className="">(12)</a></td>
-      <td className="">The billing address associated with the credit card. When <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>, <code className="">billingAddress</code> is required and must include at least a <code className="">postalCode</code> and <code className="">country</code>.</td>
+      <td className=""><div className=""><a href="#billingAddress" className="">(12)</a></div></td>
+      <td className=""><div className="">The billing address associated with the credit card. When <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>, <code className="">billingAddress</code> is required and must include at least a <code className="">postalCode</code> and <code className="">country</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#deliveryAddress" className="">(13)</a></td>
-      <td className="">A delivery address for the order.</td>
+      <td className=""><div className=""><a href="#deliveryAddress" className="">(13)</a></div></td>
+      <td className=""><div className="">A delivery address for the order.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#guestID" className="">(14)</a></td>
-      <td className="">An identifier for the guest making the payment, such as an email address or phone number. This value is required when <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiUsingGuestIdentifierValues" className="">Using guestIdentifier values</a>.</td>
+      <td className=""><div className=""><a href="#guestID" className="">(14)</a></div></td>
+      <td className=""><div className="">An identifier for the guest making the payment, such as an email address or phone number. This value is required when <code className="">cardNumberOrigin</code> is <code className="">END_USER</code>. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiUsingGuestIdentifierValues" className="">Using guestIdentifier values</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#guestEmail" className="">(15)</a></td>
-      <td className="">The email address of the guest placing the payment. If you include an email address in the <code className="">guestIdentifier</code> value, the email address in the <code className="">guestEmail</code> value should match the <code className="">guestIdentifier</code>. This can help prevent fraudulent transactions. This field is optional.</td>
+      <td className=""><div className=""><a href="#guestEmail" className="">(15)</a></div></td>
+      <td className=""><div className="">The email address of the guest placing the payment. If you include an email address in the <code className="">guestIdentifier</code> value, the email address in the <code className="">guestEmail</code> value should match the <code className="">guestIdentifier</code>. This can help prevent fraudulent transactions. This field is optional.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#userAgent" className="">(16)</a></td>
-      <td className="">For payments taken through a web browser, the browser's user agent string.</td>
+      <td className=""><div className=""><a href="#userAgent" className="">(16)</a></div></td>
+      <td className=""><div className="">For payments taken through a web browser, the browser's user agent string.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#appName" className="">(17)</a></td>
-      <td className="">A company-specific name for the mobile app (if any) the payment is made through. For example, use 'MyCompany Android App' instead of 'Android App'.</td>
+      <td className=""><div className=""><a href="#appName" className="">(17)</a></div></td>
+      <td className=""><div className="">A company-specific name for the mobile app (if any) the payment is made through. For example, use 'MyCompany Android App' instead of 'Android App'.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#appVersion" className="">(18)</a></td>
-      <td className="">The version of the mobile app (if any) that the payment is made through. You can use any string to represent the app version. There are no format or content requirements.</td>
+      <td className=""><div className=""><a href="#appVersion" className="">(18)</a></div></td>
+      <td className=""><div className="">The version of the mobile app (if any) that the payment is made through. You can use any string to represent the app version. There are no format or content requirements.</div></td>
     </tr>
   
 ## Optimizing fraud detection
@@ -303,18 +303,18 @@ The following table provides more information about the values you include in th
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value</th>
-      <th className="">Explanation</th>
+      <th className=""><div className="">Value</div></th>
+      <th className=""><div className="">Explanation</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">END_USER</code></td>
-      <td className="">The guest provided the credit card information directly. <br/> The <code className="">PaymentRequestMetadata</code> object in the <code className="">requestMetadata</code> value <em className="">must</em>  include: <ul className=""><li className=""><code className="">cardFirst6</code></li><li className=""><code className="">cardLast4</code></li><li className=""><code className="">billingAddress</code></li><li className=""><code className="">guestIdentifier</code></li><li className=""><code className="">originIPAddr</code></li></ul></td>
+      <td className=""><div className=""><code className="">END_USER</code></div></td>
+      <td className=""><div className="">The guest provided the credit card information directly. <br/> The <code className="">PaymentRequestMetadata</code> object in the <code className="">requestMetadata</code> value <em className="">must</em>  include: <ul className=""><li className=""><code className="">cardFirst6</code></li><li className=""><code className="">cardLast4</code></li><li className=""><code className="">billingAddress</code></li><li className=""><code className="">guestIdentifier</code></li><li className=""><code className="">originIPAddr</code></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">PARTNER_VAULT</code></td>
-      <td className="">Your integration retrieved the credit card information from secure storage. <br/> The <code className="">PaymentRequestMetadata</code> object in the <code className="">requestMetadata</code> value <em className="">must</em>  include:<ul className=""><li className=""><code className="">cardFirst6</code></li><li className=""><code className="">cardLast4</code></li><li className=""><code className="">billingAddress</code></li><li className=""><code className="">guestIdentifier</code></li><li className=""><code className="">originIPAddr</code></li></ul></td>
+      <td className=""><div className=""><code className="">PARTNER_VAULT</code></div></td>
+      <td className=""><div className="">Your integration retrieved the credit card information from secure storage. <br/> The <code className="">PaymentRequestMetadata</code> object in the <code className="">requestMetadata</code> value <em className="">must</em>  include:<ul className=""><li className=""><code className="">cardFirst6</code></li><li className=""><code className="">cardLast4</code></li><li className=""><code className="">billingAddress</code></li><li className=""><code className="">guestIdentifier</code></li><li className=""><code className="">originIPAddr</code></li></ul></div></td>
     </tr>
   </tbody>
 </table>
@@ -381,24 +381,24 @@ The following example shows the JSON message body data that applies an authorize
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e195A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(1)</a></td>
-      <td className="">The payment UUID that you assign to the payment when you authorize it in the credit cards API. You supply this UUID in the <em className=""><code className="">paymentUuid</code></em>  path parameter for the <code className="">PUT</code> request to authorize the payment. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment" className="">Authorizing a credit card payment</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e195A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(1)</a></div></td>
+      <td className=""><div className="">The payment UUID that you assign to the payment when you authorize it in the credit cards API. You supply this UUID in the <em className=""><code className="">paymentUuid</code></em>  path parameter for the <code className="">PUT</code> request to authorize the payment. For more information, see <a href="apiDevGuide-authorizingCcPayments#apiAuthorizingACreditCardPayment" className="">Authorizing a credit card payment</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e197A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(2)</a></td>
-      <td className="">The date and time when Toast processes the credit card payment, presented in ISO 8601 format. Credit card authorizations expire within seven days, therefore the <code className="">paidDate</code> cannot be more than seven days after the <code className="">localTransactionDate</code>. The <code className="">paidDate</code> is available in reporting data.</td>
+      <td className=""><div className=""><a href="#co-d1e197A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(2)</a></div></td>
+      <td className=""><div className="">The date and time when Toast processes the credit card payment, presented in ISO 8601 format. Credit card authorizations expire within seven days, therefore the <code className="">paidDate</code> cannot be more than seven days after the <code className="">localTransactionDate</code>. The <code className="">paidDate</code> is available in reporting data.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e199A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(3)</a></td>
-      <td className="">The type of payment. For credit card payments, this value is <code className="">CREDIT</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e199A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(3)</a></div></td>
+      <td className=""><div className="">The type of payment. For credit card payments, this value is <code className="">CREDIT</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e201A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(4)</a></td>
-      <td className="">The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see <a href="apiDevGuide-apiOrderPrices#apiGettingCheckPrices" className="">Getting check prices before you submit an order</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e201A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(4)</a></div></td>
+      <td className=""><div className="">The price of the check that you will apply the credit card payment to. For information about getting the total price of a check, see <a href="apiDevGuide-apiOrderPrices#apiGettingCheckPrices" className="">Getting check prices before you submit an order</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e203A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(5)</a></td>
-      <td className="">The amount of the gratuity that the guest applied to the check.</td>
+      <td className=""><div className=""><a href="#co-d1e203A18BC72A-4EBC-425E-BD6C-E5E3E35516D3" className="">(5)</a></div></td>
+      <td className=""><div className="">The amount of the gratuity that the guest applied to the check.</div></td>
     </tr>
   
 ## Encrypting credit card information
@@ -435,28 +435,28 @@ The following example shows credit card information that you encrypt and base64 
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5385CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(1)</a></td>
-      <td className="">The primary account number (PAN) of the card, which the API validates using the ISO-standard Luhn algorithm.</td>
+      <td className=""><div className=""><a href="#co-d1e5385CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(1)</a></div></td>
+      <td className=""><div className="">The primary account number (PAN) of the card, which the API validates using the ISO-standard Luhn algorithm.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5585CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(2)</a></td>
-      <td className="">The ZIP or postal code of the card holder's billing address. This value is required, must be numeric, and must not be an empty string. Do not include hyphens (<code className="">-</code>) in the string.</td>
+      <td className=""><div className=""><a href="#co-d1e5585CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(2)</a></div></td>
+      <td className=""><div className="">The ZIP or postal code of the card holder's billing address. This value is required, must be numeric, and must not be an empty string. Do not include hyphens (<code className="">-</code>) in the string.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5785CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(3)</a></td>
-      <td className="">The three- or four-digit card verification value (CVV) of the card. When <code className="">cardNumberOrigin</code> is <code className="">PARTNER_VAULT</code> in the credit card authorization request, the CVV is not required, but it is validated for correctness if it is submitted. If you do not submit a CVV on a credit card authorization request, you can either omit the <code className="">cvv</code> value on your authorization, or submit a <code className="">cvv</code> value of <code className="">null</code>. The <code className="">cvv</code> value you submit should not be an empty string (<code className="">""</code>).</td>
+      <td className=""><div className=""><a href="#co-d1e5785CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(3)</a></div></td>
+      <td className=""><div className="">The three- or four-digit card verification value (CVV) of the card. When <code className="">cardNumberOrigin</code> is <code className="">PARTNER_VAULT</code> in the credit card authorization request, the CVV is not required, but it is validated for correctness if it is submitted. If you do not submit a CVV on a credit card authorization request, you can either omit the <code className="">cvv</code> value on your authorization, or submit a <code className="">cvv</code> value of <code className="">null</code>. The <code className="">cvv</code> value you submit should not be an empty string (<code className="">""</code>).</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5985CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(4)</a></td>
-      <td className="">The two-digit month of the expiration date for the card.</td>
+      <td className=""><div className=""><a href="#co-d1e5985CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(4)</a></div></td>
+      <td className=""><div className="">The two-digit month of the expiration date for the card.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e6185CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(5)</a></td>
-      <td className="">The two-digit year of the expiration date for the card.</td>
+      <td className=""><div className=""><a href="#co-d1e6185CE9715-52F9-43FB-AB1A-9F382E163FBA" className="">(5)</a></div></td>
+      <td className=""><div className="">The two-digit year of the expiration date for the card.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-apiCcEncryptedInfoCountry" className="">(6)</a></td>
-      <td className="">The country of the card holder's billing address, in ISO 3166-1 alpha-3 format.</td>
+      <td className=""><div className=""><a href="#co-apiCcEncryptedInfoCountry" className="">(6)</a></div></td>
+      <td className=""><div className="">The country of the card holder's billing address, in ISO 3166-1 alpha-3 format.</div></td>
     </tr>
   
 The following example shows the base64-encoded and encrypted credit card information in the `encryptedCardData` value.
@@ -547,18 +547,18 @@ The following table includes the identification strings for the encryption algor
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Algorithm</th>
-      <th className="">Identification string</th>
+      <th className=""><div className="">Algorithm</div></th>
+      <th className=""><div className="">Identification string</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">RSA-OAEP with SHA256 hashing</td>
-      <td className="">RSA-OAEP-SHA256</td>
+      <td className=""><div className="">RSA-OAEP with SHA256 hashing</div></td>
+      <td className=""><div className="">RSA-OAEP-SHA256</div></td>
     </tr>
     <tr className="">
-      <td className="">RSA-OAEP with SHA1 hashing, deprecated</td>
-      <td className="">RSA-OAEP-SHA1</td>
+      <td className=""><div className="">RSA-OAEP with SHA1 hashing, deprecated</div></td>
+      <td className=""><div className="">RSA-OAEP-SHA1</div></td>
     </tr>
   </tbody>
 </table>
@@ -592,28 +592,28 @@ openssl pkeyutl \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e63595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(1)</a></td>
-      <td className="">The <strong className="">pkeyutl</strong>  command for the <strong className="">openssl</strong>  utility can encrypt values. For more information, see the <strong className="">openssl</strong>  utility <a href="https://www.openssl.org/docs/man1.1.1/man1/openssl-pkeyutl.html" className="">documentation</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e63595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(1)</a></div></td>
+      <td className=""><div className="">The <strong className="">pkeyutl</strong>  command for the <strong className="">openssl</strong>  utility can encrypt values. For more information, see the <strong className="">openssl</strong>  utility <a href="https://www.openssl.org/docs/man1.1.1/man1/openssl-pkeyutl.html" className="">documentation</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(2)</a></td>
-      <td className="">The <em className=""><code className="">-in</code></em>  argument provides the path to a file holding the JSON credit card information. See <a href="apiDevGuide-authorizingCcPayments#apiExampleJsonCreditCardInformation" className="">Example 3.9, “Example credit card information for an encryptedCardData value”</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e64095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(2)</a></div></td>
+      <td className=""><div className="">The <em className=""><code className="">-in</code></em>  argument provides the path to a file holding the JSON credit card information. See <a href="apiDevGuide-authorizingCcPayments#apiExampleJsonCreditCardInformation" className="">Example 3.9, “Example credit card information for an encryptedCardData value”</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(3)</a></td>
-      <td className="">The <em className=""><code className="">-inkey</code></em>  argument provides the path to a file holding the RSA public key that corresponds with your Toast API client identifier.</td>
+      <td className=""><div className=""><a href="#co-d1e64595B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(3)</a></div></td>
+      <td className=""><div className="">The <em className=""><code className="">-inkey</code></em>  argument provides the path to a file holding the RSA public key that corresponds with your Toast API client identifier.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e64895B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(4)</a></td>
-      <td className="">These arguments set openssl utility options to use the RSA-OAEP with SHA256 hashing encryption algorithm.</td>
+      <td className=""><div className=""><a href="#co-d1e64895B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(4)</a></div></td>
+      <td className=""><div className="">These arguments set openssl utility options to use the RSA-OAEP with SHA256 hashing encryption algorithm.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e65095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(5)</a></td>
-      <td className="">The <strong className="">base64</strong>  command for the <strong className="">openssl</strong>  utility encodes binary data in base64 format.</td>
+      <td className=""><div className=""><a href="#co-d1e65095B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(5)</a></div></td>
+      <td className=""><div className="">The <strong className="">base64</strong>  command for the <strong className="">openssl</strong>  utility encodes binary data in base64 format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(6)</a></td>
-      <td className="">This <strong className="">tr</strong>  command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON <code className="">encryptedCardData</code> value for a credit cards API authorization request.</td>
+      <td className=""><div className=""><a href="#co-d1e65295B32F21-5B43-4BA2-9C4E-6CE0DE6C4387" className="">(6)</a></div></td>
+      <td className=""><div className="">This <strong className="">tr</strong>  command strips new line characters out of the base64-encoded credit card information. Removing new line characters makes it easier to include the base64-encoded string in the JSON <code className="">encryptedCardData</code> value for a credit cards API authorization request.</div></td>
     </tr>
   
 ### Encryption keys and key identifiers

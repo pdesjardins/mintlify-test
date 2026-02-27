@@ -26,98 +26,98 @@ The following table specifies the returned set of values in the aggregated sales
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value name</th>
-      <th className="">Definition</th>
+      <th className=""><div className="">Value name</div></th>
+      <th className=""><div className="">Definition</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">restaurantGuid</code></td>
-      <td className="">The unique identifier assigned to the restaurant by the Toast platform.</td>
+      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
+      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">businessDate</code></td>
-      <td className="">The calendar date of the associated order data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><code className="">businessDate</code></div></td>
+      <td className=""><div className="">The calendar date of the associated order data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">guestCount</code></td>
-      <td className="">The total number of guests recorded across all orders.</td>
+      <td className=""><div className=""><code className="">guestCount</code></div></td>
+      <td className=""><div className="">The total number of guests recorded across all orders.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">voidOrdersCount</code></td>
-      <td className="">The total number of orders with at least one voided item.</td>
+      <td className=""><div className=""><code className="">voidOrdersCount</code></div></td>
+      <td className=""><div className="">The total number of orders with at least one voided item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">discountOrderCount</code></td>
-      <td className="">The total number of orders that used a discount.</td>
+      <td className=""><div className=""><code className="">discountOrderCount</code></div></td>
+      <td className=""><div className="">The total number of orders that used a discount.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">ordersCount</code></td>
-      <td className="">The total number of orders, excluding voided orders.</td>
+      <td className=""><div className=""><code className="">ordersCount</code></div></td>
+      <td className=""><div className="">The total number of orders, excluding voided orders.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">openOrdersCount</code></td>
-      <td className="">The total number of open orders.</td>
+      <td className=""><div className=""><code className="">openOrdersCount</code></div></td>
+      <td className=""><div className="">The total number of open orders.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">closedOrdersCount</code></td>
-      <td className="">The total number of closed orders.</td>
+      <td className=""><div className=""><code className="">closedOrdersCount</code></div></td>
+      <td className=""><div className="">The total number of closed orders.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">netSalesAmount</code></td>
-      <td className="">The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts.</td>
+      <td className=""><div className=""><code className="">netSalesAmount</code></div></td>
+      <td className=""><div className="">The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">grossSalesAmount</code></td>
-      <td className="">The total sales, including applied discounts and refunds.</td>
+      <td className=""><div className=""><code className="">grossSalesAmount</code></div></td>
+      <td className=""><div className="">The total sales, including applied discounts and refunds.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">discountAmount</code></td>
-      <td className="">The total amount of discounts for orders.</td>
+      <td className=""><div className=""><code className="">discountAmount</code></div></td>
+      <td className=""><div className="">The total amount of discounts for orders.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">voidOrdersAmount</code></td>
-      <td className="">The total amount of voided orders.</td>
+      <td className=""><div className=""><code className="">voidOrdersAmount</code></div></td>
+      <td className=""><div className="">The total amount of voided orders.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">refundAmount</code></td>
-      <td className="">The total amount of refunded sales.</td>
+      <td className=""><div className=""><code className="">refundAmount</code></div></td>
+      <td className=""><div className="">The total amount of refunded sales.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">avgOrderValue</code></td>
-      <td className="">The average amount for an order.</td>
+      <td className=""><div className=""><code className="">avgOrderValue</code></div></td>
+      <td className=""><div className="">The average amount for an order.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">revenueCenter</code></td>
-      <td className="">The revenue center for the order data. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">REVENUE_CENTER</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</td>
+      <td className=""><div className=""><code className="">revenueCenter</code></div></td>
+      <td className=""><div className="">The revenue center for the order data. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">REVENUE_CENTER</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">diningOption</code></td>
-      <td className="">The dining option for the order data. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">DINING_OPTION</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</td>
+      <td className=""><div className=""><code className="">diningOption</code></div></td>
+      <td className=""><div className="">The dining option for the order data. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">DINING_OPTION</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">orderSource</code></td>
-      <td className="">The method used to place an order, also known as the order source. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">ORDER_SOURCE</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</td>
+      <td className=""><div className=""><code className="">orderSource</code></div></td>
+      <td className=""><div className="">The method used to place an order, also known as the order source. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">ORDER_SOURCE</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">businessHour</code></td>
-      <td className="">The hour the data represents. This appears when the <code className="">aggregateBy</code> query parameter is set to <code className="">HOUR</code> in the <code className="">/era/v1/metrics/day</code> request. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy" className="">Using the <code className="">aggregateBy</code> query parameter</a>.</td>
+      <td className=""><div className=""><code className="">businessHour</code></div></td>
+      <td className=""><div className="">The hour the data represents. This appears when the <code className="">aggregateBy</code> query parameter is set to <code className="">HOUR</code> in the <code className="">/era/v1/metrics/day</code> request. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy" className="">Using the <code className="">aggregateBy</code> query parameter</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">hourlyJobTotalHours</code></td>
-      <td className="">The total hours worked by employees with hourly jobs. This does not include breaks.</td>
+      <td className=""><div className=""><code className="">hourlyJobTotalHours</code></div></td>
+      <td className=""><div className="">The total hours worked by employees with hourly jobs. This does not include breaks.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">hourlyJobTotalPay</code></td>
-      <td className="">The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips.</td>
+      <td className=""><div className=""><code className="">hourlyJobTotalPay</code></div></td>
+      <td className=""><div className="">The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">hourlyJobSalesPerLaborHour</code></td>
-      <td className="">The average net sales per each hour worked by employees with hourly jobs. </td>
+      <td className=""><div className=""><code className="">hourlyJobSalesPerLaborHour</code></div></td>
+      <td className=""><div className="">The average net sales per each hour worked by employees with hourly jobs. </div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurantName</code></td>
-      <td className="">The restaurant’s name. This is included when you set the <code className="">fetchRestaurantNames</code> parameter to <code className="">true</code> in the <code className="">GET</code> request.</td>
+      <td className=""><div className=""><code className="">restaurantName</code></div></td>
+      <td className=""><div className="">The restaurant’s name. This is included when you set the <code className="">fetchRestaurantNames</code> parameter to <code className="">true</code> in the <code className="">GET</code> request.</div></td>
     </tr>
   </tbody>
 </table>

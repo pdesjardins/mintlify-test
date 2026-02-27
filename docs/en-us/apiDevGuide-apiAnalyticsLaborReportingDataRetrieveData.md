@@ -33,16 +33,16 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/labor</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e4574134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/labor</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4576134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
-      <td className="">The GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e4576134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></div></td>
+      <td className=""><div className="">The GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4578134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e4578134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ## Response to the retrieval request for labor reporting data
 

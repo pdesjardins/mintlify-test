@@ -93,26 +93,26 @@ The following table provides suggested information that you can display in diffe
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Object</th>
-      <th className=""> Values</th>
+      <th className=""><div className="">Object</div></th>
+      <th className=""><div className=""> Values</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Orders</td>
-      <td className="">Consider displaying the following reporting information for orders:<ul className=""><li className="">Order source</li><li className="">Opened date</li><li className="">Paid date</li><li className="">Closed date</li><li className="">Voided status</li></ul></td>
+      <td className=""><div className="">Orders</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for orders:<ul className=""><li className="">Order source</li><li className="">Opened date</li><li className="">Paid date</li><li className="">Closed date</li><li className="">Voided status</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className="">Checks</td>
-      <td className="">Consider displaying the following reporting information for checks:<ul className=""><li className="">Display number</li><li className="">Tab name</li><li className="">Total amount</li><li className="">Refunded amount</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li></ul></td>
+      <td className=""><div className="">Checks</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for checks:<ul className=""><li className="">Display number</li><li className="">Tab name</li><li className="">Total amount</li><li className="">Refunded amount</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className="">Menu item selections</td>
-      <td className="">Consider displaying the following reporting information for item selections:<ul className=""><li className="">Menu item name - Use <code className="">displayName</code> value on <code className="">Selection</code> object</li><li className="">Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li className="">Price</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Sales category name</li><li className="">Menu item tags</li><li className="">Menu item SKU</li></ul></td>
+      <td className=""><div className="">Menu item selections</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for item selections:<ul className=""><li className="">Menu item name - Use <code className="">displayName</code> value on <code className="">Selection</code> object</li><li className="">Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li className="">Price</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Sales category name</li><li className="">Menu item tags</li><li className="">Menu item SKU</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className="">Payments</td>
-      <td className="">By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items. <br/> Consider displaying the following reporting information for payments:<ul className=""><li className="">Amount</li><li className="">Refund information</li><li className="">Type</li><li className="">Payment status</li></ul></td>
+      <td className=""><div className="">Payments</div></td>
+      <td className=""><div className="">By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items. <br/> Consider displaying the following reporting information for payments:<ul className=""><li className="">Amount</li><li className="">Refund information</li><li className="">Type</li><li className="">Payment status</li></ul></div></td>
     </tr>
   </tbody>
 </table>
@@ -157,31 +157,31 @@ To reduce the amount of data that you receive when you poll the configuration AP
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Information type</th>
-      <th className="">Configuration</th>
-      <th className="">Additional information</th>
+      <th className=""><div className="">Information type</div></th>
+      <th className=""><div className="">Configuration</div></th>
+      <th className=""><div className="">Additional information</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Reporting categories</td>
-      <td className="">Sales categories from the configuration API. <br/> <a href="https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/" className="">More information</a></td>
-      <td className="">See Toast Central for more information about <a href="https://central.toasttab.com/s/article/Sales-Categories-1492812477858" className="">sales categories</a>.</td>
+      <td className=""><div className="">Reporting categories</div></td>
+      <td className=""><div className="">Sales categories from the configuration API. <br/> <a href="https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/" className="">More information</a></div></td>
+      <td className=""><div className="">See Toast Central for more information about <a href="https://central.toasttab.com/s/article/Sales-Categories-1492812477858" className="">sales categories</a>.</div></td>
     </tr>
     <tr className="">
-      <td className="">Order configuration</td>
-      <td className="">Alternative payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/" className="">More information</a> <br/> Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/" className="">More information</a> <br/> Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/" className="">More information</a></td>
-      <td className="">These pieces of configuration are often associated with orders. <br/> They describe how the order was placed and how its price was calculated. </td>
+      <td className=""><div className="">Order configuration</div></td>
+      <td className=""><div className="">Alternative payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/" className="">More information</a> <br/> Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/" className="">More information</a> <br/> Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/" className="">More information</a></div></td>
+      <td className=""><div className="">These pieces of configuration are often associated with orders. <br/> They describe how the order was placed and how its price was calculated. </div></td>
     </tr>
     <tr className="">
-      <td className="">Menu information</td>
-      <td className="">Menu information from the menus API. <br/> In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items. <br/> <a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI" className="">More information</a></td>
-      <td className="">The menus API returns menu item names and other menu-related information you may want to display in your inventory platform. </td>
+      <td className=""><div className="">Menu information</div></td>
+      <td className=""><div className="">Menu information from the menus API. <br/> In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items. <br/> <a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI" className="">More information</a></div></td>
+      <td className=""><div className="">The menus API returns menu item names and other menu-related information you may want to display in your inventory platform. </div></td>
     </tr>
     <tr className="">
-      <td className="">Restaurant information</td>
-      <td className="">Restaurant services from the configuration API. <br/> <a href="https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/" className="">More information</a></td>
-      <td className="">This restaurant information allows your integration to report on when orders were placed in your restaurant. <br/> For more information, see this <a href="https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services" className="">Toast Central article about hours and services</a>.</td>
+      <td className=""><div className="">Restaurant information</div></td>
+      <td className=""><div className="">Restaurant services from the configuration API. <br/> <a href="https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/" className="">More information</a></div></td>
+      <td className=""><div className="">This restaurant information allows your integration to report on when orders were placed in your restaurant. <br/> For more information, see this <a href="https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services" className="">Toast Central article about hours and services</a>.</div></td>
     </tr>
   </tbody>
 </table>

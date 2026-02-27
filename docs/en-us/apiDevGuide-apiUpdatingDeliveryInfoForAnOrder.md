@@ -30,30 +30,30 @@ You can use the orders API to modify the following delivery information:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Value</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">deliveredDate</code></td>
-      <td className="">The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format.</td>
+      <td className=""><div className=""><code className="">deliveredDate</code></div></td>
+      <td className=""><div className="">The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">dispatchedDate</code></td>
-      <td className="">The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format.</td>
+      <td className=""><div className=""><code className="">dispatchedDate</code></div></td>
+      <td className=""><div className="">The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">deliveryState</code></td>
-      <td className="">The status of the delivery order. The available values for <code className="">deliveryState</code> are:<ul className=""><li className=""><code className="">PENDING</code>: The delivery order has not been dispatched. Corresponds to the Unassigned tab for deliveries on the Toast POS app.</li><li className=""><code className="">PICKED_UP</code>: The delivery employee has picked up the order from the restaurant.</li><li className=""><code className="">IN_PROGRESS</code>: The order is on its way to the destination. Corresponds to the En Route tab for deliveries on the Toast POS app.</li><li className=""><code className="">DELIVERED</code>: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</li></ul></td>
+      <td className=""><div className=""><code className="">deliveryState</code></div></td>
+      <td className=""><div className="">The status of the delivery order. The available values for <code className="">deliveryState</code> are:<ul className=""><li className=""><code className="">PENDING</code>: The delivery order has not been dispatched. Corresponds to the Unassigned tab for deliveries on the Toast POS app.</li><li className=""><code className="">PICKED_UP</code>: The delivery employee has picked up the order from the restaurant.</li><li className=""><code className="">IN_PROGRESS</code>: The order is on its way to the destination. Corresponds to the En Route tab for deliveries on the Toast POS app.</li><li className=""><code className="">DELIVERED</code>: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">deliveryEmployee</code></td>
-      <td className="">An object that contains the Toast platform GUID of the employee assigned as the delivery driver.</td>
+      <td className=""><div className=""><code className="">deliveryEmployee</code></div></td>
+      <td className=""><div className="">An object that contains the Toast platform GUID of the employee assigned as the delivery driver.</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">notes</code></td>
-      <td className="">Delivery notes provided by the guest who placed the order.  <blockquote><strong>Important</strong> Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.</blockquote> </td>
+      <td className=""><div className=""><code className="">notes</code></div></td>
+      <td className=""><div className="">Delivery notes provided by the guest who placed the order.  <blockquote><strong>Important</strong> Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.</blockquote> </div></td>
     </tr>
   </tbody>
 </table>
@@ -128,24 +128,24 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e2925533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></td>
-      <td className="">The date and time when the delivery employee indicated the order was delivered.</td>
+      <td className=""><div className=""><a href="#co-d1e2925533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></div></td>
+      <td className=""><div className="">The date and time when the delivery employee indicated the order was delivered.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2945533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></td>
-      <td className="">The date and time the restaurant indicated the order was available for delivery and was assigned to a delivery employee.</td>
+      <td className=""><div className=""><a href="#co-d1e2945533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></div></td>
+      <td className=""><div className="">The date and time the restaurant indicated the order was available for delivery and was assigned to a delivery employee.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2965533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></td>
-      <td className="">The state of a delivery order. The possible values are <code className="">PENDING</code>, <code className="">IN_PROGRESS</code>, <code className="">PICKED_UP</code>, or <code className="">DELIVERED</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e2965533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></div></td>
+      <td className=""><div className="">The state of a delivery order. The possible values are <code className="">PENDING</code>, <code className="">IN_PROGRESS</code>, <code className="">PICKED_UP</code>, or <code className="">DELIVERED</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2985533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(4)</a></td>
-      <td className="">The Toast platform GUID of the delivery employee at the restaurant.</td>
+      <td className=""><div className=""><a href="#co-d1e2985533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(4)</a></div></td>
+      <td className=""><div className="">The Toast platform GUID of the delivery employee at the restaurant.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2085533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(5)</a></td>
-      <td className="">The delivery notes for the order. For more information, see <a href="apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues" className="">notes</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e2085533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(5)</a></div></td>
+      <td className=""><div className="">The delivery notes for the order. For more information, see <a href="apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues" className="">notes</a>.</div></td>
     </tr>
 ## Example response when updating delivery information
 
@@ -194,16 +194,16 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e2255533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></td>
-      <td className="">The Toast platform GUID assigned to this order.</td>
+      <td className=""><div className=""><a href="#co-d1e2255533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></div></td>
+      <td className=""><div className="">The Toast platform GUID assigned to this order.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2275533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></td>
-      <td className="">Information about the delivery, including address information and any values you updated.</td>
+      <td className=""><div className=""><a href="#co-d1e2275533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></div></td>
+      <td className=""><div className="">Information about the delivery, including address information and any values you updated.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2385533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></td>
-      <td className="">The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have <code className="">behavior</code> set to <code className="">DELIVERY</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e2385533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></div></td>
+      <td className=""><div className="">The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have <code className="">behavior</code> set to <code className="">DELIVERY</code>.</div></td>
     </tr>
 ## Viewing the delivery information in the Toast POS application
 

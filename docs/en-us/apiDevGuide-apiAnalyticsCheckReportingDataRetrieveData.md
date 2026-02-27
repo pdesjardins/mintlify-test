@@ -36,20 +36,20 @@ curl -X GET \ 'https://`[toast-api-hostname]`/era/v1/check/
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/check</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e2947DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/check</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2949DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a></td>
-      <td className="">The GUID for the check reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e2949DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a></div></td>
+      <td className=""><div className="">The GUID for the check reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2951DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a></td>
-      <td className="">Set the <code className="">fetchRestaurantNames</code> query parameter to <code className="">true</code> to include the restaurant name in the response.</td>
+      <td className=""><div className=""><a href="#co-d1e2951DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a></div></td>
+      <td className=""><div className="">Set the <code className="">fetchRestaurantNames</code> query parameter to <code className="">true</code> to include the restaurant name in the response.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2953DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e2953DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ## Response to the retrieval request for check reporting data
 
@@ -110,8 +110,8 @@ The following example shows the response from the `/era/v1/check/&#123;reportReq
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3178EFD2B73E-74F6-4B53-908A-CFB01123F156" className="">(1)</a></td>
-      <td className="">The <code className="">restaurantName</code> value appears because the <code className="">fetchRestaurantName</code> query parameter was set to <code className="">true</code> in the request.</td>
+      <td className=""><div className=""><a href="#co-d1e3178EFD2B73E-74F6-4B53-908A-CFB01123F156" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">restaurantName</code> value appears because the <code className="">fetchRestaurantName</code> query parameter was set to <code className="">true</code> in the request.</div></td>
     </tr>
 For more information about the values in the response, see [Understanding the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData).
 

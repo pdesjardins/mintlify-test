@@ -55,12 +55,12 @@ curl -X GET \ -H "Authorization: Bearer
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant for which payments will be returned.</td>
+      <td className=""><div className=""><a href="#co-d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant for which payments will be returned.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(2)</a></td>
-      <td className="">Specify the business date for order payments in the <code className="">paidBusinessDate</code> query parameter. Alternatively, you could query for refunds with the <code className="">refundBusinessDate</code> query parameter or for voids with the <code className="">voidBusinessDate</code> query parameter.</td>
+      <td className=""><div className=""><a href="#co-d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the business date for order payments in the <code className="">paidBusinessDate</code> query parameter. Alternatively, you could query for refunds with the <code className="">refundBusinessDate</code> query parameter or for voids with the <code className="">voidBusinessDate</code> query parameter.</div></td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/payments` endpoint.
@@ -79,7 +79,7 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a></td>
-      <td className="">The <code className="">/payments</code> endpoint returns a JSON array of payment GUIDs. In this example, the query returns three payments.</td>
+      <td className=""><div className=""><a href="#co-d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">/payments</code> endpoint returns a JSON array of payment GUIDs. In this example, the query returns three payments.</div></td>
     </tr>
   

@@ -24,62 +24,62 @@ Standard API access provides access to the following scopes:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Scope</th>
-      <th className="">Toast API</th>
+      <th className=""><div className="">Scope</div></th>
+      <th className=""><div className="">Toast API</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">cashmgmt:read</code></td>
-      <td className="">cash management API</td>
+      <td className=""><div className=""><code className="">cashmgmt:read</code></div></td>
+      <td className=""><div className="">cash management API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">config:read</code></td>
-      <td className="">configuration API</td>
+      <td className=""><div className=""><code className="">config:read</code></div></td>
+      <td className=""><div className="">configuration API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">delivery_info.address:read</code> <blockquote><strong>Note</strong> This scope exposes additional information in the <code className="">DeliveryInfo</code> object of the orders API.</blockquote> </td>
-      <td className="">orders API</td>
+      <td className=""><div className=""><code className="">delivery_info.address:read</code> <blockquote><strong>Note</strong> This scope exposes additional information in the <code className="">DeliveryInfo</code> object of the orders API.</blockquote> </div></td>
+      <td className=""><div className="">orders API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">digital_schedule:read</code></td>
-      <td className="">order management configuration API</td>
+      <td className=""><div className=""><code className="">digital_schedule:read</code></div></td>
+      <td className=""><div className="">order management configuration API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">guest.pi:read</code> <blockquote><strong>Note</strong> This scope to exposes additional information in the <code className="">Customer</code> object of the orders API.</blockquote> </td>
-      <td className="">orders API</td>
+      <td className=""><div className=""><code className="">guest.pi:read</code> <blockquote><strong>Note</strong> This scope to exposes additional information in the <code className="">Customer</code> object of the orders API.</blockquote> </div></td>
+      <td className=""><div className="">orders API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">kitchen:read</code></td>
-      <td className="">kitchen API</td>
+      <td className=""><div className=""><code className="">kitchen:read</code></div></td>
+      <td className=""><div className="">kitchen API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">labor.employees:read</code></td>
-      <td className="">labor API</td>
+      <td className=""><div className=""><code className="">labor.employees:read</code></div></td>
+      <td className=""><div className="">labor API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">labor:read</code></td>
-      <td className="">labor API</td>
+      <td className=""><div className=""><code className="">labor:read</code></div></td>
+      <td className=""><div className="">labor API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">menus:read</code></td>
-      <td className="">menus v2 API</td>
+      <td className=""><div className=""><code className="">menus:read</code></div></td>
+      <td className=""><div className="">menus v2 API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">orders:read</code></td>
-      <td className="">orders API</td>
+      <td className=""><div className=""><code className="">orders:read</code></div></td>
+      <td className=""><div className="">orders API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">packaging:read</code></td>
-      <td className="">packaging configuration API</td>
+      <td className=""><div className=""><code className="">packaging:read</code></div></td>
+      <td className=""><div className="">packaging configuration API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">restaurants:read</code></td>
-      <td className="">restaurant availability API, restaurants API</td>
+      <td className=""><div className=""><code className="">restaurants:read</code></div></td>
+      <td className=""><div className="">restaurant availability API, restaurants API</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">stock:read</code></td>
-      <td className="">stock API</td>
+      <td className=""><div className=""><code className="">stock:read</code></div></td>
+      <td className=""><div className="">stock API</div></td>
     </tr>
   </tbody>
 </table>

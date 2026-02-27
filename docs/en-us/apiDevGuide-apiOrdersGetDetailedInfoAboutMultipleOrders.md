@@ -110,24 +110,24 @@ pageSize=10&page=2"
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(1)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(1)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(2)</a></td>
-      <td className="">Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</td>
+      <td className=""><div className=""><a href="#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(3)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/ordersBulk</code> endpoint of the orders API.</td>
+      <td className=""><div className=""><a href="#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(3)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/ordersBulk</code> endpoint of the orders API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(4)</a></td>
-      <td className="">To specify a period of time to return orders for, use the <em className=""><code className="">startDate</code></em>  and <em className=""><code className="">endDate</code></em>  query parameters.</td>
+      <td className=""><div className=""><a href="#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(4)</a></div></td>
+      <td className=""><div className="">To specify a period of time to return orders for, use the <em className=""><code className="">startDate</code></em>  and <em className=""><code className="">endDate</code></em>  query parameters.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(5)</a></td>
-      <td className="">In the <code className="">pageSize</code> query parameter, specify the maximum number of objects to include in the response. In the <code className="">page</code> query parameter, specify the sequence number of the set of objects to return. For more information, see <a href="apiDevGuide-apiResponseDataPagination" className="">Paginating response data</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(5)</a></div></td>
+      <td className=""><div className="">In the <code className="">pageSize</code> query parameter, specify the maximum number of objects to include in the response. In the <code className="">page</code> query parameter, specify the sequence number of the set of objects to return. For more information, see <a href="apiDevGuide-apiResponseDataPagination" className="">Paginating response data</a>.</div></td>
     </tr>
 ## Example response data containing multiple orders
 
@@ -306,24 +306,24 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E" className="">(1)</a></td>
-      <td className="">The first <code className="">Order</code> object in the array provides detailed information about a single order.</td>
+      <td className=""><div className=""><a href="#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E" className="">(1)</a></div></td>
+      <td className=""><div className="">The first <code className="">Order</code> object in the array provides detailed information about a single order.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#apiOrdersBulkDeliveryInfo" className="">(2)</a></td>
-      <td className="">The <code className="">deliveryInfo</code> JSON value is only populated if your Toast API client has the <code className="">delivery_info.address:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</td>
+      <td className=""><div className=""><a href="#apiOrdersBulkDeliveryInfo" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">deliveryInfo</code> JSON value is only populated if your Toast API client has the <code className="">delivery_info.address:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#apiOrdersBulkCurbsideInfo" className="">(3)</a></td>
-      <td className="">The <code className="">curbsidePickupInfo</code> JSON value is only populated if your Toast API client has the <code className="">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</td>
+      <td className=""><div className=""><a href="#apiOrdersBulkCurbsideInfo" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">curbsidePickupInfo</code> JSON value is only populated if your Toast API client has the <code className="">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#apiOrdersBulkCustomer" className="">(4)</a></td>
-      <td className="">The <code className="">customer</code> JSON value is only populated if your Toast API client has the <code className="">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</td>
+      <td className=""><div className=""><a href="#apiOrdersBulkCustomer" className="">(4)</a></div></td>
+      <td className=""><div className="">The <code className="">customer</code> JSON value is only populated if your Toast API client has the <code className="">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E" className="">(5)</a></td>
-      <td className="">Each subsequent <code className="">Order</code> object in the array provides detailed information about a different order.</td>
+      <td className=""><div className=""><a href="#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E" className="">(5)</a></div></td>
+      <td className=""><div className="">Each subsequent <code className="">Order</code> object in the array provides detailed information about a different order.</div></td>
     </tr>
 ## Example response data pagination header fields
 

@@ -55,16 +55,16 @@ https://`[toast-api-hostname]`/stock/v1/inventory/update
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1511646327542" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
+      <td className=""><div className=""><a href="#co-d1e1511646327542" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1531646327542" className="">(2)</a></td>
-      <td className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e1531646327542" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1551646327542" className="">(3)</a></td>
-      <td className="">Include the array of menu items to update in the message body of the <code className="">PUT</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of the <code className="">my-item-inventory-data.json</code> file.</td>
+      <td className=""><div className=""><a href="#co-d1e1551646327542" className="">(3)</a></div></td>
+      <td className=""><div className="">Include the array of menu items to update in the message body of the <code className="">PUT</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of the <code className="">my-item-inventory-data.json</code> file.</div></td>
     </tr>
   
 For each menu item to update, include a `MenuItemInventory`object in the message body with the following values:
@@ -121,16 +121,16 @@ The following example shows a JSON message body data that provides information a
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e2911646327542" className="">(1)</a></td>
-      <td className="">This object uses a <code className="">multiLocationId</code> to identify the menu item to update and sets the menu item's stock status to <code className="">IN_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e2911646327542" className="">(1)</a></div></td>
+      <td className=""><div className="">This object uses a <code className="">multiLocationId</code> to identify the menu item to update and sets the menu item's stock status to <code className="">IN_STOCK</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2951646327542" className="">(2)</a></td>
-      <td className="">This object uses a <code className="">multiLocationId</code> to identify the menu item to update. It sets the menu item's stock status to <code className="">QUANTITY</code> and specifies in the <code className="">quantity</code> value that there are five units of the menu item in stock.</td>
+      <td className=""><div className=""><a href="#co-d1e2951646327542" className="">(2)</a></div></td>
+      <td className=""><div className="">This object uses a <code className="">multiLocationId</code> to identify the menu item to update. It sets the menu item's stock status to <code className="">QUANTITY</code> and specifies in the <code className="">quantity</code> value that there are five units of the menu item in stock.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2971646327542" className="">(3)</a></td>
-      <td className="">This object uses a <code className="">guid</code> to identify the menu item to update and sets the menu item's stock status to <code className="">OUT_OF_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e2971646327542" className="">(3)</a></div></td>
+      <td className=""><div className="">This object uses a <code className="">guid</code> to identify the menu item to update and sets the menu item's stock status to <code className="">OUT_OF_STOCK</code>.</div></td>
     </tr>
   
 The response for an update request includes a [`MenuItemInventory`object](apiDevGuide-apiUsingTheStockApi#portalMenuItemInventoryObject) with the inventory information for each menu item identifier you submitted in the request. The stock API sets the `itemGuidValidity` value of each `MenuItemInventory`object to indicate whether it found a matching menu item and made the update. `VALID` indicates a matching item was found and its stock status was updated. `INVALID` indicates no matching item was found and no action was taken for that identifier. If a menu item's status is `INVALID`, your integration should update the list of menu items it associates with the restaurant location.
@@ -195,24 +195,24 @@ The following example shows the JSON response data for a PUT request to the `/in
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5391724334607" className="">(1)</a></td>
-      <td className="">Return data for a menu item whose status was set to <code className="">IN_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e5391724334607" className="">(1)</a></div></td>
+      <td className=""><div className="">Return data for a menu item whose status was set to <code className="">IN_STOCK</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5411724334607" className="">(2)</a></td>
-      <td className="">Return data for a menu item whose status was set to <code className="">QUANTITY</code> and whose quantity was set to <code className="">5.0</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e5411724334607" className="">(2)</a></div></td>
+      <td className=""><div className="">Return data for a menu item whose status was set to <code className="">QUANTITY</code> and whose quantity was set to <code className="">5.0</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5431724334607" className="">(3)</a></td>
-      <td className="">Return data for a menu item whose status was set to <code className="">OUT_OF_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e5431724334607" className="">(3)</a></div></td>
+      <td className=""><div className="">Return data for a menu item whose status was set to <code className="">OUT_OF_STOCK</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5451724334607" className="">(4)</a></td>
-      <td className="">Return data for a menu item <code className="">guid</code> that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e5451724334607" className="">(4)</a></div></td>
+      <td className=""><div className="">Return data for a menu item <code className="">guid</code> that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5471724334607" className="">(5)</a></td>
-      <td className="">Return data for a menu item <code className="">multiLocationId</code> that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e5471724334607" className="">(5)</a></div></td>
+      <td className=""><div className="">Return data for a menu item <code className="">multiLocationId</code> that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</div></td>
     </tr>
   
 Note that, if your integration also uses the [stock webhook](apiDevGuide-apiStockWebhook), your webhook endpoint receives a message indicating that an inventory update has occurred whenever updates are made using the stock API.

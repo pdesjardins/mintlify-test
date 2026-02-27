@@ -202,24 +202,24 @@ Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(1)</a></td>
-      <td className="">The URL and query parameters that will return the first set of objects available from the API endpoint.</td>
+      <td className=""><div className=""><a href="#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(1)</a></div></td>
+      <td className=""><div className="">The URL and query parameters that will return the first set of objects available from the API endpoint.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(2)</a></td>
-      <td className="">The URL and query parameters that will return the current set of objects from the API endpoint.</td>
+      <td className=""><div className=""><a href="#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(2)</a></div></td>
+      <td className=""><div className="">The URL and query parameters that will return the current set of objects from the API endpoint.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(3)</a></td>
-      <td className="">The URL and query parameters that will return the set of objects immediately preceding the current set from the API endpoint.</td>
+      <td className=""><div className=""><a href="#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(3)</a></div></td>
+      <td className=""><div className="">The URL and query parameters that will return the set of objects immediately preceding the current set from the API endpoint.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(4)</a></td>
-      <td className="">The URL and query parameters that will return the first set of objects immediately after the current set from the API endpoint.</td>
+      <td className=""><div className=""><a href="#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(4)</a></div></td>
+      <td className=""><div className="">The URL and query parameters that will return the first set of objects immediately after the current set from the API endpoint.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(5)</a></td>
-      <td className="">The URL and query parameters that will return the last set of objects available from the API endpoint.</td>
+      <td className=""><div className=""><a href="#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(5)</a></div></td>
+      <td className=""><div className="">The URL and query parameters that will return the last set of objects available from the API endpoint.</div></td>
     </tr>
   
 ## Response pagination types used by Toast APIs
@@ -231,22 +231,22 @@ The following table identifies the pagination functionality used by Toast API en
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">API and endpoint</th>
-      <th className="">Response pagination used</th>
+      <th className=""><div className="">API and endpoint</div></th>
+      <th className=""><div className="">Response pagination used</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Configuration API</td>
-      <td className="">All endpoints that return paginated response data use <em className="">page token pagination</em> . For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiPaginationPageToken" className="">Page token pagination</a>. <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated <em className="">for configuration API endpoints</em> . As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </td>
+      <td className=""><div className="">Configuration API</div></td>
+      <td className=""><div className="">All endpoints that return paginated response data use <em className="">page token pagination</em> . For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiPaginationPageToken" className="">Page token pagination</a>. <blockquote><strong>Note</strong> Configuration API endpoints previously used fixed-size pagination for response data. The parameters for using fixed-size pagination are still supported, but fixed-size pagination is deprecated <em className="">for configuration API endpoints</em> . As of 2021-12-06, configuration API endpoints no longer support fixed-size pagination and only support page token pagination.</blockquote> </div></td>
     </tr>
     <tr className="">
-      <td className="">Kitchen API</td>
-      <td className="">All endpoints that return paginated response data use <em className="">page token pagination</em>  for response data. <br/> For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiPaginationPageToken" className="">Page token pagination</a>.</td>
+      <td className=""><div className="">Kitchen API</div></td>
+      <td className=""><div className="">All endpoints that return paginated response data use <em className="">page token pagination</em>  for response data. <br/> For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiPaginationPageToken" className="">Page token pagination</a>.</div></td>
     </tr>
     <tr className="">
-      <td className="">Orders API <code className="">/ordersBulk</code> endpoint</td>
-      <td className="">The orders API <code className="">/ordersBulk</code> endpoint uses <em className="">fixed-size pagination</em> . <br/> For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize" className="">Fixed-size paginated responses</a>.</td>
+      <td className=""><div className="">Orders API <code className="">/ordersBulk</code> endpoint</div></td>
+      <td className=""><div className="">The orders API <code className="">/ordersBulk</code> endpoint uses <em className="">fixed-size pagination</em> . <br/> For more information, see <a href="apiDevGuide-apiResponseDataPagination#apiResponseDataPaginationFixedPageSize" className="">Fixed-size paginated responses</a>.</div></td>
     </tr>
   </tbody>
 </table>

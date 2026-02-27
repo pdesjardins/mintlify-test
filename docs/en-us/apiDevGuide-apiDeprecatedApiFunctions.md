@@ -64,20 +64,20 @@ endDate=2019-02-27T09%3A59%3A00.000-0500"
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(2)</a></td>
-      <td className="">Specify the GUID of the restaurant that created the orders. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+      <td className=""><div className=""><a href="#co-d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the GUID of the restaurant that created the orders. This must be an individual restaurant, not the GUID for a restaurant group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(3)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/orders</code> endpoint of the orders API.</td>
+      <td className=""><div className=""><a href="#co-d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(3)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/orders</code> endpoint of the orders API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(4)</a></td>
-      <td className="">Specify a period of time up to one hour by including dates and times in the <em className=""><code className="">startDate</code></em>  and <em className=""><code className="">endDate</code></em>  query parameters.</td>
+      <td className=""><div className=""><a href="#co-d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(4)</a></div></td>
+      <td className=""><div className="">Specify a period of time up to one hour by including dates and times in the <em className=""><code className="">startDate</code></em>  and <em className=""><code className="">endDate</code></em>  query parameters.</div></td>
     </tr>
   
 **Example 1.12. Request for orders created during one business day**
@@ -127,8 +127,8 @@ The following example shows the response data from the `/orders` endpoint using 
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e11509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></td>
-      <td className="">The <code className="">/orders</code> endpoint returns a JSON array of order GUIDs.</td>
+      <td className=""><div className=""><a href="#co-d1e11509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">/orders</code> endpoint returns a JSON array of order GUIDs.</div></td>
     </tr>
   
 ## Authentication
@@ -438,20 +438,20 @@ The following example shows the JSON message body content for a `POST` request t
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(1)</a></td>
-      <td className="">Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the <code className="">guid</code> value.</td>
+      <td className=""><div className=""><a href="#co-d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(1)</a></div></td>
+      <td className=""><div className="">Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the <code className="">guid</code> value.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(2)</a></td>
-      <td className="">Include a first name, or given name, for the customer.</td>
+      <td className=""><div className=""><a href="#co-d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(2)</a></div></td>
+      <td className=""><div className="">Include a first name, or given name, for the customer.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1688E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(3)</a></td>
-      <td className="">Include a last name, or family name, for the customer.</td>
+      <td className=""><div className=""><a href="#co-d1e1688E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(3)</a></div></td>
+      <td className=""><div className="">Include a last name, or family name, for the customer.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1708E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(4)</a></td>
-      <td className="">You must include either an email address (shown) or a telephone number for the customer.</td>
+      <td className=""><div className=""><a href="#co-d1e1708E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(4)</a></div></td>
+      <td className=""><div className="">You must include either an email address (shown) or a telephone number for the customer.</div></td>
     </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/crm/v1/customers` endpoint.
@@ -494,20 +494,20 @@ The following example shows the JSON message body content for a `POST` request t
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e305E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(1)</a></td>
-      <td className="">Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the <code className="">guid</code> value.</td>
+      <td className=""><div className=""><a href="#co-d1e305E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(1)</a></div></td>
+      <td className=""><div className="">Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the <code className="">guid</code> value.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e307E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(2)</a></td>
-      <td className="">Include the <code className="">ADD_VALUE</code> value when you add customer credit value in a transaction.</td>
+      <td className=""><div className=""><a href="#co-d1e307E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(2)</a></div></td>
+      <td className=""><div className="">Include the <code className="">ADD_VALUE</code> value when you add customer credit value in a transaction.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e309E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(3)</a></td>
-      <td className="">Include the currency amount of the customer credit transaction in the <code className="">amount</code> value.</td>
+      <td className=""><div className=""><a href="#co-d1e309E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(3)</a></div></td>
+      <td className=""><div className="">Include the currency amount of the customer credit transaction in the <code className="">amount</code> value.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e311E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(4)</a></td>
-      <td className="">Include the date and time that you added customer credits in the <code className="">localCreatedDate</code> value.</td>
+      <td className=""><div className=""><a href="#co-d1e311E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(4)</a></div></td>
+      <td className=""><div className="">Include the date and time that you added customer credits in the <code className="">localCreatedDate</code> value.</div></td>
     </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/crm/v1/`/customers/*`&#123;customerId&#125;`*/creditTransactions endpoint.
@@ -678,121 +678,121 @@ The following table shows the information about each menu at your restaurant fro
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">entityType</td>
-      <td className="">The type of the menu component described by this JSON object. The value for a menu object is <code className="">Menu</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">entityType</div></td>
+      <td className=""><div className="">The type of the menu component described by this JSON object. The value for a menu object is <code className="">Menu</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">name</td>
-      <td className="">A descriptive identifier for the menu. For example, <code className="">Food</code> or <code className="">Drinks</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">name</div></td>
+      <td className=""><div className="">A descriptive identifier for the menu. For example, <code className="">Food</code> or <code className="">Drinks</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">guid</td>
-      <td className="">The unique identifier for the menu, assigned by the Toast POS.</td>
-      <td className="">String</td>
+      <td className=""><div className="">guid</div></td>
+      <td className=""><div className="">The unique identifier for the menu, assigned by the Toast POS.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">description</td>
-      <td className="">A written description of the menu.</td>
-      <td className="">String</td>
+      <td className=""><div className="">description</div></td>
+      <td className=""><div className="">A written description of the menu.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">groups</td>
-      <td className="">A JSON array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenugroup" className="">MenuGroup</a> objects.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">groups</div></td>
+      <td className=""><div className="">A JSON array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenugroup" className="">MenuGroup</a> objects.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">idString</td>
-      <td className="">This field is for Toast internal use only.</td>
-      <td className="">String</td>
+      <td className=""><div className="">idString</div></td>
+      <td className=""><div className="">This field is for Toast internal use only.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">orderableOnline</td>
-      <td className="">Indicates whether the menu is available for online ordering. Valid values are <code className="">true</code> and <code className="">false</code>. This field is a Boolean version of the orderableOnlineStatus field.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">orderableOnline</div></td>
+      <td className=""><div className="">Indicates whether the menu is available for online ordering. Valid values are <code className="">true</code> and <code className="">false</code>. This field is a Boolean version of the orderableOnlineStatus field.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">orderableOnlineStatus</td>
-      <td className="">Indicates whether the menu is available for online ordering. Valid values are <code className="">YES</code> and <code className="">NO</code>. This field is a string version of the orderableOnline field.</td>
-      <td className="">String</td>
+      <td className=""><div className="">orderableOnlineStatus</div></td>
+      <td className=""><div className="">Indicates whether the menu is available for online ordering. Valid values are <code className="">YES</code> and <code className="">NO</code>. This field is a string version of the orderableOnline field.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">visibility</td>
-      <td className="">Indicates where the menu is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu is hidden from everyone.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">visibility</div></td>
+      <td className=""><div className="">Indicates where the menu is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu is visible to everyone. For example, the menu is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu is hidden from everyone.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">startTime</td>
-      <td className="">The time of day when a time-based menu becomes available. The value is in milliseconds (for example, <code className="">41400000</code>) since the start of the restaurant's day (the day starts at <code className="">0</code>). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
-      <td className="">Int</td>
+      <td className=""><div className="">startTime</div></td>
+      <td className=""><div className="">The time of day when a time-based menu becomes available. The value is in milliseconds (for example, <code className="">41400000</code>) since the start of the restaurant's day (the day starts at <code className="">0</code>). When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</div></td>
+      <td className=""><div className="">Int</div></td>
     </tr>
     <tr className="">
-      <td className="">endTime</td>
-      <td className="">The time of day when a time-based menu stops being available. The value is in milliseconds (for example, <code className="">57600000</code>) since the start of the restaurant's day (the day starts at <code className="">0</code>). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field.</td>
-      <td className="">Int</td>
+      <td className=""><div className="">endTime</div></td>
+      <td className=""><div className="">The time of day when a time-based menu stops being available. The value is in milliseconds (for example, <code className="">57600000</code>) since the start of the restaurant's day (the day starts at <code className="">0</code>). When converted to 24-hour clock time, the result should be the same as the endTimeHHmm field.</div></td>
+      <td className=""><div className="">Int</div></td>
     </tr>
     <tr className="">
-      <td className="">startTimeHHmm</td>
-      <td className="">The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, <code className="">15:45</code>). This value is a conversion of the startTime field to a more readable format (the day starts at <code className="">00:00</code>).</td>
-      <td className="">String</td>
+      <td className=""><div className="">startTimeHHmm</div></td>
+      <td className=""><div className="">The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, <code className="">15:45</code>). This value is a conversion of the startTime field to a more readable format (the day starts at <code className="">00:00</code>).</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">endTimeHHmm</td>
-      <td className="">The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, <code className="">19:35</code>). This value is a conversion of the endTime field to a more readable format (the day starts at <code className="">00:00</code>).</td>
-      <td className="">String</td>
+      <td className=""><div className="">endTimeHHmm</div></td>
+      <td className=""><div className="">The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, <code className="">19:35</code>). This value is a conversion of the endTime field to a more readable format (the day starts at <code className="">00:00</code>).</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">startTimeLocalStandardTime</td>
-      <td className="">The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at <code className="">0</code>). The value adds the restaurant timezone's offset (for example, -5 hours in a <code className="">23400000</code> value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</td>
-      <td className="">Int</td>
+      <td className=""><div className="">startTimeLocalStandardTime</div></td>
+      <td className=""><div className="">The time of day when a time-based menu becomes available. The value is in milliseconds since the start of the restaurant's day (the day starts at <code className="">0</code>). The value adds the restaurant timezone's offset (for example, -5 hours in a <code className="">23400000</code> value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeHHmm field.</div></td>
+      <td className=""><div className="">Int</div></td>
     </tr>
     <tr className="">
-      <td className="">endTimeLocalStandardTime</td>
-      <td className="">The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at <code className="">0</code>). The value adds the restaurant timezone's offset (for example, -5 hours in a <code className="">36900000</code> value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field.</td>
-      <td className="">Int</td>
+      <td className=""><div className="">endTimeLocalStandardTime</div></td>
+      <td className=""><div className="">The time of day when a time-based menu stops being available. The value is in milliseconds since the start of the restaurant's day (the day starts at <code className="">0</code>). The value adds the restaurant timezone's offset (for example, -5 hours in a <code className="">36900000</code> value). Note that Daylight Saving Time (DST) is ignored. When converted to 24-hour clock time, the result should be the same as the startTimeLocalStandardTime field.</div></td>
+      <td className=""><div className="">Int</div></td>
     </tr>
     <tr className="">
-      <td className="">startTimeHHmmLocalStandardTime</td>
-      <td className="">The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, <code className="">15:45</code>). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at <code className="">00:00</code>).</td>
-      <td className="">String</td>
+      <td className=""><div className="">startTimeHHmmLocalStandardTime</div></td>
+      <td className=""><div className="">The time of day when a time-based menu becomes available. The time is in 24-hour HHmm format (for example, <code className="">15:45</code>). This value is a conversion of the startTimeLocalStandardTime field to a more readable format (the day starts at <code className="">00:00</code>).</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">endTimeHHmmLocalStandardTime</td>
-      <td className="">The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, <code className="">19:35</code>). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at <code className="">00:00</code>).</td>
-      <td className="">String</td>
+      <td className=""><div className="">endTimeHHmmLocalStandardTime</div></td>
+      <td className=""><div className="">The time of day when a time-based menu stops being available. The time is in 24-hour HHmm format (for example, <code className="">19:35</code>). This value is a conversion of the endTimeLocalStandardTime field to a more readable format (the day starts at <code className="">00:00</code>).</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">availableAllTimes</td>
-      <td className="">Indicates whether the menu is available at all times of the day. If the value is <code className="">false</code>, then the startTime* fields and the endTime* fields list when this time-based menu is available.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">availableAllTimes</div></td>
+      <td className=""><div className="">Indicates whether the menu is available at all times of the day. If the value is <code className="">false</code>, then the startTime* fields and the endTime* fields list when this time-based menu is available.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">availableAllDays</td>
-      <td className="">Indicates whether the menu is available each day of the week.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">availableAllDays</div></td>
+      <td className=""><div className="">Indicates whether the menu is available each day of the week.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">daysAvailableString</td>
-      <td className="">A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code className="">Sun</code> or <code className="">Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre className=""><code className="">"daysAvailableString": [&#10;   "Mon",&#10;   "Tues",&#10;   "Wed",&#10;   "Thurs",&#10;   "Fri"&#10;]</code></pre> </td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">daysAvailableString</div></td>
+      <td className=""><div className="">A JSON array of strings that lists the days of the week when the menu is available. The days are listed in an abbreviated format, such as <code className="">Sun</code> or <code className="">Thurs</code>. <br/> In this example, the menu is available on all days except for Sunday and Saturday: <pre className=""><code className="">"daysAvailableString": [&#10;   "Mon",&#10;   "Tues",&#10;   "Wed",&#10;   "Thurs",&#10;   "Fri"&#10;]</code></pre> </div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">daysAvailableBits</td>
-      <td className="">This field is a numeric version of the daysAvailableString field and is for Toast internal use only.</td>
-      <td className="">Int</td>
+      <td className=""><div className="">daysAvailableBits</div></td>
+      <td className=""><div className="">This field is a numeric version of the daysAvailableString field and is for Toast internal use only.</div></td>
+      <td className=""><div className="">Int</div></td>
     </tr>
     <tr className="">
-      <td className="">imageLink</td>
-      <td className="">A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
-      <td className="">String</td>
+      <td className=""><div className="">imageLink</div></td>
+      <td className=""><div className="">A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
   </tbody>
 </table>
@@ -807,61 +807,61 @@ The following table shows the information about each menu group at your restaura
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">entityType</td>
-      <td className="">The type of the menu component described by this JSON object. The value for a menu object is <code className="">MenuGroup</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">entityType</div></td>
+      <td className=""><div className="">The type of the menu component described by this JSON object. The value for a menu object is <code className="">MenuGroup</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">name</td>
-      <td className="">A descriptive identifier for the menu group. For example, <code className="">Appetizers</code> or <code className="">Entrees</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">name</div></td>
+      <td className=""><div className="">A descriptive identifier for the menu group. For example, <code className="">Appetizers</code> or <code className="">Entrees</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">guid</td>
-      <td className="">The unique identifier for the menu group, assigned by the Toast POS.</td>
-      <td className="">String</td>
+      <td className=""><div className="">guid</div></td>
+      <td className=""><div className="">The unique identifier for the menu group, assigned by the Toast POS.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">description</td>
-      <td className="">A written description of the menu group.</td>
-      <td className="">String</td>
+      <td className=""><div className="">description</div></td>
+      <td className=""><div className="">A written description of the menu group.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">subgroups</td>
-      <td className="">An array of other <code className="">MenuGroup</code> objects. For example, <code className="">Red Wine</code> is the menu group and it has the subgroups <code className="">By the Glass</code> and <code className="">By the Bottle</code>.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">subgroups</div></td>
+      <td className=""><div className="">An array of other <code className="">MenuGroup</code> objects. For example, <code className="">Red Wine</code> is the menu group and it has the subgroups <code className="">By the Glass</code> and <code className="">By the Bottle</code>.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">items</td>
-      <td className="">An array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuitem" className="">MenuItem</a> objects.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">items</div></td>
+      <td className=""><div className="">An array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuitem" className="">MenuItem</a> objects.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">idString</td>
-      <td className="">This field is for Toast internal use only.</td>
-      <td className="">String</td>
+      <td className=""><div className="">idString</div></td>
+      <td className=""><div className="">This field is for Toast internal use only.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">imageLink</td>
-      <td className="">A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
-      <td className="">String</td>
+      <td className=""><div className="">imageLink</div></td>
+      <td className=""><div className="">A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">orderableOnline</td>
-      <td className="">Indicates whether the menu group is available for online ordering.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">orderableOnline</div></td>
+      <td className=""><div className="">Indicates whether the menu group is available for online ordering.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">visibility</td>
-      <td className="">Indicates where the menu group is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu group is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu group is hidden from everyone.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">visibility</div></td>
+      <td className=""><div className="">Indicates where the menu group is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu group is visible to everyone. For example, the menu group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu group is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu group is hidden from everyone.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
   </tbody>
 </table>
@@ -876,96 +876,96 @@ The following table shows the information about each menu item at your restauran
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">entityType</td>
-      <td className="">The type of the menu component described by this JSON object. The value for a menu item object is <code className="">MenuItem</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">entityType</div></td>
+      <td className=""><div className="">The type of the menu component described by this JSON object. The value for a menu item object is <code className="">MenuItem</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">name</td>
-      <td className="">A descriptive identifier for the menu item. For example, <code className="">Caesar Salad</code> or <code className="">Lemonade</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">name</div></td>
+      <td className=""><div className="">A descriptive identifier for the menu item. For example, <code className="">Caesar Salad</code> or <code className="">Lemonade</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">guid</td>
-      <td className="">The unique identifier for the menu item, assigned by the Toast POS.</td>
-      <td className="">String</td>
+      <td className=""><div className="">guid</div></td>
+      <td className=""><div className="">The unique identifier for the menu item, assigned by the Toast POS.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">description</td>
-      <td className="">A written description of the menu item.</td>
-      <td className="">String</td>
+      <td className=""><div className="">description</div></td>
+      <td className=""><div className="">A written description of the menu item.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">sku</td>
-      <td className="">The stock keeping unit (SKU) identifier for the item.</td>
-      <td className="">String</td>
+      <td className=""><div className="">sku</div></td>
+      <td className=""><div className="">The stock keeping unit (SKU) identifier for the item.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">plu</td>
-      <td className="">The price lookup (PLU) code for the item.</td>
-      <td className="">String</td>
+      <td className=""><div className="">plu</div></td>
+      <td className=""><div className="">The price lookup (PLU) code for the item.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">maxSelections</td>
-      <td className="">This value only applies to items in a <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup" className="">MenuOptionGroup</a> object.</td>
-      <td className="">Integer</td>
+      <td className=""><div className="">maxSelections</div></td>
+      <td className=""><div className="">This value only applies to items in a <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup" className="">MenuOptionGroup</a> object.</div></td>
+      <td className=""><div className="">Integer</div></td>
     </tr>
     <tr className="">
-      <td className="">price</td>
-      <td className="">The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency.</td>
-      <td className="">Currency</td>
+      <td className=""><div className="">price</div></td>
+      <td className=""><div className="">The amount of money that the item costs, expressed in U.S. dollars. All currency in Toast is treated the same and uses the dollar symbol $. There is no conversion between currency.</div></td>
+      <td className=""><div className="">Currency</div></td>
     </tr>
     <tr className="">
-      <td className="">prices</td>
-      <td className="">An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">prices</div></td>
+      <td className=""><div className="">An array of menu-specific prices for the item. If an item is included in more than one menu, it can have different prices on each menu. For example, if you have a Lunch menu and a Dinner menu, a menu item can belong to both menus and have one price for the Lunch menu and a higher price for the Dinner menu.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">isDefault</td>
-      <td className="">Whether or not the item is selected unless a customer chooses to decline it.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">isDefault</div></td>
+      <td className=""><div className="">Whether or not the item is selected unless a customer chooses to decline it.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">optionGroups</td>
-      <td className="">An array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup" className="">MenuOptionGroup</a> objects.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">optionGroups</div></td>
+      <td className=""><div className="">An array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportMenuoptiongroup" className="">MenuOptionGroup</a> objects.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">idString</td>
-      <td className="">This field is for Toast internal use only.</td>
-      <td className="">String</td>
+      <td className=""><div className="">idString</div></td>
+      <td className=""><div className="">This field is for Toast internal use only.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">itemGroupGuid</td>
-      <td className="">The unique identifier of the menu group to which this menu item belongs.</td>
-      <td className="">String</td>
+      <td className=""><div className="">itemGroupGuid</div></td>
+      <td className=""><div className="">The unique identifier of the menu group to which this menu item belongs.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">calories</td>
-      <td className="">The caloric value for this menu item. The value can be any positive or negative integer, or zero.</td>
-      <td className="">Integer</td>
+      <td className=""><div className="">calories</div></td>
+      <td className=""><div className="">The caloric value for this menu item. The value can be any positive or negative integer, or zero.</div></td>
+      <td className=""><div className="">Integer</div></td>
     </tr>
     <tr className="">
-      <td className="">imageLink</td>
-      <td className="">A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</td>
-      <td className="">String</td>
+      <td className=""><div className="">imageLink</div></td>
+      <td className=""><div className="">A URL to an image located on Amazon S3. For example: <br/> https://s3.amazonaws.com/toasttab/restaurants/restaurant-59760/menu/items/5/item-4989_149066.jpg</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">orderableOnline</td>
-      <td className="">Indicates whether the menu item is available for online ordering.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">orderableOnline</div></td>
+      <td className=""><div className="">Indicates whether the menu item is available for online ordering.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">visibility</td>
-      <td className="">Indicates where the menu item is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu item is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu item is hidden from everyone.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">visibility</div></td>
+      <td className=""><div className="">Indicates where the menu item is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu item is visible to everyone. For example, the menu item is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu item is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu item is hidden from everyone.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
   </tbody>
 </table>
@@ -980,76 +980,76 @@ The following table shows the information about each menu option group, or modif
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">entityType</td>
-      <td className="">The type of the menu component described by this JSON object. The value for a menu option group object is <code className="">MenuOptionGroup</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">entityType</div></td>
+      <td className=""><div className="">The type of the menu component described by this JSON object. The value for a menu option group object is <code className="">MenuOptionGroup</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">name</td>
-      <td className="">A descriptive identifier for the menu option group. For example, <code className="">Substitutions</code> or <code className="">Extras</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">name</div></td>
+      <td className=""><div className="">A descriptive identifier for the menu option group. For example, <code className="">Substitutions</code> or <code className="">Extras</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">guid</td>
-      <td className="">The unique identifier for the menu option group, assigned by the Toast POS.</td>
-      <td className="">String</td>
+      <td className=""><div className="">guid</div></td>
+      <td className=""><div className="">The unique identifier for the menu option group, assigned by the Toast POS.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">minSelections</td>
-      <td className="">The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is <code className="">1</code>. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness.</td>
-      <td className="">Integer</td>
+      <td className=""><div className="">minSelections</div></td>
+      <td className=""><div className="">The minimum number of options that a customer can choose from the menu option group. If a server must make a selection from the menu option group, the value is <code className="">1</code>. For example, a menu item might require that a customer choose an option from a menu option group that specifies the level of doneness.</div></td>
+      <td className=""><div className="">Integer</div></td>
     </tr>
     <tr className="">
-      <td className="">maxSelections</td>
-      <td className="">The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code className="">null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre className=""><code className="">Group: Cheese&#10;Items: ( Cheddar, American, Swiss )&#10;maxSelections: 2&#10;minSelections: 1</code></pre>  <br/> This means:<ul className=""><li className="">You can select AT MOST two different cheeses from this group to apply on the item (the <code className="">maxSelections</code> value).</li><li className="">You must select AT LEAST one cheese from this group to apply on the item (the <code className="">minSelections</code> value).</li></ul></td>
-      <td className="">Integer or null</td>
+      <td className=""><div className="">maxSelections</div></td>
+      <td className=""><div className="">The maximum number of options that a customer can choose from the menu option group. If a customer can choose an unlimited number of options from a menu option group, the value is <code className="">null</code>. <br/> As an example of a menu option group with a maximum greater than one, assume this configuration: <pre className=""><code className="">Group: Cheese&#10;Items: ( Cheddar, American, Swiss )&#10;maxSelections: 2&#10;minSelections: 1</code></pre>  <br/> This means:<ul className=""><li className="">You can select AT MOST two different cheeses from this group to apply on the item (the <code className="">maxSelections</code> value).</li><li className="">You must select AT LEAST one cheese from this group to apply on the item (the <code className="">minSelections</code> value).</li></ul></div></td>
+      <td className=""><div className="">Integer or null</div></td>
     </tr>
     <tr className="">
-      <td className="">pricingMode</td>
-      <td className="">Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:<ul className=""><li className=""><code className="">ADJUSTS_PRICE</code> - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.</li><li className=""><code className="">FIXED_PRICE</code> - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.</li><li className=""><code className="">INCLUDED</code> - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">pricingMode</div></td>
+      <td className=""><div className="">Indicates how the options in the menu option group affect the price of the menu items they are applied to. Values are:<ul className=""><li className=""><code className="">ADJUSTS_PRICE</code> - Choosing an option from the menu option group affects the price of the menu item it applies to. The amount of the adjustment depends on the price of the option applied.</li><li className=""><code className="">FIXED_PRICE</code> - Choosing an item from the menu option group affects the price of the item it applies to. The amount of the adjustment is set at the menu option group level and applies to all options in the group. Note that this does not necessarily mean that all options in the group have an identical price. It means that all options in the group are treated the same way with respect to pricing. For example, if the menu option group uses sequence pricing, and the first two options are free while the third is $1, the specific modifier that costs $1 is arbitrary. Fixed refers to the fact that the pricing is fixed at the modifier group level, not that the price of each option in the group is constant.</li><li className=""><code className="">INCLUDED</code> - Choosing an option from the menu option group does not affect the price of the menu item it applies to (because the price of the option is included in the price of the menu item it applies to).</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">pricingStrategy</td>
-      <td className="">Indicates the way prices are set for the options in this menu option group. Values are:<ul className=""><li className=""><code className="">NONE</code> - Indicates that no pricing strategy is defined for this menu option group. <code className="">pricingStrategy</code> is set to <code className="">NONE</code> if the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup" className="">pricingMode</a> is set to <code className="">ADJUSTS_PRICE</code> (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or <code className="">INCLUDED</code> (no additional cost is charged for the options in the menu option group).</li><li className=""><code className="">BASE_PRICE</code> - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li className=""><code className="">SEQUENCE_PRICE</code> - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li className=""><code className="">UNSUPPORTED_STRATEGY</code> - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">pricingStrategy</div></td>
+      <td className=""><div className="">Indicates the way prices are set for the options in this menu option group. Values are:<ul className=""><li className=""><code className="">NONE</code> - Indicates that no pricing strategy is defined for this menu option group. <code className="">pricingStrategy</code> is set to <code className="">NONE</code> if the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingModeModifierGroup" className="">pricingMode</a> is set to <code className="">ADJUSTS_PRICE</code> (prices are set on individual items in the menu option group, not on the menu option group itself, so there is no pricing strategy for the menu option group as a whole) or <code className="">INCLUDED</code> (no additional cost is charged for the options in the menu option group).</li><li className=""><code className="">BASE_PRICE</code> - The pricing strategy for the menu option group is a constant price that does not change based on other conditions (such as size, sequence of ordering, and so on). For example, all of the options in the menu option group cost $1 at all times.</li><li className=""><code className="">SEQUENCE_PRICE</code> - The pricing strategy for the menu option group is Sequence Price. With sequence pricing, the order in which options are specified determines the cost of each option, for example, the first option costs $1.00, the second costs $1.50, and the third costs $1.75.</li><li className=""><code className="">UNSUPPORTED_STRATEGY</code> - The pricing strategy for the menu option group is one that, while it is supported internally in the Toast POS system, it is not yet supported for use via API. Currently, two pricing strategies are unsupported by the API, Size Price and Size/Sequence Price.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">pricingStrategyRules</td>
-      <td className="">An <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportPricingStrategyRules" className="">object</a> that contains the pricing rules for the chosen <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a>. If the pricing strategy is <code className="">NONE</code> or <code className="">UNSUPPORTED_STRATEGY</code>, this object is set to <code className="">NONE</code>.</td>
-      <td className="">JSON object</td>
+      <td className=""><div className="">pricingStrategyRules</div></td>
+      <td className=""><div className="">An <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportPricingStrategyRules" className="">object</a> that contains the pricing rules for the chosen <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a>. If the pricing strategy is <code className="">NONE</code> or <code className="">UNSUPPORTED_STRATEGY</code>, this object is set to <code className="">NONE</code>.</div></td>
+      <td className=""><div className="">JSON object</div></td>
     </tr>
     <tr className="">
-      <td className="">defaultOptionsChargePrice</td>
-      <td className="">Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:<ul className=""><li className=""><code className="">NO</code> - The option price is ignored. No change is made to the cost of the menu item.</li><li className=""><code className="">YES</code> - The option price is added to the cost of the menu item.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">defaultOptionsChargePrice</div></td>
+      <td className=""><div className="">Indicates whether the prices associated with the menu option group's default options are added to the cost of the menu items they modify. Values are:<ul className=""><li className=""><code className="">NO</code> - The option price is ignored. No change is made to the cost of the menu item.</li><li className=""><code className="">YES</code> - The option price is added to the cost of the menu item.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">defaultOptionsSubstitutionPricing</td>
-      <td className="">Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul className=""><li className=""><code className="">NO</code> - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li className=""><code className="">YES</code> - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul> <br/> There are two scenarios that can occur with substitution pricing:<ul className=""><li className="">If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li className="">If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">defaultOptionsSubstitutionPricing</div></td>
+      <td className=""><div className="">Indicates whether substitution pricing is enabled for the menu options group. Values are:<ul className=""><li className=""><code className="">NO</code> - Substitution pricing is not enabled. Removing a default option from a menu item has no impact on the price of the menu item.</li><li className=""><code className="">YES</code> - Substitution pricing is enabled. Substitution pricing allows a guest to remove one or more default options from a menu item and apply the value of those options toward the purchase of one or more different options. For example, a guest orders a salad that comes with chicken by default but asks to substitute salmon for the chicken. The price of the chicken option is $7. The price of the salmon option is $9. In this case, the Toast POS system calculates the difference and charges the substitution price of $2 for the salmon (not the regular price of $9).</li></ul> <br/> There are two scenarios that can occur with substitution pricing:<ul className=""><li className="">If the substitution options cost the same as or less than the default options, then no price adjustments occur. The menu item costs the same as it does with the default options.</li><li className="">If the substitution options cost more than the default options, then the Toast POS system calculates the difference in price and reprices the substitution options accordingly. For example, if you remove a default option that costs $10 and replace it with two options that cost $8 and $7, then the cost of the replacement options is $5 ($8 + $7 - $10 = $5).</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">items</td>
-      <td className="">An array of the objects that represent the options in the menu option group.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">items</div></td>
+      <td className=""><div className="">An array of the objects that represent the options in the menu option group.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
     <tr className="">
-      <td className="">idString</td>
-      <td className="">This field is for Toast internal use only.</td>
-      <td className="">String</td>
+      <td className=""><div className="">idString</div></td>
+      <td className=""><div className="">This field is for Toast internal use only.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">visibility</td>
-      <td className="">Indicates where the menu option group is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu option group is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu option group is hidden from everyone.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">visibility</div></td>
+      <td className=""><div className="">Indicates where the menu option group is displayed and who can see it. Values are:<ul className=""><li className=""><code className="">ALL</code> - The menu option group is visible to everyone. For example, the menu option group is seen by restaurant employees using a Toast POS device and by restaurant guests using the online ordering page.</li><li className=""><code className="">POS_ONLY</code> - The menu option group is visible only on Toast POS devices (including kiosks).</li><li className=""><code className="">NONE</code> - The menu option group is hidden from everyone.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
   </tbody>
 </table>
@@ -1064,26 +1064,26 @@ The following table shows the information about the pricing strategy for the mod
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">basePrice</td>
-      <td className="">Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a> is set to <code className="">BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre className=""><code className="">"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy":"BASE_PRICE",&#10;  "pricingStategyRules": &#123;&#10;    "basePrice": 1.00&#10;    &#125;&#10;  ...&#10;&#125;</code></pre> </td>
-      <td className="">Number</td>
+      <td className=""><div className="">basePrice</div></td>
+      <td className=""><div className="">Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a> is set to <code className="">BASE_PRICE</code>. Defines a constant price for all of the options in the menu options group. For example: <pre className=""><code className="">"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy":"BASE_PRICE",&#10;  "pricingStategyRules": &#123;&#10;    "basePrice": 1.00&#10;    &#125;&#10;  ...&#10;&#125;</code></pre> </div></td>
+      <td className=""><div className="">Number</div></td>
     </tr>
     <tr className="">
-      <td className="">numberOfLevels</td>
-      <td className="">Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a> is set to <code className="">SEQUENCE_PRICE</code>. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices" className="">sequencePrices</a> array.</td>
-      <td className="">Number</td>
+      <td className=""><div className="">numberOfLevels</div></td>
+      <td className=""><div className="">Used when the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportPricingStrategyModOptionGroup" className="">pricingStrategy</a> is set to <code className="">SEQUENCE_PRICE</code>. Defines the number of levels for the sequence price. For example, if you have three levels, you can set a price for the first option added to the order, the second option added to the order, and all options added from the third option on. Used in conjunction with the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportSequencePrices" className="">sequencePrices</a> array.</div></td>
+      <td className=""><div className="">Number</div></td>
     </tr>
     <tr className="">
-      <td className="">sequencePrices</td>
-      <td className="">Sets the price for each level defined in the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels" className="">numberOfLevels</a> value. For example: <pre className=""><code className="">"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy": "SEQUENCE_PRICE",&#10;  "pricingStrategyRules": &#123;&#10;    "numberOfLevels": 3,&#10;    "sequencePrices": [&#10;      0.50,&#10;      0.75,&#10;      1.00,&#10;    ]&#10;  &#125;&#10;  ...&#10;&#125;</code></pre> </td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">sequencePrices</div></td>
+      <td className=""><div className="">Sets the price for each level defined in the <a href="apiDevGuide-apiDeprecatedApiFunctions#adminDataExportNumberOfLevels" className="">numberOfLevels</a> value. For example: <pre className=""><code className="">"optionGroups": [ &#10;&#123;&#10;  "guid": "7aeae7d5-8891-4fa1-bcbd-647ad1f16c66",&#10;  "name": "Toppings",&#10;  ...&#10;  "pricingStrategy": "SEQUENCE_PRICE",&#10;  "pricingStrategyRules": &#123;&#10;    "numberOfLevels": 3,&#10;    "sequencePrices": [&#10;      0.50,&#10;      0.75,&#10;      1.00,&#10;    ]&#10;  &#125;&#10;  ...&#10;&#125;</code></pre> </div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
   </tbody>
 </table>
@@ -1109,31 +1109,31 @@ The following table shows the information about the premodifier groups at your r
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">name</td>
-      <td className="">A descriptive identifier for a <code className="">premodifierGroup</code> object.</td>
-      <td className="">String</td>
+      <td className=""><div className="">name</div></td>
+      <td className=""><div className="">A descriptive identifier for a <code className="">premodifierGroup</code> object.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">guid</td>
-      <td className="">The unique identifier for the premodifier group, assigned by the Toast POS.</td>
-      <td className="">String</td>
+      <td className=""><div className="">guid</div></td>
+      <td className=""><div className="">The unique identifier for the premodifier group, assigned by the Toast POS.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">isDefault</td>
-      <td className="">Whether or not the item is selected unless a customer chooses to decline it.</td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">isDefault</div></td>
+      <td className=""><div className="">Whether or not the item is selected unless a customer chooses to decline it.</div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">premodifiers</td>
-      <td className="">An array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportPremodifier" className="">premodifiers</a> objects.</td>
-      <td className="">JSON array</td>
+      <td className=""><div className="">premodifiers</div></td>
+      <td className=""><div className="">An array of <a href="apiDevGuide-apiDeprecatedApiFunctions#menuExportPremodifier" className="">premodifiers</a> objects.</div></td>
+      <td className=""><div className="">JSON array</div></td>
     </tr>
   </tbody>
 </table>
@@ -1148,41 +1148,41 @@ The following table shows the information about the premodifiers or postmodifier
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Field</th>
-      <th className="">Description</th>
-      <th className="">Data Type</th>
+      <th className=""><div className="">Field</div></th>
+      <th className=""><div className="">Description</div></th>
+      <th className=""><div className="">Data Type</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">name</td>
-      <td className="">A descriptive identifier for a specific premodifier or postmodifier in a <code className="">premodifiers</code> object. For example, <code className="">ADD</code> or <code className="">ON SIDE</code>.</td>
-      <td className="">String</td>
+      <td className=""><div className="">name</div></td>
+      <td className=""><div className="">A descriptive identifier for a specific premodifier or postmodifier in a <code className="">premodifiers</code> object. For example, <code className="">ADD</code> or <code className="">ON SIDE</code>.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">guid</td>
-      <td className="">The unique identifier for the premodifier or postmodifier, assigned by the Toast POS.</td>
-      <td className="">String</td>
+      <td className=""><div className="">guid</div></td>
+      <td className=""><div className="">The unique identifier for the premodifier or postmodifier, assigned by the Toast POS.</div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
     <tr className="">
-      <td className="">basePrice</td>
-      <td className="">If <code className="">scalePrice</code> is <code className="">false</code>, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price).</td>
-      <td className="">Currency</td>
+      <td className=""><div className="">basePrice</div></td>
+      <td className=""><div className="">If <code className="">scalePrice</code> is <code className="">false</code>, this amount is added to the price. Note that the amount can be 0.00 (so that the price remains the same) and it can also be a negative value (which will reduce the price).</div></td>
+      <td className=""><div className="">Currency</div></td>
     </tr>
     <tr className="">
-      <td className="">scalePrice</td>
-      <td className="">Determines how the price is scaled. Values are:<ul className=""><li className=""><code className="">true</code> - multiplies the price by the <code className="">scaleFactor</code> value.</li><li className=""><code className="">false</code> - does not multiply the price but instead adds the <code className="">basePrice</code> value to the item.</li></ul></td>
-      <td className="">Boolean</td>
+      <td className=""><div className="">scalePrice</div></td>
+      <td className=""><div className="">Determines how the price is scaled. Values are:<ul className=""><li className=""><code className="">true</code> - multiplies the price by the <code className="">scaleFactor</code> value.</li><li className=""><code className="">false</code> - does not multiply the price but instead adds the <code className="">basePrice</code> value to the item.</li></ul></div></td>
+      <td className=""><div className="">Boolean</div></td>
     </tr>
     <tr className="">
-      <td className="">scaleFactor</td>
-      <td className="">If <code className="">scalePrice</code> is <code className="">true</code>, the item price is multiplied by this factor.</td>
-      <td className="">Number</td>
+      <td className=""><div className="">scaleFactor</div></td>
+      <td className=""><div className="">If <code className="">scalePrice</code> is <code className="">true</code>, the item price is multiplied by this factor.</div></td>
+      <td className=""><div className="">Number</div></td>
     </tr>
     <tr className="">
-      <td className="">displayMode</td>
-      <td className="">Determines the modifier type. Values are:<ul className=""><li className=""><code className="">PREFIX</code> - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named <code className="">Bacon</code> and the premodifer is named <code className="">ADD</code>, the full display will be <code className="">ADD Bacon</code>.</li><li className=""><code className="">SUFFIX</code> - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named <code className="">Bacon</code> and the postmodifer is named <code className="">ON SIDE</code>, the full display will be <code className="">Bacon ON SIDE</code>.</li></ul></td>
-      <td className="">String</td>
+      <td className=""><div className="">displayMode</div></td>
+      <td className=""><div className="">Determines the modifier type. Values are:<ul className=""><li className=""><code className="">PREFIX</code> - specifies a premodifier. This means the name of this premodifier is displayed as a prefix before the name of the modifier. For example, if the modifier is named <code className="">Bacon</code> and the premodifer is named <code className="">ADD</code>, the full display will be <code className="">ADD Bacon</code>.</li><li className=""><code className="">SUFFIX</code> - specifies a postmodifier. This means the name of this premodifier is displayed as a suffix after the name of the modifier. For example, if the modifier is named <code className="">Bacon</code> and the postmodifer is named <code className="">ON SIDE</code>, the full display will be <code className="">Bacon ON SIDE</code>.</li></ul></div></td>
+      <td className=""><div className="">String</div></td>
     </tr>
   </tbody>
 </table>
@@ -1252,24 +1252,24 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e465A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(1)</a></td>
-      <td className="">The GUID of a menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e465A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID of a menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e485A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(2)</a></td>
-      <td className="">The <code className="">optionGroups</code> value contains information about the groups of items that you can apply as modifiers.</td>
+      <td className=""><div className=""><a href="#co-d1e485A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">optionGroups</code> value contains information about the groups of items that you can apply as modifiers.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e505A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(3)</a></td>
-      <td className="">The GUID of one group of modifier menu items.</td>
+      <td className=""><div className=""><a href="#co-d1e505A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(3)</a></div></td>
+      <td className=""><div className="">The GUID of one group of modifier menu items.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e525A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(4)</a></td>
-      <td className="">This item is not a default modifier for the menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e525A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(4)</a></div></td>
+      <td className=""><div className="">This item is not a default modifier for the menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e545A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(5)</a></td>
-      <td className="">This item is a default modifier for the menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e545A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(5)</a></div></td>
+      <td className=""><div className="">This item is a default modifier for the menu item.</div></td>
     </tr>
   
 The following example shell script uses a **jq**command to select the default modifiers for a menu item from the menu data export file for a restaurant. For more information about the **jq** utility, see the [jq web site](https://stedolan.github.io/jq/).
@@ -1298,28 +1298,28 @@ ${MENU_EXPORT_FILE}
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e31A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(1)</a></td>
-      <td className="">The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see <a href="apiDevGuide-apiDeprecatedApiFunctions#apiMenuInformationMenuDataExport" className="">Getting menu information from the menu data export (deprecated)</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e31A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(1)</a></div></td>
+      <td className=""><div className="">The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see <a href="apiDevGuide-apiDeprecatedApiFunctions#apiMenuInformationMenuDataExport" className="">Getting menu information from the menu data export (deprecated)</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e33A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(2)</a></td>
-      <td className="">To find the default modifiers for a menu item, you locate the item in the menu and menu group that contain that contain it. This variable stores the GUID of the menu that contains the item.</td>
+      <td className=""><div className=""><a href="#co-d1e33A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(2)</a></div></td>
+      <td className=""><div className="">To find the default modifiers for a menu item, you locate the item in the menu and menu group that contain that contain it. This variable stores the GUID of the menu that contains the item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e35A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(3)</a></td>
-      <td className="">This variable stores the GUID of the menu group that contains the item.</td>
+      <td className=""><div className=""><a href="#co-d1e35A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(3)</a></div></td>
+      <td className=""><div className="">This variable stores the GUID of the menu group that contains the item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e37A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(4)</a></td>
-      <td className="">This variable stores the GUID of the menu item that this example script finds the default modifiers for.</td>
+      <td className=""><div className=""><a href="#co-d1e37A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(4)</a></div></td>
+      <td className=""><div className="">This variable stores the GUID of the menu item that this example script finds the default modifiers for.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(5)</a></td>
-      <td className="">This <strong className="">jq</strong>  command filters the JSON contents of the menu data export file. For more information about the <strong className="">jq</strong>  utility command syntax, see the <a href="https://stedolan.github.io/jq/" className="">jq web site</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(5)</a></div></td>
+      <td className=""><div className="">This <strong className="">jq</strong>  command filters the JSON contents of the menu data export file. For more information about the <strong className="">jq</strong>  utility command syntax, see the <a href="https://stedolan.github.io/jq/" className="">jq web site</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(6)</a></td>
-      <td className="">These <strong className="">jq</strong>  command filters select one menu item from its menu and menu group. It then selects each menu item in the <code className="">optionGroup</code> array for that menu item if the <code className="">isDefault</code> value for the <code className="">optionGroup</code> is <code className="">true</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(6)</a></div></td>
+      <td className=""><div className="">These <strong className="">jq</strong>  command filters select one menu item from its menu and menu group. It then selects each menu item in the <code className="">optionGroup</code> array for that menu item if the <code className="">isDefault</code> value for the <code className="">optionGroup</code> is <code className="">true</code>.</div></td>
     </tr>
   
 The following example shows menu items that are the default modifiers for a menu item. These menu item objects were filtered from the menu data export file for a restaurant using the jq command shown in [Example 1.22, “Using the jq utility to find the default modifiers for a menu item”](apiDevGuide-apiDeprecatedApiFunctions#apiUsingJqToFindDefaultModifiers).
@@ -1495,31 +1495,31 @@ These configuration options have a one-to-one relationship with an enum in the `
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Configuration option</th>
-      <th className="">Menus API Visibility Array Enum</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Configuration option</div></th>
+      <th className=""><div className="">Menus API Visibility Array Enum</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">In-store orders: POS</td>
-      <td className=""><code className="">POS</code></td>
-      <td className="">The menu entity is visible on a Toast POS device.</td>
+      <td className=""><div className="">In-store orders: POS</div></td>
+      <td className=""><div className=""><code className="">POS</code></div></td>
+      <td className=""><div className="">The menu entity is visible on a Toast POS device.</div></td>
     </tr>
     <tr className="">
-      <td className="">In-store orders: Kiosk</td>
-      <td className=""><code className="">KIOSK</code></td>
-      <td className="">The menu entity is visible on a Toast Kiosk device.</td>
+      <td className=""><div className="">In-store orders: Kiosk</div></td>
+      <td className=""><div className=""><code className="">KIOSK</code></div></td>
+      <td className=""><div className="">The menu entity is visible on a Toast Kiosk device.</div></td>
     </tr>
     <tr className="">
-      <td className="">Online orders: Toast</td>
-      <td className=""><code className="">TOAST_ONLINE_ORDERING</code></td>
-      <td className="">The menu entity is visible on a restaurant's Toast online ordering site.</td>
+      <td className=""><div className="">Online orders: Toast</div></td>
+      <td className=""><div className=""><code className="">TOAST_ONLINE_ORDERING</code></div></td>
+      <td className=""><div className="">The menu entity is visible on a restaurant's Toast online ordering site.</div></td>
     </tr>
     <tr className="">
-      <td className="">Online orders: Ordering partners</td>
-      <td className=""><code className="">ORDERING_PARTNERS</code></td>
-      <td className="">The restaurant wants the menu entity to be visible on online ordering sites that integrate with the Toast POS system using the orders API.</td>
+      <td className=""><div className="">Online orders: Ordering partners</div></td>
+      <td className=""><div className=""><code className="">ORDERING_PARTNERS</code></div></td>
+      <td className=""><div className="">The restaurant wants the menu entity to be visible on online ordering sites that integrate with the Toast POS system using the orders API.</div></td>
     </tr>
   </tbody>
 </table>

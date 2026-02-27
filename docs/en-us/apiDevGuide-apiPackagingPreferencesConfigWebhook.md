@@ -47,26 +47,26 @@ Attributes in the `packaging_updated` event's payload include:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Value</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Value</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><code className="">packagingConfig</code></td>
-      <td className="">The parent object that holds the following information about the specific packaging preference configurations. <br/> data type: string</td>
+      <td className=""><div className=""><code className="">packagingConfig</code></div></td>
+      <td className=""><div className="">The parent object that holds the following information about the specific packaging preference configurations. <br/> data type: string</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">enabled</code></td>
-      <td className="">Indicates whether the restaurant is currently using packaging preferences in this object. If <code className="">TRUE</code>, you display the packaging options to guests in your ordering interface. If <code className="">FALSE</code>, do not display the options.  <br/> data type: string</td>
+      <td className=""><div className=""><code className="">enabled</code></div></td>
+      <td className=""><div className="">Indicates whether the restaurant is currently using packaging preferences in this object. If <code className="">TRUE</code>, you display the packaging options to guests in your ordering interface. If <code className="">FALSE</code>, do not display the options.  <br/> data type: string</div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">items</code></td>
-      <td className="">The list of available packaging items. The <code className="">items</code> array contains the following fields and values:<ul className=""><li className=""><code className="">id</code>: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi" className="">orders API</a>.</li><li className=""><code className="">itemTypes</code>: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different <code className="">itemTypes</code>. For example, an item named "to-go items” that has <code className="">itemTypes</code> of napkins and utensils.</li><li className=""><code className="">guestDisplayName</code>: An alternative name the restaurant team can configure for a packaging item. For example, you may select <code className="">itemTypes</code> for <code className="">CONDIMENTS</code> but have your guests see the following message: “Ketchup and mustard.”</li><li className=""><code className="">guestInclusionType</code>: Defines how the restaurant guest should interact with the packaging preference. The available values are: <ul className=""><li className=""><code className="">OPT_IN</code>: A guest must complete an action to include packaging preferences, such as selecting a checkbox.</li><li className=""><code className="">OPT_OUT</code>: A guest must complete an action to opt out of packaging, such as de-selecting a checkbox.</li></ul></li><li className=""><code className="">guestDescription</code>: Further describes the packaging item, in addition to the <code className="">guestDisplayName</code>. For example, if the <code className="">itemType</code> is <code className="">CONDIMENTS</code>, and the <code className="">guestDisplayName</code> is "Ketchup and mustard", the <code className="">guestDescription</code> could show "Includes ketchup and mustard only."</li></ul> <br/> data type: string </td>
+      <td className=""><div className=""><code className="">items</code></div></td>
+      <td className=""><div className="">The list of available packaging items. The <code className="">items</code> array contains the following fields and values:<ul className=""><li className=""><code className="">id</code>: The unique identifier for a packaging item. The id is required to apply packaging preferences when you submit an order using the <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesUsingTheOrdersApi" className="">orders API</a>.</li><li className=""><code className="">itemTypes</code>: The packaging categories an item can belong to, such as napkins or condiments. One packaging item may qualify as several different <code className="">itemTypes</code>. For example, an item named "to-go items” that has <code className="">itemTypes</code> of napkins and utensils.</li><li className=""><code className="">guestDisplayName</code>: An alternative name the restaurant team can configure for a packaging item. For example, you may select <code className="">itemTypes</code> for <code className="">CONDIMENTS</code> but have your guests see the following message: “Ketchup and mustard.”</li><li className=""><code className="">guestInclusionType</code>: Defines how the restaurant guest should interact with the packaging preference. The available values are: <ul className=""><li className=""><code className="">OPT_IN</code>: A guest must complete an action to include packaging preferences, such as selecting a checkbox.</li><li className=""><code className="">OPT_OUT</code>: A guest must complete an action to opt out of packaging, such as de-selecting a checkbox.</li></ul></li><li className=""><code className="">guestDescription</code>: Further describes the packaging item, in addition to the <code className="">guestDisplayName</code>. For example, if the <code className="">itemType</code> is <code className="">CONDIMENTS</code>, and the <code className="">guestDisplayName</code> is "Ketchup and mustard", the <code className="">guestDescription</code> could show "Includes ketchup and mustard only."</li></ul> <br/> data type: string </div></td>
     </tr>
     <tr className="">
-      <td className=""><code className="">guestMessage</code></td>
-      <td className="">An optional message configured by the restaurant that you show to guests on your ordering interface. <br/> data type: string</td>
+      <td className=""><div className=""><code className="">guestMessage</code></div></td>
+      <td className=""><div className="">An optional message configured by the restaurant that you show to guests on your ordering interface. <br/> data type: string</div></td>
     </tr>
   </tbody>
 </table>

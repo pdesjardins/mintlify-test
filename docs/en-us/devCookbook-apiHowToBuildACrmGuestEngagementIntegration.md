@@ -150,26 +150,26 @@ When creating your integration functionality, consider tracking the following in
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Object</th>
-      <th className="">Values</th>
+      <th className=""><div className="">Object</div></th>
+      <th className=""><div className="">Values</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Orders</td>
-      <td className="">Consider displaying the following reporting information for orders:<ul className=""><li className="">Dining option name</li><li className="">Dining option behavior</li><li className="">Revenue center name</li><li className="">Server name</li><li className="">Service area name</li><li className="">Table name</li><li className="">Number of guests</li><li className="">Order source</li><li className="">Restaurant service name</li><li className="">Opened date</li><li className="">Modified date</li><li className="">Paid date</li><li className="">Business Date</li><li className="">Voided status</li></ul></td>
+      <td className=""><div className="">Orders</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for orders:<ul className=""><li className="">Dining option name</li><li className="">Dining option behavior</li><li className="">Revenue center name</li><li className="">Server name</li><li className="">Service area name</li><li className="">Table name</li><li className="">Number of guests</li><li className="">Order source</li><li className="">Restaurant service name</li><li className="">Opened date</li><li className="">Modified date</li><li className="">Paid date</li><li className="">Business Date</li><li className="">Voided status</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className="">Checks</td>
-      <td className="">Consider displaying the following reporting information for checks:<ul className=""><li className="">Display number</li><li className="">Delivery information</li><li className="">Customer information</li><li className="">Tab name</li><li className="">Total amount</li><li className="">Tax amount</li><li className="">Refunded amount</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Applied service charge names</li><li className="">Applied service charge amounts</li><li className="">Voided status</li></ul></td>
+      <td className=""><div className="">Checks</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for checks:<ul className=""><li className="">Display number</li><li className="">Delivery information</li><li className="">Customer information</li><li className="">Tab name</li><li className="">Total amount</li><li className="">Tax amount</li><li className="">Refunded amount</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Applied service charge names</li><li className="">Applied service charge amounts</li><li className="">Voided status</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className="">Selections</td>
-      <td className="">Consider displaying the following reporting information for menu item selections:<ul className=""><li className="">Menu item name - use the <code className="">displayName</code> value on <code className="">Selection</code> object</li><li className="">Item quantity</li><li className="">Item group</li><li className="">Applied modifier names- Modifiers may be nested arbitrarily deep on a menu item</li><li className="">Price</li><li className="">Applied tax values</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Sales category name</li><li className="">Item tags</li><li className="">Voided status</li></ul></td>
+      <td className=""><div className="">Selections</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for menu item selections:<ul className=""><li className="">Menu item name - use the <code className="">displayName</code> value on <code className="">Selection</code> object</li><li className="">Item quantity</li><li className="">Item group</li><li className="">Applied modifier names- Modifiers may be nested arbitrarily deep on a menu item</li><li className="">Price</li><li className="">Applied tax values</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Sales category name</li><li className="">Item tags</li><li className="">Voided status</li></ul></div></td>
     </tr>
     <tr className="">
-      <td className="">Payments</td>
-      <td className="">Consider displaying the following reporting information for payments:<ul className=""><li className="">Amount</li><li className="">Tip amount</li><li className="">Refund information</li><li className="">Payment type</li><li className="">Card type</li><li className="">Card entry mode</li><li className="">Payment status</li><li className="">Voided status</li></ul></td>
+      <td className=""><div className="">Payments</div></td>
+      <td className=""><div className="">Consider displaying the following reporting information for payments:<ul className=""><li className="">Amount</li><li className="">Tip amount</li><li className="">Refund information</li><li className="">Payment type</li><li className="">Card type</li><li className="">Card entry mode</li><li className="">Payment status</li><li className="">Voided status</li></ul></div></td>
     </tr>
   </tbody>
 </table>

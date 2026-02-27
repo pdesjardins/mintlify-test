@@ -61,22 +61,22 @@ For example, assume this combo discount:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Discount component</th>
-      <th className="">Amount</th>
+      <th className=""><div className="">Discount component</div></th>
+      <th className=""><div className="">Amount</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">NonTaxed item</td>
-      <td className="">$5.00</td>
+      <td className=""><div className="">NonTaxed item</div></td>
+      <td className=""><div className="">$5.00</div></td>
     </tr>
     <tr className="">
-      <td className="">Taxed item</td>
-      <td className="">$10.00 and taxed at 10%</td>
+      <td className=""><div className="">Taxed item</div></td>
+      <td className=""><div className="">$10.00 and taxed at 10%</div></td>
     </tr>
     <tr className="">
-      <td className="">Combo price for both items</td>
-      <td className="">$12.00</td>
+      <td className=""><div className="">Combo price for both items</div></td>
+      <td className=""><div className="">$12.00</div></td>
     </tr>
   </tbody>
 </table>
@@ -175,18 +175,18 @@ The discount in the example is applied as follows, depending on the configuratio
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Configuration setting</th>
-      <th className="">Effect</th>
+      <th className=""><div className="">Configuration setting</div></th>
+      <th className=""><div className="">Effect</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Consolidate discounts: Off</td>
-      <td className="">The fixed currency discount is applied to the total of all items: <br/> 2 Sodas, $10 - $2 Discount = $8</td>
+      <td className=""><div className="">Consolidate discounts: Off</div></td>
+      <td className=""><div className="">The fixed currency discount is applied to the total of all items: <br/> 2 Sodas, $10 - $2 Discount = $8</div></td>
     </tr>
     <tr className="">
-      <td className="">Consolidate discounts: On</td>
-      <td className="">The fixed currency discount is applied to each quantity of one item: <br/> 2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</td>
+      <td className=""><div className="">Consolidate discounts: On</div></td>
+      <td className=""><div className="">The fixed currency discount is applied to each quantity of one item: <br/> 2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</div></td>
     </tr>
   </tbody>
 </table>

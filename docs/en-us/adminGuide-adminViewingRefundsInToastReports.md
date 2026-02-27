@@ -81,26 +81,26 @@ A dine-in check from Lunch in the Main Dining Room on December 14 contains the f
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Check item, service charge, or tip</th>
-      <th className="">Price</th>
+      <th className=""><div className="">Check item, service charge, or tip</div></th>
+      <th className=""><div className="">Price</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Cheeseburger</td>
-      <td className="">$6.50 ($5 price + $1.50 tax)</td>
+      <td className=""><div className="">Cheeseburger</div></td>
+      <td className=""><div className="">$6.50 ($5 price + $1.50 tax)</div></td>
     </tr>
     <tr className="">
-      <td className="">Non-gratuity service fee</td>
-      <td className="">$5.00</td>
+      <td className=""><div className="">Non-gratuity service fee</div></td>
+      <td className=""><div className="">$5.00</div></td>
     </tr>
     <tr className="">
-      <td className="">Gratuity</td>
-      <td className="">$2.00</td>
+      <td className=""><div className="">Gratuity</div></td>
+      <td className=""><div className="">$2.00</div></td>
     </tr>
     <tr className="">
-      <td className="">Tip</td>
-      <td className="">$3.00</td>
+      <td className=""><div className="">Tip</div></td>
+      <td className=""><div className="">$3.00</div></td>
     </tr>
   </tbody>
 </table>
@@ -115,56 +115,56 @@ On December 15, the following figures decrease:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Finance value</th>
-      <th className="">Decrease</th>
-      <th className="">Notes</th>
+      <th className=""><div className="">Finance value</div></th>
+      <th className=""><div className="">Decrease</div></th>
+      <th className=""><div className="">Notes</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Total Net Sales</td>
-      <td className="">-$10.00</td>
-      <td className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+      <td className=""><div className="">Total Net Sales</div></td>
+      <td className=""><div className="">-$10.00</div></td>
+      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
     </tr>
     <tr className="">
-      <td className="">Gratuity</td>
-      <td className="">-$2.00</td>
-      <td className=""> </td>
+      <td className=""><div className="">Gratuity</div></td>
+      <td className=""><div className="">-$2.00</div></td>
+      <td className=""><div className=""> </div></td>
     </tr>
     <tr className="">
-      <td className="">Food Sales Category</td>
-      <td className="">-$5.00</td>
-      <td className="">Cheeseburger</td>
+      <td className=""><div className="">Food Sales Category</div></td>
+      <td className=""><div className="">-$5.00</div></td>
+      <td className=""><div className="">Cheeseburger</div></td>
     </tr>
     <tr className="">
-      <td className="">Tax</td>
-      <td className="">-$1.50</td>
-      <td className=""> </td>
+      <td className=""><div className="">Tax</div></td>
+      <td className=""><div className="">-$1.50</div></td>
+      <td className=""><div className=""> </div></td>
     </tr>
     <tr className="">
-      <td className="">Tips</td>
-      <td className="">-$3.00</td>
-      <td className=""> </td>
+      <td className=""><div className="">Tips</div></td>
+      <td className=""><div className="">-$3.00</div></td>
+      <td className=""><div className=""> </div></td>
     </tr>
     <tr className="">
-      <td className="">Dine In</td>
-      <td className="">-$10.00</td>
-      <td className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+      <td className=""><div className="">Dine In</div></td>
+      <td className=""><div className="">-$10.00</div></td>
+      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
     </tr>
     <tr className="">
-      <td className="">Revenue center for this check</td>
-      <td className="">-$10.00</td>
-      <td className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+      <td className=""><div className="">Revenue center for this check</div></td>
+      <td className=""><div className="">-$10.00</div></td>
+      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
     </tr>
     <tr className="">
-      <td className="">Lunch service period</td>
-      <td className="">-$10.00</td>
-      <td className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+      <td className=""><div className="">Lunch service period</div></td>
+      <td className=""><div className="">-$10.00</div></td>
+      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
     </tr>
     <tr className="">
-      <td className="">Main Dining Room service area</td>
-      <td className="">-$10.00</td>
-      <td className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</td>
+      <td className=""><div className="">Main Dining Room service area</div></td>
+      <td className=""><div className="">-$10.00</div></td>
+      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
     </tr>
   </tbody>
 </table>

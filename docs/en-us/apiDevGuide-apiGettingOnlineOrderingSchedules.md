@@ -51,12 +51,12 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e88264BB8911-6D33-427B-B2BF-261630CB0B01" className="">(1)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e88264BB8911-6D33-427B-B2BF-261630CB0B01" className="">(1)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e88464BB8911-6D33-427B-B2BF-261630CB0B01" className="">(2)</a></td>
-      <td className="">Specify the location GUID of the restaurant whose online ordering schedule you want to retrieve.</td>
+      <td className=""><div className=""><a href="#co-d1e88464BB8911-6D33-427B-B2BF-261630CB0B01" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the location GUID of the restaurant whose online ordering schedule you want to retrieve.</div></td>
     </tr>
   
 **Example 6.7. Response containing a restaurant's online ordering schedule**
@@ -180,24 +180,24 @@ The following example shows a restaurant location's online ordering schedule for
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1163EA94E75-C09B-4686-82C8-0754D4415861" className="">(1)</a></td>
-      <td className="">The <a href="apiDevGuide-apiOrderTypeDetails#apiOrdersDiningOptionTypes" className="">diningOptionBehavior</a> the online ordering schedule is returned for.</td>
+      <td className=""><div className=""><a href="#co-d1e1163EA94E75-C09B-4686-82C8-0754D4415861" className="">(1)</a></div></td>
+      <td className=""><div className="">The <a href="apiDevGuide-apiOrderTypeDetails#apiOrdersDiningOptionTypes" className="">diningOptionBehavior</a> the online ordering schedule is returned for.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1183EA94E75-C09B-4686-82C8-0754D4415861" className="">(2)</a></td>
-      <td className="">The local time in HH:MM format.</td>
+      <td className=""><div className=""><a href="#co-d1e1183EA94E75-C09B-4686-82C8-0754D4415861" className="">(2)</a></div></td>
+      <td className=""><div className="">The local time in HH:MM format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1203EA94E75-C09B-4686-82C8-0754D4415861" className="">(3)</a></td>
-      <td className="">Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see <a href="adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours" className="">Configuring overrides</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e1203EA94E75-C09B-4686-82C8-0754D4415861" className="">(3)</a></div></td>
+      <td className=""><div className="">Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see <a href="adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours" className="">Configuring overrides</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1223EA94E75-C09B-4686-82C8-0754D4415861" className="">(4)</a></td>
-      <td className="">Indicates which <code className="">diningOptionBehavior</code> the override applies to.</td>
+      <td className=""><div className=""><a href="#co-d1e1223EA94E75-C09B-4686-82C8-0754D4415861" className="">(4)</a></div></td>
+      <td className=""><div className="">Indicates which <code className="">diningOptionBehavior</code> the override applies to.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1243EA94E75-C09B-4686-82C8-0754D4415861" className="">(5)</a></td>
-      <td className="">The <a href="apiDevGuide-orders_api_future_orders" className="">maximum number of days in the future</a> a guest can schedule an online order. You should not place orders more than the <code className="">scheduledOrderMaxDays</code>. This value can be configured in the Online ordering section on the Takeout & delivery page in Toast Web.</td>
+      <td className=""><div className=""><a href="#co-d1e1243EA94E75-C09B-4686-82C8-0754D4415861" className="">(5)</a></div></td>
+      <td className=""><div className="">The <a href="apiDevGuide-orders_api_future_orders" className="">maximum number of days in the future</a> a guest can schedule an online order. You should not place orders more than the <code className="">scheduledOrderMaxDays</code>. This value can be configured in the Online ordering section on the Takeout & delivery page in Toast Web.</div></td>
     </tr>
   
 The values returned are organized by `diningOptionBehavior`.

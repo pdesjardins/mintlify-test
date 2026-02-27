@@ -176,31 +176,31 @@ The scheduled firing time displayed is dynamic, meaning it changes as the order 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Scheduled firing time</th>
-      <th className="">Text color</th>
-      <th className="">Example text description</th>
+      <th className=""><div className="">Scheduled firing time</div></th>
+      <th className=""><div className="">Text color</div></th>
+      <th className=""><div className="">Example text description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Scheduled to fire in more than one hour </td>
-      <td className="">Gray</td>
-      <td className="">Firing 4/6, 4:38 PM </td>
+      <td className=""><div className="">Scheduled to fire in more than one hour </div></td>
+      <td className=""><div className="">Gray</div></td>
+      <td className=""><div className="">Firing 4/6, 4:38 PM </div></td>
     </tr>
     <tr className="">
-      <td className="">Scheduled to fire in one hour or less </td>
-      <td className="">Green </td>
-      <td className="">Firing in 58 min </td>
+      <td className=""><div className="">Scheduled to fire in one hour or less </div></td>
+      <td className=""><div className="">Green </div></td>
+      <td className=""><div className="">Firing in 58 min </div></td>
     </tr>
     <tr className="">
-      <td className="">Scheduled to fire in less than one minute </td>
-      <td className="">Green</td>
-      <td className="">Firing any second </td>
+      <td className=""><div className="">Scheduled to fire in less than one minute </div></td>
+      <td className=""><div className="">Green</div></td>
+      <td className=""><div className="">Firing any second </div></td>
     </tr>
     <tr className="">
-      <td className="">Scheduled fire time has passed </td>
-      <td className="">Red</td>
-      <td className="">Firing in - 4 minutes </td>
+      <td className=""><div className="">Scheduled fire time has passed </div></td>
+      <td className=""><div className="">Red</div></td>
+      <td className=""><div className="">Firing in - 4 minutes </div></td>
     </tr>
   </tbody>
 </table>

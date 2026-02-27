@@ -77,16 +77,16 @@ Qc99xVQ8wlfrh4tp56yjRnub\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e581CC3353FE-F616-4AA1-97F1-00D3437AB330" className="">(1)</a></td>
-      <td className="">The <code className="">/oauth/token_key</code> endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.</td>
+      <td className=""><div className=""><a href="#co-d1e581CC3353FE-F616-4AA1-97F1-00D3437AB330" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">/oauth/token_key</code> endpoint returns a JSON object that contains multiple values. One of the values provides the public key string.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e583CC3353FE-F616-4AA1-97F1-00D3437AB330" className="">(2)</a></td>
-      <td className="">The <code className="">alg</code> value indicates the encryption algorithm used for the public key.</td>
+      <td className=""><div className=""><a href="#co-d1e583CC3353FE-F616-4AA1-97F1-00D3437AB330" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">alg</code> value indicates the encryption algorithm used for the public key.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e585CC3353FE-F616-4AA1-97F1-00D3437AB330" className="">(3)</a></td>
-      <td className="">The <code className="">value</code> value includes the public key string. You can use the string supplied in the <code className="">value</code> value to validate the authentication tokens in a Toast platform gift card transaction request.</td>
+      <td className=""><div className=""><a href="#co-d1e585CC3353FE-F616-4AA1-97F1-00D3437AB330" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">value</code> value includes the public key string. You can use the string supplied in the <code className="">value</code> value to validate the authentication tokens in a Toast platform gift card transaction request.</div></td>
     </tr>
   
 ## Using the public key to validate JWTs

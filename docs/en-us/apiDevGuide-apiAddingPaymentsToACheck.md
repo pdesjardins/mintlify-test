@@ -81,24 +81,24 @@ The following example shows an array of `Payment` objects to add payments to a c
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1602C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(1)</a></td>
-      <td className="">The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see <a href="apiDevGuide-authorizingCcPayments" className="">Credit card payments</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e1602C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(1)</a></div></td>
+      <td className=""><div className="">The UUID of the credit card payment that you authorized in the Toast credit cards API. For more information, see <a href="apiDevGuide-authorizingCcPayments" className="">Credit card payments</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1622C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(2)</a></td>
-      <td className="">The <code className="">/orders/<em className=""><code className="">&#123;orderGuid&#125;</code></em> /checks/<em className=""><code className="">&#123;checkGuid&#125;</code></em> /payments</code> endpoint only supports adding credit card payments. This value must be <code className="">CREDIT</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e1622C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">/orders/<em className=""><code className="">&#123;orderGuid&#125;</code></em> /checks/<em className=""><code className="">&#123;checkGuid&#125;</code></em> /payments</code> endpoint only supports adding credit card payments. This value must be <code className="">CREDIT</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1642C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(3)</a></td>
-      <td className="">The currency amount to apply to the check price in the added payment.</td>
+      <td className=""><div className=""><a href="#co-d1e1642C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(3)</a></div></td>
+      <td className=""><div className="">The currency amount to apply to the check price in the added payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1662C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(4)</a></td>
-      <td className="">The currency amount of a tip or gratuity in the added payment.</td>
+      <td className=""><div className=""><a href="#co-d1e1662C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(4)</a></div></td>
+      <td className=""><div className="">The currency amount of a tip or gratuity in the added payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#coSecondPaymentObjectInBodyParam" className="">(5)</a></td>
-      <td className="">You can add one or more payments in the array. This example adds two payments to the check.</td>
+      <td className=""><div className=""><a href="#coSecondPaymentObjectInBodyParam" className="">(5)</a></div></td>
+      <td className=""><div className="">You can add one or more payments in the array. This example adds two payments to the check.</div></td>
     </tr>
 ## Example response data when adding a payment to an existing check
 
@@ -165,18 +165,18 @@ The following example shows example response data for a `POST` request to the `/
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1922C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(1)</a></td>
-      <td className="">The Toast platform GUID of the order that you added payments to.</td>
+      <td className=""><div className=""><a href="#co-d1e1922C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(1)</a></div></td>
+      <td className=""><div className="">The Toast platform GUID of the order that you added payments to.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1942C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(2)</a></td>
-      <td className="">The Toast platform GUID of the check that you added payments to.</td>
+      <td className=""><div className=""><a href="#co-d1e1942C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(2)</a></div></td>
+      <td className=""><div className="">The Toast platform GUID of the check that you added payments to.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1962C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(3)</a></td>
-      <td className="">The <code className="">payments</code> value in a check includes an array of <code className="">Payment</code> objects for the payments that are applied to the check. These payments include the payments that you added.</td>
+      <td className=""><div className=""><a href="#co-d1e1962C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">payments</code> value in a check includes an array of <code className="">Payment</code> objects for the payments that are applied to the check. These payments include the payments that you added.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1982C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(4)</a></td>
-      <td className="">The Toast platform GUID of a payment that you added.</td>
+      <td className=""><div className=""><a href="#co-d1e1982C4ACD83-A816-47C6-9522-28A21ED4EFA9" className="">(4)</a></div></td>
+      <td className=""><div className="">The Toast platform GUID of a payment that you added.</div></td>
     </tr>

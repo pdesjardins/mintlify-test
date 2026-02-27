@@ -40,20 +40,20 @@ The following example shows the message body for a `/era/v1/labor/week` request 
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3346134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
-      <td className="">The start date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e3346134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></div></td>
+      <td className=""><div className="">The start date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3348134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
-      <td className="">The end date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e3348134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></div></td>
+      <td className=""><div className="">The end date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3350134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
+      <td className=""><div className=""><a href="#co-d1e3350134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3352134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></td>
-      <td className="">This request is for labor reporting data grouped by employee.</td>
+      <td className=""><div className=""><a href="#co-d1e3352134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></div></td>
+      <td className=""><div className="">This request is for labor reporting data grouped by employee.</div></td>
     </tr>
 When you use `EMPLOYEE`, the data is split into subsections by restaurant, then by day for the restaurant, and then by employee for the day at that restaurant. For example, the following list shows the structure of labor reporting data for two example restaurants, covering two days and four employees.
 
@@ -142,20 +142,20 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/labor/week' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
-      <td className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/labor/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">week</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e3545134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/labor/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">week</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e3547134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3549134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
-      <td className="">Set the data type of the message body to <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e3549134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></div></td>
+      <td className=""><div className="">Set the data type of the message body to <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></td>
-      <td className="">Include details about the requested labor reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</td>
+      <td className=""><div className=""><a href="#co-d1e3551134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></div></td>
+      <td className=""><div className="">Include details about the requested labor reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</div></td>
     </tr>
 ### Message body for the labor reporting data request
 
@@ -176,24 +176,24 @@ The following example shows the message body for the `/era/v1/labor/week` reques
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3611134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
-      <td className="">The start date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</td>
+      <td className=""><div className=""><a href="#co-d1e3611134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></div></td>
+      <td className=""><div className="">The start date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3613134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
-      <td className="">The end date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format. The <code className="">endBusinessDate</code> value is optional for requests using the <code className="">day</code> time range.</td>
+      <td className=""><div className=""><a href="#co-d1e3613134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></div></td>
+      <td className=""><div className="">The end date of the time range for the labor reporting data, in <code className="">YYYYMMDD</code> format. The <code className="">endBusinessDate</code> value is optional for requests using the <code className="">day</code> time range.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3615134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</td>
+      <td className=""><div className=""><a href="#co-d1e3615134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the labor reporting data. Restaurant GUIDs not listed are excluded.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3617134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></td>
-      <td className="">The list of restaurant GUIDs from the management group to exclude from the labor reporting data. For this example, no restaurants are listed, so all other restaurants are included.</td>
+      <td className=""><div className=""><a href="#co-d1e3617134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(4)</a></div></td>
+      <td className=""><div className="">The list of restaurant GUIDs from the management group to exclude from the labor reporting data. For this example, no restaurants are listed, so all other restaurants are included.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3619134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(5)</a></td>
-      <td className="">This request is for labor reporting data grouped by employee.</td>
+      <td className=""><div className=""><a href="#co-d1e3619134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(5)</a></div></td>
+      <td className=""><div className="">This request is for labor reporting data grouped by employee.</div></td>
     </tr>
 
 
@@ -214,8 +214,8 @@ The following example shows the response from the `/era/v1/labor/day` endpoint.
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3693134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
-      <td className="">The GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e3693134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
 ### Request to retrieve the labor reporting data
 
@@ -231,16 +231,16 @@ curl -X GET \ 'https://[toast-api-hostname]/era/v1/labor/
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3730134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/labor</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e3730134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/labor</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3732134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></td>
-      <td className="">Include the GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e3732134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(2)</a></div></td>
+      <td className=""><div className="">Include the GUID for the labor reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3734134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e3734134B67F3-A975-4412-A030-B6DDC7E2BD35" className="">(3)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ### Response to the retrieval request for labor reporting data
 

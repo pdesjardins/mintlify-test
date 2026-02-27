@@ -123,28 +123,28 @@ The following example message body for an order shows a modifier and a pre-modif
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e7033FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(1)</a></td>
-      <td className="">The GUID of the menu group for this menu item selection. For example, this menu group might contain salads.</td>
+      <td className=""><div className=""><a href="#co-d1e7033FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID of the menu group for this menu item selection. For example, this menu group might contain salads.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7053FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(2)</a></td>
-      <td className="">The GUID of the menu item for this menu item selection. For example, this menu item might be a garden salad.</td>
+      <td className=""><div className=""><a href="#co-d1e7053FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(2)</a></div></td>
+      <td className=""><div className="">The GUID of the menu item for this menu item selection. For example, this menu item might be a garden salad.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7073FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(3)</a></td>
-      <td className="">The GUID of the modifier group for this item selection. For example, this modifier group might contain salad dressings.</td>
+      <td className=""><div className=""><a href="#co-d1e7073FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(3)</a></div></td>
+      <td className=""><div className="">The GUID of the modifier group for this item selection. For example, this modifier group might contain salad dressings.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7093FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(4)</a></td>
-      <td className="">The GUID of the modifier for this item selection. For example, this modifier might be the balsamic vinaigrette dressing.</td>
+      <td className=""><div className=""><a href="#co-d1e7093FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(4)</a></div></td>
+      <td className=""><div className="">The GUID of the modifier for this item selection. For example, this modifier might be the balsamic vinaigrette dressing.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7113FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(5)</a></td>
-      <td className="">To specify a pre-modifier for a modifier, add the <code className="">preModifier</code> value to the modifier.</td>
+      <td className=""><div className=""><a href="#co-d1e7113FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(5)</a></div></td>
+      <td className=""><div className="">To specify a pre-modifier for a modifier, add the <code className="">preModifier</code> value to the modifier.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7143FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(6)</a></td>
-      <td className="">The GUID of the pre-modifier for this modifier. For example, the pre-modifier might be <code className="">NO</code> or <code className="">EXTRA</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e7143FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(6)</a></div></td>
+      <td className=""><div className="">The GUID of the pre-modifier for this modifier. For example, the pre-modifier might be <code className="">NO</code> or <code className="">EXTRA</code>.</div></td>
     </tr>
 ### Requirements for modifier quantities
 
@@ -212,20 +212,20 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
 
 
     <tr className="">
-      <td className=""><a href="#nested_modifier_example2-1-co" className="">(1)</a></td>
-      <td className="">GUID of the menu item. For example, the menu item Key Lime Pie.</td>
+      <td className=""><div className=""><a href="#nested_modifier_example2-1-co" className="">(1)</a></div></td>
+      <td className=""><div className="">GUID of the menu item. For example, the menu item Key Lime Pie.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#nested_modifier_example2-2-co" className="">(2)</a></td>
-      <td className="">Quantity of the menu item. For example, five Key Lime Pies.</td>
+      <td className=""><div className=""><a href="#nested_modifier_example2-2-co" className="">(2)</a></div></td>
+      <td className=""><div className="">Quantity of the menu item. For example, five Key Lime Pies.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#nested_modifier_example2-3-co" className="">(3)</a></td>
-      <td className="">Modifier, specified in the <code className="">modifiers</code> array. For example, Whipped Cream.</td>
+      <td className=""><div className=""><a href="#nested_modifier_example2-3-co" className="">(3)</a></div></td>
+      <td className=""><div className="">Modifier, specified in the <code className="">modifiers</code> array. For example, Whipped Cream.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#nested_modifier_example2-4-co" className="">(4)</a></td>
-      <td className="">Quantity of the modifier. For example, five Whipped Creams (one whipped cream per pie).</td>
+      <td className=""><div className=""><a href="#nested_modifier_example2-4-co" className="">(4)</a></div></td>
+      <td className=""><div className="">Quantity of the modifier. For example, five Whipped Creams (one whipped cream per pie).</div></td>
     </tr>
 ### Using nested modifier groups sourced from menu groups
 
@@ -331,20 +331,20 @@ The example below shows the correct modifier structure for an orders API POST re
 
 
     <tr className="">
-      <td className=""><a href="#co-nested-mod-optionGroup-guid" className="">(1)</a></td>
-      <td className="">The GUID for the specific modifier group that controls the rules, choices, and pricing for the modifier being selected.</td>
+      <td className=""><div className=""><a href="#co-nested-mod-optionGroup-guid" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID for the specific modifier group that controls the rules, choices, and pricing for the modifier being selected.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-nested-mod-itemgroup-guid" className="">(2)</a></td>
-      <td className="">The GUID for the menu group that contains the modifier item being selected. This identifies the group of options for example, Sauces, or Sides, that the modifier item belongs to.</td>
+      <td className=""><div className=""><a href="#co-nested-mod-itemgroup-guid" className="">(2)</a></div></td>
+      <td className=""><div className="">The GUID for the menu group that contains the modifier item being selected. This identifies the group of options for example, Sauces, or Sides, that the modifier item belongs to.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-nested-mod-parent-item" className="">(3)</a></td>
-      <td className="">The GUID for the specific menu item selection that is chosen as the parent-level modifier. This identifies the modifier choice itself for example, Add Extra Cheese.</td>
+      <td className=""><div className=""><a href="#co-nested-mod-parent-item" className="">(3)</a></div></td>
+      <td className=""><div className="">The GUID for the specific menu item selection that is chosen as the parent-level modifier. This identifies the modifier choice itself for example, Add Extra Cheese.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-nested-mod-child-item" className="">(4)</a></td>
-      <td className="">The GUID for the specific menu item selection chosen as a nested modifier. This is used when a modifier item itself has additional, secondary options applied to it for example, specifying well done for a side steak's temperature modifier.</td>
+      <td className=""><div className=""><a href="#co-nested-mod-child-item" className="">(4)</a></div></td>
+      <td className=""><div className="">The GUID for the specific menu item selection chosen as a nested modifier. This is used when a modifier item itself has additional, secondary options applied to it for example, specifying well done for a side steak's temperature modifier.</div></td>
     </tr>
 ### Adding the same modifier multiple times to a menu item selection
 
@@ -416,24 +416,24 @@ The following JSON body example adds whipped cream twice to a slice of cherry pi
 
 
     <tr className="">
-      <td className=""><a href="#modifier_quantity_example1-1-co" className="">(1)</a></td>
-      <td className="">GUID of the menu item. For example, Cherry Pie.</td>
+      <td className=""><div className=""><a href="#modifier_quantity_example1-1-co" className="">(1)</a></div></td>
+      <td className=""><div className="">GUID of the menu item. For example, Cherry Pie.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#modifier_quantity_example1-2-co" className="">(2)</a></td>
-      <td className="">Quantity of the menu item. For example, one Cherry Pie.</td>
+      <td className=""><div className=""><a href="#modifier_quantity_example1-2-co" className="">(2)</a></div></td>
+      <td className=""><div className="">Quantity of the menu item. For example, one Cherry Pie.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#modifier_quantity_example1-3-co" className="">(3)</a></td>
-      <td className="">First modifier, specified in the <code className="">modifiers</code> array. For example, the first Whipped Cream.</td>
+      <td className=""><div className=""><a href="#modifier_quantity_example1-3-co" className="">(3)</a></div></td>
+      <td className=""><div className="">First modifier, specified in the <code className="">modifiers</code> array. For example, the first Whipped Cream.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#modifier_quantity_example1-4-co" className="">(4)</a></td>
-      <td className="">Quantity of the modifier. For example, one Whipped Cream.</td>
+      <td className=""><div className=""><a href="#modifier_quantity_example1-4-co" className="">(4)</a></div></td>
+      <td className=""><div className="">Quantity of the modifier. For example, one Whipped Cream.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#modifier_quantity_example1-5-co" className="">(5)</a></td>
-      <td className="">Another modifier with a quantity of one, specified in the <code className="">modifiers</code> array. For example, the second Whipped Cream.</td>
+      <td className=""><div className=""><a href="#modifier_quantity_example1-5-co" className="">(5)</a></div></td>
+      <td className=""><div className="">Another modifier with a quantity of one, specified in the <code className="">modifiers</code> array. For example, the second Whipped Cream.</div></td>
     </tr>
 ### Including default modifiers
 
@@ -534,48 +534,48 @@ The following example order JSON applies modifiers to portions of a menu item se
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1109D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(1)</a></td>
-      <td className="">The GUID of the menu group for this item selection. For example, this menu group might be "pizzas."</td>
+      <td className=""><div className=""><a href="#co-d1e1109D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(1)</a></div></td>
+      <td className=""><div className="">The GUID of the menu group for this item selection. For example, this menu group might be "pizzas."</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1111D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(2)</a></td>
-      <td className="">The GUID of the menu item for this item selection. For example, this menu item might be "cheese pizza."</td>
+      <td className=""><div className=""><a href="#co-d1e1111D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(2)</a></div></td>
+      <td className=""><div className="">The GUID of the menu item for this item selection. For example, this menu item might be "cheese pizza."</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1113D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(3)</a></td>
-      <td className="">Apply portions to the menu item selection in the <code className="">modifiers</code> value for that item.</td>
+      <td className=""><div className=""><a href="#co-d1e1113D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(3)</a></div></td>
+      <td className=""><div className="">Apply portions to the menu item selection in the <code className="">modifiers</code> value for that item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1115D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(4)</a></td>
-      <td className="">The GUID of one of the portions configured for this menu item. For example, this portion might be "half1."</td>
+      <td className=""><div className=""><a href="#co-d1e1115D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(4)</a></div></td>
+      <td className=""><div className="">The GUID of one of the portions configured for this menu item. For example, this portion might be "half1."</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#coSelectionTypePortion" className="">(5)</a></td>
-      <td className="">Include a <code className="">selectionType</code> value and include the value <code className="">PORTION</code>.</td>
+      <td className=""><div className=""><a href="#coSelectionTypePortion" className="">(5)</a></div></td>
+      <td className=""><div className="">Include a <code className="">selectionType</code> value and include the value <code className="">PORTION</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1117D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(6)</a></td>
-      <td className="">Apply modifiers to a portion in the <code className="">modifiers</code> value for that portion.</td>
+      <td className=""><div className=""><a href="#co-d1e1117D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(6)</a></div></td>
+      <td className=""><div className="">Apply modifiers to a portion in the <code className="">modifiers</code> value for that portion.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1120D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(8)</a></td>
-      <td className="">The GUID of the modifier group for this item selection. For example, this modifier group might be "pizza toppings."</td>
+      <td className=""><div className=""><a href="#co-d1e1120D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(8)</a></div></td>
+      <td className=""><div className="">The GUID of the modifier group for this item selection. For example, this modifier group might be "pizza toppings."</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1122D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(7)</a></td>
-      <td className="">The GUID of the modifier for this item selection. For example, this modifier might be "mushrooms."</td>
+      <td className=""><div className=""><a href="#co-d1e1122D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(7)</a></div></td>
+      <td className=""><div className="">The GUID of the modifier for this item selection. For example, this modifier might be "mushrooms."</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1124D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(9)</a></td>
-      <td className="">The GUID of another portion configured for this menu item. For example, this portion might be "half2."</td>
+      <td className=""><div className=""><a href="#co-d1e1124D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(9)</a></div></td>
+      <td className=""><div className="">The GUID of another portion configured for this menu item. For example, this portion might be "half2."</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#coSelectionTypePortion2" className="">(10)</a></td>
-      <td className="">Include a <code className="">selectionType</code> value and include the value <code className="">PORTION</code>.</td>
+      <td className=""><div className=""><a href="#coSelectionTypePortion2" className="">(10)</a></div></td>
+      <td className=""><div className="">Include a <code className="">selectionType</code> value and include the value <code className="">PORTION</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1126D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(11)</a></td>
-      <td className="">Apply modifiers to a portion in the <code className="">modifiers</code> value for that portion.</td>
+      <td className=""><div className=""><a href="#co-d1e1126D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(11)</a></div></td>
+      <td className=""><div className="">Apply modifiers to a portion in the <code className="">modifiers</code> value for that portion.</div></td>
     </tr>
 ## Special requests and instructions
 
@@ -637,14 +637,14 @@ The following example JSON message body for a `POST` request to the orders API i
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e121793B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(1)</a></td>
-      <td className="">Include special requests in the array of modifiers for a menu item selection.</td>
+      <td className=""><div className=""><a href="#co-d1e121793B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(1)</a></div></td>
+      <td className=""><div className="">Include special requests in the array of modifiers for a menu item selection.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e122193B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(2)</a></td>
-      <td className="">Set the <code className="">selectionType</code> value to <code className="">SPECIAL_REQUEST</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e122193B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(2)</a></div></td>
+      <td className=""><div className="">Set the <code className="">selectionType</code> value to <code className="">SPECIAL_REQUEST</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e121993B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(3)</a></td>
-      <td className="">In the <code className="">displayName</code> value, enter the request message.</td>
+      <td className=""><div className=""><a href="#co-d1e121993B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(3)</a></div></td>
+      <td className=""><div className="">In the <code className="">displayName</code> value, enter the request message.</div></td>
     </tr>

@@ -52,12 +52,12 @@ https://`[toast-api-hostname]`/restaurants/v1/groups/ae6c32fe-f4d2-4dcc-aa82-f30
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e84161282B4-F46D-4270-AE0F-A6973EF18C80" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of one restaurant location in the restaurant management group.</td>
+      <td className=""><div className=""><a href="#co-d1e84161282B4-F46D-4270-AE0F-A6973EF18C80" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of one restaurant location in the restaurant management group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e89161282B4-F46D-4270-AE0F-A6973EF18C80" className="">(2)</a></td>
-      <td className="">Specify the GUID of the restaurant management group from which to retrieve its restaurant locations.</td>
+      <td className=""><div className=""><a href="#co-d1e89161282B4-F46D-4270-AE0F-A6973EF18C80" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the GUID of the restaurant management group from which to retrieve its restaurant locations.</div></td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/groups/&#123;managementGroupGUID&#125;/restaurants`endpoint.
@@ -85,7 +85,7 @@ The following example shows the JSON response data for a GET request to the `/re
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e106161282B4-F46D-4270-AE0F-A6973EF18C80" className="">(1)</a></td>
-      <td className="">The <code className="">guid</code> value contains the unique Toast POS identifier for a restaurant location in the restaurant management group. In this example, the request returns four restaurant locations.</td>
+      <td className=""><div className=""><a href="#co-d1e106161282B4-F46D-4270-AE0F-A6973EF18C80" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the unique Toast POS identifier for a restaurant location in the restaurant management group. In this example, the request returns four restaurant locations.</div></td>
     </tr>
   

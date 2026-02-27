@@ -39,26 +39,26 @@ Before you can authenticate, you need API credentials. The way you get credentia
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Integration Type</th>
-      <th className="">Credentials</th>
+      <th className=""><div className="">Integration Type</div></th>
+      <th className=""><div className="">Credentials</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Partner integrations</td>
-      <td className="">Credentials are created by the Toast integrations team after your application has been reviewed and approved. For more information see, <a href="apiDevGuide-integrationDevProcess" className="">Integration partnership process</a>.</td>
+      <td className=""><div className="">Partner integrations</div></td>
+      <td className=""><div className="">Credentials are created by the Toast integrations team after your application has been reviewed and approved. For more information see, <a href="apiDevGuide-integrationDevProcess" className="">Integration partnership process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className="">Custom integrations</td>
-      <td className="">Credentials are created by the Toast integrations team after you have been approved for custom integration access. For more information see, <a href="apiDevGuide-apiCustomIntegrationOverview" className="">Custom integration overview</a>.</td>
+      <td className=""><div className="">Custom integrations</div></td>
+      <td className=""><div className="">Credentials are created by the Toast integrations team after you have been approved for custom integration access. For more information see, <a href="apiDevGuide-apiCustomIntegrationOverview" className="">Custom integration overview</a>.</div></td>
     </tr>
     <tr className="">
-      <td className="">Standard API access</td>
-      <td className="">You create your own credentials through Toast Web. For more information, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessCreatingCredentials" className="">Creating standard API access credentials</a>.</td>
+      <td className=""><div className="">Standard API access</div></td>
+      <td className=""><div className="">You create your own credentials through Toast Web. For more information, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessCreatingCredentials" className="">Creating standard API access credentials</a>.</div></td>
     </tr>
     <tr className="">
-      <td className="">Analytics API access</td>
-      <td className="">You create your own credentials through Toast Web. For more information, see <a href="apiDevGuide-apiAnalyticsAccessCreatingCredentials" className="">Creating analytics API access credentials</a>.</td>
+      <td className=""><div className="">Analytics API access</div></td>
+      <td className=""><div className="">You create your own credentials through Toast Web. For more information, see <a href="apiDevGuide-apiAnalyticsAccessCreatingCredentials" className="">Creating analytics API access credentials</a>.</div></td>
     </tr>
   </tbody>
 </table>
@@ -148,16 +148,16 @@ myToastApiClientSecret
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e98A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a></td>
-      <td className="">The identifier string for your Toast API client.</td>
+      <td className=""><div className=""><a href="#co-d1e98A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a></div></td>
+      <td className=""><div className="">The identifier string for your Toast API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e103A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a></td>
-      <td className="">The secret string that corresponds to your Toast API client.</td>
+      <td className=""><div className=""><a href="#co-d1e103A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a></div></td>
+      <td className=""><div className="">The secret string that corresponds to your Toast API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e105A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a></td>
-      <td className="">Always include the <code className="">userAccessType</code> value and set it to <code className="">TOAST_MACHINE_CLIENT</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e105A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a></div></td>
+      <td className=""><div className="">Always include the <code className="">userAccessType</code> value and set it to <code className="">TOAST_MACHINE_CLIENT</code>.</div></td>
     </tr>
   
 The following **curl** command requests an authentication token from the `/authentication/login` resource. For more information about the curl utility, see [https://curl.haxx.se/](https://curl.haxx.se/).
@@ -176,20 +176,20 @@ https://`[toast-api-hostname]`/authentication/v1/authentication/login
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a></td>
-      <td className="">Use the <code className="">POST</code> HTTP method to make an authentication request.</td>
+      <td className=""><div className=""><a href="#co-d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">POST</code> HTTP method to make an authentication request.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a></td>
-      <td className="">Include the HTTP <code className="">Content-Type</code> header field and set its value to <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a></div></td>
+      <td className=""><div className="">Include the HTTP <code className="">Content-Type</code> header field and set its value to <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a></td>
-      <td className="">Include a JSON object including your client identifier and client secret in the message body parameter. See <a href="apiDevGuide-authentication#apiMessageBodyParamForAuthenticationRequest" className="">Example 1.3, “Message body parameter for an <code className="">/authentication/login</code> endpoint request”</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a></div></td>
+      <td className=""><div className="">Include a JSON object including your client identifier and client secret in the message body parameter. See <a href="apiDevGuide-authentication#apiMessageBodyParamForAuthenticationRequest" className="">Example 1.3, “Message body parameter for an <code className="">/authentication/login</code> endpoint request”</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(4)</a></td>
-      <td className="">Send the request to the <code className="">/authentication/login</code> endpoint of the authentication API.</td>
+      <td className=""><div className=""><a href="#co-d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(4)</a></div></td>
+      <td className=""><div className="">Send the request to the <code className="">/authentication/login</code> endpoint of the authentication API.</div></td>
     </tr>
   
 ### Authentication return data
@@ -235,36 +235,36 @@ The authentication API returns the information shown in the following example fo
 
 
     <tr className="">
-      <td className=""><a href="#mg_co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a></td>
-      <td className="">For internal use.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a></div></td>
+      <td className=""><div className="">For internal use.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a></td>
-      <td className="">The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a></div></td>
+      <td className=""><div className="">The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a></td>
-      <td className="">The <code className="">scope</code> value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">scope</code> value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a></td>
-      <td className="">The number of remaining seconds that the authentication token is valid. For more information, see <a href="apiDevGuide-apiAuthTokenRefresh" className="">Refreshing authentication tokens</a>.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a></div></td>
+      <td className=""><div className="">The number of remaining seconds that the authentication token is valid. For more information, see <a href="apiDevGuide-apiAuthTokenRefresh" className="">Refreshing authentication tokens</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a></td>
-      <td className="">A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see <a href="apiDevGuide-authentication#apiAuthenticationJwtContentsPartner" className="">Example 1.6, “JWT payload contents for partner API client access token”</a>.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a></div></td>
+      <td className=""><div className="">A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see <a href="apiDevGuide-authentication#apiAuthenticationJwtContentsPartner" className="">Example 1.6, “JWT payload contents for partner API client access token”</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a></td>
-      <td className="">For internal use.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a></div></td>
+      <td className=""><div className="">For internal use.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a></td>
-      <td className="">For internal use.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a></div></td>
+      <td className=""><div className="">For internal use.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#mg_co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a></td>
-      <td className="">Indicates that your authentication request was successful.</td>
+      <td className=""><div className=""><a href="#mg_co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a></div></td>
+      <td className=""><div className="">Indicates that your authentication request was successful.</div></td>
     </tr>
   
 The following example shows the JWT payload contents for a partner API client access token.
@@ -292,52 +292,52 @@ The following example shows the JWT payload contents for a partner API client ac
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a></td>
-      <td className="">A human-readable name representing your API client.</td>
+      <td className=""><div className=""><a href="#co-d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a></div></td>
+      <td className=""><div className="">A human-readable name representing your API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a></td>
-      <td className="">The types of users that can authenticate through the system. For API clients, this is <code className="">TOAST_MACHINE_CLIENT</code>. <code className="">TOAST_MACHINE_CLIENT</code> represents the type of access credentials issued to services that use Toast APIs. </td>
+      <td className=""><div className=""><a href="#co-d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a></div></td>
+      <td className=""><div className="">The types of users that can authenticate through the system. For API clients, this is <code className="">TOAST_MACHINE_CLIENT</code>. <code className="">TOAST_MACHINE_CLIENT</code> represents the type of access credentials issued to services that use Toast APIs. </div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a></td>
-      <td className="">The unique Toast platform identifier for the integration partner organization.</td>
+      <td className=""><div className=""><a href="#co-d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a></div></td>
+      <td className=""><div className="">The unique Toast platform identifier for the integration partner organization.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a></td>
-      <td className="">The type of client requesting authentication. For partner API clients, this is <code className="">PARTNER</code>. </td>
+      <td className=""><div className=""><a href="#co-d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a></div></td>
+      <td className=""><div className="">The type of client requesting authentication. For partner API clients, this is <code className="">PARTNER</code>. </div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a></td>
-      <td className="">The issuer of the authentication token.</td>
+      <td className=""><div className=""><a href="#co-d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a></div></td>
+      <td className=""><div className="">The issuer of the authentication token.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a></td>
-      <td className="">The subject of the token being issued. This value will be set to your client identifier and the string <code className="">@clients</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a></div></td>
+      <td className=""><div className="">The subject of the token being issued. This value will be set to your client identifier and the string <code className="">@clients</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a></td>
-      <td className="">The intended audience of your API usage.</td>
+      <td className=""><div className=""><a href="#co-d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a></div></td>
+      <td className=""><div className="">The intended audience of your API usage.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a></td>
-      <td className="">A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</td>
+      <td className=""><div className=""><a href="#co-d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a></div></td>
+      <td className=""><div className="">A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a></td>
-      <td className="">A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</td>
+      <td className=""><div className=""><a href="#co-d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a></div></td>
+      <td className=""><div className="">A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a></td>
-      <td className="">A standard JWT claim containing the identifier for the Toast API client.</td>
+      <td className=""><div className=""><a href="#co-d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a></div></td>
+      <td className=""><div className="">A standard JWT claim containing the identifier for the Toast API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a></td>
-      <td className="">The API functionality that your client ID is provisioned to use. For more information about API scopes, see <a href="apiDevGuide-apiScopes" className="">API scopes page</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a></div></td>
+      <td className=""><div className="">The API functionality that your client ID is provisioned to use. For more information about API scopes, see <a href="apiDevGuide-apiScopes" className="">API scopes page</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a></td>
-      <td className="">The grant type of this API client. This value will be <code className="">client-credentials</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a></div></td>
+      <td className=""><div className="">The grant type of this API client. This value will be <code className="">client-credentials</code>.</div></td>
     </tr>
   
 #### Authentication return data for a restaurant management group API client
@@ -379,36 +379,36 @@ The authentication API returns the information shown in the following example fo
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a></td>
-      <td className="">For internal use.</td>
+      <td className=""><div className=""><a href="#co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a></div></td>
+      <td className=""><div className="">For internal use.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a></td>
-      <td className="">The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</td>
+      <td className=""><div className=""><a href="#co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a></div></td>
+      <td className=""><div className="">The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a></td>
-      <td className="">The <code className="">scope</code> value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</td>
+      <td className=""><div className=""><a href="#co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">scope</code> value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a></td>
-      <td className="">The number of remaining seconds that the authentication token is valid. For more information, see <a href="apiDevGuide-apiAuthTokenRefresh" className="">Refreshing authentication tokens</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a></div></td>
+      <td className=""><div className="">The number of remaining seconds that the authentication token is valid. For more information, see <a href="apiDevGuide-apiAuthTokenRefresh" className="">Refreshing authentication tokens</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a></td>
-      <td className="">A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see <a href="apiDevGuide-authentication#apiAuthenticationJwtContentsRMG" className="">Example 1.8, “JWT payload contents for restaurant management group API client access token”</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a></div></td>
+      <td className=""><div className="">A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see <a href="apiDevGuide-authentication#apiAuthenticationJwtContentsRMG" className="">Example 1.8, “JWT payload contents for restaurant management group API client access token”</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a></td>
-      <td className="">For internal use.</td>
+      <td className=""><div className=""><a href="#co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a></div></td>
+      <td className=""><div className="">For internal use.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a></td>
-      <td className="">For internal use.</td>
+      <td className=""><div className=""><a href="#co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a></div></td>
+      <td className=""><div className="">For internal use.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a></td>
-      <td className="">Indicates that your authentication request was successful.</td>
+      <td className=""><div className=""><a href="#co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a></div></td>
+      <td className=""><div className="">Indicates that your authentication request was successful.</div></td>
     </tr>
   
 The following example shows the JWT payload contents for a restaurant management group API client access token.
@@ -436,52 +436,52 @@ The following example shows the JWT payload contents for a restaurant management
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a></td>
-      <td className="">A human-readable name representing your API client.</td>
+      <td className=""><div className=""><a href="#co-d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a></div></td>
+      <td className=""><div className="">A human-readable name representing your API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a></td>
-      <td className="">The types of users that can authenticate through the system. For API clients, this is <code className="">TOAST_MACHINE_CLIENT</code>. <code className="">TOAST_MACHINE_CLIENT</code> represents the type of access credentials issued to services that use Toast APIs. </td>
+      <td className=""><div className=""><a href="#co-d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a></div></td>
+      <td className=""><div className="">The types of users that can authenticate through the system. For API clients, this is <code className="">TOAST_MACHINE_CLIENT</code>. <code className="">TOAST_MACHINE_CLIENT</code> represents the type of access credentials issued to services that use Toast APIs. </div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a></td>
-      <td className="">The unique Toast platform identifier for the restaurant management group this client can access.</td>
+      <td className=""><div className=""><a href="#co-d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a></div></td>
+      <td className=""><div className="">The unique Toast platform identifier for the restaurant management group this client can access.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a></td>
-      <td className="">The type of client requesting authentication. For restaurant management group API clients, this is <code className="">CUSTOMER</code>. </td>
+      <td className=""><div className=""><a href="#co-d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a></div></td>
+      <td className=""><div className="">The type of client requesting authentication. For restaurant management group API clients, this is <code className="">CUSTOMER</code>. </div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a></td>
-      <td className="">The issuer of the authentication token.</td>
+      <td className=""><div className=""><a href="#co-d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a></div></td>
+      <td className=""><div className="">The issuer of the authentication token.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a></td>
-      <td className="">The subject of the token being issued. This value will be set to your client identifier and the string <code className="">@clients</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a></div></td>
+      <td className=""><div className="">The subject of the token being issued. This value will be set to your client identifier and the string <code className="">@clients</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a></td>
-      <td className="">The intended audience of your API usage.</td>
+      <td className=""><div className=""><a href="#co-d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a></div></td>
+      <td className=""><div className="">The intended audience of your API usage.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a></td>
-      <td className="">A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</td>
+      <td className=""><div className=""><a href="#co-d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a></div></td>
+      <td className=""><div className="">A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a></td>
-      <td className="">A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</td>
+      <td className=""><div className=""><a href="#co-d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a></div></td>
+      <td className=""><div className="">A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a></td>
-      <td className="">A standard JWT claim containing the identifier for the Toast API client.</td>
+      <td className=""><div className=""><a href="#co-d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a></div></td>
+      <td className=""><div className="">A standard JWT claim containing the identifier for the Toast API client.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a></td>
-      <td className="">The API functionality that your client ID is provisioned to use. For more information about API scopes, see the <a href="apiDevGuide-apiScopes" className="">API scopes page</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a></div></td>
+      <td className=""><div className="">The API functionality that your client ID is provisioned to use. For more information about API scopes, see the <a href="apiDevGuide-apiScopes" className="">API scopes page</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a></td>
-      <td className="">The grant type of this API client. This value will be <code className="">client-credentials</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a></div></td>
+      <td className=""><div className="">The grant type of this API client. This value will be <code className="">client-credentials</code>.</div></td>
     </tr>
   
 ## Using an authentication token

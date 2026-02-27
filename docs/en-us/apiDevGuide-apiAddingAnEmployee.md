@@ -56,16 +56,16 @@ https://`[toast-api-hostname]`/labor/v1/employees
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e17121EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a></td>
-      <td className="">Specify the GUID of the restaurant that you want to add an employee to. This must be an individual restaurant, not the GUID for a restaurant group.</td>
+      <td className=""><div className=""><a href="#co-d1e17121EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a></div></td>
+      <td className=""><div className="">Specify the GUID of the restaurant that you want to add an employee to. This must be an individual restaurant, not the GUID for a restaurant group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e17321EC7EA2-706D-4B5B-B210-636982B89D94" className="">(2)</a></td>
-      <td className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e17321EC7EA2-706D-4B5B-B210-636982B89D94" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e17521EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a></td>
-      <td className="">Include information about the new employee in the message body of the <code className="">POST</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of a file.</td>
+      <td className=""><div className=""><a href="#co-d1e17521EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a></div></td>
+      <td className=""><div className="">Include information about the new employee in the message body of the <code className="">POST</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of a file.</div></td>
     </tr>
   
 ## Example employee details for the request to add an employee
@@ -97,32 +97,32 @@ The following example shows the message body data that provides information abou
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e900FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(1)</a></td>
-      <td className="">Specify the data type of the Toast platform input object. The value must be <code className="">RestaurantUser</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e900FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(1)</a></div></td>
+      <td className=""><div className="">Specify the data type of the Toast platform input object. The value must be <code className="">RestaurantUser</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e902FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(2)</a></td>
-      <td className="">Specify an email address for the employee. Email addresses for employees must be unique. If you specify an email address that is in use by an employee, the request fails with an HTTP 400 (bad request) response.</td>
+      <td className=""><div className=""><a href="#co-d1e902FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify an email address for the employee. Email addresses for employees must be unique. If you specify an email address that is in use by an employee, the request fails with an HTTP 400 (bad request) response.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e904FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(3)</a></td>
-      <td className="">Specify the first name of the employee.</td>
+      <td className=""><div className=""><a href="#co-d1e904FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(3)</a></div></td>
+      <td className=""><div className="">Specify the first name of the employee.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e906FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(4)</a></td>
-      <td className="">Specify the last name of the employee.</td>
+      <td className=""><div className=""><a href="#co-d1e906FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(4)</a></div></td>
+      <td className=""><div className="">Specify the last name of the employee.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e908FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(5)</a></td>
-      <td className="">External identifier string that is prefixed by the naming authority. The <code className="">externalId</code> must be unique. If you specify an <code className="">externalId</code> that is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see <a href="apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers" className="">External identifiers</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e908FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(5)</a></div></td>
+      <td className=""><div className="">External identifier string that is prefixed by the naming authority. The <code className="">externalId</code> must be unique. If you specify an <code className="">externalId</code> that is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see <a href="apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers" className="">External identifiers</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e911FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(6)</a></td>
-      <td className="">You can specify the initial Toast platform passcode number for the employee. This value is optional.</td>
+      <td className=""><div className=""><a href="#co-d1e911FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(6)</a></div></td>
+      <td className=""><div className="">You can specify the initial Toast platform passcode number for the employee. This value is optional.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e913FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(7)</a></td>
-      <td className="">You can specify the job for the new employee. This value is optional. To assign a job, you need the Toast platform GUID or the external identifier for the job.</td>
+      <td className=""><div className=""><a href="#co-d1e913FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(7)</a></div></td>
+      <td className=""><div className="">You can specify the job for the new employee. This value is optional. To assign a job, you need the Toast platform GUID or the external identifier for the job.</div></td>
     </tr>
   
 ## Example response
@@ -162,15 +162,15 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e21821EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a></td>
-      <td className="">The <code className="">guid</code> value contains the GUID value that the Toast platform assigns to the new employee.</td>
+      <td className=""><div className=""><a href="#co-d1e21821EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the GUID value that the Toast platform assigns to the new employee.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-add-employee-job" className="">(2)</a></td>
-      <td className="">If you assign a job to the new employee, the response will return the job. This is optional.</td>
+      <td className=""><div className=""><a href="#co-add-employee-job" className="">(2)</a></div></td>
+      <td className=""><div className="">If you assign a job to the new employee, the response will return the job. This is optional.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e22021EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a></td>
-      <td className="">If you assign an initial pass code to the new employee, the employee is able to log in to the Toast platform. This is optional.</td>
+      <td className=""><div className=""><a href="#co-d1e22021EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a></div></td>
+      <td className=""><div className="">If you assign an initial pass code to the new employee, the employee is able to log in to the Toast platform. This is optional.</div></td>
     </tr>
   

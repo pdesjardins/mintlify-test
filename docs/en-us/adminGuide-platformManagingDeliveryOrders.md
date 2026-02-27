@@ -62,42 +62,42 @@ When your restaurant fulfills a guest delivery order using Toast Delivery Servic
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Status</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Status</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">DRIVER REQUESTED </td>
-      <td className="">A new delivery person has been requested and dispatched to pick up and deliver the order. </td>
+      <td className=""><div className="">DRIVER REQUESTED </div></td>
+      <td className=""><div className="">A new delivery person has been requested and dispatched to pick up and deliver the order. </div></td>
     </tr>
     <tr className="">
-      <td className="">EN ROUTE TO RESTAURANT - ETA HH:MM </td>
-      <td className="">A delivery person has been assigned to the order and is on their way to pick up the order.</td>
+      <td className=""><div className="">EN ROUTE TO RESTAURANT - ETA HH:MM </div></td>
+      <td className=""><div className="">A delivery person has been assigned to the order and is on their way to pick up the order.</div></td>
     </tr>
     <tr className="">
-      <td className="">HERE FOR PICKUP </td>
-      <td className="">The delivery person has arrived at the restaurant and is ready to pick up the order.</td>
+      <td className=""><div className="">HERE FOR PICKUP </div></td>
+      <td className=""><div className="">The delivery person has arrived at the restaurant and is ready to pick up the order.</div></td>
     </tr>
     <tr className="">
-      <td className="">DRIVING TO DROP OFF </td>
-      <td className="">The delivery person is on their way to drop off the guest’s order.</td>
+      <td className=""><div className="">DRIVING TO DROP OFF </div></td>
+      <td className=""><div className="">The delivery person is on their way to drop off the guest’s order.</div></td>
     </tr>
     <tr className="">
-      <td className="">DROPPING OFF - ETA HH:MM</td>
-      <td className="">The delivery person is to drop off the guest’s order by an estimated time. </td>
+      <td className=""><div className="">DROPPING OFF - ETA HH:MM</div></td>
+      <td className=""><div className="">The delivery person is to drop off the guest’s order by an estimated time. </div></td>
     </tr>
     <tr className="">
-      <td className="">DELIVERED </td>
-      <td className="">The delivery person delivered the guest’s order at the requested address.</td>
+      <td className=""><div className="">DELIVERED </div></td>
+      <td className=""><div className="">The delivery person delivered the guest’s order at the requested address.</div></td>
     </tr>
     <tr className="">
-      <td className="">DELIVERY CANCELLED </td>
-      <td className="">The delivery person who was previously assigned to pick up this order has cancelled the pick up. <br/> Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </td>
+      <td className=""><div className="">DELIVERY CANCELLED </div></td>
+      <td className=""><div className="">The delivery person who was previously assigned to pick up this order has cancelled the pick up. <br/> Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </div></td>
     </tr>
     <tr className="">
-      <td className="">UNDELIVERABLE</td>
-      <td className="">The delivery person was unable to locate your delivery location. </td>
+      <td className=""><div className="">UNDELIVERABLE</div></td>
+      <td className=""><div className="">The delivery person was unable to locate your delivery location. </div></td>
     </tr>
   </tbody>
 </table>

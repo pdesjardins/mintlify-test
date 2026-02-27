@@ -31,16 +31,16 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e6065F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></td>
-      <td className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/menu</code> endpoint of the analytics API.</td>
+      <td className=""><div className=""><a href="#co-d1e6065F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
+      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/menu</code> endpoint of the analytics API.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e6067F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></td>
-      <td className="">Include the GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e6067F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></div></td>
+      <td className=""><div className="">Include the GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e6069F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></td>
-      <td className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</td>
+      <td className=""><div className=""><a href="#co-d1e6069F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></div></td>
+      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
     </tr>
 ## Response to the retrieval request for menu reporting data
 

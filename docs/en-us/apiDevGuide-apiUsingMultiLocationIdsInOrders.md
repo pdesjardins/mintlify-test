@@ -90,28 +90,28 @@ The following example shows a request to the `/orders`endpoint that uses `multiL
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e1951635951163" className="">(1)</a></td>
-      <td className="">The <code className="">Order</code> object that defines the order being submitted.</td>
+      <td className=""><div className=""><a href="#co-d1e1951635951163" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">Order</code> object that defines the order being submitted.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1971635951163" className="">(2)</a></td>
-      <td className="">The parent menu group for a menu item to submit in this order. For example, Salads.</td>
+      <td className=""><div className=""><a href="#co-d1e1971635951163" className="">(2)</a></div></td>
+      <td className=""><div className="">The parent menu group for a menu item to submit in this order. For example, Salads.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e1991635951163" className="">(3)</a></td>
-      <td className="">The menu item included in this order. For example, Dinner Salad.</td>
+      <td className=""><div className=""><a href="#co-d1e1991635951163" className="">(3)</a></div></td>
+      <td className=""><div className="">The menu item included in this order. For example, Dinner Salad.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2011635951163" className="">(4)</a></td>
-      <td className="">A modifier group for the Dinner Salad menu item. For example, Salad Dressing.</td>
+      <td className=""><div className=""><a href="#co-d1e2011635951163" className="">(4)</a></div></td>
+      <td className=""><div className="">A modifier group for the Dinner Salad menu item. For example, Salad Dressing.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2031635951163" className="">(5)</a></td>
-      <td className="">A modifier for the Dinner Salad menu item. For example, Balsamic Vinaigrette.</td>
+      <td className=""><div className=""><a href="#co-d1e2031635951163" className="">(5)</a></div></td>
+      <td className=""><div className="">A modifier for the Dinner Salad menu item. For example, Balsamic Vinaigrette.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2061635951163" className="">(6)</a></td>
-      <td className="">The guest who is placing the order.</td>
+      <td className=""><div className=""><a href="#co-d1e2061635951163" className="">(6)</a></div></td>
+      <td className=""><div className="">The guest who is placing the order.</div></td>
     </tr>
 ## Example Order object with both identifiers in an orders API response
 
@@ -204,18 +204,18 @@ The following example response shows how both identifiers are provided for each 
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e2731635951163" className="">(1)</a></td>
-      <td className="">The <code className="">multiLocationId</code> for the modifier group. For example, Salad Dressing.</td>
+      <td className=""><div className=""><a href="#co-d1e2731635951163" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> for the modifier group. For example, Salad Dressing.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2791635951163" className="">(2)</a></td>
-      <td className="">The <code className="">multiLocationId</code> for the modifier. For example, Balsamic Vinaigrette.</td>
+      <td className=""><div className=""><a href="#co-d1e2791635951163" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> for the modifier. For example, Balsamic Vinaigrette.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2871635951163" className="">(3)</a></td>
-      <td className="">The <code className="">multiLocationId</code> for the menu group. For example, Salads.</td>
+      <td className=""><div className=""><a href="#co-d1e2871635951163" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> for the menu group. For example, Salads.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e2891635951163" className="">(4)</a></td>
-      <td className="">The <code className="">multiLocationId</code> for the menu item. For example, Dinner Salad.</td>
+      <td className=""><div className=""><a href="#co-d1e2891635951163" className="">(4)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> for the menu item. For example, Dinner Salad.</div></td>
     </tr>

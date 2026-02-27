@@ -31,36 +31,36 @@ The channel visibility settings reside on a menu entity's details page in Toast 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Classic menus setting</th>
-      <th className="">Menu builder setting</th>
-      <th className="">Menus API visibility array enum</th>
-      <th className="">Description</th>
+      <th className=""><div className="">Classic menus setting</div></th>
+      <th className=""><div className="">Menu builder setting</div></th>
+      <th className=""><div className="">Menus API visibility array enum</div></th>
+      <th className=""><div className="">Description</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">In-store orders: POS</td>
-      <td className="">POS</td>
-      <td className=""><code className="">POS</code></td>
-      <td className="">The menu entity is visible on a Toast POS device.</td>
+      <td className=""><div className="">In-store orders: POS</div></td>
+      <td className=""><div className="">POS</div></td>
+      <td className=""><div className=""><code className="">POS</code></div></td>
+      <td className=""><div className="">The menu entity is visible on a Toast POS device.</div></td>
     </tr>
     <tr className="">
-      <td className="">In-store orders: Kiosk</td>
-      <td className="">Kiosk, Toast Order and Pay</td>
-      <td className=""><code className="">KIOSK</code></td>
-      <td className="">The menu entity is visible on a Toast Kiosk.</td>
+      <td className=""><div className="">In-store orders: Kiosk</div></td>
+      <td className=""><div className="">Kiosk, Toast Order and Pay</div></td>
+      <td className=""><div className=""><code className="">KIOSK</code></div></td>
+      <td className=""><div className="">The menu entity is visible on a Toast Kiosk.</div></td>
     </tr>
     <tr className="">
-      <td className="">Online orders: Toast</td>
-      <td className="">Toast Online Ordering, Toast Takeout (Local by Toast) app</td>
-      <td className=""><code className="">TOAST_ONLINE_ORDERING</code></td>
-      <td className="">The menu entity is visible on a restaurant's Toast online ordering site.</td>
+      <td className=""><div className="">Online orders: Toast</div></td>
+      <td className=""><div className="">Toast Online Ordering, Toast Takeout (Local by Toast) app</div></td>
+      <td className=""><div className=""><code className="">TOAST_ONLINE_ORDERING</code></div></td>
+      <td className=""><div className="">The menu entity is visible on a restaurant's Toast online ordering site.</div></td>
     </tr>
     <tr className="">
-      <td className="">Online orders: Ordering partners</td>
-      <td className="">Online ordering partners</td>
-      <td className=""><code className="">ORDERING_PARTNERS</code></td>
-      <td className="">The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</td>
+      <td className=""><div className="">Online orders: Ordering partners</div></td>
+      <td className=""><div className="">Online ordering partners</div></td>
+      <td className=""><div className=""><code className="">ORDERING_PARTNERS</code></div></td>
+      <td className=""><div className="">The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</div></td>
     </tr>
   </tbody>
 </table>

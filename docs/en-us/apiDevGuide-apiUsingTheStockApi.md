@@ -140,8 +140,8 @@ https://`[toast-api-hostname]`/stock/v1/inventory
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve menu item inventories. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+      <td className=""><div className=""><a href="#co-d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve menu item inventories. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</div></td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/inventory` endpoint.
@@ -178,24 +178,24 @@ The following example shows the JSON response data for a GET request to the `/in
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e4531646253216" className="">(1)</a></td>
-      <td className="">The <code className="">GET</code> request returns a JSON array of menu item inventory objects containing information on menu items with a status of <code className="">QUANTITY</code> or <code className="">OUT_OF_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e4531646253216" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">GET</code> request returns a JSON array of menu item inventory objects containing information on menu items with a status of <code className="">QUANTITY</code> or <code className="">OUT_OF_STOCK</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4551646253216" className="">(2)</a></td>
-      <td className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e4551646253216" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4571646253216" className="">(3)</a></td>
-      <td className="">The <code className="">status</code> value is <code className="">QUANTITY</code> or <code className="">OUT_OF_STOCK</code>. The <code className="">/inventory</code> endpoint only returns information for menu items that have a stock status of <code className="">QUANTITY</code> or <code className="">OUT_OF_STOCK</code>. The endpoint does not return information for menu items that have an <code className="">IN_STOCK</code> status.</td>
+      <td className=""><div className=""><a href="#co-d1e4571646253216" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">status</code> value is <code className="">QUANTITY</code> or <code className="">OUT_OF_STOCK</code>. The <code className="">/inventory</code> endpoint only returns information for menu items that have a stock status of <code className="">QUANTITY</code> or <code className="">OUT_OF_STOCK</code>. The endpoint does not return information for menu items that have an <code className="">IN_STOCK</code> status.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4591646253216" className="">(4)</a></td>
-      <td className="">The <code className="">multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code className="">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</td>
+      <td className=""><div className=""><a href="#co-d1e4591646253216" className="">(4)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code className="">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e4611646253216" className="">(5)</a></td>
-      <td className="">The <code className="">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="">QUANTITY</code>. The <code className="">quantity</code> value is <code className="">null</code> for menu items with an <code className="">OUT_OF_STOCK</code> inventory status.</td>
+      <td className=""><div className=""><a href="#co-d1e4611646253216" className="">(5)</a></div></td>
+      <td className=""><div className="">The <code className="">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="">QUANTITY</code>. The <code className="">quantity</code> value is <code className="">null</code> for menu items with an <code className="">OUT_OF_STOCK</code> inventory status.</div></td>
     </tr>
   
 ## Getting inventory by status
@@ -247,12 +247,12 @@ https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</td>
+      <td className=""><div className=""><a href="#co-d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(2)</a></td>
-      <td className="">Specify <code className="">status=OUT_OF_STOCK</code> to retrieve menu items that are not in stock.</td>
+      <td className=""><div className=""><a href="#co-d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify <code className="">status=OUT_OF_STOCK</code> to retrieve menu items that are not in stock.</div></td>
     </tr>
   
 The following example shows the JSON response for the `GET` request.
@@ -282,24 +282,24 @@ The following example shows the JSON response for the `GET` request.
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e7091646253216" className="">(1)</a></td>
-      <td className="">This <code className="">GET</code> request returns a JSON array of menu item inventory objects for menu items with a status of <code className="">OUT_OF_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e7091646253216" className="">(1)</a></div></td>
+      <td className=""><div className="">This <code className="">GET</code> request returns a JSON array of menu item inventory objects for menu items with a status of <code className="">OUT_OF_STOCK</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7111646253216" className="">(2)</a></td>
-      <td className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e7111646253216" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7131646253216" className="">(3)</a></td>
-      <td className="">The <code className="">status</code> value is <code className="">OUT_OF_STOCK</code> for the menu item. The <code className="">status</code> value would be <code className="">QUANTITY</code> if you had specified <code className="">status=QUANTITY</code> as the request parameter.</td>
+      <td className=""><div className=""><a href="#co-d1e7131646253216" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">status</code> value is <code className="">OUT_OF_STOCK</code> for the menu item. The <code className="">status</code> value would be <code className="">QUANTITY</code> if you had specified <code className="">status=QUANTITY</code> as the request parameter.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7151646253216" className="">(4)</a></td>
-      <td className="">The <code className="">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="">QUANTITY</code>, and is <code className="">null</code> for menu items with an <code className="">OUT_OF_STOCK</code> inventory status.</td>
+      <td className=""><div className=""><a href="#co-d1e7151646253216" className="">(4)</a></div></td>
+      <td className=""><div className="">The <code className="">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="">QUANTITY</code>, and is <code className="">null</code> for menu items with an <code className="">OUT_OF_STOCK</code> inventory status.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e7171646253216" className="">(5)</a></td>
-      <td className="">The <code className="">multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code className="">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</td>
+      <td className=""><div className=""><a href="#co-d1e7171646253216" className="">(5)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code className="">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</div></td>
     </tr>
   
 ## Searching inventory for specific menu items
@@ -382,16 +382,16 @@ https://`[toast-api-hostname]`/stock/v1/inventory/search
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e41779DA0981-6707-46FB-8E99-12EF303F8E00" className="">(1)</a></td>
-      <td className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</td>
+      <td className=""><div className=""><a href="#co-d1e41779DA0981-6707-46FB-8E99-12EF303F8E00" className="">(1)</a></div></td>
+      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e41979DA0981-6707-46FB-8E99-12EF303F8E00" className="">(2)</a></td>
-      <td className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e41979DA0981-6707-46FB-8E99-12EF303F8E00" className="">(2)</a></div></td>
+      <td className=""><div className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00" className="">(3)</a></td>
-      <td className="">Include the menu item list in the message body of the <code className="">POST</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of the <code className="">my-item-search-data.json</code> file.</td>
+      <td className=""><div className=""><a href="#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00" className="">(3)</a></div></td>
+      <td className=""><div className="">Include the menu item list in the message body of the <code className="">POST</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of the <code className="">my-item-search-data.json</code> file.</div></td>
     </tr>
   
 The following example shows the JSON response data for a `POST` request to the `/inventory/search` resource.
@@ -439,31 +439,31 @@ The following example shows the JSON response data for a `POST` request to the `
 
 
     <tr className="">
-      <td className=""><a href="#co-d1e11941724334625" className="">(1)</a></td>
-      <td className="">The <code className="">GET</code> request returns a JSON array of menu item inventory objects for the requested menu items.</td>
+      <td className=""><div className=""><a href="#co-d1e11941724334625" className="">(1)</a></div></td>
+      <td className=""><div className="">The <code className="">GET</code> request returns a JSON array of menu item inventory objects for the requested menu items.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11961724334625" className="">(2)</a></td>
-      <td className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e11961724334625" className="">(2)</a></div></td>
+      <td className=""><div className="">The <code className="">guid</code> value contains the unique Toast platform identifier for the menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e11981724334625" className="">(3)</a></td>
-      <td className="">The <code className="">status</code> value is one of <code className="">QUANTITY</code>, <code className="">OUT_OF_STOCK</code>, or <code className="">IN_STOCK</code>.</td>
+      <td className=""><div className=""><a href="#co-d1e11981724334625" className="">(3)</a></div></td>
+      <td className=""><div className="">The <code className="">status</code> value is one of <code className="">QUANTITY</code>, <code className="">OUT_OF_STOCK</code>, or <code className="">IN_STOCK</code>.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e12001724334625" className="">(4)</a></td>
-      <td className="">The <code className="">multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code className="">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</td>
+      <td className=""><div className=""><a href="#co-d1e12001724334625" className="">(4)</a></div></td>
+      <td className=""><div className="">The <code className="">multiLocationId</code> value for the menu item. <br/> Toast support recommends using a combination of a menu item's <code className="">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e12021724334625" className="">(5)</a></td>
-      <td className="">The <code className="">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="">QUANTITY</code>, and is <code className="">null</code> for <code className="">OUT_OF_STOCK</code> and <code className="">IN_STOCK</code> menu items.</td>
+      <td className=""><div className=""><a href="#co-d1e12021724334625" className="">(5)</a></div></td>
+      <td className=""><div className="">The <code className="">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="">QUANTITY</code>, and is <code className="">null</code> for <code className="">OUT_OF_STOCK</code> and <code className="">IN_STOCK</code> menu items.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e12051724334625" className="">(6)</a></td>
-      <td className="">An example of a <code className="">guid</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e12051724334625" className="">(6)</a></div></td>
+      <td className=""><div className="">An example of a <code className="">guid</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</div></td>
     </tr>
     <tr className="">
-      <td className=""><a href="#co-d1e12071724334625" className="">(7)</a></td>
-      <td className="">An example of a <code className="">multiLocationId</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</td>
+      <td className=""><div className=""><a href="#co-d1e12071724334625" className="">(7)</a></div></td>
+      <td className=""><div className="">An example of a <code className="">multiLocationId</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</div></td>
     </tr>
   

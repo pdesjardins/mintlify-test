@@ -138,26 +138,26 @@ For scenarios where the price of a modifier is determined by the size of the men
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Menu Item Sizes</th>
-      <th className="">Modifier Sizes</th>
+      <th className=""><div className="">Menu Item Sizes</div></th>
+      <th className=""><div className="">Modifier Sizes</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Small</td>
-      <td className="">Small</td>
+      <td className=""><div className="">Small</div></td>
+      <td className=""><div className="">Small</div></td>
     </tr>
     <tr className="">
-      <td className="">Medium</td>
-      <td className="">Medium</td>
+      <td className=""><div className="">Medium</div></td>
+      <td className=""><div className="">Medium</div></td>
     </tr>
     <tr className="">
-      <td className="">Large</td>
-      <td className="">Large</td>
+      <td className=""><div className="">Large</div></td>
+      <td className=""><div className="">Large</div></td>
     </tr>
     <tr className="">
-      <td className="">XLarge</td>
-      <td className="">XLarge</td>
+      <td className=""><div className="">XLarge</div></td>
+      <td className=""><div className="">XLarge</div></td>
     </tr>
   </tbody>
 </table>
@@ -170,26 +170,26 @@ This configuration *is not acceptable*because the size names not match:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Menu Item Sizes</th>
-      <th className="">Modifier Sizes</th>
+      <th className=""><div className="">Menu Item Sizes</div></th>
+      <th className=""><div className="">Modifier Sizes</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Small</td>
-      <td className="">Sm</td>
+      <td className=""><div className="">Small</div></td>
+      <td className=""><div className="">Sm</div></td>
     </tr>
     <tr className="">
-      <td className="">Medium</td>
-      <td className="">Med</td>
+      <td className=""><div className="">Medium</div></td>
+      <td className=""><div className="">Med</div></td>
     </tr>
     <tr className="">
-      <td className="">Large</td>
-      <td className="">Lg</td>
+      <td className=""><div className="">Large</div></td>
+      <td className=""><div className="">Lg</div></td>
     </tr>
     <tr className="">
-      <td className="">XLarge</td>
-      <td className="">XLg</td>
+      <td className=""><div className="">XLarge</div></td>
+      <td className=""><div className="">XLg</div></td>
     </tr>
   </tbody>
 </table>
@@ -202,26 +202,26 @@ This configuration *is not acceptable*because XLarge is missing from the modifie
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Menu Item Sizes</th>
-      <th className="">Modifier Sizes</th>
+      <th className=""><div className="">Menu Item Sizes</div></th>
+      <th className=""><div className="">Modifier Sizes</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">Small</td>
-      <td className="">Small</td>
+      <td className=""><div className="">Small</div></td>
+      <td className=""><div className="">Small</div></td>
     </tr>
     <tr className="">
-      <td className="">Medium</td>
-      <td className="">Medium</td>
+      <td className=""><div className="">Medium</div></td>
+      <td className=""><div className="">Medium</div></td>
     </tr>
     <tr className="">
-      <td className="">Large</td>
-      <td className="">Large</td>
+      <td className=""><div className="">Large</div></td>
+      <td className=""><div className="">Large</div></td>
     </tr>
     <tr className="">
-      <td className="">XLarge</td>
-      <td className=""></td>
+      <td className=""><div className="">XLarge</div></td>
+      <td className=""><div className=""></div></td>
     </tr>
   </tbody>
 </table>

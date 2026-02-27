@@ -41,25 +41,25 @@ There are three levels of access:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className="">Permission</th>
-      <th className="">Ownership</th>
+      <th className=""><div className="">Permission</div></th>
+      <th className=""><div className="">Ownership</div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="">8.4 Manage Integrations permission</td>
-      <td className="">You created the credentials.</td>
-      <td className="">You did not create the credentials.</td>
+      <td className=""><div className="">8.4 Manage Integrations permission</div></td>
+      <td className=""><div className="">You created the credentials.</div></td>
+      <td className=""><div className="">You did not create the credentials.</div></td>
     </tr>
     <tr className="">
-      <td className="">You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
-      <td className="">Full access  <br/> Allows for editing and reading of credentials.</td>
-      <td className="">Full access <br/> Allows for editing and reading of credentials.</td>
+      <td className=""><div className="">You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</div></td>
+      <td className=""><div className="">Full access  <br/> Allows for editing and reading of credentials.</div></td>
+      <td className=""><div className="">Full access <br/> Allows for editing and reading of credentials.</div></td>
     </tr>
     <tr className="">
-      <td className="">You do <em className="">not</em>  have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</td>
-      <td className="">Read-only <br/> Allows for reading of credentials.</td>
-      <td className="">Locked <br/> Does not allow for editing or reading of credentials.</td>
+      <td className=""><div className="">You do <em className="">not</em>  have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</div></td>
+      <td className=""><div className="">Read-only <br/> Allows for reading of credentials.</div></td>
+      <td className=""><div className="">Locked <br/> Does not allow for editing or reading of credentials.</div></td>
     </tr>
   </tbody>
 </table>
