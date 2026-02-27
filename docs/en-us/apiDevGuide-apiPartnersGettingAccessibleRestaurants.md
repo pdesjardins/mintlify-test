@@ -124,48 +124,48 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">The unique Toast platform identifier for the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">managementGroupGuid</code></div></td>
-      <td className=""><div className="">The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group. <br/> If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">managementGroupGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for a group of restaurants. The management group GUID is the same for all restaurants in the same group.</p> <p className="text-base leading-relaxed">If a restaurant location does not belong to a restaurant management group, then the management group GUID is null.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantName</code></div></td>
-      <td className=""><div className="">The human-readable name of the restaurant location.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The human-readable name of the restaurant location.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">locationName</code></div></td>
-      <td className=""><div className="">The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web. <br/> For example, a restaurant group might assign a location code such as <code className="">#1234</code> to a specific location.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">locationName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.</p> <p className="text-base leading-relaxed">For example, a restaurant group might assign a location code such as <code className="font-mono text-sm">#1234</code> to a specific location.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">createdByEmailAddress</code></div></td>
-      <td className=""><div className="">The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByEmailAddress</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The email address of the restaurant employee who connected the restaurant to the partner or who edited the connection details.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">externalGroupRef</code></div></td>
-      <td className=""><div className="">An identifier for the restaurant group that is recognized by the partner that made the request to the <code className="">/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs" className="">Using location and group identifiers</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">externalGroupRef</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An identifier for the restaurant group that is recognized by the partner that made the request to the <code className="font-mono text-sm">/restaurants</code> endpoint.</p> <p className="text-base leading-relaxed">This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.</p> <p className="text-base leading-relaxed">For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs" className="">Using location and group identifiers</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">externalRestaurantRef</code></div></td>
-      <td className=""><div className="">An identifier for the restaurant location that is recognized by the partner that made the request to the <code className="">/restaurants</code> endpoint. <br/> This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection. <br/> For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs" className="">Using location and group identifiers</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">externalRestaurantRef</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An identifier for the restaurant location that is recognized by the partner that made the request to the <code className="font-mono text-sm">/restaurants</code> endpoint.</p> <p className="text-base leading-relaxed">This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast platform configuration for the integration partner connection.</p> <p className="text-base leading-relaxed">For more information, see <a href="apiDevGuide-apiPartnersGettingAccessibleRestaurants#apiPartnersLocationGroupIDs" className="">Using location and group identifiers</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">isoCreatedDate</code></div></td>
-      <td className=""><div className="">The date and time that the partner connection was created, expressed in ISO 8601 format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">isoCreatedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the partner connection was created, expressed in ISO 8601 format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">isoModifiedDate</code></div></td>
-      <td className=""><div className="">The most recent date and time that the partner connection was edited, expressed in ISO 8601 format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">isoModifiedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the partner connection was edited, expressed in ISO 8601 format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">createdDate</code></div></td>
-      <td className=""><div className="">The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the partner connection was created, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">modifiedDate</code></div></td>
-      <td className=""><div className="">The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">modifiedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the partner connection was edited, expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -279,40 +279,40 @@ For each restaurant, the `/connectedRestaurants` JSON response data contains the
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">currentPageNum</code></div></td>
-      <td className=""><div className="">The active page number from the return response.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">currentPageNum</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The active page number from the return response.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">totalResultCount</code></div></td>
-      <td className=""><div className="">The total number of results in the response. This number matches <code className="">totalCount</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">totalResultCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of results in the response. This number matches <code className="font-mono text-sm">totalCount</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">pageSize</code></div></td>
-      <td className=""><div className="">The active page size used when viewing the response data. This can be modified using the <code className="">pageSize</code> query parameter.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">pageSize</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The active page size used when viewing the response data. This can be modified using the <code className="font-mono text-sm">pageSize</code> query parameter.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">currentPageToken</code></div></td>
-      <td className=""><div className="">The token for the current page information snapshot. Refer to this if you need to return to this exact dataset.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">currentPageToken</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The token for the current page information snapshot. Refer to this if you need to return to this exact dataset.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">nextPageToken</code></div></td>
-      <td className=""><div className="">The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">nextPageToken</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The token for the next page information snapshot. Refer to this if you need to return to the next page's exact dataset.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">totalCount</code></div></td>
-      <td className=""><div className="">The total number of results in the response. This number matches <code className="">totalResultCount</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">totalCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of results in the response. This number matches <code className="font-mono text-sm">totalResultCount</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">nextPageNum</code></div></td>
-      <td className=""><div className="">The next available page in the response. <code className="">Null</code> if you have come to the end of available pages.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">nextPageNum</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The next available page in the response. <code className="font-mono text-sm">Null</code> if you have come to the end of available pages.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">lastPageNumber</code></div></td>
-      <td className=""><div className="">The last available page in the response.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">lastPageNumber</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The last available page in the response.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">previousPageNum</code></div></td>
-      <td className=""><div className="">The page number for the previous page in the response. <code className="">Null</code> when you are on the first page of the response.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">previousPageNum</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The page number for the previous page in the response. <code className="font-mono text-sm">Null</code> when you are on the first page of the response.</p></div></td>
     </tr>
   </tbody>
 </table>

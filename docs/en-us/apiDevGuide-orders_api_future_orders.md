@@ -101,14 +101,14 @@ The `Order` object in the following example creates an order that is scheduled f
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#orderPaidDate" className="">(1)</a></div></td>
-      <td className=""><div className="">If you submit a payment with the order, the <code className="">paidDate</code> for the payment should be the timestamp when the payment is placed.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#orderPaidDate" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">If you submit a payment with the order, the <code className="font-mono text-sm">paidDate</code> for the payment should be the timestamp when the payment is placed.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e23837FED323-B0BC-404F-B11C-A782AC1FBA48" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">promisedDate</code> value specifies the date and time when the order will be fulfilled.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e23837FED323-B0BC-404F-B11C-A782AC1FBA48" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">promisedDate</code> value specifies the date and time when the order will be fulfilled.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#apiFutureOrderExampleOpenedDate-co" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">openedDate</code> value specifies the business date of the order. If you do not include an <code className="">openedDate</code> value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This <code className="">openedDate</code> value matches the <code className="">promisedDate</code> value.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiFutureOrderExampleOpenedDate-co" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">openedDate</code> value specifies the business date of the order. If you do not include an <code className="font-mono text-sm">openedDate</code> value, the business date of the order is set to the restaurant business day that corresponds to the current date and time. This <code className="font-mono text-sm">openedDate</code> value matches the <code className="font-mono text-sm">promisedDate</code> value.</p></div></td>
     </tr>

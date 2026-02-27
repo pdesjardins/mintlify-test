@@ -68,26 +68,26 @@ The `value` must be one of the following:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">NUMBER</code></div></td>
-      <td className=""><div className="">A numeric value such as room number, or reservation number.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">NUMBER</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A numeric value such as room number, or reservation number.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">TEXT</code></div></td>
-      <td className=""><div className="">An alphanumeric value such as a guest's name or their company's name.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">TEXT</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An alphanumeric value such as a guest's name or their company's name.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">EMAIL</code></div></td>
-      <td className=""><div className="">The guest's email address.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">EMAIL</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The guest's email address.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">PHONE_NUMBER</code></div></td>
-      <td className=""><div className="">A numeric-only value for the guest's phone number. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">PHONE_NUMBER</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A numeric-only value for the guest's phone number. </p></div></td>
     </tr>
   </tbody>
 </table>
@@ -166,12 +166,12 @@ The following is an example of a successful configure search response.
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">value</code> attribute must be <code className="">TEXT</code> if your integration supports alpha-numeric room numbers.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">value</code> attribute must be <code className="font-mono text-sm">TEXT</code> if your integration supports alpha-numeric room numbers.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">tenderProperType</code> attribute must be associated with <code className="">ROOM_ID</code> for the key-value pair that defines Room Number in the configure search response and on each <a href="apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS" className="">search response</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">tenderProperType</code> attribute must be associated with <code className="font-mono text-sm">ROOM_ID</code> for the key-value pair that defines Room Number in the configure search response and on each <a href="apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS" className="">search response</a>.</p></div></td>
     </tr>
   
 ### Guest search
@@ -903,16 +903,16 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-e356efd8-0dac-4a34-8fae-c13421f2bd47" className="">(1)</a></div></td>
-      <td className=""><div className="">Gratuity added to the check during the gratuity transaction.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-e356efd8-0dac-4a34-8fae-c13421f2bd47" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Gratuity added to the check during the gratuity transaction.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(2)</a></div></td>
-      <td className=""><div className="">The unique order identifier.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique order identifier.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(3)</a></div></td>
-      <td className=""><div className="">A <code className="">Check</code> object that contains the order's complete transaction details.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A <code className="font-mono text-sm">Check</code> object that contains the order's complete transaction details.</p></div></td>
     </tr>
   
 **Example 10.29. Successful gratuity response body**

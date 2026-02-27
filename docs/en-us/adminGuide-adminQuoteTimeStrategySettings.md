@@ -29,26 +29,26 @@ The following table provides information about the quote time strategies availab
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Quote time strategy</div></th>
-      <th className=""><div className="">Configuration</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Quote time strategy</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Configuration</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">SmartQuote</div></td>
-      <td className=""><div className="">The amount of time calculated by the Toast platform that the kitchen needs to prepare the items in an order placed for takeout or delivery. <ul className=""><li className="">Specify minimum and maximum prep times in hours and minutes.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">SmartQuote</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of time calculated by the Toast platform that the kitchen needs to prepare the items in an order placed for takeout or delivery. </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Specify minimum and maximum prep times in hours and minutes.</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Manual</div></td>
-      <td className=""><div className="">The amount of time the kitchen needs to prepare the items in an order placed for takeout or delivery.<ul className=""><li className="">Specify time in hours and minutes.</li><li className="">Adjust time by five minute increments.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manual</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of time the kitchen needs to prepare the items in an order placed for takeout or delivery.</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Specify time in hours and minutes.</p></li><li className=""><p className="text-base leading-relaxed">Adjust time by five minute increments.</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Kitchen capacity</div></td>
-      <td className=""><div className="">When using Kitchen capacity strategy, the Toast platform automatically alerts you if the time slot when placing a future or immediate order is full.<ul className=""><li className="">Order volume number must be between 1 and 99.</li><li className="">Item volume number must be between 1 and 99.</li></ul> <br/> As an additional setting, enter order price rules for Toast online orders.<ul className=""><li className="">Enter a price and additional time. The additional time is added to the takeout and delivery time (this only applies to first-party delivery).</li><li className="">Multiple price rules can be created.</li><li className="">If there are more than two rules, the rule with the greater price must have a greater time. For example, if a rule is any order over $10.00 has one hour added to the takeout time, then a $5.00 order cannot have a greater time. That time must be less than one hour, such as 45 minutes.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Kitchen capacity</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">When using Kitchen capacity strategy, the Toast platform automatically alerts you if the time slot when placing a future or immediate order is full.</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Order volume number must be between 1 and 99.</p></li><li className=""><p className="text-base leading-relaxed">Item volume number must be between 1 and 99.</p></li></ul> <p className="text-base leading-relaxed">As an additional setting, enter order price rules for Toast online orders.</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Enter a price and additional time. The additional time is added to the takeout and delivery time (this only applies to first-party delivery).</p></li><li className=""><p className="text-base leading-relaxed">Multiple price rules can be created.</p></li><li className=""><p className="text-base leading-relaxed">If there are more than two rules, the rule with the greater price must have a greater time. For example, if a rule is any order over $10.00 has one hour added to the takeout time, then a $5.00 order cannot have a greater time. That time must be less than one hour, such as 45 minutes.</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Order price</div></td>
-      <td className=""><div className="">The Order price strategy’s configuration is explained above in the Kitchen capacity strategy section. <br/> Enter order price rules for Toast online orders.<ul className=""><li className="">Enter a price and additional time. The additional time is added to the takeout and delivery time (this only applies to first-party delivery).</li><li className="">Multiple price rules can be created.</li><li className="">If there are more than two rules, the rule with the greater price must have a greater time. For example, if a rule is any order over $10.00 has one hour added to the takeout time, then a $5.00 order cannot have a greater time. That time must be less than one hour, such as 45 minutes.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Order price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Order price strategy’s configuration is explained above in the Kitchen capacity strategy section.</p> <p className="text-base leading-relaxed">Enter order price rules for Toast online orders.</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Enter a price and additional time. The additional time is added to the takeout and delivery time (this only applies to first-party delivery).</p></li><li className=""><p className="text-base leading-relaxed">Multiple price rules can be created.</p></li><li className=""><p className="text-base leading-relaxed">If there are more than two rules, the rule with the greater price must have a greater time. For example, if a rule is any order over $10.00 has one hour added to the takeout time, then a $5.00 order cannot have a greater time. That time must be less than one hour, such as 45 minutes.</p></li></ul></div></td>
     </tr>
   </tbody>
 </table>

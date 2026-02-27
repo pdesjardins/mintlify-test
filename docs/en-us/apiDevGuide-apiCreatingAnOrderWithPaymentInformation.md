@@ -72,48 +72,48 @@ The following example shows an `Order` object that contains one check with a sin
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3609EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the dining option for the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3609EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the dining option for the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3629EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(2)</a></div></td>
-      <td className=""><div className="">The GUID of the menu group for the menu item selected for this check. For example, a menu might include a menu group named "appetizers" or "drinks."</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3629EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu group for the menu item selected for this check. For example, a menu might include a menu group named "appetizers" or "drinks."</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3649EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3649EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3669EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(4)</a></div></td>
-      <td className=""><div className="">The number of the menu items selected for this check. For example, a check might include a "lemonade" menu item selection and a quantity of three, for a party of three customers.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3669EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of the menu items selected for this check. For example, a check might include a "lemonade" menu item selection and a quantity of three, for a party of three customers.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#apiCreateOrderExampleOptionalPayment-co" className="">(5)</a></div></td>
-      <td className=""><div className="">You do not need to include payment information to create an order. This example includes payment information when it creates the order. The price information for the payment is available from the <code className="">/prices</code> endpoint of the orders API. For more information, see <a href="apiDevGuide-apiOrderPrices#apiGettingCheckPrices" className="">Getting check prices before you submit an order</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiCreateOrderExampleOptionalPayment-co" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You do not need to include payment information to create an order. This example includes payment information when it creates the order. The price information for the payment is available from the <code className="font-mono text-sm">/prices</code> endpoint of the orders API. For more information, see <a href="apiDevGuide-apiOrderPrices#apiGettingCheckPrices" className="">Getting check prices before you submit an order</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3689EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(6)</a></div></td>
-      <td className=""><div className="">The date and time that the customer presented payment for the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3689EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the customer presented payment for the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3719EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(7)</a></div></td>
-      <td className=""><div className="">One of the enumerated payment categories used by the Toast platform. The <code className="">OTHER</code> payment category includes payments processed outside of the Toast platform, for example by third-party services.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3719EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">One of the enumerated payment categories used by the Toast platform. The <code className="font-mono text-sm">OTHER</code> payment category includes payments processed outside of the Toast platform, for example by third-party services.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3739EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(8)</a></div></td>
-      <td className=""><div className="">The currency value of the payment, excluding tips.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3739EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The currency value of the payment, excluding tips.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3759EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(9)</a></div></td>
-      <td className=""><div className="">The GUID of the specific alternate payment type configured for the restaurant. For example, a restaurant might configure a specific third-party service as one alternate payment type in the <code className="">OTHER</code> payment category. Use alternative payment types if you process your payments outside of The Toast credit cards API.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3759EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the specific alternate payment type configured for the restaurant. For example, a restaurant might configure a specific third-party service as one alternate payment type in the <code className="font-mono text-sm">OTHER</code> payment category. Use alternative payment types if you process your payments outside of The Toast credit cards API.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3779EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(10)</a></div></td>
-      <td className=""><div className="">The currency value of the gratuity included with the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3779EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The currency value of the gratuity included with the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3799EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(11)</a></div></td>
-      <td className=""><div className="">The currency value presented by the customer to provide the payment. Do not include the tip in the <code className="">amountTendered</code> value.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3799EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The currency value presented by the customer to provide the payment. Do not include the tip in the <code className="font-mono text-sm">amountTendered</code> value.</p></div></td>
     </tr>
   
 ## Example response from the orders API
@@ -264,47 +264,47 @@ The following example shows the response returned by the `/orders` endpoint of t
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3979EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(1)</a></div></td>
-      <td className=""><div className="">The unique identifier that the Toast platform assigns to the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3979EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier that the Toast platform assigns to the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e3999EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(2)</a></div></td>
-      <td className=""><div className="">The date and time that the order was created.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3999EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the order was created.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#apiExampleOrderCreateResponseBusinessDate-co" className="">(3)</a></div></td>
-      <td className=""><div className="">The restaurant business date on which the order was fulfilled. The restaurant business date can be different than the calendar dates when the order is created, paid, and closed. For example, if a restaurant business day extends after midnight, an order that is created after midnight might have a <code className="">businessDate</code> value that is one day earlier than the calendar date when the order was created.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiExampleOrderCreateResponseBusinessDate-co" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant business date on which the order was fulfilled. The restaurant business date can be different than the calendar dates when the order is created, paid, and closed. For example, if a restaurant business day extends after midnight, an order that is created after midnight might have a <code className="font-mono text-sm">businessDate</code> value that is one day earlier than the calendar date when the order was created.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4019EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(4)</a></div></td>
-      <td className=""><div className="">Information about payments made for this check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4019EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about payments made for this check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4039EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(5)</a></div></td>
-      <td className=""><div className="">The date and time that the check was added to the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4039EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the check was added to the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4059EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(6)</a></div></td>
-      <td className=""><div className="">The date and time that the customer made a payment for the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4059EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the customer made a payment for the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4089EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(7)</a></div></td>
-      <td className=""><div className="">The date and time that the check was completely fulfilled and paid.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4089EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the check was completely fulfilled and paid.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4109EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(8)</a></div></td>
-      <td className=""><div className="">The date and time that information about the check was changed most recently.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4109EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that information about the check was changed most recently.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4129EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(9)</a></div></td>
-      <td className=""><div className="">The date and time that <em className="">all</em>  checks in the order were completely paid.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4129EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that <em className="">all</em>  checks in the order were completely paid.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4149EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(10)</a></div></td>
-      <td className=""><div className="">The date and time that <em className="">all</em>  checks in the order were completely fulfilled and paid.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4149EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that <em className="">all</em>  checks in the order were completely fulfilled and paid.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4169EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(11)</a></div></td>
-      <td className=""><div className="">The date and time that information about the order was changed most recently.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4169EC9AFB8-6DAA-446E-8606-A2AE11A4D2F8" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that information about the order was changed most recently.</p></div></td>
     </tr>
   

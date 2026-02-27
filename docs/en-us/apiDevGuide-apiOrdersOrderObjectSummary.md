@@ -624,51 +624,51 @@ For the menu item selection, the amounts are as follows:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Amount</div></th>
-      <th className=""><div className="">Value</div></th>
-      <th className=""><div className="">Calculation</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Amount</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Calculation</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">receiptLinePrice</code></div></td>
-      <td className=""><div className="">8.0</div></td>
-      <td className=""><div className="">In the menu, a grilled sandwich costs $8.00</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">receiptLinePrice</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">8.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">In the menu, a grilled sandwich costs $8.00</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">preDiscountPrice</code></div></td>
-      <td className=""><div className="">16.0</div></td>
-      <td className=""><div className="">Multiply <code className="">receiptLinePrice</code> (8.0) by <code className="">quantity</code> (2).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">preDiscountPrice</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">16.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">Multiply <code className="font-mono text-sm">receiptLinePrice</code> (8.0) by <code className="font-mono text-sm">quantity</code> (2).</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">Discount.discountAmount</code></div></td>
-      <td className=""><div className="">1.0</div></td>
-      <td className=""><div className="">The applied discount is for $1.00.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Discount.discountAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">1.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The applied discount is for $1.00.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">Discount.nonTaxDiscountAmount</code></div></td>
-      <td className=""><div className="">1.0</div></td>
-      <td className=""><div className="">The applied discount is for $1.00. The tax is not included in the price, and the discount is a fixed amount discount, so the two discount amount values are the same.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Discount.nonTaxDiscountAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">1.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The applied discount is for $1.00. The tax is not included in the price, and the discount is a fixed amount discount, so the two discount amount values are the same.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">price</code></div></td>
-      <td className=""><div className="">15.0</div></td>
-      <td className=""><div className="">Subtract the total <code className="">discountAmount</code> (1.0) from the <code className="">preDiscountPrice</code> (16.0).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">price</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">15.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Subtract the total <code className="font-mono text-sm">discountAmount</code> (1.0) from the <code className="font-mono text-sm">preDiscountPrice</code> (16.0).</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">AppliedTax.taxAmount</code> (State tax)</div></td>
-      <td className=""><div className="">0.75</div></td>
-      <td className=""><div className="">Multiply the <code className="">rate</code> for the state tax (.05) by the <code className="">price</code> (15.0).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">AppliedTax.taxAmount</code> (State tax)</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">0.75</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">Multiply the <code className="font-mono text-sm">rate</code> for the state tax (.05) by the <code className="font-mono text-sm">price</code> (15.0).</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">AppliedTax.taxAmount</code> (City tax)</div></td>
-      <td className=""><div className="">0.65</div></td>
-      <td className=""><div className="">Multiply the <code className="">rate</code> for the city tax (.04) by the <code className="">price</code> (15.0).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">AppliedTax.taxAmount</code> (City tax)</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">0.65</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Multiply the <code className="font-mono text-sm">rate</code> for the city tax (.04) by the <code className="font-mono text-sm">price</code> (15.0).</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">tax</code></div></td>
-      <td className=""><div className="">1.35</div></td>
-      <td className=""><div className="">Add the <code className="">taxAmount</code> values (0.75 and 0.65).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">tax</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">1.35</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the <code className="font-mono text-sm">taxAmount</code> values (0.75 and 0.65).</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -681,41 +681,41 @@ For the check, the amounts are as follows:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Amount</div></th>
-      <th className=""><div className="">Value</div></th>
-      <th className=""><div className="">Calculation</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Amount</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Calculation</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">appliedDiscounts</code></div></td>
-      <td className=""><div className="">No values</div></td>
-      <td className=""><div className="">There are no discounts on the check, just on the item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">appliedDiscounts</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">No values</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">There are no discounts on the check, just on the item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ServiceCharge.chargeAmount</code></div></td>
-      <td className=""><div className="">3.0</div></td>
-      <td className=""><div className="">There is a $3.00 delivery charge.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ServiceCharge.chargeAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">3.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">There is a $3.00 delivery charge.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ServiceCharge.appliedTaxes</code></div></td>
-      <td className=""><div className="">No values</div></td>
-      <td className=""><div className="">The delivery charge is not taxed.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ServiceCharge.appliedTaxes</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">No values</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery charge is not taxed.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">amount</code></div></td>
-      <td className=""><div className="">18.0</div></td>
-      <td className=""><div className="">Add the <code className="">price</code> from the menu selection item (15.0) to the service charge (3.0).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">amount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">18.0</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the <code className="font-mono text-sm">price</code> from the menu selection item (15.0) to the service charge (3.0).</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">taxAmount</code></div></td>
-      <td className=""><div className="">1.35</div></td>
-      <td className=""><div className="">The total of the <code className="">tax</code> values on the menu selection items. The <code className="">tax</code> value for the single menu selection item is 1.35.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">taxAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">1.35</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total of the <code className="font-mono text-sm">tax</code> values on the menu selection items. The <code className="font-mono text-sm">tax</code> value for the single menu selection item is 1.35.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">totalAmount</code></div></td>
-      <td className=""><div className="">19.35</div></td>
-      <td className=""><div className="">Add <code className="">amount</code> (18.0) and <code className="">taxAmount</code> (1.35).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">totalAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">19.35</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add <code className="font-mono text-sm">amount</code> (18.0) and <code className="font-mono text-sm">taxAmount</code> (1.35).</p></div></td>
     </tr>
   </tbody>
 </table>

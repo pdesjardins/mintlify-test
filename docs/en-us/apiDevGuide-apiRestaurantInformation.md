@@ -149,12 +149,12 @@ https://`[toast-api-hostname]`/restaurants/v1/restaurants/76cb1b05-cb1e-4adf-863
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D" className="">(1)</a></div></td>
-      <td className=""><div className="">Use the <code className="">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve configuration information.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e619B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve configuration information.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D" className="">(2)</a></div></td>
-      <td className=""><div className="">Use the same restaurant GUID in the <code className="">/restaurants/v1/restaurants/&#123;restaurantGUID&#125;</code> endpoint.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e624B3F37BA5-CBF8-4BF9-B6F3-68E222AD450D" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the same restaurant GUID in the <code className="font-mono text-sm">/restaurants/v1/restaurants/&#123;restaurantGUID&#125;</code> endpoint.</p></div></td>
     </tr>
   
 The following example shows the JSON response data for a GET request to the `/restaurants/v1/restaurants/&#123;restaurantGUID&#125;`endpoint.
@@ -294,39 +294,39 @@ The following example shows the JSON response data for a GET request to the `/re
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e566EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the restaurant from which configuration information is retrieved.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e566EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the restaurant from which configuration information is retrieved.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(2)</a></div></td>
-      <td className=""><div className=""><a href="apiDevGuide-apiRestaurantInformation#restInfoGeneral" className="">General information</a> about the restaurant. The name of this sample restaurant is <code className="">Trattoria Roma</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e568EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="apiDevGuide-apiRestaurantInformation#restInfoGeneral" className="">General information</a> about the restaurant. The name of this sample restaurant is <code className="font-mono text-sm">Trattoria Roma</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(3)</a></div></td>
-      <td className=""><div className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoURLs" className="">web addresses</a> for the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e570EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiRestaurantInformation#restInfoURLs" className="">web addresses</a> for the restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e572EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(4)</a></div></td>
-      <td className=""><div className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoLocation" className="">physical location</a> of the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e572EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiRestaurantInformation#restInfoLocation" className="">physical location</a> of the restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(5)</a></div></td>
-      <td className=""><div className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoSchedules" className="">schedules and services</a> provided by the restaurant. This sample restaurant has two day schedules, named <code className="">Weekdays</code> and <code className="">Weekends</code>. Each day schedule has an <code className="">openTime</code> value that designates when the first service of the day begins and a <code className="">closeTime</code> value for when the last service of the day ends.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e574EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiRestaurantInformation#restInfoSchedules" className="">schedules and services</a> provided by the restaurant. This sample restaurant has two day schedules, named <code className="font-mono text-sm">Weekdays</code> and <code className="font-mono text-sm">Weekends</code>. Each day schedule has an <code className="font-mono text-sm">openTime</code> value that designates when the first service of the day begins and a <code className="font-mono text-sm">closeTime</code> value for when the last service of the day ends.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(6)</a></div></td>
-      <td className=""><div className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoDelivery" className="">delivery service</a> of the restaurant. In this sample restaurant, a delivery service is available.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e577EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiRestaurantInformation#restInfoDelivery" className="">delivery service</a> of the restaurant. In this sample restaurant, a delivery service is available.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(7)</a></div></td>
-      <td className=""><div className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering" className="">online ordering service</a> provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e579EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiRestaurantInformation#restInfoOnlineOrdering" className="">online ordering service</a> provided by the restaurant. In this sample restaurant, a delivery service is available, orders are fulfilled as soon as possible, and both cash and credit card payments are accepted for takeout and delivery orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#apiRestaurantEnabled" className="">(8)</a></div></td>
-      <td className=""><div className="">The <code className="">enabled</code> value in the <code className="">OnlineOrdering</code> object will always be <code className="">true</code> after the restaurant does their initial setup for Toast Online Ordering.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiRestaurantEnabled" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">enabled</code> value in the <code className="font-mono text-sm">OnlineOrdering</code> object will always be <code className="font-mono text-sm">true</code> after the restaurant does their initial setup for Toast Online Ordering.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e581EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(9)</a></div></td>
-      <td className=""><div className="">The <a href="apiDevGuide-apiRestaurantInformation#restInfoPrepTimes" className="">scheduled availability of the dining options</a> provided by the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e581EA079BAD-EBC7-4074-A78B-E75704C9760F" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiRestaurantInformation#restInfoPrepTimes" className="">scheduled availability of the dining options</a> provided by the restaurant.</p></div></td>
     </tr>
   

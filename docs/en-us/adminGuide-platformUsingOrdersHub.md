@@ -183,24 +183,24 @@ The scheduled firing time displayed is dynamic, meaning it changes as the order 
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Scheduled to fire in more than one hour </div></td>
-      <td className=""><div className="">Gray</div></td>
-      <td className=""><div className="">Firing 4/6, 4:38 PM </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Scheduled to fire in more than one hour </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Gray</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Firing 4/6, 4:38 PM </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Scheduled to fire in one hour or less </div></td>
-      <td className=""><div className="">Green </div></td>
-      <td className=""><div className="">Firing in 58 min </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Scheduled to fire in one hour or less </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Green </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Firing in 58 min </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Scheduled to fire in less than one minute </div></td>
-      <td className=""><div className="">Green</div></td>
-      <td className=""><div className="">Firing any second </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Scheduled to fire in less than one minute </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Green</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Firing any second </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Scheduled fire time has passed </div></td>
-      <td className=""><div className="">Red</div></td>
-      <td className=""><div className="">Firing in - 4 minutes </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Scheduled fire time has passed </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Red</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Firing in - 4 minutes </p></div></td>
     </tr>
   </tbody>
 </table>

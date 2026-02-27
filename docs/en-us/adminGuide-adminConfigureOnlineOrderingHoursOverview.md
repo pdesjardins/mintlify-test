@@ -31,12 +31,12 @@ The following table describes which online ordering hours configuration to use f
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Takeout & Third-party delivery </div></td>
-      <td className=""><div className=""><ul className=""><li className="">Toast Online Ordering</li><li className="">Toast Delivery Services (TDS)</li><li className="">Third-party online ordering channels (for example, Grubhub, DoorDash, and Uber Eats)</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Takeout & Third-party delivery </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Toast Online Ordering</p></li><li className=""><p className="text-base leading-relaxed">Toast Delivery Services (TDS)</p></li><li className=""><p className="text-base leading-relaxed">Third-party online ordering channels (for example, Grubhub, DoorDash, and Uber Eats)</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">First-party delivery </div></td>
-      <td className=""><div className=""><ul className=""><li className="">First-party deliveries</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">First-party delivery </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">First-party deliveries</p></li></ul></div></td>
     </tr>
   </tbody>
 </table>
@@ -166,12 +166,12 @@ From the Online ordering hours section you can choose to allow guests to place o
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Closing time</div></td>
-      <td className=""><div className="">In this example: <ul className=""><li className="">Your restaurant closes at 10:00 PM.</li><li className="">Your quote time is 30 minutes.</li><li className="">Guests can place orders up to 10:00 PM.</li></ul> <br/> A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM.  <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see <a href="https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime" className="">Online Ordering: Advanced Settings</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Closing time</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example: </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Your restaurant closes at 10:00 PM.</p></li><li className=""><p className="text-base leading-relaxed">Your quote time is 30 minutes.</p></li><li className=""><p className="text-base leading-relaxed">Guests can place orders up to 10:00 PM.</p></li></ul> <p className="text-base leading-relaxed">A guest places an order at 9:45 PM. The guest’s quote time for their order is 10:15 PM. </p> <blockquote><strong>Note</strong> The closing time does not consider lead times. For more information about lead times, see <a href="https://central.toasttab.com/s/article/Online-Ordering-Advanced-Settings#leadtime" className="">Online Ordering: Advanced Settings</a>.</blockquote> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Closing time minus quote time</div></td>
-      <td className=""><div className="">In this example: <ul className=""><li className="">Your restaurant closes at 10:00 PM.</li><li className="">Your quote time is 30 minutes.</li><li className="">Guests can place orders up to 9:30 PM.</li></ul> <br/> A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM.  <br/> For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Closing time minus quote time</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example: </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Your restaurant closes at 10:00 PM.</p></li><li className=""><p className="text-base leading-relaxed">Your quote time is 30 minutes.</p></li><li className=""><p className="text-base leading-relaxed">Guests can place orders up to 9:30 PM.</p></li></ul> <p className="text-base leading-relaxed">A guest places an order at 9:30 PM. The guest's quote time for their order is 10:00 PM. </p> <p className="text-base leading-relaxed">For scheduled orders, the last available time slot a guest can place an order is 10:00 PM, as long as the order is placed before 9:30 PM. A scheduled order cannot be placed after 9:30 PM, as Toast Online Ordering will not display time slots after 9:30 PM.</p></div></td>
     </tr>
   </tbody>
 </table>

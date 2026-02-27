@@ -73,30 +73,30 @@ The following table describes the transaction types that the Toast platform send
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Transaction type</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Transaction type</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">GIFTCARD_ACTIVATE</code></div></td>
-      <td className=""><div className="">Activates a new gift card.  <br/> For example, the Toast platform sends a <code className="">GIFTCARD_ACTIVATE</code> request when it handles a gift card sale transaction. <br/> <strong className="">Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a <code className="">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code> response status.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_ACTIVATE</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Activates a new gift card. </p> <p className="text-base leading-relaxed">For example, the Toast platform sends a <code className="font-mono text-sm">GIFTCARD_ACTIVATE</code> request when it handles a gift card sale transaction.</p> <p className="text-base leading-relaxed"><strong className="font-semibold">Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a <code className="font-mono text-sm">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code> response status.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">GIFTCARD_ADD_VALUE</code></div></td>
-      <td className=""><div className="">Increases the amount of money available on a gift card. <br/> For example, the Toast platform sends a GIFTCARD_ADD_VALUE request when it handles a gift card sale (initial balance) or when a restaurant guest purchases additional value to add to a gift card balance.  <br/> <strong className="">Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a <code className="">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code> response status.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_ADD_VALUE</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Increases the amount of money available on a gift card.</p> <p className="text-base leading-relaxed">For example, the Toast platform sends a GIFTCARD_ADD_VALUE request when it handles a gift card sale (initial balance) or when a restaurant guest purchases additional value to add to a gift card balance. </p> <p className="text-base leading-relaxed"><strong className="font-semibold">Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a <code className="font-mono text-sm">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code> response status.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">GIFTCARD_GET_BALANCE</code></div></td>
-      <td className=""><div className="">Requests the amount of money that is available for purchases on a gift card. <br/> For example, the Toast platform sends a <code className="">GIFTCARD_GET_BALANCE</code> request when a restaurant guest asks a restaurant employee to check the amount of money that is available. <blockquote><strong>Note</strong> In some situations, the Toast platform might send a <code className="">GIFTCARD_GET_BALANCE</code> request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a <code className="">GIFTCARD_GET_BALANCE</code> request to verify that a card is not already active during a gift card sale.</blockquote>  <br/> <strong className="">Required </strong> Your gift card implementation must handle requests with this transaction type.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Requests the amount of money that is available for purchases on a gift card.</p> <p className="text-base leading-relaxed">For example, the Toast platform sends a <code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code> request when a restaurant guest asks a restaurant employee to check the amount of money that is available.</p> <blockquote><strong>Note</strong> In some situations, the Toast platform might send a <code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code> request to verify that a gift card is not active or that it has a zero balance. For example, the Toast platform might send a <code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code> request to verify that a card is not already active during a gift card sale.</blockquote>  <p className="text-base leading-relaxed"><strong className="font-semibold">Required </strong> Your gift card implementation must handle requests with this transaction type.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">GIFTCARD_REDEEM</code></div></td>
-      <td className=""><div className="">Decreases the amount of money available on a gift card. <br/> For example, the Toast platform sends a <code className="">GIFTCARD_REDEEM</code> request when a restaurant guest makes a purchase using a gift card as a form of payment. <br/> If the redeem request is for a cash-out transaction, the <code className="">isCashOut</code> value of the <code className="">TransactionInformationRedeem</code> object is <code className="">true</code>. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardApiCashOutRedeem" className="">Cash out transactions</a>. <br/> <strong className="">Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a <code className="">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code> response status.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_REDEEM</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Decreases the amount of money available on a gift card.</p> <p className="text-base leading-relaxed">For example, the Toast platform sends a <code className="font-mono text-sm">GIFTCARD_REDEEM</code> request when a restaurant guest makes a purchase using a gift card as a form of payment.</p> <p className="text-base leading-relaxed">If the redeem request is for a cash-out transaction, the <code className="font-mono text-sm">isCashOut</code> value of the <code className="font-mono text-sm">TransactionInformationRedeem</code> object is <code className="font-mono text-sm">true</code>. In a cash-out gift card redeem transaction, the guest receives cash instead of using gift card funds for a purchase. For more information about cash-out redeem transactions, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardApiCashOutRedeem" className="">Cash out transactions</a>.</p> <p className="text-base leading-relaxed"><strong className="font-semibold">Optional </strong> Your gift card implementation can either handle requests with this transaction type or may return a <code className="font-mono text-sm">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code> response status.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">GIFTCARD_REVERSE</code></div></td>
-      <td className=""><div className="">Undoes a previous gift card transaction. <br/> For example, the Toast platform sends a <code className="">GIFTCARD_REVERSE</code> request when a restaurant employee voids a purchase made with a gift card. <br/> <strong className="">Required </strong> Your gift card implementation must handle requests with this transaction type.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_REVERSE</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Undoes a previous gift card transaction.</p> <p className="text-base leading-relaxed">For example, the Toast platform sends a <code className="font-mono text-sm">GIFTCARD_REVERSE</code> request when a restaurant employee voids a purchase made with a gift card.</p> <p className="text-base leading-relaxed"><strong className="font-semibold">Required </strong> Your gift card implementation must handle requests with this transaction type.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -117,66 +117,66 @@ The following table describes the response status types that your gift card prov
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Transaction status</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Transaction status</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">ACCEPT</code></div></td>
-      <td className=""><div className="">The transaction was handled successfully.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ACCEPT</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The transaction was handled successfully.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code></div></td>
-      <td className=""><div className="">Your implementation does not handle the optional transaction type that was supplied in the request. <br/> Return this response status type when the request transaction type <em className="">is one of the types defined</em>  by the gift card integration API specification but you have decided not to support it.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_TOAST_TRANSACTION_TYPE_NOT_SUPPORTED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Your implementation does not handle the optional transaction type that was supplied in the request.</p> <p className="text-base leading-relaxed">Return this response status type when the request transaction type <em className="">is one of the types defined</em>  by the gift card integration API specification but you have decided not to support it.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_INVALID_TOAST_TRANSACTION_TYPE</code></div></td>
-      <td className=""><div className="">The transaction type identifier supplied in the <code className="">Toast-Transaction-Type</code> header parameter of the request is not one of the recognized transaction types. <br/> Return this response status type when the request transaction type <em className="">is not one of the types defined</em>  by the gift card integration API specification.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_INVALID_TOAST_TRANSACTION_TYPE</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The transaction type identifier supplied in the <code className="font-mono text-sm">Toast-Transaction-Type</code> header parameter of the request is not one of the recognized transaction types.</p> <p className="text-base leading-relaxed">Return this response status type when the request transaction type <em className="">is not one of the types defined</em>  by the gift card integration API specification.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_CARD_ALREADY_ACTIVATED</code></div></td>
-      <td className=""><div className="">The transaction attempted to activate a gift card that is already active.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_CARD_ALREADY_ACTIVATED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The transaction attempted to activate a gift card that is already active.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_CARD_NOT_ACTIVATED</code></div></td>
-      <td className=""><div className="">The gift card is not active. <blockquote><strong>Note</strong> In some situations, the Toast platform might make a transaction request to verify that a gift card is not already active. In this situation, the Toast platform expects to receive a <code className="">ERROR_CARD_NOT_ACTIVATED</code> transaction status. For more information, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction" className="">Multiple requests for a gift card transaction</a>.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_CARD_NOT_ACTIVATED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The gift card is not active.</p> <blockquote><strong>Note</strong> In some situations, the Toast platform might make a transaction request to verify that a gift card is not already active. In this situation, the Toast platform expects to receive a <code className="font-mono text-sm">ERROR_CARD_NOT_ACTIVATED</code> transaction status. For more information, see <a href="apiDevGuide-apiGiftCardIntegrationWorkflow#apiGiftCardIntegrationMultipleRequestsForTransaction" className="">Multiple requests for a gift card transaction</a>.</blockquote> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_CARD_INVALID</code></div></td>
-      <td className=""><div className="">The gift card identifier is not in the set of identifiers that correspond to the current restaurant. <br/> For example, if a gift card identifier is entered incorrectly or if the gift card identifier corresponds to a different restaurant location, your implementation returns this status.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_CARD_INVALID</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The gift card identifier is not in the set of identifiers that correspond to the current restaurant.</p> <p className="text-base leading-relaxed">For example, if a gift card identifier is entered incorrectly or if the gift card identifier corresponds to a different restaurant location, your implementation returns this status.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_INVALID_INPUT_PROPERTIES</code></div></td>
-      <td className=""><div className="">The values that the Toast platform supplied in the <code className="">GiftCardTransaction</code> object in the request message body do not match the requirements of the transaction type.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_INVALID_INPUT_PROPERTIES</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The values that the Toast platform supplied in the <code className="font-mono text-sm">GiftCardTransaction</code> object in the request message body do not match the requirements of the transaction type.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_TRANSACTION_DOES_NOT_EXIST</code></div></td>
-      <td className=""><div className="">The transaction specified by a <code className="">GIFTCARD_REVERSE</code> type request does not exist.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_TRANSACTION_DOES_NOT_EXIST</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The transaction specified by a <code className="font-mono text-sm">GIFTCARD_REVERSE</code> type request does not exist.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_INVALID_TOKEN</code></div></td>
-      <td className=""><div className="">The authentication token supplied in the <code className="">Authorization</code> header parameter is invalid or cannot be validated. For information about request authentication, see <a href="apiDevGuide-apiGiftCardIntegrationAuthentication" className="">Gift card integration authentication</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_INVALID_TOKEN</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The authentication token supplied in the <code className="font-mono text-sm">Authorization</code> header parameter is invalid or cannot be validated. For information about request authentication, see <a href="apiDevGuide-apiGiftCardIntegrationAuthentication" className="">Gift card integration authentication</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_TRANSACTION_CANNOT_BE_REVERSED</code></div></td>
-      <td className=""><div className="">The transaction specified by a <code className="">GIFTCARD_REVERSE</code> type request cannot be reversed. The following transaction types cannot be reversed:<ul className=""><li className=""><code className="">GIFTCARD_GET_BALANCE</code></li><li className=""><code className="">GIFTCARD_REVERSE</code></li><li className="">Transactions that have already been reversed</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_TRANSACTION_CANNOT_BE_REVERSED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The transaction specified by a <code className="font-mono text-sm">GIFTCARD_REVERSE</code> type request cannot be reversed. The following transaction types cannot be reversed:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_GET_BALANCE</code></p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">GIFTCARD_REVERSE</code></p></li><li className=""><p className="text-base leading-relaxed">Transactions that have already been reversed</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_INVALID_RESTAURANT</code></div></td>
-      <td className=""><div className="">The restaurant identifier included in the <code className="">Toast-Restaurant-External-ID</code> header parameter of the request is not recognized by the gift card provider integration implementation. <br/> You receive the identifiers for Toast platform restaurants from the Toast integrations team when you implement your gift card integration.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_INVALID_RESTAURANT</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant identifier included in the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> header parameter of the request is not recognized by the gift card provider integration implementation.</p> <p className="text-base leading-relaxed">You receive the identifiers for Toast platform restaurants from the Toast integrations team when you implement your gift card integration.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_VERIFICATION_FAILED</code></div></td>
-      <td className=""><div className="">The verification code (PIN) data specified by the JSON body is invalid.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_VERIFICATION_FAILED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The verification code (PIN) data specified by the JSON body is invalid.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_VERIFICATION_REQUIRED</code></div></td>
-      <td className=""><div className="">Verification code (PIN) data is necessary to complete the transaction but the data is missing or `null` in the JSON body.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_VERIFICATION_REQUIRED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Verification code (PIN) data is necessary to complete the transaction but the data is missing or `null` in the JSON body.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ERROR_VERIFICATION_NOT_SUPPORTED</code></div></td>
-      <td className=""><div className="">Verification code (PIN) data is provided by the JSON body but the provider doesn't support verification code.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ERROR_VERIFICATION_NOT_SUPPORTED</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Verification code (PIN) data is provided by the JSON body but the provider doesn't support verification code.</p></div></td>
     </tr>
   </tbody>
 </table>

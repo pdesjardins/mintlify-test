@@ -26,42 +26,42 @@ The following table specifies the returned set of values in the guest reporting 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value name</div></th>
-      <th className=""><div className="">Definition</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value name</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Definition</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the restaurant by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantName</code></div></td>
-      <td className=""><div className="">The restaurant’s name.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s name.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantLocationName</code></div></td>
-      <td className=""><div className="">The restaurant’s location name.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLocationName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s location name.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantLocationCode</code></div></td>
-      <td className=""><div className="">The restaurant’s location code.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLocationCode</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s location code.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentDate</code></div></td>
-      <td className=""><div className="">The date when the payment was processed, in <code className="">YYYYMMDD</code> format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date when the payment was processed, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the order by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the order by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the payment by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the payment by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">cardFingerprint</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to a guest's payment card by the Toast platform. <blockquote><strong>Note</strong> <code className="">cardFingerprint</code> data is only available for payments processed starting in August 2024. <code className="">cardFingerprint</code> data is not supported for older payments.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">cardFingerprint</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to a guest's payment card by the Toast platform.</p> <blockquote><strong>Note</strong> <code className="font-mono text-sm">cardFingerprint</code> data is only available for payments processed starting in August 2024. <code className="font-mono text-sm">cardFingerprint</code> data is not supported for older payments.</blockquote> </div></td>
     </tr>
   </tbody>
 </table>

@@ -68,36 +68,36 @@ When your restaurant fulfills a guest delivery order using Toast Delivery Servic
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">DRIVER REQUESTED </div></td>
-      <td className=""><div className="">A new delivery person has been requested and dispatched to pick up and deliver the order. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">DRIVER REQUESTED </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A new delivery person has been requested and dispatched to pick up and deliver the order. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">EN ROUTE TO RESTAURANT - ETA HH:MM </div></td>
-      <td className=""><div className="">A delivery person has been assigned to the order and is on their way to pick up the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">EN ROUTE TO RESTAURANT - ETA HH:MM </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A delivery person has been assigned to the order and is on their way to pick up the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">HERE FOR PICKUP </div></td>
-      <td className=""><div className="">The delivery person has arrived at the restaurant and is ready to pick up the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">HERE FOR PICKUP </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person has arrived at the restaurant and is ready to pick up the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">DRIVING TO DROP OFF </div></td>
-      <td className=""><div className="">The delivery person is on their way to drop off the guest’s order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">DRIVING TO DROP OFF </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person is on their way to drop off the guest’s order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">DROPPING OFF - ETA HH:MM</div></td>
-      <td className=""><div className="">The delivery person is to drop off the guest’s order by an estimated time. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">DROPPING OFF - ETA HH:MM</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person is to drop off the guest’s order by an estimated time. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">DELIVERED </div></td>
-      <td className=""><div className="">The delivery person delivered the guest’s order at the requested address.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">DELIVERED </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person delivered the guest’s order at the requested address.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">DELIVERY CANCELLED </div></td>
-      <td className=""><div className="">The delivery person who was previously assigned to pick up this order has cancelled the pick up. <br/> Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">DELIVERY CANCELLED </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person who was previously assigned to pick up this order has cancelled the pick up.</p> <p className="text-base leading-relaxed">Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">UNDELIVERABLE</div></td>
-      <td className=""><div className="">The delivery person was unable to locate your delivery location. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">UNDELIVERABLE</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person was unable to locate your delivery location. </p></div></td>
     </tr>
   </tbody>
 </table>

@@ -48,16 +48,16 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></div></td>
-      <td className=""><div className="">Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></div></td>
-      <td className=""><div className="">Specify the data type of the message body in the Content-Type header field. The value must be <code className="">application/json</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the message body in the Content-Type header field. The value must be <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></div></td>
-      <td className=""><div className="">Include information about the new employee in the message body of the <code className="">POST</code> request. This example <strong className="">curl</strong>  command sends message body data from the contents of a file.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include information about the new employee in the message body of the <code className="font-mono text-sm">POST</code> request. This example <strong className="font-semibold">curl</strong>  command sends message body data from the contents of a file.</p></div></td>
     </tr>
   
 ## Example shift details for the message body of the request to add a shift
@@ -86,24 +86,24 @@ The following example shows the message body data that provides information abou
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></div></td>
-      <td className=""><div className="">Specify the GUID of the employee who will work the shift.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the employee who will work the shift.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></div></td>
-      <td className=""><div className="">Specify the data type of the Toast platform input object. The value must be <code className="">Shift</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the Toast platform input object. The value must be <code className="font-mono text-sm">Shift</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></div></td>
-      <td className=""><div className="">Specify the date and time that the shift begins.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the date and time that the shift begins.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(4)</a></div></td>
-      <td className=""><div className="">Specify the job for the shift in the <code className="">jobReference</code> value.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the job for the shift in the <code className="font-mono text-sm">jobReference</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(5)</a></div></td>
-      <td className=""><div className="">Specify the date and time that the shift ends.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the date and time that the shift ends.</p></div></td>
     </tr>
   
 ## Example response
@@ -140,7 +140,7 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">guid</code> value contains the GUID that the Toast platform assigns to the shift.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value contains the GUID that the Toast platform assigns to the shift.</p></div></td>
     </tr>
   

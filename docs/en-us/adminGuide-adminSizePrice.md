@@ -144,20 +144,20 @@ For scenarios where the price of a modifier is determined by the size of the men
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Small</div></td>
-      <td className=""><div className="">Small</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Small</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Small</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Medium</div></td>
-      <td className=""><div className="">Medium</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Medium</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Medium</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Large</div></td>
-      <td className=""><div className="">Large</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Large</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Large</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">XLarge</div></td>
-      <td className=""><div className="">XLarge</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">XLarge</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">XLarge</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -176,20 +176,20 @@ This configuration *is not acceptable*because the size names not match:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Small</div></td>
-      <td className=""><div className="">Sm</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Small</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Sm</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Medium</div></td>
-      <td className=""><div className="">Med</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Medium</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Med</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Large</div></td>
-      <td className=""><div className="">Lg</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Large</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Lg</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">XLarge</div></td>
-      <td className=""><div className="">XLg</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">XLarge</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">XLg</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -208,20 +208,20 @@ This configuration *is not acceptable*because XLarge is missing from the modifie
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Small</div></td>
-      <td className=""><div className="">Small</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Small</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Small</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Medium</div></td>
-      <td className=""><div className="">Medium</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Medium</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Medium</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Large</div></td>
-      <td className=""><div className="">Large</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Large</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Large</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">XLarge</div></td>
-      <td className=""><div className=""></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">XLarge</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"></p></div></td>
     </tr>
   </tbody>
 </table>

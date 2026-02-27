@@ -101,24 +101,24 @@ The following example shows the `prepTimes` object from the response from a `GET
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e34136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(1)</a></div></td>
-      <td className=""><div className="">The amount of time, in minutes, that it takes to prepare and deliver a delivery order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e34136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of time, in minutes, that it takes to prepare and deliver a delivery order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e49136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(2)</a></div></td>
-      <td className=""><div className="">The amount of time, in minutes, that restaurant employees have chosen to delay delivery orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e49136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of time, in minutes, that restaurant employees have chosen to delay delivery orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e40136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(3)</a></div></td>
-      <td className=""><div className="">The amount of time, in minutes, that it takes to prepare a takeout order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e40136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of time, in minutes, that it takes to prepare a takeout order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e47136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(4)</a></div></td>
-      <td className=""><div className="">The amount of time, in minutes, that restaurant employees have chosen to delay takeout orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e47136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of time, in minutes, that restaurant employees have chosen to delay takeout orders from firing. The throttling time allows restaurant employees to handle a temporary surge in orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e36136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(5)</a></div></td>
-      <td className=""><div className="">The <code className="">deliveryTimeAfterOpen</code>, <code className="">deliveryTimeBeforeClose</code>, <code className="">takeoutTimeAfterOpen</code>, and <code className="">takeoutTimeBeforeClose</code> settings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always <code className="">0</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e36136459DE-07E9-4B54-81B7-2199831BCEFD" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">deliveryTimeAfterOpen</code>, <code className="font-mono text-sm">deliveryTimeBeforeClose</code>, <code className="font-mono text-sm">takeoutTimeAfterOpen</code>, and <code className="font-mono text-sm">takeoutTimeBeforeClose</code> settings are discontinued. They cannot be configured in the Toast platform. In the response from the restaurants API, the values are always <code className="font-mono text-sm">0</code>.</p></div></td>
     </tr>
   
 ### Restaurant opening and closing times
@@ -168,36 +168,36 @@ The following example shows the `schedules` value with the opening and closing t
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e11738A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(1)</a></div></td>
-      <td className=""><div className="">The identifier of a one-day schedule configured for a restaurant. Each schedule can then be assigned to one or more days of the week.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11738A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of a one-day schedule configured for a restaurant. Each schedule can then be assigned to one or more days of the week.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e11938A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(2)</a></div></td>
-      <td className=""><div className="">The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 6:00 AM.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11938A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 6:00 AM.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e12138A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(3)</a></div></td>
-      <td className=""><div className="">The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 2:00 AM.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12138A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 2:00 AM.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e12338A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(4)</a></div></td>
-      <td className=""><div className="">The identifier of another one-day schedule configured for a restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12338A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of another one-day schedule configured for a restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e12538A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(5)</a></div></td>
-      <td className=""><div className="">The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 11:00 AM.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12538A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The time that the restaurant opens on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant opens at 11:00 AM.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e12838A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(6)</a></div></td>
-      <td className=""><div className="">The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 5:00 AM.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12838A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The time that the restaurant closes on days that use this day schedule. Times are expressed in 24-hour format. For days that use this schedule, the restaurant closes at 5:00 AM.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e13038A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(7)</a></div></td>
-      <td className=""><div className="">The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13038A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e13238A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(8)</a></div></td>
-      <td className=""><div className="">The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13238A7ED93-4BA1-46CE-89EF-D4AB1AFCB058" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of the day schedule that is used on this day of the week. The day of the week is determined by the local time zone of the restaurant.</p></div></td>
     </tr>
   
 ### Restaurant online ordering hours

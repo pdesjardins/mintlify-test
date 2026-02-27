@@ -151,44 +151,44 @@ The following example shows the JSON return data for a `GET` request to the `/di
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2299734545DE-34ED-4C72-91FC-F7D438E64472" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">/discounts</code> endpoint returns an array of <code className="">Discount</code> objects. You can use the <code className="">guid</code> value to apply the discount to an order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2299734545DE-34ED-4C72-91FC-F7D438E64472" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">/discounts</code> endpoint returns an array of <code className="font-mono text-sm">Discount</code> objects. You can use the <code className="font-mono text-sm">guid</code> value to apply the discount to an order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2301734545DE-34ED-4C72-91FC-F7D438E64472" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">selectionType</code> value indicates whether you can apply the discount to an item or to an entire check. This discount applies to an entire check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2301734545DE-34ED-4C72-91FC-F7D438E64472" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">selectionType</code> value indicates whether you can apply the discount to an item or to an entire check. This discount applies to an entire check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2303734545DE-34ED-4C72-91FC-F7D438E64472" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">nonExclusive</code> value indicates the <a href="adminGuide-adminDiscountExclusivity" className="">discount exclusivity</a> of this discount. If <code className="">true</code>, then the discount is nonexclusive and can be combined with discounts. If <code className="">false</code>, the discount is exclusive and cannot be combined with other discounts.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2303734545DE-34ED-4C72-91FC-F7D438E64472" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">nonExclusive</code> value indicates the <a href="adminGuide-adminDiscountExclusivity" className="">discount exclusivity</a> of this discount. If <code className="font-mono text-sm">true</code>, then the discount is nonexclusive and can be combined with discounts. If <code className="font-mono text-sm">false</code>, the discount is exclusive and cannot be combined with other discounts.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2305734545DE-34ED-4C72-91FC-F7D438E64472" className="">(4)</a></div></td>
-      <td className=""><div className="">The <code className="">type</code> value <code className="">FIXED</code> indicates that this discount reduces the check price by the fixed currency <code className="">amount</code> value.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2305734545DE-34ED-4C72-91FC-F7D438E64472" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">type</code> value <code className="font-mono text-sm">FIXED</code> indicates that this discount reduces the check price by the fixed currency <code className="font-mono text-sm">amount</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2307734545DE-34ED-4C72-91FC-F7D438E64472" className="">(5)</a></div></td>
-      <td className=""><div className="">Because it is a BOGO discount, the Toast platform applies the discount to items that match the item specification for the discount. In this case, it applies the discount to one of each set of two apples that are included as menu item selections in the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2307734545DE-34ED-4C72-91FC-F7D438E64472" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Because it is a BOGO discount, the Toast platform applies the discount to items that match the item specification for the discount. In this case, it applies the discount to one of each set of two apples that are included as menu item selections in the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2310734545DE-34ED-4C72-91FC-F7D438E64472" className="">(6)</a></div></td>
-      <td className=""><div className="">For BOGO discounts, the <code className="">itemPickingPriority</code> value indicates the setting of the <a href="adminGuide-adminDiscountsConfigureBogo#adminDiscountsBogoGetItemDiscount" className="">item picking priority option</a>. For example, a value of <code className="">LEAST_EXPENSIVE</code> means that the least expensive "get" item is discounted.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2310734545DE-34ED-4C72-91FC-F7D438E64472" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For BOGO discounts, the <code className="font-mono text-sm">itemPickingPriority</code> value indicates the setting of the <a href="adminGuide-adminDiscountsConfigureBogo#adminDiscountsBogoGetItemDiscount" className="">item picking priority option</a>. For example, a value of <code className="font-mono text-sm">LEAST_EXPENSIVE</code> means that the least expensive "get" item is discounted.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2312734545DE-34ED-4C72-91FC-F7D438E64472" className="">(7)</a></div></td>
-      <td className=""><div className="">The <code className="">type</code> value <code className="">BOGO</code> indicates that this discount matches item selections based on the criteria that you configure for the discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2312734545DE-34ED-4C72-91FC-F7D438E64472" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">type</code> value <code className="font-mono text-sm">BOGO</code> indicates that this discount matches item selections based on the criteria that you configure for the discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2314734545DE-34ED-4C72-91FC-F7D438E64472" className="">(8)</a></div></td>
-      <td className=""><div className="">The type value <code className="">PERCENT</code> indicates that this discount reduces the price of an item by the <code className="">percentage</code> value.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2314734545DE-34ED-4C72-91FC-F7D438E64472" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The type value <code className="font-mono text-sm">PERCENT</code> indicates that this discount reduces the price of an item by the <code className="font-mono text-sm">percentage</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2316734545DE-34ED-4C72-91FC-F7D438E64472" className="">(9)</a></div></td>
-      <td className=""><div className="">The <code className="">type</code> value <code className="">FIXED_TOTAL</code> indicates this is a combo discount that reduces the price of all the eligible items to a set currency amount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2316734545DE-34ED-4C72-91FC-F7D438E64472" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">type</code> value <code className="font-mono text-sm">FIXED_TOTAL</code> indicates this is a combo discount that reduces the price of all the eligible items to a set currency amount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2318734545DE-34ED-4C72-91FC-F7D438E64472" className="">(10)</a></div></td>
-      <td className=""><div className="">The <code className="">fixedTotal</code> value indicates the total price of items discounted by this combo discount. The <code className="">fixedTotal</code> value is <code className="">null</code> for discounts that are not combo discounts.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2318734545DE-34ED-4C72-91FC-F7D438E64472" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">fixedTotal</code> value indicates the total price of items discounted by this combo discount. The <code className="font-mono text-sm">fixedTotal</code> value is <code className="font-mono text-sm">null</code> for discounts that are not combo discounts.</p></div></td>
     </tr>
 ### Getting the list of applicable discounts for an order
 
@@ -237,24 +237,24 @@ Here is an example of a response to a `POST` request to the `/applicableDiscount
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#availableDiscountGuidCo" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the applicable discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#availableDiscountGuidCo" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the applicable discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#availableDiscountsEmptyChecksCo" className="">(2)</a></div></td>
-      <td className=""><div className="">Because this is an item-level discount, the <code className="">checks</code> value is empty.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#availableDiscountsEmptyChecksCo" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Because this is an item-level discount, the <code className="font-mono text-sm">checks</code> value is empty.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#availableDiscountsItemGuidCo" className="">(3)</a></div></td>
-      <td className=""><div className="">This is the GUID of a menu item selection that is eligible for the discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#availableDiscountsItemGuidCo" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This is the GUID of a menu item selection that is eligible for the discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#availableDiscountsChecksCo" className="">(4)</a></div></td>
-      <td className=""><div className="">For a check-level discount, the <code className="">applicableChecks</code> value is populated.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#availableDiscountsChecksCo" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For a check-level discount, the <code className="font-mono text-sm">applicableChecks</code> value is populated.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#availableDiscountsEmptySelectionsCo" className="">(5)</a></div></td>
-      <td className=""><div className="">For a check-level discount, the <code className="">applicableSelections</code> value is empty.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#availableDiscountsEmptySelectionsCo" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For a check-level discount, the <code className="font-mono text-sm">applicableSelections</code> value is empty.</p></div></td>
     </tr>
 ## Applying discounts to a new order
 
@@ -344,12 +344,12 @@ The following example shows a discount applied to a menu item selection.
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e348F363EEC9-2046-412B-BBF1-890075ECA926" className="">(1)</a></div></td>
-      <td className=""><div className="">This <code className="">AppliedDiscounts</code> object applies to the <code className="">MenuItemSelection</code> object that contains it.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e348F363EEC9-2046-412B-BBF1-890075ECA926" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This <code className="font-mono text-sm">AppliedDiscounts</code> object applies to the <code className="font-mono text-sm">MenuItemSelection</code> object that contains it.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e350F363EEC9-2046-412B-BBF1-890075ECA926" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">guid</code> value identifies a discount that is configured for your restaurant. For information about getting available discounts, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving" className="">Retrieving available discounts</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e350F363EEC9-2046-412B-BBF1-890075ECA926" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value identifies a discount that is configured for your restaurant. For information about getting available discounts, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving" className="">Retrieving available discounts</a>.</p></div></td>
     </tr>
 ### Applying discounts to an entire check
 
@@ -415,12 +415,12 @@ The following example shows a discount applied to a check.
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e379F363EEC9-2046-412B-BBF1-890075ECA926" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedDiscounts</code> value in the <code className="">Check</code> object contains <code className="">AppliedDiscount</code> objects for each discount that you apply to the check. Specify the GUID for each discount. For information about getting the GUID for a discount, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving" className="">Retrieving available discounts</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e379F363EEC9-2046-412B-BBF1-890075ECA926" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedDiscounts</code> value in the <code className="font-mono text-sm">Check</code> object contains <code className="font-mono text-sm">AppliedDiscount</code> objects for each discount that you apply to the check. Specify the GUID for each discount. For information about getting the GUID for a discount, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving" className="">Retrieving available discounts</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e381F363EEC9-2046-412B-BBF1-890075ECA926" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">guid</code> value identifies a discount that is configured for your restaurant. For information about getting GUIDs for discounts, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving" className="">Retrieving available discounts</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e381F363EEC9-2046-412B-BBF1-890075ECA926" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value identifies a discount that is configured for your restaurant. For information about getting GUIDs for discounts, see <a href="apiDevGuide-apiDiscountingOrders#apiOrdersDiscountsRetrieving" className="">Retrieving available discounts</a>.</p></div></td>
     </tr>
 ## Applying promotional codes
 
@@ -487,20 +487,20 @@ The following example shows promotional codes applied to check and menu item sel
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e1506DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of a menu item selection discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1506DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of a menu item selection discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e1508DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedPromoCode</code> value identifies a promotion that is associated with the menu item selection discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1508DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedPromoCode</code> value identifies a promotion that is associated with the menu item selection discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e1510DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID of a check discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1510DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of a check discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e1512DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(4)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedPromoCode</code> value identifies a promotion that is associated with the check discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1512DCFD6CC3-6D50-4CF5-BF62-DC7AF967B651" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedPromoCode</code> value identifies a promotion that is associated with the check discount.</p></div></td>
     </tr>
 ## Applying discounts to an existing order
 
@@ -546,16 +546,16 @@ For example:
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e166052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(1)</a></div></td>
-      <td className=""><div className="">You can include multiple discounts in the JSON array.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e166052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You can include multiple discounts in the JSON array.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e168052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(2)</a></div></td>
-      <td className=""><div className="">The Toast platform identifier of one of the discounts that is being added to a check or menu item selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e168052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform identifier of one of the discounts that is being added to a check or menu item selection.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e170052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(3)</a></div></td>
-      <td className=""><div className="">The identifier of another discount that is being added.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e170052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of another discount that is being added.</p></div></td>
     </tr>
 ### POSTing the discounts to the check or menu item selection
 
@@ -651,16 +651,16 @@ Here is an example of a response to a request to add discounts to a check:
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e196052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(1)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the order you added a discount in.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e196052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the order you added a discount in.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e198052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(2)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the check you added a discount to.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e198052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the check you added a discount to.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e200052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(3)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the discount you added.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e200052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the discount you added.</p></div></td>
     </tr>
 Here is an example of a response to a request to add a discount to a menu item selection:
 
@@ -735,20 +735,20 @@ Here is an example of a response to a request to add a discount to a menu item s
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e233052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(1)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the order you added a discount in.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e233052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the order you added a discount in.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e235052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(2)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the check you added a discount in.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e235052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the check you added a discount in.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e237052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(3)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the menu item selection you added a discount to.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e237052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the menu item selection you added a discount to.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e239052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(4)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the discount you added.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e239052FCDED-8EB9-4BFA-9C41-EBF50ED0E8CE" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the discount you added.</p></div></td>
     </tr>
 ## Verifying eligibility for discounts
 
@@ -891,16 +891,16 @@ For example, the following order contains a single menu item selection for three
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e23132AAD0504-D23B-47FA-B191-CCDA17A4B028" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the menu item selection for the check. To trigger the orders API to apply the discount, the specific menu items must match the configuration of the BOGO discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e23132AAD0504-D23B-47FA-B191-CCDA17A4B028" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item selection for the check. To trigger the orders API to apply the discount, the specific menu items must match the configuration of the BOGO discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e23152AAD0504-D23B-47FA-B191-CCDA17A4B028" className="">(2)</a></div></td>
-      <td className=""><div className="">The number of menu items in the check. To trigger the orders API to apply the discount, the number of menu items must match the configuration of the BOGO discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e23152AAD0504-D23B-47FA-B191-CCDA17A4B028" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of menu items in the check. To trigger the orders API to apply the discount, the number of menu items must match the configuration of the BOGO discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e23172AAD0504-D23B-47FA-B191-CCDA17A4B028" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID for a BOGO discount that is configured for your restaurant. You apply BOGO discounts in the <code className="">appliedDiscounts</code> value for the <code className="">Check</code> object.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e23172AAD0504-D23B-47FA-B191-CCDA17A4B028" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for a BOGO discount that is configured for your restaurant. You apply BOGO discounts in the <code className="font-mono text-sm">appliedDiscounts</code> value for the <code className="font-mono text-sm">Check</code> object.</p></div></td>
     </tr>
 In the returned order information, there are two `MenuItemSelection` objects.
 
@@ -1008,60 +1008,60 @@ The following example shows the return data for an order that includes a BOGO di
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2359FB6A5D14-9F96-466C-8541-5687523E637B" className="">(1)</a></div></td>
-      <td className=""><div className="">The BOGO discount is not applied to the <code className="">Check</code> in this <code className="">Order</code>. The BOGO discount is applied to the "get" menu item selections.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2359FB6A5D14-9F96-466C-8541-5687523E637B" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The BOGO discount is not applied to the <code className="font-mono text-sm">Check</code> in this <code className="font-mono text-sm">Order</code>. The BOGO discount is applied to the "get" menu item selections.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B" className="">(2)</a></div></td>
-      <td className=""><div className="">The GUID that the Toast POS system assigns to a menu item selection in a check. You can use this GUID to determine which <code className="">MenuItemSelection</code> triggered a discount. <br/> In this example, the first <code className="">MenuItemSelection</code> object includes the items that triggered the BOGO discount. The items that trigger a BOGO discount are the "buy" items.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID that the Toast POS system assigns to a menu item selection in a check. You can use this GUID to determine which <code className="font-mono text-sm">MenuItemSelection</code> triggered a discount.</p> <p className="text-base leading-relaxed">In this example, the first <code className="font-mono text-sm">MenuItemSelection</code> object includes the items that triggered the BOGO discount. The items that trigger a BOGO discount are the "buy" items.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2363FB6A5D14-9F96-466C-8541-5687523E637B" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID of the specific menu item. This matches the menu item configured as the "buy" item for the BOGO discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2363FB6A5D14-9F96-466C-8541-5687523E637B" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the specific menu item. This matches the menu item configured as the "buy" item for the BOGO discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2365FB6A5D14-9F96-466C-8541-5687523E637B" className="">(4)</a></div></td>
-      <td className=""><div className="">The quantity of the menu items in this <code className="">MenuItemSelection</code> object. This object includes the "buy" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original <code className="">MenuItemSelection</code> into two groups. The <code className="">quantity</code> of <code className="">2</code> in this <code className="">MenuItemSelection</code> object includes the "buy" item and another item that is not affected by the BOGO discount at all.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2365FB6A5D14-9F96-466C-8541-5687523E637B" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity of the menu items in this <code className="font-mono text-sm">MenuItemSelection</code> object. This object includes the "buy" item for the BOGO discount.</p> <p className="text-base leading-relaxed">The number of items in the input data for this order was three. This example response data splits the original <code className="font-mono text-sm">MenuItemSelection</code> into two groups. The <code className="font-mono text-sm">quantity</code> of <code className="font-mono text-sm">2</code> in this <code className="font-mono text-sm">MenuItemSelection</code> object includes the "buy" item and another item that is not affected by the BOGO discount at all.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2367FB6A5D14-9F96-466C-8541-5687523E637B" className="">(5)</a></div></td>
-      <td className=""><div className="">No discounts are applied to the <code className="">MenuItemSelection</code> for the "buy" item in the BOGO discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2367FB6A5D14-9F96-466C-8541-5687523E637B" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">No discounts are applied to the <code className="font-mono text-sm">MenuItemSelection</code> for the "buy" item in the BOGO discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2370FB6A5D14-9F96-466C-8541-5687523E637B" className="">(6)</a></div></td>
-      <td className=""><div className="">The GUID that the Toast platform assigns to a menu item selection in a check. You can use this GUID to determine which <code className="">MenuItemSelection</code> triggered a discount. <br/> In this example, the second <code className="">MenuItemSelection</code> object includes the items that the BOGO discount applies to. The items that are reduced in price by a BOGO discount are the "get" items.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2370FB6A5D14-9F96-466C-8541-5687523E637B" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID that the Toast platform assigns to a menu item selection in a check. You can use this GUID to determine which <code className="font-mono text-sm">MenuItemSelection</code> triggered a discount.</p> <p className="text-base leading-relaxed">In this example, the second <code className="font-mono text-sm">MenuItemSelection</code> object includes the items that the BOGO discount applies to. The items that are reduced in price by a BOGO discount are the "get" items.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2372FB6A5D14-9F96-466C-8541-5687523E637B" className="">(7)</a></div></td>
-      <td className=""><div className="">The GUID of the specific menu item. This matches the menu item configured as the "get" item for the BOGO discount. In this example, the specific menu item for the "buy" and "get" items are the same item, a cup of soup.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2372FB6A5D14-9F96-466C-8541-5687523E637B" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the specific menu item. This matches the menu item configured as the "get" item for the BOGO discount. In this example, the specific menu item for the "buy" and "get" items are the same item, a cup of soup.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2374FB6A5D14-9F96-466C-8541-5687523E637B" className="">(8)</a></div></td>
-      <td className=""><div className="">The quantity of the menu items in this <code className="">MenuItemSelection</code> object. This object includes the "get" item for the BOGO discount. <br/> The number of items in the input data for this order was three. This example response data splits the original <code className="">MenuItemSelection</code> into two groups. The <code className="">quantity</code> of <code className="">1</code> in this <code className="">MenuItemSelection</code> object includes the "get" item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2374FB6A5D14-9F96-466C-8541-5687523E637B" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity of the menu items in this <code className="font-mono text-sm">MenuItemSelection</code> object. This object includes the "get" item for the BOGO discount.</p> <p className="text-base leading-relaxed">The number of items in the input data for this order was three. This example response data splits the original <code className="font-mono text-sm">MenuItemSelection</code> into two groups. The <code className="font-mono text-sm">quantity</code> of <code className="font-mono text-sm">1</code> in this <code className="font-mono text-sm">MenuItemSelection</code> object includes the "get" item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2376FB6A5D14-9F96-466C-8541-5687523E637B" className="">(9)</a></div></td>
-      <td className=""><div className="">The price of the "get" item before the BOGO discount is applied.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2376FB6A5D14-9F96-466C-8541-5687523E637B" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the "get" item before the BOGO discount is applied.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2378FB6A5D14-9F96-466C-8541-5687523E637B" className="">(10)</a></div></td>
-      <td className=""><div className="">The BOGO discount is applied to the <code className="">MenuItemSelection</code> that includes the "get" item for the discount. The <code className="">AppliedCustomDiscount</code> object includes information about the BOGO discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2378FB6A5D14-9F96-466C-8541-5687523E637B" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The BOGO discount is applied to the <code className="font-mono text-sm">MenuItemSelection</code> that includes the "get" item for the discount. The <code className="font-mono text-sm">AppliedCustomDiscount</code> object includes information about the BOGO discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2380FB6A5D14-9F96-466C-8541-5687523E637B" className="">(11)</a></div></td>
-      <td className=""><div className="">In this example, the BOGO discount applies a 100% price reduction to the "get" item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2380FB6A5D14-9F96-466C-8541-5687523E637B" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example, the BOGO discount applies a 100% price reduction to the "get" item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2383FB6A5D14-9F96-466C-8541-5687523E637B" className="">(12)</a></div></td>
-      <td className=""><div className="">The <code className="">triggers</code> value indicates which <code className="">MenuItemSelection</code> object in the check qualified the current menu item for the discount. The <code className="">guid</code> value matches the GUID that the Toast platform assigned to the <code className="">MenuItemSelection</code> that triggered the discount. In this example, see <a href="apiDevGuide-apiDiscountingOrders#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B" className="">the matching GUID</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2383FB6A5D14-9F96-466C-8541-5687523E637B" className="">(12)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">triggers</code> value indicates which <code className="font-mono text-sm">MenuItemSelection</code> object in the check qualified the current menu item for the discount. The <code className="font-mono text-sm">guid</code> value matches the GUID that the Toast platform assigned to the <code className="font-mono text-sm">MenuItemSelection</code> that triggered the discount. In this example, see <a href="apiDevGuide-apiDiscountingOrders#co-d1e2361FB6A5D14-9F96-466C-8541-5687523E637B" className="">the matching GUID</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2385FB6A5D14-9F96-466C-8541-5687523E637B" className="">(13)</a></div></td>
-      <td className=""><div className="">In this example, the BOGO discount applies to one "get" item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2385FB6A5D14-9F96-466C-8541-5687523E637B" className="">(13)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example, the BOGO discount applies to one "get" item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2387FB6A5D14-9F96-466C-8541-5687523E637B" className="">(14)</a></div></td>
-      <td className=""><div className="">The price of the "get" item is reduced by the BOGO discount. In this example, the BOGO discount reduces the price of the "get" item by 100%.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2387FB6A5D14-9F96-466C-8541-5687523E637B" className="">(14)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the "get" item is reduced by the BOGO discount. In this example, the BOGO discount reduces the price of the "get" item by 100%.</p></div></td>
     </tr>
 ### Applying a combo discount
 
@@ -1110,16 +1110,16 @@ For example, the following order contains a single menu item selection for three
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2684531BD268-895B-4950-9F99-86F6459D75C7" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the menu item selection for the check. The specific menu items must match the configuration of the combo discount to trigger the orders API to apply that discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2684531BD268-895B-4950-9F99-86F6459D75C7" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item selection for the check. The specific menu items must match the configuration of the combo discount to trigger the orders API to apply that discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2686531BD268-895B-4950-9F99-86F6459D75C7" className="">(2)</a></div></td>
-      <td className=""><div className="">The number of menu items in the check. The number of menu items must match the configuration of the combo discount to trigger the orders API to apply that discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2686531BD268-895B-4950-9F99-86F6459D75C7" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of menu items in the check. The number of menu items must match the configuration of the combo discount to trigger the orders API to apply that discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2688531BD268-895B-4950-9F99-86F6459D75C7" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID for a combo discount that is configured for your restaurant. You apply combo discounts in the <code className="">appliedDiscounts</code> value for the check object.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2688531BD268-895B-4950-9F99-86F6459D75C7" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for a combo discount that is configured for your restaurant. You apply combo discounts in the <code className="font-mono text-sm">appliedDiscounts</code> value for the check object.</p></div></td>
     </tr>
 In the returned order information, there are two `MenuItemSelection` objects.
 
@@ -1234,60 +1234,60 @@ In the `AppliedDiscounts` object for the check, the `comboItems` object points t
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2717531BD268-895B-4950-9F99-86F6459D75C7" className="">(1)</a></div></td>
-      <td className=""><div className="">You apply a combo discount in the <code className="">appliedDiscounts</code> value of the <code className="">Check</code> object in an order. The response data for a check with a combo discount includes the discount information in the <code className="">appliedDiscounts</code> value for the <code className="">Check</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2717531BD268-895B-4950-9F99-86F6459D75C7" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You apply a combo discount in the <code className="font-mono text-sm">appliedDiscounts</code> value of the <code className="font-mono text-sm">Check</code> object in an order. The response data for a check with a combo discount includes the discount information in the <code className="font-mono text-sm">appliedDiscounts</code> value for the <code className="font-mono text-sm">Check</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2719531BD268-895B-4950-9F99-86F6459D75C7" className="">(2)</a></div></td>
-      <td className=""><div className="">The GUID of the <code className="">MenuItemSelection</code> that the combo discount is applied to.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2719531BD268-895B-4950-9F99-86F6459D75C7" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the <code className="font-mono text-sm">MenuItemSelection</code> that the combo discount is applied to.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2721531BD268-895B-4950-9F99-86F6459D75C7" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID of the combo discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2721531BD268-895B-4950-9F99-86F6459D75C7" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the combo discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2723531BD268-895B-4950-9F99-86F6459D75C7" className="">(4)</a></div></td>
-      <td className=""><div className="">The GUID of the <code className="">MenuItemSelection</code> that contains the menu items that qualify for the combo discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2723531BD268-895B-4950-9F99-86F6459D75C7" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the <code className="font-mono text-sm">MenuItemSelection</code> that contains the menu items that qualify for the combo discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2725531BD268-895B-4950-9F99-86F6459D75C7" className="">(5)</a></div></td>
-      <td className=""><div className="">The number of menu items that qualify for the combo discount. For example, the combo discount in this example applies to two cups of soup.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2725531BD268-895B-4950-9F99-86F6459D75C7" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of menu items that qualify for the combo discount. For example, the combo discount in this example applies to two cups of soup.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2728531BD268-895B-4950-9F99-86F6459D75C7" className="">(6)</a></div></td>
-      <td className=""><div className="">The GUID that the Toast platform assigned to a menu item selection in a check. You can use this GUID to determine which <code className="">MenuItemSelection</code> triggered a discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2728531BD268-895B-4950-9F99-86F6459D75C7" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID that the Toast platform assigned to a menu item selection in a check. You can use this GUID to determine which <code className="font-mono text-sm">MenuItemSelection</code> triggered a discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2730531BD268-895B-4950-9F99-86F6459D75C7" className="">(7)</a></div></td>
-      <td className=""><div className="">The GUID of the specific menu item for this selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2730531BD268-895B-4950-9F99-86F6459D75C7" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the specific menu item for this selection.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2732531BD268-895B-4950-9F99-86F6459D75C7" className="">(8)</a></div></td>
-      <td className=""><div className="">The quantity of the menu items in this <code className="">MenuItemSelection</code> object. <br/> The number of items in the input data for this order was three. This example response data splits the original <code className="">MenuItemSelection</code> into two groups. The <code className="">quantity</code> of <code className="">1</code> in this <code className="">MenuItemSelection</code> object is not included in the combo discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2732531BD268-895B-4950-9F99-86F6459D75C7" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity of the menu items in this <code className="font-mono text-sm">MenuItemSelection</code> object.</p> <p className="text-base leading-relaxed">The number of items in the input data for this order was three. This example response data splits the original <code className="font-mono text-sm">MenuItemSelection</code> into two groups. The <code className="font-mono text-sm">quantity</code> of <code className="font-mono text-sm">1</code> in this <code className="font-mono text-sm">MenuItemSelection</code> object is not included in the combo discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2734531BD268-895B-4950-9F99-86F6459D75C7" className="">(9)</a></div></td>
-      <td className=""><div className="">The orders API reports combo discount information in the <code className="">appliedDiscounts</code> value for the <code className="">Check</code>. The <code className="">appliedDiscounts</code> value for the menu item selection is empty.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2734531BD268-895B-4950-9F99-86F6459D75C7" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The orders API reports combo discount information in the <code className="font-mono text-sm">appliedDiscounts</code> value for the <code className="font-mono text-sm">Check</code>. The <code className="font-mono text-sm">appliedDiscounts</code> value for the menu item selection is empty.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2736531BD268-895B-4950-9F99-86F6459D75C7" className="">(10)</a></div></td>
-      <td className=""><div className="">The GUID of the specific menu item for this selection. This matches the menu item configured in the combo discount. In this example, the specific menu item is a cup of soup.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2736531BD268-895B-4950-9F99-86F6459D75C7" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the specific menu item for this selection. This matches the menu item configured in the combo discount. In this example, the specific menu item is a cup of soup.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2738531BD268-895B-4950-9F99-86F6459D75C7" className="">(11)</a></div></td>
-      <td className=""><div className="">The quantity of the menu items in this <code className="">MenuItemSelection</code> object. <br/> The number of items in the input data for this order was three. This example response data splits the original <code className="">MenuItemSelection</code> into two groups. The <code className="">quantity</code> of <code className="">2</code> in this <code className="">MenuItemSelection</code> object includes the two cups of soup that are configured in the example combo discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2738531BD268-895B-4950-9F99-86F6459D75C7" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity of the menu items in this <code className="font-mono text-sm">MenuItemSelection</code> object.</p> <p className="text-base leading-relaxed">The number of items in the input data for this order was three. This example response data splits the original <code className="font-mono text-sm">MenuItemSelection</code> into two groups. The <code className="font-mono text-sm">quantity</code> of <code className="font-mono text-sm">2</code> in this <code className="font-mono text-sm">MenuItemSelection</code> object includes the two cups of soup that are configured in the example combo discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2741531BD268-895B-4950-9F99-86F6459D75C7" className="">(12)</a></div></td>
-      <td className=""><div className="">The price of the two menu items before the combo discount is applied.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2741531BD268-895B-4950-9F99-86F6459D75C7" className="">(12)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the two menu items before the combo discount is applied.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2743531BD268-895B-4950-9F99-86F6459D75C7" className="">(13)</a></div></td>
-      <td className=""><div className="">The orders API reports combo discount information in the <code className="">appliedDiscounts</code> value for the <code className="">Check</code>. The <code className="">appliedDiscounts</code> value for the menu item is empty.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2743531BD268-895B-4950-9F99-86F6459D75C7" className="">(13)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The orders API reports combo discount information in the <code className="font-mono text-sm">appliedDiscounts</code> value for the <code className="font-mono text-sm">Check</code>. The <code className="font-mono text-sm">appliedDiscounts</code> value for the menu item is empty.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2745531BD268-895B-4950-9F99-86F6459D75C7" className="">(14)</a></div></td>
-      <td className=""><div className="">The price of the two menu items after the combo discount is applied.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2745531BD268-895B-4950-9F99-86F6459D75C7" className="">(14)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the two menu items after the combo discount is applied.</p></div></td>
     </tr>
 ## Working with loyalty programs
 
@@ -1379,16 +1379,16 @@ The following example shows a check being applied to a loyalty program account.
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e29207557168-3DB0-4F1C-BC76-F4C42119A6B2" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedLoyaltyInfo</code> value holds an <code className="">AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e29207557168-3DB0-4F1C-BC76-F4C42119A6B2" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedLoyaltyInfo</code> value holds an <code className="font-mono text-sm">AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e29407557168-3DB0-4F1C-BC76-F4C42119A6B2" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e29407557168-3DB0-4F1C-BC76-F4C42119A6B2" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that are supported by the Toast POS system. The value is usually <code className="">INTEGRATION</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e29907557168-3DB0-4F1C-BC76-F4C42119A6B2" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that are supported by the Toast POS system. The value is usually <code className="font-mono text-sm">INTEGRATION</code>.</p></div></td>
     </tr>
 ### Applying loyalty program discounts to an order
 
@@ -1475,28 +1475,28 @@ The following example shows the JSON message body to `POST` an order with a chec
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e266B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedLoyaltyInfo</code> value holds an <code className="">AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e266B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedLoyaltyInfo</code> value holds an <code className="font-mono text-sm">AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e268B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e268B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this might be the loyalty card number for a program member.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e270B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast POS system supports. The value is usually <code className="">INTEGRATION</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e270B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast POS system supports. The value is usually <code className="font-mono text-sm">INTEGRATION</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e272B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(4)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedDiscounts</code> value holds an <code className="">AppliedDiscount</code> object that specifies the loyalty program discount or discounts to apply to the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e272B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedDiscounts</code> value holds an <code className="font-mono text-sm">AppliedDiscount</code> object that specifies the loyalty program discount or discounts to apply to the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e274B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(5)</a></div></td>
-      <td className=""><div className="">The <code className="">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code className="">INTEGRATION</code>. If <code className="">vendor</code> is <code className="">INTEGRATION</code>, then you do not provide a discount GUID or amount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e274B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code className="font-mono text-sm">INTEGRATION</code>. If <code className="font-mono text-sm">vendor</code> is <code className="font-mono text-sm">INTEGRATION</code>, then you do not provide a discount GUID or amount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e277B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(6)</a></div></td>
-      <td className=""><div className="">The <code className="">referenceId</code> value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e277B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">referenceId</code> value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</p></div></td>
     </tr>
 This example shows the JSON message body to `POST` an order with an item-level loyalty program discount.
 
@@ -1552,28 +1552,28 @@ This example shows the JSON message body to `POST` an order with an item-level l
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e290B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedLoyaltyInfo</code> value holds an <code className="">AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e290B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedLoyaltyInfo</code> value holds an <code className="font-mono text-sm">AppliedLoyaltyInfo</code> object that associates a check with a specific loyalty account.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e292B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this may be the loyalty card number for a program member.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e292B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">loyaltyIdentifier</code> value is the unique identifier of the loyalty account that is recognized by the loyalty program service provider. For example, this may be the loyalty card number for a program member.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e294B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code className="">INTEGRATION</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e294B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code className="font-mono text-sm">INTEGRATION</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e296B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(4)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedDiscounts</code> value holds an <code className="">AppliedDiscount</code> object that specifies the loyalty program discount or discounts being applied to the item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e296B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedDiscounts</code> value holds an <code className="font-mono text-sm">AppliedDiscount</code> object that specifies the loyalty program discount or discounts being applied to the item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e298B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(5)</a></div></td>
-      <td className=""><div className="">The <code className="">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code className="">INTEGRATION</code>. If vendor is <code className="">INTEGRATION</code>, then you do not provide a discount GUID or discount amount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e298B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">vendor</code> value specifies the loyalty program service provider. The value is one of the enumerated service provider names that the Toast platform supports. The value is usually <code className="font-mono text-sm">INTEGRATION</code>. If vendor is <code className="font-mono text-sm">INTEGRATION</code>, then you do not provide a discount GUID or discount amount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e301B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(6)</a></div></td>
-      <td className=""><div className="">The <code className="">referenceId</code> value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e301B5FD597B-A42F-4C83-8CA0-E173E36FE922" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">referenceId</code> value is the unique identifier that is recognized by the loyalty program service provider. The loyalty program service provider matches this value to its own discount records.</p></div></td>
     </tr>
 ### Validating loyalty program account and discount eligibility
 

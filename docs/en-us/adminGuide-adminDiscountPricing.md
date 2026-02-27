@@ -67,16 +67,16 @@ For example, assume this combo discount:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">NonTaxed item</div></td>
-      <td className=""><div className="">$5.00</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">NonTaxed item</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5.00</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Taxed item</div></td>
-      <td className=""><div className="">$10.00 and taxed at 10%</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Taxed item</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$10.00 and taxed at 10%</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Combo price for both items</div></td>
-      <td className=""><div className="">$12.00</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Combo price for both items</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$12.00</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -175,18 +175,18 @@ The discount in the example is applied as follows, depending on the configuratio
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Configuration setting</div></th>
-      <th className=""><div className="">Effect</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Configuration setting</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Effect</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Consolidate discounts: Off</div></td>
-      <td className=""><div className="">The fixed currency discount is applied to the total of all items: <br/> 2 Sodas, $10 - $2 Discount = $8</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Consolidate discounts: Off</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The fixed currency discount is applied to the total of all items:</p> <p className="text-base leading-relaxed">2 Sodas, $10 - $2 Discount = $8</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Consolidate discounts: On</div></td>
-      <td className=""><div className="">The fixed currency discount is applied to each quantity of one item: <br/> 2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Consolidate discounts: On</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The fixed currency discount is applied to each quantity of one item:</p> <p className="text-base leading-relaxed">2 Sodas, $10 - $2 discount (x quantity of 2 items) = $6</p></div></td>
     </tr>
   </tbody>
 </table>

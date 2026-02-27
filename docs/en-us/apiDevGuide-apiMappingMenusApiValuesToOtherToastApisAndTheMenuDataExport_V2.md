@@ -69,24 +69,24 @@ The menus API returns metadata about a restaurant in its `Restaurant` object. Th
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Restaurant GUID</div></td>
-      <td className=""><div className="">restaurantGuid</div></td>
-      <td className=""><div className="">guid (in the Restaurant object)</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Restaurant GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">restaurantGuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid (in the Restaurant object)</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Publication Date</div></td>
-      <td className=""><div className="">lastUpdated</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Publication Date</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">lastUpdated</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Time Zone</div></td>
-      <td className=""><div className="">restaurantTimeZone</div></td>
-      <td className=""><div className="">timeZone</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Time Zone</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">restaurantTimeZone</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">timeZone</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menus</div></td>
-      <td className=""><div className="">menus</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menus</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menus</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -109,106 +109,106 @@ This section provides a mapping that shows the configuration options for menus i
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">entityType</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">entityType</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menu GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menu GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Number</div></td>
-      <td className=""><div className="">multilocationId</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">multilocationId</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Groups</div></td>
-      <td className=""><div className="">menuGroups</div></td>
-      <td className=""><div className="">groups</div></td>
-      <td className=""><div className="">groups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Groups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menuGroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">groups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">groups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Available at all times of the day</div></td>
-      <td className=""><div className="">availability</div></td>
-      <td className=""><div className="">availableAllTimes</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Available at all times of the day</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">availability</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">availableAllTimes</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Times available</div></td>
-      <td className=""><div className="">availability</div></td>
-      <td className=""><div className="">startTime <br/> endTime <br/> startTimeHHmm <br/> endTimeHHmm <br/> startTimeLocalStandardTime <br/> endTimeLocalStandardTime <br/> startTimeHHmmLocalStandardTime <br/> endTimeHHmmLocalStandardTime</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Times available</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">availability</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">startTime</p> <p className="text-base leading-relaxed">endTime</p> <p className="text-base leading-relaxed">startTimeHHmm</p> <p className="text-base leading-relaxed">endTimeHHmm</p> <p className="text-base leading-relaxed">startTimeLocalStandardTime</p> <p className="text-base leading-relaxed">endTimeLocalStandardTime</p> <p className="text-base leading-relaxed">startTimeHHmmLocalStandardTime</p> <p className="text-base leading-relaxed">endTimeHHmmLocalStandardTime</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Available every day</div></td>
-      <td className=""><div className="">availability</div></td>
-      <td className=""><div className="">availableAllDays</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Available every day</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">availability</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">availableAllDays</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Days available</div></td>
-      <td className=""><div className="">availability</div></td>
-      <td className=""><div className="">daysAvailableBits <br/> daysAvailableString</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Days available</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">availability</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">daysAvailableBits</p> <p className="text-base leading-relaxed">daysAvailableString</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Image</div></td>
-      <td className=""><div className="">image</div></td>
-      <td className=""><div className="">imageLink</div></td>
-      <td className=""><div className="">images</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">imageLink</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">images</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">High Res Image</div></td>
-      <td className=""><div className="">highResImage</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">High Res Image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">highResImage</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orderable Online</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orderable Online</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Grubhub</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Grubhub</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">idString</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">idString</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">orderableOnlineStatus</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnlineStatus</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -231,112 +231,112 @@ This section provides a mapping that shows the configuration options for menu gr
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">entityType</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">entityType</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Number</div></td>
-      <td className=""><div className="">multilocationId</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">multilocationId</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Items</div></td>
-      <td className=""><div className="">menuItems</div></td>
-      <td className=""><div className="">items</div></td>
-      <td className=""><div className="">items</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Items</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menuItems</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">items</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">items</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Modifier Groups</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">optionGroups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Modifier Groups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">optionGroups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Subgroups</div></td>
-      <td className=""><div className="">menuGroups</div></td>
-      <td className=""><div className="">subgroups</div></td>
-      <td className=""><div className="">subgroups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Subgroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menuGroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">subgroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">subgroups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Image</div></td>
-      <td className=""><div className="">image</div></td>
-      <td className=""><div className="">imageLink</div></td>
-      <td className=""><div className="">images</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">imageLink</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">images</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orderable Online</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orderable Online</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Grubhub</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Grubhub</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">idString</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">idString</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">menu</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menu</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">parent</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">parent</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">inheritOptionGroups</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">inheritOptionGroups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">inheritOptionGroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">inheritOptionGroups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Unit of Measure</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">unitOfMeasure</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Unit of Measure</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">unitOfMeasure</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Inherit Unit of Measure</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">inheritUnitOfMeasure</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Inherit Unit of Measure</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">inheritUnitOfMeasure</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -359,178 +359,178 @@ This section provides a mapping that shows the configuration options for menu it
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">entityType</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">entityType</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Number</div></td>
-      <td className=""><div className="">multilocationId</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">multilocationId</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Price Level</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Price Level</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Pricing Strategy</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Pricing Strategy</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Base Price</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Base Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Size Prices</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Size Prices</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menu Prices</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menu Prices</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Time Prices</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Time Prices</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Location Prices</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Location Prices</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Portions</div></td>
-      <td className=""><div className="">portions</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Portions</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">portions</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Modifier Groups</div></td>
-      <td className=""><div className="">modifierGroupReferences</div></td>
-      <td className=""><div className="">optionGroups</div></td>
-      <td className=""><div className="">optionGroups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Modifier Groups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">modifierGroupReferences</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">optionGroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">optionGroups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Inherited Modifier Groups</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">inheritOptionGroups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Inherited Modifier Groups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">inheritOptionGroups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Calories</div></td>
-      <td className=""><div className="">calories</div></td>
-      <td className=""><div className="">calories</div></td>
-      <td className=""><div className="">calories</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Calories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">calories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">calories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">calories</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Image</div></td>
-      <td className=""><div className="">image</div></td>
-      <td className=""><div className="">imageLink</div></td>
-      <td className=""><div className="">images</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">imageLink</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">images</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Tags</div></td>
-      <td className=""><div className="">itemTags</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Tags</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">itemTags</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orderable Online</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orderable Online</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Grubhub Orderable</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Grubhub Orderable</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">SKU</div></td>
-      <td className=""><div className="">sku</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">sku</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">SKU</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">sku</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">sku</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">PLU</div></td>
-      <td className=""><div className="">plu</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">plu</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">PLU</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">plu</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">plu</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Sales Category</div></td>
-      <td className=""><div className="">salesCategory</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Sales Category</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">salesCategory</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Can be discounted</div></td>
-      <td className=""><div className="">isDiscountable</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Can be discounted</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">isDiscountable</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Applicable taxes</div></td>
-      <td className=""><div className="">taxInfo</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Applicable taxes</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">taxInfo</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Unit of Measure</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">unitOfMeasure</div></td>
-      <td className=""><div className="">unitOfMeasure</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Unit of Measure</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">unitOfMeasure</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">unitOfMeasure</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Inherit Unit of Measure</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">inheritUnitOfMeasure</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Inherit Unit of Measure</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">inheritUnitOfMeasure</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">type</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">type</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -553,130 +553,130 @@ This section provides a mapping that shows the configuration options for modifie
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">entityType</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">entityType</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Number</div></td>
-      <td className=""><div className="">multilocationId</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">multilocationId</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Required</div></td>
-      <td className=""><div className="">requiredMode</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Required</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">requiredMode</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Multi-select</div></td>
-      <td className=""><div className="">isMultiSelect</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Multi-select</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">isMultiSelect</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Min # selections</div></td>
-      <td className=""><div className="">minSelections</div></td>
-      <td className=""><div className="">minSelections</div></td>
-      <td className=""><div className="">minSelections</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Min # selections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">minSelections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">minSelections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">minSelections</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Max # selections</div></td>
-      <td className=""><div className="">maxSelections</div></td>
-      <td className=""><div className="">maxSelections</div></td>
-      <td className=""><div className="">maxSelections</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Max # selections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">maxSelections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">maxSelections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">maxSelections</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Pre-Modifier Group</div></td>
-      <td className=""><div className="">premodifierGroupReferences</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Pre-Modifier Group</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">premodifierGroupReferences</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Select where pricing is set</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">pricingMode</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Select where pricing is set</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingMode</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Allow default modifiers to charge their configured price</div></td>
-      <td className=""><div className="">defaultOptionsChargePrice</div></td>
-      <td className=""><div className="">defaultOptionsChargePrice</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allow default modifiers to charge their configured price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">defaultOptionsChargePrice</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">defaultOptionsChargePrice</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Enable Substitution Pricing</div></td>
-      <td className=""><div className="">defaultOptionsSubstitutionPricing</div></td>
-      <td className=""><div className="">defaultOptionsSubstitutionPricing</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Enable Substitution Pricing</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">defaultOptionsSubstitutionPricing</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">defaultOptionsSubstitutionPricing</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Select pricing for all modifiers</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Select pricing for all modifiers</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Fixed Modifier Price</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Fixed Modifier Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Sequence Price</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingStrategyRules</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Sequence Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingStrategyRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Size Price</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingStrategyRules</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Size Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingStrategyRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Size/Sequence Price</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingStrategyRules</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Size/Sequence Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingStrategyRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Modifiers</div></td>
-      <td className=""><div className="">modifierOptionReferences</div></td>
-      <td className=""><div className="">items</div></td>
-      <td className=""><div className="">options</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Modifiers</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">modifierOptionReferences</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">items</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">options</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Grubhub</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Grubhub</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">ID string</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">idString</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">ID string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">idString</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -706,142 +706,142 @@ This section provides a mapping that shows the configuration options for modifie
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">entityType</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">entityType</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Number</div></td>
-      <td className=""><div className="">multilocationId</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">multilocationId</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Enable duplicates of this modifier</div></td>
-      <td className=""><div className="">allowsDuplicates</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Enable duplicates of this modifier</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">allowsDuplicates</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Default</div></td>
-      <td className=""><div className="">isDefault</div></td>
-      <td className=""><div className="">isDefaultMod</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Default</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">isDefault</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">isDefaultMod</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orderable Online</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">orderableOnline</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orderable Online</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orderableOnline</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Grubhub Orderable</div></td>
-      <td className=""><div className="">visibility</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Grubhub Orderable</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">visibility</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Tax info</div></td>
-      <td className=""><div className="">taxInfo</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Tax info</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">taxInfo</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Sales Category</div></td>
-      <td className=""><div className="">salesCategory</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Sales Category</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">salesCategory</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Calories</div></td>
-      <td className=""><div className="">calories</div></td>
-      <td className=""><div className="">calories</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Calories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">calories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">calories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">SKU</div></td>
-      <td className=""><div className="">sku</div></td>
-      <td className=""><div className="">sku</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">SKU</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">sku</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">sku</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">PLU</div></td>
-      <td className=""><div className="">plu</div></td>
-      <td className=""><div className="">plu</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">PLU</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">plu</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">plu</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID (on the menu item details page)</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">itemGroupGuid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID (on the menu item details page)</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">itemGroupGuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Option Groups</div></td>
-      <td className=""><div className="">modifierGroupReferences</div></td>
-      <td className=""><div className="">optionGroups</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Option Groups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">modifierGroupReferences</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">optionGroups</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Price</div></td>
-      <td className=""><div className="">pricingStrategy <br/> pricingRules</div></td>
-      <td className=""><div className="">price</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">pricingStrategy</p> <p className="text-base leading-relaxed">pricingRules</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">description</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">description</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Item Tags</div></td>
-      <td className=""><div className="">itemTags</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Item Tags</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">itemTags</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">maxSelections</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">maxSelections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">jsonIdentifier</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">jsonIdentifier</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Portions</div></td>
-      <td className=""><div className="">portions</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Portions</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">portions</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Image</div></td>
-      <td className=""><div className="">image</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">image</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -864,28 +864,28 @@ This section provides a mapping that shows the configuration options for premodi
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Default</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">isDefault</div></td>
-      <td className=""><div className="">isDefault</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Default</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">isDefault</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">isDefault</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Members</div></td>
-      <td className=""><div className="">premodifiers</div></td>
-      <td className=""><div className="">premodifiers</div></td>
-      <td className=""><div className=""></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Members</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">premodifiers</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">premodifiers</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"></p></div></td>
     </tr>
   </tbody>
 </table>
@@ -908,46 +908,46 @@ This section provides a mapping that shows the configuration options for premodi
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
-      <td className=""><div className="">name</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">name</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">GUID</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">guid</div></td>
-      <td className=""><div className="">-</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">guid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Base Price</div></td>
-      <td className=""><div className="">fixedPrice</div></td>
-      <td className=""><div className="">basePrice</div></td>
-      <td className=""><div className="">basePrice</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Base Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">fixedPrice</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">basePrice</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">basePrice</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Scale Price</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">scalePrice</div></td>
-      <td className=""><div className="">scalePrice</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Scale Price</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">scalePrice</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">scalePrice</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Scale Factor</div></td>
-      <td className=""><div className="">multiplicationFactor</div></td>
-      <td className=""><div className="">scaleFactor</div></td>
-      <td className=""><div className="">scaleFactor</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Scale Factor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">multiplicationFactor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">scaleFactor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">scaleFactor</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Display Mode</div></td>
-      <td className=""><div className="">displayMode</div></td>
-      <td className=""><div className="">displayMode</div></td>
-      <td className=""><div className="">displayMode</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Display Mode</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">displayMode</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">displayMode</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">displayMode</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Parent</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">-</div></td>
-      <td className=""><div className="">parent</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Parent</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">parent</p></div></td>
     </tr>
   </tbody>
 </table>

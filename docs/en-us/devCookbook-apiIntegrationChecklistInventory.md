@@ -93,26 +93,26 @@ The following table provides suggested information that you can display in diffe
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Object</div></th>
-      <th className=""><div className=""> Values</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Object</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed"> Values</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Consider displaying the following reporting information for orders:<ul className=""><li className="">Order source</li><li className="">Opened date</li><li className="">Paid date</li><li className="">Closed date</li><li className="">Voided status</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Consider displaying the following reporting information for orders:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Order source</p></li><li className=""><p className="text-base leading-relaxed">Opened date</p></li><li className=""><p className="text-base leading-relaxed">Paid date</p></li><li className=""><p className="text-base leading-relaxed">Closed date</p></li><li className=""><p className="text-base leading-relaxed">Voided status</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Checks</div></td>
-      <td className=""><div className="">Consider displaying the following reporting information for checks:<ul className=""><li className="">Display number</li><li className="">Tab name</li><li className="">Total amount</li><li className="">Refunded amount</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Checks</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Consider displaying the following reporting information for checks:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Display number</p></li><li className=""><p className="text-base leading-relaxed">Tab name</p></li><li className=""><p className="text-base leading-relaxed">Total amount</p></li><li className=""><p className="text-base leading-relaxed">Refunded amount</p></li><li className=""><p className="text-base leading-relaxed">Applied discount names</p></li><li className=""><p className="text-base leading-relaxed">Applied discount amounts</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menu item selections</div></td>
-      <td className=""><div className="">Consider displaying the following reporting information for item selections:<ul className=""><li className="">Menu item name - Use <code className="">displayName</code> value on <code className="">Selection</code> object</li><li className="">Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</li><li className="">Price</li><li className="">Applied discount names</li><li className="">Applied discount amounts</li><li className="">Sales category name</li><li className="">Menu item tags</li><li className="">Menu item SKU</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menu item selections</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Consider displaying the following reporting information for item selections:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Menu item name - Use <code className="font-mono text-sm">displayName</code> value on <code className="font-mono text-sm">Selection</code> object</p></li><li className=""><p className="text-base leading-relaxed">Applied modifier names - Modifiers may be nested arbitrarily deep on a menu item</p></li><li className=""><p className="text-base leading-relaxed">Price</p></li><li className=""><p className="text-base leading-relaxed">Applied discount names</p></li><li className=""><p className="text-base leading-relaxed">Applied discount amounts</p></li><li className=""><p className="text-base leading-relaxed">Sales category name</p></li><li className=""><p className="text-base leading-relaxed">Menu item tags</p></li><li className=""><p className="text-base leading-relaxed">Menu item SKU</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Payments</div></td>
-      <td className=""><div className="">By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items. <br/> Consider displaying the following reporting information for payments:<ul className=""><li className="">Amount</li><li className="">Refund information</li><li className="">Type</li><li className="">Payment status</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Payments</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">By reporting on payments, you help restaurant administrators understand their profit margins on ingredients and menu items.</p> <p className="text-base leading-relaxed">Consider displaying the following reporting information for payments:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Amount</p></li><li className=""><p className="text-base leading-relaxed">Refund information</p></li><li className=""><p className="text-base leading-relaxed">Type</p></li><li className=""><p className="text-base leading-relaxed">Payment status</p></li></ul></div></td>
     </tr>
   </tbody>
 </table>
@@ -157,31 +157,31 @@ To reduce the amount of data that you receive when you poll the configuration AP
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Information type</div></th>
-      <th className=""><div className="">Configuration</div></th>
-      <th className=""><div className="">Additional information</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Information type</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Configuration</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Additional information</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Reporting categories</div></td>
-      <td className=""><div className="">Sales categories from the configuration API. <br/> <a href="https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/" className="">More information</a></div></td>
-      <td className=""><div className="">See Toast Central for more information about <a href="https://central.toasttab.com/s/article/Sales-Categories-1492812477858" className="">sales categories</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Reporting categories</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Sales categories from the configuration API.</p> <p className="text-base leading-relaxed"><a href="https://doc.toasttab.com/openapi/configuration/operation/salesCategoriesGet/" className="">More information</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">See Toast Central for more information about <a href="https://central.toasttab.com/s/article/Sales-Categories-1492812477858" className="">sales categories</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Order configuration</div></td>
-      <td className=""><div className="">Alternative payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/" className="">More information</a> <br/> Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/" className="">More information</a> <br/> Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/" className="">More information</a></div></td>
-      <td className=""><div className="">These pieces of configuration are often associated with orders. <br/> They describe how the order was placed and how its price was calculated. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Order configuration</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Alternative payment types from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/alternatePaymentTypesGet/" className="">More information</a></p> <p className="text-base leading-relaxed">Discounts from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/discountsGet/" className="">More information</a></p> <p className="text-base leading-relaxed">Tax rates from the configuration API. <a href="https://doc.toasttab.com/openapi/configuration/operation/taxRatesGet/" className="">More information</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">These pieces of configuration are often associated with orders.</p> <p className="text-base leading-relaxed">They describe how the order was placed and how its price was calculated. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menu information</div></td>
-      <td className=""><div className="">Menu information from the menus API. <br/> In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items. <br/> <a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI" className="">More information</a></div></td>
-      <td className=""><div className="">The menus API returns menu item names and other menu-related information you may want to display in your inventory platform. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menu information</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menu information from the menus API.</p> <p className="text-base leading-relaxed">In particular, consider saving the names of menu groups and the names, item tags, and SKUs of menu items.</p> <p className="text-base leading-relaxed"><a href="apiDevGuide-apiGettingMenuInformationFromTheMenusAPI" className="">More information</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menus API returns menu item names and other menu-related information you may want to display in your inventory platform. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Restaurant information</div></td>
-      <td className=""><div className="">Restaurant services from the configuration API. <br/> <a href="https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/" className="">More information</a></div></td>
-      <td className=""><div className="">This restaurant information allows your integration to report on when orders were placed in your restaurant. <br/> For more information, see this <a href="https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services" className="">Toast Central article about hours and services</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Restaurant information</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Restaurant services from the configuration API.</p> <p className="text-base leading-relaxed"><a href="https://doc.toasttab.com/openapi/configuration/operation/restaurantServicesGet/" className="">More information</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This restaurant information allows your integration to report on when orders were placed in your restaurant.</p> <p className="text-base leading-relaxed">For more information, see this <a href="https://central.toasttab.com/s/article/Setup-Restaurant-Hours-and-Services" className="">Toast Central article about hours and services</a>.</p></div></td>
     </tr>
   </tbody>
 </table>

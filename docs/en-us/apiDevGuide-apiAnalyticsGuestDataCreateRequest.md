@@ -56,20 +56,20 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/guest/payments/week' \
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(1)</a></div></td>
-      <td className=""><div className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/guest/payments/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="">&#123;timeRange&#125;</code> in this example is <code className="">week</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9261AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">POST</code> request to the <code className="font-mono text-sm">/era/v1/guest/payments/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="font-mono text-sm">&#123;timeRange&#125;</code> in this example is <code className="font-mono text-sm">week</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(2)</a></div></td>
-      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9263AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9265AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(3)</a></div></td>
-      <td className=""><div className="">Set the data type of the message body to <code className="">application/json</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9265AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the data type of the message body to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(4)</a></div></td>
-      <td className=""><div className="">Include details about the requested guest reporting data in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9267AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include details about the requested guest reporting data in the message body. The following example is the message body for this <strong className="font-semibold">curl</strong>  command example.</p></div></td>
     </tr>
 ## Message body for guest reporting data
 
@@ -92,20 +92,20 @@ The following example shows the message body for creating a guest reporting data
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9279AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(1)</a></div></td>
-      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the guest reporting data. Restaurant GUIDs not listed are excluded.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9279AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to include in the guest reporting data. Restaurant GUIDs not listed are excluded.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(2)</a></div></td>
-      <td className=""><div className="">The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the <code className="">restaurantIds</code> value, so all other restaurants are excluded automatically.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9281AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to exclude from the guest reporting data. In this example, restaurants are included with the <code className="font-mono text-sm">restaurantIds</code> value, so all other restaurants are excluded automatically.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(3)</a></div></td>
-      <td className=""><div className="">The start date of the time range for the guest reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9283AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The start date of the time range for the guest reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9285AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(4)</a></div></td>
-      <td className=""><div className="">The end date of the time range for the guest reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9285AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The end date of the time range for the guest reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
 ## Response to request for guest reporting data
 
@@ -119,8 +119,8 @@ The following example shows the response from the `/era/v1/guest/payments/&#123;
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e9298AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID for the guest reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9298AAAFB51B-562D-4033-B77B-6C18243DEDD8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the guest reporting data request, also called the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
 For an example about how to retrieve the guest reporting data, see [Retrieving the guest reporting data](apiDevGuide-apiAnalyticsGuestDataRetrieveData).
 

@@ -81,26 +81,26 @@ A dine-in check from Lunch in the Main Dining Room on December 14 contains the f
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Check item, service charge, or tip</div></th>
-      <th className=""><div className="">Price</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Check item, service charge, or tip</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Price</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Cheeseburger</div></td>
-      <td className=""><div className="">$6.50 ($5 price + $1.50 tax)</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Cheeseburger</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$6.50 ($5 price + $1.50 tax)</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Non-gratuity service fee</div></td>
-      <td className=""><div className="">$5.00</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Non-gratuity service fee</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5.00</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Gratuity</div></td>
-      <td className=""><div className="">$2.00</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Gratuity</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$2.00</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Tip</div></td>
-      <td className=""><div className="">$3.00</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Tip</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$3.00</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -115,56 +115,56 @@ On December 15, the following figures decrease:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Finance value</div></th>
-      <th className=""><div className="">Decrease</div></th>
-      <th className=""><div className="">Notes</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Finance value</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Decrease</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Notes</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Total Net Sales</div></td>
-      <td className=""><div className="">-$10.00</div></td>
-      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Total Net Sales</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$10.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5 Cheeseburger + $5 Non-Gratuity Service Fee</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Gratuity</div></td>
-      <td className=""><div className="">-$2.00</div></td>
-      <td className=""><div className=""> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Gratuity</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$2.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Food Sales Category</div></td>
-      <td className=""><div className="">-$5.00</div></td>
-      <td className=""><div className="">Cheeseburger</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Food Sales Category</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$5.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Cheeseburger</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Tax</div></td>
-      <td className=""><div className="">-$1.50</div></td>
-      <td className=""><div className=""> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Tax</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$1.50</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Tips</div></td>
-      <td className=""><div className="">-$3.00</div></td>
-      <td className=""><div className=""> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Tips</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$3.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Dine In</div></td>
-      <td className=""><div className="">-$10.00</div></td>
-      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Dine In</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$10.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5 Cheeseburger + $5 Non-Gratuity Service Fee</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Revenue center for this check</div></td>
-      <td className=""><div className="">-$10.00</div></td>
-      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Revenue center for this check</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$10.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5 Cheeseburger + $5 Non-Gratuity Service Fee</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Lunch service period</div></td>
-      <td className=""><div className="">-$10.00</div></td>
-      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Lunch service period</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$10.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5 Cheeseburger + $5 Non-Gratuity Service Fee</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Main Dining Room service area</div></td>
-      <td className=""><div className="">-$10.00</div></td>
-      <td className=""><div className="">$5 Cheeseburger + $5 Non-Gratuity Service Fee</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Main Dining Room service area</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">-$10.00</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$5 Cheeseburger + $5 Non-Gratuity Service Fee</p></div></td>
     </tr>
   </tbody>
 </table>

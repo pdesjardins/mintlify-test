@@ -59,20 +59,20 @@ The following example shows a JSON `Order` object to `POST` to the `/prices` end
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e193C93B886C-2601-45C3-B008-CB13B0107A92" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery. <br/> For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e193C93B886C-2601-45C3-B008-CB13B0107A92" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the dining option for the order. For example, the dining option for an order might be dine in, takeout, or delivery.</p> <p className="text-base leading-relaxed">For some dining options, you might need to include additional information. For example, for takeout orders, you provide information about the guest who will pick up an order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e195C93B886C-2601-45C3-B008-CB13B0107A92" className="">(2)</a></div></td>
-      <td className=""><div className="">The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e195C93B886C-2601-45C3-B008-CB13B0107A92" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu group for the menu item selected for this check. For example, a menu group might be "appetizers" or "drinks."</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e197C93B886C-2601-45C3-B008-CB13B0107A92" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e197C93B886C-2601-45C3-B008-CB13B0107A92" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item selected for this check. For example, a menu item might be "spinach dip" or "lemonade."</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e199C93B886C-2601-45C3-B008-CB13B0107A92" className="">(4)</a></div></td>
-      <td className=""><div className="">The quantity of the menu item selection. For example, to order three lemonades, a check includes a "lemonade" menu item selection with a quantity of three.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e199C93B886C-2601-45C3-B008-CB13B0107A92" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity of the menu item selection. For example, to order three lemonades, a check includes a "lemonade" menu item selection with a quantity of three.</p></div></td>
     </tr>
 ### Response data from the /prices endpoint
 
@@ -196,28 +196,28 @@ The following example shows the response data returned by the `/prices` endpoint
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e217C93B886C-2601-45C3-B008-CB13B0107A92" className="">(1)</a></div></td>
-      <td className=""><div className="">The price of the check after discounts, not including tax.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e217C93B886C-2601-45C3-B008-CB13B0107A92" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the check after discounts, not including tax.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e219C93B886C-2601-45C3-B008-CB13B0107A92" className="">(2)</a></div></td>
-      <td className=""><div className="">The price of the check after discounts, including tax.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e219C93B886C-2601-45C3-B008-CB13B0107A92" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the check after discounts, including tax.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e221C93B886C-2601-45C3-B008-CB13B0107A92" className="">(3)</a></div></td>
-      <td className=""><div className="">The price of the menu item selection, before discounts.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e221C93B886C-2601-45C3-B008-CB13B0107A92" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the menu item selection, before discounts.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e223C93B886C-2601-45C3-B008-CB13B0107A92" className="">(4)</a></div></td>
-      <td className=""><div className="">The tax amount applied to the menu item selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e223C93B886C-2601-45C3-B008-CB13B0107A92" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The tax amount applied to the menu item selection.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e225C93B886C-2601-45C3-B008-CB13B0107A92" className="">(5)</a></div></td>
-      <td className=""><div className="">The menu item selection, including discounts, quantity adjustments, and modifiers.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e225C93B886C-2601-45C3-B008-CB13B0107A92" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menu item selection, including discounts, quantity adjustments, and modifiers.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e228C93B886C-2601-45C3-B008-CB13B0107A92" className="">(6)</a></div></td>
-      <td className=""><div className="">The tax amount applied to the menu item selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e228C93B886C-2601-45C3-B008-CB13B0107A92" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The tax amount applied to the menu item selection.</p></div></td>
     </tr>
 ## Including open price menu items in an order
 
@@ -298,20 +298,20 @@ The following example shows a JSON `Order` object that contains a check with a s
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e18994C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID of the menu group for the selected open price menu item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18994C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu group for the selected open price menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e19014C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(2)</a></div></td>
-      <td className=""><div className="">The GUID of the selected open price menu item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e19014C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the selected open price menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e19034C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(3)</a></div></td>
-      <td className=""><div className="">The quantity for the menu item selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e19034C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity for the menu item selection.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e19054C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(4)</a></div></td>
-      <td className=""><div className="">A currency amount that sets the price for the open price menu item. The amount reflects the price before the quantity, taxes, discounts, and modifier adjustments are applied.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e19054C2B4C02-01BB-46CE-B543-1A815822BD0D" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A currency amount that sets the price for the open price menu item. The amount reflects the price before the quantity, taxes, discounts, and modifier adjustments are applied.</p></div></td>
     </tr>
 ### Open price values in orders API responses
 
@@ -414,8 +414,8 @@ The following example shows an `appliedServiceCharges`value that applies an open
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#apiServiceChargeAmount" className="">(1)</a></div></td>
-      <td className=""><div className="">You include <code className="">chargeAmount</code> for <code className="">OPEN</code> service charges. Do not include <code className="">chargeAmount</code> for <code className="">FIXED</code> or <code className="">PERCENT</code> service charges.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiServiceChargeAmount" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You include <code className="font-mono text-sm">chargeAmount</code> for <code className="font-mono text-sm">OPEN</code> service charges. Do not include <code className="font-mono text-sm">chargeAmount</code> for <code className="font-mono text-sm">FIXED</code> or <code className="font-mono text-sm">PERCENT</code> service charges.</p></div></td>
     </tr>
 ### Identifying service charge types
 

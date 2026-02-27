@@ -55,20 +55,20 @@ You should also be aware that the orders API and the menus API use slightly diff
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">itemGroup</div></td>
-      <td className=""><div className="">menuGroups</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">itemGroup</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menuGroups</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">item</div></td>
-      <td className=""><div className="">menuItem</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">item</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">menuItem</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">optionGroup</div></td>
-      <td className=""><div className="">modifierGroup</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">optionGroup</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">modifierGroup</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">item</div></td>
-      <td className=""><div className="">modifierOption</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">item</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">modifierOption</p></div></td>
     </tr>
   </tbody>
 </table>

@@ -26,90 +26,90 @@ The following table specifies the set of values returned in the check reporting 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value name</div></th>
-      <th className=""><div className="">Definition</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value name</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Definition</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the restaurant by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderNumber</code></div></td>
-      <td className=""><div className="">The number of the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderNumber</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the order by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the order by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkNumber</code></div></td>
-      <td className=""><div className="">The number of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkNumber</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the check by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the check by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderOpenedDate</code></div></td>
-      <td className=""><div className="">The business date for when the order is initially expected to be fulfilled. This date determines whether a check is within the requested time range or not.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderOpenedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The business date for when the order is initially expected to be fulfilled. This date determines whether a check is within the requested time range or not.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkPaidDateTime</code></div></td>
-      <td className=""><div className="">The most recent date the check received payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkPaidDateTime</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date the check received payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkModifiedDateTime</code></div></td>
-      <td className=""><div className="">The most recent date that the check was modified.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkModifiedDateTime</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date that the check was modified.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkStatus </code></div></td>
-      <td className=""><div className="">The payment state of the check. The state can be one of the following values: <ul className=""><li className=""><code className="">OPEN</code> : The check is open and unpaid.</li><li className=""><code className="">PAID</code> : The check is paid, but the payment is not finalized.</li><li className=""><code className="">CLOSED</code> : The check payment is finalized.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkStatus </code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The payment state of the check. The state can be one of the following values: </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">OPEN</code> : The check is open and unpaid.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">PAID</code> : The check is paid, but the payment is not finalized.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">CLOSED</code> : The check payment is finalized.</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkVoidedStatus</code></div></td>
-      <td className=""><div className="">Indicates whether the check was voided or not. A <code className="">true</code> value indicates the check was voided, while a <code className="">false</code> value indicates the check was not voided.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkVoidedStatus</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates whether the check was voided or not. A <code className="font-mono text-sm">true</code> value indicates the check was voided, while a <code className="font-mono text-sm">false</code> value indicates the check was not voided.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">diningOption</code></div></td>
-      <td className=""><div className="">The dining option for the check data.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">diningOption</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The dining option for the check data.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">revenueCenter</code></div></td>
-      <td className=""><div className="">The revenue center for the check data.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">revenueCenter</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The revenue center for the check data.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">serverName</code></div></td>
-      <td className=""><div className="">The first and last name of the employee who created the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">serverName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The first and last name of the employee who created the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkTotalAmount</code></div></td>
-      <td className=""><div className="">The total amount of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkTotalAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkDiscountAmount</code></div></td>
-      <td className=""><div className="">The total discounted amount of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkDiscountAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total discounted amount of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkTaxAmount</code></div></td>
-      <td className=""><div className="">The total tax amount of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkTaxAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total tax amount of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkTipAmount</code></div></td>
-      <td className=""><div className="">The total tip amount of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkTipAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total tip amount of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkGratuityAmount</code></div></td>
-      <td className=""><div className="">The total gratuity amount of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkGratuityAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total gratuity amount of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkRefundAmount</code></div></td>
-      <td className=""><div className="">The total refund amount of the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkRefundAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total refund amount of the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantName</code></div></td>
-      <td className=""><div className="">The restaurant’s name. This is included when you set the <code className="">fetchRestaurantNames</code> parameter to <code className="">true</code> in the <code className="">GET</code> request.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s name. This is included when you set the <code className="font-mono text-sm">fetchRestaurantNames</code> parameter to <code className="font-mono text-sm">true</code> in the <code className="font-mono text-sm">GET</code> request.</p></div></td>
     </tr>
   </tbody>
 </table>

@@ -76,20 +76,20 @@ curl -i -X POST \ 'https://[toast-api-hostname]/era/v1/payout/payments/day' \
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
-      <td className=""><div className="">Send a <code className="">POST</code> request to the <code className="">/era/v1/payout/payments/day</code> endpoint of the analytics API.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7575E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">POST</code> request to the <code className="font-mono text-sm">/era/v1/payout/payments/day</code> endpoint of the analytics API.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7577E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></div></td>
-      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7577E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7579E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></div></td>
-      <td className=""><div className="">Set the data type of the message body to <code className="">application/json</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7579E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the data type of the message body to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></div></td>
-      <td className=""><div className="">Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this <strong className="">curl</strong>  command example.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7581E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include details about the requested payout reporting data organized by payments in the message body. The following example is the message body for this <strong className="font-semibold">curl</strong>  command example.</p></div></td>
     </tr>
 ### Message body for payout reporting data by payments
 
@@ -108,20 +108,20 @@ The following example shows the message body for creating a payout reporting dat
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7623E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
-      <td className=""><div className="">The start date of the time range for the payout reporting data, in <code className="">YYYYMMDD</code> format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7623E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The start date of the time range for the payout reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7625E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></div></td>
-      <td className=""><div className="">The end date of the time range for the payout reporting data, in <code className="">YYYYMMDD</code> format. This is the same value as the start date.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7625E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The end date of the time range for the payout reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format. This is the same value as the start date.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7627E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></div></td>
-      <td className=""><div className="">The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7627E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to include in the payout reporting data. Restaurant GUIDs not listed are excluded.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7629E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></div></td>
-      <td className=""><div className="">The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the <code className="">restaurantIds</code> value, so all other restaurants are excluded automatically.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7629E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to exclude from the payout reporting data by settled date. In this example, restaurants are included with the <code className="font-mono text-sm">restaurantIds</code> value, so all other restaurants are excluded automatically.</p></div></td>
     </tr>
 ### Response to request for payout reporting data by payments
 
@@ -135,8 +135,8 @@ The following example shows the response from the `/era/v1/payout/payments/day` 
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
-      <td className=""><div className="">The GUID for the payout reporting data by payments request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7670E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the payout reporting data by payments request, also called the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
 For an example that shows how to retrieve the payout reporting data by payments, see [Retrieving the payout reporting data by payments](apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData#apiAnalyticsPayoutByPaymentsReportingDataRetrieveData).
 
@@ -158,16 +158,16 @@ bc5279b0-a46d-4707-94e6-614edd31f2b3' \
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></div></td>
-      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/payout/payments</code> endpoint of the analytics API.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7731E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the <code className="font-mono text-sm">/era/v1/payout/payments</code> endpoint of the analytics API.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7733E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></div></td>
-      <td className=""><div className="">Include the GUID for the payout reporting data organized by payments request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7733E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the GUID for the payout reporting data organized by payments request, also called the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e7735E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></div></td>
-      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7735E4B1B8E9-CCDA-450F-BFEC-913D3B74A9DC" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
 ### Response to retrieval request for payout reporting data by payments
 
@@ -246,74 +246,74 @@ The following table specifies the returned set of values in the payout reporting
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value name</div></th>
-      <th className=""><div className="">Definition</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value name</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Definition</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the restaurant by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantName</code></div></td>
-      <td className=""><div className="">The restaurant’s name.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s name.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantLocationName</code></div></td>
-      <td className=""><div className="">The restaurant’s location name.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLocationName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s location name.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantLocationCode</code></div></td>
-      <td className=""><div className="">The restaurant’s location code.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLocationCode</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s location code.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderGuid</code></div></td>
-      <td className=""><div className="">The identifier assigned by the Toast platform used to identify an order. This is the order associated with the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">The identifier assigned by the Toast platform used to identify an order. This is the order associated with the payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checkGuid</code></div></td>
-      <td className=""><div className="">The identifier assigned by the Toast platform used to identify a check. This is the check associated with the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checkGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">The identifier assigned by the Toast platform used to identify a check. This is the check associated with the payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentGuid</code></div></td>
-      <td className=""><div className="">The identifier assigned by the Toast platform used to identify the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">The identifier assigned by the Toast platform used to identify the payment.</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">settledDate</code></div></td>
-      <td className=""><div className="">The date when the payouts associated with the payment were either processed or settled.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">settledDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date when the payouts associated with the payment were either processed or settled.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderOpenDateTime</code></div></td>
-      <td className=""><div className="">The date and time when the order associated with the payment was opened.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderOpenDateTime</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the order associated with the payment was opened.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paidDateTime</code></div></td>
-      <td className=""><div className="">The date and time when the order associated with the payment was paid.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paidDateTime</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the order associated with the payment was paid.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentCardBrand</code></div></td>
-      <td className=""><div className="">The brand or card provider of the card used to complete the payment. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentCardBrand</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The brand or card provider of the card used to complete the payment. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentCardType</code></div></td>
-      <td className=""><div className="">The payment type used by the card completing the payment. The type can be one of the following values:<ul className=""><li className=""><code className="">Credit</code>: A credit card was used to complete the payment.</li><li className=""><code className="">Debit</code>: A debit card was used to complete the payment.</li><li className=""><code className="">UNSPECIFIED CARD</code>: The card type is neither credit or debit, or cannot be identified.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentCardType</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The payment type used by the card completing the payment. The type can be one of the following values:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">Credit</code>: A credit card was used to complete the payment.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">Debit</code>: A debit card was used to complete the payment.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">UNSPECIFIED CARD</code>: The card type is neither credit or debit, or cannot be identified.</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">tipAmount</code></div></td>
-      <td className=""><div className="">The tip amount added to the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">tipAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The tip amount added to the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">gratuityAmount</code></div></td>
-      <td className=""><div className="">The gratuity amount added to the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">gratuityAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The gratuity amount added to the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentSubtotal</code></div></td>
-      <td className=""><div className="">The total payment amount before tip and gratuity.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentSubtotal</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total payment amount before tip and gratuity.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">paymentTotal</code></div></td>
-      <td className=""><div className="">The total payment amount, including tip, and gratuity.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">paymentTotal</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total payment amount, including tip, and gratuity.</p></div></td>
     </tr>
   </tbody>
 </table>

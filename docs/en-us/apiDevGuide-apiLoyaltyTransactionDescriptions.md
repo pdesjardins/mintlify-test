@@ -104,8 +104,8 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#loyaltySearchPoints" className="">(1)</a></div></td>
-      <td className=""><div className="">You may return a <code className="">pointsBalance</code> in your response to a <code className="">LOYALTY_SEARCH</code> request, but this balance will not display on the POS. The points balance only displays on the POS in response to <code className="">LOYALTY_INQUIRE</code> requests.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#loyaltySearchPoints" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You may return a <code className="font-mono text-sm">pointsBalance</code> in your response to a <code className="font-mono text-sm">LOYALTY_SEARCH</code> request, but this balance will not display on the POS. The points balance only displays on the POS in response to <code className="font-mono text-sm">LOYALTY_INQUIRE</code> requests.</p></div></td>
     </tr>
 **Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
 
@@ -612,20 +612,20 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">rejectedRedemptions</code> array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a <code className="">RejectedRedemption</code> object in this array. For more information, see <a href="apiDevGuide-apiLoyaltyTransactionDescriptions#apiLoyaltyIntegrationHandlingRedeemOfferNotValid" className="">Handling redeemed offers that are not valid</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">rejectedRedemptions</code> array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a <code className="font-mono text-sm">RejectedRedemption</code> object in this array. For more information, see <a href="apiDevGuide-apiLoyaltyTransactionDescriptions#apiLoyaltyIntegrationHandlingRedeemOfferNotValid" className="">Handling redeemed offers that are not valid</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">appliedRedemptions</code> array includes a <code className="">Redemption</code> object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedRedemptions</code> array includes a <code className="font-mono text-sm">Redemption</code> object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#apiLoyaltyQuantity" className="">(3)</a></div></td>
-      <td className=""><div className="">In this example, since the <code className="">quantity</code> of the applied redemption is 2 and the <code className="">amount</code> is 5, the total amount discounted will be 10.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiLoyaltyQuantity" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example, since the <code className="font-mono text-sm">quantity</code> of the applied redemption is 2 and the <code className="font-mono text-sm">amount</code> is 5, the total amount discounted will be 10.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(4)</a></div></td>
-      <td className=""><div className="">Set the <code className="">transactionStatus</code> to <code className="">ACCEPT</code> to indicate that your service has successfully processed the request. The status is <code className="">ACCEPT</code> even when you determine that some redeemed rewards offers are not valid.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the <code className="font-mono text-sm">transactionStatus</code> to <code className="font-mono text-sm">ACCEPT</code> to indicate that your service has successfully processed the request. The status is <code className="font-mono text-sm">ACCEPT</code> even when you determine that some redeemed rewards offers are not valid.</p></div></td>
     </tr>
   
 ### Handling redeemed offers that are not valid

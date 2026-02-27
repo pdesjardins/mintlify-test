@@ -28,168 +28,168 @@ The following table describes the scopes that determine what actions your Toast 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">API</div></th>
-      <th className=""><div className="">Scope Type</div></th>
-      <th className=""><div className="">Scope Name</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">API</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Scope Type</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Scope Name</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Cash management</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">cashmgmt:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/cashmanagement/overview/" className="">cash management API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Cash management</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">cashmgmt:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/cashmanagement/overview/" className="">cash management API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Configuration</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">config:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Configuration</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">config:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Credit cards</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">credit_cards.authorization:write</code></div></td>
-      <td className=""><div className="">Allows authorization of payments through the <a href="https://doc.toasttab.com/openapi/creditcards/overview/" className="">credit cards API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Credit cards</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">credit_cards.authorization:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows authorization of payments through the <a href="https://doc.toasttab.com/openapi/creditcards/overview/" className="">credit cards API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Kitchen</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">kitchen:read</code></div></td>
-      <td className=""><div className="">Allows reading from the<a href="https://doc.toasttab.com/openapi/kitchen/overview/" className=""> kitchen API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Kitchen</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">kitchen:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the<a href="https://doc.toasttab.com/openapi/kitchen/overview/" className=""> kitchen API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Labor</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">labor:read</code></div></td>
-      <td className=""><div className="">Allows reading all data except employees from the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Labor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading all data except employees from the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Labor</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">labor.employees:read</code></div></td>
-      <td className=""><div className="">Allows reading employee information from the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Labor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor.employees:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading employee information from the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Labor</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">labor.employees:write</code></div></td>
-      <td className=""><div className="">Allows updating employee information in the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Labor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor.employees:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows updating employee information in the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Labor</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">labor.jobs:write</code></div></td>
-      <td className=""><div className="">Allows updating job information in the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Labor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor.jobs:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows updating job information in the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Labor</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">labor.shifts:write</code></div></td>
-      <td className=""><div className="">Allows updating shift information in the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Labor</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor.shifts:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows updating shift information in the <a href="https://doc.toasttab.com/openapi/labor/overview/" className="">labor API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menus</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">menus.channel:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/menusv3/overview/" className="">menus API V3</a>. <blockquote><strong>Note</strong> Ordering partner integrations must use V3 of the menus API, which requires the <code className="">menus.channel:read</code> scope. Because V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the <code className="">menus:read</code> scope.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menus</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">menus.channel:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/menusv3/overview/" className="">menus API V3</a>.</p> <blockquote><strong>Note</strong> Ordering partner integrations must use V3 of the menus API, which requires the <code className="font-mono text-sm">menus.channel:read</code> scope. Because V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the <code className="font-mono text-sm">menus:read</code> scope.</blockquote> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Menus</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">menus:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/menus/overview/" className="">menus API V2</a>. <blockquote><strong>Note</strong> Because menus API V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the <code className="">menus:read</code> scope.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Menus</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">menus:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/menus/overview/" className="">menus API V2</a>.</p> <blockquote><strong>Note</strong> Because menus API V3 currently only supports ordering partner integrations, all other integration partners should continue to use menus API V2, which requires the <code className="font-mono text-sm">menus:read</code> scope.</blockquote> </div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Order management configuration</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">digital_schedule:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/ordermgmt.configuration/overview/" className="">order management configuration API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Order management configuration</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">digital_schedule:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/ordermgmt.configuration/overview/" className="">order management configuration API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">orders:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a> with the exception of guest information. <br/> If your API client creates orders, then to read orders, it must have both the <code className="">orders:read</code> scope and the <code className="">orders.channel:read</code> scope.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a> with the exception of guest information.</p> <p className="text-base leading-relaxed">If your API client creates orders, then to read orders, it must have both the <code className="font-mono text-sm">orders:read</code> scope and the <code className="font-mono text-sm">orders.channel:read</code> scope.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">orders.channel:read</code></div></td>
-      <td className=""><div className="">Allows API clients that submit orders to the Toast platform to read from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>. <br/> To read orders, the API client must have both the <code className="">orders:read</code> scope and the <code className="">orders.channel:read</code> scope. <br/> API clients that have the <code className="">orders.channel:read</code> scope can only read the orders that they submitted. They cannot read orders from any other source.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.channel:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows API clients that submit orders to the Toast platform to read from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p> <p className="text-base leading-relaxed">To read orders, the API client must have both the <code className="font-mono text-sm">orders:read</code> scope and the <code className="font-mono text-sm">orders.channel:read</code> scope.</p> <p className="text-base leading-relaxed">API clients that have the <code className="font-mono text-sm">orders.channel:read</code> scope can only read the orders that they submitted. They cannot read orders from any other source.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">delivery_info.address:read</code></div></td>
-      <td className=""><div className="">Allows reading guest delivery address information from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">delivery_info.address:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading guest delivery address information from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">guest.pi:read</code></div></td>
-      <td className=""><div className="">Allows reading guest and curbside pickup information from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guest.pi:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading guest and curbside pickup information from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">orders.delivery_info:write</code></div></td>
-      <td className=""><div className="">Allows updating delivery information from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.delivery_info:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows updating delivery information from the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">orders.discounts:write</code></div></td>
-      <td className=""><div className="">Allows adding discounts to orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.discounts:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows adding discounts to orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">orders.items:write</code></div></td>
-      <td className=""><div className="">Allows adding items to orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.items:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows adding items to orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">orders.orders:write</code></div></td>
-      <td className=""><div className="">Allows posting orders orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.orders:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows posting orders orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">orders.payments:write</code></div></td>
-      <td className=""><div className="">Allows adding payments and tips to existing orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.payments:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows adding payments and tips to existing orders using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Orders</div></td>
-      <td className=""><div className="">Void</div></td>
-      <td className=""><div className=""><code className="">orders.channel:void</code></div></td>
-      <td className=""><div className="">Allows voiding an order using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Orders</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Void</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders.channel:void</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows voiding an order using the <a href="https://doc.toasttab.com/openapi/orders/overview/" className="">orders API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Packaging preferences</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">packaging:read</code></div></td>
-      <td className=""><div className="">Allows reading a restaurant's packaging preferences configuration using the <a href="https://doc.toasttab.com/openapi/packaging/overview/" className="">packaging configuration API</a>. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Packaging preferences</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">packaging:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading a restaurant's packaging preferences configuration using the <a href="https://doc.toasttab.com/openapi/packaging/overview/" className="">packaging configuration API</a>. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Restaurant availability <br/> Restaurants</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">restaurants:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/rx.availability.service/overview/" className="">restaurant availability API</a>. <br/> Allows reading from the <a href="https://doc.toasttab.com/openapi/restaurants/overview/" className="">restaurants API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Restaurant availability</p> <p className="text-base leading-relaxed">Restaurants</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurants:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/rx.availability.service/overview/" className="">restaurant availability API</a>.</p> <p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/restaurants/overview/" className="">restaurants API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Stock</div></td>
-      <td className=""><div className="">Read</div></td>
-      <td className=""><div className=""><code className="">stock:read</code></div></td>
-      <td className=""><div className="">Allows reading from the <a href="https://doc.toasttab.com/openapi/stock/overview/" className="">stock API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Stock</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">stock:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the <a href="https://doc.toasttab.com/openapi/stock/overview/" className="">stock API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Stock</div></td>
-      <td className=""><div className="">Write</div></td>
-      <td className=""><div className=""><code className="">stock:write</code></div></td>
-      <td className=""><div className="">Allows updating stock status for menu items (and modifier option <a href="adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference" className="">item references</a>) using the <a href="https://doc.toasttab.com/openapi/stock/overview/" className="">stock API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Stock</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Write</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">stock:write</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows updating stock status for menu items (and modifier option <a href="adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference" className="">item references</a>) using the <a href="https://doc.toasttab.com/openapi/stock/overview/" className="">stock API</a>.</p></div></td>
     </tr>
   </tbody>
 </table>

@@ -24,50 +24,50 @@ The following table lists the permissions that are required for specific cash ma
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Cash Management Task</div></th>
-      <th className=""><div className="">Required Permission</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Cash Management Task</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Required Permission</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Open the cash drawer in order to provide change and finalize cash transactions.</div></td>
-      <td className=""><div className="">POS Access &gt; Cash Drawer Access</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Open the cash drawer in order to provide change and finalize cash transactions.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">POS Access &gt; Cash Drawer Access</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Accept a cash payment against a check with an open balance due. In addition to this permission, the employee's Toast POS device must have the Allow Cash Payments device setting enabled.</div></td>
-      <td className=""><div className="">POS Access &gt; Apply Cash Payments</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Accept a cash payment against a check with an open balance due. In addition to this permission, the employee's Toast POS device must have the Allow Cash Payments device setting enabled.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">POS Access &gt; Apply Cash Payments</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminUndoingOperations" className="">Undo cash entries</a> in a cash drawer. Also allows the No Sale button to be displayed on the Order screen while in Quick Order mode. Use the No Sale button to open the cash drawer without having to complete a transaction. This permission also allows employees to do their own shift reviews.</div></td>
-      <td className=""><div className="">POS Access &gt; No Sale</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminUndoingOperations" className="">Undo cash entries</a> in a cash drawer. Also allows the No Sale button to be displayed on the Order screen while in Quick Order mode. Use the No Sale button to open the cash drawer without having to complete a transaction. This permission also allows employees to do their own shift reviews.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">POS Access &gt; No Sale</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Full Access permits the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission also allows the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts. <br/> For an employee to access the Reports &gt; Cash and loss management &gt; Drawer history and Cash activity audit reports on a POS device, must have the Restaurant Admin &gt; 4.1 Sales Reports permission assigned.</div></td>
-      <td className=""><div className="">Manager &gt; Cash Drawers (Full)</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Full Access permits the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission also allows the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts.</p> <p className="text-base leading-relaxed">For an employee to access the Reports &gt; Cash and loss management &gt; Drawer history and Cash activity audit reports on a POS device, must have the Restaurant Admin &gt; 4.1 Sales Reports permission assigned.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manager &gt; Cash Drawers (Full)</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Blind Access does not allow the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission, however, does allow the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts. <br/> Recommended for a cashier who closes a shift by counting cash in the drawer without knowing what the expected amount should be, while also being able to do other cash adjustments.</div></td>
-      <td className=""><div className="">Manager &gt; Cash Drawers (Blind)</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Blind Access does not allow the employee to view the expected cash amounts in cash drawers during and at the end of shifts. This permission, however, does allow the employee to open the cash drawer as well as close out and replace cash drawers at the end of shifts.</p> <p className="text-base leading-relaxed">Recommended for a cashier who closes a shift by counting cash in the drawer without knowing what the expected amount should be, while also being able to do other cash adjustments.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manager &gt; Cash Drawers (Blind)</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Take payments and put money in cash drawers that are locked to other users. This permission also allows the employee to close any cash drawer and (if they also have the Manager &gt; 3.22 Pay Out permission) to authorize pay outs from any cash drawer.</div></td>
-      <td className=""><div className="">Manager &gt; Cash Drawer Lockdown (Override)</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Take payments and put money in cash drawers that are locked to other users. This permission also allows the employee to close any cash drawer and (if they also have the Manager &gt; 3.22 Pay Out permission) to authorize pay outs from any cash drawer.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manager &gt; Cash Drawer Lockdown (Override)</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Input or approve a large cash over/under amount while closing out a cash drawer. The threshold for this amount is set on the Payments &gt; Payment methods &gt; Cash overview &gt; Cash drawer variance &gt; Cash drawer variance screen. </div></td>
-      <td className=""><div className="">Manager &gt; Large Cash Over/Under</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Input or approve a large cash over/under amount while closing out a cash drawer. The threshold for this amount is set on the Payments &gt; Payment methods &gt; Cash overview &gt; Cash drawer variance &gt; Cash drawer variance screen. </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manager &gt; Large Cash Over/Under</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Adjust the starting balance of a cash drawer.</div></td>
-      <td className=""><div className="">Manager &gt; Adjust Cash Drawer Start Balance</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Adjust the starting balance of a cash drawer.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manager &gt; Adjust Cash Drawer Start Balance</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Take a cash payment from the restaurant (house) or any cash drawer that is not locked to a different employee.</div></td>
-      <td className=""><div className="">Manager &gt; Pay Out</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Take a cash payment from the restaurant (house) or any cash drawer that is not locked to a different employee.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Manager &gt; Pay Out</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Access the Reports &gt; Sales &gt; Sales summary report and use the Sales Summary, Orders, Order Details, Payments, Shifts, Cash Activity Audit, and Cash Drawer History report tabs for order details, transaction details, shifts, and cash information. <br/> For an employee to access the Cash Drawer History and Cash Activity Audit reports on a POS device, must have the the 3.18 Cash Drawers (Full) permission assigned.</div></td>
-      <td className=""><div className="">Restaurant Admin &gt; Sales Reports</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Access the Reports &gt; Sales &gt; Sales summary report and use the Sales Summary, Orders, Order Details, Payments, Shifts, Cash Activity Audit, and Cash Drawer History report tabs for order details, transaction details, shifts, and cash information.</p> <p className="text-base leading-relaxed">For an employee to access the Cash Drawer History and Cash Activity Audit reports on a POS device, must have the the 3.18 Cash Drawers (Full) permission assigned.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Restaurant Admin &gt; Sales Reports</p></div></td>
     </tr>
   </tbody>
 </table>

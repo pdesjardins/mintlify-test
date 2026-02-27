@@ -30,30 +30,30 @@ You can use the orders API to modify the following delivery information:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">deliveredDate</code></div></td>
-      <td className=""><div className="">The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">deliveredDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the delivery employee indicated the order was delivered expressed in ISO 8601 format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">dispatchedDate</code></div></td>
-      <td className=""><div className="">The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">dispatchedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the delivery employee indicated the order was dispatched expressed in ISO 8601 format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">deliveryState</code></div></td>
-      <td className=""><div className="">The status of the delivery order. The available values for <code className="">deliveryState</code> are:<ul className=""><li className=""><code className="">PENDING</code>: The delivery order has not been dispatched. Corresponds to the Unassigned tab for deliveries on the Toast POS app.</li><li className=""><code className="">PICKED_UP</code>: The delivery employee has picked up the order from the restaurant.</li><li className=""><code className="">IN_PROGRESS</code>: The order is on its way to the destination. Corresponds to the En Route tab for deliveries on the Toast POS app.</li><li className=""><code className="">DELIVERED</code>: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">deliveryState</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The status of the delivery order. The available values for <code className="font-mono text-sm">deliveryState</code> are:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">PENDING</code>: The delivery order has not been dispatched. Corresponds to the Unassigned tab for deliveries on the Toast POS app.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">PICKED_UP</code>: The delivery employee has picked up the order from the restaurant.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">IN_PROGRESS</code>: The order is on its way to the destination. Corresponds to the En Route tab for deliveries on the Toast POS app.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">DELIVERED</code>: The order was delivered. Corresponds to the Delivered tab for deliveries on the Toast POS app.</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">deliveryEmployee</code></div></td>
-      <td className=""><div className="">An object that contains the Toast platform GUID of the employee assigned as the delivery driver.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">deliveryEmployee</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An object that contains the Toast platform GUID of the employee assigned as the delivery driver.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">notes</code></div></td>
-      <td className=""><div className="">Delivery notes provided by the guest who placed the order.  <blockquote><strong>Important</strong> Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">notes</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Delivery notes provided by the guest who placed the order. </p> <blockquote><strong>Important</strong> Writing to this field overwrites the guest’s original notes and may result in the loss of important order information. Do not replace or remove the guest's notes.</blockquote> </div></td>
     </tr>
   </tbody>
 </table>
@@ -128,24 +128,24 @@ The following example shows the `DeliveryInfo` object for updating delivery info
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2925533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></div></td>
-      <td className=""><div className="">The date and time when the delivery employee indicated the order was delivered.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2925533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the delivery employee indicated the order was delivered.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2945533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></div></td>
-      <td className=""><div className="">The date and time the restaurant indicated the order was available for delivery and was assigned to a delivery employee.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2945533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the restaurant indicated the order was available for delivery and was assigned to a delivery employee.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2965533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></div></td>
-      <td className=""><div className="">The state of a delivery order. The possible values are <code className="">PENDING</code>, <code className="">IN_PROGRESS</code>, <code className="">PICKED_UP</code>, or <code className="">DELIVERED</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2965533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The state of a delivery order. The possible values are <code className="font-mono text-sm">PENDING</code>, <code className="font-mono text-sm">IN_PROGRESS</code>, <code className="font-mono text-sm">PICKED_UP</code>, or <code className="font-mono text-sm">DELIVERED</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2985533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(4)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the delivery employee at the restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2985533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the delivery employee at the restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2085533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(5)</a></div></td>
-      <td className=""><div className="">The delivery notes for the order. For more information, see <a href="apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues" className="">notes</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2085533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery notes for the order. For more information, see <a href="apiDevGuide-apiUpdatingDeliveryInfoForAnOrder#apiDeliveryInfoValues" className="">notes</a>.</p></div></td>
     </tr>
 ## Example response when updating delivery information
 
@@ -194,16 +194,16 @@ The following example shows the response for a `PATCH`request to the `/orders/<e
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2255533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID assigned to this order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2255533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID assigned to this order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2275533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></div></td>
-      <td className=""><div className="">Information about the delivery, including address information and any values you updated.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2275533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about the delivery, including address information and any values you updated.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e2385533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have <code className="">behavior</code> set to <code className="">DELIVERY</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2385533E9A4-9140-47FA-BA5E-B39FCEBDF6B0" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the dining option for this order. For delivery orders, the dining option must have <code className="font-mono text-sm">behavior</code> set to <code className="font-mono text-sm">DELIVERY</code>.</p></div></td>
     </tr>
 ## Viewing the delivery information in the Toast POS application
 

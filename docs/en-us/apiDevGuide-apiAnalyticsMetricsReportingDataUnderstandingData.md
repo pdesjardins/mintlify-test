@@ -26,98 +26,98 @@ The following table specifies the returned set of values in the aggregated sales
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value name</div></th>
-      <th className=""><div className="">Definition</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value name</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Definition</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">The unique identifier assigned to the restaurant by the Toast platform.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier assigned to the restaurant by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">businessDate</code></div></td>
-      <td className=""><div className="">The calendar date of the associated order data, in <code className="">YYYYMMDD</code> format.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">businessDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The calendar date of the associated order data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">guestCount</code></div></td>
-      <td className=""><div className="">The total number of guests recorded across all orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guestCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of guests recorded across all orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">voidOrdersCount</code></div></td>
-      <td className=""><div className="">The total number of orders with at least one voided item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">voidOrdersCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of orders with at least one voided item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">discountOrderCount</code></div></td>
-      <td className=""><div className="">The total number of orders that used a discount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">discountOrderCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of orders that used a discount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">ordersCount</code></div></td>
-      <td className=""><div className="">The total number of orders, excluding voided orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ordersCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of orders, excluding voided orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">openOrdersCount</code></div></td>
-      <td className=""><div className="">The total number of open orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">openOrdersCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of open orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">closedOrdersCount</code></div></td>
-      <td className=""><div className="">The total number of closed orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">closedOrdersCount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total number of closed orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">netSalesAmount</code></div></td>
-      <td className=""><div className="">The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">netSalesAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total sales, excluding tax, gratuity, tips, discounts, and deferred amounts.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">grossSalesAmount</code></div></td>
-      <td className=""><div className="">The total sales, including applied discounts and refunds.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">grossSalesAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total sales, including applied discounts and refunds.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">discountAmount</code></div></td>
-      <td className=""><div className="">The total amount of discounts for orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">discountAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount of discounts for orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">voidOrdersAmount</code></div></td>
-      <td className=""><div className="">The total amount of voided orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">voidOrdersAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount of voided orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">refundAmount</code></div></td>
-      <td className=""><div className="">The total amount of refunded sales.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">refundAmount</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount of refunded sales.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">avgOrderValue</code></div></td>
-      <td className=""><div className="">The average amount for an order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">avgOrderValue</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The average amount for an order.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">revenueCenter</code></div></td>
-      <td className=""><div className="">The revenue center for the order data. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">REVENUE_CENTER</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">revenueCenter</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The revenue center for the order data. This appears when the <code className="font-mono text-sm">POST</code> request message body includes <code className="font-mono text-sm">groupBy</code> with <code className="font-mono text-sm">REVENUE_CENTER</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="font-mono text-sm">groupBy</code> value</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">diningOption</code></div></td>
-      <td className=""><div className="">The dining option for the order data. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">DINING_OPTION</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">diningOption</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The dining option for the order data. This appears when the <code className="font-mono text-sm">POST</code> request message body includes <code className="font-mono text-sm">groupBy</code> with <code className="font-mono text-sm">DINING_OPTION</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="font-mono text-sm">groupBy</code> value</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderSource</code></div></td>
-      <td className=""><div className="">The method used to place an order, also known as the order source. This appears when the <code className="">POST</code> request message body includes <code className="">groupBy</code> with <code className="">ORDER_SOURCE</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="">groupBy</code> value</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderSource</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The method used to place an order, also known as the order source. This appears when the <code className="font-mono text-sm">POST</code> request message body includes <code className="font-mono text-sm">groupBy</code> with <code className="font-mono text-sm">ORDER_SOURCE</code>. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataGroupBy" className="">Using the <code className="font-mono text-sm">groupBy</code> value</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">businessHour</code></div></td>
-      <td className=""><div className="">The hour the data represents. This appears when the <code className="">aggregateBy</code> query parameter is set to <code className="">HOUR</code> in the <code className="">/era/v1/metrics/day</code> request. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy" className="">Using the <code className="">aggregateBy</code> query parameter</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">businessHour</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The hour the data represents. This appears when the <code className="font-mono text-sm">aggregateBy</code> query parameter is set to <code className="font-mono text-sm">HOUR</code> in the <code className="font-mono text-sm">/era/v1/metrics/day</code> request. For more information, see <a href="apiDevGuide-apiAnalyticsMetricsReportingDataAggregation#apiAnalyticsMetricsReportingDataAggregateBy" className="">Using the <code className="font-mono text-sm">aggregateBy</code> query parameter</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">hourlyJobTotalHours</code></div></td>
-      <td className=""><div className="">The total hours worked by employees with hourly jobs. This does not include breaks.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">hourlyJobTotalHours</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total hours worked by employees with hourly jobs. This does not include breaks.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">hourlyJobTotalPay</code></div></td>
-      <td className=""><div className="">The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">hourlyJobTotalPay</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total wages earned by employees with hourly jobs, including overtime pay. This does not include tips.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">hourlyJobSalesPerLaborHour</code></div></td>
-      <td className=""><div className="">The average net sales per each hour worked by employees with hourly jobs. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">hourlyJobSalesPerLaborHour</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The average net sales per each hour worked by employees with hourly jobs. </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantName</code></div></td>
-      <td className=""><div className="">The restaurant’s name. This is included when you set the <code className="">fetchRestaurantNames</code> parameter to <code className="">true</code> in the <code className="">GET</code> request.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s name. This is included when you set the <code className="font-mono text-sm">fetchRestaurantNames</code> parameter to <code className="font-mono text-sm">true</code> in the <code className="font-mono text-sm">GET</code> request.</p></div></td>
     </tr>
   </tbody>
 </table>

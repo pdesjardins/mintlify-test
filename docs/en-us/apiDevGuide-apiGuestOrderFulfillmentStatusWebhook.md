@@ -75,28 +75,28 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">eventGuid</code></div></td>
-      <td className=""><div className="">The unique Toast platform identifier for the webhook event.  <br/> data type: string</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">eventGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the webhook event. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orderGuid</code></div></td>
-      <td className=""><div className="">The unique Toast platform identifier for the order.  <br/> data type: string</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the order. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">A unique Toast POS identifier for the restaurant. <br/> data type: string <br/> format: uuid</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">guestOrderStatus</code></div></td>
-      <td className=""><div className="">The current status of a guest's order in the restaurant fulfillment process. <ul className=""><li className=""><code className="">IN_PREPARATION</code>: The order is being actively worked on.</li><li className=""><code className="">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</li><li className=""><code className="">CLOSED</code>: The order is paid for and marked as completed.</li><li className=""><code className="">VOIDED</code>:<ul className=""><li className="">If the order is open, the order will be voided and not be fulfilled.</li><li className="">If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</li></ul></li></ul> <br/> data type: string</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guestOrderStatus</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The current status of a guest's order in the restaurant fulfillment process. </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">IN_PREPARATION</code>: The order is being actively worked on.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">CLOSED</code>: The order is paid for and marked as completed.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">VOIDED</code>:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">If the order is open, the order will be voided and not be fulfilled.</p></li><li className=""><p className="text-base leading-relaxed">If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</p></li></ul></li></ul> <p className="text-base leading-relaxed">data type: string</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">lastUpdated</code></div></td>
-      <td className=""><div className="">The date and time the order’s <code className="">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format.  <br/> data type: string <br/> format: date-time</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">lastUpdated</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the order’s <code className="font-mono text-sm">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format. </p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: date-time</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">version</code></div></td>
-      <td className=""><div className="">This value is null.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">version</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">This value is null.</div></td>
     </tr>
   </tbody>
 </table>

@@ -75,41 +75,41 @@ The following table describes the required fields:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Field</div></th>
-      <th className=""><div className="">Type</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Field</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Type</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">diningOption</code></div></td>
-      <td className=""><div className="">Object</div></td>
-      <td className=""><div className="">Specifies the dining option for the order. Must contain a <code className="">guid</code> that references a valid dining option configured for the location.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">diningOption</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Object</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specifies the dining option for the order. Must contain a <code className="font-mono text-sm">guid</code> that references a valid dining option configured for the location.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checks</code></div></td>
-      <td className=""><div className="">Array</div></td>
-      <td className=""><div className="">An array of <code className="">Check</code> objects. Most orders have one check. Each check must contain at least one menu item selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checks</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Array</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An array of <code className="font-mono text-sm">Check</code> objects. Most orders have one check. Each check must contain at least one menu item selection.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checks.selections</code></div></td>
-      <td className=""><div className="">Array</div></td>
-      <td className=""><div className="">An array of <code className="">Selection</code> objects representing the menu items being ordered.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checks.selections</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Array</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An array of <code className="font-mono text-sm">Selection</code> objects representing the menu items being ordered.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checks.selections.item</code></div></td>
-      <td className=""><div className="">Object</div></td>
-      <td className=""><div className="">A reference to the menu item being ordered. Must contain the <code className="">guid</code> of a valid menu item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checks.selections.item</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Object</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A reference to the menu item being ordered. Must contain the <code className="font-mono text-sm">guid</code> of a valid menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checks.selections.itemGroup</code></div></td>
-      <td className=""><div className="">Object</div></td>
-      <td className=""><div className="">A reference to the menu group that contains the menu item. Must contain the <code className="">guid</code> of the parent menu group.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checks.selections.itemGroup</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Object</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A reference to the menu group that contains the menu item. Must contain the <code className="font-mono text-sm">guid</code> of the parent menu group.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">checks.selections.quantity</code></div></td>
-      <td className=""><div className="">Number</div></td>
-      <td className=""><div className="">The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">checks.selections.quantity</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of this menu item to order. Use a whole number for discrete items or a decimal for items sold by weight.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -126,22 +126,22 @@ All requests to the Toast platform APIs require the following headers:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Header</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Header</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">Toast-Restaurant-External-ID</code></div></td>
-      <td className=""><div className="">The GUID of the Toast location for the request.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Toast-Restaurant-External-ID</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the Toast location for the request.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">Authorization</code></div></td>
-      <td className=""><div className="">The access token in the format <em className=""><code className="">Bearer &#123;accessToken&#125;</code></em> .</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Authorization</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The access token in the format <em className=""><code className="font-mono text-sm">Bearer &#123;accessToken&#125;</code></em> .</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">Content-Type</code></div></td>
-      <td className=""><div className="">Required for <code className="">POST</code> requests. Must be set to <code className="">application/json</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Content-Type</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Required for <code className="font-mono text-sm">POST</code> requests. Must be set to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -186,12 +186,12 @@ The response includes an access token to use in the `Authorization` header for s
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-authResponseScope" className="">(1)</a></div></td>
-      <td className=""><div className="">The list of scopes assigned to your API client.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-authResponseScope" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of scopes assigned to your API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-authResponseAccessToken" className="">(2)</a></div></td>
-      <td className=""><div className="">The authentication bearer token needed to place API calls.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-authResponseAccessToken" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The authentication bearer token needed to place API calls.</p></div></td>
     </tr>
 Store the `accessToken` value for use in the following steps.
 
@@ -388,28 +388,28 @@ Using the GUIDs you collected, build your order JSON. The following example show
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderDiningOption" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">diningOption</code> object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderDiningOption" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">diningOption</code> object specifies the dining option for the order such as dine-in or takeout. Use the GUID of a valid dining option from step 2.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderChecks" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">checks</code> array contains one or more <code className="">Check</code> objects. Most orders have a single check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderChecks" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">checks</code> array contains one or more <code className="font-mono text-sm">Check</code> objects. Most orders have a single check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderSelections" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">selections</code> array contains the menu items being ordered.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderSelections" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">selections</code> array contains the menu items being ordered.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderItemGuid" className="">(4)</a></div></td>
-      <td className=""><div className="">The GUID of the menu item. Retrieve this from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderItemGuid" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item. Retrieve this from the <a href="https://doc.toasttab.com/openapi/configuration/overview/" className="">configuration API</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderItemGroup" className="">(5)</a></div></td>
-      <td className=""><div className="">The GUID of the menu group that contains this item. The item must belong to this group.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderItemGroup" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu group that contains this item. The item must belong to this group.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderQuantity" className="">(6)</a></div></td>
-      <td className=""><div className="">The quantity of this item being ordered.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderQuantity" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The quantity of this item being ordered.</p></div></td>
     </tr>
 
 6. **Get the order price (optional but recommended)**
@@ -476,20 +476,20 @@ The response returns the order with calculated prices, taxes, and totals. This s
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-pricesResponseAmount" className="">(1)</a></div></td>
-      <td className=""><div className="">The subtotal of the check before taxes.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-pricesResponseAmount" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The subtotal of the check before taxes.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-pricesResponseTax" className="">(2)</a></div></td>
-      <td className=""><div className="">The total tax amount for the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-pricesResponseTax" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total tax amount for the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-pricesResponseTotal" className="">(3)</a></div></td>
-      <td className=""><div className="">The total amount due including taxes.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-pricesResponseTotal" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount due including taxes.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-pricesResponseItemPrice" className="">(4)</a></div></td>
-      <td className=""><div className="">The calculated price for each menu item selection.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-pricesResponseItemPrice" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The calculated price for each menu item selection.</p></div></td>
     </tr>
 For more information, see [Getting check prices](apiDevGuide-apiOrderPrices#apiGettingCheckPrices).
 
@@ -546,24 +546,24 @@ A successful response (HTTP 200) returns the complete `Order` object with genera
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderResponseGuid" className="">(1)</a></div></td>
-      <td className=""><div className="">The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderResponseGuid" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform generates a unique GUID for the order. Use this GUID to retrieve or modify the order later.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderResponseSource" className="">(2)</a></div></td>
-      <td className=""><div className="">The orders API sets the <code className="">source</code> value to <code className="">API</code> for orders you submit.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderResponseSource" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The orders API sets the <code className="font-mono text-sm">source</code> value to <code className="font-mono text-sm">API</code> for orders you submit.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderResponseStatus" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">approvalStatus</code> indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderResponseStatus" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">approvalStatus</code> indicates the order's position in the fulfillment process. Depending on location configuration, the order may require approval before the kitchen receives it.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderResponseCheckGuid" className="">(4)</a></div></td>
-      <td className=""><div className="">Each check receives a unique GUID. Use this to add items or payments to the check.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderResponseCheckGuid" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Each check receives a unique GUID. Use this to add items or payments to the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderResponseAmount" className="">(5)</a></div></td>
-      <td className=""><div className="">The <code className="">amount</code>, <code className="">taxAmount</code>, and <code className="">totalAmount</code> values show the calculated check totals.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderResponseAmount" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">amount</code>, <code className="font-mono text-sm">taxAmount</code>, and <code className="font-mono text-sm">totalAmount</code> values show the calculated check totals.</p></div></td>
     </tr>
 
 
@@ -608,16 +608,16 @@ The following example shows a selection with a modifier:
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderModifiers" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">modifiers</code> array contains modifier selections that apply to the parent menu item.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderModifiers" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">modifiers</code> array contains modifier selections that apply to the parent menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderModifierItem" className="">(2)</a></div></td>
-      <td className=""><div className="">The GUID of the modifier item (for example, a topping or add-on option).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderModifierItem" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the modifier item (for example, a topping or add-on option).</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-firstOrderOptionGroup" className="">(3)</a></div></td>
-      <td className=""><div className="">The GUID of the option group that contains the modifier. This is required for modifier selections.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-firstOrderOptionGroup" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the option group that contains the modifier. This is required for modifier selections.</p></div></td>
     </tr>
 For more information, see [Applying modifiers to orders](apiDevGuide-apiSpecifyingModifiersAndInstructions#apiApplyingModifiers).
 
@@ -630,51 +630,51 @@ When submitting orders, you may encounter the following HTTP status codes:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Status Code</div></th>
-      <th className=""><div className="">Description</div></th>
-      <th className=""><div className="">Resolution</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Status Code</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Resolution</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">200</div></td>
-      <td className=""><div className="">Success</div></td>
-      <td className=""><div className="">The API created the order successfully. The response body contains the complete order details.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">200</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Success</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The API created the order successfully. The response body contains the complete order details.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">400</div></td>
-      <td className=""><div className="">Bad Request</div></td>
-      <td className=""><div className="">The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">400</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Bad Request</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The request contains invalid data. Check the error message for details. Common causes include invalid GUIDs, missing required fields, or items that do not belong to the specified menu group.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">401</div></td>
-      <td className=""><div className="">Unauthorized</div></td>
-      <td className=""><div className="">The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">401</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Unauthorized</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The access token is missing, invalid, or expired. Obtain a new access token and retry the request.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">403</div></td>
-      <td className=""><div className="">Forbidden</div></td>
-      <td className=""><div className="">The API client does not have access to the location or does not have the required scope (<code className="">orders.orders:write</code>).</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">403</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Forbidden</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The API client does not have access to the location or does not have the required scope (<code className="font-mono text-sm">orders.orders:write</code>).</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">404</div></td>
-      <td className=""><div className="">Not Found</div></td>
-      <td className=""><div className="">A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">404</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Not Found</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A referenced entity (such as a menu item or dining option) does not exist or belongs to a different location.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">413</div></td>
-      <td className=""><div className="">Payload Too Large</div></td>
-      <td className=""><div className="">The number of checks in the order exceeds the allowed limit.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">413</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Payload Too Large</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of checks in the order exceeds the allowed limit.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">415</div></td>
-      <td className=""><div className="">Unsupported Media Type</div></td>
-      <td className=""><div className="">The request does not include the <code className="">Content-Type: application/json</code> header.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">415</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Unsupported Media Type</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The request does not include the <code className="font-mono text-sm">Content-Type: application/json</code> header.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">500</div></td>
-      <td className=""><div className="">Internal Server Error</div></td>
-      <td className=""><div className="">An unexpected error occurred. Note the <code className="">requestId</code> from the error response and contact Toast support if the issue persists.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">500</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Internal Server Error</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An unexpected error occurred. Note the <code className="font-mono text-sm">requestId</code> from the error response and contact Toast support if the issue persists.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -689,26 +689,26 @@ The following table describes common error messages and their resolutions:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Error Message</div></th>
-      <th className=""><div className="">Resolution</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Error Message</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Resolution</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">Could not parse as Order object</code></div></td>
-      <td className=""><div className="">Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Could not parse as Order object</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Your request body contains malformed JSON or invalid data types. Common causes include missing or extra commas, unclosed brackets or braces, unquoted strings, or numeric values that exceed allowed limits. Validate your JSON syntax before submitting the request.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Item (<code className="">item GUID</code>) does not belong to the group (<code className="">item group GUID</code>)</div></td>
-      <td className=""><div className="">The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the <code className="">menuGroups</code> array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the <code className="">menuGroups</code> array.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Item (<code className="font-mono text-sm">item GUID</code>) does not belong to the group (<code className="font-mono text-sm">item group GUID</code>)</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menu item you specified is not part of the referenced menu group. Verify the item's menu group by checking the <code className="font-mono text-sm">menuGroups</code> array in the menu items response. If the menu item belongs to multiple menu groups, ensure you're using the correct menu group GUID from the <code className="font-mono text-sm">menuGroups</code> array.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId</code></div></td>
-      <td className=""><div className="">A menu item in your request is missing its GUID. Ensure every <code className="">item</code> object contains a valid <code className="">guid</code> value.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Referenced entity (type=MenuItem) must contain either a GUID or MultiLocationId</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A menu item in your request is missing its GUID. Ensure every <code className="font-mono text-sm">item</code> object contains a valid <code className="font-mono text-sm">guid</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">Referenced entity (type=DiningOption) must contain a GUID</code></div></td>
-      <td className=""><div className="">The <code className="">diningOption</code> object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Referenced entity (type=DiningOption) must contain a GUID</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">diningOption</code> object is missing its GUID. Retrieve valid dining option GUIDs from the configuration API.</p></div></td>
     </tr>
   </tbody>
 </table>

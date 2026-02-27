@@ -31,16 +31,16 @@ fb23cfaa-56d7-4cb9-829d-531a8d02274a/' \
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e6065F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></div></td>
-      <td className=""><div className="">Send a <code className="">GET</code> request to the <code className="">/era/v1/menu</code> endpoint of the analytics API.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e6065F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the <code className="font-mono text-sm">/era/v1/menu</code> endpoint of the analytics API.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e6067F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></div></td>
-      <td className=""><div className="">Include the GUID for the menu reporting data request, also called the <code className="">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e6067F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the GUID for the menu reporting data request, also called the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e6069F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></div></td>
-      <td className=""><div className="">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e6069F987D2F6-E937-4A8F-AC23-BD439B5BF371" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
 ## Response to the retrieval request for menu reporting data
 

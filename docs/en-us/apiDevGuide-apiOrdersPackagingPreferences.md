@@ -109,28 +109,28 @@ Some local regulations require third-party ordering platforms to clearly state t
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e96B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">enabled</code> value indicates whether the restaurant is currently using the packaging preferences in this object. If <code className="">TRUE</code>, you display the packaging options to guests in your ordering interface. If <code className="">FALSE</code>, do not display the options.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e96B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">enabled</code> value indicates whether the restaurant is currently using the packaging preferences in this object. If <code className="font-mono text-sm">TRUE</code>, you display the packaging options to guests in your ordering interface. If <code className="font-mono text-sm">FALSE</code>, do not display the options.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e98B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">id</code> value holds the packaging preference GUID needed when submitting your order <code className="">POST</code> request. Multiple packaging preferences can be mapped to a single <code className="">id</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e98B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">id</code> value holds the packaging preference GUID needed when submitting your order <code className="font-mono text-sm">POST</code> request. Multiple packaging preferences can be mapped to a single <code className="font-mono text-sm">id</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e100B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">guestDisplayName</code> value is the packaging preferences question that the restaurant intends to show to a guest in your ordering interface. This value should display different packaging preference types appropriately and is defined by your restaurant team.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e100B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guestDisplayName</code> value is the packaging preferences question that the restaurant intends to show to a guest in your ordering interface. This value should display different packaging preference types appropriately and is defined by your restaurant team.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e102B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(4)</a></div></td>
-      <td className=""><div className="">The <code className="">guestInclusionType</code> value defines how the guest should interact with the packaging preference. Possible options are <code className="">OPT_IN</code> and <code className="">OPT_OUT</code>. <code className="">OPT_IN</code> means that a guest will have to complete an action to include packaging preferences such as selecting a checkbox. <code className="">OPT_OUT</code> means that a guest has complete an action to opt out of packaging such as de-selecting a checkbox.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e102B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guestInclusionType</code> value defines how the guest should interact with the packaging preference. Possible options are <code className="font-mono text-sm">OPT_IN</code> and <code className="font-mono text-sm">OPT_OUT</code>. <code className="font-mono text-sm">OPT_IN</code> means that a guest will have to complete an action to include packaging preferences such as selecting a checkbox. <code className="font-mono text-sm">OPT_OUT</code> means that a guest has complete an action to opt out of packaging such as de-selecting a checkbox.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e104B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(5)</a></div></td>
-      <td className=""><div className="">Use the <code className="">guestDescription</code> value to further describe the packaging option, in addition to the <code className="">guestDisplayName</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e104B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">guestDescription</code> value to further describe the packaging option, in addition to the <code className="font-mono text-sm">guestDisplayName</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e107B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(6)</a></div></td>
-      <td className=""><div className="">The <code className="">guestMessage</code> value includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e107B3470A82-36E3-425F-9B05-911ECB33DF15" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guestMessage</code> value includes an optional message, configured by the restaurant, that you show to guests in your ordering interface.</p></div></td>
     </tr>
   
 ### Creating an order with packaging preferences
@@ -188,12 +188,12 @@ The examples below show an order request and response that includes multiple pac
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e28718E59E64-BD98-4F97-BC84-B44ABBF569B3" className="">(1)</a></div></td>
-      <td className=""><div className="">The identifier GUID of the packaging preference option. You get the identifiers for a restaurant's packaging options from the packaging configuration API. For more information, see <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesGetGuid" className="">Getting packaging preference configuration options</a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e28718E59E64-BD98-4F97-BC84-B44ABBF569B3" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier GUID of the packaging preference option. You get the identifiers for a restaurant's packaging options from the packaging configuration API. For more information, see <a href="apiDevGuide-apiOrdersPackagingPreferences#apiOrdersPackagingPreferencesGetGuid" className="">Getting packaging preference configuration options</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e28918E59E64-BD98-4F97-BC84-B44ABBF569B3" className="">(2)</a></div></td>
-      <td className=""><div className="">The packaging preference choice that the guest selected in your ordering interface. The value <code className="">YES</code> indicates that the guest wants the restaurant to include the packaging option for the order.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e28918E59E64-BD98-4F97-BC84-B44ABBF569B3" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The packaging preference choice that the guest selected in your ordering interface. The value <code className="font-mono text-sm">YES</code> indicates that the guest wants the restaurant to include the packaging option for the order.</p></div></td>
     </tr>
   
 The example below shows the response data for a request to create an order that includes packaging preferences.

@@ -30,56 +30,56 @@ Standard API access provides access to the following scopes:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">cashmgmt:read</code></div></td>
-      <td className=""><div className="">cash management API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">cashmgmt:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">cash management API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">config:read</code></div></td>
-      <td className=""><div className="">configuration API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">config:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">configuration API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">delivery_info.address:read</code> <blockquote><strong>Note</strong> This scope exposes additional information in the <code className="">DeliveryInfo</code> object of the orders API.</blockquote> </div></td>
-      <td className=""><div className="">orders API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">delivery_info.address:read</code></p> <blockquote><strong>Note</strong> This scope exposes additional information in the <code className="font-mono text-sm">DeliveryInfo</code> object of the orders API.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4">orders API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">digital_schedule:read</code></div></td>
-      <td className=""><div className="">order management configuration API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">digital_schedule:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">order management configuration API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">guest.pi:read</code> <blockquote><strong>Note</strong> This scope to exposes additional information in the <code className="">Customer</code> object of the orders API.</blockquote> </div></td>
-      <td className=""><div className="">orders API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guest.pi:read</code></p> <blockquote><strong>Note</strong> This scope to exposes additional information in the <code className="font-mono text-sm">Customer</code> object of the orders API.</blockquote> </div></td>
+      <td className="px-4 py-4"><div className="space-y-4">orders API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">kitchen:read</code></div></td>
-      <td className=""><div className="">kitchen API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">kitchen:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">kitchen API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">labor.employees:read</code></div></td>
-      <td className=""><div className="">labor API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor.employees:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">labor API</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">labor:read</code></div></td>
-      <td className=""><div className="">labor API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">labor:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">labor API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">menus:read</code></div></td>
-      <td className=""><div className="">menus v2 API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">menus:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">menus v2 API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">orders:read</code></div></td>
-      <td className=""><div className="">orders API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orders:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">orders API</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">packaging:read</code></div></td>
-      <td className=""><div className="">packaging configuration API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">packaging:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">packaging configuration API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">restaurants:read</code></div></td>
-      <td className=""><div className="">restaurant availability API, restaurants API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurants:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">restaurant availability API, restaurants API</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">stock:read</code></div></td>
-      <td className=""><div className="">stock API</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">stock:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4">stock API</div></td>
     </tr>
   </tbody>
 </table>

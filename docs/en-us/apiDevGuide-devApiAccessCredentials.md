@@ -47,19 +47,19 @@ There are three levels of access:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">8.4 Manage Integrations permission</div></td>
-      <td className=""><div className="">You created the credentials.</div></td>
-      <td className=""><div className="">You did not create the credentials.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4">8.4 Manage Integrations permission</div></td>
+      <td className="px-4 py-4"><div className="space-y-4">You created the credentials.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4">You did not create the credentials.</div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</div></td>
-      <td className=""><div className="">Full access  <br/> Allows for editing and reading of credentials.</div></td>
-      <td className=""><div className="">Full access <br/> Allows for editing and reading of credentials.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4">You have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Full access </p> <p className="text-base leading-relaxed">Allows for editing and reading of credentials.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Full access</p> <p className="text-base leading-relaxed">Allows for editing and reading of credentials.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">You do <em className="">not</em>  have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</div></td>
-      <td className=""><div className="">Read-only <br/> Allows for reading of credentials.</div></td>
-      <td className=""><div className="">Locked <br/> Does not allow for editing or reading of credentials.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4">You do <em className="">not</em>  have the 8.4 Manage Integrations permission enabled at every location linked to the credentials in the management group.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read-only</p> <p className="text-base leading-relaxed">Allows for reading of credentials.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Locked</p> <p className="text-base leading-relaxed">Does not allow for editing or reading of credentials.</p></div></td>
     </tr>
   </tbody>
 </table>

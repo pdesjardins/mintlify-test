@@ -39,12 +39,12 @@ Attributes in the `menus_updated` event's payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">restaurantGuid</code></div></td>
-      <td className=""><div className="">A unique Toast POS identifier for the restaurant whose menu has changed. <br/> data type: string <br/> format: uuid</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant whose menu has changed.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">publishedDate</code></div></td>
-      <td className=""><div className="">The most recent date and time that the menus for this restaurant were published. This timestamp is in the UTC time zone (not the restaurant's local timezone). The date and time are expressed in ISO 8601 format. <br/> data type: string</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">publishedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the menus for this restaurant were published. This timestamp is in the UTC time zone (not the restaurant's local timezone). The date and time are expressed in ISO 8601 format.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
     </tr>
   </tbody>
 </table>

@@ -80,8 +80,8 @@ The following example shows a `Payment` object that updates the tip amount for a
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(1)</a></div></td>
-      <td className=""><div className="">The updated tip amount. The tip amount for the payment is completely replaced by the <code className="">tipAmount</code> value that you include in the message body of the <code className="">PATCH</code> request.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e186EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The updated tip amount. The tip amount for the payment is completely replaced by the <code className="font-mono text-sm">tipAmount</code> value that you include in the message body of the <code className="font-mono text-sm">PATCH</code> request.</p></div></td>
     </tr>
 ## Example response when you update a tip in an existing payment
 
@@ -148,22 +148,22 @@ The following example shows a response for a `PATCH`request to the `/orders/<em>
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(1)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the order that you updated a tip amount in.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e214EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the order that you updated a tip amount in.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(2)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the check that you updated a tip amount in.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e216EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the check that you updated a tip amount in.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(3)</a></div></td>
-      <td className=""><div className="">The Toast platform GUID of the payment that you updated a tip amount in.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e220EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the payment that you updated a tip amount in.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(4)</a></div></td>
-      <td className=""><div className="">The updated tip amount. The <code className="">tipAmount</code> value that you provide in the <code className="">PATCH</code> request completely replaces the existing tip amount for the payment.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e222EB255FF4-7C0A-4389-9FB2-1A07C4E80AD5" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The updated tip amount. The <code className="font-mono text-sm">tipAmount</code> value that you provide in the <code className="font-mono text-sm">PATCH</code> request completely replaces the existing tip amount for the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-paymentStatus" className="">(5)</a></div></td>
-      <td className=""><div className="">When you update a tip amount, the <code className="">paymentStatus</code> value must be <code className="">AUTHORIZED</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-paymentStatus" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">When you update a tip amount, the <code className="font-mono text-sm">paymentStatus</code> value must be <code className="font-mono text-sm">AUTHORIZED</code>.</p></div></td>
     </tr>

@@ -30,34 +30,34 @@ The following table shows discount types that are not complicated to configure. 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Discount use</div></th>
-      <th className=""><div className="">Example discount</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Discount use</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Example discount</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Check-level <a href="adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts" className="">fixed amount and fixed percent discounts</a></div></td>
-      <td className=""><div className="">5% off an entire check before 7:00 AM.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Check-level <a href="adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts" className="">fixed amount and fixed percent discounts</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">5% off an entire check before 7:00 AM.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Item-level <a href="adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts" className="">fixed amount and fixed percent discounts</a></div></td>
-      <td className=""><div className="">$3.00 off a large cheese pizza.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Item-level <a href="adminGuide-adminDiscountTypes#adminFixedAmountAndPercentDiscounts" className="">fixed amount and fixed percent discounts</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$3.00 off a large cheese pizza.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">Buy One Get One (BOGO) discounts</a> with <em className="">buy items</em>  that are specific menu items and that apply a fixed or percent discount to the <em className="">get item</em> .</div></td>
-      <td className=""><div className="">Buy a large cheese pizza (a single menu item) and get a free (100% discount), two-liter bottled drink.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">Buy One Get One (BOGO) discounts</a> with <em className="">buy items</em>  that are specific menu items and that apply a fixed or percent discount to the <em className="">get item</em> .</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy a large cheese pizza (a single menu item) and get a free (100% discount), two-liter bottled drink.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">BOGO discounts</a> with buy items that are specific menu items and that apply a combo price for a single, specific get menu item.</div></td>
-      <td className=""><div className="">Buy a large cheese pizza at the normal price and get a large order of garlic bread for $3.00.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">BOGO discounts</a> with buy items that are specific menu items and that apply a combo price for a single, specific get menu item.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy a large cheese pizza at the normal price and get a large order of garlic bread for $3.00.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminCombinationDiscounts" className="">Combo discounts</a> that apply a combo price for any number of specific menu items.</div></td>
-      <td className=""><div className="">Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminCombinationDiscounts" className="">Combo discounts</a> that apply a combo price for any number of specific menu items.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy two large cheese pizzas, a large order of garlic bread, and a large garden salad for $20.00.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminCombinationDiscounts" className="">Combo discounts</a> that apply a combo price for any number of specific menu items and menu groups in which <em className="">all menu items have the same price and do not use size pricing</em> .</div></td>
-      <td className=""><div className="">Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminCombinationDiscounts" className="">Combo discounts</a> that apply a combo price for any number of specific menu items and menu groups in which <em className="">all menu items have the same price and do not use size pricing</em> .</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy a small cheese pizza, any bag of chips (a menu group with consistent price and without size pricing), and any 20oz bottled drink (a menu group with consistent price and without size pricing) for $7.00.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -80,22 +80,22 @@ The following table shows discount types that you can configure, but that might 
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Discount use</div></th>
-      <th className=""><div className="">Example discount</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Discount use</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Example discount</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">BOGO discounts</a> with a buy item that is a menu group, where the menu group uses size pricing or includes items with different prices</div></td>
-      <td className=""><div className="">Buy any large or extra-large pizza (a menu group that uses size pricing) at the normal price and get a large order of garlic bread for $3.00.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">BOGO discounts</a> with a buy item that is a menu group, where the menu group uses size pricing or includes items with different prices</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy any large or extra-large pizza (a menu group that uses size pricing) at the normal price and get a large order of garlic bread for $3.00.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">BOGO discounts</a> with a get item that is a menu group, where the menu group uses size pricing or includes items with different prices and that applies a combo discount</div></td>
-      <td className=""><div className="">Buy a large cheese pizza at the normal price and get a small appetizer (another menu group that uses size pricing) for $5.00.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminBogoDiscounts" className="">BOGO discounts</a> with a get item that is a menu group, where the menu group uses size pricing or includes items with different prices and that applies a combo discount</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy a large cheese pizza at the normal price and get a small appetizer (another menu group that uses size pricing) for $5.00.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="adminGuide-adminDiscountTypes#adminCombinationDiscounts" className="">Combo discounts</a> that apply a combo price for menu groups that use size pricing or that include items with different prices</div></td>
-      <td className=""><div className="">Buy any large or extra-large pizza (a menu group that uses size pricing) and a small appetizer (another menu group that uses size pricing) for $15.00. </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="adminGuide-adminDiscountTypes#adminCombinationDiscounts" className="">Combo discounts</a> that apply a combo price for menu groups that use size pricing or that include items with different prices</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Buy any large or extra-large pizza (a menu group that uses size pricing) and a small appetizer (another menu group that uses size pricing) for $15.00. </p></div></td>
     </tr>
   </tbody>
 </table>

@@ -55,30 +55,30 @@ Attributes in the `orders_updated` payload include:
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Value</div></th>
-      <th className=""><div className="">Description</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Value</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Description</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className=""><code className="">timestamp</code></div></td>
-      <td className=""><div className="">The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz. <br/> data type: string</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">timestamp</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">eventCategory</code></div></td>
-      <td className=""><div className=""><code className="">order_updated</code> or <code className="">channel_order_updated</code>. <br/> data type: string</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><code className="font-mono text-sm">eventCategory</code></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order_updated</code> or <code className="font-mono text-sm">channel_order_updated</code>.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">eventType</code></div></td>
-      <td className=""><div className=""><code className="">order_updated</code> or <code className="">channel_order_updated</code>. <br/>  data type: string </div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">eventType</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order_updated</code> or <code className="font-mono text-sm">channel_order_updated</code>.</p> <p className="text-base leading-relaxed"> data type: string </p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">guid</code></div></td>
-      <td className=""><div className="">A unique Toast platform identifier for the webhook event. <br/> data type: string <br/> format: UUID</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast platform identifier for the webhook event.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: UUID</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><code className="">details</code></div></td>
-      <td className=""><div className="">A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the <code className="">appliedPackagingInfo</code> object which describes any order packaging preferences.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">details</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A field containing the details of the order update, including the full order JSON, the Toast platform unique identifier (GUID) for the restaurant that made the update, and the <code className="font-mono text-sm">appliedPackagingInfo</code> object which describes any order packaging preferences.</p></div></td>
     </tr>
   </tbody>
 </table>

@@ -39,28 +39,28 @@ The channel visibility settings reside on a menu entity's details page in Toast 
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">In-store orders: POS</div></td>
-      <td className=""><div className="">POS</div></td>
-      <td className=""><div className=""><code className="">POS</code></div></td>
-      <td className=""><div className="">The menu entity is visible on a Toast POS device.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In-store orders: POS</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">POS</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">POS</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menu entity is visible on a Toast POS device.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">In-store orders: Kiosk</div></td>
-      <td className=""><div className="">Kiosk, Toast Order and Pay</div></td>
-      <td className=""><div className=""><code className="">KIOSK</code></div></td>
-      <td className=""><div className="">The menu entity is visible on a Toast Kiosk.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In-store orders: Kiosk</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Kiosk, Toast Order and Pay</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">KIOSK</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menu entity is visible on a Toast Kiosk.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Online orders: Toast</div></td>
-      <td className=""><div className="">Toast Online Ordering, Toast Takeout (Local by Toast) app</div></td>
-      <td className=""><div className=""><code className="">TOAST_ONLINE_ORDERING</code></div></td>
-      <td className=""><div className="">The menu entity is visible on a restaurant's Toast online ordering site.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Online orders: Toast</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Toast Online Ordering, Toast Takeout (Local by Toast) app</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">TOAST_ONLINE_ORDERING</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menu entity is visible on a restaurant's Toast online ordering site.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Online orders: Ordering partners</div></td>
-      <td className=""><div className="">Online ordering partners</div></td>
-      <td className=""><div className=""><code className="">ORDERING_PARTNERS</code></div></td>
-      <td className=""><div className="">The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Online orders: Ordering partners</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Online ordering partners</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ORDERING_PARTNERS</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant wants the menu entity to be visible on all online ordering sites that they have allowed to integrate with their restaurant.</p></div></td>
     </tr>
   </tbody>
 </table>

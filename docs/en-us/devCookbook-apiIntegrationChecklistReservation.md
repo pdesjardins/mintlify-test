@@ -274,40 +274,40 @@ The workflow below outlines how to create a reservation in your system and submi
 
 
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-diningOption" className="">(1)</a></div></td>
-      <td className=""><div className="">The <code className="">diningOption</code> used by restaurants for orders with a dining behavior of <code className="">DINE_IN</code>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-diningOption" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">diningOption</code> used by restaurants for orders with a dining behavior of <code className="font-mono text-sm">DINE_IN</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-revenueCenter" className="">(2)</a></div></td>
-      <td className=""><div className="">The <code className="">revenueCenter</code> used by the restaurant for reservation orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-revenueCenter" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">revenueCenter</code> used by the restaurant for reservation orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-table" className="">(3)</a></div></td>
-      <td className=""><div className="">The <code className="">table</code> the guest has been assigned to.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-table" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">table</code> the guest has been assigned to.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-numberOfGuests" className="">(4)</a></div></td>
-      <td className=""><div className="">The number of guests for the reservation.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-numberOfGuests" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of guests for the reservation.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-server" className="">(5)</a></div></td>
-      <td className=""><div className="">The employee guid of the <code className="">server</code> assigned to the reservation.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-server" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The employee guid of the <code className="font-mono text-sm">server</code> assigned to the reservation.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-tabName" className="">(6)</a></div></td>
-      <td className=""><div className="">The <code className="">tabName</code> for the order to identify your reservation and guest information.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-tabName" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">tabName</code> for the order to identify your reservation and guest information.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-serviceCharge" className="">(7)</a></div></td>
-      <td className=""><div className="">The <code className="">serviceCharge</code> used by the restaurant for reservation orders.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-serviceCharge" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">serviceCharge</code> used by the restaurant for reservation orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-deposit" className="">(8)</a></div></td>
-      <td className=""><div className="">The deposit amount.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-deposit" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The deposit amount.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className=""><a href="#co-res-otherPayment" className="">(9)</a></div></td>
-      <td className=""><div className="">The guid used to identify the <code className="">alternativePaymentType</code> used for reservation deposits.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-otherPayment" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The guid used to identify the <code className="font-mono text-sm">alternativePaymentType</code> used for reservation deposits.</p></div></td>
     </tr>
   
 ## Understanding reservation order data
@@ -319,31 +319,31 @@ Use the following information from the orders API response to update the reserva
 <table className="">
   <thead className="">
     <tr className="">
-      <th className=""><div className="">Information type</div></th>
-      <th className=""><div className="">Transactional information</div></th>
-      <th className=""><div className="">Additional information</div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Information type</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Transactional information</p></div></th>
+      <th className=""><div className=""><p className="text-base leading-relaxed">Additional information</p></div></th>
     </tr>
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Dining option</div></td>
-      <td className=""><div className=""><code className="">order.diningOption.guid</code></div></td>
-      <td className=""><div className="">Review the <code className="">guid</code> value associated with the <code className="">diningOption</code> assigned to the order to understand dining behavior.  <br/> Orders associated with reservations will have a <code className="">diningOption</code> with a <code className="">DINE_IN</code> dining behavior.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response" className=""><code className="">diningOption</code></a> object.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Dining option</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order.diningOption.guid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Review the <code className="font-mono text-sm">guid</code> value associated with the <code className="font-mono text-sm">diningOption</code> assigned to the order to understand dining behavior. </p> <p className="text-base leading-relaxed">Orders associated with reservations will have a <code className="font-mono text-sm">diningOption</code> with a <code className="font-mono text-sm">DINE_IN</code> dining behavior. </p> <p className="text-base leading-relaxed">For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=diningOption&t=response" className=""><code className="font-mono text-sm">diningOption</code></a> object.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Guest count</div></td>
-      <td className=""><div className=""><code className="">order.numberOfGuests</code></div></td>
-      <td className=""><div className="">Review the value associated with the <code className="">numberOfGuests</code> assigned to the order to understand guest count.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response" className=""><code className="">numberOfGuests</code></a> key.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Guest count</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order.numberOfGuests</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Review the value associated with the <code className="font-mono text-sm">numberOfGuests</code> assigned to the order to understand guest count. </p> <p className="text-base leading-relaxed">For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=numberOfGuests&t=response" className=""><code className="font-mono text-sm">numberOfGuests</code></a> key.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Order status</div></td>
-      <td className=""><div className=""><code className="">order.closedDate</code></div></td>
-      <td className=""><div className="">Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response" className=""><code className="">closedDate</code></a>.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Order status</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order.closedDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Review the date to understand when guests have paid for their meal. This indicates that the table will be available soon. </p> <p className="text-base leading-relaxed">For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=closedDate&t=response" className=""><code className="font-mono text-sm">closedDate</code></a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Table</div></td>
-      <td className=""><div className=""><code className="">order.table.guid</code></div></td>
-      <td className=""><div className="">Review the <code className="">guid</code> value associated with the <code className="">table</code> assigned to the order to understand <code className="">table</code> assignment.  <br/> For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response" className=""><code className="">table</code></a> object.  <br/> To understand the <code className="">table guid</code> values, send a <code className="">GET</code> request to the <a href="https://doc.toasttab.com/openapi/configuration/operation/tablesGet/" className=""><code className="">/tables</code></a> endpoint of the configuration API to retrieve the restaurant's tables.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Table</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order.table.guid</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Review the <code className="font-mono text-sm">guid</code> value associated with the <code className="font-mono text-sm">table</code> assigned to the order to understand <code className="font-mono text-sm">table</code> assignment. </p> <p className="text-base leading-relaxed">For more information, see the orders API reference documentation on the <a href="https://doc.toasttab.com/openapi/orders/operation/ordersBulkGet/#!c=200&path=table&t=response" className=""><code className="font-mono text-sm">table</code></a> object. </p> <p className="text-base leading-relaxed">To understand the <code className="font-mono text-sm">table guid</code> values, send a <code className="font-mono text-sm">GET</code> request to the <a href="https://doc.toasttab.com/openapi/configuration/operation/tablesGet/" className=""><code className="font-mono text-sm">/tables</code></a> endpoint of the configuration API to retrieve the restaurant's tables.</p></div></td>
     </tr>
   </tbody>
 </table>

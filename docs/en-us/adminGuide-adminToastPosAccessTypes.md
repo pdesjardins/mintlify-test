@@ -39,14 +39,14 @@ The following table includes information about the access types and their creden
   </thead>
   <tbody className="">
     <tr className="">
-      <td className=""><div className="">Administrative</div></td>
-      <td className=""><div className="">Email address and password</div></td>
-      <td className=""><div className=""><ul className=""><li className="">Toast Web</li><li className="">Toast POS devices</li></ul></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Administrative</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Email address and password</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">Toast Web</p></li><li className=""><p className="text-base leading-relaxed">Toast POS devices</p></li></ul></div></td>
     </tr>
     <tr className="">
-      <td className=""><div className="">Non-administrative</div></td>
-      <td className=""><div className="">4+ digit POS access code</div></td>
-      <td className=""><div className="">Toast POS devices</div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Non-administrative</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">4+ digit POS access code</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Toast POS devices</p></div></td>
     </tr>
   </tbody>
 </table>
