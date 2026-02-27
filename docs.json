@@ -11,6 +11,514 @@
     "navigation": {
         "tabs": [
             {
+                "tab": "Integration how-to guides",
+                "groups": [
+                    {
+                        "group": "Recipes",
+                        "pages": [
+                            {
+                                "group": "Building integrations",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistGeneral"
+                                ]
+                            },
+                            {
+                                "group": "Employees",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistEmployee",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistShift"
+                                ]
+                            },
+                            {
+                                "group": "Gift cards",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiHowToGiftCard"
+                                ]
+                            },
+                            {
+                                "group": "Loyalty",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiHowToLoyalty"
+                                ]
+                            },
+                            {
+                                "group": "Ordering",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistOrdering",
+                                    "docs/en-us/devCookbook-apiBuildingDigitalSignage",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistDelivery"
+                                ]
+                            },
+                            {
+                                "group": "Reports",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistTemplate",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistPayroll",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistAccounting",
+                                    "docs/en-us/devCookbook-apiHowToCashReports",
+                                    "docs/en-us/devCookbook-apiHowToReporting",
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistInventory",
+                                    "docs/en-us/devCookbook-apiHowToBuildACrmGuestEngagementIntegration"
+                                ]
+                            },
+                            {
+                                "group": "Reservations",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistReservation"
+                                ]
+                            },
+                            {
+                                "group": "Security",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiIntegrationChecklistSecurity"
+                                ]
+                            },
+                            {
+                                "group": "Webhooks",
+                                "pages": [
+                                    "docs/en-us/devCookbook-apiWebhookUsageChecklist"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Developer guide",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            {
+                                "group": "Choose your integration type",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiIntegrationTypes"
+                                ]
+                            },
+                            {
+                                "group": "If you're an integration partner",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiPartnerIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-integrationDevProcess",
+                                    "docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants",
+                                    "docs/en-us/apiDevGuide-apiDeveloperPortal",
+                                    "docs/en-us/apiDevGuide-apiEnvironments"
+                                ]
+                            },
+                            {
+                                "group": "If you're a custom integration developer",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiCustomIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiDeveloperPortalCustomIntegrations",
+                                    "docs/en-us/apiDevGuide-apiEnvironmentsCustomIntegrations"
+                                ]
+                            },
+                            {
+                                "group": "If you're a standard API access developer",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-devApiAccessUserGuide",
+                                    "docs/en-us/apiDevGuide-devApiAccessRequirements",
+                                    "docs/en-us/apiDevGuide-devApiAccessScopes",
+                                    "docs/en-us/apiDevGuide-devApiAccessResources",
+                                    "docs/en-us/apiDevGuide-devApiAccessCredentials",
+                                    "docs/en-us/apiDevGuide-devApiAccessWebhookSubscriptions",
+                                    "docs/en-us/apiDevGuide-devApiAccessFAQs",
+                                    "docs/en-us/apiDevGuide-devApiAccessSupportStandardApiAccess"
+                                ]
+                            },
+                            {
+                                "group": "If you're an analytics API developer",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsAccessOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsAccessCreatingCredentials"
+                                ]
+                            },
+                            {
+                                "group": "API overview",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiOverview"
+                                ]
+                            },
+                            {
+                                "group": "Authentication",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-authentication",
+                                    "docs/en-us/apiDevGuide-apiAuthTokenRefresh",
+                                    "docs/en-us/apiDevGuide-apiAuthenticationRateLimit"
+                                ]
+                            },
+                            {
+                                "group": "General Toast API information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingRestApis",
+                                    "docs/en-us/apiDevGuide-portalHowToBuildAToastIntegration",
+                                    "docs/en-us/apiDevGuide-apiUpdatesEmailDistributionList",
+                                    "docs/en-us/apiDevGuide-apiClientAccounts",
+                                    "docs/en-us/apiDevGuide-apiRateLimiting",
+                                    "docs/en-us/apiDevGuide-portalToastIdentifiers",
+                                    "docs/en-us/apiDevGuide-api_dates_and_timestamps",
+                                    "docs/en-us/apiDevGuide-apiToastApisAndTheEnterpriseModule",
+                                    "docs/en-us/apiDevGuide-apiResponseDataPagination",
+                                    "docs/en-us/apiDevGuide-apiScopes",
+                                    "docs/en-us/apiDevGuide-apiResponsesAndErrors",
+                                    "docs/en-us/apiDevGuide-apiExampleRequests",
+                                    "docs/en-us/apiDevGuide-apiDeployment",
+                                    "docs/en-us/apiDevGuide-apiHandlingDowntimes",
+                                    "docs/en-us/apiDevGuide-apiApiUpdatesMayRequirePublishes",
+                                    "docs/en-us/apiDevGuide-apiDeprecatedApiFunctions"
+                                ]
+                            },
+                            {
+                                "group": "Checklists and test plans",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiIntegrationChecklists",
+                                    "docs/en-us/apiDevGuide-checklistsforSpecificIntegrationFunctionality",
+                                    "docs/en-us/apiDevGuide-integrationTestPlans"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Orders",
+                        "pages": [
+                            {
+                                "group": "About the orders API",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-portalOrdersApiOverview",
+                                    "docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary",
+                                    "docs/en-us/apiDevGuide-apiOrdersFirstOrder",
+                                    "docs/en-us/apiDevGuide-apiOrdersErrors"
+                                ]
+                            },
+                            {
+                                "group": "Getting order information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiOrdersGetScopes",
+                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder",
+                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersNetSalesCalculation",
+                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation",
+                                    "docs/en-us/apiDevGuide-apiOrdersFindingAnOrderGuid",
+                                    "docs/en-us/apiDevGuide-apiDailyOrderForTrackingExcessFood"
+                                ]
+                            },
+                            {
+                                "group": "Updating order information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiCreatingOrders",
+                                    "docs/en-us/apiDevGuide-apiVoidOrder",
+                                    "docs/en-us/apiDevGuide-apiUsingMultiLocationIdsInOrders",
+                                    "docs/en-us/apiDevGuide-apiOrderTypeDetails",
+                                    "docs/en-us/apiDevGuide-apiSpecifyingModifiersAndInstructions",
+                                    "docs/en-us/apiDevGuide-apiOrdersPackagingPreferences",
+                                    "docs/en-us/apiDevGuide-apiOrderPrices",
+                                    "docs/en-us/apiDevGuide-apiDiscountingOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersRevenueCenters",
+                                    "docs/en-us/apiDevGuide-orders_api_future_orders",
+                                    "docs/en-us/apiDevGuide-calculatingOrderWaitTime",
+                                    "docs/en-us/apiDevGuide-apiAddingItemsToACheck",
+                                    "docs/en-us/apiDevGuide-apiAddingPaymentsToACheck",
+                                    "docs/en-us/apiDevGuide-apiUpdatingTipsInAPayment",
+                                    "docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder",
+                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorOrders",
+                                    "docs/en-us/apiDevGuide-apiOrdersDeferredMenuItems"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Payments",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-portalApiPaymentsOverview",
+                            {
+                                "group": "Getting payment information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAllPaymentsInRestaurants",
+                                    "docs/en-us/apiDevGuide-apiPaymentntInformation"
+                                ]
+                            },
+                            {
+                                "group": "Updating payment information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiSubmittingPaymentsIntro",
+                                    "docs/en-us/apiDevGuide-authorizingCcPayments",
+                                    "docs/en-us/apiDevGuide-apiCreatingAnOrderWithPaymentInformation"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Menus",
+                        "pages": [
+                            {
+                                "group": "About the menus API",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI",
+                                    "docs/en-us/apiDevGuide-apiComparingMenusAPIV2AndV3",
+                                    "docs/en-us/apiDevGuide-apiMenusApiStructureMirrorsToastAdministrationBackEndStructure",
+                                    "docs/en-us/apiDevGuide-apiUsingMenusApiDataToConstructValidOrders",
+                                    "docs/en-us/apiDevGuide-apiMenusApiSupportsDataRetrievalOnly",
+                                    "docs/en-us/apiDevGuide-apiMenusApiReturnsPublishedDataOnly",
+                                    "docs/en-us/apiDevGuide-apiEnsuringYourMenuDataIsUpToDate",
+                                    "docs/en-us/apiDevGuide-apiUnderstandingTheOrderInWhichModifierGroupsAreReturned",
+                                    "docs/en-us/apiDevGuide-apiMenusApiSupersedesConfigApiAndMenuDataExport"
+                                ]
+                            },
+                            {
+                                "group": "Getting menu information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2",
+                                    "docs/en-us/apiDevGuide-apiMenusApiRateLimit_V2",
+                                    "docs/en-us/apiDevGuide-apiMenusApiReturnsFullyResolvedJson_V2",
+                                    "docs/en-us/apiDevGuide-apiDetectingAndAvoidingInfiniteLoopsInTheMenusApiJson",
+                                    "docs/en-us/apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2",
+                                    "docs/en-us/apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2",
+                                    "docs/en-us/apiDevGuide-apiUsingTaxInfoAndModifierOptionTaxInfoToCalculateTaxesForMenuItemsAndModOptions",
+                                    "docs/en-us/apiDevGuide-apiUsingMenusApiDataToSubmitProperlyFormedOrders_V2",
+                                    "docs/en-us/apiDevGuide-apiDeterminingIfMenuItemsOrModifiersContainAlcohol",
+                                    "docs/en-us/apiDevGuide-apiDeterminingIfAMenuEntityShouldBeVisibleOnAnOrderingPartnerSite_V2",
+                                    "docs/en-us/apiDevGuide-apiPosButtonColorHexCodesForLightAndDarkMode",
+                                    "docs/en-us/apiDevGuide-apiComparingTheMenusApiWithTheConfigurationApiAndMenuJsonExport_V2",
+                                    "docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2",
+                                    "docs/en-us/apiDevGuide-apiMenusApiTroubleshooting_V2",
+                                    "docs/en-us/apiDevGuide-menu_information_config_api"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Stock",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-apiStock",
+                            {
+                                "group": "Getting stock information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingTheStockWebhook",
+                                    "docs/en-us/apiDevGuide-apiUsingTheStockApi"
+                                ]
+                            },
+                            {
+                                "group": "Updating stock information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUpdatingInventoryInformation"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Restaurant info",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-apiRestaurantInfo",
+                            "docs/en-us/apiDevGuide-apiRestaurantBusinessDate",
+                            {
+                                "group": "Getting restaurant info",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiRestaurantsInGroup",
+                                    "docs/en-us/apiDevGuide-apiRestaurantInformation",
+                                    "docs/en-us/apiDevGuide-apiRestaurantOnlineOrderingInfo",
+                                    "docs/en-us/apiDevGuide-apiGettingOnlineOrderingSchedules",
+                                    "docs/en-us/apiDevGuide-apiGettingRxOnlineOrderingAvailability"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Employees",
+                        "pages": [
+                            {
+                                "group": "Getting employee information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-api_get_all_employees",
+                                    "docs/en-us/apiDevGuide-apiGettingTimeEntriesForEmployees",
+                                    "docs/en-us/apiDevGuide-apiGettingShiftAssignmentsForEmployees"
+                                ]
+                            },
+                            {
+                                "group": "Updating employee information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAddingAnEmployee",
+                                    "docs/en-us/apiDevGuide-apiAddingAShiftAndAssigningIt",
+                                    "docs/en-us/apiDevGuide-apiArchivingAnEmployee",
+                                    "docs/en-us/apiDevGuide-apiUnarchivingAnEmployee"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Cash management",
+                        "pages": [
+                            "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
+                            {
+                                "group": "Getting cash management information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingCashManagementApi",
+                                    "docs/en-us/apiDevGuide-apiGetCashDeposits",
+                                    "docs/en-us/apiDevGuide-apiCalculatingExpectedCashDeposits"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Webhooks",
+                        "pages": [
+                            {
+                                "group": "Using webhooks",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiWebhookBasics",
+                                    "docs/en-us/apiDevGuide-apiEndpointRequirements",
+                                    "docs/en-us/apiDevGuide-apiSubscriptions",
+                                    "docs/en-us/apiDevGuide-apiMessageDataSchema",
+                                    "docs/en-us/apiDevGuide-apiHttpHeaders",
+                                    "docs/en-us/apiDevGuide-apiTimeouts",
+                                    "docs/en-us/apiDevGuide-apiRetrySupport",
+                                    "docs/en-us/apiDevGuide-apiMessageSigning"
+                                ]
+                            },
+                            {
+                                "group": "Webhooks reference",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiWebhooksReference",
+                                    "docs/en-us/apiDevGuide-apiGuestOrderFulfillmentStatusWebhook",
+                                    "docs/en-us/apiDevGuide-apiMenusWebhook",
+                                    "docs/en-us/apiDevGuide-devOrdersWebhookRef",
+                                    "docs/en-us/apiDevGuide-apiPackagingPreferencesConfigWebhook",
+                                    "docs/en-us/apiDevGuide-apiPartnersWebhook",
+                                    "docs/en-us/apiDevGuide-apiRxAvailabilityWebhook",
+                                    "docs/en-us/apiDevGuide-apiRxOnlineOrderingScheduleWebhook",
+                                    "docs/en-us/apiDevGuide-apiStockWebhook"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Outbound integrations",
+                        "pages": [
+                            {
+                                "group": "Outbound API overview",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiUsingToastOutboundApis",
+                                    "docs/en-us/apiDevGuide-apiAuthenticatingRequestsFromToastApiClients"
+                                ]
+                            },
+                            {
+                                "group": "Gift Card Integrations",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationWorkflow",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationAuthentication",
+                                    "docs/en-us/apiDevGuide-apiPhysicalGiftCardRequirements",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests",
+                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationReferenceApiImplementation"
+                                ]
+                            },
+                            {
+                                "group": "Loyalty program integrations",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiLoyaltyProgramIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationOverview",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyTransactionDescriptions",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyPosWorkflow",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyKioskWorkflow",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyDiscountProcessing",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyErrorHandling",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyLatencyRequirements",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationNetworkFailureAndIdempotence",
+                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationAuthentication"
+                                ]
+                            },
+                            {
+                                "group": "Tender provider integrations",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiTenderProviderIntegrationsOverview",
+                                    "docs/en-us/apiDevGuide-apiTenderPmsIntegration",
+                                    "docs/en-us/apiDevGuide-apiTenderScanToPay"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Analytics",
+                        "pages": [
+                            {
+                                "group": "About the analytics API",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsUnderstandingProcess",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsScope",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsRateLimiting",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsDataDiscrepancies",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData"
+                                ]
+                            },
+                            {
+                                "group": "Aggregated sales reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataAggregation",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Check reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Labor reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataAggregation",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Menu reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataAggregation",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataUnderstandingData"
+                                ]
+                            },
+                            {
+                                "group": "Payout reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutReportingDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData"
+                                ]
+                            },
+                            {
+                                "group": "Guest reporting data",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataCreateRequest",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataRetrieveData",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataUnderstandData"
+                                ]
+                            },
+                            {
+                                "group": "Restaurant information",
+                                "pages": [
+                                    "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoOverview",
+                                    "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "tab": "Platform guide",
                 "groups": [
                     {
@@ -877,514 +1385,6 @@
                                 "group": "UI options",
                                 "pages": [
                                     "docs/en-us/adminGuide-adminUiOptionsReference"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Developer guide",
-                "groups": [
-                    {
-                        "group": "Getting started",
-                        "pages": [
-                            {
-                                "group": "Choose your integration type",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiIntegrationTypes"
-                                ]
-                            },
-                            {
-                                "group": "If you're an integration partner",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiPartnerIntegrationOverview",
-                                    "docs/en-us/apiDevGuide-integrationDevProcess",
-                                    "docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants",
-                                    "docs/en-us/apiDevGuide-apiDeveloperPortal",
-                                    "docs/en-us/apiDevGuide-apiEnvironments"
-                                ]
-                            },
-                            {
-                                "group": "If you're a custom integration developer",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiCustomIntegrationOverview",
-                                    "docs/en-us/apiDevGuide-apiDeveloperPortalCustomIntegrations",
-                                    "docs/en-us/apiDevGuide-apiEnvironmentsCustomIntegrations"
-                                ]
-                            },
-                            {
-                                "group": "If you're a standard API access developer",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-devApiAccessUserGuide",
-                                    "docs/en-us/apiDevGuide-devApiAccessRequirements",
-                                    "docs/en-us/apiDevGuide-devApiAccessScopes",
-                                    "docs/en-us/apiDevGuide-devApiAccessResources",
-                                    "docs/en-us/apiDevGuide-devApiAccessCredentials",
-                                    "docs/en-us/apiDevGuide-devApiAccessWebhookSubscriptions",
-                                    "docs/en-us/apiDevGuide-devApiAccessFAQs",
-                                    "docs/en-us/apiDevGuide-devApiAccessSupportStandardApiAccess"
-                                ]
-                            },
-                            {
-                                "group": "If you're an analytics API developer",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsAccessOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsAccessCreatingCredentials"
-                                ]
-                            },
-                            {
-                                "group": "API overview",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiOverview"
-                                ]
-                            },
-                            {
-                                "group": "Authentication",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-authentication",
-                                    "docs/en-us/apiDevGuide-apiAuthTokenRefresh",
-                                    "docs/en-us/apiDevGuide-apiAuthenticationRateLimit"
-                                ]
-                            },
-                            {
-                                "group": "General Toast API information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiUsingRestApis",
-                                    "docs/en-us/apiDevGuide-portalHowToBuildAToastIntegration",
-                                    "docs/en-us/apiDevGuide-apiUpdatesEmailDistributionList",
-                                    "docs/en-us/apiDevGuide-apiClientAccounts",
-                                    "docs/en-us/apiDevGuide-apiRateLimiting",
-                                    "docs/en-us/apiDevGuide-portalToastIdentifiers",
-                                    "docs/en-us/apiDevGuide-api_dates_and_timestamps",
-                                    "docs/en-us/apiDevGuide-apiToastApisAndTheEnterpriseModule",
-                                    "docs/en-us/apiDevGuide-apiResponseDataPagination",
-                                    "docs/en-us/apiDevGuide-apiScopes",
-                                    "docs/en-us/apiDevGuide-apiResponsesAndErrors",
-                                    "docs/en-us/apiDevGuide-apiExampleRequests",
-                                    "docs/en-us/apiDevGuide-apiDeployment",
-                                    "docs/en-us/apiDevGuide-apiHandlingDowntimes",
-                                    "docs/en-us/apiDevGuide-apiApiUpdatesMayRequirePublishes",
-                                    "docs/en-us/apiDevGuide-apiDeprecatedApiFunctions"
-                                ]
-                            },
-                            {
-                                "group": "Checklists and test plans",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiIntegrationChecklists",
-                                    "docs/en-us/apiDevGuide-checklistsforSpecificIntegrationFunctionality",
-                                    "docs/en-us/apiDevGuide-integrationTestPlans"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Orders",
-                        "pages": [
-                            {
-                                "group": "About the orders API",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-portalOrdersApiOverview",
-                                    "docs/en-us/apiDevGuide-apiOrdersOrderObjectSummary",
-                                    "docs/en-us/apiDevGuide-apiOrdersFirstOrder",
-                                    "docs/en-us/apiDevGuide-apiOrdersErrors"
-                                ]
-                            },
-                            {
-                                "group": "Getting order information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiOrdersGetScopes",
-                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder",
-                                    "docs/en-us/apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders",
-                                    "docs/en-us/apiDevGuide-apiOrdersNetSalesCalculation",
-                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorTaxInformation",
-                                    "docs/en-us/apiDevGuide-apiOrdersFindingAnOrderGuid",
-                                    "docs/en-us/apiDevGuide-apiDailyOrderForTrackingExcessFood"
-                                ]
-                            },
-                            {
-                                "group": "Updating order information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiCreatingOrders",
-                                    "docs/en-us/apiDevGuide-apiVoidOrder",
-                                    "docs/en-us/apiDevGuide-apiUsingMultiLocationIdsInOrders",
-                                    "docs/en-us/apiDevGuide-apiOrderTypeDetails",
-                                    "docs/en-us/apiDevGuide-apiSpecifyingModifiersAndInstructions",
-                                    "docs/en-us/apiDevGuide-apiOrdersPackagingPreferences",
-                                    "docs/en-us/apiDevGuide-apiOrderPrices",
-                                    "docs/en-us/apiDevGuide-apiDiscountingOrders",
-                                    "docs/en-us/apiDevGuide-apiOrdersRevenueCenters",
-                                    "docs/en-us/apiDevGuide-orders_api_future_orders",
-                                    "docs/en-us/apiDevGuide-calculatingOrderWaitTime",
-                                    "docs/en-us/apiDevGuide-apiAddingItemsToACheck",
-                                    "docs/en-us/apiDevGuide-apiAddingPaymentsToACheck",
-                                    "docs/en-us/apiDevGuide-apiUpdatingTipsInAPayment",
-                                    "docs/en-us/apiDevGuide-apiUpdatingDeliveryInfoForAnOrder",
-                                    "docs/en-us/apiDevGuide-apiMarketplaceFacilitatorOrders",
-                                    "docs/en-us/apiDevGuide-apiOrdersDeferredMenuItems"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Payments",
-                        "pages": [
-                            "docs/en-us/apiDevGuide-portalApiPaymentsOverview",
-                            {
-                                "group": "Getting payment information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAllPaymentsInRestaurants",
-                                    "docs/en-us/apiDevGuide-apiPaymentntInformation"
-                                ]
-                            },
-                            {
-                                "group": "Updating payment information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiSubmittingPaymentsIntro",
-                                    "docs/en-us/apiDevGuide-authorizingCcPayments",
-                                    "docs/en-us/apiDevGuide-apiCreatingAnOrderWithPaymentInformation"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Menus",
-                        "pages": [
-                            {
-                                "group": "About the menus API",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiGettingMenuInformationFromTheMenusAPI",
-                                    "docs/en-us/apiDevGuide-apiComparingMenusAPIV2AndV3",
-                                    "docs/en-us/apiDevGuide-apiMenusApiStructureMirrorsToastAdministrationBackEndStructure",
-                                    "docs/en-us/apiDevGuide-apiUsingMenusApiDataToConstructValidOrders",
-                                    "docs/en-us/apiDevGuide-apiMenusApiSupportsDataRetrievalOnly",
-                                    "docs/en-us/apiDevGuide-apiMenusApiReturnsPublishedDataOnly",
-                                    "docs/en-us/apiDevGuide-apiEnsuringYourMenuDataIsUpToDate",
-                                    "docs/en-us/apiDevGuide-apiUnderstandingTheOrderInWhichModifierGroupsAreReturned",
-                                    "docs/en-us/apiDevGuide-apiMenusApiSupersedesConfigApiAndMenuDataExport"
-                                ]
-                            },
-                            {
-                                "group": "Getting menu information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiDeterminingIfYourMenuJsonIsOutdated_V2",
-                                    "docs/en-us/apiDevGuide-apiMenusApiRateLimit_V2",
-                                    "docs/en-us/apiDevGuide-apiMenusApiReturnsFullyResolvedJson_V2",
-                                    "docs/en-us/apiDevGuide-apiDetectingAndAvoidingInfiniteLoopsInTheMenusApiJson",
-                                    "docs/en-us/apiDevGuide-apiUnderstandingGuidsEntityIdentifiersAndMultilocationIds_V2",
-                                    "docs/en-us/apiDevGuide-apiUsingPricingRulesAndPricingStrategyToCalculatePrices_V2",
-                                    "docs/en-us/apiDevGuide-apiUsingTaxInfoAndModifierOptionTaxInfoToCalculateTaxesForMenuItemsAndModOptions",
-                                    "docs/en-us/apiDevGuide-apiUsingMenusApiDataToSubmitProperlyFormedOrders_V2",
-                                    "docs/en-us/apiDevGuide-apiDeterminingIfMenuItemsOrModifiersContainAlcohol",
-                                    "docs/en-us/apiDevGuide-apiDeterminingIfAMenuEntityShouldBeVisibleOnAnOrderingPartnerSite_V2",
-                                    "docs/en-us/apiDevGuide-apiPosButtonColorHexCodesForLightAndDarkMode",
-                                    "docs/en-us/apiDevGuide-apiComparingTheMenusApiWithTheConfigurationApiAndMenuJsonExport_V2",
-                                    "docs/en-us/apiDevGuide-apiMappingMenusApiValuesToOtherToastApisAndTheMenuDataExport_V2",
-                                    "docs/en-us/apiDevGuide-apiMenusApiTroubleshooting_V2",
-                                    "docs/en-us/apiDevGuide-menu_information_config_api"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Stock",
-                        "pages": [
-                            "docs/en-us/apiDevGuide-apiStock",
-                            {
-                                "group": "Getting stock information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiUsingTheStockWebhook",
-                                    "docs/en-us/apiDevGuide-apiUsingTheStockApi"
-                                ]
-                            },
-                            {
-                                "group": "Updating stock information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiUpdatingInventoryInformation"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Restaurant info",
-                        "pages": [
-                            "docs/en-us/apiDevGuide-apiRestaurantInfo",
-                            "docs/en-us/apiDevGuide-apiRestaurantBusinessDate",
-                            {
-                                "group": "Getting restaurant info",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiRestaurantsInGroup",
-                                    "docs/en-us/apiDevGuide-apiRestaurantInformation",
-                                    "docs/en-us/apiDevGuide-apiRestaurantOnlineOrderingInfo",
-                                    "docs/en-us/apiDevGuide-apiGettingOnlineOrderingSchedules",
-                                    "docs/en-us/apiDevGuide-apiGettingRxOnlineOrderingAvailability"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Employees",
-                        "pages": [
-                            {
-                                "group": "Getting employee information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-api_get_all_employees",
-                                    "docs/en-us/apiDevGuide-apiGettingTimeEntriesForEmployees",
-                                    "docs/en-us/apiDevGuide-apiGettingShiftAssignmentsForEmployees"
-                                ]
-                            },
-                            {
-                                "group": "Updating employee information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAddingAnEmployee",
-                                    "docs/en-us/apiDevGuide-apiAddingAShiftAndAssigningIt",
-                                    "docs/en-us/apiDevGuide-apiArchivingAnEmployee",
-                                    "docs/en-us/apiDevGuide-apiUnarchivingAnEmployee"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Cash management",
-                        "pages": [
-                            "docs/en-us/apiDevGuide-apiWorkingWithCashEntriesAndDeposits",
-                            {
-                                "group": "Getting cash management information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiUsingCashManagementApi",
-                                    "docs/en-us/apiDevGuide-apiGetCashDeposits",
-                                    "docs/en-us/apiDevGuide-apiCalculatingExpectedCashDeposits"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Webhooks",
-                        "pages": [
-                            {
-                                "group": "Using webhooks",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiWebhookBasics",
-                                    "docs/en-us/apiDevGuide-apiEndpointRequirements",
-                                    "docs/en-us/apiDevGuide-apiSubscriptions",
-                                    "docs/en-us/apiDevGuide-apiMessageDataSchema",
-                                    "docs/en-us/apiDevGuide-apiHttpHeaders",
-                                    "docs/en-us/apiDevGuide-apiTimeouts",
-                                    "docs/en-us/apiDevGuide-apiRetrySupport",
-                                    "docs/en-us/apiDevGuide-apiMessageSigning"
-                                ]
-                            },
-                            {
-                                "group": "Webhooks reference",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiWebhooksReference",
-                                    "docs/en-us/apiDevGuide-apiGuestOrderFulfillmentStatusWebhook",
-                                    "docs/en-us/apiDevGuide-apiMenusWebhook",
-                                    "docs/en-us/apiDevGuide-devOrdersWebhookRef",
-                                    "docs/en-us/apiDevGuide-apiPackagingPreferencesConfigWebhook",
-                                    "docs/en-us/apiDevGuide-apiPartnersWebhook",
-                                    "docs/en-us/apiDevGuide-apiRxAvailabilityWebhook",
-                                    "docs/en-us/apiDevGuide-apiRxOnlineOrderingScheduleWebhook",
-                                    "docs/en-us/apiDevGuide-apiStockWebhook"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Outbound integrations",
-                        "pages": [
-                            {
-                                "group": "Outbound API overview",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiUsingToastOutboundApis",
-                                    "docs/en-us/apiDevGuide-apiAuthenticatingRequestsFromToastApiClients"
-                                ]
-                            },
-                            {
-                                "group": "Gift Card Integrations",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationOverview",
-                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationWorkflow",
-                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationAuthentication",
-                                    "docs/en-us/apiDevGuide-apiPhysicalGiftCardRequirements",
-                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationExampleTransactionRequests",
-                                    "docs/en-us/apiDevGuide-apiGiftCardIntegrationReferenceApiImplementation"
-                                ]
-                            },
-                            {
-                                "group": "Loyalty program integrations",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiLoyaltyProgramIntegrationOverview",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationOverview",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyTransactionDescriptions",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyPosWorkflow",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyKioskWorkflow",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyDiscountProcessing",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyErrorHandling",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyLatencyRequirements",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationNetworkFailureAndIdempotence",
-                                    "docs/en-us/apiDevGuide-apiLoyaltyIntegrationAuthentication"
-                                ]
-                            },
-                            {
-                                "group": "Tender provider integrations",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiTenderProviderIntegrationsOverview",
-                                    "docs/en-us/apiDevGuide-apiTenderPmsIntegration",
-                                    "docs/en-us/apiDevGuide-apiTenderScanToPay"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "group": "Analytics",
-                        "pages": [
-                            {
-                                "group": "About the analytics API",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsUnderstandingProcess",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsScope",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsRateLimiting",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsDataDiscrepancies",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsInactiveRestaurantData"
-                                ]
-                            },
-                            {
-                                "group": "Aggregated sales reporting data",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataAggregation",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMetricsReportingDataUnderstandingData"
-                                ]
-                            },
-                            {
-                                "group": "Check reporting data",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataCreateRequest",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsCheckReportingDataUnderstandingData"
-                                ]
-                            },
-                            {
-                                "group": "Labor reporting data",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataCreateRequest",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataRetrieveData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataAggregation",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsLaborReportingDataUnderstandingData"
-                                ]
-                            },
-                            {
-                                "group": "Menu reporting data",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataCreateRequest",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataRetrieveData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataAggregation",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsMenuReportingDataUnderstandingData"
-                                ]
-                            },
-                            {
-                                "group": "Payout reporting data",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutReportingDataOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutBySettledDateReportingData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutByPaymentsReportingData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsPayoutBySalesDateReportingData"
-                                ]
-                            },
-                            {
-                                "group": "Guest reporting data",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataCreateRequest",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataRetrieveData",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsGuestDataUnderstandData"
-                                ]
-                            },
-                            {
-                                "group": "Restaurant information",
-                                "pages": [
-                                    "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoOverview",
-                                    "docs/en-us/apiDevGuide-apiAnalyticsRestaurantInfoGetRestaurantList"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Integration how-to guides",
-                "groups": [
-                    {
-                        "group": "Recipes",
-                        "pages": [
-                            {
-                                "group": "Building integrations",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistGeneral"
-                                ]
-                            },
-                            {
-                                "group": "Employees",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistEmployee",
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistShift"
-                                ]
-                            },
-                            {
-                                "group": "Gift cards",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiHowToGiftCard"
-                                ]
-                            },
-                            {
-                                "group": "Loyalty",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiHowToLoyalty"
-                                ]
-                            },
-                            {
-                                "group": "Ordering",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistOrdering",
-                                    "docs/en-us/devCookbook-apiBuildingDigitalSignage",
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistDelivery"
-                                ]
-                            },
-                            {
-                                "group": "Reports",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistTemplate",
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistPayroll",
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistAccounting",
-                                    "docs/en-us/devCookbook-apiHowToCashReports",
-                                    "docs/en-us/devCookbook-apiHowToReporting",
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistInventory",
-                                    "docs/en-us/devCookbook-apiHowToBuildACrmGuestEngagementIntegration"
-                                ]
-                            },
-                            {
-                                "group": "Reservations",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistReservation"
-                                ]
-                            },
-                            {
-                                "group": "Security",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiIntegrationChecklistSecurity"
-                                ]
-                            },
-                            {
-                                "group": "Webhooks",
-                                "pages": [
-                                    "docs/en-us/devCookbook-apiWebhookUsageChecklist"
                                 ]
                             }
                         ]
