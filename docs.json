@@ -1408,80 +1408,18 @@
                 "tab": "API reference",
                 "groups": [
                     {
-                        "group": "Analytics",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-reporting-api.yaml"
-                    },
-                    {
-                        "group": "Authentication",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-authentication-api.yaml"
-                    },
-                    {
-                        "group": "Cash Management",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-cashmgmt-api.yaml"
-                    },
-                    {
-                        "group": "Configuration",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-config-api.yaml"
-                    },
-                    {
-                        "group": "Credit cards",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-ccpartner-api.yaml"
-                    },
-                    {
-                        "group": "Kitchen",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-kitchen-api-docs.yaml"
-                    },
-                    {
-                        "group": "Labor",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-labor-api.yaml"
-                    },
-                    {
-                        "group": "Menus V2",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-menus-api.yaml"
-                    },
-                    {
-                        "group": "Menus V3",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-menus-api-v3.yaml"
-                    },
-                    {
-                        "group": "Order management configuration",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-ordermgmt-config-api-docs.yaml"
-                    },
-                    {
-                        "group": "Orders",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-orders-api.yaml"
+                        "group": "API reference",
+                        "pages": [
+                            "api-reference-intro"
+                        ]
                     },
                     {
                         "group": "Packaging configuration",
                         "openapi": "https://doc.toasttab.com/toast-api-specifications/packaging-api.yaml"
                     },
                     {
-                        "group": "Partners",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-partners-api.yaml"
-                    },
-                    {
-                        "group": "Restaurant availability",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-restaurant-availability-api-docs.yaml"
-                    },
-                    {
-                        "group": "Restaurants",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-restaurants-api.yaml"
-                    },
-                    {
                         "group": "Stock",
                         "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-stock-api.yaml"
-                    },
-                    {
-                        "group": "Gift cards integration specification",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-integrations-giftcard-api.yaml"
-                    },
-                    {
-                        "group": "Loyalty integration specification",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-integrations-loyalty-api.yaml"
-                    },
-                    {
-                        "group": "Tender integration specification",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-tender-api.yaml"
                     }
                 ]
             }
