@@ -8,7 +8,7 @@ parentSectionTitle: "Gift Card Integrations"
 previousSectionFile: apiDevGuide-apiGiftCardIntegrationWorkflow.md
 previousSectionTitle: "Gift card integration workflow"
 nextSectionFile: apiDevGuide-apiPhysicalGiftCardRequirements.md
-nextSectionTitle: "Physical gift card requirements"
+nextSectionTitle: "Gift card requirements"
 externalReferences: [https://jwt.io/]
 excerpt: "You..."
 keywords: ["Authorization"]

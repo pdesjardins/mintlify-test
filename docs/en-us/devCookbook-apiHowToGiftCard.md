@@ -41,7 +41,7 @@ If your integration will support physical gift cards, you must select a card ven
 
 When restaurants purchase new physical cards, they should import the card numbers into your platform so that you recognize those card numbers when you receive gift card transactions from them.
 
-For more information, see [Physical gift card requirements](apiDevGuide-apiPhysicalGiftCardRequirements).
+For more information, see [Gift card requirements](apiDevGuide-apiPhysicalGiftCardRequirements).
 
 ## Success responses
 

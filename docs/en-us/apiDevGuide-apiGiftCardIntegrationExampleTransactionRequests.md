@@ -6,7 +6,7 @@ documentId: apiDevGuide
 parentSectionFile: apiDevGuide-apiBuildingGiftCardIntegrationOmitChunkFromSearchIndex.md
 parentSectionTitle: "Gift Card Integrations"
 previousSectionFile: apiDevGuide-apiPhysicalGiftCardRequirements.md
-previousSectionTitle: "Physical gift card requirements"
+previousSectionTitle: "Gift card requirements"
 nextSectionFile: apiDevGuide-apiGiftCardIntegrationReferenceApiImplementation.md
 nextSectionTitle: "Reference gift card API implementation"
 externalReferences: [https://doc.toasttab.com/openapi/giftcards/overview/]
