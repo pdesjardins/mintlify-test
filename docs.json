@@ -1408,18 +1408,66 @@
                 "tab": "API reference",
                 "groups": [
                     {
-                        "group": "API reference",
+                        "group": "Authentication and access",
                         "pages": [
-                            "api-reference-intro"
+                            "api-reference/authentication-placeholder",
+                            "api-reference/access-placeholder"
                         ]
                     },
                     {
-                        "group": "Packaging configuration",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/packaging-api.yaml"
+                        "group": "Configuration",
+                        "pages": [
+                            "api-reference/configuration-placeholder",
+                            "api-reference/order-mgmt-config-placeholder",
+                            "api-reference/packaging-config-intro",
+                            "api-reference/restaurants-placeholder",
+                            "api-reference/kitchen-placeholder"
+                        ]
                     },
                     {
-                        "group": "Stock",
-                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-stock-api.yaml"
+                        "group": "Menus and items",
+                        "pages": [
+                            "api-reference/menus-v2-placeholder",
+                            "api-reference/menus-v3-placeholder",
+                            "api-reference/stock-intro"
+                        ]
+                    },
+                    {
+                        "group": "Orders",
+                        "pages": [
+                            "api-reference/orders-placeholder",
+                            "api-reference/ordering-availability-placeholder"
+                        ]
+                    },
+                    {
+                        "group": "Payment processing",
+                        "pages": [
+                            "api-reference/credit-cards-placeholder",
+                            "api-reference/customers-placeholder",
+                            "api-reference/payment-intents-placeholder",
+                            "api-reference/payment-methods-placeholder",
+                            "api-reference/setup-intents-placeholder"
+                        ]
+                    },
+                    {
+                        "group": "Operations",
+                        "pages": [
+                            "api-reference/cash-management-placeholder"
+                        ]
+                    },
+                    {
+                        "group": "Outbound",
+                        "pages": [
+                            "api-reference/gift-cards-placeholder",
+                            "api-reference/loyalty-placeholder",
+                            "api-reference/tender-placeholder"
+                        ]
+                    },
+                    {
+                        "group": "Webhooks",
+                        "pages": [
+                            "api-reference/webhooks-placeholder"
+                        ]
                     }
                 ]
             }
