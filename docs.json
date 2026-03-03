@@ -1410,57 +1410,53 @@
                     {
                         "group": "Authentication and access",
                         "pages": [
-                            "api-reference/authentication-placeholder",
-                            "api-reference/access-placeholder"
+                            "api-reference/authentication",
+                            "api-reference/access"
                         ]
                     },
                     {
                         "group": "Configuration",
                         "pages": [
-                            "api-reference/configuration-placeholder",
-                            "api-reference/order-mgmt-config-placeholder",
+                            "api-reference/configuration",
+                            "api-reference/order-mgmt-config",
                             "api-reference/packaging-config-intro",
-                            "api-reference/restaurants-placeholder",
-                            "api-reference/kitchen-placeholder"
+                            "api-reference/restaurants",
+                            "api-reference/kitchen"
                         ]
                     },
                     {
                         "group": "Menus and items",
                         "pages": [
-                            "api-reference/menus-v2-placeholder",
-                            "api-reference/menus-v3-placeholder",
+                            "api-reference/menus-v2",
+                            "api-reference/menus-v3",
                             "api-reference/stock-intro"
                         ]
                     },
                     {
                         "group": "Orders",
                         "pages": [
-                            "api-reference/orders-placeholder",
-                            "api-reference/ordering-availability-placeholder"
+                            "api-reference/orders",
+                            "api-reference/ordering-availability"
                         ]
                     },
                     {
                         "group": "Payment processing",
                         "pages": [
-                            "api-reference/credit-cards-placeholder",
-                            "api-reference/customers-placeholder",
-                            "api-reference/payment-intents-placeholder",
-                            "api-reference/payment-methods-placeholder",
-                            "api-reference/setup-intents-placeholder"
+                            "api-reference/credit-cards"
                         ]
                     },
                     {
                         "group": "Operations",
                         "pages": [
-                            "api-reference/cash-management-placeholder"
+                            "api-reference/cash-management"
                         ]
                     },
                     {
                         "group": "Outbound",
                         "pages": [
-                            "api-reference/gift-cards-placeholder",
-                            "api-reference/loyalty-placeholder",
-                            "api-reference/tender-placeholder"
+                            "api-reference/gift-cards",
+                            "api-reference/loyalty",
+                            "api-reference/tender"
                         ]
                     },
                     {
