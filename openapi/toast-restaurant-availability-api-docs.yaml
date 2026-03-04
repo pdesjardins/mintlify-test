@@ -12,6 +12,8 @@ tags:
 paths:
   /availability:
     get:
+      tags:
+      - Restaurant availability
       description: |
         Returns a restaurant's current availability to accept online orders. A restaurant's availability is either `ONLINE` or `OFFLINE`. When a restaurant is offline, you can still place orders via the orders API, however Toast support recommends waiting until the restaurant's status is online.
       operationId: availabilityGet

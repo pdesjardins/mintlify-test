@@ -20,6 +20,8 @@ tags:
 paths:
   /authentication/login:
     post:
+      tags:
+      - Authentication
       description: |
         Returns an authentication token that your Toast API client can present
         when using other Toast platform APIs.

@@ -13,6 +13,8 @@ tags:
 paths:
   /yourendpointname:
     post:
+      tags:
+      - Tender
       description: "Provides information about a tender transaction processed by \n\
         the Toast POS system. The transaction information in the \nmessage body is\
         \ intended to allow a tender provider to \nperform corresponding operations\

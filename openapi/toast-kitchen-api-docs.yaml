@@ -13,6 +13,8 @@ tags:
 paths:
   /prepStations:
     get:
+      tags:
+      - Kitchen
       description: |
         Returns the configuration for every prep station that has been created for the specified restaurant. A prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment. You can use optional query parameters to paginate the results. If a `lastModified` date is specified, returns all objects that were created or modified after that date.<br>
         <br>
@@ -81,6 +83,8 @@ paths:
       summary: Get all prep stations
   /prepStations/{guid}:
     get:
+      tags:
+      - Kitchen
       description: |
         Returns the configuration for a single prep station that has been defined for the specified restaurant. A prep station represents the location of a kitchen printer or KDS device that receives orders for fulfillment.<br>
         <br>

@@ -13,6 +13,8 @@ tags:
 paths:
   /yourendpointname:
     post:
+      tags:
+      - Gift cards
       description: "Provides information about a gift card transaction processed by\
         \ \nthe Toast platform. The transaction information in the \nmessage body\
         \ is intended to allow a gift card provider to \nperform corresponding operations\

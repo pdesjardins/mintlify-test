@@ -15,6 +15,8 @@ tags:
 paths:
   /published/orderingSchedule:
     get:
+      tags:
+      - Ordering schedule
       description: |
         Get a restaurant location's online ordering schedule.
       operationId: orderingScheduleGet

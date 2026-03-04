@@ -18,6 +18,8 @@ tags:
 paths:
   /entries:
     get:
+      tags:
+      - Cash management
       description: "Returns information about cash added to or removed from a cash\n\
         drawer or other cash storage device. Returns an array of \n`CashEntry` objects.\n"
       externalDocs:
@@ -77,6 +79,8 @@ paths:
         Get cash entries
   /deposits:
     get:
+      tags:
+      - Cash management
       description: "Returns an array of `Deposit` objects containing information about\n\
         cash removed from a restaurant to be deposited in a bank or \nother financial\
         \ institution during one business day.\n"

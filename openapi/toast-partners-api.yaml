@@ -13,6 +13,8 @@ tags:
 paths:
   /restaurants:
     get:
+      tags:
+      - Partners
       description: "Returns an array of `PartnerAccessExternalRep` \nobjects that\
         \ contain information about the Toast restaurants that your partner \nAPI\
         \ client can access. If a `lastModified` date is specified, the API returns\
@@ -50,6 +52,8 @@ paths:
       summary: Get accessible restaurants
   /connectedRestaurants:
     get:
+      tags:
+      - Partners
       description: |
         Returns a `PaginatedResponse` object that contains a paginated array of
         the restaurants that have connected to your integrated partner service.

@@ -15,6 +15,8 @@ tags:
 paths:
   /menus:
     get:
+      tags:
+      - Menus
       description: |
         Get menus
       operationId: menusGet
@@ -47,6 +49,8 @@ paths:
       summary: Get menus
   /metadata:
     get:
+      tags:
+      - Menus
       description: |
         A lightweight endpoint that allows you to determine if a restaurant's menu data has been updated. Toast support strongly recommends that you do not make a call to the `/menus` endpoint unless the date and time returned by the `/metadata` endpoint is more recent than the `lastUpdated` date and time. While this recommendation applies to all clients of the menus API, it is particularly important for clients that have limited bandwidth.
       operationId: metadataGet

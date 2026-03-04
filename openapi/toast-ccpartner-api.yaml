@@ -13,6 +13,8 @@ tags:
 paths:
   /merchants/{merchantUuid}/payments/{paymentUuid}:
     put:
+      tags:
+      - Credit cards
       description: |
         Authorize a credit card payment. Funds will be held until the
         payment is voided or captured.
