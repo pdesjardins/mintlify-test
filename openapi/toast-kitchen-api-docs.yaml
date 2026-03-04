@@ -8,6 +8,8 @@ info:
   version: 1.0.2
 servers:
 - url: https://toast-api-server/kitchen/v1/published
+tags:
+- name: Kitchen
 paths:
   /prepStations:
     get:

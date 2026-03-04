@@ -8,6 +8,8 @@ info:
   version: 1.0.0
 servers:
 - url: https://toast-api-server/ccpartner/v1
+tags:
+- name: Credit cards
 paths:
   /merchants/{merchantUuid}/payments/{paymentUuid}:
     put:

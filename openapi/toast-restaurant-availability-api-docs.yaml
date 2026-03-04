@@ -7,6 +7,8 @@ info:
   version: 1.0.1
 servers:
 - url: https://toast-api-server/restaurant-availability/v1
+tags:
+- name: Restaurant availability
 paths:
   /availability:
     get:

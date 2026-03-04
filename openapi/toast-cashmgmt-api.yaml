@@ -13,6 +13,8 @@ externalDocs:
   url: https://doc.toasttab.com/doc/devguide/apiWorkingWithCashEntriesAndDeposits.html
 servers:
 - url: https://toast-api-server/cashmgmt/v1
+tags:
+- name: Cash management
 paths:
   /entries:
     get:

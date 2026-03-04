@@ -7,6 +7,8 @@ info:
   version: 1.0.0
 servers:
 - url: https://toast-api-server/restaurants/v1
+tags:
+- name: Restaurants
 paths:
   /restaurants/{restaurantGUID}:
     get:

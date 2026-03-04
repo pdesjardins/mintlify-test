@@ -8,6 +8,8 @@ info:
   version: 0.1.0
 servers:
 - url: /yourapiname/v1
+tags:
+- name: Tender
 paths:
   /yourendpointname:
     post:

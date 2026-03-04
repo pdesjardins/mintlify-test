@@ -8,6 +8,8 @@ info:
   version: 1.0.0
 servers:
 - url: https://toast-api-server/yourapiname/v1
+tags:
+- name: Gift cards
 paths:
   /yourendpointname:
     post:

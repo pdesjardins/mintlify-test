@@ -12,26 +12,26 @@ info:
 servers:
 - url: https://toast-api-server/config/v2
 tags:
-- name: Alternate Payment Types
-- name: Break Types
-- name: Cash Drawers
-- name: Dining Options
+- name: Alternate payment types
+- name: Break types
+- name: Cash drawers
+- name: Dining options
 - name: Discounts
-- name: Menu Groups
-- name: Menu Items
-- name: Modifier Groups
+- name: Menu groups
+- name: Menu items
+- name: Modifier groups
 - name: Menus
-- name: No Sale Reasons
-- name: Payout Reasons
-- name: Pre Modifier Groups
-- name: Pre Modifiers
-- name: Price Groups
+- name: No sale reasons
+- name: Payout reasons
+- name: Pre modifier groups
+- name: Pre modifiers
+- name: Price groups
 - name: Printers
-- name: Restaurant Services
-- name: Revenue Centers
-- name: Sales Categories
-- name: Service Areas
-- name: Service Charges
+- name: Restaurant services
+- name: Revenue centers
+- name: Sales categories
+- name: Service areas
+- name: Service charges
 - name: Tables
 - name: Tax Rates
 - name: Tip Withholding

@@ -10,6 +10,8 @@ info:
   version: 3.4.1
 servers:
 - url: https://toast-api-server/menus/v3
+tags:
+- name: Menus
 paths:
   /menus:
     get:

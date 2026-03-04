@@ -11,7 +11,7 @@ servers:
 - url: https://toast-api-server/ordermgmt-config/v1
 tags:
 - description: Operations related to online ordering schedules
-  name: Ordering Schedule
+  name: Ordering schedule
 paths:
   /published/orderingSchedule:
     get:
