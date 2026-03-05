@@ -1406,13 +1406,10 @@
             },
             {
                 "tab": "API reference",
+                "pages": [
+                    "api-reference/overview"
+                ],
                 "groups": [
-                    {
-                        "group": "Overview",
-                        "pages": [
-                            "api-reference/overview"
-                        ]
-                    },
                     {
                         "group": "Authentication",
                         "pages": [
