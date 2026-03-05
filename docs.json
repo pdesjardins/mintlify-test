@@ -1409,19 +1409,43 @@
                 "groups": [
                     {
                         "group": "Authentication",
-                        "openapi": "/openapi/toast-authentication-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-authentication-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Access",
-                        "openapi": "/openapi/toast-partners-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-partners-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Configuration",
-                        "openapi": "/openapi/toast-config-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-config-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Order management configuration",
-                        "openapi": "/openapi/toast-ordermgmt-config-api-docs.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-ordermgmt-config-api-docs.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Packaging configuration",
@@ -1429,19 +1453,43 @@
                     },
                     {
                         "group": "Restaurants",
-                        "openapi": "/openapi/toast-restaurants-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-restaurants-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Kitchen",
-                        "openapi": "/openapi/toast-kitchen-api-docs.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-kitchen-api-docs.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Menus V2",
-                        "openapi": "/openapi/toast-menus-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-menus-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Menus V3",
-                        "openapi": "/openapi/toast-menus-api-v3.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-menus-api-v3.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Stock",
@@ -1449,31 +1497,73 @@
                     },
                     {
                         "group": "Orders",
-                        "openapi": "/openapi/toast-orders-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-orders-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Ordering availability",
-                        "openapi": "/openapi/toast-restaurant-availability-api-docs.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-restaurant-availability-api-docs.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Credit cards",
-                        "openapi": "/openapi/toast-ccpartner-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-ccpartner-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Cash management",
-                        "openapi": "/openapi/toast-cashmgmt-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-cashmgmt-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Gift cards",
-                        "openapi": "/openapi/toast-integrations-giftcard-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-integrations-giftcard-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Loyalty",
-                        "openapi": "/openapi/toast-integrations-loyalty-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-integrations-loyalty-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Tender",
-                        "openapi": "/openapi/toast-tender-api.yaml"
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-tender-api.yaml"
+                            }
+                        ]
                     },
                     {
                         "group": "Webhooks",
