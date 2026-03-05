@@ -1411,7 +1411,7 @@
                 ],
                 "groups": [
                     {
-                        "group": "Authentication",
+                        "group": "AuthenticationTest",
                         "pages": [
                             {
                                 "group": "Reference",
