@@ -1,0 +1,379 @@
+openapi: 3.0.1
+info:
+  description: "Provides information about cash operations that add cash to or \n\
+    remove cash from a restaurant cash drawer, separately from cash\ntransaction payments\
+    \ (customer payments for individual checks). \nCash entries are different than\
+    \ cash transactions, and affect \nthe overall amount of cash that the Toast POS\
+    \ accounts for in \na restaurant.\n"
+  termsOfService: https://pos.toasttab.com/api-terms-of-use
+  title: Cash Management API
+  version: 1.1.0
+externalDocs:
+  description: Cash management API documentation
+  url: https://doc.toasttab.com/doc/devguide/apiWorkingWithCashEntriesAndDeposits.html
+servers:
+- url: https://toast-api-server/cashmgmt/v1
+tags:
+- name: Cash management
+paths:
+  /entries:
+    get:
+      tags:
+      - Cash management
+      description: "Returns information about cash added to or removed from a cash\n\
+        drawer or other cash storage device. Returns an array of \n`CashEntry` objects.\n"
+      externalDocs:
+        description: Getting cash entries
+        url: https://dev.toasttab.com/doc/devguide/apiUsingCashManagementApi.html
+      operationId: entriesGet
+      parameters:
+      - description: |
+          The GUID of the restaurant that is the context of the
+          request.
+        in: header
+        name: Toast-Restaurant-External-ID
+        required: true
+        schema:
+          format: string
+          type: string
+      - description: |
+          Deprecated. Use the `businessDate` parameter. The business
+          date the cash entries were created, in the format
+          `yyyymmdd`. For example, `20180228`.
+        in: query
+        name: yyyymmdd
+        schema:
+          format: calendar-date
+          type: string
+      - description: |
+          The business date the cash entries were created, in the
+          format `yyyymmdd`. For example, `20180228`.
+        in: query
+        name: businessDate
+        required: true
+        schema:
+          format: calendar-date
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: "#/components/schemas/CashEntry"
+                minItems: 0
+                title: Response
+                type: array
+          description: |
+            Returns an array of `CashEntry` objects.
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+          description: Unexpected error
+      security:
+      - cashMgmtRead:
+        - cashmgmt:read
+      summary: |
+        Get cash entries
+  /deposits:
+    get:
+      tags:
+      - Cash management
+      description: "Returns an array of `Deposit` objects containing information about\n\
+        cash removed from a restaurant to be deposited in a bank or \nother financial\
+        \ institution during one business day.\n"
+      externalDocs:
+        description: Getting cash deposit entries
+        url: https://dev.toasttab.com/doc/devguide/apiGetCashDeposits.html
+      operationId: depositsGet
+      parameters:
+      - description: |
+          The GUID of the restaurant that is the context of the
+          request.
+        in: header
+        name: Toast-Restaurant-External-ID
+        required: true
+        schema:
+          format: string
+          type: string
+      - description: |
+          The business date the deposits were created, in the
+          format `yyyymmdd`. For example, `20180228`.
+        in: query
+        name: businessDate
+        required: true
+        schema:
+          format: calendar-date
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: "#/components/schemas/Deposit"
+                minItems: 0
+                title: Response
+                type: array
+          description: |
+            Returns an array of `Deposit` objects.
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+          description: An unexpected error.
+      security:
+      - cashMgmtRead:
+        - cashmgmt:read
+      summary: |
+        Get deposits
+components:
+  schemas:
+    ToastReference:
+      description: |
+        Identifying information about a Toast POS entity.
+      example:
+        entityType: entityType
+        guid: guid
+      properties:
+        guid:
+          description: The GUID assigned to the entity by the Toast POS.
+          type: string
+        entityType:
+          description: The category of the Toast POS object.
+          type: string
+      required:
+      - entityType
+      - guid
+      type: object
+    ExternalReference:
+      allOf:
+      - $ref: "#/components/schemas/ToastReference"
+      - properties:
+          externalId:
+            description: External identifier string that is prefixed by the naming
+              authority.
+            type: string
+        type: object
+      description: A wrapper object with fields that allow reference to a Toast entity
+        by Toast GUID or a partner's identifier.
+      example:
+        entityType: entityType
+        guid: guid
+        externalId: externalId
+    CashEntry:
+      allOf:
+      - $ref: "#/components/schemas/ToastReference"
+      - properties:
+          amount:
+            description: |
+              The currency amount of the cash that an employee adds to
+              or removes from a cash drawer. This value is positive
+              when an employee adds cash and negative when an employee
+              removes cash.
+            format: double
+            type: number
+          reason:
+            description: |
+              A short description of why this cash entry was created,
+              written by the restaurant employee.
+            type: string
+          date:
+            description: |
+              The date and time that the cash entry occurred.
+            format: date-time
+            type: string
+          type:
+            description: |
+              The type of the cash entry.
+              <ul>
+                <li><code>CASH_IN</code> - cash added to a cash
+                drawer.</li>
+
+                <li><code>CASH_COLLECTED</code> - cash added to a cash
+                drawer at the end of an employee shift.</li>
+
+                <li><code>CASH_OUT</code> - cash removed from a cash
+                drawer and stored in a different restaurant location.
+                The Toast POS does track cash after it is removed by a
+                <code>CASH_OUT</code> entry.</li>
+
+                <li><code>NO_SALE</code> - cash drawer opened with no
+                change to the cash balance. For example, a restaurant
+                employee might perform a no sale transaction to make
+                change for a customer.</li>
+
+                <li><code>PAY_OUT</code> - cash removed from a cash
+                drawer to pay for a pre-configured restaurant
+                expense.</li>
+
+                <li><code>TIP_OUT</code> - cash removed from a cash
+                drawer to distribute tips or gratuities to restaurant
+                employees.</li>
+
+                <li><code>UNDO_PAY_OUT</code> - cash added to a cash
+                drawer to undo a previous <code>PAY_OUT</code> cash
+                entry.</li>
+
+                <li><code>DRIVER_REIMBURSEMENT</code> - cash removed
+                from a cash drawer to repay delivery drivers for
+                delivery driving expenses.</li>
+
+                <li><code>CLOSE_OUT_EXACT</code> - an employee closes
+                a cash drawer and the closing balance is equal to the
+                expected balance.</li>
+
+                <li><code>CLOSE_OUT_OVERAGE</code> - an employee
+                closes a cash drawer and the closing balance is greater
+                than the expected balance.</li>
+
+                <li><code>CLOSE_OUT_SHORTAGE</code> - an employee
+                closes a cash drawer and the closing balance is less
+                than the expected balance.</li>
+              </ul>
+            enum:
+            - CASH_IN
+            - CASH_COLLECTED
+            - CASH_OUT
+            - PAY_OUT
+            - UNDO_PAY_OUT
+            - TIP_OUT
+            - NO_SALE
+            - DRIVER_REIMBURSEMENT
+            - CLOSE_OUT_EXACT
+            - CLOSE_OUT_OVERAGE
+            - CLOSE_OUT_SHORTAGE
+            type: string
+          cashDrawer:
+            $ref: "#/components/schemas/ToastReference"
+          payoutReason:
+            $ref: "#/components/schemas/ToastReference"
+          noSaleReason:
+            $ref: "#/components/schemas/ToastReference"
+          undoes:
+            description: |
+              The Toast GUID of the cash entry that is being undone.
+              This value is null if the cash entry does not undo a
+              previous entry.
+            type: string
+          employee1:
+            $ref: "#/components/schemas/ExternalReference"
+          employee2:
+            $ref: "#/components/schemas/ExternalReference"
+          creatorOrShiftReviewSubject:
+            $ref: "#/components/schemas/ToastReference"
+          approverOrShiftReviewSubject:
+            $ref: "#/components/schemas/ToastReference"
+        required:
+        - amount
+        - date
+        - reason
+        - type
+        type: object
+      description: |
+        Information about an event in which a restaurant employee puts
+        cash into a cash drawer or removes cash from a cash drawer.
+      example:
+        date: 2000-01-23T04:56:07.000+00:00
+        reason: reason
+        amount: 0.8008281904610115
+        payoutReason:
+          entityType: entityType
+          guid: guid
+        cashDrawer:
+          entityType: entityType
+          guid: guid
+        entityType: entityType
+        approverOrShiftReviewSubject:
+          entityType: entityType
+          guid: guid
+        type: CASH_IN
+        undoes: undoes
+        noSaleReason:
+          entityType: entityType
+          guid: guid
+        guid: guid
+        employee1:
+          entityType: entityType
+          guid: guid
+          externalId: externalId
+        employee2:
+          entityType: entityType
+          guid: guid
+          externalId: externalId
+        creatorOrShiftReviewSubject:
+          entityType: entityType
+          guid: guid
+    Deposit:
+      allOf:
+      - $ref: "#/components/schemas/ToastReference"
+      - properties:
+          amount:
+            description: "The amount of the deposit. The `amount` value must be greater\
+              \ than zero. \n"
+            format: double
+            type: number
+          date:
+            description: |
+              The date that the deposit was registered in the POS and
+              the deposit slip was printed.
+            format: date-time
+            type: string
+          undoes:
+            description: |
+              The Toast GUID of the deposit entry that is being undone. This value is null if the deposit entry does not undo a previous entry.
+            format: string
+            type: string
+          employee:
+            $ref: "#/components/schemas/ExternalReference"
+          creator:
+            $ref: "#/components/schemas/ToastReference"
+        required:
+        - amount
+        - date
+        type: object
+      description: |
+        Information about an event in which a restaurant employee removes
+        cash from a restaurant and deposits it in a bank or other
+        financial institution.
+      example:
+        date: 2000-01-23T04:56:07.000+00:00
+        amount: 0.8008281904610115
+        creator:
+          entityType: entityType
+          guid: guid
+        entityType: entityType
+        undoes: undoes
+        guid: guid
+        employee:
+          entityType: entityType
+          guid: guid
+          externalId: externalId
+    Error:
+      example:
+        message: message
+        status: 6
+      properties:
+        status:
+          description: An HTTP status code.
+          format: int32
+          type: integer
+        message:
+          description: A message that describes the error.
+          type: string
+      required:
+      - message
+      - status
+      type: object
+  securitySchemes:
+    cashMgmtRead:
+      flows:
+        implicit:
+          authorizationUrl: https://toast-api-server/authentication/v1/authentication/login
+          scopes:
+            cashmgmt:read: Read cash transactions
+      type: oauth2
+x-original-swagger-version: "2.0"

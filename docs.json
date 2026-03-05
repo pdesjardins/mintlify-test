@@ -1406,7 +1406,177 @@
             },
             {
                 "tab": "API reference",
-                "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-payment-nexus-api.yaml"
+                "groups": [
+                    {
+                        "group": "Overview",
+                        "root": "api-reference/overview",
+                        "pages": []
+                    },
+                    {
+                        "group": "Authentication",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-authentication-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Access",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-partners-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Configuration",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-config-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Order management configuration",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-ordermgmt-config-api-docs.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Packaging configuration",
+                        "openapi": "https://doc.toasttab.com/toast-api-specifications/packaging-api.yaml"
+                    },
+                    {
+                        "group": "Restaurants",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-restaurants-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Kitchen",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-kitchen-api-docs.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Menus V2",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-menus-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Menus V3",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-menus-api-v3.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Stock",
+                        "openapi": "https://doc.toasttab.com/toast-api-specifications/toast-stock-api.yaml"
+                    },
+                    {
+                        "group": "Orders",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-orders-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Ordering availability",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-restaurant-availability-api-docs.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Credit cards",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-ccpartner-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Cash management",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-cashmgmt-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Gift cards",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-integrations-giftcard-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Loyalty",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-integrations-loyalty-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Tender",
+                        "pages": [
+                            {
+                                "group": "Reference",
+                                "expanded": false,
+                                "openapi": "/openapi/toast-tender-api.yaml"
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Webhooks",
+                        "pages": [
+                            "api-reference/webhooks-placeholder"
+                        ]
+                    }
+                ]
             }
         ]
     },
