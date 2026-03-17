@@ -69,23 +69,23 @@ The above command saves a private key and public key in the C:\Users\user\.ssh d
 
 ### Add your SSH key to Toast Web
 
-Toast Web allows up to 10 SSH keys. It is recommended to add a new SSH key for each operator, or data export user, instead of sharing one. If a user outside of your restaurant needs access to your sFTP, they should create their SSH key and share it with someone that can add the key to Toast Web. After being generated, SSH keys must be added to the SSH Keys page at Reports &gt; Settings &gt; SSH Keys. The following information includes the necessary steps for adding SSH keys to the Toast Web.
+Toast Web allows up to 10 SSH keys. It is recommended to add a new SSH key for each operator, or data export user, instead of sharing one. If a user outside of your restaurant needs access to your sFTP, they should create their SSH key and share it with someone that can add the key to Toast Web. After being generated, SSH keys must be added to the SSH Keys page at **Reports &gt; Settings &gt; SSH Keys.** The following information includes the necessary steps for adding SSH keys to the Toast Web.
 
-1. Navigate to Reports &gt; Settings &gt; SSH Keys.
+1. Navigate to **Reports &gt; Settings &gt; SSH Keys**.
 
 ![Image](https://doc.toasttab.com/doc/media/nav_ssh_keys.png)
 
 
 
 
-2. Select Add new key.
+2. Select **Add new key**.
 
 ![Image](https://doc.toasttab.com/doc/media/new_ssh_key.png)
 
 
 
 
-3. Enter your SSH key in the text box and select Add key. When pasting your SSH key, include the "=" and everything before; do not include the device name after the "=".
+3. Enter your SSH key in the text box and select **Add key**. When pasting your SSH key, include the "=" and everything before; do not include the device name after the "=".
 
 ![Image](https://doc.toasttab.com/doc/media/add_key_ssh.png)
 

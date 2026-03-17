@@ -17,7 +17,7 @@ codeExamples: 0
 
 The menu manager offers several workflows for saving and publishing your menu changes. With the menu manager, you can:
 
-- [Create a new change set](adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager) from the Menu manager page that is saved and published at a later date and time.
+- [Create a new change set](adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager) from the **Menu manager** page that is saved and published at a later date and time.
 
 
 - [Add the menu manager changes to an existing change set](adminGuide-platformPublishingMenuManagerChanges#platformAddingChangesToAnExistingChangeSetMenuManager) that is published at a later date and time.
@@ -33,7 +33,7 @@ The sections below describe how to use these workflows.
 
 > **Note**
 > 
-> You cannot add changes made on the Full menuview to a change set. They must be saved and [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot add changes made on the **Full menu**view to a change set. They must be saved and [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
 ## Creating a new change set
@@ -46,15 +46,15 @@ When you create a new change set, you give it an identifying name and a publishi
 
 > **Note**
 > 
-> You cannot add changes made on the Full menu view to a change set. They must be saved and [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot add changes made on the **Full menu** view to a change set. They must be saved and [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
-**Procedure 8.101. To create a new change set for menu manager changes**
+**Procedure 8.105. To create a new change set for menu manager changes**
 
-1. After making your menu changes in the Items, Modifiers, or Price levels views, select the Schedule button. You see the Which scheduled change set would you like to add this to dialog with a list of existing change sets at the top.
+1. After making your menu changes in the **Items**, **Modifiers**, or **Price levels** views, select the **Schedule** button. You see the **Which scheduled change set would you like to add this to** dialog with a list of existing change sets at the top.
 
 
-2. Select Create change set.
+2. Select **Create change set**.
 
 
 3. Enter a description for the change set.
@@ -67,7 +67,7 @@ The time zone is the current time zone from your browser. Be sure to take that i
 Alternatively, you can select I'll schedule this later and then [edit the change set later to set its date and time](adminGuide-platformUnderstandingScheduledPublishingAndChangeSets#platformEditingAChangeSetsDescriptionDateAndTime).
 
 
-5. Select Create and add [X] changes.
+5. Select **Create and add [X] changes**.
 
 A calendar icon is added next to each menu entity that has been updated. The calendar icon also includes a number that indicates the number of change sets the updated entity is included in. For example, the Scrambled Eggs menu item below is included in one change set:
 
@@ -79,21 +79,21 @@ You can select the calendar icon to open a list of the change sets that the upda
 
 ## Adding changes to an existing change set
 
-You can add edits made on the Menu managerpage to an existing change set that has not been published yet. As described in [Creating a new change set](adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager), you can create a change set from the Menu manager page, but they can also be created from the publishing center page. See [Publishing center overview](adminGuide-platformPublishingCenterOverview)for more information about the publishing center.
+You can add edits made on the **Menu manager**page to an existing change set that has not been published yet. As described in [Creating a new change set](adminGuide-platformPublishingMenuManagerChanges#platformCreatingANewChangeSetMenuManager), you can create a change set from the **Menu manager** page, but they can also be created from the publishing center page. See [Publishing center overview](adminGuide-platformPublishingCenterOverview)for more information about the publishing center.
 
 
 
 > **Note**
 > 
-> You cannot add changes made on the Full menu view to a change set. They must be [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
+> You cannot add changes made on the **Full menu** view to a change set. They must be [manually published](adminGuide-platformPublishingMenuManagerChanges#platformSavingChangesAndManuallyPublishingThemMenuManager).
 
 
-**Procedure 8.102. To add menu manager changes to an existing change set**
+**Procedure 8.106. To add menu manager changes to an existing change set**
 
-1. After making your menu changes in the Items, Modifiers, or Price levels views, select the Schedule button. You see the Which scheduled change set would you like to add this to dialog with a list of existing change sets at the top.
+1. After making your menu changes in the **Items**, **Modifiers**, or **Price levels** views, select the **Schedule** button. You see the **Which scheduled change set would you like to add this to** dialog with a list of existing change sets at the top.
 
 
-2. Select the change set you want to add your changes to and then select Add changes.
+2. Select the change set you want to add your changes to and then select **Add changes**.
 
 A calendar icon is added next to each menu entity that has been updated. The calendar icon also includes a number that indicates the number of change sets the updated entity is included in. For example, the Scrambled Eggs menu item below is included in one change set:
 
@@ -116,10 +116,10 @@ With the manual workflow, your changes must be:
 
 Saving works differently depending on the view you are using:
 
-- Full menu view consists of a table that shows your menu hierarchy and an optional side panel that you can choose to display or hide for a particular menu entity. The Toast platform automatically saves changes you make in the menu hierarchy table as you work. For example, if you add a new menu or re-order your menu groups, those changes are automatically saved. The side panel does not have the auto-save feature. To save changes you make in the side panel, use the Save button that appears at the bottom of the panel.
+- **Full menu** view consists of a table that shows your menu hierarchy and an optional side panel that you can choose to display or hide for a particular menu entity. The Toast platform automatically saves changes you make in the menu hierarchy table as you work. For example, if you add a new menu or re-order your menu groups, those changes are automatically saved. The side panel does not have the auto-save feature. To save changes you make in the side panel, use the **Save** button that appears at the bottom of the panel.
 
 
-- The Items, Modifiers, and Price levels views also do not have the auto-save feature. To save changes you make in these views, use the Save [X] changes button.
+- The Items, **Modifiers**, and Price levels views also do not have the auto-save feature. To save changes you make in these views, use the **Save [X] changes** button.
 
 
 
@@ -132,33 +132,33 @@ To manually save and publish your changes, follow the procedure below for the vi
 > For more information about the difference between saving and publishing, see [Understanding saving and publishing](adminGuide-platformUnderstandingSavingAndPublishing).
 
 
-**Procedure 8.103. To manually publish menu manager changes from Full menu view**
+**Procedure 8.107. To manually publish menu manager changes from Full menu view**
 
-1. If you've only made changes to the menu hierarchy table, those changes are automatically saved and you can proceed to step 2. If you made changes in the side panel, select Savein the side panel and then proceed to step 2.
+1. If you've only made changes to the menu hierarchy table, those changes are automatically saved and you can proceed to step 2. If you made changes in the side panel, select **Save**in the side panel and then proceed to step 2.
 
 
 2. When you are ready to make your changes visible to employees and guests, do one of the following:
 
-For single-location restaurants: Select Publish all changes.
+For single-location restaurants: Select **Publish all changes**.
 
-For multi-location restaurants: Select the Unpublished changes link at the top of the page to go to the Toast account &gt; Publishing &gt; Publish Config page and follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
-
-
-
-**Procedure 8.104. To manually publish menu manager changes from Items, Modifiers, or Price levels view**
-
-1. Select the Save [X] changesbutton.
+For multi-location restaurants: Select the **Unpublished changes** link at the top of the page to go to the **Toast account &gt; Publishing &gt; Publish Config** page and follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
 
 
-2. In the Save changes now dialog, select Yes, save now.
+
+**Procedure 8.108. To manually publish menu manager changes from Items, Modifiers, or Price levels view**
+
+1. Select the **Save [X] changes**button.
 
 
-3. When you are ready to make your changes visible to employees and guests, select the Unpublished changes link at the top of the page to go to the Toast account &gt; Publishing &gt; Publish Config page.
+2. In the **Save changes now** dialog, select **Yes, save now**.
+
+
+3. When you are ready to make your changes visible to employees and guests, select the **Unpublished changes** link at the top of the page to go to the **Toast account &gt; Publishing &gt; Publish Config** page.
 
 
 4. Follow the instructions below for your scenario:
 
-- Single-location restaurants: Select Publish Changes.
+- Single-location restaurants: Select **Publish Changes**.
 
 
 - Multi-location restaurants: Follow the instructions in [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) to publish changes to all or some of your locations.
@@ -167,7 +167,7 @@ For multi-location restaurants: Select the Unpublished changes link at the top o
 
 > **Note**
 > 
-> The Publish now prompt that appears when you edit other configuration pages in Toast Web (outside of the menu manager page) publishes changes to the [session restaurant](adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the Publish Config page.
+> The **Publish now** prompt that appears when you edit other configuration pages in Toast Web (outside of the menu manager page) publishes changes to the [session restaurant](adminGuide-sessionRestaurant) only. To publish to multiple locations, you must use the **Publish Config** page.
 
 
 
@@ -176,7 +176,7 @@ For multi-location restaurants: Select the Unpublished changes link at the top o
 
 ## Scheduling changes for menu entities that have not been previously published
 
-Modifiers and price levels must have already been published at least once before you can use the menu manager's Schedule button to schedule updates for them. For example, you create Price Level A. You must publish Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
+Modifiers and price levels must have already been published at least once before you can use the menu manager's **Schedule** button to schedule updates for them. For example, you create Price Level A. You must publish Price Level A before you can edit Price Level A in the menu manager and schedule those edits to be published at a future date and time.
 
 Menu items are handled differently. You can schedule a change for a menu item if it has not been previously published. However, to ensure that the menu item is available for ordering, the Toast platform may have to also publish other menu entities that the item is dependent on. When determining if other menu entities need publishing, the Toast platform follows these rules:
 

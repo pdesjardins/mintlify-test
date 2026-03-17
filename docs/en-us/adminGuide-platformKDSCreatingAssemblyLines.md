@@ -20,7 +20,7 @@ An assembly line is created using prep stations that are then moved into the cor
 - You [created prep stations](adminGuide-adminAddPrepStation).
 
 
-- You set the [Fulfillment Method](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently.
+- You set the [**Fulfillment Method**](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to **Fulfill at each station independently**.
 
 
 - You verified that the menu entity and the assembly line you plan to assign to that menu entity use at least one of the same prep stations.
@@ -38,22 +38,22 @@ The following procedure is for creating an assembly line for a single-restaurant
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Kitchen stations &gt; Assembly lines. The Assembly Lines page opens.
+2. Choose **Kitchen &gt; Kitchen stations &gt; Assembly lines**. The **Assembly Lines** page opens.
 
 
-3. Select the Add new button in the top right. The New assembly line dialog opens.
+3. Select the **Add new** button in the top right. The **New assembly line** dialog opens.
 
 
-4. Using the Name text box, assign a name to the assembly line and select Okay. The assembly line page opens.
+4. Using the **Name** text box, assign a name to the assembly line and select **Okay**. The assembly line page opens.
 
 
-5. Under the Sequence Prep Stations section, use the Prep stations dropdown menu to select the prep stations you want to use in the assembly line. You can also use the search box within the dropdown menu to find a specific prep station.
+5. Under the **Sequence Prep Stations** section, use the **Prep stations** dropdown menu to select the prep stations you want to use in the assembly line. You can also use the search box within the dropdown menu to find a specific prep station.
 
 
 6. Use the reorder icon to hold and move the prep stations into the order you want items to travel through when using the assembly line.
 
 
-7. Select the Save button. The assembly line page closes.
+7. Select the **Save** button. The assembly line page closes.
 
 
 8. Publish your changes.
@@ -69,48 +69,48 @@ Assembly lines use versioning and targets for multi-location restaurants. The fo
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Kitchen stations &gt; Assembly lines. The Assembly Lines page opens.
+2. Choose **Kitchen &gt; Kitchen stations &gt; Assembly lines**. The **Assembly Lines** page opens.
 
 
 3. Use the locations dropdown menu to select which locations you want to view.
 
 
-4. Select the Add new button in the top right. The New assembly line dialog opens.
+4. Select the **Add new** button in the top right. The **New assembly line** dialog opens.
 
 
-5. Using the Name text box, assign a name to the assembly line.
+5. Using the **Name** text box, assign a name to the assembly line.
 
 
-6. Select the Target dropdown menu. The Select Target dialog opens.
+6. Select the **Target** dropdown menu. The **Select Target** dialog opens.
 
 
-7. Using either the Restaurant groups or Locations tab, select the location you want to have access to this assembly line. You can only choose one location.
-
-
-
-> **Note**
-> 
-> The Owner setting automatically defaults to the Target setting.
-
-
-
-8. Select Okay. The assembly line page opens.
+7. Using either the **Restaurant groups** or **Locations** tab, select the location you want to have access to this assembly line. You can only choose one location.
 
 
 
 > **Note**
 > 
-> The Location specific variant option is currently unavailable.
+> The **Owner** setting automatically defaults to the **Target** setting.
 
 
 
-9. Under the Sequence Prep Stations section, use the Prep stations dropdown menu to select the prep stations you want to use in the assembly line. You can also use the search box within the dropdown menu to find a specific prep station.
+8. Select **Okay**. The assembly line page opens.
+
+
+
+> **Note**
+> 
+> The **Location specific variant** option is currently unavailable.
+
+
+
+9. Under the **Sequence Prep Stations** section, use the **Prep stations** dropdown menu to select the prep stations you want to use in the assembly line. You can also use the search box within the dropdown menu to find a specific prep station.
 
 
 10. Use the reorder icon to hold and move the prep stations into the order you want items to travel through when using the assembly line.
 
 
-11. Select the Save button. The assembly line page closes.
+11. Select the **Save** button. The assembly line page closes.
 
 
 12. Publish your changes.

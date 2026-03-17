@@ -46,49 +46,49 @@ The menu manager preview page:
 
 ![Example of the menu manager preview page, showing menu items.](https://doc.toasttab.com/doc/media/menu-manager-change-set-page.png)
 
-**Procedure 8.105. To change updates in a menu manager preview page**
+**Procedure 8.109. To change updates in a menu manager preview page**
 
 1. Use one of the following procedures to open the menu manager preview page for the change set you want to update:
 
-- On the Menus &gt; Menu management &gt; Menu manager page, select the View scheduled button and choose a change set from the list.
+- On the **Menus &gt; Menu management &gt; Menu manager** page, select the **View scheduled** button and choose a change set from the list.
 
 
-- On the Menus &gt; Menu management &gt; Menu manager page, select the calendar icon next to an updated row and choose a change set from the list.
+- On the **Menus &gt; Menu management &gt; Menu manager** page, select the calendar icon next to an updated row and choose a change set from the list.
 
 
-- From the Toast account &gt; Publishing &gt; Publishing center page, locate the change set whose preview page you want to view and select its edit button. In the Includes changes from section, select the Menu manager link.
+- From the **Toast account &gt; Publishing &gt; Publishing center** page, locate the change set whose preview page you want to view and select its edit button. In the **Includes changes from** section, select the **Menu manager** link.
 
 
 
 The menu manager preview opens.
 
 
-2. Menu manager change sets may include updates to any of the menu entity types that the menu manager tool can edit. Currently, that includes menu items, modifiers, or price levels. Select Items to view menu item updates. Select Modifiers to view modifier updates. Select Price levels to view price level updates.
+2. Menu manager change sets may include updates to any of the menu entity types that the menu manager tool can edit. Currently, that includes menu items, modifiers, or price levels. Select **Items** to view menu item updates. Select **Modifiers** to view modifier updates. Select **Price levels** to view price level updates.
 
 
 
 > **Note**
 > 
-> The menu manager preview page opens with the Items button selected by default. If the change set only includes modifier or price level updates, you must select Modifiers or Price levels to see them.
+> The menu manager preview page opens with the **Items** button selected by default. If the change set only includes modifier or price level updates, you must select **Modifiers** or **Price levels** to see them.
 
 
 
 3. To see the updates for a menu entity, expand its row in the change set preview. You see all of the updates associated with the menu entity.
 
-To remove a *specific update*, click the remove button on the update's row. For example, in the illustration below, clicking the remove button for the Visibility row removes just the visibility update for the Grilled cheese menu item and leaves the Price update.
+To remove a *specific update*, click the remove button on the update's row. For example, in the illustration below, clicking the remove button for the **Visibility** row removes just the visibility update for the Grilled cheese menu item and leaves the **Price** update.
 
 ![Example of the remove button for a specific update. The Visibility update is being removed from the Grilled cheese menu item.](https://doc.toasttab.com/doc/media/menu-manager-change-set-preview-remove-single-update.png)
 
-To remove *all updates* for a menu entity, click the remove button on the entity's row. For example, in the illustration below, clicking the remove button for the Grilled cheese row removes both the Visibility update and the Price update.
+To remove *all updates* for a menu entity, click the remove button on the entity's row. For example, in the illustration below, clicking the remove button for the **Grilled cheese** row removes both the **Visibility** update and the **Price** update.
 
 ![Example of the remove button for all updates. All of the updates are being removed from the Grilled cheese menu item.](https://doc.toasttab.com/doc/media/menu-manager-change-set-preview-remove-all-updates.png)
 
-To edit a specific update, enter or choose its new value in the New column. For example, in the illustration below, you can edit the price update for the Grilled cheese menu item by entering a different price in the New column.
+To edit a specific update, enter or choose its new value in the **New** column. For example, in the illustration below, you can edit the price update for the Grilled cheese menu item by entering a different price in the **New** column.
 
 ![Example of editing an update by providing a new value in the New column.](https://doc.toasttab.com/doc/media/menu-manager-change-set-preview-update-single-field.png)
 
 
-4. Select Update to apply your changes to the change set.
+4. Select **Update** to apply your changes to the change set.
 
 
 

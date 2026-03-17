@@ -25,7 +25,7 @@ This information only applies if you use a [partner API account](apiDevGuide-api
 
 ## Getting the restaurants you can access
 
-Restaurant employees who have the Account Admin &gt; Manage Integrations access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the Manage Integrations access permission can also remove previously connected integrations from the My Integrations page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](adminGuide-adminPermissions).
+Restaurant employees who have the **Account Admin &gt; Manage Integrations** access permission can add your integration to their locations from Toast Partner Integrations, which is the Toast integration marketplace, through their Toast Web account. Restaurant employees with the **Manage Integrations** access permission can also remove previously connected integrations from the **My Integrations** page in Toast Web. For more information about restaurant employee access permissions, see [Access permissions reference](adminGuide-adminPermissions).
 
 When a restaurant employee selects your partner integration and gives you access to integrate with that restaurant:
 
@@ -137,7 +137,7 @@ For each restaurant, the `/restaurants` endpoint the JSON response contains the 
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">locationName</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of a specific restaurant location, set on the Restaurant Info screen of the Toast Web.</p> <p className="text-base leading-relaxed">For example, a restaurant group might assign a location code such as <code className="font-mono text-sm">#1234</code> to a specific location.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier of a specific restaurant location, set on the **Restaurant Info** screen of the Toast Web.</p> <p className="text-base leading-relaxed">For example, a restaurant group might assign a location code such as <code className="font-mono text-sm">#1234</code> to a specific location.</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByEmailAddress</code></p></div></td>
@@ -384,9 +384,9 @@ The following example shows the return data from the `/connectedRestaurants` end
   
 ## Using location and group identifiers
 
-The **My Integrations** page contains optional free-text Group ID and Location ID fields, which you can use to map restaurants in your system to Toast's restaurants.
+The **My Integrations** page contains optional free-text **Group ID** and **Location ID** fields, which you can use to map restaurants in your system to Toast's restaurants.
 
-For example, if a restaurant location has a numeric account number in your system, they can add their account identifier to the Location ID field. If a restaurant group has an alphanumeric group identifier in your system, they can add their group identifier to the Group ID field.
+For example, if a restaurant location has a numeric account number in your system, they can add their account identifier to the **Location ID** field. If a restaurant group has an alphanumeric group identifier in your system, they can add their group identifier to the **Group ID** field.
 
 ![Group ID and Location ID fields for a restaurant location](https://doc.toasttab.com/doc/media/externalIDs.png)
 

@@ -26,7 +26,7 @@ The `ContentAdvisories` object contains an `alcohol` value containing an `Alcoho
 
 
 
-If the value is `null`, this indicates that the restaurant has not set the corresponding Does this item contain alcohol setting in Toast Web.
+If the value is `null`, this indicates that the restaurant has not set the corresponding **Does this item contain alcohol** setting in Toast Web.
 
 
 

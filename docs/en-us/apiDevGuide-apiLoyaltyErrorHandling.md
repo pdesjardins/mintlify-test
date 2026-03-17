@@ -54,7 +54,7 @@ Your Toast POS loyalty integration interface implementation must return the foll
 
 ## Custom error messages
 
-To include a custom error message, you add a `message` value to the `LoyaltyTransactionResponse` object that you return to the Toast platform.
+To include a custom error message, you add a `message`value to the `LoyaltyTransactionResponse` object that you return to the Toast platform.
 
 
 

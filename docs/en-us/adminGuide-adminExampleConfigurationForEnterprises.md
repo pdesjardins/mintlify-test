@@ -37,15 +37,15 @@ To support these types of employees, you need the following jobs:
 
 - A *manager* job that has every permission that can be assigned to an employee except the following:
 
-- Restaurant Admin &gt; Quick Edit Menu. This type of menu editing is not yet supported in enterprise environments and should not be used.
+- **Restaurant Admin &gt; Quick Edit Menu**. This type of menu editing is not yet supported in enterprise environments and should not be used.
 
 
-- Account Admin &gt; Financial Accounts. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
+- **Account Admin &gt; Financial Accounts**. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
 
 
 
 
-- A *server* job that has POS Access permissions only.
+- A *server* job that has **POS Access** permissions only.
 
 
 
@@ -79,38 +79,38 @@ The instructions below describe how to create the manager and server jobs for th
 1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend) using your super user credentials.
 
 
-2. Choose Employees &gt; Employee management &gt; Jobs to open the Jobs page.
+2. Choose **Employees &gt; Employee management &gt; Jobs** to open the **Jobs** page.
 
 
-3. Click the Add Job button and select Create New Job.
+3. Click the **Add Job** button and select **Create New Job**.
 
 
-4. From the Applies To menu, choose the top-level restaurant group (so that all locations have a checkmark next to them).
+4. From the **Applies To** menu, choose the top-level restaurant group (so that all locations have a checkmark next to them).
 
 
 
 > **Important**
 > 
-> Be careful to choose the top-level restaurant group. You cannot change the Applies To setting after a job has been created.
+> Be careful to choose the top-level restaurant group. You cannot change the **Applies To** setting after a job has been created.
 
 
 
-5. For the Job Title, enter **`Manager`**.
+5. For the **Job Title**, enter **`Manager`**.
 
 
-6. For Pay Basis, choose salary.
+6. For **Pay Basis**, choose **salary**.
 
 
 7. Enable all permissions except:
 
-- Restaurant Admin &gt; Quick Edit Menu. This type of menu editing is not yet supported in enterprise environments and should not be used.
+- **Restaurant Admin &gt; Quick Edit Menu**. This type of menu editing is not yet supported in enterprise environments and should not be used.
 
 
-- Account Admin &gt; Financial Accounts. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
+- **Account Admin &gt; Financial Accounts**. Restricting this permission prevents the manager from interacting with financial data that should be restricted to corporate employees.
 
 
 
-You can click a permission header row to quickly select all its child permissions. For example, click the POS Access header row to select all its children.
+You can click a permission header row to quickly select all its child permissions. For example, click the **POS Access** header row to select all its children.
 
 
 8. Save and publish your changes.
@@ -122,38 +122,38 @@ You can click a permission header row to quickly select all its child permission
 1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend) using your super user credentials.
 
 
-2. Choose Employees &gt; Employee management &gt; Jobs to open the Jobs page.
+2. Choose **Employees &gt; Employee management &gt; Jobs** to open the **Jobs** page.
 
 
-3. Click the Add Job button and select Create New Job.
+3. Click the **Add Job** button and select **Create New Job**.
 
 
-4. From the Applies To menu, choose the top-level restaurant group (so that all locations have a checkmark next to them).
+4. From the **Applies To** menu, choose the top-level restaurant group (so that all locations have a checkmark next to them).
 
 
 
 > **Important**
 > 
-> Be careful to choose the top-level restaurant group. You cannot change the Applies To setting after a job has been created.
+> Be careful to choose the top-level restaurant group. You cannot change the **Applies To** setting after a job has been created.
 
 
 
-5. For the Job Title, enter **`Server`**.
+5. For the **Job Title**, enter **`Server`**.
 
 
-6. For Pay Basis, choose hourly.
+6. For **Pay Basis**, choose **hourly**.
 
 
-7. Enter a value for Default Pay.
+7. Enter a value for **Default Pay**.
 
 
-8. For the Tipped property, choose Yes. This employee must enter cash tips at closing.
+8. For the **Tipped** property, choose **Yes. This employee must enter cash tips at closing**.
 
 
-9. For the Cashier property, choose Yes.
+9. For the **Cashier** property, choose **Yes**.
 
 
-10. In the Default User Permissionssection, click the POS Access header row to select it and all its children.
+10. In the **Default User Permissions**section, click the **POS Access** header row to select it and all its children.
 
 
 11. Save and publish your changes.
@@ -175,48 +175,48 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 > **Note**
 > 
-> In Toast Web, it is possible to create an employee that does not have access to the session restaurant you are currently logged into. If you inadvertently do this, the employee will be created but you will not be able to see the employee on the Employees page until you switch to a location where the employee has access. To avoid this problem, log in to a location that the employee should have access to *before* creating the employee.
+> In Toast Web, it is possible to create an employee that does not have access to the session restaurant you are currently logged into. If you inadvertently do this, the employee will be created but you will not be able to see the employee on the **Employees** page until you switch to a location where the employee has access. To avoid this problem, log in to a location that the employee should have access to *before* creating the employee.
 
 
 
-3. Choose Employees &gt; Employee management &gt; Employees to open the Employeespage.
+3. Choose **Employees &gt; Employee management &gt; Employees** to open the **Employees**page.
 
 
-4. Click the Add New Employeebutton.
+4. Click the **Add New Employee**button.
 
 
-5. Toggle the Invite to create accountsetting to Yes.
+5. Toggle the **Invite to create account**setting to **Yes**.
 
 
-6. Enter the manager's details and click Add. The manager is added to the employees table.
+6. Enter the manager's details and click **Add**. The manager is added to the employees table.
 
 
 7. Click the edit (pencil) icon for the manager you just added.
 
 
-8. Click the Restaurant Access tab.
+8. Click the **Restaurant Access** tab.
 
 
-9. Select the portions of the restaurant group hierarchy that the manager should have access to and click Save.
+9. Select the portions of the restaurant group hierarchy that the manager should have access to and click **Save**.
 
 
-10. Click the Jobs and Permissionstab.
+10. Click the **Jobs and Permissions**tab.
 
 
 11. Select the **`Manager`** job.
 
 
-12. At this point, the Access Permissionsarea contains entries for the locations you chose in step 9 and the manager inherits the permissions associated with their assigned job at each location. This means the manager can access the POS devices at these locations, edit any entities in Toast Web that are owned by these locations, and view reports for these locations. For a location manager, this configuration is sufficient. For a franchise manager, you must also add restaurant group-level permissions so that the manager can edit entities [owned](adminGuide-ownersAndPermissions) by the franchise's restaurant group and view reports for the franchise group. To enable this ability for the manager, do the following:
+12. At this point, the **Access Permissions**area contains entries for the locations you chose in step 9 and the manager inherits the permissions associated with their assigned job at each location. This means the manager can access the POS devices at these locations, edit any entities in Toast Web that are owned by these locations, and view reports for these locations. For a location manager, this configuration is sufficient. For a franchise manager, you must also add restaurant group-level permissions so that the manager can edit entities [owned](adminGuide-ownersAndPermissions) by the franchise's restaurant group and view reports for the franchise group. To enable this ability for the manager, do the following:
 
-- Click the Add Group/Restaurant Permissions button. You see the Add Group Permissions modal.
-
-
-- Click the franchise's restaurant group, then click Add.
+- Click the **Add Group/Restaurant Permissions** button. You see the **Add Group Permissions** modal.
 
 
+- Click the franchise's restaurant group, then click **Add**.
 
 
-13. Click Save.
+
+
+13. Click **Save**.
 
 
 
@@ -231,38 +231,38 @@ In this enterprise example, any type of manager can add a non-managerial employe
 
 > **Note**
 > 
-> In Toast Web, it is possible to create an employee that does not have access to the session restaurant you are currently logged into. If you inadvertently do this, the employee will be created but you will not be able to see the employee on the Employees page until you switch to a location where the employee has access. To avoid this problem, log in to a location that the employee should have access to *before* creating the employee.
+> In Toast Web, it is possible to create an employee that does not have access to the session restaurant you are currently logged into. If you inadvertently do this, the employee will be created but you will not be able to see the employee on the **Employees** page until you switch to a location where the employee has access. To avoid this problem, log in to a location that the employee should have access to *before* creating the employee.
 
 
 
-3. Choose Employees &gt; Employee management &gt; Employees to open the Employeespage.
+3. Choose **Employees &gt; Employee management &gt; Employees** to open the **Employees**page.
 
 
-4. Click the Add New Employeebutton.
+4. Click the **Add New Employee**button.
 
 
-5. Leave the Invite to create accountsetting on No.
+5. Leave the **Invite to create account**setting on **No**.
 
 
-6. Enter the employee's details and click Add. The employee is added to the employees table.
+6. Enter the employee's details and click **Add**. The employee is added to the employees table.
 
 
 7. Click the edit (pencil) icon for the employee you just added.
 
 
-8. Click the Restaurant Access tab.
+8. Click the **Restaurant Access** tab.
 
 
-9. Select the portions of the restaurant group hierarchy that the employee should have access to and click Save.
+9. Select the portions of the restaurant group hierarchy that the employee should have access to and click **Save**.
 
 
-10. Click the Jobs and Permissionstab.
+10. Click the **Jobs and Permissions**tab.
 
 
 11. Select the **`Server`** job to assign it to this employee.
 
 
-12. Click Save.
+12. Click **Save**.
 
 
 

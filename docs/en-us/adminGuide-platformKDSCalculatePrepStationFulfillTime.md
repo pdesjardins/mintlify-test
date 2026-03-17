@@ -62,11 +62,11 @@ The fulfillment time therefore calculated by the time between item firing and it
 
 
 
-Prep station fulfillment times can be viewed using the Reports &gt; Kitchen operations &gt; Tickets by fulfillment page.
+Prep station fulfillment times can be viewed using the **Reports &gt; Kitchen operations &gt; Tickets by fulfillment** page.
 
-To understand how long an order takes from fire to fulfillment at prep stations, use the Reports &gt; Kitchen operations &gt; Ticket details page to see the time between when the first item from an order is fired and the last item from that order is fulfilled.
+To understand how long an order takes from fire to fulfillment at prep stations, use the **Reports &gt; Kitchen operations &gt; Ticket details** page to see the time between when the first item from an order is fired and the last item from that order is fulfilled.
 
-In the case of [fulfilling items at each prep station independently](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKitchenKDSFulfillAtEachStationIndependently), when the Fulfillment method setting is set to Fulfill at each station independently, if an item is complete at some prep stations and not others, the prep station fulfillment time is created only for the prep stations where it is fulfilled.
+In the case of [fulfilling items at each prep station independently](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKitchenKDSFulfillAtEachStationIndependently), when the **Fulfillment method** setting is set to **Fulfill at each station independently**, if an item is complete at some prep stations and not others, the prep station fulfillment time is created only for the prep stations where it is fulfilled.
 
 In the case of [individual item fulfillment](adminGuide-adminKitchenDiningRoomReference#configFulfillItems), if two items are on the same ticket and one item is fulfilled before the other, each item has a separate prep station fulfillment time.
 

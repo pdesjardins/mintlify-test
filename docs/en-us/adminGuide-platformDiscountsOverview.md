@@ -39,7 +39,7 @@ You can also specify which [dining options](adminGuide-adminDiningOptions) are e
 ****Discount status****
 : A discount can be either [active or inactive](adminGuide-adminDiscountsActiveInactive). Inactive discounts cannot be applied to a check. For example, you might make a discount inactive while you are configuring it, then make it active when it is complete. As another example, you might make a discount active for special occasions, then make it inactive again.
 
-You can [archive discounts](adminGuide-adminDiscountsArchive) that you no longer want to use at all. Archived discounts are not displayed on the Discounts page in Toast Web, and cannot be applied to checks or items.
+You can [archive discounts](adminGuide-adminDiscountsArchive) that you no longer want to use at all. Archived discounts are not displayed on the **Discounts** page in Toast Web, and cannot be applied to checks or items.
 
 
 

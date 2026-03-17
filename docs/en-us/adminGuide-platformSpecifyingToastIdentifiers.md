@@ -36,7 +36,7 @@ To complete a bulk import spreadsheet, you may need one or more Toast identifier
 
 
 
-You use these identifiers to provide information about the menu entities you are creating or attaching. For example, to attach a modifier group to an existing menu item, you need the existing menu item's `versionID` (this identifier is called GUID in Toast Web). To specify a prep station for a menu item or modifier that you are creating, you need the prep station's `multiLocationID` (this identifier is called Number in Toast Web).
+You use these identifiers to provide information about the menu entities you are creating or attaching. For example, to attach a modifier group to an existing menu item, you need the existing menu item's `versionID` (this identifier is called **GUID** in Toast Web). To specify a prep station for a menu item or modifier that you are creating, you need the prep station's `multiLocationID` (this identifier is called **Number** in Toast Web).
 
 The rest of this section describes where to find the identifiers you need to fill out a bulk import spreadsheet.
 
@@ -46,11 +46,11 @@ To see identifiers for menu entities, Toast support must enable the Order API pr
 
 ![Example of a menu details page showing the location of the GUID and Number fields.](https://doc.toasttab.com/doc/media/menus-bulk-import-menu-entity-ids.png)
 
-The GUID field corresponds to the menu entity's `versionID`. The Number field corresponds to the menu entity's `multiLocationId`.
+The **GUID** field corresponds to the menu entity's `versionID`. The **Number** field corresponds to the menu entity's `multiLocationId`.
 
 ## Identifiers for prep stations, sales categories, and tax rates
 
-To see identifiers for prep stations, sales categories, and tax rates, Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, a Number column is added to the listing page for each entity type that contains the `multiLocationId` for the entity. For example, this illustration shows the Number column on the Prep Stations page:
+To see identifiers for prep stations, sales categories, and tax rates, Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, a **Number** column is added to the listing page for each entity type that contains the `multiLocationId` for the entity. For example, this illustration shows the Number column on the **Prep Stations** page:
 
 ![Example of Prep Stations page showing the location of the Number column.](https://doc.toasttab.com/doc/media/menus-bulk-import-prep-station-ids.png)
 
@@ -58,39 +58,39 @@ If you don't provide a prep station ID when you create a menu item or modifier, 
 
 ## Identifiers for location groups and individual locations
 
-To see identifiers for locations and location groups (formerly called *restaurant groups*), Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, the Toast account &gt; Business and location management &gt; Location groups (Restaurant groups) page becomes available in Toast Web. You can retrieve a location or a location group's identifier from this page, using the instructions below.
+To see identifiers for locations and location groups (formerly called *restaurant groups*), Toast support must enable the multi-location management product module for your restaurant locations. When this module is enabled, the **Toast account &gt; Business and location management &gt; Location groups (Restaurant groups)** page becomes available in Toast Web. You can retrieve a location or a location group's identifier from this page, using the instructions below.
 
-**Procedure 8.142. To retrieve a location group's identifier**
+**Procedure 8.146. To retrieve a location group's identifier**
 
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Toast account &gt; Business and location management &gt; Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
+2. Choose **Toast account &gt; Business and location management &gt; Location groups (Restaurant groups)**. The **Location groups (Restaurant groups)** page opens.
 
 
-3. On the Groups tab, search for or navigate to the location group that you need an identifier for. Its name should be listed at the top of the location group card.
+3. On the **Groups** tab, search for or navigate to the location group that you need an identifier for. Its name should be listed at the top of the location group card.
 
 ![Example of navigating to a location group](https://doc.toasttab.com/doc/media/menus-bulk-import-selected-location-group.png)
 
 
-4. Select Edit info. The Edit Custom Group window opens. The Group ID field contains the Toast `GUID` for the location group. This is the identifier that the bulk menu import tool uses.
+4. Select **Edit info**. The **Edit Custom Group** window opens. The **Group ID** field contains the Toast `GUID` for the location group. This is the identifier that the bulk menu import tool uses.
 
 
-5. Select Copy next to the Group ID field to copy the ID and paste it in your bulk import spreadsheet.
+5. Select **Copy** next to the **Group ID** field to copy the ID and paste it in your bulk import spreadsheet.
 
 ![Location of the Copy button for the Group ID](https://doc.toasttab.com/doc/media/menus-bulk-import-location-group-guid.png)
 
 
 
-**Procedure 8.143. To retrieve a single location's identifier**
+**Procedure 8.147. To retrieve a single location's identifier**
 
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Toast account &gt; Business and location management &gt; Location groups (Restaurant groups). The Location groups (Restaurant groups) page opens.
+2. Choose **Toast account &gt; Business and location management &gt; Location groups (Restaurant groups)**. The **Location groups (Restaurant groups)** page opens.
 
 
-3. Select the Locations tab.
+3. Select the **Locations** tab.
 
 
 4. Search for or scroll to the location you need an identifier for and then select the arrow at the end of its row.

@@ -48,7 +48,7 @@ The restaurant online ordering schedule webhook messages follow the [standard me
 
 ## Configuring online ordering schedules 
 
-You can configure your online ordering schedule and overrides in Toast Web. Choose Takeout & delivery &gt; Online ordering hours to open the Online ordering hourssection. For more information, see [Online ordering hours overview](adminGuide-adminOnlineOrderingScheduleOverview).
+You can configure your online ordering schedule and overrides in Toast Web. Choose **Takeout & delivery &gt; Online ordering hours** to open the **Online ordering hours**section. For more information, see [Online ordering hours overview](adminGuide-adminOnlineOrderingScheduleOverview).
 
 ## ordering_schedule_updated
 
@@ -65,28 +65,28 @@ Attributes in the `ordering_schedule_updated` event’s payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderingSchedule</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderingSchedule</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The parent object that holds information about the days and times when the restaurant location accepts online orders. </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">servicePeriods</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">servicePeriods</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">overrides</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">overrides</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">scheduledOrderMaxDays</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">scheduledOrderMaxDays</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed italic">[Complex content omitted - see <a href="https://doc.toasttab.com/" className="underline">current documentation</a>]</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">lastOrderConfiguration</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">UNTIL_CLOSING_TIME</code> or <code className="font-mono text-sm">UNTIL_PREPTIME_CUTOFF</code></p> <p className="text-base leading-relaxed">Indicates when the restaurant will stop accepting online orders. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">UNTIL_CLOSING_TIME</code> or <code className="font-mono text-sm">UNTIL_PREPTIME_CUTOFF</code></p> <p className="text-base leading-relaxed">Indicates when the restaurant will stop accepting online orders. </p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
   </tbody>
 </table>

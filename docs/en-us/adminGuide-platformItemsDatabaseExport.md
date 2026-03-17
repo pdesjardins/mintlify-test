@@ -15,9 +15,9 @@ procedures: 0
 codeExamples: 1
 ---
 
-To export data from the Items database page, select the tab for the type of entity you want to export, and then select the export icon.
+To export data from the **Items database** page, select the tab for the type of entity you want to export, and then select the export icon.
 
-All data is exported for all entities of the type you selected, regardless of the searching and filtering you have done on the Items database page. For example, if you are viewing the Items tab, all of the items in your menu are exported along with all of their data, even if you used the search field or the Show/hide columns option to limit what you see on the Items database page.
+All data is exported for all entities of the type you selected, regardless of the searching and filtering you have done on the **Items database** page. For example, if you are viewing the **Items** tab, all of the items in your menu are exported along with all of their data, even if you used the search field or the **Show/hide** columns option to limit what you see on the **Items database** page.
 
 Depending on your browser and its settings, the browser may save the file to its default download location or you may be asked to specify the location for the CSV file. 
 
@@ -35,7 +35,7 @@ If your menu entities have names that begin with any of the following special ch
 
 ## Special characters in items database export
 
-Restaurant employees who export menu data from the Items database page to a CSV file often import that file into a spreadsheet application for further editing.
+Restaurant employees who export menu data from the **Items database** page to a CSV file often import that file into a spreadsheet application for further editing.
 
 Spreadsheet applications treat names that begin with certain special characters as formulas, not names, causing them to appear incorrectly in the spreadsheet application. Those special characters are:
 

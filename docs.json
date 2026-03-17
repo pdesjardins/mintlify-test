@@ -115,7 +115,8 @@
                                     "docs/en-us/apiDevGuide-integrationDevProcess",
                                     "docs/en-us/apiDevGuide-apiPartnersGettingAccessibleRestaurants",
                                     "docs/en-us/apiDevGuide-apiDeveloperPortal",
-                                    "docs/en-us/apiDevGuide-apiEnvironments"
+                                    "docs/en-us/apiDevGuide-apiEnvironments",
+                                    "docs/en-us/apiDevGuide-apiRegionalExpansion"
                                 ]
                             },
                             {
@@ -718,6 +719,15 @@
                                 ]
                             },
                             {
+                                "group": "Shifts",
+                                "pages": [
+                                    "docs/en-us/adminGuide-platformShiftsOverview",
+                                    "docs/en-us/adminGuide-platformScheduledShifts",
+                                    "docs/en-us/adminGuide-platformShiftsTimeEntriesAndBreaks",
+                                    "docs/en-us/adminGuide-platformShiftsBusinessRules"
+                                ]
+                            },
+                            {
                                 "group": "Text alerts",
                                 "pages": [
                                     "docs/en-us/adminGuide-platformTextAlertsOverview",
@@ -1120,6 +1130,7 @@
                                     "docs/en-us/adminGuide-adminMenuItemInventoryOverview",
                                     "docs/en-us/adminGuide-adminInventoryUpdateBackend",
                                     "docs/en-us/adminGuide-adminInventoryUpdateQuickEdit",
+                                    "docs/en-us/adminGuide-plartformAutomaticallyRefreshingInventory",
                                     "docs/en-us/adminGuide-adminMenuInventory86Report"
                                 ]
                             },
@@ -1410,7 +1421,9 @@
                     {
                         "group": "Overview",
                         "root": "api-reference/overview",
-                        "pages": []
+                        "pages": [
+                            
+                        ]
                     },
                     {
                         "group": "Authentication",

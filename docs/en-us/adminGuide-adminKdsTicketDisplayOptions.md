@@ -23,10 +23,10 @@ For example, you want appetizers to be fulfilled within 8 minutes, and main cour
 1. On the device, tap the Toast logo (or left arrow) in the top corner until the Toast POS home screen appears.
 
 
-2. In the Setup section, select Device Setup.
+2. In the **Setup** section, select **Device Setup**.
 
 
-3. In the Kitchen Setup section, select Ticket Display Options.
+3. In the **Kitchen Setup** section, select **Ticket Display Options**.
 
 All of the dining options and courses configured for your restaurant appear.
 

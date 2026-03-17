@@ -22,7 +22,7 @@ An item routing rule defines a condition for an order that, if met, requires a c
 
 > **Note**
 > 
-> To create item routing rules, you must have the 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup permission.
+> To create item routing rules, you must have the **6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup** permission.
 
 
 After specifying the condition for your rule, you then define how you want the workflow to change.
@@ -40,7 +40,7 @@ As soon as you publish the item routing rule, the Toast platform applies the rul
 
 > **Note**
 > 
-> If you use the Dining Option[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups) to identify a different dining option for an item in an order, that item is routed to the same prep stations as the other items in the order.
+> If you use the **Dining Option**[additional modifier group](adminGuide-adminUiOptionsReference#configAdditionalModifierGroups) to identify a different dining option for an item in an order, that item is routed to the same prep stations as the other items in the order.
 
 
 ## Rerouting based on dining option
@@ -143,29 +143,29 @@ Once you determine which prep stations you want to reroute and where you want th
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Kitchen stations &gt; Item routing. 
+2. Choose **Kitchen &gt; Kitchen stations &gt; Item routing. **
 
 
-3. Select the + Add button. A row is added to the interactive table.
+3. Select the **+ Add** button. A row is added to the interactive table.
 
 
 4. Enter an identifying name for the rule.
 
 
-5. Set the Category for the rule. This is either:
+5. Set the **Category** for the rule. This is either:
 
-- Dining Option
-
-
-- Service Area
+- **Dining Option**
 
 
+- **Service Area**
 
 
-6. From the Condition list, select the [dining option](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) or service area that your rule applies to.
 
 
-7. From the Reroute From list, select the prep station that you want to reroute items from.
+6. From the **Condition** list, select the [dining option](adminGuide-adminKitchenDiningRoomReference#configDiningOptions) or service area that your rule applies to.
+
+
+7. From the **Reroute From** list, select the prep station that you want to reroute items from.
 
 
 
@@ -175,7 +175,7 @@ Once you determine which prep stations you want to reroute and where you want th
 
 
 
-8. From the Reroute To list, select the prep station or stations that should recieve the tickets when the condition is met.
+8. From the **Reroute To** list, select the prep station or stations that should recieve the tickets when the condition is met.
 
 For example, you can choose a different prep station, or additional prep stations. If you want to add additional prep stations, remember to include the original prep station you selected in the previous step.
 

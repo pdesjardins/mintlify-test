@@ -51,17 +51,17 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e88264BB8911-6D33-427B-B2BF-261630CB0B01" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e88264BB8911-6D33-427B-B2BF-261630CB0B01" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e88464BB8911-6D33-427B-B2BF-261630CB0B01" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e88464BB8911-6D33-427B-B2BF-261630CB0B01" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the location GUID of the restaurant whose online ordering schedule you want to retrieve.</p></div></td>
     </tr>
   
 **Example 6.7. Response containing a restaurant's online ordering schedule**
 
-The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the [Online ordering hours](adminGuide-adminConfigureOnlineOrderingHoursOverview) section on the Takeout & delivery page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
+The following example shows a restaurant location's online ordering schedule for both `DELIVERY` and `TAKEOUT` dining option behaviors. The `/orderingSchedule` endpoint returns an array of values configured in the [Online ordering hours](adminGuide-adminConfigureOnlineOrderingHoursOverview) section on the **Takeout & delivery **page in Toast Web. Restaurant operators must have [first-party delivery](https://central.toasttab.com/s/article/How-do-I-set-up-my-take-out-and-delivery-options-1492745822028) enabled in Toast Web to display DELIVERY hours.
 
 
 
@@ -180,24 +180,24 @@ The following example shows a restaurant location's online ordering schedule for
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1163EA94E75-C09B-4686-82C8-0754D4415861" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1163EA94E75-C09B-4686-82C8-0754D4415861" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-apiOrderTypeDetails#apiOrdersDiningOptionTypes" className="">diningOptionBehavior</a> the online ordering schedule is returned for.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1183EA94E75-C09B-4686-82C8-0754D4415861" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1183EA94E75-C09B-4686-82C8-0754D4415861" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The local time in HH:MM format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1203EA94E75-C09B-4686-82C8-0754D4415861" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1203EA94E75-C09B-4686-82C8-0754D4415861" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Returns scheduled overrides. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For more information, see <a href="adminGuide-adminConfigureOnlineOrderingHoursOverview#adminConfigureOverridesOnOnlineOrderingHours" className="">Configuring overrides</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1223EA94E75-C09B-4686-82C8-0754D4415861" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1223EA94E75-C09B-4686-82C8-0754D4415861" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates which <code className="font-mono text-sm">diningOptionBehavior</code> the override applies to.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1243EA94E75-C09B-4686-82C8-0754D4415861" className="">(5)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-orders_api_future_orders" className="">maximum number of days in the future</a> a guest can schedule an online order. You should not place orders more than the <code className="font-mono text-sm">scheduledOrderMaxDays</code>. This value can be configured in the Online ordering section on the Takeout & delivery page in Toast Web.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1243EA94E75-C09B-4686-82C8-0754D4415861" className="">(5)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <a href="apiDevGuide-orders_api_future_orders" className="">maximum number of days in the future</a> a guest can schedule an online order. You should not place orders more than the <code className="font-mono text-sm">scheduledOrderMaxDays</code>. This value can be configured in the **Online ordering** section on the **Takeout & delivery** page in Toast Web.</p></div></td>
     </tr>
   
 The values returned are organized by `diningOptionBehavior`.

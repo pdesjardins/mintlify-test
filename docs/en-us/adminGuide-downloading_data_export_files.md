@@ -23,11 +23,11 @@ The Toast platform stores data export files for seven days, and then they are de
 - SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminGuide-adminSshKeys).
 
 
-- Server URL: To locate the appropriate Server URL, navigate to Reports &gt; Settings &gt; SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
+- Server URL: To locate the appropriate Server URL, navigate to **Reports &gt; Settings &gt; SSH Keys** from the Toast Web. Locate your SFTP username and find the **Server URL**.
 
 
 
-Export IDs can also be obtained from Toast Web. Navigate to Reports &gt; Settings &gt; Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
+Export IDs can also be obtained from Toast Web. Navigate to **Reports &gt; Settings &gt; Data Exports** and click the link in the banner at the top of the screen, **view restaurant # mapping** to export a file that includes an **Export ID** column which includes the ID for each restaurant.
 
 ![Image](https://doc.toasttab.com/doc/media/export_ids_data_export.png)
 
@@ -60,7 +60,7 @@ Replace the *`&#123;sftp_username&#125;`* and *`&#123;export_id&#125;`* placehol
 
 2. **Exporting files using terminal**
 
-Once you are connected to the SFTP directory use the **ls** command and press Return to display all files.
+Once you are connected to the SFTP directory use the **ls** command and press **Return** to display all files.
 
 Export all files using the **get *** command or use **get *`&#123;fileName&#125;`*** to export a specific file.
 
@@ -82,7 +82,7 @@ Replace *`&#123;SSH_key_filepath&#125;`* with the location of your SSH key on yo
 
 2. **Exporting files using command prompt**
 
-Once you are connected to the SFTP directory, use the **ls** command and press Enter to display all files.
+Once you are connected to the SFTP directory, use the **ls** command and press **Enter** to display all files.
 
 To export a file for a specific location and date, use the following command:
 

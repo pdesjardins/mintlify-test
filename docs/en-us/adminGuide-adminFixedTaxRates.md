@@ -24,33 +24,33 @@ Note that comping an order that has items with a fixed rate leaves the tax amoun
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Menu management &gt; Settings &gt; Manage tax rates  to open the Tax rates page.
+2. Choose **Menus &gt; Menu management &gt; Settings &gt; Manage tax rates ** to open the **Tax rates** page.
 
 
-3. Click + Add Tax Rate.
+3. Click **+ Add Tax Rate**.
 
 
-4. In the Basic section of the New tax rate page, enter the configuration information for the tax rate:
+4. In the **Basic** section of the **New tax rate** page, enter the configuration information for the tax rate:
 
-- Name: Enter a name for the tax rate, such as `Fixed Rate` or `Bottle Deposit`.
-
-
-- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
+- **Name**: Enter a name for the tax rate, such as `Fixed Rate` or `Bottle Deposit`.
 
 
-- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
+- **Target**: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
 
 
-- Import ID: Leave this field blank. It is for internal use only.
+- **Owner**: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
-- Type: Select Fixed.
+- **Import ID**: Leave this field blank. It is for internal use only.
 
 
-- Rate: Enter the monetary amount to be charged as a tax.
+- **Type**: Select **Fixed**.
 
 
-- Default: Select Yes to have the tax rate inherited by menus and menu items that are configured to inherit tax rates or select No to disable tax rate inheritance (for this setting, menus and menu items that do not inherit tax rates must be configured with specific tax rates).
+- **Rate**: Enter the monetary amount to be charged as a tax.
+
+
+- **Default**: Select **Yes** to have the tax rate inherited by menus and menu items that are configured to inherit tax rates or select **No** to disable tax rate inheritance (for this setting, menus and menu items that do not inherit tax rates must be configured with specific tax rates).
 
 
 

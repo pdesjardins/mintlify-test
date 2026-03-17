@@ -65,26 +65,26 @@ If you have this permission, then you can close checks that are assigned to a di
 
 ## Closing multiple checks
 
-From the Paid Checks screen, you can select and close multiple checks.
+From the **Paid Checks** screen, you can select and close multiple checks.
 
 **Procedure 6.87. To close one or more paid checks**
 
-1. If you are on the Payment Terminalscreen, then the list of checks already is displayed.
+1. If you are on the **Payment Terminal**screen, then the list of checks already is displayed.
 
-If you are on the Table Service or Quick Order screens, select All checks.
-
-
-2. On the Paid Checks screen, tap and hold on any check until the options available at the top of the screen change to allow multiple selection.
-
-Alternatively, from the overflow menu (the ⋮ icon), choose Select checks.
+If you are on the **Table Service** or **Quick Order** screens, select **All checks**.
 
 
-3. On the Select Checks screen, tap each check that you want to close.
+2. On the **Paid Checks** screen, tap and hold on any check until the options available at the top of the screen change to allow multiple selection.
 
-Alternatively, you can choose Select alland then tap individual checks to deselect them.
+Alternatively, from the overflow menu (the ⋮ icon), choose **Select checks**.
 
 
-4. Select Close. The Toast platform updates the status of each check to closed.
+3. On the **Select Checks** screen, tap each check that you want to close.
+
+Alternatively, you can choose **Select all**and then tap individual checks to deselect them.
+
+
+4. Select **Close**. The Toast platform updates the status of each check to closed.
 
 ![The Select Checks screen with the Close button emphasized.](https://doc.toasttab.com/doc/media/payment-terminal-close-multiple-checks.png)
 
@@ -98,11 +98,11 @@ You close an individual check from the order screen.
 
 1. From the Toast POS app, display the order screen.
 
-On the Table Service screen, select a table with a sent order (appears in green).
+On the **Table Service** screen, select a table with a sent order (appears in green).
 
-On either the Table Service or Quick Order screen:
+On either the **Table Service** or **Quick Order** screen:
 
-1. Select All checks.
+1. Select **All checks**.
 
 
 2. Select a paid check.
@@ -110,13 +110,13 @@ On either the Table Service or Quick Order screen:
 
 
 
-  1. Select All checks.
+  1. Select **All checks**.
 
 
   2. Select a paid check.
 
 
-2. Select Close.
+2. Select **Close**.
 
 ![The Payment terminal screen showing a check with the Close button emphasized.](https://doc.toasttab.com/doc/media/payment-terminal-close-single-check.png)
 

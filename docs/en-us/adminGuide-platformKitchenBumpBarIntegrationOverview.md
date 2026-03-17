@@ -62,28 +62,28 @@ When the bump bar is first connected, the setup process guides you through choos
 > You must use the touchscreen functionality to change the bump bar orientation.
 
 
-1. Navigate to the Device Setup screen. You can either:
+1. Navigate to the **Device Setup** screen. You can either:
 
-- From the Toast POS home screen, navigate to the Setup section and select Device Setup.
-
-
-- From the Kitchen Display System mode screen, select the overflow menu (the ⋮ icon) on the top right and select Device Setup.
+- From the Toast POS home screen, navigate to the **Setup** section and select **Device Setup**.
 
 
-
-The Device Setup screen opens.
-
-
-2. Select Bump Bar. The bump bar settings page opens.
+- From the Kitchen Display System mode screen, select the overflow menu (the ⋮ icon) on the top right and select **Device Setup**.
 
 
-3. Select Layout. The bump bar layout setup screen opens.
+
+The **Device Setup** screen opens.
 
 
-4. Select either Horizontal layout or Vertical layout.
+2. Select **Bump Bar**. The bump bar settings page opens.
 
 
-5. Select Save.
+3. Select **Layout**. The bump bar layout setup screen opens.
+
+
+4. Select either **Horizontal layout** or **Vertical layout**.
+
+
+5. Select **Save**.
 
 
 
@@ -127,37 +127,37 @@ The bump bar uses an overlay insert to label the bump bar buttons, with each but
 
 ![A diagram of the bump bar horizontal layout, with numbers corresponding to descriptions in a list below the graphic.](https://doc.toasttab.com/doc/media/kds-bump-bar-button-diagram-horizontal.png)
 
-1. FULFILL: This button fulfills the selected ticket, or the selected and in focus unfulfilled item or items.
+1. **FULFILL**: This button fulfills the selected ticket, or the selected and in focus unfulfilled item or items.
 
 
 
 > **Note**
 > 
-> Pressing the FULFILL button for fulfilled tickets or items has no effect.
+> Pressing the **FULFILL** button for fulfilled tickets or items has no effect.
 
 
 
-2. RECALL LAST: This button recalls the most recently fulfilled ticket, or the selected and in focus fulfilled item or items.
+2. **RECALL LAST**: This button recalls the most recently fulfilled ticket, or the selected and in focus fulfilled item or items.
 
 
 
 > **Note**
 > 
-> Pressing the RECALL LAST button for unfulfilled tickets or items has no effect.
+> Pressing the **RECALL LAST** button for unfulfilled tickets or items has no effect.
 
 
 
-3. 1-10: The button selects the matching numbered ticket visible on the current page of the KDS device. Pressing the numbered button twice in quick succession fulfills the selected ticket. If fulfilled tickets are shown with the Show recently fulfilled view, the same action unfulfills the selected ticket. For more information about this setting, see [KDS interaction options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefInteraction).
+3. **1-10**: The button selects the matching numbered ticket visible on the current page of the KDS device. Pressing the numbered button twice in quick succession fulfills the selected ticket. If fulfilled tickets are shown with the **Show recently fulfilled** view, the same action unfulfills the selected ticket. For more information about this setting, see [KDS interaction options](adminGuide-adminKdsConfigQuickRef#adminKdsQuickRefInteraction).
 
 - If a button does not have a corresponding ticket on the page, pressing the button has no effect.
 
 
-- These buttons can also be used by an employee to enter their PIN number on the passcode screen, with 10 as the equivalent button for 0.
+- These buttons can also be used by an employee to enter their PIN number on the passcode screen, with **10** as the equivalent button for 0.
 
 
 
 
-4. up: This button rotates through the options available for selection on the screen.
+4. **up**: This button rotates through the options available for selection on the screen.
 
 - For tickets, the focus navigates from the highest to lowest number. If there are multiple pages of tickets, the focus continues from the highest numbered ticket on the previous page. If there are no previous pages, or a single page, the focus remains on the lowest numbered ticket.
 
@@ -167,7 +167,7 @@ The bump bar uses an overlay insert to label the bump bar buttons, with each but
 
 
 
-5. down: This button rotates through the options available for selection on the screen.
+5. **down**: This button rotates through the options available for selection on the screen.
 
 - For tickets, the focus navigates from the lowest to highest number. If there are multiple pages of tickets, the focus continues from the lowest numbered ticket on the next page. If there are no next pages, or a single page, the focus remains on the highest numbered ticket.
 
@@ -177,29 +177,29 @@ The bump bar uses an overlay insert to label the bump bar buttons, with each but
 
 
 
-6. page (arrow pointing left): This button navigates to the previous page of tickets, if available.
+6. **page** (arrow pointing left): This button navigates to the previous page of tickets, if available.
 
 
-7. page (arrow pointing right): This button navigates to the next page of tickets, if available.
+7. **page** (arrow pointing right): This button navigates to the next page of tickets, if available.
 
 
-8. menu: This button opens available actions for the ticket. Depending on your configuration, these actions can include Rush, Print, Unfulfill, or Ticket Detail.
+8. **menu**: This button opens available actions for the ticket. Depending on your configuration, these actions can include **Rush**, **Print**, **Unfulfill**, or **Ticket Detail**.
 
 
-9. view: This button shows or hides recently fulfilled tickets, depending on whether recently fulfilled tickets are currently hidden or shown.
+9. **view**: This button shows or hides recently fulfilled tickets, depending on whether recently fulfilled tickets are currently hidden or shown.
 
 
-10. enter: This button's actions depend on your current configuration:
+10. **enter**: This button's actions depend on your current configuration:
 
 - If [flashing for new tickets](adminGuide-adminKitchenDiningRoomReference#configFlashChanges)is enabled and the ticket is flashing, selecting this button when the ticket is in focus acknowledges the ticket.
 
 
-- If flashing for new tickets is not enabled or the ticket is not flashing, selecting this button opens the selected ticket to view individual items and ticket actions. If [individual item fulfillment](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) is enabled, selecting enter again while an item is in focus selects the item so you can navigate to the Fulfill option to fulfill specific items.
+- If flashing for new tickets is not enabled or the ticket is not flashing, selecting this button opens the selected ticket to view individual items and ticket actions. If [individual item fulfillment](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) is enabled, selecting **enter** again while an item is in focus selects the item so you can navigate to the **Fulfill** option to fulfill specific items.
 
 
 
 
-11. esc: This button exits or closes dialogs without applying changes.
+11. **esc**: This button exits or closes dialogs without applying changes.
 
 
 

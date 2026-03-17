@@ -23,11 +23,11 @@ You set up a central list of discount reasons that can be assigned to any discou
 
 ## Managing the list of discount reasons
 
-In Toast Web, you use the Discount and Food Waste Reasons page to set up the list of discount reasons that can be assigned to discounts.
+In Toast Web, you use the **Discount and Food Waste Reasons** page to set up the list of discount reasons that can be assigned to discounts.
 
 ![Discount and Food Waste Reasons page on Toast Web.](https://doc.toasttab.com/doc/media/discount-reasons-list.png)
 
-To display the Discount and Food Waste Reasons page, select Payments &gt; Comps and promos &gt; Discount and food waste reasons.
+To display the **Discount and Food Waste Reasons** page, select **Payments &gt; Comps and promos &gt; Discount and food waste reasons**.
 
 ### Adding a discount reason
 
@@ -35,13 +35,13 @@ For each discount reason you provide a name and, optionally, a description.
 
 **Procedure 9.11. To add a discount reason:**
 
-1. Click Add Discount Reason. An empty row is added to the bottom of the list.
+1. Click **Add Discount Reason**. An empty row is added to the bottom of the list.
 
 
-2. In the Name field, type the name of the discount reason. The name is displayed on the Toast POS device.
+2. In the **Name** field, type the name of the discount reason. The name is displayed on the Toast POS device.
 
 
-3. Optionally, in the Description field, type a description of the discount reason.
+3. Optionally, in the **Description** field, type a description of the discount reason.
 
 
 
@@ -49,19 +49,19 @@ For each discount reason you provide a name and, optionally, a description.
 
 To edit the discount name or description, click the current value. You can then edit the value.
 
-To make a discount reason inactive, slide the Active toggle to the left. To make an inactive discount reason active, slide the Active toggle to the right.
+To make a discount reason inactive, slide the **Active** toggle to the left. To make an inactive discount reason active, slide the **Active** toggle to the right.
 
 ### Archiving a discount reason
 
-To archive a discount reason, so that it is no longer available, click the ... icon, then click Archive.
+To archive a discount reason, so that it is no longer available, click the **...** icon, then click **Archive**.
 
-To view the list of archived discount reasons, click Archived. To return to the Discount Reasons list, click Back to Discount Reasons.
+To view the list of archived discount reasons, click **Archived**. To return to the **Discount Reasons** list, click **Back to Discount Reasons**.
 
-On the archived discounts list, to unarchive a discount reason, click the ... icon, then click Unarchive.
+On the archived discounts list, to unarchive a discount reason, click the **...** icon, then click **Unarchive**.
 
 ## Configuring discount reasons for a discount
 
-The discount reasons configuration for a discount is in the Advanced Settings section of the discount configuration page.
+The discount reasons configuration for a discount is in the **Advanced Settings** section of the discount configuration page.
 
 You assign a list of reasons to the discount, then determine whether to prompt for and require a discount reason. If you require a discount reason, you can also require an additional comment.
 
@@ -69,41 +69,41 @@ You assign a list of reasons to the discount, then determine whether to prompt f
 
 1. Assign discount reasons to the discount.
 
-1. Click Assign Reason.
+1. Click **Assign Reason**.
 
 
-2. On the Discount Reasons list, select the check box for each reason to assign to the discount.
+2. On the **Discount Reasons** list, select the check box for each reason to assign to the discount.
 
 
-3. Click Save.
+3. Click **Save**.
 
 
 
-The selected discount reasons are displayed on the discount configuration page. To remove a discount reason from the list, click the x icon in the Un-assigncolumn.
+The selected discount reasons are displayed on the discount configuration page. To remove a discount reason from the list, click the x icon in the **Un-assign**column.
 
 ![Discount reasons configuration for a discount with selected discount reasons.](https://doc.toasttab.com/doc/media/discount-reasons-assignment.png)
 
 
-  1. Click Assign Reason.
+  1. Click **Assign Reason**.
 
 
-  2. On the Discount Reasons list, select the check box for each reason to assign to the discount.
+  2. On the **Discount Reasons** list, select the check box for each reason to assign to the discount.
 
 
-  3. Click Save.
+  3. Click **Save**.
 
 
-2. When you assign discount reasons to a discount, the Prompt discount reasons on POS check box is checked by default.
+2. When you assign discount reasons to a discount, the **Prompt discount reasons on POS** check box is checked by default.
 
-When Prompt discount reasons on POS is checked, then when the restaurant employee applies the discount, they are prompted to select one of the assigned discount reasons. To not prompt for a discount reason, uncheck the check box.
+When **Prompt discount reasons on POS** is checked, then when the restaurant employee applies the discount, they are prompted to select one of the assigned discount reasons. To not prompt for a discount reason, uncheck the check box.
 
 
-3. When you prompt for a discount reason, you can also choose whether to require a discount reason. To require the restaurant employee to select a discount reason, check the Discount reason required check box.
+3. When you prompt for a discount reason, you can also choose whether to require a discount reason. To require the restaurant employee to select a discount reason, check the **Discount reason required** check box.
 
 
 4. If you require a discount reason, then you can also require an additional comment. The comment can be used to provide more explanation of why the discount was applied.
 
-To require a comment, check the Comment required check box.
+To require a comment, check the **Comment required** check box.
 
 
 

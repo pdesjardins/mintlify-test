@@ -55,15 +55,15 @@ https://`[toast-api-hostname]`/stock/v1/inventory/update
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1511646327542" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1511646327542" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant you want to update inventory for. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1531646327542" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1531646327542" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the message body in the Content-Type header field. The value must be <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1551646327542" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1551646327542" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the array of menu items to update in the message body of the <code className="font-mono text-sm">PUT</code> request. This example <strong className="font-semibold">curl</strong>  command sends message body data from the contents of the <code className="font-mono text-sm">my-item-inventory-data.json</code> file.</p></div></td>
     </tr>
   
@@ -121,15 +121,15 @@ The following example shows a JSON message body data that provides information a
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2911646327542" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2911646327542" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This object uses a <code className="font-mono text-sm">multiLocationId</code> to identify the menu item to update and sets the menu item's stock status to <code className="font-mono text-sm">IN_STOCK</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2951646327542" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2951646327542" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This object uses a <code className="font-mono text-sm">multiLocationId</code> to identify the menu item to update. It sets the menu item's stock status to <code className="font-mono text-sm">QUANTITY</code> and specifies in the <code className="font-mono text-sm">quantity</code> value that there are five units of the menu item in stock.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2971646327542" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2971646327542" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This object uses a <code className="font-mono text-sm">guid</code> to identify the menu item to update and sets the menu item's stock status to <code className="font-mono text-sm">OUT_OF_STOCK</code>.</p></div></td>
     </tr>
   
@@ -195,23 +195,23 @@ The following example shows the JSON response data for a PUT request to the `/in
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5391724334607" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5391724334607" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Return data for a menu item whose status was set to <code className="font-mono text-sm">IN_STOCK</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5411724334607" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5411724334607" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Return data for a menu item whose status was set to <code className="font-mono text-sm">QUANTITY</code> and whose quantity was set to <code className="font-mono text-sm">5.0</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5431724334607" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5431724334607" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Return data for a menu item whose status was set to <code className="font-mono text-sm">OUT_OF_STOCK</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5451724334607" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5451724334607" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Return data for a menu item <code className="font-mono text-sm">guid</code> that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5471724334607" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5471724334607" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Return data for a menu item <code className="font-mono text-sm">multiLocationId</code> that does not have a matching menu item in the restaurant location's menu configuration. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</p></div></td>
     </tr>
   

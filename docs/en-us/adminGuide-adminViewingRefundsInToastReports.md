@@ -47,26 +47,26 @@ Refunds affect financial data in Toast reporting in the following ways:
 
 
 ****Net Sales****
-: Net Sales figures decrease by the amount of the refund.
+: **Net Sales** figures decrease by the amount of the refund.
 
-For item-level refunds, this includes both the total Net Sales and the Net Sales for sales categories, revenue centers, dining options, tax rates, discounts, service charges, service periods, and service areas.
+For item-level refunds, this includes both the total **Net Sales** and the **Net Sales** for sales categories, revenue centers, dining options, tax rates, discounts, service charges, service periods, and service areas.
 
 
 
 ****Tips****
-: Refunded credit card tips decrease the Tips field by the refunded amount.
+: Refunded credit card tips decrease the **Tips** field by the refunded amount.
 
 Refunds on gratuity service charges do not affect tip amounts in reports, because these charges are accounted for as part of the check total, not as part of the tip.
 
 
 
 ****Tax****
-: Refunded tax amounts decrease the tax. This includes both the tax amount on refunded items and taxes that are refunded using the Tax only refund type.
+: Refunded tax amounts decrease the tax. This includes both the tax amount on refunded items and taxes that are refunded using the **Tax only** refund type.
 
 
 
 ****Gratuity service charges****
-: Refunded gratuity service charges decrease the Gratuity figures.
+: Refunded gratuity service charges decrease the **Gratuity** figures.
 
 
 
@@ -176,27 +176,27 @@ Refunds are reported in the following reports.
 
 ### Sales summary
 
-In the Reports &gt; Sales &gt; Sales summary report, refunds are reported as follows:
+In the **Reports &gt; Sales &gt; Sales summary** report, refunds are reported as follows:
 
-- Non-tip refund amounts appear in the Refunds column for each payment type.
-
-
-- Refunded tip amounts are displayed in the Tips Refunded field.
+- Non-tip refund amounts appear in the **Refunds** column for each payment type.
 
 
-- The Total column is equal to the sum of the Amount and Tipscolumns, minus the Refunds column.
+- Refunded tip amounts are displayed in the **Tips Refunded** field.
+
+
+- The **Total** column is equal to the sum of the **Amount** and **Tips**columns, minus the **Refunds** column.
 
 
 
 ![Excerpt from the Reports > Sales > Sales summary report.](https://doc.toasttab.com/doc/media/refunds-payment-summary.png)
 
-A custom amount refund is shown as a unique line item in the Sales Category table, with a negative value in the Net Sales column. This ensures that the figures in this report add up to equal the total Net Sales amounts in other Toast reports.
+A custom amount refund is shown as a unique line item in the **Sales Category** table, with a negative value in the **Net Sales** column. This ensures that the figures in this report add up to equal the total Net Sales amounts in other Toast reports.
 
-Payments refunded using the custom amount refund type still appear in the Payments Summary table.
+Payments refunded using the custom amount refund type still appear in the **Payments Summary** table.
 
 ### Refunds report
 
-In the Reports &gt; Cash and loss management &gt; Refunds report, on the Refunds tab, a line is shown for each payment that was refunded.
+In the **Reports &gt; Cash and loss management &gt; Refunds** report, on the **Refunds** tab, a line is shown for each payment that was refunded.
 
 ![Entry in the Reports > Cash and loss management > Refunds report.](https://doc.toasttab.com/doc/media/refunds-sales-exceptions-refunds.png)
 
@@ -231,13 +231,13 @@ This report includes the following details:
 
 ### Accounting by day or location
 
-Toast’s configurable GL Account report can be viewed in Reports &gt; Accounts &gt; Accounting by day or Reports &gt; Accounts &gt; Accounting by location.
+Toast’s configurable GL Account report can be viewed in **Reports &gt; Accounts &gt; Accounting by day** or **Reports &gt; Accounts &gt; Accounting by location**.
 
-To configure this report, use the Reports &gt; Accounts &gt; General Ledger Accounts settings. To ensure that all financial figures are represented in the Accounting report, all entities should be mapped to a GL account code. To add a GL account code, select Add GL Account.
+To configure this report, use the **Reports &gt; Accounts &gt; General Ledger Accounts** settings. To ensure that all financial figures are represented in the **Accounting** report, all entities should be mapped to a GL account code. To add a GL account code, select **Add GL Account**.
 
 ![Add GL Account button.](https://doc.toasttab.com/doc/media/refunds-acctg-by-location-or-day-1.png)
 
-To ensure that refunds do not cause an Over/Short amount in this report, map the following entities to a manually generated GL code.
+To ensure that refunds do not cause an **Over/Short** amount in this report, map the following entities to a manually generated GL code.
 
 - Credit Card Refunds
 
@@ -253,12 +253,12 @@ Toast recommends that you create at least one GL code that is specific to refund
 
 ### Drawer history
 
-In Reports &gt; Cash and loss management &gt; Drawer history, on the Cash Drawer Historytab:
+In **Reports &gt; Cash and loss management &gt; Drawer history**, on the **Cash Drawer History**tab:
 
-- Cash refunds appear as a row under the Pay Out row. If no cash refunds are issued, this row does not appear.
+- Cash refunds appear as a row under the **Pay Out** row. If no cash refunds are issued, this row does not appear.
 
 
-- Cash refunds are subtracted from the Expected Closeout Cash on the day of the refund.
+- Cash refunds are subtracted from the **Expected Closeout Cash** on the day of the refund.
 
 
 
@@ -266,7 +266,7 @@ If a cash refund is issued on a device that is not associated with a cash drawer
 
 ### Cash activity audit
 
-On the day of the refund, each cash refund appears as an entry in Reports &gt; Cash and loss management &gt; Cash activity audit, on the Cash Activity Audit tab.
+On the day of the refund, each cash refund appears as an entry in **Reports &gt; Cash and loss management &gt; Cash activity** audit, on the **Cash Activity Audit** tab.
 
 ## Order details
 
@@ -274,10 +274,10 @@ The order details include the refunds associated with the order.
 
 To view the details for an order:
 
-1. On the home page, scroll to the Quick Action section.
+1. On the home page, scroll to the **Quick Action** section.
 
 
-2. Select Find a check & issue refund.
+2. Select **Find a check & issue refund**.
 
 
 3. [Locate the check](adminGuide-adminIssuingARefund#adminToLocateACheckInToastAdminBackend).
@@ -289,15 +289,15 @@ To view the details for an order:
 
 
 
-In the Items and Service Charges tables, if a menu item or service charge was refunded, the Refund Qty column contains the refunded quantity. The Refund column contains the amount of the refund.
+In the **Items** and **Service Charges** tables, if a menu item or service charge was refunded, the **Refund Qty** column contains the refunded quantity. The **Refund** column contains the amount of the refund.
 
-In the Payments table, the amount refunded to a payment is displayed in the Refund column.
+In the **Payments** table, the amount refunded to a payment is displayed in the **Refund** column.
 
 ![Order details page with refund values.](https://doc.toasttab.com/doc/media/refunds-order-details-2.png)
 
 ## Custom amount refunds
 
-Because custom amount refunds do not require the selection of items or service charges, they only affect the total Net Sales and Tip amounts in reports.
+Because custom amount refunds do not require the selection of items or service charges, they only affect the total **Net Sales** and **Tip** amounts in reports.
 
 Custom amount refunds do not affect the following:
 
@@ -320,7 +320,7 @@ Custom amount refunds do not affect the following:
 
 
 
-A custom refund is shown as a unique line item in the Sales Category table of the Reports &gt; Sales &gt; Sales summary report, with a negative value in the Net Sales column. This ensures that the figures in this report add up to equal the total Net Salesamounts in other Toast reports.
+A custom refund is shown as a unique line item in the **Sales Category** table of the **Reports &gt; Sales &gt; Sales summary** report, with a negative value in the **Net Sales** column. This ensures that the figures in this report add up to equal the total **Net Sales**amounts in other Toast reports.
 
 ![Sales Category table that contains an entry for custom amount refunds.](https://doc.toasttab.com/doc/media/refunds-reports-and-custom-amt-refunds.png)
 

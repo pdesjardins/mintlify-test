@@ -33,7 +33,7 @@ The bulk import tool allows you to use a comma-separated values (CSV) file to im
 3. Download the completed template as a CSV file.
 
 
-4. [Upload the CSV file](adminGuide-platformUploadingTheBulkImportCsvFile) into the Toast platform using the Bulk import tool in Toast Web.
+4. [Upload the CSV file](adminGuide-platformUploadingTheBulkImportCsvFile) into the Toast platform using the **Bulk import tool** in Toast Web.
 
 
 

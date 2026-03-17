@@ -64,12 +64,12 @@ The following procedure describes how to complete a scan-to-pay transaction usin
 
 **Procedure 10.16. To complete a transaction with a scan-to-pay QR code**
 
-1. On the Toast POS app payment terminal screen, select Other payments from the payment types on the right side of the screen. The Select alternate payment type dialog appears. You may need to scroll down to locate the Other paymentsbutton.
+1. On the Toast POS app payment terminal screen, select **Other payments** from the payment types on the right side of the screen. The **Select alternate payment type** dialog appears. You may need to scroll down to locate the **Other payments**button.
 
 ![Payment terminal screen with "Other payments" emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_otherpaymentsbutton.png)
 
 
-2. Select your scan-to-pay QR code payment type and then select Done. The name of your payment type may differ from the example below. 
+2. Select your scan-to-pay QR code payment type and then select **Done**. The name of your payment type may differ from the example below. 
 
 ![The "Select alternate payment type" dialog with the "Scan QR code" button emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_SelectQRCode.png)
 
@@ -89,23 +89,23 @@ The following procedure describes how to process a transaction using a guest’s
 
 **Procedure 10.17. To complete a transaction with a unique guest identifier**
 
-1. On the Toast POS app payment terminal screen, select Other payments from the available payment types on the right side of the screen. The Select alternate payment type dialog appears. You may need to scroll down to locate the Other paymentsbutton. 
+1. On the Toast POS app payment terminal screen, select **Other payments** from the available payment types on the right side of the screen. The **Select alternate payment type** dialog appears. You may need to scroll down to locate the **Other payments**button. 
 
 ![Payment terminal screen with "Other payments" emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_otherpaymentsbutton.png)
 
 
-2. Select your scan-to-pay guest identifier payment type and then select Done. The name of your payment type may differ from the example below. 
+2. Select your scan-to-pay guest identifier payment type and then select **Done**. The name of your payment type may differ from the example below. 
 
 ![Alternate payment type screen with "Guest ID" emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_selectGuestId.png)
 
 
-3. Enter your guest’s unique identifier and select Use Code.
+3. Enter your guest’s unique identifier and select **Use Code**.
 
 
 
 > **Note**
 > 
-> You may select Scan With Camera to continue the payment process by scanning the guest’s QR code if available.
+> You may select **Scan With Camera** to continue the payment process by scanning the guest’s QR code if available.
 
 
 !["Enter code" dialog with "Use code" button emphasized.](https://doc.toasttab.com/doc/media/hot_scan_to_pay_enterGuestId.png)

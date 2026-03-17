@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can create discounts that automatically apply to a check when a restaurant employee saves items (with the Send, Stay, Hold, or Pay buttons) or prints a receipt.
+You can create discounts that automatically apply to a check when a restaurant employee saves items (with the **Send**, **Stay**, **Hold**, or **Pay** buttons) or prints a receipt.
 
 An auto-apply discount is applied if the items on the check match the selection criteria of the discount, without any action from a restaurant employee.
 
@@ -40,7 +40,7 @@ You can configure these discount types to be auto-apply discounts:
 
 You cannot add the auto-apply feature to any discount that has any of the following configurations, which require server or manager intervention to apply the discount:
 
-- Manager permissions level. Auto-apply discounts must have an Any User permissions level.
+- **Manager** permissions level. Auto-apply discounts must have an **Any User** permissions level.
 
 
 - Assigned discount reasons
@@ -52,7 +52,7 @@ You cannot add the auto-apply feature to any discount that has any of the follow
 
 ## Configuring a discount to be auto-applied
 
-For eligible discounts, the Advanced settings section of the discount configuration page includes an Auto apply discount setting that allows you to specify whether to automatically apply the discount.
+For eligible discounts, the **Advanced settings** section of the discount configuration page includes an **Auto apply discount** setting that allows you to specify whether to automatically apply the discount.
 
 ![The Auto apply discount setting in the Advanced Settings section of the discount configuration page.](https://doc.toasttab.com/doc/media/discount-auto-apply.png)
 
@@ -84,7 +84,7 @@ You cannot limit the number of times the discount is auto-applied to a check.
 
 
 ****Effect of sending a check****
-: When a restaurant employee sends a check (by pressing Pay, Send, or Stay), all auto-applied discounts are removed from the check and then re-applied.
+: When a restaurant employee sends a check (by pressing **Pay**, **Send**, or **Stay**), all auto-applied discounts are removed from the check and then re-applied.
 
 This refresh ensures that the discounts are applied to the correct items on the check, including items added after the discount was first auto-applied.
 
@@ -98,27 +98,27 @@ Manually-applied discounts are never removed.
 
 You can control the sequence in which to auto-apply discounts.
 
-The discounts are auto-applied to a check based on the display sequence on the Discounts page.
+The discounts are auto-applied to a check based on the display sequence on the **Discounts** page.
 
-On the Discounts page, the Order button allows you to define the display sequence of your discounts on the page:
+On the **Discounts** page, the **Order** button allows you to define the display sequence of your discounts on the page:
 
 ![Order button on the Discounts page.](https://doc.toasttab.com/doc/media/discount-auto-apply-order.png)
 
 **Procedure 9.13. To configure the application sequence for auto-applied discounts**
 
-1. Click the Order button.
+1. Click the **Order** button.
 
-An Order column is added to the front of the list. If you previously configured the sequence, then the current sequence values are displayed. Discounts that do not have a configured sequence number are at the bottom of the list, and have an empty value for Order.
+An **Order** column is added to the front of the list. If you previously configured the sequence, then the current sequence values are displayed. Discounts that do not have a configured sequence number are at the bottom of the list, and have an empty value for **Order**.
 
 ![Order column on the Discounts page.](https://doc.toasttab.com/doc/media/discount-list-order-column.png)
 
 
-2. In the Order column, update the sequence numbers to reflect the sequence in which to apply auto-applied discounts.
+2. In the **Order** column, update the sequence numbers to reflect the sequence in which to apply auto-applied discounts.
 
 As you edit the sequence numbers, the discount rows are moved to reflect the new sequence.
 
 
-3. When you are finished, to hide the Order column, click the Order button.
+3. When you are finished, to hide the **Order** column, click the **Order** button.
 
 
 
@@ -126,7 +126,7 @@ As you edit the sequence numbers, the discount rows are moved to reflect the new
 
 As an example of how a discount is automatically applied to a check, assume you have a BOGO auto-apply discount named *BOGO*. The discount has a buy item of one avocado toast and a get item of one soda at a 25% discount.
 
-When those two items are on the check, and you tap the Stay button, the BOGO discount is automatically applied to the Soda item, as shown in this example:
+When those two items are on the check, and you tap the **Stay** button, the BOGO discount is automatically applied to the Soda item, as shown in this example:
 
 ![Toast POS screen showing a BOGO discount that is auto-applied to an order of avocado toast and a soda.](https://doc.toasttab.com/doc/media/discount-auto-apply-example.png)
 

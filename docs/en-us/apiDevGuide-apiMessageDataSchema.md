@@ -22,12 +22,12 @@ Regardless of the event category, the data in the message that is published to y
 
 ```
 {
-    "timestamp": “`\<ISO formatted timestamp in UTC\>`”,
-    "eventCategory": "`\<eventCategory\>`",
-    "eventType": "`\<eventType\>`",
-    "guid": "`\<eventGuid\>`",
+    "timestamp": “`<ISO formatted timestamp in UTC>`”,
+    "eventCategory": "`<eventCategory>`",
+    "eventType": "`<eventType>`",
+    "guid": "`<eventGuid>`",
     "details": {
-        `\<eventType specific payload\>`
+        `<eventType specific payload>`
   }
 }
 ```

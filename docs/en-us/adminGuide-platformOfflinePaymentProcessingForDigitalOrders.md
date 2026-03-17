@@ -31,22 +31,22 @@ You can review the status of your guest credit card payments in the Toast Web.
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Reports to open the Reports page.
+2. Choose **Reports** to open the **Reports** page.
 
 
-3. Select the Payments drop-down.
+3. Select the **Payments** drop-down.
 
 
-4. Select Payments.
+4. Select **Payments**.
 
 
-5. In the date filter, select Custom Date to enter the intended date range.
+5. In the date filter, select **Custom Date** to enter the intended date range.
 
 
-6. Select the Update button.
+6. Select the **Update** button.
 
 
-7. Use the Show/Hide columns dropdown and then select Status. This shows the credit card payment status for the orders in the date range.
+7. Use the **Show/Hide** columns dropdown and then select **Status**. This shows the credit card payment status for the orders in the date range.
 
 
 

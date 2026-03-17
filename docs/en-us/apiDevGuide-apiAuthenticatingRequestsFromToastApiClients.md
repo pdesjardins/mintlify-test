@@ -38,7 +38,7 @@ Authorization: c75a2aa085d30a90308841d388fc7828f1a28e29bdd2c82150a30cf356d4d87f
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e46506D541D-DE75-41D1-8E80-09960B9A3502" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e46506D541D-DE75-41D1-8E80-09960B9A3502" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The string value of the HTTP header <code className="font-mono text-sm">Authorization</code> field is the static API key that you supply to Toast when you implement your integration. For more information, see <a href="apiDevGuide-apiAuthenticatingRequestsFromToastApiClients#apiUsingStaticApiKeys" className="">Using static API keys</a>.</p></div></td>
     </tr>
   

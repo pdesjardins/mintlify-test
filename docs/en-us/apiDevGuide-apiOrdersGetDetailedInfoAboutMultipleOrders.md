@@ -110,23 +110,23 @@ pageSize=10&page=2"
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e91E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e93E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the restaurant that created the orders. This must be the GUID of an individual restaurant. It cannot be the GUID of a restaurant group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e98E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the <code className="font-mono text-sm">/ordersBulk</code> endpoint of the orders API.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e100E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">To specify a period of time to return orders for, use the <em className=""><code className="font-mono text-sm">startDate</code></em>  and <em className=""><code className="font-mono text-sm">endDate</code></em>  query parameters.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e103E21797AD-1776-4ECD-AC81-2F50EFAA6320" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In the <code className="font-mono text-sm">pageSize</code> query parameter, specify the maximum number of objects to include in the response. In the <code className="font-mono text-sm">page</code> query parameter, specify the sequence number of the set of objects to return. For more information, see <a href="apiDevGuide-apiResponseDataPagination" className="">Paginating response data</a>.</p></div></td>
     </tr>
 ## Example response data containing multiple orders
@@ -306,23 +306,23 @@ The following example shows the response data from the `/ordersBulk` endpoint. I
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21648C855F0-89F9-4824-A080-F12BBC4F767E" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The first <code className="font-mono text-sm">Order</code> object in the array provides detailed information about a single order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiOrdersBulkDeliveryInfo" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiOrdersBulkDeliveryInfo" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">deliveryInfo</code> JSON value is only populated if your Toast API client has the <code className="font-mono text-sm">delivery_info.address:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiOrdersBulkCurbsideInfo" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiOrdersBulkCurbsideInfo" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">curbsidePickupInfo</code> JSON value is only populated if your Toast API client has the <code className="font-mono text-sm">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiOrdersBulkCustomer" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiOrdersBulkCustomer" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">customer</code> JSON value is only populated if your Toast API client has the <code className="font-mono text-sm">guest.pi:read</code> scope. For more information about scopes, see <a href="apiDevGuide-apiScopes" className="">Scopes</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21848C855F0-89F9-4824-A080-F12BBC4F767E" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Each subsequent <code className="font-mono text-sm">Order</code> object in the array provides detailed information about a different order.</p></div></td>
     </tr>
 ## Example response data pagination header fields
@@ -331,13 +331,13 @@ The following example shows the header fields that provide response data paginat
 
 
 ```
-link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &startDate=2020-03-30T20%3A00%3A00.000Z&pageSize=1>; rel="first"
-link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &startDate=2020-03-30T20%3A00%3A00.000Z&pageSize=1&page=3>; rel="self"
-link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
   &pageSize=1&page=2&startDate=2020-03-30T20%3A00%3A00.000Z>; rel="prev"
-link: \<https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
-  &pageSize=1&page=4&startDate=2020-03-30T20%3A00%3A00.000Z\>; rel="next"
+link: <https://`[hostname]`/orders/v2/ordersBulk?endDate=2020-03-30T21%3A00%3A00.000Z
+  &pageSize=1&page=4&startDate=2020-03-30T20%3A00%3A00.000Z>; rel="next"
 ```
 

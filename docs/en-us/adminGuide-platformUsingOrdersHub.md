@@ -37,21 +37,21 @@ An order status is assigned to an order as it progresses through Orders Hub. The
 
 ### Needs approval
 
-The Needs Approval tab displays orders that need to be manually approved before they can be fulfilled. If you have enabled [manual approval mode](https://central.toasttab.com/s/article/Approving-Online-Orders-Manually-14928108550801) for online orders, then orders submitted through your Toast Online Ordering website or through the Local by Toast app are listed in the Needs Approval tab. Orders submitted through third-party online ordering channels are automatically approved and will not appear in the Needs Approval tab. Orders Hub purges orders in the Needs Approval tab at the end of the business day.
+The **Needs Approval** tab displays orders that need to be manually approved before they can be fulfilled. If you have enabled [manual approval mode](https://central.toasttab.com/s/article/Approving-Online-Orders-Manually-14928108550801) for online orders, then orders submitted through your Toast Online Ordering website or through the Local by Toast app are listed in the **Needs Approval** tab. Orders submitted through third-party online ordering channels are automatically approved and will not appear in the **Needs Approval **tab. Orders Hub purges orders in the **Needs Approval** tab at the end of the business day.
 
 You are notified of orders that are awaiting approval by:
 
 - An auditory noise.
 
 
-- A blue notification dot that appears in the Needs Approval tab. The number of orders that are awaiting approval is displayed.
+- A blue notification dot that appears in the **Needs Approval** tab. The number of orders that are awaiting approval is displayed.
 
 
 - A notification bell icon that appears to the left of the screen.
 
 
 
-Each order entry in the Needs Approval tab displays the following information:
+Each order entry in the **Needs Approval** tab displays the following information:
 
 - Check number.
 
@@ -75,7 +75,7 @@ Each order entry in the Needs Approval tab displays the following information:
 
 
 
-Selecting a Needs Approval order entry displays detailed order information. The following information is available:
+Selecting a **Needs Approval** order entry displays detailed order information. The following information is available:
 
 - Check number.
 
@@ -120,10 +120,10 @@ Selecting a Needs Approval order entry displays detailed order information. The 
 
 In the detailed order information view, the following actions are available:
 
-- Print: This prints order information to the device’s assigned receipt printer. The Print button is not available for orders placed using online ordering channels.
+- **Print**: This prints order information to the device’s assigned receipt printer. The **Print **button is not available for orders placed using online ordering channels.
 
 
-- Update: Update or edit an order on the Quick Order screen. The Update button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
+- **Update**: Update or edit an order on the **Quick Order **screen. The **Update** button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
 
 
 
@@ -133,18 +133,18 @@ In the detailed order information view, the following actions are available:
 
 
 
-- Approve: Approves the order and moves it to either the Scheduled tab or Active tab depending on the requested fulfillment time.
+- **Approve**: Approves the order and moves it to either the **Scheduled** tab or **Active** tab depending on the requested fulfillment time.
 
 
-- Pay $: This opens the payment screen. The Pay $ button is only active when the guest has not paid for their order yet. An unpaid order can appear in the Needs Approval tab if a restaurant has set the option to [accept cash payments for online orders](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#payment) and has enabled manual approval mode for orders. When the guest comes to pick up their order, they can pay in cash when they arrive at the restaurant.
+- **Pay $**: This opens the payment screen. The **Pay $** button is only active when the guest has not paid for their order yet. An unpaid order can appear in the **Needs Approval** tab if a restaurant has set the option to [accept cash payments for online orders](https://central.toasttab.com/s/article/Getting-Started-Online-Ordering#payment) and has enabled manual approval mode for orders. When the guest comes to pick up their order, they can pay in cash when they arrive at the restaurant.
 
 
 
 ### Scheduled
 
-The Scheduled tab displays orders that are scheduled to be fulfilled at a future date and time. An order whose requested fulfillment time is later than the current order quote time is considered a future order and is displayed under the Scheduled tab. Orders in the Scheduled tab are not purged until they are fired or canceled.
+The **Scheduled** tab displays orders that are scheduled to be fulfilled at a future date and time. An order whose requested fulfillment time is later than the current order quote time is considered a future order and is displayed under the **Scheduled** tab. Orders in the **Scheduled** tab are not purged until they are fired or canceled.
 
-A Scheduled order moves to the Active tab only if both of the following conditions are satisfied:
+A **Scheduled** order moves to the **Active** tab only if both of the following conditions are satisfied:
 
 - A Toast POS device is configured to Autofire.
 
@@ -153,7 +153,7 @@ A Scheduled order moves to the Active tab only if both of the following conditio
 
 
 
-Each order entry in the Scheduled tab displays the following information:
+Each order entry in the **Scheduled** tab displays the following information:
 
 - Check number.
 
@@ -220,7 +220,7 @@ The scheduled firing time displayed is dynamic, meaning it changes as the order 
 
 
 
-Selecting a Scheduled order entry displays detailed order information. The following information is available:
+Selecting a **Scheduled** order entry displays detailed order information. The following information is available:
 
 - Check number.
 
@@ -258,10 +258,10 @@ Selecting a Scheduled order entry displays detailed order information. The follo
 
 In the detailed order information view, certain actions are available. Available actions may vary depending on the fulfillment type.
 
-- Print: This prints order information to the device’s assigned receipt printer.
+- **Print**: This prints order information to the device’s assigned receipt printer.
 
 
-- Update: Update or edit an order on the Quick Order screen. The Update button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration. Any updates made to the order are sent to the kitchen. The order appears in the Scheduledtab until it is ready for fulfillment.
+- **Update**: Update or edit an order on the **Quick Order** screen. The **Update** button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration. Any updates made to the order are sent to the kitchen. The order appears in the **Scheduled**tab until it is ready for fulfillment.
 
 
 
@@ -271,25 +271,25 @@ In the detailed order information view, certain actions are available. Available
 
 
 
-- Schedule: Update scheduled orders. The Schedule button appears differently based on whether or not the order has been paid. If the order has been paid, the button is labeled Schedule. If the order has not been paid, the Schedule button is displayed as a calendar icon with no text. Both buttons open the Set Preparation Time modal.
+- **Schedule**: Update scheduled orders. The **Schedule** button appears differently based on whether or not the order has been paid. If the order has been paid, the button is labeled **Schedule**. If the order has not been paid, the **Schedule** button is displayed as a calendar icon with no text. Both buttons open the **Set Preparation Time** modal.
 
-The Schedule button opens the Set Preparation Time modal. Select your new preparation (prep) date and time. The prep time is defaulted to the setting in Toast Web. To update the prep time, select the new time in days, hours, and/or minutes. Select the Next button to go to the Date screen. If the prep time changed, the Date screen displays the new prep time and when the order will be ready. On the Date screen, select a new date or schedule the order for ASAP fulfillment. To save your changes, select the Selectbutton. To close the modal, select Cancel.
+The **Schedule** button opens the **Set Preparation Time** modal. Select your new preparation (prep) date and time. The prep time is defaulted to the setting in Toast Web. To update the prep time, select the new time in days, hours, and/or minutes. Select the **Next** button to go to the Date screen. If the prep time changed, the Date screen displays the new prep time and when the order will be ready. On the Date screen, select a new date or schedule the order for ASAP fulfillment. To save your changes, select the **Select**button. To close the modal, select **Cancel**.
 
 After the order is updated, a notification appears at the bottom of the screen stating that the order has been updated.
 
 
-- Fire Now: Fire an approved order to the kitchen immediately instead of firing it closer to the fulfillment time. For more information, see [this Toast Central article](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407).
+- **Fire Now**: Fire an approved order to the kitchen immediately instead of firing it closer to the fulfillment time. For more information, see [this Toast Central article](https://central.toasttab.com/s/article/How-do-I-ensure-scheduled-orders-and-online-orders-fire-automatically-to-the-kitchen-1492811100407).
 
 
-- Pay $: The Pay $button is only active if the guest has not paid for their order yet.
+- **Pay $**: The **Pay $**button is only active if the guest has not paid for their order yet.
 
 
 
 ### Active
 
-When you open the Orders Hub screen, the Active tab is the default view. The Active tab displays orders that are currently being prepared. To mark an Active order as Order Ready, select the Order Ready button. Orders Hub purges orders in the Active tab at the end of the business day.
+When you open the Orders Hub screen, the **Active** tab is the default view. The **Active** tab displays orders that are currently being prepared. To mark an **Active** order as **Order Ready**, select the **Order Ready** button. Orders Hub purges orders in the **Active** tab at the end of the business day.
 
-Each order entry in the Active tab displays the following information:
+Each order entry in the **Active** tab displays the following information:
 
 - Check number.
 
@@ -316,7 +316,7 @@ Each order entry in the Active tab displays the following information:
 
 
 
-Selecting an Active order entry displays detailed order information. The following information is available:
+Selecting an **Active** order entry displays detailed order information. The following information is available:
 
 - Check number.
 
@@ -360,10 +360,10 @@ Selecting an Active order entry displays detailed order information. The followi
 
 In the detailed order information view, actions are available. Available actions may vary depending on the fulfillment type.
 
-- Print: This prints order information to the device’s assigned receipt printer.
+- **Print**: This prints order information to the device’s assigned receipt printer.
 
 
-- Update: Update or edit an order on the Quick Order screen. The Update button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
+- **Update**: Update or edit an order on the **Quick Order** screen. The **Update** button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
 
 
 
@@ -373,21 +373,21 @@ In the detailed order information view, actions are available. Available actions
 
 
 
-- Pay $: This opens the payment screen. The Pay $ button is only active when the guest has not paid for their order yet.
+- **Pay $**: This opens the payment screen. The **Pay $** button is only active when the guest has not paid for their order yet.
 
 
-- Order Ready: This signals that the order is ready for pick up or delivery and moves the order to the Order Ready tab. If order ready messaging is enabled, selecting the Order Ready button triggers Orders Hub to send a text message to the phone number associated with the order notifying them that their order is ready for pick up. Order ready messaging can be configured in Toast Web. If an order has been updated and moved back to the Active tab for fulfillment, once the order is marked as Order Ready, this triggers Orders Hub to send another text message.
+- **Order Ready**: This signals that the order is ready for pick up or delivery and moves the order to the **Order Ready** tab. If order ready messaging is enabled, selecting the **Order Ready** button triggers Orders Hub to send a text message to the phone number associated with the order notifying them that their order is ready for pick up. Order ready messaging can be configured in Toast Web. If an order has been updated and moved back to the **Active** tab for fulfillment, once the order is marked as **Order Ready,** this triggers Orders Hub to send another text message.
 
 
-- Redispatch: This requests a new delivery person to deliver this order. The button is active as long as the order has not already been redispatched. The button can only be pressed once.
+- **Redispatch**: This requests a new delivery person to deliver this order. The button is active as long as the order has not already been redispatched. The button can only be pressed once.
 
 
 
 ### Order ready
 
-The Order Ready tab displays orders that are ready for pickup or delivery. To complete an order, select the Complete button to move it to the Completed tab. Orders Hub purges orders in the Order Ready tab at the end of the business day.
+The **Order Ready** tab displays orders that are ready for pickup or delivery. To complete an order, select the **Complete** button to move it to the **Completed** tab. Orders Hub purges orders in the **Order Ready** tab at the end of the business day.
 
-Each order entry in the Order Ready tab displays the following information:
+Each order entry in the **Order Ready **tab displays the following information:
 
 - Check number.
 
@@ -414,7 +414,7 @@ Each order entry in the Order Ready tab displays the following information:
 
 
 
-Selecting an Order Ready order entry displays detailed order information. The following information is available:
+Selecting an **Order Ready** order entry displays detailed order information. The following information is available:
 
 - Check number.
 
@@ -458,10 +458,10 @@ Selecting an Order Ready order entry displays detailed order information. The fo
 
 In the detailed order information view, the following actions are available:
 
-- Print: This prints order information to the device’s assigned receipt printer.
+- **Print**: This prints order information to the device’s assigned receipt printer.
 
 
-- Update: Update or edit an order on the Quick Order screen. The Update button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
+- **Update**: Update or edit an order on the **Quick Order** screen. The **Update** button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
 
 
 
@@ -471,21 +471,21 @@ In the detailed order information view, the following actions are available:
 
 
 
-- Pay $: This opens the payment screen. The Pay $ button is only active when the guest has not paid for their order yet.
+- **Pay $**: This opens the payment screen. The **Pay $ **button is only active when the guest has not paid for their order yet.
 
 
-- Redispatch: This requests a new delivery person to deliver this order. The button is active as long as the order has not already been redispatched. The button can only be pressed once.
+- **Redispatch**: This requests a new delivery person to deliver this order. The button is active as long as the order has not already been redispatched. The button can only be pressed once.
 
 
-- Complete: This moves the order to the Completed tab. The Complete button is only active when the guest has paid for their order. If the guest hasn’t paid for their order yet, the button is inactive.
+- **Complete**: This moves the order to the **Completed **tab. The **Complete **button is only active when the guest has paid for their order. If the guest hasn’t paid for their order yet, the button is inactive.
 
 
 
 ### Completed
 
-The Completed tab displays orders that have been completed. When an order is marked as Completed, guests can pick up their takeout order, or drivers can collect orders for delivery. To mark an order as Completed, select the Complete button in the order detail view. The order moves to the Completed tab. Orders Hub purges orders in the Completed tab at the end of the day.
+The **Completed** tab displays orders that have been completed. When an order is marked as **Completed**, guests can pick up their takeout order, or drivers can collect orders for delivery. To mark an order as **Completed**, select the **Complete** button in the order detail view. The order moves to the **Completed** tab. Orders Hub purges orders in the **Completed** tab at the end of the day.
 
-Each order entry in the Completed tab displays the following information:
+Each order entry in the **Completed **tab displays the following information:
 
 - Check number.
 
@@ -512,7 +512,7 @@ Each order entry in the Completed tab displays the following information:
 
 
 
-Selecting a Completed order entry displays detailed order information. The following information is available:
+Selecting a **Completed** order entry displays detailed order information. The following information is available:
 
 - Check number.
 
@@ -556,10 +556,10 @@ Selecting a Completed order entry displays detailed order information. The follo
 
 In the detailed order information view, the following actions are available:
 
-- Print: This prints order information to the device’s assigned receipt printer.
+- **Print**: This prints order information to the device’s assigned receipt printer.
 
 
-- Update: Update or edit an order on the Quick Order screen. The Update button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
+- **Update**: Update or edit an order on the **Quick Order** screen. The **Update** button is only available for orders placed on your restaurant’s Toast Online Ordering website, on the Toast POS app, or through a third-party online ordering integration.
 
 
 
@@ -569,7 +569,7 @@ In the detailed order information view, the following actions are available:
 
 
 
-- Reopen: This reopens the order and moves it to the Active tab. Reopened orders that are marked as Order Ready trigger another text message.
+- **Reopen**: This reopens the order and moves it to the **Active** tab. Reopened orders that are marked as **Order Ready** trigger another text message.
 
 
 
@@ -579,7 +579,7 @@ In the detailed order information view, the following actions are available:
 
 > **Note**
 > 
-> Dining options and behaviors can be configured on the Kitchen &gt; Dining options &gt; Dining optionspage in Toast Web.
+> Dining options and behaviors can be configured on the **Kitchen &gt; Dining options &gt; Dining options**page in Toast Web.
 
 
 You can filter orders by the following options:
@@ -614,7 +614,7 @@ You can filter orders by the following options:
 - Unassigned (no dining option set)
 
 
-- No behavior (dining behavior is set to None)
+- No behavior (dining behavior is set to **None**)
 
 
 
@@ -647,32 +647,32 @@ You can filter orders by the following options:
 1. Navigate to any Orders Hub tab.
 
 
-2. Select the Filter button. This opens the Filter panel.
+2. Select the **Filter** button. This opens the **Filter** panel.
 
 
 3. Select your filters. Multiple filters can be selected. A check mark appears next to each selected filter.
 
 
-4. As you select your filters, labels appear on the screen and Orders Hub displays a list of orders that match your filters and order status. To close the Filter panel, select outside the panel or the X at the top right of the panel.
+4. As you select your filters, labels appear on the screen and Orders Hub displays a list of orders that match your filters and order status. To close the **Filter** panel, select outside the panel or the X at the top right of the panel.
 
-To remove a filter, you can either close the filter label or uncheck the filter in the Filter panel so that is no longer selected.
+To remove a filter, you can either close the filter label or uncheck the filter in the **Filter** panel so that is no longer selected.
 
 
 
 **Procedure 3.4. To filter orders by date**
 
-1. Navigate to the Needs Approval or Scheduled tab.
+1. Navigate to the **Needs Approval** or **Scheduled** tab.
 
 
-2. Select the Filter button. This opens the Filter panel.
+2. Select the **Filter** button. This opens the **Filter** panel.
 
 
-3. Navigate to the Order date filter and select date filters. Only one date filter can be selected.
+3. Navigate to the **Order date** filter and select date filters. Only one date filter can be selected.
 
 
-4. As you select your filters, labels appear on the screen and Orders Hub displays a list of orders that match your filters and order status. To close the Filter panel, select outside the panel or the X at the top right of the panel.
+4. As you select your filters, labels appear on the screen and Orders Hub displays a list of orders that match your filters and order status. To close the **Filter** panel, select outside the panel or the X at the top right of the panel.
 
-If you choose the Custom filter, a date picker appears. Select the date range and then select the Apply button to apply the custom filter or select the Cancel button to close the date picker. A label with the custom date range appears on the screen and Orders Hub displays a list of orders that match your filters and order status.
+If you choose the **Custom** filter, a date picker appears. Select the date range and then select the **Apply** button to apply the custom filter or select the **Cancel** button to close the date picker. A label with the custom date range appears on the screen and Orders Hub displays a list of orders that match your filters and order status.
 
 
 
@@ -733,36 +733,36 @@ To sort orders, select the dual arrows icon. A menu appears specifying sorting c
 
 You can use the multi-select feature to select multiple orders and then complete various actions or move them to the next Orders Hub status. Using the multi-select feature, you can perform the following bulk actions:
 
-- Select all: This selects all the orders under the current Orders Hub tab.
+- **Select all**: This selects all the orders under the current Orders Hub tab.
 
 
-- Deselect all: This deselects all selected orders.
+- **Deselect all**: This deselects all selected orders.
 
 
-- Print: This prints order information to the device’s assigned receipt printer.
+- **Print**: This prints order information to the device’s assigned receipt printer.
 
 
-- Print to kitchen: This prints tickets to the kitchen printer without firing the orders.
+- **Print to kitchen**: This prints tickets to the kitchen printer without firing the orders.
 
 
-- Reprint to kitchen: This reprints tickets to the kitchen printer without firing the orders. This button only appears if you have exited and re-entered the multi-select panel.
+- **Reprint to kitchen**: This reprints tickets to the kitchen printer without firing the orders. This button only appears if you have exited and re-entered the multi-select panel.
 
 
-- Move orders to the next status: This button name is dynamic and changes depending on which Orders Hub tab you are currently on. For example, if you are on the Active tab, the name of the button is “Order Ready”. If you select the Order Ready button, Active orders move to the Order Ready tab.
+- **Move orders to the next status**: This button name is dynamic and changes depending on which Orders Hub tab you are currently on. For example, if you are on the **Active** tab, the name of the button is “Order Ready”. If you select the **Order Ready** button, **Active** orders move to the **Order Ready** tab.
 
-- Approve: This button is available on the Needs Approval tab. This action approves orders that need to be manually approved before they can be fulfilled.
-
-
-- Fire now: This button is available on the Scheduled tab. This action fires tickets to the kitchen.
+- **Approve**: This button is available on the **Needs Approval** tab. This action approves orders that need to be manually approved before they can be fulfilled.
 
 
-- Order Ready: This button is available on the Active tab. This action moves Active orders to the Order Ready tab.
+- **Fire now**: This button is available on the **Scheduled** tab. This action fires tickets to the kitchen.
 
 
-- Mark as Complete: This button is available on the Order Ready tab. This action marks the Order Ready orders as completed.
+- **Order Ready**: This button is available on the **Active** tab. This action moves **Active** orders to the **Order Ready** tab.
 
 
-- Reopen: This button is available on the Order Ready tab. This action reopens the orders and moves them back to the Active tab.
+- **Mark as Complete**: This button is available on the **Order Ready** tab. This action marks the **Order Ready** orders as completed.
+
+
+- **Reopen**: This button is available on the **Order Ready** tab. This action reopens the orders and moves them back to the **Active** tab.
 
 
 
@@ -813,39 +813,39 @@ You can use the multi-select feature to select multiple orders and then complete
 
 Item(s) and order(s) can be voided in Orders Hub. To void an item(s) or an order:
 
-Select the Update button on the order entry. This opens the Quick Order screen.
+Select the **Update **button on the order entry. This opens the **Quick Order** screen.
 
 ### Unpaid order
 
-- Voiding an item(s) crosses out the item(s) on the order entry. The unpaid order remains in the Active tab.
+- Voiding an item(s) crosses out the item(s) on the order entry. The unpaid order remains in the **Active **tab.
 
 
-- Voiding an unpaid order removes it from the Orders Hub screen. To void an unpaid order, select the Update button and then navigate to the overflow menu at the top right on the Quick Order screen. Select Void Order and select the reason for the void. The order is removed from the Orders Hub screen.
+- Voiding an unpaid order removes it from the Orders Hub screen. To void an unpaid order, select the **Update** button and then navigate to the overflow menu at the top right on the Quick Order screen. Select **Void Order** and select the reason for the void. The order is removed from the Orders Hub screen.
 
 
 
 ### Paid order
 
-- Voiding an item(s) crosses out the item(s) on the order entry. The paid order remains in the Activetab. On the detailed information view, the Pay $ button displays the negative amount due back to the guest. A dialog box appears prompting you to dismiss the error, edit the order to pay the amount to the guest, or update the order.
+- Voiding an item(s) crosses out the item(s) on the order entry. The paid order remains in the **Active**tab. On the detailed information view, the **Pay $** button displays the negative amount due back to the guest. A dialog box appears prompting you to dismiss the error, edit the order to pay the amount to the guest, or update the order.
 
 
-- Voiding a paid order removes it from the Orders Hub screen. To void a paid order, select the Updatebutton and then navigate to the overflow menu at the top right on the Quick Order screen. Select Void Order and void the payment. Select and confirm the amount to be voided. Reopen Orders Hub and select the Updatebutton to void the order. The order is removed from the Orders Hub screen.
+- Voiding a paid order removes it from the Orders Hub screen. To void a paid order, select the **Update**button and then navigate to the overflow menu at the top right on the Quick Order screen. Select **Void Order** and void the payment. Select and confirm the amount to be voided. Reopen Orders Hub and select the **Update**button to void the order. The order is removed from the Orders Hub screen.
 
 
 
 ### Single item order
 
-For orders that only contain one item, void the order instead of the item. Voiding the order instead of the single item removes the order from the Orders Hub screen. If you void the item, the order remains in the Active tab on the Orders Hub screen. The order will remain until an action is taken. Available actions are: Print, Update or Complete.
+For orders that only contain one item, void the order instead of the item. Voiding the order instead of the single item removes the order from the Orders Hub screen. If you void the item, the order remains in the **Active** tab on the Orders Hub screen. The order will remain until an action is taken. Available actions are: Print, Update or Complete.
 
 ## Marking KDS-fulfilled orders as Order Ready
 
-You can choose to have orders fulfilled by the Kitchen Display System (KDS) automatically marked as Order Ready in Orders Hub. On the [Order Ready Board](https://central.toasttab.com/s/article/Order-Ready-Board-Overview-Configuration), this moves orders from the In Progress column to the Order Readycolumn.
+You can choose to have orders fulfilled by the Kitchen Display System (KDS) automatically marked as **Order Ready** in Orders Hub. On the [Order Ready Board](https://central.toasttab.com/s/article/Order-Ready-Board-Overview-Configuration), this moves orders from the **In Progress** column to the **Order Ready**column.
 
 
 
 > **Important**
 > 
-> Orders are marked as Order Ready in Orders Hub when all the tickets in an order are fulfilled at the expediter level on an expediter KDS device. If Two-Level Fulfillment is enabled, this happens on the KDS device set as the second expediter KDS device.
+> Orders are marked as **Order Ready** in Orders Hub when all the tickets in an order are fulfilled at the expediter level on an expediter KDS device. If **Two-Level Fulfillment** is enabled, this happens on the KDS device set as the second expediter KDS device.
 
 
 **Procedure 3.6. To enable the KDS configuration**
@@ -853,13 +853,13 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Orders Hub &gt; Order ready guest messaging to open the Kitchen Display System (KDS) configuration page. To turn on the KDS configuration, toggle the setting from Offto On.
+2. Choose **Takeout & delivery &gt; Orders Hub &gt; Order ready guest messaging** to open the **Kitchen Display System (KDS)** configuration page. To turn on the KDS configuration, toggle the setting from **Off**to **On**.
 
 
-3. Select the Save button and then Publish all changes button. The Confirm Publish dialog box appears.
+3. Select the **Save** button and then **Publish all changes** button. The **Confirm Publish** dialog box appears.
 
 
-4. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box. To turn off the KDS configuration, toggle the switch from the On to the Offsetting and then save and publish your changes.
+4. Select the **Publish **button to publish your changes or the **Cancel **button to cancel the dialog box. To turn off the KDS configuration, toggle the switch from the **On** to the **Off**setting and then save and publish your changes.
 
 
 
@@ -869,10 +869,10 @@ You can choose to have orders fulfilled by the Kitchen Display System (KDS) auto
 
 > **Note**
 > 
-> To use the Orders Hub order ready messaging feature, you must have the 6.6 Restaurant Operations Setuppermission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobspage. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+> To use the Orders Hub order ready messaging feature, you must have the **6.6 Restaurant Operations Setup**permission. From Toast Web, choose **Employees &gt; Employee management &gt; Jobs** to open the **Jobs**page. Select the job title to edit the permissions. For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
 
 
-On the Orders Hub screen, you can send a text message to guests notifying them that their order(s) are ready for pick up. When an Active order is marked as Order Ready, a text message is sent. You can configure order ready messaging in Toast Web. To open the Order Ready Messaging configuration page, choose Takeout & delivery &gt; Orders Hub &gt; Order ready messages &gt; Order Ready Messaging.
+On the Orders Hub screen, you can send a text message to guests notifying them that their order(s) are ready for pick up. When an **Active** order is marked as **Order Ready**, a text message is sent. You can configure order ready messaging in Toast Web. To open the **Order Ready Messaging** configuration page, choose **Takeout & delivery &gt; Orders Hub &gt; Order ready messages &gt; Order Ready Messaging**.
 
 
 
@@ -887,7 +887,7 @@ On the Orders Hub screen, you can send a text message to guests notifying them t
 
 > **Note**
 > 
-> If a restaurant has the Kitchen Display Screen product module enabled in Toast Web, a banner appears at the top of the Order Ready Messaging configuration page recommending you turn off guest SMS when an order is fulfilled. This prevents guests from receiving multiple text messages.
+> If a restaurant has the Kitchen Display Screen product module enabled in Toast Web, a banner appears at the top of the **Order Ready Messaging** configuration page recommending you turn off guest SMS when an order is fulfilled. This prevents guests from receiving multiple text messages.
 
 
 The use of order ready messaging for marketing or other similar commercial messaging is strictly prohibited. Order ready messaging is designed to provide instructions and information to your guests and servers to facilitate order collections and fulfillment.
@@ -896,7 +896,7 @@ The use of order ready messaging for marketing or other similar commercial messa
 
 > **Note**
 > 
-> The default setting for order ready messaging is Off in Toast Web.
+> The default setting for order ready messaging is **Off** in Toast Web.
 
 
 **Procedure 3.7. To enable order ready messaging**
@@ -904,7 +904,7 @@ The use of order ready messaging for marketing or other similar commercial messa
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Orders Hub &gt; Order ready guest messaging to open the Order ready messaging configuration page.
+2. Choose **Takeout & delivery &gt; Orders Hub &gt; Order ready guest messaging** to open the **Order ready messaging** configuration page.
 
 
 
@@ -914,7 +914,7 @@ The use of order ready messaging for marketing or other similar commercial messa
 
 
 
-3. Toggle the Takeout and or Curbside setting to On.
+3. Toggle the **Takeout** and or **Curbside** setting to **On.**
 
 
 
@@ -924,16 +924,16 @@ The use of order ready messaging for marketing or other similar commercial messa
 
 
 
-4. Select the Save button and then Publish all changes button. The Confirm Publish dialog box appears.
+4. Select the **Save** button and then **Publish all changes** button. The **Confirm Publish** dialog box appears.
 
 
-5. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box. To turn off order messaging, toggle the switch from the On to the Offsetting and then save and publish your changes.
+5. Select the **Publish **button to publish your changes or the **Cancel** button to cancel the dialog box. To turn off order messaging, toggle the switch from the **On** to the **Off**setting and then save and publish your changes.
 
 
 
 ### Sending an order ready text message
 
-To send a text message to your guest notifying them that their Active order is ready, select the Order Ready button. This moves the order to the Order Ready tab and triggers Orders Hub to send a text message to the phone number associated with the order.
+To send a text message to your guest notifying them that their **Active** order is ready, select the **Order Ready** button. This moves the order to the **Order Ready** tab and triggers Orders Hub to send a text message to the phone number associated with the order.
 
 Only one text message is sent to the guest. An additional text message is sent if the order is updated or reopened. 
 

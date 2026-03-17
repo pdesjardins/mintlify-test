@@ -22,35 +22,35 @@ To verify that the device is set up as expected, follow these steps.
 1. On the device, tap the Toast logo (or left arrow) in the top corner until the Toast POS home screen appears.
 
 
-2. In the Setup section, select Device Setup.
+2. In the **Setup** section, select **Device Setup**.
 
 
-3. In the Kitchen Setup section, verify the settings for each of the following configuration options.
+3. In the **Kitchen Setup** section, verify the settings for each of the following configuration options.
 
-- Kitchen Expediter: Expediter or Prep Station.
-
-
-- Two-Level Fulfillment: First or Second.
+- **Kitchen Expediter**: **Expediter** or **Prep Station**.
 
 
-- Prep Stations: Set to the specific station or stations that you expected.
+- **Two-Level Fulfillment**: **First** or **Second**.
+
+
+- **Prep Stations**: Set to the specific station or stations that you expected.
 
 
 
 > **Note**
 > 
-> In Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen setup, under the Expediter section, Two-Level Fulfillment setting has to be set to Two levels in order to see this.
+> In **Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen setup**, under the **Expediter** section, **Two-Level Fulfillment **setting has to be set to **Two levels** in order to see this.
 
 
 
-- Prep Stations: These options are configured in Toast Web. Choose Kitchen &gt; Kitchen stations &gt; Prep stations to open the Prep stations page.
+- **Prep Stations**: These options are configured in Toast Web. Choose **Kitchen &gt; Kitchen stations &gt; Prep stations** to open the Prep stations page.
 
 
 
 If an option is set incorrectly, tap the option to update the setting.
 
 
-4. To review whether the device is set to display tickets for specific dining options or courses, tap Ticket Display Options.
+4. To review whether the device is set to display tickets for specific dining options or courses, tap **Ticket Display Options**.
 
 
 5. Tap the Toast logo to return to the Toast POS home screen.

@@ -44,7 +44,7 @@ The entries in the table below define errors you may encounter while using the o
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Input both a start date and end date or a business date to your request. </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Input <code className="font-mono text-sm">startDate</code> must be before <code className="font-mono text-sm">endDate</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Input <code className="font-mono text-sm">startDate</code> must be before <code className="font-mono text-sm">endDate</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Check the <code className="font-mono text-sm">startDate</code> and <code className="font-mono text-sm">endDate</code> values throughout your request and ensure that the <code className="font-mono text-sm">startDate</code> time stamps occur before the <code className="font-mono text-sm">endDate</code> time stamps.</p></div></td>
     </tr>
     <tr className="">

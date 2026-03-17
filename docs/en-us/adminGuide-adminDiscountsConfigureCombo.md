@@ -19,17 +19,17 @@ For a combo discount, you configure the discount value and the eligible combinat
 
 ## Configuring the combo discount value
 
-When you select Combo as the discount type, a Value field displays.
+When you select **Combo** as the discount type, a **Value** field displays.
 
 ![Value and items fields for a combo discount.](https://doc.toasttab.com/doc/media/discount-combo-fields-initial.png)
 
-In the Value field, provide the price to charge for the combo.
+In the **Value** field, provide the price to charge for the combo.
 
-For example, if the combo discount offers a sandwich and a drink for $13.00, enter 13 in the Value field.
+For example, if the combo discount offers a sandwich and a drink for $13.00, enter 13 in the **Value** field.
 
 ## Selecting the required items for the combo discount
 
-In the Items section, provide the eligible combinations of items.
+In the **Items** section, provide the eligible combinations of items.
 
 For a combo discount, you configure one or more eligible combinations of items. A check is eligible for the discount if it includes any one of those combinations.
 
@@ -76,11 +76,11 @@ For more information about required items for discounts, see [Choosing the requi
 
 You can configure a combo discount as a bulk discount, which includes the minimum and maximum quantity to apply the discount to. See [Bulk discounts](adminGuide-adminBulkDiscounts).
 
-If you do not configure the combo discount as a bulk discount, then in the Advanced Settings section, the Total Quantity field allows you to specify the number of eligible combos in an order.
+If you do not configure the combo discount as a bulk discount, then in the **Advanced Settings** section, the **Total Quantity** field allows you to specify the number of eligible combos in an order.
 
 For example, a combo discount sets a discount price of $5 when you purchase a drink and a dessert together. An order contains three drinks and three desserts.
 
-If Total Quantity is 1, then one drink and dessert are charged as a combo, and the other drinks and desserts are charged the individual prices.
+If **Total Quantity** is 1, then one drink and dessert are charged as a combo, and the other drinks and desserts are charged the individual prices.
 
-If Total Quantity is 3, then the drinks and desserts are charged as three combos.
+If **Total Quantity** is 3, then the drinks and desserts are charged as three combos.
 

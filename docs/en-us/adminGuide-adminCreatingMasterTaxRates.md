@@ -38,18 +38,18 @@ This configuration ensures that any changes you make to the tax rates in one loc
 1. [Log in to Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Menu management &gt; Tax rates setup to open the Tax ratespage.
+2. Choose **Menus &gt; Menu management &gt; Tax rates** setup to open the **Tax rates**page.
 
 
-3. Use the You are viewing menu to show the tax rates for the corporate restaurant group (the corporate restaurant group is your top-level restaurant group and it should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
+3. Use the **You are viewing** menu to show the tax rates for the corporate restaurant group (the corporate restaurant group is your top-level restaurant group and it should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the **You are viewing**menu.
 
 
-4. Click the actions button for the tax rate you want to archive and choose Archive from the menu.
+4. Click the actions button for the tax rate you want to archive and choose **Archive** from the menu.
 
 ![Image](https://doc.toasttab.com/doc/media/actions_button.PNG)
 
 
-5. Click Save.
+5. Click **Save**.
 
 
 6. Repeat these steps for the other tax rates that were automatically created for each location.
@@ -61,13 +61,13 @@ This configuration ensures that any changes you make to the tax rates in one loc
 
 **Procedure 5.17. To create master tax rates**
 
-1. Choose Menus &gt; Menu management &gt; Tax rates setup to open the Tax ratespage. Assuming you followed the procedure to [archive any auto-created tax rates](adminGuide-adminCreatingMasterTaxRates#toArchiveTaxRates), the tax rates table will be empty.
+1. Choose **Menus &gt; Menu management &gt; Tax rates** setup to open the **Tax rates**page. Assuming you followed the procedure to [archive any auto-created tax rates](adminGuide-adminCreatingMasterTaxRates#toArchiveTaxRates), the tax rates table will be empty.
 
 
-2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
+2. Use the **You are viewing** menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the **You are viewing**menu.
 
 
-3. Click the plus button to add a new tax rate, enter an identifying name for the tax (for example, "State Tax Master") and click Save. After you click Save, the tax rate you created becomes a link.
+3. Click the plus button to add a new tax rate, enter an identifying name for the tax (for example, "State Tax Master") and click **Save**. After you click **Save**, the tax rate you created becomes a link.
 
 ![Image](https://doc.toasttab.com/doc/media/plus_button.PNG)
 
@@ -75,16 +75,16 @@ This configuration ensures that any changes you make to the tax rates in one loc
 4. Click the tax rate's link to see its details.
 
 
-5. Set the Target and Owner fields to the corporate restaurant group.
+5. Set the **Target** and **Owner** fields to the corporate restaurant group.
 
 
-6. Set the Type property to Disabled.
+6. Set the **Type** property to **Disabled**.
 
 
-7. Click Save.
+7. Click **Save**.
 
 
-8. Click Tax Rates in the breadcrumbs at the top of the page to return to the Tax ratespage.
+8. Click **Tax Rates** in the breadcrumbs at the top of the page to return to the **Tax rates**page.
 
 
 9. Repeat these steps to add a master tax rate for any other taxes your enterprise must collect.
@@ -96,21 +96,21 @@ This configuration ensures that any changes you make to the tax rates in one loc
 
 **Procedure 5.18. To create location-specific tax rates**
 
-1. Choose Menus &gt; Menu management &gt; Tax rates setup to open the Tax ratespage. Assuming you followed the [To archive tax rates](adminGuide-adminCreatingMasterTaxRates#toArchiveTaxRates) and [To create master tax rates](adminGuide-adminCreatingMasterTaxRates#toCreateMasterTaxRates) procedures, you only see master tax rates in the table, targeted at the corporate restaurant group.
+1. Choose **Menus &gt; Menu management &gt; Tax rates** setup to open the **Tax rates**page. Assuming you followed the [To archive tax rates](adminGuide-adminCreatingMasterTaxRates#toArchiveTaxRates) and [To create master tax rates](adminGuide-adminCreatingMasterTaxRates#toCreateMasterTaxRates) procedures, you only see master tax rates in the table, targeted at the corporate restaurant group.
 
 
-2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
+2. Use the **You are viewing** menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the **You are viewing**menu.
 
 
-3. Click the actions button for a master tax rate and choose New Version.
+3. Click the actions button for a master tax rate and choose **New Version**.
 
 ![Image](https://doc.toasttab.com/doc/media/actions_button.PNG)
 
 
-4. Set the Target field to a location in your enterprise. The Owner field is automatically set to that same location. You can leave the Owner field as is or set it to some other point in the restaurant group hierarchy (the value you choose for this setting should be driven by who in your enterprise should be able to edit the tax rate).
+4. Set the **Target** field to a location in your enterprise. The **Owner** field is automatically set to that same location. You can leave the Owner field as is or set it to some other point in the restaurant group hierarchy (the value you choose for this setting should be driven by who in your enterprise should be able to edit the tax rate).
 
 
-5. Click Submit. The new version is added to the Tax Rates table.
+5. Click **Submit**. The new version is added to the Tax Rates table.
 
 
 6. Click the name of the new version to view its details.
@@ -122,30 +122,30 @@ This configuration ensures that any changes you make to the tax rates in one loc
 8. Configure the tax type and rate for the new version so that they are appropriate for the location you chose in step 4.
 
 
-9. Leave the Default property set to No.
+9. Leave the **Default** property set to **No**.
 
 
-10. Click Save.
+10. Click **Save**.
 
 
-11. Click Tax Rates in the breadcrumbs at the top of the page to return to the Tax Rates page.
+11. Click **Tax Rates** in the breadcrumbs at the top of the page to return to the Tax Rates page.
 
 
-12. Repeat these steps to create a version of each master tax rate for every location in your enterprise. After this process, you will see something similar to the following on the Tax rates page:
+12. Repeat these steps to create a version of each master tax rate for every location in your enterprise. After this process, you will see something similar to the following on the **Tax rates** page:
 
 ![Image](https://doc.toasttab.com/doc/media/tax_rates_no_defaults.PNG)
 
 
-13. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
+13. Publish your changes using the **Publish config** page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 
 After creating your tax rates, you must apply them to your menus. There are two techniques:
 
-- Manually assign applicable taxes to your menus on the Advanced properties page.
+- Manually assign applicable taxes to your menus on the **Advanced properties** page.
 
 
-- Set your tax rates as default on the Tax rates page and then configure your menus to inherit those default rates on the Advanced propertiespage.
+- Set your tax rates as default on the **Tax rates** page and then configure your menus to inherit those default rates on the **Advanced properties**page.
 
 
 

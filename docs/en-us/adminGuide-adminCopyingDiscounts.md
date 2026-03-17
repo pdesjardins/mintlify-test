@@ -23,14 +23,14 @@ Copying a discount saves you from having to create a completely new discount tha
 
 1. To create the copy, do one of the following:
 
-- On the Discounts page, for the discount to copy, click the ... icon in the Actions column, then click Copy.
+- On the **Discounts** page, for the discount to copy, click the ... icon in the **Actions** column, then click **Copy**.
 
 
-- On the Edit Discount page for the discount to copy, under Number of discount, click Copy Discount.
+- On the **Edit Discount** page for the discount to copy, under **Number of discount**, click **Copy Discount**.
 
 
 
-The Add a Discount page opens with a new (unsaved) discount. The new discount has identical configuration properties to the source discount. The only difference is that under Name of discount, the copied discount has *(Copy)* appended to the discount name.
+The **Add a Discount** page opens with a new (unsaved) discount. The new discount has identical configuration properties to the source discount. The only difference is that under **Name of discount**, the copied discount has *(Copy)* appended to the discount name.
 
 
 2. Optionally, you can edit any configuration property of the new discount. You can save the new discount without making any changes.
@@ -38,9 +38,9 @@ The Add a Discount page opens with a new (unsaved) discount. The new discount ha
 For a detailed list of discount configuration settings, see the [Discount configuration reference](adminGuide-adminDiscountConfigReference).
 
 
-3. Click Save to save the discount, then [publish the changes](adminGuide-platformPublishingOverview).
+3. Click **Save** to save the discount, then [publish the changes](adminGuide-platformPublishingOverview).
 
 
 
-After you create the new discount, it is listed on the Discounts page.
+After you create the new discount, it is listed on the **Discounts** page.
 

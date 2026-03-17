@@ -19,18 +19,18 @@ This section provides information specific to using menu manager when your resta
 
 ## Full menu view limitations for multi-location restaurants
 
-Full menu view has the following limitations when used by multi-location restaurants:
+**Full menu** view has the following limitations when used by multi-location restaurants:
 
-- You cannot add existing menu items in Full menu view. You must use the classic page for the parent menu group instead.
+- You cannot add existing menu items in **Full menu** view. You must use the classic page for the parent menu group instead.
 
 
 - The side panel for menu groups shows a very shortened version of a menu group details page where you are limited to editing the name, POS name, and POS color. Selecting the full-screen icon in the menu group side panel takes you to the [classic menu group details page](adminGuide-adminMenuManagerAndTheClassicMenuDetailsPages). The menu manager does not yet have a full screen version of the menu group details page.
 
 
-- The reordering icon in Full menu view that allows you to reorganize the order of your menus, menu groups, and menu items is not yet supported for multi-location restaurants.
+- The reordering icon in **Full menu** view that allows you to reorganize the order of your menus, menu groups, and menu items is not yet supported for multi-location restaurants.
 
 
-- The location filter setting is not retained when you move to Full menu view from any of the other views.
+- The location filter setting is not retained when you move to **Full menu** view from any of the other views.
 
 
 
@@ -51,11 +51,11 @@ The menu manager can display both versioned and unversioned menu entities but th
 
 
 
-The illustration below shows a versioned menu item in Items view.
+The illustration below shows a versioned menu item in **Items** view.
 
 ![An example of a versioned menu item in Items view.](https://doc.toasttab.com/doc/media/menu-manager-versioned-items-items-view.png)
 
-The illustration below shows the same versioned menu item in Full menu view
+The illustration below shows the same versioned menu item in **Full menu** view
 
 ![An example of the same versioned menu item in Full menu view.](https://doc.toasttab.com/doc/media/menu-manager-versioned-items-full-menu-view.png)
 
@@ -65,7 +65,7 @@ For more information, see [Versions](adminGuide-versions).
 
 When you create a new menu entity for a multi-location restaurant, you define the locations or location groups that use that entity. This is the menu entity's *target*. You also define who can edit the menu entity. This is the menu entity's *owner*.
 
-Newly created menus are automatically targeted at the highest location group or location you have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to. The owner defaults to this same location group or location.
+Newly created menus are automatically targeted at the highest location group or location you have the **4. Restaurant Admin &gt; 4.5 Edit Full Menu** permission to. The owner defaults to this same location group or location.
 
 For example, consider the following location group hierarchy:
 
@@ -84,7 +84,7 @@ For example, consider the following location group hierarchy:
 
 
 
-If you have Edit Full Menu permissions to the Northeast Franchises location group, any new menu you create is targeted at the Northeast Franchises location group by default.
+If you have **Edit Full Menu** permissions to the Northeast Franchises location group, any new menu you create is targeted at the Northeast Franchises location group by default.
 
 Newly created menu groups and menu items inherit the target and owner of their parent menu or menu group by default. For example, if you add a new menu item to a menu group that is targeted at the Northeast Franchises location group, that menu item is also targeted at the Northeast Franchises location group.
 
@@ -96,7 +96,7 @@ For more information, see [Targets](adminGuide-targets) and [Owners and permissi
 
 ## Available at (Target), Editable by (Owner), Number, and GUID properties
 
-For multi-location restaurants, the detailssection of each menu entity's side panel displays the target, owner, number (also known as multi-location ID) and GUID information for the entity you are editing. The following illustration shows these fields as they appear in the Item details section for a menu item:
+For multi-location restaurants, the **details**section of each menu entity's side panel displays the target, owner, number (also known as multi-location ID) and GUID information for the entity you are editing. The following illustration shows these fields as they appear in the **Item details** section for a menu item:
 
 ![Example of the Item details section of a menu item side panel.](https://doc.toasttab.com/doc/media/menu-manager-item-details-target-owner-fields.png)
 
@@ -131,7 +131,7 @@ The Toast platform also prevents you from assigning the same target to more than
 > Currently, you can edit the target and owner for menu items in an item's side panel. You must use the classic pages to edit the target and owner for menus and menu groups.
 
 
-You must have the 4. Restaurant Admin &gt; 4.5 Edit Full Menu permission to a location or location group in order to see that location or location group in the target and owner pickers. If you do not have the Edit Full Menupermission to a location or location group, the Toast platform filters it out of the target and owner pickers so you cannot assign it to a version.
+You must have the **4. Restaurant Admin &gt; 4.5 Edit Full Menu** permission to a location or location group in order to see that location or location group in the target and owner pickers. If you do not have the **Edit Full Menu**permission to a location or location group, the Toast platform filters it out of the target and owner pickers so you cannot assign it to a version.
 
 For more information, see the following sections in the [Multiple restaurant locations](adminGuide-sharingMenusAndOtherInformationAmongRestaurants) chapter:
 
@@ -150,7 +150,7 @@ For more information, see the following sections in the [Multiple restaurant loc
 
 ### Number
 
-The Number field is used to identify related versions of a menu entity. Menu entity versions with the same Number are all versions of the same menu entity. This field is read only. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
+The **Number** field is used to identify related versions of a menu entity. Menu entity versions with the same **Number** are all versions of the same menu entity. This field is read only. For more information, see [Toast identifiers](apiDevGuide-portalToastIdentifiers).
 
 ### GUID
 

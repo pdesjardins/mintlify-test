@@ -34,10 +34,10 @@ A house account is a guest account managed by a Toast location that allows guest
 
 House account balances can be paid from a Toast Web invoice or on a Toast POS device. Toast support recommends guests choose one method to pay a house account balance.
 
-- Using Toast Web: You create a Toast invoice to send to a guest for the orders placed within a custom time range. Guests pay the balance from a link in the invoice.
+- **Using Toast Web**: You create a Toast invoice to send to a guest for the orders placed within a custom time range. Guests pay the balance from a link in the invoice.
 
 
-- Using the Toast POS device: Guests can partly pay, fully pay, or overpay the house account's outstanding balance from any order screen.
+- **Using the Toast POS device**: Guests can partly pay, fully pay, or overpay the house account's outstanding balance from any order screen.
 
 
 

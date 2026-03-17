@@ -16,16 +16,16 @@ codeExamples: 0
 
 ## Required permission for the reports
 
-To view the Orders or Order details report, you must have the Restaurant Admin &gt; Sales Reports permission.
+To view the **Orders** or **Order details** report, you must have the **Restaurant Admin &gt; Sales Reports** permission.
 
 ## Displaying the reports
 
 From Toast Web:
 
-- To display the Orders report, select Reports &gt; Sales &gt; Orders.
+- To display the **Orders** report, select **Reports** &gt; **Sales** &gt; **Orders**.
 
 
-- To display the Order details report, select Reports &gt; Menus&gt; Order details.
+- To display the **Order details** report, select **Reports** &gt; **Menus**&gt; **Order details**.
 
 
 
@@ -33,7 +33,7 @@ The reports tabs at the top of the report provide access to other reports.
 
 ## Filtering the reports
 
-By default, the Orders and Order details reports show orders that were opened by any employee on the current day. The date, time, and employee filtering fields are displayed at the top of the report. For multi-location restaurants, there is also a location field.
+By default, the **Orders** and **Order details** reports show orders that were opened by any employee on the current day. The date, time, and employee filtering fields are displayed at the top of the report. For multi-location restaurants, there is also a location field.
 
 ![Filter fields for the Orders and Order details reports](https://doc.toasttab.com/doc/media/order-reports-filter-fields.png)
 
@@ -45,20 +45,20 @@ You can also add other filter fields and values.
 
 1. From the date dropdown, choose the date range.
 
-You can choose one of the preset values. To choose a specific start and end date, choose Custom Date.
+You can choose one of the preset values. To choose a specific start and end date, choose **Custom Date**.
 
 
-2. From the time dropdown, choose a preset time range. To choose a specific start and end time, choose Custom Hours.
+2. From the time dropdown, choose a preset time range. To choose a specific start and end time, choose **Custom Hours**.
 
 
 
 
   1. From the date dropdown, choose the date range.
 
-You can choose one of the preset values. To choose a specific start and end date, choose Custom Date.
+You can choose one of the preset values. To choose a specific start and end date, choose **Custom Date**.
 
 
-  2. From the time dropdown, choose a preset time range. To choose a specific start and end time, choose Custom Hours.
+  2. From the time dropdown, choose a preset time range. To choose a specific start and end time, choose **Custom Hours**.
 
 
 2. From the employee dropdown, select the name of the employee that opened the order.
@@ -66,7 +66,7 @@ You can choose one of the preset values. To choose a specific start and end date
 
 3. To add other filters:
 
-1. Click More.
+1. Click **More**.
 
 
 2. In the list of available fields, select the check box for each filter field to add. The new fields are added below the default filter fields.
@@ -77,7 +77,7 @@ You can choose one of the preset values. To choose a specific start and end date
 
 
 
-  1. Click More.
+  1. Click **More**.
 
 
   2. In the list of available fields, select the check box for each filter field to add. The new fields are added below the default filter fields.
@@ -86,7 +86,7 @@ You can choose one of the preset values. To choose a specific start and end date
   3. For the added fields, select the filter values.
 
 
-4. To update the results based on the new filter values, click Update.
+4. To update the results based on the new filter values, click **Update**.
 
 
 
@@ -94,14 +94,14 @@ You can choose one of the preset values. To choose a specific start and end date
 
 By default:
 
-- The Orders report is sorted in descending order by the opened date.
+- The **Orders** report is sorted in descending order by the opened date.
 
 
-- The Menu item summary in the Order details report is sorted in descending order by the quantity ordered.
+- The **Menu item summary** in the **Order details** report is sorted in descending order by the quantity ordered.
 
 
 
-To change the column used to sort the Ordersreport or the Menu item summary, click the column heading that you want to sort by. To reverse the sort order, click the column heading again.
+To change the column used to sort the **Orders**report or the **Menu item summary**, click the column heading that you want to sort by. To reverse the sort order, click the column heading again.
 
-You cannot sort the order details panels in the Order details report. The order details panels are always sorted in descending order by the opened date.
+You cannot sort the order details panels in the **Order details** report. The order details panels are always sorted in descending order by the opened date.
 

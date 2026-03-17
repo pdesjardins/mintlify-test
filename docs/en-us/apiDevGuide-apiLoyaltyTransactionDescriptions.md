@@ -42,11 +42,18 @@ The following sections provide information about Toast loyalty integration trans
 
 ## LOYALTY_SEARCH
 
-The search workflow occurs when a restaurant employee selects the Rewards button in the Toast POS app and the restaurant guest has not already provided an identifying card or other form of loyalty program account identification.
+The search workflow occurs when a restaurant employee selects the **Rewards** button in the Toast POS app and the restaurant guest has not already provided an identifying card or other form of loyalty program account identification.
 
 **Procedure 10.5. Search workflow**
 
-1. The restaurant employee selects the Rewards button in the Toast POS app and enters identifying information (name, email address, or phone number) about a restaurant guest.
+1. The restaurant employee selects the **Rewards** button in the Toast POS app and enters identifying information (name, email address, or phone number) about a restaurant guest.
+
+
+
+> **Note**
+> 
+> Loyalty integrations must accept phone numbers of varying lengths based on restaurant location. U.S. restaurants restrict entry to 10 digits, while non-U.S. restaurants accept any length.
+
 
 
 2. The POS sends a search request to your loyalty program integration. The request body includes a `TransactionInformationSearch` object holding identifying information about the restaurant guest.
@@ -104,7 +111,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#loyaltySearchPoints" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#loyaltySearchPoints" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You may return a <code className="font-mono text-sm">pointsBalance</code> in your response to a <code className="font-mono text-sm">LOYALTY_SEARCH</code> request, but this balance will not display on the POS. The points balance only displays on the POS in response to <code className="font-mono text-sm">LOYALTY_INQUIRE</code> requests.</p></div></td>
     </tr>
 **Example 10.7. Loyalty account search response with no accounts found (404 HTTP code)**
@@ -119,7 +126,7 @@ The search workflow occurs when a restaurant employee selects the Rewards button
   
 ## LOYALTY_INQUIRE
 
-The inquire workflow occurs when a restaurant employee selects the Rewards button in the Toast POS app if a restaurant guest's loyalty account has already been found. The Toast platform might send multiple inquire transactions while handling a single purchase interaction for a restaurant guest.
+The inquire workflow occurs when a restaurant employee selects the **Rewards** button in the Toast POS app if a restaurant guest's loyalty account has already been found. The Toast platform might send multiple inquire transactions while handling a single purchase interaction for a restaurant guest.
 
 **Procedure 10.6. Inquire workflow**
 
@@ -140,7 +147,7 @@ The inquire workflow occurs when a restaurant employee selects the Rewards butto
 
 - A list of available offers. You determine which offers to include in the list. If an item-level offer is available, you must specify the item GUID so the POS knows which item it applies to.
 
-Each offer contains a boolean value indicating whether the offer is applicable based on the current check contents. If the offer is not applicable, the POS will display the offer with formatting to indicate that it is not available (for example, light gray text) and without a Redeembutton.
+Each offer contains a boolean value indicating whether the offer is applicable based on the current check contents. If the offer is not applicable, the POS will display the offer with formatting to indicate that it is not available (for example, light gray text) and without a **Redeem**button.
 
 
 - A list of offers that are currently applied to the check that *are not valid*. The POS will remove those offers from the check.
@@ -159,7 +166,7 @@ Each offer contains a boolean value indicating whether the offer is applicable b
 
 4. The restaurant employee might make changes to the check. For example:
 
-- Apply and remove loyalty program offers based on the offers that the guest chooses. Each time the employee selects the Rewards button, the Toast platform sends an inquire request.
+- Apply and remove loyalty program offers based on the offers that the guest chooses. Each time the employee selects the **Rewards** button, the Toast platform sends an inquire request.
 
 
 - Add and remove items from the check.
@@ -612,19 +619,19 @@ The redeem transaction follows the final inquire transaction during the payment 
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e567AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">rejectedRedemptions</code> array is empty because your loyalty program service determined that all of the redeemed reward offers in the redeem request are valid. If your loyalty program service determines that a redeemed reward is not valid, you must include a <code className="font-mono text-sm">RejectedRedemption</code> object in this array. For more information, see <a href="apiDevGuide-apiLoyaltyTransactionDescriptions#apiLoyaltyIntegrationHandlingRedeemOfferNotValid" className="">Handling redeemed offers that are not valid</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e569AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">appliedRedemptions</code> array includes a <code className="font-mono text-sm">Redemption</code> object for each rewards offer that your loyalty program service determines is valid for the loyalty account and the current guest check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiLoyaltyQuantity" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#apiLoyaltyQuantity" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example, since the <code className="font-mono text-sm">quantity</code> of the applied redemption is 2 and the <code className="font-mono text-sm">amount</code> is 5, the total amount discounted will be 10.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e571AF91922A-2326-4F0A-85C0-B78A7775B987" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the <code className="font-mono text-sm">transactionStatus</code> to <code className="font-mono text-sm">ACCEPT</code> to indicate that your service has successfully processed the request. The status is <code className="font-mono text-sm">ACCEPT</code> even when you determine that some redeemed rewards offers are not valid.</p></div></td>
     </tr>
   
@@ -843,7 +850,7 @@ If both conditions are met, Toast prints the guest receipt with a QR code. When 
 
 > **Note**
 > 
-> If a guest receipt needs to be reprinted after the check has been closed and the QR code has been printed, the receipt must be reprinted from the Payment Terminal screen on the Toast POS device. For more information, see [Reprint and Resend Receipts](https://central.toasttab.com/s/article/Reprint-and-Resend-Receipt-from-Payment-Terminal).
+> If a guest receipt needs to be reprinted after the check has been closed and the QR code has been printed, the receipt must be reprinted from the **Payment Terminal **screen on the Toast POS device. For more information, see [Reprint and Resend Receipts](https://central.toasttab.com/s/article/Reprint-and-Resend-Receipt-from-Payment-Terminal).
 
 
 Additionally, you can choose to print an optional customizable message on your guest’s receipt by populating the `userMessage` field in a `LOYALTY_ACCRUE`transaction. For more information, see [Loyalty integration specification](https://doc.toasttab.com/openapi/loyalty/tag/Data-definitions/schema/ResponseCheck/).

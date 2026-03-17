@@ -54,7 +54,7 @@ For more information on configuring and using size prices, see the following top
 
 This section provides an example of the most common scenario when working with size pricing in the Toast POS app. The configuration for this example sets size-based prices on the Cheese Pizza menu item ($10 for a small and $14 for a large). It also sets size-based prices on the Toppings modifier group and configures the group so that the price of a modifier in the group is determined by the size of the menu item it is applied to. In this case, that means toppings on a small pizza are $2 and toppings on a large pizza are $3.
 
-When you select a menu item in the Toast POS app that has size pricing enabled, you see a Size button in the list of modifier group buttons and it is selected by default, allowing you to immediately specify the size of the menu item you are adding to the order:
+When you select a menu item in the Toast POS app that has size pricing enabled, you see a **Size** button in the list of modifier group buttons and it is selected by default, allowing you to immediately specify the size of the menu item you are adding to the order:
 
 ![Toast POS app example showing the Size button you use to modify the size of a menu item.](https://doc.toasttab.com/doc/media/pricing-size-price-mod-grp-size-button.PNG)
 
@@ -66,26 +66,26 @@ To add a modifier to the menu item, tap the modifier group name, then tap a modi
 
 ![Toast POS app example showing two menu items with different sizes and their modifiers, which are priced according to size.](https://doc.toasttab.com/doc/media/pricing-size-price-mod-grp-sm-and-lg-pizzas.PNG)
 
-Tap Done when you are finished specifying the modifiers for a menu item to add it to the order.
+Tap **Done** when you are finished specifying the modifiers for a menu item to add it to the order.
 
 ## Configuring size pricing on menu groups and menu items
 
-You create size prices for a menu group or item on the group or item's details page. After you have created size prices for a menu item, you can view them in the Items grid that appears on the details page for any of the item's parent menu groups. However, the size prices are not editable from the Items grid. To edit a size price, you can either return to the menu group or item's details page and edit it there, or, edit it on the [Price editor](adminGuide-adminUsingThePriceEditor) page.
+You create size prices for a menu group or item on the group or item's details page. After you have created size prices for a menu item, you can view them in the **Items** grid that appears on the details page for any of the item's parent menu groups. However, the size prices are not editable from the **Items** grid. To edit a size price, you can either return to the menu group or item's details page and edit it there, or, edit it on the [Price editor](adminGuide-adminUsingThePriceEditor) page.
 
-**Procedure 8.130. To enable size pricing on a menu group or item**
+**Procedure 8.134. To enable size pricing on a menu group or item**
 
-1. In the Pricing Strategy section of the menu group or item's details page, select Size Price. The Size Prices grid appears. Each row in the grid represents a size.
-
-
-2. Define your sizes by entering a size name in the Size column and a corresponding price for the size in the Price column. You must enter a price for each size you create.
+1. In the **Pricing Strategy** section of the menu group or item's details page, select **Size Price**. The **Size Prices** grid appears. Each row in the grid represents a size.
 
 
-3. To add additional rows to the grid, click the Add button.
+2. Define your sizes by entering a size name in the **Size** column and a corresponding price for the size in the **Price** column. You must enter a price for each size you create.
+
+
+3. To add additional rows to the grid, click the **Add** button.
 
 
 4. To reorder sizes:
 
-- Click the Edit button. A new column appears to the left with the reordering icon.
+- Click the **Edit** button. A new column appears to the left with the reordering icon.
 
 ![Example of the Size Prices grid showing the location of the reordering icon.](https://doc.toasttab.com/doc/media/pricing-reorder-column.png)
 
@@ -93,20 +93,20 @@ You create size prices for a menu group or item on the group or item's details p
 - Click the reordering icon for a row and drag it to its new location.
 
 
-- Click Done when you are finished reordering.
+- Click **Done** when you are finished reordering.
 
 
 
 
 5. To delete sizes:
 
-- Click the Edit button. A new column appears to the right with the trash can icon.
+- Click the **Edit** button. A new column appears to the right with the trash can icon.
 
 
 - Click the trash can icon for the row you want to delete.
 
 
-- Click Done when you are finished deleting.
+- Click **Done** when you are finished deleting.
 
 
 
@@ -231,21 +231,21 @@ This configuration *is not acceptable*because XLarge is missing from the modifie
 
 Follow the instructions below to configure size pricing for a modifier group. All of the modifiers in the group follow the same size pricing rules, for example, all of the toppings in a Toppings modifier group cost $0.50 for a small pizza, $1 for a medium pizza, and $1.50 for a large pizza.
 
-**Procedure 8.131. To enable size pricing on a modifier group**
+**Procedure 8.135. To enable size pricing on a modifier group**
 
-1. In the Pricing section of a modifier group's details page, set the How are modifiers in this group priced setting to All modifiers share the same price.
-
-
-2. Under the Modifier Group Pricingsection, select Size Price. The Size Price grid appears.
+1. In the **Pricing** section of a modifier group's details page, set the **How are modifiers in this group priced** setting to **All modifiers share the same price**.
 
 
-3. Define your sizes by entering a size name in the Size column and a corresponding price for the size in the Price column. The sizes you create *must exactly match* the sizes defined for the menu items this modifier group will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
+2. Under the **Modifier Group Pricing**section, select **Size Price**. The **Size Price** grid appears.
 
 
-4. To add additional rows to the grid, click the Add Size button.
+3. Define your sizes by entering a size name in the **Size** column and a corresponding price for the size in the **Price** column. The sizes you create *must exactly match* the sizes defined for the menu items this modifier group will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
 
 
-5. To remove a row from the grid, click the Edit button, click the trash can icon for that row, and then click Done.
+4. To add additional rows to the grid, click the **Add Size** button.
+
+
+5. To remove a row from the grid, click the **Edit** button, click the trash can icon for that row, and then click **Done**.
 
 
 6. Save your changes.
@@ -275,37 +275,37 @@ When configuring size pricing at the individual modifier level, you can choose w
 
 
 
-**Procedure 8.132. To configure size pricing on a modifier (size dependent on menu item size)**
+**Procedure 8.136. To configure size pricing on a modifier (size dependent on menu item size)**
 
 1. In Toast Web, view the details page for the modifier group whose modifiers should have size pricing enabled.
 
 
-2. In the Pricing section of a modifier group's details page, set the How are modifiers in this group priced setting to Each modifier has a unique price.
+2. In the **Pricing** section of a modifier group's details page, set the **How are modifiers in this group priced** setting to **Each modifier has a unique price**.
 
 
-3. Under the Size behavior section, set the How should sized priced modifiers behavesetting to Modifier automatically use the same size as the items they are applied to.
+3. Under the **Size behavior** section, set the **How should sized priced modifiers behave**setting to **Modifier automatically use the same size as the items they are applied to**.
 
 
-4. In the Modifiers section, locate the Modifiers grid.
+4. In the **Modifiers** section, locate the **Modifiers** grid.
 
 
-5. In the Modifiers grid, click the Edit Item icon for a modifier to see the details page for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
+5. In the **Modifiers** grid, click the **Edit Item** icon for a modifier to see the details page for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 ![Example of the Modifiers grid showing the location of the Edit Item icon.](https://doc.toasttab.com/doc/media/pricing-edit-icon-pizza-toppings.png)
 
 
-6. Under the Pricing section, set Pricing Strategy to Size Price. The Size Prices grid appears.
+6. Under the **Pricing** section, set **Pricing Strategy** to **Size Price**. The **Size Prices** grid appears.
 
 
-7. Define your sizes by entering a size name in the Size column and a corresponding price in the Price column. The sizes you create for the modifier's item reference *must exactly match*the sizes defined for the menu items the modifier will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
+7. Define your sizes by entering a size name in the **Size** column and a corresponding price in the **Price** column. The sizes you create for the modifier's item reference *must exactly match*the sizes defined for the menu items the modifier will apply to, as described in [Creating matching sizes for menu items and modifiers](adminGuide-adminSizePrice#adminCreatingMatchingSizesForMenuItemsAndModifierOptions). Also, you must enter a price for each size you create.
 
 
-8. To add additional rows to the grid, click the Add button.
+8. To add additional rows to the grid, click the **Add** button.
 
 
 9. To reorder sizes:
 
-- Click the Edit button. A new column appears to the left with the reordering icon.
+- Click the **Edit** button. A new column appears to the left with the reordering icon.
 
 ![Example of the Size Prices grid showing the location of the reordering icon.](https://doc.toasttab.com/doc/media/pricing-reorder-column.png)
 
@@ -313,20 +313,20 @@ When configuring size pricing at the individual modifier level, you can choose w
 - Click the reordering icon for a row and drag it to its new location.
 
 
-- Click Done when you are finished reordering.
+- Click **Done** when you are finished reordering.
 
 
 
 
 10. To delete sizes:
 
-- Click the Edit button. A new column appears to the right with the trash can icon.
+- Click the **Edit** button. A new column appears to the right with the trash can icon.
 
 
 - Click the trash can icon for the row you want to delete.
 
 
-- Click Done when you are finished deleting.
+- Click **Done** when you are finished deleting.
 
 
 
@@ -338,37 +338,37 @@ When configuring size pricing at the individual modifier level, you can choose w
 
 
 
-**Procedure 8.133. To configure size pricing on a modifier (size set independently)**
+**Procedure 8.137. To configure size pricing on a modifier (size set independently)**
 
 1. In Toast Web, view the details page for the modifier group whose modifiers should have size pricing enabled.
 
 
-2. In the Pricing section of a modifier group's details page, set the How are modifiers in this group priced setting to Each modifier has a unique price.
+2. In the **Pricing** section of a modifier group's details page, set the **How are modifiers in this group priced** setting to **Each modifier has a unique price**.
 
 
-3. Under the Size behavior section, set the How should sized priced modifiers behavesetting to The size of the modifier can differ from the size of the item. Guests and servers select the modifier's size after choosing the modifier..
+3. Under the **Size behavior** section, set the **How should sized priced modifiers behave**setting to **The size of the modifier can differ from the size of the item. Guests and servers select the modifier's size after choosing the modifier.**.
 
 
-4. In the Modifiers section, locate the Modifiers grid.
+4. In the **Modifiers** section, locate the **Modifiers** grid.
 
 
-5. In the Modifiers grid, click the Edit Item icon for a modifier to see the details page for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
+5. In the **Modifiers** grid, click the **Edit Item** icon for a modifier to see the details page for the [modifier's item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 ![Example of the Modifiers grid showing the location of the Edit Item icon.](https://doc.toasttab.com/doc/media/pricing-edit-icon-pizza-toppings.png)
 
 
-6. Under the Pricing section, set Pricing Strategy to Size Price. The Size Prices grid appears.
+6. Under the **Pricing** section, set **Pricing Strategy** to **Size Price**. The **Size Prices** grid appears.
 
 
-7. Define your sizes by entering a size name in the Size column and a corresponding price in the Price column. The sizes you create for the modifier's item reference *do not have to match* sizes specified for the menu items the modifier will apply to. You must enter a price for each size you create.
+7. Define your sizes by entering a size name in the **Size** column and a corresponding price in the **Price** column. The sizes you create for the modifier's item reference *do not have to match* sizes specified for the menu items the modifier will apply to. You must enter a price for each size you create.
 
 
-8. To add additional rows to the grid, click the Add button.
+8. To add additional rows to the grid, click the **Add** button.
 
 
 9. To reorder sizes:
 
-- Click the Edit button. A new column appears to the left with the reordering icon.
+- Click the **Edit** button. A new column appears to the left with the reordering icon.
 
 ![Example of the Size Prices grid showing the location of the reordering icon.](https://doc.toasttab.com/doc/media/pricing-reorder-column.png)
 
@@ -376,20 +376,20 @@ When configuring size pricing at the individual modifier level, you can choose w
 - Click the reordering icon for a row and drag it to its new location.
 
 
-- Click Done when you are finished reordering.
+- Click **Done** when you are finished reordering.
 
 
 
 
 10. To delete sizes:
 
-- Click the Edit button. A new column appears to the right with the trash can icon.
+- Click the **Edit** button. A new column appears to the right with the trash can icon.
 
 
 - Click the trash can icon for the row you want to delete.
 
 
-- Click Done when you are finished deleting.
+- Click **Done** when you are finished deleting.
 
 
 

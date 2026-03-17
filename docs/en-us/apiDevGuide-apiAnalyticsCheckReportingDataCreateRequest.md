@@ -63,19 +63,19 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/check/day' \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2840DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">POST</code> request to the <code className="font-mono text-sm">/era/v1/check/day</code> endpoint of the analytics API.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2842DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2844DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the data type of the message body to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2846DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include details about the requested check reporting data in the message body. The following example is the message body for this <strong className="font-semibold">curl</strong>  command example.</p></div></td>
     </tr>
 ## Message body for check reporting data
@@ -98,19 +98,19 @@ The following example shows the message body for creating a check reporting data
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2861DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The start date of the time range for the check reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2863DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The end date of the time range for the check reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format. This is the same value as the start date.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2865DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to include in the check reporting data. Restaurant GUIDs not listed are excluded.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2867DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to exclude from the check reporting data. In this example, restaurants are included with the <code className="font-mono text-sm">restaurantIds</code> value, so all other restaurants are excluded automatically.</p></div></td>
     </tr>
 ## Response to request for check reporting data
@@ -125,7 +125,7 @@ The following example shows the response from the `/era/v1/check/day` endpoint.
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2886DE10C5BE-C9CE-4C55-87A6-C813632B28B5" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the check reporting data request, also called the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about the analytics API process, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
 For an example that shows how to retrieve the check reporting data, see [Retrieving the check reporting data](apiDevGuide-apiAnalyticsCheckReportingDataRetrieveData).

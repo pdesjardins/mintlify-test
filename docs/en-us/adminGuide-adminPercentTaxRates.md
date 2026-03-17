@@ -50,22 +50,22 @@ The following table describes the four Toast rounding options.
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Half Even Rounding</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">**Half Even Rounding**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Except for half-way values, always round fractional pennies to the nearest whole number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.</p> <p className="text-base leading-relaxed">For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in $1.235), round to the nearest <strong className="font-semibold">even</strong>  number. For example, $1.235 rounds to $1.24.</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$0.112 -&gt; $0.11</p> <p className="text-base leading-relaxed">$0.115 -&gt; $0.12</p> <p className="text-base leading-relaxed">$0.125 -&gt; $0.12</p> <p className="text-base leading-relaxed">$0.135 -&gt; $0.14</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Half Up Rounding</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">**Half Up Rounding**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Except for half-way values, always round fractional pennies to the nearest number (either up or down). For example, $1.234 rounds down to $1.23 and $1.236 rounds up to $1.24.</p> <p className="text-base leading-relaxed">For half-way values (where the number-to-round is exactly between two numbers, such as the 5 in 1.235), always round up. For example, $1.235 rounds up to $1.24 and $1.345 rounds up to $1.35.</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$0.112 -&gt; $0.11</p> <p className="text-base leading-relaxed">$0.115 -&gt; $0.12</p> <p className="text-base leading-relaxed">$0.125 -&gt; $0.13</p> <p className="text-base leading-relaxed">$0.135 -&gt; $0.14</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Always Round Down</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">**Always Round Down**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Always round down every fractional penny, including half-way values.</p> <p className="text-base leading-relaxed">For example, $1.234, $1.235, and $1.236 all round down to $1.23.</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$0.112 -&gt; $0.11</p> <p className="text-base leading-relaxed">$0.115 -&gt; $0.11</p> <p className="text-base leading-relaxed">$0.125 -&gt; $0.12</p> <p className="text-base leading-relaxed">$0.135 -&gt; $0.13</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Always Round Up</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">**Always Round Up**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Always round up every fractional penny, including half-way values.</p> <p className="text-base leading-relaxed">For example, $1.234, $1.235, and $1.236 all round up to 1.24.</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">$0.112 -&gt; $0.12</p> <p className="text-base leading-relaxed">$0.115 -&gt; $0.12</p> <p className="text-base leading-relaxed">$0.125 -&gt; $0.13</p> <p className="text-base leading-relaxed">$0.135 -&gt; $0.14</p></div></td>
     </tr>
@@ -77,28 +77,28 @@ The following table describes the four Toast rounding options.
 
 The tax code in some states specify that different tax rates must be charged for takeout food items versus dine-in food items. For example, meals consumed in the restaurant may be taxed at a higher rate than meals taken out and consumed at home.
 
-Using the same configuration page that you use to create a percent tax rate, you can configure a second percent rate for takeout orders. The takeout tax rate applies only to menu items in orders using a dining option with the Take Out behavior. Menu items that are specifically assigned on the Toast POS device to a dining option with the Take Out behavior will also be charged with the takeout tax rate. The takeout tax rate is optional and does not affect the basic percent tax rate.
+Using the same configuration page that you use to create a percent tax rate, you can configure a second percent rate for takeout orders. The takeout tax rate applies only to menu items in orders using a dining option with the **Take Out** behavior. Menu items that are specifically assigned on the Toast POS device to a dining option with the **Take Out** behavior will also be charged with the takeout tax rate. The takeout tax rate is optional and does not affect the basic percent tax rate.
 
 
 
 > **Note**
 > 
-> You create a basic percent tax rate in the Basic section of the tax rate configuration page and a takeout tax rate in the Take Out Taxsection of the same page. The Take Out Taxsection is dynamically added to the page when you select Percent as the Type for the tax rate. You must configure a basic percent tax rate (even if its rate is 0.0) before you can save your takeout tax rate configuration.
+> You create a basic percent tax rate in the **Basic** section of the tax rate configuration page and a takeout tax rate in the **Take Out Tax**section of the same page. The **Take Out Tax**section is dynamically added to the page when you select **Percent** as the **Type** for the tax rate. You must configure a basic percent tax rate (even if its rate is 0.0) before you can save your takeout tax rate configuration.
 
 
 Keep the following in mind when you create a takeout tax rate:
 
-- The takeout tax rate applies to menu items using a dining option with the Take Out behavior. It does not apply to menu items using a dining option with a behavior of Dine In, Delivery, Curbside, or None.
+- The takeout tax rate applies to menu items using a dining option with the **Take Out** behavior. It does not apply to menu items using a dining option with a behavior of **Dine In**, **Delivery**, **Curbside**, or **None**.
 
 
-- Your restaurant must have at least one dining option with the Take Out behavior configured on the Kitchen &gt; Dining options &gt; Dining options page, as in this example:
+- Your restaurant must have at least one dining option with the **Take Out** behavior configured on the **Kitchen &gt; Dining options &gt; Dining options** page, as in this example:
 
 ![Dining Options page with a Take Out behavior example.](https://doc.toasttab.com/doc/media/tax-dining-options.png)
 
-If your restaurant does not have a dining option with the Take Out behavior, you cannot configure a takeout tax rate because the Take Out Taxsection of the [percent tax rate configuration page](adminGuide-adminPercentTaxRates#configurePercentTaxRate) will be unavailable.
+If your restaurant does not have a dining option with the **Take Out** behavior, you cannot configure a takeout tax rate because the **Take Out Tax**section of the [percent tax rate configuration page](adminGuide-adminPercentTaxRates#configurePercentTaxRate) will be unavailable.
 
 
-- Menus that can be used for takeout orders must have the Dining Option Tax setting configured as No Effect on the Menus &gt; Bulk management &gt; Advanced properties page, as in this example:
+- Menus that can be used for takeout orders must have the **Dining Option Tax** setting configured as **No Effect** on the **Menus &gt; Bulk management &gt; Advanced properties** page, as in this example:
 
 ![Dining Options Tax set to No Effect.](https://doc.toasttab.com/doc/media/tax-no-effect.png)
 
@@ -113,51 +113,51 @@ When you take an order that must be taxed at the takeout tax rate, make sure you
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Menu management &gt; Settings &gt; Manage tax rates to open the Tax rates page.
+2. Choose **Menus &gt; Menu management &gt; Settings &gt; Manage tax rates** to open the **Tax rates** page.
 
 
-3. Click + Add Tax Rate.
+3. Click **+ Add Tax Rate**.
 
 
-4. In the Basic section of the New tax rate page, enter the configuration for the basic percent tax rate:
+4. In the **Basic** section of the **New tax rate** page, enter the configuration for the basic percent tax rate:
 
-- Name: Enter a name for the tax rate, such as `State Tax`.
-
-
-- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
+- **Name**: Enter a name for the tax rate, such as `State Tax`.
 
 
-- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
+- **Target**: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
 
 
-- Import ID: Leave this field blank. It is for internal use only.
+- **Owner**: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
-- Type: Select Percent.
+- **Import ID**: Leave this field blank. It is for internal use only.
 
 
-- Rate: Enter the tax percent value to be charged. The rate must be between 0.0 and 100.0, inclusive.
+- **Type**: Select **Percent**.
 
 
-- Default: Select Yes to have the tax rate inherited by menus and menu items that are configured to inherit tax rates or select No to disable tax rate inheritance (for this setting, menus and menu items that do not inherit tax rates must be configured with specific tax rates).
+- **Rate**: Enter the tax percent value to be charged. The rate must be between 0.0 and 100.0, inclusive.
 
 
-
-
-5. In the Take Out Tax section, you can optionally configure a take out tax rate:
-
-- Enable Take Out Tax Rate: Select Yes to create a takeout tax rate for orders using a dining option with the Take Out behavior. If you do not want to create a takeout tax rate, select No, charge the rate configured above for all dining options.
-
-
-- Takeout Tax Rate: If you have enabled a takeout tax rate, enter the tax percent rate to be charged for takeout orders. The rate must be between 0.0 and 100.0, inclusive. 
+- **Default**: Select **Yes** to have the tax rate inherited by menus and menu items that are configured to inherit tax rates or select **No** to disable tax rate inheritance (for this setting, menus and menu items that do not inherit tax rates must be configured with specific tax rates).
 
 
 
 
-6. In the Advanced Settings section, select one of the four [rounding options](adminGuide-adminPercentTaxRates#roundingOptions) for this tax rate.
+5. In the **Take Out Tax** section, you can optionally configure a take out tax rate:
+
+- **Enable Take Out Tax Rate**: Select **Yes** to create a takeout tax rate for orders using a dining option with the **Take Out** behavior. If you do not want to create a takeout tax rate, select **No, charge the rate configured above for all dining options**.
 
 
-7. You can test the percent tax rate with the Calculate Your Tax calculator. Enter any dollar amount in the Menu Item Price field and click Calculate. The system uses your configured percent tax rate to calculate the sales tax that is shown in the Tax Applied field, as shown in the following example. (Note that the calculator does not work with takeout tax rates).
+- **Takeout Tax Rate**: If you have enabled a takeout tax rate, enter the tax percent rate to be charged for takeout orders. The rate must be between 0.0 and 100.0, inclusive. 
+
+
+
+
+6. In the **Advanced Settings** section, select one of the four [rounding options](adminGuide-adminPercentTaxRates#roundingOptions) for this tax rate.
+
+
+7. You can test the percent tax rate with the **Calculate Your Tax** calculator. Enter any dollar amount in the **Menu Item Price** field and click **Calculate**. The system uses your configured percent tax rate to calculate the sales tax that is shown in the **Tax Applied** field, as shown in the following example. (Note that the calculator does not work with takeout tax rates).
 
 ![Calculating the tax rate using the tax calculator.](https://doc.toasttab.com/doc/media/tax-calculate-your-tax-calculator.png)
 

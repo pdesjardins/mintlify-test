@@ -26,16 +26,16 @@ The Toast platform supports the following types of discounts.
 ****Fixed and open currency amount and percent discounts****
 : You can configure discounts that reduce the price of a check or an item by either a specific currency amount or by a specific percent. The currency amount or percent value is either configured in the discount, or set by the restaurant employee when they apply the discount.
 
-- A fixed amount discount (Fixed $ Off) reduces the price of a check or item by a preconfigured currency amount.
+- A fixed amount discount (**Fixed $ Off**) reduces the price of a check or item by a preconfigured currency amount.
 
 
-- A fixed percent discount (Fixed % Off) reduces the price of a check or item by a preconfigured percent.
+- A fixed percent discount (**Fixed % Off**) reduces the price of a check or item by a preconfigured percent.
 
 
-- An open amount discount (Open $ Off) reduces the price of a check or item by a currency amount that a restaurant employee chooses.
+- An open amount discount (**Open $ Off**) reduces the price of a check or item by a currency amount that a restaurant employee chooses.
 
 
-- An open percent discount (Open % Off) reduces the price of a check or item by a percent that a restaurant employee chooses.
+- An open percent discount (**Open % Off**) reduces the price of a check or item by a percent that a restaurant employee chooses.
 
 
 

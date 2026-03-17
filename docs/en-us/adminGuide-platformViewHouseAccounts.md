@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can view your active and archived house accounts in Toast Web. Go to Payments &gt; Payment methods &gt; House accounts to open the Accounts page. On the Accounts page, you can view the following information:
+You can view your active and archived house accounts in Toast Web. Go to **Payments &gt; Payment methods &gt; House accounts** to open the **Accounts** page. On the **Accounts** page, you can view the following information:
 
 - Total number of house accounts
 
@@ -27,7 +27,7 @@ You can view your active and archived house accounts in Toast Web. Go to Payment
 
 
 
-On the Accounts page, you can complete the following actions:
+On the **Accounts** page, you can complete the following actions:
 
 - Choose to create either a single or multiple house accounts
 
@@ -41,7 +41,7 @@ On the Accounts page, you can complete the following actions:
 
 > **Note**
 > 
-> If a time range is selected, this populates the Total Spend column. The total spend is the total amount charged to a house account and the total amount invoiced to the account. For more information, see [Paying for orders with a house account](adminGuide-platformEnableHouseAccountsPaymentMethod#platformPayWithHouseAccounts).
+> If a time range is selected, this populates the **Total Spend** column. The total spend is the total amount charged to a house account and the total amount invoiced to the account. For more information, see [Paying for orders with a house account](adminGuide-platformEnableHouseAccountsPaymentMethod#platformPayWithHouseAccounts).
 
 
 

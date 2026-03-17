@@ -148,15 +148,15 @@ myToastApiClientSecret
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e98A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e98A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The identifier string for your Toast API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e103A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e103A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The secret string that corresponds to your Toast API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e105A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e105A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Always include the <code className="font-mono text-sm">userAccessType</code> value and set it to <code className="font-mono text-sm">TOAST_MACHINE_CLIENT</code>.</p></div></td>
     </tr>
   
@@ -176,19 +176,19 @@ https://`[toast-api-hostname]`/authentication/v1/authentication/login
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e128A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">POST</code> HTTP method to make an authentication request.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e130A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the HTTP <code className="font-mono text-sm">Content-Type</code> header field and set its value to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e132A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include a JSON object including your client identifier and client secret in the message body parameter. See <a href="apiDevGuide-authentication#apiMessageBodyParamForAuthenticationRequest" className="">Example 1.3, “Message body parameter for an <code className="font-mono text-sm">/authentication/login</code> endpoint request”</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e137A4C8F3C8-8D85-4C49-9326-B0697729B4A3" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send the request to the <code className="font-mono text-sm">/authentication/login</code> endpoint of the authentication API.</p></div></td>
     </tr>
   
@@ -235,35 +235,35 @@ The authentication API returns the information shown in the following example fo
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For internal use.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">scope</code> value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of remaining seconds that the authentication token is valid. For more information, see <a href="apiDevGuide-apiAuthTokenRefresh" className="">Refreshing authentication tokens</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see <a href="apiDevGuide-authentication#apiAuthenticationJwtContentsPartner" className="">Example 1.6, “JWT payload contents for partner API client access token”</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For internal use.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For internal use.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#mg_co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates that your authentication request was successful.</p></div></td>
     </tr>
   
@@ -292,51 +292,51 @@ The following example shows the JWT payload contents for a partner API client ac
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3368D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A human-readable name representing your API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3388D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The types of users that can authenticate through the system. For API clients, this is <code className="font-mono text-sm">TOAST_MACHINE_CLIENT</code>. <code className="font-mono text-sm">TOAST_MACHINE_CLIENT</code> represents the type of access credentials issued to services that use Toast APIs. </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3408D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the integration partner organization.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3428D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The type of client requesting authentication. For partner API clients, this is <code className="font-mono text-sm">PARTNER</code>. </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3458D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The issuer of the authentication token.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3508D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The subject of the token being issued. This value will be set to your client identifier and the string <code className="font-mono text-sm">@clients</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3528D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The intended audience of your API usage.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3548D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3568D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3628D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A standard JWT claim containing the identifier for the Toast API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3648D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The API functionality that your client ID is provisioned to use. For more information about API scopes, see <a href="apiDevGuide-apiScopes" className="">API scopes page</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e3668D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The grant type of this API client. This value will be <code className="font-mono text-sm">client-credentials</code>.</p></div></td>
     </tr>
   
@@ -379,35 +379,35 @@ The authentication API returns the information shown in the following example fo
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e276C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For internal use.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e278C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The OAuth 2 authentication scheme used for the authentication token. Toast API authentication uses the bearer authentication scheme.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e280C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">scope</code> value in your authentication token request response will be null. Your JSON Web Token (JWT) contains your list of scopes.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e282C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of remaining seconds that the authentication token is valid. For more information, see <a href="apiDevGuide-apiAuthTokenRefresh" className="">Refreshing authentication tokens</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e284C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A JSON Web Token (JWT) string that contains an authentication token. You present this string when you make requests to other Toast API resources. The JWT includes information about your Toast API client. For more information, see <a href="apiDevGuide-authentication#apiAuthenticationJwtContentsRMG" className="">Example 1.8, “JWT payload contents for restaurant management group API client access token”</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e287C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For internal use.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e289C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For internal use.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e291C5E153BC-CA16-4F95-AF35-6E1AEA0AA25E" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates that your authentication request was successful.</p></div></td>
     </tr>
   
@@ -436,51 +436,51 @@ The following example shows the JWT payload contents for a restaurant management
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4798D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A human-readable name representing your API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4818D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The types of users that can authenticate through the system. For API clients, this is <code className="font-mono text-sm">TOAST_MACHINE_CLIENT</code>. <code className="font-mono text-sm">TOAST_MACHINE_CLIENT</code> represents the type of access credentials issued to services that use Toast APIs. </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4838D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the restaurant management group this client can access.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4858D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The type of client requesting authentication. For restaurant management group API clients, this is <code className="font-mono text-sm">CUSTOMER</code>. </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4888D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The issuer of the authentication token.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4938D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The subject of the token being issued. This value will be set to your client identifier and the string <code className="font-mono text-sm">@clients</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4958D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The intended audience of your API usage.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4978D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A standard JWT claim indicating the time that the authentication token was issued. The time is presented in UNIX epoch format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4998D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A standard JWT claim indicating the time that the authentication token expires. The time is presented in UNIX epoch format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5058D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(10)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A standard JWT claim containing the identifier for the Toast API client.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5078D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(11)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The API functionality that your client ID is provisioned to use. For more information about API scopes, see the <a href="apiDevGuide-apiScopes" className="">API scopes page</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5098D7F9437-AF36-4CB1-B9E3-E47AFE6F8BC9" className="">(12)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The grant type of this API client. This value will be <code className="font-mono text-sm">client-credentials</code>.</p></div></td>
     </tr>
   

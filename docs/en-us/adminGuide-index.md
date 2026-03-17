@@ -5,7 +5,7 @@ type: book
 documentId: adminGuide
 nextSectionFile: adminGuide-devPortalPlatformGuideIntro.md
 nextSectionTitle: "Platform guide"
-procedures: 478
+procedures: 480
 codeExamples: 59
 ---
 

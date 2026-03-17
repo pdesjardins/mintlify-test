@@ -72,7 +72,7 @@ Here is the location of the cable ports on the Toast Flex 22.
 5. Connect the other end of the cable to the available port on the KDS device. For Toast Flex devices, this is a USB-C connector, and for Elo devices, this is a USB-A or USB-C connector.
 
 
-6. If you are currently using dynamic view on the KDS device, a dialog opens, asking you to switch to grid view. Select Switch to Grid View. The KDS device switches to using grid view and a dialog opens, asking to start the bump bar setup.
+6. If you are currently using dynamic view on the KDS device, a dialog opens, asking you to switch to grid view. Select **Switch to Grid View**. The KDS device switches to using grid view and a dialog opens, asking to start the bump bar setup.
 
 
 
@@ -82,23 +82,23 @@ Here is the location of the cable ports on the Toast Flex 22.
 
 
 
-7. Select Start setup. The screen changes to show options for selecting a button layout.
+7. Select **Start setup**. The screen changes to show options for selecting a button layout.
 
 
 8. Select the corresponding layout, according to the orientation you choose for your bump bar:
 
-- Horizontal layout
+- **Horizontal layout**
 
 
-- Vertical layout
+- **Vertical layout**
 
 
 
 
-9. Select Save. The confirmation screen opens.
+9. Select **Save**. The confirmation screen opens.
 
 
-10. Select Done. The screen for the KDS device using grid view appears.
+10. Select **Done**. The screen for the KDS device using grid view appears.
 
 
 
@@ -144,76 +144,76 @@ To set up the wireless bump bar to work with your KDS device, you first need to 
 3. On your KDS device, drag downwards from the top of the screen. A menu appears.
 
 
-4. Verify that the Bluetooth setting is set to ON.
+4. Verify that the **Bluetooth** setting is set to **ON**.
 
 ![The Bluetooth setting set to ON, on the KDS device.](https://doc.toasttab.com/doc/media/kds-wireless-bump-bar-bluetooth.png)
 
 
-5. Select and hold the Bluetooth button. The Connected devices screen opens.
+5. Select and hold the **Bluetooth** button. The **Connected devices** screen opens.
 
 ![The Connected devices screen on the KDS device.](https://doc.toasttab.com/doc/media/kds-wireless-bump-bar-connected-devices.png)
 
 
 6. Optionally if the wireless bump bar was previously connected to a different device, select and hold the following buttons on the wireless bump bar at the same time:
 
-- For horizontal orientation, the RECALL LAST, 6, and esc buttons.
+- For horizontal orientation, the **RECALL LAST**, **6**, and **esc** buttons.
 
 
-- For vertical orientation, the RECALL LAST, menu, and enter buttons.
+- For vertical orientation, the **RECALL LAST**, **menu**, and **enter** buttons.
 
 
 
-This clears previously paired information from the wireless bump bar. If the bump bar plays a chime, and the light indicator above the FULFILL button blinks red, the action is successful. If it does not, release all buttons and try again.
+This clears previously paired information from the wireless bump bar. If the bump bar plays a chime, and the light indicator above the **FULFILL** button blinks red, the action is successful. If it does not, release all buttons and try again.
 
 
-7. On the KDS device, select Pair new deviceon the Connected devices screen. The Pair new device screen opens.
+7. On the KDS device, select **Pair new device**on the **Connected devices** screen. The **Pair new device** screen opens.
 
 
-8. On the bump bar, select and hold the FULFILL button until the light indicator above the button begins flashing purple, and then release the button. The flashing purple light indicates that the device is ready to pair.
+8. On the bump bar, select and hold the **FULFILL** button until the light indicator above the button begins flashing purple, and then release the button. The flashing purple light indicates that the device is ready to pair.
 
 
-9. On the KDS device on the Pair new devicescreen, look for a device with the name KRS-followed by a sequence of numbers and letters.
+9. On the KDS device on the **Pair new device**screen, look for a device with the name **KRS-**followed by a sequence of numbers and letters.
 
 ![The Pair new device screen on the KDS device.](https://doc.toasttab.com/doc/media/kds-wireless-bump-bar-pair-new-device.png)
 
 
-10. Select the KSR bump bar name. The Pair with dialog opens.
+10. Select the KSR bump bar name. The **Pair with** dialog opens.
 
 ![The Pair with dialog on the KDS device.](https://doc.toasttab.com/doc/media/kds-wireless-bump-bar-pair-with-dialog.png)
 
 
-11. Select Pair. The KRS bump bar name appears in the list of connected devices on the Connected devices screen.
+11. Select **Pair**. The KRS bump bar name appears in the list of connected devices on the **Connected devices** screen.
 
 
 
 > **Note**
 > 
-> If the pairing is not successful, select the device from the Available devices list on the Connected devices screen. If it does not succeed after three attempts, restart from Step 1.
+> If the pairing is not successful, select the device from the **Available devices** list on the **Connected devices** screen. If it does not succeed after three attempts, restart from Step 1.
 
 
 
-12. On the KDS device, the Bump Bar Connecteddialog opens.
+12. On the KDS device, the **Bump Bar Connected**dialog opens.
 
 ![The Bump Bar Connected dialog on the KDS device.](https://doc.toasttab.com/doc/media/kds-wireless-bump-bar-connected-dialog.png)
 
 
-13. Select Start Setup. The screen changes to show options for selecting a button layout.
+13. Select **Start Setup**. The screen changes to show options for selecting a button layout.
 
 
 14. Select the corresponding layout, according to the orientation you choose for your bump bar:
 
-- Horizontal layout
+- **Horizontal layout**
 
 
-- Vertical layout
+- **Vertical layout**
 
 
 
 
-15. Select Save. The confirmation screen opens.
+15. Select **Save**. The confirmation screen opens.
 
 
-16. Select Done. The screen for the KDS device using grid view appears.
+16. Select **Done**. The screen for the KDS device using grid view appears.
 
 
 

@@ -17,15 +17,15 @@ codeExamples: 4
 
 In Toast Web, you can configure a modifier option's underlying [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference) to use one of the following tax behaviors:
 
-- Inherit item tax rate: The modifier is taxed at the same rate as the parent menu item. For example, if the menu item is taxed at 6.25%, then the modifier option is also taxed at the 6.25% rate. This is the default behavior.
+- **Inherit item tax rate:** The modifier is taxed at the same rate as the parent menu item. For example, if the menu item is taxed at 6.25%, then the modifier option is also taxed at the 6.25% rate. This is the default behavior.
 
 
-- Unique tax rate applied to modifiers: The modifier option is configured with a tax rate that is different from the parent menu item and is applied separately from the menu item tax rate. For example, a menu item is taxed at a 6.25% rate and the modifier option is taxed at a 2.75% rate.
+- **Unique tax rate applied to modifiers:** The modifier option is configured with a tax rate that is different from the parent menu item and is applied separately from the menu item tax rate. For example, a menu item is taxed at a 6.25% rate and the modifier option is taxed at a 2.75% rate.
 
 If the menu item has multiple modifier options, each modifier option may have its own unique tax rate. For example, a pizza menu item is taxed at 6.25%, a pineapple modifier option has a unique tax rate of 4.25%, and a pepperoni modifier option has a unique tax rate of 3.50%.
 
 
-- Modifier tax rate overrides item tax rate: The modifier option has a different tax rate than its parent menu item and the modifier option tax rate overrides the menu item tax rate. This means that both the menu item and the modifier option are taxed at the rate configured for the modifier option. For example, if the menu item is configured for a 6.25% tax rate and the modifier option is configured for a 2.75% tax rate, when that modifier option is applied to the menu item, both are taxed at the 2.75% tax rate. Note that the menu item's tax rate is overridden only if the modifier option is added to the menu item on a Toast POS device. The modifier option may be available to apply to the menu item, but if it is not added to the menu item on an order, then the menu item's tax rate is not overridden.
+- **Modifier tax rate overrides item tax rate:** The modifier option has a different tax rate than its parent menu item and the modifier option tax rate overrides the menu item tax rate. This means that both the menu item and the modifier option are taxed at the rate configured for the modifier option. For example, if the menu item is configured for a 6.25% tax rate and the modifier option is configured for a 2.75% tax rate, when that modifier option is applied to the menu item, both are taxed at the 2.75% tax rate. Note that the menu item's tax rate is overridden only if the modifier option is added to the menu item on a Toast POS device. The modifier option may be available to apply to the menu item, but if it is not added to the menu item on an order, then the menu item's tax rate is not overridden.
 
 Also, if more than one modifier option that is configured to override the menu item's tax rates is added to a menu item, the Toast platform defaults to using the menu item's tax rate and ignores all of the modifier option tax rates.
 

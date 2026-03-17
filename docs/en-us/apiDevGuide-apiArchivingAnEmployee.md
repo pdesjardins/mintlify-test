@@ -67,7 +67,7 @@ https://`[toast-api-hostname]`/labor/v1/employees/`b7946411-7d45-4beb-9bfc-0ec73
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e132768FECD0D-59E6-4C90-91D2-B1AB1B54B400" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the Toast platform identifier for the employee in the path parameter of the request.</p></div></td>
     </tr>
   
@@ -103,11 +103,11 @@ The following example shows the response for a `DELETE` request to archive an em
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1337B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">When you archive an employee, the <code className="font-mono text-sm">deleted</code> value is set to <code className="font-mono text-sm">true</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1339B9ABC104-B7F3-4146-920F-E773D7BDABD9" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">deletedDate</code> value indicates the date and time you archived the employee.</p></div></td>
     </tr>
   

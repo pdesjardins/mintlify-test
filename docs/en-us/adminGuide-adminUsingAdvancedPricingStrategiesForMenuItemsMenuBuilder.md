@@ -68,13 +68,13 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 **Procedure 8.35. To set a size price in the menu builder**
 
-1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set size prices for, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set size prices for, select **Items**.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
 
 
-3. In the Pricing section, select the Size price strategy. You see a set of rows for defining the size prices. By default, rows are added for Small, Medium, and Large sizes.
+3. In the **Pricing** section, select the **Size price** strategy. You see a set of rows for defining the size prices. By default, rows are added for **Small**, **Medium**, and **Large** sizes.
 
 
 4. Optionally, do any of the following to customize the menu item's sizes:
@@ -82,7 +82,7 @@ It is important to note that not all pricing strategies are supported on all Toa
 - To change the name of a size, select the name and type a new one.
 
 
-- To add another size, select Add size price. A new row is added where you can specify the size's name and price.
+- To add another size, select **Add size price**. A new row is added where you can specify the size's name and price.
 
 
 - To delete a size, select the trash icon next to the size.
@@ -96,13 +96,13 @@ It is important to note that not all pricing strategies are supported on all Toa
 6. Delete any empty size price rows.
 
 
-7. When you are finished editing the menu item, select Save.
+7. When you are finished editing the menu item, select **Save**.
 
 
-8. Select the X icon in the upper-left corner to return to the menu builder home page.
+8. Select the **X** icon in the upper-left corner to return to the menu builder home page.
 
 
-9. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
+9. If you are ready for guests and employees to see these menu changes, select **Publish all changes**, then select **Publish** again in the **Confirm Publish** dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
@@ -115,42 +115,42 @@ It is important to note that not all pricing strategies are supported on all Toa
 > For items that have a daily market price, Toast support recommends configuring the item with an open price and then using [Quick Edit](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057#:~:text=Since%20Toast%20is%20a%20cloud,Quick%20Edit%20Mode%2C%20select%20OK.) mode on a Toast POS device to set a price for the item each day. This ensures that the price is accurate and employees don't have to enter a price every time the item is ordered.
 
 
-1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an open price for, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an open price for, select **Items**.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
 
 
-3. In the Pricing section, select the Open price strategy.
+3. In the **Pricing** section, select the **Open price** strategy.
 
 
-4. Select Save.
+4. Select **Save**.
 
 
-5. Select the X icon in the upper-left corner to return to the menu builder home page.
+5. Select the **X** icon in the upper-left corner to return to the menu builder home page.
 
 
-6. If you are ready for guests and employees to see these menu changes, select Publish all changes, then select Publish again in the Confirm Publish dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
+6. If you are ready for guests and employees to see these menu changes, select **Publish all changes**, then select **Publish** again in the **Confirm Publish** dialog. For more information, see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu).
 
 
 
 **Procedure 8.37. To set an advanced price using the classic menu item details page**
 
-1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an advanced price for, select Items.
+1. On the details page for the [menu group](adminGuide-adminCreatingYourMenuHierarchy#adminToEditAMenuGroup) or [subgroup](adminGuide-adminCreatingYourMenuHierarchy#adminToEditASubgroup) that contains the menu item you want to set an advanced price for, select **Items**.
 
 
 2. Select the edit icon (pencil) for the menu item you want to edit.
 
 
-3. Select More item settings to go to the More item settings section, then select More item settings again to view the menu item's classic details page.
+3. Select **More item settings** to go to the **More item settings** section, then select More item settings again to view the menu item's classic details page.
 
 
-4. If you want to use the Menu Specific Priceor Time Specific Price pricing strategy, do the following:
+4. If you want to use the **Menu Specific Price**or **Time Specific Price** pricing strategy, do the following:
 
-- Leave the Pricing Provider section set to Specify pricing on this item.
+- Leave the **Pricing Provider** section set to **Specify pricing on this item**.
 
 
-- In the Pricing Strategy section, choose the advanced pricing strategy and fill out its configuration details. Click a link below for specific instructions for each strategy type:
+- In the **Pricing Strategy** section, choose the advanced pricing strategy and fill out its configuration details. Click a link below for specific instructions for each strategy type:
 
 - [Menu Specific Price](adminGuide-adminMenuSpecificPrice#adminToCreateMenuSpecificPricesForAMenuItem)
 
@@ -162,7 +162,7 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 
 
-5. If you want to use price levels, set the Pricing Provider section to Price level and then choose a price level from the Price Leveldropdown list.
+5. If you want to use price levels, set the **Pricing Provider** section to **Price level** and then choose a price level from the **Price Level**dropdown list.
 
 
 
@@ -172,10 +172,10 @@ It is important to note that not all pricing strategies are supported on all Toa
 
 
 
-6. At the top of the page, select Save.
+6. At the top of the page, select **Save**.
 
 
-7. If you are ready for your guests to see these menu changes, select Publish Now in the green banner that appears (see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information). If not, skip to the next step.
+7. If you are ready for your guests to see these menu changes, select **Publish Now** in the green banner that appears (see [Understanding when to publish your menu](adminGuide-adminUnderstandingWhenToPublishYourMenu) for more information). If not, skip to the next step.
 
 
 8. To return to the menu builder, select your browser's back button twice.

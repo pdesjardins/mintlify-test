@@ -62,10 +62,10 @@ Review and implement the instructions in [How to build a Toast integration](devC
 
 Reservation integrations can follow one of two methods:
 
-- [Read-only reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegReadOnly): Manage reservations within your system without sharing details with the Toast platform.
+- **[Read-only reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegReadOnly)****:** Manage reservations within your system without sharing details with the Toast platform.
 
 
-- [Read-write reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegWrite): Your integration will pass reservation information to the Toast platform.
+- **[Read-write reservation integration](devCookbook-apiIntegrationChecklistReservation#reservationIntegWrite):** Your integration will pass reservation information to the Toast platform.
 
 
 
@@ -274,39 +274,39 @@ The workflow below outlines how to create a reservation in your system and submi
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-diningOption" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-diningOption" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">diningOption</code> used by restaurants for orders with a dining behavior of <code className="font-mono text-sm">DINE_IN</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-revenueCenter" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-revenueCenter" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">revenueCenter</code> used by the restaurant for reservation orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-table" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-table" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">table</code> the guest has been assigned to.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-numberOfGuests" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-numberOfGuests" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The number of guests for the reservation.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-server" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-server" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The employee guid of the <code className="font-mono text-sm">server</code> assigned to the reservation.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-tabName" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-tabName" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">tabName</code> for the order to identify your reservation and guest information.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-serviceCharge" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-serviceCharge" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">serviceCharge</code> used by the restaurant for reservation orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-deposit" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-deposit" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The deposit amount.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-otherPayment" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-res-otherPayment" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The guid used to identify the <code className="font-mono text-sm">alternativePaymentType</code> used for reservation deposits.</p></div></td>
     </tr>
   

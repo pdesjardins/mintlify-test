@@ -41,11 +41,11 @@ https://`[toast-api-hostname]`/cashmgmt/v1/deposits?businessDate=20190918
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e340BCBEC7F8-786B-4966-9AA6-0D290AA55A72" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e340BCBEC7F8-786B-4966-9AA6-0D290AA55A72" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve cash deposits. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e345BCBEC7F8-786B-4966-9AA6-0D290AA55A72" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e345BCBEC7F8-786B-4966-9AA6-0D290AA55A72" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">businessDate</code> request parameter to specify the date (in <code className="font-mono text-sm">yyyyMMdd</code> format) on which the cash deposits were created.</p></div></td>
     </tr>
   
@@ -74,23 +74,23 @@ The following example shows a `DepositEntry` object in the response data from th
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e436A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e436A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of this <code className="font-mono text-sm">DepositEntry</code> object.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e438A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e438A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the cash deposit was made.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e440A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e440A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The amount of the deposit. The <code className="font-mono text-sm">amount</code> value must be greater than zero.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e442A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e442A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID or external identifier of the restaurant employee who created the cash deposit.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e444A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e444A964BCF4-D54B-4D7D-8984-EE06A9BC0B09" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the deposit entry that was undone. The value is <code className="font-mono text-sm">null</code> if this deposit entry does not undo a previous deposit entry.</p></div></td>
     </tr>
   

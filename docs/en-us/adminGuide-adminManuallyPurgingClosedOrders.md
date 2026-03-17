@@ -19,13 +19,13 @@ If you choose to manually initiate a closed order purge, the process is effectiv
 
 **Procedure 2.5. To manually purge closed orders**
 
-1. At the top of the screen, tap Switch User.
+1. At the top of the screen, tap **Switch User**.
 
 
 2. Tap the overflow menu (⋮) in the upper-right of the screen.
 
 
-3. Tap Clear Closed Orders in the menu.
+3. Tap **Clear Closed Orders** in the menu.
 
 
 4. Repeat this process on all devices that require it.

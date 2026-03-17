@@ -65,15 +65,15 @@ The tax amount information for those orders is presented in categories that indi
 
 **Marketplace facilitator tax information reporting categories**
 
-- Marketplace Facilitator Taxes Paid - tax amounts for which the marketplace facilitator *has*remitted tax payments on behalf of your restaurant
+- **Marketplace Facilitator Taxes Paid** - tax amounts for which the marketplace facilitator *has*remitted tax payments on behalf of your restaurant
 
 
-- Toast Marketplace Facilitator Taxes Paid - tax amounts for which Toast *has* remitted tax payments for your restaurant. For Local by Toast app and Toast Local orders only.
+- **Toast Marketplace Facilitator Taxes Paid** - tax amounts for which Toast *has* remitted tax payments for your restaurant. For Local by Toast app and Toast Local orders only.
 
 
-- Marketplace Facilitator Taxes Not Paid - tax amounts for which the marketplace facilitator *has not* remitted tax payments on behalf of your restaurant.
+- **Marketplace Facilitator Taxes Not Paid** - tax amounts for which the marketplace facilitator *has not* remitted tax payments on behalf of your restaurant.
 
-You will only see tax amounts categorized as Marketplace Facilitator Taxes Not Paid if the following conditions are met:
+You will only see tax amounts categorized as **Marketplace Facilitator Taxes Not Paid** if the following conditions are met:
 
 - Your restaurant location is in a taxing jurisdiction that only requires marketplace facilitators to remit the taxes for that jurisdiction and not taxes for other jurisdictions (for example local or municipal taxes).
 
@@ -88,20 +88,20 @@ For information about how a marketplace facilitator organization remits tax amou
 
 Marketplace facilitator tax payment information is available in the following reporting resources.
 
-- The tax table section of the Sales Summaryreport. Choose Reports &gt; Sales &gt; Sales summary to open the Sales Summaryreport tab.
+- The tax table section of the **Sales Summary**report. Choose **Reports &gt; Sales &gt; Sales summary** to open the **Sales Summary**report tab.
 
 
-- The Taxes table of the Accounting Overview report. Choose Reports &gt; Accounts &gt; Accounting overview to open the Accounting Overview report.
+- The **Taxes** table of the **Accounting Overview** report. Choose **Reports &gt; Accounts &gt; Accounting** overview to open the **Accounting Overview** report.
 
 
 
-The following diagram shows marketplace facilitator tax amounts in the Sales Summary report.
+The following diagram shows marketplace facilitator tax amounts in the **Sales Summary** report.
 
 
 
 > **Note**
 > 
-> Toast Marketplace Facilitator Taxes Paid only appear in the Sales Summary report. For a cumulative total of all Marketplace Facilitator Taxes Paid, see the Accounting Overview report.
+> Toast Marketplace Facilitator Taxes Paid only appear in the **Sales Summary** report. For a cumulative total of all Marketplace Facilitator Taxes Paid, see the **Accounting Overview** report.
 
 
 ![Marketplace facilitator order tax amounts appear in Toast platform reporting information.](https://doc.toasttab.com/doc/media/marketplace-facilitator-tax-amount-reporting.png)
@@ -110,7 +110,7 @@ The following diagram shows marketplace facilitator tax amounts in the Sales Sum
 
 > **Note**
 > 
-> Toast platform reporting information includes many aggregated tax calculations that are not broken down by marketplace facilitator tax payment categories. This excludes Local by Toast and Toast Local which can be found in the Sales Summary Report. Aggregated tax amount calculations other than the ones described in this section include *both paid and unpaid* marketplace facilitator tax amounts.
+> Toast platform reporting information includes many aggregated tax calculations that are not broken down by marketplace facilitator tax payment categories. This excludes Local by Toast and Toast Local which can be found in the **Sales Summary Report**. Aggregated tax amount calculations other than the ones described in this section include *both paid and unpaid* marketplace facilitator tax amounts.
 
 
 ### Calculating tax amounts

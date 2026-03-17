@@ -26,7 +26,7 @@ To keep track of how long ordered items are taking to fulfill, the KDS device di
 
 ## About ticket times
 
-Every kitchen ticket that appears on a KDS device includes the *ticket time*, which is a stopwatch-style digital clock, in the upper right corner. The ticket time starts counting at 0:00 when a server sends an order to the kitchen (using Send, Stay, or other order screen buttons as configured for your restaurant) or an online order comes in. The timer runs until the ticket is completely fulfilled, which depends on your configuration. Complete fulfillment includes prep station KDS devices and expediter KDS devices if the prep stations are configured to [send to expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). If you use two-level fulfillment, this includes fulfillment at the second-level expediter KDS device. For an example of two-level fulfillment, see [KDS workflow using two expediters](adminGuide-platformKDSWorkflowUsingTwoExpo).
+Every kitchen ticket that appears on a KDS device includes the *ticket time*, which is a stopwatch-style digital clock, in the upper right corner. The ticket time starts counting at 0:00 when a server sends an order to the kitchen (using **Send**, **Stay**, or other order screen buttons as configured for your restaurant) or an online order comes in. The timer runs until the ticket is completely fulfilled, which depends on your configuration. Complete fulfillment includes prep station KDS devices and expediter KDS devices if the prep stations are configured to [send to expediter](adminGuide-adminKitchenDiningRoomReference#configSendToExpediter). If you use two-level fulfillment, this includes fulfillment at the second-level expediter KDS device. For an example of two-level fulfillment, see [KDS workflow using two expediters](adminGuide-platformKDSWorkflowUsingTwoExpo).
 
 In this example, the ticket time is circled on a prep station KDS device ticket.
 
@@ -34,32 +34,32 @@ In this example, the ticket time is circled on a prep station KDS device ticket.
 
 ## Fire times on prep station tickets
 
-If you set the [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) setting to Send all courses to kitchen immediately, a *fire time* appears above the items on the prep station KDS device ticket. The fire time shows how long ago the Toast platform fired the course to the prep station KDS device with the intention to start working on that course. The fire time for a prep station KDS device ticket depends on your Firing Courses and Automated Firing settings on the Kitchen &gt; Pacing &gt; Meal pacing page.
+If you set the [**Sending Courses**](adminGuide-adminKitchenDiningRoomReference#configSendingCourses) setting to **Send all courses to kitchen immediately**, a *fire time* appears above the items on the prep station KDS device ticket. The fire time shows how long ago the Toast platform fired the course to the prep station KDS device with the intention to start working on that course. The fire time for a prep station KDS device ticket depends on your **Firing Courses** and **Automated Firing** settings on the **Kitchen &gt; Pacing &gt; Meal pacing** page.
 
 
 
 > **Note**
 > 
-> The [Course Pacing](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) setting must have the Enable course pacing checkbox selected to access the [Sending Courses](adminGuide-adminKitchenDiningRoomReference#configSendingCourses), [Firing Courses](adminGuide-adminKitchenDiningRoomReference#configFiringCourses), and [Automated Firing](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) settings.
+> The [**Course Pacing**](adminGuide-adminKitchenDiningRoomReference#configCoursePacing) setting must have the **Enable course pacing** checkbox selected to access the [**Sending Courses**](adminGuide-adminKitchenDiningRoomReference#configSendingCourses), [**Firing Courses**](adminGuide-adminKitchenDiningRoomReference#configFiringCourses), and [**Automated Firing**](adminGuide-adminKitchenDiningRoomReference#configAutomatedFiring) settings.
 
 
-- If the Firing Courses setting is set to Server fires courses individually, the course is fired from an order screen on the Toast POS device by the server.
+- If the **Firing Courses** setting is set to **Server fires courses individually**, the course is fired from an order screen on the Toast POS device by the server.
 
 
-- If the Firing Courses setting is set to Automate course firing, the course is fired depending on the Automated Firingsetting.
+- If the **Firing Courses** setting is set to **Automate course firing**, the course is fired depending on the **Automated Firing**setting.
 
-- If the Automated Firing setting is set to When previous course is fulfilled by all prep stations, the course is fired when the previous course is fulfilled by all prep stations. The first course or items with no course assigned are fired immediately.
-
-
-- If the Automated Firing setting is set to When previous course is fulfilled by the expediter, the course is fired when the previous course is fulfilled by the expediter KDS devices. The first course or items with no course assigned are fired immediately.
+- If the **Automated Firing** setting is set to **When previous course is fulfilled by all prep stations**, the course is fired when the previous course is fulfilled by all prep stations. The first course or items with no course assigned are fired immediately.
 
 
-- If the Automated Firing setting is set to On a timed schedule, the course is fired when a configured number of seconds has passed. The first course or items with no course assigned are fired immediately.
+- If the **Automated Firing** setting is set to **When previous course is fulfilled by the expediter**, the course is fired when the previous course is fulfilled by the expediter KDS devices. The first course or items with no course assigned are fired immediately.
+
+
+- If the **Automated Firing** setting is set to **On a timed schedule**, the course is fired when a configured number of seconds has passed. The first course or items with no course assigned are fired immediately.
 
 
 
 
-- If the Firing Courses setting is set to Expediter fires courses individually, the course is fired manually from the expediter KDS device.
+- If the **Firing Courses** setting is set to **Expediter fires courses individually**, the course is fired manually from the expediter KDS device.
 
 
 
@@ -71,7 +71,7 @@ The fire time starts counting at 0:00 when the course is fired. In this example,
 
 When the ticket time and the fire time are the same, like in this example, the course is fired when the order is first sent to the kitchen.
 
-In the following example, the prep station KDS device displays tickets for an order with two drinks in a Drinks course, two appetizers in an Appetizers course, and two entrees in an Entrees course. The Course Pacing setting is enabled, with the Firing Courses setting set to Server fires courses individually. Ticket times are circled and fire times are boxed to show the differences.
+In the following example, the prep station KDS device displays tickets for an order with two drinks in a Drinks course, two appetizers in an Appetizers course, and two entrees in an Entrees course. The **Course Pacing** setting is enabled, with the **Firing Courses** setting set to **Server fires courses individually**. Ticket times are circled and fire times are boxed to show the differences.
 
 ![A prep station KDS device with three course tickets for a single order, with two courses fired and the third held.](https://doc.toasttab.com/doc/media/kitchen-kds-pacing-drinks-apps-courses-fired-prep.png)
 
@@ -81,7 +81,7 @@ In the following example, the prep station KDS device displays tickets for an or
 2. The Appetizers course is fired by the server soon after the Drinks course. The fire time is shorter than the Drinks course, but the ticket times are the same.
 
 
-3. The Entrees course has not been fired by the server yet. Instead of a fire time, the ticket shows HELD to indicate that it has not been fired. Items not yet fired are displayed in italic font. The ticket time remains the same across courses.
+3. The Entrees course has not been fired by the server yet. Instead of a fire time, the ticket shows **HELD** to indicate that it has not been fired. Items not yet fired are displayed in italic font. The ticket time remains the same across courses.
 
 
 
@@ -99,7 +99,7 @@ The following example shows the expediter tickets for an order with two drinks i
 2. The ticket for the Appetizers course. The fire time shows that the Appetizers course was fired after the Drinks course. The ticket time is the same as the Drinks course.
 
 
-3. The ticket for the Entrees course. The fire time says HELD to indicate that the ticket and course hasn't been fired. Items not yet fired are displayed in italic font. The ticket time is the same across all courses.
+3. The ticket for the Entrees course. The fire time says **HELD** to indicate that the ticket and course hasn't been fired. Items not yet fired are displayed in italic font. The ticket time is the same across all courses.
 
 
 

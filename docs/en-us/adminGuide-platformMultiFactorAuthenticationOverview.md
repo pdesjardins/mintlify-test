@@ -26,10 +26,10 @@ MFA is one of the simplest and most effective ways for Toast users to protect th
 
 Ideally, anyone with access to critical systems or operations should enroll in MFA, but it is particularly important for users with financial permissions. For this reason, employees with the following permissions are required to use MFA.
 
-- 8.1 Financial Accounts
+- **8.1 Financial Accounts**
 
 
-- 8.7 Instant Deposit
+- **8.7 Instant Deposit**
 
 
 

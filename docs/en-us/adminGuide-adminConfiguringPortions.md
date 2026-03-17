@@ -36,15 +36,15 @@ To configure portions, you must:
 
 Detailed instructions for each of these configurations is provided below.
 
-**Procedure 8.139. To create the portions**
+**Procedure 8.143. To create the portions**
 
 1. Log in to Toast Web.
 
 
-2. Choose Menus &gt; Menu management &gt; Portions to open the Portionspage.
+2. Choose **Menus &gt; Menu management &gt; Portions** to open the **Portions**page.
 
 
-3. Click the Add button to add a new portion.
+3. Click the **Add** button to add a new portion.
 
 
 4. Enter a name for the portion, for example, **`1st Half`**.
@@ -53,13 +53,13 @@ Detailed instructions for each of these configurations is provided below.
 5. Optionally, enter a POS name and choose a button color for the portion.
 
 
-6. If you want to alter the price of modifiers applied to this portion, enter a number between 0 and 100, with no more than 2 decimal places, in the Price Multiplier field.
+6. If you want to alter the price of modifiers applied to this portion, enter a number between 0 and 100, with no more than 2 decimal places, in the **Price Multiplier** field.
 
 
-7. Click Save.
+7. Click **Save**.
 
 
-8. At the top of the page, click the Portionslink to return to the Portions page.
+8. At the top of the page, click the **Portions**link to return to the **Portions** page.
 
 
 9. Repeat these steps to add any other portion you require.
@@ -69,12 +69,12 @@ Detailed instructions for each of these configurations is provided below.
 
 
 
-**Procedure 8.140. To enable portions on a menu item**
+**Procedure 8.144. To enable portions on a menu item**
 
 1. Log in to Toast Web.
 
 
-2. Choose Menus &gt; Menu management &gt; Advanced properties to open the Advanced properties page.
+2. Choose **Menus &gt; Menu management &gt; Advanced properties** to open the **Advanced properties** page.
 
 
 3. Expand the menu and menu groups as necessary to locate a menu item that should have portions enabled.
@@ -83,7 +83,7 @@ Detailed instructions for each of these configurations is provided below.
 4. Click the menu item's name to view its details page.
 
 
-5. Under the Portions section, click the portions that apply to this menu item.
+5. Under the **Portions** section, click the portions that apply to this menu item.
 
 
 6. Save and publish your changes.
@@ -93,12 +93,12 @@ Detailed instructions for each of these configurations is provided below.
 
 
 
-**Procedure 8.141. To enable portions on a modifier group**
+**Procedure 8.145. To enable portions on a modifier group**
 
 1. Log in to Toast Web.
 
 
-2. Choose Menus &gt; Menu management &gt; Advanced properties to open the Advanced properties page.
+2. Choose **Menus &gt; Menu management &gt; Advanced properties** to open the **Advanced properties** page.
 
 
 3. Expand the menu and menu groups as necessary to locate a modifier group that should have portions enabled.
@@ -107,7 +107,7 @@ Detailed instructions for each of these configurations is provided below.
 4. Click the modifier group's name to view its details page.
 
 
-5. Under the Properties section, set the Enable Portions configuration setting to Yes, this modifier group will appear under portions.
+5. Under the **Properties** section, set the **Enable Portions** configuration setting to **Yes, this modifier group will appear under portions**.
 
 
 6. Save and publish your changes.

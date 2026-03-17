@@ -24,21 +24,21 @@ An important task in operating a restaurant is keeping track of the inventory of
 > The menu item inventory status feature described here is not related to the Toast Inventory module.
 
 
-Each menu item details page has an Inventoryproperty that lists the status of the menu item's inventory:
+Each menu item details page has an **Inventory**property that lists the status of the menu item's inventory:
 
 ![The Inventory property of a menu item.](https://doc.toasttab.com/doc/media/item-inventory-status.png)
 
 The menu item's inventory status will be one of these values:
 
-- In Stock - the menu item is in stock in the restaurant and can be selected for an order. In Stock is the default value when you add a new menu item to a menu. The menu item's status remains as In Stock until you manually change the status.
+- **In Stock** - the menu item is in stock in the restaurant and can be selected for an order. **In Stock** is the default value when you add a new menu item to a menu. The menu item's status remains as **In Stock** until you manually change the status.
 
 
-- Out of Stock - the menu item is no longer in stock in the restaurant. The number `0` (zero) displays on the menu item's button on the Toast POS device, which indicates that you cannot select the menu item for an order. The menu item's status remains as Out of Stock until you manually change the status. Changing the inventory status of a menu item to Out of Stock is known as 86ing the menu item.
+- **Out of Stock** - the menu item is no longer in stock in the restaurant. The number `0` (zero) displays on the menu item's button on the Toast POS device, which indicates that you cannot select the menu item for an order. The menu item's status remains as **Out of Stock** until you manually change the status. Changing the inventory status of a menu item to **Out of Stock** is known as 86ing the menu item.
 
 
-- Quantity - the menu item is in limited supply. The amount of remaining menu items is indicated by a Quantity field in the Inventory section. The quantity number also displays on the menu item's button on the Toast POS device.
+- **Quantity** - the menu item is in limited supply. The amount of remaining menu items is indicated by a **Quantity** field in the **Inventory** section. The quantity number also displays on the menu item's button on the Toast POS device.
 
-After you manually set the Quantity status for a menu item, the quantity amount is automatically decreased by the Toast platform each time you order that menu item. For example, if you set a quantity of 8 for a hamburger menu item and then you order two hamburgers, the number in the Quantity field automatically decreases to 6 when you send the order to the kitchen. When the quantity amount reaches 0 (zero), the Toast platform automatically changes the inventory status to Out of Stock for the menu item.
+After you manually set the **Quantity** status for a menu item, the quantity amount is automatically decreased by the Toast platform each time you order that menu item. For example, if you set a quantity of 8 for a hamburger menu item and then you order two hamburgers, the number in the **Quantity** field automatically decreases to 6 when you send the order to the kitchen. When the quantity amount reaches 0 (zero), the Toast platform automatically changes the inventory status to **Out of Stock** for the menu item.
 
 
 

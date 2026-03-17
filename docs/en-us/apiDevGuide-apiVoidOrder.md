@@ -32,7 +32,7 @@ You might want to void an order if:
 
 When you void an order, you must also void the order's payment at the same time. **Once an order has been voided, it can not be updated. **Even if an order is voided, you can still retrieve the order with the `/orders/<em>&#123;guid&#125;</em>`and `/ordersBulk` endpoints of the orders API. For more information about retrieving an order, see [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 
-Voided orders can also be found in the Orders and Order details reports in Toast Web.
+Voided orders can also be found in the **Orders** and **Order details** reports in Toast Web.
 
 The following sections describe: 
 
@@ -59,7 +59,7 @@ Once an order has been voided, you can expect the following updates.
 - The order is removed from the Toast POS app after some time.
 
 
-- A new VOIDED ticket is printed for the order.
+- A new **VOIDED** ticket is printed for the order.
 
 
 - The following values are updated in the order payload: 
@@ -86,7 +86,7 @@ To void an order, ensure the following:
 - Your API client must have the `orders.channel:void`scope. For more information about scopes, see [Scopes](apiDevGuide-apiScopes).
 
 
-- The order was placed using an Other payment option and not with a cash or card payment. For more information about other payment options, see [Other payment workflows](adminGuide-platformPwfTenders#platformPwfOther).
+- The order was placed using an **Other payment option** and not with a cash or card payment. For more information about other payment options, see [Other payment workflows](adminGuide-platformPwfTenders#platformPwfOther).
 
 
 - The order is not already voided or deleted.
@@ -196,7 +196,7 @@ The example response from the orders API below shows a portion of an order with 
   
 ## Displaying voided orders on a kitchen display system (KDS)
 
-If your restaurant uses a kitchen display system (KDS) voided orders still show on the KDS, but are updated with strikethrough text styling and the word VOIDED in parenthesis for each voided item selection. The image below shows an example of this update.
+If your restaurant uses a kitchen display system (KDS) voided orders still show on the KDS, but are updated with strikethrough text styling and the word **VOIDED** in parenthesis for each voided item selection. The image below shows an example of this update.
 
 ![A voided order updated with strikethrough text.](https://doc.toasttab.com/doc/media/apiVoidOrderVoidedOrder.png)
 
@@ -204,9 +204,9 @@ If your restaurant uses a kitchen display system (KDS) voided orders still show 
 
 Currently, the orders API `void` endpoint supports voiding orders with the following payment types.
 
-- Other payment types.: The Other payment is a custom payment type you can configure to meet additional needs. For more information about Other payment types, see [Other payment workflows](adminGuide-platformPwfTenders#platformPwfOther).
+- **Other payment types**.: The **Other** payment is a custom payment type you can configure to meet additional needs. For more information about **Other** payment types, see [Other payment workflows](adminGuide-platformPwfTenders#platformPwfOther).
 
-If you try to void an order that has a payment type that is not an Other payment type, such as cash or card, you see the following 400 error response:
+If you try to void an order that has a payment type that is not an **Other** payment type, such as cash or card, you see the following 400 error response:
 
 
 ```

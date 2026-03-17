@@ -123,27 +123,27 @@ The following example message body for an order shows a modifier and a pre-modif
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7033FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7033FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu group for this menu item selection. For example, this menu group might contain salads.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7053FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7053FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item for this menu item selection. For example, this menu item might be a garden salad.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7073FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7073FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the modifier group for this item selection. For example, this modifier group might contain salad dressings.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7093FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7093FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the modifier for this item selection. For example, this modifier might be the balsamic vinaigrette dressing.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7113FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7113FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">To specify a pre-modifier for a modifier, add the <code className="font-mono text-sm">preModifier</code> value to the modifier.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7143FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7143FC4C568-0F57-4B5C-8AAB-DDDDF0D89BC7" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the pre-modifier for this modifier. For example, the pre-modifier might be <code className="font-mono text-sm">NO</code> or <code className="font-mono text-sm">EXTRA</code>.</p></div></td>
     </tr>
 ### Requirements for modifier quantities
@@ -212,19 +212,19 @@ The following excerpt from an `Order` object shows a menu item selection for fiv
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-1-co" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-1-co" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID of the menu item. For example, the menu item Key Lime Pie.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-2-co" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-2-co" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Quantity of the menu item. For example, five Key Lime Pies.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-3-co" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-3-co" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Modifier, specified in the <code className="font-mono text-sm">modifiers</code> array. For example, Whipped Cream.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-4-co" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#nested_modifier_example2-4-co" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Quantity of the modifier. For example, five Whipped Creams (one whipped cream per pie).</p></div></td>
     </tr>
 ### Using nested modifier groups sourced from menu groups
@@ -331,19 +331,19 @@ The example below shows the correct modifier structure for an orders API POST re
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-optionGroup-guid" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-optionGroup-guid" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the specific modifier group that controls the rules, choices, and pricing for the modifier being selected.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-itemgroup-guid" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-itemgroup-guid" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the menu group that contains the modifier item being selected. This identifies the group of options for example, Sauces, or Sides, that the modifier item belongs to.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-parent-item" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-parent-item" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the specific menu item selection that is chosen as the parent-level modifier. This identifies the modifier choice itself for example, Add Extra Cheese.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-child-item" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-nested-mod-child-item" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the specific menu item selection chosen as a nested modifier. This is used when a modifier item itself has additional, secondary options applied to it for example, specifying well done for a side steak's temperature modifier.</p></div></td>
     </tr>
 ### Adding the same modifier multiple times to a menu item selection
@@ -416,23 +416,23 @@ The following JSON body example adds whipped cream twice to a slice of cherry pi
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-1-co" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-1-co" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID of the menu item. For example, Cherry Pie.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-2-co" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-2-co" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Quantity of the menu item. For example, one Cherry Pie.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-3-co" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-3-co" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">First modifier, specified in the <code className="font-mono text-sm">modifiers</code> array. For example, the first Whipped Cream.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-4-co" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-4-co" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Quantity of the modifier. For example, one Whipped Cream.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-5-co" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#modifier_quantity_example1-5-co" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Another modifier with a quantity of one, specified in the <code className="font-mono text-sm">modifiers</code> array. For example, the second Whipped Cream.</p></div></td>
     </tr>
 ### Including default modifiers
@@ -534,47 +534,47 @@ The following example order JSON applies modifiers to portions of a menu item se
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1109D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1109D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu group for this item selection. For example, this menu group might be "pizzas."</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1111D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1111D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the menu item for this item selection. For example, this menu item might be "cheese pizza."</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1113D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1113D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Apply portions to the menu item selection in the <code className="font-mono text-sm">modifiers</code> value for that item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1115D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1115D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of one of the portions configured for this menu item. For example, this portion might be "half1."</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#coSelectionTypePortion" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#coSelectionTypePortion" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include a <code className="font-mono text-sm">selectionType</code> value and include the value <code className="font-mono text-sm">PORTION</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1117D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1117D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Apply modifiers to a portion in the <code className="font-mono text-sm">modifiers</code> value for that portion.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1120D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1120D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the modifier group for this item selection. For example, this modifier group might be "pizza toppings."</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1122D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1122D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the modifier for this item selection. For example, this modifier might be "mushrooms."</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1124D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1124D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of another portion configured for this menu item. For example, this portion might be "half2."</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#coSelectionTypePortion2" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#coSelectionTypePortion2" className="">(10)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include a <code className="font-mono text-sm">selectionType</code> value and include the value <code className="font-mono text-sm">PORTION</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1126D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1126D6B515F8-3D74-448A-9642-BF572CBAA71C" className="">(11)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Apply modifiers to a portion in the <code className="font-mono text-sm">modifiers</code> value for that portion.</p></div></td>
     </tr>
 ## Special requests and instructions
@@ -637,14 +637,14 @@ The following example JSON message body for a `POST` request to the orders API i
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e121793B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e121793B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include special requests in the array of modifiers for a menu item selection.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e122193B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e122193B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the <code className="font-mono text-sm">selectionType</code> value to <code className="font-mono text-sm">SPECIAL_REQUEST</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e121993B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e121993B42929-C18C-4AE5-98EB-4E7D465F2377" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In the <code className="font-mono text-sm">displayName</code> value, enter the request message.</p></div></td>
     </tr>

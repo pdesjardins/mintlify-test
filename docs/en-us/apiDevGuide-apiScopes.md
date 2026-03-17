@@ -56,7 +56,7 @@ The following table describes the scopes that determine what actions your Toast 
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Kitchen</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Read</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">kitchen:read</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">kitchen:read</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Allows reading from the<a href="https://doc.toasttab.com/openapi/kitchen/overview/" className=""> kitchen API</a>.</p></div></td>
     </tr>
     <tr className="">

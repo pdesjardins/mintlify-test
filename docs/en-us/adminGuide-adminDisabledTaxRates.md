@@ -15,7 +15,7 @@ procedures: 1
 codeExamples: 0
 ---
 
-You can deactivate any existing tax rate by changing its Type configuration to Disabled. After a tax rate has been disabled, it is not used by the Toast platform to calculate tax amounts for orders.
+You can deactivate any existing tax rate by changing its **Type** configuration to **Disabled**. After a tax rate has been disabled, it is not used by the Toast platform to calculate tax amounts for orders.
 
 An example of when you may want to disable a tax rate is if you are in the process of creating a new tax rate, and you disable it until because but it is not ready for use.
 
@@ -24,18 +24,18 @@ An example of when you may want to disable a tax rate is if you are in the proce
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Menu management &gt; Settings &gt; Manage tax rates to open the Tax ratespage.
+2. Choose **Menus &gt; Menu management &gt; Settings &gt; Manage tax rates** to open the **Tax rates**page.
 
 
-3. On the Tax rates page, select an existing tax rate.
+3. On the **Tax rates** page, select an existing tax rate.
 
 
-4. In the Type section, select Disabled.
+4. In the **Type** section, select **Disabled**.
 
 
 5. Save and publish your changes.
 
 
 
-You can reactivate the tax rate by using the same procedure, except that you select its original tax Type.
+You can reactivate the tax rate by using the same procedure, except that you select its original tax **Type**.
 

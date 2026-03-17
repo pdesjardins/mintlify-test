@@ -49,15 +49,15 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18370A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the restaurant that you want to <code className="font-mono text-sm">get</code> shifts for. This must be an individual restaurant, not the GUID for a restaurant group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This example uses a JSON parsing utility to select the shifts for one employee. The utility reads the JSON response data for this request from the output file specified here.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the start and end dates of the time period you want to <code className="font-mono text-sm">GET</code> shifts for. You can select up to 30 days.</p></div></td>
     </tr>
   
@@ -139,19 +139,19 @@ The following example shows the response for a `GET`request to the `/labor/v1/sh
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20570A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">GET</code> request returns an array of shift objects. Each object contains information about a shift.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20770A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">employeeReference</code> value identifies the employee who is assigned to the shift.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20970A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This shift is assigned to the same employee as the first shift in the array.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21170A00B97-C8C8-4406-B6D6-20C7B9566878" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This shift is assigned to a different employee.</p></div></td>
     </tr>
   
@@ -173,11 +173,11 @@ my-shifts-get-request-response-data.json
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e272638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This <strong className="font-semibold">jq</strong>  command syntax selects the JSON array members that have a specific employee GUID in the <code className="font-mono text-sm">employeeReference.guid</code> value for the shift.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e274638D8AE5-CF5A-4163-8DD0-CE1013C011AD" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In this example, the <strong className="font-semibold">jq</strong>  utility is reading JSON from the output file of the <strong className="font-semibold">curl</strong>  command that made the initial GET request to the shifts resource. See <a href="apiDevGuide-apiGettingShiftAssignmentsForEmployees.html#get-shifts-example" className="">Example 7.5, “Example request to GET all scheduled shifts for a restaurant”</a>.</p></div></td>
     </tr>
   

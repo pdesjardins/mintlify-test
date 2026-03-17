@@ -32,26 +32,26 @@ For items that do not require any effort to prepare, you can route the items to 
 
 1. [Add a prep station](adminGuide-adminAddPrepStation).
 
-- Name the prep station No Print.
+- Name the prep station **No Print**.
 
 
-- Clear the Send to Expediteroption.
+- Clear the **Send to Expediter**option.
 
 
 
 > **Note**
 > 
-> If you have the limited release Send to setting instead, you must select the Prep station only option.
+> If you have the limited release **Send to** setting instead, you must select the **Prep station only** option.
 
 
 
-- Do not select any Other Stations.
+- Do not select any **Other Stations**.
 
 
-- Do not select a Ticket Printer.
+- Do not select a **Ticket Printer**.
 
 
-- Clear the Always Print Ticketsoption.
+- Clear the **Always Print Tickets**option.
 
 
 
@@ -93,23 +93,23 @@ For example, an employee at the Bar prep station enters a cocktail order on the 
 - Name the prep station.
 
 
-- Set the Send to Expediter option as needed.
+- Set the **Send to Expediter** option as needed.
 
 
 
 > **Note**
 > 
-> You may have the limited release Send to setting instead.
+> You may have the limited release **Send to** setting instead.
 
 
 
-- Select Other Stations as needed.
+- Select **Other Stations** as needed.
 
 
-- Specify the Ticket Printer that you added in Step 1.
+- Specify the **Ticket Printer** that you added in Step 1.
 
 
-- Select Always Print Tickets. This ensures that orders sent from other devices will print tickets.
+- Select **Always Print Tickets**. This ensures that orders sent from other devices will print tickets.
 
 
 
@@ -125,7 +125,7 @@ For example, an employee at the Bar prep station enters a cocktail order on the 
 5. On the prep station Toast POS device that you do not want to print tickets from, [access the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
 
 
-6. In the Kitchen Setup section, select Non-Printing Prep Stations. The Non-Printing Prep Stations screen opens.
+6. In the **Kitchen Setup** section, select **Non-Printing Prep Stations**. The **Non-Printing Prep Stations** screen opens.
 
 
 7. Select the prep station's name to prevent tickets from printing to that prep station if they are ordered on this device.
@@ -133,7 +133,7 @@ For example, an employee at the Bar prep station enters a cocktail order on the 
 ![The Device Setup page showing the Bar prep station selected as a non-printing prep station.](https://doc.toasttab.com/doc/media/kitchen-device-setup-non-printing-prep-stations-setting.png)
 
 
-8. Select Continue. The Toast platform saves the prep station configuration and stops printing the selected prep station tickets for orders sent by this device. Orders sent from other devices continue to print.
+8. Select **Continue**. The Toast platform saves the prep station configuration and stops printing the selected prep station tickets for orders sent by this device. Orders sent from other devices continue to print.
 
 
 

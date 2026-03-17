@@ -61,33 +61,33 @@ You can customize the default message text that is provided by the Toast POS to 
 
 If your kitchen workflow has [two expediters](adminGuide-adminUsingExpo), you also specify when to send text messages: only after fulfillment on the level 2 expediter KDS, or after fulfillment on either expediter KDS.
 
-If your kitchen is configured to Enable individual item fulfillment, the text message is sent after all items are marked fulfilled.
+If your kitchen is configured to **Enable individual item fulfillment**, the text message is sent after all items are marked fulfilled.
 
 In addition, this [Toast Central article](https://central.toasttab.com/s/article/Send-Text-Message-when-Order-is-Fulfilled-1492800294544) provides an overview of sending text messages.
 
 ## Configure text messaging on expediter fulfillment
 
-To configure text messaging, you must have the 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup access permission. Then, follow these steps.
+To configure text messaging, you must have the **6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup** access permission. Then, follow these steps.
 
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page. Scroll down to theOrder Ready Text Messaging section.
+2. Choose **Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup** to open the **Kitchen** page. Scroll down to the**Order Ready Text Messaging** section.
 
 
-3. If your restaurant uses two-level fulfillment, you set the Fulfillment Text Level as follows.
+3. If your restaurant uses two-level fulfillment, you set the **Fulfillment Text Level** as follows.
 
-- To send a text message after the Level 2 expediter KDS fulfills the order only, select Level 2.
-
-
-- To send the text message after either expediter KDS fulfills the order, select Level 1. Only one message is sent for each order, and it is triggered by whichever expediter KDS fulfills the order first.
+- To send a text message after the Level 2 expediter KDS fulfills the order only, select **Level 2**.
 
 
+- To send the text message after either expediter KDS fulfills the order, select **Level 1**. Only one message is sent for each order, and it is triggered by whichever expediter KDS fulfills the order first.
 
 
-4. The Send Text Message option presents a set of interactive grids for orders placed in different ways. You use each grid to indicate who should receive messages: guests, servers, or both.
 
-For example, to send text messages to guests who place online orders, in the For Online Orders grid you check To Guest. To send text messages to servers who use Quick Order mode to place orders, in the For Quick Orders grid you check To Server.
+
+4. The **Send Text Message** option presents a set of interactive grids for orders placed in different ways. You use each grid to indicate who should receive messages: guests, servers, or both.
+
+For example, to send text messages to guests who place online orders, in the **For Online Orders** grid you check **To Guest**. To send text messages to servers who use Quick Order mode to place orders, in the **For Quick Orders** grid you check **To Server**.
 
 
 

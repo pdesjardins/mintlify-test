@@ -99,7 +99,7 @@ When a guest orders the Turkey Club menu item from the Takeout Menu &gt; Takeout
 
 Similarly, when an employee orders the Turkey Club from the Dine-in Menu &gt; Dinner &gt; Dinner Sandwiches path, the Toast platform determines that items in the Dinner Sandwiches menu group are routed to the Sandwiches Prep station. In this case, the Turkey Club inherits the Sandwiches Prep station from the Dinner Sandwiches menu group.
 
-The Turkey Club's menu item details page shows all of these relationships. You can see in the illustration below that the Turkey Club's Inherit prep stations? setting is set to Yes. In the tables below the setting, you can see the two menu paths the Turkey Club belongs to and the prep stations it inherits for each path. You can also see the parent menu entity that provides the inherited setting for each path.
+The Turkey Club's menu item details page shows all of these relationships. You can see in the illustration below that the Turkey Club's **Inherit prep stations?** setting is set to **Yes**. In the tables below the setting, you can see the two menu paths the Turkey Club belongs to and the prep stations it inherits for each path. You can also see the parent menu entity that provides the inherited setting for each path.
 
 ![An example of a menu item that inherits different prep stations, depending on the menu path the item is ordered from.](https://doc.toasttab.com/doc/media/menu-manager-item-inherits-prep-stations.png)
 
@@ -107,9 +107,9 @@ This example uses prep stations to illustrate its point, but modifier groups, co
 
 ### Disabling inheritance for a menu item
 
-You can configure a menu item so that it does not inherit settings from its parent menu entities. For example, if you do not want a menu item to inherit its prep stations from a parent menu entity, you set its Inherit prep stations?setting to No. Similar settings exist for inheriting modifier groups, courses, prep stations, sales categories, tax rates, and tax behavior.
+You can configure a menu item so that it does not inherit settings from its parent menu entities. For example, if you do not want a menu item to inherit its prep stations from a parent menu entity, you set its **Inherit prep stations?**setting to **No**. Similar settings exist for inheriting modifier groups, courses, prep stations, sales categories, tax rates, and tax behavior.
 
-When you disable inheritance for a particular setting, you must configure that setting on the menu item itself. To continue the previous example, when you set Inherit prep stations? to No, a list of prep stations appears where you set the prep stations for the menu item. When you configure settings directly on a menu item, those settings apply *any time the menu item is ordered, from any menu path*.
+When you disable inheritance for a particular setting, you must configure that setting on the menu item itself. To continue the previous example, when you set **Inherit prep stations?** to **No**, a list of prep stations appears where you set the prep stations for the menu item. When you configure settings directly on a menu item, those settings apply *any time the menu item is ordered, from any menu path*.
 
 ![An example of a menu item with the Inherit prep stations? setting set to No.](https://doc.toasttab.com/doc/media/menu-manager-menu-item-does-not-inherit-prep-stations.png)
 

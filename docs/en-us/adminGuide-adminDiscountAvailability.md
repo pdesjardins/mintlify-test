@@ -19,7 +19,7 @@ For any discount, you can configure time-based availability criteria that contro
 
 - One (and only one) date range. For example, an Oktoberfest discount is available from September 19, 2020 through October 4, 2020.
 
-Note that if the discount has a promo code with an effective date range, the promo code's start and end dates must fall within the range of the discount's Availability start and end dates.
+Note that if the discount has a promo code with an effective date range, the promo code's start and end dates must fall within the range of the discount's **Availability** start and end dates.
 
 
 - All the days of the week or specific days of the week. You must select at least one day of the week. For example, a Happy Friday discount is available only on Fridays.
@@ -35,19 +35,19 @@ If the time is outside of the discount availability, then the discount button do
 
 ## Configuring the available times for a discount
 
-The Availability section of the discount configuration page contains the time-based options for the discount availability.
+The **Availability** section of the discount configuration page contains the time-based options for the discount availability.
 
 **Procedure 9.6. To add availability times to a discount**
 
 1. [Add a discount or edit an existing one](adminGuide-adminDiscountsDesigningDiscounts).
 
 
-2. Scroll down to the Availabilitysection.
+2. Scroll down to the **Availability**section.
 
 ![Availability fields for a discount.](https://doc.toasttab.com/doc/media/discount-availability.png)
 
 
-3. To configure a Dates Available date range:
+3. To configure a **Dates Available** date range:
 
 1. Click the calendar icon for the start date. Use the date picker to select the date when this discount starts to be available.
 
@@ -67,7 +67,7 @@ In this example, the discount is available only for the month of June 2022.
   2. Click the calendar icon for the ending date. Use the date picker to select the last date when the discount is available.
 
 
-4. Under Days of the Week Available, to indicate when the discount is available, click on a day to change its availability.
+4. Under **Days of the Week Available**, to indicate when the discount is available, click on a day to change its availability.
 
 A day with a blue background means that the discount is available on that day of the week. A day with a white background means the discount cannot be used on that day.
 
@@ -76,9 +76,9 @@ In this example, the discount is available on Sundays, Tuesdays, and Thursdays.
 ![Days of the week availability configuration for a discount.](https://doc.toasttab.com/doc/media/discount-availability-days.png)
 
 
-5. Under Hours Available, configure the hours of the day when the discount is available:
+5. Under **Hours Available**, configure the hours of the day when the discount is available:
 
-1. Click Add Hours.
+1. Click **Add Hours**.
 
 
 2. Fill in the hour, minute, and am/pm fields.
@@ -92,7 +92,7 @@ In this example, the discount is available from 8am to 10am and also from 9pm to
 ![Hours of the day availability configuration for a discount.](https://doc.toasttab.com/doc/media/discount-availability-hours.png)
 
 
-  1. Click Add Hours.
+  1. Click **Add Hours**.
 
 
   2. Fill in the hour, minute, and am/pm fields.
@@ -110,7 +110,7 @@ If the item-sent time feature is enabled, then time-based discounts are evaluate
 
 Check-level discounts that do not specify a specific item/trigger are evaluated based on the time the check was first sent to the kitchen.
 
-The items are sent when the employee taps Send, Stay, or Pay on the Toast POS app. If the items are not yet sent, the default behavior is to use the current time.
+The items are sent when the employee taps **Send**, **Stay**, or **Pay** on the Toast POS app. If the items are not yet sent, the default behavior is to use the current time.
 
 
 
@@ -127,6 +127,6 @@ If the item-sent time feature is not enabled, the employee can apply the discoun
 
 > **Note**
 > 
-> If your restaurant has Course Pacingenabled in Toast Web, time-based discounts will apply to menu items added to the check and sent to the kitchen before the discount start time. You can disable Course Pacing by de-selecting Enable course pacing at Kitchen &gt; Pacing &gt; Meal Pacing &gt; Course Pacing.
+> If your restaurant has **Course Pacing**enabled in Toast Web, time-based discounts will apply to menu items added to the check and sent to the kitchen before the discount start time. You can disable **Course Pacing** by de-selecting **Enable course pacing** at **Kitchen &gt; Pacing &gt; Meal Pacing &gt; Course Pacing**.
 
 

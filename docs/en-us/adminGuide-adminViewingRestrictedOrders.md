@@ -26,13 +26,13 @@ When you view a restricted order in Toast Web, the Order Details page shows a pa
 
 ![The Order Details page for a restricted order, with the lock icon next to the order number.](https://doc.toasttab.com/doc/media/closed-order-restricted.png)
 
-Restricted orders do not have the send to devices or re-open check links on the Toast Web Order Details page that are found on un-restricted orders.
+Restricted orders do not have the **send to devices** or **re-open check** links on the Toast Web Order Details page that are found on un-restricted orders.
 
 ## Restricting an order
 
 The Toast platform determines when the configured time period has elapsed for a closed order and updates its state to restricted automatically.
 
-The Restricted Check Period can be viewed by Toast support and configured to one of the following: 
+The **Restricted Check Period** can be viewed by Toast support and configured to one of the following: 
 
 - End of day
 
@@ -60,12 +60,12 @@ The Restricted Check Period can be viewed by Toast support and configured to one
 
 > **Note**
 > 
-> To review what your location's Restricted Check Period is currently set to, or to make changes, contact Toast support.
+> To review what your location's **Restricted Check Period** is currently set to, or to make changes, contact Toast support.
 
 
 Setting orders to restrict at the end of the day minimizes the need for reporting integrations to request historical order data because the integration can rely on the original order data remaining unchanged.
 
-To update the restricted order time period for your restaurant, contact Toast support. Restaurant employees cannot update the Restricted Check Period configuration option.
+To update the restricted order time period for your restaurant, contact Toast support. Restaurant employees cannot update the **Restricted Check Period** configuration option.
 
 ## Removing an order restriction
 

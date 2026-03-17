@@ -7,9 +7,9 @@ parentSectionFile: apiDevGuide-ifYoureAnIntegrationPartnerOmitChunkFromSearchInd
 parentSectionTitle: "If you're an integration partner"
 previousSectionFile: apiDevGuide-apiDeveloperPortal.md
 previousSectionTitle: "Toast developer portal"
-nextSectionFile: apiDevGuide-ifYoureACustomIntegrationDeveloperOmitChunkFromSearchIndex.md
-nextSectionTitle: "If you're a custom integration developer"
-externalReferences: [https://s3.amazonaws.com/toast-sandbox/static-content/apks/toast-android-pos-2.87.2.apk, https://bit.ly/3IlobYF]
+nextSectionFile: apiDevGuide-apiRegionalExpansion.md
+nextSectionTitle: "Technical considerations for regional expansion"
+externalReferences: [https://s3.amazonaws.com/toast-sandbox/static-content/apks/toast-android-pos-2.103.0.apk, https://bit.ly/4sjSNvk]
 excerpt: "Toast maintains and provides continuous access to multiple, independent service environments for use by API integration clients during development, testing, and production. These environments are:"
 keywords: ["Sandbox -", "Production -"]
 procedures: 0
@@ -39,12 +39,12 @@ The sandbox environment is always available from 9 a.m. to 6 p.m. Eastern Time (
 
 You can download a version of the Toast POS app installer (an Android APK installer file) that is configured to connect to the sandbox environment. The sandbox APK link changes periodically when the sandbox environment is upgraded.
 
-Use the link below to download the Toast POS app installer. Use the installer version that is compatible with the Toast restaurants you are testing your integration with. You can find the Toast POS app version for a restaurant in the Required app version for [restaurant] value at the bottom of Toast Web pages for the restaurant.
+Use the link below to download the Toast POS app installer. Use the installer version that is compatible with the Toast restaurants you are testing your integration with. You can find the Toast POS app version for a restaurant in the **Required app version for [restaurant]** value at the bottom of Toast Web pages for the restaurant.
 
-- [Toast POS app version 2.87.2 for the sandbox environment](https://s3.amazonaws.com/toast-sandbox/static-content/apks/toast-android-pos-2.87.2.apk)
+- [Toast POS app version 2.103.0 for the sandbox environment](https://s3.amazonaws.com/toast-sandbox/static-content/apks/toast-android-pos-2.103.0.apk)
 
 
-- Shortened URL: [https://bit.ly/3IlobYF](https://bit.ly/3IlobYF)
+- Shortened URL: [https://bit.ly/4sjSNvk](https://bit.ly/4sjSNvk)
 
 
 

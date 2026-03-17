@@ -25,7 +25,7 @@ Follow the instructions below to access the menu builder.
 2. If you have multiple locations, switch to the restaurant whose menu you want to view using the location menu at the top of the page.
 
 
-3. In the left pane, select Menus to go to the Menus section, then select Menu builder.
+3. In the left pane, select **Menus** to go to the **Menus** section, then select **Menu builder**.
 
 
 

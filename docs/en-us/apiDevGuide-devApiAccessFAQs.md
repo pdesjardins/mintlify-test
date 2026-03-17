@@ -41,7 +41,7 @@ codeExamples: 0
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><strong className="font-semibold">A:</strong> </p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You can add new locations on the Edit credentials page. For information on how to edit which location(s) you have standard API access to, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials" className="">Editing standard API access credentials</a>.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You can add new locations on the **Edit credentials** page. For information on how to edit which location(s) you have standard API access to, see <a href="apiDevGuide-devApiAccessCredentials#devApiAccessEditingCredentials" className="">Editing standard API access credentials</a>.</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -105,7 +105,7 @@ codeExamples: 0
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><strong className="font-semibold">A:</strong> </p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Confirm that you have the Manage Integrations permission for the location(s) you want to create credentials for. If you do not have permission, contact your restaurant or store team to have the permission assigned.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Confirm that you have the **Manage Integrations** permission for the location(s) you want to create credentials for. If you do not have permission, contact your restaurant or store team to have the permission assigned.</p></div></td>
     </tr>
   </tbody>
 </table>

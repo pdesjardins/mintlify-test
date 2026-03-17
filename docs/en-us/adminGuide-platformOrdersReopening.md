@@ -17,9 +17,9 @@ codeExamples: 0
 
 You can reopen closed checks.
 
-For closed orders that are not yet restricted, the order details dialog in the Orders report displays a re-open check link next to each check. For more information, see [Working with restricted orders](adminGuide-adminViewingRestrictedOrders).
+For closed orders that are not yet restricted, the order details dialog in the **Orders** report displays a **re-open check** link next to each check. For more information, see [Working with restricted orders](adminGuide-adminViewingRestrictedOrders).
 
-When you select re-open check, the Toast platform:
+When you select **re-open check**, the Toast platform:
 
 - Changes the state of that check only to paid. The order remains closed.
 
@@ -28,7 +28,7 @@ When you select re-open check, the Toast platform:
 
 
 
-To view the order on Toast POS devices, select Payment Terminal &gt; Paid Checks.
+To view the order on Toast POS devices, select **Payment Terminal &gt; Paid Checks**.
 
 If a restaurant employee then performs an action on the order, the system changes the state of the check, the order, or both. For example, an employee adds items to the reopened check. The state of both the order and the check changes to open.
 

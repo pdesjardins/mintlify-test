@@ -25,7 +25,7 @@ This example restaurant configuration uses the individual item fulfillment confi
 
 > **Note**
 > 
-> For items without modifiers, the item is selected on the Toast POS device. For items with modifiers, modifiers are selected and the employee selects Done.
+> For items without modifiers, the item is selected on the Toast POS device. For items with modifiers, modifiers are selected and the employee selects **Done**.
 
 
 ![The order on the Toast POS device, with only Green Tea added to the order, and the order not sent to the kitchen.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-workflow-order-1-item-added.png)
@@ -93,7 +93,7 @@ Here is the Curry Bread and Ramen items ticket on the Food prep station KDS devi
 9. The order is paid for.
 
 
-10. The tickets payment status indicator changes from NOT PAID to PAID.
+10. The tickets payment status indicator changes from **NOT PAID** to **PAID**.
 
 Here is the order ticket on the expediter KDS device.
 

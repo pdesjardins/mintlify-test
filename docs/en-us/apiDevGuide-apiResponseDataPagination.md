@@ -192,33 +192,33 @@ The following example shows `Link` header fields in a Toast API response.
 
 
 ```
-Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1\>; rel="first"
-Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=5\>; rel="self"
-Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=4\>; rel="prev"
-Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=6\>; rel="next"
-Link: \<https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10\>; rel="last"
+Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1>; rel="first"
+Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=5>; rel="self"
+Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=4>; rel="prev"
+Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=6>; rel="next"
+Link: <https://`[toast-api-hostname]`/config/v2/menus?pageSize=1&page=10>; rel="last"
 ```
 
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e46DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The URL and query parameters that will return the first set of objects available from the API endpoint.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e48DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The URL and query parameters that will return the current set of objects from the API endpoint.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e50DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The URL and query parameters that will return the set of objects immediately preceding the current set from the API endpoint.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e52DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The URL and query parameters that will return the first set of objects immediately after the current set from the API endpoint.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e54DF66837F-C33C-4DCD-9FF7-6D9DA64EC0D9" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The URL and query parameters that will return the last set of objects available from the API endpoint.</p></div></td>
     </tr>
   

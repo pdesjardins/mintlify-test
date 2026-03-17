@@ -99,7 +99,7 @@ You define how back of house employees interact with the KDS device to fulfill t
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Device Setup &gt; 7.3 KDS and Order Screen Setup</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Fulfill with a tap to select then a tap on Fulfill</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Fulfill with a tap to select then a tap on **Fulfill**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"> </div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Setup &gt; Device Setup &gt; Double-tap to Fulfill, Unfulfill</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Device Setup &gt; 7.3 KDS and Order Screen Setup</p></div></td>
@@ -111,19 +111,19 @@ You define how back of house employees interact with the KDS device to fulfill t
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Device Setup &gt; 7.3 KDS and Order Screen Setup</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Unfulfill with a tap to select then a tap on Unfulfill</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Unfulfill with a tap to select then a tap on **Unfulfill**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"> </div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Setup &gt; Device Setup &gt; Double-tap to Fulfill, Unfulfill</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Device Setup &gt; 7.3 KDS and Order Screen Setup</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the option to see item totals in All Day Display</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the option to see item totals in **All Day Display**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup &gt; <a href="adminGuide-adminKitchenDiningRoomReference#configAllDayDisplay" className="">All Day Display</a>: Yes, enable All Day Display, grouped by item...</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"> </div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Web Setup &gt; 6.2 Kitchen / Dining Room Setup</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the option to see modifier and item totals in All Day Display</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the option to see modifier and item totals in **All Day Display**</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup &gt; <a href="adminGuide-adminKitchenDiningRoomReference#configAllDayDisplay" className="">All Day Display</a>: Yes, enable All Day Display, grouped by item and...</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"> </div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Web Setup &gt; 6.2 Kitchen / Dining Room Setup</p></div></td>
@@ -330,7 +330,7 @@ For more information about how to change configuration settings, see [Using Toas
 
 ## KDS text and ticket size
 
-To assure that every cook can see the tickets on the KDS device clearly, you can change the text size directly on each device. On the KDS device, select the Overflow menu (the ⋮ icon) and choose Text Size. Changing the text size also changes the size of the tickets and affects how many tickets can appear on the display at one time.
+To assure that every cook can see the tickets on the KDS device clearly, you can change the text size directly on each device. On the KDS device, select the Overflow menu (the ⋮ icon) and choose **Text Size**. Changing the text size also changes the size of the tickets and affects how many tickets can appear on the display at one time.
 
 ![A KDS device with the overflow menu and the text size option selected.](https://doc.toasttab.com/doc/media/KDS_font_size.png)
 
@@ -347,10 +347,10 @@ Your kitchen can include one or more printers along with your kitchen display sy
 > **Note**
 > 
 > These options assume that printers are already set up for your restaurant and your KDS devices. 
-- In Toast Web, you can choose Payments &gt; Checks & receipt setup &gt; Printers and cash drawers and add printers on the Printers and cash drawers page. You then choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup and configure printers to the Expediter using the Expediter Printer(s) option. Alternatively, choose Kitchen &gt; Kitchen stations &gt; Prep stations, find the row for the prep station you want to change, and choose a printer from the Ticket Printer dropdown. These settings determine where orders taken for guests print.
+- In Toast Web, you can choose **Payments &gt; Checks & receipt setup &gt; Printers and cash drawers** and add printers on the **Printers and cash drawers** page. You then choose **Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup** and configure printers to the Expediter using the Expediter Printer(s) option. Alternatively, choose **Kitchen &gt; Kitchen stations &gt; Prep stations**, find the row for the prep station you want to change, and choose a printer from the **Ticket Printer** dropdown. These settings determine where orders taken for guests print.
 
 
-- On a KDS device, you can choose Setup &gt; Device Setup &gt; Receipt Printer and define the primary printer. This setting determines where tickets selected manually on that KDS device print.
+- On a KDS device, you can choose **Setup &gt; Device Setup &gt; Receipt Printer** and define the primary printer. This setting determines where tickets selected manually on that KDS device print.
 
 
 

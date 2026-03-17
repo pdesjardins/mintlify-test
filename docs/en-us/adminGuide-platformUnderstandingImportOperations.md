@@ -15,7 +15,7 @@ procedures: 0
 codeExamples: 0
 ---
 
-The first column in each row of an import spreadsheet is called Operation. It defines whether the row is for a `CREATE` operation, an `UPDATE` operation, or an `ATTACH` operation:
+The first column in each row of an import spreadsheet is called **Operation**. It defines whether the row is for a `CREATE` operation, an `UPDATE` operation, or an `ATTACH` operation:
 
 ![Example import spreadsheet showing the location of the Operation column.](https://doc.toasttab.com/doc/media/menus-bulk-import-operations.png)
 
@@ -49,7 +49,7 @@ You use the `CREATE` operation to:
 
 The `CREATE` operation has the following caveats:
 
-- During a `CREATE` operation, you must attach each newly created menu entity to a parent menu entity, using the Parent entity type and Parent version ID or operation ID columns in the `CREATE`row, to ensure that you don't create orphaned menu entities. Orphaned menu entities do not appear in the menus that restaurant guests and employees see. For more information about the Toast menu hierarchy, see [Menu hierarchy](adminGuide-adminMenuHierarchy).
+- During a `CREATE` operation, you must attach each newly created menu entity to a parent menu entity, using the **Parent entity type** and **Parent version ID or operation ID** columns in the `CREATE`row, to ensure that you don't create orphaned menu entities. Orphaned menu entities do not appear in the menus that restaurant guests and employees see. For more information about the Toast menu hierarchy, see [Menu hierarchy](adminGuide-adminMenuHierarchy).
 
 
 - The `CREATE` operation for modifier groups has the limitation that you can attach the new modifier group to a menu item in the `CREATE` row but not to a menu group. However, in an `ATTACH` row, you can attach a modifier group to either a menu item or a menu group.
@@ -72,10 +72,10 @@ The `UPDATE` operation is limited to updating menu items.
 
 You use the `UPDATE` operation to:
 
-- Update the Name, POS name, Kitchen name, Item description, PLU, SKU, Prep station multiLocation IDs, Tax rate multiLocation IDs, Contains alcohol, and Guest count properties of a menu item. Note that the Guest count property is in limited release.
+- Update the **Name**, **POS name**, **Kitchen name**, **Item description**, **PLU**, **SKU**, **Prep station multiLocation IDs**, **Tax rate multiLocation IDs**, **Contains alcohol**, and **Guest count** properties of a menu item. Note that the **Guest count** property is in limited release.
 
 
-- Update the Price of a menu item whose Pricing strategy or method is `BASE`.
+- Update the **Price** of a menu item whose **Pricing strategy or method** is `BASE`.
 
 
 
@@ -87,7 +87,7 @@ For `UPDATE` operations, the bulk import tool:
 - Does not support applying a blank or empty value to an existing value. If you import a menu item that contains a blank value or empty spaces for a field, that field is not updated and it retains its original value.
 
 
-- Ignores any menu item or item reference fields that do not support updates (that is, fields not listed in the bullets above). For example, if you import a menu item that contains a value for Button color, no updates will be applied because Button color is not one of the fields currently supported by the `UPDATE` operation. Similarly, if you try to update a menu item that does not use the `BASE` pricing strategy, the price specified in the import file is ignored.
+- Ignores any menu item or item reference fields that do not support updates (that is, fields not listed in the bullets above). For example, if you import a menu item that contains a value for **Button color**, no updates will be applied because **Button color** is not one of the fields currently supported by the `UPDATE` operation. Similarly, if you try to update a menu item that does not use the `BASE` pricing strategy, the price specified in the import file is ignored.
 
 
 

@@ -62,19 +62,19 @@ Attributes in the `orders_updated` payload include:
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">timestamp</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the update event occurred, represented as an ISO-8601 string in UTC such as YYYY-MM-DDTHH:MM:SS.SSSz.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><code className="font-mono text-sm">eventCategory</code></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order_updated</code> or <code className="font-mono text-sm">channel_order_updated</code>.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"> <code className="font-mono text-sm">order_updated</code> or <code className="font-mono text-sm">channel_order_updated</code>.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">eventType</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">order_updated</code> or <code className="font-mono text-sm">channel_order_updated</code>.</p> <p className="text-base leading-relaxed"> data type: string </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"> <code className="font-mono text-sm">order_updated</code> or <code className="font-mono text-sm">channel_order_updated</code>.</p> <p className="text-base leading-relaxed">** data type:** string </p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast platform identifier for the webhook event.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: UUID</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast platform identifier for the webhook event.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** UUID</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">details</code></p></div></td>

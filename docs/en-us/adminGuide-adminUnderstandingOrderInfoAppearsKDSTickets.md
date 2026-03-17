@@ -17,13 +17,13 @@ codeExamples: 0
 
 The order information that specifies the table or guest name for an order displays according to what was provided.
 
-1. If only the tab name is available, Tab: &lt;tab name&gt; is shown.
+1. If only the tab name is available, **Tab: &lt;tab name&gt;** is shown.
 
 
-2. If only the table number is available, Table &lt;table number&gt; is shown.
+2. If only the table number is available, **Table &lt;table number&gt;** is shown.
 
 
-3. If both tab name and table numbers are available, Table &lt;table number>, Tab: &lt;tab name&gt; is shown.
+3. If both tab name and table numbers are available, **Table &lt;table number>, Tab: &lt;tab name&gt;** is shown.
 
 
 4. If neither the tab name nor table numbers are available, then the guest's first name and last name are shown. These are taken from the `Customers` object.
@@ -48,5 +48,5 @@ The following example shows an order ticket on the KDS device with the guest's f
 
 ![An example of a KDS ticket that has only the guest name.](https://doc.toasttab.com/doc/media/KDS_guest_name.png)
 
-To prompt for a tab name on the Toast POS app, see [Prompt for tab name? (Quick Order only)](adminGuide-adminUiOptionsReference#configPromptTabName).
+To prompt for a tab name on the Toast POS app, see [**Prompt for tab name? (Quick Order only)**](adminGuide-adminUiOptionsReference#configPromptTabName).
 

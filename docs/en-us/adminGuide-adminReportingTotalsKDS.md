@@ -30,13 +30,13 @@ In addition, this [Toast Central article](https://central.toasttab.com/s/article
 
 ## About all day view
 
-When you [enable all day view](adminGuide-adminReportingTotalsKDS#adminEnableAllDayView) for your restaurant, a Show All Day View option appears in the KDS device title bar. Employees can use this feature to see totals for identical menu items, with or without information about modifiers, by temporarily switching from the ticket screen to all day view. All day view gives your kitchen employees a way to verify how many of each item they need to be working on at any given time.
+When you [enable all day view](adminGuide-adminReportingTotalsKDS#adminEnableAllDayView) for your restaurant, a **Show All Day View** option appears in the KDS device title bar. Employees can use this feature to see totals for identical menu items, with or without information about modifiers, by temporarily switching from the ticket screen to all day view. All day view gives your kitchen employees a way to verify how many of each item they need to be working on at any given time.
 
 An example of the KDS device for a sports bar that specializes in chicken wings and chicken tenders served with different kinds of sauces follows.
 
 ![A KDS device showing 13 tickets for wings, tenders, and sandwiches. The Show All Day View option in the title bar is circled.](https://doc.toasttab.com/doc/media/KDS_ticket_view_all_day_circled.png)
 
-To see the current total for each unique menu item with a fired item, you tap Show All Day View. In the following illustration, all day view is configured to show the item names and totals only.
+To see the current total for each unique menu item with a fired item, you tap **Show All Day View**. In the following illustration, all day view is configured to show the item names and totals only.
 
 ![A KDS device's all day view showing total counts for 10 different menu items, including different size wing and tender orders.](https://doc.toasttab.com/doc/media/KDS_all_day_items.png)
 
@@ -48,27 +48,27 @@ Another configuration option for all day view adds the course (if any) and the t
 
 Kitchen employees might prefer this configuration of all day view if the wings and tenders need to be coated with the selected sauces at the prep station.
 
-To return to the ticket view from all day view you tap Hide All Day View.
+To return to the ticket view from all day view you tap **Hide All Day View**.
 
 ## Update all day view
 
-By default, all day view is enabled for all restaurants to display item names and totals. To update your configuration of all day view, you must have the Web Setup &gt; Kitchen / Dining Room Setup access permission. Then, follow these steps.
+By default, all day view is enabled for all restaurants to display item names and totals. To update your configuration of all day view, you must have the **Web Setup &gt; Kitchen / Dining Room Setup** access permission. Then, follow these steps.
 
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page.
+2. Choose **Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup** to open the **Kitchen** page.
 
 
-3. In the Ticket Screens section, select one of these settings for All Day Display.
+3. In the **Ticket Screens** section, select one of these settings for **All Day Display**.
 
-- To show a total across tickets for each menu item that currently appears on the KDS device, select Yes, enable All Day Display, grouped by item only.
-
-
-- To show the course and a subtotal for each variation introduced by modifiers under each menu item total, select Yes, enable All Day Display, grouped by item and sub-grouped by modifiers.
+- To show a total across tickets for each menu item that currently appears on the KDS device, select **Yes, enable All Day Display, grouped by item only**.
 
 
-- To remove the Show All Day Viewoption from the KDS device ticket view, select No, do not enable All Day Display.
+- To show the course and a subtotal for each variation introduced by modifiers under each menu item total, select **Yes, enable All Day Display, grouped by item and sub-grouped by modifiers**.
+
+
+- To remove the **Show All Day View**option from the KDS device ticket view, select **No, do not enable All Day Display**.
 
 
 

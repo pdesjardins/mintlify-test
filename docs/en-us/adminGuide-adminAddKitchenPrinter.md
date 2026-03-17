@@ -38,7 +38,7 @@ There are two methods to adding a new kitchen printer to your kitchen setup: thr
 
 > **Important**
 > 
-> To add a kitchen printer, you must have the 6. Web Setup &gt; 6.10 Printer and Cash Drawer Setup access permission.
+> To add a kitchen printer, you must have the **6. Web Setup &gt; 6.10 Printer and Cash Drawer Setup** access permission.
 
 
 Repeat these steps to add other kitchen printers, or to update the information for a printer by adding its backup printer. After you set up your printers, you can assign them to your prep stations.
@@ -48,7 +48,7 @@ Repeat these steps to add other kitchen printers, or to update the information f
 1. Navigate to the Toast POS app home screen.
 
 
-2. In the Setup section, select Printer Setup.
+2. In the **Setup** section, select **Printer Setup**.
 
 
 
@@ -58,32 +58,32 @@ Repeat these steps to add other kitchen printers, or to update the information f
 
 
 
-3. Select + Add or replace printer.
+3. Select **+ Add or replace printer**.
 
 
-4. Select Install a new printer and then Continue.
+4. Select **Install a new printer** and then **Continue**.
 
 
-5. Select Wired or Wireless depending on your printer model.
+5. Select **Wired** or **Wireless** depending on your printer model.
 
 
 6. Follow the workflow on the Toast POS app to find your printer.
 
 
-7. Once found, select the printer model and then Continue.
+7. Once found, select the printer model and then **Continue**.
 
 
-8. Select the primary function for the printer. For kitchen printers, this is typically Kitchen Tickets, Both (Guest Receipts and Kitchen Tickets), or Item Labels.
+8. Select the primary function for the printer. For kitchen printers, this is typically **Kitchen Tickets**, **Both** (Guest Receipts and Kitchen Tickets), or **Item Labels**.
 
 
 
 > **Note**
 > 
-> This step is skipped if you are using a TLP400 printer. TLP400 uses Item Labels automatically.
+> This step is skipped if you are using a TLP400 printer. TLP400 uses **Item Labels** automatically.
 
 
 
-9. If you selected Item Labels as the primary function for the printer, or use a TLP400 printer:
+9. If you selected **Item Labels** as the primary function for the printer, or use a TLP400 printer:
 
 
 
@@ -94,16 +94,16 @@ Repeat these steps to add other kitchen printers, or to update the information f
 
 1. Select the label size you want to use. The options are:
 
-- Small - Vertical : A 1.5 by 3 inch ticket. This label is printed sideways to optimize paper usage.
+- **Small - Vertical** : A 1.5 by 3 inch ticket. This label is printed sideways to optimize paper usage.
 
 
-- Small - Horizontal : A 3 by 1.5 inch ticket.
+- **Small - Horizontal** : A 3 by 1.5 inch ticket.
 
 
-- Medium - Horizontal : A 3 by 2 inch ticket.
+- **Medium - Horizontal** : A 3 by 2 inch ticket.
 
 
-- Large - Square : A 3 by 3 inch ticket.
+- **Large - Square** : A 3 by 3 inch ticket.
 
 
 
@@ -114,7 +114,7 @@ For the Epson L90 printer, small vertical, small horizontal, and medium horizont
 For the TLP400 printer, small vertical and small horizontal label sizes **must** use 3 inch by 1.5 inch label printer paper, and medium horizontal label sizes **must** use 3 inch by 2 inch label printer paper.
 
 
-2. Select either the guest name or ticket number to be displayed prominently at the top of the label and then Continue.
+2. Select either the guest name or ticket number to be displayed prominently at the top of the label and then **Continue**.
 
 
 
@@ -126,7 +126,7 @@ For the TLP400 printer, small vertical and small horizontal label sizes **must**
 
 
 
-10. Select the prep stations that will use the printer and then Continue.
+10. Select the prep stations that will use the printer and then **Continue**.
 
 
 11. Print a test ticket and continue the printer setup workflow.
@@ -135,7 +135,7 @@ For the TLP400 printer, small vertical and small horizontal label sizes **must**
 12. Return to the Printer Setup screen, select the printer you added.
 
 
-13. Select Printer Name, update the printer name, and select Save Changes. As a best practices, use the following naming convention for kitchen printers:
+13. Select **Printer Name**, update the printer name, and select **Save Changes**. As a best practices, use the following naming convention for kitchen printers:
 
 - Prep station name
 
@@ -150,7 +150,7 @@ For the TLP400 printer, small vertical and small horizontal label sizes **must**
 For example, "Cold Station KP (171)" or "Backup KP (170)".
 
 
-14. Select Backup Printer, choose a backup printer, and select Save Changes. If printing fails at this printer, the system redirects tickets to the backup printer.
+14. Select **Backup Printer**, choose a backup printer, and select **Save Changes**. If printing fails at this printer, the system redirects tickets to the backup printer.
 
 
 
@@ -159,10 +159,10 @@ For example, "Cold Station KP (171)" or "Backup KP (170)".
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Payments &gt; Checks & receipt setup &gt; Printers and cash drawers.
+2. Choose **Payments &gt; Checks & receipt setup &gt; Printers and cash drawers**.
 
 
-3. Select the + Add button and then enter an identifying name for the kitchen printer. As a best practice, use the following naming convention for kitchen printers.
+3. Select the **+ Add** button and then enter an identifying name for the kitchen printer. As a best practice, use the following naming convention for kitchen printers.
 
 - Prep station name
 
@@ -177,7 +177,7 @@ For example, "Cold Station KP (171)" or "Backup KP (170)".
 For example, "Cold Station KP (171)" or "Backup KP (170)".
 
 
-4. Specify the printer's model. For example, Epson U220.
+4. Specify the printer's model. For example, **Epson U220**.
 
 
 
@@ -199,21 +199,21 @@ For example, "Cold Station KP (171)" or "Backup KP (170)".
 > Label configurations are only available for item label printers Epson L90 and TLP400.
 
 
-- Ticket Type : Configures the type of ticket that the printer is printing, either Kitchen ticket or Item label.
+- **Ticket Type** : Configures the type of ticket that the printer is printing, either **Kitchen ticket** or **Item label**.
 
 
-- Label Size : Configures the size of the ticket for Item label ticket types. The ticket size options are:
+- **Label Size** : Configures the size of the ticket for **Item label** ticket types. The ticket size options are:
 
-- Small Vertical : A 1.5 by 3 inch ticket. This label is printed sideways to optimize paper usage.
-
-
-- Small Horizontal : A 3 by 1.5 inch ticket.
+- **Small Vertical** : A 1.5 by 3 inch ticket. This label is printed sideways to optimize paper usage.
 
 
-- Medium Horizontal : A 3 by 2 inch ticket.
+- **Small Horizontal** : A 3 by 1.5 inch ticket.
 
 
-- Large Square : A 3 by 3 inch ticket.
+- **Medium Horizontal** : A 3 by 2 inch ticket.
+
+
+- **Large Square** : A 3 by 3 inch ticket.
 
 
 
@@ -224,40 +224,40 @@ For the Epson L90 printer, small vertical, small horizontal, and medium horizont
 For the TLP400 printer, small vertical and small horizontal label sizes **must** use 3 inch by 1.5 inch label printer paper, and medium horizontal label sizes **must** use 3 inch by 2 inch label printer paper.
 
 
-- Label Format : Places either the Guest Name or Ticket Number at the top of the ticket. This is only available for small and medium item label sizes.
+- **Label Format** : Places either the **Guest Name** or **Ticket Number** at the top of the ticket. This is only available for small and medium item label sizes.
 
 
-- Custom footer : Adds a custom footer to the end of the printed ticket.
+- **Custom footer** : Adds a custom footer to the end of the printed ticket.
 
 
 
 
-7. Set the Kitchen Ticket Font Size.
+7. Set the **Kitchen Ticket Font Size**.
 
-The Customer Receipt Font Size does not apply to kitchen-only printers and can be left at the default setting.
+The **Customer Receipt Font Size** does not apply to kitchen-only printers and can be left at the default setting.
 
 
-8. Verify that the paper width is set to Wide.
+8. Verify that the paper width is set to **Wide**.
 
-The Narrow setting applies only to legacy printer models that Toast no longer supplies.
+The **Narrow** setting applies only to legacy printer models that Toast no longer supplies.
 
 
 
 > **Important**
 > 
-> Item labels only use the Wide paper width.
+> Item labels only use the **Wide** paper width.
 
 
 
-9. To print kitchen tickets in English, set the Character Set to Western.
+9. To print kitchen tickets in English, set the **Character Set** to **Western**.
 
-Currently, the only other character set that Toast supports is Chinese, for Toast TLP400, Epson U220 - Chinese, and Epson L90 printers. Note that if you use a Chinese printer, you must translate and enter all menu names and kitchen names into Chinese characters.
-
-
-10. After you identify at least one printer, you can specify another printer as its Backup. If printing fails at this printer, the system redirects tickets to the backup.
+Currently, the only other character set that Toast supports is **Chinese**, for Toast TLP400, Epson U220 - Chinese, and Epson L90 printers. Note that if you use a Chinese printer, you must translate and enter all menu names and kitchen names into Chinese characters.
 
 
-11. Verify that the Cash Drawer option is set correctly. Typically, you set prep stations other than bar stations to No Cash Drawer.
+10. After you identify at least one printer, you can specify another printer as its **Backup**. If printing fails at this printer, the system redirects tickets to the backup.
+
+
+11. Verify that the **Cash Drawer** option is set correctly. Typically, you set prep stations other than bar stations to **No Cash Drawer**.
 
 
 12. Save and publish your changes.

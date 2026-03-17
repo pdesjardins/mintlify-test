@@ -88,17 +88,17 @@ For more information about the labor API, see the [reference documentation](http
 
 ### Decide if you will deliver catering orders
 
-Information is limited in the orders API response for catering orders. Your integration will only have access to the data that is captured in the following sections of the Toast Catering and Events page under Create order in Toast Web.
+Information is limited in the orders API response for catering orders. Your integration will only have access to the data that is captured in the following sections of the **Toast Catering and Events** page under **Create order** in Toast Web.
 
-In the Customer section, the guest's first and last name, email address, and phone number are exposed in the `customer` object of the orders API.
+In the **Customer** section, the guest's first and last name, email address, and phone number are exposed in the `customer` object of the orders API.
 
 ![Image](https://doc.toasttab.com/doc/media/cookbook-delivery-catering-customer.png)
 
-In the Order details section, the Deliver to address and Delivery notes are exposed in the `deliveryInfo` object of the orders API.
+In the **Order details** section, the **Deliver to** address and **Delivery notes** are exposed in the `deliveryInfo` object of the orders API.
 
 ![Image](https://doc.toasttab.com/doc/media/cookbook-delivery-catering-order.png)
 
-Toast does not expose additional catering information in the orders API besides what is available in the two sections outlined above. When integrating with restaurants using the Toast Catering and Events module, it is important they understand what your integration can access. This way, they can build their catering orders so that your integration has the information needed to fulfill the delivery.
+Toast does not expose additional catering information in the orders API besides what is available in the two sections outlined above. When integrating with restaurants using the **Toast Catering and Events** module, it is important they understand what your integration can access. This way, they can build their catering orders so that your integration has the information needed to fulfill the delivery.
 
 To understand if an order is a catering order, reference the `source` value in the orders API response. Catering orders have have a `source` value of any of the following:
 
@@ -112,7 +112,7 @@ To understand if an order is a catering order, reference the `source` value in t
 
 
 
-For more information about Toast Catering and Events, see [Get Started with Toast Catering and Events](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).
+For more information about **Toast Catering and Events**, see [Get Started with Toast Catering and Events](https://central.toasttab.com/s/article/Getting-Started-Catering-and-Events).
 
 ## Handling orders
 

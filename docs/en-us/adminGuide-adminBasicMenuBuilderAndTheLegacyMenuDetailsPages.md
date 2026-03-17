@@ -25,11 +25,11 @@ The pages for the classic menu workflow are older and contain the full suite of 
 
 To create your Toast menu, you can start by using the menu builder. There are some pieces of menu configuration, however, that don't exist yet in the menu builder and must still be done using the classic menu pages. For example, advanced pricing features like price levels must be set using the classic menu pages. The sections below describe how to use the menu builder to create your basic menu structure and also how to use the classic menu pages to provide additional configuration where necessary.
 
-You can move from the menu builder to the classic menu pages using the Advanced settings link that appears on the menu, menu group, and modifier group details pages. An example of the Advanced settings link is shown below:
+You can move from the menu builder to the classic menu pages using the **Advanced settings** link that appears on the menu, menu group, and modifier group details pages. An example of the **Advanced settings** link is shown below:
 
 ![The location of the Advanced settings link on a menu details page.](https://doc.toasttab.com/doc/media/menu-builder-advanced-edit-link.png)
 
-From a menu item details page, you can go to the classic menu pages using the More item settings link.
+From a menu item details page, you can go to the classic menu pages using the **More item settings** link.
 
 ![The location of the More item settings link on a menu item details page.](https://doc.toasttab.com/doc/media/menu-builder-item-details-pg-more-item-settings.png)
 

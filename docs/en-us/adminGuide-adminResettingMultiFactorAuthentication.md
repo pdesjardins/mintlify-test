@@ -37,20 +37,20 @@ Use the following procedure to reset your multi-factor authentication (MFA).
 
 **Procedure 4.5. To reset multi-factor authentication**
 
-1. Choose My account from the dropdown menu under your name in the top right-hand corner.
+1. Choose **My account** from the dropdown menu under your name in the top right-hand corner.
 
 ![Example of the drop-down menu where My account appears.](https://doc.toasttab.com/doc/media/mfa_dropdown.png)
 
 
-2. Select Security to navigate to the Multi-Factor Authentication section.
+2. Select **Security** to navigate to the **Multi-Factor Authentication** section.
 
 
-3. Select Reset multi-factor-authentication. A confirmation dialog displays.
+3. Select **Reset multi-factor-authentication**. A confirmation dialog displays.
 
 ![Location of the multifactor authentication link.](https://doc.toasttab.com/doc/media/platformMfaResetMfaLink.png)
 
 
-4. Select Confirm reset.
+4. Select **Confirm reset**.
 
 ![Location of the Confirm reset button.](https://doc.toasttab.com/doc/media/platformResetMfaConfirm.png)
 

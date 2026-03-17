@@ -67,36 +67,36 @@ Here is an example of the expediter KDS device interface, with multiple tickets.
 
 At the top-left of the screen, the arrow icon returns you to the Toast home page. On the top-right, there are options to show the [all day view](adminGuide-adminReportingTotalsKDS#adminAllDayView), show [recently fulfilled tickets](adminGuide-adminRedisplayingTickets), and [recalling the last fulfilled ticket](adminGuide-adminRedisplayingTickets#adminRecallTicket). If there is not enough space at the top to display these options, they can appear in the overflow menu. The overflow menu, represented by three vertically stacked dots, provides additional actions and shortcuts.
 
-- Language: This option opens a dialog that allows you to change the language of the KDS user interface.
+- **Language**: This option opens a dialog that allows you to change the language of the KDS user interface.
 
 
-- Switch to Dynamic View: This option changes the KDS from using grid view to legacy dynamic view.
-
-
-
-> **Note**
-> 
-> If you are using legacy dynamic view, there is a Try Grid View option that changes the KDS device from legacy dynamic view to grid view. The Try Grid View option is only available to certain customers because grid view is currently in limited release.
-
-
-
-- Change ticket size: This option changes the ticket size and layout used by grid view for KDS devices. For more information, see [Ticket sizing and layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout).
+- **Switch to Dynamic View**: This option changes the KDS from using grid view to legacy dynamic view.
 
 
 
 > **Note**
 > 
-> This is not available for dynamic legacy view. Instead, dynamic legacy view has a Text Size button, which you can use to change the text size used by tickets.
+> If you are using legacy dynamic view, there is a **Try Grid View** option that changes the KDS device from legacy dynamic view to grid view. The **Try Grid View** option is only available to certain customers because grid view is currently in limited release.
 
 
 
-- Device Setup: This option opens the Device Setup screen on a POS device. This option is not limited to KDS mode.
+- **Change ticket size**: This option changes the ticket size and layout used by grid view for KDS devices. For more information, see [Ticket sizing and layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout).
 
 
-- Switch user: This option opens the passcode screen, allowing a new employee to enter a passcode and open the Toast POS app. This option is not limited to KDS mode.
+
+> **Note**
+> 
+> This is not available for dynamic legacy view. Instead, dynamic legacy view has a **Text Size** button, which you can use to change the text size used by tickets.
 
 
-- Device Status: This option opens a dialog that displays device information, including status for connectivity and services. This option is not limited to KDS mode.
+
+- **Device Setup**: This option opens the **Device Setup** screen on a POS device. This option is not limited to KDS mode.
+
+
+- **Switch user**: This option opens the passcode screen, allowing a new employee to enter a passcode and open the Toast POS app. This option is not limited to KDS mode.
+
+
+- **Device Status**: This option opens a dialog that displays device information, including status for connectivity and services. This option is not limited to KDS mode.
 
 
 
@@ -159,16 +159,16 @@ At the top-left of the screen, the arrow icon returns you to the Toast POS home 
 
 The overflow menu (the ⋮ icon) provides additional actions and shortcuts:
 
-- Device Status: Opens a dialog showing the device connection and service statuses.
+- **Device Status**: Opens a dialog showing the device connection and service statuses.
 
 
-- Change ticket size: Opens the Change ticket size dialog. This dialog changes the size and maximum number of tickets shown on the screen for the [grid layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout). This is specific to grid view.
+- **Change ticket size**: Opens the **Change ticket size** dialog. This dialog changes the size and maximum number of tickets shown on the screen for the [grid layout](adminGuide-platformKDSOverview#platformGridKDSGridLayout). This is specific to grid view.
 
 
-- Device Setup: Opens the Device Setup page.
+- **Device Setup**: Opens the **Device Setup** page.
 
 
-- Switch user: Opens the passcode screen.
+- **Switch user**: Opens the passcode screen.
 
 
 
@@ -189,10 +189,10 @@ The bottom of the screen is for navigation and page indicators. For more informa
 
 > **Note**
 > 
-> The Primary Mode setting must be set to Kitchen Display/Expo Screen to choose the KDS view.
+> The **Primary Mode** setting must be set to **Kitchen Display/Expo Screen** to choose the KDS view.
 
 
-When you initially set up your KDS device, you can choose dynamic or grid view. This sets the default kitchen view for your Toast POS device. You can change the view by using the Try Grid View option at the top of the dynamic view screen and selecting the Try Grid View button from the dialog, or from the Device Setup screen.
+When you initially set up your KDS device, you can choose dynamic or grid view. This sets the default kitchen view for your Toast POS device. You can change the view by using the **Try Grid View** option at the top of the dynamic view screen and selecting the **Try Grid View** button from the dialog, or from the **Device Setup** screen.
 
 
 
@@ -203,25 +203,25 @@ When you initially set up your KDS device, you can choose dynamic or grid view. 
 
 **Procedure 10.29. To set up grid view on a KDS device using the Device Setup screen**
 
-1. Navigate to the Device Setup screen. You can either:
+1. Navigate to the **Device Setup** screen. You can either:
 
-- From the Toast POS home screen, navigate to the Setup section and select Device Setup.
-
-
-- From the Kitchen Display System mode screen, select the overflow menu (the ⋮ icon) on the top right and select Device Setup.
+- From the Toast POS home screen, navigate to the **Setup** section and select **Device Setup**.
 
 
-
-The Device Setup screen opens.
-
-
-2. Select KDS View.
+- From the Kitchen Display System mode screen, select the overflow menu (the ⋮ icon) on the top right and select **Device Setup**.
 
 
-3. Choose Grid View.
+
+The **Device Setup** screen opens.
 
 
-4. Select Save. The Device Setup screen appears.
+2. Select **KDS View**.
+
+
+3. Choose **Grid View**.
+
+
+4. Select **Save**. The **Device Setup** screen appears.
 
 
 
@@ -229,16 +229,16 @@ The Device Setup screen opens.
 
 When you first switch to grid view, you can choose the ticket sizing and layout you want to use. The layout can be set as:
 
-- Dynamic Sizing: Dynamically sized tickets, with a maximum of 20 to 30 tickets depending on your device and settings.
+- **Dynamic Sizing**: Dynamically sized tickets, with a maximum of 20 to 30 tickets depending on your device and settings.
 
 
-- Small Tickets: A 5 by 2 grid with a maximum of ten tickets per page.
+- **Small Tickets**: A 5 by 2 grid with a maximum of ten tickets per page.
 
 
-- Medium Tickets: A 4 by 2 grid with a maximum of eight tickets per page.
+- **Medium Tickets**: A 4 by 2 grid with a maximum of eight tickets per page.
 
 
-- Large Tickets: A 3 by 2 grid with a maximum of six tickets per page.
+- **Large Tickets**: A 3 by 2 grid with a maximum of six tickets per page.
 
 
 
@@ -271,7 +271,7 @@ Here is an example of a KDS device using grid view that has three tickets, the t
 
 ![An example of a ticket in grid view that is larger than the remaining space on a page and is therefore moved to the next page.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-expo-3-tickets-2-pages.png)
 
-If a ticket is larger than all the grid spaces on a screen, it is continued on the next page. The first section of the ticket is marked with CONTINUED on the bottom right corner of the ticket. The last section of the ticket is marked with CONTINUED on the top left corner of the ticket. If there are any middle sections, the ticket is marked with CONTINUED on both the bottom right and top left corners of the ticket to indicate it is continued on the next and previous pages.
+If a ticket is larger than all the grid spaces on a screen, it is continued on the next page. The first section of the ticket is marked with **CONTINUED** on the bottom right corner of the ticket. The last section of the ticket is marked with **CONTINUED** on the top left corner of the ticket. If there are any middle sections, the ticket is marked with **CONTINUED** on both the bottom right and top left corners of the ticket to indicate it is continued on the next and previous pages.
 
 Here is an example of a ticket that is across three grid view pages.
 
@@ -288,13 +288,13 @@ You can also change the ticket size at any time.
 > You must use grid view to configure ticket size. For more information on how to configure grid view, see [Setting up grid view](adminGuide-platformKDSOverview#platformGridKDSSetUp).
 
 
-1. From the Toast POS home screen, navigate to the Mode section and select Kitchen Display System.
+1. From the Toast POS home screen, navigate to the **Mode** section and select **Kitchen Display System**.
 
 
 2. Select the overflow menu (the ⋮ icon) on the top right. The content menu opens.
 
 
-3. Select Change ticket size. The Change ticket size dialog opens.
+3. Select **Change ticket size**. The **Change ticket size** dialog opens.
 
 
 4. Choose your desired ticket size.
@@ -303,11 +303,11 @@ You can also change the ticket size at any time.
 
 > **Note**
 > 
-> The default grid size is Medium Tickets.
+> The default grid size is **Medium Tickets**.
 
 
 
-5. Select Confirm. Grid view now displays with the chosen ticket size.
+5. Select **Confirm**. Grid view now displays with the chosen ticket size.
 
 
 
@@ -322,7 +322,7 @@ Preview tickets (fire on next) allow kitchen staff to see items as they are adde
 > Preview tickets are configured at the restaurant level.
 
 
-The preview ticket is indicated by a shaded portion below the ticket, the word Preview replacing the fire time, and the ticket header fading between light and dark gray repeatedly.
+The preview ticket is indicated by a shaded portion below the ticket, the word **Preview** replacing the fire time, and the ticket header fading between light and dark gray repeatedly.
 
 ![An example of a grid view ticket, with preview tickets enabled, before and after the order is sent. The ticket displays a shaded portion and Preview on the preview ticket before the order is sent, and no shaded portion and a fire timer on a regular ticket after the order is sent.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-kds-ticket-before-after-sent-to-kitchen.png)
 
@@ -333,7 +333,7 @@ The preview ticket is indicated by a shaded portion below the ticket, the word P
 > You cannot see preview tickets for orders placed online or from a kiosk. The ticket appears on the KDS device using grid view after the entire order is finalized and sent to the kitchen.
 
 
-After the ticket is Sent, the Preview label and ticket shadow disappear, the fading between light and dark gray stops, and the ticket enters a Sent state. The Preview label is replaced with the fire timer.
+After the ticket is **Sent**, the **Preview** label and ticket shadow disappear, the fading between light and dark gray stops, and the ticket enters a **Sent** state. The **Preview** label is replaced with the fire timer.
 
 
 
@@ -348,10 +348,10 @@ If a future or scheduled order is placed on a Toast POS device, the order appear
 
 Before configuring KDS devices to display preview tickets consider that preview tickets show all items as they are added to an order. If you configure your restaurant to not send items or courses to the kitchen, once fired, items that did appear on preview tickets disappear from the KDS tickets. For example:
 
-- If the Kitchen &gt; Pacing &gt; Meal pacing&gt; Sending Courses setting is set to Send courses individually, after an order is sent, only the courses chosen by an employee at the front of house to send to the kitchen appear, with items belonging to courses not sent disappearing from the KDS device. This can lead to confusion for kitchen employees.
+- If the **Kitchen** &gt; **Pacing** &gt; **Meal pacing**&gt; **Sending Courses** setting is set to **Send courses individually**, after an order is sent, only the courses chosen by an employee at the front of house to send to the kitchen appear, with items belonging to courses not sent disappearing from the KDS device. This can lead to confusion for kitchen employees.
 
 
-- If Front of house &gt; Order screen setup &gt; Individually Hold and Send Items is enabled, once the initial items are sent to the kitchen, the kitchen tickets only show the fired items. This can lead to confusion for kitchen employees.
+- If **Front of house** &gt; **Order screen setup** &gt; **Individually Hold and Send Items** is enabled, once the initial items are sent to the kitchen, the kitchen tickets only show the fired items. This can lead to confusion for kitchen employees.
 
 
 
@@ -362,13 +362,13 @@ If you exit or close the Toast POS app while an order is in progress, the previe
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page.
+2. Choose **Kitchen** &gt; **Printers, tickets, & KDS devices** &gt; **Kitchen and ticket setup** to open the Kitchen page.
 
 
-3. In the Ticket Screens section, use the Preview Tickets setting to turn the preview tickets feature on or off.
+3. In the **Ticket Screens** section, use the **Preview Tickets** setting to turn the preview tickets feature on or off.
 
 
-4. Select Save and Publish.
+4. Select **Save** and **Publish**.
 
 
 
@@ -383,7 +383,7 @@ For an example workflow of a KDS device using grid view with preview tickets ena
 
 ### Pagination
 
-Grid view uses Next and Previous on the bottom right and left of the KDS screen to navigate to the next and previous pages. You can also swipe right and left to navigate to the next and previous pages.
+Grid view uses **Next** and **Previous** on the bottom right and left of the KDS screen to navigate to the next and previous pages. You can also swipe right and left to navigate to the next and previous pages.
 
 The page number indicator icon on the bottom center is shaded dark gray to indicate the page currently being viewed. You can select a different page number icon to navigate to that specific page.
 
@@ -395,10 +395,10 @@ Here is an example of grid view with multiple pages.
 
 Grid view tickets display a payment status, which indicates whether the order for the ticket is paid or not. The payment status can be:
 
-- NOT PAID: The entire amount for the order is not received and processed by the restaurant.
+- **NOT PAID**: The entire amount for the order is not received and processed by the restaurant.
 
 
-- PAID: The entire amount for the order is received and processed by the restaurant.
+- **PAID**: The entire amount for the order is received and processed by the restaurant.
 
 
 
@@ -408,7 +408,7 @@ Here is an example of a ticket before and after it is paid.
 
 ### Dark mode
 
-Grid view is available in dark mode. To change to dark mode, select the overflow menu (the ⋮ icon), choose Device Setup, and select the POS Display Themesetting to choose between the Light mode and Dark mode options. Select Saveto implement the theme.
+Grid view is available in dark mode. To change to dark mode, select the overflow menu (the ⋮ icon), choose **Device Setup**, and select the **POS Display Theme**setting to choose between the **Light mode** and **Dark mode** options. Select **Save**to implement the theme.
 
 Here is an example of grid view using dark mode.
 
@@ -425,7 +425,7 @@ Before you start creating and assigning assembly lines, verify the following:
 - You created prep stations.
 
 
-- You set the [Fulfillment Method](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently.
+- You set the [**Fulfillment Method**](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to **Fulfill at each station independently**.
 
 
 - You verified that the menu entity and the assembly line you plan to assign to that menu entity use at least one of the same prep stations.
@@ -441,7 +441,7 @@ Before you start creating and assigning assembly lines, verify the following:
 > The partial fulfillment indicator is in limited release.
 
 
-If you set the [Fulfillment Method](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to Fulfill at each station independently, a partial fulfillment indicator appears on expediter KDS tickets for items that have been partially fulfilled.
+If you set the [**Fulfillment Method**](adminGuide-adminKitchenDiningRoomReference#configFulfillmentMethod) setting to **Fulfill at each station independently**, a partial fulfillment indicator appears on expediter KDS tickets for items that have been partially fulfilled.
 
 
 
@@ -469,7 +469,7 @@ Here is an example of a ticket on an expediter KDS device using grid view with o
 
 > **Note**
 > 
-> To use food runner fulfillment, the [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting must be set to Enable individual item fulfillment.
+> To use food runner fulfillment, the [**Fulfill Items**](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting must be set to **Enable individual item fulfillment**.
 
 
 Grid view's food runner fulfillment feature allows employees to fulfill individual items on expediter KDS device tickets. Food runner fulfillment is useful in situations where items are given to the guest as soon as they are ready, giving a visual indication of the fulfillment status of an individual item for that KDS device and fulfillment level.
@@ -498,7 +498,7 @@ Food runner fulfillment only works for expediter KDS device tickets with multipl
 > This feature is in limited release.
 
 
-If a menu item has a recipe associated with it and the [Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems) setting is set to Enable individual item fulfillment, you can view the recipe on a KDS device.
+If a menu item has a recipe associated with it and the **[Fulfill Items](adminGuide-adminKitchenDiningRoomReference#configFulfillItems)** setting is set to **Enable individual item fulfillment**, you can view the recipe on a KDS device.
 
 For information about how to add a recipe to a menu item, see [Adding a recipe view](adminGuide-platformMenuManagerWorkingWithMenuItems#platformMenuManagerAddingRecipeView).
 
@@ -522,18 +522,18 @@ For information about how to add a recipe to a menu item, see [Adding a recipe v
 
 > **Note**
 > 
-> Selecting more than one item, even if both have recipes, hides the View Recipe button.
+> Selecting more than one item, even if both have recipes, hides the **View Recipe** button.
 
 
 ![An example of a single menu item selected in the ticket dialog on a KDS device, with the View Recipe button visible.](https://doc.toasttab.com/doc/media/kds-menu-item-with-recipe-selected.png)
 
 
-3. Select the View Recipe button. The recipe file opens.
+3. Select the **View Recipe** button. The recipe file opens.
 
 ![An example of a recipe file viewed on a KDS device.](https://doc.toasttab.com/doc/media/kds-viewing-recipe.png)
 
 
-4. When you are done reading the recipe, select the Close button or tap outside of the recipe dialog.
+4. When you are done reading the recipe, select the **Close** button or tap outside of the recipe dialog.
 
 
 
@@ -581,7 +581,7 @@ Here is an example of a ticket on a KDS device using grid view, compared to a ti
 
 #### Action to fulfill
 
-In addition to the double-tap action, you can also swipe downwards anywhere on the ticket itself to either fulfill or unfulfill it for grid view. The motion fulfills or unfulfills the ticket depending on whether you have Double tap to fulfill or Double tap to unfulfillenabled. By default, the setting is Double tap to fulfill, meaning swiping downwards or double tapping fulfills the ticket. 
+In addition to the double-tap action, you can also swipe downwards anywhere on the ticket itself to either fulfill or unfulfill it for grid view. The motion fulfills or unfulfills the ticket depending on whether you have **Double tap to fulfill** or **Double tap to unfulfill**enabled. By default, the setting is **Double tap to fulfill**, meaning swiping downwards or double tapping fulfills the ticket. 
 
 #### Average fulfillment timer
 
@@ -602,7 +602,7 @@ Here is an example of the average fulfillment timers on an expediter KDS device 
 
 ![An example of the average fulfillment timer on the bottom right of an expediter KDS device, with timers collapsed.](https://doc.toasttab.com/doc/media/kitchen-kds-grid-avg-fulfill-timer-expo-collapsed.png)
 
-Select + Expand Timers to show all timers related to the expediter KDS device.
+Select **+ Expand Timers** to show all timers related to the expediter KDS device.
 
 Here is an example of all average fulfillment timers on grid view visible.
 
@@ -610,7 +610,7 @@ Here is an example of all average fulfillment timers on grid view visible.
 
 If there are more timers that do not fit on the expanded view, you can swipe up and down within the average fulfillment timer dialog to see timers that are not visible.
 
-Select + Collapse Timers to hide all timers except for the expediter timer on the expediter KDS device.
+Select **+ Collapse Timers** to hide all timers except for the expediter timer on the expediter KDS device.
 
 For more information about average fulfillment timers, see [Understanding average fulfillment timers](adminGuide-platformKitchenAvgFullfillmentTimer).
 
@@ -618,13 +618,13 @@ For more information about average fulfillment timers, see [Understanding averag
 
 When using the grid view feature, use the following guidelines:
 
-- Do not use grid view on portable devices. Grid view is not currently compatible with ToastGo1 and ToastGo2. Using grid view on these devices can result in cropped contents and poor formatting.
+- **Do not** use grid view on portable devices. Grid view is not currently compatible with ToastGo1 and ToastGo2. Using grid view on these devices can result in cropped contents and poor formatting.
 
 
-- Do not disconnect your local hub device from your router. The local hub device is required for offline mode with local sync. For more information about the local hub device, see [Local hub devices](adminGuide-platformOfflineModeLocalSync#platformOfflineModeLocalSyncLocalHubDevice).
+- **Do not** disconnect your local hub device from your router. The local hub device is required for offline mode with local sync. For more information about the local hub device, see [Local hub devices](adminGuide-platformOfflineModeLocalSync#platformOfflineModeLocalSyncLocalHubDevice).
 
 
-- Be aware that clearing the app data or uninstalling the Toast POS app on a KDS device that is using grid view reverts the ticket size to Medium Tickets. You then have to update the ticket size to change to the Dynamic Sizing, Large Tickets, or Small Tickets option.
+- **Be aware** that clearing the app data or uninstalling the Toast POS app on a KDS device that is using grid view reverts the ticket size to **Medium Tickets**. You then have to update the ticket size to change to the **Dynamic Sizing**, **Large Tickets**, or **Small Tickets** option.
 
 
 

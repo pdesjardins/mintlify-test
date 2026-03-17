@@ -16,7 +16,7 @@ procedures: 3
 codeExamples: 0
 ---
 
-The Online ordering hours section displays the online ordering hours for Takeout & Third-party delivery and First-party delivery. In the Online ordering hours section, the Takeout and Third-party delivery hours are always shown, while First-party delivery hours are only shown if first-party delivery is enabled in Toast Web. To enable first-party delivery, choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/Delivery page.
+The **Online ordering hours** section displays the online ordering hours for **Takeout & Third-party delivery** and **First-party delivery**. In the **Online ordering hours** section, the **Takeout and Third-party delivery** hours are always shown, while **First-party delivery** hours are only shown if first-party delivery is enabled in Toast Web. To enable first-party delivery, choose **Takeout & delivery &gt; Availability &gt; Takeout/delivery** to open the **Takeout/Delivery** page.
 
 The following table describes which online ordering hours configuration to use for each ordering channel.
 
@@ -42,33 +42,33 @@ The following table describes which online ordering hours configuration to use f
 </table>
 </div>
 
-From the Online ordering hours section, you can open or close your restaurant to online ordering, edit your online ordering hours, and choose to accept orders until closing time.
+From the **Online ordering hours** section, you can open or close your restaurant to online ordering, edit your online ordering hours, and choose to accept orders until closing time.
 
 **Procedure 3.8. To open your restaurant for online ordering**
 
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Online ordering hours.
+2. Choose **Takeout & delivery &gt; Online ordering hours**.
 
 
 3. Select the dining option you want to edit online ordering hours for.
 
 
-4. Select the day you want the restaurant to be open to online ordering. The setting is set to Closed and the pencil icon is not visible. To open your restaurant for online ordering, toggle the setting from Closed to Open. This opens the Editdialog box.
+4. Select the day you want the restaurant to be open to online ordering. The setting is set to **Closed **and the pencil icon is not visible. To open your restaurant for online ordering, toggle the setting from **Closed **to **Open**. This opens the **Edit**dialog box.
 
 
 
 > **Note**
 > 
-> If the Toast platform encounters a network problem or too many toggles are applied at once, an error message appears. The error message displays: `Error: could not close current day. `The last toggle applied will revert back to its previous position, allowing you to toggle it again. For example, if the error appeared when you toggled the setting from Opento Closed, the toggle would revert back to Open.
+> If the Toast platform encounters a network problem or too many toggles are applied at once, an error message appears. The error message displays: `Error: could not close current day. `The last toggle applied will revert back to its previous position, allowing you to toggle it again. For example, if the error appeared when you toggled the setting from **Open**to **Closed**, the toggle would revert back to **Open**.
 
 
 
-5. In the Edit dialog box, add an interval. You can add up to three intervals. An interval is a period of time when online ordering is also available. For example, you can set two intervals if your restaurant is open for online ordering from 11:00 AM-2:00 PM and from 5:00 PM-9:00 PM. The Editdialog box displays the default interval. The default interval is from 9:00 AM-9:00 PM.
+5. In the **Edit** dialog box, add an interval. You can add up to three intervals. An interval is a period of time when online ordering is also available. For example, you can set two intervals if your restaurant is open for online ordering from 11:00 AM-2:00 PM and from 5:00 PM-9:00 PM. The **Edit**dialog box displays the default interval. The default interval is from 9:00 AM-9:00 PM.
 
 
-6. Edit your hours or select the trash can icon to remove the interval. To add another interval, select the + Add interval button.
+6. Edit your hours or select the trash can icon to remove the interval. To add another interval, select the **+ Add interval** button.
 
 
 
@@ -78,13 +78,13 @@ From the Online ordering hours section, you can open or close your restaurant to
 
 
 
-7. Choose the days that the hours apply to and if the hours apply to first-party delivery. If you do not have first-party delivery enabled, you cannot apply the hours to First-party delivery.
+7. Choose the days that the hours apply to and if the hours apply to first-party delivery. If you do not have first-party delivery enabled, you cannot apply the hours to **First-party delivery**.
 
 
-8. Select the Update button to update your hours or the Cancel button to close out of the dialog box. Your online ordering hours appear in the Online ordering hours section.
+8. Select the **Update** button to update your hours or the **Cancel** button to close out of the dialog box. Your online ordering hours appear in the **Online ordering hours** section.
 
 
-9. Select the Publish all changes button to save and publish your changes. The Confirm Publish dialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+9. Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish** dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 
 
@@ -97,16 +97,16 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Online ordering hours.
+2. Choose **Takeout & delivery &gt; Online ordering hours**.
 
 
 3. Select the dining option you want to edit online ordering hours for.
 
 
-4. Select the day you want the restaurant to be closed to online ordering. The setting is set to Open, the online ordering hours are displayed, and the pencil icon is visible. To close your restaurant for online ordering, toggle the setting from Open to Closed.
+4. Select the day you want the restaurant to be closed to online ordering. The setting is set to **Open,** the online ordering hours are displayed, and the pencil icon is visible. To close your restaurant for online ordering, toggle the setting from **Open** to **Closed**.
 
 
-5. Select the Publish all changes button to save and publish your changes. The Confirm Publish dialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+5. Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish** dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 
 
@@ -115,31 +115,31 @@ For example, if the closeout hour is 12:00 AM, your online ordering hours cannot
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Online ordering hours.
+2. Choose **Takeout & delivery &gt; Online ordering hours**.
 
 
 3. Select the dining option you want to edit online ordering hours for.
 
 
-4. Select the day you want to edit current hours for. The toggle must be set to Open. Your current online ordering hours are displayed next to the toggle and the pencil icon is visible.
+4. Select the day you want to edit current hours for. The toggle must be set to **Open**. Your current online ordering hours are displayed next to the toggle and the pencil icon is visible.
 
 
-5. Select the pencil icon to open the Edit dialog box. In the Edit dialog box, edit your online ordering hours.
+5. Select the pencil icon to open the **Edit **dialog box. In the **Edit** dialog box, edit your online ordering hours.
 
 
-6. Choose the days that the hours apply to and if the hours apply to First-party delivery.
+6. Choose the days that the hours apply to and if the hours apply to **First-party delivery**.
 
 
-7. Select the Update button to update your hours or the Cancel button to close out of the dialog box. Your online ordering hours appear in the Online ordering hours section.
+7. Select the **Update** button to update your hours or the **Cancel **button to close out of the dialog box. Your online ordering hours appear in the **Online ordering hours** section.
 
 
-8. Select the Publish all changes button to save and publish your changes. The Confirm Publish dialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+8. Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish** dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 
 
 ## Accepting online orders until closing time
 
-From the Online ordering hours section you can choose to allow guests to place online orders until your restaurant’s closing time. You can choose to allow guests to place orders:
+From the **Online ordering hours** section you can choose to allow guests to place online orders until your restaurant’s closing time. You can choose to allow guests to place orders:
 
 - Until your restaurant’s closing time
 
@@ -177,38 +177,38 @@ From the Online ordering hours section you can choose to allow guests to place o
 </table>
 </div>
 
-Select the Publish all changes button to save and publish your changes. The Confirm Publishdialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish**dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 ## Configuring overrides
 
-From the Online ordering hours section you can also add, edit, or remove an override. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For example, if your normal operating hours are from 9 AM-9 PM, you can schedule an online ordering override from 1-6 PM every Monday. The override is your restaurant's new online operating hours for Mondays. 
+From the **Online ordering hours** section you can also add, edit, or remove an override. Scheduled overrides are temporary periods of time (customizable increments of 15 minutes) when a restaurant can adjust their online ordering schedule for a selected date or date range. For example, if your normal operating hours are from 9 AM-9 PM, you can schedule an online ordering override from 1-6 PM every Monday. The override is your restaurant's new online operating hours for Mondays. 
 
 **Procedure 3.11. To add an override**
 
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Online ordering hours.
+2. Choose **Takeout & delivery &gt; Online ordering hours**.
 
 
-3. In the Overrides section, select the + Add override button to open the Add override dialog box.
+3. In the **Overrides** section, select the **+ Add override** button to open the **Add override** dialog box.
 
 
-4. In the Add override dialog box:
+4. In the **Add overrid**e dialog box:
 
 - Use the date picker to choose a date for the scheduled override.
 
 
-- Add an interval for the override or select the Closed all day box. You can set up to three intervals. Select the trash can icon to remove the interval.
+- Add an interval for the override or select the **Closed all day** box. You can set up to three intervals. Select the trash can icon to remove the interval.
 
 
-- Select which dining behaviors the override applies to. A check mark appears next to the dining option that the override can be applied to. If both dining options are available, you can choose to apply the override to either Takeout & Third-party delivery and/or First-party delivery.
+- Select which dining behaviors the override applies to. A check mark appears next to the dining option that the override can be applied to. If both dining options are available, you can choose to apply the override to either **Takeout & Third-party delivery** and/or **First-party delivery**.
 
 
 
 > **Note**
 > 
-> If you have an override scheduled for a date and a dining option, you cannot schedule another override using the same date and dining option. For example, if you have an override scheduled for May 1, for Takeout & Third-party delivery, you cannot schedule another override for the same date with the same dining option, or both dining options. The Toast platform will display an error message. The error message displays: `This date is already taken for the selected Dining option`. However, you can add an override for the same date for First-party delivery. Additionally, if you have a scheduled override that applies to both dining options, you cannot schedule another override for that day.
+> If you have an override scheduled for a date and a dining option, you cannot schedule another override using the same date and dining option. For example, if you have an override scheduled for May 1, for **Takeout & Third-party delivery**, you cannot schedule another override for the same date with the same dining option, or both dining options. The Toast platform will display an error message. The error message displays: `This date is already taken for the selected Dining option`. However, you can add an override for the same date for **First-party delivery.** Additionally, if you have a scheduled override that applies to both dining options, you cannot schedule another override for that day.
 
 
 
@@ -217,10 +217,10 @@ From the Online ordering hours section you can also add, edit, or remove an over
 
 
 
-5. Select the Add button to save the override or select the Cancel button to close out of the dialog box.
+5. Select the **Add** button to save the override or select the **Cancel** button to close out of the dialog box.
 
 
-6. Select the Publish all changes button to save and publish your changes. The Confirm Publish dialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+6. Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish** dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 
 
@@ -229,19 +229,19 @@ From the Online ordering hours section you can also add, edit, or remove an over
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Online ordering hours.
+2. Choose **Takeout & delivery &gt; Online ordering hours**.
 
 
-3. In the Overrides section, select the pencil icon next to the override to open the Add Override dialog box.
+3. In the **Overrides** section, select the pencil icon next to the override to open the **Add Override** dialog box.
 
 
-4. In the Add override dialog box, edit the override.
+4. In the **Add override** dialog box, edit the override.
 
 
-5. Select the Add button to save the override or select the Cancel button to close out of the dialog box.
+5. Select the **Add** button to save the override or select the **Cancel** button to close out of the dialog box.
 
 
-6. Select the Publish all changes button to save and publish your changes. The Confirm Publish dialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+6. Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish** dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 
 
@@ -250,13 +250,13 @@ From the Online ordering hours section you can also add, edit, or remove an over
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Online ordering hours.
+2. Choose **Takeout & delivery &gt; Online ordering hours**.
 
 
-3. In the Overrides section, select the trash can icon next to the override you want to delete.
+3. In the **Overrides** section, select the trash can icon next to the override you want to delete.
 
 
-4. Select the Publish all changes button to save and publish your changes. The Confirm Publish dialog box appears. Select the Publish button to publish your changes or the Cancel button to cancel the dialog box.
+4. Select the **Publish all changes** button to save and publish your changes. The **Confirm Publish** dialog box appears. Select the **Publish** button to publish your changes or the **Cancel** button to cancel the dialog box.
 
 
 

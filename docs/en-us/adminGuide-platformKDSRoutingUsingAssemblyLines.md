@@ -181,23 +181,23 @@ Menu items will only appear on prep stations in an assembly line if the prep sta
 
 ### Assigning assembly lines to multiple menu entities through Advanced properties
 
-The following procedure is for assigning assembly lines to multiple menu entities at once using the Menus &gt; Bulk management &gt; Advanced properties page in Toast Web.
+The following procedure is for assigning assembly lines to multiple menu entities at once using the **Menus &gt; Bulk management &gt; Advanced properties** page in Toast Web.
 
 **Procedure 10.14. To assign assembly lines to menu entities using the Advanced properties page**
 
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Bulk management &gt; Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
+2. Choose **Menus &gt; Bulk management &gt; Advanced properties**. The **Advanced Properties** page with an interactive table with rows for each restaurant menu opens.
 
 
 3. Expand the menu to show the menu groups in a menu. Continue to expand to see menu items, modifier groups, and modifiers.
 
 
-4. Use the Show/Hide dropdown menu above the table to select Assembly Line. An Assembly Line column appears on the table.
+4. Use the **Show/Hide** dropdown menu above the table to select **Assembly Line**. An **Assembly Line** column appears on the table.
 
 
-5. In the Assembly Line column, you can assign an assembly line to an entire menu, a menu group, or menu item. To assign an assembly line, click the cell under the Assembly Line column for that menu entity and then select the assembly line from the dropdown menu. 
+5. In the **Assembly Line** column, you can assign an assembly line to an entire menu, a menu group, or menu item. To assign an assembly line, click the cell under the **Assembly Line** column for that menu entity and then select the assembly line from the dropdown menu. 
 
 
 
@@ -217,28 +217,28 @@ The following procedure is for assigning assembly lines to multiple menu entitie
 
 > **Note**
 > 
-> Use the Full menu view of the [menu manager page](adminGuide-platformBulkMenuManagerOverview) to add assembly lines to menus, menu groups, and menu items.
+> Use the **Full menu** view of the [menu manager page](adminGuide-platformBulkMenuManagerOverview) to add assembly lines to menus, menu groups, and menu items.
 
 
-Use the Full menu view of the [menu manager page](adminGuide-platformBulkMenuManagerOverview)to add assembly lines to menus, menu groups, and menu items for single-location restaurants. For information about adding assembly lines to menu entities for multi-location restaurants, see [Assigning assembly lines to menu entities for multi-location restaurants](adminGuide-platformKDSRoutingUsingAssemblyLines#platformKDSAssignAssemblyLinesMultiLocation).
+Use the **Full menu** view of the [menu manager page](adminGuide-platformBulkMenuManagerOverview)to add assembly lines to menus, menu groups, and menu items for single-location restaurants. For information about adding assembly lines to menu entities for multi-location restaurants, see [Assigning assembly lines to menu entities for multi-location restaurants](adminGuide-platformKDSRoutingUsingAssemblyLines#platformKDSAssignAssemblyLinesMultiLocation).
 
-To set an assembly line for a menu, go to the Kitchen prep section of the menu's details page and select the assembly line to which items ordered from the menu should be routed.
+To set an assembly line for a menu, go to the **Kitchen prep** section of the menu's details page and select the assembly line to which items ordered from the menu should be routed.
 
-To override the inherited assembly line for a menu group, go to the Kitchen prep section of the group's details page, select the link icon next to Assembly linesto unlink the configuration, and then select the assembly line from the list.
+To override the inherited assembly line for a menu group, go to the **Kitchen prep** section of the group's details page, select the link icon next to **Assembly lines**to unlink the configuration, and then select the assembly line from the list.
 
 ![Example of a menu group that does not inherit its assembly line.](https://doc.toasttab.com/doc/media/menu-manager-menu-group-does-not-inherit-assembly-line.png)
 
-To configure a menu group so it inherits its assembly line, select the link icon next to Assembly lines so that the assembly line settings are grayed out.
+To configure a menu group so it inherits its assembly line, select the link icon next to **Assembly lines** so that the assembly line settings are grayed out.
 
 ![Example of a menu group that inherits its assembly line.](https://doc.toasttab.com/doc/media/menu-manager-menu-group-inherits-assembly-line.png)
 
-To override the inherited assembly line for a menu item, go to the Kitchen section on its details page, set its Inherit assembly line? setting to No, and then select its assembly line from the dropdown menu. When you configure settings directly on a menu item, those settings apply any time the menu item is ordered from any menu path.
+To override the inherited assembly line for a menu item, go to the **Kitchen** section on its details page, set its **Inherit assembly line?** setting to **No**, and then select its assembly line from the dropdown menu. When you configure settings directly on a menu item, those settings apply any time the menu item is ordered from any menu path.
 
 ![Example of a menu item that does not inherit its assembly line.](https://doc.toasttab.com/doc/media/menu-manager-item-does-not-inherit-assembly-line.png)
 
-To configure a menu item to inherit its assembly line, set the Inherit assembly line? setting to Yes.
+To configure a menu item to inherit its assembly line, set the **Inherit assembly line?** setting to **Yes**.
 
-If you do not have any assembly lines configured yet, use the Manage assembly lines link to go to the Assembly Lines page where you can create them. For more information on creating assembly lines, see [Creating an assembly line](adminGuide-platformKDSCreatingAssemblyLines).
+If you do not have any assembly lines configured yet, use the **Manage assembly lines** link to go to the **Assembly Lines** page where you can create them. For more information on creating assembly lines, see [Creating an assembly line](adminGuide-platformKDSCreatingAssemblyLines).
 
 ### Assigning assembly lines to menu entities for multi-location restaurants
 
@@ -249,7 +249,7 @@ The following procedure is for assigning assembly lines to menu entities for mul
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Bulk management &gt; Advanced properties. The Advanced Properties page with an interactive table with rows for each restaurant menu opens.
+2. Choose **Menus &gt; Bulk management &gt; Advanced properties**. The **Advanced Properties** page with an interactive table with rows for each restaurant menu opens.
 
 
 3. Expand the menu to show the menu groups in a menu. Continue to expand to see menu items.
@@ -258,28 +258,28 @@ The following procedure is for assigning assembly lines to menu entities for mul
 4. Select the menu, menu group, or menu item you want to add an assembly line to. The details page for that menu entity opens.
 
 
-5. Navigate to the Preparation section for that menu entity.
+5. Navigate to the **Preparation** section for that menu entity.
 
 
-6. If you are assigning an assembly line to a menu, select an assembly line option from the Assembly Linesetting.
+6. If you are assigning an assembly line to a menu, select an assembly line option from the **Assembly Line**setting.
 
 
 7. If you are assigning an assembly line to a menu group:
 
-1. Set the Inherit Assembly Linesetting to Yes if you want the menu group to inherit the assembly line from the parent menu.
+1. Set the **Inherit Assembly Line**setting to **Yes** if you want the menu group to inherit the assembly line from the parent menu.
 
 
-2. Set the Inherit Assembly Linesetting to No, specify assembly line here, if you want a different assembly line from the parent menu. Select an assembly line from the Assembly Line setting.
+2. Set the **Inherit Assembly Line**setting to **No, specify assembly line here**, if you want a different assembly line from the parent menu. Select an assembly line from the **Assembly Line** setting.
 
 
 
 
 8. If you are assigning an assembly line to a menu item:
 
-1. Set the Inherit Assembly Linesetting to Yes if you want the menu item to inherit the assembly line from the parent menu group.
+1. Set the **Inherit Assembly Line**setting to **Yes** if you want the menu item to inherit the assembly line from the parent menu group.
 
 
-2. Set the Inherit Assembly Linesetting to No, specify assembly line here, if you want a different assembly line from the parent menu group. Select an assembly line from the Assembly Line setting.
+2. Set the **Inherit Assembly Line**setting to **No, specify assembly line here**, if you want a different assembly line from the parent menu group. Select an assembly line from the **Assembly Line** setting.
 
 
 

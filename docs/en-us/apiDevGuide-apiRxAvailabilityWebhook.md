@@ -145,20 +145,20 @@ The restaurant is online and can accept orders. Attributes in the `availability_
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ONLINE</code></p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ONLINE</code></p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">AVAILABILITY_ONLINE </code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is available to accept online orders. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">AVAILABILITY_ONLINE </code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is available to accept online orders. </p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Restaurant is approving online orders</code></p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is available to accept orders. </p> <p className="text-base leading-relaxed">data type: string </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Restaurant is approving online orders</code> </p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is available to accept orders. </p> <p className="text-base leading-relaxed">**data type:** string </p></div></td>
     </tr>
   </tbody>
 </table>
@@ -198,20 +198,20 @@ The restaurant is offline and should not receive orders. Attributes in the `avai
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">OFFLINE</code></p> <p className="text-base leading-relaxed">data type: string </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">OFFLINE</code> </p> <p className="text-base leading-relaxed">**data type:** string </p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">AVAILABILITY_OFFLINE</code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is unavailable to accept online orders. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">AVAILABILITY_OFFLINE</code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is unavailable to accept online orders. </p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Restaurant cannot accept online orders</code></p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is unavailable to accept online orders. </p> <p className="text-base leading-relaxed">data type: string </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">Restaurant cannot accept online orders</code></p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is unavailable to accept online orders. </p> <p className="text-base leading-relaxed">**data type:** string </p></div></td>
     </tr>
   </tbody>
 </table>
@@ -276,20 +276,20 @@ The restaurant has turned on online ordering for that ordering channel. Attribut
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ONLINE</code></p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">ONLINE</code></p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">TOGGLE_ENABLED</code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is available to accept online orders.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">TOGGLE_ENABLED</code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is available to accept online orders.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">User enabled integration</code></p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is available to accept orders. </p> <p className="text-base leading-relaxed">data type: string </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">User enabled integration</code> </p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is available to accept orders. </p> <p className="text-base leading-relaxed">**data type:** string </p></div></td>
     </tr>
   </tbody>
 </table>
@@ -329,20 +329,20 @@ The restaurant has turned off online ordering for that ordering channel. Attribu
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">OFFLINE</code></p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">OFFLINE</code></p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">TOGGLE_DISABLED</code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is unavailable to accept online orders.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reasonKey</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">TOGGLE_DISABLED</code></p> <p className="text-base leading-relaxed">The machine-readable reason why the restaurant is unavailable to accept online orders.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">User disabled integration</code></p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is unavailable to accept orders. </p> <p className="text-base leading-relaxed">data type: string </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">reason</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">User disabled integration</code> </p> <p className="text-base leading-relaxed">The human-readable reason why the restaurant is unavailable to accept orders. </p> <p className="text-base leading-relaxed">**data type:** string </p></div></td>
     </tr>
   </tbody>
 </table>
@@ -399,7 +399,7 @@ For a restaurant to be available to accept online orders, the online ordering ch
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">toggle_availability_offline </code></p> <p className="text-base leading-relaxed">The online ordering channel toggle is off. </p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">availability_offline</code></p> <p className="text-base leading-relaxed">Restaurant health is offline.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">availability_offline</code> </p> <p className="text-base leading-relaxed">Restaurant health is offline.</p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant is offline and not available to accept online orders. </p></div></td>
     </tr>
   </tbody>

@@ -18,7 +18,7 @@ codeExamples: 0
 
 This section describes the user interface workflow for loyalty transactions in Toast Kiosk.
 
-1. On the Kiosk device, the guest taps the START button.
+1. On the Kiosk device, the guest taps the **START** button.
 
 
 2. The guest adds items to their order. For more information, see the [Toast Central article](https://central.toasttab.com/s/article/Kiosk-Placing-Orders-Making-Payments-and-Tipping) about placing an order using Toast Kiosk. 
@@ -31,14 +31,14 @@ This section describes the user interface workflow for loyalty transactions in T
 
 
 
-3. On the bottom right of the screen, the guest taps the + Add rewards button.
+3. On the bottom right of the screen, the guest taps the **+ Add rewards** button.
 
 ![Image](https://doc.toasttab.com/doc/media/loyalty-kiosk-workflow-1.png)
 
 
-4. On the Loyalty + Rewards screen, the guest can do one of the following: 
+4. On the **Loyalty + Rewards** screen, the guest can do one of the following: 
 
-- Tap the SCAN CODE button and scan the QR code on a loyalty card or app.
+- Tap the **SCAN CODE** button and scan the QR code on a loyalty card or app.
 
 
 - Swipe a loyalty card.
@@ -48,7 +48,7 @@ This section describes the user interface workflow for loyalty transactions in T
 Your integration will receive a `LOYALTY_INQUIRE`request.
 
 
-5. Next to the discount they want to apply, the guest taps Redeem. Offers that are not eligible for redemption on the current check are disabled and the Redeem button is shaded gray.
+5. Next to the discount they want to apply, the guest taps **Redeem**. Offers that are not eligible for redemption on the current check are disabled and the **Redeem** button is shaded gray.
 
 
 

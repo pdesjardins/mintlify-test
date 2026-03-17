@@ -31,7 +31,7 @@ codeExamples: 0
 **All day**
 : The total count of an item that needs to be sent out from the kitchen across several orders. Used to clarify and prioritize workflow in the kitchen. Example: the grill cook asks, "Chef, can you give me an all day." The chef replies, "You’ve got 8 strip steaks and 3 ribeyes all day."
 
-The Toast KDS device offers an All Day Viewoption to make calculating counts easier and more accurate for cooks and expediters. For more information, see [About all day view](adminGuide-adminReportingTotalsKDS#adminAllDayView).
+The Toast KDS device offers an **All Day View**option to make calculating counts easier and more accurate for cooks and expediters. For more information, see [About all day view](adminGuide-adminReportingTotalsKDS#adminAllDayView).
 
 
 
@@ -82,7 +82,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 **Blind cash drawer access**
-: Blind cash drawer access is tied to employee permission Cash Drawers (Blind) and grants the employee access to view and manage cash drawers on the Toast platform. While managing cash drawers, the balance of each cash drawer is hidden to employees with this permission. If the employee is closing a cash drawer, they have to enter an actual closing cash balance without knowledge of the expected closing cash balance.
+: Blind cash drawer access is tied to employee permission **Cash Drawers (Blind)** and grants the employee access to view and manage cash drawers on the Toast platform. While managing cash drawers, the balance of each cash drawer is hidden to employees with this permission. If the employee is closing a cash drawer, they have to enter an actual closing cash balance without knowledge of the expected closing cash balance.
 
 
 
@@ -128,7 +128,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 
 
 **Cash drawer lockdown**
-: An employee may lock themselves to a cash drawer for the duration of a shift. The cash drawer is assigned to that employee and only they can take payments and deposit cash into that drawer. No other employees can access that cash drawer unless they have employee permission Cash Drawer Lockdown (Override). An employee who is locked down to a cash drawer must also close the cash drawer as a part of their shift review in order to clock out. For more information, see [Cash drawer lockdown](adminGuide-adminCashDrawerLockdown).
+: An employee may lock themselves to a cash drawer for the duration of a shift. The cash drawer is assigned to that employee and only they can take payments and deposit cash into that drawer. No other employees can access that cash drawer unless they have employee permission **Cash Drawer Lockdown (Override)**. An employee who is locked down to a cash drawer must also close the cash drawer as a part of their shift review in order to clock out. For more information, see [Cash drawer lockdown](adminGuide-adminCashDrawerLockdown).
 
 
 
@@ -170,7 +170,7 @@ The Toast KDS device offers an All Day Viewoption to make calculating counts eas
 **Clawback**
 : A financial provision, also known as tip withholding, that lets restaurant managers reclaim a percentage of employee credit card tips to cover the cost of credit card processing fees.
 
-Restaurant managers can enable this feature using the Employees &gt; Payroll management &gt; Tip withholding page in Toast Web. Once enabled, they can specify the Tip Withholding Percentage. For more information, see [Tip Withholding](https://central.toasttab.com/s/article/Tip-Withholding).
+Restaurant managers can enable this feature using the **Employees &gt; Payroll management &gt; Tip withholding** page in Toast Web. Once enabled, they can specify the **Tip Withholding Percentage**. For more information, see [Tip Withholding](https://central.toasttab.com/s/article/Tip-Withholding).
 
 
 
@@ -269,7 +269,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 **Full cash drawer access**
-: Full cash drawer access is tied to employee permission Cash Drawers (Full) and grants the employee access to view and manage cash drawers on the Toast platform. Employees with this permission can see the cash drawer balance for all drawers, unlike users with the Cash Drawers (Blind) permission. If employees are granted both permissions, the Cash Drawers (Full) permission overrides the Cash Drawers (Blind)permission.
+: Full cash drawer access is tied to employee permission **Cash Drawers (Full)** and grants the employee access to view and manage cash drawers on the Toast platform. Employees with this permission can see the cash drawer balance for all drawers, unlike users with the **Cash Drawers (Blind)** permission. If employees are granted both permissions, the **Cash Drawers (Full)** permission overrides the **Cash Drawers (Blind)**permission.
 
 
 
@@ -316,7 +316,7 @@ For the Toast platform, an expediter is a Toast KDS device or kitchen printer th
 
 
 **Hold**
-: An option on ordering screens on a Toast POS device. Servers select Hold to retain guest order information without sending the order to the prep station(s). Example: the last person in a party to order needs more time to decide, so the server holds the orders taken from the rest of the party.
+: An option on ordering screens on a Toast POS device. Servers select **Hold** to retain guest order information without sending the order to the prep station(s). Example: the last person in a party to order needs more time to decide, so the server holds the orders taken from the rest of the party.
 
 
 
@@ -566,7 +566,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Send**
-: An option on ordering screens on a Toast POS device. Servers select Send to notify the kitchen to begin preparing an order or part of an order.
+: An option on ordering screens on a Toast POS device. Servers select **Send** to notify the kitchen to begin preparing an order or part of an order.
 
 
 
@@ -611,7 +611,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Stay**
-: An option on ordering screens on a Toast POS device. Servers select Stay to send an order to the kitchen without closing the ordering screen. Example: a server uses a handheld device to take drink orders for a large party and selects Stay after each guest orders. The bar begins making drinks for the table before the entire party has ordered.
+: An option on ordering screens on a Toast POS device. Servers select **Stay** to send an order to the kitchen without closing the ordering screen. Example: a server uses a handheld device to take drink orders for a large party and selects **Stay** after each guest orders. The bar begins making drinks for the table before the entire party has ordered.
 
 
 
@@ -642,7 +642,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Toast Web**
-: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select Setup &gt; Other Setup). For more information, see [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
+: The restaurant administration site at toasttab.com/restaurants/admin, which can be accessed from either a web browser or the Toast POS device (from the home screen, select **Setup &gt; Other Setup**). For more information, see [Using Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
 
@@ -715,7 +715,7 @@ For table service orders, servers can include each guest's seat number. For more
 
 
 **Z report (zero report, closeout report)**
-: A one-day sales summary that appears when you select Close Out Day on the home screen of a Toast POS device. This is a report for the entire business day. It can be customized to show the relevant information you wish to see at the end of a business day such as net sales, discounts and voids, and cash balance. The report can be customized on the Employees &gt; POS report configurations &gt; Manager end of day reportpage in Toast Web. Monitoring the Z report during the day does not interfere with the automated close out process that the Toast platform completes every night.
+: A one-day sales summary that appears when you select **Close Out Day** on the home screen of a Toast POS device. This is a report for the entire business day. It can be customized to show the relevant information you wish to see at the end of a business day such as net sales, discounts and voids, and cash balance. The report can be customized on the **Employees &gt; POS report configurations &gt; Manager end of day report**page in Toast Web. Monitoring the Z report during the day does not interfere with the automated close out process that the Toast platform completes every night.
 
 
 

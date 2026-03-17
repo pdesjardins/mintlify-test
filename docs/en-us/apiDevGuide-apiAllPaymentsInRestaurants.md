@@ -55,11 +55,11 @@ curl -X GET \ -H "Authorization: Bearer
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e703C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant for which payments will be returned.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e708C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the business date for order payments in the <code className="font-mono text-sm">paidBusinessDate</code> query parameter. Alternatively, you could query for refunds with the <code className="font-mono text-sm">refundBusinessDate</code> query parameter or for voids with the <code className="font-mono text-sm">voidBusinessDate</code> query parameter.</p></div></td>
     </tr>
   
@@ -79,7 +79,7 @@ The following example shows the JSON response data for a GET request to the `/pa
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e724C0BDE523-B62F-4A49-BD00-2E7817FF64CD" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">/payments</code> endpoint returns a JSON array of payment GUIDs. In this example, the query returns three payments.</p></div></td>
     </tr>
   

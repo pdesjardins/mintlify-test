@@ -28,27 +28,27 @@ This section provides information about working with price levels in the menu ma
 
 Follow the procedure below to edit a price level's price.
 
-**Procedure 8.99. To edit a price level's price**
+**Procedure 8.103. To edit a price level's price**
 
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Menu management &gt; Menu manager to open the Menu managerpage.
+2. Choose **Menus &gt; Menu management &gt; Menu manager** to open the **Menu manager**page.
 
 
-3. From the Show section, choose Price levels.
+3. From the **Show** section, choose **Price levels**.
 
 
 4. Use the [search field](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerSearchingForMenuEntities) or the [filtering controls](adminGuide-platformMenuManagerUsingSearchAndFilteringToFindMenuEntities#platformMenuManagerFilteringMenuEntities) to refine the list of price levels.
 
 
-5. Enter your price edits in the Pricecolumn.
+5. Enter your price edits in the **Price**column.
 
 
 
 > **Note**
 > 
-> Menu manager supports editing price levels that use base prices. If a price level uses an advanced pricing strategy, the strategy name is listed in the Price strategycolumn and a price range is shown in the Price column but you cannot edit it. You must edit the price level from its details page.
+> Menu manager supports editing price levels that use base prices. If a price level uses an advanced pricing strategy, the strategy name is listed in the **Price strategy**column and a price range is shown in the **Price** column but you cannot edit it. You must edit the price level from its details page.
 
 
 
@@ -58,12 +58,12 @@ Follow the procedure below to edit a price level's price.
 
 > **Important**
 > 
-> The menu manager offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either*select Schedule to create a change set *or*Save to save your changes immediately but you don't do both. If you select Save, your changes will be saved immediately and you will not be able to create a change set. Do not select Save in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
+> The menu manager offers additional workflows for saving and publishing your pricing edits that are different from other configuration pages in Toast Web, including the ability to create a change set that saves and publishes your changes at a later date and time. In the menu manager, you *either*select **Schedule** to create a change set *or***Save** to save your changes immediately but you don't do both. If you select **Save**, your changes will be saved immediately and you will not be able to create a change set. Do not select **Save** in the menu manager until you fully understand the publishing workflows described in [Publishing menu manager changes](adminGuide-platformPublishingMenuManagerChanges).
 
 
 
 
 ## Viewing read-only price-level information
 
-The Price levels view of the menu manager provides additional read-only information about modifiers. For example, the Price strategy column displays the name of the price strategy that the price level uses. For more information, see [Price levels view](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerPriceLevelsColumns).
+The **Price levels** view of the menu manager provides additional read-only information about modifiers. For example, the **Price strategy** column displays the name of the price strategy that the price level uses. For more information, see [Price levels view](adminGuide-platformColumnsInTheMenuManagerViews#platformMenuManagerPriceLevelsColumns).
 

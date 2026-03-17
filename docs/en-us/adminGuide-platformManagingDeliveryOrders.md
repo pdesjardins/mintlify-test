@@ -20,36 +20,36 @@ codeExamples: 0
 
 > **Note**
 > 
-> If the delivery drivers for your restaurant are employees of the restaurant, you will not be able use Toast Delivery Services (TDS). For more information, see [this Toast Central article](https://central.toasttab.com/s/article/Toast-Delivery-Services-Troubleshooting-FAQ). For TDS orders, you can only Redispatch a driver. You will not be able to assign and dispatch a driver from the Delivery screen on the Toast POS app.
+> If the delivery drivers for your restaurant are employees of the restaurant, you will not be able use Toast Delivery Services (TDS). For more information, see [this Toast Central article](https://central.toasttab.com/s/article/Toast-Delivery-Services-Troubleshooting-FAQ). For TDS orders, you can only **Redispatch** a driver. You will not be able to assign and dispatch a driver from the Delivery screen on the Toast POS app.
 
 
-The Delivery mode on the Toast POS app, has a built-in function that allows you to manage delivery orders, dispatch drivers, and mark orders as complete. The Delivery mode is different from TDS, as Deliverymode uses your own drivers and not an on-demand delivery service.
-
-
-
-> **Note**
-> 
-> To use the Delivery Mode screen, you must have the 2. Delivery Access permission. From Toast Web, choose Employees &gt; Employee management &gt; Jobs to open the Jobs page. Select the job title to edit the permissions.For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
-
-
-An Order Ready order must be assigned to a driver before it can be marked as complete. To assign and dispatch a driver from the Orders Hub screen:
-
-1. On the Order Ready entry, select the Complete button. If the order has not been paid for yet, select the Pay $ button to complete payment before assigning a driver. If the order has been paid for, a dialog box appears prompting you to select the Dispatch driver button. Select the Cancelbutton to cancel out of the dialog box.
-
-
-2. Selecting the Dispatch driver button opens the Delivery screen. On this screen, you can select the DISPATCH DRIVER button at the top right to [dispatch a driver](https://central.toasttab.com/s/article/Delivery-Mode-1493048871021#DispatchDriver). Select your driver and then select the OK button.
-
-After you dispatch a driver, the order moves to the EN ROUTE tab on the Delivery screen. The order status changes from Unassigned to En Routeon the Orders Hub screen.
+The Delivery mode on the Toast POS app, has a built-in function that allows you to manage delivery orders, dispatch drivers, and mark orders as complete. The Delivery mode is different from TDS, as Delivery****mode uses your own drivers and not an on-demand delivery service.
 
 
 
 > **Note**
 > 
-> You must have the 2. Delivery Accesspermission or be assigned the driver to be able to mark the order as complete. If you do not have permission or are not the driver, an error message appears on the Orders Hub screen. The error message displays: `You don’t have permission to complete delivery orders or delivery orders you are not assigned to.`
+> To use the Delivery Mode screen, you must have the **2. Delivery Access** permission. From Toast Web, choose **Employees &gt; Employee management &gt; Jobs** to open the **Jobs** page. Select the job title to edit the permissions.For more information about permissions, see [POS access permissions](adminGuide-adminPermissions#adminModePermissions).
+
+
+An **Order Ready** order must be assigned to a driver before it can be marked as complete. To assign and dispatch a driver from the Orders Hub screen:
+
+1. On the **Order Ready** entry, select the **Complete** button. If the order has not been paid for yet, select the **Pay $** button to complete payment before assigning a driver. If the order has been paid for, a dialog box appears prompting you to select the **Dispatch driver** button. Select the **Cancel**button to cancel out of the dialog box.
+
+
+2. Selecting the **Dispatch driver** button opens the Delivery screen. On this screen, you can select the **DISPATCH DRIVER** button at the top right to [dispatch a driver](https://central.toasttab.com/s/article/Delivery-Mode-1493048871021#DispatchDriver). Select your driver and then select the **OK** button.
+
+After you dispatch a driver, the order moves to the **EN ROUTE** tab on the Delivery screen. The order status changes from **Unassigned** to **En Route**on the Orders Hub screen.
 
 
 
-3. On the Orders Hub screen, you can mark an order as complete by selecting the Complete button. This moves the order to the Completed tab on the Orders Hub screen and moves the order to the DELIVERED tab on the Delivery screen.
+> **Note**
+> 
+> You must have the **2. Delivery Access**permission or be assigned the driver to be able to mark the order as complete. If you do not have permission or are not the driver, an error message appears on the Orders Hub screen. The error message displays: `You don’t have permission to complete delivery orders or delivery orders you are not assigned to.`
+
+
+
+3. On the Orders Hub screen, you can mark an order as complete by selecting the **Complete** button. This moves the order to the **Completed** tab on the Orders Hub screen and moves the order to the **DELIVERED** tab on the Delivery screen.
 
 
 
@@ -93,7 +93,7 @@ When your restaurant fulfills a guest delivery order using Toast Delivery Servic
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">DELIVERY CANCELLED </p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person who was previously assigned to pick up this order has cancelled the pick up.</p> <p className="text-base leading-relaxed">Select the Redispatch button to request a new delivery person for the order. An additional delivery fee may be charged. </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The delivery person who was previously assigned to pick up this order has cancelled the pick up.</p> <p className="text-base leading-relaxed">Select the **Redispatch** button to request a new delivery person for the order. An additional delivery fee may be charged. </p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">UNDELIVERABLE</p></div></td>

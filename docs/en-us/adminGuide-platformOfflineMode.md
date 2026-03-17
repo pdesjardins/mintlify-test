@@ -72,15 +72,15 @@ A dialog similar to the following opens on the Toast POS device.
 
 ![The dialog informing you what you can and cannot do during a local network connection issue.](https://doc.toasttab.com/doc/media/platform-offline-legacy-network-outage-dialog.png)
 
-Select Got it to close the dialog or Troubleshoot to view troubleshooting options for a local network disruption.
+Select **Got it** to close the dialog or **Troubleshoot** to view troubleshooting options for a local network disruption.
 
 The following dialog shows troubleshooting information.
 
 ![The dialog informing you how to access troubleshooting information for a local network disruption and some troubleshooting methods.](https://doc.toasttab.com/doc/media/platform-offline-legacy-network-outage-troubleshoot.png)
 
-Select Done to close the dialog.
+Select **Done** to close the dialog.
 
-To open this dialog again, select What to doon the offline banner.
+To open this dialog again, select **What to do**on the offline banner.
 
 To recover, first check that your local network cable is securely connected or Wi-Fi is enabled on the device. For more information, see [Local network disruption](adminGuide-adminOfflineModeOverview#platformOfflineNetworkDisruptionType).
 
@@ -98,15 +98,15 @@ A dialog similar to the following opens on the Toast POS device.
 
 ![The dialog informing you what you can and cannot do during an internet service disruption.](https://doc.toasttab.com/doc/media/platform-offline-legacy-internet-outage-dialog.png)
 
-Select Got it to close the dialog or Troubleshoot to view troubleshooting options for an internet service disruption.
+Select **Got it** to close the dialog or **Troubleshoot** to view troubleshooting options for an internet service disruption.
 
 The following dialog shows troubleshooting information.
 
 ![The dialog informing you how to access troubleshooting information for an internet service disruption and some troubleshooting methods.](https://doc.toasttab.com/doc/media/platform-offline-legacy-internet-outage-troubleshoot.png)
 
-Select Done to close the dialog.
+Select **Done** to close the dialog.
 
-To open this dialog again, select What to doon the offline banner.
+To open this dialog again, select **What to do**on the offline banner.
 
 To resolve this issue, contact your internet service provider (ISP). For more information, see [Internet service provider disruption](adminGuide-adminOfflineModeOverview#platformOfflineInternetDisruptionType).
 
@@ -124,15 +124,15 @@ A dialog similar to the following opens on the Toast POS device.
 
 ![The dialog informing you what you can and cannot do during a Toast platform cloud-based service disruption.](https://doc.toasttab.com/doc/media/platform-offline-legacy-toast-outage-dialog.png)
 
-Select Got it to close the dialog or Troubleshoot to view troubleshooting options for a Toast platform cloud-based service disruption.
+Select **Got it** to close the dialog or **Troubleshoot** to view troubleshooting options for a Toast platform cloud-based service disruption.
 
 The following dialog shows troubleshooting information.
 
 ![The dialog informing you how to access troubleshooting information for a Toast platform cloud-based service disruption.](https://doc.toasttab.com/doc/media/platform-offline-legacy-toast-outage-troubleshoot.png)
 
-Select Done to close the dialog.
+Select **Done** to close the dialog.
 
-To open this dialog again, select What to doon the offline banner.
+To open this dialog again, select **What to do**on the offline banner.
 
 This is a Toast service issue and Toast is working to resolve it. You can visit the [Toast status page](https://status.toasttab.com/) for information about current outages.
 
@@ -209,7 +209,7 @@ This section provides some best practices for offline Toast POS devices using of
 
 
 
-Select Learn More in the offline banner to see the supported operations and whether printers are available.
+Select **Learn More** in the offline banner to see the supported operations and whether printers are available.
 
 **Operations and features not available in offline mode**
 
@@ -259,7 +259,7 @@ Select Learn More in the offline banner to see the supported operations and whet
 - Look up guest information for takeout or delivery orders. For details, see [Takeout and delivery orders](adminGuide-adminOfflineDelivery).
 
 
-- Resync orders and resync all data. The Resync Orders and the Resync ALL Dataoperations on devices are disabled during offline mode. This prevents the erasure of stored information on the device, which means you would lose all sales data and payments without the ability to retrieve them.
+- Resync orders and resync all data. The **Resync Orders** and the **Resync ALL Data**operations on devices are disabled during offline mode. This prevents the erasure of stored information on the device, which means you would lose all sales data and payments without the ability to retrieve them.
 
 
 

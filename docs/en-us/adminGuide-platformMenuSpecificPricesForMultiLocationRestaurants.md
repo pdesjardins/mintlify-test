@@ -34,7 +34,7 @@ In the example above, the Boston and Portland locations have their own versions 
 
 When guests visit either the Boston or Portland location and order Crab Cakes from the Lunch menu, the price is $10. When they order Crab Cakes from the Dinner menu, the price is $14.
 
-To use this pricing configuration, you set the pricing strategy for the Crab Cakes menu item to Menu Specific Price and then specify prices for the Lunch menu and Dinner menu. For more information, see [All versions of a menu use the same menu-specific prices](adminGuide-platformAllVersionsOfAMenuUseTheSameMenuSpecificPrices).
+To use this pricing configuration, you set the pricing strategy for the Crab Cakes menu item to **Menu Specific Price** and then specify prices for the Lunch menu and Dinner menu. For more information, see [All versions of a menu use the same menu-specific prices](adminGuide-platformAllVersionsOfAMenuUseTheSameMenuSpecificPrices).
 
 
 - Each version of the menu has its own menu-specific prices, for example:
@@ -58,10 +58,10 @@ When guests visit the Portland location and order Crab Cakes from the Lunch menu
 
 To use this pricing configuration, you:
 
-- Set the pricing strategy for the Crab Cakes menu item to Location Specific Price.
+- Set the pricing strategy for the Crab Cakes menu item to **Location Specific Price**.
 
 
-- Add two rows to the Location Pricestable, one for Boston and another for Portland.
+- Add two rows to the **Location Prices**table, one for Boston and another for Portland.
 
 
 - In the Boston row, specify nested menu-specific prices for the Lunch and Dinner menus at Boston.

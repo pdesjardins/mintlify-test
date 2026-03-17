@@ -44,21 +44,21 @@ The following sections provide instructions for setting tax rates and behavior. 
 
 ## Setting tax rates and tax behavior
 
-To override the inherited tax rates for a menu, menu group, or subgroup, go to the Taxes section of the entity's details page, select the link icon next to Tax rates to unlink the configuration, and then select the tax rates from the list. To override the Calculate prices with tax included or Takeout exception setting, select its link icon to unlink the configuration and then configure the setting as needed.
+To override the inherited tax rates for a menu, menu group, or subgroup, go to the **Taxes** section of the entity's details page, select the link icon next to **Tax rates** to unlink the configuration, and then select the tax rates from the list. To override the **Calculate prices with tax included** or **Takeout exception** setting, select its link icon to unlink the configuration and then configure the setting as needed.
 
 ![Example of a menu group that does not inherit its tax rates and tax behavior settings.](https://doc.toasttab.com/doc/media/menu-builder-menu-group-does-not-inherit-tax-settings.png)
 
-To configure a menu, menu group, or subgroup so it inherits its tax rates, select the link icon next to Tax ratesso the tax rates setting is grayed out. To inherit the Calculate prices with tax included or Takeout exception setting, select its link icon so that the setting is grayed out.
+To configure a menu, menu group, or subgroup so it inherits its tax rates, select the link icon next to **Tax rates**so the tax rates setting is grayed out. To inherit the **Calculate prices with tax included** or **Takeout exception** setting, select its link icon so that the setting is grayed out.
 
 ![Example of a menu group that inherits its tax rates and tax behavior settings.](https://doc.toasttab.com/doc/media/menu-builder-menu-group-inherits-tax-settings.png)
 
-To override the inherited tax rates for a menu item, go to the Tax settings section on its details page, set its Inherit tax rates? setting to No, and then select the tax rates from the list. To override the Tax inclusion or Takeout tax exception setting, set Inherit tax inclusion? or Inherit takeout tax? to No and then configure the setting as needed. When you configure settings directly on a menu item, those settings apply *any time the menu item is ordered, from any menu path*.
+To override the inherited tax rates for a menu item, go to the **Tax settings** section on its details page, set its **Inherit tax rates?** setting to **No**, and then select the tax rates from the list. To override the **Tax inclusion** or **Takeout tax exception** setting, set **Inherit tax inclusion?** or **Inherit takeout tax?** to **No** and then configure the setting as needed. When you configure settings directly on a menu item, those settings apply *any time the menu item is ordered, from any menu path*.
 
 ![Example of a menu item that does not inherit its tax rates and tax behavior settings.](https://doc.toasttab.com/doc/media/menu-builder-item-does-not-inherit-tax-settings.png)
 
-To configure a menu item so that it inherits its tax rates, set the Inherit tax rates? setting to Yes. To inherit the Tax inclusion or Takeout tax exceptionsetting, set the Inherit tax inclusion? or Inherit takeout tax? setting to Yes.
+To configure a menu item so that it inherits its tax rates, set the **Inherit tax rates?** setting to **Yes**. To inherit the **Tax inclusion** or **Takeout tax exception**setting, set the **Inherit tax inclusion?** or **Inherit takeout tax?** setting to **Yes**.
 
-If you do not have any tax rates configured yet, you see a Manage tax rates link that you can select to go to the Tax rates page where you can create them. For more information on creating tax rates, see [Taxes overview](adminGuide-adminTaxesOverview).
+If you do not have any tax rates configured yet, you see a **Manage tax rates** link that you can select to go to the **Tax rates** page where you can create them. For more information on creating tax rates, see [Taxes overview](adminGuide-adminTaxesOverview).
 
 ## Understanding tax inclusion
 
@@ -94,7 +94,7 @@ For information on enabling tax inclusion, see [Setting tax rates and tax behavi
 
 ## Understanding takeout tax exception
 
-For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the Take Outbehavior are considered takeout orders and are not be taxed.
+For states that do not tax takeout orders, you can specify that menu items are tax-exempt when ordered for takeout. To determine if an order is a takeout order, the Toast platform looks at the dining option associated with the order and then it looks at that dining option's behavior. Dining options that use the **Take Out**behavior are considered takeout orders and are not be taxed.
 
 For more information on setting takeout tax exemption behavior, see [Setting tax rates and tax behavior](adminGuide-adminAssigningTaxRatesInMenuBuilder#platformSettingTaxRatesAndTaxBehavior).
 

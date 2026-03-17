@@ -28,26 +28,26 @@ codeExamples: 0
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Availability &gt; Online ordering to open the Online ordering page.
+2. Choose **Takeout & delivery &gt; Availability &gt; Online ordering** to open the **Online ordering **page.
 
 
 
 > **Note**
 > 
-> If you choose to Send orders directly to the kitchen or Use rules approval modes, you must configure an Autofire device. If you choose the Approve manually approval mode, no Autofire device is required, unless you allow scheduled orders. If you allow scheduled orders, you need an Autofire device.
+> If you choose to **Send orders directly to the kitchen** or **Use rules** approval modes, you must configure an Autofire device. If you choose the **Approve manually** approval mode, no Autofire device is required, unless you allow scheduled orders. If you allow scheduled orders, you need an Autofire device.
 
 
 
-3. Under the Approval section, select a device to configure to Autofire. To display the list of available devices for autofiring, select the Select a device button. This opens the Auto-Fire Device Setup dialog box.
+3. Under the **Approval **section, select a device to configure to Autofire. To display the list of available devices for autofiring, select the **Select a device** button. This opens the **Auto-Fire Device Setup** dialog box.
 
 
-4. From the Auto-Fire Device Setup dialog box, select a device as your Autofire device.
+4. From the **Auto-Fire Device Setup** dialog box, select a device as your Autofire device.
 
 
-5. Select the Update button to save your changes or the Cancel button to close out of the dialog box.
+5. Select the **Update** button to save your changes or the **Cancel** button to close out of the dialog box.
 
 
-6. Select the Save button to save your changes.
+6. Select the **Save** button to save your changes.
 
 
 
@@ -56,16 +56,16 @@ codeExamples: 0
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Availability &gt; Online ordering to open the Online ordering page.
+2. Choose **Takeout & delivery &gt; Availability &gt; Online ordering** to open the **Online ordering **page.
 
 
-3. Under the Approval section, select the Change device button to open the Auto-Fire Device Setup dialog box. Select your Autofire device.
+3. Under the **Approval **section, select the **Change device** button to open the **Auto-Fire Device Setup** dialog box. Select your Autofire device.
 
 
-4. Select the Update button to save your changes or the Cancel button to close out of the dialog box.
+4. Select the **Update** button to save your changes or the **Cancel** button to close out of the dialog box.
 
 
-5. Select the Save button to save your changes.
+5. Select the **Save** button to save your changes.
 
 
 
@@ -76,13 +76,13 @@ For more information about how to set up autofiring, see [Setting up Order Auto-
 1. On the device, navigate to the Toast POS home screen.
 
 
-2. In the Setup section, select Device Setup.
+2. In the **Setup** section, select **Device Setup**.
 
 
-3. In the Order Auto-Firing section, select Yes, make auto-firing device to assign the device as the Autofire device.
+3. In the **Order Auto-Firing** section, select **Yes, make auto-firing device** to assign the device as the Autofire device.
 
 
-4. Select the Save button to save your changes.
+4. Select the **Save** button to save your changes.
 
 
 

@@ -43,7 +43,14 @@ Also, you can optionally include only data from currently inactive restaurants u
 
 ## Creating an aggregated sales reporting data request for a custom time range
 
-Send a `POST` request to the `/era/v1/metrics` endpoint to request aggregated sales reporting data for a customized time range. A custom time range can cover the current date and earlier. For example, if the current date is January 1, 2025, you could choose a range of January 1, 2023 to January 1, 2025, but the end date could not be January 2, 2025.
+Send a `POST` request to the `/era/v1/metrics` endpoint to request aggregated sales reporting data for a customized time range. A custom time range must meet the following rules:
+
+- A custom time range can cover the current date and earlier. For example, if the current date is January 1, 2025, you can choose a range of December 20, 2024 to January 1, 2025, but the end date could not be January 2, 2025.
+
+
+- A custom time range can include a maximum of 366 days to be inclusive of leap years. If making a request greater than 366 days, you need to make multiple requests, with each request a maximum of 366 days. For example, a `startBusinessDate`of January 1, 2024 and an `endBusinessDate` of June 30, 2024 includes 182 days and is a successful request. January 1, 2024 to January 10, 2025 is 376 days and would result in an error message.
+
+
 
 To create a request for aggregated sales reporting data that covers a customized time range, you must include:
 
@@ -70,19 +77,19 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics' \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11276FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">POST</code> request to the <code className="font-mono text-sm">/era/v1/metrics</code> endpoint of the analytics API.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11316FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11336FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11336FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the data type of the message body to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11366FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include details about the requested aggregated sales reporting data in the message body. The <a href="apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestCustomRangeExampleMessageBody" className="">following example</a> is the message body for this <strong className="font-semibold">curl</strong>  command example.</p></div></td>
     </tr>
 ### Message body for the custom time range aggregated sales reporting data request
@@ -108,23 +115,23 @@ The following example shows the message body for creating an aggregated sales re
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11956FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The start date of the time range for the aggregated sales reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11956FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The start date of the time range for the aggregated sales reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format. The number of days between the start date and end date must be 366 or fewer.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11976FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The end date of the time range for the aggregated sales reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11976FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The end date of the time range for the aggregated sales reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format. The number of days between the start date and end date must be 366 or fewer.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11996FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11996FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12016FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12016FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. In this example, restaurants are included with the <code className="font-mono text-sm">restaurantIds</code> value, so all other restaurants are excluded automatically.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12036FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12036FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This request is for aggregated sales reporting data grouped by revenue center.</p></div></td>
     </tr>
 ### Response to the request for custom time range aggregated sales reporting data
@@ -139,7 +146,7 @@ The following example shows the response from the `/era/v1/metrics` endpoint.
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12656FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12656FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the aggregated sales reporting data request, also called the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
 For an example that shows how to retrieve the aggregated sales reporting data, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).
@@ -186,19 +193,19 @@ curl -i -X POST \ 'https://`[toast-api-hostname]`/era/v1/metrics/week' \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14156FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">POST</code> request to the <code className="font-mono text-sm">/era/v1/metrics/&#123;timeRange&#125;</code> endpoint of the analytics API. The <code className="font-mono text-sm">&#123;timeRange&#125;</code> in this example is <code className="font-mono text-sm">week</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14216FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14236FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14236FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the data type of the message body to <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e14266FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include details about the requested aggregated sales reporting data in the message body. The <a href="apiDevGuide-apiAnalyticsMetricsReportingDataCreateRequest#apiAnalyticsMetricsReportingDataCreateRequestSpecificRangeExampleMessageBody" className="">following example</a> is the message body for this <strong className="font-semibold">curl</strong>  command example.</p></div></td>
     </tr>
 ### Message body for the specific time range aggregated sales reporting data request
@@ -223,23 +230,23 @@ The following example shows the message body for creating an aggregated sales re
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15026FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15026FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The start date of the time range for the aggregated sales reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15036FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15036FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The end date of the time range for the aggregated sales reporting data, in <code className="font-mono text-sm">YYYYMMDD</code> format. The number of days in the time range must be seven or fewer because the request is for a <code className="font-mono text-sm">week</code> time range.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15056FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15056FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to include in the aggregated sales reporting data. Restaurant GUIDs not listed are excluded.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15076FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15076FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The list of restaurant GUIDs from the management group to exclude from the aggregated sales reporting data. In this example, restaurants are included with the <code className="font-mono text-sm">restaurantIds</code> value, so all other restaurants are excluded automatically.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15096FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15096FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This request for aggregated sales reporting data is not grouped by dining option, order source, or revenue center.</p></div></td>
     </tr>
 ### Response to the request for specific time range aggregated sales reporting data
@@ -254,7 +261,7 @@ The following example shows the response from the `/era/v1/metrics/&#123;timeRan
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15686FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e15686FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID for the aggregated sales reporting data, or the <code className="font-mono text-sm">reportRequestGuid</code>. For more information about how to retrieve data using the analytics API, see <a href="apiDevGuide-apiAnalyticsUnderstandingProcess" className="">Understanding the analytics API process</a>.</p></div></td>
     </tr>
 For the example about how to retrieve the aggregated sales reporting data for this request, see [Retrieving the aggregated sales reporting data](apiDevGuide-apiAnalyticsMetricsReportingDataRetrieveData).

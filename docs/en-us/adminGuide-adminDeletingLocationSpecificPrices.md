@@ -21,16 +21,16 @@ To delete location-specific prices, you must use the menu item's details page. W
 
 **Procedure 5.8. To delete location-specific prices on a menu item**
 
-1. On the menu item's details page, scroll to the Location Prices table.
+1. On the menu item's details page, scroll to the **Location Prices** table.
 
 
 2. Click the trash can icon for the location-specific price you want to delete.
 
 
-3. Click Save.
+3. Click **Save**.
 
 
-4. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
+4. Publish your changes using the **Publish config** page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

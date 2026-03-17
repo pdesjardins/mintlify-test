@@ -28,13 +28,13 @@ A menu item must be saved at least once before you can update its stock status.
 
 2. Set the stock status:
 
-- In stock: The menu item is in stock and can be ordered.
+- **In stock**: The menu item is in stock and can be ordered.
 
 
-- Out of stock: The menu item is out of stock. Your guests can see the menu item, marked as "out of stock", but they cannot order it.
+- **Out of stock**: The menu item is out of stock. Your guests can see the menu item, marked as "out of stock", but they cannot order it.
 
 
-- If the menu item is in limited supply, you can set a specific quantity for the item by typing a number into the Enter quantity field and pressing Enter. The Toast platform automatically marks the item as "out of stock" when the last unit is sold.
+- If the menu item is in limited supply, you can set a specific quantity for the item by typing a number into the **Enter quantity** field and pressing **Enter**. The Toast platform automatically marks the item as "out of stock" when the last unit is sold.
 
 The stock amount you set appears next to the menu item's name on the details page, as shown below:
 

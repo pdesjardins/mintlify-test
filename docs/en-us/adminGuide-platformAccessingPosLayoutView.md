@@ -29,10 +29,10 @@ You can access POS layout view from either the [menu manager](adminGuide-platfor
 1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Select Menus &gt; Bulk management &gt; Menu manager. Alternatively, you can search for `menu manager`.
+2. Select **Menus &gt; Bulk management &gt; Menu manager**. Alternatively, you can search for `menu manager`.
 
 
-3. Select View POS layout to open the POS layout view tool.
+3. Select **View POS layout** to open the POS layout view tool.
 
 ![Example showing the location of the View POS layout button in the upper right corner of the screen.](https://doc.toasttab.com/doc/media/pos-layout-view-button-from-menu-manager.png)
 
@@ -46,12 +46,12 @@ You can access POS layout view from either the [menu manager](adminGuide-platfor
 1. [Log in to Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. From the QUICK ACTIONS section, select Menu builder.
+2. From the **QUICK ACTIONS** section, select **Menu builder**.
 
-Alternatively, you can search for `menu builder` or select Menus in the left pane to go to the Menus &gt; Menu management section, then select Menu builder.
+Alternatively, you can search for `menu builder` or select **Menus** in the left pane to go to the **Menus &gt; Menu management** section, then select **Menu builder**.
 
 
-3. Select View POS layout to open the POS layout view tool.
+3. Select **View POS layout** to open the POS layout view tool.
 
 ![Example showing the location of the View POS layout button in the upper right corner of the screen.](https://doc.toasttab.com/doc/media/pos-layout-view-button.png)
 

@@ -59,100 +59,100 @@ Attributes in the `partner_added` event's payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">managementGroupGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for a group of restaurants. The management group GUID will be the same for all restaurants within the same group. The management group GUID will be null if a restaurant location does not belong to a restaurant management group.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">managementGroupGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for a group of restaurants. The management group GUID will be the same for all restaurants within the same group. The management group GUID will be null if a restaurant location does not belong to a restaurant management group.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The human-readable name of the restaurant, set on the Restaurant Info screen of Toast Web.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantName</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The human-readable name of the restaurant, set on the **Restaurant Info** screen of Toast Web.</p>  <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">locationName</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The name of a specific restaurant location, set on the Restaurant Info screen of Toast Web. For example, a restaurant group might assign a location name such as <code className="font-mono text-sm">Palo Alto</code> or <code className="font-mono text-sm">Boston</code> to identify a specific location. Note that this field is not required by the Toast platform, so it may be empty.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">locationName</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The name of a specific restaurant location, set on the **Restaurant Info** screen of Toast Web. For example, a restaurant group might assign a location name such as <code className="font-mono text-sm">Palo Alto</code> or <code className="font-mono text-sm">Boston</code> to identify a specific location. Note that this field is not required by the Toast platform, so it may be empty.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">externalGroupRef</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An identifier for the restaurant group that is recognized by the the partner that made the request to the <code className="font-mono text-sm">/restaurants</code> endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">externalGroupRef</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An identifier for the restaurant group that is recognized by the the partner that made the request to the <code className="font-mono text-sm">/restaurants</code> endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant group in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">externalRestaurantRef</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An identifier for the restaurant location that is recognized by the partner that made the request to the <code className="font-mono text-sm">/restaurants</code> endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">externalRestaurantRef</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An identifier for the restaurant location that is recognized by the partner that made the request to the <code className="font-mono text-sm">/restaurants</code> endpoint. This information is entered by the restaurant administrator. If you need information about the restaurant location in this data string, you instruct the restaurant administrator to enter it in the Toast POS system configuration for the integration partner connection.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">modifiedDate</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the partner connection was edited. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: date-time</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the partner connection was edited. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** date-time</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdDate</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the partner connection was created. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: date-time</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdDate</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the partner connection was created. The date and time are expressed in milliseconds from the UNIX epoch, January 1, 1970 00:00:00 UTC.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** date-time</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">isoModifiedDate</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the partner connection was edited. The date and time are expressed in ISO 8601 format.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">isoModifiedDate</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The most recent date and time that the partner connection was edited. The date and time are expressed in ISO 8601 format.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">isoCreatedDate</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the partner connection was created. The date and time are expressed in ISO 8601 format.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">isoCreatedDate</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the partner connection was created. The date and time are expressed in ISO 8601 format.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByFirstName</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The first name of the restaurant employee who added the integration to the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByFirstName</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The first name of the restaurant employee who added the integration to the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByLastName</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The last name of the restaurant employee who added the integration to the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByLastName</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The last name of the restaurant employee who added the integration to the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByEmailAddress</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The email address of the restaurant employee who added the integration.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByEmailAddress</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The email address of the restaurant employee who added the integration.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByPhoneNumber</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The phone number of the restaurant employee who added the integration.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">createdByPhoneNumber</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The phone number of the restaurant employee who added the integration.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantPhoneNumber</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The phone number of the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantPhoneNumber</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The phone number of the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantAddressLine1</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The first line of the restaurant's address.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantAddressLine1</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The first line of the restaurant's address.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantAddressLine2</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The second line of the restaurant's address.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantAddressLine2</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The second line of the restaurant's address.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantCity</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The city the restaurant location resides in.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantCity</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The city the restaurant location resides in.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantState</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The state the restaurant location resides in.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantState</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The state the restaurant location resides in.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantZipCode</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The zip code for the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantZipCode</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The zip code for the restaurant location.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantCountryCode</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The ISO 3166-2 country code for the restaurant location.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantCountryCode</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The ISO 3166-2 country code for the restaurant location.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantTimezone</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The IANA time zone identifier of the restaurant location. For example, <code className="font-mono text-sm">America/New_York</code>.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantTimezone</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The IANA time zone identifier of the restaurant location. For example, <code className="font-mono text-sm">America/New_York</code>.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLatitude</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The north/south geographic coordinate of the restaurant, in decimal degrees.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLatitude</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The north/south geographic coordinate of the restaurant, in decimal degrees.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** number</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLongtitude</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The east/west geographic coordinate of the restaurant, in decimal degrees.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">data type: number</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantLongtitude</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The east/west geographic coordinate of the restaurant, in decimal degrees.</p> <p className="text-base leading-relaxed">May be null.</p> <p className="text-base leading-relaxed">**data type:** number</p></div></td>
     </tr>
   </tbody>
 </table>
@@ -289,11 +289,11 @@ The payload for the `partner_updated` webhook event is identical to the payload 
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1581578677079" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1581578677079" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">externalGroupRef</code> field has been updated.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1601578677079" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1601578677079" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">externalRestaurantRef</code> field has been updated.</p></div></td>
     </tr>
   

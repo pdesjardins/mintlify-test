@@ -125,15 +125,15 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e183ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e183ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Contains information about the taxes that a marketplace facilitator organization remits on behalf of a Toast restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e185ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e185ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates whether the marketplace facilitator organization will pay the tax amounts for an order on behalf of the restaurant that fulfills the order. In this example, the marketplace facilitator will not pay the tax amounts.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e187ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e187ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">If you include the <code className="font-mono text-sm">facilitatorCollectAndRemitTaxOrder</code> value, do not specify <code className="font-mono text-sm">externalPriceAmount</code> for menu item selections in the order.</p></div></td>
     </tr>
   
@@ -228,27 +228,27 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e245ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e245ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Contains information about the taxes that a marketplace facilitator organization remits on behalf of a Toast restaurant.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e247ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e247ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the <code className="font-mono text-sm">taxes</code> value if you specify prices and tax amounts for a marketplace facilitator order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e249ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e249ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specifies the total tax amount for this tax type across all of the checks and menu item selections in the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e251ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e251ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The value <code className="font-mono text-sm">true</code> indicates that the marketplace facilitator organization will pay this tax amount for the order on behalf of the restaurant that fulfills the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e253ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e253ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The value <code className="font-mono text-sm">false</code> indicates that the marketplace facilitator organization will not pay this tax amount for the order on behalf of the restaurant that fulfills the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e256ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e256ED70EBFB-66D2-4C17-9A10-C756EEEBD261" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specifies the price for this menu item selection. To specify prices and tax amounts for a marketplace facilitator order, include the <code className="font-mono text-sm">externalPriceAmount</code> value for each menu item selection. The specified price should correspond to the price that is configured in the restaurant menu.</p></div></td>
     </tr>
   
@@ -328,27 +328,27 @@ The `Order` object in the following example creates a marketplace facilitator or
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e390FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e390FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">When you specify tax amounts for an order, you also specify the prices for items in the order. For more information, see <a href="apiDevGuide-apiMarketplaceFacilitatorOrders#apiSpecifyingPricesMarketplaceFacilitatorOrders" className="">Specifying prices and tax amounts</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e392FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e392FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">For items that use size prices, set <code className="font-mono text-sm">externalPriceAmount</code> for the parent item to <code className="font-mono text-sm">0.00</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e394FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e394FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the size-priced parent item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#selectedSizePriceMarker" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#selectedSizePriceMarker" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The price of the selected size modifier for the size-priced item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e396FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(5)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the Size modifier group that is used for size pricing.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e396FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(5)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the **Size** modifier group that is used for size pricing.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e398FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(6)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the selected modifier for the item that uses size pricing. Represents a value such as Small, Medium, or Large.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e398FF8D1928-D00D-4A66-8C03-09C0F1A6A166" className="">(6)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast platform GUID of the selected modifier for the item that uses size pricing. Represents a value such as **Small**, **Medium**, or **Large**.</p></div></td>
     </tr>
   

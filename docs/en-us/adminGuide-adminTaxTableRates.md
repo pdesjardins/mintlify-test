@@ -36,7 +36,7 @@ The following is an example of a state tax table.
 
 ![Example of a state tax table.](https://doc.toasttab.com/doc/media/tax-tax-table.png)
 
-Tax Brackets: Each tax bracket in the table consists of an Amount of Sale range and a Tax amount for any sale that falls within the range. For example, the tax bracket with an Amount of Sale range from $4.10 to $4.16 has a Taxamount of $0.25. A meal whose items have a subtotal of $4.12 has a tax amount of $0.25 (for a total of $4.37 for the check); a meal with a subtotal of $4.15 also has a tax amount of $0.25 (for a total of $4.40 for the check).
+**Tax Brackets**: Each tax bracket in the table consists of an **Amount of Sale** range and a **Tax** amount for any sale that falls within the range. For example, the tax bracket with an **Amount of Sale** range from $4.10 to $4.16 has a **Tax**amount of $0.25. A meal whose items have a subtotal of $4.12 has a tax amount of $0.25 (for a total of $4.37 for the check); a meal with a subtotal of $4.15 also has a tax amount of $0.25 (for a total of $4.40 for the check).
 
 Note the following about any tax bracket:
 
@@ -49,9 +49,9 @@ Note the following about any tax bracket:
 
 Therefore, when you configure a tax bracket for your Toast tax table rate, you do not enter the lower amount of the tax bracket nor the tax amount for the bracket (because the Toast platform can calculate those amounts from the previous bracket). Instead, you enter only the upper sales range of the tax bracket.
 
-Also notice that this example tax table does not have a tax bracket for an Amount of Sale range of $0.00 to $0.09 (which would be a tax amount of $0.00). However, when you configure your Toast tax table rate, you have to include the non-tax (.00 to .09) bracket.
+Also notice that this example tax table does not have a tax bracket for an **Amount of Sale** range of $0.00 to $0.09 (which would be a tax amount of $0.00). However, when you configure your Toast tax table rate, you have to include the non-tax (.00 to .09) bracket.
 
-Tax Pattern: One thing that the state tax table does not show you is the *tax pattern*, which you must figure out for yourself. You begin by calculating the price difference between the start and end prices in each Amount of Sale range. For example, the range in the first tax bracket is from .10 to .16, which is a price difference of .06. The next tax bracket is from .17 to 33 (a price difference of .16) and so on.
+**Tax Pattern**: One thing that the state tax table does not show you is the *tax pattern*, which you must figure out for yourself. You begin by calculating the price difference between the start and end prices in each **Amount of Sale** range. For example, the range in the first tax bracket is from .10 to .16, which is a price difference of .06. The next tax bracket is from .17 to 33 (a price difference of .16) and so on.
 
 The tax pattern for our example state tax table is as follows:
 
@@ -80,81 +80,81 @@ Before configuring a tax table rate, make sure that you have the state's tax tab
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Menu management &gt; Settings &gt; Manage tax rates to open the Tax rates page.
+2. Choose **Menus &gt; Menu management &gt; Settings &gt; Manage tax rates** to open the **Tax rates** page.
 
 
-3. Click + Add Tax Rate.
+3. Click **+ Add Tax Rate**.
 
 
-4. In the Basic section of the New tax rate page, enter the configuration information:
+4. In the **Basic** section of the **New tax rate** page, enter the configuration information:
 
-- Name: Enter a name for the tax rate, such as `State Tax Table Rate`.
-
-
-- Target: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
+- **Name**: Enter a name for the tax rate, such as `State Tax Table Rate`.
 
 
-- Owner: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
+- **Target**: Specifies the location in a restaurant group to which this tax rate applies. (This control is visible only if you have the enterprise module.) For information about targets, see [Targets](adminGuide-targets).
 
 
-- Import ID: Leave this field blank. It is for internal use only.
+- **Owner**: Specifies which group level permission is needed to edit this tax rate. (This control is visible only if you have the enterprise module.) For information about owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
-- Type: Select Tax Table.
+- **Import ID**: Leave this field blank. It is for internal use only.
 
 
-- Default: Select Yes to have the tax rate inherited by menus and menu items that are configured to inherit tax rates or select No to disable tax rate inheritance (for this setting, menus and menu items that do not inherit tax rates must be configured with specific tax rates).
+- **Type**: Select **Tax Table**.
+
+
+- **Default**: Select **Yes** to have the tax rate inherited by menus and menu items that are configured to inherit tax rates or select **No** to disable tax rate inheritance (for this setting, menus and menu items that do not inherit tax rates must be configured with specific tax rates).
 
 
 
 
-5. Use the Tax Table to build your Toast tax table:
+5. Use the **Tax Table** to build your Toast tax table:
 
-1. Because the tax table functionality of the Toast platform requires that it begin with a $0.00 (non-tax) bracket, you must first configure the $0.00 tax bracket. Enter the upper range of the tax bracket in the To (Sale Price) field and select Done.
+1. Because the tax table functionality of the Toast platform requires that it begin with a $0.00 (non-tax) bracket, you must first configure the $0.00 tax bracket. Enter the upper range of the tax bracket in the **To (Sale Price)** field and select **Done**.
 
-For example, if the sales range for the non-tax bracket is $0.00 to $0.09, then enter `0.09` in the To (Sale Price) field and select Done. The tax table should look like this example:
+For example, if the sales range for the non-tax bracket is $0.00 to $0.09, then enter `0.09` in the **To (Sale Price)** field and select **Done**. The tax table should look like this example:
 
 ![Configuring the first (no-tax) bracket when building the Tax Table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-tax-table-first-bracket.png)
 
-Note that the system automatically updates the Price Difference field.
+Note that the system automatically updates the **Price Difference** field.
 
 
-2. Add the second tax bracket in the tax table by selecting the + Add button, entering the upper sales range of this tax bracket in the To (Sale Price) field (`0.16` in this example), and selecting Done.
+2. Add the second tax bracket in the tax table by selecting the **+ Add** button, entering the upper sales range of this tax bracket in the **To (Sale Price)** field (`0.16` in this example), and selecting **Done**.
 
 ![Configuring the second tax bracket when building the Tax Table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-tax-table-second-bracket.png)
 
-Note that the system automatically updates the From (Sale Price), Tax Applied, and Price Differencefields. The tax in the Tax Applied for this tax bracket is increased by $0.01 from the previous tax bracket.
+Note that the system automatically updates the **From (Sale Price)**, **Tax Applied**, and **Price Difference**fields. The tax in the **Tax Applied** for this tax bracket is increased by $0.01 from the previous tax bracket.
 
 
-3. Continue adding tax brackets until you think you have added enough tax brackets to discern the tax pattern in the Price Difference column.
+3. Continue adding tax brackets until you think you have added enough tax brackets to discern the tax pattern in the **Price Difference** column.
 
 In our example, we have added a total of six tax brackets, so that the Toast tax table looks like this:
 
 ![Continue adding tax brackets when building the Tax Table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-tax-table-six-bracket.png)
 
 
-4. Find the tax pattern in the Price Difference column.
+4. Find the tax pattern in the **Price Difference** column.
 
 In our example of a 6-bracket tax pattern, the tax pattern begins with the second tax bracket ($0.10 to $0.16) and ends with the sixth tax bracket ($0.59 to $0.67). Note that the first tax bracket ($0.00 to $0.09) is not part of the tax pattern (your tax table may have multiple non-pattern tax brackets).
 
 ![Finding the tax pattern when building the Tax Table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-tax-table-pattern.png)
 
 
-5. Check Repeat in the tax bracket that begins the tax pattern and then select Done. Note that the system prevents you from selecting Repeat more than once.
+5. Check **Repeat** in the tax bracket that begins the tax pattern and then select **Done**. Note that the system prevents you from selecting **Repeat** more than once.
 
-In our example, you select Repeatin the second tax bracket ($0.10 to $0.16).
+In our example, you select **Repeat**in the second tax bracket ($0.10 to $0.16).
 
 ![Finding the tax pattern when building the Tax Table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-tax-table-repeat-pattern.png)
 
 
-6. Clean up your tax table by removing the tax brackets that occur after the first pattern set. Start by removing the last tax bracket in the Toast tax table. To remove a tax bracket, click the trash can icon in the Remove column of the tax bracket and then select Done.
+6. Clean up your tax table by removing the tax brackets that occur after the first pattern set. Start by removing the last tax bracket in the Toast tax table. To remove a tax bracket, click the trash can icon in the **Remove** column of the tax bracket and then select **Done**.
 
 In our example, after we removed the last two tax brackets, the final tax table looks like this.
 
 ![Removing unneeded tax brackets when building the tax table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-tax-table-remove-bracket.png)
 
 
-7. Test your tax table with the Calculate Your Tax calculator. Enter any dollar amount in the Menu Item Price field and click Calculate. The system uses your tax table to calculate the sales tax that is shown in the Tax Applied field, as shown in the following example. Check that the applied tax matches the state tax table.
+7. Test your tax table with the **Calculate Your Tax** calculator. Enter any dollar amount in the **Menu Item Price** field and click **Calculate**. The system uses your tax table to calculate the sales tax that is shown in the **Tax Applied** field, as shown in the following example. Check that the applied tax matches the state tax table.
 
 ![Testing the Tax Table in the New tax rate page.](https://doc.toasttab.com/doc/media/tax-calculate-your-tax-calculator.png)
 

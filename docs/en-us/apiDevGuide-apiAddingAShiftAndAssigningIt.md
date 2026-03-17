@@ -18,6 +18,8 @@ To add a shift and assign it to a restaurant employee, send a `POST` request to 
 
 The response provides information about the shift, including the Toast platform GUID.
 
+For more information about shifts, see [Shifts overview](adminGuide-platformShiftsOverview).
+
 ## Example request to add a shift
 
 The following example **curl** command sends a `POST` request to the `/labor/v1/shifts` endpoint.
@@ -48,15 +50,15 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4852BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the restaurant to add the shift to. This must be an individual restaurant, not the GUID for a restaurant group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4872BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the message body in the Content-Type header field. The value must be <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4892BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include information about the new employee in the message body of the <code className="font-mono text-sm">POST</code> request. This example <strong className="font-semibold">curl</strong>  command sends message body data from the contents of a file.</p></div></td>
     </tr>
   
@@ -73,36 +75,31 @@ The following example shows the message body data that provides information abou
     "entityType": "RestaurantUser",
     "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67"
   },
-  "entityType": "Shift",
-  "inDate": "2017-01-13T06:00:00.000+0000",
+  "inDate": "2026-03-10T08:00:00.000+0000",
   "jobReference": {
     "entityType": "RestaurantJob",
     "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330"
   },
-  "outDate": "2017-01-13T13:00:00.000+0000"
+  "outDate": "2026-03-10T16:00:00.000+0000"
 }
 ```
 
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5042BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the employee who will work the shift.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5062BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the Toast platform input object. The value must be <code className="font-mono text-sm">Shift</code>.</p></div></td>
-    </tr>
-    <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5082BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the date and time that the shift begins.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5102BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the job for the shift in the <code className="font-mono text-sm">jobReference</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5122BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the date and time that the shift ends.</p></div></td>
     </tr>
   
@@ -115,32 +112,39 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 ```
 {
-  "guid": "08312056-c56f-4a10-a3c2-5660bf2b5143",
-  "entityType": "Shift",
-  "externalId": null,
-  "outDate": "2017-01-13T13:00:00.000+0000",
-  "createdDate": "2016-12-29T05:33:16.712+0000",
-  "deleted": false,
-  "deletedDate": null,
-  "employeeReference": {
-    "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67",
-    "entityType": "RestaurantUser",
-    "externalId": null
-  },
-  "modifiedDate": "2016-12-29T05:33:16.712+0000",
-  "inDate": "2017-01-13T06:00:00.000+0000",
-  "jobReference": {
-    "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330",
-    "entityType": "RestaurantJob",
-    "externalId": null
-  }
+    "guid": "793a6744-5ecd-442c-8061-15d170a176b4",
+    "entityType": "Shift",
+    "externalId": null,
+    "outDate": "2026-03-10T16:00:00.000+0000",
+    "createdDate": "2026-02-24T02:43:19.362+0000",
+    "deleted": false,
+    "deletedDate": null,
+    "employeeReference": {
+        "guid": "0a7ced2c-b782-4585-8f41-4bb1656c3f67",
+        "entityType": "RestaurantUser",
+        "externalId": null
+    },
+    "modifiedDate": "2026-02-24T02:43:19.362+0000",
+    "inDate": "2026-03-10T08:00:00.000+0000",
+    "scheduleConfig": {
+        "guid": "3400e832-891f-427c-aca8-536a7231c57e",
+        "minBeforeClockIn": 60.0,
+        "minAfterClockIn": 60.0,
+        "minBeforeClockOut": 60.0,
+        "minAfterClockOut": 60.0
+    },
+    "jobReference": {
+        "guid": "a674499f-cddd-4b8b-a6b3-6d44147da330",
+        "entityType": "RestaurantJob",
+        "externalId": null
+    }
 }
 ```
 
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5322BCF3ED8-080B-4C47-9C32-348D8EED99AD" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value contains the GUID that the Toast platform assigns to the shift.</p></div></td>
     </tr>
   

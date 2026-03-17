@@ -64,21 +64,21 @@ The effective dates for a promo code define the period of time during which the 
 
 Each promo code for a discount can have different effective dates. For example, you might configure a single 5% off discount that uses different promo codes for spring, summer, fall, and holiday promotions. You cannot apply a discount if the current date is not within the effective date range for any of the promo codes.
 
-The effective dates must always include both a Start Date setting and an End Date value. If a promo code is available for only one day, set both dates to the same date.
+The effective dates must always include both a **Start Date** setting and an **End Date** value. If a promo code is available for only one day, set both dates to the same date.
 
-The Availability section of the discount configuration page allows you to specify effective dates for the discount as a whole. The promo code's start and end dates must fall within the range of the discount's Availabilitystart and end dates. For example, a discount with Availability dates of June 1 through June 3 cannot be configured with a promo code that is available June 2 through June 4.
+The **Availability** section of the discount configuration page allows you to specify effective dates for the discount as a whole. The promo code's start and end dates must fall within the range of the discount's **Availability**start and end dates. For example, a discount with **Availability** dates of June 1 through June 3 cannot be configured with a promo code that is available June 2 through June 4.
 
 ### Promo code status
 
-The Statusvalue for a promo code is set automatically based on the configured start and end dates:
+The **Status**value for a promo code is set automatically based on the configured start and end dates:
 
-- Active: Either the current date is within the effective dates range, or the promo code does not have effective dates. The promo code is valid. You can use the promo code to apply the discount.
-
-
-- Upcoming: The effective dates are in the future. The promo code is not yet valid, but will be when the current date is within the effective dates range. You cannot use the promo code now to apply the discount, but you can use it when the status changes to Active.
+- **Active**: Either the current date is within the effective dates range, or the promo code does not have effective dates. The promo code is valid. You can use the promo code to apply the discount.
 
 
-- Expired: The effective dates are in the past. The promo code has expired and is invalid.
+- **Upcoming**: The effective dates are in the future. The promo code is not yet valid, but will be when the current date is within the effective dates range. You cannot use the promo code now to apply the discount, but you can use it when the status changes to **Active**.
+
+
+- **Expired**: The effective dates are in the past. The promo code has expired and is invalid.
 
 
 
@@ -86,44 +86,44 @@ If you enter an upcoming or expired promo code on the Toast POS device, the prom
 
 ## Configuring promo codes
 
-The Promo Codes section of the discount configuration page contains the list of promo codes for a discount.
+The **Promo Codes** section of the discount configuration page contains the list of promo codes for a discount.
 
 ![Promo codes list for a discount.](https://doc.toasttab.com/doc/media/discount-promo-code-dates.png)
 
 ### Adding or updating a promo code
 
-From the Promo Codes list, you can add new promo codes and update the configuration of existing promo codes.
+From the **Promo Codes** list, you can add new promo codes and update the configuration of existing promo codes.
 
 **Procedure 9.8. To add or update a discount promo code**
 
-1. On the discount configuration page, scroll down to the Promo Codes section.
+1. On the discount configuration page, scroll down to the **Promo Codes** section.
 
 
-2. To add a new promo code, click Add Promo Code. An empty promo code row is added to the list.
+2. To add a new promo code, click **Add Promo Code**. An empty promo code row is added to the list.
 
 ![Promo Codes list with a new promo code added.](https://doc.toasttab.com/doc/media/discount-promo-code.png)
 
 To edit an existing promo code, click the field that you want to edit.
 
 
-3. In the Code field, enter the text string for the promo code. You can also scan a barcode into this field.
+3. In the **Code** field, enter the text string for the promo code. You can also scan a barcode into this field.
 
 For more information about code values, see [Code value](adminGuide-adminDiscountPromoCodes#adminDiscountPromoCodeCode).
 
 
-4. In the Description field, optionally enter any descriptive information about the promo code.
+4. In the **Description** field, optionally enter any descriptive information about the promo code.
 
 
-5. To make a promo code single use, check the Single Use check box.
+5. To make a promo code single use, check the **Single Use** check box.
 
 For more information about single-use promo codes, see [Single use promo codes](adminGuide-adminDiscountPromoCodes#adminDiscountPromoCodeSingleUse).
 
 
 6. Optionally, set the date range during which the promo code is valid.
 
-To set the Start Date or End Date, click the calendar icon, then use the date picker to select the date.
+To set the **Start Date** or **End Date**, click the calendar icon, then use the date picker to select the date.
 
-To clear the configured Start Dateand End Date, click Clear Date.
+To clear the configured **Start Date**and **End Date**, click **Clear Date**.
 
 For more information about the effective dates for promo codes, see [Promo code effective dates](adminGuide-adminDiscountPromoCodes#adminPromoCodeDates).
 
@@ -134,7 +134,7 @@ For more information about the effective dates for promo codes, see [Promo code 
 
 ### Removing a promo code
 
-To remove a promo code from the list, click the delete icon for the promo code. The delete icon is in the Delete column at the right of the promo code list.
+To remove a promo code from the list, click the delete icon for the promo code. The delete icon is in the **Delete** column at the right of the promo code list.
 
 ## Enabling and using promo code search
 
@@ -151,10 +151,10 @@ Before restaurant employees can use the promo code search, you must enable it.
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Front of house &gt; Order screen setup &gt; UI options to open the UI Options page.
+2. Choose **Front of house &gt; Order screen setup &gt; UI options** to open the **UI Options** page.
 
 
-3. In the Order screen section, set Enable promo code search to On.
+3. In the **Order screen** section, set **Enable promo code search** to **On**.
 
 
 4. Save and publish your change.
@@ -167,12 +167,12 @@ After you enable the promo code search feature, restaurant employees can search 
 
 **Procedure 9.10. To use promo code search on the Toast POS app**
 
-1. On the order screen, to display the overflow menu, click the ⋮ icon). From the overflow menu, select the Promo codeoption.
+1. On the order screen, to display the overflow menu, click the ⋮ icon). From the overflow menu, select the **Promo code**option.
 
 ![Toast POS screen with the overflow menu displayed and the Promo code option highlighted.](https://doc.toasttab.com/doc/media/discount-promo-code-search.png)
 
 
-2. When prompted, enter or scan the promo code, then select Apply Code.
+2. When prompted, enter or scan the promo code, then select **Apply Code**.
 
 ![Toast POS screen showing the search box to search for a promo code to apply.](https://doc.toasttab.com/doc/media/discount-promo-code-prompt.png)
 

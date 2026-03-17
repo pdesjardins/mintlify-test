@@ -23,7 +23,7 @@ The Toast platform allows you to configure kitchen tickets to display other prep
 
 > **Note**
 > 
-> You must have the 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup permission to configure a prep station to monitor another prep station.
+> You must have the **6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup** permission to configure a prep station to monitor another prep station.
 
 
 Some things to keep in mind when using this feature:
@@ -54,13 +54,13 @@ For example, if all items in an order go to one prep station, there is no need t
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup.
+2. Choose **Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup**.
 
 
-3. Under the Printed Tickets and Ticket Screens section, navigate to the Other stations setting.
+3. Under the Printed Tickets and Ticket Screens section, navigate to the **Other stations** setting.
 
 
-4. Select the For each ticket, list other stations working on that ticket option.
+4. Select the **For each ticket, list other stations working on that ticket** option.
 
 
 5. Save and publish.
@@ -75,26 +75,26 @@ In the following example, employees at all prep stations need to know when an it
 
 ![The Other Stations setting is configured to show other prep stations working on the same ticket. Both "Cold" and "Hot" prep station tickets show what other prep station is working on the order using ALSO AT, followed by the prep station name.](https://doc.toasttab.com/doc/media/kds-other-stations-ticket-diagram.png)
 
-The ticket for the Cold prep station shows the Cold prep station item (Cobb Salad), and includes ALSO AT: HOT at the bottom of the ticket to reference the Hot prep station item (Crab Cakes). The ticket for the Hot prep station shows the Hot prep station item (Crab Cakes) and includes ALSO AT: COLD at the bottom of the ticket to reference the Cold prep station item (Cobb Salad).
+The ticket for the Cold prep station shows the Cold prep station item (Cobb Salad), and includes **ALSO AT: HOT** at the bottom of the ticket to reference the Hot prep station item (Crab Cakes). The ticket for the Hot prep station shows the Hot prep station item (Crab Cakes) and includes **ALSO AT: COLD** at the bottom of the ticket to reference the Cold prep station item (Cobb Salad).
 
 
 
 > **Note**
 > 
-> If you have the limited release Send tosetting for prep stations, prep stations set to Expediter only are not listed with other prep stations working on the KDS ticket.
+> If you have the limited release **Send to**setting for prep stations, prep stations set to **Expediter only** are not listed with other prep stations working on the KDS ticket.
 
 
 ## Monitoring printed kitchen tickets
 
 For printed kitchen tickets, you specify which other prep station(s) you want to monitor at a given prep station. When an order includes items that are routed to both prep stations, kitchen tickets print the name of the monitored prep station and a list of menu items routed to that prep station at the end of the ticket. For more information about configuring other stations for printed tickets, see [Procedure 10.18, “To configure a prep station to monitor another prep station”](adminGuide-adminMonitoringTicketsOtherPrepStations#adminConfigurePrintOtherStationsItems).
 
-In the following example, employees at the Cold prep station need to know when an order includes menu items routed to the Hot prep station. The employees at the Hot prep station do not need information about menu items at other stations, so they see only the menu items they are responsible for fulfilling. The Cold prep station is configured to have “Hot” as the Other station.
+In the following example, employees at the Cold prep station need to know when an order includes menu items routed to the Hot prep station. The employees at the Hot prep station do not need information about menu items at other stations, so they see only the menu items they are responsible for fulfilling. The Cold prep station is configured to have “Hot” as the **Other station**.
 
 ![The Cold prep station is configured with the Hot prep station as its other station. When a guest orders both a cold and a hot item, the ticket at the Cold prep station shows the involvement of the Hot prep station, but the ticket at the Hot prep station only shows the hot item.](https://doc.toasttab.com/doc/media/prep_other_station_ex_1.png)
 
 The ticket for the Cold prep station shows the Cold prep station item (Cobb Salad) first followed by the Hot prep station item (Crab Cakes). The ticket for the Hot prep station shows only the Hot prep station item.
 
-If the employees at the Hot prep station do need to monitor the participation of another station, you can configure the Hot prep station to have the Cold prep station as the Other station.
+If the employees at the Hot prep station do need to monitor the participation of another station, you can configure the Hot prep station to have the Cold prep station as the **Other station**.
 
 ![The Cold prep station is configured with the Hot prep station as its other station and vice versa. When a guest orders both a cold and a hot item, the ticket at the Cold prep station shows the involvement of the Hot prep station, and the ticket at the Hot prep station shows the involvement of the Cold prep station.](https://doc.toasttab.com/doc/media/prep_other_station_ex_2.png)
 
@@ -110,7 +110,7 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 > **Note**
 > 
-> You must have the 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup permission to configure a prep station to monitor another prep station.
+> You must have the **6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup** permission to configure a prep station to monitor another prep station.
 
 
 **Procedure 10.18. To configure a prep station to monitor another prep station**
@@ -118,13 +118,13 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Kitchen stations &gt; Prep stations.
+2. Choose **Kitchen &gt; Kitchen stations &gt; Prep stations**.
 
 
 3. Navigate to the prep station that should monitor another prep station.
 
 
-4. Under the Other Stations column, select the prep station to monitor.
+4. Under the **Other Stations** column, select the prep station to monitor.
 
 ![The Prep Stations page, with the Other Stations column emphasized.](https://doc.toasttab.com/doc/media/print_other_prep_station.png)
 
@@ -132,7 +132,7 @@ The ticket for the Hot prep station shows only the Hot prep station item. Nothin
 
 > **Note**
 > 
-> If you have the limited release Send tosetting for prep stations, if a prep station is set to Expediter only and used as an Other station prep station, it is treated as if it were not selected and is not printed.
+> If you have the limited release **Send to**setting for prep stations, if a prep station is set to **Expediter only** and used as an **Other station** prep station, it is treated as if it were not selected and is not printed.
 
 
 

@@ -21,39 +21,39 @@ The preferred technique for managing taxes is to manually assign the master vers
 
 **Procedure 5.19. To assign tax rates manually**
 
-1. Choose Menus &gt; Menu management &gt; Tax rates setup to open the Tax ratespage.
+1. Choose **Menus &gt; Menu management &gt; Tax rates** setup to open the **Tax rates**page.
 
 
-2. Use the You are viewing menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the You are viewingmenu.
+2. Use the **You are viewing** menu to show the tax rates for the corporate restaurant group (this group should show all locations). See [Filtering pages](adminGuide-filteringPagesForSpecificRestaurantGroupsAndLocations)for information on the **You are viewing**menu.
 
 
 3. Make sure your tax rates are not marked as default.
 
 
-4. Choose Menus &gt; Bulk management &gt; Advanced properties to open the Advanced properties page.
+4. Choose **Menus &gt; Bulk management &gt; Advanced properties** to open the **Advanced properties** page.
 
 
-5. Use the You are viewing menu to view the menus you want to assign taxes to.
+5. Use the **You are viewing** menu to view the menus you want to assign taxes to.
 
 
-6. Click the Show/Hide menu, scroll down to the Taxes section and check the Applicable Taxes option to display that column on the Advanced properties page.
+6. Click the **Show/Hide** menu, scroll down to the **Taxes** section and check the **Applicable Taxes** option to display that column on the **Advanced properties** page.
 
 
-7. In the row for the menu you want to apply taxes to, click the Applicable Taxes field.
+7. In the row for the menu you want to apply taxes to, click the **Applicable Taxes** field.
 
 
-8. All of the master tax rates you have created are listed below the line in the Applicable Taxes field. Click a master tax rate to select it and apply its taxes to this menu. To deselect a master tax rate, click it again to remove the checkmark. Check all of the master tax rates that should apply to this menu, for example:
+8. All of the master tax rates you have created are listed below the line in the **Applicable Taxes** field. Click a master tax rate to select it and apply its taxes to this menu. To deselect a master tax rate, click it again to remove the checkmark. Check all of the master tax rates that should apply to this menu, for example:
 
 ![Image](https://doc.toasttab.com/doc/media/tax_rates_manually_assigned_adv_props_page.PNG)
 
 
-9. Click Save.
+9. Click **Save**.
 
 
 10. Repeat these steps for each menu.
 
 
-11. Publish your changes using the Publish config page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
+11. Publish your changes using the **Publish config** page. See [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations) for information on accessing and using that page.
 
 
 

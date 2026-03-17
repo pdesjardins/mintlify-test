@@ -32,18 +32,18 @@ For the following types of discounts, you can configure whether the discount can
 
 
 
-To configure whether the discount is exclusive or nonexclusive, you use the Allow with other discounts setting, which is in the Advanced Settings section of the discount configuration page.
+To configure whether the discount is exclusive or nonexclusive, you use the **Allow with other discounts** setting, which is in the **Advanced Settings** section of the discount configuration page.
 
 ![Allow with other discount setting for a discount.](https://doc.toasttab.com/doc/media/discount-allow-option.png)
 
-- If the Allow with other discountssetting is selected, then the discount is nonexclusive.
+- If the **Allow with other discounts**setting is selected, then the discount is nonexclusive.
 
 
-- If the Allow with other discountssetting is not checked, then the discount is exclusive.
+- If the **Allow with other discounts**setting is not checked, then the discount is exclusive.
 
 
 
-Item-level discounts and combo discounts are always exclusive. The Allow with other discounts setting is always not enabled and empty.
+Item-level discounts and combo discounts are always exclusive. The **Allow with other discounts** setting is always not enabled and empty.
 
 ## How exclusivity affects discount applicability
 

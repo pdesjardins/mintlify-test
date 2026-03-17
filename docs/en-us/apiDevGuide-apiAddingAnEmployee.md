@@ -56,15 +56,15 @@ https://`[toast-api-hostname]`/labor/v1/employees
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17121EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17121EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the restaurant that you want to add an employee to. This must be an individual restaurant, not the GUID for a restaurant group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17321EC7EA2-706D-4B5B-B210-636982B89D94" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17321EC7EA2-706D-4B5B-B210-636982B89D94" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the message body in the Content-Type header field. The value must be <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17521EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17521EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include information about the new employee in the message body of the <code className="font-mono text-sm">POST</code> request. This example <strong className="font-semibold">curl</strong>  command sends message body data from the contents of a file.</p></div></td>
     </tr>
   
@@ -97,31 +97,31 @@ The following example shows the message body data that provides information abou
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e900FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e900FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the Toast platform input object. The value must be <code className="font-mono text-sm">RestaurantUser</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e902FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e902FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify an email address for the employee. Email addresses for employees must be unique. If you specify an email address that is in use by an employee, the request fails with an HTTP 400 (bad request) response.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e904FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e904FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the first name of the employee.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e906FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e906FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the last name of the employee.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e908FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e908FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">External identifier string that is prefixed by the naming authority. The <code className="font-mono text-sm">externalId</code> must be unique. If you specify an <code className="font-mono text-sm">externalId</code> that is not unique, the request fails with an HTTP 400 (bad request) response. For more information, see <a href="apiDevGuide-portalToastIdentifiers#apiExternalIdentifiers" className="">External identifiers</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e911FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e911FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You can specify the initial Toast platform passcode number for the employee. This value is optional.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e913FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e913FBC60BD6-1C8B-4652-A8F4-6C93856B0D67" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You can specify the job for the new employee. This value is optional. To assign a job, you need the Toast platform GUID or the external identifier for the job.</p></div></td>
     </tr>
   
@@ -162,15 +162,15 @@ The following example shows the response for a `POST` request to the `/labor/v1/
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21821EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21821EC7EA2-706D-4B5B-B210-636982B89D94" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value contains the GUID value that the Toast platform assigns to the new employee.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-add-employee-job" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-add-employee-job" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">If you assign a job to the new employee, the response will return the job. This is optional.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e22021EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e22021EC7EA2-706D-4B5B-B210-636982B89D94" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">If you assign an initial pass code to the new employee, the employee is able to log in to the Toast platform. This is optional.</p></div></td>
     </tr>
   

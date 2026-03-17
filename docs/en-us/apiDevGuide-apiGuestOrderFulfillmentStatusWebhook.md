@@ -55,10 +55,10 @@ When an order transitions from the `RECEIVED` status to either the `IN_PREPARATI
 
 > **Note**
 > 
-> The Kitchen Display System (KDS) must be configured and enabled to automatically mark KDS-fulfilled orders as Order Ready in Orders Hub. For more information, see [Marking KDS-fulfilled orders as Order Ready](adminGuide-platformUsingOrdersHub#platformMarkingKDSOrdersAsOrderReady).
+> The Kitchen Display System (KDS) must be configured and enabled to automatically mark KDS-fulfilled orders as **Order Ready** in Orders Hub. For more information, see [Marking KDS-fulfilled orders as Order Ready](adminGuide-platformUsingOrdersHub#platformMarkingKDSOrdersAsOrderReady).
 
 
-When an order is marked as Order Ready in Orders Hub or is fulfilled by the Kitchen Display System (KDS), this triggers the `guest order fulfillment status` webhook to send a message. The message is sent to the third-party online ordering channel that the order was placed through. For example, if a guest places an order through DoorDash, the DoorDash driver is sent a message notifying them that the guest’s order is now ready for pickup.
+When an order is marked as **Order Ready** in Orders Hub or is fulfilled by the Kitchen Display System (KDS), this triggers the `guest order fulfillment status` webhook to send a message. The message is sent to the third-party online ordering channel that the order was placed through. For example, if a guest places an order through DoorDash, the DoorDash driver is sent a message notifying them that the guest’s order is now ready for pickup.
 
 ### guestOrderStatusUpdated
 
@@ -76,27 +76,27 @@ The attributes in the `guestOrderStatusUpdated` event’s payload include:
   <tbody className="">
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">eventGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the webhook event. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the webhook event. </p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the order. </p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">orderGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique Toast platform identifier for the order. </p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique Toast POS identifier for the restaurant.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guestOrderStatus</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The current status of a guest's order in the restaurant fulfillment process. </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">IN_PREPARATION</code>: The order is being actively worked on.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">CLOSED</code>: The order is paid for and marked as completed.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">VOIDED</code>:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">If the order is open, the order will be voided and not be fulfilled.</p></li><li className=""><p className="text-base leading-relaxed">If the order has been fulfilled, the order will be removed from Sales summary report and shown as Voided in the Orders report.</p></li></ul></li></ul> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">guestOrderStatus</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The current status of a guest's order in the restaurant fulfillment process. </p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">IN_PREPARATION</code>: The order is being actively worked on.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">READY_FOR_PICKUP</code>: The order is ready for guest pickup.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">CLOSED</code>: The order is paid for and marked as completed.</p></li><li className=""><p className="text-base leading-relaxed"><code className="font-mono text-sm">VOIDED</code>:</p><ul className="list-disc space-y-2 pl-7 text-base leading-relaxed"><li className=""><p className="text-base leading-relaxed">If the order is open, the order will be voided and not be fulfilled.</p></li><li className=""><p className="text-base leading-relaxed">If the order has been fulfilled, the order will be removed from Sales summary report and shown as **Voided** in the Orders report.</p></li></ul></li></ul> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">lastUpdated</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the order’s <code className="font-mono text-sm">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format. </p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: date-time</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time the order’s <code className="font-mono text-sm">guestOrderStatus</code> was last updated. The date and time is presented in ISO 8601 format. </p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** date-time</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">version</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4">This value is null.</div></td>
+      <td className="px-4 py-4"><div className="space-y-4">This value is **null**.</div></td>
     </tr>
   </tbody>
 </table>

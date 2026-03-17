@@ -49,11 +49,11 @@ dWq4Yzwo007AMgxjH9d241Y-g" \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e672109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e672109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e692109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e692109AB21-78E4-4FF7-8E28-AA98325F0F63" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the location GUID of the restaurant whose online ordering availability you want to retrieve.</p></div></td>
     </tr>
   

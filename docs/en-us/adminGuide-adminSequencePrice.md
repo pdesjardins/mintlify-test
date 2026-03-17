@@ -70,31 +70,31 @@ Even though cheddar was added as the third modifier to the sandwich, it is the f
 
 Sequence pricing is configured at the modifier group level. All modifiers within the modifier group use sequence pricing when they are added to a menu item.
 
-**Procedure 8.129. To set sequence pricing on a modifier group**
+**Procedure 8.133. To set sequence pricing on a modifier group**
 
-1. In the Pricing section of a modifier group's details page, set the How are modifiers in this group priced setting to All modifiers share the same price.
-
-
-2. Under the Modifier Group Pricing section, select Sequence Price. The Sequence Price grid appears.
+1. In the **Pricing** section of a modifier group's details page, set the **How are modifiers in this group priced** setting to **All modifiers share the same price**.
 
 
-3. Click the Price field for the first option and enter a price.
+2. Under the **Modifier Group Pricing** section, select **Sequence Price**. The **Sequence Price** grid appears.
+
+
+3. Click the **Price** field for the first option and enter a price.
 
 
 
 > **Note**
 > 
-> All sequence levels require a price. If you want a level to be free of charge, enter **`0.00`** in the Price field.
+> All sequence levels require a price. If you want a level to be free of charge, enter **`0.00`** in the **Price** field.
 
 
 
-4. If you need additional sequence prices, click the Add Level button to add additional rows to the grid and enter the prices for each level in their Pricefields.
+4. If you need additional sequence prices, click the **Add Level** button to add additional rows to the grid and enter the prices for each level in their **Price**fields.
 
 
-5. Enter a price in the Price field for the All additional options level.
+5. Enter a price in the **Price** field for the **All additional options** level.
 
 
-6. To remove a sequence price level, click the Edit button and then click the trash icon for that level in the grid.
+6. To remove a sequence price level, click the **Edit** button and then click the trash icon for that level in the grid.
 
 
 7. Save your changes.

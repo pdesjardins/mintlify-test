@@ -24,7 +24,7 @@ The following sections detail multiple methods for locating either an order GUID
 - Send a `GET` request to the `/ordersBulk` endpoint and retrieve the details for orders updated during a specific time interval. The order details include the order GUID. See [Getting detailed information about multiple orders](apiDevGuide-apiOrdersGetDetailedInfoAboutMultipleOrders) for more information on using the `/ordersBulk` endpoint.
 
 
-- Locate the order in Toast Web using the Orders report from Reports &gt; Sales &gt; Orders. Use the View filter, at the top of the report, to help locate your order. Once located, select the order, and the GUID is displayed as seen below.
+- Locate the order in Toast Web using the **Orders** report from **Reports &gt; Sales &gt; Orders**. Use the **View** filter, at the top of the report, to help locate your order. Once located, select the order, and the GUID is displayed as seen below.
 
 ![Shows the Order Details page with the order GUID emphasized.](https://doc.toasttab.com/doc/media/order_locate_order_guid.png)
 
@@ -35,7 +35,7 @@ The following sections detail multiple methods for locating either an order GUID
 - If you know the order GUID, you can send a `GET`request to the `/orders` endpoint and retrieve the order details, which include the check GUID. See [Getting detailed information about one order](apiDevGuide-apiOrdersGetDetailedInfoAboutOneOrder).
 
 
-- Locate the order in Toast Web using the Orders report from Reports &gt; Sales &gt; Orders. Use the date selector to locate your order. Once located, select the order, and find the check. The GUID is displayed as seen below.
+- Locate the order in Toast Web using the **Orders** report from **Reports &gt; Sales &gt; Orders**. Use the date selector to locate your order. Once located, select the order, and find the check. The GUID is displayed as seen below.
 
 ![Shows the Order Details page with the check GUID emphasized.](https://doc.toasttab.com/doc/media/order_locate_check_guid.png)
 

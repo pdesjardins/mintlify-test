@@ -39,19 +39,19 @@ Stock webhook messages follow the [standard message data schema](apiDevGuide-api
 
 A menu item's inventory can be changed in the [stock API](apiDevGuide-apiUpdatingInventoryInformation), in the Toast app, and in Toast Web, and set to one of the following:
 
-- In Stock: The menu item is in stock. There is no specific quantity associated with the menu item but it is assumed to be available.
+- **In Stock**: The menu item is in stock. There is no specific quantity associated with the menu item but it is assumed to be available.
 
 
-- Out of Stock: The menu item is not in stock and cannot be ordered.
+- **Out of Stock**: The menu item is not in stock and cannot be ordered.
 
 
-- Quantity: A specific quantity for the menu item is defined. As the menu item is ordered, the quantity is decremented. When the quantity dips below the low quantity threshold, the low quantity webhook will fire. When the quantity reaches 0, the menu item's status changes to out of stock. Currently, the low quantity threshold is set to 5 for all menu items and is not configurable.
+- **Quantity**: A specific quantity for the menu item is defined. As the menu item is ordered, the quantity is decremented. When the quantity dips below the low quantity threshold, the low quantity webhook will fire. When the quantity reaches 0, the menu item's status changes to out of stock. Currently, the low quantity threshold is set to 5 for all menu items and is not configurable.
 
 
 
 Stock webhook events reflect changes to these settings or to a menu item's quantity. For example, an `out_of_stock` event is triggered when a menu item's quantity has reached 0 or it has been manually marked as out of stock.
 
-To set a menu item's stock status in the Toast app, a restaurant uses Quick Edit mode (described in this [Toast Central article](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057)). To set it in Toast Web, the restaurant uses the Inventory section of the menu item's details page.
+To set a menu item's stock status in the Toast app, a restaurant uses **Quick Edit** mode (described in this [Toast Central article](https://central.toasttab.com/s/article/Quick-Edit-Mode-1492794309057)). To set it in Toast Web, the restaurant uses the **Inventory** section of the menu item's details page.
 
 ## in_stock
 
@@ -70,27 +70,27 @@ Attributes in the `in_stock` event's payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">itemGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the menu item, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">itemGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the menu item, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">multiLocationId</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A consistent identifier that applies to all versions of a menu item that is shared across locations.</p> <p className="text-base leading-relaxed">Requests sent to Toast APIs can use a combination of the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> values, instead of the <code className="font-mono text-sm">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">multiLocationId</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A consistent identifier that applies to all versions of a menu item that is shared across locations.</p> <p className="text-base leading-relaxed">Requests sent to Toast APIs can use a combination of the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> values, instead of the <code className="font-mono text-sm">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the restaurant, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the restaurant, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">quantity</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates the quantity of this menu item that is available. This value is included if the <code className="font-mono text-sm">status</code> attribute is set to <code className="font-mono text-sm">QUANTITY</code> and omitted if the status attribute is set to <code className="font-mono text-sm">IN_STOCK</code>.</p> <p className="text-base leading-relaxed">data type: number</p> <p className="text-base leading-relaxed">format: double</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">quantity</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates the quantity of this menu item that is available. This value is included if the <code className="font-mono text-sm">status</code> attribute is set to <code className="font-mono text-sm">QUANTITY</code> and omitted if the status attribute is set to <code className="font-mono text-sm">IN_STOCK</code>.</p> <p className="text-base leading-relaxed">**data type:** number</p> <p className="text-base leading-relaxed">**format:** double</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">IN_STOCK</code> or <code className="font-mono text-sm">QUANTITY</code></p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">IN_STOCK</code> or <code className="font-mono text-sm">QUANTITY</code></p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">versionId</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">versionId</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Reserved for future use.</p></div></td>
     </tr>
   </tbody>
@@ -102,7 +102,7 @@ Attributes in the `in_stock` event's payload include:
 
 ```
 {
-  "timestamp": "\<ISO formatted timestamp in UTC\>",
+  "timestamp": "<ISO formatted timestamp in UTC>",
   "eventCategory": "stock",
   "eventType": "in_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
@@ -122,7 +122,7 @@ Attributes in the `in_stock` event's payload include:
 
 ```
 {
-  "timestamp": "\<ISO formatted timestamp in UTC\>",
+  "timestamp": "<ISO formatted timestamp in UTC>",
   "eventCategory": "stock",
   "eventType": "in_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
@@ -155,23 +155,23 @@ Attributes in the `out_of_stock` event's payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">itemGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the menu item, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">itemGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the menu item, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">multiLocationId</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A consistent identifier that applies to all versions of a menu item that is shared across locations.</p> <p className="text-base leading-relaxed">Requests sent to Toast APIs can use a combination of the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> values, instead of the <code className="font-mono text-sm">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">multiLocationId</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A consistent identifier that applies to all versions of a menu item that is shared across locations.</p> <p className="text-base leading-relaxed">Requests sent to Toast APIs can use a combination of the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> values, instead of the <code className="font-mono text-sm">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the restaurant, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the restaurant, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">OUT_OF_STOCK</code></p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">OUT_OF_STOCK</code></p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">versionId</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">versionId</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Reserved for future use.</p></div></td>
     </tr>
   </tbody>
@@ -183,7 +183,7 @@ Attributes in the `out_of_stock` event's payload include:
 
 ```
 {
-  "timestamp": "\<ISO formatted timestamp in UTC\>",
+  "timestamp": "<ISO formatted timestamp in UTC>",
   "eventCategory": "stock",
   "eventType": "out_of_stock",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",
@@ -226,27 +226,27 @@ Attributes in the `low_quantity` event's payload include:
   </thead>
   <tbody className="">
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">itemGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the menu item, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">itemGuid</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the menu item, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">multiLocationId</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A consistent identifier that applies to all versions of a menu item that is shared across locations.</p> <p className="text-base leading-relaxed">Requests sent to Toast APIs can use a combination of the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> values, instead of the <code className="font-mono text-sm">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">multiLocationId</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A consistent identifier that applies to all versions of a menu item that is shared across locations.</p> <p className="text-base leading-relaxed">Requests sent to Toast APIs can use a combination of the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> values, instead of the <code className="font-mono text-sm">itemGuid</code> value, to identify a menu item. Integration clients can extract the <code className="font-mono text-sm">multiLocationId</code> and <code className="font-mono text-sm">restaurantGuid</code> from stock webhook messages to use in subsequent requests to Toast APIs. This is the recommended method for identifying menu items in Toast API requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">quantity</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates the quantity of this menu item that is available.</p> <p className="text-base leading-relaxed">data type: number</p> <p className="text-base leading-relaxed">format: double</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">quantity</code> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates the quantity of this menu item that is available.</p> <p className="text-base leading-relaxed">**data type:** number</p> <p className="text-base leading-relaxed">**format:** double</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">restaurantGuid</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the restaurant, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">data type: string</p> <p className="text-base leading-relaxed">format: uuid</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A unique identifier for the restaurant, assigned by the Toast platform.</p> <p className="text-base leading-relaxed">**data type:** string</p> <p className="text-base leading-relaxed">**format:** uuid</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">status</code></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">QUANTITY</code></p> <p className="text-base leading-relaxed">data type: string</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">QUANTITY</code></p> <p className="text-base leading-relaxed">**data type:** string</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">versionId</code></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><code className="font-mono text-sm">versionId</code> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Reserved for future use.</p></div></td>
     </tr>
   </tbody>
@@ -258,7 +258,7 @@ Attributes in the `low_quantity` event's payload include:
 
 ```
 {
-  "timestamp": "\<ISO formatted timestamp in UTC\>",
+  "timestamp": "<ISO formatted timestamp in UTC>",
   "eventCategory": "stock",
   "eventType": "low_quantity",
   "guid": "e445f586-081c-4a2a-bcd6-30717a48e17a",

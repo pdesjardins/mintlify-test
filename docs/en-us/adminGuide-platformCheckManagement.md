@@ -15,9 +15,9 @@ procedures: 0
 codeExamples: 0
 ---
 
-You can manage your checks on the Payment Terminal screen on the Toast POS app. You can manage your checks by viewing guest checks and payments, sorting and filtering checks, or by voiding, closing, or reopening checks. On the POS home screen, select Mode &gt; Payment Terminal to open the Payment Terminal screen.
+You can manage your checks on the **Payment Terminal** screen on the Toast POS app. You can manage your checks by viewing guest checks and payments, sorting and filtering checks, or by voiding, closing, or reopening checks. On the POS home screen, select **Mode &gt; Payment Terminal** to open the **Payment Terminal** screen.
 
-On the Payment Terminal, checks are organized by status:
+On the **Payment Terminal**, checks are organized by status:
 
 - Open
 
@@ -31,9 +31,9 @@ On the Payment Terminal, checks are organized by status:
 
 ## Sorting and filtering checks
 
-On the Payments Terminal screen, you can view, sort, and filter your checks and their payment statuses. You can choose from the following filtering and sorting options.
+On the **Payments Terminal** screen, you can view, sort, and filter your checks and their payment statuses. You can choose from the following filtering and sorting options.
 
-Sorting options:
+**Sorting options**:
 
 - Amount due
 
@@ -63,7 +63,7 @@ Sorting options:
 
 
 
-Filtering options:
+**Filtering options**:
 
 - User
 
@@ -104,26 +104,26 @@ Filtering options:
 > You can only select one sorting option, but can select multiple filtering options.
 
 
-1. On the Toast POS app, navigate to Modeand select Payment Terminal to open the Payment Terminal screen.
+1. On the Toast POS app, navigate to **Mode**and select **Payment Terminal** to open the **Payment Terminal** screen.
 
 
-2. Select the Filter button to the right of the screen. This opens the Sort and filterpanel to the left of the screen.
+2. Select the **Filter **button to the right of the screen. This opens the **Sort and filter**panel to the left of the screen.
 
 
-3. Select your sorting and filtering options. The default sorting option is by Check number. To change your sorting option, select another option or select the Reset link to reset your sorting option.
+3. Select your sorting and filtering options. The default sorting option is by **Check number**. To change your sorting option, select another option or select the **Reset** link to reset your sorting option.
 
 The default filtering option is to filter by all checks. To change your filter option, select another filter option.
 
 
-4. Select the Done button. As you select your sorting and filtering options, labels appear and the Payment Terminal screen displays a list of checks that match your criteria.
+4. Select the **Done** button. As you select your sorting and filtering options, labels appear and the **Payment Terminal** screen displays a list of checks that match your criteria.
 
-To remove a filter option, select the Xicon on the label or select the Clear link or uncheck the option in the Sort and filterpanel. You cannot remove a sorting option. You can only reset your sorting options by selecting the Resetlink.
+To remove a filter option, select the **X**icon on the label or select the **Clear** link or uncheck the option in the **Sort and filter**panel. You cannot remove a sorting option. You can only reset your sorting options by selecting the **Reset**link.
 
 
 
 ## Searching checks
 
-On the Payment Terminal screen, you can also search for checks by selecting the magnifying glass icon. This opens a search field. As you type, the Payment Terminalsearches and displays a list of checks that match the entered characters.
+On the **Payment Terminal** screen, you can also search for checks by selecting the magnifying glass icon. This opens a search field. As you type, the **Payment Terminal**searches and displays a list of checks that match the entered characters.
 
 You can search by the following criteria:
 

@@ -144,7 +144,7 @@ After you decide what to display in your reports, build a retrieval of transacti
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Time entries</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Retrieve all time entries from the previous day using the <code className="font-mono text-sm">/timeEntries</code> endpoint of the labor API.</p> <p className="text-base leading-relaxed"><a href="apiDevGuide-apiGettingTimeEntriesForEmployees" className="">More information</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Retrieve all time entries from the previous day using the <code className="font-mono text-sm">/timeEntries</code> endpoint of the labor API.</p> <p className="text-base leading-relaxed"> <a href="apiDevGuide-apiGettingTimeEntriesForEmployees" className="">More information</a></p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">modifiedStartDate</code> and <code className="font-mono text-sm">modifiedEndDate</code> query parameters of the <code className="font-mono text-sm">/timeEntries</code> endpoint to retrieve all time entries created or updated during the previous business day.</p></div></td>
     </tr>
     <tr className="">

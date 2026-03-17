@@ -64,19 +64,19 @@ endDate=2019-02-27T09%3A59%3A00.000-0500"
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9309EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the GUID of the restaurant that created the orders. This must be an individual restaurant, not the GUID for a restaurant group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9709EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the <code className="font-mono text-sm">/orders</code> endpoint of the orders API.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e9909EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify a period of time up to one hour by including dates and times in the <em className=""><code className="font-mono text-sm">startDate</code></em>  and <em className=""><code className="font-mono text-sm">endDate</code></em>  query parameters.</p></div></td>
     </tr>
   
@@ -127,7 +127,7 @@ The following example shows the response data from the `/orders` endpoint using 
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11509EC9F64-B75D-413A-803D-C8F76FF3D18A" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">/orders</code> endpoint returns a JSON array of order GUIDs.</p></div></td>
     </tr>
   
@@ -438,19 +438,19 @@ The following example shows the JSON message body content for a `POST` request t
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1648E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Generate a unique identifier for the customer (UUID or GUID). Include the identifier in the <code className="font-mono text-sm">guid</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1668E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include a first name, or given name, for the customer.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1688E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1688E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include a last name, or family name, for the customer.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1708E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1708E813524-E4E5-4A3C-A9B0-E4D395D37745" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You must include either an email address (shown) or a telephone number for the customer.</p></div></td>
     </tr>
   
@@ -494,19 +494,19 @@ The following example shows the JSON message body content for a `POST` request t
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e305E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e305E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Generate a unique identifier for the customer credit transaction (UUID or GUID). Include the identifier in the <code className="font-mono text-sm">guid</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e307E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e307E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the <code className="font-mono text-sm">ADD_VALUE</code> value when you add customer credit value in a transaction.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e309E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e309E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the currency amount of the customer credit transaction in the <code className="font-mono text-sm">amount</code> value.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e311E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e311E3AAA573-E85E-49CD-80EE-85E18B5086BE" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the date and time that you added customer credits in the <code className="font-mono text-sm">localCreatedDate</code> value.</p></div></td>
     </tr>
   
@@ -566,11 +566,11 @@ The Toast platform stores data export files for seven days, and then they are de
 - SSH key: For more information about generating an SSH key, and where to enter this in Toast Web, see [SSH keys](adminGuide-adminSshKeys).
 
 
-- Server URL: To locate the appropriate Server URL, navigate to Reports &gt; Settings &gt; SSH Keys from the Toast Web. Locate your SFTP username and find the Server URL.
+- Server URL: To locate the appropriate Server URL, navigate to **Reports &gt; Settings &gt; SSH Keys** from the Toast Web. Locate your SFTP username and find the **Server URL**.
 
 
 
-Export IDs can also be obtained from Toast Web. Navigate to Reports &gt; Settings &gt; Data Exports and click the link in the banner at the top of the screen, view restaurant # mapping to export a file that includes an Export ID column which includes the ID for each restaurant.
+Export IDs can also be obtained from Toast Web. Navigate to **Reports &gt; Settings &gt; Data Exports** and click the link in the banner at the top of the screen, **view restaurant # mapping** to export a file that includes an **Export ID** column which includes the ID for each restaurant.
 
 ![Image](https://doc.toasttab.com/doc/media/export_ids_data_export.png)
 
@@ -603,7 +603,7 @@ Replace the *`&#123;sftp_username&#125;`* and *`&#123;export_id&#125;`* placehol
 
 2. **Exporting files using terminal**
 
-Once you are connected to the SFTP directory use the **ls** command and press Return to display all files.
+Once you are connected to the SFTP directory use the **ls** command and press **Return** to display all files.
 
 Export all files using the **get *** command or use **get *`&#123;fileName&#125;`*** to export a specific file.
 
@@ -625,7 +625,7 @@ Replace *`&#123;SSH_key_filepath&#125;`* with the location of your SSH key on yo
 
 2. **Exporting files using command prompt**
 
-Once you are connected to the SFTP directory, use the **ls** command and press Enter to display all files.
+Once you are connected to the SFTP directory, use the **ls** command and press **Enter** to display all files.
 
 To export a file for a specific location and date, use the following command:
 
@@ -1252,23 +1252,23 @@ The following example shows a menu, menu group, menu item, and modifier menu ite
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e465A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e465A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of a menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e485A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e485A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">optionGroups</code> value contains information about the groups of items that you can apply as modifiers.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e505A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e505A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of one group of modifier menu items.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e525A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e525A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This item is not a default modifier for the menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e545A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e545A2FDFF6-1785-406C-970F-4C5331B7DDF8" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This item is a default modifier for the menu item.</p></div></td>
     </tr>
   
@@ -1298,27 +1298,27 @@ ${MENU_EXPORT_FILE}
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e31A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e31A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The menu data export file contains a JSON representation of the menus configured for your restaurant. For general information about the menu data export file, see <a href="apiDevGuide-apiDeprecatedApiFunctions#apiMenuInformationMenuDataExport" className="">Getting menu information from the menu data export (deprecated)</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e33A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e33A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">To find the default modifiers for a menu item, you locate the item in the menu and menu group that contain that contain it. This variable stores the GUID of the menu that contains the item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e35A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e35A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This variable stores the GUID of the menu group that contains the item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e37A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e37A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This variable stores the GUID of the menu item that this example script finds the default modifiers for.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e39A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This <strong className="font-semibold">jq</strong>  command filters the JSON contents of the menu data export file. For more information about the <strong className="font-semibold">jq</strong>  utility command syntax, see the <a href="https://stedolan.github.io/jq/" className="">jq web site</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e42A5DAB7DB-524E-4BD7-B772-27EB69622FF0" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">These <strong className="font-semibold">jq</strong>  command filters select one menu item from its menu and menu group. It then selects each menu item in the <code className="font-mono text-sm">optionGroup</code> array for that menu item if the <code className="font-mono text-sm">isDefault</code> value for the <code className="font-mono text-sm">optionGroup</code> is <code className="font-mono text-sm">true</code>.</p></div></td>
     </tr>
   
@@ -1453,7 +1453,7 @@ And this:
 
 > **Note**
 > 
-> The Grubhub setting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
+> The **Grubhub** setting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
 
 
 These original settings were represented in the menus API by a `visibility` array that was included for each menu entity. A menu entity's `visibility` array would contain various combinations of the following enums, depending on how the menu entity was configured:
@@ -1482,9 +1482,9 @@ The configuration API is older and it treats orderable online and visibility as 
 
 
 
-The Grubhub and Show on Kiosk configuration options were not represented in the configuration API.
+The **Grubhub** and **Show on Kiosk** configuration options were not represented in the configuration API.
 
-As stated earlier, the menu visibility enhancements combine the original visibility settings into one cohesive set of options with better, more intuitive labeling. The following illustration shows the new combined settings, which all reside in the Visible Toconfiguration option on a menu entity's details page:
+As stated earlier, the menu visibility enhancements combine the original visibility settings into one cohesive set of options with better, more intuitive labeling. The following illustration shows the new combined settings, which all reside in the **Visible To**configuration option on a menu entity's details page:
 
 ![Image](https://doc.toasttab.com/doc/media/visible-to-config-options.png)
 
@@ -1538,17 +1538,17 @@ To sum up, the effect of these changes for online ordering partners are as follo
 
 > **Note**
 > 
-> For historical reasons, modifier groups currently do not have the Online orders: Toast option in the Visible To settings in Toast Web. This omission does not affect partner implementations because the Online orders: Toast option only impacts whether a menu entity is available on a restaurant's Toast Online Ordering site. In other words, the omission of this setting has no bearing on whether the modifier group is visible to a partner integration's online ordering site. The Online orders: Toast option will be added to modifier groups in a future release. Also, the `TOAST_ONLINE_ORDERING` enum is included in the `visibility` array for all modifier groups, regardless of the Visible To settings. This is a temporary condition that will be fixed soon. It should not impede the ability for partners to use, test, and code against the new Visible Tosettings because the `TOAST_ONLINE_ORDERING` enum is intended for the use of Toast Online Ordering only.
+> For historical reasons, modifier groups currently do not have the **Online orders: Toast** option in the **Visible To** settings in Toast Web. This omission does not affect partner implementations because the **Online orders: Toast** option only impacts whether a menu entity is available on a restaurant's Toast Online Ordering site. In other words, the omission of this setting has no bearing on whether the modifier group is visible to a partner integration's online ordering site. The **Online orders: Toast** option will be added to modifier groups in a future release. Also, the `TOAST_ONLINE_ORDERING` enum is included in the `visibility` array for all modifier groups, regardless of the **Visible To** settings. This is a temporary condition that will be fixed soon. It should not impede the ability for partners to use, test, and code against the new **Visible To**settings because the `TOAST_ONLINE_ORDERING` enum is intended for the use of Toast Online Ordering only.
 
 
 #### Understanding the Grubhub enumeration
 
-Conceptually, the Grubhub setting has been replaced by the more general Online orders: Ordering partners setting and restaurants that used the Grubhub setting will automatically be migrated to the new Ordering partners setting. This means that any menu entity that had the Grubhub setting set to Yes will now have the Online orders: Ordering partners option enabled and, in the menus API `visibility` array, the `ORDERING_PARTNERS` enum will be present. In the short term, however, the `visibility`array will continue to contain the `GRUBHUB` enum for backwards compatibility. In the future, the `GRUBHUB` enum will be removed.
+Conceptually, the **Grubhub** setting has been replaced by the more general **Online orders: Ordering partners** setting and restaurants that used the **Grubhub** setting will automatically be migrated to the new **Ordering partners** setting. This means that any menu entity that had the **Grubhub** setting set to **Yes** will now have the **Online orders: Ordering partners** option enabled and, in the menus API `visibility` array, the `ORDERING_PARTNERS` enum will be present. In the short term, however, the `visibility`array will continue to contain the `GRUBHUB` enum for backwards compatibility. In the future, the `GRUBHUB` enum will be removed.
 
 
 
 > **Note**
 > 
-> The Grubhub setting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
+> The **Grubhub** setting was only visible at Toast POS system restaurants that used a legacy Grubhub integration, so not all restaurants would have seen this option.
 
 

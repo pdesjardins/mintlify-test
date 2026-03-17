@@ -41,31 +41,31 @@ When pricing menu items that belong to multiple menu groups, there are some requ
 
 If all, or most, of the menu items in a menu group have the same price, as a best practice you should set a price at the menu group level. If necessary, you can override this price for specific menu items within the group.
 
-The Items section on a menu group details page displays the menu items contained in the menu group. Menu items that inherit their price from the menu group display "inherited" in the Price column. A menu item that does not display "inherited" in the Price column is priced individually. Also, when the menu group has items that are priced individually, a message appears in the Pricingsection that says "Some of this group's items do not inherit pricing". You can click the Show button in that message to view a list of individually priced items.
+The **Items** section on a menu group details page displays the menu items contained in the menu group. Menu items that inherit their price from the menu group display "inherited" in the **Price** column. A menu item that does not display "inherited" in the **Price** column is priced individually. Also, when the menu group has items that are priced individually, a message appears in the **Pricing**section that says "Some of this group's items do not inherit pricing". You can click the **Show** button in that message to view a list of individually priced items.
 
 ![Example of the banner displayed for items that do not inherit their prices from a menu group.](https://doc.toasttab.com/doc/media/pricing-showing-price-inheritance.png)
 
-**Procedure 8.112. To set a menu group-level price**
+**Procedure 8.116. To set a menu group-level price**
 
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Bulk management &gt; Advanced properties to open the Advanced properties page.
+2. Choose **Menus &gt; Bulk management &gt; Advanced properties** to open the **Advanced properties** page.
 
 
-3. Expand the menus and menu groups on the Advanced properties page to locate the menu group you want to edit.
+3. Expand the menus and menu groups on the **Advanced properties** page to locate the menu group you want to edit.
 
 
 4. Click the menu group's name to view its details page.
 
 
-5. In the Pricing section, set Menu group provides pricing to Yes.
+5. In the **Pricing** section, set **Menu group provides pricing** to **Yes**.
 
 
 
 > **Note**
 > 
-> Any menu items you create after setting this option to Yes automatically inherit their prices from the menu group. If most of a menu group's items will inherit their prices, it is most efficient to set this option to Yes before adding the menu items.
+> Any menu items you create after setting this option to **Yes** automatically inherit their prices from the menu group. If most of a menu group's items will inherit their prices, it is most efficient to set this option to **Yes** before adding the menu items.
 
 
 
@@ -79,10 +79,10 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 8. To configure a menu item to inherit its price from its parent menu group:
 
-- In the Items section of the menu group details page, click a menu item name to view its details page.
+- In the **Items** section of the menu group details page, click a menu item name to view its details page.
 
 
-- In the Pricing section, set Pricing Provider to Menu group provides pricing.
+- In the **Pricing** section, set **Pricing Provider** to **Menu group provides pricing**.
 
 
 
@@ -102,10 +102,10 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 9. To configure a menu item to override the menu group's price with its own individual price:
 
-- In the Items section of the menu group details page, click a menu item name to view its details page.
+- In the **Items** section of the menu group details page, click a menu item name to view its details page.
 
 
-- In the Pricing section, set Pricing Provider to Specify pricing on this item.
+- In the **Pricing** section, set **Pricing Provider** to **Specify pricing on this item**.
 
 
 - Set the price for the menu item. You can choose a pricing strategy ([Base Price](adminGuide-adminBasePrice), [Size Price](adminGuide-adminSizePrice), [Menu Specific Price](adminGuide-adminMenuSpecificPrice), [Time Specific Price](adminGuide-adminTimeSpecificPrice), [Open Price](adminGuide-adminOpenPrice), [Location Specific Price](adminGuide-adminLocationSpecificPrice)) or use [price levels](adminGuide-adminUsingPriceLevels).
@@ -134,29 +134,29 @@ Next, configure each of the group's menu items to either inherit their price fro
 
 If all of the menu items in a menu group have a different price, as a best practice you should specify prices on the individual menu items.
 
-**Procedure 8.113. To set prices on individual menu items**
+**Procedure 8.117. To set prices on individual menu items**
 
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Menus &gt; Bulk management &gt; Advanced properties to open the Advanced properties page.
+2. Choose **Menus &gt; Bulk management &gt; Advanced properties** to open the **Advanced properties** page.
 
 
-3. Expand the menus and menu groups on the Advanced properties page to locate the menu group that contains the menu items you want to edit.
+3. Expand the menus and menu groups on the **Advanced properties** page to locate the menu group that contains the menu items you want to edit.
 
 
 4. Click the menu group's name to view its details page.
 
 
-5. In the Pricing section, set Menu group provides pricing to No. (No is the default.)
+5. In the **Pricing** section, set **Menu group provides pricing** to **No**. (**No** is the default.)
 
 Next, you set the prices on each of the menu items contained in the group.
 
 
-6. In the Items section, click a menu item's name to view its details page.
+6. In the **Items** section, click a menu item's name to view its details page.
 
 
-7. In the Pricing section, set Pricing Provider to Specify pricing on this item.
+7. In the **Pricing** section, set **Pricing Provider** to **Specify pricing on this item**.
 
 
 

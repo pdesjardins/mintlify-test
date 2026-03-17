@@ -36,44 +36,44 @@ For information on how to use your Toast device during an outage, see [Offline m
 
 ## Internet outage
 
-During an internet connection issue, your Toast POS device is offline. If you are on the Orders Hub screen when the device switches to use offline mode, a No internet connection banner appears. Below the banner is a dialog box with information on what you can do while offline and what to avoid. Select the Troubleshoot button for additional [troubleshooting information](adminGuide-platformOfflineAutofireDevices#platformTroubleshootingYourDeviceDuringAnISPOutage) or select the Got it button to close out of the dialog box.
+During an internet connection issue, your Toast POS device is offline. If you are on the Orders Hub screen when the device switches to use offline mode, a **No internet connection** banner appears. Below the banner is a dialog box with information on what you can do while offline and what to avoid. Select the **Troubleshoot** button for additional [troubleshooting information](adminGuide-platformOfflineAutofireDevices#platformTroubleshootingYourDeviceDuringAnISPOutage) or select the **Got it** button to close out of the dialog box.
 
-From the dialog, scan the QR code to visit a Toast Central article or select the Quick troubleshooting dropdown to display troubleshooting steps. Select the Backbutton to return to the previous screen or select the Done button to close the dialog.
+From the dialog, scan the QR code to visit a Toast Central article or select the **Quick troubleshooting** dropdown to display troubleshooting steps. Select the **Back**button to return to the previous screen or select the **Done** button to close the dialog.
 
 ### Autofire device offline due to an internet outage
 
 If your Autofire device is offline due to an ISP outage, the Orders Hub screen displays a banner. The information displayed in the banner depends on your restaurant configurations and if you have a printer configured and connected to the network:
 
-- If a printer is configured and connected: No internet connection - Existing scheduled orders will still fire and send to printer banner
+- If a printer is configured and connected: **No internet connection - Existing scheduled orders will still fire and send to printer** banner
 
 
-- If no printer is configured and connected: No internet connection - You can keep taking orders and payments but this device needs to reconnect to be fully operationalbanner
+- If no printer is configured and connected: **No internet connection - You can keep taking orders and payments but this device needs to reconnect to be fully operational**banner
 
 
 
 The information displayed in the dialog box depends on your restaurant configurations. Below is a list of what you can still do offline.
 
-- Keep taking orders and payments on this device - we’ll submit payments for processing when you reconnect
+- **Keep taking orders and payments on this device** - we’ll submit payments for processing when you reconnect
 
 
-- Please do not - turn off this device, uninstall the app, connect to another Wi-Fi network or clear this device’s cache or app data
+- **Please do not** - turn off this device, uninstall the app, connect to another Wi-Fi network or clear this device’s cache or app data
 
 
 
 ### Non-Autofire device offline due to an internet outage
 
-If your non-Autofire device is offline due to an ISP outage, the Orders Hub screen displays a No internet connection - New online orders are not showing on this device. Toast Online Ordering may be turned off banner. A dialog box appears below the banner with information on what you can still do offline and what to avoid:
+If your non-Autofire device is offline due to an ISP outage, the Orders Hub screen displays a **No internet connection - New online orders are not showing on this device. Toast Online Ordering may be turned off** banner. A dialog box appears below the banner with information on what you can still do offline and what to avoid:
 
-- Keep taking orders and payments on this device - we’ll submit payments for processing when you reconnect
-
-
-- Order scheduling is currently unavailable - new scheduled orders will not fire from this device until internet connection is restored
+- **Keep taking orders and payments on this device** - we’ll submit payments for processing when you reconnect
 
 
-- Toast Online Ordering may be turned off for guests to place orders - until internet connection is restored
+- **Order scheduling is currently unavailable** - new scheduled orders will not fire from this device until internet connection is restored
 
 
-- Please do not - turn off this device, uninstall the app, connect to another Wi-Fi network or clear this device’s cache or app data
+- **Toast Online Ordering may be turned off for guests to place orders** - until internet connection is restored
+
+
+- **Please do not** - turn off this device, uninstall the app, connect to another Wi-Fi network or clear this device’s cache or app data
 
 
 
@@ -109,7 +109,7 @@ During an ISP outage, your Toast device is offline as the device is unable to ac
 - Use the Autofire assigned device to manage orders until internet connection is restored.
 
 
-- To find which Autofire device is being used, navigate to the Online Ordering page in Toast Web.
+- To find which Autofire device is being used, navigate to the **Online Ordering** page in Toast Web.
 
 
 
@@ -117,19 +117,19 @@ For more information on using your Toast device in offline mode, see [Offline Mo
 
 ## Autofire device outage
 
-If your Autofire device is offline, non-Autofire devices display custom banners and dialog boxes depending on your restaurant configurations. Non-Autofire devices display Autofiring device is unavailable - Scheduled orders will not fire. Toast Online Ordering may be turned off banners. Scheduled orders do not fire and new online orders must be manually approved. An active Autofire device is required to fire and print scheduled orders and automatically approve new online orders. Below the banner is a dialog box with information on what you can do offline and what to avoid:
+If your Autofire device is offline, non-Autofire devices display custom banners and dialog boxes depending on your restaurant configurations. Non-Autofire devices display **Autofiring device is unavailable - Scheduled orders will not fire. Toast Online Ordering may be turned off** banners. Scheduled orders do not fire and new online orders must be manually approved. An active Autofire device is required to fire and print scheduled orders and automatically approve new online orders. Below the banner is a dialog box with information on what you can do offline and what to avoid:
 
-- The device assigned to Autofire is unavailable - check that all cables on the Autofire device are connected
-
-
-- Toast Online Ordering may be turned off while Autofire device is unavailable - guests may not be able to place new orders until the Autofire device is restored
+- **The device assigned to Autofire is unavailable** - check that all cables on the Autofire device are connected
 
 
-- New orders placed online will require manual approval - automatic approval can only be restored by having an active Autofire device
+- **Toast Online Ordering may be turned off while Autofire device is unavailable** - guests may not be able to place new orders until the Autofire device is restored
+
+
+- **New orders placed online will require manual approval** - automatic approval can only be restored by having an active Autofire device
 
 
 
-From the dialog box, scan the QR code to visit a Toast Central article or select the Quick troubleshootingdropdown to display various troubleshooting steps. To go back to the front of the dialog box, select the Back button or select the Done button to close the dialog box.
+From the dialog box, scan the QR code to visit a Toast Central article or select the **Quick troubleshooting**dropdown to display various troubleshooting steps. To go back to the front of the dialog box, select the **Back** button or select the **Done** button to close the dialog box.
 
 ### Troubleshooting your non-Autofire device during an Autofire device outage
 

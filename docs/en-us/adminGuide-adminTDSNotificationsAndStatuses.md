@@ -18,13 +18,13 @@ codeExamples: 0
 
 When an order is being delivered by a driver, the guest receives the following text notifications during the delivery process:
 
-- Initial notification: This message is sent when the driver is en-route to the restaurant. The message contains a TDS tracking link that the guest can select to view driver information and location.
+- **Initial notification**: This message is sent when the driver is en-route to the restaurant. The message contains a TDS tracking link that the guest can select to view driver information and location.
 
 
-- Pick-up notification: This message is sent when the driver has picked up the guest's order.
+- **Pick-up notification**: This message is sent when the driver has picked up the guest's order.
 
 
-- Rating notification: This message is sent when the guest's order has been marked as delivered. There is an option to rate the delivery experience.
+- **Rating notification**: This message is sent when the guest's order has been marked as delivered. There is an option to rate the delivery experience.
 
 
 

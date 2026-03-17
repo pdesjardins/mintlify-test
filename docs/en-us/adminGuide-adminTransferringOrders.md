@@ -53,9 +53,9 @@ The check transfer options involve the following permissions:
 ****Access mode permissions****
 : [Access "mode" permissions](adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the check transfer options are located.
 
-For a bulk transfer, you must have Table Service Mode, Quick Order Mode, or Payment Terminal Mode.
+For a bulk transfer, you must have **Table Service Mode**, **Quick Order Mode**, or **Payment Terminal Mode**.
 
-For the single order or check transfer, you must have Table Service Mode or Quick Order Mode.
+For the single order or check transfer, you must have **Table Service Mode** or **Quick Order Mode**.
 
 
 
@@ -88,31 +88,31 @@ When you transfer multiple open or paid checks to a different employee, the chec
 
 **Procedure 2.2. To select and transfer multiple checks**
 
-1. If you are on the Payment Terminalscreen, then the list of checks already is displayed.
+1. If you are on the **Payment Terminal**screen, then the list of checks already is displayed.
 
-If you are on the Table Service or Quick Order screens, select All checks.
-
-
-2. On the Open Checks screen, tap and hold on any check until the options available at the top of the screen change to allow multiple selection.
-
-Alternatively, from the overflow menu (the ⋮ icon), choose Select checks.
+If you are on the **Table Service** or **Quick Order** screens, select **All checks**.
 
 
-3. On the Select checks screen, tap each check that you want to transfer to another server.
+2. On the **Open Checks** screen, tap and hold on any check until the options available at the top of the screen change to allow multiple selection.
 
-Alternatively, you can use Select all and tap individual checks to deselect them.
+Alternatively, from the overflow menu (the ⋮ icon), choose **Select checks**.
 
 
-4. Select Transfer checks.
+3. On the **Select checks** screen, tap each check that you want to transfer to another server.
+
+Alternatively, you can use **Select all** and tap individual checks to deselect them.
+
+
+4. Select **Transfer checks**.
 
 ![The Select Checks screen with several checks selected and the Transfer checks button emphasized.](https://doc.toasttab.com/doc/media/payment-terminal-transfer-multiple-checks.png)
 
-If you do not have the Transfer Checkspermission, a prompt for a manager POS access code or swipe card appears.
+If you do not have the **Transfer Checks**permission, a prompt for a manager POS access code or swipe card appears.
 
-When a manager approves the change, the Change Server list appears.
+When a manager approves the change, the **Change Server** list appears.
 
 
-5. From the Change Server list, select another employee. You can select any employee who is currently clocked in.
+5. From the **Change Server** list, select another employee. You can select any employee who is currently clocked in.
 
 The Toast platform transfers the order and its associated checks to that employee.
 
@@ -128,31 +128,31 @@ If the check is paid or closed, it is reopened. Toast recommends that you do not
 
 1. From the Toast POS app, display the order screen.
 
-On the Table Service screen, select a table with a sent order (appears in green).
+On the **Table Service** screen, select a table with a sent order (appears in green).
 
-On the Table Service or Quick Order screens:
+On the **Table Service** or **Quick Order** screens:
 
-1. Select All checks.
+1. Select **All checks**.
 
 
 2. Select an open or paid check.
 
 
-3. Select Update to open the Quick Order screen.
+3. Select **Update** to open the **Quick Order** screen.
 
 
 
 
-  1. Select All checks.
+  1. Select **All checks**.
 
 
   2. Select an open or paid check.
 
 
-  3. Select Update to open the Quick Order screen.
+  3. Select **Update** to open the **Quick Order** screen.
 
 
-2. Select the server name. This opens the Change server list.
+2. Select the server name. This opens the **Change server** list.
 
 ![The Change server list with an employee selected.](https://doc.toasttab.com/doc/media/quick-order-change-server.png)
 
@@ -160,15 +160,15 @@ On the Table Service or Quick Order screens:
 3. Select your new server.
 
 
-4. If you do not have the Change Serverpermission, a prompt for a manager POS access code or swipe card appears.
+4. If you do not have the **Change Server**permission, a prompt for a manager POS access code or swipe card appears.
 
-When a manager approves the change, the Change server list appears.
-
-
-5. From the Change server list, select another employee. You can select any employee who is currently clocked in.
+When a manager approves the change, the **Change server** list appears.
 
 
-6. Select Send.
+5. From the **Change server** list, select another employee. You can select any employee who is currently clocked in.
+
+
+6. Select **Send**.
 
 
 

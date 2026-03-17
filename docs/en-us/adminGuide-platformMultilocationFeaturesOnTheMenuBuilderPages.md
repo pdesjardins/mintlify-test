@@ -19,7 +19,7 @@ This section describes the additional features you see when using the menu build
 
 ## Target, owner, number and GUID
 
-The Menu details section of a menu page displays the target, owner, number (also known as multi-location ID) and GUID information for the menu you are editing. This same information is provided in the Item details section of a menu item page. The following illustration show the Menu details section for a menu:
+The **Menu details** section of a menu page displays the target, owner, number (also known as multi-location ID) and GUID information for the menu you are editing. This same information is provided in the **Item details** section of a menu item page. The following illustration show the **Menu details** section for a menu:
 
 ![Example of the General info section of a menu details page.](https://doc.toasttab.com/doc/media/menu-builder-mlm-menu-details-section.png)
 
@@ -45,7 +45,7 @@ The following table provides descriptions for target, owner, number, and GUID:
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number</p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Used to identify related versions of a menu or menu item. Menus or menu item versions with the same Number are all part of a related set. For more information, see <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a>.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Used to identify related versions of a menu or menu item. Menus or menu item versions with the same **Number** are all part of a related set. For more information, see <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a>.</p></div></td>
     </tr>
     <tr className="">
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">GUID</p></div></td>
@@ -57,13 +57,13 @@ The following table provides descriptions for target, owner, number, and GUID:
 
 ## Menu group versions (menu page only)
 
-The Menu groups section of a menu's details page shows the menu groups that the menu contains. If a menu group has more than one version, you see the View versionslink on its card.
+The **Menu groups** section of a menu's details page shows the menu groups that the menu contains. If a menu group has more than one version, you see the **View versions**link on its card.
 
 ![Example of the Menu groups section of a menu page with the location of the View versions link called out.](https://doc.toasttab.com/doc/media/menu-builder-mlm-view-versions.png)
 
-Select the View versions link to open the Versions dialog where you can see all the menu group's versions.
+Select the **View versions** link to open the **Versions** dialog where you can see all the menu group's versions.
 
 ![Example of the Versions dialog for a Seafood menu group that has three versions, one targeted at Corporate, another targeted at Southeast, and a third targeted at Northeast.](https://doc.toasttab.com/doc/media/menu-builder-mlm-versions-dialog.png)
 
-The version shown on the menu group card is marked as `CURRENT` in the Versions dialog (see [How versioned configurations are displayed on the menu builder pages](adminGuide-platformHowVersionedConfigurationsAreDisplayedOnTheMenuBuilderPages)for more details). To navigate to the details page for a menu group version, select its name in the Versions dialog. Because menu groups are not yet supported in the menu builder for multi-location restaurants, the classic details page for the menu group opens.
+The version shown on the menu group card is marked as `CURRENT` in the **Versions** dialog (see [How versioned configurations are displayed on the menu builder pages](adminGuide-platformHowVersionedConfigurationsAreDisplayedOnTheMenuBuilderPages)for more details). To navigate to the details page for a menu group version, select its name in the **Versions** dialog. Because menu groups are not yet supported in the menu builder for multi-location restaurants, the classic details page for the menu group opens.
 

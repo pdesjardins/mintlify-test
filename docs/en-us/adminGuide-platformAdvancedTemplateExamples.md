@@ -21,7 +21,7 @@ Because it is a more complex template to use, this section provides examples of 
 
 > **Note**
 > 
-> Due to their large size, the images in this section appear as thumbnails. To see the full-size image, right-click the image and choose Open image in new tab. You may also have to zoom in on the image after you open it in a new tab, to more easily see the details.
+> Due to their large size, the images in this section appear as thumbnails. To see the full-size image, right-click the image and choose **Open image in new tab**. You may also have to zoom in on the image after you open it in a new tab, to more easily see the details.
 
 
 ## Menu item operations

@@ -27,13 +27,13 @@ When you configure a menu or a menu item, many settings require you to choose ot
 
 
 
-When displaying a configuration entity that has been versioned, the Toast platform picks one representative version from the entity's set of versions. The platform displays that representative version’s name, target, and owner. To see the name, target, and owner for the other versions, you use the View versions link to open a dialog where you can see the information for the other versions.
+When displaying a configuration entity that has been versioned, the Toast platform picks one representative version from the entity's set of versions. The platform displays that representative version’s name, target, and owner. To see the name, target, and owner for the other versions, you use the **View versions** link to open a dialog where you can see the information for the other versions.
 
-For example, the Seafood menu group below has more than one version, as indicated by the presence of the View versionslink. The Toast platform displays the Northeast version as the representative version, as indicated by a Targetvalue of Northeast.
+For example, the Seafood menu group below has more than one version, as indicated by the presence of the **View versions**link. The Toast platform displays the Northeast version as the representative version, as indicated by a **Target**value of Northeast.
 
 ![Example of a representative version as displayed in Toast Web.](https://doc.toasttab.com/doc/media/menu-builder-mlm-representative-version.png)
 
-Selecting the View versions link opens the Versions dialog where you can see all of the Seafood menu group's versions.
+Selecting the **View versions** link opens the Versions dialog where you can see all of the Seafood menu group's versions.
 
 ![Example of the Versions dialog for a Seafood menu group that has three versions, one targeted at Corporate, another targeted at Southeast, and a third targeted at Northeast.](https://doc.toasttab.com/doc/media/menu-builder-mlm-versions-dialog.png)
 

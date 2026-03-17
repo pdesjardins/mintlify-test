@@ -31,7 +31,7 @@ You can void items in an order until a payment is captured. After the payment is
 > Do not attempt to void items before or after you issue a refund on a check. Voiding items before or after you issue a refund can cause problems with Toast POS behavior and Toast reporting information.
 
 
-For credit card payments, the payment is considered captured when it completes the credit card capture process. Voided credit card payments display in the Reports &gt; Cash and loss management &gt; Voided payments report.
+For credit card payments, the payment is considered captured when it completes the credit card capture process. Voided credit card payments display in the **Reports &gt; Cash and loss management &gt; Voided payments** report.
 
 Cash payments and Toast gift card payments are considered captured at the end of that business day. Toast support configures the restaurant business day cutoff for each restaurant. The cutoff typically is set to 4:00 AM.
 

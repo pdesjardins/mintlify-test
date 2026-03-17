@@ -77,11 +77,11 @@ https://`[toast-api-hostname]`/cashmgmt/v1/entries?businessDate=20190917
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e195A5E2A1B1-DA0E-4054-99B6-F867706167E9" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e195A5E2A1B1-DA0E-4054-99B6-F867706167E9" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve cash entries. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e200A5E2A1B1-DA0E-4054-99B6-F867706167E9" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e200A5E2A1B1-DA0E-4054-99B6-F867706167E9" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">businessDate</code> request parameter to specify the date (in <code className="font-mono text-sm">yyyyMMdd</code> format) on which the cash entries were created.</p></div></td>
     </tr>
   
@@ -122,47 +122,47 @@ The following example shows a `CashEntry` object in the response data from the `
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e24433B240E1-39A5-4C20-8325-985CCE09250C" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e24433B240E1-39A5-4C20-8325-985CCE09250C" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of this <code className="font-mono text-sm">CashEntry</code> object.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e24633B240E1-39A5-4C20-8325-985CCE09250C" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e24633B240E1-39A5-4C20-8325-985CCE09250C" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time when the cash entry was made.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e24833B240E1-39A5-4C20-8325-985CCE09250C" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e24833B240E1-39A5-4C20-8325-985CCE09250C" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A descriptive comment entered by the restaurant employee when the cash entry was made. For undone cash entries, a hard-coded reason (such as <code className="font-mono text-sm">Undo Pay Out</code>) is provided by the system.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25033B240E1-39A5-4C20-8325-985CCE09250C" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25033B240E1-39A5-4C20-8325-985CCE09250C" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The US currency amount that the restaurant employee removed from (for negative amounts) or added to (for positive amounts) the cash drawer.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25233B240E1-39A5-4C20-8325-985CCE09250C" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25233B240E1-39A5-4C20-8325-985CCE09250C" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the pre-configured pay out reason for this <code className="font-mono text-sm">PAY_OUT</code> cash entry. The value is <code className="font-mono text-sm">null</code> if the cash entry is any type other than <code className="font-mono text-sm">PAY_OUT</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25533B240E1-39A5-4C20-8325-985CCE09250C" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25533B240E1-39A5-4C20-8325-985CCE09250C" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the cash drawer in which the cash entry was made.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25733B240E1-39A5-4C20-8325-985CCE09250C" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25733B240E1-39A5-4C20-8325-985CCE09250C" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the cash entry that was undone. The value is <code className="font-mono text-sm">null</code> if this cash entry does not undo a previous cash entry.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25933B240E1-39A5-4C20-8325-985CCE09250C" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e25933B240E1-39A5-4C20-8325-985CCE09250C" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the pre-configured no sale reason for a <code className="font-mono text-sm">NO_SALE</code> cash entry. The value is <code className="font-mono text-sm">null</code> if the cash entry is any type other than <code className="font-mono text-sm">NO_SALE</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26133B240E1-39A5-4C20-8325-985CCE09250C" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26133B240E1-39A5-4C20-8325-985CCE09250C" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID or external identifier of the restaurant employee who made the cash entry.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26333B240E1-39A5-4C20-8325-985CCE09250C" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26333B240E1-39A5-4C20-8325-985CCE09250C" className="">(10)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The cash entry type for this transaction.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26533B240E1-39A5-4C20-8325-985CCE09250C" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26533B240E1-39A5-4C20-8325-985CCE09250C" className="">(11)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the restaurant employee who approved this transaction. The value is <code className="font-mono text-sm">null</code> if approval was not needed.</p></div></td>
     </tr>
 **Undone Cash Entries**

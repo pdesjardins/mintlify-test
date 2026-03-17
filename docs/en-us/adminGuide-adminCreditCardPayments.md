@@ -20,7 +20,7 @@ You can accept prepaid credit cards as a form of payment in the Toast platform. 
 
 The holder of a prepaid credit card might be able to load money into the card account or a prepaid credit card might be a gift card with a fixed initial amount of money available. Purchases made using the card deduct money from the remaining balance. Prepaid credit cards are branded and supported by major credit card processing networks.
 
-You select Credit and swipe or enter a prepaid credit card to accept it as a form of payment, but prepaid credit cards behave differently than traditional credit cards. The following list describes some differences:
+You select **Credit** and swipe or enter a prepaid credit card to accept it as a form of payment, but prepaid credit cards behave differently than traditional credit cards. The following list describes some differences:
 
 - If you apply a prepaid credit card to a guest's check and the available balance on the card is less than the amount of the check, the Toast platform will perform a partial authorization for the amount that is available on the card. The restaurant guest must provide an additional form of payment for the remaining check amount.
 

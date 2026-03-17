@@ -235,95 +235,95 @@ echo "Expected cash deposit:        ${EXPECTED_CASH_DEPOSIT}"
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e18459B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">These parameters hold values that you need to get an authentication token and make Toast API requests. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e19959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e19959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a GET request to the user management API to get an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>. Store the authentication token string in a script variable so that other example functions can use it.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20159B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20159B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a GET request to the orders API to get a list of the GUIDs of each payment made during a business day. For each payment GUID, run another example shell script function to get detailed information about the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20359B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the business day of the payments in the <em className=""><code className="font-mono text-sm">paidBusinessDate</code></em>  query parameter.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20559B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Count the number of payment GUIDs for the business day.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20759B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20759B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Run a separate function to get detailed payment information for each of the payment GUIDs for the business day.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e20959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Get one GUID from the list.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21259B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21259B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Run the example <code className="font-mono text-sm">get_payment</code> function and pass the payment GUID as an argument.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21459B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21459B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Increment a counter variable to move on to the next payment GUID.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21659B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21659B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(10)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the orders API to get detailed information about one payment. Check the transaction type of the payment. If the payment type is <code className="font-mono text-sm">CASH</code>, add the payment amount to the total of cash payments for the business day.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(11)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e21859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(11)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">get_payments</code> function passes a payment GUID as an argument to this function.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e22059B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(12)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e22059B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(12)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Get the type value for the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e22259B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(13)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e22259B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(13)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Only include <code className="font-mono text-sm">CASH</code> payments in the total. Exclude voided payments.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d2e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(14)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d2e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(14)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Get the currency amount of the payment.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d3e22759B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(15)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d3e22759B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(15)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add the amount of the payment to the total amount of the cash payments for the business day.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(16)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d4e22959B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(16)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the cash management API to get detailed information about all cash entries for the business day. Calculate the cumulative amounts of each cash entry, excluding entries that have the <code className="font-mono text-sm">type</code> value <code className="font-mono text-sm">CASH_COLLECTED</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(17)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d5e23159B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(17)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the business day of the cash entries in the <em className=""><code className="font-mono text-sm">businessDate</code></em>  query parameter.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(18)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Get a list of the amounts of the entries that do not have the <code className="font-mono text-sm">type</code><code className="font-mono text-sm">CASH_COLLECTED</code>.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d6e23359B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(18)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Get a list of the amounts of the entries that do not have the <code className="font-mono text-sm">type</code> <code className="font-mono text-sm">CASH_COLLECTED</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d7e23559B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(19)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d7e23559B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(19)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Add each amount to the total cash entries for the business day. The amount values are negative or positive depending on whether the cash entry removes or adds cash to a restaurant cash drawer.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d8e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(20)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d8e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(20)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the total of cash payments to zero and run the function that gets payments for the business day.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d9e24059B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(21)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d9e24059B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(21)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Set the total of cash entries to zero and run the function that gets cash entries for the business day.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d0e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(22)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d0e23859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(22)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Calculate the sum of total cash payments and total cash entries for the business day to get the expected cash deposit.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d2e88859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(23)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d2e88859B7A05A-725E-4C5D-88B1-B5D63CCD0065" className="">(23)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Number of non-voided cash transactions.</p></div></td>
     </tr>
   

@@ -31,16 +31,16 @@ The following are required to enable analytics API access:
 
 - You must have the following permissions to all locations in the management group: 
 
-- 4.1 Sales Reports
+- **4.1 Sales Reports**
 
 
-- 4.2 Menu Reports ( + Inventory / Menusphere Reporting)
+- **4.2 Menu Reports ( + Inventory / Menusphere Reporting)**
 
 
-- 4.3 Labor Reports
+- **4.3 Labor Reports**
 
 
-- 8.4 Manage Integrations
+- **8.4 Manage Integrations**
 
 
 

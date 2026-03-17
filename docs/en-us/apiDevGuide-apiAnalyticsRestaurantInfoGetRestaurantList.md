@@ -49,11 +49,11 @@ curl -X GET 'https://`[toast-api-hostname]`/era/v1/restaurants-information' \
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17846FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Send a <code className="font-mono text-sm">GET</code> request to the <code className="font-mono text-sm">/era/v1/restaurants-information</code> endpoint of the analytics API.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e17866FAD0EEB-57EF-441A-9E58-614F985F6270" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include an authentication token. For more information, see <a href="apiDevGuide-authentication" className="">Authentication and restaurant access</a>.</p></div></td>
     </tr>
 ## Response to the request for restaurant information
@@ -98,22 +98,22 @@ The following example shows the response from the `/era/v1/restaurants-informati
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1009877E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique GUID assigned to the restaurant by the Toast platform.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010077E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The restaurant’s name.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010277E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates whether or not the restaurant is activated. For this example, the restaurant is activated.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010477E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates whether or not the restaurant is in test mode. For this example, the restaurant is not in test mode.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1010677E149E8-9F61-41FB-B0A1-9C937BA546FC" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates whether or not the restaurant is archived. For this example, the restaurant is not archived.</p></div></td>
     </tr>

@@ -22,15 +22,15 @@ In multi-location environments, you access the menu builder pages by first going
 1. Log in to [Toast Web](adminGuide-adminToastPosAccessTypes).
 
 
-2. From the navigation pane on the left, select Menus &gt; Bulk management &gt; Advanced Properties.
+2. From the navigation pane on the left, select **Menus &gt; Bulk management &gt; Advanced Properties**.
 
 
-3. From the You are viewing menu, pick a location group that uses the menu you want to edit and select Update.
+3. From the **You are viewing** menu, pick a location group that uses the menu you want to edit and select **Update**.
 
 
 4. Do one of the following:
 
-- For a menu, select the menu's name on the Advanced Properties page.
+- For a menu, select the menu's name on the **Advanced Properties** page.
 
 
 - For a menu item, expand a menu that contains the item and then select the item's name.
@@ -48,13 +48,13 @@ The classic page opens for the menu or menu item.
 6. Edit the menu or menu item's settings.
 
 
-7. Select Save.
+7. Select **Save**.
 
 
-8. Select the X icon in the upper-left corner to return to the menu or menu item's classic details page.
+8. Select the **X** icon in the upper-left corner to return to the menu or menu item's classic details page.
 
 
-9. Publish your changes using the Toast account &gt; Publishing &gt; Publish config page. For more information, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
+9. Publish your changes using the **Toast account &gt; Publishing &gt; Publish config** page. For more information, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
 
 
 

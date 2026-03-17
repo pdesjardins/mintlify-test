@@ -55,7 +55,7 @@ To review the tax calculation for a marketplace facilitator, refer to the `Appli
 - `entityType`: The type of object.
 
 
-- `name`: The name of the tax rate. For marketplace facilitator taxes, this field is always Toast Marketplace Facilitator Taxes.
+- `name`: The name of the tax rate. For marketplace facilitator taxes, this field is always **Toast Marketplace Facilitator Taxes**.
 
 
 - `rate`: The tax rate. This value can be a fixed amount, percentage or `null`.
@@ -224,11 +224,11 @@ The following example shows the orders API return data for a marketplace facilit
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e31CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(1)</a></p></div></td>
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Any value <em className="">other than</em> <code className="font-mono text-sm">EXTERNAL</code> indicates that the marketplace facilitator used the prices and tax amounts calculated by the Toast platform for the order.</p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e31CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(1)</a> </p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Any value <em className="">other than</em>  <code className="font-mono text-sm">EXTERNAL</code> indicates that the marketplace facilitator used the prices and tax amounts calculated by the Toast platform for the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e33CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e33CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates that the marketplace facilitator remitted tax amounts on behalf of the restaurant location.</p></div></td>
     </tr>
 ## Example return data with specified prices and tax amounts
@@ -311,10 +311,10 @@ The marketplace facilitator submits those prices and tax amounts to the Toast pl
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e47CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e47CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The value <code className="font-mono text-sm">EXTERNAL</code> indicates that the marketplace facilitator specified the prices and tax amounts for the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e49CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e49CC34B3B2-D5E8-41EC-A472-B380E595E5A4" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Indicates that the marketplace facilitator remitted tax amounts on behalf of the restaurant location.</p></div></td>
     </tr>

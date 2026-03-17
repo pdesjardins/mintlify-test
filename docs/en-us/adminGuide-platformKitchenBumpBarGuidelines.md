@@ -20,7 +20,7 @@ Follow these guidelines when using the bump bar:
 - **Do not** plug multiple bump bar devices into one KDS device. The KDS device only recognizes one bump bar at a time.
 
 
-- **Do not** use bump bars with anything other than KDS mode, with the exception of the passcode screen. You can use the bump bar to enter your passcode, with the number 10 button acting as 0.
+- **Do not** use bump bars with anything other than KDS mode, with the exception of the passcode screen. You can use the bump bar to enter your passcode, with the number **10** button acting as 0.
 
 
 - **Do not** connect a bump bar to a portable device, such as ToastGo™.

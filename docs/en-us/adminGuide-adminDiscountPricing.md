@@ -114,18 +114,18 @@ You can either apply the discount separately to each quantity in the consolidate
 
 ### Configuring item consolidation
 
-You can use the Consolidate menu itemssetting to configure your restaurant to show selected identical items on the order screen as consolidated items or as separate items.
+You can use the **Consolidate menu items**setting to configure your restaurant to show selected identical items on the order screen as consolidated items or as separate items.
 
-The Consolidate menu items setting is available in the Front of house &gt; Order screen setup &gt; UI options page in Toast Web.
+The **Consolidate menu items** setting is available in the **Front of house &gt; Order screen setup &gt; UI options** page in Toast Web.
 
 The available options are:
 
-- On: Groups identical items as one item with the indicated quantity. The *Qty*(quantity) column lists the number of items. For example, three Onion Rings menu items are consolidated on one line with a *Qty* of *3*. This is the default option.
+- **On**: Groups identical items as one item with the indicated quantity. The *Qty*(quantity) column lists the number of items. For example, three Onion Rings menu items are consolidated on one line with a *Qty* of *3*. This is the default option.
 
 ![Toast POS screen showing consolidated items.](https://doc.toasttab.com/doc/media/discount-consolidated-items.png)
 
 
-- Off: Each menu item is listed on a separate line. The *Qty* column for each item is set to *1*. For example, three Onion Rings menu items are listed separately, each with a *Qty* of *1*.
+- **Off**: Each menu item is listed on a separate line. The *Qty* column for each item is set to *1*. For example, three Onion Rings menu items are listed separately, each with a *Qty* of *1*.
 
 ![Toast POS screen showing items that are not consolidated.](https://doc.toasttab.com/doc/media/discount-non-consolidated-items.png)
 
@@ -133,28 +133,28 @@ The available options are:
 
 ### Configuring discount consolidation for consolidated items
 
-If you [consolidate menu items](adminGuide-adminUiOptionsReference#configCombineItems), you can use the Consolidate discounts setting to set how to apply an item-level fixed currency discount to a consolidated item.
+If you [consolidate menu items](adminGuide-adminUiOptionsReference#configCombineItems), you can use the **Consolidate discounts** setting to set how to apply an item-level fixed currency discount to a consolidated item.
 
-The Consolidate discounts setting is available in the Front of house &gt; Order screen setup &gt; UI options page.
+The **Consolidate discounts** setting is available in the **Front of house &gt; Order screen setup &gt; UI options** page.
 
 ![The Consolidate discounts setting in Toast Web.](https://doc.toasttab.com/doc/media/discount-consolidate-discounts.png)
 
 The available values are:
 
-- Yes: Indicates to apply item-level fixed currency discounts to each item.
+- **Yes**: Indicates to apply item-level fixed currency discounts to each item.
 
 For example, a consolidated item has a quantity of three items. A $1 item-level fixed currency discount is applied to each item. $3 is discounted from the check.
 
 
-- No: This is the default. Item-level fixed currency discounts are applied to the total of all the items.
+- **No**: This is the default. Item-level fixed currency discounts are applied to the total of all the items.
 
 For example, a consolidated item has a quantity of three items. A $1 item-level fixed currency discount is applied to the quantity total. $1 is discounted from the check.
 
 
 
-The Consolidate discounts setting has no effect on discounts other than item-level fixed currency discounts.
+The **Consolidate discounts** setting has no effect on discounts other than item-level fixed currency discounts.
 
-The following example shows how a discount would behave with the Consolidate discounts setting (On or Off).
+The following example shows how a discount would behave with the **Consolidate discounts** setting (**On** or **Off**).
 
 In this example:
 

@@ -38,59 +38,59 @@ If you have void reasons configured, then when a restaurant employee voids a che
 
 **Procedure 6.89. To configure the list of available void reasons**
 
-1. From Toast Web, choose Payments &gt; Transactions & refunds &gt; Void reasons.
+1. From Toast Web, choose **Payments &gt; Transactions & refunds &gt; Void reasons**.
 
 ![Void Reasons page on Toast Web showing the list of available void reasons.](https://doc.toasttab.com/doc/media/void-reasons.png)
 
 
 2. To add a reason:
 
-1. Click Add.
+1. Click **Add**.
 
 
-2. In the Name field, type the reason name.
+2. In the **Name** field, type the reason name.
 
 
-3. Optionally, in the Description field, type a longer description of the reason.
+3. Optionally, in the **Description** field, type a longer description of the reason.
 
 
 
 
-  1. Click Add.
+  1. Click **Add**.
 
 
-  2. In the Name field, type the reason name.
+  2. In the **Name** field, type the reason name.
 
 
-  3. Optionally, in the Description field, type a longer description of the reason.
+  3. Optionally, in the **Description** field, type a longer description of the reason.
 
 
-3. To control whether a reason is active, select or deselect the Active check box.
+3. To control whether a reason is active, select or deselect the **Active** check box.
 
 
 4. To control the display sequence of the void reasons:
 
-1. Click Order.
+1. Click **Order**.
 
 
 2. In the number fields, type the sequence number for each void reason.
 
 
-3. When you are finished, click Done.
+3. When you are finished, click **Done**.
 
 
 
 
-  1. Click Order.
+  1. Click **Order**.
 
 
   2. In the number fields, type the sequence number for each void reason.
 
 
-  3. When you are finished, click Done.
+  3. When you are finished, click **Done**.
 
 
-5. To archive a void reason that you no longer want to use, click the actions menu icon (...), then click Archive.
+5. To archive a void reason that you no longer want to use, click the actions menu icon (**...**), then click **Archive**.
 
 
 6. Save and publish the changes.
@@ -110,9 +110,9 @@ Voiding checks involves the following permissions:
 ****Access mode permissions****
 : [Access "mode" permissions](adminGuide-adminPermissions#adminModePermissions)provide access to the areas of the Toast POS app where the void check options are located.
 
-For the bulk check void, you must have Table Service Mode, Quick Order Mode, or Payment Terminal Mode permission.
+For the bulk check void, you must have **Table Service Mode**, **Quick Order Mode**, or **Payment Terminal Mode** permission.
 
-For the single check void, you must have Table Service Mode or Quick Order Modepermission.
+For the single check void, you must have **Table Service Mode** or **Quick Order Mode**permission.
 
 
 
@@ -145,36 +145,36 @@ You can select multiple open checks to void at at the same time.
 
 **Procedure 6.90. To void one or more open checks**
 
-1. If you are on the Payment Terminalscreen, then the list of checks already is displayed.
+1. If you are on the **Payment Terminal**screen, then the list of checks already is displayed.
 
-If you are on the Table Service or Quick Order screens, select All checks.
-
-
-2. On the Open Checks screen, tap and hold on any check until the options available at the top of the screen change to allow multiple selection.
-
-Alternatively, from the overflow menu (the ⋮ icon), choose Select checks.
+If you are on the **Table Service** or **Quick Order** screens, select **All checks**.
 
 
-3. On the Select Checks screen, tap each check that you want to void.
+2. On the **Open Checks** screen, tap and hold on any check until the options available at the top of the screen change to allow multiple selection.
 
-Alternatively, you can use Select all and tap individual checks to deselect them.
+Alternatively, from the overflow menu (the ⋮ icon), choose **Select checks**.
 
 
-4. Select Void.
+3. On the **Select Checks** screen, tap each check that you want to void.
+
+Alternatively, you can use **Select all** and tap individual checks to deselect them.
+
+
+4. Select **Void**.
 
 ![The select checks screen with the Void button emphasized.](https://doc.toasttab.com/doc/media/payment-terminal-void-multiple-checks.png)
 
-If you do not have the Bulk Void Open Checks permission, a prompt for a manager POS access code or swipe card appears. When a manager approves the change, the next prompt appears.
+If you do not have the **Bulk Void Open Checks** permission, a prompt for a manager POS access code or swipe card appears. When a manager approves the change, the next prompt appears.
 
 
-5. If your restaurant has one or more reasons for voiding a check configured, the Select a void reason list appears.
+5. If your restaurant has one or more reasons for voiding a check configured, the **Select a void reason** list appears.
 
 Select the applicable reason.
 
 
 6. If you do not have any void reasons configured, an "Are you sure?" prompt appears.
 
-Select Void.
+Select **Void**.
 
 
 
@@ -190,48 +190,48 @@ Before you can void a paid or closed check, you must void the payment.
 
 1. From the Toast POS app, display the order screen.
 
-On the Table Service screen, select a table with a sent order (appears in green).
+On the **Table Service** screen, select a table with a sent order (appears in green).
 
-On the Table Service or Quick Order screens:
+On the **Table Service** or **Quick Order** screens:
 
-1. Select All checks.
+1. Select **All checks**.
 
 
 2. Select an open, paid, or closed check.
 
 
-3. Select Update.
+3. Select **Update**.
 
 
 
 
-  1. Select All checks.
+  1. Select **All checks**.
 
 
   2. Select an open, paid, or closed check.
 
 
-  3. Select Update.
+  3. Select **Update**.
 
 
-2. From the overflow menu (the ⋮ icon), choose Void order.
+2. From the overflow menu (the ⋮ icon), choose **Void order**.
 
 ![An order screen with the Void order option circled.](https://doc.toasttab.com/doc/media/order-screen-void-single-check.png)
 
-If you do not have the Void Items/Orderspermission, a prompt for a manager POS access code or swipe card appears. When a manager approves the change, the next prompt appears.
+If you do not have the **Void Items/Orders**permission, a prompt for a manager POS access code or swipe card appears. When a manager approves the change, the next prompt appears.
 
 
 3. If the order has split checks, the system prompts for the check to void.
 
 
-4. If your restaurant has one or more reasons for voiding a check configured, the Select a void reason list appears.
+4. If your restaurant has one or more reasons for voiding a check configured, the **Select a void reason** list appears.
 
 Select the applicable reason.
 
 
 5. If you do not have any void reasons configured, an "Are you sure?" prompt appears.
 
-Select Void order.
+Select **Void order**.
 
 
 

@@ -140,7 +140,7 @@ https://`[toast-api-hostname]`/stock/v1/inventory
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e5167BA284E-76D4-4301-9E9B-45B74A4CCEF9" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which to retrieve menu item inventories. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</p></div></td>
     </tr>
   
@@ -178,23 +178,23 @@ The following example shows the JSON response data for a GET request to the `/in
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4531646253216" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4531646253216" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">GET</code> request returns a JSON array of menu item inventory objects containing information on menu items with a status of <code className="font-mono text-sm">QUANTITY</code> or <code className="font-mono text-sm">OUT_OF_STOCK</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4551646253216" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4551646253216" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value contains the unique Toast platform identifier for the menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4571646253216" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4571646253216" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">status</code> value is <code className="font-mono text-sm">QUANTITY</code> or <code className="font-mono text-sm">OUT_OF_STOCK</code>. The <code className="font-mono text-sm">/inventory</code> endpoint only returns information for menu items that have a stock status of <code className="font-mono text-sm">QUANTITY</code> or <code className="font-mono text-sm">OUT_OF_STOCK</code>. The endpoint does not return information for menu items that have an <code className="font-mono text-sm">IN_STOCK</code> status.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4591646253216" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4591646253216" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">multiLocationId</code> value for the menu item.</p> <p className="text-base leading-relaxed">Toast support recommends using a combination of a menu item's <code className="font-mono text-sm">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="font-mono text-sm">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4611646253216" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e4611646253216" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="font-mono text-sm">QUANTITY</code>. The <code className="font-mono text-sm">quantity</code> value is <code className="font-mono text-sm">null</code> for menu items with an <code className="font-mono text-sm">OUT_OF_STOCK</code> inventory status.</p></div></td>
     </tr>
   
@@ -247,11 +247,11 @@ https://`[toast-api-hostname]`/stock/v1/inventory?status=OUT_OF_STOCK
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e26752197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant, not the GUID for a restaurant group or management group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e27252197B25-7CA6-4B16-9886-FB07C124CEF3" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify <code className="font-mono text-sm">status=OUT_OF_STOCK</code> to retrieve menu items that are not in stock.</p></div></td>
     </tr>
   
@@ -282,23 +282,23 @@ The following example shows the JSON response for the `GET` request.
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7091646253216" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7091646253216" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">This <code className="font-mono text-sm">GET</code> request returns a JSON array of menu item inventory objects for menu items with a status of <code className="font-mono text-sm">OUT_OF_STOCK</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7111646253216" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7111646253216" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value contains the unique Toast platform identifier for the menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7131646253216" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7131646253216" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">status</code> value is <code className="font-mono text-sm">OUT_OF_STOCK</code> for the menu item. The <code className="font-mono text-sm">status</code> value would be <code className="font-mono text-sm">QUANTITY</code> if you had specified <code className="font-mono text-sm">status=QUANTITY</code> as the request parameter.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7151646253216" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7151646253216" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="font-mono text-sm">QUANTITY</code>, and is <code className="font-mono text-sm">null</code> for menu items with an <code className="font-mono text-sm">OUT_OF_STOCK</code> inventory status.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7171646253216" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e7171646253216" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">multiLocationId</code> value for the menu item.</p> <p className="text-base leading-relaxed">Toast support recommends using a combination of a menu item's <code className="font-mono text-sm">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="font-mono text-sm">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p></div></td>
     </tr>
   
@@ -382,15 +382,15 @@ https://`[toast-api-hostname]`/stock/v1/inventory/search
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e41779DA0981-6707-46FB-8E99-12EF303F8E00" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e41779DA0981-6707-46FB-8E99-12EF303F8E00" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Use the <code className="font-mono text-sm">Toast-Restaurant-External-ID</code> request parameter to specify the GUID of the restaurant from which you want to retrieve menu item inventories by status. The GUID must be for an individual restaurant location, not the GUID for a restaurant group or management group.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e41979DA0981-6707-46FB-8E99-12EF303F8E00" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e41979DA0981-6707-46FB-8E99-12EF303F8E00" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Specify the data type of the message body in the Content-Type header field. The value must be <code className="font-mono text-sm">application/json</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e42179DA0981-6707-46FB-8E99-12EF303F8E00" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Include the menu item list in the message body of the <code className="font-mono text-sm">POST</code> request. This example <strong className="font-semibold">curl</strong>  command sends message body data from the contents of the <code className="font-mono text-sm">my-item-search-data.json</code> file.</p></div></td>
     </tr>
   
@@ -439,31 +439,31 @@ The following example shows the JSON response data for a `POST` request to the `
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11941724334625" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11941724334625" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">GET</code> request returns a JSON array of menu item inventory objects for the requested menu items.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11961724334625" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11961724334625" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">guid</code> value contains the unique Toast platform identifier for the menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11981724334625" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11981724334625" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">status</code> value is one of <code className="font-mono text-sm">QUANTITY</code>, <code className="font-mono text-sm">OUT_OF_STOCK</code>, or <code className="font-mono text-sm">IN_STOCK</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12001724334625" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12001724334625" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">multiLocationId</code> value for the menu item.</p> <p className="text-base leading-relaxed">Toast support recommends using a combination of a menu item's <code className="font-mono text-sm">multiLocationId</code> and a restaurant location's GUID, instead of the menu item's <code className="font-mono text-sm">guid</code>, to identify menu items in subsequent requests. See <a href="apiDevGuide-portalToastIdentifiers" className="">Toast identifiers</a> for more information.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12021724334625" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12021724334625" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">quantity</code> value indicates the amount of stock remaining for menu items with an inventory status of <code className="font-mono text-sm">QUANTITY</code>, and is <code className="font-mono text-sm">null</code> for <code className="font-mono text-sm">OUT_OF_STOCK</code> and <code className="font-mono text-sm">IN_STOCK</code> menu items.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12051724334625" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12051724334625" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An example of a <code className="font-mono text-sm">guid</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12071724334625" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12071724334625" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">An example of a <code className="font-mono text-sm">multiLocationId</code> search for a menu item that does not exist at the restaurant being queried or has been archived. Your integration should update the list of menu items it associates with the restaurant location to remove this menu item.</p></div></td>
     </tr>
   

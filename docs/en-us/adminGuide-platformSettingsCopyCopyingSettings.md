@@ -19,12 +19,12 @@ The settings you can copy using the settings copy feature are organized by the p
 
 Each page category includes a redirect icon to the right of the page name that redirects to the settings page in Toast Web. Under each page category is a list of settings that can be copied using the settings copy feature. Page categories, sections, and settings have tags to provide additional information. The tags include the following:
 
-- MLM: This tag indicates that a setting or settings are dependent on another setting that uses [versions](adminGuide-versions). The setting tagged with MLM must be targeted towards (Copied to) a location that the dependent setting targets. If the setting is copied to a location not targeted by the dependent setting, no changes will occur.
+- **MLM**: This tag indicates that a setting or settings are dependent on another setting that uses [versions](adminGuide-versions). The setting tagged with **MLM** must be targeted towards (**Copied to**) a location that the dependent setting targets. If the setting is copied to a location not targeted by the dependent setting, no changes will occur.
 
-For example, the Kiosk void reason setting relies on the Void Reasons setting for its values. The Void Reasons setting uses versions, while Kiosk void reason setting uses the settings copy feature. The Kiosk void reason setting must be targeted towards (Copied to) a location within the location group hierarchy that the Void Reasons setting targets. The Void Reasons setting option “Server error” is targeted towards the Northeast location group. Therefore, the Kiosk void reason setting, when set to “Server error”, must also be targeted to the Northeast location group or a location in the Northeast location group.
+For example, the **Kiosk void reason** setting relies on the **Void Reasons** setting for its values. The **Void Reasons** setting uses versions, while **Kiosk void reason** setting uses the settings copy feature. The **Kiosk void reason** setting must be targeted towards (**Copied to**) a location within the location group hierarchy that the **Void Reasons** setting targets. The **Void Reasons** setting option “Server error” is targeted towards the Northeast location group. Therefore, the **Kiosk void reason** setting, when set to “Server error”, must also be targeted to the Northeast location group or a location in the Northeast location group.
 
 
-- UNSUPPORTED: This tag indicates that a setting or settings are not supported by the settings copy feature.
+- **UNSUPPORTED**: This tag indicates that a setting or settings are not supported by the settings copy feature.
 
 
 
@@ -49,30 +49,30 @@ Tags include the number of settings with that tag on that page or in that sectio
 
 
 
-2. Go to Toast account &gt; Business and location management &gt; Settings copy tool. The Settings copy page opens.
+2. Go to **Toast account &gt; Business and location management &gt; Settings copy tool**. The **Settings copy** page opens.
 
 
-3. Select the Copy settings button. The settings copy workflow page opens.
+3. Select the **Copy settings** button. The settings copy workflow page opens.
 
 ![The settings copy workflow page.](https://doc.toasttab.com/doc/media/mlx-settings-copy-workflow.png)
 
 
-4. Select the Copy to dropdown menu. The Select locations dialog opens.
+4. Select the **Copy to** dropdown menu. The **Select locations** dialog opens.
 
 
 
 > **Note**
 > 
-> The Copy from dropdown menu is always set to the session restaurant. This is not configurable.
+> The **Copy from** dropdown menu is always set to the session restaurant. This is not configurable.
 
 
 ![The Select locations dialog for the settings copy workflow.](https://doc.toasttab.com/doc/media/mlx-settings-copy-select-locations-dialog.png)
 
 
-5. Using either the Restaurant groups or Locations tab, select the location groups or locations you want to copy settings to. You can also use the search box to find a specific location.
+5. Using either the **Restaurant groups** or **Locations** tab, select the location groups or locations you want to copy settings to. You can also use the search box to find a specific location.
 
 
-6. Select the Select location(s) button. The dialog closes.
+6. Select the **Select location(s)** button. The dialog closes.
 
 
 7. Select the settings you want to copy. You can either:
@@ -97,20 +97,20 @@ Tags include the number of settings with that tag on that page or in that sectio
 ![The settings copy workflow with settings selected for copying, emphasizing the expand/collapse icon.](https://doc.toasttab.com/doc/media/mlx-settings-copy-settings-selected.png)
 
 
-8. Select the Start copy button. A dialog opens.
+8. Select the **Start copy** button. A dialog opens.
 
 ![The confirmation dialog for copying settings.](https://doc.toasttab.com/doc/media/mlx-settings-copy-save-settings.png)
 
 
-9. Select the Save button to confirm your copy. The confirmation button reflects the number of settings you are copying and the number of locations you are copying to. This returns you to the Setting copy page.
+9. Select the **Save** button to confirm your copy. The confirmation button reflects the number of settings you are copying and the number of locations you are copying to. This returns you to the **Setting copy** page.
 
 
-10. In the Activity table, confirm that the status of your copy is COMPLETED.
+10. In the **Activity** table, confirm that the status of your copy is **COMPLETED**.
 
 ![The Actitvity table showing past copies on the Settings copy page.](https://doc.toasttab.com/doc/media/mlx-settings-copy-activity-table.png)
 
 
-11. On the Toast account &gt; Publishing &gt; Publish Config page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](adminGuide-platformHowToPublish#platformPublishingPublishConfigPage).
+11. On the **Toast account &gt; Publishing &gt; Publish Config** page, publish changes at all the locations you published changes to. For more information, see [Using the Publish Config page](adminGuide-platformHowToPublish#platformPublishingPublishConfigPage).
 
 
 

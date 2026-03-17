@@ -23,16 +23,16 @@ The following sections describe the various quote time strategies available.
 
 > **Note**
 > 
-> To use SmartQuote, you must have a subscription to the Digital Storefront Suite and at least one Kitchen Display System (KDS).
+> To use **SmartQuote**, you must have a subscription to the Digital Storefront Suite and at least one Kitchen Display System (KDS).
 
 
-The SmartQuote strategy automatically sets quote times based on your restaurant’s historical order data and other various data inputs. You can set minimum and maximum prep time values and SmartQuote provides a prep time estimate that falls within the values set.
+The **SmartQuote** strategy automatically sets quote times based on your restaurant’s historical order data and other various data inputs. You can set minimum and maximum prep time values and **SmartQuote** provides a prep time estimate that falls within the values set.
 
 
 
 > **Important**
 > 
-> The accuracy of SmartQuote predictions relies heavily on the quality and quantity of the data used for training the AI model. Insufficient or biased data could lead to inaccurate predictions. Please consider these limitations when interpreting results.
+> The accuracy of **SmartQuote** predictions relies heavily on the quality and quantity of the data used for training the AI model. Insufficient or biased data could lead to inaccurate predictions. Please consider these limitations when interpreting results.
 
 
 **Example 3.3. Example: Estimated immediate fulfillment time when SmartQuote quote time strategy is enabled**
@@ -49,7 +49,7 @@ In this example:
 
 
 
-A guest places an ASAP online order for takeout at 1:00 PM. The Toast-provided SmartQuote prep time is 20 minutes. The guest’s order will be ready at 1:20 PM.
+A guest places an ASAP online order for takeout at 1:00 PM. The Toast-provided **SmartQuote** prep time is 20 minutes. The guest’s order will be ready at 1:20 PM.
 
   
 ## Manual
@@ -58,10 +58,10 @@ A guest places an ASAP online order for takeout at 1:00 PM. The Toast-provided S
 
 > **Important**
 > 
-> If you do not have a subscription to the Digital Storefront Suite, you can only use the Manual quote time strategy.
+> If you do not have a subscription to the Digital Storefront Suite, you can only use the **Manual** quote time strategy.
 
 
-The Manual strategy sets quote times based on the amount of time the kitchen needs to prepare the items in an order placed for takeout or delivery. The delivery quote time only applies to first-party delivery and not Toast Delivery Services (TDS) orders. The delivery quote time must be the same or more than the takeout time.
+The **Manual** strategy sets quote times based on the amount of time the kitchen needs to prepare the items in an order placed for takeout or delivery. The delivery quote time only applies to first-party delivery and not Toast Delivery Services (TDS) orders. The delivery quote time must be the same or more than the takeout time.
 
 **Example 3.4. Example: Estimated immediate fulfillment time when Manual quote time strategy is enabled**
 
@@ -77,16 +77,16 @@ In this example:
 
 
 
-A guest places an ASAP Toast online order for takeout at 1:00 PM. The configured Manual quote time is 15 minutes. The guest’s order will be ready at 1:15 PM.
+A guest places an ASAP Toast online order for takeout at 1:00 PM. The configured **Manual** quote time is 15 minutes. The guest’s order will be ready at 1:15 PM.
 
-A guest places an ASAP Toast online order for delivery at 1:00 PM. The configured Manual quote time is 25 minutes. The guest’s order will be ready and delivered by 1:25 PM.
+A guest places an ASAP Toast online order for delivery at 1:00 PM. The configured **Manual **quote time is 25 minutes. The guest’s order will be ready and delivered by 1:25 PM.
 
   
 ## Kitchen capacity
 
-The Kitchen capacity strategy sets quote times based on the number of orders or items the kitchen can prepare in a 15-minute time interval. First, set a quote time, which serves as the base time for the Kitchen capacity strategy. Then set your kitchen capacity by either the number of orders or by the number of items that your kitchen can prepare in a 15-minute interval. If you use the Kitchen capacity strategy it applies to both takeout and delivery orders.
+The **Kitchen capacity** strategy sets quote times based on the number of orders or items the kitchen can prepare in a 15-minute time interval. First, set a quote time, which serves as the base time for the **Kitchen capacity** strategy. Then set your kitchen capacity by either the number of orders or by the number of items that your kitchen can prepare in a 15-minute interval. If you use the **Kitchen capacity** strategy it applies to both takeout and delivery orders.
 
-When the Kitchen capacity strategy is enabled, it affects Toast Online Ordering in the following ways: 
+When the **Kitchen capacity** strategy is enabled, it affects Toast Online Ordering in the following ways: 
 
 - The estimated fulfillment time for orders placed for immediate fulfillment increases when the kitchen capacity is reached for the next available 15-minute interval.
 
@@ -139,7 +139,7 @@ Three guests place online orders for future fulfillment and choose the same avai
   
 
 
-You can use the Kitchen capacity quote time strategy with an [Order price rule](adminGuide-adminQuoteTimeStrategies#adminOrderPriceStrategy).
+You can use the **Kitchen capacity** quote time strategy with an [Order price rule](adminGuide-adminQuoteTimeStrategies#adminOrderPriceStrategy).
 
 **Example 3.7. Example: Estimated immediate fulfillment time increases when kitchen capacity is reached or the order pricing condition is met**
 
@@ -207,9 +207,9 @@ The guest’s quote time for their 15 item order is 5:45 PM.
   
 ## Order price
 
-The Order price strategy sets quote times based on the total order price. This strategy applies to both takeout and delivery orders.
+The **Order price** strategy sets quote times based on the total order price. This strategy applies to both takeout and delivery orders.
 
-When the Order price strategy is enabled, the estimated fulfillment time for orders placed for immediate fulfillment increases if the pricing condition is met.
+When the **Order price** strategy is enabled, the estimated fulfillment time for orders placed for immediate fulfillment increases if the pricing condition is met.
 
 **Example 3.9. Example: Estimated fulfillment time increases when the order pricing condition is met**
 

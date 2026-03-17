@@ -32,11 +32,11 @@ Follow the instructions below to create a version of a configuration entity.
 2. View the details page for the configuration entity you want to version.
 
 
-3. Click the New Version button next to the Number field.
+3. Click the **New Version** button next to the Number field.
 
 ![Image](https://doc.toasttab.com/doc/media/new_version_button.PNG)
 
-You see the New Version window.
+You see the **New Version** window.
 
 ![Image](https://doc.toasttab.com/doc/media/new_version_window.PNG)
 
@@ -44,7 +44,7 @@ You see the New Version window.
 4. Select a target and an owner for the version. Note that you must set an owner that is at the same point in the restaurant group hierarchy as the target or above. For more information on targets, see [Targets](adminGuide-targets). For more information on owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
-5. Click Submit.
+5. Click **Submit**.
 
 
 

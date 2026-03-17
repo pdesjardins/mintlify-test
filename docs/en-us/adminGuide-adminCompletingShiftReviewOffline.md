@@ -32,7 +32,7 @@ If your Toast POS device is offline, you will be unable to complete shift review
 
 ## Starting your shift when offline
 
-If you are offline at the start of your shift, you will be unable to log in to a Toast POS device, however you can clock in and start your shift by using the normal procedure of signing in with a passcode and then clocking in on the Clock In/Out screen.
+If you are offline at the start of your shift, you will be unable to log in to a Toast POS device, however you can clock in and start your shift by using the normal procedure of signing in with a passcode and then clocking in on the **Clock In/Out** screen.
 
 After clocking in, employees should follow these best practices:
 
@@ -50,10 +50,10 @@ After clocking in, employees should follow these best practices:
 
 If you are offline at the end of your shift, your shift review workflow is dependent on if shift review is required or optional.
 
-- If shift review is required: Shift review cannot be completed offline and you should not attempt to clock out. Inform your manager of your clock out time and follow the steps below to complete your shift review while offline.
+- **If shift review is required**: Shift review cannot be completed offline and you should not attempt to clock out. Inform your manager of your clock out time and follow the steps below to complete your shift review while offline.
 
 
-- If shift review is optional: Shift review cannot be completed offline but you can clock out on your local device. It is important to clock out using the same device you clocked in with.
+- **If shift review is optional**: Shift review cannot be completed offline but you can clock out on your local device. It is important to clock out using the same device you clocked in with.
 
 
 
@@ -86,7 +86,7 @@ Follow the steps below to complete shift review offline as an employee or manage
 
 
 
-When the restaurant is back online, the manager can use the Time Entries report to [adjust the time entry](adminGuide-adminOfflineEmployees#adminOfflineTimeEntries) for the employee.
+When the restaurant is back online, the manager can use the **Time Entries** report to [adjust the time entry](adminGuide-adminOfflineEmployees#adminOfflineTimeEntries) for the employee.
 
 
 

@@ -61,7 +61,7 @@ Here is the Curry Bread and Ramen items ticket on the Food prep station KDS devi
 
 > **Note**
 > 
-> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep stations working on the order. For more information on this setting, see [Other Stations](adminGuide-adminKitchenDiningRoomReference#configOtherStations) of the Printed Tickets and Ticket Screens configuration section.
+> The tickets at each prep station use `ALSO AT` to indicate the name of the other prep stations working on the order. For more information on this setting, see [Other Stations](adminGuide-adminKitchenDiningRoomReference#configOtherStations) of the **Printed Tickets and Ticket Screens** configuration section.
 
 
 Here is the Pack prep station KDS device.

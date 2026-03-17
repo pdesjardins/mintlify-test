@@ -22,7 +22,7 @@ Property management systems (PMS) are used by hotels and motels to coordinate sy
 
 The tender API supports the following transaction types for the PMS integration workflow:
 
-- `[TENDER_SEARCH_CONFIG](apiDevGuide-apiTenderPmsIntegration#apiTenderConfigureSearchPMS)`: Request configured search terms for the restaurant. Search terms can be First Name, Last Name, Room Number, Email, or Company.
+- `[TENDER_SEARCH_CONFIG](apiDevGuide-apiTenderPmsIntegration#apiTenderConfigureSearchPMS)`: Request configured search terms for the restaurant. Search terms can be **First Name**, **Last Name**, **Room Number**, **Email**, or **Company**.
 
 
 - [`TENDER_SEARCH`](apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS): Search for an account.
@@ -53,7 +53,7 @@ Configuring the search is the first transaction that occurs when an employee ini
 1. A guest wants to charge a check to a hotel room.
 
 
-2. An employee selects Pay ($) to tender the check and selects hotel room charge as the payment method on the Toast POS device.
+2. An employee selects **Pay ($)** to tender the check and selects hotel room charge as the payment method on the Toast POS device.
 
 
 3. The Toast platform sends a `TENDER_SEARCH_CONFIG` request to the hotel PMS provider to get the search terms used by the provider to look up guest information.
@@ -166,11 +166,11 @@ The following is an example of a successful configure search response.
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-C1DCCDC4-45EE-4899-A3DF-366229BB93BA" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">value</code> attribute must be <code className="font-mono text-sm">TEXT</code> if your integration supports alpha-numeric room numbers.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e663C54B0F40-F3CE-49A8-8D59-9CCB3A22F283" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">tenderProperType</code> attribute must be associated with <code className="font-mono text-sm">ROOM_ID</code> for the key-value pair that defines Room Number in the configure search response and on each <a href="apiDevGuide-apiTenderPmsIntegration#apiTenderSearchPMS" className="">search response</a>.</p></div></td>
     </tr>
   
@@ -903,15 +903,15 @@ If configured, the Toast platform prompts the restaurant employee for a gratuity
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-e356efd8-0dac-4a34-8fae-c13421f2bd47" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-e356efd8-0dac-4a34-8fae-c13421f2bd47" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Gratuity added to the check during the gratuity transaction.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e16255037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique order identifier.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e16275037700F-FE3C-4B8F-BA44-10D264C6966E" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A <code className="font-mono text-sm">Check</code> object that contains the order's complete transaction details.</p></div></td>
     </tr>
   
@@ -1047,34 +1047,34 @@ At the payment phase of the Toast platform order workflow:
 1. A guest chooses to pay a balance due by applying the balance to their room charge.
 
 
-2. An employee selects the Pay ($) button to navigate to the Payments screen.
+2. An employee selects the **Pay ($)** button to navigate to the Payments screen.
 
 ![A screenshot of the Pay button you use to access the Payments screen.](https://doc.toasttab.com/doc/media/tender_pos1.png)
 
 
-3. The restaurant employee selects the Otherbutton.
+3. The restaurant employee selects the **Other**button.
 
 ![A screenshot of the Other button on the Payments screen.](https://doc.toasttab.com/doc/media/tender_pos2.png)
 
 
-4. The Select Alternate Payment Typedialog appears and Hotel Room Charge is listed as an option.
+4. The Select Alternate Payment Typedialog appears and **Hotel Room Charge** is listed as an option.
 
 
 
 > **Note**
 > 
-> The name of the payment option is configurable from the Toast Web at Payments &gt; Other Payment Options.
+> The name of the payment option is configurable from the Toast Web at **Payments** &gt; **Other Payment Options**.
 
 
 ![A screenshot of the Select Alternate Payment Type screen, showing the room charge option.](https://doc.toasttab.com/doc/media/tender_pos_pms1.png)
 
 
-5. After selecting room charge, a Lookup Hotel Guest dialog appears.
+5. After selecting room charge, a **Lookup Hotel Guest** dialog appears.
 
 ![A screenshot of the Lookup Hotel Guest screen.](https://doc.toasttab.com/doc/media/tender_pos_pms2.png)
 
 
-6. The restaurant employee enters information to look up a guest and selects Search. For example, they enter a room number in the Enter Room # field.
+6. The restaurant employee enters information to look up a guest and selects **Search**. For example, they enter a room number in the **Enter Room #** field.
 
 
 7. Once the search is complete, a list of search results appears on the Toast POS device.
@@ -1090,7 +1090,7 @@ If the restaurant employee chose to print a receipt, the Room Charge payment and
 
 ## Reporting
 
-You can view information about tender transactions in the Sales Summary report. This report can be accessed by navigating to Reports &gt; Sales &gt; Sales Summary in Toast Web. Room charge tender payments appear in the Other section of the Sales Summary report, as shown below, and in the Payments tab. The payment Typeis shown as Other from the Payments tab.
+You can view information about tender transactions in the **Sales Summary** report. This report can be accessed by navigating to **Reports &gt; Sales &gt; Sales Summary** in Toast Web. Room charge tender payments appear in the **Other** section of the **Sales Summary **report, as shown below, and in the **Payments** tab. The payment **Type**is shown as **Other** from the **Payments** tab.
 
 ![A screenshot of the Sales Summary report, showing hotel room charge transactions in the Other section.](https://doc.toasttab.com/doc/media/tender_reporting1_pms.png)
 

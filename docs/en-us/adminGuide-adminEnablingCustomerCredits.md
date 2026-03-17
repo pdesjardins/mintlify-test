@@ -21,7 +21,7 @@ To add and redeem credit for your guests you must enable the customer credits fe
 
 > **Note**
 > 
-> When you first enable customer credits, it is enabled for *all of the restaurants in a loyalty group*. A loyalty group is a set of two or more restaurants in the same restaurant management group, or chain, that share gift cards, loyalty program cards, and guest credits. However, when you change the configuration for the maximum credit amount and credit expiration values, you must use the Publish Config page to publish the change to all of the restaurants in the loyalty group. For more information on how to publish configuration changes across multiple locations, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
+> When you first enable customer credits, it is enabled for *all of the restaurants in a loyalty group*. A loyalty group is a set of two or more restaurants in the same restaurant management group, or chain, that share gift cards, loyalty program cards, and guest credits. However, when you change the configuration for the maximum credit amount and credit expiration values, you must use the **Publish Config** page to publish the change to all of the restaurants in the loyalty group. For more information on how to publish configuration changes across multiple locations, see [Publishing changes for multiple locations](adminGuide-publishingChangesForMultipleLocations).
 
 
 **Procedure 13.10. Enabling the customer credits feature**
@@ -29,13 +29,13 @@ To add and redeem credit for your guests you must enable the customer credits fe
 1. Log in to Toast Web as a restaurant administrator.
 
 
-2. Choose Payments &gt; Payment methods &gt; Customer credits to open the Customer credits page.
+2. Choose **Payments &gt; Payment methods &gt; Customer** credits to open the **Customer credits** page.
 
 
-3. In the Enable customer credits setting, choose Enable.
+3. In the **Enable customer credits** setting, choose **Enable**.
 
 
-4. If needed, update the values in the Maximum credit amount and Credit expirationsettings.
+4. If needed, update the values in the **Maximum credit amount** and **Credit expiration**settings.
 
 The maximum credit amount limits the currency value that your restaurant employees can add in a single transaction.
 

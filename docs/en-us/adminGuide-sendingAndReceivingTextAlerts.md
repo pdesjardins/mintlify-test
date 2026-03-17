@@ -22,20 +22,20 @@ This section describes how to send a text alert from a Toast POS device.
 1. Tap the overflow icon ( ⋮ ) on the top right corner of any screen in the Toast POS app.
 
 
-2. Tap the Send Text Alert option.
+2. Tap the **Send Text Alert** option.
 
 
-3. From the What text alert would you like to send? dialog, tap to choose the text alert you want to send. 
+3. From the **What text alert would you like to send?** dialog, tap to choose the text alert you want to send. 
 
 ![The What text alert would you like to send dialog with the Increase in volume, assistance required option highlighted.](https://doc.toasttab.com/doc/media/POS-Select-Text-Alert.jpg)
 
 
-4. From the Who would you like to alert?dialog, select the check box for the employee(s) you want to alert.
+4. From the **Who would you like to alert?**dialog, select the check box for the employee(s) you want to alert.
 
 ![The Who would you like to alert dialog with the Emery Expediter option checked.](https://doc.toasttab.com/doc/media/POS-send-text-alert.jpg)
 
 
-5. Click Send.
+5. Click **Send**.
 
 
 

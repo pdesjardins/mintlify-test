@@ -21,7 +21,7 @@ After your Toast POS device goes offline, network-dependent payment methods, suc
 
 > **Note**
 > 
-> To enable card payment queuing, navigate to and select Continue accepting card payments without waiting for authorization (recommended).
+> To enable card payment queuing, navigate to and select **Continue accepting card payments without waiting for authorization (recommended)**.
 
 
 Once your Toast POS device is online: 

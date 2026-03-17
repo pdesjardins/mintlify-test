@@ -16,9 +16,9 @@ codeExamples: 0
 
 ## Prerequisites for configuring service charges
 
-To create a service charge, you need POS Access &gt; Add/Update Service Charges permissions. For more information, see the [Access Permission Reference](adminGuide-adminPermissions#adminAddlPosAccessPermissions).
+To create a service charge, you need **POS Access &gt; Add/Update Service Charges** permissions. For more information, see the [Access Permission Reference](adminGuide-adminPermissions#adminAddlPosAccessPermissions).
 
-Before you create a service charge that is taxed, configure your tax rates using the Tax Rates page. To display the Tax Rates page, choose Menus &gt; Menu management &gt; Tax rates setup. For more information, see [Taxes overview](adminGuide-adminTaxesOverview).
+Before you create a service charge that is taxed, configure your tax rates using the **Tax Rates** page. To display the **Tax Rates** page, choose **Menus &gt; Menu management &gt; Tax rates setup**. For more information, see [Taxes overview](adminGuide-adminTaxesOverview).
 
 ## Configuring a new service charge
 
@@ -27,118 +27,118 @@ Before you create a service charge that is taxed, configure your tax rates using
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Payments &gt; Checks & receipt setup &gt; Service charges and fees.
+2. Choose **Payments &gt; Checks & receipt setup &gt; Service charges and fees**.
 
 
-3. On the Service Charges page, click the + Add button.
+3. On the **Service Charges** page, click the **+ Add** button.
 
 
-4. In the New Service Charge page, enter the Basic configuration information:
+4. In the **New Service Charge** page, enter the **Basic** configuration information:
 
 
 
-**Name**
+****Name****
 : The name of the service charge. Use a descriptive name such as "Server Gratuity 20%" or "Gift Card Fee".
 
 
 
-**Target**
+****Target****
 : (Enterprise module only) Select the restaurants in a restaurant group to which this service charge can be applied.
 
 For information on targets, see [Targets](adminGuide-targets).
 
 
 
-**Owner**
+****Owner****
 : (Enterprise module only) Select the group level permission that is needed to edit the service charge.
 
 For information on owners, see [Owners and permissions](adminGuide-ownersAndPermissions).
 
 
 
-**Charge Type**
-: Select the service charge type (Fixed Percent, Fixed Amount, or Open Amount).
+****Charge Type****
+: Select the service charge type (**Fixed Percent**, **Fixed Amount**, or **Open Amount**).
 
-When you select Fixed Percent, the Charge Percent and Calculated on pre-discount or post-discount total fields are displayed.
+When you select **Fixed Percent**, the **Charge Percent** and **Calculated on pre-discount or post-discount total** fields are displayed.
 
-When you select Fixed Amount, the Charge Amount field is displayed.
+When you select **Fixed Amount**, the **Charge Amount** field is displayed.
 
-An Open Amount service charge cannot be designated as a delivery, takeout, or dine-in service charge.
+An **Open Amount** service charge cannot be designated as a delivery, takeout, or dine-in service charge.
 
 
 
-**Charge Percent**
-: Displays when the service charge type is Fixed Percent.
+****Charge Percent****
+: Displays when the service charge type is **Fixed Percent**.
 
 Enter a number to indicate the percentage of the check price for the service charge. For example, if you enter 10, then the service charge is 10 percent of the pre-discount check price.
 
 
 
-**Charge Amount**
-: Displays when the service charge type is Fixed Amount.
+****Charge Amount****
+: Displays when the service charge type is **Fixed Amount**.
 
 Enter the currency amount for the service charge.
 
 
 
-**Apply After Amount Threshold**
+****Apply After Amount Threshold****
 : Enter the threshold (as a currency amount) that determines whether to automatically apply the service charge to the check.
 
 If the pre-discount amount of a check is equal to or greater than this amount, then the service charge is applied automatically.
 
 If the threshold is 0.00 or blank, then the service charge is not applied automatically based on the amount of the check. You can configure the service charge to be applied automatically based on the order type, or the service charge can be applied manually.
 
-For delivery service charges, do not set Apply After Amount Threshold threshold if you set Waive Fee Threshold.
+For delivery service charges, do not set **Apply After Amount Threshold** threshold if you set **Waive Fee Threshold**.
 
 
 
-**Assign to check owner (Gratuity)?**
-: Select Yes to assign the service charge to the check owner.
+****Assign to check owner (Gratuity)?****
+: Select **Yes** to assign the service charge to the check owner.
 
-Select No to assign the service charge to the restaurant.
-
-
-
-**Taxed**
-: Select Yes to include the service charge in the taxable amount of the check. When you select Yes, the Taxesfield is displayed below the Basicfields.
-
-Select No to exclude the service charge from the taxable amount of the check.
+Select **No** to assign the service charge to the restaurant.
 
 
 
-**Calculated on pre-discount or post-discount total**
-: Displays when the service charge type is Fixed Percent.
+****Taxed****
+: Select **Yes** to include the service charge in the taxable amount of the check. When you select **Yes**, the **Taxes**field is displayed below the **Basic**fields.
 
-Select Pre-discount Total to calculate the service charge on the pre-discount check total.
-
-Select Post-discount Total to calculate the service charge on the post-discount check total.
+Select **No** to exclude the service charge from the taxable amount of the check.
 
 
 
-**Delivery?**
-: Select Yes to make this a delivery service charge. A delivery charge is only applied to the check when the Dining Option is set to Delivery.
+****Calculated on pre-discount or post-discount total****
+: Displays when the service charge type is **Fixed Percent**.
 
-A delivery service charge cannot have a service charge type of Open Amount.
+Select **Pre-discount Total** to calculate the service charge on the pre-discount check total.
 
-When you select Yes, the Delivery advanced configuration fields are displayed below the Basicfields.
-
-Each service charge should only apply to one dining option (delivery, takeout, dine-in).
+Select **Post-discount Total** to calculate the service charge on the post-discount check total.
 
 
 
-**Take Out?**
-: Select Yes to make this a takeout service charge. A takeout service charge is only applied to the check when the Dining Option is set to Take Out.
+****Delivery?****
+: Select **Yes** to make this a delivery service charge. A delivery charge is only applied to the check when the **Dining Option** is set to **Delivery**.
 
-A takeout service charge cannot have a service charge type of Open Amount.
+A delivery service charge cannot have a service charge type of **Open Amount**.
+
+When you select **Yes**, the **Delivery** advanced configuration fields are displayed below the **Basic**fields.
 
 Each service charge should only apply to one dining option (delivery, takeout, dine-in).
 
 
 
-**Dine-In?**
-: Select Yes to make this a dine-in service charge. A dine-in service charge is only applied to the check when the Dining Option is set to Dine-In.
+****Take Out?****
+: Select **Yes** to make this a takeout service charge. A takeout service charge is only applied to the check when the **Dining Option** is set to **Take Out**.
 
-A dine-in service charge cannot have a service charge type of Open Amount.
+A takeout service charge cannot have a service charge type of **Open Amount**.
+
+Each service charge should only apply to one dining option (delivery, takeout, dine-in).
+
+
+
+****Dine-In?****
+: Select **Yes** to make this a dine-in service charge. A dine-in service charge is only applied to the check when the **Dining Option** is set to **Dine-In**.
+
+A dine-in service charge cannot have a service charge type of **Open Amount**.
 
 Each service charge should only apply to one dining option (delivery, takeout, dine-in).
 
@@ -147,31 +147,31 @@ Each service charge should only apply to one dining option (delivery, takeout, d
 
 
 
-5. If you set Taxed to Yes, the Taxes advanced configuration is displayed.
+5. If you set **Taxed** to **Yes**, the **Taxes** advanced configuration is displayed.
 
-Use the Applicable Taxes option to select the configured tax rates to apply.
+Use the **Applicable Taxes** option to select the configured tax rates to apply.
 
-The tax rates are configured on the Menus &gt; Menu management &gt; Tax rates setup page.
-
-
-6. If you set Delivery? to Yes, the Deliveryadvanced configuration is displayed.
-
-Delivery includes the following options:
+The tax rates are configured on the **Menus &gt; Menu management &gt; Tax rates setup** page.
 
 
+6. If you set **Delivery?** to **Yes**, the **Delivery**advanced configuration is displayed.
 
-**Waive Fee Threshold**
+**Delivery** includes the following options:
+
+
+
+****Waive Fee Threshold****
 : Enter the threshold (as a dollar amount) that determines whether to waive the delivery service charge.
 
 The service charge is waived if the pre-discount amount of the check is greater than or equal to this amount. For example, you might want to waive the delivery fee for orders of $50.00 or more.
 
 If this amount is 0.00, then the service charge is not waived.
 
-Do not set Wave Fee Threshold if you have set Apply After Amount Threshold.
+Do not set **Wave Fee Threshold** if you have set **Apply After Amount Threshold**.
 
 
 
-**Delivery Distance Threshold**
+****Delivery Distance Threshold****
 : Enter the distance value that determines whether to apply the delivery service charge.
 
 If the driving distance from the restaurant to the delivery address is greater than or equal to this value, then the service charge is applied.
@@ -183,25 +183,25 @@ For example, you might want to apply a delivery service charge to orders that ar
 
 
 
-7. Click Save and publish your changes.
+7. Click **Save** and publish your changes.
 
 
 
 ## Determining the display sequence of service charges
 
-On the Toast POS device, the service charges are displayed using the same sequence as the Service Chargespage.
+On the Toast POS device, the service charges are displayed using the same sequence as the **Service Charges**page.
 
-From the Service Charges page, to change the display sequence of the service charges:
+From the **Service Charges** page, to change the display sequence of the service charges:
 
-1. Click the Order button.
+1. Click the **Order** button.
 
 
-2. In the Order column for each service charge, type a number to indicate the position of the service charge in the list.
+2. In the **Order** column for each service charge, type a number to indicate the position of the service charge in the list.
 
 The numbering starts with 0. Assign 0 to the service charge to display at the top of the list. Assign 1 to the service charge to display second in the list, and so on.
 
 
-3. To save the new display sequence for the service charges, click Done.
+3. To save the new display sequence for the service charges, click **Done**.
 
 
 

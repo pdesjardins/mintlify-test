@@ -30,7 +30,7 @@ On the customer information screen, you can:
 
 
 
-You can access the customer information screen from the Quick Order screen on the Toast POS app. On the Quick Order screen, select the Dining option button to display your dining options. Select a dining option with a dining behavior of either takeout, curbside, or delivery to display the customer information screen.
+You can access the customer information screen from the **Quick Order** screen on the Toast POS app. On the **Quick Order **screen, select the **Dining option** button to display your dining options. Select a dining option with a dining behavior of either takeout, curbside, or delivery to display the customer information screen.
 
 ## Customer information screen settings
 
@@ -41,13 +41,13 @@ Certain Toast Web configurations and settings affect how the customer informatio
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.
+2. Choose **Takeout & delivery** &gt; **Availability** &gt; **Takeout/delivery** to open the **Takeout/delivery** page.
 
 
-3. In the Takeout section, under the Takeout customer information setting, select Prompt for takeout customer information (phone and name).
+3. In the **Takeout** section, under the **Takeout customer information** setting, select **Prompt for takeout customer information (phone and name)**.
 
 
-4. Select the Save button and then Publish all changes button.
+4. Select the **Save** button and then **Publish all changes** button.
 
 
 
@@ -56,13 +56,13 @@ Certain Toast Web configurations and settings affect how the customer informatio
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.
+2. Choose **Takeout & delivery** &gt; **Availability** &gt; **Takeout/delivery** to open the **Takeout/delivery** page.
 
 
-3. In the Delivery section, under the Billing customer setting, select Billing customer information always matches delivery information.
+3. In the **Delivery** section, under the **Billing customer** setting, select **Billing customer information always matches delivery information**.
 
 
-4. Select the Save button and then Publish all changes button.
+4. Select the **Save** button and then **Publish all changes** button.
 
 
 
@@ -109,7 +109,7 @@ If a search entry is associated with multiple guest profiles, the profiles appea
 
 
 
-If no guest profile is found, the New customer screen appears. You can create a new guest profile on the New customer screen.
+If no guest profile is found, the **New customer **screen appears. You can create a new guest profile on the **New customer** screen.
 
 
 2. If there are multiple guest profiles, select the guest profile to open the guest details panel. In the guest details panel, you can view guest details and complete the following actions:
@@ -164,20 +164,20 @@ You can edit a guest’s profile from the guest details panel.
 
 **Procedure 13.7. To edit a guest’s profile**
 
-1. From the guest details panel, select the Edit customer button. This opens the Edit customer screen. The guest’s profile information is pre-populated.
+1. From the guest details panel, select the **Edit customer** button. This opens the **Edit customer** screen. The guest’s profile information is pre-populated.
 
 
 2. Edit the guest’s information. For delivery orders, you can add or remove a delivery address, or verify an address.
 
-- To add an address, select the + Address button. This opens the Addresssection. Enter in the guest’s address and then select the Save button.
+- To add an address, select the **+ Address** button. This opens the **Address******section. Enter in the guest’s address and then select the **Save** button.
 
 
-- To remove an address, select the Remove button and then select the Save button.
+- To remove an address, select the **Remove** button and then select the **Save **button.
 
 
-- To verify an address, select the Verify address button. The Verify address button only appears if the Toast platform cannot verify the delivery address. The Verify address button opens the Address verification dialog box. The dialog box contains a list of possible matching addresses to choose from. Select the correct address and then the Updatebutton to verify and update the delivery address or the Cancel button to cancel out of the dialog box.
+- To verify an address, select the **Verify address** button. The **Verify address** button only appears if the Toast platform cannot verify the delivery address. The **Verify address** button opens the **Address verification** dialog box. The dialog box contains a list of possible matching addresses to choose from. Select the correct address and then the **Update**button to verify and update the delivery address or the **Cancel** button to cancel out of the dialog box.
 
-If the Toast platform cannot load or find addresses, or determine the delivery range, a warning message appears at the bottom of the dialog box. Select the Continue anyway button to save the address and continue or the Cancel button to close out of the dialog box.
+If the Toast platform cannot load or find addresses, or determine the delivery range, a warning message appears at the bottom of the dialog box. Select the **Continue anyway** button to save the address and continue or the **Cancel** button to close out of the dialog box.
 
 
 
@@ -192,7 +192,7 @@ If the Toast platform cannot load or find addresses, or determine the delivery r
 
 ## Adding a guest’s profile to an order
 
-To add a guest’s profile to an order, select the guest profile to open the guest details panel. Select the ✓ Selectbutton to add the guest profile to the order. The ✓ Select button is unavailable if information required to complete the order is missing. For example, if a delivery address is missing from a delivery order, you cannot select the profile until a delivery address is added.
+To add a guest’s profile to an order, select the guest profile to open the guest details panel. Select the **✓ Select**button to add the guest profile to the order. The **✓ Select** button is unavailable if information required to complete the order is missing. For example, if a delivery address is missing from a delivery order, you cannot select the profile until a delivery address is added.
 
 If the delivery address is within the restaurant’s delivery area, a `Within delivery range (# of miles)` label appears at the bottom of the guest details panel. If the delivery address is outside of the restaurant’s delivery area, an `Out of delivery range (# of miles)` label appears. If the address has not been verified, a `Can’t determine distance (unverified address)` label appears.
 
@@ -207,10 +207,10 @@ If the delivery address is within the restaurant’s delivery area, a `Within de
 
 **Procedure 13.8. To create a new guest profile**
 
-1. On the customer information screen, navigate to the Overflow menu (the ⋮ icon) and select the New customer button. This opens the New customer screen.
+1. On the customer information screen, navigate to the **Overflow menu **(the ⋮ icon) and select the **New customer** button. This opens the **New customer** screen.
 
 
-2. On the New customer screen, enter the following required information. Note that each dining behavior may require different information:
+2. On the **New customer** screen, enter the following required information. Note that each dining behavior may require different information:
 
 - Takeout
 
@@ -279,16 +279,16 @@ You can schedule a future from the customer information screen.
 
 **Procedure 13.9. To schedule a future order**
 
-1. Select the Schedule button at the top of the customer information screen. This opens the Set preparation time dialog box.
+1. Select the **Schedule** button at the top of the customer information screen. This opens the **Set preparation time** dialog box.
 
 
 2. Select your new preparation (prep) date and time. The prep time is defaulted to the setting in Toast Web. To update the prep time, select the new time in days, hours, or minutes.
 
 
-3. Select the Next button to go to the Date screen. If the prep time has changed, the Date screen displays the new prep time and when the order will be ready. On the Date screen, select a new date or schedule the order for ASAP fulfillment.
+3. Select the **Next** button to go to the **Date** screen. If the prep time has changed, the **Date** screen displays the new prep time and when the order will be ready. On the **Date** screen, select a new date or schedule the order for ASAP fulfillment.
 
 
-4. Select the Select button to save your changes or select the Cancel button to cancel out of the dialog box.
+4. Select the **Select** button to save your changes or select the **Cancel** button to cancel out of the dialog box.
 
 The new scheduled fulfillment date and time appears at the top of the customer information screen.
 
@@ -296,7 +296,7 @@ The new scheduled fulfillment date and time appears at the top of the customer i
 
 ## Reordering from previous orders
 
-You can reorder menu items from the guest details panel. In the guest details panel, under Previous orders, you can view the guest's order history. Select a previous order entry to display the order information including order date, item quantity, item name, and item price.
+You can reorder menu items from the guest details panel. In the guest details panel, under **Previous orders**, you can view the guest's order history. Select a previous order entry to display the order information including order date, item quantity, item name, and item price.
 
 
 
@@ -305,7 +305,7 @@ You can reorder menu items from the guest details panel. In the guest details pa
 > If the previously ordered item has a new price, the new price is displayed on the guest details panel with a `new price`label.
 
 
-To reorder, select the order entry and then select the ✓ Add to order button. This opens the Quick Order screen, and the items from that order appear on the order screen.
+To reorder, select the order entry and then select the **✓ Add to order** button. This opens the **Quick Order** screen, and the items from that order appear on the order screen.
 
 ## Configuring your delivery area
 

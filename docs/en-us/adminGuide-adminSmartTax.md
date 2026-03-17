@@ -51,10 +51,10 @@ Your sales reports display the item price and tax amount that the Toast platform
 - [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-- Choose Front of house &gt; Order screen setup &gt; UI options to open the UI Optionspage.
+- Choose **Front of house &gt; Order screen setup &gt; UI options** to open the **UI Options**page.
 
 
-- In the Tax options section, set Smart tax to On.
+- In the **Tax options** section, set **Smart tax** to **On**.
 
 
 - Save your changes.
@@ -64,13 +64,13 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 2. Turn on smart tax for the menu components that should use it:
 
-- Choose Menus &gt; Bulk management &gt; Advanced properties to open the Advanced properties page.
+- Choose **Menus &gt; Bulk management &gt; Advanced properties** to open the **Advanced properties** page.
 
 
-- From the Show/Hide drop-down menu, select Tax Inclusion Option to add that column to the view.
+- From the **Show/Hide** drop-down menu, select **Tax Inclusion Option** to add that column to the view.
 
 
-- Expand your menu hierarchy and choose Smart Tax in the Tax Inclusion Optioncolumn for the menu entities you want to apply smart tax to. You can apply smart tax to menus, menu groups, or menu items.
+- Expand your menu hierarchy and choose **Smart Tax** in the **Tax Inclusion Option**column for the menu entities you want to apply smart tax to. You can apply smart tax to menus, menu groups, or menu items.
 
 
 - Save your changes.
@@ -78,7 +78,7 @@ Your sales reports display the item price and tax amount that the Toast platform
 
 
 
-3. Create revenue centers for your restaurant sections (for example, Bar and Dining Room). When you create the revenue centers, turn on the Smart Tax setting for the revenue centers where you want to tax *to be included* (the Bar, in this example). See this [Toast Central article](https://central.toasttab.com/s/article/Creating-and-Assigning-Revenue-Centers) for detailed instructions on creating revenue centers.
+3. Create revenue centers for your restaurant sections (for example, Bar and Dining Room). When you create the revenue centers, turn on the **Smart Tax** setting for the revenue centers where you want to tax *to be included* (the Bar, in this example). See this [Toast Central article](https://central.toasttab.com/s/article/Creating-and-Assigning-Revenue-Centers) for detailed instructions on creating revenue centers.
 
 
 4. Publish all your changes in Toast Web.
@@ -94,6 +94,6 @@ With this configuration, when menu items are ordered, their tax inclusion status
 
 > **Note**
 > 
-> For the smart tax feature to work properly, all menu items that might be ordered at the revenue center that has Smart Tax enabled should have their Tax Inclusion Option set to Smart Tax (either by inheriting the value from a parent menu or menu group, or by having it set explicitly on the menu item). If a mix of menu items are ordered where some use smart tax and others don't, then the Toast platform ignores the Smart Tax setting and treats all of the menu items as if tax is not included in their prices.
+> For the smart tax feature to work properly, all menu items that might be ordered at the revenue center that has **Smart Tax** enabled should have their **Tax Inclusion Option** set to **Smart Tax** (either by inheriting the value from a parent menu or menu group, or by having it set explicitly on the menu item). If a mix of menu items are ordered where some use smart tax and others don't, then the Toast platform ignores the **Smart Tax** setting and treats all of the menu items as if tax is not included in their prices.
 
 

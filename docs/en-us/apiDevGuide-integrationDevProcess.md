@@ -68,9 +68,16 @@ Before moving forward into the development stage, the potential integration part
 
 The partner agreement defines the details and business terms of the partnership between the integration partner and Toast. At this stage, business terms are presented by both the potential integration partner and Toast. A partnership agreement must be signed before moving forward in the integration development process.
 
+
+
+> **Note**
+> 
+> If you're planning to offer your integration to new regions, contact your Toast representative to update your partner agreement. Toast operates in Australia, Canada, Ireland, the United Kingdom, and the United States. Other locations may be added at a later time.
+
+
 ## Development kickoff
 
-If you have met the requirements listed above, you enter the development stage. In this stage, the Toast integrations team provides you with your [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts)authentication credentials, which can be used for testing in the [sandbox environment](apiDevGuide-apiEnvironments#apiSandboxEnvironment).
+If you have met the previous requirements, you enter the development stage. In this stage, the Toast integrations team provides you with your [partner API account](apiDevGuide-apiClientAccounts#apiPartnerApiClientAccounts)authentication credentials, which can be used for testing in the [sandbox environment](apiDevGuide-apiEnvironments#apiSandboxEnvironment).
 
 Once sandbox credentials are provided, you can begin to write and test your code. As you build your integration, refer to our [integration development checklists](apiDevGuide-apiIntegrationChecklists).
 
@@ -101,13 +108,18 @@ After your integration is certified, the Toast integrations team issues producti
 
 During this phase, your integration is enabled for a single restaurant as the alpha customer. After a week of usage, the Toast integrations team checks your integration's performance logs and the alpha customer can provide feedback.
 
+
+
+> **Note**
+> 
+> When expanding to new regions, you need to identify a new customer or location in that region for testing. The Toast integrations team will connect the new location to your integration for testing before the integration is generally available to other locations.
+
+
 ## Beta phase
 
 After you have received your integration certification, production credentials, and have completed a successful alpha test phase, your integration enters the beta phase.
 
-You choose 3-5 restaurants or restaurant groups to participate in the beta phase. Each restaurant or restaurant group should use the integration in the production environment for several weeks. This gives them enough time to familiarize themselves with the integration and adopt it into their daily workflows.
-
-
+You choose three to five locations or management groups to participate in the beta phase. Each restaurant or restaurant group should use the integration in the production environment for several weeks. This gives them enough time to familiarize themselves with the integration and adopt it into their daily workflows.
 
 
 
@@ -122,12 +134,12 @@ You'll work with the Toast integration partner marketing team to develop co-mark
 
 ## General availability
 
-If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the [My Integrations page](adminGuide-adminRestaurantServiceIntegrationsAndToastPartnerIntegrations).
+If your beta customers are satisfied with the integration, and your marketing materials are prepared, the Toast integrations team transitions the integration to general availability. In general availability, your integration is listed on the Toast platform [public integrations site](https://pos.toasttab.com/integrations). Restaurants can now add your integration from the **My Integrations page**.
 
 
 
 > **Note**
 > 
-> If you have a gift card and/or loyalty integration, your integration will not be available via the My Integrations page. You and/or your restaurant customer will need to email the integrations support team to have the integration set-up. This is because gift card/loyalty integrations require additional Toast Web settings to be enabled that are not customer-facing.
+> If you have a gift card integration, loyalty integration, or both, your integration will not be available via the **My Integrations page**. You, your customer, or both will need to email the integrations support team to have the integration set up. This is because gift card/loyalty integrations require additional Toast Web settings to be enabled that are not customer-facing.
 
 

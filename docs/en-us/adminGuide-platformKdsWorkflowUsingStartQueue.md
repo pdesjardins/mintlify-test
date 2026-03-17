@@ -56,7 +56,7 @@ Here is the order ticket on the Food prep station KDS device.
 ![The Food prep station KDS device showing an unstarted ticket on the UNSTARTED side of the screen.](https://doc.toasttab.com/doc/media/kds-start-queue-workflow-unstarted-prep-1.png)
 
 
-3. At the Drinks prep station, a line cook sees the Medium Green Tea ticket on the UNSTARTED side of the Drinks prep station KDS device and selects it once to start it. The ticket moves from the UNSTARTED side to the COOKING side of the screen. 
+3. At the Drinks prep station, a line cook sees the Medium Green Tea ticket on the **UNSTARTED** side of the Drinks prep station KDS device and selects it once to start it. The ticket moves from the **UNSTARTED** side to the **COOKING** side of the screen. 
 
 ![The Drinks prep station KDS device showing a started ticket on the COOKING side of the screen.](https://doc.toasttab.com/doc/media/kds-start-queue-workflow-started-prep-1.png)
 
@@ -67,7 +67,7 @@ The partial fulfillment indicator appears next to the Drinks prep station item o
 The ticket on the Food prep station KDS device is unchanged.
 
 
-4. At the Food prep station, a line cook finishes a previous task and can now work on the Curry Bread and Ramen items and selects the ticket once to start it. The ticket moves from the UNSTARTED side to the COOKING side of the screen. 
+4. At the Food prep station, a line cook finishes a previous task and can now work on the Curry Bread and Ramen items and selects the ticket once to start it. The ticket moves from the **UNSTARTED** side to the **COOKING** side of the screen. 
 
 ![The Food prep station device showing a started ticket on the COOKING side of the screen.](https://doc.toasttab.com/doc/media/kds-start-queue-workflow-started-prep-2.png)
 

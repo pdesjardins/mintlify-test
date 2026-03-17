@@ -26,11 +26,11 @@ Restaurant group-level permissions are required for any employee that needs to:
 
 
 
-The specific permissions you have to a restaurant group determine what you can do with that restaurant group. For example, if you have the Restaurant Admin &gt; Sales Report permission for a restaurant group, you can view sales reports for the group as a whole as well as for any of the individual locations within the group. Similarly, an employee with the Restaurant Admin &gt; Edit Full Menu permission to a restaurant group can edit all aspects of a menu item owned by that restaurant group, while an employee with the Restaurant Admin &gt; Local Menu Edit permission is restricted to tasks like providing a location-specific price for a menu item, or adding a menu item to or removing it from a menu group. (See [Understanding menu editing permissions for enterprises](adminGuide-adminUnderstandingMenuEditingPermissionsForEnterprises) for more information on menu editing permissions.)
+The specific permissions you have to a restaurant group determine what you can do with that restaurant group. For example, if you have the **Restaurant Admin &gt; Sales Report** permission for a restaurant group, you can view sales reports for the group as a whole as well as for any of the individual locations within the group. Similarly, an employee with the **Restaurant Admin &gt; Edit Full Menu** permission to a restaurant group can edit all aspects of a menu item owned by that restaurant group, while an employee with the **Restaurant Admin &gt; Local Menu Edit** permission is restricted to tasks like providing a location-specific price for a menu item, or adding a menu item to or removing it from a menu group. (See [Understanding menu editing permissions for enterprises](adminGuide-adminUnderstandingMenuEditingPermissionsForEnterprises) for more information on menu editing permissions.)
 
-Employees inherit restaurant group-level permissions at all of the locations in the group they have access to. For example, if you gave an employee the Restaurant Admin &gt; Sales Reportspermission to the Franchise Owner 1 group above, the employee would have the Restaurant Admin &gt; Sales Reports permission to the Boston and NYC locations, too (assuming the employee has restaurant access to the Boston and NYC locations).
+Employees inherit restaurant group-level permissions at all of the locations in the group they have access to. For example, if you gave an employee the **Restaurant Admin &gt; Sales Reports**permission to the Franchise Owner 1 group above, the employee would have the **Restaurant Admin &gt; Sales Reports** permission to the Boston and NYC locations, too (assuming the employee has restaurant access to the Boston and NYC locations).
 
-You can give an employee permissions to a restaurant group without giving the employee restaurant access to the group's child locations. For example, you may have a corporate employee that needs to review sales reports for the locations in a restaurant group but does not need to log into the Toast POS devices at those locations. In this case, you can give the employee the Restaurant Admin &gt; Sales Reportspermission to the restaurant group and ignore the Restaurant Access tab.
+You can give an employee permissions to a restaurant group without giving the employee restaurant access to the group's child locations. For example, you may have a corporate employee that needs to review sales reports for the locations in a restaurant group but does not need to log into the Toast POS devices at those locations. In this case, you can give the employee the **Restaurant Admin &gt; Sales Reports**permission to the restaurant group and ignore the **Restaurant Access** tab.
 
 The procedures below describe how to give and remove restaurant group-level permissions. To perform these procedures, you must have the proper permissions yourself, as described in [Editing an employee's permissions](adminGuide-adminEditingEmployeeInformationJobsAndPermissionsInEnterprises#adminEditingAnEmployeesPermissions).
 
@@ -42,25 +42,25 @@ The procedures below describe how to give and remove restaurant group-level perm
 2. If necessary, switch to a location where the employee has access.
 
 
-3. Choose Employees &gt; Employee management &gt; Employees to open the Employeespage.
+3. Choose **Employees &gt; Employee management &gt; Employees** to open the **Employees**page.
 
 
 4. Click the pencil for the employee you want to edit.
 
 
-5. Click the Jobs and Permissions tab.
+5. Click the **Jobs and Permissions** tab.
 
 
-6. Click the Add Group/Restaurant Permissionsbutton. You see the Add Group Permissionsmodal.
+6. Click the **Add Group/Restaurant Permissions**button. You see the **Add Group Permissions**modal.
 
 
-7. Select the restaurant group you want to add permissions for and click Add. An entry is added to the Access Permissions area for the restaurant group.
+7. Select the restaurant group you want to add permissions for and click **Add**. An entry is added to the **Access Permissions** area for the restaurant group.
 
 
 8. Click the entry to see the permissions the employee has to the restaurant group. By default, the employee is given the permissions associated with their assigned jobs. You can make adjustments if necessary.
 
 
-9. Click Save.
+9. Click **Save**.
 
 
 
@@ -72,19 +72,19 @@ The procedures below describe how to give and remove restaurant group-level perm
 2. If necessary, switch to a location where the employee has access.
 
 
-3. Choose Employees &gt; Employee management &gt; Employees to open the Employeespage.
+3. Choose **Employees &gt; Employee management &gt; Employees** to open the **Employees**page.
 
 
 4. Click the pencil for the employee you want to edit.
 
 
-5. Click the Jobs and Permissions tab.
+5. Click the **Jobs and Permissions** tab.
 
 
 6. Click the trash can for the restaurant group entry whose permissions you want to remove.
 
 
-7. Click Save.
+7. Click **Save**.
 
 
 

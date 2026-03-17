@@ -15,38 +15,38 @@ procedures: 1
 codeExamples: 0
 ---
 
-If you use KDS devices to display tickets, you must have the 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setupaccess permission to configure each device to display the tickets for a specific prep station. Before you add a prep station to a KDS device, consider whether you want or need to display the items sent to that prep station on that device.
+If you use KDS devices to display tickets, you must have the **6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup**access permission to configure each device to display the tickets for a specific prep station. Before you add a prep station to a KDS device, consider whether you want or need to display the items sent to that prep station on that device.
 
 
 
 > **Note**
 > 
-> The Send to and Sequenced KDS fulfillment settings are in limited release.
+> The **Send to** and **Sequenced KDS fulfillment** settings are in limited release.
 
 
-Prep stations with the Send to setting set to Expediter only do not print or show items on prep station KDS devices. Prep stations with the Send tosetting set to Prep station and expediter or Prep station only display on prep station KDS devices. If you use Sequenced KDS fulfillment and require fulfillment at prep stations before expediter devices with this setting, items must be fulfilled at a prep station first. If you set the Send to setting to Prep station only, however, items do not require fulfillment at the expediter.
+Prep stations with the **Send to** setting set to **Expediter only** do not print or show items on prep station KDS devices. Prep stations with the **Send to**setting set to **Prep station and expediter** or **Prep station only** display on prep station KDS devices. If you use **Sequenced KDS fulfillment** and require fulfillment at prep stations before expediter devices with this setting, items must be fulfilled at a prep station first. If you set the **Send to** setting to **Prep station only**, however, items do not require fulfillment at the expediter.
 
 
 
 > **Note**
 > 
-> If a prep station uses the Send to setting set to Expediter only, the prep station cannot be assigned to a KDS device. Items sent to this prep station appear on the expediter KDS device and do not require fulfillment at prep stations first.
+> If a prep station uses the **Send to** setting set to **Expediter only**, the prep station cannot be assigned to a KDS device. Items sent to this prep station appear on the expediter KDS device and do not require fulfillment at prep stations first.
 
 
-For more information about the Send to setting, see [Sequencing fulfillment by station type and level](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel). For more information about the Sequenced KDS fulfillmentsetting, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
+For more information about the **Send to** setting, see [Sequencing fulfillment by station type and level](adminGuide-platformKitchenUnderstandingItemFulfillmentKDS#platformKDSSequencingFulfillmentByStationTypeAndLevel). For more information about the **Sequenced KDS fulfillment**setting, see [Sending items to prep stations, expediters, or both](adminGuide-adminRoutingToPrepStations#platformKitchenSendingToPrepStationExpediterBoth).
 
 **Procedure 10.4. To assign a prep station to a KDS device**
 
-1. [Access the Toast POS Device Setup screen](adminGuide-adminConfigureDevice).
+1. [Access the Toast POS **Device Setup** screen](adminGuide-adminConfigureDevice).
 
 
-2. In the Kitchen Setup section, select Prep Stations.
+2. In the Kitchen Setup section, select **Prep Stations**.
 
 
 3. To display tickets for a listed prep station on this KDS device, check the prep station's name.
 
 
-4. Select Continue. The system saves the prep station assignment.
+4. Select **Continue**. The system saves the prep station assignment.
 
 
 
@@ -99,13 +99,13 @@ If you need to define different quantities for different item sizes, you must se
 
 To configure a production item, you must have the following access permissions.
 
-- 4. Restaurant Admin &gt; 4.5 Edit Full Menu
+- **4. Restaurant Admin &gt; 4.5 Edit Full Menu**
 
 
-- 6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup
+- **6. Web Setup &gt; 6.2 Kitchen / Dining Room Setup**
 
 
-- 7. Device Setup &gt; 7.3 KDS and Order Screen Setup
+- **7. Device Setup &gt; 7.3 KDS and Order Screen Setup**
 
 
 
@@ -131,10 +131,10 @@ Follow these procedures to complete the configuration of a production item.
 2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-3. Choose Kitchen &gt; Kitchen stations &gt; Production items to open the Production itemspage.
+3. Choose **Kitchen &gt; Kitchen stations &gt; Production items** to open the **Production items**page.
 
 
-4. Select the + Add button and then enter the name of the production item.
+4. Select the **+ Add** button and then enter the name of the production item.
 
 
 5. Repeat this procedure to create another production item.
@@ -144,9 +144,9 @@ For example, you set up production items for chicken tenders and chicken wings.
 ![The Production Items page in Toast Web, with items set up for chicken tenders and chicken wings.](https://doc.toasttab.com/doc/media/kitchen-tw-add-production-item.png)
 
 
-6. To change the sequence in which production items display, both on this page and along the bottom of the KDS ticket screen, select Order. An Order column appears in the table so that you can enter a sequence number next to each production item.
+6. To change the sequence in which production items display, both on this page and along the bottom of the KDS ticket screen, select **Order**. An **Order** column appears in the table so that you can enter a sequence number next to each production item.
 
-For example, if you want the Chicken Tenders total to appear before the Chicken Wings total on your KDS, enter 1 next to Chicken Tenders and then select Done.
+For example, if you want the Chicken Tenders total to appear before the Chicken Wings total on your KDS, enter 1 next to Chicken Tenders and then select **Done**.
 
 
 7. Save and publish your changes.
@@ -160,29 +160,29 @@ After you create one or more production items, you can assign them to menu items
 1. Identify a menu item or modifier that uses one of your production items and the quantity that it uses.
 
 
-2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)and then choose Menus &gt; Bulk management &gt; Advanced properties.
+2. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend)and then choose **Menus &gt; Bulk management &gt; Advanced properties**.
 
 
-3. (Multi-location restaurants only) Choose the locations you want to view from the You are viewing dropdown menu.
+3. (Multi-location restaurants only) Choose the locations you want to view from the **You are viewing** dropdown menu.
 
 
 4. Select the name of the menu item.
 
-- To add a production item to this menu item, scroll down to the Preparation section of the page.
+- To add a production item to this menu item, scroll down to the **Preparation** section of the page.
 
 
-- To add the production item to a modifier, scroll down to the Modifiers section of the page, select the name of the modifier group, select the name of the modifier, and then select Edit Item. You can then scroll down to the Preparation section of the page.
+- To add the production item to a modifier, scroll down to the **Modifiers** section of the page, select the name of the modifier group, select the name of the modifier, and then select **Edit Item**. You can then scroll down to the **Preparation** section of the page.
 
 
 
 
-5. If you are editing a menu item, select its name to see its classic details page. If you are editing a modifier option, select its name, then select Edit Item to see the classic details page for the modifier's [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
+5. If you are editing a menu item, select its name to see its classic details page. If you are editing a modifier option, select its name, then select **Edit Item** to see the classic details page for the modifier's [item reference](adminGuide-adminPricingModifierOptions#adminUnderstandingAModifierOptionsItemReference).
 
 
-6. Scroll down to the Preparation section of the page.
+6. Scroll down to the **Preparation** section of the page.
 
 
-7. In the Production Items field, select the plus (+) button and then use the dropdown list to select the production item.
+7. In the **Production Items** field, select the plus (+) button and then use the dropdown list to select the production item.
 
 
 8. Enter the quantity of the ingredient your kitchen uses to prepare this menu item or modifier.
@@ -209,16 +209,16 @@ After you assign one or more production items to menu items or modifiers, you ca
 2. On a Toast POS device, select the Toast logo or left arrow in the top corner until the Toast POS home screen appears.
 
 
-3. In the Setup section, select Device Setup and go to the Kitchen Setup section.
+3. In the **Setup** section, select **Device Setup** and go to the **Kitchen Setup** section.
 
 
-4. Select Production Items, and then select each production item that you want to display.
+4. Select **Production Items**, and then select each production item that you want to display.
 
 
-5. Select Continue, and then select the Toast logo or left arrow to return to the Toast POS home screen.
+5. Select **Continue**, and then select the Toast logo or left arrow to return to the Toast POS home screen.
 
 
-6. To verify that production item totals appear as expected, in the Mode section select Kitchen Display System.
+6. To verify that production item totals appear as expected, in the **Mode** section select **Kitchen Display System**.
 
 
 7. Repeat this procedure to configure another KDS device to report production items.

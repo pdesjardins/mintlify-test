@@ -9,7 +9,7 @@ previousSectionFile: apiDevGuide-apiUsingMultiLocationIdsInOrders.md
 previousSectionTitle: "Using multi-location IDs in orders"
 nextSectionFile: apiDevGuide-apiSpecifyingModifiersAndInstructions.md
 nextSectionTitle: "Specifying modifiers and instructions for menu item selections"
-externalReferences: [https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/, https://doc.toasttab.com/openapi/configuration/operation/tablesGet/, https://doc.toasttab.com/openapi/labor/operation/employeesGet/]
+externalReferences: [https://doc.toasttab.com/openapi/configuration/operation/diningOptionsGet/, https://doc.toasttab.com/openapi/configuration/operation/tablesGet/, https://doc.toasttab.com/openapi/labor/operation/employeesGet/, https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/DeliveryInfo/]
 excerpt: "Some of the required order details are based on the selected dining option."
 keywords: ["Order", "Check", "diningOption"]
 procedures: 0
@@ -206,27 +206,27 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1112EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1112EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">table</code> value provides the GUID of the table to create the order at. You can get the GUIDs of restaurant tables from the configuration API. Specifying a table is optional.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-exampleServerValueInTableOrder" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-exampleServerValueInTableOrder" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">server</code> value provides the GUID of the restaurant employee who is responsible for the order. Specifying an employee is optional.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1114EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1114EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">To create an order at a table, the behavior of the selected dining option must be <code className="font-mono text-sm">DINE_IN</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#RevenueCenterCO" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#RevenueCenterCO" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You can specify the revenue center associated with the order. Specifying a revenue center is optional.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1116EA92E6F1-6650-4630-A55E-D199990EEAD8" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">You must include a <code className="font-mono text-sm">checks</code> value with at least one <code className="font-mono text-sm">Check</code> object. The check does not need to include any menu item selections. You can optionally include a <code className="font-mono text-sm">customer</code> value with information about the restaurant guest.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#dineInEmail" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#dineInEmail" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In a <code className="font-mono text-sm">Customer</code> object, the <code className="font-mono text-sm">email</code> value is the unique identifier for a guest. <code className="font-mono text-sm">email</code> must be unique for each individual guest.</p></div></td>
     </tr>
 ## Creating a takeout order
@@ -286,19 +286,19 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e10237C48B789-81C4-4370-AA2B-3D1717E80367" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e10237C48B789-81C4-4370-AA2B-3D1717E80367" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the dining option for the order. The dining option must have a <code className="font-mono text-sm">behavior</code> of <code className="font-mono text-sm">TAKE_OUT</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e10257C48B789-81C4-4370-AA2B-3D1717E80367" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e10257C48B789-81C4-4370-AA2B-3D1717E80367" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">selections</code> object contains the menu item selections for the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e10277C48B789-81C4-4370-AA2B-3D1717E80367" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e10277C48B789-81C4-4370-AA2B-3D1717E80367" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">customer</code> object contains information about the guest who will pick up the order. This information is mandatory for takeout orders. The <code className="font-mono text-sm">firstName</code>, <code className="font-mono text-sm">lastName</code>, <code className="font-mono text-sm">phone</code>, and <code className="font-mono text-sm">email</code> fields are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#toEmailUnique" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#toEmailUnique" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In a <code className="font-mono text-sm">customer</code> object, the <code className="font-mono text-sm">email</code> value is the unique identifier for a guest. <code className="font-mono text-sm">email</code> must be unique for each individual guest.</p></div></td>
     </tr>
 ### Example response to a takeout order POST request
@@ -438,23 +438,23 @@ The following example shows the response from the `/orders` endpoint for a takeo
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106115FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106115FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier that the Toast platform assigns to the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106315FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106315FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The payment information is empty because the order request was made without a <code className="font-mono text-sm">payments</code> value. This means that the guest did not make any payments for this check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106515FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106515FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount (including tax) of this check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106715FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e106715FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time are null because the guest did not make a payment for the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e107215FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e107215FD65F4-5F6E-4E67-B244-1E63F8455F38" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about the guest who will pick up the order.</p></div></td>
     </tr>
 ## Creating a curbside pickup order
@@ -541,23 +541,23 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12650678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the dining option for the order. For a curbside pickup dining option, <code className="font-mono text-sm">behavior</code> is <code className="font-mono text-sm">TAKE_OUT</code> and <code className="font-mono text-sm">curbside</code> is <code className="font-mono text-sm">true</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e12850678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">curbsidePickupInfo</code> object contains information about the guest's mode of transportation. The restaurant uses the information in the <code className="font-mono text-sm">transportDescription</code>, <code className="font-mono text-sm">transportColor</code>, and <code className="font-mono text-sm">notes</code> fields to identify the guest when they arrive to pick up the order. <code className="font-mono text-sm">transportDescription</code> is required for curbside pickup orders.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13050678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13050678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">selections</code> object contains menu item selections for the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13250678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13250678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">customer</code> object contains information about the guest who will pick up the order. <code className="font-mono text-sm">customer</code> is mandatory for curbside pickup orders. <code className="font-mono text-sm">firstName</code>, <code className="font-mono text-sm">lastName</code>, <code className="font-mono text-sm">phone</code>, and <code className="font-mono text-sm">email</code> are required. The data must be correctly formatted. For example, the phone number must have exactly 10 digits.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13450678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e13450678CC9-5BB1-4B52-94B4-AD4E0A359130" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In a <code className="font-mono text-sm">customer</code> object, the <code className="font-mono text-sm">email</code> value is the unique identifier for a guest. <code className="font-mono text-sm">email</code> must be unique for each individual guest.</p></div></td>
     </tr>
 ### Example response to a curbside pickup order POST request
@@ -654,27 +654,27 @@ The following example shows the response from the `/orders` endpoint to a curbsi
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2266E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2266E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier that the Toast platform assigns to the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2286E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2286E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about the mode of transportation that the guest will use when they arrive to pick up their order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2306E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2306E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The payment information is empty because the order request was made without a <code className="font-mono text-sm">payments</code> value. This means that the guest did not make any payments for this check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2326E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2326E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time are null because the guest did not make a payment for the check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2346E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2346E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The total amount (including tax) of this check.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2376E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e2376E27FB7C-6DE5-4877-99EB-55403F2FA4EF" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about the guest who will pick up the order.</p></div></td>
     </tr>
 ## Creating a delivery order
@@ -691,9 +691,18 @@ In `customer`, the `firstName`, `lastName`, `phone`, and `email` fields are requ
 
 ### Providing delivery information for a delivery order
 
-For a delivery order, the order object must include a `deliveryInfo` object that provides details about the address to deliver the order to.
+For a delivery order, the `Order` object must include a `DeliveryInfo` object that provides details about the address to deliver the order to.
 
-In `deliveryInfo`, you must provide the `address1`, `city`, `state`, and `zipCode` fields. The `state` value must use the state abbreviation, not the state full name. For example, use `TX` instead of `Texas`.
+In `DeliveryInfo`, you must provide the `address1`, `city`, `state`, and `zipCode` fields. The `state` value must use the state abbreviation, not the state full name. For example, use `TX` instead of `Texas`.
+
+Use the following rules to choose either the `administrativeArea` value or the `state` value for a delivery address in [the `DeliveryInfo` object](https://doc.toasttab.com/openapi/orders/tag/Data-definitions/schema/DeliveryInfo/)when you create delivery orders in the orders API.
+
+- If the country for the delivery address is the United States (U.S.) or Canada, use the `state` value for the U.S. state or Canadian province. Omit the `administrativeArea`value.
+
+
+- If the country for the delivery address is not the U.S. or Canada (anywhere else in the world), use the `administrativeArea` value. Include the string XX in the required `state` value.
+
+
 
 You can also optionally use the `notes` value to provide notes for the delivery. For example, you can indicate where to leave the delivery or how to contact the guest when the delivery arrives.
 
@@ -750,19 +759,19 @@ The following example shows the message body for a `POST`request to the `/orders
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11712BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11712BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The GUID of the dining option for the order. For a delivery dining option, <code className="font-mono text-sm">behavior</code> must be <code className="font-mono text-sm">DELIVERY</code>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11732BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11732BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">deliveryInfo</code> object contains information about the address to deliver the order to. This information is required for delivery orders. The <code className="font-mono text-sm">address1</code>, <code className="font-mono text-sm">city</code>, <code className="font-mono text-sm">state</code>, and <code className="font-mono text-sm">zipCode</code> fields are required. The state value must use the state abbreviation instead of the state full name. For example, "TX" instead of "Texas".</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e11752BEEE554-052B-4000-8FFB-C21234C82F0B" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The <code className="font-mono text-sm">customer</code> object contains information about the guest who will receive the order. The <code className="font-mono text-sm">customer</code> object is required for delivery orders. The <code className="font-mono text-sm">firstName</code>, <code className="font-mono text-sm">lastName</code>, <code className="font-mono text-sm">phone</code>, and <code className="font-mono text-sm">email</code> values are required. The data must be formatted correctly.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#delivEmailUnique" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#delivEmailUnique" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">In a <code className="font-mono text-sm">customer</code> object, the <code className="font-mono text-sm">email</code> value is the unique identifier for the guest. The <code className="font-mono text-sm">email</code> value must be unique for each individual guest.</p></div></td>
     </tr>
 ### Example response to a delivery order POST request
@@ -916,42 +925,42 @@ The following example shows the message body for an endpoint response to a deliv
 
 
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1232192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(1)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1232192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(1)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The unique identifier that the Toast platform assigns to the order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1234192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(2)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1234192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(2)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about the address to which the order will be delivered.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1236192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(3)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1236192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(3)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the delivery employee indicated that the order was delivered. The value is <code className="font-mono text-sm">null</code> because the order is not yet delivered.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1238192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(4)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1238192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(4)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the restaurant indicated that the order was available for delivery and assigned to a delivery employee. The value is <code className="font-mono text-sm">null</code> because the order is not yet available for delivery.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1240192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(5)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1240192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(5)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The Toast GUID or external identifier of the delivery employee. The value is <code className="font-mono text-sm">null</code> because a delivery employee is not yet assigned to this order.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1243192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(6)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1243192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(6)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the order was created.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1245192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(7)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1245192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(7)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">A status indicating where the selection currently is in the preparation workflow. A status of <code className="font-mono text-sm">NEW</code> means that the menu item selection was added to a check but was not yet sent to the KDS (Kitchen Display System) for preparation.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1247192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(8)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1247192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(8)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Any restaurant-configured service charges that applied to this check, such as a gratuity or a delivery fee. For information on service charges, see <a href="apiDevGuide-apiOrderPrices#apiServiceCharges" className="">Service charges for checks</a>.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1249192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(9)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1249192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(9)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">Information about the guest to whom the order will be delivered.</p></div></td>
     </tr>
     <tr className="">
-      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1251192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(10)</a></p></div></td>
+      <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed"><a href="#co-d1e1251192143FD-70F4-4988-8B22-E8F1BCABE104" className="">(10)</a> </p></div></td>
       <td className="px-4 py-4"><div className="space-y-4"><p className="text-base leading-relaxed">The date and time that the order is expected to be ready to be delivered.</p></div></td>
     </tr>

@@ -30,16 +30,16 @@ You can choose to reimburse delivery drivers for the wear and tear of their pers
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.
+2. Choose **Takeout & delivery &gt; Availability &gt; Takeout/delivery** to open the **Takeout/delivery** page.
 
 
-3. In the Driver Reimbursement section, the reimbursement setting is set to No, do not reimburse drivers as the default. To allow reimbursement, select Yes, reimburse drivers for each delivery order completed.
+3. In the **Driver Reimbursement** section, the reimbursement setting is set to **No, do not reimburse drivers** as the default. To allow reimbursement, select **Yes, reimburse drivers for each delivery order completed**.
 
 
 4. Enter the reimbursement amount.
 
 
-5. Select the Save button to save your changes.
+5. Select the **Save** button to save your changes.
 
 
 
@@ -50,10 +50,10 @@ You can also choose to configure a starting cash balance for a delivery driver. 
 1. [Access Toast Web](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Takeout & delivery &gt; Availability &gt; Takeout/delivery to open the Takeout/delivery page.
+2. Choose **Takeout & delivery &gt; Availability &gt; Takeout/delivery** to open the **Takeout/delivery** page.
 
 
-3. In the Driver Cash Management section, select Yes, assign driver bank for reporting. Enter the starting amount.
+3. In the **Driver Cash Management** section, select **Yes, assign driver bank for reporting**. Enter the starting amount.
 
 
 

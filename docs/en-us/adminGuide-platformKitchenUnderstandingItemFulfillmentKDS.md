@@ -23,12 +23,12 @@ For restaurants using KDS devices, you can mark a ticket or item as fulfilled. W
 > Fulfillment of a modifier at a different prep station than the menu item fulfills only the modifier and not the menu item. For example, there is a menu item Burger sent to Grill station with modifier Fries at the Fry station. Fulfillment of the ticket at the Fry station fulfills the Fries modifier; the Fries modifier is marked as fulfilled and the Burger item is not marked as fulfilled on the expediter KDS device.
 
 
-For items assigned to multiple prep stations, you can choose to determine how item fulfillment affects these items. The Fulfillment method setting determines which method your restaurant uses:
+For items assigned to multiple prep stations, you can choose to determine how item fulfillment affects these items. The **Fulfillment method** setting determines which method your restaurant uses:
 
-- Fulfill at the same time: This fulfills the item at all prep stations when it is marked as fulfilled at one prep station.
+- **Fulfill at the same time**: This fulfills the item at all prep stations when it is marked as fulfilled at one prep station.
 
 
-- Fulfill at each station independently: This requires item fulfillment at each assigned prep station for an item to be considered fulfilled.
+- **Fulfill at each station independently**: This requires item fulfillment at each assigned prep station for an item to be considered fulfilled.
 
 
 
@@ -69,7 +69,7 @@ The fulfillment process can be further personalized by:
 > This feature is in limited release.
 
 
-Using KDS devices, you can configure the order in which tickets or items are fulfilled by KDS device type. This is done using the Sequenced KDS fulfillment setting. You can choose to:
+Using KDS devices, you can configure the order in which tickets or items are fulfilled by KDS device type. This is done using the **Sequenced KDS fulfillment** setting. You can choose to:
 
 - Require fulfillment at all prep station KDS devices before fulfillment at the expediter KDS device.
 
@@ -108,7 +108,7 @@ For example, the Chicken Caesar Salad item is assigned to both the Grill and Sal
 
 ## Choose a fulfillment method
 
-By default, restaurants are configured to fulfill an item at multiple prep stations simultaneously when marked as fulfilled at one prep station. To change the fulfillment method for your restaurant, you can use the Fulfillment method setting.
+By default, restaurants are configured to fulfill an item at multiple prep stations simultaneously when marked as fulfilled at one prep station. To change the fulfillment method for your restaurant, you can use the **Fulfillment method** setting.
 
 
 
@@ -122,15 +122,15 @@ By default, restaurants are configured to fulfill an item at multiple prep stati
 1. [Access Toast Web ](adminGuide-adminAccessToastAdminBackend).
 
 
-2. Choose Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup to open the Kitchen page.
+2. Choose **Kitchen &gt; Printers, tickets, & KDS devices &gt; Kitchen and ticket setup** to open the **Kitchen** page.
 
 
-3. In the Ticket Screens section, select one of these options for Fulfillment method:
+3. In the **Ticket Screens** section, select one of these options for **Fulfillment method**:
 
-- Fulfill at the same time: Fulfills an item at all prep stations when it is marked as fulfilled at one prep station.
+- **Fulfill at the same time**: Fulfills an item at all prep stations when it is marked as fulfilled at one prep station.
 
 
-- Fulfill at each station independently: Requires fulfillment at each assigned prep station for an item to be considered fulfilled.
+- **Fulfill at each station independently**: Requires fulfillment at each assigned prep station for an item to be considered fulfilled.
 
 
 
@@ -142,16 +142,16 @@ By default, restaurants are configured to fulfill an item at multiple prep stati
 
 
 
-4. Select Save.
+4. Select **Save**.
 
 
-5. When you are ready to see these changes on the KDS devices, select Publish Now. If you are publishing to multiple restaurant locations, use the Publish Config page. For more information, see [Using the Publish Config page](adminGuide-platformHowToPublish#platformPublishingPublishConfigPage).
+5. When you are ready to see these changes on the KDS devices, select **Publish Now**. If you are publishing to multiple restaurant locations, use the **Publish Config** page. For more information, see [Using the Publish Config page](adminGuide-platformHowToPublish#platformPublishingPublishConfigPage).
 
 
 
 > **Note**
 > 
-> Toast support recommends waiting to publish kitchen changes when service is not in use to avoid missing tickets. Choose Resync ALL Data on your KDS devices to ensure that the new fulfillment method is in place.
+> Toast support recommends waiting to publish kitchen changes when service is not in use to avoid missing tickets. Choose **Resync ALL Data** on your KDS devices to ensure that the new fulfillment method is in place.
 
 
 
